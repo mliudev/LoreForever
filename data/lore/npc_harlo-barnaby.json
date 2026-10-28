@@ -8,11 +8,11 @@
   "wiki": "Harlo Barnaby",
   "refs": 1
  },
- "summary": "Harlo Barnaby is a wounded dwarven refugee residing in Menethil Harbor. Having barely escaped the slaughter when the Dark Iron clan seized Dun Modr, he now alerts travelers to the tragedy that unfolded in the northern marshes.",
+ "summary": "In Menethil Harbor, Harlo Barnaby bears the wounds of Dun Modr's fall. The dwarven refugee escaped the Dark Iron assault and warns travelers of the tragedy in the northern marshes.",
  "sections": [
   {
    "title": "Escape from Dun Modr",
-   "body": "Harlo Barnaby lived in Dun Modr until the northern stronghold fell to a sudden, savage assault by the Dark Iron dwarves. In the chaos of the ambush, Harlo fled south toward safety, only to catch a stray axe square in the back. Knocked unconscious by the blow, he somehow survived the trek across the marshland and awoke bandaged in Menethil Harbor. Though alive, his wounds and memories of the massacre leave him unable to return, prompting him to urge Alliance adventurers to investigate the smoking ruins of his former home.",
+   "body": "Harlo Barnaby fled Dun Modr when Dark Iron dwarves struck the northern stronghold without warning. In the chaos, a stray axe hit him square in the back. The blow knocked him unconscious, yet he survived the trek across the marshland. Harlo awoke bandaged in Menethil Harbor, alive but marked by his wounds and memories of the massacre. He cannot return to Dun Modr, so he urges Alliance adventurers to investigate the smoking ruins of his former home.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "who is harlo",
     "menethil harbor dwarf"
    ],
-   "answer": "Harlo Barnaby is an Ironforge dwarf living in Menethil Harbor who survived the brutal Dark Iron assault on the outpost of Dun Modr."
+   "answer": "Harlo Barnaby survived the Dark Iron assault on Dun Modr and now lives in Menethil Harbor. He is an Ironforge dwarf."
   },
   {
    "q": "How did Harlo Barnaby end up in Menethil Harbor?",
@@ -32,7 +32,7 @@
     "how did harlo get here",
     "harlo barnaby back injury"
    ],
-   "answer": "While fleeing the invasion of Dun Modr, he was struck in the back by a thrown axe. He lost consciousness during his retreat and woke up safe in Menethil Harbor under the care of local healers."
+   "answer": "Harlo Barnaby fled Dun Modr and was struck in the back by a thrown axe. He lost consciousness during his retreat and woke in Menethil Harbor, where local healers cared for him."
   },
   {
    "q": "What happened to Dun Modr?",
@@ -40,17 +40,17 @@
     "dun modr fall",
     "what happened at dun modr"
    ],
-   "answer": "Dun Modr was overrun and devastated by hostile Dark Iron dwarves pushing south from the Thandol Span, wiping out the local dwarven defenders and driving survivors into the wetlands."
+   "answer": "Dark Iron dwarves pushing south from the Thandol Span overran and devastated Dun Modr. The attack wiped out the local dwarven defenders and drove survivors into the wetlands."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "Harlo represents a living reminder of the persistent and bloody clan war against the treacherous Dark Irons who seek to sever Khaz Modan from the north."
+   "text": "As a dwarf, you see in Harlo a living reminder of the bloody clan war against the treacherous Dark Irons, who seek to sever Khaz Modan from the north."
   },
   {
    "target": "faction:Alliance",
-   "text": "The fall of Dun Modr threatens the critical land bridge between the marshlands and Arathi, making Harlo's warnings essential for Alliance forces."
+   "text": "As an Alliance member, you know Dun Modr's fall threatens the critical land bridge between the marshlands and Arathi. Harlo's warnings matter to Alliance forces."
   }
  ],
  "keywords": [
@@ -70,5 +70,6 @@
  ],
  "attribution": [
   "Harlo Barnaby"
- ]
+ ],
+ "style": 1
 }

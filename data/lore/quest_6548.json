@@ -20,16 +20,16 @@
    "Kill Grundig Darkcloud"
   ]
  },
- "summary": "Makaba Flathoof barely survived a vicious assault when raiders from the Grimtotem clan fell upon his village in the southeastern Stonetalon Mountains. Cut off from his kin and surrounded by the dead, he asks Horde travelers to strike back at the encampment of Grimtotem ruffians and hired sellswords to avenge his fallen people.",
+ "summary": "Makaba Flathoof asks Horde travelers to answer the Grimtotem assault on his village in southeastern Stonetalon. He barely survived, cut off from his kin and surrounded by the dead, and now seeks vengeance at the ruffians’ and hired sellswords’ encampment.",
  "sections": [
   {
    "title": "Blood in the Crags",
-   "body": "Near the border between the Barrens and the red stone passes of Stonetalon, Makaba Flathoof stands as a lone survivor of a brutal massacre. Raiders flying the dark banners of the Grimtotem clan descended without warning, slaughtering nearly everyone in his settlement. Though Makaba fought back fiercely and brought down several of the attackers, he was eventually driven into hiding with little more than his life and his wrath.",
+   "body": "Near the Barrens border, Makaba Flathoof is the lone survivor of a massacre in the red stone passes of Stonetalon. Grimtotem raiders descended without warning and slaughtered nearly everyone in his settlement. Makaba fought back and brought down several attackers, but they drove him into hiding with little more than his life and his wrath.",
    "spoiler": 0
   },
   {
    "title": "The Grimtotem Menace",
-   "body": "The Grimtotem have long been an unruly, aggressive thorn in the side of the tauren tribes united under High Chieftain Cairne Bloodhoof. Unlike the peaceful nomads wandering Mulgore, Grimtotem warbands frequently employ ruthless ruffians and opportunistic mercenaries to carve out territory and strike at isolated settlements. For Makaba, diplomacy or tribal kinship holds no meaning now; only blood repaid with blood can bring measure to his grief.",
+   "body": "The Grimtotem have long troubled the tauren tribes united under High Chieftain Cairne Bloodhoof. Unlike the peaceful nomads of Mulgore, their warbands use ruthless ruffians and opportunistic mercenaries to seize territory and strike isolated settlements. Makaba has no thought of diplomacy or tribal kinship now. Only blood repaid with blood can answer his grief.",
    "spoiler": 0
   }
  ],
@@ -41,7 +41,7 @@
     "makaba flathoof",
     "who is makaba"
    ],
-   "answer": "Makaba Flathoof is a tauren survivor encamped near the southeastern pass into the Stonetalon Mountains. He survived the violent sacking of his nearby village by the Grimtotem clan and seeks retribution against the raiders."
+   "answer": "Makaba Flathoof is a tauren survivor encamped near the southeastern pass into the Stonetalon Mountains. The Grimtotem clan sacked his nearby village, and he seeks retribution against the raiders."
   },
   {
    "q": "Why are the Grimtotem attacking other tauren?",
@@ -50,7 +50,7 @@
     "tauren attacking tauren",
     "grimtotem clan lore"
    ],
-   "answer": "The Grimtotem clan has never truly embraced the unity of the Horde or Cairne Bloodhoof's vision of peace. Fiercely territorial, xenophobic, and aggressive, they openly raid rival settlements, kill outsiders, and use armed thugs and hired mercenaries to claim dominion over regions like Stonetalon."
+   "answer": "The Grimtotem clan rejects unity under the Horde and Cairne Bloodhoof's vision of peace. Fiercely territorial, xenophobic, and aggressive, they raid rival settlements, kill outsiders, and use armed thugs and hired mercenaries to claim regions such as Stonetalon."
   },
   {
    "q": "Where are the Grimtotem attackers located?",
@@ -59,7 +59,7 @@
     "grimtotem camp location",
     "where to find ruffians"
    ],
-   "answer": "The Grimtotem ruffians and mercenaries are stationed in an encampment just west of Makaba Flathoof's position in southeastern Stonetalon, set among the rocky hills overlooking the pass."
+   "answer": "The Grimtotem ruffians and mercenaries are camped just west of Makaba Flathoof in southeastern Stonetalon, among rocky hills overlooking the pass."
   },
   {
    "q": "Who are the Grimtotem Mercenaries?",
@@ -68,7 +68,7 @@
     "grimtotem sellswords",
     "who are the mercs"
    ],
-   "answer": "The Grimtotem Clan frequently supplements its own warriors by hiring ruthless fighters and sellswords to bolster their warbands, ensuring they have sufficient muscle to terrorize and overrun isolated settlements."
+   "answer": "The Grimtotem Clan hires ruthless fighters and sellswords to strengthen its warbands and terrorize and overrun isolated settlements."
   },
   {
    "q": "What happens after this quest?",
@@ -77,7 +77,7 @@
     "what follows avenge my village",
     "kill grundig darkcloud"
    ],
-   "answer": "After cutting down the frontline ruffians and mercenaries, Makaba asks you to strike at the leader behind the massacre, Grundig Darkcloud, in the follow-up quest 'Kill Grundig Darkcloud'."
+   "answer": "After you cut down the frontline ruffians and mercenaries, Makaba asks you to strike at the leader behind the massacre, Grundig Darkcloud."
   },
   {
    "q": "Where was Makaba's village located?",
@@ -86,17 +86,17 @@
     "where was the village",
     "what village was destroyed"
    ],
-   "answer": "Makaba's settlement was an isolated tauren encampment situated near the border passes of southeastern Stonetalon. It was thoroughly wiped out by the Grimtotem raid, leaving Makaba as one of the few known survivors."
+   "answer": "Makaba's settlement was an isolated tauren encampment near the border passes of southeastern Stonetalon. The Grimtotem raid wiped it out, leaving Makaba as one of the few known survivors."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "The Grimtotem clan's treachery hits tauren travelers hardest. Seeing fellow shu'halo butchered by their own kind reinforces the grim reality of clan division and the danger the Grimtotem pose to Cairne's united people."
+   "text": "As a tauren, you see how Grimtotem treachery deepens the divide among the shu'halo. Their slaughter of their own kind shows the danger they pose to Cairne's united people."
   },
   {
    "target": "faction:Horde",
-   "text": "The Horde relies on open, secure passes between the Barrens and Stonetalon. A rogue Grimtotem band murdering travelers and allied villages threatens the Warchief's supply lines through the mountains."
+   "text": "As a member of the Horde, you depend on open, secure passes between the Barrens and Stonetalon. A rogue Grimtotem band killing travelers and allied villagers threatens the Warchief's supply lines through the mountains."
   }
  ],
  "keywords": [
@@ -115,5 +115,6 @@
  ],
  "attribution": [
   "Avenge My Village"
- ]
+ ],
+ "style": 1
 }

@@ -78,13 +78,14 @@
           aloud for hours of play.</p>
       </div>
       <!-- door:lore --><p class="h-lede" id="pl-pitch">Lore Forever is free and stays free: the add-on, every narration pack and every
-        language, and Willo, the companion, to chat with you about the world: 30 answers a day, out loud when you ask
-        out loud, and your first days with everything she can do. With a plan she does more: her finest voice on every
-        answer, she checks the web and sees your game, and keeps your goals; on Champion you pick her voice and
-        characters answer in their own; Legend adds her richer voice, the most answers and the Voices of Azeroth, and gets
-        new features first. Typed questions get text answers.</p><!-- /door:lore -->
-      <!-- door-willo:<p class="h-lede" id="pl-pitch">Willo is free to start: 30 answers a day, out loud when you ask out loud,
-        and your first days with everything she can do. A plan gives her more: her finest voice on every answer, an eye on
+        language, and Willo, the companion, to chat with you about the world: 50 answers a day, out loud when you ask
+        out loud, and your first days with everything she can do. With a plan she does more: unlimited answers, her
+        finest voice on every answer, she checks the web and sees your game, and keeps your goals; on Champion you pick
+        her voice and characters answer in their own; Legend adds her richer voice, her smarter mind and the Voices of
+        Azeroth, and gets new features first. Typed questions get text answers.</p><!-- /door:lore -->
+      <!-- door-willo:<p class="h-lede" id="pl-pitch">Willo is free to start: 50 answers a day, out loud when you ask out loud,
+        and your first days with everything she can do. A plan gives her more: unlimited answers, her finest voice on
+        every answer, an eye on
         your game and your goals, characters who answer in their own voices, and on Legend her richer voice and the
         Voices of Azeroth. Typed questions get text answers.</p>:door-willo -->
       <noscript><p class="fb-status">This page needs JavaScript.</p></noscript>
@@ -254,13 +255,11 @@
   function currentPlan(c) {
     if (c.reward) {
       // A free month for the friends they brought (lib/billing.js planFor reward).
-      return `You're on ${c.name}, free until ${c.ends} for the friends you brought: ` +
-        `${c.answersPerMonth.toLocaleString("en-US")} live answers this month, up to ${c.answersPerDay} a day.`;
+      return `You're on ${c.name}, free until ${c.ends} for the friends you brought: unlimited live answers.`;
     }
     if (c.launch) {
       // A free Hero month from the beta (lib/billing.js planFor launch): ends is the day it ends.
-      return `You're on ${c.name}, free until ${c.ends}: ${c.answersPerMonth.toLocaleString("en-US")} live ` +
-        `answers this month, up to ${c.answersPerDay} a day.`;
+      return `You're on ${c.name}, free until ${c.ends}: unlimited live answers.`;
     }
     if (c.id !== "free") {
       const monthly = money(plans.plans.find(p => p.id === c.id)?.monthly || 0);
@@ -270,7 +269,7 @@
         : c.status === "trialing" ? ` It's free until ${day(c.renews)}, then ${monthly} a month.`
         : c.renews ? ` It renews on ${day(c.renews)}.` : "";
       const late = c.status === "past_due" ? " Your last payment didn't go through: update your card under Manage billing to keep it." : "";
-      return `You're on ${c.name}: ${c.answersPerMonth.toLocaleString("en-US")} live answers a month, up to ${c.answersPerDay} a day.${ends}${late}`;
+      return `You're on ${c.name}: unlimited live answers.${ends}${late}`;
     }
     const everyday = plans.plans.find(p => p.id === "free").answersPerDay;
     return `You're on ${c.name}, the free plan. ` + (
@@ -374,9 +373,10 @@
       cards.forEach((card, i) => PlanExtras.promo(card, plans.plans[i]));
       PlanExtras.compare($("pl-compare"), plans.plans, plans.compare);
     }
-    // One line of fine print about Willo's finest voice (lib/billing.js VOICE_NOTE).
-    $("pl-voice-note").hidden = !plans.voiceNote;
-    $("pl-voice-note").textContent = plans.voiceNote || "";
+    // The fine print: what unlimited means (lib/billing.js FAIR_USE) and Willo's finest voice (VOICE_NOTE).
+    const fine = [plans.fairUse, plans.voiceNote].filter(Boolean).join(" ");
+    $("pl-voice-note").hidden = !fine;
+    $("pl-voice-note").textContent = fine;
     showVoicePack(welcome ? null : plans.voicePack, c);
   }
 

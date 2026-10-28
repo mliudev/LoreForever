@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Forlorn Rowe"
  },
- "summary": "The Forlorn Rowe is an ominous, shadowy hill perched on the northern boundary of the Raven Hill Cemetery in Duskwood. It is infamous as the dark abode of Morbent Fel, a necromancer whose malevolent magic animates the restless dead throughout the forest.",
+ "summary": "At the northern edge of Raven Hill Cemetery, Forlorn Rowe lies under a shadow of dread. Morbent Fel makes his home on the hill, and his magic raises the restless dead across Duskwood.",
  "sections": [
   {
    "title": "A Seat of Necromancy",
-   "body": "Rising along the northern edge of the Raven Hill Cemetery, the Forlorn Rowe is perpetually cloaked in gloom. Atop this rise sits the home of Morbent Fel, the lich-like necromancer responsible for much of the walking dead haunting the surrounding wilderness. Bound by foul arcane enchantments, the master of the hill directs his skeletal servants from this vantage, rendering the entire northwestern corner of Duskwood perilous for travelers.",
+   "body": "Forlorn Rowe rises along the northern edge of Raven Hill Cemetery, its slope lost in gloom. Morbent Fel makes his home atop the hill. The necromancer is responsible for much of the walking dead that haunt the surrounding wilderness. From this height, he directs his skeletal servants with foul enchantments, making Duskwood’s northwestern corner perilous for travelers.",
    "spoiler": 0
   },
   {
    "title": "Cleansing the Hill",
-   "body": "Morbent Fel's grasp on the Forlorn Rowe cannot be broken by ordinary steel alone. His dark enchantments protect his physical form from mortal weapons until he is weakened by specialized relics of holy power. Bringing down the necromancer and breaking his hold over the woods requires adventurers to secure consecrated armaments, striking at the heart of the curse smothering the cemetery grounds.",
+   "body": "Morbent Fel’s hold on Forlorn Rowe cannot be broken with ordinary steel. Dark enchantments protect his body from mortal weapons until relics of holy power weaken him. To bring down the necromancer and break his hold over the woods, adventurers must secure consecrated armaments and strike at the curse smothering the cemetery grounds.",
    "spoiler": 1
   }
  ],
@@ -28,7 +28,7 @@
     "where is forlorn rowe",
     "find forlorn rowe"
    ],
-   "answer": "The Forlorn Rowe is situated in northwestern Duskwood, resting directly on the northern ridge overlooking the sprawling Raven Hill Cemetery."
+   "answer": "Forlorn Rowe rises along the northern ridge of Raven Hill Cemetery in northwestern Duskwood, overlooking the cemetery."
   },
   {
    "q": "Who lives at the Forlorn Rowe?",
@@ -37,7 +37,7 @@
     "forlorn rowe boss",
     "house on the hill duskwood"
    ],
-   "answer": "It is the lair of Morbent Fel, a powerful and malevolent necromancer who uses dark arcane rites to raise and command the legions of undead wandering Duskwood."
+   "answer": "Morbent Fel makes his lair at Forlorn Rowe. The powerful necromancer uses dark arcane rites to raise and command the undead wandering Duskwood."
   },
   {
    "q": "Why is Morbent Fel so hard to fight here?",
@@ -46,7 +46,7 @@
     "morbent fel immune",
     "how to kill morbent fel"
    ],
-   "answer": "Morbent Fel shields himself with foul sorcery, rendering mundane attacks almost useless until he is stripped of his dark protections by a consecrated relic crafted to dispel his magic."
+   "answer": "Morbent Fel shields himself with foul sorcery, making ordinary attacks nearly useless until a consecrated relic crafted to dispel his magic strips away his protections."
   },
   {
    "q": "Is the Forlorn Rowe part of the cemetery?",
@@ -54,17 +54,17 @@
     "is forlorn rowe raven hill",
     "raven hill connection"
    ],
-   "answer": "Yes, it stands as an elevated bluff along the northern boundary of the Raven Hill Cemetery, directly overlooking the graves and crypts below."
+   "answer": "Yes. Forlorn Rowe rises along Raven Hill Cemetery’s northern boundary, overlooking the graves and crypts below."
   }
  ],
  "angles": [
   {
    "target": "class:Paladin",
-   "text": "The dark rites woven at the Forlorn Rowe represent an affront to the Holy Light, requiring consecrated relics and righteous wrath to pierce the necromancer's wards."
+   "text": "As a paladin, you face dark rites at Forlorn Rowe that defy the Holy Light. Consecrated relics and righteous wrath can pierce the necromancer’s wards."
   },
   {
    "target": "faction:Alliance",
-   "text": "Rooting out Morbent Fel from the Forlorn Rowe is critical for restoring a semblance of safety to Duskwood's western border."
+   "text": "As an Alliance member, you know that driving Morbent Fel from Forlorn Rowe is vital to restoring some safety to Duskwood’s western border."
   }
  ],
  "keywords": [
@@ -85,5 +85,6 @@
  ],
  "attribution": [
   "Forlorn Rowe"
- ]
+ ],
+ "style": 1
 }

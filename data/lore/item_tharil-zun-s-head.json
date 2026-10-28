@@ -10,11 +10,11 @@
    "quest:19"
   ]
  },
- "summary": "This grizzly trophy is the severed head of Tharil'zun, leader of the Blackrock orc Outrunners occupying Stonewatch. Marshal Marris demands it as irrefutable proof that the commander terrorizing the Redridge approaches has been slain.",
+ "summary": "Tharil'zun's Head reaches Lakeshire as proof that the commander terrorizing the Redridge approaches is dead. He led the Blackrock Outrunners occupying Stonewatch.",
  "sections": [
   {
    "title": "Trophy of Stonewatch",
-   "body": "The Blackrock orcs entrenched within Stonewatch Keep have exerted ruthless pressure on Lakeshire, raiding farms and ambushing travelers along the roads. At the vanguard of these raiding parties were the Blackrock Outrunners, orchestrated by Tharil'zun. Because the garrison in Lakeshire cannot afford to act on rumors or partial victories, Marshal Marris demands concrete proof of the leader's demise. Bringing him Tharil'zun's severed head demonstrates that the coordinated ambushes from the keep have suffered a major blow.",
+   "body": "Blackrock orcs at Stonewatch Keep have pressed Lakeshire hard, raiding farms and ambushing travelers on the roads. Tharil'zun directed the Blackrock Outrunners at the head of these attacks. Lakeshire's garrison cannot risk acting on rumors or partial victories, so Marshal Marris demands proof that Tharil'zun is dead. His severed head shows that the Outrunners' coordinated ambushes from the keep have suffered a major blow.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "who is tharilzun",
     "tharil'zun leader"
    ],
-   "answer": "Tharil'zun was a crafty and vicious Blackrock orc commander stationed at Stonewatch Keep. He led the Blackrock Outrunners, who ran relentless ambushes with the Renegades between Lakeshire and the keep."
+   "answer": "Tharil'zun was a crafty, vicious Blackrock orc commander at Stonewatch Keep. He led the Blackrock Outrunners, who ran relentless ambushes with the Renegades between Lakeshire and the keep."
   },
   {
    "q": "Why does Marshal Marris want his head?",
@@ -35,7 +35,7 @@
     "marris head proof",
     "marris bounty"
    ],
-   "answer": "With Stormwind withholding major military aid from Redridge, Marshal Marris and the Lakeshire guard rely on mercenaries to pick off key threats. Marris requires absolute proof of Tharil'zun's death to ensure the Outrunners' leadership is truly shattered."
+   "answer": "Stormwind withholds major military aid from Redridge, leaving Marshal Marris and the Lakeshire guard to rely on mercenaries to pick off key threats. Marris requires absolute proof of Tharil'zun's death to know the Outrunners' leadership is truly shattered."
   },
   {
    "q": "Where is Tharil'zun found?",
@@ -44,7 +44,7 @@
     "where is tharil'zun",
     "find tharil'zun"
    ],
-   "answer": "Tharil'zun holds Stonewatch Keep in the eastern hills of Redridge Mountains, surrounded by Blackrock orcs and gnolls."
+   "answer": "Tharil'zun holds Stonewatch Keep in Redridge Mountains' eastern hills, surrounded by Blackrock orcs and gnolls."
   },
   {
    "q": "Does taking Tharil'zun's head end the Blackrock threat?",
@@ -53,13 +53,13 @@
     "did we save redridge",
     "after tharil'zun"
    ],
-   "answer": "No. While slaying Tharil'zun disrupts the Outrunners' ambushes, the Blackrock clan maintains a massive entrenched force within Stonewatch Keep and across the Redridge Mountains."
+   "answer": "No. Tharil'zun's death disrupts the Outrunners' ambushes, but the Blackrock clan keeps a massive entrenched force in Stonewatch Keep and across the Redridge Mountains."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Every Blackrock chieftain slain relieves pressure on the beleaguered town of Lakeshire, which fights for its survival without official reinforcements from Stormwind."
+   "text": "Each Blackrock chieftain slain eases the pressure on Lakeshire, a beleaguered town fighting for survival without official reinforcements from Stormwind."
   }
  ],
  "keywords": [
@@ -82,5 +82,6 @@
  "attribution": [
   "Tharil'zun's Head",
   "Tharil'zun (quest)"
- ]
+ ],
+ "style": 1
 }

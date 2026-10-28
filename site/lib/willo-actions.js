@@ -9,6 +9,8 @@ export default {
     "An action goes to the app as {id, args, label, now?}: a grouped tool's operation is args.op. now: true means the player plainly asked for it, so it runs at once; the app honors it only for the tiers whose now is true here, and treats anything else as an offer.",
     "args: {list} is one of lists below, or a list the asking app's state gives: voices (the plan's voices), talk_keys (the keys she hears, lib/willo-tools.js TALK_KEYS) and chats (the titles of their past chats, in the PC's state lines); {text: n} is the player's words, at most n letters (optional: the site fills it in when the model gives none); {site: …} the site fills in after her call, never the model (memories: the ids of the memories her words name; character: the asking character's Name-Realm). The app checks every argument again.",
     "needs: an operation that only makes sense in a moment the asking app's state shows (reminder_showing: its \"reminder showing now\" line; update_ready: its version line says one is ready; player: the Lore Player is playing or paused) is declared only then.",
+    "pick: {section, ask} on a value that's the player's to choose (her voice, her color, their talk key): the site runs the change only with one they named, or the voice before on \"switch back\", matched loosely against the list (\"fell green\" is fel); with none, it opens that card of her Settings and asks which, never picking one for them (LOR-856 A4).",
+    "done: what she says once an operation done at once has run (now), with each {argument} as the player hears it, or a line for each value of its argument: the site's words for it, never hers, so she never names a voice or a count it didn't set (LOR-856 A3). The app's own line under the answer says what it really did.",
     "Nothing here acts inside WoW, and money is never by voice."
   ],
   "tiers": {
@@ -73,22 +75,22 @@ export default {
       "normal",
       "large"
     ],
-    "colors": [
-      "willo",
-      "warlock",
-      "druid",
-      "hunter",
-      "mage",
-      "paladin",
-      "priest",
-      "rogue",
-      "shaman",
-      "warrior",
-      "fel",
-      "holy",
-      "shadow",
-      "frost"
-    ],
+    "colors": {
+      "willo": "Willo's blue",
+      "warlock": "Warlock purple",
+      "druid": "Druid orange",
+      "hunter": "Hunter green",
+      "mage": "Mage blue",
+      "paladin": "Paladin pink",
+      "priest": "Priest white",
+      "rogue": "Rogue yellow",
+      "shaman": "Shaman blue",
+      "warrior": "Warrior tan",
+      "fel": "Fel green",
+      "holy": "Holy gold",
+      "shadow": "Shadow violet",
+      "frost": "Frost"
+    },
     "engines": {
       "hosted": "auto",
       "local": "kokoro",
@@ -217,6 +219,16 @@ export default {
       "side": "site",
       "what": "a message to one of their friends, in their words, read back before their yes (done on the site: lib/friend-send.js)"
     },
+    "set_style": {
+      "tier": "undo",
+      "side": "site",
+      "what": "how she talks to them, one of her styles or their own words on a plan with them, done when they plainly ask; back by asking again or on Her ways (done on the site: lib/willo-custom.js)"
+    },
+    "keeps": {
+      "tier": "yes",
+      "side": "site",
+      "what": "What Willo keeps: Help improve answers off at once; a kind of kept thing, or everything and her chats, read back with its count and erased on a plain yes (done on the site: lib/willo-keeps.js)"
+    },
     "send_feedback": {
       "legacy": true,
       "tier": "send",
@@ -235,12 +247,14 @@ export default {
           "list": "voices"
         }
       },
-      "what": "switches her voice to one the player's plan has; \"switch back\" or \"the other one\" is the voice your state names as voice before"
+      "what": "switches her voice to one the player's plan has; \"switch back\" or \"the other one\" is the voice your state names as voice before",
+      "done": "{voice} it is."
     },
     "new_chat": {
       "legacy": true,
       "tier": "undo",
-      "what": "starts a new chat; the old one stays in the list, and Undo reopens it"
+      "what": "starts a new chat; the old one stays in the list, and Undo reopens it",
+      "done": "A fresh chat."
     },
     "set_talk_key": {
       "legacy": true,
@@ -279,14 +293,19 @@ export default {
         "off": {
           "tier": "undo",
           "label": "Turn talking off",
-          "what": "turn talking with you off: no listening, and you answer in writing"
+          "what": "turn talking with you off: no listening, and you answer in writing",
+          "done": "Talking's off: I'll answer in writing."
         },
         "key": {
           "tier": "yes",
           "undo": true,
           "args": {
             "key": {
-              "list": "talk_keys"
+              "list": "talk_keys",
+              "pick": {
+                "section": "talk",
+                "ask": "Which key would you like to hold? Pick it here."
+              }
             }
           },
           "label": "Use {key}",
@@ -296,11 +315,16 @@ export default {
           "tier": "undo",
           "args": {
             "voice": {
-              "list": "voices"
+              "list": "voices",
+              "pick": {
+                "section": "voice",
+                "ask": "Which voice would you like? Here are mine."
+              }
             }
           },
           "label": "Switch to {voice}",
-          "what": "switch your voice to another of their plan's voices: yours, or one of Azeroth's peoples (dwarf-male)"
+          "what": "switch your voice to another of their plan's voices: yours, or one of Azeroth's peoples (dwarf-male)",
+          "done": "{voice} it is."
         },
         "engine": {
           "tier": "undo",
@@ -310,7 +334,12 @@ export default {
             }
           },
           "label": "Speak with {engine}",
-          "what": "how you speak: hosted (your full voice), local (the voice on their computer) or captions (words only, never out loud); never a voice by its name"
+          "what": "how you speak: hosted (your full voice), local (the voice on their computer) or captions (words only, never out loud); never a voice by its name",
+          "done": {
+            "hosted": "Back in my full voice.",
+            "local": "Now in your computer's voice.",
+            "captions": "Words only, from here on."
+          }
         },
         "again": {
           "tier": "do",
@@ -330,17 +359,25 @@ export default {
             }
           },
           "label": "Remarks: {level}",
-          "what": "how often you chime in on your own: often, sometimes, rarely or off"
+          "what": "how often you chime in on your own: often, sometimes, rarely or off",
+          "done": {
+            "often": "I'll chime in often.",
+            "sometimes": "I'll chime in now and then.",
+            "rarely": "I'll chime in rarely.",
+            "off": "No remarks while you play."
+          }
         },
         "chirps_on": {
           "tier": "undo",
           "label": "Turn chirps on",
-          "what": "your chirps on"
+          "what": "your chirps on",
+          "done": "Chirps on."
         },
         "chirps_off": {
           "tier": "undo",
           "label": "Turn chirps off",
-          "what": "your chirps off"
+          "what": "your chirps off",
+          "done": "Chirps off."
         }
       }
     },
@@ -352,21 +389,28 @@ export default {
           "args": {
             "color": {
               "list": "colors",
-              "or": "hex"
+              "or": "hex",
+              "pick": {
+                "section": "color",
+                "ask": "Which color would you like? Here are mine."
+              }
             }
           },
           "label": "Make me {color}",
-          "what": "your color: a swatch, or any color as #rrggbb"
+          "what": "your color: a swatch, or any color as #rrggbb",
+          "done": "{color} it is."
         },
         "wisp_show": {
           "tier": "undo",
           "label": "Show the wisp",
-          "what": "show your wisp over the game"
+          "what": "show your wisp over the game",
+          "done": "Here I am, over the game."
         },
         "wisp_hide": {
           "tier": "undo",
           "label": "Hide the wisp",
-          "what": "hide your wisp over the game"
+          "what": "hide your wisp over the game",
+          "done": "Wisp hidden."
         },
         "size": {
           "tier": "undo",
@@ -376,17 +420,20 @@ export default {
             }
           },
           "label": "Make the wisp {size}",
-          "what": "your wisp's size"
+          "what": "your wisp's size",
+          "done": "My wisp is {size} now."
         },
         "show": {
           "tier": "do",
           "label": "Show me",
-          "what": "bring your wisp up now, only when they can't find you or ask you to come out"
+          "what": "bring your wisp up now, only when they can't find you or ask you to come out",
+          "done": "Here I am."
         },
         "home": {
           "tier": "do",
           "label": "Put me back",
-          "what": "put your wisp back in its usual place"
+          "what": "put your wisp back in its usual place",
+          "done": "Back in my usual place."
         }
       }
     },
@@ -436,31 +483,36 @@ export default {
           "tier": "undo",
           "needs": "player",
           "label": "Play",
-          "what": "carry on with the paused story"
+          "what": "carry on with the paused story",
+          "done": "Playing."
         },
         "pause": {
           "tier": "undo",
           "needs": "player",
           "label": "Pause",
-          "what": "pause the story"
+          "what": "pause the story",
+          "done": "Paused."
         },
         "back": {
           "tier": "undo",
           "needs": "player",
           "label": "Back 15 seconds",
-          "what": "go back 15 seconds in the story (never going back to a place)"
+          "what": "go back 15 seconds in the story (never going back to a place)",
+          "done": "Back 15 seconds."
         },
         "forward": {
           "tier": "undo",
           "needs": "player",
           "label": "Skip 15 seconds",
-          "what": "skip ahead 15 seconds in the story"
+          "what": "skip ahead 15 seconds in the story",
+          "done": "Skipped 15 seconds."
         },
         "again": {
           "tier": "undo",
           "needs": "player",
           "label": "From the start",
-          "what": "play the story from the start"
+          "what": "play the story from the start",
+          "done": "From the start."
         },
         "volume": {
           "tier": "undo",
@@ -471,19 +523,22 @@ export default {
             }
           },
           "label": "Volume {level}",
-          "what": "the story's volume: quieter, louder, or a percent"
+          "what": "the story's volume: quieter, louder, or a percent",
+          "done": "Volume {level}."
         },
         "mute": {
           "tier": "undo",
           "needs": "player",
           "label": "Mute",
-          "what": "mute the story"
+          "what": "mute the story",
+          "done": "Muted."
         },
         "unmute": {
           "tier": "undo",
           "needs": "player",
           "label": "Unmute",
-          "what": "unmute the story"
+          "what": "unmute the story",
+          "done": "Unmuted."
         }
       }
     },
@@ -503,7 +558,8 @@ export default {
             }
           },
           "label": "Open {chat}",
-          "what": "open one of their past chats, by its title"
+          "what": "open one of their past chats, by its title",
+          "done": "Here's {chat}."
         },
         "rename": {
           "tier": "undo",
@@ -516,7 +572,8 @@ export default {
             }
           },
           "label": "Rename to {title}",
-          "what": "rename a past chat"
+          "what": "rename a past chat",
+          "done": "Renamed to {title}."
         },
         "delete": {
           "tier": "yes",
@@ -552,7 +609,8 @@ export default {
         "rescan": {
           "tier": "do",
           "label": "Look again",
-          "what": "look at the game's files again now (after they changed something in the game)"
+          "what": "look at the game's files again now (after they changed something in the game)",
+          "done": "Looking again."
         }
       }
     },
@@ -562,7 +620,8 @@ export default {
         "check": {
           "tier": "do",
           "label": "Check for an update",
-          "what": "check for a newer version of you now"
+          "what": "check for a newer version of you now",
+          "done": "Checking for an update."
         },
         "restart": {
           "tier": "yes",
@@ -579,12 +638,13 @@ export default {
           "tier": "do",
           "needs": "reminder_showing",
           "label": "Snooze 1 hour",
-          "what": "remind them again in an hour about the reminder you're showing"
+          "what": "remind them again in an hour about the reminder you're showing",
+          "done": "I'll remind you again in an hour."
         }
       }
     },
     "memory": {
-      "what": "what you keep in mind about the player themselves, only when they plainly ask: who they are, what to call them, how and when they play, who they play with, what they like. Never a to-do, a reminder, a goal or a place (their notebook's), a fact about the world, or something they only mention. Say it as a friend would (\"I'll keep that in mind.\", \"I've let that go.\"), never memory, saved, stored or data",
+      "what": "what you keep in mind about the player themselves, when they plainly ask: who they are, what to call them, how, when and with whom they play, what they like (to-dos, reminders, goals and places are their notebook's). Say it as a friend would: \"I'll keep that in mind.\"",
       "ops": {
         "remember": {
           "tier": "undo",
@@ -597,7 +657,7 @@ export default {
             }
           },
           "label": "Remember: {text}",
-          "what": "keep in mind one lasting thing they ask you to remember about themselves (text: in their own words, as they'd say it of themselves, without \"remember that\")"
+          "what": "one lasting thing about themselves (text: in their words, without \"remember that\")"
         },
         "forget": {
           "tier": "undo",
@@ -611,18 +671,18 @@ export default {
             }
           },
           "label": "Forget: {text}",
-          "what": "let go of something they told you about themselves, when they ask you to forget it (text: their words for it)"
+          "what": "let go of something they told you about themselves (text: their words for it)"
         },
         "forget_all": {
           "tier": "yes",
           "undo": true,
           "label": "Forget everything",
-          "what": "let go of everything you keep in mind about them, read back first"
+          "what": "let go of all of it, read back first"
         },
         "list": {
           "tier": "show",
           "label": "What I remember",
-          "what": "show what you keep in mind about them, when they ask what you remember or know about them"
+          "what": "show what you keep in mind about them"
         }
       }
     }

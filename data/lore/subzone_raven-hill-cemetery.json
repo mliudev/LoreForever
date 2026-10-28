@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Raven Hill Cemetery"
  },
- "summary": "Raven Hill Cemetery is a vast, cursed graveyard stretching across the western reaches of Duskwood. Once a peaceful burial ground for local hamlets, the cemetery has been overrun by hordes of walking dead, scavenger spiders, and ruthless grave robbers.",
+ "summary": "At Raven Hill Cemetery, the dead rise from their graves in western Duskwood. The burial ground once served nearby hamlets, but now undead, spiders, and grave robbers roam among the tombs.",
  "sections": [
   {
    "title": "A Garden of the Restless Dead",
-   "body": "Before the darkness engulfed the Dawning Wood, Raven Hill Cemetery served as the primary resting place for the surrounding settlements. As dark sorceries fell upon the region, the dead failed to remain in their plots. Skeletons, ghouls, and shambling horrors clawed their way out of the soil, swelling the graveyard's grim boundaries. Today, it stands as one of the most perilous blights in Duskwood. The cemetery is prowled not only by rotting abominations and giant spiders, but also by desperate grave robbers eager to plunder ancestral crypts unhindered by local authorities.",
+   "body": "Raven Hill Cemetery was once the burial ground for the settlements around the Dawning Wood. When dark sorceries fell upon the region, the dead began clawing out of their plots. Skeletons, ghouls, and shambling horrors now crowd the graveyard. Rotting abominations and giant spiders prowl among the tombs, while desperate grave robbers plunder ancestral crypts beyond the reach of local authorities. Raven Hill remains one of Duskwood's most dangerous places.",
    "spoiler": 0
   },
   {
    "title": "Restless Spirits and Dark Powers",
-   "body": "The cemetery's tragedy is personified by Mor'Ladim, the mindless skeletal horror of the fallen knight Morgan Ladimore, who endlessly patrols the headstones after taking his own life amidst madness and sorrow. Further north on the rises of Forlorn Rowe, the dark necromancer Morbent Fel harnesses the foul energy of the graves to raise and bind legions of undead. Farther toward the northeast edge sits the secluded shack of Abercrombie the hermit, watching the graveyard from the edge of the mist.",
+   "body": "Morgan Ladimore patrols the headstones as Mor'Ladim, a mindless skeletal horror. The fallen knight took his own life amid madness and sorrow. On the rises of Forlorn Rowe, north of the cemetery, the necromancer Morbent Fel draws on the graves' foul energy to raise and bind legions of undead. Near the cemetery's northeastern edge, Abercrombie the hermit watches from his secluded shack at the edge of the mist.",
    "spoiler": 1
   }
  ],
@@ -28,7 +28,7 @@
     "why is raven hill haunted",
     "who raised the dead in raven hill"
    ],
-   "answer": "The cemetery fell under dark corruption when Duskwood was blighted, allowing necromantic powers to seep into the earth. The foul mage Morbent Fel, lurking in Forlorn Rowe on the graveyard's edge, actively twists these energies to raise and control corpses from their graves."
+   "answer": "Dark corruption spread through the cemetery when Duskwood was blighted, and necromantic power seeped into the earth. Morbent Fel works from Forlorn Rowe, twisting that power to raise and control the dead."
   },
   {
    "q": "Who is Mor'Ladim?",
@@ -37,7 +37,7 @@
     "skeleton wandering the graveyard",
     "morgan ladimore"
    ],
-   "answer": "Mor'Ladim is a deadly skeletal revenant who patrols the graveyard and attacks travelers. His identity and past are learned through an investigation in Darkshire."
+   "answer": "Mor'Ladim is a skeletal revenant who patrols the graveyard and attacks travelers. His identity and past come to light through an investigation in Darkshire."
   },
   {
    "q": "Where is Morbent Fel located in the cemetery?",
@@ -46,7 +46,7 @@
     "where is morbent fel",
     "forlorn rowe"
    ],
-   "answer": "Morbent Fel resides atop the hill known as Forlorn Rowe, situated in the northwestern corner of Raven Hill Cemetery. He inhabits a decrepit house overlooking the tombstones, directing the undead around him."
+   "answer": "Morbent Fel dwells atop Forlorn Rowe, in the northwestern corner of Raven Hill Cemetery. From a decrepit house overlooking the tombstones, he directs the undead around him."
   },
   {
    "q": "Who is the hermit living on the edge of the cemetery?",
@@ -55,17 +55,17 @@
     "abercrombie",
     "shack in raven hill"
    ],
-   "answer": "The hermit is Abercrombie, an eccentric and frail old man living in a ramshackle hut near the northeastern borders of the cemetery. He frequently petitions passing travelers to gather strange components and ingredients for his morbid personal projects."
+   "answer": "Abercrombie is the hermit who lives in a ramshackle hut near the cemetery's northeastern borders. Frail and eccentric, he often asks passing travelers to gather strange components and ingredients for his morbid projects."
   }
  ],
  "angles": [
   {
    "target": "class:Paladin",
-   "text": "The relentless corruption and despoiled graves of Raven Hill Cemetery call for holy consecration."
+   "text": "As a paladin, you face graves and corruption that call for holy consecration."
   },
   {
    "target": "class:Priest",
-   "text": "The cemetery harbors powerful conduits of shadow and residual sorrow, serving as a bleak lesson in the tragedy of spirits denied passage to the Light."
+   "text": "As a priest, you find shadow and sorrow in these graves, a bleak reminder of spirits denied passage to the Light."
   }
  ],
  "keywords": [
@@ -89,5 +89,6 @@
  ],
  "attribution": [
   "Raven Hill Cemetery"
- ]
+ ],
+ "style": 1
 }

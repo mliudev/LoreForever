@@ -19,6 +19,7 @@ import { setupFeedback, logFeedback, feedbackKind, playerFeedback, rehashFeedbac
   FOLLOWUP_DAYS } from "../lib/answer-feedback.js";
 import { signalsFor, sameQuestion, lastOf, queueWorthy, topicOf, ANSWER_ID } from "../lib/answer-signals.js";
 import { qualityReport } from "../lib/willo-quality.js";
+import { TOGETHER_URL, resetBreaker } from "../lib/together.js";
 import { d1 } from "./helpers.mjs";
 
 const ORIGIN = "https://example.test";
@@ -99,7 +100,7 @@ test("signals come from the app's facts and the words, never a model call", () =
   assert.ok(!queueWorthy(["corrected"], "correction"), "the player's own words are queued as their own row");
   assert.equal(lastOf({ answer_id: "nope", ms: -3 }), null);
   assert.deepEqual(lastOf({ answer_id: "0123456789abcdef", ms: 1200.4, heard: "loud", failed: "yes", spoken: true }),
-    { answer_id: "0123456789abcdef", ms: 1200, heard: null, failed: false, retried: false, spoken: true });
+    { answer_id: "0123456789abcdef", ms: 1200, heard: null, failed: false, retried: false, spoken: true, speed: null });
 });
 
 test("\"no, I meant…\" and \"never mind\" are reports too, and a polite never mind isn't", () => {
@@ -343,6 +344,56 @@ test("Willo quality: report and frustration rates, what's asked most and what fa
   const viaAdmin = await admin("GET", null, "?quality=1&days=14");
   assert.equal(viaAdmin.quality.days, 14);
   assert.equal(viaAdmin.quality.answers, 5);
+});
+
+// LOR-856 E1 (the Architect, 10/28): the rules' backup stays while it's rare, so the nightly review sees how often it
+// answered.
+test("Willo quality counts her answers the backup wrote while her brain is on Together", async () => {
+  Object.assign(env, { TOGETHER_AI_API_KEY: "together-key", WILLO_ANSWER_HOST: "together:deepseek-ai/DeepSeek-V4.1-Flash" });
+  resetBreaker();
+  let down = false;
+  globalThis.fetch = async url => String(url) === TOGETHER_URL
+    ? (down ? new Response("busy", { status: 503 }) : new Response(new ReadableStream({ start(c) {
+      c.enqueue(new TextEncoder().encode(`data: ${JSON.stringify({ choices: [{ delta: { content: reply } }] })}\n\ndata: [DONE]\n\n`));
+      c.close();
+    } }), { headers: { "Content-Type": "text/event-stream" } }))
+    : Response.json({ candidates: [{ content: { parts: [{ text: reply }] } }], usageMetadata: { promptTokenCount: 200, candidatesTokenCount: 40 } });
+  try {
+    const hurin = await linked();
+    await hurin.ask("Where is Sentinel Hill?");
+    down = true;
+    await hurin.ask("Who was Arthas?");
+    const q = await qualityReport(env);
+    assert.deepEqual([q.answers, q.backup], [2, 1]);
+    assert.equal(q.by_day.at(-1).backup, 1);
+  } finally {
+    delete env.TOGETHER_AI_API_KEY;
+    delete env.WILLO_ANSWER_HOST;
+    resetBreaker();
+  }
+});
+
+test("Willo quality's speed: the talk key coming up to her first sound, from the app's times on the answer before", async () => {
+  const hurin = await linked();
+  const first = await hurin.ask("Where is Sentinel Hill?", { style: "spoken" });
+  const second = await hurin.ask("Who was Arthas?", { style: "spoken", last: { answer_id: first.answer_id, ms: 9_000, spoken: true,
+    speed: { up: 2400, heard: 250, prep: 400, answer: 900, audio: 850 } } }, { player: "Where is Sentinel Hill?", willo: first.answer });
+  await hurin.ask("And the inn?", { style: "spoken", last: { answer_id: second.answer_id, ms: 7_000, spoken: true,
+    speed: { up: 1800, heard: 200, prep: 300, answer: 700, audio: 600 } } }, { player: "Who was Arthas?", willo: second.answer });
+  // Sent again (a retry), the answer before keeps the times it had.
+  const third = await hurin.ask("And the inn?", { style: "spoken", last: { answer_id: second.answer_id, ms: 9_000, spoken: true,
+    speed: { up: 9000, audio: 8000 } } }, { player: "Who was Arthas?", willo: second.answer });
+  // A narration held this one 6 s: the bar counts her own 2.1 s, not the narration.
+  await hurin.ask("Thanks.", { style: "spoken", last: { answer_id: third.answer_id, ms: 9_000, spoken: true,
+    speed: { up: 8100, held: 6000, audio: 700 } } }, { player: "And the inn?", willo: third.answer });
+  const { speed, by_day } = await qualityReport(env);
+  assert.deepEqual([speed.timed, speed.p50, speed.p90], [3, 2100, 2400]);
+  assert.deepEqual([speed.pieces.audio.p50, speed.pieces.audio.p90], [700, 850]);
+  assert.equal(by_day.at(-1).speed.p90, 2400);
+  // The site's own time on her spoken answers, from every app: before it asked the model, and the model's.
+  assert.ok(speed.site.model.n >= 3 && speed.site.pre.n === speed.site.model.n, "the site's time before the model is logged");
+  // Each spoken answer counts under the route it went by (LOR-856 E4: the picture's look race, or its model).
+  assert.equal(Object.values(speed.site.by_route).reduce((n, r) => n + r.model.n, 0), speed.site.model.n);
 });
 
 test("\"never mind\" and \"no, I meant…\" are kept only while Help improve Willo's answers is on (vision check, 10/18)", async () => {

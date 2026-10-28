@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Blackfathom Deeps"
  },
- "summary": "Blackfathom Deeps is a flooded subterranean temple ruin buried beneath the Zoram Strand along Ashenvale's northwestern coast. Once a glorious house of worship dedicated to the moon goddess Elune, its drowned halls have been overtaken by naga, satyr, and the sinister Twilight's Hammer cult.",
+ "summary": "Blackfathom Deeps lies flooded beneath the Zoram Strand on Ashenvale's northwestern coast. Its halls once honored Elune, but naga, satyr, and the Twilight's Hammer now hold the ruins.",
  "sections": [
   {
    "title": "From Elune's Temple to Darkest Abyss",
-   "body": "Before the Great Sundering shattered ancient Kalimdor ten thousand years ago, this complex was a temple dedicated to the goddess Elune, complete with its own moonwell. When the Well of Eternity collapsed, the shrine sank beneath the ocean waves, presumed lost forever. Over millennia, receding shorelines and subterranean shifting left its remains partly flooded beneath the cliffs of Ashenvale.",
+   "body": "Beneath Ashenvale's northwestern cliffs, flooded halls mark the remains of an ancient temple. Before the Great Sundering shattered Kalimdor ten thousand years ago, the temple honored Elune and held its own moonwell. When the Well of Eternity collapsed, the shrine sank beneath the waves and was presumed lost forever. Over millennia, shorelines receded and the ground shifted below, leaving the temple partly flooded beneath the cliffs.",
    "spoiler": 0
   },
   {
    "title": "Aku'mai and the Cult",
-   "body": "In recent years, the corruption of an Old God seeped upward from the deep earth and tainted the temple's sacred Moon Well, and Aku'mai, a monstrous three-headed hydra and servant of the Old God, rose from the waters. The Twilight's Hammer cult established a stronghold within the drowned ruins under the command of Twilight Lord Kelris. Alongside naga headed by Lady Sarevess and prowling satyrs, the cultists sacrifice innocents to Aku'mai for power.",
+   "body": "The Twilight's Hammer has made its home in the flooded temple, under Twilight Lord Kelris. Corruption from an Old God has risen through the deep earth and tainted the sacred Moon Well. Aku'mai, a monstrous three-headed hydra and servant of the Old God, rose from its waters. Naga led by Lady Sarevess and prowling satyrs join the cultists, who sacrifice innocents to Aku'mai for power.",
    "spoiler": 1
   }
  ],
@@ -28,7 +28,7 @@
     "what was blackfathom deeps",
     "bfd temple"
    ],
-   "answer": "It was a night elven temple dedicated to the moon goddess Elune, with a sacred moonwell at its heart, before it sank beneath the waves during the Sundering."
+   "answer": "Before it sank beneath the waves during the Sundering, Blackfathom Deeps was a night elven temple to Elune, with a sacred moonwell at its heart."
   },
   {
    "q": "Why is the Twilight's Hammer cult here?",
@@ -37,7 +37,7 @@
     "twilight's hammer blackfathom",
     "kelris goal"
    ],
-   "answer": "The Twilight's Hammer came to worship Aku'mai, a primeval hydra and servant of an Old God. Led by Twilight Lord Kelris, the cult sacrifices innocents to the beast in exchange for dark power."
+   "answer": "The Twilight's Hammer came to worship Aku'mai, a primeval hydra and servant of an Old God. Under Twilight Lord Kelris, the cult sacrifices innocents to the beast for dark power."
   },
   {
    "q": "Where is the entrance located?",
@@ -46,7 +46,7 @@
     "blackfathom deeps location",
     "how to enter bfd"
    ],
-   "answer": "The entrance is tucked inside cavernous ruins along the Zoram Strand, located on the far northwestern coast of Ashenvale. Adventurers must navigate through submerged chambers and hostile naga outposts to reach the temple portal."
+   "answer": "The entrance lies among cavernous ruins along the Zoram Strand, on Ashenvale's far northwestern coast. You must pass through submerged chambers and hostile naga outposts to reach the temple portal."
   },
   {
    "q": "Who is Ghamoo-ra?",
@@ -55,17 +55,17 @@
     "ghamoo-ra lore",
     "tortoise bfd"
    ],
-   "answer": "Ghamoo-ra is a giant, maddened turtle that lurks on an island in one of the temple's flooded caverns, attacking any intruder who comes near."
+   "answer": "Ghamoo-ra is a giant, maddened turtle that lurks on an island in one of the temple's flooded caverns. The turtle attacks any intruder who comes near."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "The desecration of this ancient temple is a profound grievance for the Kaldorei, who mourn the defilement of a once-sacred shrine of Elune and its moonwell by void cultists and naga."
+   "text": "As a Kaldorei, you may mourn the defilement of this ancient shrine to Elune. Void cultists and naga have desecrated its sacred halls and moonwell."
   },
   {
    "target": "faction:Horde",
-   "text": "For the Horde, the deeps lie uncomfortably close to Zoram'gar; the cultists and naga gathering on the Zoram Strand are a threat the outpost's defenders cannot ignore."
+   "text": "As a member of the Horde, you know the deeps lie uncomfortably close to Zoram'gar. The cultists and naga gathering on the Zoram Strand threaten the outpost's defenders."
   }
  ],
  "keywords": [
@@ -90,5 +90,6 @@
  ],
  "attribution": [
   "Blackfathom Deeps"
- ]
+ ],
+ "style": 1
 }

@@ -10,16 +10,16 @@
    "quest:2962"
   ]
  },
- "summary": "High Potency Radioactive Fallout is a concentrated, volatile sample of the irradiated sludge poisoning the lower depths of Gnomeregan. Gathered in heavy leaden containers by order of gnome researchers, it is sought in the hope of reverse-engineering a cure for the afflicted leper gnomes.",
+ "summary": "In Gnomeregan's lower depths, researchers seek a potent sample of radioactive fallout. They hope to learn how the sludge afflicted the leper gnomes and find a cure.",
  "sections": [
   {
    "title": "Straight from the Tap",
-   "body": "While minor radiation samples can be scraped from contaminated surface scavengers outside, the true heart of Gnomeregan's catastrophe demands something far more concentrated. Researchers stationed outside the fallen capital require raw, unadulterated radioactive fallout taken directly from living irradiated horrors, lurkers, and slimes creeping across the lowest tiers of the Hall of Gears. Because this viscous sludge is constantly decaying, it must be contained in a specialized leaden phial and returned quickly before the sample destabilizes entirely.",
+   "body": "Deep in the Hall of Gears, irradiated horrors, lurkers, and slimes move through the lowest tiers of Gnomeregan. Researchers outside the fallen capital need fallout drawn from these living creatures. Samples scraped from contaminated scavengers outside are too weak for their work. The sludge decays quickly, so it must go into a leaden phial and reach the researchers before it loses its potency.",
    "spoiler": 0
   },
   {
    "title": "A Search for Restoration",
-   "body": "The desperate pursuit of such lethal materials serves an urgent purpose. Ozzie Togglevolt and his colleagues believe that unlocking the secrets of the irradiated sludge is the only viable path toward developing a cure for the leper gnomes. Driven mad and deformed by the toxic venting ordered during the trogg invasion, these tragic survivors remain trapped in a living nightmare, making even the most dangerous gathering expeditions inside the ruins worth the hazard.",
+   "body": "Ozzie Togglevolt and his colleagues seek a cure for the leper gnomes. They believe the secrets of the irradiated sludge may point the way. During the trogg invasion, toxic venting deformed and drove these survivors mad. They remain trapped in a living nightmare, and the researchers consider dangerous expeditions into the ruins worth the risk.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "fallout location",
     "source of radioactive fallout"
    ],
-   "answer": "It is drawn directly from living irradiated creatures\u2014such as irradiated slimes, horrors, and lurkers\u2014dwelling deep within the lower levels of Gnomeregan's Hall of Gears."
+   "answer": "The fallout comes from living irradiated creatures deep in the lower tiers of Gnomeregan's Hall of Gears, including slimes, horrors, and lurkers."
   },
   {
    "q": "Why is this sample needed?",
@@ -40,7 +40,7 @@
     "fallout purpose",
     "why collect fallout"
    ],
-   "answer": "Gnomish researchers, including Ozzie Togglevolt, require an undiluted, highly concentrated sample of Gnomeregan's radiation to study the affliction and attempt to craft a cure for their corrupted kin, the leper gnomes."
+   "answer": "Gnomish researchers, including Ozzie Togglevolt, need a concentrated sample of Gnomeregan's radiation to study the affliction and seek a cure for the leper gnomes."
   },
   {
    "q": "Why must it be handled so carefully?",
@@ -49,7 +49,7 @@
     "why lead phial",
     "fallout unstable"
    ],
-   "answer": "The fallout is extremely volatile and rapidly collapses as it decays. It requires heavy leaden containment to be transported safely and must be delivered to researchers before its potency degrades into useless residue."
+   "answer": "The fallout decays quickly and loses its potency. It must be carried in a leaden phial and returned to the researchers before it degrades."
   },
   {
    "q": "Why wasn't earlier trogg residue good enough?",
@@ -58,17 +58,17 @@
     "trogg radiation vs fallout",
     "previous sample failure"
    ],
-   "answer": "Residue collected from surface-dwelling troggs outside the city proved to be too weak and impure for scientific testing. The researchers specifically need the raw, concentrated glow found only within creatures dwelling inside the irradiated city depths."
+   "answer": "Residue from troggs outside the city was too weak and impure for testing. Researchers need raw, concentrated fallout from creatures deep within irradiated Gnomeregan."
   }
  ],
  "angles": [
   {
    "target": "race:Gnome",
-   "text": "Every drop of toxic fallout gathered from the city depths represents a frail hope of reversing the horrifying mutation that tore your kin apart during the fall of Gnomeregan."
+   "text": "Each sample of toxic fallout from Gnomeregan's depths offers a frail hope of reversing the mutation that tore your kin apart during the city's fall."
   },
   {
    "target": "profession:Engineering",
-   "text": "Containing and transporting volatile, decaying radioactive isotopes requires purpose-built leaden phials to shield the carrier from catastrophic exposure."
+   "text": "Volatile fallout decays quickly, so it must be carried in purpose-built leaden phials to shield you from exposure."
   }
  ],
  "keywords": [
@@ -93,5 +93,6 @@
  "attribution": [
   "High Potency Radioactive Fallout",
   "The Only Cure is More Green Glow"
- ]
+ ],
+ "style": 1
 }

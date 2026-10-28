@@ -11,16 +11,16 @@
    "quest:6323"
   ]
  },
- "summary": "Podrig's Order is a written military requisition penned by Deathguard Podrig at the Sepulcher. It requests a fresh shipment of weapons from Undercity merchant Gordon Wendham to keep Silverpine's Forsaken garrison properly armed.",
+ "summary": "At the Sepulcher, Podrig's Order calls for fresh weapons from the Undercity.",
  "sections": [
   {
    "title": "Arming the Sepulcher",
-   "body": "Silverpine Forest is a precarious frontier for the Forsaken, caught between encroaching Scourge, feral beasts, and other lurking threats. After an equipment inventory conducted by Deathguard Podrig on the orders of Executor Hadrec, the Sepulcher's stores were found mostly adequate but desperately low on replacement weapons. This official dispatch details the needed blades and arms to sustain the Deathguards holding the outpost.",
+   "body": "Deathguard Podrig found the Sepulcher's stores mostly adequate after an inventory ordered by Executor Hadrec. Replacement weapons were running desperately low. His dispatch lists the blades and arms needed by the Deathguards holding the outpost in Silverpine Forest, a frontier threatened by the Scourge, feral beasts, and other dangers.",
    "spoiler": 0
   },
   {
    "title": "Dispatch via Bat Handler",
-   "body": "Because weapons cannot be forged easily amidst the damp crypts of Silverpine, the request is directed to Gordon Wendham, a weapon dealer located in the bustling Trade Quarter of the Undercity. To expedite the order, couriers carry the document directly to bat master Karos Razok, taking advantage of Forsaken flight paths to secure a swift resupply from the capital.",
+   "body": "The order goes to Gordon Wendham, a weapon dealer in the Undercity's Trade Quarter, because the damp crypts of Silverpine make forging weapons difficult. Couriers carry the document to bat master Karos Razok, using Forsaken flight paths to speed the shipment from the capital.",
    "spoiler": 0
   }
  ],
@@ -32,7 +32,7 @@
     "contents of podrig's order",
     "podrig order details"
    ],
-   "answer": "It is an official requisition listing replacement weaponry needed by the Deathguards stationed at the Sepulcher after routine field losses."
+   "answer": "Podrig's Order lists replacement weapons for the Deathguards at the Sepulcher, whose arms have been lost or broken in the field."
   },
   {
    "q": "Who wrote Podrig's Order?",
@@ -40,7 +40,7 @@
     "who wrote it",
     "author of podrig order"
    ],
-   "answer": "It was drafted by Deathguard Podrig under the instruction of Executor Hadrec, following an inventory check of the Sepulcher's armory."
+   "answer": "Deathguard Podrig wrote the order at Executor Hadrec's direction, after an inventory of the Sepulcher's armory."
   },
   {
    "q": "Who receives the order?",
@@ -49,7 +49,7 @@
     "where does podrig order go",
     "recipient of podrig order"
    ],
-   "answer": "It is meant for Gordon Wendham, a weapon dealer conducting business in the Trade Quarter of the Undercity."
+   "answer": "Gordon Wendham, a weapon dealer in the Undercity's Trade Quarter, is meant to receive the order."
   },
   {
    "q": "Why does the Sepulcher need new weapons?",
@@ -57,17 +57,17 @@
     "why need weapons",
     "sepulcher weapon shortage"
    ],
-   "answer": "Constant skirmishes against the Scourge and other hostile forces in Silverpine Forest frequently result in broken or lost equipment among the defending Deathguards."
+   "answer": "The Deathguards need new weapons because skirmishes with the Scourge and other hostile forces in Silverpine often leave their equipment broken or lost."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "The requisition highlights the logistical lifeline between the Undercity and outer outposts like the Sepulcher, ensuring the Dark Lady's soldiers remain properly armed against the Scourge."
+   "text": "As an Undead, you can see how the Undercity supplies outposts like the Sepulcher, keeping the Dark Lady's soldiers armed against the Scourge."
   },
   {
    "target": "profession:Blacksmithing",
-   "text": "Forged weapons are vital out on the front lines, where ongoing combat constantly drains garrison supplies."
+   "text": "As a blacksmith, you know how vital forged weapons are on the front lines, where combat continually drains a garrison's supplies."
   }
  ],
  "keywords": [
@@ -93,5 +93,6 @@
   "Podrig's Order",
   "Supplying the Sepulcher",
   "Ride to the Undercity (Classic)"
- ]
+ ],
+ "style": 1
 }

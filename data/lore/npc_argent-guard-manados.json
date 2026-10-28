@@ -8,11 +8,11 @@
   "wiki": "Argent Guard Manados",
   "refs": 1
  },
- "summary": "Argent Guard Manados is a night elf sentry stationed in Darnassus on behalf of the Argent Dawn. Resting at the Craftsmen's Terrace, he keeps watch over Kalimdor's growing corruption and directs adventurers toward the sinister forces lurking in Blackfathom Deeps.",
+ "summary": "At the Craftsmen's Terrace in Darnassus, Argent Guard Manados watches for corruption across Kalimdor. He serves the Argent Dawn and sends adventurers toward Blackfathom Deeps.",
  "sections": [
   {
    "title": "A Sentinel of the Dawn",
-   "body": "While most of the Argent Dawn focuses its vigilance on the blighted lands of Lordaeron and the Scourge, Argent Guard Manados represents their watchful eyes in the night elf capital of Darnassus. Standing among the artisans and tradefolk of the Craftsmen's Terrace, Manados monitors emerging threats that menace the balance of northern Kalimdor. When rumors reach him of the Twilight's Hammer cult establishing a foul foothold beneath the waves of Ashenvale, Manados enlists capable heroes to strike at Blackfathom Deeps and recover artifacts of their dark devotion.",
+   "body": "Argent Guard Manados keeps the Argent Dawn's watch in Darnassus. While most of the order guards Lordaeron against the Scourge, he stands among the artisans and tradefolk of the Craftsmen's Terrace. His post lets him watch for threats to northern Kalimdor's balance. When word reaches him that the Twilight's Hammer has gained a foothold beneath Ashenvale's waves, he calls on capable heroes to strike at Blackfathom Deeps and recover the cult's artifacts of dark devotion.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "argent guard manados role",
     "manados darnassus"
    ],
-   "answer": "Manados is a night elf operative of the Argent Dawn stationed in Darnassus. Rather than battling the Scourge in the Eastern Kingdoms, he remains in Kalimdor to keep watch for dark cults and otherworldly corruption."
+   "answer": "Manados is a night elf of the Argent Dawn, stationed in Darnassus. He watches Kalimdor for dark cults and otherworldly corruption while the order focuses on the Scourge in the Eastern Kingdoms."
   },
   {
    "q": "Where can I find Argent Guard Manados?",
@@ -33,7 +33,7 @@
     "where is argent guard manados",
     "manados craftsman terrace"
    ],
-   "answer": "He can be found standing in the Craftsmen's Terrace within Darnassus, watching over the city and coordinating with local adventurers."
+   "answer": "You can find Manados in Darnassus, standing in the Craftsmen's Terrace. He watches over the city and coordinates with local adventurers."
   },
   {
    "q": "What quests does Argent Guard Manados give?",
@@ -42,7 +42,7 @@
     "twilight falls quest giver",
     "blackfathom deeps argent dawn quest"
    ],
-   "answer": "He offers the quest 'Twilight Falls', tasking adventurers to enter Blackfathom Deeps in Ashenvale and retrieve Twilight Pendants from the cultists lurking inside."
+   "answer": "Manados offers Twilight Falls. He sends adventurers into Blackfathom Deeps in Ashenvale to retrieve Twilight Pendants from the cultists within."
   },
   {
    "q": "Why is the Argent Dawn interested in Blackfathom Deeps?",
@@ -50,17 +50,17 @@
     "why argent dawn bfd",
     "argent dawn twilight cult"
    ],
-   "answer": "The Argent Dawn combats malignant forces that threaten Azeroth. The sudden emergence of the Twilight's Hammer cult worshipping ancient, corrupt entities in the submerged ruins of Ashenvale presents a peril they cannot ignore."
+   "answer": "The Argent Dawn watches for malignant forces threatening Azeroth. The Twilight's Hammer cult has emerged in Ashenvale's submerged ruins, worshipping ancient, corrupt entities, and the order cannot ignore that peril."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "Manados shows that not all night elves limit their duty to the Cenarion Circle or the Sentinels; some dedicate their lives to neutral cross-faction orders like the Argent Dawn to preserve Azeroth."
+   "text": "As a night elf, Manados shows that duty can reach beyond the Cenarion Circle and the Sentinels. Some night elves serve neutral orders such as the Argent Dawn to preserve Azeroth."
   },
   {
    "target": "faction:Alliance",
-   "text": "For Alliance champions visiting Darnassus, Manados provides a crucial link between the distant crusades in Lordaeron and the creeping menace of cultists in northern Kalimdor."
+   "text": "As an Alliance champion visiting Darnassus, you can turn to Manados for a link between the distant crusades in Lordaeron and the growing cultist threat in northern Kalimdor."
   }
  ],
  "keywords": [
@@ -82,5 +82,6 @@
  ],
  "attribution": [
   "Argent Guard Manados"
- ]
+ ],
+ "style": 1
 }

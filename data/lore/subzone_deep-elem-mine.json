@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Deep Elem Mine"
  },
- "summary": "Deep Elem Mine is an excavation site nestled in the heart of Silverpine Forest. Once an active operation, it was overrun when Archmage Arugal's dark magic swept through the region, transforming its miners into savage worgen.",
+ "summary": "Deep Elem Mine lies in central Silverpine Forest, its tunnels claimed by worgen. Once an active mine, it fell when Archmage Arugal's magic swept through the region and transformed its miners.",
  "sections": [
   {
    "title": "A Den of Beasts",
-   "body": "Situated central to Silverpine Forest, the Deep Elem Mine once served the living inhabitants of Lordaeron as an ordinary resource vein. When Archmage Arugal unleashed the lupine nightmare upon the forest, his feral curse spread deep into the tunnels. The laborers inside succumbed to the affliction, turning into vicious worgen who abandoned their pickaxes to claim the cavern as a predatory lair.",
+   "body": "Deep Elem Mine once supplied the living people of Lordaeron with ore. When Archmage Arugal unleashed his lupine curse across Silverpine Forest, it spread through the tunnels. The laborers succumbed and became vicious worgen, abandoning their pickaxes to claim the cavern as a lair.",
    "spoiler": 0
   },
   {
    "title": "Grimson and Forsaken Ambition",
-   "body": "The pack within the mine is commanded by Grimson the Pale, the former mine foreman who retained his cunning even after his monstrous transformation. Recognizing the strategic value of the tunnels and their ore, the Forsaken at the Sepulcher take a keen interest in reclaiming the site. Under orders backed by the authority of Dreadlord Varimathras, Forsaken agents seek to sever Grimson's head and purge the beasts so the Horde can secure the mine's wealth.",
+   "body": "Grimson the Pale commands the pack inside the mine. Once its foreman, he kept his cunning through the transformation. The Forsaken at the Sepulcher seek to reclaim the tunnels and their ore. On orders backed by Dreadlord Varimathras, Forsaken agents mean to sever Grimson's head and purge the beasts so the Horde can secure the mine's wealth.",
    "spoiler": 1
   }
  ],
@@ -28,7 +28,7 @@
     "deep elem mine mobs",
     "who lives in deep elem mine"
    ],
-   "answer": "The mine is infested with hostile worgen afflicted by Archmage Arugal's magic. They are led by their former human foreman, Grimson the Pale, who now rules the pack deep within the tunnels."
+   "answer": "Hostile worgen afflicted by Archmage Arugal's magic fill the mine. Their pack is led by Grimson the Pale, once the human foreman, who now rules deep in the tunnels."
   },
   {
    "q": "Why do the Forsaken want Deep Elem Mine cleared?",
@@ -37,7 +37,7 @@
     "why clear deep elem mine",
     "who wants the mine"
    ],
-   "answer": "The Forsaken seek to exploit the mine's natural mineral wealth to bolster their war efforts in Lordaeron. Dalar Dawnweaver and the leadership at the Sepulcher intend to claim its resources in the name of Dreadlord Varimathras once the worgen are eradicated."
+   "answer": "The Forsaken want the mine's mineral wealth for their war efforts in Lordaeron. Dalar Dawnweaver and the Sepulcher's leaders intend to claim its resources in the name of Dreadlord Varimathras once the worgen are eradicated."
   },
   {
    "q": "Who is Grimson the Pale?",
@@ -46,7 +46,7 @@
     "grimson the pale lore",
     "deep elem mine boss"
    ],
-   "answer": "Grimson was originally the mortal foreman overseeing operations at Deep Elem Mine. After Arugal's feral curse transformed the workers, Grimson became a cunning worgen alpha who retained enough intellect to command the pack inhabiting the mine."
+   "answer": "Grimson the Pale was the mortal foreman of Deep Elem Mine. Arugal's feral curse transformed the workers, and Grimson became a cunning worgen alpha who kept enough intellect to command the pack in the mine."
   },
   {
    "q": "How did the worgen get into the mine?",
@@ -55,17 +55,17 @@
     "worgen origin deep elem mine",
     "how did miners turn"
    ],
-   "answer": "They were not outsiders who moved in; the original miners were transformed by the spread of Archmage Arugal's curse across Silverpine Forest, turning the workforce into monsters where they worked."
+   "answer": "The worgen began as the mine's own laborers. Archmage Arugal's curse spread across Silverpine Forest and transformed them where they worked."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "For the Forsaken, securing the mine is both an economic necessity and a direct mandate from the Sepulcher to break Arugal's encroaching grip on central Silverpine."
+   "text": "For the Forsaken, securing the mine brings economic gain and answers the Sepulcher's order to break Arugal's grip on central Silverpine."
   },
   {
    "target": "profession:Mining",
-   "text": "Though currently hazardous due to the feral pack residing within, the mine represents one of Silverpine's richest subterranean mineral deposits."
+   "text": "The feral pack makes mining dangerous, but Deep Elem Mine holds one of Silverpine's richest underground mineral deposits."
   }
  ],
  "keywords": [
@@ -88,5 +88,6 @@
  ],
  "attribution": [
   "Deep Elem Mine"
- ]
+ ],
+ "style": 1
 }

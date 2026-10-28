@@ -8,16 +8,16 @@
   "wiki": "Razzle Sprysprocket",
   "refs": 1
  },
- "summary": "Razzle Sprysprocket is a gnomish engineer residing in Kharanos in Dun Morogh. Known for his technical tinkering alongside Ozzie Togglevolt, he enlists travelers to help salvage disrupted gnomish machinery and components around the snowy hills.",
+ "summary": "In Kharanos, Razzle Sprysprocket works to recover gnomish machinery. He tinkers with Ozzie Togglevolt and seeks lost parts scattered through the snowy hills.",
  "sections": [
   {
    "title": "Tinkering in Kharanos",
-   "body": "Following the tragedy at Gnomeregan, Razzle Sprysprocket found refuge among the snowdrifts of Dun Morogh, setting up his workshop in Kharanos. With a knack for delicate mechanical parts, Razzle works alongside fellow engineer Ozzie Togglevolt. Their efforts frequently involve recovering gyro-mechanisms and cog assemblies that were lost or scavenged during the flight from their irradiated homeland.",
+   "body": "After Gnomeregan's fall, Razzle found refuge in Dun Morogh and set up his workshop in Kharanos. He has a gift for delicate mechanical parts and works beside fellow engineer Ozzie Togglevolt. Together, they recover gyro-mechanisms and cog assemblies lost or scavenged during the flight from their irradiated homeland.",
    "spoiler": 0
   },
   {
    "title": "Defense of the Workshop",
-   "body": "Life in Dun Morogh is far from peaceful for a gnome inventor. Between the wild beasts of the frozen ridges and raids by local Frostmane trolls, Razzle's work is never entirely safe. Despite the dangers, he remains dedicated to keeping gnomish contraptions functional and recovering the lost wonders of Gnomeregan.",
+   "body": "Wild beasts roam Dun Morogh's frozen ridges, and local Frostmane trolls raid the area. These dangers keep Razzle's work from being safe. Still, he labors to keep gnomish contraptions working and recover the lost wonders of Gnomeregan.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "who is razzle",
     "razzle kharanos"
    ],
-   "answer": "Razzle Sprysprocket is an eccentric gnome tinkerer stationed in Kharanos within Dun Morogh, working alongside Ozzie Togglevolt."
+   "answer": "Razzle Sprysprocket tinkers in Kharanos, Dun Morogh, alongside Ozzie Togglevolt."
   },
   {
    "q": "What does Razzle Sprysprocket need help with?",
@@ -38,7 +38,7 @@
     "operation recombobulation help",
     "what does razzle want"
    ],
-   "answer": "Razzle frequently requires adventurers to venture out into Dun Morogh to gather errant gizmos, cog assemblies, and parts to aid in the recombobulation of gnomish engineering projects."
+   "answer": "Razzle needs travelers to search Dun Morogh for lost gizmos, cog assemblies, and parts for gnomish engineering projects."
   },
   {
    "q": "Where can I find Razzle Sprysprocket?",
@@ -47,7 +47,7 @@
     "where is razzle",
     "razzle sprysprocket map"
    ],
-   "answer": "He can be found working outdoors near the tinker's post in Kharanos, just outside the inn and forge in central Dun Morogh."
+   "answer": "Razzle works outdoors near the tinker's post in Kharanos, just outside the inn and forge in central Dun Morogh."
   },
   {
    "q": "Is Razzle Sprysprocket related to other Sprysprockets?",
@@ -55,17 +55,17 @@
     "sprysprocket family",
     "razzle relatives"
    ],
-   "answer": "No relatives of Razzle are named. He shares a surname with Rizzle Sprysprocket, but the two are apparently no relation."
+   "answer": "No relatives of Razzle are named. Rizzle Sprysprocket shares his surname, but the two are apparently unrelated."
   }
  ],
  "angles": [
   {
    "target": "race:Gnome",
-   "text": "For exiled gnomes passing through Dun Morogh, Razzle represents the enduring inventive spirit and the determination to rebuild and recover after the fall of Gnomeregan."
+   "text": "For an exiled gnome in Dun Morogh, Razzle shows the inventive spirit and resolve to rebuild and recover after Gnomeregan fell."
   },
   {
    "target": "profession:Engineering",
-   "text": "Engineers will find a kindred spirit in Razzle, whose projects highlight the fine line between brilliant gnomish invention and explosive miscalculation."
+   "text": "Engineers may recognize a kindred spirit in Razzle, whose projects show how close gnomish invention can come to miscalculation and explosion."
   }
  ],
  "keywords": [
@@ -87,5 +87,6 @@
  ],
  "attribution": [
   "Razzle Sprysprocket"
- ]
+ ],
+ "style": 1
 }

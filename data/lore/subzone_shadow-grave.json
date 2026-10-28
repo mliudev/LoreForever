@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Shadow Grave"
  },
- "summary": "Shadow Grave is a stone crypt perched atop the sloping burial grounds above Deathknell in Tirisfal Glades. It serves as the physical awakening point where newly liberated Forsaken shake off the stupor of death and the Lich King's faded control.",
+ "summary": "Newly freed Forsaken awaken in Shadow Grave, above Deathknell in Tirisfal Glades.",
  "sections": [
   {
    "title": "Cradle of the Forsaken",
-   "body": "Tucked into the rocky foothills at the top of the graveyard slope above Deathknell, the Shadow Grave is a simple stone mausoleum with an extraordinary purpose. Inside its damp vaults, corpses raised into the mindless servitude of the Scourge gradually awaken to free will. Under the watchful eye of caretakers like Undertaker Mordo, these freshly liberated undead stand up from their stone slabs and take their first shuddering steps into a world that despises them, setting out down the footpath toward Deathknell to pledge themselves to the Banshee Queen.",
+   "body": "Shadow Grave sits on the rocky slope above Deathknell, a stone mausoleum where the newly freed Forsaken awaken. Once raised into the Scourge’s mindless service, the dead recover their free will in its vaults. Undertaker Mordo watches over them as they rise from stone slabs and take their first steps into a world that despises them. They follow the footpath down to Deathknell and pledge themselves to the Banshee Queen.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "what is shadow grave",
     "shadow grave crypt"
    ],
-   "answer": "It is the crypt where newly awakened Forsaken rise into consciousness. Instead of remaining mindless Scourge thralls in the dirt, these resurrected individuals regain their free will inside the tomb and begin their second life serving Sylvanas Windrunner."
+   "answer": "Newly awakened Forsaken regain their free will in Shadow Grave, instead of remaining mindless Scourge thralls. From the crypt, they begin a second life serving Sylvanas Windrunner."
   },
   {
    "q": "Where is the Shadow Grave located?",
@@ -32,7 +32,7 @@
     "shadow grave location",
     "shadow grave map"
    ],
-   "answer": "Shadow Grave is situated at the top of the graveyard slope above Deathknell, backed against the southern mountains of Tirisfal Glades. A dirt trail winds downhill from its entrance toward the settlement of Deathknell."
+   "answer": "Shadow Grave sits at the top of the graveyard slope above Deathknell, against Tirisfal Glades’ southern mountains. A dirt trail leads downhill from its entrance to Deathknell."
   },
   {
    "q": "Who oversees the newly awakened here?",
@@ -41,13 +41,13 @@
     "shadow grave npcs",
     "undertaker mordo location"
    ],
-   "answer": "Undertaker Mordo attends the newly awakened within the tomb, assessing whether those rising from the slabs have recovered their minds and are fit to serve the Forsaken cause."
+   "answer": "Undertaker Mordo attends the newly awakened in the tomb. He judges whether they have recovered their minds and can serve the Forsaken cause."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "Every Forsaken adventurer begins their journey on the cold stone slabs of this crypt, opening their eyes to the grim reality of unlife and free will."
+   "text": "As a Forsaken, your journey begins on the crypt’s stone slabs, where you awaken to unlife and free will."
   }
  ],
  "keywords": [
@@ -65,5 +65,6 @@
  ],
  "attribution": [
   "Shadow Grave"
- ]
+ ],
+ "style": 1
 }

@@ -8,16 +8,16 @@
   "wiki": "Viktori Prism'Antras",
   "refs": 4
  },
- "summary": "Viktori Prism'Antras is an eccentric stargazer residing in a small hillside hut overlooking Darkshire. While the town around him succumbs to dread and looming horrors, Viktori focuses intently on building a telescope to view the heavens clearly. To realize his vision, he relies on adventurous travelers to acquire intricate parts based on gnomish schematics.",
+ "summary": "Above Darkshire, Viktori Prism'Antras keeps his gaze on the stars.",
  "sections": [
   {
    "title": "Eyes Upon the Heavens",
-   "body": "Perched up the slope just beyond the gryphon roost, Viktori Prism'Antras spends his days peering outward from the gloom of Duskwood. Amid undead incursions, ravenous spiders, and creeping shadows, his obsession lies far beyond the suffocating canopy. He dreams of building a magnificent optical telescope capable of bringing the stars into brilliant focus, offering a quiet escape from the dread that engulfs the hamlet.",
+   "body": "Up the slope beyond the gryphon roost, Viktori Prism'Antras peers out from Duskwood's gloom. Undead incursions, ravenous spiders, and creeping shadows surround him, but his attention is fixed beyond the suffocating canopy. He hopes to build a fine optical telescope that will bring the stars into clear focus, giving him a quiet refuge from the dread engulfing the hamlet.",
    "spoiler": 0
   },
   {
    "title": "Gnomish Schematics and Scattered Parts",
-   "body": "Constructing such a delicate apparatus is no simple matter in a cursed forest. Viktori works from blueprints provided by his gnomish friend, Cog Glitzspinner. To complete the device, he enlists passersby to track down rare lens-crafting materials and mechanical housings, ranging from finely cut glass to metal lenses scattered across perilous territory.",
+   "body": "In this cursed forest, even a delicate telescope takes work to build. Viktori follows blueprints from his gnomish friend, Cog Glitzspinner. He asks passersby to find rare lens-crafting materials and mechanical housings, including finely cut glass and metal lenses scattered across perilous ground.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "viktori prism'antras lore",
     "viktori duskwood"
    ],
-   "answer": "Viktori is an eccentric human stargazer residing in Darkshire. Rather than concerning himself with the town's immediate political or supernatural threats, he is singularly obsessed with constructing a powerful telescope to study the stars."
+   "answer": "Viktori is an eccentric human stargazer in Darkshire. While the town faces political and supernatural threats, he devotes himself to building a telescope for studying the stars."
   },
   {
    "q": "Where can I find Viktori in Darkshire?",
@@ -38,7 +38,7 @@
     "where is viktori",
     "find viktori darkshire"
    ],
-   "answer": "He lives in a small wooden hut up the hill just past the Darkshire gryphon master, located to the right as you ascend the path."
+   "answer": "Viktori lives in a small wooden hut up the hill, just past the Darkshire gryphon master and to the right as you climb the path."
   },
   {
    "q": "What is Viktori trying to build?",
@@ -47,7 +47,7 @@
     "look to the stars device",
     "what does viktori make"
    ],
-   "answer": "Viktori is attempting to build an astronomical telescope using blueprints drawn up by his gnomish colleague Cog Glitzspinner, which requires several specialized lenses and components to assemble."
+   "answer": "Viktori is trying to build an astronomical telescope from blueprints by his gnomish colleague Cog Glitzspinner. It needs several specialized lenses and components."
   },
   {
    "q": "Why is he studying the stars from Duskwood?",
@@ -55,7 +55,7 @@
     "why darkshire telescope",
     "why study stars in duskwood"
    ],
-   "answer": "Despite the darkness and constant terror permeating Duskwood, Viktori is consumed by celestial curiosity. Focusing on the untainted majesty of the night sky provides him an intellectual refuge from the decaying land around him."
+   "answer": "Viktori is consumed by curiosity about the heavens despite Duskwood's darkness and terror. Studying the night sky gives him an intellectual refuge from the decaying land around him."
   },
   {
    "q": "Who designed the plans for Viktori's telescope?",
@@ -63,7 +63,7 @@
     "cog glitzspinner",
     "who made the telescope schematics"
    ],
-   "answer": "The blueprints were engineered by Cog Glitzspinner, an inventive gnome acquaintance of Viktori who provided the schematics necessary to assemble the viewing apparatus."
+   "answer": "Cog Glitzspinner, Viktori's inventive gnome acquaintance, designed the blueprints for the telescope."
   },
   {
    "q": "Does Viktori help defend Darkshire?",
@@ -71,21 +71,21 @@
     "is viktori a night watchman",
     "does viktori fight"
    ],
-   "answer": "No. Viktori is a civilian scholar rather than a warrior. He leaves the defense of the town to Commander Althea Ebonlocke and the Night Watch, preferring to dedicate all his energies to his astronomical work."
+   "answer": "No. Viktori is a civilian scholar, not a warrior, and leaves Darkshire's defense to Commander Althea Ebonlocke and the Night Watch. He devotes all his energies to his astronomical work."
   }
  ],
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "Tinkers will appreciate Viktori's endeavor, as building his precision viewing instrument relies entirely on sophisticated gnomish schematics."
+   "text": "Tinkers will appreciate Viktori's project: his precision-built viewing instrument depends on sophisticated gnomish schematics."
   },
   {
    "target": "race:Gnome",
-   "text": "Viktori's entire project rests on the ingenuity of the gnome inventor Cog Glitzspinner, showcasing the reach of gnomish engineering even in the most desolate human towns."
+   "text": "Viktori's project depends on the ingenuity of Cog Glitzspinner, showing how far gnomish engineering reaches, even in the most desolate human towns."
   },
   {
    "target": "faction:Alliance",
-   "text": "Assisting Viktori provides a rare, peaceful pursuit in Darkshire, helping an Alliance townsman seek wonder amidst pervasive tragedy."
+   "text": "Helping Viktori gives you a rare, peaceful pursuit in Darkshire as an Alliance townsman seeks wonder amid pervasive tragedy."
   }
  ],
  "keywords": [
@@ -106,5 +106,6 @@
  ],
  "attribution": [
   "Viktori Prism'Antras"
- ]
+ ],
+ "style": 1
 }

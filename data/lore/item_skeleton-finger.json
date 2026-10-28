@@ -10,11 +10,11 @@
    "quest:101"
   ]
  },
- "summary": "A severed, bony digit scavenged from the walking dead prowling the cursed groves and cemeteries of Duskwood. Madame Eva of Darkshire collects these macabre remnants alongside ghoul fangs and spider venom to craft protective talismans.",
+ "summary": "In Duskwood, Skeleton Finger is gathered from the restless dead. Madame Eva of Darkshire collects these remains with ghoul fangs and spider venom to make protective talismans.",
  "sections": [
   {
    "title": "Bones of the Restless",
-   "body": "The cursed woods of Duskwood are overrun by the restless remains of the dead, ranging from skeletal raiders and warriors to necrotic mages and fiends. While ordinary travelers avoid touching the foul remains of the risen dead, fortune tellers and mystics value their cold essence. Madame Eva, the resident seer of Darkshire, gathers these bony fingers to bind their lingering necrotic energies into a ward of retaliatory magic known as the Totem of Infliction.",
+   "body": "The dead rise throughout Duskwood, from skeletal raiders and warriors to necrotic mages and fiends. Most travelers leave their foul remains untouched, but fortune tellers and mystics prize their cold essence. Madame Eva, the seer of Darkshire, gathers the bony fingers to bind their lingering necrotic energies into the Totem of Infliction, a ward that strikes back at attackers.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "what drops skeleton fingers",
     "skeleton finger source"
    ],
-   "answer": "Skeleton Fingers are harvested from the various skeletal undead found across Duskwood, including Skeletal Raiders, Healers, Warders, Warriors, Horrors, Fiends, and Skeletal Mages."
+   "answer": "Skeletal Raiders, Healers, Warders, Warriors, Horrors, Fiends, and Skeletal Mages across Duskwood yield Skeleton Fingers."
   },
   {
    "q": "Who wants Skeleton Fingers in Duskwood?",
@@ -35,7 +35,7 @@
     "skeleton finger quest giver",
     "what are skeleton fingers for"
    ],
-   "answer": "Madame Eva, the diviner residing in Darkshire, requires them as part of the ritual components needed to enchant a protective ward."
+   "answer": "Madame Eva, the seer of Darkshire, needs Skeleton Fingers for a protective ward."
   },
   {
    "q": "What is the Totem of Infliction?",
@@ -43,7 +43,7 @@
     "totem of infliction purpose",
     "what does madame eva make"
    ],
-   "answer": "It is an enchanted ward crafted by Madame Eva using skeleton fingers, ghoul fangs, and spider venom. She weaves their dark energies into an aura designed to inflict retaliatory harm upon anyone who attempts violence against the bearer."
+   "answer": "The Totem of Infliction is a ward Madame Eva makes from skeleton fingers, ghoul fangs, and spider venom. She binds their dark energies into an aura that harms anyone who attacks its bearer."
   },
   {
    "q": "Why does Madame Eva need undead remains for a protective charm?",
@@ -51,17 +51,17 @@
     "why bone magic",
     "why skeleton fingers for totem"
    ],
-   "answer": "Madame Eva's rituals channel the latent taint and aggression residing in the local monsters. By binding the violent essences of Duskwood's skeletons, ghouls, and venomous beasts together, she turns their own lingering malice into a ward that punishes hostile attackers."
+   "answer": "Madame Eva uses the lingering taint and aggression of local creatures in her rituals. She binds the violent essences of Duskwood's skeletons, ghouls, and venomous beasts into a ward that punishes attackers."
   }
  ],
  "angles": [
   {
    "target": "class:Mage",
-   "text": "Mages studying folk divination will find Madame Eva's method of turning skeletal digits and natural venoms into a retaliatory enchantment an unusual blend of hedge witchcraft and sympathetic magic."
+   "text": "As a mage studying folk divination, you may find Madame Eva's use of skeletal digits and natural venoms for a retaliatory enchantment an unusual blend of hedge witchcraft and sympathetic magic."
   },
   {
    "target": "class:Paladin",
-   "text": "Paladins may shudder at desecrating skeletal remains and carrying their severed parts, yet in the dire gloom of Duskwood, repurposing the bones of the unholy to shield the living is a grim necessity."
+   "text": "As a paladin, you may shudder at desecrating skeletal remains and carrying their severed parts. In Duskwood's dire gloom, using the bones of the unholy to shield the living is a grim necessity."
   }
  ],
  "keywords": [
@@ -84,5 +84,6 @@
  "attribution": [
   "Skeleton Finger",
   "The Totem of Infliction"
- ]
+ ],
+ "style": 1
 }

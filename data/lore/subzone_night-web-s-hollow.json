@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Night Web's Hollow"
  },
- "summary": "Night Web's Hollow is a sunken vale and abandoned gold mine located just northwest of Deathknell in Tirisfal Glades. Heavily overrun with arachnids, it serves as a testing ground for freshly awakened Forsaken sent to cull the vermin and prove their combat readiness.",
+ "summary": "In Tirisfal Glades, spiders have overrun Night Web's Hollow, an abandoned gold mine northwest of Deathknell. Newly raised Forsaken are sent into its tunnels to cull the vermin and prove their readiness for combat.",
  "sections": [
   {
    "title": "The Infested Mine",
-   "body": "Tucked away in the northern hills of Deathknell, Night Web's Hollow was once an ordinary human gold mine before the plague swept through Lordaeron. In the aftermath of the kingdom's fall, the shafts were entirely abandoned to nature. Today, thick strands of webbing shroud the rock walls and suffocating shadows conceal a thriving colony of aggressive night web spiders. Freshly raised Forsaken are routinely dispatched into the hollow and its subterranean tunnels to cull the young and adult spiders so the Forsaken can regain access to the mine's gold.",
+   "body": "Night Web's Hollow lies in the hills northwest of Deathknell. Before the plague swept through Lordaeron, humans worked its gold mine. After the kingdom fell, the shafts stood empty. Now webs cover the rock walls, and aggressive night web spiders fill the vale and tunnels. The Forsaken send their newly raised into the hollow to kill young and adult spiders and regain access to the mine's gold.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "spider mine deathknell",
     "spider cave tirisfal"
    ],
-   "answer": "It is an abandoned gold mine and small ravine northwest of Deathknell. Overgrown with webs and swarming with aggressive spiders, it is one of the earliest proving grounds for new Forsaken recruits."
+   "answer": "Night Web's Hollow is a small ravine and abandoned gold mine northwest of Deathknell. Webs cover the vale, and aggressive spiders swarm through it, making it an early proving ground for new Forsaken recruits."
   },
   {
    "q": "Why are the Forsaken clearing out the spiders?",
@@ -31,7 +31,7 @@
     "why kill spiders",
     "deathknell spider quest"
    ],
-   "answer": "The Forsaken need the mine's gold but cannot reach it while spiders infest the tunnels. Executor Arren has little manpower to spare, so he asks new recruits to help clear the infestation gradually."
+   "answer": "The Forsaken need the mine's gold, but spiders block the tunnels. Executor Arren has few hands to spare, so new recruits help clear the infestation over time."
   },
   {
    "q": "What lives deep inside the mine shafts?",
@@ -39,7 +39,7 @@
     "spider boss mine",
     "night web matriarch location"
    ],
-   "answer": "While younger spiders skitter outside in the vale, full-grown Night Web Spiders prowl the mine tunnels. In the deepest, darkest chamber sits the Night Web Matriarch, the broodmother of the entire infestation."
+   "answer": "Young spiders skitter through the vale, while full-grown Night Web Spiders prowl the tunnels. Deep in the darkest chamber lives the Night Web Matriarch, broodmother of the infestation."
   },
   {
    "q": "Was this always a spider den?",
@@ -47,17 +47,17 @@
     "who dug the mine",
     "deathknell mine history"
    ],
-   "answer": "No. Before the fall of Lordaeron, it was a working gold mine used by the local human populace. After the Scourge wiped out the region, the shafts fell into disrepair and the spiders moved into the dark, sheltered tunnels."
+   "answer": "No. Before Lordaeron fell, local humans worked the mine for gold. After the Scourge wiped out the region, the shafts fell into disrepair, and spiders took shelter in the dark tunnels."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "For the freshly risen, the hollow is one of your very first trials. Slaying the arachnids proves you possess the focus and willpower required to serve the Dark Lady."
+   "text": "For you, newly risen, Night Web's Hollow is one of your first trials. Slaying the arachnids proves you have the focus and will to serve the Dark Lady."
   },
   {
    "target": "profession:Mining",
-   "text": "Although the shafts were originally excavated for gold, mineral operations here have long since ceased due to the lethal arachnid infestation."
+   "text": "The shafts were dug for gold, but lethal spiders have halted mining there."
   }
  ],
  "keywords": [
@@ -75,5 +75,6 @@
  ],
  "attribution": [
   "Night Web's Hollow"
- ]
+ ],
+ "style": 1
 }

@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Dun Modr"
  },
- "summary": "Dun Modr is an ancient fortified dwarven town in northern Wetlands, guarding the southern approach to the Thandol Span. Once a critical fortress held and contested across multiple wars, it has recently fallen to a hostile force of Dark Iron dwarves.",
+ "summary": "Dun Modr has fallen to Dark Iron dwarves, leaving the Thandol Span's southern approach in hostile hands. The fortress once changed hands in a fierce struggle during the Second War.",
  "sections": [
   {
    "title": "A Contested Bastion",
-   "body": "Situated at the northern edge of the Wetlands, Dun Modr commands the primary overland highway linking Khaz Modan with the northern human kingdoms. Because of this vital location, the stronghold has seen heavy bloodshed over the decades. During the Second War, the Orcish Horde captured and entrenched themselves within the dwarven fortress, using it as a forward staging ground to launch raids and repel Alliance armies. Stromgarde warriors launched a brutal amphibious assault from Tol Barad to reclaim it, only for the Orcs to strike back in a bloody tug-of-war. Alliance forces led by Lord Anduin Lothar ultimately drove the invaders south across the Thandol Span, restoring dwarven custody over the bastion.",
+   "body": "At Wetlands' northern edge, Dun Modr commands the main road between Khaz Modan and the northern human kingdoms. That route has drawn armies to the fortress across the decades. During the Second War, the Orcish Horde seized the dwarven stronghold and used it to launch raids and resist Alliance armies. Stromgarde warriors sailed from Tol Barad to reclaim it, and the Orcs struck back in a bloody struggle. Alliance forces under Lord Anduin Lothar eventually drove the invaders south across the Thandol Span, returning the fortress to dwarven hands.",
    "spoiler": 0
   },
   {
    "title": "The Dark Iron Incursion",
-   "body": "With Ironforge's attention divided and many of its finest mountaineers committed to Alliance duties abroad, Dun Modr was left vulnerable. Seizing the opportunity, Dark Iron invaders pushed north and sabotaged the Thandol Span with explosives before swarming the fortress. Under the command of the Dark Iron warlock Balgaras the Foul, these infiltrators overran the town's defenders, driving out the Bronzebeard garrison and transforming the strategic outpost into a hostile den. Surrounding Mountaineers now maintain a grim perimeter just down the road, desperately seeking aid to dislodge the occupiers.",
+   "body": "Dun Modr lay exposed while Ironforge's attention was divided and many of its finest mountaineers served the Alliance abroad. Dark Iron invaders took advantage, sabotaged the Thandol Span with explosives, then swarmed the fortress. Led by the warlock Balgaras the Foul, they overcame the defenders and drove out the Bronzebeard garrison. Mountaineers now hold a grim perimeter just down the road, seeking aid to drive out the occupiers.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "importance of dun modr",
     "dun modr strategic value"
    ],
-   "answer": "Dun Modr sits directly along the major northern road in the Wetlands leading to the Thandol Span. Controlling the fortress means controlling all overland traffic, supply lines, and military movement between Khaz Modan and the northern continent of Lordaeron."
+   "answer": "Dun Modr commands the main northern road through the Wetlands to the Thandol Span. Whoever holds the fortress can control overland traffic, supplies, and military movement between Khaz Modan and northern Lordaeron."
   },
   {
    "q": "Who controls Dun Modr right now?",
@@ -37,7 +37,7 @@
     "who runs dun modr",
     "who lives in dun modr"
    ],
-   "answer": "The stronghold has fallen to the Dark Iron clan, led on-site by a warlock named Balgaras the Foul. Bronzebeard Mountaineers loyal to Ironforge maintain a watchful camp nearby, hoping to reclaim it."
+   "answer": "Dark Iron dwarves hold Dun Modr, led there by the warlock Balgaras the Foul. Bronzebeard Mountaineers loyal to Ironforge watch from a nearby camp and hope to reclaim the fortress."
   },
   {
    "q": "What happened to Dun Modr during the Second War?",
@@ -46,7 +46,7 @@
     "orcs in dun modr",
     "did horde take dun modr"
    ],
-   "answer": "The Orcish Horde overran the town and turned it into a forward military base. Stromgarde forces struck from the island of Tol Barad to retake the ruins, sparking fierce clashes until Anduin Lothar's Alliance forces finally swept the Horde out of the region."
+   "answer": "The Orcish Horde seized Dun Modr and used it as a forward base. Stromgarde forces attacked from Tol Barad, and fierce clashes followed until Anduin Lothar's Alliance forces drove the Horde from the region."
   },
   {
    "q": "Who is Balgaras the Foul?",
@@ -55,17 +55,17 @@
     "balgaras who",
     "dark iron leader dun modr"
    ],
-   "answer": "Balgaras the Foul is the Dark Iron warlock leading the occupation of Dun Modr. Under his command, the Dark Irons managed to damage the Thandol Span and drive the local Ironforge defenders out of the fortress."
+   "answer": "Balgaras the Foul is the Dark Iron warlock leading the occupation of Dun Modr. His forces damaged the Thandol Span and drove the local Ironforge defenders from the fortress."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "Seeing a storied Bronzebeard mountain settlement fall into the hands of the treacherous Dark Iron clan is a bitter insult that demands vengeance."
+   "text": "As a dwarf, seeing a storied Bronzebeard mountain settlement in Dark Iron hands is a bitter insult, and calls for vengeance."
   },
   {
    "target": "faction:Alliance",
-   "text": "The fall of Dun Modr threatens the critical transit route across the Thandol Span, severing easy travel between Ironforge and the northern Alliance remnants."
+   "text": "As an Alliance member, you face a threat to the route across the Thandol Span, which links Ironforge with the northern Alliance remnants."
   }
  ],
  "keywords": [
@@ -89,5 +89,6 @@
  ],
  "attribution": [
   "Dun Modr"
- ]
+ ],
+ "style": 1
 }

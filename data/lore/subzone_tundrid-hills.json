@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Tundrid Hills"
  },
- "summary": "The Tundrid Hills are a rugged, snowbound stretch of highland in south-central Dun Morogh, lying just west of the Gol'Bolar Quarry. Inhabited by dangerous mountain wildlife, the rocky passes are rarely traversed by casual travelers.",
+ "summary": "Snowbound ridges cut across the Tundrid Hills in south-central Dun Morogh, west of the Gol'Bolar Quarry. Dangerous wildlife keeps travelers to the rocky passes at their peril.",
  "sections": [
   {
    "title": "A Treacherous Wilderness",
-   "body": "Stretching between Coldridge Valley and the lowlands of eastern Dun Morogh, the Tundrid Hills offer a rugged cross-country route for those looking to bypass the main roads through Kharanos. However, convenience comes at a steep price. The jagged snowy slopes are prowled by ferocious predators, making the territory perilous for unwary travelers who venture off the beaten path without a drawn weapon.",
+   "body": "The Tundrid Hills offer a rough route from Coldridge Valley to eastern Dun Morogh, away from the main roads through Kharanos. Jagged, snowy slopes make the crossing dangerous. Ferocious predators prowl the hills, so travelers who leave the beaten path face peril without a drawn weapon.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "where is tundrid hills",
     "tundrid hills map"
    ],
-   "answer": "The Tundrid Hills span the south-central portion of Dun Morogh, positioned west of the Gol'Bolar Quarry and forming a natural, elevated boundary south of the main road connecting Kharanos to eastern lands."
+   "answer": "The Tundrid Hills cross south-central Dun Morogh, west of the Gol'Bolar Quarry. They rise south of the main road from Kharanos to the eastern lands."
   },
   {
    "q": "Why would anyone travel through the Tundrid Hills?",
@@ -31,7 +31,7 @@
     "why go to tundrid hills",
     "tundrid hills shortcut"
    ],
-   "answer": "Adventurers sometimes navigate these harsh ridges as an overland shortcut between Coldridge Valley and eastern Dun Morogh, bypassing the established settlement routes, though it is far more hazardous than sticking to the patrolled roads."
+   "answer": "You can cross the Tundrid Hills overland from Coldridge Valley to eastern Dun Morogh, bypassing the established settlement routes. The ridges are far more hazardous than the patrolled roads."
   },
   {
    "q": "What threats can be found in the Tundrid Hills?",
@@ -40,17 +40,17 @@
     "tundrid hills enemies",
     "monsters in tundrid hills"
    ],
-   "answer": "The hills are home to fierce native wildlife accustomed to the freezing heights, and few travel here without a weapon at hand."
+   "answer": "Fierce wildlife adapted to the freezing heights lives in the Tundrid Hills. Few travelers venture there without a weapon at hand."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "For mountaineers of Ironforge, these heights serve as an ever-present reminder that wilderness and hostile Frostmane trolls press close against Dun Morogh's heartland."
+   "text": "As a mountaineer of Ironforge, you know these heights remind you that wilderness and hostile Frostmane trolls press close to Dun Morogh's heartland."
   },
   {
    "target": "class:Hunter",
-   "text": "The wind-battered crags provide rugged tracking grounds filled with hardy beasts adapted to Dun Morogh's punishing mountain chill."
+   "text": "As a hunter, you can track hardy beasts adapted to Dun Morogh's punishing mountain chill across these wind-battered crags."
   }
  ],
  "keywords": [
@@ -71,5 +71,6 @@
  ],
  "attribution": [
   "Tundrid Hills"
- ]
+ ],
+ "style": 1
 }

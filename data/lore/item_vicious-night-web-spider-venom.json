@@ -10,16 +10,16 @@
    "quest:369"
   ]
  },
- "summary": "Vicious Night Web Spider Venom is a potent natural toxin gathered from the arachnids haunting eastern Tirisfal Glades. The Royal Apothecary Society prizes it for its peculiar ability to carry and preserve historical disease strains, making it a critical reagent in the development of the Forsaken's New Plague.",
+ "summary": "In eastern Tirisfal, Vicious Night Web Spider Venom carries an old contagion. The Royal Apothecary Society prizes it for holding historical disease strains, and uses it in work on the Forsaken's New Plague.",
  "sections": [
   {
    "title": "A Preserved Contagion",
-   "body": "According to research conducted by Apothecary Johaan in Brill, ancient texts chronicle a devastating historical plague that wiped out thousands of innocent victims. Curiously, the contagious agent behind that forgotten outbreak managed to endure over centuries by embedding itself within the venom of the local Night Web spiders. By hunting down the vicious breed lurking in Venomweb Vale south of the Scarlet Monastery, the apothecaries extract this preserved virulence to serve as a vital catalyst in their ongoing alchemical experiments.",
+   "body": "Apothecary Johaan in Brill studies old texts about a plague that killed thousands. The contagion behind that outbreak endured for centuries inside the venom of local Night Web spiders. Apothecaries hunt the vicious breed in Venomweb Vale, south of the Scarlet Monastery, and draw out the preserved contagion for their alchemical experiments.",
    "spoiler": 0
   },
   {
    "title": "Fueling the New Plague",
-   "body": "The Forsaken seek a weapon against the Scourge and the living. Johaan adds the venom as the final component of his experimental concoction, hoping that its preserved contagious element will work with the mixture.",
+   "body": "The Forsaken seek a weapon against the Scourge and the living. Johaan adds the venom as the final component of his experimental concoction, hoping its preserved contagion will work with the mixture.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "night web venom lore",
     "spider venom plague"
    ],
-   "answer": "Scholarly tomes studied by the Royal Apothecary Society record that an ancient plague's pathogen was biologically preserved inside the venom glands of the Night Web spider lineage, turning their poison into a natural reservoir for infectious contagion."
+   "answer": "Old texts studied by the Royal Apothecary Society tell of an ancient plague pathogen preserved in the venom glands of the Night Web spider lineage. Their poison holds a reservoir of contagion."
   },
   {
    "q": "Where can the spiders carrying this venom be found?",
@@ -40,7 +40,7 @@
     "vicious night web spider location",
     "venomweb vale spiders"
    ],
-   "answer": "The vicious night web spiders reside primarily in Venomweb Vale, a web-choked canyon located in eastern Tirisfal Glades south of the Scarlet Monastery."
+   "answer": "Vicious night web spiders live mainly in Venomweb Vale, in eastern Tirisfal Glades south of the Scarlet Monastery."
   },
   {
    "q": "Who wants this venom in Brill?",
@@ -49,7 +49,7 @@
     "apothecary johaan venom",
     "who uses the venom"
    ],
-   "answer": "Apothecary Johaan, an alchemist stationed on the eastern edge of Brill, requests multiple samples to complete his research on a new infectious agent for the Forsaken."
+   "answer": "Apothecary Johaan in Brill wants multiple samples to continue his research into a new infectious agent for the Forsaken."
   },
   {
    "q": "How does the venom fit into the Forsaken's research?",
@@ -58,17 +58,17 @@
     "new plague component",
     "forsaken spider venom"
    ],
-   "answer": "Johaan requests the venom as the final component of his experiment. His old texts describe an ancient plague preserved through Night Web Spider venom, and he wants to test whether its contagious element will work with his new concoction."
+   "answer": "Johaan needs the venom as the final component of his experiment. Old texts describe an ancient plague preserved in Night Web Spider venom, and he wants to learn whether its contagion will work with his concoction."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "For the Forsaken, harvesting this venom is a direct contribution to Lady Sylvanas's supreme mandate: developing a plague powerful enough to bring down Arthas and his Scourge."
+   "text": "As Forsaken, gathering this venom helps Lady Sylvanas pursue her mandate to develop a plague powerful enough to bring down Arthas and his Scourge."
   },
   {
    "target": "class:Rogue",
-   "text": "Rogues familiar with handling natural neurotoxins can appreciate how the Royal Apothecary Society repurposes dangerous wild venoms into engineered bio-weapons."
+   "text": "As a Rogue familiar with natural neurotoxins, you can see how the Royal Apothecary Society turns dangerous wild venoms into engineered bio-weapons."
   }
  ],
  "keywords": [
@@ -91,5 +91,6 @@
  "attribution": [
   "Vicious Night Web Spider Venom",
   "A New Plague (3)"
- ]
+ ],
+ "style": 1
 }

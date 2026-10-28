@@ -10,11 +10,11 @@
    "quest:3361"
   ]
  },
- "summary": "Felix's Chest is a container of personal belongings lost by the exiled gnome Felix Whindlebolt during the flight from Gnomeregan. Carried away by Frostmane trolls lurking near Coldridge Valley, it sits abandoned within one of their primitive mountain camps.",
+ "summary": "Felix's Chest lies in a Frostmane camp southwest of Anvilmar. It holds belongings lost by the exiled gnome during the flight from Gnomeregan.",
  "sections": [
   {
    "title": "A Refugee's Losses",
-   "body": "When the subterranean techno-city of Gnomeregan fell to trogg incursions and toxic radioactive fallout, thousands of gnomes fled toward the snowy surface of Dun Morogh with whatever possessions they could carry. Felix Whindlebolt managed to escape the irradiated ruins, but amidst the panic of the evacuation, native Frostmane trolls scavenged the roads and overtook the scattered survivors. Felix lost his primary toolkits and belongings, with his sturdy chest hauled off to the crude camps the trolls maintain in the crags southwest of Anvilmar.",
+   "body": "Felix Whindlebolt fled Gnomeregan with the other gnomes when troggs and toxic radioactive fallout drove them from the city. The refugees crossed into snowy Dun Morogh with whatever they could carry. In the confusion, Frostmane trolls scavenged the roads and overtook scattered survivors. Felix lost his toolkits and belongings, and the trolls hauled his sturdy chest to their camps in the crags southwest of Anvilmar.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "what is in the chest",
     "felix's chest loot"
    ],
-   "answer": "The chest holds the personal belongings and effects Felix Whindlebolt managed to salvage when fleeing Gnomeregan. Left behind in his rush away from the lethal radiation, its contents are of little use to the trolls but represent the surviving remnants of his former life."
+   "answer": "Felix Whindlebolt's chest holds the personal belongings he salvaged while fleeing Gnomeregan. He left them behind in his rush to escape the lethal radiation; the contents mean little to the trolls, but they are remnants of his former life."
   },
   {
    "q": "Why do the Frostmane trolls have Felix's belongings?",
@@ -35,7 +35,7 @@
     "who stole felix chest",
     "trolls felix whindlebolt"
    ],
-   "answer": "The Frostmane trolls regularly harass travelers and scavenge through Coldridge Valley. When disoriented gnomish refugees scattered across Dun Morogh to escape their ruined city, trolls ambushed the stragglers and hauled their discarded gear and luggage back to their campsites."
+   "answer": "The Frostmane trolls have Felix's belongings because they ambushed scattered gnomish refugees and carried away their gear. The trolls harass travelers and scavenge through Coldridge Valley, and they took the refugees' discarded luggage back to their campsites."
   },
   {
    "q": "Where is the chest located?",
@@ -44,13 +44,13 @@
     "felix chest location",
     "find felix chest"
    ],
-   "answer": "The chest is located southwest of Anvilmar in Coldridge Valley, kept near the tents of a Frostmane troll settlement alongside other looted supplies."
+   "answer": "Felix's Chest is southwest of Anvilmar in Coldridge Valley, near the tents of a Frostmane troll settlement and other looted supplies."
   }
  ],
  "angles": [
   {
    "target": "race:Gnome",
-   "text": "The chest is a poignant reminder of the chaotic evacuation of Gnomeregan, where fleeing gnomes lost almost everything to the wilderness and opportunistic scavengers."
+   "text": "As a gnome, you can see Felix's Chest as a reminder of Gnomeregan's chaotic evacuation, when fleeing gnomes lost almost everything to the wilderness and scavengers."
   }
  ],
  "keywords": [
@@ -75,5 +75,6 @@
  "attribution": [
   "Felix's Chest",
   "A Refugee's Quandary (Classic)"
- ]
+ ],
+ "style": 1
 }

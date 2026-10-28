@@ -588,7 +588,7 @@
    "2": 1,
    "3": 1
   },
-  "summary": "Along the Southfury River, Kron’s keepsake carries the memory of a young orc hunter who went missing."
+  "summary": "Along the Southfury River, Kron\u2019s keepsake carries the memory of a young orc hunter who went missing."
  },
  "item:kuz-s-skull": {},
  "item:laced-pumpkin": {
@@ -605,7 +605,10 @@
  "item:legacy-of-the-aspects": {},
  "item:letter-to-delgren": {},
  "item:letter-to-ello": {
-  "summary": "The Letter to Ello is a sealed missive penned by Abercrombie, an eccentric hermit dwelling in a shack just north of Raven Hill Cemetery in Duskwood. Addressed to Mayor Ello Ebonlocke of Darkshire, the letter is delivered under the hermit's claim of old friendship, though its contents are written in an archaic script."
+  "faq": {
+   "4": 1
+  },
+  "summary": "Abercrombie sends a sealed letter to Mayor Ello Ebonlocke in Darkshire. The hermit lives in a shack just north of Raven Hill Cemetery, claims an old friendship, and writes the missive in an archaic script."
  },
  "item:letter-to-jin-zil": {
   "faq": {
@@ -674,11 +677,13 @@
  "item:mountain-lion-blood": {},
  "item:muddy-journal-pages": {
   "faq": {
-   "2": 1,
-   "3": 1,
-   "4": 1
+   "3": 1
   },
-  "summary": "These weathered, soil-stained sheets were recovered from the scene of a gruesome murder years ago in Duskwood. Long preserved by Tavernkeep Smitts without proof of authorship, they remain a key piece of evidence in an unresolved local investigation."
+  "remove_keywords": [
+   "legend of stalvan",
+   "stalvan"
+  ],
+  "summary": "Muddy Journal Pages were recovered from a murder scene in Duskwood years ago. Weathered and stained with soil, they remain with Tavernkeep Smitts, who kept them without proof of authorship as evidence in an unresolved local investigation."
  },
  "item:mudsnout-blossom": {},
  "item:mudsnout-composite": {},
@@ -1094,14 +1099,15 @@
  "item:toxic-fogger": {},
  "item:translated-letter": {
   "faq": {
-   "1": 2,
-   "3": 1
+   "1": 1,
+   "3": 1,
+   "4": 1
   },
   "remove_keywords": [
    "embalmer",
    "stitches"
   ],
-  "summary": "The Translated Letter is a deciphered message penned by the hermit Abercrombie and translated by Sirra Von'Indi in Darkshire for Mayor Ello Ebonlocke."
+  "summary": "In Darkshire, Sirra Von'Indi translates Abercrombie's letter for Mayor Ello Ebonlocke. The message sheds light on the hermit's dealings with the town."
  },
  "item:treshala-s-pendant": {},
  "item:trogg-stone-tooth": {},
@@ -1241,7 +1247,7 @@
   "remove_keywords": [
    "syndicate"
   ],
-  "summary": "Andron Gant is a reclusive, frequently intoxicated Forsaken residing in the murky depths of the Apothecarium in the Undercity, handling occasional research commissions and relic recoveries for local scholars."
+  "summary": "In the Undercity's Apothecarium, Andron Gant handles occasional commissions and relic recoveries for local scholars. He is a reclusive Forsaken, often drunk, and rarely leaves the city."
  },
  "npc:anduin-wrynn": {
   "faq": {
@@ -1360,7 +1366,7 @@
    "shadow council",
    "jaedenar"
   ],
-  "summary": "Braelyn Firehand is an elven practitioner of the arcane residing quietly among the Horde at Sun Rock Retreat in the Stonetalon Mountains. Claiming an interest in clearing mystical obstructions across the highlands, she enlists travelers to strike against the night elven guardians of Stonetalon Peak."
+  "summary": "At Sun Rock Retreat, Braelyn Firehand lives among the Horde and draws travelers into a campaign against the night elves of Stonetalon Peak."
  },
  "npc:braenna-flintcrag": {},
  "npc:brainwashed-noble": {
@@ -1413,7 +1419,7 @@
  "npc:cerellean-whiteclaw": {},
  "npc:charlga-razorflank": {
   "faq": {},
-  "summary": "Charlga Razorflank, widely known as the Crone of the Kraul, is the fierce and cunning geomancer chieftain presiding over Razorfen Kraul. Under her leadership, the Razorfen quilboar drove the tauren out of the southern Barrens through ruthless expansion, claiming to fight in the name of their fallen god, Agamaggan."
+  "summary": "In Razorfen Kraul, Charlga Razorflank leads the Razorfen quilboar. They drove the tauren from the southern Barrens, claiming to fight in the name of their fallen god, Agamaggan."
  },
  "npc:chef-breanna": {},
  "npc:chef-grual": {
@@ -1643,7 +1649,7 @@
   "remove_keywords": [
    "twilight's hammer"
   ],
-  "summary": "Gerrig Bonegrip is an unassuming dwarven shopkeeper tucked away in the shadowy corridors of Ironforge's Forlorn Cavern. Behind the counter of Bonegrip's Runes and Dooms, he quietly buys and sells esoteric texts concerning dark rituals and forgotten ancient powers."
+  "summary": "In Ironforge's Forlorn Cavern, Gerrig Bonegrip keeps a quiet shop of strange texts. At Bonegrip's Runes and Dooms, he buys and sells writings on dark rituals and forgotten ancient powers."
  },
  "npc:gershala-nightwhisper": {},
  "npc:ghamoo-ra-classic": {},
@@ -1781,7 +1787,7 @@
    "5": 1,
    "6": 1
   },
-  "summary": "Jitters is a trembling, reclusive human hiding out among the ruins of Raven Hill in western Duskwood. Consumed by constant paranoia and fear, he survives alone on Duskwood's perilous western edge, relying on passing adventurers for assistance while watching the encroaching shadows."
+  "summary": "Among Raven Hill's ruins, Jitters lives alone and fears the dangers around him. He survives on help from travelers in western Duskwood, always watching the shadows."
  },
  "npc:jocaste": {},
  "npc:john-j-keeshan": {},
@@ -1814,7 +1820,7 @@
   "remove_keywords": [
    "twilight's hammer"
   ],
-  "summary": "Keeper Bel'dugur is a scholarly Forsaken residing deep within the Apothecarium of the Undercity. He serves his people by commissioning expeditions to recover dark tomes and magical artifacts from across Azeroth."
+  "summary": "In the Undercity, Keeper Bel'dugur commissions expeditions to recover dark tomes and magical artifacts for his people. The scholarly Forsaken works deep within the Apothecarium."
  },
  "npc:keeper-bel-varil": {},
  "npc:keldran": {},
@@ -2294,7 +2300,7 @@
   "remove_keywords": [
    "abercrombie"
   ],
-  "summary": "Stitches is a colossal, stitched-together undead abomination that terrorizes Duskwood. Spawning in the western reaches of the zone, the monster relentlessly marches down the main road toward Darkshire, slaughtering unwary travelers and overwhelming Night Watch checkpoints."
+  "summary": "Along Duskwood's western road, Stitches marches toward Darkshire, crushing the Night Watch and unwary travelers in his path."
  },
  "npc:strahad-farsan": {},
  "npc:supervisor-raelen": {},
@@ -2643,11 +2649,10 @@
  "quest:1044": {
   "faq": {
    "1": 1,
-   "2": 1,
    "3": 1,
-   "4": 1
+   "5": 1
   },
-  "summary": "Answered Questions is an Alliance quest concluding a cross-continental investigation into the disappearance of the night elf priestess Velinde Starsong. Following clues across Kalimdor and the Eastern Kingdoms, an adventurer returns to Darnassus to deliver a final report to Thyn'tel Bladeweaver."
+  "summary": "The search for Velinde Starsong carries you from Ashenvale to Darnassus, where a report awaits."
  },
  "quest:1045": {},
  "quest:1046": {
@@ -3057,9 +3062,12 @@
  "quest:142": {
   "faq": {
    "2": 1,
-   "5": 1
+   "6": 1
   },
-  "summary": "Across Westfall, the Defias Brotherhood moves orders by courier. Gryan Stoutmantle sends the People's Militia after an elusive messenger whose dispatches may reveal how the bandits command their forces."
+  "remove_keywords": [
+   "vancleef"
+  ],
+  "summary": "Gryan Stoutmantle sends you after an elusive Defias courier, hoping to learn how the Brotherhood directs its forces."
  },
  "quest:1420": {},
  "quest:1421": {},
@@ -3776,16 +3784,14 @@
  "quest:2519": {},
  "quest:252": {
   "faq": {
-   "1": 2,
-   "3": 2,
-   "4": 2,
+   "4": 1,
    "5": 2,
    "6": 1
   },
   "remove_keywords": [
    "stitches"
   ],
-  "summary": "Translation to Ello is a pivotal quest in the Abercrombie storyline in Duskwood. Having asked Sirra Von'Indi to decipher the hermit's cryptic writings, the adventurer is tasked with delivering the translated parchment directly to Lord Ello Ebonlocke in Darkshire."
+  "summary": "In Duskwood, you carry Sirra Von'Indi's translation to Lord Ello Ebonlocke in Darkshire. It belongs to the Abercrombie story, and the letter bears news of the hermit's writings."
  },
  "quest:2520": {
   "faq": {
@@ -3923,7 +3929,7 @@
    "5": 1,
    "6": 1
   },
-  "summary": "A Dark Threat Looms is an urgent mission to protect Loch Modan from disaster. Alliance adventurers are tasked with deploying a neutralizing chemical against a planted explosive charge before catastrophic damage can be dealt to the Stonewrought Dam."
+  "summary": "Chief Engineer Hinderweir VII needs you to neutralize the charge Dark Iron saboteurs planted in the Stonewrought Dam. Use a Disarming Mixture before it brings disaster to the valley below."
  },
  "quest:2844": {},
  "quest:2845": {},
@@ -4045,10 +4051,7 @@
    "1": 1,
    "5": 1
   },
-  "remove_keywords": [
-   "old gods"
-  ],
-  "summary": "Prospector Whelgar tasks adventurers with venturing into the overrun Whelgar's Excavation Site in the Wetlands to recover four missing pieces of an ancient tablet known as the Goaz Stone so its mysterious inscriptions can be translated."
+  "summary": "Prospector Whelgar needs four pieces of the Goaz Stone from his overrun dig in the Wetlands. Its inscriptions await translation."
  },
  "quest:2990": {},
  "quest:2992": {},
@@ -4554,13 +4557,17 @@
  "quest:433": {},
  "quest:434": {
   "faq": {
-   "1": 1,
+   "1": 2,
    "2": 1,
-   "4": 1,
+   "3": 1,
+   "4": 2,
    "5": 1,
    "6": 1
   },
-  "summary": "In Stormwind Keep, Tyrion and Elling Trias draw a traitor into a garden meeting. Their plan aims to catch conspirators working against the kingdom."
+  "remove_keywords": [
+   "priestess tyriona"
+  ],
+  "summary": "Tyrion and Elling Trias draw a traitor into a garden meeting inside Stormwind Keep. Their plan puts his Defias contact within reach."
  },
  "quest:435": {
   "faq": {
@@ -4582,11 +4589,12 @@
  },
  "quest:440": {
   "faq": {
-   "1": 1,
    "2": 1,
+   "4": 1,
+   "5": 1,
    "6": 1
   },
-  "summary": "High Executor Hadrec sends an adventurer to Brill carrying a recovered wedding band inscribed to a woman named Deliah. Magistrate Sevren consults town records to investigate her identity and determine where the ring originated."
+  "summary": "High Executor Hadrec sends you across the border to Brill with a ring bearing Deliah's name. Magistrate Sevren searches the town records to learn who she was and where the ring came from."
  },
  "quest:441": {
   "faq": {
@@ -4645,16 +4653,15 @@
  },
  "quest:453": {
   "faq": {
-   "1": 1,
+   "1": 2,
    "3": 1,
-   "4": 1,
-   "5": 1,
+   "4": 2,
    "6": 1
   },
   "remove_keywords": [
    "jitters"
   ],
-  "summary": "Finding the Shadowy Figure is an Alliance quest that tasks adventurers with tracking down an elusive stranger connected to the tragedy at Sven Yorgen's farm. Guided by clues from Tavernkeep Smitts in Darkshire, travelers scour the haunted woods to the west in search of the fleeing fugitive."
+  "summary": "Sven Yorgen's farm has been devastated, and Finding the Shadowy Figure turns toward the stranger who fled it. Tavernkeep Smitts points the search west from Darkshire into Duskwood's haunted woods."
  },
  "quest:454": {},
  "quest:4542": {},
@@ -4935,9 +4942,10 @@
  "quest:523": {},
  "quest:524": {
   "faq": {
-   "4": 1
+   "1": 1,
+   "5": 1
   },
-  "summary": "Elixir of Agony is the culmination of Apothecary Lydon's sinister brewing experiments in Tarren Mill. Tasked by the Royal Apothecary Society, Lydon seeks to test a deadly poison disguised as stolen dwarven ale on human prisoners held within the settlement."
+  "summary": "In Tarren Mill, Apothecary Lydon prepares a deadly poison for a cruel test. He plans to disguise it as stolen dwarven ale and use it on human prisoners."
  },
  "quest:525": {},
  "quest:5261": {},
@@ -5156,10 +5164,9 @@
   "faq": {
    "1": 1,
    "3": 1,
-   "4": 1,
    "5": 1
   },
-  "summary": "A Rogue's Deal is a confrontation with Calvin Montague in Deathknell. After offering work to newly awakened Forsaken with the promise of wealth, the sly rogue's true intentions come to light when payment is demanded."
+  "summary": "Calvin Montague offers newly awakened Forsaken work in Deathknell. He promises wealth for delivering a letter, but you do not know whether he will honor the bargain."
  },
  "quest:591": {},
  "quest:592": {},
@@ -5304,7 +5311,7 @@
    "3": 1,
    "6": 1
   },
-  "summary": "Rhag Garmason tasks adventurers with checking on Ol' Ebenezer Rustlocke, a scout sent to inspect the massive stone crossing of the Thandol Span after contact with him is lost. Investigating beneath the arches of the crossing reveals the circumstances surrounding his disappearance and threats to the northern supply lines."
+  "summary": "At the Thandol Span, Rhag Garmason waits for word from a missing scout. He sent adventurers to check on Ol' Ebenezer Rustlocke after the dwarf stopped reporting from the great stone crossing. The search beneath its arches may reveal a threat to northern supply lines."
  },
  "quest:6321": {},
  "quest:6322": {},
@@ -5373,11 +5380,13 @@
  },
  "quest:6482": {
   "faq": {
-   "1": 1,
-   "3": 1,
+   "2": 1,
    "4": 1
   },
-  "summary": "Deep within Thistlefur Hold in northern Ashenvale, a caged bear named Ruul awaits rescue from the corrupted Thistlefur furbolgs. Horde adventurers can assist the captive in fighting his way out of the furbolg den to safety."
+  "remove_keywords": [
+   "ruul snowhoof"
+  ],
+  "summary": "In northern Ashenvale, Ruul waits in a cage deep inside Thistlefur Hold. He needs a Horde ally to help him fight through the corrupted furbolg den and reach safety."
  },
  "quest:65": {},
  "quest:6503": {},
@@ -5514,7 +5523,7 @@
    "4": 1,
    "5": 1
   },
-  "summary": "Guard Thomas is waiting at the eastern bridge for news of his missing men. He holds the crossing between Goldshire and the Eastvale Logging Camp with few guards to spare, and needs to know what happened along the river."
+  "summary": "Guard Thomas waits at the eastern bridge between Goldshire and the Eastvale Logging Camp. The fate of his missing men may show whether the river murlocs threaten more than scouts."
  },
  "quest:710": {},
  "quest:711": {},
@@ -7017,7 +7026,7 @@
    "1": 1,
    "3": 1
   },
-  "summary": "The Mast Room is a cavernous subterranean lumber mill nestled deep within the Deadmines. Overseen by the goblin taskmaster Sneed and his woodcarvers, this chamber processes timber stripped from Westfall."
+  "summary": "Timber from Westfall reaches the Mast Room, deep in the Deadmines, where goblin woodcarvers shape it for the Defias."
  },
  "subzone:master-s-cellar": {},
  "subzone:master-s-glaive": {},
@@ -7208,7 +7217,7 @@
    "3": 1,
    "4": 1
   },
-  "summary": "Roland's Doom is an abandoned, shadow-drenched mine tucked into the southeastern hills of Duskwood, just east of the Rotting Orchard. Once an ordinary delve, it has become infamous as a dangerous den overrun by savage worgen."
+  "summary": "Nightbane worgen hold Roland's Doom, east of the Rotting Orchard in southeastern Duskwood. The mine is abandoned, and its tunnels are a dangerous den."
  },
  "subzone:rolling-plains": {},
  "subzone:rotting-orchard": {},

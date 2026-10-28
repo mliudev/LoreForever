@@ -8,21 +8,21 @@
   "wiki": "Clerk Daltry",
   "refs": 10
  },
- "summary": "Clerk Daltry is the civic record keeper stationed in Darkshire Town Hall in Duskwood. Surrounded by ledgers and registry books, he helps investigate the village's past and track down historical records, even if his archives are somewhat neglected and out of date.",
+ "summary": "In Darkshire Town Hall, Clerk Daltry keeps the village's civic records and helps search its past. Ledgers and registry books fill his care, though the archives have fallen behind and are often neglected.",
  "sections": [
   {
    "title": "Town Record Keeper",
-   "body": "While Darkshire struggles against encroaching beasts, undead horrors, and supernatural gloom, everyday civic duties fall to Clerk Daltry. Working out of the Darkshire Town Hall alongside Lord Ello Ebonlocke and the local council, Daltry maintains the town's historical ledgers, property rolls, and census data. In a region fractured by disaster, his records are among the few surviving links to the days before Grand Hamlet fell into shadow.",
+   "body": "Clerk Daltry tends Darkshire's records while beasts, undead horrors, and supernatural gloom press against the town. He works in Darkshire Town Hall with Lord Ello Ebonlocke and the local council. His ledgers hold the town's history, property rolls, and census data. After disaster broke the region apart, these records remain among the few links to the days before Grand Hamlet fell into shadow.",
    "spoiler": 0
   },
   {
    "title": "The Paper Trail",
-   "body": "Because Darkshire has been cut off from regular Stormwind administration, Daltry's record-keeping is notoriously imperfect. Old documents go missing, ledgers fall behind, and vital town files are frequently misplaced or damaged. Adventurers investigating local cold cases or long-lost residents frequently consult him, only to find that uncovering the truth requires digging through overlooked notes or venturing out into the dangerous woods to recover lost papers.",
+   "body": "Clerk Daltry's records have suffered since Darkshire was cut off from regular Stormwind administration. Documents go missing, ledgers fall behind, and town files are often misplaced or damaged. Those investigating old cases or searching for residents come to him for help. Finding answers may mean combing through overlooked notes or braving the woods to recover lost papers.",
    "spoiler": 0
   },
   {
    "title": "The Legend of Stalvan",
-   "body": "Daltry plays a central role in untangling the dark mystery of Stalvan Mistmantle. When an ominous family legend leads investigators back to Darkshire, Daltry searches his archives for records of the former schoolteacher. Because his town registry entries on Stalvan are fragmented, Daltry must send seekers across town and into forgotten homesteads across the kingdom to piece together the tragic and bloody truth.",
+   "body": "Clerk Daltry searches Darkshire's archives when investigators follow the family legend of Stalvan Mistmantle. His registry entries on the former schoolteacher are fragmented, so he sends seekers across town and to forgotten homesteads across the kingdom. They must piece together the tragic and bloody truth.",
    "spoiler": 1
   }
  ],
@@ -34,7 +34,7 @@
     "where is daltry",
     "darkshire clerk location"
    ],
-   "answer": "Clerk Daltry is found inside the Darkshire Town Hall, located in the central village of Darkshire in Duskwood. He stands amidst the town officials and council members, managing the municipal records."
+   "answer": "Clerk Daltry works inside Darkshire Town Hall, in the central village of Darkshire in Duskwood. He keeps municipal records among the town officials and council members."
   },
   {
    "q": "What is Clerk Daltry's job in Darkshire?",
@@ -43,7 +43,7 @@
     "daltry role",
     "who is clerk daltry"
    ],
-   "answer": "He serves as Darkshire's civic clerk, tasked with preserving documents, town rolls, and legal registries. He assists adventurers who need archival information regarding former residents, land claims, or historical inquiries."
+   "answer": "Clerk Daltry keeps Darkshire's documents, town rolls, and legal registries. He helps those seeking records about former residents, land claims, or the town's history."
   },
   {
    "q": "Why are his records incomplete?",
@@ -52,7 +52,7 @@
     "outdated records duskwood",
     "missing ledgers daltry"
    ],
-   "answer": "Duskwood has suffered years of isolation, magical corruption, and violent turmoil. With the town's focus consumed by immediate survival against the Night Watch's enemies, maintaining up-to-date ledgers has often fallen by the wayside, leaving his archives fragmented."
+   "answer": "Clerk Daltry's records are incomplete because Duskwood has endured years of isolation, magical corruption, and violent turmoil. With the Night Watch's enemies threatening survival, keeping the ledgers current has often fallen behind."
   },
   {
    "q": "What questlines does Clerk Daltry start or participate in?",
@@ -61,7 +61,7 @@
     "what quests from daltry",
     "clerk daltry quest chain"
    ],
-   "answer": "Daltry is a crucial figure in 'The Legend of Stalvan' storyline, helping players track down the elusive past of Stalvan Mistmantle. He also assists with investigations such as 'The Carevin Family' and 'The Shadowy Search Continues'."
+   "answer": "Clerk Daltry helps investigators follow the story of Stalvan Mistmantle and track down his past. He also assists with investigations such as 'The Carevin Family' and 'The Shadowy Search Continues'."
   },
   {
    "q": "Who sends investigators to Clerk Daltry?",
@@ -69,7 +69,7 @@
     "who sends people to daltry",
     "daltry contacts"
    ],
-   "answer": "Madame Eva sends those chasing the Stalvan mystery to the clerk in the Town Hall, and travelers following other trails, such as the search for Velinde Starsong, are pointed his way too. When his own records run dry, Daltry sends them on, for instance to the inn to ask after a stranger."
+   "answer": "Madame Eva sends those following the Stalvan mystery to Clerk Daltry at the Town Hall. Travelers seeking Velinde Starsong have also been directed to him. When his records run dry, Daltry sends seekers elsewhere, such as to the inn to ask about a stranger."
   },
   {
    "q": "Can Horde players speak with Clerk Daltry?",
@@ -77,17 +77,17 @@
     "is daltry friendly to horde",
     "can horde talk to daltry"
    ],
-   "answer": "No. Clerk Daltry is an Alliance-affiliated municipal servant. Darkshire and its town hall are guarded by the Night Watch and hostile to all Horde adventurers."
+   "answer": "No. Clerk Daltry serves the Alliance, and the Night Watch guards Darkshire and its town hall against Horde adventurers."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "For Alliance investigators uncovering the sinister mysteries of Duskwood, Clerk Daltry is an essential bureaucratic contact for long-lost records and cold case files."
+   "text": "As an Alliance investigator, you can turn to Clerk Daltry for long-lost records and old cases amid Duskwood's sinister mysteries."
   },
   {
    "target": "race:Human",
-   "text": "Daltry preserves what remains of the historical heritage of Grand Hamlet before the darkness descended upon the woodland realm."
+   "text": "As a human, you can look to Daltry to preserve the history that remains of Grand Hamlet from before darkness fell over the woodland."
   }
  ],
  "keywords": [
@@ -113,5 +113,6 @@
  ],
  "attribution": [
   "Clerk Daltry"
- ]
+ ],
+ "style": 1
 }

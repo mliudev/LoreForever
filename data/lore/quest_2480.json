@@ -17,16 +17,16 @@
   "wiki": "Hinott's Assistance (2)",
   "chain": []
  },
- "summary": "Hinott's Assistance is the culmination of a Horde rogue's journey to overcome Zanzil's deadly creeping poison. Waiting upon apothecary Serge Hinott in Tarren Mill, the afflicted operative receives an antidote to the toxin alongside foundational training in alchemical venomcraft.",
+ "summary": "At Tarren Mill, a Horde rogue seeks Serge Hinott's help against Zanzil's poison. The Forsaken chemist studies the toxin and prepares a cure.",
  "sections": [
   {
    "title": "A Toxic Masterpiece",
-   "body": "After contracting a virulent, mind-altering toxin during an assignment in the Barrens, Horde rogues are directed north to Tarren Mill to consult Serge Hinott. A Forsaken chemist of singular focus, Hinott displays professional awe toward the poison concocted by the jungle troll exile Zanzil. While unconcerned with the troll's identity or lineage, Hinott openly commends the brew's vicious efficacy, eager to study its mechanism before formulating an antidote.",
+   "body": "After a Barrens assignment leaves you suffering from a toxin that clouds the mind, you are sent north to Tarren Mill. Serge Hinott, a Forsaken chemist, studies the poison made by Zanzil, a jungle troll exile. Hinott cares little about the troll's identity or kin. He admires the brew's vicious effect and wants to understand how it works before making an antidote.",
    "spoiler": 0
   },
   {
    "title": "The Antidote and the Trade",
-   "body": "Developing the remedy requires only patience while Hinott isolates the active agents. The finished concoction halts the creeping madness, even if the chemist admits he cannot wash out the lingering stench. Once purged of the debilitating venom, rogues transition from victims to practitioners, using Hinott's insights into Zanzil's handiwork to master the preparation of their own tactical poisons.",
+   "body": "Hinott needs time to isolate the poison's active agents. His finished remedy halts the creeping madness, though he says its lingering stench remains. Once the venom no longer weakens you, Hinott shares what he learned from Zanzil's work. You can use that knowledge to prepare tactical poisons of your own.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "hinott assistance walk",
     "how to finish quest"
    ],
-   "answer": "You simply need to wait a few moments in Tarren Mill while Serge Hinott prepares the anti-toxin. Once he finishes concocting the mixture, speak with him to ingest the cure and cleanse Zanzil's poison."
+   "answer": "Wait a few moments in Tarren Mill while Serge Hinott prepares the antidote. When it is ready, speak with him to take the cure and clear Zanzil's poison."
   },
   {
    "q": "Who is Serge Hinott?",
@@ -47,7 +47,7 @@
     "who is hinott",
     "tarren mill apothecary"
    ],
-   "answer": "Serge Hinott is a Forsaken alchemist and poison expert stationed at Tarren Mill in the Hillsbrad Foothills. He lends his specialized craft to Horde rogues seeking to cure exotic afflictions and learn the intricacies of venom preparation."
+   "answer": "Serge Hinott is a Forsaken alchemist and poison expert at Tarren Mill in the Hillsbrad Foothills. He helps Horde rogues cure unusual afflictions and learn to prepare venom."
   },
   {
    "q": "Why is Serge Hinott impressed by the poison?",
@@ -55,7 +55,7 @@
     "zanzil poison reaction",
     "why does hinott like it"
    ],
-   "answer": "Hinott considers Zanzil's formula a marvel of alchemical design due to its potent mixture of creeping madness and physical debilitation. Even while working to neutralize it, he openly praises the craft behind such a destructive concoction."
+   "answer": "Hinott admires the craft in Zanzil's formula, which combines creeping madness with physical weakness. Though he works to stop its effects, he praises the skill behind the destructive brew."
   },
   {
    "q": "What is the lingering smell Hinott mentions?",
@@ -64,7 +64,7 @@
     "madness smell",
     "quest smell"
    ],
-   "answer": "Zanzil's mixture possesses a pungent, sickly odor that permeates the victim's pores. While Hinott's anti-toxin successfully halts the poison's progression and clears the mind, it does not immediately neutralize the offensive stench left behind."
+   "answer": "Zanzil's mixture leaves a pungent, sickly odor that lingers in the victim's pores. Hinott's antidote halts the poison and clears the mind, but the stench remains for a time."
   },
   {
    "q": "What is the reward for completing this quest?",
@@ -72,7 +72,7 @@
     "what do rogues get",
     "hinotts assistance reward"
    ],
-   "answer": "Completing this task clears the persistent debuff contracted during the rogue class questline and opens the way to learning the Rogue Poisons skill, allowing players to brew their own debilitating coatings."
+   "answer": "The cure clears the lasting affliction from your rogue training and opens the way to learning Rogue Poisons, so you can brew debilitating coatings."
   },
   {
    "q": "Where is this quest turned in?",
@@ -80,21 +80,21 @@
     "where is hinott",
     "turn in location"
    ],
-   "answer": "The quest begins and completes directly with Serge Hinott at Tarren Mill, located in the northern Hillsbrad Foothills."
+   "answer": "You meet Serge Hinott at Tarren Mill in the northern Hillsbrad Foothills, where he begins and completes the work."
   }
  ],
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "This rite of passage cures the debilitating affliction suffered during your initiation and unlocks the knowledge needed to concoct tactical poisons."
+   "text": "As a rogue, you are cured of the affliction from your initiation and gain the knowledge to make tactical poisons."
   },
   {
    "target": "faction:Horde",
-   "text": "Forsaken alchemy proves indispensable to the Horde's stealth operatives, transforming exotic jungle troll toxins into standard field knowledge."
+   "text": "As a member of the Horde, you can learn from Forsaken alchemy as it turns jungle troll toxins into field knowledge."
   },
   {
    "target": "race:Undead",
-   "text": "Apothecary Hinott exemplifies the Royal Apothecary Society's detached scientific admiration for any poison that shows genuine craftsmanship, regardless of origin."
+   "text": "As an Undead, you see Apothecary Hinott's detached admiration for poison made with skill, whatever its origin."
   }
  ],
  "keywords": [
@@ -115,5 +115,6 @@
  ],
  "attribution": [
   "Hinott's Assistance (2)"
- ]
+ ],
+ "style": 1
 }

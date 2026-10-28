@@ -1,0 +1,94 @@
+{
+ "key": "quest:1678",
+ "type": "quest",
+ "name": "Vejrek",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   1678
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Muren Stormpike asks you to prove your mettle against Vejrek, a troll in the foothills south of Frostmane Hold. Your success earns the start of a lesson in strong defense.",
+ "sections": [
+  {
+   "title": "A Test of Mettle",
+   "body": "Muren Stormpike says you need toughness before he can teach you new moves. Vejrek is the toughest troll in these parts, and his hut lies in the foothills south of Frostmane Hold. Muren asks you to bring back Vejrek\u2019s head as proof you can handle real foes.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Lesson",
+   "body": "Muren accepts Vejrek\u2019s head and says you have what it takes. He is ready to begin teaching you about strong defense, which helps you stay standing against foes that would fell others and supports your allies.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Vejrek?",
+   "aliases": [
+    "who's vejrek",
+    "vejrek troll",
+    "that troll"
+   ],
+   "answer": "Vejrek is described as the toughest troll in these parts. He has a hut in the foothills south of Frostmane Hold."
+  },
+  {
+   "q": "Why does Muren send me after Vejrek?",
+   "aliases": [
+    "why kill vejrek",
+    "muren's test",
+    "prove mettle"
+   ],
+   "answer": "Muren wants proof that you can handle real foes before he teaches you new moves."
+  },
+  {
+   "q": "Where is Vejrek's hut?",
+   "aliases": [
+    "vejrek location",
+    "where's his hut",
+    "foothills troll"
+   ],
+   "answer": "Vejrek\u2019s hut is in the foothills just south of Frostmane Hold."
+  },
+  {
+   "q": "What does Muren want brought back?",
+   "aliases": [
+    "vejrek head",
+    "what to bring",
+    "muren wants what"
+   ],
+   "answer": "Muren asks you to bring him Vejrek\u2019s head as proof of your mettle."
+  },
+  {
+   "q": "What does Muren teach after the test?",
+   "aliases": [
+    "muren lesson",
+    "what's the lesson",
+    "strong defense"
+   ],
+   "answer": "After accepting Vejrek\u2019s head, Muren begins a lesson about strong defense and how it helps you remain standing against foes."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "frostmane hold",
+  "ironforge",
+  "mettle",
+  "muren stormpike",
+  "strong defense",
+  "troll",
+  "vejrek"
+ ],
+ "related": [
+  "quest:1679",
+  "quest:287",
+  "zone:ironforge",
+  "topic:troll"
+ ],
+ "style": 1,
+ "attribution": [
+  "In-game quest text: Vejrek"
+ ]
+}

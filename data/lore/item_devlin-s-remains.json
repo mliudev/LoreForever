@@ -10,16 +10,16 @@
    "quest:362"
   ]
  },
- "summary": "Devlin's Remains are the collected skeletal bones of Devlin Agamand, the younger son of the wealthy family who owned the Agamand Mills. Stalking the roads near his ruined ancestral estate as a mindless Scourge thrall, he was struck down to deliver his bones to a vengeful survivor in Brill.",
+ "summary": "Near Agamand Mills, Devlin Agamand’s bones carry a bitter legacy. The younger son of the wealthy family that owned the mills, he roamed the road by his ruined home as a mindless Scourge thrall. A traveler struck him down and brought his remains to a survivor in Brill, who sought vengeance.",
  "sections": [
   {
    "title": "A Bitter Legacy",
-   "body": "In life, Devlin Agamand stood in the shadow of his elder brother Thurman. Where Thurman was gentle and tall, Devlin was remembered as physically frail and viciously sharp-tongued. When the Plague of Undeath swept through northern Tirisfal Glades, the Agamand family failed to protect their lands and laborers. Devlin was among the first to fall, reanimated as a ravenous Scourge ghoul whose frantic, mad chattering haunted the roadside leading up to Agamand Mills.",
+   "body": "Devlin Agamand lived in the shadow of his elder brother Thurman. Thurman was gentle and tall, while Devlin was frail and sharp-tongued. When the Plague of Undeath swept through northern Tirisfal Glades, the Agamand family failed to protect its lands and laborers. Devlin was among the first to fall. The Scourge raised him as a ravenous ghoul, and his mad chattering haunted the roadside leading to Agamand Mills.",
    "spoiler": 0
   },
   {
    "title": "Vengeance on the Mantle",
-   "body": "Coleman Farthing, a Forsaken residing in Brill, holds a deep and abiding grudge against the entire Agamand bloodline. Holding them directly responsible for failing his family when the plague arrived, Farthing tasked travelers with laying Devlin to rest and collecting his remains. Farthing sought to display Devlin's bones upon his mantle, savoring the knowledge that his former masters have been reduced to dust and shattered fragments under his heel.",
+   "body": "Coleman Farthing lives in Brill and holds a deep grudge against the Agamand bloodline. He blames the family for failing his own when the plague came. Farthing sent travelers to lay Devlin to rest and gather his remains. He wanted Devlin’s bones on his mantle, to savor how his former masters had been reduced to dust and shattered fragments beneath his heel.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "devlin agamand backstory",
     "about devlin"
    ],
-   "answer": "Devlin was the younger son of the Agamand family, the wealthy landowners who built the Agamand Mills in northern Tirisfal Glades. Unlike his mild-tempered and broad-shouldered brother Thurman, Devlin was weak, sickly, and notoriously ill-tempered, known for a bitter and sharp tongue."
+   "answer": "Devlin was the younger son of the wealthy Agamand family, who owned Agamand Mills in northern Tirisfal Glades. His mild-tempered, broad-shouldered brother Thurman stood in sharp contrast to Devlin, who was frail, sickly, ill-tempered, and sharp-tongued."
   },
   {
    "q": "Where were Devlin's remains gathered from?",
@@ -40,7 +40,7 @@
     "where to find devlin",
     "devlin agamand location"
    ],
-   "answer": "They were taken from Devlin Agamand's Scourge-controlled corpse, located just south of the Agamand Mills along the road winding through Tirisfal Glades."
+   "answer": "Devlin’s remains came from his Scourge-controlled corpse, south of Agamand Mills beside the road through Tirisfal Glades."
   },
   {
    "q": "Why does Coleman Farthing want these bones?",
@@ -49,7 +49,7 @@
     "coleman farthing motive",
     "why collect agamand bones"
    ],
-   "answer": "Coleman Farthing despises the Agamand family, believing they abandoned and failed him and his loved ones during the outbreak of the Plague. He intends to mount Devlin's bones on his mantelpiece in Brill as a trophy of vengeance and satisfaction."
+   "answer": "Coleman Farthing despises the Agamand family and believes they abandoned him and his loved ones during the Plague. He wants Devlin’s bones on his mantelpiece in Brill as a trophy of vengeance and satisfaction."
   },
   {
    "q": "Is Devlin part of the Forsaken?",
@@ -57,13 +57,13 @@
     "is devlin forsaken",
     "was devlin scourge"
    ],
-   "answer": "No. When Devlin succumbed to the Plague, his mind was lost entirely to the Scourge. He wandered the grounds near the mills as a mindless undead ghoul, babbling madness until destroyed."
+   "answer": "No. The Plague took Devlin’s mind, and the Scourge made him a mindless ghoul. He wandered near the mills, babbling madness until he was destroyed."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "For the Forsaken, the Agamands represent the old, privileged nobility of Lordaeron whose failures left common folk to perish and rise as monsters, making the desecration of Devlin's remains an act of class retribution."
+   "text": "To the Forsaken, the Agamands represent Lordaeron’s old privileged nobility. The family’s failures left common folk to perish and rise as monsters, so desecrating Devlin’s remains is an act of class retribution."
   }
  ],
  "keywords": [
@@ -88,5 +88,6 @@
  "attribution": [
   "Devlin's Remains",
   "The Haunted Mills (Classic)"
- ]
+ ],
+ "style": 1
 }

@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Grizzled Den"
  },
- "summary": "The Grizzled Den is a cavern nestled in the snowy hills just southwest of Kharanos. It serves as a notorious lair for the ferocious, frost-breathing wendigos indigenous to Dun Morogh.",
+ "summary": "Wendigo packs make their lair in Grizzled Den, southwest of Kharanos in Dun Morogh.",
  "sections": [
   {
    "title": "A Frost-Chilled Lair",
-   "body": "Carved deep into the crags southwest of Kharanos, the Grizzled Den is notorious among local mountaineers as the nesting ground of Dun Morogh's wendigo packs. These aggressive, ape-like beasts wield frosty breath against intruders and band together to protect their hollows. Despite the peril, daring hunters regularly brave the cavern's depths to harvest thick wendigo manes, which fetch a respectable sum among craftsmen looking to line cold chairs and carriage seats with insulated fur.",
+   "body": "Grizzled Den cuts into the crags southwest of Kharanos, where Dun Morogh’s wendigo packs make their home. These aggressive, ape-like beasts breathe frost at intruders and band together to defend their hollows. Hunters brave the cavern for the thick wendigo manes, which craftsmen use to line cold chairs and carriage seats with insulated fur.",
    "spoiler": 0
   },
   {
    "title": "Hidden Treasures",
-   "body": "Beyond its fearsome inhabitants, the twisting tunnels of the Grizzled Den draw opportunists searching for natural wealth. Prospectors frequently venture past the outer entrance to hammer at copper veins jutting from the frozen stone walls, while adventurous scouts often scour the darker corners for discarded footlockers. However, delve too far into the inner reaches, and you are bound to face the dens' largest and most vicious predators lurking in the shadows.",
+   "body": "Prospectors enter Grizzled Den to work copper veins in its frozen stone walls, and scouts search its darker corners for discarded footlockers. The deeper tunnels hold the den’s largest and most vicious predators, waiting in the shadows.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "where is grizzled den",
     "how to get to grizzled den"
    ],
-   "answer": "The Grizzled Den is found southwest of Kharanos in Dun Morogh, tucked away into the snow-covered mountain ridges."
+   "answer": "Grizzled Den lies in Dun Morogh, southwest of Kharanos, among the snow-covered mountain ridges."
   },
   {
    "q": "What creatures live in the Grizzled Den?",
@@ -37,7 +37,7 @@
     "grizzled den mobs",
     "creatures inside grizzled den"
    ],
-   "answer": "The cavern is overrun with packs of ferocious wendigos. These aggressive, white-furred beasts can exhale freezing frost and will readily swarm any interloper."
+   "answer": "Packs of ferocious wendigos live in Grizzled Den. The white-furred beasts breathe freezing frost and swarm intruders."
   },
   {
    "q": "Why do people venture into the Grizzled Den?",
@@ -46,17 +46,17 @@
     "grizzled den quests",
     "wendigo manes"
    ],
-   "answer": "Hunters and adventurers brave the den primarily to hunt wendigos for their thick manes, which are highly prized for crafting warm seat covers. Others brave the freezing tunnels to extract raw copper ore from the cavern walls."
+   "answer": "Hunters seek wendigo manes for warm seat covers, while others venture into the tunnels to mine copper from the walls."
   }
  ],
  "angles": [
   {
    "target": "profession:Mining",
-   "text": "The outer and inner tunnels of the den hold exposed copper deposits, making it a viable early digging spot if you can keep the wendigos off your back."
+   "text": "Copper deposits run through Grizzled Den’s outer and inner tunnels, though wendigos make mining there dangerous."
   },
   {
    "target": "race:Dwarf",
-   "text": "Clearing the Grizzled Den is practically a rite of passage for young dwarven mountaineers training around Kharanos."
+   "text": "For young dwarven mountaineers training around Kharanos, clearing Grizzled Den is a rite of passage."
   }
  ],
  "keywords": [
@@ -74,5 +74,6 @@
  ],
  "attribution": [
   "Grizzled Den"
- ]
+ ],
+ "style": 1
 }

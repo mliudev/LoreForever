@@ -21,21 +21,21 @@
    "Wand to Bethor"
   ]
  },
- "summary": "Resting in Pieces begins when an adventurer recovers the animated, severed head of Alaric, a former servant of the necromancer Thule Ravenclaw on Fenris Isle. Alaric pleads to be carried across Fenris Keep to an unmarked grave near the stables where the rest of his remains lie buried.",
+ "summary": "On Fenris Isle, Resting in Pieces begins with Alaric's animated, severed head. He asks to be carried across Fenris Keep to an unmarked grave near the stables, where the rest of his remains lie.",
  "sections": [
   {
    "title": "A Bodyguard Betrayed",
-   "body": "Before his gruesome fate, Alaric served as the chief servant and personal bodyguard to Thule Ravenclaw, a powerful Scourge-aligned mage operating out of Fenris Keep in Silverpine Forest. When the Plague of Undeath swept the region, Thule claimed he would use his arcane sorcery to protect Alaric from falling victim to it. Instead, the twisted ward trapped Alaric in a permanent, agonizing state of undeath, leaving his consciousness fully intact within his severed parts.",
+   "body": "Alaric once served as Thule Ravenclaw's chief servant and personal bodyguard at Fenris Keep in Silverpine Forest. Thule was a powerful mage aligned with the Scourge. When the Plague of Undeath swept through the region, he promised his sorcery would shield Alaric from it. Instead, the ward trapped Alaric in endless agony and undeath, with his awareness intact in his severed parts.",
    "spoiler": 0
   },
   {
    "title": "Plaything of the Rot Hides",
-   "body": "After engineering the creation of the rot hide gnolls by infecting the local packs with necromantic decay, Thule turned on his own bodyguard. The necromancer decapitated Alaric and tossed his still-living, speaking head to the savage gnolls as a gruesome diversion. While the rot hides dragged his body to a hasty, shallow grave outside the keep's stables, they kept his head as a macabre plaything until an outsider intervened.",
+   "body": "Thule created the rot hide gnolls by infecting local packs with necromantic decay, then turned against his own bodyguard. He cut off Alaric's head and threw it to the savage gnolls as a diversion. The rot hides dragged Alaric's body to a shallow, hastily dug grave outside the keep's stables. They kept his speaking head as a grim plaything until an outsider intervened.",
    "spoiler": 0
   },
   {
    "title": "Reuniting the Pieces",
-   "body": "Reaching the hastily dug dirt near the stables reunites Alaric's severed head with his headless torso. Though still shackled to the curse of unlife that Thule wove around him, having his parts restored brings Alaric a bitter measure of relief.",
+   "body": "The hastily dug grave near the stables holds Alaric's headless torso. When his severed head is brought there, his remains are reunited. Thule's curse still binds Alaric to undeath, but having his parts restored brings him a bitter measure of relief.",
    "spoiler": 1
   }
  ],
@@ -47,7 +47,7 @@
     "who is the talking head",
     "talking head silverpine"
    ],
-   "answer": "Alaric was the head servant and personal bodyguard of Thule Ravenclaw at Fenris Keep. Thule cast an unnatural spell on him under the guise of protecting him from the Plague of Undeath, which instead bound him into eternal unlife."
+   "answer": "Alaric served as Thule Ravenclaw's chief servant and personal bodyguard at Fenris Keep. Thule's spell, supposedly meant to shield him from the Plague of Undeath, instead bound him to eternal unlife."
   },
   {
    "q": "Why was Alaric beheaded?",
@@ -55,7 +55,7 @@
     "why is alaric a head",
     "who cut off alarics head"
    ],
-   "answer": "Thule Ravenclaw beheaded Alaric shortly after completing his experiments to create the rot hide gnolls. The necromancer then tossed Alaric's severed, conscious head to the gnolls as a plaything."
+   "answer": "Thule Ravenclaw beheaded Alaric after completing his experiments to create the rot hide gnolls. He threw Alaric's severed, conscious head to the gnolls as a plaything."
   },
   {
    "q": "Where is Alaric's grave located?",
@@ -64,7 +64,7 @@
     "shallow grave location",
     "where is the grave fenris"
    ],
-   "answer": "His body lies in an unmarked, hastily dug shallow grave on Fenris Isle within the courtyard of Fenris Keep, close to the stable buildings."
+   "answer": "Alaric's body lies in an unmarked, shallow grave dug in haste on Fenris Isle, in Fenris Keep's courtyard near the stable buildings."
   },
   {
    "q": "What are the rot hide gnolls?",
@@ -73,7 +73,7 @@
     "rot hide gnolls",
     "fenris isle gnolls"
    ],
-   "answer": "The rot hide gnolls are the local gnoll population of Fenris Isle, transformed into rotting, undead-tainted horrors through the necromantic experiments of Thule Ravenclaw."
+   "answer": "The rot hide gnolls are Fenris Isle's local gnoll packs, transformed into rotting horrors touched by undeath through Thule Ravenclaw's necromantic experiments."
   },
   {
    "q": "Who is Thule Ravenclaw?",
@@ -81,7 +81,7 @@
     "thule",
     "thule ravenclaw"
    ],
-   "answer": "Thule Ravenclaw is a human wizard and Scourge necromancer who seized Fenris Keep in the middle of Lake Lordamere, using it as a laboratory to corrupt the gnolls and spread the Scourge's influence."
+   "answer": "Thule Ravenclaw is a human wizard and Scourge necromancer who seized Fenris Keep in the middle of Lake Lordamere. He uses it as a laboratory to corrupt the gnolls and spread the Scourge's influence."
   },
   {
    "q": "What happens after you find the grave?",
@@ -89,17 +89,17 @@
     "what next resting in pieces",
     "resting in pieces followup"
    ],
-   "answer": "Once reunited with his remains, Alaric assists you in locating a hidden niche containing a powerful wand, which can then be returned to Dalaran's Magus Bethor Iceshard in the Undercity."
+   "answer": "After his remains are reunited, Alaric helps you find a hidden niche containing a powerful wand. You can return it to Dalaran's Magus Bethor Iceshard in the Undercity."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "Forsaken champions will recognize Thule Ravenclaw's treacherous spellcasting as emblematic of the cruel horrors inflicted by Scourge-aligned sorcerers across Lordaeron."
+   "text": "As a Forsaken champion, you will recognize Thule Ravenclaw's treacherous spellcasting as one of the cruel horrors Scourge-aligned sorcerers inflict across Lordaeron."
   },
   {
    "target": "class:Mage",
-   "text": "Thule's corrupted ward\u2014twisting defensive abjuration into an inescapable curse of severed undeath\u2014stands as a stark warning of what happens when arcane magic is twisted by necromancy."
+   "text": "As a mage, you can see how Thule twisted a defensive ward into an inescapable curse of severed undeath. His spell shows the harm arcane magic can suffer when necromancy corrupts it."
   }
  ],
  "keywords": [
@@ -124,5 +124,6 @@
  ],
  "attribution": [
   "Resting in Pieces"
- ]
+ ],
+ "style": 1
 }

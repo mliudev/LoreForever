@@ -157,7 +157,11 @@ test("search results: the title says WoW Forever and where, the description is w
   // narration" over the summary cut mid-sentence.
   const place = await head("/lore/subzone/bandarion-keep");
   assert.equal(place.title, "Bandarion Keep, Tirisfal Glades – WoW Forever Lore");
-  assert.match(place.desc, /^Bandarion Keep is a fortified redoubt .*\.$/);
+  // Its summary's first whole sentence leads, read from the page's own data (the lore text is rewritten from time to time).
+  const summary = JSON.parse(readFileSync(join(PUBLIC, "lore/data/e/subzone_bandarion-keep.json"), "utf8")).description;
+  const text = place.desc.replace(/&#39;/g, "'").replace(/&quot;/g, '"').replace(/&lt;/g, "<").replace(/&gt;/g, ">").replace(/&amp;/g, "&");
+  assert.ok(text.startsWith(summary.split(/(?<=\.)\s/)[0]), place.desc);
+  assert.match(place.desc, /\.$/);
   assert.deepEqual(place.ld.itemListElement.map(i => [i.position, i.name, i.item]), [
     [1, "Lore", "https://loreforeverwow.com/lore"], [2, "Tirisfal Glades", "https://loreforeverwow.com/lore/zone/tirisfal"],
     [3, "Bandarion Keep", "https://loreforeverwow.com/lore/subzone/bandarion-keep"]]);

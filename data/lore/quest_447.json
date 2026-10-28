@@ -21,16 +21,16 @@
    "A Recipe For Death (3)"
   ]
  },
- "summary": "A Recipe For Death is an alchemical errand commissioned by Apothecary Renferrel at the Sepulcher in Silverpine Forest. Tasked with gathering grizzly bear hearts and arachnid blood, adventurers transport the volatile biological reagents to Master Apothecary Faranell in the Undercity to aid in formulating the Forsaken's lethal New Plague.",
+ "summary": "In Silverpine, A Recipe For Death gathers reagents for the Forsaken's New Plague. Apothecary Renferrel sends bear hearts and spider blood from the Sepulcher to Master Apothecary Faranell in the Undercity.",
  "sections": [
   {
    "title": "A Weapon Against Two Foes",
-   "body": "Positioned on the front lines in Silverpine Forest, Apothecary Renferrel recognizes the grim arithmetic facing Sylvanas's people. Surrounded by the relentless legions of Arthas and enduring remnants of humanity, conventional warfare offers little hope. The Forsaken's grand ambition lies in developing a New Plague\u2014an engineered contagion potent enough to rot both living humans and undead Scourge alike. Renferrel's field research determined that combining arachnid venom from the Skittering Dark with toxins concentrated in the hearts of native bears yields a virulent foundation.",
+   "body": "In Silverpine Forest, Apothecary Renferrel sees the danger facing Sylvanas's people. Arthas's legions press them, and remnants of humanity remain their foes. Conventional warfare offers little hope. The Forsaken seek a New Plague that can rot living humans and undead Scourge alike. Renferrel's field research found that arachnid venom from the Skittering Dark, joined with toxins in the hearts of native bears, makes a virulent foundation.",
    "spoiler": 0
   },
   {
    "title": "Dispatch to the Apothecarium",
-   "body": "Once the harvested organs and blood are collected from the wilderness of Silverpine, they must be delivered beneath the ruins of Lordaeron into the heart of the Apothecarium. There, Master Apothecary Faranell oversees the grand design of the Royal Apothecary Society. Faranell immediately takes custody of Renferrel's samples, testing their contaminable properties to refine formulas that might one day secure Forsaken supremacy across the continent.",
+   "body": "The collected organs and blood from Silverpine's wilderness go beneath the ruins of Lordaeron, to the Apothecarium in the Undercity. Master Apothecary Faranell oversees the Royal Apothecary Society's design. He takes Renferrel's samples to test their contaminable properties and refine formulas that may secure Forsaken supremacy across the continent.",
    "spoiler": 0
   }
  ],
@@ -42,7 +42,7 @@
     "why spider blood",
     "what is this recipe for"
    ],
-   "answer": "Apothecary Renferrel's research showed that spider blood from the Skittering Dark reacts lethally when combined with toxins found in grizzled bear hearts. Together, these reagents provide vital raw materials for testing and developing the Royal Apothecary Society's New Plague."
+   "answer": "Renferrel found that spider blood from the Skittering Dark reacts lethally with toxins in grizzly bear hearts. Together, they give the Royal Apothecary Society raw materials to test and develop the New Plague."
   },
   {
    "q": "Who is Master Apothecary Faranell?",
@@ -51,7 +51,7 @@
     "who is faranell",
     "master apothecary"
    ],
-   "answer": "Master Apothecary Faranell is the head of the Royal Apothecary Society, stationed in the Apothecarium quarter of the Undercity. He oversees all research into concocting the New Plague on behalf of Lady Sylvanas Windrunner."
+   "answer": "Master Apothecary Faranell heads the Royal Apothecary Society in the Apothecarium quarter of the Undercity. He oversees research into the New Plague on behalf of Lady Sylvanas Windrunner."
   },
   {
    "q": "Why do the Forsaken want to create a New Plague?",
@@ -60,7 +60,7 @@
     "forsaken plague motivation",
     "new plague lore"
    ],
-   "answer": "Outnumbered by the Scourge and despised by living humans, the Forsaken lack the sheer military manpower to win an extended conventional war. A bespoke New Plague is engineered to eliminate both living adversaries and undead Scourge, securing their survival and autonomy."
+   "answer": "The Forsaken face the Scourge and the hatred of living humans, with too few soldiers for a long conventional war. Their New Plague is meant to kill both living foes and undead Scourge, securing Forsaken survival and autonomy."
   },
   {
    "q": "Where is Apothecary Renferrel located?",
@@ -68,7 +68,7 @@
     "renferrel location",
     "where is renferrel"
    ],
-   "answer": "Apothecary Renferrel conducts his research out of the Sepulcher, the primary Forsaken settlement nestled within Silverpine Forest."
+   "answer": "Apothecary Renferrel conducts his research from the Sepulcher in Silverpine Forest."
   },
   {
    "q": "Where is the Skittering Dark?",
@@ -76,7 +76,7 @@
     "skittering dark location",
     "where to find spiders silverpine"
    ],
-   "answer": "The Skittering Dark is an arachnid-infested wilderness located northwest of the Sepulcher in Silverpine Forest, filled with giant spiders whose blood Renferrel requires."
+   "answer": "The Skittering Dark lies northwest of the Sepulcher in Silverpine Forest. Giant spiders infest this wilderness, and Renferrel needs their blood."
   },
   {
    "q": "Does this quest continue further?",
@@ -84,17 +84,17 @@
     "recipe for death follow up",
     "is there a part 2"
    ],
-   "answer": "Yes. Master Apothecary Faranell uses the delivered reagents to continue his experiments, leading directly into subsequent tasks within the Apothecarium to refine and test the lethal mixture."
+   "answer": "Yes. Master Apothecary Faranell uses the reagents in further experiments, followed by work in the Apothecarium to refine and test the lethal mixture."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "Contributing to the Apothecary Society's plague research is among the highest duties an aspiring Forsaken can undertake to safeguard their fragile realm against the Scourge and humanity."
+   "text": "As an Undead, you can help the Apothecary Society develop its plague to defend the Forsaken realm against the Scourge and humanity."
   },
   {
    "target": "faction:Horde",
-   "text": "Forsaken apothecaries pursue victory through virulent biological concoctions, a grim way of war among the Horde's newest allies."
+   "text": "As a member of the Horde, you see Forsaken apothecaries pursue victory with virulent concoctions, a grim way of war among the Horde's newest allies."
   }
  ],
  "keywords": [
@@ -118,5 +118,6 @@
  ],
  "attribution": [
   "A Recipe For Death"
- ]
+ ],
+ "style": 1
 }

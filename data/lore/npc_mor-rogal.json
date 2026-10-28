@@ -8,11 +8,11 @@
   "wiki": "Mor'rogal",
   "refs": 2
  },
- "summary": "Mor'rogal is a tauren resident of Sun Rock Retreat in the Stonetalon Mountains. He serves as an advisor and guide for travelers seeking glory and peril within the rugged subterranean reaches of the crags.",
+ "summary": "In Sun Rock Retreat, Mor'rogal guides travelers toward the dangers and promise of the Stonetalon Mountains.",
  "sections": [
   {
    "title": "Watcher in the Crags",
-   "body": "Perched within the refuge of Sun Rock Retreat, Mor'rogal takes a keen interest in the deep crevices and caverns that cut through the Stonetalon Mountains. Recognizing that the region's twisting subterranean passes offer both great riches and lethal danger, he directs brave Horde wanderers to investigate troubled areas like the Boulderslide Ravine. For Mor'rogal, delving into these treacherous depths is not merely a matter of survival, but a test of spirit for those who follow their heart and soul in search of glory.",
+   "body": "Mor'rogal watches the deep crevices and caverns of the Stonetalon Mountains from Sun Rock Retreat. Their twisting passages offer riches, but can also bring deadly danger. He sends brave Horde wanderers to troubled places such as Boulderslide Ravine. To Mor'rogal, facing those depths tests the spirit of anyone who seeks glory by following heart and soul.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "who is mor'rogal",
     "mor rogal lore"
    ],
-   "answer": "Mor'rogal is a tauren quest giver residing in Sun Rock Retreat within the Stonetalon Mountains. He acts as a local guide, urging Horde adventurers to test their mettle in the dangerous caves and ravines scattered across the craggy mountain range."
+   "answer": "Mor'rogal is a tauren guide in Sun Rock Retreat, in the Stonetalon Mountains. He urges Horde travelers to test their mettle in the dangerous caves and ravines scattered across the mountains."
   },
   {
    "q": "Where can I find Mor'rogal?",
@@ -33,7 +33,7 @@
     "where is mor'rogal",
     "morrogal spot"
    ],
-   "answer": "He can be found standing in Sun Rock Retreat, the primary Horde outpost hidden amid the peaks of the central Stonetalon Mountains."
+   "answer": "You can find Mor'rogal in Sun Rock Retreat, the main Horde outpost among the peaks of the central Stonetalon Mountains."
   },
   {
    "q": "What tasks does Mor'rogal offer?",
@@ -41,7 +41,7 @@
     "mor'rogal quests",
     "what does mor'rogal want"
    ],
-   "answer": "Mor'rogal enlists capable champions to venture into the cave at Boulderslide Ravine, where kobolds are frantically mining Resonite crystals, and then to slay Goggeroc, a slumbering Earthen the kobolds dug up."
+   "answer": "Mor'rogal sends capable champions to the cave at Boulderslide Ravine, where kobolds mine Resonite crystals, then asks them to slay Goggeroc, a sleeping Earthen the kobolds dug up."
   },
   {
    "q": "Why is Mor'rogal focused on caves and ravines?",
@@ -49,17 +49,17 @@
     "why caves",
     "mor'rogal caves"
    ],
-   "answer": "Mor'rogal believes that the perilous subterranean caverns of Stonetalon hold true adventures and tests of spiritual resolve, offering glory and riches to those willing to risk their lives."
+   "answer": "Mor'rogal believes Stonetalon's perilous caverns offer adventure and a test of spiritual resolve, with glory and riches for those willing to risk their lives."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "Mor'rogal embodies the tauren respect for physical and spiritual testing, viewing the deep stone hollows of Kalimdor as sacred ground to prove one's worth."
+   "text": "As a tauren, you may see the deep stone hollows of Kalimdor as sacred ground, where physical and spiritual trials can prove your worth."
   },
   {
    "target": "faction:Horde",
-   "text": "For travelers reaching the haven of Sun Rock Retreat, Mor'rogal provides crucial intelligence on the threats lurking in the crags beyond the settlement's borders."
+   "text": "As a member of the Horde arriving at Sun Rock Retreat, you can turn to Mor'rogal for information about threats in the crags beyond the settlement."
   }
  ],
  "keywords": [
@@ -81,5 +81,6 @@
  ],
  "attribution": [
   "Mor'rogal"
- ]
+ ],
+ "style": 1
 }

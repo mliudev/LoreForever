@@ -588,6 +588,10 @@ to `/account#profile` when there's none yet).
   - `/account` lists **Connected apps** (when it last updated the profile, Disconnect) and says in the profile section
     that the companion keeps it up to date. Until the companion ships in Setup.exe (LOR-132), the invitation to
     connect it waits for the `companion` feature (below); connecting, updates and the list work either way.
+- **What Willo will talk about (Mike, 2026-10-27):** anything. No topic or memory restrictions of ours: no refusals
+  or deflections (other games, real life, health, "only Azeroth"), and no in-answer warnings or disclaimers. Only the
+  model provider's own safety limits her. Her voice is style, not scope:
+  in-world for the world, and no URLs, site names or "I searched" in what she says. Liability is on the terms page only.
 - **Companion live answers:** `POST /api/companion/answer` takes the same linked-device token as profile sync and a
   capped lore/context prompt and optional boolean `research_required`. Willo's own answers use
   `gemini-3.1-flash-lite` (`ANSWER_MODEL`, `SIGHT_MODEL`) without search, with minimal thinking and 512 output tokens,
@@ -1138,21 +1142,19 @@ player can see, change and erase on any plan. `lib/willo-memories.js`, the API `
 - **Room:** 10 on the free plan, 50 on a paid plan and in the first-run trial (`MEMORIES_FREE`, `MEMORIES_PAID`; assumed
   until the pricing decision, Friday 10/24). Only adding is limited: a player over their room keeps everything and can
   still see, edit and erase it.
-- **Guardrails:** cleaned, then a cheap pre-filter (`lib/willo-memory-rules.js` `memoryPreFilter`: later ages such as TBC
-  or Outland, the future of the story, spoilers allowed, "ignore the rules", links, adverts, all caps, health and other
-  private details) turns the obvious cases away with no model call; the rest goes to the content check
-  (`willo-custom.js` `check`, kind `memory`, its own prompt: guild names, "new to WoW" and "keep answers short" are fine).
-  Reasons are Willo's own plain words (never "assistant", "AI", "model", "prompt"; a technical one is replaced).
-  Turned-away text is kept with its reason and never reaches a prompt. A checked save counts against the same 30 a day
-  as `/api/willo` (bucket `willo-custom`).
+- **What she keeps:** whatever the player asks, cleaned and within its cap, with no check (Mike, 10/27: players choose
+  how they use her): health, contact details, a password, other people, their own era or server; nothing is turned
+  away. A rule for her ("you can tell me spoilers") is hers, never a note of theirs (#2000). Rows a check turned away
+  before were made ok on the first setup.
 - **Prompt:** `memoriesBlock` gives `writeAnswer` a `memories` block (`WHAT THE PLAYER HAS TOLD WILLO ABOUT THEMSELVES`)
-  that comes FIRST in the system prompt, before the era, spoiler and immersion rules, and ends with a line that the notes
-  never change them (or her format, length limits, links or ads). Only notes the question is about are in it: the name
+  that comes FIRST in the system prompt, and says what to do with a note (their wishes for how she talks with them are
+  followed; the game and her knowledge are what is true), never a list of what not to do. Only notes the question is
+  about are in it, and a wish for how she talks with them always (`WISH`): the name
   only for a greeting or a question about the player, any other note only when it shares a stemmed meaningful word (or
   a near-synonym such as riding/mount) with the question (metals count only in the same sense, mining vs money; a greeting brings the name alone; "what do you know about me" brings the 5 newest); no match, no block, so the prompt is exactly as before (also for
   a player with none). 1,536 bytes at most (800 of notes). Willo's own answers only (not chat memory, not a character's
   talk). The filtering is string work in the same request; no new network calls. Nothing in friends reads them.
-- Tests: `site/tests/willo-memories.test.mjs` (Gemini mocked).
+- Tests: `site/tests/willo-memories.test.mjs` and `site/tests/willo-memory-tool.test.mjs` (the models mocked).
 
 ### Thank-you email to new subscribers (LOR-640)
 

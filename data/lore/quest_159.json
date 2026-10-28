@@ -17,16 +17,16 @@
   "wiki": "Juice Delivery (Classic)",
   "chain": []
  },
- "summary": "Juice Delivery is an errand running between Darkshire and the western edge of Duskwood. Tavernkeep Smitts entrusts you with a potent concoction known as Zombie Juice to deliver to the reclusive hermit, Abercrombie. While ostensibly meant to keep the shivering old man warm, the brew's uncanny potency raises eyebrows.",
+ "summary": "In Darkshire, a potent brew draws raised eyebrows as you carry it west. Tavernkeep Smitts entrusts you with Zombie Juice for Abercrombie, a reclusive hermit on Duskwood’s western edge. The drink is meant to warm the shivering old man, but its uncanny potency raises questions.",
  "sections": [
   {
    "title": "A Dubious Concoction",
-   "body": "Tavernkeep Smitts of Darkshire brews a legendary draught known colloquially as Zombie Juice. When the order is finally filled, Smitts hands over the bottle with a stern warning to handle it gingerly, remarking that the concoction is stout enough to raise the dead. For a tired adventurer running errands across a haunted forest, delivering high-proof moonshine to an eccentric loner feels like routine charity.",
+   "body": "Tavernkeep Smitts of Darkshire brews a legendary draught called Zombie Juice. When it is ready, he hands you the bottle and warns you to handle it gently, saying the concoction is stout enough to raise the dead. You carry the potent drink across a haunted forest to an eccentric loner, on what seems like a simple act of charity.",
    "spoiler": 0
   },
   {
    "title": "The Hermit's Slip",
-   "body": "Carrying the volatile brew west past the howling worgen and restless dead leads straight to Abercrombie's shack on the edge of the woods. Upon receiving the bottle, the frail recluse claims he requires the liquor merely to warm his aching bones through Duskwood's freezing, fog-choked nights. Yet upon taking possession of it, he nearly thanks the traveler for their 'foolishness' before quickly correcting himself to praise their 'kindness'\u2014a momentary lapse that hints there is far more brewing in the hermit's mind than a simple evening drink.",
+   "body": "Abercrombie lives in a shack on the edge of the woods, where you bring him the volatile brew. The frail recluse claims he needs the liquor to warm his aching bones through Duskwood’s freezing, fog-choked nights. As he takes the bottle, Abercrombie nearly thanks you for your “foolishness,” then quickly corrects himself and praises your “kindness.” The slip hints that he has further plans for the brew beyond an evening drink.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "what is smitts juice",
     "abercrombie drink"
    ],
-   "answer": "Zombie Juice is an extremely potent brew crafted by Tavernkeep Smitts at the Scarlet Raven Tavern in Darkshire. While treated as a strong alcoholic drink, Smitts notes that the brew is potent enough to wake the dead, making it far more volatile than ordinary spirits."
+   "answer": "Zombie Juice is an extremely potent brew made by Tavernkeep Smitts at the Scarlet Raven Tavern in Darkshire. He says it is stout enough to wake the dead, far stronger than ordinary spirits."
   },
   {
    "q": "Who orders the Zombie Juice?",
@@ -46,7 +46,7 @@
     "who wants the juice",
     "who is juice delivery for"
    ],
-   "answer": "The delivery is requested by Abercrombie, an eccentric old hermit living in a lonely shack out near the western boundary of Duskwood."
+   "answer": "Abercrombie, an eccentric old hermit in a lonely shack near Duskwood’s western boundary, requests the Zombie Juice."
   },
   {
    "q": "Why does Abercrombie want the drink?",
@@ -54,7 +54,7 @@
     "why does abercrombie need juice",
     "abercrombie cold"
    ],
-   "answer": "Abercrombie claims he needs the drink to keep him warm during the bitterly cold, damp nights in Duskwood. However, his slip of the tongue when receiving the bottle hints he has far more sinister designs for the concoction."
+   "answer": "Abercrombie claims he needs the drink to keep warm during Duskwood’s bitterly cold, damp nights. When he receives it, his slip of the tongue hints at sinister designs for the concoction."
   },
   {
    "q": "Who brews the Zombie Juice?",
@@ -62,7 +62,7 @@
     "who makes zombie juice",
     "smitts barkeep"
    ],
-   "answer": "Tavernkeep Smitts, the barkeep running the Scarlet Raven Tavern in the heart of Darkshire, brews the drink personally once provided with the necessary pungent ingredients."
+   "answer": "Tavernkeep Smitts, the barkeep who runs the Scarlet Raven Tavern in the heart of Darkshire, brews Zombie Juice himself once he has the pungent ingredients he needs."
   },
   {
    "q": "Where is Abercrombie's shack?",
@@ -70,7 +70,7 @@
     "abercrombie location",
     "where is abercrombie shack"
    ],
-   "answer": "Abercrombie's shack sits isolated in western Duskwood, just north of Raven Hill Cemetery."
+   "answer": "Abercrombie’s isolated shack stands in western Duskwood, just north of Raven Hill Cemetery."
   },
   {
    "q": "What does Abercrombie do next after receiving the juice?",
@@ -78,17 +78,17 @@
     "next quest after juice delivery",
     "what happens next"
    ],
-   "answer": "Once he secures the Zombie Juice, Abercrombie continues imposing on gullible travelers, sending them into Raven Hill Cemetery to gather ghoul ribs for a ghoulish effigy he claims will keep the undead away."
+   "answer": "After securing the Zombie Juice, Abercrombie keeps imposing on gullible travelers. He sends them into Raven Hill Cemetery to gather ghoul ribs for a ghoulish effigy he claims will keep the undead away."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Darkshire's citizens rely on brave Alliance couriers to traverse the peril-filled roads of Duskwood, though trusting every hermit in the woods can lead to unforeseen trouble."
+   "text": "As an Alliance courier, you brave Duskwood’s perilous roads for Darkshire’s citizens. Trusting every hermit in the woods can bring unforeseen trouble."
   },
   {
    "target": "profession:Cooking",
-   "text": "Tavernkeep Smitts' recipe for Zombie Juice leans heavily on pungent, unconventional ingredients, testing the limits of what passes for a tavern beverage."
+   "text": "As a cook, you can see that Tavernkeep Smitts’ Zombie Juice recipe relies on pungent, unconventional ingredients and tests what belongs in a tavern beverage."
   }
  ],
  "keywords": [
@@ -108,5 +108,6 @@
  ],
  "attribution": [
   "Juice Delivery (Classic)"
- ]
+ ],
+ "style": 1
 }

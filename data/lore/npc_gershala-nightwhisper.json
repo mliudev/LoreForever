@@ -8,16 +8,16 @@
   "wiki": "Gershala Nightwhisper",
   "refs": 2
  },
- "summary": "Gershala Nightwhisper is a night elf researcher residing in the coastal settlement of Auberdine in Darkshore. Driven by grave concern over the path taken by the high elves of Quel'Thalas, he studies specimens of cursed aquatic and demonic creatures to understand how magical corruption warps both mind and body.",
+ "summary": "In Auberdine, Gershala Nightwhisper studies what magical corruption does to elves. Concerned by the path taken by the high elves of Quel'Thalas, he examines cursed aquatic and demonic creatures for signs of how corruption changes mind and body.",
  "sections": [
   {
    "title": "Study of Transformation",
-   "body": "Stationed peacefully within Auberdine, Gershala Nightwhisper looks beyond the immediate coastal troubles of Darkshore toward a broader, creeping danger. Watching with dismay as the remaining high elves embrace perilous arcane practices and dub themselves blood elves, Gershala seeks to understand the biological and spiritual descent that follows unchecked magic. To unlock these secrets, he directs seasoned Alliance adventurers into the submerged halls of Blackfathom Deeps to harvest corrupted brain stems from the naga and satyr who dwell within.",
+   "body": "From Auberdine, Gershala Nightwhisper looks beyond Darkshore's coastal troubles to the danger he sees in the high elves of Quel'Thalas. He watches with dismay as they embrace perilous arcane practices and call themselves blood elves. Gershala wants to understand the bodily and spiritual changes that follow unchecked magic. To study them, he sends seasoned Alliance adventurers into the submerged halls of Blackfathom Deeps to gather corrupted brain stems from the naga and satyr who dwell there.",
    "spoiler": 0
   },
   {
    "title": "An Antidote to Ruin",
-   "body": "Gershala's grim focus on brain stems from naga and satyr stems from their shared lineage: both races were once night elves before yielding to Queen Azshara and demonic bargains. By dissecting the physical marks left upon their nervous systems by millennia of demonic and abyssal energies, he hopes to uncover warnings or safeguards that might keep other elven kin from plunging into similar monstrous deformity.",
+   "body": "Gershala's interest in naga and satyr brain stems comes from their shared past. Both races were once night elves, before they yielded to Queen Azshara and demonic bargains. Gershala examines the marks that millennia of demonic and abyssal energies have left on their nervous systems. He hopes to find warnings or safeguards that might keep other elven kin from suffering similar monstrous deformity.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "where is gershala",
     "find gershala nightwhisper"
    ],
-   "answer": "Gershala Nightwhisper can be found in Auberdine, the main Alliance port town located on the coast of Darkshore."
+   "answer": "Gershala Nightwhisper is found in Auberdine, the main Alliance port town on the coast of Darkshore."
   },
   {
    "q": "Why does Gershala want naga and satyr brain stems?",
@@ -38,7 +38,7 @@
     "researching the corruption lore",
     "what does gershala study"
    ],
-   "answer": "Gershala studies corrupted brain stems to examine how profound magical and demonic transformation alters the anatomy of former night elves. Both naga and satyr were once elves, and he aims to understand the physical mechanisms behind their corruption."
+   "answer": "Gershala studies corrupted brain stems to examine how magical and demonic transformation changes the anatomy of former night elves. Both naga and satyr were once elves, and he seeks to understand the physical changes behind their corruption."
   },
   {
    "q": "What does Gershala hope to accomplish with his research?",
@@ -47,7 +47,7 @@
     "why help blood elves",
     "gershala research purpose"
    ],
-   "answer": "Gershala hopes his research will provide crucial insights to prevent the blood elves from devolving into evil and monstrous deformity through their dangerous reliance on fel and unchecked arcane power."
+   "answer": "Gershala hopes his research will help prevent the blood elves from becoming evil and monstrously deformed through their dangerous reliance on fel and unchecked arcane power."
   },
   {
    "q": "Where are the specimens Gershala needs located?",
@@ -56,17 +56,17 @@
     "blackfathom deeps stems",
     "where to find gershala items"
    ],
-   "answer": "He directs adventurers to Blackfathom Deeps, an ancient submerged temple ruin on the coast of Ashenvale infested with both naga and satyr."
+   "answer": "Gershala directs adventurers to Blackfathom Deeps, an ancient submerged temple ruin on the coast of Ashenvale, where naga and satyr dwell."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "For night elves, Gershala's grim inquiries are a poignant reminder of the ancient Sundering and the terrible cost of magical addiction, which once reshaped their brethren into horrors."
+   "text": "For night elves, Gershala's grim inquiries recall the ancient Sundering and the terrible cost of magical addiction, which reshaped their brethren into horrors."
   },
   {
    "target": "faction:Alliance",
-   "text": "Gershala serves as a primary patron sending Alliance expeditions toward the hazards of Blackfathom Deeps, ensuring their incursions yield valuable arcane knowledge."
+   "text": "For the Alliance, Gershala is a patron who sends expeditions into the hazards of Blackfathom Deeps, where they can gather valuable arcane knowledge."
   }
  ],
  "keywords": [
@@ -91,5 +91,6 @@
  ],
  "attribution": [
   "Gershala Nightwhisper"
- ]
+ ],
+ "style": 1
 }

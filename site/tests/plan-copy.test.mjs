@@ -11,17 +11,9 @@ import { PLANS, PAID, PLAN_VOICE, planFeatures, planCompare, blurbs, cardFlags, 
 const page = name => readFileSync(new URL(`../public/${name}`, import.meta.url), "utf8").replace(/\s+/g, " ");
 const ON = { azeroth: true, readings: true };
 
-test("the Terms list each plan's price, answers and day's most as the plans have them (Legend 6,000, not 4,000)", () => {
+test("the Terms say what each plan leads with, as its card does", () => {
   const terms = page("terms.html");
-  assert.doesNotMatch(terms, /4,000 answers/);
-  for (const id of PAID) {
-    const p = PLANS[id];
-    const line = new RegExp(`<strong>${p.name}</strong>: \\$${(p.monthly / 100).toFixed(2)} a month\\. ` +
-      `${p.answersPerMonth.toLocaleString("en-US")} answers a month, up to ${p.answersPerDay} a day\\.`);
-    assert.match(terms, line, p.name);
-  }
-  assert.match(terms, new RegExp(`answers for free too: ${PLANS.free.answersPerDay} answers a day`));
-  // What each card leads with, in the Terms' words too.
+  // Each plan's price and answers: terms-plans.test.mjs.
   assert.match(terms, /Hero<\/strong>:[^<]*finest voice[^<]*your narrator reads the add-on's short answers/);
   assert.match(terms, /Legend<\/strong>:[^<]*richer voice[^<]*Voices of Azeroth[^<]*new features first/);
   assert.doesNotMatch(terms, /Legend<\/strong>:[^<]*whole answer/, "every plan hears her whole answer (10/21)");
@@ -34,7 +26,7 @@ test("Hero's card leads with her finest voice and the narrator; Legend's adds Az
   assert.match(on.legend[0], /richer voice/);
   assert.ok(on.legend.some(l => /22 voices of Azeroth/.test(l)));
   assert.ok(on.legend.includes("New features first"));
-  assert.ok(on.legend.some(l => l === `${PLANS.legend.answersPerMonth.toLocaleString("en-US")} Willo answers a month`));
+  for (const id of PAID) assert.ok(on[id].some(l => /^unlimited willo answers$/i.test(l)), `${id}: unlimited answers`);
   // The Voices of Azeroth are Legend's alone: Champion picks among her own ten.
   assert.ok(!on.champion.some(l => /Azeroth/.test(l)));
   assert.ok(on.champion.includes("Pick Willo's voice from her own 10, women's and men's"));
@@ -57,9 +49,9 @@ test("the compare table, the Stripe blurbs, /willo's line and the thank-you coun
   assert.equal(rows["Willo's voice: when you ask out loud"].champion, "Finest, pick from ten");
   assert.equal(planCompare({}, { azeroth: true }).some(r => /narrator/.test(r.label)), false);
   const b = blurbs(ON);
-  assert.match(b.hero, /^Willo's finest voice on every answer, and your narrator reads the add-on's short answers: 1,500/);
+  assert.match(b.hero, /^Willo's finest voice on every answer, and your narrator reads the add-on's short answers: unlimited/i);
   // Legend's smarter mind is back on its card, blurb and row once it's real (Mike, 10/24: "go with deepseek thinking").
-  assert.match(b.legend, /^Willo's richer voice, and a smarter mind for hard questions[^:]*: 6,000 Willo answers a month, the 22 Voices of Azeroth, new features first/i);
+  assert.match(b.legend, /^Willo's richer voice, and a smarter mind for hard questions[^:]*: unlimited Willo answers, the 22 Voices of Azeroth, new features first/i);
   assert.deepEqual(rows["Willo's smarter mind for hard questions"], { free: "—", hero: "—", champion: "—", legend: "✓" });
   assert.doesNotMatch(b.champion, /Azeroth/);
   for (const text of Object.values(b)) assert.ok(text.length <= 350, "Stripe shows it under the plan's name");

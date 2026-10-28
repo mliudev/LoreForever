@@ -8,16 +8,16 @@
   "wiki": "Renee Lauer",
   "refs": 1
  },
- "summary": "Innkeeper Renee runs the Gallows' End Tavern in Brill, offering shelter, food, and drink to the Forsaken and to Horde travelers passing through Tirisfal Glades.",
+ "summary": "Travelers find food, drink, and shelter with Innkeeper Renee at the Gallows' End Tavern in Brill.",
  "sections": [
   {
    "title": "Keeper of Gallows' End",
-   "body": "Renee keeps the Gallows' End Tavern, the inn at the heart of Brill. Behind her counter she sells food, drink and general goods, and she welcomes weary newcomers to rest their bones, remarking that the Forsaken certainly do have huge appetites. For the undead of Tirisfal, her tavern is a cozy little place where victims of the plague try to make their way in the world.",
+   "body": "Innkeeper Renee welcomes weary newcomers to the Gallows' End Tavern, Brill's central inn. She sells food, drink, and general goods from behind her counter, and remarks that the Forsaken have huge appetites. Her tavern offers the undead of Tirisfal a cozy place to rest as plague victims make their way in the world.",
    "spoiler": 0
   },
   {
    "title": "Letters and Captives",
-   "body": "Renee's inn is often a newcomer's first stop in Brill. Calvin Montague of Deathknell sends fresh adventurers to her with a nondescript letter, word she has been eagerly waiting for. Below her floorboards, the tavern's cellar also holds a captured Scarlet Crusade zealot.",
+   "body": "Newcomers to Brill often stop first at Renee's inn. Calvin Montague of Deathknell sends fresh adventurers to her with a nondescript letter, the word she has eagerly awaited. Beneath the tavern's floorboards, the cellar also holds a captured Scarlet Crusade zealot.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "brill innkeeper",
     "who is the innkeeper in brill"
    ],
-   "answer": "Innkeeper Renee is the Forsaken innkeeper of the Gallows' End Tavern in Brill. She sells food, drink, and general supplies to travelers across Tirisfal Glades."
+   "answer": "Innkeeper Renee welcomes travelers at the Gallows' End Tavern in Brill. She sells food, drink, and general supplies to those passing through Tirisfal Glades."
   },
   {
    "q": "What is Renee's connection to Calvin Montague?",
@@ -43,7 +43,7 @@
  "angles": [
   {
    "target": "race:Undead",
-   "text": "Renee's tavern keeps up one of the old comforts of the living for the Forsaken of Tirisfal: a hearth, a meal and a place to rest."
+   "text": "As one of the Forsaken, you can find an old comfort at Renee's tavern: a hearth, a meal, and a place to rest."
   }
  ],
  "keywords": [
@@ -64,5 +64,6 @@
  ],
  "attribution": [
   "Renee Lauer"
- ]
+ ],
+ "style": 1
 }

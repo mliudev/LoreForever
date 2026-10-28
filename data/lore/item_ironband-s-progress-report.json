@@ -11,11 +11,11 @@
    "quest:301"
   ]
  },
- "summary": "Ironband's Progress Report is a written dispatch detailing the troubles facing Prospector Ironband's excavation site in eastern Loch Modan. It conveys both an account of slow digging hindered by aggressive troggs and an urgent plea for more blastpowder.",
+ "summary": "In eastern Loch Modan, troggs keep Prospector Ironband's excavation from advancing. His report asks for more blastpowder after earlier supplies were sent weeks ago.",
  "sections": [
   {
    "title": "A Plea for Gunpowder",
-   "body": "Prospector Ironband's excavation in Loch Modan faces continuous disruption from local troggs. To keep the project moving forward, Ironband compiled this progress report to restate his desperate need for blastpowder. Carried first to Jern Hornhelm in Thelsamar and then forwarded to the Assembly of Explorers in Ironforge, the report documents the site's stalls while requesting heavy munitions. The dispatch quickly raises eyebrows among league leadership, as an ample supply of blastpowder was dispatched to Ironband weeks prior, leaving superiors wondering where the previous shipments vanished.",
+   "body": "Prospector Ironband's digging in Loch Modan is repeatedly disrupted by nearby troggs. His progress report, carried to Jern Hornhelm in Thelsamar and then sent on to the Explorers' League in Ironforge, describes the stalled work and asks for heavy munitions. League leaders already sent Ironband plenty of blastpowder weeks ago, and now wonder where those shipments went.",
    "spoiler": 0
   }
  ],
@@ -27,7 +27,7 @@
     "ironbands report",
     "what is this report"
    ],
-   "answer": "It is an official field update penned by Prospector Ironband regarding the state of his excavation site in Loch Modan, specifically highlighting the interference caused by troggs and demanding more blastpowder."
+   "answer": "Prospector Ironband's report describes troggs disrupting his excavation in Loch Modan and asks for more blastpowder."
   },
   {
    "q": "Who receives this report?",
@@ -36,7 +36,7 @@
     "who do i give the report to",
     "deliver progress report"
    ],
-   "answer": "The report is first delivered to Jern Hornhelm, the excavation's local liaison in Thelsamar. Hornhelm then directs the bearer to deliver it directly to Prospector Stormpike at the Explorers' League headquarters in Ironforge."
+   "answer": "Jern Hornhelm receives the report in Thelsamar, then sends it to Prospector Stormpike at the Explorers' League headquarters in Ironforge."
   },
   {
    "q": "Why does Ironband need more blastpowder?",
@@ -45,7 +45,7 @@
     "what happened to the powder",
     "powder shortage"
    ],
-   "answer": "Ironband claims he needs the powder to aid his archaeological digging, though the constant raids by nearby troggs suggest he may also need explosives for defense. Oddly, both Hornhelm and Stormpike believe they sent him plenty of blastpowder weeks ago."
+   "answer": "Ironband says he needs blastpowder for his digging, though nearby trogg raids may also make explosives useful for defense. Hornhelm and Stormpike believe they sent him plenty weeks ago."
   },
   {
    "q": "How does Prospector Stormpike react to the report?",
@@ -53,17 +53,17 @@
     "stormpike reaction",
     "is stormpike mad"
    ],
-   "answer": "Stormpike is furious about the slow progress and baffled that Ironband makes no mention of the massive blastpowder shipment previously dispatched, questioning where the missing munitions could have gone."
+   "answer": "Prospector Stormpike is furious at the slow progress and baffled that Ironband does not mention the large shipment sent earlier. He wonders where the missing blastpowder went."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "For dwarven explorers and miners, this dispatch represents the dangerous reality of excavating ancient titan sites in the heart of Khaz Modan."
+   "text": "As a dwarf who explores or mines, you know the dangers of excavating ancient titan sites in Khaz Modan."
   },
   {
    "target": "profession:Mining",
-   "text": "Miners understand all too well the necessity of blastpowder when clearing stubborn rock formations\u2014and the danger when supplies go missing in trogg territory."
+   "text": "As a miner, you know blastpowder can clear stubborn rock, and how dangerous it is when supplies go missing in trogg territory."
   }
  ],
  "keywords": [
@@ -90,5 +90,6 @@
   "Ironband's Progress Report",
   "Excavation Progress Report",
   "Report to Ironforge"
- ]
+ ],
+ "style": 1
 }

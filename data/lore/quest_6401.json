@@ -20,16 +20,16 @@
    "Kaya's Alive"
   ]
  },
- "summary": "Kaya's Alive is a short Horde quest in the Stonetalon Mountains that concludes the rescue of Kaya Flathoof. After escorting the young tauren safely past hostile Grimtotem bandits, you are sent to carry the joyful news of her survival to her worried aunt, Tammra Windfield, in Sun Rock Retreat.",
+ "summary": "In Stonetalon, Kaya Flathoof has survived the Grimtotem attack and reached safety. Makaba Flathoof sends you to Sun Rock Retreat with the news for her worried aunt, Tammra Windfield.",
  "sections": [
   {
    "title": "A Breath of Relief",
-   "body": "The mountains of Stonetalon are fraught with danger, especially along the contested trails where the Grimtotem tribe strikes without mercy. When their village fell under a brutal attack, young Kaya Flathoof was feared dead or captured by the renegades. Her survival and subsequent rescue provide a rare moment of triumph and relief amidst the ongoing tribal conflicts in the crags.",
+   "body": "The Grimtotem strike along Stonetalon's contested trails. After their village fell under attack, young Kaya Flathoof was feared dead or captured by the renegades. Her rescue brings relief amid the fighting between tribes in the crags.",
    "spoiler": 0
   },
   {
    "title": "Reaching Sun Rock Retreat",
-   "body": "Once Kaya is guided to safety, Makaba Flathoof charges you with carrying the word directly to Sun Rock Retreat. There, Kaya's aunt, Tammra Windfield, waits anxiously for news from the trails. Delivering word of Kaya's safety offers the fractured family solace and reinforces the vital role traveling champions play in keeping the remote Horde outposts connected.",
+   "body": "Makaba Flathoof sends you from Kaya to Sun Rock Retreat with word of her safety. Kaya's aunt, Tammra Windfield, waits there anxiously for news from the trails. Your message brings comfort to the family and keeps the remote Horde outpost connected.",
    "spoiler": 0
   }
  ],
@@ -41,7 +41,7 @@
     "kaya flathoof",
     "kaya"
    ],
-   "answer": "Kaya Flathoof is a young tauren who was separated and endangered following a violent assault on her settlement by rogue Grimtotem forces in Stonetalon Mountains."
+   "answer": "Kaya Flathoof is a young tauren who was separated from her people when rogue Grimtotem forces attacked her settlement in Stonetalon Mountains."
   },
   {
    "q": "Who is Tammra Windfield?",
@@ -50,7 +50,7 @@
     "who is tammra",
     "kaya aunt"
    ],
-   "answer": "Tammra Windfield is Kaya's aunt, residing at Sun Rock Retreat in the Stonetalon Mountains. She had feared her niece perished in the Grimtotem attack."
+   "answer": "Tammra Windfield is Kaya's aunt, who lives at Sun Rock Retreat in Stonetalon Mountains. She feared her niece had perished in the Grimtotem attack."
   },
   {
    "q": "Who attacked Kaya's village?",
@@ -59,7 +59,7 @@
     "village attack",
     "grimtotem attack"
    ],
-   "answer": "Kaya's village was ambushed by the aggressive Grimtotem clan, an isolationist tauren faction notorious for preying on both rival tribes and traveling wayfarers across the mountains."
+   "answer": "Grimtotem forces attacked Kaya's village. The isolationist tauren faction preys on rival tribes and travelers across the mountains."
   },
   {
    "q": "What comes before this quest?",
@@ -68,7 +68,7 @@
     "protect kaya",
     "escort quest"
    ],
-   "answer": "This quest immediately follows 'Protect Kaya', an escort mission where you defend Kaya Flathoof as she flees her captors and returns to safety."
+   "answer": "You have just helped Kaya Flathoof flee her captors and return to safety in 'Protect Kaya'."
   },
   {
    "q": "Where is Sun Rock Retreat located?",
@@ -77,7 +77,7 @@
     "where is sun rock",
     "find sun rock retreat"
    ],
-   "answer": "Sun Rock Retreat is nestled high in the central Stonetalon Mountains, accessed by following the main road westward and through a narrow mountain defile into a sheltered basin."
+   "answer": "Sun Rock Retreat lies high in the central Stonetalon Mountains. Follow the main road west through a narrow mountain defile into a sheltered basin."
   },
   {
    "q": "Why does Makaba Flathoof send you instead of going himself?",
@@ -85,17 +85,17 @@
     "why makaba stays",
     "why send me"
    ],
-   "answer": "Makaba remains at his camp near the southeastern edge of Stonetalon, relying on an able-bodied runner to swiftly reassure their family in Sun Rock Retreat."
+   "answer": "Makaba remains at his camp near Stonetalon's southeastern edge. He sends you to carry news swiftly to his family at Sun Rock Retreat."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "Stonetalon is a contested wilderness where Horde lines are stretched thin; delivering news of survivors helps maintain unity among scattered encampments."
+   "text": "In Stonetalon's contested wilderness, Horde forces are stretched thin. News that survivors are safe helps scattered encampments hold together."
   },
   {
    "target": "race:Tauren",
-   "text": "The threat of the Grimtotem is a painful internal rift for the Shu'halo, making the preservation of innocent family members like Kaya deeply personal."
+   "text": "As a tauren, the Grimtotem threat cuts into a painful rift among the Shu'halo. Keeping innocent family members like Kaya safe matters deeply."
   }
  ],
  "keywords": [
@@ -119,5 +119,6 @@
  ],
  "attribution": [
   "Kaya's Alive"
- ]
+ ],
+ "style": 1
 }

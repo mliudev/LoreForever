@@ -17,21 +17,21 @@
   "wiki": "Elixir of Agony (4)",
   "chain": []
  },
- "summary": "This quest is the fourth chapter in Apothecary Lydon's relentless development of a devastating Forsaken poison in Tarren Mill. With the deadly Elixir of Agony finally brewed, Lydon dispatches Horde champions to Dun Garok to steal a keg of dwarven Shindigger Stout for delivery.",
+ "summary": "Apothecary Lydon’s work in Tarren Mill reaches a deadly test. His Elixir of Agony is ready, and he sends Horde champions to Dun Garok for a keg of Shindigger Stout.",
  "sections": [
   {
    "title": "A Bitter Brew",
-   "body": "In the damp reaches of Tarren Mill, Apothecary Lydon works tirelessly on behalf of the Royal Apothecary Society and Lady Sylvanas. Having gathered lethal ingredients from across Hillsbrad, his new concoction is complete. Lydon has no interest in wasting such a potent strain on trivial creatures like frogs or stray dogs; he seeks a real, tangible test against living adversaries.",
+   "body": "Apothecary Lydon serves the Royal Apothecary Society and Lady Sylvanas in Tarren Mill. He has gathered lethal ingredients from across Hillsbrad and finished a new concoction. Frogs and stray dogs are no test for its strength. Lydon wants to see what it does to living adversaries.",
    "spoiler": 0
   },
   {
    "title": "Infiltrating Dun Garok",
-   "body": "To stage his experiment, Lydon needs an inconspicuous delivery vehicle. South of Hillsbrad, the Ironforge dwarves have fortified the stronghold of Dun Garok. Lydon directs agents of the Horde to infiltrate the underground barracks and mess halls, slipping past dwarven rifles and axes to purloin a prized keg of Shindigger Stout.",
+   "body": "Lydon needs a quiet way to carry his experiment. South of Hillsbrad, Ironforge dwarves hold the fortified stronghold of Dun Garok. He sends Horde agents into its underground barracks and mess halls to slip past dwarven rifles and axes and steal a keg of Shindigger Stout.",
    "spoiler": 0
   },
   {
    "title": "A Recipe for Disaster",
-   "body": "Lydon intends to blend his lethal toxin straight into the dwarves' favorite brew. Once infused into the stolen keg, the elixir can be unleashed upon an unwitting target under the guise of festive refreshment, turning a beloved dwarven stout into an instrument of horrific agony.",
+   "body": "Apothecary Lydon plans to mix his toxin into the dwarves’ favorite brew. The stolen keg can carry the elixir to an unwitting target, disguised as festive refreshment. A beloved dwarven stout becomes a vessel for agony.",
    "spoiler": 1
   }
  ],
@@ -43,7 +43,7 @@
     "who gives this quest",
     "apothecary lydon lore"
    ],
-   "answer": "Apothecary Lydon is a Forsaken alchemist stationed in Tarren Mill. Representing the Royal Apothecary Society, he conducts experiments to develop deadly plagues and elixirs for the Banshee Queen, Lady Sylvanas."
+   "answer": "Apothecary Lydon is a Forsaken alchemist stationed in Tarren Mill. He represents the Royal Apothecary Society and experiments with deadly plagues and elixirs for the Banshee Queen, Lady Sylvanas."
   },
   {
    "q": "Why does Lydon need a keg of Shindigger Stout?",
@@ -52,7 +52,7 @@
     "why shindigger stout",
     "purpose of the keg"
    ],
-   "answer": "Lydon wants to test the finished Elixir of Agony on living targets. By blending the toxin into a keg of popular dwarven ale, he creates a covert and potent delivery method to poison his victims."
+   "answer": "Lydon wants to test his finished Elixir of Agony on living targets. Mixing it into a keg of popular dwarven ale gives him a covert way to poison his victims."
   },
   {
    "q": "Where is Dun Garok located?",
@@ -61,7 +61,7 @@
     "dun garok location",
     "where do i find the keg"
    ],
-   "answer": "Dun Garok is a heavily fortified dwarven redoubt situated in southeastern Hillsbrad Foothills, manned by Ironforge mountaineers and riflemen guarding their northern interests."
+   "answer": "Dun Garok lies in southeastern Hillsbrad Foothills. Ironforge mountaineers and riflemen man the fortified redoubt and guard their northern interests."
   },
   {
    "q": "Who is Umpi?",
@@ -70,7 +70,7 @@
     "who is umpi",
     "lydon assistant"
    ],
-   "answer": "Umpi is Apothecary Lydon's assistant in Tarren Mill. Lydon playfully notes that opening jars of formaldehyde around the lab tends to make Umpi visibly nervous."
+   "answer": "Umpi is Apothecary Lydon’s assistant in Tarren Mill. Lydon says that opening jars of formaldehyde around the lab makes Umpi visibly nervous."
   },
   {
    "q": "What is the ultimate goal of the Elixir of Agony?",
@@ -79,7 +79,7 @@
     "plague purpose",
     "forsaken poison goal"
    ],
-   "answer": "The Elixir of Agony is an experimental poison engineered by the Royal Apothecary Society to eradicate the living, serving the Forsaken's campaign to secure Lordaeron from human and dwarven footholds."
+   "answer": "The Elixir of Agony is an experimental poison the Royal Apothecary Society made to eradicate the living. It serves the Forsaken campaign to secure Lordaeron from human and dwarven footholds."
   },
   {
    "q": "What comes next after retrieving the keg?",
@@ -88,25 +88,25 @@
     "what after dun garok",
     "elixir part 5"
    ],
-   "answer": "Once the keg is in hand, Lydon laces the Shindigger Stout with the toxic elixir and tasks you with delivering the tainted ale to an unsuspecting test subject."
+   "answer": "With the keg in hand, Lydon mixes the toxic elixir into the Shindigger Stout and sends you to deliver the tainted ale to an unsuspecting test subject."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "Every batch perfected by Lydon brings the Forsaken closer to weaponizing death against the living enemies encroaching on Lordaeron."
+   "text": "As an Undead, you see each batch Lydon perfects bring the Forsaken closer to using death against the living enemies encroaching on Lordaeron."
   },
   {
    "target": "race:Dwarf",
-   "text": "The desecration of traditional dwarven ale into a vessel for chemical slaughter represents a profound insult to Ironforge craftsmanship."
+   "text": "As a Dwarf, you know that turning traditional dwarven ale into a vessel for chemical slaughter insults Ironforge craftsmanship."
   },
   {
    "target": "faction:Horde",
-   "text": "Undermining the Alliance presence at Dun Garok helps Tarren Mill maintain a delicate foothold against relentless southern threats."
+   "text": "As Horde, you help undermine the Alliance presence at Dun Garok, where Tarren Mill holds a delicate foothold against relentless southern threats."
   },
   {
    "target": "class:Rogue",
-   "text": "Slipping through the crowded mess halls of Dun Garok unseen is a masterclass in covert thievery right under the mountaineers' noses."
+   "text": "As a Rogue, you slip through Dun Garok’s crowded mess halls unseen, stealing under the mountaineers’ noses."
   }
  ],
  "keywords": [
@@ -129,5 +129,6 @@
  ],
  "attribution": [
   "Elixir of Agony (4)"
- ]
+ ],
+ "style": 1
 }

@@ -1,0 +1,60 @@
+{
+ "key": "quest:99101",
+ "type": "quest",
+ "name": "Our Ancient Enemy",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   99101
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Malah's report reaches Baine Bloodhoof, and his response is grim. He says the matter will not go unanswered.",
+ "sections": [],
+ "faq": [
+  {
+   "q": "Who receives Malah's report?",
+   "aliases": [
+    "who gets the report",
+    "Baine report",
+    "Malah's report"
+   ],
+   "answer": "Baine Bloodhoof receives Malah's report."
+  },
+  {
+   "q": "What does Baine say about the report?",
+   "aliases": [
+    "Baine reaction",
+    "what does Baine say",
+    "report response"
+   ],
+   "answer": "After reading it, Baine says the matter will not go unanswered."
+  },
+  {
+   "q": "Who brought the report to Baine?",
+   "aliases": [
+    "bring Malah report",
+    "who delivers it",
+    "report to Baine"
+   ],
+   "answer": "You bring Malah's report to Baine Bloodhoof."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "ancient enemy",
+  "baine bloodhoof",
+  "malah",
+  "our ancient enemy",
+  "report"
+ ],
+ "related": [
+  "npc:baine-bloodhoof"
+ ],
+ "style": 1,
+ "attribution": [
+  "In-game quest text: Our Ancient Enemy"
+ ]
+}

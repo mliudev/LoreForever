@@ -17,16 +17,16 @@
   "wiki": "Spellfire Robes",
   "chain": []
  },
- "summary": "Spellfire Robes is the culminating rite in the training of young Horde mages in the Undercity, completed by the tailor Josef Gregorian. After gathering rare components from across the realm, the apprentice is rewarded with custom enchanted vestments that signify their growing mastery over the arcane.",
+ "summary": "In the Undercity, Spellfire Robes mark a young Horde mage's rite of passage. Josef Gregorian, a tailor, completes the robes after the apprentice gathers rare components from across the realm.",
  "sections": [
   {
    "title": "A Mage's Vestment",
-   "body": "For apprentices mastering the arcane arts in Lordaeron, standard cloaks and common garments do little to channel or insulate against raw eldritch forces. Josef Gregorian, a tailor working in the Magic Quarter of the Undercity, weaves genuine magical garb from the specialized materials promising Horde spellcasters gather. The final stitching of the Spellfire Robes represents an apprentice's transition beyond basic incantations into an established practitioner of arcane and fire arts.",
+   "body": "In Lordaeron, you seek more than ordinary cloth to channel and shield your growing magic. Josef Gregorian works as a tailor in the Undercity's Magic Quarter, where he weaves magical garments from specialized materials gathered by promising Horde spellcasters. The final stitching marks your passage beyond basic incantations toward mastery of arcane and fire magic.",
    "spoiler": 0
   },
   {
    "title": "Woven Power",
-   "body": "Crafting garments capable of safely focusing high-intensity magic is an exacting task. Rather than mere tailoring, the creation of robes such as these requires specific alchemical and arcane components secured through dangerous trials. Once these supplies are gathered and presented in Gregorian's sanctum, the tailor weaves them together on the spot, bestowing a tangible mark of status and protection upon the aspiring mage.",
+   "body": "Josef Gregorian needs alchemical and arcane components to make robes that focus powerful magic. You gather those supplies through dangerous trials and bring them to his sanctum in the Undercity. There, Gregorian weaves them together, giving you a sign of growing status and protection as an aspiring mage.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "what do spellfire robes do",
     "why do this quest"
    ],
-   "answer": "It serves as the final step in an early class rite for Horde mages, rewarding them with specially enchanted robes after they have gathered tailoring components for the tailor Josef Gregorian."
+   "answer": "This rite is the final step in an early class rite for Horde mages. After gathering tailoring components, you receive specially enchanted robes from Josef Gregorian."
   },
   {
    "q": "Who is Josef Gregorian?",
@@ -47,7 +47,7 @@
     "who makes the robe",
     "josef gregorian undercity"
    ],
-   "answer": "Josef Gregorian is a Forsaken tailor working in the Magic Quarter's tailor shop in the Undercity. He stitches the first proper class garments for newly minted mages sent to him by Anastasia Hartwell."
+   "answer": "Josef Gregorian is a Forsaken tailor in the Undercity's Magic Quarter. He stitches the first proper class garments for newly minted mages sent to him by Anastasia Hartwell."
   },
   {
    "q": "Where does this quest take place?",
@@ -55,7 +55,7 @@
     "spellfire robes location",
     "where to turn in spellfire robes"
    ],
-   "answer": "The entire interaction takes place within the Magic Quarter of the Undercity, directly at Josef Gregorian's tailor shop."
+   "answer": "The interaction takes place in the Undercity's Magic Quarter, at Josef Gregorian's tailor shop."
   },
   {
    "q": "Why don't you have to leave to do another task for this quest?",
@@ -64,7 +64,7 @@
     "how to complete spellfire robes",
     "auto complete robe"
    ],
-   "answer": "All the labor was completed in the preceding assignment, Gathering Materials. Once you hand those reagents to Josef, he simply takes a moment to weave the garment and immediately hands over the finished robes."
+   "answer": "You gathered the materials in the preceding assignment, Gathering Materials. Hand the reagents to Josef, and he weaves the garment and gives you the finished robes."
   },
   {
    "q": "Can classes other than Mages obtain these robes?",
@@ -73,7 +73,7 @@
     "can warlock get this",
     "who can do spellfire robes"
    ],
-   "answer": "No. The entire quest chain and the resulting enchanted vestments are exclusive to mages allied with the Horde."
+   "answer": "No. The chain and its enchanted robes are for mages allied with the Horde."
   },
   {
    "q": "What materials were required to make these robes?",
@@ -82,21 +82,21 @@
     "robe ingredients",
     "gathering materials turn in"
    ],
-   "answer": "The robe is constructed from the rare supplies collected during the previous task, which include linen cloth and Dalaran mana gems taken from the Kirin Tor mages of Silverpine Forest."
+   "answer": "The robes use rare supplies gathered earlier, including linen cloth and Dalaran mana gems taken from the Kirin Tor mages of Silverpine Forest."
   }
  ],
  "angles": [
   {
    "target": "class:Mage",
-   "text": "Obtaining these robes is an early rite of passage for Horde practitioners, providing tailored attire capable of handling volatile fire and arcane energies."
+   "text": "As a Horde mage, you receive these robes as an early rite of passage. Their tailored cloth can handle volatile fire and arcane energies."
   },
   {
    "target": "race:Undead",
-   "text": "Forsaken spellcasters in the Undercity preserve Dalaran-style arcane discipline, combining old magical traditions with their new existence in Lordaeron's ruins."
+   "text": "As a Forsaken spellcaster in the Undercity, you preserve Dalaran-style arcane discipline, joining old magical traditions with your new existence in Lordaeron's ruins."
   },
   {
    "target": "profession:Tailoring",
-   "text": "The quest demonstrates how mundane cloth is augmented with exotic reagents to withstand and enhance powerful magical currents."
+   "text": "As a tailor, you can see how mundane cloth is strengthened to withstand powerful magical currents with exotic reagents."
   }
  ],
  "keywords": [
@@ -114,5 +114,6 @@
  ],
  "attribution": [
   "Spellfire Robes"
- ]
+ ],
+ "style": 1
 }

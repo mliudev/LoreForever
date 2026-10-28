@@ -10,11 +10,11 @@
    "quest:2922"
   ]
  },
- "summary": "Techbot's Memory Core is the polarized central repository of Tinkmaster Overspark's mechanical assistant, Techbot. Recovered from the malfunctioning automaton within the corrupted depths of Gnomeregan, it contains the critical data Overspark hopes to use to reverse the machine's reversed, negatronic behavior.",
+ "summary": "In Gnomeregan, Techbot's Memory Core holds the data Tinkmaster Overspark needs to study its corrupted behavior.",
  "sections": [
   {
    "title": "A Polarized Brain",
-   "body": "Before the catastrophe that forced the gnomes into exile, Techbot served Tinkmaster Overspark and his fellow inventors as an indispensable assistant, packed with gizmos and encyclopedic data. When Gnomeregan fell, an errant electrical discharge jolted the automaton, inverting its positronic brain into a hostile negatronic state. Driven mad by the reversal, Techbot now wanders the tainted halls of the city attacking anyone in sight. Recovering its memory core is Overspark's only hope for analyzing the malfunction and restoring his prized creation to its senses.",
+   "body": "Before Gnomeregan fell, Techbot aided Tinkmaster Overspark and his fellow inventors with a wealth of devices and knowledge. During the city's fall, an errant electrical discharge jolted the automaton and inverted its positronic brain into a hostile negatronic state. Now Techbot wanders Gnomeregan's tainted halls, attacking anyone in sight. Overspark hopes the memory core will help him understand the malfunction and restore his creation to its senses.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "techbot brain item",
     "what is techbots core"
    ],
-   "answer": "It is the primary data storage and computational center of Techbot, an automaton built by Tinkmaster Overspark. It holds the machine's knowledge and records the electrical disruption that corrupted its behavior during the fall of Gnomeregan."
+   "answer": "Techbot's Memory Core holds the data and knowledge of Techbot, the automaton built by Tinkmaster Overspark. It also records the electrical disruption that corrupted Techbot during Gnomeregan's fall."
   },
   {
    "q": "Who wants Techbot's Memory Core?",
@@ -35,7 +35,7 @@
     "who turns in techbot core",
     "where do i take techbots core"
    ],
-   "answer": "Tinkmaster Overspark seeks the core. Having taken refuge in Ironforge's Tinker Town alongside fellow exiled gnomes, he asks brave adventurers to venture into Gnomeregan, disable Techbot, and bring the core back so he can attempt repairs."
+   "answer": "Tinkmaster Overspark wants Techbot's Memory Core. He has taken refuge with fellow exiled gnomes in Ironforge's Tinker Town and asks adventurers to enter Gnomeregan, disable Techbot, and bring back the core so he can attempt repairs."
   },
   {
    "q": "Why did Techbot go berserk?",
@@ -44,7 +44,7 @@
     "what happened to techbot",
     "techbot gone crazy"
    ],
-   "answer": "During the fall of Gnomeregan, a stray electrical spark jolted Techbot's positronic brain. The sudden surge polarized the mechanism, turning it negatronic and completely inverting the automaton's personality and protocols from helpful to violently frenzied."
+   "answer": "During Gnomeregan's fall, a stray electrical spark jolted Techbot's positronic brain. The surge polarized it into a negatronic state, inverting the automaton's personality and protocols from helpful to violently frenzied."
   },
   {
    "q": "Where is the core obtained?",
@@ -53,17 +53,17 @@
     "techbot location",
     "how to get techbots brain"
    ],
-   "answer": "The core is salvaged from Techbot itself, found roaming within the upper mechanical corridors and entrances of the fallen city of Gnomeregan in Dun Morogh."
+   "answer": "The core is recovered from Techbot, which roams the upper mechanical corridors and entrances of Gnomeregan in Dun Morogh."
   }
  ],
  "angles": [
   {
    "target": "race:Gnome",
-   "text": "For gnomes, Techbot is another tragic casualty of Gnomeregan's fall, representing the loss of brilliant peacetime engineering to chaotic ruin."
+   "text": "For gnomes, Techbot is another casualty of Gnomeregan's fall, a reminder of how the city's ruin claimed brilliant peacetime engineering."
   },
   {
    "target": "profession:Engineering",
-   "text": "Engineers can appreciate the bizarre hazards of positronic polarization, where a single electrical short can entirely invert an automaton's logic routines."
+   "text": "As an engineer, you can appreciate how a single electrical short polarized Techbot's positronic brain and inverted its logic."
   }
  ],
  "keywords": [
@@ -86,5 +86,6 @@
  "attribution": [
   "Techbot's Memory Core",
   "Save Techbot's Brain!"
- ]
+ ],
+ "style": 1
 }

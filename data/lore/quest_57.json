@@ -21,16 +21,16 @@
    "The Night Watch (3)"
   ]
  },
- "summary": "Tasked directly by Commander Althea Ebonlocke, adventurers are sent into Duskwood's haunted barrows to cull the rising tide of restless dead. This ongoing campaign targets the skeletal horrors clawing their way out of Tranquil Gardens Cemetery and Raven Hill. Driving back the skeletal scourge is essential to keeping the fragile haven of Darkshire from falling completely to the darkness.",
+ "summary": "Darkshire's volunteer militia faces restless dead rising across Duskwood. Commander Althea Ebonlocke sends travelers into the haunted barrows to hold the skeletal horrors back. The struggle helps keep Darkshire from falling to the darkness.",
  "sections": [
   {
    "title": "The Dead Do Not Rest",
-   "body": "Duskwood's tragic descent from a verdant forest into a fog-drenched twilight has left its graveyards unnaturally restless. Commander Althea Ebonlocke, leading Darkshire's volunteer militia known as The Night Watch, faces an endless siege. Without aid from Stormwind, her forces are stretched dangerously thin. Reports of animated skeletal fiends and horrors rising from the dirt threaten to overrun the eastern settlements, forcing the militia to recruit any able-bodied travelers willing to enter the deadlands.",
+   "body": "Duskwood's graveyards have grown unnaturally restless as the forest sinks into twilight. Commander Althea Ebonlocke leads Darkshire's volunteer militia, The Night Watch, against an endless siege. With no aid from Stormwind, her forces are stretched thin. Animated skeletons and other horrors rise from the earth and threaten the eastern settlements, so the militia calls on able travelers to enter the deadlands.",
    "spoiler": 0
   },
   {
    "title": "Haunted Soil",
-   "body": "The campaign takes recruits to two focal points of necromantic unrest: the Tranquil Gardens Cemetery just south of town, and the vast, overgrown expanses of Raven Hill Graveyard to the far west. Skeletons pull themselves from forgotten tombs and shallow roadside graves, animated by dark magic lingering in the shadowed forest. Cutting down these fiends buys vital breathing room for Darkshire's beleaguered citizens, though it remains a ceaseless battle against an entrenched evil.",
+   "body": "Two places draw the militia's attention: Tranquil Gardens Cemetery, just south of town, and Raven Hill Graveyard, far to the west. Skeletons pull themselves from forgotten tombs and shallow graves beside the roads, stirred by dark magic lingering in the forest's shadows. Cutting them down gives Darkshire's beleaguered citizens room to breathe, but the battle against this entrenched evil never ends.",
    "spoiler": 0
   }
  ],
@@ -42,7 +42,7 @@
     "where is stormwind army",
     "why darkshire alone"
    ],
-   "answer": "Stormwind has largely abandoned Duskwood to its own devices, leaving the defense of the region to Commander Althea Ebonlocke and her local volunteer militia. Facing internal political strife and a missing king, the capital provides no garrison reinforcements, forcing the Night Watch to hire passing adventurers."
+   "answer": "Stormwind has left Duskwood to defend itself, so Commander Althea Ebonlocke and her local militia hold the region. With strife in the capital and the king missing, no guards arrive to reinforce them, and the Night Watch turns to passing adventurers."
   },
   {
    "q": "Where are the skeletons coming from?",
@@ -51,7 +51,7 @@
     "why are there skeletons",
     "undead source duskwood"
    ],
-   "answer": "The skeletal fiends and horrors are clawing out of the consecrated grounds of Tranquil Gardens Cemetery and the sprawling Raven Hill Graveyard. Dark magical forces pervading the woods have disturbed centuries of burials, raising ancient remains as mindless, violent sentries."
+   "answer": "Skeletons claw their way from Tranquil Gardens Cemetery and Raven Hill Graveyard. Dark magic in the woods has disturbed old burials and raised the remains as violent, mindless sentries."
   },
   {
    "q": "Who leads the Night Watch?",
@@ -60,7 +60,7 @@
     "who is althea ebonlocke",
     "commander ebonlocke"
    ],
-   "answer": "Commander Althea Ebonlocke commands the Night Watch. She is a relative of Darkshire's mayor, Lord Ello Ebonlocke, and she personally directs the defense of the town and coordinates operations against Duskwood's undead and monstrous threats."
+   "answer": "Commander Althea Ebonlocke leads the Night Watch. She is related to Darkshire's mayor, Lord Ello Ebonlocke, and directs the town's defense against Duskwood's undead and monstrous threats."
   },
   {
    "q": "What is the difference between Tranquil Gardens and Raven Hill?",
@@ -69,7 +69,7 @@
     "which graveyard is better",
     "graveyard locations duskwood"
    ],
-   "answer": "Tranquil Gardens Cemetery lies immediately south of Darkshire and represents an immediate, localized threat to the town. Raven Hill Graveyard, situated across the forest to the far west, is a massive burial ground that serves as the heart of Duskwood's undead infestation."
+   "answer": "Tranquil Gardens Cemetery lies just south of Darkshire and threatens the town nearby. Raven Hill Graveyard lies far to the west, across the forest, and is a vast burial ground at the heart of Duskwood's undead infestation."
   },
   {
    "q": "What happens after culling these skeletons?",
@@ -78,7 +78,7 @@
     "night watch questline",
     "after night watch 2"
    ],
-   "answer": "Clearing skeletal horrors and fiends is only one phase of Althea's campaign. The Night Watch continuously monitors rising threats across the forest, escalating from ghouls and skeletons to more dangerous undead and the sinister necromancers directing them deeper within Duskwood."
+   "answer": "Althea's campaign continues after the skeletons and fiends are cut down. The Night Watch watches for new threats across the forest, from ghouls and skeletons to more dangerous undead and the necromancers directing them deeper in Duskwood."
   },
   {
    "q": "Why is Darkshire in constant danger?",
@@ -87,25 +87,25 @@
     "darkshire danger",
     "what cursed duskwood"
    ],
-   "answer": "Once a peaceful province of the Kingdom of Stormwind, Duskwood was consumed by a magical twilight and plagued by shadowy curses. The woods are now overrun with feral worgen, ravenous spiders, and restless undead, leaving Darkshire as the last bastion of living humanity in the zone."
+   "answer": "Duskwood was once a peaceful province of the Kingdom of Stormwind, but magical twilight and shadowy curses consumed it. Feral worgen, ravenous spiders, and restless undead overrun the woods, leaving Darkshire as the zone's last bastion of living humanity."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Darkshire represents the fragile southeastern border of the Alliance in the southern Eastern Kingdoms. Aiding the Night Watch ensures the town remains a viable foothold rather than falling completely to ruin."
+   "text": "Darkshire marks the Alliance's fragile southeastern border in the southern Eastern Kingdoms. Helping the Night Watch keeps the town a viable foothold instead of letting it fall to ruin."
   },
   {
    "target": "class:Paladin",
-   "text": "For the Silver Hand and knights of the Light, confronting the defiled dead in Tranquil Gardens is a sacred duty to cleanse corrupted resting places."
+   "text": "For the Silver Hand and knights of the Light, facing the defiled dead in Tranquil Gardens is a sacred duty. They seek to cleanse corrupted resting places."
   },
   {
    "target": "class:Priest",
-   "text": "Priests walking the tainted soil of Raven Hill face the raw perversion of burial traditions, using their faith to bring quiet rest to tormented souls."
+   "text": "At Raven Hill, priests walk tainted soil and face the raw perversion of burial traditions. Their faith can bring quiet rest to tormented souls."
   },
   {
    "target": "race:Human",
-   "text": "Many of the skeletons rising from Duskwood's earth are the ancestors of living Stormwind and Darkshire citizens, making the battle deeply personal for human defenders."
+   "text": "Many skeletons rising from Duskwood's earth are ancestors of living Stormwind and Darkshire citizens. For human defenders, the fight is deeply personal."
   }
  ],
  "keywords": [
@@ -129,5 +129,6 @@
  ],
  "attribution": [
   "The Night Watch (2)"
- ]
+ ],
+ "style": 1
 }

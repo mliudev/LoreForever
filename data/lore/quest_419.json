@@ -20,21 +20,21 @@
    "A Pilot's Revenge (Classic)"
   ]
  },
- "summary": "Pilot Hammerfoot fears the worst for his comrade, Mori Hildelve, who ventured into the craggy hills of Dun Morogh on foot after wrecking his siege engine. Hildelve was searching for a rare ore vital for potent blastpowder, but days have passed amidst unsettling roars echoing through the peaks.",
+ "summary": "Pilot Hammerfoot waits at the wrecked siege engine, fearing for Mori Hildelve in Dun Morogh's crags. Hildelve went on foot to find rare ore for potent blastpowder, but days have passed, and roars echo through the peaks.",
  "sections": [
   {
    "title": "A Search Cut Short",
-   "body": "Dwarven siege engines are formidable war machines, but even iron treads struggle against the treacherous, jagged ridges of Dun Morogh. While scouring the slopes for a rare mineral deposit required to produce high-grade blastpowder, Pilot Mori Hildelve pushed his engine too far up a steep hill and busted the machine. Undeterred by the breakdown, Hildelve ordered his companion, Pilot Hammerfoot, to stay behind and guard the broken machinery while he pressed higher into the frozen wilderness on foot.",
+   "body": "Pilot Mori Hildelve drove his siege engine up Dun Morogh's steep, jagged ridges while searching for rare ore needed to make high-grade blastpowder. The machine broke on the slope. Hildelve left Pilot Hammerfoot at the camp to guard the wreckage, then continued higher into the frozen wilderness on foot.",
    "spoiler": 0
   },
   {
    "title": "Echoes in the Snow",
-   "body": "Days went by with no sign of Hildelve returning to camp. In the dead of night, strange and vicious beastly growls began echoing down from the rocky crags, turning Hammerfoot's mild impatience into creeping dread. Though Hildelve had a reputation for being as tough as nails, surviving the frigid heights of Dun Morogh without mechanized armor or heavy support against prowling predators is a dangerous gamble.",
+   "body": "Days passed without Hildelve returning to camp. At night, vicious growls echoed from the rocky crags, and Hammerfoot's impatience turned to dread. Hildelve was known for his toughness, but the frigid heights offered little protection from prowling predators without his engine or heavy support.",
    "spoiler": 0
   },
   {
    "title": "A Grim Discovery",
-   "body": "Following Hildelve's path up the slopes leads not to a stranded scout, but to a frozen tragedy. The dwarf's remains lie exposed to the elements, mauled and stripped by mountain scavengers. Clutched tightly in his lifeless hand are his roughly scribbled notes\u2014and still draped over his ruined frame is his brigadier's vest, confirming that the brave siege engineer met an untimely and violent end.",
+   "body": "Mori Hildelve's trail ends in the crags, where his remains lie exposed to the elements, mauled and stripped by mountain scavengers. His roughly scribbled notes are clutched in his lifeless hand. A Brigadier's Vest still drapes his ruined frame, marking the violent end of the siege engineer.",
    "spoiler": 1
   }
  ],
@@ -46,7 +46,7 @@
     "what was hildelve doing",
     "pilot hildelve mission"
    ],
-   "answer": "Hildelve was searching for a rare type of ore needed to craft high-grade dwarven blastpowder. When his siege engine broke down on a steep mountain slope, he chose to press on into the crags on foot rather than abandon the prospect."
+   "answer": "Hildelve went into the wilderness to search for rare ore needed to make high-grade dwarven blastpowder. When his siege engine broke on a steep slope, he continued into the crags on foot rather than abandon the search."
   },
   {
    "q": "Who sends you to look for Hildelve?",
@@ -54,7 +54,7 @@
     "who gives quest",
     "lost pilot quest giver"
    ],
-   "answer": "Pilot Hammerfoot, Hildelve's friend and fellow siege engine operator, asks travelers to investigate. He was ordered to stay behind and guard their damaged machinery while Hildelve scouted ahead."
+   "answer": "Pilot Hammerfoot, Hildelve's friend and fellow siege engine operator, asks you to investigate. Hildelve had left Hammerfoot behind to guard their damaged machinery while he scouted ahead."
   },
   {
    "q": "What happened to Hildelve's siege engine?",
@@ -62,7 +62,7 @@
     "broken siege engine",
     "why engine broke"
    ],
-   "answer": "Hildelve attempted to pilot his heavy machine straight up a steep, icy hillside while scouting for ore, wrecking its mechanics and stranding it in the snow."
+   "answer": "Hildelve wrecked the siege engine's mechanics while trying to drive it up a steep, icy hillside in search of ore. The machine was left stranded in the snow."
   },
   {
    "q": "What killed Pilot Hildelve?",
@@ -71,7 +71,7 @@
     "how did pilot die",
     "who killed hildelve"
    ],
-   "answer": "Hammerfoot has heard beastly growls in the hills and fears for Hildelve. The pilot's fate is discovered by following his trail."
+   "answer": "Hammerfoot has heard beastly growls in the hills and fears for Hildelve. Following the pilot's trail reveals his fate."
   },
   {
    "q": "What proof is found at Hildelve's remains?",
@@ -80,7 +80,7 @@
     "hildelve corpse items",
     "proof of death"
    ],
-   "answer": "Clutched in the remains is a book of Mori Hildelve's roughly scribbled notes, and still around the frame is a Brigadier's Vest in fine condition."
+   "answer": "Hildelve's roughly scribbled notes are clutched in his hand, and a Brigadier's Vest in fine condition remains around his frame."
   },
   {
    "q": "What happens after Hildelve's body is discovered?",
@@ -88,17 +88,17 @@
     "what next lost pilot",
     "revenge quest"
    ],
-   "answer": "Finding Hildelve reveals what happened during his search. The investigation then continues with the evidence found there."
+   "answer": "Finding Hildelve reveals what happened during his search. The evidence found there carries the investigation onward."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "The loss of a skilled Siege Engine driver to wild beasts hits close to home, underscoring the lethal dangers that linger even in Khaz Modan's backyard."
+   "text": "As a dwarf, the loss of a skilled siege engine driver to wild beasts strikes close to home. Even Khaz Modan's familiar hills hold lethal dangers."
   },
   {
    "target": "profession:Engineering",
-   "text": "Hildelve's expedition highlights the relentless dwarven search for volatile minerals to refine potent explosives and blastpowder."
+   "text": "As an engineer, you know the dwarves keep searching for volatile minerals to refine into potent explosives and blastpowder."
   }
  ],
  "keywords": [
@@ -118,5 +118,6 @@
  ],
  "attribution": [
   "The Lost Pilot (Classic)"
- ]
+ ],
+ "style": 1
 }

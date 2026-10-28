@@ -515,7 +515,6 @@ const USER_DATA = [
   ["DELETE FROM custom_prompts WHERE user_id = ?", u => u.id],
   // What they told Willo about themselves (lib/willo-memories.js).
   ["DELETE FROM willo_memories WHERE user_id = ?", u => u.id],
-  ["DELETE FROM willo_memory_checks WHERE user_id = ?", u => u.id],
   // Their friends, requests, messages either way, shared whereabouts and reports either way (lib/friends.js).
   ...FRIENDS_USER_DATA,
   // Their share link, and the friends they brought or were brought by, kept without the account (lib/referrals.js).

@@ -17,16 +17,16 @@
   "wiki": "Agamand Heirlooms",
   "chain": []
  },
- "summary": "Coleman Farthing tasks adventurers with plundering the Agamand Family Crypt at the northern end of Agamand Mills. Driven by bitter resentment over his mortal demise, he seeks to strip his former masters of their ancestral weapons and erase their final remnants of dignity.",
+ "summary": "At Agamand Mills, Coleman Farthing seeks the family's heirlooms from their crypt. He blames the Agamands for his death and wants their ancestral weapons taken from them.",
  "sections": [
   {
    "title": "A Servant's Bitter Grudge",
-   "body": "Before the Third War devastated Lordaeron, Coleman Farthing served the wealthy and influential Agamand family at their expansive mills in Tirisfal Glades. Whatever occurred during the fall of their estate, Farthing blames his former lords entirely for his death. Now raised into undeath among the Forsaken, he views the Agamands' downfall with spiteful satisfaction, rejoicing that the once-proud dynasty has been reduced to mindless minions enslaved to the Lich King.",
+   "body": "Coleman Farthing served the wealthy Agamand family at their mills in Tirisfal Glades before the Third War devastated Lordaeron. Whatever happened as the estate fell, Farthing blames his former lords for his death. Raised into undeath among the Forsaken, he takes spiteful satisfaction in the Agamands' downfall. The once-proud family has become mindless minions enslaved to the Lich King.",
    "spoiler": 0
   },
   {
    "title": "Desecrating the Crypt",
-   "body": "To completely extinguish what remains of the family's prestige, Farthing sends adventurers into the Agamand Family Crypt nestled beneath the northern bluffs of the mills. Within its haunted stone halls, the restive dead wander alongside lingering Scourge. Farthing demands the extraction of four storied relics\u2014the Agamand family sword, axe, dagger, and mace\u2014ensuring their bloodline's legacy is stripped of every remaining shred of honor.",
+   "body": "Farthing sends you into the Agamand Family Crypt beneath the northern bluffs of the mills. Restless dead and lingering Scourge wander its stone halls. He wants you to take four relics: the Agamand family sword, axe, dagger, and mace. Their loss would strip the bloodline of its remaining honor.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "coleman backstory",
     "farthing history"
    ],
-   "answer": "Coleman Farthing was a retainer employed by the wealthy Agamand family at Agamand Mills prior to the Scourge invasion of Lordaeron. He died during the calamity and blames his masters for his demise, harboring an intense resentment that carried over into his undeath."
+   "answer": "Coleman Farthing served the wealthy Agamand family at Agamand Mills before the Scourge invasion of Lordaeron. He died during the calamity and blames his former masters, carrying that resentment into undeath."
   },
   {
    "q": "Why does Coleman Farthing want the heirlooms?",
@@ -47,7 +47,7 @@
     "coleman motive",
     "why take weapons"
    ],
-   "answer": "Farthing seeks complete vengeance against his former masters. By pillaging their ancestral sword, axe, dagger, and mace from the family tomb, he aims to strip the fallen lineage of its last vestiges of honor and memory."
+   "answer": "Farthing wants vengeance on his former masters. He seeks their ancestral sword, axe, dagger, and mace to strip the fallen family of its last honor and memory."
   },
   {
    "q": "What happened to the Agamand family?",
@@ -56,7 +56,7 @@
     "are agamands alive",
     "what are agamands now"
    ],
-   "answer": "The Agamand family perished when the Scourge swept across Tirisfal Glades. Rather than finding peace in death, they were raised as mindless undead thralls bound to the will of the Lich King, wandering their ruined mills and crypt."
+   "answer": "The Agamand family perished when the Scourge swept across Tirisfal Glades. They were raised as mindless undead thralls bound to the Lich King, wandering their ruined mills and crypt."
   },
   {
    "q": "Where is the Agamand Family Crypt located?",
@@ -65,7 +65,7 @@
     "where is crypt",
     "agamand crypt map"
    ],
-   "answer": "The crypt lies at the northern edge of Agamand Mills, set into the rocky cliffs overlooking the blighted farmsteads in northern Tirisfal Glades."
+   "answer": "The Agamand Family Crypt lies at the northern edge of Agamand Mills, in rocky cliffs overlooking the blighted farmsteads of northern Tirisfal Glades."
   },
   {
    "q": "What weapons are kept within the crypt?",
@@ -74,7 +74,7 @@
     "four heirlooms",
     "agamand weapons"
    ],
-   "answer": "The crypt holds four distinct ancestral weapons belonging to the bloodline: the Agamand Family Sword, the Agamand Family Axe, the Agamand Family Dagger, and the Agamand Family Mace."
+   "answer": "The crypt holds four ancestral weapons: the Agamand Family Sword, the Agamand Family Axe, the Agamand Family Dagger, and the Agamand Family Mace."
   },
   {
    "q": "Why are the Forsaken attacking the Agamands if both are undead?",
@@ -83,21 +83,21 @@
     "why fight agamands",
     "forsaken scourge conflict"
    ],
-   "answer": "The Forsaken possess free will and fight for their own survival, whereas the undead Agamands remain mindless slaves of the Scourge, serving the Lich King that the Forsaken despise."
+   "answer": "The Forsaken have free will and fight for their own survival. The undead Agamands remain mindless Scourge slaves, serving the Lich King whom the Forsaken despise."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "Coleman Farthing's bitter quest embodies the lingering grudges and unhealed wounds that many Forsaken carry from their mortal lives into undeath."
+   "text": "As an Undead, you know how grudges from mortal life can linger after death among the Forsaken."
   },
   {
    "target": "faction:Horde",
-   "text": "Clearing out the crypt undermines the Scourge's entrenched hold over northern Tirisfal Glades, making the realm safer for Horde travelers."
+   "text": "As Horde, you help weaken the Scourge's hold over northern Tirisfal Glades and make the realm safer for travelers."
   },
   {
    "target": "class:Rogue",
-   "text": "Slipping past lurking ghouls to pilfer ancient armaments from guarded burial vaults is second nature to stealthy operatives."
+   "text": "As a Rogue, you know how to slip past lurking ghouls and take ancient weapons from guarded burial vaults."
   }
  ],
  "keywords": [
@@ -120,5 +120,6 @@
  ],
  "attribution": [
   "Agamand Heirlooms"
- ]
+ ],
+ "style": 1
 }

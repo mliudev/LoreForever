@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Forgotten Pool"
  },
- "summary": "The Forgotten Pool is a submerged cavern tucked deep beneath the flooded corridors of Blackfathom Deeps. Located beyond the Moonshrine Ruins, this quiet dead-end serves as the aquatic lair of monstrous deep-sea predators lurking in the subterranean dark.",
+ "summary": "Past the Moonshrine Ruins, Forgotten Pool lies beneath the flooded halls of Blackfathom Deeps. Its dark waters hide monstrous deep-sea predators.",
  "sections": [
   {
    "title": "A Submerged Lair",
-   "body": "Reaching the Forgotten Pool requires diving into the sunken subterranean waterways extending past the Moonshrine Ruins. Cut off from dry ground, the pool is an isolated, stagnant cavern completely flooded by dark waters. Away from the chanting Twilight's Hammer cultists and the patrolling naga, this secluded pocket serves as the lair of the ancient aquatic terror known as Old Serra'kis, keeping the beast hidden in the flooded dark.",
+   "body": "You reach Forgotten Pool by diving through the sunken waterways beyond the Moonshrine Ruins. Dark water fills this isolated cavern, cut off from dry ground. Twilight's Hammer cultists chant nearby, and naga patrol the flooded halls, but the pool lies apart from them. Old Serra'kis, an ancient aquatic terror, lairs in its depths, hidden by the water.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "forgotten pool location",
     "how to find forgotten pool"
    ],
-   "answer": "The Forgotten Pool is an entirely submerged underwater cavern situated deep within Blackfathom Deeps. To reach it, explorers must swim through the flooded tunnels branching off past the Moonshrine Ruins."
+   "answer": "Forgotten Pool lies deep within Blackfathom Deeps, beyond the Moonshrine Ruins. You reach the submerged cavern by swimming through flooded tunnels."
   },
   {
    "q": "What lurks inside the Forgotten Pool?",
@@ -32,7 +32,7 @@
     "who lives in forgotten pool",
     "forgotten pool boss"
    ],
-   "answer": "The cavern serves as the hidden lair of Old Serra'kis, an ancient thresher-like beast of the deep waters that makes the secluded dead-end its lair."
+   "answer": "Old Serra'kis, an ancient thresher-like beast of the deep waters, lurks in Forgotten Pool. The secluded cavern is its lair."
   },
   {
    "q": "Does the Forgotten Pool lead anywhere else?",
@@ -40,13 +40,13 @@
     "is forgotten pool a dead end",
     "where does forgotten pool go"
    ],
-   "answer": "No. The pool is an underwater dead-end with no further passageways, serving strictly as a secluded aquatic nest."
+   "answer": "No. Forgotten Pool is an underwater dead end with no further passageways. It is a secluded aquatic nest."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "Horde scouts venturing into Blackfathom Deeps may find Old Serra'kis lurking in the flooded dark of the pool, far from the cult's chanting halls."
+   "text": "As a Horde scout in Blackfathom Deeps, you may find Old Serra'kis lurking in Forgotten Pool, far from the cult's chanting halls."
   }
  ],
  "keywords": [
@@ -67,5 +67,6 @@
  ],
  "attribution": [
   "Forgotten Pool"
- ]
+ ],
+ "style": 1
 }

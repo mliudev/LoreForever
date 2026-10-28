@@ -17,16 +17,16 @@
   "wiki": "Eight-Legged Menaces",
   "chain": []
  },
- "summary": "Eight-Legged Menaces is a militia contract issued by Watcher Dodds in Duskwood. With the western border overrun by aggressive venom web spiders, the understaffed Night Watch relies on wandering adventurers to cull the brood before more guards are caught in their webs.",
+ "summary": "In Duskwood, venom web spiders crowd the western border. Watcher Dodds calls on travelers to thin their numbers before more Night Watch guards are caught in their webs.",
  "sections": [
   {
    "title": "A Border Under Siege",
-   "body": "Along the western road linking Westfall to Duskwood, the dense canopy gives way to tangled thickets choked with webbing. Pygmy venom web spiders now infest the brush in swarms, threatening travelers and encroaching upon the fragile defensive lines maintained by the Night Watch.",
+   "body": "Pygmy venom web spiders swarm the brush along the western road from Westfall into Duskwood. Their webs choke the thickets beneath the dense canopy, putting travelers and the Night Watch's fragile defenses at risk.",
    "spoiler": 0
   },
   {
    "title": "The Burden on the Night Watch",
-   "body": "Stationed far from the safety of Darkshire, Watcher Dodds finds himself desperately short on troops. Commander Althea Ebonlocke cannot spare reinforcements to secure remote outposts when undead and worgen press against the township itself. Left isolated, Dodds has already watched comrades fall victim to the spiders, discovering men hanging upside down in the canopy as paralytic venom slowly liquefied them for feeding.",
+   "body": "Watcher Dodds keeps a small camp far from Darkshire, with too few troops to hold the border. Commander Althea Ebonlocke cannot send reinforcements while undead and worgen press against the township. Dodds has already lost comrades to the spiders, finding them hanging upside down in the canopy as venom paralyzed them and liquefied their flesh.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who gives eight-legged menaces",
     "watcher dodds"
    ],
-   "answer": "Watcher Dodds, a member of the Night Watch posted at a small camp in Duskwood, offers this task to travelers capable of clearing out the spiders."
+   "answer": "Watcher Dodds, a Night Watch member at a small camp in Duskwood, asks travelers to clear out the spiders."
   },
   {
    "q": "Why can't the Night Watch handle the spiders themselves?",
@@ -47,7 +47,7 @@
     "why call adventurers",
     "darkshire militia shortage"
    ],
-   "answer": "Commander Althea Ebonlocke must concentrate her meager garrison near Darkshire to repel relentless undead assaults. Dodds lacks the manpower to assault the infested border nests without abandoning his post."
+   "answer": "Commander Althea Ebonlocke keeps her small garrison near Darkshire to repel relentless undead assaults. Dodds has too few troops to attack the border nests and still hold his post."
   },
   {
    "q": "Where are these spiders located?",
@@ -56,7 +56,7 @@
     "where are pygmy venom webs",
     "spider woods"
    ],
-   "answer": "The pygmy venom web spiders nest heavily in the western woods of Duskwood, lurking in the brush just off the main road coming in from Westfall."
+   "answer": "Pygmy venom web spiders swarm in Duskwood's western woods, in brush just off the main road from Westfall."
   },
   {
    "q": "What makes these spiders so dangerous to the watch?",
@@ -65,7 +65,7 @@
     "spider venom",
     "spider victims"
    ],
-   "answer": "Aside from their sheer numbers, they possess a potent venom that paralyzes and dissolves flesh, leaving ensnared Night Watchmen helpless and strung up in the boughs as easy prey."
+   "answer": "The spiders are numerous, and their venom paralyzes and dissolves flesh. Night Watchmen caught in their webs hang helpless in the boughs, easy prey."
   },
   {
    "q": "Are these the only spiders in Duskwood?",
@@ -74,7 +74,7 @@
     "spider species",
     "venom web spiders"
    ],
-   "answer": "No. The pygmy venom webs are merely the smaller broodlings. Deeper into the woods dwell much larger, deadlier specimens that pose an even graver danger to travelers."
+   "answer": "No. Pygmy venom web spiders are the smaller broodlings. Much larger and deadlier spiders live deeper in the woods and threaten travelers."
   },
   {
    "q": "Why has the insect and spider population grown so aggressively?",
@@ -83,17 +83,17 @@
     "duskwood corruption nature",
     "spider origin"
    ],
-   "answer": "The pervasive magical corruption that blankets Duskwood has twisted the indigenous wildlife, accelerating their aggression, size, and lethality across the blighted forest."
+   "answer": "Magical corruption blankets Duskwood and has twisted its native wildlife, making the creatures more aggressive, larger, and deadlier."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "The Night Watch stands entirely alone without aid from the House of Nobles, making any support Alliance travelers provide vital for keeping the roads open."
+   "text": "The Night Watch receives no aid from the House of Nobles, so support from Alliance travelers helps keep the roads open."
   },
   {
    "target": "class:Hunter",
-   "text": "The venom web spiders of Duskwood are vicious beasts requiring careful footwork and anti-venom preparation to hunt effectively."
+   "text": "As a Hunter, you face vicious venom web spiders in Duskwood; careful footwork and anti-venom preparation help you hunt them."
   }
  ],
  "keywords": [
@@ -114,5 +114,6 @@
  ],
  "attribution": [
   "Eight-Legged Menaces"
- ]
+ ],
+ "style": 1
 }

@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Bough Shadow"
  },
- "summary": "Bough Shadow is a secluded grove tucked away in the far northeastern corner of Ashenvale, east of Forest Song. It centers around a colossal Great Tree rooted over an ancient portal leading directly into the Emerald Dream.",
+ "summary": "In northeastern Ashenvale, Bough Shadow lies east of Forest Song beneath a colossal Great Tree. Its roots surround an ancient portal into the Emerald Dream.",
  "sections": [
   {
    "title": "A Gateway to the Dream",
-   "body": "Bough Shadow houses one of the rare Great Trees, its roots plunging deep into the earth around a natural crossing into the Emerald Dream. Today, the tranquil yet imposing grove is heavily guarded by the Green Dragonflight. Emerald drakes such as Phantim and Dreamstalker circle above the canopy, while patrols of Emeraldon dragonspawn and oracles keep a vigilant, unyielding watch over the swirling green portal at its base, turning away any mortal who approaches unbidden.",
+   "body": "Bough Shadow gathers beneath a Great Tree whose roots wind around a natural crossing into the Emerald Dream. The Green Dragonflight guards the quiet grove. Emerald drakes such as Phantim and Dreamstalker circle above the canopy, while Emeraldon dragonspawn and oracles patrol the swirling green portal at the tree’s base. Mortals who approach without permission are turned away.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "what is the portal in bough shadow",
     "green portal ashenvale"
    ],
-   "answer": "The swirling vortex at the foot of the Great Tree is a direct gateway leading into the Emerald Dream, the untamed spirit realm of Azeroth. It is one of several such natural crossings scattered across the world."
+   "answer": "The swirling vortex beneath the Great Tree opens directly into the Emerald Dream, Azeroth’s untamed spirit realm. Similar natural crossings lie elsewhere in the world."
   },
   {
    "q": "Why are green dragons guarding Bough Shadow?",
@@ -32,7 +32,7 @@
     "green dragonflight bough shadow",
     "why green dragons here"
    ],
-   "answer": "Ysera's Green Dragonflight is charged with watching over the Emerald Dream and its direct passages into the physical world. Emerald drakes and dragonspawn patrol Bough Shadow to ensure no corrupting forces or intruders slip through the threshold."
+   "answer": "Ysera’s Green Dragonflight watches over the Emerald Dream and its passages into the physical world. Emerald drakes and dragonspawn patrol Bough Shadow to keep intruders and corrupting forces from crossing."
   },
   {
    "q": "Can players enter the portal?",
@@ -41,17 +41,17 @@
     "enter bough shadow portal",
     "how to enter dream portal"
    ],
-   "answer": "No. The gateway remains tightly sealed to mortals in the physical world, and venturing too close will provoke the wrath of the surrounding elite dragonkin guards."
+   "answer": "No. The gateway is sealed to mortals, and the elite dragonkin guards will attack anyone who comes too close."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "Bough Shadow represents sacred ground for druids, housing one of the tangible thresholds linking Azeroth directly to the domain of the Green Flight and the Emerald Dream."
+   "text": "As a druid, you stand on sacred ground at Bough Shadow, where a natural threshold links Azeroth to the Green Flight’s domain and the Emerald Dream."
   },
   {
    "target": "race:NightElf",
-   "text": "Lying deep beyond Forest Song, this great tree and its sleeping portal stand as a living reminder of the bond between the kaldorei and the Emerald Dream."
+   "text": "As a Night Elf, you find Bough Shadow deep beyond Forest Song. Its Great Tree and sleeping portal speak to the bond between the kaldorei and the Emerald Dream."
   }
  ],
  "keywords": [
@@ -73,5 +73,6 @@
  ],
  "attribution": [
   "Bough Shadow"
- ]
+ ],
+ "style": 1
 }

@@ -23,21 +23,21 @@
    "The Real Threat (Classic)"
   ]
  },
- "summary": "Dispatched by Tallow from Tarren Mill, Horde champions are directed across the mountains into the Arathi Highlands to relieve the embattled settlement of Hammerfall. Before reporting to Drum Fel, adventurers must prove their battle readiness against the brutish Boulderfist ogres lurking near the ruins of Stromgarde.",
+ "summary": "Tallow sends fighters from Tarren Mill across the mountains to relieve Hammerfall in the Arathi Highlands. Before reporting to Drum Fel, you prove your battle readiness against Boulderfist ogres near the ruins of Stromgarde.",
  "sections": [
   {
    "title": "A Gruff Summons",
-   "body": "In Tarren Mill, Tallow harbors little patience for untested adventurers wandering through the Foothills. Seeing undisciplined recruits standing idle while distant allies bleed, he directs capable fighters east through Thoradin's Wall into the Arathi Highlands. The Horde outpost of Hammerfall stands besieged on multiple fronts, but Tallow refuses to send warm bodies unless they have proven their worth against substantial opposition first.",
+   "body": "In Tarren Mill, Tallow has little patience for untested fighters wandering the Foothills. While recruits stand idle, allies are under attack far away. He sends capable fighters east through Thoradin's Wall into the Arathi Highlands, where Hammerfall is besieged from several sides. Tallow wants them to prove their worth against a strong foe before he sends them to the outpost.",
    "spoiler": 0
   },
   {
    "title": "Trial by Boulderfist",
-   "body": "Rather than allowing recruits to stumble blindly into Hammerfall, Tallow demands a demonstration of martial strength at the ogre mound northeast of Stromgarde. The Boulderfist tribe maintains a heavy presence in Arathi, their hulking ogres and enforcers posing an immediate threat to anyone traveling the highland trails. Slaying these brutes serves both to thin the hostile forces flanking the road and to ensure that only capable warriors arrive at the outpost.",
+   "body": "Tallow demands a display of strength at the ogre mound northeast of the ruins of Stromgarde. Boulderfist ogres and their enforcers hold much of Arathi, threatening travelers on the highland trails. Fighting them thins the hostile forces flanking the road and proves you can stand against the danger before reaching Hammerfall.",
    "spoiler": 0
   },
   {
    "title": "Reporting to Hammerfall",
-   "body": "Upon clearing out the Boulderfist encampment, the path leads northeast to Hammerfall, an outpost named in memory of Warchief Orgrim Doomhammer. There, commander Drum Fel accepts fresh arrivals with weary skepticism. Whether Tallow intended to bolster the garrison or simply send fools to their deaths, Drum Fel wastes no time turning proven fighters toward the endless skirmishes threatening the outpost's survival.",
+   "body": "After the Boulderfist camp is cleared, the road leads northeast to Hammerfall, named for Warchief Orgrim Doomhammer. Commander Drum Fel receives the new arrivals with weary skepticism. Whether Tallow meant to strengthen the garrison or send fools to their deaths, Drum Fel quickly turns proven fighters toward the skirmishes threatening the outpost.",
    "spoiler": 1
   }
  ],
@@ -49,7 +49,7 @@
     "quest turn in location",
     "who gives the hammer may fall"
    ],
-   "answer": "The quest is offered by Tallow in Tarren Mill, located in the Hillsbrad Foothills. After completing the required kills in Arathi Highlands, it is turned in to Drum Fel inside the Horde outpost of Hammerfall."
+   "answer": "Tallow offers this assignment in Tarren Mill, in the Hillsbrad Foothills. After you defeat the required ogres in the Arathi Highlands, you report to Drum Fel at Hammerfall, the Horde outpost."
   },
   {
    "q": "Where are the Boulderfist ogres located?",
@@ -58,7 +58,7 @@
     "where are the ogres in arathi",
     "boulderfist mound"
    ],
-   "answer": "The Boulderfist ogres inhabit a prominent dirt mound and surrounding camp located northeast of the ruins of Stromgarde in the Arathi Highlands."
+   "answer": "The Boulderfist ogres live at a prominent dirt mound and camp northeast of the ruins of Stromgarde in the Arathi Highlands."
   },
   {
    "q": "What is the outpost of Hammerfall?",
@@ -67,7 +67,7 @@
     "hammerfall lore",
     "who founded hammerfall"
    ],
-   "answer": "Hammerfall is a fortified Horde settlement in northeastern Arathi Highlands. It is named in honor of former Warchief Orgrim Doomhammer, who fell in battle nearby during the liberation of the orc internment camps."
+   "answer": "Hammerfall is a fortified Horde settlement in northeastern Arathi Highlands. It honors former Warchief Orgrim Doomhammer, who fell nearby during the liberation of the orc internment camps."
   },
   {
    "q": "Why does Tallow make you fight ogres before reporting to Hammerfall?",
@@ -76,7 +76,7 @@
     "tallow motive",
     "why test me"
    ],
-   "answer": "Hammerfall is under constant attack and desperate for capable fighters. Tallow sends recruits against the Boulderfist ogres as a harsh proving ground, ensuring that anyone arriving to reinforce Drum Fel can actually fight rather than becoming an added burden."
+   "answer": "Hammerfall is under constant attack and desperate for capable fighters. Tallow sends you against the Boulderfist ogres to prove you can fight before you reinforce Drum Fel, rather than arrive as a burden."
   },
   {
    "q": "Who is Drum Fel?",
@@ -85,7 +85,7 @@
     "hammerfall commander",
     "who is drum fel"
    ],
-   "answer": "Drum Fel is a veteran orc warrior and commander stationed at Hammerfall in the Arathi Highlands, tasked with organizing defense forces against hostile wildlife, ogres, trolls, and Alliance remnants."
+   "answer": "Drum Fel is a veteran orc warrior and commander at Hammerfall in the Arathi Highlands. He organizes defenses against hostile wildlife, ogres, trolls, and Alliance remnants."
   },
   {
    "q": "What follows this assignment?",
@@ -94,21 +94,21 @@
     "hammer may fall followup",
     "what comes after"
    ],
-   "answer": "Reporting to Drum Fel leads directly into the Call to Arms campaign, a sequence of military operations aimed at clearing surrounding threats, including the Witherbark troll tribes threatening the highlands."
+   "answer": "Reporting to Drum Fel leads to the Call to Arms campaign, a series of military operations against surrounding threats, including the Witherbark troll tribes threatening the highlands."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "This task marks the primary transition from the localized disputes of Hillsbrad into the wider defense of Arathi Highlands, reinforcing Hammerfall's vital foothold in the region."
+   "text": "This assignment carries you from Hillsbrad's local disputes into the wider defense of the Arathi Highlands, where Hammerfall holds a vital foothold."
   },
   {
    "target": "race:Orc",
-   "text": "Hammerfall holds profound sentimental and historical value for orcs, having been founded where Warchief Orgrim Doomhammer gave his life during the liberation campaigns."
+   "text": "As an orc, Hammerfall carries deep meaning and history. It was founded where Warchief Orgrim Doomhammer gave his life during the liberation campaigns."
   },
   {
    "target": "class:Warrior",
-   "text": "Facing hulking Boulderfist enforcers serves as a classic proving ground for frontline fighters looking to earn the respect of veteran orc commanders like Drum Fel."
+   "text": "As a warrior, you face hulking Boulderfist enforcers to prove yourself to veteran orc commanders like Drum Fel."
   }
  ],
  "keywords": [
@@ -134,5 +134,6 @@
  ],
  "attribution": [
   "The Hammer May Fall"
- ]
+ ],
+ "style": 1
 }

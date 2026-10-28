@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Felfire Hill"
  },
- "summary": "Felfire Hill is a blighted, demon-infested rise nestled in eastern Ashenvale. Struck by falling infernals during the Third War, its corrupted soil still burns with demonic power. The Horde maintains fortified guard posts on the bridges leading into the hill to safeguard their nearby settlements.",
+ "summary": "In eastern Ashenvale, Felfire Hill remains a blighted rise crawling with demons. Infernals struck it during the Third War, and its soil still burns with fel power. Horde guards hold the bridges leading to the hill, near their settlements.",
  "sections": [
   {
    "title": "A Scar of the Burning Legion",
-   "body": "During the cataclysmic invasion of the Third War, flaming meteors fell across Kalimdor as the Burning Legion unleashed its dread infernals. Several of those fiery behemoths struck this ridge in Ashenvale, scouring away the ancient woodlands and corrupting the earth itself. Today, the scorched landscape remains saturated with fel energy and prowled by lingering demons who survived the Legion's defeat at Mount Hyjal.",
+   "body": "During the Third War, the Burning Legion sent flaming meteors across Kalimdor, carrying its fearsome infernals. Several struck this ridge in Ashenvale, burning away the ancient woodland and corrupting the earth. The Legion fell at Mount Hyjal, but demons that survived its defeat still prowl the scorched slopes. Fel energy saturates the land they haunt.",
    "spoiler": 0
   },
   {
    "title": "Guarding the Crossings",
-   "body": "Situated southeast of Splintertree Post and southwest of the Warsong Lumber Camp, Felfire Hill sits uncomfortably close to vital Horde operations. Because the demonic remnants threaten to spill out into the surrounding forest, Horde forces have erected fortified barricades and guard towers at both bridges approaching the hill, containing the foul creatures within their blighted haven.",
+   "body": "Felfire Hill lies southeast of Splintertree Post and southwest of the Warsong Lumber Camp, close to vital Horde operations. Demonic remnants threaten to spill into the surrounding forest. Horde forces have raised fortified barricades and guard towers at both bridges leading to the hill, keeping the creatures within their blighted haven.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "felfire hill lore",
     "what happened to felfire hill"
    ],
-   "answer": "During the Third War, Burning Legion infernals rained down from the sky and slammed into this hill. The impact and subsequent fel contamination burned away the pristine elven forest, leaving behind scarred rock and corrupting demonic energies that never dispersed."
+   "answer": "During the Third War, infernals of the Burning Legion rained from the sky and struck Felfire Hill. Their impact and the fel contamination burned away the elven forest, leaving scarred rock and demonic energies that never dispersed."
   },
   {
    "q": "What creatures live on Felfire Hill?",
@@ -36,7 +36,7 @@
     "monsters at felfire hill",
     "felfire hill mobs"
    ],
-   "answer": "The hill is occupied by surviving demons and infernal constructs left over from the Legion's invasion during the Third War. They remain hostile to all mortals who wander near their corrupted perimeter."
+   "answer": "Surviving demons and infernal constructs from the Legion's invasion during the Third War occupy Felfire Hill. They remain hostile to mortals who approach their corrupted ground."
   },
   {
    "q": "Why did the Horde fortify the bridges here?",
@@ -44,7 +44,7 @@
     "horde bridge guards felfire",
     "why are orcs guarding felfire hill"
    ],
-   "answer": "Felfire Hill lies directly between Splintertree Post and the Warsong Lumber Camp. Horde commanders fortified both bridges to ensure the roaming demons cannot break out and overrun their nearby camps, supply convoys, and lumber operations."
+   "answer": "Felfire Hill lies between Splintertree Post and the Warsong Lumber Camp. Horde commanders fortified both bridges to keep roaming demons from breaking out and overrunning nearby camps, supply convoys, and lumber operations."
   },
   {
    "q": "Is Felfire Hill connected to the night elves?",
@@ -52,17 +52,17 @@
     "dor danil felfire hill",
     "barrow den demons"
    ],
-   "answer": "Though the hill itself was once part of Ashenvale's sacred forest, it now sits menacingly northeast of the Dor'Danil Barrow Den. The creeping demonic taint and roaming fiends pose an enduring danger to the nearby slumbering grounds and the surrounding wildlands."
+   "answer": "Felfire Hill lies menacingly northeast of the Dor'Danil Barrow Den, on ground once part of Ashenvale's sacred forest. Its spreading demonic taint and roaming fiends endanger the nearby slumbering grounds and surrounding wildlands."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "The Horde holds the fortified bridges around Felfire Hill to safeguard the transit road connecting Splintertree Post with the Warsong Lumber Camp against demonic raids."
+   "text": "The Horde holds the fortified bridges around Felfire Hill to protect the transit road between Splintertree Post and the Warsong Lumber Camp from demonic raids."
   },
   {
    "target": "class:Warlock",
-   "text": "The raw fel energies lingering where the Legion's infernals made landfall make this scarred ridge an object of dangerous curiosity for practitioners of dark magic."
+   "text": "Fel energy lingers on the ridge where the Legion's infernals landed, drawing the dangerous curiosity of those who practice dark magic."
   }
  ],
  "keywords": [
@@ -84,5 +84,6 @@
  ],
  "attribution": [
   "Felfire Hill"
- ]
+ ],
+ "style": 1
 }

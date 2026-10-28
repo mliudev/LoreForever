@@ -10,11 +10,11 @@
    "quest:1031"
   ]
  },
- "summary": "The Branch of Cenarius is a sacred dryad relic stolen by the vile satyr Geltharis in eastern Ashenvale. Recovering this heirloom was the dying wish of the dryad Anilia, who perished defending it from the woods' corruptors.",
+ "summary": "In eastern Ashenvale, Geltharis holds the Branch of Cenarius, sacred to the dryads. Anilia died defending the relic, and her dying wish was to see it recovered.",
  "sections": [
   {
    "title": "A Sacred Bough Fallen to Shadow",
-   "body": "Revered by the daughters of Cenarius, the Branch of Cenarius represents both the blessing of the Forest Lord and the deep connection his dryads maintain with Ashenvale. The branch was held in high regard by the dryad sisters Anilia and Illiyana until a band of corrupt satyrs ambushed them. The satyr leader, Geltharis, seized the relic and mortally wounded Anilia near the tainted ruins of eastern Ashenvale. With her dying breaths, Anilia pointed northward toward the arch where Geltharis lurks, pleading for a champion to wrest the sacred bough from his claws and restore it to dryad hands at Forest Song.",
+   "body": "The Branch of Cenarius is sacred to the dryads who follow the Forest Lord. Anilia and her sister Illiyana treasured it until corrupt satyrs ambushed them. Their leader, Geltharis, seized the branch and mortally wounded Anilia near the tainted ruins of eastern Ashenvale. As she lay dying, Anilia pointed north toward the arch where Geltharis lurks. She pleaded for a champion to take back the bough and return it to the dryads at Forest Song.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "what is this branch",
     "dryad branch"
    ],
-   "answer": "The Branch of Cenarius is a treasured nature relic cherished by the dryads of Ashenvale. Bearing the namesake and blessing of the demigod Cenarius, it serves as a holy symbol of their stewardship over the ancient forest."
+   "answer": "The Branch of Cenarius is a sacred relic treasured by Ashenvale’s dryads. It bears the Forest Lord’s name and blessing, and represents their bond with the ancient forest."
   },
   {
    "q": "Who stole the Branch of Cenarius?",
@@ -35,7 +35,7 @@
     "who stole it",
     "who drops branch of cenarius"
    ],
-   "answer": "The relic was stolen by the vile satyr Geltharis, who led an ambush against the dryads near eastern Ashenvale. Geltharis struck down the dryad Anilia and fled beyond a stone arch to the north with the branch in his clutches."
+   "answer": "Geltharis stole the Branch of Cenarius after leading an ambush on the dryads near eastern Ashenvale. He mortally wounded Anilia and fled north beyond a stone arch with the branch."
   },
   {
    "q": "Who does the branch belong to?",
@@ -44,7 +44,7 @@
     "who wants the branch",
     "who do i give it to"
    ],
-   "answer": "The branch belongs to the dryads of Forest Song. With Anilia having perished defending it, the relic is returned to her grieving sister, Illiyana, fulfilling Anilia's dying wish."
+   "answer": "The branch belongs to the dryads of Forest Song. Anilia died defending it, and her sister Illiyana receives the relic in keeping with Anilia’s dying wish."
   },
   {
    "q": "Where is the branch recovered?",
@@ -53,17 +53,17 @@
     "where is geltharis",
     "where to find branch"
    ],
-   "answer": "The branch is found on Geltharis, lurking just north of the ruins where Anilia collapses in eastern Ashenvale, near the border with Azshara."
+   "answer": "Geltharis carries the branch just north of the ruins in eastern Ashenvale where Anilia falls, near the border with Azshara."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "As disciples of Cenarius, druids feel a personal duty to reclaim any artifact bearing the Forest Lord's name from defilement by the demonic satyr."
+   "text": "As a druid, you share a duty to reclaim the Branch of Cenarius from the satyr who defiled it."
   },
   {
    "target": "race:NightElf",
-   "text": "For the night elves of Ashenvale, aiding the dryads and recovering their lost ancestral treasures is a sacred obligation to nature."
+   "text": "As a night elf of Ashenvale, you have a sacred duty to aid the dryads and recover their ancestral treasures."
   }
  ],
  "keywords": [
@@ -88,5 +88,6 @@
  "attribution": [
   "Branch of Cenarius",
   "The Branch of Cenarius (Classic)"
- ]
+ ],
+ "style": 1
 }

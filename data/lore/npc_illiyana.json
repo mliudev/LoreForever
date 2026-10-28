@@ -8,16 +8,16 @@
   "wiki": "Illiyana",
   "refs": 3
  },
- "summary": "Illiyana is an ancient dryad stationed in southwestern Ashenvale, dedicated to protecting the woodland from ancient corruption. Wandering near the Shrine of Aessina, she rallies champions of the Alliance to push back against the vicious satyrs that plague the ancient groves. Her vigilance represents the enduring bond between the daughters of Cenarius and the night elven wilderness.",
+ "summary": "Near the Shrine of Aessina, Illiyana keeps watch over the woods of southwestern Ashenvale. The ancient dryad protects the woodland from corruption and calls on Alliance champions to drive back the satyrs.",
  "sections": [
   {
    "title": "Daughter of the Forest",
-   "body": "Like all dryads, Illiyana is one of the daughters of the demigod Cenarius. Peaceful yet fiercely protective of wild lands, she patrols the woods of southwestern Ashenvale. As dark forces stir and the woodlands suffer under creeping corruption, Illiyana keeps watch over sacred relics and groves, acting as a steward for nature's primal sanctity.",
+   "body": "Illiyana patrols the woods of southwestern Ashenvale as one of Cenarius's daughters. Dryads live in peace, yet fiercely defend wild lands. As corruption spreads through the woodland, Illiyana guards sacred relics and groves, keeping watch over nature's primal sanctity.",
    "spoiler": 0
   },
   {
    "title": "The Threat of the Satyr",
-   "body": "Illiyana's primary concern in the region is the lingering blight of the satyrs. These twisted, demonic creatures continuously seek to corrupt the glades and endanger her dryad sisters. Illiyana frequently enlists passing travelers to strike down these vile abominations and recover lost artifacts, including the Branch of Cenarius, to ensure the woods remain sheltered from demonic taint.",
+   "body": "Satyrs remain a threat to the glades and Illiyana's dryad sisters. These twisted, demonic creatures seek to corrupt the woods. Illiyana calls on travelers to slay them and recover lost relics, including the Branch of Cenarius, so the woodland stays free of demonic taint.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "illiyana ashenvale",
     "what is illiyana"
    ],
-   "answer": "Illiyana is a dryad found roaming southwestern Ashenvale near the Shrine of Aessina. As a daughter of Cenarius, she dedicates her existence to watching over the wildlands and protecting her sisters from demonic forces."
+   "answer": "Illiyana is a dryad who patrols southwestern Ashenvale near the Shrine of Aessina. A daughter of Cenarius, she watches over the wildlands and protects her sisters from demonic forces."
   },
   {
    "q": "Why does Illiyana keep walking while I talk to her?",
@@ -38,7 +38,7 @@
     "why does she walk away",
     "illiyana quest walking"
    ],
-   "answer": "Illiyana maintains an active patrol route through the woodland. Unlike stationary quest givers, she continues her watchful pacing through the grove even when engaging in conversation with travelers."
+   "answer": "Illiyana keeps to an active patrol route through the woodland. She continues pacing the grove while speaking with travelers."
   },
   {
    "q": "What tasks does Illiyana offer?",
@@ -46,7 +46,7 @@
     "illiyana quests",
     "forest song quests"
    ],
-   "answer": "She calls upon adventurers to hunt down vile satyrs that menace the region and to recover sacred relics like the Branch of Cenarius to safeguard her fellow dryads."
+   "answer": "Illiyana calls on travelers to hunt the satyrs menacing the region and recover sacred relics such as the Branch of Cenarius to protect her fellow dryads."
   },
   {
    "q": "Where is Illiyana located?",
@@ -55,7 +55,7 @@
     "where to find illiyana",
     "forest song dryad location"
    ],
-   "answer": "She patrols near the Shrine of Aessina in southwestern Ashenvale, keeping watch along the paths and nearby groves."
+   "answer": "Illiyana patrols near the Shrine of Aessina in southwestern Ashenvale, watching the paths and nearby groves."
   },
   {
    "q": "Why are the dryads in danger from satyrs?",
@@ -63,7 +63,7 @@
     "why do satyrs hate dryads",
     "dryads and satyr lore"
    ],
-   "answer": "Satyrs are ancient night elves warped by demonic corruption who delight in defiling nature and subjugating Cenarius's children. Dryads represent the pure, untainted beauty of the forest, making them prime targets for satyr malice."
+   "answer": "Satyrs are ancient night elves warped by demonic corruption. They delight in defiling nature and subjugating Cenarius's children, making dryads targets of their malice."
   },
   {
    "q": "Does Illiyana help the Horde?",
@@ -71,21 +71,21 @@
     "is illiyana hostile to horde",
     "can horde talk to illiyana"
    ],
-   "answer": "No. Illiyana is allied with the Night Elves and the broader Alliance. Horde members venturing into her glade will find her and her allies hostile."
+   "answer": "No. Illiyana is allied with the Night Elves and the Alliance. Horde members who enter her glade will find her and her allies hostile."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "For the Kaldorei, dryads like Illiyana are sacred kin of Cenarius, revered protectors whose call to arms against demonic satyrs is answered without hesitation."
+   "text": "For the Kaldorei, dryads like Illiyana are sacred kin of Cenarius and protectors of the wild. Their call to arms against demonic satyrs is answered without hesitation."
   },
   {
    "target": "class:Druid",
-   "text": "Druids hold dryads in high regard as embodiments of the wild, and helping Illiyana preserve the sanctified glades aligns directly with the Cenarion duty to heal the land."
+   "text": "Druids honor dryads as embodiments of the wild. Helping Illiyana preserve the sanctified glades serves the Cenarion duty to heal the land."
   },
   {
    "target": "faction:Alliance",
-   "text": "Illiyana represents a vital woodland ally in southwestern Ashenvale, offering shelter and guidance to Alliance forces securing the wilderness against encroaching evils."
+   "text": "Illiyana is a woodland ally in southwestern Ashenvale. She offers shelter and guidance to Alliance forces protecting the wilderness from encroaching evils."
   }
  ],
  "keywords": [
@@ -108,5 +108,6 @@
  ],
  "attribution": [
   "Illiyana"
- ]
+ ],
+ "style": 1
 }

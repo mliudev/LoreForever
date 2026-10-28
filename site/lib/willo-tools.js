@@ -12,6 +12,7 @@ import { helpTopics, helpQuestion, clientFrom, keepsAsked } from "./willo-help.j
 import { voiceLabel, voicePhrase } from "./character-voices.js";
 import { PROFESSIONS, STANDINGS } from "./willo-goals.js";
 import CONTRACT from "./willo-actions.js";
+import { wordsOf, near, heardWords, heardIn } from "./heard.js";
 
 export { CONTRACT };
 
@@ -124,6 +125,10 @@ export const TALK_KEYS = Object.fromEntries([
 const titled = id => id.charAt(0).toUpperCase() + id.slice(1);
 // A voice as players read it: "Moonwell", or a voice of Azeroth's ("Dwarf, man"; in a sentence "a dwarf man's voice").
 const voiceName = id => voiceLabel(id) || titled(id);
+// Which voice "switch back" means, named in set_voice's words: the model, told only the state's "voice before" line,
+// picked another voice 6 times in 9 (the lab, 10/27).
+const backTo = (before, picks) => before && picks.includes(before)
+  ? ` "Switch back", "the other one", "your old voice" or "how it was" is ${before} (${voiceName(before)}), the voice before this one.` : "";
 const voiceSaid = id => voicePhrase(id) || titled(id);
 
 // What the answer is told when it's offered actions: a few lines, so the answer costs about the same.
@@ -137,6 +142,34 @@ export const ACTION_RULES = "WILLO ACTIONS: besides answering, you can do the th
 export const OWN_TOOLS_RULE = "Your app's tools change only your own things: how you talk and listen, your voice, " +
   "your keys, your remarks, your look, your Settings. The game's own keybinds, sounds, music, options, windows and " +
   "actions are never yours to change or open: answer those in words, with no call.";
+// What she can change for them right now, from the tools this answer offers (LOR-856 A2): "I can't change my own
+// color, I'm a blue wisp" and "I can't erase your notes from there" both came with the tool offered (Mike's QA, 10/27).
+// A grouped tool by the operations it offers; with WILLO STATE's color and voice, so she knows how she is now.
+const CAN_DO = {
+  "look:color": "change your color (any swatch, or a color of their own)", "look:wisp_show": "show or hide your wisp",
+  "look:size": "make your wisp bigger or smaller", "talk:voice": "switch your voice", set_voice: "switch your voice",
+  "talk:off": "turn talking with you on or off", "talk:key": "move your talk key", set_talk_key: "move your talk key",
+  "talk:engine": "speak in your full voice, the computer's voice or in words only", "remarks:level": "chime in more or less often",
+  "remarks:chirps_off": "turn your chirps on or off", "chats:list": "find, open, rename and delete their past chats",
+  new_chat: "start a new chat", "settings:open": "show any card of your Settings", open_settings: "show any card of your Settings",
+  "player:play": "play, pause and skip the Lore Player", "memory:remember": "remember things about them, and forget any or all of it",
+  notebook: "write, tick off, change, move and remove lines in their notebook, and set reminders",
+  notebook_add: "write lines in their notebook", notebook_check: "tick lines off in their notebook",
+  notebook_remove: "take lines out of their notebook", notebook_remind: "set reminders", goal: "set, change and drop their goals",
+  goal_set: "set and change their goals", pin: "pin where they stand on their map", notebook_pin: "pin where they stand on their map",
+  keeps: "erase what you keep of them (one kind, or everything, read back first) and stop keeping their questions",
+  set_style: "change how you talk", message_friend: "send one of their friends a message", friends_change: "add, remove and block friends",
+};
+export function canDoLine(offered, state = "") {
+  const keys = (offered || []).flatMap(d => [d.name, ...(d.parameters?.properties?.op?.enum || []).map(op => `${d.name}:${op}`)]);
+  const can = [...new Set(keys.map(k => CAN_DO[k]).filter(Boolean))];
+  const color = /\bcolor: ([#\w]+)/.exec(String(state || ""))?.[1];
+  const voice = /^voice now: ([^(\n]+)/m.exec(String(state || ""))?.[1]?.trim();
+  const now = [color && `your color is ${color.startsWith("#") ? `a color of their own (${color})` : CONTRACT.lists.colors[color] || color}`,
+    voice && `you speak as ${voice}`].filter(Boolean);
+  return [can.length && `WHAT YOU CAN DO FOR THEM NOW, with your tools: ${can.join("; ")}. Asked whether you can, say yes.`,
+    now.length && `HOW YOU ARE NOW: ${now.join(", and ")}.`].filter(Boolean).join("\n");
+}
 // Asked out loud: the wisp never sells.
 export const SPOKEN_ACTION_RULE = "Out loud, never name a plan or a price.";
 
@@ -170,8 +203,8 @@ export function freeKey(state) {
 // the only time she offers to turn it on; sight: the plan lets her see the game (Hero and up while plans are sold);
 // spoken: asked out loud, so nothing about money; plans: the site sells plans; client: the companion's X-LF-Client, for
 // the sections only some have (SECTIONS from; null: all); asked: the question, for set_voice only when it asks for
-// another voice (WANTS_VOICE; null: any).
-export function actionsFor(topics, { voices = [], current = "", key = "", liveOff = false, fixable = false,
+// another voice (WANTS_VOICE; null: any); before: the voice she spoke in before this one (WILLO STATE's "voice before").
+export function actionsFor(topics, { voices = [], current = "", before = "", key = "", liveOff = false, fixable = false,
   off = {}, sight = true, spoken = false, plans = false, client = null, asked = null } = {}) {
   const on = new Set(topics || []);
   const has = id => ACTIONS[id].topics.some(t => on.has(t)) && !(ACTIONS[id].money && (spoken || !plans));
@@ -197,7 +230,7 @@ export function actionsFor(topics, { voices = [], current = "", key = "", liveOf
       "This shows them how it works, and they turn it on themselves." });
   if (has("set_voice") && picks.length && wantsVoice(asked, picks)) out.push({ name: "set_voice",
     description: "Switch your voice to another of the voices their plan has" + (picks.some(v => voiceLabel(v))
-      ? ": your own, or one you borrow from Azeroth's peoples, by people and gender (dwarf-male)." : "."),
+      ? ": your own, or one you borrow from Azeroth's peoples, by people and gender (dwarf-male)." : ".") + backTo(before, picks),
     parameters: { type: "object", properties: { voice: { type: "string", enum: picks } }, required: ["voice"] } });
   if (keyed) out.push({ name: "set_talk_key",
     description: `Move your talk key to ${TALK_KEYS[key]}, which the game doesn't use.`,
@@ -313,6 +346,7 @@ function choices(arg, lists = {}) {
   if (arg.list === "voices") return (lists.voices || []).map(v => [v, voiceName(v)]);
   if (arg.list === "chats") return (lists.chats || []).map(t => [t, t]);
   if (arg.list === "sections") return Object.entries(CONTRACT.lists.sections).map(([s, c]) => [s, c.label]);
+  if (arg.list === "colors") return Object.entries(CONTRACT.lists.colors);
   const list = CONTRACT.lists[arg.list] || [];
   return (Array.isArray(list) ? list : Object.keys(list)).map(v => [v, v.replace(/_/g, " ")]);
 }
@@ -346,10 +380,15 @@ export function fitsOffer(question, offer, said = "") {
   const own = new Set(`${offer?.label || ""} ${said}`.toLowerCase().match(/[\p{L}\d']+/gu) || []);
   return (rest.toLowerCase().match(/[\p{L}\d']+/gu) || []).every(w => WITH_YES.has(w) || own.has(w) || w.length < 3);
 }
+// Whether a no she read is a no: their words have one of the ways a no is said. "will I lose this one?" after her new
+// chat offer, and "yes, I finished the Defias quest" after a voice one, came back as no (the lab, 10/27: 2 of 58).
+const NO_WORDS = /\b(?:no|nah|nope|naw|not|don'?t|never|stop|cancel|leave|keep|skip|pass|rather|later|wait|hold|mind|neither|nothing|stay|as is|fine|all (?:set|good)|(?:it|that|i)'?(?:s|m)? (?:fine|ok(?:ay)?|good)|i'?m (?:good|fine|ok(?:ay)?))\b/i;
+export const fitsNo = question => NO_WORDS.test(String(question || "").replace(/’/g, "'"));
 // The one a spoken yes sends out (a screenshot to a friend): only a short plain yes, never one with a question in it
 // (the Architect, 10/26); otherwise she asks "Send it?" once.
-// Her try that took their words as a yes to the offer, though they're about something else, goes back once with this.
-export const offerNote = offer => `YOUR LAST TRY: you took their words as a yes to your offer (${offer.label}), but they're about something else, so nothing is done and the offer still stands. Answer again: answer what they said in one or two short sentences, then ask once more if they'd like it, and call ${OFFER_REPLY} with reply "about" and that answer.`;
+// Her try that took their words as a yes (or a no) to the offer, though they're about something else, goes back once
+// with this.
+export const offerNote = (offer, reply = "yes") => `YOUR LAST TRY: you took their words as a ${reply} to your offer (${offer.label}), but they're about something else, so nothing is done and the offer still stands. Answer again: answer what they said in one or two short sentences, then ask once more if they'd like it, and call ${OFFER_REPLY} with reply "about" and that answer.`;
 export const SENDS = new Set(["capture_game_to_friend"]);
 export const plainYes = question => !/\?/.test(question) && String(question || "").trim().split(/\s+/).length <= 6;
 // Her one tool for that reply. yes and no are said in the site's words (the app does it, or lets it go); about keeps
@@ -431,23 +470,102 @@ export function toolDeclaration(id, capabilities, lists = {}) {
   for (const op of ops) for (const [name, arg] of given(op)) {
     if (properties[name]) continue;
     const picks = arg.list ? choices(arg, lists).map(([v]) => v) : null;
+    // All her talk keys said as one line, not a 33-name enum in each tool that takes one (LOR-856: tokens per answer);
+    // the few a Mac hears stay an enum, which groupedOf holds her call to.
     properties[name] = arg.text ? { type: "string", description: `At most ${arg.text} letters, in the player's words.` }
-      : arg.or === "hex" ? { type: "string", description: `One of ${picks.join(", ")}, or any color as #rrggbb.` }
-      : { type: "string", enum: picks };
+      : arg.list === "talk_keys" && !lists.keys
+        ? { type: "string", description: `One of ${keysSaid(picks)}.${arg.pick ? ` ${PICK_SAID}` : ""}` }
+      // Each swatch with its name ("fel (Fel green)"): told only "fel", she took "switch to fel green" for none of hers.
+      : arg.or === "hex" ? { type: "string", description: `One of ${choices(arg, lists).map(([v, w]) => w === v ? v : `${v} (${w})`)
+        .join(", ")}, or any other color as #rrggbb.${arg.pick ? ` ${PICK_SAID}` : ""}` }
+      : { type: "string", enum: picks, ...(arg.pick ? { description: PICK_SAID } : {}) };
   }
-  return { name: id, description: `${titled(tool.what)}. op: ` + ops.map(op => `${op}, ${tool.ops[op].what}` +
-      (given(op).length ? ` (${given(op).map(([name]) => name).join(", ")})` : "")).join("; ") + ".",
+  return { name: id, description: `${titled(tool.what)}. op: ` + ops.map(op => `${op}, ${tool.ops[op].what}`).join("; ") + "." +
+      (ops.includes("voice") ? backTo(lists.before, lists.voices || []) : ""),
     parameters: { type: "object", properties, required: ["op"] } };
 }
 
+// A value that's theirs to pick (LOR-856 A4): she leaves it out unless they named one.
+const PICK_SAID = "Only one they named (or, to switch back, the one before); leave it out when they named none, and " +
+  "they're shown the choices.";
+
+// The talk keys as a line: the F keys as a run ("f5 to f24"), then the rest.
+function keysSaid(keys) {
+  const f = keys.filter(k => /^f\d+$/.test(k)).map(k => Number(k.slice(1)));
+  const run = f.length > 2 && f.every((n, i) => !i || n === f[i - 1] + 1) ? [`f${f[0]} to f${f.at(-1)}`] : f.map(n => `f${n}`);
+  return [...run, ...keys.filter(k => !/^f\d+$/.test(k))].join(", ");
+}
+
 // The words on a grouped tool's button: its label, with each {argument} as the player reads it.
+// Each {argument} as the player reads or hears it.
+const SAID_ARG = {
+  key: k => TALK_KEYS[k] || k, voice: voiceName, chord: c => c.split("+").map(titled).join("+"),
+  section: s => CONTRACT.lists.sections[s]?.label || s, color: c => c.startsWith("#") ? "that color" : CONTRACT.lists.colors[c] || titled(c),
+};
+const filled = (template, args) => template.replace(/\{(\w+)\}/g, (_, name) => (SAID_ARG[name] || String)(args[name] ?? ""));
 function opLabel(id, op, args) {
-  const said = {
-    key: k => TALK_KEYS[k] || k, voice: voiceName, chord: c => c.split("+").map(titled).join("+"),
-    section: s => CONTRACT.lists.sections[s]?.label || s, color: c => c.startsWith("#") ? "that color" : titled(c),
-  };
-  return CONTRACT.tools[id].ops[op].label.replace(/\{(\w+)\}/g, (_, name) => (said[name] || String)(args[name] ?? ""))
-    .slice(0, 60);
+  return filled(CONTRACT.tools[id].ops[op].label, args).slice(0, 60);
+}
+
+// What she says once a change done at once has run (LOR-856 A3): the contract's done line for it, from what it set,
+// never her own words about it ("Yes, I'm speaking as Sprite now" for a switch to Moonwell, Mike's QA 10/27). A line
+// per value ({hosted: …}) goes by its one argument. null for one with none (it opens a card, or says it again).
+export function doneLine(action) {
+  const tool = CONTRACT.tools[action?.id];
+  const spec = tool?.ops ? tool.ops[action.args?.op] : tool;
+  const done = spec?.done;
+  if (!done) return null;
+  if (typeof done === "string") return capitalized(filled(done, action.args || {}));
+  const value = Object.entries(action.args || {}).find(([k]) => k !== "op")?.[1];
+  return done[value] || null;
+}
+const capitalized = s => s.charAt(0).toUpperCase() + s.slice(1);
+
+// Loose matching of a value heard or written against a list (LOR-856 A4, lib/heard.js): "fell green" is fel, "moon
+// well" Moonwell.
+// The one of pairs ([value, words]) that value names, or null: the same, or every word of it close to one of a choice's,
+// or all of it as one word ("moon well").
+function matchChoice(value, pairs) {
+  const said = wordsOf(value).join(" ");
+  const same = pairs.find(([v, w]) => wordsOf(v).join(" ") === said || wordsOf(w).join(" ") === said);
+  if (same) return same[0];
+  const words = wordsOf(value), joined = words.join("");
+  const fits = words.length ? pairs.filter(([v, w]) => words.every(x => wordsOf(`${v} ${w}`).some(y => near(x, y)))
+    || wordsOf(`${v} ${w}`).some(y => near(joined, y))) : [];
+  return fits.length === 1 ? fits[0][0] : null;
+}
+// Words of a choice's name that say nothing of which one it is (her own name, "voice", "color").
+const PLAIN_CHOICE = new Set(["willo", "willow", "voice", "color", "colour", "own", "the", "and", "her", "his"]);
+// Words that only ask for a change, naming none: "can you change your color to something else?"
+const ONLY_ASKS = new Set(("can could would will you your yours yourself please change switch swap try make be turn set use " +
+  "pick choose a an the to into another different new other some something else one color colour voice look sound " +
+  "willo willow hey so um ok okay now me i want like would how about maybe just").split(" "));
+const BACK = /\b(?:back|before|previous|last one|old one|other one|again|returned?|undo)\b/i;
+// A change whose value is theirs to pick (willo-actions.json "pick": her voice, her color; LOR-856 A4), when it lacks one
+// they named: {ask, card}, the choices to pick from (her Settings card for them, where the app opens it) and her
+// question which; null when the value is theirs (named, matched loosely, or the voice before on "switch back") or the
+// action picks nothing. "Can you change your voice?" switched her to Moonwell (Mike's QA, 10/27).
+export function choicesFor(action, { question = "", before = null, capabilities = "", voices = [] } = {}) {
+  const tool = CONTRACT.tools[action?.id];
+  const spec = tool?.ops ? tool.ops[action.args?.op] : null;
+  const [name, arg] = Object.entries(spec?.args || {}).find(([, a]) => a.pick) || [];
+  if (!arg) return null;
+  const value = action.args[name];
+  if (typeof value === "string" && value) {
+    const own = wordsOf(`${value} ${(SAID_ARG[name] || String)(value)}`).filter(w => !PLAIN_CHOICE.has(w));
+    const heard = heardWords(question);
+    if (own.some(w => heardIn(w, heard))) return null;
+    if (name === "voice" && value === before && BACK.test(question)) return null;
+    // A color of their own (#rrggbb) from words of theirs that aren't only the ask ("deep purple").
+    if (value.startsWith("#") && heard.some(h => !ONLY_ASKS.has(h))) return null;
+  }
+  const card = canRun(capabilities, "settings", "open") && CONTRACT.lists.sections[arg.pick.section]
+    ? { id: "settings", args: { op: "open", section: arg.pick.section }, label: CONTRACT.lists.sections[arg.pick.section].label }
+    : null;
+  // Her voices said by name (out loud there's no card to read): "Which voice would you like: Sprite, Moonwell or Sunbeam?"
+  const named = arg.list === "voices" && voices.length > 1 && voices.length <= 6 ? voices.map(voiceName) : null;
+  const ask = named ? `Which voice would you like: ${named.slice(0, -1).join(", ")} or ${named.at(-1)}?` : arg.pick.ask;
+  return { ask, card };
 }
 
 // A grouped tool's call as its action ({id, args: {op, ...}, label}), or null: an operation or argument outside what
@@ -459,12 +577,18 @@ function groupedOf(declared, given) {
   const args = { op };
   for (const [name, arg] of Object.entries(tool.ops[op].args || {})) {
     if (arg.site) continue;                             // filled in after her call (lib/willo-memory-tool.js)
-    const value = typeof given[name] === "string" && given[name].trim() ? given[name] : arg.default;
+    let value = typeof given[name] === "string" && given[name].trim() ? given[name] : arg.default;
     if ((typeof value !== "string" || !value.trim()) && arg.optional) continue;   // the site fills it in (a forget's words)
+    // None named of a value that's theirs to pick: the choices, below (choicesFor), never one of hers.
+    if ((typeof value !== "string" || !value.trim()) && arg.pick) return { id: declared.name, args, label: "" };
     if (typeof value !== "string" || !value.trim()) return null;
-    if (props[name].enum ? !props[name].enum.includes(value)
-      : arg.or === "hex" && !CONTRACT.lists[arg.list].includes(value) && !/^#[0-9a-f]{6}$/i.test(value.trim())) return null;
-    args[name] = props[name].enum ? value : value.trim().replace(/\s+/g, " ").slice(0, arg.text || 300);
+    // A value that's theirs, matched loosely against its list ("fell green" is fel).
+    if (arg.pick && !(props[name].enum || choices(arg).map(([v]) => v)).includes(value) && !/^#[0-9a-f]{6}$/i.test(value.trim()))
+      value = matchChoice(value, props[name].enum ? props[name].enum.map(v => [v, (SAID_ARG[name] || String)(v)]) : choices(arg)) ?? value;
+    const key = arg.list === "talk_keys" ? value.trim().toLowerCase() : null;
+    if (props[name].enum ? !props[name].enum.includes(value) : key !== null ? !Object.hasOwn(TALK_KEYS, key)
+      : arg.or === "hex" && !choices(arg).some(([v]) => v === value) && !/^#[0-9a-f]{6}$/i.test(value.trim())) return null;
+    args[name] = props[name].enum ? value : key ?? value.trim().replace(/\s+/g, " ").slice(0, arg.text || 300);
   }
   return { id: declared.name, args, label: opLabel(declared.name, op, args) };
 }
@@ -602,6 +726,9 @@ export const BOOK_TOOLS_RULE = "YOUR NOTEBOOK, GOALS AND PINS: call notebook, go
   "to pin a spot, or to hear their reminders, pins or goals. It's done at once, so then say in one short line in your " +
   "own voice what you did, naming it (\"Noted: a stack of silk for the bank.\"). Ticking off is for something done; " +
   "taking off a line is remove; making lines one (combining them) is merge. A reminder needs a moment (a place, a level or a time); without one it's a to-do. " +
+  // LOR-856 A6: "forget the notes that I have" got "both lines, or just one?" with one note on the page.
+  "When their words and NOTEBOOK leave no doubt which lines (\"tick them all\": every open to-do; \"forget my notes\": " +
+  "every note; the only one there), call it for those lines; ask which only when two or more fit and their words pick none. " +
   "Questions about what's in it and things they only mention (\"I need 10 linen cloth\") call none. Only what they " +
   "ask for: never one they didn't, even one you think would help, and never one in place of something you can't do " +
   "(buying, selling, playing for them): say so, and offer it in words if it helps.";
@@ -661,7 +788,13 @@ const TALKS = /\b(?:talk\w*|speak\w*|voice|mic(?:rophone)?|listen\w*|hear\w*|out
 // "remember to…" (a to-do), "forget that" and "never mind" never touch it (the Architect, 10/26).
 const LEAD = String.raw`(?:^|[.!?,;:]\s*)(?:(?:hey|hi|ok|okay|so|and|also|oh|um+|uh+|hmm+|well)[,!.]?\s+)*(?:willow?[,!.]?\s+)?` +
   String.raw`(?:please\s+)?(?:(?:can|could|will|would)\s+you\s+(?:please\s+)?|i (?:want|need) you to\s+|i'?d like you to\s+)?`;
-const FORGET_ASK = /(?<!\b(?:don'?t|do not|never)\s+)\b(?:forget|let go of|stop remembering|unremember)\b/i;
+const FORGET_ASK = /(?<!\b(?:don'?t|do not|never)\s+)\b(?:forget|let go of|stop remembering|unremember)\b|\b(?:(?:don'?t|do not|no longer) need to|no need to) remember\b/i;
+// A forget that points at what she keeps of them ("forget that I…", "forget about my mount", "what I said", "you don't
+// need to remember that I…"), or one that's all they said ("let go of the spoiler thing"). One said in passing on the
+// way to something else is a change of plans, theirs to talk about: "Forget about Westfall, let's head to Duskwood"
+// got her forget on "I play in the evenings, mostly Westfall", 1 time of 2 (the lab, 10/27).
+export const FORGET_MINE = /\b(?:forget|let go of|stop remembering|(?:don'?t|do not|no longer) need to remember|no need to remember)\s+(?:(?:all(?:\s+the\s+stuff)?|everything|the\s+stuff|the\s+things?)\s+)?(?:about\s+)?(?:that\s+)?(?:i\b|i'[a-z]+\b|my\b|me\b|what i (?:said|told you)\b)/i;
+const MOVES_ON = /[.!?;]\s*\S|\?|\binstead\b|,\s*(?:let'?s|lets|and|but|so|then|now|time to|we|we'?re|i'?ll|where|what|how|which|who|can|could|should)\b/i;
 const FORGET_BARE = /^\W*(?:(?:oh|ok|okay|nah|no|um+|uh+|hmm+|well|actually|just|willow?)\W+)*(?:(?:forget (?:it|that|this|that one|about (?:it|that)|i (?:said|asked)(?: that)?|what i (?:said|asked))|never ?mind)\W*)+$/i;
 // Everything she keeps of the player, never everything about someone or something else ("forget everything about my
 // brother" is a forget of those, the Architect, 10/26): after "everything" only "you know", "I told you", "about me".
@@ -678,7 +811,7 @@ const MEMORY_ASKED = {
   // Something about the player themselves (KEEPS_MINE), never a rule for her ("remember that you can tell me
   // spoilers", kept by DeepSeek in the phase 1 lab, 10/27).
   "memory.remember": mine(q => KEEPS_MINE.test(q)),
-  "memory.forget": mine(q => FORGET_ASK.test(q) && !FORGET_BARE.test(q)),
+  "memory.forget": mine(q => FORGET_ASK.test(q) && !FORGET_BARE.test(q) && (FORGET_MINE.test(q) || !MOVES_ON.test(q))),
   "memory.forget_all": mine(q => FORGET_ALL_ASK.test(q)),
   "memory.list": mine(q => LIST_ASK.test(q)),
 };

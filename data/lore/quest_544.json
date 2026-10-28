@@ -24,16 +24,16 @@
    "City of Dalaran quests"
   ]
  },
- "summary": "Magus Wordeen Voidglare is in Tarren Mill on research but now faces a crisis. A few months ago four Forsaken fled the Undercity after stealing artifacts from a secure vault, and Sylvanas wants them back.",
+ "summary": "In Tarren Mill, Magus Wordeen Voidglare faces a crisis during his research. Months ago, four Forsaken fled the Undercity with artifacts stolen from a secure vault, and Sylvanas wants them back.",
  "sections": [
   {
    "title": "Thieves of the Dark Lady",
-   "body": "Voidglare came to Tarren Mill to research and now must resolve a crisis. Four Forsaken turned their backs on their brethren and, worse, stole from the Dark Lady. They broke into a secure vault and took four artifacts the apothecaries required for certain studies. Sylvanas wants them returned.",
+   "body": "Magus Wordeen Voidglare came to Tarren Mill to research, but now a crisis demands his attention. Four Forsaken turned from their brethren and stole from the Dark Lady. They broke into a secure vault and took four artifacts the apothecaries need for certain studies. Sylvanas wants them returned.",
    "spoiler": 0
   },
   {
    "title": "The Internment Camp",
-   "body": "The thieves ran from the Undercity to Dalaran, where the wizards put them in quarantine at the Lordamere Internment Camp. You are to find the traitors, take back the artifacts and report to Voidglare in Tarren Mill. There are four: a Bloodstone Wedge, Marble, Shard and Oval. Dermot has the wedge, Ricter the marble, Alina the shard and Kegan Darkmar the oval.",
+   "body": "The thieves fled the Undercity for Dalaran, where its wizards placed them in quarantine at the Lordamere Internment Camp. You are sent to find the traitors, recover the artifacts and report to Voidglare in Tarren Mill. There are four: a Bloodstone Wedge, Marble, Shard and Oval. Dermot holds the wedge, Ricter the marble, Alina the shard and Kegan Darkmar the oval.",
    "spoiler": 0
   }
  ],
@@ -45,7 +45,7 @@
     "wordeen voidglare",
     "quest giver"
    ],
-   "answer": "A magus who is in Tarren Mill on research and now faces a crisis: four artifacts stolen from the Dark Lady."
+   "answer": "Magus Wordeen Voidglare came to Tarren Mill to research, but now faces a crisis over four artifacts stolen from the Dark Lady."
   },
   {
    "q": "What did the Forsaken thieves steal?",
@@ -54,7 +54,7 @@
     "bloodstones",
     "stolen artifacts"
    ],
-   "answer": "Four artifacts from a secure vault that the apothecaries required for certain studies: a Bloodstone Wedge, Marble, Shard and Oval."
+   "answer": "The Forsaken stole four artifacts from a secure vault, needed by the apothecaries for certain studies: a Bloodstone Wedge, Marble, Shard and Oval."
   },
   {
    "q": "Where are the thieves being held?",
@@ -63,7 +63,7 @@
     "where are the traitors",
     "where is kegan"
    ],
-   "answer": "At the Lordamere Internment Camp, where the Dalaran wizards put them in quarantine."
+   "answer": "The Dalaran wizards are holding the thieves in quarantine at the Lordamere Internment Camp."
   },
   {
    "q": "Who are the four traitors?",
@@ -72,7 +72,7 @@
     "four forsaken",
     "who stole the bloodstones"
    ],
-   "answer": "Dermot holds the Bloodstone Wedge, Ricter the Marble, Alina the Shard and Kegan Darkmar the Oval."
+   "answer": "The four traitors are Dermot, who holds the Bloodstone Wedge; Ricter, who holds the Marble; Alina, who holds the Shard; and Kegan Darkmar, who holds the Oval."
   }
  ],
  "angles": [],
@@ -99,5 +99,6 @@
  ],
  "attribution": [
   "Prison Break In"
- ]
+ ],
+ "style": 1
 }

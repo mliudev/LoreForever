@@ -10,11 +10,11 @@
    "quest:6462"
   ]
  },
- "summary": "Troll Charms are sacred spiritual amulets carried by the Darkspear trolls. A collection of them was recently looted by hostile Thistlefur furbolgs after an ambush along the northern reaches of Ashenvale.",
+ "summary": "In Ashenvale, Troll Charms have been taken from fallen Darkspear travelers. The Thistlefur furbolgs seized the sacred amulets after ambushing the party on its way to Zoram'gar Outpost.",
  "sections": [
   {
    "title": "Sacred Trinkets of the Darkspear",
-   "body": "To the trolls of the Horde, spiritual charms are far more than mere ornamentation. As the scout Mitsuwa explains, a troll without their charm is considered as diminished as an orc without battle scars. When a party of Darkspear kin journeyed toward Zoram'gar Outpost through the dense canopy of Ashenvale, they were ambushed and slaughtered by the corrupted Thistlefur furbolgs. While their spirits were commended to the afterlife, the furbolgs looted the dead and carried off their sacred charms as trophies, stashing them in chests deep within Thistlefur Hold.",
+   "body": "Darkspear trolls carry spiritual charms as marks of dignity. Scout Mitsuwa says a troll without one is as diminished as an orc without battle scars. A party of Darkspear kin traveled through Ashenvale's canopy toward Zoram'gar Outpost when corrupted Thistlefur furbolgs ambushed and slaughtered them. Their spirits were commended to the afterlife, while the furbolgs took the charms as trophies and stashed them in chests deep within Thistlefur Hold.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "troll charm lore",
     "why do trolls carry charms"
    ],
-   "answer": "Troll Charms serve as sacred cultural and spiritual wards for Darkspear trolls. Carrying such talismans is an essential mark of personal and spiritual dignity among their people."
+   "answer": "Darkspear trolls carry Troll Charms as sacred spiritual wards and marks of personal dignity."
   },
   {
    "q": "Where are these charms found?",
@@ -35,7 +35,7 @@
     "how to find troll charm",
     "troll chest location"
    ],
-   "answer": "They are locked away inside chests scattered within Thistlefur Hold, a cavern system nestled behind Thistlefur Village in northern Ashenvale."
+   "answer": "The charms are locked in chests within Thistlefur Hold, a cavern system behind Thistlefur Village in northern Ashenvale."
   },
   {
    "q": "Why do the furbolgs have these charms?",
@@ -43,7 +43,7 @@
     "why furbolgs have them",
     "who stole the charms"
    ],
-   "answer": "A group of Darkspear travelers were ambushed and killed by the Thistlefur clan before they could safely reach Zoram'gar Outpost. The furbolgs ransacked their belongings and kept the charms."
+   "answer": "Thistlefur furbolgs ambushed and killed Darkspear travelers bound for Zoram'gar Outpost, then ransacked their belongings and kept the charms."
   },
   {
    "q": "Who wants the charms back?",
@@ -51,17 +51,17 @@
     "who takes the charms",
     "mitsuwa quest"
    ],
-   "answer": "Mitsuwa, a Darkspear troll stationed at Zoram'gar Outpost on the Zoram Strand, seeks their recovery to restore honor to his slain kin."
+   "answer": "Mitsuwa, a Darkspear troll stationed at Zoram'gar Outpost on the Zoram Strand, seeks the charms to restore honor to his slain kin."
   }
  ],
  "angles": [
   {
    "target": "race:Troll",
-   "text": "For Darkspear trolls, leaving sacred charms in the clutches of savage furbolgs is an intolerable insult to the memory and spirit of fallen kin."
+   "text": "As a Darkspear troll, leaving sacred charms with savage furbolgs is an intolerable insult to your fallen kin."
   },
   {
    "target": "faction:Horde",
-   "text": "Recovering these stolen goods weakens the aggressive Thistlefur tribe while avenging Horde travelers cut down on Ashenvale's treacherous paths."
+   "text": "As a member of the Horde, recovering the stolen charms weakens the aggressive Thistlefur tribe and avenges Horde travelers slain on Ashenvale's treacherous paths."
   }
  ],
  "keywords": [
@@ -86,5 +86,6 @@
  "attribution": [
   "Troll Charm",
   "Troll Charm (quest)"
- ]
+ ],
+ "style": 1
 }

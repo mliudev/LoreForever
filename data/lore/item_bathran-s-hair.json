@@ -10,16 +10,16 @@
    "quest:1010"
   ]
  },
- "summary": "Bathran's Hair is a rare, delicate herb found among the ruins of Bathran's Haunt in northwestern Ashenvale. Celebrated in night elf lore for its potent restorative qualities, the plant is believed to mend afflictions of the spirit as well as the flesh.",
+ "summary": "Among the ruins of Bathran's Haunt in northwestern Ashenvale, Bathran's Hair remains a rare herb. Night elf healers value its power against afflictions of the flesh and spirit.",
  "sections": [
   {
    "title": "A Remedy for the Spirit",
-   "body": "Grown in the shadows of the ancient ruins north of Maestra's Post, Bathran's Hair has long been valued by night elf healers. Unlike common medicinal flora that soothe simple physical wounds, this herb possesses restorative properties said to cure deep ailments of the spirit. When a young night elf in Astranaar falls victim to an insidious, unyielding sickness, the herbalist Orendil Broadleaf seeks strands of this rare plant to brew a vital remedy.",
+   "body": "Bathran's Hair grows among the ancient ruins north of Maestra's Post, where night elf healers have long valued it. Common herbs soothe wounds of the body, but Bathran's Hair is said to restore the spirit as well. When a young night elf in Astranaar falls gravely ill, herbalist Orendil Broadleaf seeks the rare plant to prepare a remedy.",
    "spoiler": 0
   },
   {
    "title": "Gathering Amid the Ruins",
-   "body": "Finding Bathran's Hair has grown perilous. The herb is found gathered into discarded plant bundles and beneath leaf piles strewn across Bathran's Haunt, near the border of Darkshore. Adding to the danger, Forsaken have been seen among the ruins, news that Orendil Broadleaf finds very troubling indeed.",
+   "body": "Bathran's Hair is harder to find among the ruins. It lies in discarded plant bundles and beneath leaf piles scattered across Bathran's Haunt, near the border of Darkshore. Forsaken have also been seen among the ruins, news that troubles Orendil Broadleaf.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "bathrans hair purpose",
     "bathran hair use"
    ],
-   "answer": "The herb is used by night elf healers to treat severe afflictions that go beyond normal sickness. Specifically, Orendil Broadleaf combines it into a curative draft intended to mend a dying child whose spirit is wasting away."
+   "answer": "Night elf healers use Bathran's Hair against grave afflictions beyond ordinary sickness. Orendil Broadleaf combines it into a curative draft for a dying child whose spirit is wasting away."
   },
   {
    "q": "Where does Bathran's Hair grow?",
@@ -40,7 +40,7 @@
     "bathran hair location",
     "where is bathrans hair"
    ],
-   "answer": "It is found exclusively within Bathran's Haunt, an ancient ruined settlement in northern Ashenvale, east of the main road leading north into Darkshore."
+   "answer": "Bathran's Hair grows within Bathran's Haunt, an ancient ruined settlement in northern Ashenvale, east of the main road leading north into Darkshore."
   },
   {
    "q": "Why are the Forsaken interested in Bathran's Haunt?",
@@ -49,7 +49,7 @@
     "forsaken in bathrans haunt",
     "undead bathran"
    ],
-   "answer": "Orendil Broadleaf only learns that Forsaken are at Bathran's Haunt and finds it very troubling; what they want there is never explained. Elsewhere in Ashenvale, night elves report Forsaken lurking at their ruins and barrows and fear they mean to spread disease across the forest."
+   "answer": "Orendil Broadleaf learns that Forsaken are at Bathran's Haunt and finds their presence troubling, but what they want there is not explained. Elsewhere in Ashenvale, night elves report Forsaken at ruins and barrows, and fear they mean to spread disease across the forest."
   },
   {
    "q": "Who is Orendil Broadleaf?",
@@ -57,17 +57,17 @@
     "orendil broadleaf",
     "who wants bathran hair"
    ],
-   "answer": "Orendil Broadleaf is an herbalist stationed at Maestra's Post in western Ashenvale. He works diligently to study local flora and prepare medicines to heal travelers and wounded defenders of the forest."
+   "answer": "Orendil Broadleaf is an herbalist at Maestra's Post in western Ashenvale. He studies local plants and prepares medicines for travelers and wounded defenders of the forest."
   }
  ],
  "angles": [
   {
    "target": "profession:Herbalism",
-   "text": "Trained herbalists have a distinct advantage when locating Bathran's Hair, as their keen eye for wild flora allows them to sense the hidden plant bundles among the debris."
+   "text": "Trained herbalists can find Bathran's Hair more readily, sensing hidden plant bundles among the debris with a practiced eye for wild flora."
   },
   {
    "target": "race:NightElf",
-   "text": "For the Kaldorei, Forsaken turning up among the ruins where healing flora like Bathran's Hair still grows is a troubling sign for the preservation of their ancient homeland."
+   "text": "For the Kaldorei, Forsaken among the ruins where healing plants like Bathran's Hair grow trouble the preservation of their ancient homeland."
   }
  ],
  "keywords": [
@@ -91,5 +91,6 @@
  "attribution": [
   "Bathran's Hair",
   "Bathran's Hair (Classic)"
- ]
+ ],
+ "style": 1
 }

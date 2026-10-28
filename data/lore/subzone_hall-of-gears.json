@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Hall of Gears"
  },
- "summary": "The Hall of Gears is a multi-tiered industrial chamber situated inside the fallen city of Gnomeregan, just past the Clockwerk Run. Once a bustling center of mechanical movement, it has fallen into ruin, flooded with toxic sludge, roaming oozes, and irradiated troggs.",
+ "summary": "Beyond the Clockwerk Run, the Hall of Gears lies in ruin inside Gnomeregan. Toxic sludge fills its lower floor, while oozes and irradiated troggs roam the chamber.",
  "sections": [
   {
    "title": "A Fractured Machine",
-   "body": "Positioned just beyond the Clockwerk Run, the Hall of Gears illustrates the catastrophic collapse of the gnome capital. Divided into two main levels, the chamber's upper catwalks are held by aggressive, irradiated troggs that claw through collapsed access shafts. Below, the floor sits drenched in pools of radioactive fallout, where corrosive slimes and living poison elementals thrive in the toxic runoff.",
+   "body": "The Hall of Gears lies beyond the Clockwerk Run, deep in Gnomeregan’s ruined machinery halls. Its two levels show how completely the gnome capital has fallen. Irradiated troggs claw through collapsed access shafts and prowl the upper catwalks. Below, radioactive pools cover the floor, where corrosive slimes and living poison elementals thrive in the toxic runoff.",
    "spoiler": 0
   },
   {
    "title": "Pathways through the Waste",
-   "body": "The chamber serves as a critical junction deep within Gnomeregan's operational quarters. From its upper walkways, paths branch toward contaminated dead ends and the relative safety of the Clean Zone and the Dormitory. Descending into the radioactive depths below eventually leads travelers through winding maintenance passages toward the Launch Bay, though navigating either floor requires cutting through the lingering horrors of Mekgineer Thermaplugg's devastating venting scheme.",
+   "body": "The Hall of Gears links parts of Gnomeregan’s operational quarters. From the upper walkways, paths lead to contaminated dead ends, the Clean Zone, and the Dormitory. Below, winding maintenance passages lead toward the Launch Bay. Both levels remain dangerous because of the horrors left by Mekgineer Thermaplugg’s venting scheme.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "where is hall of gears",
     "how to get to hall of gears"
    ],
-   "answer": "The Hall of Gears lies deep inside the dungeon of Gnomeregan, directly following the Clockwerk Run. It connects further inward toward the Clean Zone, the Dormitory, and the Launch Bay."
+   "answer": "The Hall of Gears lies deep inside Gnomeregan, just beyond the Clockwerk Run. Paths from the chamber lead toward the Clean Zone, the Dormitory, and the Launch Bay."
   },
   {
    "q": "Why is the lower level full of radioactive sludge?",
@@ -37,7 +37,7 @@
     "radioactive waste hall of gears",
     "what is the sludge"
    ],
-   "answer": "When High Tinker Mekkatorque ordered the venting of radioactive gas to repel the trogg invasion, the contaminated runoff collected in the city's low-lying machinery halls, turning the lower floor of the Hall of Gears into a toxic wasteland."
+   "answer": "When High Tinker Mekkatorque ordered radioactive gas vented to repel the trogg invasion, contaminated runoff collected in the city’s low machinery halls. The lower floor of the Hall of Gears became a toxic wasteland."
   },
   {
    "q": "What creatures inhabit this chamber?",
@@ -46,7 +46,7 @@
     "what lives in hall of gears",
     "hall of gears mobs"
    ],
-   "answer": "The upper level is infested with mutated, irradiated troggs pouring through breach tunnels. The lower tier is filled with radioactive fallout slimes, oozes, and volatile poison elementals that formed from the industrial runoff."
+   "answer": "Irradiated troggs pour through breach tunnels onto the upper level. Below, radioactive fallout slimes, oozes, and volatile poison elementals formed from the industrial runoff."
   },
   {
    "q": "Where do the exits lead from here?",
@@ -54,17 +54,17 @@
     "hall of gears exits",
     "where to go from hall of gears"
    ],
-   "answer": "The upper walkways lead southwest toward the Clean Zone and the Dormitory, as well as a dead-end maintenance corridor to the southeast. The lower irradiated floor features a winding passage to the west that leads directly into the Launch Bay."
+   "answer": "The upper walkways lead southwest toward the Clean Zone and the Dormitory, and southeast to a dead-end maintenance corridor. A winding passage west from the lower floor leads to the Launch Bay."
   }
  ],
  "angles": [
   {
    "target": "race:Gnome",
-   "text": "Seeing the massive cogs and catwalks submerged in irradiated sludge is a painful reminder of the desperate decision that poisoned the city and drove the gnome race into exile."
+   "text": "As a gnome, seeing the great cogs and catwalks submerged in irradiated sludge recalls the desperate decision that poisoned your city and drove your people into exile."
   },
   {
    "target": "profession:Engineering",
-   "text": "The sheer scale of the automated gearing and elevated platforms displays the pinnacle of pre-fall gnomish engineering, though now heavily corroded by radioactive fallout."
+   "text": "As an engineer, you can see the scale of pre-fall gnomish gearing and elevated platforms, now heavily corroded by radioactive fallout."
   }
  ],
  "keywords": [
@@ -88,5 +88,6 @@
  ],
  "attribution": [
   "Hall of Gears"
- ]
+ ],
+ "style": 1
 }

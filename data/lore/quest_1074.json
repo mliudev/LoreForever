@@ -17,16 +17,16 @@
   "wiki": "Ineptitude + Chemicals = Fun (2)",
   "chain": []
  },
- "summary": "This errand delivers a canister of volatile NG-5 from the tinker Lomac Gearstrip to Gaxim Rustfizzle in the Stonetalon Mountains. Gaxim requires this unstable chemical to create a potent igniter for several wagons packed with dynamite. The resulting blast forms a critical distraction for Alliance operations in the disputed crags.",
+ "summary": "Lomac Gearstrip sends volatile NG-5 to Gaxim Rustfizzle in the Stonetalon Mountains. Gaxim needs the chemical to ignite several wagons packed with dynamite, creating a distraction for Alliance operations in the disputed crags.",
  "sections": [
   {
    "title": "A Volatile Delivery",
-   "body": "Gnomish engineering often balances brilliance on the razor edge of catastrophe, and Nitromirglyceronium\u2014or NG-5\u2014is no exception. Lomac Gearstrip hands over the unstable compound with a stern warning: handle it with extreme care, or risk blowing yourself to pieces on the road back to Gaxim Rustfizzle.",
+   "body": "Lomac Gearstrip hands over Nitromirglyceronium, or NG-5, an unstable compound born of gnomish engineering. He warns you to handle it with extreme care. Mishandled, the chemical could blow you to pieces on the road back to Gaxim Rustfizzle.",
    "spoiler": 0
   },
   {
    "title": "A Recipe for Distraction",
-   "body": "Upon receiving the canister intact, Gaxim Rustfizzle reveals the true scope of his handiwork. NG-5 is the essential catalyst needed to detonate entire wagons full of dynamite. By staging a colossal explosion, Gaxim hopes to sow chaos and misdirect enemies in Stonetalon while the Alliance pursues its regional goals.",
+   "body": "Once Gaxim Rustfizzle receives the canister intact, he explains what he intends to do with it. NG-5 can ignite entire wagons packed with dynamite. Gaxim plans a great explosion to sow chaos and draw enemies away in Stonetalon while the Alliance pursues its goals in the region.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "ng-5",
     "what did lomac give me"
    ],
-   "answer": "NG-5, short for Nitromirglyceronium, is a highly volatile chemical compound concocted by Lomac Gearstrip. It serves as an unequivocal ignition catalyst for heavy ordnance."
+   "answer": "NG-5, short for Nitromirglyceronium, is a highly volatile chemical compound made by Lomac Gearstrip. It is needed to ignite heavy explosives."
   },
   {
    "q": "Who is Gaxim Rustfizzle?",
@@ -46,7 +46,7 @@
     "gaxim",
     "who is gaxim rustfizzle"
    ],
-   "answer": "Gaxim Rustfizzle is a gnome mage stationed in the Stonetalon Mountains, orchestrating Alliance demolition efforts and tactical distractions against regional threats."
+   "answer": "Gaxim Rustfizzle is a gnome mage in the Stonetalon Mountains. He directs Alliance demolition efforts and uses explosions to distract regional threats."
   },
   {
    "q": "Who is Lomac Gearstrip?",
@@ -54,7 +54,7 @@
     "lomac",
     "who is lomac gearstrip"
    ],
-   "answer": "Lomac Gearstrip is an engineer and associate of Gaxim Rustfizzle who prepares the dangerous NG-5 compound and entrusts it to reliable couriers."
+   "answer": "Lomac Gearstrip is an engineer and associate of Gaxim Rustfizzle. He prepares the dangerous NG-5 compound and hands it over to couriers."
   },
   {
    "q": "Why does Gaxim need so much explosive power?",
@@ -63,7 +63,7 @@
     "gaxim plan",
     "why the explosion"
    ],
-   "answer": "Gaxim has arranged multiple wagons loaded with dynamite. The NG-5 provides the reliable, massive spark required to detonate them all at once, creating an overwhelming diversion."
+   "answer": "Gaxim has arranged several wagons packed with dynamite. NG-5 can ignite them in a single blast, creating a powerful diversion."
   },
   {
    "q": "Is the chemical dangerous to transport?",
@@ -71,7 +71,7 @@
     "does ng5 explode",
     "is ng-5 safe"
    ],
-   "answer": "Lomac explicitly warns that NG-5 is unstable and prone to catastrophic accidental detonation if mishandled, though a steady courier can deliver it safely to Gaxim."
+   "answer": "Yes. Lomac warns that NG-5 is unstable and could detonate if mishandled. Handle it carefully on the way to Gaxim."
   },
   {
    "q": "Where does this delivery take place?",
@@ -79,21 +79,21 @@
     "where is gaxim",
     "stonetalon location"
    ],
-   "answer": "The delivery concludes at Gaxim Rustfizzle's post within the rugged passes of the Stonetalon Mountains."
+   "answer": "The delivery ends at Gaxim Rustfizzle's post in the passes of the Stonetalon Mountains."
   }
  ],
  "angles": [
   {
    "target": "race:Gnome",
-   "text": "Only gnomish ambition would consider wagons of high explosives ignited by Nitromirglyceronium a reasonable distraction."
+   "text": "Gnomish ambition puts Nitromirglyceronium to work igniting wagons of explosives as a distraction."
   },
   {
    "target": "profession:Engineering",
-   "text": "Handling NG-5 requires an appreciation for volatile chemistry and a steady pair of hands to avoid early detonation."
+   "text": "Handling NG-5 calls for care with volatile chemicals to avoid an early detonation."
   },
   {
    "target": "faction:Alliance",
-   "text": "Stonetalon is a contested frontier; a massive explosion gives Alliance operatives the breathing room they desperately need."
+   "text": "Stonetalon is contested, and a massive explosion gives Alliance operatives room to pursue their goals."
   }
  ],
  "keywords": [
@@ -114,5 +114,6 @@
  ],
  "attribution": [
   "Ineptitude + Chemicals = Fun (2)"
- ]
+ ],
+ "style": 1
 }

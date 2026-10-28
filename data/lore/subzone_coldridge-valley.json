@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Coldridge Valley"
  },
- "summary": "Coldridge Valley is a sheltered, snow-covered vale tucked into the southwestern heights of Dun Morogh. Centered around the hamlet of Anvilmar, it serves as the training ground where young dwarves and gnome refugees first take up arms in service of Ironforge. A single tunnel, Coldridge Pass, connects this secluded hollow to the wider mountain realm.",
+ "summary": "In Coldridge Valley, young dwarves and gnome refugees train for service to Ironforge. Snow blankets the sheltered vale in Dun Morogh's southwestern heights, and Coldridge Pass is its lone route to the wider mountain realm.",
  "sections": [
   {
    "title": "A Secluded Proving Ground",
-   "body": "Cradled by sheer mountain cliffs, Coldridge Valley remains largely cut off from the bustling trade routes of Dun Morogh. At its heart sits Anvilmar, a sturdy stone hall and hamlet where veteran dwarven instructors and displaced gnome scholars train fresh recruits in the arts of battle, stealth, and sorcery. Outside the warmth of Anvilmar's hearths, the valley floor is carpeted in thick snow and prowled by boars and hungry winter wolves, providing novices with their first real taste of frontier survival.",
+   "body": "Anvilmar is where new recruits learn to fight, move unseen, and wield sorcery. Veteran dwarven instructors train them alongside displaced gnome scholars. Beyond the hall, snow covers the valley floor, where boars and hungry winter wolves test the novices' skill at surviving the frontier. Sheer cliffs keep the vale apart from much of Dun Morogh's trade.",
    "spoiler": 0
   },
   {
    "title": "Encroaching Foes",
-   "body": "Despite its isolation, Coldridge Valley faces immediate danger from two relentless enemies. Indigenous Frostmane trolls have established camps like the Frostmane Hovel, skirmishing with mountaineers and defending their ancestral claims against dwarven encroachment. Worse still, savage Rockjaw troggs have overrun Coldridge Pass, the natural tunnel linking the valley to Kharanos. Until these subterranean brutes are pushed back, travelers and supplies cannot freely move between the valley and the high seat of Ironforge.",
+   "body": "Frostmane trolls camp in the valley, including at Frostmane Hovel, and skirmish with mountaineers over their ancestral claims against dwarven encroachment. Rockjaw troggs have overrun Coldridge Pass, the tunnel linking the valley to Kharanos. With the pass blocked, travelers and supplies cannot move freely between the valley and Ironforge, the mountain realm's high seat.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "how to get out",
     "path to kharanos"
    ],
-   "answer": "The only overland route out of the valley leads through Coldridge Pass, a snowy tunnel cutting northeast through the mountain ridge. Once through the pass, the road heads east directly toward the town of Kharanos and onward to the great gates of Ironforge."
+   "answer": "Coldridge Pass is the only overland route out of the valley. The snowy tunnel cuts northeast through the mountain ridge, then the road runs east toward Kharanos and onward to Ironforge's great gates."
   },
   {
    "q": "Why are gnomes starting here alongside dwarves?",
@@ -37,7 +37,7 @@
     "why are gnomes here",
     "gnome starting area"
    ],
-   "answer": "Following the tragic fall of Gnomeregan to troggs and radioactive fallout, surviving gnomes fled into Dun Morogh as refugees. High Tinker Mekkatorque's people were welcomed by King Magni Bronzebeard, leading many exiled gnomish apprentices to train side by side with young dwarves in Anvilmar."
+   "answer": "Surviving gnomes fled to Dun Morogh after troggs and radioactive fallout brought the tragic fall of Gnomeregan. King Magni Bronzebeard welcomed High Tinker Mekkatorque's people, and many exiled gnomish apprentices now train beside young dwarves in Anvilmar."
   },
   {
    "q": "What threats are troubling the valley?",
@@ -46,7 +46,7 @@
     "valley threats",
     "who is attacking"
    ],
-   "answer": "The valley faces two major menaces: the hostile Frostmane trolls, who resent dwarven settlements on their mountain territory, and crude Rockjaw troggs, who have clawed up from the deep earth to choke Coldridge Pass. Local predators like wolves and boars also harass unwary travelers."
+   "answer": "Frostmane trolls resent dwarven settlements on their mountain territory, while Rockjaw troggs have clawed up from the deep earth and blocked Coldridge Pass. Wolves and boars also harass unwary travelers."
   },
   {
    "q": "What is Anvilmar?",
@@ -54,17 +54,17 @@
     "anvilmar town",
     "what is the town here"
    ],
-   "answer": "Anvilmar is the central fortress-lodge and settlement within Coldridge Valley. It houses class trainers, forge-masters, and local mountaineer officers who coordinate the defense of the valley and prepare newly forged adventurers for the wider world."
+   "answer": "Anvilmar is the central fortress-lodge and settlement in Coldridge Valley. It houses class trainers, forge-masters, and local mountaineer officers, who coordinate the valley's defense and prepare newly forged adventurers for the wider world."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "As the traditional starting ground for Bronzebeard mountaineers and clerics, the valley represents a dwarf's first steps beyond the hearth and into service of the High Seat."
+   "text": "As a dwarf, you take your first steps beyond the hearth in the traditional training ground of Bronzebeard mountaineers and clerics, preparing to serve the High Seat."
   },
   {
    "target": "race:Gnome",
-   "text": "For gnome exiles forced from Gnomeregan, the snows of Coldridge Valley offer a safe haven to master their spells and machinery alongside their dwarven hosts."
+   "text": "As a gnome exiled from Gnomeregan, you find a safe haven in Coldridge Valley's snows, where you can master spells and machinery alongside your dwarven hosts."
   }
  ],
  "keywords": [
@@ -89,5 +89,6 @@
  ],
  "attribution": [
   "Coldridge Valley"
- ]
+ ],
+ "style": 1
 }

@@ -17,16 +17,16 @@
   "wiki": "The Deathstalkers (3)",
   "chain": []
  },
- "summary": "This errand continues the Deathstalkers' deception of the informant Andron Gant in the Undercity. Still believing you are the messenger he was expecting, Gant hands over a ledger meant for his secret contacts, and the operative delivers it instead to Mennet Carkad in the Rogues' Quarter. The exchange marks the transition from simple inquiries to deeper, more covert operations on behalf of the Forsaken state.",
+ "summary": "In the Undercity, the Deathstalkers turn Andron Gant's trust against him. Still believing you are the messenger he expected, Gant gives you a ledger for his secret contacts. You carry it to Mennet Carkad in the Rogues' Quarter, opening the way to deeper covert work for the Forsaken state.",
  "sections": [
   {
    "title": "A Courier in the Shadows",
-   "body": "The Deathstalkers do not rely solely on brute force or shadow magic; their operations depend heavily on mundane ledgers, recorded names, and meticulous surveillance. Andron Gant, operating out of the Undercity, hands over a personal ledger crammed with intelligence, believing it bound for the mysterious employers he secretly serves. Taken in by the operative's disguise, Gant even asks that the same courier be sent in the future, never suspecting that his ledger is headed straight to the Deathstalkers.",
+   "body": "Andron Gant works from the Undercity, keeping names and information in a personal ledger. Believing you are the courier he expected, he hands it over for delivery to the secret contacts he serves. Gant asks that the same courier carry future messages, unaware that the ledger is bound for the Deathstalkers.",
    "spoiler": 0
   },
   {
    "title": "Intelligence in the Rogues' Quarter",
-   "body": "When delivered to Mennet Carkad in the Rogues' Quarter, the ledger proves far more revealing than the Deathstalkers anticipated. Instead of cursory notes, Gant's writings yield actionable leads that allow Carkad to widen the scope of their investigations. In an environment as paranoid and fractured as the Forsaken realm, having verified paper trails is essential to ferreting out internal subversion and monitoring external threats before they strike the capital.",
+   "body": "Mennet Carkad receives Gant's ledger in the Rogues' Quarter and finds more useful intelligence in it than expected. The details give Carkad leads for widening the Deathstalkers' investigations. In the wary Forsaken realm, those records can help uncover subversion within and threats beyond its borders before they reach the capital.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "what does the ledger say",
     "deathstalker ledger"
    ],
-   "answer": "The ledger contains sensitive information and records gathered by Andron Gant. While the exact contents are not read aloud, Mennet Carkad notes that it contains significantly more detail and valuable intelligence than the Deathstalkers initially expected him to provide."
+   "answer": "Andron Gant's ledger holds sensitive information and records he gathered. Mennet Carkad finds more detail and valuable intelligence in it than the Deathstalkers expected."
   },
   {
    "q": "Who are the Deathstalkers?",
@@ -47,7 +47,7 @@
     "who are deathstalkers",
     "undercity rogues"
    ],
-   "answer": "The Deathstalkers are the premier covert organization and assassin guild of the Forsaken. Headquartered in the Rogues' Quarter of the Undercity, they operate as Lady Sylvanas Windrunner's eyes, ears, and hidden daggers, handling espionage, intelligence, and targeted assassinations across Lordaeron."
+   "answer": "The Deathstalkers are the Forsaken's covert organization and assassin guild. Based in the Undercity's Rogues' Quarter, they serve Lady Sylvanas Windrunner as eyes, ears, and hidden daggers, handling espionage, intelligence, and targeted assassinations across Lordaeron."
   },
   {
    "q": "Why does Gant want the same courier used in the future?",
@@ -56,7 +56,7 @@
     "andron gant trust",
     "gant courier"
    ],
-   "answer": "In the murky, distrustful atmosphere of the Undercity, finding an operative who can run sensitive documents without stealing or tampering with them is rare. Gant explicitly requests that future business be handled through the same runner to minimize risks and preserve his established working arrangement."
+   "answer": "Gant asks for the same courier because he wants future sensitive documents handled by a runner he trusts, preserving their working arrangement and reducing the risk of theft or tampering."
   },
   {
    "q": "Who is Mennet Carkad?",
@@ -64,7 +64,7 @@
     "mennet carkad lore",
     "who is carkad"
    ],
-   "answer": "Mennet Carkad is a seasoned operative of the Deathstalkers stationed in the Rogues' Quarter. He coordinates local agents, gathers field intelligence from informants like Andron Gant, and directs covert assignments throughout the capital and surrounding territories."
+   "answer": "Mennet Carkad is a Deathstalkers operative stationed in the Rogues' Quarter. He coordinates local agents, gathers field intelligence from informants such as Andron Gant, and directs covert assignments throughout the capital and surrounding territories."
   },
   {
    "q": "Where is the Rogues' Quarter located?",
@@ -73,7 +73,7 @@
     "where is rogues quarter",
     "undercity rogues quarter"
    ],
-   "answer": "The Rogues' Quarter is the southern district of the Undercity. It serves as the primary base for Forsaken stealth operatives, thieves, and assassins, providing training grounds and dark alcoves far removed from the public plazas of the upper ruins."
+   "answer": "The Rogues' Quarter lies in the southern district of the Undercity. It is the main base for Forsaken stealth operatives, thieves, and assassins, with training grounds and dark alcoves away from the public plazas of the upper ruins."
   },
   {
    "q": "Why do the Forsaken need an internal intelligence agency?",
@@ -82,17 +82,17 @@
     "forsaken spies",
     "undercity intelligence"
    ],
-   "answer": "Surrounded on all sides by the Scourge, the Scarlet Crusade, and wary Alliance remnants, the young Forsaken nation faces constant threats of infiltration and rebellion. The Deathstalkers root out subversion within Lordaeron's borders to ensure the fledgling regime survives."
+   "answer": "The Forsaken need internal intelligence to uncover subversion within Lordaeron's borders. The Deathstalkers work to help the young nation survive threats from the Scourge, the Scarlet Crusade, wary Alliance remnants, infiltration, and rebellion."
   }
  ],
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "For an aspiring rogue in the Undercity, handling sensitive courier runs for Mennet Carkad is a fundamental test of discretion, proving that an operative can manage covert assets without attracting unnecessary attention."
+   "text": "As a rogue in the Undercity, you can show your discretion by carrying sensitive messages for Mennet Carkad without drawing unwanted attention."
   },
   {
    "target": "race:Undead",
-   "text": "Internal security in the Undercity is absolute survival; assisting the Deathstalkers directly strengthens the Dark Lady's grip over the capital against both living infiltrators and rival undead."
+   "text": "As an undead, you know that the Undercity's security is a matter of survival. Helping the Deathstalkers strengthens the Dark Lady's hold over the capital against living infiltrators and rival undead."
   }
  ],
  "keywords": [
@@ -112,5 +112,6 @@
  ],
  "attribution": [
   "The Deathstalkers (3)"
- ]
+ ],
+ "style": 1
 }

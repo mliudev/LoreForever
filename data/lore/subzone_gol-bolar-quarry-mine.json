@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Gol'Bolar Quarry Mine"
  },
- "summary": "Gol'Bolar Quarry Mine is an overrun excavation pit deep within the heart of Gol'Bolar Quarry in eastern Dun Morogh. Originally worked by dwarven miners, the tunnels breached subterranean trogg caverns, unleashing a violent infestation that claimed the entire site. Today, the deepest shafts serve as the stronghold for the trogg warband led by the brute Hammerspine.",
+ "summary": "Troggs hold Gol'Bolar Quarry Mine, deep beneath Gol'Bolar Quarry in eastern Dun Morogh. Ironforge dwarves once worked its tunnels for stone and rich ore, until they broke into trogg caverns and the creatures overran the site. Hammerspine leads the warband in the deepest shafts.",
  "sections": [
   {
    "title": "A Breach in the Deep",
-   "body": "The mine was established by Ironforge dwarves seeking stone and rich ore deposits beneath the craggy peaks of Dun Morogh. Work came to an abrupt, violent halt when pickaxes fractured a wall into an ancient subterranean cavern system inhabited by troggs. Swarming out from the dark, the subterranean beasts overwhelmed the work crews and forced a hasty retreat, ultimately spilling outward to overrun the surrounding quarry pit as well.",
+   "body": "Ironforge dwarves once mined stone and rich ore beneath Dun Morogh's craggy peaks. Their work ended when pickaxes broke through a wall into caverns inhabited by troggs. The creatures poured from the darkness, overwhelmed the crews, and drove them from the mine. Troggs then spread across the surrounding quarry pit.",
    "spoiler": 0
   },
   {
    "title": "Lair of Hammerspine",
-   "body": "While younger, weaker troggs roam the sunlit terraces of the quarry basin, the mine itself harbors the warband's fiercest fighters. Deep within these cramped, torchlit tunnels lurks their vicious chieftain, Hammerspine. Reclaiming the valuable quarry remains an urgent priority for the local mountaineers, but driving the infestation out requires venturing into the blackest depths of the mine to cut off the beasts at their source.",
+   "body": "Younger, weaker troggs roam the quarry's sunlit terraces, while the mine shelters the warband's fiercest fighters. Hammerspine, their vicious chieftain, lurks deep in the cramped tunnels. Local mountaineers still need to reclaim the valuable quarry, but that means entering the mine's deepest reaches and cutting off the troggs at their source.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "how did troggs get here",
     "who took over the mine"
    ],
-   "answer": "Dwarven miners accidentally broke into a hidden underground cavern while digging. The slumbering troggs inside swarmed through the breach, slaughtered or drove out the excavators, and claimed the mine shafts as their home."
+   "answer": "Dwarven miners broke into a hidden cavern as they dug. Troggs swarmed through the breach, slaughtered or drove out the miners, and claimed the shafts."
   },
   {
    "q": "Who leads the troggs inside Gol'Bolar Quarry Mine?",
@@ -37,7 +37,7 @@
     "trogg leader gol bolar",
     "who is hammerspine"
    ],
-   "answer": "The troggs inside the mine are led by Hammerspine, a hulking brute who commands the strongest members of the warband from deep within the shafts."
+   "answer": "Hammerspine leads the troggs in Gol'Bolar Quarry Mine. The hulking brute commands the warband's strongest fighters deep in the shafts."
   },
   {
    "q": "Is the mine different from the rest of the quarry?",
@@ -45,7 +45,7 @@
     "quarry vs mine",
     "are the mine troggs harder"
    ],
-   "answer": "Yes. The outer quarry pit contains the surface works and weaker troggs, while the mine consists of deep, claustrophobic subterranean tunnels containing the toughest troggs and their chieftain."
+   "answer": "Yes. Weaker troggs roam the outer quarry pit, while the deep, cramped tunnels hold the toughest fighters and their chieftain."
   },
   {
    "q": "Can miners still work here?",
@@ -53,17 +53,17 @@
     "is the mine active",
     "are dwarves still mining"
    ],
-   "answer": "No. All mining operations have completely ceased. The site is an active war zone where dwarven mountaineers and adventurers work to purge the trogg threat rather than harvest stone."
+   "answer": "No. Mining has stopped, and the site is now a battleground where dwarven mountaineers and adventurers try to drive out the troggs instead of gathering stone."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "Every pick swing into the mountain carries the risk of awakening what lies beneath. Reclaiming Gol'Bolar Mine is a matter of both economic necessity and dwarven pride."
+   "text": "Each pick swing into the mountain risks waking what lies beneath. Reclaiming Gol'Bolar Mine means restoring both its value and dwarven pride."
   },
   {
    "target": "profession:Mining",
-   "text": "A stark reminder of the hazards of subterranean excavation, this mine remains entirely blocked by hostile troggs until its deepest tunnels are purged."
+   "text": "Hostile troggs still block the mine. Its deepest tunnels must be cleared before miners can return."
   }
  ],
  "keywords": [
@@ -82,5 +82,6 @@
  ],
  "attribution": [
   "Gol'Bolar Quarry Mine"
- ]
+ ],
+ "style": 1
 }

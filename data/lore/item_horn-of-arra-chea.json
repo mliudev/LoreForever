@@ -10,16 +10,16 @@
    "quest:776"
   ]
  },
- "summary": "The Horn of Arra'chea is a hunting trophy taken from the legendary kodo Arra'chea, who wanders the plains of Mulgore. Claimed at the behest of High Chieftain Cairne Bloodhoof, the horn serves as definitive proof that an aspiring hunter has the discipline and tracking prowess to provide for the Shu'halo.",
+ "summary": "Across Mulgore, Arra'chea roams while Cairne Bloodhoof calls young hunters to prove their worth. The kodo's horn confirms a hunter can track prey and provide for the Shu'halo.",
  "sections": [
   {
    "title": "A Chieftain's Test",
-   "body": "Though passing the initial Rites of the Earthmother grants a youth their rightful place atop Thunder Bluff, High Chieftain Cairne Bloodhoof expects his people to continually prove their worth. For the tauren, identity is bound directly to the hunt and their enduring harmony with the land. Cairne tests young hunters by tasking them with tracking down Arra'chea, a massive, lone kodo bull roaming the grasslands below. Taking Arra'chea's horn proves mastery over the fundamental art of tracking prey across vast distances.",
+   "body": "Passing the Rites of the Earthmother earns a youth a place atop Thunder Bluff, but High Chieftain Cairne Bloodhoof still expects his people to prove their worth. For the tauren, the hunt binds identity to lasting harmony with the land. Cairne sends young hunters to track Arra'chea, a massive, solitary kodo bull roaming the grasslands below. Taking the bull's horn shows mastery of tracking prey across vast distances.",
    "spoiler": 0
   },
   {
    "title": "Providing for the Tribe",
-   "body": "Bringing the horn to the high rise of Thunder Bluff is more than a display of martial strength; it serves the survival of the entire community. In tauren culture, nothing of a slain beast is allowed to go to waste. Presenting the trophy alerts the High Chieftain to the fallen beast's location, allowing gathering parties to quickly depart down into the plains to harvest Arra'chea's thick hide and rich meat for the fledgling capital.",
+   "body": "Bringing Arra'chea's horn to Thunder Bluff does more than display strength; it helps sustain the community. Tauren use every part of a slain beast. The trophy tells the High Chieftain where Arra'chea fell, so gathering parties can go down into the plains and harvest the kodo's thick hide and rich meat for the fledgling capital.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "arrachea horn",
     "what is this horn"
    ],
-   "answer": "It is a horn taken from Arra'chea, a powerful and elusive kodo that roams the plains of Mulgore. Hunters bring it to Cairne Bloodhoof as a rite of passage to demonstrate their tracking skills."
+   "answer": "The Horn of Arra'chea is taken from Arra'chea, a powerful, elusive kodo roaming Mulgore's plains. Hunters bring it to Cairne Bloodhoof as a rite of passage and proof of their tracking skill."
   },
   {
    "q": "Who is Arra'chea?",
@@ -40,7 +40,7 @@
     "who is arrachea",
     "arrachea lore"
    ],
-   "answer": "Arra'chea is a renowned kodo bull that circles the grasslands northeast of Thunder Bluff. Known for his strength and wide migratory route, he serves as a formidable quarry for hunters looking to prove their worth to the tribe."
+   "answer": "Arra'chea is a renowned kodo bull that circles the grasslands northeast of Thunder Bluff. His strength and wide migratory route make him a formidable quarry for hunters proving their worth to the tribe."
   },
   {
    "q": "Why does Cairne Bloodhoof ask for this trophy?",
@@ -49,7 +49,7 @@
     "cairne arrachea",
     "rites of the earthmother horn"
    ],
-   "answer": "Cairne believes that maintaining one's standing in Thunder Bluff requires continuous proof of service and capability. By tracking and felling Arra'chea, a hunter proves their dedication to the traditions of the Earthmother and provides valuable resources for the community."
+   "answer": "Cairne Bloodhoof asks for the trophy because he expects his people to keep proving their worth. Tracking and felling Arra'chea shows a hunter's dedication to the traditions of the Earthmother and provides resources for the community."
   },
   {
    "q": "What happens to the rest of the beast after it is killed?",
@@ -58,17 +58,17 @@
     "tauren hunting tradition",
     "arrachea carcass"
    ],
-   "answer": "In accordance with tauren custom, no part of the hunted animal is squandered. Once the horn is delivered to confirm the kill, Cairne dispatches a gathering party down into Mulgore to collect the hide and meat for Thunder Bluff."
+   "answer": "Tauren use every part of the hunted animal. Once the horn confirms the kill, Cairne sends a gathering party down into Mulgore to collect the hide and meat for Thunder Bluff."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "Presenting this horn to High Chieftain Cairne marks a crucial rite of passage, confirming your readiness to sustain and defend your people atop Thunder Bluff."
+   "text": "As a tauren, presenting Arra'chea's horn to High Chieftain Cairne marks a rite of passage and proves your readiness to sustain and defend your people atop Thunder Bluff."
   },
   {
    "target": "class:Hunter",
-   "text": "Tracking Arra'chea's circular path across the broad expanse of Mulgore tests fundamental stalking and wilderness survival skills prized by any true hunter."
+   "text": "As a hunter, tracking Arra'chea's circular path across Mulgore tests the stalking and wilderness survival skills valued in a hunter."
   }
  ],
  "keywords": [
@@ -91,5 +91,6 @@
  "attribution": [
   "Horn of Arra'chea",
   "Rites of the Earthmother (3)"
- ]
+ ],
+ "style": 1
 }

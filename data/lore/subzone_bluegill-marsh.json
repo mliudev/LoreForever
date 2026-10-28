@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Bluegill Marsh"
  },
- "summary": "Bluegill Marsh is a sodden mire in the western Wetlands that serves as the sprawling settlement for the hostile Bluegill murloc tribe. The waterways and huts are fiercely guarded by these aquatic humanoids under the rule of the brute known as Gobbler. Travelers heading through the western fens must navigate carefully to avoid being surrounded in the shallows.",
+ "summary": "In western Wetlands, Bluegill Marsh is claimed by the hostile Bluegill tribe. Their huts and waterways are guarded by Gobbler, and travelers risk being surrounded in the shallows.",
  "sections": [
   {
    "title": "A Swarming Hazard",
-   "body": "Situated amidst the boggy flats of the western Wetlands, Bluegill Marsh is thick with mud, reeds, and the squawking war cries of its resident murlocs. The Bluegill tribe has erected crude primitive camps throughout the stagnant water, claiming this territory as their own. Unlike more isolated beasts of the swamp, these murlocs live and hunt in tightly knit packs. Wary wanderers and scouts from Menethil Harbor know that wading into their territory invites swift ambushes from every direction, especially with the formidable chieftain Gobbler prowling the murky shallows.",
+   "body": "Bluegill murlocs crowd the muddy flats and reed beds of the western Wetlands. Their tribe has built crude camps in the stagnant water and claims the marsh as its own. They live and hunt in close-knit packs. Travelers and scouts from Menethil Harbor risk ambush from every direction when they wade into Bluegill territory, where the chieftain Gobbler prowls the shallows.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "what is this place",
     "wetlands murloc swamp"
    ],
-   "answer": "Bluegill Marsh is a boggy subzone in the western region of the Wetlands. It is the primary dwelling and nesting ground of the aggressive Bluegill tribe of murlocs."
+   "answer": "Bluegill Marsh is a boggy subzone in the western Wetlands. It is the main home and nesting ground of the aggressive Bluegill murlocs."
   },
   {
    "q": "Who rules over the marsh?",
@@ -32,7 +32,7 @@
     "gobbler",
     "who leads the bluegill murlocs"
    ],
-   "answer": "The Bluegill tribe is led by a powerful and vicious murloc known as Gobbler, who keeps watch over the clustered encampments and strikes down any land-walkers who encroach upon their waters."
+   "answer": "Gobbler, a powerful and vicious murloc, rules the Bluegill tribe. He watches over its clustered camps and strikes down land-walkers who enter the waters."
   },
   {
    "q": "Why is it dangerous to travel here alone?",
@@ -41,7 +41,7 @@
     "is bluegill marsh hard",
     "murloc aggro"
    ],
-   "answer": "The murlocs here rarely roam solo. They congregate around huts and shorelines in close-knit bands of two or three, making it very easy for lone travelers to be overwhelmed in the deep, slowing mud."
+   "answer": "Bluegill murlocs gather in bands of two or three around their huts and shorelines. Their numbers and the deep, slowing mud make it easy to overwhelm a lone traveler."
   },
   {
    "q": "Why do travelers venture into Bluegill Marsh?",
@@ -50,13 +50,13 @@
     "bluegill marsh quests",
     "reasons to visit"
    ],
-   "answer": "Scouts and adventurers from nearby settlements like Menethil Harbor are regularly directed into the marsh to thin the aggressive murloc population and recover stolen goods carried off into their camps."
+   "answer": "Scouts and adventurers from nearby settlements such as Menethil Harbor venture into Bluegill Marsh to thin the aggressive murloc population and recover stolen goods from their camps."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Positioned not far from Menethil Harbor, the aggressive Bluegill murlocs pose a constant nuisance to travelers and supply lines moving through the western Wetlands."
+   "text": "Near Menethil Harbor, the aggressive Bluegill murlocs threaten travelers and supply lines crossing the western Wetlands."
   }
  ],
  "keywords": [
@@ -74,5 +74,6 @@
  ],
  "attribution": [
   "Bluegill Marsh"
- ]
+ ],
+ "style": 1
 }

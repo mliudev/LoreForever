@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Aku'mai's Lair"
  },
- "summary": "Aku'mai's Lair is the deepest and darkest cavern within Blackfathom Deeps. Located beyond the Moonshrine Sanctum, this submerged hollow serves as the nesting ground for Aku'mai, a monstrous hydra venerated as a servant of the Old Gods.",
+ "summary": "Beyond the Moonshrine Sanctum, Aku'mai's Lair lies beneath Blackfathom Deeps. In its flooded depths, cultists and naga gather around Aku'mai, a hydra they honor as a servant of the Old Gods.",
  "sections": [
   {
    "title": "Heart of the Depths",
-   "body": "Sealed away behind the Moonshrine Sanctum, Aku'mai's Lair represents the culmination of the corruption sweeping Blackfathom Deeps. To enter the cavern, dark rituals must be engaged by igniting the four brazier fires flanking a naga statue, awakening guardians sworn to defend the threshold. Beyond these heavy double doors lies a sunless, flooded grotto. Here, both the Twilight's Hammer cultists and invading naga gather in reverence of Aku'mai, an ancient three-headed hydra considered a living servant of the Old Gods.",
+   "body": "Four braziers flank a naga statue behind the Moonshrine Sanctum's sealed double doors. Lighting them awakens guardians sworn to defend the threshold. Beyond the doors, a sunless grotto lies beneath the water. Twilight's Hammer cultists and invading naga gather there in reverence of Aku'mai, an ancient, three-headed hydra they consider a living servant of the Old Gods.",
    "spoiler": 0
   },
   {
    "title": "Harbinger of Ruin",
-   "body": "The presence of Aku'mai within the lair makes it a focal point for the apocalyptic plans of the Twilight's Hammer. The cultists revere the great beast as an omen of a promised age of darkness, believing its emergence and continued sustenance will herald the breaking of subterranean prisons holding their ancient deities. Fed by sacrificial offerings and guarded zealously by dark magic, the subterranean pool serves as a grim symbol of the ancient evil clawing its way back into Kalimdor.",
+   "body": "Twilight's Hammer cultists see Aku'mai as an omen of a promised age of darkness. They believe the beast's emergence and continued sustenance will herald the breaking of subterranean prisons holding their ancient deities. Sacrificial offerings feed Aku'mai, while dark magic guards the pool where it dwells. The cult's plans center on this beast as ancient evil claws its way back into Kalimdor.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "how to get to akumai room",
     "akumai lair location"
    ],
-   "answer": "Aku'mai's Lair is found at the very end of the Blackfathom Deeps cavern complex in Ashenvale, situated just beyond the sealed doors of the Moonshrine Sanctum."
+   "answer": "Aku'mai's Lair lies at the end of the Blackfathom Deeps cavern complex in Ashenvale, beyond the sealed doors of the Moonshrine Sanctum."
   },
   {
    "q": "How do you open the doors to Aku'mai's Lair?",
@@ -37,7 +37,7 @@
     "how to unlock akumai lair",
     "light fires akumai"
    ],
-   "answer": "The double doors leading into the lair are unlocked by lighting the four ritual braziers surrounding the naga statue within the Moonshrine Sanctum and defeating the waves of creatures summoned to protect them."
+   "answer": "Light the four ritual braziers around the naga statue in the Moonshrine Sanctum, then defeat the creatures summoned to guard them. The double doors into Aku'mai's Lair will open."
   },
   {
    "q": "What dwells inside this cavern?",
@@ -46,7 +46,7 @@
     "what lives in akumai lair",
     "boss in akumai lair"
    ],
-   "answer": "The cavern is inhabited by Aku'mai, a massive three-headed hydra tainted by ancient dark powers, and a servant of the Old Gods."
+   "answer": "Aku'mai, a massive, three-headed hydra tainted by ancient dark powers, dwells in the cavern as a servant of the Old Gods."
   },
   {
    "q": "Why is the Twilight's Hammer cult worshiping here?",
@@ -55,17 +55,17 @@
     "twilights hammer akumai lair",
     "why is twilight hammer here"
    ],
-   "answer": "The Twilight's Hammer venerates Aku'mai as a servant of the Old Gods, and its cultists believe that empowering the beast will help bring back the era when the Old Gods ruled the world."
+   "answer": "Twilight's Hammer cultists revere Aku'mai as a servant of the Old Gods. They believe empowering the beast will help restore the age when the Old Gods ruled the world."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "For the night elves, seeing a desecrated Elune temple culminating in a filthy nest for a foul Old God spawn is an intolerable defilement of sacred Ashenvale soil."
+   "text": "As a night elf, you see a desecrated temple of Elune turned into a foul nest for an Old God spawn. Such defilement of Ashenvale's sacred soil is intolerable."
   },
   {
    "target": "class:Druid",
-   "text": "The vile mutation and unnatural corruption radiating from Aku'mai's watery den represents a severe blight on the natural waterways and beasts of Kalimdor."
+   "text": "As a druid, you see Aku'mai's watery den as a severe blight on Kalimdor's waterways and beasts. Its vile mutation and unnatural corruption spread through the depths."
   }
  ],
  "keywords": [
@@ -88,5 +88,6 @@
  ],
  "attribution": [
   "Aku'mai's Lair"
- ]
+ ],
+ "style": 1
 }

@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Workshop Entrance"
  },
- "summary": "The Workshop Entrance, commonly known as the backdoor to Gnomeregan, is an access portal situated just beyond the Train Depot. It provides seasoned adventurers and engineers an alternative route into the depths of the irradiated city, bypassing the front gates and opening near the Engineering Labs.",
+ "summary": "Beyond the Train Depot, Workshop Entrance gives a backdoor into Gnomeregan. The route opens near the Engineering Labs and bypasses the front gates, offering another way into the irradiated city.",
  "sections": [
   {
    "title": "The Backdoor to the City",
-   "body": "Located across the cavernous workshop floor just past the Train Depot, the Workshop Entrance offers a direct approach into the industrial heart of Gnomeregan. Flanked on one side by the opening to the Loading Room, this passage cuts straight through to the Engineering Labs, avoiding the fortified entry gates that leper gnomes and troggs contest near the surface. For strike teams attempting to reclaim the underground capital, bypassing the initial perimeter through this side door can prove vital.",
+   "body": "Past the Train Depot, Workshop Entrance crosses the cavernous workshop floor toward the industrial heart of Gnomeregan. The opening to the Loading Room lies on one side. This passage runs straight to the Engineering Labs, avoiding the fortified entry gates near the surface, where leper gnomes and troggs contest the way. For those trying to reclaim the underground capital, this side door bypasses the first perimeter.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "where is the backdoor",
     "gnomeregan backdoor loc"
    ],
-   "answer": "The Workshop Entrance sits on the far side of the workshop floor, past the Train Depot in the outer corridors of Gnomeregan. From this vantage, the portal to the Loading Room lies to your left."
+   "answer": "Workshop Entrance lies across the workshop floor, past the Train Depot in Gnomeregan’s outer corridors. The portal to the Loading Room is to your left."
   },
   {
    "q": "Why is this area called the backdoor?",
@@ -32,7 +32,7 @@
     "gnomeregan back door",
     "back entrance"
    ],
-   "answer": "It serves as an alternate access threshold into the interior dungeon of Gnomeregan, skipping the main front gauntlet and placing intruders directly toward the Engineering Labs."
+   "answer": "The name comes from its use as an alternate way into Gnomeregan’s interior, skipping the main front gauntlet and leading toward the Engineering Labs."
   },
   {
    "q": "Where does this doorway lead inside the city?",
@@ -41,17 +41,17 @@
     "path through backdoor",
     "what is past the entrance"
    ],
-   "answer": "Stepping through this portal leads down a hallway directly into the Engineering Labs sector deep inside Gnomeregan."
+   "answer": "The doorway opens onto a hallway that leads directly to the Engineering Labs, deep inside Gnomeregan."
   }
  ],
  "angles": [
   {
    "target": "race:Gnome",
-   "text": "Every secret doorway into Gnomeregan is a potential breach point for reclaiming lost workshops and recovering prototype machinery from Mekgineer Thermaplugg's forces."
+   "text": "As a gnome, you know every secret doorway into Gnomeregan could help reclaim lost workshops and recover prototype machinery from Mekgineer Thermaplugg’s forces."
   },
   {
    "target": "profession:Engineering",
-   "text": "This corridor leads directly toward the Engineering Labs, making it an enticing infiltration route for tinkerers seeking cutting-edge schematics."
+   "text": "As an engineer, you can take this corridor toward the Engineering Labs, where cutting-edge schematics may draw tinkerers to infiltrate."
   }
  ],
  "keywords": [
@@ -70,5 +70,6 @@
  ],
  "attribution": [
   "Workshop Entrance"
- ]
+ ],
+ "style": 1
 }

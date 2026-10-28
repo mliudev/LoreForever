@@ -17,16 +17,16 @@
   "wiki": "Velinde Starsong (quest)",
   "chain": []
  },
- "summary": "This quest bridges an eerie investigation in Ashenvale with the military hierarchy in Darnassus. After uncovering unsettling events tied to the vanished night elf commander Velinde Starsong, adventurers are sent across the sea to consult Sentinel leadership regarding her mysterious fate.",
+ "summary": "In Ashenvale, Melyria Frostshadow seeks word of the commander who came before her. Velinde Starsong vanished while fighting the corruption spreading from Felwood, and Melyria sends you to Darnassus for answers.",
  "sections": [
   {
    "title": "A Vanished Predecessor",
-   "body": "Sentinel Melyria Frostshadow holds watch in Ashenvale, but she was not the first to shoulder that burden. Before her stood Velinde Starsong, a priestess tasked with containing the demonic corruption bleeding southward out of Felwood. Though initial reports suggested Starsong had the peril well in hand, her defensive campaign gradually unraveled. Then, without warning or formal relief, she vanished entirely, leaving behind an unfinished war and unanswered questions.",
+   "body": "Melyria Frostshadow keeps watch in Ashenvale, following Velinde Starsong, who once held the same post. A priestess, Velinde was charged with containing demonic corruption spreading south from Felwood. Early reports said she had the danger under control, but her campaign faltered over time. Then she vanished without warning or formal relief, leaving the fight unfinished and her fate unknown.",
    "spoiler": 0
   },
   {
    "title": "Secrets of the Terrace",
-   "body": "Unwilling to let the mystery linger after discovering disturbing clues in the forest, Melyria directs seekers to the capital of Darnassus. There, high upon the Warrior's Terrace, Sentinel commander Thyn'tel Bladeweaver oversees military deployments. While Starsong's sudden departure is whispered about throughout the ranks, the exact circumstances remain closely guarded by the high command, requiring earnest persuasion before any deeper records are unsealed.",
+   "body": "Disturbing clues in the forest lead Melyria to send you to Darnassus. On the Warrior's Terrace, Sentinel commander Thyn'tel Bladeweaver oversees military deployments. The Sentinels know Velinde disappeared, but her command keeps the circumstances close. Thyn'tel will need persuading before sharing any deeper records.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "who is velinde",
     "priestess velinde"
    ],
-   "answer": "Velinde Starsong was an elven priestess and commander of the Sentinels stationed in Ashenvale. She was tasked with holding the northern border against the demonic horrors creeping out of Felwood before mysteriously disappearing from duty."
+   "answer": "Velinde Starsong was a priestess and Sentinel commander stationed in Ashenvale. She was charged with holding the northern border against demonic horrors from Felwood, then vanished from duty."
   },
   {
    "q": "Why is Sentinel Melyria asking about her now?",
@@ -46,7 +46,7 @@
     "why investigate velinde",
     "melyria quest reason"
    ],
-   "answer": "Sentinel Melyria Frostshadow replaced Velinde after her unexplained disappearance. Following discoveries tied to the Howling Vale, Melyria recognizes that whatever happened to her predecessor remains a lingering concern for the safety of Ashenvale."
+   "answer": "Melyria Frostshadow took Velinde's place after she disappeared. Discoveries in the Howling Vale have renewed her concern for what happened and for Ashenvale's safety."
   },
   {
    "q": "Where do I need to go to complete this quest?",
@@ -54,7 +54,7 @@
     "where to turn in velinde starsong",
     "thyntel bladeweaver location"
    ],
-   "answer": "You must travel from Ashenvale to the night elf capital of Darnassus atop Teldrassil. Commander Thyn'tel Bladeweaver can be found stationed at the Warrior's Terrace."
+   "answer": "Travel from Ashenvale to Darnassus, atop Teldrassil. Commander Thyn'tel Bladeweaver is stationed on the Warrior's Terrace."
   },
   {
    "q": "Why is Commander Bladeweaver reluctant to talk?",
@@ -62,7 +62,7 @@
     "why secret",
     "why wont thyntel speak"
    ],
-   "answer": "While it is common knowledge among the Sentinels that Velinde went missing, the specific circumstances and classified details surrounding her final missions are sensitive military matters that leadership will not share lightly with outsiders."
+   "answer": "The Sentinels know Velinde went missing, but the details of her final missions are sensitive military matters. Darnassus's leaders do not share them lightly with outsiders."
   },
   {
    "q": "What connection does Velinde have to Felwood?",
@@ -70,7 +70,7 @@
     "velinde felwood",
     "what happened in felwood"
    ],
-   "answer": "Velinde led the Sentinels' frontline efforts to contain the demonic corruption encroaching from Felwood. Although her initial containment efforts seemed successful, her campaign eventually faltered just before she vanished."
+   "answer": "Velinde led the Sentinels' effort to contain demonic corruption spreading from Felwood. Her campaign faltered after early success, shortly before she vanished."
   },
   {
    "q": "What quest leads directly into this one?",
@@ -78,21 +78,21 @@
     "velinde starsong prerequisite",
     "previous quest"
    ],
-   "answer": "This assignment follows 'The Howling Vale', where adventurers investigate the strange and hostile occurrences brewing deep within the forests of Ashenvale."
+   "answer": "This follows The Howling Vale, where you investigate strange and hostile events deep in Ashenvale's forests."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "For night elf defenders, uncovering the fate of a respected commander and priestess touches upon the fragile state of northern Kalimdor following the Third War."
+   "text": "As a night elf defender, you face the fate of a respected commander and priestess amid northern Kalimdor's fragile state after the Third War."
   },
   {
    "target": "class:Priest",
-   "text": "Priests of Elune will find particular interest in how a fellow sister of the faith struggled while attempting to stem the demonic tide pouring from Felwood."
+   "text": "As a priest of Elune, you may feel a kinship with a sister of the faith who fought to stem the demonic corruption from Felwood."
   },
   {
    "target": "faction:Alliance",
-   "text": "The mission illustrates the rigid military protocol of Darnassus, where sensitive battlefield disappearances are tightly compartmentalized by Sentinel commanders."
+   "text": "As an Alliance member, you see Darnassus's strict military protocol, which keeps battlefield disappearances within the Sentinel command."
   }
  ],
  "keywords": [
@@ -117,5 +117,6 @@
  ],
  "attribution": [
   "Velinde Starsong (quest)"
- ]
+ ],
+ "style": 1
 }

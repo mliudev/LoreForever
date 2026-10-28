@@ -10,11 +10,11 @@
    "quest:412"
   ]
  },
- "summary": "Restabilization Cogs are precision mechanical components salvaged from the leper gnomes wandering outside the irradiated ruins of Gnomeregan. In Kharanos, gnomish tinkerers require these intact parts to construct the Recombobulator, an ambitious machine intended to reverse leper mutation.",
+ "summary": "Outside Gnomeregan's irradiated ruins, leper gnomes still carry Restabilization Cogs. In Kharanos, tinkerers need the intact parts to build the Recombobulator, a machine meant to reverse leper mutation.",
  "sections": [
   {
    "title": "Components for a Cure",
-   "body": "When radiation flooded Gnomeregan in a disastrous attempt to wipe out the invading troggs, countless gnomes were twisted into sick, hostile leper gnomes. Despite their madness, these afflicted exiles still carry intricate gnomish machinery and salvageable fittings. Tinkers Ozzie Togglevolt and Razzle Sprysprocket believe the horrific transformation can be systematically undone. To finish their prototype Recombobulation Device, they rely on adventurers to recover vital parts directly from the afflicted outside Gnomeregan's gates, including intact Restabilization Cogs to balance the machine's inner combustion systems.",
+   "body": "Radiation flooded Gnomeregan in a failed attempt to wipe out the invading troggs. Countless gnomes became sick, hostile leper gnomes, driven from their home as exiles. Even in madness, they carry intricate gnomish machinery and fittings that can be salvaged. Ozzie Togglevolt and Razzle Sprysprocket believe the terrible change can be undone. They need adventurers to recover parts from the afflicted outside Gnomeregan's gates and finish their prototype Recombobulation Device. Intact Restabilization Cogs will balance its inner combustion systems.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "what does restabilization cog do",
     "why collect cogs"
    ],
-   "answer": "Restabilization Cogs are required by tinker Razzle Sprysprocket in Kharanos. Alongside Gyromechanic Gears, they serve as crucial structural pieces for building the Recombobulator, an experimental invention designed to cure irradiated leper gnomes."
+   "answer": "Tinker Razzle Sprysprocket in Kharanos needs Restabilization Cogs. Along with Gyromechanic Gears, they are structural pieces for the Recombobulator, an experimental machine meant to cure irradiated leper gnomes."
   },
   {
    "q": "Where can these cogs be found?",
@@ -35,7 +35,7 @@
     "who drops cogs",
     "where to farm cogs"
    ],
-   "answer": "They are carried by the maddened leper gnomes and the deranged Gibblewilt, who roam the exterior gates and trenches outside Gnomeregan in western Dun Morogh."
+   "answer": "Leper gnomes and the deranged Gibblewilt carry these cogs. They roam the exterior gates and trenches outside Gnomeregan in western Dun Morogh."
   },
   {
    "q": "Can the Recombobulator actually cure the leper gnomes?",
@@ -43,17 +43,17 @@
     "does recombobulator work",
     "is there a cure for leper gnomes"
    ],
-   "answer": "Razzle Sprysprocket and Ozzie Togglevolt are confident that properly calibrated machinery can reverse the mutation. However, gnomish engineering is famously volatile, and whether the Recombobulator can truly restore their people's minds and bodies remains an ongoing and untested endeavor."
+   "answer": "Razzle Sprysprocket and Ozzie Togglevolt believe calibrated machinery can reverse the mutation. Whether the Recombobulator can restore the leper gnomes' minds and bodies remains untested, and the effort to find a cure continues."
   }
  ],
  "angles": [
   {
    "target": "race:Gnome",
-   "text": "For exiled gnomes in Dun Morogh, retrieving these components is a somber duty\u2014stripping machinery from corrupted brethren in the desperate hope of building a cure for Gnomeregan's fallen."
+   "text": "For an exiled gnome in Dun Morogh, recovering these parts means taking machinery from corrupted kin in the hope of a cure for Gnomeregan's fallen."
   },
   {
    "target": "profession:Engineering",
-   "text": "The precise tolerances of Restabilization Cogs highlight classic gnomish design, built to withstand volatile friction and balance delicate mechanical assemblies like the Recombobulator."
+   "text": "As an engineer, you can see how Restabilization Cogs fit gnomish mechanical assemblies like the Recombobulator."
   }
  ],
  "keywords": [
@@ -79,5 +79,6 @@
  "attribution": [
   "Restabilization Cog",
   "Operation Recombobulation (Classic)"
- ]
+ ],
+ "style": 1
 }

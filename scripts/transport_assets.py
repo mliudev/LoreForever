@@ -58,8 +58,9 @@ def render(pack_name, manifest):
                 continue
             lines.append(f'  [{lua_string(rate)}] = {{')
             for seg in entry[rate]:
-                lines.append('    {file = %s, duration = %.9g, start = %.9g},' %
-                             (lua_string(seg['file']), seg['duration'], seg['start']))
+                head = ', head = %d' % seg['head'] if seg.get('head') else ''   # the piece starts section n
+                lines.append('    {file = %s, duration = %.9g, start = %.9g%s},' %
+                             (lua_string(seg['file']), seg['duration'], seg['start'], head))
             lines.append('  },')
         lines.append('}')
     return '\n'.join(lines) + '\n'
@@ -340,14 +341,16 @@ def pause_split(pack, stage):
         whole = base[0]
         data = confined(pack, whole['file']).read_bytes()
         bounds = split_points(data, cuts[whole['sha256']], whole['file'])
+        heads = (manifest.get('heads') or {}).get(whole['sha256'], {})
         folder = whole['file'].replace('\\', '/').rsplit('/', 1)[0]
         pieces, start = [], 0.0
         for i, (a, b) in enumerate(zip(bounds, bounds[1:] + [len(data)]), 1):
             name = f'{folder}/part{i:02d}.mp3'
             written[name] = data[a:b]
             seconds = len(frame_starts(data[a:b], name)) * FRAME_SECONDS
+            head = heads.get(str(cuts[whole['sha256']][i - 2])) if i > 1 else None   # this piece starts section n
             pieces.append({'file': name, 'start': round(start, 6), 'duration': seconds,
-                           'sha256': hashlib.sha256(data[a:b]).hexdigest()})
+                           'sha256': hashlib.sha256(data[a:b]).hexdigest(), **({'head': head} if head else {})})
             start += seconds
         entry['1'], entry['chain'] = pieces, whole['sha256']
         replaced.add(whole['file'].replace('\\', '/'))
@@ -355,6 +358,7 @@ def pause_split(pack, stage):
     if not split:
         return pack, [], set()
     del manifest['cuts']
+    manifest.pop('heads', None)
     copy = Path(stage) / pack.name
     toc = next(pack.glob('*.toc'))
     loads = toc.read_text(encoding='utf-8-sig')
@@ -543,6 +547,13 @@ def validate(pack, *, probe=False, limit=LIMIT, replacing=frozenset(), source_ro
                 if not entry.get('fullHash'):
                     raise TransportError(f'{key}: only complete stories are split at their pauses')
                 split_points(confined(pack, base[0]['file']).read_bytes(), cuts[base[0]['sha256']], key)
+        # Which cut starts which section (spoken headings): only at a story's own cut points, sections from 1.
+        heads = manifest.get('heads', {})
+        if not isinstance(heads, dict) or any(
+                k not in cuts or not isinstance(v, dict) or not v
+                or any(not c.isdigit() or int(c) not in cuts[k] or isinstance(n, bool) or not isinstance(n, int)
+                       or not 1 <= n <= 99 for c, n in v.items()) for k, v in heads.items()):
+            raise TransportError('invalid section heads')
         if not cuts_only and lua.read_text(encoding='utf-8') != render(pack.name, manifest):
             raise TransportError('Transport.lua differs from its receipt')
         for seg in manifest.get('retired', []):

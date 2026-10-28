@@ -10,11 +10,11 @@
    "quest:3902"
   ]
  },
- "summary": "Scavenged Goods are miscellaneous pieces of discarded gear and supplies packed into equipment boxes around Deathknell. Newly risen Forsaken recover them to ensure the endless stream of fresh recruits can be armed and clothed.",
+ "summary": "Around Deathknell, Forsaken gather Scavenged Goods from equipment boxes. Newly risen undead rely on these discarded supplies to arm and clothe the recruits who follow.",
  "sections": [
   {
    "title": "Fending for Themselves",
-   "body": "When new Forsaken pull themselves out of the earth in Deathknell's graveyard, they awaken with little more than rotting burial shrouds. Surrounding settlements and kingdoms offer no aid to the undead, leaving them entirely dependent on what they can salvage. Deathguard Saltain coordinates the collection of discarded weapons, tools, and garments cached in supply crates across the village, distributing them directly to the next batch of risen recruits.",
+   "body": "New Forsaken rise in Deathknell's graveyard with little more than rotting burial shrouds. Nearby settlements and kingdoms offer the undead no aid, so they must salvage what they need. Deathguard Saltain gathers discarded weapons, tools, and garments from supply crates across the village, then gives them to the next recruits to rise.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "why collect scavenged goods",
     "what does saltain do with scavenged goods"
    ],
-   "answer": "Deathguard Saltain collects them to outfit fresh Forsaken recruits rising from the cemetery. Without salvaging remnants from nearby crates, newly risen undead would have to stumble out into Tirisfal Glades completely unarmed and unclad."
+   "answer": "Deathguard Saltain gathers Scavenged Goods to outfit fresh Forsaken rising from the cemetery. Without the supplies in nearby crates, they would enter Tirisfal Glades unarmed and unclad."
   },
   {
    "q": "Where are these goods found?",
@@ -35,7 +35,7 @@
     "scavenged goods location",
     "where are equipment boxes"
    ],
-   "answer": "They are recovered from equipment boxes resting outside cottages and around ruined buildings across Deathknell."
+   "answer": "The goods are found in equipment boxes outside cottages and around ruined buildings across Deathknell."
   },
   {
    "q": "Who asks for the scavenged goods?",
@@ -43,13 +43,13 @@
     "who wants scavenged goods",
     "deathguard saltain quest"
    ],
-   "answer": "Deathguard Saltain, an officer stationed in Deathknell, directs newly awakened Forsaken to round up these provisions to teach them self-reliance and prepare for incoming cohorts."
+   "answer": "Deathguard Saltain, an officer in Deathknell, asks newly awakened Forsaken to gather the supplies. He teaches them self-reliance and prepares for the recruits who follow."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "For the Forsaken, scavenging discarded equipment is a necessity of survival, cementing the harsh truth that the living will grant them no aid or mercy."
+   "text": "As a Forsaken, you need discarded equipment to survive; the living offer you no aid or mercy."
   }
  ],
  "keywords": [
@@ -69,5 +69,6 @@
  "attribution": [
   "Scavenged Goods",
   "Scavenging Deathknell"
- ]
+ ],
+ "style": 1
 }

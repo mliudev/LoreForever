@@ -23,16 +23,16 @@
    "Howling in the Hills"
   ]
  },
- "summary": "Howling in the Hills is an Alliance bounty offered by Verner Osgood in Lakeshire to hunt down Yowler, the fearsome alpha leading the Redridge gnolls. With Stormwind's military stretched too thin fighting the Blackrock orcs to defend the local borders, Lakeshire relies on visiting adventurers to break the gnoll pack's command.",
+ "summary": "Gnoll calls carry across the hills around Lakeshire, where Verner Osgood offers a bounty on Yowler. Stormwind's forces are stretched thin by the Blackrock orcs, leaving the town to rely on visitors against the gnolls.",
  "sections": [
   {
    "title": "The Voice in the Heights",
-   "body": "Even after culling the lesser gnolls raiding the paths around Lakeshire, their ominous calls continue to echo through the Redridge ridges. Verner Osgood, Lakeshire's hardworking farrier, recognizes that killing scouts and scavengers will never stem the tide as long as their pack leader remains alive. Rising above the rabble is Yowler, an exceptionally cunning and massive gnoll whose calls direct the pack across the hills. Verner tasks adventurers with hunting down the beast and severing his paw to ensure the howling is silenced once and for all.",
+   "body": "Gnoll cries still echo through the Redridge hills after lesser gnolls are driven from the paths around Lakeshire. Verner Osgood, the town's farrier, knows the pack will keep raiding while its leader lives. Yowler is a huge, cunning gnoll whose calls direct the pack across the hills. Verner asks for Yowler's paw as proof that the leader has been killed and the calls silenced.",
    "spoiler": 0
   },
   {
    "title": "A Town Abandoned by the Army",
-   "body": "This contract highlights the grim reality facing the eastern borders of the kingdom of Stormwind. With the missing King Varian Wrynn and regency disputes paralyzing high command, royal soldiers are focused almost exclusively on the entrenched Blackrock orc clans in the north. Everyday settlements like Lakeshire are left completely undefended against native menaces like gnolls, forcing townsfolk like Verner Osgood to organize their own bounties to prevent their homes from being overrun.",
+   "body": "Stormwind's eastern border towns face danger with little help from the kingdom's army. King Varian Wrynn is missing, and disputes over the regency have paralyzed high command. Royal soldiers are focused on the Blackrock orc clans in the north, leaving Lakeshire without defenders against gnolls. Townsfolk such as Verner Osgood arrange their own bounties to keep their homes from being overrun.",
    "spoiler": 0
   }
  ],
@@ -45,7 +45,7 @@
     "yowler lore",
     "yowler gnoll"
    ],
-   "answer": "Yowler is the fierce leader of the Redridge gnolls prowling the hills outside Lakeshire. Verner Osgood notes that Yowler is far stronger and more dangerous than common mongrels, serving as the unifying alpha who directs the pack against travelers and local homesteads."
+   "answer": "Yowler leads the Redridge gnolls in the hills outside Lakeshire. Verner says he is stronger and more dangerous than the common gnolls, and directs the pack against travelers and homesteads."
   },
   {
    "q": "Why is Verner Osgood issuing this bounty instead of the town guard?",
@@ -54,7 +54,7 @@
     "why not magistrate solomon",
     "why osgood hiring"
    ],
-   "answer": "Lakeshire's official leadership and the local militia are completely overwhelmed by the encroaching Blackrock orcs. Verner Osgood, a local craftsman and stable master whose livelihood depends on safe roads, frequently steps up to hire wandering mercenaries to eliminate immediate local dangers."
+   "answer": "Verner Osgood offers the bounty because Lakeshire's leadership and militia are overwhelmed by the Blackrock orcs. A local craftsman and stable master, he depends on safe roads for his livelihood and hires wandering mercenaries to face immediate dangers."
   },
   {
    "q": "Where are the Stormwind soldiers who should be protecting Lakeshire?",
@@ -63,7 +63,7 @@
     "why no stormwind guards",
     "stormwind military lakeshire"
    ],
-   "answer": "Stormwind's standing forces are committed elsewhere. The army's presence in Redridge is tied down monitoring and containing the Blackrock clan orcs further up in the mountains, leaving townspeople with zero support against local wildlife, murlocs, and gnolls."
+   "answer": "Stormwind's soldiers are occupied elsewhere. The army is in Redridge to monitor and contain the Blackrock orc clans farther up in the mountains, leaving Lakeshire without support against local wildlife, murlocs, and gnolls."
   },
   {
    "q": "What happens to the Redridge gnolls once Yowler is dead?",
@@ -71,7 +71,7 @@
     "did gnolls leave",
     "what happens after yowler dies"
    ],
-   "answer": "Killing Yowler scatters the command structure of the gnoll pack, blunting coordinated raids on the town's borders. However, gnolls remain a stubborn and enduring nuisance throughout the craggy heights of Redridge."
+   "answer": "Yowler's death scatters the gnoll pack's command and blunts its coordinated raids on the town's borders. Gnolls remain a stubborn nuisance in Redridge's craggy heights."
   },
   {
    "q": "What prerequisite quests lead up to this contract?",
@@ -80,7 +80,7 @@
     "unlock howling in the hills",
     "chain for howling in the hills"
    ],
-   "answer": "The quest chain begins with Verner Osgood sending you on errands to secure horse gear in 'The Price of Shoes' and 'Return to Verner.' After dealing with underbelly scales and thinning the pack in 'A Baying of Gnolls,' Verner grants you the bounty to hunt Yowler directly."
+   "answer": "Verner first sends you to secure horse gear in 'The Price of Shoes' and 'Return to Verner.' After you deal with underbelly scales and thin the pack in 'A Baying of Gnolls,' he offers the bounty on Yowler."
   },
   {
    "q": "Why does Verner need Yowler's paw as proof?",
@@ -88,21 +88,21 @@
     "why yowler paw",
     "yowlers paw proof"
    ],
-   "answer": "Bounties on dangerous beasts require indisputable physical evidence before payment is rendered. Bringing back Yowler's severed paw proves to Verner and the uneasy residents of Lakeshire that the terrifying beast echoing through the hills has truly fallen."
+   "answer": "Verner needs Yowler's severed paw as physical proof before paying the bounty. It shows him and Lakeshire's uneasy residents that the beast whose calls echo through the hills has fallen."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Lakeshire's reliance on mercenaries rather than royal soldiers reveals the deep administrative strain currently weakening the kingdom of Stormwind."
+   "text": "As an Alliance adventurer, you can see how Lakeshire's reliance on mercenaries reflects the strain weakening Stormwind's kingdom."
   },
   {
    "target": "class:Hunter",
-   "text": "Tracking down a dominant alpha like Yowler in his mountain lair demands a keen eye for territorial markings and pack behavior."
+   "text": "As a hunter, you can track Yowler in his mountain lair by watching for territorial marks and signs of pack behavior."
   },
   {
    "target": "class:Warrior",
-   "text": "Taking on Yowler means confronting an opponent who rules his brutal pack through sheer physical dominance, demanding a direct clash of brute force."
+   "text": "As a warrior, you face Yowler, who rules his pack through physical dominance and demands a direct clash of strength."
   }
  ],
  "keywords": [
@@ -127,5 +127,6 @@
  ],
  "attribution": [
   "Howling in the Hills"
- ]
+ ],
+ "style": 1
 }

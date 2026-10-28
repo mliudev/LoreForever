@@ -10,11 +10,11 @@
    "quest:7162"
   ]
  },
- "summary": "The Stormpike Banner is a military standard hidden deep within the treacherous Icewing Cavern in Alterac Valley. Alliance recruits must brave wild harpies to recover it as an initiation trial, proving they are worthy to wear the Stormpike insignia.",
+ "summary": "Alliance recruits enter Icewing Cavern to earn the Stormpike Banner. The trial lies southwest of Dun Baldar in Alterac Valley, where harpies guard the standard.",
  "sections": [
   {
    "title": "A Rite of Induction",
-   "body": "To officially join the ranks of the Stormpike expedition in Alterac Valley, prospective recruits must prove their mettle before they ever clash with the Frostwolf orcs. Lieutenant Haggerdin sends newly arrived Alliance soldiers into the Icewing Caverns, situated southwest of Dun Baldar. Planted deep inside this frozen subterranean den, the Stormpike Banner serves as a testing ground: anyone brave enough to brave the native harpies, seize the standard, and bring it back alive earns the rank and insignia of an initiate in the Stormpike Guard.",
+   "body": "Lieutenant Haggerdin sends new Alliance soldiers into Icewing Cavern southwest of Dun Baldar. Before they face the Frostwolf orcs, recruits must brave the harpies, seize the Stormpike Banner, and bring it back alive. Those who return earn the rank and insignia of an initiate in the Stormpike Guard.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "where is the stormpike banner",
     "how to find banner"
    ],
-   "answer": "The banner is planted deep inside the Icewing Caverns, a frost-choked cave system situated southwest of Dun Baldar within Alterac Valley."
+   "answer": "The Stormpike Banner lies deep inside Icewing Cavern, southwest of Dun Baldar in Alterac Valley."
   },
   {
    "q": "Why do recruits have to retrieve the banner?",
@@ -35,7 +35,7 @@
     "why get banner",
     "haggerdin quest"
    ],
-   "answer": "Lieutenant Haggerdin requires all Alliance recruits to demonstrate their courage before joining the battle lines. Bringing back the banner from the dangerous, harpy-infested cavern earns the recruit their initial Stormpike Insignia."
+   "answer": "Lieutenant Haggerdin asks Alliance recruits to prove their courage before joining the battle lines. Bringing back the banner earns them their initial Stormpike Insignia."
   },
   {
    "q": "What threats guard the banner inside the cave?",
@@ -43,7 +43,7 @@
     "monsters near banner",
     "icewing cavern enemies"
    ],
-   "answer": "The Icewing Caverns are fiercely defended by savage local harpies who will viciously attack any trespassers seeking the standard."
+   "answer": "Savage local harpies guard Icewing Cavern and attack trespassers seeking the banner."
   },
   {
    "q": "Who do I return the banner to once found?",
@@ -51,17 +51,17 @@
     "turn in banner",
     "banner hand in"
    ],
-   "answer": "Deliver the recovered banner to Lieutenant Haggerdin, the Alliance officer stationed outside the entrance in the Alterac Mountains."
+   "answer": "Return the banner to Lieutenant Haggerdin, the Alliance officer stationed outside the cave entrance in the Alterac Mountains."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Retrieving the banner marks your formal entrance into the Stormpike Guard, earning you the right to carry their battle insignia against the Frostwolf Clan."
+   "text": "As an Alliance recruit, bringing back the banner earns you entry into the Stormpike Guard and the right to carry its battle insignia against the Frostwolf Clan."
   },
   {
    "target": "race:Dwarf",
-   "text": "The banner represents Ironforge's sovereign claim and the Stormpike clan's sacred mission to uncover the relics of their past throughout the valley."
+   "text": "As a dwarf, you see the banner as a sign of Ironforge's claim and the Stormpike clan's mission to uncover relics of their past throughout the valley."
   }
  ],
  "keywords": [
@@ -82,5 +82,6 @@
  "attribution": [
   "Stormpike Banner",
   "Proving Grounds (Alterac Valley) (Alliance)"
- ]
+ ],
+ "style": 1
 }

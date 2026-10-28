@@ -10,16 +10,16 @@
    "quest:443"
   ]
  },
- "summary": "Rot Hide Ichor is a foul bodily fluid harvested from the undead Rot Hide gnolls infesting Fenris Isle in Lordamere Lake. Apothecary Renferrel collects samples of the substance at the Sepulcher to uncover the origin of the gnolls' corruption and devise a strategy against them.",
+ "summary": "On Fenris Isle, Rot Hide Ichor draws the Royal Apothecary Society’s attention. Apothecary Renferrel gathers it at the Sepulcher to learn what corrupted the gnolls and how to oppose them.",
  "sections": [
   {
    "title": "A Plague in the Blood",
-   "body": "The Rot Hide gnolls of Fenris Isle are not ordinary wild beasts; they are visibly decomposed and twisted by unnatural blight. Rather than normal blood, their veins pump a noxious ichor that sustains their animated flesh. The Royal Apothecary Society suspects that this fluid holds the secret to how the pack was corrupted and who commands them from within the ruined keep of Fenris Isle.",
+   "body": "On Fenris Isle, Rot Hide gnolls are no ordinary beasts. Their bodies are decomposed and twisted by an unnatural blight, and a noxious ichor flows through their veins to sustain their animated flesh. The Royal Apothecary Society suspects the fluid may reveal how the pack was corrupted and who commands them from within the ruined keep.",
    "spoiler": 0
   },
   {
    "title": "Apothecary Research",
-   "body": "Apothecary Renferrel gathers vials of this ichor to analyze its properties at the Sepulcher. By isolating the chemical and magical components fueling the gnolls, the Forsaken hope to pinpoint vulnerabilities before committing troops to a full-scale assault across Lordamere Lake.",
+   "body": "At the Sepulcher, Apothecary Renferrel gathers vials of the ichor for study. The Forsaken hope to isolate the chemical and magical forces that fuel the gnolls, then find their weaknesses before sending troops across Lordamere Lake in a full assault.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "how to find rot hide ichor",
     "gnoll ichor location"
    ],
-   "answer": "It is gathered from the bodies of the Rot Hide gnolls dwelling across Fenris Isle, located in Lordamere Lake east of Silverpine Forest's mainland."
+   "answer": "Rot Hide Ichor comes from the Rot Hide gnolls dwelling across Fenris Isle, in Lordamere Lake east of Silverpine Forest's mainland."
   },
   {
    "q": "Why does Apothecary Renferrel want this ichor?",
@@ -40,7 +40,7 @@
     "renferrel quest reason",
     "purpose of rot hide ichor"
    ],
-   "answer": "Renferrel seeks to dissect the strange fluid to discover what corrupted the gnolls and identify any physical or alchemical weaknesses the Forsaken can exploit before attacking the island."
+   "answer": "Apothecary Renferrel studies the fluid to learn what corrupted the gnolls and find physical or alchemical weaknesses the Forsaken can use before attacking the island."
   },
   {
    "q": "Are the Rot Hide gnolls Scourge?",
@@ -49,7 +49,7 @@
     "who controls rot hides",
     "what are rot hide gnolls"
    ],
-   "answer": "They are undead gnolls warped by plague, but the Forsaken are actively investigating exactly who or what created them and commands their presence on Fenris Isle."
+   "answer": "The Rot Hide gnolls are undead and warped by plague. The Forsaken are investigating who or what created them and commands them on Fenris Isle."
   },
   {
    "q": "Do all gnolls have this ichor?",
@@ -57,13 +57,13 @@
     "do all gnolls drop ichor",
     "normal gnoll blood"
    ],
-   "answer": "No. The fluid is unique to the Rot Hide pack, whose flesh and blood have been corrupted by foul necromantic blights."
+   "answer": "No. The ichor belongs to the Rot Hide pack, whose flesh and blood are corrupted by foul necromantic blights."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "For the Forsaken, studying the ichor is vital military intelligence to secure Silverpine's eastern flank and advance the Royal Apothecary Society's mastery over plague science."
+   "text": "As Forsaken, you can see why studying the ichor matters: it offers military intelligence to secure Silverpine's eastern flank and advance the Royal Apothecary Society's mastery of plague science."
   }
  ],
  "keywords": [
@@ -88,5 +88,6 @@
  "attribution": [
   "Rot Hide Ichor",
   "Rot Hide Ichor (quest)"
- ]
+ ],
+ "style": 1
 }

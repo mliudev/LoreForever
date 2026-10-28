@@ -10,11 +10,11 @@
    "quest:763"
   ]
  },
- "summary": "The Totem of Hawkwind is a carved token carried by young tauren departing Camp Narache. Presented to Baine Bloodhoof in Bloodhoof Village, it serves as proof that the bearer has completed their initial trials and is prepared to undergo the remainder of the Rites of the Earthmother.",
+ "summary": "At Camp Narache, young tauren receive the Totem of Hawkwind before departing for Bloodhoof Village. They present it to Baine Bloodhoof as proof that they have completed their first trials and are ready to continue the Rites of the Earthmother.",
  "sections": [
   {
    "title": "A Chieftain's Endorsement",
-   "body": "Carved by the hand of Chief Hawkwind atop the Red Cloud Mesa, this wooden totem acts as an introduction and proof of passage for youth coming of age. In tauren tradition, formal writ is rarely used; instead, meaningful symbols and familiar tribal craft carry a leader's intent. When an aspiring youth completes their preliminary trials at Camp Narache, Hawkwind crafts this icon to send them forward along the road into the wider expanse of Mulgore. The distinctive carvings identify the bearer to Baine Bloodhoof, signaling that they possess the spirit and strength required to face the next trials and seek the eventual blessing of Thunder Bluff.",
+   "body": "Chief Hawkwind carves the Totem of Hawkwind atop Red Cloud Mesa for youth coming of age. The token introduces its bearer and proves their passage. Tauren rarely use formal writ; meaningful symbols and familiar tribal craft carry a leader's intent. After a youth completes the first trials at Camp Narache, Hawkwind sends them onward with the totem, along the road into the wider lands of Mulgore. Its distinct carvings identify the bearer to Baine Bloodhoof and show they have the spirit and strength for the next trials, on the way to seeking the blessing of Thunder Bluff.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "totem of hawkwind purpose",
     "why do i have this totem"
    ],
-   "answer": "It serves as a token of passage. Young tauren carry it from Camp Narache to Bloodhoof Village to show Baine Bloodhoof that Chief Hawkwind has deemed them ready to continue the Rites of the Earthmother."
+   "answer": "Young tauren carry the Totem of Hawkwind from Camp Narache to Bloodhoof Village as a token of passage. They show it to Baine Bloodhoof as proof Chief Hawkwind has judged them ready to continue the Rites of the Earthmother."
   },
   {
    "q": "Who made the totem?",
@@ -35,7 +35,7 @@
     "totem maker",
     "hawkwind totem origins"
    ],
-   "answer": "The totem is carved directly by Chief Hawkwind, the leader of the settlement on Red Cloud Mesa. Its distinct carvings are instantly recognized by allied chieftains across Mulgore."
+   "answer": "Chief Hawkwind carves the totem at Red Cloud Mesa. Its distinct carvings are recognized by allied chieftains across Mulgore."
   },
   {
    "q": "Who receives the Totem of Hawkwind?",
@@ -44,7 +44,7 @@
     "totem recipient",
     "where does the totem go"
    ],
-   "answer": "It is brought to Baine Bloodhoof, son of Cairne Bloodhoof, who oversees Bloodhoof Village to the east of Red Cloud Mesa."
+   "answer": "The totem is brought to Baine Bloodhoof, son of Cairne Bloodhoof. He oversees Bloodhoof Village, east of Red Cloud Mesa."
   },
   {
    "q": "Why use a totem instead of a letter?",
@@ -52,13 +52,13 @@
     "why not a letter",
     "tauren token traditions"
    ],
-   "answer": "Tauren culture relies heavily on oral tradition, physical artistry, and ancestral symbols. A carved totem bears the personal touch and spirit of the chieftain who shaped it, carrying far more weight among tribal leaders than ink on parchment."
+   "answer": "Tauren rely on oral tradition, physical artistry, and ancestral symbols. A carved totem carries the personal touch and spirit of its maker, and tribal leaders give it more weight than ink on parchment."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "Carrying this totem marks the definitive rite of passage away from childhood on the Red Cloud Mesa and out into the greater tribal lands of Mulgore."
+   "text": "As a tauren, carrying this totem marks your passage from childhood on Red Cloud Mesa into Mulgore's greater tribal lands."
   }
  ],
  "keywords": [
@@ -82,5 +82,6 @@
  "attribution": [
   "Totem of Hawkwind",
   "Rites of the Earthmother (2)"
- ]
+ ],
+ "style": 1
 }

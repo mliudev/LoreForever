@@ -8,11 +8,11 @@
   "wiki": "Lanka Farshot",
   "refs": 1
  },
- "summary": "Lanka Farshot is a tauren hunter trainer stationed at Camp Narache within the Red Cloud Mesa. He guides novice tauren hunters as they take their first steps in tracking, marksmanship, and surviving the plains of Mulgore.",
+ "summary": "At Camp Narache, Lanka Farshot guides young tauren onto the hunter's path. He is stationed within the Red Cloud Mesa and teaches tracking, marksmanship, and survival on Mulgore's plains.",
  "sections": [
   {
    "title": "Mentor of the Red Cloud Mesa",
-   "body": "Standing watch over Camp Narache, Lanka Farshot greets new tauren called to the path of the hunter. Fresh recruits arrive carrying an etched note directing them to seek his counsel. Under his steady eye, apprentices learn the fundamentals of ranged combat, tracking prey, and respecting the wild beasts that roam the grassy plains of Mulgore. His teachings ensure that every young hunter serves as a capable scout and provider for the tribe.",
+   "body": "At Camp Narache, Lanka Farshot welcomes new tauren called to the hunter's path. Fresh recruits arrive with an etched note that sends them to seek his counsel. Under his guidance, they learn ranged combat, how to track prey, and respect for the wild beasts roaming Mulgore's grassy plains. He prepares each young hunter to scout and provide for the tribe.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "lanka farshot npc",
     "camp narache hunter"
    ],
-   "answer": "Lanka Farshot is the tauren hunter trainer stationed at Camp Narache on the Red Cloud Mesa in Mulgore. He provides initial training and guidance to young hunters beginning their journey."
+   "answer": "Lanka Farshot trains tauren hunters at Camp Narache on the Red Cloud Mesa in Mulgore. He guides young hunters as they begin their training."
   },
   {
    "q": "What quests does Lanka Farshot offer?",
@@ -32,7 +32,7 @@
     "lanka farshot quests",
     "hunter quests camp narache"
    ],
-   "answer": "Lanka receives young tauren hunters sent to him via an etched note upon their arrival in Camp Narache and directs them onto the hunter's path as they learn the basics of their craft."
+   "answer": "An etched note directs young tauren hunters to Lanka Farshot when they arrive at Camp Narache. He guides them through the first steps of the hunter's craft."
   },
   {
    "q": "Is Lanka Farshot related to Mixie Farshot?",
@@ -40,17 +40,17 @@
     "is lanka related to mixie",
     "mixie farshot relation"
    ],
-   "answer": "Despite sharing the same surname, there is no evidence that Lanka Farshot is related to the goblin Mixie Farshot."
+   "answer": "The shared surname gives no evidence that Lanka Farshot is related to the goblin Mixie Farshot."
   }
  ],
  "angles": [
   {
    "target": "class:Hunter",
-   "text": "For tauren hunters beginning their training in Mulgore, Lanka Farshot is the very first mentor they encounter, teaching fundamental marksmanship and wild survival."
+   "text": "As a tauren hunter beginning training in Mulgore, you meet Lanka Farshot as your first mentor. He teaches marksmanship and survival in the wild."
   },
   {
    "target": "race:Tauren",
-   "text": "Lanka embodies the traditional tauren hunting philosophy, viewing marksmanship and tracking as vital duties for protecting the tribe and living in balance with the plains."
+   "text": "As a tauren, you see Lanka Farshot teach hunting as a duty to protect the tribe and live in balance with the plains."
   }
  ],
  "keywords": [
@@ -71,5 +71,6 @@
  ],
  "attribution": [
   "Lanka Farshot"
- ]
+ ],
+ "style": 1
 }

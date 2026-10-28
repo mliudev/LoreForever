@@ -8,11 +8,11 @@
   "wiki": "Nida",
   "refs": 1
  },
- "summary": "Hilary is a young human girl living in the lakeside town of Lakeshire in the Redridge Mountains. Distraught after dropping a cherished gift from her father into the lake, she spends her time crying along the town's docks.",
+ "summary": "At the Lakeshire docks, Hilary cries over the necklace she lost in Lake Everstill.",
  "sections": [
   {
    "title": "A Child's Lost Keepsake",
-   "body": "Amid the mounting threats of gnoll invasions and Blackrock orc warbands pressing down on Lakeshire, the children of the town still face everyday childhood troubles. Hilary accidentally dropped a necklace given to her by her father into the murky waters of Lake Everstill. Terrified that her father will be angry with her, the distraught girl waits by the town pier in tears, hoping someone brave enough will plunge into the lake to retrieve it.",
+   "body": "Hilary waits in tears by the Lakeshire pier, afraid her father will be angry. She dropped the necklace he gave her into Lake Everstill, and hopes someone brave will dive in to find it. Gnoll invasions and Blackrock orc warbands press upon Lakeshire, but children there still face troubles of their own.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "nida lakeshire",
     "crying girl lakeshire"
    ],
-   "answer": "Hilary is a young human child residing in Lakeshire in the Redridge Mountains, often found tearfully wandering near the docks."
+   "answer": "Hilary is a young human girl in Lakeshire, often found crying near the docks."
   },
   {
    "q": "Why is Hilary crying?",
@@ -33,7 +33,7 @@
     "why is nida sad",
     "nida crying sound"
    ],
-   "answer": "Hilary lost a precious necklace that her father bought for her. It slipped into the waters of Lake Everstill, and she is terrified of her father's anger once he discovers it is missing."
+   "answer": "Hilary cries because the necklace her father bought for her slipped into Lake Everstill, and she fears his anger when he learns it is missing."
   },
   {
    "q": "Who is trying to help her find the necklace?",
@@ -42,7 +42,7 @@
     "nida friend",
     "who gives nida quest"
    ],
-   "answer": "Her playmate Shawn notices her distress and asks passing adventurers to dive into Lake Everstill to retrieve the sunken necklace for her."
+   "answer": "Her playmate Shawn sees her distress and asks passing adventurers to dive into Lake Everstill for her necklace."
   },
   {
    "q": "Where is the lost necklace located?",
@@ -50,13 +50,13 @@
     "where is nidas necklace",
     "necklace location lake everstill"
    ],
-   "answer": "The necklace rests beneath the surface of Lake Everstill, submerged near the town's docks where Hilary dropped it."
+   "answer": "The necklace lies underwater in Lake Everstill, near the Lakeshire docks where Hilary dropped it."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Even as the Redridge Mountains struggle with larger regional crises, helping Hilary recovers a small sense of warmth and innocence for the troubled residents of Lakeshire."
+   "text": "As the Redridge Mountains face larger troubles, helping Hilary brings a small measure of warmth and innocence to Lakeshire."
   }
  ],
  "keywords": [
@@ -77,5 +77,6 @@
  ],
  "attribution": [
   "Nida"
- ]
+ ],
+ "style": 1
 }

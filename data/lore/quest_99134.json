@@ -17,16 +17,16 @@
   "wiki": "Discipline (Forever)",
   "chain": []
  },
- "summary": "Discipline is a task issued by Executor Zygand in Tirisfal Glades. Unimpressed by the competence of the local Deathguard garrison, Zygand commissions outside adventurers to administer physical punishment to slackening undead sentries.",
+ "summary": "Executor Zygand turns to outsiders in Tirisfal Glades to keep his Deathguard sentries alert. He has little faith in the garrison and orders physical punishment for those who slacken.",
  "sections": [
   {
    "title": "Enforcing Order in Undeath",
-   "body": "The Deathguard form the military spine of the Forsaken across Lordaeron, but freedom from the Lich King's iron will brings its own complications: apathy, fatigue, and negligence. Taskmasters like Executor Zygand have little patience for slackening discipline, especially with threats from the Scarlet Crusade and Scourge prowling Tirisfal's borders. To keep the troops sharp, officers rely on blunt instruments and aggressive oversight to maintain military readiness.",
+   "body": "The Deathguard guard the Forsaken across Lordaeron. Freedom from the Lich King's control has brought its own troubles: apathy, fatigue, and neglect. Executor Zygand has little patience for sentries who let their discipline slip. The Scarlet Crusade and Scourge prowl Tirisfal's borders, and the garrison must stay ready. Its officers use force and close oversight to keep the troops alert.",
    "spoiler": 0
   },
   {
    "title": "The Executor's Ledger",
-   "body": "Executor Zygand deliberately employs independent operators rather than ranks from within the garrison to administer his punishments. Using the Executor's Motivator, outsiders remind negligent Deathguards that survival in service to the Dark Lady requires absolute vigilance. Those who fail in their duties quickly learn that unlife offers no shelter from consequence.",
+   "body": "Executor Zygand chooses outsiders to punish negligent Deathguards instead of using soldiers from his own garrison. With the Executor's Motivator, you remind sentries that service to the Dark Lady demands constant vigilance. Even in undeath, they cannot escape the consequences of neglecting their duties.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who starts discipline",
     "executor zygand quest"
    ],
-   "answer": "Discipline is given by Executor Zygand, an exacting Forsaken officer stationed in Tirisfal Glades who oversees regional defenses and demands strict obedience from his troops."
+   "answer": "Executor Zygand gives the order in Tirisfal Glades, where he oversees the region's defenses and demands obedience from his troops."
   },
   {
    "q": "Why does Executor Zygand want the Deathguard punished?",
@@ -47,7 +47,7 @@
     "why motivate deathguard",
     "zygand deathguard reason"
    ],
-   "answer": "Zygand views the Deathguards under his command as incompetent and lacking proper drive. Because complacency threatens Forsaken survival in Tirisfal, he enforces harsh discipline to shock the sentries into alertness."
+   "answer": "Zygand considers his Deathguards incompetent and lacking drive. He believes their complacency endangers the Forsaken in Tirisfal, so he uses harsh punishment to rouse the sentries."
   },
   {
    "q": "Why does Zygand use an adventurer instead of another soldier?",
@@ -55,7 +55,7 @@
     "why me discipline",
     "why use outsiders zygand"
    ],
-   "answer": "Zygand notes that as an outsider who is not yet part of the Deathguard, you have not had the opportunity to disappoint him."
+   "answer": "Zygand says you have not yet joined the Deathguard, so you have not had the chance to disappoint him."
   },
   {
    "q": "What is the Executor's Motivator?",
@@ -63,7 +63,7 @@
     "executors motivator",
     "what is the motivator zygand"
    ],
-   "answer": "The Executor's Motivator is a punitive disciplinary tool provided by Executor Zygand. It is used to deliver a painful reprimand to idling Deathguards stationed across Tirisfal Glades."
+   "answer": "The Executor's Motivator is a disciplinary tool Zygand gives you to punish idle Deathguards stationed across Tirisfal Glades."
   },
   {
    "q": "What happens if you refuse Zygand's order?",
@@ -71,7 +71,7 @@
     "zygand threats",
     "ledger threat zygand"
    ],
-   "answer": "Zygand warns that hesitation or refusal will result in your own name being inscribed in his ledger, marking you as the next target for someone else to discipline."
+   "answer": "Zygand warns that if you hesitate or refuse, he will enter your name in his ledger and send someone else to discipline you."
   },
   {
    "q": "How do the Forsaken view pain?",
@@ -79,17 +79,17 @@
     "do undead feel pain",
     "forsaken pain lore"
    ],
-   "answer": "Zygand counts pain among the few delights still afforded to him in death. His enthusiasm for punishment reflects his own harsh temperament."
+   "answer": "Zygand counts pain among the few pleasures still open to him in death. His delight in punishment reflects his harsh nature."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "For the Forsaken, military discipline is a matter of species survival. Sentries who succumb to apathy endanger the entire territory of Tirisfal Glades."
+   "text": "For the Forsaken, discipline means survival. Sentries who give in to apathy put all of Tirisfal Glades at risk."
   },
   {
    "target": "faction:Horde",
-   "text": "The grim methods of Forsaken commanders illustrate the stark, unforgiving realities of life and governance within the northern reaches of the Horde."
+   "text": "Forsaken commanders use grim methods, reflecting the harsh rule of the Horde's northern lands."
   }
  ],
  "keywords": [
@@ -108,5 +108,6 @@
  ],
  "attribution": [
   "Discipline (Forever)"
- ]
+ ],
+ "style": 1
 }

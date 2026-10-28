@@ -10,11 +10,11 @@
    "quest:168"
   ]
  },
- "summary": "A Miners' Union Card is an identification credential once carried by laborers working the rich subterranean veins beneath Moonbrook. Following a catastrophic cave-in that sealed a wing of the tunnels, these tokens now remain on the restless skeletal corpses wandering the dark drifts.",
+ "summary": "In Moonbrook, union cards mark the laborers lost beneath the earth. Workers once carried them through the mines, and now the cards remain with skeletal dead in the dark drifts.",
  "sections": [
   {
    "title": "Tragedy in the Deep",
-   "body": "Long before the Defias Brotherhood took absolute control over Moonbrook, laborers toiled underground under the banner of the miners' guild, extracting valuable ore for the kingdom. That ended in disaster when a severe tunnel collapse crushed a major shaft, trapping and killing dozens of workers beneath tons of rock. Rather than finding a quiet grave, those who perished rose again as skeletal miners, excavators, and dynamiters. The union cards clutched in their bony pockets are the sole surviving proof of their identities, sought out by surviving colleagues in Stormwind hoping to bring closure to grieving families.",
+   "body": "Before the Defias Brotherhood took control of Moonbrook, miners worked below ground for the guild, drawing valuable ore for the kingdom. A tunnel collapse crushed a major shaft and killed dozens beneath the rock. The dead rose as skeletal miners, excavators, and dynamiters. Union cards remain in their bony pockets, the last proof of who they were. In Stormwind, surviving colleagues seek the cards to learn the dead workers' identities and bring closure to their families.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "miners card",
     "union card"
    ],
-   "answer": "It is an official identification card belonging to a member of the guild that once excavated the Moonbrook mines. Surviving workers use these cards to confirm who perished in the underground disaster."
+   "answer": "A Miners' Union Card identified a member of the guild that worked the Moonbrook mines. Surviving workers use the cards to learn who died in the cave-in."
   },
   {
    "q": "Where do these cards come from?",
@@ -35,7 +35,7 @@
     "who drops miners cards",
     "card drop location"
    ],
-   "answer": "They are recovered from the undead laborers\u2014such as skeletal miners, undead excavators, and undead dynamiters\u2014haunting the collapsed drifts inside the Deadmines tunnels beneath Moonbrook."
+   "answer": "The cards are found on undead laborers in the collapsed drifts beneath Moonbrook, including skeletal miners, undead excavators, and undead dynamiters."
   },
   {
    "q": "Why are the miners undead?",
@@ -44,7 +44,7 @@
     "how did miners die",
     "deadmines undead"
    ],
-   "answer": "A catastrophic cave-in sealed them in a deep shaft. What raised them as undead is not explained; their remains now haunt the collapsed drifts beneath Moonbrook."
+   "answer": "A cave-in sealed the miners in a deep shaft. What raised them as undead is unknown; their remains now haunt the collapsed drifts beneath Moonbrook."
   },
   {
    "q": "Who wants these cards returned?",
@@ -53,17 +53,17 @@
     "collecting memories questgiver",
     "turn in union cards"
    ],
-   "answer": "Surviving co-workers who escaped the cave-in now reside in Stormwind City, collecting the cards so they can notify the families of the fallen and grant them peace."
+   "answer": "Surviving co-workers who escaped the cave-in and now live in Stormwind City seek the cards. They hope to tell the fallen miners' families what happened and bring them peace."
   }
  ],
  "angles": [
   {
    "target": "profession:Mining",
-   "text": "For prospectors and pickaxe wielders, the cards serve as a grim reminder of the deadly risks of subterranean cave-ins and unmanaged mine shafts."
+   "text": "For prospectors and miners, these cards recall the deadly risks of cave-ins and mine shafts left unmanaged."
   },
   {
    "target": "faction:Alliance",
-   "text": "Recovering these lost tokens provides closure to families across the kingdom of Stormwind who never learned the true fate of their working kin."
+   "text": "Recovering the cards can bring closure to families across the kingdom of Stormwind who never learned what became of their working kin."
   }
  ],
  "keywords": [
@@ -87,5 +87,6 @@
  "attribution": [
   "Miners' Union Card",
   "Collecting Memories"
- ]
+ ],
+ "style": 1
 }

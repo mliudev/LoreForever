@@ -17,16 +17,16 @@
   "wiki": "Wanted: Maggot Eye",
   "chain": []
  },
- "summary": "Wanted: Maggot Eye is an official death bounty posted on the Brill notice board by the town's Forsaken leadership. A notorious gnoll has been looting nearby graveyards and farms to supply dead bodies directly to the Lich King's Scourge. Executor Zygand requires proof of the creature's execution to secure the lands around Garren's Haunt.",
+ "summary": "In Brill, the Forsaken leadership has posted a death bounty for Maggot Eye. The notorious gnoll robs nearby graveyards and farms, supplying bodies to the Lich King's Scourge. Executor Zygand demands proof of the kill to secure the lands around Garren's Haunt.",
  "sections": [
   {
    "title": "A Grave Crime",
-   "body": "In Tirisfal Glades, the dead are far from resting peacefully. The gnoll known as Maggot Eye earned a severe death sentence not merely for scavenging, but for active collaboration with the Lich King. While gnolls are generally viewed as savage brutes driven by simple hunger, Maggot Eye has been systematically digging up corpses and collecting remains to fuel the ranks of the Scourge army.",
+   "body": "In Tirisfal Glades, the dead do not rest in peace. Maggot Eye faces a severe death sentence for aiding the Lich King. Gnolls are usually seen as savage brutes driven by hunger, but Maggot Eye digs up corpses and gathers remains to strengthen the Scourge army.",
    "spoiler": 0
   },
   {
    "title": "Justice in Brill",
-   "body": "For the Forsaken, whose entire existence hinges on breaking free from the Lich King's dominion, feeding dead kin back into the Scourge war machine is among the highest offenses possible. Executor Zygand, overseeing local military enforcement in Brill, commissioned this bounty to put an end to the grave robberies near Garren's Haunt. To collect the prize, the executioner must sever Maggot Eye's paw as unmistakable proof that the beast will trouble Tirisfal no longer.",
+   "body": "The Forsaken fight to break free of the Lich King's control, so feeding their dead kin to the Scourge is among the gravest offenses. Executor Zygand oversees local military enforcement in Brill and ordered the bounty to end the grave robberies near Garren's Haunt. To claim the prize, you need Maggot Eye's paw as proof that the beast can trouble Tirisfal no longer.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who is maggot eye",
     "maggot eye gnoll"
    ],
-   "answer": "Maggot Eye is an infamous gnoll prowling the northern regions of Tirisfal Glades. Considered vile even among his kind, he pillages the farms near Garren's Haunt and gathers corpses for the Scourge."
+   "answer": "Maggot Eye is an infamous gnoll prowling northern Tirisfal Glades. He raids farms near Garren's Haunt and gathers corpses for the Scourge, making him vile even among his kind."
   },
   {
    "q": "Why do the Forsaken want him dead?",
@@ -47,7 +47,7 @@
     "maggot eye crimes",
     "why bounty maggot eye"
    ],
-   "answer": "He was sentenced to death for directly supplying freshly looted corpses to the Lich King's Scourge army. Denying soldiers and resources to the Scourge is essential to Forsaken survival."
+   "answer": "The Forsaken sentenced Maggot Eye to death for supplying looted corpses to the Lich King's Scourge army. Keeping soldiers and resources from the Scourge is vital to Forsaken survival."
   },
   {
    "q": "Where is Maggot Eye usually found?",
@@ -56,7 +56,7 @@
     "where is maggot eye",
     "find maggot eye"
    ],
-   "answer": "He can be found lurking inside an old ruined hut in Garren's Haunt, a ruined farmstead located to the north of Brill."
+   "answer": "Maggot Eye lurks in an old ruined hut at Garren's Haunt, a ruined farmstead north of Brill."
   },
   {
    "q": "Who pays the reward for the bounty?",
@@ -65,7 +65,7 @@
     "maggot eye quest turn in",
     "brill bounty rewarder"
    ],
-   "answer": "Executor Zygand in the center of Brill accepts proof of the kill and distributes the town's reward on behalf of the Forsaken military authority."
+   "answer": "Executor Zygand, in the center of Brill, accepts proof of the kill and pays the town's reward on behalf of the Forsaken military authority."
   },
   {
    "q": "Why does Executor Zygand want his paw?",
@@ -74,7 +74,7 @@
     "paw proof",
     "maggot eyes paw"
    ],
-   "answer": "In classic frontier justice, taking a unique physical trophy like Maggot Eye's paw ensures indisputable proof of death before the bounty funds are paid out."
+   "answer": "Executor Zygand wants Maggot Eye's paw as unmistakable proof of death before the bounty is paid."
   },
   {
    "q": "Are gnolls allied with the Scourge?",
@@ -83,17 +83,17 @@
     "do gnolls work for lich king",
     "scourge gnolls"
    ],
-   "answer": "Generally gnolls act independently out of hunger and greed, but Maggot Eye specifically trades or funnels dead bodies to the Scourge, making him an exceptionally dangerous collaborator."
+   "answer": "Gnolls generally act on their own out of hunger and greed, but Maggot Eye supplies dead bodies to the Scourge, making him a dangerous collaborator."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "Every corpse stolen by Maggot Eye is a fallen sibling turned back into an enslaved puppet of the Lich King. Putting him down is a matter of both national defense and personal vengeance."
+   "text": "As an Undead, you know every corpse Maggot Eye steals is a fallen sibling enslaved again by the Lich King. Stopping him defends the Forsaken and answers a personal wrong."
   },
   {
    "target": "faction:Horde",
-   "text": "Tirisfal's northern borders must be pacified if the Horde is to maintain a secure foothold in Lordaeron against remnants of the Scourge."
+   "text": "As a member of the Horde, you need Tirisfal's northern borders secure to hold Lordaeron against Scourge remnants."
   }
  ],
  "keywords": [
@@ -119,5 +119,6 @@
  ],
  "attribution": [
   "Wanted: Maggot Eye"
- ]
+ ],
+ "style": 1
 }

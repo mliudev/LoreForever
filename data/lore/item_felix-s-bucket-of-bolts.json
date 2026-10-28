@@ -10,11 +10,11 @@
    "quest:3361"
   ]
  },
- "summary": "Felix's Bucket of Bolts is a container of spare hardware and tools owned by Felix Whindlebolt, a gnome refugee who fled the fall of Gnomeregan. During his escape into Dun Morogh, the bucket was snatched by local Frostmane trolls and dragged into their nearby camps.",
+ "summary": "In Dun Morogh, Felix Whindlebolt is missing the tools he carried from Gnomeregan. Frostmane trolls seized his bucket during his flight and took it to their camps.",
  "sections": [
   {
    "title": "A Refugee's Scattered Tools",
-   "body": "When radiation flooded Gnomeregan following the disaster against the troggs, thousands of gnomes fled into the freezing wilds of Dun Morogh with whatever they could carry. Felix Whindlebolt managed to escape with his vital equipment, but in the chaos of his flight toward Anvilmar, he was ambushed by the Frostmane trolls who inhabit the crags southwest of town. The trolls plundered his belongings, including this bucket full of bolts and parts, leaving the artisan stranded without the essential materials needed to ply his craft in exile.",
+   "body": "Felix Whindlebolt lost his tools while fleeing Gnomeregan. After the disaster against the troggs, radiation drove thousands of gnomes into Dun Morogh's freezing wilds with whatever they could carry. Felix escaped with his equipment and headed for Anvilmar, but Frostmane trolls from the crags southwest of town ambushed him. They plundered his belongings, including his bucket of bolts and parts, leaving the artisan without the materials he needed for his craft in exile.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "felixs bucket",
     "felix bucket of bolts"
    ],
-   "answer": "It is a heavy container filled with metal bolts, hardware, and tinkering supplies belonging to Felix Whindlebolt, an exiled gnome taking refuge in Anvilmar."
+   "answer": "Felix Whindlebolt's bucket holds bolts, hardware, and tinkering supplies. The exiled gnome is taking refuge in Anvilmar."
   },
   {
    "q": "Who stole the bucket?",
@@ -35,7 +35,7 @@
     "trolls stole bucket",
     "who has felixs bolts"
    ],
-   "answer": "The Frostmane trolls stole the bucket along with Felix's other personal belongings as he was fleeing the catastrophe at Gnomeregan."
+   "answer": "Frostmane trolls stole Felix Whindlebolt's bucket and other belongings as he fled the disaster at Gnomeregan."
   },
   {
    "q": "Where did the trolls take it?",
@@ -44,7 +44,7 @@
     "bucket location",
     "felix bolts camp"
    ],
-   "answer": "The trolls carried it back to their encampments in the crags southwest of Anvilmar in Coldridge Valley."
+   "answer": "Frostmane trolls carried the bucket to their camps in the crags southwest of Anvilmar, in Coldridge Valley."
   },
   {
    "q": "Why is this bucket important to Felix?",
@@ -52,17 +52,17 @@
     "why does felix want bolts",
     "felix whindlebolt bolts importance"
    ],
-   "answer": "Gnomish refugees fled their home with virtually nothing. For an engineer or craftsman like Felix, basic fasteners and parts are essential to surviving and rebuilding their lives away from Gnomeregan."
+   "answer": "Felix needs the bolts and parts for his craft. Gnomish refugees fled Gnomeregan with little, and basic supplies matter when an engineer or craftsman must survive and rebuild far from home."
   }
  ],
  "angles": [
   {
    "target": "race:Gnome",
-   "text": "Every salvaged bucket of parts represents one small piece of Gnomeregan saved from ruin, helping refugees establish a new foothold in Coldridge Valley."
+   "text": "As a gnome, each bucket of parts saved from Gnomeregan helps refugees find a new foothold in Coldridge Valley."
   },
   {
    "target": "profession:Engineering",
-   "text": "No tinker can work without basic hardware, making a simple bucket of bolts a prized possession when starting over in the snows of Dun Morogh."
+   "text": "As an engineer, you need basic hardware to work. A bucket of bolts matters when you are starting over in the snows of Dun Morogh."
   }
  ],
  "keywords": [
@@ -89,5 +89,6 @@
  "attribution": [
   "Felix's Bucket of Bolts",
   "A Refugee's Quandary (Classic)"
- ]
+ ],
+ "style": 1
 }

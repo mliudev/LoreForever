@@ -8,16 +8,16 @@
   "wiki": "Electrocutioner 6000",
   "refs": 5
  },
- "summary": "The Electrocutioner 6000 is a deadly, super-charged spider tank deployed to defend the Launch Bay within the irradiated halls of Gnomeregan. It fights for Mekgineer Thermaplugg and the leper gnomes who follow him, holding the upper platform against anyone pushing deeper into the fallen city.",
+ "summary": "In Gnomeregan's Launch Bay, Electrocutioner 6000 guards the upper platform. The spider tank fights for Mekgineer Thermaplugg and the irradiated leper gnomes who follow him.",
  "sections": [
   {
    "title": "Thermaplugg's Shocking Machine",
-   "body": "Gnomeregan's fall left its war machines in the hands of Mekgineer Thermaplugg and the irradiated leper gnomes who still follow him. The Electrocutioner 6000, a hulking spider tank crackling with high-voltage current, stands guard on the upper platform of Gnomeregan's Launch Bay and lashes intruders with electricity.",
+   "body": "Mekgineer Thermaplugg and the irradiated leper gnomes who follow him took control of Gnomeregan's war machines after the city fell. Electrocutioner 6000 guards the upper platform of the Launch Bay, striking intruders with high-voltage current.",
    "spoiler": 0
   },
   {
    "title": "The Workshop Key",
-   "body": "The machine also guards a prize: the Workshop Key, which opens Gnomeregan's back door into its workshops. Those who bring down the Electrocutioner can claim the key and a quicker route into the city's depths.",
+   "body": "Electrocutioner 6000 guards the Workshop Key, which opens Gnomeregan's back door into its workshops. Bring down the machine, and the key offers a quicker route into the city's depths.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "where is electrocutioner",
     "find electrocutioner 6000"
    ],
-   "answer": "The Electrocutioner 6000 is positioned on an elevated catwalk platform overlooking the Launch Bay inside the fallen city of Gnomeregan."
+   "answer": "Electrocutioner 6000 stands on an elevated catwalk platform overlooking the Launch Bay in Gnomeregan."
   },
   {
    "q": "Who pilots the Electrocutioner 6000?",
@@ -37,7 +37,7 @@
     "who drives electrocutioner 6000",
     "pilot of electrocutioner"
    ],
-   "answer": "No pilot is named in the accounts of Gnomeregan's fall. The tank fights for Mekgineer Thermaplugg and the leper gnomes who serve him."
+   "answer": "No pilot is named in the accounts of Gnomeregan's fall. Electrocutioner 6000 fights for Mekgineer Thermaplugg and the leper gnomes who follow him."
   },
   {
    "q": "Why is the machine so volatile?",
@@ -46,7 +46,7 @@
     "electrocutioner prototype",
     "thermaplugg design"
    ],
-   "answer": "Its armored chassis channels high-voltage current, which it unleashes on anyone who comes near. That raw electrical power makes it one of the most dangerous guardians of the Launch Bay."
+   "answer": "Its armored chassis channels high-voltage current and unleashes it on anyone who comes near. That power makes it a dangerous guardian of the Launch Bay."
   },
   {
    "q": "Why is defeating the Electrocutioner 6000 important for explorers?",
@@ -55,7 +55,7 @@
     "why kill electrocutioner",
     "electrocutioner 6000 loot"
    ],
-   "answer": "The machine carries the Workshop Key, an essential device that unlocks the back door entrance into Gnomeregan's deeper engineering sectors, allowing strike teams a faster route through the reclaimed facilities."
+   "answer": "Electrocutioner 6000 guards the Workshop Key, which unlocks Gnomeregan's back door into its deeper engineering sectors and gives explorers a faster route through the facilities."
   },
   {
    "q": "Is the Electrocutioner an automaton or a vehicle?",
@@ -63,21 +63,21 @@
     "is electrocutioner a robot",
     "electrocutioner spider tank type"
    ],
-   "answer": "It is a mechano-tank: an armored, spider-legged war machine of gnomish make, now turned against Gnomeregan's would-be liberators."
+   "answer": "Electrocutioner 6000 is a mechano-tank, an armored, spider-legged war machine of gnomish make, now turned against those seeking to free Gnomeregan."
   }
  ],
  "angles": [
   {
    "target": "race:Gnome",
-   "text": "For the exiled gnomes of Ironforge, the Electrocutioner 6000 is an insult to their craft: a gnomish war machine turned against its own people under Thermaplugg's rule."
+   "text": "For exiled gnomes of Ironforge, Electrocutioner 6000 is an insult to their craft: a gnomish war machine turned against its own people under Thermaplugg's rule."
   },
   {
    "target": "profession:Engineering",
-   "text": "Engineers marvel at the raw high-voltage output harnessed within the chassis, even as that power is turned against them."
+   "text": "Engineers marvel at the high-voltage output harnessed within Electrocutioner 6000's chassis, even as it is turned against them."
   },
   {
    "target": "faction:Alliance",
-   "text": "Breaching the Launch Bay and destroying the tank is vital to securing the Workshop Key, bypassing hazardous front corridors during liberation efforts into Gnomeregan."
+   "text": "For the Alliance, breaching the Launch Bay and destroying Electrocutioner 6000 is vital to securing the Workshop Key and bypassing hazardous front corridors during efforts to free Gnomeregan."
   }
  ],
  "keywords": [
@@ -97,5 +97,6 @@
  ],
  "attribution": [
   "Electrocutioner 6000"
- ]
+ ],
+ "style": 1
 }

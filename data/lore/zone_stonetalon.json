@@ -12,21 +12,21 @@
   "levels": "15-27",
   "aliases": []
  },
- "summary": "The Stonetalon Mountains are a rugged, wind-carved chain of craggy peaks bordering Ashenvale, the Barrens, and Desolace. Revered by both the night elves and the tauren as a sacred sanctuary, the region's sacred heights stand in sharp contrast to the smoke and machinery choking its lower canyons. Today, the mountains are torn by deforestation, volatile elemental devastation, and simmering border hostilities.",
+ "summary": "In Stonetalon Mountains, sacred heights now face smoke, deforestation, and elemental ruin. Night elves and tauren revere the range, while border hostilities simmer below.",
  "sections": [
   {
    "title": "The Ill Winds and the Peaks",
-   "body": "Rising sharply out of central Kalimdor, the Stonetalon range catches the moisture drifting from the western seas, giving birth to sudden downpours and treacherous, rain-slick sandstone trails. The dominant feature of the lower valleys is the incessant scouring gale known as the Ill Winds, capable of blinding travelers with grit or throwing the careless straight off sheer cliffsides. Higher up, evergreen forests mantle the ridges surrounding Stonetalon Peak, where the night elves tend ancestral barrows and glades, watching over the sacred roosts of wyverns and hippogryphs that nest along Mirkfallon Lake.",
+   "body": "Stonetalon Mountains rise from central Kalimdor beneath the Ill Winds. Moisture from the western seas brings sudden downpours and slick sandstone trails, while fierce gusts scour the lower valleys, blinding travelers with grit and hurling the careless from cliffs. Higher ridges carry evergreen forests around Stonetalon Peak. Night elves tend ancestral barrows and glades there, and watch sacred wyvern and hippogryph roosts along Mirkfallon Lake.",
    "spoiler": 0
   },
   {
    "title": "Industry and Intrusion",
-   "body": "The peaceful solitude of the range has been violently disrupted by the arrival of the Venture Company. Setting up sprawling logging camps and digging deep strip mines in Windshear Crag, the goblins\u2014aided by the deranged leper gnome Gerenzo Wrenchwhistle\u2014have clear-cut old-growth timber, blackened the skies with furnace smoke, and poured industrial sludge into the mountain runoff. Their greed has provoked swift retaliation: local shamans from Orgrimmar answered the agonized cries of the mountain spirits, while small Alliance camps stationed nearby fight back against the defilers to protect what remains of the highlands.",
+   "body": "The Venture Company has broken the range's quiet with logging camps and strip mines in Windshear Crag. The goblins, aided by the deranged leper gnome Gerenzo Wrenchwhistle, have felled old-growth timber, filled the skies with furnace smoke, and fouled mountain runoff with industrial sludge. Local shamans from Orgrimmar answered the mountain spirits' cries. Small Alliance camps nearby also resist the defilers and try to protect the highlands that remain.",
    "spoiler": 0
   },
   {
    "title": "Scars of the Past",
-   "body": "To the south lies the Charred Vale, once a blossoming wilderness, now reduced to an ash-covered wasteland churning with rogue fire elementals, black dragonspawn, and harpies. While the peaks were the historic site where the Horde and Alliance forged an uneasy truce during the Third War under the guidance of the mysterious Oracle, current relations are fraying. Renegade Grimtotem tauren operate out of seized encampments, and Darkspear trolls in Malaka'jin clash with Alliance incursions pushing outward from the Barrens and Ashenvale.",
+   "body": "South lies the Charred Vale, once a blossoming wilderness and now an ash-covered wasteland filled with rogue fire elementals, black dragonspawn, and harpies. During the Third War, the Horde and Alliance forged an uneasy truce in these peaks under the mysterious Oracle's guidance. Relations have since frayed. Renegade Grimtotem tauren hold seized encampments, while Darkspear trolls in Malaka'jin clash with Alliance forces pressing out from the Barrens and Ashenvale.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "how to get to stonetalon",
     "stonetalon road"
    ],
-   "answer": "Most travelers enter via the Talondeep Pass, a mountain trail cutting into the range from southwestern Ashenvale. There are also high trails leading south into Desolace and routes descending eastward directly into the northern expanses of the Barrens."
+   "answer": "Most travelers reach Stonetalon Mountains through Talondeep Pass, a mountain trail from southwestern Ashenvale. High trails lead south into Desolace, and routes descend east into the northern Barrens."
   },
   {
    "q": "Why is the Charred Vale burned and ruined?",
@@ -47,7 +47,7 @@
     "what happened to charred vale",
     "why charred vale burnt"
    ],
-   "answer": "The Charred Vale was once a lush haven, but cataclysmic devastation consumed the valley in flames. It has been reduced to a smoldering ruin crawling with aggressive fire elementals, rogue drakes, and deadly harpies."
+   "answer": "The Charred Vale was once a lush haven, but cataclysmic devastation consumed it in flames. Now the valley is an ash-covered ruin crawling with aggressive fire elementals, rogue drakes, and deadly harpies."
   },
   {
    "q": "What is the Venture Company doing in Windshear Crag?",
@@ -56,7 +56,7 @@
     "windshear crag goblins",
     "why are goblins cutting trees"
    ],
-   "answer": "The Venture Company is ruthlessly clear-cutting timber and drilling deep into the mountainside for mineral wealth. Their operations have fouled Cragpool Lake with engine grease, stripped the valleys bare, and enraged the local spirits and native inhabitants."
+   "answer": "The Venture Company cuts timber and mines deep into Windshear Crag for mineral wealth. Its operations have fouled Cragpool Lake with engine grease, stripped the valleys bare, and enraged local spirits and native inhabitants."
   },
   {
    "q": "Where are the main flight masters located?",
@@ -65,7 +65,7 @@
     "where is flight point stonetalon",
     "stonetalon fp"
    ],
-   "answer": "Alliance heroes use the flight master perched at the high sanctuary of Stonetalon Peak in the north, while Horde adventurers base themselves in the central mountain village of Sun Rock Retreat."
+   "answer": "Alliance heroes use the flight master at Stonetalon Peak's high sanctuary in the north. Horde adventurers rely on the central mountain village of Sun Rock Retreat."
   },
   {
    "q": "What happened at Stonetalon Peak during the Third War?",
@@ -74,7 +74,7 @@
     "the oracle stonetalon",
     "third war stonetalon"
    ],
-   "answer": "Guided by visions of the Prophet Medivh, Thrall and Jaina Proudmoore climbed the caverns of Stonetalon Peak in search of the Oracle. There, the two faction leaders forged the historic temporary alliance that united against the Burning Legion at Mount Hyjal."
+   "answer": "During the Third War, Thrall and Jaina Proudmoore followed visions of the Prophet Medivh through Stonetalon Peak's caverns in search of the Oracle. There they forged a temporary alliance against the Burning Legion at Mount Hyjal."
   },
   {
    "q": "Who are the Grimtotem in Stonetalon?",
@@ -82,25 +82,25 @@
     "grimtotem post",
     "grimtotem stonetalon"
    ],
-   "answer": "The Grimtotem are a ruthless, renegade tauren tribe hostile to outsider influence. In the Stonetalons, they have occupied a mountain post near the border of the Barrens, terrorizing local travelers and taking prisoners."
+   "answer": "The Grimtotem are a renegade tauren tribe hostile to outsider influence. In Stonetalon, they occupy a mountain post near the Barrens border, terrorize travelers, and take prisoners."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "Horde adventurers rely on the secluded refuge of Sun Rock Retreat and the southern troll post of Malaka'jin to curb Venture Company industrial pollution and root out treacherous Grimtotem outlaws."
+   "text": "Horde adventurers rely on Sun Rock Retreat and Malaka'jin, the southern troll post, to curb Venture Company pollution and root out Grimtotem outlaws."
   },
   {
    "target": "faction:Alliance",
-   "text": "Stationed high atop Stonetalon Peak and in hidden camps around Windshear Crag, the Alliance defends ancient kaldorei barrows from goblin machines and encroaching territorial rivals."
+   "text": "From Stonetalon Peak and hidden camps around Windshear Crag, the Alliance defends ancient kaldorei barrows against goblin machines and territorial rivals."
   },
   {
    "target": "class:Druid",
-   "text": "The desecration of Windshear Crag and the scorched corruption of the Charred Vale serve as a grave summons for druids seeking to soothe enraged nature spirits and protect sacred roosts."
+   "text": "Windshear Crag's desecration and the Charred Vale's scorched corruption call druids to soothe enraged nature spirits and protect sacred roosts."
   },
   {
    "target": "class:Shaman",
-   "text": "The cry of the mountain spirits under assault by goblin drills can be heard as far as Orgrimmar, calling shamans to quell rampaging rock elementals and restore balance to the peaks."
+   "text": "Goblin drills assault the mountain spirits, whose cries reach Orgrimmar. Shamans answer the call to quell rampaging rock elementals and restore balance to the peaks."
   }
  ],
  "keywords": [
@@ -126,5 +126,6 @@
  "attribution": [
   "Stonetalon Mountains (Classic)",
   "Stonetalon Mountains"
- ]
+ ],
+ "style": 1
 }

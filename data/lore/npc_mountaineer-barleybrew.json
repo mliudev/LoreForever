@@ -8,11 +8,11 @@
   "wiki": "Mountaineer Barleybrew",
   "refs": 2
  },
- "summary": "Mountaineer Barleybrew is an Ironforge mountaineer stationed at the South Gate Outpost in Dun Morogh. Guarding the pass leading eastward toward Loch Modan, he relies on hearty dwarven brews to keep sentries alert in the biting cold.",
+ "summary": "At South Gate Outpost, Mountaineer Barleybrew watches the pass from Dun Morogh toward Loch Modan. He relies on dwarven brews to help sentries endure the cold.",
  "sections": [
   {
    "title": "A Watch on the Eastern Pass",
-   "body": "Perched at the South Gate Outpost guarding the snowy roadway toward Loch Modan, Mountaineer Wellart Barleybrew stands as part of Ironforge's border watch. Like many mountaineers serving in the bitter winds of Dun Morogh, he appreciates the fortifying qualities of fine dwarven drink. Bearing the name of the renowned Barleybrew clan, he helps see to it that shipments of potent Shimmer Stout make their way to fellow watchmen who need warmth and stamina during long shifts along the mountain passes.",
+   "body": "Mountaineer Wellart Barleybrew watches the snowy road to Loch Modan from South Gate Outpost. He is part of Ironforge's border watch. Like other mountaineers in Dun Morogh's bitter winds, he values the strength of fine dwarven drink. His name links him to the renowned Barleybrew clan. He also helps send potent Shimmer Stout to fellow watchmen who need warmth and stamina during long shifts in the mountain passes.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "where is mountaineer barleybrew",
     "barleybrew npc"
    ],
-   "answer": "Mountaineer Barleybrew is stationed at South Gate Outpost, the dwarven fortification guarding the eastern pass between Dun Morogh and Loch Modan."
+   "answer": "You can find Mountaineer Barleybrew at South Gate Outpost, the dwarven fortification guarding the eastern pass between Dun Morogh and Loch Modan."
   },
   {
    "q": "What is his duty at South Gate Outpost?",
@@ -32,7 +32,7 @@
     "barleybrew purpose",
     "what does barleybrew do"
    ],
-   "answer": "He serves as a mountain sentry protecting the roadway and helps coordinate supplies, including Shimmer Stout for fellow mountaineers stationed throughout the passes."
+   "answer": "At South Gate Outpost, he watches the roadway and helps arrange supplies, including Shimmer Stout for mountaineers stationed throughout the passes."
   },
   {
    "q": "Is he related to the other Barleybrews?",
@@ -40,13 +40,13 @@
     "barleybrew family",
     "yorus barleybrew relative"
    ],
-   "answer": "Yes. His brother is the brewer Rejold Barleybrew, and he may also be related to Marleth, Malgin, and Yorus Barleybrew."
+   "answer": "Yes. Rejold Barleybrew, the brewer, is his brother. Barleybrew may also be related to Marleth, Malgin, and Yorus Barleybrew."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "For dwarves, Barleybrew embodies the essential balance of frontier duty and high-proof refreshment that keeps Khaz Modan secure."
+   "text": "As a dwarf, you know the demands of frontier duty and the high-proof drink that helps keep Khaz Modan secure."
   }
  ],
  "keywords": [
@@ -69,5 +69,6 @@
  ],
  "attribution": [
   "Mountaineer Barleybrew"
- ]
+ ],
+ "style": 1
 }

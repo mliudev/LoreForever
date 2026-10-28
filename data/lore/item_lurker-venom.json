@@ -10,11 +10,11 @@
    "quest:278"
   ]
  },
- "summary": "Lurker Venom is a potent natural toxin harvested from the predatory spiders that prowl the rocky hills and woods of Loch Modan. Dwarven defenders require this caustic venom as a key ingredient to prepare an alchemical neutralizing compound against Dark Iron sabotage.",
+ "summary": "Around Loch Modan, dwarven defenders need Lurker Venom to counter Dark Iron sabotage. The toxin comes from predatory spiders in the rocky hills and woods.",
  "sections": [
   {
    "title": "A Volatile Reagent",
-   "body": "The hills and crags surrounding Loch Modan crawl with predatory arachnids\u2014ranging from common wood lurkers to the infamous matriarch Shanda the Spinner. While their bites pose a constant hazard to mountaineers and travelers, the explosives expert Ashlan Stonesmirk named their virulent poison as one ingredient of a disarming mixture, which Chief Engineer Hinderweir prepares. Combined with rare minerals and tears harvested from the loch's crocolisks, Lurker Venom forms a reactive solvent capable of disarming complex Dark Iron explosives.",
+   "body": "Lurker Venom helps dwarves disarm Dark Iron explosives. Ashlan Stonesmirk, an explosives expert, named the spiders’ poison as an ingredient for the mixture Chief Engineer Hinderweir prepares. The solvent combines the venom with rare minerals and tears from the loch’s crocolisks, forming a reactive compound that can disarm complex explosives. Lurker spiders range from common wood lurkers to the matriarch Shanda the Spinner, and their bites threaten travelers and mountaineers across the hills and crags.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "who drops lurker venom",
     "where find lurker venom"
    ],
-   "answer": "It is extracted from the various lurker spiders native to Loch Modan, including Cliff Lurkers, Forest Lurkers, Wood Lurkers, and their brood matriarch Shanda the Spinner."
+   "answer": "Loch Modan’s lurker spiders provide the venom, including Cliff Lurkers, Forest Lurkers, Wood Lurkers, and their matriarch Shanda the Spinner."
   },
   {
    "q": "What is Lurker Venom used for?",
@@ -35,7 +35,7 @@
     "lurker venom purpose",
     "what does hinderweir do with venom"
    ],
-   "answer": "Chief Engineer Hinderweir uses the venom as part of a specialized chemical mixture to neutralize and defuse explosive devices deployed by Dark Iron infiltrators around the Stonewrought Dam."
+   "answer": "Chief Engineer Hinderweir uses the venom in a chemical mixture to neutralize and defuse explosives placed by Dark Iron infiltrators around the Stonewrought Dam."
   },
   {
    "q": "Why use venom to defuse an explosive?",
@@ -43,7 +43,7 @@
     "why spider poison for bombs",
     "how does venom stop dark iron bombs"
    ],
-   "answer": "Dwarven engineers often rely on reactive, acidic, or caustic mixtures to dissolve delicate mechanical components or neutralize unstable blasting powders without detonating them."
+   "answer": "Dwarven engineers use reactive, acidic, or caustic mixtures to dissolve delicate mechanical parts or neutralize unstable blasting powders without setting them off."
   },
   {
    "q": "Is Shanda the Spinner the only source?",
@@ -51,17 +51,17 @@
     "do i have to kill shanda",
     "shanda lurker venom"
    ],
-   "answer": "No. While Shanda carries the venom, any of the common wild lurker spiders inhabiting the woodlands and rocky cliffs of Loch Modan can yield it."
+   "answer": "No. Shanda carries the venom, but common wild lurker spiders in Loch Modan’s woodlands and rocky cliffs can provide it too."
   }
  ],
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "Using organic toxins to disable hostile ordinance showcases an improvised, reactive branch of dwarven engineering under battlefield conditions."
+   "text": "Using organic toxins to disable hostile explosives shows how dwarven engineers improvise with reactive materials in battle."
   },
   {
    "target": "race:Dwarf",
-   "text": "Mountaineers and defenders of Loch Modan routinely use local wilderness hazards to protect crucial Khaz Modan infrastructure against the Dark Iron clan."
+   "text": "As a dwarf, you know Loch Modan’s mountaineers and defenders use dangers from the local wilds to protect vital Khaz Modan works from the Dark Iron clan."
   }
  ],
  "keywords": [
@@ -85,5 +85,6 @@
  "attribution": [
   "Lurker Venom",
   "A Dark Threat Looms (5)"
- ]
+ ],
+ "style": 1
 }

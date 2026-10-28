@@ -8,21 +8,21 @@
   "wiki": "Tavernkeep Smitts",
   "refs": 7
  },
- "summary": "Tavernkeep Smitts is the barkeep of the Scarlet Raven Tavern in Darkshire. Operating at the social center of Duskwood, Smitts possesses an encyclopedic knowledge of town gossip and unsolved local tragedies. His long memory and keen eye make him an invaluable contact for anyone investigating the region's dark history.",
+ "summary": "At the Scarlet Raven in Darkshire, Tavernkeep Smitts hears the town’s gossip and its unsolved tragedies. His long memory and keen eye make him a valuable contact for anyone seeking the region’s dark history.",
  "sections": [
   {
    "title": "Heart of Darkshire",
-   "body": "Behind the bar of the Scarlet Raven Tavern, Tavernkeep Smitts offers warm hearth fires and drink to the weary travelers, local townspeople, and nervous Night Watch guards braving Duskwood's perils. As one of the longest-standing public faces in town, Smitts hears every rumor that filters through the gloom. While other townsfolk shrink behind locked shutters, Smitts maintains a pragmatic, observant eye on everyone who passes through his door, noting unusual behavior, hurried departures, and strange patrons.",
+   "body": "Tavernkeep Smitts keeps the Scarlet Raven’s hearth fires warm and serves drink to weary travelers, townspeople, and nervous Night Watch guards facing Duskwood’s perils. He has been one of Darkshire’s familiar public faces for years, and rumors pass through his tavern every day. While other townsfolk hide behind locked shutters, Smitts watches those who enter and leave. He notices strange patrons, hurried departures, and behavior that does not fit the town.",
    "spoiler": 0
   },
   {
    "title": "The Memory of Stalvan",
-   "body": "Smitts has spent years quietly tracking the legend of Stalvan Mistmantle. When a visiting family of Stormwind nobles was butchered years ago, Smitts joined Marshal Haggard to examine the scene of the slaughter. Smitts recovered torn, muddy journal pages from the carnage, but investigators were never able to formally connect the handwriting to Stalvan at the time. Smitts held onto those faded scraps for years, convinced that the grim truth would eventually come to light.",
+   "body": "Years ago, Smitts joined Marshal Haggard to investigate the slaughter of a visiting Stormwind noble family. At the scene, Smitts found torn, muddy pages from a journal and kept them. Investigators could not formally link the handwriting to Stalvan Mistmantle at the time. Smitts held onto the faded scraps for years, convinced the grim truth would come to light.",
    "spoiler": 1
   },
   {
    "title": "The Shadowy Patron",
-   "body": "Smitts's attentiveness extends to contemporary threats as well. When the terrified hermit Jitters took refuge in the Scarlet Raven, Smitts watched him scribbling feverishly into a personal diary before fleeing the tavern in blind panic. When an investigator recovers the abandoned journal, Smitts readily recognizes the book and points the tracker toward Raven Hill, aiding the effort to unravel the cursed events plaguing the woods.",
+   "body": "Terrified hermit Jitters once took refuge in the Scarlet Raven, where Smitts saw him scribbling feverishly in a personal diary. Jitters fled the tavern in blind panic, leaving the journal behind. When an investigator recovers it, Smitts recognizes the book and points the tracker toward Raven Hill, helping unravel the cursed events that plague the woods.",
    "spoiler": 1
   }
  ],
@@ -34,7 +34,7 @@
     "where is tavernkeep smitts",
     "scarlet raven barkeep"
    ],
-   "answer": "Smitts stands behind the counter on the ground floor of the Scarlet Raven Tavern, the central inn located on the town square in Darkshire."
+   "answer": "Find Smitts behind the counter on the ground floor of the Scarlet Raven Tavern, on Darkshire’s town square."
   },
   {
    "q": "What does Smitts know about Stalvan Mistmantle?",
@@ -43,7 +43,7 @@
     "stalvan legend smitts",
     "muddy pages stalvan"
    ],
-   "answer": "Years ago, Smitts accompanied Marshal Haggard to investigate the slaughter of visiting nobles. Smitts discovered muddy, torn pages at the scene, which he preserved. If presented with new evidence linking Stalvan to the crime, Smitts hands over the muddy journal pages so they can be delivered to Commander Althea Ebonlocke."
+   "answer": "Years ago, Smitts accompanied Marshal Haggard to investigate the slaughter of visiting nobles. He found and kept muddy, torn journal pages at the scene. When shown new evidence linking Stalvan to the crime, Smitts gives up the pages to be delivered to Commander Althea Ebonlocke."
   },
   {
    "q": "What does Smitts know about Jitters?",
@@ -52,7 +52,7 @@
     "jitters journal smitts",
     "inquire at the inn smitts"
    ],
-   "answer": "Jitters spent time staying at the Scarlet Raven Tavern, where Smitts observed him frantically writing in a journal before fleeing in terror. When you bring Jitters's journal back to the tavern, Smitts identifies it and directs you west toward Raven Hill to track him down."
+   "answer": "Jitters stayed at the Scarlet Raven, where Smitts saw him writing frantically in a journal before fleeing in terror. Bring Jitters’s journal back to the tavern, and Smitts will recognize it and direct you west toward Raven Hill to track him down."
   },
   {
    "q": "What drinks does Smitts brew or request?",
@@ -61,7 +61,7 @@
     "smitts rot blossoms",
     "smitts brew"
    ],
-   "answer": "Smitts is involved in procuring components for local concoctions, including sending adventurers into the cursed wilds for Rot Blossoms to brew a potent local mixture known colloquially as Zombie Juice."
+   "answer": "Smitts helps procure ingredients for local drinks. He sends adventurers into the cursed wilds for Rot Blossoms to brew a potent mixture known locally as Zombie Juice."
   },
   {
    "q": "Who is Marshal Haggard, and how does Smitts know him?",
@@ -69,7 +69,7 @@
     "smitts haggard",
     "haggard connection"
    ],
-   "answer": "Marshal Haggard is an old veteran of the Stormwind Guard who lives in a secluded cottage in the hills. He and Smitts worked together years ago to investigate the grisly noble murders, forming a bond over the unsolved case."
+   "answer": "Marshal Haggard is an old Stormwind Guard veteran who lives in a secluded cottage in the hills. He and Smitts investigated the grisly murders of nobles years ago and formed a bond over the unsolved case."
   },
   {
    "q": "Does Smitts have any known family in Darkshire?",
@@ -77,17 +77,17 @@
     "smitts relatives",
     "mary smitts"
    ],
-   "answer": "None that anyone speaks of. Smitts keeps the Scarlet Raven on his own, and no relatives of his are known in Darkshire."
+   "answer": "No family of Smitts is known in Darkshire. He keeps the Scarlet Raven on his own, and no relatives of his are known there."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "For Alliance travelers stepping out of the shadowed woods, Smitts provides not just shelter and drinks, but essential local intelligence regarding the threats haunting Duskwood."
+   "text": "As an Alliance traveler emerging from the shadowed woods, you can find shelter, drinks, and local knowledge from Smitts about the threats haunting Duskwood."
   },
   {
    "target": "class:Rogue",
-   "text": "Rogues investigating cold cases and shadowy figures will find Smitts an ideal informant, as he notices what patrons write, when they panic, and what they leave behind."
+   "text": "As a Rogue investigating cold cases and shadowy figures, you can rely on Smitts to notice what patrons write, when they panic, and what they leave behind."
   }
  ],
  "keywords": [
@@ -113,5 +113,6 @@
  ],
  "attribution": [
   "Tavernkeep Smitts"
- ]
+ ],
+ "style": 1
 }

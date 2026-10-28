@@ -20,21 +20,21 @@
    "A Grim Task"
   ]
  },
- "summary": "Dun Modr, the northern dwarf fortress overlooking the Thandol Span, has succumbed to a violent assault by the Dark Iron dwarves. A severely wounded survivor in Menethil Harbor seeks an Alliance adventurer to venture north and discover if commander Longbraid the Grim and any remnant of the garrison survived.",
+ "summary": "At Dun Modr, a northern fortress has fallen to a violent Dark Iron assault. In Menethil Harbor, a severely wounded survivor seeks an Alliance adventurer to go north and learn whether commander Longbraid the Grim or any of the garrison survived.",
  "sections": [
   {
    "title": "A Northern Bulwark Broken",
-   "body": "Dun Modr has long anchored northern Khaz Modan, guarding the vital road and bridge connecting the Wetlands to the Arathi Highlands across the Thandol Span. Following an ambush at the bridge itself, the garrison scrambled back to regroup within the fortress walls. Before defensive lines could be reestablished, Dark Iron forces struck in overwhelming numbers, slaughtering the defenders and forcing a desperate evacuation.",
+   "body": "For generations, Dun Modr has guarded northern Khaz Modan and the vital road and bridge across the Thandol Span, linking the Wetlands to the Arathi Highlands. After an ambush at the bridge, the garrison fell back to regroup inside the fortress. Before they could restore their defenses, overwhelming Dark Iron forces struck, slaughtering the defenders and driving them into a desperate flight.",
    "spoiler": 0
   },
   {
    "title": "A Desperate Flight",
-   "body": "Harlo Barnaby, a young soldier among the defenders, fell gravely injured when a stray axe struck his back during the chaotic retreat. Believing his wounds fatal, Longbraid the Grim and the remaining troops strapped Barnaby to their last surviving horse and dispatched him south to Menethil Harbor. Barnaby survived the ordeal, but awoke in the harbor tavern racked by survivor's guilt, entirely unaware of whether any of his comrades made it out of the massacre alive.",
+   "body": "Harlo Barnaby, a young defender, was gravely wounded when a stray axe struck his back during the retreat. Believing him doomed, Longbraid the Grim and the remaining troops strapped Barnaby to their last surviving horse and sent him south to Menethil Harbor. He survived and awoke in the harbor tavern, burdened by survivor's guilt and entirely unaware whether any of his comrades had escaped alive.",
    "spoiler": 0
   },
   {
    "title": "The Grim Remnant",
-   "body": "Deep in the northern marshes near the captured fortress, Longbraid the Grim still lives, holding together a battered handful of survivors. Though relieved to learn that young Harlo survived his grievous wound, the veteran commander faces a dire tactical reality: Dun Modr is firmly under Dark Iron control, its halls occupied by cutthroats and saboteurs who threaten the entire corridor between Khaz Modan and the human lands to the north.",
+   "body": "Longbraid the Grim still lives in the northern marshes near the captured fortress, holding a battered handful of survivors together. The veteran commander is relieved to learn that Harlo survived his grievous wound, but Dun Modr remains firmly in Dark Iron hands. Cutthroats and saboteurs occupy its halls and threaten the corridor between Khaz Modan and the human lands to the north.",
    "spoiler": 1
   }
  ],
@@ -46,7 +46,7 @@
     "who attacked dun modr",
     "dun modr lore"
    ],
-   "answer": "Dun Modr was overrun and captured by hostile Dark Iron dwarves. The garrison had already suffered an ambush at the nearby Thandol Span, and before they could consolidate their defenses inside the town, the Dark Irons assaulted and wiped out most of the defending regiment."
+   "answer": "Dark Iron dwarves overran and captured Dun Modr. The garrison had already been ambushed at the nearby Thandol Span, and the attackers struck before its defenders could secure the town, wiping out most of the regiment."
   },
   {
    "q": "Who is Harlo Barnaby?",
@@ -55,7 +55,7 @@
     "harlo barnaby lore",
     "wounded soldier in menethil"
    ],
-   "answer": "Harlo Barnaby is an Ironforge soldier stationed at Dun Modr who barely survived its fall. Struck in the back by a thrown axe during the retreat, he was strapped to the garrison's sole surviving horse by his commander and sent south to Menethil Harbor to receive medical care."
+   "answer": "Harlo Barnaby is an Ironforge soldier who was stationed at Dun Modr and barely survived its fall. A thrown axe struck his back during the retreat, so his commander strapped him to the garrison's sole surviving horse and sent him south to Menethil Harbor for medical care."
   },
   {
    "q": "Where is Longbraid the Grim located?",
@@ -64,7 +64,7 @@
     "longbraid location",
     "find longbraid"
    ],
-   "answer": "Commander Longbraid the Grim took refuge in the wilderness just outside the occupied town of Dun Modr, near the northern highway leading up toward the Thandol Span."
+   "answer": "Commander Longbraid the Grim took refuge in the wilderness just outside occupied Dun Modr, near the northern highway toward the Thandol Span."
   },
   {
    "q": "Why is Dun Modr strategically important?",
@@ -72,7 +72,7 @@
     "why care about dun modr",
     "thandol span connection"
    ],
-   "answer": "Dun Modr stands as the northernmost settlement and fortification in the Wetlands. It guards the southern approach to the Thandol Span, the only terrestrial bridge that links Khaz Modan with the Arathi Highlands and Lordaeron."
+   "answer": "Dun Modr is the Wetlands' northernmost settlement and fortification. It guards the southern approach to the Thandol Span, the only land bridge linking Khaz Modan with the Arathi Highlands and Lordaeron."
   },
   {
    "q": "Who are the attackers at Dun Modr?",
@@ -80,7 +80,7 @@
     "who took dun modr",
     "dark irons in wetlands"
    ],
-   "answer": "The attackers are Dark Iron dwarves, members of the treacherous clan from the south who have pushed north into the Wetlands to destroy infrastructure like the Thandol Span and harass Ironforge's territory."
+   "answer": "The attackers are Dark Iron dwarves, members of the Dark Iron clan from the south who have pushed north into the Wetlands to destroy infrastructure such as the Thandol Span and harass Ironforge's territory."
   },
   {
    "q": "What happens after finding Longbraid?",
@@ -88,17 +88,17 @@
     "fall of dun modr follow up",
     "what comes after fall of dun modr"
    ],
-   "answer": "Once you confirm Longbraid is alive and deliver news of Barnaby's survival, Longbraid enlists you in a grim mission of vengeance and retribution against the Dark Iron forces occupying the ruins of Dun Modr."
+   "answer": "After you confirm Longbraid is alive and bring him news that Barnaby survived, Longbraid enlists you in a grim mission of vengeance against the Dark Iron forces occupying Dun Modr's ruins."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "The slaughter of Ironforge mountaineers and the desecration of Dun Modr by clan kin from the south is a bitter, personal insult that demands blood in return."
+   "text": "As a dwarf, the slaughter of Ironforge mountaineers and the desecration of Dun Modr by clan kin from the south is a bitter personal insult that demands blood in return."
   },
   {
    "target": "faction:Alliance",
-   "text": "The fall of Dun Modr severs safe overland transit between Ironforge and the northern Alliance operations in the Arathi Highlands, leaving the northern corridor vulnerable to sabotage."
+   "text": "As an Alliance member, you know Dun Modr's fall cuts safe overland travel between Ironforge and northern Alliance operations in the Arathi Highlands, leaving the corridor open to sabotage."
   }
  ],
  "keywords": [
@@ -121,5 +121,6 @@
  ],
  "attribution": [
   "Fall of Dun Modr"
- ]
+ ],
+ "style": 1
 }

@@ -10,16 +10,16 @@
    "quest:357"
   ]
  },
- "summary": "The Lich's Spellbook is a volume of necromantic lore kept within a chest on the island in Brightwater Lake. Recovered for Bethor Iceshard in the Undercity, the tome reveals the true identity and immense magical power of a reclusive undead lich dwelling just north of the Forsaken capital.",
+ "summary": "On Brightwater Lake's island, a spellbook draws Bethor Iceshard's attention. He hopes its pages will reveal the lich's skill and who he was in life.",
  "sections": [
   {
    "title": "A Reclusive Master's Tomes",
-   "body": "On an isolated island in Brightwater Lake stands an enigmatic lich surrounded by skeletal guardians. Though free-willed, this sorcerer distrusts the outside world, mistaking all other undead for thralls of the Scourge and ordering his minions to destroy any who approach. Bethor Iceshard, seeking gifted necromancers to bolster the Forsaken ranks beneath Queen Sylvanas Windrunner, tasked an emissary with infiltrating the island camp to retrieve the lich's spellbook. Through its study, Bethor hoped to discern the master's magical aptitude and uncover who he was before death took Lordaeron.",
+   "body": "A free-willed lich guards an island in Brightwater Lake with skeletal minions. He distrusts the outside world and mistakes other undead for Scourge thralls, ordering his guardians to kill anyone who approaches. Bethor Iceshard seeks skilled necromancers for the Forsaken beneath Queen Sylvanas Windrunner. He sends an emissary into the island camp to take the lich's spellbook. Bethor hopes its pages will reveal the master's power and identity before death took Lordaeron.",
    "spoiler": 0
   },
   {
    "title": "Unmasking Gunther Arcanus",
-   "body": "Upon opening the glowing pages of the recovered spellbook, Bethor Iceshard made an astonishing discovery: the recluse was his old friend and comrade-in-arms from before the Third War, Gunther Arcanus. Already a prodigy in necromancy in life, Gunther's writings revealed that his arts had grown even more formidable in undeath. Bethor recognized that securing Gunther's allegiance would grant the Forsaken an invaluable master of the dark arts, provided someone could convince the suspicious lich that the Forsaken are truly free from the Lich King's grip.",
+   "body": "The recovered spellbook reveals that the reclusive lich is Gunther Arcanus, Bethor Iceshard's old friend and comrade-in-arms from before the Third War. Gunther was a necromantic prodigy in life, and his writings show that his power grew greater in undeath. Bethor knows Gunther could be a valued master of the dark arts for the Forsaken. Someone must first convince the suspicious lich that the Forsaken are free of the Lich King's grip.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "spellbook location",
     "gunther's books"
    ],
-   "answer": "The spellbook rests inside a container named Gunther's Books, situated in the encampment on the central island of Brightwater Lake in northern Tirisfal Glades."
+   "answer": "The spellbook lies in a container named Gunther's Books, in the encampment on Brightwater Lake's central island in northern Tirisfal Glades."
   },
   {
    "q": "Who owns this spellbook?",
@@ -40,7 +40,7 @@
     "lich identity",
     "who wrote the spellbook"
    ],
-   "answer": "It belongs to the reclusive, free-willed lich on the island in Brightwater Lake. Bethor Iceshard hopes studying its pages will reveal the owner's identity and talents."
+   "answer": "The book belongs to a free-willed, reclusive lich on Brightwater Lake's island. Bethor Iceshard hopes its pages will reveal the lich's identity and skill."
   },
   {
    "q": "Why does Bethor Iceshard want the book?",
@@ -49,7 +49,7 @@
     "bethor quest reason",
     "why does undercity want this"
    ],
-   "answer": "Bethor Iceshard sought the book to deduce the mysterious lich's identity and evaluate his mastery of necromancy, hoping to recruit the recluse into the service of Lady Sylvanas and the Forsaken."
+   "answer": "Bethor Iceshard wants to learn the lich's identity and measure his necromantic skill, hoping to recruit him for Lady Sylvanas and the Forsaken."
   },
   {
    "q": "Why does the lich attack visitors to his island?",
@@ -58,7 +58,7 @@
     "why do minions attack",
     "brightwater lake hostile"
    ],
-   "answer": "The lich believes all other undead in the region remain mind-controlled slaves of the Scourge. Paralyzed by suspicion, he commands his minions to attack anyone venturing near his sanctum."
+   "answer": "The lich believes other undead nearby remain mind-controlled Scourge slaves. He orders his minions to attack anyone who approaches his island refuge."
   },
   {
    "q": "What does Bethor hope to learn about the author?",
@@ -67,17 +67,17 @@
     "lich author study",
     "bethor spellbook study"
    ],
-   "answer": "Bethor hopes to discover who the isolated lich was in life and whether his necromantic knowledge could help the Forsaken."
+   "answer": "Bethor hopes to learn who the isolated lich was in life and whether his necromantic knowledge could aid the Forsaken."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "The tome proves that not all who broke free from the Lich King joined the Forsaken immediately, highlighting the lingering distrust among rogue undead survivors scattered across Tirisfal."
+   "text": "As an undead, you know that some who escaped the Lich King's control did not join the Forsaken at once. Rogue undead survivors across Tirisfal still distrust one another."
   },
   {
    "target": "class:Mage",
-   "text": "The spellbook represents an extraordinary bridge between classic Dalaran wizardry and dark necromancy, showing how mortal spellcasters dramatically expanded their craft after succumbing to undeath."
+   "text": "As a mage, you can see how the spellbook joins Dalaran wizardry with dark necromancy. Its author greatly expanded his craft after becoming undead."
   }
  ],
  "keywords": [
@@ -103,5 +103,6 @@
  "attribution": [
   "The Lich's Spellbook",
   "The Lich's Identity"
- ]
+ ],
+ "style": 1
 }

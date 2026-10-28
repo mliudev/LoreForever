@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Great Forge"
  },
- "summary": "The Great Forge is the fiery heart and namesake of the dwarven capital of Ironforge. Situated at the very center of the city, its massive furnaces and famed Great Anvil never rest, producing legendary armaments and serving as the bustling center of civic life.",
+ "summary": "At Ironforge’s center, the Great Forge burns as the heart of the dwarven capital. Its furnaces and Great Anvil keep smiths at work, while the chamber draws people from across the mountain city.",
  "sections": [
   {
    "title": "Heart of the Mountain",
-   "body": "The Great Forge was the very first structure built by the early dwarves beneath Ironforge Mountain, and the grand capital grew in concentric rings around it. Molten stone and slag pour constantly from giant foundries into glowing channels, illuminating the cavern with an amber haze. At its center stands the massive Great Anvil, overseen by Master of the Forge Myolor Sunderfury. Renowned masters of metalwork gather around its rim, hammering out armor, tools, and weapons day and night.",
+   "body": "The Great Forge was the first structure the early dwarves built beneath Ironforge Mountain. The capital grew in rings around it. Molten stone and slag flow from giant foundries into glowing channels, lighting the cavern with amber haze. At the center, Master of the Forge Myolor Sunderfury oversees the massive Great Anvil. Masters of metalwork gather around its rim, hammering armor, tools, and weapons day and night.",
    "spoiler": 0
   },
   {
    "title": "Hub of the Alliance",
-   "body": "Beyond its smithing operations, the Great Forge is the bustling crossroads of the entire mountain city. Ringed with guild offices, supply shops, and the city's primary gryphon roost maintained by Gryth Thurden, travelers from every corner of the Alliance mingle amid the clatter of hammers.",
+   "body": "Smithing is only part of the Great Forge’s work. Guild offices, supply shops, and the city’s main gryphon roost ring the chamber. Gryth Thurden maintains the roost, where travelers from across the Alliance mingle amid the hammer blows.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "city namesake",
     "ironforge origin"
    ],
-   "answer": "When the dwarves first carved out the mountain, the Great Forge was the first part of the settlement they constructed. As the subterranean halls expanded outward from this central chamber, the entire mountain city was named Ironforge in honor of the colossal furnace at its center."
+   "answer": "The Great Forge was the first part of the settlement the dwarves carved beneath the mountain. As the halls spread outward from its central chamber, they named the city Ironforge for the great furnace at its heart."
   },
   {
    "q": "What notable items have been created here?",
@@ -36,7 +36,7 @@
     "what was made at the great anvil",
     "great forge famous weapons"
    ],
-   "answer": "The Great Anvil has yielded historic masterpieces throughout dwarven history. Ironforge's finest smiths have hammered out generations of weapons and armor upon its surface, and the forge's fires have never been allowed to go cold."
+   "answer": "Dwarven smiths have made generations of weapons and armor on the Great Anvil, including historic masterpieces. The forge’s fires have never been allowed to go cold."
   },
   {
    "q": "Who oversees the forge?",
@@ -44,7 +44,7 @@
     "keeper of the great forge",
     "who runs the forge"
    ],
-   "answer": "The day-to-day operations and maintenance of the massive hearth are directed by Myolor Sunderfury, who bears the title Keeper of the Great Forge."
+   "answer": "Myolor Sunderfury directs the Great Forge’s daily work and upkeep as Keeper of the Great Forge."
   },
   {
    "q": "Why is it always so crowded here?",
@@ -52,17 +52,17 @@
     "why so many people at the forge",
     "why is the forge busy"
    ],
-   "answer": "The forge sits at the geographic center of Ironforge, connecting directly to the outer ring and nearby districts. It hosts essential crafting trainers, merchant shops, and Ironforge's central gryphon roost, ensuring that citizens, couriers, and foreign adventurers pass through constantly."
+   "answer": "The Great Forge lies at Ironforge’s center and connects to the outer ring and nearby districts. Its crafting trainers, shops, and central gryphon roost bring citizens, couriers, and travelers through the chamber."
   }
  ],
  "angles": [
   {
    "target": "profession:Blacksmithing",
-   "text": "The Great Anvil is considered the premier smithing site in the Alliance, home to high-ranking trainers and the legendary Great Anvil at the heart of the city."
+   "text": "The Great Anvil is the Alliance’s foremost smithing site, with high-ranking trainers at the heart of the city."
   },
   {
    "target": "race:Dwarf",
-   "text": "The forge represents the very foundation of dwarven civilization under the mountain, keeping centuries of smithing tradition alive without ever letting its fires go cold."
+   "text": "For dwarves, the Great Forge is the foundation of civilization beneath the mountain. Its fires keep centuries of smithing tradition alive."
   }
  ],
  "keywords": [
@@ -85,5 +85,6 @@
  ],
  "attribution": [
   "Great Forge"
- ]
+ ],
+ "style": 1
 }

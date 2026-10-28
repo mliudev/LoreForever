@@ -8,11 +8,11 @@
   "wiki": "Solm Hargrin",
   "refs": 2
  },
- "summary": "Solm Hargrin is the rogue trainer stationed within Anvilmar in Coldridge Valley. A pragmatic dwarf who values honor amongst thieves, he instructs novice dwarven and gnomish scoundrels in the art of subterfuge. He firmly believes that covert operatives will prove vital as geopolitical tensions simmer across Azeroth.",
+ "summary": "At Anvilmar in Coldridge Valley, Solm Hargrin teaches rogues the quiet arts. The dwarf trains young dwarves and gnomes, and holds that honor among thieves matters as tensions rise across Azeroth.",
  "sections": [
   {
    "title": "A Mentor in the Shadows",
-   "body": "Tucked away in the dwarven stronghold of Anvilmar, Solm Hargrin watches the snowy passes of Coldridge Valley with a keen, calculating eye. While Ironforge relies heavily on the brute strength of its mountaineers and warriors, Hargrin understands that some threats require a quieter, sharper touch. He welcomes budding rogues of both dwarven and gnomish heritage, deciphering coded missives for them and drilling them in essential techniques like Eviscerate. Above all, Hargrin champions a creed of professional loyalty and honor among thieves, preparing his pupils for an increasingly volatile world where subtle knives often shape the fate of nations.",
+   "body": "Solm Hargrin trains rogues at Anvilmar in Coldridge Valley. He welcomes young dwarves and gnomes, deciphers coded messages for them, and teaches techniques such as Eviscerate. Ironforge relies on mountaineers and warriors, but Solm knows some threats call for quieter methods. He teaches loyalty and honor among thieves as the world grows more unsettled.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "solm hargrin lore",
     "anvilmar rogue trainer"
    ],
-   "answer": "Solm Hargrin is a dwarven rogue trainer located in Anvilmar, the starter outpost in Dun Morogh's Coldridge Valley. He initiates young dwarves and gnomes into the covert arts of thievery, stealth, and bladecraft."
+   "answer": "Solm Hargrin trains rogues at Anvilmar in Coldridge Valley. He teaches young dwarves and gnomes stealth and bladecraft."
   },
   {
    "q": "What is Solm Hargrin's philosophy on rogue work?",
@@ -33,7 +33,7 @@
     "honor among thieves",
     "solm view"
    ],
-   "answer": "Hargrin strongly believes in 'honor amongst thieves.' He teaches his recruits that while their methods may be underhanded, loyalty to their craft and to one another is essential, especially as fragile peace between rival powers threatens to break."
+   "answer": "Solm teaches honor among thieves. He holds that loyalty to the craft and to one another matters, even when their methods are underhanded."
   },
   {
    "q": "What quests does Solm Hargrin provide or receive?",
@@ -42,7 +42,7 @@
     "encrypted rune solm",
     "encrypted memorandum solm"
    ],
-   "answer": "Novice dwarven rogues are directed to him with an Encrypted Rune, while new gnomish rogues deliver an Encrypted Memorandum. Once he deciphers these introductory orders, he tasks trainees with mastering offensive maneuvers in the field."
+   "answer": "Novice dwarven rogues bring him an Encrypted Rune, while new gnomish rogues bring an Encrypted Memorandum. After deciphering these orders, Solm sends trainees to master offensive maneuvers in the field."
   },
   {
    "q": "Does Solm Hargrin train races other than dwarves?",
@@ -50,17 +50,17 @@
     "can gnomes train with solm",
     "gnome rogue trainer anvilmar"
    ],
-   "answer": "Yes. Following the fall of Gnomeregan, gnome refugees share the Coldridge Valley starting grounds with the dwarves. Solm gladly takes gnomish operatives under his wing alongside his dwarven kin."
+   "answer": "Yes. Solm trains gnomes alongside dwarves in Coldridge Valley."
   }
  ],
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "For dwarves and gnomes taking their first steps into the shadows, Solm Hargrin provides foundational training and decrypts your very first guild orders."
+   "text": "As a dwarf or gnome beginning rogue training, you can learn the basics from Solm Hargrin, who also deciphers your first guild orders."
   },
   {
    "target": "race:Dwarf",
-   "text": "Solm represents a less conventional dwarven path, proving that stealth, cunning, and quiet steel have as much a place in Dun Morogh as heavy armor and axes."
+   "text": "As a dwarf, you can follow a quieter path in Dun Morogh, where stealth and cunning have their place alongside armor and axes."
   }
  ],
  "keywords": [
@@ -82,5 +82,6 @@
  ],
  "attribution": [
   "Solm Hargrin"
- ]
+ ],
+ "style": 1
 }

@@ -10,11 +10,11 @@
    "quest:1134"
   ]
  },
- "summary": "Pridewing Venom Sacs are harvested from the lethal wyverns nesting around Mirkfallon Lake in the Stonetalon Mountains. The night elves of Astranaar seek to stockpile and destroy these sacs after intelligence suggests Horde operatives harvest the potent poison for covert assassinations.",
+ "summary": "Around Mirkfallon Lake, Pridewing Venom Sacs are sought by the night elves of Astranaar. Reports suggest Horde agents harvest the poison for covert attacks, and the Sentinels mean to deny them that supply.",
  "sections": [
   {
    "title": "A Threat in the Crags",
-   "body": "The pridewings of Stonetalon are dangerous, airborne predators native to the peaks south of Ashenvale, particularly around Mirkfallon Lake. While wild wyverns are naturally venomous, Alliance intelligence out of Theramore suggests that Horde assassins have begun milking them for poison to coat blades used in covert raids against night elf settlements. To safeguard their kin and disrupt enemy supplies, the Sentinels in Astranaar hire scouts to hunt down the beasts and collect the venom glands before the Horde can secure them.",
+   "body": "Pridewings hunt from the crags south of Ashenvale, especially around Mirkfallon Lake. These airborne predators are native to the Stonetalon Mountains, and their venom can be gathered from the glands in their bodies. Reports from Theramore suggest Horde assassins are taking that poison to coat blades for covert attacks on night elf settlements. In Astranaar, Sentinels send scouts to hunt the wyverns and collect their venom glands before Horde agents can claim them.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "who drops pridewing venom sac",
     "pridewing venom sources"
    ],
-   "answer": "These venom sacs are retrieved from the various wyverns inhabiting the crags near Mirkfallon Lake in the Stonetalon Mountains, including young pridewings, skyhunters, patriarchs, and consorts."
+   "answer": "Young pridewings, skyhunters, patriarchs, and consorts around Mirkfallon Lake yield the venom sacs."
   },
   {
    "q": "Why does Astranaar want Pridewing Venom Sacs?",
@@ -34,7 +34,7 @@
     "why collect venom sacs",
     "shindrell swiftfire venom"
    ],
-   "answer": "Shindrell Swiftfire received reports that Horde agents harvest pridewing poison to coat weapons used in silent assassinations against the Alliance. Destroying or confiscating the glands preempts these strikes."
+   "answer": "Shindrell Swiftfire received reports that Horde agents use pridewing poison on weapons for silent attacks against the Alliance. Confiscating or destroying the glands can prevent those strikes."
   },
   {
    "q": "Who accepts these venom sacs in Ashenvale?",
@@ -42,7 +42,7 @@
     "who takes pridewing venom",
     "pridewing quest turn in"
    ],
-   "answer": "Shindrell Swiftfire, stationed in the night elf town of Astranaar within Ashenvale, collects them to protect her people from covert attacks."
+   "answer": "Shindrell Swiftfire collects the venom sacs in Astranaar, the night elf town in Ashenvale, to protect her people from covert attacks."
   },
   {
    "q": "Are the pridewings naturally allied with the Horde?",
@@ -50,17 +50,17 @@
     "are pridewings horde",
     "do pridewings work for orcs"
    ],
-   "answer": "No. The wild pridewings around Mirkfallon Lake are beasts that do not willingly aid the Horde, though orc agents exploit their venomous biology for their own warfare."
+   "answer": "No. The pridewings around Mirkfallon Lake are wild beasts, not willing allies of the Horde. Orc agents exploit their venom for warfare."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Denying the Horde access to pridewing venom is vital to safeguarding frontier patrols from unseen assassins along the contested borders of Stonetalon and Ashenvale."
+   "text": "Denying Horde agents pridewing venom helps protect frontier patrols from unseen assassins along the contested borders of Stonetalon and Ashenvale."
   },
   {
    "target": "race:NightElf",
-   "text": "Though Sentinel leadership regrets having to cull innocent wild beasts, protecting elven lives against poisoned blades takes precedence over natural harmony."
+   "text": "As a night elf, you may regret that innocent wild beasts must be hunted, but protecting elven lives from poisoned blades comes first."
   }
  ],
  "keywords": [
@@ -85,5 +85,6 @@
  "attribution": [
   "Pridewing Venom Sac",
   "Pridewings of Stonetalon"
- ]
+ ],
+ "style": 1
 }

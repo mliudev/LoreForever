@@ -8,16 +8,16 @@
   "wiki": "Piznik",
   "refs": 2
  },
- "summary": "Piznik is a disgruntled goblin surveyor hiding deep within Windshear Mine in the Stonetalon Mountains. Once a high-ranking overseer in the local Venture Company operations, he was sidelined by the ruthless Gerenzo Wrenchwhistle. Now nursing a grudge, Piznik secretly gathers intel to undermine his former workplace.",
+ "summary": "Deep in Windshear Mine, Piznik watches the Venture Company at work. Once second-in-command, he was pushed aside by Gerenzo Wrenchwhistle and now plots against his former boss.",
  "sections": [
   {
    "title": "Fallen from Grace",
-   "body": "Before Gerenzo Wrenchwhistle seized supreme authority over Windshear Crag, Piznik held the enviable title of second-in-command across the entire operation. However, corporate restructuring in the Venture Company is unforgiving. Once Gerenzo took full control, Piznik found himself pushed aside and relegated to the murky depths of Windshear Mine. Rather than accepting his demotion quietly, Piznik bides his time underground, keeping a watchful eye on mine movements and quietly plotting revenge against the boss who demoted him.",
+   "body": "Before Gerenzo Wrenchwhistle took control of Windshear Crag, Piznik ranked second across the entire operation. When Gerenzo seized authority, the Venture Company pushed Piznik aside and sent him into the depths of Windshear Mine. Piznik has not accepted the demotion quietly. Underground, he watches the mine's movements and waits for a chance to take revenge on the boss who demoted him.",
    "spoiler": 0
   },
   {
    "title": "Corporate Espionage",
-   "body": "Piznik's quiet rebellion took a practical turn through an alliance with Ziz Fizziks, an operative stationed outside who was similarly cast out by Gerenzo. Operating as Ziz's inside man, Piznik gathers what he can about Gerenzo's plans. By smuggling out a sample of the mysterious gold-green ore Gerenzo has ordered mined in bulk and sending it on to Ziz, Piznik works to disrupt the Venture Company's deforestation and mining efforts from the shadows, ensuring that Gerenzo's ambitious leadership faces constant, agonizing setbacks.",
+   "body": "Piznik's rebellion took shape through an alliance with Ziz Fizziks, another former Venture Company worker cast out by Gerenzo. From inside the mine, Piznik gathers what he can about Gerenzo's plans. He smuggled a sample of the mysterious gold-green ore Gerenzo ordered mined in bulk to Ziz. Together, they work to disrupt the Venture Company's deforestation and mining efforts, bringing setbacks to Gerenzo's leadership.",
    "spoiler": 1
   }
  ],
@@ -29,7 +29,7 @@
     "where is piznik",
     "find piznik stonetalon"
    ],
-   "answer": "Piznik is tucked away inside Windshear Mine, a cavern complex carved into the slopes of Windshear Crag in the Stonetalon Mountains. You will find him deep within the tunnels surrounded by Venture Company workers."
+   "answer": "Piznik is deep inside Windshear Mine, in the tunnels carved into Windshear Crag in the Stonetalon Mountains. Venture Company workers are nearby."
   },
   {
    "q": "What is Piznik's grudge against Gerenzo Wrenchwhistle?",
@@ -37,7 +37,7 @@
     "why does piznik hate gerenzo",
     "piznik gerenzo feud"
    ],
-   "answer": "Piznik was formerly the second-highest authority in Windshear Crag. When Gerenzo Wrenchwhistle took total command of the logging and mining project, he demoted Piznik, leaving the former supervisor resentful and eager to see Gerenzo ruined."
+   "answer": "Piznik once ranked second across the Windshear Crag operation. When Gerenzo Wrenchwhistle took command of the logging and mining project, he demoted Piznik, who now resents him and wants to see him ruined."
   },
   {
    "q": "How does Piznik fit into Ziz Fizziks' plans?",
@@ -45,7 +45,7 @@
     "piznik and ziz",
     "who does piznik work with"
    ],
-   "answer": "Ziz Fizziks was fired outright by Gerenzo, whereas Piznik was merely demoted. Piznik uses his remaining access deep inside Windshear Mine to act as an informant, gathering word of Gerenzo's plans and getting a sample of the mysterious ore Gerenzo has ordered mined out to Ziz."
+   "answer": "Ziz Fizziks was fired by Gerenzo, while Piznik was demoted. Piznik uses his access inside Windshear Mine to learn of Gerenzo's plans and get a sample of the mysterious ore to Ziz."
   },
   {
    "q": "Is Piznik still loyal to the Venture Company?",
@@ -53,13 +53,13 @@
     "is piznik venture co",
     "piznik faction"
    ],
-   "answer": "Only on paper. While he still wears the mantle of a Venture Company employee to remain within the mine, Piznik's true allegiance is entirely to his own self-interest and his desire to sabotage Gerenzo."
+   "answer": "Piznik remains a Venture Company employee so he can stay inside the mine. He acts for his own interests and wants to sabotage Gerenzo."
   }
  ],
  "angles": [
   {
    "target": "profession:Mining",
-   "text": "Miners traversing Windshear Mine will cross paths with Piznik, a living example of how rapidly organizational rank can plummet beneath the weight of corporate greed."
+   "text": "As a miner, you may cross paths with Piznik inside Windshear Mine, where he watches the company that demoted him."
   }
  ],
  "keywords": [
@@ -81,5 +81,6 @@
  ],
  "attribution": [
   "Piznik"
- ]
+ ],
+ "style": 1
 }

@@ -10,16 +10,16 @@
    "quest:156"
   ]
  },
- "summary": "Rot Blossoms are foul, necrotic flora found growing among the desecrated graves of Duskwood. Fed by the blighted soil and undead remains, they are sought after for their potent, unwholesome alchemical properties.",
+ "summary": "Rot Blossoms grow among Duskwood's desecrated graves, fed by blighted soil and undead remains. Their foul alchemical properties make them sought after.",
  "sections": [
   {
    "title": "Flora of the Crypts",
-   "body": "Duskwood's unnatural corruption breeds bizarre and disturbing plant life, none more unsettling than the Rot Blossom. Rooted in the defiled earth of graveyards such as the Tranquil Gardens Cemetery, these morbid blooms thrive in proximity to death. Local rumors claim they can even take root within the cracked skulls of the walking dead, particularly Skeletal Horrors and Skeletal Fiends that stalk the barrows. To the locals in Darkshire, harvesting them is both a grim chore and a dangerous necessity, as disturbing their soil means braving the unrested dead.",
+   "body": "In Duskwood, Rot Blossoms grow in the defiled earth of graveyards such as the Tranquil Gardens Cemetery. Local rumors say the blooms can take root inside the cracked skulls of Skeletal Horrors and Skeletal Fiends stalking the barrows. For people in Darkshire, gathering them is grim and dangerous. Disturbing the soil means facing the unrested dead.",
    "spoiler": 0
   },
   {
    "title": "A Gruesome Ingredient",
-   "body": "Despite their repulsive nature, Rot Blossoms serve a specialized purpose in local concoctions. The blooms contain dark essences required to brew Zombie Juice, a foul draft tied to Duskwood's macabre survival efforts. Those dispatched to gather the blossoms often find themselves inadvertently aiding the Night Watch, culling the restless skeletons that wander the haunted gravesites in the process.",
+   "body": "Rot Blossoms provide an ingredient for local brews. Their dark essences are needed to make Zombie Juice, a foul draft tied to Duskwood's efforts to survive. Those sent to gather the flowers often aid the Night Watch as they cut down restless skeletons wandering the haunted graves.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "rot blossom location",
     "find rot blossoms"
    ],
-   "answer": "Rot Blossoms are found growing in the corrupted soil of Duskwood's burial grounds, particularly within the Tranquil Gardens Cemetery, and are known to sprout from the remains of undead skeletal fiends."
+   "answer": "Rot Blossoms grow in Duskwood's corrupted burial grounds, particularly in the Tranquil Gardens Cemetery. They are also known to sprout from the remains of undead skeletal fiends."
   },
   {
    "q": "What are Rot Blossoms used for?",
@@ -40,7 +40,7 @@
     "why gather rot blossoms",
     "what makes rot blossoms useful"
    ],
-   "answer": "They are a key ingredient used by local brewers and alchemists to distill a potent, foul mixture known as Zombie Juice."
+   "answer": "Local brewers and alchemists use Rot Blossoms to make Zombie Juice, a potent and foul mixture."
   },
   {
    "q": "Why do these blossoms grow in skeletons?",
@@ -49,7 +49,7 @@
     "skeletal horror flower",
     "skeletons rot blossom"
    ],
-   "answer": "Duskwood's lingering dark magic infects both the earth and the restless dead. Rot Blossoms feed directly on necrotic corruption and decay, allowing them to sprout inside the skulls and ribcages of roaming skeletons."
+   "answer": "Duskwood's lingering dark magic infects the earth and the restless dead. Rot Blossoms feed on necrotic corruption and decay, and can sprout inside the skulls and ribcages of roaming skeletons."
   },
   {
    "q": "How does gathering Rot Blossoms help Darkshire?",
@@ -58,17 +58,17 @@
     "night watch rot blossom",
     "helping darkshire"
    ],
-   "answer": "Anyone venturing into places like the Tranquil Gardens to harvest the blossoms must inevitably cut down the Skeletal Horrors and Fiends that plague the grounds, providing much-needed relief to Althea Ebonlocke and the beleaguered Night Watch."
+   "answer": "Gathering Rot Blossoms in places such as the Tranquil Gardens means cutting down the Skeletal Horrors and Fiends that plague the grounds. That gives needed relief to Althea Ebonlocke and the beleaguered Night Watch."
   }
  ],
  "angles": [
   {
    "target": "profession:Herbalism",
-   "text": "Unlike standard herbs nurtured by light and rain, Rot Blossoms are foul botanical anomalies fed purely by necrotic rot and graveyard soil, offering a grim study in corrupted flora."
+   "text": "Rot Blossoms are foul plants fed by necrotic rot and graveyard soil, unlike herbs nurtured by light and rain. They offer a grim study in corrupted flora."
   },
   {
    "target": "faction:Alliance",
-   "text": "Venturing into the cursed soil to harvest these morbid blooms doubles as a service to the Night Watch, helping keep Darkshire's borders clear of ravenous skeletons."
+   "text": "Gathering these morbid blooms in cursed soil also helps the Night Watch keep ravenous skeletons from Darkshire's borders."
   }
  ],
  "keywords": [
@@ -94,5 +94,6 @@
  "attribution": [
   "Rot Blossom",
   "Gather Rot Blossoms (Classic)"
- ]
+ ],
+ "style": 1
 }

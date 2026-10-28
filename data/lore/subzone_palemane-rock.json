@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Palemane Rock"
  },
- "summary": "Palemane Rock is a cavern and campsite nestled into the western mountains of Mulgore. It serves as a primary stronghold for the aggressive Palemane gnoll tribe, posing a continual nuisance and threat to the nearby tauren of Bloodhoof Village.",
+ "summary": "Palemane Rock shelters a gnoll camp in Mulgore's western mountains. The Palemane tribe holds the cave and foothills, threatening tauren near Bloodhoof Village.",
  "sections": [
   {
    "title": "A Gnoll Stronghold",
-   "body": "Situated along the western rim of the grassy plains of Mulgore, Palemane Rock consists of a sprawling open-air encampment fronting a deep, shadowed cavern carved into the mountainside. The Palemane gnolls have claimed both the cave interior and the immediate foothills outside as their territory. Hostile and territorial, these gnolls aggressively defend their den, attacking hunters, travelers, and scouts who wander too close to their rocky haven.",
+   "body": "Palemane Rock lies along Mulgore's western rim, where open grassland meets the mountains. An encampment fronts a deep cave in the mountainside. Palemane gnolls claim the cave and the foothills outside it as their territory. They attack hunters, travelers, and scouts who come too close, and defend their den fiercely.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "palemane cave",
     "where is palemane rock"
    ],
-   "answer": "Palemane Rock is a natural cave formation and entrenched gnoll settlement set into the western cliffs of Mulgore."
+   "answer": "Palemane Rock is a cave and gnoll settlement in Mulgore's western cliffs."
   },
   {
    "q": "Who lives at Palemane Rock?",
@@ -32,7 +32,7 @@
     "palemane mobs",
     "gnolls at palemane rock"
    ],
-   "answer": "The cavern and surrounding camp are held by gnolls belonging to the Palemane tribe. They aggressively defend their territory against outsiders, including the native tauren."
+   "answer": "Palemane gnolls hold the cave and surrounding camp. They defend their territory against outsiders, including tauren."
   },
   {
    "q": "Why does Palemane Rock matter to the tauren?",
@@ -41,17 +41,17 @@
     "bloodhoof village gnolls",
     "threat to mulgore"
    ],
-   "answer": "The proximity of Palemane Rock to central Mulgore and Bloodhoof Village makes it an active nest of hostile raiders that tauren hunters and braves must continually suppress."
+   "answer": "Palemane Rock lies near central Mulgore and Bloodhoof Village. Hostile raiders from the camp keep tauren hunters and braves busy suppressing them."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "The Palemane gnolls entrenched in these western caves are a persistent thorn in the side of your people, threatening game and unwary wanderers across Mulgore's pastures."
+   "text": "The Palemane gnolls in these western caves threaten game and unwary travelers across your people's pastures in Mulgore."
   },
   {
    "target": "faction:Horde",
-   "text": "Securing Mulgore's borders against local pests like the Palemane gnolls is essential for keeping the tauren homeland safe and stable."
+   "text": "Keeping Mulgore's borders safe from Palemane gnolls helps protect the tauren homeland."
   }
  ],
  "keywords": [
@@ -68,5 +68,6 @@
  ],
  "attribution": [
   "Palemane Rock"
- ]
+ ],
+ "style": 1
 }

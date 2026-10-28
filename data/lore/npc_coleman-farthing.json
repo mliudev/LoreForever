@@ -8,16 +8,16 @@
   "wiki": "Coleman Farthing",
   "refs": 5
  },
- "summary": "Coleman Farthing is a bitter Forsaken survivor residing in the Gallows' End Tavern in Brill. In life, he worked for the wealthy Agamand dynasty at their extensive flour mills in northern Tirisfal. Convinced to stay and defend the estate against the Scourge, he died alongside his fellow laborers, and now dedicates his undeath to exacting vengeance on his former masters.",
+ "summary": "In Brill's Gallows' End Tavern, Coleman Farthing nurses a hatred born in the Agamand Mills. He served the wealthy Agamand dynasty in northern Tirisfal, where he and the other laborers died defending their employers' estate from the Scourge. Now Forsaken, he seeks vengeance on his former masters.",
  "sections": [
   {
    "title": "A Bitter Servant",
-   "body": "Before the Third War, Coleman Farthing earned an honest living as a laborer at the Agamand Mills, the largest milling and agricultural operation in Tirisfal Glades. When the Scourge poured across Lordaeron, the aristocratic Agamand family refused to flee their valuable lands. Instead, they urged their household and laborers to take up arms alongside them, promising they could hold the farmsteads against the undead horde. Coleman and his fellow workers stayed, believing their masters\u2014a decision that cost every last one of them their lives.",
+   "body": "Before the Third War, Coleman Farthing worked at the Agamand Mills, Tirisfal Glades' largest milling and agricultural operation. When the Scourge swept across Lordaeron, the aristocratic Agamand family refused to flee their valuable lands. They urged their household and laborers to take up arms, promising they could hold the farmsteads against the undead horde. Coleman and his fellow workers stayed, believing their masters. Every last one of them died.",
    "spoiler": 0
   },
   {
    "title": "Vengeance from the Grave",
-   "body": "Raised into undeath only to break free under the banner of the Forsaken, Coleman harbors a burning hatred for the Agamands. Rather than blaming only the Scourge, he blames the sheer hubris and greed of his employers for tricking their staff into an impossible last stand. Now loitering in Brill's tavern, Coleman enlists Horde champions to march into the blighted mills, cut down the risen Agamand kin, and plunder the heirloom weapons housed within their family crypt so that the last of their honor is stripped away.",
+   "body": "Coleman Farthing broke free into the Forsaken after being raised into undeath, and he still hates the Agamands. He blames his former employers' greed and pride for tricking their staff into an impossible last stand, not only the Scourge. From a tavern in Brill, he sends Horde champions to the blighted mills to kill the risen Agamand kin and plunder heirloom weapons from their family crypt, stripping away the last of their honor.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "where is coleman farthing",
     "coleman farthing brill"
    ],
-   "answer": "Coleman Farthing spends his days inside the Gallows' End Tavern in Brill, located in central Tirisfal Glades."
+   "answer": "Coleman Farthing spends his days in the Gallows' End Tavern in Brill, in central Tirisfal Glades."
   },
   {
    "q": "Why does Coleman hate the Agamand family so much?",
@@ -38,7 +38,7 @@
     "coleman farthing motivation",
     "agamand mills grudge"
    ],
-   "answer": "When the Scourge invaded Lordaeron, the Agamand patriarchs convinced their workers\u2014including Coleman\u2014to stay and fight to protect the mills rather than flee to safety. The entire workforce was slaughtered as a result. Coleman views their rallying cry as arrogant manipulation that led him directly to his death."
+   "answer": "When the Scourge invaded Lordaeron, the Agamand patriarchs persuaded their workers, Coleman among them, to stay and defend the mills instead of fleeing. The entire workforce was slaughtered, and Coleman sees their call to fight as arrogant manipulation that led him to his death."
   },
   {
    "q": "What happened to the Agamand Mills?",
@@ -47,7 +47,7 @@
     "agamand mills lore",
     "who owns agamand mills"
    ],
-   "answer": "The sprawling estate was completely overrun by the Scourge. Its wind-driven mills stand ruined and haunted, while the Agamand family members and their slaughtered workers wander the blighted fields as mindlessly hostile undead under the Lich King's sway."
+   "answer": "The Scourge overran the sprawling estate. Its wind-driven mills lie ruined and haunted, while Agamand family members and their slain workers wander the blighted fields as mindlessly hostile undead under the Lich King's sway."
   },
   {
    "q": "What tasks does Coleman give to adventurers?",
@@ -55,7 +55,7 @@
     "coleman farthing quests",
     "agamand quests brill"
    ],
-   "answer": "Coleman directs adventurers to journey north to the Agamand Mills to cull the roaming undead, slay the risen members of the Agamand lineage to recover their remains for desecration, and raid the Agamand Family Crypt for ancestral weaponry."
+   "answer": "Coleman sends adventurers north to the Agamand Mills to cull the roaming undead, slay risen members of the Agamand lineage and recover their remains for desecration, then plunder ancestral weapons from the Agamand Family Crypt."
   },
   {
    "q": "Why does Coleman want the Agamand heirloom weapons?",
@@ -63,7 +63,7 @@
     "agamand heirlooms quest lore",
     "why steal agamand weapons"
    ],
-   "answer": "Coleman sees the Agamands' ancestral weaponry as symbols of the hollow pride that led his fellow workers to their deaths. He sends skilled warriors to plunder these relics from the family crypt, both to strip the dynasty of its honor and put the weapons to practical use against their enemies."
+   "answer": "Coleman sees the Agamands' ancestral weapons as signs of the hollow pride that led his fellow workers to die. He sends warriors to plunder them from the family crypt, stripping the dynasty of its honor and putting the weapons to practical use against their enemies."
   },
   {
    "q": "Is Coleman Farthing related to Bishop Farthing?",
@@ -71,17 +71,17 @@
     "bishop farthing relation",
     "coleman farthing family"
    ],
-   "answer": "They share a surname and origins in the fallen Kingdom of Lordaeron, but there is no confirmed record of their specific familial ties."
+   "answer": "Coleman Farthing and Bishop Farthing share a surname and roots in the fallen Kingdom of Lordaeron, but no confirmed record establishes their family ties."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "For the Forsaken, Coleman represents the shared resentment many commoners hold toward Lordaeron's old nobility, whose arrogance and pride often hastened their subjects' demise during the plague."
+   "text": "For the Forsaken, Coleman reflects the resentment many commoners hold toward Lordaeron's old nobility, whose arrogance and pride often hastened their subjects' deaths during the plague."
   },
   {
    "target": "class:Warrior",
-   "text": "Coleman points aspiring warriors directly toward the Agamand Family Crypt, urging them to plunder the martial heirlooms of a fallen aristocratic house to arm themselves for the wars ahead."
+   "text": "Coleman points aspiring warriors toward the Agamand Family Crypt to plunder the martial heirlooms of a fallen aristocratic house and arm themselves for the wars ahead."
   }
  ],
  "keywords": [
@@ -106,5 +106,6 @@
  ],
  "attribution": [
   "Coleman Farthing"
- ]
+ ],
+ "style": 1
 }

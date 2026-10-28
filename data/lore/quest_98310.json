@@ -1,0 +1,91 @@
+{
+ "key": "quest:98310",
+ "type": "quest",
+ "name": "Gleaning Our Future",
+ "era": "forever",
+ "zone": "wetlands",
+ "meta": {
+  "ids": [
+   98310
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Prospector Whelgar sees a chance to learn more from the Goaz Stone. Four larger golems bear inscriptions that match its missing pieces.",
+ "sections": [
+  {
+   "title": "Four Inscriptions",
+   "body": "You've found missing pieces of the Goaz Stone. Whelgar points to four larger golems bearing the names Ados, Modr, Golm, and Neru. He asks you to use the stone near each one and bring their hearts back to him, hoping they will reveal more of its markings.",
+   "spoiler": 0
+  },
+  {
+   "title": "Faint Words",
+   "body": "When Whelgar brings the hearts close to the Goaz Stone, new writing appears in a faint shimmer: \u201cCurse of Flesh... they will fail.\u201d He cannot make out what the words mean and wants to take the stone somewhere safe for further study.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does Whelgar want me to bring back?",
+   "aliases": [
+    "whelgar wants what",
+    "golem hearts",
+    "bring back hearts"
+   ],
+   "answer": "Whelgar asks you to bring back the hearts of Ados, Modr, Golm, and Neru after using the Goaz Stone near each golem."
+  },
+  {
+   "q": "Where are the four golems?",
+   "aliases": [
+    "where are ados modr golm neru",
+    "golem locations",
+    "where find the golems"
+   ],
+   "answer": "Ados is at the Dragonmaw Gates near Grim Batol. Modr is just outside Dun Modr to the north. Golm lies beneath Grim Batol, east of Dun Algaz. Neru is behind Direforge Hill to the northeast."
+  },
+  {
+   "q": "Why does Whelgar want the golem hearts?",
+   "aliases": [
+    "why hearts",
+    "what are hearts for",
+    "goaz stone pieces"
+   ],
+   "answer": "The golems bear inscriptions matching missing pieces of the Goaz Stone, and Whelgar hopes their hearts will reveal more of the stone."
+  },
+  {
+   "q": "What does Whelgar think of the golems?",
+   "aliases": [
+    "are golems tough",
+    "whelgar warning",
+    "golem strength"
+   ],
+   "answer": "Whelgar suspects the constructs will be tougher than the warder."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "ados",
+  "gleaning our future",
+  "goaz stone",
+  "golem hearts",
+  "golm",
+  "inscriptions",
+  "modr",
+  "neru",
+  "prospector whelgar",
+  "wetlands"
+ ],
+ "related": [
+  "zone:wetlands",
+  "npc:prospector-whelgar",
+  "subzone:dragonmaw-gates",
+  "subzone:dun-modr",
+  "subzone:grim-batol",
+  "subzone:dun-algaz",
+  "subzone:direforge-hill"
+ ],
+ "style": 1,
+ "attribution": [
+  "In-game quest text: Gleaning Our Future"
+ ]
+}

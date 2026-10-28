@@ -17,16 +17,16 @@
   "wiki": "Sara Balloo's Plea (quest)",
   "chain": []
  },
- "summary": "Sara Balloo's Plea is a somber errand undertaken on behalf of a grieving dwarven widow in Ironforge. Unable to face her monarch directly in her state of sorrow, Sara entrusts a personal appeal to King Magni Bronzebeard regarding her fallen husband, Sully Balloo.",
+ "summary": "In Ironforge, Sara Balloo grieves for her husband, Sully. Unable to face King Magni Bronzebeard, she asks you to carry her appeal to him.",
  "sections": [
   {
    "title": "A Widow's Request",
-   "body": "After receiving the tragic final letter recovered from the watery depths of the Thandol Span, Sara Balloo finds herself paralyzed by mourning. Rather than let her husband Sully's sacrifice fade into obscurity, she writes a plea addressed directly to the throne of Ironforge. Too overwhelmed by heartbreak to appear before court etiquette herself, she entrusts the sealed parchment to a trusted champion of the Alliance to petition King Magni Bronzebeard on her behalf.",
+   "body": "Sara Balloo mourns Sully after receiving the final letter recovered from the waters of the Thandol Span. She wants his sacrifice remembered, so she writes a plea for King Magni Bronzebeard. Grief keeps her from appearing before the throne herself, and she entrusts the sealed letter to you, a champion of the Alliance, to carry it to the king.",
    "spoiler": 0
   },
   {
    "title": "Audience with the King",
-   "body": "Carrying a private petition to the High Seat of Ironforge is no routine chore, but Magni Bronzebeard takes personal note of the brave defenders of Khaz Modan. Upon receiving the message, the King pauses the affairs of state to read the humble plea of a soldier's widow, demonstrating his bond with the common dwarves who built and defend his mountain kingdom.",
+   "body": "King Magni Bronzebeard receives Sara's private plea at the High Seat in Ironforge. He takes note of Khaz Modan's brave defenders and pauses the affairs of state to read the widow's humble appeal. His attention shows the bond he shares with the common dwarves who built and defend his mountain kingdom.",
    "spoiler": 1
   }
  ],
@@ -37,7 +37,7 @@
     "sara balloo",
     "who is sara"
    ],
-   "answer": "Sara Balloo is an Ironforge dwarf whose husband, the soldier Sully Balloo, died in the Thandol Span tragedy. She lives in the city, holding his memory dear."
+   "answer": "Sara Balloo is a dwarf who lives in Ironforge. Her husband, the soldier Sully Balloo, died in the Thandol Span tragedy, and she holds his memory dear."
   },
   {
    "q": "Why does Sara want me to see the King instead of going herself?",
@@ -45,7 +45,7 @@
     "why cant sara go",
     "sara grief"
    ],
-   "answer": "Sara is overcome by grief after finally learning the definitive fate of her husband. She feels she cannot maintain the composure expected when petitioning King Magni Bronzebeard in the High Seat."
+   "answer": "Sara is overcome by grief after learning what happened to Sully. She feels unable to keep the composure expected when petitioning King Magni Bronzebeard at the High Seat."
   },
   {
    "q": "Who was Sully Balloo?",
@@ -53,7 +53,7 @@
     "sully balloo",
     "saras husband"
    ],
-   "answer": "Sully Balloo was a dwarf soldier who defended the Thandol Span. He perished during fighting along the bridge, leaving behind a waterlogged letter to his wife."
+   "answer": "Sully Balloo was a dwarf soldier who defended the Thandol Span. He died in fighting along the bridge, leaving a waterlogged letter for his wife."
   },
   {
    "q": "Where do I deliver Sara Balloo's Plea?",
@@ -62,7 +62,7 @@
     "king magni location",
     "turn in location"
    ],
-   "answer": "You deliver the plea directly to King Magni Bronzebeard in the High Seat at the center of Ironforge."
+   "answer": "You deliver Sara's plea to King Magni Bronzebeard at the High Seat in the center of Ironforge."
   },
   {
    "q": "What happens after King Magni reads the plea?",
@@ -70,7 +70,7 @@
     "quest continuation",
     "next quest"
    ],
-   "answer": "Reading Sara's plea moves King Magni to honor the fallen soldier properly, leading directly into the quest 'A King's Tribute' to establish a lasting monument."
+   "answer": "After reading Sara's plea, King Magni honors Sully Balloo, leading to A King's Tribute and the making of a lasting monument."
   },
   {
    "q": "What faction can undertake this task?",
@@ -78,17 +78,17 @@
     "can horde do this",
     "faction requirement"
    ],
-   "answer": "This errand is exclusive to members of the Alliance, as it involves internal dwarven affairs and an audience with King Magni Bronzebeard."
+   "answer": "Only members of the Alliance can carry Sara's plea, which concerns dwarven affairs and an audience with King Magni Bronzebeard."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "Delivering a grieving widow's plea directly to your King touches the deep cultural importance dwarves place on stonework, lineage, and honoring ancestral sacrifice."
+   "text": "As a dwarf, carrying a grieving widow's plea to your King touches the importance your people place on stonework, lineage, and honoring ancestral sacrifice."
   },
   {
    "target": "faction:Alliance",
-   "text": "Carrying word between grieving citizens and Alliance leadership highlights the personal costs borne by common folk during the conflicts preserving the realm."
+   "text": "As a member of the Alliance, you carry word between grieving citizens and Alliance leaders, bearing witness to the personal cost of preserving the realm."
   }
  ],
  "keywords": [
@@ -110,5 +110,6 @@
  ],
  "attribution": [
   "Sara Balloo's Plea (quest)"
- ]
+ ],
+ "style": 1
 }

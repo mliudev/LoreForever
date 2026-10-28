@@ -17,16 +17,16 @@
   "wiki": "Tundra MacGrann's Stolen Stash",
   "chain": []
  },
- "summary": "Tundra MacGrann, an injured dwarven hunter living out in the cold crags of Dun Morogh, has lost his winter supplies to a notorious local beast. A massive yeti known as Old Icebeard hauled off MacGrann's thorium-reinforced meat locker into its den. Unable to outrun the beast on a bum leg, the hunter relies on passing adventurers to slip inside and retrieve his provisions.",
+ "summary": "In Dun Morogh, Tundra MacGrann needs his winter stores back from Old Icebeard. The injured hunter cannot reach the yeti's cave himself.",
  "sections": [
   {
    "title": "Winter Stores and Stolen Lockers",
-   "body": "Surviving the harsh winters of Dun Morogh demands preparation, especially for mountaineers living outside the warmth of Kharanos and Ironforge. Tundra MacGrann had diligently salted away an entire month's worth of dried meats to outlast the coming cold season flurries. Taking precautions against hungry wild bears, he sealed his rations inside a reinforced thorium meat locker. Unfortunately, he did not account for the sheer brute strength of the mountain yetis, who carried the entire chest away rather than trying to open it on the spot.",
+   "body": "Tundra MacGrann had salted away a month's worth of dried meat for the cold season. He lives beyond the warmth of Kharanos and Ironforge, where surviving winter takes careful preparation. To keep hungry bears from his provisions, he locked them in a thorium-reinforced meat chest. Old Icebeard carried the whole chest away rather than trying to open it.",
    "spoiler": 0
   },
   {
    "title": "Old Icebeard's Den",
-   "body": "The culprit behind the theft is Old Icebeard, a feared and vicious yeti lurking in the jagged hills. While MacGrann was away hunting deer, Icebeard snatched the chest and dragged it back to his mountain cave. Though MacGrann remains confident that even a yeti cannot shatter solid thorium plating, his own injured leg makes a recovery mission suicidal. Any brave soul venturing into the cave must either contend directly with the beast or time their intrusion carefully while the monster is out prowling the snowdrifts.",
+   "body": "Old Icebeard stole the chest while MacGrann was away hunting deer and dragged it to a cave in the jagged hills. MacGrann believes the yeti cannot break through solid thorium, but his injured leg keeps him from retrieving the stores. Anyone entering the cave must face the beast or slip inside while it prowls the snowdrifts.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "macgrann",
     "who is macgrann"
    ],
-   "answer": "Tundra MacGrann is a dwarven trapper and hunter dwelling in the snowy expanses of Dun Morogh. Nursing a bad leg, he depends on his harvested stores to endure the harsh winter conditions."
+   "answer": "Tundra MacGrann is a dwarven hunter who lives in the snowy reaches of Dun Morogh. With an injured leg, he depends on his stored provisions to get through winter."
   },
   {
    "q": "Who stole MacGrann's meat locker?",
@@ -47,7 +47,7 @@
     "who took the meats",
     "stolen stash thief"
    ],
-   "answer": "A menacing local yeti known as Old Icebeard stole the locker while MacGrann was away hunting deer, dragging the heavy thorium chest into its mountain lair."
+   "answer": "Old Icebeard, a local yeti, stole MacGrann's meat locker while the hunter was away hunting deer and dragged it into its mountain cave."
   },
   {
    "q": "Why can't MacGrann get his meats back himself?",
@@ -56,7 +56,7 @@
     "macgranns leg",
     "bum leg"
    ],
-   "answer": "MacGrann suffers from an injured leg that severely limits his mobility. He knows he cannot move swiftly or quietly enough to enter and escape Old Icebeard's cave without being caught and mauled."
+   "answer": "An injured leg keeps MacGrann from moving quickly or quietly enough to enter Old Icebeard's cave and escape safely."
   },
   {
    "q": "Did the yeti eat the food?",
@@ -64,7 +64,7 @@
     "is the food eaten",
     "can icebeard open the chest"
    ],
-   "answer": "No. The dried meats were locked inside a sturdy chest crafted from solid thorium. While the yeti succeeded in carrying the heavy container off, it is unable to break through the metal."
+   "answer": "No. The dried meat is locked inside a solid thorium chest. Old Icebeard carried it away but cannot break through the metal."
   },
   {
    "q": "Do you have to fight Old Icebeard to get the meat locker?",
@@ -72,7 +72,7 @@
     "can you sneak past icebeard",
     "do i have to kill icebeard"
    ],
-   "answer": "No, you do not necessarily have to fight him. Old Icebeard regularly wanders outside his lair, giving nimble adventurers an opportunity to sneak into the cave and loot the locker unnoticed."
+   "answer": "You can slip into the cave while Old Icebeard is out prowling and retrieve the locker without fighting him."
   },
   {
    "q": "Where is the stolen stash located?",
@@ -80,21 +80,21 @@
     "where is the cave",
     "icebeard cave location"
    ],
-   "answer": "The stolen meat locker rests deep inside Old Icebeard's mountain cave, located in the hills near MacGrann's camp in Dun Morogh."
+   "answer": "The stolen meat locker is deep inside Old Icebeard's mountain cave, in the hills near MacGrann's camp in Dun Morogh."
   }
  ],
  "angles": [
   {
    "target": "class:Hunter",
-   "text": "Fellow trackers will sympathize with MacGrann's misfortune of having months of diligent field dressing and game preservation undone by an opportunistic beast while out tracking deer."
+   "text": "As a hunter, you know how much work goes into preserving meat. MacGrann lost his stores to a beast while he was out tracking deer."
   },
   {
    "target": "race:Dwarf",
-   "text": "Every dwarf in Dun Morogh knows the unforgiving brutality of a mountain winter; without preserved meat or shelter, even a hardened mountaineer cannot hold out against the freeze."
+   "text": "As a dwarf, you know how hard a mountain winter can be. Without preserved meat or shelter, even a seasoned mountaineer may not withstand the cold."
   },
   {
    "target": "class:Rogue",
-   "text": "MacGrann specifically seeks out stealthy travellers, making this theft a textbook job for scouts who can slip in behind Old Icebeard's back without ever drawing a blade."
+   "text": "As a rogue, you can slip into Old Icebeard's cave while he is away and take the locker without drawing a blade."
   }
  ],
  "keywords": [
@@ -112,5 +112,6 @@
  ],
  "attribution": [
   "Tundra MacGrann's Stolen Stash"
- ]
+ ],
+ "style": 1
 }

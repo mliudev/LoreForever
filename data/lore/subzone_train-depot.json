@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Train Depot"
  },
- "summary": "The Train Depot is a subterranean transit hub located just below the surface entrances of Gnomeregan in Dun Morogh. Once a bustling center of gnomish locomotion, it now swarms with hostile leper gnomes and invading troggs.",
+ "summary": "Beneath Gnomeregan's surface entrances in Dun Morogh, the Train Depot lies overrun by leper gnomes and troggs. Once a center of gnomish rail travel, it now stands in ruin.",
  "sections": [
   {
    "title": "A Ruined Transit Hub",
-   "body": "Situated at the bottom of the grand elevator leading down from Dun Morogh, the Train Depot once served as the primary nexus for rail transport across the subterranean marvel of Gnomeregan. Today, the platforms and railbeds lie in shambles. The fallout that irradiated the city transformed its remaining workers into crazed leper gnomes, while subterranean troggs have overrun the tracks. Explorers descending into the ruined city must navigate this staging ground to reach deeper sectors such as Clockwerk Run, the Loading Room, and the inner engineering facilities.",
+   "body": "The Train Depot lies below the grand elevator from Dun Morogh, where rail lines once carried gnomes through Gnomeregan. Its platforms and tracks now lie in ruin. The radiation that swept through the city changed the workers who remained into crazed leper gnomes, and troggs from below have overrun the rails. You must cross the depot to reach deeper parts of the city, including Clockwerk Run, the Loading Room, and the inner engineering facilities.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "how to get to train depot",
     "train depot entrance"
    ],
-   "answer": "The Train Depot lies directly beneath the surface entrance elevator in Dun Morogh, acting as one of the outer threshold areas before venturing into the core of Gnomeregan."
+   "answer": "The Train Depot lies beneath the surface entrance elevator in Dun Morogh, before the inner parts of Gnomeregan."
   },
   {
    "q": "What creatures inhabit the Train Depot now?",
@@ -32,7 +32,7 @@
     "mobs in train depot",
     "who is in train depot"
    ],
-   "answer": "The depot is overrun by feral troggs who burrowed up from the deep earth and wretched leper gnomes who lost their sanity during the radioactive disaster."
+   "answer": "Feral troggs from the deep earth and leper gnomes driven mad by the radioactive disaster overrun the depot."
   },
   {
    "q": "Where do the paths from the Train Depot lead?",
@@ -41,7 +41,7 @@
     "where does train depot go",
     "train depot connections"
    ],
-   "answer": "Passages lead west into Clockwerk Run and toward the Loading Room, while a northern workshop area houses a back door down into the upper Engineering Labs."
+   "answer": "Passages lead west into Clockwerk Run and toward the Loading Room. A northern workshop has a back door leading down to the upper Engineering Labs."
   },
   {
    "q": "Who is hiding in the Train Depot?",
@@ -50,17 +50,17 @@
     "train depot npc",
     "train depot vendor"
    ],
-   "answer": "Namdo Bizzfizzle, an engineering supplier, manages to survive tucked away beneath the north side of the main platform on the depot's lower level."
+   "answer": "Namdo Bizzfizzle, an engineering supplier, survives beneath the north side of the main platform on the depot's lower level."
   }
  ],
  "angles": [
   {
    "target": "race:Gnome",
-   "text": "For exiled gnomes, the abandoned depot is a tragic sight, showing the ruin of the advanced locomotion systems that once united their subterranean metropolis."
+   "text": "As an exiled gnome, you see the abandoned depot as a reminder of the advanced rail systems that once joined your subterranean city."
   },
   {
    "target": "profession:Engineering",
-   "text": "Engineers seeking rare schematics often scout the depot's lower platforms, where surviving gnome peddlers like Namdo Bizzfizzle still ply their trade amidst the wreckage."
+   "text": "As an engineer, you can search the depot's lower platforms for rare schematics. Gnome peddlers such as Namdo Bizzfizzle still trade among the wreckage."
   }
  ],
  "keywords": [
@@ -85,5 +85,6 @@
  ],
  "attribution": [
   "Train Depot"
- ]
+ ],
+ "style": 1
 }

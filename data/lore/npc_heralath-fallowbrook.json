@@ -8,16 +8,16 @@
   "wiki": "Heralath Fallowbrook",
   "refs": 1
  },
- "summary": "Heralath Fallowbrook is a dying night elf druid imprisoned deep within Razorfen Kraul. Dispatched to investigate the thorny corruption surrounding the remains of the Ancient Agamaggan, he was captured and brutalized by the Razorfen tribe. With his final breaths, he seeks to send word of his fate and a cherished pendant back to his wife in Darnassus.",
+ "summary": "Deep in Razorfen Kraul, Heralath Fallowbrook lies dying in quilboar hands. Sent to investigate the briars around Ancient Agamaggan's remains, he was captured and brutalized. Now he hopes word of his fate and his cherished pendant will reach his wife in Darnassus.",
  "sections": [
   {
    "title": "A Tragic Mission",
-   "body": "Sent by his people to investigate the ancient boar god Agamaggan and the spreading briars choking the southern Barrens, Heralath Fallowbrook sought the root of Razorfen Kraul's corruption. Instead of unearthing answers, the night elf was taken prisoner by the quilboar. Locked in a squalid pen and relentlessly beaten, Heralath succumbed to severe wounds and raging fever. Before fading entirely, he shared what he knew with a fellow captive, the dwarf Henrig Lonebrow, urging him to warn the sentinel outpost at Thalanaar about the aggression stirred up by the quilboar crone Charlga Razorflank.",
+   "body": "Heralath Fallowbrook came to the southern Barrens to investigate Ancient Agamaggan and the briars spreading around his remains. Sent by his people, the night elf druid sought the source of Razorfen Kraul's corruption. The quilboar captured him instead and locked him in a pen, where beatings and fever left him with mortal wounds. Before he faded, Heralath told Henrig Lonebrow, a dwarf captive, what he had learned. He urged Henrig to warn the sentinel outpost at Thalanaar about the aggression stirred by Charlga Razorflank, the quilboar crone.",
    "spoiler": 0
   },
   {
    "title": "A Dying Wish",
-   "body": "Though Lonebrow managed to escape, Heralath was far too weak to flee. Lingering at death's door within the tangled pens of the Kraul, the druid clings to consciousness only long enough to entreat passing adventurers. He asks not for rescue, but for his wife Treshala's pendant to be recovered from his captors and carried back to Darnassus, ensuring she learns of his fate and knows he held her memory to the end.",
+   "body": "Heralath Fallowbrook is too weak to flee Razorfen Kraul, even after Henrig Lonebrow escapes. Near death in the tangled pens, the druid holds on long enough to speak to travelers. He asks them to recover his wife Treshala's pendant from his captors and carry it to her in Darnassus. The pendant will bring Treshala word of his fate, and show that Heralath remembered her to the end.",
    "spoiler": 1
   }
  ],
@@ -29,7 +29,7 @@
     "heralath fallowbrook",
     "night elf in razorfen"
    ],
-   "answer": "Heralath Fallowbrook is a night elf druid held captive inside Razorfen Kraul. He traveled to the Barrens to study the corruption of the brambles and the legacy of the fallen boar Ancient Agamaggan, but was captured and fatally tortured by the quilboar."
+   "answer": "Heralath Fallowbrook is a night elf druid held captive in Razorfen Kraul. He came to the Barrens to study the corruption of the brambles and the legacy of Ancient Agamaggan, the fallen boar, but the quilboar captured and fatally tortured him."
   },
   {
    "q": "What happened to Heralath inside Razorfen Kraul?",
@@ -37,7 +37,7 @@
     "why is heralath dying",
     "what happened to heralath fallowbrook"
    ],
-   "answer": "After being taken prisoner by the Razorfen quilboar, Heralath was beaten and locked in a hut. Between relentless abuse and illness, his body failed him, leaving him near death by the time rescuers could reach him."
+   "answer": "The Razorfen quilboar captured Heralath, beat him, and locked him in a hut. Abuse and illness left him near death by the time rescuers could reach him."
   },
   {
    "q": "What does Heralath ask travelers to do?",
@@ -45,7 +45,7 @@
     "heralath quest",
     "mortality wanes quest"
    ],
-   "answer": "Knowing he will not survive, Heralath begs adventurers to recover his wife's pendant from the quilboar and bring it to her in Darnassus, bearing the tragic news of his death."
+   "answer": "Heralath asks travelers to recover his wife's pendant from the quilboar and carry it to her in Darnassus, along with word of his fate."
   },
   {
    "q": "Who was Henrig Lonebrow to Heralath?",
@@ -53,17 +53,17 @@
     "henrig lonebrow heralath",
     "dwarf captive razorfen"
    ],
-   "answer": "Henrig Lonebrow was a dwarf captive held in the same pen as Heralath. Before Henrig managed to escape, Heralath shared vital information about Agamaggan with him and pleaded that word be delivered to the outpost of Thalanaar about Charlga Razorflank's movements."
+   "answer": "Henrig Lonebrow was a dwarf captive held in the same pen as Heralath. Before Henrig escaped, Heralath told him what he knew about Agamaggan and urged him to warn the Thalanaar outpost about Charlga Razorflank's movements."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "Seeing a fellow druid broken by the savage brambles of Razorfen Kraul is a stark reminder of the wild, unyielding corruption spreading unchecked through the southern Barrens."
+   "text": "As a druid, seeing Heralath broken by Razorfen Kraul's brambles shows how unchecked corruption spreads through the southern Barrens."
   },
   {
    "target": "race:NightElf",
-   "text": "Carrying Heralath's pendant back to Darnassus honors a fallen brother who gave his life attempting to understand and heal the wounded lands of Kalimdor."
+   "text": "As a night elf, carrying Heralath's pendant to Darnassus honors a fallen brother who gave his life trying to understand and heal Kalimdor's wounded lands."
   }
  ],
  "keywords": [
@@ -88,5 +88,6 @@
  ],
  "attribution": [
   "Heralath Fallowbrook"
- ]
+ ],
+ "style": 1
 }

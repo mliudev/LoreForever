@@ -8,16 +8,16 @@
   "wiki": "Gurda Ragescar",
   "refs": 1
  },
- "summary": "Gurda Ragescar was an orc stationed at a small Horde outpost southwest of Splintertree Post in Ashenvale. Alongside Feran Strongwind, she fell defending their camp against local perils in the shadowed forest.",
+ "summary": "Gurda Ragescar fell at a Horde camp southwest of Splintertree Post in Ashenvale. She and Feran Strongwind died defending it against dangers in the shadowed forest.",
  "sections": [
   {
    "title": "A Slain Outpost",
-   "body": "Resting just southwest of the fortified walls of Splintertree Post, Gurda Ragescar maintained a modest Horde camp under the dense canopy of Ashenvale. Deep within territory contested by night elven defenders and wild beasts, maintaining such isolated positions is perilous work. Gurda, along with Feran Strongwind and their detachment of guards, was ultimately overrun and killed at their post, leaving only the remnants of their final stand for passing allies to discover.",
+   "body": "Gurda Ragescar and her guards fell at a small Horde camp southwest of Splintertree Post. The outpost stood beneath Ashenvale's dense canopy, deep in territory contested by night elven defenders and wild beasts. Gurda and Feran Strongwind were killed when the camp was overrun. Only remnants of their last stand remain for passing allies to find.",
    "spoiler": 0
   },
   {
    "title": "The Fallen Scouts",
-   "body": "Travelers wandering near the trail may come across the tragic scene of Gurda's defeat. Even in death, the possessions and tasks carried by her encampment offer clues to Horde endeavors across the woods, including missing documents and orders disrupted by the ambush.",
+   "body": "Travelers near the trail may find the scene of Gurda's defeat. The camp's possessions and unfinished work point to Horde efforts across the woods, including missing documents and orders disrupted by the ambush.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "who is gurda",
     "gurda ragescar lore"
    ],
-   "answer": "Gurda Ragescar is an orc scout and quest giver positioned at a small camp just southwest of Splintertree Post in Ashenvale, who met a violent end alongside her outpost companions."
+   "answer": "Gurda Ragescar was an orc scout at a small Horde camp southwest of Splintertree Post in Ashenvale. She died with her companions when the outpost was overrun."
   },
   {
    "q": "Where can Gurda Ragescar be found?",
@@ -36,7 +36,7 @@
     "gurda location",
     "where is gurda ragescar"
    ],
-   "answer": "Her body lies at an overrun camp southwest of Splintertree Post, off the roadway cutting through central Ashenvale."
+   "answer": "Her body lies at an overrun camp southwest of Splintertree Post, off the road through central Ashenvale."
   },
   {
    "q": "Who was killed alongside her?",
@@ -44,7 +44,7 @@
     "who died with gurda",
     "feran strongwind"
    ],
-   "answer": "She perished beside Feran Strongwind and their retinue of guards during an attack on their small encampment."
+   "answer": "Feran Strongwind and their guards died beside her when their small camp was attacked."
   },
   {
    "q": "What quest involves Gurda Ragescar?",
@@ -52,13 +52,13 @@
     "gurda quests",
     "the lost pages"
    ],
-   "answer": "Gurda is tied to the quest The Lost Pages, involving the recovery of scattered documents in the Ashenvale wilderness."
+   "answer": "Gurda is tied to The Lost Pages, which involves recovering scattered documents in the Ashenvale wilderness."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "The fallen camp serves as a somber reminder of the high price the Horde pays to secure a foothold within the sacred forests of Ashenvale."
+   "text": "For the Horde, Gurda's fallen camp marks the cost of securing a foothold in Ashenvale's forests."
   }
  ],
  "keywords": [
@@ -77,5 +77,6 @@
  ],
  "attribution": [
   "Gurda Ragescar"
- ]
+ ],
+ "style": 1
 }

@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Agamand Mills"
  },
- "summary": "Agamand Mills is a sprawling farm and windmill complex nestled in the northern heights of Tirisfal Glades. Once the proud estate of the wealthy Agamand dynasty, it has fallen into ruin and stands as the largest Scourge stronghold in the region.",
+ "summary": "Agamand Mills lie in ruin across northern Tirisfal, now the Scourge’s largest stronghold in the region. The wealthy Agamand dynasty once held this farm and milling estate.",
  "sections": [
   {
    "title": "A House Divided",
-   "body": "The wealthy Agamand family built their estate around a vast milling network across northern Tirisfal. When the Third War broke out and the Scourge swept across Lordaeron, the patriarch Gregor Agamand refused to flee, fortifying the compound and convincing his retainers and laborers to make their stand. Their provisions and stone walls might have held, but their youngest son, Devlin Agamand, betrayed his blood. Devlin slaughtered the estate watchmen and let the walking dead into the sleeping quarters. Crippled from within, the remaining defenders were wiped out, and the family joined the mindless ranks of the undead.",
+   "body": "The Agamand family built its estate around a vast milling network across northern Tirisfal. When the Scourge swept across Lordaeron during the Third War, patriarch Gregor Agamand refused to flee. He fortified the compound and persuaded his retainers and laborers to stand with him. Their provisions and stone walls might have held, but their youngest son, Devlin Agamand, betrayed them. Devlin slaughtered the estate watchmen and let the walking dead into the sleeping quarters. Crippled from within, the remaining defenders fell, and the family joined the mindless ranks of the undead.",
    "spoiler": 0
   },
   {
    "title": "A Bastion of Rot",
-   "body": "Today, the Agamand Mills are the most entrenched bastion of the Scourge in Tirisfal Glades, posing an immediate threat to the Forsaken realm. The rotting windmills now churn above infested fields of wights, zombies, and skeletal horrors. Beneath the estate, Captain Dargol commands the garrison from the deep Agamand Family Crypt, practicing necromancy to reanimate generations of Agamand ancestors. From Brill, Magistrate Sevren and the Deathguards wage an active campaign to clear the mills and purge the Scourge presence before it can march upon the Undercity.",
+   "body": "Agamand Mills are the Scourge’s strongest hold in Tirisfal Glades, and a direct threat to the Forsaken realm. Rotting windmills turn above fields crawling with wights, zombies, and skeletal horrors. Beneath the estate, Captain Dargol commands the garrison from the Agamand Family Crypt, where he practices necromancy to reanimate generations of Agamand ancestors. From Brill, Magistrate Sevren and the Deathguards fight to clear the mills and purge the Scourge before it can march on the Undercity.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "why are there undead at the mills",
     "agamand mills lore"
    ],
-   "answer": "When the Scourge ravaged Lordaeron, the Agamand family fortified their estate and attempted to hold out against the undead horde. However, the youngest son, Devlin Agamand, betrayed his family and opened the gates to the Scourge, leading to the slaughter and reanimation of everyone within."
+   "answer": "When the Scourge ravaged Lordaeron, the Agamand family fortified their estate and tried to hold back the undead. Their youngest son, Devlin Agamand, betrayed them and opened the gates to the Scourge. Everyone within was slaughtered and reanimated."
   },
   {
    "q": "Who controls the mills right now?",
@@ -37,7 +37,7 @@
     "scourge leader tirisfal",
     "who is in charge at the mills"
    ],
-   "answer": "The estate serves as a regional forward outpost for the Scourge, led by Captain Dargol. Dargol operates deep within the fortified Agamand Family Crypt, where he uses dark magic to raise ancestral corpses into new soldiers."
+   "answer": "Captain Dargol leads the Scourge at Agamand Mills. Deep in the fortified Agamand Family Crypt, he uses dark magic to raise ancestral corpses as new soldiers."
   },
   {
    "q": "Why do the Forsaken care about this place?",
@@ -45,7 +45,7 @@
     "why brill attacks agamand",
     "forsaken interest in agamand mills"
    ],
-   "answer": "The mills represent the largest concentration of mindless Scourge forces remaining in Tirisfal Glades. If left unchecked, Captain Dargol's force threatens Brill and could choke off roads leading south to the Undercity."
+   "answer": "Agamand Mills hold the largest concentration of mindless Scourge forces in Tirisfal Glades. If left unchecked, Captain Dargol’s force threatens Brill and could choke off roads south to the Undercity."
   },
   {
    "q": "Who was the Agamand family?",
@@ -54,13 +54,13 @@
     "agamand lineage",
     "gregor agamand"
    ],
-   "answer": "They were a wealthy human family of Lordaeron who owned the mills and the surrounding farmland in northern Tirisfal. Today, its reanimated scions\u2014including Gregor, Nissa, Thurman, and Devlin\u2014wander the grounds as mindless thralls."
+   "answer": "The Agamands were a wealthy human family of Lordaeron who owned the mills and surrounding farmland in northern Tirisfal. Their reanimated scions, including Gregor, Nissa, Thurman, and Devlin, now wander the grounds as mindless thralls."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "For the Forsaken, reclaiming Agamand Mills is not merely tactical\u2014it is personal vengeance against the Scourge and a settling of scores by former estate servants like Coleman Farthing."
+   "text": "For the Forsaken, reclaiming Agamand Mills means vengeance against the Scourge. Former estate servants like Coleman Farthing also have scores to settle."
   }
  ],
  "keywords": [
@@ -85,5 +85,6 @@
  ],
  "attribution": [
   "Agamand Mills"
- ]
+ ],
+ "style": 1
 }

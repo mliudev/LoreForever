@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Sepulcher"
  },
- "summary": "The Sepulcher is the primary Forsaken settlement and stronghold in Silverpine Forest. Once an ordinary Lordaeron graveyard and burial crypt overlooking the western coast, it now serves as a fortified sanctuary for the Horde against surrounding regional threats.",
+ "summary": "The Forsaken hold the Sepulcher above Silverpine Forest’s western coast. Once a Lordaeron graveyard and burial crypt, it is now a fortified Horde refuge amid threats from across the region.",
  "sections": [
   {
    "title": "A Sanctum in the Fog",
-   "body": "Perched in the hills above the Lordaeron coastline, the Sepulcher was originally a quiet cemetery and crypt alongside the western road. In the wake of the Third War, the newly emancipated Forsaken repurposed the ancient stone vault and its grounds into an essential outpost. Surrounded by hostile forces on all sides\u2014the feral worgen to the south, wandering Scourge remnants to the east, and Kirin Tor wizards watching from Ambermill\u2014the Sepulcher provides a rare haven of safety, supplies, and command for travelers marching through Silverpine.",
+   "body": "The Sepulcher crowns the hills above Lordaeron’s western coast. You find an old cemetery and stone crypt beside the western road, now held by the Forsaken. Since the Third War, they have made its grounds and ancient vault a vital outpost. Danger presses from every side: feral worgen stalk the south, Scourge remnants wander east, and Kirin Tor wizards watch from Ambermill. For travelers crossing Silverpine, the Sepulcher offers shelter, supplies, and a place of command.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "what was the sepulcher",
     "who built the sepulcher"
    ],
-   "answer": "Before the Third War and the fall of the Kingdom of Lordaeron, it was simply a roadside cemetery and stone crypt where local villagers buried their dead."
+   "answer": "Before the Third War and Lordaeron’s fall, the Sepulcher was a roadside cemetery and stone crypt where local villagers buried their dead."
   },
   {
    "q": "Why is the Sepulcher so vital to the Forsaken?",
@@ -32,7 +32,7 @@
     "forsaken in silverpine",
     "role of the sepulcher"
    ],
-   "answer": "It serves as the Forsaken's sole fortified hub in Silverpine Forest. From this central position, Forsaken scouts and commanders can monitor encroaching Dalaran mages, Scourge holdouts, and the spreading beastly worgen menace lurking near Shadowfang Keep."
+   "answer": "The Sepulcher is the Forsaken’s only fortified hub in Silverpine Forest. From there, their scouts and commanders watch for Dalaran mages, Scourge holdouts, and worgen spreading near Shadowfang Keep."
   },
   {
    "q": "Are travelers belonging to other Horde races welcome here?",
@@ -41,7 +41,7 @@
     "is the sepulcher horde friendly",
     "horde at sepulcher"
    ],
-   "answer": "Yes. While the base is managed and inhabited entirely by Forsaken deathguards, merchants, and apothecaries, it functions as an official Horde refuge offering respite and trade to orcs, trolls, and tauren passing through the region."
+   "answer": "Yes. Forsaken deathguards, merchants, and apothecaries manage and inhabit the base, but it is an official Horde refuge where orcs, trolls, and tauren can rest and trade as they pass through the region."
   },
   {
    "q": "What threats surround the Sepulcher?",
@@ -50,17 +50,17 @@
     "enemies in silverpine",
     "what attacks sepulcher"
    ],
-   "answer": "The settlement is hemmed in by hostile powers: Scourge forces roam to the east, the Kirin Tor holds Ambermill to the southeast, and ferocious worgen stalk the woods to the south."
+   "answer": "Hostile forces surround the Sepulcher. Scourge roam to the east, the Kirin Tor hold Ambermill to the southeast, and fierce worgen stalk the woods to the south."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "The Sepulcher is the staging ground for the Forsaken's struggle to pacify Silverpine Forest, directing operations against lingering Scourge loyalists, Kirin Tor remnants, and feral worgen."
+   "text": "The Sepulcher directs the Forsaken’s struggle to pacify Silverpine Forest, including operations against lingering Scourge loyalists, Kirin Tor remnants, and feral worgen."
   },
   {
    "target": "faction:Horde",
-   "text": "For any Horde traveler venturing south from Tirisfal Glades, the Sepulcher offers the only reliable refuge, repair, and flight hub for miles."
+   "text": "If you travel south from Tirisfal Glades, the Sepulcher is the only reliable Horde refuge, repair stop, and flight hub for miles."
   }
  ],
  "keywords": [
@@ -83,5 +83,6 @@
  ],
  "attribution": [
   "Sepulcher"
- ]
+ ],
+ "style": 1
 }

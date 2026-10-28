@@ -11,16 +11,16 @@
    "quest:6324"
   ]
  },
- "summary": "Gordon's Crate is a heavy shipment of weapons packed in the Undercity for the Forsaken forces stationed in Silverpine Forest. It serves as an essential supply consignment meant to be ferried directly to the remote garrison at the Sepulcher.",
+ "summary": "Weapons are bound for the Forsaken forces in Silverpine Forest, packed in Gordon's Crate in the Undercity. The shipment is meant for the remote garrison at the Sepulcher.",
  "sections": [
   {
    "title": "Supplies for Silverpine",
-   "body": "Maintaining the Forsaken grip on Silverpine Forest requires a steady logistical flow from the Undercity. Gordon's Crate holds armaments intended to bolster Deathguard Podrig's defenders at the Sepulcher, ensuring outpost sentries are not caught off guard by the worgen, wild beasts, or human remnants lurking in the woods.",
+   "body": "The Forsaken keep a steady flow of supplies from the Undercity to hold Silverpine Forest. Gordon's Crate carries weapons for Deathguard Podrig's defenders at the Sepulcher. The outpost sentries face worgen, wild beasts, and human remnants in the woods.",
    "spoiler": 0
   },
   {
    "title": "The Bat Handler's Route",
-   "body": "Because overland roads out of the capital are dangerous and slow, valuable shipments rely on the Undercity's bat handlers. The crate is handed to Michael Garrett, the bat master perched above the city's trade quarter, who secures passage atop a trained flying bat back to Karos Razok's roost in the Sepulcher.",
+   "body": "Overland roads from the capital are dangerous and slow, so valuable shipments travel with the Undercity's bat handlers. Gordon's Crate is handed to Michael Garrett, the bat master above the city's trade quarter. He arranges passage on a trained flying bat to Karos Razok's roost back at the Sepulcher.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "contents of gordons crate",
     "what does crate contain"
    ],
-   "answer": "The crate contains weapons and vital combat supplies requisitioned from the Undercity to reinforce Deathguard sentries stationed in Silverpine Forest."
+   "answer": "Gordon's Crate holds weapons and vital combat supplies requisitioned from the Undercity to reinforce Deathguard sentries in Silverpine Forest."
   },
   {
    "q": "Who is supposed to receive Gordon's Crate?",
@@ -39,7 +39,7 @@
     "who gets gordons crate",
     "where does crate go"
    ],
-   "answer": "Deathguard Podrig at the Sepulcher receives the crate. Transporting it requires coordinating with Undercity bat handler Michael Garrett to arrange a direct flight."
+   "answer": "Deathguard Podrig at the Sepulcher is meant to receive Gordon's Crate. Michael Garrett, an Undercity bat handler, arranges its flight."
   },
   {
    "q": "Why is the crate transported by bat instead of a courier on foot?",
@@ -47,7 +47,7 @@
     "why fly the crate",
     "bat travel crate"
    ],
-   "answer": "Silverpine Forest remains contested and hazardous. Using trained bats overseen by handlers like Michael Garrett and Karos Razok ensures fast, aerial transit that avoids hostile threats along the ground routes."
+   "answer": "Silverpine Forest remains contested and hazardous. Trained bats overseen by Michael Garrett and Karos Razok carry shipments swiftly through the air, away from threats along the ground routes."
   },
   {
    "q": "Why does Michael Garrett require you to visit the Sepulcher first?",
@@ -55,17 +55,17 @@
     "why need flight path",
     "bat flight requirement"
    ],
-   "answer": "Forsaken bats instinctively return to the capital, but to reach outlying bases like the Sepulcher safely, travelers must establish a prior connection with the local handler, Karos Razok, before bats can make the journey."
+   "answer": "Forsaken bats instinctively return to the capital. Before they can safely fly to an outlying base like the Sepulcher, you must first establish a connection with its local handler, Karos Razok."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "Every shipment of blades and gear from the capital solidifies Lady Sylvanas's tenuous frontier borders in Silverpine Forest."
+   "text": "As an Undead, you know every shipment of blades and gear from the capital helps hold Lady Sylvanas's tenuous frontier borders in Silverpine Forest."
   },
   {
    "target": "faction:Horde",
-   "text": "The delivery demonstrates the growing integration of the Forsaken's flight routes, moving supplies and couriers swiftly across contested Lordaeron."
+   "text": "As a member of the Horde, you see the Forsaken's flight routes bringing supplies and couriers swiftly across contested Lordaeron."
   }
  ],
  "keywords": [
@@ -90,5 +90,6 @@
   "Gordon's Crate",
   "Michael Garrett (Classic)",
   "Return to Podrig"
- ]
+ ],
+ "style": 1
 }

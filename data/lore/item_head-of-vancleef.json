@@ -10,16 +10,16 @@
    "quest:166"
   ]
  },
- "summary": "The severed head of Edwin VanCleef serves as grim, irrefutable proof that the leader of the Defias Brotherhood has fallen. Brought back from the depths of the Deadmines to Sentinel Hill, it represents the hard-won vengeance of the People's Militia.",
+ "summary": "At Sentinel Hill, VanCleef's severed head proves the Defias leader has fallen. Carried from the depths of the Deadmines, it brings the People's Militia hard-won vengeance.",
  "sections": [
   {
    "title": "Proof of the Master's Fall",
-   "body": "For months, Edwin VanCleef directed the Defias Brotherhood's terror from the deepest sanctum of the Deadmines, shielded by heavily armed outlaws, goblin engineers, and a massive war juggernaut. Words alone could never convince the battered settlers of Westfall that their nightmare was over. Gryan Stoutmantle, leader of the People's Militia, demanded undeniable physical proof before declaring the countryside safe. Severing the ringleader's head and bringing it out into the daylight offers the exhausted defenders tangible assurance that the grand architect of their ruin will never threaten Westfall again.",
+   "body": "Westfall's settlers need proof that their danger has passed. For months, Edwin VanCleef directed the Defias Brotherhood's terror from the deepest sanctum of the Deadmines, guarded by armed outlaws, goblin engineers, and a massive war juggernaut. Gryan Stoutmantle, leader of the People's Militia, demands physical proof before declaring the countryside safe. VanCleef's severed head, brought out into daylight, assures the exhausted defenders that the architect of their ruin can no longer threaten Westfall.",
    "spoiler": 0
   },
   {
    "title": "A Grim Victory",
-   "body": "Though Stoutmantle sought VanCleef's death for the greater good of Westfall, presenting the trophy carries a heavy solemnity. VanCleef was once the revered master builder who rebuilt Stormwind after the First War, before betrayal and unpaid debts drove him and the Stonemasons Guild into outlaw rebellion. His severed head marks the culmination of Westfall's local militia campaign, yet it also exposes the kingdom's failure to handle its own domestic turmoil, leaving volunteer farmers and foreign adventurers to execute high justice.",
+   "body": "VanCleef's death answers Stoutmantle's call for Westfall's good, but the sight of his head carries solemn weight. He was once the revered master builder who rebuilt Stormwind after the First War. Betrayal and unpaid debts drove him and the Stonemasons Guild into outlaw rebellion. His death marks the end of the local militia's campaign and exposes the kingdom's failure to settle its own domestic turmoil. Volunteer farmers and foreign adventurers have been left to carry out high justice.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "who takes vancleef head",
     "where does vancleef head go"
    ],
-   "answer": "Gryan Stoutmantle, captain of the People's Militia at Sentinel Hill in Westfall, requires the head to complete the long Defias Brotherhood campaign."
+   "answer": "Gryan Stoutmantle, captain of the People's Militia at Sentinel Hill in Westfall, wants the head to bring the long campaign against the Defias Brotherhood to its close."
   },
   {
    "q": "Why does Gryan Stoutmantle demand his head specifically?",
@@ -39,7 +39,7 @@
     "why take his head",
     "why vancleef head"
    ],
-   "answer": "The Defias Brotherhood held a stranglehold over Westfall for so long that rumors of VanCleef's demise would never be believed without absolute physical proof. Stoutmantle needs unmistakable evidence to reassure the beleaguered farmers and show the militia's struggle was not in vain."
+   "answer": "The Defias Brotherhood held Westfall under its grip for so long that rumors of VanCleef's death would not convince the people. Stoutmantle needs physical proof to reassure the beleaguered farmers and show that the militia's struggle was not in vain."
   },
   {
    "q": "Where is the head obtained?",
@@ -47,7 +47,7 @@
     "where to get vancleef head",
     "how to get head of vancleef"
    ],
-   "answer": "It is taken from Edwin VanCleef aboard his secret ironclad warship, found at the very end of the Deadmines beneath Moonbrook in southwestern Westfall."
+   "answer": "The head is taken from Edwin VanCleef aboard his secret ironclad warship, at the very end of the Deadmines beneath Moonbrook in southwestern Westfall."
   },
   {
    "q": "Does taking VanCleef's head end the Defias Brotherhood?",
@@ -55,17 +55,17 @@
     "is defias destroyed",
     "what happens to the defias"
    ],
-   "answer": "Stoutmantle views his death as the beginning of the end for the brotherhood, but splinter groups, rogue bandits, and sympathizers still linger throughout Westfall, Elwynn Forest, and beyond."
+   "answer": "Stoutmantle sees VanCleef's death as the beginning of the end for the brotherhood. Splinter groups, rogue bandits, and sympathizers still linger throughout Westfall, Elwynn Forest, and beyond."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Presenting VanCleef's head provides a cathartic victory for the People's Militia, though it highlights the troubling absence of the Stormwind House of Nobles during Westfall's darkest hour."
+   "text": "VanCleef's head brings the People's Militia a cathartic victory, while exposing the troubling absence of the Stormwind House of Nobles during Westfall's darkest hour."
   },
   {
    "target": "class:Rogue",
-   "text": "Edwin VanCleef was one of the deadliest rogue masters in human history; taking his head marks the definitive end to a peerless career in shadows and sabotage."
+   "text": "Edwin VanCleef was one of the deadliest rogue masters in human history. His death ends a peerless career in shadows and sabotage."
   }
  ],
  "keywords": [
@@ -90,5 +90,6 @@
  "attribution": [
   "Head of VanCleef",
   "The Defias Brotherhood (7)"
- ]
+ ],
+ "style": 1
 }

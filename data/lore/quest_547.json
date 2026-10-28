@@ -17,16 +17,16 @@
   "wiki": "Humbert's Sword (quest)",
   "chain": []
  },
- "summary": "While scouting the Ironforge stronghold of Dun Garok under orders from High Executor Darthalia, Deathguard Humbert stepped away from his camp to collect firewood. Dwarven scouts looted his campsite and made off with his personal weapon, leaving the humiliated sentry desperate to recover it before his commanding officer notices.",
+ "summary": "Near Dun Garok, Humbert's Sword is missing from its owner's camp. Deathguard Humbert had left to gather firewood while scouting the dwarven stronghold on High Executor Darthalia's orders. Ironforge scouts took his weapon, and he fears Darthalia will learn of his failure.",
  "sections": [
   {
    "title": "A Scout's Negligence",
-   "body": "Tasked by High Executor Darthalia with keeping a watchful eye on Dun Garok, Deathguard Humbert took up a concealed vigil near the dwarven fortress. When morning broke, he briefly left his outpost unguarded to gather firewood for boiling water. That lapse was all the opportunistic Ironforge dwarves needed. Upon his return, Humbert found his camp looted and his trusty sword gone, taken deep into the heavily defended bunker.",
+   "body": "Deathguard Humbert watches Dun Garok for High Executor Darthalia. He keeps a hidden post near the dwarven fortress. One morning, he leaves the camp briefly to gather firewood for boiling water. Ironforge scouts find the camp unguarded and loot it. When Humbert returns, his sword is gone, carried into the heavily defended bunker.",
    "spoiler": 0
   },
   {
    "title": "Fear of the Rafters",
-   "body": "Losing a weapon to the very enemy one is supposed to surveil is an embarrassment punishable by death under Forsaken command. Humbert knows full well that High Executor Darthalia would string him up from the rafters of Tarren Mill if she ever learned of his blunder. Unable to storm the stronghold alone, he depends on passing Horde adventurers to plunge into Dun Garok and reclaim his blade before Darthalia realizes anything is amiss.",
+   "body": "Humbert knows losing his weapon to the enemy he was sent to watch could cost him his life under Forsaken command. If High Executor Darthalia learns what happened, he fears she will hang him from the rafters in Tarren Mill. He cannot storm Dun Garok alone, so he relies on passing Horde adventurers to recover his blade before his commander notices anything amiss.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who is humbert",
     "humbert"
    ],
-   "answer": "Deathguard Humbert is a Forsaken soldier stationed at Tarren Mill in Hillsbrad Foothills. High Executor Darthalia assigned him to scout and keep watch over Dun Garok, the heavily fortified dwarven outpost in the southeastern foothills."
+   "answer": "Deathguard Humbert is a Forsaken soldier stationed at Tarren Mill in Hillsbrad Foothills. High Executor Darthalia assigned him to watch Dun Garok, the fortified dwarven outpost in the southeastern foothills."
   },
   {
    "q": "How did Humbert lose his sword?",
@@ -47,7 +47,7 @@
     "who stole humbert's sword",
     "stolen sword"
    ],
-   "answer": "While maintaining his observation post near Dun Garok, Humbert stepped away to gather firewood to boil water in the morning. While he was gone, dwarven scouts discovered his camp, pilfered his belongings, and carried off his sword."
+   "answer": "Humbert left his post near Dun Garok one morning to gather firewood for boiling water. While he was away, dwarven scouts found his camp, took his belongings, and carried off his sword."
   },
   {
    "q": "Why is Humbert so desperate to get his sword back quietly?",
@@ -56,7 +56,7 @@
     "darthalia punishment",
     "why fear darthalia"
    ],
-   "answer": "Humbert's commander, High Executor Darthalia, enforces strict discipline in Tarren Mill. Humbert fears that if she discovers he lost his equipment to the very dwarves he was sent to monitor, she will have him executed and hanged from the rafters."
+   "answer": "Humbert fears High Executor Darthalia will execute him if she learns he lost his equipment to the dwarves he was sent to watch. He expects her to hang him from the rafters in Tarren Mill."
   },
   {
    "q": "Where is the sword located?",
@@ -65,7 +65,7 @@
     "where is humbert's sword",
     "dun garok sword"
    ],
-   "answer": "The sword was carried into Dun Garok by the dwarven scouts. It can be found among the ranks of the Ironforge mountaineers, riflemen, and officers occupying the bunker."
+   "answer": "The dwarven scouts carried Humbert's sword into Dun Garok. It is among the Ironforge mountaineers, riflemen, and officers in the bunker."
   },
   {
    "q": "Did the dwarves steal anything else from Humbert?",
@@ -74,7 +74,7 @@
     "humbert armor pieces",
     "humbert's pants"
    ],
-   "answer": "Yes. Humbert returned to find his gear missing from camp, not just his sword, but the sword is the only thing he asks you to recover from Dun Garok."
+   "answer": "Yes. Humbert found his gear missing from camp, including his sword. The sword is the only thing he asks you to recover from Dun Garok."
   },
   {
    "q": "What is Dun Garok?",
@@ -83,21 +83,21 @@
     "dun garok lore",
     "dwarves in hillsbrad"
    ],
-   "answer": "Dun Garok is an Ironforge dwarven stronghold in the southeastern corner of Hillsbrad Foothills, where its dwarves help protect the humans of Hillsbrad and the nearby Azurelode Mine. The Alliance garrison there is in direct, hostile confrontation with the Forsaken of Tarren Mill."
+   "answer": "Dun Garok is an Ironforge dwarven stronghold in southeastern Hillsbrad Foothills. Its dwarves help protect the humans of Hillsbrad and nearby Azurelode Mine, and its Alliance garrison is in direct conflict with the Forsaken of Tarren Mill."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "Forsaken soldiers in Hillsbrad understand the brutal discipline enforced by High Executor Darthalia; failure or negligence in Tarren Mill is met with ruthless execution rather than leniency."
+   "text": "As a Forsaken soldier in Hillsbrad, you know the brutal discipline High Executor Darthalia enforces. In Tarren Mill, failure or negligence can bring execution, not mercy."
   },
   {
    "target": "race:Dwarf",
-   "text": "The mountaineers of Dun Garok have no love for the Forsaken on their doorstep, seizing every opportunity to harass Tarren Mill's sentries and strip their camps bare."
+   "text": "As a mountaineer of Dun Garok, you have no love for the Forsaken on your doorstep. Every chance to harass Tarren Mill's sentries and strip their camps bare matters."
   },
   {
    "target": "faction:Horde",
-   "text": "Every strike into Dun Garok serves the wider campaign to break Ironforge's military grip on Hillsbrad Foothills and protect Tarren Mill from southern incursions."
+   "text": "As a member of the Horde, you strike at Dun Garok to weaken Ironforge's military hold on Hillsbrad Foothills and protect Tarren Mill from incursions from the south."
   }
  ],
  "keywords": [
@@ -122,5 +122,6 @@
  ],
  "attribution": [
   "Humbert's Sword (quest)"
- ]
+ ],
+ "style": 1
 }

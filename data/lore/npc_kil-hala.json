@@ -8,11 +8,11 @@
   "wiki": "Kil'hala",
   "refs": 2
  },
- "summary": "Kil'hala is a jungle troll tailoring trainer stationed at the Crossroads in the Barrens. Skilled in working with both everyday cloth and exotic woven materials, he instructs Horde crafters looking to refine their needlework. Beyond common thread, he weaves nether-lace robes for young Horde mages who bring him locks of hair from the laughing sisters of Ashenvale.",
+ "summary": "At the Crossroads in the Barrens, Kil'hala teaches Horde tailors to work cloth. He also weaves nether-lace robes for young Horde mages who bring him locks of hair from Ashenvale's laughing sisters.",
  "sections": [
   {
    "title": "Tailor of the Barrens",
-   "body": "Positioned at the bustling hub of the Crossroads, Kil'hala offers his tailoring expertise to passing travelers and Horde recruits. While much of his craft involves common spun bolts and garments fit for dry plains life, his knowledge extends into rare magical textiles. As a favor to the mage Deino, he fashions nether-lace robes for young mages who bring him hair taken from the laughing sisters, dryads of Ashenvale's forests.",
+   "body": "Kil'hala trains tailors at the Crossroads, where Horde recruits and travelers can learn his craft. He teaches work with common spun bolts and garments suited to life on the dry plains. At Deino's request, he also makes nether-lace robes for young mages who bring him hair from the laughing sisters, the dryads of Ashenvale's forests.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "who is kilhala",
     "crossroads tailor"
    ],
-   "answer": "Kil'hala is a Darkspear troll and a tailoring trainer located at the Crossroads in the Barrens. He assists Horde tradesfolk in learning the basics of weaving cloth and garment construction."
+   "answer": "Kil'hala is a Darkspear troll who trains tailors at the Crossroads in the Barrens. He teaches Horde tradesfolk the basics of weaving cloth and making garments."
   },
   {
    "q": "Where can I find Kil'hala?",
@@ -33,7 +33,7 @@
     "where is kilhala",
     "kilhala spot"
    ],
-   "answer": "He is located in the Barrens within the central settlement of the Crossroads, situated alongside other Horde trade trainers."
+   "answer": "Find Kil'hala at the Crossroads, the central Horde settlement in the Barrens. He is alongside the other Horde trade trainers."
   },
   {
    "q": "What tasks does Kil'hala give to tailors?",
@@ -42,17 +42,17 @@
     "laughing sisters quest",
     "nether lace garment"
    ],
-   "answer": "He doesn't send tailors out himself. Young Horde mages sent by Deino bring him locks of hair from the Laughing Sisters, dryads near Ashenvale's Raynewood Retreat, and Kil'hala weaves the hair into a nether-lace garment for them."
+   "answer": "Kil'hala does not send tailors out himself. Young Horde mages sent by Deino bring him locks of hair from the Laughing Sisters, dryads near Ashenvale's Raynewood Retreat, and he weaves the hair into a nether-lace garment for them."
   }
  ],
  "angles": [
   {
    "target": "profession:Tailoring",
-   "text": "Kil'hala is an essential stop for journeyman Horde tailors traversing Kalimdor, teaching craft techniques and offering quests to weave exotic magical robes."
+   "text": "As a Horde tailor, you can learn the craft from Kil'hala at the Crossroads. He also offers a way to weave exotic magical robes."
   },
   {
    "target": "faction:Horde",
-   "text": "Providing textile goods and tradecraft training in the Crossroads, Kil'hala helps equip the warband and travelers carving a foothold in the Barrens."
+   "text": "At the Crossroads, Kil'hala teaches textile crafts and provides goods for Horde warbands and travelers making a foothold in the Barrens."
   }
  ],
  "keywords": [
@@ -74,5 +74,6 @@
  ],
  "attribution": [
   "Kil'hala"
- ]
+ ],
+ "style": 1
 }

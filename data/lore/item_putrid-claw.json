@@ -10,11 +10,11 @@
    "quest:404"
   ]
  },
- "summary": "Putrid Claws are the decaying hands severed from mindless undead prowling the woods west of Brill. Deathguard Dillinger collects them as definitive proof that the encroaching Scourge threat near the old bridge is being held at bay.",
+ "summary": "Putrid Claws reach Deathguard Dillinger as proof that the Scourge near Brill is being held back. Mindless undead roam the woods west of town, especially by the old bridge.",
  "sections": [
   {
    "title": "Trophy of the Mindless",
-   "body": "Even in their own homeland, the Forsaken are not entirely safe from the Lich King's reach. Pockets of mindless Scourge\u2014rotting dead and ravaged corpses\u2014regularly wander across the eastern borders into Tirisfal Glades, clustering along roads and near the old bridge west of Brill. To ensure the safety of travelers and garrison supply lines, the Deathguards place bounties on these wandering horrors. A severed putrid claw serves as unmistakable, physical evidence that one more shambling corpse has been put down for good.",
+   "body": "The mindless Scourge keeps crossing into Tirisfal Glades. Rotting dead and ravaged corpses wander the eastern borders, gathering along roads and near the old bridge west of Brill. Deathguards place bounties on these horrors to protect travelers and garrison supply lines. A severed putrid claw proves that one more shambling corpse has been put down for good.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "why collect putrid claws",
     "who wants putrid claws"
    ],
-   "answer": "Deathguard Dillinger stationed in Brill collects them as bounties to confirm that local Forsaken recruits are thinning out the Scourge wandering Tirisfal Glades."
+   "answer": "Deathguard Dillinger in Brill collects putrid claws as bounties. They confirm that local Forsaken recruits are thinning out the Scourge wandering Tirisfal Glades."
   },
   {
    "q": "Where do putrid claws come from?",
@@ -35,7 +35,7 @@
     "putrid claw drops",
     "rotting dead drops"
    ],
-   "answer": "They are harvested from the rotting dead and ravaged corpses roaming the haunted woods west of Brill, particularly near the old river bridge."
+   "answer": "Putrid claws come from the rotting dead and ravaged corpses roaming the haunted woods west of Brill, especially near the old river bridge."
   },
   {
    "q": "Why is the Scourge in Tirisfal Glades?",
@@ -43,7 +43,7 @@
     "why are zombies near brill",
     "scourge in tirisfal"
    ],
-   "answer": "Following the devastation of Lordaeron, remnants of the Lich King's mindless Scourge continuously trickle westward across the borders into Tirisfal, menacing roads and settlements unless actively culled."
+   "answer": "After Lordaeron's devastation, remnants of the Lich King's mindless Scourge keep crossing west into Tirisfal. They menace roads and settlements unless someone culls them."
   },
   {
    "q": "Why don't the Forsaken just let the mindless undead wander?",
@@ -51,13 +51,13 @@
     "forsaken vs mindless zombies",
     "why kill other undead"
    ],
-   "answer": "Unlike the Forsaken, who broke free under Queen Sylvanas and regained their will, the mindless Scourge obey only dark instincts or the Lich King's lingering command, attacking any living or free undead on sight."
+   "answer": "Queen Sylvanas and the Forsaken broke free of the Lich King's reach and regained their will. The mindless Scourge obey dark instincts or his lingering command, attacking any living or free undead on sight."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "For fresh Forsaken initiates leaving Deathknell, clearing these mindless Scourge is an early reminder that liberation comes with constant defense against the mindless husks they once resembled."
+   "text": "As a fresh Forsaken initiate leaving Deathknell, clearing the mindless Scourge reminds you that liberation means constant defense against the mindless husks you once resembled."
   }
  ],
  "keywords": [
@@ -80,5 +80,6 @@
  "attribution": [
   "Putrid Claw",
   "A Putrid Task (Classic)"
- ]
+ ],
+ "style": 1
 }

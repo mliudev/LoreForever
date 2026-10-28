@@ -8,16 +8,16 @@
   "wiki": "Balir Frosthammer",
   "refs": 1
  },
- "summary": "Balir Frosthammer is a dwarven defender stationed in Coldridge Valley within Dun Morogh. Alarmed by the sudden and aggressive incursions of Rockjaw troggs into dwarven lands, he recruits fledgling adventurers to stem the tide before the valley is overrun.",
+ "summary": "In Coldridge Valley, Balir Frosthammer rallies recruits against the Rockjaw troggs. The dwarf guards Dun Morogh as the troggs press into dwarven lands.",
  "sections": [
   {
    "title": "Holding Coldridge Valley",
-   "body": "Perched in the snowy enclave of Coldridge Valley, Balir Frosthammer watches the perimeter against encroaching dangers. The valley has long served as a safe haven and training ground for dwarven and gnomish novices, but recent disturbances underground have unleashed violent Rockjaw troggs onto the surface. Balir is among the first to sound the alarm, rallying newly arrived recruits to cull the troggs before they breach deeper into Dun Morogh.",
+   "body": "Balir Frosthammer calls new recruits to defend Coldridge Valley. Dwarven and gnomish novices have long found safety and training there, but trouble underground has driven violent Rockjaw troggs to the surface. Balir is among the first to raise the alarm. He urges recruits to thin their numbers before they push farther into Dun Morogh.",
    "spoiler": 0
   },
   {
    "title": "Kin of the Frosthammers",
-   "body": "Bearing the proud Frosthammer surname, Balir may share a lineage with Tannok Frosthammer of Kharanos. Their family stands resolute in their duty to Ironforge, ensuring that the cold mountain passes remain secure for travelers, miners, and mountaineers even as regional threats multiply.",
+   "body": "Balir Frosthammer bears a name shared with Tannok Frosthammer of Kharanos. The two may belong to the same family, whose members stand by Ironforge. They help keep the cold mountain passes safe for travelers, miners, and mountaineers as threats grow across the region.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "balir frosthammer who is he",
     "who is balir"
    ],
-   "answer": "Balir Frosthammer is a dwarf stationed in Dun Morogh's Coldridge Valley. He tasks incoming adventurers with thinning out the hostile Rockjaw troggs threatening the valley's defenses."
+   "answer": "Balir Frosthammer guards Coldridge Valley in Dun Morogh. He calls on incoming recruits to thin the hostile Rockjaw troggs threatening the valley's defenses."
   },
   {
    "q": "Why is Balir concerned about the troggs?",
@@ -36,7 +36,7 @@
     "why troggs",
     "trogg problem coldridge"
    ],
-   "answer": "The Rockjaw troggs have recently surfaced in force, disrupting the peace of Coldridge Valley and attacking dwarven settlements. Balir recognizes them as an escalating menace that must be contained early."
+   "answer": "Rockjaw troggs have recently surfaced in force, disturbing Coldridge Valley and attacking dwarven settlements. Balir sees a growing danger that must be contained early."
   },
   {
    "q": "Is Balir related to Tannok Frosthammer?",
@@ -44,17 +44,17 @@
     "tannok relative",
     "frosthammer family"
    ],
-   "answer": "Possibly. Balir shares the Frosthammer name with Tannok Frosthammer of Kharanos, suggesting a familial bond, though it is not confirmed."
+   "answer": "Possibly. Balir shares the Frosthammer name with Tannok Frosthammer of Kharanos, which suggests a family connection, though none is confirmed."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "For young dwarves, Balir Frosthammer represents the frontline defense of their homeland, offering their very first opportunities to safeguard Dun Morogh from subterranean threats."
+   "text": "As a dwarf, you can help Balir Frosthammer defend your homeland from threats rising underground. His call offers an early chance to protect Dun Morogh."
   },
   {
    "target": "faction:Alliance",
-   "text": "Balir's efforts keep Coldridge Valley secure as a vital staging ground for Alliance recruits beginning their training in Khaz Modan."
+   "text": "As an Alliance recruit, you train in Khaz Modan, and Balir works to keep Coldridge Valley secure as a staging ground."
   }
  ],
  "keywords": [
@@ -75,5 +75,6 @@
  ],
  "attribution": [
   "Balir Frosthammer"
- ]
+ ],
+ "style": 1
 }

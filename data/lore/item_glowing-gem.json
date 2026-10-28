@@ -11,16 +11,16 @@
    "quest:1024"
   ]
  },
- "summary": "The Glowing Gem is an enchanted stone recovered from the murloc camps along the waters of Ashenvale. Originally sought by the fallen scout Teronis, the stone is a vital component needed to reconstruct the magical rod crafted by Dartol.",
+ "summary": "At Lake Falathim, the Glowing Gem lies among the murlocs after Teronis fell seeking it. The stone holds magic needed to restore Dartol's rod.",
  "sections": [
   {
    "title": "A Lost Relic of Dartol",
-   "body": "Discovered in the possession of the aggressive murlocs dwelling near Lake Falathim, the Glowing Gem is imbued with latent magical energy. The young night elf Teronis ventured out from Astranaar to track it down, aiming to piece together a tool capable of driving back the corruption seeping through Ashenvale's forests. Though Teronis met an untimely end at the lake, the stone itself survived intact among the shoreline scavengers.",
+   "body": "Murlocs near Lake Falathim hold the Glowing Gem, a stone with latent magic. Teronis, a young night elf from Astranaar, went after it to find a way to push back the corruption spreading through Ashenvale's forests. Teronis died at the lake, but the stone remained intact among the scavengers along the shore.",
    "spoiler": 0
   },
   {
    "title": "Restoring the Rod",
-   "body": "Upon the stone's recovery alongside Teronis's journal, Sentinel leader Raene Wolfrunner directs the bearer to bring it northeast to Shael'dryn, a dryad keeping vigil at a nearby moonwell. The dryad holds the ancient knowledge required to bind the Glowing Gem with the other missing pieces of the rod created by Dartol, ensuring the fallen scout's work was not in vain.",
+   "body": "After the Glowing Gem and Teronis's journal are recovered, Sentinel leader Raene Wolfrunner sends the bearer northeast to Shael'dryn, a dryad keeping watch at a nearby moonwell. Shael'dryn knows how to bind the gem to the other missing pieces of Dartol's rod, carrying Teronis's work forward.",
    "spoiler": 1
   }
  ],
@@ -32,7 +32,7 @@
     "who drops glowing gem",
     "where to get glowing gem"
    ],
-   "answer": "The gem is carried by the murlocs prowling the shores and shallow waters around the shrine at Lake Falathim in western Ashenvale, where Teronis fell."
+   "answer": "Murlocs carry the Glowing Gem along the shores and shallow waters around the shrine at Lake Falathim in western Ashenvale, where Teronis fell."
   },
   {
    "q": "Why was Teronis looking for this gem?",
@@ -41,7 +41,7 @@
     "why teronis wanted gem",
     "purpose of gem"
    ],
-   "answer": "Teronis was investigating ways to cleanse the growing foulness in Ashenvale. According to his research, this specific gem is one of the key parts needed to rebuild a magical rod once devised by Dartol."
+   "answer": "Teronis sought a way to cleanse the growing foulness in Ashenvale. His research named the Glowing Gem as a key part needed to rebuild a magical rod devised by Dartol."
   },
   {
    "q": "Who should I take the Glowing Gem to?",
@@ -50,7 +50,7 @@
     "turn in glowing gem",
     "what to do with gem"
    ],
-   "answer": "After showing the stone and Teronis's journal to Raene Wolfrunner in Astranaar, take the Glowing Gem northeast to the dryad Shael'dryn at the moonwell east of Iris Lake."
+   "answer": "Show the Glowing Gem and Teronis's journal to Raene Wolfrunner in Astranaar, then take the stone northeast to Shael'dryn, the dryad at the moonwell east of Iris Lake."
   },
   {
    "q": "What is the rod of Dartol?",
@@ -59,17 +59,17 @@
     "what did dartol make",
     "dartols rod"
    ],
-   "answer": "It is a magical instrument created by Dartol. Its components were scattered across the forest, with the Glowing Gem needed to recreate it."
+   "answer": "Dartol's rod is a magical instrument he created. Its pieces were scattered across the forest, and the Glowing Gem is needed to rebuild it."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "Recovering the gem and fulfilling Teronis's mission helps the Sentinels honor their fallen scout and protect Ashenvale from spreading corruption."
+   "text": "As a night elf, recovering the gem and carrying out Teronis's mission honors the fallen scout and helps the Sentinels protect Ashenvale from spreading corruption."
   },
   {
    "target": "class:Druid",
-   "text": "Druids have an interest in Teronis's research into the spreading corruption and the relic he hoped to restore."
+   "text": "As a druid, Teronis's research into the spreading corruption and the relic he hoped to restore concern you."
   }
  ],
  "keywords": [
@@ -97,5 +97,6 @@
   "Glowing Gem",
   "Raene's Cleansing (2)",
   "Raene's Cleansing (3)"
- ]
+ ],
+ "style": 1
 }

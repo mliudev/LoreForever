@@ -17,21 +17,21 @@
   "wiki": "That Shadowvale Green Elixir",
   "chain": []
  },
- "summary": "Carolai Anise in Brill seeks salvage from the abandoned settlement of Shadowvale, tucked deep within the secluded Whispering Forest. Before the kingdom fell, the village was infamous for distilling Whispering Elixir from strange local herbs\u2014a potent draught that remained prized on the black market even after being outlawed in Lordaeron.",
+ "summary": "In Brill, Carolai Anise seeks bottles of Shadowvale's green elixir. The secluded village once distilled Whispering Elixir from local herbs, and buyers still prize the banned brew.",
  "sections": [
   {
    "title": "A Banned Brew",
-   "body": "Long before the Third War and the arrival of the Scourge, the reclusive inhabitants of Shadowvale brewed a distinct concoction known as Whispering Elixir. Distilled from rare herbs unique to Tirisfal Glades, the draught gained notoriety across northern Lordaeron. Despite being officially outlawed within the Capital City, its unusual properties made it eagerly sought after by mystics, poisoners, and practicing apothecaries willing to skirt royal decrees.",
+   "body": "Before the Scourge came, Shadowvale's secluded villagers brewed Whispering Elixir from rare herbs found only in Tirisfal Glades. The draught became known across northern Lordaeron. Though the Capital City outlawed it, mystics, poisoners, and apothecaries still sought its unusual properties, even at the risk of defying royal decrees.",
    "spoiler": 0
   },
   {
    "title": "Ruins in the Whispering Forest",
-   "body": "Shadowvale sits hidden deep within the Whispering Forest of western Tirisfal. The villagers were historically an insular and distrustful people who rarely welcomed outsiders. Following the Scourge invasion, the settlement fell into ruin, but forgotten stores of the aged green elixir remain among the wreckage. Carolai Anise operates out of Brill, taking advantage of persistent underworld demand to pay adventurers willing to brave the forest's unsettling silence.",
+   "body": "Shadowvale lies deep in the Whispering Forest of western Tirisfal. Its people were insular and distrustful, and rarely welcomed outsiders. The Scourge invasion left the settlement in ruins, but forgotten stores of aged green elixir remain among the wreckage. Carolai Anise works from Brill, where she answers the underworld's lasting demand by paying adventurers willing to brave the forest's unsettling silence.",
    "spoiler": 0
   },
   {
    "title": "The Whispering Curse",
-   "body": "While Carolai prefers to dismiss rumors as simple superstition, the Whispering Forest bears a dark reputation. Local lore suggests the very soil and roots of the forest are tainted by an ancient curse, one that leaches directly into the flora harvested by Shadowvale's brewers. Whatever lingering malevolence haunts the abandoned hamlet, it has done little to dampen the appetite of distant buyers seeking its bottled remnants.",
+   "body": "Carolai Anise dismisses the rumors as superstition, but the Whispering Forest has a dark reputation. Local lore says an ancient curse taints the soil and roots, and seeps into the plants Shadowvale's brewers harvested. Whatever malevolence lingers around the abandoned hamlet, distant buyers still hunger for its bottled remnants.",
    "spoiler": 1
   }
  ],
@@ -43,7 +43,7 @@
     "who lived in shadowvale",
     "shadowvale village"
    ],
-   "answer": "Shadowvale was a secluded village tucked away in the Whispering Forest of western Tirisfal Glades. Its folk were secretive isolationists known primarily for distilling rare concoctions from the local wilderness before the Scourge overran the region."
+   "answer": "Shadowvale was a secluded village deep in the Whispering Forest of western Tirisfal Glades. Its secretive people distilled rare brews from local herbs before the Scourge overran the region."
   },
   {
    "q": "What is Whispering Elixir?",
@@ -52,7 +52,7 @@
     "shadowvale green elixir lore",
     "whispering elixir"
    ],
-   "answer": "It is a potent green draught brewed from unique herbs found in Tirisfal. Highly desired by mystics, poisoners, and apothecaries, the beverage was banned in Capital City before Lordaeron's fall."
+   "answer": "Whispering Elixir is a potent green draught brewed from herbs found only in Tirisfal. Mystics, poisoners, and apothecaries sought it, though the Capital City outlawed it before Lordaeron fell."
   },
   {
    "q": "Who is Carolai Anise?",
@@ -61,7 +61,7 @@
     "who gives that shadowvale green elixir quest",
     "brill quest giver"
    ],
-   "answer": "Carolai Anise is a resourceful Forsaken resident residing in Brill. She acts as a broker for valuable and banned curios, securing illicit reagents like Shadowvale's elixir to sell to interested buyers across the realm."
+   "answer": "Carolai Anise is a Forsaken resident of Brill. She brokers valuable banned curios, including Shadowvale's elixir, for buyers across the realm."
   },
   {
    "q": "Why was the elixir banned in the Capital City?",
@@ -69,7 +69,7 @@
     "why was whispering elixir illegal",
     "is the elixir poison"
    ],
-   "answer": "No reason is given. Carolai says only that the elixir was banned in the city, and that apothecaries, mystics, and poisoners sought it even so. Some believe the Whispering Forest is cursed and that the elixir distilled from its roots carries the same curse, but Carolai dismisses this as superstition and never ties it to the ban."
+   "answer": "No reason for the ban is given. Carolai says only that the elixir was outlawed in the city, though apothecaries, mystics, and poisoners sought it. Some blame a curse in the Whispering Forest and its roots, but Carolai dismisses that as superstition and never links it to the ban."
   },
   {
    "q": "Why is the Whispering Forest considered dangerous?",
@@ -77,7 +77,7 @@
     "is whispering forest cursed",
     "whispering forest lore"
    ],
-   "answer": "The secluded woods west of Deathknell are widely considered eerie and cursed. Those who venture there speak of deep malevolence and strange woodland phenomena, which rumor claims tainted the herbs growing from its soil."
+   "answer": "The secluded woods west of Deathknell are considered eerie and cursed. Those who venture there speak of deep malevolence and strange woodland phenomena, and rumors say the forest's soil tainted its herbs."
   },
   {
    "q": "Who are the buyers wanting this elixir?",
@@ -85,21 +85,21 @@
     "who buys the elixir",
     "carolai anise buyers"
    ],
-   "answer": "According to Carolai Anise, a number of buyers are eager to obtain surviving pre-war bottles, though she does not say who they are."
+   "answer": "Carolai Anise says several buyers seek surviving bottles from before the war, but she does not name them."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "For the Forsaken, recovering Lordaeron's forgotten distillations serves both profitable commerce and apothecary experimentation in the fledgling Undercity."
+   "text": "For you among the Forsaken, recovering Lordaeron's forgotten brews can bring profit and fuel apothecary experiments in the fledgling Undercity."
   },
   {
    "target": "class:Rogue",
-   "text": "Whispering Elixir was long prized by illicit poisoners and scoundrels operating beneath the notice of Lordaeron's former magistrates."
+   "text": "As a rogue, you know Whispering Elixir was prized by poisoners and scoundrels who worked beyond the notice of Lordaeron's former magistrates."
   },
   {
    "target": "profession:Herbalism",
-   "text": "The elixir derives its potency from singular herbs that thrive only under the eerie canopy of the secluded Whispering Forest."
+   "text": "As a herbalist, you know the elixir draws its potency from rare herbs that grow only beneath the Whispering Forest's eerie canopy."
   }
  ],
  "keywords": [
@@ -121,5 +121,6 @@
  ],
  "attribution": [
   "That Shadowvale Green Elixir"
- ]
+ ],
+ "style": 1
 }

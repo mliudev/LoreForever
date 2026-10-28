@@ -24,16 +24,16 @@
    "Crown of Will"
   ]
  },
- "summary": "Only one thing remains. The Crown is to go to Sharlindra in the Undercity, who will make sure it reaches Lady Sylvanas.",
+ "summary": "Only one step remains: the Crown is bound for Sharlindra in the Undercity, who will see that it reaches Lady Sylvanas.",
  "sections": [
   {
    "title": "To the Undercity",
-   "body": "Melisara says all that remains is to take the Crown to Sharlindra in the Undercity, and she will pass it on to Lady Sylvanas. Melisara also warns you against thinking of using it for your own purposes. Mug'Thol's fate, Melisara says, is illustration enough.",
+   "body": "Melisara sends you to take the Crown to Sharlindra in the Undercity, where she will pass it on to Lady Sylvanas. She warns you not to use it for your own purposes. Mug'Thol's fate is warning enough.",
    "spoiler": 0
   },
   {
    "title": "Sharlindra's Reaction",
-   "body": "Sharlindra recognises it as the relic the ogre used to slip out from under the Dark Lady's will. It strikes Sharlindra as odd that something so plain held such power, and that it ended up in hands so clumsy. Sharlindra will take it to Lady Sylvanas and tell her of what you did.",
+   "body": "Sharlindra recognizes the Crown as the relic the ogre used to escape the Dark Lady's will. She finds it odd that so plain an object held such power, and that it fell into such clumsy hands. Sharlindra will take it to Lady Sylvanas and tell her what you did.",
    "spoiler": 1
   }
  ],
@@ -45,7 +45,7 @@
     "where do i take the crown",
     "sharlindra turn in"
    ],
-   "answer": "Sharlindra, in the Undercity. Melisara says she will see that Lady Sylvanas gets it."
+   "answer": "Sharlindra receives the Crown in the Undercity. Melisara says she will see that Lady Sylvanas gets it."
   },
   {
    "q": "Why does Melisara warn against using the crown?",
@@ -54,7 +54,7 @@
     "why not use crown of will",
     "mugthol fate warning"
    ],
-   "answer": "Melisara tells you not to use it for your own ends, and points to what happened to Mug'Thol as warning enough."
+   "answer": "Melisara warns you not to use the Crown for your own ends. She points to Mug'Thol's fate as warning enough."
   },
   {
    "q": "Who sends you with the crown?",
@@ -62,7 +62,7 @@
     "crown of will final part",
     "who gives crown of will 5"
    ],
-   "answer": "Melisara, as the fifth and last part of The Crown of Will, after the fourth."
+   "answer": "Melisara sends you with the Crown as the fifth and final part, after the fourth."
   }
  ],
  "angles": [],
@@ -81,5 +81,6 @@
  ],
  "attribution": [
   "The Crown of Will (5)"
- ]
+ ],
+ "style": 1
 }

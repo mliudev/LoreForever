@@ -10,16 +10,16 @@
    "quest:218"
   ]
  },
- "summary": "Grelin Whitebeard's Journal is a personal field notebook kept by the dwarf scout Grelin Whitebeard in Coldridge Valley. Containing critical notes on local Frostmane troll activity, the journal was stolen by the Frostmane brute Grik'nir the Cold and dragged into the troll cave in Coldridge Valley.",
+ "summary": "Grelin Whitebeard keeps a field journal in Coldridge Valley. The dwarf scout records Frostmane troll activity in its pages, until Grik'nir the Cold steals it and drags it into the troll cave.",
  "sections": [
   {
    "title": "A Scout's Ledger",
-   "body": "While observing the aggressive movements of the Frostmane trolls near Coldridge Valley, Grelin Whitebeard diligently recorded his findings in this leatherbound notebook. The document contains his raw field observations regarding the strength, organization, and threat level posed by the indigenous winter trolls. However, during a confrontation or ambush, the journal was snatched away by Grik'nir the Cold\u2014a heavily marked troll brute\u2014forcing Grelin to recruit passing adventurers to delve into the troll cave and wrest it back before his report could be finalized.",
+   "body": "Grelin Whitebeard watches the Frostmane trolls near Coldridge Valley and records their movements in a leatherbound notebook. His field notes describe their strength, organization, and threat. Grik'nir the Cold, a heavily marked troll brute, takes the journal during a confrontation or ambush and carries it into the troll cave. Grelin needs the notes to finish his report, so he asks passing adventurers to retrieve the book.",
    "spoiler": 0
   },
   {
    "title": "Dispatch to Senir",
-   "body": "Once recovered from Grik'nir's clutches, the notes inside this battered journal provide Grelin with enough reassurance to assess the Coldridge Valley troll threat as temporarily contained. Using the recovered jottings, Grelin finalizes his written dispatch on the Frostmane uprising, which is subsequently sealed and entrusted to couriers bound for his brother Senir Whitebeard stationed further abroad in Dun Morogh.",
+   "body": "Grelin Whitebeard studies the recovered notes and judges the troll threat in Coldridge Valley temporarily contained. He uses the jottings to finish a dispatch about the Frostmane uprising. Couriers carry the sealed dispatch to his brother, Senir Whitebeard, who is stationed elsewhere in Dun Morogh.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "who has grelin's journal",
     "thief of grelin's journal"
    ],
-   "answer": "The journal was taken by Grik'nir the Cold, a prominent and heavily marked Frostmane troll brute residing deep inside the troll cave in Coldridge Valley."
+   "answer": "Grik'nir the Cold stole Grelin Whitebeard's journal. The heavily marked Frostmane troll brute took it into the troll cave in Coldridge Valley."
   },
   {
    "q": "What is written in the journal?",
@@ -40,7 +40,7 @@
     "what is inside the journal",
     "grelin whitebeard notes"
    ],
-   "answer": "The journal contains Grelin Whitebeard's direct reconnaissance notes regarding the local Frostmane trolls, their threat level, and the state of safety within Coldridge Valley."
+   "answer": "Grelin Whitebeard's journal holds his field notes on the local Frostmane trolls, their threat, and the safety of Coldridge Valley."
   },
   {
    "q": "What happens after the journal is recovered?",
@@ -48,7 +48,7 @@
     "what does grelin do with the journal",
     "after the stolen journal"
    ],
-   "answer": "After retrieving his notebook, Grelin uses his notes to write a finalized intelligence report on the troll situation, which he then asks an adventurer to deliver to his brother, Senir Whitebeard."
+   "answer": "Grelin uses his recovered notes to finish a report on the trolls. He asks an adventurer to carry it to his brother, Senir Whitebeard."
   },
   {
    "q": "Why is this journal so important to Grelin?",
@@ -56,13 +56,13 @@
     "why does grelin want it back",
     "importance of the journal"
    ],
-   "answer": "Without his notebook, Grelin cannot compile an accurate scouting report on the Frostmane uprising for the dwarven authorities and his brother Senir, leaving Coldridge Valley's defenses uncertain."
+   "answer": "Grelin needs his journal to prepare an accurate report on the Frostmane uprising for the dwarven authorities and his brother Senir. Without it, Coldridge Valley's defenses remain uncertain."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "Recovering this journal safeguards crucial dwarven intelligence on the Frostmane threat encroaching on the very gates of Ironforge's training grounds."
+   "text": "As a dwarf, recovering Grelin's journal preserves vital intelligence on the Frostmane threat near Ironforge's training grounds."
   }
  ],
  "keywords": [
@@ -86,5 +86,6 @@
  "attribution": [
   "Grelin Whitebeard's Journal",
   "The Stolen Journal"
- ]
+ ],
+ "style": 1
 }

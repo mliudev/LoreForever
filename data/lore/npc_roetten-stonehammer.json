@@ -8,11 +8,11 @@
   "wiki": "Roetten Stonehammer",
   "refs": 1
  },
- "summary": "Roetten Stonehammer is an enterprising dwarf found wandering the Library in Ironforge's Hall of Explorers. Representing the interests of Reclaimers Inc., he organizes expeditions and recruits adventurers to handle salvage operations in distant lands like Desolace.",
+ "summary": "Roetten Stonehammer works from the Library in Ironforge's Hall of Explorers. He represents Reclaimers Inc., organizing expeditions and hiring adventurers for salvage work in distant lands such as Desolace.",
  "sections": [
   {
    "title": "Business in the Library",
-   "body": "Amid the ancient tomes and dust of the Hall of Explorers' Library, Roetten Stonehammer keeps his eye on matters of practical recovery. Operating on behalf of Reclaimers Inc., Roetten connects daring mercenaries with lucrative salvage contracts across Kalimdor. Rather than digging purely for historical curiosity, his associates look to reclaim valuable cargo, wreckage, and rare reagents from perilous frontiers like the rugged wastes of Desolace.",
+   "body": "In the Hall of Explorers' Library, Roetten Stonehammer handles practical recovery for Reclaimers Inc. He connects mercenaries with salvage work across Kalimdor. His associates seek valuable cargo, wreckage, and rare reagents in dangerous lands such as Desolace.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "who is roetten stonehammer",
     "roetten stonehammer lore"
    ],
-   "answer": "Roetten Stonehammer is a dwarf quest giver stationed in the Library of the Hall of Explorers in Ironforge. He coordinates operations and scouts talent for Reclaimers Inc., directing adventurers toward high-risk recovery contracts abroad."
+   "answer": "Roetten Stonehammer works in the Library of Ironforge's Hall of Explorers. The dwarf coordinates expeditions and finds adventurers for Reclaimers Inc.'s recovery work abroad."
   },
   {
    "q": "What is Reclaimers Inc.?",
@@ -33,7 +33,7 @@
     "reclaimers inc",
     "reclaimers business"
    ],
-   "answer": "Reclaimers Inc. is an enterprise focused on salvaging lost shipments, gathering rare reagents, and investigating valuable wrecks in hazardous, untamed territories such as the shores and ruins of Desolace."
+   "answer": "Reclaimers Inc. salvages lost shipments, gathers rare reagents, and investigates valuable wrecks in dangerous lands such as Desolace."
   },
   {
    "q": "Where does Roetten send adventurers?",
@@ -42,17 +42,17 @@
     "where does roetten send you",
     "reclaimers business in desolace"
    ],
-   "answer": "Roetten directs capable travelers across the sea to Desolace in western Kalimdor, where his partners look into shipwreck salvage and reagent collection along the rugged coastline and barren wilderness."
+   "answer": "Roetten sends travelers across the sea to Desolace in western Kalimdor. His partners seek shipwreck salvage and reagents along its rugged coast and barren wilderness."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "For dwarves browsing the grand archives of Ironforge, Roetten proves that archaeological curiosity often pairs hand-in-hand with shrewd commercial salvage."
+   "text": "As a dwarf, you can find Roetten in Ironforge's grand archives, where archaeological curiosity meets commercial salvage."
   },
   {
    "target": "faction:Alliance",
-   "text": "Roetten serves as a key Alliance liaison in Ironforge for expeditions crossing the sea to the contested, barren wilds of Kalimdor's Desolace."
+   "text": "As an Alliance member, you can look to Roetten in Ironforge for expeditions across the sea to Desolace in Kalimdor."
   }
  ],
  "keywords": [
@@ -74,5 +74,6 @@
  ],
  "attribution": [
   "Roetten Stonehammer"
- ]
+ ],
+ "style": 1
 }

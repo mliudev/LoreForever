@@ -20,16 +20,16 @@
    "Triage (Alliance)"
   ]
  },
- "summary": "Alliance Trauma is a summons directing accomplished field medics to report to Theramore Isle in Dustwallow Marsh. Dispatched by first aid instructors across Alliance capitals, it invites skilled practitioners to study under Doctor Gustaf VanHowzen, the chief physician of the Alliance's elite medical corps.",
+ "summary": "Skilled Alliance medics are called to Theramore Isle in Dustwallow Marsh. Instructors across Alliance capitals send accomplished practitioners to study under Doctor Gustaf VanHowzen, chief physician of the Alliance's elite medical corps.",
  "sections": [
   {
    "title": "A Call to the Field",
-   "body": "Once a medic masters the fundamental techniques taught in the great Alliance cities, local instructors can teach them little more. For those who demonstrate exceptional aptitude with needle, cloth, and triage, word is sent directly to Doctor Gustaf VanHowzen. Operating from the frontier stronghold of Theramore Isle, VanHowzen oversees Alliance Trauma, the organization charged with saving lives in the most brutal warzones of Kalimdor and beyond.",
+   "body": "When you master the healing methods taught in the great Alliance cities, local instructors have little more to teach. Those with exceptional skill in needle, cloth, and triage are brought to Doctor Gustaf VanHowzen's attention. He works from Theramore Isle, where Alliance Trauma tends the wounded in Kalimdor's fiercest warzones and beyond.",
    "spoiler": 0
   },
   {
    "title": "The Road to Theramore",
-   "body": "Instructors such as Nissa Firestone in Ironforge treat a personal summons from VanHowzen as an extraordinary privilege. Theramore Isle is constantly pressured by regional threats, skirmishes, and harsh wilderness conditions, producing a steady influx of grievously wounded soldiers. Reaching VanHowzen's clinic requires a long journey across the sea to Dustwallow Marsh, where only the most composed battlefield surgeons can hope to pass his rigorous triage standards.",
+   "body": "Nissa Firestone in Ironforge treats VanHowzen's personal summons as a rare privilege. Theramore Isle faces regional threats, skirmishes, and harsh wilderness, so grievously wounded soldiers arrive steadily. You travel across the sea to Dustwallow Marsh to reach VanHowzen's clinic, where he tests how calmly battlefield surgeons can assess the wounded.",
    "spoiler": 0
   }
  ],
@@ -40,7 +40,7 @@
     "alliance trauma lore",
     "who are alliance trauma"
    ],
-   "answer": "Alliance Trauma is the elite medical branch responsible for advanced battlefield medicine and emergency triage across the Alliance. Headed by Chief Physician Gustaf VanHowzen, the corps handles critical wounds that standard field dressing cannot treat."
+   "answer": "Alliance Trauma is the Alliance's elite medical corps, devoted to battlefield medicine and emergency triage. Chief Physician Gustaf VanHowzen leads it, treating critical wounds that ordinary field dressings cannot manage."
   },
   {
    "q": "Who sends you on this quest?",
@@ -48,7 +48,7 @@
     "who gives alliance trauma",
     "ironforge first aid quest giver"
    ],
-   "answer": "Alliance first aid instructors, such as Nissa Firestone in the Great Forge of Ironforge, dispatch promising practitioners once they reach the pinnacle of standard civic training."
+   "answer": "Alliance first aid instructors send promising practitioners once they master the standard training in their cities. Nissa Firestone in Ironforge is one such instructor."
   },
   {
    "q": "Where do you have to travel?",
@@ -56,7 +56,7 @@
     "where is vanhowzen",
     "alliance trauma destination"
    ],
-   "answer": "You must travel to the human port fortress of Theramore Isle, located along the eastern coast of Dustwallow Marsh on the continent of Kalimdor."
+   "answer": "You travel to Theramore Isle, a human port fortress on Kalimdor's eastern coast in Dustwallow Marsh."
   },
   {
    "q": "Who is Doctor Gustaf VanHowzen?",
@@ -64,7 +64,7 @@
     "gustaf vanhowzen",
     "chief physician vanhowzen"
    ],
-   "answer": "Doctor Gustaf VanHowzen is the chief physician of Alliance Trauma. Stationed at the military clinic in Theramore, he is considered one of the foremost authorities on emergency medicine and surgical triage in the Alliance."
+   "answer": "Doctor Gustaf VanHowzen leads Alliance Trauma as its chief physician. He works at the military clinic in Theramore and is among the Alliance's foremost authorities on emergency medicine and surgical triage."
   },
   {
    "q": "What happens after reporting to Doctor VanHowzen?",
@@ -72,7 +72,7 @@
     "what comes after alliance trauma",
     "triage quest next"
    ],
-   "answer": "Upon reporting to Theramore, VanHowzen puts candidates through an intense hands-on triage evaluation, testing their ability to save waves of dying soldiers before admitting them into the upper ranks of field medicine."
+   "answer": "At Theramore, VanHowzen tests candidates in a hands-on triage evaluation. They must show they can save waves of dying soldiers before he admits them to the upper ranks of field medicine."
   },
   {
    "q": "Why is the clinic based in Theramore instead of Stormwind or Ironforge?",
@@ -80,17 +80,17 @@
     "why theramore clinic",
     "why dustwallow for trauma"
    ],
-   "answer": "Theramore is an active frontier garrison surrounded by hostile marshlands, dangerous beasts, and territorial skirmishes. The constant arrival of critically wounded troops makes it the ideal staging ground for high-intensity trauma training."
+   "answer": "Theramore is an active frontier garrison amid hostile marshlands, dangerous beasts, and territorial skirmishes. Critically wounded troops arrive constantly, giving its clinic the steady pressure needed for advanced trauma training."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Alliance Trauma ensures that frontline fighters across Kalimdor and the Eastern Kingdoms have skilled field medics capable of stabilizing critical injuries under fire."
+   "text": "Alliance Trauma gives frontline fighters across Kalimdor and the Eastern Kingdoms access to skilled medics who can stabilize critical injuries under fire."
   },
   {
    "target": "race:Dwarf",
-   "text": "Instructors like Nissa Firestone in Ironforge eagerly scout promising practitioners from the Great Forge to represent the Alliance's finest medical talents in Theramore."
+   "text": "As a dwarf, you may be noticed by instructors like Nissa Firestone in Ironforge, who seek promising practitioners from the Great Forge for medical service in Theramore."
   }
  ],
  "keywords": [
@@ -111,5 +111,6 @@
  ],
  "attribution": [
   "Alliance Trauma (quest)"
- ]
+ ],
+ "style": 1
 }

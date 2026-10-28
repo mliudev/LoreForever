@@ -17,16 +17,16 @@
   "wiki": "Red Silk Bandanas",
   "chain": []
  },
- "summary": "Red Silk Bandanas is a mission issued by Scout Riell on behalf of the People's Militia. It directs Alliance adventurers into the Deadmines to hunt down high-ranking Defias operatives and bring back their distinctive red silk masks as proof.",
+ "summary": "Scout Riell sends the People's Militia after Red Silk Bandanas in the Deadmines. Their fine weave marks the Defias leaders who direct the uprising in Westfall.",
  "sections": [
   {
    "title": "A Hierarchy in Cloth",
-   "body": "While common cutpurses and highwaymen throughout Westfall tie coarse red cloth around their faces, the Defias Brotherhood maintains a strict internal hierarchy indicated by fabric. Scout Riell and the People's Militia have discovered that rank-and-file bandits wear rough weave, while senior conspirators and inner-circle operatives are distinguished by fine red silk. Stripping these bandanas directly targets the experienced officers coordinating Edwin VanCleef's uprising.",
+   "body": "Scout Riell and the People's Militia have learned that cloth marks rank in the Defias Brotherhood. Common cutpurses and highwaymen across Westfall tie coarse red cloth over their faces. Senior conspirators and inner-circle operatives wear fine red silk. Bringing back their bandanas strikes at the experienced officers coordinating Edwin VanCleef's uprising.",
    "spoiler": 0
   },
   {
    "title": "Striking the Core",
-   "body": "Because silk marks seniority, the greatest concentration of these high-ranking outlaws gathers deep within the Deadmines beneath Moonbrook. Sentinels and scouts stationed outside Sentinel Hill rely on freelance champions to push into the contested subterranean tunnels. Every silk bandana recovered represents one less lieutenant organizing ambushes, defending weapon caches, or enforcing VanCleef's rule across Westfall.",
+   "body": "The senior outlaws gather deep in the Deadmines beneath Moonbrook. Sentinels and scouts outside Sentinel Hill depend on freelance champions to enter the contested tunnels. Each silk bandana recovered means one fewer lieutenant organizing ambushes, guarding weapon caches, or enforcing VanCleef's rule across Westfall.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "why red masks",
     "defias uniform"
    ],
-   "answer": "The red bandana serves as the unified emblem and calling card of the Defias Brotherhood across Stormwind's territories. It conceals their identities while signaling allegiance to Edwin VanCleef's rebellious movement."
+   "answer": "The Defias wear red bandanas to hide their faces and show allegiance to Edwin VanCleef's rebellion. The red cloth marks their Brotherhood across Stormwind's territories."
   },
   {
    "q": "What makes the red silk bandanas special compared to regular bandanas?",
@@ -47,7 +47,7 @@
     "silk vs cloth defias",
     "silk bandana difference"
    ],
-   "answer": "According to Scout Riell, the fabric denotes status within the Brotherhood. Common street thugs wear coarse, cheap material, while veterans, officers, and trusted lieutenants are awarded red silk."
+   "answer": "Scout Riell says the fabric marks rank in the Brotherhood. Common street thugs wear coarse, cheap cloth, while veterans, officers, and trusted lieutenants wear red silk."
   },
   {
    "q": "Who is Scout Riell?",
@@ -55,7 +55,7 @@
     "scout riell westfall",
     "who gives red silk bandanas quest"
    ],
-   "answer": "Scout Riell is an operative serving the People's Militia in Westfall, tasked with tracking Defias movements and directing adventurers to strike at their strongholds around the Deadmines."
+   "answer": "Scout Riell serves the People's Militia in Westfall. The operative tracks Defias movements and directs adventurers against their strongholds around the Deadmines."
   },
   {
    "q": "Where are the Defias wearing silk bandanas located?",
@@ -63,7 +63,7 @@
     "where to find silk bandanas",
     "deadmines silk bandana location"
    ],
-   "answer": "They are concentrated in and around the Deadmines beneath the town of Moonbrook, where Edwin VanCleef's senior forces oversee underground operations."
+   "answer": "Defias wearing silk bandanas gather in and around the Deadmines beneath Moonbrook. Edwin VanCleef's senior forces oversee underground operations there."
   },
   {
    "q": "What is the People's Militia?",
@@ -71,7 +71,7 @@
     "who are the people's militia",
     "peoples militia westfall"
    ],
-   "answer": "The People's Militia is a volunteer defense force formed by Gryan Stoutmantle and the embattled farmers of Westfall to protect their lands after the Stormwind army failed to provide adequate garrisons."
+   "answer": "The People's Militia is a volunteer defense force formed by Gryan Stoutmantle and Westfall's embattled farmers. They protect their lands after the Stormwind army failed to provide enough garrisons."
   },
   {
    "q": "Do these bandanas have any use outside of proving a kill?",
@@ -79,21 +79,21 @@
     "can you wear red silk bandana",
     "what are the bandanas for"
    ],
-   "answer": "For the People's Militia, they serve purely as indisputable proof that high-ranking outlaws have been eliminated, weakening the command structure of the Brotherhood."
+   "answer": "For the People's Militia, the bandanas prove that high-ranking outlaws have been eliminated. Each one weakens the Brotherhood's command structure."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Every officer felled in the Deadmines loosens the Brotherhood's stranglehold on the breadbasket of the Kingdom of Stormwind."
+   "text": "As an ally of the Alliance, every officer felled in the Deadmines loosens the Brotherhood's hold on Stormwind's breadbasket."
   },
   {
    "target": "class:Rogue",
-   "text": "The Defias's red silk masks represent a notorious tradition of underworld tradecraft, marking veteran cutthroats and covert conspirators."
+   "text": "As a rogue, you know red silk marks veteran cutthroats and covert conspirators in the Defias tradition of underworld tradecraft."
   },
   {
    "target": "profession:Tailoring",
-   "text": "Fine red silk is an expensive luxury for common bandits, underscoring how lavishly equipped and funded the Brotherhood's leadership truly is."
+   "text": "As a tailor, you know fine red silk costs too much for common bandits. Its use shows how lavishly equipped and funded the Brotherhood's leadership is."
   }
  ],
  "keywords": [
@@ -114,5 +114,6 @@
  ],
  "attribution": [
   "Red Silk Bandanas"
- ]
+ ],
+ "style": 1
 }

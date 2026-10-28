@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Zoram Strand"
  },
- "summary": "The Zoram Strand is a windswept coastline lining the northwestern edge of Ashenvale along the Veiled Sea. Once the site of an ancient night elven city swallowed by the Great Sundering, the shore is now plagued by Wrathtail naga, shipwrecks, and beached leviathans. It also holds the entrance to the submerged temple complex of Blackfathom Deeps.",
+ "summary": "At Ashenvale's northwestern edge, Zoram Strand faces the Veiled Sea. The shore holds the ruins of an ancient night elven city, now overrun by Wrathtail naga, shipwrecks, and beached leviathans. Blackfathom Deeps begins in the submerged temple complex nearby.",
  "sections": [
   {
    "title": "Ruins of the Sundered Coast",
-   "body": "Ten thousand years ago, the grand night elven city of Zoram graced these shores before the Great Sundering tore Kalimdor apart and cast the settlement into the ocean depths. Today, the tide continually washes up ancient relics, remnants of shattered vessels, and the carcasses of massive sea beasts. The Wrathtail naga have overrun the beaches and tidal pools, fiercely guarding the flooded ruins and ancient artifacts against anyone daring to approach.",
+   "body": "Ten thousand years ago, the night elven city of Zoram stood on this coast. The Great Sundering tore Kalimdor apart and sank the settlement beneath the sea. Now the tide brings ancient relics, shattered vessels, and the carcasses of massive sea beasts onto the shore. Wrathtail naga overrun the beaches and tidal pools, guarding the flooded ruins and ancient artifacts from anyone who comes near.",
    "spoiler": 0
   },
   {
    "title": "A Contested Shoreline",
-   "body": "Despite the naga menace, both mainland travelers and coastal wanderers find themselves drawn to the strand. To the south lies the fortified Horde encampment of Zoram'gar Outpost, whose warriors fight a continuous battle to secure the coast. Deep within the nearby caverns sits Blackfathom Deeps, an ancient temple of Elune that has fallen into dark hands, making the strand a gathering ground for scouts, scholars, and treasure seekers braving the surf.",
+   "body": "Travelers from the mainland and along the coast still come to Zoram Strand despite the naga. South of the shore, the Horde holds Zoram'gar Outpost, where its warriors fight to secure the coast. Nearby, Blackfathom Deeps lies deep within the caverns. The ancient temple of Elune has fallen into dark hands, drawing scouts, scholars, and treasure seekers who brave the surf.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "ancient zoram",
     "what was zoram"
    ],
-   "answer": "Prior to the Great Sundering ten thousand years ago, Zoram was a majestic night elven city. The cataclysm shattered the coast, plunging the city beneath the Veiled Sea and leaving only jagged ruins and washed-up statuettes along the shore."
+   "answer": "Before the Great Sundering ten thousand years ago, Zoram was a grand night elven city. The cataclysm shattered the coast and sank the city beneath the Veiled Sea, leaving jagged ruins and statuettes washed ashore."
   },
   {
    "q": "Who controls the Zoram Strand today?",
@@ -37,7 +37,7 @@
     "zoram strand enemies",
     "who controls zoram strand"
    ],
-   "answer": "The shoreline itself is largely overrun by the Wrathtail naga, who fiercely defend the shallows and ancient ruins. The Horde maintains a fortified foothold at Zoram'gar Outpost along the southern cliffs, while dangerous wildlife such as hydras and crabs prowl the sand."
+   "answer": "Wrathtail naga overrun most of the shoreline and defend its shallows and ancient ruins. The Horde holds a fortified outpost along the southern cliffs, while hydras and crabs prowl the sand."
   },
   {
    "q": "Where is the entrance to Blackfathom Deeps?",
@@ -46,7 +46,7 @@
     "how to find bfd",
     "bfd entrance zoram"
    ],
-   "answer": "The entrance to Blackfathom Deeps is located in the submerged caverns along the Zoram Strand. Travelers venture into the coastal caves along the water's edge to reach the descent into the sunken temple."
+   "answer": "The entrance to Blackfathom Deeps lies in submerged caverns along Zoram Strand. Travelers enter the coastal caves at the water's edge to reach the descent into the sunken temple."
   },
   {
    "q": "Why are there so many beached sea creatures here?",
@@ -55,17 +55,17 @@
     "dead whales zoram strand",
     "beached creatures"
    ],
-   "answer": "The tumultuous tides and dark currents of the Veiled Sea frequently wash massive marine creatures ashore. Researchers and naturalists from both factions often seek out these remains to investigate what drives ocean behemoths to perish along the rocks."
+   "answer": "The Veiled Sea's turbulent tides and dark currents often wash massive marine creatures ashore. Researchers and naturalists from both factions search the remains to learn what drives ocean behemoths to perish along the rocks."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "The strand is a sobering reminder of the ancient world lost to the Sundering, where sacred relics and submerged temples to Elune now suffer beneath the tread of the naga."
+   "text": "For a night elf, Zoram Strand recalls the ancient world lost to the Sundering. Naga now tread among sacred relics and submerged temples to Elune."
   },
   {
    "target": "faction:Horde",
-   "text": "Defending the approaches to Zoram'gar Outpost is vital to maintaining a northern naval and coastal presence in Ashenvale against the relentless Wrathtail brood."
+   "text": "For the Horde, defending the approaches to Zoram'gar Outpost helps keep a northern naval and coastal presence in Ashenvale against the relentless Wrathtail brood."
   }
  ],
  "keywords": [
@@ -90,5 +90,6 @@
  ],
  "attribution": [
   "Zoram Strand"
- ]
+ ],
+ "style": 1
 }

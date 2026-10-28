@@ -8,11 +8,11 @@
   "wiki": "Aggem Thorncurse (Classic)",
   "refs": 5
  },
- "summary": "Aggem Thorncurse is a living quilboar shaman in Razorfen Kraul, bearing the title Death's Head Prophet. He calls a boar spirit to his aid when threatened.",
+ "summary": "In Razorfen Kraul, Aggem Thorncurse bears the title Death's Head Prophet. He calls a boar spirit to his aid when threatened.",
  "sections": [
   {
    "title": "The Death's Head Prophet",
-   "body": "Aggem guards a part of Razorfen Kraul occupied by the Death's Head tribe. His shamanic powers include summoning a boar spirit, reflecting the quilboar's reverence for Agamaggan.",
+   "body": "Aggem guards part of Razorfen Kraul, where the Death's Head tribe dwells. His shamanic power lets him summon a boar spirit, reflecting the quilboar's reverence for Agamaggan.",
    "spoiler": 0
   }
  ],
@@ -33,7 +33,7 @@
     "where is aggem",
     "where to find aggem thorncurse"
    ],
-   "answer": "He is found inside Razorfen Kraul in the southern Barrens."
+   "answer": "Aggem is found inside Razorfen Kraul in the southern Barrens."
   },
   {
    "q": "What spirit does Aggem call upon?",
@@ -49,7 +49,7 @@
     "aggem abilities",
     "how does aggem fight"
    ],
-   "answer": "Aggem uses shamanic magic and summons a boar spirit to fight beside him."
+   "answer": "Aggem uses shamanic magic and calls a boar spirit to fight beside him."
   },
   {
    "q": "Is Aggem Thorncurse affiliated with a specific quilboar tribe?",
@@ -58,21 +58,21 @@
     "what tribe is aggem",
     "razorfen quilboar"
    ],
-   "answer": "He belongs to the Death's Head tribe."
+   "answer": "Aggem belongs to the Death's Head tribe."
   }
  ],
  "angles": [
   {
    "target": "class:Shaman",
-   "text": "Aggem calls a boar spirit to aid him, a distinctive expression of quilboar shamanism."
+   "text": "As a shaman, you see Aggem call a boar spirit to aid him, a distinctive expression of quilboar shamanism."
   },
   {
    "target": "class:Priest",
-   "text": "His title of prophet reflects the spiritual traditions of the quilboar."
+   "text": "As a priest, you hear Aggem's title of prophet, which reflects the spiritual traditions of the quilboar."
   },
   {
    "target": "faction:Horde",
-   "text": "With the quilboar constantly menacing the Barrens, putting down persistent defenders like Aggem Thorncurse helps secure the lands of Durotar and Mulgore."
+   "text": "As a member of the Horde, you help secure Durotar and Mulgore by putting down persistent defenders like Aggem Thorncurse, while the quilboar menace the Barrens."
   }
  ],
  "keywords": [
@@ -89,5 +89,6 @@
  ],
  "attribution": [
   "Aggem Thorncurse (Classic)"
- ]
+ ],
+ "style": 1
 }

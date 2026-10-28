@@ -10,16 +10,16 @@
    "quest:1476"
   ]
  },
- "summary": "Comar's Heart is a macabre ritual component carved from Comar Villard, a faithful human wanderer searching the marshes of the Wetlands for his lost wife. Forsaken warlocks in the Undercity seek out this relic of pure devotion to feed the summoning rites of a succubus.",
+ "summary": "In the Undercity, warlocks seek Comar's Heart to draw a succubus into their service. The heart belonged to Comar Villard, a human searching the Wetlands for his lost wife.",
  "sections": [
   {
    "title": "A Beacon of Purity",
-   "body": "To bind a creature as capricious and predatory as a succubus, warlocks must bait the demon with true purity and devotion. Carendin Halgar's disciples in the Undercity identify Comar Villard as one of the few men possessing such unblemished fidelity. While his wife was lost amidst the turmoil sweeping the Eastern Kingdoms, Comar stubbornly wanders the sodden roads of the Wetlands, refusing to abandon his search. It is precisely this unwavering love that marks him for slaughter, turning his still-beating heart into the ideal lure for a demonic servant.",
+   "body": "Comar Villard keeps searching the Wetlands for his lost wife. Though turmoil has swept the Eastern Kingdoms, he refuses to abandon the search. Carendin Halgar's disciples in the Undercity judge his fidelity among the rarest and purest. To bind a succubus, a creature both capricious and predatory, warlocks need devotion like his as bait. Comar's steadfast love marks him for slaughter, and his heart becomes the lure for a demonic servant.",
    "spoiler": 0
   },
   {
    "title": "The Price of Seduction",
-   "body": "Procuring the heart requires Forsaken apprentices to venture far south through contested territories, past the Thandol Span and deep into Alliance-dominated marshes. Carried back to the Temple of the Damned alongside Dalin's Heart, the organ looks utterly mundane despite the profound goodness that once drove it. Yet to the senses of the Nether, the residual virtue radiating from Comar's flesh is intoxicating bait, strong enough to draw a succubus across the dimensional veil into the warlock's thrall.",
+   "body": "Forsaken apprentices must travel south through contested lands, cross the Thandol Span, and enter marshes held by the Alliance to claim Comar's Heart. They carry it back to the Temple of the Damned with Dalin's Heart. The organ looks ordinary, though goodness once drove the man it belonged to. To the Nether, the virtue left in Comar's flesh is intoxicating bait. It can draw a succubus across the dimensional veil and into a warlock's thrall.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "comar villard lore",
     "why kill comar"
    ],
-   "answer": "Comar Villard was a devoted human searching the dangerous Wetlands for any trace of his missing wife. His unending love and steadfast refusal to give up hope made him renowned as a truly pure-hearted man."
+   "answer": "Comar Villard was a devoted human who searched the dangerous Wetlands for his missing wife. He would not give up hope, and his love marked him as a pure-hearted man."
   },
   {
    "q": "Why do warlocks need Comar's Heart?",
@@ -40,7 +40,7 @@
     "what is comars heart for",
     "succubus heart lore"
    ],
-   "answer": "Warlocks of the Undercity require the heart of a completely pure and honorable mortal to lure and bind a succubus. The demon is naturally drawn to corrupt and feast upon genuine virtue, making Comar's unwavering devotion irresistible bait."
+   "answer": "Warlocks of the Undercity need Comar's Heart to lure and bind a succubus. His devotion makes the heart irresistible bait for the demon."
   },
   {
    "q": "Where is Comar Villard found?",
@@ -49,7 +49,7 @@
     "where is comar",
     "how to find comar"
    ],
-   "answer": "He wanders along the main road in the northern Wetlands, just south of the Thandol Span that bridges Arathi Highlands and Khaz Modan."
+   "answer": "Comar Villard wanders the main road in the northern Wetlands, just south of the Thandol Span between Arathi Highlands and Khaz Modan."
   },
   {
    "q": "Who sends warlocks to collect the heart?",
@@ -58,17 +58,17 @@
     "who gives hearts of the pure",
     "carendin halgar heart"
    ],
-   "answer": "The task is assigned by the warlock trainers in the Undercity, directed by Carendin Halgar within the Temple of the Damned, as part of an apprentice's ritual training to summon a succubus."
+   "answer": "Warlock trainers in the Undercity direct apprentices to collect the heart. Carendin Halgar oversees them in the Temple of the Damned, where the apprentices learn to summon a succubus."
   }
  ],
  "angles": [
   {
    "target": "class:Warlock",
-   "text": "Taking Comar's Heart demonstrates the cold, pragmatic cruelty of demonology: unblemished mortal virtue is merely bait used to lure a succubus into your servitude."
+   "text": "As a warlock, taking Comar's Heart shows how demonology turns mortal virtue into bait for a succubus you mean to bind."
   },
   {
    "target": "race:Undead",
-   "text": "For the Forsaken, harvesting the heart of a loyal human lover highlights the total emotional severance between the living and the undead in Lordaeron."
+   "text": "As one of the Forsaken, harvesting the heart of a loyal human lover shows the emotional severance between the living and the undead in Lordaeron."
   }
  ],
  "keywords": [
@@ -92,5 +92,6 @@
  "attribution": [
   "Comar's Heart",
   "Hearts of the Pure"
- ]
+ ],
+ "style": 1
 }

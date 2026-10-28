@@ -25,21 +25,21 @@
    "Cookie"
   ]
  },
- "summary": "Deep beneath the dusty farm town of Moonbrook lies the Deadmines, an enormous subterranean complex that once supplied a third of Stormwind's gold reserves. Abandoned during the First War and long considered haunted, these labyrinthine tunnels have secretly been overtaken by the Defias Brotherhood as their ultimate staging ground. Here, Edwin VanCleef and his conscripted goblin engineers labor away from the eyes of the realm to build an engine of vengeance against the kingdom.",
+ "summary": "Beneath Moonbrook, the Deadmines hide the Defias Brotherhood's staging ground. Once a source of Stormwind's gold, the tunnels were abandoned in the First War and long feared as haunted. Edwin VanCleef and goblin engineers work there beyond the realm's eyes, building an engine of vengeance against the kingdom.",
  "sections": [
   {
    "title": "A Legacy of Gold and Ruin",
-   "body": "Before the First War, the Deadmines were celebrated as the greatest gold-producing center in human lands, financing the prosperity of Stormwind. When the Orcish Horde swept through the kingdom and razed the capital, the mines were hastily abandoned to the dark. During those turbulent years, legendary figures walked these depths: Sir Anduin Lothar was imprisoned by subterranean ogres for twenty months while recovering the sacred Tome of Divinity, and Warchief Blackhand's rebellious daughter Griselda fled into the lower passages alongside the ogre Turok before both met their ends. Believed to be cursed and populated only by shambling undead and lurking subterranean vermin, the depths lay untouched for decades.",
+   "body": "Before the First War, the Deadmines were called the greatest gold-producing center in human lands. Their gold supplied a third of Stormwind's reserves. When the Orcish Horde swept through the kingdom and razed the capital, the mines were hastily abandoned to darkness. Sir Anduin Lothar spent twenty months imprisoned by subterranean ogres while recovering the sacred Tome of Divinity. Warchief Blackhand's rebellious daughter Griselda fled into the lower passages with the ogre Turok, and both met their ends there. Believed cursed and home only to shambling undead and lurking subterranean vermin, the depths lay untouched for decades.",
    "spoiler": 0
   },
   {
    "title": "Sanctum of the Brotherhood",
-   "body": "When the Stonemasons' Guild was cast out of Stormwind without payment for rebuilding the city, Edwin VanCleef reorganized the disenfranchised artisans into the Defias Brotherhood. Seeking a secure headquarters safe from Gryan Stoutmantle's People's Militia, the thieves established their central redoubt within the abandoned tunnels. They drove out the legitimate Miners' League\u2014leaving Foreman Thistlenettle's doomed workers to perish and rise as undead ghouls\u2014and converted the shafts into an industrial war camp. Guarded by lumbering ogres, seasoned brigands, and mechanical constructs, the lower mines echo once again with picks, fires, and illicit industry.",
+   "body": "After the Stonemasons' Guild was cast out of Stormwind without payment for rebuilding the city, Edwin VanCleef reorganized the disenfranchised artisans into the Defias Brotherhood. Seeking a secure headquarters beyond the reach of Gryan Stoutmantle's People's Militia, the Brotherhood chose its central redoubt in the abandoned tunnels. They drove out the legitimate Miners' League, leaving Foreman Thistlenettle's doomed workers to perish and rise as undead ghouls. The shafts became an industrial war camp, guarded by lumbering ogres, seasoned brigands, and mechanical constructs. Picks, fires, and illicit industry echo through the lower mines once more.",
    "spoiler": 0
   },
   {
    "title": "The Secret of Ironclad Cove",
-   "body": "Beyond the sweltering Goblin Foundry and the timber-strewn Mast Room lies Ironclad Cove, a vast subterranean grotto hollowed out beneath the Dagger Hills. In this hidden harbor, VanCleef has employed goblin shipbuilders and tinkerers to construct a colossal ironclad dreadnaught. Commanded by Captain Greenskin and First Mate Mr. Smite, this warship is engineered to sail through an underwater sea gate leading out toward the ocean, where the Defias Brotherhood means to prey on the sea trade that keeps Stormwind rich.",
+   "body": "Beyond the sweltering Goblin Foundry and timber-strewn Mast Room, Ironclad Cove opens beneath the Dagger Hills. In this hidden harbor, VanCleef employed goblin shipbuilders and tinkerers to construct a colossal ironclad dreadnaught. Captain Greenskin commands the warship, with First Mate Mr. Smite beside him. It is designed to sail through an underwater sea gate toward the ocean, where the Defias Brotherhood means to prey on the sea trade that keeps Stormwind rich.",
    "spoiler": 1
   }
  ],
@@ -51,7 +51,7 @@
     "how to get to deadmines",
     "where is deadmines"
    ],
-   "answer": "The entrance is hidden inside a derelict barn in the ruined town of Moonbrook, located in southwestern Westfall. Winding tunnels pass through an outer complex of Defias diggers and undead miners before reaching the locked instance threshold."
+   "answer": "The entrance lies inside a derelict barn in ruined Moonbrook, southwestern Westfall. Winding tunnels cross an outer complex of Defias diggers and undead miners before reaching the locked instance threshold."
   },
   {
    "q": "Why does everyone call the Deadmines 'VC'?",
@@ -60,7 +60,7 @@
     "vc meaning",
     "why call it vc"
    ],
-   "answer": "Adventurers frequently refer to the dungeon as 'VC' after its master, Edwin VanCleef. This shorthand is used to avoid confusing the Deadmines with Dire Maul, an ancient elven complex in Feralas that shares the initials 'DM'."
+   "answer": "Adventurers call the dungeon “VC” after its master, Edwin VanCleef. The shorthand avoids confusion with Dire Maul, an ancient elven complex in Feralas that shares the initials “DM.”"
   },
   {
    "q": "Who is Edwin VanCleef?",
@@ -69,7 +69,7 @@
     "who is the final boss",
     "defias leader"
    ],
-   "answer": "Edwin VanCleef was the brilliant guildmaster of the Stonemasons who oversaw the majestic reconstruction of Stormwind City after the First War. When the House of Nobles refused to honor their debts, VanCleef formed the Defias Brotherhood to exact restitution through rebellion and open brigandage."
+   "answer": "Edwin VanCleef was the brilliant guildmaster of the Stonemasons, who oversaw Stormwind City's majestic reconstruction after the First War. When the House of Nobles refused to honor its debts, VanCleef formed the Defias Brotherhood to demand restitution through rebellion and open brigandage."
   },
   {
    "q": "What is being built in Ironclad Cove?",
@@ -78,7 +78,7 @@
     "deadmines ship",
     "juggernaught"
    ],
-   "answer": "The Defias have contracted goblin engineers to assemble a massive ironclad juggernaught. Armed with heavy ordnance and sturdy timber, the warship is designed to sail out of the cove's sea gate and raid the trade that feeds the capital."
+   "answer": "The Defias are building a massive ironclad juggernaught in Ironclad Cove. They contracted goblin engineers to assemble it with heavy ordnance and sturdy timber, so it can sail out through the cove's sea gate and raid the trade that feeds the capital."
   },
   {
    "q": "What happened to the Miners' League workers outside the instance?",
@@ -87,7 +87,7 @@
     "why are there undead miners",
     "collecting memories lore"
    ],
-   "answer": "Foreman Thistlenettle and his crew were sent to legally reopen the mines for the kingdom. When the Defias stormed the works, a devastating tunnel collapse trapped the miners in the dark, where they starved and eventually rose as mindless, restless undead."
+   "answer": "Foreman Thistlenettle and his crew were sent to legally reopen the mines for the kingdom. When the Defias stormed the works, a devastating tunnel collapse trapped the miners in the dark. They starved there and eventually rose as mindless, restless undead."
   },
   {
    "q": "What does defeating Cookie the murloc mean for the Defias ship?",
@@ -96,7 +96,7 @@
     "why is cookie a boss",
     "cookie deadmines"
    ],
-   "answer": "Cookie serves as the bizarre ship's cook aboard VanCleef's dreadnaught. While defeating VanCleef cuts off the head of the rebellion, slaying Cookie cleans out the remaining crew lingering in the ship's galley, utterly breaking the crew's presence in Ironclad Cove before adventurers escape out the coastal passage."
+   "answer": "Cookie is the bizarre ship's cook aboard VanCleef's dreadnaught. Defeating VanCleef cuts off the rebellion's head, while slaying Cookie clears the remaining crew from the ship's galley and breaks the crew's presence in Ironclad Cove before adventurers escape through the coastal passage."
   },
   {
    "q": "Where does the exit tunnel lead when leaving the dungeon?",
@@ -104,21 +104,21 @@
     "deadmines exit",
     "where does the exit go"
    ],
-   "answer": "Following the natural tunnel out behind the dreadnaught brings adventurers to an exit along the coastal bluffs of the Dagger Hills, looking out toward the ocean and the Westfall Lighthouse."
+   "answer": "The natural tunnel behind the dreadnaught leads to an exit along the coastal bluffs of the Dagger Hills. From there, you look out toward the ocean and the Westfall Lighthouse."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "The Deadmines represent the gravest internal threat to the kingdom of Stormwind; bringing down VanCleef is the defining victory that restores hope to the besieged farmers of Westfall."
+   "text": "For the Alliance, the Deadmines are Stormwind's gravest internal threat. Bringing down VanCleef is the defining victory that restores hope to Westfall's besieged farmers."
   },
   {
    "target": "class:Paladin",
-   "text": "These desecrated shafts are a test of valor and faith, echoing the historic trials of Sir Anduin Lothar and the lost miners whose restless dead still wander the outer tunnels."
+   "text": "As a paladin, you face a test of valor and faith in these desecrated shafts. They echo the historic trials of Sir Anduin Lothar and the lost miners whose restless dead still wander the outer tunnels."
   },
   {
    "target": "profession:Mining",
-   "text": "Once supplying a third of the capital's wealth, the rocky tunnels remain rich in veins of copper, tin, and precious silver."
+   "text": "The rocky tunnels once supplied a third of the capital's wealth and remain rich in veins of copper, tin, and precious silver."
   },
   {
    "target": "profession:Engineering",
@@ -150,5 +150,6 @@
  "attribution": [
   "Deadmines (Classic)",
   "Deadmines"
- ]
+ ],
+ "style": 1
 }

@@ -10,11 +10,11 @@
    "quest:289"
   ]
  },
- "summary": "Snellig's Snuffbox is a personal keepsake recovered from the restless undead First Mate Snellig among the wreckage of the Lost Fleet. Bringing this trinket back to First Mate Fitzsimmons in Menethil Harbor serves as proof that his cursed former crewmate has finally been put to rest.",
+ "summary": "At the Lost Fleet, Snellig's Snuffbox remains with its undead owner among the wrecks. First Mate Fitzsimmons in Menethil Harbor wants it as proof his cursed crewmate has been put to rest.",
  "sections": [
   {
    "title": "A Keepsake of the Third Fleet",
-   "body": "When the Third Fleet of Kul Tiras ran aground along the northern shores of the Wetlands, its sailors and officers did not find peaceful deaths. Bound by a mysterious and dark power tied to a hidden treasure aboard the ships, the drowned crew rose again as tortured spirits and skeletal undead. Among them was First Mate Snellig, who still haunts the rotting hold of the wreck closest to the coastline. Even in death, he clung to his snuffbox\u2014a small, mundane reminder of his mortal life at sea. For the sole living survivor of the disaster, First Mate Fitzsimmons, recovering this small possession provides tangible proof that at least one of his lost shipmates has been released from an eternity of torment.",
+   "body": "First Mate Snellig still clutches his snuffbox in a wreck off the northern Wetlands. When the Third Fleet of Kul Tiras ran aground there, its sailors and officers drowned beneath a mysterious power tied to a hidden treasure aboard the ships. Bound by that power, the drowned crew rose again as tortured spirits and skeletal undead. Snellig haunts the rotting hold of the wreck closest to the coastline. His snuffbox is a small, ordinary reminder of his mortal life at sea. First Mate Fitzsimmons, the disaster's sole living survivor, wants this possession returned as proof that at least one lost shipmate has found release from torment.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "snelligs snuffbox",
     "snuff box"
    ],
-   "answer": "It is a small personal container once owned by First Mate Snellig, an officer of the ill-fated Kul Tiras Third Fleet. It is carried by his undead remnant aboard the shipwrecks off the northern coast of the Wetlands."
+   "answer": "First Mate Snellig once owned the small, personal container called Snellig's Snuffbox. His undead remnant carries it aboard a shipwreck off the northern Wetlands coast."
   },
   {
    "q": "Where do I find Snellig's Snuffbox?",
@@ -35,7 +35,7 @@
     "find snellig",
     "first mate snellig location"
    ],
-   "answer": "The snuffbox is taken from First Mate Snellig, who haunts the hold of the shipwreck closest to shore at the Lost Fleet in the northwestern Wetlands."
+   "answer": "You can take the snuffbox from First Mate Snellig, who haunts the hold of the shipwreck closest to shore at the Lost Fleet in the northwestern Wetlands."
   },
   {
    "q": "Who wants this snuffbox?",
@@ -44,7 +44,7 @@
     "who do i turn this into",
     "fitzsimmons quest"
    ],
-   "answer": "First Mate Fitzsimmons, the sole living survivor of the Third Fleet, asks adventurers to bring him the snuffbox at Menethil Harbor as proof that Snellig has been put to rest."
+   "answer": "First Mate Fitzsimmons wants you to bring him the snuffbox at Menethil Harbor. The Third Fleet's sole living survivor asks for it as proof that Snellig has been put to rest."
   },
   {
    "q": "Why is First Mate Snellig cursed?",
@@ -53,13 +53,13 @@
     "lost fleet curse",
     "curse of third fleet"
    ],
-   "answer": "According to Fitzsimmons, a dark and terrible treasure hidden aboard one of the Third Fleet's vessels doomed the crews upon wrecking, trapping their souls within the rotting timbers and denying them rest."
+   "answer": "Fitzsimmons says a dark, terrible treasure hidden aboard one of the Third Fleet's vessels doomed the crews when the ships wrecked. Their souls remain trapped in the rotting timbers, denied rest."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Recovering the possessions of fallen Kul Tiran sailors and putting their cursed spirits to rest is a grim duty in service of an old naval ally of the Alliance."
+   "text": "As an Alliance adventurer, recovering the possessions of fallen Kul Tiran sailors and laying their cursed spirits to rest is a grim duty to an old naval ally."
   }
  ],
  "keywords": [
@@ -84,5 +84,6 @@
  "attribution": [
   "Snellig's Snuffbox",
   "The Cursed Crew (Classic)"
- ]
+ ],
+ "style": 1
 }

@@ -17,16 +17,16 @@
   "wiki": "Shredding Machines",
   "chain": []
  },
- "summary": "Shredding Machines is a Horde quest tasking adventurers with hunting down two specialized Venture Company logging mechs in Windshear Crag. Directed by the shaman Seereth Stonebreak, players strike against the mechanical deforestation that torments Stonetalon's native spirits.",
+ "summary": "In Windshear Crag, the Venture Company’s shredders wound Stonetalon’s spirits. Seereth Stonebreak hears their cries as XT:4 and XT:9 tear through the forest.",
  "sections": [
   {
    "title": "A Vision of Deforestation",
-   "body": "Stationed along the dusty border between the Barrens and the Stonetalon Mountains, the orc shaman Seereth Stonebreak listens closely to the unseen realm. While much of Stonetalon's spiritual voice is drowned out by chaos, one vision came to her with harrowing clarity: man-shaped contraptions tearing through ancient woods with unnatural haste. Marked with the mechanical designations XT:4 and XT:9, these goblin-engineered shredders butcher the timberlands of Windshear Crag, sending waves of distress through the surrounding nature spirits.",
+   "body": "Orc shaman Seereth Stonebreak is stationed along the dusty border between the Barrens and the Stonetalon Mountains. She listens to the unseen realm, though chaos drowns out much of Stonetalon’s spiritual voice. One vision came through with harrowing clarity: man-shaped contraptions tearing through ancient woods with unnatural haste. Marked XT:4 and XT:9, the goblin-engineered shredders butcher Windshear Crag’s timberlands and send waves of distress through the surrounding nature spirits.",
    "spoiler": 0
   },
   {
    "title": "Silencing the Saws",
-   "body": "To stem the devastation, Horde champions venture deep into Windshear Crag, northwest of Greatwood Vale, where the Venture Company operates. Tracking down and wrecking these specific logging constructs deals a sharp blow to the commercial deforestation of the mountains. Though bringing down XT:4 and XT:9 calms the immediate cries of the wounded tree spirits, Seereth warns that unless the Venture Company abandons Stonetalon entirely, far darker atrocities await the land.",
+   "body": "The Venture Company operates in Windshear Crag, northwest of Greatwood Vale. To stem the devastation, Horde champions venture there and track down the logging constructs. Wrecking XT:4 and XT:9 deals a sharp blow to the mountains’ commercial deforestation and calms the immediate cries of wounded tree spirits. Seereth warns that unless the Venture Company abandons Stonetalon entirely, far darker atrocities await the land.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "quest giver seereth",
     "seereth stonebreak lore"
    ],
-   "answer": "Seereth Stonebreak is an orc shaman posted at the southern border of the Stonetalon Mountains near the Barrens. Attuned to the elemental and spiritual forces of the land, she acts as a conduit for the anguished forest spirits protesting the rapid expansion of the Venture Company."
+   "answer": "Seereth Stonebreak is an orc shaman posted along the southern border between the Barrens and the Stonetalon Mountains. Attuned to the land’s elemental and spiritual forces, she acts as a conduit for forest spirits anguished by the Venture Company’s rapid expansion."
   },
   {
    "q": "What are XT:4 and XT:9?",
@@ -47,7 +47,7 @@
     "xt4 and xt9",
     "shredder targets"
    ],
-   "answer": "XT:4 and XT:9 are specialized, designated logging shredders operated by the Venture Company in Windshear Crag. Powered by steam engines and piloted by goblin operators, these mechanized walkers cut down ancient timber far faster than manual laborers ever could."
+   "answer": "XT:4 and XT:9 are specialized logging shredders operated by the Venture Company in Windshear Crag. Goblin operators pilot these steam-powered mechanical walkers, which cut ancient timber far faster than manual laborers."
   },
   {
    "q": "Where is Windshear Crag?",
@@ -56,7 +56,7 @@
     "where do i find the shredders",
     "where are the machines"
    ],
-   "answer": "Windshear Crag lies in the northern reaches of the Stonetalon Mountains, situated northwest of Greatwood Vale. It has been transformed into a massive industrial logging basin by the Venture Company."
+   "answer": "Windshear Crag lies in the northern reaches of the Stonetalon Mountains, northwest of Greatwood Vale. The Venture Company has transformed it into a massive industrial logging basin."
   },
   {
    "q": "Why does a shaman care about trees and druidic magic?",
@@ -65,7 +65,7 @@
     "shaman druid connection",
     "nature spirits shaman"
    ],
-   "answer": "As Seereth explains, shamanistic communion with spirits shares close ties with druidic nature magic. The trauma inflicted upon living forests echoes into the spiritual realm, enabling perceptive shaman to hear the wails of slaughtered tree spirits alongside elemental unrest."
+   "answer": "As Seereth explains, shamanistic communion with spirits shares close ties with druidic nature magic. Trauma inflicted on living forests echoes into the spiritual realm, letting perceptive shaman hear slaughtered tree spirits’ wails alongside elemental unrest."
   },
   {
    "q": "Who owns and operates these shredders?",
@@ -74,7 +74,7 @@
     "who runs the shredders",
     "venture company shredders"
    ],
-   "answer": "The shredders belong to the Venture Company, an unscrupulous goblin-run commercial conglomerate infamous across Azeroth for ruthlessly stripping valuable natural resources with no regard for the local ecosystem or ancestral inhabitants."
+   "answer": "The shredders belong to the Venture Company, an unscrupulous, goblin-run commercial conglomerate infamous across Azeroth for ruthlessly stripping valuable natural resources without regard for local ecosystems or ancestral inhabitants."
   },
   {
    "q": "Does destroying XT:4 and XT:9 drive the Venture Company away?",
@@ -83,25 +83,25 @@
     "after shredding machines",
     "quest outcome"
    ],
-   "answer": "No. While destroying these flagship machines calms the weeping tree spirits and sets back local logging efforts, the Venture Company maintains an extensive industrial foothold across Windshear Crag, requiring ongoing resistance from defenders of the wild."
+   "answer": "No. Destroying these machines calms the weeping tree spirits and sets back local logging, but the Venture Company keeps an extensive industrial foothold across Windshear Crag. Defenders of the wild must continue resisting its presence."
   }
  ],
  "angles": [
   {
    "target": "class:Shaman",
-   "text": "Seereth highlights the profound resonance between spiritual magic and nature, reminding shaman that elemental balance relies on defending the spirits inhabiting the land."
+   "text": "Seereth points to the close ties between spiritual magic and nature. Elemental balance depends on defending the spirits that inhabit the land."
   },
   {
    "target": "race:Tauren",
-   "text": "The desecration of Stonetalon's ancient forests by soulless goblin machinery directly violates the tauren devotion to the Earth Mother."
+   "text": "The desecration of Stonetalon’s ancient forests by soulless goblin machinery violates devotion to the Earth Mother."
   },
   {
    "target": "profession:Engineering",
-   "text": "The XT-series logging mechs showcase advanced goblin shredder design, balancing mechanical hydraulic saws with raw steam locomotion."
+   "text": "The XT-series logging mechs show advanced goblin shredder design, joining mechanical hydraulic saws with steam locomotion."
   },
   {
    "target": "faction:Horde",
-   "text": "As the Horde establishes footholds across Kalimdor, checking the unregulated greed of the Venture Company is critical to preserving the land and securing safe transit through Stonetalon."
+   "text": "As the Horde establishes footholds across Kalimdor, checking the Venture Company’s unregulated greed matters for preserving the land and keeping transit through Stonetalon safe."
   }
  ],
  "keywords": [
@@ -127,5 +127,6 @@
  ],
  "attribution": [
   "Shredding Machines"
- ]
+ ],
+ "style": 1
 }

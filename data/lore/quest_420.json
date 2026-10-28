@@ -22,16 +22,16 @@
    "Senir's Observations (2)"
   ]
  },
- "summary": "This errand completes a scouting line out of Coldridge Valley, carrying Grelin Whitebeard's completed report through the trogg-infested pass to his brother Senir in Kharanos. It bridges the secluded training grounds of Anvilmar with the broader troubles facing Dun Morogh. Through Senir's candid reception, travelers catch their first glimpse of political friction simmering between field scouts and the Ironforge Senate.",
+ "summary": "Grelin Whitebeard's report now travels from Coldridge Valley to Senir in Kharanos. Its findings carry news of the valley's threats beyond the sheltered training grounds of Anvilmar.",
  "sections": [
   {
    "title": "Through the Tunnel to Kharanos",
-   "body": "After Grelin Whitebeard recovers his stolen journal from the Frostmane trolls, he prepares a detailed report of the valley's threats for his brother Senir. Mountaineer Thalos, stationed guarding the gate out of Coldridge Valley, entrusts passing adventurers with carrying this dispatch. Leaving the relative seclusion of the introductory vale means braving the tunnel cut through the mountain, which has recently been overrun by violent troggs ambushing all traffic. Travelers who punch through emerge onto the snowblown highways of central Dun Morogh, following the main road straight into the cozy hub of Kharanos.",
+   "body": "Grelin Whitebeard has recovered his stolen journal from the Frostmane trolls and prepared a report on the valley's threats for his brother Senir. Mountaineer Thalos guards the gate out of Coldridge Valley and gives the dispatch to travelers passing through. The route leads through a mountain tunnel recently overrun by violent troggs that ambush anyone crossing. Beyond it, the main road runs through central Dun Morogh to Kharanos.",
    "spoiler": 0
   },
   {
    "title": "A Grumpy Welcome and Senate Politics",
-   "body": "Senir Whitebeard, found seeking warmth over drinks at the Thunderbrew Distillery in Kharanos, greets newcomers with rough mountaineer hospitality. Reading through Grelin's findings, Senir chuckles over his brother's aggressive rhetoric. Grelin liberally invokes the name of King Magni Bronzebeard to press for urgent action, an assertive tactic Senir notes is bound to agitate the stubborn Ironforge Senate. Senir admits he has fallen behind on filing his own observations due to the bitter cold, but receiving Grelin's dispatch nudges him back into service, opening further work monitoring hostile forces across the snowfields.",
+   "body": "Senir Whitebeard is warming himself over drinks at the Thunderbrew Distillery in Kharanos when Grelin's report arrives. He chuckles at his brother's forceful words. Grelin invokes King Magni Bronzebeard to press for urgent action, and Senir says the tactic is bound to agitate the stubborn Ironforge Senate. Senir admits the bitter cold has kept him from filing his own observations. Grelin's dispatch spurs him back to his duties, watching hostile forces across the snowfields.",
    "spoiler": 0
   }
  ],
@@ -43,7 +43,7 @@
     "thalos courier",
     "who gives this quest"
    ],
-   "answer": "Mountaineer Thalos is posted to hold the defense line at the Coldridge Valley tunnel against aggressive troggs. He cannot abandon his watchpost, so when an able adventurer comes through, he tasks them with carrying Grelin's dispatch safely into Kharanos."
+   "answer": "Mountaineer Thalos guards the Coldridge Valley tunnel against aggressive troggs and cannot leave his post. When a traveler passes through, he entrusts them with carrying Grelin's dispatch to Kharanos."
   },
   {
    "q": "Who is Senir Whitebeard?",
@@ -52,7 +52,7 @@
     "senir whitebeard kharanos",
     "senir background"
    ],
-   "answer": "Senir Whitebeard is a dwarven scout and brother to Grelin Whitebeard. Stationed at Kharanos, he collates scouting field reports on local threats to pass along to the high command in Ironforge."
+   "answer": "Senir Whitebeard is a dwarven scout and Grelin Whitebeard's brother. He is stationed in Kharanos, where he gathers field reports on local threats for the high command in Ironforge."
   },
   {
    "q": "What is in Grelin's report?",
@@ -61,7 +61,7 @@
     "grelin report contents",
     "grelins report lore"
    ],
-   "answer": "The report compiles Grelin's findings on the Frostmane troll activity and incursions within Coldridge Valley. Written urgently, it invokes King Magni Bronzebeard's authority to demand reinforcements and attention from the authorities."
+   "answer": "Grelin's report records his findings on Frostmane troll activity and incursions in Coldridge Valley. He invokes King Magni Bronzebeard's authority to press the authorities for reinforcements and attention."
   },
   {
    "q": "Why does Senir say Grelin's report will ruffle feathers in the Senate?",
@@ -70,7 +70,7 @@
     "senir ironforge senate",
     "why is the senate mad"
    ],
-   "answer": "Grelin invokes King Magni's name forcefully to demand action. In Ironforge politics, relying on royal decrees can bypass or challenge the bureaucratic authority and pride of the dwarven Senate, irritating council members who prefer formal deliberation."
+   "answer": "Grelin invokes King Magni's name forcefully to demand action. That can challenge the Ironforge Senate's authority and pride, irritating members who favor formal deliberation."
   },
   {
    "q": "Why is the tunnel between Coldridge Valley and Kharanos dangerous?",
@@ -79,7 +79,7 @@
     "trogg tunnel dun morogh",
     "why are troggs in the tunnel"
    ],
-   "answer": "A clan of Rockjaw troggs has recently emerged from the deep subterranean cracks and seized the mountain tunnel, attacking any dwarven travelers, merchants, or messengers trying to pass through."
+   "answer": "Rockjaw troggs have emerged from deep subterranean cracks and seized the mountain tunnel. They attack dwarven travelers, merchants, and messengers who try to pass."
   },
   {
    "q": "Where does the road lead after delivering this message?",
@@ -88,21 +88,21 @@
     "next quest after senirs observations",
     "where does kharanos lead"
    ],
-   "answer": "Arriving in Kharanos integrates adventurers into the broader defense of Dun Morogh. Senir Whitebeard later enlists help investigating further Frostmane and trogg threats, while town leaders direct aid toward Brewnall Village, Ironforge, and the outlying farms."
+   "answer": "Kharanos brings travelers into the wider defense of Dun Morogh. Senir Whitebeard seeks help investigating Frostmane and trogg threats, while town leaders direct aid toward Brewnall Village, Ironforge, and the outlying farms."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "Passing from the sheltered training valley into Kharanos marks your true graduation into the defense of Khaz Modan, offering an early taste of how field scouts clash with Ironforge's cautious Senate."
+   "text": "For a dwarf, leaving the sheltered training valley for Kharanos marks a first step into Khaz Modan's defense, where field scouts' concerns meet the Ironforge Senate's caution."
   },
   {
    "target": "race:Gnome",
-   "text": "Heading through the pass to Kharanos brings exiled gnomes closer to the main hubs of Dun Morogh and the ongoing efforts to support their dwarven hosts."
+   "text": "For a gnome, the pass to Kharanos brings you closer to Dun Morogh's main hubs and the efforts to support your dwarven hosts."
   },
   {
    "target": "faction:Alliance",
-   "text": "Helping scouts coordinate intelligence keeps Dun Morogh secure at a time when Stormwind is paralyzed by domestic strife and cannot spare aid for its northern allies."
+   "text": "Coordinated scouting helps keep Dun Morogh secure while Stormwind is caught up in domestic strife and cannot spare aid for its northern allies."
   }
  ],
  "keywords": [
@@ -128,5 +128,6 @@
  ],
  "attribution": [
   "Senir's Observations (2)"
- ]
+ ],
+ "style": 1
 }

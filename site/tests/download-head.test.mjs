@@ -36,13 +36,17 @@ test("the picked Setup (LOR-848) is the release's own file, under a name that sa
     asked.push([String(url), init?.method]);
     return new Response(init?.method === "HEAD" ? null : bytes, { headers: { "Content-Length": String(bytes.length) } });
   });
-  const get = (path, method = "GET") => setup({ env: {}, params: Object.fromEntries(["narrator", "lang", "bundle"].map((k, i) => [k, path.split("/")[i]])),
+  // The site's download feed names the release the page was drawn for: its Setup, not whatever GitHub calls latest.
+  const env = { ASSETS: { fetch: async url => new URL(url).pathname === "/data/download-files.json"
+    ? Response.json({ publishedTag: "v9.8.7" }) : new Response("not found", { status: 404 }) } };
+  const get = (path, method = "GET") => setup({ env, params: Object.fromEntries(["narrator", "lang", "bundle"].map((k, i) => [k, path.split("/")[i]])),
     request: new Request("https://loreforeverwow.com/download/setup/" + path, { method }) });
   const res = await get("female/de/storyteller");
   assert.equal(res.status, 200);
   assert.match(res.headers.get("Content-Disposition"), /filename="Lore Forever Setup \(female, de, storyteller\)\.exe"/);
   assert.deepEqual(new Uint8Array(await res.arrayBuffer()), bytes);
-  assert.ok(asked[0][0].endsWith("/releases/latest/download/LoreForever-Setup.exe"));
+  assert.ok(asked[0][0].endsWith("/releases/download/v9.8.7/LoreForever-Setup.exe"), asked[0][0]);
+  assert.equal(res.headers.get("X-Release-Tag"), "v9.8.7");
   // Only the words Setup knows make a name: anything else is not found, so no header carries it.
   for (const bad of ["female/de/everything\"", "female/xx/addon", "original/en/addon"]) assert.equal((await get(bad)).status, 404, bad);
 });

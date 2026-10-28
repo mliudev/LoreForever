@@ -14,7 +14,7 @@
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Operating through the crossroads of the Three Corners, the Azeroth Commerce Authority relies on traveling adventurers in the southern Alliance territories to recover stray cargo and secure overland transport routes."
+   "text": "As an Alliance traveler in the southern territories, you can help the Azeroth Commerce Authority recover stray cargo and secure overland transport routes from its hub at Three Corners."
   }
  ],
  "faq": [
@@ -24,7 +24,7 @@
     "shipping label quest",
     "torn shipping label"
    ],
-   "answer": "The Shipping Label is a torn document found on the side of a recovered supply crate. While the recipient's name is missing, the label identifies the goods as property of the Azeroth Commerce Authority and directs whoever finds it to report to their hub at Three Corners.",
+   "answer": "The Shipping Label is a damaged freight marker attached to a supply crate owned by the Azeroth Commerce Authority. The recipient's name is missing, but the label directs whoever finds the crate to report to the authority's hub at Three Corners.",
    "q": "What is the Shipping Label?"
   },
   {
@@ -33,7 +33,7 @@
     "azeroth commerce authority",
     "what is the azeroth commerce authority"
    ],
-   "answer": "The Azeroth Commerce Authority is an enterprise organizing logistics, trade, and freight across the region. They maintain local trade hubs to recover lost shipments and employ roving couriers without long-term contracts.",
+   "answer": "The Azeroth Commerce Authority organizes logistics, trade, and freight across the region. It keeps local trade hubs to recover lost shipments and employs roving couriers without long-term contracts.",
    "q": "What is the Azeroth Commerce Authority?"
   },
   {
@@ -42,7 +42,7 @@
     "three corners hub",
     "where to turn in shipping label"
    ],
-   "answer": "The Azeroth Commerce Authority trade hub is situated at the Three Corners crossroads in the Redridge Mountains, strategically placed along the roadways linking Elwynn Forest, Duskwood, and Lakeshire.",
+   "answer": "The Azeroth Commerce Authority's trade hub is at the Three Corners crossroads in the Redridge Mountains, along the roads linking Elwynn Forest, Duskwood, and Lakeshire.",
    "q": "Where is the Azeroth Commerce Authority trade hub located?"
   },
   {
@@ -51,7 +51,7 @@
     "merchants favor",
     "aca compensation"
    ],
-   "answer": "Merchant's Favor is a specialized scrip or credit granted by the Azeroth Commerce Authority to independent couriers. Affiliates use it to purchase various trade goods and logistical services provided at the authority's posts.",
+   "answer": "Merchant's Favor is scrip or credit the Azeroth Commerce Authority grants to independent couriers. Affiliates can use it to buy trade goods and logistical services at the authority's posts.",
    "q": "What is Merchant's Favor?"
   },
   {
@@ -60,7 +60,7 @@
     "joining aca",
     "do i need a contract"
    ],
-   "answer": "Becoming an affiliate requires no formal contracts, paperwork, or long-term commitments. The Azeroth Commerce Authority simply requires couriers to assist in returning or completing misplaced deliveries encountered out in the world.",
+   "answer": "To become an affiliate, you need no formal contract, paperwork, or long-term commitment. The Azeroth Commerce Authority asks couriers to help return or complete misplaced deliveries they encounter on the road.",
    "q": "How do you become an affiliate of the Azeroth Commerce Authority?"
   },
   {
@@ -69,7 +69,7 @@
     "missing crate",
     "do they want the crate"
    ],
-   "answer": "The label itself prompts the trade hub representatives to inquire about the physical crate it was attached to, as returning empty or fulfilled shipping containers remains vital to their trade operations.",
+   "answer": "After you deliver the label, representatives at the trade hub ask about the crate it came from. Returning empty or fulfilled shipping containers remains vital to their trade operations.",
    "q": "What happens to the crate after delivering the label?"
   }
  ],
@@ -88,18 +88,19 @@
  ],
  "sections": [
   {
-   "body": "Found pasted to a stocked supply crate, this damaged shipping label marks cargo belonging to the Azeroth Commerce Authority. Although the intended destination and recipient have been torn away, clear instructions direct anyone who discovers the freight to return it or report to the authority's trade outpost in the Redridge Mountains. Beside the formal text, a rudimentary map sketches out the roads leading toward the Three Corners intersection.",
+   "body": "A damaged label marks a stocked supply crate as freight belonging to the Azeroth Commerce Authority. The destination and recipient have been torn away, but the label tells anyone who finds the cargo to return it or report to the authority's trade outpost in the Redridge Mountains. Beside the formal text, a rough map sketches the roads toward the Three Corners intersection.",
    "spoiler": 0,
    "title": "A Stray Delivery"
   },
   {
-   "body": "At the crossroads of Three Corners, representatives of the Azeroth Commerce Authority actively enlist travelers as independent couriers. Rather than binding haulers to strict merchant contracts, the authority operates an informal network where adventurers are compensated with Merchant's Favor in return for recovering missing cargo and fulfilling abandoned deliveries along the highway.",
+   "body": "At Three Corners, representatives of the Azeroth Commerce Authority enlist travelers as independent couriers. The authority does not bind haulers to strict merchant contracts. Instead, it runs an informal network that compensates them with Merchant's Favor for recovering missing cargo and completing abandoned deliveries along the highway.",
    "spoiler": 0,
    "title": "The Commerce Authority's Hub"
   }
  ],
- "summary": "The Shipping Label is a recovered freight marker attached to a supply crate owned by the Azeroth Commerce Authority. Directing couriers to their trade hub at the Three Corners crossroads in Redridge Mountains, it introduces travelers to the organization's network of independent haulers.",
+ "summary": "A damaged Shipping Label points toward the Azeroth Commerce Authority's trade hub at Three Corners in the Redridge Mountains. It marks a supply crate as the authority's property and shows travelers where to report it.",
  "attribution": [
   "In-game quest text: Shipping Label"
- ]
+ ],
+ "style": 1
 }

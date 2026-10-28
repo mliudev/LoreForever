@@ -17,16 +17,16 @@
   "wiki": "Devouring Plague (Undercity)",
   "chain": []
  },
- "summary": "Devouring Plague is a rite of instruction offered to Forsaken priests who have proven their dedication to shadow magic. Granted by Priestess Aelthalyste in the Undercity, the teaching marks an acolyte's initiation into one of the most dreaded curses woven by the undead priesthood.",
+ "summary": "Forsaken priests in the Undercity learn Devouring Plague from Priestess Aelthalyste. The rite is for those who have proven their dedication to shadow magic, and teaches a feared curse of the undead priesthood.",
  "sections": [
   {
    "title": "A Curse of the Shadow",
-   "body": "In the murky cloisters of the War Quarter, Priestess Aelthalyste guides Forsaken practitioners through the grim arts of the Shadow. While living priests of other races appeal to the Holy Light or ancestral spirits for their power, the Forsaken have forged their own spiritual doctrines. Devouring Plague represents the crystallization of their philosophy: inflicting suffering upon their foes while leeching the stolen vitality back into their own decaying bodies.",
+   "body": "In the Undercity’s War Quarter, Priestess Aelthalyste teaches Forsaken priests the grim arts of the Shadow. Priests of other races draw power from the Holy Light or ancestral spirits, but the Forsaken have shaped their own spiritual doctrines. Devouring Plague gives form to that path: it torments foes and drains their stolen vitality to sustain the caster’s decaying body.",
    "spoiler": 0
   },
   {
    "title": "A Test of Mastery",
-   "body": "Aelthalyste does not offer the knowledge of the plague lightly. The spell is considered a weapon of potent malice, intended to turn the tide against the Scourge and the Scarlet Crusade. When imparting the spell, Aelthalyste warns her disciples to hone their command over it through relentless practice, cautioning that far greater trials lie ahead for those who seek to master the dark arts.",
+   "body": "Priestess Aelthalyste shares the plague’s power only with care. The spell is a weapon of potent malice, meant to turn the tide against the Scourge and the Scarlet Crusade. As she teaches it, she warns her disciples to practice until their command is sure. Greater trials await those who seek mastery of the dark arts.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "what does devouring plague quest do",
     "devouring plague purpose"
    ],
-   "answer": "The quest serves as a formal lesson for Forsaken priests reaching seasoned standing. By speaking with Priestess Aelthalyste, the priest is taught how to cast Devouring Plague, a shadow affliction that drains its victim to heal the caster."
+   "answer": "This rite teaches Forsaken priests who have reached seasoned standing to cast Devouring Plague. The shadow affliction drains its victim and heals the caster."
   },
   {
    "q": "Who is Priestess Aelthalyste?",
@@ -47,7 +47,7 @@
     "aelthalyste lore",
     "aelthalyste undercity"
    ],
-   "answer": "Priestess Aelthalyste is a Forsaken priest trainer residing in the War Quarter of the Undercity. She oversees the development of emerging shadow casters and ensures they wield their destructive blessings effectively for the Forsaken."
+   "answer": "Priestess Aelthalyste is a Forsaken priest trainer in the Undercity’s War Quarter. She guides emerging shadow casters and sees that they wield their destructive blessings effectively for the Forsaken."
   },
   {
    "q": "Can priests of other races learn Devouring Plague from Aelthalyste?",
@@ -65,7 +65,7 @@
     "where is devouring plague quest",
     "undercity priest trainer location"
    ],
-   "answer": "Priestess Aelthalyste can be found in the War Quarter of the Undercity, lingering among the Forsaken's priest instructors and practitioners."
+   "answer": "Priestess Aelthalyste is in the War Quarter of the Undercity, among the Forsaken priest instructors and practitioners."
   },
   {
    "q": "Why do Forsaken priests specialize in plague and shadow magic?",
@@ -74,7 +74,7 @@
     "lore behind undead priests",
     "forsaken priest magic"
    ],
-   "answer": "Forsaken priests endure intense physical pain whenever they channel the Holy Light due to their undead state. As a result, many turn toward the teachings of the Shadow, using afflictions, curses, and stolen life-force to survive and wage war."
+   "answer": "Forsaken priests feel intense physical pain when they channel the Holy Light because they are undead. Many turn to the Shadow, using afflictions, curses, and stolen life-force to survive and wage war."
   },
   {
    "q": "What tests is Aelthalyste referring to?",
@@ -83,21 +83,21 @@
     "future tests aelthalyste",
     "what tests"
    ],
-   "answer": "Aelthalyste warns that as a priest grows in power, the trials faced across Lordaeron will intensify. Wielding dark magic invites dangerous scrutiny and deadly foes, demanding absolute command over every curse in an acolyte's repertoire."
+   "answer": "As a priest grows in power, Aelthalyste warns, trials across Lordaeron grow harder. Dark magic draws dangerous scrutiny and deadly foes, so an acolyte must command every curse in their repertoire."
   }
  ],
  "angles": [
   {
    "target": "class:Priest",
-   "text": "This rite provides Forsaken priests with one of their most dreaded spells, binding their survival directly to the affliction they inflict on enemies."
+   "text": "As a Forsaken priest, you learn one of your most dreaded spells, tying your survival to the affliction you inflict on your enemies."
   },
   {
    "target": "race:Undead",
-   "text": "Embracing plague-like shadowcraft reflects the Forsaken's divergence from traditional Lordaeron worship following the Third War."
+   "text": "As an Undead, you inherit a path of plague-like shadowcraft that reflects the Forsaken’s departure from traditional Lordaeron worship after the Third War."
   },
   {
    "target": "faction:Horde",
-   "text": "While other Horde allies rely on ancestral spirits or elemental balance, the Forsaken bring ruthless, disease-like curses into the faction's collective arsenal."
+   "text": "As a member of the Horde, you bring ruthless, disease-like curses to its arsenal, while other allies rely on ancestral spirits or elemental balance."
   }
  ],
  "keywords": [
@@ -116,5 +116,6 @@
  ],
  "attribution": [
   "Devouring Plague (Undercity)"
- ]
+ ],
+ "style": 1
 }

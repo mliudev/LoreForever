@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Cragpool Lake"
  },
- "summary": "Cragpool Lake is a body of water tucked inside Windshear Crag in the Stonetalon Mountains. Looming above its dark waters sits a massive timber structure erected by the Venture Company.",
+ "summary": "At Cragpool Lake, the Venture Company’s timber structure looms over the dark water in Windshear Crag.",
  "sections": [
   {
    "title": "Industrial Encroachment",
-   "body": "Nestled within Windshear Crag, Cragpool Lake lies directly beneath the towering logging apparatus built by the Venture Company. An enormous wooden structure spans above the water, serving as the vantage point from which Gerenzo Wrenchwhistle oversees operations across the mountain valley. Venture Company workers occupy the platforms overhead.",
+   "body": "Cragpool Lake lies beneath a vast timber structure built by the Venture Company in Windshear Crag. Platforms cross above the water, where Gerenzo Wrenchwhistle watches operations across the mountain valley. Venture Company workers occupy the platforms overhead.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "cragpool scaffolding",
     "cragpool bridge"
    ],
-   "answer": "It is an industrial superstructure erected by the Venture Company to manage their extensive logging and mining efforts in Windshear Crag. It connects platforms and heavy machinery spanning directly over the lake."
+   "answer": "The Venture Company built a vast wooden structure over the lake to manage its logging and mining in Windshear Crag. Platforms and heavy machinery span the water."
   },
   {
    "q": "Who oversees the operations at Cragpool Lake?",
@@ -32,14 +32,14 @@
     "who is the boss here",
     "gerenzo wrenchwhistle"
    ],
-   "answer": "Gerenzo Wrenchwhistle, a key operative for the Venture Company, established his perch atop the high scaffolding to supervise the deforestation and resource extraction throughout Windshear Crag."
+   "answer": "Gerenzo Wrenchwhistle oversees the operations at Cragpool Lake. The Venture Company operative watches deforestation and resource extraction across Windshear Crag from the high scaffolding."
   },
   {
    "q": "What dangers surround Cragpool Lake?",
    "aliases": [
     "what is in cragpool lake"
    ],
-   "answer": "The Venture Company operates on the platforms over the lake. Its armed workers make the industrial site dangerous for intruders."
+   "answer": "Venture Company workers operate on the platforms above the lake. Their armed presence makes the site dangerous for intruders."
   },
   {
    "q": "Has the Venture Company abandoned Cragpool Lake?",
@@ -53,11 +53,11 @@
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "The towering timber scaffolding and cantilevered machinery above Cragpool Lake offer a textbook display of goblin industrial expediency\u2014built quickly, heavily loaded, and indifferent to natural terrain."
+   "text": "The timber scaffolding and cantilevered machinery above Cragpool Lake show goblin industry built quickly, heavily loaded, and indifferent to the land beneath it."
   },
   {
    "target": "class:Druid",
-   "text": "The runoff, timber platforms, and disruption around Cragpool Lake stand as an ugly scar in Stonetalon, warping the local ecosystem and displacing its native wildlife."
+   "text": "As a druid, you see the runoff, timber platforms, and disruption around Cragpool Lake as a scar on Stonetalon. They warp the local ecosystem and displace native wildlife."
   }
  ],
  "keywords": [
@@ -75,5 +75,6 @@
  ],
  "attribution": [
   "Cragpool Lake"
- ]
+ ],
+ "style": 1
 }

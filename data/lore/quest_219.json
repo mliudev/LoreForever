@@ -17,16 +17,16 @@
   "wiki": "Missing In Action",
   "chain": []
  },
- "summary": "Missing In Action is an Alliance escort mission in the Redridge Mountains to rescue Corporal Keeshan from Blackrock orc captivity. After his regiment was wiped out in the hills, Keeshan was knocked unconscious and dragged into a cave fortress. Guiding the wounded soldier safely back to Lakeshire helps the local garrison confirm the grim fate of their missing men.",
+ "summary": "In the Redridge Mountains, Corporal Keeshan is missing after his regiment was overrun. Blackrock orcs knocked him unconscious and dragged him into a cave fortress. Now he needs an escort back to Lakeshire, where the garrison can learn what became of the missing men.",
  "sections": [
   {
    "title": "A Regiment Overrun",
-   "body": "The Redridge Mountains have grown increasingly perilous as Blackrock orcs descend from the northern peaks. Patrols sent out by the town guard frequently run into ambushes, and Corporal Keeshan's unit suffered the worst of it. Outnumbered and overwhelmed, most of the soldiers in his regiment were cut down on the spot. Keeshan survived only because a crushing blow knocked him cold before he could be executed, allowing the orcs to drag him back to their cave as a prisoner.",
+   "body": "Blackrock orcs descend from the northern peaks, making the Redridge Mountains more perilous. Town guard patrols often meet ambushes, and Corporal Keeshan's unit suffered the worst of them. The regiment was outnumbered and overwhelmed, and most of its soldiers fell in the attack. Keeshan survived when a crushing blow knocked him unconscious before the orcs could execute him. They dragged him to their cave as a prisoner.",
    "spoiler": 0
   },
   {
    "title": "Escape from the Caves",
-   "body": "Battered, concussed, and held deep within enemy territory, Keeshan could not make the trek back down the mountain alone. Escorting him down to the safety of Lakeshire takes him past swarming orc warbands that occupy the ridgelines. Reaching Lakeshire alive brings sorely needed relief to Marshal Marris, who has been trying to piece together what happened to the missing regiment while bracing Lakeshire for further attacks.",
+   "body": "Battered and concussed, Keeshan is held deep in enemy territory and cannot make the trek down the mountain alone. You escort him toward Lakeshire, past the orc warbands occupying the ridgelines. Marshal Marris has been trying to learn what happened to the missing regiment while preparing Lakeshire for further attacks. Keeshan's safe return brings him sorely needed relief.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who is keeshan",
     "keeshan lore"
    ],
-   "answer": "Corporal Keeshan is an Alliance infantryman stationed in the Redridge Mountains. During a patrol in the rocky hills, his regiment was overwhelmed by Blackrock orcs, leaving him the sole known survivor before he was dragged away into captivity."
+   "answer": "Corporal Keeshan is an Alliance infantryman stationed in the Redridge Mountains. Blackrock orcs overwhelmed his regiment during a patrol in the rocky hills, then dragged him away. He is the only known survivor."
   },
   {
    "q": "Where was Corporal Keeshan captured?",
@@ -47,7 +47,7 @@
     "keeshan location",
     "keeshan cave"
    ],
-   "answer": "He is held captive deep inside an orc-infested cave in the northern hills of Redridge, surrounded by hostile Blackrock warriors."
+   "answer": "Corporal Keeshan is held deep inside an orc-infested cave in Redridge's northern hills, surrounded by hostile Blackrock warriors."
   },
   {
    "q": "What happened to the rest of Keeshan's unit?",
@@ -56,7 +56,7 @@
     "what happened to the regiment",
     "keeshan men"
    ],
-   "answer": "According to Keeshan, the Blackrock orcs ambushed and overpowered his regiment, killing nearly all of the men during the initial skirmish."
+   "answer": "Blackrock orcs ambushed and overpowered Keeshan's regiment. Nearly all the men died in the first skirmish."
   },
   {
    "q": "Who sends players to rescue Keeshan?",
@@ -65,7 +65,7 @@
     "quest giver",
     "where to pick up missing in action"
    ],
-   "answer": "The quest begins directly with Corporal Keeshan himself inside his prison cave when Alliance adventurers discover and liberate him."
+   "answer": "Corporal Keeshan sends you to free him from his prison cave, where Alliance adventurers discover him."
   },
   {
    "q": "Where does Keeshan go after being freed?",
@@ -74,7 +74,7 @@
     "where does keeshan run",
     "keeshan destination"
    ],
-   "answer": "He must be escorted down the mountainside to the town of Lakeshire, where he reports in to Marshal Marris near the town's bridge."
+   "answer": "After you free him, Keeshan needs an escort down the mountainside to Lakeshire. He reports to Marshal Marris near the town's bridge."
   },
   {
    "q": "Why are the Blackrock orcs in Redridge?",
@@ -83,17 +83,17 @@
     "why orcs in lakeshire",
     "blackrock invasion"
    ],
-   "answer": "The Blackrock clan pushes south from their strongholds in the Burning Steppes into Redridge, threatening the poorly reinforced settlement of Lakeshire and ambushing Kingdom patrols."
+   "answer": "The Blackrock clan pushes south from its strongholds in the Burning Steppes into Redridge. The clan threatens Lakeshire, which is poorly reinforced, and ambushes Kingdom patrols."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Lakeshire's garrison is strained to the breaking point, making every rescued soldier vital for the Kingdom's defenses against the Blackrock clan."
+   "text": "As an Alliance soldier, every rescued fighter matters to Lakeshire's strained garrison as it defends the Kingdom against the Blackrock clan."
   },
   {
    "target": "class:Warrior",
-   "text": "Breaking Keeshan out of an armed orc encampment requires holding the frontline against waves of relentless Blackrock attackers while shielding a concussed comrade."
+   "text": "As a warrior, you hold the frontline against waves of Blackrock attackers while protecting the concussed Keeshan during his escape from their armed camp."
   }
  ],
  "keywords": [
@@ -113,5 +113,6 @@
  ],
  "attribution": [
   "Missing In Action"
- ]
+ ],
+ "style": 1
 }

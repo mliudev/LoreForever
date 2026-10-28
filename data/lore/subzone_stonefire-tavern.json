@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Stonefire Tavern"
  },
- "summary": "The Stonefire Tavern is the primary inn serving travelers inside the mountain city of Ironforge. Situated in the bustling Commons district just north of the city gates, it provides a warm hearth, strong dwarven ale, and a resting place for adventurers arriving from across Khaz Modan.",
+ "summary": "Travelers gather at Stonefire Tavern in Ironforge’s Commons, just north of the city gates. The inn offers a hearth, dwarven ale, and a place to rest for those arriving from across Khaz Modan.",
  "sections": [
   {
    "title": "Heart of the Commons",
-   "body": "Located immediately north of the fortress gates in the Commons, the Stonefire Tavern serves as the premier public house in Ironforge. Run by Innkeeper Firebrew alongside his daughter Gwenna, the inn offers weary wayfarers hearty meals, local brews, and lodging beneath the mountain. Whether seeking respite from the harsh mountain snows of Dun Morogh or looking to trade tales and supplies before venturing deep into the city, travelers from all corners of the Alliance routinely gather around its roaring hearth.",
+   "body": "Stonefire Tavern welcomes travelers in Ironforge’s Commons, just north of the fortress gates. Innkeeper Firebrew runs the inn with his daughter Gwenna. Weary wayfarers can find meals, local brews, and lodging beneath the mountain. Travelers come in from across the Alliance to rest from Dun Morogh’s mountain snows, trade tales, or gather supplies before exploring the city. Its hearth draws them together at the heart of the Commons.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "ironforge inn location",
     "where is stonefire"
    ],
-   "answer": "The tavern sits in the Commons district of Ironforge, just a short walk north after passing through the main city gates."
+   "answer": "Stonefire Tavern sits in Ironforge’s Commons, a short walk north of the main city gates."
   },
   {
    "q": "Who operates the Stonefire Tavern?",
@@ -32,7 +32,7 @@
     "stonefire innkeeper",
     "firebrew inn"
    ],
-   "answer": "The tavern is managed by Innkeeper Firebrew with the assistance of his daughter, Gwenna Firebrew."
+   "answer": "Innkeeper Firebrew runs Stonefire Tavern with help from his daughter, Gwenna Firebrew."
   },
   {
    "q": "Can travelers bind their hearthstones here?",
@@ -41,7 +41,7 @@
     "ironforge home inn",
     "hearthstone stonefire"
    ],
-   "answer": "Yes. Innkeeper Firebrew welcomes Alliance travelers seeking to make the Stonefire Tavern their home base within Ironforge."
+   "answer": "Yes. Innkeeper Firebrew lets Alliance travelers make Stonefire Tavern their home base in Ironforge."
   },
   {
    "q": "What amenities are nearby?",
@@ -49,17 +49,17 @@
     "stonefire services",
     "mailbox near stonefire"
    ],
-   "answer": "Right outside the tavern entrance sits a city mailbox, and the surrounding Commons are filled with banks, merchants, and trade supplies."
+   "answer": "A city mailbox stands just outside the entrance. Banks, merchants, and trade supplies are close by in the Commons."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "For dwarves returning from expeditions across Khaz Modan, the Stonefire Tavern is the first place in the capital to grab a cold pint of Firebrew ale and catch up on local gossip."
+   "text": "As a dwarf returning from across Khaz Modan, you can stop at Stonefire Tavern for a cold pint of Firebrew ale and local gossip."
   },
   {
    "target": "faction:Alliance",
-   "text": "As the closest major inn to the Ironforge front gates, the Stonefire is often the central staging ground for Alliance travelers visiting the dwarven capital."
+   "text": "As an Alliance traveler, you’ll find Stonefire Tavern near Ironforge’s front gates, a gathering place when visiting the dwarven capital."
   }
  ],
  "keywords": [
@@ -78,5 +78,6 @@
  ],
  "attribution": [
   "Stonefire Tavern"
- ]
+ ],
+ "style": 1
 }

@@ -14,16 +14,16 @@
    "quest:453"
   ]
  },
- "summary": "The Book from Sven's Farm is a dirt-stained, untitled journal unearthed from the ruins of Sven Yorgen's ransacked homestead in Duskwood. Its fragmented entries reveal that an unknown onlooker witnessed the massacre of Sven's family, sparking a relentless hunt across the shadowed woods.",
+ "summary": "In Duskwood, Sven's ruined farm holds a dirt-stained journal with no title. Its fragments record an unknown onlooker's glimpse of the attack on Sven Yorgen's family.",
  "sections": [
   {
    "title": "A Clue in the Dirt",
-   "body": "Buried in a loose dirt mound amid the charred remains of Sven's farm in southern Duskwood, this unassuming, weather-damaged volume contains the frantic notes of an anonymous wanderer. The entries offer incomplete glimpses into the tragedy that struck the farmstead, confirming Sven Yorgen's darkest suspicion: someone lurked in the shadows while his family was slain. Because the narrative cuts off abruptly, the book raises more questions than answers, prompting investigators to carry it back to Darkshire in search of anyone who recognizes the handwriting or its enigmatic author.",
+   "body": "A loose mound of dirt among the charred remains of Sven's farm in southern Duskwood hides a weather-damaged journal. Its anonymous writer left frantic, incomplete notes about the tragedy at the homestead. The pages support Sven Yorgen's suspicion that someone watched from the shadows while his family was slain. The account breaks off without explaining who the writer was or what happened next. Sven's clue leads investigators to carry the book to Darkshire, hoping someone there will recognize the handwriting.",
    "spoiler": 0
   },
   {
    "title": "Unraveling the Shadowy Figure",
-   "body": "Taking the journal to the mystics and townsfolk of Darkshire reveals that its true owner was not a native of Darkshire, yet fled through the woods in sheer terror. Tracing the faded impressions on its pages eventually leads to Jitters, a cowardly vagrant hiding in the forest. The missing passages belonging to this volume chronicle how the Defias Brotherhood meddled with forbidden artifacts, inadvertently unleashing the ravenous worgen into Duskwood. Finding Jitters piecemeals the narrative back together, culminating in his completed journal.",
+   "body": "Darkshire's mystics and townsfolk help reveal that the journal's owner was a stranger who fled through the woods in terror. Faded impressions on the pages lead to Jitters, a vagrant hiding in the forest. Jitters's missing entries tell how the Defias Brotherhood meddled with forbidden artifacts and accidentally unleashed ravenous worgen into Duskwood. Finding him brings the fragments together in his completed journal.",
    "spoiler": 1
   }
  ],
@@ -35,7 +35,7 @@
     "dirt mound sven farm",
     "sven book location"
    ],
-   "answer": "The book is buried inside an unkempt dirt mound at the ruined farmstead of Sven Yorgen, located in southern Duskwood."
+   "answer": "The book is buried in a loose dirt mound at Sven Yorgen's ruined farm in southern Duskwood."
   },
   {
    "q": "Who wrote the book found at Sven's farm?",
@@ -44,7 +44,7 @@
     "who wrote the dirt-stained book",
     "who wrote the journal"
    ],
-   "answer": "The book bears no title or name. Its author is a terrified man who fled a horror elsewhere in Duskwood and hid in Sven's barn, witnessing the slaughter of Sven's family before losing his journal."
+   "answer": "The book gives no title or author's name. Its writer was a terrified man who fled a horror elsewhere in Duskwood, hid in Sven's barn, witnessed the slaughter of Sven's family, and lost his journal."
   },
   {
    "q": "Why does Sven Yorgen want this book?",
@@ -52,7 +52,7 @@
     "why does sven care",
     "sven yorgen book reaction"
    ],
-   "answer": "Sven saw an unknown figure skulking near his barn after the attack on his family. The book proves that onlooker was real, providing Sven with his only tangible lead toward finding out what truly occurred that night."
+   "answer": "Sven saw an unknown figure near his barn after his family was attacked. The book confirms the onlooker was real and gives Sven a tangible lead to learn what happened that night."
   },
   {
    "q": "What happens to the book after you investigate it?",
@@ -60,7 +60,7 @@
     "what replaces sven book",
     "do you keep sven book"
    ],
-   "answer": "After showing the partial volume to various residents in Darkshire and tracking down its owner, the incomplete book is eventually replaced by Jitters' Completed Journal, which tells the full story."
+   "answer": "After you show the partial journal to residents of Darkshire and find its owner, Jitters's Completed Journal takes its place and tells the full story."
   },
   {
    "q": "What larger secret is connected to the book's contents?",
@@ -69,13 +69,13 @@
     "worgen connection",
     "defias connection"
    ],
-   "answer": "The full journal explains what drove its author into hiding and why Sven's family was attacked, and its story reaches far beyond one farm to the darkness that has fallen over Duskwood."
+   "answer": "The complete journal tells what drove its author into hiding and why Sven's family was attacked. Its story reaches beyond one farm to the darkness over Duskwood."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "For Alliance investigators, this weathered book is the key to solving the eerie horrors paralyzing southern Duskwood and discovering how the feral worgen pack gained a foothold."
+   "text": "As an Alliance investigator, you can use this weathered book to pursue the horrors gripping southern Duskwood and learn how the feral worgen pack gained a foothold."
   }
  ],
  "keywords": [
@@ -102,5 +102,6 @@
   "Book from Sven's Farm",
   "Sven's Camp",
   "The Shadowy Figure"
- ]
+ ],
+ "style": 1
 }

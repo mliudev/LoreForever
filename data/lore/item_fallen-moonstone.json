@@ -10,16 +10,16 @@
    "quest:1035"
   ]
  },
- "summary": "A Fallen Moonstone is a luminous, magically charged stone gathered from the tranquil waters of Fallen Sky Lake in Ashenvale. Imbued with sacred lunar energy, these stones possess potent restorative properties capable of renewing vitality and curing severe frailty.",
+ "summary": "At Fallen Sky Lake in Ashenvale, night elves gather luminous, magically charged Fallen Moonstones from its tranquil waters. Sacred lunar energy gives the stones restorative power that can renew vitality and cure severe frailty.",
  "sections": [
   {
    "title": "Gifts of the Night Sky",
-   "body": "Fallen Moonstones were once gathered in abundance along the shores and shallows of Fallen Sky Lake, southeast of Astranaar. Highly treasured by the night elves for their restorative magic and lunar blessing, they were often sought out to aid in recovery when ordinary remedies proved insufficient. However, harvesting them became treacherous when corrupt Shadethicket bog beasts overran the lake. Their leader, a Shadethicket Oracle, hoarded every stone it could find on a small central island, cutting off the local Kaldorei from a vital source of healing.",
+   "body": "Southeast of Astranaar, Fallen Sky Lake once yielded many stones along its shores and shallows. Night elves prized their restorative magic and lunar blessing when ordinary remedies failed. Gathering them grew dangerous after corrupt Shadethicket bog beasts overran the lake. Their leader, a Shadethicket Oracle, hoarded every stone it found on a small island at the lake’s center, cutting the local Kaldorei off from a vital source of healing.",
    "spoiler": 0
   },
   {
    "title": "A Father's Salvation",
-   "body": "When young Relara Whitemoon fell gravely ill in Astranaar, ordinary treatments broke her fever but left her faded and clinging to life with only a few breaths remaining. Her father, Pelturas Whitemoon, realized that only the concentrated restorative power of a moonstone could renew her depleted vitality. Recovering a stone from the Shadethicket Oracle's hoard provided the spark needed to save the child's life.",
+   "body": "In Astranaar, young Relara Whitemoon fell gravely ill. Ordinary treatments broke her fever, but left her faded and near death, with only a few breaths remaining. Her father, Pelturas Whitemoon, knew only a moonstone’s concentrated restorative power could renew her depleted vitality. A stone recovered from the Shadethicket Oracle’s hoard gave the child the strength she needed to live.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "fallen moonstone lore",
     "moonstone ashenvale"
    ],
-   "answer": "It is a rare, glowing stone found at Fallen Sky Lake in Ashenvale. Saturated with lunar magic, it possesses potent restorative energy that the night elves use to replenish strength in the severely weakened."
+   "answer": "A Fallen Moonstone is a luminous, magically charged stone from Fallen Sky Lake in Ashenvale. Sacred lunar energy gives it restorative power, which night elves use to replenish strength in the severely weakened."
   },
   {
    "q": "Where are Fallen Moonstones found?",
@@ -39,7 +39,7 @@
     "where to find fallen moonstone",
     "fallen moonstone location"
    ],
-   "answer": "They originate at Fallen Sky Lake, located southeast of Astranaar in Ashenvale. While they once dotted the lake bed freely, the hostile Shadethicket bog beasts collected and hoarded them on an island in the lake's center."
+   "answer": "Fallen Moonstones come from Fallen Sky Lake, southeast of Astranaar in Ashenvale. Once scattered across the lake bed, they were gathered and hoarded on a central island by the hostile Shadethicket bog beasts."
   },
   {
    "q": "Who possesses the moonstones at Fallen Sky Lake?",
@@ -47,7 +47,7 @@
     "who has the fallen moonstone",
     "shadethicket oracle moonstone"
    ],
-   "answer": "The Shadethicket Oracle, the leader of the corrupted bog beasts residing at Fallen Sky Lake, hoarded the fallen moonstones on an island in the middle of the lake."
+   "answer": "The Shadethicket Oracle hoarded the Fallen Moonstones on an island in the center of Fallen Sky Lake. The Oracle leads the corrupted bog beasts there."
   },
   {
    "q": "Why does Pelturas Whitemoon need a Fallen Moonstone?",
@@ -56,17 +56,17 @@
     "why need moonstone",
     "relara cure"
    ],
-   "answer": "His young daughter, Relara, survived a debilitating fever but was left critically frail and fading fast. Pelturas recognized that natural rest would not suffice to keep her alive, requiring the innate magic of a moonstone to restore her vigor."
+   "answer": "Pelturas Whitemoon needs a Fallen Moonstone to save his young daughter, Relara. Though she survived a debilitating fever, she remained critically frail, and he knew a moonstone’s magic could restore her vigor."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "For the Kaldorei, relics tied to the radiance of Elune are sacred instruments of preservation, offering divine healing when mortal medicine fails."
+   "text": "For the Kaldorei, relics linked to Elune’s radiance are sacred instruments of preservation. They offer divine healing when mortal medicine fails."
   },
   {
    "target": "class:Priest",
-   "text": "Devotees of the Sisterhood of Elune recognize the lunar luminescence of these stones as a tangible manifestation of healing grace."
+   "text": "Devotees of the Sisterhood of Elune see the lunar glow of these stones as a sign of healing grace."
   }
  ],
  "keywords": [
@@ -92,5 +92,6 @@
  "attribution": [
   "Fallen Moonstone",
   "Fallen Sky Lake (quest)"
- ]
+ ],
+ "style": 1
 }

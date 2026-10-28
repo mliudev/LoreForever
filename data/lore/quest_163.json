@@ -17,16 +17,16 @@
   "wiki": "Raven Hill (quest)",
   "chain": []
  },
- "summary": "Reports of shifting shadows and flickering window light in the abandoned settlement of Raven Hill have set the Night Watch on edge. Dispatched by Elaine Carevin in Darkshire, travelers are sent west across the haunted woods to confront whatever sinister presence has taken shelter among the ruins.",
+ "summary": "In western Duskwood, shadows move through Raven Hill, and a light flickers in a ruined window. Elaine Carevin sends travelers from Darkshire to learn what has taken shelter there.",
  "sections": [
   {
    "title": "Eyes in the West",
-   "body": "To the rangers of the Night Watch, the far western edge of Duskwood has long been surrendered to the dead and the wilderness. Yet complete abandonment would be preferable to unexpected activity. Calor, a watcher patrolling the gloomy roads, noticed movement among the silent houses of Raven Hill two nights in a row, punctuated by the unsettling flicker of a lantern in a window. In a land plagued by ghouls, skeletons, and beasts, any unexplained signs of life demand immediate investigation.",
+   "body": "The Night Watch has long left Duskwood’s far west to the dead and wilderness. Yet signs of life there demand attention. Calor, a watcher on the gloomy roads, saw movement among Raven Hill’s silent houses two nights in a row. A lantern flickered in a window. With ghouls, skeletons, and beasts across the land, the Night Watch cannot ignore what stirs among the ruins.",
    "spoiler": 0
   },
   {
    "title": "A Rattled Hermit",
-   "body": "Those expecting to clash with an emergent demon or undead warlord inside Raven Hill find a far more pathetic reality. Huddled in terror amid the dilapidated ruins is Jitters, a thoroughly unhinged vagabond trembling at every rustle in the dark. While he frantically protests that there is no threat besides 'harmless Jitters,' his manic rambling suggests that he knows far more about the nightmare consuming Duskwood than he dares to say.",
+   "body": "Inside Raven Hill, Jitters trembles at every sound in the dark. The vagabond huddles among the ruined buildings and insists there is no danger beyond harmless Jitters. His frantic rambling hints that he knows more about the nightmare consuming Duskwood than he dares to say.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "quest giver raven hill",
     "elaine carevin quest"
    ],
-   "answer": "Elaine Carevin, a resident in Darkshire who assists the Night Watch, asks travelers who care about Duskwood's safety to check out the disturbing sightings reported from the west."
+   "answer": "Elaine Carevin, who lives in Darkshire and assists the Night Watch, asks travelers concerned for Duskwood’s safety to investigate disturbing reports from the west."
   },
   {
    "q": "What did Calor actually see in Raven Hill?",
@@ -47,7 +47,7 @@
     "calor sighting raven hill",
     "shadows in raven hill"
    ],
-   "answer": "Calor reported seeing moving shadows in the abandoned settlement two nights in a row, as well as a lantern or candle burning in one of the building windows the night before that."
+   "answer": "Calor saw shadows moving through Raven Hill’s abandoned settlement two nights in a row. The night before, he saw a lantern or candle burning in a building window."
   },
   {
    "q": "What monster is haunting the ruins?",
@@ -56,7 +56,7 @@
     "what is in raven hill",
     "is raven hill monster real"
    ],
-   "answer": "That is exactly what you are sent to discover. Calor has only glimpsed moving shadows and a light in a window; whatever lurks in the derelict buildings of Raven Hill must be found in person."
+   "answer": "You are sent to discover what haunts Raven Hill. Calor saw moving shadows and a light in a window, but only a visit to the ruined buildings can reveal what lurks there."
   },
   {
    "q": "Who is Jitters?",
@@ -65,7 +65,7 @@
     "who is jitters duskwood",
     "why is jitters hiding"
    ],
-   "answer": "Jitters is a jumpy, paranoid vagrant living on the edge of terror in western Duskwood. While he claims to be completely harmless, his extreme guilt and frantic ramblings hint that he is tangled up in the region's darker mysteries."
+   "answer": "Jitters is a paranoid vagrant living in western Duskwood, always close to terror. He claims to be harmless, but his guilt and frantic rambling hint at a connection to the region’s darker mysteries."
   },
   {
    "q": "Where is Raven Hill located?",
@@ -74,7 +74,7 @@
     "where to find raven hill",
     "raven hill map"
    ],
-   "answer": "Raven Hill lies in the far western section of Duskwood, situated just south of the massive, undead-infested cemetery that shares its name."
+   "answer": "Raven Hill lies in far western Duskwood, just south of the great undead-infested cemetery that shares its name."
   },
   {
    "q": "Why is the Night Watch so concerned about moving shadows?",
@@ -82,17 +82,17 @@
     "why care about raven hill",
     "night watch raven hill"
    ],
-   "answer": "Darkshire is stretched thin against skeletal uprisings, feral worgen, and lurking spiders. Any sign of organized movement or strange inhabitants in the abandoned west could signal an impending assault on the remaining living settlements."
+   "answer": "Darkshire’s defenders are stretched thin by skeletal uprisings, feral worgen, and lurking spiders. Strange inhabitants or organized movement in the abandoned west could threaten the remaining living settlements."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "The Night Watch of Duskwood receives little to no aid from Stormwind's garrison, forcing them to rely on traveling Alliance heroes to investigate ominous threats in the ruined corners of the territory."
+   "text": "The Night Watch receives little or no aid from Stormwind’s garrison. As an Alliance hero, you may be called on to investigate threats in Duskwood’s ruined corners."
   },
   {
    "target": "class:Paladin",
-   "text": "Trained to hunt the restless undead that plague the neighboring cemetery, a paladin investigating reports of sinister haunting may find the whimpering, flesh-and-blood Jitters to be an unexpected discovery."
+   "text": "As a paladin, you are trained to hunt the restless undead in the neighboring cemetery. The trembling, flesh-and-blood Jitters may be an unexpected discovery."
   }
  ],
  "keywords": [
@@ -112,5 +112,6 @@
  ],
  "attribution": [
   "Raven Hill (quest)"
- ]
+ ],
+ "style": 1
 }

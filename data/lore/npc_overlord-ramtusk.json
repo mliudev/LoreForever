@@ -8,16 +8,16 @@
   "wiki": "Overlord Ramtusk",
   "refs": 5
  },
- "summary": "Overlord Ramtusk is a massive quilboar warlord who leads the warriors deep within Razorfen Kraul. Crying out for victory and for Agamaggan, he fights at the head of his elite guards, and striking him down shatters the martial backbone of the Kraul's defenders.",
+ "summary": "Deep in Razorfen Kraul, Overlord Ramtusk leads the quilboar warriors into battle. He cries out for victory and for Agamaggan, and his fall breaks the Kraul defenders' martial strength.",
  "sections": [
   {
    "title": "Warlord of the Kraul",
-   "body": "Overlord Ramtusk holds command deep within the thorny maze of Razorfen Kraul, the quilboar stronghold in the southern Barrens. He goes into battle with a war cry to the boar demigod Agamaggan, and he rules the Kraul's fighters with unyielding authority.",
+   "body": "Overlord Ramtusk commands the quilboar stronghold deep in Razorfen Kraul, in the southern Barrens. He enters battle with a cry to Agamaggan, the boar demigod, and rules the Kraul's fighters with unyielding authority.",
    "spoiler": 0
   },
   {
    "title": "Commander of the Kraul",
-   "body": "Within the winding brambles of the Kraul, Ramtusk directs the quilboar warriors. As their warlord, he maintains tight discipline among the bristled fighters defending the tribe's sanctum. Flanked by elite marksmen, Ramtusk fights like a frontline berserker, bellowing rallying shouts and unleashing earth-shattering slams that can break opposing battle lines in seconds.",
+   "body": "Ramtusk directs the quilboar warriors through the Kraul's winding brambles. He keeps tight discipline among the bristled fighters who defend their tribe's sanctum. Elite marksmen flank him as he fights on the front line, bellowing rallying shouts and unleashing slams that can break opposing battle lines in seconds.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "ramtusk lore",
     "overlord ramtusk"
    ],
-   "answer": "Overlord Ramtusk is a quilboar warlord who commands warriors deep within Razorfen Kraul. He is a massive, imposing fighter who goes into battle crying out for victory and for Agamaggan."
+   "answer": "Overlord Ramtusk commands the quilboar warriors deep within Razorfen Kraul. Massive and imposing, he enters battle crying out for victory and for Agamaggan."
   },
   {
    "q": "Where can Overlord Ramtusk be found?",
@@ -38,7 +38,7 @@
     "where is ramtusk",
     "overlord ramtusk map"
    ],
-   "answer": "He commands his elite guards from within the thorny heart of Razorfen Kraul, located at the southern tip of the Barrens."
+   "answer": "Ramtusk commands his elite guards from the thorny heart of Razorfen Kraul, at the southern tip of the Barrens."
   },
   {
    "q": "What enemies has Ramtusk fought in the past?",
@@ -47,7 +47,7 @@
     "who gave ramtusk scars",
     "ramtusk battle history"
    ],
-   "answer": "Nothing records his past battles. In the Kraul he fights at the head of his elite guards, crying out for victory and for Agamaggan against any outsider who breaches the briars."
+   "answer": "Nothing records Ramtusk's past battles. In the Kraul, he leads his elite guards against any outsider who breaches the briars, crying out for victory and for Agamaggan."
   },
   {
    "q": "What tribe does Ramtusk belong to?",
@@ -56,7 +56,7 @@
     "ramtusk tribe",
     "what quilboar tribe is ramtusk"
    ],
-   "answer": "He is one of the Razorfen quilboar who hold the thorny stronghold of Razorfen Kraul in the southern Barrens and revere the boar demigod Agamaggan."
+   "answer": "Ramtusk belongs to the Razorfen quilboar, who hold Razorfen Kraul in the southern Barrens and revere the boar demigod Agamaggan."
   },
   {
    "q": "Why is Ramtusk targeted by adventurers?",
@@ -65,7 +65,7 @@
     "take them down quest",
     "ramtusk bounty"
    ],
-   "answer": "As the warlord leading the Kraul's warriors, Ramtusk's death deals a crippling blow to the quilboar military hierarchy, throwing their defensive line into complete disarray."
+   "answer": "Ramtusk leads the Kraul's warriors. His death cripples the quilboar military hierarchy and throws their defensive line into complete disarray."
   },
   {
    "q": "How does Ramtusk fight?",
@@ -74,21 +74,21 @@
     "ramtusk combat style",
     "ramtusk abilities"
    ],
-   "answer": "Ramtusk fights as a classic battle-hardened warrior, using demoralizing cries to empower his cohort, crushing shockwaves to stagger enemies, and coordinating alongside elite ranged bodyguards."
+   "answer": "Ramtusk fights as a battle-hardened warrior. He rallies his cohort with demoralizing cries, staggers enemies with crushing shockwaves, and fights alongside elite ranged bodyguards."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "For generations, the nomadic tribes of the Barrens fought bitter skirmishes against the quilboar of the Kraul; putting him down avenges fallen braves."
+   "text": "As a Tauren, you know the Barrens' nomadic tribes have fought bitter skirmishes against the Kraul quilboar for generations. Bringing Ramtusk down avenges fallen braves."
   },
   {
    "target": "race:Orc",
-   "text": "The quilboar have actively raided Horde settlements since the founding of Durotar and the Barrens outposts. Breaking Ramtusk's military command secures the southern Barrens."
+   "text": "As an Orc, you know the quilboar have raided Horde settlements since Durotar and the Barrens outposts were founded. Breaking Ramtusk's command secures the southern Barrens."
   },
   {
    "target": "class:Warrior",
-   "text": "Ramtusk represents pure, brutal martial veteranhood, relying on thunderous strikes and commanding battle shouts rather than shamans' geomancy or thorn magic."
+   "text": "As a Warrior, you see Ramtusk's brutal martial skill in his thunderous strikes and commanding battle shouts, rather than shamanic geomancy or thorn magic."
   }
  ],
  "keywords": [
@@ -107,5 +107,6 @@
  ],
  "attribution": [
   "Overlord Ramtusk"
- ]
+ ],
+ "style": 1
 }

@@ -8,11 +8,11 @@
   "wiki": "Innkeeper Pala",
   "refs": 1
  },
- "summary": "Innkeeper Pala manages the Cat and the Shaman, the bustling tavern situated on the lower tier of Thunder Bluff. She offers visiting adventurers a hearthstone binding, cold drinks, and a place to rest between journeys across Mulgore and beyond.",
+ "summary": "On Thunder Bluff’s lower rise, travelers find Innkeeper Pala tending the Cat and the Shaman. She offers a place to rest, cold drinks, and a hearthstone binding for journeys across Mulgore and beyond.",
  "sections": [
   {
    "title": "Hospitality on the Lower Rise",
-   "body": "Perched on the lower rise of Thunder Bluff's sweeping mesas, Innkeeper Pala tends the hearth at the Cat and the Shaman. The establishment serves as one of the primary gathering points for travelers stepping off the central lifts or arriving from the sprawling plains of Mulgore. Holding a steady vigil over her common room, Pala ensures that weary warriors, wandering druids, and visiting allies of the Horde find a dependable shelter, a warm drink, and a familiar home away from home.",
+   "body": "Innkeeper Pala tends the hearth at the Cat and the Shaman on Thunder Bluff’s lower rise. Travelers arrive from the central lifts or the plains of Mulgore. In the common room, weary warriors, wandering druids, and the Horde’s visiting allies can find shelter, a warm drink, and a familiar place to rest.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "where is pala",
     "innkeeper pala map"
    ],
-   "answer": "Pala is stationed inside the Cat and the Shaman tavern, which sits on the lower rise of Thunder Bluff, close to the city's main lifts."
+   "answer": "Find Pala inside the Cat and the Shaman on Thunder Bluff’s lower rise, near the city’s main lifts."
   },
   {
    "q": "What services does she provide to travelers?",
@@ -33,7 +33,7 @@
     "can i bind hearthstone thunder bluff",
     "what does pala sell"
    ],
-   "answer": "Like other innkeepers across Kalimdor, Pala can bind your hearthstone to the Cat and the Shaman so you can return instantly. She also sells simple food and drinks to replenish health and mana."
+   "answer": "Pala can bind your hearthstone to the Cat and the Shaman, letting you return there instantly. She also sells simple food and drinks to restore health and mana."
   },
   {
    "q": "What is the name of her tavern?",
@@ -42,17 +42,17 @@
     "thunder bluff lower inn name",
     "pala inn name"
    ],
-   "answer": "Her tavern is called the Cat and the Shaman, an establishment serving the constant stream of Horde travelers moving through the city's lower tier."
+   "answer": "Pala’s tavern is called the Cat and the Shaman. Horde travelers passing through the city’s lower tier gather there."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "For tauren returning home from the frontiers of Kalimdor, Pala provides a familiar, welcoming face beneath the towering totems of the central mesas."
+   "text": "As a tauren returning from Kalimdor’s frontiers, you can find a familiar, welcoming face beneath the towering totems of Thunder Bluff’s central mesas."
   },
   {
    "target": "faction:Horde",
-   "text": "Orcs, trolls, and Forsaken visiting Mulgore find Pala's inn to be a comfortable base of operations right by the lifts."
+   "text": "As an orc, troll, or Forsaken visiting Mulgore, you can rest at Pala’s inn beside the lifts."
   }
  ],
  "keywords": [
@@ -74,5 +74,6 @@
  ],
  "attribution": [
   "Innkeeper Pala"
- ]
+ ],
+ "style": 1
 }

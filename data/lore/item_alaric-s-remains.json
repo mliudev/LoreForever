@@ -10,16 +10,16 @@
    "quest:461"
   ]
  },
- "summary": "Alaric's Remains are the recovered bones of an individual once interred in a shallow grave along Silverpine Forest. His lingering spirit bids travelers to carry what is left of him past the Rot Hide gnolls into the towers of Fenris Keep.",
+ "summary": "Alaric's bones lie in a shallow grave in Silverpine Forest, far from Fenris Isle. His spirit asks travelers to carry them past the Rot Hide gnolls and directly into Fenris Keep.",
  "sections": [
   {
    "title": "A Final Request",
-   "body": "Unearthed from an unremarkable shallow grave in Silverpine Forest, the remains belong to Alaric, a former resident of Fenris Isle. Rather than linger in an exposed pit, his spirit yearns for the place he cherished in life. He asks whoever unearths his bones to leave his ill-fitting boots behind and bring his skeletal remains directly into the keep, seeking quiet sanctuary far away from the scavengers prowling the mainland.",
+   "body": "Alaric's bones were unearthed from a shallow grave in Silverpine Forest. He was once a resident of Fenris Isle, and his spirit longs for the place he cherished in life. He asks whoever finds his bones to leave his ill-fitting boots behind and carry his remains directly into Fenris Keep, far from the scavengers prowling the mainland.",
    "spoiler": 0
   },
   {
    "title": "The Alcove in the Keep",
-   "body": "Alaric guides the carrier to the southwestern tower of Fenris Keep, past the infested lower grounds into a quiet chamber. Tucked behind a dusty shelf lies a concealed niche containing an artifact once valued by Thule Ravenclaw and his fellow mages. In exchange for granting him an undisturbed resting place sealed away from the ravenous Rot Hide gnolls, Alaric yields the hidden trinkets to those who carried his bones home.",
+   "body": "Alaric guides the carrier to the southwestern tower of Fenris Keep, past the infested lower grounds and into a quiet chamber. Behind a dusty shelf lies a hidden niche with an artifact once valued by Thule Ravenclaw and his fellow mages. In return for a quiet resting place beyond the Rot Hide gnolls, Alaric gives the hidden trinkets to those who carry his bones home.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "alaric lore",
     "who was this guy"
    ],
-   "answer": "Alaric was an inhabitant of Fenris Keep before its ruin, spending what he considered the finest days of his life within its halls. Following his death, he was buried hastily in a shallow grave in Silverpine Forest until his spirit directed a passerby to carry his bones back home."
+   "answer": "Alaric once lived in Fenris Keep, where he spent what he considered the finest days of his life. After his death, he was buried in a shallow grave in Silverpine Forest, and his spirit now asks a passerby to carry his bones home."
   },
   {
    "q": "Where are Alaric's remains supposed to go?",
@@ -40,7 +40,7 @@
     "dusty shelf location",
     "where is the niche"
    ],
-   "answer": "His remains are meant to be placed into a concealed alcove behind a dusty shelf in the southwestern tower of Fenris Keep, situated on Fenris Isle."
+   "answer": "Alaric's remains belong in a concealed alcove behind a dusty shelf in the southwestern tower of Fenris Keep on Fenris Isle."
   },
   {
    "q": "Why does Alaric want his remains sealed behind a shelf?",
@@ -49,7 +49,7 @@
     "why the niche",
     "why hide the body"
    ],
-   "answer": "Fenris Keep brought him great comfort in life, and he wishes to rest within its stone walls rather than in a dirt ditch. Sealing the hidden alcove tightly also protects his skeleton from being devoured or desecrated by the Rot Hide gnolls roaming the keep."
+   "answer": "Fenris Keep brought Alaric comfort in life, and he wants to rest within its stone walls instead of in a dirt ditch. He also wants the alcove sealed to protect his bones from the Rot Hide gnolls roaming the keep."
   },
   {
    "q": "Why did he say to leave his boots behind?",
@@ -58,7 +58,7 @@
     "alaric's boots",
     "boots never fit"
    ],
-   "answer": "When directing the recovery of his bones from the shallow grave, Alaric casually noted that his boots never fit him in life anyway, leaving them behind as useless clutter."
+   "answer": "Alaric said his boots never fit him in life, so he asked that they be left behind when his bones were carried from the shallow grave."
   },
   {
    "q": "What is inside the hidden alcove besides a resting place?",
@@ -67,17 +67,17 @@
     "what is behind the shelf",
     "thule's item"
    ],
-   "answer": "The secret niche holds an item once treasured by Thule Ravenclaw and his former associates, alongside magical belongings Alaric willingly bequeaths to anyone willing to bear his remains to rest."
+   "answer": "The hidden niche holds an item once treasured by Thule Ravenclaw and his former associates, along with magical belongings Alaric gives to anyone who carries his remains to rest."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "Forsaken travelers often empathize with spirits whose mortal rest was interrupted, though Alaric seeks peaceful seclusion rather than service under the Dark Lady."
+   "text": "As a Forsaken traveler, you may understand a spirit whose mortal rest was disturbed. Alaric seeks peaceful seclusion, not service under the Dark Lady."
   },
   {
    "target": "class:Mage",
-   "text": "The hidden cache Alaric reveals contains relics connected to Thule Ravenclaw and the Dalaran-trained arcanists who once studied and schemed inside Fenris Keep."
+   "text": "As a mage, you may recognize the cache Alaric reveals as relics connected to Thule Ravenclaw and the Dalaran-trained arcanists who once studied and schemed inside Fenris Keep."
   }
  ],
  "keywords": [
@@ -100,5 +100,6 @@
  "attribution": [
   "Alaric's Remains",
   "The Hidden Niche"
- ]
+ ],
+ "style": 1
 }

@@ -10,11 +10,11 @@
    "quest:249"
   ]
  },
- "summary": "The Pendant of Shadow is a dark talisman worn by the renegade warlock Morganth atop the Tower of Ilgalar in the Redridge Mountains. Brought to the mage Theocritus at the Tower of Azora, it serves as undeniable proof that the rogue spellcaster has been eliminated before his sinister ambitions could bear fruit.",
+ "summary": "At the Tower of Ilgalar, Morganth carries the Pendant of Shadow as he pursues the Scythe of Elune. Theocritus wants the talisman brought to the Tower of Azora as proof Morganth has been slain.",
  "sections": [
   {
    "title": "Token of a Dark Warlock",
-   "body": "Held by the rogue warlock Morganth within his perch at the Tower of Ilgalar, the Pendant of Shadow is steeped in dark sorcery. Morganth sought to unravel the mysteries of the Scythe of Elune, an ancient relic of immense and volatile power. Fearing the havoc the warlock could unleash upon the Redridge Mountains and the kingdom of Stormwind, the mage Theocritus tasked adventurers with infiltrating Ilgalar, ending Morganth's plotting, and wresting the talisman from his grasp as proof of his demise.",
+   "body": "Morganth, a rogue warlock, holds the Pendant of Shadow at the Tower of Ilgalar. He sought the mysteries of the Scythe of Elune, an ancient relic of immense and volatile power. Theocritus feared the havoc Morganth might unleash upon the Redridge Mountains and the kingdom of Stormwind. The mage sent adventurers to infiltrate Ilgalar, end Morganth's plotting, and take the talisman as proof of his demise.",
    "spoiler": 1
   }
  ],
@@ -26,7 +26,7 @@
     "where is pendant of shadow",
     "how to get pendant of shadow"
    ],
-   "answer": "The pendant is carried by the warlock Morganth, who resides at the very top of the Tower of Ilgalar in northeastern Redridge Mountains."
+   "answer": "Morganth carries the pendant at the top of the Tower of Ilgalar in northeastern Redridge Mountains."
   },
   {
    "q": "Who wants the Pendant of Shadow?",
@@ -35,7 +35,7 @@
     "turn in pendant of shadow",
     "theocritus pendant"
    ],
-   "answer": "The talisman must be brought to the wizard Theocritus, who resides in the Tower of Azora located in eastern Elwynn Forest."
+   "answer": "Theocritus wants the talisman brought to him at the Tower of Azora in eastern Elwynn Forest."
   },
   {
    "q": "Why does Theocritus need this pendant?",
@@ -43,7 +43,7 @@
     "why theocritus wants it",
     "purpose of pendant of shadow"
    ],
-   "answer": "Theocritus requires the pendant as tangible proof that Morganth has been slain and that his pursuit of the dangerous Scythe of Elune has been brought to an end."
+   "answer": "Theocritus needs the pendant as proof Morganth has been slain and his pursuit of the dangerous Scythe of Elune has ended."
   },
   {
    "q": "What threat did Morganth pose with the pendant?",
@@ -51,17 +51,17 @@
     "what was morganth doing",
     "morganth lore"
    ],
-   "answer": "Morganth was hunting for the elusive Scythe of Elune. Theocritus feared that if the dark warlock managed to secure the artifact, he would unleash catastrophic power across Redridge and the surrounding kingdom."
+   "answer": "Morganth sought the Scythe of Elune. Theocritus feared the warlock would unleash catastrophic power across Redridge and the surrounding kingdom if he secured the artifact."
   }
  ],
  "angles": [
   {
    "target": "class:Mage",
-   "text": "Recovering the dark talisman at the behest of Theocritus highlights the ongoing responsibility mages bear to police reckless rogue spellcasters threatening the realm."
+   "text": "As a mage, recovering the talisman for Theocritus shows the responsibility mages bear to stop reckless rogue spellcasters who threaten the realm."
   },
   {
    "target": "class:Warlock",
-   "text": "Morganth represents the peril of drawing too much scrutiny from the Tower of Azora while pursuing volatile, forbidden artifacts like the Scythe of Elune."
+   "text": "As a warlock, Morganth shows the peril of drawing the Tower of Azora's scrutiny while pursuing volatile, forbidden artifacts like the Scythe of Elune."
   }
  ],
  "keywords": [
@@ -86,5 +86,6 @@
  "attribution": [
   "Pendant of Shadow",
   "Morganth (quest)"
- ]
+ ],
+ "style": 1
 }

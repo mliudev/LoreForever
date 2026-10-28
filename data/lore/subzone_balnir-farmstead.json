@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Balnir Farmstead"
  },
- "summary": "The Balnir Farmstead is a derelict estate in eastern Tirisfal Glades, northeast of the Ruins of Lordaeron. Once a working farm of the Balnir family, the lands now lie ruined and infested by wandering Scourge that slip past the Bulwark.",
+ "summary": "In eastern Tirisfal, Balnir Farmstead lies ruined beyond the Bulwark. Once worked by the Balnir family, the estate now draws Scourge that slip past the defenses.",
  "sections": [
   {
    "title": "A Farm Before the Plague",
-   "body": "For generations, the Balnir family worked their homestead in the rolling hills of eastern Tirisfal, and their garden of snapdragons still blooms among the ruins. When the Scourge swept through Lordaeron during the Third War, the farm was overrun and its people lost, leaving the buildings to rot.",
+   "body": "Snapdragons still bloom in the garden where the Balnir family worked their homestead for generations. When the Scourge swept through Lordaeron during the Third War, the farm was overrun and its people were lost. The buildings now rot among the hills of eastern Tirisfal.",
    "spoiler": 0
   },
   {
    "title": "Desolation and Scourge Infiltration",
-   "body": "In the wake of the Third War, the ruins serve as a foothold for mindless Scourge slipping past the Bulwark. Forsaken deathguards watch the farm warily, while Undercity magi harvest surviving snapdragons from the garden to test how deeply plague corruption has crept into the soil.",
+   "body": "Mindless Scourge slip past the Bulwark and gather among the farmstead's ruins. Forsaken deathguards watch the farm warily, while Undercity magi gather surviving snapdragons from its garden. They study the flowers to learn how deeply plague corruption has reached into the soil.",
    "spoiler": 0
   }
  ],
@@ -27,7 +27,7 @@
     "balnir farm importance",
     "why go to balnir farmstead"
    ],
-   "answer": "It sits on the eastern approaches to Tirisfal, just behind the Bulwark. Scourge that slip past the defenders gather here, and its garden of snapdragons lets the Forsaken mages measure how far the plague has spread into Tirisfal."
+   "answer": "Balnir Farmstead lies just behind the Bulwark on Tirisfal's eastern approaches. Scourge that slip past the defenders gather there, and Forsaken mages study the garden's snapdragons to measure how far the plague has spread into Tirisfal."
   },
   {
    "q": "Who lived at the farmstead before the plague?",
@@ -35,7 +35,7 @@
     "who owned balnir farm",
     "balnir family"
    ],
-   "answer": "The farm belonged to the Balnir family, who gave it their name. They were lost when the Scourge swept through Tirisfal during the Third War, and today only the undead walk its fields."
+   "answer": "The Balnir family lived and worked at the farm, which bears their name. They were lost when the Scourge swept through Tirisfal during the Third War, and only the undead walk its fields now."
   },
   {
    "q": "Why are the Forsaken monitoring the farm now?",
@@ -44,17 +44,17 @@
     "rear guard patrol lore",
     "balnir snapdragons"
    ],
-   "answer": "Mindless Scourge often slip past the Bulwark from the Plaguelands and gather at the farmstead, threatening the eastern approaches to Tirisfal. Additionally, Undercity scholars study the resilient snapdragons still growing in the gardens to measure the spread of plague contamination."
+   "answer": "Mindless Scourge slip past the Bulwark from the Plaguelands and gather at the farmstead, threatening Tirisfal's eastern approaches. Undercity scholars also study the resilient snapdragons still growing in the gardens to measure how far plague contamination has spread."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "For the Forsaken, the farmstead is a bitter reminder of the Lordaeron they lost, as well as a nagging security breach where Scourge from the Plaguelands slip behind the Bulwark."
+   "text": "For the Forsaken, Balnir Farmstead recalls the Lordaeron they lost. Scourge from the Plaguelands still slip behind the Bulwark, leaving a breach in their defenses."
   },
   {
    "target": "class:Mage",
-   "text": "Forsaken magi are dispatched to these blighted grounds to gather surviving Balnir snapdragons, studying them to detect the lingering magical taint of the Scourge."
+   "text": "Forsaken magi gather surviving Balnir snapdragons from these blighted grounds and study them for the Scourge's lingering magical taint."
   }
  ],
  "keywords": [
@@ -74,5 +74,6 @@
  ],
  "attribution": [
   "Balnir Farmstead"
- ]
+ ],
+ "style": 1
 }

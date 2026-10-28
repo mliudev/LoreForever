@@ -10,16 +10,16 @@
    "quest:377"
   ]
  },
- "summary": "The Hand of Dextren Ward is a severed trophy taken from a condemned grave robber imprisoned within the Stormwind Stockade. Delivered to Darkshire, it serves as proof that frontier justice has finally been carried out against a man who desecrated the town's dead.",
+ "summary": "Darkshire demands proof that Dextren Ward has been executed in the Stormwind Stockade. The severed hand is bound for town, where grieving families await justice for their dead.",
  "sections": [
   {
    "title": "A Defiler's Toll",
-   "body": "Dextren Ward earned a death sentence from Lord Ebonlocke after he was caught digging up bodies in the Duskwood cemeteries and selling them to the necromancer Morbent Fel. Before the town could execute him, Stormwind intervened, hauling the criminal away to the Stockade. For the grieving families of Darkshire, the Hand of Dextren Ward is physical proof that the defiler has met the execution he deserved, bypassing the House of Nobles' unwanted leniency.",
+   "body": "Dextren Ward was sentenced to death by Lord Ebonlocke after he was caught digging up bodies in Duskwood cemeteries and selling them to the necromancer Morbent Fel. Stormwind intervened before the town could execute him and took him to the Stockade. For Darkshire's grieving families, Ward's hand proves the defiler has been executed, despite the House of Nobles' unwanted leniency.",
    "spoiler": 0
   },
   {
    "title": "A Message to the Nobles",
-   "body": "Beyond satisfying local vengeance, demanding Ward's severed hand is an act of defiance by Councilman Millstipe against the crown. Duskwood feels abandoned by Stormwind's elite, who withhold military aid yet assert their own authority when it suits them. Executing a prisoner inside the capital's deepest dungeon and claiming his hand is a blunt reminder that the Darkshire Council will enforce its own laws when the House of Nobles fails them.",
+   "body": "Councilman Millstipe's demand for Ward's severed hand also defies the crown. Duskwood feels abandoned by Stormwind's elite, who withhold military aid while asserting their authority when it suits them. Executing a prisoner in the capital's deepest dungeon and claiming his hand tells the House of Nobles that the Darkshire Council will enforce its own laws when the nobles fail them.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "who is dextren ward",
     "ward crime"
    ],
-   "answer": "Dextren Ward was a criminal caught unearthing corpses from Darkshire's graveyards and selling them to the foul necromancer Morbent Fel. Though sentenced to beheading in Duskwood, Stormwind authorities moved him to the Stockade instead of carrying out the execution."
+   "answer": "Dextren Ward was caught unearthing corpses from Darkshire's graveyards and selling them to the necromancer Morbent Fel. Duskwood sentenced him to beheading, but Stormwind authorities took him to the Stockade instead of carrying out the execution."
   },
   {
    "q": "Why does Darkshire want his hand?",
@@ -40,7 +40,7 @@
     "why cut off ward hand",
     "millstipe proof"
    ],
-   "answer": "Councilman Millstipe demands Ward's severed hand as indisputable proof of his assassination. It brings closure to the families whose ancestors' graves were plundered and serves as a defiant message to the corrupt House of Nobles that Darkshire's justice cannot be overridden."
+   "answer": "Councilman Millstipe demands Ward's severed hand as proof of his assassination. It brings closure to the families whose ancestors' graves were plundered and tells the House of Nobles that Darkshire's justice cannot be overridden."
   },
   {
    "q": "Where is the Hand of Dextren Ward found?",
@@ -49,7 +49,7 @@
     "stockade ward location",
     "dextren ward location"
    ],
-   "answer": "The hand is claimed directly from Dextren Ward himself. He is locked away in the deeper chambers on the left side of the Stormwind Stockade, where he fights as a warrior, with a frightening shout that sends foes fleeing."
+   "answer": "The hand is claimed directly from Dextren Ward in the deeper chambers on the left side of the Stormwind Stockade. He fights as a warrior and has a frightening shout that sends foes fleeing."
   },
   {
    "q": "Why did Stormwind imprison Ward instead of executing him?",
@@ -58,17 +58,17 @@
     "stormwind house of nobles ward",
     "ward imprisoned"
    ],
-   "answer": "The House of Nobles claimed jurisdiction over Ward and chose to imprison him in the Stockade rather than allow Darkshire to carry out his death sentence. Darkshire leadership views this move as corrupt bureaucratic interference that disrespects the frontier town's plight."
+   "answer": "The House of Nobles claimed jurisdiction over Ward and imprisoned him in the Stockade instead of allowing Darkshire to carry out its death sentence. Darkshire's leaders see this as corrupt interference that disregards the frontier town's plight."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "The friction over Ward's imprisonment exposes the deep rift between Stormwind's distant House of Nobles and the abandoned frontier settlers of Duskwood."
+   "text": "For the Alliance, Ward's imprisonment exposes the deep rift between Stormwind's distant House of Nobles and Duskwood's abandoned frontier settlers."
   },
   {
    "target": "class:Mage",
-   "text": "Ward was no spellcaster, but the bodies he dug up fed the necromancer Morbent Fel's dark arts, making his death a blow against those who traffic with the dead."
+   "text": "As a mage, you know Ward was no spellcaster. The bodies he dug up fed Morbent Fel's dark arts, so Ward's death strikes at those who traffic with the dead."
   }
  ],
  "keywords": [
@@ -95,5 +95,6 @@
  "attribution": [
   "Hand of Dextren Ward",
   "Crime and Punishment (Classic)"
- ]
+ ],
+ "style": 1
 }

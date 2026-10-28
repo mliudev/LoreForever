@@ -10,16 +10,16 @@
    "quest:20"
   ]
  },
- "summary": "Battleworn Axes are crude, notch-scarred weapons carried by the Blackrock orcs invading the Redridge Mountains. Marshal Marris accepts these recovered blades in Lakeshire as physical proof of dead invaders threatening the local populace.",
+ "summary": "In Redridge, Battleworn Axe blades mark the Blackrock orcs invading the mountains. Marshal Marris accepts the recovered weapons in Lakeshire as proof of the threat to its people.",
  "sections": [
   {
    "title": "Trophy of an Invader",
-   "body": "These heavy, nicked axes serve as standard gear for the Blackrock reavers pushing south from the Burning Steppes into Redridge. For Marshal Marris and the beleaguered town watch of Lakeshire, collecting them serves two purposes: ensuring another marauding orc has fallen, and gathering physical evidence of how heavily armed the encroaching warband truly is.",
+   "body": "Blackrock reavers carry these heavy, nicked axes as they push south from the Burning Steppes into Redridge. Marshal Marris and Lakeshire's hard-pressed town watch collect the blades to confirm another marauding orc has fallen and to show how well armed the advancing warband is.",
    "spoiler": 0
   },
   {
    "title": "The Threat in the Hills",
-   "body": "Blackrock invaders have fortified Stonewatch Keep and established footholds in the southeastern pockets of Redridge, effectively trapping townspeople within Lakeshire. Stripping the raiders of their battleworn weapons directly diminishes the arms available to the warband while clearing the roads for Alliance travel.",
+   "body": "Blackrock invaders have fortified Stonewatch Keep and taken footholds in southeastern Redridge, trapping townspeople in Lakeshire. Taking their battleworn weapons reduces the arms available to the warband and clears roads for Alliance travel.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "what are these axes",
     "blackrock axe"
    ],
-   "answer": "A Battleworn Axe is the rugged, heavily used melee weapon carried by Blackrock orcs in the Redridge Mountains. They are gathered by adventurers as proof of slain invaders."
+   "answer": "Blackrock orcs in the Redridge Mountains carry Battleworn Axes, rugged weapons worn by hard use. Recovered blades prove that invaders have been slain."
   },
   {
    "q": "Who wants these axes in Lakeshire?",
@@ -40,7 +40,7 @@
     "battleworn axe quest giver",
     "marshal marris axes"
    ],
-   "answer": "Marshal Marris, commander of the Lakeshire town guard, asks for them to verify that the Blackrock threat is actively being pushed back from town lands."
+   "answer": "Marshal Marris, who commands Lakeshire's town guard, wants the axes as proof that the Blackrock threat is being pushed back from town lands."
   },
   {
    "q": "Where do these axes come from?",
@@ -49,7 +49,7 @@
     "battleworn axe farm",
     "which orcs have them"
    ],
-   "answer": "They are recovered from Blackrock orcs throughout Redridge, particularly around Stonewatch Keep to the north and in the pockets of orc encampments to the southeast."
+   "answer": "Blackrock orcs throughout Redridge carry these axes, especially near Stonewatch Keep to the north and in orc encampments to the southeast."
   },
   {
    "q": "Why are the orcs in Redridge in the first place?",
@@ -58,17 +58,17 @@
     "stonewatch invasion",
     "blackrock menace reason"
    ],
-   "answer": "The Blackrock clan marched south through the mountain passes from the Burning Steppes, capturing Stonewatch Keep and marauding across northern and eastern Redridge to pin down Lakeshire."
+   "answer": "The Blackrock clan marched south through the mountain passes from the Burning Steppes, captured Stonewatch Keep, and marauded across northern and eastern Redridge to pin down Lakeshire."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Every axe brought back to Lakeshire marks one less invader endangering the exposed citizens of Redridge while Stormwind's core forces are elsewhere."
+   "text": "For the Alliance, each axe brought to Lakeshire marks one fewer invader threatening Redridge's exposed citizens while Stormwind's core forces are elsewhere."
   },
   {
    "target": "profession:Blacksmithing",
-   "text": "Despite their jagged edges and chipped blades, these crude iron weapons demonstrate the resilient, heavy forging traditions typical of Blackrock armaments."
+   "text": "As a blacksmith, you can see the resilient, heavy forging typical of Blackrock weapons in these crude iron blades, despite their jagged edges and chips."
   }
  ],
  "keywords": [
@@ -93,5 +93,6 @@
  "attribution": [
   "Battleworn Axe",
   "Blackrock Menace"
- ]
+ ],
+ "style": 1
 }

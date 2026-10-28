@@ -8,16 +8,16 @@
   "wiki": "Zangen Stonehoof",
   "refs": 2
  },
- "summary": "Zangen Stonehoof is a tauren keeper situated at the High Rise bonfire in the heart of Thunder Bluff. Dutiful and revered among his peers, he faithfully tends to the central flames each evening while coordinating efforts to aid his distant kin across Kalimdor.",
+ "summary": "At the High Rise bonfire, Zangen Stonehoof tends the flames and aids tauren kin across Kalimdor. Each evening, he keeps the central fire burning in Thunder Bluff.",
  "sections": [
   {
    "title": "Keeper of the High Rise Flame",
-   "body": "Perched on the High Rise of Thunder Bluff, Zangen Stonehoof maintains the central communal bonfire that overlooks the city's highest bluffs. As twilight falls over Mulgore, Zangen kindles the fire, providing warmth and an enduring beacon for the tribes assembled beneath High Chieftain Cairne Bloodhoof. Beyond keeping the flames alight, he maintains ties with allies beyond Mulgore's mesa, acting as a liaison for spiritual and ritual endeavors taking place across the continent.",
+   "body": "Zangen Stonehoof tends the communal bonfire atop Thunder Bluff's High Rise. Each evening, as twilight falls over Mulgore, he lights the fire above the city's highest bluffs. The flames give warmth to the tribes gathered beneath High Chieftain Cairne Bloodhoof. Zangen also keeps ties with allies beyond Mulgore's mesa, helping with spiritual and ritual work across the continent.",
    "spoiler": 0
   },
   {
    "title": "Aiding the Cliffrunners",
-   "body": "Zangen acts as an intermediary for Rau Cliffrunner, an associate stationed south in Thousand Needles. When Rau required the mystical waters of a night elf moonwell for sacred rituals, Zangen enlisted dependable Horde adventurers to brave the contested forests of Ashenvale. By securing the filled phial from the ancient groves and dispatching it south to Freewind Post, Zangen plays a quiet but pivotal part in preserving ancient rites and assisting scattered tauren posts.",
+   "body": "Zangen helps Rau Cliffrunner, who is stationed south in Thousand Needles. When Rau needed water from a night elf moonwell for sacred rituals, Zangen enlisted dependable Horde adventurers to cross the contested forests of Ashenvale. They secured a filled phial from the ancient groves and sent it south to Freewind Post. Zangen helps preserve ancient rites and support scattered tauren posts.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "zangen stonehoof",
     "what does zangen do"
    ],
-   "answer": "Zangen Stonehoof is a tauren resident of Thunder Bluff found beside the large central bonfire on the High Rise. He tends the fire each evening and assists distant kin by organizing aid and courier tasks across Kalimdor."
+   "answer": "Zangen Stonehoof tends the central bonfire on Thunder Bluff's High Rise. Each evening, he keeps it burning and organizes aid and deliveries for distant kin across Kalimdor."
   },
   {
    "q": "What does Zangen do with the bonfire?",
@@ -38,7 +38,7 @@
     "zangen bonfire",
     "lighting the fire"
    ],
-   "answer": "Every evening around nightfall, Zangen lights the great bonfire situated in front of him on the High Rise, providing light and warmth to the upper terrace of the bluff."
+   "answer": "Each evening around nightfall, Zangen lights the great bonfire beside him on the High Rise. Its flames give light and warmth to the upper terrace."
   },
   {
    "q": "Why does Zangen need moonwell water from Ashenvale?",
@@ -47,7 +47,7 @@
     "the sacred flame",
     "why moonwell water"
    ],
-   "answer": "Zangen acts on behalf of Rau Cliffrunner, who is stationed at Freewind Post in Thousand Needles. Rau requires water from an Ashenvale moonwell for a sacred ritual, and Zangen tasks capable travelers with obtaining it and carrying it southward."
+   "answer": "Zangen acts for Rau Cliffrunner, stationed at Freewind Post in Thousand Needles. Rau needs water from an Ashenvale moonwell for a sacred ritual, so Zangen sends travelers to retrieve it and carry it south."
   },
   {
    "q": "Where can Zangen Stonehoof be found?",
@@ -56,17 +56,17 @@
     "find zangen stonehoof",
     "where is zangen"
    ],
-   "answer": "He stands in the center of the High Rise in Thunder Bluff, right next to the communal fire pit on the upper mesa."
+   "answer": "Zangen Stonehoof stands beside the communal fire pit at the center of Thunder Bluff's High Rise, on the upper mesa."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "Zangen embodies the interconnectedness of the tribes, linking Mulgore's civic center directly to distant kin like the Cliffrunners out in Thousand Needles."
+   "text": "As a tauren, Zangen links Mulgore's civic center with distant kin, including the Cliffrunners in Thousand Needles."
   },
   {
    "target": "faction:Horde",
-   "text": "For travelers visiting the great mesa of Thunder Bluff, Zangen offers a point of contact for venturing outward into contested regions like Ashenvale."
+   "text": "As a Horde traveler in Thunder Bluff, you can turn to Zangen for help reaching contested regions such as Ashenvale."
   }
  ],
  "keywords": [
@@ -90,5 +90,6 @@
  ],
  "attribution": [
   "Zangen Stonehoof"
- ]
+ ],
+ "style": 1
 }

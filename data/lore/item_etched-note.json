@@ -10,16 +10,16 @@
    "quest:3092"
   ]
  },
- "summary": "The Etched Note is a formal summons delivered to promising young tauren hunters resting at Camp Narache. Penned by the camp's hunter trainer, Lanka Farshot, the message welcomes the novice into the traditions of the hunt and calls them forward for their initial instruction.",
+ "summary": "At Camp Narache, the Etched Note calls a young tauren hunter to begin training. Lanka Farshot, the camp's hunter trainer, welcomes the novice to the traditions of the hunt.",
  "sections": [
   {
    "title": "A Call to the Hunt",
-   "body": "Within the safe confines of Camp Narache, young shu'halo are recognized early for their natural inclinations and family lineages. The Etched Note is delivered by a runner on behalf of Lanka Farshot, the resident hunter mentor. It names the hunter as the heart of the tribe while serving as a stern reminder that raw instinct must be tempered through rigorous instruction and a deep reverence for the wilderness of Mulgore.",
+   "body": "At Camp Narache, a runner brings young shu'halo a message from Lanka Farshot, the camp's hunter trainer. The note names the hunter the heart of the tribe. It also warns that natural instinct needs rigorous instruction and deep respect for Mulgore's wilderness.",
    "spoiler": 0
   },
   {
    "title": "Traditions of the Shu'halo",
-   "body": "For the tauren, hunting is far more than a practical method of survival\u2014it is an honored, sacred discipline woven into tribal society. The note reminds the reader that hunters blend the roles of warriors, shamans and druids, and that the tribe will look to them for guidance and protection. By presenting the letter to Lanka, the student takes their first official steps into learning weaponcraft, understanding beasts, and fulfilling their duty to defend and sustain the tribes.",
+   "body": "For the tauren, hunting is a sacred discipline and a way of survival, woven into tribal life. Hunters join the work of warriors, shamans and druids, and the tribe looks to them for guidance and protection. The student presents the note to Lanka to begin learning weaponcraft and how to understand beasts, preparing to defend and sustain the tribes.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "etched note use",
     "why did i get etched note"
    ],
-   "answer": "It serves as an introductory summons for novice tauren hunters. Reading the note directs the bearer to present themselves to Lanka Farshot at Camp Narache to begin their formal training in marksmanship and beast lore."
+   "answer": "The Etched Note calls a novice tauren hunter to present themselves to Lanka Farshot at Camp Narache. There, formal training begins in marksmanship and beast lore."
   },
   {
    "q": "Who wrote this note?",
@@ -40,7 +40,7 @@
     "who wrote it",
     "etched note author"
    ],
-   "answer": "The message was written by Lanka Farshot, the hunter trainer situated in Camp Narache. He dispatches couriers across the mesa to locate young hunters who are ready to learn."
+   "answer": "Lanka Farshot, the hunter trainer at Camp Narache, wrote the note. He sends couriers across the mesa to find young hunters ready to learn."
   },
   {
    "q": "Why is hunting so important to the tauren?",
@@ -49,7 +49,7 @@
     "why do tauren hunt",
     "hunting in tauren culture"
    ],
-   "answer": "Hunting is a cornerstone of tauren survival, spirituality, and tribal tradition. Skilled hunters provide food and materials for their people while living in direct balance with the land and honoring the spirits of the beasts they fell."
+   "answer": "Hunting sustains tauren survival, spirituality and tribal tradition. Skilled hunters provide food and materials while living in balance with the land and honoring the spirits of the beasts they fell."
   },
   {
    "q": "Where should this note be brought?",
@@ -58,17 +58,17 @@
     "who do i turn this in to",
     "etched note turn in"
    ],
-   "answer": "Take the note directly to Lanka Farshot, who stands near the pavilion and training grounds within Camp Narache on the Red Cloud Mesa."
+   "answer": "Bring the Etched Note to Lanka Farshot near the pavilion and training grounds at Camp Narache on the Red Cloud Mesa."
   }
  ],
  "angles": [
   {
    "target": "class:Hunter",
-   "text": "The note marks your formal induction into the hunter tradition, promising lessons in handling ranged weapons and communing with the beasts of the plains."
+   "text": "As a hunter, the note marks your formal entry into the hunter tradition. Lanka's lessons teach you to handle ranged weapons and commune with the beasts of the plains."
   },
   {
    "target": "race:Tauren",
-   "text": "Carrying the expectations of your elders and bloodline, receiving this note calls you to master the rolling grasslands of Mulgore before traveling to distant lands."
+   "text": "As a tauren, you carry the expectations of your elders and bloodline. The note calls you to master Mulgore's rolling grasslands before traveling to distant lands."
   }
  ],
  "keywords": [
@@ -90,5 +90,6 @@
  "attribution": [
   "Etched Note",
   "Etched Note (quest)"
- ]
+ ],
+ "style": 1
 }

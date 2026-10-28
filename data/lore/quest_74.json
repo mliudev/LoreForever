@@ -17,16 +17,16 @@
   "wiki": "The Legend of Stalvan (7)",
   "chain": []
  },
- "summary": "This step in the investigation leads deep into an old crate of Flintridge heirlooms left beside the canals of Stormwind City. Sifting through the dusty relics uncovers a torn journal page, offering a vital handwritten clue to the past life of Stalvan Mistmantle that leads to Marshal Haggard in Elwynn Forest.",
+ "summary": "Beside Stormwind City's canals, the Flintridge crate yields a clue to Stalvan Mistmantle's past. The torn journal page leads to Marshal Haggard in Elwynn Forest.",
  "sections": [
   {
    "title": "Unearthing the Past",
-   "body": "While digging through a sealed crate filled with musty heirlooms, old hunting trophies, and family portraits, investigators uncover a lone torn journal page hidden beneath a ceramic vase. Written in Stalvan Mistmantle's own hand, this remnant provides an intimate glimpse into the mind of a reclusive scholar before tragedy struck.",
+   "body": "A torn page from Stalvan Mistmantle's journal lies beneath a ceramic vase in a sealed crate. The crate holds musty Flintridge heirlooms, old hunting trophies, and family portraits. Stalvan's own hand offers a glimpse of the reclusive scholar before tragedy struck.",
    "spoiler": 0
   },
   {
    "title": "A Marshal's Fading Sight",
-   "body": "Marshal Haggard, now aged and plagued by failing eyesight, struggles to read the script on the battered parchment. Even so, the distinctive handwriting strikes an uneasy chord in his memory, recalling documents and incidents from years past before the darkness took his sight.",
+   "body": "Marshal Haggard struggles to read the battered parchment through his failing sight. Its distinctive handwriting stirs his memory of documents and incidents from years past, before darkness took his sight.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "where is crate",
     "haggard crate"
    ],
-   "answer": "The sealed crate sits by the Canals of Stormwind City, directly behind Caretaker Folsom among the Flintridge family's packed-up belongings. The page you find there is then taken to Marshal Haggard in southeastern Elwynn Forest."
+   "answer": "The sealed crate sits beside the Canals of Stormwind City, directly behind Caretaker Folsom. The Flintridge family's belongings are packed there, and the page found in the crate is taken to Marshal Haggard in southeastern Elwynn Forest."
   },
   {
    "q": "What is inside the sealed crate?",
@@ -47,7 +47,7 @@
     "what is in the crate",
     "torn page crate"
    ],
-   "answer": "The crate contains dusty heirlooms, a family portrait, old books, hunting trophies, and a ceramic vase, beneath which lies a torn page from Stalvan's journal."
+   "answer": "The crate holds dusty heirlooms, a family portrait, old books, hunting trophies, and a ceramic vase. Beneath the vase lies a torn page from Stalvan's journal."
   },
   {
    "q": "Who is Marshal Haggard?",
@@ -56,7 +56,7 @@
     "marshal haggard lore",
     "old marshal elwynn"
    ],
-   "answer": "Marshal Haggard is an elderly, retired officer of Stormwind living alone in southern Elwynn Forest. Despite his failing eyesight and frailty, his memories of old records and travelers make him a crucial witness to past events."
+   "answer": "Marshal Haggard is an elderly, retired Stormwind officer who lives alone in southern Elwynn Forest. Though his sight is failing and he is frail, his memories of old records and travelers make him a crucial witness to past events."
   },
   {
    "q": "Why is this journal page important?",
@@ -65,7 +65,7 @@
     "journal page clue",
     "stalvan journal"
    ],
-   "answer": "The torn journal page is direct evidence written by Stalvan Mistmantle himself. Its distinctive penmanship and lingering thoughts help tie disparate accounts across Duskwood and Elwynn back to his personal downfall."
+   "answer": "The torn page is direct evidence written by Stalvan Mistmantle himself. Its distinctive handwriting and lingering thoughts connect accounts across Duskwood and Elwynn to his personal downfall."
   },
   {
    "q": "What happens when the crate is opened?",
@@ -74,7 +74,7 @@
     "ghost after crate",
     "why did a ghost attack me"
    ],
-   "answer": "Disturbing the remnants of Stalvan's past stirs the restless dead, causing a vengeful Forlorn Spirit to manifest and strike at those trying to unravel the tragedy."
+   "answer": "Disturbing the remnants of Stalvan's past stirs the restless dead. A vengeful Forlorn Spirit manifests and strikes at those trying to unravel the tragedy."
   },
   {
    "q": "Where does the investigation lead next?",
@@ -83,17 +83,17 @@
     "after torn page",
     "where do I go next"
    ],
-   "answer": "After presenting the torn page to Marshal Haggard, his recollection of the handwriting guides the investigation onward to find more surviving fragments of Stalvan's history."
+   "answer": "After the torn page reaches Marshal Haggard, his memory of the handwriting guides the investigation toward more surviving fragments of Stalvan's history."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Investigating old cold cases in the heart of Elwynn reveals how deeply personal horrors can slip past the eyes of Stormwind's marshals."
+   "text": "As an Alliance investigator, you uncover how personal horrors in the heart of Elwynn can slip past Stormwind's marshals."
   },
   {
    "target": "race:Human",
-   "text": "Marshal Haggard represents the aging veteran generation of Stormwind, holding vital memories of the kingdom before the First and Second Wars tore families apart."
+   "text": "As a human, you see Marshal Haggard as part of Stormwind's aging veteran generation. He carries vital memories of the kingdom before the First and Second Wars tore families apart."
   }
  ],
  "keywords": [
@@ -113,5 +113,6 @@
  ],
  "attribution": [
   "The Legend of Stalvan (7)"
- ]
+ ],
+ "style": 1
 }

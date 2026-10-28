@@ -1,0 +1,77 @@
+{
+ "key": "quest:7820",
+ "type": "quest",
+ "name": "A Donation of Wool",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   7820
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Thunder Bluff is accepting wool cloth donations, and sixty pieces earn its full recognition for your generosity. Its stores need that amount from you, with further supplies expected from other donors.",
+ "sections": [
+  {
+   "title": "A Cloth Donation",
+   "body": "Thunder Bluff is gathering wool cloth. You can give sixty pieces, the amount its stores need from you, and earn full recognition for your generosity. The drive expects to gather enough from others in the realm to support it.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does Thunder Bluff want donated?",
+   "aliases": [
+    "wool donation",
+    "what cloth do they need",
+    "donate wool"
+   ],
+   "answer": "Thunder Bluff is accepting wool cloth donations."
+  },
+  {
+   "q": "How much wool cloth should I give?",
+   "aliases": [
+    "how many wool",
+    "sixty cloth",
+    "donation amount"
+   ],
+   "answer": "Sixty pieces of wool cloth earn full recognition from Thunder Bluff."
+  },
+  {
+   "q": "What do I get for donating wool?",
+   "aliases": [
+    "wool donation recognition",
+    "what's the recognition",
+    "donation reward"
+   ],
+   "answer": "Giving sixty pieces of wool cloth earns you full recognition by Thunder Bluff."
+  },
+  {
+   "q": "Why is Thunder Bluff collecting wool?",
+   "aliases": [
+    "wool drive why",
+    "what is wool for",
+    "why collect cloth"
+   ],
+   "answer": "The donation drive is gathering wool cloth, and Thunder Bluff expects to get enough from other donors in the realm to support it."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "cloth drive",
+  "donation",
+  "recognition",
+  "sixty pieces",
+  "thunder bluff",
+  "wool",
+  "wool cloth"
+ ],
+ "related": [
+  "zone:thunderbluff"
+ ],
+ "style": 1,
+ "attribution": [
+  "In-game quest text: A Donation of Wool"
+ ]
+}

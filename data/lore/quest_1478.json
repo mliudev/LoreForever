@@ -22,16 +22,16 @@
    "The Binding (Voidwalker, Undercity)"
   ]
  },
- "summary": "Halgar's Summons is a formal directive given to rising Forsaken warlocks who have reached a critical threshold in their dark craft. Master Carendin Halgar requires their presence in the Magic Quarter of the Undercity to begin rigorous advanced training. Answering his call sets the stage for summoning and binding dangerous entities from the Nether.",
+ "summary": "A formal summons calls promising Forsaken warlocks to advanced training in Undercity. Carendin Halgar expects those who have reached a threshold in their craft to join him in the Magic Quarter, where dangerous Nether beings await.",
  "sections": [
   {
    "title": "A Master's Notice",
-   "body": "When a warlock operating around Brill or the Tirisfal wilderness demonstrates adequate control over basic fel energies, word reaches the deeper subterranean halls of the Undercity. Senior practitioners such as Ageron Kargal serve as talent spotters, relaying notices to those who show genuine promise. To be summoned by Carendin Halgar is both a rare privilege and a perilous undertaking, indicating that basic imps and petty curses no longer suffice for the practitioner's education.",
+   "body": "Word of a warlock's control over basic fel energies travels from Brill or the Tirisfal wilderness to Undercity. Ageron Kargal, a senior practitioner who spots talent, sends notice to those who show promise. Carendin Halgar's summons marks a rare privilege and a perilous step in a warlock's training. Basic imps and petty curses no longer suffice.",
    "spoiler": 0
   },
   {
    "title": "The Magic Quarter",
-   "body": "Halgar oversees warlock rites from the shadowed reaches of the Magic Quarter, situated near the sinister altar known as the Temple of the Damned. Forsaken darkcasters operate without the squeamish moral restrictions of the living, yet even they demand rigorous discipline when dabbling in planar summonings. Halgar does not tolerate hesitation or sentimentality; his summons expects immediate deference and complete readiness to confront the hostile horrors of the Twisting Nether.",
+   "body": "Carendin Halgar oversees warlock rites in Undercity's Magic Quarter, near the Temple of the Damned. Forsaken darkcasters lack the living's moral restraint, but planar summonings still demand discipline. Halgar tolerates neither hesitation nor sentimentality. Those called to him are expected to show deference and be ready to face the hostile horrors of the Twisting Nether.",
    "spoiler": 0
   }
  ],
@@ -43,7 +43,7 @@
     "master halgar",
     "who is halgar"
    ],
-   "answer": "Carendin Halgar is the primary warlock trainer residing in the Magic Quarter of the Undercity. He oversees the dark development of Forsaken summoners and tests their resolve before teaching them to bind powerful Nether creatures."
+   "answer": "Carendin Halgar is the chief warlock trainer in Undercity's Magic Quarter. He oversees the dark development of Forsaken summoners and tests their resolve before teaching them to bind powerful Nether creatures."
   },
   {
    "q": "Who directs me to Halgar?",
@@ -52,7 +52,7 @@
     "ageron kargal",
     "who gives quest"
    ],
-   "answer": "Ageron Kargal, an established warlock trainer stationed in Brill, dispatches you after receiving word that Master Halgar has taken a personal interest in your progression."
+   "answer": "Ageron Kargal, an established warlock trainer stationed in Brill, sends you after learning that Master Halgar has taken a personal interest in your progress."
   },
   {
    "q": "Where can I find Carendin Halgar in Undercity?",
@@ -61,7 +61,7 @@
     "where is halgar",
     "magic quarter halgar"
    ],
-   "answer": "Halgar is located within the Magic Quarter of the Undercity, positioned close to the dark dais known as the Temple of the Damned."
+   "answer": "Halgar is in Undercity's Magic Quarter, near the dark dais called the Temple of the Damned."
   },
   {
    "q": "Why is this summons important?",
@@ -70,7 +70,7 @@
     "quest purpose",
     "what does halgars summons lead to"
    ],
-   "answer": "The summons marks your transition from rudimentary spellcasting to high-risk demonic subjugation, specifically initiating the trials required to bind a Voidwalker into your service."
+   "answer": "The summons marks your passage from basic spellcasting to dangerous demonic subjugation. It begins the trials required to bind a Voidwalker to your service."
   },
   {
    "q": "Is Halgar willing to teach anyone?",
@@ -78,7 +78,7 @@
     "can anyone talk to halgar",
     "halgar requirements"
    ],
-   "answer": "Halgar specifically focuses his attention on promising warlocks. He wastes little time on idle pleasantries and demands that any apprentice brought before him has proven capable of handling volatile fel arts."
+   "answer": "Halgar gives his attention to promising warlocks. He has little time for idle pleasantries and expects any apprentice brought before him to have proven capable with volatile fel arts."
   },
   {
    "q": "What happens after reporting to Halgar?",
@@ -86,17 +86,17 @@
     "what comes next",
     "after halgars summons"
    ],
-   "answer": "Once you report to Halgar, he immediately tests your magical capability by assigning you tasks to acquire the components needed to summon and bind an otherworldly shadow minion."
+   "answer": "When you report to Halgar, he tests your magic by assigning you to gather the components needed to summon and bind an otherworldly shadow minion."
   }
  ],
  "angles": [
   {
    "target": "class:Warlock",
-   "text": "This rite of passage bridges elementary training with true planar enslavement, bringing you under the scrutiny of Undercity's foremost master of the dark arts."
+   "text": "As a warlock, you pass from elementary training to planar enslavement under the scrutiny of Undercity's foremost master of the dark arts."
   },
   {
    "target": "race:Undead",
-   "text": "Forsaken warlocks pursue shadow and fel with ruthless, uninhibited ambition, and Halgar's sanctum exemplifies their pragmatic disregard for living caution."
+   "text": "As Forsaken, you pursue shadow and fel with ruthless ambition. Halgar's sanctum reflects your people's practical disregard for the caution of the living."
   }
  ],
  "keywords": [
@@ -118,5 +118,6 @@
  ],
  "attribution": [
   "Halgar's Summons"
- ]
+ ],
+ "style": 1
 }

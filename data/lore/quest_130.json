@@ -21,16 +21,16 @@
    "Delivering Daffodils"
   ]
  },
- "summary": "Following a meal delivery to his remote post, Guard Parker asks a favor before you return to the Lakeshire inn. Hoping to express his feelings for Darcy, he sends you to the local herbalist to purchase flowers. Parker insists that the herbalist not be told who ordered them or who they are intended for.",
+ "summary": "Guard Parker sends you to buy flowers for Darcy before you return to the Lakeshire inn. He wants the gift to stay secret.",
  "sections": [
   {
    "title": "A Guard's Secret Request",
-   "body": "Stationed along the lonely southern approach to Lakeshire, Guard Parker spends his watch keeping an eye out for blackrock orcs and gnolls. When you bring him a warm meal from Darcy at the Lakeshire Inn, he seizes the opportunity to reciprocate her kindness. Instead of letting you simply walk back, he asks you to stop by the local herbalist shop on the west end of town and purchase a bouquet of flowers for her.",
+   "body": "At his post on Lakeshire's southern approach, Guard Parker watches for blackrock orcs and gnolls. You bring him a warm meal from Darcy at the Lakeshire Inn. Grateful for her kindness, Parker asks you to stop at the herbalist shop on the west end of town and buy flowers for her.",
    "spoiler": 0
   },
   {
    "title": "Town Gossip and Secret Courting",
-   "body": "Small-town life in Lakeshire leaves little room for secrecy, which explains why Parker explicitly warns you not to reveal to the herbalist, Martie Jainrose, whom the flowers are from or for whom they are destined. When you arrive at her shop, Martie cannot help teasing you, assuming you have swiftly found a sweetheart of your own in town. In a region beset by orc incursions and brigands, even a modest gesture of romance is a welcome distraction.",
+   "body": "Parker asks you to keep the order private when you visit Martie Jainrose, the herbalist. Lakeshire is a small town, and he does not want Martie to know who sent the flowers or who will receive them. At the shop, Martie teases you, guessing you have already found a sweetheart in town. With orc incursions and brigands troubling Redridge, a small gesture of romance brings some welcome relief.",
    "spoiler": 0
   }
  ],
@@ -42,7 +42,7 @@
     "quest giver",
     "guard parker"
    ],
-   "answer": "Guard Parker gives you this task. He is stationed guarding the southern road leading into the Redridge Mountains, just north of the border with Duskwood."
+   "answer": "Guard Parker, stationed on the southern road into the Redridge Mountains just north of Duskwood, sends you to the herbalist."
   },
   {
    "q": "Who is the herbalist in Lakeshire?",
@@ -51,7 +51,7 @@
     "where is herbalist",
     "lakeshire herbalist"
    ],
-   "answer": "Martie Jainrose is the local herbalist and florist in Lakeshire. Her shop is located at the western end of the town."
+   "answer": "Martie Jainrose is Lakeshire's herbalist and florist. Her shop is at the western end of town."
   },
   {
    "q": "Why does Guard Parker want flowers?",
@@ -60,7 +60,7 @@
     "who are flowers for",
     "parker motive"
    ],
-   "answer": "Parker wants to send flowers to Darcy, the waitress at the Lakeshire Inn who sent him a free lunch, as a gesture of romantic interest and gratitude."
+   "answer": "Parker wants to thank Darcy, the Lakeshire Inn waitress who sent him a free lunch, and show his romantic interest with flowers."
   },
   {
    "q": "Why does Parker want the purchase kept secret?",
@@ -69,7 +69,7 @@
     "why hide who flowers are for",
     "dont tell martie"
    ],
-   "answer": "Lakeshire is a small, close-knit town where news travels fast. Parker is bashful about courting Darcy and wants to avoid gossip from Martie Jainrose and the other townsfolk."
+   "answer": "Parker feels bashful about courting Darcy and wants to keep the purchase from Martie Jainrose and the other townsfolk."
   },
   {
    "q": "What happens after talking to Martie Jainrose?",
@@ -78,7 +78,7 @@
     "delivering daffodils",
     "after herbalist"
    ],
-   "answer": "Martie prepares a bouquet of daffodils, leading into the task of delivering the flowers directly to Darcy at the Lakeshire Inn."
+   "answer": "Martie prepares a bouquet of daffodils for you to take to Darcy at the Lakeshire Inn."
   },
   {
    "q": "Where does this fit in the quest chain?",
@@ -87,17 +87,17 @@
     "prerequisite",
     "free lunch chain"
    ],
-   "answer": "This quest is the bridge between 'A Free Lunch', where you bring lunch to Guard Parker, and 'Delivering Daffodils', where you carry the flowers back to Darcy."
+   "answer": "This visit follows 'A Free Lunch', when you bring lunch to Guard Parker, and comes before 'Delivering Daffodils', when you carry the flowers back to Darcy."
   }
  ],
  "angles": [
   {
    "target": "profession:Herbalism",
-   "text": "Visiting Martie Jainrose introduces gatherers to Lakeshire's primary herbalism and alchemy merchant at the town's western edge."
+   "text": "Martie Jainrose is Lakeshire's herbalism and alchemy merchant, at the western edge of town."
   },
   {
    "target": "faction:Alliance",
-   "text": "Even amidst the constant threat of gnoll packs and blackrock orcs pressing into Redridge, small civilian romances still play out among Lakeshire's defenders."
+   "text": "Gnoll packs and blackrock orcs threaten Redridge, while romance still finds a place among Lakeshire's defenders."
   }
  ],
  "keywords": [
@@ -119,5 +119,6 @@
  ],
  "attribution": [
   "Visit the Herbalist"
- ]
+ ],
+ "style": 1
 }

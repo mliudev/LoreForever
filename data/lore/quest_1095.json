@@ -17,16 +17,16 @@
   "wiki": "Further Instructions (2)",
   "chain": []
  },
- "summary": "Further Instructions marks an escalation in goblin corporate politics, ordering the assassination of a rogue gnome engineer hired by Mogul Razdunk. Sputtervalve delivers directives originating from high within Undermine, commanding Ziz Fizziks to eliminate Gerenzo Wrenchwhistle in the Stonetalon Mountains.",
+ "summary": "Sputtervalve carries an order from Undermine to Ziz Fizziks in the Stonetalon Mountains. Gerenzo Wrenchwhistle, the gnome engineer hired by Mogul Razdunk, must be eliminated.",
  "sections": [
   {
    "title": "Corporate Disapproval",
-   "body": "The Venture Company operates under ruthless profit motives, but hiring outsider talent can spark fierce internal friction. When Mogul Razdunk brought the gnome engineer Gerenzo into the fold, word reached Undermine and ruffled feathers among the ruling Trade Princes. Director Riddlevox instructed Sputtervalve to intervene and handle the situation quietly. Sputtervalve, deducing that the order stems from the highest trade authorities, passes down the dirty work to the operative closest to the scene: Ziz Fizziks.",
+   "body": "The Venture Company’s hiring of Gerenzo Wrenchwhistle has stirred trouble among Undermine’s rulers. Mogul Razdunk brought the gnome engineer into the company, and word of it reached the Trade Princes. Director Riddlevox told Sputtervalve to intervene quietly. Sputtervalve believes the order comes from the highest trade authorities, so he passes the work to Ziz Fizziks, the operative nearest the scene.",
    "spoiler": 0
   },
   {
    "title": "Secrets of Dun Morogh",
-   "body": "Upon receiving the assassination order, Ziz Fizziks eagerly embraces the mission. Goblin engineers harbor natural disdain for gnome rivals, but Gerenzo's personal history makes him an especially volatile figure. Before joining the Venture Company, Gerenzo was a head engineer in Gnomeregan involved in a top-secret endeavor that Undermine spies failed to fully uncover. That project reportedly ended in catastrophe, literally exploding in the engineers' faces, and Gerenzo now sells his dangerous expertise to the Venture Company in Kalimdor.",
+   "body": "Ziz Fizziks welcomes the order to kill Gerenzo Wrenchwhistle. Goblin engineers disdain their gnome rivals, and Gerenzo has a past that makes him especially volatile. Before joining the Venture Company, he was a head engineer in Gnomeregan and worked on a top-secret project that Undermine’s spies could not fully uncover. The project reportedly ended in catastrophe, exploding in the engineers’ faces. Now Gerenzo sells his dangerous expertise to the Venture Company in Kalimdor.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "who gives quest",
     "quest giver sputtervalve"
    ],
-   "answer": "Sputtervalve is a goblin operative working under Director Riddlevox. Acting on directives from Undermine, he coordinates field operations and passes contracts down to ground agents like Ziz Fizziks."
+   "answer": "Sputtervalve is a goblin operative under Director Riddlevox. He carries directives from Undermine and passes contracts to field agents like Ziz Fizziks."
   },
   {
    "q": "Why do the Trade Princes care about Gerenzo?",
@@ -47,7 +47,7 @@
     "undermine anger",
     "gerenzo trade princes"
    ],
-   "answer": "The Trade Princes of Undermine strongly disapprove of Mogul Razdunk consorting with outside gnome engineers. Hiring high-profile non-goblins threatens internal goblin industrial dominance and invites unwelcome scrutiny."
+   "answer": "The Trade Princes of Undermine disapprove of Mogul Razdunk hiring an outside gnome engineer. They see the hire as a threat to goblin industrial dominance and a source of unwelcome scrutiny."
   },
   {
    "q": "What secret project did Gerenzo work on?",
@@ -56,7 +56,7 @@
     "gnomeregan explosion",
     "gerenzo past"
    ],
-   "answer": "Gerenzo was a lead engineer in Gnomeregan working on a classified project that goblin spies could never penetrate. Whatever he built reportedly ended in catastrophic disaster, literally exploding in the faces of the engineers involved."
+   "answer": "Gerenzo worked as a lead engineer on a classified project in Gnomeregan. Goblin spies could not uncover its purpose, and it reportedly ended in disaster, exploding in the engineers’ faces."
   },
   {
    "q": "Where is Ziz Fizziks located?",
@@ -65,7 +65,7 @@
     "where is ziz",
     "where to deliver orders"
    ],
-   "answer": "Ziz Fizziks is stationed in the Stonetalon Mountains, keeping watch over local Venture Company logging and mining efforts while carrying out corporate contracts."
+   "answer": "Ziz Fizziks is in the Stonetalon Mountains, watching the Venture Company’s local logging and mining efforts while carrying out corporate contracts."
   },
   {
    "q": "Why is Ziz Fizziks eager to kill Gerenzo?",
@@ -74,7 +74,7 @@
     "fizziks reaction",
     "why kill gerenzo"
    ],
-   "answer": "Beyond goblin professional hatred for gnomes, Fizziks recognizes Gerenzo as a hazardous rival whose botched experiments in Dun Morogh make him dangerous to everyone around him."
+   "answer": "Ziz Fizziks shares the goblins’ professional hatred of gnomes and sees Gerenzo as a dangerous rival. Gerenzo’s experiments in Dun Morogh ended in disaster."
   },
   {
    "q": "Who is Mogul Razdunk?",
@@ -83,17 +83,17 @@
     "who is razdunk",
     "venture company boss"
    ],
-   "answer": "Mogul Razdunk is the chief executive of the Venture Company. His decision to hire Gerenzo directly defied conventional trade etiquette in Undermine, triggering the Trade Princes to push for Gerenzo's elimination."
+   "answer": "Mogul Razdunk leads the Venture Company. He hired Gerenzo, defying trade etiquette in Undermine and prompting the Trade Princes to push for Gerenzo’s elimination."
   }
  ],
  "angles": [
   {
    "target": "race:Gnome",
-   "text": "The goblin operatives mention Gerenzo's past as a senior engineer in Gnomeregan whose secret experiment detonated catastrophically in the engineers' faces."
+   "text": "As a gnome, you hear that Gerenzo was a senior engineer in Gnomeregan. His secret experiment ended in a catastrophic explosion that struck the engineers involved."
   },
   {
    "target": "profession:Engineering",
-   "text": "The cutthroat rivalry between gnome and goblin engineering takes a literal turn here, shifting from design patent debates into outright corporate assassination."
+   "text": "As an engineer, you see the rivalry between gnome and goblin engineering turn from disputes over design patents to corporate assassination."
   }
  ],
  "keywords": [
@@ -120,5 +120,6 @@
  ],
  "attribution": [
   "Further Instructions (2)"
- ]
+ ],
+ "style": 1
 }

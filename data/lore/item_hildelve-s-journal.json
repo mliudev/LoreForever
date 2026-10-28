@@ -10,16 +10,16 @@
    "quest:417"
   ]
  },
- "summary": "Hildelve's Journal is the final record of dwarven pilot Hildelve, recovered from his remains in the frigid wilderness of Dun Morogh. Its bloodstained pages recount his fatal encounter with a ferocious bear and convey his dying wish for vengeance.",
+ "summary": "Hildelve's Journal was recovered from the dwarf's remains in Dun Morogh. Its bloodstained pages recount a fatal meeting with a fierce bear and his last wish for vengeance.",
  "sections": [
   {
    "title": "A Pilot's Final Words",
-   "body": "When his steam tank broke down, dwarven pilot Hildelve left his partner Hammerfoot with the tanks and set out alone into the snow-swept crags of Dun Morogh in search of rumored chiron ore. According to the entries scrawled in his journal, he was stalked for days and then ambushed by a monstrous ice claw bear known as Mangeclaw. Though Hildelve fought bravely and managed to drive the beast off, he was left gravely mauled and stranded in the bitter cold. The journal details his agonizing final hours, concluding with a single, clear plea before the predator returned to finish him: that whoever discovered his body avenge his death by hunting down Mangeclaw.",
+   "body": "Dwarven pilot Hildelve set out alone into Dun Morogh after his steam tank broke down. He left his partner, Hammerfoot, with the tanks and went searching the snow-swept crags for rumored chiron ore. His journal says Mangeclaw, a monstrous ice claw bear, stalked him for days before ambushing him. Hildelve fought bravely and drove the bear off, but the beast mauled him, leaving him gravely wounded and stranded in the cold. His final hours were agonizing. Before the predator returned to finish him, Hildelve left one clear plea: whoever found his body should hunt Mangeclaw and avenge his death.",
    "spoiler": 0
   },
   {
    "title": "Return to the Siege Brigade",
-   "body": "The recovered journal serves as grim closure for Hildelve's comrade, Pilot Hammerfoot, stationed near North Gate Outpost in eastern Dun Morogh. As a member of the Ironforge Siege Brigade, Hammerfoot feared the worst when Hildelve never returned from his search for ore. Handing over the journal alongside the beast's severed claw provides proof that Hildelve's spirit has been put to rest and his final wish honored.",
+   "body": "Pilot Hammerfoot, Hildelve's comrade, is stationed near North Gate Outpost in eastern Dun Morogh. A member of the Ironforge Siege Brigade, Hammerfoot feared the worst when his partner failed to return from the search for ore. The journal and Mangeclaw's severed claw give Hammerfoot proof that Hildelve's final wish has been honored and his spirit put to rest.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "who is hildelve",
     "dwarf pilot hildelve"
    ],
-   "answer": "Hildelve was a dwarven steam tank pilot belonging to the Ironforge Siege Brigade. After his tank broke down, he set off alone into the wilds of Dun Morogh in search of chiron ore and was killed by the bear Mangeclaw before he could return."
+   "answer": "Hildelve was a dwarf who piloted a steam tank for the Ironforge Siege Brigade. After his tank broke down, he went alone into Dun Morogh seeking chiron ore. Mangeclaw killed him before he could return."
   },
   {
    "q": "What is Mangeclaw?",
@@ -40,7 +40,7 @@
     "what killed hildelve",
     "bear that killed hildelve"
    ],
-   "answer": "Mangeclaw is an unusually large and savage ice claw bear that stalks the snowy ridges of Dun Morogh. It ambushed Hildelve while he was stranded, mauled him severely, and later returned to end his life."
+   "answer": "Mangeclaw is an unusually large, savage ice claw bear that stalks Dun Morogh's snowy ridges. The bear ambushed Hildelve while he was stranded and mauled him severely, then returned to end his life."
   },
   {
    "q": "Who receives the journal once it is found?",
@@ -49,7 +49,7 @@
     "who gets hildelves journal",
     "turn in hildelves journal"
    ],
-   "answer": "The journal is delivered to Pilot Hammerfoot, a siege engine pilot stationed near North Gate Outpost in eastern Dun Morogh. Hammerfoot was a close friend of Hildelve and sought news of the missing pilot."
+   "answer": "Pilot Hammerfoot receives the journal. He is a siege engine pilot and Hildelve's comrade, stationed near North Gate Outpost in eastern Dun Morogh. He had sought word of the missing pilot."
   },
   {
    "q": "What does Hildelve ask for in the journal?",
@@ -58,17 +58,17 @@
     "what is in the journal",
     "pilot dying wish"
    ],
-   "answer": "Knowing his wounds were mortal, Hildelve used his final pages to document the beast that attacked him and asked that any traveler finding his remains hunt down Mangeclaw to avenge his death."
+   "answer": "Hildelve asks whoever finds his remains to hunt Mangeclaw and avenge his death. In the journal's final pages, he records the beast that attacked him and makes his plea, knowing his wounds are mortal."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "The journal honors the unyielding spirit of dwarven pilots, who defy freezing weather and wild beasts to secure the heights of Khaz Modan."
+   "text": "As a dwarf, you can honor the unyielding spirit of pilots who brave freezing weather and wild beasts to secure the heights of Khaz Modan."
   },
   {
    "target": "faction:Alliance",
-   "text": "Recovering the personal effects of fallen military personnel like Hildelve strengthens the bond between the Alliance and the Ironforge Siege Brigade."
+   "text": "As an Alliance member, you strengthen the bond between the Alliance and the Ironforge Siege Brigade when you recover the personal effects of fallen soldiers like Hildelve."
   }
  ],
  "keywords": [
@@ -91,5 +91,6 @@
  "attribution": [
   "Hildelve's Journal",
   "A Pilot's Revenge (Classic)"
- ]
+ ],
+ "style": 1
 }

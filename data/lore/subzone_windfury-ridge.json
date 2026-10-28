@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Windfury Ridge"
  },
- "summary": "Windfury Ridge is a rugged highland area flanking the pastures of Mulgore. Notorious for harboring vicious harpies alongside predatory wolves and cougars, it poses a constant hazard to travelers while offering prized feathers to tauren artisans.",
+ "summary": "Windfury Ridge looms over Mulgore’s pastures, where harpies nest among wolves and cougars. Its slopes threaten travelers, while tauren hunters prize the harpies’ feathers.",
  "sections": [
   {
    "title": "A Perilous Perch",
-   "body": "Windfury Ridge rises sharply above Mulgore's serene plains, serving as the hunting grounds of the Windfury harpies. These vicious winged creatures nest high along the crags, readily swooping down upon any unwary wanderers who skirt the hills. The rocky terrain is further populated by prowling prairie wolves and wild mountain cougars, making the ridge one of the more treacherous borders of the tauren heartland. Despite the danger, the harpies are frequently hunted by brave tauren warriors; their vibrant, iridescent plumage is highly sought after across Thunder Bluff to adorn ceremonial garments for lavish feasts and wedding celebrations.",
+   "body": "Windfury Ridge rises above Mulgore’s plains, where Windfury harpies nest among the crags. They swoop on wanderers who pass too close to the hills. Prairie wolves and mountain cougars prowl the rocky slopes, making this border of the tauren heartland dangerous. Tauren warriors hunt the harpies, whose iridescent feathers are sought in Thunder Bluff for ceremonial garments worn at feasts and weddings.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "hazards of windfury ridge",
     "windfury ridge monsters"
    ],
-   "answer": "The ridge is teeming with predatory cougars and prairie wolves, but its most persistent menace is the flock of aggressive harpies nesting along the heights. They actively dive from the crags to capture or butcher intruders who wander too close to their nesting sites."
+   "answer": "Windfury Ridge is dangerous because prairie wolves and cougars prowl its slopes, while harpies nest along the heights. Harpies dive from the crags at intruders who come near their nests."
   },
   {
    "q": "Why do the tauren hunt the harpies on Windfury Ridge?",
@@ -32,7 +32,7 @@
     "harpy feathers mulgore",
     "hunting harpies"
    ],
-   "answer": "Beyond securing the borders from their predations, tauren hunt the Windfury harpies for their brilliant feathers. These colorful plumes are traditionally harvested and woven into ceremonial headdresses and decorations used during feasts and weddings."
+   "answer": "Tauren hunt Windfury harpies to defend the borders and gather their brilliant feathers. The plumes are woven into ceremonial headdresses and decorations for feasts and weddings."
   },
   {
    "q": "Where is Windfury Ridge located?",
@@ -41,17 +41,17 @@
     "where is windfury ridge",
     "windfury ridge map"
    ],
-   "answer": "Windfury Ridge lies along the elevated bluffs in the pastoral region of Mulgore, in the far north of Mulgore, beyond Thunder Bluff."
+   "answer": "Windfury Ridge lies on elevated bluffs in northern Mulgore, beyond Thunder Bluff."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "The ridge is both a recurring nuisance to young hunters and a source of vital ceremonial ornaments used to honor marriages and seasonal gatherings."
+   "text": "As a tauren, you know the ridge as a recurring nuisance to young hunters and a source of ceremonial ornaments for marriages and seasonal gatherings."
   },
   {
    "target": "class:Hunter",
-   "text": "The steep inclines and cunning predators provide an excellent early testing ground for tracking, beast taming, and range management."
+   "text": "As a hunter, you can use the steep slopes and cunning predators to practice tracking, beast taming, and range management."
   }
  ],
  "keywords": [
@@ -70,5 +70,6 @@
  ],
  "attribution": [
   "Windfury Ridge"
- ]
+ ],
+ "style": 1
 }

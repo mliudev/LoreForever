@@ -20,16 +20,16 @@
    "Elixir of Suffering (2)"
   ]
  },
- "summary": "In Tarren Mill, Apothecary Lydon brews a venomous concoction intended to further the Royal Apothecary Society's sinister work. To confirm its lethality, he orders an immediate live trial on his unfortunate companion nearby.",
+ "summary": "In Tarren Mill, Apothecary Lydon prepares a poison for the Royal Apothecary Society. He wants to know how swiftly it kills before using it more widely.",
  "sections": [
   {
    "title": "A Toxic Test",
-   "body": "Apothecary Lydon works tirelessly out of Tarren Mill to develop chemical weapons capable of fulfilling the Dark Lady's grand ambitions: a blight that will annihilate both the living humans of the Alliance and the undead horrors of the Scourge. Once the necessary reagents are gathered and steeped, Lydon mixes the foul brew into what he dubs the Elixir of Suffering, eager to witness its raw potency before deploying it on a broader scale.",
+   "body": "Apothecary Lydon works in Tarren Mill to make chemical weapons for the Dark Lady's ambitions. His blight is meant to destroy both the living humans of the Alliance and the undead horrors of the Scourge. Once he has the needed reagents, Lydon mixes them into a foul brew he calls the Elixir of Suffering. He is eager to see its power before the Society uses it on a wider scale.",
    "spoiler": 0
   },
   {
    "title": "The Fate of Umpi",
-   "body": "Rather than seeking out an enemy captive or an escaped beast, Lydon turns directly to the creature beside him. He directs the adventurer to administer the freshly brewed poison to his assistant, Umpi\u2014a harmless toad sitting quietly at his feet. A single dose of the elixir proves swiftly catastrophic, killing the amphibian on the spot and satisfying the apothecary that his deadly formula functions precisely as intended.",
+   "body": "Apothecary Lydon turns to the creature beside him for a trial. He asks you to give the fresh poison to his assistant, Umpi, a harmless toad sitting at his feet. One dose kills the amphibian on the spot, showing Lydon that his formula works as intended.",
    "spoiler": 1
   }
  ],
@@ -41,7 +41,7 @@
     "who is lydon",
     "apothecary lydon tarren mill"
    ],
-   "answer": "Apothecary Lydon is an alchemist representing the Royal Apothecary Society, stationed in the Forsaken settlement of Tarren Mill within the Hillsbrad Foothills. He spends his days refining poisons and alchemical mixtures designed to wipe out enemies of the Forsaken."
+   "answer": "Apothecary Lydon is an alchemist with the Royal Apothecary Society, stationed in Tarren Mill in the Hillsbrad Foothills. He spends his days refining poisons and mixtures meant to wipe out the Forsaken's enemies."
   },
   {
    "q": "Who is Umpi?",
@@ -50,7 +50,7 @@
     "umpi the toad",
     "who is the assistant"
    ],
-   "answer": "Umpi is a simple toad perched right beside Apothecary Lydon's work table in Tarren Mill, jokingly designated by Lydon as his assistant."
+   "answer": "Umpi is a toad beside Apothecary Lydon's work table in Tarren Mill. Lydon jokingly calls the toad his assistant."
   },
   {
    "q": "What is the purpose of the Elixir of Suffering?",
@@ -58,7 +58,7 @@
     "what does the elixir do",
     "why make elixir of suffering"
    ],
-   "answer": "The Elixir of Suffering is an experimental chemical weapon developed to test toxic formulas meant to eradicate both living humans and the undead Scourge on behalf of Lady Sylvanas Windrunner."
+   "answer": "The Elixir of Suffering is an experimental chemical weapon meant to test toxins designed to eradicate living humans and the undead Scourge for Lady Sylvanas Windrunner."
   },
   {
    "q": "What happens when you feed the potion to Umpi?",
@@ -66,7 +66,7 @@
     "does umpi die",
     "what happens to the toad"
    ],
-   "answer": "Lydon asks you to give Umpi a taste to see whether the newly mixed elixir achieves its intended effect. The result is revealed during the test."
+   "answer": "Lydon asks you to give Umpi a taste of the newly mixed elixir. The test reveals whether it has the intended effect."
   },
   {
    "q": "Where does this test take place?",
@@ -74,7 +74,7 @@
     "where is lydon located",
     "where do i find umpi"
    ],
-   "answer": "The test occurs inside the Forsaken town of Tarren Mill, located in northern Hillsbrad Foothills, right by Lydon's brewing station."
+   "answer": "The test takes place at Lydon's brewing station in Tarren Mill, a Forsaken town in northern Hillsbrad Foothills."
   },
   {
    "q": "Why does the Royal Apothecary Society test poisons on small animals?",
@@ -82,21 +82,21 @@
     "why test on toads",
     "apothecary society animal testing"
    ],
-   "answer": "Forsaken apothecaries routinely use small creatures and vermin for preliminary trials to verify the speed and lethality of their chemical compounds before advancing to field tests on larger targets or living captives."
+   "answer": "Forsaken apothecaries test chemical compounds on small creatures and vermin to learn how quickly and lethally they act before trying them on larger targets or living captives."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "For the Forsaken, testing lethal toxins is essential business in fulfilling Lady Sylvanas's decree to eradicate both the Scourge and the living."
+   "text": "For the Forsaken, testing lethal toxins is essential to Lady Sylvanas's decree to eradicate both the Scourge and the living."
   },
   {
    "target": "faction:Horde",
-   "text": "Allies visiting Tarren Mill get a chilling, firsthand glimpse into the ruthless alchemical methods practiced by the Royal Apothecary Society."
+   "text": "As a Horde ally visiting Tarren Mill, you see the Royal Apothecary Society's ruthless alchemical methods firsthand."
   },
   {
    "target": "class:Druid",
-   "text": "A druid might find the casual, callous poisoning of a harmless amphibian in the name of Forsaken warfare deeply unsettling."
+   "text": "As a druid, you may find the casual poisoning of a harmless amphibian for Forsaken warfare deeply unsettling."
   }
  ],
  "keywords": [
@@ -118,5 +118,6 @@
  ],
  "attribution": [
   "Elixir of Suffering (2)"
- ]
+ ],
+ "style": 1
 }

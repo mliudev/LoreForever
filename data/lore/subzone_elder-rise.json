@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Elder Rise"
  },
- "summary": "Elder Rise sits directly east of Thunder Bluff's central plateau, reachable across long suspension bridges from both the High and Middle Rises. It serves as the spiritual heart of the tauren capital, hosting the Cenarion Circle, tauren druids and priests, and the governing Council of Elders.",
+ "summary": "Elder Rise gathers Thunder Bluff's spiritual guides and elders east of the central plateau. Long suspension bridges connect it to the High Rise and Middle Rise.",
  "sections": [
   {
    "title": "Sanctuary of Faith and Council",
-   "body": "Connected to the main mesas by swaying rope bridges, Elder Rise is dedicated to quiet reflection, sacred wisdom, and civic governance. Tauren druids and priests gather here to teach acolytes the ways of nature and spiritual devotion. High atop this mesa resides Arch Druid Hamuul Runetotem, the revered leader who brought druidism back to the tauren people and forged close ties with the Cenarion Circle. Alongside these wild sanctuaries stands the Hall of Elders, where tribal leaders convene to deliberate on matters facing their fledgling capital.",
+   "body": "Swaying rope bridges link Elder Rise to Thunder Bluff's main mesas. Tauren druids and priests gather here to teach acolytes nature and spiritual devotion. Arch Druid Hamuul Runetotem lives atop the mesa. He brought druidism back to the tauren and formed close ties with the Cenarion Circle. Nearby, tribal leaders meet in the Hall of Elders to discuss matters facing their young capital.",
    "spoiler": 0
   },
   {
    "title": "A Precarious Presence",
-   "body": "Despite its role as a peaceful sanctuary, political tension lingers over the rise. Magatha Grimtotem, elder matriarch of the secretive and haughty Grimtotem tribe, maintains her residence in a hut positioned between the two bridges. While Cairne Bloodhoof extends hospitality and formal council seats to all tauren lineages, her watchful presence serves as a constant reminder that not every tribe embraces the Bloodhoof's pacifist ideals or unquestioning alliance with the Horde.",
+   "body": "Elder Rise is a peaceful sanctuary, though political tension lingers. Magatha Grimtotem, matriarch of the secretive and haughty Grimtotem tribe, lives in a hut between the two bridges. Cairne Bloodhoof offers hospitality and council seats to all tauren lineages. Magatha's presence reminds the city that not every tribe shares the Bloodhoof's pacifist ideals or unquestioning alliance with the Horde.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "what is on elder rise",
     "elder rise buildings"
    ],
-   "answer": "Elder Rise serves as the center for spiritual learning and civic deliberation in Thunder Bluff. It houses the Cenarion Circle's druids, tauren priests, the governing Council of Elders, and tribal leaders."
+   "answer": "Elder Rise is Thunder Bluff's center for spiritual learning and civic deliberation. The Cenarion Circle's druids, tauren priests, the Council of Elders, and tribal leaders gather here."
   },
   {
    "q": "Who leads the druids on Elder Rise?",
@@ -37,7 +37,7 @@
     "tauren druid leader",
     "hamuul location"
    ],
-   "answer": "Arch Druid Hamuul Runetotem resides here. A close friend and advisor to Cairne Bloodhoof, Hamuul is the highest-ranking tauren in the Cenarion Circle and trains those called to walk the path of nature."
+   "answer": "Arch Druid Hamuul Runetotem leads the druids on Elder Rise. He is Cairne Bloodhoof's close friend and advisor, the highest-ranking tauren in the Cenarion Circle, and trains those called to follow nature's path."
   },
   {
    "q": "Why does Magatha Grimtotem stay here?",
@@ -46,7 +46,7 @@
     "magatha grimtotem location",
     "grimtotem on elder rise"
    ],
-   "answer": "Magatha Grimtotem occupies a tent situated between the bridges. As the elder crone and chieftain of the Grimtotem tribe, she attends the Council of Elders to represent her people in Thunder Bluff, despite mutual distrust between her clan and Cairne's allies."
+   "answer": "Magatha Grimtotem stays in a tent between the bridges and attends the Council of Elders for her people. She is the elder crone and chieftain of the Grimtotem tribe, whose clan distrusts Cairne's allies."
   },
   {
    "q": "How do you reach Elder Rise?",
@@ -55,17 +55,17 @@
     "elder rise bridges",
     "directions elder rise"
    ],
-   "answer": "Elder Rise lies directly east of the city's central plateau. It can be reached via large wooden rope bridges connected to both the High Rise and the lower plateau."
+   "answer": "Cross a large wooden rope bridge from either the High Rise or the lower plateau to reach Elder Rise, directly east of the city's central plateau."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "Elder Rise is the paramount home for Horde druids, serving as Arch Druid Hamuul Runetotem's sanctuary and the Cenarion Circle's regional seat in Kalimdor."
+   "text": "As a druid, you find Arch Druid Hamuul Runetotem's sanctuary on Elder Rise, the Cenarion Circle's regional seat in Kalimdor."
   },
   {
    "target": "race:Tauren",
-   "text": "The rise houses the Council of Elders and spiritual guides who steer your tribes through peace, tradition, and the complex realities of the Horde."
+   "text": "As a tauren, you find the Council of Elders and spiritual guides on Elder Rise, where they guide your tribes through peace, tradition, and the complex realities of the Horde."
   }
  ],
  "keywords": [
@@ -89,5 +89,6 @@
  ],
  "attribution": [
   "Elder Rise"
- ]
+ ],
+ "style": 1
 }

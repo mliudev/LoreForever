@@ -8,21 +8,21 @@
   "wiki": "Master Apothecary Faranell",
   "refs": 5
  },
- "summary": "Master Apothecary Faranell is the head of the Royal Apothecary Society, stationed within the depths of the Apothecarium in the Undercity. In life a respected Dalaran scholar, in undeath he directs the Forsaken's search for a devastating New Plague to eradicate both the Scourge and the living.",
+ "summary": "In the Undercity, Master Apothecary Faranell leads the Royal Apothecary Society from the depths of the Apothecarium. Once a respected Dalaran scholar, he now directs the Forsaken's search for a New Plague to destroy the Scourge and the living.",
  "sections": [
   {
    "title": "A Mind Unhinged by Death",
-   "body": "Before the Third War, Faranell was an esteemed alchemist who spent decades studying alongside the learned mages of Dalaran. He spent his mortal days seeking cures, remedies, and potions to improve mortal health. When the Scourge plague claimed his life and he arose as a free-willed Forsaken, his former scientific curiosity curdled into cruelty. Retaining his encyclopedic intellect, he traded healing salves for catastrophic reagents, quickly becoming one of Queen Sylvanas Windrunner's most valued researchers in the bowels of Lordaeron's fallen capital.",
+   "body": "Before the Third War, Faranell spent decades studying alchemy alongside Dalaran's learned mages. In life, he sought cures, remedies, and potions to improve mortal health. The Scourge plague killed him, but he rose again as a free-willed Forsaken. His scientific curiosity turned cruel, and he traded healing salves for catastrophic reagents. His encyclopedic knowledge made him one of Queen Sylvanas Windrunner's most valued researchers in the depths of Lordaeron's fallen capital.",
    "spoiler": 0
   },
   {
    "title": "The Master of the Apothecarium",
-   "body": "Operating out of the noxious laboratories of the Apothecarium, Faranell coordinates the far-flung research of the Royal Apothecary Society. He oversees the construction of lumbering abominations and directs subordinate apothecaries stationed throughout Lordaeron and beyond. Every batch of strange venom, tainted blood, and cursed flora gathered by field researchers across the continents eventually passes through his vats for distillation and refinement.",
+   "body": "From the Apothecarium, Faranell coordinates the Royal Apothecary Society's far-reaching research. He oversees the construction of lumbering abominations and directs apothecaries stationed throughout Lordaeron and beyond. Field researchers gather strange venom, tainted blood, and cursed flora across the continents. Each batch passes through his vats for distillation and refinement.",
    "spoiler": 0
   },
   {
    "title": "Crafting the New Plague",
-   "body": "Faranell's single driving obsession is fulfilling the Dark Lady's mandate: uncovering the New Plague. To brew a contagion capable of destroying Arthas and his mindless Scourge legions, Faranell coordinates extensive reagent gathering. He dispatches adventurers to recover the research notes of his fallen colleague Apothecary Berard from Pyrewood Village, procures bat guano from the deep dens of Razorfen Kraul, and tests acidic colloids against the organs of zealots from the Scarlet Monastery.",
+   "body": "Faranell works to fulfill the Dark Lady's command and uncover the New Plague. He seeks a contagion that can destroy Arthas and his mindless Scourge legions. To that end, he coordinates the gathering of many reagents. He sends adventurers to recover the research notes of his fallen colleague Apothecary Berard from Pyrewood Village. He seeks bat guano from the deep dens of Razorfen Kraul and tests acidic colloids against the organs of zealots from the Scarlet Monastery.",
    "spoiler": 1
   }
  ],
@@ -34,7 +34,7 @@
     "faranell lore",
     "apothecary leader"
    ],
-   "answer": "Faranell is the head of the Royal Apothecary Society, the alchemical guild serving Lady Sylvanas Windrunner in the Undercity. He oversees all research regarding toxins, stitched abominations, and the development of the New Plague."
+   "answer": "Faranell heads the Royal Apothecary Society, the alchemical guild serving Lady Sylvanas Windrunner in the Undercity. He oversees research into toxins, stitched abominations, and the New Plague."
   },
   {
    "q": "Where can Faranell be found?",
@@ -43,7 +43,7 @@
     "where is master apothecary faranell",
     "find faranell"
    ],
-   "answer": "He resides in the Apothecarium, the alchemical quarter located in the western sector of the Undercity, surrounded by bubbling cauldrons, testing cages, and his apothecary subordinates."
+   "answer": "Faranell resides in the Apothecarium, the alchemical quarter in the Undercity's western sector. Bubbling cauldrons and testing cages surround him, along with his apothecary subordinates."
   },
   {
    "q": "What was Faranell's background before he died?",
@@ -52,7 +52,7 @@
     "was faranell in dalaran",
     "faranell mortal life"
    ],
-   "answer": "In life, Faranell was an acclaimed alchemist and doctor who studied with the wizards of Dalaran. He spent his living years inventing remedies to heal disease before the plague killed him and twisted his curiosity toward lethal toxins."
+   "answer": "Before his death, Faranell was an acclaimed alchemist and doctor who studied with Dalaran's wizards. He invented remedies to heal disease, until the plague killed him and turned his curiosity toward lethal toxins."
   },
   {
    "q": "What is the Royal Apothecary Society trying to create?",
@@ -61,7 +61,7 @@
     "what are apothecaries making",
     "apothecary goals"
    ],
-   "answer": "Under Queen Sylvanas's directive, the society is manufacturing a New Plague. Their goal is to craft a weapon virulent enough to destroy the Scourge and exact vengeance upon the Lich King, while also defending the Forsaken from mortal enemies."
+   "answer": "At Queen Sylvanas's direction, the Royal Apothecary Society is creating a New Plague. The society seeks a weapon virulent enough to destroy the Scourge and avenge the Forsaken against the Lich King, while defending them from mortal enemies."
   },
   {
    "q": "Why does Faranell send adventurers to Pyrewood Village?",
@@ -70,7 +70,7 @@
     "why pyrewood village",
     "apothecary berard journal"
    ],
-   "answer": "He seeks the research journal of his former colleague, Apothecary Berard, who went mad and succumbed to the worgen curse in Pyrewood. Berard's field notes contain critical data on toxic agents needed to refine their plague experiments."
+   "answer": "Faranell seeks the research journal of his former colleague, Apothecary Berard, who went mad and succumbed to the worgen curse in Pyrewood. Berard's field notes hold critical data on toxic agents needed to refine the plague experiments."
   },
   {
    "q": "Why does he need reagents from Razorfen Kraul and the Scarlet Monastery?",
@@ -79,21 +79,21 @@
     "hearts of zeal",
     "scarlet monastery hearts"
    ],
-   "answer": "Faranell tests how opposing volatile compounds interact. He uses kraul guano collected from the razorfen quilboar dens alongside the freshly harvested hearts of Scarlet Crusade zealots to test acidic colloids and biological contamination."
+   "answer": "Faranell tests how volatile compounds interact. He uses kraul guano from razorfen quilboar dens and freshly harvested hearts of Scarlet Crusade zealots to test acidic colloids and biological contamination."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "For the Forsaken, Faranell represents the vanguard of biological sovereignty, laboring in the dark to ensure their people possess weapons capable of shattering the Lich King."
+   "text": "As Forsaken, you can see Faranell at work on weapons meant to shatter the Lich King's power and secure your people's future."
   },
   {
    "target": "faction:Horde",
-   "text": "Though orc, troll, and tauren allies may be unsettled by the green ooze and caged subjects of the Apothecarium, Faranell's research is tolerated as vital warfare against the common threat of the Scourge."
+   "text": "As Horde, you may find the green ooze and caged subjects unsettling. Faranell's research is tolerated as vital warfare against the Scourge."
   },
   {
    "target": "profession:Herbalism",
-   "text": "Faranell's vats consume endless quantities of rare flora, mosses, and fungal extracts, serving as a dark demonstration of botanical study weaponized for destruction."
+   "text": "As a herbalist, you know how rare flora, mosses, and fungal extracts can fill Faranell's vats. His work turns botanical study toward destruction."
   }
  ],
  "keywords": [
@@ -120,5 +120,6 @@
  ],
  "attribution": [
   "Master Apothecary Faranell"
- ]
+ ],
+ "style": 1
 }

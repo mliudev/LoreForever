@@ -10,16 +10,16 @@
    "quest:5088"
   ]
  },
- "summary": "The Arikara Serpent Skin is the scaled hide taken from the mythical wind serpent Arikara atop Darkcloud Pinnacle. Carried back to Whitereach Post, it serves as tangible proof that the vengeance-seeking beast was summoned and slain.",
+ "summary": "At Darkcloud Pinnacle, Arikara is summoned and slain, leaving a scaled hide behind. Carried to Whitereach Post, the skin proves the wind serpent was defeated.",
  "sections": [
   {
    "title": "Trophy of a Summoned Wrath",
-   "body": "Arikara is a formidable wind serpent tied to ancient tauren legend, rumored to seek retribution against Cairne Bloodhoof amid shifting cultural ways. Using enchanted Incendia Powder prepared under the direction of Elder Magatha Grimtotem, champions light the sacred fire atop the burial bluffs of Darkcloud Pinnacle to force the spirit-beast into the physical realm. Stripping the serpent's hide yields the Arikara Serpent Skin\u2014an unmistakable relic of the beast's demise.",
+   "body": "Arikara is a formidable wind serpent tied to ancient tauren legend. Rumor says she seeks retribution against Cairne Bloodhoof as tauren ways change. Under Elder Magatha Grimtotem's direction, champions prepare enchanted Incendia Powder. They light the sacred fire atop Darkcloud Pinnacle's burial bluffs, drawing the spirit-beast into the physical realm. Stripping Arikara's hide leaves the Arikara Serpent Skin, proof of her death.",
    "spoiler": 0
   },
   {
    "title": "A Troubling Revelation",
-   "body": "When brought to Motega Firemane at Whitereach Post, the skin proves the serpent's death but raises uncomfortable questions. Magatha Grimtotem insisted Arikara specifically hunted Cairne Bloodhoof out of ancestral rage, yet examining the slain creature leaves Motega bewildered as to why such a spirit would truly threaten their High Chieftain. Though the pelt settles the immediate danger, it leaves a lingering suspicion over Magatha's true interpretations.",
+   "body": "At Whitereach Post, Motega Firemane receives the skin as proof that Arikara is dead. Magatha Grimtotem insisted the serpent hunted Cairne Bloodhoof out of ancestral rage. Yet the slain creature leaves Motega bewildered: why would such a spirit threaten their High Chieftain? The pelt settles the immediate danger, but Motega is left questioning Magatha's interpretation.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "arikara skin",
     "what is this skin"
    ],
-   "answer": "It is the scaly hide recovered from Arikara, a legendary wind serpent summoned and defeated atop Darkcloud Pinnacle in Thousand Needles."
+   "answer": "The Arikara Serpent Skin is the scaly hide taken from Arikara, a legendary wind serpent summoned and defeated atop Darkcloud Pinnacle in Thousand Needles."
   },
   {
    "q": "Who wants the Arikara Serpent Skin?",
@@ -40,7 +40,7 @@
     "who turn in to",
     "who wants arikara skin"
    ],
-   "answer": "Motega Firemane at Whitereach Post requires the skin along with the remainder of the Incendia Powder as proof that the serpent no longer poses a threat."
+   "answer": "Motega Firemane at Whitereach Post wants the skin and the remainder of the Incendia Powder as proof that Arikara no longer threatens anyone."
   },
   {
    "q": "Why was Arikara summoned in the first place?",
@@ -48,7 +48,7 @@
     "why summon arikara",
     "why kill arikara"
    ],
-   "answer": "Magatha Grimtotem claimed that changes in tauren traditions had angered the ancestral serpent Arikara, causing her to stalk High Chieftain Cairne Bloodhoof. She instructed that the beast be drawn forth and slain before harm could come to Cairne."
+   "answer": "Magatha Grimtotem claimed changes in tauren traditions angered the ancestral serpent Arikara, who stalked High Chieftain Cairne Bloodhoof. She ordered the beast drawn forth and slain before Cairne could be harmed."
   },
   {
    "q": "Where does one obtain the skin?",
@@ -56,17 +56,17 @@
     "where to get arikara serpent skin",
     "arikara location"
    ],
-   "answer": "It is looted directly from Arikara after summoning her by throwing enchanted Incendia Powder onto the sacred fire of life, located on a burial needle within Darkcloud Pinnacle."
+   "answer": "The skin comes from Arikara after she is summoned with enchanted Incendia Powder cast onto the sacred fire of life, on a burial needle within Darkcloud Pinnacle."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "The skin represents a clash between ancient myths and current leadership, with Magatha Grimtotem's claims about Cairne Bloodhoof raising unease among the tribes."
+   "text": "As a tauren, you see the skin mark a clash between ancient myths and current leadership. Magatha Grimtotem's claims about Cairne Bloodhoof leave the tribes uneasy."
   },
   {
    "target": "class:Shaman",
-   "text": "The ritual of using enchanted powder upon a sacred fire to force an ancestral spirit-beast to materialize demonstrates the potent, if manipulative, ritual craft practiced in Thunder Bluff."
+   "text": "As a shaman, you know enchanted powder cast on a sacred fire can force an ancestral spirit-beast into the physical realm."
   }
  ],
  "keywords": [
@@ -91,5 +91,6 @@
  "attribution": [
   "Arikara Serpent Skin",
   "Arikara (quest)"
- ]
+ ],
+ "style": 1
 }

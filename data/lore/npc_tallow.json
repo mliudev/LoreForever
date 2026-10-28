@@ -8,11 +8,11 @@
   "wiki": "Tallow",
   "refs": 1
  },
- "summary": "Tallow is a Forsaken warrior stationed in the fortified settlement of Tarren Mill within the Hillsbrad Foothills. Serving the Dark Lady and the Horde, he watches over the contested front lines, helping organize strikes against local Alliance threats.",
+ "summary": "At Tarren Mill, Tallow watches the contested front lines for the Dark Lady and the Horde. The Forsaken warrior helps organize strikes against Alliance threats in the Hillsbrad Foothills.",
  "sections": [
   {
    "title": "A Blade in Tarren Mill",
-   "body": "Situated in the heart of Tarren Mill, Tallow stands among the Forsaken and Horde forces holding the line in the Hillsbrad Foothills. The region is a powder keg of conflict, caught between nearby Southshore humans, wandering Syndicate outlaws, and hostile wildlife. Tallow helps direct capable adventurers into the field, testing their strength against the Boulderfist ogres of the Arathi Highlands before sending them on to aid the besieged outpost of Hammerfall.",
+   "body": "Tallow stands with the Forsaken and Horde forces holding Tarren Mill in the Hillsbrad Foothills. Conflict stirs across the region, with Southshore humans nearby, Syndicate outlaws on the roads, and hostile wildlife beyond the town. Tallow sends capable adventurers against the Boulderfist ogres of the Arathi Highlands to test their strength. Then he directs them to aid the besieged outpost of Hammerfall.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "tallow lore",
     "tallow tarren mill"
    ],
-   "answer": "Tallow is a Forsaken warrior based in Tarren Mill in the Hillsbrad Foothills, acting as an organizer and quest giver for Horde champions fighting in the area."
+   "answer": "Tallow is a Forsaken warrior in Tarren Mill who organizes Horde champions fighting in the area."
   },
   {
    "q": "Where can I find Tallow?",
@@ -33,7 +33,7 @@
     "tallow location",
     "find tallow"
    ],
-   "answer": "He can be found standing in the Forsaken-held town of Tarren Mill, located in the northern half of the Hillsbrad Foothills."
+   "answer": "Tallow stands in Tarren Mill, a Forsaken-held town in the northern Hillsbrad Foothills."
   },
   {
    "q": "What quests does Tallow offer?",
@@ -41,7 +41,7 @@
     "tallow quests",
     "the hammer may fall quest"
    ],
-   "answer": "Tallow is known for directing Horde adventurers in the mission 'The Hammer May Fall', sending fighters to prove themselves against the Boulderfist ogres of the Arathi Highlands before reporting to Drum Fel at the besieged Hammerfall outpost."
+   "answer": "Tallow sends Horde adventurers to prove themselves against the Boulderfist ogres of the Arathi Highlands, then report to Drum Fel at besieged Hammerfall."
   },
   {
    "q": "What is Tarren Mill's role in the conflict?",
@@ -49,17 +49,17 @@
     "why is tarren mill important",
     "tarren mill role"
    ],
-   "answer": "Tarren Mill serves as the primary northern Horde stronghold in the Hillsbrad Foothills, facing constant skirmishes and open warfare against the human bastion of Southshore to the south."
+   "answer": "Tarren Mill is the Horde's main stronghold in the northern Hillsbrad Foothills. It faces skirmishes and open warfare with Southshore, the human bastion to the south."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "Tallow provides essential frontline tasks for Horde champions looking to weaken the human presence throughout the Hillsbrad Foothills."
+   "text": "As a member of the Horde, you can help Tallow weaken the human presence throughout the Hillsbrad Foothills."
   },
   {
    "target": "race:Undead",
-   "text": "Like many Forsaken in Tarren Mill, Tallow fights to expand Undercity's dominion south of the Alterac Mountains."
+   "text": "As Forsaken, you share Tallow's fight to extend Undercity's dominion south of the Alterac Mountains."
   }
  ],
  "keywords": [
@@ -80,5 +80,6 @@
  ],
  "attribution": [
   "Tallow"
- ]
+ ],
+ "style": 1
 }

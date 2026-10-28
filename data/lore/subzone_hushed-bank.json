@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Hushed Bank"
  },
- "summary": "The Hushed Bank is the shadowy western shoreline of Duskwood, bordering the river that divides the forest from Westfall. Stretching from the junction near the Three Corners south toward Stranglethorn Vale, it is a quiet yet hazardous woodland stalked by prowling beasts and shadowed by dark mysteries.",
+ "summary": "Along Duskwood’s western river, Hushed Bank runs from Three Corners toward Stranglethorn Vale. Beasts prowl its quiet shore, where dark mysteries linger.",
  "sections": [
   {
    "title": "A Frontier Along the River",
-   "body": "Running along the river boundary between Duskwood and Westfall, the Hushed Bank marks the transition from open plains and sunlit farms to pervasive, unnatural twilight. The wooden covered bridge crosses the river here, offering passage to travelers heading west out of the grim wood. Thick underbrush and creeping fog dominate the riverbanks, where large spiders and hungry forest wolves stalk unwary wayfarers who stray from the beaten path.",
+   "body": "At Hushed Bank, Duskwood’s western edge follows the river that divides the forest from Westfall. The covered wooden bridge carries travelers west out of the grim wood. Near it, the land shifts from open plains and sunlit farms into unnatural twilight. Thick underbrush and creeping fog crowd the riverbanks. Large spiders and hungry forest wolves stalk wayfarers who stray from the path.",
    "spoiler": 0
   },
   {
    "title": "Outcasts and Hermits",
-   "body": "Near the northern reaches of the bank, solitary souls have carved out meager existences away from the suspicious eyes of Darkshire. Sven Yorgen and his companion Lars keep camp in these dense woods, watching the treeline and harboring bitter grievances tied to the dark tragedies that plagued the region. Their isolated refuge remains one of the few signs of living humanoid presence on this lonely shore.",
+   "body": "Near the north end of Hushed Bank, Sven Yorgen and his companion Lars keep camp in the dense woods, away from Darkshire’s suspicious eyes. They watch the treeline and harbor bitter grievances tied to the region’s dark tragedies. Their isolated refuge is one of the few signs of living humanoids along this lonely shore.",
    "spoiler": 1
   }
  ],
@@ -28,7 +28,7 @@
     "where is hushed bank",
     "hushed bank map"
    ],
-   "answer": "The Hushed Bank forms the western edge of Duskwood along the river that separates the forest from Westfall. It extends from the fork near Three Corners in the north down toward the southern borders leading toward Stranglethorn Vale."
+   "answer": "Hushed Bank runs along Duskwood’s western edge, beside the river separating the forest from Westfall. It stretches from the fork near Three Corners south toward the borders leading to Stranglethorn Vale."
   },
   {
    "q": "What connects the Hushed Bank to Westfall?",
@@ -37,7 +37,7 @@
     "westfall bridge duskwood",
     "how to cross river to westfall"
    ],
-   "answer": "A wooden covered bridge spans the river at the Hushed Bank, allowing foot and cart traffic to cross safely between the sunny plains of Westfall and the cursed gloom of Duskwood."
+   "answer": "A covered wooden bridge spans the river at Hushed Bank, letting travelers and carts cross between Westfall’s sunny plains and Duskwood’s cursed gloom."
   },
   {
    "q": "Who lives along the Hushed Bank?",
@@ -46,7 +46,7 @@
     "who is at hushed bank",
     "npcs hushed bank"
    ],
-   "answer": "Sven Yorgen and his associate Lars have established an encampment in the northern corner of the bank. Both live as isolated recluses, having fled the horrors that claimed Sven's nearby farm."
+   "answer": "Sven Yorgen and his companion Lars keep camp in the northern part of Hushed Bank. They live as isolated recluses, having fled the horrors that claimed Sven’s nearby farm."
   },
   {
    "q": "What threats are found along this shoreline?",
@@ -55,17 +55,17 @@
     "dangers of hushed bank",
     "hushed bank monsters"
    ],
-   "answer": "The Hushed Bank is home to vicious woodland beasts, including overgrown webwood spiders and predatory dusking wolves that prey upon anything moving through the brush."
+   "answer": "Vicious woodland beasts prowl Hushed Bank, including large webwood spiders and predatory dusking wolves that prey on anything moving through the brush."
   }
  ],
  "angles": [
   {
    "target": "class:Hunter",
-   "text": "The wolves and spiders haunting the dense foliage along the riverbank offer classic wilderness beasts for trackers charting the darker reaches of the forest."
+   "text": "As a hunter, you can track the wolves and spiders that haunt the dense foliage along the riverbank, classic wilderness beasts of the forest’s darker reaches."
   },
   {
    "target": "faction:Alliance",
-   "text": "The covered bridge along the bank serves as a critical strategic passage connecting the farmlands of Westfall to the besieged outpost of Duskwood."
+   "text": "As an Alliance traveler, you can cross the covered bridge that links Westfall’s farmlands to Duskwood’s besieged outpost."
   }
  ],
  "keywords": [
@@ -88,5 +88,6 @@
  ],
  "attribution": [
   "Hushed Bank"
- ]
+ ],
+ "style": 1
 }

@@ -10,16 +10,16 @@
    "quest:524"
   ]
  },
- "summary": "The Tainted Keg is a barrel of stolen dwarven stout laced with a lethal Forsaken brew concocted by Apothecary Lydon. Delivered under the guise of refreshments to imprisoned human farmers in Tarren Mill, it serves as a gruesome field test for the Royal Apothecary Society's developing poisons.",
+ "summary": "At Tarren Mill, Tainted Keg carries stolen dwarven stout laced with a lethal Forsaken brew made by Apothecary Lydon. Sent to imprisoned human farmers as refreshments, it tests poisons being developed by the Royal Apothecary Society.",
  "sections": [
   {
    "title": "A Deadly Vintage",
-   "body": "The keg began its existence as a barrel of Shindigger Stout, plundered from the dwarven riflemen entrenched at Dun Garok. Rather than drinking it, Apothecary Lydon contaminated the hearty ale with his newly refined Elixir of Agony. By lacing an ordinary beverage, the Forsaken crafted an insidious vector designed to slip past suspicion, turning a familiar comforts of the living into a swift death sentence.",
+   "body": "Dun Garok's dwarven riflemen lost a barrel of Shindigger Stout to thieves. Apothecary Lydon mixed the stout with his newly refined Elixir of Agony. The Forsaken chose an ordinary drink to carry the poison, hoping it would escape suspicion. A familiar ale became a swift death sentence.",
    "spoiler": 0
   },
   {
    "title": "Testing on the Condemned",
-   "body": "Held upstairs in the Tarren Mill inn, several human farmers were captured after High Executor Darthalia suspected a Stormwind military strategist had hidden among them. When word arrived that the strategist had perished elsewhere, the captive laborers became expendable. Darthalia handed them over to Lydon, who staged a cruel celebration by having the poisoned keg placed on the rug in their holding room. Parched and desperate, the prisoners drank freely, proving the elixir's immediate, fatal potency.",
+   "body": "Several human farmers were held upstairs in the Tarren Mill inn. High Executor Darthalia suspected a Stormwind military strategist was hiding among them. When word came that the strategist had died elsewhere, the farmers were no longer of use. Darthalia gave them to Lydon, who placed the poisoned keg on the rug in their holding room as part of a cruel celebration. Thirsty and desperate, the prisoners drank. The elixir killed them swiftly, proving its fatal potency.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "what poison is in the keg",
     "what is in the barrel"
    ],
-   "answer": "It contains Shindigger Stout\u2014a rich dwarven ale stolen from Dun Garok\u2014mixed with the Elixir of Agony, an experimental toxin created by Apothecary Lydon in Tarren Mill."
+   "answer": "The keg holds Shindigger Stout, a dwarven ale stolen from Dun Garok and mixed with the Elixir of Agony, an experimental poison made by Apothecary Lydon in Tarren Mill."
   },
   {
    "q": "Where did the ale originally come from?",
@@ -40,7 +40,7 @@
     "where was the stout stolen from",
     "shindigger stout source"
    ],
-   "answer": "The base brew was taken from the dwarven mountaineers and riflemen occupying Dun Garok, a heavily defended dwarven fortress situated in southeastern Hillsbrad Foothills."
+   "answer": "The stout was taken from the dwarven mountaineers and riflemen at Dun Garok, a heavily defended fortress in southeastern Hillsbrad Foothills."
   },
   {
    "q": "Who drinks from the keg?",
@@ -49,7 +49,7 @@
     "tainted keg victims",
     "captured farmers"
    ],
-   "answer": "A group of human farmers held hostage in the upstairs room of the Tarren Mill inn drink from the barrel, collapsing and dying almost instantly from the tainted brew."
+   "answer": "Human farmers held in an upstairs room of the Tarren Mill inn drink from the keg and die almost at once from the poisoned brew."
   },
   {
    "q": "Why were the farmers being held prisoner?",
@@ -58,17 +58,17 @@
     "why did darthalia capture farmers",
     "why are farmers in tarren mill"
    ],
-   "answer": "High Executor Darthalia arrested them under suspicion that an Alliance military strategist from Stormwind was hiding in their ranks. Once that strategist was confirmed dead in the Plaguelands, the captive farmers were deemed useless and handed to the apothecaries."
+   "answer": "High Executor Darthalia imprisoned the farmers because she suspected an Alliance military strategist from Stormwind was hiding among them. After the strategist was confirmed dead in the Plaguelands, the farmers were deemed useless and handed to the apothecaries."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "For the Royal Apothecary Society, the tainted stout is a practical milestone in engineering biological weapons capable of eradicating humanity."
+   "text": "For the Royal Apothecary Society, the tainted stout marks progress in making biological weapons that can eradicate humanity."
   },
   {
    "target": "race:Human",
-   "text": "The slaughter of captured rural laborers by laced ale shows the harrowing, merciless tactics facing the living remnants throughout Hillsbrad."
+   "text": "Laced ale used to kill captured rural laborers shows the merciless tactics facing the living remnants throughout Hillsbrad."
   }
  ],
  "keywords": [
@@ -93,5 +93,6 @@
  "attribution": [
   "Tainted Keg",
   "Elixir of Agony (5)"
- ]
+ ],
+ "style": 1
 }

@@ -17,16 +17,16 @@
   "wiki": "The Howling Vale (quest)",
   "chain": []
  },
- "summary": "Assigned by Sentinel Melyria Frostshadow at the Shrine of Aessina, this quest sends Alliance adventurers into the Howling Vale near the Felwood border. The ruined shrine of Mel'Thandris has been overrun by feral wolf-men known as worgen. By consulting the sacred Tome of Mel'Thandris, investigators hope to uncover why these bizarre creatures have emerged in Ashenvale.",
+ "summary": "At the Howling Vale, worgen have overrun a ruined shrine near Felwood. Sentinel Melyria Frostshadow seeks the cause of their arrival in Ashenvale.",
  "sections": [
   {
    "title": "A Chilling Presence",
-   "body": "While night elf sentinels expend heavy resources holding the line against the demonic corruption spilling out of Felwood, a new threat has quietly nested in the northern hills of Ashenvale. The ruined shrine of Mel'Thandris, hidden beyond a cavern path near the Felwood border, has fallen to ferocious wolf-men whose haunting cries echo across the canopy. The area is now known as the Howling Vale, and Sentinel Melyria Frostshadow fears this beastly infestation may herald another disaster for the woodland realm.",
+   "body": "Worgen cries echo from a ruined shrine in northern Ashenvale. The shrine of Mel'Thandris lies beyond a cavern path near the Felwood border. Sentinel Melyria Frostshadow fears the worgen may bring another disaster to the woodland realm. Night elf sentinels are already spending great effort holding back demonic corruption from Felwood.",
    "spoiler": 0
   },
   {
    "title": "The Living Chronicle",
-   "body": "To understand where these beasts originated, Melyria directs seekers to the Tome of Mel'Thandris, resting inside the overrun shrine. The tome is far from an ordinary text; its leaves were blessed by Mel'Thandris herself to supernaturally reflect and capture significant events. When opened amid the hostile worgen, the artifact conjures a spectral vision of Priestess Velinde Starsong, unravelling the fateful invocation of a mysterious relic known as the Scythe of Elune.",
+   "body": "Melyria sends seekers to the overrun shrine to consult the Tome of Mel'Thandris. Mel'Thandris blessed its leaves to capture significant events. Opened among the hostile worgen, the tome summons a spectral vision of Priestess Velinde Starsong. The vision reveals her fateful invocation of the mysterious Scythe of Elune.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "how to get to howling vale",
     "where is the shrine of mel'thandris"
    ],
-   "answer": "The Howling Vale sits in north-central Ashenvale, just southwest of the border of Felwood. A cave passage opens out into the hidden vale and the ruined shrine of Mel'Thandris."
+   "answer": "The Howling Vale lies in north-central Ashenvale, just southwest of the Felwood border. A cave passage leads into the vale and to the ruined shrine of Mel'Thandris."
   },
   {
    "q": "What are the wolf-men in the vale?",
@@ -47,7 +47,7 @@
     "what are the monsters in howling vale",
     "terrowulf worgen"
    ],
-   "answer": "These savage wolf-men are worgen, specifically Terrowulf pack members. They are unnatural, ferocious bipedal beasts that suddenly appeared in Kalimdor, terrorizing the ruins near the Felwood frontier."
+   "answer": "The wolf-men are worgen, specifically members of the Terrowulf pack. These savage, unnatural beasts walk on two legs and suddenly appeared in Kalimdor, terrorizing ruins near the Felwood frontier."
   },
   {
    "q": "What is the Tome of Mel'Thandris?",
@@ -56,7 +56,7 @@
     "what does the tome do",
     "mel'thandris book"
    ],
-   "answer": "The Tome of Mel'Thandris is an enchanted relic resting within the shrine ruins. Rather than being inked like an ordinary book, its leaves were blessed by Mel'Thandris to record and project visions of pivotal historical moments directly to those who study it."
+   "answer": "The Tome of Mel'Thandris is an enchanted relic in the shrine ruins. Mel'Thandris blessed its leaves to capture and project visions of pivotal events to those who study it."
   },
   {
    "q": "Who was Velinde Starsong?",
@@ -65,7 +65,7 @@
     "priestess velinde",
     "who is the ghost in the tome"
    ],
-   "answer": "Velinde Starsong was a night elf priestess associated with the struggle against demons near Felwood. The Tome of Mel'Thandris may provide clues to her story."
+   "answer": "Velinde Starsong was a night elf priestess involved in the struggle against demons near Felwood. The Tome of Mel'Thandris may reveal more of her story."
   },
   {
    "q": "Who gives this quest?",
@@ -74,7 +74,7 @@
     "howling vale quest giver",
     "melyria frostshadow"
    ],
-   "answer": "Sentinel Melyria Frostshadow provides the quest from the Shrine of Aessina in Ashenvale. She is deeply concerned about demonic incursions from Felwood and the unexplained emergence of the worgen nearby."
+   "answer": "Sentinel Melyria Frostshadow asks from the Shrine of Aessina in Ashenvale. She is troubled by demonic incursions from Felwood and the unexplained arrival of nearby worgen."
   },
   {
    "q": "Why does Sentinel Melyria care about the shrine?",
@@ -82,21 +82,21 @@
     "why investigate howling vale",
     "forest song sentinels"
    ],
-   "answer": "The Sentinels in Ashenvale stand as a bulwark against corruption from Felwood. When mysterious wolf-men violently overtook an ancient night elf holy site right along that border, the Sentinels needed to discover whether this was a demonic scheme or an entirely new danger."
+   "answer": "Sentinels in Ashenvale guard against corruption from Felwood. After wolf-men seized an ancient night elf holy site near the border, the Sentinels needed to learn whether demons were behind it or a new danger had emerged."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "The desecration of Mel'Thandris's shrine and the tragic visions of Priestess Velinde Starsong strike at the heart of the night elves' sacred duty to protect Ashenvale from strange curses."
+   "text": "As a night elf, the desecration of Mel'Thandris's shrine strikes at your duty to protect Ashenvale. The visions of Priestess Velinde Starsong bring a sorrowful glimpse of that burden."
   },
   {
    "target": "faction:Alliance",
-   "text": "The investigation at the Howling Vale marks the beginning of an Alliance search into the origin of the terrifying worgen beasts that stalk both northern Kalimdor and the Eastern Kingdoms."
+   "text": "As an Alliance member, you join the search for the origin of the terrifying worgen stalking northern Kalimdor and the Eastern Kingdoms."
   },
   {
    "target": "class:Priest",
-   "text": "Priests will find the search for Priestess Velinde Starsong a sobering tale of devotion to Elune."
+   "text": "As a priest, you may find the search for Priestess Velinde Starsong a sobering tale of devotion to Elune."
   }
  ],
  "keywords": [
@@ -122,5 +122,6 @@
  ],
  "attribution": [
   "The Howling Vale (quest)"
- ]
+ ],
+ "style": 1
 }

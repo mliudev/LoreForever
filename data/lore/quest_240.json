@@ -21,16 +21,16 @@
    "Return to Jitters"
   ]
  },
- "summary": "Return to Jitters concludes Chef Grual's culinary errand in Duskwood. Having prepared his infamous 'crab' cakes using the gooey legs of the local venom web spiders, Grual sends you back to the starving, terrified hermit at Raven Hill. Delivering the meal finally satisfies Jitters' desperate hunger.",
+ "summary": "At Raven Hill, you bring Jitters a meal from Chef Grual. The cakes finally satisfy the hermit's desperate hunger.",
  "sections": [
   {
    "title": "A Dubious Delicacy",
-   "body": "Duskwood is short on conventional livestock and sea life, leaving Chef Grual at the Scarlet Raven Tavern to improvise with whatever the blighted forest provides. His renowned 'Dusky Crab Cakes' contain no actual crab meat at all, relying instead on gooey legs harvested from the venom web spiders creeping through the wood. Grual considers this resourceful cooking; anyone with a delicate stomach might view it with horror.",
+   "body": "Chef Grual cooks at the Scarlet Raven Tavern, where Duskwood's lack of livestock and sea life leaves him to use what the blighted forest provides. His specialty, Dusky Crab Cakes, contain no crab meat. Instead, Grual uses gooey legs from venom web spiders that creep through the wood. He calls it resourceful cooking; delicate stomachs may disagree.",
    "spoiler": 0
   },
   {
    "title": "Soothing Jitters' Nerves",
-   "body": "Jitters spends his days huddled at Raven Hill, utterly consumed by fright and paralyzed by whatever horrors drove him out of the woods. Weak with terror and unable to muster the courage to hunt or forage for himself, his empty stomach only amplifies his distress. Receiving the warm cakes brings a rare moment of relief to the trembling vagrant, who is far too hungry to question what kind of 'crab' Chef Grual used.",
+   "body": "At Raven Hill, Jitters huddles in fear, unable to face whatever horrors drove him from the woods. Terror keeps him from hunting or foraging, and hunger deepens his distress. The warm cakes bring a rare moment of relief to the trembling vagrant. Desperate for food, he eats without asking what kind of crab Grual used.",
    "spoiler": 0
   }
  ],
@@ -42,7 +42,7 @@
     "what are dusky crab cakes made of",
     "are they real crab"
    ],
-   "answer": "There are no crabs in Duskwood. Chef Grual makes his specialty cakes using the gooey legs of local venom web spiders, seasoning them to mimic traditional seafood cakes."
+   "answer": "Dusky Crab Cakes contain no crab. Chef Grual uses gooey legs from local venom web spiders, seasoning them to mimic traditional seafood cakes."
   },
   {
    "q": "Does Jitters know the cakes are made of spider goo?",
@@ -50,7 +50,7 @@
     "does jitters know",
     "does jitters know about the spiders"
    ],
-   "answer": "Chef Grual keeps his culinary secret to himself, and Jitters is far too starved and terrified to ask about the recipe. He eagerly eats them without suspecting their true origin."
+   "answer": "Chef Grual keeps the recipe to himself. Starved and terrified, Jitters eagerly eats the cakes without asking what is in them."
   },
   {
    "q": "Why couldn't Jitters get his own food?",
@@ -58,7 +58,7 @@
     "why is jitters starving",
     "why doesn't jitters hunt"
    ],
-   "answer": "Jitters is completely overwhelmed by fear following his encounters in the wild woods of Duskwood. Paralyzed by panic, he refuses to venture far from his hiding place at Raven Hill and relies on sympathetic travelers to bring him sustenance."
+   "answer": "Jitters is overwhelmed by fear after what he encountered in Duskwood's wild woods. Panic keeps him close to Raven Hill, where he depends on sympathetic travelers for food."
   },
   {
    "q": "Who is Chef Grual?",
@@ -66,7 +66,7 @@
     "chef grual role",
     "cook in darkshire"
    ],
-   "answer": "Chef Grual is the cook at the Scarlet Raven Tavern in Darkshire. Faced with a town isolated by shadows and beasts, he uses whatever unconventional ingredients scavengers bring him to keep the local tavern fed."
+   "answer": "Chef Grual cooks at the Scarlet Raven Tavern in Darkshire. With the town cut off by shadows and beasts, he uses unconventional ingredients scavengers bring him to feed the tavern's patrons."
   },
   {
    "q": "Where does this quest chain begin?",
@@ -74,7 +74,7 @@
     "how to start jitters food quest",
     "jitters quest chain start"
    ],
-   "answer": "The errand begins with Jitters at Raven Hill asking for help with his rumbling stomach in 'Jitters' Growling Gut', which leads to hunting venom web spiders for Chef Grual before returning here with the finished meal."
+   "answer": "Jitters begins by asking for help with his hunger at Raven Hill in Jitters' Growling Gut. That leads you to hunt venom web spiders for Chef Grual, then return with the finished meal."
   },
   {
    "q": "Does Jitters recover after eating?",
@@ -82,17 +82,17 @@
     "is jitters cured",
     "does food help jitters"
    ],
-   "answer": "The meal satisfies his physical hunger and earns you his heartfelt gratitude, but food does not cure his deep-seated psychological terror. He remains anxious and haunted by the dark secrets of the forest."
+   "answer": "The meal satisfies Jitters' hunger, and he gives you his heartfelt gratitude. Food cannot ease his deep terror; he remains anxious and haunted by the forest's dark secrets."
   }
  ],
  "angles": [
   {
    "target": "profession:Cooking",
-   "text": "Chef Grual's ability to turn gooey venom web spider legs into palatable cakes is a testament to the gritty resourcefulness demanded of cooks on the frontier."
+   "text": "Chef Grual turns gooey venom web spider legs into palatable cakes, showing the resourcefulness cooking demands on the frontier."
   },
   {
    "target": "faction:Alliance",
-   "text": "The meager, unconventional diet in Darkshire reflects how cut off the town is from Stormwind's broader supply lines, leaving locals to rely on whatever creeps in the shadows."
+   "text": "Darkshire's meager, unusual diet reflects how cut off the town is from Stormwind's supplies. Locals rely on whatever creeps in the shadows."
   }
  ],
  "keywords": [
@@ -113,5 +113,6 @@
  ],
  "attribution": [
   "Return to Jitters"
- ]
+ ],
+ "style": 1
 }

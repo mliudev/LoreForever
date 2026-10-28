@@ -17,21 +17,21 @@
   "wiki": "Mortality Wanes",
   "chain": []
  },
- "summary": "Deep within the hostile briars of Razorfen Kraul, a dying night elf named Heralath Fallowbrook whispers his final plea to passing Alliance adventurers. Stripped of his strength and life, he asks only that his wife's stolen pendant of bonding be recovered and brought home to Darnassus alongside news of his demise.",
+ "summary": "Heralath Fallowbrook lies dying in Razorfen Kraul, with one last plea for the living. He asks that his wife's stolen pendant reach Darnassus, along with word of his death.",
  "sections": [
   {
    "title": "A Dying Breath in the Thorns",
-   "body": "Razorfen Kraul is a perilous redoubt overrun by savage quilboar and dark magic, far from Alliance territory. Among these treacherous brambles lies Heralath Fallowbrook, mortally wounded and fading fast. With his dying strength, he manages only broken whispers, revealing that a brave dwarf named Lonebrow was sent ahead to deliver a warning to Falfindel. Heralath, however, knows he will never leave the Kraul alive.",
+   "body": "In Razorfen Kraul, Heralath Fallowbrook lies mortally wounded among the brambles. The stronghold is overrun by savage quilboar and dark magic, far from Alliance territory. With his strength fading, Heralath manages only broken whispers. He says a brave dwarf named Lonebrow was sent ahead to warn Falfindel. Heralath knows he will not leave the Kraul alive.",
    "spoiler": 0
   },
   {
    "title": "The Pendant of Bonding",
-   "body": "Before succumbing to his wounds, Heralath clings to one final wish: retrieving a token of his marriage. A pendant symbolizing his eternal bond with his wife, Treshala, was torn from him by one of the lair's foul aggressors. He begs any traveler who stops beside him to recover the pendant and carry it all the way across Kalimdor to Darnassus, ensuring Treshala learns the truth of his lonely death rather than waiting in vain.",
+   "body": "Heralath's last wish is to recover the pendant that marks his marriage to Treshala Fallowbrook. One of the lair's aggressors tore it from him. He asks any traveler who stops beside him to carry it across Kalimdor to Darnassus, so Treshala learns of his death instead of waiting in vain.",
    "spoiler": 0
   },
   {
    "title": "Grief in Darnassus",
-   "body": "When Treshala Fallowbrook receives the recovered heirloom in Darnassus, she is devastated by the confirmation of her husband's demise. Confronting the harsh cruelty of the world, she vows that Heralath's work will not perish alongside him. Left to mourn in quiet solitude, she takes up the weight of his legacy while grappling with her sudden grief.",
+   "body": "Treshala Fallowbrook receives her husband's recovered pendant in Darnassus and learns that he has died. Devastated, she vows that Heralath's work will not perish with him. She is left to mourn alone and carry his legacy through her sudden grief.",
    "spoiler": 1
   }
  ],
@@ -43,7 +43,7 @@
     "who is heralath",
     "dying elf razorfen"
    ],
-   "answer": "Heralath Fallowbrook is an Alliance night elf found mortally wounded within Razorfen Kraul. Fading quickly from his injuries, he entrusts passing adventurers with recovering his wife's stolen bonding pendant and bringing news of his death to Darnassus."
+   "answer": "Heralath Fallowbrook is an Alliance night elf found mortally wounded in Razorfen Kraul. As his strength fades, he entrusts passing travelers with recovering his wife's stolen pendant of bonding and taking word of his death to Darnassus."
   },
   {
    "q": "Where is Heralath Fallowbrook located?",
@@ -52,7 +52,7 @@
     "where is heralath",
     "where to find heralath"
    ],
-   "answer": "Heralath is located inside Razorfen Kraul, the thorn-choked quilboar bastion situated in the southern reaches of the Barrens."
+   "answer": "Heralath Fallowbrook lies inside Razorfen Kraul, the thorn-choked quilboar stronghold in the southern Barrens."
   },
   {
    "q": "Who was Lonebrow?",
@@ -61,7 +61,7 @@
     "who is lonebrow",
     "lonebrow warning"
    ],
-   "answer": "Lonebrow is a brave dwarf mentioned by Heralath in his final moments. Lonebrow was apparently sent on an urgent errand out of the briars to warn Falfindel about the dangers unfolding in the Kraul."
+   "answer": "Lonebrow is a brave dwarf Heralath mentions in his final moments. Heralath says Lonebrow was sent out of the briars to warn Falfindel about the dangers in the Kraul."
   },
   {
    "q": "Who is Treshala Fallowbrook?",
@@ -70,7 +70,7 @@
     "who is treshala",
     "heralath wife"
    ],
-   "answer": "Treshala is Heralath's wife, residing in the night elven capital of Darnassus. She receives the recovered pendant and must bear the tragic news of her husband's death."
+   "answer": "Treshala Fallowbrook is Heralath's wife and lives in Darnassus. She receives the recovered pendant and learns of her husband's death."
   },
   {
    "q": "What is the pendant of bonding?",
@@ -79,7 +79,7 @@
     "what is the pendant",
     "pendant of bonding"
    ],
-   "answer": "The pendant of bonding is a cherished keepsake signifying the marriage between Heralath and Treshala Fallowbrook. It was stolen from Heralath by the quilboar aggressors in Razorfen Kraul before he died."
+   "answer": "The pendant of bonding is a keepsake that signifies the marriage of Heralath and Treshala Fallowbrook. Quilboar aggressors stole it from Heralath before he died in Razorfen Kraul."
   },
   {
    "q": "How does Treshala react to the news?",
@@ -87,21 +87,21 @@
     "treshala reaction",
     "what happens when you deliver the pendant"
    ],
-   "answer": "Treshala is heartbroken by the tragedy and laments the cruelty of the world. Despite her profound grief, she resolves that Heralath's work must continue through her, asking to be left alone to mourn."
+   "answer": "Treshala is heartbroken and laments the world's cruelty. In her grief, she resolves that Heralath's work must continue through her, then asks to be left alone to mourn."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "For Alliance champions venturing into the heart of the Horde-dominated Barrens, carrying Heralath's final token home to Darnassus is a somber duty of honor."
+   "text": "As an Alliance champion in the Horde-dominated Barrens, you carry Heralath's final token home to Darnassus as a somber duty of honor."
   },
   {
    "target": "race:NightElf",
-   "text": "Night elves feel a deep personal sting seeing one of their kin perish alone and forgotten in the barbaric thistles of the southern Barrens."
+   "text": "As a night elf, you feel the sting of seeing one of your kin perish alone and forgotten in the southern Barrens."
   },
   {
    "target": "race:Dwarf",
-   "text": "Heralath's dying words honor the bravery of the dwarf Lonebrow, who risked his life to carry an urgent warning away from the quilboar stronghold."
+   "text": "As a dwarf, you hear Heralath honor Lonebrow's bravery in carrying an urgent warning away from the quilboar stronghold."
   }
  ],
  "keywords": [
@@ -123,5 +123,6 @@
  ],
  "attribution": [
   "Mortality Wanes"
- ]
+ ],
+ "style": 1
 }

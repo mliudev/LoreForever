@@ -8,16 +8,16 @@
   "wiki": "Grand Mason Marblesten",
   "refs": 3
  },
- "summary": "Grand Mason Marblesten is an esteemed dwarven stonemason stationed in the busy Commons of Ironforge. Deeply devoted to the royal legacy of Khaz Modan, he has been commissioned by King Magni Bronzebeard to build a memorial to Sully Balloo, a dwarven soldier who died in the Thandol Span tragedy. Adventurers often meet him when assisting with the materials needed to complete this solemn tribute.",
+ "summary": "In Ironforge's Commons, Grand Mason Marblesten prepares a tribute to Sully Balloo. King Magni Bronzebeard commissioned the memorial for the dwarven soldier, who died in the Thandol Span tragedy, and Marblesten seeks stone worthy of the work.",
  "sections": [
   {
    "title": "Master of the Stone",
-   "body": "Dwarven stonemasonry is not merely a trade; it is an enduring art form that shapes the very soul of Ironforge. Grand Mason Marblesten stands among the city's foremost masters of the chisel, representing the centuries-old tradition of carving halls, pillars, and great effigies straight from the living mountain. Based in the Commons, he oversees civic projects and commemorative monuments that immortalize Bronzebeard history.",
+   "body": "Grand Mason Marblesten oversees civic projects and memorials in Ironforge's Commons. Dwarven stonemasons carve halls, pillars, and great effigies from the mountain, carrying on a tradition centuries old. Marblesten is among the city's foremost masters of the chisel, shaping stone to preserve the history of the Bronzebeard line.",
    "spoiler": 0
   },
   {
    "title": "A King's Tribute",
-   "body": "Marblesten's most poignant task is a memorial King Magni commissioned for Sully Balloo, a soldier who died in the Thandol Span tragedy, as a tribute to his grieving widow. Wanting a truly lasting piece, the Grand Mason insists on one of the finest stones available: Alterac Granite from Darrow Hill in Hillsbrad.",
+   "body": "King Magni commissioned Marblesten to build a memorial to Sully Balloo, a soldier who died in the Thandol Span tragedy. The memorial honors Balloo and his grieving widow. For a lasting tribute, Marblesten seeks Alterac Granite, one of the finest stones available, from Darrow Hill in Hillsbrad.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "marblesten role",
     "grand mason npc"
    ],
-   "answer": "Grand Mason Marblesten is a senior dwarven stonemason located in the Commons of Ironforge. He is entrusted with civic and royal sculpting projects, most notably a memorial to the fallen soldier Sully Balloo, commissioned by King Magni Bronzebeard."
+   "answer": "Grand Mason Marblesten is a senior dwarven stonemason in Ironforge's Commons. He oversees civic and royal sculpting projects, including the memorial to Sully Balloo commissioned by King Magni Bronzebeard."
   },
   {
    "q": "Where can I find Grand Mason Marblesten?",
@@ -38,7 +38,7 @@
     "where is marblesten",
     "ironforge marblesten"
    ],
-   "answer": "He can be found in the Commons district of Ironforge, surrounded by stone blocks and architectural works not far from the city's bustling shops and banks."
+   "answer": "You can find Grand Mason Marblesten in the Commons district of Ironforge, among stone blocks and architectural works near the city's shops and banks."
   },
   {
    "q": "What monument is Marblesten working on?",
@@ -47,7 +47,7 @@
     "kings tribute quest",
     "marblesten statue"
    ],
-   "answer": "He is building a memorial to Sully Balloo, a dwarven soldier who died in the Thandol Span tragedy. King Magni Bronzebeard commissioned it in tribute to Balloo and his grieving widow."
+   "answer": "Marblesten is building a memorial to Sully Balloo, a dwarven soldier who died in the Thandol Span tragedy. King Magni Bronzebeard commissioned it to honor Balloo and his grieving widow."
   },
   {
    "q": "Why does Marblesten need adventurers to gather materials?",
@@ -56,7 +56,7 @@
     "why need stones",
     "materials for monument"
    ],
-   "answer": "Marblesten wants a truly epic and lasting piece, so he will only work with one of the finest stones available. He sends travelers to Darrow Hill in Hillsbrad to gather Alterac Granite."
+   "answer": "Marblesten seeks one of the finest stones for a lasting memorial. He sends travelers to Darrow Hill in Hillsbrad to gather Alterac Granite."
   },
   {
    "q": "What does the title 'Grand Mason' mean in dwarven society?",
@@ -64,7 +64,7 @@
     "what is a grand mason",
     "dwarf mason rank"
    ],
-   "answer": "Among dwarves, stoneworking is revered alongside blacksmithing. A 'Grand Mason' is an accomplished master of stonecraft, trusted with major state projects, royal architectural designs, and ceremonial memorials."
+   "answer": "Among dwarves, a Grand Mason is a master of stonecraft trusted with major state projects, royal architectural designs, and ceremonial memorials. Stoneworking is revered alongside blacksmithing."
   },
   {
    "q": "Is Marblesten an Alliance official or a private contractor?",
@@ -72,21 +72,21 @@
     "who does marblesten work for",
     "marblesten faction"
    ],
-   "answer": "Marblesten operates directly within Ironforge and serves the Ironforge kingdom and the Alliance, coordinating closely with King Magni Bronzebeard's court for royal commissions."
+   "answer": "Marblesten works within Ironforge for the kingdom and the Alliance. He coordinates with King Magni Bronzebeard's court on royal commissions."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "For dwarves, stonecraft is ancestral heritage; aiding Marblesten pays homage both to the craft of Khaz Modan and to the memory of the fallen soldier Sully Balloo."
+   "text": "For dwarves, stonecraft is an ancestral heritage. Helping Marblesten honors the craft of Khaz Modan and the memory of Sully Balloo."
   },
   {
    "target": "profession:Mining",
-   "text": "Miners who work closely with the rock of Dun Morogh and beyond will appreciate Marblesten's exacting standards for raw mineral quality."
+   "text": "Miners who work the rock of Dun Morogh and beyond will know the care Marblesten gives to the quality of raw stone."
   },
   {
    "target": "faction:Alliance",
-   "text": "Honoring the sacrifice of Sully Balloo reminds the Alliance of every soldier lost in its wars."
+   "text": "For the Alliance, Sully Balloo's sacrifice recalls the soldiers lost in its wars."
   }
  ],
  "keywords": [
@@ -108,5 +108,6 @@
  ],
  "attribution": [
   "Grand Mason Marblesten"
- ]
+ ],
+ "style": 1
 }

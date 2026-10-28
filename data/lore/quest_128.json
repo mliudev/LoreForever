@@ -17,16 +17,16 @@
   "wiki": "Blackrock Bounty",
   "chain": []
  },
- "summary": "Blackrock Bounty is a defense contract issued by Guard Howe in Lakeshire on behalf of Magistrate Solomon. With Stormwind failing to dispatch reinforcements, the town pays independent adventurers to cull the elite Blackrock Champions massing in the northern mountains. Striking down these battlefield unit commanders is aimed at disrupting the orc clan's coordinated assault on Redridge.",
+ "summary": "In Lakeshire, Magistrate Solomon has Guard Howe offer a bounty as Blackrock forces gather in northern Redridge. Stormwind sends no royal soldiers, so the town pays independent fighters to strike at Blackrock Champions and disrupt the clan’s coordinated assault.",
  "sections": [
   {
    "title": "Holding the Sovereign Line",
-   "body": "Redridge has long fallen under the sovereign rule of the Kingdom of Stormwind, but the Blackrock clan does not honor human borders. Pouring down through the mountain passes leading from the Burning Steppes, the orcs have established heavily fortified encampments across northern Redridge. With King Varian Wrynn missing and the regency in Stormwind withholding royal soldiers, local leaders like Magistrate Solomon have been forced to put up bounties from the town's dwindling coffers to protect Lakeshire.",
+   "body": "Redridge belongs to the Kingdom of Stormwind, but the Blackrock clan ignores human borders. Orcs pour through the mountain passes from the Burning Steppes and fortify camps across northern Redridge. King Varian Wrynn is missing, and Stormwind’s regency withholds royal soldiers. With the town’s coffers dwindling, Magistrate Solomon and other local leaders offer bounties to protect Lakeshire.",
    "spoiler": 0
   },
   {
    "title": "Targeting the Champions",
-   "body": "Guard Howe identifies the Blackrock Champions as the backbone of the invading vanguard. Serving as squad leaders and battle-hardened veterans within their warbands, these champions coordinate troop movements and drive the lesser grunt forces forward. By putting a price on their heads, Lakeshire's defenders hope to break the clan's tactical leadership and stall a full-scale push south before the township's outer perimeter collapses.",
+   "body": "Guard Howe names the Blackrock Champions as the backbone of the invading vanguard. These squad leaders are battle-hardened veterans who coordinate their warbands and drive lesser grunts forward. Lakeshire’s defenders hope a bounty on the Champions will break the clan’s tactical leadership and stall a full-scale push south before the town’s outer defenses collapse.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "where is town guard",
     "guard howe bounty"
    ],
-   "answer": "Lakeshire's local garrison is stretched to the breaking point. Between patrolling Lake Everstill, guarding the bridges, and holding off gnolls and orc raiders, the guards cannot spare a force large enough to assault fortified orc warcamps directly without leaving the town defenseless."
+   "answer": "Lakeshire’s garrison is stretched thin. Its guards patrol Lake Everstill, protect the bridges, and hold off gnolls and orc raiders. They cannot spare enough fighters to assault the fortified orc camps directly without leaving the town defenseless."
   },
   {
    "q": "Where are the Blackrock Champions located?",
@@ -47,7 +47,7 @@
     "champion location",
     "blackrock champion camp"
    ],
-   "answer": "They are stationed in the sprawling Blackrock camps in northern Redridge Mountains, just to the west of the high road that climbs toward the Burning Steppes."
+   "answer": "The Blackrock Champions are stationed in the sprawling Blackrock camps in northern Redridge Mountains, just west of the high road that climbs toward the Burning Steppes."
   },
   {
    "q": "Why are the Blackrock orcs invading Redridge?",
@@ -56,7 +56,7 @@
     "why orcs attacking lakeshire",
     "blackrock invasion"
    ],
-   "answer": "Operating out of Blackrock Mountain to the north, the Blackrock clan views the surrounding hills as strategic territory to conquer and pillage. With Stormwind's defense fragmented, they seek to drive out human settlements and claim dominion over the mountain passes."
+   "answer": "The Blackrock clan operates from Blackrock Mountain to the north and seeks to conquer and pillage the surrounding hills. With Stormwind’s defense fragmented, the orcs aim to drive out human settlements and claim the mountain passes."
   },
   {
    "q": "Why doesn't Stormwind send royal soldiers to clear them out?",
@@ -65,7 +65,7 @@
     "where is stormwind help",
     "magistrate solomon reinforcements"
    ],
-   "answer": "King Varian Wrynn is missing, and the royal court under Regent Bolvar Fordragon and Lady Prestor insists that the kingdom's armies cannot be spared. Lakeshire has repeatedly petitioned the capital for aid, only to be denied and left to hire passing mercenaries."
+   "answer": "King Varian Wrynn is missing, and the royal court under Regent Bolvar Fordragon and Lady Prestor says the kingdom’s armies cannot be spared. Lakeshire has repeatedly petitioned the capital for help, but its requests are denied, leaving the town to hire passing mercenaries."
   },
   {
    "q": "What role do Champions serve within the Blackrock clan?",
@@ -74,7 +74,7 @@
     "champion rank",
     "blackrock leader unit"
    ],
-   "answer": "Champions act as frontline tactical leaders. Each Blackrock combat squad relies on a champion to direct attacks, enforce brutal discipline, and lead charges into Alliance territory."
+   "answer": "Blackrock Champions are frontline tactical leaders. They direct attacks, enforce brutal discipline, and lead charges into Alliance territory."
   },
   {
    "q": "Who authorized this bounty contract?",
@@ -83,21 +83,21 @@
     "who wants champions dead",
     "magistrate solomon bounty"
    ],
-   "answer": "Magistrate Solomon, the civic leader of Lakeshire, authorized the bounty and tasked Guard Howe with recruiting capable fighters to carry out the culling."
+   "answer": "Magistrate Solomon, Lakeshire’s civic leader, authorized the bounty and tasked Guard Howe with recruiting capable fighters to carry out the culling."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Lakeshire stands as Stormwind's eastern shield; if the Blackrock orcs break through these mountain camps, the core farmlands of the Alliance will be directly exposed to invasion."
+   "text": "Lakeshire is Stormwind’s eastern shield. If the Blackrock orcs break through the mountain camps, the Alliance’s core farmlands lie open to invasion."
   },
   {
    "target": "race:Human",
-   "text": "The Blackrock clan destroyed the original Kingdom of Stormwind in the First War. For human defenders, stopping their return south is a bitter, ancestral necessity."
+   "text": "As a human, you face a clan that destroyed the original Kingdom of Stormwind in the First War. Stopping the Blackrock return south is a bitter ancestral necessity."
   },
   {
    "target": "class:Warrior",
-   "text": "Blackrock Champions are heavily armored, seasoned veteran brawlers who test a warrior's discipline and endurance in martial combat."
+   "text": "As a warrior, you face Blackrock Champions who are heavily armored, seasoned veteran brawlers. Their martial combat tests your discipline and endurance."
   }
  ],
  "keywords": [
@@ -122,5 +122,6 @@
  ],
  "attribution": [
   "Blackrock Bounty"
- ]
+ ],
+ "style": 1
 }

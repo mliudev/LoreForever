@@ -1,0 +1,74 @@
+{
+ "key": "quest:98313",
+ "type": "quest",
+ "name": "For Further Study",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   98313
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Historian Karnik is waiting in Ironforge for a package tied to something epic. What has been seen so far makes further study seem worthwhile.",
+ "sections": [
+  {
+   "title": "Karnik's Library",
+   "body": "You are asked to take the Whelgar Relic Package to Historian Karnik in the Hall of Explorers. He is usually in the library, reading at the back.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is waiting for the package?",
+   "aliases": [
+    "who gets it",
+    "package for who"
+   ],
+   "answer": "Historian Karnik is waiting for the Whelgar Relic Package in Ironforge's Hall of Explorers."
+  },
+  {
+   "q": "Where can I find Karnik?",
+   "aliases": [
+    "where's karnik",
+    "karnik location"
+   ],
+   "answer": "Historian Karnik is usually in the back of the library in the Hall of Explorers in Ironforge."
+  },
+  {
+   "q": "What package am I carrying?",
+   "aliases": [
+    "what package",
+    "relic package"
+   ],
+   "answer": "You are carrying the Whelgar Relic Package for Historian Karnik."
+  },
+  {
+   "q": "Why does this need further study?",
+   "aliases": [
+    "why study it",
+    "what's the big deal"
+   ],
+   "answer": "The text calls the matter epic and says what has been seen so far makes it seem worthwhile, but gives no further details."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "for further study",
+  "hall of explorers",
+  "historian karnik",
+  "ironforge",
+  "library",
+  "whelgar relic package"
+ ],
+ "related": [
+  "subzone:hall-of-explorers",
+  "subzone:library-ironforge",
+  "zone:ironforge"
+ ],
+ "style": 1,
+ "attribution": [
+  "In-game quest text: For Further Study"
+ ]
+}

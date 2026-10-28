@@ -10,16 +10,16 @@
    "quest:3097"
   ]
  },
- "summary": "The Hallowed Scroll is a formal summons delivered to newly awakened Forsaken priests in Deathknell. Bearing the personal seal of Dark Cleric Duesten, it directs fledglings to the ruined chapel to begin their re-education in faith, willpower, and shadow.",
+ "summary": "In Deathknell, the Hallowed Scroll calls newly awakened Forsaken priests to the ruined chapel. Sealed by Dark Cleric Duesten, it begins their training in faith, willpower, and shadow.",
  "sections": [
   {
    "title": "A Summons to the Faithless",
-   "body": "Newly risen Forsaken priests find that their connection to the world has violently shifted. Delivered amidst the ongoing chaos of Deathknell's reclamation, the Hallowed Scroll directs nascent spellcasters to seek guidance within the settlement's ruined chapel. Marked with the seal of Dark Cleric Duesten, the parchment serves as both an introduction and an order to report for formal instruction, initiating the priest into the pragmatic philosophy that defines Forsaken priesthood.",
+   "body": "Newly risen Forsaken priests feel their bond with the world change violently. As Deathknell is reclaimed amid ongoing chaos, the Hallowed Scroll sends them to seek guidance in the settlement’s ruined chapel. Dark Cleric Duesten’s seal marks the parchment. It introduces the new priests to formal instruction and directs them to report for it, beginning their study of the practical beliefs that shape Forsaken priesthood.",
    "spoiler": 0
   },
   {
    "title": "The Path of Self-Reliance",
-   "body": "Upon answering the scroll's summons, priests are immediately disabused of old dogmas. Duesten makes it clear that traditional crutches\u2014the veneration of the Holy Light, ancestral spirits, or demonic pacts\u2014no longer serve the undead. Instead, the scroll marks the start of an inward discipline rooted strictly in individual willpower. The teachings initiated by this parchment emphasize surviving and ruling through sheer conviction, turning religious devotion into an instrument of self-determination and mastery.",
+   "body": "Dark Cleric Duesten tells priests who answer the summons to leave old teachings behind. The Holy Light, ancestral spirits, and demonic pacts cannot be their crutches. Instead, the scroll begins a discipline grounded in each priest’s own will. Its teachings call on them to survive and rule through conviction, making faith a means of self-command and mastery.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "hallowed scroll purpose",
     "item hallowed scroll"
    ],
-   "answer": "The Hallowed Scroll is a written message delivered to newly risen Forsaken priests in Deathknell. It instructs the reader to report to Dark Cleric Duesten inside the local chapel to begin their formal priesthood training."
+   "answer": "The Hallowed Scroll is a written summons for newly risen Forsaken priests in Deathknell. It directs them to report to Dark Cleric Duesten in the local chapel for formal training."
   },
   {
    "q": "Who sent the Hallowed Scroll?",
@@ -40,7 +40,7 @@
     "who sent the scroll",
     "duesten scroll"
    ],
-   "answer": "The scroll bears the personal seal of Dark Cleric Duesten, the priest trainer stationed in the abandoned church of Deathknell."
+   "answer": "Dark Cleric Duesten’s personal seal marks the Hallowed Scroll. He trains priests in Deathknell’s abandoned church."
   },
   {
    "q": "What does Dark Cleric Duesten teach when you bring him the scroll?",
@@ -49,17 +49,17 @@
     "forsaken priest beliefs",
     "deathknell priest lore"
    ],
-   "answer": "Duesten teaches that undead priests must discard traditional reliance on the Holy Light, ancestral spirits, or otherworldly powers. He preaches that the Forsaken survived through sheer personal willpower alone and instructs young priests to cultivate self-faith to guide and dominate others."
+   "answer": "Dark Cleric Duesten teaches undead priests to leave behind reliance on the Holy Light, ancestral spirits, and otherworldly powers. He says the Forsaken survived through personal willpower and urges young priests to build faith in themselves so they can guide and dominate others."
   }
  ],
  "angles": [
   {
    "target": "class:Priest",
-   "text": "This parchment marks the definitive break from traditional human faith, orienting Forsaken priests toward self-willed conviction and the shadowy arts practiced by the Cult of the Forgotten Shadow."
+   "text": "As a Forsaken priest, this parchment marks your break from traditional human faith. It points you toward conviction of your own and the shadowy arts of the Cult of the Forgotten Shadow."
   },
   {
    "target": "race:Undead",
-   "text": "Receiving this summons reflects the urgent, pragmatic mobilization of Deathknell, ensuring newly awakened undead are quickly trained and integrated into Sylvanas's forces."
+   "text": "As an undead traveler, you receive this summons as Deathknell urgently gathers and trains the newly awakened, bringing them into Sylvanas’s forces."
   }
  ],
  "keywords": [
@@ -82,5 +82,6 @@
  "attribution": [
   "Hallowed Scroll",
   "Hallowed Scroll (quest)"
- ]
+ ],
+ "style": 1
 }

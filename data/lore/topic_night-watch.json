@@ -7,21 +7,21 @@
  "meta": {
   "wiki": "Night Watch"
  },
- "summary": "The Night Watch is the beleaguered town militia responsible for defending Darkshire and the shadowy roads of Duskwood. Abandoned by the House of Nobles in Stormwind, these local volunteers stand alone against roaming undead, feral worgen, and lurking necromancy. Led by Commander Althea Ebonlocke, they rely heavily on visiting adventurers to keep darkness from overtaking their home.",
+ "summary": "In Duskwood, the Night Watch holds Darkshire and the forest roads against rising threats. Abandoned by Stormwind's House of Nobles, the local volunteers face undead, feral worgen, and necromancy with Commander Althea Ebonlocke at their head. They depend heavily on travelers to defend their home.",
  "sections": [
   {
    "title": "Abandoned by the Crown",
-   "body": "When foul magic overtook the once-vibrant Grand Hamlet and turned the forest into Duskwood, the kingdom of Stormwind turned its back. Following King Varian Wrynn's disappearance, the royal garrison was pulled back to the capital. Stripped of official royal troops and supplies, the townsfolk formed their own volunteer militia—the Night Watch—swearing to hold the borders of Darkshire against the creeping horrors of the woods.",
+   "body": "Stormwind withdrew its royal garrison after foul magic consumed the Grand Hamlet and changed the forest into Duskwood. King Varian Wrynn had disappeared, and the troops were recalled to the capital. Left without royal soldiers or supplies, Darkshire's townsfolk formed the Night Watch. They swore to defend Darkshire's borders against the horrors creeping out of the woods.",
    "spoiler": 0
   },
   {
    "title": "A Frontline in the Mist",
-   "body": "Operating out of their headquarters in Darkshire, the Watchers patrol along roads perpetually choked with unnatural mist. Their adversaries are relentless: ravenous skeletal fiends and ghouls spilling outward from Raven Hill and Tranquil Gardens cemeteries, alongside terrifying feral worgen prowling Roland's Doom and Brightwood Grove. Severely outmatched in numbers and resources, the militia has lost many of its finest defenders to ruthless threats like the wandering skeletal warrior Mor'Ladim.",
+   "body": "From its headquarters in Darkshire, the Night Watch patrols roads buried in unnatural mist. Skeletal fiends and ghouls emerge from Raven Hill and Tranquil Gardens cemeteries, while feral worgen prowl Roland's Doom and Brightwood Grove. The militia is badly outnumbered and short of resources, and many of its finest defenders have fallen to threats such as Mor'Ladim, the wandering skeletal warrior.",
    "spoiler": 0
   },
   {
    "title": "The Vigil of Commander Ebonlocke",
-   "body": "Commander Althea Ebonlocke, daughter of Darkshire's mayor, directs the defensive effort with grim pragmatism. Lacking veteran reinforcements, she enlists any capable traveler arriving at town to thin out skeletal legions, cull starving wolf packs, or investigate mysterious local murders. The Night Watch views itself as the final bulwark preserving human life in the region; if their lines break, Darkshire falls entirely into the shadow.",
+   "body": "Commander Althea Ebonlocke, daughter of Darkshire's mayor, directs the defense with grim pragmatism. With no veteran reinforcements, she enlists capable travelers to thin skeletal legions, cull starving wolf packs, and investigate mysterious local murders. The Night Watch is the last barrier protecting human life in the region. If its lines break, Darkshire will fall into shadow.",
    "spoiler": 0
   }
  ],
@@ -33,7 +33,7 @@
     "where is stormwind army",
     "why duskwood abandoned"
    ],
-   "answer": "With King Varian Wrynn missing, the Stormwind House of Nobles is gripped by political gridlock. Claiming military resources must remain concentrated around the capital and Elwynn Forest, the crown withdrew its garrisons, leaving Duskwood's citizenry entirely to their own devices."
+   "answer": "With King Varian Wrynn missing, Stormwind's House of Nobles is caught in political gridlock. The crown withdrew its garrisons, leaving Duskwood's people to defend themselves."
   },
   {
    "q": "Who commands the Night Watch?",
@@ -42,7 +42,7 @@
     "night watch commander",
     "who is in charge of darkshire watch"
    ],
-   "answer": "Commander Althea Ebonlocke leads the militia from the Night Watch office in Darkshire. She is the daughter of Mayor Lord Ello Ebonlocke and personally organizes road patrols, bounties, and defense strategies across Duskwood."
+   "answer": "Commander Althea Ebonlocke leads the Night Watch from its office in Darkshire. She is the daughter of Mayor Lord Ello Ebonlocke and organizes road patrols, bounties, and defenses across Duskwood."
   },
   {
    "q": "What threats does the Night Watch fight most often?",
@@ -51,7 +51,7 @@
     "what do watchers fight",
     "night watch threats"
    ],
-   "answer": "Their most frequent foes are the risen undead pouring out of Tranquil Gardens Cemetery and Raven Hill, feral wolf packs, and the mysterious wolf-beasts known as worgen who stalk Brightwood Grove and Roland's Doom."
+   "answer": "The Night Watch most often faces risen undead from Tranquil Gardens Cemetery and Raven Hill, feral wolf packs, and worgen stalking Brightwood Grove and Roland's Doom."
   },
   {
    "q": "Who is Mor'Ladim, and why do the Watchers fear him?",
@@ -60,7 +60,7 @@
     "morladim night watch",
     "cemetery boss duskwood"
    ],
-   "answer": "Mor'Ladim is a wandering, exceptionally powerful undead terror haunting Raven Hill Cemetery. He cut down several of the Night Watch's strongest patrols, making him one of the deadliest and most feared entities in the zone."
+   "answer": "Mor'Ladim is a powerful undead warrior who wanders Raven Hill Cemetery. He has slain several of the Night Watch's strongest patrols and is among the zone's deadliest threats."
   },
   {
    "q": "Are the Watchers professional soldiers or volunteers?",
@@ -69,7 +69,7 @@
     "night watch background",
     "is night watch an army"
    ],
-   "answer": "They are local volunteers, farmers, hunters, and townsfolk who took up weapons out of survival. Although trained by local veterans, they lack formal military backing, royal equipment, and regular military wages."
+   "answer": "The Watchers are local volunteers: farmers, hunters, and townsfolk who took up weapons to survive. Local veterans trained them, but they lack formal military backing, royal equipment, and regular military wages."
   },
   {
    "q": "Where is the Night Watch headquarters located?",
@@ -78,25 +78,25 @@
     "where to find watchers",
     "darkshire watch hall"
    ],
-   "answer": "Their headquarters is situated in the heart of Darkshire, where Commander Althea Ebonlocke and her officers plan patrols and receive scouting reports from sentries stationed along the trails."
+   "answer": "The Night Watch headquarters is in the heart of Darkshire. Commander Althea Ebonlocke and her officers plan patrols there and receive reports from sentries along the trails."
   }
  ],
  "angles": [
   {
    "target": "race:Human",
-   "text": "For humans of the kingdom, the plight of the Night Watch exposes the rot and negligence within Stormwind's noble court, which has left fellow citizens to die in the shadows."
+   "text": "As a human of the kingdom, you can see how Stormwind's noble court has left fellow citizens to face death in the shadows."
   },
   {
    "target": "faction:Alliance",
-   "text": "Alliance heroes who visit Darkshire find a frontline community holding the border against nightmarish forces without any official aid from the high command."
+   "text": "As an Alliance hero in Darkshire, you find a frontline community defending the border against nightmarish forces without official aid from the high command."
   },
   {
    "target": "class:Paladin",
-   "text": "Paladins view the Night Watch's desperate vigil as a sacred duty, stepping in with holy magic to shield ordinary townsfolk from rampant necromancy."
+   "text": "As a paladin, you can answer the Night Watch's desperate vigil with holy magic, shielding ordinary townsfolk from rampant necromancy."
   },
   {
    "target": "class:Warrior",
-   "text": "Warriors find kindred spirits in the rugged militia members who stand ground against ghouls, giant spiders, and worgen with basic steel and raw grit."
+   "text": "As a warrior, you stand beside rugged militia members who face ghouls, giant spiders, and worgen with basic steel and raw grit."
   }
  ],
  "keywords": [
@@ -122,5 +122,6 @@
  ],
  "attribution": [
   "Night Watch"
- ]
+ ],
+ "style": 1
 }

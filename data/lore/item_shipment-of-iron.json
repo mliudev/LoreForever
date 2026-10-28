@@ -10,11 +10,11 @@
    "quest:529"
   ]
  },
- "summary": "A crate of raw metal stored at the human smithy in Hillsbrad Fields. It serves as vital stock for local armament production, making it a priority target for Forsaken forces seeking to cut off the supply lines arming the Hillsbrad townsfolk.",
+ "summary": "In Hillsbrad Fields, a crate of raw iron waits at the human smithy. The metal feeds local arms production, making the shipment a target for Forsaken forces seeking to cut the supply lines that arm the townsfolk.",
  "sections": [
   {
    "title": "Fueling the Resistance",
-   "body": "In the ongoing struggle across the Hillsbrad Foothills, the human peasantry has mounted surprisingly stiff resistance against Tarren Mill. Much of this fighting capability stems directly from the smithy at the southwestern edge of the Hillsbrad Fields, where Blacksmith Verringtan and his apprentices work round the clock churning out weapons and armor from heavy shipments of iron. To break the farmers' resolve, Forsaken commanders ordered the forge extinguished, its smiths eliminated, and its stockpiled metal seized for the Horde war effort.",
+   "body": "Across the Hillsbrad Foothills, human peasants have mounted stiff resistance against Tarren Mill. Much of their strength comes from the smithy at the southwestern edge of Hillsbrad Fields, where Blacksmith Verringtan and his apprentices work round the clock, making weapons and armor from heavy shipments of iron. Forsaken commanders ordered the forge put out, its smiths killed, and its stored metal seized for the Horde war effort, hoping to break the farmers’ resolve.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "where is the iron",
     "hillsbrad iron location"
    ],
-   "answer": "The shipment sits directly inside the blacksmith workshop located on the southwestern fringe of the Hillsbrad Fields, heavily guarded by Blacksmith Verringtan and his apprentices."
+   "answer": "The shipment is kept inside the blacksmith workshop at the southwestern edge of Hillsbrad Fields. Blacksmith Verringtan and his apprentices guard it closely."
   },
   {
    "q": "Why does the Forsaken want this iron?",
@@ -35,7 +35,7 @@
     "tarren mill iron",
     "battle of hillsbrad iron purpose"
    ],
-   "answer": "Seizing the iron cuts off the weapon supply line arming local human militia. High Executor Darthalia also intends to repurpose the metal stockpiles to support the Horde war machine once the offensive turns toward razing Southshore."
+   "answer": "The iron arms the local human militia, and the Forsaken want to cut off that supply. High Executor Darthalia also means to use the stockpiles for the Horde war machine when the offensive turns toward razing Southshore."
   },
   {
    "q": "Who was using this iron originally?",
@@ -44,7 +44,7 @@
     "verringtan iron",
     "hillsbrad blacksmiths"
    ],
-   "answer": "Blacksmith Verringtan and his four apprentice smiths used the iron to outfit the townspeople and field workers, transforming simple farmers into an armed local defense force against the undead."
+   "answer": "Blacksmith Verringtan and his four apprentice smiths used the iron to arm the townspeople and field workers, turning simple farmers into a local defense force against the undead."
   },
   {
    "q": "Who orders the retrieval of the iron shipment?",
@@ -52,17 +52,17 @@
     "who gives the quest",
     "darthalia iron quest"
    ],
-   "answer": "High Executor Darthalia, commanding the Forsaken operations out of Tarren Mill, issues the direct order to slay the smiths and claim the iron during the Battle of Hillsbrad."
+   "answer": "High Executor Darthalia, commanding Forsaken operations out of Tarren Mill, orders the smiths slain and the iron claimed during the Battle of Hillsbrad."
   }
  ],
  "angles": [
   {
    "target": "profession:Blacksmithing",
-   "text": "The stockpile represents the lifeblood of human arms production in the valley; without raw iron ingots, Verringtan's forge sits completely useless."
+   "text": "For a blacksmith, raw iron keeps human arms production in the valley alive. Without the ingots, Verringtan’s forge sits useless."
   },
   {
    "target": "faction:Horde",
-   "text": "Denying supplies to Hillsbrad cripples the armed resistance of the farmers before the campaign moves against Southshore."
+   "text": "As a member of the Horde, denying Hillsbrad supplies weakens the farmers’ armed resistance before the campaign moves against Southshore."
   }
  ],
  "keywords": [
@@ -84,5 +84,6 @@
  "attribution": [
   "Shipment of Iron",
   "Battle of Hillsbrad (3)"
- ]
+ ],
+ "style": 1
 }

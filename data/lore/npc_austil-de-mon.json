@@ -8,11 +8,11 @@
   "wiki": "Austil de Mon",
   "refs": 1
  },
- "summary": "Austil de Mon is a Forsaken warrior trainer stationed in Brill within Tirisfal Glades. Based out of the Gallows' End Tavern, he instructs newly risen warriors looking to hone their martial prowess in service of the Dark Lady.",
+ "summary": "In Brill, Austil de Mon trains Forsaken warriors at Gallows' End Tavern. He teaches the newly risen to fight in service of the Dark Lady.",
  "sections": [
   {
    "title": "A Veteran in Gallows' End",
-   "body": "Found inside the Gallows' End Tavern in Brill, Austil de Mon serves as one of the earliest instructors for Forsaken warriors venturing out of Deathknell. While the living once populated the inn to drink and rest, Austil now uses the gloomy refuge to teach newly liberated undead how to channel raw martial discipline and ruthless combat techniques against the kingdom's surrounding foes.",
+   "body": "Austil de Mon trains Forsaken warriors inside Gallows' End Tavern in Brill. Warriors leaving Deathknell come to him among their first instructors. The living once drank and rested in the inn. Now Austil teaches newly liberated undead to master martial discipline and combat against the foes surrounding the kingdom.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "austil",
     "who is austil"
    ],
-   "answer": "Austil de Mon is an undead warrior trainer located on the grounds of Brill in Tirisfal Glades, offering training to Forsaken fighters."
+   "answer": "Austil de Mon trains undead warriors in Brill, Tirisfal Glades, teaching Forsaken fighters."
   },
   {
    "q": "Where can I find Austil de Mon?",
@@ -33,7 +33,7 @@
     "where is austil",
     "austil de mon map"
    ],
-   "answer": "You can find him stationed in the Gallows' End Tavern in Brill, Tirisfal Glades, just north of the Undercity."
+   "answer": "You can find Austil de Mon in Gallows' End Tavern in Brill, Tirisfal Glades, just north of the Undercity."
   },
   {
    "q": "What role does he play in Brill?",
@@ -42,17 +42,17 @@
     "austil trainer",
     "austil role"
    ],
-   "answer": "He instructs novice warriors in fighting techniques, stances, and martial abilities to help strengthen the Forsaken military against local threats."
+   "answer": "Austil teaches novice warriors fighting techniques, stances, and martial abilities, strengthening the Forsaken military against local threats."
   }
  ],
  "angles": [
   {
    "target": "class:Warrior",
-   "text": "For Forsaken warriors leaving Deathknell, Austil de Mon is one of the primary mentors providing guidance and formal ability training in Tirisfal Glades."
+   "text": "As a Forsaken warrior leaving Deathknell, you can seek Austil de Mon as a mentor for guidance and formal ability training in Tirisfal Glades."
   },
   {
    "target": "race:Undead",
-   "text": "Austil helps steel newly risen undead into formidable frontline combatants prepared to defend Lordaeron against the Scourge and the Scarlet Crusade."
+   "text": "As newly risen undead, you can train with Austil to become a frontline fighter ready to defend Lordaeron against the Scourge and the Scarlet Crusade."
   }
  ],
  "keywords": [
@@ -72,5 +72,6 @@
  ],
  "attribution": [
   "Austil de Mon"
- ]
+ ],
+ "style": 1
 }

@@ -19,8 +19,9 @@ const BULK_REMINDERS = new RegExp(String.raw`\b${CLEARY}\s+(?:out\s+)?${MINE}?(?
 const BULK_DONE = new RegExp(String.raw`\b${CLEARY}\s+(?:out\s+)?${MINE}?${DONE}\s+(?:items?|to-?dos?|ones|lines|tasks|things|stuff|entries)\b` +
   String.raw`|\b${CLEARY}\s+(?:out\s+)?(?:everything|all|the\s+ones|what)\s+(?:(?:i(?:'ve|\s+have)\s+)?(?:${DONE}|ticked|checked|crossed\s+off))\b` +
   String.raw`|\b(?:tidy|clean)\s+up\s+${MINE}?(?:to-?do\s+)?(?:list|to-?dos?|notebook)\b`, "i");
-// A whole page: "clear my notebook", "wipe everything", "clear Húrin's page".
-const BULK_PAGE = new RegExp(String.raw`\b${CLEARY}\s+(?:out\s+)?(?:${MINE}(?:whole\s+|entire\s+)?(?:notebook|page)\b|everything\b(?!\s+(?:about|on\s+(?!my|the)|for)\b)|[\p{L}]+'s\s+page\b)`, "iu");
+// A whole page: "clear my notebook", "wipe everything", "clear Húrin's page"; never everything she keeps of them ("erase
+// everything you keep about me": What Willo keeps, lib/willo-keeps.js keepsCall).
+const BULK_PAGE = new RegExp(String.raw`\b${CLEARY}\s+(?:out\s+)?(?:${MINE}(?:whole\s+|entire\s+)?(?:notebook|page)\b|everything\b(?!\s+(?:about|on\s+(?!my|the)|for|you|of\s+(?:me|mine))\b)|[\p{L}]+'s\s+page\b)`, "iu");
 const BULK_NOTES = new RegExp(String.raw`\b${CLEARY}\s+(?:out\s+)?${MINE}(?:whole\s+|entire\s+)?notes\b${NOT_ONE}`, "i");
 const BULK_TODOS = new RegExp(String.raw`\b${CLEARY}\s+(?:out\s+)?${MINE}(?:whole\s+|entire\s+)?(?:to-?do\s+list|to-?dos|list)\b${NOT_ONE}`, "i");
 // A named list: "clear the Tailoring list", "empty my shopping list" (a heading the page has: checked by bulkTargets).

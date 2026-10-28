@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Ambermill"
  },
- "summary": "Ambermill is a fortified human settlement in southeastern Silverpine Forest, situated just southwest of Lordamere Lake. Once a quiet lumber village, it is now occupied by surviving wizards and apprentices of Dalaran. Their presence represents a dangerous outpost of human resistance on the southern borders of the Forsaken realm.",
+ "summary": "Ambermill's wizards hold a fortified outpost in southeastern Silverpine Forest, southwest of Lordamere Lake. Once a quiet lumber village, it now shelters surviving wizards and apprentices from Dalaran, resisting the Forsaken on their southern borders.",
  "sections": [
   {
    "title": "A Bastion of Dalaran",
-   "body": "Before the Third War, Ambermill was a quiet lumber town of little importance. In the chaotic aftermath of Lordaeron's fall, the surviving wizards of the Kirin Tor moved in and fortified the settlement. Dalaran spellscribes, conjurors, and apprentices now patrol its buildings and stables, using Ambermill as a forward redoubt against the undead.",
+   "body": "Ambermill was a quiet lumber town before the Third War. After Lordaeron fell, surviving wizards of the Kirin Tor moved in and fortified the settlement. Dalaran spellscribes, conjurors, and apprentices now patrol its buildings and stables, keeping this forward redoubt against the undead.",
    "spoiler": 0
   },
   {
    "title": "Tapping the Ley Lines",
-   "body": "The Kirin Tor's interest in Ambermill extends far beyond simple territorial defense. The village rests directly atop a dormant ley line energy node. Forsaken spies and Deathstalkers monitoring the town have discovered that the Dalaran magi are attempting to reactivate this nexus for large-scale arcane work. If completed, the surge of magical power could threaten the Forsaken's fragile hold on Silverpine Forest, prompting Shadow Priest Allister and the Deathstalkers to orchestrate sabotage, thefts of Kirin Tor documents, and assassinations across the mill grounds.",
+   "body": "Ambermill draws the Kirin Tor for more than defense. The village lies over a dormant ley line energy node. Forsaken spies and Deathstalkers watching the town have learned that Dalaran's magi are trying to awaken the nexus for large-scale arcane work. The surge could threaten the Forsaken's fragile hold on Silverpine Forest. Shadow Priest Allister and the Deathstalkers are working to stop them through sabotage, stolen Kirin Tor documents, and assassinations across the mill grounds.",
    "spoiler": 1
   }
  ],
@@ -28,7 +28,7 @@
     "who controls ambermill",
     "kirin tor silverpine"
    ],
-   "answer": "Following the devastation of Dalaran during the Third War, surviving Kirin Tor forces moved into Ambermill to establish an outpost of living human resistance. Forsaken agents are investigating their activities."
+   "answer": "After Dalaran was devastated during the Third War, surviving Kirin Tor forces moved into Ambermill to establish an outpost of living human resistance. Forsaken agents are investigating their activities."
   },
   {
    "q": "Was Ambermill always part of Dalaran?",
@@ -36,7 +36,7 @@
     "ambermill history",
     "who owned ambermill"
    ],
-   "answer": "No. Before the Third War, Ambermill was a minor lumber village. The wizards of Dalaran only moved in and fortified it after the Scourge overran Lordaeron."
+   "answer": "No. Before the Third War, Ambermill was a minor lumber village. Dalaran's wizards moved in and fortified it only after the Scourge overran Lordaeron."
   },
   {
    "q": "Why do the Forsaken want to attack Ambermill?",
@@ -44,7 +44,7 @@
     "forsaken ambermill",
     "why kill ambermill wizards"
    ],
-   "answer": "Ambermill is a fortified center of human opposition in Silverpine Forest. The Forsaken regard its Dalaran-supported forces and secret arcane work as a threat to their hold on the region."
+   "answer": "Ambermill is a fortified center of human opposition in Silverpine Forest. The Forsaken see its Dalaran-supported forces and secret arcane work as threats to their hold on the region."
   },
   {
    "q": "What are the Deathstalkers searching for in Ambermill?",
@@ -52,17 +52,17 @@
     "ambermill documents",
     "mennet carkad ambermill"
    ],
-   "answer": "Forsaken Deathstalkers learned from captured human prisoners that the wizards in Ambermill keep secured documents detailing Dalaran's secret plans and military intentions, making the settlement a primary target for covert infiltration and theft."
+   "answer": "Forsaken Deathstalkers learned from captured human prisoners that Ambermill's wizards keep secured documents detailing Dalaran's secret plans and military intentions. The settlement is now a main target for covert infiltration and theft."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "For Forsaken operatives, Ambermill represents one of the few remaining pockets of living human resistance in Silverpine, threatening southern logistics and harboring dangerous arcane secrets."
+   "text": "As a Forsaken operative, you face one of Silverpine's few remaining pockets of living human resistance. Ambermill threatens southern logistics and harbors dangerous arcane secrets."
   },
   {
    "target": "class:Mage",
-   "text": "The settlement demonstrates the Kirin Tor's efforts to restore their influence after the Scourge and Burning Legion devastated Dalaran."
+   "text": "As a mage, you see the Kirin Tor trying to restore their influence after the Scourge and Burning Legion devastated Dalaran."
   }
  ],
  "keywords": [
@@ -83,5 +83,6 @@
  ],
  "attribution": [
   "Ambermill"
- ]
+ ],
+ "style": 1
 }

@@ -17,16 +17,16 @@
   "wiki": "Supplying the Sepulcher",
   "chain": []
  },
- "summary": "Supplying the Sepulcher is a logistical task issued by Deathguard Podrig at the Sepulcher in Silverpine Forest. To keep the local Deathguard detachment equipped against feral horrors and Scourge prowling the woods, an urgent weapon requisition must be routed via bat handler Karos Razok toward weapon suppliers in the Undercity.",
+ "summary": "At the Sepulcher, Deathguard Podrig seeks weapons for the hard-pressed garrison. He sends an order toward the Undercity as beasts, Scourge and other threats wear down its supplies.",
  "sections": [
   {
    "title": "Arming the Front Line",
-   "body": "While Deathguard Podrig reports that the Sepulcher is relatively well-stocked, continuous attrition in Silverpine Forest consumes equipment at an alarming rate. Between feral beasts, prowling Scourge remnants, and aggressive local threats, frontline gear wears down or gets abandoned in skirmishes. Under orders from Executor Hadrec, Podrig drafts a direct requisition order addressed to Gordon Wendham, a weapon dealer operating out of the capital. Securing a steady flow of replacement blades and armor is essential if the Forsaken hope to retain their fragile footholds outside Tirisfal Glades.",
+   "body": "Deathguard Podrig says the Sepulcher is fairly well stocked, yet fighting in Silverpine Forest steadily drains its gear. Feral beasts, Scourge remnants and other local threats wear down weapons and armor or leave them behind after skirmishes. Acting under Executor Hadrec's orders, Podrig writes a requisition for Gordon Wendham, a weapon dealer in the Undercity. Replacement arms and armor help the Forsaken hold their fragile footholds beyond Tirisfal Glades.",
    "spoiler": 0
   },
   {
    "title": "The Flight Network",
-   "body": "Moving critical correspondence and military supplies through Silverpine's mist-choked roads on foot is slow and prone to ambush. To bypass these perils, the Forsaken rely on captive, trained vampire bats. Handing Podrig's requisition to bat handler Karos Razok integrates foot soldiers into the broader aerial logistics network of the Undercity, establishing the aerial transit lines that tie outlying garrisons directly to Sylvanas's capital.",
+   "body": "Silverpine's roads make a slow, dangerous route for vital messages and supplies. The Forsaken send them by trained vampire bats instead. Karos Razok handles the bats at the Sepulcher, linking its soldiers to the Undercity's aerial network and the routes connecting outlying garrisons to Sylvanas's capital.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "what is podrigs requisition",
     "purpose of supplying the sepulcher"
    ],
-   "answer": "Deathguard Podrig inspected the Sepulcher's armory on behalf of Executor Hadrec. While provisions and general gear were sufficient, weapons were needed to replace those broken or lost in skirmishes against the Scourge and other forest threats."
+   "answer": "Executor Hadrec ordered Deathguard Podrig to request weapons for the Sepulcher. Its general supplies were sufficient, but arms were needed to replace those broken or lost in fights with the Scourge and other forest threats."
   },
   {
    "q": "Who is Gordon Wendham?",
@@ -46,7 +46,7 @@
     "who is gordon wendham",
     "gordon wendham undrcity"
    ],
-   "answer": "Gordon Wendham is a weapon merchant stationed in the Undercity. Podrig directs the requisition specifically to him to fulfill the garrison's need for new arms."
+   "answer": "Gordon Wendham is a weapon merchant in the Undercity. Podrig addresses the Sepulcher's request for new arms to him."
   },
   {
    "q": "Who is Karos Razok?",
@@ -54,7 +54,7 @@
     "karos razok role",
     "who is the bat handler"
    ],
-   "answer": "Karos Razok is the bat handler stationed at the Sepulcher. He oversees the roost of dread bats used to transport messengers, scouts, and supplies across Lordaeron."
+   "answer": "Karos Razok handles the bats at the Sepulcher. He oversees the dread bats that carry messengers, scouts and supplies across Lordaeron."
   },
   {
    "q": "Why use bats instead of road couriers?",
@@ -62,7 +62,7 @@
     "why fly to undercity",
     "why use bats"
    ],
-   "answer": "Silverpine Forest is infested with hostile beasts, roving Scourge, and other dangerous factions. Couriers traveling by road face constant ambush, making aerial bat routes the fastest and safest link to the Undercity."
+   "answer": "The roads through Silverpine Forest are dangerous, with hostile beasts, Scourge and other factions threatening couriers. Bat routes offer a faster, safer connection to the Undercity."
   },
   {
    "q": "What threats does the Sepulcher face?",
@@ -70,7 +70,7 @@
     "sepulcher threats",
     "why do deathguards need weapons"
    ],
-   "answer": "The Sepulcher is surrounded by hostile forces, including lingering Scourge undead, worgen, wild beasts, and regional human factions, necessitating constant combat readiness and steady equipment replacements."
+   "answer": "The Sepulcher faces lingering Scourge undead, worgen, wild beasts and regional human factions. The garrison needs steady replacements to remain ready for battle."
   },
   {
    "q": "Where does this task lead next?",
@@ -78,17 +78,17 @@
     "what quest is next",
     "next after supplying the sepulcher"
    ],
-   "answer": "Delivering the order to Karos Razok prompts him to arrange direct flight transport to the Undercity, where the requisition can be delivered directly to Gordon Wendham."
+   "answer": "Karos Razok can arrange flight transport to the Undercity, where the requisition is addressed to Gordon Wendham."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "Maintaining outposts like the Sepulcher ensures the Forsaken can project force beyond Tirisfal Glades and secure the surrounding wilderness for the Dark Lady."
+   "text": "As an Undead, you help maintain Forsaken outposts like the Sepulcher, extending their reach beyond Tirisfal Glades and securing the surrounding wilderness for the Dark Lady."
   },
   {
    "target": "faction:Horde",
-   "text": "Establishing and maintaining reliable flight networks between garrisons and capital cities is fundamental to coordinated military defense across contested regions."
+   "text": "As a member of the Horde, you rely on flight routes between garrisons and capital cities to coordinate defense across contested regions."
   }
  ],
  "keywords": [
@@ -113,5 +113,6 @@
  ],
  "attribution": [
   "Supplying the Sepulcher"
- ]
+ ],
+ "style": 1
 }

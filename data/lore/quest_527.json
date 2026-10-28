@@ -19,16 +19,16 @@
    "Souvenirs of Death"
   ]
  },
- "summary": "Battle of Hillsbrad is the opening strike in the Forsaken campaign to eradicate the human settlement of Hillsbrad. Handed down by High Executor Darthalia under orders from Varimathras, this mission targets the farmers and infrastructure of the northern Hillsbrad Fields to sever the town's food supply.",
+ "summary": "In Hillsbrad, the Forsaken strike at the farms that feed the human town. High Executor Darthalia orders the attack from Tarren Mill under Varimathras's command.",
  "sections": [
   {
    "title": "Starving the Resistance",
-   "body": "Tarren Mill stands as the southern spearhead of the Forsaken empire, facing an entrenched human populace clinging to the Hillsbrad Foothills. High Executor Darthalia operates under strict directives straight from Varimathras in the Undercity. Her strategy is total attrition: before marching directly on the heavily defended town of Hillsbrad, she orders the systematic disruption of its agriculture. Striking the northern fields deprives the human militia of critical provisions while sowing chaos across their homesteads.",
+   "body": "High Executor Darthalia directs the Forsaken campaign from Tarren Mill. Varimathras in the Undercity has ordered her to break the human resistance in Hillsbrad Foothills. Before attacking the defended town, Darthalia targets its northern fields. The farms feed the town, and disrupting them cuts provisions to the human militia while bringing disorder to the homesteads.",
    "spoiler": 0
   },
   {
    "title": "A Delaying Action",
-   "body": "The broader campaign against the human presence in Hillsbrad serves a grim tactical purpose. While the Forsaken armies pin down and bleed the local defenders, the Royal Apothecary Society works tirelessly to concoct a new plague capable of eradicating the living and Scourge alike. High Executor Darthalia views these early skirmishes\u2014and the deaths of local landowners like Farmer Ray and Farmer Getz\u2014as necessary steps to suppress the human infestation until that ultimate weapon is ready to deploy.",
+   "body": "The Forsaken press the human defenders while the Royal Apothecary Society works on a plague meant to destroy the living and the Scourge. Darthalia sees the fighting as a way to hold the humans down until the plague is ready. Farmer Ray and Farmer Getz are among the landowners killed in these early attacks.",
    "spoiler": 0
   }
  ],
@@ -40,7 +40,7 @@
     "hillsbrad farm targets",
     "why attack farms"
    ],
-   "answer": "The human farmers and farmhands in the Hillsbrad Fields form the logistical foundation of the town of Hillsbrad. By burning through their workforce and slaying prominent landowners like Farmer Ray and Farmer Getz, the Forsaken cut off the human garrison's food supply and weaken their defenses before a direct assault."
+   "answer": "The farmers and farmhands in Hillsbrad Fields help supply the town of Hillsbrad. Killing landowners such as Farmer Ray and Farmer Getz and disrupting the farms cuts food to the human garrison and weakens its defenses before a direct assault."
   },
   {
    "q": "Who orders this attack?",
@@ -49,7 +49,7 @@
     "darthalia orders",
     "who is darthalia"
    ],
-   "answer": "High Executor Darthalia, the Forsaken military commander stationed at Tarren Mill, issues the mission. She serves under the direct command of the dreadlord Varimathras and Lady Sylvanas Windrunner."
+   "answer": "High Executor Darthalia, the Forsaken commander at Tarren Mill, orders the attack. She answers to Varimathras and Lady Sylvanas Windrunner."
   },
   {
    "q": "What is the Royal Apothecary Society's role in this campaign?",
@@ -58,7 +58,7 @@
     "apothecaries hillsbrad",
     "forsaken plague plan"
    ],
-   "answer": "Darthalia notes that conventional warfare against the humans is meant to quell the living population and buy time while Forsaken apothecaries develop a new plague designed to eliminate their enemies entirely."
+   "answer": "Darthalia says the fighting holds back the living while Forsaken apothecaries prepare a plague to destroy their enemies."
   },
   {
    "q": "Where are Farmer Ray and Farmer Getz located?",
@@ -67,7 +67,7 @@
     "find farmer getz",
     "ray and getz location"
    ],
-   "answer": "Both landowners oversee the northern section of the Hillsbrad Fields. Farmer Ray is typically found near the large farmhouse or working in the garden just east of it, while Farmer Getz frequents the barn, the secondary house, or the surrounding tilled plots."
+   "answer": "Farmer Ray and Farmer Getz oversee the northern Hillsbrad Fields. Farmer Ray is near the large farmhouse or in the garden just east of it. Farmer Getz is at the barn, the secondary house, or the surrounding fields."
   },
   {
    "q": "What happens after completing this raid?",
@@ -76,7 +76,7 @@
     "what comes next",
     "chain progression"
    ],
-   "answer": "Returning victorious to Darthalia advances the assault onto the southern fields and the town of Hillsbrad itself, while also opening side operations like collecting grim trophies in Souvenirs of Death."
+   "answer": "After you return victorious to Darthalia, the assault moves to the southern fields and Hillsbrad. Other operations also open, including the gathering of grim trophies in Souvenirs of Death."
   },
   {
    "q": "Why does Darthalia threaten her soldiers?",
@@ -84,21 +84,21 @@
     "darthalia dialogue",
     "darthalia beheading threat"
    ],
-   "answer": "High Executor Darthalia demands absolute discipline and ruthlessness. She views any hesitation or levity regarding the war with the Alliance as treason punishable by immediate execution on the spot."
+   "answer": "Darthalia demands strict discipline and ruthlessness. She treats hesitation or levity about the war with the Alliance as treason, punishable by immediate execution."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "For the Forsaken, reclaiming Lordaeron means wiping away every surviving pocket of the living who treat their homeland as stolen ground."
+   "text": "As Forsaken, you fight to reclaim Lordaeron by wiping out the living who claim your homeland as stolen ground."
   },
   {
    "target": "faction:Horde",
-   "text": "While Thrall preaches honor, the northern campaign run out of Tarren Mill reveals the uncompromising brutality of Sylvanas's war against the Alliance."
+   "text": "As Horde, you see the brutality of Sylvanas's war against the Alliance in the northern campaign from Tarren Mill, even as Thrall preaches honor."
   },
   {
    "target": "faction:Alliance",
-   "text": "The slaughter of the northern homesteaders demonstrates the terrifying reality facing the remaining human enclaves in Lordaeron."
+   "text": "As Alliance, you face the danger to Lordaeron's remaining human enclaves in the slaughter of the northern homesteaders."
   }
  ],
  "keywords": [
@@ -123,5 +123,6 @@
  ],
  "attribution": [
   "Battle of Hillsbrad (quest)"
- ]
+ ],
+ "style": 1
 }

@@ -35,25 +35,29 @@ function links(label, items, id = "") {
 }
 const cfItems = card => card.cf.map(p => ({ href: CF + p.slug, name: p.name }));
 
+// The card's one button: on Windows, Setup named for the pick, when Setup can install the card's voices; otherwise
+// CurseForge, or the ZIPs where not all of it is on CurseForge yet. The other ways go under it.
 function cta(cat, card, key, os) {
   const first = key === "addon";   // the add-on card keeps the page's old anchors (#installer, #curseforge, #zip)
   const cf = cfItems(card), zips = card.zips.map(z => ({ href: z.href, name: z.name, bytes: z.bytes }));
-  if (os !== "win" && !cf.length) {   // not all of it is on CurseForge yet: the ZIPs
-    const main = zips.length === 1 ? `<a class="ch-btn ch-primary bx-go" href="${esc(zips[0].href)}">Download the ZIP</a>`
-      : `<details class="bx-ways bx-zips"><summary class="ch-btn ch-primary bx-go">Download the ${zips.length} ZIPs</summary><ul>${zips.map(z =>
-        `<li><a href="${esc(z.href)}">${esc(z.name)}</a>${z.bytes ? ` <small>${fmt(z.bytes)}</small>` : ""}</li>`).join("")}</ul></details>`;
-    return `${main}<div class="bx-other">Unzip them into your AddOns folder. Setup is for Windows.</div>`;
-  }
-  if (os === "win") {
-    const href = `/download/setup/${card.setup.split(", ").map(encodeURIComponent).join("/")}`;
+  const href = `/download/setup/${card.setup.split(", ").map(encodeURIComponent).join("/")}`;
+  if (os === "win" && card.inSetup !== false) {
     return `<a class="ch-btn ch-primary bx-go" href="${esc(href)}"${first ? ' id="installer"' : ""}>Download for Windows</a>` +
       (card.tick ? `<p class="bx-tick">${esc(card.tick)}</p>` : "") +
       `<div class="bx-other">Other ways: ${ways([links("CurseForge", cf, first ? "curseforge" : ""), links("ZIP", zips, first ? "zip" : "")])}</div>`;
   }
+  // Setup as another way on Windows: it installs the add-on with the English narration.
+  const setup = os === "win" ? `<a class="bx-way" href="${esc(href)}"${first ? ' id="installer"' : ""}>Setup (English narration)</a>` : "<span>Setup is for Windows</span>";
+  if (!cf.length) {
+    const main = zips.length === 1 ? `<a class="ch-btn ch-primary bx-go" href="${esc(zips[0].href)}">Download the ZIP</a>`
+      : `<details class="bx-ways bx-zips"><summary class="ch-btn ch-primary bx-go">Download the ${zips.length} ZIPs</summary><ul>${zips.map(z =>
+        `<li><a href="${esc(z.href)}">${esc(z.name)}</a>${z.bytes ? ` <small>${fmt(z.bytes)}</small>` : ""}</li>`).join("")}</ul></details>`;
+    return `${main}<p>Unzip ${zips.length === 1 ? "it" : "them"} into your AddOns folder.</p><div class="bx-other">Other ways: ${setup}</div>`;
+  }
   const also = cf.slice(1);
   return `<a class="ch-btn ch-primary bx-go" href="${esc(cf[0].href)}"${first ? ' id="curseforge"' : ""}>Get it on CurseForge</a>` +
     (also.length ? `<p class="bx-tick">Then add ${also.length === 1 ? "it" : "these"} on CurseForge too: ${also.map(i => `<a href="${esc(i.href)}">${esc(i.name)}</a>`).join(sep)}</p>` : "") +
-    `<div class="bx-other">Other ways: ${ways([links("ZIP", zips, first ? "zip" : ""), "<span>Setup is for Windows</span>"])}</div>`;
+    `<div class="bx-other">Other ways: ${ways([links("ZIP", zips, first ? "zip" : ""), setup])}</div>`;
 }
 
 // One card: its size, what it holds and one button; dimmed with one line where the language has nothing recorded for it.
@@ -74,8 +78,9 @@ export const cardsHtml = (cat, pick) => BUNDLES.map(b => cardHtml(cat, pick, b))
 export function barHtml(cat, pick, open = false) {
   const { lang, narrator } = current(cat, pick);
   const note = pick.auto ? (pick.fallback ? "Your browser's language isn't offered yet, so English is picked." : "Picked from your browser's language and your computer.") : "";
+  const notes = [note, lang.note, pick.os !== "mac" && narrator.winNote].filter(Boolean);
   return `<div class="bx-bar-text"><span class="bx-lab">Your language and narrator</span><b>${esc(lang.name)}${sep}${esc(narrator.name)}</b>` +
-    `${note ? `<span class="bx-note">${esc(note)}</span>` : ""}${lang.note ? `<span class="bx-note">${esc(lang.note)}</span>` : ""}</div>` +
+    `${notes.map(n => `<span class="bx-note">${esc(n)}</span>`).join("")}</div>` +
     `<button type="button" class="ch-btn ch-ghost ch-small bx-change" aria-expanded="${open}" aria-controls="bx-choose">${open ? "Close" : "Change"}</button>`;
 }
 

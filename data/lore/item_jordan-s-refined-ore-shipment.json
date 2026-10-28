@@ -10,11 +10,11 @@
    "quest:1654"
   ]
  },
- "summary": "Jordan's Refined Ore Shipment is a crate of high-grade metal prepared specifically for the smith Jordan Stilwell. Acquired as part of a paladin's sacred trials, it provides the essential stock needed to forge a holy weapon of virtue.",
+ "summary": "Jordan's Refined Ore Shipment reaches Ironforge for a paladin's sacred trials. The high-grade metal is prepared for blacksmith Jordan Stilwell to forge a holy weapon of virtue.",
  "sections": [
   {
    "title": "A Smith's Materials",
-   "body": "When Jordan Stilwell set out to forge a weapon worthy of a dedicated paladin, ordinary stock would not suffice. The blacksmith required an assortment of rare and exacting components: a Purified Kor Gem, sturdy Whitestone Oak lumber, his own lost smithing hammer, and a specialized shipment of refined ore. This consignment represents the metal foundation for that sacred labor, brought to Ironforge to complete the Test of Righteousness.",
+   "body": "Jordan Stilwell needs rare, exacting materials to forge a weapon worthy of a dedicated paladin. The set includes a Purified Kor Gem, sturdy Whitestone Oak lumber, his lost smithing hammer, and a shipment of refined ore. This consignment supplies the metal for the sacred labor, brought to Ironforge for the Test of Righteousness.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "what does jordan do with ore",
     "ore shipment use"
    ],
-   "answer": "The refined ore is delivered to Jordan Stilwell outside Ironforge as one of four key components required to forge a masterwork weapon for paladins undertaking the Test of Righteousness."
+   "answer": "The refined ore goes to Jordan Stilwell outside Ironforge as one of four key components for forging a masterwork weapon for paladins undertaking the Test of Righteousness."
   },
   {
    "q": "Who prepares the refined ore?",
@@ -35,7 +35,7 @@
     "bailor ore",
     "who refines jordan's ore"
    ],
-   "answer": "The shipment is arranged through Bailor, who oversees the refining and dispatching of the specialist metal needed by Jordan Stilwell."
+   "answer": "Bailor arranges the shipment and oversees the refining and dispatch of the specialist metal Jordan Stilwell needs."
   },
   {
    "q": "Why does Jordan need this specific shipment?",
@@ -44,17 +44,17 @@
     "why cant jordan use regular iron",
     "refined ore reason"
    ],
-   "answer": "Jordan Stilwell intends to craft a symbol of paladinhood and the Light, demanding superior materials beyond ordinary forge scraps. This specially processed metal ensures the blade or hammer head possesses the balance and purity worthy of a holy knight."
+   "answer": "Jordan Stilwell plans to craft a symbol of paladinhood and the Light, so he needs superior materials beyond ordinary forge scraps. The specially processed metal gives the blade or hammer head the balance and purity worthy of a holy knight."
   }
  ],
  "angles": [
   {
    "target": "class:Paladin",
-   "text": "Procuring this refined shipment tests a paladin's patience and dedication, serving as one of the physical trials required to craft their symbolic weapon of the Light."
+   "text": "As a paladin, procuring this refined shipment tests your patience and dedication. It is one of the physical trials required to craft your symbolic weapon of the Light."
   },
   {
    "target": "profession:Blacksmithing",
-   "text": "Every artisan understands that masterwork forging requires flawless, carefully prepared ingots rather than raw field ore."
+   "text": "As a blacksmith, you know masterwork forging calls for flawless, carefully prepared ingots instead of raw field ore."
   }
  ],
  "keywords": [
@@ -77,5 +77,6 @@
  "attribution": [
   "Jordan's Refined Ore Shipment",
   "The Test of Righteousness (2)"
- ]
+ ],
+ "style": 1
 }

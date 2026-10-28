@@ -8,11 +8,11 @@
   "wiki": "Lorgus Jett",
   "refs": 5
  },
- "summary": "Lorgus Jett is a human member of the Twilight's Hammer cult operating within the flooded corridors of Blackfathom Deeps. Wandering the Moonshrine Ruins, he serves as a ruthless commander in the cult's service to the Old Gods. Horde leaders have singled him out as a primary target to disrupt the cult's encroaching presence along the Ashenvale coast.",
+ "summary": "In Blackfathom Deeps, Lorgus Jett commands the Twilight's Hammer among flooded ruins. The Horde has marked him as a target.",
  "sections": [
   {
    "title": "A Defiler in the Ruins",
-   "body": "While many members of the Twilight's Hammer working under Blackfathom Deeps hail from orcish or tauren lineages, Lorgus Jett stands out as a human in the deep recesses of ancient night elf ruins. Roaming anywhere between the upper Moonshrine Ruins and the cavernous tunnels beyond the murloc defiler Gelihast, Jett coordinates the cult's dark rituals and violent ambitions.",
+   "body": "Lorgus Jett is a human among the Twilight's Hammer in Blackfathom Deeps. While many cultists there are orcs or tauren, Jett ranges from the upper Moonshrine Ruins to the tunnels beyond Gelihast, the murloc defiler. He coordinates the cult's rituals and violent ambitions in the ancient night elf ruins.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "who is lorgus",
     "lorgus jett background"
    ],
-   "answer": "Lorgus Jett is a human operative of the Twilight's Hammer cult stationed inside Blackfathom Deeps. He oversees cult activities within the Moonshrine Ruins and serves the Old Gods."
+   "answer": "Lorgus Jett serves the Twilight's Hammer inside Blackfathom Deeps. He oversees the cult's work in the Moonshrine Ruins and serves the Old Gods."
   },
   {
    "q": "Where can Lorgus Jett be found in Blackfathom Deeps?",
@@ -33,7 +33,7 @@
     "where is lorgus jett",
     "find lorgus jett"
    ],
-   "answer": "Lorgus Jett has a variable patrol area within the Moonshrine Ruins. He can appear near the earliest clusters of Twilight cultists or farther along in the flooded passages just past Gelihast's shrine."
+   "answer": "Lorgus Jett patrols the Moonshrine Ruins. He may be near the first groups of Twilight cultists or farther along the flooded passages past Gelihast's shrine."
   },
   {
    "q": "Why does the Horde want Lorgus Jett dead?",
@@ -41,7 +41,7 @@
     "why kill lorgus",
     "allegiance to the old gods quest"
    ],
-   "answer": "The Horde seeks his death through the mission 'Allegiance to the Old Gods.' His presence in Ashenvale threatens regional stability and represents an insidious alliance dedicated to unleashing ancient, world-ending entities."
+   "answer": "The Horde seeks Lorgus Jett's death through Allegiance to the Old Gods. His presence in Ashenvale threatens regional stability, and he serves an alliance devoted to unleashing ancient, world-ending entities."
   },
   {
    "q": "Why does a human use shamanistic powers?",
@@ -49,7 +49,7 @@
     "lorgus jett magic",
     "human shaman lorgus"
    ],
-   "answer": "The Twilight's Hammer communes directly with chaotic elemental forces and Old Gods rather than traditional ancestral spirits, allowing non-traditional races like humans to wield elemental devastation."
+   "answer": "The Twilight's Hammer communes with chaotic elemental forces and the Old Gods rather than traditional ancestral spirits. That path lets humans wield elemental devastation."
   },
   {
    "q": "What is Lorgus Jett's connection to Gelihast?",
@@ -57,21 +57,21 @@
     "lorgus and gelihast",
     "gelihast connection"
    ],
-   "answer": "Both dwell in the Moonshrine Ruins of Blackfathom Deeps, united in their servitude to the dark powers sleeping beneath the sea, with Jett frequently patrolling the corridors beyond Gelihast's altar."
+   "answer": "Lorgus Jett and Gelihast both dwell in the Moonshrine Ruins of Blackfathom Deeps and serve dark powers beneath the sea. Jett often patrols the corridors beyond Gelihast's altar."
   }
  ],
  "angles": [
   {
    "target": "class:Shaman",
-   "text": "Jett wields the elements not in harmony or reverence, but through the corrupted, violent methods taught by the Twilight's Hammer."
+   "text": "As a shaman, you wield the elements in harmony or reverence; Jett uses the Twilight's Hammer's corrupted, violent methods."
   },
   {
    "target": "faction:Horde",
-   "text": "Striking down Lorgus Jett fulfills an urgent request to sever the leadership of the Twilight's Hammer festering beneath the Ashenvale shore."
+   "text": "As a member of the Horde, you can help sever the Twilight's Hammer leadership beneath the Ashenvale shore by striking down Lorgus Jett."
   },
   {
    "target": "race:Human",
-   "text": "Seeing a human so far west in Kalimdor serving cosmic terrors is a chilling reminder of how far the corruption of the Twilight's Hammer has reached."
+   "text": "As a human, you may find Jett's service to cosmic terrors far to the west in Kalimdor a chilling sign of the Twilight's Hammer's reach."
   }
  ],
  "keywords": [
@@ -91,5 +91,6 @@
  ],
  "attribution": [
   "Lorgus Jett"
- ]
+ ],
+ "style": 1
 }

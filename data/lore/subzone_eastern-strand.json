@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Eastern Strand"
  },
- "summary": "The Eastern Strand is a stretch of southern coastline in Hillsbrad Foothills, lying to the southeast toward the border of the Arathi Highlands. Once peaceful shores, the beaches and shallows have been overrun by hostile Daggerspine naga establishing a coastal beachhead.",
+ "summary": "Daggerspine naga hold the Eastern Strand along Hillsbrad's southeastern coast. The beaches and shallows reach toward the Arathi Highlands border.",
  "sections": [
   {
    "title": "A Hostile Shoreline",
-   "body": "Running along the southeastern edge of Hillsbrad Foothills, the Eastern Strand complements the Western Strand across the bay. While the region is primarily known for human farming settlements and territorial clashes between Southshore and Tarren Mill, these sandy flats and tidelines are dominated entirely by the Daggerspine naga. Creeping out of the Great Sea, the serpent folk slither across the sandbars and dwell among the rocky outcrops, watching the mainland closely.",
+   "body": "The Daggerspine naga hold the Eastern Strand on Hillsbrad's southeastern edge. Across the bay lies the Western Strand. Southshore and Tarren Mill clash over the region's human farms, while the naga dominate these sandy flats and tidelines. They come from the Great Sea, crossing the sandbars and settling among rocky outcrops. From there, they watch the mainland.",
    "spoiler": 0
   },
   {
    "title": "Daggerspine Territory",
-   "body": "The Daggerspine presence creates a dangerous shoreline southeast of Southshore. Their warriors and spellcasters prowl the beaches and nearby water, making the coast hazardous to travelers.",
+   "body": "Daggerspine warriors and spellcasters prowl the beaches and nearby waters southeast of Southshore, making the coast dangerous for travelers.",
    "spoiler": 1
   }
  ],
@@ -28,7 +28,7 @@
     "where is eastern strand",
     "eastern strand map"
    ],
-   "answer": "The Eastern Strand encompasses the coastal sands and shallows in the southeastern corner of Hillsbrad Foothills, sitting eastward along the water toward the borders of the Arathi Highlands."
+   "answer": "The Eastern Strand runs along Hillsbrad Foothills' southeastern coast, toward the Arathi Highlands border."
   },
   {
    "q": "What creatures inhabit the Eastern Strand?",
@@ -37,7 +37,7 @@
     "who lives on eastern strand",
     "eastern strand enemies"
    ],
-   "answer": "The beach and nearby waters are overrun by the Daggerspine tribe of naga, including foot soldiers, raiders, and spellcasters prowling the tideline."
+   "answer": "Daggerspine naga overrun the Eastern Strand's beach and nearby waters, including foot soldiers, raiders, and spellcasters along the tideline."
   },
   {
    "q": "Why are the naga gathering on this beach?",
@@ -46,7 +46,7 @@
     "daggerspine attack plans",
     "what are the naga doing here"
    ],
-   "answer": "The Daggerspine occupy the beaches and water of the Eastern Strand. Their purpose beyond holding this coastal territory is unrecorded in the Classic account."
+   "answer": "Daggerspine naga occupy the Eastern Strand's beaches and waters. Their purpose beyond holding this coastal territory is unrecorded in the Classic account."
   },
   {
    "q": "How does the Eastern Strand differ from the Western Strand?",
@@ -54,17 +54,17 @@
     "western strand vs eastern strand",
     "two beaches in hillsbrad"
    ],
-   "answer": "Both strands border the southern coast of Hillsbrad. The Western Strand lies southwest toward Silverpine and is home to Torn Fin murlocs; the Eastern Strand lies southeast toward Arathi and is occupied by Daggerspine naga."
+   "answer": "Both strands border Hillsbrad's southern coast. The Western Strand lies southwest toward Silverpine, where Torn Fin murlocs dwell. The Eastern Strand lies southeast toward Arathi, held by Daggerspine naga."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "The naga encamped on the Eastern Strand pose a direct, creeping flank threat to Southshore's maritime security and nearby patrols."
+   "text": "Daggerspine naga on the Eastern Strand threaten Southshore's sea defenses and nearby patrols from the flank."
   },
   {
    "target": "faction:Horde",
-   "text": "Any organized naga expansion moving inland from the coast threatens to destabilize Horde movements and supply lines crossing lower Hillsbrad."
+   "text": "An organized naga advance inland from the coast could disrupt Horde movements and supply lines across lower Hillsbrad."
   }
  ],
  "keywords": [
@@ -81,5 +81,6 @@
  ],
  "attribution": [
   "Eastern Strand"
- ]
+ ],
+ "style": 1
 }

@@ -20,16 +20,16 @@
    "Journey to Astranaar"
   ]
  },
- "summary": "Journey to Astranaar is an introductory Alliance quest guiding newcomers arriving on the Kalimdor coast to the inland heart of Ashenvale. Directed by Fiora Longears at Theramore, travelers make their way north toward Ashenvale to report to Shindrell Swiftfire in Astranaar. It marks an adventurer's entry into the growing conflicts surrounding the night elves' ancestral forest.",
+ "summary": "Fiora Longears sends Alliance travelers from Theramore north to Astranaar. There, they report to Shindrell Swiftfire in Ashenvale, where the night elves face war and unrest.",
  "sections": [
   {
    "title": "From the Coast into the Woods",
-   "body": "Alliance travelers arriving in Dustwallow Marsh aboard the ferry from Menethil Harbor often look for purpose in northern Kalimdor. At Theramore, Fiora Longears directs capable hands to move deeper inland toward Astranaar, the main night elven settlement within Ashenvale. The journey follows winding paths under ancient, shadowed canopies, leading straight into a forest strained by war and unrest.",
+   "body": "Alliance travelers arrive in Dustwallow Marsh aboard the ferry from Menethil Harbor, often seeking purpose in northern Kalimdor. At Theramore, Fiora Longears directs capable hands inland toward Astranaar, Ashenvale's main night elven settlement. The route winds beneath ancient, shadowed canopies and leads into a forest strained by war and unrest.",
    "spoiler": 0
   },
   {
    "title": "An Unspoken Recommendation",
-   "body": "Curiously, Fiora tells travelers not to bother mentioning her name when arriving in Astranaar, stating plainly that Shindrell Swiftfire does not know her. Her role is simply to funnel fresh Alliance talent where it is needed most. Upon arriving, Shindrell readily welcomes any able-bodied defender, acknowledging that while Ashenvale remains breathtaking, it is no longer the peaceful sanctuary it once was.",
+   "body": "Fiora tells travelers not to mention her name in Astranaar because Shindrell Swiftfire does not know her. Fiora's role is to direct fresh Alliance talent where it is needed. Shindrell welcomes able-bodied defenders when they arrive. Ashenvale remains breathtaking, but it is no longer the peaceful sanctuary it once was.",
    "spoiler": 0
   }
  ],
@@ -41,7 +41,7 @@
     "journey to astranaar start",
     "where to pick up journey to astranaar"
    ],
-   "answer": "The quest is given by Fiora Longears in Theramore, located on the coast of Dustwallow Marsh. She offers it to Alliance travelers who arrive from the Eastern Kingdoms looking to help out in Kalimdor."
+   "answer": "The journey begins with Fiora Longears in Theramore, on the coast of Dustwallow Marsh. She offers it to Alliance travelers from the Eastern Kingdoms who seek to help in Kalimdor."
   },
   {
    "q": "Who do I need to talk to in Astranaar?",
@@ -50,7 +50,7 @@
     "journey to astranaar end npc",
     "who is shindrell swiftfire"
    ],
-   "answer": "You must speak with Shindrell Swiftfire, a night elf stationed in Astranaar, the central Alliance town in Ashenvale."
+   "answer": "Speak with Shindrell Swiftfire, a night elf in Astranaar, the central Alliance town in Ashenvale."
   },
   {
    "q": "Why does Fiora say not to mention her name?",
@@ -58,7 +58,7 @@
     "why not mention fiora",
     "fiora longears connection to shindrell"
    ],
-   "answer": "Fiora Longears explicitly tells adventurers not to mention who sent them simply because Shindrell does not know her personally. She is merely directing eager newcomers toward an outpost that desperately needs assistance."
+   "answer": "Fiora says not to mention her name because Shindrell does not know her personally. She directs eager newcomers to an outpost in need of assistance."
   },
   {
    "q": "What is the purpose of this quest?",
@@ -66,7 +66,7 @@
     "why do journey to astranaar",
     "journey to astranaar lore purpose"
    ],
-   "answer": "It acts as a breadcrumb leading Alliance characters out of Dustwallow Marsh into Ashenvale, introducing them to Astranaar as their primary base of operations in the forest."
+   "answer": "It leads Alliance travelers from Dustwallow Marsh into Ashenvale and introduces them to Astranaar, their main base in the forest."
   },
   {
    "q": "What kind of trouble is happening in Ashenvale?",
@@ -74,7 +74,7 @@
     "why does astranaar need help",
     "ashenvale troubles lore"
    ],
-   "answer": "As Shindrell Swiftfire points out upon your arrival, Ashenvale is no longer the tranquil grove it used to be. The forest faces incursions from the Horde, demonic corruption lingering from the Third War, and local wildlife agitated by recent conflicts."
+   "answer": "Ashenvale is no longer tranquil. Horde incursions, demonic corruption lingering from the Third War, and local wildlife stirred by recent conflicts trouble the forest."
   },
   {
    "q": "What quest leads into Journey to Astranaar?",
@@ -82,21 +82,21 @@
     "journey to astranaar prerequisite",
     "fiora longears chain"
    ],
-   "answer": "It is directly preceded by a short introductory breadcrumb quest named 'Fiora Longears,' which directs travelers arriving in Dustwallow Marsh to speak with her in Theramore."
+   "answer": "The journey follows a short introduction called Fiora Longears, which directs travelers arriving in Dustwallow Marsh to speak with her in Theramore."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "This trek represents an Alliance recruit's direct deployment from the relatively safe ports of Dustwallow Marsh into the contested wilderness of Ashenvale."
+   "text": "As an Alliance recruit, you travel from the relatively safe ports of Dustwallow Marsh into Ashenvale's contested wilderness."
   },
   {
    "target": "race:NightElf",
-   "text": "For night elves, this journey is a return to their heartland under siege, defending the sacred boughs of Ashenvale alongside foreign allies."
+   "text": "As a night elf, you return to your heartland under siege and defend Ashenvale's sacred boughs alongside foreign allies."
   },
   {
    "target": "race:Human",
-   "text": "Fresh off the ship from Menethil Harbor, human travelers take their first steps deep into Kalimdor's interior, honoring the Alliance pledge to aid the night elves."
+   "text": "As a human arriving from Menethil Harbor, you take your first steps into Kalimdor's interior and honor the Alliance pledge to aid the night elves."
   }
  ],
  "keywords": [
@@ -118,5 +118,6 @@
  ],
  "attribution": [
   "Journey to Astranaar"
- ]
+ ],
+ "style": 1
 }

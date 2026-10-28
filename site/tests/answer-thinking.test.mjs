@@ -95,11 +95,12 @@ test("Legend's hard question: her line is said at once, then the answer thought 
     assert.ok(reply.answer.startsWith(LINE) && reply.answer.includes("faster dagger"), `${what}: ${reply.answer}`);
     assert.ok(!reply.answer.includes("[[MULL]]"), what);
     assert.ok(reply.answer.includes("3.4 more damage") && !reply.answer.includes("Sinister Strike"), `${what}: ${reply.answer}`);
-    // Asked first with the rule (a picture's on Gemini), then thought through on Together, with what she saw.
+    // Asked first with the rule, then thought through on Together. With a picture she didn't call look for (LOR-856
+    // E4), she answered without it, so it's thought through without it too.
     assert.ok(ruled(asked[0].system), what);
     const thought = asked.at(-1);
     assert.deepEqual([thought.to, thought.thinks, thought.picture, ruled(thought.system)],
-      ["together", true, Boolean(fields.image), false], what);
+      ["together", true, false, false], what);
     assert.ok(thought.system.includes(LINE), `${what}: the answer knows the line it carries on from`);
     assert.match(env.DB.sqlite.prepare("SELECT lookups FROM answer_log").get().lookups, /mulled/, what);
   }

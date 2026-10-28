@@ -86,7 +86,7 @@ local KINDS = { zone = "zone", subzone = "place", npc = "person", quest = "quest
 function Log.NarrationKind(key)
   if type(key) ~= "string" then return "other" end
   if key:find("#faq%d+$") then return "answer" end
-  if key:find("^quest:%d+#%a+$") then return "dialogue" end
+  if key:find("^quest:%d+#%a+$") and not key:find("#title$") then return "dialogue" end
   return KINDS[key:match("^(%a+):") or ""] or "other"
 end
 

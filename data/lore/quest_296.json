@@ -17,16 +17,16 @@
   "wiki": "Ormer's Revenge (3)",
   "chain": []
  },
- "summary": "Ormer's Revenge is the culmination of Ormer Ironbraid's campaign to avenge the dwarven excavators slaughtered at the Whelgar Excavation Site. Convinced that a cunning beast named Sarltooth spearheaded the savage raptor assault, Ormer sends an adventurer to slay the pack leader and claim his talon as proof.",
+ "summary": "In the Wetlands, Ormer's Revenge begins with a demand for Sarltooth's death. Ormer Ironbraid believes the raptor led the attack that slaughtered dwarven excavators at Whelgar Excavation Site, and asks you to bring back one of its talons as proof.",
  "sections": [
   {
    "title": "A Strike at the Pack Leader",
-   "body": "Following the slaughter of the Explorer's League diggers at the Whelgar Excavation Site, Ormer Ironbraid watched the teeming raptors from his ridge and observed a beast that dwarfed the rest. Known as Sarltooth, this particularly large and vicious raptor perched above the dig works, directing or leading the pack that drove the dwarves out. To Ormer, the beast was not merely wildlife, but the instigator of an attack on King Magni Bronzebeard's subjects.",
+   "body": "After the Explorer's League diggers were slaughtered at Whelgar Excavation Site, Ormer Ironbraid watched the raptors from his ridge. One beast stood larger than the rest. Sarltooth perched above the dig works, where Ormer saw it directing or leading the pack that drove the dwarves out. To Ormer, Sarltooth was more than a wild beast. He believed it had led the attack on King Magni Bronzebeard's subjects.",
    "spoiler": 0
   },
   {
    "title": "Justice in the Wetlands",
-   "body": "Ormer demands capital justice for the massacre, instructing adventurers to climb the high paths of the excavation walls and put an end to Sarltooth. By retrieving one of the beast's formidable talons, the fallen workers are avenged, sending a harsh message across the marshes that attacks against dwarven expeditions will not go unanswered.",
+   "body": "Ormer demands death for the massacre. He sends you up the high paths along the excavation walls to kill Sarltooth. Bring back one of the raptor's formidable talons, and the fallen workers will be avenged. Ormer wants the marshes to know that attacks on dwarven expeditions will not go unanswered.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who is the raptor boss",
     "sarltooth lore"
    ],
-   "answer": "Sarltooth is a large, menacing raptor who leads the pack occupying the Whelgar Excavation Site in the Wetlands. Ormer Ironbraid believes he directed the assault that massacred the dwarven diggers."
+   "answer": "Sarltooth is a large, menacing raptor leading the pack at Whelgar Excavation Site in the Wetlands. Ormer Ironbraid believes Sarltooth directed the assault that massacred the dwarven diggers."
   },
   {
    "q": "Where is Sarltooth located?",
@@ -47,7 +47,7 @@
     "where does sarltooth spawn",
     "sarltooth path"
    ],
-   "answer": "Sarltooth prowls along an elevated path running up the western wall in the northwest corner of the Whelgar Excavation Site."
+   "answer": "Sarltooth prowls an elevated path along the western wall, in the northwest corner of Whelgar Excavation Site."
   },
   {
    "q": "Why does Ormer want Sarltooth dead instead of just driving him away?",
@@ -55,7 +55,7 @@
     "ormer revenge reason",
     "why kill sarltooth"
    ],
-   "answer": "Ormer views the raptor assault as a direct crime against King Magni's subjects. Because innocent dwarven workers lost their lives doing their jobs, Ormer believes only death can redeem the memory of the fallen."
+   "answer": "Ormer sees the raptor attack as a crime against King Magni's subjects. Dwarven workers died while doing their jobs, and Ormer believes only Sarltooth's death can redeem the memory of the fallen."
   },
   {
    "q": "What proof does Ormer require?",
@@ -63,7 +63,7 @@
     "sarltooth proof",
     "sarltooth talon"
    ],
-   "answer": "Ormer demands one of Sarltooth's talons to verify that the massive predator has truly been slain."
+   "answer": "Ormer demands one of Sarltooth's talons as proof that the massive predator has been slain."
   },
   {
    "q": "Who were the victims at the excavation site?",
@@ -71,7 +71,7 @@
     "who died at whelgar",
     "excavation site victims"
    ],
-   "answer": "Dwarven archaeologists and laborers sent by the Explorer's League to unearth titan artifacts were caught off guard and slaughtered when raptor packs overran the dig."
+   "answer": "The victims were dwarven archaeologists and laborers sent by the Explorer's League to unearth titan artifacts. Raptor packs caught them off guard and slaughtered them when they overran the dig."
   },
   {
    "q": "Does killing Sarltooth secure the excavation site?",
@@ -79,21 +79,21 @@
     "is whelgar safe now",
     "did ormer win"
    ],
-   "answer": "While killing Sarltooth removes the pack's deadliest threat and brings retribution for the fallen, raptors still crawl over the trenches, leaving the site dangerous and largely abandoned."
+   "answer": "Killing Sarltooth removes the pack's deadliest threat and brings retribution for the fallen. Raptors still crawl over the trenches, leaving the site dangerous and largely abandoned."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "For dwarves, avenging the butchered Explorer's League crew at the Whelgar Excavation Site is a matter of honouring King Magni's fallen subjects."
+   "text": "As a dwarf, avenging the Explorer's League crew slaughtered at Whelgar Excavation Site honors King Magni's fallen subjects."
   },
   {
    "target": "class:Hunter",
-   "text": "Sarltooth represents one of the Wetlands' apex predators, demanding keen tracking skills to scale the ridge and take down the pack leader."
+   "text": "As a hunter, you face one of the Wetlands' apex predators. Keen tracking skills will guide you up the ridge to the pack leader."
   },
   {
    "target": "faction:Alliance",
-   "text": "Securing dwarven expeditions in the marshlands ensures that Alliance footholds between Ironforge and the northern lands remain intact."
+   "text": "As an Alliance member, you help secure dwarven expeditions in the marshlands and keep Alliance footholds between Ironforge and the northern lands intact."
   }
  ],
  "keywords": [
@@ -112,5 +112,6 @@
  ],
  "attribution": [
   "Ormer's Revenge (3)"
- ]
+ ],
+ "style": 1
 }

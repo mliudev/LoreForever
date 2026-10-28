@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Anvilmar"
  },
- "summary": "Anvilmar is a fortified dwarven outpost nestled in the snowy depths of Coldridge Valley in Dun Morogh. Centered around a massive stone forge, it serves as the primary training grounds and rallying point for young Bronzebeard dwarves and displaced gnomish refugees beginning their adventures.",
+ "summary": "In Anvilmar, young Bronzebeard dwarves and displaced gnomes gather to train and prepare for the road ahead. The fortified outpost stands in snowy Coldridge Valley, in Dun Morogh, around a great stone forge.",
  "sections": [
   {
    "title": "The Hearth of Coldridge",
-   "body": "Tucked away in the northern crags of Coldridge Valley, Anvilmar stands as an enduring symbol of dwarven perseverance. Dominated by a roaring central forge, this sturdy masonry complex houses class mentors, supply vendors, and veteran mountain mountaineers who drill recruits before sending them out into the wider kingdom. Though sheltered behind towering drifts, the settlement remains on constant guard against the hostile Frostmane trolls and aggressive wild beasts prowling the frozen valley.",
+   "body": "At Anvilmar, a central forge burns within sturdy stone walls in the northern crags of Coldridge Valley. Class mentors and supply vendors are here, alongside veteran mountain mountaineers who drill recruits before they set out into the wider kingdom. Snowdrifts shelter the outpost, but Frostmane trolls and wild beasts prowl the frozen valley, keeping its defenders on guard.",
    "spoiler": 0
   },
   {
    "title": "A Legacy of Iron and Trolls",
-   "body": "The settlement likely takes its proud name from High King Modimus Anvilmar, the ancient sovereign who ruled all dwarven clans before the War of the Three Hammers. Today, the garrison remains vigilant, ensuring the forge fires stay lit against the trolls and beasts of the valley.",
+   "body": "Anvilmar may take its name from High King Modimus Anvilmar, who ruled the dwarven clans before the War of the Three Hammers. The garrison keeps watch today, tending the forge fires as trolls and beasts roam the valley.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "anvilmar location",
     "anvilmar overview"
    ],
-   "answer": "Anvilmar is a dwarven stronghold and settlement located in northern Coldridge Valley within Dun Morogh. It functions as the initial staging post and training hub for newly recruited dwarven and gnomish adventurers."
+   "answer": "Anvilmar is a dwarven outpost in northern Coldridge Valley, in Dun Morogh. Newly recruited dwarves and gnomes gather there to train and prepare for the road ahead."
   },
   {
    "q": "Why is it named Anvilmar?",
@@ -37,7 +37,7 @@
     "anvilmar name origin",
     "name meaning"
    ],
-   "answer": "The outpost may be named after High King Modimus Anvilmar or the Anvilmar bloodline. Modimus ruled the dwarven clans before the War of the Three Hammers, but the settlement's naming is not confirmed."
+   "answer": "Anvilmar may be named for High King Modimus Anvilmar or his bloodline. Modimus ruled the dwarven clans before the War of the Three Hammers, but the outpost’s name has no confirmed origin."
   },
   {
    "q": "What threats does Anvilmar face?",
@@ -46,7 +46,7 @@
     "who attacks anvilmar",
     "threats to anvilmar"
    ],
-   "answer": "The outpost faces constant danger from the native Frostmane trolls occupying the crags of Coldridge Valley, as well as dangerous local wildlife like wolves and wendigos."
+   "answer": "Frostmane trolls and dangerous wildlife threaten Anvilmar. Wolves and wendigos roam the crags of Coldridge Valley."
   },
   {
    "q": "Can you learn professions here?",
@@ -55,17 +55,17 @@
     "anvilmar forge",
     "blacksmithing anvilmar"
    ],
-   "answer": "While Anvilmar features a roaring forge suitable for smithing and smelting, there are no professional tradeskill trainers stationed here. Young recruits must venture further into Dun Morogh, such as to Kharanos or Ironforge, to formally learn crafting arts."
+   "answer": "Anvilmar has a forge, but no professional tradeskill trainers. To learn a craft, young recruits must travel farther into Dun Morogh, to places such as Kharanos or Ironforge."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "For dwarves, Anvilmar represents the beginning of the journey into the world, possibly bearing the name of the ancient High King who once ruled a unified dwarven kingdom."
+   "text": "As a dwarf, you begin your journey at Anvilmar, an outpost that may bear the name of the ancient High King who once ruled the dwarven clans."
   },
   {
    "target": "race:Gnome",
-   "text": "Gnomes taking shelter here after the fall of Gnomeregan find stout dwarven allies, warm hearths, and instructors ready to help them adapt to the frozen wilderness."
+   "text": "As a gnome taking shelter at Anvilmar, you find dwarven allies, warm hearths, and instructors who can help you adapt to the frozen wilderness."
   }
  ],
  "keywords": [
@@ -85,5 +85,6 @@
  ],
  "attribution": [
   "Anvilmar"
- ]
+ ],
+ "style": 1
 }

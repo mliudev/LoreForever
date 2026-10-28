@@ -17,21 +17,21 @@
   "wiki": "Ogre Thieves (Classic)",
   "chain": []
  },
- "summary": "Abercrombie, the peculiar hermit dwelling in western Duskwood, asks travelers to venture into the ogre stronghold of Vul'Gol Ogre Mound. He claims that ogres ambushed him while he was foraging and made off with a crate filled with his irreplaceable herbs and tools.",
+ "summary": "In western Duskwood, Abercrombie sends travelers to the ogre stronghold at Vul'Gol Ogre Mound. He says the ogres ambushed him while he foraged and took a crate of irreplaceable herbs and tools.",
  "sections": [
   {
    "title": "A Hermit's Lost Goods",
-   "body": "Isolated out along the damp roads of western Duskwood, the aged hermit Abercrombie claims he was attacked while gathering supplies in the wilderness. According to him, brutes from the southern ogre mound drove him off, forcing him to abandon a sturdy wooden crate packed with precious herbs and delicate instruments.",
+   "body": "Abercrombie, an aged hermit on the damp roads of western Duskwood, says he was attacked while gathering supplies. Brutes from the southern ogre mound drove him off, and he left behind a sturdy wooden crate packed with precious herbs and delicate instruments.",
    "spoiler": 0
   },
   {
    "title": "The Vul'Gol Threat",
-   "body": "The Vul'Gol Ogre Mound in southern Duskwood is a fortified hive of hostile ogres who harass unwary wanderers. The crate sits right near the entrance of their cavernous mound, daring outsiders to step past roaring brutes and spell-weaving magi to haul it back to the hermit.",
+   "body": "The Vul'Gol Ogre Mound lies in southern Duskwood, where hostile ogres harass unwary wanderers. Abercrombie's crate rests right near the entrance, among roaring brutes and spell-weaving magi.",
    "spoiler": 0
   },
   {
    "title": "A Slip of the Tongue",
-   "body": "Upon recovering his missing goods, Abercrombie's eccentric demeanor cracks into manic excitement. He catches himself almost shouting praises to 'the Nec\u2014' before hastily pivoting to thank the adventurer instead, eager to lock himself away and put his retrieved supplies to use in the dark.",
+   "body": "When Abercrombie gets his goods back, his eccentric manner gives way to manic excitement. He nearly shouts praise to 'the Nec—' before catching himself and thanking you instead. Then he eagerly shuts himself away to put his recovered supplies to use in the dark.",
    "spoiler": 1
   }
  ],
@@ -43,7 +43,7 @@
     "who gave me this quest",
     "who is the hermit"
    ],
-   "answer": "Abercrombie is an eccentric, solitary hermit residing in a worn shack in western Duskwood. Though he acts frail, helpless, and in need of assistance, his frantic behavior and strange requests hint at darker, unsettling motives."
+   "answer": "Abercrombie is an eccentric hermit in a worn shack in western Duskwood. He acts frail and helpless, and seems to need assistance, though his frantic behavior and strange requests hint at darker motives."
   },
   {
    "q": "Where did the ogres take Abercrombie's crate?",
@@ -52,7 +52,7 @@
     "crate location",
     "vul'gol crate"
    ],
-   "answer": "The crate was brought to the Vul'Gol Ogre Mound in southern Duskwood. It rests exposed on the dirt right outside the mouth of the ogre cave."
+   "answer": "The ogres took Abercrombie's crate to Vul'Gol Ogre Mound in southern Duskwood. It rests exposed on the dirt right outside the mound's entrance."
   },
   {
    "q": "Why are there ogres in Duskwood?",
@@ -61,7 +61,7 @@
     "vul'gol ogres origin",
     "why ogres here"
    ],
-   "answer": "The ogres of the Vul'Gol clan carved out a foothold in the rugged southern hills of Duskwood. Aggressive and opportunistic, they regularly raid passersby, ambush solitary wanderers, and hoard stolen plunder around their mound."
+   "answer": "The ogres of the Vul'Gol clan carved out a foothold in Duskwood's rugged southern hills. Aggressive and opportunistic, they raid passersby, ambush solitary wanderers, and hoard stolen plunder around their mound."
   },
   {
    "q": "What is actually inside the crate?",
@@ -69,7 +69,7 @@
     "what did abercrombie lose",
     "contents of crate"
    ],
-   "answer": "Abercrombie claims the crate contains rare herbs and specialized harvesting tools he abandoned during the attack, and he is overjoyed to have them back."
+   "answer": "Abercrombie claims the crate holds rare herbs and specialized harvesting tools he abandoned during the attack. He is overjoyed to have them back."
   },
   {
    "q": "What did Abercrombie almost say when receiving the crate?",
@@ -78,7 +78,7 @@
     "what was abercrombie saying",
     "abercrombie quote"
    ],
-   "answer": "Upon getting his crate back, Abercrombie starts to thank someone else before abruptly catching himself and thanking the adventurer instead, then gleefully looks forward to the nights ahead."
+   "answer": "As Abercrombie gets his crate back, he starts to thank someone else, then abruptly catches himself and thanks you instead. He gleefully looks forward to the nights ahead."
   },
   {
    "q": "Does this quest connect to other tasks at the ogre mound?",
@@ -86,21 +86,21 @@
     "ogre mound quests",
     "quests near vulgol"
    ],
-   "answer": "Adventurers traveling to Vul'Gol Ogre Mound may also be collecting ogre monocles for Viktori Prism'Antras."
+   "answer": "Travelers headed to Vul'Gol Ogre Mound may also be gathering ogre monocles for Viktori Prism'Antras."
   }
  ],
  "angles": [
   {
    "target": "class:Warlock",
-   "text": "Warlocks familiar with forbidden arts will easily recognize Abercrombie's slip of the tongue as an ode to dark spellcraft rather than simple botanical zeal."
+   "text": "As a warlock, you may recognize Abercrombie's slip of the tongue as praise for dark spellcraft, rather than simple love of plants."
   },
   {
    "target": "class:Paladin",
-   "text": "Abercrombie's eager, secretive delight at recovering his crate should put any servant of the Holy Light on guard against aiding the reclusive hermit blindly."
+   "text": "As a paladin, you may take Abercrombie's eager, secretive delight at recovering his crate as a reason to be wary of helping the reclusive hermit blindly."
   },
   {
    "target": "profession:Herbalism",
-   "text": "While Abercrombie claims his crate holds mere herbs, an herbalist might wonder what bizarre flora requires such desperate retrieval from an ogre mound."
+   "text": "As an herbalist, you may wonder what bizarre flora could make Abercrombie so desperate to retrieve his crate from an ogre mound."
   }
  ],
  "keywords": [
@@ -119,5 +119,6 @@
  ],
  "attribution": [
   "Ogre Thieves (Classic)"
- ]
+ ],
+ "style": 1
 }

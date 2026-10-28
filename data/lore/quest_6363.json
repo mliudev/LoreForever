@@ -17,16 +17,16 @@
   "wiki": "Tal the Wind Rider Master (Classic)",
   "chain": []
  },
- "summary": "Tal the Wind Rider Master is a simple courier task connecting Mulgore leatherworkers with merchants in the Barrens. The leatherworker Ahanu entrusts a parcel of finished hides to be flown out of Thunder Bluff. Delivered directly to Tal, the mesa's flight master, it introduces fledgling Horde travelers to the wind rider transport network.",
+ "summary": "In Thunder Bluff, Tal the Wind Rider Master awaits a parcel from Ahanu. It is bound for Jahan Hawkwing at the Crossroads, linking Mulgore’s leatherworkers with Barrens merchants.",
  "sections": [
   {
    "title": "Supplies for the Crossroads",
-   "body": "Trade between Mulgore and the arid scrub of the Barrens is essential for the young Horde. Ahanu, a leatherworker selling his wares on Thunder Bluff's lower rise, produces durable leather goods intended for Jahan Hawkwing's trade stall at the Crossroads. Because the overland walk down the bluffs and through the golden plains takes hours on foot, merchants rely on winged couriers to ferry fragile or urgent parcels over the craggy divide.",
+   "body": "Ahanu, a leatherworker on Thunder Bluff’s lower rise, sends finished hides to Jahan Hawkwing’s trade stall at the Crossroads. Trade between Mulgore and the Barrens matters to the young Horde, but the journey down the bluffs and across the plains takes hours on foot. Winged couriers carry parcels over the divide.",
    "spoiler": 0
   },
   {
    "title": "Master of the Mesa's Roost",
-   "body": "Perched upon the highest central tier of Thunder Bluff, Tal tends to the city's flock of wind riders\u2014also known as wyverns. These intelligent, leathery-winged beasts are ideally suited for navigating Kalimdor's unpredictable thermal drafts and rugged peaks. Tal coordinates flights departing to outposts like the Crossroads, ensuring messengers and cargo pass quickly between the tauren capital and their orcish allies.",
+   "body": "On Thunder Bluff’s highest central tier, Tal tends the city’s wind riders, also called wyverns. The winged beasts cross Kalimdor’s rugged peaks and shifting thermal drafts. Tal arranges flights to outposts such as the Crossroads, carrying messengers and cargo between the tauren capital and its orcish allies.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "tal thunder bluff",
     "wind rider master tal"
    ],
-   "answer": "Tal is Thunder Bluff's flight master, overseeing the roost of wind riders located on the central mesa. He manages aerial transport for travelers and couriers heading out into the Barrens and beyond."
+   "answer": "Tal tends Thunder Bluff’s wind rider roost on the central mesa. He arranges aerial transport for travelers and couriers bound for the Barrens and beyond."
   },
   {
    "q": "Who is Ahanu?",
@@ -47,7 +47,7 @@
     "who is ahanu",
     "ahanu thunder bluff"
    ],
-   "answer": "Ahanu is a tauren leatherworking craftsman residing in Thunder Bluff. He prepares bulk leather goods and bundles them to supply vendors at outposts across Kalimdor, including Jahan Hawkwing at the Crossroads."
+   "answer": "Ahanu is a tauren leatherworker in Thunder Bluff. He prepares leather goods for vendors at Kalimdor outposts, including Jahan Hawkwing at the Crossroads."
   },
   {
    "q": "Why do the goods need to go to the Crossroads?",
@@ -56,7 +56,7 @@
     "leather goods crossroads",
     "jahan leather"
    ],
-   "answer": "The Crossroads serves as the vital trade and military intersection of the Barrens. Goods produced in the sheltered peace of Mulgore, such as hides and leather garments, are shipped there to supply travelers, hunters, and Horde patrols."
+   "answer": "The Crossroads is a trade and military junction in the Barrens. Goods from Mulgore, including hides and leather garments, supply travelers, hunters, and Horde patrols there."
   },
   {
    "q": "Can I fly straight to the Crossroads with this parcel?",
@@ -65,7 +65,7 @@
     "tal flight path",
     "how to fly to crossroads"
    ],
-   "answer": "You can only fly to the Crossroads if you have already visited the settlement and established contact with Devrak, their local wind rider master. If you have not unlocked that route yet, you must travel overland on foot."
+   "answer": "You can fly to the Crossroads after visiting the settlement and making contact with Devrak, its wind rider master. Until then, you travel overland on foot."
   },
   {
    "q": "What are wind riders?",
@@ -74,7 +74,7 @@
     "what is a wind rider",
     "tauren mounts"
    ],
-   "answer": "Wind riders, commonly called wyverns, are sentient, venomous winged predators native to the crags of Kalimdor. Allied with the Horde since the Third War, they serve as the faction's primary aerial mounts."
+   "answer": "Wind riders, also called wyverns, are sentient, venomous winged predators native to Kalimdor’s crags. They allied with the Horde since the Third War and are its chief aerial mounts."
   },
   {
    "q": "Where does this courier errand lead next?",
@@ -83,17 +83,17 @@
     "what after tal",
     "where do leather goods go"
    ],
-   "answer": "Once you deliver the goods to Tal, he instructs you to secure a mount and deliver Ahanu's parcel across the plains to Jahan Hawkwing waiting at the Crossroads."
+   "answer": "After you deliver the goods to Tal, he directs you to take Ahanu’s parcel across the plains to Jahan Hawkwing at the Crossroads."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "The wind riders nesting on Thunder Bluff's bluffs represent the vital link keeping Cairne Bloodhoof's isolated people woven into the broader Horde coalition."
+   "text": "As a tauren, you rely on Thunder Bluff’s wind riders to connect your people with the wider Horde."
   },
   {
    "target": "faction:Horde",
-   "text": "Establishing stable flight lines between the Barrens and Thunder Bluff ensures that reinforcements, trade wares, and messages can flow swiftly across central Kalimdor."
+   "text": "As Horde, you rely on flight routes between the Barrens and Thunder Bluff to carry reinforcements, trade goods, and messages across central Kalimdor."
   }
  ],
  "keywords": [
@@ -118,5 +118,6 @@
  ],
  "attribution": [
   "Tal the Wind Rider Master (Classic)"
- ]
+ ],
+ "style": 1
 }

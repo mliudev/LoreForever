@@ -8,21 +8,21 @@
   "wiki": "Sirra Von'Indi",
   "refs": 3
  },
- "summary": "Sirra Von'Indi is the resident historian of Darkshire, stationed within the town hall amid stacks of forgotten records. Versed in ancient languages and local history, he assists the township in deciphering mysterious documents and uncovering the dark past of Duskwood.",
+ "summary": "In Darkshire, Sirra Von'Indi studies the records that hold Duskwood's history. The town's historian knows ancient languages and helps decipher mysterious documents and the region's past.",
  "sections": [
   {
    "title": "The Town Historian",
-   "body": "Sirra Von'Indi serves as Darkshire's foremost scholar, keeping watch over the settlement's archives from inside the Darkshire Town Hall. While the town guard focuses on the immediate threats lurking in the woods, Sirra turns his attention to the written word, translating cryptic texts and preserving the fading history of Grand Hamlet before the shadow fell across the region.",
+   "body": "In Darkshire Town Hall, Sirra Von'Indi keeps the settlement's archives. While the town guard faces threats in the woods, he studies old texts and preserves the history of Grand Hamlet from before shadow fell across the region.",
    "spoiler": 0
   },
   {
    "title": "Deciphering the Hermit's Words",
-   "body": "When town leadership becomes suspicious of the hermit Abercrombie living out on the lonesome hills of Duskwood, Sirra is called upon to translate the recluse's mysterious notes. His linguistic expertise allows the council to read between the lines of seemingly innocuous requests, unraveling the bizarre inquiries arriving from the haunted woods.",
+   "body": "When Darkshire's leaders grow suspicious of Abercrombie, the hermit living on Duskwood's hills, they ask Sirra Von'Indi to translate his notes. His knowledge of languages helps the council make sense of the strange requests coming from the haunted woods.",
    "spoiler": 1
   },
   {
    "title": "Tragedies of the Past",
-   "body": "Beyond routine translations, Sirra plays a crucial role in shedding light on the sorrowful history of Duskwood. Inquirers seeking to understand the mysterious weathered grave in the town cemetery find Sirra to be one of the few souls who remembers the tragic downfall of the paladin Morgan Ladimore, providing travelers with the context needed to lay restless spirits to peace.",
+   "body": "Sirra Von'Indi knows the sorrowful history behind a weathered grave in Darkshire's cemetery. He is one of the few who remembers how the paladin Morgan Ladimore fell, and gives travelers the context they need to bring peace to restless spirits.",
    "spoiler": 1
   }
  ],
@@ -34,7 +34,7 @@
     "sirra von'indi lore",
     "darkshire historian"
    ],
-   "answer": "Sirra Von'Indi is a human scholar and the official historian of Darkshire. He spends his days inside the Darkshire Town Hall studying ancient arts, translating obscure languages, and keeping the town's historical records."
+   "answer": "Sirra Von'Indi is Darkshire's human scholar and official historian. In the town hall, he studies ancient arts, translates obscure languages, and keeps the town's historical records."
   },
   {
    "q": "Where can Sirra Von'Indi be found?",
@@ -43,7 +43,7 @@
     "sirra von'indi location",
     "find sirra darkshire"
    ],
-   "answer": "He can be found inside the Darkshire Town Hall in the settlement of Darkshire, located in central Duskwood. He is typically standing among desks and bookshelves consulting historical texts."
+   "answer": "Sirra Von'Indi can be found in Darkshire Town Hall, in central Duskwood. He stands among desks and bookshelves, consulting historical texts."
   },
   {
    "q": "What role does he play with Abercrombie's note?",
@@ -52,7 +52,7 @@
     "translate abercrombie note",
     "sirra note translation"
    ],
-   "answer": "When a strange note from the hermit Abercrombie reaches Lord Ello Ebonlocke and no one at the town hall can read it, Sirra uses his linguistic skills to translate it, helping the council understand Abercrombie's odd demands."
+   "answer": "When a strange note from the hermit Abercrombie reaches Lord Ello Ebonlocke and no one in the town hall can read it, Sirra Von'Indi translates it. His work helps the council understand Abercrombie's odd demands."
   },
   {
    "q": "What does Sirra know about Morgan Ladimore?",
@@ -61,7 +61,7 @@
     "morgan ladimore lore sirra",
     "story of the weathered grave"
    ],
-   "answer": "Sirra is one of the few residents in Darkshire who knows the full history of Morgan Ladimore, the fallen paladin buried in the Weathered Grave. He helps recount Ladimore's descent into madness and tragedy after the Third War."
+   "answer": "Sirra Von'Indi knows the full history of Morgan Ladimore, the fallen paladin buried in the Weathered Grave. He recounts Ladimore's descent into madness and tragedy after the Third War."
   },
   {
    "q": "Why does Sirra make travelers wait while translating?",
@@ -70,17 +70,17 @@
     "wait for sirra to finish",
     "sirra translating wait"
    ],
-   "answer": "Deciphering obscure dialects and archaic handwriting is meticulous work. Sirra often asks travelers to give him time while he cross-references references and finishes a reliable translation."
+   "answer": "Sirra Von'Indi often asks travelers to give him time while he translates. Deciphering obscure dialects and old handwriting takes care, and he cross-checks his references to make the translation reliable."
   }
  ],
  "angles": [
   {
    "target": "class:Mage",
-   "text": "Mages visiting Darkshire often appreciate Sirra's academic discipline, as his focus on ancient languages and historical study mirrors the archival research practiced in the Kirin Tor."
+   "text": "As a mage visiting Darkshire, you may recognize Sirra Von'Indi's academic discipline. His study of ancient languages and history echoes the archival research practiced in the Kirin Tor."
   },
   {
    "target": "faction:Alliance",
-   "text": "Sirra represents the surviving civic institution of Darkshire, helping maintain the heritage of the Kingdom of Stormwind in a province otherwise consumed by darkness."
+   "text": "As an Alliance traveler, you can see Sirra Von'Indi helping preserve Darkshire's civic life and the heritage of the Kingdom of Stormwind in a province consumed by darkness."
   }
  ],
  "keywords": [
@@ -106,5 +106,6 @@
  ],
  "attribution": [
   "Sirra Von'Indi"
- ]
+ ],
+ "style": 1
 }

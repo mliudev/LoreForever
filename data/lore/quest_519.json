@@ -27,16 +27,16 @@
    "Crown of Will"
   ]
  },
- "summary": "With the ogres' defenses weakened, Melisara in Tarren Mill wants the heads of Mug'Thol's three lieutenants, Targ, Muckrake and Glommus, before Mug'Thol himself is dealt with.",
+ "summary": "In Tarren Mill, Melisara seeks the heads of three ogres before Mug'Thol.",
  "sections": [
   {
    "title": "Sniping at the Leadership",
-   "body": "Mug'Thol's lieutenants are Targ, Muckrake and Glommus, all loyal to him, though Melisara wonders what could make an ogre loyal. You are to kill all three and bring their heads back to Tarren Mill. After that, only Mug'Thol's own head remains to be taken, crown and all.",
+   "body": "Melisara names Targ, Muckrake and Glommus as Mug'Thol's loyal lieutenants, though she wonders what could make an ogre loyal. You are to kill all three and bring their heads to Tarren Mill. Then only Mug'Thol's head, crown and all, remains to be taken.",
    "spoiler": 0
   },
   {
    "title": "What Becomes of the Heads",
-   "body": "Melisara remarks on how foul the ogres smell. Once Mug'Thol's head arrives too, all four will be set on pikes over Alterac, as a reminder to anyone who crosses the Dark Lady.",
+   "body": "Melisara remarks on the ogres' foul smell. When Mug'Thol's head arrives, all four will be set on pikes over Alterac as a warning to anyone who crosses the Dark Lady.",
    "spoiler": 1
   }
  ],
@@ -48,7 +48,7 @@
     "melisara location",
     "where to turn in the crown of will"
    ],
-   "answer": "Melisara, in Tarren Mill, gives it to you and is also the one you bring the heads to."
+   "answer": "Melisara gives you this part in Tarren Mill, where you bring the heads to her."
   },
   {
    "q": "Who are Targ, Muckrake, and Glommus?",
@@ -57,7 +57,7 @@
     "who are the ogre lieutenants",
     "targ muckrake glommus"
    ],
-   "answer": "They are Mug'Thol's lieutenants, loyal to him. Melisara wants their heads."
+   "answer": "Targ, Muckrake and Glommus are Mug'Thol's loyal lieutenants. Melisara wants their heads."
   },
   {
    "q": "What came before this part?",
@@ -66,7 +66,7 @@
     "what quest comes before this",
     "previous crown of will"
    ],
-   "answer": "The second part of The Crown of Will, in which the ogres' numbers were thinned."
+   "answer": "Before this part, the ogres' numbers were thinned in the second part of The Crown of Will."
   }
  ],
  "angles": [],
@@ -88,5 +88,6 @@
  ],
  "attribution": [
   "The Crown of Will (3)"
- ]
+ ],
+ "style": 1
 }

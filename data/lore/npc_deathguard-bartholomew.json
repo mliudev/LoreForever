@@ -8,11 +8,11 @@
   "wiki": "Deathguard Bartholomew",
   "refs": 1
  },
- "summary": "Deathguard Bartholomew is a vigilant Forsaken soldier stationed in the town of Brill. Tasked with maintaining security across Tirisfal Glades, he helps travelers navigate the blighted settlement and assists in enforcing discipline among local defenders.",
+ "summary": "In Brill, Deathguard Bartholomew keeps watch over the town and helps travelers find their way. He helps keep order among the Forsaken defenders of Tirisfal Glades.",
  "sections": [
   {
    "title": "Sentinel of Brill",
-   "body": "Standing watch in the settlement of Brill, Deathguard Bartholomew represents the stalwart military backbone of the Forsaken. Like his fellow Deathguards throughout Tirisfal Glades, he defends reclaimed territory from lingering Scourge, fanatical Scarlet Crusaders, and any other threats to Lady Sylvanas's domain. In addition to keeping watch, he provides directions to travelers attempting to navigate the town's facilities and participates in maintaining orderly conduct among the newly risen.",
+   "body": "Deathguard Bartholomew keeps watch in Brill, part of the Forsaken guard defending Tirisfal Glades. Like other Deathguards, he protects reclaimed land from the lingering Scourge, fanatical Scarlet Crusaders, and other threats to Lady Sylvanas's domain. He also guides travelers around the town and helps keep order among the newly risen.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "who is bartholomew",
     "deathguard bartholomew lore"
    ],
-   "answer": "Deathguard Bartholomew is a Forsaken guard stationed in Brill within Tirisfal Glades. He stands as a sentry safeguarding the town and guides wayfarers to points of interest."
+   "answer": "Deathguard Bartholomew guards Brill in Tirisfal Glades. He watches over the town and guides travelers to places they need to find."
   },
   {
    "q": "What is the role of the Deathguard?",
@@ -33,7 +33,7 @@
     "deathguard faction",
     "forsaken guards"
    ],
-   "answer": "The Deathguard serves as the primary infantry and defense force of the Forsaken. They patrol the territories of Lordaeron, defend settlements like Brill from the Scourge and Scarlet Crusade, and enforce order on behalf of the Dark Lady."
+   "answer": "The Deathguard is the Forsaken's main infantry and defense force. They patrol Lordaeron, defend settlements like Brill from the Scourge and Scarlet Crusade, and keep order for the Dark Lady."
   },
   {
    "q": "Can Deathguard Bartholomew give directions?",
@@ -42,17 +42,17 @@
     "brill directions",
     "guard directions brill"
    ],
-   "answer": "Yes. Like many town sentries across Azeroth, Bartholomew can direct travelers to essential facilities throughout Brill, including trainers, the inn, and profession vendors."
+   "answer": "Yes. Deathguard Bartholomew can direct travelers to facilities in Brill, including trainers, the inn, and profession vendors."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "For newly liberated Forsaken emerging from Deathknell, guards like Bartholomew in Brill are the first organized face of Lady Sylvanas's standing army."
+   "text": "As a newly liberated Forsaken from Deathknell, you first meet Lady Sylvanas's standing army through guards like Bartholomew in Brill."
   },
   {
    "target": "faction:Horde",
-   "text": "Allies arriving from Kalimdor can rely on Bartholomew to find their bearings in the mist-shrouded streets of Brill."
+   "text": "As an ally arriving from Kalimdor, you can ask Bartholomew for directions through Brill's mist-shrouded streets."
   }
  ],
  "keywords": [
@@ -72,5 +72,6 @@
  ],
  "attribution": [
   "Deathguard Bartholomew"
- ]
+ ],
+ "style": 1
 }

@@ -10,16 +10,16 @@
    "quest:4513"
   ]
  },
- "summary": "A Filled Pure Sample Jar contains an uncorrupted specimen of primordial ooze gathered from the remote wilds. It serves as crucial baseline data for the gnome scholar Laris Geardawdle in Ironforge, who is studying how environmental corruption alters living matter.",
+ "summary": "In Ironforge, Laris Geardawdle studies how corruption changes living matter. A Filled Pure Sample Jar holds primordial ooze gathered from the remote wilds, giving him an uncorrupted specimen for comparison.",
  "sections": [
   {
    "title": "A Search for Uncorrupted Slime",
-   "body": "In his study of oozes across Azeroth, the gnomish researcher Laris Geardawdle discovered a troubling phenomenon: these amorphous creatures absorb and reflect the magical and environmental corruption of their habitats. After cataloging the tainted slimes of Felwood, Laris determined that deciphering the nature of the rot required a control group. A Filled Pure Sample Jar holds ooze harvested from pristine, untainted wilderness\u2014such as the primordial ecology of Un'Goro Crater\u2014offering scholars an unaltered specimen to compare against diseased and corrupted strains.",
+   "body": "Laris Geardawdle studies oozes across Azeroth and how corruption changes living matter. He found that these shapeless creatures absorb and reflect the magic and conditions of their homes. After cataloging tainted slimes in Felwood, he sought a clean sample to compare with them. A Filled Pure Sample Jar holds primordial ooze gathered from the wilds of Un'Goro Crater, where it can be studied apart from corrupted strains.",
    "spoiler": 0
   },
   {
    "title": "Primordial Ecology",
-   "body": "Because oozes are extraordinarily malleable organisms, true 'pure' samples cannot be collected near modern civilization, demonic blights, or necromantic fallout. The glutinous oozes inhabiting the untamed basin of Un'Goro Crater remain relatively isolated from outside corruption, making them an ideal scientific standard for Ironforge's inquiring minds.",
+   "body": "Oozes change readily, so Laris cannot find pure samples near civilization, demonic blights, or necromantic fallout. The glutinous oozes of Un'Goro Crater's untamed basin remain relatively isolated from outside corruption, making them a useful standard for scholars in Ironforge.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "who needs filled pure sample jar",
     "who wants the jars"
    ],
-   "answer": "Laris Geardawdle, a gnomish researcher stationed in Ironforge, seeks these pure jars to continue his ongoing study of Azeroth's ooze populations."
+   "answer": "Laris Geardawdle, a gnomish researcher in Ironforge, seeks pure samples for his study of Azeroth's ooze populations."
   },
   {
    "q": "Why does Laris need pure ooze instead of tainted ooze?",
@@ -40,7 +40,7 @@
     "why pure sample",
     "slime study purpose"
    ],
-   "answer": "Laris realized that slimes rapidly adapt and absorb the properties of their surrounding environment, such as the demonic rot in Felwood. To understand the extent and mechanism of that corruption, he requires uncorrupted baseline samples for scientific comparison."
+   "answer": "Laris found that slimes quickly absorb properties of their surroundings, including Felwood's demonic rot. He needs uncorrupted samples to compare against tainted ooze and understand both the extent and the mechanism of corruption."
   },
   {
    "q": "Where can pure ooze samples be collected?",
@@ -49,7 +49,7 @@
     "pure sample jar location",
     "where to fill pure jars"
    ],
-   "answer": "Pure samples are collected from the glutinous oozes inhabiting the primordial wilderness of Un'Goro Crater, where the flora and fauna remain isolated from external blights."
+   "answer": "Pure samples come from the glutinous oozes in Un'Goro Crater's primordial wilderness, where they remain isolated from outside blights."
   },
   {
    "q": "What happens once the samples are delivered to Ironforge?",
@@ -57,17 +57,17 @@
     "quest reward laris",
     "what does laris do with them"
    ],
-   "answer": "Laris uses the samples to conduct laboratory tests on adaptation and environmental resilience, rewarding adventurers who brave hazardous wilds to fetch them."
+   "answer": "Laris uses the samples to test how oozes adapt and withstand their environment. He rewards adventurers who brave hazardous wilds to bring them to Ironforge."
   }
  ],
  "angles": [
   {
    "target": "race:Gnome",
-   "text": "Gnomish scholars view field biology through rigorous empirical lenses; contrasting contaminated Felwood slimes against pure Un'Goro specimens exemplifies standard academic method."
+   "text": "As a gnome, you can see how comparing Felwood's tainted slimes with pure Un'Goro specimens helps scholars study living matter through careful observation."
   },
   {
    "target": "faction:Alliance",
-   "text": "Alliance explorers heading into extreme territories like Un'Goro Crater provide vital natural history data back to scholars stationed safely in Ironforge."
+   "text": "As an Alliance explorer, you can bring knowledge of remote places like Un'Goro Crater to scholars in Ironforge."
   }
  ],
  "keywords": [
@@ -90,5 +90,6 @@
  "attribution": [
   "Filled Pure Sample Jar",
   "A Little Slime Goes a Long Way (2)"
- ]
+ ],
+ "style": 1
 }

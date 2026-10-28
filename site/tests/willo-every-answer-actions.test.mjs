@@ -9,6 +9,8 @@ import { findOrCreateUser, setup } from "../lib/accounts.js";
 import { startLink, decideLink, claimToken } from "../lib/devices.js";
 import { TOGETHER_URL, resetBreaker } from "../lib/together.js";
 import { CUT_OFF_LINE } from "../lib/willo-tools.js";
+import CONTRACT from "../lib/willo-actions.js";
+import { setupBilling } from "../lib/billing.js";
 import { d1 } from "./helpers.mjs";
 
 const env = { DB: d1(), GEMINI_API_KEY: "test-key", TOGETHER_AI_API_KEY: "together-key",
@@ -60,6 +62,30 @@ const ask = async (token, question, { client = "companion/0.30.0", caps = null, 
       persona: "willo", ...(stock ? { stock } : {}), ...more }) }) });
   return (await res.text()).trim().split("\n").map(l => JSON.parse(l)).at(-1);
 };
+
+// LOR-856: past the size the answer takes, writeAnswer offered none of her tools at all, so on Legend with a notebook
+// page (13 KB of tools, 10/27) "switch to fell green" and "tick them all" reached the model with tools: [], and she
+// only said they were done. Every tool the PC lists, on the plan with the most, with their notebook: all of them go.
+test("on the plan with the most, with a notebook page, her tools all reach the model", async () => {
+  const token = await linked();
+  const user = await findOrCreateUser(env, { email: "every@example.com", googleSub: "every", name: "every" });
+  env.SITE_FEATURES = "plans";
+  try {
+    await setupBilling(env);
+    await env.DB.prepare("INSERT OR REPLACE INTO entitlements (user_id, subscription_id, plan, status, current_period_end, updated) " +
+      "VALUES (?, ?, 'legend', 'active', ?, ?)").bind(user.id, `sub-${user.id}`, new Date(Date.now() + 9e8).toISOString(), "").run();
+    await env.DB.prepare("INSERT INTO notebook_pages (user_id, page, title, body, version, updated) VALUES (?, ?, 'Tess', ?, 1, '')")
+      .bind(user.id, "char:Tess-Realm", "## To do\n- [ ] Gather all the quests in Shadowglen\n").run();
+    // What the PC lists (companion/lore_companion/actions.py capabilities): every flat tool and grouped operation.
+    const caps = ["actions/1", ...Object.entries(CONTRACT.tools).filter(([, t]) => t.side !== "site")
+      .flatMap(([id, t]) => t.ops ? Object.keys(t.ops).map(op => `${id}.${op}`) : [id])].join(" ");
+    asked = [];
+    await ask(token, "Tick them all", { client: "companion/0.31.0", caps, state: "voice now: Sprite",
+      more: { notebook: { character: "Tess-Realm" } } });
+    const tools = asked.find(a => a.to === "together")?.tools || [];
+    for (const name of ["notebook", "look", "talk", "keeps", "memory"]) assert.ok(tools.includes(name), `${name} in ${tools}`);
+  } finally { delete env.SITE_FEATURES; }
+});
 
 test("a request her help words miss still gets her Settings' button when she offers it", async () => {
   const token = await linked();
@@ -117,6 +143,59 @@ test("a plain ask of hers that Undo puts back is done at once, in her words; a q
   assert.ok(!old.action?.now, JSON.stringify(old.action));
 });
 
+// LOR-856 A3: done at once, what she says is the change's own line from what it set, never her words about it
+// ("Yes, I'm speaking as Sprite now" for a switch to Moonwell, Mike's QA 10/27).
+test("a change done at once is confirmed from what it set, not from her words", async () => {
+  const token = await linked();
+  together = () => calls("look", { answer: "Yes, I'm my own blue again.", op: "color", color: "fel" });
+  const done = await ask(token, "switch to fel green", { caps: "actions/1 look.color" });
+  assert.deepEqual([done.action?.args?.color, done.action?.now], ["fel", true]);
+  assert.match(done.answer, /fel green/i);
+  assert.doesNotMatch(done.answer, /blue/i);
+});
+
+// LOR-856 A4: "Can you change your voice?" switched her to one she picked (Mike's QA 10/27), and "fell green", as heard,
+// was none of her colors.
+test("a change of hers with no value they named shows the choices and asks which; one they named, heard loosely, is done", async () => {
+  const token = await linked();
+  const caps = "actions/1 look.color settings.open";
+  together = () => calls("look", { answer: "Fel green it is.", op: "color", color: "fel" });
+  const unnamed = await ask(token, "Can you change your color?", { caps });
+  assert.deepEqual([unnamed.action?.id, unnamed.action?.args?.section, unnamed.action?.now], ["settings", "color", true]);
+  assert.match(unnamed.answer, /which/i);
+  together = () => calls("look", { answer: "Done.", op: "color", color: "fell green" });
+  const heard = await ask(token, "switch to fell green", { caps });
+  assert.deepEqual([heard.action?.args?.color, heard.action?.now], ["fel", true]);
+});
+
+// LOR-856 (the bake-off, 10/28): her app's tools went out without her WILLO STATE, so no model could open a past chat
+// by its title or pause the story playing.
+test("what her state shows is hers to act on: a past chat by its title, the story that's playing", async () => {
+  const token = await linked();
+  const caps = "actions/1 chats.list chats.open player.pause";
+  const state = "voice now: Sprite\nlore player: playing The Defias Brotherhood\npast chats, newest first: Wolves of Westfall | Today";
+  together = () => calls("chats", { answer: "Here it is.", op: "open", chat: "Wolves of Westfall" });
+  const chat = await ask(token, "open my chat about the wolves", { caps, state });
+  assert.deepEqual([chat.action?.id, chat.action?.args?.op, chat.action?.args?.chat], ["chats", "open", "Wolves of Westfall"]);
+  together = () => calls("player", { answer: "Paused.", op: "pause" });
+  const story = await ask(token, "hold the story a second", { caps, state });
+  assert.deepEqual([story.action?.id, story.action?.args?.op], ["player", "pause"]);
+});
+
+// LOR-856 (E1, 10/28): asked how to change it, DeepSeek called her talk key with no key, and the site dropped it: no
+// button, 3 runs in 4.
+test("a talk key change with no key they named shows where to pick one; a key they named is the one", async () => {
+  const token = await linked();
+  const caps = "actions/1 talk.key settings.open";
+  together = () => calls("talk", { answer: "In my window, Settings, Willo, Talk with Willo: pick your talk key there.", op: "key" });
+  const how = await ask(token, "How do I change your talk key?", { caps });
+  assert.deepEqual([how.action?.id, how.action?.args?.section], ["settings", "talk"]);
+  assert.match(how.answer, /settings/i, "her how-to stands");
+  together = () => calls("talk", { answer: "F9 it is.", op: "key", key: "f9" });
+  const named = await ask(token, "Change my talk key to F9", { caps });
+  assert.deepEqual([named.action?.id, named.action?.args?.key], ["talk", "f9"]);
+});
+
 test("a PC that lists her grouped tools gets them, and her call comes back as that operation", async () => {
   const token = await linked();
   together = () => calls("remarks", { answer: "I'll keep quiet while you play.", op: "level", level: "off" });
@@ -156,6 +235,20 @@ test("on DeepSeek she reads their gear when her answer needs it; the Gemini fall
   asked = [];
   await ask(token, "am I ready for the Deadmines?", { stock });
   assert.match(asked.find(a => a.to === "gemini")?.text || "", /Two-Handed Sword/i);
+});
+
+test("on DeepSeek she reads the answers they have left when she calls for them, with no game save", async () => {
+  const token = await linked();
+  const seen = [];
+  together = body => {
+    seen.push(JSON.stringify(body.messages));
+    return seen.length === 1 ? calls("get_answers_left", {}) : calls("answer_only", { answer: "Plenty left today." });
+  };
+  const reply = await ask(token, "am I running low on questions?");
+  assert.equal(seen.length, 2);
+  assert.doesNotMatch(seen[0], /\d+ left/i);
+  assert.match(seen[1], /\d+ left/i);
+  assert.match(reply.answer, /plenty/i);
 });
 
 test("the plans page is never her Settings: its own button where it runs, her words where it can't", async () => {
@@ -227,10 +320,46 @@ test("a yes to her offer is taken only when their words answer it; a screenshot 
   const twice = await ask(token, "yes, I killed Hogger", { state: voice });
   assert.equal(twice.offer, "about", JSON.stringify(twice));
   assert.match(twice.answer, /Moonwell/i);
+  // A no their words don't say ("will I lose this one?") goes back to her too; a no they say is taken.
+  tries = 0;
+  together = () => ++tries === 1 ? calls("offer_reply", { reply: "no" })
+    : calls("offer_reply", { reply: "about", answer: "No, your voice settings stay. Still want Moonwell's voice?" });
+  const asking = await ask(token, "will I lose this one?", { state: voice });
+  assert.equal(asking.offer, "about", JSON.stringify(asking));
+  tries = 0;
+  assert.equal((await ask(token, "nah, I'm good", { state: voice })).offer, "no");
   // A screenshot to a friend goes on a short plain yes; a longer one, or a question, is asked once more.
   const shot = "your offer just now: Send this screenshot to Bobby (capture_game_to_friend)";
   together = () => calls("offer_reply", { reply: "yes" });
   assert.equal((await ask(token, "yep send it", { state: shot })).offer, "yes");
   const unsure = await ask(token, "yes please, go ahead, send it now, thanks", { state: shot });
   assert.notEqual(unsure.offer, "yes", JSON.stringify(unsure));
+});
+
+test("What Willo keeps by voice: an erase is read back and done on a plain yes; answers off at once, that answer unkept", async () => {
+  const token = await linked();
+  const post = async (question, before = null) => {
+    const res = await onRequest({ env, request: new Request("https://example.test/api/companion/answer", {
+      method: "POST", headers: { "X-LF-Client": "companion/0.30.0", Authorization: `Bearer ${token}`,
+        "Content-Type": "application/json" },
+      body: JSON.stringify({ persona: "willo", keep: true, prompt: "PLAYER CONTEXT\nzone: Westfall\n\n" + (before
+        ? `RECENT CONVERSATION (oldest first)\n${JSON.stringify([{ player: before.q, willo: before.a }])}\n\n` : "")
+        + `SOURCES\n\nQUESTION\n${question}` }) }) });
+    return JSON.parse((await res.text()).trim().split("\n").at(-1));
+  };
+  const kept = question => env.DB.sqlite.prepare("SELECT COUNT(*) AS n FROM answer_log WHERE question = ?").get(question).n;
+  await post("where is Hogger?");
+  assert.equal(kept("where is Hogger?"), 1);
+  together = () => calls("keeps", { op: "erase", section: "answers" });
+  const asked = await post("erase the questions you kept");
+  assert.match(asked.answer, /say yes/i);
+  assert.equal(kept("where is Hogger?"), 1, "nothing goes before their yes");
+  together = () => calls("answer_only", { answer: "Hogger prowls the hills of Elwynn." });
+  await post("yes", { q: "erase the questions you kept", a: asked.answer });
+  assert.equal(kept("where is Hogger?"), 0);
+  // Help improve answers off at once, and the answer that turned it off isn't kept.
+  together = () => calls("keeps", { op: "answers_off" });
+  await post("stop using my questions to improve your answers");
+  assert.equal(kept("stop using my questions to improve your answers"), 0);
+  assert.equal(env.DB.sqlite.prepare("SELECT keep_answers FROM keeps_settings").get()?.keep_answers, 0);
 });

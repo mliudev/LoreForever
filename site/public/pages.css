@@ -7,7 +7,7 @@
    below give the shared pieces the new shapes: titles, cards, form fields, folds and tags. lib/voices.js page() builds
    the same frame for the pages a Function writes (bw: true). Every page that loads this sheet gets chronicle.css (the
    book's sheet, buttons, tiles and the paper's elements) with it; bump its ?v= with the file. */
-@import url("/chronicle.css?v=20261026a");
+@import url("/chronicle.css?v=20261026c");
 
 .bw main.bw-page { position: relative; isolation: isolate; max-width: none; min-height: 420px; margin: 0; padding: 0; }
 .bw-page ~ .h-foot { position: relative; }   /* over the sky's fade, under a short page */

@@ -10,11 +10,11 @@
    "quest:1655"
   ]
  },
- "summary": "Jordan's Ore Shipment is a crate of ore that Bailor Stonehand was to turn into his alloy for the smith Jordan Stilwell. Carried by caravan from the Wetlands, the delivery was intercepted and looted by Mo'grosh ogres in the northeastern hills of Loch Modan.",
+ "summary": "Mo'grosh ogres hold Jordan's Ore Shipment in the northeastern hills of Loch Modan. The ore came by caravan from the Wetlands for Bailor Stonehand to refine into an alloy for the smith Jordan Stilwell.",
  "sections": [
   {
    "title": "An Ambushed Delivery",
-   "body": "Meant to be refined by the dwarf Bailor Stonehand into his special alloy, this ore was originally promised to Jordan Stilwell for his metalwork. While crossing south through the mountains from the Wetlands into Loch Modan, the supply caravan was violently ambushed by the Mo'grosh ogres. The shipment was dragged into the ogres' wilderness stronghold, leaving the surviving guards to perish from their wounds and halting Jordan's smithing project until an adventurer can pry it back from the brutes.",
+   "body": "Jordan Stilwell's ore shipment was bound for Bailor Stonehand, a dwarf who would refine it into his special alloy. The caravan carried the ore south through the mountains from the Wetlands into Loch Modan when Mo'grosh ogres ambushed it. The ogres dragged the shipment to their stronghold in the wilderness. The surviving guards perished from their wounds, and Jordan's smithing project waits until the ore is recovered.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "what ore is this",
     "jordan ore contents"
    ],
-   "answer": "The shipment holds ore that the dwarf Bailor Stonehand refines into his special alloy, promised to the smith Jordan Stilwell for his metalcrafting in Ironforge."
+   "answer": "The shipment holds ore for Bailor Stonehand to refine into his special alloy for the smith Jordan Stilwell's metalwork in Ironforge."
   },
   {
    "q": "Who stole Jordan's Ore Shipment?",
@@ -35,7 +35,7 @@
     "who stole it",
     "ogres ore shipment"
    ],
-   "answer": "The Mo'grosh ogres ambushed the supply caravan as it was traveling south from the Wetlands, slaughtering the escorts and hauling the crates back to their territory northeast of the Loch."
+   "answer": "Mo'grosh ogres ambushed the caravan as it traveled south from the Wetlands, slaughtered the escorts, and hauled the crates to their territory northeast of the Loch."
   },
   {
    "q": "Who is Bailor Stonehand?",
@@ -43,7 +43,7 @@
     "bailor stonehand",
     "who is bailor"
    ],
-   "answer": "Bailor Stonehand is a dwarven craftsman stationed in Loch Modan and an old friend of Jordan Stilwell. He arranged the shipment of alloy before it was overrun by ogres."
+   "answer": "Bailor Stonehand is a dwarven craftsman stationed in Loch Modan and an old friend of Jordan Stilwell. He arranged the shipment of alloy before ogres overran it."
   },
   {
    "q": "Why is this shipment important to paladins?",
@@ -52,17 +52,17 @@
     "test of righteousness ore",
     "why do paladins need this"
    ],
-   "answer": "Paladins undertaking the Test of Righteousness seek out this alloy to help Jordan Stilwell forge a consecrated weapon of the Light."
+   "answer": "Paladins undertaking the Test of Righteousness seek the alloy to help Jordan Stilwell forge a consecrated weapon of the Light."
   }
  ],
  "angles": [
   {
    "target": "class:Paladin",
-   "text": "Retrieving this stolen alloy from the Mo'grosh ogres is a vital step in Jordan Stilwell's commission, proving your dedication during the Test of Righteousness."
+   "text": "As a paladin, recovering the stolen alloy from the Mo'grosh ogres is a vital step in Jordan Stilwell's commission and proves your dedication during the Test of Righteousness."
   },
   {
    "target": "profession:Blacksmithing",
-   "text": "Bailor Stonehand's specialized alloy represents fine dwarven metallurgy, prized enough that Jordan Stilwell refused ordinary substitutes for his craft."
+   "text": "As a blacksmith, you can recognize Bailor Stonehand's specialized alloy as fine dwarven metallurgy. Jordan Stilwell refused ordinary substitutes for his craft."
   }
  ],
  "keywords": [
@@ -86,5 +86,6 @@
  "attribution": [
   "Jordan's Ore Shipment",
   "Bailor's Ore Shipment"
- ]
+ ],
+ "style": 1
 }

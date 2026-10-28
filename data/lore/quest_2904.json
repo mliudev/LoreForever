@@ -17,16 +17,16 @@
   "wiki": "A Fine Mess",
   "chain": []
  },
- "summary": "Deep within the irradiated ruins of Gnomeregan, an injured goblin named Kernobee lies battered among troggs after being ambushed by Dark Iron dwarves. Rescuing him uncovers unsettling intelligence about Dark Iron involvement in subterranean drilling machinery, which must be relayed all the way to Booty Bay.",
+ "summary": "In Gnomeregan, Kernobee lies battered among the troggs after an ambush by Dark Iron dwarves. His rescue brings word of their work on a subterranean drilling rig, bound for Booty Bay.",
  "sections": [
   {
    "title": "A Battered Survivor",
-   "body": "While navigating the dangerous inner chambers of Gnomeregan, adventurers discover Kernobee stranded in the dormitory area. Severely beaten and groggy, the goblin survived capture by Dark Iron dwarves who left him behind to perish among the feral troggs. Finding a friendly face is his only chance of surviving the trek back through the contaminated corridors.",
+   "body": "You find Kernobee in Gnomeregan’s dormitory, beaten and groggy. Dark Iron dwarves ambushed the goblin and left him among the feral troggs. He needs a friendly face to survive the return through the contaminated corridors.",
    "spoiler": 0
   },
   {
    "title": "Subterranean Schemes",
-   "body": "Kernobee holds crucial information regarding dark forces operating beneath Dun Morogh. He reveals that the Dark Iron clan has actively involved itself in constructing a massive super rig. While Kernobee flees across the sea to Ratchet to warn the goblin engineer Tinkerwiz about this brewing threat, he sends his savior south to Booty Bay to deliver word to the goblin engineer Scooty.",
+   "body": "Kernobee carries word of the Dark Iron clan’s work on a massive super rig beneath Dun Morogh. He escapes across the sea to Ratchet to warn the goblin engineer Tinkerwiz, and sends you south to Booty Bay with news for the goblin engineer Scooty.",
    "spoiler": 1
   }
  ],
@@ -37,7 +37,7 @@
     "kernobee",
     "who is kernobee"
    ],
-   "answer": "Kernobee is a goblin who ventured deep into the ruins of Gnomeregan. He was ambushed, beaten nearly to death by Dark Iron dwarves, and abandoned to the troggs before being rescued."
+   "answer": "Kernobee is a goblin found beaten nearly to death in Gnomeregan. Dark Iron dwarves ambushed him and left him among the troggs before he was rescued."
   },
   {
    "q": "Where must Kernobee be escorted?",
@@ -46,7 +46,7 @@
     "escort destination",
     "clockwerk run exit"
    ],
-   "answer": "Kernobee must be safely led through the hostile halls back toward the safety of the Clockwerk Run exit and the upper entrance corridors of the fallen city."
+   "answer": "You need to guide Kernobee through Gnomeregan’s hostile halls toward the Clockwerk Run exit and the upper entrance corridors."
   },
   {
    "q": "Why were the Dark Iron dwarves involved?",
@@ -55,7 +55,7 @@
     "dark iron super rig",
     "dark iron in gnomeregan"
    ],
-   "answer": "The Dark Iron dwarves have been scheming underground, aiding in the design and construction of an enormous super rig drill. Kernobee discovered this plot before the dwarves ambushed him."
+   "answer": "The Dark Iron dwarves were helping design and build an enormous super rig drill underground. Kernobee discovered their plot before they ambushed him."
   },
   {
    "q": "Where does Kernobee go after escaping?",
@@ -64,7 +64,7 @@
     "kernobee ratchet",
     "tinkerwiz warning"
    ],
-   "answer": "After reaching safety, Kernobee heads across the sea to Ratchet in the Barrens to warn the tinker Tinkerwiz about the Dark Iron's involvement in the subterranean drilling rig."
+   "answer": "After reaching safety, Kernobee travels across the sea to Ratchet in the Barrens to warn Tinkerwiz about the Dark Iron involvement in the subterranean drilling rig."
   },
   {
    "q": "Why must you report to Scooty in Booty Bay?",
@@ -73,7 +73,7 @@
     "booty bay turn in",
     "scooty connection"
    ],
-   "answer": "Scooty is a goblin engineer stationed in Booty Bay who collaborates with Tinkerwiz and coordinates operations involving high-tech subterranean equipment and transponder networks."
+   "answer": "Scooty is a goblin engineer in Booty Bay who works with Tinkerwiz on high-tech subterranean equipment and transponder networks."
   },
   {
    "q": "How does this relate to Mekgineer Thermaplugg?",
@@ -81,21 +81,21 @@
     "thermaplugg connection",
     "fight thermaplugg"
    ],
-   "answer": "Scooty recognizes the ongoing threat posed by Mekgineer Thermaplugg inside Gnomeregan. Helping Kernobee provides aid and supplies to adventurers intending to return and confront the treacherous Mekgineer."
+   "answer": "Scooty knows of the threat Mekgineer Thermaplugg poses inside Gnomeregan. Helping Kernobee provides aid and supplies to adventurers preparing to return and confront the treacherous Mekgineer."
   }
  ],
  "angles": [
   {
    "target": "race:Gnome",
-   "text": "Rescuing a trapped survivor from Gnomeregan's contaminated depths is a duty of honor, especially against the combined malice of Dark Iron infiltrators and feral troggs."
+   "text": "As a gnome, rescuing a survivor from Gnomeregan’s contaminated depths is a duty of honor, especially with Dark Iron infiltrators and feral troggs threatening him."
   },
   {
    "target": "faction:Alliance",
-   "text": "Uncovering Dark Iron collusion within Dun Morogh's borders confirms that Emperor Thaurissan's agents are actively sabotaging Alliance recovery efforts in Gnomeregan."
+   "text": "As an Alliance member, you learn that Emperor Thaurissan’s agents are sabotaging Alliance recovery efforts in Gnomeregan."
   },
   {
    "target": "profession:Engineering",
-   "text": "The discovery that Dark Iron machinists are constructing a massive super rig raises immediate concerns for any engineer tracking advanced subterranean hardware."
+   "text": "As an engineer, you may worry to learn that Dark Iron machinists are building a massive super rig underground."
   }
  ],
  "keywords": [
@@ -120,5 +120,6 @@
  ],
  "attribution": [
   "A Fine Mess"
- ]
+ ],
+ "style": 1
 }

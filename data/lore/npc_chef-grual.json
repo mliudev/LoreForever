@@ -8,16 +8,16 @@
   "wiki": "Chef Grual",
   "refs": 4
  },
- "summary": "Chef Grual is the resident cook at the Scarlet Raven Tavern in Darkshire. In a secluded town choked by mist and monsters, Grual does his best to keep the Night Watch and weary travelers fed, even if his choice of ingredients raises eyebrows.",
+ "summary": "In Darkshire, Chef Grual keeps the Scarlet Raven Tavern's kitchen working. He feeds the Night Watch and weary travelers, though some ingredients raise eyebrows.",
  "sections": [
   {
    "title": "Cooking Under Siege",
-   "body": "Running an eatery in Darkshire is a grim task. With supply lines from Westfall and Stormwind constantly harassed by highwaymen, wolves, and undead, fresh provisions are virtually nonexistent. Grual makes do with whatever the wilderness provides. From wolf flank to whatever scavenged meats local adventurers drag through the door, Grual cooks with pragmatism born of necessity.",
+   "body": "Darkshire's cook works with scarce supplies. Highwaymen, wolves, and undead harass the roads from Westfall and Stormwind, leaving fresh provisions hard to find. Grual makes do with what the wilderness offers. He cooks wolf flank and meat scavenged by local adventurers, using whatever reaches his kitchen.",
    "spoiler": 0
   },
   {
    "title": "Secret Ingredients",
-   "body": "Grual is infamous for his specialty dishes, most notably his famous 'Dusky Crab Cakes' and seasoned wolf kabobs. Given that coastal crabs are nowhere near the gloomy inland woods of Duskwood, his crab cakes rely on a rather revolting substitute: the gooey legs of local Venom Web Spiders. Whether patrons realize they are eating arachnid meat or simply prefer not to ask, Grual keeps the kitchen running without apologies.",
+   "body": "Chef Grual is known for Dusky Crab Cakes and seasoned wolf kabobs. Duskwood lies far from the coast, so his crab cakes contain gooey legs from the local Venom Web Spiders. Whether patrons know what they are eating or prefer not to ask, Grual keeps the kitchen running without apology.",
    "spoiler": 1
   }
  ],
@@ -29,7 +29,7 @@
     "grual darkshire",
     "darkshire cook"
    ],
-   "answer": "Chef Grual is the human culinary provider stationed inside the Scarlet Raven Tavern in Darkshire. He prepares meals for the town's defenders, travelers, and refugees hiding from the dangers of Duskwood."
+   "answer": "Chef Grual cooks at the Scarlet Raven Tavern in Darkshire. He prepares meals for the town's defenders, travelers, and refugees hiding from Duskwood's dangers."
   },
   {
    "q": "Where can I find Chef Grual?",
@@ -38,7 +38,7 @@
     "where is chef grual",
     "find chef grual"
    ],
-   "answer": "He can be found standing in the back room and kitchen area of the Scarlet Raven Tavern in central Darkshire, located along the southern edge of the main road."
+   "answer": "Chef Grual works in the back room and kitchen of the Scarlet Raven Tavern in central Darkshire, along the southern edge of the main road."
   },
   {
    "q": "What are Dusky Crab Cakes actually made of?",
@@ -47,7 +47,7 @@
     "spider crab cakes",
     "what is in dusky crab cakes"
    ],
-   "answer": "Despite the name, there are no crabs in Duskwood. Chef Grual substitutes gooey spider legs harvested from the monstrous arachnids infesting the surrounding forests, mincing them into patties that mimic seafood."
+   "answer": "Dusky Crab Cakes contain gooey legs from the Venom Web Spiders infesting the surrounding forests. Grual minces them into patties that mimic seafood."
   },
   {
    "q": "What quests does Chef Grual offer?",
@@ -55,7 +55,7 @@
     "grual quests",
     "chef grual recipes"
    ],
-   "answer": "Grual tasks travelers with gathering fresh ingredients from the wild, including wolf flanks for his Seasoned Wolf Kabobs and spider legs for his Dusky Crab Cakes. He also cooks Dusky Crab Cakes for Jitters, a starving man hiding out in Duskwood."
+   "answer": "Chef Grual asks travelers to gather wolf flanks for his seasoned wolf kabobs and spider legs for his Dusky Crab Cakes. He also cooks Dusky Crab Cakes for Jitters, a starving man hiding in Duskwood."
   },
   {
    "q": "Why does he feed Jitters?",
@@ -63,7 +63,7 @@
     "jitters food",
     "jitters growling gut grual"
    ],
-   "answer": "Jitters has been hiding in a Duskwood ghost town for weeks, living on nothing but grubs and weeds. Starving for decent food, he sends travelers to Grual for a batch of his Dusky Crab Cakes."
+   "answer": "Jitters has hidden in a Duskwood ghost town for weeks, living on grubs and weeds. Starving for decent food, he sends travelers to Grual for Dusky Crab Cakes."
   },
   {
    "q": "Is Grual affiliated with the Night Watch?",
@@ -71,21 +71,21 @@
     "grual night watch",
     "does grual fight"
    ],
-   "answer": "Grual is a civilian cook rather than a militant guardsman, but his kitchen directly supports the Night Watch and local militia by keeping Darkshire nourished in the face of constant siege."
+   "answer": "Chef Grual is a civilian cook, not a guardsman. His kitchen feeds the Night Watch and local militia as they face constant siege."
   }
  ],
  "angles": [
   {
    "target": "profession:Cooking",
-   "text": "Grual serves as a grim lesson in culinary improvisation, proving that in isolated regions, a cook uses whatever local wildlife walks or skitters through the trees."
+   "text": "Grual shows how a cook in an isolated region makes use of local wildlife, whether it walks or skitters through the trees."
   },
   {
    "target": "faction:Alliance",
-   "text": "Stationed in Darkshire's Scarlet Raven Tavern, Grual keeps the weary defenders of the Alliance nourished despite the lack of regular supply caravans from Stormwind."
+   "text": "At the Scarlet Raven Tavern in Darkshire, Grual keeps Alliance defenders fed despite the shortage of regular supply caravans from Stormwind."
   },
   {
    "target": "race:Human",
-   "text": "Like many remaining residents of Darkshire, Grual exhibits a grim, stubborn resilience, adapting to the horrors of the shadowed woods in his own pragmatic way."
+   "text": "Like many of Darkshire's remaining residents, Grual endures the horrors of the shadowed woods with grim, stubborn resilience and practical skill."
   }
  ],
  "keywords": [
@@ -110,5 +110,6 @@
  ],
  "attribution": [
   "Chef Grual"
- ]
+ ],
+ "style": 1
 }

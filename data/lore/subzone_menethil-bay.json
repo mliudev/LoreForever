@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Menethil Bay"
  },
- "summary": "Menethil Bay is the sheltered body of water along the western coast of the Wetlands, nestled between Menethil Harbor and the steep northern cliffs of Dun Morogh. Opening outward into the wider Baradin Bay, these waters are home to aggressive crocolisks and the remains of sunken vessels. It serves as the primary maritime approach for Alliance traffic journeying between the Eastern Kingdoms and Kalimdor.",
+ "summary": "Menethil Bay carries Alliance traffic along the western coast of the Wetlands. The sheltered waters open into Baradin Bay, with Menethil Harbor to the north and Dun Morogh's steep cliffs to the south. Crocolisks prowl the shallows, and sunken vessels lie below.",
  "sections": [
   {
    "title": "Sheltered Waters of the Wetlands",
-   "body": "Part of the larger Baradin Bay along the Great Sea, Menethil Bay forms a natural inlet bordered by Menethil Harbor to the north, Black Channel Marsh to the east, and the towering coastal bluffs of Dun Morogh to the south. Its shallow margins and marshy shores crawl with crocolisks of various ages and sizes, making the shallows treacherous for unguided travelers even though the bay serves as the lifeblood of Alliance maritime travel. Near the mouth of the bay lies the ruined wreckage of the Flying Osprey, a silent reminder of the dangers lurking beneath the surface.",
+   "body": "Menethil Bay opens from the Wetlands into the Great Sea as part of Baradin Bay. Menethil Harbor lies to the north, Black Channel Marsh to the east, and Dun Morogh's coastal bluffs to the south. Crocolisks of many sizes prowl the shallow margins and marshy shores, making the water dangerous for travelers without a guide. The bay carries Alliance sea traffic, and near its mouth rests the ruined Flying Osprey, a warning of the wreckage beneath the surface.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "menethil bay location",
     "wetlands bay"
    ],
-   "answer": "Menethil Bay is situated on the western coast of the Wetlands. It sits within the larger expanse of Baradin Bay, bounded by Menethil Harbor to the north, Black Channel Marsh to the east, and the northern mountain cliffs of Dun Morogh to the south."
+   "answer": "Menethil Bay runs along the western coast of the Wetlands, within Baradin Bay. Menethil Harbor lies to the north, Black Channel Marsh to the east, and Dun Morogh's northern cliffs to the south."
   },
   {
    "q": "What creatures live in Menethil Bay?",
@@ -32,7 +32,7 @@
     "what is in the bay",
     "crocolisks in menethil bay"
    ],
-   "answer": "The bay's marshy shores and shallow inlets are heavily populated by crocolisks of various sizes. They are known to ambush unwary swimmers and are often hunted by leatherworkers seeking valuable hides."
+   "answer": "Crocolisks of many sizes live along the bay's marshy shores and shallow inlets. They ambush unwary swimmers, and leatherworkers hunt them for their valuable hides."
   },
   {
    "q": "What is the sunken ship in the bay?",
@@ -41,7 +41,7 @@
     "flying osprey",
     "sunken ship wetlands"
    ],
-   "answer": "The wreckage located near the entrance of Menethil Bay belongs to the Flying Osprey, a lost vessel resting beneath the coastal waters near the harbor approaches."
+   "answer": "The wreck near the entrance to Menethil Bay is the Flying Osprey, lost beneath the coastal waters near the harbor approaches."
   },
   {
    "q": "Why is the bay important to the Alliance?",
@@ -50,13 +50,13 @@
     "alliance port wetlands",
     "menethil harbor water"
    ],
-   "answer": "The bay shelters Menethil Harbor, which is the primary naval gate connecting Ironforge and the northern lands of Khaz Modan to Kalimdor and the south. Transport ships navigating to and from Theramore and Darkshore must traverse these waters."
+   "answer": "Menethil Bay shelters Menethil Harbor, the primary naval gate linking Ironforge and the northern lands of Khaz Modan to Kalimdor and the south. Ships traveling to and from Theramore and Darkshore cross these waters."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Menethil Bay is the vital sea approach to Menethil Harbor, securing the fragile sea lane that connects Ironforge and Stormwind to Kalimdor."
+   "text": "For the Alliance, Menethil Bay is the sea approach to Menethil Harbor and protects the fragile route linking Ironforge and Stormwind to Kalimdor."
   }
  ],
  "keywords": [
@@ -77,5 +77,6 @@
  ],
  "attribution": [
   "Menethil Bay"
- ]
+ ],
+ "style": 1
 }

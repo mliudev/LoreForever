@@ -10,11 +10,11 @@
    "quest:1101"
   ]
  },
- "summary": "Razorflank's Medallion is a personal token carried by Charlga Razorflank, the crone ruling over Razorfen Kraul. Recovered from the heart of the quilboar stronghold, it serves as undeniable proof that the matriarch has been brought down.",
+ "summary": "Charlga Razorflank's medallion lies deep within Razorfen Kraul, carried by the crone who rules the stronghold. Its return gives the night elf sentinels proof that she has fallen.",
  "sections": [
   {
    "title": "Proof of the Crone's Fall",
-   "body": "Carried by Charlga Razorflank herself, this medallion represents the authority of the crone who leads the Razorfen quilboar. When Falfindel Waywarder at Thalanaar learns of the fates of fallen explorers like Heralath and the dwarf Lonebrow, he tasks Alliance adventurers with striking directly at the quilboar leader. Presenting the crone's medallion confirms her death, reassuring the night elf sentinels guarding the borders of Feralas that the gathered forces within the Kraul have lost their leader.",
+   "body": "Charlga Razorflank carries the medallion as the leader of the Razorfen quilboar. At Thalanaar, Falfindel Waywarder learns of fallen explorers such as Heralath and the dwarf Lonebrow, then sends Alliance adventurers against the quilboar leader. The medallion confirms Charlga's death to the night elf sentinels guarding Feralas's borders. They can know that the gathered forces within the Kraul have lost their leader.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "razorflank medallion source",
     "charlga medallion"
    ],
-   "answer": "The medallion belongs to Charlga Razorflank, the crone and undisputed leader of the quilboar within Razorfen Kraul. She carries it upon her person deep within the thorny labyrinths of the stronghold."
+   "answer": "Charlga Razorflank carries the medallion deep within Razorfen Kraul. She is the crone who leads the quilboar there."
   },
   {
    "q": "Who wants this medallion brought to them?",
@@ -35,7 +35,7 @@
     "turn in razorflanks medallion",
     "falfindel medallion"
    ],
-   "answer": "Falfindel Waywarder, stationed at the border post of Thalanaar between Feralas and the Thousand Needles, asks for the medallion. He seeks it as definitive proof that Charlga has been slain."
+   "answer": "Falfindel Waywarder at Thalanaar asks for the medallion. He wants proof that Charlga has been slain."
   },
   {
    "q": "Why does Falfindel need proof of Charlga's death?",
@@ -44,17 +44,17 @@
     "purpose of medallion",
     "why need medallion"
    ],
-   "answer": "Charlga was mustering a hostile quilboar force within Razorfen Kraul, threatening the surrounding regions and leading to the deaths of scouts like Heralath and Lonebrow. Bringing back the medallion assures the night elves that the immediate threat has been broken and allows their investigations into the area to continue."
+   "answer": "Charlga gathered a hostile quilboar force within Razorfen Kraul, threatening the surrounding regions. Heralath and Lonebrow were among the scouts who died. The medallion assures the night elves that the immediate threat is broken and lets their investigations continue."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Recovering the medallion avenges the fallen scout Heralath and the dwarf explorer Lonebrow, securing Thalanaar's border route into Feralas."
+   "text": "As an Alliance adventurer, recovering the medallion avenges the fallen scout Heralath and the dwarf explorer Lonebrow. It secures Thalanaar's border route into Feralas."
   },
   {
    "target": "race:NightElf",
-   "text": "Slaying Charlga and claiming her medallion allows the night elves to safely study the corrupted sacred resting grounds of Agamaggan."
+   "text": "As a night elf, slaying Charlga and claiming her medallion lets your people safely study Agamaggan's corrupted sacred resting grounds."
   }
  ],
  "keywords": [
@@ -79,5 +79,6 @@
  "attribution": [
   "Razorflank's Medallion",
   "The Crone of the Kraul"
- ]
+ ],
+ "style": 1
 }

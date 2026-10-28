@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Tinkers' Court"
  },
- "summary": "Tinkers' Court is the grand council chamber at the heart of Gnomeregan. Once the bustling seat of the High Tinker and his ruling council, it is now the grim stronghold of the traitor Mekgineer Thermaplugg.",
+ "summary": "In Gnomeregan's heart, Tinkers' Court once gathered the city's leaders. Now Mekgineer Thermaplugg holds it.",
  "sections": [
   {
    "title": "Seat of the Gnomish Council",
-   "body": "Before the disaster that ruined Gnomeregan, the Tinkers' Court served as the civic and political heart of the nation. It was here that High Tinker Gelbin Mekkatorque gathered with advisors and master inventors, including Tinkmaster Overspark, to debate technological advancements, govern civic matters, and guide gnomish society. The court represented the pinnacle of gnomish ingenuity and governance, situated just beyond the industrial works of the Engineering Labs and the Launch Bay.",
+   "body": "Before disaster drove the gnomes from Gnomeregan, its leaders met in Tinkers' Court. High Tinker Gelbin Mekkatorque gathered there with advisors and master inventors, including Tinkmaster Overspark. They debated new technology, governed civic matters, and guided gnomish society. The chamber stood beyond the Engineering Labs and the Launch Bay, at the center of gnomish government and invention.",
    "spoiler": 0
   },
   {
    "title": "Thermaplugg's Throneroom",
-   "body": "Following the disastrous radiation venting that drove the gnomes into exile, Mekgineer Thermaplugg claimed the chamber as his own. Styling himself the King of Gnomeregan, the mad inventor now sits in the Tinkers' Court surrounded by twisted contraptions, loyal leper gnomes, and bomb dispensers. From this desecrated council hall, he directs his remaining forces, making the court the final and most dangerous threshold for any strike team seeking to end his rule.",
+   "body": "Mekgineer Thermaplugg claimed Tinkers' Court after radiation drove the gnomes into exile. He calls himself King of Gnomeregan and sits among twisted contraptions, loyal leper gnomes, and bomb dispensers. From the chamber, he directs his remaining forces, and anyone seeking to end his rule must face this final, dangerous threshold.",
    "spoiler": 1
   }
  ],
@@ -28,7 +28,7 @@
     "what is tinkers court",
     "original purpose of court"
    ],
-   "answer": "Historically, the Tinkers' Court served as the meeting place and civic chamber for the elected High Tinker and the ruling council of Gnomeregan. Gelbin Mekkatorque and high-ranking advisors, such as Tinkmaster Overspark, used this hall to discuss city governance and cutting-edge innovations."
+   "answer": "Tinkers' Court was the meeting hall and civic chamber of Gnomeregan's High Tinker and ruling council. Gelbin Mekkatorque and advisors such as Tinkmaster Overspark gathered there to govern and discuss new inventions."
   },
   {
    "q": "Who controls Tinkers' Court now?",
@@ -37,7 +37,7 @@
     "boss in tinkers court",
     "thermaplugg room"
    ],
-   "answer": "Mekgineer Thermaplugg currently occupies the court. Calling himself the King of Gnomeregan, he holds the chamber alongside his defensive machinery and irradiated minions."
+   "answer": "Mekgineer Thermaplugg controls Tinkers' Court. He calls himself King of Gnomeregan and holds the chamber with defensive machinery and irradiated minions."
   },
   {
    "q": "Where is the court located within Gnomeregan?",
@@ -46,7 +46,7 @@
     "how to get to tinkers court",
     "find tinkers court"
    ],
-   "answer": "Tinkers' Court lies in the deepest reaches of Gnomeregan, beyond the dark tunnels and lower levels connected to both the Launch Bay and the Engineering Labs."
+   "answer": "Tinkers' Court lies deep within Gnomeregan, beyond the dark tunnels and lower levels connected to the Launch Bay and Engineering Labs."
   },
   {
    "q": "Why is reaching Tinkers' Court so important for the Alliance?",
@@ -55,17 +55,17 @@
     "kill thermaplugg why",
     "importance of tinkers court"
    ],
-   "answer": "Reaching the court is the ultimate objective of reclaiming the city, as Mekgineer Thermaplugg directs his irradiated minions from within. Deposing him is the critical first step toward Gnomeregan's liberation."
+   "answer": "Mekgineer Thermaplugg directs his irradiated minions from Tinkers' Court. Reaching him is the first step toward freeing Gnomeregan from his rule."
   }
  ],
  "angles": [
   {
    "target": "race:Gnome",
-   "text": "Standing in the Tinkers' Court is a painful reminder of betrayal; this room was once where gnomish leaders gathered before Mekgineer Thermaplugg seized it amidst irradiated ruin."
+   "text": "For a gnome, Tinkers' Court recalls betrayal. Gnomish leaders once gathered here, before Mekgineer Thermaplugg seized the chamber amid irradiated ruin."
   },
   {
    "target": "profession:Engineering",
-   "text": "The chamber is an alarming showcase of corrupted engineering, filled with deadly bomb delivery systems and the lethal siege suit operated by Thermaplugg."
+   "text": "For an engineer, Tinkers' Court shows engineering turned deadly, with bomb delivery systems and the siege suit Thermaplugg operates."
   }
  ],
  "keywords": [
@@ -86,5 +86,6 @@
  ],
  "attribution": [
   "Tinkers' Court"
- ]
+ ],
+ "style": 1
 }

@@ -8,16 +8,16 @@
   "wiki": "Sten Stoutarm",
   "refs": 3
  },
- "summary": "Sten Stoutarm is a practical dwarven outfitter and courier stationed outside Anvilmar in Coldridge Valley. Responsible for keeping new recruits equipped and managing local dispatches, he helps ensure that novice mountaineers stay warm, fed, and informed despite the harsh mountain conditions.",
+ "summary": "Outside Anvilmar, Sten Stoutarm keeps recruits equipped and local messages moving through Coldridge Valley. He helps young mountaineers stay warm, fed, and informed in the harsh mountain conditions.",
  "sections": [
   {
    "title": "A Helping Hand in the Snow",
-   "body": "Positioned near the heart of Coldridge Valley, Sten Stoutarm is one of the first friendly faces new dwarven and gnomish recruits encounter outside Anvilmar's tavern. With the valley isolated by winter blizzards and encroaching dangers, Sten takes it upon himself to outfit green apprentices with sturdy gear before they freeze or wander unprepared into the drifts.",
+   "body": "Outside Anvilmar, Sten Stoutarm meets new dwarven and gnomish recruits near the tavern. Coldridge Valley is cut off by winter blizzards and faces dangers nearby. Sten provides green apprentices with sturdy gear so they can face the snow prepared.",
    "spoiler": 0
   },
   {
    "title": "Keeping the Lines Open",
-   "body": "Beyond assembling winter outfitting from local wolf hides, Sten serves as an informal postmaster for Coldridge Valley. He handles messages passed through the treacherous Coldridge Pass and distributes official runes, memoranda, and orders to class trainers throughout the basin, ensuring novice warriors, priests, and mages get their instructions despite the hostile trogg presence blocking the tunnels.",
+   "body": "Sten gathers wolf hides to make winter clothing and handles messages in Coldridge Valley. He carries dispatches through dangerous Coldridge Pass and delivers official runes, memoranda, and orders to class trainers across the basin. Troggs block the tunnels, but young warriors, priests, and mages still need their instructions.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "who is sten",
     "anvilmar postman"
    ],
-   "answer": "Sten Stoutarm is a dwarven outfitter and messenger stationed outside Anvilmar in Coldridge Valley. He assists fresh recruits by supplying warm clothing and delegating local mail deliveries."
+   "answer": "Sten Stoutarm outfits recruits and carries messages from his post outside Anvilmar in Coldridge Valley. He helps fresh arrivals get warm clothing and local mail delivered."
   },
   {
    "q": "What role does he play in Coldridge Valley?",
@@ -38,7 +38,7 @@
     "what does sten do",
     "sten role"
    ],
-   "answer": "Sten serves as both a quartermaster and courier contact for Anvilmar. He collects local resources like wolf meat and pelts to craft protective gear for apprentices, while also routing correspondence and training memoranda across the valley."
+   "answer": "Sten equips apprentices and handles courier work for Anvilmar. He gathers wolf meat and pelts for protective gear, then routes correspondence and training memoranda across the valley."
   },
   {
    "q": "Why does Sten need mail delivered?",
@@ -47,7 +47,7 @@
     "sten mail",
     "coldridge valley mail delivery"
    ],
-   "answer": "With Coldridge Pass endangered by troggs and winter weather, mail and supplies struggle to flow into the valley. Once messages make it through, Sten relies on dependable novices to deliver parcels and letters to residents such as Talin Keeneye."
+   "answer": "Troggs and winter weather endanger Coldridge Pass, making it hard for mail and supplies to reach the valley. When messages arrive, Sten asks dependable newcomers to deliver parcels and letters to residents such as Talin Keeneye."
   },
   {
    "q": "What does Sten think about the troggs in the valley?",
@@ -56,7 +56,7 @@
     "trogg quote",
     "sten on troggs"
    ],
-   "answer": "Sten takes a weary, unimpressed view of the pests infesting the surrounding hills, famously remarking that once you have seen one trogg, you have seen them all."
+   "answer": "Sten is weary of the troggs infesting the surrounding hills. He remarks that once you have seen one trogg, you have seen them all."
   },
   {
    "q": "Why does he ask for wolf meat?",
@@ -65,7 +65,7 @@
     "wolf meat quest",
     "sten wolf meat"
    ],
-   "answer": "Sten trades durable, warm gloves to passing adventurers in exchange for tough wolf meat, helping sustain the valley's defenders while outfitting them against the biting Dun Morogh cold."
+   "answer": "Sten trades warm, durable gloves for tough wolf meat. The meat helps feed the valley's defenders, while the gloves protect them from Dun Morogh's cold."
   },
   {
    "q": "What are the runes and memoranda Sten gives to new adventurers?",
@@ -74,21 +74,21 @@
     "simple memorandum",
     "sten notes"
    ],
-   "answer": "They are sealed letters and training tokens dispatched from superiors across Ironforge and Dun Morogh, directing young apprentices to report to their respective class trainers inside Anvilmar."
+   "answer": "The runes and memoranda are sealed letters and training tokens sent by superiors across Ironforge and Dun Morogh. They direct young apprentices to report to their class trainers inside Anvilmar."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "Sten embodies the no-nonsense hospitality of Dun Morogh, making sure his kin are clad in thick leather and fed before sending them into the snow."
+   "text": "As a dwarf, you can count on Sten's practical hospitality in Dun Morogh. He makes sure you have thick leather and food before you head into the snow."
   },
   {
    "target": "race:Gnome",
-   "text": "As gnomish refugees train alongside dwarves in Anvilmar, Sten treats them with the same practical expectations, dispatching them with mail and outfitting them for the elements."
+   "text": "As a gnomish refugee training alongside dwarves in Anvilmar, you face Sten's practical expectations too. He sends you with mail and gear for the elements."
   },
   {
    "target": "faction:Alliance",
-   "text": "Maintaining communication through Coldridge Pass is critical for Ironforge's training grounds, and Sten's mail network keeps the valley connected to the wider Alliance."
+   "text": "As an Alliance member, you depend on communication through Coldridge Pass to keep Ironforge's training grounds connected. Sten carries mail across the valley."
   }
  ],
  "keywords": [
@@ -113,5 +113,6 @@
  ],
  "attribution": [
   "Sten Stoutarm"
- ]
+ ],
+ "style": 1
 }

@@ -17,16 +17,16 @@
   "wiki": "The Trogg Threat (Classic)",
   "chain": []
  },
- "summary": "The Trogg Threat is an Alliance quest issued by Captain Rugelfuss at the Southern Gate of Loch Modan. With the local Ironforge Reserve called away to support Alliance battlefronts, the remaining defenders are stretched thin against the hostile trogg tribes in the hills. Adventurers are tasked with culling the troggs and returning with their stone teeth to relieve pressure on the mountain pass.",
+ "summary": "At Loch Modan’s Southern Gate, Captain Rugelfuss faces a growing trogg threat with too few defenders. The Ironforge Reserve has been called away to support Alliance battlefronts, leaving the remaining garrison stretched thin. Rugelfuss asks travelers to thin the troggs in the hills and bring back their stone teeth.",
  "sections": [
   {
    "title": "A Depleted Frontier",
-   "body": "The defensive line guarding the southern approach into Loch Modan is in a precarious state. The regular dwarven mountaineers and Ironforge Reserve regiments have been dispatched to reinforce broader Alliance war fronts, leaving Captain Rugelfuss and a skeleton garrison stationed at the southern guard tower. Constrained by strict orders not to abandon the gate, Rugelfuss cannot mount an active offensive into the highlands, leaving nearby settlers and travelers vulnerable to ambushes.",
+   "body": "Captain Rugelfuss guards Loch Modan’s southern approach with only a small garrison. The dwarven mountaineers and Ironforge Reserve have been sent to reinforce Alliance battlefronts, leaving the Southern Gate guard tower short of troops. Rugelfuss is under strict orders to hold the gate, so he cannot lead an attack into the highlands. Nearby settlers and travelers remain exposed to ambushes.",
    "spoiler": 0
   },
   {
    "title": "Stemming the Tide",
-   "body": "Troggs residing in the surrounding crags pose an escalating danger to Khaz Modan. Left unchecked, their numbers swell quickly, threatening to overrun dwarven outposts. To buy time and thin the menace, Rugelfuss calls upon wandering adventurers to assault the troggs directly in their hillside warrens and present severed stone teeth as physical confirmation of the deed.",
+   "body": "Troggs in the nearby crags threaten Khaz Modan, and their numbers grow quickly when left unchecked. They could overrun dwarven outposts. To buy time and thin their ranks, Rugelfuss asks travelers to strike at the troggs in their hillside warrens and bring back their stone teeth as proof.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who gives the trogg threat",
     "rugelfuss"
    ],
-   "answer": "Captain Rugelfuss is an officer in the dwarven military stationed at the Southern Gate guard tower in Loch Modan. He is tasked with securing the pass against intrusions while dealing with a severe lack of garrison troops."
+   "answer": "Captain Rugelfuss is a dwarven military officer at Loch Modan’s Southern Gate guard tower. He must secure the pass against intruders despite his small garrison."
   },
   {
    "q": "Why is the Southern Gate understaffed?",
@@ -47,7 +47,7 @@
     "ironforge reserve absent",
     "where are the dwarven soldiers"
    ],
-   "answer": "The Ironforge Reserve has been mobilized and reassigned to fight on the larger Alliance front lines abroad. Only a small regiment remains behind at the gate, bound to their defensive post and unable to mount retaliatory strikes."
+   "answer": "The Ironforge Reserve has been sent to fight on distant Alliance battlefronts. Only a small force remains at the gate, bound to its defensive post and unable to strike back."
   },
   {
    "q": "What are Trogg Stone Teeth?",
@@ -56,7 +56,7 @@
     "stone teeth",
     "why trogg teeth"
    ],
-   "answer": "Troggs have naturally petrified, stone-like dental features reflective of their subterranean earthen heritage. Captain Rugelfuss demands them as unmistakable physical proof that troggs have been slain."
+   "answer": "Trogg Stone Teeth are the troggs’ naturally petrified, stone-like teeth, reflecting their subterranean, earthen heritage. Rugelfuss requires them as proof that troggs have been slain."
   },
   {
    "q": "Where are the troggs located?",
@@ -65,7 +65,7 @@
     "trogg locations loch modan",
     "where are troggs for this quest"
    ],
-   "answer": "The troggs can be found inhabiting the rocky hills, ravines, and excavation sites flanking the road near the Southern Gate in Loch Modan."
+   "answer": "Troggs live in the rocky hills, ravines, and excavation sites beside the road near Loch Modan’s Southern Gate."
   },
   {
    "q": "Why are the troggs such a threat right now?",
@@ -74,7 +74,7 @@
     "trogg problem",
     "what do troggs want"
    ],
-   "answer": "Troggs reproduce rapidly, act with violent territorial aggression, and overrun inhabited lands whenever military garrisons are diverted. Without active culling, they threaten to choke the passes connecting Loch Modan to neighboring territories."
+   "answer": "Troggs multiply quickly and attack violently to defend their territory. With troops diverted, they can overrun inhabited lands and threaten the passes linking Loch Modan to neighboring territories."
   },
   {
    "q": "How does completing this quest aid King Magni Bronzebeard?",
@@ -83,17 +83,17 @@
     "does magni care",
     "why help ironforge"
    ],
-   "answer": "King Magni Bronzebeard bears responsibility for the safety of all Khaz Modan. By reducing the trogg population while Ironforge's armies are fighting abroad, adventurers protect the realm's internal supply lines and vulnerable frontier settlements."
+   "answer": "King Magni Bronzebeard is responsible for the safety of all Khaz Modan. Thinning the troggs while Ironforge’s armies fight abroad helps protect internal supply lines and vulnerable frontier settlements."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "For dwarves, culling the troggs near the Southern Gate is a direct duty to Khaz Modan and earns the praise of King Magni Bronzebeard himself."
+   "text": "As a dwarf, thinning the troggs near the Southern Gate is a direct duty to Khaz Modan, and King Magni Bronzebeard himself will praise you for it."
   },
   {
    "target": "faction:Alliance",
-   "text": "The quest highlights how Alliance commitments in distant lands have stripped local garrisons like Loch Modan of their defensive reserves."
+   "text": "As an Alliance member, you see how commitments in distant lands have left local garrisons like Loch Modan without their defensive reserves."
   }
  ],
  "keywords": [
@@ -116,5 +116,6 @@
  ],
  "attribution": [
   "The Trogg Threat (Classic)"
- ]
+ ],
+ "style": 1
 }

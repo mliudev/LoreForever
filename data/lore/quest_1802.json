@@ -23,16 +23,16 @@
    "The Binding (Felhunter)"
   ]
  },
- "summary": "This quest tasks an Alliance warlock with tracking down the scattered, ruined halves of a singular grimoire known as the Tome of the Cabal. Recovering the missing pages from distant lands is essential for deciphering the dark rites necessary to bind a felhunter.",
+ "summary": "Your search for the Tome of the Cabal leads from Ironforge to a lost manuscript and a sunken ship. Its scattered pages hold rites for binding a felhunter.",
  "sections": [
   {
    "title": "A Divided Grimoire",
-   "body": "Only a single copy of the Tome of the Cabal was ever scribed, and its violent history ensured it did not stay intact. Torn apart and vandalized, its remnants were scattered to entirely different corners of the world. One portion, a tattered manuscript ripped straight from the binding, somehow found its way across the sea into the rugged canyons of Kalimdor, falling into the hands of the centaur clans. The remaining section was intended for transport by sea from the shores of Lordaeron down to Khaz Modan, but the vessel foundered before reaching its port.",
+   "body": "Only one copy of the Tome of the Cabal was ever written, and violence left it in pieces. Its remnants were torn apart, defaced, and scattered to distant corners of the world. A tattered manuscript, ripped from the binding, crossed the sea to Kalimdor and fell into the hands of centaur clans. The other section was sent by sea from Lordaeron toward Khaz Modan, but its vessel sank before reaching port.",
    "spoiler": 0
   },
   {
    "title": "Across Sea and Canyon",
-   "body": "Reassembling the grimoire demands surviving two treacherous perils. The sea-lost pages washed ashore off the Hillsbrad coast west of Southshore, where scavenged debris and waterlogged relics fell into the grasp of shoreline murlocs near Azurelode Mine. Meanwhile, recovering the arid half requires infiltrating Splithoof Hold in Thousand Needles, delving deep into centaur caverns to reclaim the manuscript from an ancient chest. Only by uniting these disparate halves can Krom Stoutarm inspect the lost text before it returns to Strahad Farsan.",
+   "body": "The missing pages lie beyond two dangers. Pages lost at sea washed ashore on the Hillsbrad coast, west of Southshore, where shoreline murlocs near Azurelode Mine took the waterlogged relics and wreckage. The dry half lies in Splithoof Hold in Thousand Needles, deep in centaur caverns, inside an ancient chest. Once the pieces are together, Krom Stoutarm can inspect the lost text before it returns to Strahad Farsan.",
    "spoiler": 0
   }
  ],
@@ -44,7 +44,7 @@
     "what is this book",
     "tome cabal"
    ],
-   "answer": "It is a rare, singular demonic grimoire containing esoteric knowledge necessary for warlocks. Its contents hold the complex incantations and binding rituals required to summon and subjugate a felhunter from the Twisting Nether."
+   "answer": "The Tome of the Cabal is a rare demonic grimoire, and only one copy exists. Its arcane knowledge holds the incantations and binding rites warlocks need to summon and subdue a felhunter from the Twisting Nether."
   },
   {
    "q": "Who is Krom Stoutarm and why does he want the tome?",
@@ -53,7 +53,7 @@
     "why does krom want the book",
     "krom stoutarm ironforge"
    ],
-   "answer": "Krom Stoutarm is an Ironforge dwarf immersed in the study of rare and forgotten texts. In exchange for telling Alliance warlocks where the torn pieces of the tome ended up, he asks only for the opportunity to study the contents firsthand once they are retrieved."
+   "answer": "Krom Stoutarm is an Ironforge dwarf who studies rare and forgotten texts. He tells Alliance warlocks where the tome's pieces ended up, asking only to study them once they are recovered."
   },
   {
    "q": "Where did the two pieces of the book end up?",
@@ -62,7 +62,7 @@
     "book locations",
     "tattered manuscript location"
    ],
-   "answer": "The Moldy Tome was washed ashore on the Hillsbrad coast west of Southshore near Azurelode Mine, scavenged by coastal murlocs. The Tattered Manuscript ended up in Kalimdor within Splithoof Hold, tucked inside a battered chest deep within a centaur cavern in Thousand Needles."
+   "answer": "The Moldy Tome washed ashore on the Hillsbrad coast, west of Southshore near Azurelode Mine, where coastal murlocs scavenged it. The Tattered Manuscript lies in a battered chest deep in a centaur cavern at Splithoof Hold in Thousand Needles, Kalimdor."
   },
   {
    "q": "Why was the tome torn apart in the first place?",
@@ -70,7 +70,7 @@
     "why was the book ripped",
     "who vandalized the tome"
    ],
-   "answer": "Only one copy of the Tome of the Cabal was ever transcribed. At some point in its murky past, it was deliberately vandalized, with a large section torn clean from the binding and carted away to Kalimdor, while the rest was lost at sea during an ill-fated voyage to Menethil Harbor."
+   "answer": "Only one copy of the Tome of the Cabal was ever transcribed. In its murky past, someone deliberately defaced it, tore a large section from the binding, and carried it to Kalimdor; the rest was lost at sea on a voyage to Menethil Harbor."
   },
   {
    "q": "Who is Strahad Farsan and what does he have to do with this quest?",
@@ -79,7 +79,7 @@
     "strahad farsan",
     "strahad connection"
    ],
-   "answer": "Strahad Farsan is an experienced warlock residing near Ratchet in the Barrens. He directs aspiring summoners to recover the tome so they can learn the rites needed to summon and bind a felhunter under his tutelage."
+   "answer": "Strahad Farsan is an experienced warlock who lives near Ratchet in the Barrens. He directs aspiring summoners to recover the tome and learn the rites for summoning and binding a felhunter under his tutelage."
   },
   {
    "q": "Why is the Moldy Tome covered in sea grime?",
@@ -87,17 +87,17 @@
     "why is moldy tome wet",
     "hillsbrad tome murlocs"
    ],
-   "answer": "The book was aboard a ship bound for Menethil Harbor from the Lordaeron coast that never reached its destination. The shipwreck drifted near the Hillsbrad shore, where the damp, moldering pages were gathered by coastal murlocs near Azurelode Mine."
+   "answer": "The Moldy Tome was aboard a ship sailing from the Lordaeron coast to Menethil Harbor, but the ship never arrived. Its wreck drifted near the Hillsbrad shore, where coastal murlocs near Azurelode Mine gathered the damp, moldy pages."
   }
  ],
  "angles": [
   {
    "target": "class:Warlock",
-   "text": "Recovering the torn halves of this grimoire marks a rite of passage, unlocking the vital summoning rituals needed to draw a felhunter out of the Nether and enslave it."
+   "text": "As a warlock, recovering the grimoire's torn halves marks a rite of passage. Its pages hold the summoning rites needed to draw a felhunter from the Nether and enslave it."
   },
   {
    "target": "faction:Alliance",
-   "text": "Alliance practitioners rely on Ironforge contacts like Krom Stoutarm to trace rare demonic relics across continents without drawing the open suspicion of church or crown."
+   "text": "As an Alliance practitioner, you can rely on Ironforge contacts such as Krom Stoutarm to trace rare demonic relics across continents without drawing open suspicion from church or crown."
   }
  ],
  "keywords": [
@@ -123,5 +123,6 @@
  ],
  "attribution": [
   "Tome of the Cabal (Alliance, 2)"
- ]
+ ],
+ "style": 1
 }

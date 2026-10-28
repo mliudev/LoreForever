@@ -29,9 +29,9 @@
     "subzone:aku-mai-s-lair": {
       "1": [
         {
-          "duration": 73.63918367346939,
-          "file": "Audio/Transport/full_subzone_aku-mai-s-lair-5a4b1fed3dc294c11c27/1-0000.mp3",
-          "sha256": "167f79db047ac9cd7973b4f0a80b156c5229ab3780e866883f83845b573833a0",
+          "duration": 56.32,
+          "file": "Audio/Transport/full_subzone_aku-mai-s-lair-e685c7b99097d3931b50/1-0000.mp3",
+          "sha256": "9e42a68fe743d34849fdeeb553d1eb58a69f4a8fe2325e86dd8d3fa1c13aefab",
           "start": 0
         }
       ],
@@ -42,15 +42,15 @@
           "1"
         ]
       },
-      "fullHash": "c6890a",
-      "generation": "bddff97e5b20927fdaba",
-      "hash": "c6890a",
+      "fullHash": "e3fcf1",
+      "generation": "bbc16b732fa67ace1ecb",
+      "hash": "e3fcf1",
       "source": {
-        "duration": 73.613063,
+        "duration": 56.32,
         "file": null,
-        "sha256": "5a4b1fed3dc294c11c27aacf2ef2c0f8fd04047527526cc72a95886cac5e21c8"
+        "sha256": "e685c7b99097d3931b50153e36daebc531ded46364c07f9495727753696a7994"
       },
-      "text": "Aku'mai's Lair. Aku'mai's Lair is the deepest and darkest cavern within Blackfathom Deeps. Located beyond the Moonshrine Sanctum, this submerged hollow serves as the nesting ground for Aku'mai, a monstrous hydra venerated as a servant of the Old Gods. Sealed away behind the Moonshrine Sanctum, Aku'mai's Lair represents the culmination of the corruption sweeping Blackfathom Deeps. To enter the cavern, dark rituals must be engaged by igniting the four brazier fires flanking a naga statue, awakening guardians sworn to defend the threshold. Beyond these heavy double doors lies a sunless, flooded grotto. Here, both the Twilight's Hammer cultists and invading naga gather in reverence of Aku'mai, an ancient three-headed hydra considered a living servant of the Old Gods. The presence of Aku'mai within the lair makes it a focal point for the apocalyptic plans of the Twilight's Hammer. The cultists revere the great beast as an omen of a promised age of darkness, believing its emergence and continued sustenance will herald the breaking of subterranean prisons holding their ancient deities. Fed by sacrificial offerings and guarded zealously by dark magic, the subterranean pool serves as a grim symbol of the ancient evil clawing its way back into Kalimdor."
+      "text": "Aku'mai's Lair. Beyond the Moonshrine Sanctum, Aku'mai's Lair lies beneath Blackfathom Deeps. In its flooded depths, cultists and naga gather around Aku'mai, a hydra they honor as a servant of the Old Gods. Four braziers flank a naga statue behind the Moonshrine Sanctum's sealed double doors. Lighting them awakens guardians sworn to defend the threshold. Beyond the doors, a sunless grotto lies beneath the water. Twilight's Hammer cultists and invading naga gather there in reverence of Aku'mai, an ancient, three-headed hydra they consider a living servant of the Old Gods. Twilight's Hammer cultists see Aku'mai as an omen of a promised age of darkness. They believe the beast's emergence and continued sustenance will herald the breaking of subterranean prisons holding their ancient deities. Sacrificial offerings feed Aku'mai, while dark magic guards the pool where it dwells. The cult's plans center on this beast as ancient evil claws its way back into Kalimdor."
     },
     "subzone:altar-of-storms-burning-steppes": {
       "1": [
@@ -315,9 +315,9 @@
     "subzone:black-channel-marsh": {
       "1": [
         {
-          "duration": 41.63918367346939,
-          "file": "Audio/Transport/full_subzone_black-channel-marsh-1c162800e3c8ff72a0b4/1-0000.mp3",
-          "sha256": "f1b09e69c3abf03c68319d034dc6d4e705c061610f574268adade7433e6b3529",
+          "duration": 30.484897959183673,
+          "file": "Audio/Transport/full_subzone_black-channel-marsh-b3106fd1ecbf21997983/1-0000.mp3",
+          "sha256": "b4d9f2a3230327a4143065f24ef846f72f6ff9266c2cea62e2fcaf6f0d018abc",
           "start": 0
         }
       ],
@@ -328,15 +328,15 @@
           "1"
         ]
       },
-      "fullHash": "cbeefa",
-      "generation": "0b80c83d1a42281acc04",
-      "hash": "cbeefa",
+      "fullHash": "d91bd8",
+      "generation": "2f21f411fe0775fd2f33",
+      "hash": "d91bd8",
       "source": {
-        "duration": 41.613063,
+        "duration": 30.51102,
         "file": null,
-        "sha256": "1c162800e3c8ff72a0b40b7329bf719546feec4eaa87460fe2d5762a1acbe95b"
+        "sha256": "b3106fd1ecbf21997983cb8033124a3e38026c506be00564b9e89a68a308ec5f"
       },
-      "text": "Black Channel Marsh. Black Channel Marsh is a murky mire situated in the southwestern Wetlands, flanking the main road leading toward Menethil Harbor. Infested with aggressive raptors, the soggy terrain poses an immediate threat to unwary travelers and supply couriers traversing the coastal lowlands. Stretching across the swampy low ground southwest of the main thoroughfare, Black Channel Marsh is infamous among caravan drivers and couriers heading to Menethil Harbor. While the raised road offers the illusion of safety, the stagnant channels and thick reeds are home to territorial raptor packs. Hungry beasts frequently stray directly into traffic, ambushing fresh recruits and weary wayfarers who stray even a pace or two from the beaten path."
+      "text": "Black Channel Marsh. Raptors prowl Black Channel Marsh beside the road to Menethil Harbor. The mire lies in the Wetlands’ southwest, where travelers and couriers face danger along the coast. Black Channel Marsh spreads across the low ground southwest of the main road to Menethil Harbor. Caravan drivers and couriers know the danger there. The raised road may seem safe, but territorial raptors live among the stagnant channels and thick reeds. Hungry beasts often stray into the road, ambushing recruits and weary travelers who wander even a little from the path."
     },
     "subzone:blackchar-cave": {
       "1": [
@@ -367,9 +367,9 @@
     "subzone:blackfathom-deeps": {
       "1": [
         {
-          "duration": 41.6130612244898,
-          "file": "Audio/Transport/full_subzone_blackfathom-deeps-91838e843082318a3d0b/1-0000.mp3",
-          "sha256": "28cbbae5974706d8fe9513f5ecaf84843b3a5f38b8761e7a7a9b8fd0c06c2a6d",
+          "duration": 37.53795918367347,
+          "file": "Audio/Transport/full_subzone_blackfathom-deeps-3deea820eb747f1204da/1-0000.mp3",
+          "sha256": "82e737f19653ad680f85b2a133a3b4a445bffc7e3c1738ebb479bf5a4b62f801",
           "start": 0
         }
       ],
@@ -380,15 +380,15 @@
           "1"
         ]
       },
-      "fullHash": "e8e718",
-      "generation": "808bfe5f5b0ee5080bd2",
-      "hash": "e8e718",
+      "fullHash": "65295f",
+      "generation": "941f4c9ad89815dbded7",
+      "hash": "65295f",
       "source": {
-        "duration": 41.613061,
+        "duration": 37.537959,
         "file": null,
-        "sha256": "91838e843082318a3d0b1eb6a65a824964c827c7bb0a363c311e27965cfd0840"
+        "sha256": "3deea820eb747f1204da15acf9aca893d9184a505d45a6f03d5d5b18673f6add"
       },
-      "text": "Blackfathom Deeps. Blackfathom Deeps is a flooded subterranean temple ruin buried beneath the Zoram Strand along Ashenvale's northwestern coast. Once a glorious house of worship dedicated to the moon goddess Elune, its drowned halls have been overtaken by naga, satyr, and the sinister Twilight's Hammer cult. Before the Great Sundering shattered ancient Kalimdor ten thousand years ago, this complex was a temple dedicated to the goddess Elune, complete with its own moonwell. When the Well of Eternity collapsed, the shrine sank beneath the ocean waves, presumed lost forever. Over millennia, receding shorelines and subterranean shifting left its remains partly flooded beneath the cliffs of Ashenvale."
+      "text": "Blackfathom Deeps. Blackfathom Deeps lies flooded beneath the Zoram Strand on Ashenvale's northwestern coast. Its halls once honored Elune, but naga, satyr, and the Twilight's Hammer now hold the ruins. Beneath Ashenvale's northwestern cliffs, flooded halls mark the remains of an ancient temple. Before the Great Sundering shattered Kalimdor ten thousand years ago, the temple honored Elune and held its own moonwell. When the Well of Eternity collapsed, the shrine sank beneath the waves and was presumed lost forever. Over millennia, shorelines receded and the ground shifted below, leaving the temple partly flooded beneath the cliffs."
     },
     "subzone:blackrock-mountain": {
       "1": [
@@ -627,9 +627,9 @@
     "subzone:bluegill-marsh": {
       "1": [
         {
-          "duration": 53.394285714285715,
-          "file": "Audio/Transport/full_subzone_bluegill-marsh-0d993d128d78bb7cc49b/1-0000.mp3",
-          "sha256": "ce0fc02790a50d92e4e7db1c980f1035d53251e9a32e55486f6ef139af293682",
+          "duration": 32.57469387755102,
+          "file": "Audio/Transport/full_subzone_bluegill-marsh-b9ab9042dd3395554f80/1-0000.mp3",
+          "sha256": "46b31b6cee8e6c2d29e72c735c6b667834e3629bce725051ad12c643ed692518",
           "start": 0
         }
       ],
@@ -640,15 +640,15 @@
           "1"
         ]
       },
-      "fullHash": "9a3dc4",
-      "generation": "508e2ba7babb0fae992e",
-      "hash": "9a3dc4",
+      "fullHash": "f726bb",
+      "generation": "37378eba38b9316205e7",
+      "hash": "f726bb",
       "source": {
-        "duration": 53.368125,
+        "duration": 32.574694,
         "file": null,
-        "sha256": "0d993d128d78bb7cc49bccbac25bb35a16dcfa9a3dcfe3a8cfaadb8938911720"
+        "sha256": "b9ab9042dd3395554f803a4ccd4414d8b73fe55e898eb651add456c5cc4713e4"
       },
-      "text": "Bluegill Marsh. Bluegill Marsh is a sodden mire in the western Wetlands that serves as the sprawling settlement for the hostile Bluegill murloc tribe. The waterways and huts are fiercely guarded by these aquatic humanoids under the rule of the brute known as Gobbler. Travelers heading through the western fens must navigate carefully to avoid being surrounded in the shallows. Situated amidst the boggy flats of the western Wetlands, Bluegill Marsh is thick with mud, reeds, and the squawking war cries of its resident murlocs. The Bluegill tribe has erected crude primitive camps throughout the stagnant water, claiming this territory as their own. Unlike more isolated beasts of the swamp, these murlocs live and hunt in tightly knit packs. Wary wanderers and scouts from Menethil Harbor know that wading into their territory invites swift ambushes from every direction, especially with the formidable chieftain Gobbler prowling the murky shallows."
+      "text": "Bluegill Marsh. In western Wetlands, Bluegill Marsh is claimed by the hostile Bluegill tribe. Their huts and waterways are guarded by Gobbler, and travelers risk being surrounded in the shallows. Bluegill murlocs crowd the muddy flats and reed beds of the western Wetlands. Their tribe has built crude camps in the stagnant water and claims the marsh as its own. They live and hunt in close-knit packs. Travelers and scouts from Menethil Harbor risk ambush from every direction when they wade into Bluegill territory, where the chieftain Gobbler prowls the shallows."
     },
     "subzone:bolgan-s-hole": {
       "1": [
@@ -1277,9 +1277,9 @@
     "subzone:chillwind-point": {
       "1": [
         {
-          "duration": 67.99673469387756,
-          "file": "Audio/Transport/full_subzone_chillwind-point-ad9fd6d91d0085a2dc33/1-0000.mp3",
-          "sha256": "6688b0873b93d5d34d109e1bf94902d1544ae2786be2645e18a42f7d54838d06",
+          "duration": 58.95836734693878,
+          "file": "Audio/Transport/full_subzone_chillwind-point-26ba9fd6a21ec950f95c/1-0000.mp3",
+          "sha256": "bb61f60633a2642ad89be1ad92c8af07064374fcdd8f740eb813a4f7d4aec208",
           "start": 0
         }
       ],
@@ -1290,15 +1290,15 @@
           "1"
         ]
       },
-      "fullHash": "89368e",
-      "generation": "333a59947107045261b9",
-      "hash": "89368e",
+      "fullHash": "92d9c1",
+      "generation": "e0071493c23887415cd1",
+      "hash": "92d9c1",
       "source": {
-        "duration": 67.970563,
+        "duration": 58.958367,
         "file": null,
-        "sha256": "ad9fd6d91d0085a2dc33582457080bed8429a5c7ab3c103a3592242ac2074c96"
+        "sha256": "26ba9fd6a21ec950f95c1a6d09646a14c4524bdd1be3ef09af588f6d3795d664"
       },
-      "text": "Chillwind Point. Chillwind Point is a rocky rise and ancient troll ruin sitting on the high frontier between the Alterac Mountains, Hillsbrad Foothills, and the Western Plaguelands. It gets its name from the freezing drafts howling through the mountain pass out of the blighted north. Today, it serves as a lonely vantage point inhabited primarily by a lone troll mystic. Perched on the borderlands where Hillsbrad gives way to Alterac and the plagued north, Chillwind Point looks out over the mountain ravine leading directly into the Western Plaguelands. Long before Lordaeron claimed these passes, ancient trolls built stone structures upon these heights, the remnants of which still stand weather-beaten against the elements. Today, cold winds blow south through the ravine, carrying the chill of the fallen north into the foothill valleys below. Despite its bleak exposure and proximity to Scourge-ravaged lands, Chillwind Point is not entirely deserted. The ancient masonry provides shelter for Bath'rah the Windwatcher, a jungle troll hermit who communes with the violent gales coursing through the gap. Travelers and shamans venturing north often seek out his solitary camp amid the ruins to learn the secrets of the mountain currents."
+      "text": "Chillwind Point. Cold drafts sweep through Chillwind Point, a rocky rise above the mountain pass. The ancient troll ruin sits where Hillsbrad Foothills, the Alterac Mountains, and the Western Plaguelands meet, and Bath'rah the Windwatcher lives among its stones. Chillwind Point overlooks the ravine from Hillsbrad's edge. The pass leads into the Western Plaguelands, while the Alterac Mountains rise nearby. Long before Lordaeron claimed these routes, ancient trolls built stone structures on the heights. Their weather-beaten remains still face the elements. Cold winds now blow south through the ravine, carrying the chill of the fallen north into the foothills below. Bath'rah the Windwatcher lives among the old stones at Chillwind Point. The jungle troll hermit communes with the violent gales that course through the gap. Despite the bleak exposure and the nearby Scourge-ravaged lands, his camp is not entirely deserted. Travelers and shamans heading north often seek him out to learn the secrets of the mountain currents."
     },
     "subzone:circle-of-aquementas": {
       "1": [
@@ -1407,9 +1407,9 @@
     "subzone:clockwerk-run": {
       "1": [
         {
-          "duration": 45.34857142857143,
-          "file": "Audio/Transport/full_subzone_clockwerk-run-14d6d323edf57f2443d1/1-0000.mp3",
-          "sha256": "b151f274cb0d1e2115ff0eb6363ef234ff20e5114a250768b203a9312ed6483b",
+          "duration": 32.57469387755102,
+          "file": "Audio/Transport/full_subzone_clockwerk-run-b69e6f9713b55908b8b2/1-0000.mp3",
+          "sha256": "1a8f45d2416bb9c4922443d3fd19947df75472634b1473140f7176056dad20bd",
           "start": 0
         }
       ],
@@ -1420,15 +1420,15 @@
           "1"
         ]
       },
-      "fullHash": "5692f8",
-      "generation": "e52934d02f37259cc347",
-      "hash": "5692f8",
+      "fullHash": "f2ca20",
+      "generation": "199afbc0bb4a18da614f",
+      "hash": "f2ca20",
       "source": {
-        "duration": 45.322438,
+        "duration": 32.574694,
         "file": null,
-        "sha256": "14d6d323edf57f2443d15ff249abf9ed8c50b890e0f0743c1a09a948a38ebc5e"
+        "sha256": "b69e6f9713b55908b8b2408c90759909cf5878ddb40768e70934e12f829ee5a6"
       },
-      "text": "Clockwerk Run. The Clockwerk Run is the main entrance corridor leading into the heart of fallen Gnomeregan. Stretching between the Train Depot and the Hall of Gears, this damaged hallway is heavily contaminated by toxic fallout and overrun with irradiated troggs. Serving as the primary gateway into Gnomeregan from the outer train depot, the Clockwerk Run was once a bustling conduit of gnomish logistics and transit. When High Tinker Mekkatorque ordered the venting of radioactive waste to stem the trogg invasion, the corridor became a lethal trap. The blast and subsequent fighting caused portions of the hallway to collapse onto itself. Today, the passage is choked with toxic fumes and prowling irradiated troggs, making it the perilous frontline that any expedition must fight through to reach the upper Hall of Gears."
+      "text": "Clockwerk Run. In Gnomeregan, Clockwerk Run lies between the Train Depot and the Hall of Gears. Toxic fallout and irradiated troggs fill the route into the fallen city. Clockwerk Run runs from the outer Train Depot into Gnomeregan. Once, gnomish traffic and supplies moved through this corridor. High Tinker Mekkatorque ordered radioactive waste vented to stop the trogg invasion, turning the passage into a deadly trap. The blast and the fighting that followed brought parts of the hallway down. Toxic fumes and irradiated troggs now block the way to the upper Hall of Gears."
     },
     "subzone:corin-s-crossing": {
       "1": [
@@ -1459,9 +1459,9 @@
     "subzone:corrahn-s-dagger": {
       "1": [
         {
-          "duration": 24.006530612244898,
-          "file": "Audio/Transport/full_subzone_corrahn-s-dagger-8358982b4ee8fa123973/1-0000.mp3",
-          "sha256": "4fd16b7cda18004ee67bc3844f17110c522b9a53377355907c796453585c88b6",
+          "duration": 20.349387755102043,
+          "file": "Audio/Transport/full_subzone_corrahn-s-dagger-9fa3eedfdb6fc345105a/1-0000.mp3",
+          "sha256": "df4ac617e22b819a13605c3d1c0a14c217b9a8e3a8bf38084d055a7666c2126d",
           "start": 0
         }
       ],
@@ -1472,15 +1472,15 @@
           "1"
         ]
       },
-      "fullHash": "22b6dd",
-      "generation": "42794cfbf5ac561f908d",
-      "hash": "22b6dd",
+      "fullHash": "9f3a7c",
+      "generation": "6f0385dd0be64f1463a4",
+      "hash": "9f3a7c",
       "source": {
-        "duration": 23.980375,
+        "duration": 20.349388,
         "file": null,
-        "sha256": "8358982b4ee8fa12397384054dd5d91422f84dd910038b66ee8bd6bfae263588"
+        "sha256": "9fa3eedfdb6fc345105aeb4cfe08e26ab8fe4291a0cef56085e0b20e1de6df84"
       },
-      "text": "Corrahn's Dagger. Corrahn's Dagger is the second ridge among the four mountainous fingers towering over northern Hillsbrad Foothills. This high ground serves as a hideout for rogue Syndicate operatives. Rising steeply in northern Hillsbrad Foothills, Corrahn's Dagger is the second of the four rocky projections known locally as the fingers of Hillsbrad. The ridge is overrun by cutthroats belonging to the Syndicate, who use the elevated perch to overlook the valley below."
+      "text": "Corrahn's Dagger. Syndicate cutthroats hold Corrahn's Dagger, the second ridge among northern Hillsbrad's four rocky fingers. They use its high ground as a hideout. Corrahn's Dagger rises in northern Hillsbrad Foothills as the second of four rocky ridges called the fingers of Hillsbrad. Syndicate cutthroats overrun the ridge and use its height to watch the valley below."
     },
     "subzone:crown-guard-tower": {
       "1": [
@@ -1875,9 +1875,9 @@
     "subzone:darrow-hill": {
       "1": [
         {
-          "duration": 57.36489795918367,
-          "file": "Audio/Transport/full_subzone_darrow-hill-629af207ed126dda4a6a/1-0000.mp3",
-          "sha256": "685d3c74769e19d4752ad71b6eae588c87d6e72dd3b9ed9d22925956339a45d3",
+          "duration": 44.251428571428576,
+          "file": "Audio/Transport/full_subzone_darrow-hill-23194f3bb1255f2bec1e/1-0000.mp3",
+          "sha256": "a25930ef717fc172c00cc6d5949e188201593d6aa0bb9f562d320ae302f6b998",
           "start": 0
         }
       ],
@@ -1888,15 +1888,15 @@
           "1"
         ]
       },
-      "fullHash": "153e10",
-      "generation": "6f07c733280f6b5b4784",
-      "hash": "153e10",
+      "fullHash": "bd85b4",
+      "generation": "289930eab96e4bcbc25f",
+      "hash": "bd85b4",
       "source": {
-        "duration": 57.364898,
+        "duration": 44.251429,
         "file": null,
-        "sha256": "629af207ed126dda4a6aba1f6dd97c954d0439fb245c046bd9aae47474d217ad"
+        "sha256": "23194f3bb1255f2bec1e5de202b904b1f0b9b241d5bb9050a49112de24bdbd89"
       },
-      "text": "Darrow Hill. Darrow Hill is an elevated expanse of rugged grassland nestled in northern Hillsbrad Foothills directly beneath the Headland. While mountain lions and stags graze across its open slopes, feral yetis lurk inside the Foothill Caverns that pit the hillside. Rich with veins of Alterac Granite, it serves as a treacherous frontier where natural beasts and rival travelers constantly clash. Rising along the base of the northern mountains below the Headland, Darrow Hill bridges the rolling pasture of southern Hillsbrad with the jagged, colder heights of Alterac. Mountain lions and stags stalk through the tall grasses, sharing the rocky slopes with towering yetis that spill out from the Foothill Caverns. Beyond its feral wildlife, the cavern walls hide deposits of dense Alterac Granite, drawing quarry workers, miners, and adventurers straight into harm's way. Caught between contentious regional claims, its trails remain notoriously dangerous for travelers of either faction caught unawares."
+      "text": "Darrow Hill. In northern Hillsbrad, Darrow Hill's rugged grassland rises beneath the Headland. Mountain lions and stags roam its open slopes, while feral yetis lurk in the Foothill Caverns. Alterac Granite draws travelers into this dangerous frontier. Darrow Hill stretches below the Headland, joining southern Hillsbrad's rolling pasture to Alterac's jagged, colder heights. Mountain lions and stags move through tall grasses on its rocky slopes, and towering yetis emerge from the Foothill Caverns. The cavern walls hold deposits of dense Alterac Granite, drawing quarry workers, miners, and adventurers into danger. Regional claims remain contentious, and travelers of either faction can be caught unaware on the trails."
     },
     "subzone:darrowmere-lake": {
       "1": [
@@ -2083,9 +2083,9 @@
     "subzone:direforge-hill": {
       "1": [
         {
-          "duration": 34.82122448979592,
-          "file": "Audio/Transport/full_subzone_direforge-hill-e04d372734d34c8690fb/1-0000.mp3",
-          "sha256": "a4377726280d6148a2ffdd923fe26a4a713992957e1064e1ff675c1fb63d77ab",
+          "duration": 25.547755102040817,
+          "file": "Audio/Transport/full_subzone_direforge-hill-00a87969930cb4ea843e/1-0000.mp3",
+          "sha256": "de7085fed0efaedae6b74fb83b42657c0494cf2dbb027699f9cfa38ffa866b5f",
           "start": 0
         }
       ],
@@ -2096,22 +2096,22 @@
           "1"
         ]
       },
-      "fullHash": "5bccb8",
-      "generation": "ff60824e0b4f3d3e8189",
-      "hash": "5bccb8",
+      "fullHash": "1db822",
+      "generation": "60b4b70ec2787215cfb8",
+      "hash": "1db822",
       "source": {
-        "duration": 34.795063,
+        "duration": 25.547755,
         "file": null,
-        "sha256": "e04d372734d34c8690fb53b56a276d1de2b32fb2492909b2886094e1dc6f84d9"
+        "sha256": "00a87969930cb4ea843ed5d793b54c9dad4be5ba30d7ed7397b021650f506f8f"
       },
-      "text": "Direforge Hill. Direforge Hill is a rugged highland in the northeastern Wetlands, southeast of Dun Modr and northeast of the Green Belt. The Dark Iron dwarf warlock Balgaras the Foul commands a hostile encampment on its slopes. Direforge Hill serves as a major Dark Iron campsite in the northeastern Wetlands. Balgaras the Foul, a Dark Iron dwarf warlock, commands the hostile dwarves occupying the hill southeast of Dun Modr. The Dark Iron dwarves occupying Direforge Hill pose a threat to travelers through the northeastern Wetlands. Balgaras the Foul commands the hostile encampment."
+      "text": "Direforge Hill. Hostile Dark Iron dwarves hold Direforge Hill in the northeastern Wetlands, southeast of Dun Modr and northeast of the Green Belt. Dark Iron dwarves hold the northeastern Wetlands hill under Balgaras the Foul, a Dark Iron dwarf warlock. Their encampment lies southeast of Dun Modr. Travelers crossing the northeastern Wetlands face the hostile Dark Iron encampment on Direforge Hill. Balgaras the Foul commands the dwarves there."
     },
     "subzone:dragonmaw-gates": {
       "1": [
         {
-          "duration": 64.78367346938776,
-          "file": "Audio/Transport/full_subzone_dragonmaw-gates-97ff4e2897ac728ac5dc/1-0000.mp3",
-          "sha256": "18a762067b378fd55bb637c1c5888c89b84e8b39edef268f5740a7ede35293b2",
+          "duration": 55.45795918367347,
+          "file": "Audio/Transport/full_subzone_dragonmaw-gates-f55360009891fa1d685f/1-0000.mp3",
+          "sha256": "36e063d0ec01aa2c6f05ac080ca3f185bf7d9c16e30cb521eb1dd447cd3b52d2",
           "start": 0
         }
       ],
@@ -2122,15 +2122,15 @@
           "1"
         ]
       },
-      "fullHash": "e436f2",
-      "generation": "d6b092794fe3c1349620",
-      "hash": "e436f2",
+      "fullHash": "b69e49",
+      "generation": "3e1cab570a8f473f1be0",
+      "hash": "b69e49",
       "source": {
-        "duration": 64.809796,
+        "duration": 55.457959,
         "file": null,
-        "sha256": "97ff4e2897ac728ac5dce2d762b68e30dd926fdc29d17184f6506fe36d40207b"
+        "sha256": "f55360009891fa1d685ff826824896f7f3e5c56c01eddb894242d94336e70ac2"
       },
-      "text": "Dragonmaw Gates. The Dragonmaw Gates are a series of imposing fortifications along the mountain road leading up from the eastern Wetlands. Built to guard the steep ascent to the mountain fortress of Grim Batol, these heavy barricades bar entry into the cursed heights of the dwarven ruins. Carved into the rugged peaks bordering the eastern Wetlands, the Dragonmaw Gates seal the winding road that climbs into the mountains toward Grim Batol. Named after the Dragonmaw clan of orcs who held the dwarven mountain city during the Second War, these defensive barriers remain deeply fortified checkpoints. Anyone attempting to ascend toward the heights must contend with the lingering perils of the pass, where powerful drakes and grim reminders of the clan's dark history still cast a long shadow. Though the Dragonmaw orcs were broken and scattered following the destruction of the Demon Soul, the mountain path remains exceptionally dangerous. Powerful red dragons have been seen watching over the winding slopes and perches around the gates. Between monstrous drakes and remnants of the Dragonmaw clan lurking in the nearby hills, the gates stand as a firm barrier against any travelers bold enough to venture up the heights."
+      "text": "Dragonmaw Gates. At the Dragonmaw Gates, heavy fortifications bar the road climbing from the eastern Wetlands. They guard the ascent to Grim Batol, a mountain fortress in the cursed dwarven ruins. Carved into rugged peaks along the eastern Wetlands, the Dragonmaw Gates seal the winding road to Grim Batol. The barriers take their name from the Dragonmaw orcs, who held the dwarven mountain city during the Second War. The road remains a fortified checkpoint, and the ascent still brings danger. Powerful drakes haunt the pass, while grim reminders of the clan's dark history linger in the mountains. The Dragonmaw orcs were broken and scattered after the Demon Soul was destroyed, but the mountain path remains dangerous. Powerful red dragons have been seen watching the winding slopes and perches around the gates. Monstrous drakes and Dragonmaw remnants still lurk in the nearby hills, and the gates remain a firm barrier against travelers bold enough to venture into the heights."
     },
     "subzone:dragonmurk": {
       "1": [
@@ -2291,9 +2291,9 @@
     "subzone:drowned-sacellum": {
       "1": [
         {
-          "duration": 72.51591836734694,
-          "file": "Audio/Transport/full_subzone_drowned-sacellum-6a5ca53fbc0b90a2bf16/1-0000.mp3",
-          "sha256": "bb56363f4b8f2c704146d4a1f780c0658c0f0cb314fe51617e987c85997f47a1",
+          "duration": 59.97714285714286,
+          "file": "Audio/Transport/full_subzone_drowned-sacellum-21b5fc2e7ff0e6b1f5e2/1-0000.mp3",
+          "sha256": "8a8387c537badc2e8aae8c7204002f74fc9aff4edb1fafd67908b4bbed60fce1",
           "start": 0
         }
       ],
@@ -2304,15 +2304,15 @@
           "1"
         ]
       },
-      "fullHash": "9481f4",
-      "generation": "f1f4b026e6f7823e778e",
-      "hash": "9481f4",
+      "fullHash": "ef0095",
+      "generation": "851407506db95fe461a0",
+      "hash": "ef0095",
       "source": {
-        "duration": 72.48975,
+        "duration": 59.977143,
         "file": null,
-        "sha256": "6a5ca53fbc0b90a2bf169c672aee5b8f63bc91e0add6ae660bf664fefd209ab9"
+        "sha256": "21b5fc2e7ff0e6b1f5e220309ae792588ccbfc1483a077b86ebe7a3e88fb2fe0"
       },
-      "text": "Drowned Sacellum. The Drowned Sacellum is a submerged elven shrine lying just inside the entrance of Blackfathom Deeps. Submerged beneath brackish saltwater and draped in cavernous roots, its shattered masonry is now overrun by murlocs and makrura. Stepping through the threshold of Blackfathom Deeps immediately brings explorers into the Drowned Sacellum. Once a tranquil subterranean chapel dedicated to Elune, the sacellum has long collapsed into the sea-swept abyss beneath Ashenvale's coast. Saltwater pools swallow ancient marble flagstones overgrown with starfish, while massive tree roots dangle from the cavern ceiling above. Dark, flickering wisps provide the only dim light in the gloom, illuminating a ruined pathway of stones that adventurers must carefully navigate to reach the Pool of Ask'ar deeper within the temple complex. Long abandoned by its night elf caretakers, the Drowned Sacellum has fallen into the hands of shoreline scavengers. Packs of aggressive murlocs and heavily armored makrura dwell side by side in the murky waters, attacking anyone who dares disturb their nesting grounds. While darker, cultic threats lurk further below in the temple depths, these predatory creatures form the first hazardous line of defense for the subterranean ruins."
+      "text": "Drowned Sacellum. At Blackfathom Deeps' entrance, the Drowned Sacellum lies submerged beneath the coast. Brackish saltwater and cavern roots surround its broken stones, now occupied by murlocs and makrura. You enter the Drowned Sacellum just beyond Blackfathom Deeps' threshold. The chapel once offered quiet worship to Elune, but it has long since collapsed into the sea-swept abyss beneath Ashenvale's coast. Brackish pools swallow its ancient marble flagstones, where starfish cling beneath the cavern ceiling's massive roots. Dark wisps flicker dimly through the gloom, lighting a broken stone path. Careful steps along it lead deeper into the temple complex, toward the Pool of Ask'ar. Night elf caretakers left the Drowned Sacellum long ago, and shoreline scavengers now hold the ruins. Packs of aggressive murlocs and heavily armored makrura share the murky waters and attack anyone who disturbs their nesting grounds. Darker cultic threats lie deeper in the temple, but these predators guard the first stretch of the underground ruins."
     },
     "subzone:drywhisker-gorge": {
       "1": [
@@ -2473,9 +2473,9 @@
     "subzone:eastern-strand": {
       "1": [
         {
-          "duration": 41.926530612244896,
-          "file": "Audio/Transport/full_subzone_eastern-strand-e5903a56379b37fd620c/1-0000.mp3",
-          "sha256": "6ad4edc66e30f6608d02aa1bf38a24b1b0edee93993725caac8dfbf23f13283d",
+          "duration": 29.936326530612245,
+          "file": "Audio/Transport/full_subzone_eastern-strand-6f28c876773945420a45/1-0000.mp3",
+          "sha256": "30eed756418e66b04a5b6150049db062a07c580f9130ce8157e9c00432f515ca",
           "start": 0
         }
       ],
@@ -2486,15 +2486,15 @@
           "1"
         ]
       },
-      "fullHash": "fa38e2",
-      "generation": "65924c85b2c7497cee36",
-      "hash": "fa38e2",
+      "fullHash": "4e21e8",
+      "generation": "ce31857b324a6be3c539",
+      "hash": "4e21e8",
       "source": {
-        "duration": 41.900375,
+        "duration": 29.936327,
         "file": null,
-        "sha256": "e5903a56379b37fd620c2abdaa0eec17e0cfd78662fe0932842fa51d864cc410"
+        "sha256": "6f28c876773945420a459422a0bcf1cc08dee744dd65b97e67123eb71edf8e95"
       },
-      "text": "Eastern Strand. The Eastern Strand is a stretch of southern coastline in Hillsbrad Foothills, lying to the southeast toward the border of the Arathi Highlands. Once peaceful shores, the beaches and shallows have been overrun by hostile Daggerspine naga establishing a coastal beachhead. Running along the southeastern edge of Hillsbrad Foothills, the Eastern Strand complements the Western Strand across the bay. While the region is primarily known for human farming settlements and territorial clashes between Southshore and Tarren Mill, these sandy flats and tidelines are dominated entirely by the Daggerspine naga. Creeping out of the Great Sea, the serpent folk slither across the sandbars and dwell among the rocky outcrops, watching the mainland closely."
+      "text": "Eastern Strand. Daggerspine naga hold the Eastern Strand along Hillsbrad's southeastern coast. The beaches and shallows reach toward the Arathi Highlands border. The Daggerspine naga hold the Eastern Strand on Hillsbrad's southeastern edge. Across the bay lies the Western Strand. Southshore and Tarren Mill clash over the region's human farms, while the naga dominate these sandy flats and tidelines. They come from the Great Sea, crossing the sandbars and settling among rocky outcrops. From there, they watch the mainland."
     },
     "subzone:eastmoon-ruins": {
       "1": [
@@ -2993,9 +2993,9 @@
     "subzone:forgotten-pool": {
       "1": [
         {
-          "duration": 40.6465306122449,
-          "file": "Audio/Transport/full_subzone_forgotten-pool-ba1a45ebdb3de9882547/1-0000.mp3",
-          "sha256": "92099d228fb1713ad3b08109ee49cc908c11f98bd0d65b5e587c0a755e55df97",
+          "duration": 30.902857142857144,
+          "file": "Audio/Transport/full_subzone_forgotten-pool-43ca87e995126905cb56/1-0000.mp3",
+          "sha256": "a3f2ff266f9ee6ae207825cd75e5c4fc4eb1672ecaa2c620d992978a7c8197c8",
           "start": 0
         }
       ],
@@ -3006,15 +3006,15 @@
           "1"
         ]
       },
-      "fullHash": "aa83c6",
-      "generation": "47cc5616a583ca6e2af4",
-      "hash": "aa83c6",
+      "fullHash": "53b928",
+      "generation": "dc05857013aafbca5904",
+      "hash": "53b928",
       "source": {
-        "duration": 40.646531,
+        "duration": 30.92898,
         "file": null,
-        "sha256": "ba1a45ebdb3de9882547453cce2485015eb46bdd18921c6f46cfe5ccb893220f"
+        "sha256": "43ca87e995126905cb56cfa25179868c3e02017fa4a8904648b8382880497bd2"
       },
-      "text": "Forgotten Pool. The Forgotten Pool is a submerged cavern tucked deep beneath the flooded corridors of Blackfathom Deeps. Located beyond the Moonshrine Ruins, this quiet dead-end serves as the aquatic lair of monstrous deep-sea predators lurking in the subterranean dark. Reaching the Forgotten Pool requires diving into the sunken subterranean waterways extending past the Moonshrine Ruins. Cut off from dry ground, the pool is an isolated, stagnant cavern completely flooded by dark waters. Away from the chanting Twilight's Hammer cultists and the patrolling naga, this secluded pocket serves as the lair of the ancient aquatic terror known as Old Serra'kis, keeping the beast hidden in the flooded dark."
+      "text": "Forgotten Pool. Past the Moonshrine Ruins, Forgotten Pool lies beneath the flooded halls of Blackfathom Deeps. Its dark waters hide monstrous deep-sea predators. You reach Forgotten Pool by diving through the sunken waterways beyond the Moonshrine Ruins. Dark water fills this isolated cavern, cut off from dry ground. Twilight's Hammer cultists chant nearby, and naga patrol the flooded halls, but the pool lies apart from them. Old Serra'kis, an ancient aquatic terror, lairs in its depths, hidden by the water."
     },
     "subzone:forlorn-cloister": {
       "1": [
@@ -3409,9 +3409,9 @@
     "subzone:gnomeregan": {
       "1": [
         {
-          "duration": 86.43918367346939,
-          "file": "Audio/Transport/full_subzone_gnomeregan-1f63654e8020f28af1f4/1-0000.mp3",
-          "sha256": "544c137b817deb646c22de9b0f1806a8de5feaeef3d52b0ba0fe5dbcbea3aed8",
+          "duration": 71.44489795918368,
+          "file": "Audio/Transport/full_subzone_gnomeregan-f9e75864eccb8614ca92/1-0000.mp3",
+          "sha256": "ceb35ae917394ebb0d459359f8cf2a2315c08ad5c36bb99ec71af12aff6e67e5",
           "start": 0
         }
       ],
@@ -3422,15 +3422,15 @@
           "1"
         ]
       },
-      "fullHash": "6aedcd",
-      "generation": "5e6a502d86810460b602",
-      "hash": "6aedcd",
+      "fullHash": "f71771",
+      "generation": "2f05650a50afcc6528b7",
+      "hash": "f71771",
       "source": {
-        "duration": 86.413063,
+        "duration": 71.444898,
         "file": null,
-        "sha256": "1f63654e8020f28af1f4a04e447e42285e7bbe0208e4299295f41920945426d9"
+        "sha256": "f9e75864eccb8614ca92cd490591af33b2b12e28db58e38658db2b7375fb7ea0"
       },
-      "text": "Gnomeregan. Gnomeregan was the magnificent subterranean capital of the gnomish race, renowned across Azeroth for its mechanical brilliance and technological marvels. Today, it stands as a radioactive tomb, overrun by subterranean troggs, haywire defense automatons, and deranged leper gnomes after a desperate defense ended in catastrophe. Carved into the snowy crags of western Dun Morogh, Gnomeregan was built with the aid of the Ironforge dwarves centuries ago. Inside, massive steam-driven gears, intricate copper piping, and cavernous assembly halls formed the intellectual and industrial beating heart of gnomekind. It was from these subterranean halls that gnomish designs, flying machines, and complex armaments supplied the Alliance throughout the Second War, standing firm even when besieged by Orgrim Doomhammer's Horde. During the Third War, a subterranean surge of troggs erupted from deep beneath the earth, breaching the city's lowest chambers. Unwilling to divert Alliance armies from the slaughter in Lordaeron, High Tinker Gelbin Mekkatorque attempted to handle the crisis alone. On the advice of his chief engineer, Mekgineer Thermaplugg, Mekkatorque ordered radioactive gas vented through the lower chambers to wipe out the brutes. The plan backfired horrifyingly: the gas empowered many troggs while killing nearly eighty percent of the gnomish populace. Those exposed who did not perish mutated into twisted leper gnomes, while Thermaplugg seized rule over the poisoned ruins."
+      "text": "Gnomeregan. In the poisoned halls of Gnomeregan, troggs and leper gnomes roam among broken defenses. Once the gnomes’ subterranean capital, it fell after a desperate defense turned to catastrophe. Gnomeregan’s halls once rang with the work of gnomish engineers. Built with aid from the Ironforge dwarves centuries ago, the city was carved into the snowy crags of western Dun Morogh. Steam-driven gears, copper piping, and vast assembly halls made it the heart of gnomish industry and invention. During the Second War, its designs, flying machines, and complex armaments supplied the Alliance. The city held firm even as Orgrim Doomhammer’s Horde laid siege. During the Third War, troggs surged from deep underground and broke into Gnomeregan’s lowest chambers. High Tinker Gelbin Mekkatorque chose to face the invasion alone, unwilling to draw Alliance armies away from the slaughter in Lordaeron. On the advice of chief engineer Mekgineer Thermaplugg, he ordered radioactive gas released through the lower chambers to wipe out the troggs. Instead, the gas empowered many of them and killed nearly eighty percent of the gnomish people. Those exposed who survived became twisted leper gnomes, and Thermaplugg took control of the poisoned ruins."
     },
     "subzone:go-shek-farm": {
       "1": [
@@ -3539,9 +3539,9 @@
     "subzone:green-belt": {
       "1": [
         {
-          "duration": 59.1934693877551,
-          "file": "Audio/Transport/full_subzone_green-belt-d2325f539a57721258ad/1-0000.mp3",
-          "sha256": "89fc9f82657732869505e38a671326ecdb0ea3b6ffa6222dc39c3b89198f2bff",
+          "duration": 49.44979591836735,
+          "file": "Audio/Transport/full_subzone_green-belt-8a6170e22e0a819db66d/1-0000.mp3",
+          "sha256": "24b2a77b4dd99813955a6a2982f637fc962b09938b4dba770c6ce1ff003dfc77",
           "start": 0
         }
       ],
@@ -3552,15 +3552,15 @@
           "1"
         ]
       },
-      "fullHash": "85c131",
-      "generation": "202f6a15cdf036980207",
-      "hash": "85c131",
+      "fullHash": "99e634",
+      "generation": "822964b065a25f52582b",
+      "hash": "99e634",
       "source": {
-        "duration": 59.167313,
+        "duration": 49.449796,
         "file": null,
-        "sha256": "d2325f539a57721258ad5ae29c57e30e2dadfa892158521bac91e621982a3b7b"
+        "sha256": "8a6170e22e0a819db66d69e69e4e87baeeb7566dc333b5c64ed5094195f2f453"
       },
-      "text": "Green Belt. The Green Belt is a wild stretch of marshland in the eastern Wetlands, sprawling below the ridges of Grim Batol. It is overrun by roaming bog beasts, predatory crocolisks, and toxic oozes, guarded primarily by the solitary night elf Rethiel the Greenwarden. Stretching across the eastern interior of the Wetlands, the Green Belt is one of the sodden region's untamed hollows. The local wildlife—ranging from massive crocolisks to shifting oozes and shambling bog beasts—makes travel through the mossy waters hazardous. Deep within its reaches sits a solitary watch post manned by Rethiel the Greenwarden, a lone night elf dedicated to studying the fen's ecology and keeping its hostile denizens in check. Scattered amidst the muck lies the wreckage of a Dragonmaw clan caravan, left behind after the catastrophic battle at nearby Grim Batol. Crimson whelplings still linger around the broken carts and crushed cages, haunting reminders of the orcish clan's past enslavement of Alexstrasza and her red dragon brood."
+      "text": "Green Belt. In eastern Wetlands, Green Belt lies below the ridges of Grim Batol. Bog beasts, crocolisks, and toxic oozes roam its marshes, while Rethiel the Greenwarden keeps watch alone. Green Belt fills the eastern interior of Wetlands, where mossy waters make travel hazardous. Massive crocolisks, shifting oozes, and shambling bog beasts roam the fen. Deep within it, a solitary watch post is manned by Rethiel the Greenwarden, a night elf who studies the fen's ecology and keeps its hostile creatures in check. Wreckage from a Dragonmaw clan caravan lies scattered in the muck, left behind after the catastrophic battle at nearby Grim Batol. Crimson whelplings linger around the broken carts and crushed cages, reminders of the clan's past enslavement of Alexstrasza and her red dragon brood."
     },
     "subzone:grimesilt-dig-site": {
       "1": [
@@ -3643,9 +3643,9 @@
     "subzone:growless-cave": {
       "1": [
         {
-          "duration": 53.60326530612245,
-          "file": "Audio/Transport/full_subzone_growless-cave-11015d06fb1bfeaea3e4/1-0000.mp3",
-          "sha256": "f77103d485efc3950cddd7a48ccea7b47fc6ab865b8042bce400f5850246b3f4",
+          "duration": 44.40816326530612,
+          "file": "Audio/Transport/full_subzone_growless-cave-4a2b77a5494d63915a70/1-0000.mp3",
+          "sha256": "eea4417e93da668a6c419326179e41cdae7fc2c970fad538a4f67adc23260353",
           "start": 0
         }
       ],
@@ -3656,15 +3656,15 @@
           "1"
         ]
       },
-      "fullHash": "afdae9",
-      "generation": "73618c25ce50d8d9fb9e",
-      "hash": "afdae9",
+      "fullHash": "bf4424",
+      "generation": "605bc74c5c356ebc077e",
+      "hash": "bf4424",
       "source": {
-        "duration": 53.577125,
+        "duration": 44.408163,
         "file": null,
-        "sha256": "11015d06fb1bfeaea3e4686765d8909f66c3cb095fa429865e781125803ee664"
+        "sha256": "4a2b77a5494d63915a708ff24744f8b07f3ddc4c57ac4ccfe5ad2a2591a28c55"
       },
-      "text": "Growless Cave. Growless Cave is a frigid cavern carved into the crags of the Alterac Mountains, overrun by ferocious mountain yetis. It is best known as the resting place of the Flame of Uzel, an unholy ceremonial pyre tied to the dark necromancy of Helcular. Tucked away in the snow-dusted heights overlooking the foothills, Growless Cave serves primarily as a den for the territorial mountain yetis that roam Alterac. Travelers navigating the treacherous slopes often steer clear of its mouth, especially when the notorious yeti Skhowl is sighted prowling outside. Beyond the primal danger of the beasts, the cave harbors a sinister past: inside lies the Flame of Uzel, an arcane brazier left behind by the ambitious human mage Helcular. Before his demise, Helcular intended to use the pyre in a dark ritual to achieve lichdom, and its foul warmth once drew the massive predator Frostmaw out from the frozen wastes."
+      "text": "Growless Cave. In frigid Growless Cave, mountain yetis roam the cavern in the Alterac Mountains. The cave also holds the Flame of Uzel, a ceremonial pyre tied to Helcular's dark necromancy. Territorial mountain yetis roam Growless Cave in the crags above Alterac's foothills. Travelers on the treacherous slopes avoid its entrance, especially when Skhowl, a notorious yeti, prowls outside. The cave holds more than danger from the beasts. Within it stands the Flame of Uzel, an arcane brazier left by the human mage Helcular. Before his death, Helcular meant to use the pyre in a dark ritual to become a lich. Its foul warmth once drew Frostmaw, a massive predator, from the frozen wastes."
     },
     "subzone:gurubashi-arena": {
       "1": [
@@ -4111,9 +4111,9 @@
     "subzone:ironforge": {
       "1": [
         {
-          "duration": 85.21142857142857,
-          "file": "Audio/Transport/full_subzone_ironforge-d028a4e076bdf2a5f355/1-0000.mp3",
-          "sha256": "d6e6df215b5cf085419c51a0bac0d2e1a3c152724364c6671c9af239728a09ed",
+          "duration": 71.60163265306123,
+          "file": "Audio/Transport/full_subzone_ironforge-02543c3444bfdff189c2/1-0000.mp3",
+          "sha256": "ce595f236e68dc0c0ebda75d7bb799d6d2437c9077673fd4e86938b7faf83bf9",
           "start": 0
         }
       ],
@@ -4124,15 +4124,15 @@
           "1"
         ]
       },
-      "fullHash": "968079",
-      "generation": "d74df39a8cf03c8c6a84",
-      "hash": "968079",
+      "fullHash": "ee2d26",
+      "generation": "74715e2d9476abd1bc1c",
+      "hash": "ee2d26",
       "source": {
-        "duration": 85.18525,
+        "duration": 71.601633,
         "file": null,
-        "sha256": "d028a4e076bdf2a5f35535eb75a585145259a9cf8dccd3f5bf4e3a99444730ec"
+        "sha256": "02543c3444bfdff189c20a92e882057099a1780bbf288f0794d5b02c9439b2ae"
       },
-      "text": "Ironforge. Ironforge is the underground capital city of the dwarves, excavated deep into the stone of Ironforge Mountain within Dun Morogh. Centered around the roaring Great Forge, it serves as the political and mercantile anchor of the Kingdom of Khaz Modan and a bulwark of the Alliance. Carved into the subterranean depths of Ironforge Mountain, the city is arranged in concentric stone rings radiating out from the monumental Great Forge. Originally founded millenia ago after the dwarves awakened and migrated from Uldaman, it has weathered ages of history, including the ancient War of the Three Hammers that left the Bronzebeard clan in sole control. Powered by cascading torrents of molten magma and fortified behind massive stone gates, the cavern city is equal parts industrial powerhouse and impenetrable bastion. Beyond dwarven craftsmen and warriors, its halls also host a substantial population of exiled gnomes following the recent fall of Gnomeregan. In 25 ADP, Ironforge stands as perhaps the busiest center of commerce and industry across the Alliance. King Magni Bronzebeard presides over Khaz Modan from the High Seat, while dwarven prospectors, miners, and engineers work in concert with gnome refugees settled in Tinker Town. The subterranean Deeprun Tram establishes an unbroken, high-speed transit line beneath the mountains directly to Stormwind City, keeping both capitals tightly linked through trade, troop movements, and mutual defense."
+      "text": "Ironforge. Ironforge's Great Forge burns beneath the mountain, at the heart of dwarven rule and Alliance trade. Deep inside Ironforge Mountain in Dun Morogh, the city is the political and mercantile anchor of Khaz Modan and a bulwark of the Alliance. Ironforge fills the deep halls of Ironforge Mountain, its stone rings circling the Great Forge. The dwarves founded the city millennia ago, after awakening and migrating from Uldaman. It has weathered ages of history, including the ancient War of the Three Hammers, which left the Bronzebeard clan in sole control. Natural magma pours through the mountain to power the city, while massive stone gates guard its halls. Dwarven craftsmen and warriors share them with many exiled gnomes, who came after the recent fall of Gnomeregan. Ironforge is perhaps the Alliance's busiest center of commerce and industry. King Magni Bronzebeard rules Khaz Modan from the High Seat, while dwarven prospectors, miners, and engineers work alongside gnome refugees in Tinker Town. The Deeprun Tram runs beneath the mountains to Stormwind City, carrying trade and troops at high speed and keeping the capitals linked in mutual defense."
     },
     "subzone:ironstone-camp": {
       "1": [
@@ -4709,9 +4709,9 @@
     "subzone:launch-bay": {
       "1": [
         {
-          "duration": 58.07020408163265,
-          "file": "Audio/Transport/full_subzone_launch-bay-02be1ac269c8a1aca9b7/1-0000.mp3",
-          "sha256": "8ffa4a1a7d933dd8e337a271fe3913bc615cb7ef25d7638f4a37f78d5b8e82ca",
+          "duration": 49.76326530612245,
+          "file": "Audio/Transport/full_subzone_launch-bay-ff7ad10c81de7aca9ddd/1-0000.mp3",
+          "sha256": "dc3bed1ded38e18e3b86fd95b752b156f3627b80f9dc02053726209afd2308dd",
           "start": 0
         }
       ],
@@ -4722,15 +4722,15 @@
           "1"
         ]
       },
-      "fullHash": "d767c9",
-      "generation": "5a538b4787cfdd12f427",
-      "hash": "d767c9",
+      "fullHash": "f64f3d",
+      "generation": "1f1436ee8d3dd8c70de9",
+      "hash": "f64f3d",
       "source": {
-        "duration": 58.044063,
+        "duration": 49.789388,
         "file": null,
-        "sha256": "02be1ac269c8a1aca9b75f9a13ed08ebe54f027e54e50f3e93b7528c1786524b"
+        "sha256": "ff7ad10c81de7aca9dddadb3c362a08d0d3e7c74c51be1d0ecf34c3b920b2827"
       },
-      "text": "Launch Bay. The Launch Bay is a subterranean airfield and hangar tucked within the depths of Gnomeregan, located just beyond the Hall of Gears. Once the staging ground for gnomish flying machines and bombers, it has fallen completely under the control of hostile leper gnomes and corrupted mechanical contraptions. Serving as the primary hangar for Gnomeregan's aerial fleet, the Launch Bay is split across two tiers. Its central platform, reached by ramps from the upper walkway, still houses parked gnomish flying machines and heavy bombers that never made it out before the city was evacuated. Instead of skilled pilots, the flight decks are now crawling with crazed leper gnomes who maintain and guard the idling war machines. Beyond its military role, the Launch Bay serves as a vital junction within the complex. Ramps from its southeastern corridor descend into the Engineering Labs, while a southern passage on the lower deck is choked with invading Dark Iron dwarves. That southern tunnel provides a perilous path toward the heart of the city at Tinkers' Court."
+      "text": "Launch Bay. Hostile leper gnomes and corrupted machines hold Launch Bay, deep in Gnomeregan beyond the Hall of Gears. The underground airfield once served gnomish flying machines and bombers; now the city’s former hangar is under enemy control. Launch Bay’s two tiers once housed Gnomeregan’s aerial fleet. Ramps from the upper walkway lead to a central platform where flying machines and heavy bombers remain parked, left behind before the city was evacuated. Crazed leper gnomes now roam the flight decks, maintaining and guarding the idle war machines in place of skilled pilots. Launch Bay also joins several parts of the complex. Ramps from its southeastern corridor descend into the Engineering Labs. On the lower deck, invading Dark Iron dwarves choke the southern passage. That tunnel offers a perilous route toward Tinkers' Court, deep in the city."
     },
     "subzone:lethlor-ravine": {
       "1": [
@@ -4813,9 +4813,9 @@
     "subzone:loading-room": {
       "1": [
         {
-          "duration": 44.87836734693878,
-          "file": "Audio/Transport/full_subzone_loading-room-8172451f85b86658eec3/1-0000.mp3",
-          "sha256": "464de4663319896276b747f00ff4f5be0be7d31e41e5e1a599e972bd35509233",
+          "duration": 40.568163265306126,
+          "file": "Audio/Transport/full_subzone_loading-room-0bbe698af0e939212660/1-0000.mp3",
+          "sha256": "e50a5fd757b7c929c38c586b115f651beaa9e5fdf635d5658bbcda9e6569c8e1",
           "start": 0
         }
       ],
@@ -4826,15 +4826,15 @@
           "1"
         ]
       },
-      "fullHash": "1de187",
-      "generation": "0f3fb142200eeb351178",
-      "hash": "1de187",
+      "fullHash": "33a42e",
+      "generation": "53ecaec0a2a2513beee4",
+      "hash": "33a42e",
       "source": {
-        "duration": 44.852188,
+        "duration": 40.568163,
         "file": null,
-        "sha256": "8172451f85b86658eec3fb5164d8fccc2d33b56bc857aaeddbcf5eef10a1d37a"
+        "sha256": "0bbe698af0e939212660ba4179298fe8f701eb725d0b92e5efa78281fbc4ea6b"
       },
-      "text": "Loading Room. The Loading Room is an industrial staging chamber inside Gnomeregan's sprawling mechanical complex. In the current era, this subterranean staging area lies deep within the corrupted fallen capital, dangerously close to rogue constructs such as Techbot. Before the fall of Gnomeregan, the Loading Room functioned as a bustling transit point and cargo staging bay linked to the subterranean transit networks of the tinker capital. Today, like the rest of the ruined city, it has succumbed to chaos. Radioactive fallout, invading troggs, and malfunctioning machinery have rendered the area extremely perilous. The rogue mechanized construct Techbot guards the vicinity, posing a severe threat to any gnome survivors or daring Alliance reclaimers attempting to secure the perimeter."
+      "text": "Loading Room. In Gnomeregan's depths, the Loading Room is a dangerous place to pass through. The ruined chamber once staged cargo for the city's transit networks, but radioactive fallout and rogue machinery now threaten anyone who enters. The Loading Room once handled cargo for Gnomeregan's underground transit network. Before the city fell, goods passed through its staging bay on their way across the tinker capital. Now the room is caught in the ruin that has overtaken Gnomeregan. Radioactive fallout, invading troggs, and failing machinery make the area perilous. Techbot, a rogue mechanized construct, guards the vicinity. Gnome survivors and Alliance reclaimers who try to secure the perimeter must face that danger."
     },
     "subzone:lordamere-internment-camp": {
       "1": [
@@ -4865,9 +4865,9 @@
     "subzone:lost-fleet": {
       "1": [
         {
-          "duration": 44.64326530612245,
-          "file": "Audio/Transport/full_subzone_lost-fleet-5754dc93cbd1a8314e4f/1-0000.mp3",
-          "sha256": "13a39d87e04b84323ce0d721a1ab44bf262720170bf23e788f6d78a906299a84",
+          "duration": 35.056326530612246,
+          "file": "Audio/Transport/full_subzone_lost-fleet-93233d22ee5c96231ae7/1-0000.mp3",
+          "sha256": "f9a536805e7297b26112f0c1180cdee832e8968ce8f9fd685e53a1af28094a56",
           "start": 0
         }
       ],
@@ -4878,15 +4878,15 @@
           "1"
         ]
       },
-      "fullHash": "124518",
-      "generation": "0762d685fe56ba9feed5",
-      "hash": "124518",
+      "fullHash": "16b431",
+      "generation": "d71bbd19dee31dacd08f",
+      "hash": "16b431",
       "source": {
-        "duration": 44.617125,
+        "duration": 35.056327,
         "file": null,
-        "sha256": "5754dc93cbd1a8314e4f506c36000fc28826c3c2f4ad8c29e0c9899706ab33d8"
+        "sha256": "93233d22ee5c96231ae790c8fefd41d80fef3dfb80b3e1b9e36e5a055f3a5e2f"
       },
-      "text": "Lost Fleet. The Lost Fleet consists of the shattered wooden hulks of the Kul Tiras Third Fleet, sunken off the northern coast of the Wetlands along Baradin Bay. Decimated during the Second War by Dragonmaw-enslaved red dragons, the wreckage is now haunted by restless, cursed undead sailors bound to the wreckage by a mysterious curse. During the Second War, on its last voyage, the Kul Tiras Third Fleet was ambushed from above by red dragons enslaved by the Dragonmaw clan. Sheets of dragonflame quickly engulfed the fleet, sending proud vessels like the Wave Mistress and the Intrepid crashing onto the shallows and reefs of northern Bluegill Marsh. Almost the entire contingent drowned or burned, with First Mate Fitzsimmons standing as the lone living survivor of the disaster."
+      "text": "Lost Fleet. The Lost Fleet lies broken off the Wetlands’ northern coast, along Baradin Bay. The Kul Tiras Third Fleet was destroyed in the Second War by red dragons enslaved by the Dragonmaw clan, and its wrecks are haunted by cursed undead sailors. On its last voyage in the Second War, the Kul Tiras Third Fleet came under attack from red dragons enslaved by the Dragonmaw clan. Dragonflame engulfed its ships, and the Wave Mistress and the Intrepid crashed onto the shallows and reefs of northern Bluegill Marsh. Almost the entire contingent drowned or burned. First Mate Fitzsimmons was the lone living survivor."
     },
     "subzone:lost-point": {
       "1": [
@@ -5229,9 +5229,9 @@
     "subzone:menethil-bay": {
       "1": [
         {
-          "duration": 55.58857142857143,
-          "file": "Audio/Transport/full_subzone_menethil-bay-90b15b0b0822d045067f/1-0000.mp3",
-          "sha256": "89d0fcb0d9dc6f31fea4234fea7ee36e1c2f1d548766dfa1a6d85fceee05c678",
+          "duration": 42.971428571428575,
+          "file": "Audio/Transport/full_subzone_menethil-bay-440f90fdbe13789745af/1-0000.mp3",
+          "sha256": "f8eb38e49b6e8aea96152fcbb0044846979a1519fcaf34caff40f1f3da6c0a22",
           "start": 0
         }
       ],
@@ -5242,22 +5242,22 @@
           "1"
         ]
       },
-      "fullHash": "7b9729",
-      "generation": "78dd0e43507b904bf088",
-      "hash": "7b9729",
+      "fullHash": "409c20",
+      "generation": "824fdbcb3ab570ac0b5d",
+      "hash": "409c20",
       "source": {
-        "duration": 55.562438,
+        "duration": 42.971429,
         "file": null,
-        "sha256": "90b15b0b0822d045067f587f810891cf11a91ed80e853e2a6920a53d95375276"
+        "sha256": "440f90fdbe13789745af78f7daa9418ca43c5487be43d48eb31f68cd45f12181"
       },
-      "text": "Menethil Bay. Menethil Bay is the sheltered body of water along the western coast of the Wetlands, nestled between Menethil Harbor and the steep northern cliffs of Dun Morogh. Opening outward into the wider Baradin Bay, these waters are home to aggressive crocolisks and the remains of sunken vessels. It serves as the primary maritime approach for Alliance traffic journeying between the Eastern Kingdoms and Kalimdor. Part of the larger Baradin Bay along the Great Sea, Menethil Bay forms a natural inlet bordered by Menethil Harbor to the north, Black Channel Marsh to the east, and the towering coastal bluffs of Dun Morogh to the south. Its shallow margins and marshy shores crawl with crocolisks of various ages and sizes, making the shallows treacherous for unguided travelers even though the bay serves as the lifeblood of Alliance maritime travel. Near the mouth of the bay lies the ruined wreckage of the Flying Osprey, a silent reminder of the dangers lurking beneath the surface."
+      "text": "Menethil Bay. Menethil Bay carries Alliance traffic along the western coast of the Wetlands. The sheltered waters open into Baradin Bay, with Menethil Harbor to the north and Dun Morogh's steep cliffs to the south. Crocolisks prowl the shallows, and sunken vessels lie below. Menethil Bay opens from the Wetlands into the Great Sea as part of Baradin Bay. Menethil Harbor lies to the north, Black Channel Marsh to the east, and Dun Morogh's coastal bluffs to the south. Crocolisks of many sizes prowl the shallow margins and marshy shores, making the water dangerous for travelers without a guide. The bay carries Alliance sea traffic, and near its mouth rests the ruined Flying Osprey, a warning of the wreckage beneath the surface."
     },
     "subzone:menethil-keep": {
       "1": [
         {
-          "duration": 42.00489795918367,
-          "file": "Audio/Transport/full_subzone_menethil-keep-e9d07f0a79b18f3f6949/1-0000.mp3",
-          "sha256": "ded16b6009be377414bcfdb6173d6fd9a9bc1c79a8668059608cca351eff13ac",
+          "duration": 32.41795918367347,
+          "file": "Audio/Transport/full_subzone_menethil-keep-804ce5c86e7b62cb7309/1-0000.mp3",
+          "sha256": "e4e4c7b467a3dc0da72c45f4eebf6d5e9732e857c951ed428c98d67267c4db08",
           "start": 0
         }
       ],
@@ -5268,15 +5268,15 @@
           "1"
         ]
       },
-      "fullHash": "646a33",
-      "generation": "e059e390a572f22e70cc",
-      "hash": "646a33",
+      "fullHash": "9aa656",
+      "generation": "ae1866277b29612eab22",
+      "hash": "9aa656",
       "source": {
-        "duration": 42.03102,
+        "duration": 32.417959,
         "file": null,
-        "sha256": "e9d07f0a79b18f3f694960b8158513ce3633ed353f809dd48e4ff81f55f152f0"
+        "sha256": "804ce5c86e7b62cb7309b43e07c7ebc71e8edc4c4f7a6efd8fbadef2f72828e6"
       },
-      "text": "Menethil Keep. Menethil Keep is the stone stronghold dominating the skyline of Menethil Harbor in the Wetlands. Marked by four sturdy watchtowers, it serves as the administrative heart and defensive bastion of the Alliance port, housing the local militia commander, Captain Stoutfist. Rising above the wooden docks and soggy marshes of the Wetlands, Menethil Keep is the central military strongpoint of Menethil Harbor. With four stone watchtowers gazing out over the town and the bay, the fortress offers a commanding view against seaward raiders, renegades, and the encroaching swamp beasts. Inside, Captain Stoutfist oversees the defense of the port, directing the town militia and organizing patrols to safeguard Alliance interests throughout the region."
+      "text": "Menethil Keep. Menethil Keep commands the skyline above Menethil Harbor in the Wetlands. Four watchtowers guard the Alliance port, and Captain Stoutfist leads its militia from within the stone walls. Menethil Keep rises over Menethil Harbor’s wooden docks and the Wetlands marshes. Four stone watchtowers overlook the town and bay, watching for seaward raiders, renegades, and swamp beasts pushing into the area. Within the fortress, Captain Stoutfist directs the town militia and organizes patrols to defend the port and protect Alliance interests across the region."
     },
     "subzone:mirage-flats": {
       "1": [
@@ -5463,9 +5463,9 @@
     "subzone:moonshrine-sanctum": {
       "1": [
         {
-          "duration": 47.412244897959184,
-          "file": "Audio/Transport/full_subzone_moonshrine-sanctum-fa8de7e16e60a0fd2016/1-0000.mp3",
-          "sha256": "9db3c60bd462929b11bcbb04935f7d4002543174d572ac66961cf72c01addd93",
+          "duration": 37.27673469387755,
+          "file": "Audio/Transport/full_subzone_moonshrine-sanctum-8800aac4c26f13605b94/1-0000.mp3",
+          "sha256": "e281921dd48ed41301b5d999b29ee95a76cfaa6eb94d7d85b5fd42812cb675f5",
           "start": 0
         }
       ],
@@ -5476,15 +5476,15 @@
           "1"
         ]
       },
-      "fullHash": "1fb9d1",
-      "generation": "103ed9ba87f8bbf56b1e",
-      "hash": "1fb9d1",
+      "fullHash": "030c67",
+      "generation": "67d852e07f8f71399ef7",
+      "hash": "030c67",
       "source": {
-        "duration": 47.386063,
+        "duration": 37.302857,
         "file": null,
-        "sha256": "fa8de7e16e60a0fd201682d440a12b48beb4b81f5b65b4a6c8e731dbbd6d67f5"
+        "sha256": "8800aac4c26f13605b9446b05009179f1dfe0f666393efdf465c943d71a59ed6"
       },
-      "text": "Moonshrine Sanctum. Moonshrine Sanctum is an ancient elven shrine deep within Blackfathom Deeps, now serving as the inner redoubt for the Twilight's Hammer cult. Presided over by Twilight Lord Kelris, the chamber houses a pristine monument to Queen Azshara and directly guards the sealed entrance to Aku'mai's lair. Situated just beyond the flooded Moonshrine Ruins, the Moonshrine Sanctum represents the central hub of cultist activity inside Blackfathom Deeps. Though originally built millennia ago by night elves to honor the moon and their rulers, the hall is now defiled by the Twilight's Hammer. Interestingly, the cultists have carefully maintained the towering effigy of Queen Azshara, seemingly untroubled by its subject. Under the watchful gaze of Twilight Lord Kelris, dark rituals are chanted day and night beneath the cavernous stone ceiling."
+      "text": "Moonshrine Sanctum. Within Blackfathom Deeps, Twilight's Hammer gathers beneath Queen Azshara's statue. Twilight Lord Kelris watches over the ancient shrine, which guards the sealed way to Aku'mai's lair. Past the flooded Moonshrine Ruins, cultists gather in the Moonshrine Sanctum, the heart of Twilight's Hammer activity inside Blackfathom Deeps. Night elves built the hall millennia ago to honor the moon and their rulers. Now the cult has defiled it, yet carefully maintains the towering statue of Queen Azshara. Beneath the cavernous stone ceiling, Twilight Lord Kelris watches as the cultists chant dark rituals day and night."
     },
     "subzone:morgan-s-plot": {
       "1": [
@@ -5593,9 +5593,9 @@
     "subzone:mosshide-fen": {
       "1": [
         {
-          "duration": 37.48571428571429,
-          "file": "Audio/Transport/full_subzone_mosshide-fen-240e15ee8d2887ff17fd/1-0000.mp3",
-          "sha256": "07b1e35b9ebdc55b6648a2341894bf5f9a90b39732d891d69530334b7fef29e8",
+          "duration": 23.954285714285714,
+          "file": "Audio/Transport/full_subzone_mosshide-fen-104ea63840e266281378/1-0000.mp3",
+          "sha256": "26896e42ffb0439328d41c427af305102c03a1a6b4c85dc6ff2f986667292f1a",
           "start": 0
         }
       ],
@@ -5606,15 +5606,15 @@
           "1"
         ]
       },
-      "fullHash": "8ad353",
-      "generation": "305b170676a8dedc5da0",
-      "hash": "8ad353",
+      "fullHash": "6db38d",
+      "generation": "deccb16e13b920f78464",
+      "hash": "6db38d",
       "source": {
-        "duration": 37.459563,
+        "duration": 23.954286,
         "file": null,
-        "sha256": "240e15ee8d2887ff17fdbfdf0b61d3f3055de07d167ad2d13e287a08fb3e89d9"
+        "sha256": "104ea63840e26628137869373f278851e34e10c9a6d272d6b7cb4895a58a965b"
       },
-      "text": "Mosshide Fen. Mosshide Fen is a swampy, treacherous tract in the eastern Wetlands overrun by the Mosshide gnoll tribe. Dotted with primitive encampments, it is one of the most perilous regions for travelers venturing off the main trade roads. Sprawling across the murky eastern reaches of the Wetlands, Mosshide Fen serves as the primary domain of the aggressive Mosshide gnolls. The swamp here is dense and tangled, dotted with rough lean-tos and bone-strewn camps. Under the vicious command of pack leaders like Gnawbone, the gnolls fiercely guard their muddy claims, readily ambushing and devouring any travelers, scouts, or prospectors foolish enough to wander into their hunting grounds."
+      "text": "Mosshide Fen. In eastern Wetlands, Mosshide Fen is held by the Mosshide gnolls. Its primitive camps lie far from the main trade roads, where travelers face danger. Mosshide gnolls hold the tangled marsh of eastern Wetlands. Rough lean-tos and bone-strewn camps mark their territory. Gnawbone and other pack leaders command the tribe, which ambushes and devours travelers, scouts, and prospectors who enter its hunting grounds."
     },
     "subzone:nat-s-landing": {
       "1": [
@@ -5697,9 +5697,9 @@
     "subzone:nethander-stead": {
       "1": [
         {
-          "duration": 47.6995918367347,
-          "file": "Audio/Transport/full_subzone_nethander-stead-ae66146a42d785a5eea3/1-0000.mp3",
-          "sha256": "1f107ea56db2f778965742877e27e45f6ab5ccccd9dff899fb159126b4538f65",
+          "duration": 32.57469387755102,
+          "file": "Audio/Transport/full_subzone_nethander-stead-3c9a10c7678a6e0f7512/1-0000.mp3",
+          "sha256": "f9ce7c5481268901b6f5de4442389044f41318a7ea363234f74f28a8480e00e6",
           "start": 0
         }
       ],
@@ -5710,15 +5710,15 @@
           "1"
         ]
       },
-      "fullHash": "fd1a45",
-      "generation": "b3319001346998ed2380",
-      "hash": "fd1a45",
+      "fullHash": "6f58c6",
+      "generation": "25df509565f3e619d8ab",
+      "hash": "6f58c6",
       "source": {
-        "duration": 47.699592,
+        "duration": 32.574694,
         "file": null,
-        "sha256": "ae66146a42d785a5eea31a6c133279c6e75ce4af3afc438152828c2cc80e23e2"
+        "sha256": "3c9a10c7678a6e0f7512b6eadfe31e792dc9babdb588c8e3da3ca55e6d3f796f"
       },
-      "text": "Nethander Stead. Nethander Stead is an abandoned farmstead lying along the road just east of Southshore in the Hillsbrad Foothills. Once a working human farm, it has fallen into ruin and is completely overrun by the Mudsnout gnoll pack. The fields are overgrown with giant white mushrooms known as Mudsnout Blossoms, attracting the interest of Forsaken alchemists. Situated within sight of Southshore's eastern borders, Nethander Stead was once an active piece of the region's agricultural belt. Like much of the eastern foothills, the farm was abandoned as regional security eroded and wild packs moved in. Today, it serves as the sole enclave of the Mudsnout gnolls in the foothills. The brutes dwell among the ruined fences and outbuildings, aggressively driving off any travelers who wander too close to their claimed territory."
+      "text": "Nethander Stead. Nethander Stead lies abandoned along the road east of Southshore, overrun by Mudsnout gnolls. Once a human farm, its fields now hold giant white Mudsnout Blossoms that draw Forsaken alchemists. At Nethander Stead, ruined fences and outbuildings stand within sight of Southshore's eastern borders. The farm once formed part of Hillsbrad's working fields, but it was abandoned as security weakened and wild packs moved in. Now the Mudsnout gnolls make their only home in the foothills here. They drive off travelers who come too close to their territory."
     },
     "subzone:nethergarde-keep": {
       "1": [
@@ -6373,9 +6373,9 @@
     "subzone:raptor-ridge": {
       "1": [
         {
-          "duration": 45.714285714285715,
-          "file": "Audio/Transport/full_subzone_raptor-ridge-8649b9d210207b2a40cf/1-0000.mp3",
-          "sha256": "d82e4ca7237b98a53eda9f9f55df4432c8d2640cc8b821d70229df8c28d17795",
+          "duration": 29.466122448979593,
+          "file": "Audio/Transport/full_subzone_raptor-ridge-97546b390c0e6474c851/1-0000.mp3",
+          "sha256": "9593b0b2caade07833aa1ae1213e1e9f7b9510b498c3f0b75f91e30ebd9c4854",
           "start": 0
         }
       ],
@@ -6386,15 +6386,15 @@
           "1"
         ]
       },
-      "fullHash": "f9911c",
-      "generation": "ce591b3bfcfa98f48492",
-      "hash": "f9911c",
+      "fullHash": "e86750",
+      "generation": "92b7e20783d33d39556d",
+      "hash": "e86750",
       "source": {
-        "duration": 45.688125,
+        "duration": 29.466122,
         "file": null,
-        "sha256": "8649b9d210207b2a40cf74fd4b4b992919bddb6dde1e0278caebde389572f52e"
+        "sha256": "97546b390c0e6474c8518bf928517a84a81a0b89f7dfafb9828b71f6c3c1ef0b"
       },
-      "text": "Raptor Ridge. Raptor Ridge is an elevated, rugged expanse in the eastern Wetlands, sitting northwest of the fortified Dragonmaw Gates. It serves as the primary hunting and nesting grounds for packs of ferocious Razormaw raptors, overseen by a particularly vicious matriarch deep within its caverns. Rising above the sodden marshes of the eastern Wetlands, Raptor Ridge is among the most perilous wilderness areas in the region. Vicious Razormaw raptors prowl its crags and rocky trails in large packs, making travel near the foothills of Khaz Modan hazardous for wanderers. At the heart of the ridge lies a brooding cavern dominated by the Razormaw Matriarch, whose aggressive brood aggressively defends their nests against any encroaching predators or foolish travelers wandering too close to the Dragonmaw Gates."
+      "text": "Raptor Ridge. Raptor Ridge rises above the eastern Wetlands, northwest of the Dragonmaw Gates. Razormaw raptors hunt and nest among its crags, with a vicious matriarch deep in the caverns. Razormaw raptors hunt in packs across Raptor Ridge, where rocky trails climb above the eastern Wetlands. Travelers near the foothills of Khaz Modan risk meeting these predators. In a cavern at the ridge's heart, the Razormaw Matriarch guards her brood and nests from intruders. The Dragonmaw Gates lie close by."
     },
     "subzone:ravaged-twilight-camp": {
       "1": [
@@ -6919,9 +6919,9 @@
     "subzone:saltspray-glen": {
       "1": [
         {
-          "duration": 47.62122448979592,
-          "file": "Audio/Transport/full_subzone_saltspray-glen-7b12cb8fa3d985596724/1-0000.mp3",
-          "sha256": "b9c30edb3c9ef410a7f44f60caf3bd7f79d46c4df51d8a145870379dd2437a10",
+          "duration": 36.884897959183675,
+          "file": "Audio/Transport/full_subzone_saltspray-glen-dd19f648ef44b230e222/1-0000.mp3",
+          "sha256": "4c51a04f25f6d863d9bcf3048d532f2f87cadf108236ab5bc38cc615b879be7b",
           "start": 0
         }
       ],
@@ -6932,15 +6932,15 @@
           "1"
         ]
       },
-      "fullHash": "c5bf78",
-      "generation": "ef006eb842236f87f245",
-      "hash": "c5bf78",
+      "fullHash": "ba14e4",
+      "generation": "d6b31722a98fc214706f",
+      "hash": "ba14e4",
       "source": {
-        "duration": 47.595063,
+        "duration": 36.91102,
         "file": null,
-        "sha256": "7b12cb8fa3d985596724b657dbd727fe408f19b14c4d47ee9bb97685af9d762f"
+        "sha256": "dd19f648ef44b230e2224a8f45d1c5f461e05eea360d264755757a30701713fe"
       },
-      "text": "Saltspray Glen. Saltspray Glen is a windswept expanse in the northwestern Wetlands hugging the shores of Baradin Bay. Strong coastal gales regularly fling briny seawater across the mossy lowland, which is overrun by aggressive wild raptors. It forms a treacherous natural corridor between neighboring murloc-infested marshes and ancient dwarven ruins. Tucked away in the far northwestern reach of the Wetlands, Saltspray Glen takes its name from the sea spray driven inland off Baradin Bay whenever coastal gales kick up. Bordered by the murloc-haunted waters of Bluegill Marsh to the south and the quiet bluffs of Ironbeard's Tomb to the east, the glen offers little comfort to passing travelers. Packs of cunning wild raptors nest throughout the marshy grass, hunting along the brackish flats alongside their kin from nearby Raptor Ridge and Black Channel Marsh."
+      "text": "Saltspray Glen. Along Baradin Bay, salty spray sweeps across Saltspray Glen, where wild raptors roam the lowland. The glen lies between murloc waters and ancient dwarven ruins. In the Wetlands' far northwest, salty spray blows inland across Saltspray Glen from Baradin Bay. Bluegill Marsh and its murloc-haunted waters lie to the south, while the quiet bluffs of Ironbeard's Tomb rise to the east. Cunning wild raptors nest through the marshy grass and hunt across the brackish flats. Their kin range nearby at Raptor Ridge and Black Channel Marsh, leaving little comfort for travelers passing through."
     },
     "subzone:salty-sailor-tavern": {
       "1": [
@@ -7231,9 +7231,9 @@
     "subzone:scarlet-monastery": {
       "1": [
         {
-          "duration": 78.52408163265306,
-          "file": "Audio/Transport/full_subzone_scarlet-monastery-312c5e0e31148a008be7/1-0000.mp3",
-          "sha256": "d7a93809886039a87b9e106adce1d2b66fd9217f0f4d65a74476d2683857e3f3",
+          "duration": 71.26204081632653,
+          "file": "Audio/Transport/full_subzone_scarlet-monastery-a3c32f996ad552ef75a0/1-0000.mp3",
+          "sha256": "a0b881b9974a52377fa1491f41b0f59b3227be517bb1d8caade0be3be74534b5",
           "start": 0
         }
       ],
@@ -7244,15 +7244,15 @@
           "1"
         ]
       },
-      "fullHash": "a08ff6",
-      "generation": "bf39896403b6e935b913",
-      "hash": "a08ff6",
+      "fullHash": "c13340",
+      "generation": "4698cdc48187d4ba3230",
+      "hash": "c13340",
       "source": {
-        "duration": 78.497938,
+        "duration": 71.288163,
         "file": null,
-        "sha256": "312c5e0e31148a008be7ef8faae967fd9ce75d42a3028d11a51db7635b090209"
+        "sha256": "a3c32f996ad552ef75a0dc52f456c0d10c03db30064a573c5bcb008e357e3495"
       },
-      "text": "Scarlet Monastery. Perched in the northeastern hills of Tirisfal Glades, the Scarlet Monastery was once a peaceful center of scholarship and worship for the Church of the Holy Light. In the wake of Lordaeron's fall, it has become a heavily fortified redoubt for the fanatical Scarlet Crusade. Anyone approaching without red colors is treated as an infected carrier of the plague and executed on sight. Before the Third War, this complex was a proud bastion of Lordaeron's priesthood, serving as a vital center for theological study, sacred archives, and paladin training. When the Kingdom of Lordaeron fell to the Scourge, surviving defenders held the site against the undead. As they devolved into the zealous Scarlet Crusade, they fortified the cloister, turning its peaceful libraries, gardens, and cathedral into an armed citadel. Divided into four distinct wings—a defiled graveyard, an expansive library, an armory, and a grand cathedral—the Monastery now houses a massive garrison commanded by Scarlet Commander Mograine and High Inquisitor Whitemane. The Crusaders here view all outsiders, whether living or undead, Alliance or Horde, as plague-bearers. While the Forsaken seek to eliminate the garrison threatening their very doorstep, Alliance leadership increasingly views the Crusade's violent extremism as a dangerous perversion of the Light."
+      "text": "Scarlet Monastery. Scarlet Monastery now shelters the fanatical Scarlet Crusade in Tirisfal Glades. Once a peaceful center of scholarship and worship for the Church of the Holy Light, it has become a fortified redoubt. Anyone approaching without red colors is treated as a carrier of the plague and executed on sight. Before the Third War, the Scarlet Monastery was a proud center of Lordaeron's priesthood. Its halls held theological studies and sacred archives, and paladins trained there. When the Scourge brought down the kingdom, surviving defenders held the site against the undead. Those survivors became the zealous Scarlet Crusade and fortified the cloister. Libraries, gardens, and the cathedral became parts of an armed stronghold. Four wings make up the Scarlet Monastery: a defiled graveyard, an expansive library, an armory, and a grand cathedral. Scarlet Commander Mograine and High Inquisitor Whitemane command its massive garrison. The Crusaders see every outsider as a plague-bearer, living or undead, Alliance or Horde. The Forsaken seek to destroy the garrison that threatens their doorstep, while Alliance leaders increasingly see the Crusade's violent extremism as a dangerous perversion of the Light."
     },
     "subzone:scarlet-monastery-armory": {
       "1": [
@@ -7543,9 +7543,9 @@
     "subzone:shadowfang-keep": {
       "1": [
         {
-          "duration": 107.44163265306123,
-          "file": "Audio/Transport/full_subzone_shadowfang-keep-85c443e92b6c5a0479d7/1-0000.mp3",
-          "sha256": "2dce2a484f147b8705664355c273f1a18c3b6e73649d02e7d7b9d8144828edb8",
+          "duration": 93.49224489795918,
+          "file": "Audio/Transport/full_subzone_shadowfang-keep-dac7738ed40dee85e661/1-0000.mp3",
+          "sha256": "c930eba793c6d0bc8ed3070134a1672cd2342ede838c13bf8d7755389b15b285",
           "start": 0
         }
       ],
@@ -7556,15 +7556,15 @@
           "1"
         ]
       },
-      "fullHash": "df0386",
-      "generation": "6723882b8b74e502c936",
-      "hash": "df0386",
+      "fullHash": "c0187f",
+      "generation": "04ee9e6d09655e1fcca1",
+      "hash": "c0187f",
       "source": {
-        "duration": 107.4155,
+        "duration": 93.492245,
         "file": null,
-        "sha256": "85c443e92b6c5a0479d7262e1f30e8cd71499f7f46183da1b0b40b021b0fa10e"
+        "sha256": "dac7738ed40dee85e66114219a67d64b56ee74c4a2136205ddbce934f8e020e2"
       },
-      "text": "Shadowfang Keep. Perched on a rugged bluff overlooking Pyrewood Village in southern Silverpine Forest, Shadowfang Keep is the dark lair of the mad Archmage Arugal and his feral worgen. Formerly known as Silverlaine Keep, the fortress fell to ravenous wolf-beasts summoned during the Third War, leaving its ancient halls haunted by the slain nobility and crawling with lupine horrors. Before the Third War, this towering fortress was called Silverlaine Keep, the ancestral seat of Baron Silverlaine and the center of authority for nearby Pyrewood Village. When the Scourge swept through Lordaeron, desperate wizards sought forbidden means to stem the undead tide. Relying on the dimensional research of the Dalaran mage Ur, the Archmage Arugal summoned the extra-dimensional worgen into Azeroth. The savage beasts tore through the Scourge, but quickly spiraled out of control. Rampaging across southern Silverpine, the pack besieged the stronghold, slaughtering Baron Silverlaine, his family, and Commander Springvale's defenders. Guilt and grief shattered Arugal's sanity; rather than flee, he claimed the fortress, renaming it Shadowfang Keep and adopting the monstrous predators as his 'children.' Today, Shadowfang Keep serves as the epicenter of a growing wolf curse that plagues Silverpine Forest. Arugal dwells in the highest observatory, flanked by his ravenous worgen—including the Moonrage and Shadowfang packs—and sinister beasts like his massive pet wolf, Fenrus. Below his sanctum, the restless ghosts of the keep's former lords, such as Baron Silverlaine and Commander Springvale, remain trapped in torment, cursed to endlessly defend the halls they failed to protect in life. From atop these walls, Arugal extends his insidious influence down into Pyrewood Village and the surrounding woodlands, posing a dire threat to the neighboring Forsaken who seek to purge the forest of his madness."
+      "text": "Shadowfang Keep. On a rugged bluff above Pyrewood Village, Shadowfang Keep broods over southern Silverpine Forest. Once Silverlaine Keep, it fell to worgen summoned during the Third War and became the lair of the mad Archmage Arugal, haunted by slain nobles and overrun by wolf-beasts. Before the Third War, Baron Silverlaine ruled nearby Pyrewood Village from his ancestral seat, Silverlaine Keep. When the Scourge swept through Lordaeron, desperate wizards sought forbidden means to stem the undead tide. Drawing on Dalaran mage Ur's dimensional research, Archmage Arugal summoned worgen from beyond this world. The savage beasts tore through the Scourge, then escaped control. They rampaged across southern Silverpine and besieged the keep, killing Baron Silverlaine, his family, and the defenders under Commander Springvale. Guilt and grief broke Arugal's sanity. He claimed the fortress, renamed it Shadowfang Keep, and called the monstrous predators his children. Shadowfang Keep is the heart of a growing wolf curse in Silverpine Forest. Arugal dwells in the highest observatory, surrounded by ravenous worgen of the Moonrage and Shadowfang packs. Sinister beasts also prowl the keep, including his massive pet wolf, Fenrus. Below Arugal's sanctum, the restless ghosts of the keep's former lords and household remain trapped in torment. Baron Silverlaine and Commander Springvale are among them, cursed to defend the halls they failed to protect in life. From the walls, Arugal's influence reaches Pyrewood Village and the surrounding woodlands, threatening the neighboring Forsaken who seek to purge the forest of his madness."
     },
     "subzone:shadowprey-village": {
       "1": [
@@ -7803,9 +7803,9 @@
     "subzone:slaughter-hollow": {
       "1": [
         {
-          "duration": 65.3061224489796,
-          "file": "Audio/Transport/full_subzone_slaughter-hollow-1a67904a8800ea4bd75e/1-0000.mp3",
-          "sha256": "bd33ac95e453f1a4044044edf4f3cdf095c9428a33c222f7078f7edb55de6782",
+          "duration": 47.203265306122454,
+          "file": "Audio/Transport/full_subzone_slaughter-hollow-e4cee64dadedee5a06fe/1-0000.mp3",
+          "sha256": "bd00ee19acd1826f4634437a18d55d30a18dc8718cb30154c3e7e321b7da4c6e",
           "start": 0
         }
       ],
@@ -7816,15 +7816,15 @@
           "1"
         ]
       },
-      "fullHash": "ff4d8b",
-      "generation": "ca351093356efab2e162",
-      "hash": "ff4d8b",
+      "fullHash": "ae4c3b",
+      "generation": "93c66aed9fc6b4092d87",
+      "hash": "ae4c3b",
       "source": {
-        "duration": 65.28,
+        "duration": 47.229388,
         "file": null,
-        "sha256": "1a67904a8800ea4bd75e5caa66dd62dcbed87ec49b6912208a215ade4e6e9f87"
+        "sha256": "e4cee64dadedee5a06fe14dc8aad929aa94e639a63960f2c48716a8cdaed542e"
       },
-      "text": "Slaughter Hollow. Slaughter Hollow is a secluded ogre mound tucked away in the snowy heights of the Alterac Mountains. Controlled by the brutish Crushridge clan, it stands as a rough camp rather than a bustling settlement. Travelers rarely have reason to trespass unless hunting ogres or exploring the frozen mountain passes. Hidden high in the peaks bordering Hillsbrad and Alterac, Slaughter Hollow serves as an encampment for the local Crushridge ogres. Like many ogre mounds scattered across the highlands, it is littered with makeshift bonfires, discarded bones, and crude shelters. While other ogre dens in the mountains see frequent conflicts over territory or stolen supplies, Slaughter Hollow remains largely quiet and bypassed by major military campaigns. Due to its seclusion, the mound occasionally serves as a holding place for unlucky prisoners taken along the mountain trails. Word among travelers tells of an unfortunate gnome named Rizz Loosebolt who has found himself locked in a crude cage here, attempting to barter with anyone passing by. Such unfortunate captives rarely fare well against the appetite of the Crushridge clan."
+      "text": "Slaughter Hollow. In the snowy heights of the Alterac Mountains, Crushridge ogres hold Slaughter Hollow as a secluded camp. Travelers rarely come here except to hunt ogres or cross the frozen passes. Slaughter Hollow shelters the Crushridge ogres high in the peaks between Hillsbrad and Alterac. Makeshift fires, scattered bones, and crude shelters mark the mound. Other ogre dens in the highlands often see fights over territory or stolen supplies, but Slaughter Hollow stays quiet and beyond the reach of major military campaigns. Crushridge ogres sometimes keep prisoners taken along the mountain trails in their secluded mound. Travelers speak of Rizz Loosebolt, an unlucky gnome locked in a crude cage and trying to bargain with anyone who passes. Captives seldom fare well against the clan's appetite."
     },
     "subzone:slither-rock": {
       "1": [
@@ -8037,9 +8037,9 @@
     "subzone:southpoint-tower": {
       "1": [
         {
-          "duration": 63.033469387755105,
-          "file": "Audio/Transport/full_subzone_southpoint-tower-1b6a857a4ea955a960cf/1-0000.mp3",
-          "sha256": "0df593efb6d0220d09fab8b1b4f50ee20f467ad9fd36c1631b6cada7402cd4e5",
+          "duration": 49.76326530612245,
+          "file": "Audio/Transport/full_subzone_southpoint-tower-76adc4d7cb8f7c62b168/1-0000.mp3",
+          "sha256": "28f1e39d4931b8468f8c10376b40b5270f3a92cbfb2a29776e400311b39731af",
           "start": 0
         }
       ],
@@ -8050,15 +8050,15 @@
           "1"
         ]
       },
-      "fullHash": "f806ca",
-      "generation": "1ac86a911287dce73e04",
-      "hash": "f806ca",
+      "fullHash": "05d321",
+      "generation": "1a783a690dac98a79834",
+      "hash": "05d321",
       "source": {
-        "duration": 63.007313,
+        "duration": 49.789388,
         "file": null,
-        "sha256": "1b6a857a4ea955a960cf935a2ffa085b9216cce75f41b6da30a60bfb0d1ae3e2"
+        "sha256": "76adc4d7cb8f7c62b1682b3d2360c69ce10da09e690ec1ee96c5b861c12dccd3"
       },
-      "text": "Southpoint Tower. Southpoint Tower is a ruined Lordaeron scout tower situated at the western border of Hillsbrad Foothills, overlooking the road to Silverpine Forest. Once a human sentry post, the shattered structure is now utilized by Forsaken scouts keeping watch over Alliance movements in the region. Standing just south of the highway linking Silverpine Forest and Hillsbrad Foothills, Southpoint Tower was originally built by the Kingdom of Lordaeron to guard traffic moving between the eastern farmlands and the western woods. Following the Third War and the Scourge's destruction of the kingdom, the stonework fell into ruin. Today, it stands roofless and crumbling, an isolated relic of human dominion in a fractured territory. Despite its collapsed state, the vantage point remains tactically valuable. The Forsaken maintain an outpost here, stationing agents such as Deathstalker Lesh to spy on local Alliance patrols, the nearby human settlements of Hillsbrad Fields, and travelers passing along the primary road. Because of its lonely location right near hostile territory, the tower frequently becomes a flashpoint for skirmishes."
+      "text": "Southpoint Tower. Forsaken scouts watch Alliance movements from Southpoint Tower, near Hillsbrad's western edge. The ruined Lordaeron post overlooks the road into Silverpine Forest. Southpoint Tower overlooks the highway between Silverpine Forest and Hillsbrad Foothills. The Kingdom of Lordaeron built it to guard traffic between the eastern farmlands and the western woods. After the Third War and the Scourge's destruction of the kingdom, the stonework fell into ruin. Now the tower stands roofless and crumbling, a remnant of human rule in fractured lands. Forsaken agents watch Alliance patrols from the ruined tower. Deathstalker Lesh is among those stationed there, keeping an eye on nearby human settlements in Hillsbrad Fields and travelers on the main road. The vantage remains valuable despite the collapsed walls. So close to hostile territory, this lonely post often becomes a flashpoint for skirmishes."
     },
     "subzone:southridge-beach": {
       "1": [
@@ -8089,9 +8089,9 @@
     "subzone:southshore-town-hall": {
       "1": [
         {
-          "duration": 50.15510204081633,
-          "file": "Audio/Transport/full_subzone_southshore-town-hall-a034c6dc4d09169fcaa7/1-0000.mp3",
-          "sha256": "8a01c6f9a92aa63bd050900a0a7bde63b5f37b2c95d739919ab4b62879bd6485",
+          "duration": 36.25795918367347,
+          "file": "Audio/Transport/full_subzone_southshore-town-hall-5fa6877a8ae5af2af11c/1-0000.mp3",
+          "sha256": "7a8e5aaae0b67dbad520d29cdd2e745fa477076143320f37e10d6fdec8e6fcbd",
           "start": 0
         }
       ],
@@ -8102,15 +8102,15 @@
           "1"
         ]
       },
-      "fullHash": "fa8d97",
-      "generation": "6f92ede4d94dd7b81e62",
-      "hash": "fa8d97",
+      "fullHash": "514df3",
+      "generation": "cc53d46334b8bbe48405",
+      "hash": "514df3",
       "source": {
-        "duration": 50.155102,
+        "duration": 36.257959,
         "file": null,
-        "sha256": "a034c6dc4d09169fcaa7c304ee82e3fdace0a5c17beb102e880bf5c17481e83c"
+        "sha256": "5fa6877a8ae5af2af11c3b19dda27960f6bd899256aea2535aed7554eec33822"
       },
-      "text": "Southshore Town Hall. Southshore Town Hall serves as the administrative seat of the southern coast of Hillsbrad Foothills, standing as one of the last functioning centers of Lordaeron's civil authority. From inside, Magistrate Henry Maleb coordinates local defenses and governs the town's surviving populace. The hall is a vital hub for the Alliance as they struggle to maintain a foothold in the plagued north. While much of Lordaeron lies shattered under Scourge corruption and Forsaken expansion, Southshore's town hall maintains the semblance of an intact human government. Magistrate Henry Maleb oversees daily governance from his office here, working alongside officials like Kundric Zanden to secure resources and preserve civic order. In a region surrounded by aggressive undead, Syndicate rogues, and Hillsbrad's fierce border skirmishes, the hall is the nerve center directing the town's survival against constant threats."
+      "text": "Southshore Town Hall. At Southshore Town Hall, Magistrate Henry Maleb directs the town’s affairs and defenses. It remains one of Lordaeron’s last centers of civil authority, while the Alliance struggles to hold ground in the plagued north. Southshore Town Hall keeps human rule alive amid Lordaeron’s ruin. Magistrate Henry Maleb governs from his office, working with officials such as Kundric Zanden to secure supplies and preserve order. Undead press from nearby lands, Syndicate rogues threaten the region, and Hillsbrad’s border sees fierce skirmishes. From the hall, town leaders direct Southshore’s survival against these threats."
     },
     "subzone:southwind-village": {
       "1": [
@@ -8557,9 +8557,9 @@
     "subzone:sundown-marsh": {
       "1": [
         {
-          "duration": 58.12244897959184,
-          "file": "Audio/Transport/full_subzone_sundown-marsh-d358fa3744c60fa0561a/1-0000.mp3",
-          "sha256": "45096e886d41ba0d8c95b7aeaf96b3aacc49da5bbf0c4c6d5b3b4ede5a876b78",
+          "duration": 50.96489795918367,
+          "file": "Audio/Transport/full_subzone_sundown-marsh-586bfa6ef7d58e023694/1-0000.mp3",
+          "sha256": "5126389650142372c5387d85695ebcee19fa9a38f76885731a1d328f4db6b948",
           "start": 0
         }
       ],
@@ -8570,15 +8570,15 @@
           "1"
         ]
       },
-      "fullHash": "c087da",
-      "generation": "be5023642840865d3353",
-      "hash": "c087da",
+      "fullHash": "c7969b",
+      "generation": "a2ee57d6f6f90874faa3",
+      "hash": "c7969b",
       "source": {
-        "duration": 58.096313,
+        "duration": 50.99102,
         "file": null,
-        "sha256": "d358fa3744c60fa0561a52153074b2bd6982c14e0c0ee5d871ea0aa208bb1a59"
+        "sha256": "586bfa6ef7d58e023694745672126593e3c4ac600a8b5f3d20c52f982a3a1dd4"
       },
-      "text": "Sundown Marsh. Sundown Marsh marks the deepest, westernmost reaches of the Wetlands where stagnant waters meet treacherous wildlife. Despite the prowling raptors, oozes, and gnolls, an eccentric pair maintains a solitary homestead along its muddy borders. Sundown Marsh sits tucked into the northwest of the Wetlands, characterized by deep water, thick mud, and a dense population of predators. Giant crocolisks, shifting oozes, roaming raptors, and territorial Mosshide gnolls roam freely through the mist. The hazardous terrain keeps most passing travelers strictly to the main cobblestone road connecting Menethil Harbor to Ironforge, leaving this deep corner largely untamed. Amid the hazards of the marsh stands a lonely stone cottage topped with a churning windmill. There, the gnome Fradd Swiftgear and the dwarf Wenna Silkbeard make an unlikely living scavenging the bog. They peddle curiosities and rare trade recipes recovered from the mire to travelers brave enough to navigate the marsh's aggressive denizens."
+      "text": "Sundown Marsh. In the Wetlands' far west, Sundown Marsh holds deep water, stagnant pools, and dangerous wildlife. An eccentric pair keeps a solitary home along its muddy borders. Sundown Marsh fills the Wetlands' deepest, westernmost reaches, where deep water and thick mud hide a dense population of predators. Giant crocolisks, shifting oozes, roaming raptors, and territorial Mosshide gnolls move through the mist. Most travelers keep to the main cobblestone road between Menethil Harbor and Ironforge, leaving this corner largely untamed. A lonely stone cottage with a churning windmill stands amid the marsh's hazards. The gnome Fradd Swiftgear and the dwarf Wenna Silkbeard make their living scavenging the bog. They sell curiosities and rare trade recipes recovered from the mire to travelers who brave its aggressive denizens."
     },
     "subzone:sunnyglade": {
       "1": [
@@ -9051,9 +9051,9 @@
     "subzone:thelgen-rock": {
       "1": [
         {
-          "duration": 36.8065306122449,
-          "file": "Audio/Transport/full_subzone_thelgen-rock-d1fe289f72b0c8a5de43/1-0000.mp3",
-          "sha256": "39c1f173ae6593f9400eb3a6757138c27b492757d4663a4f6c1e9348e302d4de",
+          "duration": 24.99918367346939,
+          "file": "Audio/Transport/full_subzone_thelgen-rock-244aacf3bfeba2cd3da1/1-0000.mp3",
+          "sha256": "3d67e7bfebffea8509d4943c6b62731bf6d315027d81a030305ddc8bff5fd89b",
           "start": 0
         }
       ],
@@ -9064,15 +9064,15 @@
           "1"
         ]
       },
-      "fullHash": "8e3ed5",
-      "generation": "70b0acd6f49a62c404d5",
-      "hash": "8e3ed5",
+      "fullHash": "efc233",
+      "generation": "0c79ab8440d5950a2939",
+      "hash": "efc233",
       "source": {
-        "duration": 36.780375,
+        "duration": 24.999184,
         "file": null,
-        "sha256": "d1fe289f72b0c8a5de43c865686c46060a251296060b04db05a39fbd3e559d6e"
+        "sha256": "244aacf3bfeba2cd3da16b5dd7cf4a206a44d5e7746961971705662c59ae3a70"
       },
-      "text": "Thelgen Rock. Thelgen Rock is an extensive cavern system cut into the southern mountain wall of the Wetlands. Infested with venomous spiders, it is notorious for harboring rare veins of volatile Incendicite Ore. Nestled against the southern mountains separating the Wetlands from Loch Modan, Thelgen Rock is a deep subterranean cave network overrun by aggressive arachnids. The passages are thick with webs and crawling with poisonous spiders that make entering the caverns extremely hazardous for travelers. Despite the infestation, miners and adventurers brave its depths for the valuable deposits of Incendicite Ore found embedded in the rocky tunnels."
+      "text": "Thelgen Rock. In the southern mountain wall of the Wetlands, Thelgen Rock’s caverns hold volatile Incendicite Ore. Venomous spiders infest the passages. Thelgen Rock cuts deep into the mountains between the Wetlands and Loch Modan. Aggressive spiders fill its web-choked passages, and their venom makes every step dangerous. Miners and adventurers still brave the tunnels for the valuable Incendicite Ore embedded in the rock."
     },
     "subzone:theramore-isle": {
       "1": [
@@ -9233,9 +9233,9 @@
     "subzone:thunder-bluff": {
       "1": [
         {
-          "duration": 86.80489795918368,
-          "file": "Audio/Transport/full_subzone_thunder-bluff-844282846e44e2ae17af/1-0000.mp3",
-          "sha256": "4dfe037ee51fa61c7f25fa16c4b4f43fc6de6d570dc2d160205cbd5227b7ca11",
+          "duration": 69.66857142857143,
+          "file": "Audio/Transport/full_subzone_thunder-bluff-aaec779ea0fe05bfb62d/1-0000.mp3",
+          "sha256": "3f8f9f0360bcbce2016ca916d091564e38dcbf3eca73b44b21553f8aa7960a6f",
           "start": 0
         }
       ],
@@ -9246,15 +9246,15 @@
           "1"
         ]
       },
-      "fullHash": "a10332",
-      "generation": "5c0f4a228b88fede2f93",
-      "hash": "a10332",
+      "fullHash": "b8690f",
+      "generation": "839d445fff4d3ac0e35e",
+      "hash": "b8690f",
       "source": {
-        "duration": 86.77875,
+        "duration": 69.668571,
         "file": null,
-        "sha256": "844282846e44e2ae17af166fe88dd29ee792a3cece7de093f16dfec96d043ed2"
+        "sha256": "aaec779ea0fe05bfb62d9239e2ae5ff7edfcc9334cb3006b54b7b89ca28f8a7b"
       },
-      "text": "Thunder Bluff. Thunder Bluff is the high-perched capital city of the tauren, rising hundreds of feet above the rolling plains of Mulgore. Founded by Cairne Bloodhoof following the Third War, it serves as the united sanctuary and cultural heart for a people who roamed as nomads for generations. For countless generations, the tauren lived as nomadic wanderers across central Kalimdor, constantly beset by brutal centaur raiding parties. That era of flight ended during the Third War, when Cairne Bloodhoof forged a bond of honor with Warchief Thrall and the New Horde. Together, they drove back the centaur menace and claimed the fertile grasslands of Mulgore. Cairne gathered the scattered tribes and established Thunder Bluff atop a series of sweeping, natural stone mesas. Today, the city is connected by dizzying rope bridges and accessed by ingenious wooden elevators, offering both absolute defense and a bustling center of trade and spiritual assembly. While Thunder Bluff stands as a beacon of harmony, its towering heights house diverse factions. Most tribes revere the wisdom of Cairne Bloodhoof, yet dissent quietly simmers among traditionalists such as Magatha Grimtotem and her kin on the Elder Rise. Deep beneath the city's surface lie the subterranean Pools of Vision, where spirit walkers and shaman peer into the ancestors' will. Despite underlying tribal rivalries, Thunder Bluff remains the true spiritual pillar of Kalimdor's Horde, welcoming hunters returning from the Barrens, traveling artisans, and druids communing with the Earth Mother."
+      "text": "Thunder Bluff. On Mulgore’s high mesas, Thunder Bluff shelters the tauren as their capital. Cairne Bloodhoof founded the city after the Third War, bringing a people long scattered across Kalimdor together in a place of refuge and tradition. Thunder Bluff rises above Mulgore, where rope bridges link its stone mesas and wooden elevators carry travelers up from the plains. For generations, the tauren wandered across central Kalimdor, pursued by centaur raiding parties. During the Third War, Cairne Bloodhoof joined with Warchief Thrall and the New Horde. Together, they drove back the centaurs and claimed Mulgore’s fertile grasslands. Cairne gathered the scattered tribes and founded the city atop the mesas, where the heights offered shelter and a place for the tauren to trade and gather in worship. Cairne Bloodhoof’s followers share Thunder Bluff with tauren who hold to other ways. Magatha Grimtotem and her kin dwell on the Elder Rise, while spirit walkers and shaman seek the ancestors’ will at the Pools of Vision beneath the city. Tribal rivalries persist, yet Thunder Bluff remains a spiritual pillar of Kalimdor’s Horde. Hunters return from the Barrens, artisans travel through, and druids come to commune with the Earth Mother."
     },
     "subzone:tidefury-cove": {
       "1": [
@@ -10377,9 +10377,9 @@
     "subzone:workshop-entrance": {
       "1": [
         {
-          "duration": 46.733061224489795,
-          "file": "Audio/Transport/full_subzone_workshop-entrance-183be73e577a37a8fd0e/1-0000.mp3",
-          "sha256": "383838309989970bc4465fa7eee3cc1559e1b5cd67efe091b3b4d3b81a227a34",
+          "duration": 34.716734693877555,
+          "file": "Audio/Transport/full_subzone_workshop-entrance-cdb9f5c56867c7188180/1-0000.mp3",
+          "sha256": "f5591f3912b8f431551ad289bb4565666df3e718a4915d2ddf141380a33151a1",
           "start": 0
         }
       ],
@@ -10390,15 +10390,15 @@
           "1"
         ]
       },
-      "fullHash": "546a49",
-      "generation": "26973a948dd0850d91ca",
-      "hash": "546a49",
+      "fullHash": "2bfbe8",
+      "generation": "600d76d3917cd5c71dbd",
+      "hash": "2bfbe8",
       "source": {
-        "duration": 46.706938,
+        "duration": 34.742857,
         "file": null,
-        "sha256": "183be73e577a37a8fd0e28264a6f75b94aa38ee8d091fe514e9aa22e96e54db9"
+        "sha256": "cdb9f5c56867c7188180e4836abbf8040b8f15de9d5ebc0cb6368d50297ed2ed"
       },
-      "text": "Workshop Entrance. The Workshop Entrance, commonly known as the backdoor to Gnomeregan, is an access portal situated just beyond the Train Depot. It provides seasoned adventurers and engineers an alternative route into the depths of the irradiated city, bypassing the front gates and opening near the Engineering Labs. Located across the cavernous workshop floor just past the Train Depot, the Workshop Entrance offers a direct approach into the industrial heart of Gnomeregan. Flanked on one side by the opening to the Loading Room, this passage cuts straight through to the Engineering Labs, avoiding the fortified entry gates that leper gnomes and troggs contest near the surface. For strike teams attempting to reclaim the underground capital, bypassing the initial perimeter through this side door can prove vital."
+      "text": "Workshop Entrance. Beyond the Train Depot, Workshop Entrance gives a backdoor into Gnomeregan. The route opens near the Engineering Labs and bypasses the front gates, offering another way into the irradiated city. Past the Train Depot, Workshop Entrance crosses the cavernous workshop floor toward the industrial heart of Gnomeregan. The opening to the Loading Room lies on one side. This passage runs straight to the Engineering Labs, avoiding the fortified entry gates near the surface, where leper gnomes and troggs contest the way. For those trying to reclaim the underground capital, this side door bypasses the first perimeter."
     },
     "subzone:writhing-deep": {
       "1": [
@@ -10642,11 +10642,6 @@
       1704,
       2003
     ],
-    "07b1e35b9ebdc55b6648a2341894bf5f9a90b39732d891d69530334b7fef29e8": [
-      233,
-      490,
-      786
-    ],
     "07b700e5dc221a89d6f90b3e142138a5a9745992e86f112933dc80b64f8320a7": [
       397,
       735,
@@ -10685,6 +10680,9 @@
       1929,
       2231
     ],
+    "0c017ca5c60db6e6b7287342c720fd62a5cc3424e19aacfabded1cce21d861d8": [
+      624
+    ],
     "0c763ad064538ba901adfce15464b9e660a75e20918df5ebc70843b0e3eb8e4e": [
       200,
       560,
@@ -10707,6 +10705,9 @@
       2044,
       2300
     ],
+    "0d3e0ebaac7a9d1797856d075349cf8fb50e9c0dcfd3bff384c19e38ca9cab96": [
+      574
+    ],
     "0d8e7c2ac63575373c404893d1513ce5d523de2715707e24d93648003fffb8ef": [
       939,
       1519
@@ -10718,14 +10719,6 @@
       1097,
       1408,
       1666
-    ],
-    "0df593efb6d0220d09fab8b1b4f50ee20f467ad9fd36c1631b6cada7402cd4e5": [
-      326,
-      628,
-      1303,
-      1523,
-      1701,
-      2165
     ],
     "0e2e305041ae3bfb3f6a4fab2f54ad918e9c43963ee4d3e1a0384fc4ab62c317": [
       297,
@@ -10813,12 +10806,9 @@
       1386,
       1720
     ],
-    "13a39d87e04b84323ce0d721a1ab44bf262720170bf23e788f6d78a906299a84": [
-      345,
-      592,
-      751,
-      1065,
-      1445
+    "13138724a31ffd5432539dc6c76c2c6748a16a29c441f107341a9974fb84c57a": [
+      300,
+      710
     ],
     "13c2347b5287beb3e3cfeb198cc85b70456f24e14953310e3402836a4a8fffbf": [
       304,
@@ -10868,13 +10858,6 @@
       2048,
       2274,
       2452
-    ],
-    "167f79db047ac9cd7973b4f0a80b156c5229ab3780e866883f83845b573833a0": [
-      186,
-      576,
-      1769,
-      2001,
-      2444
     ],
     "16827c38fbef3d6420a5d6d5b3b6ef037bad55debf3b70a6fae7696525f9ca1d": [
       251,
@@ -10926,19 +10909,17 @@
       2041,
       2321
     ],
-    "18a762067b378fd55bb637c1c5888c89b84e8b39edef268f5740a7ede35293b2": [
-      250,
-      553,
-      870,
-      1220,
-      1903,
-      2301
-    ],
     "190b47f051545efdcbce83d9df93f9bbf4c41ddfae8eb85ae924d7859e6de998": [
       195,
       447,
       832,
       1095
+    ],
+    "1a8f45d2416bb9c4922443d3fd19947df75472634b1473140f7176056dad20bd": [
+      350,
+      495,
+      639,
+      925
     ],
     "1aaf69ff9741b8bf53837090645ac5e3ab70c57408eeb4a7dbf8b19be37d26bb": [
       315,
@@ -11038,14 +11019,6 @@
       697,
       1052
     ],
-    "1f107ea56db2f778965742877e27e45f6ab5ccccd9dff899fb159126b4538f65": [
-      244,
-      477,
-      764,
-      1052,
-      1320,
-      1528
-    ],
     "1f34ba7ea8abd36e97bf10dc0f407bb68e42691ba13346c6df4e32cc96277335": [
       731,
       1114,
@@ -11087,6 +11060,15 @@
     "2383c0cfcdb206bdc06c09473221ce8b7f334bfeaf708dc9582fdf65ffb36fed": [
       243
     ],
+    "24b2a77b4dd99813955a6a2982f637fc962b09938b4dba770c6ce1ff003dfc77": [
+      170,
+      322,
+      650,
+      841,
+      1246,
+      1407,
+      1564
+    ],
     "24b33f45b485405cfbe24bb95a5686af17917feb339293103cab3eeeffe1cbfb": [
       344,
       930,
@@ -11110,6 +11092,10 @@
       215,
       607,
       1154
+    ],
+    "26896e42ffb0439328d41c427af305102c03a1a6b4c85dc6ff2f986667292f1a": [
+      178,
+      374
     ],
     "26d2112c457465533ef3d1de5e2b2b959f39c2db1adbc5c817a72dd46a684d61": [
       600,
@@ -11143,17 +11129,21 @@
       1172,
       1365
     ],
-    "28cbbae5974706d8fe9513f5ecaf84843b3a5f38b8761e7a7a9b8fd0c06c2a6d": [
-      293,
-      683,
-      1060,
-      1311
+    "28f1e39d4931b8468f8c10376b40b5270f3a92cbfb2a29776e400311b39731af": [
+      205,
+      895,
+      1108,
+      1271,
+      1590
     ],
     "2a004dd4a82808c10d519996196699580b03693af74ed4ba701ef5ca378ac514": [
       949,
       1211,
       1580,
       1856
+    ],
+    "2a64506b82c1ab72fa11fb5ac42e7af356e8fee14f2957bd7866c30e60a1926c": [
+      450
     ],
     "2a64a150d16c6602c72c4ac06cdf949e7a774a44082fcb98b0283a50d6720c57": [
       354,
@@ -11174,18 +11164,6 @@
     "2d303dc91978db289527413f0742227fa0747fbabe5d02944ce7c82bb480b053": [
       935,
       1228
-    ],
-    "2dce2a484f147b8705664355c273f1a18c3b6e73649d02e7d7b9d8144828edb8": [
-      355,
-      757,
-      933,
-      1374,
-      1851,
-      2183,
-      2558,
-      2786,
-      3217,
-      3672
     ],
     "2de16ca1bfc61d10525415a700cdedc1e51879f47b37a00b6de20b71652b3d2c": [
       222,
@@ -11226,6 +11204,12 @@
       1675,
       1884
     ],
+    "30eed756418e66b04a5b6150049db062a07c580f9130ce8157e9c00432f515ca": [
+      200,
+      340,
+      515,
+      889
+    ],
     "30ef58141f1fabea924e369b2ab8e59b8f04a9f3a7e79e8eb776ced0b4e7214b": [
       682,
       1033,
@@ -11245,6 +11229,10 @@
       927,
       1259,
       1529
+    ],
+    "31b21130457c2e713ec0d04ebce7a8280e7a81af2893348ec06993bc9d5acf75": [
+      397,
+      875
     ],
     "32ac62e104daac43a8fbb091cfb63b5617d200b08a4f37aac9da78d518721e10": [
       198,
@@ -11282,6 +11270,17 @@
       975,
       1240
     ],
+    "36a7338b746396a037dd90cc0300a4827f60e827825517acba261a6a32d670cd": [
+      348,
+      704
+    ],
+    "36e063d0ec01aa2c6f05ac080ca3f185bf7d9c16e30cb521eb1dd447cd3b52d2": [
+      425,
+      1071,
+      1321,
+      1509,
+      1795
+    ],
     "36e1199edf952fff39921fcbefabe42e7fc0d9223ec681fee11cd282b3086e0c": [
       350,
       589,
@@ -11316,14 +11315,6 @@
       1396,
       1642,
       1878
-    ],
-    "383838309989970bc4465fa7eee3cc1559e1b5cd67efe091b3b4d3b81a227a34": [
-      298,
-      699,
-      861,
-      1039,
-      1181,
-      1510
     ],
     "38ca6156acc4fe87d8bd7621d1a20ae5db1cd501e74e67aca6a7529121518fc7": [
       308,
@@ -11363,9 +11354,8 @@
       1098,
       1618
     ],
-    "39c1f173ae6593f9400eb3a6757138c27b492757d4663a4f6c1e9348e302d4de": [
-      478,
-      824
+    "3a8984626e4d6d8b980661503e18b10a1fcc8a04c8575efc408796990ef95729": [
+      737
     ],
     "3a995a0e74126aaddef868d15ab171c879fac1d3a7c466307e06ac68e9b15dba": [
       256,
@@ -11419,6 +11409,10 @@
       1256,
       1475
     ],
+    "3d67e7bfebffea8509d4943c6b62731bf6d315027d81a030305ddc8bff5fd89b": [
+      248,
+      760
+    ],
     "3e2e48b9d26290fc0b80a5ed8a1588fb13d4df740366ae20d1be6b7f34e8f55c": [
       585,
       831,
@@ -11426,6 +11420,26 @@
       1195,
       1633,
       2126
+    ],
+    "3f1ab096e0ecb3dc5253647f1c7f0febb233e21c6b59e51a385a4d3d54d4061a": [
+      370,
+      617
+    ],
+    "3f806446170d7d0faed5b8be846c75ebb2deec5fec39f15815b5284fb9ad1bc0": [
+      475,
+      718
+    ],
+    "3f8f9f0360bcbce2016ca916d091564e38dcbf3eca73b44b21553f8aa7960a6f": [
+      200,
+      517,
+      800,
+      1019,
+      1209,
+      1388,
+      1724,
+      1904,
+      2235,
+      2456
     ],
     "3fdd2c30d34399ba64bcbde171fd783db5a47e9c3288e394c86f9edb053f3022": [
       297,
@@ -11443,6 +11457,9 @@
       1077,
       1543,
       1760
+    ],
+    "4048ce7f491d4449e7fcd9945491549a9f3dc9a61a68e28e95291945f595fd8b": [
+      262
     ],
     "408aa8a6ac95240f6659d9fb8cc29c31d99daecbc519b61938b590ead60e649d": [
       730,
@@ -11518,14 +11535,6 @@
       2837,
       3314
     ],
-    "45096e886d41ba0d8c95b7aeaf96b3aacc49da5bbf0c4c6d5b3b4ede5a876b78": [
-      252,
-      527,
-      1136,
-      1520,
-      1708,
-      1940
-    ],
     "451e353bf182c20bf7926ab80a7869b22839e3489e89fc6010d8232da6caef18": [
       234,
       990,
@@ -11548,12 +11557,11 @@
       1399,
       1802
     ],
-    "464de4663319896276b747f00ff4f5be0be7d31e41e5e1a599e972bd35509233": [
-      209,
-      578,
-      940,
-      1109,
-      1376
+    "46b31b6cee8e6c2d29e72c735c6b667834e3629bce725051ad12c643ed692518": [
+      193,
+      423,
+      602,
+      812
     ],
     "47191b3e32aafdca80b4ae0ff5de174e62aba8eefc479c051517476712f6ebee": [
       529
@@ -11579,6 +11587,10 @@
       2214,
       2548,
       2755
+    ],
+    "49e4b7ee47bd3ac0c54fd73bb0f4e032b187083e74c33c133932cc045fe37a67": [
+      457,
+      694
     ],
     "4abf6e7b985017bd01399b9e99d9b4126fd04b9a9b9b67ffe63cd4a043f400ac": [
       460,
@@ -11615,6 +11627,13 @@
       1426,
       1795
     ],
+    "4c51a04f25f6d863d9bcf3048d532f2f87cadf108236ab5bc38cc615b879be7b": [
+      266,
+      421,
+      683,
+      983,
+      1168
+    ],
     "4d8c7f3937507662a687e154c5fc3bafcf9b7eba535fc56eeab06bf7337b94ce": [
       421,
       1015,
@@ -11628,16 +11647,6 @@
       377,
       746,
       1070
-    ],
-    "4dfe037ee51fa61c7f25fa16c4b4f43fc6de6d570dc2d160205cbd5227b7ca11": [
-      263,
-      603,
-      931,
-      1215,
-      1409,
-      2238,
-      2584,
-      2886
     ],
     "4f508f87f8d66c99a5c21db96b3a5d85dcaef25f79a9d7fc296c60eff2641f06": [
       579,
@@ -11660,15 +11669,17 @@
       864,
       1217
     ],
-    "4fd16b7cda18004ee67bc3844f17110c522b9a53377355907c796453585c88b6": [
-      233,
-      388,
-      682
-    ],
     "50b4fbaa342adb3109383dc79817e3224f2eab41388ae36abbb604013caeeb39": [
       215,
       494,
       771
+    ],
+    "5126389650142372c5387d85695ebcee19fa9a38f76885731a1d328f4db6b948": [
+      708,
+      984,
+      1290,
+      1477,
+      1704
     ],
     "516551eceff2b1c29c049adccfa13ff0ec2f7c5f8c014d95350922e42f9b3de2": [
       406,
@@ -11696,16 +11707,6 @@
     ],
     "53d9a92661105364ff7235912f6d98429fc98e5ab5247790920e49e3b086af74": [
       252
-    ],
-    "544c137b817deb646c22de9b0f1806a8de5feaeef3d52b0ba0fe5dbcbea3aed8": [
-      335,
-      763,
-      1032,
-      1846,
-      2124,
-      2443,
-      2756,
-      3017
     ],
     "546fc0c8b71e493f56a5faf88c63d9de5aa724b227e244bd683ec5103ffb493f": [
       320,
@@ -11746,6 +11747,13 @@
       2182,
       2487,
       2640
+    ],
+    "5674a89f6e3bc6d235aaf287047fdc4530408510468d21b611140ad07df59465": [
+      387,
+      775
+    ],
+    "56a335d78b0b8d19a38ad5d30d2a6dcc095462338c1be91048961b47293c5198": [
+      398
     ],
     "56f10791ba4f58ea9721ee284deb37be20d1855afbb47daa6b198408548015f6": [
       374,
@@ -11794,6 +11802,10 @@
       974,
       1173,
       1547
+    ],
+    "5883310bced8b9e786f838cb5aee1156c6c1745d8909d0d463262bdaadc3e9d7": [
+      366,
+      772
     ],
     "58c5e92cfbbb3d866c365e1e5111a1a6ad4544db908194db713e20a6f5c8fd5f": [
       619
@@ -11849,6 +11861,10 @@
       1994,
       2372,
       2549
+    ],
+    "5d745f68d1c4dd31ed96a2504b98f7a24508b6c5dec3e4a894d92331678e3837": [
+      547,
+      858
     ],
     "5eb1c599f83a81afa8244a297a501cfaa8f213f966f0e87caf1e41475a631d04": [
       240,
@@ -11925,15 +11941,9 @@
       2549,
       2784
     ],
-    "6688b0873b93d5d34d109e1bf94902d1544ae2786be2645e18a42f7d54838d06": [
-      346,
-      544,
-      741,
-      1116,
-      1481,
-      1756,
-      1912,
-      2332
+    "66425ce5c533116bed53f8af5721570107e15186052ee4a6a021ae85f31b62df": [
+      449,
+      710
     ],
     "66a6365d0f4cf3b5cb338d9237591e8deae2bab6bc5faaf915f1039b4450f3e1": [
       295,
@@ -11949,6 +11959,9 @@
       628,
       1004,
       1251
+    ],
+    "6734f8c5b30386f5fdcf1c1a761c88386fac4870792ab1995528680730dd6d85": [
+      483
     ],
     "679ee8d2e031b293ae526ea0e5d3b5997ed58c23bca6815b880e481701a9d645": [
       296,
@@ -11980,14 +11993,6 @@
       1210,
       1522,
       1850
-    ],
-    "685d3c74769e19d4752ad71b6eae588c87d6e72dd3b9ed9d22925956339a45d3": [
-      291,
-      588,
-      888,
-      1240,
-      1548,
-      1917
     ],
     "68636f57fbf00be70b7bd0c628244d838eac40dc24ef404feccfd1fb9d653870": [
       1345,
@@ -12036,13 +12041,6 @@
       538,
       941,
       1232
-    ],
-    "6ad4edc66e30f6608d02aa1bf38a24b1b0edee93993725caac8dfbf23f13283d": [
-      158,
-      311,
-      606,
-      863,
-      1308
     ],
     "6bcf2a491dd50a65b6208465ed77663ca210e961565d00d483d38686e8364d26": [
       335,
@@ -12245,6 +12243,13 @@
       1170,
       1351
     ],
+    "7a8e5aaae0b67dbad520d29cdd2e745fa477076143320f37e10d6fdec8e6fcbd": [
+      216,
+      480,
+      635,
+      902,
+      1213
+    ],
     "7b091d94355c99feb2d08a6e2ef38b35bfaac684ce3b32ec6dd6eab6e4e83cf2": [
       324,
       1625,
@@ -12298,6 +12303,10 @@
       1936,
       2089
     ],
+    "7cfe9feb4f78fc0035a08d35b63686d2fc75933f4e9e7192cf116b56b05fec4e": [
+      274,
+      526
+    ],
     "7d31e045ff0681c6525d39d3229a3a2142c13d2c1bb539a89a45f59110506414": [
       933,
       1526,
@@ -12330,12 +12339,21 @@
       2011,
       2238
     ],
+    "811729e52a6808fb7465ebfff223eec8fb3f74208d63dfd1ebcbb22f0364f891": [
+      512
+    ],
     "81fcb2e3f7f55c60767c809dfb0ec7fb2f74e1028f8f1e7b4931fa9f36cb7918": [
       266,
       667,
       886,
       1214,
       1627
+    ],
+    "82e737f19653ad680f85b2a133a3b4a445bffc7e3c1738ebb479bf5a4b62f801": [
+      476,
+      683,
+      950,
+      1181
     ],
     "849b698f97c97eba0defeaf3650e5e23ae278f8b47abbaa64b398a07ef64b5c1": [
       272,
@@ -12357,6 +12375,10 @@
     ],
     "856dbbbcdce57cb5b91bd3018250aad9567b0d10025acd0b9b3cc496742f1b82": [
       454
+    ],
+    "85c49d355384458545b424e941dc7f3c978ea8e6c773c4cedca6769e5c9e5936": [
+      347,
+      768
     ],
     "86476603e0a0e6743de081720b9449cb6780db85c3a92cdda37eeacefc121d1e": [
       370,
@@ -12388,28 +12410,6 @@
       1888,
       2612
     ],
-    "89d0fcb0d9dc6f31fea4234fea7ee36e1c2f1d548766dfa1a6d85fceee05c678": [
-      353,
-      648,
-      897,
-      1852
-    ],
-    "89fc9f82657732869505e38a671326ecdb0ea3b6ffa6222dc39c3b89198f2bff": [
-      252,
-      603,
-      837,
-      1080,
-      1583,
-      1879,
-      2047
-    ],
-    "8a01c6f9a92aa63bd050900a0a7bde63b5f37b2c95d739919ab4b62879bd6485": [
-      373,
-      612,
-      797,
-      1151,
-      1503
-    ],
     "8a3a2d3c2a37266111c83b794f677a109edbbf39bfe536a42847bb9378caba52": [
       202,
       539,
@@ -12421,6 +12421,16 @@
       602,
       867,
       1136
+    ],
+    "8a8387c537badc2e8aae8c7204002f74fc9aff4edb1fafd67908b4bbed60fce1": [
+      218,
+      460,
+      889,
+      1166,
+      1354,
+      1559,
+      1784,
+      2062
     ],
     "8b03f42fd1734a47c403bb87976eac23b8241952d16c452feb1e6428185da3eb": [
       932,
@@ -12460,6 +12470,10 @@
       2145,
       2698
     ],
+    "8deff70d16faff26f09c68450d95b596b4c8f7be7ba832419b92e9823f46a138": [
+      407,
+      852
+    ],
     "8ebe57d6f5a6f6a53c861d698d834d8f9e76e8764e103660280f53b9eccffea1": [
       333,
       666,
@@ -12486,16 +12500,6 @@
       2059,
       2363
     ],
-    "8ffa4a1a7d933dd8e337a271fe3913bc615cb7ef25d7638f4a37f78d5b8e82ca": [
-      295,
-      650,
-      869,
-      1239,
-      1523,
-      1711,
-      1875,
-      2051
-    ],
     "8ffd9bd128062da1b1f7e9cac544b8bfbd7d4249914dfcc7c19c8088356d0923": [
       278
     ],
@@ -12514,13 +12518,6 @@
     ],
     "91f679528050a17decd87d6394809fcf2e1860f7bc772ed63d8dca802f8d161d": [
       472
-    ],
-    "92099d228fb1713ad3b08109ee49cc908c11f98bd0d65b5e587c0a755e55df97": [
-      240,
-      577,
-      840,
-      1070,
-      1247
     ],
     "93b78623b7ff2f99341a298990c6e121bdb26831fcaaae1f72c3c65ba5e8ee8b": [
       335,
@@ -12564,6 +12561,12 @@
       1299,
       1726,
       1993
+    ],
+    "9593b0b2caade07833aa1ae1213e1e9f7b9510b498c3f0b75f91e30ebd9c4854": [
+      201,
+      425,
+      662,
+      824
     ],
     "968554a085b75304f16809dcafcc441828d4bd503ad92fa1fc01478c3d61feab": [
       234,
@@ -12650,17 +12653,23 @@
       1470,
       1920
     ],
-    "9db3c60bd462929b11bcbb04935f7d4002543174d572ac66961cf72c01addd93": [
-      648,
-      969,
-      1151
-    ],
     "9dc930f36367cc779ed3835cd1594bf6e2322667967ab67bc5ac9d9df09f2000": [
       234,
       499,
       784,
       1162,
       1463
+    ],
+    "9e42a68fe743d34849fdeeb553d1eb58a69f4a8fe2325e86dd8d3fa1c13aefab": [
+      206,
+      475,
+      669,
+      808,
+      946,
+      1320,
+      1510,
+      1771,
+      1971
     ],
     "9eaffacfd06e197307eb84d46b8ae9087dd128bdbfc86bf568c8be43499ea294": [
       889,
@@ -12677,10 +12686,18 @@
       1203,
       1746
     ],
+    "9f4917541d8ef7f61ac3ac3ecbb30383b26dbc8f1d788158f79cec934c989961": [
+      390,
+      698,
+      985
+    ],
     "9f7aeded63ef66a70a185d44ec17fd2e0a4a37bafd39e850db1ba67723cabc4c": [
       172,
       458,
       905
+    ],
+    "a04bd2812674263fec4a85b891370864a893667e3e5eeef580f14c48ce9bfcdf": [
+      368
     ],
     "a0b83d01c801c191a862eca4df7d6395b712c52e235f42a97f0df3e73cdc35d6": [
       285,
@@ -12690,6 +12707,18 @@
       1636,
       1962,
       2185
+    ],
+    "a0b881b9974a52377fa1491f41b0f59b3227be517bb1d8caade0be3be74534b5": [
+      207,
+      458,
+      682,
+      878,
+      1077,
+      1281,
+      1642,
+      1943,
+      2126,
+      2354
     ],
     "a0c2bde291cc362f1d1dc4a7d5821f0151e1e6313f47f5d242e17f9f0577a8ae": [
       653,
@@ -12723,6 +12752,15 @@
       2458,
       2741
     ],
+    "a25930ef717fc172c00cc6d5949e188201593d6aa0bb9f562d320ae302f6b998": [
+      215,
+      467,
+      627,
+      903,
+      1166,
+      1318,
+      1476
+    ],
     "a387314897b29ac20ec8b62daeaee3205ebe1832041ef157e8c45bd73a9bd209": [
       365,
       645,
@@ -12742,11 +12780,10 @@
       1688,
       1903
     ],
-    "a4377726280d6148a2ffdd923fe26a4a713992957e1064e1ff675c1fb63d77ab": [
-      276,
-      501,
-      678,
-      961
+    "a3f2ff266f9ee6ae207825cd75e5c4fc4eb1672ecaa2c620d992978a7c8197c8": [
+      233,
+      725,
+      986
     ],
     "a613635adca885ab3fd793f6fa5aeeb75400ae12615f0e80900f2968ca404ed5": [
       569,
@@ -12873,6 +12910,10 @@
       900,
       1328
     ],
+    "aeb74f87ad5968c6d3d649956102b9087b376766fb471c8b8c44ac14da18679e": [
+      401,
+      636
+    ],
     "aec17ee9d7c9cd27e2655937923bf820636f21fbec00a965544924b4bb869492": [
       155,
       584,
@@ -12919,18 +12960,16 @@
       1327,
       1666
     ],
-    "b151f274cb0d1e2115ff0eb6363ef234ff20e5114a250768b203a9312ed6483b": [
-      200,
-      566,
-      912,
-      1187,
-      1365
-    ],
     "b409833bf661a003ebc603c6535f06eeb2b1655f38a0b321b54e82e10ba3ba72": [
       227,
       459,
       824,
       1129
+    ],
+    "b4d9f2a3230327a4143065f24ef846f72f6ff9266c2cea62e2fcaf6f0d018abc": [
+      152,
+      387,
+      576
     ],
     "b69db541fce2415ff583e70271f73762473b4d27fe79104d3a62f44b5210ccdc": [
       329,
@@ -13032,12 +13071,6 @@
       2214,
       2487
     ],
-    "b9c30edb3c9ef410a7f44f60caf3bd7f79d46c4df51d8a145870379dd2437a10": [
-      498,
-      729,
-      1122,
-      1375
-    ],
     "b9e42fa3a8a2431325250c9fb3a811e6cbb4ed858026381887e6b10ff0ae7902": [
       277,
       855,
@@ -13055,12 +13088,15 @@
       1844,
       2021
     ],
-    "bb56363f4b8f2c704146d4a1f780c0658c0f0cb314fe51617e987c85997f47a1": [
-      527,
-      1064,
-      1396,
-      1858,
-      2114
+    "bb61f60633a2642ad89be1ad92c8af07064374fcdd8f740eb813a4f7d4aec208": [
+      217,
+      587,
+      729,
+      918,
+      1138,
+      1490,
+      1658,
+      2065
     ],
     "bb9c1226b2a7631fa31e01da380df80339f3e5aba0b2983a3a68fd0faa6ec5cb": [
       263,
@@ -13101,16 +13137,14 @@
       329,
       970
     ],
-    "bd33ac95e453f1a4044044edf4f3cdf095c9428a33c222f7078f7edb55de6782": [
-      218,
-      444,
-      678,
-      812,
-      973,
-      1279,
-      1681,
-      1948,
-      2323
+    "bd00ee19acd1826f4634437a18d55d30a18dc8718cb30154c3e7e321b7da4c6e": [
+      256,
+      441,
+      635,
+      813,
+      1018,
+      1218,
+      1433
     ],
     "bd944e5d6504f3788b2f18e62ec5a2c1e3d584b29d2159a73579bd737d90d850": [
       248,
@@ -13254,6 +13288,10 @@
       935,
       1083
     ],
+    "c4f34084f3eec3259ac34e6665c764990f82689868d2cec407b9ed7140d03ce4": [
+      231,
+      611
+    ],
     "c59355787b72a148169859c95dd1ee61c348fd5950f6cd5495814e1ed4fcf2b4": [
       286,
       797,
@@ -13279,6 +13317,17 @@
       955,
       1253
     ],
+    "c930eba793c6d0bc8ed3070134a1672cd2342ede838c13bf8d7755389b15b285": [
+      247,
+      632,
+      1094,
+      1814,
+      2331,
+      2579,
+      2781,
+      3018,
+      3236
+    ],
     "ca6036d1f05d9b46b47a0647cf8959f41de7f782ce77a16921b891a267d0e783": [
       256,
       641,
@@ -13296,13 +13345,16 @@
       1180,
       1472
     ],
-    "ce0fc02790a50d92e4e7db1c980f1035d53251e9a32e55486f6ef139af293682": [
-      530,
-      742,
-      878,
-      1115,
-      1387,
-      1608
+    "ce595f236e68dc0c0ebda75d7bb799d6d2437c9077673fd4e86938b7faf83bf9": [
+      238,
+      373,
+      605,
+      846,
+      1071,
+      1376,
+      1866,
+      2043,
+      2410
     ],
     "ce72ca4b769d6f69f3310a618da5d66c97730dc665fece43316c16226b406566": [
       152,
@@ -13310,6 +13362,16 @@
       695,
       1064,
       1487
+    ],
+    "ceb35ae917394ebb0d459359f8cf2a2315c08ad5c36bb99ec71af12aff6e67e5": [
+      212,
+      426,
+      1050,
+      1300,
+      1692,
+      2110,
+      2293,
+      2495
     ],
     "d098564e35ef169ae806de1678fdddc7b87c9a8a92da0f96b1e20a33192a7512": [
       344,
@@ -13331,6 +13393,13 @@
       702,
       1067,
       1557
+    ],
+    "d3b6af80def8df1fe634281e94081df63204eddbf5347ecf94995ce50b3839fc": [
+      476
+    ],
+    "d3ed73f3416b0614678e3eafb83398010f11a4662dffcb9e3144e6cc9812cb0a": [
+      261,
+      836
     ],
     "d44d84116c43c3151338608aa82ce97b72b86e57324be2baee608c12719e36e1": [
       394,
@@ -13366,39 +13435,12 @@
       1409,
       1782
     ],
-    "d6e6df215b5cf085419c51a0bac0d2e1a3c152724364c6671c9af239728a09ed": [
-      304,
-      623,
-      947,
-      1444,
-      1854,
-      2162,
-      2438,
-      2807
-    ],
     "d791b23a0d7fba8baa637b100d20d138d56a2494b86ed8b524020294f68462b8": [
       999,
       1881
     ],
-    "d7a93809886039a87b9e106adce1d2b66fd9217f0f4d65a74476d2683857e3f3": [
-      342,
-      577,
-      796,
-      1213,
-      1435,
-      1789,
-      2094,
-      2350,
-      2606,
-      2783
-    ],
-    "d82e4ca7237b98a53eda9f9f55df4432c8d2640cc8b821d70229df8c28d17795": [
-      160,
-      294,
-      651,
-      909,
-      1267,
-      1445
+    "d7ee5db50ab7443084c3625a6d3666b6985dd902485f93e5db99a369c0667486": [
+      634
     ],
     "d8ad570b3e6ee8219ae5fb11a4e0f075555677b6501bfcfacc38ee24e7ebc4b5": [
       147,
@@ -13428,6 +13470,10 @@
     "da8be507237b6e61eebd27c7925882f8b74d8bc16114028b14da5b50cba75d15": [
       776,
       1221
+    ],
+    "dac325b87487eb217e7fd4fca80512a571438265ec896c071d3d58222ff22589": [
+      276,
+      774
     ],
     "dadb40819eb010abe8e15c35381e7f605c44b57ef47862c98f84040a04a36887": [
       224,
@@ -13460,6 +13506,13 @@
       2315,
       2659
     ],
+    "dc3bed1ded38e18e3b86fd95b752b156f3627b80f9dc02053726209afd2308dd": [
+      265,
+      1037,
+      1315,
+      1580,
+      1743
+    ],
     "dc3f25309973f9e3792334830a985b7294257698cda7289315a113275c21e29d": [
       258,
       576,
@@ -13482,11 +13535,12 @@
       1077,
       1448
     ],
-    "ded16b6009be377414bcfdb6173d6fd9a9bc1c79a8668059608cca351eff13ac": [
-      224,
-      865,
-      1021,
-      1262
+    "de7085fed0efaedae6b74fb83b42657c0494cf2dbb027699f9cfa38ffa866b5f": [
+      316,
+      557
+    ],
+    "df4ac617e22b819a13605c3d1c0a14c217b9a8e3a8bf38084d055a7666c2126d": [
+      270
     ],
     "e02fa754d48e94e22849e57eea2d41c4737a0b5c81a950efaada65a8f3422f32": [
       360,
@@ -13512,9 +13566,29 @@
       1278,
       1417
     ],
+    "e281921dd48ed41301b5d999b29ee95a76cfaa6eb94d7d85b5fd42812cb675f5": [
+      206,
+      448,
+      789,
+      1019,
+      1155
+    ],
     "e3bff819ae0d67336612a0142bd7818dec21c9eca9d4dce080b6fd143276dcee": [
       898,
       1181
+    ],
+    "e4e4c7b467a3dc0da72c45f4eebf6d5e9732e857c951ed428c98d67267c4db08": [
+      182,
+      445,
+      732,
+      910
+    ],
+    "e50a5fd757b7c929c38c586b115f651beaa9e5fdf635d5658bbcda9e6569c8e1": [
+      174,
+      632,
+      975,
+      1188,
+      1360
     ],
     "e9bba74d6bdf0288ffc4e503987e1bef12973c159edda5149a5eb5091dc5d5a0": [
       229,
@@ -13596,6 +13670,14 @@
       2631,
       2988
     ],
+    "eea4417e93da668a6c419326179e41cdae7fc2c970fad538a4f67adc23260353": [
+      213,
+      466,
+      679,
+      962,
+      1285,
+      1487
+    ],
     "ef54f40768d0e7c49672857638c66bf8ff59fa3bbff1301c9639ef9d5f7164a4": [
       694
     ],
@@ -13637,13 +13719,6 @@
       1428,
       1728
     ],
-    "f1b09e69c3abf03c68319d034dc6d4e705c061610f574268adade7433e6b3529": [
-      167,
-      630,
-      793,
-      1099,
-      1271
-    ],
     "f1e7a0ea2e1cec934171aad8c39457f087e5ee7501729da83c02c5ed5ba3ee3d": [
       267,
       673,
@@ -13680,12 +13755,11 @@
       996,
       1307
     ],
-    "f77103d485efc3950cddd7a48ccea7b47fc6ab865b8042bce400f5850246b3f4": [
-      288,
-      577,
-      899,
-      1236,
-      1670
+    "f5591f3912b8f431551ad289bb4565666df3e718a4915d2ddf141380a33151a1": [
+      165,
+      440,
+      693,
+      1133
     ],
     "f7972c5532085056930ef8897f6af0f62b08122a83fcf54eb8b07c610bc49d82": [
       253,
@@ -13701,6 +13775,14 @@
       1702,
       2059
     ],
+    "f8eb38e49b6e8aea96152fcbb0044846979a1519fcaf34caff40f1f3da6c0a22": [
+      180,
+      455,
+      614,
+      802,
+      1065,
+      1358
+    ],
     "f932d23ab1d045108a8fd5b983a27459943a7b157b65c2b9388a57d856414363": [
       609,
       758,
@@ -13714,9 +13796,24 @@
       907,
       1332
     ],
+    "f9a536805e7297b26112f0c1180cdee832e8968ce8f9fd685e53a1af28094a56": [
+      556,
+      815
+    ],
     "f9bae3f6666e3ec8af2d14a54ab87e854e6ff8fa41fa92c14103dcfce528c9b6": [
       1070,
       1377
+    ],
+    "f9ce7c5481268901b6f5de4442389044f41318a7ea363234f74f28a8480e00e6": [
+      232,
+      473,
+      695,
+      968
+    ],
+    "faa15e9ed48dab75fea76938900ca81006e1daeaad2476cfe8ad43f0a07e7c53": [
+      367,
+      652,
+      1182
     ],
     "fabcc27269dad85f2e9e93f00ba1736be7c7068e4a38af5f08330374f6a7e0a1": [
       743,
@@ -13787,31 +13884,5 @@
     ]
   },
   "pack": "LoreForever_Voice_Default_MorePlaces",
-  "retired": [
-    {
-      "file": "Audio/Transport/full_subzone_deadmines-9fca322fb3efc6c250be/1-0000.mp3",
-      "sha256": "d54392b05326b820bd95e0ed7a6bd15ee3a0a4aa8251748590fc0dacbbd57b54"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_stormwind-city-cc27185116bf578c9ecd/1-0000.mp3",
-      "sha256": "0feafe23644ddf4654ed4fc7f6936d8f99b16c30ff711b5573a3e411471fa4d9"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_orgrimmar-43202136d1a340d2b4da/1-0000.mp3",
-      "sha256": "cb84dd3f33c2544079921fe604f3059ee79e724eb5ce0877c54efd580429dd19"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_ragefire-chasm-121caaeb648194a91289/1-0000.mp3",
-      "sha256": "c693f45bc34a60b6bccb8483a2d686f86f4d7fc65b862483678a207dd22e9b5f"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_wailing-caverns-9122dc840963761808b2/1-0000.mp3",
-      "sha256": "df74cc5d28fa6bc5c6e4c2765ddbddab2cc48ea809a9c12a8166768d7b90d614"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_darnassus-cbc3033f1bfcb9a4fe82/1-0000.mp3",
-      "sha256": "62eb1b90d7e465c78f16788fcfdd8b9471a189a78d97f32250862f9ec47570ca"
-    }
-  ],
   "version": 1
 }

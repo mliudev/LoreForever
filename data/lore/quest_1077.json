@@ -17,16 +17,16 @@
   "wiki": "Special Delivery for Gaxim",
   "chain": []
  },
- "summary": "Special Delivery for Gaxim represents the return leg of an Alliance courier mission between Stormwind City and the wilds of Kalimdor. Collin Mauren provides a specialized Scroll of Messaging to take back to the gnome tinkerer Gaxim Rustfizzle in the Stonetalon Mountains. The scroll contains the arcane component needed to construct a remote explosive against local deforestation efforts.",
+ "summary": "In Stonetalon, Gaxim Rustfizzle awaits a scroll from Stormwind. Collin Mauren provides the Scroll of Messaging, whose arcane power is needed to build a remote explosive against the Venture Company's deforestation.",
  "sections": [
   {
    "title": "Arcane Deliveries",
-   "body": "Gaxim Rustfizzle's efforts to sabotage the destructive operations of the Venture Company require unconventional solutions. Having concocted an explosive compound called NG-5, the tinkerer found himself lacking a reliable means of remote detonation. Rather than turning to crude fuses, Gaxim enlisted help across the Great Sea, reaching out to Collin Mauren in the Mage Quarter of Stormwind to acquire an enchanted Scroll of Messaging.",
+   "body": "Gaxim Rustfizzle seeks to hinder the Venture Company's destructive work in the Stonetalon Mountains. He has made an explosive compound called NG-5, but lacks a reliable way to set it off from afar. Rather than use crude fuses, Gaxim enlisted help across the Great Sea. He contacted Collin Mauren in Stormwind's Mage Quarter to obtain an enchanted Scroll of Messaging.",
    "spoiler": 0
   },
   {
    "title": "A Remote Distraction",
-   "body": "Upon receiving the scroll, Gaxim reveals the full scope of his eccentric engineering plan. The enchanted parchment does not serve merely to pass words across long distances; instead, its communicative magic can be tethered directly to the unstable NG-5 mixture. By triggering the detonation magically from afar, Gaxim intends to produce a devastating distraction that allows operatives to slip into the Venture Company compound undetected.",
+   "body": "Gaxim Rustfizzle plans to bind the Scroll of Messaging's magic to his unstable NG-5 mixture. Its power to carry messages across long distances can trigger the explosive from afar. Gaxim means to create a devastating distraction, giving operatives a chance to slip into the Venture Company compound unseen.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "what does the scroll do",
     "scroll of messaging purpose"
    ],
-   "answer": "While originally designed as an arcane tool for conveying messages, Gaxim Rustfizzle combines the scroll with his volatile NG-5 compound. The messaging magic acts as a remote trigger, allowing him to detonate explosives safely from a distance."
+   "answer": "The Scroll of Messaging carries words across long distances, but Gaxim Rustfizzle can bind its magic to NG-5 as a remote trigger. That lets him set off explosives from a safe distance."
   },
   {
    "q": "Who is Collin Mauren?",
@@ -46,7 +46,7 @@
     "collin mauren lore",
     "who is collin"
    ],
-   "answer": "Collin Mauren is an Alliance wizard based in the Mage Quarter of Stormwind City. He assists adventurers with arcane matters and crafts the enchanted scroll needed for Gaxim's plan in Stonetalon."
+   "answer": "Collin Mauren is an Alliance wizard in Stormwind City's Mage Quarter. He helps with arcane matters and crafts the enchanted scroll Gaxim needs in Stonetalon."
   },
   {
    "q": "Why is Gaxim Rustfizzle sabotaging the Venture Company?",
@@ -55,7 +55,7 @@
     "gaxim motivation",
     "venture co stonetalon"
    ],
-   "answer": "The Venture Company is ruthlessly clear-cutting the pristine forests of the Stonetalon Mountains. Gaxim aims to slow down their deforestation by causing chaos, destroying their operations, and stealing their proprietary engineering plans and correspondence."
+   "answer": "The Venture Company is ruthlessly clear-cutting the Stonetalon Mountains' pristine forests. Gaxim aims to slow the deforestation by causing chaos, destroying their operations, and stealing their engineering plans and correspondence."
   },
   {
    "q": "Where does this delivery take the adventurer?",
@@ -64,7 +64,7 @@
     "where is gaxim",
     "stonetalon location"
    ],
-   "answer": "The delivery takes the courier from Stormwind City across the sea back to the Alliance camp in the crags of the Stonetalon Mountains on Kalimdor."
+   "answer": "The delivery takes you from Stormwind City across the sea to the Alliance camp in the crags of the Stonetalon Mountains on Kalimdor."
   },
   {
    "q": "What happens after the scroll is delivered?",
@@ -73,21 +73,21 @@
     "what after delivery",
     "venture co distraction"
    ],
-   "answer": "With both the scroll and NG-5 in hand, Gaxim prepares a remote explosive distraction, clearing the way for an operative to infiltrate the Windshear Crag operations to recover logging letters and schematics."
+   "answer": "With the scroll and NG-5 in hand, Gaxim prepares a remote explosive distraction. It clears the way for an operative to enter the Windshear Crag operations and recover logging letters and schematics."
   }
  ],
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "Gaxim's scheme highlights the quirky intersection of gnomish engineering and wizardry, pairing volatile NG-5 explosives with arcane triggers."
+   "text": "Gaxim's scheme joins gnomish engineering with wizardry, pairing volatile NG-5 explosives with arcane triggers."
   },
   {
    "target": "class:Mage",
-   "text": "Collin Mauren's craft demonstrates how simple parchment enchantments can be repurposed into functional arcane relays by clever tinkerers."
+   "text": "Collin Mauren's craft shows how clever tinkerers can turn a simple parchment enchantment into a working arcane relay."
   },
   {
    "target": "faction:Alliance",
-   "text": "This task demonstrates the logistical links connecting the human capital of Stormwind to remote Alliance outposts struggling against industrial exploitation in Kalimdor."
+   "text": "As an Alliance member, you see the ties between Stormwind and remote outposts resisting industrial exploitation in Kalimdor."
   }
  ],
  "keywords": [
@@ -107,5 +107,6 @@
  ],
  "attribution": [
   "Special Delivery for Gaxim"
- ]
+ ],
+ "style": 1
 }

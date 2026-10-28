@@ -17,16 +17,16 @@
   "wiki": "Arcane Feedback (Ironforge)",
   "chain": []
  },
- "summary": "Arcane Feedback is a priest quest given by High Priest Rohan in Ironforge to human acolytes visiting Khaz Modan. Rohan directs the developing priest home to the Cathedral of Light in Stormwind to receive teachings tailored specifically to the traditions of humankind. It marks a key moment of progression where young disciples begin mastering racial manifestations of their faith.",
+ "summary": "In Ironforge, High Priest Rohan directs human acolytes visiting Khaz Modan to seek their own teachings in Stormwind. The journey brings them to the Cathedral of Light, where human priests learn the traditions of their people.",
  "sections": [
   {
    "title": "A Gentle Redirection",
-   "body": "When a human priest seeks advanced spiritual tutelage in the halls of the Mystic Ward, High Priest Rohan greets them with reverence but sets a boundary. While dwarven and human priests share devotion to the Holy Light, each civilization nurtures its own particular rites, disciplines, and defensive prayers. Rather than imparting Ironforge's unique secrets, Rohan sends human clergy back to their cultural roots in Elwynn, ensuring they master their people's distinct heritage.",
+   "body": "High Priest Rohan welcomes a human priest seeking deeper spiritual teaching in Ironforge’s Mystic Ward. Dwarven and human priests both serve the Holy Light, yet each people has its own rites, disciplines, and prayers of defense. Rohan keeps Ironforge’s teachings for his own clergy and sends human priests back to Elwynn, where they can learn the traditions of humankind.",
    "spoiler": 0
   },
   {
    "title": "Return to the Cathedral",
-   "body": "Upon returning to Stormwind City, the acolyte reports to High Priestess Laurena within the grand Cathedral of Light. Laurena is relieved to see Rohan's guidance reach the traveler, welcoming them back just as their nascent powers begin to flourish. This return paves the way for deeper initiation into the Kingdom of Stormwind's spiritual practices, preparing practitioners to wield the Holy Light against the rising threats encircling the realm.",
+   "body": "After reaching Stormwind City, the acolyte finds High Priestess Laurena in the Cathedral of Light. Laurena is relieved to see Rohan’s guidance reach the traveler, and welcomes them as their powers begin to grow. At the Cathedral, human priests can continue learning the spiritual practices of Stormwind and prepare to wield the Holy Light against the threats around the kingdom.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "why rohan won't train",
     "dwarf priest won't train me"
    ],
-   "answer": "High Priest Rohan respects human practitioners, but dwarven clergy hold distinct rites and blessings passed down through their own cultural lineage. He believes human priests must learn the specific, specialized techniques preserved by their own mentors in Stormwind."
+   "answer": "High Priest Rohan respects human practitioners, but dwarven clergy keep rites and blessings handed down through their own cultural lineage. He sends human priests to learn the teachings their mentors preserve in Stormwind."
   },
   {
    "q": "Who is High Priestess Laurena?",
@@ -47,7 +47,7 @@
     "who is laurena",
     "cathedral priest trainer"
    ],
-   "answer": "High Priestess Laurena is a prominent spiritual leader and trainer stationed inside the Cathedral of Light in Stormwind City. She oversees the growth of promising human priests, guiding their intermediate studies and rites."
+   "answer": "High Priestess Laurena leads and trains priests in the Cathedral of Light in Stormwind City. She guides promising human priests through their intermediate studies and rites."
   },
   {
    "q": "Where can High Priest Rohan be found?",
@@ -56,7 +56,7 @@
     "where is high priest rohan",
     "find rohan"
    ],
-   "answer": "High Priest Rohan resides in the Hall of Mysteries, located within the Mystic Ward in the great dwarven mountain city of Ironforge."
+   "answer": "High Priest Rohan can be found in the Hall of Mysteries, in Ironforge’s Mystic Ward."
   },
   {
    "q": "What is the purpose of this quest?",
@@ -65,21 +65,21 @@
     "why do this quest",
     "what does this quest do"
    ],
-   "answer": "It serves as a breadcrumb quest directing intermediate human priests back from dwarven lands to their primary racial training hub in the Cathedral of Light, enabling them to pursue species-specific spiritual techniques."
+   "answer": "This is a guiding step for intermediate human priests, directing them from dwarven lands to the Cathedral of Light, their main place of racial training. There they can pursue spiritual teachings shaped for their people."
   }
  ],
  "angles": [
   {
    "target": "class:Priest",
-   "text": "This quest represents a pivotal milestone where priests discover that different races channel and express the Holy Light through unique cultural traditions."
+   "text": "As a priest, you learn that different peoples follow the Holy Light through their own traditions."
   },
   {
    "target": "race:Human",
-   "text": "Human priests are gently recalled from dwarven sanctuaries back to Stormwind to ground themselves in the sacred ways of the Cathedral of Light."
+   "text": "As a human priest, you are sent from dwarven sanctuaries back to Stormwind to learn the sacred ways taught at the Cathedral of Light."
   },
   {
    "target": "race:Dwarf",
-   "text": "Dwarven mentors like High Priest Rohan honor their alliance with humans while keeping the specific rites of Khaz Modan within their own folk."
+   "text": "As a dwarf, you can honor your alliance with humans while keeping Khaz Modan’s specific rites among your own people."
   }
  ],
  "keywords": [
@@ -101,5 +101,6 @@
  ],
  "attribution": [
   "Arcane Feedback (Ironforge)"
- ]
+ ],
+ "style": 1
 }

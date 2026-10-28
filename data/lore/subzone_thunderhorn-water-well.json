@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Thunderhorn Water Well"
  },
- "summary": "Thunderhorn Water Well is a vital water source situated in the rolling plains of central Mulgore along the path between Bloodhoof Village and Thunder Bluff. Like all the wells across the valley, it provides essential nourishment to the tribes and the herds roaming the grasslands. Keeping this water clean and defended is crucial to maintaining life in the tauren homeland.",
+ "summary": "At Thunderhorn Water Well, tauren and herds draw water in central Mulgore. The well lies along the path between Bloodhoof Village and Thunder Bluff. The valley’s wells sustain life across the grasslands, and the tauren must keep them clean and defended.",
  "sections": [
   {
    "title": "A Life-Giving Spring",
-   "body": "Situated amid the sprawling grasslands of central Mulgore, the Thunderhorn Water Well taps directly into the pure aquifers feeding the valley. For the nomadic tauren and their newly settled villages, these communal wells represent life, sustenance, and the Earth Mother's bounty. Because water is precious across the sun-drenched plains, controlling the wells means controlling the land itself. Intruders such as the Venture Company have repeatedly eyed these sources, attempting to harness them for industrial exploitation and disrupt the fragile balance the tribes fight to preserve.",
+   "body": "Thunderhorn Water Well draws from the aquifers beneath central Mulgore. Nomadic tauren and the valley’s settled villages depend on communal wells for water and sustenance. Water is precious across the plains, and control of the wells means control of the land. The Venture Company has repeatedly sought these sources for industrial use, threatening the balance the tribes work to preserve.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "where is thunderhorn well",
     "thunderhorn water well map"
    ],
-   "answer": "The well is located in central Mulgore, situated along the north-south road running between Bloodhoof Village and the bluffs of Thunder Bluff."
+   "answer": "Thunderhorn Water Well lies in central Mulgore, beside the north-south road between Bloodhoof Village and the bluffs of Thunder Bluff."
   },
   {
    "q": "Why is this water well important to the tauren?",
@@ -32,7 +32,7 @@
     "tauren water wells meaning",
     "why protect the wells"
    ],
-   "answer": "The water wells of Mulgore tap into the pristine subterranean waters of the valley, sustaining the herds, pilgrims, and settlements. To the tauren, water is a sacred gift from the Earth Mother that must be safeguarded from outside corruption and greed."
+   "answer": "Mulgore’s wells sustain its herds, pilgrims, and settlements with water from beneath the valley. The tauren regard water as a gift from the Earth Mother and guard it against corruption and greed."
   },
   {
    "q": "Who has threatened the well?",
@@ -41,17 +41,17 @@
     "venture co well",
     "enemies at thunderhorn well"
    ],
-   "answer": "Goblins of the Venture Company attempted to seize control of the well to monopolize the valley's water supply for their nearby mining and logging ventures, but local tauren fought back to reclaim and purify it."
+   "answer": "Goblins of the Venture Company tried to seize the well and monopolize the valley’s water for their nearby mining and logging ventures. Local tauren fought back to reclaim and purify it."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "For the tauren, wells like Thunderhorn are vital lifelines gifted by the Earth Mother, requiring constant guardianship against foreign polluters and greedy trespassers."
+   "text": "As a tauren, you depend on wells like Thunderhorn, gifts from the Earth Mother that need guarding against foreign polluters and greedy trespassers."
   },
   {
    "target": "class:Shaman",
-   "text": "Shaman deeply revere the pure water springs of Mulgore, viewing the protection of water spirits and subterranean currents as a sacred duty."
+   "text": "As a shaman, you revere Mulgore’s pure springs and protect the water spirits and subterranean currents as a sacred duty."
   }
  ],
  "keywords": [
@@ -72,5 +72,6 @@
  ],
  "attribution": [
   "Thunderhorn Water Well"
- ]
+ ],
+ "style": 1
 }

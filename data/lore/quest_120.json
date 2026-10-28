@@ -17,16 +17,16 @@
   "wiki": "Messenger to Stormwind",
   "chain": []
  },
- "summary": "Magistrate Solomon of Lakeshire is desperate for military aid as gnolls and Blackrock orcs encircle the town. Unable to spare garrison troops, he dispatches an adventurer to carry 'The State of Lakeshire' directly to General Marcus Jonathan in Stormwind City.",
+ "summary": "In Lakeshire, Magistrate Solomon sends an urgent plea for help to Stormwind. Gnolls and Blackrock orcs press around the town, and he has no garrison troops to spare for the journey. He entrusts a traveler with The State of Lakeshire for General Marcus Jonathan in Stormwind City.",
  "sections": [
   {
    "title": "A Cry Across the Mountains",
-   "body": "Lakeshire stands on the brink of collapse. Gnoll packs contest every road, Blackrock orcs raid from the north, and the local guardsmen are stretched beyond their limits. Magistrate Solomon cannot afford to send fighting men on a days-long ride to the capital, leaving an independent traveler to carry his official plea for regular troops to the city gates.",
+   "body": "Gnolls contest every road from Lakeshire, while Blackrock orcs raid from the north. The town's guardsmen are stretched beyond their limits. Magistrate Solomon cannot spare fighting men for the days-long ride to the capital, so a traveler carries his official plea for regular troops to the city gates.",
    "spoiler": 0
   },
   {
    "title": "Bureaucracy and the High Seat",
-   "body": "Delivering the magistrate's report brings an adventurer face-to-face with General Marcus Jonathan, commander of Stormwind's defense. While Jonathan respects Solomon's leadership and acknowledges the urgency, army protocol prevents him from mobilizing without a royal directive. The defense of Redridge must await formal consultation with the young King Anduin and the regency council.",
+   "body": "General Marcus Jonathan commands Stormwind's defense. Solomon's report reaches him, and he respects the magistrate's leadership and recognizes the urgency. Yet army protocol bars Jonathan from mobilizing troops without a royal directive. Redridge's defense must wait until he consults the young King Anduin and the regency council.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "why a messenger",
     "solomon messenger"
    ],
-   "answer": "Lakeshire is under constant siege from Blackrock orcs and gnolls. Every local guardsman is needed to defend the town and hold the bridge, so Solomon entrusts traveling adventurers with his urgent appeals for aid."
+   "answer": "Gnolls and Blackrock orcs threaten Lakeshire, and every local guardsman is needed to defend the town and hold the bridge. Magistrate Solomon entrusts travelers with his urgent appeals for aid."
   },
   {
    "q": "What is in 'The State of Lakeshire' report?",
@@ -47,7 +47,7 @@
     "solomon report",
     "what is the letter"
    ],
-   "answer": "It is an official accounting of the crisis engulfing the Redridge Mountains, detailing the mounting enemy numbers, casualties, and the town's imminent fall if regular soldiers are not sent from the capital."
+   "answer": "The State of Lakeshire is an official account of the crisis in the Redridge Mountains. It details rising enemy numbers, casualties, and the town's imminent fall without regular soldiers from the capital."
   },
   {
    "q": "Who is General Marcus Jonathan?",
@@ -56,7 +56,7 @@
     "who is the general",
     "general of stormwind"
    ],
-   "answer": "General Marcus Jonathan is the commander of the Stormwind City Guard and high-ranking leader within the Stormwind Army. He monitors the city gates and reports directly to Highlord Bolvar Fordragon and the crown."
+   "answer": "General Marcus Jonathan commands the Stormwind City Guard and is a high-ranking leader in the Stormwind Army. He monitors the city gates and reports directly to Highlord Bolvar Fordragon and the crown."
   },
   {
    "q": "Why doesn't General Jonathan send soldiers right away?",
@@ -65,7 +65,7 @@
     "where are reinforcements",
     "jonathan response"
    ],
-   "answer": "General Jonathan cannot deploy the army on his own authority. He must bring Solomon's report before the King and the regency council to obtain an official royal mandate before any troops can march."
+   "answer": "General Jonathan cannot deploy the army on his own authority. He must bring Solomon's report before the King and regency council for an official royal mandate before troops can march."
   },
   {
    "q": "Is the road between Lakeshire and Stormwind safe?",
@@ -74,7 +74,7 @@
     "safe travel",
     "redridge road"
    ],
-   "answer": "No. The paths through Redridge and into Elwynn are plagued by aggressive gnoll bands and Defias highwaymen, making the journey perilous for lone messengers."
+   "answer": "No. Aggressive gnoll bands and Defias highwaymen plague the paths through Redridge and into Elwynn, making the journey perilous for lone messengers."
   },
   {
    "q": "Does Stormwind end up sending help?",
@@ -82,21 +82,21 @@
     "do reinforcements arrive",
     "help for lakeshire"
    ],
-   "answer": "Political inertia and turmoil in the capital delay any real army response, leaving Lakeshire and its magistrate to rely almost entirely on mercenaries and volunteers."
+   "answer": "Political turmoil and delay in the capital hold back any real army response. Lakeshire and Magistrate Solomon are left to rely almost entirely on mercenaries and volunteers."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "This mission exposes the growing strain between the prosperous capital and the neglected border settlements fighting for survival on the kingdom's edges."
+   "text": "For the Alliance, Lakeshire's plea reveals the strain between the prosperous capital and border settlements fighting for survival on the kingdom's edges."
   },
   {
    "target": "race:Human",
-   "text": "Redridge is ancestral Stormwind territory; seeing fellow humans abandoned behind bureaucratic red tape stings any patriot of the kingdom."
+   "text": "As a human, you know Redridge is ancestral Stormwind territory. Seeing fellow humans left behind by bureaucratic red tape can sting your patriotism."
   },
   {
    "target": "class:Paladin",
-   "text": "Bearing cries of the desperate to leaders paralyzed by court politics tests the core virtues of duty, protection, and righteous action."
+   "text": "As a paladin, you carry the desperate's pleas to leaders held back by court politics, testing your duty, your protection of others, and your righteous action."
   }
  ],
  "keywords": [
@@ -119,5 +119,6 @@
  ],
  "attribution": [
   "Messenger to Stormwind"
- ]
+ ],
+ "style": 1
 }

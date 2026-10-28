@@ -99,12 +99,16 @@ const ASKED = [
   "I want you to remember my hearthstone is in Goldshire", "jot down that Thor flies to Stormwind",
   "change the linen line on my list to 12", "don't let me forget the Defias quest",
   "note for all my characters that my bank alt is Bobby", "Willo, note: Thor is the flight master",
+  "prioritize the linen",
 ];
 const NOT_ASKED = [
   "Who is Hogger?", "Do you remember Arthas?", "remind me who Hogger is", "where can I buy linen cloth?",
   "I need 10 linen cloth", "what should I put in my bags?", "what to do in Westfall", "I remember when Stormwind burned",
   "what's on my to-do?", "what did I ask you to remember?", "Tell me about the Defias Brotherhood", "Hi Willo!",
   "how do I note things in the game?", "Note how the Defias came to be",
+  // Advice asked for, not a line to move (the Survivors check, 10/27: "which spells should I prioritize?" got "Which
+  // character should I write that down for?").
+  "what stats should I prioritize as a hunter?", "which spells should I prioritize?", "Should I prioritize Mining?",
 ];
 
 test("only a question that asks her to write in the notebook gets its tools", () => {
@@ -995,6 +999,12 @@ test("reminders: listed with their moments, changed, and cancelled by number", a
   reply = () => called("notebook_remove", { answer: "Gone.", items: [9] });
   assert.equal((await ask(token, "cancel the Darnassus reminder")).answer, NOT_FOUND_LINE);
   assert.equal(reminders(user).length, 1);
+  // Both of them, by their kind: both go, though neither is named by its words.
+  reply = () => called("notebook_remind", { answer: "Ok", text: "train", when: "level", level: 20 });
+  await ask(token, "remind me to train when I hit 20");
+  reply = () => called("notebook_remove", { answer: "Gone.", items: [1, 2] });
+  await ask(token, "clear both my reminders");
+  assert.equal(reminders(user).length, 0);
 });
 
 test("reminders: on the free plan, no reminder tool; plain words about Hero typed, never a plan out loud", async () => {

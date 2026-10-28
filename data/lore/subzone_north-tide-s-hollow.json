@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "North Tide's Hollow"
  },
- "summary": "North Tide's Hollow is a rugged wilderness pocket in Silverpine Forest located just north of the Sepulcher. Haunted by feral Moonrage worgen loyal to the rogue Archmage Arugal, the clearing serves as a base of operations for the beasts stalking the coastal woods.",
+ "summary": "Moonrage worgen haunt North Tide's Hollow, a clearing just north of the Sepulcher in Silverpine Forest. Loyal to the rogue Archmage Arugal, they use it as a base to stalk the coastal woods.",
  "sections": [
   {
    "title": "A Feral Foothold",
-   "body": "Tucked away in the dense timber north of the Forsaken settlement of the Sepulcher, North Tide's Hollow is dominated by the savage Moonrage pack. These feral worgen, brought into Lordaeron through the reckless sorcery of Archmage Arugal, have established crude encampments throughout the hollow. Built with only the barest necessities required by the hardy beasts, these rough shelters provide a forward staging ground dangerously close to Forsaken travel routes.",
+   "body": "North Tide's Hollow lies in dense timber north of the Forsaken settlement of the Sepulcher. The savage Moonrage pack holds the hollow, worgen brought into Lordaeron by Archmage Arugal's reckless sorcery. Crude shelters scattered through the hollow offer the hardy beasts little more than bare necessities, yet give them a forward staging ground close to Forsaken travel routes.",
    "spoiler": 0
   },
   {
    "title": "Under Shadowfang's Shadow",
-   "body": "Unlike ordinary wilderness predators, the worgen of North Tide's Hollow answer to the sinister will emanating from Shadowfang Keep. Their proximity to both the western shoreline and the main road through Silverpine makes them a constant menace to Forsaken couriers and patrols attempting to secure the region.",
+   "body": "The Moonrage worgen answer to a sinister will from Shadowfang Keep, unlike ordinary wilderness predators. Near the western shoreline and Silverpine's main road, they menace Forsaken couriers and patrols moving through the region.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "where is north tides hollow",
     "hollow location"
    ],
-   "answer": "North Tide's Hollow is located in western Silverpine Forest, situated just to the north of the Forsaken outpost known as the Sepulcher, near the coastal bluffs."
+   "answer": "North Tide's Hollow lies in western Silverpine Forest, just north of the Forsaken outpost of the Sepulcher and near the coastal bluffs."
   },
   {
    "q": "What creatures inhabit North Tide's Hollow?",
@@ -37,7 +37,7 @@
     "north tides hollow enemies",
     "mobs in north tides hollow"
    ],
-   "answer": "The hollow is infested with Moonrage worgen, supernatural wolf-beasts bound to the madness of Archmage Arugal."
+   "answer": "Moonrage worgen, supernatural wolf-beasts bound to Archmage Arugal's madness, inhabit the hollow."
   },
   {
    "q": "Why do the worgen live in crude camps here?",
@@ -45,7 +45,7 @@
     "worgen camps",
     "why do worgen have tents"
    ],
-   "answer": "While worgen are vicious and wild, the Moonrage pack retains enough cunning to organize basic encampments. Being naturally resilient and hardened, they require only the most primitive shelters and survival necessities to endure the Lordaeron wilderness."
+   "answer": "Though vicious and wild, the Moonrage pack is cunning enough to organize basic camps. The worgen are resilient and hardened, needing only primitive shelters and necessities to endure Lordaeron's wilderness."
   },
   {
    "q": "Who controls the worgen in this area?",
@@ -59,7 +59,7 @@
  "angles": [
   {
    "target": "race:Undead",
-   "text": "Positioned uncomfortably close to the Sepulcher, the Moonrage pack in North Tide's Hollow poses an immediate threat to Forsaken sovereignty and logistical lines in Silverpine."
+   "text": "Near the Sepulcher, the Moonrage pack in North Tide's Hollow threatens Forsaken sovereignty and logistical lines in Silverpine."
   }
  ],
  "keywords": [
@@ -78,5 +78,6 @@
  ],
  "attribution": [
   "North Tide's Hollow"
- ]
+ ],
+ "style": 1
 }

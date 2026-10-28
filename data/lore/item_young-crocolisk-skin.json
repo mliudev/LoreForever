@@ -10,11 +10,11 @@
    "quest:484"
   ]
  },
- "summary": "Young Crocolisk Skin is a pliable reptile pelt harvested from juvenile crocolisks throughout the Wetlands. Prized by local tanners like James Halloran of Menethil Harbor, these softer hides are cured and exported to ports across Azeroth.",
+ "summary": "In the Wetlands, young crocolisks provide hides for trade from Menethil Harbor. Their softer skins are cured by local tanner James Halloran and shipped to distant ports.",
  "sections": [
   {
    "title": "Tanning and Trade in the Marshes",
-   "body": "Menethil Harbor serves as a bustling hub of commerce along the western coast of Khaz Modan, exporting marshland goods to distant ports. Among the town's most lucrative exports are the cured hides processed by the harbor's resident tanner, James Halloran. While full-grown crocolisks yield thick, tough scales, their young provide softer, far more workable leather. Because these juvenile skins are delicate and in high demand, Halloran relies on local hunters and passing travelers to scour the boggy marshes just outside town to keep his curing racks stocked.",
+   "body": "Menethil Harbor sends marsh goods to distant ports from the western coast of Khaz Modan. The town’s resident tanner, James Halloran, cures hides among its most lucrative exports. Full-grown crocolisks have thick, tough scales, while their young provide softer leather that is easier to work. The delicate skins are in high demand, so Halloran depends on local hunters and passing travelers to search the boggy marshes just outside town and keep his curing racks stocked.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "halloran skins",
     "why soft skins"
    ],
-   "answer": "Young crocolisks yield significantly softer leather than their fully grown counterparts. While mature beasts possess thick, rigid scales, the hides of juveniles are far easier to work and cure into supple goods that are in high demand across sea trade routes."
+   "answer": "Young crocolisks have softer hides that are easier to work and cure than the thick, tough scales of mature crocolisks. Their leather is in high demand across sea trade routes."
   },
   {
    "q": "Where can young crocolisks be found?",
@@ -35,7 +35,7 @@
     "where to find young crocs",
     "wetlands crocolisks"
    ],
-   "answer": "Young Wetlands Crocolisks inhabit the waterways, bogs, and marshes lying just outside Menethil Harbor in the western Wetlands."
+   "answer": "Young Wetlands Crocolisks live in the waterways, bogs, and marshes just outside Menethil Harbor in the western Wetlands."
   },
   {
    "q": "Who else hunts these crocolisks for the harbor?",
@@ -44,7 +44,7 @@
     "einar hunter",
     "menethil tanner hunters"
    ],
-   "answer": "A local hunter named Einar is known to regularly bring in crocolisk hides for James Halloran's leatherworking business, though demand often outpaces what a single tracker can supply."
+   "answer": "Einar, a local hunter, regularly brings crocolisk hides to James Halloran’s leatherworking business, though one tracker cannot always meet demand."
   },
   {
    "q": "Where are these cured skins shipped?",
@@ -53,13 +53,13 @@
     "menethil skin exports",
     "where do skins go"
    ],
-   "answer": "Halloran's finished goods are loaded onto merchant vessels leaving Menethil Harbor, bound for major ports and markets across the Eastern Kingdoms and beyond."
+   "answer": "James Halloran’s finished goods leave Menethil Harbor aboard merchant vessels bound for major ports and markets across the Eastern Kingdoms and beyond."
   }
  ],
  "angles": [
   {
    "target": "class:Hunter",
-   "text": "Stalking the muddy edges of the Wetlands for crocolisk hides is standard practice for trackers supplying the bustling leather trade in Menethil Harbor."
+   "text": "As a hunter, you can stalk the muddy edges of the Wetlands for crocolisk hides to supply Menethil Harbor’s leather trade."
   }
  ],
  "keywords": [
@@ -83,5 +83,6 @@
  "attribution": [
   "Young Crocolisk Skin",
   "Young Crocolisk Skins"
- ]
+ ],
+ "style": 1
 }

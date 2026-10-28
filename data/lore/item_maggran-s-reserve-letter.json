@@ -10,11 +10,11 @@
    "quest:5881"
   ]
  },
- "summary": "Maggran's Reserve Letter is an official dispatch written by Maggran Earthbinder at Sun Rock Retreat. Carried across Kalimdor to the Great Lift, it grants a stationed sentry long-awaited relief so he may return home to visit his family.",
+ "summary": "At Sun Rock Retreat, Maggran Earthbinder sends orders to relieve a guard at the Great Lift. The letter promises Grish Longrunner leave to visit his family.",
  "sections": [
   {
    "title": "A Sentry Relieved",
-   "body": "Maintaining outposts across the rugged expanse of Kalimdor demands vigilance, but the leaders of the Horde recognize that prolonged watch duty takes a heavy toll on morale. Penned by Maggran Earthbinder in the high crags of Sun Rock Retreat, this simple missive serves as official orders notifying Grish Longrunner that a replacement warrior has been dispatched to take over his post at the Great Lift. For a lonely guard watching over the towering wooden winches far to the south, the letter promises something rare in troubled times: an honorable leave of absence to reunite with family.",
+   "body": "Maggran Earthbinder sends orders from Sun Rock Retreat to the Great Lift. Grish Longrunner, a Horde sentry at the post, is to be relieved by a replacement warrior. The Great Lift's wooden winches stand far to the south, where Grish has kept watch. With the new warrior taking his place, he can leave his post and return home to visit his family.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "maggran letter purpose",
     "why deliver letter"
    ],
-   "answer": "The letter contains official orders from Maggran Earthbinder relieving the sentry Grish Longrunner from his post at the Great Lift in the southern Barrens, allowing him to return home and visit his family."
+   "answer": "Maggran Earthbinder's orders relieve Grish Longrunner from his post at the Great Lift in the southern Barrens, so he can return home and visit his family."
   },
   {
    "q": "Who wrote the letter?",
@@ -35,7 +35,7 @@
     "author of reserve letter",
     "maggran earthbinder"
    ],
-   "answer": "The letter was written by Maggran Earthbinder, an elder residing at Sun Rock Retreat in the Stonetalon Mountains."
+   "answer": "Maggran Earthbinder wrote the letter. He is an elder at Sun Rock Retreat in the Stonetalon Mountains."
   },
   {
    "q": "Who is meant to receive it?",
@@ -44,7 +44,7 @@
     "letter recipient",
     "where does it go"
    ],
-   "answer": "It is addressed to Grish Longrunner, a Horde guard stationed at the top of the Great Lift connecting the southern Barrens to Thousand Needles."
+   "answer": "The letter is addressed to Grish Longrunner, a Horde guard stationed at the top of the Great Lift, which connects the southern Barrens to Thousand Needles."
   },
   {
    "q": "Where is the letter delivered?",
@@ -53,13 +53,13 @@
     "where is grish",
     "great lift location"
    ],
-   "answer": "It must be carried south across the Barrens to the edge of the Thousand Needles canyon, where the Great Lift stands."
+   "answer": "Carry the letter south across the Barrens to the edge of the Thousand Needles canyon, where the Great Lift stands."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "The missive highlights the Horde's post-war efforts to care for its scattered forces by cycling fresh reserves into remote outposts across Kalimdor."
+   "text": "As a member of the Horde, you can see its effort to care for scattered forces by sending fresh reserves to remote outposts across Kalimdor."
   }
  ],
  "keywords": [
@@ -86,5 +86,6 @@
  "attribution": [
   "Maggran's Reserve Letter",
   "Calling in the Reserves"
- ]
+ ],
+ "style": 1
 }

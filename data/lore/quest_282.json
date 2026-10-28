@@ -22,16 +22,16 @@
    "Senir's Observations (2)"
   ]
  },
- "summary": "Having gathered vital intelligence on local threats in Coldridge Valley, Grelin Whitebeard entrusts you with carrying his findings to his brother, Senir Whitebeard, out in Kharanos. However, leaving the sheltered valley requires passing through a tunnel recently overrun by hostile troggs, guarded by Mountaineer Thalos.",
+ "summary": "Grelin Whitebeard sends you east from Coldridge Valley with his report for Senir Whitebeard in Kharanos. The tunnel out is overrun by troggs, and Mountaineer Thalos guards the way.",
  "sections": [
   {
    "title": "A Courier for the Whitebeards",
-   "body": "Grelin Whitebeard spent considerable effort documenting the troll activity stirring around Coldridge Valley. When his journal was pilfered and subsequently recovered, it became clear that the collected intelligence was far too critical to trust to an inexperienced apprentice. Looking to bypass intermediate hands, Grelin selects a seasoned adventurer to convey his report directly to his brother, Senir Whitebeard, who conducts operations outside the valley in Kharanos.",
+   "body": "Grelin Whitebeard has documented troll activity around Coldridge Valley. After Frostmane trolls stole his journal and it was recovered, he decided the report was too important for an inexperienced apprentice to carry. He sends you directly to his brother, Senir Whitebeard, who works outside the valley in Kharanos.",
    "spoiler": 0
   },
   {
    "title": "The Blocked Pass to Kharanos",
-   "body": "Leaving Coldridge Valley is no longer a simple trek down the main road. The eastern tunnel connecting the valley to the wider snowy plateau of Dun Morogh has been violently overrun by burrowing troggs. To prevent unwary civilians from wandering into a deathtrap, the Ironforge guard has stationed Mountaineer Thalos just outside the passage. Only travelers carrying urgent, official business are granted leave to push past the sentry post and brave the subterranean gauntlet.",
+   "body": "The eastern tunnel is the road from Coldridge Valley to the rest of Dun Morogh, but troggs have overrun it. Mountaineer Thalos stands outside the passage to keep civilians from entering danger. He lets travelers through only when they carry urgent official business.",
    "spoiler": 0
   }
  ],
@@ -43,7 +43,7 @@
     "senir whitebeard",
     "report recipient"
    ],
-   "answer": "The report is addressed to Senir Whitebeard, Grelin's brother, who is stationed beyond the mountains in Kharanos assessing regional concerns."
+   "answer": "Grelin Whitebeard sends the report to Senir Whitebeard, his brother, who is in Kharanos assessing regional concerns."
   },
   {
    "q": "Why can't Grelin's apprentice deliver the report?",
@@ -51,7 +51,7 @@
     "why not apprentice",
     "grelin apprentice"
    ],
-   "answer": "Grelin intended to send his apprentice originally, but after the recent troubles with Frostmane trolls stealing his journal, he deemed the information too important to leave in inexperienced hands."
+   "answer": "Grelin first planned to send his apprentice, but Frostmane trolls stole his journal. The information was too important to entrust to inexperienced hands."
   },
   {
    "q": "Why is the tunnel out of Coldridge Valley guarded?",
@@ -60,7 +60,7 @@
     "tunnel blocked",
     "why is tunnel closed"
    ],
-   "answer": "The tunnel connecting Coldridge Valley to the rest of Dun Morogh has been completely overrun by troggs. Mountaineer Thalos is stationed at the mouth to keep civilians safe until the way can be cleared."
+   "answer": "Troggs have overrun the tunnel from Coldridge Valley into Dun Morogh. Mountaineer Thalos guards its mouth to keep civilians safe until the way is clear."
   },
   {
    "q": "Where is Mountaineer Thalos located?",
@@ -69,7 +69,7 @@
     "where is thalos",
     "find mountaineer thalos"
    ],
-   "answer": "Thalos is stationed east of Anvilmar, standing watch right near the entrance to the tunnel that leads out of Coldridge Valley toward Kharanos."
+   "answer": "Mountaineer Thalos watches east of Anvilmar, near the entrance to the tunnel leading from Coldridge Valley toward Kharanos."
   },
   {
    "q": "What allows you to pass through the trogg-infested tunnel?",
@@ -77,7 +77,7 @@
     "pass through tunnel",
     "tunnel permission"
    ],
-   "answer": "Mountaineer Thalos will not let ordinary travelers into the tunnel, but carrying an urgent dispatch from Grelin Whitebeard proves your business is essential enough to risk the journey."
+   "answer": "Mountaineer Thalos lets you enter because you carry Grelin Whitebeard's urgent dispatch."
   },
   {
    "q": "What happens after speaking with Mountaineer Thalos?",
@@ -85,21 +85,21 @@
     "next step",
     "what after thalos"
    ],
-   "answer": "Thalos provides warnings and guidance for traversing the dangerous subterranean route before clearing you to continue eastward toward Kharanos."
+   "answer": "Mountaineer Thalos warns you about the dangerous tunnel and guides you before allowing you to continue east toward Kharanos."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "For dwarven mountaineers and recruits, passing through the eastern tunnel marks your first official deployment beyond the training grounds of Coldridge Valley."
+   "text": "As a dwarven mountaineer or recruit, you pass through the eastern tunnel on your first official deployment beyond Coldridge Valley's training grounds."
   },
   {
    "target": "race:Gnome",
-   "text": "As gnomish refugees living among the Bronzebeards, this dispatch offers a path out of the initial haven toward the wider issues gripping Dun Morogh."
+   "text": "As a gnomish refugee living among the Bronzebeards, you can carry this dispatch out of your first haven and toward the troubles gripping Dun Morogh."
   },
   {
    "target": "faction:Alliance",
-   "text": "Maintaining secure passage between dwarven valleys is critical to the defense of Ironforge and the safety of Alliance couriers."
+   "text": "You help keep passage between dwarven valleys secure, protecting Ironforge and Alliance couriers."
   }
  ],
  "keywords": [
@@ -125,5 +125,6 @@
  ],
  "attribution": [
   "Senir's Observations"
- ]
+ ],
+ "style": 1
 }

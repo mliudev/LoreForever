@@ -8,11 +8,11 @@
   "wiki": "Marek Ironheart",
   "refs": 1
  },
- "summary": "Marek Ironheart is a veteran dwarven hunter stationed at the Farstrider Lodge in south-eastern Loch Modan. Dedicated to the traditions of the wild, he tests wandering travelers and marksmen alike before welcoming them into the ranks of the lodge's honored hunters.",
+ "summary": "At the Farstrider Lodge, Marek Ironheart tests those who seek the respect of its hunters. The veteran dwarven hunter is stationed in south-eastern Loch Modan and keeps to the traditions of the wild.",
  "sections": [
   {
    "title": "Master of the Hunt",
-   "body": "Perched on the scenic ridge overlooking the lake, the Farstrider Lodge serves as an outpost for the finest marksmen and trackers in the dwarven lands. Marek Ironheart embodies this frontier spirit. Unimpressed by titles or talk, Marek requires anyone seeking the lodge's respect to demonstrate their practical prowess against the varied beasts roaming Loch Modan, proving they have the patience and nerve demanded of a true stalker of the wild.",
+   "body": "At the Farstrider Lodge, Marek Ironheart expects hunters to prove their skill. The lodge overlooks the lake from a ridge in south-eastern Loch Modan and gathers marksmen and trackers from across the dwarven lands. Marek pays little heed to titles or boasts. Anyone seeking the lodge’s respect must show practical skill against the beasts roaming Loch Modan, with the patience and nerve of a true hunter.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "marek ironheart",
     "who is marek"
    ],
-   "answer": "Marek Ironheart is a dwarven huntsman residing at the Farstrider Lodge in Loch Modan. He tests visitors seeking approval among the lodge's community of trackers and outdoorsmen."
+   "answer": "Marek Ironheart is a dwarven huntsman at the Farstrider Lodge in Loch Modan. He tests visitors who seek acceptance among the lodge’s trackers and outdoorsmen."
   },
   {
    "q": "Where can I find Marek Ironheart?",
@@ -31,7 +31,7 @@
     "marek ironheart location",
     "where is marek"
    ],
-   "answer": "He is located at the Farstrider Lodge, nestled in the hills along the south-eastern shore of Loch Modan."
+   "answer": "Marek Ironheart is at the Farstrider Lodge, in the hills along Loch Modan’s south-eastern shore."
   },
   {
    "q": "What kind of tasks does Marek offer?",
@@ -39,7 +39,7 @@
     "marek ironheart quests",
     "marek quests"
    ],
-   "answer": "Marek directs hunters to track down and cull various local wildlife around the loch, testing their survival skills against dangerous crocolisks."
+   "answer": "Marek sends hunters to track and cull local wildlife around the loch, testing their survival skills against dangerous crocolisks."
   },
   {
    "q": "Is Marek related to any other known dwarves?",
@@ -47,17 +47,17 @@
     "ironheart family",
     "marek relatives"
    ],
-   "answer": "Sharing a notable dwarven surname, he may be kin to Archaeologist Adamant Ironheart and Imme Ironheart, though Marek devotes his life to the hunt rather than excavating relics."
+   "answer": "Marek Ironheart may be kin to Archaeologist Adamant Ironheart and Imme Ironheart, who share his notable dwarven surname. Marek devotes his life to hunting rather than excavating relics."
   }
  ],
  "angles": [
   {
    "target": "class:Hunter",
-   "text": "For rangers and beast-stalkers, Marek Ironheart represents the rugged traditions of the Farstrider Lodge, challenging hunters to prove their accuracy and tracking skills against the local wildlife."
+   "text": "As a hunter, you can see Marek Ironheart’s rugged Farstrider Lodge traditions in his challenges, which test your accuracy and tracking against local wildlife."
   },
   {
    "target": "race:Dwarf",
-   "text": "Marek exemplifies the outdoorsman culture cherished by many Khaz Modan dwarves, choosing the quiet watch of the mountains over the noisy forge fires of Ironforge."
+   "text": "As a dwarf, you can see in Marek the outdoorsman culture cherished by many Khaz Modan dwarves. He chooses the quiet watch of the mountains over Ironforge’s forge fires."
   }
  ],
  "keywords": [
@@ -77,5 +77,6 @@
  ],
  "attribution": [
   "Marek Ironheart"
- ]
+ ],
+ "style": 1
 }

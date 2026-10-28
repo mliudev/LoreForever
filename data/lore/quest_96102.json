@@ -1,0 +1,83 @@
+{
+ "key": "quest:96102",
+ "type": "quest",
+ "name": "Camping 101: Tailoring",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   96102
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Tailoring training teaches you to make a Rallying Banner. To test it, you need a camp in the wilderness and a campfire.",
+ "sections": [
+  {
+   "title": "A Campfire First",
+   "body": "You can now craft your own Rallying Banner, but the completion note says to test it in the wilderness rather than in town. A camp also needs a campfire before you set it up. Most cooks can teach you to make one, so a cooking trainer can teach you the basics if you have not learned them.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What can I make after this?",
+   "aliases": [
+    "what do i craft",
+    "banner recipe",
+    "tailoring banner"
+   ],
+   "answer": "You can craft your own Rallying Banner."
+  },
+  {
+   "q": "Where should I test the banner?",
+   "aliases": [
+    "where to test it",
+    "camping where",
+    "test banner"
+   ],
+   "answer": "Head into the wilderness to test your Rallying Banner; the completion note says townsfolk generally do not care for camps in the center of town."
+  },
+  {
+   "q": "What does a camp need?",
+   "aliases": [
+    "camp needs what",
+    "campfire needed",
+    "camping basics"
+   ],
+   "answer": "A camp needs a campfire before you set it up."
+  },
+  {
+   "q": "Who can teach me to make a campfire?",
+   "aliases": [
+    "campfire trainer",
+    "who teaches fire",
+    "cooking fire"
+   ],
+   "answer": "Most cooks can teach you to make a fire. A cooking trainer can teach you the basics."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Tailoring",
+   "text": "As a tailor, you can craft a Rallying Banner for your camp."
+  },
+  {
+   "target": "profession:Cooking",
+   "text": "As a cook, you can teach others to make a campfire."
+  }
+ ],
+ "keywords": [
+  "campfire",
+  "camping",
+  "cooking",
+  "rallying banner",
+  "tailoring",
+  "wilderness"
+ ],
+ "related": [],
+ "style": 1,
+ "attribution": [
+  "In-game quest text: Camping 101: Tailoring"
+ ]
+}

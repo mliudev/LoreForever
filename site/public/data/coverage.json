@@ -1,9 +1,9 @@
 {
- "generated": "2026-10-26",
+ "generated": "2026-10-27",
  "forever_only": {
   "quests_known": 508,
   "quests_with_text": 471,
-  "narrated": 432,
+  "narrated": 405,
   "npcs_known": 225,
   "npcs_with_text": 72
  },
@@ -13,7 +13,7 @@
    "key": "general",
    "quests": 395,
    "with_text": 358,
-   "narrated": 320
+   "narrated": 298
   },
   {
    "zone": "Zephras Isle",
@@ -69,7 +69,7 @@
    "key": "alterac",
    "quests": 5,
    "with_text": 5,
-   "narrated": 5
+   "narrated": 0
   },
   {
    "zone": "Redridge Mountains",

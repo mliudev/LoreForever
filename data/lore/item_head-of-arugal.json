@@ -10,11 +10,11 @@
    "quest:1014"
   ]
  },
- "summary": "The Head of Arugal is the grisly trophy taken from the mad archmage atop Shadowfang Keep. Brought to the Forsaken at the Sepulcher, it serves as undeniable proof that the master of the local worgen has fallen.",
+ "summary": "At Shadowfang Keep, Head of Arugal is taken from the mad archmage who commands the worgen. The Forsaken at the Sepulcher seek it as proof that he has fallen.",
  "sections": [
   {
    "title": "Trophy of the Mad Archmage",
-   "body": "Archmage Arugal has long cast a dark shadow across Silverpine Forest, commanding the lupine horrors from the ramparts of Shadowfang Keep. Claiming his severed head is the ultimate mandate given by Dalar Dawnweaver at the Sepulcher. To the Forsaken, the head is far more than a gruesome token; it signifies the removal of a potent spellcaster whose feral beasts impeded Lady Sylvanas's complete dominion over Silverpine. Presenting it to Dawnweaver confirms that the rogue archmage's foul sorcery has finally been severed from the land.",
+   "body": "Archmage Arugal commands the worgen from Shadowfang Keep in Silverpine Forest. Dalar Dawnweaver at the Sepulcher gives the order to claim his severed head. The Forsaken see Arugal's fall as a blow against the beasts that hinder Lady Sylvanas's hold over Silverpine. Bringing the head to Dawnweaver proves the archmage's sorcery has been cut from the land.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "arugal head turn in",
     "who takes head of arugal"
    ],
-   "answer": "Dalar Dawnweaver, an emissary stationed at the Sepulcher in Silverpine Forest, demands the head as part of the task 'Arugal Must Die'."
+   "answer": "Dalar Dawnweaver, an emissary at the Sepulcher in Silverpine Forest, wants the head as part of the order called Arugal Must Die."
   },
   {
    "q": "Where do you obtain the Head of Arugal?",
@@ -35,7 +35,7 @@
     "arugal head drop",
     "where is arugal's head"
    ],
-   "answer": "It is severed from Archmage Arugal himself, who resides at the highest pinnacle of Shadowfang Keep overlooking Pyrewood Village and the Silverpine woods."
+   "answer": "The Head of Arugal comes from Archmage Arugal, who dwells at Shadowfang Keep's highest pinnacle, above Pyrewood Village and the Silverpine woods."
   },
   {
    "q": "Why do the Forsaken want Arugal dead?",
@@ -44,7 +44,7 @@
     "forsaken arugal reason",
     "why does dalar want arugal dead"
    ],
-   "answer": "Arugal's presence and his pack of feral worgen prevent the Forsaken from securing Silverpine Forest as a safe strategic stronghold for Lady Sylvanas and the Undercity."
+   "answer": "The Forsaken want Arugal dead because he and his worgen pack keep them from securing Silverpine Forest as a safe stronghold for Lady Sylvanas and the Undercity."
   },
   {
    "q": "What happens after the head is turned in?",
@@ -52,17 +52,17 @@
     "after arugal dies",
     "result of arugal must die"
    ],
-   "answer": "Dalar Dawnweaver vows to eradicate the remnants of Arugal's foul spells, declaring that Silverpine is finally freed from the mad wizard's vice."
+   "answer": "After receiving the head, Dalar Dawnweaver vows to eradicate the remnants of Arugal's spells and declares Silverpine free of the mad wizard's grip."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "For the Forsaken, delivering Arugal's head eliminates a volatile sorcerer on their southern doorstep, securing Silverpine Forest for the Dark Lady."
+   "text": "As Forsaken, you help remove a dangerous sorcerer from the southern edge of Silverpine Forest and secure the land for the Dark Lady."
   },
   {
    "target": "class:Mage",
-   "text": "The severed head of a former Kirin Tor archmage serves as a stark warning of the madness and ruin that unchecked, desperate summonings can bring upon even gifted practitioners."
+   "text": "As a mage, you see the severed head of a former Kirin Tor archmage as a warning of the madness and ruin that desperate summonings can bring, even to gifted practitioners."
   }
  ],
  "keywords": [
@@ -86,5 +86,6 @@
  "attribution": [
   "Head of Arugal",
   "Arugal Must Die"
- ]
+ ],
+ "style": 1
 }

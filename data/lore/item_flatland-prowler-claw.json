@@ -10,11 +10,11 @@
    "quest:861"
   ]
  },
- "summary": "A Flatland Prowler Claw is taken from the dangerous feline predators that stalk the grassy plains of Mulgore. For aspiring hunters, gathering these claws serves as a traditional rite of passage, demonstrating cunning and martial resolve to the elders of Thunder Bluff.",
+ "summary": "Across Mulgore's plains, Flatland Prowler Claws mark a young hunter's trial. Hunters gather them to prove their resolve and fieldcraft to the elders of Thunder Bluff.",
  "sections": [
   {
    "title": "A Hunter's Proof",
-   "body": "Flatland prowlers are among the most cunning and territorial predators roaming the wind-swept plains of Mulgore. Quick on their feet and adept at ambushing prey in the tall grass, they present a genuine threat to travelers and a worthy test for young hunters. Collecting their sharp claws is not merely a task of survival, but a recognized tradition. Skorn Whitecloud advises promising wanderers to harvest these trophies to present to Melor Stonehoof atop Thunder Bluff's Hunter Rise, proving they possess the resolve and fieldcraft necessary to pursue the hunter's way.",
+   "body": "Flatland prowlers stalk Mulgore's plains, quick to ambush prey in tall grass. Their cunning and territorial nature makes them dangerous to travelers and a hard test for young hunters. Gathering their claws is a recognized tradition. Skorn Whitecloud sends promising wanderers to bring the claws to Melor Stonehoof at Hunter Rise in Thunder Bluff, proof that they have the resolve and fieldcraft to follow the hunter's way.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "why get prowler claws",
     "hunter's way claws"
    ],
-   "answer": "They serve as a physical demonstration of skill and courage. Young hunters bring four of these claws to Melor Stonehoof on the Hunter Rise in Thunder Bluff to prove their readiness to walk the hunter's path."
+   "answer": "Young hunters bring four Flatland Prowler Claws to Melor Stonehoof at Hunter Rise in Thunder Bluff. The claws prove their skill and courage, and their readiness to follow the hunter's path."
   },
   {
    "q": "Who asks you to collect them?",
@@ -34,7 +34,7 @@
     "who wants prowler claws",
     "quest giver prowler claws"
    ],
-   "answer": "The elder hunter Skorn Whitecloud directs promising trackers to gather claws from the prowlers of Mulgore as an offering of proof before presenting themselves to Melor Stonehoof."
+   "answer": "Skorn Whitecloud asks promising trackers to gather claws from Mulgore's prowlers before presenting themselves to Melor Stonehoof."
   },
   {
    "q": "Why are flatland prowlers considered a fitting hunt?",
@@ -42,17 +42,17 @@
     "why flatland prowlers",
     "are prowlers dangerous"
    ],
-   "answer": "Flatland prowlers are tough, stealthy, and cunning carnivores native to the Mulgore plains. Successfully tracking and besting such alert predators proves that an aspiring hunter has the patience and combat instincts required of tauren tradition."
+   "answer": "Flatland prowlers are tough, stealthy carnivores native to Mulgore's plains. Tracking and defeating these alert predators tests the patience and combat instincts tauren tradition asks of a hunter."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "For the tauren, the hunt is an honorable spiritual tradition, and presenting the claws of a cunning plains predator marks an initiate's first steps toward serving the tribe as a tracker."
+   "text": "As a tauren, you honor the hunt as a spiritual tradition. Presenting the claws of a cunning plains predator marks your first steps toward serving your tribe as a tracker."
   },
   {
    "target": "class:Hunter",
-   "text": "Taking down stealthy prowlers tests a hunter's field awareness, making these claws a symbol of earned respect among the marksmen gathered on Thunder Bluff's Hunter Rise."
+   "text": "As a hunter, you test your field awareness against stealthy prowlers. Their claws mark earned respect among the marksmen at Hunter Rise in Thunder Bluff."
   }
  ],
  "keywords": [
@@ -77,5 +77,6 @@
  "attribution": [
   "Flatland Prowler Claw",
   "The Hunter's Way (Classic)"
- ]
+ ],
+ "style": 1
 }

@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Venomweb Vale"
  },
- "summary": "Venomweb Vale is a shadowed valley in eastern Tirisfal Glades, sitting just south of the Scarlet Monastery. Once a lush woodland teeming with game, the vale has devolved into a blighted nest overrun by aggressive, venomous arachnids.",
+ "summary": "South of the Scarlet Monastery, Venomweb Vale lies blighted beneath a swarm of venomous spiders. The valley was once a lush woodland where hunters tracked deer and rabbits.",
  "sections": [
   {
    "title": "A Blighted Refuge",
-   "body": "Before the plague consumed Lordaeron, this valley was a peaceful retreat of lush grass and verdant trees, favored by local hunters tracking deer and rabbits. Today, rot and creeping gloom dominate the landscape. Giant, venomous spiders swarm among the trees and hollows, led by the monstrous arachnid Sri'skulk. The vale's northern edge borders the territory of the Scarlet Crusade, where darkhounds prowl near the fortified Scarlet Encampment under Lieutenant Sanders.",
+   "body": "Venomweb Vale has fallen from a peaceful hunting ground to a blighted refuge. Before the plague consumed Lordaeron, local hunters followed deer and rabbits through its grass and trees. Now rot and gloom cover the valley, while giant venomous spiders swarm through the trees and hollows. The monstrous arachnid Sri'skulk leads them. To the north, the Scarlet Crusade holds the neighboring territory. Darkhounds prowl near the fortified Scarlet Encampment, where Lieutenant Sanders commands.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "why so many spiders",
     "who made the spiders"
    ],
-   "answer": "The vale was once a haven for hunting deer and rabbits, but it has become a tainted place overrun by poisonous spiders led by the monstrous Sri'skulk. Their deadly webs and venom are what gave the valley its new name."
+   "answer": "Venomweb Vale was once a hunting ground for deer and rabbits, but the valley is now overrun by poisonous spiders led by Sri'skulk. Their deadly webs and venom gave the vale its name."
   },
   {
    "q": "Who rules the arachnids in the vale?",
@@ -32,13 +32,13 @@
     "sri'skulk",
     "spider leader tirisfal"
    ],
-   "answer": "The spider brood is led by a massive, deadly arachnid known as Sri'skulk, who stalks the shadowed hollows beneath the valley's blighted canopy."
+   "answer": "Sri'skulk leads the spider brood in Venomweb Vale, stalking the hollows beneath its blighted canopy."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "Forsaken travelers traveling toward the Scarlet Monastery must navigate both the lethal toxins of Sri'skulk's brood and the watchful patrols of Lieutenant Sanders's Crusaders to the north."
+   "text": "As a Forsaken traveler heading toward the Scarlet Monastery, you must navigate Sri'skulk's lethal brood and the watchful Crusader patrols led by Lieutenant Sanders to the north."
   }
  ],
  "keywords": [
@@ -55,5 +55,6 @@
  ],
  "attribution": [
   "Venomweb Vale"
- ]
+ ],
+ "style": 1
 }

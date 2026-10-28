@@ -14,15 +14,15 @@
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Maintaining healthy gryphons is critical for Alliance travel and communication across Khaz Modan, especially when local hazards threaten regional security."
+   "text": "Healthy gryphons matter to Alliance travel and communication across Khaz Modan, especially when local dangers threaten regional security."
   },
   {
    "target": "race:Dwarf",
-   "text": "Dwarven gryphon riders know that an ill-tempered gryphon is as dangerous as any enemy, making proper feeding and care an absolute necessity before taking to the sky."
+   "text": "As a dwarf, you know an ill-tempered gryphon can be as dangerous as an enemy. Proper feeding and care come before flight."
   },
   {
    "target": "race:Gnome",
-   "text": "Howin humorously notes that Razormaw raptor eggs have yolks the size of a gnome's noggin, providing a vivid if slightly irreverent dwarven unit of measurement."
+   "text": "As a gnome, you may hear Howin compare Razormaw egg yolks to a gnome's noggin, a vivid dwarven measure."
   }
  ],
  "faq": [
@@ -32,7 +32,7 @@
     "howin kindfeather wetlands",
     "quest giver trying times"
    ],
-   "answer": "Howin Kindfeather is a dwarven handler tending to a gryphon named Bassbeak in the Wetlands. He tasks adventurers with collecting fresh raptor eggs to feed his partner before putting his plans into motion.",
+   "answer": "Howin Kindfeather is a dwarf who tends to Bassbeak, his gryphon in the Wetlands. He asks for fresh raptor eggs to feed her before he puts his plans into motion.",
    "q": "Who is Howin Kindfeather?"
   },
   {
@@ -41,7 +41,7 @@
     "bassbeak the gryphon",
     "howins gryphon"
    ],
-   "answer": "Bassbeak is Howin Kindfeather's gryphon. According to Howin, she becomes irritable and outright dangerous when hungry, making it unsafe to ride or use her without a full stomach.",
+   "answer": "Bassbeak is Howin Kindfeather's gryphon. When she is hungry, she grows irritable and dangerous, so riding her before she has eaten is unsafe.",
    "q": "Who is Bassbeak?"
   },
   {
@@ -50,7 +50,7 @@
     "why feed eggs to gryphon",
     "what are the eggs for"
    ],
-   "answer": "Howin specifically seeks Razormaw raptor eggs because untainted food is scarce in the Wetlands, and these eggs provide massive, nourishing yolks large enough to satisfy Bassbeak's formidable appetite.",
+   "answer": "Howin seeks Razormaw raptor eggs because he says untainted food is scarce in the Wetlands. Their large, nourishing yolks can satisfy Bassbeak's appetite.",
    "q": "Why does Howin need raptor eggs?"
   },
   {
@@ -59,7 +59,7 @@
     "where to find razormaw eggs",
     "wetlands raptor locations"
    ],
-   "answer": "Razormaw raptors inhabit Raptor Ridge to the northeast and Saltspray Glen to the northwest in the Wetlands. Adventurers must brave these nests directly to secure pristine eggs.",
+   "answer": "Razormaw raptors live at Raptor Ridge to the northeast and Saltspray Glen to the northwest in the Wetlands. Their nests hold the eggs Howin seeks.",
    "q": "Where can Razormaw raptors be found?"
   },
   {
@@ -67,7 +67,7 @@
     "why must eggs be perfect",
     "cracked eggs trying times"
    ],
-   "answer": "Howin insists on eggs that have no cracks or flaws to ensure the food is completely fresh and untainted, keeping Bassbeak healthy and content rather than feeding her spoiled scraps.",
+   "answer": "Howin asks for eggs without cracks or flaws so Bassbeak gets fresh, untainted food instead of spoiled scraps.",
    "q": "Why do the eggs need to be perfect?"
   },
   {
@@ -75,7 +75,7 @@
     "what is howins plan",
     "what are howin and bassbeak planning"
    ],
-   "answer": "Howin mentions having a broader plan involving Bassbeak, though he insists on keeping the details secondary until the gryphon is properly fed and calm enough to safely take flight amidst regional threats.",
+   "answer": "Howin has a broader plan for Bassbeak, but keeps its details secondary until she is fed and calm enough to fly safely amid the dangers of the region.",
    "q": "What is Howin planning to do with Bassbeak?"
   }
  ],
@@ -96,18 +96,19 @@
  ],
  "sections": [
   {
-   "body": "In the murky expanses of the Wetlands, maintaining a working mount requires constant vigilance. Howin Kindfeather, a dwarf working alongside his gryphon Bassbeak, refuses to take flight without first satisfying his partner's temperamental appetite. A hungry gryphon is stubborn, unpredictable, and prone to lashing out, making a proper meal the first requirement of any aerial endeavor in the marshes.",
+   "body": "Howin Kindfeather works with Bassbeak in the Wetlands. The dwarf will not fly with his gryphon until her appetite is satisfied. A hungry gryphon is stubborn and unpredictable, and may lash out. A proper meal comes before any flight through the marshes.",
    "spoiler": 0,
    "title": "Appeasing a Hungry Gryphon"
   },
   {
-   "body": "Finding reliable, uncorrupted nourishment has become increasingly difficult in the Wetlands. To satisfy Bassbeak, Howin targets the nests of native Razormaw raptors in Raptor Ridge to the northeast and Saltspray Glen to the northwest. The raptors' eggs are famous for having yolks the size of a gnome's head, offering the substantial, untainted meal Bassbeak needs before facing the dangers of the region.",
+   "body": "Howin seeks food for Bassbeak from the Razormaw raptors. Their nests lie at Raptor Ridge to the northeast and Saltspray Glen to the northwest. Razormaw eggs have yolks as large as a gnome's head, giving Bassbeak the substantial meal Howin wants before facing the dangers of the Wetlands.",
    "spoiler": 0,
    "title": "The Razormaw Bounty"
   }
  ],
- "summary": "Trying Times is an Alliance quest in the Wetlands where adventurers assist the dwarf Howin Kindfeather. To prepare his surly gryphon Bassbeak for an upcoming mission, Howin requires a dozen intact eggs gathered from fierce Razormaw raptors.",
+ "summary": "Howin Kindfeather needs help feeding Bassbeak before the gryphon can take flight. He seeks a dozen intact eggs from the fierce Razormaw raptors of the Wetlands.",
  "attribution": [
   "In-game quest text: Trying Times"
- ]
+ ],
+ "style": 1
 }

@@ -11,16 +11,16 @@
    "quest:1803"
   ]
  },
- "summary": "The Tattered Manuscript consists of loose, vandalized pages torn from the singular copy of the Tome of the Cabal. Hidden away in the dusty depths of southern Kalimdor, this battered portion of the text holds arcane secrets vital to warlocks seeking mastery over felhunters.",
+ "summary": "In Thousand Needles, the Tattered Manuscript lies hidden in Splithoof Hold. Its torn pages came from the Tome of the Cabal, and warlocks seek them to learn how to summon a felhunter.",
  "sections": [
   {
    "title": "A Vandalized Grimoire",
-   "body": "The Tome of the Cabal was once an intact, unique volume safeguarded within the fallen kingdom of Lordaeron. At some point, an unknown defiler ripped almost half of the treatise directly from its binding. While the surviving spine and remainder of the book\u2014now known as the Moldy Tome\u2014were shipped south toward Khaz Modan and lost at sea, these torn parchment leaves drifted far across the Great Sea into Kalimdor, ultimately falling into the hands of the Galak centaur inside Splithoof Hold.",
+   "body": "The Tome of the Cabal was once a unique, intact volume kept in the fallen kingdom of Lordaeron. An unknown defiler tore almost half its pages from the binding. The remaining spine and pages became known as the Moldy Tome. They were sent south toward Khaz Modan, then lost at sea. The torn leaves crossed the Great Sea to Kalimdor and came into the hands of the Galak centaur inside Splithoof Hold.",
    "spoiler": 0
   },
   {
    "title": "Reclaiming the Words",
-   "body": "Kept within a battered chest deep within the labyrinthine caverns of Splithoof Hold, the manuscript survived the harsh arid winds of Thousand Needles. Despite its fragile, tattered state, practitioners of the dark arts\u2014both Alliance warlocks working with Krom Stoutarm in Ironforge and Horde practitioners aiding Jorah Annison in the Undercity\u2014brave the aggressive centaur to reunite these lost leaves with the Moldy Tome. Once combined, the completed treatise contains the dark rituals necessary to summon and bind a demonic felhunter.",
+   "body": "The manuscript rests in a battered chest deep in the caverns of Splithoof Hold, where it endured the dry winds of Thousand Needles. Alliance warlocks work with Krom Stoutarm in Ironforge, while Horde practitioners aid Jorah Annison in the Undercity. Both groups brave the aggressive centaur to reunite the leaves with the Moldy Tome. Together, the books hold the dark rituals for summoning and binding a demonic felhunter.",
    "spoiler": 0
   }
  ],
@@ -32,7 +32,7 @@
     "what is manuscript",
     "pages tome cabal"
    ],
-   "answer": "It is a collection of torn parchment leaves comprising roughly half of the Tome of the Cabal, a legendary and unique grimoire on demonology."
+   "answer": "The Tattered Manuscript is a collection of torn pages making up roughly half of the unique Tome of the Cabal, a grimoire about demonology."
   },
   {
    "q": "How did these pages end up in Thousand Needles?",
@@ -41,7 +41,7 @@
     "centaur tome",
     "thousand needles manuscript"
    ],
-   "answer": "After the grimoire was vandalized in Lordaeron, the ripped pages somehow crossed the sea and fell into the possession of the Galak centaur, who stashed them in a chest inside Splithoof Hold."
+   "answer": "After an unknown defiler tore the Tome of the Cabal in Lordaeron, the pages crossed the sea and came into the hands of the Galak centaur, who hid them in a chest inside Splithoof Hold."
   },
   {
    "q": "What is the manuscript used for?",
@@ -49,7 +49,7 @@
     "why do i need manuscript",
     "felhunter quest pages"
    ],
-   "answer": "Warlocks must recombine the Tattered Manuscript with the waterlogged Moldy Tome to reconstruct the full text of the Tome of the Cabal, unlocking the ritual to summon a felhunter."
+   "answer": "Warlocks reunite the Tattered Manuscript with the waterlogged Moldy Tome to restore the Tome of the Cabal and learn the ritual for summoning a felhunter."
   },
   {
    "q": "Who was responsible for tearing the original book apart?",
@@ -57,13 +57,13 @@
     "who ripped the tome",
     "who vandalized tome cabal"
    ],
-   "answer": "The culprit remains unknown. Both Krom Stoutarm in Ironforge and Jorah Annison in the Undercity lament the vandalism, baffled by who would commit such an act against a one-of-a-kind scholarly work."
+   "answer": "No one knows who tore the original book apart. Krom Stoutarm in Ironforge and Jorah Annison in the Undercity both lament the damage to the one-of-a-kind scholarly work."
   }
  ],
  "angles": [
   {
    "target": "class:Warlock",
-   "text": "Retrieving the manuscript is an essential rite of passage for aspiring warlocks, granting the knowledge required to bend predatory felhunters to their will."
+   "text": "As a warlock, you seek the manuscript to gain the knowledge needed to command felhunters."
   }
  ],
  "keywords": [
@@ -90,5 +90,6 @@
   "Tattered Manuscript",
   "Tome of the Cabal (Alliance, 2)",
   "Tome of the Cabal (Horde, 2)"
- ]
+ ],
+ "style": 1
 }

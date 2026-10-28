@@ -8,16 +8,16 @@
   "wiki": "Charlga Razorflank",
   "refs": 5
  },
- "summary": "Charlga Razorflank, widely known as the Crone of the Kraul, is the fierce and cunning geomancer chieftain presiding over Razorfen Kraul. Under her leadership, the Razorfen quilboar drove the tauren out of the southern Barrens through ruthless expansion.",
+ "summary": "In Razorfen Kraul, Charlga Razorflank leads the Razorfen quilboar. They drove the tauren from the southern Barrens, claiming to fight in the name of their fallen god, Agamaggan.",
  "sections": [
   {
    "title": "The Crone of the Kraul",
-   "body": "Within the tangled, massive brambles of Razorfen Kraul rules Charlga Razorflank. Revered by her people as a master geomancer whose experimental magic remains unmatched among quilboar, Charlga organized her fractious kin into a unified, lethal threat. She harnessed the primal earth and giant thorns sprouting from the demigod Agamaggan's remains, reshaping the labyrinthine Kraul into an impenetrable fortress.",
+   "body": "Charlga Razorflank rules from the tangled brambles of Razorfen Kraul. Her people revere her as a master geomancer, and no quilboar can match her experimental magic. She united her fractious kin into a lethal force. With primal earth and giant thorns growing from the remains of the demigod Agamaggan, Charlga reshaped the Kraul into a fortress that is hard to enter.",
    "spoiler": 0
   },
   {
    "title": "Expansion and Betrayal",
-   "body": "Charlga directed constant, violent incursions against rival tribes and Horde villages across the southern Barrens, ultimately driving the tauren from their traditional homelands. Yet her true ambition goes deeper: Charlga secretly entered negotiations with emissaries of the undead Scourge, trading her unsuspecting tribe's devotion for unnatural power and insidious alliances.",
+   "body": "Charlga Razorflank sent her warriors against rival tribes and Horde villages across the southern Barrens. Their attacks drove the tauren from their traditional homelands. Charlga also made secret bargains with emissaries of the undead Scourge, trading her unsuspecting tribe's devotion for unnatural power and dark alliances.",
    "spoiler": 1
   }
  ],
@@ -29,7 +29,7 @@
     "who is the crone of the kraul",
     "razorfen boss"
    ],
-   "answer": "Charlga Razorflank is the chieftain and supreme geomancer of the Razorfen quilboar tribe, making her lair deep within Razorfen Kraul in the southern Barrens."
+   "answer": "Charlga Razorflank leads the Razorfen quilboar and rules from her lair deep within Razorfen Kraul in the southern Barrens."
   },
   {
    "q": "What magic does Charlga use?",
@@ -37,7 +37,7 @@
     "charlga abilities",
     "geomancer powers"
    ],
-   "answer": "She is an exceptionally gifted geomancer who manipulates elemental earth and the massive blood-brambles born from the demigod Agamaggan."
+   "answer": "Charlga Razorflank is a gifted geomancer who commands elemental earth and the great blood-brambles born from the demigod Agamaggan."
   },
   {
    "q": "Why did the quilboar attack the tauren in the Barrens?",
@@ -45,7 +45,7 @@
     "why do quilboar hate tauren",
     "barrens war quilboar"
    ],
-   "answer": "Under Charlga's leadership, the quilboar of Razorfen Kraul attacked rival tribes and Horde villages and drove the tauren away from the southern Barrens."
+   "answer": "Charlga Razorflank led the Razorfen quilboar against rival tribes and Horde villages, driving the tauren from the southern Barrens."
   },
   {
    "q": "What is Charlga's connection to Razorfen Downs?",
@@ -53,7 +53,7 @@
     "charlga downs",
     "charlga razorfen downs"
    ],
-   "answer": "Razorfen Downs grew from the same mighty vines as her Kraul and is the traditional capital of the quilboar, home to the Death's Head tribe and its high priests. Charlga rules the Kraul, not the Downs."
+   "answer": "Razorfen Downs grew from the same mighty vines as Charlga's Kraul. It is the quilboar's traditional capital and home to the Death's Head tribe and its high priests. Charlga rules Razorfen Kraul, not the Downs."
   },
   {
    "q": "Why does the Horde want her dead?",
@@ -61,21 +61,21 @@
     "crone of the kraul quest",
     "why kill charlga"
    ],
-   "answer": "The tauren and their Horde allies view her as an immediate existential threat due to her relentless raids, her theft of their lands, and her dangerous dealings with dark forces."
+   "answer": "The tauren and their Horde allies see Charlga as an immediate threat because of her relentless raids, her seizure of their lands, and her dangerous dealings with dark forces."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "Charlga's aggressive expansion drove your people out of their ancestral territories across the southern Barrens, making her defeat a matter of tribal survival and reclamation."
+   "text": "Charlga's expansion drove your people from their ancestral lands across the southern Barrens. Defeating her means survival and reclaiming those lands."
   },
   {
    "target": "class:Shaman",
-   "text": "While Charlga commands potent geomantic arts, her twisting of the elements represents a dark corruption of sacred primal traditions."
+   "text": "Charlga commands powerful geomantic arts, but her twisting of the elements corrupts sacred primal traditions."
   },
   {
    "target": "faction:Horde",
-   "text": "Neutralizing Charlga is critical to securing caravan routes and encampments across the southern Barrens from relentless quilboar war parties."
+   "text": "Defeating Charlga helps secure caravan routes and encampments across the southern Barrens from relentless quilboar war parties."
   }
  ],
  "keywords": [
@@ -100,5 +100,6 @@
  ],
  "attribution": [
   "Charlga Razorflank"
- ]
+ ],
+ "style": 1
 }

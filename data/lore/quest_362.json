@@ -21,16 +21,16 @@
    "The Family Crypt (Classic)"
   ]
  },
- "summary": "Coleman Farthing of Brill seeks vengeance against his former landowners, the Agamands, by having their restless undead remains collected and destroyed. This task sends you north to Agamand Mills to put down Devlin Agamand, the sharp-tongued younger son of the estate. It begins a bitter vendetta against the family who failed to protect Tirisfal's common folk from the Plague.",
+ "summary": "Coleman Farthing of Brill seeks vengeance on the Agamands, his former landowners. He sends you north to Agamand Mills to destroy their restless remains, beginning with Devlin, the family’s sharp-tongued younger son. Farthing’s hatred reaches back to the family’s failure to protect Tirisfal’s common folk from the Plague.",
  "sections": [
   {
    "title": "A Bitter Harvest",
-   "body": "Before the Third War, Agamand Mills stood as the breadbasket of northern Tirisfal, owned by a wealthy landed family. When the Scourge swept across Lordaeron, the common folk looked to the noble landowners for safety, only to find neither sanctuary nor salvation. Coleman Farthing survived in undeath, but his heart remains consumed by hatred for the family he served. Rather than letting them roam in eternal torment, Farthing desires the morbid satisfaction of collecting their bones to desecrate them under his own heel.",
+   "body": "Before the Third War, Agamand Mills fed northern Tirisfal under the rule of a wealthy landed family. When the Scourge swept across Lordaeron, common folk turned to the nobles for safety and found no shelter. Coleman Farthing survived as undead, but hatred for the family he served still consumes him. He wants their bones gathered, not to end their torment, but to desecrate them beneath his heel.",
    "spoiler": 0
   },
   {
    "title": "The Younger Brother",
-   "body": "Devlin Agamand was the younger brother of Thurman Agamand. In life, Devlin was widely remembered as a weak, spiteful, and sharp-tongued youth who stood in stark contrast to his gentle elder brother. When the Plague of Undeath crept into the mill estate, Devlin was among the quickest to fall prey to the corruption. Now, stripped of whatever fragile wit he possessed in life, his mindless corpse chatters incessantly along the northern road leading into the family mills.",
+   "body": "Devlin Agamand was Thurman Agamand’s younger brother. People remembered Devlin as weak, spiteful, and sharp-tongued, unlike his gentle elder brother. When the Plague of Undeath reached the mill estate, Devlin quickly fell to its corruption. Now his mindless corpse chatters without cease along the northern road into the family mills.",
    "spoiler": 0
   }
  ],
@@ -42,7 +42,7 @@
     "coleman farthing motive",
     "why kill devlin"
    ],
-   "answer": "Coleman Farthing blames the wealthy Agamand family for abandoning and failing him and his relatives when the Scourge overran Lordaeron. Seeking personal revenge in undeath, he wants to gather the Agamand bones so he can display them on his mantle and personally grind them into dust."
+   "answer": "Coleman Farthing blames the Agamands for abandoning him and his relatives when the Scourge overran Lordaeron. In undeath, he seeks revenge by gathering their bones to display on his mantle and grind into dust."
   },
   {
    "q": "Where can Devlin Agamand be found?",
@@ -51,7 +51,7 @@
     "find devlin agamand",
     "where is devlin"
    ],
-   "answer": "Devlin wanders near the road just south of the Agamand Mills in northern Tirisfal Glades, gibbering madly among the undead that prowl the outskirts of the estate."
+   "answer": "Devlin wanders near the road just south of Agamand Mills in northern Tirisfal Glades, gibbering among the undead that prowl the estate’s outskirts."
   },
   {
    "q": "What was Devlin like before the Plague?",
@@ -60,7 +60,7 @@
     "devlin agamand lore",
     "devlin agamand in life"
    ],
-   "answer": "According to Coleman Farthing, Devlin was the smaller, weaker, and distinctly sharp-tongued younger son of the Agamand household, very unlike his tall and mild-mannered older brother Thurman."
+   "answer": "Coleman Farthing describes Devlin as the smaller, weaker, sharp-tongued younger son of the Agamands, unlike his tall, mild-mannered older brother Thurman."
   },
   {
    "q": "Is Devlin part of the Scourge or Forsaken?",
@@ -68,7 +68,7 @@
     "is devlin scourge",
     "devlin faction"
    ],
-   "answer": "Devlin is a mindless thrall of the Scourge. Unlike the Forsaken of the Undercity, he never broke free of the Lich King's grip and mindlessly stalks his family's ruined lands."
+   "answer": "Devlin is a mindless thrall of the Scourge. He never broke free of the Lich King’s grip as the Forsaken of the Undercity did, and now stalks his family’s ruined lands."
   },
   {
    "q": "What other quests take place at Agamand Mills?",
@@ -76,7 +76,7 @@
     "agamand mills quests",
     "quests near devlin"
    ],
-   "answer": "The quest 'Deaths in the Family' also directs Forsaken adventurers to Agamand Mills to eliminate the rest of the Agamand household, making it natural to pursue both tasks concurrently."
+   "answer": "Deaths in the Family also sends Forsaken adventurers to Agamand Mills to eliminate the rest of the Agamand household, so you can pursue both at once."
   },
   {
    "q": "What happens after turning in Devlin's remains?",
@@ -84,17 +84,17 @@
     "quest continuation",
     "next quest after haunted mills"
    ],
-   "answer": "After accepting the bones, Coleman Farthing directs you to speak with Sevren in Brill, which eventually leads deeper into the Agamand family crypt."
+   "answer": "After accepting the bones, Coleman Farthing sends you to speak with Sevren in Brill. That leads deeper into the Agamand family crypt."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "This task reflects the deep class resentments that survived Lordaeron's fall, showing how Forsaken retain mortal grudges against the landed nobility who failed to protect them from the Plague."
+   "text": "As Forsaken, you see how the fall of Lordaeron left mortal grudges alive. The landed nobles failed to protect the common folk from the Plague, and resentment remains."
   },
   {
    "target": "faction:Horde",
-   "text": "Assisting the Forsaken in Tirisfal means helping them purge dangerous pockets of the Scourge from the borders of Brill and Undercity."
+   "text": "As Horde, you help the Forsaken purge dangerous Scourge from the borders of Brill and Undercity."
   }
  ],
  "keywords": [
@@ -118,5 +118,6 @@
  ],
  "attribution": [
   "The Haunted Mills (Classic)"
- ]
+ ],
+ "style": 1
 }

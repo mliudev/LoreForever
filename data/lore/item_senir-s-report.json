@@ -10,16 +10,16 @@
    "quest:291"
   ]
  },
- "summary": "Senir's Report is a dispatched document penned by Mountaineer Senir Whitebeard detailing the Frostmane troll threat in Dun Morogh. It carries findings commissioned under royal directive and is destined for Senator Barin Redstone in Ironforge.",
+ "summary": "In the cold foothills of Dun Morogh, Senir Whitebeard sends word of the Frostmane trolls to Ironforge. His report carries findings gathered under King Magni Bronzebeard’s directive for Senator Barin Redstone.",
  "sections": [
   {
    "title": "A Royal Directive",
-   "body": "Drafted after scouting missions against the Frostmane trolls nestled in the crags of Dun Morogh, this field report contains mountaineer observations intended for the dwarf Senate. Senir Whitebeard, stationed out in the cold foothills, penned the document and enclosed his brother Grelin's report on Coldridge Valley, which states that Grelin acted under a sanction from King Magni Bronzebeard. Senir tasks adventurers with hauling the findings straight to Senator Barin Redstone in the High Seat of Ironforge\u2014cautiously advising couriers to omit just how much outside help he required to compile it.",
+   "body": "Senir Whitebeard’s report gathers mountaineer observations from scouting against Frostmane trolls in Dun Morogh’s crags. Stationed in the cold foothills, Senir includes his brother Grelin’s account of Coldridge Valley, where Grelin acted under King Magni Bronzebeard’s sanction. Senir sends the findings to Senator Barin Redstone in Ironforge’s High Seat and advises couriers to leave out how much outside help he needed to compile them.",
    "spoiler": 0
   },
   {
    "title": "Friction in the High Seat",
-   "body": "Upon delivery to the royal court, the document sparks an immediate uproar. Reading through Whitebeard's account, Senator Barin Redstone is outraged not merely by the contents of the troll threat, but by the executive authority stamped upon it. Magni bypassing legislative oversight and Whitebeard acting on unchecked royal orders stokes long-simmering resentment within the dwarven Senate, illustrating the political strain between King Magni's decisive rule and the indignant senators who demand procedural control.",
+   "body": "Senir Whitebeard’s account reaches the royal court and stirs an uproar. Senator Barin Redstone is angered by the troll threat and by the authority stamped on the report. Magni bypassed legislative oversight, while Whitebeard acted on unchecked royal orders. The move deepens resentment among senators who demand control over procedure, sharpening the strain between Magni’s decisive rule and the Senate’s claims to authority.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "what is this report",
     "the report"
    ],
-   "answer": "It is an official written dispatch authored by Mountaineer Senir Whitebeard summarizing his investigations into the Frostmane trolls in Dun Morogh, written to be delivered directly to the dwarven Senate in Ironforge."
+   "answer": "Senir Whitebeard’s report records his investigations into the Frostmane trolls in Dun Morogh. He sends it to the dwarven Senate in Ironforge."
   },
   {
    "q": "Who is supposed to receive the report?",
@@ -40,7 +40,7 @@
     "who do i give the report to",
     "report recipient"
    ],
-   "answer": "The report is addressed to Senator Barin Redstone, a sour dwarven politician situated near King Magni Bronzebeard's throne in the High Seat of Ironforge."
+   "answer": "Senir Whitebeard addresses the report to Senator Barin Redstone in the High Seat of Ironforge, near King Magni Bronzebeard’s throne."
   },
   {
    "q": "Why does Senator Redstone get so angry when he reads it?",
@@ -49,7 +49,7 @@
     "why is the senator angry",
     "redstone reaction"
    ],
-   "answer": "Senator Redstone is furious because the enclosed report from Senir's brother, Grelin Whitebeard, reveals that Grelin acted under King Magni's authority rather than consulting the dwarven Senate. Redstone resents the crown taking unilateral action over defense matters without senatorial approval."
+   "answer": "Senator Redstone is furious because Grelin Whitebeard’s enclosed report says Grelin acted under King Magni’s authority without consulting the Senate. Redstone resents the crown taking unilateral action on defense matters without senatorial approval."
   },
   {
    "q": "Why does Senir ask you not to mention helping him?",
@@ -58,17 +58,17 @@
     "senir secret",
     "senir credit"
    ],
-   "answer": "Senir Whitebeard prefers his superiors to believe he handled the hazardous scouting work in the snowy hills entirely on his own, wanting to protect his reputation as a diligent and capable mountaineer."
+   "answer": "Senir Whitebeard asks you to keep your help quiet so his superiors will believe he handled the hazardous scouting in the snowy hills alone. He wants to protect his reputation as a diligent, capable mountaineer."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "Carrying Senir's Report exposes the sharp political divide between King Magni Bronzebeard's royal decrees and the traditional authority demanded by the Senate in Ironforge."
+   "text": "As a dwarf, carrying Senir’s Report brings you into Ironforge’s divide between King Magni Bronzebeard’s decrees and the authority the Senate demands."
   },
   {
    "target": "faction:Alliance",
-   "text": "Handling Senir's Report aids the defense of Dun Morogh while navigating the prickly internal politics of Ironforge's ruling class."
+   "text": "As an Alliance member, carrying Senir’s Report helps defend Dun Morogh while you navigate the prickly politics of Ironforge’s rulers."
   }
  ],
  "keywords": [
@@ -90,5 +90,6 @@
  "attribution": [
   "Senir's Report",
   "The Reports"
- ]
+ ],
+ "style": 1
 }

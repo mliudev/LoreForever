@@ -17,16 +17,16 @@
   "wiki": "Candles of Beckoning",
   "chain": []
  },
- "summary": "Candles of Beckoning is a brief task centered around salvaging specialized ritual tapers discovered in Tirisfal Glades. These eerie tallow candles are steeped in dark practices and recovered from a crate on Gunther's Retreat, Gunther Arcanus's island in Brightwater Lake.",
+ "summary": "In Tirisfal Glades, candles from Gunther's island are bound for a grim test. A crate on Gunther's Retreat holds the ritual tapers Gunther Arcanus uses to test allegiance.",
  "sections": [
   {
    "title": "Tallow and Dark Rites",
-   "body": "The crate on Gunther's Retreat supplies the Candle of Beckoning used in his test of allegiance. Gunther asks an adventurer to take a candle to the old, bloody altar just off the island's southern coast, light it, and confront the Scourge agent Lillith Nefara.",
+   "body": "Gunther asks you to take a candle from the crate on Gunther's Retreat to the old, bloody altar off the island's southern coast. Light it there, and face Lillith Nefara, the Scourge agent.",
    "spoiler": 0
   },
   {
    "title": "A Reclaimed Relic",
-   "body": "The crate holding these candles sits on Gunther's Retreat, the island in Brightwater Lake where the lich Gunther Arcanus dwells. A single candle is all that is needed for the test Gunther sets in Proving Allegiance: lit upon the old, bloody altar off the island's southern coast, it awakens the Scourge agent Lillith Nefara.",
+   "body": "A crate of candles rests on Gunther's Retreat, the island in Brightwater Lake where Gunther Arcanus dwells. For his test in Proving Allegiance, one candle is enough. Lit on the old, bloody altar off the island's southern coast, it awakens Lillith Nefara, the Scourge agent.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "purpose of candles",
     "what do candles do"
    ],
-   "answer": "A Candle of Beckoning is lit on the bloody altar near Gunther's Retreat to awaken Lillith Nefara for Gunther's test of allegiance."
+   "answer": "Light a Candle of Beckoning on the bloody altar near Gunther's Retreat to awaken Lillith Nefara for Gunther's test of allegiance."
   },
   {
    "q": "Where are these candles found?",
@@ -47,7 +47,7 @@
     "candle crate location",
     "crate of candles"
    ],
-   "answer": "They are stored in a Crate of Candles on Gunther's Retreat, Gunther Arcanus's island in Brightwater Lake in Tirisfal Glades."
+   "answer": "The candles are kept in a Crate of Candles on Gunther's Retreat, Gunther Arcanus's island in Brightwater Lake in Tirisfal Glades."
   },
   {
    "q": "Who crafted these candles?",
@@ -56,7 +56,7 @@
     "candle creator",
     "who made the crate"
    ],
-   "answer": "The source does not name their maker. Gunther keeps a crate of candles on his island for the test he sets in Proving Allegiance."
+   "answer": "No maker is named. Gunther keeps a crate of candles on his island for the test he sets in Proving Allegiance."
   },
   {
    "q": "Why does the Horde or Forsaken want them?",
@@ -65,7 +65,7 @@
     "why retrieve candles",
     "why horde candles"
    ],
-   "answer": "A candle is needed for Gunther Arcanus's test in Proving Allegiance. Lit on the bloody altar off his island's southern coast, it awakens the Scourge agent Lillith Nefara, and destroying her proves you are the Lich King's foe."
+   "answer": "Gunther Arcanus needs a candle for his test in Proving Allegiance. Lit on the bloody altar off his island's southern coast, it awakens Lillith Nefara, the Scourge agent. Destroying her proves you are the Lich King's foe."
   },
   {
    "q": "Can just anyone use the candle?",
@@ -74,7 +74,7 @@
     "how to use candle",
     "use candle of beckoning"
    ],
-   "answer": "The Candle of Beckoning is placed on Lillith's bloody dinner table and lit to summon her for Gunther's test."
+   "answer": "Gunther's test calls for placing the Candle of Beckoning on Lillith's bloody dinner table and lighting it to summon her."
   },
   {
    "q": "Are the candles linked to the Scourge?",
@@ -83,21 +83,21 @@
     "are candles scourge",
     "scourge cult candles"
    ],
-   "answer": "The candle awakens Lillith Nefara, a powerful Scourge agent. Gunther asks you to destroy her to prove you are the Lich King's enemy."
+   "answer": "A Candle of Beckoning awakens Lillith Nefara, a powerful Scourge agent. Gunther asks you to destroy her to prove you are the Lich King's enemy."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "For the Forsaken, salvaging occult implements in Tirisfal is a matter of both survival and study, ensuring dangerous artifacts do not fall into hostile hands."
+   "text": "As Forsaken, you salvage occult implements in Tirisfal for survival and study, keeping dangerous artifacts from hostile hands."
   },
   {
    "target": "class:Warlock",
-   "text": "Practitioners of the dark arts readily recognize the distinct tallow and magical resonance used in ritual beckoning."
+   "text": "As a warlock, you recognize the tallow and magical resonance used in ritual beckoning."
   },
   {
    "target": "class:Priest",
-   "text": "Shadow priests understand the delicate balance required when handling items crafted to invoke lingering spirits and call forth unseen presences."
+   "text": "As a priest, you understand the care needed with items made to invoke lingering spirits and call unseen presences."
   }
  ],
  "keywords": [
@@ -114,5 +114,6 @@
  ],
  "attribution": [
   "Candles of Beckoning"
- ]
+ ],
+ "style": 1
 }

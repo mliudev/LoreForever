@@ -19,7 +19,7 @@ import { onRequest as creatorsPage } from "../functions/api/creators/[action].js
 import { findOrCreateUser, startSession, setup, deleteUser } from "../lib/accounts.js";
 import { startLink, claimToken } from "../lib/devices.js";
 import { setupBilling, planFor } from "../lib/billing.js";
-import { setupReferrals, shareCode, saveCreator, referralReport, shareSummary, noteJoin, noteBrowser, activateReferral,
+import { bonusAnswersFor, setupReferrals, shareCode, saveCreator, referralReport, shareSummary, noteJoin, noteBrowser, activateReferral,
   settleRewards, payoutList, payCreator, retireCreator, applyCreator, decideApplication, REWARDS, PAYOUTS, CREATOR_TIERS,
   CREATOR_TERM } from "../lib/referrals.js";
 
@@ -144,7 +144,8 @@ test("a friend counts after Willo's first real answer, not on the click or the c
   assert.deepEqual([s.joined, s.waiting, s.progress.have, s.progress.left], [1, 0, 1, 1]);
   assert.equal(s.tally, "1 / 2 friends joined — 1 more until a free month of Hero.");
   assert.equal(s.invite, "Invite a friend to awaken their Willo");
-  assert.match(s.about, /Every 2 friends: a free month of Hero, one a month\. Your 5th, 15th, 25th friend and so on: 450 bonus answers\./);
+  assert.match(s.about, new RegExp(`Every 2 friends: a free month of Hero, one a month\\. Your 5th, 15th, 25th friend and so on: ` +
+    `${bonusAnswersFor("free")} bonus answers\\.`));
   assert.doesNotMatch(s.about, /\b10\b|Up to/, "no 'up to 10' on the card: a free month is 2 friends (Mike, 10/21)");
   assert.ok(row(pal).machine, "Willo's computer noted, one-way");
 
@@ -176,7 +177,7 @@ test("every second friend gives a free Hero month, one a calendar month; every f
   assert.equal(grants[0].plan, "hero");
   assert.equal(Date.parse(grants[0].ends) - Date.parse(grants[0].starts), 30 * DAY * 1000);
   const plan = await planFor(env, sharer.id);
-  assert.deepEqual([plan.id, plan.reward, plan.answersPerMonth], ["hero", true, 1500]);
+  assert.deepEqual([plan.id, plan.reward, plan.unlimited], ["hero", true, true]);
   let s = await summary(sharer);
   assert.equal(s.tally, "0 / 2 friends joined. This month's free month is yours: friends who join from November 1 move " +
     "the next one on, and until then they still count toward bonus answers.");
@@ -187,12 +188,13 @@ test("every second friend gives a free Hero month, one a calendar month; every f
   // The third to the tenth this month: no second month, but the fifth's bonus.
   for (let i = 0; i < 3; i++) await friend(cookie);
   const bonus = env.DB.sqlite.prepare("SELECT * FROM answer_packs WHERE user_id = ? AND kind = 'share'").all(sharer.id);
-  assert.deepEqual(bonus.map(p => [p.id, p.answers]), [[`bonus:${sharer.id}:0`, 750]], "half the Hero month's 1500 they're on");
+  assert.deepEqual(bonus.map(p => [p.id, p.answers]), [[`bonus:${sharer.id}:0`, bonusAnswersFor("hero")]],
+    "the bonus, though Hero's answers are unlimited: it keeps for a later free month");
   for (let i = 0; i < 5; i++) await friend(cookie);
   assert.equal(env.DB.sqlite.prepare("SELECT COUNT(*) AS n FROM plan_grants").get().n, 1, "one free month a calendar month");
   s = await summary(sharer);
   assert.deepEqual([s.progress.friends, s.progress.toward, s.progress.months], [10, 2, 1]);
-  assert.match(s.earned, /1 free month and 750 bonus answers/);
+  assert.match(s.earned, new RegExp(`1 free month and ${bonusAnswersFor("hero")} bonus answers`));
 
   // The eleventh this month joins but doesn't count until next month.
   const eleventh = await friend(cookie);

@@ -10,11 +10,11 @@
    "quest:766"
   ]
  },
- "summary": "A Flatland Cougar Femur is a dense thigh bone taken from the predatory cougars that prowl the golden grasses of Mulgore. It serves as a vital component in a traditional tauren folk remedy used to counter lethal, venomous infections.",
+ "summary": "Across Mulgore, cougars prowl the plains, and Maur Raincaller needs one of their bones. A Flatland Cougar Femur is part of the remedy he seeks for a venomous bite.",
  "sections": [
   {
    "title": "A Remedy for a Venomous Bite",
-   "body": "The flatland cougar is one of Mulgore's most dangerous native stalkers, blending seamlessly with the dry brush until it springs upon unsuspecting prey. While hunters often harvest cougar pelts and claws for leatherworking and trophies, their heavy marrow-rich bones possess practical value in regional medicine. When Maur Raincaller, a tauren of Bloodhoof Village, suffered a venomous wound from the monstrous pink strider Mazzranache, he urgently requested a cougar femur alongside parts from other local beasts. The bone is crushed or boiled to extract its potent properties, forming an antitoxin poultice capable of drawing fever and necrotic venom out of a festering bite.",
+   "body": "Flatland cougars rank among Mulgore's most dangerous native stalkers. They blend into the dry brush, then spring upon unsuspecting prey. Hunters take their pelts and claws for leatherworking and trophies, while their heavy, marrow-rich bones have use in local medicine. Maur Raincaller of Bloodhoof Village suffered a venomous wound from Mazzranache, a monstrous pink strider. He urgently asked for a cougar femur and parts from other local beasts. Crushed or boiled, the bone yields properties for an antitoxin poultice meant to draw fever and necrotic venom from a festering bite.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "what is this bone for",
     "femur quest"
    ],
-   "answer": "The femur is used by Maur Raincaller in Bloodhoof Village to brew an emergency remedy. Maur was bitten by the notorious plainstrider Mazzranache and needs the marrow and bone to concoct an antitoxin before the creature's virulent venom kills him."
+   "answer": "Maur Raincaller in Bloodhoof Village needs the femur to make an emergency remedy. The notorious plainstrider Mazzranache bit him, and he needs the marrow and bone to prepare an antitoxin before its virulent venom kills him."
   },
   {
    "q": "Where do you obtain a Flatland Cougar Femur?",
@@ -35,7 +35,7 @@
     "cougar femur location",
     "which mobs drop it"
    ],
-   "answer": "It is gathered from flatland cougars that roam the central and southern plains of Mulgore, typically found prowling near the hillsides and roaming the tall grasses around Bloodhoof Village."
+   "answer": "You can gather a Flatland Cougar Femur from flatland cougars roaming Mulgore's central and southern plains. They prowl near the hillsides and through the tall grasses around Bloodhoof Village."
   },
   {
    "q": "Why would Maur Raincaller need a cougar bone specifically?",
@@ -43,7 +43,7 @@
     "why cougar bone",
     "why femur"
    ],
-   "answer": "Tauren herbalists and shaman frequently utilize the dense bones and marrow of predatory animals in traditional salves and tinctures. The strength and resilience of the apex predators of Mulgore are believed to provide the necessary restorative foundation to neutralize potent toxins."
+   "answer": "Tauren herbalists and shamans use the dense bones and marrow of predatory animals in traditional salves and tinctures. They believe the strength and resilience of Mulgore's apex predators provide the restorative foundation needed to neutralize potent toxins."
   },
   {
    "q": "Who is Maur Raincaller?",
@@ -51,17 +51,17 @@
     "maur raincaller",
     "who needs the bone"
    ],
-   "answer": "Maur Raincaller is a tauren resident of Bloodhoof Village. After wandering the plains, he ran afoul of Mazzranache, a legendary strider his grandfather once fought, and barely escaped with an infected, venomous bite to the shoulder."
+   "answer": "Maur Raincaller lives in Bloodhoof Village. After wandering the plains, he ran afoul of Mazzranache, a legendary strider his grandfather once fought, and barely escaped with an infected, venomous bite to the shoulder."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "For the tauren of Mulgore, hunting the flatland cougar is both a trial of vigilance and a source of vital materials used in traditional plains remedies."
+   "text": "For the tauren of Mulgore, hunting flatland cougars tests vigilance and provides vital materials for traditional plains remedies."
   },
   {
    "target": "class:Hunter",
-   "text": "Tracking down flatland cougars requires sharp eyes across Mulgore's swaying brush, testing a young hunter's ability to cleanly fell a fellow predator."
+   "text": "As a hunter, you need sharp eyes to track flatland cougars through Mulgore's swaying brush, and the hunt tests your skill at bringing down a fellow predator cleanly."
   }
  ],
  "keywords": [
@@ -84,5 +84,6 @@
  "attribution": [
   "Flatland Cougar Femur",
   "Mazzranache (Classic)"
- ]
+ ],
+ "style": 1
 }

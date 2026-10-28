@@ -10,11 +10,11 @@
    "quest:1017"
   ]
  },
- "summary": "Sarilus Foulborne's Head is a gruesome trophy claimed from an undead sorcerer who defiled the waters of northern Kalimdor. Carried back across the border from the Barrens into Ashenvale, it serves as undeniable proof that the meddling mage has met his end at the hands of the Sentinels.",
+ "summary": "Across the border from the Barrens, Sarilus Foulborne's Head reaches Ashenvale as proof of the sorcerer's death. The undead mage defiled Ashenvale's waters, and the Sentinels demanded his head.",
  "sections": [
   {
    "title": "A Defiler Silenced",
-   "body": "Perched high atop Dreadmist Peak in the northern Barrens, the Forsaken spellcaster Sarilus Foulborne drew the wrath of the night elves by corrupting and binding swarms of water elementals. From her post at Silverwind Refuge, Sentinel Velene Starstrike recognized his foul handiwork and dispatched champions across the frontier into Horde territory to end his reckless experiments. Severing the mage's head was the only proof Starstrike would accept to verify that his mocking grin was wiped away forever, securing a measure of peace for the troubled waters of Ashenvale.",
+   "body": "Sarilus Foulborne was a Forsaken spellcaster atop Dreadmist Peak in the northern Barrens. He drew the night elves' anger by corrupting and binding swarms of water elementals. From Silverwind Refuge, Sentinel Velene Starstrike recognized his work and sent champions across the frontier into Horde territory to end his experiments. Starstrike would accept only his severed head as proof that the mocking mage was dead, and that the troubled waters of Ashenvale might know some peace.",
    "spoiler": 1
   }
  ],
@@ -26,7 +26,7 @@
     "sarilus foulborne lore",
     "who is foulborne"
    ],
-   "answer": "Sarilus Foulborne was an undead mage who established himself atop Dreadmist Peak in the northern Barrens. He earned the anger of the night elves by twisting and summoning vast numbers of water elementals, prompting Sentinel Velene Starstrike to order his death."
+   "answer": "Sarilus Foulborne was an undead mage who established himself atop Dreadmist Peak in the northern Barrens. He angered the night elves by twisting and summoning vast numbers of water elementals, so Sentinel Velene Starstrike ordered his death."
   },
   {
    "q": "Why does Sentinel Velene Starstrike want his head?",
@@ -35,7 +35,7 @@
     "velene starstrike head",
     "proof of death"
    ],
-   "answer": "Velene Starstrike wanted absolute certainty that the arrogant sorcerer was dead. Sarilus had openly mocked her while defiling the region's water spirits, and bringing back his severed head was the only proof she would accept that the threat had been eliminated."
+   "answer": "Velene Starstrike wanted certainty that the arrogant sorcerer was dead. Sarilus mocked her while defiling the region's water spirits, and his severed head was the only proof she would accept that the threat had ended."
   },
   {
    "q": "Where is Sarilus Foulborne located?",
@@ -44,7 +44,7 @@
     "sarilus location",
     "dreadmist peak mage"
    ],
-   "answer": "He lairs at the very top of Dreadmist Peak, a craggy mountain situated in the northern reaches of the Barrens, just south of the Ashenvale border."
+   "answer": "Sarilus Foulborne lairs atop Dreadmist Peak in the northern Barrens, just south of the Ashenvale border."
   },
   {
    "q": "Why was Foulborne defiling water elementals?",
@@ -53,17 +53,17 @@
     "water elemental corruption",
     "foulborne motives"
    ],
-   "answer": "Foulborne used arcane summonings to bend numerous water elementals to his will, corrupting them in the process. His reckless manipulation disrupted the natural balance of the waters flowing near Ashenvale, drawing swift retaliation from the Sentinels."
+   "answer": "Sarilus Foulborne used arcane summonings to bend numerous water elementals to his will and corrupt them. His reckless manipulation disrupted the natural balance of waters flowing near Ashenvale, drawing swift retaliation from the Sentinels."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "Taking Foulborne's head satisfies the Sentinels' vengeance against a reckless arcane defiler who desecrated the spirits of the land."
+   "text": "Taking Foulborne's head answers the Sentinels' vengeance against an arcane defiler who desecrated the spirits of the land."
   },
   {
    "target": "faction:Alliance",
-   "text": "Carrying out this strike requires infiltrating deep into hostile Horde lands within the Barrens to eliminate a dangerous rogue caster."
+   "text": "This strike requires infiltrating deep into hostile Horde lands in the Barrens to eliminate a dangerous rogue caster."
   }
  ],
  "keywords": [
@@ -89,5 +89,6 @@
  "attribution": [
   "Sarilus Foulborne's Head",
   "Mage Summoner"
- ]
+ ],
+ "style": 1
 }

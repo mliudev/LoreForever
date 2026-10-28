@@ -10,16 +10,16 @@
    "quest:1016"
   ]
  },
- "summary": "The Divined Scroll is an enchanted parchment used by the night elves of Silverwind Refuge to unmask the source of Ashenvale's disturbed waters. By channeling the residual magic within intact water elemental bracers, the scroll reveals the identity of the rogue spellcaster summoning them.",
+ "summary": "At Silverwind Refuge, the Divined Scroll can expose the mage behind Ashenvale's troubled waters. Night elves use magic from intact water elemental bracers to reveal the summoner's identity.",
  "sections": [
   {
    "title": "Tracing the Summoner",
-   "body": "The tainted waters of Mystral Lake have long troubled the Sentinels guarding Ashenvale. To pinpoint who is manipulating the water elementals infesting the lake, Sentinel Velene Starstrike provides travelers with an uncharged divining scroll. By gathering intact bracers directly from the slain elementals and using them as an arcane reagent, the latent bindings within the metal bleed into the parchment. The resulting Divined Scroll exposes the magical signature of the rogue wizard behind the infestation.",
+   "body": "Mystral Lake's tainted waters trouble the Sentinels guarding Ashenvale. Sentinel Velene Starstrike gives travelers an uncharged divining scroll to trace whoever manipulates the water elementals infesting the lake. Gather intact bracers from slain elementals and use them as an arcane reagent; their latent bindings pass into the parchment. The Divined Scroll then reveals the magical signature of the rogue wizard behind the infestation.",
    "spoiler": 0
   },
   {
    "title": "The Mage Exposed",
-   "body": "Once energized, the script upon the Divined Scroll points Sentinel Velene directly to a mortal culprit: a reckless mage deliberately corrupting the pristine woodland pools. Armed with the revelation penned across the parchment, the Sentinels are able to plan retribution and send scouts to hunt down the summoner responsible for despoiling their sacred wilderness.",
+   "body": "The Divined Scroll's script points Sentinel Velene to a mortal culprit: a reckless mage deliberately corrupting the woodland pools. With this revelation, the Sentinels can plan retribution and send scouts to hunt the summoner responsible for despoiling their sacred wilderness.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "divined scroll purpose",
     "why make divined scroll"
    ],
-   "answer": "The Divined Scroll reveals the identity of the spellcaster who is summoning and binding hostile water elementals in Ashenvale's lakes, allowing Sentinel Velene Starstrike to target the culprit directly."
+   "answer": "The Divined Scroll reveals the spellcaster summoning and binding hostile water elementals in Ashenvale's lakes, so Sentinel Velene Starstrike can target the culprit."
   },
   {
    "q": "How is the Divined Scroll created?",
@@ -40,7 +40,7 @@
     "crafting divined scroll",
     "how do i get divined scroll"
    ],
-   "answer": "It is created by casting the blank Divining Scroll provided by Sentinel Velene Starstrike upon five Intact Elemental Bracers collected from defeated water elementals around Mystral Lake."
+   "answer": "Cast Sentinel Velene Starstrike's blank Divining Scroll upon five Intact Elemental Bracers gathered from defeated water elementals around Mystral Lake."
   },
   {
    "q": "Why are the elemental bracers needed to divine the scroll?",
@@ -48,7 +48,7 @@
     "why intact bracers",
     "purpose of elemental bracers"
    ],
-   "answer": "The bracers serve as the physical bindings that hold the elementals to the mortal plane. Their residual enchantments provide the necessary magical signature for the scroll to identify the specific wizard who conjured them."
+   "answer": "The bracers bind the elementals to the mortal plane. Their residual enchantments give the scroll the magical signature it needs to identify the wizard who conjured them."
   },
   {
    "q": "Who do I bring the Divined Scroll to?",
@@ -56,17 +56,17 @@
     "where do i turn in divined scroll",
     "who wants divined scroll"
    ],
-   "answer": "Deliver the finished Divined Scroll to Sentinel Velene Starstrike at Silverwind Refuge along the road in southern Ashenvale."
+   "answer": "Bring the finished Divined Scroll to Sentinel Velene Starstrike at Silverwind Refuge, along the road in southern Ashenvale."
   }
  ],
  "angles": [
   {
    "target": "class:Mage",
-   "text": "The scroll operates on fundamental principles of conjuration tracing, demonstrating how elemental bindings invariably carry the indelible arcane signature of the wizard who forged them."
+   "text": "As a Mage, you can see the principle at work: elemental bindings carry the arcane signature of the wizard who forged them."
   },
   {
    "target": "race:NightElf",
-   "text": "For the Sentinels defending Ashenvale, divination tools like this scroll are vital for ferreting out mortal polluters whose arcane meddling threatens the sacred waters of the forest."
+   "text": "As a Night Elf, you know divination tools help the Sentinels find mortal polluters whose arcane meddling threatens Ashenvale's sacred waters."
   }
  ],
  "keywords": [
@@ -90,5 +90,6 @@
  "attribution": [
   "Divined Scroll",
   "Elemental Bracers (quest)"
- ]
+ ],
+ "style": 1
 }

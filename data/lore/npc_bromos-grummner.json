@@ -8,11 +8,11 @@
   "wiki": "Bromos Grummner",
   "refs": 1
  },
- "summary": "Bromos Grummner is a dwarven paladin trainer stationed in Anvilmar within Coldridge Valley. He mentors fledgling dwarven holy warriors, preaching steadfast faith in the Holy Light and the vital bond between dwarves and humans in the Knights of the Silver Hand.",
+ "summary": "In Anvilmar, Bromos Grummner trains young dwarven paladins in the Holy Light. He teaches steadfast faith and the bond between dwarves and humans in the Knights of the Silver Hand.",
  "sections": [
   {
    "title": "A Beacon in Coldridge",
-   "body": "Standing within the sturdy stone hall of Anvilmar, Bromos Grummner welcomes dwarven novices drawn to the discipline of the Holy Light. Confident and resolute, he instructs young paladins in martial rites and sacred invocations. Beyond the basic tenets of combat, Bromos emphasizes unity, reminding his pupils that the order of the Knights of the Silver Hand bridges the realms of Ironforge and the human kingdoms of the Alliance in righteous purpose.",
+   "body": "In Anvilmar, Bromos Grummner welcomes dwarven novices to the discipline of the Holy Light. He teaches young paladins their martial rites and sacred invocations. Beyond combat, Bromos urges unity. The Knights of the Silver Hand bring Ironforge and the human kingdoms of the Alliance together in a shared righteous purpose.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "bromos grummner lore",
     "anvilmar paladin trainer"
    ],
-   "answer": "Bromos Grummner is the resident paladin trainer in Anvilmar, located in Coldridge Valley within Dun Morogh. He provides foundational training, spells, and spiritual guidance to new dwarven paladins."
+   "answer": "Bromos Grummner trains new dwarven paladins in Anvilmar, in Coldridge Valley within Dun Morogh. He gives them basic training, spells, and spiritual guidance."
   },
   {
    "q": "What order does Bromos represent?",
@@ -32,7 +32,7 @@
     "bromos silver hand",
     "is bromos silver hand"
    ],
-   "answer": "Bromos represents the Knights of the Silver Hand. He actively emphasizes the importance of the bond between humans and dwarves forged under the banner of the holy order."
+   "answer": "Bromos represents the Knights of the Silver Hand. He teaches the importance of the bond between humans and dwarves, forged under the holy order's banner."
   },
   {
    "q": "What does he teach new recruits?",
@@ -40,17 +40,17 @@
     "bromos quests",
     "what does bromos grummner do"
    ],
-   "answer": "He instructs initiates in the basic combat arts and divine spells of the paladin class, tasking them with early trials to prove their dedication to the Light and readiness to protect Dun Morogh."
+   "answer": "He teaches new paladins basic combat arts and divine spells. He gives initiates early trials to prove their dedication to the Light and readiness to protect Dun Morogh."
   }
  ],
  "angles": [
   {
    "target": "class:Paladin",
-   "text": "For dwarven paladins, Bromos serves as their very first spiritual mentor, introducing them to the sacred duties of the Silver Hand."
+   "text": "As a dwarven paladin, you can look to Bromos as your first spiritual mentor. He introduces you to the sacred duties of the Silver Hand."
   },
   {
    "target": "race:Dwarf",
-   "text": "Bromos embodies the enduring tradition of dwarven devotees of the Light who fight side-by-side with their human allies."
+   "text": "As a dwarf, you follow a long tradition of devotion to the Light and fight beside your human allies."
   }
  ],
  "keywords": [
@@ -74,5 +74,6 @@
  ],
  "attribution": [
   "Bromos Grummner"
- ]
+ ],
+ "style": 1
 }

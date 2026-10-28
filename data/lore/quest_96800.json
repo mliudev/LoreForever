@@ -1,0 +1,85 @@
+{
+ "key": "quest:96800",
+ "type": "quest",
+ "name": "Past Due",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   96800
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A scholar asks you to recover a missing tome from the Scarlet Monastery. The book is needed for research on the ancient Wildhammer runemasters of Grim Batol.",
+ "sections": [
+  {
+   "title": "An overdue book",
+   "body": "The scholar is writing a thesis on the ancient Wildhammer runemasters of Grim Batol. The old Dalaran library's ledgers say that Doan borrowed the tome before the Third War and never returned it. He is now in the Scarlet Monastery in Tirisfal Glades, and the book is there to be recovered.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who needs the book?",
+   "aliases": [
+    "who wants the tome",
+    "scholar research"
+   ],
+   "answer": "A scholar writing a thesis on the ancient Wildhammer runemasters of Grim Batol needs it to complete the research."
+  },
+  {
+   "q": "What book was borrowed?",
+   "aliases": [
+    "which tome",
+    "lost runemasters book"
+   ],
+   "answer": "The book is called The Lost Magic of the Runemasters."
+  },
+  {
+   "q": "Who borrowed the book?",
+   "aliases": [
+    "who checked it out",
+    "Doan book"
+   ],
+   "answer": "The old Dalaran library's ledgers say that a mage named Doan borrowed the book before the Third War."
+  },
+  {
+   "q": "Where is the book?",
+   "aliases": [
+    "where's the tome",
+    "book location"
+   ],
+   "answer": "The book is in the Scarlet Monastery in Tirisfal Glades, where Arcanist Doan is now."
+  },
+  {
+   "q": "What is the research about?",
+   "aliases": [
+    "wildhammer runemasters",
+    "Grim Batol thesis"
+   ],
+   "answer": "The scholar is researching the ancient Wildhammer runemasters of Grim Batol."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "arcanist doan",
+  "dalaran library",
+  "grim batol",
+  "past due",
+  "scarlet monastery",
+  "the lost magic of the runemasters",
+  "wildhammer runemasters"
+ ],
+ "related": [
+  "subzone:grim-batol",
+  "zone:scarlet",
+  "zone:tirisfal",
+  "subzone:dalaran",
+  "topic:mage"
+ ],
+ "style": 1,
+ "attribution": [
+  "In-game quest text: Past Due"
+ ]
+}

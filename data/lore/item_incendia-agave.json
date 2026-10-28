@@ -10,16 +10,16 @@
    "quest:5062"
   ]
  },
- "summary": "Incendia Agave is a rare, spiky aquatic plant native to the Boiling Pool beneath Darkcloud Pinnacle in Thousand Needles. When enchanted by a skilled shaman, its unique properties allow it to kindle the sacred fire of life.",
+ "summary": "Beneath Darkcloud Pinnacle, Incendia Agave grows in the Boiling Pool. A skilled shaman can enchant it to kindle the sacred fire of life.",
  "sections": [
   {
    "title": "A Rare Desert Herb",
-   "body": "Growing beneath and around the waters of the Boiling Pool in Thousand Needles, Incendia Agave thrives directly in the shadow of Darkcloud Pinnacle. Guarded naturally by wandering steam elementals, the plant is difficult to harvest and scarce across Kalimdor. Despite growing submerged in water, it contains potent natural elements that lend themselves directly to rituals of flame.",
+   "body": "In Thousand Needles, Incendia Agave grows in and around the waters of the Boiling Pool, beneath Darkcloud Pinnacle. Wandering steam elementals guard the scarce plant, making it difficult to harvest. Though it grows underwater, the plant holds natural elements suited to rituals of flame.",
    "spoiler": 0
   },
   {
    "title": "The Sacred Fire",
-   "body": "Tauren ritualists know that the dormant sacred fire of life cannot be lit by mundane sparks alone. Elder Magatha Grimtotem on Elder Rise in Thunder Bluff possesses the shamanic knowledge required to enchant harvested bushels of Incendia Agave into a mystical powder. Once prepared, this powder ignites the ceremonial brazier needed to summon the vengeful wind serpent Arikara.",
+   "body": "Tauren ritualists cannot kindle the dormant sacred fire of life with ordinary sparks. Elder Magatha Grimtotem, on Elder Rise in Thunder Bluff, can enchant harvested bushels of Incendia Agave into a mystical powder. The powder lights the ceremonial brazier used to summon the vengeful wind serpent Arikara.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "incendia agave location",
     "where is agave"
    ],
-   "answer": "Incendia Agave grows in and around the lake at the Boiling Pool, situated beneath Darkcloud Pinnacle in northern Thousand Needles. Much of it can be found resting submerged underwater along the lakebed."
+   "answer": "Incendia Agave grows in and around the lake at the Boiling Pool beneath Darkcloud Pinnacle in northern Thousand Needles. Much of it lies submerged along the lakebed."
   },
   {
    "q": "What is Incendia Agave used for?",
@@ -40,7 +40,7 @@
     "why gather agave",
     "what does agave do"
    ],
-   "answer": "Ten bushels of the agave are gathered to produce a ritual powder. Once enchanted by Magatha Grimtotem in Thunder Bluff, the powder is used to light the sacred fire of life and summon the serpent Arikara."
+   "answer": "Ten bushels of Incendia Agave are gathered and made into ritual powder. Magatha Grimtotem enchants it in Thunder Bluff to light the sacred fire of life and summon Arikara."
   },
   {
    "q": "Who can enchant the Incendia Agave?",
@@ -49,7 +49,7 @@
     "magatha agave",
     "who turns agave into powder"
    ],
-   "answer": "Magatha Grimtotem, an influential shaman situated on Elder Rise in Thunder Bluff, holds the ritual expertise to weave shamanic magic into the raw plant material."
+   "answer": "Magatha Grimtotem, an influential shaman on Elder Rise in Thunder Bluff, has the ritual knowledge to enchant Incendia Agave."
   },
   {
    "q": "What threats surround the Incendia Agave?",
@@ -58,17 +58,17 @@
     "what guards agave",
     "boiling pool dangers"
    ],
-   "answer": "The waters and shores of the Boiling Pool are roamed by hostile steam elementals, which are exceptionally resistant to frost and fire spells."
+   "answer": "Hostile steam elementals roam the waters and shores of the Boiling Pool. They are exceptionally resistant to frost and fire spells."
   }
  ],
  "angles": [
   {
    "target": "class:Shaman",
-   "text": "The agave requires raw shamanic elemental craft to convert from an aquatic succulent into a powder potent enough to ignite sacred ritual flames."
+   "text": "As a shaman, you can use raw elemental craft to turn the aquatic plant into powder potent enough to kindle sacred ritual flames."
   },
   {
    "target": "profession:Herbalism",
-   "text": "Herbalists will find their tracking sense indispensable when locating the spiky clumps of Incendia Agave hidden along the murky floor of the Boiling Pool."
+   "text": "As a herbalist, your tracking sense helps you find Incendia Agave's spiky clumps along the murky floor of the Boiling Pool."
   }
  ],
  "keywords": [
@@ -93,5 +93,6 @@
  "attribution": [
   "Incendia Agave",
   "Sacred Fire"
- ]
+ ],
+ "style": 1
 }

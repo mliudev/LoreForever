@@ -10,16 +10,16 @@
    "quest:1011"
   ]
  },
- "summary": "A Bottle of Disease is a vial of virulent concoctions brewed by the Forsaken operating in Ashenvale. Found at an encampment near the Dor'Danil Barrow Den, these vials represent an ominous attempt by the undead to introduce blighted plagues into the pristine night elven wilderness.",
+ "summary": "Forsaken alchemists brew disease near the Dor'Danil Barrow Den in Ashenvale. The bottles hold virulent concoctions found at their encampment.",
  "sections": [
   {
    "title": "Blight in the Sacred Woods",
-   "body": "Deep within the ancient canopy of eastern Ashenvale, the Forsaken have crept far past the front lines of the Warsong Outriders. Establishing an outpost near the Dor'Danil Barrow Den, undead alchemists brew foul contagions and seal them within glass bottles. To the night elves guarding Forest Song, these vials are clear evidence of a quiet, insidious offensive aimed at sickening the woodland soil and wildlife rather than engaging in open combat.",
+   "body": "Near the Dor'Danil Barrow Den, Forsaken alchemists brew contagions in an outpost beyond the Warsong Outriders' front lines. The bottles give night elves at Forest Song evidence of an offensive aimed at sickening the woodland soil and wildlife instead of meeting their sentinels in open combat.",
    "spoiler": 0
   },
   {
    "title": "Kayneth Stillwind's Investigation",
-   "body": "Kayneth Stillwind, a night elf sentry stationed at Forest Song, seeks proof of the Forsaken's sinister ambitions. Recovering a Bottle of Disease allows Stillwind to analyze its contents directly. The night elves fear that these concoctions are not merely weapons of war against armed sentinels, but calculated reagents designed to corrupt sacred barrows and break the minds and bodies of the forest's defenders.",
+   "body": "Kayneth Stillwind, a night elf sentry at Forest Song, seeks proof of Forsaken ambitions. He wants a Bottle of Disease so he can study its contents. The night elves fear the mixtures could corrupt sacred barrows and break the minds and bodies of the forest's defenders.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "bottle of disease contents",
     "forsaken potion"
    ],
-   "answer": "The bottle contains synthetic poisons and magical contagions brewed by Forsaken apothecaries. These foul mixtures are designed to corrupt living flesh and soil, reflecting the Royal Apothecary Society's broader experiments with virulent blights."
+   "answer": "Forsaken apothecaries brew synthetic poisons and magical contagions in the bottle. The Royal Apothecary Society conducts broader experiments with virulent blights."
   },
   {
    "q": "Where are these bottles found?",
@@ -40,7 +40,7 @@
     "bottle of disease location",
     "forsaken camp ashenvale"
    ],
-   "answer": "They are located in an isolated Forsaken encampment situated south of Forest Song, just near the entrance of the Dor'Danil Barrow Den in eastern Ashenvale."
+   "answer": "The bottles are in an isolated Forsaken encampment south of Forest Song, near the entrance to Dor'Danil Barrow Den in eastern Ashenvale."
   },
   {
    "q": "Who wants the Bottle of Disease?",
@@ -49,7 +49,7 @@
     "turn in bottle of disease",
     "kayneth stillwind quest"
    ],
-   "answer": "Kayneth Stillwind, a night elf protector stationed at the outpost of Forest Song, tasks Alliance adventurers with retrieving a bottle so he can test its contents and divine the Horde's true intentions."
+   "answer": "Kayneth Stillwind, a night elf protector at Forest Song, wants you to retrieve a bottle so he can test its contents and learn the Horde's intentions."
   },
   {
    "q": "Why are the Forsaken brewing diseases in Ashenvale?",
@@ -58,17 +58,17 @@
     "undead goal in ashenvale",
     "forsaken barrow dens"
    ],
-   "answer": "The night elves suspect the Forsaken intend to quietly infect the sacred forest and desecrate the nearby barrow dens, poisoning the natural ecosystem and undermining night elven resistance from within."
+   "answer": "The night elves suspect the Forsaken mean to infect the sacred forest and desecrate nearby barrow dens, poisoning the ecosystem and weakening night elven resistance from within."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "The desecration of Ashenvale's soil by undead contagion is an unforgivable affront to the Kaldorei, particularly when concocted on the doorstep of the Dor'Danil Barrow Den."
+   "text": "As a night elf, you know that undead contagion on Ashenvale's soil is an unforgivable affront, especially near Dor'Danil Barrow Den."
   },
   {
    "target": "class:Druid",
-   "text": "Blighted mixtures and artificial plagues represent the antithesis of natural balance, demanding swift intervention from any druid sworn to preserve the woodland."
+   "text": "As a druid, you know blighted mixtures and artificial plagues oppose natural balance. You must act swiftly to preserve the woodland."
   }
  ],
  "keywords": [
@@ -94,5 +94,6 @@
  "attribution": [
   "Bottle of Disease",
   "Forsaken Diseases"
- ]
+ ],
+ "style": 1
 }

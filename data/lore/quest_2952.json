@@ -23,16 +23,16 @@
    "More Sparklematic Action"
   ]
  },
- "summary": "Deep within the irradiated halls of Gnomeregan sits the Sparklematic 5200, an automated cleaning contraption designed to scrub toxic filth from recovered salvaging. Operating the machine strips heavy grime from soiled objects and packages whatever is salvaged in a decorative gift box.",
+ "summary": "In Gnomeregan, soiled salvaged objects go into the Sparklematic 5200! for cleaning. Its cycles scour toxic grime away and package whatever remains in a gift box.",
  "sections": [
   {
    "title": "Automated Cleansing",
-   "body": "Gnomish engineering often prizes efficiency and whimsy in equal measure. The Sparklematic 5200 was built to handle toxic and contaminated refuse, scouring away grime and caustic residue through automated cycles. Once loaded and paid, the contraption rattles through its cleaning routine before emitting a cheerful ding, neatly wrapping whatever remains into a present tied with a bow.",
+   "body": "You feed toxic and contaminated refuse into the Sparklematic 5200!, and its automated cycles scour away grime and caustic residue. Once loaded and paid, the machine rattles through its routine, then gives a cheerful ding and wraps whatever remains in a present tied with a bow.",
    "spoiler": 0
   },
   {
    "title": "Treasure in the Sludge",
-   "body": "Since the fall of Gnomeregan to the troggs and the subsequent radiation disaster, countless personal effects and technological scraps were smothered in industrial mire. Adventurers who feed grime-encrusted objects into the machine can reclaim lost gemstones, raw ores, and long-lost valuables that were swallowed up when the city was vented.",
+   "body": "Radiation and industrial mire buried personal effects and scraps of technology when Gnomeregan fell to the troggs. Feed grime-encrusted objects into the machine, and gemstones, raw ores and other valuables swallowed when the city was vented may be reclaimed.",
    "spoiler": 0
   }
  ],
@@ -44,7 +44,7 @@
     "how sparklematic works",
     "sparklematic function"
    ],
-   "answer": "The Sparklematic 5200 is an automated cleaning machine inside Gnomeregan. When supplied with a grime-encrusted object and a coin fee, it cleans away sludge, grime, and radioactive muck, returning the cleaned contents packaged in a small gift box."
+   "answer": "The Sparklematic 5200! cleans objects inside Gnomeregan. Supply a grime-encrusted object and a coin fee, and it scours away sludge, grime and radioactive muck before returning the contents in a small gift box."
   },
   {
    "q": "Where is the Sparklematic 5200 located?",
@@ -53,7 +53,7 @@
     "where is the cleaning machine",
     "find sparklematic"
    ],
-   "answer": "The machine is located inside the interior corridors of the fallen city of Gnomeregan, near the Clean Zone where survivors and automated decontamination systems once operated."
+   "answer": "The Sparklematic 5200! is inside the corridors of fallen Gnomeregan, near the Clean Zone where survivors and automated decontamination systems once operated."
   },
   {
    "q": "Why does the machine wrap items in a bow?",
@@ -62,7 +62,7 @@
     "sparklematic wrapped present",
     "wrapped in bow"
    ],
-   "answer": "It was programmed with typical gnomish whimsy. Even after scrubbing dangerous fallout and toxic grime off an item, its creators designed the finishing cycle to package the restored object into a pleasant, neatly tied present."
+   "answer": "Gnomish whimsy gave the Sparklematic 5200! its bow-tied finish. After cleaning fallout and toxic grime from an item, it packages the restored object as a neatly tied present."
   },
   {
    "q": "Can Horde adventurers use the Sparklematic 5200?",
@@ -71,7 +71,7 @@
     "can horde clean grime",
     "is sparklematic neutral"
    ],
-   "answer": "Yes. The Sparklematic 5200 is a fully automated apparatus that does not care about faction allegiances. So long as a visitor inserts coins and soiled items, the machine runs its cycle."
+   "answer": "Yes. The Sparklematic 5200! is automated and does not heed faction allegiance. Insert coins and soiled items, and it runs its cycle."
   },
   {
    "q": "Can I use the Sparklematic multiple times?",
@@ -80,7 +80,7 @@
     "more sparklematic action",
     "farm grime encrusted objects"
    ],
-   "answer": "Yes. After the initial operation, the machine unlocks a repeatable task allowing anyone who discovers grime-encrusted items throughout the dungeon to process them again and again."
+   "answer": "Yes. After its first operation, the Sparklematic 5200! can be used for repeat cleaning. Bring grime-encrusted items found throughout the dungeon to process them again."
   },
   {
    "q": "What happens after this quest?",
@@ -88,17 +88,17 @@
     "next quest after sparklematic",
     "what follows sparklematic 5200"
    ],
-   "answer": "Completing this initial cleansing leads directly to the repeatable cleaning cycle known as More Sparklematic Action, allowing you to clean any additional grime-encrusted finds you carry."
+   "answer": "After the first cleaning, you can use the repeatable cycle called More Sparklematic Action to clean any additional grime-encrusted finds you carry."
   }
  ],
  "angles": [
   {
    "target": "race:Gnome",
-   "text": "The Sparklematic is a stark reminder of home before the fall: even an industrial scrub unit had to chime cheerfully and deliver the finished product wrapped up like a birthday present."
+   "text": "As a gnome, the Sparklematic recalls home before the fall. Even an industrial scrub unit chimed cheerfully and wrapped its finished work like a birthday present."
   },
   {
    "target": "profession:Engineering",
-   "text": "Studying the Sparklematic offers a look at automated particulate cleaning and rapid packaging mechanisms engineered to endure heavy ambient radiation."
+   "text": "As an engineer, you can study how the Sparklematic cleans particles automatically and packages items quickly, even amid heavy radiation."
   }
  ],
  "keywords": [
@@ -117,5 +117,6 @@
  ],
  "attribution": [
   "The Sparklematic 5200! (2)"
- ]
+ ],
+ "style": 1
 }

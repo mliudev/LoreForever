@@ -10,16 +10,16 @@
    "quest:8"
   ]
  },
- "summary": "The Nondescript Letter is a sealed, unmarked missive entrusted to newly awakened Forsaken leaving Deathknell. Handed over by Calvin Montague under the guise of an errand, it directs the bearer down the road to Innkeeper Renee at the Gallows' End Tavern in Brill.",
+ "summary": "Calvin Montague sends a Nondescript Letter east from Deathknell to Innkeeper Renee in Brill. He gives it to newly awakened Forsaken as an excuse to leave the valley and reach the Gallows' End Tavern.",
  "sections": [
   {
    "title": "A Courier's Errand",
-   "body": "Newly arisen Forsaken looking to venture beyond Deathknell are approached by Calvin Montague, a shifty rogue lingering near the village perimeter. Claiming to be weary from fighting mindless zombies and arachnids, Calvin asks travelers to carry a plain, unmarked envelope along the eastward road to Brill. Addressed casually to an innkeeper named Renee, the letter serves as an excuse to push travelers out of the valley and toward the Gallows' End Tavern, though Calvin's promises of rich compensation ring hollow from the start.",
+   "body": "Calvin Montague asks newly arisen Forsaken near Deathknell to carry an unmarked envelope east to Brill. He claims he is tired from fighting zombies and spiders, and says the letter is for an innkeeper named Renee. His promise of rich compensation sounds hollow, and the errand takes travelers out of the valley toward the Gallows' End Tavern.",
    "spoiler": 0
   },
   {
    "title": "Suspicious Correspondence",
-   "body": "Upon delivery in Brill, Innkeeper Renee initially attempts an exaggerated, cheerful charade, claiming the letter must be sweet news from her saintly mother in Deathknell. When she realizes the courier sees through her awkward acting, her pleasant demeanor vanishes into sharp irritation. She snatches the letter, refuses to reveal who actually sent it or what it contains, and brusquely orders the bearer away unless they intend to pay for a room.",
+   "body": "Innkeeper Renee first pretends the letter brings sweet news from her saintly mother in Deathknell. When she sees the courier is not fooled, her cheerful manner gives way to irritation. She snatches the letter, refuses to say who sent it or what it contains, and orders the bearer away unless they mean to pay for a room.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "what is this letter",
     "calvin's letter"
    ],
-   "answer": "It is an unadorned, ordinary-looking envelope given to fresh Forsaken adventurers by Calvin Montague in Deathknell, meant for delivery to Innkeeper Renee in Brill."
+   "answer": "The Nondescript Letter is a plain, unmarked envelope Calvin Montague gives newly awakened Forsaken in Deathknell to carry to Innkeeper Renee in Brill."
   },
   {
    "q": "Who sends the letter, and who receives it?",
@@ -40,7 +40,7 @@
     "who gets the letter",
     "letter sender"
    ],
-   "answer": "Calvin Montague, a rogue stationed in Deathknell, gives the letter to couriers. It is addressed to Innkeeper Renee at the Gallows' End Tavern in Brill."
+   "answer": "Calvin Montague gives the letter to couriers in Deathknell. It is addressed to Innkeeper Renee at the Gallows' End Tavern in Brill."
   },
   {
    "q": "What does the letter actually say?",
@@ -49,7 +49,7 @@
     "letter contents",
     "can you read the letter"
    ],
-   "answer": "The specific contents of the letter are not revealed to the player. When questioned, Innkeeper Renee drops her cheerful facade and angrily tells you that the letter's origins and contents are none of your business."
+   "answer": "The letter's contents are never revealed. When you ask, Innkeeper Renee drops her cheerful act and angrily says its origins and contents are none of your business."
   },
   {
    "q": "Why does Calvin Montague want it delivered?",
@@ -58,17 +58,17 @@
     "calvin's motive",
     "why brill"
    ],
-   "answer": "Calvin claims he is too tied up fighting local zombies and spiders to run the errand himself. In practice, the delivery directs travelers out of Deathknell and introduces them to the amenities and resting spots available in Brill."
+   "answer": "Calvin claims he is too busy fighting local zombies and spiders to carry the letter himself. The delivery sends travelers out of Deathknell and introduces them to Brill's inns and resting places."
   }
  ],
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "Calvin Montague's shifty posture and Renee's abrupt change in demeanor carry all the hallmarks of low-level rogue intrigue and coded underworld communication."
+   "text": "As a rogue, Calvin Montague's shifty manner and Renee's abrupt change of mood suggest intrigue and coded underworld messages."
   },
   {
    "target": "race:Undead",
-   "text": "For newly risen Forsaken, carrying this letter is one of the earliest incentives to leave the confines of Deathknell and explore the broader settlements of Tirisfal Glades."
+   "text": "As a newly risen Forsaken, carrying this letter gives you an early reason to leave Deathknell and explore the settlements of Tirisfal Glades."
   }
  ],
  "keywords": [
@@ -93,5 +93,6 @@
  "attribution": [
   "Nondescript Letter",
   "A Rogue's Deal"
- ]
+ ],
+ "style": 1
 }

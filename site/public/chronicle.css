@@ -103,7 +103,7 @@
 /* ==== Site layouts (2026-10-25, the approved whole-site design, lab/lore-site-v3: .sheet .spread .wrapA .slip .fold ...) ====
    Additive pieces the page layouts share (Home, Downloads, /lore, What's new, the reading pages, the 404): a stack of
    sheets on the ground (.ch-stack, narrower with .narrow or .read), an open spread (.ch-spread of two .ch-page), the one
-   Meet Willo slip (.ch-willo: Willo's daylight in both light and dark, her own look), the wax play seal (.ch-waxseal),
+   Meet Willo slip (.ch-willo: her own look, her daylight in light and her night in dark), the wax play seal (.ch-waxseal),
    a fold (details.ch-fold) and a row of a list (.ch-lrow). The older home.css has the same spread rules; they agree. */
 :where(html:not([data-door="willo"])) {
   .ch-stack { width: calc(100% - 32px); max-width: 1100px; margin: 18px auto 64px; display: grid; gap: 14px; align-content: start; }
@@ -119,20 +119,29 @@
   .ch-fine { margin: 0; color: var(--pg-note); font-size: 0.92rem; }
   .ch-sheet .ch-kicker { margin: 0; }
 
-  /* The one Meet Willo slip: her daylight in both themes, so its colours are fixed (4.5:1 and up on its own pale blue). */
-  .ch-willo { display: flex; flex-wrap: wrap; gap: 8px 12px; align-items: center; padding: 9px 14px; border: 1px solid #7fa6c4; border-radius: 4px;
-    background: #e4eef6 linear-gradient(100deg, #d9e8f3, #eef4f9); color: #12304a; box-shadow: 0 6px 18px -10px var(--pg-shadow); font-family: var(--ch-body, sans-serif); }
-  .ch-willo .ico { flex: none; display: grid; place-items: center; width: 30px; height: 30px; border-radius: 4px; background: #0e2438; color: #ecc07a;
+  /* The one Meet Willo slip, in her own colours: her daylight (pale blue) in light, her night (dark navy with her teal)
+     in dark, so it isn't the brightest thing on a dark page (Design Lead, 10/26). 4.5:1 and up in both. */
+  .ch-willo { --w-ink: #12304a; --w-text: #2b4a62; --w-edge: #7fa6c4; --w-bg: #e4eef6 linear-gradient(100deg, #d9e8f3, #eef4f9);
+    --w-ico: #0e2438; --w-link: #12304a; --w-hover: #000; --w-ghost: #ffffff66; --w-ghost-hover: #fff; --w-ghost-edge: #12304a88;
+    display: flex; flex-wrap: wrap; gap: 8px 12px; align-items: center; padding: 9px 14px; border: 1px solid var(--w-edge); border-radius: 4px;
+    background: var(--w-bg); color: var(--w-ink); box-shadow: 0 6px 18px -10px var(--pg-shadow); font-family: var(--ch-body, sans-serif); }
+  @media (prefers-color-scheme: dark) { &:not([data-theme="light"]) .ch-willo { --w-ink: #e6f2fa; --w-text: #b4cddf; --w-edge: #2f5b7c;
+    --w-bg: #0e2438 linear-gradient(100deg, #0e2438, #16354f); --w-ico: #1d4566; --w-link: #7fe0dc; --w-hover: #b8f3f0; --w-ghost: #7fe0dc14;
+    --w-ghost-hover: #7fe0dc2e; --w-ghost-edge: #7fe0dc88; } }
+  &[data-theme="dark"] .ch-willo { --w-ink: #e6f2fa; --w-text: #b4cddf; --w-edge: #2f5b7c;
+    --w-bg: #0e2438 linear-gradient(100deg, #0e2438, #16354f); --w-ico: #1d4566; --w-link: #7fe0dc; --w-hover: #b8f3f0; --w-ghost: #7fe0dc14;
+    --w-ghost-hover: #7fe0dc2e; --w-ghost-edge: #7fe0dc88; }
+  .ch-willo .ico { flex: none; display: grid; place-items: center; width: 30px; height: 30px; border-radius: 4px; background: var(--w-ico); color: #ecc07a;
     font: 700 15px/1 "Marcellus", "Palatino Linotype", Georgia, serif; }
   .ch-willo .txt { flex: 1 1 220px; min-width: 0; display: grid; gap: 1px; }
-  .ch-willo p { margin: 0; color: #2b4a62; font-size: 0.92rem; line-height: 1.35; }
-  .ch-willo p b { color: #12304a; font-size: 1rem; }
+  .ch-willo p { margin: 0; color: var(--w-text); font-size: 0.92rem; line-height: 1.35; }
+  .ch-willo p b { color: var(--w-ink); font-size: 1rem; }
   .ch-willo .go { display: flex; flex-wrap: wrap; gap: 6px 14px; align-items: center; margin-left: auto; }
-  .ch-willo a { color: #12304a; font-weight: 700; font-size: 0.92rem; text-underline-offset: 3px; }
-  .ch-willo a:hover { color: #000; }
-  .ch-willo a.ghost { padding: 6px 12px; border: 1px solid #12304a88; border-radius: 5px; text-decoration: none; background: #ffffff66; white-space: nowrap; }
-  .ch-willo a.ghost:hover { background: #fff; }
-  .ch-willo a:focus-visible { outline: 2px solid #12304a; outline-offset: 2px; }
+  .ch-willo a { color: var(--w-link); font-weight: 700; font-size: 0.92rem; text-underline-offset: 3px; }
+  .ch-willo a:hover { color: var(--w-hover); }
+  .ch-willo a.ghost { padding: 6px 12px; border: 1px solid var(--w-ghost-edge); border-radius: 5px; text-decoration: none; background: var(--w-ghost); white-space: nowrap; }
+  .ch-willo a.ghost:hover { background: var(--w-ghost-hover); }
+  .ch-willo a:focus-visible { outline: 2px solid var(--w-link); outline-offset: 2px; }
 
   /* The wax play seal. A button or a link is the seal (or has one in it); the play glyph is its text. */
   .ch-waxseal { flex: none; display: inline-grid; place-items: center; width: 30px; height: 30px; padding: 0; border: 0; border-radius: 50%;

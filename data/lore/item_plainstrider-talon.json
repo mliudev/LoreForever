@@ -10,11 +10,11 @@
    "quest:748"
   ]
  },
- "summary": "A Plainstrider Talon is a sharp claw harvested from the large, flightless plainstriders native to Mulgore. Tauren shamans use these talons alongside other natural reagents to craft sacred cleansing totems when the land's water sources are corrupted.",
+ "summary": "Across Mulgore, tauren shamans gather Plainstrider Talon for cleansing totems. The sharp claws come from large, flightless plainstriders native to the region, and help cleanse corrupted water.",
  "sections": [
   {
    "title": "Bonds of the Plains",
-   "body": "The large, flightless plainstriders roam the open grasses of Mulgore, relying on powerful legs and sharp claws to defend against predators and forage through the tough prairie earth. To the tauren of Bloodhoof Village, every part of a hunted beast carries spiritual resonance. When goblin ventures tainted sacred sources like the Winterhoof Water Well, shaman Mull Thunderhorn sought plainstrider talons alongside prairie wolf paws. In tauren ritual crafting, gathering reagents from native predators and foragers allows the spiritual essence of the land to be channeled into totems capable of purging unnatural poisons.",
+   "body": "Large, flightless plainstriders roam Mulgore’s open grasses, using powerful legs and sharp claws to forage through tough prairie earth and defend against predators. To the tauren of Bloodhoof Village, every part of a hunted beast carries spiritual resonance. When goblin ventures tainted sacred sources such as the Winterhoof Water Well, shaman Mull Thunderhorn sought plainstrider talons alongside prairie wolf paws. In tauren ritual crafting, reagents from native predators and foragers channel the land’s spiritual essence into totems that can purge unnatural poisons.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "where to get plainstrider talons",
     "plainstrider talon source"
    ],
-   "answer": "Plainstrider talons are harvested from adult plainstriders, elder plainstriders, and the notorious strider Mazzranache across the grasslands of Mulgore."
+   "answer": "Adult plainstriders, elder plainstriders, and the notorious strider Mazzranache yield Plainstrider Talons across Mulgore’s grasslands."
   },
   {
    "q": "What are Plainstrider Talons used for?",
@@ -35,7 +35,7 @@
     "why do i need talons",
     "plainstrider talon quest"
    ],
-   "answer": "Mull Thunderhorn in Bloodhoof Village requires plainstrider talons and prairie wolf paws to craft a cleansing totem, which is used to purify the corrupted Winterhoof Water Well."
+   "answer": "Mull Thunderhorn in Bloodhoof Village needs plainstrider talons and prairie wolf paws to craft a cleansing totem for purifying the corrupted Winterhoof Water Well."
   },
   {
    "q": "Why does Mull Thunderhorn need animal parts to clean the water?",
@@ -43,7 +43,7 @@
     "why animal paws and claws",
     "shaman cleansing ritual talons"
    ],
-   "answer": "Tauren shamanism relies on harmony with the natural spirits of Mulgore. By binding elements of local wildlife into the ritual totem, the shaman calls upon the raw power of the land itself to fight off foreign pollutants introduced by Venture Company goblins."
+   "answer": "Tauren shamanism relies on harmony with Mulgore’s natural spirits. Binding local wildlife into a ritual totem calls on the land’s raw power to fight unnatural pollutants introduced by Venture Company goblins."
   },
   {
    "q": "Who poisoned the water wells in Mulgore?",
@@ -52,17 +52,17 @@
     "who poisoned mulgore water",
     "poison water culprit"
    ],
-   "answer": "Goblins\u2014specifically agents of the Venture Company operating in Mulgore\u2014and their lackeys have tainted the sacred tribal water wells, disrupting the local environment and threatening the tauren tribes."
+   "answer": "Agents of the Venture Company operating in Mulgore, along with their lackeys, tainted the sacred tribal water wells. Their acts disrupt the local environment and threaten the tauren tribes."
   }
  ],
  "angles": [
   {
    "target": "class:Shaman",
-   "text": "Using beasts' physical parts like talons to fashion purifying totems exemplifies traditional tauren shamanic practices, drawing power directly from the native spirits of the land."
+   "text": "As a shaman, you can see how tauren rituals use beasts’ physical parts, such as talons, to make purifying totems and draw power from the land’s native spirits."
   },
   {
    "target": "race:Tauren",
-   "text": "Honoring the sacrifice of Mulgore's wildlife is central to the tauren hunt, ensuring that every beast taken helps heal the Earth Mother when goblin exploitation strikes."
+   "text": "As a tauren, you honor the sacrifice of Mulgore’s wildlife through the hunt. Every beast taken helps heal the Earth Mother when goblin exploitation strikes."
   }
  ],
  "keywords": [
@@ -87,5 +87,6 @@
  "attribution": [
   "Plainstrider Talon",
   "Poison Water (Classic)"
- ]
+ ],
+ "style": 1
 }

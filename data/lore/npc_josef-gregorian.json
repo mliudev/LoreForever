@@ -8,11 +8,11 @@
   "wiki": "Josef Gregorian",
   "refs": 2
  },
- "summary": "Josef Gregorian is a Forsaken tailoring trainer found working in the Magic Quarter of the Undercity. He guides ambitious Horde tailors seeking to weave enchanted fabrics, providing expertise and directing them toward specialized garments.",
+ "summary": "In the Undercity’s Magic Quarter, Josef Gregorian trains tailors of the Horde. His skill guides them toward enchanted fabrics and specialized garments.",
  "sections": [
   {
    "title": "Weaver of the Magic Quarter",
-   "body": "Amid the dim alchemical lanterns and damp vaults of the Magic Quarter, Josef Gregorian maintains the fine craft of tailoring for the Forsaken and their Horde allies. While life in the subterranean kingdom has turned cold, cloth-working remains vital for warlocks, mages, and priests who channel raw energies through woven fibers. Gregorian serves as a dependable instructor in the capital, ready to teach foundational patterns and to stitch the first robes of young mages who bring him the right materials.",
+   "body": "Josef Gregorian teaches tailoring in the Undercity’s Magic Quarter, where Forsaken and their Horde allies practice the craft. Tailoring remains vital to warlocks, mages, and priests who channel raw energies through woven fibers. Gregorian teaches foundational patterns and stitches the first robes for young mages who bring him the right materials.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "where is gregorian",
     "undercity tailor trainer"
    ],
-   "answer": "Josef Gregorian is located in the Magic Quarter of the Undercity, practicing and teaching the tailoring craft among the city's casters and scholars."
+   "answer": "Josef Gregorian works and teaches in the Magic Quarter of the Undercity, among the city’s casters and scholars."
   },
   {
    "q": "What role does Josef Gregorian serve in the Undercity?",
@@ -33,7 +33,7 @@
     "josef gregorian trainer",
     "undercity tailoring"
    ],
-   "answer": "He is a tailoring trainer who teaches sewing recipes and techniques to Horde crafters. He also stitches the first robes of young mages sent to him by Anastasia Hartwell."
+   "answer": "Josef Gregorian trains Horde crafters in sewing patterns and techniques. He also stitches the first robes for young mages sent to him by Anastasia Hartwell."
   },
   {
    "q": "What quests does Josef Gregorian offer?",
@@ -41,17 +41,17 @@
     "josef gregorian quests",
     "robe quests undercity"
    ],
-   "answer": "Gregorian takes part in a mage quest chain: Anastasia Hartwell sends young mages to him with linen cloth and Dalaran mana gems taken in Silverpine (Gathering Materials), and he stitches them a set of Lesser Spellfire Robes (Spellfire Robes)."
+   "answer": "Anastasia Hartwell sends young mages to Josef Gregorian with linen cloth and Dalaran mana gems taken in Silverpine. He uses the materials to stitch them a set of Lesser Spellfire Robes."
   }
  ],
  "angles": [
   {
    "target": "profession:Tailoring",
-   "text": "For Horde clothiers, Josef Gregorian is a prime contact in Lordaeron, offering instruction to tailors and stitching robes for young mages who bring him the materials."
+   "text": "For Horde clothiers, Josef Gregorian is a tailoring instructor in Lordaeron who also stitches robes for young mages who bring him the materials."
   },
   {
    "target": "race:Undead",
-   "text": "Gregorian demonstrates that despite death and undeath, the delicate arts of human tailoring survived the fall of Lordaeron to serve the new Forsaken society."
+   "text": "As an undead tailor, Josef Gregorian carries on the delicate art of human tailoring, which survived Lordaeron’s fall and now serves Forsaken society."
   }
  ],
  "keywords": [
@@ -73,5 +73,6 @@
  ],
  "attribution": [
   "Josef Gregorian"
- ]
+ ],
+ "style": 1
 }

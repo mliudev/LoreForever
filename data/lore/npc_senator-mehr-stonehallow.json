@@ -8,11 +8,11 @@
   "wiki": "Senator Mehr Stonehallow",
   "refs": 1
  },
- "summary": "Senator Mehr Stonehallow is an Ironforge politician and member of the Explorers' League stationed at the Gol'Bolar Quarry in Dun Morogh. Rather than debating policy in the capital, he has traveled to the front lines to personally oversee the containment of the local trogg infestation. He enlists eager adventurers to cull the beasts before they overrun the quarry completely.",
+ "summary": "At Gol'Bolar Quarry, Senator Mehr Stonehallow faces a trogg infestation. The Ironforge politician and Explorers' League member has come to the front lines to oversee its containment, enlisting eager adventurers to cull the beasts before they overrun the quarry.",
  "sections": [
   {
    "title": "A Politician in the Pits",
-   "body": "While most members of the Ironforge Senate spend their days safely sequestered within the great stone halls of the capital, Senator Mehr Stonehallow prefers direct action. As a dwarf dedicated both to governance and the historical pursuits of the Explorers' League, he understands the practical dangers facing the realm. When vicious Rockjaw troggs began clawing out of the deep rock in Gol'Bolar Quarry, Stonehallow made the journey to the mining pit himself. Convinced that bureaucratic posturing will not save the workers, he offers bounties to capable travelers to eradicate the aggressive troggs and reclaim the quarry.",
+   "body": "Senator Mehr Stonehallow has left Ironforge's Senate halls for Gol'Bolar Quarry. A dwarf devoted to governance and the Explorers' League's historical pursuits, he knows the dangers facing the realm. When Rockjaw troggs clawed their way from the deep rock, Stonehallow traveled to the mining pit himself. He believes debate alone will not protect the workers, so he offers bounties to capable travelers who can drive back the aggressive troggs and reclaim the quarry.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "who is the senator",
     "mehr stonehallow"
    ],
-   "answer": "Senator Mehr Stonehallow is a dwarven statesman serving in the Ironforge Senate. Unlike many of his legislative peers, he takes an active hand in frontier matters and belongs to the Explorers' League. He can currently be found standing guard and organizing defense efforts at Gol'Bolar Quarry."
+   "answer": "Senator Mehr Stonehallow serves in Ironforge's Senate and belongs to the Explorers' League. He has come to Gol'Bolar Quarry to organize its defense."
   },
   {
    "q": "Why is a senator stationed at Gol'Bolar Quarry?",
@@ -33,7 +33,7 @@
     "why is he at the quarry",
     "senator in dun morogh"
    ],
-   "answer": "Stonehallow traveled down into the quarry to take personal charge of the crisis unfolding there. The mining site was suddenly invaded by Rockjaw troggs burrowing up from beneath the earth, threatening both dwarven workers and valuable excavations, and Stonehallow refused to let the problem fester while waiting on distant bureaucrats."
+   "answer": "Senator Mehr Stonehallow has come to Gol'Bolar Quarry to take charge of a crisis. Rockjaw troggs burrowed up from beneath the earth and invaded the mining site, threatening dwarven workers and valuable excavations. Stonehallow will not leave the problem to distant officials."
   },
   {
    "q": "What does Senator Stonehallow want adventurers to do?",
@@ -42,7 +42,7 @@
     "stonehallow task",
     "quarry quests"
    ],
-   "answer": "He hires newly arrived adventurers to cull the Rockjaw trogg population inside and around Gol'Bolar Quarry. By wiping out the troggs infesting the lower levels, recruits help secure the excavation site and safeguard the remaining miners."
+   "answer": "Senator Mehr Stonehallow hires newly arrived adventurers to cull Rockjaw troggs in and around Gol'Bolar Quarry. Clearing the lower levels helps secure the excavation site and protect the remaining miners."
   },
   {
    "q": "What organization does Stonehallow belong to besides the Senate?",
@@ -51,17 +51,17 @@
     "is stonehallow explorers league",
     "stonehallow affiliation"
    ],
-   "answer": "Alongside his legislative duties in the Senate, Mehr Stonehallow is a member of the Explorers' League. This background fuels his interest in subterranean excavations and explains his willingness to venture far beyond the comforts of the capital."
+   "answer": "Mehr Stonehallow belongs to the Explorers' League as well as the Ironforge Senate. His interest in subterranean excavations helps explain why he ventured beyond the capital."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "For dwarves, seeing an elected senator standing knee-deep in quarry mud rather than sipping ale in the High Seat of Ironforge is a welcome demonstration of true dwarven grit."
+   "text": "For dwarves, a senator standing in quarry mud instead of drinking ale in Ironforge's High Seat shows the grit expected of their leaders."
   },
   {
    "target": "faction:Alliance",
-   "text": "Stonehallow offers an early look at how dwarven leadership operates, providing young Alliance heroes with straightforward civic duty: slaying monsters to protect working citizens."
+   "text": "Stonehallow offers young Alliance heroes a glimpse of dwarven leadership: protect working citizens by slaying monsters."
   }
  ],
  "keywords": [
@@ -87,5 +87,6 @@
  ],
  "attribution": [
   "Senator Mehr Stonehallow"
- ]
+ ],
+ "style": 1
 }

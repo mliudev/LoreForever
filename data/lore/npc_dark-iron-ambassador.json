@@ -8,16 +8,16 @@
   "wiki": "Dark Iron Ambassador",
   "refs": 5
  },
- "summary": "The Dark Iron Ambassador is an emissary of the Dark Iron clan found deep within Gnomeregan. His presence raises questions about the clan's interest in the ruined gnome capital.",
+ "summary": "Deep within Gnomeregan, the Dark Iron Ambassador draws notice as an envoy of his clan. His presence leaves the clan’s interest in the ruined gnome capital unexplained.",
  "sections": [
   {
    "title": "A Shadowy Envoy",
-   "body": "The Dark Iron Ambassador is found among the dangers of irradiated Gnomeregan. He represents the Dark Iron clan, but the purpose of his mission is not explained.",
+   "body": "Among Gnomeregan’s irradiated halls, the Dark Iron Ambassador represents his clan. No one explains the purpose of his mission.",
    "spoiler": 0
   },
   {
    "title": "Conspiracies in the Deep",
-   "body": "Investigators and goblins raise suspicions about Dark Iron involvement in Gnomeregan's troubles and its mysterious super rig. These remain theories; the ambassador's presence does not establish who caused the city's fall or the terms of any agreement.",
+   "body": "Investigators and goblins suspect the Dark Irons may be involved in Gnomeregan’s troubles and its mysterious super rig. Those suspicions remain theories. The ambassador’s presence does not prove who caused the city’s fall or what terms, if any, were agreed upon.",
    "spoiler": 1
   }
  ],
@@ -29,7 +29,7 @@
     "dark iron ambassador identity",
     "what is dark iron ambassador"
    ],
-   "answer": "He is a Dark Iron emissary found inside Gnomeregan. His precise diplomatic mission is unknown."
+   "answer": "The Dark Iron Ambassador is an emissary of his clan found inside Gnomeregan. His precise diplomatic mission is unknown."
   },
   {
    "q": "Why is a Dark Iron dwarf inside Gnomeregan?",
@@ -38,7 +38,7 @@
     "what is he doing here",
     "dark iron dwarf purpose"
    ],
-   "answer": "His purpose is not established. His presence shows that the Dark Iron clan has an interest in Gnomeregan."
+   "answer": "His purpose is unclear. His presence shows the Dark Iron clan has an interest in Gnomeregan."
   },
   {
    "q": "Did the Dark Irons help cause the fall of Gnomeregan?",
@@ -47,7 +47,7 @@
     "dark iron conspiracy",
     "did thaurissan help thermaplugg"
    ],
-   "answer": "That is not established. Investigators have raised suspicions, but their theories do not prove who caused the disaster."
+   "answer": "That is unknown. Investigators have raised suspicions, but their theories do not prove who caused the disaster."
   },
   {
    "q": "Where does the ambassador come from?",
@@ -56,7 +56,7 @@
     "who sent him",
     "who does he work for"
    ],
-   "answer": "He belongs to the Dark Iron clan, whose ruler is Emperor Dagran Thaurissan."
+   "answer": "He belongs to the Dark Iron clan, ruled by Emperor Dagran Thaurissan."
   },
   {
    "q": "Is he allied with Mekgineer Thermaplugg?",
@@ -65,7 +65,7 @@
     "is he with thermaplugg",
     "working with thermaplugg"
    ],
-   "answer": "An alliance is suspected, but no confirmed agreement is established by his presence alone."
+   "answer": "An alliance is suspected, but his presence alone confirms no agreement."
   },
   {
    "q": "Where can the Dark Iron Ambassador be found?",
@@ -74,21 +74,21 @@
     "where does he spawn",
     "ambassador gnomeregan location"
    ],
-   "answer": "He is an elusive, rare encounter who wanders the contaminated engineering sectors and workshop corridors inside the Gnomeregan dungeon."
+   "answer": "The Dark Iron Ambassador is an elusive, rare encounter who wanders the contaminated engineering sectors and workshop corridors inside Gnomeregan."
   }
  ],
  "angles": [
   {
    "target": "race:Gnome",
-   "text": "A Dark Iron emissary in Gnomeregan raises troubling questions for gnome investigators."
+   "text": "As a gnome, you may find the Dark Iron emissary in Gnomeregan troubling, and his presence raises questions for gnome investigators."
   },
   {
    "target": "race:Dwarf",
-   "text": "The presence of a Dark Iron dwarf in the ruined gnome city draws the attention of Ironforge allies."
+   "text": "As a dwarf, you may see the presence of a Dark Iron dwarf in the ruined gnome city draw the attention of Ironforge allies."
   },
   {
    "target": "faction:Alliance",
-   "text": "Alliance investigators have reason to examine the Dark Iron presence in Gnomeregan."
+   "text": "As an Alliance member, you have reason to examine the Dark Iron presence in Gnomeregan."
   }
  ],
  "keywords": [
@@ -111,5 +111,6 @@
  ],
  "attribution": [
   "Dark Iron Ambassador"
- ]
+ ],
+ "style": 1
 }

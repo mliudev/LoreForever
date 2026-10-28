@@ -21,16 +21,16 @@
    "Stout to Kadrell"
   ]
  },
- "summary": "Stout to Kadrell is an Alliance delivery quest that leads travelers out of the frozen heights of Dun Morogh and into the temperate valley of Loch Modan. Entrusted with a cask of Rejold Barleybrew's newly perfected Shimmer Stout, you carry the potent brew across the territorial border to share with Mountaineer Kadrell on patrol in Thelsamar.",
+ "summary": "A cask of Rejold Barleybrew’s new Shimmer Stout is bound for Mountaineer Kadrell in Loch Modan. You carry the brew from Dun Morogh’s frozen heights to the warmer valley.",
  "sections": [
   {
    "title": "A Taste Beyond the Mountains",
-   "body": "After tasting the newly finished Shimmer Stout created by his brother Rejold, Mountaineer Barleybrew is convinced it is too good to keep entirely within Dun Morogh. Stationed at the eastern border post guarding the mountain passes, Barleybrew looks out toward his kin guarding neighboring lands. Dwarven mountaineering can be a cold, grueling assignment, and a stout heart calls for stout drink. Wanting an honest appraisal from a fellow patrolman on the line, Barleybrew sends a cask eastward with passing travelers bound for Loch Modan.",
+   "body": "Mountaineer Barleybrew thinks Rejold’s new Shimmer Stout is too good to keep in Dun Morogh. From the eastern border post, he watches over the mountain passes and the kin guarding neighboring lands. The Mountaineers’ patrols can be cold and grueling, and a stout heart calls for stout drink. Barleybrew wants an honest opinion from a fellow patrolman, so he sends a cask east with travelers bound for Loch Modan.",
    "spoiler": 0
   },
   {
    "title": "The Road to Thelsamar",
-   "body": "The journey marks a natural rite of passage for young dwarven and gnomish adventurers who have spent their early days among the snowbound crags of Dun Morogh. Passing southeast through the South Gate Outpost and traversing the long tunnels cut through the mountain bedrock, travelers suddenly emerge into the warmer, wooded basin of Loch Modan. Patrolling along the road through the settlement of Thelsamar, Mountaineer Kadrell gladly takes a break from his vigil to tap the cask, discovering that Barleybrew's new recipe has an astonishing kick.",
+   "body": "For young dwarven and gnomish adventurers, the road to Loch Modan is a rite of passage after their early days in Dun Morogh’s snowbound crags. You pass southeast through the South Gate Outpost and follow long tunnels cut through the mountain bedrock. Beyond them lies Loch Modan’s warmer, wooded basin. Mountaineer Kadrell patrols the road through Thelsamar. He gladly pauses to tap the cask and finds that Barleybrew’s new recipe has an astonishing kick.",
    "spoiler": 0
   }
  ],
@@ -42,7 +42,7 @@
     "who is kadrell",
     "mountaineer kadrell location"
    ],
-   "answer": "Mountaineer Kadrell is a dwarven defender stationed in Loch Modan. He spends his days patrolling the central road that runs directly through the township of Thelsamar."
+   "answer": "Mountaineer Kadrell is a dwarven defender in Loch Modan. He patrols the central road through Thelsamar."
   },
   {
    "q": "What is Shimmer Stout?",
@@ -51,7 +51,7 @@
     "shimmer stout",
     "rejold brew"
    ],
-   "answer": "Shimmer Stout is a potent specialty ale brewed by Rejold Barleybrew at the Brewnall Village distillery in western Dun Morogh, renowned for its head-spinning kick and invigorating warmth."
+   "answer": "Shimmer Stout is a potent ale brewed by Rejold Barleybrew at the Brewnall Village distillery in western Dun Morogh. Its strength brings head-spinning kick and invigorating warmth."
   },
   {
    "q": "How do I reach Loch Modan from Dun Morogh?",
@@ -60,7 +60,7 @@
     "road to thelsamar",
     "dun morogh to loch modan"
    ],
-   "answer": "From the eastern guard posts in Dun Morogh, head southeast through the mountain tunnels past the South Gate. Once you emerge into Loch Modan, follow the road as it forks northeast straight toward the lakeside settlement of Thelsamar."
+   "answer": "From Dun Morogh’s eastern guard posts, head southeast through the mountain tunnels past the South Gate. In Loch Modan, follow the road as it forks northeast toward Thelsamar by the lake."
   },
   {
    "q": "Why does Barleybrew want Kadrell to try the beer?",
@@ -68,7 +68,7 @@
     "why send stout to kadrell",
     "barleybrew kadrell connection"
    ],
-   "answer": "Mountaineer Barleybrew and Mountaineer Kadrell are fellow members of the dwarven Mountaineers. Barleybrew is so impressed by his brother's new recipe that he wants his comrade-in-arms stationed in the neighboring valley to sample it."
+   "answer": "Mountaineer Barleybrew and Mountaineer Kadrell are fellow members of the dwarven Mountaineers. Impressed by his brother’s new recipe, Barleybrew wants his comrade in the neighboring valley to try it."
   },
   {
    "q": "What does Kadrell think of the brew?",
@@ -76,7 +76,7 @@
     "kadrell reaction",
     "is shimmer stout good"
    ],
-   "answer": "Upon taking a sip, Kadrell is astonished by its strength, swearing by Magni's beard that the stout spins his head and lightens his limbs to the point that he feels like he can fly."
+   "answer": "Kadrell is astonished by the stout’s strength. He swears by Magni’s beard that it spins his head and lightens his limbs until he feels he can fly."
   },
   {
    "q": "Does this quest lead to further tasks?",
@@ -84,17 +84,17 @@
     "stout to kadrell follow up",
     "what comes next"
    ],
-   "answer": "While it concludes the specific Shimmer Stout delivery chain begun in Dun Morogh, delivering the cask brings travelers directly into Thelsamar, opening up numerous new quests and duties across Loch Modan."
+   "answer": "The cask’s delivery concludes the Shimmer Stout chain begun in Dun Morogh. It brings travelers to Thelsamar, where many duties await across Loch Modan."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "Carrying a cask of mountain ale across territorial lines is classic dwarven camaraderie, connecting the brewers of Brewnall Village with the border patrols guarding Khaz Modan."
+   "text": "As a dwarf, carrying mountain ale across territorial lines connects Brewnall Village’s brewers with the patrols guarding Khaz Modan."
   },
   {
    "target": "faction:Alliance",
-   "text": "This task serves as the natural guiding thread leading Alliance heroes out of the starting snowy reaches of Dun Morogh and into the broader frontier of Loch Modan."
+   "text": "As an Alliance traveler, the road leads from Dun Morogh’s snowy reaches into Loch Modan’s broader frontier."
   }
  ],
  "keywords": [
@@ -119,5 +119,6 @@
  ],
  "attribution": [
   "Stout to Kadrell"
- ]
+ ],
+ "style": 1
 }

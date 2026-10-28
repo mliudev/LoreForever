@@ -640,7 +640,7 @@ function UI.Create(engine)
   -- The queue: opens from the player, over the left page, so the conversation stays readable while you reorder.
   local plView = CreateFrame("Frame", nil, f)
   plView:SetAllPoints(f)
-  plView:SetFrameLevel((f:GetFrameLevel() or 1) + 16)   -- over the left page's own frames
+  plView:SetFrameLevel((f:GetFrameLevel() or 1) + 25)   -- over the left page's own frames, and over a story's page (+20) and History and the Road (+20), under the bookmarks (+26)
   plView:Hide()
   UI.plView = plView
   UI.CreatePlaylist(plView)
@@ -1215,8 +1215,11 @@ function UI.EntryTarget(key)
       if (sec.sp or 0) ~= 0 and ns.Voice.HasAudio(pid) then passages[#passages + 1] = { id = pid, text = sec.b } end
     end
   end
+  -- Its spoken title plays just before the story, from its own recording (lore.titles; none where the story opens
+  -- with the name).
+  local tid = key .. "#title"
   return { id = key, key = key, label = e.n, text = table.concat(parts, " "), story = key,
-    passages = passages[1] and passages or nil }
+    passages = passages[1] and passages or nil, title = ns.Voice.HasAudio(tid) and { id = tid, text = e.n } or nil }
 end
 
 -- The next opened passage of a story target (UI.EntryTarget) as a target of its own, or nil when none is left: the
@@ -1297,6 +1300,11 @@ local function watchPlayback(estimate)
     local elapsed = (GetTime and GetTime() or 0) - started
     if playing == false or (playing == nil and elapsed > estimate) or (not ns.Voice.transport and elapsed > limit) then
       local target = UI.activeTarget
+      -- Its title has been said: on to the story itself.
+      if target and target.leading then
+        target.leading = nil
+        if UI.StartPassage(target, target.fromPlaylist) then return end
+      end
       -- A story with opened passages goes straight on to the next one, as one story (no gap, no playlist step).
       local more = target and nextPassage(target)
       if more then
@@ -1557,8 +1565,15 @@ local function startTarget(target, fromPlaylist, keepProgress)
     copy.rate = ns.Voice.PlaybackRate()
     options = copy
   end
-  local started = target and (fromPlaylist and ns.Voice.Play(target.key, options) or ns.Voice.Narrate(target.key, options))
+  -- A story heard from its start opens with its title, when the voice telling the story has it: the title's recording
+  -- plays first, then the story's (watchPlayback), as one story to the player.
+  local served = ns.Voice.servedBy or {}
+  local lead = not (keepProgress or options) and target.title and ns.Voice.CanPlay(target.title.id)
+    and served[target.title.id] ~= nil and served[target.title.id] == served[target.key] and target.title or nil
+  local clipId = lead and lead.id or target.key
+  local started = target and (fromPlaylist and ns.Voice.Play(clipId, options) or ns.Voice.Narrate(clipId, options))
   if not started then return false end
+  target.leading = lead and true or nil
   if not (keepProgress or options) then   -- from its start
     local kind = ns.Log.NarrationKind(target.key)
     target.started = byItself and "auto" or "user"   -- (watchPlayback counts its end the same way)
@@ -1585,7 +1600,7 @@ local function startTarget(target, fromPlaylist, keepProgress)
     end
   end
   if UI.historyFrame and not fromPlaylist then UI.historyFrame:Hide() end
-  watchPlayback(#ns.Voice.Plain(target.text) / 15 + 3)
+  watchPlayback(#ns.Voice.Plain((lead or target).text) / 15 + 3)
   if fromPlaylist then
     local cur = UI.pl.items[UI.pl.pos]
     if cur and cur.flight then ns.Voice.autoSession[target.key] = true end

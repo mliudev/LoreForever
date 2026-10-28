@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Stonewatch Falls"
  },
- "summary": "Stonewatch Falls is a scenic waterfall and deep mountain pool situated in the eastern reaches of the Redridge Mountains, fed by the outflow of Lake Everstill. Cascading down the hillside beneath the looming heights of Stonewatch, its isolated waters are claimed by a hostile tribe of murlocs.",
+ "summary": "At Stonewatch Falls, water pours from Lake Everstill into a pool claimed by murlocs. The falls lie beneath Stonewatch in the eastern Redridge Mountains.",
  "sections": [
   {
    "title": "A Perilous Mountain Basin",
-   "body": "Pouring from the eastern river of Lake Everstill, Stonewatch Falls cascades down the rugged terrain beneath the Blackrock orc stronghold of Stonewatch. The plunging water carves out a deep pool tucked against the mountainside. Despite its natural beauty, travelers rarely linger to admire the view; a vicious band of murlocs infests the pool, building crude reed hovels and preying upon any foolish enough to trespass along the water's edge.",
+   "body": "Stonewatch Falls rushes down the slope beneath Stonewatch, the Blackrock orc stronghold. Its water flows from Lake Everstill’s eastern river and gathers in a deep pool against the mountainside. Murlocs have claimed the shore, raising crude reed hovels and preying on travelers who come too close to the water.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "falls water source",
     "stonewatch river source"
    ],
-   "answer": "The falls are fed by the river draining out of the eastern side of Lake Everstill, tumbling downhill into a secluded mountain basin beneath the cliffs of Stonewatch."
+   "answer": "Stonewatch Falls begins at the river flowing from Lake Everstill’s eastern side, then tumbles downhill into a mountain basin beneath Stonewatch’s cliffs."
   },
   {
    "q": "What creatures live around Stonewatch Falls?",
@@ -32,7 +32,7 @@
     "murlocs at stonewatch falls",
     "mobs near falls"
    ],
-   "answer": "A local tribe of murlocs occupies the shores of the falls. They subsist on fish drawn from the deep mountain pool and build rough lean-tos and shoreline shelters along the banks."
+   "answer": "A tribe of murlocs occupies the shore. They feed on fish from the deep pool and build rough shelters along its banks."
   },
   {
    "q": "Is Stonewatch Falls connected to Stonewatch Keep?",
@@ -41,13 +41,13 @@
     "is stonewatch keep near the falls",
     "stonewatch relationship"
    ],
-   "answer": "The falls sit at the foot of the hillside directly below Stonewatch and its ruined keep. While Blackrock orcs command the fortified heights above, the murlocs dominate the water basin below."
+   "answer": "Stonewatch Falls lies below Stonewatch and its ruined keep. Blackrock orcs hold the heights, while murlocs occupy the basin below."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "The murloc settlement at Stonewatch Falls represents yet another dangerous pocket of monsters harassing travelers in the already beleaguered eastern Redridge countryside."
+   "text": "For the Alliance, the murlocs at Stonewatch Falls are another danger to travelers in eastern Redridge, already troubled by threats."
   }
  ],
  "keywords": [
@@ -67,5 +67,6 @@
  ],
  "attribution": [
   "Stonewatch Falls"
- ]
+ ],
+ "style": 1
 }

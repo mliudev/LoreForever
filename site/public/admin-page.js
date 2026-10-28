@@ -5,7 +5,7 @@ import { mergeContacts } from "/admin-contacts.js";
 import { loadCreators } from "/admin-creators.js?v=20261021";
 import { loadSources } from "/admin-sources.js?v=20261019g";
 import { loadRetention } from "/admin-retention.js?v=20261022m";
-import { loadPlansUsage } from "/admin-plans.js?v=20261021w";
+import { loadPlansUsage } from "/admin-plans.js?v=20261028u";
 import { funnelStages } from "/admin-funnel.js";
 import { costsView, dollars, KIND_WORDS } from "/admin-costs.js";
 
@@ -1146,6 +1146,20 @@ async function loadQuality() {
   renderQuality();
 }
 const rated = r => (r === null || r === undefined ? "–" : (Math.round(r * 1000) / 10) + "%");
+// Willo's speed (LOR-856 E4): asked out loud, the talk key coming up to her first sound, p50 / p90 against the bar.
+const secs = ms => (ms === null || ms === undefined ? "–" : (ms / 1000).toFixed(1) + " s");
+function speedTile(s, tile) {
+  if (!s) return tile("Speed", "–", "no spoken answers timed yet");
+  const p = s.pieces || {};
+  const parts = ["heard", "prep", "answer", "audio"].filter(k => p[k]?.n).map(k => k + " " + secs(p[k].p50)).join(" · ");
+  const routes = Object.entries(s.site?.by_route || {}).filter(([, v]) => v.first?.n)
+    .map(([k, v]) => k + " " + secs(v.first.p50) + " (" + v.first.n + ")").join(", ");
+  const site = s.site?.model?.n ? " · site: " + secs(s.site.pre.p50) + " before the model, model " + secs(s.site.model.p50) +
+    (routes ? " · first words by route: " + routes : "") : "";
+  return tile("Speed", secs(s.p50) + " / " + secs(s.p90), s.timed + " timed · bar " + secs(s.bar.p50) + " / " +
+    secs(s.bar.p90) + (parts ? " · " + parts : "") + site,
+    "Asked out loud: the talk key coming up to her first sound, typical (p50) / slow end (p90); the pieces are typical");
+}
 function renderQuality() {
   const q = quality;
   if (!q) return;
@@ -1162,6 +1176,7 @@ function renderQuality() {
     tile("Failed", rated(q.failure_rate), q.failed + " answers failed"),
     tile("Voice", rated(q.voice.drop_rate), q.voice.voice_dropped + " never played · " + q.voice.interrupted + " cut off",
       "Of spoken answers: her voice never played; and how often the player cut her off"),
+    speedTile(q.speed, tile),
     tile("Reports", q.reports.said, q.reports.signals + " signals · " + q.liked + " thumbs up", "Reports players sent (words or taps) in the window, and the queue's signals"),
     tile("Open in the queue", open, (q.reports.open.triaged || 0) + " triaged · " + q.reports.fixed + " fixed",
       "New and triaged rows; fixed in the window"));

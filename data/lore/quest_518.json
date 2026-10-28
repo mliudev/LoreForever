@@ -27,16 +27,16 @@
    "Crown of Will"
   ]
  },
- "summary": "In Tarren Mill, Melisara wants the Crushridge ogres thinned out before any real blow is struck against Mug'Thol, whose ogres now hold the Ruins of Alterac. You are sent to cut down Crushridge maulers.",
+ "summary": "In Tarren Mill, Melisara prepares to weaken Mug'Thol's ogres before striking at their hold in the Ruins of Alterac. She sends you after the Crushridge maulers.",
  "sections": [
   {
    "title": "Softening the Crushridge",
-   "body": "Mug'Thol and the Crushridge ogres have taken the Ruins of Alterac. Melisara says it will be hard to punish Mug'Thol while so many ogres stand around. First their numbers must be reduced, and only after that will the next move be made. Your part is to hunt the Crushridge maulers.",
+   "body": "Mug'Thol and the Crushridge ogres hold the Ruins of Alterac. Melisara sees little chance of punishing Mug'Thol while so many ogres remain around him. First, their numbers must fall; only then can the next move begin. You are sent to hunt the Crushridge maulers.",
    "spoiler": 0
   },
   {
    "title": "No Rest Yet",
-   "body": "When the maulers are dead, Melisara notes how the snow runs red with ogre blood, and says the effort will not stop until the Crushridge are broken in spirit as well as in number.",
+   "body": "Melisara sees ogre blood staining the snow after the maulers fall. The fighting will continue until the Crushridge are broken in spirit as well as in number.",
    "spoiler": 1
   }
  ],
@@ -48,7 +48,7 @@
     "melisara quest giver",
     "crown of will 2 quest giver"
    ],
-   "answer": "Melisara, in Tarren Mill, gives it to you and is also the one you return to."
+   "answer": "Melisara gives you this work in Tarren Mill, and she is the one you return to."
   },
   {
    "q": "Where are the Crushridge ogres located?",
@@ -57,7 +57,7 @@
     "where are crushridge ogres",
     "ruins of alterac ogres"
    ],
-   "answer": "They hold the Ruins of Alterac, which Mug'Thol and his ogres have overrun."
+   "answer": "Mug'Thol and his ogres have overrun the Ruins of Alterac, where the Crushridge now hold their ground."
   },
   {
    "q": "Why is Melisara targeting the maulers first?",
@@ -65,7 +65,7 @@
     "why kill crushridge maulers",
     "why thin the ogres"
    ],
-   "answer": "Melisara says Mug'Thol will be hard to punish while his ogres are so many, so their numbers must be thinned before the plan goes further."
+   "answer": "Melisara says Mug'Thol will be hard to punish while his ogres remain so numerous. Their numbers must be thinned before her plan can go further."
   }
  ],
  "angles": [],
@@ -85,5 +85,6 @@
  ],
  "attribution": [
   "The Crown of Will (2)"
- ]
+ ],
+ "style": 1
 }

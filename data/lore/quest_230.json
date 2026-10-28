@@ -17,16 +17,16 @@
   "wiki": "Sven's Camp",
   "chain": []
  },
- "summary": "Sven's Camp is an Alliance quest in Duskwood that uncovers a crucial clue regarding the tragedy at the Yorgen homestead. By unearthing a buried, untitled journal from a mound of loose dirt on the abandoned farm, adventurers piece together who witnessed the slaughter of Sven Yorgen's family.",
+ "summary": "In Duskwood, Sven Yorgen's grief still drives him to seek answers about his family's slaughter. A buried journal at the ruined farm may reveal who witnessed it.",
  "sections": [
   {
    "title": "A Clue in the Dirt",
-   "body": "Sven Yorgen was away when dark riders struck his farm, returning only to find his family murdered and his farm in ruins. Consumed by grief and vengeance, he sent allies to search the wreckage of the homestead. Hidden beneath a mound of freshly turned earth, a small, dirt-stained book lay buried where a shadowy figure had hastily hidden it.",
+   "body": "Sven Yorgen returned to find his family dead and his farm in ruins after dark riders struck while he was away. Grief and vengeance drove him to send allies to search the wreckage of the homestead. Beneath a mound of freshly turned earth lay a small, dirt-stained book, hastily hidden by a shadowy figure.",
    "spoiler": 0
   },
   {
    "title": "A Silent Witness",
-   "body": "When brought to Sven at his camp in the western hills, the book reveals a chilling detail. It proves that a shadowy figure had watched the horrific massacre of his family take place. Rather than granting Sven peace, the journal turns his grief toward finding this unknown onlooker and demanding answers.",
+   "body": "At his camp in the western hills, Sven learns what the book contains. The journal proves that a shadowy figure watched the massacre of his family. Instead of bringing peace, it turns Sven toward finding the unknown onlooker and demanding answers.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "book from svens farm",
     "what did i dig up"
    ],
-   "answer": "It is an untitled, dirt-stained journal buried at the Yorgen farm. Its entries prove that an unidentified onlooker watched the massacre of Sven Yorgen's family."
+   "answer": "The book is a small, untitled, dirt-stained journal buried at the Yorgen farm. Its entries prove an unidentified onlooker watched the massacre of Sven Yorgen's family."
   },
   {
    "q": "Where does this quest lead next?",
@@ -47,7 +47,7 @@
     "next quest after svens camp",
     "who is the shadowy figure"
    ],
-   "answer": "Delivering the book to Sven Yorgen leads directly into the quest 'The Shadowy Figure', setting off a search for the mysterious witness."
+   "answer": "Delivering the book to Sven Yorgen sets off a search for the mysterious witness and leads into The Shadowy Figure."
   },
   {
    "q": "Where is Sven Yorgen located?",
@@ -56,7 +56,7 @@
     "sven yorgen location",
     "where do i turn this in"
    ],
-   "answer": "Sven has taken refuge in an encampment in the northwestern hills of Duskwood, brooding over the fate of his family and plotting his retribution."
+   "answer": "Sven has taken refuge in a camp in Duskwood's northwestern hills, grieving his family's fate and plotting retribution."
   },
   {
    "q": "Why was the book buried at the farm?",
@@ -65,7 +65,7 @@
     "who hid the book",
     "mound of loose dirt"
    ],
-   "answer": "The book was hidden in a mound of loose dirt amidst the ruined homestead, either hastily discarded or concealed by the observer who lingered at the scene of the attack."
+   "answer": "The book lay hidden in loose dirt amid the ruined homestead. It may have been hastily discarded or concealed by the observer who lingered at the scene of the attack."
   },
   {
    "q": "Who killed Sven's family?",
@@ -74,7 +74,7 @@
     "who killed svens family",
     "svens family killers"
    ],
-   "answer": "Dark riders from Deadwind Pass descended on the farm while Sven was away, slaughtering his family."
+   "answer": "Dark riders from Deadwind Pass slaughtered Sven's family while he was away from the farm."
   },
   {
    "q": "What faction can complete this quest?",
@@ -82,13 +82,13 @@
     "is this alliance only",
     "can horde do svens camp"
    ],
-   "answer": "This quest is exclusive to Alliance players, as Sven Yorgen only seeks aid from the defenders of Duskwood and the Alliance."
+   "answer": "Only Alliance players can complete it; Sven Yorgen seeks aid from the defenders of Duskwood and the Alliance."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Investigating the Yorgen massacre is part of the Alliance's broader struggle to comprehend the dark forces encroaching upon Duskwood."
+   "text": "As an Alliance member, you can help investigate the Yorgen massacre as the Alliance struggles to understand the dark forces encroaching on Duskwood."
   }
  ],
  "keywords": [
@@ -107,5 +107,6 @@
  ],
  "attribution": [
   "Sven's Camp"
- ]
+ ],
+ "style": 1
 }

@@ -8,16 +8,16 @@
   "wiki": "Shindrell Swiftfire",
   "refs": 4
  },
- "summary": "Shindrell Swiftfire is a night elf sentinel and scout stationed in Astranaar, the heart of night elf operations in Ashenvale. Keenly aware of shifting perils along Kalimdor's western reaches, she directs capable Alliance adventurers toward gathering threats on the coastline and nearby mountain passes. Her duties make her an essential hub for coordinating local defense against emerging oceanic and wild menaces.",
+ "summary": "Astranaar’s defense reaches beyond Ashenvale’s forest. Shindrell Swiftfire, a night elf sentinel and scout, watches from the town at the heart of night elf operations in Ashenvale. Alert to changing dangers along Kalimdor’s western reaches, she directs capable Alliance adventurers toward threats on the coast and nearby mountain passes, helping coordinate local defense against dangers from sea and wilds.",
  "sections": [
   {
    "title": "A Watchful Eye in Astranaar",
-   "body": "From Astranaar's winding walkways, Shindrell Swiftfire serves as an alert observer of Ashenvale's broader frontiers. While the forest's Sentinels are constantly pressured by the Horde's logging incursions from the east and south, Shindrell keeps her eyes fixed on dangers that lie beyond the immediate woodland front. She acts as a vital liaison for travelers arriving from Darkshore or heading out toward the jagged ridges of Stonetalon, ensuring no sudden menace strikes Astranaar undefended from the flank.",
+   "body": "From Astranaar’s winding walkways, Shindrell Swiftfire watches the frontiers beyond Ashenvale. Sentinels face Horde logging incursions from the east and south, while Shindrell keeps watch beyond the woodland itself. Travelers arrive from Darkshore or set out toward Stonetalon’s jagged ridges, and she helps ensure Astranaar is not left undefended against danger from the flank.",
    "spoiler": 0
   },
   {
    "title": "The Menace on the Coast",
-   "body": "Among Shindrell's primary concerns is the troubled Zoram Strand on Ashenvale's northwestern shore. The sudden emergence of hostile naga crawling from the ocean depths poses a grave mystery and direct threat to the Kaldorei settlements. By dispatching seasoned fighters to investigate the shoreline and coordinate with scouts closer to the scene, Shindrell works to contain the serpentine invaders before they secure a permanent foothold on ancient night elf lands.",
+   "body": "On Ashenvale’s northwestern shore, the troubled Zoram Strand draws Shindrell’s attention. Hostile naga have emerged from the ocean depths, a grave mystery and a direct threat to Kaldorei settlements. Shindrell sends seasoned fighters to investigate the shoreline and coordinate with scouts near the coast, seeking to contain the serpentine invaders before they gain a lasting foothold on ancient night elf lands.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "where is shindrell",
     "find shindrell swiftfire"
    ],
-   "answer": "Shindrell Swiftfire is stationed in Astranaar, the central night elf town in Ashenvale. She can be found among the settlement's wooden walkways coordinating scouting operations and receiving travelers."
+   "answer": "Shindrell Swiftfire is stationed in Astranaar, the central night elf town in Ashenvale. Among its wooden walkways, she coordinates scouting and receives travelers."
   },
   {
    "q": "What is Shindrell's role in Astranaar?",
@@ -38,7 +38,7 @@
     "who is shindrell swiftfire",
     "shindrell purpose"
    ],
-   "answer": "She acts as a scout coordinator and quest giver for the Alliance, directing adventurers toward outward threats that menace Ashenvale, such as the naga on the western coast and wild beasts in the nearby mountain ranges."
+   "answer": "In Astranaar, Shindrell coordinates scouts and gives Alliance adventurers directions toward threats beyond the town. These include naga on the western coast and wild beasts in nearby mountain ranges."
   },
   {
    "q": "Why does she send scouts to the Zoram Strand?",
@@ -47,7 +47,7 @@
     "shindrell naga quest",
     "the zoram strand mission"
    ],
-   "answer": "Hostile naga have surged onto the western shores of Ashenvale, claiming ruins and menacing night elf borders. Shindrell directs adventurers to scout the beaches and assist field sentinels in curbing the serpentine threat."
+   "answer": "Hostile naga have surged onto Ashenvale’s western shores, claiming ruins and threatening night elf borders. Shindrell sends adventurers to scout the beaches and help field sentinels curb the serpentine threat."
   },
   {
    "q": "What connects Shindrell to Stonetalon Mountains?",
@@ -56,7 +56,7 @@
     "pridewings quest",
     "why stonetalon"
    ],
-   "answer": "Hidden sources in Theramore report that orc assassins collect venom from the pridewings near Mirkfallon Lake in the Stonetalon Mountains for their secret raids on the Alliance. Shindrell sends adventurers to gather the venom sacs and deny the Horde that poison."
+   "answer": "Hidden sources in Theramore report that orc assassins gather venom from pridewings near Mirkfallon Lake in the Stonetalon Mountains for secret raids against the Alliance. Shindrell sends adventurers to collect the venom sacs and deny the Horde that poison."
   },
   {
    "q": "Does Shindrell have ties to Blackfathom Deeps?",
@@ -65,7 +65,7 @@
     "blackfathom deeps connection",
     "shindrell bfd"
    ],
-   "answer": "Not directly. Her tasks send adventurers against the Wrathtail naga on the Zoram Strand, the same northwestern coast where Blackfathom Deeps lies, but she does not send anyone into the Deeps themselves."
+   "answer": "Shindrell has no direct ties to Blackfathom Deeps. She sends adventurers against the Wrathtail naga on the Zoram Strand, the northwestern coast where the Deeps lies, but sends no one into the Deeps itself."
   },
   {
    "q": "Who is Kayneth Stillwind, and why does Shindrell mention him?",
@@ -74,21 +74,21 @@
     "kayneth stillwind quest",
     "kayneth connection"
    ],
-   "answer": "Kayneth Stillwind is a druid at the shrine of Forest Song in eastern Ashenvale. Fearing that a corruption is moving through the forest, he asked Shindrell for a report on the happenings along the coast and around Astranaar, and she sends adventurers to carry it to him."
+   "answer": "Kayneth Stillwind is a druid at the shrine of Forest Song in eastern Ashenvale. Fearing corruption is moving through the forest, he asked Shindrell for a report on the coast and Astranaar; she sends adventurers to carry it to him."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "For night elves, Shindrell represents the vigilant Sentinels guarding Ashenvale's fringes against ancient foes like the naga while the bulk of their forces face the Horde."
+   "text": "As a night elf, you see Shindrell as one of the vigilant Sentinels guarding Ashenvale’s fringes against ancient foes like the naga, while most of their forces face the Horde."
   },
   {
    "target": "faction:Alliance",
-   "text": "Shindrell serves as an operational bridge in Astranaar, guiding fresh Alliance arrivals deeper into the contentious and dangerous terrain of central Kalimdor."
+   "text": "As an Alliance arrival in Astranaar, you can look to Shindrell as an operational bridge guiding you deeper into central Kalimdor’s contentious and dangerous terrain."
   },
   {
    "target": "class:Hunter",
-   "text": "Her tasks involving tracking pridewings and assessing untamed coastlines resonate with scouts and rangers adept at surviving the wilderness."
+   "text": "As a hunter, you may recognize the value of tracking pridewings and assessing untamed coastlines, work suited to scouts and rangers who know how to survive in the wild."
   }
  ],
  "keywords": [
@@ -114,5 +114,6 @@
  ],
  "attribution": [
   "Shindrell Swiftfire"
- ]
+ ],
+ "style": 1
 }

@@ -20,16 +20,16 @@
    "Coldridge Valley Mail Delivery (2)"
   ]
  },
- "summary": "Coldridge Valley Mail Delivery is a simple courier task entrusted to recruits by Sten Stoutarm at Anvilmar. With mountain passes often choked with snow and troggs pressing nearby, carrying fresh correspondence out to the camps along the frozen lake keeps the valley's isolated defenders connected.",
+ "summary": "At Anvilmar, Coldridge Valley Mail Delivery carries news to scouts beyond the frozen lake. Snow and nearby troggs can leave the valley's defenders cut off, so correspondence keeps them connected.",
  "sections": [
   {
    "title": "A Courier in the Snow",
-   "body": "Life in Coldridge Valley is secluded even in the calmest of seasons. When winter couriers successfully navigate the mountain pass with mail from the rest of Dun Morogh, the missives pile up quickly at Anvilmar. Sten Stoutarm, busy managing local supply concerns and security, relies on wandering recruits to carry these bundles down the western road rather than letting vital tidings languish in the hall.",
+   "body": "In Coldridge Valley, news from the rest of Dun Morogh reaches Anvilmar by mountain pass. Winter couriers bring the mail, and the letters soon gather in the hall. Sten Stoutarm manages supplies and security, so he depends on recruits to carry the bundles down the western road. Without them, important messages would remain at Anvilmar.",
    "spoiler": 0
   },
   {
    "title": "Frontier Outposts",
-   "body": "The intended recipient, Talin Keeneye, keeps watch by the frozen lake to the west, observing trogg movements and dangerous wildlife. Even out in the cold, word from Ironforge and surrounding outposts remains precious. However, mail sorting under harsh mountain conditions is rarely flawless, and letters bound for different scouts often travel together in a single bundle.",
+   "body": "Talin Keeneye watches the frozen lake to the west, keeping an eye on trogg movements and dangerous wildlife. Even at a cold outpost, news from Ironforge and the surrounding camps matters. The mountain conditions make sorting mail difficult, and letters for different scouts can end up together in one bundle.",
    "spoiler": 0
   }
  ],
@@ -41,7 +41,7 @@
     "who gives coldridge valley mail delivery",
     "sten stoutarm quest"
    ],
-   "answer": "Sten Stoutarm gives you the delivery task outside Anvilmar. He has received a stack of letters freshly brought through the mountain pass but cannot spare the time to personally leave his duties to deliver them."
+   "answer": "Sten Stoutarm gives you the delivery outside Anvilmar. Letters have just arrived through the mountain pass, but he is occupied with his duties and cannot carry them himself."
   },
   {
    "q": "Where is Talin Keeneye located?",
@@ -50,7 +50,7 @@
     "talin keeneye location",
     "finding talin keeneye"
    ],
-   "answer": "Talin Keeneye is camped to the west of Anvilmar, right alongside the road next to the frozen lake in Coldridge Valley."
+   "answer": "Talin Keeneye is camped west of Anvilmar, beside the road near the frozen lake in Coldridge Valley."
   },
   {
    "q": "Are all the letters in the stack actually for Talin?",
@@ -59,7 +59,7 @@
     "grelin whitebeard letter",
     "misplaced mail"
    ],
-   "answer": "No. When Talin sorts through the bundle, he discovers that one of the letters is addressed to Grelin Whitebeard, who is stationed nearby in the valley."
+   "answer": "No. Talin finds a letter for Grelin Whitebeard, who is stationed nearby in the valley."
   },
   {
    "q": "Why does Sten need an adventurer to run the mail?",
@@ -68,7 +68,7 @@
     "why doesnt sten deliver it",
     "mail delivery duty"
    ],
-   "answer": "With Anvilmar actively dealing with trogg incursions and local threats, dwarven defenders like Sten are tied down with pressing logistical and defensive responsibilities. Passing travelers and young recruits provide the fastest way to get letters to outlying posts."
+   "answer": "Trogg incursions and local threats keep Sten and the other dwarven defenders busy with supply and security duties. Travelers and recruits can carry letters to the outlying posts."
   },
   {
    "q": "Does this quest lead to other tasks?",
@@ -77,7 +77,7 @@
     "mail chain",
     "follow up to mail delivery"
    ],
-   "answer": "Yes. Upon completing the delivery, Talin asks you to take the misdirected letter to Grelin Whitebeard in the second part of the mail delivery chain."
+   "answer": "Yes. After the delivery, Talin asks you to take the misdirected letter to Grelin Whitebeard, continuing the mail deliveries."
   },
   {
    "q": "Where did the letters originally come from?",
@@ -85,21 +85,21 @@
     "where did mail come from",
     "source of letters"
    ],
-   "answer": "The letters came through the pass leading into Coldridge Valley, sent into the sheltered basin from the broader lands of Dun Morogh and Ironforge."
+   "answer": "The letters came through the pass into Coldridge Valley, from the broader lands of Dun Morogh and Ironforge."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "Carrying word between outposts highlights the communal grit of Ironforge dwarves, ensuring even far-flung valley scouts remain bound to their clans."
+   "text": "As a dwarf, carrying news between outposts helps keep Ironforge's far-flung valley scouts connected to their clans."
   },
   {
    "target": "race:Gnome",
-   "text": "As guests and allies in Dun Morogh after Gnomeregan's fall, helping run communication lines reinforces trust with local dwarven defenders."
+   "text": "As a gnome living among allies in Dun Morogh after Gnomeregan's fall, helping carry messages builds trust with local dwarven defenders."
   },
   {
    "target": "faction:Alliance",
-   "text": "Every outpost in Coldridge Valley plays a part in keeping Dun Morogh secure, making reliable correspondence essential for early military coordination."
+   "text": "As an Alliance member, you help keep Coldridge Valley's outposts connected, which matters for coordinating Dun Morogh's defense."
   }
  ],
  "keywords": [
@@ -119,5 +119,6 @@
  ],
  "attribution": [
   "Coldridge Valley Mail Delivery"
- ]
+ ],
+ "style": 1
 }

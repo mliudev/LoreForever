@@ -887,9 +887,9 @@
     "quest:507": {
       "1": [
         {
-          "duration": 32.3395918367347,
-          "file": "Audio/Transport/full_quest_507-cdf759f8b0991353d436/1-0000.mp3",
-          "sha256": "9d0e605423d6c83359cdf8c463a714b67719c73382fca41f37a986a4840a89f0",
+          "duration": 27.324081632653062,
+          "file": "Audio/Transport/full_quest_507-f709c107e5106eb3f57c/1-0000.mp3",
+          "sha256": "ecae45c4bffd31e0e0dced8bf19d36b6a8f04666406db8fe662c76c191c9113f",
           "start": 0
         }
       ],
@@ -900,15 +900,15 @@
           "1"
         ]
       },
-      "fullHash": "71aed0",
-      "generation": "cd22f2292d2f7e42d9da",
-      "hash": "71aed0",
+      "fullHash": "8e50c3",
+      "generation": "d9eb0301709629f64c9c",
+      "hash": "8e50c3",
       "source": {
-        "duration": 32.339592,
+        "duration": 27.324082,
         "file": null,
-        "sha256": "cdf759f8b0991353d436ba1ea1f4e1d603d6a4d5b4b27df25b6ac1e0b1569404"
+        "sha256": "f709c107e5106eb3f57cf0cb0ea64ce5d56cd45f3acbedb64c66c248cca7de18"
       },
-      "text": "Lord Aliden Perenolde. Krusk wants Lord Aliden Perenolde, leader of the Syndicate, dead and the Warchief's pendant recovered. His manor stands north, on the shores of Lordamere Lake, and his mistress Elysa is the one to ask about the pendant. After Blackmoore's Legacy, Krusk says Perenolde has to die, and the world be rid of his foulness. The manor sits a way to the north, on the shores of Lordamere Lake, at Dandred's Fold. When the deed is done, you are to put your questions about Taretha's pendant, which the Warchief desires, to his mistress Elysa."
+      "text": "Lord Aliden Perenolde. Krusk wants Lord Aliden Perenolde dead, and the Warchief's pendant recovered. Perenolde's manor lies north, on Lordamere Lake; his mistress Elysa knows about the pendant. After Blackmoore's Legacy, Krusk says Perenolde must die and his foulness be ended. His manor lies north, on the shores of Lordamere Lake at Dandred's Fold. Once the deed is done, ask his mistress Elysa about Taretha's pendant, which the Warchief desires."
     },
     "quest:508": {
       "1": [
@@ -939,9 +939,9 @@
     "quest:519": {
       "1": [
         {
-          "duration": 26.984489795918368,
-          "file": "Audio/Transport/full_quest_519-405829f17df3b88422ca/1-0000.mp3",
-          "sha256": "2e5c6babd821b069f27276c583328309ddd7fd20fd000deb5595dba6a697519f",
+          "duration": 19.879183673469388,
+          "file": "Audio/Transport/full_quest_519-538268c90850d8ffad1f/1-0000.mp3",
+          "sha256": "b59dfa2094be6308e1084e73bcc1ef70022d5d58f9214609d0c228d508ff066a",
           "start": 0
         }
       ],
@@ -952,22 +952,22 @@
           "1"
         ]
       },
-      "fullHash": "15a559",
-      "generation": "40bd2c11af7974bbab8a",
-      "hash": "15a559",
+      "fullHash": "a54b6d",
+      "generation": "6d4c375b37975d2a196f",
+      "hash": "a54b6d",
       "source": {
-        "duration": 27.010612,
+        "duration": 19.879184,
         "file": null,
-        "sha256": "405829f17df3b88422cadd8834ec8ddb4a6c348e0e8bb05f24e8eb447b0d784d"
+        "sha256": "538268c90850d8ffad1fe8ed6b626453f82223852ca1001f75b7df6d90fe61bb"
       },
-      "text": "The Crown of Will. With the ogres' defenses weakened, Melisara in Tarren Mill wants the heads of Mug'Thol's three lieutenants, Targ, Muckrake and Glommus, before Mug'Thol himself is dealt with. Mug'Thol's lieutenants are Targ, Muckrake and Glommus, all loyal to him, though Melisara wonders what could make an ogre loyal. You are to kill all three and bring their heads back to Tarren Mill. After that, only Mug'Thol's own head remains to be taken, crown and all."
+      "text": "The Crown of Will. In Tarren Mill, Melisara seeks the heads of three ogres before Mug'Thol. Melisara names Targ, Muckrake and Glommus as Mug'Thol's loyal lieutenants, though she wonders what could make an ogre loyal. You are to kill all three and bring their heads to Tarren Mill. Then only Mug'Thol's head, crown and all, remains to be taken."
     },
     "quest:520": {
       "1": [
         {
-          "duration": 24.99918367346939,
-          "file": "Audio/Transport/full_quest_520-0c652f7610d328567567/1-0000.mp3",
-          "sha256": "e8be1d9864905a1870e992427f6ffc88126555d674242d5924306084fccf1efc",
+          "duration": 23.327346938775513,
+          "file": "Audio/Transport/full_quest_520-05e735738fc9adea451d/1-0000.mp3",
+          "sha256": "2c79ed86019a4f0f806611e819d1e8385821932446bc0a36ebebcf2660a0094c",
           "start": 0
         }
       ],
@@ -978,22 +978,22 @@
           "1"
         ]
       },
-      "fullHash": "7c85cc",
-      "generation": "fa0c96c443ba537785f6",
-      "hash": "7c85cc",
+      "fullHash": "40495d",
+      "generation": "d052904f946cb9aa7772",
+      "hash": "40495d",
       "source": {
-        "duration": 24.999184,
+        "duration": 23.327347,
         "file": null,
-        "sha256": "0c652f7610d328567567f985a04228e2c7d2cab4f7820618aeeeb3c2a92c499f"
+        "sha256": "05e735738fc9adea451dfc0703dff73af61d47d4d48a3b2fdbbab0b0c52c3168"
       },
-      "text": "The Crown of Will. With Mug'Thol's lieutenants dead, Melisara in Tarren Mill sends you after Mug'Thol himself. You are to bring back his head and the Crown of Will, and the Crushridge resistance will be over. Only Mug'Thol is left now. Melisara expects him to be reluctant to give up the Crown of Will, and thinks he is probably expecting you, given what befell his lieutenants. Find him, kill him, and carry his head and the Crown back to Tarren Mill."
+      "text": "The Crown of Will. With Mug'Thol's lieutenants dead, Melisara in Tarren Mill sends you after him. Bring back his head and the Crown of Will, and the Crushridge resistance will be over. Only Mug'Thol remains. Melisara expects him to resist giving up the Crown of Will. After his lieutenants fell, he likely expects you. Find him, kill him, and bring his head and the Crown back to Tarren Mill."
     },
     "quest:521": {
       "1": [
         {
-          "duration": 23.797551020408164,
-          "file": "Audio/Transport/full_quest_521-84c204133c01358c3965/1-0000.mp3",
-          "sha256": "20225c43a794146dc17fbc34fdf5ccfc368701a219ef15eee271b670a62e0eb2",
+          "duration": 18.834285714285716,
+          "file": "Audio/Transport/full_quest_521-31397ee7c0db3acec864/1-0000.mp3",
+          "sha256": "7ec88781180be96a93c6d382f018f3092b02fce1058f44ea37637966a79aa945",
           "start": 0
         }
       ],
@@ -1004,22 +1004,22 @@
           "1"
         ]
       },
-      "fullHash": "5f7402",
-      "generation": "e9a12f9f5a082465a3b2",
-      "hash": "5f7402",
+      "fullHash": "7e9b4f",
+      "generation": "0c8527dc0b6be5cef184",
+      "hash": "7e9b4f",
       "source": {
-        "duration": 23.797551,
+        "duration": 18.834286,
         "file": null,
-        "sha256": "84c204133c01358c39652a8b561a8a453d15de5c53f07f27677279a0a7277f12"
+        "sha256": "31397ee7c0db3acec86424c37d5e71566facbaa50f9762c802e410a14684aeac"
       },
-      "text": "The Crown of Will. Only one thing remains. The Crown is to go to Sharlindra in the Undercity, who will make sure it reaches Lady Sylvanas. Melisara says all that remains is to take the Crown to Sharlindra in the Undercity, and she will pass it on to Lady Sylvanas. Melisara also warns you against thinking of using it for your own purposes. Mug'Thol's fate, Melisara says, is illustration enough."
+      "text": "The Crown of Will. Only one step remains: the Crown is bound for Sharlindra in the Undercity, who will see that it reaches Lady Sylvanas. Melisara sends you to take the Crown to Sharlindra in the Undercity, where she will pass it on to Lady Sylvanas. She warns you not to use it for your own purposes. Mug'Thol's fate is warning enough."
     },
     "quest:566": {
       "1": [
         {
-          "duration": 41.142857142857146,
-          "file": "Audio/Transport/full_quest_566-b2f03103467a15bce2f8/1-0000.mp3",
-          "sha256": "93a3f57e294df8e7dfc0dbb9bc32ce353afb39c2076377c8c7392a6114b24481",
+          "duration": 39.288163265306125,
+          "file": "Audio/Transport/full_quest_566-5aa6e33f4067277602b1/1-0000.mp3",
+          "sha256": "d2f02f076f3d2fc8ccba7f99296d8879b90e4f99582b0db0ec2bae46a1a4c057",
           "start": 0
         }
       ],
@@ -1030,15 +1030,15 @@
           "1"
         ]
       },
-      "fullHash": "6f9a2c",
-      "generation": "353d0b4a70152d48dfed",
-      "hash": "6f9a2c",
+      "fullHash": "705345",
+      "generation": "20514371b84deb61a92c",
+      "hash": "705345",
       "source": {
-        "duration": 41.142857,
+        "duration": 39.288163,
         "file": null,
-        "sha256": "b2f03103467a15bce2f88703f8c3442ccc8f8751636ccf4602288fc070fc91a3"
+        "sha256": "5aa6e33f4067277602b181cc6506b6f9665fe93676c5c4efebfd6bd5554373a4"
       },
-      "text": "WANTED: Baron Vardus. A notice carrying High Executor Darthalia's order names Baron Vardus, a human and a high-ranking member of the Syndicate, wanted dead for crimes against the Forsaken. Proof of his death is to be brought to Darthalia in Tarren Mill. Darthalia has put a price on Baron Vardus, a human charged with crimes against the Forsaken and counted among the Syndicate's high-ranking members. Last word placed him in the Uplands of the Alterac Mountains, to the north of Tarren Mill. The order is plain: he is to die, and whoever brings Darthalia proof of his death will be paid for it. Vardus could be at any one of the Syndicate camps across the Uplands. He may also be hiding in the cellar of the inn at Strahnbrad."
+      "text": "WANTED: Baron Vardus. In Tarren Mill, High Executor Darthalia calls for Baron Vardus's death. The human is a high-ranking member of the Syndicate, wanted for crimes against the Forsaken; bring proof of his death to Darthalia. High Executor Darthalia has put a price on Baron Vardus, a human accused of crimes against the Forsaken and counted among the Syndicate's high-ranking members. The last word placed him in the Uplands of the Alterac Mountains, north of Tarren Mill. Darthalia's order calls for his death, and payment awaits whoever brings her proof. Baron Vardus may be at any of the Syndicate camps across the Uplands. He may also be hiding in the cellar of the inn at Strahnbrad."
     },
     "quest:571": {
       "1": [
@@ -2654,10 +2654,6 @@
       830,
       1341
     ],
-    "20225c43a794146dc17fbc34fdf5ccfc368701a219ef15eee271b670a62e0eb2": [
-      301,
-      602
-    ],
     "2037d72f044ea0094399a35f362526e0bcd31f91f26a120d7688d28b1f93f87d": [
       536
     ],
@@ -2711,6 +2707,12 @@
       441,
       650
     ],
+    "2c79ed86019a4f0f806611e819d1e8385821932446bc0a36ebebcf2660a0094c": [
+      197,
+      379,
+      597,
+      734
+    ],
     "2c8d3ce2276e3dcbbe4c0e487e079400d6e948b9212a37a728dafba330b4f611": [
       316
     ],
@@ -2726,12 +2728,6 @@
     "2d886175b06a5350466938931428a1992c903239513e4fd0b20afddf727a95a9": [
       284,
       624
-    ],
-    "2e5c6babd821b069f27276c583328309ddd7fd20fd000deb5595dba6a697519f": [
-      260,
-      431,
-      731,
-      876
     ],
     "30218f33016cba1ed931b8b925265be23b6a63f5bd5e84bec293b5af66237b88": [
       305,
@@ -3204,6 +3200,10 @@
       1515,
       1749
     ],
+    "7ec88781180be96a93c6d382f018f3092b02fce1058f44ea37637966a79aa945": [
+      291,
+      538
+    ],
     "7fdc4d94cb2cd83e8d0ea2a15963f3d74ed885fb7a5154770d948af4ff01be31": [
       707
     ],
@@ -3291,13 +3291,6 @@
       420,
       950
     ],
-    "93a3f57e294df8e7dfc0dbb9bc32ce353afb39c2076377c8c7392a6114b24481": [
-      398,
-      545,
-      875,
-      1073,
-      1319
-    ],
     "9499e49398cac049067444aa5548a1682601e3e9200ba22154e74c2392a64af2": [
       554
     ],
@@ -3335,12 +3328,6 @@
       958,
       1145,
       1299
-    ],
-    "9d0e605423d6c83359cdf8c463a714b67719c73382fca41f37a986a4840a89f0": [
-      253,
-      514,
-      736,
-      935
     ],
     "9d4e7a69aad53de983744b6b90491f015ac0aac1accdc83e34b1e4df573f2dc9": [
       377,
@@ -3498,6 +3485,10 @@
       1460,
       1644
     ],
+    "b59dfa2094be6308e1084e73bcc1ef70022d5d58f9214609d0c228d508ff066a": [
+      199,
+      475
+    ],
     "b5bf3615a705fed8aa9353c0974c5a96fd696d96a73491c4ac4c53457f29ca5a": [
       325,
       668
@@ -3620,6 +3611,13 @@
     ],
     "d2b44d371dcf5e432bd10689be1f1a855f563db3bef290f4c6426bc50fea64c0": [
       616
+    ],
+    "d2f02f076f3d2fc8ccba7f99296d8879b90e4f99582b0db0ec2bae46a1a4c057": [
+      219,
+      413,
+      851,
+      1034,
+      1238
     ],
     "d3a0b117d149d22c6cc358a51ede0a18874ace1828755710911ac695759e4218": [
       324,
@@ -3760,10 +3758,6 @@
       950,
       1301
     ],
-    "e8be1d9864905a1870e992427f6ffc88126555d674242d5924306084fccf1efc": [
-      483,
-      780
-    ],
     "e8dc12801c9cfc30f4e8f5411ac42cfb0dbf83549c567419d83619a9f4279b1c": [
       338
     ],
@@ -3782,6 +3776,9 @@
     "eca183c274c99530476aff7b11140cf035ebf93d50d3d3de2a9c17700c4c0350": [
       339,
       763
+    ],
+    "ecae45c4bffd31e0e0dced8bf19d36b6a8f04666406db8fe662c76c191c9113f": [
+      192
     ],
     "ecf66d3e45d421c2238912842809fe2368abd3940132d9ae386ddafa1a2c8977": [
       618
@@ -3864,6 +3861,5 @@
     ]
   },
   "pack": "LoreForever_Voice_Default_MoreQuests3",
-  "retired": [],
   "version": 1
 }

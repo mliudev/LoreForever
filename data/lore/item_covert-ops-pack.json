@@ -11,16 +11,16 @@
    "quest:1080"
   ]
  },
- "summary": "The Covert Ops Pack is a kit of specialized demolitions gear and operational schematics assembled for Alliance espionage in the Stonetalon Mountains. Designed to dismantle the Venture Company's rapacious presence in Windshear Crag, the satchel equips agents to trigger coordinated sabotage while securing high-value technical intelligence.",
+ "summary": "In Stonetalon, the Covert Ops Pack equips Alliance agents to sabotage Venture Company sites and steal their plans. Its charges and schematics target the company’s work in Windshear Crag.",
  "sections": [
   {
    "title": "Sabotage by Design",
-   "body": "Issued for clandestine strikes deep within Venture Company territory, the Covert Ops Pack pairs brute destructive power with tactical precision. Inside are color-coded NG-5 explosives matched to remote triggers, alongside thorough instructions designated Plan Alpha and Plan Beta. The strategy relies on triggering high-yield distractions at key infrastructure nodes\u2014namely the Cragpool Lake lumber mill and the eastern mine. While goblins scramble to extinguish blazes and assess mechanical failures, an infiltrator slips past the chaos to pilfer critical documents and schematics.",
+   "body": "The Covert Ops Pack carries charges and plans for strikes inside Venture Company territory. Red and blue NG-5 explosives pair with remote detonators, while Plan Alpha and Plan Beta give agents instructions. The explosives target the Cragpool Lake lumber mill and the eastern mine. As goblins rush to fight fires and inspect broken machinery, an infiltrator can slip through the confusion and take documents and schematics.",
    "spoiler": 0
   },
   {
    "title": "A Confluence of Interests",
-   "body": "The contents of the pack serve a dual purpose for the Alliance in Stonetalon. For the night elf Sentinels, the detonations and theft disrupt the merciless clear-cutting and gouging of the sacred mountainside. For Alliance tinkers, the primary reward lies in the documents themselves. Recovering Venture Company engineering schematics offers rare insights into goblin heavy machinery, revealing mechanical weak points to exploit and allowing Alliance engineers to adapt industrial innovations into their own designs.",
+   "body": "The pack serves both the night elf Sentinels and Alliance engineers in Stonetalon. Its blasts and theft hinder the clear-cutting and excavation of the sacred mountainside. The stolen Venture Company engineering plans also offer insight into goblin heavy machinery. They show where the machines can fail and give Alliance engineers ideas to adapt for their own designs.",
    "spoiler": 0
   }
  ],
@@ -32,7 +32,7 @@
     "what does the pack contain",
     "items in covert ops pack"
    ],
-   "answer": "The pack contains two pairs of colored demolition charges: red and blue NG-5 explosives with their matching remote detonators. It also holds written mission briefings detailing Plan Alpha and Plan Beta."
+   "answer": "The Covert Ops Pack holds red and blue NG-5 explosives with matching remote detonators, along with written instructions for Plan Alpha and Plan Beta."
   },
   {
    "q": "What is the tactical purpose of the explosives?",
@@ -41,7 +41,7 @@
     "what are ng-5 explosives for",
     "alpha beta demolition"
    ],
-   "answer": "The NG-5 explosives are planted at Venture Company work sites to create loud, violent distractions. They are not intended as the end goal itself, but rather to draw security away so an operative can infiltrate the lumber mill and the mine undetected."
+   "answer": "The explosives make loud distractions at Venture Company work sites. With security drawn away, an operative can enter the lumber mill and mine unseen."
   },
   {
    "q": "What intelligence does this operation target?",
@@ -50,7 +50,7 @@
     "pack mission objective",
     "covert ops goals"
    ],
-   "answer": "The mission targets Venture Company engineering plans from the lumber mill south of Cragpool Lake, followed by executive letters kept inside the Windshear Mine at the eastern end of the crag."
+   "answer": "The operation seeks Venture Company engineering plans from the lumber mill south of Cragpool Lake, then executive letters kept in Windshear Mine at the crag’s eastern end."
   },
   {
    "q": "Who benefits from the materials recovered using this pack?",
@@ -59,17 +59,17 @@
     "who is the pack for",
     "sentinels covert ops"
    ],
-   "answer": "Both the night elf Sentinels guarding Stonetalon and Alliance engineers benefit. The Sentinels see the deforestation effort crippled, while Alliance artificers study the captured schematics to pinpoint flaws in Venture Company shredders and harvest ideas for their own technology."
+   "answer": "The night elf Sentinels and Alliance engineers both benefit. The sabotage hinders deforestation, while engineers study the schematics to find weaknesses in Venture Company shredders and adapt ideas for their own technology."
   }
  ],
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "The pack represents fine gnomish ingenuity turned against goblin industry, utilizing customized NG-5 charges to uncover the secrets behind Venture Company machinery."
+   "text": "For an engineer, the pack turns gnomish ingenuity against goblin industry. Its customized NG-5 charges help uncover the workings of Venture Company machinery."
   },
   {
    "target": "faction:Alliance",
-   "text": "The covert operation orchestrated with this pack directly supports the Sentinels' struggle against commercial despoilment in the Stonetalon Mountains."
+   "text": "As an Alliance member, you support the Sentinels’ struggle against commercial despoilment in the Stonetalon Mountains."
   }
  ],
  "keywords": [
@@ -95,5 +95,6 @@
   "Covert Ops Pack",
   "Covert Ops - Alpha",
   "Covert Ops - Beta"
- ]
+ ],
+ "style": 1
 }

@@ -10,16 +10,16 @@
    "quest:515"
   ]
  },
- "summary": "Mudsnout Mixture is a toxic alchemical base concocted by Master Apothecary Faranell in the Undercity. Created by blending a mudsnout composite with an alchemical colloid of decay, it serves as the foundation for the Royal Apothecary Society's deadly Elixir of Agony.",
+ "summary": "In the Undercity, Master Apothecary Faranell prepares a base for a deadly Forsaken poison. Mudsnout Mixture begins with mushrooms sent north from Tarren Mill.",
  "sections": [
   {
    "title": "A Colloid of Decay",
-   "body": "When Apothecary Lydon in Tarren Mill seeks to craft a virulent new biological weapon, he sends a base composite of Mudsnout Blossoms, toxic mushrooms from the gnoll-held Nethander Stead, north to the Undercity. Impressed by the composite's potential, Master Apothecary Faranell introduces his own colloid of decay into the blend, producing the volatile Mudsnout Mixture. The solution stabilizes the mushroom compound while readying its virulent properties for further catalytic refinement back in the foothills.",
+   "body": "Apothecary Lydon in Tarren Mill seeks to craft a virulent new biological weapon. He sends a composite made from Mudsnout Blossoms north to the Undercity. The toxic mushrooms grow at Nethander Stead, held by gnolls. Master Apothecary Faranell sees promise in the composite and adds his own colloid of decay. The resulting Mudsnout Mixture is volatile. It steadies the mushroom compound and prepares its virulent properties for further catalytic refinement in the foothills.",
    "spoiler": 0
   },
   {
    "title": "Catalyzing the Agony",
-   "body": "Though potent on its own, the Mudsnout Mixture is inert without key catalysts to trigger its contaminating agents. Faranell tasks couriers with returning the vial to Tarren Mill alongside a Strong Troll's Blood Elixir, venomous Daggerspine naga scales, and Torn Fin murloc eyes. Once catalyzed by Lydon, this mixture forms the lethal Elixir of Agony\u2014a signature poison intended to spread ruin among the living enemies of the Forsaken.",
+   "body": "Mudsnout Mixture needs key catalysts before its contaminating agents can take effect. Faranell sends couriers back to Tarren Mill with the vial, a Strong Troll's Blood Elixir, venomous Daggerspine naga scales, and Torn Fin murloc eyes. Apothecary Lydon catalyzes the mixture with these ingredients to make the lethal Elixir of Agony, a signature poison meant to spread ruin among the Forsaken's living enemies.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "what does mudsnout mixture do",
     "mudsnout mixture use"
    ],
-   "answer": "It serves as the intermediary chemical base for the Elixir of Agony, an experimental poison being perfected by Apothecary Lydon in Tarren Mill to slaughter the enemies of the Forsaken."
+   "answer": "Mudsnout Mixture provides the chemical base for the Elixir of Agony, an experimental poison Apothecary Lydon is perfecting in Tarren Mill to kill the Forsaken's enemies."
   },
   {
    "q": "Who creates the Mudsnout Mixture?",
@@ -39,7 +39,7 @@
     "who makes mudsnout mixture",
     "mudsnout mixture creator"
    ],
-   "answer": "Master Apothecary Faranell, the leader of the Royal Apothecary Society residing in the Apothecarium of the Undercity, creates it by infusing a raw mudsnout composite with his own colloid of decay."
+   "answer": "Master Apothecary Faranell creates Mudsnout Mixture in the Undercity by adding his colloid of decay to a raw mudsnout composite."
   },
   {
    "q": "Why does it require gnoll components?",
@@ -47,7 +47,7 @@
     "why mudsnout",
     "gnoll poison lore"
    ],
-   "answer": "It doesn't, despite the name. The composite is made from Mudsnout Blossoms, toxic mushrooms that grow at Nethander Stead among the Mudsnout gnolls; Apothecary Lydon mixes them into a composite before Faranell adds his colloid of decay."
+   "answer": "Mudsnout Mixture needs no gnoll parts. The composite comes from Mudsnout Blossoms, toxic mushrooms growing at Nethander Stead among the Mudsnout gnolls. Apothecary Lydon blends them into a composite before Faranell adds his colloid of decay."
   },
   {
    "q": "How is the mixture activated?",
@@ -55,17 +55,17 @@
     "activate mudsnout mixture",
     "elixir of agony reagents"
    ],
-   "answer": "To awaken the dormant contaminating agents within the mixture, Apothecary Lydon requires a Strong Troll's Blood Elixir, along with Daggerspine naga scales and Torn Fin murloc eyes harvested along the Hillsbrad coast."
+   "answer": "Apothecary Lydon activates the dormant contaminating agents with a Strong Troll's Blood Elixir, Daggerspine naga scales, and Torn Fin murloc eyes gathered along the Hillsbrad coast."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "The concoction demonstrates the ruthless ingenuity of the Royal Apothecary Society, refining base wilderness ingredients into chemical weapons designed to eliminate the living."
+   "text": "As an undead, you can see the Royal Apothecary Society's ruthless ingenuity at work: wilderness ingredients refined into chemical weapons meant to kill the living."
   },
   {
    "target": "faction:Horde",
-   "text": "Horde adventurers working in Tarren Mill act as couriers and field agents, carrying toxic concoctions across Lordaeron to secure the Forsaken foothold in Hillsbrad."
+   "text": "As a Horde adventurer in Tarren Mill, you carry toxic concoctions across Lordaeron as a courier and field agent, helping secure the Forsaken foothold in Hillsbrad."
   }
  ],
  "keywords": [
@@ -91,5 +91,6 @@
  "attribution": [
   "Mudsnout Mixture",
   "Elixir of Agony (3)"
- ]
+ ],
+ "style": 1
 }

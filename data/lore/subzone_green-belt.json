@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Green Belt"
  },
- "summary": "The Green Belt is a wild stretch of marshland in the eastern Wetlands, sprawling below the ridges of Grim Batol. It is overrun by roaming bog beasts, predatory crocolisks, and toxic oozes, guarded primarily by the solitary night elf Rethiel the Greenwarden.",
+ "summary": "In eastern Wetlands, Green Belt lies below the ridges of Grim Batol. Bog beasts, crocolisks, and toxic oozes roam its marshes, while Rethiel the Greenwarden keeps watch alone.",
  "sections": [
   {
    "title": "A Wild and Contested Fen",
-   "body": "Stretching across the eastern interior of the Wetlands, the Green Belt is one of the sodden region's untamed hollows. The local wildlife\u2014ranging from massive crocolisks to shifting oozes and shambling bog beasts\u2014makes travel through the mossy waters hazardous. Deep within its reaches sits a solitary watch post manned by Rethiel the Greenwarden, a lone night elf dedicated to studying the fen's ecology and keeping its hostile denizens in check.",
+   "body": "Green Belt fills the eastern interior of Wetlands, where mossy waters make travel hazardous. Massive crocolisks, shifting oozes, and shambling bog beasts roam the fen. Deep within it, a solitary watch post is manned by Rethiel the Greenwarden, a night elf who studies the fen's ecology and keeps its hostile creatures in check.",
    "spoiler": 0
   },
   {
    "title": "Remnants of the Second War",
-   "body": "Scattered amidst the muck lies the wreckage of a Dragonmaw clan caravan, left behind after the catastrophic battle at nearby Grim Batol. Crimson whelplings still linger around the broken carts and crushed cages, haunting reminders of the orcish clan's past enslavement of Alexstrasza and her red dragon brood.",
+   "body": "Wreckage from a Dragonmaw clan caravan lies scattered in the muck, left behind after the catastrophic battle at nearby Grim Batol. Crimson whelplings linger around the broken carts and crushed cages, reminders of the clan's past enslavement of Alexstrasza and her red dragon brood.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "where is green belt",
     "green belt wetlands map"
    ],
-   "answer": "The Green Belt occupies the eastern half of the Wetlands, lying along the soggy lowlands between the main road and the foothills rising toward Grim Batol."
+   "answer": "Green Belt occupies the eastern half of Wetlands, along the soggy lowlands between the main road and the foothills rising toward Grim Batol."
   },
   {
    "q": "Who is Rethiel the Greenwarden?",
@@ -37,7 +37,7 @@
     "rethiel the greenwarden",
     "night elf in green belt"
    ],
-   "answer": "Rethiel is an enigmatic night elf standing watch in the Wetlands marsh. Far from his ancestral home of Kalimdor, he seeks to preserve nature's balance in the swamp and enlists travelers to deal with corrupting beasts and oozes."
+   "answer": "Rethiel the Greenwarden is a night elf keeping watch alone in the Wetlands marsh. Far from his ancestral home of Kalimdor, he seeks to preserve nature's balance in the swamp and enlists travelers to deal with corrupting beasts and oozes."
   },
   {
    "q": "Why are there red whelps and broken wagons here?",
@@ -46,7 +46,7 @@
     "why are there whelps in wetlands",
     "red whelps wetlands"
    ],
-   "answer": "They are the ruins of a Dragonmaw clan supply caravan caught in the aftermath of the Second War, when the orcs were routed from Grim Batol and their hold over the red dragonflight shattered."
+   "answer": "The broken wagons are the remains of a Dragonmaw clan supply caravan caught in the aftermath of the Second War, when the orcs were routed from Grim Batol and their hold over the red dragonflight was shattered."
   },
   {
    "q": "What threats wander the Green Belt?",
@@ -55,17 +55,17 @@
     "dangers in green belt",
     "what monsters live here"
    ],
-   "answer": "Travelers through the belt frequently encounter dangerous wetland crocolisks, toxic living oozes, and towering bog beasts that blend seamlessly into the sodden vegetation."
+   "answer": "Dangerous crocolisks, toxic living oozes, and towering bog beasts roam Green Belt, blending into the sodden vegetation."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "Finding Rethiel the Greenwarden stationed alone in an Eastern Kingdoms swamp is an unexpected sight, serving as a reminder of the Cenarion circle and night elven devotion to healing wild lands wherever they lie."
+   "text": "As a night elf, you may find Rethiel the Greenwarden's lonely watch in an Eastern Kingdoms swamp surprising. His presence recalls the Cenarion circle and night elven devotion to healing wild lands wherever they lie."
   },
   {
    "target": "class:Druid",
-   "text": "The twisted oozes and unchecked bog beasts of the fen disrupt the natural harmony of the marsh, making the region a point of concern for keepers of the wild."
+   "text": "As a druid, you can see how twisted oozes and unchecked bog beasts disrupt the marsh's natural harmony. The fen is a concern for keepers of the wild."
   }
  ],
  "keywords": [
@@ -87,5 +87,6 @@
  ],
  "attribution": [
   "Green Belt"
- ]
+ ],
+ "style": 1
 }

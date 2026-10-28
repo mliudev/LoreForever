@@ -20,16 +20,16 @@
    "Elixir of Pain (2)"
   ]
  },
- "summary": "Commissioned by Apothecary Lydon in Tarren Mill, this assignment tasks Horde adventurers with harvesting mountain lion blood to brew a lethal new concoction. It highlights the Royal Apothecary Society's grim dedication to perfecting their New Plague while despising the natural vitality of the Hillsbrad Foothills.",
+ "summary": "In Tarren Mill, Apothecary Lydon seeks mountain lion blood for a lethal brew. His work serves the Royal Apothecary Society’s drive to perfect the New Plague.",
  "sections": [
   {
    "title": "A Bitter Outlook in Tarren Mill",
-   "body": "While stationed inside Tarren Mill, Apothecary Lydon finds little joy in the surrounding landscape. Looking out past his window at the blooming meadows and brisk mountain air of Hillsbrad, he views the region's enduring life as an offense. Like many within the Royal Apothecary Society, his personal devotion is bound to Lady Sylvanas Windrunner and the perfection of the New Plague, an engineered scourge intended to bring death to the living and retribution to their enemies.",
+   "body": "Apothecary Lydon finds little joy in Tarren Mill’s surroundings. From his window, the blooming meadows and brisk mountain air of Hillsbrad seem an offense to him. Like many in the Royal Apothecary Society, Lydon devotes himself to Lady Sylvanas Windrunner and the New Plague. The Society seeks to perfect this engineered scourge, meant to kill the living and bring retribution to its enemies.",
    "spoiler": 0
   },
   {
    "title": "Ingredients for Misery",
-   "body": "To engineer his latest poisonous mixture, Lydon turns to the local fauna prowling the foothills and the slopes toward the Alterac Mountains. Believing that mountain lion blood possesses specific properties vital for crafting what he calls an Elixir of Pain, he sends agents into the wilds to claim ten vials. The collection serves as the foundation for the Society's ongoing chemical trials along the contested southern front.",
+   "body": "Lydon seeks ingredients for his latest poisonous mixture among the animals prowling the foothills and the slopes toward the Alterac Mountains. He believes mountain lion blood has properties needed to make what he calls an Elixir of Pain. So he sends agents into the wilds to collect ten vials. The blood will support the Society’s continuing chemical trials along the contested southern front.",
    "spoiler": 0
   }
  ],
@@ -41,7 +41,7 @@
     "who starts elixir of pain",
     "apothecary lydon quest"
    ],
-   "answer": "The quest is assigned by Apothecary Lydon, a Forsaken alchemist stationed within the settlement of Tarren Mill in the Hillsbrad Foothills."
+   "answer": "Apothecary Lydon, a Forsaken alchemist in Tarren Mill, gives the assignment. The settlement lies in the Hillsbrad Foothills."
   },
   {
    "q": "Why does Apothecary Lydon need mountain lion blood?",
@@ -50,7 +50,7 @@
     "lion blood purpose",
     "what is the blood for"
    ],
-   "answer": "Lydon's alchemical research suggests that mountain lion blood is an essential reagent for brewing a lethal new concoction, an elixir designed to advance the Royal Apothecary Society's plague experiments against their living enemies."
+   "answer": "Lydon believes mountain lion blood is needed to brew a lethal mixture. He hopes the elixir will advance the Royal Apothecary Society’s plague experiments against their living enemies."
   },
   {
    "q": "Where can the mountain lions be found?",
@@ -59,7 +59,7 @@
     "mountain lion locations hillsbrad",
     "lion blood farming"
    ],
-   "answer": "Mountain lions prowl throughout the open fields and rolling hills of Hillsbrad Foothills, as well as along the higher bluffs leading into the Alterac Mountains."
+   "answer": "Mountain lions roam the open fields and rolling hills of Hillsbrad Foothills, and the higher bluffs leading toward the Alterac Mountains."
   },
   {
    "q": "What is the New Plague Lydon mentions?",
@@ -68,7 +68,7 @@
     "royal apothecary society plague",
     "forsaken plague"
    ],
-   "answer": "The New Plague is a biological weapon being meticulously researched and developed by the Forsaken's Royal Apothecary Society under the orders of Lady Sylvanas Windrunner, meant to eradicate both the Scourge and the living."
+   "answer": "The New Plague is a biological weapon the Forsaken’s Royal Apothecary Society is developing under Lady Sylvanas Windrunner’s orders. It is meant to eradicate both the Scourge and the living."
   },
   {
    "q": "What comes next after completing this quest?",
@@ -77,7 +77,7 @@
     "follow up elixir of pain",
     "what follows elixir of pain"
    ],
-   "answer": "Handing in the ten vials of mountain lion blood leads directly into a follow-up task where Apothecary Lydon begins putting his newly brewed elixir to the test."
+   "answer": "After you hand over ten vials of mountain lion blood, Apothecary Lydon begins testing his newly brewed elixir."
   },
   {
    "q": "Why does Lydon despise Hillsbrad's scenery?",
@@ -86,17 +86,17 @@
     "why is lydon brooding",
     "lydon window quote"
    ],
-   "answer": "As an undead servant of the Dark Lady, Lydon resents the blooming flora, fresh air, and persistent vitality of the region, desiring instead to see the living world smothered by his Society's toxic creations."
+   "answer": "As an undead servant of the Dark Lady, Lydon resents Hillsbrad’s blooming plants, fresh air, and enduring life. He wants the Society’s toxic creations to smother the living world."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "For Forsaken travelers, gathering reagents for Apothecary Lydon directly serves the mandate of the Dark Lady and the Royal Apothecary Society as they stake their claim in Lordaeron."
+   "text": "As a Forsaken traveler, you gather reagents for Apothecary Lydon in service of the Dark Lady and the Royal Apothecary Society as they claim their place in Lordaeron."
   },
   {
    "target": "faction:Horde",
-   "text": "Allies of the Forsaken must navigate the grim methods of Tarren Mill's alchemists, aiding in the harvest of wild beasts to fortify Horde footholds against nearby human threats."
+   "text": "As a Horde ally, you face the grim methods of Tarren Mill’s alchemists. You help gather wild beasts’ blood to strengthen Horde footholds against nearby human threats."
   }
  ],
  "keywords": [
@@ -118,5 +118,6 @@
  ],
  "attribution": [
   "Elixir of Pain (quest)"
- ]
+ ],
+ "style": 1
 }

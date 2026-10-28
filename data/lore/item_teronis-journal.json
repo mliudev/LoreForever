@@ -10,11 +10,11 @@
    "quest:1023"
   ]
  },
- "summary": "Teronis' Journal is a field notebook recovered from the remains of a night elf scout in Ashenvale. Found alongside the slain investigator, it documents his search for a mysterious gem and serves as vital evidence for the Sentinels in Astranaar.",
+ "summary": "Teronis' Journal follows a scout's search through Ashenvale for a gem tied to a rod he hoped could slow furbolg attacks.",
  "sections": [
   {
    "title": "A Scout's Final Record",
-   "body": "A longtime friend of Raene Wolfrunner aiding the Sentinels, Teronis ventured into the wilds of Ashenvale seeking a gem for a rod he believed could slow the furbolg attacks on his people. His mission ended abruptly when he fell in the field, surrounded by aggressive creatures near the shore. Recovered from his personal effects, this journal remains in remarkably good condition despite the violence of his demise. It outlines his findings regarding a radiant gem that once formed part of that rod, providing Astranaar's defenders with the vital trail needed to see his unfinished mission through.",
+   "body": "Teronis, a longtime friend of Raene Wolfrunner, aided the Sentinels and searched Ashenvale for a gem. He believed it belonged to a rod that could slow the furbolg attacks on his people. Near the shore, aggressive creatures brought his journey to an end. The journal was recovered from his personal effects in remarkably good condition. Its findings about a radiant gem that once formed part of the rod give Astranaar's defenders a trail to follow in his unfinished search.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "who is teronis",
     "teronis lore"
    ],
-   "answer": "The journal belonged to Teronis, a night elf friend of Raene Wolfrunner in Astranaar who was searching Ashenvale for a way to slow the furbolg attacks. He was killed in the wilderness before he could return with his findings."
+   "answer": "Teronis, a night elf and longtime friend of Raene Wolfrunner, owned the journal. He searched Ashenvale for a gem tied to a rod he believed could slow furbolg attacks, but died in the wilds before returning with his findings."
   },
   {
    "q": "Where is the journal found?",
@@ -35,7 +35,7 @@
     "teronis journal location",
     "how to get journal"
    ],
-   "answer": "The journal is retrieved by rummaging through Teronis' belongings upon discovering his slain body in the wilds of Ashenvale, near the shorelines populated by local murlocs."
+   "answer": "The journal is found among Teronis' belongings after his slain body is discovered in the wilds of Ashenvale, near the shore where local murlocs live."
   },
   {
    "q": "What is the purpose of bringing the journal to Astranaar?",
@@ -44,7 +44,7 @@
     "who do i give the journal to",
     "journal turn in"
    ],
-   "answer": "Returning the journal to Raene Wolfrunner informs Astranaar of Teronis' death and provides the Sentinels with the notes required to continue his search for the rod he hoped would slow the furbolg attacks."
+   "answer": "Returning the journal to Raene Wolfrunner tells Astranaar of Teronis' death and gives the Sentinels his notes to continue his search for the rod he hoped could slow the furbolg attacks."
   },
   {
    "q": "What item was Teronis looking for according to his mission?",
@@ -53,17 +53,17 @@
     "what gem was he after",
     "teronis gem"
    ],
-   "answer": "Teronis was searching for a glowing gem, one of the pieces of a rod made by the dead wizard Dartol. His investigation indicated that the nearby murlocs may have scavenged the artifact."
+   "answer": "Teronis sought a glowing gem, one piece of a rod made by the dead wizard Dartol. His investigation suggested nearby murlocs may have scavenged the artifact."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "The journal represents the perilous duties borne by night elf scouts striving to protect Ashenvale's ancient woodlands from encroaching corruption."
+   "text": "For a night elf, Teronis' journal recalls the danger faced by scouts protecting Ashenvale's ancient woodlands from encroaching corruption."
   },
   {
    "target": "faction:Alliance",
-   "text": "Carrying Teronis' field notes back to Astranaar helps the garrison coordinate relief and recover their fallen scout's remains."
+   "text": "Taking Teronis' field notes back to Astranaar helps the garrison coordinate relief and recover their fallen scout's remains."
   }
  ],
  "keywords": [
@@ -89,5 +89,6 @@
  "attribution": [
   "Teronis' Journal",
   "Raene's Cleansing (2)"
- ]
+ ],
+ "style": 1
 }

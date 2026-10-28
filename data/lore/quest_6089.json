@@ -23,16 +23,16 @@
    "Training the Beast (Tauren)"
   ]
  },
- "summary": "Training the Beast is the culminating rite of passage for young tauren hunters in Mulgore. After demonstrating the spiritual patience and resolve required to soothe the wild beasts of the plains, hunters are sent to Thunder Bluff to learn the lifelong discipline of bonding with, nourishing, and commanding a permanent animal companion.",
+ "summary": "In Mulgore, young tauren hunters learn to live and hunt beside a beast. After proving their patience and resolve by soothing the plains’ wild creatures, they travel to Thunder Bluff to learn the lasting bond of care and command.",
  "sections": [
   {
    "title": "The Path to the Great Bluff",
-   "body": "Having successfully tested their spirit against the dangerous predators of Mulgore\u2014plainstriders, prairie stalkers, and swoops\u2014tauren hunters are judged ready for the true mantle of the hunter. Yaw Sharpmane, the mentor in Bloodhoof Village, entrusts the novice with a journey to Hunter Rise in Thunder Bluff. There stands Holt Thunderhorn, a legendary figure among the shu'halo whose reputation for communing with the wilds is surpassed only by his reverence for the Earthmother.",
+   "body": "After facing plainstriders, prairie stalkers, and swoops in Mulgore, tauren hunters are ready to take up the full mantle of the hunter. Yaw Sharpmane, their mentor in Bloodhoof Village, sends each novice to Hunter Rise in Thunder Bluff. There, Holt Thunderhorn teaches them. The shu'halo honor him for communing with the wilds, and his reverence for the Earthmother is greater still.",
    "spoiler": 0
   },
   {
    "title": "A Sacred Bond",
-   "body": "To the tauren, a beast is not a simple weapon or thrall; it is a partner granted through harmony with the natural world. Holt Thunderhorn imparts the vital knowledge required to sustain this partnership. A hunter must learn not only how to guide the creature's combat instincts, but how to nourish its body through regular feeding, mend its injuries, and call its spirit back should it fall defending its companion on the plains.",
+   "body": "To the tauren, a beast is a partner joined through harmony with the natural world, never a weapon or thrall. Holt Thunderhorn teaches hunters how to sustain that bond. They learn to guide a creature's combat instincts, feed it regularly, mend its injuries, and call its spirit back if it falls defending its companion on the plains.",
    "spoiler": 0
   }
  ],
@@ -44,7 +44,7 @@
     "who is holt thunderhorn",
     "where is holt"
    ],
-   "answer": "You must speak with Holt Thunderhorn, a master hunter located atop Hunter Rise in Thunder Bluff. Yaw Sharpmane directs you to him once your initial trials of taming wild beasts in Mulgore are complete."
+   "answer": "Speak with Holt Thunderhorn atop Hunter Rise in Thunder Bluff. After your first trials taming wild beasts in Mulgore, Yaw Sharpmane sends you to him."
   },
   {
    "q": "What skills do tauren hunters learn upon completing this quest?",
@@ -53,7 +53,7 @@
     "quest reward skills",
     "what does holt teach"
    ],
-   "answer": "Holt Thunderhorn teaches you how to train your pet in new abilities, how to feed your companion to keep it loyal and content, and how to revive your pet should it perish in combat."
+   "answer": "Holt Thunderhorn teaches you to train your companion in new abilities, feed it to keep it loyal and content, and revive it if it perishes in combat."
   },
   {
    "q": "Where does this quest fit in the tauren hunter chain?",
@@ -62,7 +62,7 @@
     "pet quest mulgore",
     "training the beast chain"
    ],
-   "answer": "This is the final quest in the sequence. It follows The Hunter's Path and the three-part trial of Taming the Beast, where the hunter temporarily pacifies an adult plainstrider, a prairie stalker, and a swoop across the plains."
+   "answer": "This is the final step in the sequence. It follows The Hunter's Path and the three trials of Taming the Beast, where you temporarily pacify an adult plainstrider, a prairie stalker, and a swoop across the plains."
   },
   {
    "q": "Why does Holt Thunderhorn hold such high standing among tauren hunters?",
@@ -70,7 +70,7 @@
     "holt thunderhorn lore",
     "who is holt"
    ],
-   "answer": "Holt has spent a lifetime testing himself against Azeroth's most ferocious beasts, commanding multiple powerful companions while maintaining a deep spiritual bond with the Earthmother. His wisdom makes him the principal teacher for young shu'halo hunters in Thunder Bluff."
+   "answer": "Holt has spent a lifetime testing himself against Azeroth's fiercest beasts and commands several powerful companions. He also keeps a deep spiritual bond with the Earthmother, and his wisdom makes him the chief teacher of young shu'halo hunters in Thunder Bluff."
   },
   {
    "q": "Can hunters tame their permanent pet before turning in this quest?",
@@ -79,7 +79,7 @@
     "when do i get my pet",
     "do i need training the beast"
    ],
-   "answer": "You already have the power to tame wild beasts from the previous trial, but until you speak to Holt Thunderhorn, you lack the knowledge to feed, revive, or teach skills to your chosen companion."
+   "answer": "You can already tame wild beasts from the earlier trial, but until you speak with Holt Thunderhorn, you lack the knowledge to feed your companion, revive it, or teach it skills."
   },
   {
    "q": "Why is pet care tied to the Earthmother in tauren culture?",
@@ -87,17 +87,17 @@
     "tauren pet lore",
     "earthmother beasts"
    ],
-   "answer": "Tauren see all living creatures as children of the Earthmother. A hunter does not dominate a beast through sheer force of will, but enters into a spiritual covenant where the hunter provides food and care in exchange for the animal's loyalty and protection."
+   "answer": "Tauren see every living creature as a child of the Earthmother. A hunter does not dominate a beast by sheer force of will, but enters a spiritual covenant, offering food and care in return for loyalty and protection."
   }
  ],
  "angles": [
   {
    "target": "class:Hunter",
-   "text": "This rite marks the transition from fighting alone to fighting beside a loyal companion, completing your fundamental training as a warden of the wilderness."
+   "text": "As a hunter, you leave behind the fight alone and stand beside a loyal companion. This rite completes your first training as a warden of the wilderness."
   },
   {
    "target": "race:Tauren",
-   "text": "For the shu'halo, taking an animal companion into battle carries a sacred duty of stewardship and respect for the creations of the Earthmother."
+   "text": "As shu'halo, you take an animal companion into battle with a sacred duty to care for it and respect the Earthmother's creations."
   }
  ],
  "keywords": [
@@ -122,5 +122,6 @@
  ],
  "attribution": [
   "Training the Beast (Tauren)"
- ]
+ ],
+ "style": 1
 }

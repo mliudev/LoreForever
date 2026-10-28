@@ -28,16 +28,16 @@
   ],
   "category": "Hillsbrad Foothills"
  },
- "summary": "In Tarren Mill, Krusk at last hears word and rumor of Gol'dir, an orc held prisoner by the Syndicate. The humans keep moving their captive about, so Krusk has narrowed the search to the Syndicate's large camp, just to the north of town, and wants you to bring back whatever information you can find.",
+ "summary": "In Tarren Mill, Krusk has at last heard word and rumor of Gol'dir. The Syndicate keeps moving the orc prisoner, and Krusk sends you to its large camp just north of town to bring back whatever information you can find.",
  "sections": [
   {
    "title": "Word of Gol'dir",
-   "body": "Krusk has begun to hear word and rumor of Gol'dir. The Syndicate's humans keep moving the orc about, but the search is narrowing to their large camp, just to the north of Tarren Mill. Krusk sends you there to lay hands on whatever information you can and carry it back. Krusk fears that with each day Gol'dir's prospects darken.",
+   "body": "Krusk has at last heard word and rumor of Gol'dir, an orc prisoner held by the Syndicate. Its humans keep moving him, but the search has narrowed to their large camp just north of Tarren Mill. Krusk sends you there to find whatever information you can and carry it back. With each day, he fears Gol'dir's prospects grow darker.",
    "spoiler": 0
   },
   {
    "title": "News for Krusk",
-   "body": "What you bring back tells Krusk where Gol'dir is being held. That camp is not far from Tarren Mill, and Krusk hopes its defenders will be less prepared than the captors who took Krusk and the others the first time.",
+   "body": "The information you bring back tells Krusk where Gol'dir is held. The camp lies not far from Tarren Mill, and Krusk hopes its defenders are less prepared than the captors who took him and the others the first time.",
    "spoiler": 1
   }
  ],
@@ -49,7 +49,7 @@
     "who is goldir",
     "who needs to be rescued"
    ],
-   "answer": "Gol'dir, an orc held prisoner by the Syndicate, whose humans keep moving him about."
+   "answer": "Krusk is looking for Gol'dir, an orc held prisoner by the Syndicate. Its humans keep moving him about."
   },
   {
    "q": "Where does Krusk send you to find the information?",
@@ -58,7 +58,7 @@
     "syndicate camp location",
     "where is the syndicate missive"
    ],
-   "answer": "To the Syndicate's large camp, just to the north of Tarren Mill, to bring back whatever information you can find about where Gol'dir is."
+   "answer": "Krusk sends you to the Syndicate's large camp just north of Tarren Mill to bring back whatever information you can find about Gol'dir's whereabouts."
   },
   {
    "q": "What information is needed to locate Gol'dir?",
@@ -67,7 +67,7 @@
     "what item is krusk looking for",
     "what is the missive"
    ],
-   "answer": "Anything that shows where Gol'dir is. A Syndicate missive is what is brought back to Krusk."
+   "answer": "Anything that shows where Gol'dir is can help locate him. A Syndicate missive is what you bring back to Krusk."
   },
   {
    "q": "Who is holding Gol'dir?",
@@ -75,7 +75,7 @@
     "who captured goldir",
     "who is holding the orc captive"
    ],
-   "answer": "The Syndicate. Its humans keep moving him about."
+   "answer": "The Syndicate is holding Gol'dir, and its humans keep moving him about."
   }
  ],
  "angles": [],
@@ -99,5 +99,6 @@
  ],
  "attribution": [
   "Infiltration (Classic)"
- ]
+ ],
+ "style": 1
 }

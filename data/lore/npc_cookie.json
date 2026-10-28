@@ -8,16 +8,16 @@
   "wiki": "Cookie",
   "refs": 5
  },
- "summary": "Cookie is an elite murloc serving as the ship's cook aboard the juggernaut hidden deep within the Deadmines. An unusual recruit among the Defias Brotherhood, he tends the crew's cauldrons beneath the watchful eye of Captain Greenskin and Edwin VanCleef. He is the only entirely optional boss encountered within the underground dry dock.",
+ "summary": "Cookie tends the crew's cauldrons aboard the juggernaut deep in the Deadmines. A murloc among the Defias Brotherhood, he cooks beneath the watch of Captain Greenskin and Edwin VanCleef. In the underground dry dock, he is the only entirely optional boss.",
  "sections": [
   {
    "title": "The Brotherhood's Chef",
-   "body": "Beneath the decks of the towering juggernaut in the Ironclad Cove, cooking duty falls neither to a human outrider nor a goblin engineer, but to a solitary murloc known simply as Cookie. How he came by the position is anyone's guess. Whatever doubts the rest of the crew might harbor about a murloc presiding over their rations, pirates are rarely in a position to be picky, and in the underworld of Moonbrook, a meal is a meal.",
+   "body": "Cookie cooks beneath the decks of the towering juggernaut in Ironclad Cove. No human outrider or goblin engineer takes the duty; the solitary murloc does. How Cookie came to hold the position is unknown. The rest of the crew may doubt a murloc's cooking, but pirates rarely choose their meals with care. In Moonbrook's underworld, a meal is a meal.",
    "spoiler": 0
   },
   {
    "title": "A Bitter Brew",
-   "body": "Cookie patrols the waterways and shores around the pirate flagship, wielding his cooking utensils alongside acidic brews. Despite being isolated from typical murloc tribes, he defends his cauldron with savage ferocity, flinging caustic concoctions at any intruders who wander into the docks. Because his station sits away from the main gangplanks, many who storm the cove bypass his kitchen entirely, making him the only optional overseer aboard the Defias juggernaut.",
+   "body": "Cookie patrols the waterways and shores around the pirate flagship. He wields cooking utensils and throws acidic brews. Though apart from typical murloc tribes, he defends his cauldron with savage force, flinging caustic mixtures at intruders who enter the docks. His station lies away from the main gangplanks, so many who storm the cove pass his kitchen by. Cookie is the only overseer aboard the Defias juggernaut who can be bypassed.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "why is cookie on the ship",
     "cookie defias lore"
    ],
-   "answer": "No record explains how Cookie came to serve aboard the juggernaut. The Defias outlaws and goblin shipwrights simply accept the arrangement because pirate crews take food where they can get it, regardless of the chef's species."
+   "answer": "No record explains how Cookie came to serve aboard the juggernaut. Defias outlaws and goblin shipwrights accept the arrangement because pirate crews take food where they can get it, whatever the cook's species."
   },
   {
    "q": "Where can Cookie be found in the Deadmines?",
@@ -38,7 +38,7 @@
     "cookie location deadmines",
     "finding cookie"
    ],
-   "answer": "Cookie is located in the Ironclad Cove at the very end of the Deadmines. He patrols the shallow water and docks near the stern of the giant wooden juggernaut, just past the ramp where Mr. Smite stands guard."
+   "answer": "Cookie is at Ironclad Cove, at the very end of the Deadmines. He patrols the shallow water and docks near the stern of the giant wooden juggernaut, just past the ramp guarded by Mr. Smite."
   },
   {
    "q": "Is Cookie required to finish the Deadmines?",
@@ -47,7 +47,7 @@
     "do you have to kill cookie",
     "cookie skip"
    ],
-   "answer": "No, Cookie is the only optional boss in the dungeon. Infiltrators can board the vessel directly to confront Captain Greenskin and Edwin VanCleef without ever disturbing the cook's patrol along the shore."
+   "answer": "No, Cookie is the only optional boss in the Deadmines. Infiltrators can board the vessel and confront Captain Greenskin and Edwin VanCleef without disturbing the cook's patrol along the shore."
   },
   {
    "q": "Does Cookie belong to a specific murloc tribe?",
@@ -55,7 +55,7 @@
     "what tribe is cookie",
     "cookie murloc tribe"
    ],
-   "answer": "Cookie is not associated with any of the known local murloc tribes, such as those along the Westfall coast. He lives and works entirely among the outlaws and scoundrels of the Defias Brotherhood."
+   "answer": "Cookie is not associated with any known local murloc tribe, including those along the Westfall coast. He lives and works among the outlaws and scoundrels of the Defias Brotherhood."
   },
   {
    "q": "What weapons or attacks does Cookie use?",
@@ -64,7 +64,7 @@
     "how does cookie fight",
     "cookie attacks"
    ],
-   "answer": "Cookie wields cooking implements in melee combat and can hurl caustic splashes of acid at attackers, burning them with dangerous culinary mixtures."
+   "answer": "Cookie fights at close range with cooking implements and hurls caustic splashes of acid at attackers, burning them with dangerous culinary mixtures."
   },
   {
    "q": "Who does Cookie report to on the juggernaut?",
@@ -73,21 +73,21 @@
     "who leads cookie",
     "cookie greenskin vancleef"
    ],
-   "answer": "Cookie directly serves the naval arm of the Defias Brotherhood under the command of Captain Greenskin, answering ultimately to Edwin VanCleef himself."
+   "answer": "Cookie serves the naval arm of the Defias Brotherhood under Captain Greenskin's command, and ultimately answers to Edwin VanCleef."
   }
  ],
  "angles": [
   {
    "target": "profession:Cooking",
-   "text": "Finding a murloc appointed as chief cook aboard an outlaw juggernaut is a testament to the desperate, unrefined standards of pirate cuisine."
+   "text": "Finding a murloc as chief cook aboard an outlaw juggernaut speaks to the desperate, unrefined standards of pirate cuisine."
   },
   {
    "target": "class:Rogue",
-   "text": "VanCleef's rogue network relies on strange, unconventional assets, and Cookie proves that even the Brotherhood's supply lines feature odd surprises."
+   "text": "VanCleef's rogue network relies on strange, unconventional assets. Cookie is one of the odd surprises in the Brotherhood's supply lines."
   },
   {
    "target": "faction:Alliance",
-   "text": "Stormwind's scouts are often surprised to find murlocs actively working within the Defias leadership rather than merely infesting Westfall's outer shores."
+   "text": "Stormwind's scouts may be surprised to find murlocs working within Defias leadership, rather than only along Westfall's outer shores."
   }
  ],
  "keywords": [
@@ -111,5 +111,6 @@
  ],
  "attribution": [
   "Cookie"
- ]
+ ],
+ "style": 1
 }

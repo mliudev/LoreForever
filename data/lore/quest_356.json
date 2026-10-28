@@ -17,16 +17,16 @@
   "wiki": "Rear Guard Patrol",
   "chain": []
  },
- "summary": "Rear Guard Patrol is a military scouting mission tasked by Deathguard Linnea to protect the Forsaken defenses along Tirisfal's eastern border. It directs operatives to purge stray Scourge horrors and lingering spirits haunting the Balnir Farmstead before they can compromise the supply lines supporting the Bulwark.",
+ "summary": "At the Bulwark, Deathguard Linnea sends you to guard Tirisfal's eastern flank. Scourge horrors and lingering spirits haunt Balnir Farmstead, where they threaten the road and the supply lines that keep the front supplied.",
  "sections": [
   {
    "title": "Securing the Bulwark's Flank",
-   "body": "The Bulwark stands as the primary bulwark holding back the pestilence and armies of the Western Plaguelands from spilling into Tirisfal Glades. Deathguard Linnea oversees rear-echelon security along this frontier. Because the line cannot afford to divide its forces against ambushes from behind, any undead that bypass the choke point must be destroyed before they can sever the supply lines feeding the front.",
+   "body": "The Bulwark holds back the pestilence and armies of the Western Plaguelands from Tirisfal Glades. Deathguard Linnea oversees security behind the frontier. The defenders cannot spare troops to guard against attacks from the rear. Any undead that slip past the choke point must be destroyed before they can cut the supply lines feeding the front.",
    "spoiler": 0
   },
   {
    "title": "The Ruins of Balnir Farmstead",
-   "body": "Once a working farm of eastern Tirisfal, the Balnir Farmstead fell to ruin during the Third War. Now thoroughly blighted, the overgrown fields and crumbling stables provide cover for interloping Bleeding Horrors and restless, Wandering Spirits. Clearing the site denies the Lich King a staging post inside Tirisfal itself and safeguards the road for Horde reinforcements.",
+   "body": "Balnir Farmstead was once a working farm in eastern Tirisfal, but it fell to ruin during the Third War. Blight covers its fields, and its crumbling stables shelter Bleeding Horrors and restless Wandering Spirits. Clearing the farmstead denies the Lich King a place to gather forces inside Tirisfal and keeps the road open for Horde reinforcements.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "bulwark importance",
     "why secure balnir"
    ],
-   "answer": "The Bulwark holds the narrow border pass against the Western Plaguelands. If wandering Scourge flank the fortification or settle behind it, the defenders would be caught in a two-front battle and lose the supply lines connecting them to Brill and the Undercity."
+   "answer": "The Bulwark holds the narrow pass between Tirisfal and the Western Plaguelands. If Scourge wander behind the fortification, defenders could face attacks from both sides and lose the supply lines to Brill and the Undercity."
   },
   {
    "q": "Who orders this mission?",
@@ -46,7 +46,7 @@
     "who gives rear guard patrol",
     "deathguard linnea"
    ],
-   "answer": "Deathguard Linnea, an officer stationed near the road leading east into the Plaguelands, assigns the patrol and forwards reports of success to Executor Zygand."
+   "answer": "Deathguard Linnea, stationed near the road east into the Plaguelands, orders the patrol and sends reports of success to Executor Zygand."
   },
   {
    "q": "What creatures haunt the Balnir Farmstead?",
@@ -55,7 +55,7 @@
     "what monsters are at balnir",
     "bleeding horror"
    ],
-   "answer": "The blighted farmstead crawls with Bleeding Horrors\u2014reanimated corpses stitched together by necromancy\u2014and Wandering Spirits of former inhabitants who died during the Scourge's initial conquest."
+   "answer": "Bleeding Horrors, corpses reanimated and stitched together by necromancy, and Wandering Spirits haunt Balnir Farmstead. The spirits belonged to former inhabitants who died during the Scourge's initial conquest."
   },
   {
    "q": "Who is Executor Zygand?",
@@ -63,7 +63,7 @@
     "executor zygand lore",
     "who is zygand"
    ],
-   "answer": "Executor Zygand is a senior Forsaken Deathguard commander based in Brill and the superior of Deathguard Linnea."
+   "answer": "Executor Zygand is a senior Forsaken Deathguard commander based in Brill. He is Deathguard Linnea's superior."
   },
   {
    "q": "Why don't the Forsaken just abandon the eastern border?",
@@ -71,17 +71,17 @@
     "why defend the bulwark",
     "why fight at the border"
    ],
-   "answer": "Abandoning the Bulwark would open all of Tirisfal Glades and the gates of the Undercity directly to the endless hordes of the Scourge marching from the Plaguelands."
+   "answer": "If the Forsaken abandon the Bulwark, the Scourge's endless hordes from the Plaguelands could reach all of Tirisfal Glades and the gates of the Undercity."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "For the Forsaken, safeguarding the Bulwark's rear is a matter of sheer survival; breaking the Scourge's presence at Balnir Farmstead keeps the homelands free from the Lich King's renewed grasp."
+   "text": "As a Forsaken, you depend on the Bulwark's rear defenses for survival. Clearing Scourge from Balnir Farmstead helps keep the Lich King's renewed grasp from reaching your homeland."
   },
   {
    "target": "faction:Horde",
-   "text": "Holding Tirisfal's eastern perimeter ensures the Horde maintains its tenuous foothold in the northern Eastern Kingdoms against the undead legions."
+   "text": "As a member of the Horde, you help hold Tirisfal's eastern perimeter and protect the Horde's tenuous foothold in the northern Eastern Kingdoms from the undead legions."
   }
  ],
  "keywords": [
@@ -105,5 +105,6 @@
  ],
  "attribution": [
   "Rear Guard Patrol"
- ]
+ ],
+ "style": 1
 }

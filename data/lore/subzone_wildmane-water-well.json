@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Wildmane Water Well"
  },
- "summary": "The Wildmane Water Well is the northernmost of the sacred water wells scattered across Mulgore, resting just north of the mesas of Thunder Bluff. Vital to the plains and their herds, it has become a contested flashpoint targeted by goblin opportunists seeking to choke the tauren's lifeblood.",
+ "summary": "At Wildmane Water Well, poisoned waters threaten Mulgore’s northern plains and the herds that depend on them.",
  "sections": [
   {
    "title": "A Lifeblood Under Siege",
-   "body": "For generations, the nomadic tauren have relied on sacred water wells dug across the golden plains of Mulgore to sustain their people and their wandering kodo herds. The Wildmane Well guards the northern expanse just beyond the shadow of Thunder Bluff. Its vital importance makes it an irresistible target for enemies of the tribes. The goblins of the Venture Company have fouled it with their poisons in a bid to control the regional water supply, and only a cleansing ritual with a totem crafted by the tauren can make its waters pure again.",
+   "body": "Across Mulgore, sacred wells sustain the nomadic tauren and their wandering kodo herds. Wildmane Water Well lies at the northern edge of the plains, just beyond Thunder Bluff’s shadow. The Venture Company’s goblins have poisoned its waters to control the regional supply. A tauren-crafted totem is needed for the cleansing ritual that can make the water pure again.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "where is wildmane well",
     "wildmane water well map"
    ],
-   "answer": "The Wildmane Water Well is situated on the plains of Mulgore, directly north of the towering mesas of Thunder Bluff. It is the northernmost of the sacred wells that sustain the region."
+   "answer": "Wildmane Water Well lies on Mulgore’s plains, directly north of Thunder Bluff’s mesas. It is the northernmost of the sacred wells that sustain the region."
   },
   {
    "q": "Why is the well important to the tauren?",
@@ -31,7 +31,7 @@
     "why do tauren care about the well",
     "wildmane well sacred"
    ],
-   "answer": "Fresh water is life on the plains. The tauren hold the land's wells sacred as vital lifelines for their settlements, traveling hunters, and the great kodo herds roaming the plains of Mulgore."
+   "answer": "Fresh water sustains life on the plains. The tauren hold the wells sacred because they supply settlements, traveling hunters, and the kodo herds roaming Mulgore."
   },
   {
    "q": "Who has tried to sabotage or control the well?",
@@ -40,17 +40,17 @@
     "wildmane well enemies",
     "who poisoned wildmane well"
    ],
-   "answer": "The goblins of the Venture Company have poisoned the well in an effort to control Mulgore's water supply, and the tauren must cleanse it with a sacred totem."
+   "answer": "The Venture Company’s goblins have poisoned Wildmane Water Well to control Mulgore’s water supply. The tauren can cleanse it with a sacred totem."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "The sacred wells of Mulgore are a gift from the Earth Mother. Defending the Wildmane Well from defilement and poison is a sacred duty for every young brave."
+   "text": "As a tauren, you know Mulgore’s sacred wells are gifts from the Earth Mother. Defending Wildmane Water Well from defilement and poison is a sacred duty for every young brave."
   },
   {
    "target": "class:Druid",
-   "text": "The goblins' attempts to corrupt Mulgore's fresh water threaten the delicate balance of the plains, demanding druidic vigilance to cleanse and heal the land."
+   "text": "As a druid, you know the goblins’ attempts to corrupt Mulgore’s fresh water threaten the plains’ balance. You must remain vigilant and cleanse and heal the land."
   }
  ],
  "keywords": [
@@ -69,5 +69,6 @@
  ],
  "attribution": [
   "Wildmane Water Well"
- ]
+ ],
+ "style": 1
 }

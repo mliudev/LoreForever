@@ -20,16 +20,16 @@
    "Tools of the Trade (Classic)"
   ]
  },
- "summary": "Mennet Carkad assigns promising rogues in the Undercity to hunt down Fenwick Thatros on orders directly from Lord Varimathras. Thatros is suspected of organizing independent undead forces along the shores of Silverpine Forest. Eliminating him proves an operative's mettle to the Deathstalkers, opening the way for more sophisticated trade training.",
+ "summary": "In the Undercity, Mennet Carkad sends promising rogues after Fenwick Thatros on Lord Varimathras's orders. Thatros is suspected of organizing independent undead forces along Silverpine Forest's shores. Killing him proves an operative's mettle to the Deathstalkers and opens the way to advanced trade training.",
  "sections": [
   {
    "title": "A Command from the Dreadlord",
-   "body": "Within the dark corridors of the Rogues' Quarter, Mennet Carkad handles internal contracts and training for the Deathstalkers\u2014the Forsaken's secretive intelligence wing. When Lord Varimathras sends down a priority target, it is not an assignment handed to novice recruits lightly. Fenwick Thatros has drawn the dreadlord's attention by establishing a foothold among the rogue undead in Silverpine Forest. Left unchecked, independent undead leadership could jeopardize Forsaken consolidation across Lordaeron's old holdings.",
+   "body": "In the Undercity's Rogues' Quarter, Mennet Carkad handles Deathstalker contracts and training. The Deathstalkers are the Forsaken's secretive intelligence wing. Lord Varimathras has named Fenwick Thatros as a priority target, a charge too serious for novice recruits. Thatros has established a foothold among rogue undead in Silverpine Forest. If left alone, their independent leadership could threaten Forsaken control across Lordaeron's old holdings.",
    "spoiler": 0
   },
   {
    "title": "The Decrepit Dock on Lordamere",
-   "body": "According to Deathstalker reconnaissance, Thatros does not hide in deep fortresses or crypts. Instead, scouts placed him near a decrepit dock along the waters of Lake Lordamere in Silverpine Forest. Striking him down there requires traversing contested wilderness dominated by feral beasts, the Rot Hide gnolls, and remnants of the Scourge. Bringing back his severed head provides the tangible proof Varimathras demands before inducting an operative into deeper covert operations.",
+   "body": "Deathstalker scouts report Fenwick Thatros near a decrepit dock on Lake Lordamere in Silverpine Forest. Reaching him means crossing wilderness claimed by feral beasts, Rot Hide gnolls, and Scourge remnants. Varimathras demands proof of the kill: Thatros's severed head. Bringing it back can earn an operative entry into deeper covert operations.",
    "spoiler": 0
   }
  ],
@@ -41,7 +41,7 @@
     "who is thatros",
     "fenwick thatros background"
    ],
-   "answer": "Fenwick Thatros is an undead leader operating along the edges of Lake Lordamere in Silverpine Forest. Unlike the Forsaken who serve Lady Sylvanas, Thatros commands pockets of undead that remain unaligned or hostile to the Undercity, leading Lord Varimathras to single him out for execution."
+   "answer": "Fenwick Thatros leads undead near Lake Lordamere in Silverpine Forest. He commands pockets of undead who are unaligned with or hostile to the Undercity, unlike Forsaken who serve Lady Sylvanas. Lord Varimathras has marked him for execution."
   },
   {
    "q": "Why does Varimathras want Fenwick Thatros dead?",
@@ -49,7 +49,7 @@
     "varimathras thatros",
     "why kill fenwick"
    ],
-   "answer": "Varimathras views Thatros as a rising threat who could rally stray undead in Silverpine against the Forsaken. To secure the borders around the Undercity, any rival leaders who threaten Sylvanas's absolute control over the region must be swiftly eliminated."
+   "answer": "Varimathras wants Fenwick Thatros dead because he could rally stray undead in Silverpine against the Forsaken. Rival leaders who threaten Sylvanas's control over the region must be eliminated to secure the Undercity's borders."
   },
   {
    "q": "Who are the Deathstalkers?",
@@ -58,7 +58,7 @@
     "what are deathstalkers",
     "undead rogues faction"
    ],
-   "answer": "The Deathstalkers are the premier espionage, assassination, and reconnaissance agency of the Forsaken. Based out of the Rogues' Quarter in the Undercity, they operate across Lordaeron to eliminate internal threats, spy on rival factions, and secure territories for the Dark Lady."
+   "answer": "The Deathstalkers are the Forsaken's espionage, assassination, and reconnaissance agency. Based in the Undercity's Rogues' Quarter, they work across Lordaeron to remove internal threats, spy on rival factions, and secure territory for the Dark Lady."
   },
   {
    "q": "Where is Fenwick Thatros located?",
@@ -67,7 +67,7 @@
     "fenwick dock location",
     "thatros lake lordamere"
    ],
-   "answer": "Deathstalker reports place Thatros near a ruined, decrepit dock on the shore of Lake Lordamere in northeastern Silverpine Forest."
+   "answer": "Deathstalker reports place Fenwick Thatros near a ruined dock on Lake Lordamere's shore in northeastern Silverpine Forest."
   },
   {
    "q": "What does completing this mission earn with the Deathstalkers?",
@@ -75,7 +75,7 @@
     "fenwick reward lore",
     "what comes after fenwick"
    ],
-   "answer": "Executing Thatros proves an operative's capability and loyalty to Mennet Carkad and the Deathstalkers. With your reliability demonstrated, Carkad offers to advance your training in the shadow arts through specialized trade instructions."
+   "answer": "Killing Fenwick Thatros proves an operative's capability and loyalty to Mennet Carkad and the Deathstalkers. Once you have shown your reliability, Carkad offers specialized training in the shadow arts."
   },
   {
    "q": "Who is Mennet Carkad?",
@@ -83,17 +83,17 @@
     "mennet carkad",
     "who gives fenwick quest"
    ],
-   "answer": "Mennet Carkad is a rogue trainer and Deathstalker handler situated in the Rogues' Quarter of the Undercity. He oversees field agents and assigns missions directly tied to the security of the Forsaken realm."
+   "answer": "Mennet Carkad trains rogues and handles the Deathstalkers in the Undercity's Rogues' Quarter. He oversees field agents and assigns work tied to the Forsaken realm's security."
   }
  ],
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "This contract serves as a proving ground for Forsaken rogues, confirming their stealth and lethality before they are trusted with the deeper tools of the Deathstalker trade."
+   "text": "As a rogue, you prove your stealth and lethality through this contract before the Deathstalkers trust you with deeper tools of their trade."
   },
   {
    "target": "race:Undead",
-   "text": "The Forsaken cannot tolerate rival undead factions claiming sovereignty so close to the Capital City, making Thatros's head a political necessity."
+   "text": "As one of the Forsaken, you know rival undead factions cannot claim sovereignty so close to the Capital City. Fenwick Thatros's head is a political necessity."
   }
  ],
  "keywords": [
@@ -118,5 +118,6 @@
  ],
  "attribution": [
   "Fenwick Thatros (quest)"
- ]
+ ],
+ "style": 1
 }

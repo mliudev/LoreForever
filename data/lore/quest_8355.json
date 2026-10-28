@@ -17,16 +17,16 @@
   "wiki": "Incoming Gumdrop (Alliance)",
   "chain": []
  },
- "summary": "Incoming Gumdrop is a seasonal Hallow's End quest found in Ironforge, given by the gnome artisan Talvash del Kissel. In order to obtain a festive treat for a sick child in Stormwind, adventurers must first perform a playful train impression for the delighted gnome.",
+ "summary": "In Ironforge, Talvash del Kissel has a Gnomeregan Gumdrop for a sick child in Stormwind. He asks for a train impression before handing it over.",
  "sections": [
   {
    "title": "A Whimsical Toll",
-   "body": "During the autumn celebration of Hallow's End, trick-or-treaters scour the major Alliance strongholds gathering unique regional confections. In Ironforge's Mystic Ward, the gnome Talvash del Kissel holds the coveted Gnomeregan Gumdrop. While sympathetic to the plight of the young orphan who desires it, Talvash insists on upholding the holiday's spirit of mischief before parting with his sweet, demanding a convincing train impression from anyone seeking a handout.",
+   "body": "At Hallow’s End, trick-or-treaters seek treats from the Alliance strongholds. In Ironforge’s Mystic Ward, Talvash del Kissel keeps the Gnomeregan Gumdrop. He feels for the young orphan who wants it, but asks anyone seeking the sweet to bring some mischief to the holiday with a convincing train impression.",
    "spoiler": 0
   },
   {
    "title": "Holiday Charity",
-   "body": "The quest forms a piece of an overarching seasonal endeavor to bring cheer to Jesper, an ailing orphan resting in Stormwind City. Jesper longs for four distinct treats from across the Alliance territories: nougat from Stormwind, a mint from Ironforge, a marzipan piece from Darnassus, and a gumdrop from Gnomeregan. By mimicking a chugging locomotive to entertain Talvash, champions secure the gnome treat to complete the young boy's holiday wish.",
+   "body": "Jesper, an ailing orphan in Stormwind City, hopes for four treats from across the Alliance: nougat from Stormwind, a mint from Ironforge, marzipan from Darnassus, and a gumdrop from Gnomeregan. A chugging locomotive impression entertains Talvash and earns the gumdrop, bringing Jesper closer to his holiday wish.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "incoming gumdrop objective",
     "talvash gumdrop trick"
    ],
-   "answer": "You must perform a train impression for Talvash del Kissel by targeting him and using the train gesture. Once he hears the train noise, he will gladly hand over the Gnomeregan Gumdrop."
+   "answer": "Target Talvash del Kissel and use the train gesture to make an impression. Once he hears the train noise, he hands over the Gnomeregan Gumdrop."
   },
   {
    "q": "Who is Talvash del Kissel?",
@@ -46,7 +46,7 @@
     "who is talvash",
     "talvash del kissel lore"
    ],
-   "answer": "Talvash del Kissel is a gnome jeweler from Gnomeregan residing in the Mystic Ward within the dwarven mountain city of Ironforge. During Hallow's End, he acts as the Alliance distributor for Gnomeregan's signature gumdrops."
+   "answer": "Talvash del Kissel is a gnome jeweler from Gnomeregan who lives in Ironforge’s Mystic Ward. During Hallow’s End, he gives out Gnomeregan’s signature gumdrops to the Alliance."
   },
   {
    "q": "What is the Gnomeregan Gumdrop used for?",
@@ -54,7 +54,7 @@
     "gnomeregan gumdrop purpose",
     "what is the gumdrop for"
    ],
-   "answer": "The Gnomeregan Gumdrop is one of four distinct festival candies gathered to fulfill the Hallow's End request of Jesper, an orphan boy resting in the orphanage of Stormwind City."
+   "answer": "The Gnomeregan Gumdrop is one of four Hallow’s End treats gathered for Jesper, an orphan boy resting in Stormwind City’s orphanage."
   },
   {
    "q": "Where can Talvash del Kissel be found?",
@@ -62,7 +62,7 @@
     "where is talvash",
     "talvash location"
    ],
-   "answer": "Talvash can be found in the Mystic Ward of Ironforge."
+   "answer": "Talvash can be found in Ironforge’s Mystic Ward."
   },
   {
    "q": "Why does Talvash make you imitate a train?",
@@ -70,7 +70,7 @@
     "why train noise",
     "why do train for talvash"
    ],
-   "answer": "Hallow's End is rooted in the tradition of trick-or-treating. Talvash playfully demands a harmless trick\u2014a locomotive impression\u2014before he is willing to surrender his festive treat."
+   "answer": "Hallow’s End brings trick-or-treating, and Talvash asks for a harmless trick before handing over his treat: a locomotive impression."
   },
   {
    "q": "Is this quest available year-round?",
@@ -78,17 +78,17 @@
     "can i do incoming gumdrop anytime",
     "is this seasonal"
    ],
-   "answer": "No, this quest is only available during the annual autumn festival of Hallow's End."
+   "answer": "No. It is available only during the annual autumn festival of Hallow’s End."
   }
  ],
  "angles": [
   {
    "target": "race:Gnome",
-   "text": "For exiled gnomes in Tinker Town, offering a Gnomeregan Gumdrop during Hallow's End is a cheerful reminder of home and mechanical ingenuity amid their displacement."
+   "text": "As a gnome in Tinker Town, offering a Gnomeregan Gumdrop during Hallow’s End can bring a cheerful reminder of home and mechanical ingenuity amid your people’s displacement."
   },
   {
    "target": "faction:Alliance",
-   "text": "The pursuit of the festival gumdrop sends Alliance heroes traversing the kingdoms to ensure an ailing child in Stormwind shares in the holiday season."
+   "text": "As an Alliance hero, you travel through the kingdoms for a festival gumdrop, helping an ailing child in Stormwind share in the holiday."
   }
  ],
  "keywords": [
@@ -108,5 +108,6 @@
  ],
  "attribution": [
   "Incoming Gumdrop (Alliance)"
- ]
+ ],
+ "style": 1
 }

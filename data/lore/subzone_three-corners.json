@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Three Corners"
  },
- "summary": "Three Corners is a vital crossroads nestled just inside the western border of the Redridge Mountains. Branching toward the three neighboring towns of Goldshire, Lakeshire, and Darkshire, it marks the boundary between the heart of the kingdom and Redridge's perilous wilderness. A Stormwind Guard watchtower stands over the intersection, holding the line against encroaching gnoll packs.",
+ "summary": "At Three Corners, roads meet at the western edge of the Redridge Mountains. The routes link Goldshire, Lakeshire, and Darkshire, while Stormwind guards watch for gnolls threatening travelers and supply wagons.",
  "sections": [
   {
    "title": "A Crossroads of Three Shires",
-   "body": "Situated at the western edge of the Redridge Mountains, Three Corners connects three key Alliance settlements: Goldshire in Elwynn Forest to the west, Lakeshire to the northeast, and Darkshire in Duskwood to the south. Because of this strategic junction, Stormwind erected Tower Watch at the center of the crossroads. Manning the post, local guards and scouts attempt to keep the thoroughfares clear of Redridge's aggressive gnolls, who constantly threaten travelers and supply wagons passing between the regions.",
+   "body": "At Three Corners, three roads link the southern settlements of Stormwind. Goldshire lies west in Elwynn Forest, Lakeshire northeast in Redridge, and Darkshire south in Duskwood. Stormwind built Tower Watch at the junction, where guards and scouts try to keep the roads clear. Gnolls from Redridge threaten travelers and supply wagons moving between the regions.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "why three corners",
     "three corners history"
    ],
-   "answer": "The crossroads splits into three distinct roads heading toward the 'Three Shires' of southern Stormwind: Goldshire in Elwynn Forest, Lakeshire in Redridge, and Darkshire in Duskwood."
+   "answer": "Three roads lead from the crossroads toward Goldshire in Elwynn Forest, Lakeshire in Redridge, and Darkshire in Duskwood. Together, these are the Three Shires of southern Stormwind."
   },
   {
    "q": "Who guards the tower at Three Corners?",
@@ -32,7 +32,7 @@
     "tower watch guards",
     "who is in the tower"
    ],
-   "answer": "The outpost, known as Tower Watch, is manned by members of the Stormwind Guard. They serve as an early warning post and defensive bulwark against gnolls venturing down from the Redridge peaks toward the Elwynn border."
+   "answer": "Members of the Stormwind Guard man Tower Watch. The post warns of danger and helps defend against gnolls coming down from the Redridge peaks toward the Elwynn border."
   },
   {
    "q": "What threats are active around Three Corners?",
@@ -41,17 +41,17 @@
     "dangers at three corners",
     "three corners gnolls"
    ],
-   "answer": "Gnolls from the surrounding hills constantly prowl the roadway, ambushing travelers and couriers. The guards stationed here regularly call upon passing adventurers to cull the gnoll packs and keep the roads passable."
+   "answer": "Gnolls from the surrounding hills prowl the roads and ambush travelers and couriers. Guards call on passing adventurers to thin the packs and keep the roads passable."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "For Alliance travelers leaving the relative safety of Elwynn Forest, Three Corners is the first fortified outpost and a stark reminder that Stormwind's grip on its borderlands is stretched thin."
+   "text": "For Alliance travelers leaving Elwynn Forest, Three Corners is the first fortified outpost. Stormwind's hold on its borderlands is stretched thin."
   },
   {
    "target": "race:Human",
-   "text": "The watchtower links the southern human heartlands, serving as a critical junction for couriers and trade moving between Elwynn, Duskwood, and Redridge."
+   "text": "As a human, you pass through a junction that links the southern human heartlands. Couriers and traders travel between Elwynn, Duskwood, and Redridge."
   }
  ],
  "keywords": [
@@ -76,5 +76,6 @@
  ],
  "attribution": [
   "Three Corners"
- ]
+ ],
+ "style": 1
 }

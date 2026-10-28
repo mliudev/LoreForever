@@ -8,16 +8,16 @@
   "wiki": "Rethiel the Greenwarden",
   "refs": 6
  },
- "summary": "Rethiel the Greenwarden is an enigmatic presence residing deep within the Green Belt of the Wetlands. He is tied to the marsh's uneasy balance and calls on travelers to deal with the threats that disrupt it.",
+ "summary": "In the Wetlands, Rethiel the Greenwarden calls travelers to the Green Belt. He seeks help against threats that disturb the marsh's uneasy balance.",
  "sections": [
   {
    "title": "Tending the Wounds",
-   "body": "Rethiel seeks to alleviate the suffering of the Wetlands by dispatching sympathetic adventurers against its major agitators. He urges visitors to hunt down destructive Mosshide gnolls who ravage the wildlife, strip them of the crude flints they use to burn the marsh's living trees, and thin out the diseased fen creepers that fester in the marsh waters. Through these cullings, he hopes to restore peace to the wounded soil.",
+   "body": "Rethiel asks sympathetic travelers to ease the Wetlands' suffering. He urges them to hunt the destructive Mosshide gnolls that ravage wildlife and take the crude flints they use to burn the marsh's living trees. He also calls for the diseased fen creepers festering in the marsh waters to be thinned. Rethiel hopes these efforts will bring peace back to the wounded soil.",
    "spoiler": 0
   },
   {
    "title": "Guardian of the Marsh",
-   "body": "Standing amidst the damp thickets of the Green Belt, Rethiel is a towering creature of moss, peat, and primal plant life. While many bog beasts in the marshlands wander aimlessly as aggressive predators, Rethiel possesses a rare, conscious awareness and a sorrowful voice. He perceives the wetlands not merely as murky terrain, but as a living ecosystem that currently cries out under the weight of foreign predation and corruption.",
+   "body": "Rethiel watches over the marsh from the damp thickets of the Green Belt. His towering form is made of moss, peat, and primal plant life. Unlike the bog beasts that wander the marsh as aggressive predators, Rethiel is conscious and speaks with sorrow. He feels the Wetlands as a living ecosystem, suffering under foreign predation and corruption.",
    "spoiler": 1
   }
  ],
@@ -29,7 +29,7 @@
     "rethiel lore",
     "bog beast npc wetlands"
    ],
-   "answer": "Rethiel is a sentient bog beast residing at the Green Belt in the Wetlands. Unlike the mindless creatures of his kind, he can communicate with mortals and acts as a protector of the marsh."
+   "answer": "Rethiel is a sentient bog beast in the Green Belt of the Wetlands. Unlike the mindless creatures of his kind, he speaks with mortals and protects the marsh."
   },
   {
    "q": "Where can I find Rethiel?",
@@ -37,7 +37,7 @@
     "rethiel location",
     "where is rethiel"
    ],
-   "answer": "He can be found in the Green Belt in the eastern Wetlands, northeast of Dun Algaz."
+   "answer": "Rethiel can be found in the Green Belt within the Wetlands, northeast of Dun Algaz."
   },
   {
    "q": "Why does Rethiel want travelers to help him?",
@@ -46,7 +46,7 @@
     "rethiel goal",
     "what does rethiel want"
    ],
-   "answer": "Rethiel senses that the marsh is actively suffering. He seeks adventurers to purge invasive threats—specifically destructive Mosshide gnoll bands, the crude flints they use to set the marsh's trees ablaze, and diseased fen creepers—to bring relief to the land."
+   "answer": "Rethiel senses the marsh suffering under invasive threats. He asks travelers to confront destructive Mosshide gnoll bands, take the crude flints they use to set marsh trees ablaze, and thin diseased fen creepers, bringing relief to the land."
   },
   {
    "q": "Are all bog beasts sentient like Rethiel?",
@@ -55,7 +55,7 @@
     "intelligent bog beasts",
     "why can rethiel speak"
    ],
-   "answer": "Most bog beasts encountered across Azeroth act on raw, hostile instinct and lack higher intellect. Rethiel is an exceptional creature whose deep natural attunement grants him sapience and speech."
+   "answer": "Most bog beasts across Azeroth act on hostile instinct and lack higher intellect. Rethiel is exceptional: his deep natural attunement gives him sapience and speech."
   },
   {
    "q": "What threats does Rethiel focus on?",
@@ -64,7 +64,7 @@
     "rethiel enemies",
     "threats to wetlands rethiel"
    ],
-   "answer": "He focuses on curbing the aggressive Mosshide gnolls, taking away the crude flints they use to burn living wood, and purging the diseased fen creepers festering in the marsh."
+   "answer": "Rethiel focuses on curbing aggressive Mosshide gnolls, taking away their crude flints used to burn living wood, and purging diseased fen creepers festering in the marsh."
   },
   {
    "q": "Is Rethiel aligned with the Alliance or the Horde?",
@@ -73,17 +73,17 @@
     "rethiel faction",
     "can horde talk to rethiel"
    ],
-   "answer": "Rethiel is friendly to the Alliance and hostile to the Horde. He is concerned with the welfare of the land and entreats Alliance travelers willing to mend the marsh."
+   "answer": "Rethiel is friendly to the Alliance and hostile to the Horde. He cares for the land and calls on Alliance travelers willing to mend the marsh."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "Rethiel represents an unusual expression of Azeroth's wild balance, speaking directly for a wounded ecosystem much like the ancient protectors of Kalimdor."
+   "text": "As a druid, you may recognize Rethiel as an unusual expression of Azeroth's wild balance. He speaks directly for a wounded ecosystem, much like the ancient protectors of Kalimdor."
   },
   {
    "target": "class:Shaman",
-   "text": "Attuned to the elemental and physical disharmony of the marsh, Rethiel echoes the distress of the land itself as it groans under contamination and fire."
+   "text": "As a shaman, you may sense Rethiel's attunement to the marsh's elemental and physical disharmony. He echoes the distress of the land itself as it groans under contamination and fire."
   }
  ],
  "keywords": [
@@ -103,5 +103,6 @@
  ],
  "attribution": [
   "Rethiel the Greenwarden"
- ]
+ ],
+ "style": 1
 }

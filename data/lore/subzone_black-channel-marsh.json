@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Black Channel Marsh"
  },
- "summary": "Black Channel Marsh is a murky mire situated in the southwestern Wetlands, flanking the main road leading toward Menethil Harbor. Infested with aggressive raptors, the soggy terrain poses an immediate threat to unwary travelers and supply couriers traversing the coastal lowlands.",
+ "summary": "Raptors prowl Black Channel Marsh beside the road to Menethil Harbor. The mire lies in the Wetlands’ southwest, where travelers and couriers face danger along the coast.",
  "sections": [
   {
    "title": "Peril on the Menethil Road",
-   "body": "Stretching across the swampy low ground southwest of the main thoroughfare, Black Channel Marsh is infamous among caravan drivers and couriers heading to Menethil Harbor. While the raised road offers the illusion of safety, the stagnant channels and thick reeds are home to territorial raptor packs. Hungry beasts frequently stray directly into traffic, ambushing fresh recruits and weary wayfarers who stray even a pace or two from the beaten path.",
+   "body": "Black Channel Marsh spreads across the low ground southwest of the main road to Menethil Harbor. Caravan drivers and couriers know the danger there. The raised road may seem safe, but territorial raptors live among the stagnant channels and thick reeds. Hungry beasts often stray into the road, ambushing recruits and weary travelers who wander even a little from the path.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "black channel marsh location",
     "wetlands black channel"
    ],
-   "answer": "Black Channel Marsh occupies the southwestern corner of the Wetlands. It borders the southern side of the major roadway leading into Menethil Harbor."
+   "answer": "Black Channel Marsh lies in the southwestern Wetlands, along the southern side of the main road into Menethil Harbor."
   },
   {
    "q": "Why is this marsh considered dangerous for travelers?",
@@ -32,7 +32,7 @@
     "threats in black channel marsh",
     "raptors on road"
    ],
-   "answer": "The marsh is teeming with raptor lairs. Because these predators hunt along the fringes of the swamp, they regularly prowl right up to the edges of the road, catching unsuspecting travelers and low-level adventurers off guard."
+   "answer": "Raptors lair throughout the marsh and hunt near its edge. They prowl close to the road, catching travelers and inexperienced adventurers unaware."
   },
   {
    "q": "Who travels through here most often?",
@@ -40,17 +40,17 @@
     "who uses this road",
     "travelers here"
    ],
-   "answer": "Alliance messengers, dwarven merchants, and travelers journeying between Ironforge and the docks of Menethil Harbor frequently traverse the road running directly past the marsh."
+   "answer": "Alliance messengers, dwarven merchants, and travelers going between Ironforge and Menethil Harbor’s docks often use the road beside the marsh."
   }
  ],
  "angles": [
   {
    "target": "class:Hunter",
-   "text": "The marsh provides a hazardous proving ground for hunters seeking to tame or track fierce Wetlands raptors right off the main road."
+   "text": "As a hunter, you can track or tame fierce Wetlands raptors beside the main road, though the marsh makes dangerous ground."
   },
   {
    "target": "faction:Alliance",
-   "text": "This corridor is a vital lifeline connecting the port of Menethil Harbor to the rest of Khaz Modan, making raptor incursions a constant headache for travelers."
+   "text": "As an Alliance traveler, you rely on this road to connect Menethil Harbor with the rest of Khaz Modan, while raptors remain a constant danger."
   }
  ],
  "keywords": [
@@ -67,5 +67,6 @@
  ],
  "attribution": [
   "Black Channel Marsh"
- ]
+ ],
+ "style": 1
 }

@@ -17,16 +17,16 @@
   "wiki": "The Hunt Begins",
   "chain": []
  },
- "summary": "The Hunt Begins is a foundational rite of passage for young adventurers in Camp Narache on Red Cloud Mesa. Tasked by Grull Hawkwind, initiates are sent to hunt local plainstriders to provide meat and feathers for the village. Fulfilling this task marks the first step toward earning the respect of Chief Hawkwind and eventually gaining entry into Thunder Bluff.",
+ "summary": "Young hunters at Camp Narache gather food and feathers for their people. Grull Hawkwind asks you to hunt plainstriders on Red Cloud Mesa, where the village depends on what the young can provide.",
  "sections": [
   {
    "title": "A Tribe's Sustenance",
-   "body": "On the heights of Red Cloud Mesa, survival and tradition intertwine. The tauren hunt out of necessity to feed and clothe their people, while also viewing the stalk and chase as a vital test of discipline and sport. When the stores of Camp Narache run lean, the community looks to its rising youth to gather fresh plainstrider meat for cooking and sturdy feathers for tribal garments.",
+   "body": "On Red Cloud Mesa, the tauren hunt to feed and clothe their people. They also value the stalk and chase as a test of discipline and a sport. When Camp Narache's stores run low, the young hunters gather plainstrider meat for cooking and feathers for tribal garments.",
    "spoiler": 0
   },
   {
    "title": "Earning Recognition",
-   "body": "No aspiring hero simply walks off Red Cloud Mesa into the wider reaches of Mulgore without proving their worth. Grull Hawkwind serves as a primary judge of character for the newcomers, insisting that one must prove their capability before stepping before his father, Chief Hawkwind. Bringing in a clean hunt demonstrates not only self-reliance, but devotion to supporting the tribe.",
+   "body": "Grull Hawkwind judges the newcomers who hope to leave Red Cloud Mesa for the wider plains of Mulgore. Before they can meet his father, Chief Hawkwind, he asks them to prove their ability. A successful hunt shows self-reliance and helps support the tribe.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who starts the hunt begins",
     "grull hawkwind"
    ],
-   "answer": "Grull Hawkwind offers this task in Camp Narache. He is the son of the village leader, Chief Hawkwind, and acts as an early mentor to young hunters and adventurers on Red Cloud Mesa."
+   "answer": "Grull Hawkwind gives you this work in Camp Narache. He is Chief Hawkwind's son and guides young hunters on Red Cloud Mesa."
   },
   {
    "q": "Why are plainstriders hunted instead of other beasts?",
@@ -47,7 +47,7 @@
     "plainstrider meat and feathers",
     "hunting plainstriders"
    ],
-   "answer": "Plainstriders are plentiful across the mesa and offer both nutritious meat to replenish dwindling food stores and durable feathers used in traditional tauren clothing and adornments."
+   "answer": "Plainstriders are plentiful on the mesa. Their meat helps replenish low food stores, and their feathers are used in traditional tauren clothing and adornments."
   },
   {
    "q": "Why do I have to prove myself before seeing Chief Hawkwind?",
@@ -56,7 +56,7 @@
     "chief hawkwind approval",
     "why hunt first"
    ],
-   "answer": "Tauren society places high value on practical contribution and hunting prowess. Grull Hawkwind requires initiates to demonstrate basic survival skills and loyalty to the village before they are granted audience and deeper responsibilities by the chief."
+   "answer": "Grull Hawkwind asks you to show basic survival skills and loyalty to the village before you meet Chief Hawkwind and take on deeper responsibilities."
   },
   {
    "q": "What is the broader goal of these trials on Red Cloud Mesa?",
@@ -65,7 +65,7 @@
     "why am i on red cloud mesa",
     "leaving red cloud mesa"
    ],
-   "answer": "The mesa acts as a proving ground. Once a young tauren proves their capability to Chief Hawkwind and the elders of Camp Narache, they are deemed ready to descend into the wider plains of Mulgore and enter the capital city of Thunder Bluff."
+   "answer": "Red Cloud Mesa tests young tauren before they descend to Mulgore's wider plains and enter Thunder Bluff, the capital city."
   },
   {
    "q": "What comes after this hunt?",
@@ -74,7 +74,7 @@
     "followup",
     "what is after the hunt begins"
    ],
-   "answer": "Successfully bringing back the meat and feathers earns Grull's approval, leading directly into 'The Hunt Continues', where initiates track larger, more elusive game across the mesa."
+   "answer": "After you bring back meat and feathers, Grull approves your hunt and sends you to track larger, harder-to-find game across the mesa."
   },
   {
    "q": "Do tauren only hunt for survival?",
@@ -83,17 +83,17 @@
     "hunt for sport",
     "why do tauren hunt"
    ],
-   "answer": "While sustenance and resources like leather, bone, and feathers are essential, tauren also practice hunting as sport and spiritual communion, sharpening instincts that keep their tribes alert and strong."
+   "answer": "Tauren hunt for food and resources such as leather, bone, and feathers, and also for sport and spiritual communion. Hunting sharpens the instincts that keep their tribes alert and strong."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "For young shu'halo, taking down your first mesa plainstriders is an essential rite of passage, confirming your bond with the land and your duty to feed Camp Narache."
+   "text": "As a young shu'halo, your first hunt for plainstriders on the mesa marks your bond with the land and your duty to feed Camp Narache."
   },
   {
    "target": "class:Hunter",
-   "text": "Stalking the swift plainstriders of Red Cloud Mesa serves as the earliest practical exercise in marksmanship, tracking, and honoring the beasts that sustain you."
+   "text": "As a hunter, you practice marksmanship and tracking while hunting the swift plainstriders of Red Cloud Mesa, and learn to honor the beasts that sustain you."
   }
  ],
  "keywords": [
@@ -117,5 +117,6 @@
  ],
  "attribution": [
   "The Hunt Begins"
- ]
+ ],
+ "style": 1
 }

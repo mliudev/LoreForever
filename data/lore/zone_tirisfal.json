@@ -12,21 +12,21 @@
   "levels": "1-10",
   "aliases": []
  },
- "summary": "Tirisfal Glades is the haunting northern territory of Lordaeron, now serving as the heartland of Lady Sylvanas Windrunner and the Forsaken. Beneath blighted skies and rotting boughs lie fallen manors, dormant crypts, and the vast underground capital of the Undercity. Surrounded by mindless Scourge and zealous Scarlet crusaders, it is a perilous realm where free-willed undead carve out their survival.",
+ "summary": "In northern Lordaeron, Tirisfal Glades is home to Lady Sylvanas Windrunner and her Forsaken. Under blighted skies, fallen manors and dormant crypts surround their vast underground capital, the Undercity. Mindless Scourge and zealous Scarlet crusaders hem them in, and the free-willed dead fight for their survival.",
  "sections": [
   {
    "title": "A Land in Twilight",
-   "body": "Once the fertile cradle of humanity, Tirisfal Glades has withered beneath the curse of the Lich King's plague. The sun rarely penetrates the murky gloom, casting an eternal sickly pale over dying woods, neglected pumpkin patches, and cold coastal hills. While remnants of old farmsteads like the Agamand Mills and Balnir Farmstead remain, their former masters have largely been swept into mass graves or risen as restless dead. Despite the devastation, a dark resilience permeates the countryside, anchored by towns like Brill and the cloistered sanctuary of Deathknell, where freshly awakened Forsaken learn to endure their second life.",
+   "body": "Tirisfal was once the fertile cradle of humanity, before the Lich King's plague withered them. The sun rarely breaks through the murky gloom over dying woods, neglected pumpkin patches and cold coastal hills. Old farmsteads like the Agamand Mills and Balnir Farmstead still stand, but most of their masters lie in mass graves or walk as restless dead. Yet a dark resilience holds on in towns like Brill and in the cloistered sanctuary of Deathknell, where freshly awakened Forsaken learn to endure their second life.",
    "spoiler": 0
   },
   {
    "title": "A War on Two Fronts",
-   "body": "Though Lady Sylvanas claims dominion over the region from the subterranean Ruins of Lordaeron, the Forsaken remain embattled on all sides. Residual Scourge thralls still infest hollows, fields, and dilapidated crypts, entirely subservient to the frozen throne of Northrend. To the east, the fanatical Scarlet Crusade has made northern Tirisfal its primary bastion, operating out of the Scarlet Monastery. Zealously devoted to the extermination of every undead creature, living and unliving alike, their outposts and patrols wage constant guerrilla warfare against Forsaken scouts and civilian travelers.",
+   "body": "Lady Sylvanas rules the region from beneath the Ruins of Lordaeron, yet the Forsaken are beset on all sides. Scourge thralls still infest hollows, fields and crumbling crypts, wholly bound to the frozen throne of Northrend. To the east, the fanatical Scarlet Crusade has made northern Tirisfal its main bastion, centered on the Scarlet Monastery. Sworn to destroy every undead creature, its outposts and patrols wage constant guerrilla war on Forsaken scouts and civilian travelers.",
    "spoiler": 0
   },
   {
    "title": "Echoes of the Ancient Past",
-   "body": "Long before human kingdoms crowned their first monarchs, the Glades bore an ancient legacy. High elven exiles briefly tried to settle these woods before shadowy energies deep beneath the earth began driving them mad, prompting their migration north. In later centuries, the secret mortal cabal known as the Council of Tirisfal chose these shadowed groves to empower solitary Guardians, shielding Azeroth from demonic intrusion.",
+   "body": "The story of the Glades is older than any human crown. High elven exiles once tried to settle these woods, until shadowy energies deep beneath the earth began driving them mad and they moved on north. Centuries later, the secret mortal cabal called the Council of Tirisfal chose these shadowed groves to empower its solitary Guardians, who shielded Azeroth from demons.",
    "spoiler": 0
   }
  ],
@@ -73,7 +73,7 @@
     "where is deathknell",
     "forsaken starting area"
    ],
-   "answer": "Newly awakened Forsaken emerge from the crypts of the Shadow Grave inside Deathknell, a cloistered town nestled in southwestern Tirisfal. There, administrators and executors evaluate whether the risen dead possess the sanity and loyalty required to serve the Dark Lady."
+   "answer": "Newly awakened Forsaken rise from the crypts of the Shadow Grave inside Deathknell, a cloistered town in southwestern Tirisfal. There, administrators and executors judge whether the risen dead have the sanity and loyalty to serve the Dark Lady."
   },
   {
    "q": "How do travelers leave Tirisfal for other continents?",
@@ -100,7 +100,7 @@
   },
   {
    "target": "class:Priest",
-   "text": "Historic holy grounds like Faol's Rest\u2014the tomb of Archbishop Alonsus Faol, founder of the Silver Hand\u2014lie here, warped by death and contested between zealots and Shadow priests."
+   "text": "Historic holy grounds like Faol's Rest—the tomb of Archbishop Alonsus Faol, founder of the Silver Hand—lie here, warped by death and contested between zealots and Shadow priests."
   }
  ],
  "keywords": [
@@ -129,5 +129,6 @@
  "attribution": [
   "Tirisfal Glades (Classic)",
   "Tirisfal Glades"
- ]
+ ],
+ "style": 1
 }

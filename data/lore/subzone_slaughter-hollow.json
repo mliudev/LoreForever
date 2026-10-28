@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Slaughter Hollow"
  },
- "summary": "Slaughter Hollow is a secluded ogre mound tucked away in the snowy heights of the Alterac Mountains. Controlled by the brutish Crushridge clan, it stands as a rough camp rather than a bustling settlement. Travelers rarely have reason to trespass unless hunting ogres or exploring the frozen mountain passes.",
+ "summary": "In the snowy heights of the Alterac Mountains, Crushridge ogres hold Slaughter Hollow as a secluded camp. Travelers rarely come here except to hunt ogres or cross the frozen passes.",
  "sections": [
   {
    "title": "A Den of Ogres",
-   "body": "Hidden high in the peaks bordering Hillsbrad and Alterac, Slaughter Hollow serves as an encampment for the local Crushridge ogres. Like many ogre mounds scattered across the highlands, it is littered with makeshift bonfires, discarded bones, and crude shelters. While other ogre dens in the mountains see frequent conflicts over territory or stolen supplies, Slaughter Hollow remains largely quiet and bypassed by major military campaigns.",
+   "body": "Slaughter Hollow shelters the Crushridge ogres high in the peaks between Hillsbrad and Alterac. Makeshift fires, scattered bones, and crude shelters mark the mound. Other ogre dens in the highlands often see fights over territory or stolen supplies, but Slaughter Hollow stays quiet and beyond the reach of major military campaigns.",
    "spoiler": 0
   },
   {
    "title": "Captives and Travelers",
-   "body": "Due to its seclusion, the mound occasionally serves as a holding place for unlucky prisoners taken along the mountain trails. Word among travelers tells of an unfortunate gnome named Rizz Loosebolt who has found himself locked in a crude cage here, attempting to barter with anyone passing by. Such unfortunate captives rarely fare well against the appetite of the Crushridge clan.",
+   "body": "Crushridge ogres sometimes keep prisoners taken along the mountain trails in their secluded mound. Travelers speak of Rizz Loosebolt, an unlucky gnome locked in a crude cage and trying to bargain with anyone who passes. Captives seldom fare well against the clan's appetite.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "what is this place",
     "slaughter hollow hillsbrad"
    ],
-   "answer": "Slaughter Hollow is an ogre encampment in the Alterac Mountains inhabited by the Crushridge clan. It features primitive mound dwellings and fires typical of highland ogre settlements."
+   "answer": "Crushridge ogres keep an encampment in Slaughter Hollow, high in the Alterac Mountains. Crude shelters and fires mark their mound."
   },
   {
    "q": "Who lives in Slaughter Hollow?",
@@ -37,7 +37,7 @@
     "slaughter hollow mobs",
     "who controls slaughter hollow"
    ],
-   "answer": "The hollow is inhabited entirely by Crushridge ogres, the same clan that holds the nearby ruins of Alterac City and various surrounding outposts."
+   "answer": "Crushridge ogres live in Slaughter Hollow. The clan also holds the nearby ruins of Alterac City and outposts in the surrounding lands."
   },
   {
    "q": "Are there any quests here?",
@@ -46,7 +46,7 @@
     "any quests in slaughter hollow",
     "why come here"
    ],
-   "answer": "No formal quests send adventurers directly to Slaughter Hollow. It is largely an out-of-the-way den discovered while exploring the mountainous terrain."
+   "answer": "No formal assignments send travelers directly to Slaughter Hollow. The den lies out of the way, among the mountain paths."
   },
   {
    "q": "Who was the gnome caged here?",
@@ -55,13 +55,13 @@
     "gnome in cage",
     "slaughter hollow vendor"
    ],
-   "answer": "A gnome named Rizz Loosebolt is held captive in a cage inside the hollow, hawking wares to anyone who finds him."
+   "answer": "Rizz Loosebolt, a gnome, is held in a cage inside Slaughter Hollow and offers wares to anyone who finds him."
   }
  ],
  "angles": [
   {
    "target": "race:Gnome",
-   "text": "The unfortunate capture of Rizz Loosebolt by the Crushridge serves as a stark warning to tinkerers and scouts who wander the Alterac passes unprepared."
+   "text": "As a gnome, Rizz Loosebolt's capture by the Crushridge is a warning to tinkerers and scouts who cross the Alterac passes unprepared."
   }
  ],
  "keywords": [
@@ -80,5 +80,6 @@
  ],
  "attribution": [
   "Slaughter Hollow"
- ]
+ ],
+ "style": 1
 }

@@ -10,11 +10,11 @@
    "quest:405"
   ]
  },
- "summary": "Sevren's Orders are written dispatches penned by Magistrate Sevren of Brill. They direct a proven Forsaken agent to report to Bethor Iceshard, a formidable mage stationed in the Undercity's Magic Quarter.",
+ "summary": "In Brill, Magistrate Sevren sends a proven Forsaken agent to the Undercity. The orders direct the agent to Bethor Iceshard in the Magic Quarter.",
  "sections": [
   {
    "title": "Summons to the Capital",
-   "body": "As the Forsaken solidify their grip on the ruins of Lordaeron, skilled agents who have proven their worth against the Scourge in Tirisfal Glades are summoned south to the capital. Issued by Magistrate Sevren, these written orders serve as official introduction and credentials to Bethor Iceshard, one of the Dark Lady's foremost practitioners of the arcane in the Magic Quarter. While Sevren knows little beyond the fact that the assignment involves reaching out to an errant lich, the summons carries the absolute authority of the Undercity's high mages.",
+   "body": "Skilled Forsaken agents who prove themselves against the Scourge in Tirisfal Glades are summoned south as their people strengthen their hold on Lordaeron. Magistrate Sevren writes the orders as an introduction and credentials for Bethor Iceshard, one of the Dark Lady's foremost arcane practitioners in the Magic Quarter. Sevren knows only that the assignment concerns reaching out to an errant lich. The Undercity's high mages give the summons their full authority.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "who is sevren",
     "who gives sevrens orders"
    ],
-   "answer": "Magistrate Sevren, the Forsaken overseer administering affairs in the town of Brill within Tirisfal Glades, drafted the orders."
+   "answer": "Magistrate Sevren, who oversees Forsaken affairs in Brill, wrote the orders."
   },
   {
    "q": "Who is intended to receive these orders?",
@@ -35,7 +35,7 @@
     "where do i bring sevren's orders",
     "who is bethor iceshard"
    ],
-   "answer": "They are addressed to Bethor Iceshard, a high-ranking Forsaken mage located in the Magic Quarter of the Undercity."
+   "answer": "The orders are addressed to Bethor Iceshard, a high-ranking Forsaken mage in the Undercity's Magic Quarter."
   },
   {
    "q": "What is the mission mentioned in the orders?",
@@ -44,7 +44,7 @@
     "what does bethor want",
     "prodigal lich mission"
    ],
-   "answer": "The mission involves recruiting a wayward lich to aid the Forsaken, a perilous task requiring an agent who has already proven capable against the Scourge."
+   "answer": "The orders call for recruiting a wayward lich to aid the Forsaken. The dangerous task falls to an agent already proven against the Scourge."
   },
   {
    "q": "Why was I chosen to deliver them?",
@@ -52,17 +52,17 @@
     "why me",
     "why did sevren pick me"
    ],
-   "answer": "Bethor requested an operative of proven capability against the Scourge. Magistrate Sevren deemed your efforts in Tirisfal Glades sufficient to handle Bethor's dangerous task."
+   "answer": "Bethor requested an operative proven against the Scourge. Magistrate Sevren judged your efforts in Tirisfal Glades enough to meet Bethor's dangerous request."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "Carrying Sevren's seal marks an operative's transition from local service in Tirisfal to directly aiding the Undercity's arcane elite."
+   "text": "As an Undead, carrying Sevren's seal takes you from local service in Tirisfal to work for the Undercity's arcane elite."
   },
   {
    "target": "class:Mage",
-   "text": "For practitioners of the arcane, delivering these orders provides an audience with Bethor Iceshard, one of the foremost spellcasters in the Forsaken kingdom."
+   "text": "As a Mage, delivering the orders brings you before Bethor Iceshard, one of the foremost spellcasters in the Forsaken kingdom."
   }
  ],
  "keywords": [
@@ -86,5 +86,6 @@
  "attribution": [
   "Sevren's Orders",
   "The Prodigal Lich"
- ]
+ ],
+ "style": 1
 }

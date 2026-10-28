@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Skittering Dark"
  },
- "summary": "The Skittering Dark is an abandoned mine and shadowy woodland hollow in western Silverpine Forest. Infested by aggressive giant spiders, the cavern and its surrounding woods are thick with webbing and danger for unwary beasts and travelers.",
+ "summary": "In western Silverpine, Skittering Dark lies abandoned beneath a web of danger. Giant spiders fill the mine and nearby woods, hunting unwary beasts and travelers.",
  "sections": [
   {
    "title": "A Webbed Hollow",
-   "body": "Tucked into the hills just east of the western coast of North Tide's Run, the Skittering Dark was once a working mine. Today, the shafts are completely choked with cobwebs, serving as the sprawling nest of giant spiders. With the shadowy weaver Krethis haunting the exterior, the spiders hunt anything that strays too close.",
+   "body": "The Skittering Dark lies east of North Tide's Run, where the western coast meets the hills. Once a working mine, its shafts now lie choked with cobwebs and serve as a sprawling nest for giant spiders. Krethis haunts the shadowed woods outside, while the spiders hunt anything that strays too close.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "what is this mine",
     "spider cave silverpine"
    ],
-   "answer": "It is an abandoned mine in western Silverpine Forest that has been entirely overrun by giant spiders. The cavern network and surrounding trees are thick with sticky webbing and predatory arachnids."
+   "answer": "Skittering Dark is an abandoned mine in western Silverpine Forest, overrun by giant spiders. Webbing and predatory spiders fill the cavern network and the surrounding trees."
   },
   {
    "q": "Who leads the spiders in the mine?",
@@ -32,7 +32,7 @@
     "skittering dark boss",
     "matriarch"
    ],
-   "answer": "No single ruler of the brood is known. The most feared of the spiders is Krethis Shadowspinner, a rare and dangerous weaver that prowls in and around the mine."
+   "answer": "No single ruler of the brood is known. Krethis Shadowspinner is the most feared spider, a rare and dangerous weaver that prowls in and around the mine."
   },
   {
    "q": "Where is the Skittering Dark located?",
@@ -40,13 +40,13 @@
     "skittering dark location",
     "how to find skittering dark"
    ],
-   "answer": "It sits nestled against the hills in western Silverpine Forest, just east of the shoreline known as North Tide's Run."
+   "answer": "Skittering Dark lies in western Silverpine Forest, against the hills just east of North Tide's Run."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "Horde travelers venturing into Silverpine should take note: the spiders of the Skittering Dark ambush unwary prey that strays from the surrounding woods into their webbed dens."
+   "text": "As a Horde traveler in Silverpine, watch for spiders that ambush unwary prey straying from the surrounding woods into their webbed dens."
   }
  ],
  "keywords": [
@@ -65,5 +65,6 @@
  ],
  "attribution": [
   "Skittering Dark"
- ]
+ ],
+ "style": 1
 }

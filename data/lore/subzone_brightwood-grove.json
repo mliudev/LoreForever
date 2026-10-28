@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Brightwood Grove"
  },
- "summary": "Brightwood Grove is a shadowed expanse of woodland located just west of Darkshire in Duskwood. Once part of the region's serene agrarian landscape, it is now infested with savage Nightbane worgen who make camp among ruined homesteads and attack any travelers wandering too close.",
+ "summary": "West of Darkshire, Brightwood Grove's ruined farms shelter savage Nightbane worgen.",
  "sections": [
   {
    "title": "A Grove in Shadow",
-   "body": "Situated within sight of Darkshire's perimeter, Brightwood Grove represents the creeping peril threatening the town's borders. The homesteads and fences that once demarcated peaceful farmland now lie collapsed and rotting. In their place, crude camps have been erected by the Nightbane worgen, who prowl the overgrown clearings. The proximity of these wolf-beasts poses an ongoing threat to the town, forcing the Night Watch and passing adventurers to continually cull their numbers before the settlement is overrun.",
+   "body": "Brightwood Grove lies within sight of Darkshire, where ruined farms and fences mark the town's edge. Nightbane worgen have made crude camps among the overgrown clearings and prowl close to town. Their presence threatens Darkshire, so the Night Watch and travelers passing through keep their numbers down to protect the settlement.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "where is brightwood grove",
     "brightwood duskwood"
    ],
-   "answer": "Brightwood Grove is located in eastern Duskwood, lying just west of the town of Darkshire along the main paths."
+   "answer": "Brightwood Grove lies in eastern Duskwood, just west of Darkshire along the main paths."
   },
   {
    "q": "What creatures inhabit Brightwood Grove?",
@@ -32,7 +32,7 @@
     "brightwood enemies",
     "what lives in brightwood"
    ],
-   "answer": "The grove is heavily infested by savage Nightbane worgen. These cursed wolf-men have established crude camps throughout the ruined buildings and attack anyone who approaches."
+   "answer": "Savage Nightbane worgen inhabit Brightwood Grove. They have made crude camps in ruined buildings and attack anyone who comes near."
   },
   {
    "q": "Why is the grove dangerous to Darkshire?",
@@ -40,7 +40,7 @@
     "why is brightwood grove dangerous",
     "darkshire brightwood threat"
    ],
-   "answer": "Because Brightwood Grove sits immediately west of Darkshire, the aggressive worgen packs lurking in the brush are an immediate hazard to town patrols, supply lines, and any travelers arriving along the road."
+   "answer": "Brightwood Grove lies just west of Darkshire, where aggressive worgen packs in the brush threaten town patrols, supply lines, and travelers arriving by road."
   },
   {
    "q": "Are there any friendly settlements in the grove?",
@@ -48,17 +48,17 @@
     "is anyone friendly in brightwood",
     "brightwood town"
    ],
-   "answer": "No. The few stone buildings and farmsteads on the outskirts of the grove lie entirely in ruins, abandoned to the elements and occupied by roving worgen."
+   "answer": "No friendly settlements remain in the grove. Its few stone buildings and farmsteads lie in ruins, abandoned to the elements and occupied by roving worgen."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Brightwood Grove sits right outside the gates of Darkshire, making the elimination of its worgen packs vital to keeping the beleaguered town from being cut off from the west."
+   "text": "Brightwood Grove lies just outside Darkshire's gates. Clearing out its worgen packs helps keep the beleaguered town connected to the west."
   },
   {
    "target": "class:Hunter",
-   "text": "The dark thickets of the grove provide harsh terrain for tracking the vicious Nightbane, testing any hunter's awareness against ambushes lurking behind the tree line."
+   "text": "The grove's dark thickets make tracking the vicious Nightbane difficult. Stay alert for ambushes behind the tree line."
   }
  ],
  "keywords": [
@@ -78,5 +78,6 @@
  ],
  "attribution": [
   "Brightwood Grove"
- ]
+ ],
+ "style": 1
 }

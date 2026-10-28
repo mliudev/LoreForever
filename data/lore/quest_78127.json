@@ -1,0 +1,63 @@
+{
+ "key": "quest:78127",
+ "type": "quest",
+ "name": "The Dalaran Digest",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   78127
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A librarian asks you to add magical works to the collection. Each book brings more knowledge to the library.",
+ "sections": [
+  {
+   "title": "The Collection",
+   "body": "The librarian welcomes magical works that may benefit the library. You bring one to add to the collection, and your efforts help its knowledge grow.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does the librarian want?",
+   "aliases": [
+    "what to bring",
+    "library book",
+    "magical works"
+   ],
+   "answer": "The librarian asks you to bring magical works that might benefit the collection."
+  },
+  {
+   "q": "Where do I bring the book?",
+   "aliases": [
+    "where is the librarian",
+    "library location"
+   ],
+   "answer": "Bring it to the librarian who asks you to add to the collection."
+  },
+  {
+   "q": "Why is the librarian collecting magical works?",
+   "aliases": [
+    "why collect books",
+    "library purpose"
+   ],
+   "answer": "The collection grows in knowledge through your contribution."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "collection",
+  "dalaran digest",
+  "knowledge",
+  "librarian",
+  "library",
+  "magical works"
+ ],
+ "related": [],
+ "style": 1,
+ "attribution": [
+  "In-game quest text: The Dalaran Digest"
+ ]
+}

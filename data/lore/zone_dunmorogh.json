@@ -12,21 +12,21 @@
   "levels": "1-10",
   "aliases": []
  },
- "summary": "Dun Morogh is a snow-swept mountain highland situated at the heart of Khaz Modan. It serves as the ancestral starting ground and shared homeland for the dwarves of Ironforge and the displaced gnomes of Gnomeregan. Though guarded by towering peaks and fortified passes, the snowy realm faces rising internal threats from troggs, Frostmane trolls, and irradiated leper gnomes.",
+ "summary": "In Dun Morogh, dwarves and displaced gnomes face threats from troggs, Frostmane trolls, and leper gnomes. Its guarded peaks hold Ironforge and offer shelter to both peoples.",
  "sections": [
   {
    "title": "A Mountain Stronghold",
-   "body": "Dun Morogh occupies the highest peaks in the Eastern Kingdoms, an alpine expanse ringed by jagged summits that shield it from Searing Gorge to the south and the Wetlands to the north. These snowy mountains feed the rivers flowing across Khaz Modan and provide near-limitless veins of copper and iron. Access is heavily restricted to mountain tunnels like North Gate Pass and South Gate Pass, watched closely by dwarven Mountaineers. At the heart of the region sits Ironforge, an ancient subterranean wonder and the capital of King Magni Bronzebeard's realm, linked straight to Stormwind by the marvel of the Deeprun Tram.",
+   "body": "Dun Morogh’s high peaks rise between Searing Gorge to the south and the Wetlands to the north. Snowmelt feeds rivers across Khaz Modan, while copper and iron veins run through the mountains. Dwarven Mountaineers watch the narrow routes through North Gate Pass and South Gate Pass. At the region’s heart, Ironforge lies beneath the mountain as the capital of King Magni Bronzebeard’s realm. The Deeprun Tram links the city directly to Stormwind.",
    "spoiler": 0
   },
   {
    "title": "A Refuge Divided",
-   "body": "Centuries ago, the dwarves drove the native Frostmane ice trolls into the crags, carving out room for themselves alongside their brilliant gnome allies. The two races flourished in neighboring mountain halls until the recent catastrophe in Gnomeregan during the Third War. A horrific trogg invasion and a catastrophic radioactive venting ruined the technological wonder, turning its defenders into mindless leper gnomes and driving High Tinker Gelbin Mekkatorque and his surviving folk into exile. Now, the gnomes dwell as guests inside Ironforge, while leper gnomes and surviving troggs spill out into Chill Breeze Valley.",
+   "body": "Centuries ago, dwarves drove the native Frostmane ice trolls into the crags and made room for themselves beside their gnome allies. The two peoples thrived in neighboring mountain halls until Gnomeregan fell during the Third War. Troggs invaded, and radioactive gas ruined the city, turning its defenders into leper gnomes. High Tinker Gelbin Mekkatorque and the surviving gnomes fled into exile. They now live as guests in Ironforge, while leper gnomes and surviving troggs spill into Chill Breeze Valley.",
    "spoiler": 0
   },
   {
    "title": "Trouble in the Drifts",
-   "body": "Life in the drifts is far from quiet. The Frostmane tribe has grown emboldened, establishing heavily armed encampments from Shimmer Ridge down to Coldridge Valley. Meanwhile, primitive troggs have clawed their way out of ancient subterranean fissures into Gol'Bolar Quarry, threatening the region's mining operations. Between prowling wendigos, wild boars, infiltrating Dark Iron dwarven agents, and toxic fallout spreading from the ruins of Gnomeregan, the dwarven Mountaineers are stretched thin maintaining order from Kharanos to the border gates.",
+   "body": "Trouble reaches across the mountain drifts. The Frostmane tribe has grown bolder, raising armed camps from Shimmer Ridge to Coldridge Valley. Troggs have clawed up from ancient underground fissures into Gol'Bolar Quarry, endangering the mines. Wendigos prowl, wild boars roam, Dark Iron dwarven agents infiltrate, and toxic fallout spreads from Gnomeregan’s ruins. Dwarven Mountaineers struggle to keep order from Kharanos to the border gates.",
    "spoiler": 0
   }
  ],
@@ -39,7 +39,7 @@
     "dwarf start zone",
     "gnome start zone"
    ],
-   "answer": "Both dwarves and gnomes begin their journeys here in Coldridge Valley, a sheltered basin in southwestern Dun Morogh, before venturing out through Coldridge Pass into Kharanos and the wider zone."
+   "answer": "Dwarves and gnomes begin their journeys in Coldridge Valley, a sheltered basin in southwestern Dun Morogh. From there, they pass through Coldridge Pass into Kharanos and the wider zone."
   },
   {
    "q": "What happened to Gnomeregan?",
@@ -48,7 +48,7 @@
     "what happened to the gnomes",
     "why are leper gnomes here"
    ],
-   "answer": "During the Third War, a subterranean race called troggs swarmed Gnomeregan. In an attempt to purge the invaders, High Tinker Gelbin Mekkatorque released radioactive gas into the lower levels. The plan failed catastrophically, killing thousands and irradiating many gnomes into crazed leper gnomes, forcing the healthy survivors to flee to Ironforge."
+   "answer": "During the Third War, troggs swarmed Gnomeregan from below. High Tinker Gelbin Mekkatorque released radioactive gas into the lower levels to purge them, but the plan failed. Thousands died, many gnomes became crazed leper gnomes, and the healthy survivors fled to Ironforge."
   },
   {
    "q": "How do you leave Dun Morogh on foot?",
@@ -57,7 +57,7 @@
     "dun morogh to loch modan",
     "leave dun morogh"
    ],
-   "answer": "Dun Morogh is walled in by high mountain ridges. To travel eastward into Loch Modan on foot, take the roads leading to North Gate Pass or South Gate Pass in the northeastern mountains. You can also travel directly to Stormwind City via the Deeprun Tram inside Ironforge."
+   "answer": "High mountain ridges surround Dun Morogh. To reach Loch Modan on foot, follow the roads to North Gate Pass or South Gate Pass in the northeastern mountains. From Ironforge, the Deeprun Tram carries travelers directly to Stormwind City."
   },
   {
    "q": "Where is the flight master in Dun Morogh?",
@@ -66,7 +66,7 @@
     "dun morogh flight path",
     "where to fly dun morogh"
    ],
-   "answer": "The only functional Alliance flight master in the zone is located inside the Great Forge of Ironforge, connecting travelers to locations across Khaz Modan, Stormwind, and the northern Alliance outposts."
+   "answer": "The zone’s only functional Alliance flight master is inside Ironforge’s Great Forge. The flight routes connect travelers with places across Khaz Modan, Stormwind, and the northern Alliance outposts."
   },
   {
    "q": "Who are the Frostmane trolls?",
@@ -75,7 +75,7 @@
     "dun morogh trolls",
     "frostmane tribe"
    ],
-   "answer": "The Frostmane are a tribe of ice trolls who ruled Dun Morogh long before the dwarves emerged from Uldaman. Though defeated and driven into the crags generations ago, they remain bitter enemies of Ironforge, routinely raiding dwarven farms and roads from retreats like Frostmane Hold."
+   "answer": "The Frostmane are ice trolls who ruled Dun Morogh long before the dwarves emerged from Uldaman. Dwarves defeated them and drove them into the crags generations ago, but they remain bitter enemies of Ironforge and raid farms and roads from retreats such as Frostmane Hold."
   },
   {
    "q": "What is Kharanos?",
@@ -84,25 +84,25 @@
     "kharanos hub",
     "what is the main town"
    ],
-   "answer": "Kharanos is the primary dwarven settlement in central Dun Morogh. It houses the Thunderbrew Distillery, trainers, and supplies, serving as the central operational hub for young adventurers and Mountaineers tackling local troll and wildlife problems."
+   "answer": "Kharanos is the main dwarven settlement in central Dun Morogh. It has the Thunderbrew Distillery, trainers, and supplies, and Mountaineers and young adventurers use it as a base against local trolls and wildlife."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "This is your ancestral homeland. From the hearthfires of Anvilmar to the blazing core of the Great Forge in Ironforge, defending these peaks from trolls and troggs is your duty to King Magni."
+   "text": "As a dwarf, you come from this ancestral homeland. From Anvilmar’s hearthfires to the Great Forge’s blazing core, you defend these peaks from trolls and troggs in service to King Magni."
   },
   {
    "target": "race:Gnome",
-   "text": "Your lost home, Gnomeregan, lies irradiated in the western valley. Dun Morogh serves as your base in exile alongside your dwarven cousins while you fight back against troggs and rogue leper gnomes."
+   "text": "As a gnome, your lost home of Gnomeregan lies irradiated in the western valley. You make your base in Dun Morogh beside your dwarven cousins while fighting troggs and rogue leper gnomes."
   },
   {
    "target": "profession:Mining",
-   "text": "The mountain crags of Dun Morogh are rich with surface deposits of Copper Veins, particularly around the quarry at Gol'Bolar and along the snowy rock faces."
+   "text": "As a miner, you can find rich surface deposits of Copper Veins in Dun Morogh, especially around Gol'Bolar Quarry and along snowy rock faces."
   },
   {
    "target": "profession:Cooking",
-   "text": "Local hunters and innkeepers in Kharanos and Brewnall Village make hearty use of boar meat, bear ribs, and dwarven stout to ward off the biting mountain frost."
+   "text": "As a cook, you can find hearty fare in Kharanos and Brewnall Village, where hunters and innkeepers make use of boar meat, bear ribs, and dwarven stout against the mountain frost."
   }
  ],
  "keywords": [
@@ -132,5 +132,6 @@
  "attribution": [
   "Dun Morogh (Classic)",
   "Dun Morogh"
- ]
+ ],
+ "style": 1
 }

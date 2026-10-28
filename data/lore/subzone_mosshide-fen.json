@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Mosshide Fen"
  },
- "summary": "Mosshide Fen is a swampy, treacherous tract in the eastern Wetlands overrun by the Mosshide gnoll tribe. Dotted with primitive encampments, it is one of the most perilous regions for travelers venturing off the main trade roads.",
+ "summary": "In eastern Wetlands, Mosshide Fen is held by the Mosshide gnolls. Its primitive camps lie far from the main trade roads, where travelers face danger.",
  "sections": [
   {
    "title": "Territory of the Pack",
-   "body": "Sprawling across the murky eastern reaches of the Wetlands, Mosshide Fen serves as the primary domain of the aggressive Mosshide gnolls. The swamp here is dense and tangled, dotted with rough lean-tos and bone-strewn camps. Under the vicious command of pack leaders like Gnawbone, the gnolls fiercely guard their muddy claims, readily ambushing and devouring any travelers, scouts, or prospectors foolish enough to wander into their hunting grounds.",
+   "body": "Mosshide gnolls hold the tangled marsh of eastern Wetlands. Rough lean-tos and bone-strewn camps mark their territory. Gnawbone and other pack leaders command the tribe, which ambushes and devours travelers, scouts, and prospectors who enter its hunting grounds.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "what is this place",
     "mosshide swamp"
    ],
-   "answer": "Mosshide Fen is a subzone situated in the eastern Wetlands. It consists of sodden marshland entirely claimed and settled by the Mosshide gnolls."
+   "answer": "Mosshide Fen lies in eastern Wetlands, where sodden marshland is claimed and settled by the Mosshide gnolls."
   },
   {
    "q": "Who rules Mosshide Fen?",
@@ -32,7 +32,7 @@
     "gnawbone",
     "mosshide leader"
    ],
-   "answer": "The Mosshide gnoll tribe occupies the fen, taking orders from brutal leaders such as Gnawbone, who commands his pack to capture and devour any outsiders trespassing on their land."
+   "answer": "The Mosshide gnolls occupy the fen under brutal leaders such as Gnawbone, who commands his pack to capture and devour outsiders trespassing on their land."
   },
   {
    "q": "Why is this area dangerous to travelers?",
@@ -40,13 +40,13 @@
     "why is it dangerous",
     "fen dangers"
    ],
-   "answer": "The gnolls of Mosshide Fen are notorious for their aggression and carnivorous appetite. Travelers straying off established pathways or searching the sodden brush for supplies face sudden ambushes from roving hunting packs."
+   "answer": "Mosshide gnolls are aggressive and hungry. Travelers who leave established paths or search the wet brush for supplies risk sudden ambush by hunting packs."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "The Ironforge mountaineers must continually keep an eye on Mosshide Fen, as the aggressive gnoll packs threaten prospectors scouring the marshes and scouts securing the eastern paths."
+   "text": "As a dwarf, you must keep watch on Mosshide Fen. Its aggressive gnoll packs threaten prospectors searching the marshes and scouts securing the eastern paths."
   }
  ],
  "keywords": [
@@ -64,5 +64,6 @@
  ],
  "attribution": [
   "Mosshide Fen"
- ]
+ ],
+ "style": 1
 }

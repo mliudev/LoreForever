@@ -17,16 +17,16 @@
   "wiki": "The Hunt Completed",
   "chain": []
  },
- "summary": "The Hunt Completed is the culminating moment of Senani Thunderheart's great beast trials in Ashenvale. By felling Ursangous, Shadumbra, and Sharptalon, a Horde champion proves their strength, tenacity, and primal prowess in a contested forest.",
+ "summary": "In Ashenvale, the hunt tests a Horde champion against three legendary predators. Felling Ursangous, Shadumbra, and Sharptalon proves strength, tenacity, and primal prowess in a contested forest.",
  "sections": [
   {
    "title": "A Hunter's Proof",
-   "body": "Senani Thunderheart, stationed among the Horde forces in Ashenvale, tests travelers not merely by their loyalty to the warchief, but by their understanding of wild survival. The Ashenvale Hunt targets three legendary predators stalked beneath the ancient boughs: the bear Ursangous, the cat Shadumbra, and the fierce hippogryph Sharptalon. Felling all three and securing their trophies proves a hunter's blood flows true in the challenger's veins.",
+   "body": "Senani Thunderheart tests travelers among the Horde forces in Ashenvale. Her hunt tests more than loyalty to the warchief; it asks whether a hunter understands survival in the wild. Three legendary predators are its quarry: the bear Ursangous, the cat Shadumbra, and the fierce hippogryph Sharptalon. Felling all three and securing their trophies proves a hunter's blood runs true.",
    "spoiler": 0
   },
   {
    "title": "Honoring the Ancestors",
-   "body": "For the tauren, the hunt is a sacred act of balance and respect, even amidst an active warfront. By overcoming Ashenvale's apex terrors, a hunter honors the spirits of the land and earns the ancestral blessings of Thunderheart. The hunt concludes with a formal commendation and a token of favor, cementing the champion's reputation throughout the forest.",
+   "body": "For the tauren, hunting is a sacred act of balance and respect, even in an active warfront. Overcoming Ashenvale's greatest terrors honors the spirits of the land and earns a hunter the ancestral blessings of Thunderheart. A formal commendation and token of favor mark the hunt's end, while the champion's reputation spreads throughout the forest.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "where to turn in",
     "senani thunderheart location"
    ],
-   "answer": "The quest is concluded by Senani Thunderheart, a tauren hunter stationed with the Horde within the ancient forests of Ashenvale."
+   "answer": "Senani Thunderheart, a tauren hunter, offers the hunt among the Horde forces in Ashenvale."
   },
   {
    "q": "What are the requirements to complete the hunt?",
@@ -47,7 +47,7 @@
     "prerequisites",
     "which animals"
    ],
-   "answer": "You must slay three apex predators wandering Ashenvale and deliver proof of their demise: the paw of the bear Ursangous, the head of the nightsaber Shadumbra, and the claw of the hippogryph Sharptalon."
+   "answer": "You must slay three great predators and bring proof of their deaths: Ursangous's paw, Shadumbra's head, and Sharptalon's claw."
   },
   {
    "q": "Why does Senani Thunderheart want these beasts slain?",
@@ -56,7 +56,7 @@
     "senani motive",
     "purpose of hunt"
    ],
-   "answer": "The hunt serves as a trial of strength and tenacity. Felling such formidable beasts proves that a traveler possesses the true heart and instinct of a predator capable of surviving Ashenvale's treacherous wilderness."
+   "answer": "The hunt tests strength and tenacity. Felling such formidable beasts proves a traveler has the heart and instincts of a predator able to survive Ashenvale's dangerous wilderness."
   },
   {
    "q": "What is the cultural significance of the hunt to the Horde?",
@@ -65,7 +65,7 @@
     "cultural meaning",
     "why do tauren hunt beasts"
    ],
-   "answer": "For tauren like Senani Thunderheart, testing one's mettle against mighty beasts is an honorable tradition that appeals to the spirits and ancestors. It demonstrates mastery of the wilderness without reckless dishonor."
+   "answer": "For tauren like Senani Thunderheart, testing your mettle against mighty beasts is an honorable tradition that honors the spirits and ancestors. It shows mastery of the wilderness without reckless dishonor."
   },
   {
    "q": "Is this trial recognized by the entire Horde?",
@@ -74,7 +74,7 @@
     "is it official",
     "horde commendation"
    ],
-   "answer": "Yes. Completing the hunt marks you as a proven hunter in the eyes of the Horde stationed in Ashenvale, earning ancestral blessings and the respect of your comrades."
+   "answer": "Yes. Completing the hunt marks you as a proven hunter to the Horde forces in Ashenvale. You earn ancestral blessings and the respect of your comrades."
   },
   {
    "q": "Which three beasts are targeted in the Ashenvale hunt?",
@@ -83,21 +83,21 @@
     "hunt targets",
     "named animals"
    ],
-   "answer": "The targets are Ursangous the great bear, Shadumbra the stealthy nightsaber, and Sharptalon the deadly hippogryph."
+   "answer": "The three targets are Ursangous the great bear, Shadumbra the nightsaber, and Sharptalon the hippogryph."
   }
  ],
  "angles": [
   {
    "target": "class:Hunter",
-   "text": "Besting three apex predators of Ashenvale is the definitive rite of tracking and marksmanship, proving your instincts equal the wild beasts themselves."
+   "text": "As a hunter, you prove your tracking and marksmanship against three of Ashenvale's greatest predators. Your instincts must match the wild beasts."
   },
   {
    "target": "race:Tauren",
-   "text": "For the Shu'halo, hunting Ursangous, Shadumbra, and Sharptalon is a time-honored test of respect, balance, and ancestral pride."
+   "text": "As a tauren, you honor a time-honored test of respect, balance, and ancestral pride by hunting Ursangous, Shadumbra, and Sharptalon."
   },
   {
    "target": "faction:Horde",
-   "text": "Taming the beasts of Ashenvale helps secure the Horde's foothold in a dangerous, hostile woodland filled with predators and Alliance sentinels alike."
+   "text": "As a member of the Horde, you help secure your people's foothold in Ashenvale, a dangerous woodland filled with predators and Alliance sentinels."
   }
  ],
  "keywords": [
@@ -120,5 +120,6 @@
  ],
  "attribution": [
   "The Hunt Completed"
- ]
+ ],
+ "style": 1
 }

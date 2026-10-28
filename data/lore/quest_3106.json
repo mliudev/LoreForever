@@ -17,16 +17,16 @@
   "wiki": "Simple Rune (Classic)",
   "chain": []
  },
- "summary": "Simple Rune is an introductory task given to novice dwarven warriors in Coldridge Valley. Passed along by Sten Stoutarm on behalf of the warrior trainer Thran Khorman, it directs fresh recruits inside Anvilmar to begin their martial training.",
+ "summary": "At Anvilmar, new dwarven warriors receive a call to begin their training. Sten Stoutarm carries it from Thran Khorman, the trainer inside the hall.",
  "sections": [
   {
    "title": "A Summons to the Anvil",
-   "body": "As young recruits clear pests and prove their grit around Coldridge Valley, veteran scouts keep a watchful eye out for promising fighters. Sten Stoutarm delivers an inscribed stone\u2014a simple rune\u2014handed off to him by Thran Khorman. This summons calls martial hopefuls from the snowy valley paths into the warm forge-hall of Anvilmar to formally pledge themselves to the warrior's trade.",
+   "body": "Young recruits prove their grit around Coldridge Valley as they clear pests, while veteran scouts watch for promising fighters. Sten Stoutarm brings them an inscribed stone from Thran Khorman. The simple rune summons them from the snowy valley paths into Anvilmar's warm forge-hall, where they can pledge themselves to the warrior's trade.",
    "spoiler": 0
   },
   {
    "title": "A Changing Dun Morogh",
-   "body": "Reporting to Thran offers an immediate glimpse into the harsh realities facing modern Dun Morogh. The veteran trainer speaks frankly about the kingdom's shifting landscape: displaced gnomes seeking refuge after catastrophic explosions destroyed Gnomeregan, fellow dwarves wielding foreign arcane arts or taking up human devotion to the Holy Light, and an ever-present menace of subterranean troggs clawing at the mountain borders. In Thran's eyes, solid martial discipline remains the bedrock required to withstand it all.",
+   "body": "Thran Khorman speaks plainly about the troubles reshaping Dun Morogh. Gnomes displaced after catastrophic explosions destroyed Gnomeregan seek refuge, while some dwarves take up foreign arcane arts or follow the human faith in the Holy Light. Troggs, disturbed deep underground, claw at the mountain borders. Thran believes firm martial discipline is the bedrock needed to withstand these threats.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "what does the rune do",
     "simple rune lore"
    ],
-   "answer": "The Simple Rune is a small, inscribed slate passed along by Sten Stoutarm on behalf of Thran Khorman. It serves as an official invitation and instruction for new warriors to report indoors for professional training."
+   "answer": "The Simple Rune is an inscribed slate that Sten Stoutarm carries on Thran Khorman's behalf. It invites new warriors and instructs them to report indoors for training."
   },
   {
    "q": "Who is Thran Khorman?",
@@ -47,7 +47,7 @@
     "thran khorman lore",
     "warrior trainer coldridge"
    ],
-   "answer": "Thran Khorman is the resident warrior trainer stationed inside Anvilmar in Coldridge Valley. He mentors fledgling dwarven and gnomish warriors, instructing them in the fundamentals of melee combat, discipline, and dwarven tenacity."
+   "answer": "Thran Khorman trains warriors inside Anvilmar in Coldridge Valley. He teaches young dwarven and gnomish warriors melee combat, discipline, and dwarven tenacity."
   },
   {
    "q": "Why are gnomes living in Dun Morogh and Ironforge?",
@@ -56,7 +56,7 @@
     "gnomes in ironforge",
     "gnomeregan refugees"
    ],
-   "answer": "The gnomes were recently driven from their subterranean technological marvel, Gnomeregan, after setting off catastrophic radiation explosives in a desperate bid to repel a subterranean trogg invasion. The survivors fled up the mountainside to seek refuge with their dwarven allies in Ironforge."
+   "answer": "Gnomes fled Gnomeregan after setting off catastrophic radiation explosives in a desperate attempt to repel a trogg invasion. The survivors sought refuge with their dwarven allies in Ironforge."
   },
   {
    "q": "Why does Thran mention troggs?",
@@ -65,7 +65,7 @@
     "why are troggs around",
     "coldridge troggs"
    ],
-   "answer": "Troggs are primitive, vicious creatures that recently breached the surface caves in Coldridge Valley and Dun Morogh after being disturbed deep underground. They pose an immediate danger to local settlements and trade routes, requiring armed vigilance from defenders in Anvilmar."
+   "answer": "Troggs are primitive, vicious creatures disturbed deep underground who have recently breached the surface caves in Coldridge Valley and Dun Morogh. They threaten settlements and trade routes, so Anvilmar's defenders must stay armed and watchful."
   },
   {
    "q": "What does Thran mean about dwarves worshipping the Holy Light?",
@@ -74,7 +74,7 @@
     "dwarf paladins lore",
     "dwarf priests"
    ],
-   "answer": "Traditionally bound to ancestral mountain traditions, some dwarves have recently taken up the Holy Light through their close alliance with human kingdoms like Lordaeron and Stormwind, training their own paladins and priests."
+   "answer": "Some dwarves have taken up the Holy Light through close ties with human kingdoms such as Lordaeron and Stormwind. They now train their own paladins and priests."
   },
   {
    "q": "Where do I take the Simple Rune?",
@@ -83,25 +83,25 @@
     "where is thran khorman",
     "find thran"
    ],
-   "answer": "The rune is taken directly to Thran Khorman, who stands by the training grounds inside the great bunker hall of Anvilmar, just up the path in Coldridge Valley."
+   "answer": "Take the rune to Thran Khorman at the training grounds inside Anvilmar's great bunker hall, just up the path in Coldridge Valley."
   }
  ],
  "angles": [
   {
    "target": "class:Warrior",
-   "text": "This rune marks a warrior's formal entrance into martial discipline, directing new blades and bludgeons directly to Thran Khorman in Anvilmar."
+   "text": "As a warrior, the rune marks your formal entrance into martial discipline and sends you to Thran Khorman in Anvilmar."
   },
   {
    "target": "race:Dwarf",
-   "text": "Thran Khorman takes immense pride in teaching dwarven recruits how to fight with traditional grit, anchoring their culture in steel and iron amidst a rapidly changing world."
+   "text": "As a dwarf, you can learn traditional grit from Thran Khorman, who teaches recruits to hold fast to their culture of steel and iron as the world changes."
   },
   {
    "target": "race:Gnome",
-   "text": "Having lost Gnomeregan to troggs and radiation, gnomish fighters starting in Coldridge Valley must learn frontline warfare alongside dwarven mentors to survive exile."
+   "text": "As a gnome driven from Gnomeregan by troggs and radiation, you learn frontline warfare alongside dwarven mentors in Coldridge Valley to survive exile."
   },
   {
    "target": "faction:Alliance",
-   "text": "Coldridge Valley serves as the initial training ground for mountain forces defending the Alliance's southern Khaz Modan approaches."
+   "text": "As an Alliance member, you train in Coldridge Valley, where mountain forces defend the southern approaches to Khaz Modan."
   }
  ],
  "keywords": [
@@ -127,5 +127,6 @@
  ],
  "attribution": [
   "Simple Rune (Classic)"
- ]
+ ],
+ "style": 1
 }

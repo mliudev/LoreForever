@@ -17,16 +17,16 @@
   "wiki": "On Guard in Stonetalon (2)",
   "chain": []
  },
- "summary": "On Guard in Stonetalon directs Alliance travelers from Kaela Shadowspear to Gaxim Rustfizzle at their camp near Windshear Crag. Facing rampant despoilment by the Venture Company, an otherwise unlikely pair\u2014a cautious night elf sentinel and an eccentric gnome tinkerer\u2014join forces to safeguard the mountain pass.",
+ "summary": "At a camp near Windshear Crag, Kaela Shadowspear sends Alliance travelers to Gaxim Rustfizzle for help against the Venture Company. The cautious night elf sentinel and eccentric gnome tinkerer join forces to guard the mountain pass from the company's rampant despoilment.",
  "sections": [
   {
    "title": "An Unlikely Alliance",
-   "body": "Night elves and gnomes rarely share common ground, especially when it comes to technology and the natural world. In the crags of Stonetalon Mountains, however, necessity bridges the cultural gulf. With the rapacious Venture Company carving out the wilderness and felling ancient trees, the sentinel Kaela Shadowspear has recognized that pure martial prowess alone cannot overcome industrialized pillaging. Welcoming gnome ingenuity into sacred Kaldorei territory demonstrates just how precarious the situation has become.",
+   "body": "In the crags of Stonetalon Mountains, the rapacious Venture Company cuts into wilderness and fells ancient trees. Kaela Shadowspear, a night elf sentinel, sees that martial skill alone cannot stop its industrialized pillaging. She turns to gnome ingenuity, though night elves and gnomes rarely agree on technology or the natural world. Their unlikely alliance shows how precarious the struggle has become.",
    "spoiler": 0
   },
   {
    "title": "Gnomish Philosophy",
-   "body": "Gaxim Rustfizzle represents the eccentric pragmatism of the Alliance's smaller allies. While night elf society famously turned its back on arcane excess millennia ago, Gaxim believes that abstaining from magic and technical innovation leaves them vulnerable. By pairing alchemy and engineering with a touch of arcane discipline, Gaxim aims to convince his Kaldorei hosts that practical science can defend nature just as effectively as bow and glaive.",
+   "body": "Gaxim Rustfizzle brings the eccentric pragmatism of the Alliance's smaller allies. Night elf society turned away from arcane excess millennia ago, but Gaxim believes that abstaining from magic and technical innovation leaves the night elves vulnerable. He hopes to convince his Kaldorei hosts that practical science can defend nature as well as bow and glaive.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "kaela and gaxim",
     "gnome night elf alliance"
    ],
-   "answer": "The Venture Company's destructive deforestation and resource extraction in Stonetalon are so severe that Kaela Shadowspear accepted outside aid. Gaxim brings engineering and alchemical expertise that the night elves typically lack, providing technical support to counter modern industrial machinery."
+   "answer": "The Venture Company's deforestation and resource extraction in Stonetalon have become so severe that Kaela Shadowspear accepts outside aid. Gaxim brings engineering and alchemical expertise the night elves typically lack, offering technical support against modern industrial machinery."
   },
   {
    "q": "Who is Gaxim Rustfizzle?",
@@ -47,7 +47,7 @@
     "who is gaxim",
     "gnome at stonetalon peak"
    ],
-   "answer": "Gaxim is an adventurous gnome engineer and tinkerer stationed at a camp near Windshear Crag. He believes strongly that the night elves' strict aversion to arcane magic leaves them disadvantaged, seeking to prove that combining engineering, alchemy, and controlled magic can solve even the direst threats."
+   "answer": "Gaxim Rustfizzle is an adventurous gnome engineer and tinkerer at a camp near Windshear Crag. He believes abstaining from arcane magic leaves night elves at a disadvantage, and seeks to prove that engineering, alchemy, and controlled magic together can answer dire threats."
   },
   {
    "q": "Who is Kaela Shadowspear?",
@@ -55,7 +55,7 @@
     "kaela shadowspear",
     "who is kaela"
    ],
-   "answer": "Kaela Shadowspear is a night elf sentinel tasked with maintaining watch and defense over the Stonetalon Mountains. She serves as a regional commander coordinating resistance against the Venture Company."
+   "answer": "Kaela Shadowspear is a night elf sentinel charged with watch and defense over the Stonetalon Mountains. As a regional commander, she coordinates resistance against the Venture Company."
   },
   {
    "q": "What threat is the Venture Company posing in Stonetalon?",
@@ -63,7 +63,7 @@
     "venture co stonetalon",
     "why fight venture co"
    ],
-   "answer": "The Venture Company is an unscrupulous mercantile syndicate cutting down sacred forests, operating destructive drilling rigs, and polluting pristine lands across Stonetalon for rapid commercial profit."
+   "answer": "The Venture Company is an unscrupulous mercantile syndicate cutting sacred forests, running destructive drilling rigs, and polluting Stonetalon's pristine lands for rapid commercial profit."
   },
   {
    "q": "Who is Tara, mentioned by Kaela?",
@@ -71,7 +71,7 @@
     "tara stonetalon",
     "send you back to tara"
    ],
-   "answer": "Tara is Sentinel Tara Thenysil, Kaela's friend in Astranaar who sent you to check on her. Kaela is proud that Tara is doing well enough with the Sentinels to be sending adventurers on errands."
+   "answer": "Tara is Sentinel Tara Thenysil, Kaela's friend in Astranaar, who sent you to check on her. Kaela is proud that Tara is doing well enough among the Sentinels to send adventurers on errands."
   },
   {
    "q": "Where does this task lead next?",
@@ -79,25 +79,25 @@
     "quest after on guard in stonetalon",
     "next quest after gaxim"
    ],
-   "answer": "After speaking with Gaxim Rustfizzle, he offers 'A Gnome's Respite,' enlisting your aid to hold back the Venture Company's loggers in Windshear Crag so he has time to plan his next inventions."
+   "answer": "After you speak with Gaxim Rustfizzle, he offers 'A Gnome's Respite' and asks for your aid holding back the Venture Company's loggers in Windshear Crag while he plans his next inventions."
   }
  ],
  "angles": [
   {
    "target": "race:Gnome",
-   "text": "Gaxim Rustfizzle proudly represents gnomish ingenuity in Kalimdor, using his presence to demonstrate that science, engineering, and magic can overcome challenges where ancient traditions falter."
+   "text": "As a gnome, you can see Gaxim Rustfizzle put gnomish ingenuity to work in Kalimdor, where science, engineering, and magic can meet the region's challenges."
   },
   {
    "target": "race:NightElf",
-   "text": "For Kaldorei sentinels, trusting a gnome tinkerer who advocates combining engineering with magic requires swallowing considerable pride, reflecting just how devastating the Venture Company's logging operations have become."
+   "text": "As a night elf, you may feel pride give way when Kaldorei sentinels trust a gnome tinkerer who favors engineering and magic. The Venture Company's logging has become devastating."
   },
   {
    "target": "profession:Engineering",
-   "text": "Gaxim's mission underscores the practical utility of engineering in frontline reconnaissance and ecosystem defense, proving that cogwheels can serve conservation when turned against unchecked exploitation."
+   "text": "As an engineer, you can see how engineering helps with frontline reconnaissance and ecosystem defense. Cogwheels can aid conservation when turned against unchecked exploitation."
   },
   {
    "target": "faction:Alliance",
-   "text": "This partnership showcases the broader Alliance ethos in action, as Eastern Kingdoms expertise blends with Kalimdor sentinels to stem shared threats across the frontier."
+   "text": "As an Alliance member, you see Eastern Kingdoms expertise join Kalimdor sentinels against threats shared across the frontier."
   }
  ],
  "keywords": [
@@ -122,5 +122,6 @@
  ],
  "attribution": [
   "On Guard in Stonetalon (2)"
- ]
+ ],
+ "style": 1
 }

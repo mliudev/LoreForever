@@ -18,7 +18,8 @@ const voiceName = s => {
   const name = rest ? rest[0].toUpperCase() + rest.slice(1) : "";
   return kind === "finest" ? `Finest · ${name}` : kind === "studio" ? `Studio · ${name}` : s;
 };
-const LIMIT = { day: "Daily answers", month: "Month's answers", cost_cap: "Month's full net", brake: "Free brake" };
+const LIMIT = { day: "Daily answers", month: "Month's answers", cost_cap: "Month's full net", brake: "Free brake",
+  guard: "Unlimited plan's daily guard" };
 const SOURCE = { welcome: "Welcome page", plans: "Plans page", "willo-empty": "Willo: her answers ran out",
   "willo-chorus": "Willo: her best-first answers ended", "willo-locked": "Willo: a locked feature",
   "willo-ask": "Willo offered Plans", "": "Before tracking (Oct 19)" };

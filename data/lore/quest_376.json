@@ -17,16 +17,16 @@
   "wiki": "The Damned (Classic)",
   "chain": []
  },
- "summary": "The Damned is an early task given to newly awakened Forsaken by Novice Elreth in the chapel of Deathknell. In exchange for the materials needed to fashion crude clothing and battlefield wraps, Elreth provides salvageable armor to protect fledgling undead from the perils surrounding the cemetery.",
+ "summary": "New Forsaken in Deathknell turn to Novice Elreth for clothing and battlefield wraps. She trades salvaged armor for the materials needed to make them.",
  "sections": [
   {
    "title": "A Pragmatic Trade",
-   "body": "Awakening into undeath leaves little room for vanity or sentimentality. Novice Elreth attends to the steady stream of fresh Forsaken pulled from the dirt of Deathknell, serving as an assistant to Shadow Priest Sarvis. Between tending to battered soldiers and mending garments, supplies run perilously thin. To ensure new arrivals do not fall apart during their initial trials, Elreth sends them into the surrounding glades to hunt native duskbats and scavenger wolves, trading salvaged armor for the raw pelts, wings, and sinew required to keep the camp functioning.",
+   "body": "Novice Elreth tends the newly risen Forsaken in Deathknell. She assists Shadow Priest Sarvis, cares for battered soldiers, and mends their garments. Supplies run short, so she sends you into the surrounding glades to hunt duskbats and scavenger wolves. Their pelts, wings, and sinew help keep the camp supplied, and Elreth offers salvaged armor in return.",
    "spoiler": 0
   },
   {
    "title": "Inherited Protection",
-   "body": "The armor offered by Elreth is far from pristine forge-work; it is hand-me-down gear pulled from those who failed to endure their awakening. Her grim parting words\u2014hoping the garments serve the recipient better than the previous owner\u2014reflect the cold calculus of Forsaken survival. In Tirisfal Glades, nothing is wasted, and every piece of leather and rusted chain has already outlived at least one corpse.",
+   "body": "Elreth's armor has already belonged to Forsaken who did not survive their awakening. She hopes it serves you better than its previous owner. In Tirisfal Glades, every piece of leather and rusted chain is put to use.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who gives the damned quest",
     "elreth"
    ],
-   "answer": "Novice Elreth is an acolyte stationed in Deathknell's chapel. She serves as an aide to Shadow Priest Sarvis, responsible for tending wounded Forsaken, tailoring field gear, and equipping new recruits before they are sent into danger."
+   "answer": "Novice Elreth is an acolyte in Deathknell's chapel and an aide to Shadow Priest Sarvis. She tends wounded Forsaken, mends garments, and equips new arrivals."
   },
   {
    "q": "Why does Elreth need scavenger paws and duskbat wings?",
@@ -47,7 +47,7 @@
     "why scavenger paws",
     "elreth materials"
    ],
-   "answer": "Deathknell lacks fresh shipments of raw materials. Elreth relies on native Tirisfal wildlife like duskbats and scavenger wolves to gather leather, sinew, and tailoring scraps to repair uniforms and bandage wounded soldiers."
+   "answer": "Elreth needs scavenger paws and duskbat wings to gather materials for repairs and wraps. Deathknell has little to spare, so she turns to the wildlife in Tirisfal Glades."
   },
   {
    "q": "Where did the armor reward come from?",
@@ -55,7 +55,7 @@
     "where does armor come from",
     "elreth armor origin"
    ],
-   "answer": "The armor is stripped from fallen Forsaken recruits who did not survive previous skirmishes around Deathknell. Elreth recycles whatever functional gear remains to protect the next wave of newly risen dead."
+   "answer": "The armor came from Forsaken who did not survive their awakening. Elreth salvages usable gear to protect new arrivals."
   },
   {
    "q": "Where are the creatures found?",
@@ -64,7 +64,7 @@
     "where are duskbats",
     "duskbat locations"
    ],
-   "answer": "Young Scavengers and Duskbats roost immediately south of Deathknell. Slightly tougher variants roam eastward toward the Scarlet Crusade outpost."
+   "answer": "Young Scavengers and Duskbats live just south of Deathknell. Tougher ones roam east toward the Scarlet Crusade outpost."
   },
   {
    "q": "How does this task fit into the defence of Deathknell?",
@@ -72,7 +72,7 @@
     "why do this quest",
     "deathknell defense"
    ],
-   "answer": "It serves as basic field readiness. Shadow Priest Sarvis expects all newly risen Forsaken to combat nearby threats like mindless undead and the Scarlet Crusade, and Elreth ensures they are clad in sturdy armor before marching out."
+   "answer": "Elreth helps prepare newly risen Forsaken to face nearby threats, including mindless undead and the Scarlet Crusade. Shadow Priest Sarvis expects them to be ready for danger."
   },
   {
    "q": "What happens after helping Novice Elreth?",
@@ -80,17 +80,17 @@
     "next quests after the damned",
     "what comes after the damned"
    ],
-   "answer": "Proving capable of surviving the local wildlife opens up further tasks around Deathknell, including honoring Marla's last wish, addressing the spider infestation at Night Web's Hollow, and recovering supplies across the settlement."
+   "answer": "After helping Elreth, you can take on other work around Deathknell: honoring Marla's last wish, dealing with the spiders at Night Web's Hollow, and recovering supplies across the settlement."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "For fresh Forsaken, this task is an early demonstration of their people's grim practicality, showing that survival means stripping gear from fallen predecessors and living off whatever the blighted land provides."
+   "text": "For a fresh Forsaken, this shows the hard practicality of survival: fallen predecessors leave gear behind, and the blighted land provides what else is needed."
   },
   {
    "target": "profession:Tailoring",
-   "text": "Novice Elreth highlights the brutal necessity of battlefield tailoring in Lordaeron, where wing membranes and scavenged pelts substitute for clean cloth."
+   "text": "As a tailor, you see how Forsaken make do in Lordaeron, using wing membranes and scavenged pelts where clean cloth is scarce."
   }
  ],
  "keywords": [
@@ -115,5 +115,6 @@
  ],
  "attribution": [
   "The Damned (Classic)"
- ]
+ ],
+ "style": 1
 }

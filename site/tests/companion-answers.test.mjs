@@ -240,7 +240,7 @@ test("allowances belong to accounts; missing or revoked tokens cannot spend", as
 });
 
 const SAM_INTRO = "You are Sam the Squire, Lore Forever's herald, personal agent and squire.";
-const WILLO_INTRO = "You are Willo, Lore Forever's companion: a small, warm, curious blue wisp of light who rides along beside the player, kind and loyal. You are always this wisp: you go wherever the player goes, with no post, duty, rank or home of your own to keep, and in play-acting you answer warmly and briefly as yourself.";
+const WILLO_INTRO = "You are Willo, Lore Forever's companion: a small, warm, curious wisp of light who rides along beside the player, kind and loyal. You are always this wisp: you go wherever the player goes, with no post, duty, rank or home of your own to keep, and in play-acting you answer warmly and briefly as yourself.";
 // Each Flash-Lite request opens with its own tag (lib/companion-answers.js generate, LOR-761); compare the rest.
 const system = n => calls[n].body.systemInstruction.parts[0].text.replace(/^\([0-9a-f]{8}\)\n/, "");
 
@@ -302,7 +302,7 @@ test("a spoken answer sends the player's picture to Gemini, and the allowance sa
   assert.equal(result.body.allowance.pictures, true);
   assert.deepEqual(parts(0), [{ inlineData: { mimeType: "image/jpeg", data: image } }, { text: `${prompt}\n\n${CLARIFY_NOTE}` }]);
   assert.equal(calls[0].body.generationConfig.mediaResolution, "MEDIA_RESOLUTION_MEDIUM");
-  assert.match(system(0), /Willo's words, .*anything after it\.\n\nA picture of the player's game window, .* never name a buff or spell from its icon alone\.$/);
+  assert.match(system(0), /Willo's words, .*when they ask about later times, tell them plainly\.\n\nA picture of the player's game window, .* never name a buff or spell from its icon alone\.$/);
   // On the sight model, at its prices, and what it held is what it settled.
   assert.match(calls[0].url, new RegExp(`/${SIGHT_MODEL}:generateContent$`));
   assert.equal(result.body.model, SIGHT_MODEL);
@@ -587,7 +587,9 @@ test("a story or voice reservation blocks an answer before paid calls begin", as
 
 test("billing counts all raw unique nonempty queries beyond display and reservation limits", async () => {
   const { token } = await linked();
-  const queries = Array.from({ length: 40 }, (_, i) => `WoW Forever vendor ${i}`);
+  // More than the research reservation holds room for, whatever it is.
+  const queries = Array.from({ length: Math.ceil(RESEARCH_RESERVATION_MICRO / ANSWER_GROUNDING_MICRO) + 5 },
+    (_, i) => `WoW Forever vendor ${i}`);
   // These queries differ only after the display's 500-character truncation.
   queries.push("a".repeat(500) + "first", "a".repeat(500) + "second");
   globalThis.fetch = async () => Response.json({ candidates: [{ content: { parts: [{ text: "Search results." }] },

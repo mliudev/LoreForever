@@ -5,7 +5,8 @@ import { isReportRead } from "./report-read.js";
 //
 // limit_hits, per account and UTC day: each time a live answer was turned away because a limit was reached (kind:
 // "day", the plan's answers a day; "month", a paid plan's month; "cost_cap", a paying player's month of answers and
-// hosted voice cost the plan's whole net, lib/billing.js capState; "brake", the free plan's brake), with the plan label
+// hosted voice cost the plan's whole net, lib/billing.js capState; "brake", the free plan's brake; "guard", an unlimited
+// plan's hidden most in a day, lib/billing.js GUARD_PER_DAY, so we see whether anyone reaches it), with the plan label
 // when it last happened (planLabel) and how many times. Answers stepped down to Flash-Lite past the text cap aren't
 // turned away: answer_log.model shows them (planUsageView models).
 // Written from functions/api/companion/answer.js outOfAnswers. The trial's own limits are already kept elsewhere
@@ -35,7 +36,7 @@ const SETUP = [
   "CREATE INDEX IF NOT EXISTS voice_days_day ON voice_days (day)",
   `CREATE TABLE IF NOT EXISTS voice_picks (user_id TEXT PRIMARY KEY, pick TEXT NOT NULL, updated TEXT NOT NULL)`,
 ];
-export const LIMIT_KINDS = ["day", "month", "cost_cap", "brake"];
+export const LIMIT_KINDS = ["day", "month", "cost_cap", "brake", "guard"];
 export const VOICE_KINDS = ["willo", "character", "line", "reading"];
 
 const ready = new WeakMap();

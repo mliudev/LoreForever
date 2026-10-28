@@ -24,16 +24,16 @@
    "Reassignment"
   ]
  },
- "summary": "Down the Coast is an Alliance task given by Lieutenant Farren Orinelle in Southshore. Deeply unhappy with his frontier transfer from Stormwind, the guard lieutenant prefers drinking ale to patrolling and hires adventurers to clear out the Torn Fin murlocs encroaching along the Western Strand.",
+ "summary": "Along Hillsbrad's coast, Lieutenant Farren Orinelle leaves Southshore's defense to passing adventurers. Sent from Stormwind, he would rather drink ale than patrol, even as Torn Fin murlocs gather along the Western Strand.",
  "sections": [
   {
    "title": "A Reluctant Posting",
-   "body": "Lieutenant Farren Orinelle was reassigned from the polished stone streets of the Stormwind city guard to the remote, salty port of Southshore. Finding the town dreary and its fishy harbor odor unbearable, Orinelle spends his days nursing drinks at the local inn rather than patrolling the frontlines. When ordered by Marshal Redpath to protect Southshore from the surrounding dangers, Orinelle chooses to subcontract his duties to passing sellswords instead.",
+   "body": "Lieutenant Farren Orinelle left Stormwind's city guard for a post in Southshore. The port feels dreary to him, and he cannot bear the fishy harbor odor. He spends his days drinking at the inn instead of patrolling the frontlines. Marshal Redpath has ordered him to protect Southshore from the dangers nearby, but Orinelle hires passing sellswords to do the work.",
    "spoiler": 0
   },
   {
    "title": "The Torn Fin Threat",
-   "body": "The task itself focuses on the Western Strand, the coastline stretching west from Southshore. While Orinelle scoffs at the threat of 'overgrown fish,' the Torn Fin tribe of murlocs poses a genuine hazard to coastal travel and local shipping. Gathering in tightly packed camps along the breakers, their tidehunters and mystical oracles readily ambush anyone straying too far from town walls, making clearing the shoreline a bloody undertaking.",
+   "body": "The Western Strand runs along the coast west of Southshore. Orinelle scoffs at the murlocs as overgrown fish, but the Torn Fin tribe threatens coastal travel and local shipping. Its tidehunters and oracles gather in camps along the breakers and ambush anyone who strays too far from town walls. Clearing the shoreline means facing them there.",
    "spoiler": 0
   }
  ],
@@ -45,7 +45,7 @@
     "farren orinelle personality",
     "why hire adventurers"
    ],
-   "answer": "Farren considers Southshore an unwanted exile from his former life in the Stormwind city guard. Resentful of his posting and disgusted by the coastal town, he would rather sit in the tavern drinking ale than march into the surf to fight murlocs, prompting him to pay adventurers to do his job."
+   "answer": "Farren sees Southshore as an unwanted exile from his former life in Stormwind's city guard. Resentful of his posting and disgusted by the coastal town, he would rather drink ale at the inn than fight murlocs, so he pays adventurers to do the work."
   },
   {
    "q": "Who is 'ol Redpath' mentioned by Orinelle?",
@@ -54,7 +54,7 @@
     "magistrate redpath",
     "orinelle commander"
    ],
-   "answer": "He is referring to Marshal Redpath, the marshal of Southshore. Redpath is responsible for maintaining order and defense in the embattled settlement, which includes issuing military directives that Lieutenant Orinelle blatantly seeks to evade."
+   "answer": "He means Marshal Redpath, Southshore's marshal. Redpath is responsible for order and defense in the embattled settlement, and issues military orders that Lieutenant Orinelle tries to evade."
   },
   {
    "q": "Where are the Torn Fin murlocs located?",
@@ -63,7 +63,7 @@
     "murloc location hillsbrad",
     "western strand location"
    ],
-   "answer": "The Torn Fin murlocs dwell along the Western Strand, the coastal beaches stretching directly west of Southshore in the Hillsbrad Foothills."
+   "answer": "The Torn Fin murlocs live along the Western Strand, the coastal beaches west of Southshore in the Hillsbrad Foothills."
   },
   {
    "q": "What kinds of murlocs need to be eliminated?",
@@ -72,7 +72,7 @@
     "which murlocs kill",
     "tidehunter oracle"
    ],
-   "answer": "The order requires slaying Torn Fin Tidehunters, the frontline fighters of the tribe, along with Torn Fin Oracles, who wield elemental and aquatic magic to bolster their brethren."
+   "answer": "The order calls for killing Torn Fin Tidehunters, the tribe's frontline fighters, and Torn Fin Oracles, who use elemental and aquatic magic to aid their kin."
   },
   {
    "q": "What happens after clearing the beach for Orinelle?",
@@ -81,7 +81,7 @@
     "down the coast chain",
     "farrens proof next"
    ],
-   "answer": "Upon completing the sweep, Orinelle realizes he needs tangible evidence to satisfy Marshal Redpath's scrutiny, kicking off a series of tasks aimed at gathering physical proof of the slain murlocs."
+   "answer": "After the sweep, Orinelle sees that he needs evidence to satisfy Marshal Redpath's scrutiny. He then seeks physical proof of the slain murlocs."
   },
   {
    "q": "Is the murloc threat actually serious or just an excuse?",
@@ -89,17 +89,17 @@
     "are murlocs dangerous hillsbrad",
     "southshore murloc danger"
    ],
-   "answer": "While Farren mocks the creatures as harmless overgrown fish, the Torn Fin are numerous, aggressive, and situated uncomfortably close to Southshore's docks, threatening trade routes and fishermen."
+   "answer": "Farren mocks them as harmless overgrown fish, but the Torn Fin are numerous and aggressive, and live close to Southshore's docks. They threaten trade routes and fishermen."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Southshore stands as the Alliance's primary coastal bastion in the north, making even petty negligence among the garrison a hazard to the town's survival."
+   "text": "As an Alliance soldier, you know Southshore is a key coastal stronghold in the north. Negligence among its garrison can put the town at risk."
   },
   {
    "target": "race:Human",
-   "text": "The contrast between Stormwind's sheltered core and the gritty survival of northern settlements is made painfully clear by Orinelle's indolence."
+   "text": "As a human, you can see the gulf between Stormwind's sheltered heart and the hard lives of northern settlements in Orinelle's neglect."
   }
  ],
  "keywords": [
@@ -124,5 +124,6 @@
  ],
  "attribution": [
   "Down the Coast"
- ]
+ ],
+ "style": 1
 }

@@ -8,11 +8,11 @@
   "wiki": "Captured Scarlet Zealot",
   "refs": 1
  },
- "summary": "The Captured Scarlet Zealot is a crusader prisoner held captive in the basement of Gallows' End Tavern in Brill. Watched over by Forsaken apothecaries and townsfolk, he serves as a living test subject for the Royal Apothecary Society's developing concoctions.",
+ "summary": "Beneath Gallows' End Tavern in Brill, a Scarlet Zealot is held captive. Forsaken apothecaries use him to test concoctions for the Royal Apothecary Society.",
  "sections": [
   {
    "title": "A Bitter Captive in Brill",
-   "body": "Confined beneath Gallows' End Tavern, this member of the Scarlet Crusade embodies the unyielding fanaticism of his order. Even in chains, surrounded by the undead he views as an abomination, he offers no remorse, calling on the Light to protect him from the foul and unholy creatures around him. For the Forsaken, capturing a living zealot is not an act of mercy; it provides valuable human test material to evaluate the lethality of experimental plagues and toxins under development by Apothecary Johaan.",
+   "body": "Beneath Gallows' End Tavern, a Scarlet Crusade zealot remains chained and defiant. His unyielding faith reflects his order, and he sees the undead around him as abominations. He calls on the Light to shield him from the foul creatures holding him. The Forsaken did not capture him out of mercy. As a living human, he is valuable test material for Apothecary Johaan, who uses him to measure the lethality of experimental plagues and toxins under development.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "why keep zealot alive",
     "who is the zealot in brill cellar"
    ],
-   "answer": "The Forsaken keep him captive in the tavern basement as a living subject for testing new poisons and chemical agents developed by the Royal Apothecary Society."
+   "answer": "The Forsaken keep him captive beneath Gallows' End Tavern as a living human test subject for poisons and chemical agents the Royal Apothecary Society is developing."
   },
   {
    "q": "Where can I find this captive?",
@@ -33,7 +33,7 @@
     "scarlet zealot location",
     "zealot in brill"
    ],
-   "answer": "He is imprisoned in the damp cellar beneath Gallows' End Tavern, situated in the center of Brill in Tirisfal Glades."
+   "answer": "He is held in the cellar beneath Gallows' End Tavern, in the center of Brill in Tirisfal Glades."
   },
   {
    "q": "How does he react to the Forsaken around him?",
@@ -42,17 +42,17 @@
     "zealot dialogue",
     "renee lauer and zealot"
    ],
-   "answer": "He remains fanatically defiant despite his confinement, crying out for the Light to protect him from his undead captors and swearing that the Scarlet Crusade will rid Azeroth of them."
+   "answer": "He remains fanatically defiant in captivity, calling on the Light to protect him from his undead captors and swearing the Scarlet Crusade will rid Azeroth of them."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "To the Forsaken of Brill, this fanatic in chains represents the relentless crusaders seeking their extermination, serving a far more useful role as an apothecary's guinea pig."
+   "text": "To Brill's Forsaken, this chained fanatic represents the crusaders who seek their extermination. They put him to use as test material for an apothecary."
   },
   {
    "target": "class:Priest",
-   "text": "Scarlet zealots claim exclusive dominion over the Holy Light, yet this prisoner's unwavering zeal offers no defense against the grim reality of Forsaken captivity."
+   "text": "Scarlet zealots claim the Holy Light for their own, but this prisoner's unwavering faith offers no defense against Forsaken captivity."
   }
  ],
  "keywords": [
@@ -71,5 +71,6 @@
  ],
  "attribution": [
   "Captured Scarlet Zealot"
- ]
+ ],
+ "style": 1
 }

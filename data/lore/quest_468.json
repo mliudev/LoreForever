@@ -20,16 +20,16 @@
    "The Algaz Gauntlet"
   ]
  },
- "summary": "Report to Mountaineer Rockgar is an Alliance breadcrumb quest directing adventurers north from the guard posts of Loch Modan toward Dun Algaz. Mountaineer Kadrell dispatches capable travelers to join Rockgar, who is organizing a vital expedition into the sodden lowlands of the Wetlands. It serves as the gateway passage connecting the dwarven homeland to northern territories.",
+ "summary": "Mountaineer Kadrell sends you north from Loch Modan to join Rockgar at Dun Algaz. Rockgar is organizing an expedition into the sodden lowlands of the Wetlands, along the pass between the dwarven homeland and the northern territories.",
  "sections": [
   {
    "title": "The Road to the North Gate",
-   "body": "Dun Algaz represents the crucial artery between Loch Modan and the marshy expanses of the Wetlands. Built into the northern mountain ridge, the fortified pass has long guaranteed safe passage for trade, messengers, and military detachments moving between Ironforge and Alliance settlements further north. With tensions rising along the borders, Mountaineer Kadrell keeps a close watch on travellers passing through, recruiting hardy volunteers to reinforce the northern outposts.",
+   "body": "Dun Algaz cuts through the northern ridge, linking Loch Modan with the marshy Wetlands. The fortified pass carries trade, messengers, and military detachments between Ironforge and Alliance settlements farther north. With tensions rising along the borders, Mountaineer Kadrell watches travelers on the road and recruits hardy volunteers for the northern outposts.",
    "spoiler": 0
   },
   {
    "title": "A Mission Gone Awry",
-   "body": "While Mountaineer Kadrell initially sends recruits expecting an ordinary scouting expedition, the reality at Dun Algaz proves far more hazardous. Upon arriving at the northern gate, adventurers find Mountaineer Rockgar preparing for active conflict rather than a peaceful reconnaissance trek. Hostile forces choking the pass quickly turn what was meant to be simple scouting into a bitter, messy struggle to secure the gauntlet.",
+   "body": "Mountaineer Kadrell sends recruits expecting a routine scouting expedition, but Dun Algaz proves more dangerous. At the northern gate, Mountaineer Rockgar is preparing for active conflict, not a peaceful reconnaissance trek. Hostile forces choke the pass, turning the scouting into a bitter struggle to secure the gauntlet.",
    "spoiler": 1
   }
  ],
@@ -41,7 +41,7 @@
     "quest giver rockgar",
     "kadrell quest"
    ],
-   "answer": "Mountaineer Kadrell gives the task. Stationed in Thelsamar across the road from the Stoutlager Inn, he keeps watch over the main road leading toward the mountain pass."
+   "answer": "Mountaineer Kadrell gives the order. He is stationed in Thelsamar across the road from the Stoutlager Inn, watching the main road toward the mountain pass."
   },
   {
    "q": "Where can I find Mountaineer Rockgar?",
@@ -50,7 +50,7 @@
     "where is rockgar",
     "mountaineer rockgar spot"
    ],
-   "answer": "Mountaineer Rockgar is stationed north along the road out of Loch Modan, guarding the entrance to the mountain tunnels of Dun Algaz."
+   "answer": "Mountaineer Rockgar is stationed north along the road out of Loch Modan, guarding the entrance to the tunnels of Dun Algaz."
   },
   {
    "q": "Why is this mission through Dun Algaz so important?",
@@ -59,7 +59,7 @@
     "dun algaz importance",
     "wetlands route"
    ],
-   "answer": "Dun Algaz is the primary overland corridor linking Loch Modan to the Wetlands. Keeping the passage clear is vital for the Alliance to maintain supply chains, military communication, and safe travel to Menethil Harbor and beyond."
+   "answer": "Dun Algaz is the main overland corridor between Loch Modan and the Wetlands. Keeping it clear protects Alliance supplies, military messages, and safe travel to Menethil Harbor and beyond."
   },
   {
    "q": "What happens after meeting Mountaineer Rockgar?",
@@ -68,7 +68,7 @@
     "rockgar follow up",
     "next quest after rockgar"
    ],
-   "answer": "Rockgar enlists your help immediately for The Algaz Gauntlet, revealing that the intended scouting operation has turned into a bloody fight to clear out the hostile forces blocking the mountain tunnels."
+   "answer": "Rockgar immediately enlists your help with The Algaz Gauntlet. The scouting expedition has become a bloody fight against hostile forces blocking the mountain tunnels."
   },
   {
    "q": "What level of adventurer should take on this assignment?",
@@ -77,7 +77,7 @@
     "level for dun algaz",
     "when to go to wetlands"
    ],
-   "answer": "This assignment is aimed at seasoned travelers around level 20 to 21 who are finishing their duties across Loch Modan and preparing to brave the perilous Wetlands."
+   "answer": "This assignment is for seasoned travelers around level twenty to twenty-one, finishing their duties in Loch Modan and preparing to brave the Wetlands."
   },
   {
    "q": "Is this quest available to Horde characters?",
@@ -85,17 +85,17 @@
     "can horde do this quest",
     "horde report to rockgar"
    ],
-   "answer": "No. The Ironforge Mountaineers are strictly loyal to King Magni Bronzebeard and the Alliance, meaning only Alliance adventurers can accept the quest."
+   "answer": "No. The Ironforge Mountaineers are loyal to King Magni Bronzebeard and the Alliance, so only Alliance travelers can accept the assignment."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "Answering the call of fellow mountaineers reinforces the vital overland link between the Ironforge heartland and the dwarven holdings in the Wetlands."
+   "text": "As a dwarf, answering fellow mountaineers reinforces the overland link between the Ironforge heartland and the dwarven holdings in the Wetlands."
   },
   {
    "target": "faction:Alliance",
-   "text": "Securing Dun Algaz ensures uninterrupted overland transit to Menethil Harbor, the Alliance's primary western port in the Eastern Kingdoms."
+   "text": "As an Alliance traveler, securing Dun Algaz keeps the overland route to Menethil Harbor, the Alliance's main western port in the Eastern Kingdoms, open."
   }
  ],
  "keywords": [
@@ -117,5 +117,6 @@
  ],
  "attribution": [
   "Report to Mountaineer Rockgar"
- ]
+ ],
+ "style": 1
 }

@@ -10,11 +10,11 @@
    "quest:1945"
   ]
  },
- "summary": "Laughing Sister's Hair consists of soft, magical locks harvested from dryads residing in the enchanted forests of Ashenvale. Highly sought after by skilled weavers, these strands possess innate mystical properties ideal for crafting fine robes.",
+ "summary": "In Ashenvale, laughing sisters' hair draws weavers seeking its natural magic. Kil'hala at the Crossroads uses the gathered locks to make enchanted robes.",
  "sections": [
   {
    "title": "A Rare Weaving Component",
-   "body": "Harvested from the dryads known as laughing sisters near Raynewood Retreat in Ashenvale, this hair holds remarkable natural magic. While dryads are sacred woodland protectors linked to Cenarius and the night elves, craftsmen within the Horde value their hair purely as a potent crafting reagent. The troll tailor Kil'hala at the Crossroads spins these gathered locks into enchanted vestments for burgeoning practitioners of the arcane.",
+   "body": "Near Raynewood Retreat in Ashenvale, laughing sisters are dryads whose hair holds natural magic. Dryads protect the woods and are linked to Cenarius and the night elves. Horde craftsmen prize their hair as a potent crafting material. Kil'hala, a troll tailor at the Crossroads, spins the locks into enchanted robes for Deino's promising pupils of the arcane.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "laughing sister hair location",
     "dryad hair source"
    ],
-   "answer": "The hair is gathered from laughing sisters, dryads that wander the enchanted groves near Raynewood Retreat in central Ashenvale."
+   "answer": "The hair comes from laughing sisters, dryads that wander the enchanted groves near Raynewood Retreat in central Ashenvale."
   },
   {
    "q": "Why is Kil'hala looking for dryad hair?",
@@ -35,7 +35,7 @@
     "use for laughing sister hair",
     "troll tailor dryad hair"
    ],
-   "answer": "Kil'hala is an artisan tailor stationed at the Crossroads in the Barrens. He utilizes the magical strands to weave enchanted cloth robes on behalf of Deino's promising pupils."
+   "answer": "Kil'hala, a tailor at the Crossroads in the Barrens, uses the magical strands to weave enchanted cloth robes for Deino's promising pupils."
   },
   {
    "q": "Will the laughing sisters give up their hair willingly?",
@@ -43,17 +43,17 @@
     "can you ask dryads for hair",
     "do dryads donate hair"
    ],
-   "answer": "No. The laughing sisters are fierce guardians of nature and sworn protectors of Ashenvale. As Kil'hala dryly notes, dryads would never willingly surrender their hair to agents of the Horde."
+   "answer": "No. Laughing sisters guard nature and protect Ashenvale. As Kil'hala notes, dryads would never willingly surrender their hair to agents of the Horde."
   }
  ],
  "angles": [
   {
    "target": "profession:Tailoring",
-   "text": "The ethereal locks of dryads represent one of the most exotic thread sources in Kalimdor, prized for binding innate nature magic into cloth."
+   "text": "For a tailor, dryad locks offer an exotic thread for binding nature magic into cloth."
   },
   {
    "target": "faction:Horde",
-   "text": "Acquiring these locks requires pushing into night elf territory in Ashenvale to slay woodland spirits, demonstrating the Horde's willingness to harvest local magic by force."
+   "text": "As a member of the Horde, you must enter night elf territory in Ashenvale and slay woodland spirits to take their locks, harvesting local magic by force."
   }
  ],
  "keywords": [
@@ -80,5 +80,6 @@
  "attribution": [
   "Laughing Sister's Hair",
   "Laughing Sisters"
- ]
+ ],
+ "style": 1
 }

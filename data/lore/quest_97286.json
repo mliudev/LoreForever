@@ -1,0 +1,65 @@
+{
+ "key": "quest:97286",
+ "type": "quest",
+ "name": "Research Access",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   97286
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "The library opens its doors to you for study. Your actions have shown respect for knowledge.",
+ "sections": [
+  {
+   "title": "Library Access",
+   "body": "You have earned access to the library for your studies. Its doors are open to you.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why can I enter the library?",
+   "aliases": [
+    "library access",
+    "why library open",
+    "study library"
+   ],
+   "answer": "Your actions have shown respect for knowledge, and the library is open to you for study."
+  },
+  {
+   "q": "What does the library offer me?",
+   "aliases": [
+    "library for what",
+    "study access",
+    "what can i do"
+   ],
+   "answer": "The library is open for your study."
+  },
+  {
+   "q": "What did my actions show?",
+   "aliases": [
+    "respect knowledge",
+    "why accepted",
+    "what did i prove"
+   ],
+   "answer": "Your actions showed respect for knowledge."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "access",
+  "knowledge",
+  "library",
+  "research access",
+  "respect",
+  "study"
+ ],
+ "related": [],
+ "style": 1,
+ "attribution": [
+  "In-game quest text: Research Access"
+ ]
+}

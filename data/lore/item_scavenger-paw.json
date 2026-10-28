@@ -10,11 +10,11 @@
    "quest:376"
   ]
  },
- "summary": "Scavenger Paws are severed limbs gathered from the young and ragged wolves roaming the hills of Deathknell. Newly awakened Forsaken collect them for local caretakers to stitch together into crude, protective gear.",
+ "summary": "In Deathknell, Scavenger Paw comes from the young, ragged wolves roaming the hills. Newly awakened Forsaken gather the severed paws for local caretakers to stitch into crude protective gear.",
  "sections": [
   {
    "title": "Cobbled Armor in Deathknell",
-   "body": "Resources are scarce for the newly returned in Deathknell. With the Scourge and the Scarlet Crusade pressing against Tirisfal, every scrap of hide and bone is put to practical use. Novice Elreth, assistant to Shadow Priest Sarvis, collects paws from the local scavenger wolves alongside bat wings to fashion serviceable garments and armor for disoriented Forsaken stepping fresh from their graves.",
+   "body": "Deathknell's newly returned Forsaken have little to spare. The Scourge and the Scarlet Crusade press against Tirisfal, so every scrap of hide and bone goes to practical use. Novice Elreth assists Shadow Priest Sarvis and gathers paws from scavenger wolves, along with bat wings. She uses them to make serviceable garments and armor for Forsaken who have just risen from their graves, still disoriented by their return.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "use for paws",
     "why collect paws"
    ],
-   "answer": "They are collected by Novice Elreth in Deathknell, who tailors raw animal parts into basic armor and stitched garments for fresh Forsaken initiates."
+   "answer": "Novice Elreth collects Scavenger Paws in Deathknell and stitches raw animal parts into basic armor and garments for fresh Forsaken."
   },
   {
    "q": "Where do you find them?",
@@ -35,7 +35,7 @@
     "where to get paws",
     "which wolves drop paws"
    ],
-   "answer": "They are taken from Young Scavengers and Ragged Scavengers, the feral wolves that roam the woodlands and fields directly surrounding Deathknell."
+   "answer": "You find them on Young Scavengers and Ragged Scavengers, feral wolves roaming the woods and fields around Deathknell."
   },
   {
    "q": "Who asks for these paws?",
@@ -44,17 +44,17 @@
     "paw quest giver",
     "novice elreth paws"
    ],
-   "answer": "Novice Elreth, who assists Shadow Priest Sarvis by treating wounded recruits, tailoring equipment, and outfitting those sent into the field."
+   "answer": "Novice Elreth asks for the paws. She assists Shadow Priest Sarvis by treating wounded recruits, tailoring equipment, and outfitting those sent into the field."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "Awakening with decaying flesh and little gear, collecting parts from local predators is often the first step in assembling enough armor to endure the hazards of Tirisfal."
+   "text": "As a newly awakened Forsaken with decaying flesh and little gear, you can gather parts from local predators to assemble enough armor for Tirisfal's hazards."
   },
   {
    "target": "profession:Tailoring",
-   "text": "The crude assembly of wolf paws and bat wings by Novice Elreth shows how improvised stitchcraft sustains the fledgling Forsaken settlements."
+   "text": "As a tailor, you can see how Novice Elreth stitches wolf paws and bat wings into crude gear for the fledgling Forsaken settlements."
   }
  ],
  "keywords": [
@@ -77,5 +77,6 @@
  "attribution": [
   "Scavenger Paw",
   "The Damned (Classic)"
- ]
+ ],
+ "style": 1
 }

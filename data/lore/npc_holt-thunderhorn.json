@@ -8,11 +8,11 @@
   "wiki": "Holt Thunderhorn",
   "refs": 1
  },
- "summary": "Holt Thunderhorn is a tauren hunter trainer stationed upon Hunter Rise in the elevated city of Thunder Bluff. He instructs novice and seasoned track-masters in their craft, offering basic martial guidance and pointing maturing marksmen toward specialized trials across Mulgore and beyond.",
+ "summary": "On Hunter Rise in Thunder Bluff, Holt Thunderhorn trains tauren hunters for the Horde. He teaches tracking and survival, and points hunters toward specialized trials across Mulgore and beyond.",
  "sections": [
   {
    "title": "Master of the Rise",
-   "body": "Perched on Hunter Rise above the sweeping plains of Mulgore, Holt Thunderhorn serves the Horde as a seasoned instructor in ranged combat, tracking, and survival. Like many elders of his craft, he guides young tauren as they make the transition from roaming hunters into disciplined defenders of their new capital.",
+   "body": "Holt Thunderhorn trains hunters for the Horde on Hunter Rise, above the plains of Mulgore. He teaches ranged combat, tracking, and survival. Like other elders of his craft, he guides young tauren as they move from roaming hunters to disciplined defenders of their new capital.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "where is holt",
     "hunter trainer thunder bluff"
    ],
-   "answer": "Holt Thunderhorn stands on Hunter Rise, the southeastern elevated plateau within the tauren capital of Thunder Bluff in Mulgore."
+   "answer": "Holt Thunderhorn can be found on Hunter Rise, the southeastern plateau in Thunder Bluff, the tauren capital in Mulgore."
   },
   {
    "q": "What does Holt Thunderhorn teach?",
@@ -33,7 +33,7 @@
     "holt thunderhorn trainer",
     "what abilities holt"
    ],
-   "answer": "He is a hunter trainer who instructs players in essential marksmanship, wilderness survival, and beast-taming techniques, as well as directing novices to specialized beast mastery trials."
+   "answer": "Holt Thunderhorn is a hunter trainer who teaches marksmanship, wilderness survival, and beast taming. He also directs novice hunters to specialized beast mastery trials."
   },
   {
    "q": "What role do hunters hold in Thunder Bluff?",
@@ -41,17 +41,17 @@
     "hunter rise purpose",
     "tauren hunter lore"
    ],
-   "answer": "Hunters form the traditional backbone of tauren society, providing sustenance, patrolling territorial borders against centaur raiding parties, and honoring the Earth Mother through balanced, reverent tracking."
+   "answer": "Hunters are the traditional backbone of tauren society. They provide food, patrol the borders against centaur raiding parties, and honor the Earth Mother through balanced, reverent tracking."
   }
  ],
  "angles": [
   {
    "target": "class:Hunter",
-   "text": "Holt Thunderhorn serves as a central mentor in Thunder Bluff, offering weapon techniques, tracking training, and referrals for taming beasts."
+   "text": "As a hunter, you can look to Holt Thunderhorn as a central mentor in Thunder Bluff. He teaches weapon techniques and tracking, and refers hunters to beast taming."
   },
   {
    "target": "race:Tauren",
-   "text": "Stationed on Hunter Rise, Holt embodies the traditional tauren hunting culture that fed and protected the nomadic tribes long before they established a permanent home atop the bluffs."
+   "text": "As a tauren, you inherit a hunting culture that fed and protected the nomadic tribes long before they made a permanent home atop the bluffs. Holt Thunderhorn carries on that tradition on Hunter Rise."
   }
  ],
  "keywords": [
@@ -70,5 +70,6 @@
  ],
  "attribution": [
   "Holt Thunderhorn"
- ]
+ ],
+ "style": 1
 }

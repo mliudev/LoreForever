@@ -8,21 +8,21 @@
   "wiki": "Watch Captain Parker",
   "refs": 3
  },
- "summary": "Guard Parker is a vigilant town guardsman stationed at the Three Corners outpost in the Redridge Mountains. Tasked with patrolling the roads and monitoring aggressive gnoll packs, he serves as an early line of defense for travelers heading into Lakeshire.",
+ "summary": "At Three Corners, Watch Captain Parker guards the road and travelers bound for Lakeshire. He patrols the junction and watches the gnoll packs gathering nearby, an early line of defense for those heading into town.",
  "sections": [
   {
    "title": "On Guard at Three Corners",
-   "body": "Positioned at the vital junction known as Three Corners, Parker keeps watch over the roads connecting Elwynn Forest, Duskwood, and Redridge. With Stormwind's military resources stretched thin and little official reinforcement reaching the region, solo watchmen like Parker carry the burden of keeping the crossroads clear of bandits, prowling predators, and raiding gnolls.",
+   "body": "At Three Corners, Watch Captain Parker watches the roads between Elwynn Forest, Duskwood, and Redridge. Stormwind has few troops to spare, and little official help reaches the region. Parker and other lone watchmen must keep the crossroads clear of bandits, prowling predators, and raiding gnolls.",
    "spoiler": 0
   },
   {
    "title": "Assessing the Gnoll Threat",
-   "body": "Parker's immediate concern is the gnoll encampments gathering to the north and east of his post. As packs encroach closer toward the roadway, he sends able-bodied travelers to carry word of the gathering gnoll force to Deputy Feldon in Lakeshire. The Redridge pack's growing boldness poses an immediate danger to supply convoys and refugees seeking shelter in Lakeshire.",
+   "body": "Gnoll camps gathering north and east of Parker’s post draw his attention. As the packs press closer to the road, he sends able-bodied travelers to warn Deputy Feldon in Lakeshire. The Redridge gnolls grow bolder, threatening supply convoys and refugees seeking shelter in town.",
    "spoiler": 0
   },
   {
    "title": "A Touch of Warmth",
-   "body": "Life on a lonely roadside post can be grim, but small kindnesses still find their way to Three Corners. Darcy, the server from the Lakeshire Inn, sends Parker a warm lunch while he is out on patrol. Touched by the gesture, Parker asks the adventurer who delivered it to fetch a bouquet from Lakeshire's herbalist and bring it back to her as a token of his appreciation, without telling the herbalist whom the flowers are from or for.",
+   "body": "A lonely roadside post can be grim, yet kindness reaches Three Corners. Darcy, a server at the Lakeshire Inn, sends Parker a warm lunch while he patrols. Touched by her kindness, Parker asks the traveler who brought it to fetch a bouquet from Lakeshire’s herbalist and take it back to Darcy. He asks that the herbalist not be told who the flowers are from or for.",
    "spoiler": 0
   }
  ],
@@ -34,7 +34,7 @@
     "where is parker",
     "find guard parker"
    ],
-   "answer": "Parker is stationed at Three Corners, a roadway intersection situated in southwestern Redridge Mountains near the border crossings to Duskwood and Elwynn Forest."
+   "answer": "Parker is stationed at Three Corners, where roads meet in southwestern Redridge Mountains near the crossings to Duskwood and Elwynn Forest."
   },
   {
    "q": "Why is Parker stationed all the way out at Three Corners?",
@@ -43,7 +43,7 @@
     "why is parker alone",
     "three corners guard"
    ],
-   "answer": "He is tasked with patrolling the southern roads and keeping a watchful eye on encroaching gnoll packs to keep regional travel and supply routes open into Lakeshire."
+   "answer": "Parker patrols the southern roads from Three Corners and watches the encroaching gnoll packs, helping keep travel and supply routes open to Lakeshire."
   },
   {
    "q": "What threats is Parker monitoring in Redridge?",
@@ -52,7 +52,7 @@
     "what enemies are near parker",
     "gnoll threat redridge"
    ],
-   "answer": "Parker keeps tabs on the encroaching Redridge gnoll pack threatening the highway, while staying alert to the broader dangers facing the zone, including Blackrock orcs at Stonewatch and Shadowhide gnolls near the Tower of Ilgalar."
+   "answer": "Parker watches the Redridge gnolls threatening the highway and stays alert to Blackrock orcs at Stonewatch and Shadowhide gnolls near the Tower of Ilgalar."
   },
   {
    "q": "What is Parker's relationship with Darcy?",
@@ -61,7 +61,7 @@
     "who is darcy",
     "a free lunch quest lore"
    ],
-   "answer": "Darcy works at the Lakeshire Inn and sends a hot lunch out to Parker at his remote post. In return, Parker has the traveler who brought it pick up flowers from the town herbalist for her, to express his gratitude and affection."
+   "answer": "Darcy works at the Lakeshire Inn and sends Parker a hot lunch at his remote post. In return, Parker asks the traveler who brought it to fetch flowers from the town herbalist for her, as thanks and a sign of his affection."
   },
   {
    "q": "Why doesn't Parker receive reinforcements from Stormwind?",
@@ -70,7 +70,7 @@
     "stormwind aid redridge",
     "parker reinforcements"
    ],
-   "answer": "With King Varian Wrynn missing and the capital caught up in internal political paralysis, Stormwind has largely left Redridge to fend for itself, forcing local guards and magistrates to rely on roaming adventurers."
+   "answer": "Stormwind sends little help to Redridge while King Varian Wrynn is missing and the capital is caught in political paralysis. Local guards and magistrates must rely on roaming adventurers."
   },
   {
    "q": "What quests does Guard Parker offer?",
@@ -78,21 +78,21 @@
     "parker quests",
     "quests from parker"
    ],
-   "answer": "Parker asks adventurers to report the gnoll encampments gathering near the road to Deputy Feldon in Lakeshire, and helps arrange a delivery of fresh flowers back to Darcy at the Lakeshire Inn."
+   "answer": "Parker asks travelers to report the gnoll camps gathering near the road to Deputy Feldon in Lakeshire. He also arranges for fresh flowers to be carried to Darcy at the Lakeshire Inn."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Parker represents the strained, solitary frontier defense of an Alliance that cannot spare troops to protect its own borders."
+   "text": "As an Alliance sentry, Parker shows how a stretched frontier defense struggles to protect its own borders."
   },
   {
    "target": "race:Human",
-   "text": "For humans of the kingdom, Parker is a reminder of the ordinary sentries striving to hold the kingdom's outlying villages together during a national crisis."
+   "text": "As a human, you can see in Parker an ordinary sentry trying to hold the kingdom’s outlying villages together during a national crisis."
   },
   {
    "target": "profession:Herbalism",
-   "text": "Parker's search for fresh blooms to send to Darcy highlights the quiet value of the local flora blooming across the Redridge hillsides."
+   "text": "As a herbalist, you can find quiet value in the fresh blooms growing across the Redridge hillsides, which Parker seeks for Darcy."
   }
  ],
  "keywords": [
@@ -117,5 +117,6 @@
  ],
  "attribution": [
   "Watch Captain Parker"
- ]
+ ],
+ "style": 1
 }

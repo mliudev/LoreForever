@@ -10,11 +10,11 @@
    "quest:274"
   ]
  },
- "summary": "Disarming Colloid is a specialized chemical agent formulated to counter the volatility of Seaforium explosive powder. Provided by the dwarf Ashlan Stonesmirk in the Wetlands, it serves as the crucial stabilizing component in a neutralizing mixture meant to prevent a catastrophic demolition of the Stonewrought Dam.",
+ "summary": "At the Stonewrought Dam, Disarming Colloid could keep Seaforium from exploding when wet. Ashlan Stonesmirk provides it in the Wetlands for a mixture that can neutralize the powder.",
  "sections": [
   {
    "title": "A Chemical Neutralizer",
-   "body": "When Ashlan Stonesmirk analyzed the unusual blasting powder left by Dark Iron sappers at the Stonewrought Dam in Loch Modan, he recognized it immediately by its distinct scent and fine silver crystals: Seaforium. While harmless when completely dry, Seaforium becomes immensely destructive upon contact with moisture, making it an existential threat to the waterlogged Stonewrought Dam. To halt this reaction before a detonation occurs, Stonesmirk provided a disarming colloid. When combined with three specific local reagents\u2014lurker venom, crushed Mo'grosh crystal, and a crocolisk tear\u2014this colloid effectively neutralizes the explosive properties of the Seaforium compound.",
+   "body": "Ashlan Stonesmirk recognized the powder left by Dark Iron sappers at the Stonewrought Dam in Loch Modan as Seaforium. Its scent and fine silver crystals gave it away. The powder is harmless while dry, but moisture makes it immensely destructive, a grave danger at the waterlogged dam. Stonesmirk provided Disarming Colloid to stop the reaction before detonation. Mixed with lurker venom, crushed Mo'grosh crystal, and a crocolisk tear, the colloid neutralizes Seaforium's explosive properties.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "what does disarming colloid do",
     "seaforium disarmer"
    ],
-   "answer": "It serves as the base chemical agent needed to defuse Seaforium explosive powder. When mixed with lurker venom, crushed Mo'grosh crystal, and a crocolisk tear, it neutralizes the volatile reaction that would otherwise cause a catastrophic explosion when the Seaforium gets wet."
+   "answer": "Disarming Colloid is the base chemical agent for defusing Seaforium. Mixed with lurker venom, crushed Mo'grosh crystal, and a crocolisk tear, it neutralizes the powder's volatile reaction when wet."
   },
   {
    "q": "Who created or provided this colloid?",
@@ -34,7 +34,7 @@
     "who gives the colloid",
     "ashlan colloid"
    ],
-   "answer": "The disarming colloid is provided by Ashlan Stonesmirk, an explosives expert assigned to the regiment guarding Dun Modr in the Wetlands, who recognizes the Dark Iron dwarves' plot to blow up the Stonewrought Dam."
+   "answer": "Ashlan Stonesmirk provides the colloid. He is an explosives expert assigned to the regiment guarding Dun Modr in the Wetlands, and recognizes the Dark Iron dwarves' plan to destroy the Stonewrought Dam."
   },
   {
    "q": "Why is Seaforium so dangerous in the Wetlands?",
@@ -42,7 +42,7 @@
     "why is seaforium dangerous",
     "wet seaforium"
    ],
-   "answer": "Seaforium powder is chemically inert while dry, but contact with moisture causes it to become violently explosive. Because the Wetlands are saturated with water and the target is the Stonewrought Dam itself, any damp Seaforium presents an immediate threat of massive devastation."
+   "answer": "Seaforium is harmless while dry, but moisture makes it violently explosive. The Wetlands are saturated with water, and the powder is aimed at the Stonewrought Dam, so damp Seaforium threatens massive devastation."
   },
   {
    "q": "Who must this colloid be delivered to?",
@@ -50,17 +50,17 @@
     "who do i take colloid to",
     "colloid turn in"
    ],
-   "answer": "Ashlan Stonesmirk instructs that the colloid and the news of the Seaforium plot be rushed directly to Chief Engineer Hinderweir at the Stonewrought Dam."
+   "answer": "Ashlan Stonesmirk says the colloid and news of the Seaforium plot must go straight to Chief Engineer Hinderweir at the Stonewrought Dam."
   }
  ],
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "Engineers will recognize Seaforium as an advanced explosive compound capable of immense destruction, requiring precise chemical counteragents like this colloid rather than crude mechanical defusal."
+   "text": "As an engineer, you know Seaforium can bring immense destruction. It takes a precise chemical counteragent like this colloid to stop it."
   },
   {
    "target": "race:Dwarf",
-   "text": "The discovery of Seaforium targeted at the Stonewrought Dam represents a direct threat to dwarven engineering masterworks and the security of Loch Modan above."
+   "text": "As a dwarf, you know the Seaforium aimed at the Stonewrought Dam threatens dwarven engineering and the security of Loch Modan above."
   }
  ],
  "keywords": [
@@ -85,5 +85,6 @@
  "attribution": [
   "Disarming Colloid",
   "A Dark Threat Looms (4)"
- ]
+ ],
+ "style": 1
 }

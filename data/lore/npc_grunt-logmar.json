@@ -8,11 +8,11 @@
   "wiki": "Grunt Logmar",
   "refs": 2
  },
- "summary": "Grunt Logmar is an orc warrior of the Horde stationed in the southern Barrens at Camp Taurajo. Dutiful and vigilant, he monitors threats surrounding the camp and coordinates efforts to locate and aid missing Horde scouts in the region.",
+ "summary": "At Camp Taurajo, Grunt Logmar watches the southern Barrens frontier for the Horde. He tracks threats near the camp and seeks aid for missing scouts.",
  "sections": [
   {
    "title": "Duty at Camp Taurajo",
-   "body": "Stationed among the tauren at Camp Taurajo, Grunt Logmar serves as a watchful orc guard on the southern Barrens frontier. The settlement sits close to hostile quilboar grounds and the mountain passes leading into Stonetalon and Mulgore, requiring constant vigilance. Logmar coordinates scouting reports and reaches out to capable Horde travelers when his comrades find themselves ambushed or captured by local hostiles.",
+   "body": "At Camp Taurajo, Grunt Logmar guards the Horde's southern Barrens frontier. The camp lies among the tauren, near hostile quilboar grounds and the mountain passes into Stonetalon and Mulgore. Logmar keeps watch over these dangers and coordinates scouting reports. When his comrades are ambushed or captured by local hostiles, he calls on capable Horde travelers to help find and aid them.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "who is logmar",
     "logmar barrens"
    ],
-   "answer": "Grunt Logmar is an orc soldier stationed at Camp Taurajo in the southern Barrens, serving the Horde by securing the settlement and overseeing rescue and reconnaissance tasks."
+   "answer": "Grunt Logmar is an orc soldier at Camp Taurajo in the southern Barrens. He guards the settlement for the Horde and oversees rescue and scouting efforts."
   },
   {
    "q": "Where can Grunt Logmar be found?",
@@ -33,7 +33,7 @@
     "logmar location",
     "find grunt logmar"
    ],
-   "answer": "He is located in Camp Taurajo, an outpost situated in the southern plains of the Barrens along the road leading toward the Great Lift and Thousand Needles."
+   "answer": "You can find Grunt Logmar at Camp Taurajo, in the southern Barrens along the road toward the Great Lift and Thousand Needles."
   },
   {
    "q": "What matters does Logmar oversee?",
@@ -42,17 +42,17 @@
     "what does logmar want",
     "dogran rescue"
    ],
-   "answer": "Logmar deals with the safety of missing Horde scouts, notably tasking travelers to investigate the disappearance and captivity of fellow grunt Dogran and secure vital supplies like Ken'zigla's draught."
+   "answer": "Logmar oversees the safety of missing Horde scouts. He sends travelers to investigate the disappearance and captivity of fellow grunt Dogran and recover vital supplies such as Ken'zigla's draught."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "Logmar represents the frontline military presence supporting the tauren in the Barrens, relying on Horde champions to look after fallen and captured scouts."
+   "text": "Logmar is a frontline Horde soldier supporting the tauren in the Barrens. He relies on Horde champions to aid fallen and captured scouts."
   },
   {
    "target": "race:Orc",
-   "text": "As an orc grunt stationed far from Orgrimmar, Logmar demonstrates the Horde's commitment to standing shoulder-to-shoulder with their tauren allies."
+   "text": "As an orc grunt stationed far from Orgrimmar, you stand alongside the Horde's tauren allies."
   }
  ],
  "keywords": [
@@ -74,5 +74,6 @@
  ],
  "attribution": [
   "Grunt Logmar"
- ]
+ ],
+ "style": 1
 }

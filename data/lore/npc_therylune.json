@@ -8,11 +8,11 @@
   "wiki": "Therylune",
   "refs": 1
  },
- "summary": "Therylune is a dryad found held captive at the Master's Glaive in southern Darkshore. Entrapped by the insidious Twilight's Hammer cultists who have occupied the ancient site, she relies on bold travelers to help her break free and escape their clutches.",
+ "summary": "At the Master's Glaive in southern Darkshore, Therylune waits for a chance to escape her captors. Twilight's Hammer cultists have trapped the dryad at the ancient site, and she needs a traveler's help to reach safety.",
  "sections": [
   {
    "title": "Captive of the Cult",
-   "body": "Dryads are guardians of nature and daughters of Cenarius, normally roaming the tranquil woodlands of northern Kalimdor. However, Therylune ventured too close to the ominous excavation at the Master's Glaive in southern Darkshore, where Twilight's Hammer cultists have gathered. Ambushed and trapped by the dark cult, she is unable to fight her way out alone through the swarms of cultists and requires an escort to flee to safety.",
+   "body": "Therylune is a dryad, a daughter of Cenarius who guards nature. She came from the tranquil woodlands of northern Kalimdor to the Master's Glaive in southern Darkshore. Twilight's Hammer cultists have gathered at the ancient excavation and ambushed her. Surrounded by their swarms, she cannot fight her way free alone. She needs an escort through the cultists and out to safety.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "therylune lore",
     "what is therylune"
    ],
-   "answer": "Therylune is a dryad, one of the woodland daughters of the demigod Cenarius. She has been captured by Twilight's Hammer cultists operating at the Master's Glaive in southern Darkshore."
+   "answer": "Therylune is a dryad, one of the woodland daughters of the demigod Cenarius. Twilight's Hammer cultists have captured her at the Master's Glaive in southern Darkshore."
   },
   {
    "q": "Why is Therylune trapped at the Master's Glaive?",
@@ -33,7 +33,7 @@
     "how did therylune get caught",
     "masters glaive cultists"
    ],
-   "answer": "Therylune was ambushed and pinned down by the Twilight's Hammer cultists who have established a dark camp around the giant petrified remains at the Master's Glaive."
+   "answer": "Therylune was ambushed and pinned down by Twilight's Hammer cultists. They have established a dark camp around the giant petrified remains at the Master's Glaive."
   },
   {
    "q": "Does Therylune have any family?",
@@ -42,7 +42,7 @@
     "therysil therylune",
     "therylune family"
    ],
-   "answer": "Yes, Therylune is the sister of Therysil, another dryad who dwells in the woodlands of northern Kalimdor."
+   "answer": "Yes. Therylune is the sister of Therysil, another dryad who dwells in the woodlands of northern Kalimdor."
   },
   {
    "q": "What happens once you help her escape?",
@@ -51,17 +51,17 @@
     "quest 945",
     "what does therylune do"
    ],
-   "answer": "When adventurers clear a path through the hostile cultists, Therylune successfully flees the Master's Glaive and returns to the safety of the surrounding wilds."
+   "answer": "Once you clear a path through the hostile cultists, Therylune flees the Master's Glaive and returns to the safety of the surrounding wilds."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "As stewards of nature aligned with Cenarius and his kin, druids feel a direct kinship and urgent duty to rescue a dryad captured by malevolent cultists."
+   "text": "As a druid, you share a kinship with Cenarius and his kin. You feel an urgent duty to rescue a dryad captured by malevolent cultists."
   },
   {
    "target": "race:NightElf",
-   "text": "Night elves share sacred ancient ties with the daughters of Cenarius, making Therylune's captivity at the hands of the Twilight's Hammer an affront to Kalimdor's balance."
+   "text": "As a night elf, you share ancient, sacred ties with the daughters of Cenarius. Therylune's captivity at Twilight's Hammer's hands is an affront to Kalimdor's balance."
   }
  ],
  "keywords": [
@@ -84,5 +84,6 @@
  ],
  "attribution": [
   "Therylune"
- ]
+ ],
+ "style": 1
 }

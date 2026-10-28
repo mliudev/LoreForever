@@ -8,16 +8,16 @@
   "wiki": "Sneed's Shredder",
   "refs": 5
  },
- "summary": "Sneed's Shredder is an imposing mechanised lumber harvester stationed deep within the Deadmines. Piloted by the goblin taskmaster Sneed, this deadly machine acts as both heavy industrial machinery for Edwin VanCleef's shipwrights and a terrifying perimeter defender.",
+ "summary": "Deep in the Deadmines, Sneed's Shredder cuts timber and guards the works. Goblin taskmaster Sneed pilots the machine for Edwin VanCleef's shipwrights, turning its blades against intruders.",
  "sections": [
   {
    "title": "Industrial Terror",
-   "body": "Within the goblin-dominated foundry of the Deadmines, mechanical shredders serve a dual purpose: processing vast amounts of timber and lumber required for Edwin VanCleef's hidden juggernaut, and serving as armored shock engines against intruders. Sneed, the overseer of the lumber works, operates this modified mechanical beast directly, turning an oversized buzzsaw into an instrument of defense.",
+   "body": "In the Deadmines foundry, goblin shredders cut timber for Edwin VanCleef's hidden juggernaut. They also meet intruders with armored force. Sneed oversees the lumber works and pilots this modified machine himself, wielding its oversized buzzsaw as a weapon of defense.",
    "spoiler": 0
   },
   {
    "title": "A Deadly Cockpit",
-   "body": "Defeating the machine does not end the threat. Sneed perches inside an open cockpit above the spinning blades, relying on heavy iron plating and terrifying clatter to scatter his foes. Even when the machinery breaks down and the shredder collapses in a shower of sparks, Sneed leaps from the smoking wreckage to fight to the bitter end.",
+   "body": "Sneed rides above the spinning blades in an open cockpit, protected by heavy iron plating. The machine's clatter can scatter his foes. When the shredder breaks down and collapses in sparks, Sneed leaps from the wreckage and fights on.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "why is there a shredder in deadmines",
     "shredder purpose deadmines"
    ],
-   "answer": "The Defias Brotherhood relies heavily on goblin machinery to carve through subterranean stone and process massive quantities of timber needed to construct their secret juggernaut. Sneed uses this shredder to mill wood and brutally enforce order over the underground works."
+   "answer": "The Defias Brotherhood uses goblin machinery to cut through stone and process timber for its secret juggernaut. Sneed's Shredder mills wood and enforces order in the underground works."
   },
   {
    "q": "What happens when the shredder is destroyed?",
@@ -36,7 +36,7 @@
     "does sneed die with the shredder",
     "sneed shredder phase 2"
    ],
-   "answer": "When the shredder suffers critical mechanical failure, Sneed himself survives the wreckage. The goblin pilot emerges directly from the ruined vehicle, brandishing his own weapons and attacking intruders with fierce tenacity."
+   "answer": "When the shredder breaks down, Sneed survives. The goblin pilot emerges from the wreckage with his own weapons and attacks intruders fiercely."
   },
   {
    "q": "Why do the Defias Brotherhood have goblin technology?",
@@ -44,7 +44,7 @@
     "defias goblins",
     "why are goblins in deadmines"
    ],
-   "answer": "Edwin VanCleef hired goblin engineers, craftsmen, and mercenary laborers to oversee the complex mechanical operations beneath Westfall, including steam-powered forges, gun foundries, and woodmills."
+   "answer": "Edwin VanCleef hired goblin engineers, craftsmen, and mercenary laborers to run mechanical works beneath Westfall, including steam powered forges, gun foundries, and woodmills."
   },
   {
    "q": "Can the shredder be hacked or controlled by engineers?",
@@ -52,7 +52,7 @@
     "control sneed shredder",
     "gnomish universal remote sneed"
    ],
-   "answer": "Clever inventors carrying a Gnomish Universal Remote can briefly override the shredder's control systems, temporarily wresting control of the machine away from Sneed."
+   "answer": "A Gnomish Universal Remote can briefly override the shredder's controls and wrest command from Sneed."
   },
   {
    "q": "Does Sneed's Shredder carry anything valuable?",
@@ -60,7 +60,7 @@
     "sneed shredder quest item",
     "what drops from sneed shredder"
    ],
-   "answer": "Yes. Its intact power supply, the Gnoam Sprecklesprocket, is sought by Shoni the Shilent in Stormwind, who needs it to power the gnomes' gyrodrillmatic excavationators for an assault on Gnomeregan."
+   "answer": "Yes. The intact power supply, the Gnoam Sprecklesprocket, is sought by Shoni the Shilent in Stormwind. She needs it to power the gnomes' gyrodrillmatic excavationators for an assault on Gnomeregan."
   },
   {
    "q": "Who pilots the shredder?",
@@ -68,21 +68,21 @@
     "who drives sneed shredder",
     "sneed pilot"
    ],
-   "answer": "The machine is commanded by Sneed, a seasoned goblin supervisor who directs the logging and carpentry operations deep within the Deadmines."
+   "answer": "Sneed, a goblin supervisor, pilots the machine and directs logging and carpentry deep in the Deadmines."
   }
  ],
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "The shredder is a classic marvel of goblin mechanical design, though it remains vulnerable to the overrides of a Gnomish Universal Remote."
+   "text": "As an engineer, you can briefly override the shredder with a Gnomish Universal Remote."
   },
   {
    "target": "race:Gnome",
-   "text": "Shoni the Shilent of the Gnomeregan underground assault crew wants this goblin-built monster's power supply to drive the drills that could reopen the way to Gnomeregan."
+   "text": "As a gnome, you know Shoni the Shilent wants the goblin built machine's power supply to drive drills for an assault on Gnomeregan."
   },
   {
    "target": "faction:Alliance",
-   "text": "Eliminating Sneed and his machine cripples the lumber milling operations supporting Edwin VanCleef's secret war fleet."
+   "text": "As an Alliance member, you can cripple the lumber works supporting Edwin VanCleef's secret war fleet by defeating Sneed and his machine."
   }
  ],
  "keywords": [
@@ -105,5 +105,6 @@
  ],
  "attribution": [
   "Sneed's Shredder"
- ]
+ ],
+ "style": 1
 }

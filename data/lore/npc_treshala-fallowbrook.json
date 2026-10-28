@@ -8,11 +8,11 @@
   "wiki": "Treshala Fallowbrook",
   "refs": 1
  },
- "summary": "Treshala Fallowbrook is a night elf residing quietly on the upper level of the Tradesmen's Terrace in Darnassus. She is the wife of Heralath Fallowbrook, whose work has taken him far from home into the thorny depths of Razorfen Kraul in the Barrens.",
+ "summary": "In Darnassus, Treshala Fallowbrook waits at home for news of her husband. Heralath Fallowbrook has gone far away, into Razorfen Kraul in the Barrens.",
  "sections": [
   {
    "title": "A Watcher on the Terrace",
-   "body": "Treshala Fallowbrook keeps a modest vigil on the second floor of a workshop in Darnassus's Tradesmen's Terrace. Her husband, Heralath, journeyed to the brambled depths of Razorfen Kraul in the Barrens, and she waits at home for word of him. The two are joined by a pendant of bonding, a keepsake of their marriage that Heralath carried with him into the quilboar's warrens.",
+   "body": "On the second floor of a Tradesmen's Terrace workshop, Treshala Fallowbrook waits for word from her husband. Heralath journeyed to Razorfen Kraul in the Barrens, where thorny growth surrounds the quilboar's warrens. Their marriage is marked by a pendant of bonding, which Heralath carried with him.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "where is fallowbrook",
     "how to find treshala"
    ],
-   "answer": "She is located on the second floor of a workshop in the Tradesmen's Terrace of Darnassus. You can reach her room by heading up the wooden interior ramp inside the weapons building."
+   "answer": "Treshala Fallowbrook is on the second floor of a workshop in Darnassus's Tradesmen's Terrace. Climb the wooden ramp inside the weapons building to reach her room."
   },
   {
    "q": "What is Treshala researching?",
@@ -33,7 +33,7 @@
     "mortality wanes lore",
     "what does treshala want"
    ],
-   "answer": "She is not a researcher herself. The work belongs to her husband, Heralath Fallowbrook, whose journey took him into Razorfen Kraul; Treshala waits in Darnassus for news of him and of her pendant of bonding, which he carried there."
+   "answer": "Treshala is not a researcher. Her husband, Heralath Fallowbrook, went to Razorfen Kraul, and she waits in Darnassus for news of him and the pendant of bonding he carried there."
   },
   {
    "q": "Why is she concerned with Razorfen Kraul?",
@@ -42,7 +42,7 @@
     "fallowbrook razorfen",
     "connection to rfk"
    ],
-   "answer": "Her husband, Heralath, ventured into Razorfen Kraul, the thorny quilboar stronghold in the Barrens, and she has had no word of him since."
+   "answer": "Treshala is concerned because her husband, Heralath, ventured into Razorfen Kraul, a thorny quilboar stronghold in the Barrens, and she has had no word of him since."
   },
   {
    "q": "Is she a shopkeeper or a craftswoman?",
@@ -50,17 +50,17 @@
     "is treshala a vendor",
     "what does she sell"
    ],
-   "answer": "No, Treshala is neither a merchant nor a crafter. She simply makes her home above the busy artisan stalls of the Tradesmen's Terrace."
+   "answer": "Treshala is neither a merchant nor a crafter. She makes her home above the artisan stalls of the Tradesmen's Terrace."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "For night elves, Treshala's quiet vigil for her husband is a reminder that since Mount Hyjal, their people no longer have eternity to wait."
+   "text": "As a night elf, Treshala's quiet vigil for her husband recalls that since Mount Hyjal, her people no longer have eternity to wait."
   },
   {
    "target": "faction:Alliance",
-   "text": "Treshala serves as an Alliance point of contact in Darnassus for champions returning from harrowing expeditions against the quilboar thorn-dens deep in the Barrens."
+   "text": "As an Alliance champion, you may return to Darnassus after expeditions against the quilboar thorn-dens deep in the Barrens. Treshala is there."
   }
  ],
  "keywords": [
@@ -82,5 +82,6 @@
  ],
  "attribution": [
   "Treshala Fallowbrook"
- ]
+ ],
+ "style": 1
 }

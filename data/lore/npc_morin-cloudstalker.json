@@ -8,21 +8,21 @@
   "wiki": "Morin Cloudstalker",
   "refs": 8
  },
- "summary": "Morin Cloudstalker is a tauren scout keeping watch along the road leading east from Bloodhoof Village toward the Barrens in Mulgore. Standing vigil over the plains, he monitors local trade routes and investigates the encroaching threats endangering tauren travelers.",
+ "summary": "Along the eastern road from Bloodhoof Village, Morin Cloudstalker watches over Mulgore. The tauren scout keeps an eye on trade routes and investigates threats to travelers.",
  "sections": [
   {
    "title": "Watcher on the Southern Trail",
-   "body": "Positioned beside the dirt path winding east toward the Barrens, Morin Cloudstalker acts as both a scout and a guardian for travelers through Mulgore. The grassy plains here are usually peaceful, but the opening of trade routes and shifting territories have drawn opportunists and bandits dangerously close to the heart of the tauren homeland.",
+   "body": "Morin Cloudstalker watches the trail east toward the Barrens. He scouts the road and guards those traveling through Mulgore. The plains are usually peaceful, but trade routes and shifting territories have brought opportunists and bandits close to the tauren homeland.",
    "spoiler": 0
   },
   {
    "title": "Investigating the Caravan",
-   "body": "Morin's scouts recently attacked and burned a Venture Co. caravan on the northern shore of Stonebull Lake. When goblin salvagers were spotted near the burned wagons, he sent adventurers to examine the surviving supply crates and learn what the Venture Co. was hauling.",
+   "body": "Morin's scouts attacked and burned a Venture Co. caravan on Stonebull Lake's northern shore. Goblin salvagers appeared near the burned wagons, so he sent adventurers to inspect the surviving supply crates and learn what the Venture Co. had been hauling.",
    "spoiler": 0
   },
   {
    "title": "Defending Against Venture Co.",
-   "body": "Beyond common brigands, Morin is deeply concerned by the industrial presence of the Venture Company establishing operations within Mulgore. He directs passing Horde adventurers to strike at their logging and mining outposts, targeting key leaders like Supervisor Fizsprocket to curtail the environmental devastation threatening the sacred plains.",
+   "body": "The Venture Company has established operations in Mulgore, troubling Morin beyond the threat of common brigands. He sends Horde adventurers against its logging and mining outposts, including Supervisor Fizsprocket, to curb the damage to the sacred plains.",
    "spoiler": 1
   }
  ],
@@ -34,7 +34,7 @@
     "where is morin",
     "morin cloudstalker map"
    ],
-   "answer": "Morin Cloudstalker stands by the dirt trail east of Bloodhoof Village in Mulgore, along the road leading out toward the Barrens."
+   "answer": "Morin Cloudstalker stands beside the dirt trail east of Bloodhoof Village, on the road toward the Barrens."
   },
   {
    "q": "What is Morin's role in Mulgore?",
@@ -42,7 +42,7 @@
     "who is morin cloudstalker",
     "morin role"
    ],
-   "answer": "He is a watchful tauren scout responsible for monitoring travel through southern Mulgore and organizing defense against bandits and corporate intruders."
+   "answer": "Morin watches travel through southern Mulgore and organizes defenses against bandits and corporate intruders."
   },
   {
    "q": "Why is Morin investigating the ruined caravan?",
@@ -50,7 +50,7 @@
     "ravaged caravan quest",
     "caravan attack mulgore"
    ],
-   "answer": "Morin's scouts attacked and burned a Venture Co. caravan near Stonebull Lake. When goblin salvagers were seen around the wreckage, he asked adventurers to examine the surviving supply crates to learn what the Venture Co. was moving."
+   "answer": "Morin's scouts attacked and burned a Venture Co. caravan near Stonebull Lake. After goblin salvagers appeared at the wreckage, he asked adventurers to inspect the surviving crates and find out what the Venture Co. was moving."
   },
   {
    "q": "Why does Morin want the Venture Company stopped?",
@@ -58,7 +58,7 @@
     "venture co mulgore",
     "why kill fizsprocket"
    ],
-   "answer": "The Venture Company is stripping Mulgore's natural resources with machinery and deforestation. Morin seeks to disrupt their destructive enterprise by eliminating their overseers, including Supervisor Fizsprocket."
+   "answer": "The Venture Company is stripping Mulgore's natural resources with machinery and deforestation. Morin wants its overseers, including Supervisor Fizsprocket, stopped."
   },
   {
    "q": "Who does Morin report to?",
@@ -66,7 +66,7 @@
     "morin allegiance",
     "who sent morin"
    ],
-   "answer": "Morin operates on behalf of the elders and chieftains of Bloodhoof Village and the broader tauren leadership across Mulgore."
+   "answer": "Morin acts on behalf of Bloodhoof Village's elders and chieftains, and the wider tauren leadership across Mulgore."
   },
   {
    "q": "Does Morin offer quests to Alliance players?",
@@ -74,17 +74,17 @@
     "can alliance talk to morin",
     "morin faction"
    ],
-   "answer": "No. Morin is an NPC loyal strictly to the Horde and will only interact with Horde adventurers."
+   "answer": "No. Morin is loyal to the Horde and interacts only with Horde adventurers."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "For tauren journeying outward from Bloodhoof Village, Morin represents the vigilant defense of your homeland against both opportunistic bandits and corporate defilers."
+   "text": "As a tauren traveling out from Bloodhoof Village, you can see Morin guarding your homeland against bandits and corporate defilers."
   },
   {
    "target": "faction:Horde",
-   "text": "Morin offers Horde champions an early opportunity to protect the supplies and sacred lands of their new tauren allies."
+   "text": "Morin gives Horde champions an early chance to protect the supplies and sacred lands of their new tauren allies."
   }
  ],
  "keywords": [
@@ -107,5 +107,6 @@
  ],
  "attribution": [
   "Morin Cloudstalker"
- ]
+ ],
+ "style": 1
 }

@@ -17,16 +17,16 @@
   "wiki": "Deadmire (quest)",
   "chain": []
  },
- "summary": "Deadmire is a hunting rite offered by the tauren hunter Melor Stonehoof on Hunter Rise in Thunder Bluff. The task sends hunters east into Dustwallow Marsh to track and slay an ancient, suffering crocolisk named Deadmire, bringing back its tooth as proof. It serves as an exercise in both challenging tracking and the hunter's duty of mercy.",
+ "summary": "In Dustwallow Marsh, Deadmire suffers in the waterways north of the Stonemaul Ruins. Melor Stonehoof sends hunters from Hunter Rise in Thunder Bluff to track the ancient crocolisk and bring back a tooth as proof. The hunt teaches tracking and mercy.",
  "sections": [
   {
    "title": "A Hunt of Mercy",
-   "body": "On Hunter Rise in Thunder Bluff, Melor Stonehoof instructs promising trackers in the deeper spiritual traditions of the hunt. Unlike thoughtless slaughter or trophy gathering, tauren hunting philosophy teaches reverence and connection with the natural world. Melor tasks hunters with journeying far eastward to the murky wetlands of Dustwallow Marsh to seek out Deadmire, an ancient crocolisk of immense scale whose prolonged life has turned into an agonizing burden.",
+   "body": "On Hunter Rise in Thunder Bluff, Melor Stonehoof teaches promising trackers the spiritual traditions of the hunt. Tauren hunters seek reverence and a bond with the natural world, not slaughter or trophies. Melor sends you east to Dustwallow Marsh to find Deadmire, an ancient crocolisk whose long life has become a burden.",
    "spoiler": 0
   },
   {
    "title": "The Ancient of the Marsh",
-   "body": "Deadmire is no ordinary beast; he is a massive, pale crocolisk who prowls the waterways north of the Stonemaul Ruins. While his youthful fury and physical power linger in sudden bursts, his aging frame is worn down by grinding bones and unrelenting pain. Melor charges hunters to grant the creature an honorable, swift end, putting its spirit to rest and claiming a single tooth as a token of the beast's release.",
+   "body": "North of the Stonemaul Ruins, Deadmire prowls the waterways as a massive, pale crocolisk. His strength and fury still come in sudden bursts, but age has worn down his body with grinding bones and unrelenting pain. Melor asks you to grant him a swift, honorable end and bring back one tooth as a token of his release.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "deadmire lore",
     "who is the crocolisk"
    ],
-   "answer": "Deadmire is a massive, ancient white crocolisk living in the swamps of Dustwallow Marsh. Though still dangerously powerful, he suffers from excruciating physical agony due to his failing, aged body."
+   "answer": "Deadmire is a massive, ancient white crocolisk in the swamps of Dustwallow Marsh. Though still dangerous, he suffers from the pain of his failing, aged body."
   },
   {
    "q": "Why does Melor Stonehoof want Deadmire killed?",
@@ -47,7 +47,7 @@
     "melor stonehoof motive",
     "purpose of deadmire hunt"
    ],
-   "answer": "Melor views the hunt as an act of mercy rather than conquest. Deadmire's aging bones cause him maddening pain, and the tauren hunter believes it is a sacred duty to release the noble beast's spirit and grant him peace."
+   "answer": "Melor Stonehoof asks you to kill Deadmire as an act of mercy. The crocolisk's aging bones cause him maddening pain, and Melor believes releasing his spirit is a sacred duty."
   },
   {
    "q": "Where can Deadmire be found?",
@@ -56,7 +56,7 @@
     "deadmire location",
     "finding deadmire"
    ],
-   "answer": "Deadmire haunts the murky waters and islands of Dustwallow Marsh, typically found wandering the riverways just north of the Stonemaul Ruins."
+   "answer": "Deadmire prowls the waterways north of the Stonemaul Ruins in Dustwallow Marsh."
   },
   {
    "q": "What proof does Melor require from the hunt?",
@@ -65,7 +65,7 @@
     "what does melor want",
     "deadmire proof"
    ],
-   "answer": "Melor asks you to bring back Deadmire's Tooth as proof that the mighty creature's suffering has finally been brought to an end."
+   "answer": "Melor asks you to bring back one of Deadmire's teeth as proof of the hunt."
   },
   {
    "q": "What does this hunt teach aspiring hunters?",
@@ -74,7 +74,7 @@
     "tauren hunting lesson",
     "meaning of the hunt"
    ],
-   "answer": "The hunt teaches that the way of the hunter is not mindless killing, but spiritual communion with nature. Part of that calling involves recognizing when a creature's life has turned to suffering and delivering a merciful, honorable death."
+   "answer": "The hunt teaches you that a hunter's calling is more than killing. It means honoring nature and recognizing when a creature's life has become suffering."
   },
   {
    "q": "Who gives this quest?",
@@ -83,21 +83,21 @@
     "who starts deadmire",
     "melor stonehoof location"
    ],
-   "answer": "The quest is offered by Melor Stonehoof, a tauren hunter found on Hunter Rise overlooking the city of Thunder Bluff."
+   "answer": "Melor Stonehoof, a tauren hunter, offers the hunt on Hunter Rise in Thunder Bluff."
   }
  ],
  "angles": [
   {
    "target": "class:Hunter",
-   "text": "For hunters, tracking Deadmire embodies the balance between martial prowess and spiritual responsibility, emphasizing that an honorable kill can be an act of grace."
+   "text": "As a hunter, you balance skill in the hunt with spiritual responsibility. An honorable kill can be an act of mercy."
   },
   {
    "target": "race:Tauren",
-   "text": "The hunt reflects core tauren values of harmony with the Earth Mother's creatures, teaching that a true hunter honors the prey and respects the natural cycles of life and death."
+   "text": "As a tauren, you honor the Earth Mother's creatures and respect the natural cycles of life and death."
   },
   {
    "target": "faction:Horde",
-   "text": "Undertaking hunts for the elders of Thunder Bluff helps bind Horde travelers to the land and the spiritual traditions of their tauren allies."
+   "text": "As a Horde traveler, you take part in hunts for Thunder Bluff's elders and learn the land and traditions of your tauren allies."
   }
  ],
  "keywords": [
@@ -117,5 +117,6 @@
  ],
  "attribution": [
   "Deadmire (quest)"
- ]
+ ],
+ "style": 1
 }

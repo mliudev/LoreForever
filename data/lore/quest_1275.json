@@ -20,21 +20,21 @@
    "Researching the Corruption (Classic)"
   ]
  },
- "summary": "Gershala Nightwhisper in Auberdine seeks corrupted brain stems from the creatures infesting Blackfathom Deeps. Disturbed by reports of the blood elves dabbling in demonic magic across the sea, he hopes to study the physiological descent of the naga and satyr to foresee\u2014and perhaps avert\u2014another catastrophic elven mutation.",
+ "summary": "In Auberdine, Gershala Nightwhisper seeks corrupted brain stems from Blackfathom Deeps. Reports say blood elves across the sea are turning to demonic magic, and he hopes to learn from the naga and satyr before history repeats itself.",
  "sections": [
   {
    "title": "A Warning from History",
-   "body": "To the night elves of Kalimdor, the ruin of their ancient kin is a living memory etched into monsters. Ten thousand years ago, the Highborne succumbed to the allure of demonic energies, warping themselves into horned satyrs or drowning into serpentine naga. Watching the high elves rebrand themselves as blood elves and embrace dark magic strikes Gershala Nightwhisper not as a distant curiosity, but as history doomed to repeat itself.",
+   "body": "The ruin of their ancient kin remains a living memory to night elves across Kalimdor. Ten thousand years ago, the Highborne gave in to demonic energies and became horned satyrs or serpentine naga. Now the high elves call themselves blood elves and embrace dark magic. Gershala Nightwhisper sees the old disaster taking shape again.",
    "spoiler": 0
   },
   {
    "title": "Into the Deeps",
-   "body": "Blackfathom Deeps serves as an ideal specimen ground for Gershala's grim inquiry. Hidden beneath the Zoram Strand in Ashenvale, the subterranean temple ruins crawl with both satyr cultists and coiled naga. By sending an adventurer to harvest brain stems from both monstrosities, he hopes to dissect the biological link between arcane addiction, demonic corruption, and catastrophic bodily transformation.",
+   "body": "Blackfathom Deeps offers Gershala a place to study the corruption. The temple ruins lie beneath the Zoram Strand in Ashenvale, where satyr cultists and naga dwell. He asks you to gather brain stems from both, hoping to trace the link between arcane addiction, demonic corruption, and the ruin of the body.",
    "spoiler": 0
   },
   {
    "title": "A Desperate Cure",
-   "body": "While Gershala's methods are chillingly anatomical, his stated intent is preventative. He believes that deciphering the exact physiological mutations shared by satyrs and naga could yield the knowledge needed to pull the blood elves back from total damnation. Whether any research conducted in darkshore can truly sway the desperate elves of Quel'Thalas remains an open question.",
+   "body": "Gershala says he studies the body to find a way to prevent another fall. He believes the shared mutations of satyrs and naga may show how to draw the blood elves back from damnation. Can research in Darkshore sway the desperate elves of Quel'Thalas? That remains uncertain.",
    "spoiler": 1
   }
  ],
@@ -46,7 +46,7 @@
     "gershala blood elf connection",
     "auberdine blood elves"
    ],
-   "answer": "Gershala fears that the blood elves' flirtation with demonic powers will spawn another race of twisted monsters to menace Azeroth, just as past elven hubris gave rise to the satyrs and naga."
+   "answer": "Gershala fears the blood elves' turn to demonic powers could create another race of twisted monsters, as elven hubris once gave rise to satyrs and naga."
   },
   {
    "q": "Where do you gather the corrupted brain stems?",
@@ -55,7 +55,7 @@
     "brain stem location",
     "corrupt brain stem drop"
    ],
-   "answer": "They are collected from the satyrs and naga dwelling within Blackfathom Deeps, an ancient temple complex buried along the Zoram Strand on the northwest coast of Ashenvale."
+   "answer": "Gather the brain stems from satyrs and naga in Blackfathom Deeps, an ancient temple complex beneath the Zoram Strand on Ashenvale's northwest coast."
   },
   {
    "q": "Why does he specifically want satyr and naga samples?",
@@ -63,7 +63,7 @@
     "why satyr and naga",
     "satyr naga connection"
    ],
-   "answer": "Both the satyrs and the naga originated from elves who were warped by unnatural forces\u2014satyrs through demonic bargains, and naga through the Sundering. Gershala wants to compare their brain mutations to map how elven physiology deteriorates under dark power."
+   "answer": "Satyrs and naga both began as elves warped by unnatural forces: satyrs through demonic bargains, and naga through the Sundering. Gershala compares their brain mutations to learn how dark power harms elven bodies."
   },
   {
    "q": "Who leads you to this task?",
@@ -71,7 +71,7 @@
     "prerequisite quest",
     "corruption abroad connection"
    ],
-   "answer": "You can be directed to Gershala Nightwhisper in Auberdine via an introductory breadcrumb quest, 'The Corruption Abroad,' though he will also offer this investigation directly."
+   "answer": "An introductory trail called The Corruption Abroad can lead you to Gershala Nightwhisper in Auberdine. He can also offer the investigation directly."
   },
   {
    "q": "What does Gershala plan to do with the specimens?",
@@ -79,7 +79,7 @@
     "brain stem study",
     "gershala research goal"
    ],
-   "answer": "He plans to study the physiological correlations between the two forms of corruption, hoping the resulting knowledge could help forestall the blood elves' descent into deeper monstrosity."
+   "answer": "Gershala plans to compare the bodily effects of the two corruptions, hoping what he learns can slow the blood elves' descent into monstrosity."
   },
   {
    "q": "Is Auberdine directly threatened by Blackfathom Deeps?",
@@ -87,25 +87,25 @@
     "why auberdine cares",
     "blackfathom deeps threat darkshore"
    ],
-   "answer": "While Blackfathom Deeps lies just across the southern border in Ashenvale, the night elves of Auberdine monitor the entire coastal region for signs of escalating demonic and Twilight corruption."
+   "answer": "Blackfathom Deeps lies just across Ashenvale's southern border. The night elves of Auberdine watch the coast for signs of worsening demonic and Twilight corruption."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "For night elves, this research touches on the rawest wound in their history: the catastrophic degradation of their kin into the satyrs and naga who plague Kalimdor."
+   "text": "As a night elf, you face a wound still alive in your people's memory: your kin became the satyrs and naga who plague Kalimdor."
   },
   {
    "target": "class:Druid",
-   "text": "Druids hold an innate revulsion toward the satyrs, whose fel corruption defiles the natural dream and warps the land itself."
+   "text": "As a druid, you feel revulsion toward satyrs, whose fel corruption defiles the natural dream and warps the land."
   },
   {
    "target": "class:Mage",
-   "text": "Gershala's grim investigation is a stark reminder of the physical and spiritual costs of reckless, unchecked magical dependence."
+   "text": "As a mage, you see the bodily and spiritual cost of reckless dependence on magic."
   },
   {
    "target": "faction:Alliance",
-   "text": "The Alliance keeps a wary eye on reports of the blood elves' descent into dark arts across the sea, dreading the emergence of a new demonic threat."
+   "text": "As an Alliance member, you hear reports of blood elves turning to dark arts across the sea and fear a new demonic threat."
   }
  ],
  "keywords": [
@@ -130,5 +130,6 @@
  ],
  "attribution": [
   "Researching the Corruption (Classic)"
- ]
+ ],
+ "style": 1
 }

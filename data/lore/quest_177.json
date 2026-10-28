@@ -22,16 +22,16 @@
    "Look To The Stars (4)"
   ]
  },
- "summary": "This quest sends adventurers to recover Blind Mary's discarded looking glass for the astronomer Viktori Prism'Antras. The fragile mirror fell into the hands of an Insane Ghoul that wanders the desolate Tranquil Gardens Cemetery in southern Duskwood.",
+ "summary": "Viktori Prism'Antras needs Blind Mary's looking glass for his telescope in Darkshire. An Insane Ghoul took it to Tranquil Gardens Cemetery in southern Duskwood.",
  "sections": [
   {
    "title": "A Relic of Better Days",
-   "body": "Before the creeping gloom overran Duskwood and turned her into a weeping spirit, Blind Mary treasured an ornate looking glass. Following the horrific incident that claimed her sight and sanity, she cast the keepsake into the dirt behind her family barn. The reflective mirror is exactly what Viktori Prism'Antras needs to build his grand telescope in Darkshire, but it was snatched away into the shadows long before the astronomer dreamed of studying the heavens.",
+   "body": "Blind Mary once treasured an ornate looking glass. After an incident took her sight and sanity and left her a weeping spirit, she threw it into the dirt behind her family barn. Now the astronomer Viktori Prism'Antras needs the mirror for his telescope in Darkshire. The looking glass was taken long before he began studying the heavens.",
    "spoiler": 0
   },
   {
    "title": "The Graveyard Scavenger",
-   "body": "The mirror was scavenged by an Insane Ghoul that prowled behind the ruined farmsteads. Driven south by restless hunger, the wretched undead creature carried the looking glass into the Tranquil Gardens Cemetery, haunting an abandoned chapel amid the overgrown tombstones. Reclaiming the delicate lens means navigating the flesh-eating horrors that infest the southern woods to pry Mary's lost treasure from rotting claws.",
+   "body": "An Insane Ghoul scavenged the looking glass from behind the ruined farmsteads. Restless hunger drove the undead creature south, carrying the mirror to Tranquil Gardens Cemetery. It haunts an abandoned chapel among the overgrown tombstones. You face the flesh-eating horrors of the southern woods to reclaim Mary's lost treasure from its rotting claws.",
    "spoiler": 0
   }
  ],
@@ -43,7 +43,7 @@
     "why looking glass",
     "what is the mirror for"
    ],
-   "answer": "Viktori Prism'Antras is assembling a powerful telescope in his hut up the hill in Darkshire. He requires high-quality reflective lenses and mirrors to channel the dim starlight, and Mary's prized heirloom fits the precise optical requirements for his invention."
+   "answer": "Viktori Prism'Antras needs Mary's looking glass for the telescope he is assembling in his hut up the hill in Darkshire. Its reflective surface meets the optical needs of his invention, which gathers dim starlight."
   },
   {
    "q": "Who is the Insane Ghoul that stole the mirror?",
@@ -52,7 +52,7 @@
     "who has the looking glass",
     "ghoul in chapel"
    ],
-   "answer": "The Insane Ghoul is a scavenging undead fiend that gathered trinkets from the abandoned homesteads near Mary's house. It fled south and took refuge in the ruined chapel inside the Tranquil Gardens Cemetery."
+   "answer": "The Insane Ghoul is an undead scavenger that gathered trinkets from abandoned homesteads near Mary's house. It fled south to the ruined chapel in Tranquil Gardens Cemetery."
   },
   {
    "q": "Why did Blind Mary throw her looking glass away?",
@@ -61,7 +61,7 @@
     "blind mary mirror",
     "mary looking glass incident"
    ],
-   "answer": "Mary prized her looking glass until 'the incident' that took her sight, tore her mind, and bound her as a restless shade. After that calamity, she could no longer bear to look upon it or hold it, discarding it in despair behind her barn."
+   "answer": "Blind Mary threw away her looking glass after an incident took her sight, tore her mind, and bound her as a restless shade. Unable to bear looking at or holding it, she cast it behind her barn in despair."
   },
   {
    "q": "Where is the Tranquil Gardens Cemetery?",
@@ -69,7 +69,7 @@
     "tranquil gardens location",
     "where is cemetery"
    ],
-   "answer": "The Tranquil Gardens Cemetery lies in the southeastern reaches of Duskwood, south of the main road. Once a peaceful burial ground for the people of Duskwood, it is now infested with aggressive ghouls, skeletons, and carrion beasts."
+   "answer": "Tranquil Gardens Cemetery lies in southeastern Duskwood, south of the main road. Once a peaceful burial ground for Duskwood's people, it is now infested with aggressive ghouls, skeletons, and carrion beasts."
   },
   {
    "q": "Who is Cog?",
@@ -77,7 +77,7 @@
     "who is cog",
     "viktori cog"
    ],
-   "answer": "Cog is a gnome tinkerer residing in Darkshire. Viktori relies on Cog's engineering expertise to evaluate and assist in constructing the delicate mechanisms of his star-viewing machine."
+   "answer": "Cog is a gnome tinkerer who lives in Darkshire. Viktori relies on Cog's engineering skill to assess and help build the delicate mechanisms of his star-viewing machine."
   },
   {
    "q": "What happens after returning the mirror to Viktori?",
@@ -85,21 +85,21 @@
     "look to the stars next quest",
     "what comes next"
    ],
-   "answer": "With the reflective device in hand, Viktori is thrilled with the progress of the apparatus. He then moves forward with the final stage of assembling his telescope, asking for one last crucial component to finish the lens system."
+   "answer": "The mirror brings Viktori closer to completing his apparatus. He moves on to the final stage of assembling his telescope and asks for one last component for its lens system."
   }
  ],
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "Engineers can appreciate Viktori's improvised optical mechanics, turning ordinary polished hand mirrors into reflective components for an astronomical instrument."
+   "text": "Engineers can appreciate how Viktori adapts ordinary polished hand mirrors into reflective parts for an astronomical instrument."
   },
   {
    "target": "class:Priest",
-   "text": "Priests walking the tainted soil of Tranquil Gardens Cemetery witness the horrific indignity suffered by Duskwood's dead, where fallen villagers are reduced to insane scavengers."
+   "text": "As a priest, you can witness the terrible fate of Duskwood's dead in Tranquil Gardens Cemetery, where fallen villagers have become insane scavengers."
   },
   {
    "target": "faction:Alliance",
-   "text": "Recovering lost town relics from the hands of ravenous undead highlights the bitter fate of Duskwood's people, abandoned on the dangerous fringes of the Kingdom of Stormwind."
+   "text": "As an Alliance member, you see the bitter fate of Duskwood's people when lost town relics fall into the hands of ravenous undead on the dangerous fringes of the Kingdom of Stormwind."
   }
  ],
  "keywords": [
@@ -124,5 +124,6 @@
  ],
  "attribution": [
   "Look To The Stars (3)"
- ]
+ ],
+ "style": 1
 }

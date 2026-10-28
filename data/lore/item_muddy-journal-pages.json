@@ -10,11 +10,11 @@
    "quest:79"
   ]
  },
- "summary": "These weathered, soil-stained sheets were recovered from the scene of a gruesome murder years ago in Duskwood. Long preserved by Tavernkeep Smitts without proof of authorship, they serve as the final evidentiary link in unraveling the dark legend of Stalvan Mistmantle.",
+ "summary": "Muddy Journal Pages were recovered from a murder scene in Duskwood years ago. Weathered and stained with soil, they remain with Tavernkeep Smitts, who kept them without proof of authorship as evidence in an unresolved local investigation.",
  "sections": [
   {
    "title": "The Evidence of the Massacre",
-   "body": "Years before the current perils overtook Duskwood, a retinue of visiting nobles was brutally slaughtered in the wilderness. Tavernkeep Smitts accompanied the investigator Haggard to the bloody scene and salvaged these muddy journal pages from the mire. At the time, the town lacked the handwriting samples and corroborated records required to tie the text directly to any suspect. Smitts quietly retained the pages in Darkshire's tavern, waiting for a investigator to uncover enough scattered records across the southern kingdoms to match the script to the recluse living deep within the woods.",
+   "body": "Tavernkeep Smitts found the pages in the mire after visiting nobles were slaughtered in Duskwood. He had gone to the scene with Haggard, the investigator. The town had no handwriting samples or confirmed records to connect the writing to a suspect, so Smitts kept the pages quietly in Darkshire's tavern. He waited for an investigator to gather scattered records from across the southern kingdoms and match the script to the recluse living deep in the woods.",
    "spoiler": 1
   }
  ],
@@ -26,7 +26,7 @@
     "origin of muddy pages",
     "muddy journal location"
    ],
-   "answer": "They were discovered by Tavernkeep Smitts and Haggard several years ago at the scene where a visiting family of nobles was slaughtered in the woods of Duskwood."
+   "answer": "Tavernkeep Smitts and Haggard found the pages at the scene where visiting nobles were slaughtered in the woods of Duskwood several years ago."
   },
   {
    "q": "Why couldn't Smitts use the pages when he first found them?",
@@ -35,7 +35,7 @@
     "why didn't smitts turn them in",
     "smitts evidence problem"
    ],
-   "answer": "While the pages were recovered from the crime scene, local investigators had no way to verify the handwriting. Without writing samples to compare against, the town watch could not tie the pages to any suspect."
+   "answer": "The local investigators had no writing samples to compare with the pages, so they could not connect the handwriting to a suspect."
   },
   {
    "q": "Who needs to see these pages?",
@@ -44,7 +44,7 @@
     "turn in muddy journal pages",
     "ebonlocke muddy pages"
    ],
-   "answer": "They must be brought directly to Commander Althea Ebonlocke, leader of the Night Watch in Darkshire, to officially report the culmination of the investigation into the slaughter of the visiting nobles."
+   "answer": "The pages must be brought to Commander Althea Ebonlocke, leader of the Night Watch in Darkshire, to report the investigation into the nobles' slaughter."
   },
   {
    "q": "What crime do these pages connect to?",
@@ -53,17 +53,17 @@
     "what did stalvan do",
     "visiting nobles slaughtered"
    ],
-   "answer": "They connect to the slaughter of a party of visiting nobles in the woods of Duskwood several years ago, a crime Darkshire could never pin on anyone at the time."
+   "answer": "The pages connect to the slaughter of visiting nobles in the woods of Duskwood several years ago, a crime Darkshire could not solve at the time."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Unraveling the mystery behind the slaughter of Stormwind nobles brings overdue closure to a lingering cold case in the embattled settlements of Duskwood."
+   "text": "For the Alliance, solving the slaughter of Stormwind nobles brings overdue closure to a lingering case in Duskwood's embattled settlements."
   },
   {
    "target": "class:Rogue",
-   "text": "Piecing together forgotten handwriting samples and weathered diary scraps demonstrates the methodical forensic work required before striking down a hidden killer."
+   "text": "As a Rogue, piecing together forgotten handwriting samples and weathered diary scraps shows the methodical forensic work needed before striking down a hidden killer."
   }
  ],
  "keywords": [
@@ -86,5 +86,6 @@
  "attribution": [
   "Muddy Journal Pages",
   "The Legend of Stalvan (10)"
- ]
+ ],
+ "style": 1
 }

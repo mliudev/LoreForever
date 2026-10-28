@@ -17,16 +17,16 @@
   "wiki": "The Rethban Gauntlet",
   "chain": []
  },
- "summary": "The Rethban Gauntlet is an eccentric endurance trial devised by the dwarven brewer Yorus Barleybrew in Lakeshire. Challengers must drink a potent swig of his family's fiery Barleybrew Scalder and sprint north into the gnoll-infested Rethban Caverns and back before an hour elapses.",
+ "summary": "In Lakeshire, Yorus Barleybrew sends challengers on a perilous run north and back. They drink his family's fiery Barleybrew Scalder, reach Rethban Caverns, and return within an hour.",
  "sections": [
   {
    "title": "A Dwarven Dare",
-   "body": "In the town of Lakeshire, where grim talk of gnoll raids and missing town guards usually dominates the inn, the dwarf Yorus Barleybrew brings a distinctly dwarven flavor of entertainment. His self-styled challenge, the Rethban Gauntlet, tests an adventurer's mettle, speed, and liver all at once. Participants are required to down a draught of his family's signature concoction, Barleybrew Scalder, right before setting off on foot toward the northern foothills.",
+   "body": "In Lakeshire, grim talk of gnoll raids and missing town guards fills the inn. The dwarf Yorus Barleybrew offers a different kind of diversion: a test of speed, courage, and endurance. Before setting out on foot for the northern foothills, challengers drink a draught of his family's Barleybrew Scalder.",
    "spoiler": 0
   },
   {
    "title": "Running the Wild Hills",
-   "body": "The trial is far more perilous than a simple drunken footrace. Between Lakeshire and the destination lies Redridge territory teeming with aggressive Redridge gnolls. To successfully complete the gauntlet, the runner must fight or slip past the packs, reach the first fork inside the dark tunnels of Rethban Caverns, and hustle back to Yorus within an hour\u2014all while battling the overwhelming, staggering effects of the fiery dwarven alcohol.",
+   "body": "Redridge gnolls roam the hills between Lakeshire and Rethban Caverns. Runners must fight or slip past their packs, reach the first fork inside the dark tunnels, then hurry back to Yorus within an hour. The fiery drink makes the run harder, leaving challengers staggering as they make their way through the hills.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "yorus barleybrew quest",
     "who starts the gauntlet"
    ],
-   "answer": "Yorus Barleybrew, a dwarven brewer staying in Lakeshire, challenges travelers to the run to prove their fortitude and test his brew."
+   "answer": "Yorus Barleybrew, a dwarven brewer staying in Lakeshire, challenges travelers to run the gauntlet and test their fortitude and his brew."
   },
   {
    "q": "What makes this challenge particularly difficult?",
@@ -46,7 +46,7 @@
     "why is rethban gauntlet hard",
     "barleybrew scalder effect"
    ],
-   "answer": "Aside from navigating the gnoll packs roaming the Redridge foothills within a strict one-hour time limit, runners must first swallow Barleybrew Scalder, an intense beverage that leaves them severely intoxicated and struggling to maintain their balance."
+   "answer": "Runners face gnoll packs in the Redridge foothills and have only an hour. First they drink Barleybrew Scalder, which leaves them severely intoxicated and struggling to keep their balance."
   },
   {
    "q": "Where are the Rethban Caverns located?",
@@ -55,7 +55,7 @@
     "where is rethban",
     "how to get to rethban caverns"
    ],
-   "answer": "The caverns sit in the northern foothills of Redridge Mountains, northwest of Lakeshire. The path leads north past local homesteads toward the crags inhabited by gnoll packs."
+   "answer": "Rethban Caverns lie in the northern foothills of Redridge Mountains, northwest of Lakeshire. The path runs north past local homesteads toward crags inhabited by gnoll packs."
   },
   {
    "q": "How far into the caves must a runner go?",
@@ -63,7 +63,7 @@
     "rethban caverns objective",
     "how far inside rethban"
    ],
-   "answer": "Challengers do not need to clear the entire cavern; they only need to reach the first interior fork before turning around and racing back to Lakeshire."
+   "answer": "Challengers need only reach the first fork inside the caverns, then turn back and race to Lakeshire."
   },
   {
    "q": "Who inhabits the hills and caverns along the route?",
@@ -71,7 +71,7 @@
     "what enemies in rethban",
     "what is in rethban caverns"
    ],
-   "answer": "The area surrounding the route and inside the caverns is overrun by hostile Redridge gnolls, making stealth or swift combat essential for surviving the trek."
+   "answer": "Hostile Redridge gnolls overrun the area around the route and the caverns. Runners need stealth or swift combat to survive the trek."
   },
   {
    "q": "Where does this challenge lead next?",
@@ -79,17 +79,17 @@
     "rethban gauntlet follow up",
     "what quest comes after rethban gauntlet"
    ],
-   "answer": "Surviving the gauntlet proves your endurance to Yorus Barleybrew, opening the way to further tasks in the region such as seeking out the shieldsmith Furen Longbeard in Stormwind."
+   "answer": "Surviving the gauntlet proves your endurance to Yorus Barleybrew and opens the way to further tasks in the region, such as seeking out the shieldsmith Furen Longbeard in Stormwind."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "Dwarves will feel right at home with Yorus's boisterous concept of fun: mixing potent family liquor with dangerous mountain sprints."
+   "text": "As a dwarf, you may recognize Yorus's boisterous idea of fun: mixing potent family liquor with a dangerous mountain sprint."
   },
   {
    "target": "faction:Alliance",
-   "text": "While Lakeshire struggles under the threat of gnoll incursions, braving the gauntlet helps thin out enemy patrols prowling near the northern caves."
+   "text": "As an Alliance traveler, you can help Lakeshire face the gnoll threat by braving the gauntlet and thinning the enemy patrols near the northern caves."
   }
  ],
  "keywords": [
@@ -113,5 +113,6 @@
  ],
  "attribution": [
   "The Rethban Gauntlet"
- ]
+ ],
+ "style": 1
 }

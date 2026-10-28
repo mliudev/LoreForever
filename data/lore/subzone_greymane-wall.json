@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Greymane Wall"
  },
- "summary": "The Greymane Wall is a massive stone bulwark spanning the southern frontier of Silverpine Forest. Built by King Genn Greymane after the Second War, it seals the kingdom of Gilneas away from the outside world behind impenetrable, locked gates.",
+ "summary": "At Silverpine’s southern edge, Greymane Wall bars the way into Gilneas. King Genn Greymane raised the stone barrier after the Second War, and its gates remain locked against the outside world.",
  "sections": [
   {
    "title": "A Monument to Isolation",
-   "body": "Following the Second War, King Genn Greymane grew resentful of the Alliance of Lordaeron, particularly the taxes required to maintain the orc internment camps. Deciding Gilneas had given enough of its coin and blood for foreign troubles, Greymane withdrew from the Alliance and ordered a colossal barrier raised across the head of the peninsula. When the Third War brought the Plague of Undeath and countless desperate refugees to its foot, the gates remained pitilessly barred.",
+   "body": "King Genn Greymane turned from the Alliance after the Second War, resentful of its demands, especially the taxes for the orc internment camps. He believed Gilneas had paid enough in coin and blood for troubles beyond its borders. Greymane withdrew the kingdom from the Alliance and ordered a vast barrier built across the head of the peninsula. When the Third War brought the Plague of Undeath and desperate refugees to the wall, its gates stayed shut.",
    "spoiler": 0
   },
   {
    "title": "The Price of Seclusion",
-   "body": "While the rampart kept the armies of the Scourge from overrunning the peninsula, the lands outside it found no such safety. In Silverpine, the archmage Arugal of Dalaran summoned feral worgen to fight the undead, but the beasts proved uncontrollable and now prowl the forest beneath the silent wall. What passes behind its gates remains unknown to the outside world.",
+   "body": "The wall kept the Scourge from overrunning the peninsula, but Silverpine beyond it found no such safety. Archmage Arugal of Dalaran summoned feral worgen to fight the undead. The beasts could not be controlled, and now prowl the forest beneath the silent wall. What lies behind the gates remains unknown to the outside world.",
    "spoiler": 1
   }
  ],
@@ -28,7 +28,7 @@
     "where does greymane wall lead",
     "what kingdom is behind the wall"
    ],
-   "answer": "Behind the wall lies the peninsula kingdom of Gilneas. Ruled by King Genn Greymane, it completely isolated itself from Lordaeron and the rest of the world before the Third War, barring all commerce and communication."
+   "answer": "The peninsula kingdom of Gilneas lies beyond the wall, ruled by King Genn Greymane. Before the Third War, Gilneas cut itself off from Lordaeron and the rest of the world, closing all commerce and communication."
   },
   {
    "q": "Can you open the gates of the Greymane Wall?",
@@ -37,7 +37,7 @@
     "can you open greymane wall",
     "open the gate"
    ],
-   "answer": "No. The massive portcullis and iron-banded doors are firmly barred from the southern side. Gilneas has severed all contact with the outside world, and nothing enters or leaves."
+   "answer": "No. The portcullis and iron-banded doors are barred from the southern side. Gilneas has severed all contact with the outside world, and nothing enters or leaves."
   },
   {
    "q": "Why was the wall built here instead of farther south?",
@@ -46,7 +46,7 @@
     "why cut off pyrewood",
     "crowley lands cut off"
    ],
-   "answer": "The reasons for its exact course are not recorded. The wall spans the southern edge of Silverpine Forest at the head of the Gilnean peninsula, leaving villages such as Pyrewood and Ambermill on its northern side."
+   "answer": "No record explains the wall’s exact course. It crosses Silverpine’s southern edge at the head of the Gilnean peninsula, leaving villages such as Pyrewood and Ambermill to its north."
   },
   {
    "q": "What happened to the refugees who fled here during the Third War?",
@@ -54,17 +54,17 @@
     "scourge refugees wall",
     "refugees outside greymane wall"
    ],
-   "answer": "When the Scourge ravaged Lordaeron, masses of fleeing human refugees gathered outside the wall begging for entry. King Greymane refused to unseal the gates to protect his kingdom, and the desperate refugees were eventually slaughtered by the undead outside."
+   "answer": "When the Scourge ravaged Lordaeron, crowds of human refugees gathered outside the wall and begged to enter. King Greymane refused to open the gates to protect his kingdom, and the undead eventually slaughtered the desperate refugees outside."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "The Greymane Wall stands as a bitter reminder of Gilnean abandonment. When Lordaeron fell to the Scourge, Greymane turned a deaf ear to his former allies, leaving them to rot outside his gates."
+   "text": "For the Alliance, Greymane Wall recalls Gilneas’s abandonment of its former allies. When the Scourge took Lordaeron, Greymane ignored their pleas and left them outside his gates."
   },
   {
    "target": "faction:Horde",
-   "text": "For the Forsaken who now claim Silverpine Forest, the wall forms an impassable southern border, sealing away a human kingdom whose intentions and inner strength remain entirely unknown."
+   "text": "For the Forsaken, who now claim Silverpine Forest, Greymane Wall marks an impassable southern border. It seals away a human kingdom whose intentions and strength remain unknown."
   }
  ],
  "keywords": [
@@ -86,5 +86,6 @@
  ],
  "attribution": [
   "Greymane Wall"
- ]
+ ],
+ "style": 1
 }

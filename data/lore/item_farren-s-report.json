@@ -10,11 +10,11 @@
    "quest:563"
   ]
  },
- "summary": "Farren's Report is an official dispatch drafted by Lieutenant Farren Orinelle in Southshore detailing his investigations into the local naga. Farren uses this document to appeal to his former mentor, Major Samuelson in Stormwind Keep, hoping to secure a reassignment back to the capital.",
+ "summary": "In Southshore, Farren's Report carries Lieutenant Farren Orinelle's findings on the local naga. He hopes the dispatch will win him a return to Stormwind.",
  "sections": [
   {
    "title": "A Ticket Out of Southshore",
-   "body": "Stationed on the embattled coast of Hillsbrad Foothills, Lieutenant Farren Orinelle grew weary of local leadership and the remote frontier. After tasking adventurers with hunting the Daggerspine naga to gather proof of their threat, Orinelle compiled his findings into a formal report. Rather than submitting it to his commanding officer, Marshal Redpath, Farren aimed to send it directly to Major Samuelson, the captain of the guard in Stormwind Keep. Having trained under Samuelson, Farren hoped the document would demonstrate his competence and justify an immediate transfer back to the comforts of Stormwind City.",
+   "body": "Lieutenant Farren Orinelle grew tired of Southshore's embattled coast, its local leadership, and its remote frontier. He had adventurers hunt the Daggerspine naga to gather proof of their threat, then gathered the findings into a formal report. Farren plans to send it to Major Samuelson, captain of the guard in Stormwind Keep, rather than to his commanding officer, Marshal Redpath. Samuelson trained Farren, and Farren hopes the report will show his competence and earn him an immediate transfer back to Stormwind City's comforts.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "what is this report",
     "orinelle report"
    ],
-   "answer": "It is a formal military dispatch penned by Lieutenant Farren Orinelle summarizing his operations against the Daggerspine naga encroaching on Southshore's beaches."
+   "answer": "Farren's Report is a military dispatch by Lieutenant Farren Orinelle, summarizing his operations against the Daggerspine naga encroaching on Southshore's beaches."
   },
   {
    "q": "Why does Farren want this delivered to Stormwind?",
@@ -35,7 +35,7 @@
     "farrens goal",
     "why samuelson"
    ],
-   "answer": "Farren wants to be reassigned away from Southshore and back to Stormwind City. He addresses the report directly to Major Samuelson, his former mentor and the captain of the Stormwind guard, hoping to earn a favorable transfer."
+   "answer": "Farren hopes to leave Southshore and return to Stormwind City. He sends the report to Major Samuelson, his former mentor and captain of the Stormwind guard, hoping for a favorable transfer."
   },
   {
    "q": "Why is Farren keeping the report a secret from Redpath?",
@@ -43,7 +43,7 @@
     "why hide from redpath",
     "ol redpath secret"
    ],
-   "answer": "Farren wants to avoid scrutiny from Marshal Redpath and local leadership, who might take offense to an officer leveraging a local threat strictly to engineer a personal transfer back to safety in the capital."
+   "answer": "Farren wants to avoid scrutiny from Marshal Redpath and local leadership. They might take offense at an officer using a local threat to arrange a personal transfer back to safety in the capital."
   },
   {
    "q": "How does Major Samuelson react upon receiving it?",
@@ -51,17 +51,17 @@
     "samuelson reaction",
     "turn in reassignment"
    ],
-   "answer": "Major Samuelson commends his former student for taking initiative against the Southshore naga and promises to consider the report when reviewing guard personnel assignments in the coming month."
+   "answer": "Major Samuelson praises his former student for taking initiative against the Southshore naga. He promises to consider the report when reviewing guard assignments in the coming month."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "The document highlights the bureaucratic maneuvering within the Alliance military, where distant postings in Hillsbrad clash with officers scheming for safer duty in Stormwind."
+   "text": "For the Alliance, Farren's Report reveals the maneuvering within its military, as officers in distant Hillsbrad seek safer duty in Stormwind."
   },
   {
    "target": "race:Human",
-   "text": "For humans of the Alliance, carrying Farren's report traces the enduring link between the besieged southern refuge of Southshore and the royal court of Stormwind Keep."
+   "text": "As a human of the Alliance, carrying Farren's Report connects besieged Southshore with the royal court in Stormwind Keep."
   }
  ],
  "keywords": [
@@ -87,5 +87,6 @@
  "attribution": [
   "Farren's Report",
   "Reassignment"
- ]
+ ],
+ "style": 1
 }
