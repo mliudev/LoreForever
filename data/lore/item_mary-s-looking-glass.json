@@ -10,16 +10,16 @@
    "quest:177"
   ]
  },
- "summary": "Mary's Looking Glass is a discarded hand mirror once treasured by Blind Mary before tragedy claimed her sight and life. Abandoned in the haunted groves of Duskwood, it was scavenged by a roving ghoul before being sought out to complete Viktori Prism'Antras's telescope.",
+ "summary": "In Duskwood, Mary’s discarded looking glass passes from a ghoul to a stargazer.",
  "sections": [
   {
    "title": "A Forsaken Treasure",
-   "body": "Before her terrible fate, Blind Mary treasured this polished looking glass. After her death and the loss of her eyes, looking upon her reflection became an agonizing reminder of what she had lost. She cast the mirror away behind her barn, leaving it to the encroaching gloom of Duskwood. There it fell into the clutching claws of an Insane Ghoul that wandered the ruined outskirts, carrying the trinket south into the crypts of Tranquil Gardens Cemetery.",
+   "body": "Blind Mary once treasured the polished mirror. After her death and the loss of her eyes, her reflection became an agonizing reminder of what she had lost. She cast the looking glass away behind her barn, where Duskwood's gloom closed in. An Insane Ghoul found it among the ruined outskirts and carried it south to the crypts of Tranquil Gardens Cemetery.",
    "spoiler": 0
   },
   {
    "title": "Eyes to the Heavens",
-   "body": "In Darkshire, the eccentric stargazer Viktori Prism'Antras dreamed of peering through Duskwood's eternal twilight toward the pristine heavens above. Building his telescope required specialized optical lenses and reflective glass. Learning of his need, Mary directed adventurers to hunt down the feral undead prowling the cemetery's ruined chapel, reclaiming the looking glass to serve as an optical reflector in his grand star-viewing machine.",
+   "body": "In Darkshire, the stargazer Viktori Prism'Antras dreams of seeing through Duskwood's eternal twilight to the clear heavens above. His telescope needs special optical lenses and reflective glass. Mary sends adventurers after the feral undead in the cemetery's ruined chapel to recover her looking glass. Viktori needs it as a reflector in his machine for viewing the stars.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "why discard mirror",
     "blind mary mirror lore"
    ],
-   "answer": "The looking glass was once one of Mary's finest treasures, but she discarded it behind the barn after an incident she does not fully describe. In another encounter she explains that she tore out her own eyes, unable to bear her appearance."
+   "answer": "The looking glass was once one of Mary's finest treasures, but she threw it behind the barn after an incident she does not fully describe. In another encounter, she explains that she tore out her own eyes because she could not bear her appearance."
   },
   {
    "q": "Who ended up with the mirror after Mary discarded it?",
@@ -40,7 +40,7 @@
     "who dropped looking glass",
     "where is looking glass"
    ],
-   "answer": "An Insane Ghoul roaming the woods behind Mary's old farmstead scavenged the discarded mirror. The deranged undead eventually took up residence within the abandoned chapel at Tranquil Gardens Cemetery."
+   "answer": "An Insane Ghoul roaming the woods behind Mary's old farmstead scavenged the discarded mirror. The undead creature eventually took up residence in the abandoned chapel at Tranquil Gardens Cemetery."
   },
   {
    "q": "Why does Viktori Prism'Antras want Mary's looking glass?",
@@ -49,7 +49,7 @@
     "viktori looking glass use",
     "telescope mirror"
    ],
-   "answer": "Viktori is constructing an elaborate telescope to pierce the gloom of Duskwood and study the stars. He requires a fine reflective surface to direct light through the device, and Mary's preserved glass fits his design perfectly."
+   "answer": "Viktori is building an elaborate telescope to pierce Duskwood's gloom and study the stars. He needs a fine reflective surface to direct light through the device, and Mary's glass fits his design."
   },
   {
    "q": "Where can the Insane Ghoul holding the mirror be found?",
@@ -58,17 +58,17 @@
     "where is insane ghoul",
     "tranquil gardens ghoul"
    ],
-   "answer": "The Insane Ghoul lurks in the far southeastern corner of Duskwood, typically haunting the ruined stone chapel inside the Tranquil Gardens Cemetery."
+   "answer": "The Insane Ghoul lurks in Duskwood's far southeastern corner, haunting the ruined stone chapel in Tranquil Gardens Cemetery."
   }
  ],
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "Engineers can appreciate Viktori's ingenuity in repurposing an antique household mirror into a functional optical reflector for an astronomical viewing device."
+   "text": "Engineers can appreciate how Viktori repurposes an antique household mirror as an optical reflector for a device to view the stars."
   },
   {
    "target": "faction:Alliance",
-   "text": "Reclaiming relics from the horrors stalking Tranquil Gardens Cemetery brings small measures of closure to Darkshire's beleaguered citizens and aids town projects."
+   "text": "Recovering relics from the horrors in Tranquil Gardens Cemetery brings some closure to Darkshire's troubled citizens and aids the town's projects."
   }
  ],
  "keywords": [
@@ -92,5 +92,6 @@
  "attribution": [
   "Mary's Looking Glass",
   "Look To The Stars (3)"
- ]
+ ],
+ "style": 1
 }

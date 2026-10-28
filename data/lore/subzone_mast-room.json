@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Mast Room"
  },
- "summary": "The Mast Room is a cavernous subterranean lumber mill nestled deep within the Deadmines. Overseen by the goblin taskmaster Sneed and his woodcarvers, this chamber processes timber stripped from Westfall to construct Edwin VanCleef's secret juggernaut.",
+ "summary": "Timber from Westfall reaches the Mast Room, deep in the Deadmines, where goblin woodcarvers shape it for the Defias.",
  "sections": [
   {
    "title": "The Underground Sawmill",
-   "body": "Past the deeper mine tunnels of the Deadmines lies the Mast Room, a massive cavern converted into a fully functional lumber mill. Piles of felled timber, sawdust, and massive cutting equipment dominate the space. It is here that goblin woodcarvers shape the immense masts, ribs, and planks needed to assemble the massive warship hidden further within the Ironclad Cove. Under the watchful eye of Sneed, the Defias Brotherhood transforms Westfall's harvested wood into instruments of war.",
+   "body": "The Mast Room turns timber from Westfall into parts for a warship. Deep in the Deadmines, the cavern holds felled logs, sawdust, and great cutting machines. Goblin woodcarvers shape the masts, ribs, and planks needed for the vessel hidden farther within Ironclad Cove. Sneed watches over their work as the Defias Brotherhood makes the wood serve its war.",
    "spoiler": 1
   },
   {
    "title": "Industrial Labor",
-   "body": "The chamber is an example of goblin industry at its most relentless. Sneed oversees operations from atop a mechanical shredder, ensuring the woodcarvers maintain grueling quotas. Massive logs are hoisted and planed in constant succession, turning what was once a dormant gold mine into a roaring, soot-choked naval shipyard.",
+   "body": "Sneed directs the goblin woodcarvers from atop a mechanical shredder. Logs rise and pass through the planers in a steady flow, while the workers meet his demanding quotas. The old gold mine now rings with the labor of a shipyard, where timber becomes the pieces of a vessel.",
    "spoiler": 1
   }
  ],
@@ -28,7 +28,7 @@
     "why wood in deadmines",
     "mast room purpose"
    ],
-   "answer": "The Defias Brotherhood is secretly building a massive warship inside the cove beneath the mines. The Mast Room serves as the assembly and shaping ground for the ship's masts, framing, and hull planks, using timber smuggled from the surface of Westfall."
+   "answer": "The Defias Brotherhood is secretly building a great warship in the cove beneath the mines. The Mast Room shapes its masts, framing, and hull planks from timber smuggled in from Westfall."
   },
   {
    "q": "Who runs the Mast Room?",
@@ -37,7 +37,7 @@
     "who leads mast room",
     "who is sneed"
    ],
-   "answer": "The chamber is overseen by Sneed, a goblin master craftsman who directs the goblin woodcarvers while piloting a lethal mechanical lumber shredder."
+   "answer": "Sneed runs the Mast Room, directing goblin woodcarvers from a lethal mechanical lumber shredder."
   },
   {
    "q": "Why are goblins working here for the Defias?",
@@ -45,17 +45,17 @@
     "why are goblins in deadmines",
     "defias goblins"
    ],
-   "answer": "Edwin VanCleef hired goblin engineers and craftsmen to provide technical expertise that human stonemasons lacked. The goblins provide heavy machinery, explosives, and shipwright skills in exchange for gold and profit."
+   "answer": "Edwin VanCleef hired goblin engineers and craftsmen for expertise human stonemasons lacked. In return for gold and profit, the goblins bring heavy machinery, explosives, and shipwright skills."
   }
  ],
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "The goblin shredder operated by Sneed in this chamber is a marvel of crude steam-and-cog technology, repurposed from forest logging to crush intruders."
+   "text": "Sneed's goblin shredder uses crude steam-and-cog machinery, adapted from forest logging to crush intruders."
   },
   {
    "target": "faction:Alliance",
-   "text": "The timber processed in this chamber reveals that Defias pillaging across Westfall serves a coordinated industrial effort rather than simple banditry."
+   "text": "Timber from this chamber shows that Defias pillaging across Westfall serves a coordinated industrial effort."
   }
  ],
  "keywords": [
@@ -73,5 +73,6 @@
  ],
  "attribution": [
   "Mast Room"
- ]
+ ],
+ "style": 1
 }

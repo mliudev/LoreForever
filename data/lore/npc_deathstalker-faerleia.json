@@ -8,11 +8,11 @@
   "wiki": "Deathstalker Faerleia",
   "refs": 1
  },
- "summary": "Deathstalker Faerleia is an operative of the Forsaken intelligence agency stationed deep within enemy territory inside Pyrewood Village. Operating out of the settlement's town hall, she orchestrates covert strikes against the Pyrewood Council, the village leaders Arugal uses as puppets.",
+ "summary": "Deep inside Pyrewood Village, Deathstalker Faerleia works against its leaders. From the town hall, she directs covert strikes against the Pyrewood Council, the puppets Arugal uses to rule the village.",
  "sections": [
   {
    "title": "Behind Enemy Lines",
-   "body": "As an agent of the Deathstalkers\u2014the covert intelligence and assassin branch of the Undercity\u2014Faerleia is tasked with infiltrating Pyrewood Village in southern Silverpine Forest. The isolated human enclave harbors dark secrets, including a curse that transforms its populace under the night sky. Stationed within the upper levels of the town hall, Faerleia coordinates operations to disrupt the settlement from the inside, calling on Horde operatives to eliminate the influential members of the Pyrewood Council.",
+   "body": "Deathstalker Faerleia works from the upper levels of Pyrewood Village's town hall. As an agent of the Deathstalkers, the Undercity's covert intelligence and assassin branch, she has infiltrated the isolated human enclave in southern Silverpine Forest. The village holds dark secrets, including a curse that transforms its people beneath the night sky. From inside the settlement, Faerleia coordinates operations to disrupt it and calls on Horde operatives to eliminate influential members of the Pyrewood Council.",
    "spoiler": 1
   }
  ],
@@ -24,7 +24,7 @@
     "who is faerleia",
     "deathstalker faerleia"
    ],
-   "answer": "She is an operative of the Deathstalkers, the stealth and intelligence division of Queen Sylvanas Windrunner's Forsaken. She has slipped into Pyrewood Village to wage a covert war against its leadership."
+   "answer": "Faerleia serves in the Deathstalkers, Queen Sylvanas Windrunner's stealth and intelligence division. She has slipped into Pyrewood Village to wage a covert war against its leadership."
   },
   {
    "q": "Where can Deathstalker Faerleia be found?",
@@ -33,7 +33,7 @@
     "faerleia location",
     "find faerleia"
    ],
-   "answer": "Faerleia is tucked away inside the town hall of Pyrewood Village, located in southern Silverpine Forest just north of the Greymane Wall."
+   "answer": "Faerleia can be found inside Pyrewood Village's town hall, in southern Silverpine Forest just north of the Greymane Wall."
   },
   {
    "q": "What mission does she give?",
@@ -41,7 +41,7 @@
     "faerleia quest",
     "pyrewood ambush quest"
    ],
-   "answer": "She directs adventurers in the Pyrewood Ambush, an operation to assassinate the councilmen governing Pyrewood Village to weaken the enclave's resistance against the Forsaken."
+   "answer": "Faerleia directs adventurers in the Pyrewood Ambush, an operation to assassinate the councilmen who govern Pyrewood Village and weaken the enclave's resistance to the Forsaken."
   },
   {
    "q": "Why are the Deathstalkers targeting Pyrewood Village?",
@@ -49,17 +49,17 @@
     "why attack pyrewood",
     "deathstalkers in pyrewood"
    ],
-   "answer": "Arugal uses the Pyrewood Council as puppets to keep the cursed villagers under his control. Faerleia believes that with the council dead, the sons of Arugal will turn against their master, helping the Forsaken take the town and drive Arugal from Shadowfang Keep."
+   "answer": "Arugal uses the Pyrewood Council as puppets to keep the cursed villagers under his control. Faerleia believes that if the council dies, the sons of Arugal will turn against their master, helping the Forsaken take the town and drive Arugal from Shadowfang Keep."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "Faerleia exemplifies the Deathstalkers' reliance on infiltration and cold calculation to dismantle enemies of the Dark Lady without committing an entire army."
+   "text": "As an Undead, you can see how Faerleia uses infiltration and cold calculation to dismantle enemies of the Dark Lady without committing an entire army."
   },
   {
    "target": "class:Rogue",
-   "text": "For rogues serving the Forsaken, Faerleia represents the pinnacle of Deathstalker field craft: slipping unnoticed straight into the enemy's seat of power to orchestrate ambushes."
+   "text": "As a Rogue serving the Forsaken, you can look to Faerleia's field craft: she slips into the enemy's seat of power unnoticed and orchestrates ambushes."
   }
  ],
  "keywords": [
@@ -79,5 +79,6 @@
  ],
  "attribution": [
   "Deathstalker Faerleia"
- ]
+ ],
+ "style": 1
 }

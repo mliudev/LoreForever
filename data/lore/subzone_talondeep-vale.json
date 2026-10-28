@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Talondeep Vale"
  },
- "summary": "Talondeep Vale is a quiet, forested hollow nestled in south-central Ashenvale. Bordering Silverwind Refuge, the Ruins of Stardust, and the gateway to the Stonetalon Mountains, it acts as a peaceful canopy through which travelers navigate southern Kalimdor.",
+ "summary": "In south-central Ashenvale, Talondeep Vale lies between familiar landmarks and the road to the mountains.",
  "sections": [
   {
    "title": "A Sheltered Valley",
-   "body": "Tucked away beneath the dense canopy of south-central Ashenvale, Talondeep Vale serves as a crossroads between several landmark sites. It is framed by Silverwind Refuge to the east, the haunting Ruins of Stardust nearby, and the rugged rise leading up into the Stonetalon Mountains. Shaded by ancient trees, the valley remains an untamed tract of woodland through which night elf wardens, sentinels, and passing wanderers traverse as they move between the heart of the forest and the high crags beyond.",
+   "body": "Talondeep Vale lies beneath the trees of south-central Ashenvale. Silverwind Refuge stands to the east, and the Ruins of Stardust lie nearby. To the south, the land rises toward the Stonetalon Mountains. Travelers cross this wooded valley between the heart of Ashenvale and the high crags beyond.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "talondeep vale location",
     "how to find talondeep vale"
    ],
-   "answer": "Talondeep Vale lies in south-central Ashenvale, nestled between Silverwind Refuge, the ancient Ruins of Stardust, and the southern mountain pass heading into the Stonetalon Mountains."
+   "answer": "Talondeep Vale lies in south-central Ashenvale, between Silverwind Refuge, the Ruins of Stardust, and the southern pass into the Stonetalon Mountains."
   },
   {
    "q": "Where does the path leading south through the vale go?",
@@ -32,7 +32,7 @@
     "where does talondeep pass lead",
     "road to stonetalon"
    ],
-   "answer": "Following the trail through the vale leads travelers toward Talondeep Path, an ascent through the rugged heights connecting the woodlands of Ashenvale directly with the arid peaks of the Stonetalon Mountains."
+   "answer": "The trail through Talondeep Vale leads to Talondeep Path, which climbs through the rugged heights connecting Ashenvale’s woodlands with the arid peaks of the Stonetalon Mountains."
   },
   {
    "q": "What nearby landmarks should travelers watch for?",
@@ -40,13 +40,13 @@
     "landmarks near talondeep vale",
     "what is near talondeep vale"
    ],
-   "answer": "The vale sits adjacent to Silverwind Refuge to the east, as well as the waterlogged Ruins of Stardust, where ancient night elven remnants still stand beneath the tree boughs."
+   "answer": "Silverwind Refuge lies to the east, and the Ruins of Stardust stand nearby beneath the trees."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "Nestled near the sacred waters of Mystral Lake and the Ruins of Stardust, these valley paths are familiar ground to the sentinels and wardens patrolling southern Ashenvale."
+   "text": "As a night elf, you know the paths near Mystral Lake and the Ruins of Stardust, familiar ground in southern Ashenvale."
   }
  ],
  "keywords": [
@@ -67,5 +67,6 @@
  ],
  "attribution": [
   "Talondeep Vale"
- ]
+ ],
+ "style": 1
 }

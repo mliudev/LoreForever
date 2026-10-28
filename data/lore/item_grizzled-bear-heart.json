@@ -10,11 +10,11 @@
    "quest:447"
   ]
  },
- "summary": "A Grizzled Bear Heart is a biological reagent harvested from the sturdy bears roaming Silverpine Forest. It serves as a vital component in the Royal Apothecary Society's grim research into the New Plague.",
+ "summary": "In Silverpine Forest, sturdy bears yield hearts for the Royal Apothecary Society's research into the New Plague.",
  "sections": [
   {
    "title": "A Reagent for the New Plague",
-   "body": "The Royal Apothecary Society works ceaselessly to develop an engineered blight capable of exterminating both the Scourge and living humanity. In the woodlands of Silverpine Forest, Apothecary Renferrel discovered that a unique toxin derived from the heart of a grizzled bear, when combined with arachnid ichor, yields a remarkably lethal concoction. Couriers and Forsaken loyalists hunt down ferocious grizzled bears, giant grizzled bears, and the infamous beast Old Vicejaw to carve out these organs and deliver them directly to Master Apothecary Faranell deep within the Apothecarium of the Undercity.",
+   "body": "The Royal Apothecary Society works without pause to create an engineered blight that can exterminate both the Scourge and living humanity. In Silverpine Forest's woodlands, Apothecary Renferrel found that toxins from a grizzled bear's heart make a remarkably lethal concoction when joined with arachnid ichor. Couriers and Forsaken loyalists hunt ferocious grizzled bears, giant grizzled bears, and the roaming beast Old Vicejaw. They carve out the hearts and carry them to Master Apothecary Faranell, deep within the Undercity's Apothecarium.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "bear heart quest",
     "recipe for death reagents"
    ],
-   "answer": "Grizzled Bear Hearts are harvested as experimental reagents for the Royal Apothecary Society. Apothecary Renferrel discovered that toxins derived from these hearts can be distilled into a lethal elixir as part of the Forsaken effort to brew the New Plague."
+   "answer": "The Royal Apothecary Society uses Grizzled Bear Hearts as experimental biological reagents. Apothecary Renferrel discovered that toxins from these hearts can be distilled into a lethal elixir for the Forsaken effort to brew the New Plague."
   },
   {
    "q": "Who wants these bear hearts?",
@@ -35,7 +35,7 @@
     "faranell bear heart",
     "who do i give bear heart to"
    ],
-   "answer": "Apothecary Renferrel in Silverpine Forest directs travelers to gather the hearts alongside Skittering Blood and deliver them directly to Master Apothecary Faranell in the Undercity's Apothecarium."
+   "answer": "Apothecary Renferrel in Silverpine Forest directs travelers to gather the hearts alongside Skittering Blood and deliver them to Master Apothecary Faranell in the Undercity's Apothecarium."
   },
   {
    "q": "Where do Grizzled Bear Hearts come from?",
@@ -44,7 +44,7 @@
     "which bears drop heart",
     "bear heart location"
    ],
-   "answer": "They are carved from the various grizzled bears roaming Silverpine Forest, including ferocious grizzled bears, giant grizzled bears, and the formidable roaming beast Old Vicejaw."
+   "answer": "Grizzled Bear Hearts come from the bears roaming Silverpine Forest, including ferocious grizzled bears, giant grizzled bears, and the roaming beast Old Vicejaw."
   },
   {
    "q": "Why does the Royal Apothecary Society need natural animal toxins?",
@@ -52,17 +52,17 @@
     "why do apothecaries use bear venom",
     "why animal hearts for plague"
    ],
-   "answer": "The society seeks potent biological agents that can contaminate and destroy living flesh as well as undead physiology. The unique chemical properties found within the heart tissues of Silverpine's hearty bears provide an ideal reactive base when blended with virulent spider blood."
+   "answer": "The Royal Apothecary Society seeks biological agents that can contaminate and destroy living flesh and undead physiology. The unique chemical properties in the heart tissues of Silverpine's hearty bears provide an ideal reactive base when blended with virulent spider blood."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "For the Forsaken, harvesting these organs directly aids Master Apothecary Faranell in engineering the ultimate weapon against both Arthas's Scourge and the living mortals threatening Lordaeron."
+   "text": "As Forsaken, harvesting these organs directly aids Master Apothecary Faranell in engineering a weapon against both Arthas's Scourge and the living mortals threatening Lordaeron."
   },
   {
    "target": "class:Hunter",
-   "text": "Silverpine's massive bears are dangerous prey, and tracking beasts like Old Vicejaw for biological samples tests a huntsman's patience and field-dressing skill."
+   "text": "As a hunter, tracking Silverpine's massive bears, including Old Vicejaw, tests your patience and field-dressing skill as you seek biological samples."
   }
  ],
  "keywords": [
@@ -88,5 +88,6 @@
  "attribution": [
   "Grizzled Bear Heart",
   "A Recipe For Death"
- ]
+ ],
+ "style": 1
 }

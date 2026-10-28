@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Shining Strand"
  },
- "summary": "The Shining Strand is the strip of shoreline hugging Lordamere Lake along eastern Silverpine Forest, stretching south from the Ruins of Lordaeron toward the rugged foothills of Alterac. Its shallows are home to settlements of aggressive Vile Fin murlocs, making the lakeshore dangerous ground for unseasoned travelers.",
+ "summary": "Along eastern Silverpine, Shining Strand follows Lordamere Lake south from the Ruins of Lordaeron toward Alterac's rugged foothills. Vile Fin murlocs hold settlements in its shallows, making the shore dangerous for unseasoned travelers.",
  "sections": [
   {
    "title": "A Contested Coastline",
-   "body": "Running along the eastern edge of Silverpine Forest, the Shining Strand borders the misty waters of Lordamere Lake. The Vile Fin tribe of murlocs has established several aggressive settlements along these shallows, posing a deadly hazard to anyone attempting to travel the lake road, while feral worgen roam the deep woods of Silverpine behind the shore.",
+   "body": "Shining Strand follows Silverpine Forest's eastern edge beside the misty waters of Lordamere Lake. Several aggressive Vile Fin murloc settlements line the shallows, threatening anyone who travels the lake road. Feral worgen roam the deep woods behind the shore.",
    "spoiler": 0
   },
   {
    "title": "Alchemical Harvest",
-   "body": "Beyond its strategic position between Lordaeron and the southern borders, the Shining Strand and its neighboring waters drew early attention from the Royal Apothecary Society. The late Apothecary Berard recorded notes on unusual hardened tumors harvested from the local Vile Fin murlocs, theorizing that their corrupted anatomy could serve as a valuable catalyst in concocting a new plague for Sylvanas Windrunner's fledgling nation.",
+   "body": "Royal Apothecary Society attention reached Shining Strand and its neighboring waters. The late Apothecary Berard recorded unusual hardened tumors harvested from local Vile Fin murlocs. He theorized their corrupted anatomy could make the tumors a valuable catalyst for concocting a new plague for Sylvanas Windrunner's fledgling nation.",
    "spoiler": 1
   }
  ],
@@ -28,7 +28,7 @@
     "where is shining strand",
     "silverpine coast"
    ],
-   "answer": "The Shining Strand is the eastern shoreline of Silverpine Forest, bordering the waters of Lordamere Lake. It begins just south of the Ruins of Lordaeron and ends against the rough hills that separate Silverpine from the Alterac Mountains."
+   "answer": "Shining Strand runs along Silverpine Forest's eastern shore, beside Lordamere Lake. It stretches south from the Ruins of Lordaeron to the rugged hills separating Silverpine from the Alterac Mountains."
   },
   {
    "q": "What threats are found along the Shining Strand?",
@@ -37,7 +37,7 @@
     "what is on shining strand",
     "shining strand enemies"
    ],
-   "answer": "The Vile Fin murlocs hold several settlements along the shore and attack unwary travelers, while feral worgen prowl the Silverpine woods beyond the strand."
+   "answer": "Vile Fin murlocs hold several settlements along the shore and attack unwary travelers. Feral worgen prowl the Silverpine woods beyond the strand."
   },
   {
    "q": "Why is the Royal Apothecary Society interested in this area?",
@@ -46,7 +46,7 @@
     "shining strand plague",
     "new plague tumor"
    ],
-   "answer": "The late Apothecary Berard documented that the native Vile Fin murlocs carried hardened tumors with unique physiological traits. The Society saw these growths as promising ingredients in their ongoing research to develop a lethal new plague."
+   "answer": "The Royal Apothecary Society is interested because the late Apothecary Berard documented hardened tumors in local Vile Fin murlocs, with unique physiological traits. He theorized the growths could serve as a catalyst for concocting a new plague."
   },
   {
    "q": "Who are the Vile Fin?",
@@ -55,17 +55,17 @@
     "vile fin location",
     "shining strand murlocs"
    ],
-   "answer": "The Vile Fin are the murloc tribe that has built several settlements along the Shining Strand, making the lakeshore very dangerous for unseasoned travelers."
+   "answer": "The Vile Fin are the murloc tribe whose settlements line Shining Strand, making the lakeshore dangerous for unseasoned travelers."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "For the Forsaken, the Vile Fin murlocs of the Shining Strand are a source of valuable specimens for the Royal Apothecary Society's research into a new plague."
+   "text": "The Royal Apothecary Society studies the Vile Fin murlocs of Shining Strand in hopes of concocting a new plague."
   },
   {
    "target": "faction:Horde",
-   "text": "The strand offers a clear, if perilous, transit corridor along Lordamere Lake connecting the northern approaches of Silverpine to the passages heading toward the Alterac Mountains."
+   "text": "Lordamere Lake's shore links Silverpine's northern approaches with passages toward the Alterac Mountains, though the strand is perilous."
   }
  ],
  "keywords": [
@@ -89,5 +89,6 @@
  ],
  "attribution": [
   "Shining Strand"
- ]
+ ],
+ "style": 1
 }

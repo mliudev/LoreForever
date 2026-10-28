@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Chill Breeze Valley"
  },
- "summary": "Chill Breeze Valley is a rugged, snow-covered pass in western Dun Morogh linking the dwarven settlement of Kharanos with the embattled city of Gnomeregan. While its main path is a well-traveled thoroughfare for young travelers and refugees, its secluded recesses harbor dangerous beasts and bloody dens.",
+ "summary": "In western Dun Morogh, travelers cross Chill Breeze Valley between Kharanos and Gnomeregan. Refugees and young travelers follow its main trail, while dangerous beasts haunt its secluded reaches.",
  "sections": [
   {
    "title": "A Crossroads of Snow and Claws",
-   "body": "Chill Breeze Valley forms a T-shaped trench through the mountains of western Dun Morogh. The main east-west trail sees steady foot traffic from novice dwarves and gnomes journeying between Kharanos and the outskirts of Gnomeregan. However, straying into the valley's north-south offshoot is another matter entirely. Strewn with bloodstains and mangled carcasses, these shadowy reaches harbor ferocious predators\u2014most notably savage wendigos that lair in deep ice caves and prey on anyone reckless enough to wander into their hunting grounds.",
+   "body": "Chill Breeze Valley cuts through the mountains of western Dun Morogh. The main trail runs east to west, carrying young dwarves and gnomes between Kharanos and the outskirts of Gnomeregan. A north-south branch leads into more dangerous ground. Blood stains the snow among mangled carcasses, and savage wendigos make their dens in deep ice caves. They prey on anyone who wanders into their hunting grounds.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "where is chill breeze valley",
     "chill breeze valley map"
    ],
-   "answer": "Chill Breeze Valley is situated in western Dun Morogh, positioned directly between the bustling mountain hub of Kharanos to the east and the technological gnome city of Gnomeregan to the west."
+   "answer": "Chill Breeze Valley lies in western Dun Morogh, between Kharanos to the east and Gnomeregan to the west."
   },
   {
    "q": "Why is the valley so dangerous to travel through?",
@@ -32,7 +32,7 @@
     "dangers in chill breeze valley",
     "why are there bones here"
    ],
-   "answer": "While the main path between Kharanos and Gnomeregan is relatively safe and heavily traveled, the northern and southern offshoots of the valley are hunting grounds for predatory beasts. The snow there is stained with blood and torn carcasses, leading to caves inhabited by vicious, territorial wendigos."
+   "answer": "The main trail between Kharanos and Gnomeregan sees heavy foot traffic and is relatively safe. Predatory beasts hunt in the valley’s northern and southern branches, where blood stains the snow and torn carcasses mark the caves where wendigos dwell."
   },
   {
    "q": "What kinds of beasts make their dens here?",
@@ -40,17 +40,17 @@
     "wendigo in chill breeze valley",
     "what lives in chill breeze valley"
    ],
-   "answer": "The deeper recesses of the valley are home to ferocious wendigos, including a particularly large and powerful wendigo that has claimed one of the caves as its lair."
+   "answer": "Ferocious wendigos make their dens in the valley’s deeper recesses. One especially large and powerful wendigo has claimed a cave as its lair."
   }
  ],
  "angles": [
   {
    "target": "race:Gnome",
-   "text": "For gnomish refugees fleeing the fallout of Gnomeregan toward the safety of Kharanos and Ironforge, surviving the trek through Chill Breeze Valley's predatory perimeter is a critical first step."
+   "text": "As a gnome fleeing Gnomeregan for the safety of Kharanos or Ironforge, you must make it past the predators around Chill Breeze Valley."
   },
   {
    "target": "race:Dwarf",
-   "text": "Mountaineers and young dwarven hunters test their mettle clearing out the ferocious wendigos that menace the vital passage connecting central Dun Morogh to the western highlands."
+   "text": "As a dwarf, you can test your mettle against the ferocious wendigos threatening the vital passage between central Dun Morogh and the western highlands."
   }
  ],
  "keywords": [
@@ -70,5 +70,6 @@
  ],
  "attribution": [
   "Chill Breeze Valley"
- ]
+ ],
+ "style": 1
 }

@@ -17,16 +17,16 @@
   "wiki": "The Caravan Road",
   "chain": []
  },
- "summary": "The Caravan Road is an Alliance quest that traces the footsteps of the missing night elf priestess Velinde Starsong. Following information uncovered in Booty Bay, the trail leads north from the perilous jungles of Stranglethorn Vale into the shadowed town of Darkshire.",
+ "summary": "In Booty Bay, the search for Velinde Starsong turns north toward Darkshire. Caravaneer Ruzzgot remembers the missing night elf priestess traveling with his caravan through Stranglethorn Vale.",
  "sections": [
   {
    "title": "A Priestess in the Jungle",
-   "body": "Tracking Velinde Starsong across the world brings adventurers from the forests of Ashenvale all the way to the southern port of Booty Bay. There, Caravaneer Ruzzgot recalls an unusual passenger: a night elf priestess traveling alongside his dusty shipping caravan. Such solitary journeys are rare for her kind, making her journey through the lawless jungle of Stranglethorn Vale stand out in the minds of merchants.",
+   "body": "Caravaneer Ruzzgot remembers Velinde Starsong as a passenger on his caravan. The search for the missing night elf priestess has brought you from Ashenvale to Booty Bay, at the southern edge of Stranglethorn Vale. She traveled with his caravan through the jungle, an unusual journey for a night elf priestess.",
    "spoiler": 0
   },
   {
    "title": "North to Darkshire",
-   "body": "According to Ruzzgot, he and Velinde parted company on their trek northward through the jungle, with the priestess striking out toward Duskwood. Her trail points directly to the beleaguered town of Darkshire, where the town's records are meticulously maintained by Clerk Daltry. In an era troubled by supernatural threats, Daltry logs every unfamiliar traveler entering the settlement, making his ledger the next vital link in unraveling Velinde's fate.",
+   "body": "Ruzzgot says he and Velinde parted ways as they traveled north through Stranglethorn Vale. She set out toward Duskwood, and her trail leads to Darkshire. Clerk Daltry keeps the town's records, including the names of unfamiliar travelers who enter. His ledger may hold the next clue to Velinde's whereabouts.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who is velinde",
     "who are we looking for"
    ],
-   "answer": "Velinde Starsong is a night elf priestess of Elune who left her homeland in Kalimdor under mysterious circumstances. Her disappearance prompted an extensive search across the continents, tracing her passage from Ashenvale through the Eastern Kingdoms."
+   "answer": "Velinde Starsong is a night elf priestess of Elune who left her homeland in Kalimdor under mysterious circumstances. Her disappearance led to a search across the continents, following her trail from Ashenvale through the Eastern Kingdoms."
   },
   {
    "q": "Why was Velinde traveling with a caravan?",
@@ -47,7 +47,7 @@
     "velinde caravan",
     "ruzzgot caravan"
    ],
-   "answer": "Velinde traveled alone or unattended through goblin territory, hiring passage with Caravaneer Ruzzgot's shipping outfit in Booty Bay to make the hazardous overland journey north through Stranglethorn Vale."
+   "answer": "Velinde traveled through goblin territory with Caravaneer Ruzzgot's shipping outfit. She hired passage for the dangerous journey north through Stranglethorn Vale."
   },
   {
    "q": "Who is Clerk Daltry?",
@@ -56,7 +56,7 @@
     "daltry darkshire",
     "who is daltry"
    ],
-   "answer": "Clerk Daltry is the town clerk and archivist of Darkshire in Duskwood. Given the pervasive threats and strange occurrences plaguing the region, he keeps close records of outsiders and visitors entering town."
+   "answer": "Clerk Daltry is Darkshire's town clerk and archivist in Duskwood. He records outsiders and visitors amid the strange occurrences and threats in the region."
   },
   {
    "q": "Where does this quest chain lead after Darkshire?",
@@ -65,7 +65,7 @@
     "what comes next",
     "after darkshire"
    ],
-   "answer": "After consulting Clerk Daltry's municipal records, he directs travelers to speak with Jonathan Carevin, initiating the quest 'The Carevin Family' to uncover more details about Velinde's stay in Duskwood."
+   "answer": "After you consult Clerk Daltry's records, he directs you to Jonathan Carevin. Speaking with Jonathan begins the search into Velinde's stay in Duskwood through his family."
   },
   {
    "q": "Why is traveling from Booty Bay to Darkshire dangerous?",
@@ -74,7 +74,7 @@
     "stranglethorn level",
     "stranglethorn dangerous"
    ],
-   "answer": "Stranglethorn Vale is overrun with predatory beasts, hostile troll tribes, and Bloodsail buccaneers far more dangerous than the local fauna of Duskwood. Navigating north requires sticking closely to the main road."
+   "answer": "Stranglethorn Vale is home to predatory beasts, hostile troll tribes, and Bloodsail buccaneers. The journey north is dangerous, and travelers need to stay close to the main road."
   },
   {
    "q": "Where did this investigation start?",
@@ -83,17 +83,17 @@
     "where did chain start",
     "ashenvale start"
    ],
-   "answer": "The search began in Ashenvale, where night elf investigators noted Velinde's unexplained departure with an artifact of great power, following clues that pointed to a ship bound for the southern seas."
+   "answer": "The search began in Ashenvale, where night elf investigators noticed Velinde's unexplained departure with an artifact of great power. Clues pointed to a ship bound for the southern seas."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "Velinde Starsong is an esteemed Sentinel priestess of Elune whose secretive actions in the Eastern Kingdoms cause deep concern among her kin in Kalimdor."
+   "text": "As a night elf, you may share your kin's concern over Velinde Starsong, a Sentinel priestess of Elune whose secretive actions have taken her to the Eastern Kingdoms."
   },
   {
    "target": "faction:Alliance",
-   "text": "Carrying news between the neutral goblin ports and remote Alliance outposts like Darkshire reinforces ties in a world fractured by recent wars."
+   "text": "As an Alliance traveler, you carry news between neutral goblin ports and remote Alliance outposts such as Darkshire, linking places in a world fractured by recent wars."
   }
  ],
  "keywords": [
@@ -118,5 +118,6 @@
  ],
  "attribution": [
   "The Caravan Road"
- ]
+ ],
+ "style": 1
 }

@@ -10,11 +10,11 @@
    "quest:760"
   ]
  },
- "summary": "The Wildmane Cleansing Totem is a consecrated ritual implement crafted to purify the northern water well of Mulgore. Entrusted to young defenders of the land, it serves as the final instrument in driving out the toxic corruption left by encroaching goblin ventures.",
+ "summary": "At Mulgore’s Wildmane Water Well, one last cleansing remains. Mull Thunderhorn prepares a totem for the northern well after the Winterhoof and Thunderhorn wells are cleansed.",
  "sections": [
   {
    "title": "Purifying the Sacred Wells",
-   "body": "When goblin ventures began poisoning the land and fouling Mulgore's scarce water supplies, the tauren turned to sacred ritual to reverse the blight. After cleansing both the Winterhoof and Thunderhorn water wells, Mull Thunderhorn crafts this final totem to purge the remaining corruption at the Wildmane Water Well north of Thunder Bluff. Infused with natural spirits, the totem cleanses the fetid waters so pure life can nourish the plains once more.",
+   "body": "The Wildmane Water Well still needs cleansing. Goblin ventures have poisoned the land and fouled Mulgore’s scarce water, so the tauren turn to sacred ritual against the blight. After the Winterhoof and Thunderhorn wells are cleansed, Mull Thunderhorn crafts a final totem for the well north of Thunder Bluff. Infused with natural spirits, it purifies the fetid water so life can nourish the plains again.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "wildmane totem use",
     "why cleanse the well"
    ],
-   "answer": "The totem is used in a tauren purification ritual to neutralize the poisons and foul runoff contaminating the Wildmane Water Well north of Thunder Bluff, restoring the purity of the land."
+   "answer": "The totem is used in a tauren purification ritual to cleanse the poisons and foul runoff in the Wildmane Water Well north of Thunder Bluff."
   },
   {
    "q": "Who creates the Wildmane Cleansing Totem?",
@@ -35,7 +35,7 @@
     "mull thunderhorn totem",
     "where do i get the cleansing totem"
    ],
-   "answer": "Mull Thunderhorn provides the totem after you assist him in gathering the necessary components and cleansing the other tainted wells throughout Mulgore."
+   "answer": "Mull Thunderhorn creates the totem after you gather the needed components and cleanse the other tainted wells in Mulgore."
   },
   {
    "q": "Why are the water wells in Mulgore poisoned?",
@@ -44,7 +44,7 @@
     "why is the well poisonous",
     "goblin poisons mulgore"
    ],
-   "answer": "Encroaching goblins have introduced noxious poisons and destructive industrial runoff into the local water table, threatening the tauren tribes and the natural balance of the plains."
+   "answer": "Goblin ventures have brought poisons and industrial runoff into Mulgore’s water, threatening the tauren tribes and the natural balance of the plains."
   },
   {
    "q": "Where does this totem need to be used?",
@@ -53,17 +53,17 @@
     "where is wildmane water well",
     "where do i take the totem"
    ],
-   "answer": "It must be taken to the Wildmane Water Well, situated on the rolling plains north of the great bluffs of Thunder Bluff."
+   "answer": "Use the totem at the Wildmane Water Well, north of Thunder Bluff."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "Restoring the Wildmane well is a solemn obligation to the Earth Mother, purging foreign industrial toxins to preserve your ancestral homeland."
+   "text": "As a tauren, restoring the Wildmane well is an obligation to the Earth Mother and a way to protect your ancestral homeland from foreign industrial toxins."
   },
   {
    "target": "class:Shaman",
-   "text": "Channeling spiritual purification through carved totems is fundamental to mending the wounded water spirits corrupted by reckless industry."
+   "text": "As a shaman, you channel spiritual purification through carved totems to mend water spirits wounded by reckless industry."
   }
  ],
  "keywords": [
@@ -88,5 +88,6 @@
  "attribution": [
   "Wildmane Cleansing Totem",
   "Wildmane Cleansing (Classic)"
- ]
+ ],
+ "style": 1
 }

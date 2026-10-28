@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Ravaged Caravan"
  },
- "summary": "The Ravaged Caravan is a smoldering wreck located on the northeastern shore of Stonebull Lake in Mulgore. Once a supply convoy bound for Supervisor Fizsprocket's mining operations, it was ambushed and destroyed by local tauren determined to halt goblin exploitation of their homeland.",
+ "summary": "Smoke still rises from the Ravaged Caravan on Stonebull Lake's northeastern shore in Mulgore. The Venture Company convoy was bound for Supervisor Fizsprocket's mining operation before tauren defenders destroyed it.",
  "sections": [
   {
    "title": "Smoke Over Stonebull Lake",
-   "body": "Perched on a rise above Stonebull Lake, the Ravaged Caravan marks an early clash between the tauren of Bloodhoof Village and the encroaching Venture Company. Sent to deliver mining supplies, blueprints, and equipment to Supervisor Fizsprocket's dig site, the caravan was cut off and wrecked by tauren defenders before it could reach its destination. Despite the devastation, stubborn Venture Co. survivors still cling to the ruined wagons and smoldering crates, jealously guarding what little cargo remains.",
+   "body": "The ruined wagons sit on a rise above Stonebull Lake, where tauren from Bloodhoof Village stopped the Venture Company. The convoy carried mining supplies, blueprints, and equipment to Supervisor Fizsprocket's dig site, but tauren defenders wrecked it before it could arrive. Venture Co. survivors still cling to the wagons and smoldering crates, guarding what cargo remains.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "what happened here",
     "ravaged caravan backstory"
    ],
-   "answer": "The caravan was intercepted and wrecked by local tauren who spotted the Venture Company moving deep into Mulgore. Seeking to stop the goblins from stripping the land, the tauren destroyed the convoy before its cargo could reach the nearby mine."
+   "answer": "Local tauren intercepted and wrecked the Venture Company caravan as it moved deep into Mulgore. They sought to stop the goblins from stripping the land, and destroyed the convoy before its cargo reached the nearby mine."
   },
   {
    "q": "Who owns the wrecked wagons?",
@@ -32,7 +32,7 @@
     "who owns the caravan",
     "venture company caravan"
    ],
-   "answer": "The caravan belongs to the Venture Company, an unscrupulous goblin mining consortium attempting to establish unpermitted operations in the hills of Mulgore."
+   "answer": "The Venture Company owns the wrecked wagons. The goblin mining consortium is trying to establish unpermitted operations in the hills of Mulgore."
   },
   {
    "q": "Where was the caravan heading?",
@@ -41,7 +41,7 @@
     "where was it going",
     "fizsprocket supplies"
    ],
-   "answer": "It was hauling tools, machinery, and supplies north toward Supervisor Fizsprocket, who leads the Venture Company's strip-mining operation at the Venture Co. Mine."
+   "answer": "The caravan was heading north with tools, machinery, and supplies for Supervisor Fizsprocket, who leads the Venture Company's strip-mining operation at the Venture Co. Mine."
   },
   {
    "q": "Why are there still Venture Co. workers lingering at the wreck?",
@@ -50,17 +50,17 @@
     "venture co survivors",
     "who is guarding the wreck"
    ],
-   "answer": "The surviving Venture Co. hirelings and workers are fiercely protective of company property. Rather than abandoning the loss, they remain entrenched around the charred wagons, attempting to salvage what little remains of their equipment."
+   "answer": "The surviving Venture Co. workers fiercely guard company property. They remain around the charred wagons, trying to salvage what remains of their equipment."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "The charred wagons represent your people's immediate and decisive refusal to let foreign industrial syndicates despoil the sacred pastures of Mulgore."
+   "text": "As a tauren, you see the charred wagons as your people's refusal to let foreign industrial syndicates despoil Mulgore's sacred pastures."
   },
   {
    "target": "class:Druid",
-   "text": "The black smoke choking the shore of Stonebull Lake serves as a stark reminder of the reckless damage goblin machinery inflicts on the natural balance."
+   "text": "As a druid, you see the black smoke over Stonebull Lake as a warning of the harm goblin machinery does to nature's balance."
   }
  ],
  "keywords": [
@@ -85,5 +85,6 @@
  ],
  "attribution": [
   "Ravaged Caravan"
- ]
+ ],
+ "style": 1
 }

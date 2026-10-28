@@ -12,26 +12,26 @@
   "levels": "15-25",
   "aliases": []
  },
- "summary": "East of Elwynn Forest, the Redridge Mountains feature rushing rivers, wooded slopes, and the serene expanse of Lake Everstill. Despite its scenic heights, the region is besieged by hostile Shadowhide gnolls and the encroaching Blackrock orcs of the Dark Horde. With the kingdom's military tied up by internal strife in Stormwind, the lakeside town of Lakeshire must rely on wandering mercenaries to hold the line.",
+ "summary": "Redridge Mountains face attacks from Shadowhide gnolls and Blackrock orcs of the Dark Horde. Rushing rivers cut through wooded slopes around Lake Everstill, but Lakeshire must hold the line with help from wandering mercenaries while Stormwind’s forces are tied up by strife at home.",
  "sections": [
   {
    "title": "A Bastion Under Siege",
-   "body": "The Redridge range was once among the most peaceful corners of the kingdom, supplying Stormwind with timber, freshwater fish, and crops. Today, that quiet life has eroded. The lakeside township of Lakeshire sits perpetually fortified against aggressive incursions. To the east, Stonewatch Keep\u2014once a proud bastion of the kingdom\u2014has fallen under the control of renegade Blackrock orcs, cutting off roads and threatening to overrun the eastern valleys entirely.",
+   "body": "Redridge was once among the kingdom’s most peaceful regions, supplying Stormwind with timber, freshwater fish, and crops. Now Lakeshire stays fortified against aggressive incursions. Stonewatch Keep, once a proud stronghold of the kingdom, has fallen to renegade Blackrock orcs. Their control cuts off roads and threatens to overrun the eastern valleys.",
    "spoiler": 0
   },
   {
    "title": "The Divided Range",
-   "body": "Geographically, these peaks form part of the spine running down the subcontinent of Azeroth. Centuries ago, the mountain chain reached much farther north until the Dark Iron clan inadvertently summoned the Firelord Ragnaros, tearing the earth asunder and creating the fiery crater of Blackrock Mountain. That cataclysm severed the northern peaks into the ash-choked Burning Steppes, leaving only the southern Redridge valleys lush, green, and vulnerable to attacks descending from the slopes above.",
+   "body": "These peaks form part of the spine running down the subcontinent of Azeroth. Centuries ago, the range stretched much farther north. Then the Dark Iron clan summoned the Firelord Ragnaros by accident, and the earth tore open to form the fiery crater of Blackrock Mountain. The cataclysm left the northern peaks severed into the ash choked Burning Steppes. Only the southern Redridge valleys remain lush and green, exposed to attacks from the slopes above.",
    "spoiler": 0
   },
   {
    "title": "Neglected by the Crown",
-   "body": "While Magistrate Solomon and Marshal Marris plead for reinforcements, the regency council in Stormwind has effectively abandoned Lakeshire to fend for itself. Desperate entreaties sent to Sentinel Hill and Darkshire yield nothing, as both sister settlements are crippled by their own crises. With reinforcements nowhere in sight, local magistrates must hire any capable sellsword willing to brave the Lakeridge Highway, clear the gnoll camps, and push back the shadow looming over Lake Everstill.",
+   "body": "Magistrate Solomon and Marshal Marris plead for reinforcements, but Stormwind’s regency council has left Lakeshire to fend for itself. Desperate entreaties to Sentinel Hill and Darkshire bring no help; both settlements are crippled by crises of their own. With no reinforcements in sight, local magistrates hire any capable sellsword willing to brave the Lakeridge Highway, clear the gnoll camps, and push back the danger over Lake Everstill.",
    "spoiler": 0
   },
   {
    "title": "The Hidden Allegiances",
-   "body": "The rogue warlock Morganth initially allied with the Blackrock orcs to seize Stonewatch Keep, then betrayed them and bound the Shadowhide gnolls to his service from the Tower of Ilgalar. Reports recovered during the Blackrock investigation also reveal an alliance between the orcs and the black dragonflight.",
+   "body": "Morganth, a rogue warlock, first allied with the Blackrock orcs to seize Stonewatch Keep. He later betrayed them and bound the Shadowhide gnolls to his service from the Tower of Ilgalar. Reports recovered during the Blackrock investigation also reveal an alliance between the orcs and the black dragonflight.",
    "spoiler": 1
   }
  ],
@@ -43,7 +43,7 @@
     "why is redridge abandoned",
     "where is stormwind army"
    ],
-   "answer": "Lakeshire's surviving royal soldiers are badly outnumbered after losing Stonewatch Keep. Magistrate Solomon has appealed for troops, weapons, food, and supplies, but Stormwind's forces are stretched thin and the neighboring settlements have troubles of their own. The garrison therefore relies on adventurers to help hold the region."
+   "answer": "Lakeshire’s surviving royal soldiers are badly outnumbered after the loss of Stonewatch Keep. Magistrate Solomon has appealed for troops, weapons, food, and supplies, but Stormwind’s forces are stretched thin, and neighboring settlements face troubles of their own. The garrison relies on adventurers to help hold the region."
   },
   {
    "q": "Who controls Stonewatch Keep?",
@@ -52,7 +52,7 @@
     "stonewatch enemies",
     "what happened to stonewatch"
    ],
-   "answer": "Stonewatch Keep has been overrun by Blackrock orcs affiliated with the Dark Horde. From this fortified mountain stronghold, they threaten the eastern valleys and travel along the Lakeridge Highway. Their relationships with other local threats are explored during the investigation."
+   "answer": "Blackrock orcs affiliated with the Dark Horde control Stonewatch Keep. From the mountain stronghold, they threaten the eastern valleys and travel along the Lakeridge Highway. Their ties to other local threats emerge during the investigation."
   },
   {
    "q": "What threats dwell in Lake Everstill?",
@@ -61,7 +61,7 @@
     "redridge lake dangers",
     "everstill murlocs"
    ],
-   "answer": "While tranquil from the shoreline, Lake Everstill's waters are infested with hostile murloc tribes that raid the nearby docks and ruins. Swimmers must also contend with predatory threshadons lurking beneath the surface, giving rise to persistent rumors of aquatic monsters prowling the depths."
+   "answer": "Hostile murloc tribes infest Lake Everstill and raid nearby docks and ruins. Swimmers also face predatory threshadons beneath the surface, prompting rumors of aquatic monsters in the depths."
   },
   {
    "q": "Are there any Horde outposts in Redridge?",
@@ -70,7 +70,7 @@
     "is redridge horde or alliance",
     "horde flight path redridge"
    ],
-   "answer": "No. The Redridge Mountains contain no Horde settlements, vendors, or flight paths. Horde travelers passing through the zone are generally en route between the Burning Steppes to the north and the Swamp of Sorrows to the southeast, having to navigate Alliance-held roads and hostile wilderness."
+   "answer": "Redridge has no Horde settlements, vendors, or flight paths. Horde travelers passing through are generally en route between the Burning Steppes to the north and the Swamp of Sorrows to the southeast, navigating Alliance held roads and hostile wilderness."
   },
   {
    "q": "What is the Three Corners?",
@@ -79,7 +79,7 @@
     "three corners crossroads",
     "redridge intersection"
    ],
-   "answer": "The Three Corners is a vital crossroads in the southwest corner of Redridge. It connects the Lakeridge Highway with the eastern border of Elwynn Forest and the road into Duskwood, making it an essential transit hub frequently targeted by wandering gnolls and wild beasts."
+   "answer": "The Three Corners is a crossroads in southwest Redridge. It joins the Lakeridge Highway to the eastern border of Elwynn Forest and the road into Duskwood, making it a vital transit point often targeted by wandering gnolls and wild beasts."
   },
   {
    "q": "Why is the northern path to the Burning Steppes so perilous?",
@@ -88,25 +88,25 @@
     "burning steppes border redridge",
     "redridge pass north"
    ],
-   "answer": "The trail leading north past Render's Camp climbs directly into the Burning Steppes, a desolate volcanic wasteland dominated by powerful Blackrock orcs, fire elementals, and dragonkin. The sudden shift in danger makes the northern mountain pass one of the deadliest geographic ascents in southern Azeroth."
+   "answer": "The trail north past Render’s Camp climbs straight into the Burning Steppes, a desolate volcanic wasteland ruled by powerful Blackrock orcs, fire elementals, and dragonkin. That sudden rise in danger makes the northern mountain pass one of southern Azeroth’s deadliest climbs."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Lakeshire serves as a critical frontline hub for young Alliance soldiers honing their skills against organized orcish and gnoll forces."
+   "text": "As an Alliance soldier, you can hone your skills at Lakeshire, a frontline hub facing organized orcs and gnolls."
   },
   {
    "target": "faction:Horde",
-   "text": "The Blackrock orcs entrenched in Redridge belong to the hostile Dark Horde, making them enemies of Thrall's Horde just as much as the humans in Lakeshire."
+   "text": "The Blackrock orcs entrenched in Redridge belong to the hostile Dark Horde, making them enemies of Thrall’s Horde as well as the humans in Lakeshire."
   },
   {
    "target": "profession:Mining",
-   "text": "The rocky crags and valleys surrounding Lake Everstill provide abundant outcroppings of copper, tin, and rare silver veins, particularly near the Rethban Caverns."
+   "text": "You can find copper, tin, and rare silver veins in the rocky crags and valleys around Lake Everstill, especially near the Rethban Caverns."
   },
   {
    "target": "profession:Herbalism",
-   "text": "The temperate mountain slopes foster steady growths of Briarthorn, Bruiseweed, Mageroyal, and Swiftthistle."
+   "text": "The temperate mountain slopes support Briarthorn, Bruiseweed, Mageroyal, and Swiftthistle."
   }
  ],
  "keywords": [
@@ -136,5 +136,6 @@
  "attribution": [
   "Redridge Mountains (Classic)",
   "Redridge Mountains"
- ]
+ ],
+ "style": 1
 }

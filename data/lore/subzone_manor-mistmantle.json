@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Manor Mistmantle"
  },
- "summary": "Manor Mistmantle is a decaying estate nestled in the shadowed hills of northeastern Duskwood, north of Darkshire. Once a proper family homestead, it has fallen into ruin and horror, crawling with undead ghouls bound to its infamous master.",
+ "summary": "In Duskwood's shadowed northeastern hills, Manor Mistmantle lies north of Darkshire. Once a family homestead, the estate has fallen into ruin, where ghouls prowl under the command of its infamous master.",
  "sections": [
   {
    "title": "A Blighted Homestead",
-   "body": "Located west of Beggar's Haunt, Manor Mistmantle stands as a grim monument to murder and madness. The grounds are choked with decay and prowled by vicious ghouls who defend the ruined structure. Amidst the rot and withered vegetation, the only sign of living beauty on the entire property is a solitary, sorrowful blossom growing in the untended garden: the flower known as the Tear of Tilloa.",
+   "body": "West of Beggar's Haunt, Manor Mistmantle's ruined grounds are choked with decay. Vicious ghouls prowl there, guarding the broken house. In the untended garden, a solitary, sorrowful blossom called the Tear of Tilloa is the only sign of living beauty on the entire property.",
    "spoiler": 0
   },
   {
    "title": "The Master of the Estate",
-   "body": "The manor belongs to Stalvan Mistmantle, a former schoolteacher and private tutor whose horrific crimes against the family of his student Tilloa became the stuff of dark legend across the kingdom. Now an agent of the undead, Stalvan lurks in the upper floor of his family home, surrounded by remnants of his slaughtered victims and guarded by shambling horrors. Travelers and investigators from Darkshire frequently find that the trail of Duskwood's most notorious phantom ends at this blood-soaked manor.",
+   "body": "Stalvan Mistmantle, once a schoolteacher and private tutor, now acts as an agent of the undead. His horrific crimes against the family of his student became dark legend across the kingdom. He lurks on the upper floor of his family home, among remnants of his slaughtered victims, with shambling horrors guarding him. Travelers and investigators from Darkshire often find that the trail of Duskwood's most notorious phantom ends at this blood-soaked manor.",
    "spoiler": 1
   }
  ],
@@ -28,7 +28,7 @@
     "where is mistmantle manor",
     "how to find manor mistmantle"
    ],
-   "answer": "Manor Mistmantle lies in the northeastern reaches of Duskwood, situated directly north of Darkshire and just west of Beggar's Haunt."
+   "answer": "Manor Mistmantle lies in northeastern Duskwood, north of Darkshire and just west of Beggar's Haunt."
   },
   {
    "q": "Who lives in Manor Mistmantle?",
@@ -37,7 +37,7 @@
     "manor mistmantle boss",
     "stalvan house"
    ],
-   "answer": "The estate belongs to Stalvan Mistmantle, a former tutor who now exists as an undead creature surrounded by ghouls."
+   "answer": "Stalvan Mistmantle belongs to the estate. The former tutor now exists as an undead creature, surrounded by ghouls."
   },
   {
    "q": "What is the Tear of Tilloa?",
@@ -46,7 +46,7 @@
     "mistmantle garden flower",
     "tilloa flower"
    ],
-   "answer": "The Tear of Tilloa is a solitary, delicate flower blooming in the garden of Manor Mistmantle, standing out as the only surviving sign of natural life amidst the decayed grounds."
+   "answer": "The Tear of Tilloa is a solitary, delicate flower blooming in Manor Mistmantle's garden. It is the only surviving sign of natural life amid the decayed grounds."
   },
   {
    "q": "Why are there undead guarding the grounds?",
@@ -55,13 +55,13 @@
     "mistmantle undead",
     "manor mistmantle enemies"
    ],
-   "answer": "The ghouls roaming the manor grounds are minions bound to Stalvan Mistmantle, serving to protect their master and slaughter anyone who dares trespass on his blighted estate."
+   "answer": "Ghouls roam the manor grounds as minions bound to Stalvan Mistmantle. They protect their master and slaughter trespassers on his blighted estate."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "For Alliance investigators tracking the grim fate of Stalvan's victims, Manor Mistmantle is the tragic final destination of the Legend of Stalvan."
+   "text": "As an Alliance investigator tracking the grim fate of Stalvan's victims, you reach Manor Mistmantle, the tragic final destination of the Legend of Stalvan."
   }
  ],
  "keywords": [
@@ -81,5 +81,6 @@
  ],
  "attribution": [
   "Manor Mistmantle"
- ]
+ ],
+ "style": 1
 }

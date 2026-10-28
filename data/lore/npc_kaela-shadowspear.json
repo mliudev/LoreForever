@@ -8,16 +8,16 @@
   "wiki": "Kaela Shadowspear",
   "refs": 8
  },
- "summary": "Kaela Shadowspear is a night elf sentinel stationed southwest of Windshear Crag in the Stonetalon Mountains. From her small outpost, she coordinates with fellow sentinels to monitor escalating tensions and regional disruptions in the wilderness. She relies on brave travelers to scout dangerous territory and learn what has corrupted the land's ancient defenders.",
+ "summary": "In the Stonetalon Mountains, Kaela Shadowspear watches the wilderness southwest of Windshear Crag. She coordinates with fellow sentinels as tensions rise and the land suffers new disruptions. Travelers help scout dangerous ground and learn what has corrupted the ancient defenders.",
  "sections": [
   {
    "title": "A Scout on the Frontier",
-   "body": "Positioned just southwest of the industrial devastation of Windshear Crag, Kaela Shadowspear keeps a watchful vigil over the surrounding passes. The Stonetalon Mountains are fraught with danger as the Horde encroaches and goblin operations exploit the land's natural bounty. Operating alongside the gnome Gaxim Rustfizzle, Kaela acts as an essential forward liaison for the night elves, tracking threats that push deeper into ancestral territory.",
+   "body": "Kaela Shadowspear watches the passes southwest of Windshear Crag. The Horde presses into the Stonetalon Mountains, while goblin operations exploit the land's natural bounty. Working beside the gnome Gaxim Rustfizzle, Kaela tracks threats pushing deeper into night elf ancestral territory.",
    "spoiler": 0
   },
   {
    "title": "Healing the Land",
-   "body": "The unrest in Stonetalon goes far beyond territorial skirmishes. The violent disruption of nature has agitated the elementals and brought harm to ancient guardians of the forest. Kaela works tirelessly to dispatch adventurers against raging elemental spirits and to learn what has corrupted the wounded ancients, the treants who once guarded the Vale, striving to restore peace before the land is irrevocably scarred.",
+   "body": "Violence against nature has stirred the elementals and harmed the forest's ancient guardians. Kaela sends travelers against the raging spirits and seeks the cause of the corruption afflicting the wounded treants who once guarded the Vale. She works to restore peace before the land is scarred beyond repair.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "kaela shadowspear identity",
     "kaela npc"
    ],
-   "answer": "Kaela Shadowspear is a night elf quest giver stationed in a frontier camp southwest of Windshear Crag in the Stonetalon Mountains. She oversees regional scouting and aids in protecting the local wildlife and spirits."
+   "answer": "Kaela Shadowspear is a night elf sentinel at a frontier camp southwest of Windshear Crag in the Stonetalon Mountains. She oversees scouting and helps protect local wildlife and spirits."
   },
   {
    "q": "Where can Kaela Shadowspear be found?",
@@ -38,7 +38,7 @@
     "where is kaela",
     "kaela stonetalon camp"
    ],
-   "answer": "She is located in a small Alliance camp situated southwest of Windshear Crag along the road in the Stonetalon Mountains, sharing the camp with the gnome engineer Gaxim Rustfizzle."
+   "answer": "Kaela is in a small Alliance camp southwest of Windshear Crag, along the road through the Stonetalon Mountains. The gnome engineer Gaxim Rustfizzle shares the camp."
   },
   {
    "q": "Who does Kaela report to?",
@@ -47,7 +47,7 @@
     "kaela thenysil",
     "kaela's commander"
    ],
-   "answer": "Kaela coordinates closely with Sentinel Thenysil, regularly sending and receiving intelligence updates on enemy movements and local threats across Stonetalon."
+   "answer": "Kaela coordinates with Sentinel Thenysil, exchanging intelligence on enemy movements and local threats across Stonetalon."
   },
   {
    "q": "Why is Kaela concerned about the elementals?",
@@ -56,7 +56,7 @@
     "why are spirits angry",
     "kaela elemental spirits"
    ],
-   "answer": "When the Venture Co. set the Charred Vale aflame and tore at it with their machines, they released burning spirits, elementals of flame, stone and rage, that now roam the Vale. Kaela wants their numbers reduced so the land can recover."
+   "answer": "The Venture Co. set the Charred Vale aflame and tore at it with machines, releasing spirits of flame, stone, and rage. Kaela wants their numbers reduced so the land can recover."
   },
   {
    "q": "What is happening to the ancients near Windshear Crag?",
@@ -65,7 +65,7 @@
     "kaela ancients",
     "stonetalon wounded ancients"
    ],
-   "answer": "The treants who protect the Charred Vale helped drive back the Venture Co., but they have since become corrupt. Gaxim suspects the goblins' weapons are to blame, so Kaela asks travelers to bring back a piece of corroded shrapnel from a wounded treant for him to study."
+   "answer": "The treants who protect the Charred Vale helped drive back the Venture Co., but they have since become corrupt. Gaxim suspects the goblins' weapons are to blame, so Kaela asks travelers to bring him a piece of corroded shrapnel from a wounded treant to study."
   },
   {
    "q": "Why is a gnome stationed with Kaela?",
@@ -74,21 +74,21 @@
     "why is gaxim with kaela",
     "gnome and night elf camp"
    ],
-   "answer": "Kaela shares her camp with Gaxim Rustfizzle, an Alliance gnome. While Kaela focuses on the spiritual and tactical balance of the wilderness, Gaxim is concerned with counteracting the hostile goblin machinery and operations nearby."
+   "answer": "Kaela shares her camp with Gaxim Rustfizzle, an Alliance gnome. She tends to the wilderness's spiritual and tactical balance, while Gaxim works against the hostile goblin machinery and operations nearby."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Kaela Shadowspear serves as a crucial point of contact for Alliance adventurers venturing into the contested reaches of Stonetalon, coordinating intelligence between distant outposts."
+   "text": "As an Alliance adventurer, you can bring Kaela intelligence from the contested reaches of Stonetalon and help coordinate it between distant outposts."
   },
   {
    "target": "race:NightElf",
-   "text": "For the night elves, Kaela represents the steadfast defense of sacred ground, laboring to soothe outraged spirits and safeguard the revered ancients of Kalimdor."
+   "text": "As a night elf, you know the need to defend sacred ground. Kaela works to soothe outraged spirits and protect Kalimdor's revered ancients."
   },
   {
    "target": "class:Druid",
-   "text": "Druids will find common cause with Kaela's efforts to uncover what corrupted the Vale's ancients and silence the agony of disturbed nature spirits."
+   "text": "As a druid, you can help Kaela uncover what corrupted the Vale's ancients and ease the pain of its disturbed nature spirits."
   }
  ],
  "keywords": [
@@ -114,5 +114,6 @@
  ],
  "attribution": [
   "Kaela Shadowspear"
- ]
+ ],
+ "style": 1
 }

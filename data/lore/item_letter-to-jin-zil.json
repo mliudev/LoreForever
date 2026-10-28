@@ -10,16 +10,16 @@
    "quest:1060"
   ]
  },
- "summary": "The Letter to Jin'Zil is a piece of correspondence penned by the orc Darsok Swiftdagger at the Crossroads. Entrusted to an adventurer after the defeat of Serena Bloodfeather, it bears word to the Darkspear witch doctor Jin'Zil in the Stonetalon Mountains that the northern Barrens have been purged of the Bloodfeather threat.",
+ "summary": "At the Crossroads, Letter to Jin'Zil carries word of Serena Bloodfeather's defeat. Darsok Swiftdagger sends it to the Darkspear witch doctor in the Stonetalon Mountains, telling him the northern Barrens are free of the Bloodfeather threat.",
  "sections": [
   {
    "title": "A Messenger to Stonetalon",
-   "body": "Following the eradication of the harpy infestation at the Dry Hills and the slaying of Serena Bloodfeather, Darsok Swiftdagger drafts this missive to an old comrade. Recognizing that the harpies of the Barrens originally roosted within the peaks of Stonetalon Mountains, Darsok uses the dispatch to introduce a promising warrior to the wider frontier while notifying the witch doctor Jin'Zil that the harpy matron has fallen.",
+   "body": "After the harpies at the Dry Hills are wiped out and Serena Bloodfeather is slain, Darsok Swiftdagger writes to an old comrade. The harpies of the Barrens first roosted in the peaks of the Stonetalon Mountains. Darsok sends news of the fallen matron to Jin'Zil, a witch doctor, and introduces a promising warrior to the wider frontier.",
    "spoiler": 0
   },
   {
    "title": "Old Memories in Malaka'jin",
-   "body": "Upon delivery to the cave at Malaka'jin, Jin'Zil welcomes the news with nostalgic satisfaction. The death of Serena reminds the old witch doctor of the founding of Durotar after the Third War, when his friend Rokhan joined the half-ogre beastmaster Rexxar to strike down Serena's elder sister, Bloodfeather. With Serena now slain as well, Jin'Zil considers the Bloodfeather line's vengeance thoroughly extinguished.",
+   "body": "At the cave in Malaka'jin, Jin'Zil receives the news with nostalgic satisfaction. Serena's death recalls the founding of Durotar after the Third War, when Rokhan, Jin'Zil's friend, joined Rexxar, a half-ogre beastmaster, to kill Serena's elder sister, Bloodfeather. Serena has fallen too, and Jin'Zil believes the Bloodfeather line's vengeance is ended.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "letter sender",
     "darsok letter"
    ],
-   "answer": "The letter is written by Darsok Swiftdagger, an orc stationed at the Crossroads in the Barrens who coordinates the defense against marauding harpy covens."
+   "answer": "Darsok Swiftdagger, an orc at the Crossroads in the Barrens, wrote the letter. He coordinates the defense against marauding harpy covens."
   },
   {
    "q": "Where is Jin'Zil located?",
@@ -40,7 +40,7 @@
     "jin'zil location",
     "find jinzil"
    ],
-   "answer": "Witch Doctor Jin'Zil resides inside a cave within Malaka'jin, a Darkspear troll outpost nestled in the southeast crags of the Stonetalon Mountains."
+   "answer": "Jin'Zil lives in a cave at Malaka'jin, a Darkspear troll outpost in the southeast crags of the Stonetalon Mountains."
   },
   {
    "q": "What is the news contained in the letter?",
@@ -48,7 +48,7 @@
     "what does the letter say",
     "letter message"
    ],
-   "answer": "The message informs Jin'Zil that Serena Bloodfeather, the leader of the harpies descending into the northern Barrens, has been slain, securing the perimeter north of the Crossroads."
+   "answer": "The letter tells Jin'Zil that Serena Bloodfeather, leader of the harpies descending into the northern Barrens, has been slain. Her death secures the perimeter north of the Crossroads."
   },
   {
    "q": "Why does Jin'Zil care about the Bloodfeathers?",
@@ -57,17 +57,17 @@
     "bloodfeather history",
     "rokhan and bloodfeather"
    ],
-   "answer": "Jin'Zil remembers the founding of Durotar after the Third War, when his companion Rokhan and the half-ogre warrior Rexxar killed Serena's elder sister. Serena sought revenge against the Horde ever since, making her downfall a welcome resolution."
+   "answer": "Jin'Zil remembers the founding of Durotar after the Third War, when his companion Rokhan and Rexxar, a half-ogre warrior, killed Serena's elder sister. Serena sought revenge against the Horde ever since, so her downfall brings a welcome resolution."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "The letter acts as a bridge for Horde adventurers transitioning from policing the Barrens to tackling the deeper conflicts brewing in the Stonetalon Mountains."
+   "text": "As a Horde traveler, you carry news from defending the Barrens into the deeper conflicts of the Stonetalon Mountains."
   },
   {
    "target": "race:Troll",
-   "text": "Delivering the letter leads Darkspear travelers directly to Witch Doctor Jin'Zil, an elder practitioner carrying on traditional voodoo outside of the Echo Isles."
+   "text": "As a troll, you can bring the letter to Witch Doctor Jin'Zil, an elder practitioner who carries on traditional voodoo outside the Echo Isles."
   }
  ],
  "keywords": [
@@ -93,5 +93,6 @@
  "attribution": [
   "Letter to Jin'Zil",
   "Letter to Jin'Zil (quest)"
- ]
+ ],
+ "style": 1
 }

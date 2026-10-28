@@ -15,6 +15,7 @@
 import { readCheckin, saveCheckin, isInternal } from "../../../lib/checkins.js";
 import { readFeatureUsage, saveFeatureUsage, dailyUpkeep, MAX_BODY } from "../../../lib/featureuse.js";
 import { sweepAnswerLog } from "../../../lib/answer-log.js";
+import { recheckCustom } from "../../../lib/willo-custom.js";
 import { perDayFromIp } from "../../../lib/ratelimit.js";
 import { isCompanion } from "../../../lib/client-version.js";
 
@@ -41,8 +42,9 @@ export async function onRequestPost({ request, env, waitUntil }) {
     if (usage) await saveFeatureUsage(env, checkin.install, usage, isInternal(checkin));
   } catch (e) { return answer(503); }
   // The day's upkeep (old rows out, rollups) never holds up or fails a check-in. Every check-in also clears Willo's
-  // answers past their 14 days (lib/answer-log.js), so they go on a day nobody asks her anything too.
-  const upkeep = Promise.all([usage ? dailyUpkeep(env).catch(() => {}) : null, sweepAnswerLog(env)]);
+  // answers past their 14 days (lib/answer-log.js), so they go on a day nobody asks her anything too, and checks a few
+  // style notes and tales saved while their check couldn't run (lib/willo-custom.js recheckCustom).
+  const upkeep = Promise.all([usage ? dailyUpkeep(env).catch(() => {}) : null, sweepAnswerLog(env), recheckCustom(env)]);
   if (typeof waitUntil === "function") waitUntil(upkeep); else await upkeep;
   return answer(204);
 }

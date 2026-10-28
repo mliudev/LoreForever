@@ -17,16 +17,16 @@
   "wiki": "Return to Brock",
   "chain": []
  },
- "summary": "Having delivered Brock Stoneseeker's missive to Ironforge, you are entrusted with a batch of Honorary Picks to carry back to Thelsamar. Taking advantage of the dwarven aerial transit network, you board a gryphon with Gryth Thurden to return quickly across the mountains.",
+ "summary": "You carry Brock Stoneseeker's missive to Ironforge and receive Honorary Picks for the return to Thelsamar. Gryth Thurden can take you across the mountains by gryphon.",
  "sections": [
   {
    "title": "Taking to the Skies",
-   "body": "The great mountain stronghold of Ironforge relies on a coordinated network of gryphon roosts to maintain communication and trade with outlying settlements like Loch Modan. Gryth Thurden, Ironforge's gryphon master, oversees this transit from the city's central flight master platform. Because travelers must first establish a rapport with an aerie's handler before flying there, Gryth ensures you have already spoken with Thorgrum Borrelson in Thelsamar before saddling a mount for the return trip.",
+   "body": "Gryth Thurden oversees Ironforge's gryphon flights from the city's central platform. The roosts link the mountain stronghold with settlements such as Loch Modan, carrying messages and trade between them. Before you can fly to Thelsamar, you need to have met its handler, Thorgrum Borrelson. Once that is done, Gryth can send you back with the picks.",
    "spoiler": 0
   },
   {
    "title": "Picks for the Pupils",
-   "body": "Your journey serves a practical purpose beyond introducing you to gryphon travel: Brock Stoneseeker, a respected mining instructor in Thelsamar, needs new equipment for his apprentices. With the Honorary Picks safely delivered to his hands, young miners across the valley can begin working the rich copper and tin veins that line the hills surrounding the Loch.",
+   "body": "Brock Stoneseeker teaches mining in Thelsamar and needs tools for his apprentices. The Honorary Picks you carry will let young miners work the copper and tin veins in the hills around the Loch.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who is brock",
     "brock in thelsamar"
    ],
-   "answer": "Brock Stoneseeker is a dwarf mining trainer stationed in Thelsamar in Loch Modan. He instructs fledgling miners on extracting raw ore and stone from the surrounding hills."
+   "answer": "Brock Stoneseeker is a dwarf mining trainer in Thelsamar, Loch Modan. He teaches new miners to gather ore and stone from the surrounding hills."
   },
   {
    "q": "Why do I need to fly on a gryphon to finish this quest?",
@@ -47,7 +47,7 @@
     "flight path quest",
     "gryphon ride"
    ],
-   "answer": "The quest introduces travelers to the Alliance flight system. Gryth Thurden explains that gryphons can only ferry you to aeries you have personally visited beforehand, such as Thorgrum Borrelson's roost in Thelsamar."
+   "answer": "Gryth Thurden can fly you to Thelsamar because you have already visited its roost and spoken with Thorgrum Borrelson. Gryphons carry travelers only to aeries they have visited."
   },
   {
    "q": "What are the Honorary Picks for?",
@@ -55,7 +55,7 @@
     "honorary picks",
     "what are the picks"
    ],
-   "answer": "They are newly forged mining tools Brock Stoneseeker ordered from Ironforge for his novice mining students to use across the mineral-rich cliffs of Loch Modan."
+   "answer": "The Honorary Picks are mining tools Brock Stoneseeker needs for his new students in Loch Modan."
   },
   {
    "q": "Who is Gryth Thurden?",
@@ -63,7 +63,7 @@
     "gryth thurden",
     "ironforge flight master"
    ],
-   "answer": "Gryth Thurden is the gryphon master of Ironforge, stationed at the Great Forge. He manages the capital's outbound and inbound flights throughout Khaz Modan and beyond."
+   "answer": "Gryth Thurden is Ironforge's gryphon master, stationed at the Great Forge. He manages flights to and from the capital across Khaz Modan and beyond."
   },
   {
    "q": "Can I just walk back to Thelsamar instead of flying?",
@@ -71,7 +71,7 @@
     "can i walk back",
     "do i have to take gryphon"
    ],
-   "answer": "While the lesson is designed to teach you how to use flight paths, Brock Stoneseeker only cares that you safely deliver the Honorary Picks to him in Thelsamar, regardless of how you travel there."
+   "answer": "You can walk back to Thelsamar and deliver the Honorary Picks to Brock Stoneseeker. The journey introduces you to gryphon routes, but Brock needs the tools safely in his hands."
   },
   {
    "q": "Where in Thelsamar is Brock located?",
@@ -80,17 +80,17 @@
     "brock stoneseeker location",
     "find brock"
    ],
-   "answer": "Brock Stoneseeker can be found outdoors near the forge and anvil in Thelsamar, ready to assist miners working in Loch Modan."
+   "answer": "Brock Stoneseeker is outdoors near Thelsamar's forge and anvil, where he helps miners in Loch Modan."
   }
  ],
  "angles": [
   {
    "target": "profession:Mining",
-   "text": "Delivering these Honorary Picks puts essential tools into the hands of Loch Modan's newest miners, sustaining the dwarven tradition of excavation and prospecting."
+   "text": "Delivering the Honorary Picks gives Loch Modan's new miners tools for their work and carries on the dwarven tradition of excavation and prospecting."
   },
   {
    "target": "race:Dwarf",
-   "text": "The route between Ironforge and Thelsamar highlights the vital role Wildhammer gryphons and Ironforge handlers play in binding together the dwarven holds."
+   "text": "As a dwarf, you know how Wildhammer gryphons and Ironforge handlers link the dwarven holds by air."
   }
  ],
  "keywords": [
@@ -112,5 +112,6 @@
  ],
  "attribution": [
   "Return to Brock"
- ]
+ ],
+ "style": 1
 }

@@ -8,11 +8,11 @@
   "wiki": "Tal",
   "refs": 2
  },
- "summary": "Tal is the primary wind rider master of Thunder Bluff, tending the city's aerial roost high above the plains of Mulgore. He provides seasoned wyverns to Horde travelers looking to traverse the vast reaches of Kalimdor.",
+ "summary": "At Thunder Bluff, Tal tends the Horde's chief wind rider roost above the plains of Mulgore. He sends seasoned wyverns carrying travelers across Kalimdor.",
  "sections": [
   {
    "title": "Keeper of the High Roost",
-   "body": "Perched upon the central mesa of Thunder Bluff, Tal manages the vital aerial thoroughfare connecting the tauren capital to the rest of the Horde. From his perch, he tends to the loyal wind riders, or wyverns, ensuring they are healthy, well-fed, and prepared for long-distance journeys across Kalimdor's rugged landscapes. Whether sending messengers down to Camp Taurajo or dispatching scouts across the Barrens to Orgrimmar, Tal maintains an indispensable lifeline that keeps the towering mesa city in constant touch with its allies.",
+   "body": "Tal tends the wind rider roost on Thunder Bluff's central mesa, linking the tauren capital with the rest of the Horde. He cares for the loyal wind riders, or wyverns, keeping them healthy and well-fed for long journeys across Kalimdor. From the roost, he sends messengers to Camp Taurajo and scouts across the Barrens to Orgrimmar. The flights keep the towering mesa city in touch with its allies.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "tal flight master",
     "what does tal do"
    ],
-   "answer": "Tal is Thunder Bluff's wind rider master. He oversees the roost atop the bluffs, caring for the winged beasts and chartering flights across Kalimdor for members of the Horde."
+   "answer": "Tal is Thunder Bluff's wind rider master. He oversees the roost atop the bluffs, cares for the winged beasts, and arranges flights across Kalimdor for members of the Horde."
   },
   {
    "q": "Where does Tal send travelers?",
@@ -33,7 +33,7 @@
     "tal destinations",
     "thunder bluff flight paths"
    ],
-   "answer": "Tal connects Thunder Bluff to points across central and southern Kalimdor, including Camp Taurajo, the Crossroads, Orgrimmar, and distant wilderness outposts."
+   "answer": "Tal sends travelers from Thunder Bluff to places across central and southern Kalimdor, including Camp Taurajo, the Crossroads, Orgrimmar, and distant wilderness outposts."
   },
   {
    "q": "Why are wind riders used instead of traditional mounts?",
@@ -41,17 +41,17 @@
     "why wyverns",
     "thunder bluff flying beasts"
    ],
-   "answer": "Thunder Bluff's sheer cliff faces and extreme elevation make ground travel slow and winding. Flying mounts such as wind riders provide swift, direct travel into and out of the towering mesa city without needing to traverse the elevators."
+   "answer": "Wind riders are flying mounts that provide swift, direct travel into and out of Thunder Bluff. The city's sheer cliffs and great height make ground routes slow and winding, while the flyers avoid the need to use the elevators."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "For tauren venturing beyond their ancestral pastures, Tal provides the quickest and safest passage from their high bluffs into the broader world."
+   "text": "As a tauren venturing beyond your ancestral pastures, you can rely on Tal for the quickest and safest passage from the high bluffs into the broader world."
   },
   {
    "target": "faction:Horde",
-   "text": "Tal maintains one of the Horde's key transit hubs in Kalimdor, directly linking the tauren capital with the Crossroads and Orgrimmar."
+   "text": "As a member of the Horde, you can use Tal's roost to travel between the tauren capital, the Crossroads, and Orgrimmar."
   }
  ],
  "keywords": [
@@ -75,5 +75,6 @@
  ],
  "attribution": [
   "Tal"
- ]
+ ],
+ "style": 1
 }

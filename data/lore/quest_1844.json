@@ -17,21 +17,21 @@
   "wiki": "Chimaeric Horn",
   "chain": []
  },
- "summary": "As part of the warrior rite to craft the Brutal Helm, Orm Stonehoof tasks an aspiring champion with journeying into the ruined Charred Vale. There, the warrior must hunt a maddened chimaera matriarch to claim her galvanized horn as both an act of mercy and proof of strength.",
+ "summary": "Orm Stonehoof sends a Horde warrior into the Charred Vale to face a suffering chimaera matriarch. Her horn is needed for the Brutal Helm, and the hunt tests the warrior’s strength and mercy.",
  "sections": [
   {
    "title": "A Test of Resolve",
-   "body": "Orm Stonehoof is willing to forge the legendary Brutal Helm for Horde warriors, but martial tradition demands that the wearer prove their mettle first. Orm does not simply ask for raw metal or coin; he demands proof of martial prowess and a willingness to confront the grim scars left behind by devastating conflict.",
+   "body": "Orm Stonehoof will forge the Brutal Helm for Horde warriors, but tradition calls for proof before he begins. He asks for more than metal or coin: the warrior must show martial skill and face the scars left by devastating conflict.",
    "spoiler": 0
   },
   {
    "title": "The Scars of the Charred Vale",
-   "body": "The quest directs warriors to the southwestern reaches of the Stonetalon Mountains, into the ashen desolation known as the Charred Vale. Once lush and green, the valley was burned into a smoking wasteland. The surviving beasts wandering its soot-covered craters are twisted by agony and fury, particularly the mighty chimaeras that make their nests amid the dead trees and searing steam vents.",
+   "body": "In the southwestern Stonetalon Mountains, the Charred Vale lies in ash. Once lush and green, the valley was burned into a smoking wasteland. Beasts still wander its soot-covered craters, twisted by pain and fury. Mighty chimaeras nest among dead trees and searing steam vents.",
    "spoiler": 0
   },
   {
    "title": "Mercy in Combat",
-   "body": "Slaying a chimaera matriarch serves two purposes in the tauren smith's eyes. It claims the hardened, galvanized horn required for crafting the headpiece, but it also ends the creature's torment. By felling the matriarch, the warrior acts both as an executioner and an instrument of mercy for a wild spirit driven mad by the destruction of its home.",
+   "body": "For the tauren smith, the chimaera matriarch’s horn is both a needed piece for the helm and proof of strength. The hunt also ends the matriarch’s torment. By felling her, the warrior brings mercy to a wild spirit driven mad by the destruction of its home.",
    "spoiler": 0
   }
  ],
@@ -43,7 +43,7 @@
     "who is orm stonehoof",
     "thunder bluff blacksmith orm"
    ],
-   "answer": "Orm Stonehoof is a skilled tauren blacksmith residing in Thunder Bluff who assists veteran Horde warriors in crafting iconic pieces of their class armor, including the Brutal Helm."
+   "answer": "Orm Stonehoof is a skilled tauren blacksmith in Thunder Bluff who helps veteran Horde warriors craft their class armor, including the Brutal Helm."
   },
   {
    "q": "Why does Orm want the galvanized horn?",
@@ -52,7 +52,7 @@
     "why get galvanized horn",
     "brutal helm horn"
    ],
-   "answer": "The galvanized horn serves as both a durable physical component for the Brutal Helm and tangible proof that the warrior possesses the courage to track and defeat a dangerous alpha predator in hazardous terrain."
+   "answer": "The galvanized horn is a durable part of the Brutal Helm and proof that the warrior had the courage to track and defeat a dangerous alpha predator in hazardous terrain."
   },
   {
    "q": "What are chimaeras in Stonetalon?",
@@ -61,7 +61,7 @@
     "chimaera lore",
     "what are chimaeras"
    ],
-   "answer": "Chimaeras are large, two-headed winged beasts native to the wilds of Kalimdor. The ones surviving in the Charred Vale have been driven violently insane by the fire and destruction of their nesting grounds."
+   "answer": "Chimaeras are large, two-headed winged beasts native to Kalimdor. Fire and destruction in the Charred Vale have driven its surviving chimaeras violently mad."
   },
   {
    "q": "How does this quest fit into warrior training?",
@@ -70,7 +70,7 @@
     "level 30 warrior quest thunder bluff",
     "brutal armor questline"
    ],
-   "answer": "Around their thirtieth season, Horde warriors are directed toward specialists like Orm Stonehoof to undergo dangerous trials. Completing these challenges allows them to wear the heavy, spiked Brutal armor set designed for battlefield champions."
+   "answer": "Around their thirtieth season, Horde warriors go to specialists such as Orm Stonehoof for dangerous trials. Completing these trials earns them the right to wear the heavy, spiked Brutal armor set made for battlefield champions."
   },
   {
    "q": "Why does Orm frame the hunt as an act of mercy?",
@@ -78,21 +78,21 @@
     "why mercy for the matriarch",
     "free her of her misery"
    ],
-   "answer": "Tauren culture emphasizes harmony with the earth and its creatures. Because the Charred Vale's inhabitants are in unrelenting agony from the devastation of their land, slaying the matriarch is seen as putting a suffering beast out of its unending misery rather than mindless slaughter."
+   "answer": "Tauren culture honors harmony with the earth and its creatures. The Charred Vale’s inhabitants suffer from the devastation of their land, so slaying the matriarch is seen as ending her unrelenting pain, not as mindless slaughter."
   }
  ],
  "angles": [
   {
    "target": "class:Warrior",
-   "text": "This trial tests a warrior's ability to hunt down solitary alpha beasts in brutal environments, earning the right to bear the Brutal Helm."
+   "text": "As a warrior, you prove your skill by hunting a solitary alpha beast in a brutal place, earning the right to wear the Brutal Helm."
   },
   {
    "target": "race:Tauren",
-   "text": "Orm Stonehoof approaches warfare with tauren reverence, reminding warriors that even in violence, putting a tormented beast out of its suffering honors the Earth Mother."
+   "text": "As a tauren, you hear Orm Stonehoof’s reverence in his words: even in battle, ending a tormented beast’s suffering honors the Earth Mother."
   },
   {
    "target": "faction:Horde",
-   "text": "Horde warriors operating out of Sun Rock Retreat push deep into Stonetalon's contested wilds to forge the arms needed for Kalimdor's defense."
+   "text": "As a member of the Horde, you push from Sun Rock Retreat into Stonetalon’s contested wilds to forge the arms needed for Kalimdor’s defense."
   }
  ],
  "keywords": [
@@ -115,5 +115,6 @@
  ],
  "attribution": [
   "Chimaeric Horn"
- ]
+ ],
+ "style": 1
 }

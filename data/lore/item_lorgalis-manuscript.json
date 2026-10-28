@@ -10,16 +10,16 @@
    "quest:971"
   ]
  },
- "summary": "The Lorgalis Manuscript is an ancient text tied to the worship and lore of the Old Gods, preserved from the fallen night elven ruins beneath Ashenvale. Hidden within the sunken temple complex of Blackfathom Deeps, it holds secrets coveted by dark scholars seeking to awaken ancient, slumbering powers.",
+ "summary": "The Lorgalis Manuscript lies hidden beneath Ashenvale in the sunken ruins of Blackfathom Deeps. The ancient text concerns the Old Gods, and dark scholars covet its words about powers that sleep.",
  "sections": [
   {
    "title": "A Tome of Those Who Sleep",
-   "body": "The Lorgalis Manuscript rests at the bottom of Blackfathom Deeps, the sunken ruins where long-dead elves once dwelt before their city fell. Written by one Lorgalis, it speaks of the Old Gods who raged across Azeroth when the world was new and now lie chained and sleeping, and it praises Aku'mai, a servant of the Old Gods who dwells in the Deeps. Its lore is said to open mystical doorways and stir ancient entities that sleep deep beneath the world. Stored away in a pitted iron chest amidst the flooded corridors, it has drawn the attention of cultists and shadow scholars alike.",
+   "body": "The Lorgalis Manuscript lies at the bottom of Blackfathom Deeps, where long-dead elves once lived before their city fell. Lorgalis wrote of the Old Gods, who raged across Azeroth when the world was new and now lie chained and sleeping. The text praises Aku'mai, a servant of the Old Gods who dwells in the Deeps. Its lore is said to open mystical doorways and stir ancient beings sleeping deep beneath the world. The manuscript rests in a pitted iron chest among the flooded corridors, drawing the attention of cultists and shadow scholars alike.",
    "spoiler": 0
   },
   {
    "title": "Eyes in the Shadows",
-   "body": "In the Forlorn Cavern of Ironforge, an eccentric collector named Gerrig Bonegrip actively hires intrepid adventurers to venture across the sea to retrieve the text. Bonegrip speaks reverently of the 'end days' and the awakening of sleeping deities. Once recovered, the text is intended to be transcribed and shared among his shadowy circle of brothers and sisters, spreading forbidden insights that surface folk were never meant to comprehend.",
+   "body": "In Ironforge's Forlorn Cavern, the eccentric collector Gerrig Bonegrip hires adventurers to cross the sea and retrieve the text. Bonegrip speaks with reverence of the end days and the awakening of sleeping deities. He intends to have the manuscript transcribed and shared among his shadowy circle of brothers and sisters, spreading forbidden knowledge that surface folk were never meant to understand.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "lorgalis book lore",
     "what does the manuscript do"
    ],
-   "answer": "It is an old text written by one Lorgalis, containing dark, esoteric knowledge regarding the Old Gods. Its contents are said to hold the secrets necessary to unlock doorways and awaken slumbering primordial entities."
+   "answer": "The Lorgalis Manuscript is an old text written by Lorgalis about the Old Gods. Its contents are said to reveal how to open doorways and awaken slumbering primordial beings."
   },
   {
    "q": "Where is the manuscript located?",
@@ -40,7 +40,7 @@
     "manuscript location",
     "blackfathom chest"
    ],
-   "answer": "The manuscript rests within a pitted iron chest submerged deep inside Blackfathom Deeps, a ruined night elven temple located along the Zoram Strand in Ashenvale."
+   "answer": "The manuscript rests in a pitted iron chest deep within Blackfathom Deeps, a ruined night elven temple along the Zoram Strand in Ashenvale."
   },
   {
    "q": "Who wants the manuscript?",
@@ -49,7 +49,7 @@
     "gerrig bonegrip quest",
     "who is bonegrip"
    ],
-   "answer": "Gerrig Bonegrip, an enigmatic lorekeeper operating out of the Forlorn Cavern in Ironforge, commissions adventurers to recover it. He plans to copy and distribute its ancient teachings among his secretive peers."
+   "answer": "Gerrig Bonegrip, who works from the Forlorn Cavern in Ironforge, wants the manuscript recovered. He plans to copy it and share its teachings with his secretive peers."
   },
   {
    "q": "Why does Gerrig Bonegrip talk about the end days?",
@@ -58,17 +58,17 @@
     "bonegrip cultist",
     "bonegrip old gods"
    ],
-   "answer": "Bonegrip aligns himself with those who study and revere the Old Gods. His interest in ancient elven writings is focused on lore capable of awakening 'Those Who Sleep,' heralding what he considers the coming end times."
+   "answer": "Bonegrip reveres and studies the Old Gods. He seeks ancient elven writings about awakening Those Who Sleep, which he believes heralds the coming end times."
   }
  ],
  "angles": [
   {
    "target": "class:Warlock",
-   "text": "The manuscript represents a rare window into the forbidden lore of the Old Gods and the entities of the deep, offering insights coveted by those who traffic in dark arts."
+   "text": "As a Warlock, the manuscript offers a rare glimpse into forbidden lore about the Old Gods and the entities of the deep, knowledge coveted by those who practice dark arts."
   },
   {
    "target": "race:NightElf",
-   "text": "The text lies in the drowned ruins where night elves once dwelt, and its reverence for Aku'mai and the Old Gods shows the dark worship that has taken root among those fallen halls."
+   "text": "As a night elf, you find the text in drowned ruins where your people once lived. Its reverence for Aku'mai and the Old Gods reveals the dark worship rooted in those fallen halls."
   }
  ],
  "keywords": [
@@ -93,5 +93,6 @@
  "attribution": [
   "Lorgalis Manuscript",
   "Knowledge in the Deeps (Classic)"
- ]
+ ],
+ "style": 1
 }

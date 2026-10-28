@@ -17,16 +17,16 @@
   "wiki": "Consecrated Rune (Classic)",
   "chain": []
  },
- "summary": "The Consecrated Rune is an introductory summons delivered to fledgling dwarven paladins in Coldridge Valley. Passed along by Sten Stoutarm on behalf of Bromos Grummner, it marks an initiate's formal induction into the Knights of the Silver Hand.",
+ "summary": "At Anvilmar, a summons reaches fledgling dwarven paladins through Sten Stoutarm. Bromos Grummner calls them to join the Knights of the Silver Hand.",
  "sections": [
   {
    "title": "A Summons to Anvilmar",
-   "body": "While novice adventurers clear out troggs and wolves around Coldridge Valley, the local leaders keep a close eye on those who display a gift for divine martial prowess. Sten Stoutarm delivers this inscribed rune to young paladins, instructing them to seek out Bromos Grummner inside the warmth of Anvilmar. It serves as both an invitation and an official notice that raw potential must now be tempered with discipline.",
+   "body": "Sten Stoutarm gives young paladins an inscribed rune and sends them to Bromos Grummner inside Anvilmar. Around Coldridge Valley, local leaders watch closely for those gifted in divine martial prowess. The summons marks a formal induction, where raw potential must meet discipline.",
    "spoiler": 0
   },
   {
    "title": "Dwarves and the Holy Light",
-   "body": "Though the Knights of the Silver Hand originated among the humans of Lordaeron, Ironforge dwarves embraced the philosophy of the Holy Light with fierce devotion. Bromos Grummner welcomes initiates into the brotherhood, reminding them that dwarven paladins now share the solemn duty of protecting Azeroth. Grounded in sacrifice, tradition, and martial virtue, the order demands that recruits take up hammer and faith in equal measure.",
+   "body": "The Knights of the Silver Hand began among the humans of Lordaeron, but Ironforge dwarves embraced the Holy Light with fierce devotion. Bromos Grummner welcomes new members and reminds them that dwarven paladins share the solemn duty of protecting Azeroth. The order is grounded in sacrifice, tradition, and martial virtue; recruits take up hammer and faith in equal measure.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "what does the rune do",
     "paladin rune coldridge"
    ],
-   "answer": "It is an inscribed token delivered to novice dwarven paladins in Coldridge Valley, instructing them to report to Bromos Grummner inside Anvilmar for formal training."
+   "answer": "The Consecrated Rune is an inscribed token that Sten Stoutarm gives novice dwarven paladins in Coldridge Valley, directing them to Bromos Grummner inside Anvilmar for formal training."
   },
   {
    "q": "Who is Bromos Grummner?",
@@ -47,7 +47,7 @@
     "paladin trainer anvilmar",
     "bromos grummner lore"
    ],
-   "answer": "Bromos Grummner is the resident paladin trainer stationed in Anvilmar. He instructs new dwarven members of the Knights of the Silver Hand and prepares them for the perils threatening Dun Morogh."
+   "answer": "Bromos Grummner is the paladin trainer stationed inside Anvilmar. He instructs new dwarven members of the Knights of the Silver Hand and prepares them for dangers threatening Dun Morogh."
   },
   {
    "q": "Why are dwarves part of the Knights of the Silver Hand?",
@@ -56,7 +56,7 @@
     "why do dwarves have paladins",
     "silver hand dwarves"
    ],
-   "answer": "During the Second War and its aftermath, human priests and paladins introduced the tenets of the Holy Light to the dwarves of Ironforge. Dwarves deeply respect the order's martial discipline and willingness to sacrifice for the defense of Azeroth."
+   "answer": "During the Second War and its aftermath, human priests and paladins brought the teachings of the Holy Light to Ironforge dwarves. Dwarves respect the order's martial discipline and its willingness to sacrifice for Azeroth's defense."
   },
   {
    "q": "Who gives you the Consecrated Rune?",
@@ -64,7 +64,7 @@
     "where do i get the rune",
     "who hands you the rune"
    ],
-   "answer": "Sten Stoutarm passes the rune to you outside Anvilmar after you assist him with local tasks, noting that Bromos Grummner asked for it to be delivered."
+   "answer": "Sten Stoutarm gives you the rune outside Anvilmar after you help him with local tasks. He says Bromos Grummner asked him to deliver it."
   },
   {
    "q": "Where is Bromos Grummner located?",
@@ -73,7 +73,7 @@
     "where is bromos",
     "find bromos grummner"
    ],
-   "answer": "Bromos Grummner can be found inside the great hall of Anvilmar in Coldridge Valley, standing alongside other class mentors."
+   "answer": "Bromos Grummner is inside Anvilmar's great hall in Coldridge Valley, alongside the other class mentors."
   },
   {
    "q": "What happens after presenting the rune to Bromos?",
@@ -81,17 +81,17 @@
     "what comes next",
     "after consecrated rune"
    ],
-   "answer": "Bromos acknowledges your acceptance into the Silver Hand and offers your first formal combat and holy training before sending you back out into Dun Morogh."
+   "answer": "After you present the rune, Bromos acknowledges your acceptance into the Silver Hand and offers your first formal combat and holy training. Then he sends you back into Dun Morogh."
   }
  ],
  "angles": [
   {
    "target": "class:Paladin",
-   "text": "This rune marks your first formal step into the Knights of the Silver Hand, establishing your duty to channel the Light in defense of Ironforge."
+   "text": "As a paladin, this rune marks your first formal step into the Knights of the Silver Hand. Your duty is to channel the Light in defense of Ironforge."
   },
   {
    "target": "race:Dwarf",
-   "text": "Dwarven paladins combine traditional dwarven fortitude with human-taught theology, bringing stalwart resolve to the teachings of the Holy Light."
+   "text": "As a dwarf, you bring traditional dwarven fortitude together with theology taught by humans. Dwarven paladins bring stalwart resolve to the teachings of the Holy Light."
   }
  ],
  "keywords": [
@@ -114,5 +114,6 @@
  ],
  "attribution": [
   "Consecrated Rune (Classic)"
- ]
+ ],
+ "style": 1
 }

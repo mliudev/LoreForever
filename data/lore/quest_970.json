@@ -17,21 +17,21 @@
   "wiki": "The Tower of Althalaxx (4)",
   "chain": []
  },
- "summary": "This quest marks a critical turn in the investigation of the sinister Cult of the Dark Strand, shifting the pursuit from the ruined Tower of Althalaxx in Darkshore across the border to Maestra's Post in Ashenvale. Delgren the Purifier dispatches adventurers into nearby cultist camps to secure a potent Glowing Soul Gem. Unlocking this artifact reveals the grim sorcery that fuels the cult's influence over the northern forests.",
+ "summary": "Reports from the Tower of Althalaxx lead south into Ashenvale, where the Cult of the Dark Strand also threatens the woods. Delgren the Purifier at Maestra's Post sends you to the ruins of Ordil'Aran to recover a Glowing Soul Gem.",
  "sections": [
   {
    "title": "A Plea Across the Border",
-   "body": "After uncovering the ominous activities around the Tower of Althalaxx in northern Darkshore, reports led directly south into Ashenvale to Delgren the Purifier. Stationed at Maestra's Post, Delgren has long contended with the Cult of the Dark Strand encroaching on the ancient elven woods. Recognizing that the cult's threat spans across both territories, Delgren resolves to strike at the heart of their vile sorcery.",
+   "body": "After the trouble around the Tower of Althalaxx in northern Darkshore, reports lead south to Delgren the Purifier at Maestra's Post. The Cult of the Dark Strand is pressing into the ancient elven woods, and Delgren has fought them for a long time. Their reach crosses both territories, so he seeks to strike at the source of their sorcery.",
    "spoiler": 0
   },
   {
    "title": "The Secrets of Ordil'Aran",
-   "body": "Northeast of Maestra's Post lies the ruins of Ordil'Aran, now overrun by fanatical Dark Strand cultists. Delgren identifies that their operatives carry glowing soul gems\u2014dark vessels enchanted with sinister magic that sustain the cult's power. By hunting down the cultists among the ruins and reclaiming one of these gems, Delgren intends to shatter their enchantment and expose the true source behind their malevolent rite.",
+   "body": "The ruins of Ordil'Aran lie northeast of Maestra's Post, overrun by Dark Strand cultists. Delgren says their operatives carry glowing soul gems, vessels enchanted with magic that sustains the cult's power. Hunt the cultists among the ruins and recover one of the gems so Delgren can break its enchantment and uncover the source of their rite.",
    "spoiler": 0
   },
   {
    "title": "A Spirit Trapped",
-   "body": "Upon deciphering the foul enchantments bound to the glowing soul gem, Delgren does not merely unearth dark incantations; he unravels a vessel of torment. Breaking the gem's wards releases the spirit of Sargath, one of the elves of Ameth'Aran whom Athrikus Narassin trapped in soul gems during the Sundering and has been slowly draining ever since. The apparition names Athrikus's lieutenant, Ilkrud Magthrull, whose tome may reveal where the remaining soul gems are held.",
+   "body": "Delgren finds a tormented spirit bound inside the Glowing Soul Gem. When its wards break, Sargath appears, one of the elves of Ameth'Aran whom Athrikus Narassin trapped in soul gems during the Sundering and has slowly drained ever since. Sargath names Athrikus's lieutenant, Ilkrud Magthrull, whose tome may reveal where the remaining soul gems are held.",
    "spoiler": 1
   }
  ],
@@ -43,7 +43,7 @@
     "where does soul gem drop",
     "dark strand soul gem"
    ],
-   "answer": "The Glowing Soul Gem is held by members of the Cult of the Dark Strand located northeast of Maestra's Post at the ruins of Ordil'Aran in Ashenvale. Various cultists lurking within the ruins carry it, though it can take some persistence to recover one."
+   "answer": "Cult of the Dark Strand members in the ruins of Ordil'Aran northeast of Maestra's Post carry Glowing Soul Gems. The ruins are in Ashenvale, and you may need to search several cultists to recover one."
   },
   {
    "q": "Who is Delgren the Purifier?",
@@ -51,7 +51,7 @@
     "delgren",
     "who is delgren"
    ],
-   "answer": "Delgren the Purifier is an Alliance champion stationed at Maestra's Post in northern Ashenvale. He actively fights the sinister forces invading the forest, with a particular focus on hunting down and destroying the Cult of the Dark Strand."
+   "answer": "Delgren the Purifier is an Alliance champion stationed at Maestra's Post in northern Ashenvale. He fights forces invading the forest, especially the Cult of the Dark Strand."
   },
   {
    "q": "What is the Cult of the Dark Strand?",
@@ -59,7 +59,7 @@
     "dark strand cult",
     "who are dark strand"
    ],
-   "answer": "The Cult of the Dark Strand is a malevolent sect operating out of the Tower of Althalaxx in Darkshore and ancient elven ruins like Ordil'Aran in Ashenvale. They practice dark sorcery, soul binding, and necromantic rituals."
+   "answer": "The Cult of the Dark Strand is a sect based in the Tower of Althalaxx in Darkshore and in ancient elven ruins such as Ordil'Aran in Ashenvale. Its members practice dark sorcery, soul binding, and necromantic rites."
   },
   {
    "q": "Why is a Darkshore quest sending me to Ashenvale?",
@@ -67,7 +67,7 @@
     "why maestra's post",
     "why go to ashenvale"
    ],
-   "answer": "While the investigation begins at the Tower of Althalaxx in Darkshore, the cult's network extends south across the border into Ashenvale. Delgren the Purifier at Maestra's Post holds the expertise needed to counter the cult's soul-binding magic."
+   "answer": "The Cult of the Dark Strand's reach crosses from the Tower of Althalaxx in Darkshore into Ashenvale. Delgren the Purifier at Maestra's Post knows how to oppose the cult's soul-binding magic."
   },
   {
    "q": "What happens when the soul gem is deciphered?",
@@ -75,7 +75,7 @@
     "what is in the soul gem",
     "soul gem ghost"
    ],
-   "answer": "Delgren intends to decipher the dark enchantment on the Glowing Soul Gem. What he discovers is revealed after you bring him the gem."
+   "answer": "Delgren plans to decipher the dark enchantment on the Glowing Soul Gem. What he finds becomes clear after you bring it to him."
   },
   {
    "q": "Where is Ordil'Aran located?",
@@ -83,25 +83,25 @@
     "ordil'aran location",
     "where is ordilaran"
    ],
-   "answer": "Ordil'Aran is an ancient elven ruin situated just northeast of Maestra's Post in northern Ashenvale, currently infested by the Cult of the Dark Strand."
+   "answer": "Ordil'Aran is an ancient elven ruin northeast of Maestra's Post in northern Ashenvale. The Cult of the Dark Strand has overrun it."
   }
  ],
  "angles": [
   {
    "target": "class:Paladin",
-   "text": "Purifying dark soul vessels and putting twisted cultists to the sword aligns closely with the paladin's duty to purge unholy corruption from the world."
+   "text": "As a paladin, purging unholy corruption from the world includes destroying dark soul vessels and fighting the cultists who twist them."
   },
   {
    "target": "class:Priest",
-   "text": "Examining a dark soul vessel echoes the priest's calling to oppose corruption and bring solace to tormented souls."
+   "text": "As a priest, examining a dark soul vessel reflects your calling to oppose corruption and comfort tormented souls."
   },
   {
    "target": "race:NightElf",
-   "text": "Watching vile cultists defile ancient ruins like Ordil'Aran and corrupt the northern woods makes eliminating the Cult of the Dark Strand an urgent priority for any night elf."
+   "text": "As a night elf, you see the Cult of the Dark Strand defile ancient ruins like Ordil'Aran and corrupt the northern woods. Removing them is urgent."
   },
   {
    "target": "faction:Alliance",
-   "text": "Coordinating between outposts in Darkshore and Ashenvale secures the northern frontier against dark practitioners threatening Alliance travelers."
+   "text": "As an Alliance member, you help outposts in Darkshore and Ashenvale protect the northern frontier from dark practitioners who threaten Alliance travelers."
   }
  ],
  "keywords": [
@@ -122,5 +122,6 @@
  ],
  "attribution": [
   "The Tower of Althalaxx (4)"
- ]
+ ],
+ "style": 1
 }

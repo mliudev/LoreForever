@@ -17,16 +17,16 @@
   "wiki": "The Grizzled Den (quest)",
   "chain": []
  },
- "summary": "Pilot Stonegear of Kharanos is looking for someone with true dwarven grit to spruce up his beloved siege engine, Trollplow. To test an aspiring adventurer's mettle, he sends them west into the perilous cavern known as the Grizzled Den to hunt savage wendigos for their thick pelts.",
+ "summary": "In Dun Morogh, Pilot Stonegear tests a recruit's grit in the Grizzled Den. From Steelgrill's Depot near Kharanos, he sends them west to hunt wendigos for thick pelts to warm his siege engine, Trollplow.",
  "sections": [
   {
    "title": "A Test of Grit",
-   "body": "Operating a massive dwarven siege tank requires nerves of iron and the constitution to handle teeth-rattling machinery in freezing mountain air. Pilot Stonegear, stationed at Steelgrill's Depot near Kharanos, claims to have both in spades. Rather than simply giving up work or respect easily, he challenges newcomers to prove they possess the same stalwart temperament by trekking into the frozen hills to face native beasts.",
+   "body": "Pilot Stonegear, stationed at Steelgrill's Depot near Kharanos, claims to have the nerves and constitution needed to operate a massive dwarven siege tank in freezing mountain air. He makes newcomers prove they share his grit. The test sends them into the frozen hills to face the native beasts.",
    "spoiler": 0
   },
   {
    "title": "Creature Comforts in Trollplow",
-   "body": "Stonegear's siege engine bears the proud and unsubtle name of Trollplow, but its cramped, iron-plated cabin is brutally cold in the bitter Dun Morogh climate. Stonegear hits upon a practical yet wild solution: wendigo pelt. Harvesting thick manes from the ferocious wendigos stalking the Grizzled Den provides the materials needed to fashion a durable, warm rug for Trollplow's deck while keeping local beast numbers in check.",
+   "body": "Pilot Stonegear's siege engine bears the name Trollplow, and its iron-plated cabin is cramped and cold in Dun Morogh's bitter climate. He seeks a practical remedy in wendigo pelt. Thick manes from the ferocious wendigos of the Grizzled Den can make a warm, durable rug for Trollplow's deck, while helping keep the local beasts in check.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who gives quest",
     "who is stonegear"
    ],
-   "answer": "Pilot Stonegear is a dwarven siege engine driver stationed outside Kharanos in Dun Morogh. He pilots an armored war machine affectionately christened Trollplow and takes immense pride in his iron nerves and mechanical trade."
+   "answer": "Pilot Stonegear is a dwarven siege engine driver stationed outside Kharanos in Dun Morogh. He pilots Trollplow, an armored war machine, and takes pride in his iron nerves and mechanical trade."
   },
   {
    "q": "Where is the Grizzled Den located?",
@@ -47,7 +47,7 @@
     "where is wendigo cave",
     "how to find grizzled den"
    ],
-   "answer": "The Grizzled Den is a snow-covered cave system nestled in the mountains directly west of Kharanos. It serves as a notorious lair for Dun Morogh's vicious wendigos."
+   "answer": "The Grizzled Den lies in the snow-covered mountains directly west of Kharanos. Its caves are a lair for Dun Morogh's vicious wendigos."
   },
   {
    "q": "Why does Stonegear want wendigo manes?",
@@ -56,7 +56,7 @@
     "purpose of manes",
     "what are manes for"
    ],
-   "answer": "Stonegear wants the thick, insulating fur of the wendigos to craft a cozy rug for the interior deck of his siege engine, Trollplow, while simultaneously testing an adventurer's bravery."
+   "answer": "Stonegear wants wendigo fur to make a warm rug for Trollplow's interior deck. Gathering the pelts also tests an adventurer's bravery."
   },
   {
    "q": "What is Trollplow?",
@@ -65,7 +65,7 @@
     "stonegear tank",
     "what is trollplow"
    ],
-   "answer": "Trollplow is Pilot Stonegear's personal dwarven siege engine. Its aggressive name reflects the ongoing conflict between Ironforge dwarves and the hostile Frostmane trolls that inhabit the surrounding crags."
+   "answer": "Trollplow is Pilot Stonegear's personal dwarven siege engine. Its name reflects the conflict between Ironforge dwarves and the hostile Frostmane trolls in the surrounding crags."
   },
   {
    "q": "What kind of creatures inhabit the Grizzled Den?",
@@ -73,7 +73,7 @@
     "monsters in grizzled den",
     "what lives in grizzled den"
    ],
-   "answer": "The cavern is inhabited by savage wendigos\u2014feral, ape-like beasts native to Dun Morogh's snowy heights that aggressively defend their territory from any who intrude."
+   "answer": "Savage wendigos inhabit the Grizzled Den. These feral, ape-like beasts are native to Dun Morogh's snowy heights and fiercely defend their territory."
   },
   {
    "q": "Are the wendigos dangerous to Kharanos?",
@@ -81,21 +81,21 @@
     "are wendigos a threat",
     "wendigo danger"
    ],
-   "answer": "While wendigos rarely organize concerted attacks like the Frostmane trolls, their violent ferocity and proximity to the main roads make them an ever-present danger to travelers and local tradesfolk alike."
+   "answer": "Wendigos rarely organize attacks like the Frostmane trolls, but their violent ferocity and nearness to the main roads put travelers and local tradesfolk at risk."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "For young Mountaineers and Ironforge adventurers, taking on the wendigos of the Grizzled Den is a quintessential local rite of passage."
+   "text": "As a young Mountaineer or Ironforge adventurer, facing the wendigos of the Grizzled Den is a local rite of passage."
   },
   {
    "target": "profession:Engineering",
-   "text": "Anyone who appreciates the craft of dwarven siege vehicles knows that maintaining heavy machinery in sub-zero weather requires creative solutions for cockpit warmth."
+   "text": "If you appreciate dwarven siege craft, you know heavy machinery needs clever ways to stay warm in sub-zero weather."
   },
   {
    "target": "race:Gnome",
-   "text": "Living side by side with the dwarves around Kharanos means pitching in to help equip Ironforge's heavy armored engines."
+   "text": "Living beside the dwarves around Kharanos means you can help equip Ironforge's heavy armored engines."
   }
  ],
  "keywords": [
@@ -115,5 +115,6 @@
  ],
  "attribution": [
   "The Grizzled Den (quest)"
- ]
+ ],
+ "style": 1
 }

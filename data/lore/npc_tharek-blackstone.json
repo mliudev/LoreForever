@@ -8,16 +8,16 @@
   "wiki": "Tharek Blackstone",
   "refs": 1
  },
- "summary": "Tharek Blackstone is a hardworking toolsmith residing in Kharanos, in the snowy heart of Dun Morogh. Known for supplying heavy hardware to local craftsmen, his primary patron is Beldin Steelgrill of Steelgrill's Depot. Though constantly busy at his trade, he also serves as a reliable point of contact for travelers seeking work around the settlement.",
+ "summary": "In Kharanos, Tharek Blackstone keeps dwarven tools flowing to local craftsmen. Beldin Steelgrill at Steelgrill's Depot is his main customer, and Tharek also helps travelers find work around town.",
  "sections": [
   {
    "title": "A Busy Toolsmith in Kharanos",
-   "body": "Situated amidst the cold drifts of Kharanos, Tharek Blackstone keeps busy turning out reliable dwarven tools. Between repairing gear for the locals and supplying larger operations, he rarely finds a moment to rest. His biggest headache\u2014and most reliable customer\u2014is Beldin Steelgrill, whose mechanostrider depot just outside town demands a steady stream of heavy wrenches, gears, and replacement implements. To keep his forge running without falling behind on deliveries, Tharek often hires wandering travelers to haul newly finished tool crates over to the depot for him.",
+   "body": "Tharek Blackstone keeps his forge busy in Kharanos, repairing gear and making tools for local workers. His main customer is Beldin Steelgrill, whose mechanostrider depot just outside town needs a steady supply of heavy wrenches, gears, and replacement tools. Tharek hires passing travelers to carry finished crates to the depot, so he can keep up with the work at his forge.",
    "spoiler": 0
   },
   {
    "title": "A Community Figure",
-   "body": "Beyond his trade at the anvil, Tharek carries considerable respect among the folk of Dun Morogh. While he holds no formal military title, his standing in town makes him an approachable liaison for odd jobs, supply runs, and coordinating local efforts.",
+   "body": "Tharek has earned the respect of people across Dun Morogh through his work at the anvil. He holds no formal military title, but people in town turn to him for odd jobs, supply runs, and help coordinating local efforts.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "who is tharek",
     "blackstone dun morogh"
    ],
-   "answer": "Tharek Blackstone is a dwarven toolsmith based in the town of Kharanos in Dun Morogh. He crafts and maintains heavy tools for local workers and frequently employs passing adventurers to deliver supplies around the valley."
+   "answer": "Tharek Blackstone is a dwarven toolsmith in Kharanos, Dun Morogh. He makes and repairs heavy tools for local workers, and hires passing travelers to deliver supplies around the valley."
   },
   {
    "q": "What is his relationship with Beldin Steelgrill?",
@@ -38,7 +38,7 @@
     "steelgrill tools",
     "why beldin"
    ],
-   "answer": "Beldin Steelgrill runs Steelgrill's Depot just east of Kharanos, where mechanostriders and siege engines undergo repairs. Beldin is Tharek's primary customer, ordering so much ironware that Tharek frequently relies on adventurers to deliver finished shipments to the depot."
+   "answer": "Beldin Steelgrill runs Steelgrill's Depot just east of Kharanos, where mechanostriders and siege engines are repaired. He is Tharek's main customer, ordering so much ironware that Tharek often hires travelers to deliver finished shipments to the depot."
   },
   {
    "q": "Where can I find Tharek Blackstone?",
@@ -47,7 +47,7 @@
     "where is tharek blackstone",
     "tharek blackstone loc"
    ],
-   "answer": "He can be found standing outside near the center of Kharanos in Dun Morogh, within easy walking distance of the local inn and forge."
+   "answer": "Tharek Blackstone stands outside near the center of Kharanos in Dun Morogh, within easy walking distance of the local inn and forge."
   },
   {
    "q": "Does Tharek hold any official rank in Ironforge?",
@@ -56,17 +56,17 @@
     "tharek authority",
     "blackstone rank"
    ],
-   "answer": "He holds no military commission or political office. He is a busy, overworked toolsmith who hires newcomers in need of coin to carry supplies for him."
+   "answer": "Tharek holds no military commission or political office. He is a busy toolsmith who hires newcomers in need of coin to carry supplies for him."
   }
  ],
  "angles": [
   {
    "target": "profession:Blacksmithing",
-   "text": "For smiths passing through Kharanos, Tharek exemplifies the day-to-day grind of a working toolsmith, churning out hard-wearing wrenches and iron fittings to sustain dwarven machinery."
+   "text": "For smiths passing through Kharanos, Tharek shows the daily work of a toolsmith, making sturdy wrenches and iron fittings for dwarven machinery."
   },
   {
    "target": "race:Dwarf",
-   "text": "Tharek represents the sturdy, self-reliant spirit of Dun Morogh's working class, helping keep local industry running through sheer perseverance at the anvil."
+   "text": "As a dwarf, you share the working spirit of Dun Morogh: local industry depends on people who keep at the anvil."
   }
  ],
  "keywords": [
@@ -90,5 +90,6 @@
  ],
  "attribution": [
   "Tharek Blackstone"
- ]
+ ],
+ "style": 1
 }

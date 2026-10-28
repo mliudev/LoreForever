@@ -8,16 +8,16 @@
   "wiki": "Glorin Steelbrow",
   "refs": 6
  },
- "summary": "Glorin Steelbrow is a dwarven operative found drinking at the Deepwater Tavern in Menethil Harbor. Acting as an associate of Bishop Farthing of Stormwind's Cathedral of Light, he helps adventurers investigate the lost Third Fleet and recover sacred relics and materials scattered across the Wetlands coast. His efforts tie the haunted wilderness of Duskwood directly to the sunken shipwrecks of the north.",
+ "summary": "At the Deepwater Tavern in Menethil Harbor, Glorin Steelbrow aids Bishop Farthing's work from afar. He helps travelers search the Wetlands coast for sacred relics and materials lost with the Third Fleet, linking Duskwood's troubles to the northern shipwrecks.",
  "sections": [
   {
    "title": "A Harbor Connection",
-   "body": "While Bishop Farthing aids the people of Duskwood against its creeping terrors from Stormwind's Cathedral of Light, he maintains ties far to the north in Menethil Harbor. Stationed inside the bustling Deepwater Tavern, Glorin Steelbrow acts as Farthing's eyes and hands on the coast. He offers aid and direction to travelers sent north in search of sacred metals and forgotten relics, providing a crucial bridge between the troubles of the southern forest and the sunken wreckage of the Wetlands.",
+   "body": "From Stormwind's Cathedral of Light, Bishop Farthing aids the people of Duskwood against its creeping terrors. Far to the north, he keeps ties in Menethil Harbor through Glorin Steelbrow, who works inside the Deepwater Tavern. Glorin offers aid and direction to travelers sent north for sacred metals and forgotten relics. His work connects the troubled forest in the south with the sunken wreckage off the Wetlands coast.",
    "spoiler": 0
   },
   {
    "title": "The Doomed Fleet and Lost Relics",
-   "body": "Steelbrow is intimately familiar with the tragedy of the Third Fleet, whose ships were battered and dragged beneath the waves along the Wetlands shore. He guides adventurers to scour the haunted wreckage for lost ingots of Lightforge iron and the powerful, cursed artifact known as the Eye of Paleth. Glorin knows that recovering such holy armaments is vital for forging weapons capable of holding back the dark forces threatening the Alliance.",
+   "body": "Glorin Steelbrow knows the tragedy of the Third Fleet, whose ships were battered and dragged beneath the waves along the Wetlands shore. He guides travelers through the haunted wreckage in search of lost ingots of Lightforge iron and the powerful, cursed artifact called the Eye of Paleth. Glorin knows these holy arms are vital to forging weapons that can hold back the dark forces threatening the Alliance.",
    "spoiler": 1
   }
  ],
@@ -29,7 +29,7 @@
     "glorin steelbrow lore",
     "what does glorin do"
    ],
-   "answer": "Glorin Steelbrow is a dwarf stationed in the Deepwater Tavern in Menethil Harbor. He works in coordination with Bishop Farthing of Stormwind, assisting adventurers who travel north to salvage sunken cargo and relics off the Wetlands coast."
+   "answer": "Glorin Steelbrow is a dwarf working in the Deepwater Tavern in Menethil Harbor. He coordinates with Bishop Farthing of Stormwind and assists travelers searching for sunken cargo and relics off the Wetlands coast."
   },
   {
    "q": "Where can I find Glorin Steelbrow?",
@@ -38,7 +38,7 @@
     "where is glorin steelbrow",
     "glorin deepwater tavern"
    ],
-   "answer": "Glorin is located on the ground floor of the Deepwater Tavern in Menethil Harbor, situated on the western coast of the Wetlands."
+   "answer": "You can find Glorin on the ground floor of the Deepwater Tavern in Menethil Harbor, on the western coast of the Wetlands."
   },
   {
    "q": "Why is a dwarf in Menethil Harbor involved with Duskwood?",
@@ -47,7 +47,7 @@
     "connection to farthing",
     "why send to wetlands"
    ],
-   "answer": "Bishop Farthing of Stormwind's Cathedral of Light seeks powerful holy relics and consecrated metals to fight the darkness encroaching on Duskwood. He sends trusted emissaries to Glorin Steelbrow, who knows the Wetlands coast and can point salvagers toward the sunken remains of the Third Fleet."
+   "answer": "Bishop Farthing of Stormwind's Cathedral of Light seeks powerful holy relics and consecrated metals to fight the darkness encroaching on Duskwood. He sends trusted emissaries to Glorin Steelbrow, who knows the Wetlands coast and can direct salvagers to the sunken remains of the Third Fleet."
   },
   {
    "q": "What is the Third Fleet that Glorin talks about?",
@@ -56,7 +56,7 @@
     "third fleet wetlands",
     "the doomed fleet quest"
    ],
-   "answer": "The Third Fleet was an Alliance naval expedition that met catastrophe off the coast of the Wetlands. Its shattered hulls now litter the seabed, haunted by drowned sailors and hiding valuable cargo like Lightforge iron and ancient artifacts."
+   "answer": "The Third Fleet was an Alliance naval expedition that met catastrophe off the Wetlands coast. Its shattered hulls lie across the seabed, haunted by drowned sailors and hiding valuable cargo, including Lightforge iron and ancient artifacts."
   },
   {
    "q": "What is the Eye of Paleth?",
@@ -65,7 +65,7 @@
     "paleth relic",
     "what is eye of paleth"
    ],
-   "answer": "The Eye of Paleth is an ancient religious relic carried aboard the sunken fleet. Once recovered from the ocean floor with Glorin's guidance, it must undergo cleansing by the priesthood due to the dark corruption lingering around the shipwreck."
+   "answer": "The Eye of Paleth is an ancient religious relic carried aboard the sunken fleet. After you recover it from the ocean floor with Glorin's guidance, the priesthood must cleanse it of the dark corruption lingering around the shipwreck."
   },
   {
    "q": "What is Lightforge iron used for?",
@@ -74,21 +74,21 @@
     "lost ingots",
     "blessed arm"
    ],
-   "answer": "Lightforge iron is a rare, sanctified metal used to craft blessed weapons capable of striking down powerful undead and demonic forces. Glorin helps recover lost ingots from the shipwrecks to aid the defenders of Duskwood."
+   "answer": "Lightforge iron is a rare, sanctified metal used to craft blessed weapons that can strike down powerful undead and demonic forces. Glorin helps recover ingots lost in the shipwrecks for Duskwood's defenders."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "Glorin represents dwarven enterprise and solidarity, coordinating from the maritime hub of Menethil Harbor to support allies across Khaz Modan and the southern human kingdoms."
+   "text": "As a dwarf, you can see Glorin's enterprise and solidarity at work from Menethil Harbor, supporting allies across Khaz Modan and the southern human kingdoms."
   },
   {
    "target": "class:Paladin",
-   "text": "Paladins following Farthing's orders will find Glorin indispensable in recovering Lightforge iron, a sacred metal essential for crafting weapons blessed by the Holy Light."
+   "text": "As a paladin following Farthing's orders, you can rely on Glorin to help recover Lightforge iron, a sacred metal used to craft weapons blessed by the Holy Light."
   },
   {
    "target": "faction:Alliance",
-   "text": "Glorin plays a key role in recovering crucial Alliance military relics and sanctified materials lost during naval disasters in the Wetlands."
+   "text": "As an Alliance member, you can help recover military relics and sanctified materials lost in naval disasters off the Wetlands coast."
   }
  ],
  "keywords": [
@@ -114,5 +114,6 @@
  ],
  "attribution": [
   "Glorin Steelbrow"
- ]
+ ],
+ "style": 1
 }

@@ -22,16 +22,16 @@
    "Vyrin's Revenge (2)"
   ]
  },
- "summary": "A Hunter's Boast is a timed hunting challenge issued by Daryl the Youngling at Farstrider Lodge in Loch Modan. Eager to flaunt his supposed mastery, the arrogant young human dares adventurers to track and slay six mountain buzzards before his fifteen-minute timer expires.",
+ "summary": "At Farstrider Lodge, A Hunter's Boast puts your skill to a timed test. Daryl the Youngling challenges you to slay six mountain buzzards in Loch Modan before fifteen minutes pass.",
  "sections": [
   {
    "title": "A Young Marksman's Arrogance",
-   "body": "Farstrider Lodge serves as a gathering ground for some of Khaz Modan's finest trackers and marksmen, but not everyone under its roof possesses veteran humility. Daryl the Youngling\u2014who fancies himself 'Daryl the Bold'\u2014is quick to dismiss wandering adventurers. Convinced that greenhorn outsiders cannot hold a candle to his own hunting prowess, he lays down a brash wager: bag half a dozen local mountain buzzards within a quarter of an hour, or admit defeat.",
+   "body": "Daryl the Youngling boasts of his skill at Farstrider Lodge. He calls himself Daryl the Bold and dismisses travelers as greenhorns who cannot match his hunting prowess. To prove it, he wagers that you cannot kill six local mountain buzzards within fifteen minutes.",
    "spoiler": 0
   },
   {
    "title": "Thinning the Scavengers",
-   "body": "Mountain buzzards circle the crags and hillsides of Loch Modan, scavenging scraps and preying on smaller wildlife. While dangerous in numbers, they serve primarily as a baseline test of a hunter's speed, patience, and aim. Those who bring down the required quarry within the strict time limit quickly deflate Daryl's puffed-up pride, forcing him to reluctantly part with one of his ranged weapons and setting the stage for further hunting dares.",
+   "body": "Mountain buzzards scavenge and prey on smaller wildlife around Loch Modan's crags and hillsides. Daryl's timed hunt tests your speed, patience, and aim. If you bring down six before time runs out, his pride takes a blow. He reluctantly gives up one of his ranged weapons, then sets further hunting dares.",
    "spoiler": 0
   }
  ],
@@ -43,7 +43,7 @@
     "where is daryl",
     "where are buzzards"
    ],
-   "answer": "The quest begins at Farstrider Lodge, situated in the southeastern wilderness of Loch Modan. The mountain buzzards you must hunt roam the nearby crags and open ridges across the zone."
+   "answer": "The challenge begins at Farstrider Lodge in southeastern Loch Modan. Mountain buzzards roam the nearby crags and open ridges across the zone."
   },
   {
    "q": "Who is Daryl the Youngling?",
@@ -52,7 +52,7 @@
     "daryl the bold lore",
     "daryl farstrider"
    ],
-   "answer": "Daryl the Youngling is an ambitious, boastful young human staying at Farstrider Lodge. Calling himself 'Daryl the Bold,' he enjoys taunting travelers into timed hunting trials to prove his own imagined superiority."
+   "answer": "Daryl the Youngling is a boastful young human staying at Farstrider Lodge. He calls himself Daryl the Bold and taunts travelers with timed hunts to prove his imagined superiority."
   },
   {
    "q": "Why is there a time limit on the hunt?",
@@ -61,7 +61,7 @@
     "timer on quest",
     "timed trial"
    ],
-   "answer": "The fifteen-minute restriction is part of Daryl's wager. He believes that taking down wild buzzards under pressure is a feat well beyond an ordinary adventurer's skill."
+   "answer": "The fifteen-minute limit is part of Daryl's wager. He believes an ordinary traveler cannot bring down wild buzzards under pressure."
   },
   {
    "q": "What happens after beating Daryl's challenge?",
@@ -70,7 +70,7 @@
     "boast followup",
     "hunter chain"
    ],
-   "answer": "Though shocked by your success, Daryl refuses to admit true defeat. He honors his wager by offering a weapon, then immediately offers another hunting task\u2014A Hunter's Challenge\u2014targeting larger game."
+   "answer": "Daryl is shocked when you succeed, but refuses to admit defeat. He honors his wager with a weapon, then offers another hunt, A Hunter's Challenge, for larger game."
   },
   {
    "q": "Why hunt mountain buzzards specifically?",
@@ -79,7 +79,7 @@
     "buzzard purpose",
     "loch modan buzzards"
    ],
-   "answer": "Flocks of mountain buzzards nest around Loch Modan's rocky slopes. They serve as an agile, flying target ideal for testing whether an archer or rifleman has genuine field discipline."
+   "answer": "Mountain buzzards gather around Loch Modan's rocky slopes. Their quick flight tests an archer's or rifleman's field discipline."
   },
   {
    "q": "Does this quest tie into the rest of Farstrider Lodge's tasks?",
@@ -88,21 +88,21 @@
     "lodge story",
     "farstrider storyline"
    ],
-   "answer": "Yes. Daryl's tests lead directly into a broader sequence of hunts for the lodge, culminating in tracking down Ol' Sooty, the bear that scarred Daryl, as part of Vyrin Swiftwind's plan to get back at the boastful youngster."
+   "answer": "Daryl's hunts lead into a wider series for the lodge. It ends with a hunt for Ol' Sooty, the bear that scarred Daryl, as part of Vyrin Swiftwind's plan to get back at him."
   }
  ],
  "angles": [
   {
    "target": "class:Hunter",
-   "text": "For marksmen and trackers, Daryl's contest is an amusing chance to outshoot a boasting novice on his home turf and claim a reliable bow or gun."
+   "text": "As a hunter, you can outshoot a boastful novice on his home ground and claim a reliable bow or gun."
   },
   {
    "target": "race:Dwarf",
-   "text": "Dwarves used to the lodge's seasoned hunters will recognize this human youngster's posturing as empty bravado, best answered with quiet competence."
+   "text": "As a dwarf, you know the lodge's seasoned hunters and can answer this young human's empty bravado with quiet skill."
   },
   {
    "target": "faction:Alliance",
-   "text": "Farstrider Lodge serves as an important Alliance outpost along the southeastern roads of Loch Modan, providing shelter and staging hunts across the rugged valleys."
+   "text": "As an Alliance member, you can take shelter at Farstrider Lodge, an outpost along Loch Modan's southeastern roads, and set out on hunts through the rugged valleys."
   }
  ],
  "keywords": [
@@ -123,5 +123,6 @@
  ],
  "attribution": [
   "A Hunter's Boast"
- ]
+ ],
+ "style": 1
 }

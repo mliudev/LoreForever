@@ -10,11 +10,11 @@
    "quest:1846"
   ]
  },
- "summary": "Sturdy Dragonmaw Shinbones are durable skeletal trophies gathered from the renegade Dragonmaw orcs in the Wetlands. Required by armor crafter Velora Nitely in the Undercity, they serve as reinforcement struts for bespoke warrior armor.",
+ "summary": "At the Angerfang Encampment, renegade Dragonmaw orcs provide sturdy shinbones for armor. In the Undercity, Velora Nitely needs them to frame leg guards for warriors.",
  "sections": [
   {
    "title": "Bones for the Frame",
-   "body": "When forging brutal leg guards for frontline warriors, smiths require raw components that can endure severe punishment. In the Undercity, Velora Nitely prizes the skeletal density of the renegade Dragonmaw orcs entrenched at the Angerfang Encampment in the central Wetlands. Dragonmaw orcs are known for their thick, sturdy frames, making their shins well suited to serve as structural bracers. However, not every collected bone can withstand the strain; warriors must test each piece with their bare hands, discarding those that snap under pressure.",
+   "body": "Velora Nitely needs bones that can bear the strain of brutal leg guards. The renegade Dragonmaw orcs at the Angerfang Encampment in the central Wetlands have thick, sturdy frames, and their shinbones can brace the armor. Each bone must be tested by hand. Warriors discard any that snap under pressure.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "dragonmaw bone strength",
     "testing shinbones"
    ],
-   "answer": "Dragonmaw orcs possess naturally thick skeletal frames, but minor fractures or brittle bone make many samples useless for forging armor. To confirm one is sturdy, a warrior bends the raw bone with their bare hands; only those that resist breaking are considered strong enough to frame protective leg guards."
+   "answer": "Dragonmaw orcs have thick skeletal frames, but fractures can make a bone too brittle for armor. A warrior bends each shinbone by hand and keeps only those that resist breaking."
   },
   {
    "q": "Who wants Sturdy Dragonmaw Shinbones?",
@@ -35,7 +35,7 @@
     "velora nitely bones",
     "turn in dragonmaw shinbones"
    ],
-   "answer": "Velora Nitely, an armorer located in the Undercity, seeks them out. She uses them as core framing struts when crafting brutal leg guards for promising Horde warriors."
+   "answer": "Velora Nitely, an armorer in the Undercity, wants Sturdy Dragonmaw Shinbones. She uses them as framing struts for brutal leg guards made for promising Horde warriors."
   },
   {
    "q": "Where are these bones gathered?",
@@ -44,7 +44,7 @@
     "dragonmaw shinbone location",
     "angerfang bones"
    ],
-   "answer": "They are taken from the renegade Dragonmaw orcs occupying the Wetlands south of the Arathi Highlands, most notably at the Angerfang Encampment nestled in the hills southwest of the Thandol Span."
+   "answer": "The bones come from renegade Dragonmaw orcs in the Wetlands, south of the Arathi Highlands. They are found especially at the Angerfang Encampment in the hills southwest of the Thandol Span."
   },
   {
    "q": "Why does Velora Nitely use orc bones for armor?",
@@ -53,17 +53,17 @@
     "forsaken bone armor",
     "velora bone crafting"
    ],
-   "answer": "Forsaken craftsmanship frequently integrates bone, sinew, and metal into morbid yet highly durable wargear. The Dragonmaw clan remains hostile to Thrall's Horde, making their remains fair game for Forsaken smiths looking for resilient, heavy-duty crafting material."
+   "answer": "Forsaken smiths use bone, sinew, and metal to make durable wargear. The Dragonmaw clan is hostile to Thrall's Horde, so Forsaken smiths use their remains as resilient crafting material."
   }
  ],
  "angles": [
   {
    "target": "class:Warrior",
-   "text": "Procuring and testing these dense orc bones with bare hands proves a warrior's physical might while gathering the framing pieces for custom armor."
+   "text": "As a warrior, you test dense orc bones by hand and gather pieces to frame custom armor. This shows your physical might."
   },
   {
    "target": "race:Undead",
-   "text": "Velora Nitely represents typical Forsaken pragmatism, repurposing the bones of their enemies into functional equipment for the Dark Lady's champions."
+   "text": "As an undead, you can see Forsaken pragmatism in Velora Nitely's use of enemy bones for equipment for the Dark Lady's champions."
   }
  ],
  "keywords": [
@@ -86,5 +86,6 @@
  "attribution": [
   "Sturdy Dragonmaw Shinbone",
   "Dragonmaw Shinbones"
- ]
+ ],
+ "style": 1
 }

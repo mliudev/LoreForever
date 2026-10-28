@@ -101,6 +101,39 @@ end
 
 -- Fill in (or refresh) a registry record from the .toc. Metadata of add-ons that aren't loaded yet may be unreadable on
 -- some clients; it's read again after loading.
+-- Names that show in the player's own font (the Options list of installed packs, the language lists). A client's
+-- default font draws only its own script: an English or German client shows Cyrillic, Chinese and Korean as boxes.
+-- Packs.Drawable(text) says whether this client's font can draw every letter in text; Packs.LanguageName(locale)
+-- gives a language's own name when it can, and the English name when it can't.
+Packs.ENGLISH_NAMES = { enUS = "English", enGB = "English", deDE = "German", frFR = "French", esES = "Spanish",
+  esMX = "Spanish (Latin America)", ptBR = "Portuguese (Brazil)", itIT = "Italian", ruRU = "Russian",
+  koKR = "Korean", zhCN = "Chinese (Simplified)", zhTW = "Chinese (Traditional)", ukUA = "Ukrainian",
+  roRO = "Romanian", svSE = "Swedish" }
+-- Which scripts each client locale's font covers, besides Latin.
+local CLIENT_SCRIPTS = { ruRU = { cyrillic = true }, zhCN = { han = true }, zhTW = { han = true },
+  koKR = { han = true, hangul = true } }
+
+function Packs.Drawable(text)
+  if type(text) ~= "string" then return true end
+  local ok, loc = pcall(_G.GetLocale or function() return "enUS" end)
+  local covers = CLIENT_SCRIPTS[ok and loc or "enUS"] or {}
+  for i = 1, #text do
+    local b = text:byte(i)
+    local script
+    if b >= 205 and b <= 223 then script = (b >= 208 and b <= 211) and "cyrillic" or "other"   -- Greek ... Arabic, Cyrillic
+    elseif b >= 227 and b <= 233 then script = "han"      -- CJK, kana and their punctuation
+    elseif b >= 234 and b <= 237 then script = "hangul"
+    end
+    if script and not covers[script] then return false end
+  end
+  return true
+end
+
+function Packs.LanguageName(locale, native)
+  if native and native ~= "" and Packs.Drawable(native) then return native end
+  return Packs.ENGLISH_NAMES[locale] or locale
+end
+
 local function describe(rec)
   local n = rec.name
   rec.kind = kindOf(n) or rec.kind
@@ -126,6 +159,16 @@ local function describe(rec)
   rec.version = meta(n, "Version") or rec.version
   rec.author = meta(n, "Author") or rec.author
   rec.title = plain(meta(n, "Title") or rec.title or n)
+  -- A title or language name this client's font can't draw shows in English (the community packs' .tocs stay as they are).
+  if rec.languageName and not Packs.Drawable(rec.languageName) then
+    rec.languageName = Packs.ENGLISH_NAMES[rec.locale] or rec.locale
+  end
+  if not Packs.Drawable(rec.title) then
+    local english = Packs.ENGLISH_NAMES[rec.locale] or rec.locale
+    if not english then rec.title = n
+    elseif rec.kind == "voice" then rec.title = "Lore Forever: " .. english .. " narrator"
+    else rec.title = "Lore Forever - " .. english end
+  end
   if rec.format and rec.format > Packs.FORMAT then rec.loadable, rec.reason = false, "NEWER_FORMAT" end
   if withdrawn(rec) then rec.loadable, rec.reason = false, "WITHDRAWN" end
   return rec

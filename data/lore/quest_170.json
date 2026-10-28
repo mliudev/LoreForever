@@ -17,16 +17,16 @@
   "wiki": "A New Threat (Dun Morogh)",
   "chain": []
  },
- "summary": "A New Threat is an early combat assignment issued by Balir Frosthammer in Coldridge Valley. Dwarven mountaineers have been caught off-guard by a sudden surge of troggs bursting out across Dun Morogh, threatening local settlements and camps.",
+ "summary": "Balir Frosthammer calls for help as troggs surge through Coldridge Valley. Rockjaw troggs are breaking through across Dun Morogh, catching dwarven mountaineers off guard and threatening the settlements and camps.",
  "sections": [
   {
    "title": "Breaching Coldridge Valley",
-   "body": "Coldridge Valley was long regarded as a protected haven for young dwarven warriors and mountaineers training in Dun Morogh. That peace shattered when subterranean Rockjaw troggs began clawing their way to the surface in startling numbers. Reports quickly reached Anvilmar that troggs were swarming the frozen lake and surrounding foothills, disrupting daily patrols and cutting off vital supply routes through the valley pass.",
+   "body": "In Coldridge Valley, Rockjaw troggs are clawing up from below in growing numbers. Anvilmar hears reports of them swarming the frozen lake and nearby foothills. Their attacks disrupt patrols and cut off supply routes through the valley pass, turning a training refuge for young dwarven warriors and mountaineers into a place under threat.",
    "spoiler": 0
   },
   {
    "title": "A Camp Overrun",
-   "body": "The crisis peaked when the creatures mounted a coordinated assault on a dwarven encampment to the west, forcing the mountaineers to retreat and abandon their posts. Shorthanded and unable to spare full battle regiments from Ironforge, Balir Frosthammer has turned to newly recruited adventurers to cut through the Rockjaw ranks and secure the hills before the beasts push straight to Anvilmar's doorstep.",
+   "body": "A dwarven camp west of the valley has fallen to a coordinated trogg attack. The mountaineers retreated and abandoned their posts. Ironforge cannot spare full battle regiments, so Balir Frosthammer calls on newly recruited adventurers to fight through the Rockjaw ranks and secure the hills before the creatures reach Anvilmar.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who gives a new threat",
     "frosthammer anvilmar"
    ],
-   "answer": "Balir Frosthammer is a seasoned dwarven mountaineer stationed outside Anvilmar in Coldridge Valley. He organizes defensive operations against the wild beasts and invading troggs threatening the local recruits."
+   "answer": "Balir Frosthammer is a seasoned dwarven mountaineer stationed outside Anvilmar in Coldridge Valley. He organizes defenses against wild beasts and troggs threatening local recruits."
   },
   {
    "q": "Why are troggs suddenly in Coldridge Valley?",
@@ -47,7 +47,7 @@
     "why troggs attacking",
     "trogg invasion"
    ],
-   "answer": "Rockjaw troggs have begun tunneling up from deep subterranean fissures all across Dun Morogh. Coldridge Valley is among the first populated valleys to suffer sudden, violent breaches as the creatures overrun surface camps."
+   "answer": "Rockjaw troggs are tunneling up from deep fissures across Dun Morogh. Coldridge Valley is among the first populated valleys struck as the creatures break through and overrun surface camps."
   },
   {
    "q": "What camp was overrun by the troggs?",
@@ -56,7 +56,7 @@
     "western camp",
     "where did troggs attack"
    ],
-   "answer": "A dwarven mountaineer camp situated in the western reaches of Coldridge Valley was recently ambushed and overwhelmed by troggs, forcing the survivors to fall back toward Anvilmar."
+   "answer": "Troggs overwhelmed a dwarven mountaineer camp in the western reaches of Coldridge Valley. The survivors fell back toward Anvilmar."
   },
   {
    "q": "What kind of troggs are threatening the valley?",
@@ -65,7 +65,7 @@
     "which troggs",
     "burly rockjaw troggs"
    ],
-   "answer": "The attackers belong to the Rockjaw tribe, primarily consisting of standard Rockjaw Troggs and the larger, sturdier Burly Rockjaw Troggs that lead the advance around the frozen lake and foothills."
+   "answer": "The attackers belong to the Rockjaw tribe. Standard Rockjaw Troggs and larger, sturdier Burly Rockjaw Troggs lead the advance around the frozen lake and foothills."
   },
   {
    "q": "Is King Magni aware of the trogg problem?",
@@ -74,7 +74,7 @@
     "ironforge response to troggs",
     "ironforge senate troggs"
    ],
-   "answer": "Local guards hope King Magni Bronzebeard and the Ironforge Senate are preparing a wider response, but frontier outposts like Coldridge Valley are currently forced to handle localized surges on their own."
+   "answer": "Local guards hope King Magni Bronzebeard and the Ironforge Senate are preparing a wider response. For now, frontier outposts like Coldridge Valley must face the surges on their own."
   },
   {
    "q": "What happens after culling these troggs?",
@@ -83,17 +83,17 @@
     "after a new threat",
     "coldridge trogg questline"
    ],
-   "answer": "Thinning the troggs helps stabilize Anvilmar's immediate surroundings, though Balir and other dwarven officers continue organizing counter-offensives to reclaim the lost western camp and drive the pests back underground."
+   "answer": "Thinning the troggs helps steady Anvilmar's immediate surroundings. Balir and other dwarven officers continue to organize counterattacks to reclaim the western camp and drive the troggs underground."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "For young Bronzebeard dwarves stepping out of Anvilmar, driving back the trogg incursions is a personal duty to safeguard the sacred grounds and tunnels of Dun Morogh."
+   "text": "As a young Bronzebeard dwarf leaving Anvilmar, you have a personal duty to drive back the troggs and protect Dun Morogh's sacred grounds and tunnels."
   },
   {
    "target": "faction:Alliance",
-   "text": "Containing the subterranean menace in Coldridge Valley keeps Ironforge's training grounds viable and ensures the southern mountain gate remains secure for Alliance recruits."
+   "text": "As an Alliance recruit, you help contain the subterranean threat in Coldridge Valley, keeping Ironforge's training grounds viable and the southern mountain gate secure."
   }
  ],
  "keywords": [
@@ -113,5 +113,6 @@
  ],
  "attribution": [
   "A New Threat (Dun Morogh)"
- ]
+ ],
+ "style": 1
 }

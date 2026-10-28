@@ -8,16 +8,16 @@
   "wiki": "Marshal Marris",
   "refs": 8
  },
- "summary": "Marshal Marris is the beleaguered military officer commanding the town watch at Lakeshire. Stationed near the town's bridge, he coordinates defense operations against the massive Blackrock orc invasion pressing down from the heights of the Redridge Mountains. With Stormwind's army absent, he relies on visiting adventurers to blunt the horde's advances.",
+ "summary": "At Lakeshire's bridge, Marshal Marris directs a thin guard against the Blackrock advance. With Stormwind's army absent, he turns to visiting fighters to slow the orcs in the Redridge Mountains.",
  "sections": [
   {
    "title": "A Town Under Siege",
-   "body": "Lakeshire stands on the brink of collapse, caught between the gnolls to the west and the terrifying military might of the Blackrock clan to the east. Marshal Marris oversees the guard line at the town's primary bridge, but his resources are depleted and his soldiers are spread impossibly thin. With the kingdom of Stormwind withholding royal reinforcements, Marris carries the heavy burden of keeping the township from being overwhelmed by brute force.",
+   "body": "Lakeshire faces gnolls to the west and the Blackrock clan to the east. Marshal Marris commands the guard line at the town's main bridge, but his supplies are low and his soldiers are stretched thin. Stormwind has sent no royal reinforcements, leaving Marris to keep the town from being overrun.",
    "spoiler": 0
   },
   {
    "title": "Breaking the Blackrock Vanguard",
-   "body": "Recognizing that defense alone will not save Redridge, Marris orchestrates decisive offensive strikes against the orc encampments. He directs mercenaries to cull the Blackrock warriors, dismantle their shadowcasters, and ultimately hunt down Tharil'zun, the menacing commander entrenched inside the ruins of Stonewatch Keep. His orders aim to break the command structure of the orcs before an all-out assault crushes Lakeshire completely.",
+   "body": "Marshal Marris knows defense alone cannot save Redridge, so he orders strikes on the orc camps. He sends fighters against Blackrock warriors and shadowcasters, then after Tharil'zun, the commander holding Stonewatch Keep's ruins. Marris aims to break the orcs' command before they can overwhelm Lakeshire.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "marshal marris lore",
     "who is the guard at lakeshire bridge"
    ],
-   "answer": "Marshal Marris is the senior military commander in charge of defending Lakeshire. He can be found standing guard near the western end of the town's bridge, trying to keep the settlement fortified against hostile incursions."
+   "answer": "Marshal Marris commands Lakeshire's defense. He keeps watch near the western end of the town's bridge, working to fortify the settlement against attack."
   },
   {
    "q": "Why is Marshal Marris hiring independent adventurers?",
@@ -37,7 +37,7 @@
     "why does marris need help",
     "why no stormwind army"
    ],
-   "answer": "The Kingdom of Stormwind has failed to send adequate garrison reinforcements to the Redridge Mountains, leaving Lakeshire's local guard hopelessly outnumbered. Facing gnoll warbands and an entrenched invasion of Blackrock orcs, Marris is forced to enlist mercenary heroes to carry out critical strikes."
+   "answer": "Stormwind has sent too few reinforcements to the Redridge Mountains, leaving Lakeshire's guard outnumbered. With gnolls and Blackrock orcs pressing in, Marris hires mercenaries to strike at the threats."
   },
   {
    "q": "What threats is Marshal Marris fighting against?",
@@ -45,7 +45,7 @@
     "marris enemies",
     "who is attacking lakeshire"
    ],
-   "answer": "While gnolls plague the outskirts, Marris is primarily focused on the Blackrock orcs who have seized Stonewatch Keep. These orcs, commanded by Tharil'zun and bolstered by shadow magic, represent an imminent existential threat to Lakeshire and the greater kingdom."
+   "answer": "Gnolls trouble the outskirts, but Marshal Marris is chiefly fighting the Blackrock orcs holding Stonewatch Keep. Tharil'zun commands them, and their shadowcasters add to the danger facing Lakeshire and the kingdom."
   },
   {
    "q": "Is Marshal Marris related to Nathanos Marris?",
@@ -53,7 +53,7 @@
     "is marris related to nathanos",
     "marris family"
    ],
-   "answer": "They share a surname common to the human kingdoms of Lordaeron and Stormwind, but no official record confirms a direct familial relationship between Marshal Marris in Redridge and the famed ranger Nathanos Marris from the north."
+   "answer": "Marris is a surname found in the human kingdoms of Lordaeron and Stormwind. No record confirms a family tie between Marshal Marris in Redridge and Nathanos Marris, the famed ranger from the north."
   },
   {
    "q": "What is Marris's plan to defeat the Blackrock clan?",
@@ -61,7 +61,7 @@
     "marris plan",
     "how to beat blackrock orcs"
    ],
-   "answer": "Marris implements a war of attrition and decapitation. He directs combatants to cull the Blackrock infantry, gather magical components from their shadow magic users, and breach Stonewatch Keep to execute their leader, Tharil'zun."
+   "answer": "Marris orders fighters to kill Blackrock infantry, collect magical components from their shadowcasters, and enter Stonewatch Keep to kill Tharil'zun."
   },
   {
    "q": "Where can Marshal Marris be found?",
@@ -69,21 +69,21 @@
     "marris location",
     "where is marshal marris"
    ],
-   "answer": "Marris is stationed in Lakeshire within the Redridge Mountains, positioned prominently along the bridge near the center of town."
+   "answer": "Marshal Marris is in Lakeshire, in the Redridge Mountains, at the bridge near the center of town."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Marshal Marris embodies the plight of the rural Alliance territories, left vulnerable by Stormwind's political paralysis and forced to fight for survival on their own."
+   "text": "For the Alliance, Marshal Marris shows how exposed its rural lands are when Stormwind cannot act. Lakeshire must fight to survive on its own."
   },
   {
    "target": "race:Human",
-   "text": "For humans of the kingdom, Marris represents the stoic, beleaguered frontier guard holding the line against the remnants of the Old Horde."
+   "text": "As a human of the kingdom, you can see in Marris a frontier guard holding the line against the Old Horde's remnants."
   },
   {
    "target": "class:Warrior",
-   "text": "Marris appreciates straightforward martial discipline, sending capable front-line fighters into the jaws of Stonewatch to trade blows with seasoned Blackrock veterans."
+   "text": "As a warrior, you know the value of direct martial discipline. Marris sends front-line fighters into Stonewatch to face seasoned Blackrock veterans."
   }
  ],
  "keywords": [
@@ -106,5 +106,6 @@
  ],
  "attribution": [
   "Marshal Marris"
- ]
+ ],
+ "style": 1
 }

@@ -8,16 +8,16 @@
   "wiki": "Shael'dryn",
   "refs": 6
  },
- "summary": "Shael'dryn is an inquisitive dryad residing beside the Moonwell of Purity, east of Iris Lake in Ashenvale. She serves as a vital contact for night elf scouts investigating forest corruption. She plays a pivotal role in aiding Astranaar's sentinels with cleansing relics to combat demonic and foul influences spreading across the wilderness.",
+ "summary": "Beside the Moonwell of Purity, Shael'dryn watches corruption spread through Ashenvale. East of Iris Lake, she aids night elf scouts and Astranaar's sentinels with relics tainted by demonic and foul influences.",
  "sections": [
   {
    "title": "Guardian of the Moonwell",
-   "body": "Stationed beside the Moonwell of Purity, Shael'dryn keeps watch alongside the night elf sentinels guarding the eastern approaches of the forest. When corruption surfaces among the local wildlife or tainted relics threaten the land's harmony, her deep natural understanding allows her to guide adventurers through the steps required to restore spiritual balance.",
+   "body": "Beside the Moonwell of Purity, Shael'dryn watches the forest's eastern approaches with the night elf sentinels. When corruption touches local wildlife or tainted relics threaten the land's harmony, she draws on her deep understanding of nature to guide adventurers in restoring spiritual balance.",
    "spoiler": 0
   },
   {
    "title": "Purification of the Woods",
-   "body": "Shael'dryn works closely in coordination with Raene Wolfrunner in Astranaar. When sentinels recover tainted artifacts such as corrupted glowing gems and the lost pieces of Dartol's Rod, Shael'dryn knows the obscure rituals, moonwell waters, and natural tokens needed to purify them, transforming dark curiosities into potent cleansing tools for the Alliance.",
+   "body": "Shael'dryn works with Raene Wolfrunner in Astranaar. When sentinels recover tainted artifacts, including corrupted glowing gems and lost pieces of Dartol's Rod, she knows the obscure rituals, moonwell waters, and natural tokens needed to purify them. The artifacts become potent cleansing tools for the Alliance.",
    "spoiler": 1
   }
  ],
@@ -29,7 +29,7 @@
     "shael dryn lore",
     "shaeldryn identity"
    ],
-   "answer": "Shael'dryn is a dryad found beside the Moonwell of Purity in Ashenvale. She aids Alliance adventurers with woodland lore and natural magic, all while indulging her penchant for puns and jokes."
+   "answer": "Shael'dryn is a dryad beside the Moonwell of Purity in Ashenvale. She shares woodland lore and natural magic with Alliance adventurers, along with puns and jokes."
   },
   {
    "q": "Where can I find Shael'dryn?",
@@ -38,7 +38,7 @@
     "where is shael'dryn",
     "raynewood dryad"
    ],
-   "answer": "She can be found beside the Moonwell of Purity, east of Iris Lake in Ashenvale."
+   "answer": "Shael'dryn waits beside the Moonwell of Purity, east of Iris Lake in Ashenvale."
   },
   {
    "q": "What is Shael'dryn's connection to Raene Wolfrunner?",
@@ -47,7 +47,7 @@
     "raenes cleansing dryad",
     "why send me to shaeldryn"
    ],
-   "answer": "Raene Wolfrunner directs adventurers to Shael'dryn because the dryad possesses the spiritual knowledge necessary to investigate and cleanse corrupted gems and relics recovered throughout the forest."
+   "answer": "Raene Wolfrunner directs adventurers to Shael'dryn for her spiritual knowledge. She helps investigate and cleanse corrupted gems and relics recovered throughout the forest."
   },
   {
    "q": "What is unique about Shael'dryn's appearance?",
@@ -56,7 +56,7 @@
     "unique skin",
     "shaeldryn color"
    ],
-   "answer": "Shael'dryn and her fellow dryad Illiyana share an uncommon coloration that sets their models apart from most other dryads encountered across Kalimdor."
+   "answer": "Shael'dryn and her fellow dryad Illiyana share an uncommon coloration that sets them apart from most other dryads encountered across Kalimdor."
   },
   {
    "q": "Is Shael'dryn friendly to the Horde?",
@@ -65,21 +65,21 @@
     "horde rep",
     "is shaeldryn alliance only"
    ],
-   "answer": "No. Positioned beside the Moonwell of Purity and closely allied with the Astranaar Sentinels, Shael'dryn is hostile toward members of the Horde."
+   "answer": "No. Shael'dryn stands beside the Moonwell of Purity and is closely allied with the Astranaar Sentinels. She is hostile toward members of the Horde."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "For the Kaldorei, Shael'dryn is a welcome sister of the forest whose natural ties to Cenarius make her indispensable for cleansing tainted woodland relics."
+   "text": "As a Kaldorei, you can welcome Shael'dryn as a sister of the forest. Her natural ties to Cenarius make her indispensable when cleansing tainted woodland relics."
   },
   {
    "target": "class:Druid",
-   "text": "Druids will appreciate her natural connection to the spirits of Kalimdor and her insight into restoring flora and fauna warped by dark powers."
+   "text": "As a druid, you can value Shael'dryn's natural connection to the spirits of Kalimdor and her insight into restoring flora and fauna warped by dark powers."
   },
   {
    "target": "faction:Alliance",
-   "text": "The Moonwell of Purity serves as a sanctuary in Ashenvale, where Shael'dryn assists Alliance forces resisting corruption and hostile encroachment."
+   "text": "As an Alliance member, you can look to the Moonwell of Purity as a sanctuary in Ashenvale. Shael'dryn aids Alliance forces resisting corruption and hostile encroachment."
   }
  ],
  "keywords": [
@@ -100,5 +100,6 @@
  ],
  "attribution": [
   "Shael'dryn"
- ]
+ ],
+ "style": 1
 }

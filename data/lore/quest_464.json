@@ -17,21 +17,21 @@
   "wiki": "War Banners",
   "chain": []
  },
- "summary": "Captain Stoutfist in Menethil Harbor tasks Alliance champions with striking an encampment of Dragonmaw orcs northeast of the town and claiming their war banners. The remnant orcs, broken and scattered after the Second War, have begun gathering strength once again in the bogs of the Wetlands.",
+ "summary": "At Menethil Harbor, Captain Stoutfist sends Alliance champions against Dragonmaw orcs gathering strength in the Wetlands. He wants their war banners claimed from a camp northeast of town.",
  "sections": [
   {
    "title": "Remnants of the Dragonmaw",
-   "body": "During the Second War, the Dragonmaw clan subjugated the red dragonflight from the mountain fortress of Grim Batol. When their foul control broke, the liberated dragons turned upon their captors with ferocious vengeance, hunting the orcs nearly to extinction. What few survived fled Grim Batol into the high mountains east of Whelgar's Excavation, hidden away from the red flight's wrath.",
+   "body": "The Dragonmaw clan once held the red dragonflight captive at Grim Batol during the Second War. When that control broke, the freed dragons hunted their captors nearly to extinction. The few orcs who survived fled Grim Batol into the high mountains east of Whelgar's Excavation, hiding from the red flight's wrath.",
    "spoiler": 0
   },
   {
    "title": "A Rising Encampment",
-   "body": "Though long believed broken beyond repair, the Dragonmaw have resurfaced. Northeast of Menethil Harbor, these savage survivors have raised an active war camp and planted their crimson standards in the marsh. Recognizing the danger of an aggressive orc force so close to the harbor town, Captain Stoutfist wants their ranks culled and their proud war banners torn down as proof of their defeat.",
+   "body": "Dragonmaw survivors have gathered again northeast of Menethil Harbor. They have raised a war camp and planted crimson standards in the marsh. Captain Stoutfist sees danger in an armed orc force so near the harbor town. He wants their ranks cut down and their banners torn away as proof of defeat.",
    "spoiler": 0
   },
   {
    "title": "The Legacy of Nekros",
-   "body": "Upon claiming the banners, Stoutfist reveals that these regrouped orcs are led by Nek'rosh, the son of the infamous warlock Nekros. Nekros had commanded the captive red dragons through dark sorcery until that magic collapsed, leaving him to be torn apart by his former captives. His vengeful son now commands the survivors, consumed by an obsessive vendetta against the great beasts that slew his father.",
+   "body": "Nek'rosh leads the regrouped Dragonmaw orcs. He is the son of Nekros, the warlock who once commanded captive red dragons through dark sorcery. When that magic failed, Nekros was torn apart by the dragons he had held. His son now commands the survivors, consumed by vengeance against the great beasts that killed his father.",
    "spoiler": 1
   }
  ],
@@ -43,7 +43,7 @@
     "who are dragonmaw",
     "wetlands orcs"
    ],
-   "answer": "They are remnants of an orc clan that enslaved the red dragonflight during the Second War. After losing their hold over the dragons, they were ruthlessly hunted and scattered, with survivors fleeing Grim Batol to hide in the mountains and marshes."
+   "answer": "The Dragonmaw orcs in the Wetlands are survivors of a clan that enslaved the red dragonflight during the Second War. The freed dragons hunted them, scattering those who survived Grim Batol into the mountains and marshes."
   },
   {
    "q": "Why does Captain Stoutfist want their war banners?",
@@ -51,7 +51,7 @@
     "why collect banners",
     "captain stoutfist banners"
    ],
-   "answer": "Stoutfist considers the newly fortified encampment northeast of Menethil Harbor a severe threat to the town. He demands their war banners as physical proof that Alliance soldiers have raided the camp and weakened their fighting strength."
+   "answer": "Captain Stoutfist wants their banners as proof that Alliance soldiers have struck the camp and weakened its fighting strength. The encampment northeast of Menethil Harbor threatens the town."
   },
   {
    "q": "What happened to the Dragonmaw clan's dragons?",
@@ -59,7 +59,7 @@
     "what happened to the dragons",
     "dragonmaw dragons"
    ],
-   "answer": "When the dark magic holding the dragons captive failed, the red dragonflight turned on their captors. The dragons fiercely hunted down the Dragonmaw across Khaz Modan, utterly decimating the clan."
+   "answer": "When the dark magic holding them failed, the red dragons turned on their Dragonmaw captors. They hunted the orcs across Khaz Modan and decimated the clan."
   },
   {
    "q": "Who leads the Dragonmaw clan now?",
@@ -67,7 +67,7 @@
     "dragonmaw leader",
     "who is nek'rosh"
    ],
-   "answer": "They are led by Nek'rosh, the son of the former Dragonmaw leader Nekros. Nek'rosh has rallied the survivors and sworn revenge against the red dragons who killed his father."
+   "answer": "Nek'rosh leads the Dragonmaw survivors. He is Nekros's son and has rallied the orcs in vengeance against the red dragons who killed his father."
   },
   {
    "q": "Where did the Dragonmaw hide before setting up this camp?",
@@ -75,7 +75,7 @@
     "where did dragonmaw hide",
     "dragonmaw refuge"
    ],
-   "answer": "After fleeing Grim Batol, the surviving orcs hid in the rugged mountains east of Whelgar's Excavation before venturing into the Wetlands marsh to construct their encampment."
+   "answer": "After fleeing Grim Batol, the surviving orcs hid in the rugged mountains east of Whelgar's Excavation. They later entered the Wetlands marsh and built their camp."
   },
   {
    "q": "Are these Dragonmaw orcs affiliated with Thrall's Horde?",
@@ -83,21 +83,21 @@
     "are dragonmaw in horde",
     "dragonmaw thrall horde"
    ],
-   "answer": "No. These Dragonmaw remnants are independent renegades driven by vengeance and survival, operating completely outside of the new Horde founded by Warchief Thrall in Kalimdor."
+   "answer": "No. The Dragonmaw remnants act outside Warchief Thrall's new Horde in Kalimdor. They are renegades driven by vengeance and survival."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Menethil Harbor serves as the vital lifeline between Stormwind, Ironforge, and the northern realms; allowing a hostile orc encampment to dig in nearby endangers the entire shipping corridor."
+   "text": "As an Alliance champion, you can see why Captain Stoutfist wants the Dragonmaw driven from Menethil Harbor's vicinity. Their camp threatens the shipping corridor linking Stormwind, Ironforge, and the northern realms."
   },
   {
    "target": "race:Dwarf",
-   "text": "The Dragonmaw desecrated the ancient dwarven stronghold of Grim Batol and stained the surrounding mountains with war, making every dead Dragonmaw warrior a measure of long-delayed justice."
+   "text": "As a dwarf, you know the Dragonmaw defiled the ancient stronghold of Grim Batol and brought war to the mountains around it. Each Dragonmaw warrior who falls brings a measure of long-delayed justice."
   },
   {
    "target": "class:Warrior",
-   "text": "Striking the war camp directly tests your mettle against hardened Second War veterans who fight with reckless ferocity, even stripped of their draconic mounts."
+   "text": "As a warrior, you face hardened veterans of the Second War in their camp. They fight with reckless force, even without their draconic mounts."
   }
  ],
  "keywords": [
@@ -120,5 +120,6 @@
  ],
  "attribution": [
   "War Banners"
- ]
+ ],
+ "style": 1
 }

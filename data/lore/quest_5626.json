@@ -20,16 +20,16 @@
    "Garments of the Light (Dun Morogh)"
   ]
  },
- "summary": "\"In Favor of the Light\" marks a young priest's rite of passage from the isolated training grounds of Coldridge Valley into the wider reaches of Dun Morogh. Instructed by Branstock Khalder, novitiates are sent through the mountain tunnel to Kharanos to further their studies under Priest Trainer Maxan Anvol. It signals that an acolyte is ready to shoulder real responsibilities and earn the traditional vestments of their calling.",
+ "summary": "A young priest leaves Coldridge Valley for further study in Kharanos during In Favor of the Light. Branstock Khalder sends novitiates through the mountain tunnel to Priest Trainer Maxan Anvol, where they take on greater responsibilities and can earn their first formal vestments.",
  "sections": [
   {
    "title": "Leaving the Anvil",
-   "body": "In the secluded cradle of Coldridge Valley, dwarven priests begin their studies under the watchful eye of instructors like Branstock Khalder. Once a novice demonstrates sufficient dedication and grasp of Holy magic, their preliminary instruction comes to an end. Rather than keeping them sheltered in Anvilmar, Khalder directs promising students beyond the mountains to Kharanos, where the demands of ministry and defense intersect with the daily struggles of Dun Morogh's folk.",
+   "body": "Dwarven priests begin their studies in Coldridge Valley under instructors such as Branstock Khalder. When a novice shows dedication and understanding of Holy magic, Khalder sends them beyond the mountains to Kharanos. There, priests face the needs of Dun Morogh's people, including their daily struggles and defense.",
    "spoiler": 0
   },
   {
    "title": "A Step Toward Kharanos",
-   "body": "Reaching Kharanos requires trekking through the Coldridge Pass tunnel into the windswept snows of central Dun Morogh. Waiting at the settlement is Maxan Anvol, a senior priest tasked with guiding students beyond rudimentary prayers. Anvol believes firmly that devotion to the Holy Light requires equal measures of moral character, physical hardiness, and an unyielding will. For acolytes who prove their resolve under his tutelage, Anvol prepares to bestow their first formal garments of office.",
+   "body": "You reach Kharanos by traveling through the Coldridge Pass tunnel into central Dun Morogh. Priest Trainer Maxan Anvol guides students beyond basic prayers. He teaches that service to the Holy Light calls for moral character, physical hardiness, and an unyielding will. Students who prove their resolve under his guidance may receive their first formal garments of office.",
    "spoiler": 0
   }
  ],
@@ -41,7 +41,7 @@
     "quest giver",
     "branstock khalder"
    ],
-   "answer": "Branstock Khalder, the dwarven priest trainer stationed at Anvilmar in Coldridge Valley, sends you to Kharanos once you have shown enough aptitude with the Holy Light to pursue advanced study."
+   "answer": "Branstock Khalder, the priest trainer at Anvilmar in Coldridge Valley, sends you to Kharanos after you show enough aptitude with the Holy Light for further study."
   },
   {
    "q": "Who is Maxan Anvol?",
@@ -50,7 +50,7 @@
     "who is maxan anvol",
     "kharanos priest trainer"
    ],
-   "answer": "Maxan Anvol is the priest trainer stationed in the mountain village of Kharanos. He guides developing priests, teaching them to temper their devotion with physical endurance and mental fortitude."
+   "answer": "Maxan Anvol is the priest trainer in the mountain village of Kharanos. He guides developing priests and teaches them to join devotion with physical endurance and mental fortitude."
   },
   {
    "q": "What happens after reaching Maxan Anvol?",
@@ -59,7 +59,7 @@
     "what follows in favor of the light",
     "garments of the light"
    ],
-   "answer": "Maxan Anvol challenges you to prove your worthiness through the quest 'Garments of the Light', tasking you to aid injured locals before awarding your first official priest robes."
+   "answer": "Maxan Anvol asks you to prove your worth by helping injured locals in Garments of the Light. Afterward, he awards you your first official priest robes."
   },
   {
    "q": "Why must priests leave Coldridge Valley so early?",
@@ -68,7 +68,7 @@
     "leaving anvilmar",
     "why go to kharanos"
    ],
-   "answer": "Coldridge Valley offers only the basics of combat and spellcraft. Broader communities like Kharanos face immediate logistical and defensive threats, offering fledgling priests real-world experience in serving their people."
+   "answer": "Coldridge Valley teaches the basics of combat and spellcraft. In Kharanos, priests meet the immediate needs and dangers facing a wider community, and learn to serve their people there."
   },
   {
    "q": "Do human priests receive this same quest?",
@@ -76,7 +76,7 @@
     "human in favor of the light",
     "northshire version"
    ],
-   "answer": "Human priests in Elwynn Forest undertake an equivalent rite of passage under the exact same name, directed by Priestess Anetta in Northshire to visit Priestess Josetta in Goldshire."
+   "answer": "Human priests in Elwynn Forest undertake the same rite under the same name. Priestess Anetta in Northshire sends them to Priestess Josetta in Goldshire."
   },
   {
    "q": "How does the dwarven view of the Light differ here?",
@@ -84,17 +84,17 @@
     "dwarf light beliefs",
     "dwarves and the light"
    ],
-   "answer": "Dwarves place great emphasis on physical strength, will, and practical endurance alongside piety. As Maxan Anvol notes, serving the Light in the freezing mountain peaks demands strength of body as much as faith."
+   "answer": "Dwarves value physical strength, will, and practical endurance alongside piety. Maxan Anvol teaches that serving the Light in freezing mountain peaks calls for strength of body as well as faith."
   }
  ],
  "angles": [
   {
    "target": "class:Priest",
-   "text": "This task is a milestone for fledgling priests, representing their formal graduation from basic training into active service and the acquisition of their first vestments."
+   "text": "As a priest, you reach a milestone when you leave basic training for active service and receive your first vestments."
   },
   {
    "target": "race:Dwarf",
-   "text": "Dwarven priesthood blends spiritual devotion with practical resilience, sending acolytes straight from Coldridge's fires into the harsh, freezing winds of Dun Morogh."
+   "text": "As a dwarf, you join spiritual devotion with practical resilience as you leave Coldridge for Dun Morogh's freezing winds."
   }
  ],
  "keywords": [
@@ -119,5 +119,6 @@
  ],
  "attribution": [
   "In Favor of the Light (Dun Morogh)"
- ]
+ ],
+ "style": 1
 }

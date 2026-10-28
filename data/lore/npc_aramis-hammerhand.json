@@ -8,16 +8,16 @@
   "wiki": "Aramis Hammerhand",
   "refs": 5
  },
- "summary": "Aramis Hammerhand is an undead holy warrior situated within the desecrated chapel of Deathknell. As a Forsaken paladin trainer, he instructs newly risen dead who seek to reclaim their bond with the Holy Light. Walking this path in undeath requires immense discipline, as wielding such radiant energy inflicts agonizing pain upon their decayed flesh.",
+ "summary": "In Deathknell's chapel, Aramis Hammerhand trains the newly risen Forsaken in holy combat. The Holy Light can answer their call, but wielding it burns their decayed flesh and demands fierce discipline.",
  "sections": [
   {
    "title": "A Beacon in Deathknell",
-   "body": "Standing within the somber walls of Deathknell's chapel, Aramis Hammerhand represents an anomaly among the recently awakened Forsaken. In life, many citizens of Lordaeron answered the call of the Silver Hand, only to perish when the Scourge swept across the north. Aramis survived the fall only to be raised into undeath, yet he chose not to abandon the martial and spiritual teachings of his former existence. Now, he offers guidance to others who refuse to surrender their devotion.",
+   "body": "In Deathknell's chapel, Aramis Hammerhand guides Forsaken who hold fast to their former faith. Before the Scourge swept across the north, many people of Lordaeron answered the Silver Hand's call. Aramis survived the fall of Lordaeron, then rose into undeath. He kept the martial and spiritual teachings of his former life, and now guides others who refuse to surrender their devotion.",
    "spoiler": 0
   },
   {
    "title": "The Agony of the Holy Light",
-   "body": "For an undead being, channeling the Holy Light is an ordeal of supreme willpower. The power burns necrotic flesh and reawakens long-dead nerves to excruciating pain. Aramis instructs his initiates that holding to this faith requires enduring continual torment. Through tasks like 'A Difficult Path' and 'Rediscovering the Light', he demands that young paladins confront the physical and spiritual costs of wielding a force inherently opposed to their present nature.",
+   "body": "For the Forsaken, channeling the Holy Light demands fierce will. Its power burns necrotic flesh and stirs long-dead nerves into excruciating pain. Aramis teaches new paladins that faith means enduring that torment. He asks them to face the physical and spiritual costs of wielding a force opposed to their undead nature.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "who is hammerhand",
     "deathknell paladin trainer"
    ],
-   "answer": "Aramis Hammerhand is a Forsaken paladin trainer located inside the chapel at Deathknell in Tirisfal Glades. He assists newly risen undead who wish to pursue the path of holy combat."
+   "answer": "Aramis Hammerhand trains Forsaken paladins in Deathknell's chapel in Tirisfal Glades. He guides the newly risen who seek holy combat."
   },
   {
    "q": "Can the Forsaken actually wield the Holy Light?",
@@ -38,7 +38,7 @@
     "how do undead use light",
     "forsaken light"
    ],
-   "answer": "Yes, through sheer willpower and conviction, Forsaken can call upon the Holy Light. However, doing so causes immense physical agony, as the radiant energy burns and scours their rotting flesh while healing or bolstering them."
+   "answer": "Yes. The Forsaken can call upon the Holy Light through willpower and conviction. Its radiant power burns and scours their rotting flesh even as it heals or strengthens them."
   },
   {
    "q": "Where can I find Aramis Hammerhand?",
@@ -47,7 +47,7 @@
     "hammerhand location",
     "paladin trainer deathknell"
    ],
-   "answer": "He can be found standing inside the chapel of Deathknell, the introductory settlement for the Forsaken in Tirisfal Glades."
+   "answer": "Aramis Hammerhand stands inside the chapel at Deathknell, the Forsaken's starting settlement in Tirisfal Glades."
   },
   {
    "q": "What quests does Aramis Hammerhand offer?",
@@ -55,7 +55,7 @@
     "aramis quests",
     "deathknell paladin quests"
    ],
-   "answer": "Aramis offers several class-specific quests for newly risen paladins, including 'A Difficult Path', 'Rediscovering the Light', 'A Light in the Darkness', 'Coming to Terms', and 'Continue Your Training'."
+   "answer": "Aramis offers class-specific training to newly risen paladins, including A Difficult Path, Rediscovering the Light, A Light in the Darkness, Coming to Terms, and Continue Your Training."
   },
   {
    "q": "Why is a paladin trainer working for the Forsaken?",
@@ -63,7 +63,7 @@
     "why are there forsaken paladins",
     "forsaken silver hand"
    ],
-   "answer": "Before the plague, Lordaeron was the cradle of the Knights of the Silver Hand. Many of the newly liberated Forsaken remember their oaths and refuse to abandon their sacred calling, regardless of their undead state."
+   "answer": "Before the plague, Lordaeron was the cradle of the Knights of the Silver Hand. Many newly liberated Forsaken remember their oaths and keep to their sacred calling despite their undead state."
   },
   {
    "q": "Does using the Light heal the undead in the normal way?",
@@ -71,17 +71,17 @@
     "does light hurt undead",
     "light healing undead lore"
    ],
-   "answer": "While the Light can mend their bodies and grant them martial strength, the process is excruciating. It reignites their sensory nervous systems, forcing them to feel the rot of their own bodies."
+   "answer": "The Light can mend undead bodies and grant martial strength, but using it is excruciating. It awakens their senses, forcing them to feel the rot of their own bodies."
   }
  ],
  "angles": [
   {
    "target": "class:Paladin",
-   "text": "For Forsaken paladins, Aramis is the first mentor they meet, guiding them through the agony and spiritual discipline required to wield the Holy Light in an undead vessel."
+   "text": "As a Forsaken paladin, Aramis is your first mentor. He guides you through the pain and spiritual discipline of wielding the Holy Light in an undead body."
   },
   {
    "target": "race:Undead",
-   "text": "Aramis demonstrates that rising into undeath does not require abandoning Lordaeron's proud heritage of holy warfare, even if it comes with immense personal suffering."
+   "text": "As an undead traveler, you can see in Aramis that undeath need not sever Lordaeron's heritage of holy warfare, though the path brings great suffering."
   }
  ],
  "keywords": [
@@ -107,5 +107,6 @@
  ],
  "attribution": [
   "Aramis Hammerhand"
- ]
+ ],
+ "style": 1
 }

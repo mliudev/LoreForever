@@ -10,11 +10,11 @@
    "quest:234"
   ]
  },
- "summary": "This sealed correspondence is addressed to Grelin Whitebeard, an experienced dwarf stationed out in the snowy wilderness of Coldridge Valley. Sent from the mountain capital of Ironforge, it serves as a rare dispatch of news and instructions reaching the remote frontier.",
+ "summary": "A letter from Ironforge reaches Grelin Whitebeard at his camp in Coldridge Valley. The dispatch carries news and instructions to the experienced dwarf on the snowy frontier.",
  "sections": [
   {
    "title": "A Dispatch from the Mountain",
-   "body": "Life in the snowy basin of Coldridge Valley can be isolated, especially for those stationed beyond the safety of Anvilmar. Letters like this represent the crucial link connecting scouts and scholars in the field to the halls of Ironforge. Carried southward along the mountain paths, the missive brings word from the capital to Grelin Whitebeard's wilderness campsite.",
+   "body": "Grelin Whitebeard receives word from Ironforge at his wilderness campsite. Coldridge Valley can feel far from the safety of Anvilmar, and letters connect scouts and scholars in the field with the halls of the mountain capital. This missive has traveled south along the mountain paths to reach him.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "who is grelin",
     "recipient"
    ],
-   "answer": "Grelin Whitebeard is a dwarven scout and explorer encamped in the southeastern reaches of Coldridge Valley. He relies on messengers from Anvilmar to keep him informed of affairs and instructions from Ironforge."
+   "answer": "Grelin Whitebeard is a dwarven scout and explorer camped in southeastern Coldridge Valley. Messengers from Anvilmar bring him news and instructions from Ironforge."
   },
   {
    "q": "Where did this letter come from?",
@@ -35,7 +35,7 @@
     "who sent the letter",
     "where is it from"
    ],
-   "answer": "The correspondence originates from the dwarven capital of Ironforge, forwarded down through Coldridge Valley's local postal courier to be carried out into the field."
+   "answer": "The letter comes from Ironforge, the dwarven capital. A local postal courier carries it through Coldridge Valley and out to the field."
   },
   {
    "q": "What is inside the letter?",
@@ -44,13 +44,13 @@
     "what does it say",
     "letter text"
    ],
-   "answer": "It is a short note from King Magni Bronzebeard, who has no time to spare and grants Grelin the use of his authority to deal with the trolls however he sees fit, especially if he can find a quick solution. Grelin welcomes it, as it has been a while since he received word from Ironforge."
+   "answer": "The letter is a short note from King Magni Bronzebeard. He has no time to spare and gives Grelin authority to deal with the trolls as he sees fit, especially if he can find a quick solution. Grelin welcomes the word, since it has been a while since he last heard from Ironforge."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "Carrying dispatches across the freezing passes of Dun Morogh is a foundational duty for young dwarven mountaineers and recruits making a name for themselves."
+   "text": "As a dwarf, carrying dispatches across Dun Morogh's freezing passes is a basic duty for young mountaineers and recruits hoping to make a name for themselves."
   }
  ],
  "keywords": [
@@ -71,5 +71,6 @@
  "attribution": [
   "A Letter to Grelin Whitebeard",
   "Coldridge Valley Mail Delivery (2)"
- ]
+ ],
+ "style": 1
 }

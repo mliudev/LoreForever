@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Brill Town Hall"
  },
- "summary": "Brill Town Hall is the administrative heart of the settlement of Brill in central Tirisfal Glades. Standing as the most prominent structure in town, it serves as the civic headquarters from which the Forsaken govern their local holdings and coordinate the defense of the glades.",
+ "summary": "Brill Town Hall anchors Forsaken rule in the shattered heart of Lordaeron. From its doors, the undead govern Brill and coordinate the defense of Tirisfal Glades.",
  "sections": [
   {
    "title": "Civic Seat of the Forsaken",
-   "body": "While much of Lordaeron lies shattered and ruined, Brill Town Hall remains standing as a functioning civic center under undead rule. Inside, Magistrate Sevren directs town affairs from his podium, handing out vital commissions and directives to Forsaken adventurers. Aside from the Defiler's Den in the Arathi Highlands, it is one of the only recognized town halls in the known world actively run by the Forsaken, serving as a bleak parody and functional continuation of old Lordaeron's municipal bureaucracy.",
+   "body": "Brill Town Hall remains open under Forsaken rule while much of Lordaeron lies in ruins. Magistrate Sevren directs town affairs from his podium, issuing orders to Forsaken travelers. Beyond the Defiler's Den in the Arathi Highlands, few recognized town halls in the known world remain active under Forsaken control. Brill’s hall carries on Lordaeron’s old civic order beneath undead rule.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "what is this building",
     "why visit brill town hall"
    ],
-   "answer": "It serves as the local seat of government for the settlement of Brill. Forsaken leadership, particularly Magistrate Sevren, uses the building to coordinate local defense, issue decrees, and assign critical tasks to travelers and newly awakened undead."
+   "answer": "Brill Town Hall is the local seat of government for Brill. Magistrate Sevren and other Forsaken leaders use it to direct local defense, issue decrees, and assign work to travelers and newly awakened undead."
   },
   {
    "q": "Who is in charge here?",
@@ -32,7 +32,7 @@
     "brill town hall leader",
     "who is the magistrate"
    ],
-   "answer": "Magistrate Sevren presides over the town hall from his podium, managing municipal affairs on behalf of the Forsaken and directing operations throughout central Tirisfal Glades."
+   "answer": "Magistrate Sevren presides over Brill Town Hall from his podium. He manages town affairs for the Forsaken and directs their operations across central Tirisfal Glades."
   },
   {
    "q": "Why is this town hall notable compared to others?",
@@ -40,17 +40,17 @@
     "unique forsaken town hall",
     "are there other forsaken town halls"
    ],
-   "answer": "Town halls are typically relics of living human kingdoms. Brill Town Hall is notable for being one of the only active civic halls maintained and operated by the Forsaken, mirroring only places like the Defiler's Den in Arathi."
+   "answer": "Brill Town Hall is one of the few active civic halls run by the Forsaken. The Defiler's Den in Arathi is another, while most town halls belong to living human kingdoms."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "For Forsaken venturing out from Deathknell, the town hall represents the first taste of structured civic governance under Queen Sylvanas's realm, where local defense and reclamation efforts are formally organized."
+   "text": "As a Forsaken setting out from Deathknell, you find your first taste of organized civic rule under Queen Sylvanas here. Local defense and efforts to reclaim the land are formally arranged within Brill Town Hall."
   },
   {
    "target": "faction:Horde",
-   "text": "Allies of the Horde arriving in Tirisfal can visit the town hall to understand how the Forsaken maintain civil authority and martial order in their darkened homelands."
+   "text": "As a Horde ally arriving in Tirisfal, you can visit Brill Town Hall to see how the Forsaken maintain civil authority and military order in their darkened homeland."
   }
  ],
  "keywords": [
@@ -70,5 +70,6 @@
  ],
  "attribution": [
   "Brill Town Hall"
- ]
+ ],
+ "style": 1
 }

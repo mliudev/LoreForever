@@ -7,21 +7,21 @@
  "meta": {
   "wiki": "Frostmane tribe"
  },
- "summary": "The Frostmane tribe consists of fierce ice trolls indigenous to the frigid peaks of Dun Morogh. Driven into caves and remote ridges by the dwarves of Ironforge centuries ago, they wage an unrelenting guerrilla war to reclaim their ancestral home.",
+ "summary": "Across Dun Morogh’s frigid peaks, the Frostmane tribe fights to reclaim its home. These ice trolls are native to the mountains, but dwarves drove them into caves and remote ridges centuries ago. From there, the Frostmane wage a guerrilla war against the dwarves.",
  "sections": [
   {
    "title": "Exiles of the High Crags",
-   "body": "Long before the Bronzebeard clan united under Ironforge, the Frostmane trolls held dominion across the snowbound expanses of Dun Morogh. The rise and expansion of the dwarven kingdom crushed their realm, pushing the surviving ice trolls into retreat along the frozen ridges and crags. This humiliating defeat sparked a bitter generational hatred that endures to this day. The Frostmane treat every mountaineer, traveler, and homestead as an invading enemy to be driven out or slaughtered.",
+   "body": "Long before the Bronzebeard clan united under Ironforge, the Frostmane trolls ruled across Dun Morogh’s snowbound reaches. The rise and spread of the dwarven kingdom crushed their realm, forcing survivors to retreat into caves and along frozen ridges and crags. That defeat bred a bitter hatred passed down through generations. To the Frostmane, every mountaineer, traveler, and homestead is an invader to drive out or slaughter.",
    "spoiler": 0
   },
   {
    "title": "A Seized Opportunity",
-   "body": "For decades, the Ironforge Senate regarded the Frostmane as little more than a persistent nuisance lurking in the hills. However, the sudden emergence of the trogg menace deep beneath Dun Morogh has thrown dwarven defense into disarray. Sensing an opportune moment while the mountaineers are overwhelmed and dwarven forces fight Alliance wars abroad, the Frostmane have launched renewed and violent raids from strongholds such as Frostmane Hold and Shimmer Ridge to retake their ancient territories.",
+   "body": "For decades, the Ironforge Senate saw the Frostmane as little more than a nuisance in the hills. Then the trogg menace emerged deep beneath Dun Morogh, throwing dwarven defenses into disarray. With the mountaineers overwhelmed and dwarven forces fighting Alliance wars abroad, the Frostmane seized their chance. From strongholds such as Frostmane Hold and Shimmer Ridge, they launched renewed, violent raids to reclaim their ancient lands.",
    "spoiler": 0
   },
   {
    "title": "Raiders of the Valleys",
-   "body": "The Senate of Ironforge eventually took note of the growing threat and sent Grelin Whitebeard and his brother Senir to deal with it. From the caves of Frostmane Hold and the heights of Shimmer Ridge, the trolls strike at the dwarves, and in Coldridge Valley war leaders like Grik'nir the Cold direct aggressive incursions against the mountaineers.",
+   "body": "The Senate of Ironforge eventually recognized the growing danger and sent Grelin Whitebeard and his brother Senir to confront it. From the caves of Frostmane Hold and the heights of Shimmer Ridge, the trolls strike at dwarves. In Coldridge Valley, war leaders such as Grik'nir the Cold direct aggressive incursions against the mountaineers.",
    "spoiler": 1
   }
  ],
@@ -33,7 +33,7 @@
     "what are frostmane",
     "dun morogh trolls"
    ],
-   "answer": "They are a tribe of ice trolls native to the snowy crags of Dun Morogh. Centuries ago, they ruled the region before dwarven armies defeated them and forced them into the high ridges."
+   "answer": "The Frostmane are ice trolls native to Dun Morogh’s snowy crags. They ruled the region until dwarven armies defeated them centuries ago and forced them into the high ridges."
   },
   {
    "q": "Why are the Frostmane attacking the dwarves now?",
@@ -42,7 +42,7 @@
     "frostmane uprising",
     "troll attacks dun morogh"
    ],
-   "answer": "With dwarven mountaineers strained by trogg invasions and military commitments across the Alliance, the Frostmane see an opening to reclaim their ancestral hunting grounds and take revenge on Ironforge."
+   "answer": "Trogg invasions have strained the dwarven mountaineers, while their forces fight Alliance wars abroad. The Frostmane see an opening to reclaim their ancestral hunting grounds and take revenge on Ironforge."
   },
   {
    "q": "Who leads the Frostmane tribe?",
@@ -51,7 +51,7 @@
     "chief of frostmane",
     "who runs the frostmane"
    ],
-   "answer": "The tribe raids from Frostmane Hold and Shimmer Ridge, and its war bands are led by aggressive figures like Grik'nir the Cold, who harries the dwarves of Coldridge Valley."
+   "answer": "The Frostmane raid from Frostmane Hold and Shimmer Ridge. In Coldridge Valley, war leaders such as Grik'nir the Cold lead bands that harry the dwarves."
   },
   {
    "q": "What happened to Frostmane Hold?",
@@ -60,7 +60,7 @@
     "what happened to troll cave",
     "why did trolls leave hold"
    ],
-   "answer": "Frostmane Hold remains the tribe's stronghold, a troll-held cave in the hills of Dun Morogh from which the Frostmane launch their raids. The Senate of Ironforge sent Grelin Whitebeard and his brother Senir to deal with the threat."
+   "answer": "Frostmane Hold remains a troll stronghold in the hills of Dun Morogh, and the Frostmane launch raids from its caves. The Senate of Ironforge sent Grelin Whitebeard and his brother Senir to deal with the threat."
   },
   {
    "q": "What is Shimmerweed, and why do the trolls gather it?",
@@ -69,7 +69,7 @@
     "frostmane shimmerweed",
     "what is shimmerweed used for"
    ],
-   "answer": "Shimmerweed is a resilient plant growing in the bitter winds of Shimmer Ridge. The Frostmane cultivate and harvest it for their sacred tribal rituals, though dwarven brewers prize it as an ingredient for potent stout."
+   "answer": "Shimmerweed is a hardy plant that grows in the bitter winds of Shimmer Ridge. The Frostmane cultivate and harvest it for sacred tribal rituals, while dwarven brewers prize it as an ingredient in potent stout."
   },
   {
    "q": "Are the Frostmane aligned with the Horde?",
@@ -78,21 +78,21 @@
     "frostmane faction",
     "frostmane friendly to horde"
    ],
-   "answer": "No. The Frostmane are independent ice trolls who bear virulent hatred toward all outsiders, attacking travelers and explorers regardless of faction."
+   "answer": "No. The Frostmane are independent ice trolls who hate outsiders and attack travelers and explorers regardless of faction."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "For dwarves, the Frostmane are a constant reminder of ancestral blood feuds, making the mountaineers' defense of Dun Morogh deeply personal."
+   "text": "For dwarves, the Frostmane recall ancestral blood feuds, making the mountaineers’ defense of Dun Morogh deeply personal."
   },
   {
    "target": "race:Troll",
-   "text": "While Darkspear trolls share the broad heritage of trollkind, the isolated Frostmane are savage ice trolls with little interest in kinship, treating Horde visitors as intruders on their sacred peaks."
+   "text": "As a Darkspear troll, you share the broad heritage of trollkind, but the isolated Frostmane are savage ice trolls with little interest in kinship. They treat Horde visitors as intruders on their sacred peaks."
   },
   {
    "target": "profession:Cooking",
-   "text": "The crag boars and beasts kept around Frostmane encampments provide rough game meat for hearthside rations amidst Dun Morogh's biting snows."
+   "text": "Crag boars and other beasts kept around Frostmane encampments provide rough game meat for hearthside rations amid Dun Morogh’s biting snows."
   }
  ],
  "keywords": [
@@ -117,5 +117,6 @@
  ],
  "attribution": [
   "Frostmane tribe"
- ]
+ ],
+ "style": 1
 }

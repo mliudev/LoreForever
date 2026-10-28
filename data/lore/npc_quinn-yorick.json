@@ -8,11 +8,11 @@
   "wiki": "Quinn Yorick",
   "refs": 1
  },
- "summary": "Quinn Yorick is a wounded Forsaken scout sheltering on the upper floor of a ruined farmhouse in the Ivar Patch. Having barely survived an encounter with the ghoul known as Ivar the Foul, he now relies on passing allies to help secure his survival.",
+ "summary": "At the Ivar Patch, Quinn Yorick hides from the ghoul that wounded him. The Forsaken scout waits in a ruined farmhouse, unable to finish his mission or retreat alone.",
  "sections": [
   {
    "title": "A Precarious Refuge",
-   "body": "Tucked away inside an abandoned home at the Ivar Patch, Quinn Yorick lies gravely injured upstairs. His condition is the result of a vicious clash with Ivar the Foul, a ghoul lurking in the farm's barn in the northern stretches of Silverpine Forest. Sent with his sister Rane to scout Silverpine and report to High Executor Hadrec, Quinn cannot finish his mission or safely retreat alone, so he remains in hiding while travelers working for the Forsaken bring him healing and deal with the creature that nearly tore him apart.",
+   "body": "Quinn Yorick lies gravely injured upstairs in a ruined farmhouse at the Ivar Patch. Ivar the Foul, a ghoul lurking in the farm’s barn in northern Silverpine Forest, wounded him in a vicious clash. Quinn and his sister Rane were sent to scout Silverpine and report to High Executor Hadrec. Too hurt to finish the mission or make a safe retreat alone, he remains in hiding. Passing travelers working for the Forsaken bring him healing and deal with the creature that nearly tore him apart.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "where is quinn",
     "quinn yorick house"
    ],
-   "answer": "Quinn Yorick can be found hiding on the upper floor of a broken farmhouse in the Ivar Patch, located in Silverpine Forest north of the Sepulcher."
+   "answer": "Quinn Yorick hides on the upper floor of a ruined farmhouse in the Ivar Patch, north of the Sepulcher in Silverpine Forest."
   },
   {
    "q": "Who injured Quinn Yorick?",
@@ -33,7 +33,7 @@
     "what happened to quinn yorick",
     "quinn injured"
    ],
-   "answer": "He was severely wounded by Ivar the Foul, a vicious ghoul who lurks in the barn of the farm."
+   "answer": "Ivar the Foul, a ghoul lurking in the farm’s barn, severely wounded Quinn Yorick."
   },
   {
    "q": "What role does Quinn serve for Horde adventurers?",
@@ -41,13 +41,13 @@
     "quinn yorick quest",
     "quinn quest giver"
    ],
-   "answer": "Quinn's sister, the Deathstalker Rane Yorick, sends adventurers to bring him a healing potion. Once he has taken it, she asks them to kill Ivar the Foul so that Quinn has time to recover."
+   "answer": "Quinn’s sister, the Deathstalker Rane Yorick, sends travelers to bring him a healing potion. After he takes it, she asks them to kill Ivar the Foul so Quinn has time to recover."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "Quinn's predicament highlights the ever-present danger the region's ghouls and beasts pose to Forsaken forces attempting to secure northern Silverpine."
+   "text": "As an Undead, Quinn’s plight shows the danger ghouls and beasts pose to Forsaken forces trying to secure northern Silverpine."
   }
  ],
  "keywords": [
@@ -67,5 +67,6 @@
  ],
  "attribution": [
   "Quinn Yorick"
- ]
+ ],
+ "style": 1
 }

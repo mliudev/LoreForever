@@ -8,11 +8,11 @@
   "wiki": "Thorgrum Borrelson",
   "refs": 2
  },
- "summary": "Thorgrum Borrelson is the dwarven gryphon master stationed above Thelsamar in Loch Modan. From his roost overlooking the settlement, he tends the aerial mounts that connect the valley to Ironforge and the surrounding mountain passes.",
+ "summary": "Above Thelsamar, Thorgrum Borrelson tends the gryphons that carry travelers across Loch Modan. His roost links the valley with Ironforge and the mountain passes nearby.",
  "sections": [
   {
    "title": "The Roost Above Thelsamar",
-   "body": "Perched on the bluff rising immediately above Thelsamar, Thorgrum Borrelson handles aerial transport for the Alliance across Loch Modan. With trogg incursions and gnoll packs threatening overland paths, his trained gryphons provide vital transit over the jagged ridges. He maintains frequent connections back through the South Gate Pass to the Great Forge in Dun Morogh, as well as routes onward toward the Wetlands and beyond.",
+   "body": "Thorgrum Borrelson keeps the gryphon roost on the bluff above Thelsamar. His trained gryphons carry the Alliance across Loch Modan, where troggs and gnoll packs threaten the roads. They fly through South Gate Pass to the Great Forge in Dun Morogh, and onward toward the Wetlands and beyond.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "thelsamar flight master",
     "who is the gryphon master in thelsamar"
    ],
-   "answer": "Thorgrum Borrelson is the Alliance gryphon flight master stationed in Thelsamar. He oversees aerial travel into and out of the Loch Modan region."
+   "answer": "Thorgrum Borrelson oversees Alliance gryphon flights from Thelsamar, carrying travelers into and out of Loch Modan."
   },
   {
    "q": "Where can Thorgrum send travelers?",
@@ -32,7 +32,7 @@
     "thelsamar flight paths",
     "where can i fly from loch modan"
    ],
-   "answer": "Thorgrum coordinates flight routes linking Thelsamar to major hubs such as the dwarven capital of Ironforge, Menethil Harbor in the Wetlands, Refuge Pointe in the Arathi Highlands, Farholde Keep in the Riverglades, and several outposts throughout the neighboring territories."
+   "answer": "Thorgrum can send travelers from Thelsamar to Ironforge, Menethil Harbor in the Wetlands, Refuge Pointe in the Arathi Highlands, Farholde Keep in the Riverglades, and outposts in neighboring territories."
   },
   {
    "q": "Why is gryphon travel important in Loch Modan?",
@@ -40,17 +40,17 @@
     "why fly in loch modan",
     "loch modan transport"
    ],
-   "answer": "Overland travel through Loch Modan is frequently jeopardized by hostile trogg warrens, gnolls, and Dark Iron scouts contesting mountain passes. Gryphons allow Alliance messengers, scouts, and adventurers to bypass these hazards quickly."
+   "answer": "Troggs, gnolls, and Dark Iron scouts threaten Loch Modan's mountain passes. Gryphons let Alliance messengers, scouts, and adventurers cross the region quickly while avoiding those dangers."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "For mountaineers and defenders of Khaz Modan, Thorgrum Borrelson ensures a dependable aerial lifeline back to the high halls of Ironforge."
+   "text": "As a dwarf, you can count on Thorgrum Borrelson to keep an aerial route open to Ironforge's high halls."
   },
   {
    "target": "faction:Alliance",
-   "text": "Thorgrum's flight roost serves as an essential logistics waypoint connecting the heart of the dwarven realm to forward positions in the Wetlands and Arathi Highlands."
+   "text": "As an Alliance member, you can rely on Thorgrum's roost to connect the dwarven realm with positions in the Wetlands and Arathi Highlands."
   }
  ],
  "keywords": [
@@ -74,5 +74,6 @@
  ],
  "attribution": [
   "Thorgrum Borrelson"
- ]
+ ],
+ "style": 1
 }

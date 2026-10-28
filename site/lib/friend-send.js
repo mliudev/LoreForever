@@ -6,6 +6,7 @@ import { ONLINE_MINUTES, cleanMessage, sendMessage, MESSAGES_PER_MINUTE, MESSAGE
   ASKS_PER_DAY, parseWho, linkOwner } from "./friends.js";
 import { perMinute, perDay, unDay } from "./ratelimit.js";
 import { plansOn, planIdNow } from "./billing.js";
+import { KEEPS_DOES, keepsChange } from "./willo-keeps.js";
 
 export const capturesFrom = capabilities => String(capabilities || "").split(/[,\s]+/).includes("game-screenshot-sharing");
 // A desktop that can take one before anyone is named (screenshot_share.py prepare with no "to"), from 0.29.0.
@@ -339,7 +340,9 @@ export const LOOKS = ["friends", "online", "messages", "requests", "code"];
 export const CHANGES = ["add", "accept", "decline", "remove", "block", "unblock", "unsend", "share_on", "share_off"];
 // The end of each change's read-back, which a yes answers.
 const DOES = { add: "send the request", accept: "accept it", decline: "decline it", remove: "remove them", block: "block them",
-  unblock: "unblock them", unsend: "take it back", share_on: "start sharing", share_off: "stop sharing" };
+  unblock: "unblock them", unsend: "take it back", share_on: "start sharing", share_off: "stop sharing",
+  // What Willo keeps, erased on the same yes (lib/willo-keeps.js keepsCall).
+  ...KEEPS_DOES };
 const CHANGE_BACK = new RegExp(String.raw`Say yes and I'll (${Object.values(DOES).join("|")})\.$`);
 const KIND_OF = Object.fromEntries(Object.entries(DOES).map(([k, v]) => [v, k]));
 const CHANGES_PER_MINUTE = 20;            // as the Friends tab's (functions/api/friends/[action].js change)
@@ -470,6 +473,7 @@ async function changeReply(env, userId, previous, reply, now) {
 
 // A change held and said yes to: {answer}.
 export async function doChange(env, userId, held, now = Date.now()) {
+  if (String(held.kind).startsWith("keeps:")) return keepsChange(env, userId, held, new Date(now));
   if (!(await perMinute(env, userId, "friends-change", CHANGES_PER_MINUTE))) return { answer: "Give me a moment, then ask me again." };
   try {
     switch (held.kind) {

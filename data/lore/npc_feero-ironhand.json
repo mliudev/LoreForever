@@ -8,11 +8,11 @@
   "wiki": "Feero Ironhand",
   "refs": 1
  },
- "summary": "Feero Ironhand is a human paladin stationed at Maestra's Post in the western reaches of Ashenvale. Standing guard along the border between Darkshore and the forest, he works closely with Delgren the Purifier to combat the shadowy Cult of the Dark Strand.",
+ "summary": "At Maestra's Post, Feero Ironhand guards the road between Darkshore and Ashenvale. He works with Delgren the Purifier against the Cult of the Dark Strand.",
  "sections": [
   {
    "title": "A Bulwark at Maestra's Post",
-   "body": "Located along the road leading south from Darkshore into Ashenvale, Maestra's Post serves as a critical watchpoint for travelers and Alliance defenders alike. Feero Ironhand operates out of this outpost, maintaining communications and trade lines with Auberdine while keeping a vigilant watch over the surrounding woods. Together with Delgren the Purifier, Feero focuses his efforts against the malevolent Cult of the Dark Strand, ensuring the cultists and forest predators do not sever the path between Darnassus's supply lines and the front lines of Ashenvale.",
+   "body": "Maestra's Post watches the road south from Darkshore into Ashenvale. Feero Ironhand serves at the outpost, keeping communication and trade with Auberdine moving while watching the surrounding woods. He and Delgren the Purifier oppose the Cult of the Dark Strand. Cultists and forest predators threaten the path between Darnassus's supply lines and Ashenvale's front lines.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "who is feero",
     "feero npc"
    ],
-   "answer": "Feero Ironhand is an Alliance human paladin stationed at Maestra's Post in western Ashenvale. He assists travelers passing between Darkshore and Ashenvale and coordinates logistics back to Auberdine."
+   "answer": "Feero Ironhand is an Alliance human paladin at Maestra's Post in western Ashenvale. He helps travelers on the road between Darkshore and Ashenvale and coordinates logistics with Auberdine."
   },
   {
    "q": "What is Feero's purpose at Maestra's Post?",
@@ -33,7 +33,7 @@
     "feero role",
     "maestras post human"
    ],
-   "answer": "Feero helps hold the outpost against local threats, supporting Delgren the Purifier in opposing the Cult of the Dark Strand while keeping vital courier and supply routes running into Darkshore."
+   "answer": "Feero helps defend Maestra's Post against local threats. He supports Delgren the Purifier against the Cult of the Dark Strand and helps keep courier and supply routes into Darkshore open."
   },
   {
    "q": "What is the Cult of the Dark Strand?",
@@ -42,7 +42,7 @@
     "cult of dark strand",
     "dark strand"
    ],
-   "answer": "The Cult of the Dark Strand is a sinister cabal operating out of northern Ashenvale, dabbling in dark magic and foul rituals. Alliance forces at Maestra's Post actively work to disrupt and dismantle their operations."
+   "answer": "The Cult of the Dark Strand operates in northern Ashenvale, practicing dark magic and foul rituals. Alliance forces at Maestra's Post work to disrupt and dismantle its operations."
   },
   {
    "q": "Does Feero have connections to the Argent Dawn?",
@@ -50,17 +50,17 @@
     "feero argent dawn",
     "is feero argent dawn"
    ],
-   "answer": "No Argent Dawn tie is recorded for him. Feero, himself a paladin, works in close concert with Delgren the Purifier, a fellow human paladin combatting dark forces in the forest."
+   "answer": "No connection to the Argent Dawn is recorded for Feero. He is a paladin who works closely with Delgren the Purifier, a fellow human paladin fighting dark forces in the forest."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Feero provides an important foothold for Alliance wayfarers traveling down from Darkshore into the dangerous, contested wilderness of Ashenvale."
+   "text": "For Alliance travelers heading south from Darkshore, Feero offers a foothold in Ashenvale's dangerous, contested wilderness."
   },
   {
    "target": "race:Human",
-   "text": "Seeing a fellow human standing guard in the ancient elven woods of Ashenvale is a welcome sign of the Alliance's far-reaching cooperation."
+   "text": "As a human, seeing Feero stand guard in Ashenvale's ancient elven woods is a welcome sign of the Alliance working across its peoples."
   }
  ],
  "keywords": [
@@ -81,5 +81,6 @@
  ],
  "attribution": [
   "Feero Ironhand"
- ]
+ ],
+ "style": 1
 }

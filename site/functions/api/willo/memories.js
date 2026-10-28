@@ -2,23 +2,18 @@
 // which she uses in her own answers and which they can see, change and erase on any plan.
 //   GET    /api/willo/memories                -> {ok, plan: {id, name}, limits: {text, memories}, count, memories:
 //                                               [{id, text, source, status, reason, character, created, updated}]},
-//                                               newest first. status "rejected" is text the check turned away: it has a
-//                                               reason in plain words, is never used in an answer, and can be edited or
-//                                               erased. character: the add-on's "Name-Realm" of the one character it's
-//                                               about, or null for the whole account.
+//                                               newest first. character: the add-on's "Name-Realm" of the one
+//                                               character it's about, or null for the whole account.
 //   POST   /api/willo/memories {text, character?, asked?}
 //                                            -> the same plus {memory}: one more. 400 over the plan's room (limits.memories,
 //                                               10 free, 50 on a paid plan or in the first-run trial), or for a repeat
-//                                               (with already: the memory it repeats). asked: true when the player asked
-//                                               her for it (her app's memory.remember): turned-away text isn't kept then.
+//                                               (with already: the memory it repeats). Whatever they ask is kept.
 //   POST   /api/willo/memories {restore: [ids]}
 //                                            -> the same plus {restored}: forgotten ones put back as they were (Undo),
-//                                               within an hour of forgetting, with no check and no save spent.
-//   PUT    /api/willo/memories {id, text}     -> the same plus {memory}: its words changed (and checked again). 404 when gone.
+//                                               within an hour of forgetting.
+//   PUT    /api/willo/memories {id, text}     -> the same plus {memory}: its words changed. 404 when gone.
 //   DELETE /api/willo/memories?id=<id>[,<id>] -> the same plus {forgotten}: those forgotten (Undo: restore). 404 when none.
 //   DELETE /api/willo/memories?all=1          -> the same plus {forgotten}: every memory forgotten ("Forget everything").
-// A save the check turns away is 422 {ok: false, error: <the reason>, rejected: true, memory, ...the list}; the text is
-// kept as a rejected memory unless asked. Saves count against the same day's checked saves as /api/willo's (429 past them).
 // Auth: a signed-in player (the session cookie, with our Origin on a change) or Willo's app (Authorization: Bearer
 // <device token>); both may read and change. Not behind the plans feature. Friends' APIs never read these.
 
@@ -88,9 +83,8 @@ export async function onRequest({ request, env }) {
     return restored.length ? list({ restored }) : fail(404, "That can't be brought back now.");
   }
   const done = method === "POST"
-    ? await addMemory(env, user, plan, { text: input.text, character: input.character, asked: input.asked === true }, trial)
+    ? await addMemory(env, user, plan, { text: input.text, character: input.character }, trial)
     : await editMemory(env, user, { id: input.id, text: input.text });
-  if (done.rejected) return list({ error: done.error, rejected: true, memory: done.memory }, 422);
   if (done.already) return list({ error: done.error, already: done.already }, 400);
   return done.error ? fail(done.status || 400, done.error) : list({ memory: done.memory });
 }

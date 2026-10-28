@@ -17,16 +17,16 @@
   "wiki": "Translation to Ello",
   "chain": []
  },
- "summary": "Translation to Ello is the grim climax of the Abercrombie errand chain in Duskwood. Having asked Sirra Von'Indi to decipher the hermit's cryptic writings, the adventurer rushes the translation back to Town Hall, unaware of the horror about to unfold.",
+ "summary": "In Duskwood, you carry Sirra Von'Indi's translation to Lord Ello Ebonlocke in Darkshire. It belongs to the Abercrombie story, and the letter bears news of the hermit's writings.",
  "sections": [
   {
    "title": "A Belated Realization",
-   "body": "For days, the elderly hermit Abercrombie had travelers running errands across Duskwood under the pretense of frail survival. He requested thread, preserved reagents, and personal belongings. Only when Sirra Von'Indi finally deciphers his private parchment does the truth come out: the kindly old man is an unhinged embalmer, and the components gathered were used to construct a terrifying weapon of revenge aimed straight at Darkshire.",
+   "body": "Abercrombie's requests sent travelers across Duskwood for days. The elderly hermit asked for thread, preserved reagents, and personal belongings, claiming he needed them to survive. Sirra Von'Indi finally deciphered his private parchment, revealing the truth: the kindly old man is an unhinged embalmer. The gathered components went into a terrifying weapon of revenge aimed at Darkshire.",
    "spoiler": 1
   },
   {
    "title": "The Road to Darkshire",
-   "body": "Presenting the translated letter to Lord Ello Ebonlocke drains all color from the mayor's face. Whatever noble motives guided an adventurer's assistance, delivering those final supplies allowed Abercrombie to finish his monstrous creation, Stitches. Handing over the letter sets the behemoth marching directly eastward along the road from Raven Hill Cemetery, slaughtering any Night Watch patrols standing in its path.",
+   "body": "When the translated letter reaches Lord Ello Ebonlocke, the mayor's face loses all color. Whatever noble motives brought you to help, delivering those final supplies let Abercrombie finish his monstrous creation, Stitches. The letter's delivery sets the behemoth marching east along the road from Raven Hill Cemetery. Any Night Watch patrol in its path is slaughtered.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "abercrombie letter text",
     "what was translated"
    ],
-   "answer": "Sirra fears that Abercrombie has done something unspeakable. The translated letter must be taken urgently to Lord Ello Ebonlocke, who can assess the danger to Darkshire."
+   "answer": "Sirra fears Abercrombie has done something unspeakable. Take the translated letter urgently to Lord Ello Ebonlocke, who can judge the danger to Darkshire."
   },
   {
    "q": "Who is Sirra Von'Indi?",
@@ -46,7 +46,7 @@
     "who is sirra",
     "sirra von indi lore"
    ],
-   "answer": "Sirra Von'Indi is a scholar residing in Darkshire. His linguistic and analytical expertise allows him to decipher the cryptic notes and letters left behind by Abercrombie when others cannot read his script."
+   "answer": "Sirra Von'Indi is a scholar living in Darkshire. His skill with language and analysis lets him decipher Abercrombie's cryptic notes and letters when others cannot read the script."
   },
   {
    "q": "Why does Lord Ello blame the player?",
@@ -55,7 +55,7 @@
     "did i cause stitches",
     "ello reaction"
    ],
-   "answer": "Lord Ello's reaction is revealed when he reads the translated letter. The investigation asks you to bring him the warning as quickly as possible."
+   "answer": "Lord Ello's reaction comes when he reads the translated letter. Bring him the warning as quickly as possible."
   },
   {
    "q": "What happens immediately after completing this quest?",
@@ -64,7 +64,7 @@
     "does stitches spawn",
     "stitches event"
    ],
-   "answer": "Deliver the translated letter to Lord Ello Ebonlocke in Darkshire. His response and the danger it warns of are revealed when he reads it."
+   "answer": "Take the translated letter to Lord Ello Ebonlocke in Darkshire. His response and the danger in the letter come to light when he reads it."
   },
   {
    "q": "Where does Stitches go after this?",
@@ -72,7 +72,7 @@
     "stitches path",
     "where is stitches marching"
    ],
-   "answer": "Stitches is associated with the road between Raven Hill Cemetery and Darkshire. His role in Abercrombie's plot is revealed through the investigation."
+   "answer": "Stitches is tied to the road between Raven Hill Cemetery and Darkshire. His part in Abercrombie's plot emerges through the investigation."
   },
   {
    "q": "What quest comes next?",
@@ -80,13 +80,13 @@
     "next quest",
     "after translation to ello"
    ],
-   "answer": "Following the delivery of the letter, Lord Ello sends adventurers onward in the quest 'Bride of the Embalmer'."
+   "answer": "After you deliver the letter, Lord Ello sends adventurers onward to Bride of the Embalmer."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "For Alliance champions, this moment is a painful lesson in Duskwood's treachery: misplaced trust in the woods can endanger an entire settlement of innocent citizens."
+   "text": "As an Alliance champion, you face a painful lesson in Duskwood's treachery: misplaced trust in the woods can endanger an entire settlement of innocent citizens."
   }
  ],
  "keywords": [
@@ -110,5 +110,6 @@
  ],
  "attribution": [
   "Translation to Ello"
- ]
+ ],
+ "style": 1
 }

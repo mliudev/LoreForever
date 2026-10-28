@@ -17,16 +17,16 @@
   "wiki": "Further Instructions",
   "chain": []
  },
- "summary": "Further Instructions is a delivery task connecting the chaotic logging operations of the Stonetalon Mountains to the trade hub of Ratchet. The disgruntled tinkerer Ziz Fizziks sends a courier with stolen blueprints and internal documents to his counterpart, Sputtervalve, aiming to turn corporate espionage into personal advantage.",
+ "summary": "Ziz Fizziks sends stolen Venture Company plans from Windshear Crag to Ratchet. The documents may give his rival Sputtervalve an edge.",
  "sections": [
   {
    "title": "Corporate Espionage",
-   "body": "When Ziz Fizziks was booted out of the Venture Company's logging operations in the Windshear Crag, he did not leave empty-handed. Bitter over his dismissal, Fizziks snatched up an assortment of sensitive documents, internal manuals, and technical schematics, culminating in the prized blueprints for the experimental Super Reaper 6000. Desperate to find a buyer or ally willing to exploit the data, he sealed the gathered secrets into an envelope marked for Ratchet.",
+   "body": "After the Venture Company cast Ziz Fizziks out of its logging operations at Windshear Crag, he took sensitive documents, internal manuals, and technical schematics with him. Bitter over his dismissal, he sealed them in an envelope bound for Ratchet. Among the papers are blueprints for the experimental Super Reaper 6000. Fizziks hopes to find a buyer or ally willing to use what he stole.",
    "spoiler": 0
   },
   {
    "title": "The Ratchet Connection",
-   "body": "The recipient of the stolen documents is Sputtervalve, an engineer stationed within the neutral port of Ratchet in the Barrens. While Sputtervalve harbors little personal affection or trust for Fizziks, the rivalry with the Venture Company makes the offering impossible to refuse. The Steamwheedle-aligned goblins are constantly looking for ways to diminish their ruthless competitor's footprint while happily reverse-engineering any superior mechanical innovations they stumble across.",
+   "body": "Sputtervalve, an engineer, waits in the neutral port of Ratchet in the Barrens. He has little affection or trust for Fizziks, but the rivalry with the Venture Company makes the offer hard to refuse. The Steamwheedle-aligned goblins seek ways to weaken their ruthless competitor and eagerly reverse-engineer superior mechanical inventions they encounter.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "what is fizziks sending",
     "stolen documents"
    ],
-   "answer": "The envelope contains internal Venture Company documents, technical manuals, and blueprints for the Super Reaper 6000 that Ziz Fizziks stole when he was ousted from their logging operation."
+   "answer": "The envelope holds Venture Company documents, technical manuals, and blueprints for the Super Reaper 6000. Ziz Fizziks stole them when he was driven from the company's logging operation."
   },
   {
    "q": "Who is Sputtervalve?",
@@ -47,7 +47,7 @@
     "who is the recipient",
     "ratchet engineer"
    ],
-   "answer": "Sputtervalve is a goblin engineer residing in Ratchet in the Barrens. Though he does not fully trust Ziz Fizziks, he is eager to weaken the Venture Company and examine their mechanical advancements."
+   "answer": "Sputtervalve is a goblin engineer in Ratchet, in the Barrens. He distrusts Ziz Fizziks, but wants to weaken the Venture Company and study its machines."
   },
   {
    "q": "Why is Ziz Fizziks working against the Venture Company?",
@@ -55,7 +55,7 @@
     "why fizziks betrayed venture co",
     "fizziks motive"
    ],
-   "answer": "Fizziks was unceremoniously kicked out of the Venture Company's ranks in Stonetalon. Spiteful and out for revenge, he began leaking their trade secrets to rivals."
+   "answer": "The Venture Company drove Fizziks from its ranks in Stonetalon. Bitter and seeking revenge, he began passing its trade secrets to rivals."
   },
   {
    "q": "Where can Sputtervalve be found?",
@@ -64,7 +64,7 @@
     "sputtervalve location",
     "find sputtervalve"
    ],
-   "answer": "Sputtervalve is stationed in the neutral port town of Ratchet, located along the eastern coast of the Barrens."
+   "answer": "Sputtervalve is in Ratchet, a neutral port town on the eastern coast of the Barrens."
   },
   {
    "q": "Does Sputtervalve trust Ziz Fizziks?",
@@ -72,7 +72,7 @@
     "does sputtervalve trust fizziks",
     "fizziks and sputtervalve relationship"
    ],
-   "answer": "No, Sputtervalve openly admits he does not trust Fizziks, but the value of the technical manuals and blueprints outweighs his wariness of the messenger."
+   "answer": "No. Sputtervalve admits he distrusts Fizziks, but the manuals and blueprints are worth more to him than his wariness of the messenger."
   },
   {
    "q": "What is the Super Reaper 6000?",
@@ -81,17 +81,17 @@
     "what is the machine",
     "venture co reaper"
    ],
-   "answer": "It is an advanced industrial shredder developed by the Venture Company to clear forests and process lumber at high speed, making its blueprints highly coveted."
+   "answer": "The Super Reaper 6000 is an advanced industrial shredder the Venture Company developed to clear forests and process lumber quickly. Its blueprints are highly coveted."
   }
  ],
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "The envelope represents classic goblin industry at work: ruthless corporate espionage, patent theft, and reverse-engineering complex lumber harvesters."
+   "text": "The envelope carries the marks of goblin industry: corporate espionage, patent theft, and reverse-engineering complex lumber harvesters."
   },
   {
    "target": "faction:Horde",
-   "text": "Running stolen Venture Company plans to Ratchet helps fuel the simmering trade wars that undermine dangerous industrial encroachment near Horde territories."
+   "text": "Carrying stolen Venture Company plans to Ratchet feeds trade rivalries that challenge industrial expansion near Horde territory."
   }
  ],
  "keywords": [
@@ -115,5 +115,6 @@
  ],
  "attribution": [
   "Further Instructions"
- ]
+ ],
+ "style": 1
 }

@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Library (Ironforge)"
  },
- "summary": "Tucked inside the eastern wing of the Hall of Explorers, the Library serves as Ironforge's foremost repository of historical knowledge, archeological relics, and ancient lore. Maintained diligently by the Explorers' League, it houses extensive historical tomes alongside rare artifacts recovered from digs across Azeroth.",
+ "summary": "In Ironforge's Library, the Explorers' League keeps its histories and recovered relics. The eastern wing of the Hall of Explorers holds books and artifacts gathered from across Azeroth.",
  "sections": [
   {
    "title": "Heart of the Explorers' League",
-   "body": "Occupying a massive chamber within the Hall of Explorers, the Library is where dwarven scholars sift through the relics and field reports recovered by adventurers across the world. Administered by the Explorers' League, the shelves are packed with foundational chronicles detailing the War of the Three Hammers, the ancient Troll Wars, and the origins of the dwarven race. Inquiries regarding rare books or archival locations are directed to Librarian Mae Paledust.",
+   "body": "Dwarven scholars study relics and field reports from across the world in a great chamber of the Hall of Explorers. The Explorers' League keeps the Library, where shelves hold chronicles of the War of the Three Hammers, the ancient Troll Wars, and the origins of the dwarven race. Librarian Mae Paledust helps visitors find rare books and records.",
    "spoiler": 0
   },
   {
    "title": "The Museum Displays",
-   "body": "Beyond rows of dense bookshelves, the Library doubles as a working museum overseen by Curator Thorius. Here, physical specimens collected from deep excavations, abandoned ruins, and distant shorelines are analyzed, preserved, and displayed. The League's curators preserve everything from crude murloc idols and carved knives to mysterious relics recovered frozen in northern ice, cataloging each find to piece together the hidden history of the Titans and early Azeroth.",
+   "body": "Curator Thorius oversees the Library's displays of physical finds from deep excavations, abandoned ruins, and distant shorelines. League members study, preserve, and display these objects. The collection ranges from crude murloc idols and carved knives to relics recovered frozen in northern ice. Curators record each find as they piece together the history of the Titans and early Azeroth.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "what is this place",
     "hall of explorers library"
    ],
-   "answer": "It serves as the main research archive and museum for the Explorers' League. League members bring recovered artifacts, tomes, and field notes here to be cataloged, deciphered, and preserved for the dwarven people and the Alliance."
+   "answer": "The Library is the Explorers' League's main archive and museum. League members bring recovered artifacts, tomes, and field notes there to be cataloged, deciphered, and preserved for the dwarven people and the Alliance."
   },
   {
    "q": "Who manages the collections here?",
@@ -37,7 +37,7 @@
     "ironforge librarian",
     "museum curator"
    ],
-   "answer": "The Library's written collections and archival searches are assisted by Librarian Mae Paledust, while the museum wing and its physical historical artifacts are curated and maintained by Curator Thorius."
+   "answer": "Librarian Mae Paledust helps with written collections and archival searches, while Curator Thorius oversees the museum wing and its physical historical artifacts."
   },
   {
    "q": "What kind of books can be read here?",
@@ -46,7 +46,7 @@
     "readable tomes",
     "what lore is here"
    ],
-   "answer": "The Library contains foundational histories covering ancient and modern events, including the Old Gods, the Dragonflights, the Troll Wars, the War of the Three Hammers, the Rise of the Horde, and the formation of the Alliance of Lordaeron."
+   "answer": "The Library holds histories of ancient and modern events, including the Old Gods, the Dragonflights, the Troll Wars, the War of the Three Hammers, the Rise of the Horde, and the formation of the Alliance of Lordaeron."
   },
   {
    "q": "Where in Ironforge is the Library located?",
@@ -54,17 +54,17 @@
     "ironforge library location",
     "how to find the library"
    ],
-   "answer": "The Library occupies the eastern wing of the Hall of Explorers, situated in the northeastern quadrant of Ironforge."
+   "answer": "The Library occupies the eastern wing of the Hall of Explorers, in Ironforge's northeastern quadrant."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "For dwarves, this hall represents King Magni Bronzebeard's push to uncover their Titan origins, housing the very accounts of the Awakening and the War of the Three Hammers."
+   "text": "As a dwarf, you can find accounts here of the Awakening and the War of the Three Hammers, kept in the hall King Magni Bronzebeard devoted to uncovering your Titan origins."
   },
   {
    "target": "faction:Alliance",
-   "text": "The Library is an invaluable strategic archive for the Alliance, preserving crucial records from the Alliance of Lordaeron and eyewitness reports from the Second and Third Wars."
+   "text": "As an Alliance member, you can consult records from the Alliance of Lordaeron and eyewitness reports from the Second and Third Wars in the Library's strategic archive."
   }
  ],
  "keywords": [
@@ -89,5 +89,6 @@
  ],
  "attribution": [
   "Library (Ironforge)"
- ]
+ ],
+ "style": 1
 }

@@ -17,16 +17,16 @@
   "wiki": "Defeat Nek'rosh",
   "chain": []
  },
- "summary": "Defeat Nek'rosh marks the culmination of the Alliance campaign against the Dragonmaw clan in the Wetlands. With their siege engines sabotaged, adventurers are ordered to strike down Chieftain Nek'rosh directly to secure Menethil Harbor. Bringing his severed head back to Captain Stoutfist shatters the orcish threat to the coastal port.",
+ "summary": "In the Wetlands, the Alliance campaign against the Dragonmaw reaches its final strike. With their siege engines sabotaged, the defenders turn on Chieftain Nek'rosh to secure Menethil Harbor. His severed head must be brought to Captain Stoutfist to break the threat to the coastal port.",
  "sections": [
   {
    "title": "Decapitating the Dragonmaw",
-   "body": "The Dragonmaw orcs have long plagued the marshlands of Khaz Modan, entrenched within their fortified encampments and threatening the sea lanes of Menethil Harbor. After discovering and burning the clan's catapults, the defenders of the marsh strike straight at the head of the serpent. Chieftain Nek'rosh, commander of the local warband, stands as the final obstacle to breaking the siege. His demise strips the remaining Dragonmaw raiders of their tactical coordination.",
+   "body": "The Dragonmaw have long plagued the marshlands of Khaz Modan, entrenched in fortified camps and threatening Menethil Harbor's sea lanes. After discovering and burning the clan's catapults, the marsh's defenders strike at the warband's leader. Chieftain Nek'rosh commands the local orcs and remains the last obstacle to breaking the siege. His death leaves the remaining raiders without their leader's direction.",
    "spoiler": 0
   },
   {
    "title": "Securing the Harbor",
-   "body": "Returning Nek'rosh's severed head to Captain Stoutfist in Menethil Harbor marks an enormous victory for Ironforge's garrison. Deprived of both their heavy siege weaponry and their chieftain, the Dragonmaw are dealt a blow from which they are unlikely to quickly recover. For the beleaguered port, which serves as the Alliance's primary lifeline between Lordaeron and Khaz Modan, the chieftain's fall ensures the docks and trade vessels remain safe from sudden assault.",
+   "body": "Bring Nek'rosh's severed head to Captain Stoutfist in Menethil Harbor, and Ironforge's garrison will claim a major victory. Without their heavy siege weapons or their chieftain, the Dragonmaw suffer a blow they are unlikely to recover from quickly. Menethil Harbor is the Alliance's main lifeline between Lordaeron and Khaz Modan. With Nek'rosh fallen, the port's docks and trade vessels are safer from sudden attack.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who is nekrosh",
     "nekrosh wetlands"
    ],
-   "answer": "Nek'rosh is the ruthless chieftain leading the remnants of the Dragonmaw clan in the Wetlands. Operating out of their encampments, he organized a planned assault on Menethil Harbor using siege catapults before Alliance adventurers intervened."
+   "answer": "Nek'rosh leads the remaining Dragonmaw in the Wetlands. From their camps, he organized an assault on Menethil Harbor with siege catapults before the Alliance struck back."
   },
   {
    "q": "Why does Menethil Harbor want Nek'rosh dead?",
@@ -46,7 +46,7 @@
     "why kill nekrosh",
     "captain stoutfist motives"
    ],
-   "answer": "Nek'rosh posed a direct existential threat to Menethil Harbor. Under his command, the Dragonmaw constructed war catapults aimed at bombarding the port and crippling the vital shipping lanes connecting Khaz Modan to other Alliance territories."
+   "answer": "Nek'rosh threatens Menethil Harbor directly. Under his command, the Dragonmaw built war catapults to bombard the port and cripple the vital shipping lanes linking Khaz Modan to other Alliance lands."
   },
   {
    "q": "Who orders the death of Nek'rosh?",
@@ -54,7 +54,7 @@
     "who gives defeat nekrosh",
     "where to turn in nekrosh head"
    ],
-   "answer": "The command arises directly after setting fire to the Dragonmaw catapults. The severed head of the chieftain is ultimately delivered to Captain Stoutfist, the commander overseeing the defense of Menethil Harbor."
+   "answer": "The order to strike comes after the Dragonmaw catapults are set on fire. Captain Stoutfist, who commands Menethil Harbor's defense, receives the chieftain's severed head."
   },
   {
    "q": "What happens to the Dragonmaw clan after Nek'rosh is defeated?",
@@ -62,7 +62,7 @@
     "dragonmaw after nekrosh",
     "what happens to wetlands orcs"
    ],
-   "answer": "With their catapults destroyed and their chieftain slain, the Dragonmaw warband suffers a crippling loss of leadership and morale. While stragglers still haunt the marshlands, their immediate campaign against Menethil Harbor is effectively crushed."
+   "answer": "With their catapults destroyed and their chieftain slain, the Dragonmaw lose leadership and morale. Stragglers still haunt the marshlands, but their immediate campaign against Menethil Harbor is crushed."
   },
   {
    "q": "What is the Dragonmaw clan doing in the Wetlands?",
@@ -70,7 +70,7 @@
     "why are dragonmaw in wetlands",
     "dragonmaw wetlands lore"
    ],
-   "answer": "The Dragonmaw clan settled in the Wetlands and the adjacent highlands of Grim Batol during the Second War. Following the Horde's defeat, renegade remnants lingered in the swamps, raiding trade routes and harboring deep hatred for the Alliance and the dwarves of Khaz Modan."
+   "answer": "The Dragonmaw settled in the Wetlands and the neighboring highlands of Grim Batol during the Second War. After the Horde's defeat, renegade remnants lingered in the swamps, raiding trade routes and harboring deep hatred for the Alliance and the dwarves of Khaz Modan."
   },
   {
    "q": "Why is Menethil Harbor so crucial to the Alliance?",
@@ -78,21 +78,21 @@
     "importance of menethil",
     "menethil harbor strategic value"
    ],
-   "answer": "Menethil Harbor is the kingdom of Ironforge's sole major seaport on the western coast. It serves as the primary hub for ferrying troops, trade goods, and travelers across the Great Sea to Kalimdor and north toward Lordaeron."
+   "answer": "Menethil Harbor is Ironforge's only major seaport on the western coast. Its ferries carry troops, trade goods, and travelers across the Great Sea to Kalimdor and north toward Lordaeron."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "For the dwarves of Khaz Modan, the Dragonmaw are a lingering scar upon their ancestral borders. Eliminating Nek'rosh directly safeguards dwarven roads and Ironforge's western sea trade."
+   "text": "As a dwarf of Khaz Modan, you know the Dragonmaw as a lingering scar on your people's ancestral borders. Defeating Nek'rosh protects dwarven roads and Ironforge's western sea trade."
   },
   {
    "target": "faction:Alliance",
-   "text": "Securing Menethil Harbor protects the primary naval artery linking Ironforge and Stormwind to Kalimdor and the northern waters."
+   "text": "As an Alliance member, you depend on Menethil Harbor's sea route linking Ironforge and Stormwind with Kalimdor and the northern waters."
   },
   {
    "target": "class:Warrior",
-   "text": "Facing Chieftain Nek'rosh within his own fortified war camp offers an ultimate test of martial grit against one of the marsh's fiercest orc commanders."
+   "text": "As a warrior, you face Chieftain Nek'rosh in his fortified war camp, testing your martial grit against one of the marsh's fiercest orc commanders."
   }
  ],
  "keywords": [
@@ -114,5 +114,6 @@
  ],
  "attribution": [
   "Defeat Nek'rosh"
- ]
+ ],
+ "style": 1
 }

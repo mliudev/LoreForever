@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Night Run"
  },
- "summary": "Night Run is a small, secluded satyr outpost perched atop a cliff-ringed bluff in east-central Ashenvale. Inhabited by the demonic Felmusk satyr, it serves as a corrupted encampment harboring dark soul magic within ancient elven ruins.",
+ "summary": "In east-central Ashenvale, Night Run crowns a cliff-ringed bluff among the ancient elven ruins. Felmusk satyr dwell there, and dark soul magic gathers within the outpost.",
  "sections": [
   {
    "title": "A Defended Cliffside Perch",
-   "body": "Night Run is the smallest and most isolated of Ashenvale's three major satyr strongholds, alongside Xavian and Satyrnaar. Sheltered among crumbling elven stonework and broken pillars, the settlement juts outward on a high ridge bounded by steep, impassable cliffs. Reaching it requires a circuitous trek along the Falfarren River near the waters of Xavian or navigating a precarious northern ledge above Raynewood Retreat. Despite its modest size, the enclave poses a severe danger: the Felmusk satyr who dwell here work in concert with the shadowy Cult of the Dark Strand, anchoring twisted soulgems to pool demonic essence within the forest.",
+   "body": "Night Run is Ashenvale’s smallest and most isolated of its three major satyr strongholds, alongside Xavian and Satyrnaar. Crumbling elven stonework and broken pillars shelter the settlement on a high ridge bounded by steep, impassable cliffs. Travelers can reach it by following the Falfarren River near the waters of Xavian, then turning west up the ridge, or by taking a precarious northern ledge above Raynewood Retreat. Though small, the enclave is dangerous. The Felmusk satyr work with the shadowy Cult of the Dark Strand, anchoring twisted soulgems to gather demonic essence within the forest.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "night run mobs",
     "what is at night run"
    ],
-   "answer": "Night Run is occupied by the Felmusk satyr, a faction of demonic night elf corrupters affiliated with the Cult of the Dark Strand."
+   "answer": "The Felmusk satyr occupy Night Run. These demonic night elf corrupters are affiliated with the Cult of the Dark Strand."
   },
   {
    "q": "How do you reach Night Run?",
@@ -32,7 +32,7 @@
     "night run path",
     "night run entrance"
    ],
-   "answer": "Because it sits on an elevated bluff bordered by sheer cliffs, travelers must approach either via a narrow ledge north of Raynewood Retreat or by tracking along the Falfarren River toward Xavian before cutting west up the ridge."
+   "answer": "Night Run lies on an elevated bluff bounded by sheer cliffs. You can approach by a narrow ledge north of Raynewood Retreat or follow the Falfarren River toward Xavian before turning west up the ridge."
   },
   {
    "q": "What is the Cult of the Dark Strand doing here?",
@@ -40,17 +40,17 @@
     "cult of the dark strand night run",
     "soulgem night run"
    ],
-   "answer": "The cult works alongside the satyrs, maintaining a dark soulgem within Night Run to harvest and channel demonic energies across Ashenvale."
+   "answer": "The Cult of the Dark Strand works alongside the satyrs, maintaining a dark soulgem at Night Run to harvest and channel demonic energies across Ashenvale."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "The defilement of Night Run is an enduring scar: these ancient elven stones now shelter the twisted Felmusk."
+   "text": "As a Night Elf, you see an enduring scar in Night Run: ancient elven stones shelter the twisted Felmusk."
   },
   {
    "target": "faction:Alliance",
-   "text": "Nestled just north of Raynewood Retreat, Night Run represents an ever-present demonic menace overlooking crucial Sentinel supply lines."
+   "text": "As an Alliance traveler, you find Night Run just north of Raynewood Retreat, a demonic menace overlooking crucial Sentinel supply lines."
   }
  ],
  "keywords": [
@@ -73,5 +73,6 @@
  ],
  "attribution": [
   "Night Run"
- ]
+ ],
+ "style": 1
 }

@@ -17,16 +17,16 @@
   "wiki": "Dalaran's Intentions",
   "chain": []
  },
- "summary": "Dalaran's Intentions is a Silverpine Forest quest delivered by Dalar Dawnweaver to Shadow Priest Allister. Having studied a rune-inscribed pendant bound for the Kirin Tor in Ambermill, Dalar realizes the wizards intend to tap a dormant ley energy node beneath the town, prompting the Forsaken leadership at the Sepulcher to plan a counter-offensive.",
+ "summary": "Dalar Dawnweaver sends Shadow Priest Allister a warning from Silverpine Forest. A pendant bound for the Kirin Tor in Ambermill reveals their plan to awaken a dormant ley energy node beneath the town, and the Forsaken at the Sepulcher prepare to answer.",
  "sections": [
   {
    "title": "A Dormant Spark",
-   "body": "While examining a rune-inscribed pendant recovered from a Dalaran supply crate, Dalar Dawnweaver remembers an old Kirin Tor survey. Ambermill was not chosen by the mages by coincidence; the quiet village rests directly atop a dormant ley energy node. Awaking such a subterranean nexus requires immense magical reserves, and the enchanted pendants worn by the wizards serve as key components in channeling and catalyzing that power.",
+   "body": "Dalar Dawnweaver studies a rune-inscribed pendant from a Dalaran supply crate and recalls an old Kirin Tor survey. Ambermill was chosen for a reason: the quiet village sits atop a dormant ley energy node. Dalar realizes the wizards intend to tap it. Awakening such a nexus takes immense magical reserves, and the enchanted pendants the wizards wear are key to channeling and catalyzing its power.",
    "spoiler": 0
   },
   {
    "title": "The Threat to Silverpine",
-   "body": "The Forsaken cannot tolerate a fortified, power-fueled Kirin Tor outpost threatening the southern approaches to the Sepulcher and Tirisfal Glades. Whatever grand ritual the magi are preparing, harnessing raw ley lines would grant Dalaran an enormous strategic advantage in Lordaeron. Dalar sends word urgently to Shadow Priest Allister to formulate a strategy that will stall the wizards' progress before their ritual reaches completion.",
+   "body": "The Forsaken cannot tolerate a fortified, power-fueled Kirin Tor outpost threatening the southern approaches to the Sepulcher and Tirisfal Glades. Whatever ritual the magi prepare, raw ley energy would give Dalaran an enormous strategic advantage in Lordaeron. Dalar urgently sends word to Shadow Priest Allister, asking him to devise a way to stall the wizards before their ritual is complete.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "what are dalaran wizards doing in silverpine",
     "ambermill purpose"
    ],
-   "answer": "The wizards of Dalaran are attempting to reactivate a dormant ley energy node situated beneath Ambermill. Tapping this arcane vein would grant them tremendous power to establish a permanent presence and pursue their broader plans in Silverpine Forest."
+   "answer": "The wizards of Dalaran aim to awaken the dormant ley energy node beneath Ambermill. Its power would let them establish a permanent presence and pursue their wider plans in Silverpine Forest."
   },
   {
    "q": "Why does Dalar send you to Shadow Priest Allister?",
@@ -47,7 +47,7 @@
     "who is allister",
     "dalar dawnweaver allister"
    ],
-   "answer": "Shadow Priest Allister acts as a senior military and spiritual leader for the Forsaken based out of the Sepulcher. Dalar Dawnweaver provides arcane insight and research, but tactical decisions and offensive countermeasures against Dalaran fall under Allister's authority."
+   "answer": "Shadow Priest Allister holds authority over Forsaken tactics and countermeasures against Dalaran. Dalar Dawnweaver brings arcane insight and research, while Allister directs the response from the Sepulcher."
   },
   {
    "q": "How do the wizards' pendants tie into their plans?",
@@ -56,21 +56,21 @@
     "ambermill pendants",
     "why collect pendants"
    ],
-   "answer": "Reawakening a dormant ley node demands massive reserves of power. The Dalaran wizards carry enchanted pendants that act as conduits and reservoirs for this magic. Depriving the mages of these pendants undermines their ability to complete the activation."
+   "answer": "The dormant ley node demands immense reserves of power to awaken. The wizards' enchanted pendants act as conduits and reservoirs for that magic, so taking them away would hinder the node's activation."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "Dalaran's presence so deep in Silverpine is a direct threat to the Forsaken's borders; stopping their ley line ritual protects the roads between Tirisfal and the southern borders."
+   "text": "As an Undead, you know Dalaran's presence deep in Silverpine threatens Forsaken borders. Stopping the ley line ritual protects the roads between Tirisfal and the southern borders."
   },
   {
    "target": "class:Mage",
-   "text": "Forsaken mages will recognize the Kirin Tor's methods: tapping dormant ley lines is an efficient way to establish a powerful arcane beachhead without hauling massive power sources across wilderness."
+   "text": "As a Mage, you can recognize the Kirin Tor's method. Tapping dormant ley lines gives them an efficient way to establish a powerful arcane beachhead without hauling massive power sources through the wilderness."
   },
   {
    "target": "class:Priest",
-   "text": "Shadow Priest Allister directs the Forsaken defense at the Sepulcher, blending cold military pragmatism with the dark teachings of the Forsaken priesthood to purge living threats."
+   "text": "As a Priest, you know Shadow Priest Allister directs the Forsaken defense at the Sepulcher. He joins cold military pragmatism with the dark teachings of the Forsaken priesthood to purge living threats."
   }
  ],
  "keywords": [
@@ -94,5 +94,6 @@
  ],
  "attribution": [
   "Dalaran's Intentions"
- ]
+ ],
+ "style": 1
 }

@@ -1,0 +1,78 @@
+{
+ "key": "quest:97904",
+ "type": "quest",
+ "name": "Camping 101: Fishing",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   97904
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Your fishing skill can bring comfort to a camp. Someone near Sen'jin Village can teach you to craft a Fish Bowl for your fellow adventurers.",
+ "sections": [
+  {
+   "title": "A Camp Comfort",
+   "body": "You can speak with Lau'Tiki near Sen'jin Village once you have shown proficiency in fishing. Lau'Tiki can teach you to craft a Fish Bowl, a camping fixture meant to bring joy to you and your fellow adventurers. A happier camp, the giver hopes, makes for stronger fighters.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What can fishing do for my camp?",
+   "aliases": [
+    "fishing camp item",
+    "camping fishing"
+   ],
+   "answer": "Your fishing skill can help you learn to craft a Fish Bowl for camp."
+  },
+  {
+   "q": "Who teaches me to make a Fish Bowl?",
+   "aliases": [
+    "fish bowl teacher",
+    "Lau'Tiki fishing"
+   ],
+   "answer": "Lau'Tiki near Sen'jin Village can teach you to craft a Fish Bowl once you have shown proficiency in fishing."
+  },
+  {
+   "q": "What is the Fish Bowl for?",
+   "aliases": [
+    "fish bowl use",
+    "camp fish fixture"
+   ],
+   "answer": "The Fish Bowl is a camping fixture intended to bring joy to you and your fellow adventurers."
+  },
+  {
+   "q": "Where can I find Lau'Tiki?",
+   "aliases": [
+    "Lau'Tiki location",
+    "Sen'jin fishing"
+   ],
+   "answer": "Lau'Tiki is near Sen'jin Village."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Cooking",
+   "text": "As a fisher, you can learn to craft a Fish Bowl for your camp once you have shown proficiency in your skill."
+  }
+ ],
+ "keywords": [
+  "camp fixture",
+  "camping",
+  "fish bowl",
+  "fisherman",
+  "fishing",
+  "lau'tiki",
+  "sen'jin village"
+ ],
+ "related": [
+  "subzone:sen-jin-village"
+ ],
+ "style": 1,
+ "attribution": [
+  "In-game quest text: Camping 101: Fishing"
+ ]
+}

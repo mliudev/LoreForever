@@ -93,10 +93,11 @@ export const LEGEND_BEST_PER_MONTH = 6000;
 // better with each plan. Free answers out loud in her studio voice on every spoken answer (always: no starter count;
 // the shared free budget pays, about $0.0002 a reply). Hero hears her finest voice (Inworld TTS 2 Flash) on every reply,
 // Champion picks hers too and characters answer in their own, and Legend's is richer (Inworld TTS 2, RICHER_MODEL).
-// best is the plan month's answers, so every reply is the finest one; the total cost cap still steps the voice down
-// before a month would cost more than the plan brings.
+// best: a plan month's replies in the finest voice (FINEST, the months' answers the plans were sold by before they
+// were unlimited, 10/28), so a month of everyday play hears it on every reply; the total cost cap still steps the voice
+// down before a month would cost more than the plan brings.
 export const RICHER_MODEL = "inworld-tts-2";
-const POOL = { free: 900, hero: 1500, champion: 3000, legend: 6000 };
+const FINEST = { hero: 1500, champion: 3000, legend: 6000 };
 // Characters who answer in person in a voice of their own (lib/character-voices.js; Mike, 2026-10-13: Inworld TTS 2
 // Flash, CHARACTER_MODEL, with Fish S2.1 Pro when Inworld is slow or down): characters is how many of a plan month's
 // replies they get, a number of their own (Champion's), or "best" (Legend's: out of its finest replies, at the same
@@ -109,10 +110,10 @@ export const CHAMPION_CHARACTER_REPLIES = 300;
 export const CHARACTER_MODEL = "inworld-tts-2-flash";
 export const PLAN_VOICE = {
   free: { voice: "chatterbox", choice: false, always: true, whole: true },
-  hero: { voice: "inworld", choice: false, best: POOL.hero, model: LEGEND_BEST_MODEL, whole: true },
-  champion: { voice: "inworld", choice: true, best: POOL.champion, model: LEGEND_BEST_MODEL, characters: "best",
+  hero: { voice: "inworld", choice: false, best: FINEST.hero, model: LEGEND_BEST_MODEL, whole: true },
+  champion: { voice: "inworld", choice: true, best: FINEST.champion, model: LEGEND_BEST_MODEL, characters: "best",
               whole: true },
-  legend: { voice: "inworld", choice: true, best: POOL.legend, model: RICHER_MODEL, characters: "best", azeroth: true,
+  legend: { voice: "inworld", choice: true, best: FINEST.legend, model: RICHER_MODEL, characters: "best", azeroth: true,
             whole: true },
 };
 // The voices and plans picks (Mike, 2026-10-21: "voices and plans picks make sense ship it"): the Voices of Azeroth are
@@ -124,19 +125,24 @@ export const PLAN_VOICE = {
 // speakReading), on the studio engine; Free sees them as text.
 export const READINGS_FROM = "hero";
 
-// The plans, cheapest first. Prices and net (what a month brings after Stripe's fees) in US cents. A plan's answers are
-// a month's pool (answersPerMonth) with a most in one day (answersPerDay), and lookupsPerMonth of them may look online
-// (required research or a quick look-up; a finding another player's search kept is free): a quiet guard inside the
-// cost caps, never a number players read (WEB below). A paid plan's month runs from
-// its renewal day (poolWindow), so a month paid for never holds two pools; the free plan's is the calendar month.
+// The plans, cheapest first. Prices and net (what a month brings after Stripe's fees) in US cents. Unlimited answers on
+// every paid plan, and the free plan's 50 a day (Mike, 2026-10-28: "A, go with unlimited and 50 free", after the PM's
+// market research: printed limits read as stingy, and paid companions say "unlimited"). The free plan's answers are a
+// day's (answersPerDay) inside its calendar month's pool (answersPerMonth, a day's for every day of the longest month, so
+// it never bites first). A paid plan (unlimited) has no count a player reads: the cost caps below keep its month from
+// costing more than it brings, and GUARD_PER_DAY is a hidden most in one day against scripts and shared accounts, far
+// above real play (p95 about 31 a day, about 10 a day played), past which she answers from the lore library
+// (lib/plan-usage.js limit_hits "guard" shows anyone who reaches it). dayMax(plan) is either day's most.
+// lookupsPerMonth of a plan's answers may look online (required research or a quick look-up; a finding another
+// player's search kept is free): a quiet guard inside the cost caps, never a number players read (WEB below). A paid
+// plan's month (its look-ups, its finest replies) runs from its renewal day (poolWindow).
 // The cost caps (Mike, 2026-10-13): a paying player's live answers may cost us half of their plan's net in a calendar
 // month (costCapMicro, the text cap, millionths of a dollar), and their answers and hosted voice together the whole of
-// it (totalCapMicro). Past the text cap their answers step down to Flash-Lite without looking online (capState "lite"),
-// and once the total is reached they come from the add-on's lore library (as when the month's pool is used) until the
-// next month; the hosted voice steps down to a cheaper one, then to Willo's own voice on the PC, before the total would
-// pass. At about $0.0012 an answer on Flash-Lite and $0.05 a look-up, a maxed Hero or Champion month stays under its
-// text cap; Legend's answers on 3.6 Flash (smarter: about $0.0035 each, twice that from 2027) reach it after about
-// 2,050 answers (1,040 from 2027) of its 4,000; players ask about 11 a day they play.
+// it (totalCapMicro). Past the text cap their answers stop looking online (capState "lite"; the answer itself stays on
+// DeepSeek, about $0.003, since its host ignores lite), and once the total is reached they come from the add-on's lore
+// library until the next month; the hosted voice steps down to a cheaper one, then to Willo's own voice on the PC,
+// before the total would pass. The caps are measured spend, so the most an account costs is what it pays ($0.05 a
+// look-up; players ask about 11 a day they play).
 // longMemory: chat memory keeps twice as much. smarter: her answers, pictures too, on the smarter model's slot
 // (lib/companion-answers.js SMART_MODEL; Mike, 10/19: "yes to both": Legend's only). Since 10/24 every plan's answers
 // are on DeepSeek and the slot is Flash-Lite, as everyone's fallback. smarter is also her smarter mind (Mike, 10/24: "go
@@ -146,21 +152,25 @@ export const READINGS_FROM = "hero";
 // lookupsPerMonth; 0 or none for no taste. Hero's is 0 until Mike picks it (the PM's pick was 5, about 1 cent a Hero
 // player; the Architect, 10/24: a pricing call of Mike's): turning it on is this one number.
 const caps = net => ({ net, costCapMicro: Math.floor(net / 2) * 10_000, totalCapMicro: net * 10_000 });
+const FREE_PER_DAY = 50;
+export const GUARD_PER_DAY = 500;
 export const PLANS = {
-  free: { id: "free", name: "Adventurer", monthly: 0, answersPerDay: 30, answersPerMonth: POOL.free,
+  free: { id: "free", name: "Adventurer", monthly: 0, answersPerDay: FREE_PER_DAY, answersPerMonth: FREE_PER_DAY * 31,
           lookupsPerMonth: 0, costCapMicro: 0 },
-  hero: { id: "hero", name: "Hero", monthly: 499, answersPerDay: 100, answersPerMonth: POOL.hero,
-          lookupsPerMonth: 10, thinkingPerMonth: 0, ...caps(437) },
-  champion: { id: "champion", name: "Champion", monthly: 999, answersPerDay: 200, answersPerMonth: POOL.champion,
-              lookupsPerMonth: 20, longMemory: true, ...caps(905) },
-  legend: { id: "legend", name: "Legend", monthly: 1999, answersPerDay: 300, answersPerMonth: POOL.legend,
-            lookupsPerMonth: 80, longMemory: true, smarter: true, ...caps(1841) },
+  hero: { id: "hero", name: "Hero", monthly: 499, unlimited: true, lookupsPerMonth: 10, thinkingPerMonth: 0, ...caps(437) },
+  champion: { id: "champion", name: "Champion", monthly: 999, unlimited: true, lookupsPerMonth: 20, longMemory: true,
+              ...caps(905) },
+  legend: { id: "legend", name: "Legend", monthly: 1999, unlimited: true, lookupsPerMonth: 80, longMemory: true,
+            smarter: true, ...caps(1841) },
 };
 export const PAID = Object.keys(PLANS).filter(id => id !== "free");
+// The most live answers an account gets in one UTC day: the free plan's (or its brake's) count, or an unlimited plan's
+// hidden guard. plan: a PLANS entry or planFor's.
+export const dayMax = plan => plan.unlimited ? GUARD_PER_DAY : plan.answersPerDay;
 
 // The free plan's old spoken starter's replies (lib/companion-voice.js, before PLAN_VOICE.free.always). The starter's
-// answers are over (above): since option D (10/21) the free plan is 30 answers a day, and after them she says once
-// that she's resting her voice and writes (the first-run trial is the newcomer's taste now).
+// answers are over (above): since option D (10/21) the free plan is its answers a day (50 since 10/28), and after them
+// she says once that she's resting her voice and writes (the first-run trial is the newcomer's taste now).
 export const STARTER_ANSWERS = 30;
 // Willo's best first: an account's first live answers at her best (lib/best-first.js, which uses it; kept here so the
 // plan cards can say it without the two modules loading each other first).
@@ -221,12 +231,15 @@ export function companionFeatures(plan, { starter = 0, taste = null } = {}) {
            ...(trial ? { sight: trial.left.sight > 0, research: trial.left.lookups > 0, reminders: true } : {}) };
 }
 
-// What /plans lists on each plan's card, in plain words: how it feels to play with Willo first, then the month's
-// answers. Counts, never limits: no "unlimited", "limit", "cap" or "fair use" in what players read (Mike, 2026-10-13).
-// The style and the tales are /willo/style (lib/willo-custom.js).
+// What /plans lists on each plan's card, in plain words: how it feels to play with Willo first, then her answers:
+// unlimited on a paid plan, never a count (Mike, 2026-10-28; until then counts, never "unlimited", 10/13), with FAIR_USE
+// in the fine print. The style and the tales are /willo/style (lib/willo-custom.js).
 const NAME = COMPANION_NAME;
 const count = n => n.toLocaleString("en-US");
-const answers = plan => `${count(plan.answersPerMonth)} ${NAME} answers a month`;
+const UNLIMITED = `Unlimited ${NAME} answers`, UNLIMITED_IN = `unlimited ${NAME} answers`;
+// /plans' fine print and the Terms' fair use, plain: the cost caps and the hidden guard, as a player feels them.
+export const FAIR_USE = `Unlimited answers are for your own play, on your own account. In an unusually busy month ${NAME} ` +
+  "may answer more simply, without looking online, but she never stops answering.";
 // Web look-ups aren't a number players read (Mike, 2026-10-13): a plan's lookupsPerMonth is a quiet guard inside its
 // cost caps, and past it Willo answers from the lore and the searches other players' questions kept.
 const WEB = `${NAME} can check the web when the lore runs out`;
@@ -249,11 +262,11 @@ const NEW_FIRST = "New features first";
 // readings: the site feature of that name (lib/features.js).
 export const planFeatures = ({ azeroth = false, readings = false } = {}) => ({
   free: [FIRST.free, "The whole add-on, every narration pack and language"],
-  hero: [FIRST.hero(readings), answers(PLANS.hero), `${NAME} sees your game and keeps your goals`, WEB,
+  hero: [FIRST.hero(readings), UNLIMITED, `${NAME} sees your game and keeps your goals`, WEB,
          `Reminders and preset ${NAME} styles`],
-  champion: [FIRST.champion, ownPickLine(azeroth), answers(PLANS.champion), `${NAME}'s longer memory`,
+  champion: [FIRST.champion, ownPickLine(azeroth), UNLIMITED, `${NAME}'s longer memory`,
              `Write ${NAME}'s personality`, "Everything in Hero"],
-  legend: [FIRST.legend, ...(azeroth ? [pickLine(azeroth)] : []), answers(PLANS.legend), NEW_FIRST,
+  legend: [FIRST.legend, ...(azeroth ? [pickLine(azeroth)] : []), UNLIMITED, NEW_FIRST,
            "Rewrite NPCs as your own tale", "Everything in Champion"],
 });
 // The site features the cards read, for a request (env) or for the code's own default (null).
@@ -270,10 +283,10 @@ export const VOICE_NOTE = `${NAME}'s finest voice on every spoken answer from He
 // set by scripts/stripe-setup.mjs, whose next run publishes a change here).
 // blurbs(flags): the same, for flags other than the code's own (scripts/stripe-setup.mjs --print stages them).
 export const blurbs = ({ azeroth = AZEROTH, readings = featureOn(null, "readings") } = {}) => ({
-  hero: `${FIRST.hero(readings)}: ${answers(PLANS.hero)}, and ${NAME} sees your game and keeps your goals. ${WEB}.`,
-  champion: `${FIRST.champion}: ${answers(PLANS.champion)}, ${NAME}'s longer memory and ${NAME}'s personality in ` +
+  hero: `${FIRST.hero(readings)}: ${UNLIMITED_IN}, and ${NAME} sees your game and keeps your goals. ${WEB}.`,
+  champion: `${FIRST.champion}: ${UNLIMITED_IN}, ${NAME}'s longer memory and ${NAME}'s personality in ` +
             `your words. ${ownPickLine(azeroth)}. Everything in Hero too.`,
-  legend: `${FIRST.legend}: ${answers(PLANS.legend)}, ` + (azeroth ? `the ${AZEROTH_VOICES} Voices of Azeroth, ` : "") +
+  legend: `${FIRST.legend}: ${UNLIMITED_IN}, ` + (azeroth ? `the ${AZEROTH_VOICES} Voices of Azeroth, ` : "") +
           `new features first, NPCs rewritten as your own tale, and everything in Champion.`,
 });
 export const BLURBS = blurbs();
@@ -381,7 +394,7 @@ export function planCompare(allowed = {}, { azeroth = false, readings = false } 
   const style = id => (allowed[id] || []).includes("words") ? "Presets or your own words"
     : (allowed[id] || []).includes("presets") ? "Presets" : "—";
   return [
-    row("Answers a day", id => count(PLANS[id].answersPerDay)),
+    row(`${NAME}'s answers`, id => PLANS[id].unlimited ? "Unlimited" : `${count(PLANS[id].answersPerDay)} a day`),
     row(`${NAME}'s voice: when you ask out loud`, voice),
     row("Characters' own voices", id => yes(Boolean(PLAN_VOICE[id].characters))),
     ...(readings ? [row("Your narrator reads the add-on's short answers", id => yes(paid(id)))] : []),
@@ -842,13 +855,13 @@ export async function starterClaim(env, userId) {
   return claim;
 }
 
-// The plan an account has right now: {id, name, answersPerDay, answersPerMonth, lookupsPerMonth, costCapMicro (the text
-// cap), totalCapMicro (a paid plan's), voice (PLAN_VOICE's: who says its replies, choice, best), status, renews,
-// cancelAtPeriodEnd, portal}. renews: when the paid period ends (it renews then unless cancelAtPeriodEnd). portal:
-// they have a subscription to manage on the billing portal, even an ended one. On the free plan, answersPerDay is the
-// brake's when it applies (with brake: true). During its free Hero
-// month (the beta promo, freeHeroMonth) a free account has Hero's plan instead, with launch: true, since and until
-// (the month's start and end, ISO) and ends (its end as players read it, "November 20"). A "Keep Hero" bought during
+// The plan an account has right now: {id, name, answersPerDay and answersPerMonth (the free plan's) or unlimited: true
+// (a paid plan's, dayMax its hidden guard), lookupsPerMonth, costCapMicro (the text cap), totalCapMicro (a paid plan's),
+// voice (PLAN_VOICE's: who says its replies, choice, best), status, renews, cancelAtPeriodEnd, portal}. renews: when the
+// paid period ends (it renews then unless cancelAtPeriodEnd). portal: they have a subscription to manage on the billing
+// portal, even an ended one. On the free plan, answersPerDay is the brake's when it applies (with brake: true).
+// During its free Hero month (the beta promo, freeHeroMonth) a free account has Hero's plan instead, with launch: true,
+// since and until (the month's start and end, ISO) and ends (its end as players read it, "November 20"). A "Keep Hero" bought during
 // the beta starts its months at the launch (renews). changesTo: {id, name, at}, a downgrade waiting for the renewal
 // (changePlan). paidBefore: a paying plan whose next charge was moved to the launch (payDay), so a Stripe trial
 // ("trialing") until renews, though it's paid for.
@@ -879,7 +892,7 @@ export async function planFor(env, userId, now = new Date()) {
     const plan = PLANS[row.plan];
     const next = PAID.includes(row.next_plan) && row.next_plan !== row.plan && Date.parse(row.next_plan_at) > now.getTime()
       ? { changesTo: { id: row.next_plan, name: PLANS[row.next_plan].name, at: row.next_plan_at } } : {};
-    return { id: plan.id, name: plan.name, answersPerDay: plan.answersPerDay, answersPerMonth: plan.answersPerMonth,
+    return { id: plan.id, name: plan.name, unlimited: true,
              lookupsPerMonth: plan.lookupsPerMonth, costCapMicro: plan.costCapMicro, totalCapMicro: plan.totalCapMicro,
              ...voiceOf(plan.id), status: row.status, renews: row.current_period_end,
              cancelAtPeriodEnd: Boolean(row.cancel_at_period_end), ...next, portal,
@@ -896,7 +909,7 @@ export async function planFor(env, userId, now = new Date()) {
     ? await freeHeroMonth(env, userId, at, promoAhead) : null;
   if (freeMonth) {
     const hero = PLANS.hero;
-    return { id: hero.id, name: hero.name, answersPerDay: hero.answersPerDay, answersPerMonth: hero.answersPerMonth,
+    return { id: hero.id, name: hero.name, unlimited: true,
              lookupsPerMonth: hero.lookupsPerMonth, costCapMicro: hero.costCapMicro, totalCapMicro: hero.totalCapMicro,
              ...voiceOf(hero.id), ...thinkingOf(hero), launch: true, since: iso(freeMonth.start), until: iso(freeMonth.end),
              ends: pacificDay(freeMonth.end), status: null, renews: null, cancelAtPeriodEnd: false, portal };
@@ -905,7 +918,7 @@ export async function planFor(env, userId, now = new Date()) {
   const grant = await granted;
   if (grant) {
     const p = PLANS[grant.plan];
-    return { id: p.id, name: p.name, answersPerDay: p.answersPerDay, answersPerMonth: p.answersPerMonth,
+    return { id: p.id, name: p.name, unlimited: true,
              lookupsPerMonth: p.lookupsPerMonth, costCapMicro: p.costCapMicro, totalCapMicro: p.totalCapMicro,
              ...voiceOf(p.id), launch: true, reward: true, since: grant.starts, until: grant.ends,
              ends: pacificDay(Date.parse(grant.ends)), status: null, renews: null, cancelAtPeriodEnd: false, portal,
@@ -1135,9 +1148,9 @@ export async function userSpend(env, userId, now = new Date(), { total = false, 
 
 // Where a paying player's calendar month stands against their plan's caps (her answers on 3.6 Flash, Mike, 10/19; the
 // step-down is the pricing session's): "under" its text cap (costCapMicro, half its net); "lite" past it, when her
-// answers go back to Flash-Lite (lib/companion-answers.js modelFor), not looking online, rather than to the lore library
-// earlier than on Flash-Lite before; "capped" once its answers and hosted voice together have cost the plan's whole net
-// (totalCapMicro), when the plan's answers wait for the next month, as when its pool is used
+// answers stop looking online (lib/companion-answers.js modelFor's Flash-Lite only where Gemini answers: her DeepSeek
+// host ignores lite since 10/24); "capped" once its answers and hosted voice together have cost the plan's whole net
+// (totalCapMicro), when her answers come from the lore library until the next month
 // (lib/companion-answers.js allowance, functions/api/companion/answer.js), so no player costs more than they pay.
 // Never for the free plan, which the shared budget and the brake look after. The beta's free Hero has Hero's, on its
 // own answers.
@@ -1216,11 +1229,12 @@ export function planAbove(env, plan) {
 }
 
 // What the companion offers a player whose answers ran out (functions/api/companion/answer.js): the next plan up
-// while it's for sale (planAbove), so Free's one offer is Hero. Answers can't be bought, and a finest-voice pack is
+// while it's for sale (planAbove), so Free's one offer is Hero; an unlimited plan past its guard gets none. Answers
+// can't be bought, and a finest-voice pack is
 // about the voice, not more answers, so neither is offered; Legend gets nothing.
 export function offersFor(env, plan) {
   const next = planAbove(env, plan);
-  return next ? [{ id: next.id, text: `Get ${next.name}: ${count(next.answersPerMonth)} answers a month`, url: "/plans" }] : [];
+  return next && !plan.unlimited ? [{ id: next.id, text: `Get ${next.name}: unlimited answers`, url: "/plans" }] : [];
 }
 
 // ---- Checkout and the billing portal ----

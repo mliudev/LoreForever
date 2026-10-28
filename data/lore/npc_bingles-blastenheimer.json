@@ -8,11 +8,11 @@
   "wiki": "Bingles Blastenheimer",
   "refs": 2
  },
- "summary": "Bingles Blastenheimer is an eccentric gnomish aviator stranded on the southeastern shores of the Loch in Loch Modan. Having crash-landed his experimental flying machine, he finds himself marooned amidst local troggs and beasts, desperate to salvage his precious tools and components.",
+ "summary": "On Loch Modan’s southeastern shore, Bingles Blastenheimer waits beside the wreck of his flying machine. Stranded among troggs and beasts, the gnomish aviator needs his tools and parts back.",
  "sections": [
   {
    "title": "A Rough Landing",
-   "body": "Like many ambitious gnomish engineers, Bingles Blastenheimer took to the skies in a customized flying craft, only to discover that coming down safely is far more difficult than lifting off. After his gyrocopter malfunctioned and crashed into the southeastern shores of the Loch, Bingles survived the impact intact, but his machine shattered into scattered parts. Stranded far from Ironforge, he remains huddled near the wreckage, guarded against hungry crocolisks and hostile troggs while pleading with passing travelers to recover the tools and Blastencapper explosives that troggs from a nearby island stole from him.",
+   "body": "Bingles Blastenheimer took his customized flying craft into the skies, but bringing it down safely proved harder than lifting off. His gyrocopter malfunctioned and crashed on the Loch’s southeastern shore. Bingles survived, but the machine broke apart. Far from Ironforge, he stays near the wreck, wary of hungry crocolisks and hostile troggs. Troggs from a nearby island stole his tools and Blastencapper explosives, and he asks passing travelers to recover them.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "bingles blastenheimer lore",
     "who is the gnome by the lake"
    ],
-   "answer": "Bingles Blastenheimer is a gnomish pilot and tinkerer who suffered a catastrophic crash in his flying machine on the southeastern bank of the Loch in Loch Modan."
+   "answer": "Bingles Blastenheimer is a gnomish pilot and tinkerer, stranded after his flying machine crashed on Loch Modan’s southeastern shore."
   },
   {
    "q": "What happened to his flying machine?",
@@ -33,7 +33,7 @@
     "bingles gyrocopter",
     "what happened to bingles plane"
    ],
-   "answer": "Bingles crashed his gyrocopter into the Loch. Troggs from a nearby island then attacked him and stole his tools and his special Blastencapper explosives."
+   "answer": "Bingles crashed his gyrocopter into the Loch. Troggs from a nearby island attacked him and stole his tools and Blastencapper explosives."
   },
   {
    "q": "Why hasn't Bingles returned to town?",
@@ -41,7 +41,7 @@
     "why is bingles stranded",
     "why stay by the lake"
    ],
-   "answer": "Bingles is stranded without his gyrocopter, and troggs from a nearby island have stolen his tools and his Blastencapper explosives. He wants them back for the movement to retake Gnomeregan, and he waits by the wreck for someone to recover them."
+   "answer": "Bingles is stranded without his gyrocopter, and troggs from a nearby island stole his tools and Blastencapper explosives. He wants them back for the movement to retake Gnomeregan, so he waits by the wreck for someone to recover them."
   },
   {
    "q": "Where does Bingles end up after his craft is fixed?",
@@ -49,17 +49,17 @@
     "where does bingles go",
     "bingles lodge"
    ],
-   "answer": "In this era Bingles stays at his crash site on the southeastern bank of the Loch, waiting for adventurers to recover his missing supplies."
+   "answer": "Bingles remains at his crash site on the Loch’s southeastern shore, waiting for travelers to recover his missing supplies."
   }
  ],
  "angles": [
   {
    "target": "race:Gnome",
-   "text": "Bingles represents the quintessential gnomish drive for aerial innovation, where mechanical failure and explosions are simply treated as minor setbacks on the path to progress."
+   "text": "As a gnome, you share Bingles’s drive to take gnomish invention into the skies, even when mechanical failure brings a hard landing."
   },
   {
    "target": "profession:Engineering",
-   "text": "Any tinkerer will recognize the plight of losing irreplaceable custom spanners and gadgets to thieving troggs after an ambitious flight goes wrong."
+   "text": "As an engineer, you know the trouble of losing custom spanners and gadgets to troggs after a flight goes wrong."
   }
  ],
  "keywords": [
@@ -79,5 +79,6 @@
  ],
  "attribution": [
   "Bingles Blastenheimer"
- ]
+ ],
+ "style": 1
 }

@@ -8,11 +8,11 @@
   "wiki": "Elder Goldwell",
   "refs": 1
  },
- "summary": "Elder Goldwell is an ancient earthen spirit lingering near the dwarven settlement of Kharanos in Dun Morogh. Appearing during the Lunar Festival, this revered ancestor represents the forgotten origins of modern dwarven civilization.",
+ "summary": "Near Kharanos, Elder Goldwell appears during the Lunar Festival. The ancient earthen spirit recalls the origins of modern dwarven civilization.",
  "sections": [
   {
    "title": "A Spirit of the Earthen",
-   "body": "Elder Goldwell manifests as a translucent earthen spirit, watching over the snowy slopes of Kharanos. Unlike modern mortal dwarves of flesh and bone, his stony form echoes the ancient Titan-forged race from which the Bronzebeard clan descended. His presence during ancestor celebrations offers travelers a chance to honor that ancient heritage.",
+   "body": "Elder Goldwell watches over the snowy slopes near Kharanos as a translucent earthen spirit. His stony form recalls the Titan-forged ancestors from whom the Bronzebeard clan descended. During the ancestor celebrations, travelers can honor that heritage in his presence.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "who is goldwell",
     "goldwell lore"
    ],
-   "answer": "Elder Goldwell is an earthen ancestor spirit found in Dun Morogh. He visits Kharanos during seasonal ancestor observances so that modern travelers can pay their respects to the ancestors of dwarvenkind."
+   "answer": "Elder Goldwell is an earthen ancestor spirit who appears near Kharanos in Dun Morogh. During seasonal ancestor observances, travelers can pay respects to dwarven forebears."
   },
   {
    "q": "Where is Elder Goldwell located?",
@@ -33,7 +33,7 @@
     "where to find elder goldwell",
     "find goldwell"
    ],
-   "answer": "He can be found standing outside the dwarven town of Kharanos in Dun Morogh, usually near the local inn and gathering areas."
+   "answer": "Elder Goldwell stands outside Kharanos in Dun Morogh, usually near the local inn and gathering areas."
   },
   {
    "q": "Why does Elder Goldwell look like an earthen rather than a dwarf?",
@@ -42,17 +42,17 @@
     "is goldwell an earthen",
     "goldwell rock dwarf"
    ],
-   "answer": "Dwarves trace their ancestry back to the stone-skinned earthen created by the Titans. As one of the most ancient spirits honoring past generations, Goldwell retains the original earthen visage rather than the mortal flesh of living dwarves."
+   "answer": "Dwarves trace their ancestry to the stone-skinned earthen created by the Titans. As an ancient spirit who honors past generations, Goldwell keeps the earthen form rather than the flesh of living dwarves."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "For dwarves, meeting Elder Goldwell offers a rare, direct look at their ancient stone-wrought heritage and the lineage connecting modern Ironforge to the earthen."
+   "text": "As a dwarf, meeting Elder Goldwell offers a rare look at your stone-wrought heritage and the lineage connecting modern Ironforge to the earthen."
   },
   {
    "target": "faction:Alliance",
-   "text": "Alliance travelers passing through Kharanos often seek out Goldwell to pay their respects and receive traditional blessings of good fortune."
+   "text": "As an Alliance traveler passing through Kharanos, you can seek out Goldwell to pay your respects and receive traditional blessings of good fortune."
   }
  ],
  "keywords": [
@@ -71,5 +71,6 @@
  ],
  "attribution": [
   "Elder Goldwell"
- ]
+ ],
+ "style": 1
 }

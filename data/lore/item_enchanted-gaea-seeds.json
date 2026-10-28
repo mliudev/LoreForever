@@ -10,16 +10,16 @@
    "quest:6381"
   ]
  },
- "summary": "Enchanted Gaea Seeds are specially prepared botanical seeds meant to bring revitalization to the ravaged landscapes of Kalimdor. Empowered through druidic magic and gathered at Sun Rock Retreat, they are planted directly into the ash-choked soil of the Charred Vale to counteract devastation and rekindle natural growth.",
+ "summary": "At Sun Rock Retreat, Enchanted Gaea Seeds are prepared for the Charred Vale. Druidic magic gives them strength to take root in ash-choked soil and begin restoring Kalimdor's ravaged land.",
  "sections": [
   {
    "title": "A Spark in the Ashes",
-   "body": "The Enchanted Gaea Seeds represent the Horde's druidic efforts to mend the deep scars left across Stonetalon Mountains. After raw Gaea Seeds are gathered and ritually enchanted by Tammra Windfield at Sun Rock Retreat, they carry sufficient resilience to overcome pervasive corruption and elemental blight. When pressed into the fertile dirt mounds that still survive beneath the soot of the Charred Vale, these seeds take root against the harsh conditions, anchoring new life in a landscape dominated by hostile fire elementals and invasive harpies.",
+   "body": "The Horde's druids are trying to heal the deep scars across Stonetalon Mountains. At Sun Rock Retreat, Tammra Windfield enchants raw Gaea Seeds so they can withstand corruption and elemental blight. Planted in the fertile dirt mounds beneath the Charred Vale's soot, they take root despite the harsh land. Hostile fire elementals and invasive harpies still dominate the vale.",
    "spoiler": 0
   },
   {
    "title": "The Promise of Renewal",
-   "body": "The goal of planting these enchanted seeds extends beyond simple gardening; it is an active effort to turn the tide in the struggle for Stonetalon's future. The magic woven into the husks allows them to resist lingering corruption and establish a foothold for native flora. As they flourish, the restored vegetation is intended to soothe the agitated fire elementals, crowd out feral harpies, and counter the rampant deforestation driven by the Venture Company's relentless logging operations.",
+   "body": "Planting the seeds is part of the struggle for Stonetalon's future. Their enchanted husks resist lingering corruption and give native plants a foothold. The returning vegetation is meant to soothe agitated fire elementals, crowd out feral harpies, and counter the deforestation caused by the Venture Company's relentless logging.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "what do enchanted gaea seeds do",
     "why plant gaea seeds"
    ],
-   "answer": "They are planted into fertile dirt mounds within the Charred Vale. Their purpose is to sprout resilient flora that resists environmental corruption and begins healing the land destroyed by fire and warfare."
+   "answer": "Plant the seeds in fertile dirt mounds in the Charred Vale. They are meant to grow resilient plants that resist corruption and begin healing land scarred by fire and warfare."
   },
   {
    "q": "Who created or enchanted these seeds?",
@@ -40,7 +40,7 @@
     "tammra windwhisper seeds",
     "how are gaea seeds made"
    ],
-   "answer": "Raw Gaea seeds are collected from the surrounding wilderness and brought to Tammra Windfield at Sun Rock Retreat. She enchants them so they can survive the hostile, ash-laden soil of the Charred Vale."
+   "answer": "Raw Gaea Seeds are gathered in the surrounding wilderness and brought to Tammra Windfield at Sun Rock Retreat. She enchants them to help them survive the Charred Vale's hostile, ash-laden soil."
   },
   {
    "q": "Why must they be planted in the Charred Vale?",
@@ -49,7 +49,7 @@
     "why charred vale",
     "charred vale planting"
    ],
-   "answer": "The Charred Vale is the center of ecological destruction in the Stonetalon Mountains, overrun by angry fire elementals and harpies. Planting the seeds directly in its surviving soil mounds introduces vital life that works to soothe the region's turmoil."
+   "answer": "The Charred Vale is the center of ecological destruction in the Stonetalon Mountains, overrun by angry fire elementals and harpies. Planting the seeds in its surviving soil mounds brings new life meant to soothe the region's turmoil."
   },
   {
    "q": "What threats face the planted seeds?",
@@ -57,17 +57,17 @@
     "dangers in charred vale",
     "what is destroying the land"
    ],
-   "answer": "The Charred Vale is heavily plagued by hostile fire elementals born of the blaze, aggressive Bloodfury harpies nesting in the ruins, and encroaching industrial destruction from the Venture Company nearby."
+   "answer": "Hostile fire elementals born of the blaze and aggressive Bloodfury harpies nesting in the ruins threaten the planted seeds. The Venture Company's nearby operations bring further industrial destruction."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "The seeds showcase the fundamental druidic duty of nurturing the cycle of rebirth, actively coaxing resilient life back into a realm consumed by ruin and wildfire."
+   "text": "As a druid, you help nurture the cycle of rebirth, coaxing resilient life back into a land consumed by ruin and wildfire."
   },
   {
    "target": "race:Tauren",
-   "text": "For the Shu'halo of Sun Rock Retreat, planting the enchanted seeds is an act of spiritual stewardship to honor the Earth Mother and reclaim wounded land."
+   "text": "As one of the Shu'halo of Sun Rock Retreat, you plant the enchanted seeds as spiritual stewardship, honoring the Earth Mother and reclaiming wounded land."
   }
  ],
  "keywords": [
@@ -92,5 +92,6 @@
  "attribution": [
   "Enchanted Gaea Seeds",
   "New Life"
- ]
+ ],
+ "style": 1
 }

@@ -17,16 +17,16 @@
   "wiki": "Raene's Cleansing (7)",
   "chain": []
  },
- "summary": "This task marks the completion of the Rod of Transformation at the hidden shrine in Ashenvale. With the sacred artifact assembled, it must be returned immediately to the dryad Shael'dryn at her moonwell sanctuary.",
+ "summary": "At the hidden shrine in Ashenvale, Raene's Cleansing reaches a turning point. The Rod of Transformation is assembled and its magic restored, and you must return it to Shael'dryn at her moonwell sanctuary.",
  "sections": [
   {
    "title": "A Restored Relic",
-   "body": "The arduous effort to assemble the Rod of Transformation reaches a quiet turning point at the secluded shrine hidden deep within Ashenvale's wilds. Piecing together the shaft, pommel, and glowing gem, and re-enchanting the reconstructed rod at the hidden shrine has restored its magic. The artifact is ready to be returned to Shael'dryn for Raene's investigation of the furbolg attacks.",
+   "body": "At the hidden shrine in Ashenvale, you have restored the Rod of Transformation. Its shaft, pommel, and glowing gem are joined, and the rod has been re-enchanted. Shael'dryn needs it for Raene's investigation of the furbolg attacks.",
    "spoiler": 0
   },
   {
    "title": "Return to Shael'dryn",
-   "body": "With the assembly complete, word and relic must be delivered swiftly back to Shael'dryn. Stationed beside the calm waters of the forest moonwell, the dryad has guided every step of this restoration effort. Presenting the assembled rod to her not only confirms that the rod's magic has been restored, but also allows the Sentinel defenders to take the next critical steps in defending their besieged homeland.",
+   "body": "Shael'dryn waits beside the forest moonwell, where she has guided the rod's restoration. You bring her the finished relic and confirm its magic has returned. Then the Sentinel defenders can take their next steps to protect their besieged homeland.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "what is this quest",
     "quest goal"
    ],
-   "answer": "Having successfully assembled the Rod of Transformation at the hidden shrine, you simply need to take the finished rod back to the dryad Shael'dryn, who waits at the moonwell in northern Ashenvale."
+   "answer": "You have assembled the Rod of Transformation at the hidden shrine. Return it to Shael'dryn, who waits at the moonwell in northern Ashenvale."
   },
   {
    "q": "Who is Shael'dryn?",
@@ -47,7 +47,7 @@
     "who is shael'dryn",
     "priestess at moonwell"
    ],
-   "answer": "Shael'dryn is a dryad tending a sacred moonwell in Ashenvale. Working to cleanse the ancient forest of spreading corruption, she directs trusted allies to gather relics, purify components, and restore sacred artifacts."
+   "answer": "Shael'dryn is a dryad who tends a sacred moonwell in Ashenvale. She works to cleanse the ancient forest of spreading corruption and directs trusted allies to gather relics, purify components, and restore sacred artifacts."
   },
   {
    "q": "Where is Shael'dryn located?",
@@ -56,7 +56,7 @@
     "where is shaeldryn",
     "where moonwell"
    ],
-   "answer": "Shael'dryn resides at a quiet moonwell nestled in northern Ashenvale, east of the main road leading between Astranaar and Felwood, surrounded by the tranquil waters she watches over."
+   "answer": "Shael'dryn waits at a quiet moonwell in northern Ashenvale, east of the main road between Astranaar and Felwood. The tranquil waters are in her care."
   },
   {
    "q": "What is the Rod of Transformation?",
@@ -65,7 +65,7 @@
     "rod of transformation lore",
     "the rod"
    ],
-   "answer": "The rod is Dartol's magical creation. Its restored power is intended to help Raene investigate the furbolgs; what form it grants is discovered later."
+   "answer": "The Rod of Transformation is Dartol's magical creation. Its restored power is meant to help Raene investigate the furbolgs; the form it grants is discovered later."
   },
   {
    "q": "Why is assembling the rod so important to Astranaar?",
@@ -83,21 +83,21 @@
     "does raenes cleansing end here",
     "chain end"
    ],
-   "answer": "No. Shael'dryn next asks you to return to Raene Wolfrunner in Astranaar with news that the rod is finished."
+   "answer": "No. Shael'dryn next asks you to return to Raene Wolfrunner in Astranaar and tell her the rod is finished."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "Restoring the rod helps Raene investigate the furbolg attacks threatening Astranaar and the surrounding groves."
+   "text": "As a Night Elf, restoring the rod helps Raene investigate the furbolg attacks threatening Astranaar and the surrounding groves."
   },
   {
    "target": "faction:Alliance",
-   "text": "Securing Ashenvale is crucial for the Alliance's standing in northern Kalimdor, safeguarding Astranaar against relentless attacks by local corruption and hostile forces."
+   "text": "As an Alliance member, securing Ashenvale matters to your standing in northern Kalimdor and helps protect Astranaar from local corruption and hostile forces."
   },
   {
    "target": "class:Priest",
-   "text": "Assisting Shael'dryn restores a magical relic needed for Raene's investigation in Ashenvale."
+   "text": "As a priest, you help Shael'dryn restore a magical relic Raene needs for her investigation in Ashenvale."
   }
  ],
  "keywords": [
@@ -117,5 +117,6 @@
  ],
  "attribution": [
   "Raene's Cleansing (7)"
- ]
+ ],
+ "style": 1
 }

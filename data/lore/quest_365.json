@@ -20,21 +20,21 @@
    "Fields of Grief (2)"
   ]
  },
- "summary": "Fields of Grief is an early Forsaken mission assigned by Deathguard Simmer along the road north of Deathknell. It tasks fledglings with raiding a living human farmstead to harvest Tirisfal pumpkins for the Royal Apothecary Society in Brill.",
+ "summary": "Pumpkins are taken from a human farmstead north of Deathknell for the Royal Apothecary Society in Brill. Deathguard Simmer sends newly risen Forsaken to gather them.",
  "sections": [
   {
    "title": "A Lesson in Survival",
-   "body": "For new Forsaken adventurers freshly risen from the crypts of Deathknell, stepping onto the misty roads of Tirisfal Glades is an immediate lesson in hostility. Deathguard Simmer represents the pragmatic malice of Sylvanas Windrunner's forces: survival means seizing what the living possess and turning it toward the Undercity's darker endeavors.",
+   "body": "Deathguard Simmer sends you from the crypts of Deathknell into a hostile land. He serves Sylvanas Windrunner's forces, where survival means taking what the living possess and putting it to use for the Undercity's darker aims.",
    "spoiler": 0
   },
   {
    "title": "Raiding the Living",
-   "body": "The targets of the raid are the mortal human farmers attempting to work the blighted soil west of the road, north of Deathknell. Described by the Deathguard as infesting the realm like mold on a corpse, these peasants cling to their homesteads under the uneasy protection of nearby Scarlet Crusade towers. Snatching their crops deals a spiteful blow to their supplies while feeding the Royal Apothecary Society's endless demand for reagents.",
+   "body": "The farm lies west of the road, north of Deathknell, where mortal human peasants work blighted soil. Simmer says they infest the realm like mold on a corpse. The farmers hold their homesteads under the uneasy protection of nearby Scarlet Crusade towers. Taking their crops strikes at their supplies and provides produce for the Royal Apothecary Society's research.",
    "spoiler": 0
   },
   {
    "title": "Supplies for the Society",
-   "body": "The stolen pumpkins are delivered directly to Apothecary Johaan, who conducts experimental research in Brill. The Royal Apothecary Society frequently uses local agricultural produce and flora as bases for alchemical brews, poisons, and plague research intended to secure the Forsaken's precarious foothold in northern Lordaeron.",
+   "body": "Apothecary Johaan conducts experimental research in Brill, where the stolen pumpkins are delivered. The Royal Apothecary Society frequently uses local produce and flora as bases for alchemical brews, poisons, and plague research. Its work aims to secure the Forsaken's precarious foothold in northern Lordaeron.",
    "spoiler": 1
   }
  ],
@@ -46,7 +46,7 @@
     "fields of grief quest starter",
     "who starts fields of grief"
    ],
-   "answer": "Deathguard Simmer gives the quest. He is stationed guarding the road in southern Tirisfal Glades, just north of the exit path leading from Deathknell."
+   "answer": "Deathguard Simmer gives you the assignment. He guards the road in southern Tirisfal Glades, just north of the path out of Deathknell."
   },
   {
    "q": "Where do I take the Tirisfal Pumpkins?",
@@ -55,7 +55,7 @@
     "pumpkin turn in",
     "fields of grief hand in"
    ],
-   "answer": "You deliver the ten pumpkins to Apothecary Johaan, located in the town of Brill to the east in Tirisfal Glades."
+   "answer": "Take the ten Tirisfal Pumpkins to Apothecary Johaan in Brill, east in Tirisfal Glades."
   },
   {
    "q": "Why are there living humans farming in Tirisfal Glades?",
@@ -64,7 +64,7 @@
     "living humans tirisfal",
     "why are humans in undead zone"
    ],
-   "answer": "These human peasants are remnants of Lordaeron's original population who survived the Third War and the Scourge plague. They stubbornly cling to their homesteads in the shadow of nearby Scarlet Crusade guard posts, resisting Forsaken dominion."
+   "answer": "The human peasants are remnants of Lordaeron's original population who survived the Third War and the Scourge plague. They cling to their homesteads near Scarlet Crusade guard posts and resist Forsaken dominion."
   },
   {
    "q": "Why does Apothecary Johaan want pumpkins?",
@@ -73,7 +73,7 @@
     "what are pumpkins for",
     "apothecary johaan pumpkins"
    ],
-   "answer": "The Royal Apothecary Society utilizes various plants, blighted crops, and biological matter as testing agents and base components for their alchemical mixtures, poisons, and experimental plagues."
+   "answer": "Apothecary Johaan wants pumpkins for the Royal Apothecary Society's research. The Society uses plants, blighted crops, and biological matter as testing agents and base components for alchemical mixtures, poisons, and experimental plagues."
   },
   {
    "q": "Who patrols near the farmstead?",
@@ -81,7 +81,7 @@
     "scarlet crusade near farm",
     "who protects the farm"
    ],
-   "answer": "Zealots of the Scarlet Crusade patrol down from their watchtower nearby, defending the human settlement and attempting to purge any undead that approach the fields."
+   "answer": "Scarlet Crusade zealots patrol down from a nearby watchtower. They defend the human settlement and try to purge undead who approach the fields."
   },
   {
    "q": "What comes after Fields of Grief?",
@@ -90,21 +90,21 @@
     "fields of grief followup",
     "what is after fields of grief"
    ],
-   "answer": "After turning in the pumpkins, Apothecary Johaan immediately gives a follow-up quest of the same name, handing you a pumpkin laced with his latest formula to deliver to a captured Scarlet Zealot held in the cellar of the Gallows' End Tavern."
+   "answer": "After you deliver the pumpkins, Apothecary Johaan gives you another assignment of the same name. He hands you a pumpkin laced with his latest formula to take to a captured Scarlet Zealot in the cellar of the Gallows' End Tavern."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "This task marks your first military assignment outside Deathknell, proving your willingness to strip your former mortal kin of their livelihood to advance the Royal Apothecary Society."
+   "text": "As an Undead, this is your first military assignment outside Deathknell. You strip your former mortal kin of their livelihood to advance the Royal Apothecary Society."
   },
   {
    "target": "faction:Horde",
-   "text": "Securing Tirisfal Glades requires breaking the lingering human presence and dismantling the Scarlet Crusade's influence along the southern roadways."
+   "text": "As a member of the Horde, you help secure Tirisfal Glades by breaking the lingering human presence and dismantling Scarlet Crusade influence along the southern roads."
   },
   {
    "target": "profession:Herbalism",
-   "text": "Apothecaries rely heavily on the twisted flora of Tirisfal to formulate their deadly concoctions, making every local root and crop a reagent of war."
+   "text": "As a herbalist, you know apothecaries rely on Tirisfal's twisted flora for deadly concoctions. Every local root and crop can become a reagent of war."
   }
  ],
  "keywords": [
@@ -128,5 +128,6 @@
  ],
  "attribution": [
   "Fields of Grief (Classic)"
- ]
+ ],
+ "style": 1
 }

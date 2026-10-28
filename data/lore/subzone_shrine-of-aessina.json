@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Shrine of Aessina"
  },
- "summary": "The Shrine of Aessina is a sacred elven landmark nestled in the forests of southwestern Ashenvale, dedicated to the ancient forest spirit of nature and wild creatures. Located between Maestra's Post and Astranaar, it stands as a serene sanctuary amidst the growing border friction in the region.",
+ "summary": "At the Shrine of Aessina, night elves honor an ancient spirit of nature and wild creatures. The sacred place lies in southwestern Ashenvale, between Maestra's Post and Astranaar, amid growing border friction.",
  "sections": [
   {
    "title": "A Sanctuary of the Deep Woods",
-   "body": "Tucked away west of Astranaar, the Shrine of Aessina honors the mysterious Wild God who embodies the heart and spirit of the deep forests. For generations, night elves and their woodland kin have revered this quiet place, communing with nature away from the bustling main roads. However, with the Horde pushing into Ashenvale to gather timber and establish footholds, sacred grounds throughout the territory face an uncertain peace.",
+   "body": "West of Astranaar, the Shrine of Aessina honors a Wild God who embodies the heart and spirit of the deep forests. For generations, night elves and their woodland kin have revered this quiet place and communed with nature away from the main roads. The Horde is pushing into Ashenvale to gather timber and establish footholds, and sacred grounds across the territory face an uncertain peace.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "who is aessina",
     "shrine of aessina goddess"
    ],
-   "answer": "Aessina is a revered ancient nature spirit and Wild God associated with the heart of pristine forests. Night elves and woodland beings honor her as the living soul of nature, embodying the untamed wilderness."
+   "answer": "Aessina is an ancient nature spirit and Wild God associated with the heart of pristine forests. Night elves and woodland beings honor her as nature's living soul, embodying the untamed wilderness."
   },
   {
    "q": "Where is the Shrine of Aessina located?",
@@ -32,7 +32,7 @@
     "where is shrine of aessina",
     "find shrine of aessina"
    ],
-   "answer": "The shrine lies in southwestern Ashenvale, situated southwest of Maestra's Post, and west of the settlement of Astranaar."
+   "answer": "The shrine lies in southwestern Ashenvale, southwest of Maestra's Post and west of Astranaar."
   },
   {
    "q": "Why is this place significant to the night elves?",
@@ -40,17 +40,17 @@
     "importance of aessina shrine",
     "night elf sacred site"
    ],
-   "answer": "The shrine serves as an ancient holy retreat dedicated to woodland spirits. Sites like this connect night elf society and druidic traditions directly to the untamed wilderness of Kalimdor."
+   "answer": "Night elves honor the shrine as an ancient holy retreat dedicated to woodland spirits. It connects their society and druidic traditions directly to Kalimdor's untamed wilderness."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "As an ancient sanctuary honoring the living spirit of the wild woods, the shrine is a place of profound significance to those devoted to preserving Kalimdor's natural balance."
+   "text": "As a druid devoted to preserving Kalimdor's natural balance, you honor the living spirit of the wild woods at this ancient shrine."
   },
   {
    "target": "race:NightElf",
-   "text": "For the Kaldorei, the shrine represents centuries of harmony with Ashenvale's native spirits, now constantly threatened by encroaching outside forces."
+   "text": "For the Kaldorei, the shrine represents centuries of harmony with Ashenvale's native spirits, now threatened by encroaching outside forces."
   }
  ],
  "keywords": [
@@ -72,5 +72,6 @@
  ],
  "attribution": [
   "Shrine of Aessina"
- ]
+ ],
+ "style": 1
 }

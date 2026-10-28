@@ -8,11 +8,11 @@
   "wiki": "Ruul Snowhoof",
   "refs": 1
  },
- "summary": "Ruul Snowhoof is a tauren druid held captive inside Thistlefur Hold in northern Ashenvale. Trapped in his bear form within a crude cage, he relies on Horde adventurers to break him out and guide him to safety.",
+ "summary": "Deep in northern Ashenvale, Ruul Snowhoof waits for rescue. The tauren druid is trapped in bear form inside a crude cage at Thistlefur Hold, relying on Horde adventurers to free him and guide him to safety.",
  "sections": [
   {
    "title": "A Bear in a Cage",
-   "body": "Ruul Snowhoof ventured into northern Ashenvale only to fall into the clutches of the corrupt Thistlefur furbolgs. When captured, he assumed the shape of a mighty bear\u2014a guise his captors entirely mistook for an actual wild beast. Instead of slaying him outright, the furbolgs locked him inside a wooden cage deep within Thistlefur Hold, leaving him to slowly starve. Weakened and unable to safely drop his form or fight his way out alone, Ruul waits for allies of the Horde to spring his lock, fight off his jailers, and clear a path through the den so he can return to his sister, Yama Snowhoof, at Splintertree Post.",
+   "body": "Ruul Snowhoof entered northern Ashenvale and fell into the hands of the corrupt Thistlefur furbolgs. He took the shape of a bear, and his captors mistook him for a wild beast. They locked him in a wooden cage deep within Thistlefur Hold instead of killing him. Now weakened and unable to safely leave his form or fight his way out alone, Ruul waits for Horde allies to open the cage, drive off his captors, and clear a path through the den. He hopes to return to his sister, Yama Snowhoof, at Splintertree Post.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "ruul snowhoof bear form",
     "why is he caged"
    ],
-   "answer": "Ruul is a tauren druid who took on Bear Form when confronted by the Thistlefur furbolgs. His captors mistook him for a genuine wild beast rather than a shapeshifted druid and locked him away in a cage deep inside their hold."
+   "answer": "Ruul Snowhoof took Bear Form when the Thistlefur furbolgs confronted him. They mistook the tauren druid for a wild beast and locked him in a cage deep inside their hold."
   },
   {
    "q": "Why don't the furbolgs just kill Ruul?",
@@ -32,7 +32,7 @@
     "why starving ruul",
     "what do furbolgs want with ruul"
    ],
-   "answer": "The corrupted Thistlefur furbolgs chose to keep Ruul captive in his beast form and are, for reasons of their own cruelty or malice, slowly starving him in his cage rather than slaying him immediately."
+   "answer": "The Thistlefur furbolgs keep Ruul captive in bear form and let him slowly starve in his cage. The reason they chose this over killing him is not known."
   },
   {
    "q": "Where does Ruul go after escaping Thistlefur Hold?",
@@ -40,7 +40,7 @@
     "where does ruul go",
     "ruul snowhoof destination"
    ],
-   "answer": "Once escorted past the furbolg patrols to the safety outside Thistlefur Hold, Ruul directs his saviors to report his survival to his sister, Yama Snowhoof, who is stationed at Splintertree Post."
+   "answer": "After Ruul escapes Thistlefur Hold, he asks his rescuers to tell his sister, Yama Snowhoof, that he survived. She is at Splintertree Post."
   },
   {
    "q": "Can Alliance players interact with Ruul Snowhoof?",
@@ -48,17 +48,17 @@
     "is ruul horde only",
     "alliance ruul snowhoof"
    ],
-   "answer": "No. Ruul Snowhoof is loyal to the Horde and will only offer his escape quest and assistance to Horde adventurers who discover his cage."
+   "answer": "No. Ruul Snowhoof is loyal to the Horde and offers help escaping only to Horde adventurers who find his cage."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "Finding a brother of the Cenarion path caged in beast form by corrupted furbolgs underscores the creeping taint affecting Ashenvale's wildlife and primitive tribes."
+   "text": "As a druid, finding Ruul caged in bear form shows the taint spreading through Ashenvale's wildlife and furbolg tribes."
   },
   {
    "target": "race:Tauren",
-   "text": "Ruul belongs to the respected Snowhoof family; rescuing him ensures one of your own blood returns alive to his sister Yama at Splintertree Post."
+   "text": "As a tauren, rescuing Ruul Snowhoof brings a member of the Snowhoof family back alive to his sister Yama at Splintertree Post."
   }
  ],
  "keywords": [
@@ -82,5 +82,6 @@
  ],
  "attribution": [
   "Ruul Snowhoof"
- ]
+ ],
+ "style": 1
 }

@@ -8,11 +8,11 @@
   "wiki": "Huldar",
   "refs": 2
  },
- "summary": "Huldar is a dwarven teamster stationed along the southern road of Loch Modan, near the shores of the lake. Tasked with hauling vital blast powder to the dig site in the south, his delivery caravan faces relentless harassment from local threats and Dark Iron saboteurs.",
+ "summary": "Along Loch Modan’s southern road, Huldar’s powder run has come to a halt. His wagon carries blast powder for the southern dig, but threats on the road have put the delivery in danger.",
  "sections": [
   {
    "title": "A Powder Run in Peril",
-   "body": "Hauling explosives through Loch Modan is no simple trade route. Huldar was tasked with driving wagonloads of mining blast powder down toward the southern excavation site, where dwarven archaeologists and prospectors desperately need supplies. However, the wilderness roads have become increasingly hazardous. With local wildlife, troggs, and Dark Iron infiltrators lurking near the lake's southern bend, Huldar finds himself stranded by his damaged wagon, relying on wandering travelers to safeguard the remaining powder kegs and ensure the shipment reaches the dig.",
+   "body": "Huldar’s wagon is stranded on the road through southern Loch Modan. He was sent with loads of mining blast powder for the excavation site, where dwarven archaeologists and prospectors need supplies. Local wildlife and troggs threaten the route near the lake’s southern bend. Dark Iron infiltrators also lurk there. With his wagon damaged, Huldar depends on passing travelers to guard the remaining powder kegs and carry the shipment to the dig.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "huldar loch modan",
     "wagon dwarf"
    ],
-   "answer": "Huldar is a dwarven teamster stranded by his wagon on the southern bank of the lake in Loch Modan. He was tasked with hauling blast powder to the nearby excavation site before his supply run ran into trouble."
+   "answer": "Huldar is a dwarven teamster stranded by his wagon on Loch Modan’s southern bank. He was hauling blast powder to the nearby excavation site when the run went wrong."
   },
   {
    "q": "What is in Huldar's wagon?",
@@ -33,7 +33,7 @@
     "huldar wagon cargo",
     "what are the barrels"
    ],
-   "answer": "His wagon carries barrels of blast powder. The explosives are desperately needed by dwarven prospectors and archaeologists working at the excavation site to the south."
+   "answer": "Huldar’s wagon carries barrels of blast powder. Dwarven prospectors and archaeologists at the southern excavation site need the explosives."
   },
   {
    "q": "Why is Huldar stuck on the road?",
@@ -41,7 +41,7 @@
     "why is huldar stranded",
     "huldar ambush"
    ],
-   "answer": "The roads through southern Loch Modan have grown dangerous due to hostile beasts, troggs, and Dark Iron dwarf saboteurs. Huldar's shipment was ambushed, forcing him to halt and seek help to secure and deliver the remaining supplies."
+   "answer": "Hostile beasts, troggs, and Dark Iron dwarf saboteurs threaten the roads through southern Loch Modan. An ambush stopped Huldar’s shipment, leaving him to seek help guarding and delivering the remaining supplies."
   },
   {
    "q": "Why do the Dark Iron dwarves care about his cargo?",
@@ -49,17 +49,17 @@
     "dark iron blast powder",
     "why dark irons attack huldar"
    ],
-   "answer": "The Dark Iron clan actively seeks to undermine Ironforge's presence and historical research throughout Loch Modan. Cutting off blast powder halts excavation efforts and deprives dwarven operations of defensive and industrial supplies."
+   "answer": "The Dark Iron clan seeks to undermine Ironforge’s presence and historical research throughout Loch Modan. Cutting off blast powder can halt excavation and deprive dwarven operations of defensive and industrial supplies."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "Aiding Huldar directly supports the Explorer's League dig site, ensuring your kin have the powder needed to unearth ancient titan secrets."
+   "text": "As a dwarf, helping Huldar supports the Explorer's League dig site and supplies your kin with powder to unearth ancient titan secrets."
   },
   {
    "target": "profession:Engineering",
-   "text": "Any engineer knows the value\u2014and the volatility\u2014of raw blast powder sitting exposed in stranded wooden barrels."
+   "text": "As an engineer, you know raw blast powder is valuable and volatile, especially in exposed wooden barrels."
   }
  ],
  "keywords": [
@@ -81,5 +81,6 @@
  ],
  "attribution": [
   "Huldar"
- ]
+ ],
+ "style": 1
 }

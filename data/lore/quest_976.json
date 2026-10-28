@@ -17,16 +17,16 @@
   "wiki": "Supplies to Auberdine",
   "chain": []
  },
- "summary": "Supplies to Auberdine is an escort mission where Alliance adventurers protect Feero Ironhand as he carries critical provisions and messages from Maestra's Post northward toward Darkshore. Given the growing menace radiating from the Tower of Althalaxx and the presence of hostile infiltrators in Ashenvale, safe passage cannot be taken for granted.",
+ "summary": "Feero Ironhand carries provisions and messages north from Maestra's Post toward Auberdine, with Alliance adventurers guarding the way. Trouble around the Tower of Althalaxx and hostile infiltrators make the road unsafe.",
  "sections": [
   {
    "title": "A Perilous Road North",
-   "body": "Maestra's Post sits on the western frontier of Ashenvale, a quiet outpost caught between the wild tensions of the forest and the troubled lands of Darkshore. Following investigations into the sinister activity surrounding the Tower of Althalaxx, Delgren the Purifier gathers vital supplies and intelligence bound for Sentinel Starbreeze in Auberdine. Rather than risking solitary couriers, the outpost relies on armed escorts to accompany Feero Ironhand as he treks along the forest road.",
+   "body": "Maestra's Post lies on Ashenvale's western frontier, between the forest and Darkshore. After investigations into sinister activity around the Tower of Althalaxx, Delgren the Purifier sends supplies and intelligence to Sentinel Starbreeze in Auberdine. The outpost relies on armed escorts instead of solitary couriers, so Feero Ironhand travels with guards along the forest road.",
    "spoiler": 0
   },
   {
    "title": "Shadows Along the Trail",
-   "body": "The journey reveals just how compromised the wilderness around the road has become. Feero's route is beset by coordinated ambushes. Cultists of the Dark Strand seek to silence any reports regarding their demonic rituals, Forsaken scouts stalk the woodland underbrush, and vicious commanders such as Balizar the Umbrage, Aligar the Tormentor, and Caedakar the Vicious attempt to cut down the caravan before it reaches the border.",
+   "body": "Feero Ironhand's road north brings him through woods where ambushes threaten his delivery. Cultists of the Dark Strand seek to silence reports of their demonic rituals. Forsaken scouts stalk the underbrush, while Balizar the Umbrage, Aligar the Tormentor, and Caedakar the Vicious each attempt to cut down the caravan before it reaches the border.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "feero ironhand lore",
     "who is the dwarf escort"
    ],
-   "answer": "Feero Ironhand is a human courier stationed at Maestra's Post in western Ashenvale. Entrusted by Delgren the Purifier to carry important messages and logistical aid to Auberdine, he is cautious enough to refuse to travel without capable bodyguards."
+   "answer": "Feero Ironhand is a human courier stationed at Maestra's Post in western Ashenvale. Delgren the Purifier entrusts him with messages and logistical aid for Auberdine, and he will not travel without capable bodyguards."
   },
   {
    "q": "Why does Auberdine need these supplies?",
@@ -47,7 +47,7 @@
     "auberdine supplies",
     "sentinel starbreeze"
    ],
-   "answer": "Darkshore and northern Ashenvale face rising corruption and threats from demonic cultists operating out of the Tower of Althalaxx. The night elf Sentinels stationed in Auberdine, led locally by figures like Sentinel Starbreeze, need fresh provisions and up-to-date intelligence to maintain their defense of the coast."
+   "answer": "Darkshore and northern Ashenvale face growing corruption and threats from demonic cultists operating out of the Tower of Althalaxx. The night elf Sentinels in Auberdine, led locally by Sentinel Starbreeze, need provisions and current intelligence to defend the coast."
   },
   {
    "q": "Who attacks Feero along the road?",
@@ -56,7 +56,7 @@
     "feero ambushers",
     "who attacks on the road"
    ],
-   "answer": "Feero warns that dangerous foes operate throughout the forest and asks for guards. The identities of those who attack are discovered during the escort."
+   "answer": "Feero warns that dangerous foes operate throughout the forest and asks for guards. Their identities become clear during the escort."
   },
   {
    "q": "What is the connection to the Tower of Althalaxx?",
@@ -65,7 +65,7 @@
     "tower of althalaxx",
     "delgren connection"
    ],
-   "answer": "Delgren the Purifier has been orchestrating efforts to uncover and disrupt the dark rituals of the cultists at the Tower of Althalaxx. This escort grows out of that investigation, ensuring that intelligence and vital support reach the Night Elf leadership in Auberdine."
+   "answer": "Delgren the Purifier is orchestrating efforts to uncover and disrupt the dark rituals of the cultists at the Tower of Althalaxx. This escort grows from that investigation, carrying intelligence and support to the Night Elf leadership in Auberdine."
   },
   {
    "q": "Where do I report after protecting Feero?",
@@ -74,21 +74,21 @@
     "where do i go after escorting feero",
     "quest turn in"
    ],
-   "answer": "After seeing Feero safely through the ambushes in Ashenvale, you report back to Delgren the Purifier at Maestra's Post to confirm the delivery succeeded."
+   "answer": "After you see Feero safely through the Ashenvale ambushes, you report to Delgren the Purifier at Maestra's Post and confirm the delivery succeeded."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Safeguarding this corridor ensures that the outposts in Ashenvale remain connected to Auberdine's logistical hub, preserving the Alliance's fragile hold on northern Kalimdor."
+   "text": "By safeguarding this route, you help keep Ashenvale's outposts connected to Auberdine, preserving the Alliance's fragile hold on northern Kalimdor."
   },
   {
    "target": "race:NightElf",
-   "text": "The supplies and dispatches sent north directly aid the Sentinels in Auberdine as they contend with growing darkness across Darkshore and along the Ashenvale border."
+   "text": "The supplies and dispatches you escort north aid the Sentinels in Auberdine as they face growing darkness across Darkshore and along the Ashenvale border."
   },
   {
    "target": "race:Human",
-   "text": "Feero Ironhand represents human willingness to support kaldorei allies deep within unfamiliar, dangerous ancient forests."
+   "text": "As a human, you see Feero Ironhand represent your people's willingness to support kaldorei allies in unfamiliar, dangerous ancient forests."
   }
  ],
  "keywords": [
@@ -114,5 +114,6 @@
  ],
  "attribution": [
   "Supplies to Auberdine"
- ]
+ ],
+ "style": 1
 }

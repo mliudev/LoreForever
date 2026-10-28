@@ -10,11 +10,11 @@
    "quest:1197"
   ]
  },
- "summary": "The Cloven Hoof is a mysterious relic guarded deep within Thousand Needles by the Galak centaur tribe. Preserved inside an ancient sacred flame at Splithoof Hold, it emanates an uncharacteristic supernatural energy that tauren scholars are keen to understand.",
+ "summary": "Deep in Thousand Needles, the Galak centaur guard the Cloven Hoof within a sacred flame at Splithoof Hold. Tauren scholars seek to understand the strange energy rising from the relic.",
  "sections": [
   {
    "title": "A Sacred Centaur Relic",
-   "body": "Held within an ancient brazier at the deepest recess of Splithoof Hold, the Cloven Hoof is one of the most treasured relics of the Galak centaur. The artifact is continually enveloped in a magical flame, requiring blessed water to briefly quench the blaze so it can be handled. Centaur society is notoriously brutal and splintered into violent clans, but their reverence for the brazier suggests ritual significance tied directly to their origins. Tauren observers like Rau Cliffrunner at Freewind Post believe the strange aura radiating from the hoof could reveal critical insight into the race that has plagued Kalimdor's plains for generations.",
+   "body": "At the heart of Splithoof Hold, the Galak centaur keep the Cloven Hoof in an ancient brazier. Magical fire surrounds the relic, and blessed water must quench the flame for a moment before anyone can handle it. The centaur clans are divided and violent, yet their care for the brazier points to a ritual bound to their origins. At Freewind Post, Rau Cliffrunner and other tauren observers hope the strange aura of the hoof will teach them about the centaur who have long troubled Kalimdor's plains.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "where to find cloven hoof",
     "splithoof hold relic"
    ],
-   "answer": "The Cloven Hoof rests inside an ancient brazier at the very back of Splithoof Hold, a cavern within Splithoof Crag north of Freewind Post. It is guarded heavily by elite warriors of the Galak centaur."
+   "answer": "The Cloven Hoof rests in an ancient brazier at the back of Splithoof Hold, a cavern in Splithoof Crag north of Freewind Post. Elite Galak warriors guard it."
   },
   {
    "q": "Why does Rau Cliffrunner want the Cloven Hoof?",
@@ -35,7 +35,7 @@
     "rau cliffrunner quest",
     "who wants cloven hoof"
    ],
-   "answer": "Rau Cliffrunner seeks to study the artifact to learn more about centaur origins and magic. He senses a strange energy radiating from the relic that he hopes will unlock long-hidden mysteries about the hostile clans."
+   "answer": "Rau Cliffrunner wants to study the Cloven Hoof to learn about centaur origins and magic. He senses strange energy from the relic and hopes it will reveal hidden truths about the hostile clans."
   },
   {
    "q": "How is the Cloven Hoof retrieved from the brazier?",
@@ -44,7 +44,7 @@
     "douse sacred flame",
     "filled etched phial use"
    ],
-   "answer": "The relic is enveloped in magical fire and cannot be taken directly. A phial of special water must be poured into the ancient brazier to temporarily douse the sacred flame, allowing the hoof to be safely snatched before the blaze reignites."
+   "answer": "Magical fire surrounds the Cloven Hoof, so it cannot be taken directly. Pour a phial of special water into the ancient brazier to quench the sacred flame briefly, then take the hoof before the blaze returns."
   },
   {
    "q": "Who are the Galak centaur guarding it?",
@@ -53,17 +53,17 @@
     "splithoof crag centaur",
     "who guards the flame"
    ],
-   "answer": "The Galak tribe is the prominent centaur faction occupying the northern reaches of Thousand Needles. They make their stronghold at Splithoof Crag and aggressively defend their sacred fire from outsiders."
+   "answer": "The Galak are a centaur tribe that holds the northern reaches of Thousand Needles. Their stronghold is Splithoof Crag, where they fiercely guard their sacred fire from outsiders."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "For generations, the nomadic tauren suffered under relentless centaur aggression. Uncovering the origin and magical secrets behind relics like the Cloven Hoof offers valuable knowledge against their historic adversaries."
+   "text": "For generations, the nomadic tauren have endured relentless centaur aggression. Learning the origins and magic of relics like the Cloven Hoof could offer knowledge of their old adversaries."
   },
   {
    "target": "class:Shaman",
-   "text": "The use of ritual elements to safely quench magical flames and retrieve imbued relics highlights the subtle nature of spiritual investigation in Kalimdor."
+   "text": "Ritual elements can briefly quench magical flames and let the Cloven Hoof be retrieved. Such work calls for careful spiritual study in Kalimdor."
   }
  ],
  "keywords": [
@@ -87,5 +87,6 @@
  "attribution": [
   "Cloven Hoof",
   "The Sacred Flame (3)"
- ]
+ ],
+ "style": 1
 }

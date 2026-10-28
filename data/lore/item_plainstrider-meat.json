@@ -10,16 +10,16 @@
    "quest:747"
   ]
  },
- "summary": "Plainstrider Meat is freshly harvested game taken from the flightless birds that wander the plains of Mulgore. For the young tauren coming of age on Red Cloud Mesa, gathering this sustenance serves as both vital winter provisions and a core rite of passage.",
+ "summary": "Across Red Cloud Mesa, Plainstrider Meat helps feed Camp Narache. Young tauren hunt the birds for food and feathers, proving their skill and self-reliance.",
  "sections": [
   {
    "title": "Sustenance for the Mesa",
-   "body": "Tauren life is inextricably bound to the land, balancing respect for nature with the practical necessity of survival. On Red Cloud Mesa, the settlement of Camp Narache depends heavily on game hunted from the surrounding grasslands. Plainstrider meat provides essential food reserves for the village when stocks run lean, while the birds' plumage offers material for clothing and ceremonial adornments.",
+   "body": "Camp Narache on Red Cloud Mesa depends on game from the surrounding grasslands. Plainstrider meat helps feed the village when food stocks run low. The birds also provide feathers for clothing and ceremonial adornments. Tauren life depends on the land, and survival means taking what is needed while respecting nature.",
    "spoiler": 0
   },
   {
    "title": "A Young Hunter's Trial",
-   "body": "Hunting plainstriders is one of the initial tests given to youth seeking to earn the tribe's respect. Grull Hawkwind directs hopeful hunters to stalk the swift birds across the mesa, gathering meat and feathers to prove their tracking skills and self-reliance before appearing before his father, Chief Hawkwind.",
+   "body": "Grull Hawkwind sends young hunters across Red Cloud Mesa to track the swift plainstriders. They gather meat and feathers to prove their tracking skill and self-reliance. Then they appear before Grull's father, Chief Hawkwind.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "plainstrider meat quest",
     "what do i do with plainstrider meat"
    ],
-   "answer": "Plainstrider Meat is gathered by young hunters on Red Cloud Mesa to resupply Camp Narache's depleted food stores, fulfilling an essential task for Grull Hawkwind."
+   "answer": "Young hunters gather Plainstrider Meat on Red Cloud Mesa to replenish Camp Narache's food stores for Grull Hawkwind."
   },
   {
    "q": "Who asks for this meat?",
@@ -39,7 +39,7 @@
     "who wants plainstrider meat",
     "grull hawkwind meat"
    ],
-   "answer": "Grull Hawkwind, son of Chief Hawkwind, asks initiates to hunt the plainstriders of the mesa to replenish the tribe's food supplies and prove their worth as providers."
+   "answer": "Grull Hawkwind asks young hunters to hunt plainstriders and replenish the tribe's food supplies while proving their worth as providers."
   },
   {
    "q": "Where can Plainstrider Meat be found?",
@@ -48,7 +48,7 @@
     "plainstrider locations",
     "farm plainstrider meat"
    ],
-   "answer": "It is harvested from the flightless plainstriders wandering the grasslands of Mulgore, notably across the rolling hills of Red Cloud Mesa."
+   "answer": "Plainstriders roam Mulgore's grasslands, including Red Cloud Mesa, where their meat is gathered."
   },
   {
    "q": "Why is hunting plainstriders considered important to the tauren?",
@@ -56,17 +56,17 @@
     "tauren hunting culture",
     "why hunt plainstriders"
    ],
-   "answer": "The tauren hunt both for practical necessity and as a spiritual discipline. Bringing game back to the camp demonstrates respect for the Earth Mother, self-reliance, and the ability to sustain the tribe."
+   "answer": "Tauren hunt plainstriders for food and as a spiritual discipline. Bringing game to camp shows respect for the Earth Mother, self-reliance, and the ability to sustain the tribe."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "For tauren youths stepping out onto Red Cloud Mesa, hunting plainstriders is the first practical step toward winning the respect of Chief Hawkwind and earning the right to walk into Thunder Bluff."
+   "text": "As a tauren youth on Red Cloud Mesa, hunting plainstriders is an early step toward earning Chief Hawkwind's respect and the right to walk into Thunder Bluff."
   },
   {
    "target": "class:Hunter",
-   "text": "The swift plainstrider offers fledgling hunters an early test of their tracking and marksmanship across the open plains of Mulgore."
+   "text": "As a hunter, you can test your tracking and marksmanship against swift plainstriders across Mulgore's open plains."
   }
  ],
  "keywords": [
@@ -92,5 +92,6 @@
  "attribution": [
   "Plainstrider Meat",
   "The Hunt Begins"
- ]
+ ],
+ "style": 1
 }

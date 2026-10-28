@@ -180,17 +180,49 @@ test("a rush of fallbacks opens Together's breaker: answers skip it, say so, and
   assert.equal((await ask({})).answer, FROM_TOGETHER, "after it, Together answers again");
 });
 
-test("a spoken picture question goes to Together without the picture unless it points at something on screen", async () => {
+test("a spoken picture question: she answers without the picture, or calls look and the picture's answer is hers", async () => {
+  // LOR-856 E4: looking is her call, not her words'. The picture's answer starts beside hers and waits.
   const jpeg = Buffer.concat([Buffer.from([0xff, 0xd8, 0xff, 0xe0]), Buffer.alloc(296, 7)]).toString("base64");
-  let sent;
   const healthy = together;
+  const looked = () => env.DB.sqlite.prepare("SELECT lookups FROM answer_log ORDER BY rowid DESC").get().lookups;
+  const gemini = () => calls.filter(u => u.includes("generativelanguage.googleapis.com"));
+  let sent;
   together = options => { sent = options.body; return healthy(options); };
-  assert.equal((await ask({ style: "spoken", image: jpeg })).answer, FROM_TOGETHER);
-  assert.ok(!sent.includes("image_url") && !sent.includes(jpeg), "the picture isn't sent");
-  for (const question of ["Who is this?", "Mikä tämä on?"]) {
-    calls = [];
-    assert.equal((await ask({ style: "spoken", image: jpeg, question })).answer, FROM_GEMINI, question);
-    assert.ok(!calls.includes(TOGETHER_URL), `${question}: Together isn't asked`);
+  assert.equal((await ask({ style: "spoken", image: jpeg, question: "Who is this?", keep: true })).answer, FROM_TOGETHER,
+    "she answered without looking, so hers stands, whatever the words");
+  assert.ok(!sent.includes(jpeg), "her answer host never gets the picture");
+  const look = JSON.parse(sent).tools?.find(t => t.function?.name === "see_screen")?.function;
+  assert.ok(look, "she's offered look");
+  assert.ok(!look.parameters?.properties?.answer, "look takes no answer: she answers once she's seen");
+  assert.match(looked(), /route-deepseek.*picture-discarded/);
+
+  calls = [];
+  together = () => new Response(events([piece("see_screen", "{}"), toolsDone]), { headers: { "Content-Type": "text/event-stream" } });
+  assert.equal((await ask({ style: "spoken", image: jpeg, question: "Where is Thrall?", keep: true })).answer, FROM_GEMINI,
+    "she called look: the picture's answer is hers");
+  assert.equal(gemini().length, 1, "the picture's answer was asked once, beside hers");
+  assert.match(looked(), /route-look.*picture-used/);
+
+  together = () => new Response("busy", { status: 503 });
+  calls = [];
+  assert.equal((await ask({ style: "spoken", image: jpeg, keep: true })).answer, FROM_GEMINI,
+    "her answer host failing leaves the picture's answer");
+  assert.match(looked(), /route-picture-fallback.*picture-used/);
+
+  calls = [];
+  together = healthy;
+  assert.equal((await ask({ style: "spoken", image: jpeg, look: "screen" })).answer, FROM_GEMINI,
+    "a screen look the app asked for goes straight to the picture");
+  assert.ok(!calls.includes(TOGETHER_URL));
+
+  // Asking what they mean, without looking, hands it to the picture's answer; any other question of hers stands.
+  const says = text => () => new Response(events([words(text), end]), { headers: { "Content-Type": "text/event-stream" } });
+  together = says("Which card do you mean?");
+  assert.equal((await ask({ style: "spoken", image: jpeg, keep: true })).answer, FROM_GEMINI);
+  assert.match(looked(), /route-look-asked/);
+  for (const reply of ["Thrall is in Orgrimmar. Want me to pin it?", "Did you mean Thrall, the Warchief?"]) {
+    together = says(reply);
+    assert.equal((await ask({ style: "spoken", image: jpeg, keep: true })).answer, reply, reply);
   }
 });
 

@@ -17,16 +17,16 @@
   "wiki": "The Dormant Shade",
   "chain": []
  },
- "summary": "The Dormant Shade is a dark ritual performed at Gunther's Retreat on Brightwater Lake in Tirisfal Glades. By placing a mystic candle upon an old, blood-soaked table, a traveler summons forth the Scourge agent Lillith Nefara, whose defeat proves to Gunther Arcanus that the visitor is the Lich King's foe.",
+ "summary": "A dark rite waits at Gunther's Retreat on Brightwater Lake in Tirisfal Glades. Set a mystic candle on an old, blood-soaked table to summon Lillith Nefara, a Scourge agent, and prove to Gunther Arcanus that you oppose the Lich King.",
  "sections": [
   {
    "title": "A Gruesome Altar",
-   "body": "On the island of Gunther's Retreat in Brightwater Lake rests a battered, bloody dinner table. Far from an ordinary piece of neglected domestic furniture, it serves as the physical focus for a sinister conjuration. Stained with dried gore and abandoned to the shadows, the table acts as a makeshift ritual slab where death and dark magic linger.",
+   "body": "On Gunther's Retreat, an island in Brightwater Lake, a battered dinner table lies stained with blood. The table is no ordinary abandoned piece of furniture. It is the focus of a dark conjuration, a rough slab where dried gore marks the place death and dark magic gather.",
    "spoiler": 0
   },
   {
    "title": "The Candle of Beckoning",
-   "body": "To awaken whatever lurks attached to the site, one must place the Candle of Beckoning upon the bloodied surface and ignite its flame. The candle's light cuts through the Tirisfal gloom, calling forth the spirit of Lillith Nefara from the veil of death. It is an intentional act of necromantic disturbance designed to challenge those who seek to prove their mettle and allegiance.",
+   "body": "Place the Candle of Beckoning on the bloodied table and light it, and Lillith Nefara's spirit answers from beyond death. The flame calls the Scourge agent out of her rest, bringing her into a test for those who seek to prove their allegiance.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "dormant shade objective",
     "table ritual"
    ],
-   "answer": "Lighting the Candle of Beckoning on the battered, bloody table summons the shade of Lillith Nefara, a dangerous apparition who must be vanquished."
+   "answer": "Lighting the Candle of Beckoning on the battered, bloody table summons Lillith Nefara, a dangerous shade you must defeat."
   },
   {
    "q": "Who is summoned by this ritual?",
@@ -47,7 +47,7 @@
     "dormant shade ghost",
     "who is the shade"
    ],
-   "answer": "The ritual draws forth Lillith Nefara, an undead spirit and Scourge agent haunting Gunther's Retreat on Brightwater Lake in Tirisfal Glades."
+   "answer": "The ritual summons Lillith Nefara, an undead spirit and Scourge agent who haunts Gunther's Retreat on Brightwater Lake in Tirisfal Glades."
   },
   {
    "q": "How does this relate to proving allegiance to the Forsaken?",
@@ -56,7 +56,7 @@
     "why kill lillith",
     "forsaken test"
    ],
-   "answer": "Summoning and destroying Lillith Nefara is the test set in the quest Proving Allegiance: the reclusive Gunther Arcanus demands it as proof that you are truly an enemy of the Scourge, not a servant of the Lich King."
+   "answer": "Summoning and defeating Lillith Nefara proves to the reclusive Gunther Arcanus that you oppose the Scourge and serve no purpose to the Lich King."
   },
   {
    "q": "Where does this ritual take place?",
@@ -65,7 +65,7 @@
     "where is the table",
     "lilliths dinner table"
    ],
-   "answer": "The ritual occurs at Gunther's Retreat, Gunther Arcanus's island in Brightwater Lake in Tirisfal Glades, at a battered dinner table stained with dried blood just off the island's southern coast."
+   "answer": "The ritual takes place at Gunther's Retreat, Gunther Arcanus's island in Brightwater Lake in Tirisfal Glades. A battered dinner table stained with dried blood sits just off the island's southern coast."
   },
   {
    "q": "Can anyone light the candle?",
@@ -74,7 +74,7 @@
     "class requirements",
     "candle ritual"
    ],
-   "answer": "Anyone possessing the Candle of Beckoning who is undertaking the trials of allegiance for the Forsaken can ignite the flame upon the altar."
+   "answer": "Anyone with the Candle of Beckoning who undertakes the Forsaken's trials of allegiance can light it on the altar."
   },
   {
    "q": "Is the table naturally haunted?",
@@ -82,21 +82,21 @@
     "is the table magical",
     "why the bloody table"
    ],
-   "answer": "The table is the old, bloody altar used by the Scourge agent Lillith Nefara. Lighting the Candle of Beckoning on it is what wakes her from her rest."
+   "answer": "The table is an old, bloody altar used by the Scourge agent Lillith Nefara. Lighting the Candle of Beckoning there wakes her from her rest."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "For the Forsaken, performing rituals over a bloodied altar in the heart of Tirisfal is a grim reminder that their new existence is forged through death, dark magic, and unyielding loyalty to the Dark Lady."
+   "text": "As Forsaken, you perform a grim rite over a bloodied altar in Tirisfal, where death and dark magic mark your new existence and loyalty to the Dark Lady."
   },
   {
    "target": "class:Warlock",
-   "text": "Warlocks understand the resonant power of binding spirits to blood-drenched altars, making this ritual a familiar exercise in manipulating the boundary between life and death."
+   "text": "As a warlock, you know the power of binding spirits to blood-drenched altars. This rite tests your hold over the boundary between life and death."
   },
   {
    "target": "class:Priest",
-   "text": "Shadow priests recognize the call of the candle as an exercise in shadowy communion, pulling a restless lingering soul back into physical conflict."
+   "text": "As a priest, you recognize the candle's shadowed call, drawing a lingering soul back into conflict."
   }
  ],
  "keywords": [
@@ -115,5 +115,6 @@
  ],
  "attribution": [
   "The Dormant Shade"
- ]
+ ],
+ "style": 1
 }

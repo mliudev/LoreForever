@@ -8,11 +8,11 @@
   "wiki": "Deathguard Samsa",
   "refs": 1
  },
- "summary": "Deathguard Samsa is a Forsaken sentry stationed in Tarren Mill within the Hillsbrad Foothills. Tasked with maintaining Horde vigilance on a tense frontier, he directs traveling champions to strike at local threats encroaching on the settlement.",
+ "summary": "In Tarren Mill, Deathguard Samsa watches the tense frontier and sends travelers against threats near the settlement.",
  "sections": [
   {
    "title": "Frontier Sentry of Tarren Mill",
-   "body": "Standing watch in Tarren Mill, Deathguard Samsa represents the defensive backbone of the Forsaken in the contested Hillsbrad Foothills. Tarren Mill serves as the Horde's primary outpost in the region, facing immediate pressure from Alliance outposts like Southshore as well as savage local wildlife. Samsa's duties involve securing the perimeter and directing capable adventurers to eliminate threats before they endanger the encampment.",
+   "body": "Deathguard Samsa keeps watch in Tarren Mill, where the Forsaken hold their ground in the contested Hillsbrad Foothills. Horde sentries face pressure from Alliance outposts such as Southshore and from savage local wildlife. Samsa guards the perimeter and directs capable adventurers against threats before they endanger the encampment.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "who is samsa",
     "deathguard samsa role"
    ],
-   "answer": "Deathguard Samsa is an undead soldier serving the Forsaken military in Tarren Mill. He stands guard over the town and issues orders to visiting adventurers to help secure the region from nearby perils."
+   "answer": "Deathguard Samsa serves the Forsaken military in Tarren Mill. He guards the town and directs visiting adventurers to help secure the region from nearby dangers."
   },
   {
    "q": "Where can I find Deathguard Samsa?",
@@ -33,7 +33,7 @@
     "where is deathguard samsa",
     "tarren mill guard location"
    ],
-   "answer": "He is located in Tarren Mill, the major Horde settlement situated in the northern part of the Hillsbrad Foothills."
+   "answer": "Find Deathguard Samsa in Tarren Mill, the major Horde settlement in the northern Hillsbrad Foothills."
   },
   {
    "q": "What tasks does Deathguard Samsa give out?",
@@ -41,17 +41,17 @@
     "samsa quests",
     "souvenirs of death quest giver"
    ],
-   "answer": "Samsa commissions adventurers to venture into the Hillsbrad wilderness, including collecting the skulls of Hillsbrad humans slain during the Horde's campaign against them."
+   "answer": "Samsa sends adventurers into the Hillsbrad wilderness, including to collect the skulls of Hillsbrad humans slain during the Horde's campaign against them."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "For the Forsaken, Deathguard Samsa represents the pragmatic and grim defense required to hold Lordaeron's southern border against hostile neighbors."
+   "text": "As Forsaken, you know the grim, practical defense needed to hold Lordaeron's southern border against hostile neighbors."
   },
   {
    "target": "faction:Horde",
-   "text": "Horde travelers coming through Hillsbrad Foothills rely on sentries like Samsa to coordinate defenses against nearby Alliance aggression from Southshore."
+   "text": "As a Horde traveler in Hillsbrad Foothills, you rely on sentries like Samsa to coordinate defenses against nearby Alliance aggression from Southshore."
   }
  ],
  "keywords": [
@@ -72,5 +72,6 @@
  ],
  "attribution": [
   "Deathguard Samsa"
- ]
+ ],
+ "style": 1
 }

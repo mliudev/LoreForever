@@ -17,16 +17,16 @@
   "wiki": "Proving Allegiance",
   "chain": []
  },
- "summary": "Proving Allegiance is the crucial trial presented by Gunther Arcanus to determine whether you truly serve the free-willed Forsaken or the Lich King. To earn the solitary necromancer's trust, you are sent to summon and destroy Lillith Nefara, a dangerous Scourge operative lurking near his island.",
+ "summary": "Gunther Arcanus tests whether you serve the free-willed Forsaken or the Lich King. To earn his trust, you are sent to summon and destroy Lillith Nefara, a Scourge operative near his island.",
  "sections": [
   {
    "title": "A Recluse's Suspicions",
-   "body": "Gunther Arcanus has isolated himself on an island in Brightwater Lake since rising into undeath, fiercely clinging to his autonomy. Though Bethor Iceshard's magical enchantments on Gunther's spellbook confirmed the emissary does not carry the foul taint of the Scourge, words and charms are not enough for the paranoid hermit. To earn his confidence, an outsider must demonstrate active hostility toward the minions of the Lich King through decisive violence.",
+   "body": "Gunther Arcanus has kept to an island in Brightwater Lake since rising into undeath. He fiercely guards his freedom. Bethor Iceshard's enchantments on Gunther's spellbook showed that the emissary carries no Scourge taint. Still, words and charms cannot quiet the hermit's suspicions. An outsider must prove hostility toward the Lich King's minions through decisive violence before Gunther will trust them.",
    "spoiler": 0
   },
   {
    "title": "The Slaying of Lillith Nefara",
-   "body": "Just south of Gunther's refuge stands a bloodstained ritual altar used by Lillith Nefara, a formidable Scourge agent operating in the Tirisfal Glades. Using a specialized Candle of Beckoning, the petitioner awakens Lillith from the shadows to face her in open combat. Striking down the agent shatters Gunther's long-held conviction that he was the only undead creature capable of breaking free from the Lich King's iron grip.",
+   "body": "South of Gunther's refuge, a bloodstained ritual altar marks the place where Lillith Nefara operates in the Tirisfal Glades. She is a formidable agent of the Scourge. A Candle of Beckoning awakens her from the shadows, bringing her into open combat. Her defeat breaks Gunther's long-held belief that he alone among the undead had escaped the Lich King's control.",
    "spoiler": 1
   }
  ],
@@ -37,7 +37,7 @@
     "why does gunther doubt me",
     "gunther trust"
    ],
-   "answer": "Gunther has survived as an independent undead by trusting no one. Surrounded by the Scourge, the Scarlet Crusade, and other threats in Tirisfal, he assumes any undead visitor could be an agent sent by the Lich King to subjugate him until they shed Scourge blood."
+   "answer": "Gunther has survived as an independent undead by trusting no one. With the Scourge, the Scarlet Crusade, and other threats around him in Tirisfal, he suspects any undead visitor may be the Lich King's agent until they shed Scourge blood."
   },
   {
    "q": "Who is Lillith Nefara?",
@@ -45,7 +45,7 @@
     "who is lillith",
     "lillith nefara lore"
    ],
-   "answer": "Lillith Nefara is a powerful Scourge agent active along the southern shores of Brightwater Lake. She operates around an ancient, bloody altar near Gunther's island, serving the Lich King's reach in the glades."
+   "answer": "Lillith Nefara is a powerful Scourge agent active along Brightwater Lake's southern shores. She serves the Lich King from an ancient, bloody altar near Gunther's island."
   },
   {
    "q": "What is the Candle of Beckoning?",
@@ -53,7 +53,7 @@
     "candle of beckoning",
     "how to summon lillith"
    ],
-   "answer": "The Candle of Beckoning is a ritual item retrieved from a crate on Gunther's island. Placing and lighting it upon the bloody altar summons Lillith Nefara from her resting place so she can be engaged in battle."
+   "answer": "The Candle of Beckoning is a ritual item taken from a crate on Gunther's island. Place and light it on the bloody altar to summon Lillith Nefara from her resting place and face her in battle."
   },
   {
    "q": "What realization does Gunther come to upon Lillith's defeat?",
@@ -61,7 +61,7 @@
     "gunther reaction",
     "gunther epiphany"
    ],
-   "answer": "Defeating Lillith forces Gunther to accept the astonishing truth that he is not unique. Until this trial, he genuinely believed he was the only undead in Lordaeron who had broken free from the Lich King's telepathic domination."
+   "answer": "Lillith's defeat makes Gunther accept that he is not unique. Until then, he believed he was the only undead in Lordaeron to break free from the Lich King's telepathic domination."
   },
   {
    "q": "Where does this confrontation take place?",
@@ -69,7 +69,7 @@
     "where is the altar",
     "lillith location"
    ],
-   "answer": "The ritual occurs at an altar situated on the lakeshore just off the southern coast of Gunther's island in Brightwater Lake, within eastern Tirisfal Glades."
+   "answer": "The confrontation takes place at an altar on the lakeshore just off the southern coast of Gunther's island in Brightwater Lake, in eastern Tirisfal Glades."
   },
   {
    "q": "What happens after proving your allegiance?",
@@ -77,17 +77,17 @@
     "what next after proving allegiance",
     "after lillith dies"
    ],
-   "answer": "With Gunther's doubts resolved, he finally agrees to listen to the emissaries of the Undercity and reconsider his solitary exile, setting the stage for his formal recruitment into Lady Sylvanas's Forsaken."
+   "answer": "Once Gunther's doubts are settled, he agrees to hear the Undercity's emissaries and reconsider his solitary exile, opening the way to his formal recruitment into Lady Sylvanas's Forsaken."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "For the Forsaken, breaking Gunther's isolation is personal; it proves to a brother in undeath that none of them have to face the wrath of the Scourge or the living alone."
+   "text": "For you as Forsaken, breaking Gunther's isolation is personal. It shows a brother in undeath that none of you need face the Scourge or the living alone."
   },
   {
    "target": "class:Mage",
-   "text": "Bethor Iceshard and Gunther Arcanus represent significant arcane and necromantic talents in Lordaeron; demonstrating your capability earns the professional respect of a powerful fellow caster."
+   "text": "As a mage, you know the arcane and necromantic talents of Bethor Iceshard and Gunther Arcanus. Showing your own skill earns the respect of a powerful fellow caster."
   }
  ],
  "keywords": [
@@ -111,5 +111,6 @@
  ],
  "attribution": [
   "Proving Allegiance"
- ]
+ ],
+ "style": 1
 }

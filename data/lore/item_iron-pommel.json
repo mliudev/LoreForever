@@ -10,16 +10,16 @@
    "quest:1027"
   ]
  },
- "summary": "The Iron Pommel is the final missing fragment of Dartol's Rod, a rod created by the long-dead wizard Dartol and sought by the night elves of Astranaar to slow the furbolg attacks on their people. Entrusted to the druids of the Dor'Danil Barrow Den for safekeeping, it was lost when their sanctuary was slaughtered and overrun by oozes.",
+ "summary": "In Ashenvale, the Iron Pommel is the last missing piece of Dartol's Rod. The long-dead wizard Dartol made the rod, and the night elves of Astranaar seek it to slow the furbolg attacks on their people. Druids at Dor'Danil Barrow Den kept the pommel safe until their sanctuary was overrun and they were slaughtered.",
  "sections": [
   {
    "title": "A Slain Circle's Burden",
-   "body": "Dartol's Rod was divided and scattered across Ashenvale to protect its mystic power. The Iron Pommel was placed into the care of the night elf druids dwelling near the road winding south toward the Barrens. Tragedy struck the secluded enclave at the Dor'Danil Barrow Den when the circle was massacred, their tranquil shelter falling into ruined silence. The pommel vanished into the aftermath, swallowed by the grotesque, bubbling oozes that now shamble through the defiled glade.",
+   "body": "Dartol's Rod was split apart and scattered across Ashenvale to guard its mystic power. Night elf druids near the road south toward the Barrens took charge of the Iron Pommel. Their circle was massacred at Dor'Danil Barrow Den, and their shelter fell silent in ruins. The pommel vanished amid the destruction, swallowed by the bubbling oozes now moving through the defiled glade.",
    "spoiler": 0
   },
   {
    "title": "Recovered from the Mire",
-   "body": "With the druids dead, finding the pommel requires scouring the tainted hollow south of Splintertree Post. The relic remained locked away inside a sturdy chest. Adventurers cutting through the corrupt slimes discover the swallowed chest intact within an ooze's acidic mass, finally securing the last piece required for the rod's reconstruction.",
+   "body": "The pommel lies in the tainted hollow south of Splintertree Post, inside a sturdy chest. Those who search through the corrupt slimes find the chest intact within an ooze's acidic mass. The Iron Pommel is the final piece needed to rebuild Dartol's Rod.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "why do i need iron pommel",
     "what does iron pommel do"
    ],
-   "answer": "The Iron Pommel serves as the final component needed to reassemble Dartol's Rod. Bringing it to Shael'dryn at the moonwell allows her to mend the ancient artifact so it can be used to slow the furbolg attacks on the night elves of Ashenvale."
+   "answer": "The Iron Pommel is the final piece needed to reassemble Dartol's Rod. Bring it to Shael'dryn at the moonwell, and she can mend the ancient artifact to help slow the furbolg attacks on the night elves of Ashenvale."
   },
   {
    "q": "Who originally had the pommel?",
@@ -40,7 +40,7 @@
     "who had iron pommel",
     "dor'danil druids"
    ],
-   "answer": "It was entrusted to the night elf druids living near the road heading toward the Barrens. Unfortunately, the circle was slaughtered before the rod could be reunited, leaving their haven in ruins."
+   "answer": "Night elf druids near the road toward the Barrens had charge of the pommel. The circle was slaughtered before the rod could be reunited, and their haven lies in ruins."
   },
   {
    "q": "Where is the pommel found?",
@@ -49,7 +49,7 @@
     "where is iron pommel",
     "where do i get iron pommel"
    ],
-   "answer": "The pommel is locked within a chest carried inside one of the corrupted slimes wandering the tainted hollow east of the main road, south of Splintertree Post and north of the Barrens border."
+   "answer": "The pommel is locked inside a chest carried within one of the corrupted slimes in the tainted hollow east of the main road. The hollow lies south of Splintertree Post and north of the Barrens border."
   },
   {
    "q": "Who do I bring the pommel to?",
@@ -58,17 +58,17 @@
     "where to take iron pommel",
     "who wants the pommel"
    ],
-   "answer": "The pommel must be brought to Shael'dryn, a dryad tending the moonwell east of Iris Lake, who possesses the ritual knowledge to reconstruct Dartol's Rod."
+   "answer": "Bring the pommel to Shael'dryn, a dryad tending the moonwell east of Iris Lake. She knows the ritual needed to reconstruct Dartol's Rod."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "The pommel serves as a grim memorial to the fallen druids of Dor'Danil, whose sacred charge ended in slaughter at the edge of the forest."
+   "text": "As a druid, you can remember the fallen druids of Dor'Danil, whose sacred charge ended in slaughter at the forest's edge."
   },
   {
    "target": "faction:Alliance",
-   "text": "Retrieving the pommel completes a critical stage in securing Dartol's Rod, an essential tool for defending Ashenvale against creeping corruption."
+   "text": "As an Alliance member, retrieving the pommel brings Dartol's Rod closer to completion, a vital aid in defending Ashenvale against creeping corruption."
   }
  ],
  "keywords": [
@@ -92,5 +92,6 @@
  "attribution": [
   "Iron Pommel",
   "Raene's Cleansing (5)"
- ]
+ ],
+ "style": 1
 }

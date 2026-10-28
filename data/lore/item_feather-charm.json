@@ -10,11 +10,11 @@
    "quest:1599"
   ]
  },
- "summary": "Feather Charms are crude magical trinkets carried by Frostmane troll novices in the snow-swept valleys of Coldridge Valley. Though fashioned from simple materials, they harbor an innate sorcerous resonance that catches the eye of local warlock mentors.",
+ "summary": "In Anvilmar, the Frostmane novices' Feather Charms draw a warlock instructor's interest. Their crude trinkets carry a faint magical power.",
  "sections": [
   {
    "title": "Troll Trinkets and Dark Studies",
-   "body": "The Frostmane trolls inhabiting the snowy caverns southwest of Anvilmar are known mostly for territorial savagery, but their novices dabble in primitive spellcraft. The feather charms carried by these young trolls hold a faint yet unmistakable magical power. In Anvilmar, warlock instructor Alamar Grimm considers them an intriguing subject of study\u2014surprising for crude trollcraft\u2014and uses them as a proving ground for fledgling warlocks seeking to master the binding of their first imp.",
+   "body": "Southwest of Anvilmar, Frostmane novices carry feather charms through the snowy caverns. Their tribe is known for territorial savagery, yet the young trolls dabble in primitive spellcraft. The charms hold a faint but unmistakable magical power. In Anvilmar, warlock instructor Alamar Grimm studies this crude trollcraft with interest. He uses the charms as a proving ground for fledgling warlocks seeking to master the binding of their first imp.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "who drops feather charm",
     "frostmane novice charm"
    ],
-   "answer": "They are carried by Frostmane novices found lurking in the snowy cave to the southwest of Anvilmar in Coldridge Valley."
+   "answer": "Frostmane novices carry the charms in the snowy cave southwest of Anvilmar, in Coldridge Valley."
   },
   {
    "q": "Why does Alamar Grimm want them?",
@@ -35,7 +35,7 @@
     "alamar grimm feather charms",
     "what does grimm do with them"
    ],
-   "answer": "Alamar Grimm finds the charms' inherent magic intriguing and worthy of research, which he notes is quite unexpected for troll craftsmanship. He demands them from aspiring warlocks to test their physical fortitude and magical potential before teaching them how to summon an imp."
+   "answer": "Alamar Grimm finds the charms' inherent magic intriguing and unexpected in troll craftsmanship. He tests aspiring warlocks' physical fortitude and magical potential with them before teaching them to summon an imp."
   },
   {
    "q": "Are the Frostmane trolls adept magic users?",
@@ -43,7 +43,7 @@
     "can frostmane trolls use magic",
     "frostmane novice magic"
    ],
-   "answer": "While the Frostmane tribe is largely seen as crude and hostile, their novices demonstrate rudimentary spellcasting. The feather charms they bear focus that basic magic, proving that even their fledgling casters harness arcane or shamanistic energies."
+   "answer": "The Frostmane tribe is known as crude and hostile, but its novices practice rudimentary spellcasting. Their feather charms focus that basic magic, showing that even fledgling Frostmane casters harness arcane or shamanistic energies."
   },
   {
    "q": "What do the charms look like?",
@@ -51,17 +51,17 @@
     "feather charm description",
     "appearance of feather charm"
    ],
-   "answer": "They are simple talismans woven with feathers and twine, fashioned by Frostmane novices as foci for their early magical training in the cold caves of Dun Morogh."
+   "answer": "The Frostmane novices make simple talismans from feathers and twine. They carry them as foci for early magical training in the cold caves of Dun Morogh."
   }
  ],
  "angles": [
   {
    "target": "class:Warlock",
-   "text": "For novice warlocks in Dun Morogh, taking feather charms from troll spellcasters serves as the essential test of discipline before Alamar Grimm entrusts them with the ritual to summon an imp."
+   "text": "As a novice warlock in Dun Morogh, you take feather charms from troll spellcasters as a test of discipline. Alamar Grimm entrusts you with the ritual to summon an imp after you pass."
   },
   {
    "target": "race:Gnome",
-   "text": "Gnomish warlocks operating out of Anvilmar study these rudimentary troll fetishes to dissect the raw, unrefined magic channelled by primitive Frostmane casters."
+   "text": "As a gnome warlock in Anvilmar, you study these rudimentary troll fetishes to dissect the raw, unrefined magic channeled by primitive Frostmane casters."
   }
  ],
  "keywords": [
@@ -84,5 +84,6 @@
  "attribution": [
   "Feather Charm",
   "Beginnings"
- ]
+ ],
+ "style": 1
 }

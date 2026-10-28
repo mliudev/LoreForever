@@ -10,16 +10,16 @@
    "quest:6571"
   ]
  },
- "summary": "Warsong Oil is a crucial industrial lubricant intended for the machinery at the Warsong Lumber Camp in Ashenvale. A vital supply shipment was intercepted en route by local satyrs, who took the oil to their corrupted woodland sanctuaries for foul rituals.",
+ "summary": "At the Warsong Lumber Camp, Warsong Oil keeps the logging machinery running. A satyr ambush has carried a shipment into corrupted forest enclaves.",
  "sections": [
   {
    "title": "Stolen Machinery Fuel",
-   "body": "The Warsong Clan's logging efforts in Ashenvale rely heavily on heavy machinery, goblin-engineered shredders, and massive sawmills. Keeping this industrial equipment running requires a steady supply of specialized oil. Without it, the clan's timber harvest risks grinding to an abrupt halt, stalling the flow of lumber desperately needed to build Orgrimmar and fortify Horde settlements across Durotar and the Barrens.",
+   "body": "Warsong Oil keeps the Warsong Clan's logging machinery running in Ashenvale. Goblin-engineered shredders and massive sawmills need a steady supply of the lubricant. Without it, timber cutting could halt, slowing the lumber needed to build Orgrimmar and fortify Horde settlements across Durotar and the Barrens.",
    "spoiler": 0
   },
   {
    "title": "Rituals of the Satyr",
-   "body": "Rather than reaching Splintertree Post and the logging camps, a recent shipment of Warsong Oil was ambushed by the satyrs infesting the forest. Instead of discarding the refined fluid, the demonic servants carried the containers into their corrupted enclaves\u2014including Night Run, Satyrnaar, and Xavian\u2014to use the flammable lubricant in their dark, detestable rituals.",
+   "body": "Satyrs ambushed a shipment of Warsong Oil before it could reach Splintertree Post and the logging camps. They carried the containers into corrupted enclaves, including Night Run, Satyrnaar, and Xavian, where they use the flammable lubricant in their rituals.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "why need oil",
     "what is it for"
    ],
-   "answer": "It is an industrial lubricant meant to keep the heavy shredders, saws, and timber-cutting machinery running at the Warsong Lumber Camp."
+   "answer": "Warsong Oil keeps the Warsong Lumber Camp's heavy shredders, saws, and timber-cutting machinery running."
   },
   {
    "q": "Why do the satyrs have the oil?",
@@ -40,7 +40,7 @@
     "why do satyrs have it",
     "where did the oil go"
    ],
-   "answer": "A supply convoy destined for Splintertree Post was ambushed along the roads of Ashenvale. The satyrs took the oil and repurposed it for detestable dark rituals across their ruined settlements."
+   "answer": "Satyrs ambushed a supply convoy bound for Splintertree Post on the roads of Ashenvale. They took the oil for their rituals in ruined settlements."
   },
   {
    "q": "Where can Warsong Oil be found?",
@@ -49,7 +49,7 @@
     "where to find warsong oil",
     "oil locations"
    ],
-   "answer": "Containers of the oil are scattered across satyr-controlled sites in Ashenvale, most notably throughout Night Run, Satyrnaar, and Xavian."
+   "answer": "Satyr-controlled sites in Ashenvale hold containers of Warsong Oil, especially Night Run, Satyrnaar, and Xavian."
   },
   {
    "q": "Who needs the oil recovered?",
@@ -57,17 +57,17 @@
     "who wants the oil",
     "warsong oil quest giver"
    ],
-   "answer": "Locke Okarr at Splintertree Post requires the oil alongside saw blades, rope, and axes to resupply the struggling Warsong lumber operation."
+   "answer": "Locke Okarr at Splintertree Post needs Warsong Oil, saw blades, rope, and axes to resupply the struggling Warsong lumber operation."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "The Horde's entire footholds in Durotar and the Barrens rely on Ashenvale timber; losing machinery oil to demon-worshiping satyrs threatens the construction of their young cities."
+   "text": "For the Horde, Ashenvale timber supports its footholds in Durotar and the Barrens. When demon-worshiping satyrs take the machinery oil, construction in those young settlements suffers."
   },
   {
    "target": "profession:Engineering",
-   "text": "Engineers know full well that delicate goblin-designed shredder joints and buzzsaws burn out within hours of timber logging without a steady flow of lubricating oil."
+   "text": "Engineers know goblin-designed shredder joints and buzzsaws need steady lubrication. Without it, they burn out within hours of timber logging."
   }
  ],
  "keywords": [
@@ -93,5 +93,6 @@
  "attribution": [
   "Warsong Oil",
   "Warsong Supplies (quest)"
- ]
+ ],
+ "style": 1
 }

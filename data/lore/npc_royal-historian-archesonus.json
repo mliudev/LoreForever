@@ -8,16 +8,16 @@
   "wiki": "Royal Historian Archesonus",
   "refs": 2
  },
- "summary": "Royal Historian Archesonus is a dwarven scholar serving King Magni Bronzebeard within Ironforge's High Seat. Renowned for her scholarly works documenting recent catastrophes in the northern human kingdoms, she also directs research into ancient dwarven tragedies, notably the scorched remains of the Dark Iron kingdom.",
+ "summary": "At the High Seat, Royal Historian Archesonus records catastrophes for the Ironforge crown. A dwarven scholar serving King Magni Bronzebeard, she writes of recent calamities in the northern human kingdoms and oversees research into ancient dwarven tragedies, including the scorched remains of the Dark Iron kingdom.",
  "sections": [
   {
    "title": "Chronicler of Catastrophe",
-   "body": "Stationed steps from King Magni Bronzebeard's throne in the High Seat, Royal Historian Archesonus maintains historical records on behalf of the Ironforge crown. Her academic gaze extends well beyond the Khaz Modan mountains. She authored 'The Fall of Lordaeron and the Scouring of the Eastweald' as well as 'On Plagues, Curses, and Blights,' tracking the horrific collapse of humanity's northern realm under the Scourge. Rather than hiding from dark histories, Archesonus approaches disasters methodically, seeking to record the truth of ruinous magic and political collapse.",
+   "body": "Royal Historian Archesonus keeps Ironforge’s records near King Magni Bronzebeard’s throne in the High Seat. Her studies reach beyond the Khaz Modan mountains. She wrote 'The Fall of Lordaeron and the Scouring of the Eastweald' and 'On Plagues, Curses, and Blights,' tracing the Scourge’s ruin of humanity’s northern realm. Archesonus faces these dark histories with care, seeking to record the truth of ruinous magic and political collapse.",
    "spoiler": 0
   },
   {
    "title": "The Ashes of Thaurissan",
-   "body": "In addition to her texts on Lordaeron, Archesonus oversees inquiries into the War of the Three Hammers and the catastrophic destruction of the city of Thaurissan. Seeking recovered relics and charred tablets from the Burning Steppes, she enlists adventurers to search the Smoldering Ruins of Thaurissan. For Archesonus, understanding the cataclysm that scorched the Burning Steppes and bound the Dark Iron clan to the Firelord is vital statecraft\u2014ensuring the Bronzebeard kingdom remembers exactly what sorcery and desperation can unleash.",
+   "body": "Royal Historian Archesonus also oversees research into the War of the Three Hammers and the destruction of Thaurissan. She seeks recovered relics and charred tablets from the Smoldering Ruins of Thaurissan in the Burning Steppes, and sends adventurers there to search. Her work examines the cataclysm that scorched the Burning Steppes and bound the Dark Iron clan to the Firelord.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "where is royal historian archesonus",
     "archesonus ironforge"
    ],
-   "answer": "Royal Historian Archesonus is located in the High Seat of Ironforge, just near King Magni Bronzebeard's throne room."
+   "answer": "Find Royal Historian Archesonus in the High Seat of Ironforge, near King Magni Bronzebeard’s throne room."
   },
   {
    "q": "What books did Royal Historian Archesonus write?",
@@ -38,7 +38,7 @@
     "what did archesonus write",
     "archesonus lore books"
    ],
-   "answer": "She is the author of 'The Fall of Lordaeron and the Scouring of the Eastweald' and 'On Plagues, Curses, and Blights,' documenting the downfall of the human north and the necrotic afflictions spread by the Scourge."
+   "answer": "Royal Historian Archesonus wrote 'The Fall of Lordaeron and the Scouring of the Eastweald' and 'On Plagues, Curses, and Blights.' They document the downfall of the human north and the necrotic afflictions spread by the Scourge."
   },
   {
    "q": "Why is Archesonus interested in the Ruins of Thaurissan?",
@@ -47,7 +47,7 @@
     "why does she want ruins of thaurissan",
     "smoldering ruins of thaurissan"
    ],
-   "answer": "She studies ancient dwarven history and sends scouts into the Burning Steppes to recover lost relics from the Ruins of Thaurissan, piecing together the catastrophe that destroyed the ancient Dark Iron capital."
+   "answer": "Royal Historian Archesonus studies ancient dwarven history and sends scouts into the Burning Steppes to recover lost relics from the Ruins of Thaurissan. She seeks to piece together the catastrophe that destroyed the ancient Dark Iron capital."
   },
   {
    "q": "What is her role in Ironforge?",
@@ -56,17 +56,17 @@
     "what does royal historian do",
     "who is archesonus"
    ],
-   "answer": "As the official Royal Historian, she acts as chief chronicler and archivist for King Magni Bronzebeard, compiling records on both dwarven antiquity and broader world events threatening the Alliance."
+   "answer": "Royal Historian Archesonus is Ironforge’s official Royal Historian, chief chronicler, and archivist for King Magni Bronzebeard. She compiles records of dwarven antiquity and wider events threatening the Alliance."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "Archesonus curates the official memory of your people, preserving painful lessons from the War of the Three Hammers so the Bronzebeard clan does not repeat the hubris of the Dark Irons."
+   "text": "As a dwarf, you share a people whose painful lessons from the War of the Three Hammers are preserved in Ironforge’s records. They are meant to keep the Bronzebeard clan from repeating the Dark Irons’ hubris."
   },
   {
    "target": "faction:Alliance",
-   "text": "Her academic works preserve the grim testimony of Lordaeron's fall, ensuring southern allies understand the nature of the plague and the forces that broke humanity's northern kingdoms."
+   "text": "As an Alliance member, you can read Archesonus’s grim testimony of Lordaeron’s fall. Her works preserve it for southern allies, so they understand the plague and the forces that broke humanity’s northern kingdoms."
   }
  ],
  "keywords": [
@@ -87,5 +87,6 @@
  ],
  "attribution": [
   "Royal Historian Archesonus"
- ]
+ ],
+ "style": 1
 }

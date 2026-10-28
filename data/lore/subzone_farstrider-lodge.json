@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Farstrider Lodge"
  },
- "summary": "Farstrider Lodge is a hunting outpost in southeastern Loch Modan. Its architecture appears to be high elven, while its residents include the high elf Vyrin Swiftwind, dwarves, and humans. Hunters and travelers come here for training, supplies, and work in the surrounding wilds.",
+ "summary": "Hunters and travelers come to Farstrider Lodge in southeastern Loch Modan for training, supplies, and work in the wilds. Its high elven style sets it apart, though dwarves and humans live there too.",
  "sections": [
   {
    "title": "An Elven Haven in the Mountains",
-   "body": "Farstrider Lodge stands apart from the sturdy stone buildings typical of Khaz Modan. Its architecture suggests high elven craftsmanship. Vyrin Swiftwind is the only known high elf still residing here, alongside dwarves and humans. The lodge's founder and date of construction are not established.",
+   "body": "Farstrider Lodge has an unusual look among the stone buildings of Khaz Modan. Its design suggests high elven craft. Vyrin Swiftwind is the only known high elf who still lives there, among dwarves and humans. No one knows who founded the lodge or when it was built.",
    "spoiler": 0
   },
   {
    "title": "A Waystation for the Wilds",
-   "body": "Situated in the southeastern hills of Loch Modan, the lodge serves hunters and travelers exploring the surrounding wilderness. Hunter and pet trainers work here alongside merchants and people seeking help with local wildlife.",
+   "body": "In the southeastern hills of Loch Modan, Farstrider Lodge offers a stopping place for hunters and travelers bound for the surrounding wilds. Hunter and pet trainers work there, alongside merchants and people seeking help with local wildlife.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "who built farstrider lodge",
     "why high elf lodge here"
    ],
-   "answer": "The lodge's architecture suggests high elven origins, and Vyrin Swiftwind is its surviving high elven resident. Its founder, construction date, and original mission are not established."
+   "answer": "The lodge's design suggests high elven origins, and Vyrin Swiftwind is its only known high elven resident. No one knows who founded it, when it was built, or what its first purpose was."
   },
   {
    "q": "Are there still high elves living here?",
@@ -37,7 +37,7 @@
     "who lives in farstrider lodge",
     "vyrin swiftwind"
    ],
-   "answer": "Only a single high elf, Vyrin Swiftwind, currently resides at the lodge. The rest of the occupants are dwarven mountaineers and human huntsmen who maintain the lodge and trade with travelers."
+   "answer": "Vyrin Swiftwind is the only high elf known to live at the lodge. Dwarves and humans live there as well, including mountaineers and huntsmen who maintain the lodge and trade with travelers."
   },
   {
    "q": "What services are available at Farstrider Lodge?",
@@ -45,17 +45,17 @@
     "what is at farstrider lodge",
     "hunter trainers loch modan"
    ],
-   "answer": "The lodge provides hunter and pet trainers, merchants, and local requests involving the wilderness of Loch Modan."
+   "answer": "Farstrider Lodge has hunter and pet trainers, merchants, and local requests concerning Loch Modan's wilderness."
   }
  ],
  "angles": [
   {
    "target": "class:Hunter",
-   "text": "Farstrider Lodge is a prime sanctuary for hunters, offering both mentorship in marksmanship and beast training amidst the rich game of Loch Modan's surrounding hills."
+   "text": "As a hunter, you can find marksmanship and beast training at Farstrider Lodge, amid the game in Loch Modan's surrounding hills."
   },
   {
    "target": "race:Dwarf",
-   "text": "Dwarven hunters and merchants share the lodge with human residents and the high elf Vyrin Swiftwind."
+   "text": "As a dwarf, you share the lodge with human residents and the high elf Vyrin Swiftwind."
   }
  ],
  "keywords": [
@@ -74,5 +74,6 @@
  ],
  "attribution": [
   "Farstrider Lodge"
- ]
+ ],
+ "style": 1
 }

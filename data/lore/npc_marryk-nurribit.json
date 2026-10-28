@@ -8,11 +8,11 @@
   "wiki": "Marryk Nurribit",
   "refs": 1
  },
- "summary": "Marryk Nurribit is the resident gnome mage trainer stationed at Anvilmar in Coldridge Valley. A bit more fond of local brews than disciplined pedagogy, he introduces fledgling gnomish arcanists to their craft while frequently soliciting spare coins for a drink.",
+ "summary": "At Anvilmar in Coldridge Valley, Marryk Nurribit teaches young gnomes the arcane arts. He favors local brews over strict lessons and often asks his pupils for spare coins to buy a drink.",
  "sections": [
   {
    "title": "Arcane Studies and Ale",
-   "body": "Tucked away inside the warm hearth of Anvilmar, Marryk Nurribit offers arcane guidance to young gnomes taking their very first steps into magic. Though knowledgeable in the arcane arts, his demeanor is decidedly casual\u2014often seeming far more interested in nursing a flagon of dwarven ale and bumming spare pocket change off his new pupils than drilling them in complex theorems. Despite his vices, Marryk remains acutely aware of the perils outside Coldridge Valley, regularly warning aspiring spellcasters about the lingering radioactive and trogg-infested horrors of fallen Gnomeregan.",
+   "body": "Marryk Nurribit teaches young gnomes magic inside Anvilmar in Coldridge Valley. He knows the arcane arts, though he takes a casual approach to teaching. A flagon of dwarven ale often holds more of his attention than a lesson, and he asks his new pupils for spare pocket change. He also warns aspiring spellcasters about the dangers beyond Coldridge Valley, where Gnomeregan's ruins remain radioactive and infested with troggs.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "who is marryk",
     "anvilmar mage trainer"
    ],
-   "answer": "Marryk Nurribit is a gnome mage trainer stationed inside Anvilmar in Dun Morogh's Coldridge Valley. He instructs newly arrived gnome mages in the fundamentals of arcane magic."
+   "answer": "Marryk Nurribit trains gnomes in arcane magic inside Anvilmar in Coldridge Valley, Dun Morogh. He teaches newly arrived gnome mages the fundamentals of the art."
   },
   {
    "q": "Why does Marryk keep asking for money for beer?",
@@ -33,7 +33,7 @@
     "marryk beer",
     "why does he ask for coins"
    ],
-   "answer": "Marryk is known for enjoying local spirits far more than maintaining strict professional decorum. He regularly pesters his students for spare change to fund his drinking habits at the tavern."
+   "answer": "Marryk enjoys local spirits and often asks his students for spare change to pay for beer at the tavern."
   },
   {
    "q": "What does Marryk say about Gnomeregan?",
@@ -41,17 +41,17 @@
     "marryk gnomeregan",
     "gnomeregan warning"
    ],
-   "answer": "Despite his relaxed attitude toward training, Marryk recognizes real danger and repeatedly cautions fresh mages against underestimating the perils lurking within the irradiated ruins of Gnomeregan."
+   "answer": "Marryk warns new mages not to underestimate the dangers in Gnomeregan's irradiated ruins."
   }
  ],
  "angles": [
   {
    "target": "class:Mage",
-   "text": "For fledgling gnome mages beginning their journey in Coldridge Valley, Marryk is the first teacher you turn to for foundational spells and your Glyphic Memorandum."
+   "text": "As a gnome mage starting out in Coldridge Valley, you turn to Marryk for your first spells and your Glyphic Memorandum."
   },
   {
    "target": "race:Gnome",
-   "text": "Refugees taking shelter in Dun Morogh know Marryk as an example of a gnomish scholar who has adapted a bit too well to dwarven tavern hospitality."
+   "text": "As a gnome taking shelter in Dun Morogh, you know Marryk as a scholar who has taken readily to dwarven tavern life."
   }
  ],
  "keywords": [
@@ -73,5 +73,6 @@
  ],
  "attribution": [
   "Marryk Nurribit"
- ]
+ ],
+ "style": 1
 }

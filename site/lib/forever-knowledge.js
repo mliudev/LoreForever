@@ -20,6 +20,7 @@ import { questFacts, questBlock, questChain } from "./forever-quest-facts.js";
 import { itemFacts, itemBlock } from "./forever-item-facts.js";
 import { spellFacts, spellBlock, talentFacts, talentBlock } from "./forever-spell-facts.js";
 import { placeFacts, placeBlock } from "./forever-place-facts.js";
+import { aboutSurvivors, survivorsFacts, survivorsBlock } from "./survivors-facts.js";
 import { createMissing } from "./schema.js";
 
 // At most this much of FOREVER FACTS goes into an answer's system prompt (companion-answers.js counts it in its bound):
@@ -204,7 +205,8 @@ export const SEED_FACTS = [
       "rules the Forsaken in the Undercity, High Chieftain Cairne Bloodhoof leads the tauren of Thunder Bluff, and " +
       "Vol'jin leads the Darkspear trolls." },
   // Era traps (the accuracy lab, 10/16: 35% of era answers unsourced or wrong, 23% wrong): what the model remembers
-  // from later expansions. Each says only what is true now, never what comes later.
+  // from later expansions. Each says what is true now; one about someone who comes only later says who they are in the
+  // game's later story too, for a player who asks (LOR-852: "I don't know that name" is pretending not to know).
   { id: "era-dark-portal", title: "The Dark Portal and Outland", zone: "Blasted Lands", source: WIKI,
     text: "The Dark Portal in the Blasted Lands stands dark: its great stone frame is whole, but the rift within is " +
       "dormant and no traveler can cross it. No one can reach Outland or anywhere in it, such as Shattrath City, by " +
@@ -214,10 +216,16 @@ export const SEED_FACTS = [
       "or starting zone to travel to, such as Silvermoon City or the Exodar. The playable races are humans, " +
       "dwarves, night elves and gnomes for the Alliance, orcs, undead (the Forsaken), tauren and trolls for the " +
       "Horde, and the new skyborne for both." },
-  { id: "era-garrosh", title: "Garrosh Hellscream", source: WIKI,
-    text: "No one in Azeroth knows of a Garrosh Hellscream. The Hellscream the Horde remembers is Grom Hellscream, " +
-      "chieftain of the Warsong clan, who slew the demon Mannoroth in Ashenvale at the end of the Third War and " +
-      "freed the orcs from his blood curse, at the cost of his life." },
+  { id: "era-grom", title: "Grom Hellscream", source: WIKI,
+    text: "Grom Hellscream, chieftain of the Warsong clan, is the Hellscream the Horde remembers. He slew the demon " +
+      "Mannoroth in Ashenvale at the end of the Third War and freed the orcs from the blood curse, at the cost of his " +
+      "life." },
+  // Only a question that names Garrosh finds it: no "Grom" or "Hellscream" in it, so "tell me about Grom" or "did he
+  // have family?" never brings his later story along (the Software Architect, 10/27; the lab: it did when they were).
+  { id: "era-garrosh", title: "Garrosh", source: WIKI,
+    text: "Garrosh isn't known in Azeroth as the world stands now. In the game's later story, from its next " +
+      "expansion on, Garrosh is the son of the Warsong's fallen chieftain, and later becomes Warchief of the Horde " +
+      "after Thrall." },
   // Children who grow up later (LOR-639: "what became of his daughter?" after Edwin VanCleef got Vanessa leading the
   // Defias, years after this age).
   { id: "era-vanessa", title: "Edwin VanCleef's daughter", source: WIKI,
@@ -398,7 +406,7 @@ export function promptParts(prompt) {
   // A character reply's "Where you both are: <sub>, <zone>", or just "<zone>".
   const both = /^Where you both are: (.+)$/m.exec(text)?.[1]?.split(",").map(s => s.trim()) || [];
   if (both.length === 1) both.unshift("");
-  let previous = "", previousQuestion = "";
+  let previous = "", previousQuestion = "", earlier = [];
   // memory.render: one line of JSON, [{player, willo | <character>}, ...].
   const recent = /RECENT CONVERSATION \(oldest first\)\n(\[.*\])/.exec(text);
   if (recent) {
@@ -407,6 +415,8 @@ export function promptParts(prompt) {
       const last = turns[turns.length - 1] || {};
       previous = Object.entries(last).find(([who]) => who !== "player")?.[1] || "";
       previousQuestion = last.player || "";
+      // The two questions before that: what game the chat is about (lib/survivors-facts.js aboutSurvivors).
+      earlier = turns.slice(-3, -1).map(t => t?.player).filter(t => typeof t === "string");
     } catch { /* an older or cut conversation: no previous answer */ }
   }
   const str = v => (typeof v === "string" ? v : "");
@@ -415,9 +425,11 @@ export function promptParts(prompt) {
   return { question: asked.trim(), zone: line("zone") || both[1] || "", sub: line("sub") || both[0] || "",
     faction: line("faction") || (line("race") ? "" : ridingPeople(sheetRace)?.side || ""), race: line("race") || sheetRace,
     class: line("class") || sheetClass, level: line("level") || sheetLevel, previous: str(previous),
-    previousQuestion: str(previousQuestion), target: line("target"), quests,
+    previousQuestion: str(previousQuestion), earlier, target: line("target"), quests,
     // Where they were last, given for the way or the nearest place with no live game info (answer.py saved_place).
-    savedPlace: line("saved place") };
+    savedPlace: line("saved place"),
+    // The game on their screen when it isn't WoW: "Azeroth Survivors" (answer.py SURVIVORS_ON_SCREEN).
+    onScreen: line("on screen") };
 }
 
 const ready = new WeakMap();
@@ -662,6 +674,13 @@ const OWN = { "riding-trainers": ridingTrainerFor, "riding-mounts": ridingMounts
 const forPlayer = (facts, parts) => facts.map(f => (OWN[f.id]?.(parts.race) ? { ...f, text: OWN[f.id](parts.race) } : f));
 
 export async function knowledgeFor(env, parts, { character = false, dataVersion = "" } = {}) {
+  // A question about Azeroth Survivors, another game (lib/survivors-facts.js), gets its facts and none of Forever's:
+  // "Fireball", "talents" or "The Barrens" would bring Forever's spells, talent trees and zone cards.
+  const survivors = character ? "" : aboutSurvivors(parts);
+  if (survivors) {
+    const facts = survivorsFacts(parts);
+    return { facts, block: survivorsBlock(facts, survivors), survivors };
+  }
   // The Forever facts' search goes out first; quest, NPC, item, spell, town and road facts need no database
   // (lib/forever-quest-facts.js, lib/forever-item-facts.js, lib/forever-spell-facts.js, lib/forever-place-facts.js), so
   // they're found while it's out (an isolate's first item lookup reads its data, about 60 ms), and they come even when

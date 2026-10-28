@@ -17,16 +17,16 @@
   "wiki": "The Legend of Stalvan (11)",
   "chain": []
  },
- "summary": "This crucial step in the investigation of Stalvan Mistmantle brings the gathered evidence before Darkshire's authorities. With a bloodstained journal page in hand, Commander Althea Ebonlocke directs the investigator to Clerk Daltry to authenticate the handwriting once and for all.",
+ "summary": "In Darkshire, the search for Stalvan Mistmantle brings a bloodstained journal page before the Night Watch. Commander Althea Ebonlocke sends you to Clerk Daltry to compare its writing with the town records.",
  "sections": [
   {
    "title": "Closing the Net",
-   "body": "Following the trail of journal pages recovered across Duskwood and the surrounding human territories, the Night Watch finally holds what appears to be damning evidence against the elusive tutor, Stalvan Mistmantle. Commander Althea Ebonlocke has harbored suspicions about the man for some time, but bringing formal judgment requires absolute certainty. A single bloodstained page is not enough to pass sentence until it can be proven beyond doubt that the macabre scribblings originated from Stalvan's own hand.",
+   "body": "The Night Watch has gathered journal pages from across Duskwood and the surrounding human territories. Together, they appear to condemn Stalvan Mistmantle, the elusive tutor. Commander Althea Ebonlocke has suspected him for some time, but she needs certainty before passing judgment. The bloodstained page alone cannot prove who wrote it. The writing must be matched to Stalvan’s own hand.",
    "spoiler": 0
   },
   {
    "title": "The Clerk's Eye",
-   "body": "To bridge the gap between suspicion and certainty, the Night Watch relies on Darkshire's town archivist, Clerk Daltry. Having overseen the town registry for years, Daltry has examined countless ledgers and signatures, making him an authority on handwriting identification. Comparing the newly discovered journal page directly against Stalvan's historical signatures in the town records provides the final, incontrovertible match needed to confirm his dark descent and guilt.",
+   "body": "Clerk Daltry keeps Darkshire’s town records and has examined countless ledgers and signatures over the years. You bring him the newly discovered journal page to compare with Stalvan’s signatures in the registry. His judgment can settle whether the page is truly Stalvan’s and give the Night Watch the certainty it needs.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "why check handwriting",
     "clerk daltry purpose"
    ],
-   "answer": "Commander Althea Ebonlocke wants to ensure Stalvan's guilt is established beyond a shadow of a doubt before taking final action. Clerk Daltry maintains Darkshire's town registry and has extensive experience examining signatures, making him uniquely qualified to verify whether the bloodstained page matches Stalvan's handwriting in the town records."
+   "answer": "Commander Althea Ebonlocke needs Clerk Daltry to verify whether the bloodstained page matches Stalvan’s handwriting in Darkshire’s records. Daltry maintains the town registry and has long experience examining signatures, so his confirmation can establish Stalvan’s guilt beyond doubt before Ebonlocke takes final action."
   },
   {
    "q": "Where does this step fit into the Legend of Stalvan storyline?",
@@ -47,7 +47,7 @@
     "how far in chain",
     "stalvan quest chain order"
    ],
-   "answer": "This is the eleventh chapter of the lengthy investigation. It takes place immediately after recovering the bloodstained journal page and serves as the final evidentiary verification before the Night Watch takes decisive steps against Stalvan."
+   "answer": "This is the eleventh chapter of the investigation, following the recovery of the bloodstained journal page. Daltry’s comparison is the final check of the evidence before the Night Watch takes decisive steps against Stalvan."
   },
   {
    "q": "Where is Clerk Daltry located in Darkshire?",
@@ -56,7 +56,7 @@
     "where is clerk daltry",
     "find daltry"
    ],
-   "answer": "Clerk Daltry can be found inside Darkshire's town hall, managing the local records and property registries for the community."
+   "answer": "Clerk Daltry is inside Darkshire’s town hall, where he manages the community’s local records and property registries."
   },
   {
    "q": "What evidence did the investigator bring to Darkshire?",
@@ -65,7 +65,7 @@
     "what page is this",
     "bloodstained page lore"
    ],
-   "answer": "The investigator carries a bloodstained journal page recovered during the ongoing search into Stalvan's whereabouts. The writing describes his grim thoughts and experiences, but requires handwriting verification against official records."
+   "answer": "You bring a bloodstained journal page recovered during the search for Stalvan. It describes his grim thoughts and experiences, but its writing still needs to be checked against official records."
   },
   {
    "q": "Does Clerk Daltry confirm the handwriting is Stalvan's?",
@@ -74,7 +74,7 @@
     "is it stalvan",
     "did stalvan write it"
    ],
-   "answer": "Yes. Comparing the bloodstained page with the signatures in the town registry, Daltry confirms that the writing matches, giving Ebonlocke the certainty she wanted before taking final action."
+   "answer": "Yes. Daltry compares the bloodstained page with signatures in the town registry and confirms that the writing matches Stalvan’s, giving Ebonlocke the certainty she sought before acting."
   },
   {
    "q": "Why is the Night Watch so cautious about accusing Stalvan?",
@@ -83,17 +83,17 @@
     "why not just kill stalvan",
     "ebonlocke suspicion"
    ],
-   "answer": "Even in the troubled, isolated forest of Duskwood, the Night Watch strives to maintain lawful order. Accusing a former scholar of horrific crimes requires concrete, verifiable proof rather than mere rumor or conjecture."
+   "answer": "The Night Watch wants concrete, verifiable proof before accusing a former scholar of horrific crimes. Even in Duskwood’s troubled, isolated forest, it strives to uphold lawful order rather than rely on rumor or conjecture."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "The investigation highlights how frontier towns like Darkshire strive to maintain law, order, and civil records despite being besieged by undead and shadowed beasts."
+   "text": "Darkshire’s investigation shows how frontier towns maintain law, order, and civil records while undead and shadowed beasts besiege them."
   },
   {
    "target": "race:Human",
-   "text": "For humans of the southern kingdoms, this quest touches on the interconnected tragedies linking Stormwind nobility, Duskwood settlers, and the scattered manors of Elwynn."
+   "text": "As a human of the southern kingdoms, you can see the tragedies linking Stormwind nobility, Duskwood settlers, and Elwynn’s scattered manors."
   }
  ],
  "keywords": [
@@ -114,5 +114,6 @@
  ],
  "attribution": [
   "The Legend of Stalvan (11)"
- ]
+ ],
+ "style": 1
 }

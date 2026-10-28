@@ -10,16 +10,16 @@
    "quest:766"
   ]
  },
- "summary": "A swoop gizzard is an organ harvested from the predatory birds soaring over Mulgore. Highly sought after for traditional folk remedies, it serves as a crucial ingredient for cleansing deadly toxins.",
+ "summary": "Across Mulgore, swoops soar as predatory birds, and their gizzards go into traditional remedies for deadly toxins.",
  "sections": [
   {
    "title": "A Rare Folk Ingredient",
-   "body": "Swoops are predatory avian hunters native to the plains and mesas of Mulgore, known for their keen eyesight and scavenging nature. While their feathers and meat serve everyday uses for the tauren, their internal organs\u2014particularly the gizzard\u2014are prized by herbalists and healers. When combined with other potent animal remnants like cougar bones and wolf hearts, the dense muscular organ aids in neutralizing venomous animal bites and halting festering systemic infections.",
+   "body": "Swoops hunt across Mulgore’s plains and mesas, with keen eyes and a taste for scavenging. Tauren use their feathers and meat in daily life, while herbalists and healers prize their internal organs, especially the gizzard. Dense and muscular, it helps counter venomous bites and festering infections when combined with cougar bones and wolf hearts.",
    "spoiler": 0
   },
   {
    "title": "A Remedy for Mazzranache's Bite",
-   "body": "In Bloodhoof Village, the medicine worker Maur Raincaller fell prey to the legendary plainstrider Mazzranache, suffering a vicious, venomous wound to his shoulder. Falling into delirium from the creeping poison, Maur relies on a swoop gizzard alongside a prairie wolf heart, a flatland cougar femur, and a plainstrider scale to concoct a curative poultice capable of expelling the beast's lethal venom.",
+   "body": "In Bloodhoof Village, Maur Raincaller tends the wound Mazzranache left on his shoulder. The legendary plainstrider’s venom drives Maur into delirium as the poison creeps through him. To make a poultice that can expel the lethal venom, Maur needs a swoop gizzard, a prairie wolf heart, a flatland cougar femur, and a plainstrider scale.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "why do i need swoop gizzard",
     "swoop organ purpose"
    ],
-   "answer": "It is an essential medicinal ingredient required by Maur Raincaller in Bloodhoof Village. Combined with three other animal parts, it forms a remedy capable of cleansing the venomous infection caused by the vicious plainstrider Mazzranache."
+   "answer": "Maur Raincaller in Bloodhoof Village needs a swoop gizzard as an essential ingredient in a remedy. Mixed with three other animal parts, it forms a cure for the venomous infection left by Mazzranache, the vicious plainstrider."
   },
   {
    "q": "Where do swoop gizzards come from?",
@@ -40,7 +40,7 @@
     "what drops swoop gizzard",
     "swoop hunting"
    ],
-   "answer": "They are harvested from the various species of swoops gliding across the plains of Mulgore, including standard swoops, wiry swoops, and taloned swoops."
+   "answer": "Swoop gizzards come from the swoops gliding over Mulgore’s plains, including standard swoops, wiry swoops, and taloned swoops."
   },
   {
    "q": "Why does Maur Raincaller need this specific part?",
@@ -49,7 +49,7 @@
     "why a gizzard",
     "cure for mazzranache"
    ],
-   "answer": "Maur was bitten by Mazzranache, an unusually ferocious plainstrider whose bite delivers venom that causes raging fevers and nightmares. Traditional tauren medicine utilizes potent animal components\u2014including the gizzard\u2014to counteract the specific toxins running through his veins."
+   "answer": "Mazzranache bit Maur, and the unusually ferocious plainstrider’s venom brings raging fevers and nightmares. Tauren folk medicine uses potent animal parts, including a gizzard, to counter the toxins in Maur’s veins."
   },
   {
    "q": "Is the gizzard used for anything other than Maur's cure?",
@@ -58,13 +58,13 @@
     "cooking swoop gizzard",
     "alchemy swoop gizzard"
    ],
-   "answer": "No. Outside of Maur Raincaller's specialized folk remedy in Bloodhoof Village, swoop gizzards have no standard culinary, alchemical, or crafting applications."
+   "answer": "No. Beyond Maur Raincaller’s specialized folk remedy in Bloodhoof Village, swoop gizzards have no standard culinary, alchemical, or crafting use."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "For tauren hunters and shamans, collecting such parts honors the tradition of using every piece of Mulgore's wildlife to sustain and heal the tribe."
+   "text": "As a tauren hunter or shaman, gathering these parts honors the tradition of using Mulgore’s wildlife to sustain and heal the tribe."
   }
  ],
  "keywords": [
@@ -87,5 +87,6 @@
  "attribution": [
   "Swoop Gizzard",
   "Mazzranache (Classic)"
- ]
+ ],
+ "style": 1
 }

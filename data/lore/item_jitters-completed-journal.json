@@ -11,16 +11,16 @@
    "quest:269"
   ]
  },
- "summary": "Jitters' Completed Journal is a handwritten account detailing the grim tragedies of Duskwood, specifically the massacre at Sven Yorgen's farm. Fearing vengeance, the reclusive Jitters surrenders the finished text to clear his name and shed light on the sinister forces haunting the region.",
+ "summary": "Jitters gives up his completed journal, hoping to clear his name and expose the sinister forces haunting Duskwood. The reclusive man fears Sven Yorgen's vengeance after fleeing the massacre at Sven's farm.",
  "sections": [
   {
    "title": "A Coward's Confession",
-   "body": "When Sven's farm was attacked, Jitters fled in terror, abandoning his half-finished diary among the ruins. The completed journal fills in the missing pieces of that awful day, recounting how mysterious dark riders slaughtered Sven's family. For weeks, keeping the journal was Jitters' only solace while hiding out in Duskwood. He hands the finished volume over willingly, desperate to explain what truly happened and hoping the written truth will spare him from Sven's furious wrath.",
+   "body": "Jitters fled Sven's farm when it was attacked, leaving his half-finished diary among the ruins. In the completed journal, he recounts how mysterious dark riders slaughtered Sven's family. For weeks, the pages were his only comfort as he hid in Duskwood. Now he gives the finished volume over willingly, hoping the truth will spare him Sven's furious wrath.",
    "spoiler": 1
   },
   {
    "title": "Unraveling the Darkness",
-   "body": "The journal does more than soothe old grief: it leads Sven to reveal that he has seen the black-cloaked riders speaking with the wizard Morbent Fel at the Forlorn Rowe. Sven sends the completed manuscript with travelers north to the Cathedral of Light in Stormwind. There, Bishop Farthing reads Jitters' words to understand the vile taint festering in Duskwood, using its revelations to help craft a holy weapon capable of piercing Fel's dark wards.",
+   "body": "The journal leads Sven to share what he has seen: black-cloaked riders speaking with the wizard Morbent Fel at the Forlorn Rowe. Sven sends the manuscript north with travelers to the Cathedral of Light in Stormwind. Bishop Farthing reads Jitters' account to learn about the vile taint in Duskwood, then uses its revelations to help craft a holy weapon that can pierce Fel's dark wards.",
    "spoiler": 1
   }
  ],
@@ -32,7 +32,7 @@
     "jitters diary",
     "why did jitters write this"
    ],
-   "answer": "Jitters fled Sven's farm during the attack and left an incomplete journal behind. He gave the completed version to adventurers so they could bring it to Sven, hoping the full truth would vindicate him and keep him safe from Sven's fiery temper."
+   "answer": "Jitters fled Sven's farm during the attack and left an unfinished journal behind. He gives adventurers the completed version to bring to Sven, hoping the full truth will clear his name and protect him from Sven's anger."
   },
   {
    "q": "What does the journal reveal about Sven's farm?",
@@ -41,7 +41,7 @@
     "sven family attack",
     "dark riders sven farm"
    ],
-   "answer": "It provides Jitters' full eyewitness account of the tragedy at Sven Yorgen's farm, filling in the gaps left by his unfinished journal."
+   "answer": "Jitters' completed journal gives his eyewitness account of the tragedy at Sven Yorgen's farm, filling in what his unfinished diary left out."
   },
   {
    "q": "Who is Morbent Fel and how is he connected to the journal?",
@@ -50,7 +50,7 @@
     "who is morbent fel",
     "forlorn rowe wizard"
    ],
-   "answer": "Morbent Fel is a necromancer dwelling at the Forlorn Rowe. The journal leads Sven to share information that sends the investigation toward him."
+   "answer": "Morbent Fel is a necromancer at the Forlorn Rowe. The journal leads Sven to share that he has seen the black-cloaked riders speaking with Fel."
   },
   {
    "q": "Why is the journal taken to Stormwind?",
@@ -59,17 +59,17 @@
     "take journal to cathedral",
     "seeking wisdom journal"
    ],
-   "answer": "Sven instructs adventurers to carry the journal to Bishop Farthing at the Cathedral of Light. Since Stormwind has largely neglected Darkshire's defense, Farthing's wisdom and holy expertise are needed to prepare a weapon that can pierce Morbent Fel's magical wards."
+   "answer": "Sven sends the journal to Bishop Farthing at the Cathedral of Light in Stormwind. Farthing reads it to understand Duskwood's taint and help prepare a holy weapon that can pierce Morbent Fel's magical wards."
   }
  ],
  "angles": [
   {
    "target": "class:Priest",
-   "text": "Delivering the journal to Bishop Farthing in the Cathedral of Light places priests directly in the service of cleansing unholy defilement through holy relics."
+   "text": "As a priest, bringing the journal to Bishop Farthing at the Cathedral of Light puts you in service to cleanse unholy defilement through holy relics."
   },
   {
    "target": "faction:Alliance",
-   "text": "The journal serves as a stark reminder of how far Duskwood has fallen into peril while Stormwind's leadership remains preoccupied elsewhere."
+   "text": "As an Alliance member, the journal shows how far Duskwood has fallen into peril while Stormwind's leaders focus elsewhere."
   }
  ],
  "keywords": [
@@ -97,5 +97,6 @@
   "Jitters' Completed Journal",
   "Return to Sven",
   "Seeking Wisdom"
- ]
+ ],
+ "style": 1
 }

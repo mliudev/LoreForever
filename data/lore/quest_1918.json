@@ -22,16 +22,16 @@
    "Je'neu of the Earthen Ring (quest)"
   ]
  },
- "summary": "Upon slaying the agitated water elementals around Mystral Lake, adventurers discover a foul, glowing globe of tainted water. Seeking to understand what has poisoned the lake and its elemental spirits, they carry the specimen back to Mastok Wrilehiss at Splintertree Post.",
+ "summary": "Around Mystral Lake, you find glowing globes of tainted water among the slain elementals. You carry a specimen to Mastok Wrilehiss at Splintertree Post to learn what has poisoned the lake and its spirits.",
  "sections": [
   {
    "title": "Tainted Waters of Mystral Lake",
-   "body": "Mystral Lake, nestled in south-central Ashenvale, has fallen into severe distress. The water elementals inhabiting its shallows have grown violently aggressive and visibly corrupted. When struck down, their remains yield strange, intensely glowing spheres of putrid fluid rather than pure elemental essence. Whatever corruption has settled over the lake is concentrated inside these globes, signaling that the disturbance is far more than natural territorial aggression.",
+   "body": "Mystral Lake lies in south-central Ashenvale, and its water elementals have grown violently aggressive and visibly corrupted. When slain, they leave strange, intensely glowing spheres of putrid fluid instead of pure elemental essence. The globes hold the corruption that has settled over the lake, showing that something more than natural territorial aggression is at work.",
    "spoiler": 0
   },
   {
    "title": "Seeking Splintertree's Counsel",
-   "body": "With no clear understanding of the foul magic at work, Horde scouts look to the garrison at Splintertree Post for guidance. Mastok Wrilehiss, one of the outpost's overseers, is initially disgusted by the vile specimen brought to him. A soldier rather than a scholar, Mastok quickly realizes that mundane steel cannot cure diseased water, prompting him to point the adventurer toward the elemental specialists of the Earthen Ring.",
+   "body": "Horde scouts seek guidance at Splintertree Post, where Mastok Wrilehiss oversees the outpost. He is disgusted by the vile specimen. A soldier rather than a scholar, Mastok knows mundane steel cannot cure diseased water, so he points you toward the elemental specialists of the Earthen Ring.",
    "spoiler": 1
   }
  ],
@@ -43,7 +43,7 @@
     "what is in the water globe",
     "mystral lake water globe"
    ],
-   "answer": "The globe holds a disgusting, concentrated sample of the corruption currently poisoning Mystral Lake. It forms from the remnants of slain elementals, demonstrating that their spiritual corruption is physical and potent."
+   "answer": "The Befouled Water Globe holds a disgusting, concentrated sample of the corruption poisoning Mystral Lake. It forms from slain elementals, showing that their spiritual corruption has taken physical and potent form."
   },
   {
    "q": "Where does this quest begin?",
@@ -52,7 +52,7 @@
     "how to start the befouled element",
     "quest start"
    ],
-   "answer": "The quest begins as an item drop while fighting the enraged or befouled water elementals inhabiting Mystral Lake in south-central Ashenvale."
+   "answer": "You find the globe while fighting enraged or befouled water elementals at Mystral Lake in south-central Ashenvale."
   },
   {
    "q": "Why does Mastok Wrilehiss want nothing to do with it?",
@@ -61,7 +61,7 @@
     "why talk to mastok",
     "mastok wrilehiss role"
    ],
-   "answer": "Mastok Wrilehiss is a Horde officer focused on military survival and logistics at Splintertree Post. He has no affinity for diagnosing diseased magical waters, which is why he suggests seeking out the Earthen Ring instead."
+   "answer": "Mastok Wrilehiss is a Horde officer focused on military survival and logistics at Splintertree Post. He has no affinity for diagnosing diseased magical waters, so he points you toward the Earthen Ring."
   },
   {
    "q": "What is the Earthen Ring's interest in this?",
@@ -70,7 +70,7 @@
     "earthen ring connection",
     "who are the earthen ring"
    ],
-   "answer": "The Earthen Ring is an order of shaman dedicated to studying, soothing, and restoring harmony to the elements. Corrupted elementals like those at Mystral Lake fall directly under their spiritual jurisdiction."
+   "answer": "The Earthen Ring is an order of shamans devoted to studying, soothing, and restoring harmony to the elements. Corrupted elementals like those at Mystral Lake fall under their spiritual care."
   },
   {
    "q": "Where does the investigation lead next?",
@@ -79,21 +79,21 @@
     "next quest after befouled element",
     "where do i go next"
    ],
-   "answer": "Mastok points you toward Je'neu Sancrea, an Earthen Ring shaman stationed along the western shore of Ashenvale at Zoram'gar Strand, who can properly examine the tainted relic."
+   "answer": "Mastok points you toward Je'neu Sancrea, an Earthen Ring shaman stationed along Ashenvale's western shore at Zoram'gar Strand. Je'neu can examine the tainted relic."
   }
  ],
  "angles": [
   {
    "target": "class:Shaman",
-   "text": "The twisted state of Mystral Lake's spirits is a grave concern for shamans, who hear the pain of the elements and recognize the need for the Earthen Ring's intervention."
+   "text": "As a shaman, you hear the pain in Mystral Lake's twisted spirits and know the Earthen Ring must intervene."
   },
   {
    "target": "faction:Horde",
-   "text": "Splintertree Post cannot afford a chaotic elemental menace festering in its backyard while Alliance sentinels and furbolgs threaten Horde supply routes."
+   "text": "As a member of the Horde, you know Splintertree Post cannot let an elemental menace threaten its backyard while Alliance sentinels and furbolgs menace Horde supply routes."
   },
   {
    "target": "race:Tauren",
-   "text": "Tauren travelers feel a deep cultural duty to heal the land's corrupted waters, making the restoration of Mystral Lake an urgent spiritual task."
+   "text": "As a tauren, you feel a deep cultural duty to heal the land's corrupted waters, making Mystral Lake's restoration an urgent spiritual task."
   }
  ],
  "keywords": [
@@ -115,5 +115,6 @@
  ],
  "attribution": [
   "The Befouled Element"
- ]
+ ],
+ "style": 1
 }

@@ -12,16 +12,16 @@
   "harvested": true,
   "level": "11"
  },
- "summary": "Tomb Weed is an alchemical quest assigned by Junior Apothecary Holland in Tirisfal Glades. Holland has been modifying wild doom weed and replanting it at the haunted Balnir Farmstead, cultivating a potent new specimen that unexpectedly attracts the local Scourge.",
+ "summary": "At Balnir Farmstead, Holland's altered doom weed now draws the Scourge. The crop has become a new specimen called tomb weed, and Holland wants it for his experiments.",
  "sections": [
   {
    "title": "Holland's Cultivation",
-   "body": "Junior Apothecary Holland is not content simply harvesting native herbs for the Royal Apothecary Society; he harbors grand ambitions of his own. By gathering doom weed and subjecting it to minor alchemical alterations, he replanted the strains across the soil of the Balnir Farmstead to cultivate an evolved specimen he christened tomb weed. Holland views this hybrid flora as the centerpiece of his work and a herald of his personal destiny.",
+   "body": "Junior Apothecary Holland wants more than a place among the Royal Apothecary Society. He gathers doom weed, makes small alchemical changes, and replants it in the soil of Balnir Farmstead. There, he has cultivated a new strain he calls tomb weed. Holland sees the hybrid as the heart of his work and a sign of the future he seeks for himself.",
    "spoiler": 0
   },
   {
    "title": "Unintended Attraction",
-   "body": "While Holland anticipated alchemical potency, the transplanting of tomb weed into the Balnir Farmstead yielded an unforeseen side effect. The wandering Scourge remnants infesting the blighted fields have shown an uncanny, pervasive attraction to the burgeoning flora. Holland relies on passing travelers to push past these encroaching undead and harvest the matured crop so he can continue his experiments.",
+   "body": "Holland expected his altered plants to gain alchemical potency, but the Scourge wandering Balnir Farmstead have taken an unexpected interest in them. He now depends on travelers to push past the undead and gather the mature crop, so his experiments can continue.",
    "spoiler": 0
   }
  ],
@@ -33,7 +33,7 @@
     "tomb weed lore",
     "tomb weed plant"
    ],
-   "answer": "Tomb weed is an alchemically modified strain of doom weed cultivated by Junior Apothecary Holland. He takes native doom weed, alters it with chemical reagents, and plants it within the blighted soil of the Balnir Farmstead."
+   "answer": "Tomb weed is a strain of doom weed that Junior Apothecary Holland has altered through alchemy. He plants the treated herb in the blighted soil of Balnir Farmstead."
   },
   {
    "q": "Who is Junior Apothecary Holland?",
@@ -42,7 +42,7 @@
     "junior apothecary holland",
     "apothecary holland"
    ],
-   "answer": "Holland is a member of the Royal Apothecary Society operating in Tirisfal Glades. Ambitious and often exasperated by assistants like the abomination Gordo, Holland conducts private horticultural and alchemical experiments aimed at advancing his own stature."
+   "answer": "Junior Apothecary Holland belongs to the Royal Apothecary Society and works in Tirisfal Glades. Ambitious and often frustrated by assistants such as the abomination Gordo, he pursues private plant and alchemical experiments to advance his standing."
   },
   {
    "q": "Where is tomb weed grown?",
@@ -51,7 +51,7 @@
     "tomb weed location",
     "balnir farmstead weed"
    ],
-   "answer": "Holland plants his modified crops at the Balnir Farmstead, an abandoned estate situated east in Tirisfal Glades that has fallen into blight and ruin."
+   "answer": "Holland grows his altered crops at Balnir Farmstead, an abandoned estate in eastern Tirisfal Glades that has fallen into blight and ruin."
   },
   {
    "q": "Why are the Scourge attracted to tomb weed?",
@@ -60,7 +60,7 @@
     "scourge drawn to tomb weed",
     "scourge reaction"
    ],
-   "answer": "Holland has observed that the mindless Scourge haunting the Balnir Farmstead seem instinctively drawn to the modified plant, though he doesn't know why; he simply finds it curious."
+   "answer": "Holland has seen the mindless Scourge at Balnir Farmstead drawn to the altered plant, but he does not know why and finds it curious."
   },
   {
    "q": "How does tomb weed differ from normal doom weed?",
@@ -68,7 +68,7 @@
     "doom weed vs tomb weed",
     "difference doom weed tomb weed"
    ],
-   "answer": "Doom weed is a naturally occurring plant found near the mass gravesite north of the Brill graveyard. Tomb weed is created when doom weed undergoes artificial alchemical alterations and selective replanting in farmstead soil under Holland's direction."
+   "answer": "Doom weed grows naturally near the mass gravesite north of the Brill graveyard. Holland creates tomb weed by altering doom weed through alchemy and replanting it in farmstead soil."
   },
   {
    "q": "Who is Gordo mentioned by Holland?",
@@ -77,17 +77,17 @@
     "gordo run in",
     "gordo tirisfal"
    ],
-   "answer": "Gordo is a wandering abomination created by the Forsaken who roams the roads of Tirisfal Glades, often assigned simple tasks by Holland that prove difficult for his sluggish mind."
+   "answer": "Gordo is a wandering abomination created by the Forsaken who roams Tirisfal Glades' roads. Holland often gives him simple tasks that prove difficult for his sluggish mind."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "Junior Apothecary Holland's research demonstrates the persistent drive among Forsaken apothecaries to reshape Tirisfal's blighted flora into bespoke alchemical tools."
+   "text": "As an Undead, you can see Holland's work in the Forsaken apothecaries' drive to reshape Tirisfal's blighted plants for alchemy."
   },
   {
    "target": "profession:Herbalism",
-   "text": "Tomb weed illustrates how artificial alchemical manipulation can fundamentally change the properties and behaviors of blighted herbs like doom weed."
+   "text": "As a herbalist, you know alchemical treatment can change a blighted herb such as doom weed and its behavior."
   }
  ],
  "keywords": [
@@ -108,5 +108,6 @@
  ],
  "attribution": [
   "In-game quest text: Tomb Weed"
- ]
+ ],
+ "style": 1
 }

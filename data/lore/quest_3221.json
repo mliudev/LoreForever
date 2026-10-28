@@ -17,16 +17,16 @@
   "wiki": "Speak with Renferrel",
   "chain": []
  },
- "summary": "Speak with Renferrel is a brief errand within the Sepulcher in Silverpine Forest. High Executor Hadrec directs you back to the Royal Apothecary Society's local researcher to discuss findings regarding tainted wolf hearts.",
+ "summary": "At the Sepulcher, Apothecary Renferrel needs to discuss the tainted wolf hearts. High Executor Hadrec sends you back to the Royal Apothecary Society researcher with your findings.",
  "sections": [
   {
    "title": "Summons from the Society",
-   "body": "After assisting the Deathstalkers across Silverpine Forest, High Executor Hadrec passes along an urgent message from Apothecary Renferrel. Renferrel has spent time analyzing the discolored wolf hearts gathered from the local wildlife and requires your presence immediately.",
+   "body": "After you help the Deathstalkers across Silverpine Forest, High Executor Hadrec gives you an urgent message from Apothecary Renferrel. Renferrel has studied the discolored wolf hearts gathered from local wildlife and needs you at once.",
    "spoiler": 0
   },
   {
    "title": "Alchemical Curiosities",
-   "body": "Apothecary Renferrel serves the Royal Apothecary Society from his laboratory inside the crypt at the Sepulcher. His ongoing work explores how dark magic and disease are altering the beasts of Silverpine, bridging frontline military recon with chemical research.",
+   "body": "Apothecary Renferrel works for the Royal Apothecary Society in a laboratory inside the Sepulcher crypt. He studies how dark magic and disease are changing Silverpine's beasts, bringing alchemical research together with military reports from the front.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "where is renferrel",
     "find renferrel"
    ],
-   "answer": "Apothecary Renferrel is located inside the Sepulcher's crypt in central Silverpine Forest, standing near his alchemy equipment just steps away from High Executor Hadrec."
+   "answer": "Apothecary Renferrel is in the Sepulcher crypt in central Silverpine Forest, beside his alchemy equipment and a short walk from High Executor Hadrec."
   },
   {
    "q": "Why does Apothecary Renferrel want to speak with me?",
@@ -46,7 +46,7 @@
     "why does renferrel want me",
     "renferrel wolf hearts"
    ],
-   "answer": "Renferrel has been analyzing discolored wolf hearts gathered from local Silverpine wolves and discovered peculiarities in their corruption that require further investigation and communication with the Undercity."
+   "answer": "Renferrel has studied discolored hearts from Silverpine wolves and found strange signs in their corruption. He needs to investigate further and report to the Undercity."
   },
   {
    "q": "Who sends you to Renferrel?",
@@ -54,7 +54,7 @@
     "who gives speak with renferrel",
     "quest giver"
    ],
-   "answer": "High Executor Hadrec, the Forsaken military commander at the Sepulcher, delivers Renferrel's summons to you once you report back from aiding his Deathstalkers."
+   "answer": "High Executor Hadrec, the Forsaken commander at the Sepulcher, gives you Renferrel's summons after you return from helping the Deathstalkers."
   },
   {
    "q": "What follows this conversation?",
@@ -62,17 +62,17 @@
     "next quest after speak with renferrel",
     "renferrel follow up"
    ],
-   "answer": "Speaking with Renferrel leads directly into tasks that help connect the Sepulcher's regional alchemical research with senior figures like Apothecary Zinge in the Undercity."
+   "answer": "Your conversation with Renferrel leads to further work linking the Sepulcher's alchemical research with senior figures in the Undercity, including Apothecary Zinge."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "The Royal Apothecary Society works closely with military command at the Sepulcher, ensuring every biological anomaly in Silverpine is studied to benefit the Dark Lady's goals."
+   "text": "As an Undead, you may hear of the Royal Apothecary Society's work alongside military command at the Sepulcher, where researchers study unusual creatures in Silverpine."
   },
   {
    "target": "faction:Horde",
-   "text": "As the Horde establishes footholds across Lordaeron, understanding the corruption affecting local beasts is vital to securing the wilderness."
+   "text": "As a member of the Horde, you can learn how taint is changing the beasts of Silverpine."
   }
  ],
  "keywords": [
@@ -93,5 +93,6 @@
  ],
  "attribution": [
   "Speak with Renferrel"
- ]
+ ],
+ "style": 1
 }

@@ -8,11 +8,11 @@
   "wiki": "Branstock Khalder",
   "refs": 1
  },
- "summary": "Branstock Khalder is the priest trainer stationed at Anvilmar in Coldridge Valley. Friendly and grounded, he introduces novice dwarven priests to the Holy Light while keeping a watchful eye on the growing trogg threat outside.",
+ "summary": "At Anvilmar in Coldridge Valley, Branstock Khalder trains dwarven priests in the Holy Light and watches the trogg threat beyond the outpost.",
  "sections": [
   {
    "title": "A Guiding Hand in Coldridge",
-   "body": "Inside the bustling hall of Anvilmar, Branstock Khalder serves as a patient mentor to aspiring priests embarking on their spiritual journey. An easy-going dwarf with a deep devotion to the Light, he helps new acolytes master their early prayers and sacred runes. While his primary duty is spiritual instruction, Branstock is acutely aware of the valley's mounting perils\u2014most notably the aggressive trogg infestation menacing the local mountaineers. Once a novice demonstrates sufficient command of the Light, he directs them through Coldridge Pass to seek further guidance from his superior, Maxan Anvol, in Kharanos.",
+   "body": "At Anvilmar, Branstock Khalder guides aspiring priests through their first prayers and sacred runes. This easy-going dwarf is devoted to the Light, yet keeps watch on the growing trogg threat to the local mountaineers. When a novice has learned enough of the Light, Branstock sends them through Coldridge Pass to Kharanos for further guidance from his superior, Father Maxan Anvol.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "who is branstock",
     "anvilmar priest trainer"
    ],
-   "answer": "Branstock Khalder is a dwarven priest trainer based in Anvilmar, the starter outpost of Coldridge Valley. He instructs fledgling priests in the ways of the Holy Light and offers spiritual counsel to defenders facing the valley's hardships."
+   "answer": "At Anvilmar in Coldridge Valley, Branstock Khalder trains young dwarven priests in the Holy Light and offers counsel to those facing the valley’s hardships."
   },
   {
    "q": "Where does Branstock send his students next?",
@@ -33,7 +33,7 @@
     "branstock next quest",
     "priest path from anvilmar"
    ],
-   "answer": "Once young priests have honed their early abilities and assisted with the troubles in Coldridge Valley, Branstock sends them through Coldridge Pass to Kharanos, directing them to his superior, Father Maxan Anvol."
+   "answer": "Branstock sends young priests through Coldridge Pass to Kharanos, where they can seek further guidance from his superior, Father Maxan Anvol."
   },
   {
    "q": "What is Branstock concerned about in Coldridge Valley?",
@@ -42,7 +42,7 @@
     "branstock worries",
     "trogg threat coldridge"
    ],
-   "answer": "Beyond his spiritual duties, Branstock is deeply troubled by the recent trogg invasion creeping through Coldridge Valley, recognizing that the Light's power is urgently needed to mend wounds and bolster the valley's defenses."
+   "answer": "Branstock is concerned about the growing trogg threat in Coldridge Valley and the danger it poses to the local mountaineers."
   },
   {
    "q": "What does he say to non-priests?",
@@ -50,17 +50,17 @@
     "branstock quote",
     "branstock gossip text"
    ],
-   "answer": "Even if you walk another path, Branstock offers a piece of humble advice: never turn your back on the Light, reminding passersby that faith may well be the one thing that saves their lives someday."
+   "answer": "Branstock advises you never to turn your back on the Light, for faith may save your life someday."
   }
  ],
  "angles": [
   {
    "target": "class:Priest",
-   "text": "For dwarven priests, Branstock Khalder is the very first spiritual guide you meet, deciphering your initial sacred rune and introducing you to the defensive and healing arts of the Holy Light."
+   "text": "As a priest, you meet Branstock Khalder as your first spiritual guide. He teaches you an initial sacred rune and introduces you to the healing and defensive arts of the Holy Light."
   },
   {
    "target": "race:Dwarf",
-   "text": "Branstock exemplifies the pragmatic, down-to-earth devotion typical of Ironforge dwarves, blending reverent faith in the Light with hearty resilience against the cold and local trogg incursions."
+   "text": "As a dwarf, you find in Branstock a practical devotion to the Light and resilience in the face of the cold and trogg threat."
   }
  ],
  "keywords": [
@@ -85,5 +85,6 @@
  ],
  "attribution": [
   "Branstock Khalder"
- ]
+ ],
+ "style": 1
 }

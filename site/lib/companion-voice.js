@@ -373,10 +373,22 @@ function joined(parts) {
 // result.audioContent is a base64 chunk of the MP3, read as they come, so that with firstAudioMs (a character's,
 // CHARACTER_FIRST_AUDIO_MS) a first chunk that's slower than that stops it; DeepInfra answers JSON whose audio is
 // base64 (with or without a data: prefix).
-async function inworld(env, text, voiceId, model, firstAudioMs = 0, wholeMs = PROVIDER_MS) {
+//
+// stream: the MP3 as a ReadableStream that passes each chunk on as it comes, returned once the first one is in, so her
+// first sound never waits for the rest of the piece (LOR-856 E4, 10/28: Inworld's first chunk came in 0.12-0.49 s, the
+// whole of a 58-letter piece in 0.74-0.87 s on TTS 2). Its whole time still holds; a stream cut short mid-piece ends
+// with an error, and what came before it plays.
+async function inworld(env, text, voiceId, model, firstAudioMs = 0, wholeMs = PROVIDER_MS, { stream = false } = {}) {
   const stop = new AbortController();
   const late = (ms, what) => setTimeout(() => stop.abort(new Error(`Inworld: ${what} in ${ms} ms`)), ms);
   const whole = late(wholeMs, "not done"), first = firstAudioMs ? late(firstAudioMs, "no audio") : null;
+  const done = () => { clearTimeout(whole); clearTimeout(first); };
+  const failed = e => {
+    const why = stop.signal.aborted ? stop.signal.reason : e;
+    stop.abort();   // a stream it stopped reading is let go
+    return why;
+  };
+  let streaming = false;
   try {
     const res = await fetch(PROVIDERS.inworld.url, {
       method: "POST", headers: { Authorization: `Basic ${env.INWORLD_API_KEY}`, "Content-Type": "application/json" },
@@ -384,32 +396,70 @@ async function inworld(env, text, voiceId, model, firstAudioMs = 0, wholeMs = PR
       signal: stop.signal,
     });
     if (!res.ok) throw new Error(`Inworld HTTP ${res.status}`);
-    const parts = [];
     const take = line => {
-      if (!line.trim()) return;
+      if (!line.trim()) return null;
       let message;
       try { message = JSON.parse(line); } catch (e) { throw new Error("Inworld sent a line that isn't JSON"); }
       if (message?.error) throw new Error(`Inworld: ${String(message.error.message || "error").slice(0, 200)}`);
       const chunk = message?.result?.audioContent;
-      if (typeof chunk === "string" && chunk) { parts.push(fromBase64(chunk)); clearTimeout(first); }
+      if (typeof chunk !== "string" || !chunk) return null;
+      clearTimeout(first);
+      return fromBase64(chunk);
     };
     const reader = res.body.getReader(), decoder = new TextDecoder();
     let rest = "";
-    for (let done = false; !done;) {
-      const read = await reader.read();
-      done = read.done;
-      const lines = (rest + decoder.decode(read.value, { stream: !done })).split("\n");
-      rest = done ? "" : lines.pop();
-      lines.forEach(take);
+    // The next audio chunks read ({got, end}), at least one unless it's the end.
+    const next = async () => {
+      for (;;) {
+        const read = await reader.read();
+        const lines = (rest + decoder.decode(read.value, { stream: !read.done })).split("\n");
+        rest = read.done ? "" : lines.pop();
+        const got = lines.map(take).filter(Boolean);
+        if (got.length || read.done) return { got, end: read.done };
+      }
+    };
+    if (!stream) {
+      const parts = [];
+      for (;;) {
+        const n = await next();
+        parts.push(...n.got);
+        if (n.end) return joined(parts);
+      }
     }
-    return joined(parts);
+    const opening = await next();
+    if (!opening.got.length) throw new Error("Inworld sent no audio");
+    streaming = true;
+    let bytes = 0;
+    const sent = (c, got) => {
+      for (const p of got) {
+        bytes += p.length;
+        if (bytes > MAX_AUDIO_BYTES) throw new Error(`Inworld sent over ${MAX_AUDIO_BYTES} bytes of audio`);
+        c.enqueue(p);
+      }
+    };
+    return new ReadableStream({
+      start(c) {
+        sent(c, opening.got);
+        if (opening.end) { done(); c.close(); }
+      },
+      async pull(c) {
+        try {
+          const n = await next();
+          sent(c, n.got);
+          if (n.end) { done(); c.close(); }
+        } catch (e) {
+          done();
+          const why = failed(e);
+          console.warn(`companion voice: inworld: cut short: ${why?.message || why}`);
+          c.error(why);
+        }
+      },
+      cancel() { done(); stop.abort(); },
+    });
   } catch (e) {
-    const why = stop.signal.aborted ? stop.signal.reason : e;
-    stop.abort();   // a stream it stopped reading is let go
-    throw why;
+    throw failed(e);
   } finally {
-    clearTimeout(whole);
-    clearTimeout(first);
+    if (!streaming) done();
   }
 }
 
@@ -602,8 +652,11 @@ export async function speakPiece(env, userId, plan, { text, voice, reply, pick, 
         const ref = await reference(env, character);
         if (!ref) throw new Error(`no reference for ${voice} in R2 (${character.r2})`);
         audio = await fish(env, input, ref, wholeMs);
-      } else audio = await CALLS[provider](env, spoken, voiceId || ids[provider], model, firstAudioMs, wholeMs);
-      if (!audio.length || audio.length > MAX_AUDIO_BYTES) throw new Error(`${provider} sent ${audio.length} bytes of audio`);
+      } else audio = await CALLS[provider](env, spoken, voiceId || ids[provider], model, firstAudioMs, wholeMs,
+        { stream: provider === "inworld" });
+      // (Inworld's comes as a stream once its first audio is in, and holds itself to MAX_AUDIO_BYTES.)
+      if (!(audio instanceof ReadableStream) && (!audio.length || audio.length > MAX_AUDIO_BYTES))
+        throw new Error(`${provider} sent ${audio.length} bytes of audio`);
       // A finest reply counts only once its finest voice (Willo's Inworld voice, or a character's own, Inworld's or
       // Fish's, whichever said it) said it: one whose first piece the studio voice says gives its place back, the plan
       // month's (best, npc) or its pack's (pack), and the rest of it stays in the studio voice; after a finest piece, it

@@ -10,11 +10,11 @@
    "quest:1067"
   ]
  },
- "summary": "Lydon's Toxin is an alchemical concoction synthesized by Apothecary Lydon in Tarren Mill to disrupt the Venture Company's deforestation in the Stonetalon Mountains. Entrusted to Horde adventurers, it is delivered to Apothecary Zamah in Thunder Bluff so she can devise an effective delivery mechanism.",
+ "summary": "In Tarren Mill, Apothecary Lydon has made a toxin to disrupt the Venture Company's logging in the Stonetalon Mountains. Horde adventurers carry it to Apothecary Zamah in Thunder Bluff, who must devise a way to spread it.",
  "sections": [
   {
    "title": "A Royal Apothecary Solution",
-   "body": "Developed by Apothecary Lydon in the Hillsbrad Foothills, this virulent compound is designed to combat the invasive Venture Company loggers despoiling the Stonetalon Mountains. According to Lydon, the concoction produces lethal and potentially contagious results upon contact. However, before the substance can be unleashed against the goblins' operations around the Windshear Crag, it must be ferried across continents to Apothecary Zamah, the Royal Apothecary Society's representative in Thunder Bluff. Zamah requires the raw mixture to engineer a wide-dispersal apparatus\u2014the Toxic Fogger\u2014ensuring the brew wipes out the exploitative deforesters without needlessly endangering Horde assets.",
+   "body": "Apothecary Lydon made the toxin in the Hillsbrad Foothills to fight the Venture Company loggers despoiling the Stonetalon Mountains. He says the compound is lethal on contact and may spread from one target to another. Before it can be used against the goblins near Windshear Crag, the mixture must cross continents to Thunder Bluff. Apothecary Zamah, the Royal Apothecary Society's representative there, needs the raw toxin to devise a wide-dispersal device called the Toxic Fogger.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "what does the toxin do",
     "why make lydon's toxin"
    ],
-   "answer": "The toxin was concocted by Apothecary Lydon to break the Venture Company's grip on the Windshear Crag region. It is engineered to be devastating and potentially contagious against the destructive goblin laborers."
+   "answer": "Apothecary Lydon made the toxin to disrupt the Venture Company's work around Windshear Crag. It is lethal on contact and may spread among the goblin laborers."
   },
   {
    "q": "Who is Apothecary Lydon?",
@@ -35,7 +35,7 @@
     "apothecary lydon",
     "lydon creator"
    ],
-   "answer": "Apothecary Lydon is a member of the Royal Apothecary Society stationed in Tarren Mill within the Hillsbrad Foothills. He specializes in the creation of virulent poisons and experimental compounds to further Forsaken objectives."
+   "answer": "Apothecary Lydon is a Royal Apothecary Society member stationed in Tarren Mill, in the Hillsbrad Foothills. He makes virulent poisons and experimental compounds for Forsaken aims."
   },
   {
    "q": "Why does the toxin need to go to Thunder Bluff?",
@@ -44,7 +44,7 @@
     "why bring toxin to zamah",
     "apothecary zamah purpose"
    ],
-   "answer": "While Lydon perfected the chemical mixture, it lacks a practical method of mass deployment. Apothecary Zamah resides on the Spirit Rise in Thunder Bluff to study regional flora and coordinate Society efforts in Kalimdor; she takes the toxin to adapt it into a portable fogging delivery system."
+   "answer": "Apothecary Zamah in Thunder Bluff needs the toxin because it has no practical way to be spread widely. She studies regional flora and coordinates Society efforts in Kalimdor, and adapts the mixture into a portable fogging device."
   },
   {
    "q": "What happens after Zamah receives the toxin?",
@@ -52,17 +52,17 @@
     "toxic fogger creation",
     "what does zamah do with the toxin"
    ],
-   "answer": "Upon receiving the phial, Apothecary Zamah processes the agent into a pressurized aerosol device called the Toxic Fogger, allowing an operative to disperse it through the heart of the Venture Company's encampment."
+   "answer": "Apothecary Zamah turns the toxin into a pressurized aerosol device called the Toxic Fogger. An operative can use it to spread the toxin through the Venture Company's encampment."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "The transport of Lydon's Toxin exemplifies the Royal Apothecary Society's far-reaching network, coordinating field research between Lordaeron and Kalimdor to demonstrate Forsaken utility to their allies."
+   "text": "The transport of Lydon's Toxin shows how far the Royal Apothecary Society's network reaches. It coordinates field research between Lordaeron and Kalimdor to show the Forsaken's usefulness to their allies."
   },
   {
    "target": "race:Tauren",
-   "text": "While the tauren welcome aid against the Venture Company's destruction of nature, the Royal Apothecary Society's chemical methods test the boundaries of their shamanic sensibilities."
+   "text": "Tauren welcome help against the Venture Company's destruction of nature, but the Royal Apothecary Society's chemical methods test their shamanic sensibilities."
   }
  ],
  "keywords": [
@@ -84,5 +84,6 @@
  "attribution": [
   "Lydon's Toxin",
   "Return to Thunder Bluff (1)"
- ]
+ ],
+ "style": 1
 }

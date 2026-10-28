@@ -20,16 +20,16 @@
    "Allegiance to the Old Gods (2)"
   ]
  },
- "summary": "Allegiance to the Old Gods is a Horde quest initiated by recovering a waterlogged message from the naga inside Blackfathom Deeps. Delivering the note to Je'neu Sancrea at Zoram'gar Outpost uncovers a sinister ritual plot unfolding deep within the flooded ruins of Blackfathom Deeps.",
+ "summary": "Horde scouts find a waterlogged message inside Blackfathom Deeps. You carry the naga's note to Je'neu Sancrea at Zoram'gar Outpost, where its words reveal a ritual plot deep within the flooded ruins.",
  "sections": [
   {
    "title": "A Scribbled Declaration",
-   "body": "While battling the naga of Blackfathom Deeps, Horde scouts discover a damp, crumpled note bearing frantic handwriting. The scribbled parchment details instructions directed toward the naga priestesses, ordering them to gather elemental water crystals. Far from random pillaging, these crystals are being collected to fuel the summonings of naga aquamancers, marshaling elemental forces for a far darker objective.",
+   "body": "Horde scouts find a damp, crumpled note while battling the naga in Blackfathom Deeps. Its frantic handwriting gives orders to the naga priestesses: gather elemental water crystals. The crystals are not for random pillaging. They will fuel the summonings of naga aquamancers, who are marshaling elemental forces for a darker purpose.",
    "spoiler": 0
   },
   {
    "title": "Whispers of the Deep",
-   "body": "The recovered orders reveal that the naga intend to use the elemental energy within the crystals to appease and fully summon Aku'mai, a monstrous hydra in the service of the Old Gods. The note boldly proclaims that doing so will herald a return to the world's 'greatest era'\u2014the prehistoric reign of the Old Gods. Upon receiving the parchment at Zoram'gar Outpost, the Darkspear mystic Je'neu Sancrea identifies the author behind this conspiracy: the Twilight's Hammer cultist Lorgus Jett.",
+   "body": "The recovered orders say the naga will use the crystals' elemental energy to appease and fully summon Aku'mai, a monstrous hydra in the service of the Old Gods. The note claims this will herald the return of the world's greatest era, the prehistoric reign of the Old Gods. At Zoram'gar Outpost, Je'neu Sancrea, a Darkspear mystic, identifies the author as Lorgus Jett, a Twilight's Hammer cultist.",
    "spoiler": 1
   }
  ],
@@ -41,7 +41,7 @@
     "what does the note say",
     "note lore"
    ],
-   "answer": "The Damp Note is a set of recovered orders written by the Twilight's Hammer cultist Lorgus Jett. It instructs naga priestesses to collect elemental-infused crystals to bolster their aquamancers and summon the monstrous servant Aku'mai."
+   "answer": "The Damp Note holds orders written by the Twilight's Hammer cultist Lorgus Jett. It tells naga priestesses to gather elemental-infused crystals to strengthen their aquamancers and summon Aku'mai, a monstrous servant."
   },
   {
    "q": "Who is Je'neu Sancrea?",
@@ -50,7 +50,7 @@
     "who is jeneu",
     "zoram outpost questgiver"
    ],
-   "answer": "Je'neu Sancrea is a Darkspear troll seer and scholar stationed at Zoram'gar Outpost in Ashenvale. Representing the Earthen Ring, he investigates elemental imbalances and ancient threats rising from the nearby ruins of Blackfathom Deeps."
+   "answer": "Je'neu Sancrea is a Darkspear troll seer and scholar at Zoram'gar Outpost in Ashenvale. He represents the Earthen Ring and investigates elemental imbalances and ancient threats rising from Blackfathom Deeps."
   },
   {
    "q": "Who is Lorgus Jett?",
@@ -59,7 +59,7 @@
     "who wrote the note",
     "naga leader zoram"
    ],
-   "answer": "Lorgus Jett is a human shaman of the Twilight's Hammer cult operating inside Blackfathom Deeps, where the cultists are allied with the naga. He oversees the harvesting of elemental crystals to empower naga rituals and reawaken dark ancient horrors."
+   "answer": "Lorgus Jett is a human shaman of the Twilight's Hammer cult, working inside Blackfathom Deeps alongside the naga. He oversees the gathering of elemental crystals to empower naga rituals and reawaken dark ancient horrors."
   },
   {
    "q": "What is Aku'mai?",
@@ -68,7 +68,7 @@
     "who is akumai",
     "aku'mai lore"
    ],
-   "answer": "Aku'mai is a colossal three-headed hydra dwelling within the submerged depths of Blackfathom Deeps. Bound closely to the primordial darkness of the Old Gods, the creature is revered by both the Twilight's Hammer cult and the naga of Blackfathom Deeps."
+   "answer": "Aku'mai is a colossal three-headed hydra in the submerged depths of Blackfathom Deeps. The Twilight's Hammer cult and the naga revere the creature, which is bound to the primordial darkness of the Old Gods."
   },
   {
    "q": "Why are the naga collecting water crystals?",
@@ -77,7 +77,7 @@
     "elemental crystals naga",
     "aquamancer crystals"
    ],
-   "answer": "The water elemental spirits trapped inside the crystals provide raw power to naga aquamancers. By siphoning this elemental magic, they hope to appease Aku'mai and gather sufficient power to usher in the return of the Old Gods."
+   "answer": "The naga gather water crystals to use the elemental spirits trapped inside them as raw power for their aquamancers. By siphoning that magic, they hope to appease Aku'mai and gather enough power to bring back the Old Gods."
   },
   {
    "q": "Where does this quest chain lead?",
@@ -86,21 +86,21 @@
     "allegiance to the old gods part 2",
     "next quest"
    ],
-   "answer": "Delivering the note to Je'neu Sancrea leads directly into a follow-up mission tasked with tracking down and executing Lorgus Jett to disrupt the cult's ritual plans in Blackfathom Deeps."
+   "answer": "Carrying the note to Je'neu Sancrea leads to a follow-up effort to track down and execute Lorgus Jett, disrupting the cult's ritual plans in Blackfathom Deeps."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "Uncovering Lorgus Jett's note helps secure Zoram'gar Outpost against the Twilight's Hammer and their naga allies who threaten the Horde's foothold on Ashenvale's western coast."
+   "text": "As a member of the Horde, you help uncover Lorgus Jett's note and protect Zoram'gar Outpost from the Twilight's Hammer and its naga allies, who threaten the Horde's foothold on Ashenvale's western coast."
   },
   {
    "target": "class:Shaman",
-   "text": "The naga's subjugation of water elemental spirits inside ritual crystals represents a grave perversion of natural balance, demanding swift correction."
+   "text": "As a shaman, you know that forcing water elemental spirits into ritual crystals perverts the natural balance and demands swift correction."
   },
   {
    "target": "race:Troll",
-   "text": "Assisting your Darkspear kin Je'neu Sancrea unmasks ancient cosmic entities whose return would threaten every tribe across Azeroth."
+   "text": "As a troll, you help your Darkspear kin Je'neu Sancrea uncover ancient cosmic entities whose return would threaten every tribe across Azeroth."
   }
  ],
  "keywords": [
@@ -127,5 +127,6 @@
  ],
  "attribution": [
   "Allegiance to the Old Gods"
- ]
+ ],
+ "style": 1
 }

@@ -12,16 +12,16 @@
   "harvested": true,
   "level": "21"
  },
- "summary": "Blackrock Blockade is an Alliance military task issued by Marshal Marris in Lakeshire. Confronting the encroaching Blackrock orcs east of Lake Everstill, the town guard aims to starve out the invaders and seize their weaponry.",
+ "summary": "Marshal Marris is pressing the Blackrock Blockade east of Lake Everstill. Lakeshire's guard aims to starve out the Blackrock orcs and take their weapons.",
  "sections": [
   {
    "title": "A War of Attrition",
-   "body": "While the Blackrock clan has made bold incursions into the Redridge Mountains, their brazen push into Alliance territory has stretched their logistics to a breaking point. Cut off from regular supply trains, their forward war parties are forced to live off the harsh Redridge hills. Marshal Marris recognizes that even ferocious orcs cannot sustain a campaign without steady provisions and steel.",
+   "body": "Blackrock raiders in Redridge are pushing Alliance forces to their limits. Cut off from regular supply trains, their forward parties live off the hills. Marshal Marris knows even fierce orcs cannot keep fighting without food and steel.",
    "spoiler": 0
   },
   {
    "title": "Severing the Forward Camps",
-   "body": "The orcish camps situated south of Stonewatch Keep represent the spearhead of the Blackrock offensive. By raiding these encampments, stripping their caches, and seizing their stolen weapons, Alliance defenders hope to cripple the vanguard's fighting strength and break their morale.",
+   "body": "South of Stonewatch Keep, Blackrock camps lead the clan's advance. Lakeshire's defenders strike those camps to seize supplies and stolen weapons, weakening the orcs' fighting strength and morale.",
    "spoiler": 0
   }
  ],
@@ -33,7 +33,7 @@
     "blackrock blockade goal",
     "blockade purpose"
    ],
-   "answer": "The mission aims to undermine the forward encampments of the Blackrock clan south of Stonewatch Keep. By raiding their supply lines, taking their food, and recovering their weapons, the Lakeshire guard hopes to starve out the orcs and weaken their push into Redridge."
+   "answer": "Lakeshire's guard aims to weaken the Blackrock camps south of Stonewatch Keep. By taking their food and weapons, the defenders hope to starve the orcs and blunt their advance into Redridge."
   },
   {
    "q": "Who issues this assignment?",
@@ -42,7 +42,7 @@
     "quest giver",
     "marshal marris quest"
    ],
-   "answer": "Marshal Marris, the commanding officer of the town guard stationed in Lakeshire, oversees the defense of Redridge and directs the effort to disrupt Blackrock supplies."
+   "answer": "Marshal Marris, who commands Lakeshire's town guard, directs the effort to disrupt Blackrock supplies and defend Redridge."
   },
   {
    "q": "Where are these Blackrock encampments located?",
@@ -51,7 +51,7 @@
     "blackrock camp location",
     "where is stonewatch camp"
    ],
-   "answer": "The targeted war camps sit in the eastern hills of Redridge Mountains, just south of Stonewatch Keep, across the river from Lakeshire."
+   "answer": "The Blackrock camps lie in the eastern hills of Redridge Mountains, south of Stonewatch Keep and across the river from Lakeshire."
   },
   {
    "q": "Why is Lakeshire relying on attrition rather than a direct assault?",
@@ -60,7 +60,7 @@
     "why not attack stonewatch directly",
     "lakeshire strategy"
    ],
-   "answer": "The Lakeshire guard is understaffed and receives scant reinforcement from Stormwind. This is a war of attrition: the Blackrock orcs' brazen push into Alliance territory has left them vulnerable and without supplies, relying on the surrounding mountains for resources, and an army can't run on empty bellies."
+   "answer": "Lakeshire's guard has too few soldiers and little help from Stormwind. The Blackrock orcs have pushed into Alliance lands and now lack supplies, so the guard seeks to wear them down rather than attack head-on."
   },
   {
    "q": "What weapons are being confiscated from the orcs?",
@@ -69,7 +69,7 @@
     "what axes",
     "battleworn axes lore"
    ],
-   "answer": "Marshal Marris wants the weapons and supplies hoarded in the Blackrock encampments seized, so the orcs are left without their tools of war."
+   "answer": "Marshal Marris wants the weapons and supplies stored in the Blackrock camps seized, leaving the orcs without their tools of war."
   },
   {
    "q": "Are these orcs affiliated with Thrall's Horde?",
@@ -78,17 +78,17 @@
     "is blackrock horde",
     "thrall blackrock clan"
    ],
-   "answer": "No. The Blackrock orcs in Redridge belong to the renegade Dark Horde based out of Blackrock Mountain. They reject Thrall's leadership and remain fiercely hostile toward both the Alliance and the new Horde."
+   "answer": "No. The Blackrock orcs in Redridge belong to the renegade Dark Horde based at Blackrock Mountain. They reject Thrall's leadership and remain hostile to both the Alliance and the new Horde."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Every weapon seized from the Blackrock vanguard buys precious time for Lakeshire, which must fend off hostile armies without significant aid from Stormwind."
+   "text": "Every weapon taken from the Blackrock vanguard buys Lakeshire time as it faces hostile armies with little aid from Stormwind."
   },
   {
    "target": "class:Warrior",
-   "text": "In close-quarters skirmishes against rugged Blackrock orcs, depriving the enemy of heavy cleavers and supplies is fundamental frontier warfare."
+   "text": "In close fights with rugged Blackrock orcs, taking away their heavy cleavers and supplies is a basic part of frontier warfare."
   }
  ],
  "keywords": [
@@ -111,5 +111,6 @@
  ],
  "attribution": [
   "In-game quest text: Blackrock Blockade"
- ]
+ ],
+ "style": 1
 }

@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Garren's Haunt"
  },
- "summary": "Garren's Haunt is an abandoned farmstead nestled in northern Tirisfal Glades. Once a prosperous human homestead, the farm fell to ruin when the Scourge wiped out the Garren family, leaving the overgrown grounds overrun by feral Rot Hide gnolls.",
+ "summary": "Rot Hide gnolls prowl the ruined fields of Garren's Haunt in northern Tirisfal. The farm once belonged to the Garren family, until the Scourge slaughtered them and left the homestead to decay.",
  "sections": [
   {
    "title": "A Blighted Homestead",
-   "body": "Before the Third War, this farmstead supported a family and produced bountiful harvests under the Kingdom of Lordaeron. When the Plague of Undeath swept across the countryside, the Scourge descended upon the farm and slaughtered Garren and his kin. Today, the fields lie gray and withered, the farmhouse and barn decaying under the perpetual gloom of Tirisfal.",
+   "body": "Garren's Haunt once fed a human family under the Kingdom of Lordaeron. Before the Third War, its fields yielded bountiful harvests. When the Plague of Undeath swept across the countryside, the Scourge came to the farm and slaughtered Garren and his kin. Now gray, withered fields surround a farmhouse and barn that decay beneath Tirisfal's perpetual gloom.",
    "spoiler": 0
   },
   {
    "title": "The Rot Hide Squatters",
-   "body": "Rather than standard Scourge patrols, Garren's Haunt has been claimed by the Rot Hide gnolls—a pack of undead-tainted scavengers led by the vicious Maggot Eye. These scavengers aggressively defend their reclaimed territory, picking clean whatever remains of the farm and savaging any travelers or Forsaken patrols passing along northern Tirisfal.",
+   "body": "Rot Hide gnolls have claimed Garren's Haunt, led by the vicious Maggot Eye. These undead-tainted scavengers defend the farm fiercely, picking clean what remains and savaging travelers or Forsaken patrols passing through northern Tirisfal.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "who lived here",
     "garren story"
    ],
-   "answer": "Garren was a human farmer who lived here with his family prior to the Third War. They worked the surrounding fields until the Scourge overran Lordaeron, butchering Garren and his entire household during the spread of the plague."
+   "answer": "Garren was a human farmer who lived here with his family before the Third War. They worked the surrounding fields until the Scourge overran Lordaeron and butchered the household as the plague spread."
   },
   {
    "q": "What creatures occupy the farm now?",
@@ -37,7 +37,7 @@
     "what lives here",
     "who controls the farm"
    ],
-   "answer": "The farm is infested with Rot Hide gnolls led by Maggot Eye. They prowl the fields and buildings, attacking those who come too close."
+   "answer": "Rot Hide gnolls led by Maggot Eye occupy the farm. They prowl its fields and buildings, attacking those who come too close."
   },
   {
    "q": "Why is it called Garren's Haunt?",
@@ -45,7 +45,7 @@
     "why called haunt",
     "garren name origin"
    ],
-   "answer": "It bears the name of its murdered owner, Garren, with 'Haunt' denoting the grim, abandoned state of the land after the family was slain and their homestead was left to rot under the pall of Tirisfal."
+   "answer": "The farm bears the name of its murdered owner, Garren. “Haunt” describes the grim, abandoned land left to rot after his family was slain beneath Tirisfal's pall."
   },
   {
    "q": "Why haven't the Forsaken reclaimed it?",
@@ -53,13 +53,13 @@
     "why forsaken ignore it",
     "forsaken garrens haunt"
    ],
-   "answer": "The Forsaken are stretched thin fortifying the Undercity and battling threats like the Scarlet Crusade and active Scourge remnants. Dealing with scavengers like the Rot Hide gnolls at outlying farms is largely left to passing mercenaries and adventurers."
+   "answer": "The Forsaken are stretched thin fortifying the Undercity and battling the Scarlet Crusade and active Scourge remnants. Passing mercenaries and adventurers are largely left to deal with scavengers like the Rot Hide gnolls at outlying farms."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "The ruined farm stands as a stark reminder of the slaughter that birthed the Forsaken, and clearing out the filthy Rot Hide gnolls helps secure northern Tirisfal for the Dark Lady."
+   "text": "The ruined farm recalls the slaughter that preceded the Forsaken. Clearing out the Rot Hide gnolls helps secure northern Tirisfal for the Dark Lady."
   }
  ],
  "keywords": [
@@ -81,5 +81,6 @@
  ],
  "attribution": [
   "Garren's Haunt"
- ]
+ ],
+ "style": 1
 }

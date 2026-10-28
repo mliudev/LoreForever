@@ -17,16 +17,16 @@
   "wiki": "Continue Your Training",
   "chain": []
  },
- "summary": "This quest directs newly risen Forsaken paladins to leave Deathknell and travel to Brill for advanced instruction. Entrusted by Aramis Hammerhand, the journey introduces the fledgling holy warrior to the wider perils of Tirisfal Glades. It also serves as a stark warning about the deep suspicion that holy practitioners face among the undead.",
+ "summary": "Newly risen Forsaken paladins leave Deathknell for instruction in Brill. Aramis Hammerhand sends them east into Tirisfal Glades, where dangers and distrust await those who wield the Holy Light.",
  "sections": [
   {
    "title": "Leaving Deathknell",
-   "body": "Once a newly awakened soul has mastered the rudiments of martial combat and channelled holy power within Deathknell's cloistered graveyard, Aramis Hammerhand sends them east into the broader expanse of Tirisfal Glades. Their destination is Brill, a bustling regional outpost serving as the administrative hub for central Tirisfal. There, Shari Stilwell oversees the advancement of those who dare walk the path of the paladin in undeath.",
+   "body": "After learning martial combat and channeling holy power in Deathknell's graveyard, you are sent east into Tirisfal Glades. Your destination is Brill, the regional outpost and administrative hub for central Tirisfal. There, Shari Stilwell oversees the training of those who follow the path of the paladin in undeath.",
    "spoiler": 0
   },
   {
    "title": "A Precarious Calling",
-   "body": "Aramis offers parting advice that underlines the fraught reality of being an undead paladin. While Lordaeron still requires defenders against external threats, wielding the Holy Light under Sylvanas Windrunner's banner draws bitter suspicion. Countless Forsaken suffered agony or death at the hands of holy zealots, and the mere presence of the Light breeds distrust among their undead peers.",
+   "body": "Aramis offers parting advice about the peril of being an undead paladin. Lordaeron still needs defenders against threats from beyond, yet wielding the Holy Light under Sylvanas Windrunner's banner draws suspicion. Many Forsaken suffered agony or death at the hands of holy zealots, and the Light's presence breeds distrust among their undead kin.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "where to start",
     "aramis hammerhand location"
    ],
-   "answer": "The quest is provided by Aramis Hammerhand, the paladin trainer stationed in Deathknell within Tirisfal Glades."
+   "answer": "Aramis Hammerhand, the paladin trainer in Deathknell, gives it to you."
   },
   {
    "q": "Where do I turn in Continue Your Training?",
@@ -47,7 +47,7 @@
     "shari stilwell location",
     "turn in spot"
    ],
-   "answer": "You turn the quest in to Shari Stilwell, the paladin trainer located in the town of Brill, just east along the main road from Deathknell."
+   "answer": "You bring it to Shari Stilwell, the paladin trainer in Brill, east along the main road from Deathknell."
   },
   {
    "q": "Why do the Forsaken distrust paladins?",
@@ -56,7 +56,7 @@
     "forsaken paladin prejudice",
     "proximity to light"
    ],
-   "answer": "Many Forsaken hold deep-seated grudges against the Holy Light, both because of the agony it causes undead bodies and due to brutal persecution by holy orders like the Scarlet Crusade. Walking the path of a paladin puts one in uncomfortable proximity to forces most undead fear or despise."
+   "answer": "Many Forsaken resent the Holy Light for the agony it causes undead bodies and for persecution by holy orders such as the Scarlet Crusade. A paladin walks close to forces many undead fear or despise."
   },
   {
    "q": "Can any Forsaken class take this quest?",
@@ -64,7 +64,7 @@
     "is this quest paladin only",
     "class requirement"
    ],
-   "answer": "No. This quest is explicitly the introductory transition quest for Forsaken paladins moving from the starting grounds of Deathknell to the wider world at Brill."
+   "answer": "No. It is for Forsaken paladins leaving Deathknell for Brill and the wider world."
   },
   {
    "q": "What is Brill?",
@@ -72,7 +72,7 @@
     "what is brill",
     "brill town lore"
    ],
-   "answer": "Brill is a key town in central Tirisfal Glades serving as the primary hub for Forsaken travelers, guards, and tradesfolk just north of the Undercity ruins."
+   "answer": "Brill is a town in central Tirisfal Glades and a hub for Forsaken travelers, guards, and tradesfolk, just north of the Undercity ruins."
   },
   {
    "q": "What threats does Lordaeron face according to Aramis?",
@@ -80,17 +80,17 @@
     "threats to lordaeron",
     "why protect lordaeron"
    ],
-   "answer": "Though shattered, Lordaeron remains under constant threat from rampaging Scourge remnants, hostile wildlife, and vengeful living factions such as the Scarlet Crusade."
+   "answer": "Aramis warns that Lordaeron faces rampaging Scourge remnants, hostile wildlife, and vengeful living factions such as the Scarlet Crusade."
   }
  ],
  "angles": [
   {
    "target": "class:Paladin",
-   "text": "For an undead paladin, this transition is a sobering reminder that wielding holy power makes you an outsider even among your fellow Forsaken."
+   "text": "As an undead paladin, you may find that wielding holy power leaves you an outsider among your fellow Forsaken."
   },
   {
    "target": "race:Undead",
-   "text": "The quest highlights the internal tensions within Forsaken society, where loyalty to Lordaeron's soil clashes with lingering trauma surrounding the Holy Light."
+   "text": "As an Undead, you live with tensions between loyalty to Lordaeron's soil and the lingering trauma of the Holy Light."
   }
  ],
  "keywords": [
@@ -115,5 +115,6 @@
  ],
  "attribution": [
   "Continue Your Training"
- ]
+ ],
+ "style": 1
 }

@@ -10,11 +10,11 @@
    "quest:169"
   ]
  },
- "summary": "The severed head of Gath'Ilzogg serves as indisputable proof that the Blackrock warlord has been slain. Claiming it breaks the leadership behind the siege of Stonewatch Keep and brings desperate relief to the town of Lakeshire.",
+ "summary": "Claiming Gath'Ilzogg's severed head proves the Blackrock warlord has been slain. His fall breaks the leadership behind the siege of Stonewatch Keep and brings desperate relief to Lakeshire.",
  "sections": [
   {
    "title": "A Bountied Warlord",
-   "body": "Gath'Ilzogg orchestrated the brutal Blackrock assault that overran Stonewatch Keep, driving out its defenders and subjecting the surrounding valley to relentless raiding. With Lakeshire on the verge of ruin and Stormwind offering virtually no military reinforcements, Magistrate Solomon posted a bounty upon the warlord's head. Slaying Gath'Ilzogg within the fortified upper levels of Stonewatch and claiming his head shatters the local Blackrock leadership, marking the first real step toward reclaiming the keep for the kingdom.",
+   "body": "Gath'Ilzogg led the Blackrock assault that took Stonewatch Keep, drove out its defenders, and left the valley under constant raids. Lakeshire stood near ruin, while Stormwind sent almost no military help. Magistrate Solomon offered a bounty on the warlord. Gath'Ilzogg fell in the keep's fortified upper levels, and claiming his head breaks the local Blackrock leadership. For Lakeshire, it is the first step toward reclaiming the keep for the kingdom.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "gathilzogg lore",
     "stonewatch boss"
    ],
-   "answer": "Gath'Ilzogg was a powerful Blackrock orc warlord who spearheaded the conquest of Stonewatch Keep and directed raids against the settlements of Redridge Mountains, pushing Lakeshire to the brink of collapse."
+   "answer": "Gath'Ilzogg was a powerful Blackrock orc warlord who led the conquest of Stonewatch Keep and directed raids against settlements in Redridge Mountains, bringing Lakeshire close to collapse."
   },
   {
    "q": "Where is the head taken once collected?",
@@ -35,7 +35,7 @@
     "turn in gath'ilzogg head",
     "magistrate solomon bounty"
    ],
-   "answer": "The head is brought directly to Magistrate Solomon at Lakeshire's town hall as proof that the bounty posted on the town's wanted board has been fulfilled."
+   "answer": "The head goes to Magistrate Solomon at Lakeshire's town hall, as proof that the bounty on the town's wanted board has been fulfilled."
   },
   {
    "q": "What does Gath'Ilzogg's death mean for Lakeshire?",
@@ -43,7 +43,7 @@
     "does lakeshire get saved",
     "significance of killing gath'ilzogg"
    ],
-   "answer": "His death deprives the Blackrock invaders of their chief tactician in Redridge. While many Blackrock orcs remain entrenched across Stonewatch, severing their command chain gives the local defense a fighting chance to hold the region."
+   "answer": "Gath'Ilzogg's death deprives the Blackrock invaders of their chief tactician in Redridge. Many Blackrock orcs remain entrenched across Stonewatch, but the break in their command gives the local defense a chance to hold the region."
   },
   {
    "q": "Where was Gath'Ilzogg found?",
@@ -51,17 +51,17 @@
     "where is gathilzogg",
     "stonewatch keep location"
    ],
-   "answer": "He occupied the high reaches of Stonewatch Keep, holed up deep within the captured fortification alongside his personal bodyguards and lieutenants."
+   "answer": "Gath'Ilzogg occupied the high reaches of Stonewatch Keep, deep within the captured fortification with his personal bodyguards and lieutenants."
   }
  ],
  "angles": [
   {
    "target": "race:Human",
-   "text": "For the people of Stormwind, bringing down Gath'Ilzogg avenges the slaughter of innocent settlers and the humiliating fall of Stonewatch Keep."
+   "text": "For Stormwind's people, bringing down Gath'Ilzogg avenges the slaughter of innocent settlers and the humiliating fall of Stonewatch Keep."
   },
   {
    "target": "faction:Alliance",
-   "text": "With the capital distracted by internal squabbles, Alliance volunteers must shoulder the burden of defending Redridge and striking down Blackrock leaders themselves."
+   "text": "With the capital distracted by internal squabbles, Alliance volunteers must defend Redridge and strike down Blackrock leaders themselves."
   }
  ],
  "keywords": [
@@ -86,5 +86,6 @@
  "attribution": [
   "Head of Gath'Ilzogg",
   "Wanted: Gath'Ilzogg (quest)"
- ]
+ ],
+ "style": 1
 }

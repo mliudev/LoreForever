@@ -70,7 +70,7 @@ const ask = async (me, question, { on = env, caps = CAPS } = {}) => {
 };
 const TECH = /\b(?:memory|memories|saved?|stored?|database|data)\b/i;
 
-test("a plain ask to remember is done at once in her words; one she knows already, or can't keep, isn't sent", async () => {
+test("a plain ask to remember is done at once in her words; one she knows already isn't sent", async () => {
   const me = await linked();
   together = () => calls("memory", { answer: "I'll keep that in mind.", op: "remember", text: "I'm saving gold for my first mount" });
   const kept = await ask(me, "remember that I'm saving gold for my first mount");
@@ -96,45 +96,38 @@ test("a plain ask to remember is done at once in her words; one she knows alread
   const again = await ask(me, "remember that I'm saving gold for my first mount");
   assert.ok(!again.action, JSON.stringify(again.action));
   assert.match(again.answer, /already/i);
-  together = () => calls("memory", { answer: "I'll keep that in mind.", op: "remember", text: "My password is hunter2" });
-  const secret = await ask(me, "remember my password is hunter2");
-  assert.ok(!secret.action, JSON.stringify(secret.action));
-  assert.doesNotMatch(secret.answer, /keep that in mind/i);
 });
 
-test("one the check turns away, or with no room left, is told before she answers, never okay and then a refusal", async () => {
-  // Mike's QA, 10/26: "I'll keep in mind…", then "I couldn't keep that one…".
+// Mike, 10/27: "Players should be allowed to have agency in how they want to use willo". His QA, 10/26: "I'll keep in
+// mind…", then "I couldn't keep that one…" for his job.
+test("whatever they ask her to keep, she keeps in their own words, with nothing checking it, and the save keeps it", async () => {
   const me = await linked();
-  const checking = body => /check one short fact/i.test(body.systemInstruction?.parts?.[0]?.text || "");
-  const reason = "I can't keep that one: it isn't mine to hold.";
-  gemini = body => ({ text: checking(body) ? JSON.stringify({ ok: false, reason }) : "Hogger prowls the hills of Elwynn." });
-  together = () => calls("memory", { answer: "I'll keep that in mind.", op: "remember", text: "I trade on the auction house" });
-  const turned = await ask(me, "remember that I trade on the auction house");
-  assert.deepEqual([turned.action, turned.answer], [undefined, reason]);
-  gemini = body => ({ text: checking(body) ? JSON.stringify({ ok: true, reason: "" }) : "Hogger prowls the hills of Elwynn." });
-  assert.equal((await ask(me, "remember that I trade on the auction house")).action?.args?.op, "remember");
+  const save = text => memoriesApi({ env, request: new Request("https://example.test/api/willo/memories", { method: "POST",
+    headers: { Authorization: `Bearer ${me.token}`, "Content-Type": "application/json" }, body: JSON.stringify({ text, asked: true }) }) });
+  for (const [question, theirs] of [
+    ["remember that I am Nevinge and I am a QA tester for the Willo app", "I am Nevinge and I am a QA tester for the Willo app"],
+    ["remember that I work night shifts as a nurse", "I work night shifts as a nurse"],
+    ["remember my phone number is 555-123-4567", "My phone number is 555-123-4567"],
+    ["remember my password is hunter2", "My password is hunter2"],
+    ["remember that I play on a Burning Crusade server", "I play on a Burning Crusade server"],
+    ["remember I have ADHD, so keep answers short", "I have ADHD, so keep answers short"],
+  ]) {
+    // Her rewording adds what they didn't say (the lab, 10/27: "…so playing WoW Forever less").
+    together = () => calls("memory", { answer: "I'll keep that in mind.", op: "remember", text: `${theirs} in WoW` });
+    const kept = await ask(me, question);
+    assert.deepEqual([kept.action?.args?.op, kept.action?.args?.text, kept.answer], ["remember", theirs, "Okay."], question);
+    assert.equal((await save(kept.action.args.text)).status, 200, question);
+  }
+  assert.deepEqual(asked.filter(a => a.to === "gemini"), [], "nothing checks them");
+});
+
+test("with no room left she says so before she answers, never okay and then a refusal", async () => {
+  const me = await linked();
   for (let i = 0; i < MEMORIES_PAID; i++) note(me, `f${i}`, `Fact number ${i}`);
+  together = () => calls("memory", { answer: "I'll keep that in mind.", op: "remember", text: "I trade on the auction house" });
   const full = await ask(me, "remember that I trade on the auction house");
   assert.ok(!full.action, JSON.stringify(full.action));
   assert.match(full.answer, /forget one/i);
-});
-
-test("their own words are the note, and the save doesn't check those words again; other words it does", async () => {
-  const me = await linked();
-  const checks = () => asked.filter(a => a.to === "gemini" && !a.tools.length).length;
-  gemini = body => ({ text: /check one short fact/i.test(body.systemInstruction?.parts?.[0]?.text || "")
-    ? JSON.stringify({ ok: true, reason: "" }) : "Hogger prowls the hills of Elwynn." });
-  // Her rewording adds what they didn't say (the lab, 10/27: "…so playing WoW Forever less").
-  together = () => calls("memory", { answer: "I'll keep that in mind.", op: "remember", text: "Works night shifts as a nurse in WoW" });
-  const kept = await ask(me, "remember that I work night shifts as a nurse");
-  assert.equal(kept.action?.args?.text, "I work night shifts as a nurse");
-  assert.equal(checks(), 1);
-  const save = text => memoriesApi({ env, request: new Request("https://example.test/api/willo/memories", { method: "POST",
-    headers: { Authorization: `Bearer ${me.token}`, "Content-Type": "application/json" }, body: JSON.stringify({ text, asked: true }) }) });
-  assert.equal((await save(kept.action.args.text)).status, 200);
-  assert.equal(checks(), 1, "the words checked before her answer aren't checked again");
-  assert.equal((await save("I work night shifts as a nurse in Stormwind")).status, 200);
-  assert.equal(checks(), 2, "other words are");
 });
 
 test("a forget lets go of only the notes the player's words name, and one she doesn't know gets her line", async () => {
@@ -272,4 +265,13 @@ test("a rule for her is never kept as theirs, and a goal called on a forget of t
   assert.deepEqual([both.action?.args?.op, both.action?.args?.text], ["remember", "I main a hunter"]);
   note(me, "w1", "I play in the evenings, mostly Westfall");
   assert.ok(!(await ask(me, "Forget about Westfall, let's head to Duskwood")).action);
+  // Nor when she calls it: a forget in passing, on the way to somewhere else, is a change of plans (the lab, 10/27).
+  together = () => calls("memory", { answer: "Take the road south from Goldshire to reach Duskwood.", op: "forget", text: "Westfall" });
+  for (const question of ["Forget about Westfall, let's head to Duskwood", "forget about Westfall, where should I go instead?"]) {
+    const plans = await ask(me, question);
+    assert.deepEqual([plans.action, plans.answer], [undefined, "Take the road south from Goldshire to reach Duskwood."], question);
+  }
+  // Said about what she keeps of them, it's a forget.
+  for (const question of ["forget that I play in Westfall", "you don't need to remember that I play in Westfall anymore"])
+    assert.deepEqual((await ask(me, question)).action?.args?.ids, ["w1"], question);
 });

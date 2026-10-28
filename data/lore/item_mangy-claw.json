@@ -10,16 +10,16 @@
    "quest:417"
   ]
  },
- "summary": "The Mangy Claw is a severed claw taken from the great ice claw bear Mangeclaw in Dun Morogh. It serves as grim proof that the deadly beast responsible for killing a stranded dwarven pilot has finally been slain.",
+ "summary": "In Dun Morogh, Mangy Claw bears the mark of a deadly hunt. The great ice claw bear Mangeclaw killed a stranded dwarven pilot, and the severed claw proves the beast was slain.",
  "sections": [
   {
    "title": "A Dying Pilot's Wish",
-   "body": "When Pilot Hildelve's steam tank broke down in the frozen hills of Dun Morogh, he continued his search for ore on foot, only to face the mountain wilderness alone. As recorded in his recovered journal, Hildelve managed to fight off an initial attack by a monstrous ice claw bear named Mangeclaw, though he was savagely mauled in the struggle. The beast later returned to finish off the weakened pilot. Hildelve's final written entry pleaded for vengeance against the predator, a task fulfilled by taking the Mangy Claw from the fallen bear.",
+   "body": "Pilot Hildelve’s steam tank broke down in Dun Morogh’s frozen hills, leaving him to search for ore on foot and face the mountain wilderness alone. His recovered journal tells how he fought off an ice claw bear named Mangeclaw, though the struggle left him savagely mauled. The bear returned later and killed the weakened pilot. In his final written entry, Hildelve pleaded for vengeance. Taking the Mangy Claw from the fallen bear fulfills that request.",
    "spoiler": 0
   },
   {
    "title": "Vengeance for the Siege Brigade",
-   "body": "Taking the Mangy Claw to Pilot Hammerfoot brings closure to the Ironforge Siege Brigade. Hammerfoot had dispatched searchers into the snowdrifts hoping to find his friend alive, only to learn of his grim fate. Presenting both Hildelve's journal and the severed claw of the predator proves that Hildelve's dying request was honored, ensuring his rest and securing the gratitude of Ironforge's pilots.",
+   "body": "Pilot Hammerfoot sent searchers into the snowdrifts, hoping to find his friend Hildelve alive. The journal and Mangy Claw show Hammerfoot that Hildelve died and that his final request was honored. Bringing them to Hammerfoot gives the Ironforge Siege Brigade closure and earns the gratitude of Ironforge’s pilots.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "what is this claw",
     "mangeclaw item"
    ],
-   "answer": "It is a trophy severed from Mangeclaw, a savage ice claw bear lurking in Dun Morogh. It serves as physical proof that the beast has been hunted down and killed."
+   "answer": "Mangy Claw is a trophy taken from Mangeclaw, a savage ice claw bear in Dun Morogh. The severed claw proves the beast was hunted and killed."
   },
   {
    "q": "Who wants the Mangy Claw?",
@@ -40,7 +40,7 @@
     "mangy claw hand in",
     "pilot hammerfoot turn in"
    ],
-   "answer": "Pilot Hammerfoot, stationed near the mountain passes of Dun Morogh, seeks the claw alongside the journal of his fallen friend Hildelve to confirm the killer bear is dead."
+   "answer": "Pilot Hammerfoot wants the Mangy Claw and the journal of his fallen friend Hildelve, to confirm the killer bear is dead. He is stationed near Dun Morogh’s mountain passes."
   },
   {
    "q": "Why did Mangeclaw need to be hunted?",
@@ -49,7 +49,7 @@
     "who died to mangeclaw",
     "hildelve lore"
    ],
-   "answer": "A dwarf pilot named Hildelve, searching for ore on foot after his steam tank broke down, was mauled and eventually killed by Mangeclaw. Hildelve's dying wish, written in his personal journal, was for someone to take vengeance on the beast."
+   "answer": "Mangeclaw mauled and eventually killed Hildelve, a dwarf pilot searching for ore on foot after his steam tank broke down. Hildelve’s journal records his dying wish for someone to avenge him."
   },
   {
    "q": "Where does the beast Mangeclaw roam?",
@@ -58,17 +58,17 @@
     "where is mangeclaw",
     "mangeclaw dun morogh"
    ],
-   "answer": "Mangeclaw prowls the snowy ridges and hills of Dun Morogh not far from where Pilot Hildelve's remains were discovered."
+   "answer": "Mangeclaw prowls the snowy ridges and hills of Dun Morogh, not far from where Pilot Hildelve’s remains were found."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "For dwarves, honoring a fallen comrade's dying wish and avenging a member of the Ironforge Siege Brigade is a matter of profound personal and clan honor."
+   "text": "As a dwarf, honoring a fallen comrade’s dying wish and avenging a member of the Ironforge Siege Brigade carries deep personal and clan honor."
   },
   {
    "target": "class:Hunter",
-   "text": "Tracking down a notorious predator like Mangeclaw in the brutal mountain blizzards tests a hunter's ability to put down dangerous, territorial beasts."
+   "text": "As a hunter, tracking Mangeclaw through Dun Morogh’s brutal mountain blizzards tests your skill against dangerous, territorial beasts."
   }
  ],
  "keywords": [
@@ -91,5 +91,6 @@
  "attribution": [
   "Mangy Claw",
   "A Pilot's Revenge (Classic)"
- ]
+ ],
+ "style": 1
 }

@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "North Gate Outpost"
  },
- "summary": "North Gate Outpost is a fortified dwarven camp situated high in the North Gate Pass of Dun Morogh. Manning the rugged route between Ironforge's snowy heartland and Loch Modan, its mountaineers guard travelers against the hostile wildlife that infests the crags.",
+ "summary": "Mountaineers guard the road through North Gate Outpost, where Dun Morogh meets Loch Modan. Their patrols keep travelers safe from the beasts in the crags.",
  "sections": [
   {
    "title": "Guards of the Pass",
-   "body": "Positioned in the middle of North Gate Pass, this small settlement serves as the northeastern threshold of Dun Morogh. Dwarven mountaineers stationed here keep the main roadway cleared of prowling beasts and monitor traffic heading through the mountain tunnels into Loch Modan. The harsh climate and steep ravines make patrol duty treacherous, and the garrison frequently calls upon travelers to scout the surrounding ridges for missing patrols and dangerous predators.",
+   "body": "Dwarven mountaineers guard the road through North Gate Pass. From North Gate Outpost, they keep the route clear of prowling beasts and watch travelers heading through the mountain tunnels into Loch Modan. The pass is Dun Morogh’s northeastern threshold, but its harsh weather and steep ravines make patrols dangerous. When a patrol goes missing or a predator threatens the road, the garrison calls on travelers to scout the surrounding ridges.",
    "spoiler": 0
   }
  ],
@@ -22,7 +22,7 @@
     "north gate outpost purpose",
     "why is north gate outpost here"
    ],
-   "answer": "It serves as a mountain military checkpoint that secures North Gate Pass, the northern roadway connecting Dun Morogh to Loch Modan. Mountaineers stationed here keep the pass open to trade and travel by curbing wild beast populations."
+   "answer": "North Gate Outpost gives the mountaineers a post from which to guard North Gate Pass, the northern road between Dun Morogh and Loch Modan. They keep the route open to trade and travel by driving back wild beasts."
   },
   {
    "q": "Where does the road through the pass lead?",
@@ -30,7 +30,7 @@
     "where does north gate pass go",
     "road past north gate outpost"
    ],
-   "answer": "Traveling east through the mountain tunnels beyond the outpost leads into the temperate valley of Loch Modan, while heading west leads back down toward Kharanos and Ironforge."
+   "answer": "The road leads east through mountain tunnels into Loch Modan, or west toward Kharanos and Ironforge."
   },
   {
    "q": "Why do the mountaineers need help from travelers?",
@@ -38,17 +38,17 @@
     "north gate outpost quests",
     "missing mountaineers"
    ],
-   "answer": "The local wildlife along the snowy cliffs is fiercely territorial. Several mountaineers have gone missing into the crags while hunting dangerous beasts, forcing the garrison to enlist capable scouts to discover their fates."
+   "answer": "Territorial beasts prowl the snowy cliffs, and mountaineers have gone missing in the crags while hunting them. The garrison needs scouts to search for the missing mountaineers and learn their fates."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "The outpost showcases the stoic duty of Ironforge's Mountaineers, who hold the harsh highland passes open regardless of freezing weather or prowling predators."
+   "text": "As a dwarf, you can see the Mountaineers’ duty in the work of keeping the highland passes open through freezing weather and prowling predators."
   },
   {
    "target": "race:Gnome",
-   "text": "Having resettled across Dun Morogh, gnomes often lend their wits and marksmanship to assist the dwarven garrison in tracking down lost patrols."
+   "text": "As a gnome, you can lend your wits and marksmanship to help the dwarven garrison track down lost patrols."
   }
  ],
  "keywords": [
@@ -67,5 +67,6 @@
  ],
  "attribution": [
   "North Gate Outpost"
- ]
+ ],
+ "style": 1
 }

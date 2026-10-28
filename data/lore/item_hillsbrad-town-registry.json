@@ -10,11 +10,11 @@
    "quest:532"
   ]
  },
- "summary": "The Hillsbrad Town Registry is an official municipal ledger kept inside the town hall of the Hillsbrad Fields. It serves as an accounting of the settlement's surviving citizens, landowners, and civic records, making it a key strategic target during the Forsaken offensive against the human stronghold.",
+ "summary": "In Hillsbrad Fields, the town hall keeps a ledger of the settlement's surviving citizens and landowners. The Hillsbrad Town Registry records civic matters, and the Forsaken seek it during their offensive against the human stronghold.",
  "sections": [
   {
    "title": "A Record of Defiance",
-   "body": "Resting in the town hall near the podium of Magistrate Burnside, the Hillsbrad Town Registry documents the population, households, and administrative rights of Hillsbrad. As the Forsaken from Tarren Mill push to break human resistance in the foothills, Darthalia commands Horde champions to infiltrate the town hall, eliminate the council, and seize this ledger. Confiscating the registry strips Hillsbrad of its civic order and provides the Undercity with valuable intelligence on the surviving population and their assets.",
+   "body": "The Hillsbrad Town Registry records the town's people and rights. It rests in the town hall near the podium of Magistrate Burnside. From Tarren Mill, the Forsaken press to break human resistance in the foothills. Darthalia sends Horde champions into the town hall to kill the council and seize the ledger. Its records cover Hillsbrad's population, households, and administrative rights. The registry would strip the town of its civic order and give the Undercity intelligence on the surviving population and their assets.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "where is town registry",
     "find hillsbrad registry"
    ],
-   "answer": "The registry is housed within the town hall at the Hillsbrad Fields, sitting in a corner near the stairs leading up to Magistrate Burnside's platform."
+   "answer": "The registry is kept in a corner of the town hall at the Hillsbrad Fields, near the stairs leading to Magistrate Burnside's platform."
   },
   {
    "q": "Why do the Forsaken want to steal it?",
@@ -35,7 +35,7 @@
     "darthalia registry quest",
     "purpose of registry"
    ],
-   "answer": "High Executor Darthalia seeks to utterly dismantle human governance in the foothills. Seizing the registry robs the township of vital records regarding its citizens and property while providing the Forsaken with detailed intelligence on the surviving community."
+   "answer": "High Executor Darthalia wants to dismantle human governance in the foothills. The registry holds records of the town's citizens, households, administrative rights, and property, and would give the Forsaken intelligence on the surviving community."
   },
   {
    "q": "Who guards the registry?",
@@ -43,17 +43,17 @@
     "who protects registry",
     "town hall defenders"
    ],
-   "answer": "It is guarded by Magistrate Burnside and the Hillsbrad Councilmen, who wield defensive magic and rally inside and around the town hall."
+   "answer": "Magistrate Burnside and the Hillsbrad Councilmen guard the registry. They wield defensive magic and rally inside and around the town hall."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "Capturing the town registry is a decisive step in breaking human authority in the foothills and cementing the Forsaken stronghold at Tarren Mill."
+   "text": "For the Horde, capturing the town registry helps break human authority in the foothills and secure the Forsaken stronghold at Tarren Mill."
   },
   {
    "target": "race:Human",
-   "text": "The ledger represents the formal existence and rights of Hillsbrad's remaining townsfolk, making its loss a devastating blow to the regional community."
+   "text": "As a human, the ledger records the formal existence and rights of Hillsbrad's remaining townsfolk. Its loss would strike the regional community hard."
   }
  ],
  "keywords": [
@@ -75,5 +75,6 @@
  "attribution": [
   "Hillsbrad Town Registry",
   "Battle of Hillsbrad (4)"
- ]
+ ],
+ "style": 1
 }

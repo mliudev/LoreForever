@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Crusader's Outpost"
  },
- "summary": "Crusader's Outpost is a fortified scout tower manned by the Scarlet Crusade in western Tirisfal Glades. Situated adjacent to the Solliden Farmstead, it serves as the Crusade's westernmost position in all of Lordaeron. Its perilous distance from the main Scarlet bastions leaves its garrison isolated in the heart of hostile Forsaken territory.",
+ "summary": "In western Tirisfal Glades, Scarlet Crusaders hold a fortified scout tower beside Solliden Farmstead. It marks the Crusade's westernmost position in all of Lordaeron, far from its main bastions and deep in hostile Forsaken territory.",
  "sections": [
   {
    "title": "A Lonely Watchtower",
-   "body": "Perched inside the western Tirisfal hills just north of Deathknell, this stone tower represents the farthest reach of the Scarlet Crusade's power in Lordaeron. The garrison stationed here works in tandem with the surviving human laborers of the nearby Solliden Farmstead, attempting to hold back the encroaching undead. From the top of the tower, lookouts keep watch over the surrounding pumpkin fields and forest paths, vigilant against both roaming Scourge fiends and patrols from the Undercity.",
+   "body": "A stone tower rises in the western Tirisfal hills, just north of Deathknell. The Scarlet garrison here marks the farthest reach of the Crusade's power in Lordaeron. Its soldiers work with the surviving human laborers at Solliden Farmstead, trying to hold back the encroaching undead. Lookouts watch the nearby pumpkin fields and forest paths for Scourge fiends and patrols from the Undercity.",
    "spoiler": 0
   },
   {
    "title": "Isolated Behind Enemy Lines",
-   "body": "Holding the western frontier carries extreme risk. Cut off from their primary strongholds in the Scarlet Monastery and far to the east in Tyr's Hand, the crusaders at this outpost cannot expect swift reinforcements should an attack breach the palisade. Any siege by the Forsaken forces massing across Tirisfal means either holding the tower on their own or facing total annihilation before help can ever arrive.",
+   "body": "The western frontier leaves the crusaders in a perilous position. Their main strongholds lie at the Scarlet Monastery and far to the east at Tyr's Hand, with no swift reinforcements likely if an attack breaches the palisade. Should Forsaken forces massing across Tirisfal lay siege, the garrison must hold the tower alone or face annihilation before help can arrive.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "scarlet crusaders tirisfal west",
     "crusader outpost purpose"
    ],
-   "answer": "The tower serves as an early warning post and defensive fortification along the western Tirisfal hills. It protects the living human farmers at Solliden Farmstead and watches the western approaches against both feral Scourge and Forsaken advance scouts."
+   "answer": "The tower is an early warning post and defensive fortification in the western Tirisfal hills. It protects the living human farmers at Solliden Farmstead and watches the western approaches for feral Scourge and Forsaken advance scouts."
   },
   {
    "q": "Can reinforcements reach this outpost if it gets attacked?",
@@ -37,7 +37,7 @@
     "outpost help",
     "how far is help"
    ],
-   "answer": "Not easily. The outpost is the westernmost Scarlet holding in Lordaeron. Their primary bastions lie far to the east at the Scarlet Monastery and Tyr's Hand, leaving this garrison entirely cut off if Forsaken forces surround them."
+   "answer": "Reinforcements cannot reach the outpost easily. It is the westernmost Scarlet holding in Lordaeron, while the Crusade's main bastions lie far to the east at the Scarlet Monastery and Tyr's Hand. If Forsaken forces surround the garrison, it is cut off."
   },
   {
    "q": "What is the relationship between the tower and Solliden Farmstead?",
@@ -46,7 +46,7 @@
     "why are crusaders at farm",
     "crusaders and farmers"
    ],
-   "answer": "The crusaders have allied with the remaining human farmers at Solliden Farmstead. The soldiers provide protection against the walking dead in exchange for sustenance and a loyal staging ground on the fringes of Lordaeron."
+   "answer": "The crusaders have allied with the remaining human farmers at Solliden Farmstead. The soldiers protect them from the walking dead in exchange for sustenance and a loyal staging ground on Lordaeron's fringes."
   },
   {
    "q": "Are there other towers like this in the region?",
@@ -54,17 +54,17 @@
     "other crusader outposts",
     "more scarlet towers"
    ],
-   "answer": "Yes. This tower is one of four similar Crusader's Outposts established by the Scarlet Crusade across Tirisfal Glades to survey and patrol the surrounding lands."
+   "answer": "Yes. The Scarlet Crusade established four similar Crusader's Outposts across Tirisfal Glades to survey and patrol the surrounding lands."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "For the newly risen Forsaken emerging from Deathknell, this nearby tower and the Scarlet zealots guarding it represent an immediate existential threat right on their border."
+   "text": "As a newly risen Forsaken emerging from Deathknell, you find a nearby tower guarded by Scarlet zealots, an immediate threat on your border."
   },
   {
    "target": "faction:Horde",
-   "text": "The outpost serves as a bitter reminder of the Scarlet Crusade's fanatical refusal to yield Tirisfal to the Forsaken and their Horde allies."
+   "text": "As a member of the Horde, you see the outpost as a bitter reminder that the Scarlet Crusade refuses to yield Tirisfal to the Forsaken and their allies."
   }
  ],
  "keywords": [
@@ -86,5 +86,6 @@
  ],
  "attribution": [
   "Crusader's Outpost"
- ]
+ ],
+ "style": 1
 }

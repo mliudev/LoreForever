@@ -1,22 +1,21 @@
 // Her memory as a tool (LOR-844 step 6, phase 1 of the memory plan, the Architect's option B, 10/26): the player asks
 // her to remember something about themselves, to forget one, to forget everything, or what she remembers, by voice or
 // typing. The model calls the `memory` tool (lib/willo-actions.json, offered by appOffer on DeepSeek and on the
-// fallback's cue, memoryCue) and her app does it with /api/willo/memories, where the check runs again on the save.
+// fallback's cue, memoryCue) and her app does it with /api/willo/memories, which keeps what they ask.
 // This is the site's look at her call before it goes to the app, from the one read of the player's memories
-// (lib/willo-memories.js memoriesRead): a note the pre-filter refuses, or one she knows already, is never sent; a
+// (lib/willo-memories.js memoriesRead): one she knows already is never sent; a
 // forget is matched here to the notes the player's words name (their ids go with it, so the app forgets those and Undo
 // brings them back); more than FORGET_MOST of them, or "forget everything", reads back how many first. Recall stays the
 // block (no tool for it). What she says stays in the world: "Okay", never memory, saved or data.
 // Kept outside functions/ so Pages doesn't route it.
 
 import { keywordsOf, stemOf, characterOf, MEMORY_MAX } from "./willo-memories.js";
-import { memoryPreFilter } from "./willo-memory-rules.js";
 import { clean } from "./willo-custom.js";
-import { withNow, fitsAsked } from "./willo-tools.js";
+import { withNow, fitsAsked, FORGET_MINE } from "./willo-tools.js";
 
 // Her lines when the site does it instead of the app.
 export const MEMORY_LINES = {
-  refused: "That's one thing I can't keep in mind, but ask me anything.",
+  empty: "What would you like me to keep in mind?",
   known: "I know that already.",
   nothing: "I don't think you've told me anything about that.",
   none: "There's nothing for me to forget yet.",
@@ -62,7 +61,6 @@ export function narrowMemory(action, question) {
 const KEEP_WORDS = /^.*?\b(?:remember|keep in mind|bear in mind|don'?t forget|do not forget)\b[\s:,-]+(?:that\s+)?/i;
 const KEEP_AFTER = /,?\s*(?:please\s+)?(?:remember|keep in mind|bear in mind)(?:\s+that)?\W*$/i;
 const ASKS_BESIDES = /[.!?;]|,?\s+(?:and|but|so|also|then)\s+(?:what|where|who|whom|how|when|which|why|can|could|should|shall|is|are|was|do|does|did|will|would|tell|show)\b/i;
-const FORGET_MINE = /\b(?:forget|let go of|stop remembering)\s+(?:(?:all(?:\s+the\s+stuff)?|everything|the\s+stuff|the\s+things?)\s+)?(?:about\s+)?(?:that\s+)?(?:i\b|i'[a-z]+\b|my\b|me\b|what i (?:said|told you)\b)/i;
 export function memoryFromWords(question, { misrouted = false } = {}) {
   const q = String(question || "").replace(/’/g, "'").trim();
   const asked = op => fitsAsked({ id: "memory", args: { op } }, q);
@@ -81,12 +79,10 @@ export function memoryFromWords(question, { misrouted = false } = {}) {
 // {action: null, answer} when there's nothing to send.
 // rows: the account's and this character's notes (memoriesRead); count: all the account keeps; character: the asking
 // character's page or Name-Realm; question: the player's words (a note is this character's only when they say so);
-// plain: the player plainly asked (lib/willo-tools.js plainAsk), so a change runs at once with Undo; held and room: how
-// many the account keeps, turned-away ones too, and how many it may (a full one is told before, never refused after).
-// Asking what she remembers always opens her list at once. A note she keeps is "Okay." out loud: the check passed it
-// before her answer (answer.js, lib/willo-memories.js memoryVerdict), and her app's line says "Remembering…", then
-// what she kept.
-export function settleMemory(action, { rows = [], count = 0, held = 0, room = Infinity, character = null, question = "",
+// plain: the player plainly asked (lib/willo-tools.js plainAsk), so a change runs at once with Undo; room: how many the
+// account may keep (a full one is told before her answer). Asking what she remembers always opens her list at once. A
+// note she keeps is "Okay." out loud, and her app's line says "Remembering…", then what she kept.
+export function settleMemory(action, { rows = [], count = 0, room = Infinity, character = null, question = "",
   plain = false } = {}) {
   const args = action.args, op = args.op;
   if (op === "list") return { action: withNow(action) };
@@ -106,12 +102,12 @@ export function settleMemory(action, { rows = [], count = 0, held = 0, room = In
       answer: `That's ${notes.length} things you've told me. Shall I forget them all?` };
     return { action: plain ? withNow(forgetting) : forgetting };
   }
-  // remember: their words as she'd keep them, never one the pre-filter refuses or she has already.
+  // remember: their words as she'd keep them, unless she has them already.
   const text = clean(args.text || "", MEMORY_MAX);
-  if (!text || memoryPreFilter(text)) return { action: null, answer: MEMORY_LINES.refused };
+  if (!text) return { action: null, answer: MEMORY_LINES.empty };
   const scope = THIS_CHARACTER.test(String(question || "")) ? characterOf(character) : null;
   if (rows.some(r => same(r.text, text) && (!r.character || r.character === scope))) return { action: null, answer: MEMORY_LINES.known };
-  if (held >= room) return { action: null, answer: MEMORY_LINES.full };
+  if (count >= room) return { action: null, answer: MEMORY_LINES.full };
   const keeping = { ...action, args: { op, text, ...(scope ? { character: scope } : {}) },
     label: `Remember: ${text}`.slice(0, 60) };
   return plain ? { action: withNow(keeping), answer: "Okay." } : { action: keeping };

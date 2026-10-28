@@ -10,11 +10,11 @@
    "quest:306"
   ]
  },
- "summary": "Merrin's Letter is an urgent message written by Merrin Rockweaver, an archaeologist trapped at the dig site in the Wetlands. It recounts the catastrophic overrun of their archaeological expedition by vicious raptors and assures her loved ones of her immediate survival.",
+ "summary": "At the Whelgar's Excavation site, Merrin Rockweaver sends an urgent message from the Wetlands. Raptors have overrun the dig, but Merrin assures her loved ones that she survived.",
  "sections": [
   {
    "title": "A Dispatch from the Ruins",
-   "body": "While excavating enormous prehistoric fossils and relics at the Whelgar's Excavation site in the Wetlands, the dwarven expedition disturbed a nest of ferocious Mottled Raptors. The beasts swarmed the trenches, slaughtering several workers and cutting off the surviving researchers from escape. Penning this note amidst the chaos, Merrin Rockweaver wrote to inform her husband Tarrel back at Menethil Harbor that while the dig lies in ruins, she, Prospector Whelgar, and Ormer Ironbraid managed to survive behind barricaded shelter.",
+   "body": "Merrin Rockweaver writes from the ruined dig at Whelgar's Excavation in the Wetlands. The dwarven expedition had been uncovering enormous prehistoric fossils and relics when they disturbed a nest of Mottled Raptors. The beasts swarmed the trenches, killed several workers, and cut off the surviving researchers. Amid the chaos, Merrin sends word to her husband Tarrel at Menethil Harbor. She, Prospector Whelgar, and Ormer Ironbraid survived behind a barricaded shelter.",
    "spoiler": 0
   }
  ],
@@ -25,7 +25,7 @@
     "author of merrins letter",
     "who is merrin"
    ],
-   "answer": "The letter was penned by Merrin Rockweaver, an explorer taking part in the archaeological expedition at the dig site east of Menethil Harbor in the Wetlands."
+   "answer": "Merrin Rockweaver wrote the letter while taking part in the archaeological expedition at the dig site east of Menethil Harbor in the Wetlands."
   },
   {
    "q": "Who is the letter addressed to?",
@@ -33,7 +33,7 @@
     "recipient of merrins letter",
     "who gets merrins letter"
    ],
-   "answer": "It is addressed to Tarrel Rockweaver, who waits anxiously for news on the bridge at Menethil Harbor."
+   "answer": "Merrin addressed the letter to Tarrel Rockweaver, who waits anxiously for news on the bridge at Menethil Harbor."
   },
   {
    "q": "What happened to the excavation team?",
@@ -41,7 +41,7 @@
     "what happened to the dig",
     "why did the expedition fail"
    ],
-   "answer": "While uncovering massive fossilized bones, the archaeological team was ambushed and overrun by a pack of Mottled Raptors. Many dwarven workers were killed, leaving only a tiny handful of survivors barricaded in a makeshift camp."
+   "answer": "Mottled Raptors overran the archaeological team while it uncovered massive fossilized bones. Many dwarven workers were killed, and only a handful survived behind barricades in a makeshift camp."
   },
   {
    "q": "Who helped Merrin survive the attack?",
@@ -49,17 +49,17 @@
     "who saved merrin",
     "ormer ironbraid"
    ],
-   "answer": "Ormer Ironbraid fought bravely to defend Merrin and the head prospector, allowing them to retreat and take shelter while the rest of the dig fell to the raptors."
+   "answer": "Ormer Ironbraid helped Merrin survive the attack. He defended Merrin and the head prospector, giving them time to retreat to shelter while the raptors overwhelmed the rest of the dig."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "The letter underscores the high personal cost the Explorers' League pays in unearthing ancient history across the dangerous wilds of Khaz Modan."
+   "text": "For a dwarf, Merrin's letter shows the personal cost the Explorers' League pays to uncover ancient history in the dangerous wilds of Khaz Modan."
   },
   {
    "target": "faction:Alliance",
-   "text": "Delivering this note brings vital intelligence and bittersweet comfort to the Alliance sentries keeping watch along the Wetlands highway."
+   "text": "For an Alliance traveler, delivering the note brings vital intelligence and bittersweet comfort to the sentries watching the Wetlands highway."
   }
  ],
  "keywords": [
@@ -79,5 +79,6 @@
  "attribution": [
   "Merrin's Letter",
   "In Search of The Excavation Team (2)"
- ]
+ ],
+ "style": 1
 }

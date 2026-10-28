@@ -21,16 +21,16 @@
    "Stout to Kadrell"
   ]
  },
- "summary": "Following the creation of his experimental Shimmer Stout in Brewnall Village, Rejold Barleybrew asks travelers to carry a fresh barrel out to his brother Wellart. Wellart serves as a dwarf Mountaineer stationed at the southern guard tower guarding the pass toward Loch Modan, where a cold post makes a strong drink all the more welcome.",
+ "summary": "At Brewnall Village, Rejold Barleybrew sends a fresh barrel of Shimmer Stout to his brother Wellart. Wellart guards the pass toward Loch Modan, where a cold post makes a strong drink welcome.",
  "sections": [
   {
    "title": "A Family Recipe on the Frontier",
-   "body": "Rejold Barleybrew has perfected his new creation, Shimmer Stout, using shimmering fronds gathered from the icy crags of Dun Morogh. While the rest of the Barleybrew family dedicates their craft to the vats and kegs of Brewnall Village, Rejold's brother Wellart chose the life of a Mountaineer. Knowing the lonely conditions of guard duty on the frontier, Rejold sends a fresh barrel along with passing travelers as both a brotherly favor and a true taste test.",
+   "body": "Rejold Barleybrew has perfected Shimmer Stout with shimmering fronds gathered from Dun Morogh’s icy crags. His family tends the vats and kegs of Brewnall Village, but his brother Wellart chose life as a Mountaineer. Rejold knows how lonely frontier guard duty can be, so he sends a fresh barrel with passing travelers. It is a favor between brothers and a chance to test the brew.",
    "spoiler": 0
   },
   {
    "title": "The South Gate Guard Tower",
-   "body": "Wellart Barleybrew is stationed at the southern guard tower flanking the South Gate Pass into Loch Modan. High atop the mountain pass, the Mountaineers endure bitter winds and occasional beast attacks while keeping watch over travelers walking the mountain road. Running low on drink and restless for excitement, Wellart finds that Shimmer Stout delivers quite a punch\u2014so much so that it seems to brighten his vision in the dim mountain night.",
+   "body": "Wellart Barleybrew guards the South Gate Pass into Loch Modan from the southern tower. High in the pass, Mountaineers face bitter winds and occasional beast attacks while watching over travelers on the mountain road. Wellart is running low on drink and restless for excitement. Shimmer Stout packs quite a punch, he finds, and seems to brighten his vision in the dim mountain night.",
    "spoiler": 0
   }
  ],
@@ -42,7 +42,7 @@
     "wellart barleybrew",
     "mountaineer barleybrew lore"
    ],
-   "answer": "Mountaineer Wellart Barleybrew is the brother of Rejold Barleybrew. Unlike his kin who brew ale in Brewnall Village, Wellart chose service in the Dun Morogh Mountaineers, keeping watch over the high pass connecting Dun Morogh to Loch Modan."
+   "answer": "Mountaineer Wellart Barleybrew is Rejold Barleybrew’s brother. While his kin brew ale in Brewnall Village, Wellart serves with the Dun Morogh Mountaineers, watching the high pass between Dun Morogh and Loch Modan."
   },
   {
    "q": "Where is the southern guard tower located?",
@@ -51,7 +51,7 @@
     "mountaineer barleybrew location",
     "where is wellart"
    ],
-   "answer": "The tower sits along the eastern border of Dun Morogh guarding the South Gate Pass, which cuts through the mountains toward the neighboring valley of Loch Modan."
+   "answer": "The southern tower sits along Dun Morogh’s eastern border, guarding the South Gate Pass through the mountains toward Loch Modan."
   },
   {
    "q": "What makes Shimmer Stout special?",
@@ -59,7 +59,7 @@
     "what does shimmer stout do",
     "shimmer stout effect"
    ],
-   "answer": "Shimmer Stout is brewed using special shimmering fronds collected in the snowy wilderness. According to Wellart, drinking it puts a bright shine in his eyes and makes him feel as though he can see straight through the dark."
+   "answer": "Shimmer Stout is brewed with special shimmering fronds gathered in the snowy wilderness. Wellart says it brightens his eyes and makes him feel as though he can see through the dark."
   },
   {
    "q": "What happens after Wellart drinks the stout?",
@@ -67,17 +67,17 @@
     "what is next after shimmer stout",
     "next quest after shimmer stout"
    ],
-   "answer": "Wellart enjoys the brew so much that he asks travelers to haul an additional keg down into Loch Modan to share with Mountaineer Kadrell, who patrols the road through Thelsamar."
+   "answer": "Wellart enjoys the brew and asks travelers to carry another keg into Loch Modan for Mountaineer Kadrell, who patrols the road through Thelsamar."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "For dwarves, sharing ale among family is as vital a duty as guarding the mountain passes, making this delivery a quintessential part of Ironforge frontier life."
+   "text": "As a dwarf, you know sharing ale with family matters as much as guarding the mountain passes. This delivery is part of frontier life in Ironforge."
   },
   {
    "target": "faction:Alliance",
-   "text": "Keeping the vigilant Mountaineers supplied helps sustain the network of guards protecting the highway between Dun Morogh and Loch Modan."
+   "text": "As an Alliance traveler, you help keep the Mountaineers supplied as they guard the highway between Dun Morogh and Loch Modan."
   }
  ],
  "keywords": [
@@ -99,5 +99,6 @@
  ],
  "attribution": [
   "Shimmer Stout (quest)"
- ]
+ ],
+ "style": 1
 }

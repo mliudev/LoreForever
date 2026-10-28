@@ -14,7 +14,7 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@400;500;700&family=Cinzel:wght@600;700&display=swap">
 <link rel="stylesheet" href="/style.css?v=20261026a">
 <link rel="stylesheet" href="/email-signin.css?v=20261025a">
-<link rel="stylesheet" href="/pages.css?v=20261026a">
+<link rel="stylesheet" href="/pages.css?v=20261026c">
 <link rel="stylesheet" href="/community.css?v=20261026a">
 <link rel="stylesheet" href="/pages-b.css?v=20261026a">
 <script src="/header.js?v=20261026a" defer></script>
@@ -705,8 +705,7 @@
     if (c.reward) {
       // A free month for the friends they brought (lib/billing.js planFor reward): that plan on us until `ends`.
       $("ac-plan-title").textContent = `A free month of ${c.name}, from your friends`;
-      $("ac-plan-text").textContent = `${(c.answersPerMonth || 0).toLocaleString("en-US")} Willo answers this month, ` +
-        `up to ${c.answersPerDay} a day, until ${c.ends}. Nothing is charged.`;
+      $("ac-plan-text").textContent = `Unlimited Willo answers until ${c.ends}. Nothing is charged.`;
       $("ac-plan-go").textContent = "See plans";
       return;
     }
@@ -715,7 +714,7 @@
       const hero = res.plans.find(p => p.id === "hero");
       $("ac-plan-title").textContent = `Hero is free until ${c.ends}`;
       $("ac-plan-text").textContent = lead("hero") +
-        `${(c.answersPerMonth || 0).toLocaleString("en-US")} Willo answers this month, up to ${c.answersPerDay} a day. ` +
+        "Unlimited Willo answers. " +
         `Keep Hero after it for $${((hero?.monthly || 499) / 100).toFixed(2)} a month.`;
       $("ac-plan-go").textContent = "See plans";
       return;
@@ -723,7 +722,7 @@
     if (paid) {
       $("ac-plan-title").textContent = `Your plan: ${c.name}`;
       $("ac-plan-text").textContent = lead(c.id) +
-        `${(c.answersPerMonth || 0).toLocaleString("en-US")} Willo answers a month, up to ${c.answersPerDay} a day. ` +
+        "Unlimited Willo answers. " +
         (c.status === "past_due" ? "Your last payment didn't go through: update your card to keep it."
           : c.cancelAtPeriodEnd ? `It ends on ${day(c.renews)}.`
           : c.changesTo ? `Changes to ${c.changesTo.name} on ${day(c.changesTo.at)}.`
@@ -743,9 +742,9 @@
     const paidPlans = res.plans.filter(p => p.id !== "free");
     const names = paidPlans.map(p => p.name);
     const open = paidPlans.find(p => p.sellable);
-    $("ac-plan-title").textContent = "Get more Willo answers";
+    $("ac-plan-title").textContent = "Get unlimited Willo answers";
     $("ac-plan-text").textContent = `You're on ${c.name}, the free plan: ${c.answersPerDay} live answers a day. ` +
-      `${names.slice(0, -1).join(", ")} and ${names.at(-1)} give Willo more` +
+      `${names.slice(0, -1).join(", ")} and ${names.at(-1)} give unlimited answers and more` +
       (open ? `, from ${open.name} at $${(open.monthly / 100).toFixed(2)} a month: ${lead(open.id).trim() || "."}` : ".");
     $("ac-plan-go").textContent = "See plans";
   }

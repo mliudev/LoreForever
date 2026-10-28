@@ -10,16 +10,16 @@
    "quest:1034"
   ]
  },
- "summary": "Handfuls of Stardust are shimmering, frosted coatings gathered from sparkling bushes in the southern wilderness of Ashenvale. Sourced from the ancient Ruins of Stardust, this powder possesses cooling natural properties prized by night elven healers treating intense fevers.",
+ "summary": "In the Ruins of Stardust, a pale frost gathers on the bushes south of Astranaar. Night elven healers use the powder to cool intense fevers.",
  "sections": [
   {
    "title": "A Cooling Herbal Remedy",
-   "body": "Found clinging to the leafy shrubs within the ancient Ruins of Stardust south of Astranaar, stardust appears as a fine, luminous frost. While the ruins themselves are haunted by lingering elemental spirits, the vegetation that thrives among the broken stones absorbs a rare ambient luminescence. Traditional night elven medicine makes use of this frosted residue, processing it into poultices to draw out persistent, dangerous fevers when ordinary salves and moonwell waters fail to bring complete relief.",
+   "body": "Stardust clings to shrubs in the Ruins of Stardust, south of Astranaar. The fine powder shines like frost. Lingering elemental spirits haunt the ruins, yet plants thrive among the broken stones and take in a rare glow. Night elven healers make the residue into poultices for dangerous, persistent fevers. They turn to it when ordinary salves and moonwell waters bring no full relief.",
    "spoiler": 0
   },
   {
    "title": "A Father's Hope",
-   "body": "Pelturas Whitemoon, an anxious father in Astranaar, sought this powder on the advice of the herbalist Orendil Broadleaf. Pelturas's young daughter, Relara, was afflicted by a stubborn magical ailment and nightmares. Although an initial blessing from a stone touched by Elune calmed her mind, an intense bodily fever lingered, prompting a search for stardust to concoct a cooling paste to save the child's life.",
+   "body": "Pelturas Whitemoon, a worried father in Astranaar, followed herbalist Orendil Broadleaf's advice and sought the powder. His young daughter, Relara, suffered from a stubborn magical ailment and nightmares. A blessing from a stone touched by Elune first calmed her mind, but her intense fever remained. Pelturas sought stardust to make a cooling paste and save her life.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "where to find stardust",
     "stardust covered bushes"
    ],
-   "answer": "It is gathered from glittering, stardust-covered bushes growing throughout the Ruins of Stardust, located south of the night elf settlement of Astranaar in central Ashenvale."
+   "answer": "You can gather stardust from the shining bushes in the Ruins of Stardust, south of Astranaar in central Ashenvale."
   },
   {
    "q": "What is this stardust used for?",
@@ -40,7 +40,7 @@
     "pelturas cure",
     "stardust purpose"
    ],
-   "answer": "Pelturas Whitemoon in Astranaar uses the powder to prepare a soothing poultice intended to break the unrelenting fever afflicting his sick daughter, Relara."
+   "answer": "Pelturas Whitemoon uses the powder in a soothing poultice for the unrelenting fever afflicting his daughter, Relara."
   },
   {
    "q": "What dangers surround the stardust bushes?",
@@ -48,7 +48,7 @@
     "ruins of stardust enemies",
     "ruins of stardust mobs"
    ],
-   "answer": "The Ruins of Stardust are inhabited by hostile water elementals that lurk near the shoreline and among the ancient fallen pillars where the bushes grow."
+   "answer": "Hostile water elementals lurk near the shoreline and among the fallen pillars in the Ruins of Stardust, where the bushes grow."
   },
   {
    "q": "Is stardust related to the goddess Elune?",
@@ -56,17 +56,17 @@
     "is stardust magic",
     "elune connection stardust"
    ],
-   "answer": "While the night elves revere celestial powers and the ruins bear a starry name, stardust functions primarily as a physical medicinal ingredient recommended by herbalists for its frosted, cooling nature."
+   "answer": "Night elves revere celestial powers, and the ruins bear a starry name, but herbalists recommend stardust for its frosted, cooling nature as a physical medicine."
   }
  ],
  "angles": [
   {
    "target": "profession:Herbalism",
-   "text": "Though collected directly by hand from sparkling bushes rather than gathered as a formal botanical reagent, stardust exemplifies the night elves' reliance on rare regional flora for restorative medicine."
+   "text": "You gather stardust by hand from shining bushes. It reflects the night elves' use of rare local plants in restorative medicine."
   },
   {
    "target": "race:NightElf",
-   "text": "For the Kaldorei defending Ashenvale, securing local remedies like stardust reflects the enduring harmony between their ancient ruins and herbal traditions."
+   "text": "As a Night Elf defending Ashenvale, you can see the bond between local remedies and your people's ancient ruins and herbal traditions."
   }
  ],
  "keywords": [
@@ -92,5 +92,6 @@
  "attribution": [
   "Handful of Stardust",
   "The Ruins of Stardust (quest)"
- ]
+ ],
+ "style": 1
 }

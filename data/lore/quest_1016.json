@@ -20,21 +20,21 @@
    "Mage Summoner"
   ]
  },
- "summary": "Water elementals have begun tainting the pristine lakes and streams of Ashenvale, troubling the night elves stationed at Silverwind Refuge. Sentinel Velene Starstrike tasks travelers with collecting intact bracers from these creatures to divine the identity of the rogue spellcaster responsible for conjuring them.",
+ "summary": "At Silverwind Refuge, the night elves face tainted waters and seek the hand behind them. Sentinel Velene Starstrike asks you to gather intact bracers from the hostile elementals, so a divining scroll can identify who summoned them.",
  "sections": [
   {
    "title": "Tainted Waters",
-   "body": "The sacred waters of Ashenvale are suffering under an unnatural blight, overrun by rogue water elementals. Unlike the wild spirits that naturally inhabit the world, these entities bear signs of artificial conjuration. To the Sentinels stationed at Silverwind Refuge, the sudden arrival of hostile elementals is an alarming symptom of outside corruption creeping deeper into the forest's pristine waterways.",
+   "body": "Rogue water elementals now trouble Ashenvale’s sacred waters. Unlike the wild spirits that naturally inhabit the world, these creatures show signs of artificial conjuration. At Silverwind Refuge, the Sentinels see their sudden arrival as a sign that outside corruption is reaching deeper into the forest’s waterways.",
    "spoiler": 0
   },
   {
    "title": "Divining the Conjurer",
-   "body": "Believing these elementals were deliberately bound and unleashed, Sentinel Velene Starstrike provides a magical divining scroll to unmask the culprit. The spell requires raw reagents tied to the summoned beings\u2014specifically, intact bracers salvaged from the spirits before they dissipate. By focusing the scroll upon these enchanted bindings, the magic reads the lingering arcane signature of whoever originally called the elementals into being.",
+   "body": "Sentinel Velene Starstrike believes someone deliberately bound and unleashed the elementals. She gives you a magical divining scroll to help identify the culprit. The spell needs a reagent tied to the summoned beings: intact bracers taken from the spirits before they dissipate. The scroll reads the lingering arcane signature on those bindings, tracing it to whoever called the elementals into being.",
    "spoiler": 0
   },
   {
    "title": "A Wizard's Meddling",
-   "body": "Once the scroll is successfully cast over the intact bracers, the arcane residue confirms Velene's worst fears: a solitary mage is deliberately churning corrupt elementals into Ashenvale's pools. The discovery outrages the night elf defenders, setting the stage for swift retribution against the summoner threatening the sanctity of the woodlands.",
+   "body": "When the divining scroll is cast over the intact bracers, the arcane residue confirms Velene’s worst fears: a solitary mage is churning corrupt elementals into Ashenvale’s pools. The discovery outrages the night elf defenders. They now prepare swift retribution against the summoner threatening the woodlands’ sanctity.",
    "spoiler": 1
   }
  ],
@@ -46,7 +46,7 @@
     "ashenvale water elementals",
     "where did elementals come from"
    ],
-   "answer": "The hostile water elementals plaguing Ashenvale are not natural inhabitants living in balance with the forest. They have been artificially summoned by an outside spellcaster, disturbing the sacred pools and provoking the night elves."
+   "answer": "The hostile water elementals are not natural inhabitants living in balance with Ashenvale. An outside spellcaster summoned them, disturbing the sacred pools and provoking the night elves."
   },
   {
    "q": "Who gives the quest Elemental Bracers?",
@@ -55,7 +55,7 @@
     "who starts elemental bracers",
     "where to pick up elemental bracers"
    ],
-   "answer": "The quest is offered by Sentinel Velene Starstrike, an officer stationed at Silverwind Refuge on the shores of Mystral Lake in Ashenvale."
+   "answer": "Sentinel Velene Starstrike offers the work. She is stationed at Silverwind Refuge, on the shores of Mystral Lake in Ashenvale."
   },
   {
    "q": "What is the purpose of the Divining Scroll?",
@@ -64,7 +64,7 @@
     "divining scroll purpose",
     "why use divining scroll"
    ],
-   "answer": "The Divining Scroll is an enchanted parchment designed to read the magical signature remaining on the elementals. When cast over five intact bracers, it traces the arcane tether back to the summoner who created them."
+   "answer": "The Divining Scroll reads the magical signature left on the elementals. Cast over five intact bracers, it traces the arcane tether to the summoner who created them."
   },
   {
    "q": "Why do only intact bracers work for the ritual?",
@@ -73,7 +73,7 @@
     "broken bracers",
     "intact elemental bracers"
    ],
-   "answer": "Destroying an elemental often damages or shatters its magical binding bracers. Only bracers that remain intact retain enough stable arcane resonance for the scroll's magic to analyze and reveal the conjurer."
+   "answer": "Only intact bracers retain enough stable arcane resonance for the scroll to analyze. Destroying an elemental often damages or shatters its magical bindings, leaving them unable to reveal the conjurer."
   },
   {
    "q": "What happens after divining the scroll?",
@@ -82,7 +82,7 @@
     "what comes next",
     "next quest after elemental bracers"
    ],
-   "answer": "After returning the Divined Scroll to Sentinel Velene Starstrike, she identifies the rogue spellcaster responsible and immediately tasks you with hunting down the summoner in the follow-up quest, Mage Summoner."
+   "answer": "After you return the Divined Scroll to Sentinel Velene Starstrike, she identifies the rogue spellcaster responsible and sends you to hunt the summoner in the follow-up, Mage Summoner."
   },
   {
    "q": "Why does Sentinel Velene care so much about these elementals?",
@@ -90,21 +90,21 @@
     "sentinel velene motivation",
     "why night elves care about elementals"
    ],
-   "answer": "Night elves revere the natural purity of Ashenvale's forests and waters. Having a mortal wizard deliberately pollute and destabilize their lakes with corrupted elementals is an intolerable insult to their guardianship."
+   "answer": "Night elves revere the natural purity of Ashenvale’s forests and waters. A mortal wizard deliberately polluting and destabilizing their lakes with corrupted elementals insults their guardianship."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "Ashenvale's natural pools are sacred ground, and seeing arcane summoners deliberately introduce foreign corruption is an intolerable affront to the Kaldorei."
+   "text": "As a night elf, you know Ashenvale’s natural pools are sacred ground. Arcane summoners who introduce foreign corruption affront the Kaldorei."
   },
   {
    "target": "class:Mage",
-   "text": "The bindings worn by conjured elementals carry the distinct arcane signature of their master, allowing an educated eye to trace reckless conjuration back to its origin."
+   "text": "As a mage, you can recognize how the bindings worn by conjured elementals carry their master’s arcane signature, tracing reckless conjuration to its origin."
   },
   {
    "target": "faction:Alliance",
-   "text": "Assisting the Silverwind Sentinels solidifies Alliance standing in the contested heartlands of central Ashenvale."
+   "text": "As an Alliance member, you strengthen your standing in central Ashenvale’s contested heartlands by aiding the Silverwind Sentinels."
   }
  ],
  "keywords": [
@@ -125,5 +125,6 @@
  ],
  "attribution": [
   "Elemental Bracers (quest)"
- ]
+ ],
+ "style": 1
 }

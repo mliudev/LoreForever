@@ -10,16 +10,16 @@
    "quest:120"
   ]
  },
- "summary": "The State of Lakeshire is an urgent written report penned by Magistrate Solomon detailing the desperate military crisis gripping the town of Lakeshire. Intended directly for General Marcus Jonathan in Stormwind, the document pleads for the capital to deploy royal army reinforcements before the Redridge settlement falls.",
+ "summary": "In Lakeshire, Magistrate Solomon's report calls for help before the town falls. It urges General Marcus Jonathan in Stormwind to send royal army reinforcements against the crisis in Redridge.",
  "sections": [
   {
    "title": "A Cry for Aid",
-   "body": "Penned by Magistrate Solomon amid relentless attacks on Redridge, 'The State of Lakeshire' outlines the dire circumstances threatening the township. Besieged by hostile Blackrock orcs and gnolls, Lakeshire lacks the local manpower to hold its borders indefinitely. Entrusted to trusted couriers traveling the road west to Elwynn Forest, this dispatch carries Solomon's formal request for the Stormwind Army to intervene and preserve the eastern reach of the kingdom.",
+   "body": "Magistrate Solomon writes of the attacks threatening Lakeshire. Blackrock orcs and gnolls press the town, whose defenders cannot hold the borders indefinitely. Couriers carry his dispatch west along the road to Elwynn Forest. Solomon asks the Stormwind Army to intervene and protect the kingdom's eastern reach.",
    "spoiler": 0
   },
   {
    "title": "Bureaucracy and Deadlock",
-   "body": "Upon delivery to General Marcus Jonathan at Stormwind's gates, the general acknowledges Solomon's noble standing and the gravity of the report. However, Jonathan cannot mobilize the army unilaterally. Military deployments require the explicit consent of the crown, forcing Lakeshire's urgent plea to wait upon high-level council with the young King and the regent Bolvar Fordragon.",
+   "body": "General Marcus Jonathan receives Solomon's report at Stormwind's gates. He respects the magistrate's standing and understands the danger, but cannot move the army on his own. Deployments need the crown's consent, so Lakeshire's plea must wait for a council with the young King and regent Bolvar Fordragon.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "what is this report",
     "solomon's message"
    ],
-   "answer": "It is an official written dispatch authored by Magistrate Solomon detailing the military peril facing Lakeshire and begging Stormwind for troop reinforcements."
+   "answer": "The State of Lakeshire is Magistrate Solomon's official dispatch about the military danger facing Lakeshire, asking Stormwind for troop reinforcements."
   },
   {
    "q": "Who is supposed to receive this dispatch?",
@@ -40,7 +40,7 @@
     "who to deliver to",
     "marcus jonathan report"
    ],
-   "answer": "The report is addressed directly to General Marcus Jonathan, commander of the Stormwind city guard and royal forces, stationed at the gates of Stormwind."
+   "answer": "General Marcus Jonathan is meant to receive the dispatch. He commands the Stormwind city guard and royal forces and is stationed at Stormwind's gates."
   },
   {
    "q": "Why does Lakeshire need royal reinforcements?",
@@ -48,7 +48,7 @@
     "why is lakeshire in danger",
     "what threatens redridge"
    ],
-   "answer": "The settlement faces constant siege from Blackrock orcs, Shadowhide gnolls, and local murlocs, pushing the local town guard beyond its limits."
+   "answer": "Lakeshire needs royal reinforcements because Blackrock orcs, Shadowhide gnolls, and local murlocs keep besieging the settlement, overwhelming its town guard."
   },
   {
    "q": "Does General Marcus Jonathan send help immediately?",
@@ -56,17 +56,17 @@
     "does stormwind help",
     "does jonathan send troops"
    ],
-   "answer": "No. While the general agrees with the severity of the crisis, he cannot deploy the army without formal approval from the King, meaning the request must undergo royal review first."
+   "answer": "No. General Marcus Jonathan agrees the crisis is severe, but he needs the King's formal approval to deploy the army. The request must first go through royal review."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "The report illustrates the fragility of the outer settlements and highlights the political inertia currently stalling military aid from the capital."
+   "text": "For the Alliance, the report shows how exposed the outer settlements are and how political delays in the capital hold up military aid."
   },
   {
    "target": "race:Human",
-   "text": "For humans of the kingdom, carrying this document underscores the fraying ties between the common folk of Redridge and the distant crown in Stormwind."
+   "text": "As a human of the kingdom, carrying this report shows how the common folk of Redridge are losing their ties to the distant crown in Stormwind."
   }
  ],
  "keywords": [
@@ -91,5 +91,6 @@
  "attribution": [
   "The State of Lakeshire",
   "Messenger to Stormwind"
- ]
+ ],
+ "style": 1
 }

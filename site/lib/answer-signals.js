@@ -37,13 +37,23 @@ export const newAnswerId = () => [...crypto.getRandomValues(new Uint8Array(8))]
 
 // What the app says about the answer before this question, or null:
 //   {answer_id?, ms?: milliseconds since it came, heard?: "full" | "interrupted" | "dropped" | "text",
-//    failed?: true, retried?: true, spoken?: true (it was asked out loud)}
+//    failed?: true, retried?: true, spoken?: true (it was asked out loud),
+//    speed?: {up, heard?, prep?, picture?, answer?, held?, audio?} (asked out loud: milliseconds from the talk key coming
+//    up to her first sound, and its pieces; the companion's talk/talker.py asked_speed, LOR-856 E4)}
+export const SPEED_PIECES = ["up", "heard", "prep", "picture", "answer", "held", "audio"];
+const SPEED_MAX_MS = 120_000;
+function speedOf(value) {
+  if (!value || typeof value !== "object" || Array.isArray(value)) return null;
+  const out = Object.fromEntries(SPEED_PIECES.filter(k => Number.isFinite(value[k]) && value[k] >= 0 && value[k] <= SPEED_MAX_MS)
+    .map(k => [k, Math.round(value[k])]));
+  return "up" in out ? out : null;
+}
 export function lastOf(value) {
   if (!value || typeof value !== "object" || Array.isArray(value)) return null;
   const ms = Number.isFinite(value.ms) && value.ms >= 0 ? Math.min(Math.round(value.ms), 864e5) : null;
   const last = { answer_id: typeof value.answer_id === "string" && ANSWER_ID.test(value.answer_id) ? value.answer_id : null,
     ms, heard: HEARD.includes(value.heard) ? value.heard : null, failed: value.failed === true,
-    retried: value.retried === true, spoken: value.spoken === true };
+    retried: value.retried === true, spoken: value.spoken === true, speed: speedOf(value.speed) };
   return last.answer_id || last.ms !== null || last.heard || last.failed || last.retried ? last : null;
 }
 

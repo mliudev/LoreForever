@@ -20,9 +20,6 @@ const LANGS = [["en", "enUS"], ["de", "deDE"], ["es", "esES"], ["fr", "frFR"], [
 const ENGLISH = { deDE: "German", esES: "Spanish", frFR: "French", ptBR: "Portuguese", itIT: "Italian", ruRU: "Russian",
   ukUA: "Ukrainian", roRO: "Romanian", zhCN: "Chinese" };
 const CORE = { slug: "lore-forever", name: "Lore Forever" };
-// A narrator's "Complete" project on CurseForge: one project that brings all of Storyteller ("<lang>:<narrator>" ->
-// slug), as the CurseForge bundles are created. Until one is listed here, Storyteller opens the separate projects.
-const COMPLETE = {};
 // Rows 0.29.0's Setup offers on its voice page, by its own names. The releases after it read the pick from the file's
 // name and have a row per card (release/installer/LoreForever.iss PickedVoice): the English cards come ticked, and a
 // card says only what Setup can't install yet.
@@ -114,13 +111,16 @@ export function buildCatalog(data, { voices = [], langs = [], sizes = null, live
     }
     return out.concat(rest.map(f => ({ href: P[f].download, name: rowName(f, P[f]), bytes: bytesOf(P[f].file, sizes) })));
   }
-  // A card from its packs beyond the main download. complete: the project that brings the first `covered` packs.
-  function card(folders, lines, { setup = "", tick = "", complete = "", covered = [] } = {}) {
+  // A narrator's live "Complete" project that brings all of these packs (packs.json bundles, from release/curseforge.json).
+  const bundleFor = folders => folders.length ? (data.bundles || []).find(b => folders.every(f => b.folders?.includes(f))) : null;
+  // A card from its packs beyond the main download. inSetup: Setup can install its voices. bundle: the Complete
+  // project that brings the first of them, opened first on CurseForge.
+  function card(folders, lines, { setup = "", tick = "", inSetup = true, bundle = null } = {}) {
     const zips = zipsOf(folders);
-    const lead = complete ? [{ slug: complete, name: "Complete" }] : [];
-    return { ok: true, lines, setup, tick, zips,
+    const lead = bundle ? [{ slug: bundle.slug, name: String(bundle.name).replace(/^Lore Forever - /, "") }] : [];
+    return { ok: true, lines, setup, tick, inSetup, zips,
       extra: zips.filter(z => z !== mainZip).reduce((a, z) => a + z.bytes, 0),
-      cf: projects(folders.filter(f => !complete || !covered.includes(f)), lead) };
+      cf: projects(folders.filter(f => !bundle?.folders.includes(f)), lead) };
   }
   const off = why => ({ ok: false, why });
 
@@ -135,36 +135,38 @@ export function buildCatalog(data, { voices = [], langs = [], sizes = null, live
     // A Setup that reads its name ticks the whole card: only a language's text is left to say.
     const tick = (row, rest = "") => picks ? textNote : [`In Setup, tick “${row}”.${rest}`, textNote].filter(Boolean).join(" ");
     // Setup's name says the narration's language: English, also under a language that's read in English (Russian).
-    const setup = s => `${who}, en, ${s}`, complete = COMPLETE[`en:${who}`] || "";
+    const setup = s => `${who}, en, ${s}`, bundle = bundleFor([...addon, ...more]);
     const addonTick = V === "Female" ? tick(SETUP_ROW.Female) : textNote && (picks ? textNote : `Setup installs the add-on. ${textNote}`);
+    // 0.29.0's male row brings his quest dialogue too, which Storyteller doesn't have: say so rather than hide it.
+    const storyTick = tick(SETUP_ROW[V], V === "Default" ? " That row adds quest dialogue too." : "");
     const cards = {
       addon: card([...t, ...addon], [text ? `Every lore entry in ${english(P[text].locale)}` : "Every lore entry, to read and ask about",
         `The ${who} narrator reads zones, cities and dungeons${text ? " in English" : ""}`], { setup: setup("addon"), tick: addonTick }),
       storyteller: more.length
         ? card([...t, ...addon, ...more], ["Everything in The add-on", "People and bosses, more places, quest stories and item stories"],
-          { setup: setup("storyteller"), tick: tick(SETUP_ROW[V]), complete, covered: [...addon, ...more] })
+          { setup: setup("storyteller"), tick: storyTick, bundle })
         : off("No more stories recorded for this narrator yet."),
     };
     cards.everything = quests.length || givers.length
       ? card([...t, ...addon, ...more, ...quests, ...givers], [more.length ? "Everything in Storyteller" : "Everything in The add-on",
         ...(quests.length ? [`Quest dialogue, ${levels(quests)}`] : []), ...(givers.length ? [`Quest givers' voices, ${levels(givers)}`] : [])],
-        { setup: setup("everything"), complete, covered: [...addon, ...more],
+        { setup: setup("everything"), bundle,
           tick: tick(SETUP_ROW[V], ` ${V === "Female" ? "Her quest dialogue and the" : "The"} quest givers' voices aren't in Setup yet: add them with the ZIP or on CurseForge.`) })
       : off("No quest dialogue recorded for this narrator yet.");
     return cards;
   }
-  // Another language, for a narrator ("Default" or "Female"), from its narration pack (which carries the text).
+  // Another language, for a narrator ("Default" or "Female"), from its narration pack (which carries the text). Setup
+  // can't install it yet, so on Windows too its cards' button is CurseForge (or the ZIP), and the bar says why once.
   function languageCards(V, code, loc) {
     const base = `LoreForever_Voice_${V}_${loc}`, who = V === "Female" ? "female" : "male", name = english(loc);
     const more = [`LoreForever_Voice_${V}_MorePeople_${loc}`].filter(has), quests = [`LoreForever_Voice_${V}_Quests_${loc}`].filter(has);
-    const tick = `Setup installs the add-on. ${english(loc)} narration isn't in Setup yet: add it with the ZIP or on CurseForge.`;
-    const setup = s => `${who}, ${code}, ${s}`, complete = more.length ? COMPLETE[`${code}:${who}`] || "" : "";
+    const setup = s => `${who}, ${code}, ${s}`, inSetup = false;
     return {
-      addon: card([base], [`Every lore entry in ${name}`, `The ${who} narrator reads zones, cities and dungeons`], { setup: setup("addon"), tick }),
-      storyteller: more.length ? card([base, ...more], ["Everything in The add-on", "People and bosses"],
-        { setup: setup("storyteller"), tick, complete, covered: [base, ...more] }) : off(`People and bosses aren't recorded in ${name} yet.`),
+      addon: card([base], [`Every lore entry in ${name}`, `The ${who} narrator reads zones, cities and dungeons`], { setup: setup("addon"), inSetup }),
+      storyteller: more.length ? card([base, ...more], ["Everything in The add-on", "People and bosses"], { setup: setup("storyteller"), inSetup })
+        : off(`People and bosses aren't recorded in ${name} yet.`),
       everything: quests.length ? card([base, ...more, ...quests], [more.length ? "Everything in Storyteller" : "Everything in The add-on", "Quest dialogue, all levels"],
-        { setup: setup("everything"), tick, complete, covered: [base, ...more] }) : off(`No quest dialogue in ${name} yet.`),
+        { setup: setup("everything"), inSetup }) : off(`No quest dialogue in ${name} yet.`),
     };
   }
   // A community narrator (the Ukrainian narrator, Densuad's Spanish edition): The add-on only. An edition carries its
@@ -173,13 +175,13 @@ export function buildCatalog(data, { voices = [], langs = [], sizes = null, live
     const lines = edition ? [`${P[f].credit || "The narrator"}'s own text and voice, together`, "Zone, people and boss stories"]
       : [`Every lore entry in ${english(P[f].locale)}`, `The ${P[f].name.toLowerCase()} reads zones, cities and dungeons`];
     return {
-      addon: card([f], lines, { setup: `${edition ? "edition" : "community"}, ${code}, addon`,
-        tick: `Setup installs the add-on. ${upper(P[f].name)} isn't in Setup yet: add it with the ZIP${edition ? "" : " or on CurseForge"}.` }),
+      addon: card([f], lines, { setup: `${edition ? "edition" : "community"}, ${code}, addon`, inSetup: false }),
       storyteller: off("Everything this narrator has recorded is in The add-on."),
       everything: off("No quest dialogue for this narrator yet."),
     };
   }
-  const narrator = (id, name, who, f, cards) => ({ id, name, who, sample: sample(f), cards });
+  // winNote: the bar's one line on Windows when Setup can't install this narrator's voices.
+  const narrator = (id, name, who, f, cards, winNote = "") => ({ id, name, who, sample: sample(f), cards, winNote });
 
   const out = [];
   for (const [code, loc] of LANGS) {
@@ -191,13 +193,15 @@ export function buildCatalog(data, { voices = [], langs = [], sizes = null, live
     } else {
       for (const [V, id] of [["Default", "male"], ["Female", "female"]]) {
         const f = `LoreForever_Voice_${V}_${loc}`;
-        if (has(f) && P[f].group !== "community") narrators.push(narrator(id, `${upper(id)} narrator`, id === "male" ? "The main narrator" : "The same stories in a second voice", f, languageCards(V, code, loc)));
+        if (has(f) && P[f].group !== "community") narrators.push(narrator(id, `${upper(id)} narrator`, id === "male" ? "The main narrator" : "The same stories in a second voice", f,
+          languageCards(V, code, loc), `Setup can't install ${english(loc)} voices yet, so they come from CurseForge or a ZIP.`));
       }
       for (const [f, p] of Object.entries(P)) {
         if (p.group !== "community" || p.kind !== "voice" || p.locale !== loc || !has(f)) continue;
         const edition = f.startsWith("LoreForever_Edition_");
         narrators.push(narrator(edition ? "edition" : "community", p.name,
-          `Community narrator${p.credit ? `: ${p.credit}` : ""}${edition ? ". Their own text and voice" : ""}`, f, communityCards(f, code, edition)));
+          `Community narrator${p.credit ? `: ${p.credit}` : ""}${edition ? ". Their own text and voice" : ""}`, f, communityCards(f, code, edition),
+          `Setup can't install ${edition ? "this edition" : `the ${p.name.toLowerCase()}`} yet, so it comes ${edition ? "as a ZIP" : "from CurseForge or a ZIP"}.`));
       }
       const text = `LoreForever_Lang_${loc}`;
       if (!narrators.length && has(text) && P[text].download) {

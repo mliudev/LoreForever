@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Clockwerk Run"
  },
- "summary": "The Clockwerk Run is the main entrance corridor leading into the heart of fallen Gnomeregan. Stretching between the Train Depot and the Hall of Gears, this damaged hallway is heavily contaminated by toxic fallout and overrun with irradiated troggs.",
+ "summary": "In Gnomeregan, Clockwerk Run lies between the Train Depot and the Hall of Gears. Toxic fallout and irradiated troggs fill the route into the fallen city.",
  "sections": [
   {
    "title": "A Ruined Threshold",
-   "body": "Serving as the primary gateway into Gnomeregan from the outer train depot, the Clockwerk Run was once a bustling conduit of gnomish logistics and transit. When High Tinker Mekkatorque ordered the venting of radioactive waste to stem the trogg invasion, the corridor became a lethal trap. The blast and subsequent fighting caused portions of the hallway to collapse onto itself. Today, the passage is choked with toxic fumes and prowling irradiated troggs, making it the perilous frontline that any expedition must fight through to reach the upper Hall of Gears.",
+   "body": "Clockwerk Run runs from the outer Train Depot into Gnomeregan. Once, gnomish traffic and supplies moved through this corridor. High Tinker Mekkatorque ordered radioactive waste vented to stop the trogg invasion, turning the passage into a deadly trap. The blast and the fighting that followed brought parts of the hallway down. Toxic fumes and irradiated troggs now block the way to the upper Hall of Gears.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "where does this hallway go",
     "clockwerk run entrance"
    ],
-   "answer": "The Clockwerk Run connects the Train Depot outside the deep vaults directly to the upper levels of the Hall of Gears inside Gnomeregan."
+   "answer": "Clockwerk Run connects the Train Depot outside the deep vaults to the upper Hall of Gears inside Gnomeregan."
   },
   {
    "q": "Why are there so many troggs here?",
@@ -31,7 +31,7 @@
     "why troggs",
     "clockwerk run enemies"
    ],
-   "answer": "The subterranean troggs swarmed up through Gnomeregan's lower passages during their initial invasion. Those roaming the Clockwerk Run absorbed heavy doses of vented radioactive waste, mutating into violent irradiated troggs that attack anyone attempting to enter the city."
+   "answer": "Troggs surged through Gnomeregan's lower passages during the invasion. Those in Clockwerk Run absorbed vented radioactive waste, became violent irradiated troggs, and attack anyone entering the city."
   },
   {
    "q": "Why is the corridor partially caved in?",
@@ -39,17 +39,17 @@
     "clockwerk run collapsed",
     "why is it broken"
    ],
-   "answer": "The intense fighting during the fall of Gnomeregan and the catastrophic release of toxic counter-measures caused severe structural damage throughout the perimeter, leaving the corridor partially collapsed onto itself."
+   "answer": "Fighting during Gnomeregan's fall and the release of toxic counter-measures badly damaged the perimeter. Parts of the corridor collapsed."
   }
  ],
  "angles": [
   {
    "target": "race:Gnome",
-   "text": "Passing through the Clockwerk Run is a bitter reminder of the fall of the capital, showing firsthand how the desperate ploy to cleanse the city mutated the invaders instead of destroying them."
+   "text": "As a gnome, passing through Clockwerk Run brings the fall of your capital close. The desperate attempt to cleanse the city changed the invaders instead of destroying them."
   },
   {
    "target": "profession:Engineering",
-   "text": "The ruined machinery and collapsed infrastructure along the run offer a grim look at what happens when industrial-scale gnomish mechanisms are subjected to catastrophic explosive and radioactive damage."
+   "text": "As an engineer, the ruined machinery and collapsed structures along Clockwerk Run show the damage explosive force and radiation can do to gnomish mechanisms."
   }
  ],
  "keywords": [
@@ -69,5 +69,6 @@
  ],
  "attribution": [
   "Clockwerk Run"
- ]
+ ],
+ "style": 1
 }

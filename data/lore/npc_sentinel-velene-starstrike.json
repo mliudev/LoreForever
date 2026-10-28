@@ -8,16 +8,16 @@
   "wiki": "Sentinel Velene Starstrike",
   "refs": 3
  },
- "summary": "Sentinel Velene Starstrike is a night elf guardian stationed at Silverwind Refuge in central Ashenvale. Tasked with protecting the sanctuary and the surrounding waters, she confronts encroaching unnatural threats such as rogue elementals and foul sorcerers. Her vigilance helps safeguard the ancient woodland from corrupting magical interference.",
+ "summary": "At Silverwind Refuge, Sentinel Velene Starstrike guards central Ashenvale. She protects the sanctuary and nearby waters from rogue elementals and foul sorcerers, keeping their magic from corrupting the ancient woodland.",
  "sections": [
   {
    "title": "Guardian of Silverwind",
-   "body": "Stationed beside the clear waters of Mystral Lake, Sentinel Velene Starstrike maintains a watchful vigil from Silverwind Refuge. Like many night elf sentinels scattered throughout Ashenvale, her primary duty is preserving the balance of the forest and repelling threats to elven sanctuaries. The serene grove serves as a vital rest stop for travelers traversing the central woods, making her presence essential to the area's ongoing safety.",
+   "body": "At Mystral Lake, Sentinel Velene Starstrike keeps watch from Silverwind Refuge. Night elf sentinels across Ashenvale work to preserve the forest's balance and defend elven sanctuaries. Silverwind Refuge offers travelers a place to rest in the central woods, and Velene helps keep the area safe.",
    "spoiler": 0
   },
   {
    "title": "Disturbances at Mystral Lake",
-   "body": "The peace around Silverwind Refuge is fragile. Velene keeps close watch over Mystral Lake, where erratic elemental spirits and reckless mage summoners disrupt the natural rhythm of the wilderness. Through her direction, champions are dispatched to suppress rogue water elementals and put an end to the careless practitioners disturbing the spirits of the land.",
+   "body": "Peace around Silverwind Refuge can be easily disturbed. Velene watches Mystral Lake, where unruly elemental spirits and reckless mage summoners upset the wilderness. She directs champions against rogue water elementals and the careless spellcasters who disturb the spirits of the land.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "where is velene",
     "silverwind refuge quest giver"
    ],
-   "answer": "Sentinel Velene Starstrike is stationed at Silverwind Refuge, an Alliance outpost situated in central Ashenvale near the southeastern shore of Mystral Lake."
+   "answer": "Sentinel Velene Starstrike is stationed at Silverwind Refuge in central Ashenvale, near the southeastern shore of Mystral Lake."
   },
   {
    "q": "What tasks does Sentinel Velene assign?",
@@ -37,7 +37,7 @@
     "velene starstrike quests",
     "what quests does velene give"
    ],
-   "answer": "Velene asks adventurers to deal with the disturbed spirits and practitioners around Mystral Lake, sending them to collect bracers from restless elementals and neutralize the rogue summoners agitating the waters."
+   "answer": "Velene sends adventurers to gather bracers from restless elementals and stop the rogue summoners stirring trouble in the waters around Mystral Lake."
   },
   {
    "q": "What is the threat at Mystral Lake?",
@@ -45,7 +45,7 @@
     "mystral lake problem",
     "why are elementals at mystral lake"
    ],
-   "answer": "The waters of Mystral Lake have been troubled by aggressive water elementals, stirred into turmoil and exploited by mortal mage summoners who practice their craft without regard for the forest's delicate harmony."
+   "answer": "Aggressive water elementals trouble Mystral Lake, stirred up and exploited by mortal mage summoners who practice without regard for the forest's balance."
   },
   {
    "q": "Is Velene related to anyone else in Kalimdor?",
@@ -53,7 +53,7 @@
     "starstrike family",
     "layo starstrike relative"
    ],
-   "answer": "She shares the Starstrike surname with Layo Starstrike, a night elf stationed far to the south in the harsh wastes of Silithus, suggesting they belong to the same lineage or house."
+   "answer": "Velene shares the Starstrike surname with Layo Starstrike, a night elf stationed far to the south in Silithus. They may belong to the same lineage or house."
   },
   {
    "q": "What is Silverwind Refuge?",
@@ -61,7 +61,7 @@
     "what is silverwind refuge",
     "silverwind refuge lore"
    ],
-   "answer": "Silverwind Refuge is a serene night elf retreat nestled along the shores of Mystral Lake in Ashenvale. It serves as a peaceful haven and tactical outpost for Sentinels and allied travelers navigating the wild interior of the forest."
+   "answer": "Silverwind Refuge is a night elf retreat on the shores of Mystral Lake in Ashenvale. It offers a haven and a tactical outpost for Sentinels and allied travelers crossing the forest's wild interior."
   },
   {
    "q": "Why do the Sentinels care about elemental activity?",
@@ -69,21 +69,21 @@
     "why do night elves fight elementals",
     "sentinels and elementals"
    ],
-   "answer": "Night elves view the wilderness as a sacred, living ecosystem. Violent or corrupted elementals disrupt native wildlife and corrupt the natural waterways, forcing the Sentinels to intervene and restore equilibrium."
+   "answer": "Night elves regard the wilderness as a sacred, living ecosystem. Violent or corrupted elementals disrupt wildlife and waterways, so the Sentinels intervene to restore balance."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "Sentinel Velene embodies the tireless commitment of the Sentinels, standing as a bulwark against magical recklessness to preserve Ashenvale's natural harmony."
+   "text": "As a night elf, you can see Velene's commitment to guarding Ashenvale from reckless magic and protecting the forest's balance."
   },
   {
    "target": "faction:Alliance",
-   "text": "Silverwind Refuge offers safety along a dangerous road, with Sentinel Velene coordinating local efforts to keep central Ashenvale secure."
+   "text": "As an Alliance traveler, you can find safety at Silverwind Refuge along a dangerous road. Velene coordinates efforts to protect central Ashenvale."
   },
   {
    "target": "class:Mage",
-   "text": "Velene holds little patience for irresponsible spellcasters whose reckless conjurations agitate local elementals and pollute natural waters."
+   "text": "As a mage, you may find Velene has little patience for reckless spellcasters whose conjurations stir local elementals and foul natural waters."
   }
  ],
  "keywords": [
@@ -107,5 +107,6 @@
  ],
  "attribution": [
   "Sentinel Velene Starstrike"
- ]
+ ],
+ "style": 1
 }

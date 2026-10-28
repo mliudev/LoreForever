@@ -17,16 +17,16 @@
   "wiki": "A Dark Threat Looms (2)",
   "chain": []
  },
- "summary": "This quest marks the moment an investigation into sabotage at the Stonewrought Dam uncovers physical evidence of foul play. After discovering a suspicious barrel hidden near the massive dwarven structure, adventurers retrieve a sample of strange smelling powder to bring before Chief Engineer Hinderweir VII.",
+ "summary": "At the Stonewrought Dam, sabotage threatens a vital barrier in Loch Modan. A barrel hidden near the water holds strange smelling powder, and you bring a sample to Chief Engineer Hinderweir VII.",
  "sections": [
   {
    "title": "A Suspicious Discovery",
-   "body": "The Stonewrought Dam stands as a monumental triumph of dwarven engineering, holding back the vast waters of the loch. However, whispers of sabotage have drawn scrutiny to the surrounding shoreline. Tucked away near the water's edge, an out-of-place barrel holds an ominous substance\u2014a strange, pungent powder that clearly does not belong to standard dam maintenance supplies.",
+   "body": "Whispers of sabotage have drawn attention to the shoreline around the Stonewrought Dam. Near the water's edge, an out-of-place barrel holds strange, pungent powder that has no place among the dam's maintenance supplies.",
    "spoiler": 0
   },
   {
    "title": "Alarm at the Dam",
-   "body": "Taking a sample of the unknown powder and presenting it to Chief Engineer Hinderweir VII confirms the worst fears of the Loch Modan authorities. The engineer immediately recognizes that an outside force is plotting against the dam, shifting the investigation from mere suspicion to an urgent matter of regional defense.",
+   "body": "Chief Engineer Hinderweir VII grows alarmed at once when you bring him a sample. His alarm confirms Loch Modan's worst fears: an outside force plots against the dam, and the inquiry becomes an urgent matter of regional defense.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "what is in the barrel",
     "suspicious barrel powder"
    ],
-   "answer": "The strange smelling powder found inside the barrel is an explosive or alchemical agent planted near the base of the Stonewrought Dam. It serves as direct evidence that an enemy is plotting to destroy or compromise the great barrier."
+   "answer": "The strange smelling powder in the barrel is an explosive or alchemical agent planted near the Stonewrought Dam's base. It is direct evidence that an enemy plots to destroy or compromise the great barrier."
   },
   {
    "q": "Who is Chief Engineer Hinderweir VII?",
@@ -47,7 +47,7 @@
     "chief engineer hinderweir",
     "dam engineer"
    ],
-   "answer": "Chief Engineer Hinderweir VII is the dwarven master engineer overseeing the maintenance, integrity, and safety of the Stonewrought Dam in Loch Modan."
+   "answer": "Chief Engineer Hinderweir VII is the dwarven master engineer overseeing the Stonewrought Dam's maintenance, integrity, and safety in Loch Modan."
   },
   {
    "q": "Where is the suspicious barrel found?",
@@ -56,7 +56,7 @@
     "where is the barrel",
     "barrel loch modan"
    ],
-   "answer": "The suspicious barrel is tucked away along the shoreline near the foundation of the Stonewrought Dam in northern Loch Modan."
+   "answer": "The suspicious barrel is tucked away along the shoreline near the Stonewrought Dam's foundation in northern Loch Modan."
   },
   {
    "q": "Why is the Stonewrought Dam being targeted?",
@@ -74,7 +74,7 @@
     "saboteurs",
     "who put the powder"
    ],
-   "answer": "The barrel was placed by agents seeking to destabilize dwarven lands, prompting Chief Engineer Hinderweir to launch a broader investigation into who is behind the plot."
+   "answer": "Agents seeking to destabilize dwarven lands placed the barrel, prompting Chief Engineer Hinderweir to begin a broader investigation into who is behind the plot."
   },
   {
    "q": "What should I do after collecting the powder?",
@@ -83,21 +83,21 @@
     "turn in powder",
     "who to talk to"
    ],
-   "answer": "Take the sample directly to Chief Engineer Hinderweir VII atop the Stonewrought Dam so he can inspect the substance and prepare a response."
+   "answer": "Take the sample to Chief Engineer Hinderweir VII atop the Stonewrought Dam so he can inspect the substance and prepare a response."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "The Stonewrought Dam is one of the crowning architectural feats of the Ironforge dwarves. Any threat to its integrity strikes directly at the safety and pride of Khaz Modan."
+   "text": "As a dwarf, you know the Stonewrought Dam as one of the Ironforge dwarves' crowning architectural feats. Any threat to its integrity strikes at the safety and pride of Khaz Modan."
   },
   {
    "target": "race:Gnome",
-   "text": "Gnomish minds appreciate the precision behind dwarven civil works, making the chemical nature of this crude sabotage particularly concerning."
+   "text": "As a gnome, you appreciate the precision behind dwarven civil works, which makes the chemical nature of this crude sabotage especially concerning."
   },
   {
    "target": "profession:Engineering",
-   "text": "An engineer immediately senses danger upon inspecting volatile powders planted deliberately at the structural stress points of a major dam."
+   "text": "As an engineer, you sense danger in volatile powders deliberately planted at the structural stress points of a major dam."
   }
  ],
  "keywords": [
@@ -116,5 +116,6 @@
  ],
  "attribution": [
   "A Dark Threat Looms (2)"
- ]
+ ],
+ "style": 1
 }

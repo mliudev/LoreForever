@@ -17,16 +17,16 @@
   "wiki": "Tome of Divinity (5)",
   "chain": []
  },
- "summary": "Tome of Divinity is a summons directed at developing human paladins visiting Ironforge. Master Brandur Ironhammer bids initiates make the journey south to the Cathedral of Light in Stormwind, where Master Duthorian Rall oversees advanced training in the sacred Tomes of Divinity.",
+ "summary": "In Ironforge, Master Brandur Ironhammer sends human paladins south for deeper training. At Stormwind's Cathedral of Light, Master Duthorian Rall oversees their study of the sacred Tomes of Divinity.",
  "sections": [
   {
    "title": "A Summons from Stormwind",
-   "body": "While dwarven paladins train vigorously within Ironforge's Hall of Mysteries, the broader traditions of the Silver Hand remain deeply entwined with the Church of the Holy Light in human lands. Word sent north from Stormwind calls on promising holy warriors to present themselves directly before the senior priesthood and paladin mentors of the Cathedral of Light.",
+   "body": "Stormwind calls promising holy warriors south to the Cathedral of Light. Dwarven paladins train in Ironforge's Hall of Mysteries, while the Silver Hand's wider traditions remain tied to the Church of the Holy Light in human lands. The summons asks these initiates to stand before the Cathedral's senior priests and paladin mentors.",
    "spoiler": 0
   },
   {
    "title": "The Road to the Cathedral",
-   "body": "Master Brandur Ironhammer recognizes when a student has progressed far enough to step into the deeper mysteries of the faith. Journeying south\u2014whether by the subterranean Deeprun Tram or across the mountain passes\u2014brings initiates to Stormwind's Cathedral District, where Duthorian Rall prepares them to study the sacred Tomes and master the rites of redemption.",
+   "body": "Master Brandur Ironhammer sends students onward when they are ready to study deeper mysteries of the faith. You can travel south by the Deeprun Tram or across the mountain passes to Stormwind's Cathedral District. There, Duthorian Rall prepares initiates to study the sacred Tomes and learn the rites of redemption.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "why send to duthorian rall",
     "ironforge to stormwind paladin"
    ],
-   "answer": "Stormwind's Cathedral of Light serves as the administrative heart for advanced Alliance paladin instruction. Brandur Ironhammer directs promising initiates to Master Duthorian Rall so they can undertake the specific canonical trials associated with the sacred Tomes of Divinity."
+   "answer": "Stormwind's Cathedral of Light handles advanced Alliance paladin instruction. Brandur Ironhammer sends promising initiates to Master Duthorian Rall for the trials tied to the sacred Tomes of Divinity."
   },
   {
    "q": "Who is Brandur Ironhammer?",
@@ -46,7 +46,7 @@
     "brandur ironhammer",
     "who is brandur"
    ],
-   "answer": "Brandur Ironhammer is a dwarven paladin trainer based in the Hall of Mysteries in Ironforge's Mystic Ward. He watches over initiates, instructing them in martial devotion and guiding them toward higher studies when their inner connection to the Holy Light matures."
+   "answer": "Brandur Ironhammer is a dwarven paladin trainer in Ironforge's Hall of Mysteries, in the Mystic Ward. He watches over initiates, teaches martial devotion, and guides them toward higher studies as their bond with the Holy Light matures."
   },
   {
    "q": "Who is Duthorian Rall?",
@@ -54,7 +54,7 @@
     "duthorian rall",
     "who is duthorian"
    ],
-   "answer": "Duthorian Rall is a senior paladin trainer and prelate stationed inside the Cathedral of Light in Stormwind. He directly tests aspiring paladins through rigorous spiritual trials before entrusting them with the Tomes of Divinity."
+   "answer": "Duthorian Rall is a senior paladin trainer and prelate in Stormwind's Cathedral of Light. He tests aspiring paladins through spiritual trials before entrusting them with the Tomes of Divinity."
   },
   {
    "q": "What are the Tomes of Divinity?",
@@ -62,7 +62,7 @@
     "what is tome of divinity",
     "tome of divinity meaning"
    ],
-   "answer": "The Tomes of Divinity are sacred texts and doctrinal handbooks used by the Church of the Holy Light to teach paladins the solemn rites of resurrection, self-sacrifice, and unwavering compassion."
+   "answer": "The Tomes of Divinity are sacred texts and doctrinal handbooks of the Church of the Holy Light. They teach paladins the rites of resurrection, self-sacrifice, and compassion."
   },
   {
    "q": "What is the fastest way to reach Stormwind from Ironforge?",
@@ -70,7 +70,7 @@
     "how to get to stormwind",
     "deeprun tram to stormwind"
    ],
-   "answer": "The quickest and safest route is the Deeprun Tram, an engineering marvel located inside Ironforge's Tinker Town that carries travelers straight beneath the mountains into the heart of Stormwind."
+   "answer": "The Deeprun Tram is the quickest and safest route from Ironforge to Stormwind. From Tinker Town, it carries travelers beneath the mountains into Stormwind."
   },
   {
    "q": "Is this trial required for all Alliance paladins?",
@@ -78,21 +78,21 @@
     "do dwarves have to do this",
     "paladin class quest requirement"
    ],
-   "answer": "No. This summons is for human paladins, who study the Tomes under Duthorian Rall in Stormwind's Cathedral of Light. Dwarven paladins begin their own Tome of Divinity trials in Ironforge with Tiza Battleforge."
+   "answer": "No. Human paladins study the Tomes under Duthorian Rall at Stormwind's Cathedral of Light. Dwarven paladins begin their own Tome of Divinity trials in Ironforge with Tiza Battleforge."
   }
  ],
  "angles": [
   {
    "target": "class:Paladin",
-   "text": "This quest marks your official transition from a mere martial novice into an ordained servant of the Holy Light capable of channeling its most profound restorative miracles."
+   "text": "As a paladin, you move from martial novice to ordained servant of the Holy Light, able to channel its deepest restorative miracles."
   },
   {
    "target": "race:Dwarf",
-   "text": "Dwarven paladins have forged their own proud traditions in Khaz Modan, taking up the Tomes of Divinity in Ironforge even as their human brethren are summoned to Stormwind."
+   "text": "As a dwarf, you follow Khaz Modan's proud paladin traditions and take up the Tomes of Divinity in Ironforge, while human paladins are summoned to Stormwind."
   },
   {
    "target": "faction:Alliance",
-   "text": "The shared training of holy warriors in Stormwind strengthens the spiritual and military bond uniting Ironforge and the kingdom of Stormwind."
+   "text": "As an Alliance member, you share holy warrior training in Stormwind, strengthening the spiritual and military bond between Ironforge and Stormwind."
   }
  ],
  "keywords": [
@@ -114,5 +114,6 @@
  ],
  "attribution": [
   "Tome of Divinity (5)"
- ]
+ ],
+ "style": 1
 }

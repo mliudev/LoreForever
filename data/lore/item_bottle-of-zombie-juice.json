@@ -10,16 +10,16 @@
    "quest:159"
   ]
  },
- "summary": "A Bottle of Zombie Juice is a potent, foul liquor brewed from the pungent rot blossom found in Duskwood. Procured from the tavern in Darkshire, it is supposedly requested by the reclusive hermit Abercrombie to ward off the chill of the gloomy woods.",
+ "summary": "In Darkshire, a Bottle of Zombie Juice is bound for Abercrombie, a reclusive hermit in Duskwood. The potent liquor is brewed from rot blossom, and Abercrombie says he needs it to keep warm.",
  "sections": [
   {
    "title": "A Pungent Concoction",
-   "body": "Brewed from rot blossoms gathered among the shadowed soils of Duskwood, Zombie Juice is a remarkably harsh brew. The bartender who provides it warns that the drink is potent enough to raise the dead. While ordinary folk steer clear of such vile distillations, the eccentric hermit Abercrombie claims it is the only thing capable of keeping him warm on the damp, cold nights out by his lonely shack.",
+   "body": "Rot blossoms gathered in Duskwood go into this harsh brew. The bartender in Darkshire warns that it is potent enough to raise the dead. Most folk want nothing to do with such a vile drink, but Abercrombie, an eccentric hermit, says it is the only thing that keeps him warm on the damp, cold nights by his lonely shack.",
    "spoiler": 0
   },
   {
    "title": "Questionable Thirst",
-   "body": "Though Abercrombie insists the liquor serves merely as a fiery nightcap, his slip of the tongue upon receiving the bottle\u2014nearly praising the courier's 'foolishness' rather than kindness\u2014hints that the concoction might serve a darker, more sinister utility than simple tavern warmth.",
+   "body": "Abercrombie calls the liquor a fiery nightcap. When he receives the bottle, he nearly praises the courier’s foolishness instead of their kindness. What use could he have for a drink so potent?",
    "spoiler": 1
   }
  ],
@@ -30,7 +30,7 @@
     "zombie juice ingredients",
     "what is in zombie juice"
    ],
-   "answer": "Zombie Juice is a distilled liquor made from rot blossoms, a foul-smelling flora found growing in the corrupted soils of Duskwood."
+   "answer": "Zombie Juice is distilled from rot blossoms, a foul-smelling plant found in Duskwood’s corrupted soil."
   },
   {
    "q": "Who wants this bottle delivered?",
@@ -39,7 +39,7 @@
     "who is zombie juice for",
     "zombie juice delivery"
    ],
-   "answer": "The bottle is requested by Abercrombie, an eccentric hermit who lives in a solitary shack located along the western borders of Duskwood."
+   "answer": "Abercrombie wants the bottle delivered to his solitary shack along Duskwood’s western borders."
   },
   {
    "q": "Why does Abercrombie want Zombie Juice?",
@@ -47,7 +47,7 @@
     "why does abercrombie drink it",
     "abercrombie zombie juice reason"
    ],
-   "answer": "Abercrombie claims he needs the fiery drink to keep his old bones warm during the bitter, dark nights of Duskwood, though his strange demeanor suggests he may have other uses for such a potent concoction."
+   "answer": "Abercrombie claims the fiery drink keeps his old bones warm through Duskwood’s bitter, dark nights, though his strange manner suggests he may have another use for so potent a brew."
   },
   {
    "q": "Can players drink the Bottle of Zombie Juice?",
@@ -55,17 +55,17 @@
     "can i drink zombie juice",
     "is zombie juice consumable"
    ],
-   "answer": "No, this specific bottle is a quest item meant strictly for delivery to Abercrombie, and carrying it safely to his shack is your primary task."
+   "answer": "No. This bottle is meant for delivery to Abercrombie, and you must carry it safely to his shack."
   }
  ],
  "angles": [
   {
    "target": "profession:Herbalism",
-   "text": "Herbalists familiar with Duskwood recognize rot blossom as an ingredient unfit for standard restorative tonics, making its distillation into a drink all the more unsettling."
+   "text": "Herbalists familiar with Duskwood know rot blossom is unfit for ordinary restorative tonics, which makes its use in a drink unsettling."
   },
   {
    "target": "faction:Alliance",
-   "text": "Running errands between Darkshire and the shadowy wilderness helps keep the troubled inhabitants of Duskwood connected, even when the tasks seem dubious."
+   "text": "Errands between Darkshire and the shadowed wilderness help connect Duskwood’s troubled inhabitants, even when the work seems dubious."
   }
  ],
  "keywords": [
@@ -87,5 +87,6 @@
  "attribution": [
   "Bottle of Zombie Juice",
   "Juice Delivery (Classic)"
- ]
+ ],
+ "style": 1
 }

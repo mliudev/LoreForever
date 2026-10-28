@@ -79,7 +79,7 @@ export const REWARDS = {
   monthAt: 2,                // activated friends for a free month of the inviter's plan (Mike, 10/21: was 10)
   bonusAt: 5,                // in each bonusEvery friends, the one that gives bonus answers (the 5th, 15th, 25th...)
   bonusEvery: 10,
-  bonusPercent: 50,          // the bonus: this share of the plan's month of answers (Free 300, Hero 450, Champion 950)
+  bonusPercent: 50,          // the bonus: this share of the free plan's month of answers (bonusAnswersFor)
   monthsPerMonth: 1,         // free months a calendar month, at most (Mike, 10/21): friends past this month's monthAt x
                              // monthsPerMonth still count, for bonus answers, but don't move the free month on
   freePlanMonth: "hero",     // the free month of a player on the free plan
@@ -103,8 +103,9 @@ export const CREATOR_TERM = { start: "2026-11-03", days: 90, cycleDays: 30, runD
 // Payouts: a commission is payable holdDays after its invoice was paid (refunds and disputes come first), and a
 // creator is paid once at least minimumCents is payable (less carries over to the next run, after the term too).
 export const PAYOUTS = { holdDays: 30, minimumCents: 1000 };
-// What a free month's bonus is, by the inviter's plan.
-export const bonusAnswersFor = planId => Math.round((PLANS[planId] || PLANS.free).answersPerMonth * REWARDS.bonusPercent / 100);
+// What a free month's bonus is: a share of the free plan's month, whatever the inviter's plan (a paid plan's answers
+// are unlimited since 10/28, so its card doesn't offer them; they keep for a later free month).
+export const bonusAnswersFor = () => Math.round(PLANS.free.answersPerMonth * REWARDS.bonusPercent / 100);
 
 export const COOKIE = "lf_share";
 export const COOKIE_DAYS = 30;
@@ -573,7 +574,7 @@ export function shareWords(s, planId, billed = null, now = new Date()) {
   const bonusFriends = [0, 1, 2].map(k => nth(r.bonusAt + k * r.bonusEvery)).join(", ");
   const perCalendar = r.monthsPerMonth === 1 ? "one a month" : `up to ${r.monthsPerMonth} a month`;
   const about = `A friend counts once they ${counts}. Every ${r.monthAt} friends: ${month}, ${perCalendar}. ` +
-    `Your ${bonusFriends} friend and so on: ${plural(bonusAnswersFor(planId), "bonus answer")}. ` +
+    (PLANS[planId]?.unlimited ? "" : `Your ${bonusFriends} friend and so on: ${plural(bonusAnswersFor(planId), "bonus answer")}. `) +
     "The reward is yours: friends earn their own by inviting theirs.";
   // (perMonth stays a quiet guard on how many friends count in a month; the card only says the free month's 2: Mike,
   // 10/21, the architect's review: "max 10" read as the goal.)

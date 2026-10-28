@@ -10,16 +10,16 @@
    "quest:480"
   ]
  },
- "summary": "Ataeric's Staff is a powerful magical conduit wielded by Archmage Ataeric, a senior Dalaran wizard in Silverpine Forest. It serves as both a focus for manipulating local ley lines and physical proof of the archmage's defeat for the Forsaken at the Sepulcher.",
+ "summary": "At the Sepulcher, Ataeric's Staff marks the archmage's defeat. Archmage Ataeric, a senior Dalaran wizard in Silverpine Forest, wielded it to command local ley lines.",
  "sections": [
   {
    "title": "Trophy of the Sepulcher",
-   "body": "Alarmed by Dalaran's magical expansion, Shadow Priest Allister ordered Ataeric's assassination and demanded the recovery of the staff. With Ataeric slain and his staff recovered, the concentrated ley energies collapsed back into dormancy. Bringing the staff to the Sepulcher marked a decisive victory against Dalaran's ambitions, though the Forsaken remain watchful of the latent power remaining in the earth.",
+   "body": "Shadow Priest Allister feared Dalaran's growing reach in magic and ordered Ataeric killed. He also demanded the staff. Once Ataeric was slain and the staff recovered, the concentrated ley energies sank back into dormancy. Carrying the staff to the Sepulcher marked a clear victory over Dalaran's ambitions. Yet power still lies latent in the earth, and the Forsaken remain watchful.",
    "spoiler": 0
   },
   {
    "title": "A Conduit of Ley Magic",
-   "body": "Carried by Archmage Ataeric, this staff was used to direct and harness ley energies in southern Silverpine Forest. Under Dalaran's direction, Ataeric attempted to reactivate an ancient ley energy node near the borders of the magocracy's territory. The staff acted as a vital tool for weaving these immense ambient currents, rendering the archmage a formidable threat to nearby Forsaken settlements.",
+   "body": "Archmage Ataeric carried the staff to direct ley energies in southern Silverpine Forest. Dalaran sent him to awaken an ancient ley node near the borders of its territory. The staff helped him weave the vast currents around him, making the archmage a grave threat to nearby Forsaken settlements.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "ataeric owner",
     "who dropped this staff"
    ],
-   "answer": "The staff belongs to Archmage Ataeric, a high-ranking Dalaran wizard stationed in Silverpine Forest to oversee the reactivation of a potent ley node."
+   "answer": "Archmage Ataeric, a senior Dalaran wizard stationed in Silverpine Forest, owned the staff. He was there to oversee the awakening of a powerful ley node."
   },
   {
    "q": "Why does Shadow Priest Allister want Ataeric's Staff?",
@@ -40,7 +40,7 @@
     "staff purpose sepulcher",
     "who takes the staff"
    ],
-   "answer": "Shadow Priest Allister at the Sepulcher wants the staff as confirmation of Archmage Ataeric's death and to ensure that Dalaran's efforts to manipulate the region's ley lines are completely broken."
+   "answer": "Shadow Priest Allister at the Sepulcher wants the staff as proof that Archmage Ataeric is dead. He also seeks to break Dalaran's efforts to command the region's ley lines."
   },
   {
    "q": "What happens once the staff is taken from Archmage Ataeric?",
@@ -48,7 +48,7 @@
     "what happens to the ley line",
     "after defeating ataeric"
    ],
-   "answer": "Once Ataeric is slain and his staff removed, the ley energies Dalaran was weaving dissipate and settle into dormancy, ending the immediate magical threat to the Forsaken."
+   "answer": "When Ataeric is slain and the staff taken, the ley energies Dalaran had woven dissipate and sink into dormancy. The immediate magical threat to the Forsaken ends."
   },
   {
    "q": "Where is Ataeric's Staff found?",
@@ -56,17 +56,17 @@
     "where to get ataeric staff",
     "ataeric location"
    ],
-   "answer": "It is recovered directly from the body of Archmage Ataeric, who is found among other Dalaran mages and warders near Dalaran's presence in southern Silverpine Forest."
+   "answer": "Archmage Ataeric's body is found among other Dalaran mages and warders in southern Silverpine Forest, near Dalaran's presence. The staff is recovered from his body."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "Recovering the staff halts Dalaran's expanding grip over Silverpine's magical reserves, securing the Forsaken's western borders."
+   "text": "For the Forsaken, recovering the staff checks Dalaran's growing hold over Silverpine's magical reserves and secures their western borders."
   },
   {
    "target": "class:Mage",
-   "text": "The staff exemplifies the focused implements Dalaran's archmagi use to tap into and reawaken slumbering ley nodes."
+   "text": "As a mage, you can see how Dalaran's archmagi use focused implements to reach ley nodes and stir them from dormancy."
   }
  ],
  "keywords": [
@@ -91,5 +91,6 @@
  "attribution": [
   "Ataeric's Staff",
   "The Weaver (quest)"
- ]
+ ],
+ "style": 1
 }

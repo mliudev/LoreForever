@@ -10,11 +10,11 @@
    "quest:1960"
   ]
  },
- "summary": "The Cantation of Manifestation is a specialized arcane incantation written on a parchment scroll, used by mages to reveal unseen magical anomalies. In the Undercity, Anastasia Hartwell provides it to apprentices investigating invisible magical entities haunting Algernon's shop in the Apothecarium.",
+ "summary": "In the Undercity, Anastasia Hartwell gives apprentices a scroll to reveal unseen magical beings in Algernon's shop.",
  "sections": [
   {
    "title": "Unveiling the Invisible",
-   "body": "The Cantation of Manifestation holds a focused spell designed to pierce magical veils and force incorporeal, invisible beings into the visible spectrum. Kept in the Magic Quarter of the Undercity near Anastasia Hartwell, the scroll is entrusted to capable mages tasked with containing rogue magical anomalies. When read aloud in an area suffering from arcane instability\u2014such as Algernon's alchemical workshop in the Apothecarium\u2014the words force stray rift spawns to materialize, allowing the caster to subdue and trap them within containment coffers for further study.",
+   "body": "The Cantation of Manifestation reveals beings hidden by magic. Anastasia Hartwell keeps the scroll in the Magic Quarter and entrusts it to capable mages sent to contain rogue magical anomalies. Read aloud where arcane instability troubles the air, such as Algernon's alchemical workshop in the Apothecarium, its words force stray rift spawns into sight. The caster can then subdue them and trap them in containment coffers for further study.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "cantation purpose",
     "how does cantation work"
    ],
-   "answer": "It is a magical scroll that casts a spell revealing invisible arcane anomalies. When recited in areas experiencing magical tears or disturbances, it forces unseen creatures\u2014such as rift spawns\u2014into plain sight so they can be fought and captured."
+   "answer": "The Cantation of Manifestation reveals invisible arcane anomalies. Recited where magical tears or disturbances trouble an area, it forces unseen creatures such as rift spawns into sight so you can fight and capture them."
   },
   {
    "q": "Where can I find the Cantation in Undercity?",
@@ -35,7 +35,7 @@
     "where is cantation of manifestation",
     "find cantation undercity"
    ],
-   "answer": "It rests on the floor directly behind the mage trainer Anastasia Hartwell, located in the Magic Quarter of the Undercity."
+   "answer": "You can find the Cantation on the floor directly behind Anastasia Hartwell, the mage trainer in the Undercity's Magic Quarter."
   },
   {
    "q": "Why does Anastasia Hartwell need this scroll used?",
@@ -44,7 +44,7 @@
     "hartwell quest motive",
     "anastasia disturbance"
    ],
-   "answer": "A strange magical disturbance broke out in Algernon's alchemical shop down in the Apothecarium. Unseen entities made entirely of magic began wandering the premises, and Hartwell needs the scroll read on site to reveal and capture the creatures before the rift worsens."
+   "answer": "A strange magical disturbance broke out in Algernon's alchemical shop in the Apothecarium. Unseen beings made entirely of magic began wandering there, so Anastasia Hartwell needs you to read the scroll on site and reveal and capture them before the rift worsens."
   },
   {
    "q": "Do I get to keep the scroll after using it?",
@@ -53,17 +53,17 @@
     "do i lose cantation",
     "return cantation"
    ],
-   "answer": "No. Once you have manifested the rift spawns and captured them in containment coffers, you must return the Cantation of Manifestation along with the coffers back to Anastasia Hartwell."
+   "answer": "No. After you reveal the rift spawns and capture them in containment coffers, return the Cantation of Manifestation and the coffers to Anastasia Hartwell."
   }
  ],
  "angles": [
   {
    "target": "class:Mage",
-   "text": "The Cantation of Manifestation is an essential tool in your early training, teaching you how to detect hidden arcane currents and contain volatile rift entities."
+   "text": "As a mage, you use the Cantation of Manifestation in your early training to detect hidden arcane currents and contain volatile rift entities."
   },
   {
    "target": "race:Undead",
-   "text": "Forsaken spellcasters in the Magic Quarter keep tight control over arcane fluctuations, ensuring magical rifts don't compromise the stability of the Undercity."
+   "text": "As an Undead, you know Forsaken spellcasters in the Magic Quarter keep close watch over arcane fluctuations so magical rifts do not threaten the Undercity's stability."
   }
  ],
  "keywords": [
@@ -89,5 +89,6 @@
  "attribution": [
   "Cantation of Manifestation",
   "Investigate the Alchemist Shop"
- ]
+ ],
+ "style": 1
 }

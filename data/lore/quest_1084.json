@@ -17,16 +17,16 @@
   "wiki": "Wounded Ancients",
   "chain": []
  },
- "summary": "Wounded Ancients is an Alliance task given by Kaela Shadowspear in the Stonetalon Mountains. Suspecting that goblin munitions drove the local forest guardians mad, Kaela sends adventurers to recover shrapnel lodged in the corrupted treants so the gnome engineer Gaxim Rustfizzle can analyze the taint.",
+ "summary": "In the Stonetalon Mountains, the treants have turned against the land they once guarded. Kaela Shadowspear suspects goblin munitions are to blame and asks you to recover shrapnel from the corrupted guardians for Gaxim Rustfizzle to examine.",
  "sections": [
   {
    "title": "Blighted Protectors",
-   "body": "The forested groves of Stonetalon were long watched over by towering treants, gentle yet ferocious guardians bound to the health of the land. When the Venture Company moved in with buzzsaws, explosives, and strip-mining operations, nature fought back. The treants successfully repelled the invaders from parts of the vale, but victory came at an insidious cost. The defenders did not return to peaceful guardianship; instead, they devolved into hostile, maddened husks.",
+   "body": "The treants once guarded the groves of Stonetalon, gentle yet fierce, bound to the health of the land. When the Venture Company arrived with buzzsaws, explosives, and strip-mining, the forest fought back. The treants drove the invaders from parts of the vale, but their victory came at a cost. They did not return to their peaceful watch. Instead, they became hostile and maddened.",
    "spoiler": 0
   },
   {
    "title": "Gnomish Investigation",
-   "body": "Kaela Shadowspear, an Alliance scout stationed in the mountains, believes the treants' decline is no natural sickness. The gnome engineer Gaxim Rustfizzle suspects the culprit lies in the chemical and mechanical arsenal used by the goblins during their chaotic retreat. By prying corroded shrapnel from the wounded wood-beasts, Gaxim hopes to determine whether Venture Company ordnance is actively poisoning Stonetalon's ancient protectors.",
+   "body": "Kaela Shadowspear, an Alliance scout in the mountains, believes the treants suffer from no natural sickness. Gaxim Rustfizzle, a gnome engineer, suspects the goblins' weapons and chemicals harmed them during the Venture Company's chaotic retreat. He hopes to learn whether Venture Company ordnance is poisoning Stonetalon's ancient protectors by studying corroded shrapnel from the wounded treants.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who gives wounded ancients",
     "kaela shadowspear quest"
    ],
-   "answer": "Kaela Shadowspear gives the quest. She is an Alliance operative monitoring the escalating strife and ecological damage within the Stonetalon Mountains."
+   "answer": "Kaela Shadowspear, an Alliance scout in the Stonetalon Mountains, offers this work. She watches the growing conflict and harm to the land."
   },
   {
    "q": "Why are the treants corrupted?",
@@ -47,7 +47,7 @@
     "stonetalon treants corrupted",
     "treant corruption source"
    ],
-   "answer": "Gaxim Rustfizzle suspects that toxic munitions and weaponry fired by the Venture Company during their chaotic retreat lodged in the treants, steadily poisoning and maddening the forest guardians."
+   "answer": "Gaxim Rustfizzle suspects Venture Company munitions lodged in the treants during the goblins' chaotic retreat. He believes the weapons are poisoning and maddening the forest guardians."
   },
   {
    "q": "What item must be retrieved for this task?",
@@ -55,7 +55,7 @@
     "wounded ancients item",
     "corroded shrapnel quest"
    ],
-   "answer": "You need to retrieve a piece of Corroded Shrapnel, embedded within the bark and flesh of the wounded treants wandering the area."
+   "answer": "You need to recover a piece of Corroded Shrapnel from the bark and flesh of the wounded treants wandering the area."
   },
   {
    "q": "Who is Gaxim Rustfizzle?",
@@ -64,7 +64,7 @@
     "gnome in stonetalon",
     "gaxim rustfizzle role"
    ],
-   "answer": "Gaxim is an Alliance-aligned gnome engineer assisting Kaela Shadowspear. He uses his mechanical expertise to inspect Venture Company technology and determine how their weapons corrupt natural life."
+   "answer": "Gaxim Rustfizzle is a gnome engineer allied with the Alliance who assists Kaela Shadowspear. He uses his mechanical skill to study Venture Company weapons and how they harm natural life."
   },
   {
    "q": "What is the Venture Company's presence in Stonetalon?",
@@ -72,7 +72,7 @@
     "venture co stonetalon",
     "why are goblins in stonetalon"
    ],
-   "answer": "The Venture Company is a ruthless goblin logging and mining syndicate that invaded Stonetalon to clearcut sacred woodlands and plunder mineral deposits without regard for local balance."
+   "answer": "The Venture Company is a goblin logging and mining syndicate that invaded Stonetalon. It cuts down sacred woodlands and plunders mineral deposits without regard for the land's balance."
   },
   {
    "q": "Does collecting the shrapnel heal the treants?",
@@ -80,25 +80,25 @@
     "can you cure treants",
     "do treants recover"
    ],
-   "answer": "No. The retrieved shrapnel is purely an analytical sample intended for Gaxim to examine the nature and origin of the toxin rather than an immediate cure for the corrupted guardians."
+   "answer": "No. The shrapnel is a sample for Gaxim to examine so he can learn the toxin's nature and origin. It does not immediately cure the corrupted guardians."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "Watching ancient woodland defenders rot and twist under goblin industry is an outrage to any Kaldorei dedicated to safeguarding Kalimdor's wilderness."
+   "text": "For a Kaldorei sworn to protect Kalimdor's wilds, seeing ancient woodland guardians twisted by goblin industry is an outrage."
   },
   {
    "target": "race:Gnome",
-   "text": "Gaxim Rustfizzle's analytical eye demonstrates that mechanical craft can be wielded to understand and diagnose environmental crimes committed by irresponsible engineers."
+   "text": "Gaxim Rustfizzle shows how mechanical skill can help uncover and understand the harm caused by reckless engineers."
   },
   {
    "target": "class:Druid",
-   "text": "Treants represent the living pulse of nature; extracting the foreign metal poisoning their flesh is a grim necessity in confronting Venture Company destruction."
+   "text": "Treants carry nature's life within them. Removing the foreign metal poisoning their flesh is a grim necessity as you confront the Venture Company's destruction."
   },
   {
    "target": "profession:Engineering",
-   "text": "The corroded metal recovered from the treants highlights the destructive, slapdash nature of Venture Company munitions compared to refined gnomish craftsmanship."
+   "text": "The corroded metal in the treants reveals the careless work behind Venture Company munitions beside the precision of gnomish craft."
   }
  ],
  "keywords": [
@@ -120,5 +120,6 @@
  ],
  "attribution": [
   "Wounded Ancients"
- ]
+ ],
+ "style": 1
 }

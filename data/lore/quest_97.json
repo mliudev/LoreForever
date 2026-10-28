@@ -17,16 +17,16 @@
   "wiki": "The Legend of Stalvan (12)",
   "chain": []
  },
- "summary": "This leg of the investigation finally confirms the sinister truth connecting the elusive tutor to Darkshire's records. Clerk Daltry successfully matches the handwriting found on the recovered documents to Stalvan Mistmantle, prompting an immediate report to Commander Althea Ebonlocke. It marks the moment the Night Watch's suspicions harden into undeniable fact.",
+ "summary": "In Darkshire, Clerk Daltry matches the recovered handwriting to Stalvan Mistmantle. His report to Commander Althea Ebonlocke turns the Night Watch's suspicion into fact.",
  "sections": [
   {
    "title": "A Match in the Records",
-   "body": "After combing through distant manors, inns, and municipal archives across the human kingdoms, the fragmented trail returns to Darkshire's town hall. Clerk Daltry compares the bloodstained journal page against the signatures in the Town Registry. The result is unequivocal: the penmanship belongs to Stalvan Mistmantle, giving the Night Watch the hard evidence needed to treat the matter as an urgent local threat.",
+   "body": "Back in Darkshire's town hall, Clerk Daltry compares the bloodstained journal page with signatures in the Town Registry. The handwriting is an exact match for Stalvan Mistmantle. After a trail through manors, inns, and civic records across the human kingdoms, the Night Watch now has the evidence to treat the danger as an urgent local threat.",
    "spoiler": 0
   },
   {
    "title": "The Night Watch's Suspicions",
-   "body": "Commander Althea Ebonlocke had harbored grim instincts regarding Stalvan from the start of the inquiry. Duskwood already buckles under the weight of feral worgen, skeletal undead, and lurking necromancers; an unaccounted-for murderer hiding within the shadows of the woods is a danger she cannot ignore. Receiving confirmation from Daltry validates her darkest fears and sets the Night Watch on course to locate and neutralize the recluse once and for all.",
+   "body": "Commander Althea Ebonlocke has feared Stalvan from the start of the inquiry. Duskwood already faces feral worgen, skeletal undead, and lurking necromancers. An unaccounted-for murderer in the woods is another danger she cannot ignore. Daltry's confirmation sets the Night Watch on a course to find Stalvan and neutralize him once and for all.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "daltry handwriting match",
     "stalvan handwriting proof"
    ],
-   "answer": "Clerk Daltry compared the bloodstained journal page against the signatures in Darkshire's Town Registry and confirmed that the handwriting was an exact match for Stalvan Mistmantle, just as Commander Ebonlocke suspected."
+   "answer": "Clerk Daltry compared the bloodstained journal page with signatures in Darkshire's Town Registry. The handwriting was an exact match for Stalvan Mistmantle, just as Commander Ebonlocke suspected."
   },
   {
    "q": "Why does Commander Althea Ebonlocke care so much about Stalvan?",
@@ -47,7 +47,7 @@
     "ebonlocke investigation",
     "night watch stalvan"
    ],
-   "answer": "Commander Althea Ebonlocke leads the Night Watch, Darkshire's beleaguered militia. In a land already beset by terrors, she cannot allow a violent, shadowy figure with a dark past to remain loose and unaccounted for within Duskwood's borders."
+   "answer": "Commander Althea Ebonlocke leads the Night Watch, Darkshire's beleaguered militia. With terrors already threatening the land, she cannot let a violent, shadowy figure with a dark past remain loose and unaccounted for in Duskwood."
   },
   {
    "q": "Where does this step take place?",
@@ -56,7 +56,7 @@
     "quest location",
     "darkshire stalvan turn in"
    ],
-   "answer": "This entire step takes place within the town of Darkshire. Clerk Daltry is stationed inside the town hall, while Commander Althea Ebonlocke can be found patrolling nearby along the town's central roads."
+   "answer": "The whole step takes place within Darkshire. Clerk Daltry is in the town hall, while Commander Althea Ebonlocke patrols nearby on the town's central roads."
   },
   {
    "q": "What happens after reporting the handwriting match?",
@@ -65,7 +65,7 @@
     "after daltry match",
     "next step stalvan chain"
    ],
-   "answer": "Once Commander Ebonlocke receives the confirmation from Clerk Daltry, the investigation turns toward actively hunting down Stalvan's current whereabouts in the haunted wilds of Duskwood."
+   "answer": "After Clerk Daltry confirms the match, the investigation turns to actively hunting down Stalvan's whereabouts in Duskwood's haunted wilds."
   },
   {
    "q": "Who was Stalvan Mistmantle originally?",
@@ -74,7 +74,7 @@
     "stalvan background",
     "stalvan mistmantle story"
    ],
-   "answer": "Stalvan Mistmantle once taught at the Moonbrook schoolhouse and later worked as a private tutor to the children of the Flintridge family. The trail of his letters and journal pages leads from Moonbrook and Goldshire back to Duskwood, where he now lives as a dangerous recluse in the woods."
+   "answer": "Stalvan Mistmantle once taught at the Moonbrook schoolhouse and later worked as a private tutor to the Flintridge family's children. His letters and journal pages lead from Moonbrook and Goldshire back to Duskwood, where he lives as a dangerous recluse in the woods."
   },
   {
    "q": "Why was handwriting analysis necessary?",
@@ -83,17 +83,17 @@
     "why did daltry check writing",
     "proving stalvan identity"
    ],
-   "answer": "Because the events and accusations surrounding Stalvan occurred across different regions\u2014including Moonbrook and Goldshire\u2014official records were disjointed. Darkshire's civic registry held verified local samples that could definitively tie the foreign clues to the specific man."
+   "answer": "Events and accusations about Stalvan span Moonbrook and Goldshire, leaving official records scattered. Darkshire's civic registry holds verified local samples that can definitively tie the foreign clues to this specific man."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "For Alliance investigators, unraveling Stalvan's trail demonstrates the vital cooperation required between Darkshire's battered leadership and wandering adventurers to keep the realm's southern territories secure."
+   "text": "For Alliance investigators, Stalvan's trail shows how Darkshire's battered leadership and wandering adventurers must work together to keep the southern territories secure."
   },
   {
    "target": "race:Human",
-   "text": "Human players see the tragic decay of their own society reflected here, where respected tutors and rural towns alike slip quietly from civilization into madness and isolation."
+   "text": "As a human, you see the decay of your society reflected in respected tutors and rural towns slipping from civilization into madness and isolation."
   }
  ],
  "keywords": [
@@ -114,5 +114,6 @@
  ],
  "attribution": [
   "The Legend of Stalvan (12)"
- ]
+ ],
+ "style": 1
 }

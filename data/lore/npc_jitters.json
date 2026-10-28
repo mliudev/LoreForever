@@ -8,21 +8,21 @@
   "wiki": "Jitters",
   "refs": 7
  },
- "summary": "Jitters is a terrified, half-starved human hiding among the ruins of Raven Hill in Duskwood. He clings to scraps of food and struggles to speak about the horrors he has witnessed.",
+ "summary": "Among Raven Hill's ruins, Jitters lives alone and fears the dangers around him. He survives on help from travelers in western Duskwood, always watching the shadows.",
  "sections": [
   {
    "title": "A Haunted Hermit",
-   "body": "Found shivering amid the dilapidated houses of Raven Hill, Jitters lives in constant terror of the predators stalking Duskwood's western trails. He relies on passing adventurers for simple sustenance, desperate for food while keeping a frantic eye on the encroaching shadows. His skittish mannerisms and uncanny reflex for leaping clear of sudden danger earned him his moniker long ago, but his frantic paranoia is born from firsthand encounters with horrific horrors.",
+   "body": "Jitters shivers among Raven Hill's ruined houses, afraid of the predators along Duskwood's western trails. He depends on travelers for food and keeps watch for danger. His habit of flinching and leaping clear of sudden threats earned him his name long ago. The fear comes from horrors he has faced himself.",
    "spoiler": 0
   },
   {
    "title": "The Awakening at Roland's Doom",
-   "body": "Jitters was originally affiliated with the Defias Brotherhood as they moved into Duskwood. While digging at the mine known as Roland's Doom, he uncovered the Scythe of Elune protruding from the rock. The artifact unleashed ferocious, bloodthirsty worgen into the woods. Jitters watched in horror as his comrades were torn to pieces, barely escaping the slaughter with his own skin intact.",
+   "body": "Jitters once belonged to the Defias Brotherhood, who came into Duskwood. While digging at Roland's Doom, he found the Scythe of Elune jutting from the rock. The artifact brought fierce, bloodthirsty worgen into the woods. Jitters watched his comrades die beneath their claws and barely escaped alive.",
    "spoiler": 1
   },
   {
    "title": "Flight and the Farmstead",
-   "body": "Fleeing the mine, Jitters retreated to Darkshire, purchasing a blank tome from Clerk Daltry and feverishly chronicling the nightmare while hiding at the Scarlet Raven Tavern. Panicked, he took refuge in a barn at the Yorgen Farmstead. There, he witnessed black-cloaked Dark Riders butchering Sven Yorgen's family in search of the Scythe. Terrified of being blamed or found, Jitters buried pages of his journal in the soil and fled to Raven Hill, pursued by crippling guilt and ceaseless dread.",
+   "body": "After fleeing the mine, Jitters went to Darkshire. He bought a blank tome from Clerk Daltry and wrote down the nightmare while hiding in the Scarlet Raven Tavern. In panic, he took shelter in a barn at the Yorgen Farmstead. There he saw black-cloaked Dark Riders kill Sven Yorgen's family as they searched for the Scythe. Afraid of blame and discovery, Jitters buried pages of his journal in the soil, then fled to Raven Hill with guilt and dread close behind.",
    "spoiler": 1
   }
  ],
@@ -34,7 +34,7 @@
     "jitters lore",
     "jitters background"
    ],
-   "answer": "Jitters is a frightened human living in the ruins of Raven Hill. He is hungry, isolated, and haunted by his experiences in Duskwood."
+   "answer": "Jitters is a frightened human who lives among the ruins of Raven Hill. He is hungry, alone, and haunted by what he has experienced in Duskwood."
   },
   {
    "q": "Why is he called Jitters?",
@@ -43,7 +43,7 @@
     "where did his name come from",
     "jitters name origin"
    ],
-   "answer": "His nickname originated from his cautious nature, specifically his instinctive habit of flinching away from strikes and leaping clear of sudden pitfalls. His prolonged isolation and sheer terror in Duskwood have only made his nervousness worse."
+   "answer": "Jitters earned his name from his wary habits, flinching from blows and leaping clear of sudden pitfalls. His isolation and fear in Duskwood have made him more nervous."
   },
   {
    "q": "What danger do the worgen pose in Duskwood?",
@@ -61,7 +61,7 @@
     "who killed sven family",
     "yorgen farmstead murder"
    ],
-   "answer": "Sven Yorgen's family was murdered at their farmstead, leaving him determined to uncover who was responsible."
+   "answer": "Sven Yorgen's family was murdered at their farmstead. He is determined to discover who was responsible."
   },
   {
    "q": "How can Jitters help Sven Yorgen's investigation?",
@@ -79,17 +79,17 @@
     "jitters completed journal",
     "daltry book"
    ],
-   "answer": "His journal records his experiences in Duskwood and forms part of the investigation surrounding Raven Hill and Sven Yorgen's family."
+   "answer": "Jitters' journal records his experiences in Duskwood and is part of the investigation into Raven Hill and Sven Yorgen's family."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Jitters represents the human face of Duskwood's tragedy, living in fear while the Night Watch struggles to protect its people."
+   "text": "Jitters shows the human cost of Duskwood's troubles, living in fear while the Night Watch struggles to protect its people."
   },
   {
    "target": "class:Rogue",
-   "text": "Jitters has quick instincts for avoiding danger, but they have not spared him from terror and isolation in Duskwood."
+   "text": "As a rogue, you can recognize Jitters' quick instincts for avoiding danger. They have not spared him from fear and isolation in Duskwood."
   }
  ],
  "keywords": [
@@ -115,5 +115,6 @@
  ],
  "attribution": [
   "Jitters"
- ]
+ ],
+ "style": 1
 }

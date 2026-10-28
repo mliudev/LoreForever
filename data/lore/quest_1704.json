@@ -17,16 +17,16 @@
   "wiki": "Klockmort Spannerspan (quest)",
   "chain": []
  },
- "summary": "This quest sends an adventurer from Stormwind to Ironforge to deliver trade secrets to Klockmort Spannerspan in Tinkertown. After mastering the art of fire-hardened armor, the dwarf smith Furen Longbeard eagerly shares his metallurgical discoveries with his gnomish colleague. It serves as an essential link in the journey of an aspiring warrior looking to test exotic crafting methods.",
+ "summary": "Furen Longbeard sends fire-hardened mail findings from Stormwind to Klockmort Spannerspan in Ironforge. The dwarf smith shares his discoveries with his gnomish colleague in Tinkertown.",
  "sections": [
   {
    "title": "A Colleague in Tinkertown",
-   "body": "Having successfully forged a set of fire-hardened mail, Furen Longbeard compiles his detailed findings to pass along to a fellow craftsman. Rather than hoarding his newly discovered techniques, Furen trusts you to carry his notes from Stormwind to Ironforge and into the clatter and steam of Tinkertown, where the gnomish blacksmith Klockmort Spannerspan plies his trade.",
+   "body": "Furen Longbeard has forged fire-hardened mail and gathered his findings for a fellow craftsman. He trusts you to carry his notes from Stormwind to Ironforge, then into Tinkertown, where Klockmort Spannerspan works as a gnomish blacksmith.",
    "spoiler": 0
   },
   {
    "title": "Gnomish Excitement",
-   "body": "Gnome blacksmiths are relatively rare compared to their dwarven hosts, and Klockmort is enthusiastic about pushing the boundaries of traditional metalwork. Upon inspecting Furen's notes, Klockmort becomes wildly excited over the breakthrough, eager to integrate these fiery techniques into his own exotic projects.",
+   "body": "Gnomish blacksmiths are rare among their dwarven hosts, and Klockmort is eager to push beyond traditional metalwork. He studies Furen's notes and grows excited about the breakthrough, ready to try the fiery techniques in his own unusual projects.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who is klockmort",
     "gnome blacksmith ironforge"
    ],
-   "answer": "Klockmort Spannerspan is a gnomish blacksmith who works in Tinkertown within the subterranean city of Ironforge. He collaborates closely with dwarven smiths like Furen Longbeard on advanced metalworking techniques."
+   "answer": "Klockmort Spannerspan works as a gnomish blacksmith in Tinkertown, within Ironforge. He collaborates with dwarven smiths such as Furen Longbeard on metalworking techniques."
   },
   {
    "q": "Why does Furen Longbeard send you to Klockmort?",
@@ -47,7 +47,7 @@
     "furen's notes",
     "furen longbeard klockmort"
    ],
-   "answer": "Furen recorded notes detailing the breakthrough techniques he discovered while crafting fire-hardened mail. Knowing Klockmort's passion for inventive blacksmithing, Furen sends you to deliver these findings so the gnome can experiment with them."
+   "answer": "Furen Longbeard records what he discovered while crafting fire-hardened mail. He sends you to deliver the notes because Klockmort is keen to invent, and can experiment with Furen's findings."
   },
   {
    "q": "Where can I find Klockmort Spannerspan?",
@@ -56,7 +56,7 @@
     "where is klockmort",
     "klockmort ironforge"
    ],
-   "answer": "Klockmort Spannerspan is located in Tinkertown, the gnome-dominated district in the eastern sector of Ironforge, surrounded by workbenches and machinery."
+   "answer": "You can find Klockmort Spannerspan in Tinkertown, the gnome district in eastern Ironforge, among workbenches and machinery."
   },
   {
    "q": "What happens after giving Klockmort the notes?",
@@ -65,7 +65,7 @@
     "what next after klockmort",
     "iron coral quest"
    ],
-   "answer": "Enthralled by Furen's breakthrough, Klockmort immediately begins planning his own metallurgical projects, setting you on a path to gather unusual materials such as iron coral."
+   "answer": "Furen's breakthrough excites Klockmort, who begins planning his own metalworking projects. He sends you to gather unusual materials such as iron coral."
   },
   {
    "q": "Is this quest limited to warriors?",
@@ -74,7 +74,7 @@
     "can anyone do this quest",
     "class requirement"
    ],
-   "answer": "Yes. This delivery is part of the dedicated armor-crafting chain available exclusively to Alliance warriors training under veteran weapon and armor masters."
+   "answer": "Yes. This delivery belongs to an armor-crafting chain for Alliance warriors training under veteran weapon and armor masters."
   },
   {
    "q": "Why does Klockmort say he cannot tell day from night?",
@@ -82,21 +82,21 @@
     "klockmort day night dialogue",
     "way down here dialogue"
    ],
-   "answer": "Ironforge is an entirely subterranean city carved deep into the mountains of Dun Morogh. Down in Tinkertown under stone vaults and glowing lamps, craftsmen have no view of the sun or sky."
+   "answer": "Ironforge lies beneath the mountains of Dun Morogh. In Tinkertown, stone vaults and glowing lamps keep craftsmen from seeing the sun or sky."
   }
  ],
  "angles": [
   {
    "target": "class:Warrior",
-   "text": "Your journey to craft durable battle gear leads you from dwarven hearths directly into gnomish innovation, earning you the attention of Tinkertown's finest."
+   "text": "As a warrior, you follow a path toward durable battle gear, from dwarven hearths to gnomish invention, and earn the attention of Tinkertown's finest."
   },
   {
    "target": "race:Gnome",
-   "text": "Klockmort represents the ingenious crossover between classic dwarven metallurgy and inventive gnomish experimentation in Tinkertown."
+   "text": "As a gnome, you see Klockmort bring dwarven metalworking together with gnomish experimentation in Tinkertown."
   },
   {
    "target": "profession:Blacksmithing",
-   "text": "Furen's notes represent the collaborative exchange of cutting-edge smithing techniques between the master artisans of Ironforge."
+   "text": "As a blacksmith, you carry Furen's notes in an exchange of advanced smithing techniques among Ironforge's master artisans."
   }
  ],
  "keywords": [
@@ -118,5 +118,6 @@
  ],
  "attribution": [
   "Klockmort Spannerspan (quest)"
- ]
+ ],
+ "style": 1
 }

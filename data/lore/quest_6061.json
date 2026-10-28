@@ -23,16 +23,16 @@
    "Training the Beast (Tauren)"
   ]
  },
- "summary": "Taming the Beast is the foundational rite of passage for young tauren hunters in Bloodhoof Village. Guided by trainer Yaw Sharpmane, the hunter ventures into Mulgore to tame an adult plainstrider, taking the first step toward forging a spiritual bond with the creatures of the Earthmother.",
+ "summary": "At Bloodhoof Village, Taming the Beast begins a young tauren hunter’s training with Yaw Sharpmane. The first trial takes the hunter into Mulgore to tame an adult plainstrider and begin a bond with the creatures of the Earthmother.",
  "sections": [
   {
    "title": "A Sacred Bond with the Wild",
-   "body": "For the tauren, hunting has never been purely about slaying beasts for meat and hides. Ancestral traditions hold that overcoming and communion with the wildlife of Mulgore allows a hunter to intake their spirits and draw closer to the Earthmother. Taming a companion beast elevates this connection, turning what could be an adversary into a lifelong partner aligned with the natural balance of the plains.",
+   "body": "Tauren hunters seek more than meat and hides when they hunt. Their ancestral traditions teach that meeting Mulgore’s wild creatures can bring a hunter closer to the Earthmother. Taming a companion turns a beast that might have been an adversary into a partner, joined with the hunter in the natural balance of the plains.",
    "spoiler": 0
   },
   {
    "title": "The First Test",
-   "body": "Yaw Sharpmane begins an initiate's instruction not with ferocious apex predators, but with the swift and watchful plainstriders roaming Mulgore's grasslands. Armed with an enchanted taming rod, the hunter must face an adult plainstrider, calm its wild instincts, and earn its trust. This initial trial proves the hunter's resolve and prepares them for the more demanding beasts that follow.",
+   "body": "Yaw Sharpmane starts a hunter’s training with plainstriders that roam Mulgore’s grasslands. The hunter carries an enchanted taming rod and faces an adult plainstrider, calming its wild instincts and earning its trust. This first trial tests the hunter’s resolve and prepares them to face more demanding beasts.",
    "spoiler": 0
   }
  ],
@@ -44,7 +44,7 @@
     "purpose of quest",
     "tauren pet quest purpose"
    ],
-   "answer": "This quest is the first practical test for novice tauren hunters seeking to learn the art of animal companionship. By using a taming rod to pacify an adult plainstrider, the hunter learns the fundamentals of establishing a spiritual and working connection with beasts."
+   "answer": "This is the first practical test for a young tauren hunter learning to form a bond with an animal. Using a taming rod to calm an adult plainstrider teaches the basics of a spiritual and working bond with beasts."
   },
   {
    "q": "Who gives this quest and where are they located?",
@@ -53,7 +53,7 @@
     "quest giver location",
     "yaw sharpmane location"
    ],
-   "answer": "The quest is offered by Yaw Sharpmane, the hunter trainer situated in Bloodhoof Village within the central plains of Mulgore."
+   "answer": "Yaw Sharpmane, the hunter trainer, gives the trial in Bloodhoof Village, in central Mulgore."
   },
   {
    "q": "Do I keep the adult plainstrider permanently?",
@@ -62,7 +62,7 @@
     "do i keep the plainstrider",
     "keep beast after quest"
    ],
-   "answer": "No. The beasts tamed during Yaw Sharpmane's initial three trials are temporary practice partners. Once you complete the entire training chain and master beast taming, you can venture out and tame any compatible companion permanently."
+   "answer": "No. The beasts in Yaw Sharpmane’s first three trials are temporary practice partners. After completing the full training and mastering beast taming, you can tame a compatible companion permanently."
   },
   {
    "q": "Why do tauren view taming beasts as a spiritual act?",
@@ -71,7 +71,7 @@
     "earthmother taming lore",
     "why tame beasts tauren"
    ],
-   "answer": "Tauren tradition teaches that interacting with and besting wild creatures allows hunters to intake their spirits and become one with the natural world. Taming a beast reflects mutual respect and unity with the creations of the Earthmother."
+   "answer": "Tauren tradition teaches that meeting and overcoming wild creatures lets hunters take in their spirits and join with the natural world. Taming a beast shows respect and unity with the Earthmother’s creations."
   },
   {
    "q": "Where can adult plainstriders be found?",
@@ -80,7 +80,7 @@
     "plainstrider location",
     "find adult plainstrider"
    ],
-   "answer": "Adult plainstriders roam widely throughout the rolling savannahs and valleys surrounding Bloodhoof Village in Mulgore."
+   "answer": "Adult plainstriders roam the valleys and savannahs around Bloodhoof Village in Mulgore."
   },
   {
    "q": "What comes after this quest?",
@@ -89,17 +89,17 @@
     "quest chain after this",
     "next step taming"
    ],
-   "answer": "Returning the taming rod to Yaw Sharpmane leads into the next trial, where you are tasked with taming a stalker, followed by an aggressive swoop, before learning the art of permanent beast training."
+   "answer": "When you return the taming rod to Yaw Sharpmane, the next trial sends you to tame a stalker, then an aggressive swoop. After those trials, you learn to train beasts permanently."
   }
  ],
  "angles": [
   {
    "target": "class:Hunter",
-   "text": "This rite marks the transition from a fledgling tracker into a true beastmaster, teaching you how to commune with animals through the Earthmother's guidance."
+   "text": "As a hunter, you begin learning to bond with animals through the Earthmother’s guidance."
   },
   {
    "target": "race:Tauren",
-   "text": "Taming a beast is an ancestral practice central to the nomadic hunting heritage of Mulgore, strengthening the bond between hunter and nature."
+   "text": "As a tauren, you inherit Mulgore’s ancestral hunting tradition, where taming strengthens the bond between hunter and nature."
   }
  ],
  "keywords": [
@@ -122,5 +122,6 @@
  ],
  "attribution": [
   "Taming the Beast (Tauren 1)"
- ]
+ ],
+ "style": 1
 }

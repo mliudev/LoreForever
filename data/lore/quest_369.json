@@ -22,21 +22,21 @@
    "A New Plague (4)"
   ]
  },
- "summary": "In Brill, Apothecary Johaan turns his attention toward developing a potent new biological agent for the Forsaken. By studying ancient texts, he discovers that a historic, deadly plague survived through the venom of eastern Tirisfal's night web spiders, prompting an urgent retrieval effort.",
+ "summary": "In Brill, Apothecary Johaan studies how an ancient plague survived in spider venom. He seeks a potent new biological agent for the Forsaken.",
  "sections": [
   {
    "title": "Unearthing Ancient Contagions",
-   "body": "While pursuing his alchemy for the Royal Apothecary Society in Brill, Apothecary Johaan scours aged tomes in search of deadlier mixtures. He uncovers records of an ancient pestilence that once ravaged thousands of lives. Crucially, the texts indicate that the deadly pathogen survived across generations by harboring within the local arachnids of Tirisfal Glades, making their venom an invaluable biological reagent.",
+   "body": "Apothecary Johaan studies old texts in Brill for the Royal Apothecary Society. He finds records of an ancient pestilence that killed thousands. The texts say the pathogen survived across generations in the venom of Tirisfal Glades' local spiders. Johaan needs that venom as a biological reagent.",
    "spoiler": 0
   },
   {
    "title": "Hunting the Venomweb Vale",
-   "body": "To acquire a viable sample of the pathogen, Johaan directs agents toward the eastern reaches of Tirisfal Glades. South of the Scarlet Monastery lies Venomweb Vale, a fog-shrouded hollow infested with vicious night web spiders. Harvesters must venture into their dens to extract fresh venom glands, securing the final ingredient needed to finalize Johaan's experimental brew.",
+   "body": "Apothecary Johaan sends agents to eastern Tirisfal Glades for a viable sample. Venomweb Vale lies south of the Scarlet Monastery, where vicious night web spiders infest the hollow. Harvesters must enter their dens and gather fresh venom glands for Johaan's experimental brew.",
    "spoiler": 0
   },
   {
    "title": "Brewing the Final Formulation",
-   "body": "Upon receiving the harvested venom, Johaan incorporates it into a simmering cauldron alongside previously gathered reagents. With the mixture boiled down and primed, the contagious element from the spiders completes the compound, bringing the Royal Apothecary Society one step closer to practical field trials.",
+   "body": "Apothecary Johaan adds the harvested venom to a simmering cauldron with reagents gathered earlier. As the mixture boils down, the spiders' contagious element completes the compound. The Royal Apothecary Society moves closer to practical field trials.",
    "spoiler": 1
   }
  ],
@@ -48,7 +48,7 @@
     "apothecary johaan spiders",
     "spider venom use"
    ],
-   "answer": "Johaan uncovered an old text describing an ancient plague that killed thousands, whose virulent strain was naturally preserved in the venom of Tirisfal's night web spiders. He intends to harness that contagious element for his concoction."
+   "answer": "An ancient text Johaan found says a plague that killed thousands survived in the venom of Tirisfal's night web spiders. He means to use that contagious element in his concoction."
   },
   {
    "q": "Where do the vicious night web spiders live?",
@@ -57,7 +57,7 @@
     "night web spider location",
     "venomweb vale location"
    ],
-   "answer": "They dwell in eastern Tirisfal Glades within Venomweb Vale, located just south of the Scarlet Monastery."
+   "answer": "Vicious night web spiders live in Venomweb Vale in eastern Tirisfal Glades, south of the Scarlet Monastery."
   },
   {
    "q": "What is the goal of the Royal Apothecary Society's research here?",
@@ -66,7 +66,7 @@
     "forsaken plague goals",
     "royal apothecary society plague"
    ],
-   "answer": "The society seeks to synthesize a lethal new strain capable of exterminating both the Scourge and the living, cementing the Forsaken's survival and independence in Lordaeron."
+   "answer": "The Royal Apothecary Society seeks to create a lethal new strain that can exterminate both the Scourge and the living, securing the Forsaken's survival and independence in Lordaeron."
   },
   {
    "q": "Who is Apothecary Johaan?",
@@ -74,7 +74,7 @@
     "who is johaan",
     "apothecary johaan lore"
    ],
-   "answer": "Johaan is a Forsaken researcher stationed in Brill under the Royal Apothecary Society. He oversees local chemical and biological experiments, blending dark alchemy with field-harvested Tirisfal reagents."
+   "answer": "Apothecary Johaan is a Forsaken researcher in Brill who works for the Royal Apothecary Society. He oversees local chemical and biological experiments, combining dark alchemy with reagents gathered in Tirisfal."
   },
   {
    "q": "What happens after this venom is gathered?",
@@ -83,7 +83,7 @@
     "new plague quest sequel",
     "after a new plague 3"
    ],
-   "answer": "Once Johaan boils the venom down into his brew, he prepares to test the compound directly to determine if the resulting toxic agent produces the desired lethality."
+   "answer": "After boiling the venom into his brew, Johaan prepares to test the compound and see if the resulting toxic agent has the lethality he wants."
   },
   {
    "q": "Is this the same plague that created the Scourge?",
@@ -91,17 +91,17 @@
     "is this scourge plague",
     "plague of undeath difference"
    ],
-   "answer": "No. The Scourge spread the Plague of Undeath created by the Lich King. The Forsaken's apothecaries are deliberately formulating an entirely distinct biological weapon of their own design."
+   "answer": "No. The Scourge spread the Plague of Undeath, created by the Lich King. The Forsaken's apothecaries are making a distinct biological weapon of their own."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "For the Forsaken, crafting an original weapon offers the only lasting security against relentless Scourge remnants and Scarlet crusaders on their doorstep."
+   "text": "As Forsaken, you seek an original weapon for lasting security against Scourge remnants and Scarlet crusaders at your doorstep."
   },
   {
    "target": "faction:Horde",
-   "text": "While Forsaken researchers welcome assistance from orc or tauren allies, the visceral nature of their biological experiments frequently unsettles the wider Horde."
+   "text": "As a member of the Horde, you may help Forsaken researchers as an orc or tauren ally. Their biological experiments often unsettle the wider Horde."
   }
  ],
  "keywords": [
@@ -124,5 +124,6 @@
  ],
  "attribution": [
   "A New Plague (3)"
- ]
+ ],
+ "style": 1
 }

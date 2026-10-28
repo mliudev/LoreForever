@@ -1,0 +1,61 @@
+{
+ "key": "quest:98072",
+ "type": "quest",
+ "name": "Crocs of the Sky",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   98072
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "James asks whether you have the scales, then praises your talent. He offers you work if you ever leave adventuring behind.",
+ "sections": [
+  {
+   "title": "James's Offer",
+   "body": "James calls you a natural talent and invites you to return if you take a break from adventuring. He jokes that you may be older by then.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is asking about the scales?",
+   "aliases": [
+    "who wants the scales",
+    "scales for james"
+   ],
+   "answer": "James asks whether you have the scales."
+  },
+  {
+   "q": "What does James think of me?",
+   "aliases": [
+    "does james like me",
+    "james opinion"
+   ],
+   "answer": "James calls you a natural talent."
+  },
+  {
+   "q": "What does James offer?",
+   "aliases": [
+    "james job",
+    "work offer"
+   ],
+   "answer": "James offers to put you to work if you take a break from adventuring."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "adventuring",
+  "crocs of the sky",
+  "james",
+  "scales",
+  "work"
+ ],
+ "related": [],
+ "style": 1,
+ "attribution": [
+  "In-game quest text: Crocs of the Sky"
+ ]
+}

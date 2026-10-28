@@ -8,11 +8,11 @@
   "wiki": "Miles Welsh",
   "refs": 1
  },
- "summary": "Miles Welsh is a Forsaken priest trainer residing deep within the Pools of Vision beneath Thunder Bluff. He offers spiritual instruction and shadow discipline to priests traversing the tauren capital.",
+ "summary": "In the Pools of Vision, Miles Welsh teaches priests beneath Thunder Bluff. The Forsaken trainer offers spiritual instruction and shadow discipline in the tauren capital.",
  "sections": [
   {
    "title": "A Shadow in the Caverns",
-   "body": "Miles Welsh stands far from the plague-scarred ruins of Lordaeron, making his home in the humid, spirit-laden grotto beneath Thunder Bluff known as the Pools of Vision. As a Forsaken priest, he instructs travelers who channel divine and shadowy energies. His presence in the heart of Mulgore reflects the tenuous diplomatic ties binding the Forsaken to the Horde, sharing sanctuary with tauren mystics and shamans while guiding acolytes in the arts of shadow and faith.",
+   "body": "Miles Welsh teaches priests in the Pools of Vision beneath Thunder Bluff. Far from Lordaeron's plague-scarred ruins, the Forsaken priest makes his home in the grotto beneath the city. He instructs travelers in divine and shadowy energies. His place in the heart of Mulgore reflects the tenuous ties between the Forsaken and the Horde. There, he shares sanctuary with tauren mystics and shamans while guiding acolytes in shadow and faith.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "who is miles welsh",
     "miles welsh priest trainer"
    ],
-   "answer": "Miles Welsh is an undead priest trainer stationed in the Pools of Vision under Thunder Bluff, assisting Horde priests with their training and specialized disciplines."
+   "answer": "Miles Welsh trains priests in the Pools of Vision beneath Thunder Bluff. He helps Horde priests with their training and specialized disciplines."
   },
   {
    "q": "Where can I find Miles Welsh?",
@@ -33,7 +33,7 @@
     "where is miles welsh",
     "how to find miles welsh"
    ],
-   "answer": "He is located in the Pools of Vision, an underground cavern system beneath the Spirit Rise in Thunder Bluff, accessed through a cave entrance on the mesa."
+   "answer": "Find Miles Welsh in the Pools of Vision, the caverns beneath the Spirit Rise in Thunder Bluff. Enter through a cave entrance on the mesa."
   },
   {
    "q": "Why is an undead priest trainer in Thunder Bluff?",
@@ -41,7 +41,7 @@
     "why forsaken in thunder bluff",
     "undead priest in tauren city"
    ],
-   "answer": "The Forsaken and the tauren are allies within the Horde. The tauren, notably Magatha Grimtotem, advocated for admitting the Forsaken into the faction, allowing emissaries and trainers like Miles Welsh to offer their services in Mulgore."
+   "answer": "The Forsaken and tauren are allies in the Horde. Magatha Grimtotem advocated for the Forsaken to join, allowing emissaries and trainers like Miles Welsh to serve in Mulgore."
   },
   {
    "q": "What abilities does he teach?",
@@ -49,17 +49,17 @@
     "priest spells thunder bluff",
     "what does miles welsh teach"
    ],
-   "answer": "Miles Welsh trains general priest spells and assists Forsaken and troll acolytes seeking specialized racial teachings, such as Touch of Weakness or Shadowguard."
+   "answer": "Miles Welsh teaches general priest spells. He also helps Forsaken and troll acolytes seeking specialized racial teachings such as Touch of Weakness or Shadowguard."
   }
  ],
  "angles": [
   {
    "target": "class:Priest",
-   "text": "For priests traveling through Kalimdor, Miles Welsh is one of the few places in central horde territories to study new spells and advance spiritual training."
+   "text": "As a priest traveling through Kalimdor, you can study new spells and advance your spiritual training with Miles Welsh, one of the few such teachers in central Horde territory."
   },
   {
    "target": "race:Undead",
-   "text": "Miles provides a familiar, cold face from Lordaeron in an otherwise earthy and sun-drenched tauren capital."
+   "text": "As an undead traveler, you may find Miles Welsh a familiar, cold face in the earthy, sun-drenched tauren capital."
   }
  ],
  "keywords": [
@@ -80,5 +80,6 @@
  ],
  "attribution": [
   "Miles Welsh"
- ]
+ ],
+ "style": 1
 }

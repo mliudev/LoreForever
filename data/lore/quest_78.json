@@ -17,16 +17,16 @@
   "wiki": "The Legend of Stalvan (9)",
   "chain": []
  },
- "summary": "This errand marks a turning point in uncovering the history of Stalvan Mistmantle, sending investigators from Elwynn Forest back into the shadowed town of Darkshire. Guided by Marshal Haggard's memory of his service days, you bring a recovered journal page to Tavernkeep Smitts at the Scarlet Raven Tavern to identify the chilling handwriting.",
+ "summary": "Marshal Haggard sends you back to Darkshire with a page he cannot read. Tavernkeep Smitts may know the hand that wrote it.",
  "sections": [
   {
    "title": "A Lead from the Marshal",
-   "body": "After recovering a weathered, torn journal page from Marshal Haggard's chest in Elwynn Forest, the retired commander cannot read the faded script due to his failing eyesight. Recognizing that the trail leads back across the river, Haggard recalls his past commanding the Stormwind Guard and remembers spending evenings at the Scarlet Raven Tavern in Darkshire. He directs you to Tavernkeep Smitts, a barkeep whose long tenure has made him an unofficial custodian of local history and rumors.",
+   "body": "Marshal Haggard cannot read the faded writing on the torn journal page you recovered from his chest in Elwynn Forest. His eyesight is failing. The retired commander remembers serving with the Stormwind Guard and spending evenings at the Scarlet Raven Tavern in Darkshire. The trail leads back across the river, so he sends you to Tavernkeep Smitts. Years behind the bar have made Smitts a keeper of local history and rumors.",
    "spoiler": 0
   },
   {
    "title": "Return to the Scarlet Raven",
-   "body": "Crossing back through the gloomy woods of Duskwood, you present the faded manuscript to Smitts behind his counter. Smitts immediately softens upon hearing the name of his old acquaintance Haggard, though he laments the veteran's fading health. Upon laying eyes on the parchment, the barkeep's easygoing demeanor instantly shatters into alarm: he recognizes the distinctive script without a shadow of doubt, pulling the investigation closer to the horrifying truth of Stalvan's madness.",
+   "body": "You cross Duskwood's gloomy woods and show the faded page to Smitts behind the counter. He warms at the name of his old acquaintance Haggard, though he laments the veteran's fading health. Then Smitts sees the parchment, and alarm replaces his easygoing manner. He knows the distinctive handwriting without doubt, bringing the search closer to the truth of Stalvan's madness.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "haggard to darkshire",
     "why smitts"
    ],
-   "answer": "Marshal Haggard is aging and nearly blind, preventing him from examining the recovered journal page himself. He recalls that Tavernkeep Smitts of the Scarlet Raven Tavern was an expert on local lore and history when Haggard served with the Stormwind Guard, making Smitts the ideal person to identify the script."
+   "answer": "Marshal Haggard is aging and nearly blind, so he cannot examine the recovered journal page. He remembers Tavernkeep Smitts as an expert on local lore when Haggard served with the Stormwind Guard, and sends you to have Smitts identify the script."
   },
   {
    "q": "Where is Tavernkeep Smitts located?",
@@ -47,7 +47,7 @@
     "smitts location",
     "scarlet raven tavern location"
    ],
-   "answer": "Tavernkeep Smitts tends the bar inside the Scarlet Raven Tavern, situated on the eastern side of Darkshire in Duskwood."
+   "answer": "Tavernkeep Smitts tends the bar inside the Scarlet Raven Tavern, on the eastern side of Darkshire in Duskwood."
   },
   {
    "q": "What item do you carry to Tavernkeep Smitts?",
@@ -56,7 +56,7 @@
     "faded journal page",
     "stalvan journal page"
    ],
-   "answer": "You bring a Faded Journal Page, an excerpt from Stalvan Mistmantle's lost journal that was previously found secured inside Marshal Haggard's footlocker."
+   "answer": "You carry a Faded Journal Page, an excerpt from Stalvan Mistmantle's lost journal, found secured inside Marshal Haggard's footlocker."
   },
   {
    "q": "Does Tavernkeep Smitts recognize the handwriting?",
@@ -64,7 +64,7 @@
     "does smitts know the writing",
     "smitts reaction to journal"
    ],
-   "answer": "Yes. The moment Smitts looks over the faded page, he recognizes the handwriting with obvious alarm, and that recognition gives the search for Stalvan its next lead."
+   "answer": "Yes. Smitts recognizes the handwriting as soon as he looks at the faded page, and his alarm gives the search for Stalvan its next lead."
   },
   {
    "q": "How does Smitts know Marshal Haggard?",
@@ -72,7 +72,7 @@
     "smitts haggard relationship",
     "how smitts knows haggard"
    ],
-   "answer": "Smitts hosted Haggard years ago when Haggard led patrols of the Stormwind Guard into Duskwood and frequented the Scarlet Raven Tavern for drinks."
+   "answer": "Smitts hosted Haggard years ago, when Haggard led Stormwind Guard patrols into Duskwood and visited the Scarlet Raven Tavern for drinks."
   },
   {
    "q": "What comes next in the search for Stalvan?",
@@ -81,17 +81,17 @@
     "next step stalvan",
     "stalvan chain continue"
    ],
-   "answer": "Bring the faded journal page to Smitts at the Scarlet Raven Tavern and follow the lead he provides."
+   "answer": "Take the faded journal page to Smitts at the Scarlet Raven Tavern and follow the lead he gives you."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "The quest highlights the deep bonds among former defenders of the realm, connecting retired Stormwind guardsmen to community keepers across the Kingdom of Stormwind."
+   "text": "As an Alliance defender, you see bonds between former Stormwind guardsmen and community keepers across the Kingdom of Stormwind."
   },
   {
    "target": "race:Human",
-   "text": "This step reveals the grim memories lurking within human settlements, showing how past tragedies in Elwynn and Darkshire refuse to stay buried."
+   "text": "As a human, you see how tragedies in Elwynn and Darkshire remain part of the settlements' memories."
   }
  ],
  "keywords": [
@@ -117,5 +117,6 @@
  ],
  "attribution": [
   "The Legend of Stalvan (9)"
- ]
+ ],
+ "style": 1
 }

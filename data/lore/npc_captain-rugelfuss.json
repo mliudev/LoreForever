@@ -8,21 +8,21 @@
   "wiki": "Captain Rugelfuss",
   "refs": 6
  },
- "summary": "Captain Rugelfuss is a stern dwarven officer stationed at the southern gate in the Valley of Kings. Tasked with securing the border of Loch Modan, he organizes the defense against a sudden and aggressive trogg uprising.",
+ "summary": "At Loch Modan’s southern gate, Captain Rugelfuss faces a sudden trogg uprising. The stern dwarven officer organizes the defense of the border.",
  "sections": [
   {
    "title": "Holding the Southern Gate",
-   "body": "Positioned near the monumental carved arches of the Valley of Kings, Captain Rugelfuss oversees the southern gateway into Loch Modan. With Alliance forces stretched thin across the world, Ironforge relies on veteran officers like him to keep the home territories secure. Rugelfuss dismisses military pomp and formalities, preferring to focus entirely on the grim reality facing the border.",
+   "body": "Captain Rugelfuss guards Loch Modan’s southern gateway from the Valley of Kings. With Alliance forces stretched thin across the world, Ironforge depends on veteran officers like him to defend its home territories. He sets aside military ceremony and turns his attention to the danger at the border.",
    "spoiler": 0
   },
   {
    "title": "The Trogg Incursion",
-   "body": "The primary crisis demanding Rugelfuss's attention is the swelling trogg threat. Unearthed from ancient caverns and surging into the highlands, these savage brutes have overwhelmed outlying dwarven patrols and established fortified footholds nearby. Under the banner of defending the King's lands, the captain recruits capable travelers to cull their ranks and push the creatures back from the roadway.",
+   "body": "Troggs are surging into the highlands from ancient caverns. They have overwhelmed outlying dwarven patrols and built fortified footholds nearby. Rugelfuss calls on capable travelers to thin their ranks and drive them back from the roadway, defending the King’s lands.",
    "spoiler": 0
   },
   {
    "title": "Frontline Reconnaissance",
-   "body": "Rugelfuss's duties extend beyond blunt force. His mountaineers continually scout trogg encampments.",
+   "body": "Rugelfuss’s mountaineers keep watch beyond the gate. They continually scout trogg encampments.",
    "spoiler": 1
   }
  ],
@@ -34,7 +34,7 @@
     "who is rugelfuss",
     "rugelfuss loch modan"
    ],
-   "answer": "Captain Rugelfuss is an Ironforge dwarven military commander stationed at the southern gateway in the Valley of Kings within Loch Modan. He is responsible for regional defense and frontier security."
+   "answer": "Captain Rugelfuss commands Ironforge’s defense at Loch Modan’s southern gateway in the Valley of Kings. He guards the frontier against the trogg uprising."
   },
   {
    "q": "Where can Captain Rugelfuss be found?",
@@ -42,7 +42,7 @@
     "where is rugelfuss",
     "captain rugelfuss location"
    ],
-   "answer": "He is stationed near the South Gate in the Valley of Kings, guarding the southern pass that leads from Loch Modan toward Dun Morogh."
+   "answer": "You can find Captain Rugelfuss near the South Gate in the Valley of Kings, guarding the southern pass from Loch Modan toward Dun Morogh."
   },
   {
    "q": "Why is Captain Rugelfuss concerned about troggs?",
@@ -50,7 +50,7 @@
     "why fight troggs",
     "trogg threat loch modan"
    ],
-   "answer": "A recent trogg uprising poses a severe hazard to dwarven settlements and supply lines. The troggs have encroached directly on the southern gateway and attacked Ironforge patrols, threatening to overrun the King's territory if left unchecked."
+   "answer": "A recent trogg uprising threatens dwarven settlements and supply lines. Troggs have reached the southern gateway and attacked Ironforge patrols, putting the King’s territory at risk."
   },
   {
    "q": "Why does Rugelfuss brush off military formalities?",
@@ -58,21 +58,21 @@
     "rugelfuss personality",
     "at ease race"
    ],
-   "answer": "Rugelfuss views unnecessary salute and ceremony as dangerous distractions when the King's lands are actively besieged. He demands immediate, practical action over protocol."
+   "answer": "Rugelfuss sets ceremony aside because he sees it as a distraction while the King’s lands face attack. He wants practical action at the border."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "For dwarves, Captain Rugelfuss represents the steadfast resolve of Ironforge's military, standing guard over ancestral mountain passes against ancestral subterranean foes."
+   "text": "As a dwarf, you can see Ironforge’s resolve in Captain Rugelfuss’s defense of ancestral mountain passes against subterranean foes."
   },
   {
    "target": "faction:Alliance",
-   "text": "Rugelfuss reminds Alliance travelers that while major armies fight elsewhere, defending the domestic homelands from savage incursions is critical to the alliance's survival."
+   "text": "As an Alliance traveler, you know that guarding the homelands from savage incursions matters while armies fight elsewhere."
   },
   {
    "target": "class:Warrior",
-   "text": "Warriors will find common ground in Rugelfuss's no-nonsense tactical demeanor and straightforward mandate to clear the frontlines with blade and shield."
+   "text": "As a warrior, you may recognize Rugelfuss’s direct approach: clear the frontlines with blade and shield."
   }
  ],
  "keywords": [
@@ -94,5 +94,6 @@
  ],
  "attribution": [
   "Captain Rugelfuss"
- ]
+ ],
+ "style": 1
 }

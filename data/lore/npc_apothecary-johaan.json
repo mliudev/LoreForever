@@ -8,16 +8,16 @@
   "wiki": "Apothecary Johaan",
   "refs": 7
  },
- "summary": "Apothecary Johaan is an alchemist and researcher of the Royal Apothecary Society stationed in Brill. Tasked by his order and Lady Sylvanas, he conducts lethal experiments on local flora and fauna to develop the Forsaken's new plague.",
+ "summary": "In Brill, Apothecary Johaan works to develop a plague for the Forsaken. The Royal Apothecary Society and Lady Sylvanas have charged him with lethal experiments on local plants and animals.",
  "sections": [
   {
    "title": "A Servant of the Society",
-   "body": "Working openly out of the Forsaken settlement of Brill in Tirisfal Glades, Apothecary Johaan represents the scientific ambitions of the newly formed Royal Apothecary Society. Like his colleagues across Lordaeron, Johaan operates under direct orders to craft biological and alchemical weapons capable of securing the Forsaken's fragile future against the living and the Scourge alike.",
+   "body": "Apothecary Johaan works openly from Brill in Tirisfal Glades for the newly formed Royal Apothecary Society. Like his colleagues across Lordaeron, he follows direct orders to create biological and alchemical weapons. The Forsaken hope these weapons will secure their fragile future against the living and the Scourge alike.",
    "spoiler": 0
   },
   {
    "title": "Brewing the New Plague",
-   "body": "Johaan coordinates early field trials for what the Society calls the 'New Plague'. Using raw materials harvested from Tirisfal's corrupted wildlife and agricultural blights\u2014such as darkhound blood, murloc scales, spider venom and stolen farm pumpkins\u2014he tests toxin mixtures and evaluates their potency on living subjects before dispatching results down south to Silverpine Forest.",
+   "body": "Apothecary Johaan leads early field trials of the Society's New Plague. He uses materials from Tirisfal's corrupted wildlife and blighted farms, including darkhound blood, murloc scales, spider venom and stolen farm pumpkins. He tests the mixtures on living subjects, measures their potency and sends his findings south to Silverpine Forest.",
    "spoiler": 1
   }
  ],
@@ -29,7 +29,7 @@
     "who is johaan",
     "johaan brill"
    ],
-   "answer": "Apothecary Johaan is an alchemical researcher stationed in Brill. He belongs to the Royal Apothecary Society and directs young Forsaken champions to gather vile reagents across Tirisfal Glades."
+   "answer": "Apothecary Johaan researches alchemy in Brill for the Royal Apothecary Society. He directs young Forsaken champions to gather vile reagents across Tirisfal Glades."
   },
   {
    "q": "Where can I find Apothecary Johaan?",
@@ -38,7 +38,7 @@
     "where is johaan",
     "find johaan"
    ],
-   "answer": "He can be found standing outside near the gallows and alchemical apparatus in the town of Brill, just north of the Undercity in Tirisfal Glades."
+   "answer": "You can find Apothecary Johaan outside in Brill, near the gallows and alchemical apparatus. The town lies just north of the Undercity in Tirisfal Glades."
   },
   {
    "q": "What is Johaan working on?",
@@ -47,7 +47,7 @@
     "what does johaan do",
     "johaan plague"
    ],
-   "answer": "Johaan is formulating and refining early strains of the New Plague, testing biological agents and venomous extracts from Tirisfal's blighted fields and beasts."
+   "answer": "Johaan is developing early strains of the New Plague. He tests biological agents and venomous extracts from Tirisfal's blighted fields and beasts."
   },
   {
    "q": "What does he do with the plague samples?",
@@ -55,7 +55,7 @@
     "delivery to silverpine",
     "where do plague samples go"
    ],
-   "answer": "Once test mixtures are concocted and their lethality assessed, Johaan packages the samples and sends couriers to deliver them to allied apothecaries stationed in Silverpine Forest."
+   "answer": "After mixing samples and assessing their lethality, Johaan sends couriers to deliver them to allied apothecaries in Silverpine Forest."
   },
   {
    "q": "What organization does Johaan belong to?",
@@ -63,7 +63,7 @@
     "johaan faction",
     "who does johaan work for"
    ],
-   "answer": "He is an active member of the Royal Apothecary Society, the alchemical guild serving Lady Sylvanas Windrunner and the Forsaken in the Undercity."
+   "answer": "Johaan belongs to the Royal Apothecary Society, the alchemical guild that serves Lady Sylvanas Windrunner and the Forsaken in the Undercity."
   },
   {
    "q": "Why is he interested in the local farms?",
@@ -71,17 +71,17 @@
     "fields of grief johaan",
     "why send me to farms"
    ],
-   "answer": "Human farms like the Solliden Farmstead and the nearby pumpkin patches grow pumpkins that provide raw reagents for his experimental toxins."
+   "answer": "Human farms such as the Solliden Farmstead and nearby pumpkin patches grow pumpkins that Johaan uses as raw reagents for experimental toxins."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "Johaan's research is central to the Forsaken cause, developing the very weapons needed to carve out a permanent homeland free of Scourge and living threats."
+   "text": "As an undead, you belong to the Forsaken cause Johaan's research serves. He develops weapons meant to secure a permanent homeland free of the Scourge and living threats."
   },
   {
    "target": "faction:Horde",
-   "text": "While orcs and tauren might balk at alchemical blights, Johaan's deadly concoctions serve the strategic security of the Horde's foothold in the Eastern Kingdoms."
+   "text": "As a member of the Horde, you may see how Johaan's deadly concoctions protect its foothold in the Eastern Kingdoms. Orcs and tauren might balk at alchemical blights."
   }
  ],
  "keywords": [
@@ -105,5 +105,6 @@
  ],
  "attribution": [
   "Apothecary Johaan"
- ]
+ ],
+ "style": 1
 }

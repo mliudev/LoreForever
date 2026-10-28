@@ -21,16 +21,16 @@
    "A Husband's Revenge"
   ]
  },
- "summary": "High Executor Hadrec sends an adventurer to Brill carrying a recovered wedding band inscribed to a woman named Deliah. Magistrate Sevren consults town records to identify her origins, seeking clues about her life and the person who gave her the ring.",
+ "summary": "High Executor Hadrec sends you across the border to Brill with a ring bearing Deliah's name. Magistrate Sevren searches the town records to learn who she was and where the ring came from.",
  "sections": [
   {
    "title": "A Keepsake in Silverpine",
-   "body": "While investigating the Rot Hide gnolls infesting the northern edges of Silverpine Forest, scouts uncovered an engraved ring bearing the name Deliah. Rather than discard the trinket, High Executor Hadrec directs you to take it back across the border to Brill. As Magistrate Sevren maintains the civic records and burial registers of the Tirisfal region, he is the most likely official to identify who she was\u2014even if Hadrec remains deeply cynical about whether anyone among the Forsaken still cares.",
+   "body": "Scouts found a ring engraved with Deliah's name while investigating Rot Hide gnolls in northern Silverpine Forest. High Executor Hadrec sends you across the border to Brill with the ring. Magistrate Sevren keeps Tirisfal's civic records and burial registers, so he may identify Deliah. Hadrec doubts anyone among the Forsaken still cares about such keepsakes.",
    "spoiler": 0
   },
   {
    "title": "Stolen from the Soil",
-   "body": "Upon receiving the ring in Brill, Magistrate Sevren confirms that Deliah was indeed a resident who died and was interred within the town's mass grave. Finding her jewelry among the Rot Hides in Silverpine reveals a sinister desecration: the plague-warped gnolls have been raiding mass graves and spiriting corpses southward for Scourge experiments, leaving Sevren eager to see the gnolls wiped out.",
+   "body": "Magistrate Sevren confirms Deliah lived in Brill and was buried in the town's mass grave. Her ring among the Rot Hides points to a grim theft: the plague-warped gnolls have been raiding mass graves and carrying corpses south for Scourge experiments. Sevren wants the gnolls wiped out.",
    "spoiler": 1
   }
  ],
@@ -42,7 +42,7 @@
     "deliah lore",
     "deliah ring"
    ],
-   "answer": "Deliah is the name engraved on the recovered ring. Hadrec asks you to consult Magistrate Sevren's records in Brill to learn who she was."
+   "answer": "Deliah is the name engraved on the recovered ring. Hadrec sends you to Magistrate Sevren's records in Brill to learn who she was."
   },
   {
    "q": "Why was Deliah's ring found in Silverpine Forest?",
@@ -51,7 +51,7 @@
     "rot hide ring",
     "how did ring get to silverpine"
    ],
-   "answer": "The ring was recovered during the Rot Hide investigation. Sevren's records may help explain whose keepsake it was and how it came to Silverpine."
+   "answer": "The ring turned up during the investigation of the Rot Hide gnolls. Sevren's records may reveal whose keepsake it was and how it reached Silverpine."
   },
   {
    "q": "Why does High Executor Hadrec doubt the ring matters?",
@@ -60,7 +60,7 @@
     "why hadrec cynical",
     "forsaken feelings"
    ],
-   "answer": "Hadrec notes that undeath often strips away mortal attachments. He assumes Deliah's lover is either dead or, if risen as Forsaken, entirely indifferent to mortal vows and memories."
+   "answer": "Hadrec says undeath often strips away mortal attachments. He assumes Deliah's lover is dead or, if risen as Forsaken, indifferent to mortal vows and memories."
   },
   {
    "q": "What role does Magistrate Sevren play in this quest?",
@@ -69,7 +69,7 @@
     "magistrate sevren role",
     "who is sevren"
    ],
-   "answer": "As the magistrate of Brill, Sevren maintains the local municipal records and registers of the dead, allowing him to confirm Deliah's identity and burial site."
+   "answer": "Magistrate Sevren keeps Brill's municipal records and registers of the dead. He can confirm Deliah's identity and burial place."
   },
   {
    "q": "Are the Rot Hide gnolls allied with the Scourge?",
@@ -78,7 +78,7 @@
     "gnoll scourge",
     "silverpine gnolls"
    ],
-   "answer": "Yes. The Rot Hide gnolls of Silverpine Forest were infected by the Scourge plague, operating under dark influences and collecting corpses for necromantic purposes."
+   "answer": "Yes. The Scourge plague infected the Rot Hide gnolls in Silverpine Forest. Dark influences guide them as they gather corpses for necromantic purposes."
   },
   {
    "q": "Where does this investigation lead next?",
@@ -87,17 +87,17 @@
     "next quest",
     "deliah continuation"
    ],
-   "answer": "Magistrate Sevren consults Brill's records to identify Deliah. What he learns provides the next lead in the investigation."
+   "answer": "Magistrate Sevren searches Brill's records for Deliah's identity. What he learns gives the investigation its next lead."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "For the Forsaken, Deliah's ring is a quiet reminder of the fragile threads connecting their living pasts to their grim, cold present in Lordaeron."
+   "text": "As Forsaken, you can see Deliah's ring as a quiet link between a living past and Lordaeron's grim, cold present."
   },
   {
    "target": "faction:Horde",
-   "text": "Stopping the Rot Hide gnolls from desecrating Horde-controlled graves in Tirisfal is a matter of territorial security as much as retribution."
+   "text": "As Horde, you have reason to stop Rot Hide gnolls from desecrating graves in Horde-controlled Tirisfal, for the territory's security and in retribution."
   }
  ],
  "keywords": [
@@ -124,5 +124,6 @@
  ],
  "attribution": [
   "The Engraved Ring"
- ]
+ ],
+ "style": 1
 }

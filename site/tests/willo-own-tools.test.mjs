@@ -97,13 +97,14 @@ test("a plain question with no word of writing is never written down, whatever s
   assert.match(page(user), /Route to Westfall/);
 });
 
-test("words the rules know keep exactly the rules' tools and the required call", async () => {
+// LOR-856 A1: a word rule that matched took her other tools away, so "note that…" could never also be "and keep it".
+test("words the rules know keep the required call, and never narrow her tools", async () => {
   const { user, token } = await linked();
   together = () => calls("notebook_add", { answer: "Noted: Thor.", kind: "note", items: ["Flight master: Thor"] });
   await ask(token, "Note that the flight master is Thor");
   assert.match(page(user), /Thor/);
-  assert.deepEqual([asked[0].choice, asked[0].tools.includes("answer_only"), asked[0].tools.includes("notebook")],
-    ["required", true, false], JSON.stringify(asked));
+  assert.deepEqual([asked[0].choice, asked[0].tools.includes("answer_only"), asked[0].tools.includes("keeps")],
+    ["required", true, true], JSON.stringify(asked));
 });
 
 test("a line that says it's written, with nothing called, never stands", async () => {
@@ -137,6 +138,49 @@ test("lines are named by their NOTEBOOK numbers, and a line that isn't there is 
   together = () => calls("notebook", { answer: "Gone.", op: "remove", lines: [2] });
   await ask(token, "Take the wolf pelts off my list");
   assert.match(page(user), /Linen cloth/);
+});
+
+// LOR-856 B1: a name heard as two words ("shadow glen", "hog her") asked "Do you mean…?" for her right call.
+test("a line named as speech heard it, split in two or a letter off, is the line they mean", async () => {
+  const { user, token } = await linked();
+  seed(user, "## To do\n- [ ] Gather all the quests in Shadowglen\n- [ ] Kill Hogger\n- [ ] Linen cloth for bags\n");
+  const naming = line => body => {
+    const n = Number(new RegExp(`(\\d+)\\. \\[ \\] ${line}`).exec(JSON.stringify(body.messages))[1]);
+    return body.tools.some(t => t.function.name === "notebook_check") ? calls("notebook_check", { answer: "Done.", items: [n] })
+      : calls("notebook", { answer: "Done.", op: "check", lines: [n] });
+  };
+  together = naming("Gather all the quests in Shadowglen");
+  await ask(token, "tick off the shadow glen one", { style: "spoken" });
+  assert.match(page(user), /- \[x\] Gather all the quests in Shadowglen/);
+  together = naming("Kill Hogger");
+  await ask(token, "I killed hog her, tick him off", { style: "spoken" });
+  assert.match(page(user), /- \[x\] Kill Hogger/);
+  assert.match(page(user), /- \[ \] Linen cloth/);
+});
+
+// LOR-856 A6 (Mike's QA, 10/27): "tick them all" and "tick the all the to-do's off", with her call naming every open
+// line, got "Do you mean…? Say yes" and nothing ticked.
+test("asked to tick them all, her call naming every open line ticks them; words naming another line still don't", async () => {
+  const { user, token } = await linked();
+  const numbered = body => [...JSON.stringify(body.messages).matchAll(/(\d+)\. \[ \] /g)].map(m => Number(m[1]));
+  // The word rules' own tool when they chose it, else her grouped one.
+  const naming = op => body => body.tools.some(t => t.function.name === `notebook_${op}`)
+    ? calls(`notebook_${op}`, { answer: "Done.", items: numbered(body) })
+    : calls("notebook", { answer: "Done.", op, lines: numbered(body) });
+  together = naming("check");
+  seed(user, "## To do\n- [ ] Gather all the quests in Shadowglen\n");
+  await ask(token, "Tick the all the to-do's off.");
+  assert.match(page(user), /- \[x\] Gather all the quests/);
+  env.DB.sqlite.exec("DELETE FROM notebook_pages");
+  seed(user, "## To do\n- [ ] Kill Hogger\n- [ ] Linen cloth\n- [ ] Visit the paladin trainer\n");
+  await ask(token, "Tick them all");
+  assert.doesNotMatch(page(user), /- \[ \]/);
+  // Words that name something not there: never every line.
+  env.DB.sqlite.exec("DELETE FROM notebook_pages");
+  seed(user, "## To do\n- [ ] Kill Hogger\n");
+  together = naming("remove");
+  await ask(token, "Take the wolf pelts off my list");
+  assert.match(page(user), /Kill Hogger/);
 });
 
 test("a rename of a note that isn't there is never written as a new one: she offers it, and a yes adds it", async () => {
@@ -241,6 +285,28 @@ test("asked to hear their reminders in words the rules miss, the site says them 
   const reply = (await ask(token, "Is anything coming up that you'll tell me about?")).at(-1);
   assert.match(reply.answer, /no reminders/i);
   assert.match(reply.answer, /Húrin/);
+});
+
+// LOR-856 A5 (Mike's QA, 10/27): "what happened to all the other reminders and to do's" got only "No reminders are
+// waiting".
+test("asked about their reminders and the rest of the notebook, her answer from it stands, whether or not she shows reminders", async () => {
+  const { user, token } = await linked();
+  seed(user, "## To do\n- [ ] Gather all the quests in Shadowglen\n");
+  const words = "Just one to-do is there: gather all the quests in Shadowglen. No reminders.";
+  const question = "What happened to all the other reminders and to do's.";
+  together = () => calls("answer_only", { answer: words });
+  assert.match((await ask(token, question)).at(-1).answer, /shadowglen/i);
+  together = () => calls("notebook", { answer: words, op: "show", show: "reminders" });
+  assert.match((await ask(token, question)).at(-1).answer, /shadowglen/i);
+  // Asked only for their reminders, the site's own words.
+  assert.match((await ask(token, "What reminders do I have?")).at(-1).answer, /no reminders/i);
+  // "Can you check again?" about their to-dos is asked as itself, never as the question before it: asked that, she
+  // repeated her claim of three (Mike's QA, 10/27).
+  const sent = [];
+  together = body => { sent.push(JSON.stringify(body.messages)); return calls("answer_only", { answer: words }); };
+  const turns = [{ player: "Put three to-dos on my list", willo: "Three to-dos, written: one, two and three." }];
+  await ask(token, "I don't see the to do's. Can you check again?", { turns });
+  assert.match(sent.at(-1), /QUESTION\\n[^"]*check again/i);
 });
 
 test("a long notebook still shows her the line they name, so it can be ticked off", async () => {

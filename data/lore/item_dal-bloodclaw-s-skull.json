@@ -10,11 +10,11 @@
    "quest:1054"
   ]
  },
- "summary": "Dal Bloodclaw's Skull is taken from the chieftain of the Thistlefur furbolg in northern Ashenvale. Brought to Raene Wolfrunner in Astranaar, it serves as tangible proof that an imminent attack on the night elf settlement has been averted.",
+ "summary": "In northern Ashenvale, Dal Bloodclaw's Skull marks the end of a threat to Astranaar. Raene Wolfrunner receives it as proof that an attack on the night elf settlement has been averted.",
  "sections": [
   {
    "title": "A Chieftain's Downfall",
-   "body": "The Thistlefur furbolgs residing north of Astranaar have grown rapidly in number and aggression, corrupted alongside much of Ashenvale's ancient forests. Fearing that the growing tribe would soon amass the courage to march directly on Astranaar, the night elf sentinel Raene Wolfrunner ordered the culling of their ranks and the death of their leader, Dal Bloodclaw. Claiming Dal Bloodclaw's Skull serves not as a trophy of petty vengeance, but as grim and undeniable evidence that the tribe's leadership has been shattered, buying the defenders of Astranaar precious time.",
+   "body": "The Thistlefur furbolgs north of Astranaar have grown in number and aggression. Like much of Ashenvale's ancient forest, they have been corrupted. Raene Wolfrunner, a night elf sentinel, fears they will soon march on Astranaar. She orders their ranks culled and their leader, Dal Bloodclaw, slain. His skull gives grim proof that the tribe's leadership has been shattered, buying Astranaar's defenders precious time.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "who is bloodclaw",
     "thistlefur chief"
    ],
-   "answer": "Dal Bloodclaw was the chieftain of the Thistlefur furbolgs dwelling in Thistlefur Hold, just north of Astranaar. Under his leadership, the hostile tribe multiplied rapidly and posed a looming threat to the nearby night elf outpost."
+   "answer": "Dal Bloodclaw led the Thistlefur furbolgs at Thistlefur Hold, just north of Astranaar. The hostile tribe grew rapidly under his leadership and threatened the nearby night elf outpost."
   },
   {
    "q": "Why does Raene Wolfrunner want the skull?",
@@ -35,7 +35,7 @@
     "raene wolfrunner skull",
     "proof of death"
    ],
-   "answer": "Raene Wolfrunner requires proof that the Thistlefur chieftain has been slain. With Dal Bloodclaw dead, the night elves hope the disarray among the surviving furbolgs will suppress any organized plans to assault Astranaar."
+   "answer": "Raene Wolfrunner wants proof that the Thistlefur chieftain is dead. The night elves hope the surviving furbolgs will fall into disarray and lose any organized plans to attack Astranaar."
   },
   {
    "q": "Why are the Thistlefur furbolgs so hostile?",
@@ -44,17 +44,17 @@
     "furbolg corruption",
     "thistlefur mad"
    ],
-   "answer": "Like many furbolg tribes across Ashenvale, the Thistlefurs have succumbed to the rampant corruption lingering throughout the forest, transforming them from peaceful woodland neighbors into violent and territorial threats."
+   "answer": "Like many furbolg tribes in Ashenvale, the Thistlefurs have succumbed to corruption spreading through the forest. They have become violent and territorial, threatening those who once lived beside them."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "For the night elves, putting down fallen furbolg leaders is a sorrowful necessity; ancient allies have been twisted by corruption and now directly endanger settlements like Astranaar."
+   "text": "As a night elf, you may see the sorrow in defeating fallen furbolg leaders. Corruption has twisted ancient allies, and they now threaten settlements such as Astranaar."
   },
   {
    "target": "faction:Alliance",
-   "text": "Striking down Dal Bloodclaw secures Astranaar's northern flank, ensuring the Alliance's primary sanctuary in central Ashenvale remains defended."
+   "text": "As an Alliance member, you help secure Astranaar's northern flank. The settlement is the Alliance's main sanctuary in central Ashenvale."
   }
  ],
  "keywords": [
@@ -79,5 +79,6 @@
  "attribution": [
   "Dal Bloodclaw's Skull",
   "Culling the Threat"
- ]
+ ],
+ "style": 1
 }

@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Pools of Vision"
  },
- "summary": "The Pools of Vision are a subterranean cavern nestled beneath Spirit Rise in Thunder Bluff. Marked by still waters and dim caverns, this secluded subterranean space serves as the primary enclave for the Forsaken within the tauren capital.",
+ "summary": "Forsaken gather in the Pools of Vision, beneath Spirit Rise in Thunder Bluff. Still waters and dim caverns shelter their enclave within the tauren capital.",
  "sections": [
   {
    "title": "A Haven Beneath the Mesa",
-   "body": "While the sunlit peaks of Thunder Bluff belong to the wind, earth, and sky, the Pools of Vision plunge directly beneath Spirit Rise into shadowy seclusion. Accessible from a discreet cave path off the bridge leading to the rise, this subterranean grotto offers subterranean respite quite unlike the open-air lodges above. Here, misty waters pool in the dark, creating an isolated atmosphere where Horde spellcasters gather far from the bustling central mesas.",
+   "body": "The Pools of Vision lie beneath Spirit Rise, below Thunder Bluff's sunlit peaks. A cave path beside the bridge to the rise leads down into the grotto. Misty waters fill its shadowed chambers, where Horde spellcasters gather apart from the open-air lodges above.",
    "spoiler": 0
   },
   {
    "title": "The Undead Outpost",
-   "body": "Within Thunder Bluff, the Pools of Vision function as the de facto base of operations for the Forsaken. Travelers from the eastern continent find kindred souls here: undead priests practicing their shadowed arts, mages conjuring arcane portals, and emissaries of the Defilers seeking recruits for their campaigns in the Arathi Highlands. Whether tucked away by tauren skepticism or by the Forsaken's own natural preference for the dark, this quiet refuge bridges Lordaeron's undead with their Kalimdor allies.",
+   "body": "Forsaken make their base within the Pools of Vision. Undead priests practice shadowed arts, mages conjure arcane portals, and Defiler emissaries seek recruits for their campaigns in the Arathi Highlands. Whether tauren skepticism or the Forsaken's own preference for darkness brought them here, the cavern links Lordaeron's undead with their allies in Kalimdor.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "pools of vision entrance",
     "where are pools of vision"
    ],
-   "answer": "The entrance is a cave mouth located on Spirit Rise, situated immediately to the right just after crossing the wooden rope bridge leading from the lower mesa."
+   "answer": "Cross the wooden rope bridge from the lower mesa to Spirit Rise. The cave mouth is immediately to your right."
   },
   {
    "q": "Why are the Forsaken living down here?",
@@ -37,7 +37,7 @@
     "why forsaken in cave",
     "thunder bluff undead"
    ],
-   "answer": "The cavern serves as the central hub for Forsaken stationed in Thunder Bluff. It provides shelter away from the harsh Kalimdor sunlight and accommodates practices that may make traditional tauren spiritualists uneasy."
+   "answer": "The cavern is the central hub for Forsaken stationed in Thunder Bluff. Its shelter keeps them from Kalimdor's harsh sunlight and gives them room for practices that may unsettle traditional tauren spiritualists."
   },
   {
    "q": "What services can you find inside the Pools of Vision?",
@@ -46,7 +46,7 @@
     "what is in pools of vision",
     "pools of vision trainers"
    ],
-   "answer": "The cavern hosts trainers and practitioners for priests and mages, along with emissaries for the Defilers who muster soldiers for the war effort in the Arathi Highlands."
+   "answer": "Priests and mages train and practice in the cavern. Defiler emissaries also muster soldiers for the war effort in the Arathi Highlands."
   },
   {
    "q": "Where do mages arrive when they teleport to Thunder Bluff?",
@@ -54,17 +54,17 @@
     "mage teleport thunder bluff spot",
     "tb teleport location"
    ],
-   "answer": "Mages casting a teleport or opening a portal to Thunder Bluff manifest directly inside the sheltered waters of the Pools of Vision beneath Spirit Rise."
+   "answer": "A teleport or portal to Thunder Bluff brings mages directly to the sheltered waters of the Pools of Vision beneath Spirit Rise."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "For the Forsaken traversing the plains of Kalimdor, this cavern provides a familiar, shaded haven complete with arcane resources, priestly guidance, and fellowship."
+   "text": "As Forsaken crossing Kalimdor's plains, you can find familiar shade, arcane resources, priestly guidance, and fellowship in this cavern."
   },
   {
    "target": "class:Mage",
-   "text": "The cavern anchors the arcane ley connections to the city; any teleportation spell weaving into Thunder Bluff delivers its caster right beside these secluded pools."
+   "text": "As a mage, you arrive beside these secluded pools when you teleport to Thunder Bluff; the cavern anchors the arcane ley connections to the city."
   }
  ],
  "keywords": [
@@ -85,5 +85,6 @@
  ],
  "attribution": [
   "Pools of Vision"
- ]
+ ],
+ "style": 1
 }

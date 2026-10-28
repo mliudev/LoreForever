@@ -8,11 +8,11 @@
   "wiki": "Chef Breanna",
   "refs": 1
  },
- "summary": "Chef Breanna is the head cook at Lakeshire's local dining house in the Redridge Mountains. Tasked with feeding the garrison of Stormwind soldiers stationed to protect the embattled lakeside town, she relies on hearty, local ingredients to keep the defenders on their feet.",
+ "summary": "In Lakeshire, Chef Breanna feeds the Stormwind soldiers guarding the Redridge Mountains. She leads the town's kitchen and uses hearty local ingredients to keep the defenders on their feet.",
  "sections": [
   {
    "title": "Feeding Lakeshire's Defenders",
-   "body": "Operating out of a restaurant house in northwestern Lakeshire alongside her assistants Crystal Boughman and Gretchen Vogel, Chef Breanna bears the heavy responsibility of provisioning the entire local battalion. With Lakeshire besieged by Blackrock orcs, gnolls, and murlocs, maintaining the strength and morale of Stormwind's understaffed garrison is essential. Her signature dish, Redridge Goulash, relies on the wild game and beasts roaming the surrounding ridges, turning dangerous wilderness predators into fuel for the town's weary guard.",
+   "body": "Chef Breanna works from a restaurant house in northwestern Lakeshire with her assistants, Crystal Boughman and Gretchen Vogel. She is responsible for feeding the entire local battalion. Blackrock orcs, gnolls, and murlocs besiege the town, and Stormwind's understaffed garrison must stay strong. Her signature Redridge Goulash uses wild game and beasts from the surrounding ridges to feed the weary guards.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "breanna lakeshire",
     "who is breanna"
    ],
-   "answer": "Chef Breanna is the town cook in Lakeshire, running the local kitchen house in the northwestern corner of the settlement. She is tasked with feeding the Stormwind soldiers defending the Redridge Mountains."
+   "answer": "Chef Breanna runs the kitchen house in the northwestern corner of Lakeshire. She feeds the Stormwind soldiers defending the Redridge Mountains."
   },
   {
    "q": "What does Chef Breanna need help with?",
@@ -33,7 +33,7 @@
     "redridge goulash ingredients",
     "what does she want"
    ],
-   "answer": "She needs local game meat to brew Redridge Goulash for the garrison. Adventurers help her by gathering tough condor meat, goretusk snouts, and crisp spider meat from the wilderness surrounding Lakeshire."
+   "answer": "Chef Breanna needs local game meat to make Redridge Goulash for the garrison. You can gather tough condor meat, goretusk snouts, and crisp spider meat in the wilderness around Lakeshire."
   },
   {
    "q": "Who works with Chef Breanna?",
@@ -42,17 +42,17 @@
     "crystal boughman",
     "gretchen vogel"
    ],
-   "answer": "Her bustling establishment employs Crystal Boughman and Gretchen Vogel, who help her manage the restaurant house and tend to hungry townsfolk and soldiers."
+   "answer": "Crystal Boughman and Gretchen Vogel work with Chef Breanna at her restaurant house. They help manage the establishment and tend to hungry townsfolk and soldiers."
   }
  ],
  "angles": [
   {
    "target": "profession:Cooking",
-   "text": "Breanna's resourceful recipe for Redridge Goulash showcases how a frontier chef can turn dangerous local predators\u2014spiders, condors, and goretusks\u2014into a hearty meal to sustain a military outpost."
+   "text": "Breanna's Redridge Goulash uses spiders, condors, and goretusks from the surrounding wilds to make a hearty meal for a military outpost."
   },
   {
    "target": "faction:Alliance",
-   "text": "Without Chef Breanna provisioning the soldiers holding the bridge and town perimeter, Lakeshire's strained garrison would quickly succumb to exhaustion against the relentless orc and gnoll incursions."
+   "text": "Chef Breanna feeds the soldiers holding Lakeshire's bridge and town perimeter. Without her cooking, the strained garrison could quickly tire against the relentless orc and gnoll incursions."
   }
  ],
  "keywords": [
@@ -72,5 +72,6 @@
  ],
  "attribution": [
   "Chef Breanna"
- ]
+ ],
+ "style": 1
 }

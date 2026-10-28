@@ -17,16 +17,16 @@
   "wiki": "Mennet Carkad (quest)",
   "chain": []
  },
- "summary": "Mennet Carkad is an introductory rogue quest in the Undercity that brings promising operatives into the fold of the Deathstalkers. Directed by Marion Call, aspiring assassins are summoned to report directly to Mennet Carkad deep within the Rogues' Quarter.",
+ "summary": "In the Undercity, Marion Call sends you to report to Mennet Carkad. He waits deep in the Rogues' Quarter, where promising operatives are tested for the Deathstalkers.",
  "sections": [
   {
    "title": "A Summons from the Shadows",
-   "body": "Within the dark corridors of the Undercity, word travels quietly among the Forsaken's covert operatives. When a scout or assassin catches the eye of the higher leadership, an invitation is issued. Marion Call passes down word that Mennet Carkad, a prominent figure among the rogue handlers, has taken personal notice. Given the lethal reputation of the Forsaken intelligence apparatus, ignoring such a directive is not considered a viable option.",
+   "body": "Marion Call has a summons for you from Mennet Carkad. In the Undercity, covert operatives draw the notice of higher leadership, and Marion passes along word when a scout or assassin is invited to report. The Forsaken's intelligence apparatus has a lethal reputation, so ignoring its orders is no real choice.",
    "spoiler": 0
   },
   {
    "title": "Joining the Deathstalkers",
-   "body": "Mennet Carkad waits in the shadowy alcoves of the Rogues' Quarter, watching over recruits and evaluating their readiness. Those who heed his call are not simply joining an ordinary guild of thieves; they are being tested for entry into the Deathstalkers, the dreaded espionage and assassination arm of the Forsaken. Swift obedience is merely the first baseline test for anyone seeking to serve the Dark Lady from the shadows.",
+   "body": "Mennet Carkad waits in the Rogues' Quarter, watching recruits and judging whether they are ready. Those who answer his call are tested for entry into the Deathstalkers, the Forsaken's feared arm of espionage and assassination. Obedience is the first test for anyone who seeks to serve the Dark Lady from the shadows.",
    "spoiler": 0
   }
  ],
@@ -37,7 +37,7 @@
     "mennet carkad lore",
     "who is carkad"
    ],
-   "answer": "Mennet Carkad is a rogue trainer and Deathstalker handler operating within the Rogues' Quarter of the Undercity. He oversees promising covert agents and assigns critical missions on behalf of the Forsaken leadership."
+   "answer": "Mennet Carkad trains rogues and handles Deathstalkers in the Undercity's Rogues' Quarter. He oversees promising covert agents and assigns critical work for the Forsaken leadership."
   },
   {
    "q": "What happens if someone ignores Mennet Carkad's summons?",
@@ -45,7 +45,7 @@
     "ignoring carkad",
     "what happens if you ignore summons"
    ],
-   "answer": "Marion Call warns that you would not want to know what happened to those who ignored Carkad's call. She leaves their exact fate unexplained."
+   "answer": "Marion Call warns that you would not want to know what happened to those who ignored Carkad's call. She does not explain their exact fate."
   },
   {
    "q": "Who are the Deathstalkers?",
@@ -53,7 +53,7 @@
     "deathstalker lore",
     "what are the deathstalkers"
    ],
-   "answer": "The Deathstalkers are the elite order of rogues, spies, and assassins serving the Forsaken. Operating from the shadows of the Undercity, they eliminate high-value targets, gather intelligence, and secure Lordaeron from enemies like the Scarlet Crusade and the Scourge."
+   "answer": "The Deathstalkers are an elite order of rogues, spies, and assassins who serve the Forsaken. From the shadows of the Undercity, they eliminate high-value targets, gather intelligence, and defend Lordaeron from enemies such as the Scarlet Crusade and the Scourge."
   },
   {
    "q": "Where can I find Mennet Carkad?",
@@ -61,7 +61,7 @@
     "carkad location",
     "where is mennet carkad"
    ],
-   "answer": "Mennet Carkad is located in the Rogues' Quarter of the Undercity, typically surrounded by other covert operatives, trainers, and shadowcraft supplies."
+   "answer": "You can find Mennet Carkad in the Undercity's Rogues' Quarter, among covert operatives, trainers, and shadowcraft supplies."
   },
   {
    "q": "Who gives the quest to seek out Mennet Carkad?",
@@ -69,7 +69,7 @@
     "who starts this quest",
     "marion call quest"
    ],
-   "answer": "The task is assigned by Marion Call in Brill's Gallows' End Tavern, who notices your burgeoning skills and warns you that Carkad expects prompt obedience."
+   "answer": "Marion Call sends you to find Mennet Carkad from Brill's Gallows' End Tavern. She has noticed your growing skills and warns that Carkad expects prompt obedience."
   },
   {
    "q": "What comes after reporting to Mennet Carkad?",
@@ -77,17 +77,17 @@
     "next quest after carkad",
     "what does carkad want"
    ],
-   "answer": "Reporting to Mennet Carkad immediately leads into direct service for the Deathstalkers, starting with tasks designed to prove your cunning and loyalty to the Forsaken cause."
+   "answer": "Reporting to Mennet Carkad leads directly into service for the Deathstalkers. Your first duties are meant to prove your cunning and loyalty to the Forsaken cause."
   }
  ],
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "This summons marks your transition from an unproven cutpurse into a recognized asset of the Deathstalkers, the Forsaken's elite shadow network."
+   "text": "As a rogue, you answer a summons that marks your passage from unproven cutpurse to recognized asset of the Deathstalkers, the Forsaken's elite shadow network."
   },
   {
    "target": "race:Undead",
-   "text": "The Deathstalkers are essential to the survival of the Forsaken, hunting Scarlet zealots and Scourge remnants while protecting Queen Sylvanas from hidden threats."
+   "text": "As an undead, you know the Deathstalkers help keep the Forsaken alive. They hunt Scarlet zealots and Scourge remnants, and protect Queen Sylvanas from hidden threats."
   }
  ],
  "keywords": [
@@ -106,5 +106,6 @@
  ],
  "attribution": [
   "Mennet Carkad (quest)"
- ]
+ ],
+ "style": 1
 }

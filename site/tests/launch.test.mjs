@@ -17,7 +17,7 @@ import { onRequest as speakApi } from "../functions/api/companion/speak.js";
 import { findOrCreateUser, startSession, setup, deleteUser } from "../lib/accounts.js";
 import { startLink, decideLink, claimToken } from "../lib/devices.js";
 import { setupBilling, planFor, addUserSpend, userSpend, launchNow, previewDeploy, preorderText, claimOf,
-  LAUNCH_WEEK_BRAKE_MICRO, LEGEND_BEST_PER_MONTH, VOICE_PACK, TRIAL_MIN_SECONDS, poolWindow }
+  LAUNCH_WEEK_BRAKE_MICRO, LEGEND_BEST_PER_MONTH, VOICE_PACK, TRIAL_MIN_SECONDS, poolWindow, PLANS }
   from "../lib/billing.js";
 import { allowance, answerBudgetUsed } from "../lib/companion-answers.js";
 
@@ -134,24 +134,24 @@ test("the beta's free Hero months run to the launch, and no new one starts (LOR-
   const { user } = await player("visitor");
   const at = async (ms, e = env, who = user) => {
     const p = await planFor(e, who.id, new Date(ms));
-    return [p.id, p.answersPerDay, p.launch];
+    return [p.id, p.unlimited ? "unlimited" : p.answersPerDay, p.launch];
   };
   await startFreeMonth(user, START + HOUR);
-  assert.deepEqual(await at(START + 2 * HOUR), ["hero", 100, true], "a month the beta started");
-  assert.deepEqual(await at(END - MINUTE), ["hero", 100, true], "runs to the launch");
-  assert.deepEqual(await at(END), ["free", 30, undefined], "then back on Free by itself");
-  // Hero's plan until then: its answers a day and its 1,500 in one pool, its voices and push-to-talk.
+  assert.deepEqual(await at(START + 2 * HOUR), ["hero", "unlimited", true], "a month the beta started");
+  assert.deepEqual(await at(END - MINUTE), ["hero", "unlimited", true], "runs to the launch");
+  assert.deepEqual(await at(END), ["free", PLANS.free.answersPerDay, undefined], "then back on Free by itself");
+  // Hero's plan until then: its unlimited answers, its month in one window, its voices and push-to-talk.
   const hero = await planFor(env, user.id, new Date(START + 2 * HOUR));
-  assert.deepEqual([hero.since, hero.until, hero.ends, hero.answersPerMonth],
-    [new Date(START + HOUR).toISOString(), new Date(END).toISOString(), "November 4", 1500]);
+  assert.deepEqual([hero.since, hero.until, hero.ends, hero.unlimited],
+    [new Date(START + HOUR).toISOString(), new Date(END).toISOString(), "November 4", true]);
   assert.equal(poolWindow(hero, new Date(START + 2 * HOUR)).resetsAt, hero.until, "one pool for it");
   const left = await allowance(env, user.id, new Date(START + 2 * HOUR));
-  assert.deepEqual([left.plan.id, left.limit, left.period, left.features.voices, left.features.push_to_talk],
-    ["hero", 100, "day", "all", true]);
+  assert.deepEqual([left.plan.id, left.unlimited, left.period, left.features.voices, left.features.push_to_talk],
+    ["hero", true, "day", "all", true]);
   // An account without one gets none now, however early it looks.
   const { user: newcomer } = await player("newcomer");
-  assert.deepEqual(await at(START + HOUR, env, newcomer), ["free", 30, undefined], "its first look doesn't start one");
-  assert.deepEqual(await at(END - HOUR, env, newcomer), ["free", 30, undefined]);
+  assert.deepEqual(await at(START + HOUR, env, newcomer), ["free", PLANS.free.answersPerDay, undefined], "its first look doesn't start one");
+  assert.deepEqual(await at(END - HOUR, env, newcomer), ["free", PLANS.free.answersPerDay, undefined]);
   assert.equal(env.DB.sqlite.prepare("SELECT COUNT(*) AS n FROM promo_claims").get().n, 1, "nothing written");
   // Deleting the account and signing in again keeps the month it had.
   await deleteUser(env, user);
@@ -209,7 +209,7 @@ test("checkout before the launch is a pre-order at full price: the plan now, its
   assert.deepEqual(fresh.plans.map(p => p.promo ?? null), [null, null, null, null], "signed out, the same");
   // The plans side by side, for /willo's table (planCompare), from the plans themselves.
   assert.deepEqual(fresh.compare.map(r => [r.label, Object.values(r.values).join(" | ")]), [
-    ["Answers a day", "30 | 100 | 200 | 300"],
+    ["Willo's answers", `${PLANS.free.answersPerDay} a day | Unlimited | Unlimited | Unlimited`],
     ["Willo's voice: when you ask out loud", "Studio | Finest | Finest, pick from ten | Richer, pick from 32"],
     ["Characters' own voices", "— | — | ✓ | ✓"],
     ["Your narrator reads the add-on's short answers", "— | ✓ | ✓ | ✓"],
@@ -247,7 +247,8 @@ test("the beta's free Hero is apart from the free budget, and past its brake fre
   assert.equal((await planFor(env, user.id, later)).launch, true, "still under it, in November");
   await addUserSpend(env, other.id, 1, later, null, true);
   const braked = await planFor(env, user.id, later);
-  assert.deepEqual([braked.id, braked.answersPerDay, braked.launch, braked.brake], ["free", 30, undefined, undefined],
+  assert.deepEqual([braked.id, braked.answersPerDay, braked.launch, braked.brake],
+    ["free", PLANS.free.answersPerDay, undefined, undefined],
     "Free's answers from then on, and nothing says why");
   assert.equal(await userSpend(env, other.id, at), 0, "a plan bought later doesn't count the free month's answers");
 });

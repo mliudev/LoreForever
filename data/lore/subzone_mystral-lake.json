@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Mystral Lake"
  },
- "summary": "Mystral Lake is the largest body of water in Ashenvale, resting in the south-central forest just below Silverwind Refuge. Its deep waters draw travelers from both the Alliance and the Horde.",
+ "summary": "Travelers from both factions reach Mystral Lake in south-central Ashenvale. Its deep waters draw them beneath the watch of the night elves.",
  "sections": [
   {
    "title": "The Forest's Great Lake",
-   "body": "Spanning a vast expanse south of Silverwind Refuge and east of Talondeep Vale, Mystral Lake is the largest lake in Ashenvale. The night elves keep watch over it from their outpost at Silverwind Refuge on its northern shore, and travelers from both the Horde and the Alliance frequently find their journeys pulling them to its banks.",
+   "body": "Mystral Lake draws travelers to its shores in southern Ashenvale. The vast lake lies south of Silverwind Refuge and east of Talondeep Vale, the largest lake in the forest. Night elves keep watch from their outpost on its northern shore. Travelers from both the Horde and the Alliance often find their journeys bringing them to its banks.",
    "spoiler": 0
   },
   {
    "title": "Spiritual Crossroads",
-   "body": "Mystral Lake draws attention across faction lines. Horde shaman traveling the path of elemental communion seek out its deep waters during their trials to understand the element of water. The raw primal resonance of the lake makes it an essential pilgrimage site for those learning to bind and respect the tidal spirits.",
+   "body": "Horde shaman come to Mystral Lake during trials of elemental communion. In its deep waters, they seek to understand the element of water. The lake’s raw primal resonance makes it an essential pilgrimage site for those learning to bind and respect the tidal spirits.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "mystral lake location",
     "lake mystral map"
    ],
-   "answer": "Mystral Lake lies in south-central Ashenvale. It sits directly south of Silverwind Refuge and east of Talondeep Vale, making it the largest open body of water in the forest."
+   "answer": "Mystral Lake lies in south-central Ashenvale, south of Silverwind Refuge and east of Talondeep Vale. It is the forest’s largest open body of water."
   },
   {
    "q": "Why do shaman visit Mystral Lake?",
@@ -36,7 +36,7 @@
     "call of water mystral lake",
     "shaman quest mystral lake"
    ],
-   "answer": "Horde shaman are directed to Mystral Lake during their spiritual trials for the Call of Water. The lake possesses a deep elemental resonance, making it an important location for understanding and attuning to water spirits."
+   "answer": "Horde shaman visit Mystral Lake during spiritual trials for the Call of Water. Its deep elemental resonance helps them understand and attune to water spirits."
   },
   {
    "q": "Who controls Mystral Lake?",
@@ -44,17 +44,17 @@
     "is mystral lake horde or alliance",
     "who owns mystral lake"
    ],
-   "answer": "Neither faction holds direct military control over the lake itself. The night elves monitor it from their outpost at Silverwind Refuge on its northern shore."
+   "answer": "Neither faction holds direct military control over Mystral Lake. The night elves watch it from their outpost at Silverwind Refuge on the northern shore."
   }
  ],
  "angles": [
   {
    "target": "class:Shaman",
-   "text": "The turbulent depths of Mystral Lake serve as a vital stop during the Call of Water, where aspiring shaman must confront the local spirits to master their elemental craft."
+   "text": "As a shaman, you come to Mystral Lake during the Call of Water, where you confront local spirits to master your elemental craft."
   },
   {
    "target": "race:NightElf",
-   "text": "Watched over from Silverwind Refuge, the largest lake in Ashenvale lies at the heart of the forest your people defend."
+   "text": "From Silverwind Refuge, your people watch over Ashenvale’s largest lake, at the heart of the forest they defend."
   }
  ],
  "keywords": [
@@ -75,5 +75,6 @@
  ],
  "attribution": [
   "Mystral Lake"
- ]
+ ],
+ "style": 1
 }

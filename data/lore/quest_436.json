@@ -20,16 +20,16 @@
    "Gathering Idols"
   ]
  },
- "summary": "Ironband's Excavation is an Alliance quest connecting Thelsamar to an ongoing archaeological dig east of the loch. Jern Hornhelm grows suspicious over unexplained supply delays, dispatching an adventurer to discover what stalls Prospector Ironband's team. Upon reaching the dig site, the truth quickly emerges: a relentless horde of troggs has overrun the ruins.",
+ "summary": "In Thelsamar, Jern Hornhelm worries over the slow work at Ironband's Excavation. Supplies still reach Prospector Ironband's team, but reports show little progress. Jern trusts Ironband's diligence and sends you to learn what has disrupted the dig.",
  "sections": [
   {
    "title": "A Slowdown in the Foothills",
-   "body": "In the town of Thelsamar, Jern Hornhelm monitors shipments sent across Loch Modan to the Explorers' League. Despite a steady stream of provisions and tools, the dig site led by Prospector Ironband has reported minimal progress. Knowing Ironband as an upright, diligent dwarf, Hornhelm fears that something untoward has disrupted the operation rather than mere laziness.",
+   "body": "Jern Hornhelm watches shipments from Thelsamar cross Loch Modan to the Explorers' League. Provisions and tools arrive steadily, yet Prospector Ironband's dig makes little progress. Jern knows Ironband as an upright, diligent dwarf, so he suspects something has disrupted the work. He sends you to find out what is holding the team back.",
    "spoiler": 0
   },
   {
    "title": "The Trogg Infestation",
-   "body": "Reaching the excavation site tucked into the eastern hills reveals the true cause of the delay. Explorer Magmar Fellhew reports that violent troggs have swarmed the dig site, harassing the dwarven crew and scattering their discoveries. The League cannot complete its study of the ancient stones until the savage intruders are driven back.",
+   "body": "Explorer Magmar Fellhew tells you that violent troggs have overrun the excavation in the eastern hills. They harass the dwarven crew and scatter the team's discoveries. The League cannot study the ancient stones until the intruders are driven back.",
    "spoiler": 1
   }
  ],
@@ -41,7 +41,7 @@
     "who gives quest",
     "jern hornhelm role"
    ],
-   "answer": "Jern Hornhelm, stationed in Thelsamar, asks you to check on the excavation. He has noticed a lack of progress despite regular deliveries of supplies and wants someone on the ground to investigate."
+   "answer": "Jern Hornhelm in Thelsamar asks you to check on the excavation. Regular deliveries continue, but progress remains slow, so he wants someone there to investigate."
   },
   {
    "q": "Where is the excavation site located?",
@@ -50,7 +50,7 @@
     "where is ironbands excavation",
     "how to get there"
    ],
-   "answer": "The excavation lies in the foothills east of the loch. Travelers from Thelsamar must skirt the southern end of the water and follow the path eastward into the hills."
+   "answer": "The excavation lies in the foothills east of the loch. From Thelsamar, skirt the southern end of the water and follow the path east into the hills."
   },
   {
    "q": "Who is Magmar Fellhew?",
@@ -59,7 +59,7 @@
     "who is magmar fellhew",
     "turn in npc"
    ],
-   "answer": "Magmar Fellhew is an explorer assisting Prospector Ironband at the dig. He oversees the day-to-day operations and logistics on-site and clarifies the situation for messengers sent from Thelsamar."
+   "answer": "Magmar Fellhew is an explorer assisting Prospector Ironband at the dig. He oversees its daily work and logistics, and explains the situation to messengers from Thelsamar."
   },
   {
    "q": "Why has progress stalled at the dig?",
@@ -68,7 +68,7 @@
     "delay reason",
     "what happened to the dig"
    ],
-   "answer": "The expedition has been halted by aggressive troggs. The creatures surged into the ruins, disrupting excavations and forcing the League to divert its focus to self-defense."
+   "answer": "Aggressive troggs have halted the expedition. They surged into the ruins, disrupted the excavation, and forced the League to focus on defending itself."
   },
   {
    "q": "What comes next after completing this quest?",
@@ -77,7 +77,7 @@
     "followup",
     "gathering idols quest"
    ],
-   "answer": "Magmar Fellhew directs you to assist the team in reclaiming what was lost, continuing immediately into the quest Gathering Idols to recover relics stolen by the troggs."
+   "answer": "Magmar Fellhew directs you to help the team reclaim what was lost. The work continues with Gathering Idols, recovering relics stolen by the troggs."
   },
   {
    "q": "What is the Explorers' League looking for here?",
@@ -86,17 +86,17 @@
     "dwarf dig reason",
     "ancient ruins loch modan"
    ],
-   "answer": "Prospector Ironband's expedition seeks ancient relics and stonework beneath Loch Modan to shed light on dwarven history and their long-lost origins."
+   "answer": "Prospector Ironband's expedition seeks ancient relics and stonework beneath Loch Modan. The discoveries may shed light on dwarven history and their long-lost origins."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "Every dig in Khaz Modan represents an effort to uncover the truth behind dwarven ancestry and Titan heritage, making the safety of Ironband's crew vital to Ironforge."
+   "text": "As a dwarf, you know each dig in Khaz Modan helps uncover the truth of dwarven ancestry and Titan heritage. Ironforge depends on Ironband's crew remaining safe."
   },
   {
    "target": "faction:Alliance",
-   "text": "Securing Loch Modan requires keeping vital trade roads and research sites free from the subterranean threat of encroaching trogg tribes."
+   "text": "As an Alliance member, you help secure Loch Modan by keeping its trade roads and research sites clear of subterranean trogg tribes."
   }
  ],
  "keywords": [
@@ -118,5 +118,6 @@
  ],
  "attribution": [
   "Ironband's Excavation"
- ]
+ ],
+ "style": 1
 }

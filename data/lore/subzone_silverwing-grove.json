@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Silverwing Grove"
  },
- "summary": "Tucked away in south-central Ashenvale near Fallen Sky Lake, Silverwing Grove serves as the staging grounds for the Silverwing Sentinels. From this fortified hollow, night elf warriors muster Alliance forces to push back the Warsong Clan loggers tearing through the forest.",
+ "summary": "Silverwing Sentinels gather at Silverwing Grove in south-central Ashenvale, near Fallen Sky Lake. From this fortified hollow, night elf warriors muster Alliance forces against the Warsong Clan loggers cutting through the forest.",
  "sections": [
   {
    "title": "Front Line of the Forest War",
-   "body": "Hidden beneath the emerald canopy southwest of Silverwing Outpost, Silverwing Grove is a crucial military staging post for the Silverwing Sentinels. Rather than a tranquil woodland retreat, it functions as the operational heartbeat for the night elves' bitter territorial contest against the Horde's lumber operations in Warsong Gulch. High-ranking Alliance officers, provisions, and scouts gather here, organizing skirmishes and marshaling champions to defend ancient Ashenvale against orcish expansion.",
+   "body": "At Silverwing Grove, Silverwing Sentinels gather beneath the canopy southwest of Silverwing Outpost. The night elves use the post to oppose the Horde's lumbering in Warsong Gulch. Alliance officers, provisions, and scouts assemble here to organize skirmishes and muster champions. They defend Ashenvale against orcish expansion.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "what is silverwing grove",
     "purpose of silverwing grove"
    ],
-   "answer": "Silverwing Grove serves as the staging base for the Silverwing Sentinels. It is where the night elf military and their Alliance allies organize efforts to contest the Warsong Clan's deforesting efforts and enter the ongoing conflict in Warsong Gulch."
+   "answer": "Silverwing Grove is where the Silverwing Sentinels and their Alliance allies gather to oppose the Warsong Clan's logging and join the fighting in Warsong Gulch."
   },
   {
    "q": "Where is Silverwing Grove located?",
@@ -32,7 +32,7 @@
     "where is silverwing grove",
     "how to find silverwing grove"
    ],
-   "answer": "It is located in south-central Ashenvale, situated southwest of Silverwing Outpost and just west of Fallen Sky Lake."
+   "answer": "Silverwing Grove lies in south-central Ashenvale, southwest of Silverwing Outpost and just west of Fallen Sky Lake."
   },
   {
    "q": "Who operates out of Silverwing Grove?",
@@ -41,7 +41,7 @@
     "silverwing grove npcs",
     "who runs silverwing grove"
    ],
-   "answer": "The grove is manned by the Silverwing Sentinels alongside Alliance military commanders, including an Alliance Brigadier General, logistical vendors, and officers such as Sentinel Farsong who coordinate efforts against the Horde."
+   "answer": "Silverwing Sentinels and Alliance forces operate from the grove. Among them are an Alliance Brigadier General, logistical vendors, and officers such as Sentinel Farsong, who coordinates efforts against the Horde."
   },
   {
    "q": "Can Horde players enter Silverwing Grove?",
@@ -50,17 +50,17 @@
     "can horde go to silverwing grove",
     "horde silverwing grove"
    ],
-   "answer": "No. The grove is an active military post populated by hostile Alliance sentinels and guards who will immediately attack any encroaching Horde members on sight."
+   "answer": "No. Hostile Alliance sentinels and guards at the grove attack Horde members who approach."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "For the kaldorei, Silverwing Grove represents the steadfast resolve to halt the desecration of sacred trees at the axes of the Warsong Clan."
+   "text": "For the kaldorei, Silverwing Grove is a rallying place in their effort to stop the Warsong Clan from cutting down sacred trees."
   },
   {
    "target": "faction:Alliance",
-   "text": "The grove is the primary staging ground for Alliance champions seeking to muster and enter the bloody skirmishes of Warsong Gulch."
+   "text": "Alliance champions gather at the grove before entering the bloody skirmishes of Warsong Gulch."
   }
  ],
  "keywords": [
@@ -82,5 +82,6 @@
  ],
  "attribution": [
   "Silverwing Grove"
- ]
+ ],
+ "style": 1
 }

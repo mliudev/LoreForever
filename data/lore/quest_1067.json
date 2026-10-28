@@ -17,16 +17,16 @@
   "wiki": "Return to Thunder Bluff (1)",
   "chain": []
  },
- "summary": "This quest charges an operative with carrying a potent chemical agent brewed by Apothecary Lydon in Tarren Mill back across the sea to Thunder Bluff. There, Apothecary Zamah awaits the compound so she can engineer a dispersal apparatus against the Venture Company. It marks a crucial step in the Royal Apothecary Society's clandestine research under the very roofs of their Tauren hosts.",
+ "summary": "Apothecary Lydon’s toxin is bound for Thunder Bluff, where Zamah awaits it. She needs the formula to make a device that can spread it against the Venture Company.",
  "sections": [
   {
    "title": "A Transcontinental Delivery",
-   "body": "After securing the volatile ingredients requested in the Hillsbrad Foothills, Apothecary Lydon successfully synthesizes his virulent concoction. Lydon is thoroughly thrilled to see his biological handiwork tested on live subjects, but the raw toxin alone lacks an effective delivery mechanism. To maximize its effect, the vial must be brought back across the Great Sea to the crags of Mulgore, into the waiting hands of Apothecary Zamah.",
+   "body": "Apothecary Lydon has made the toxin from the ingredients gathered in the Hillsbrad Foothills. He wants to see it tested on living subjects, but the liquid needs a way to spread it. You carry the vial across the Great Sea to Mulgore, where Apothecary Zamah waits for it.",
    "spoiler": 0
   },
   {
    "title": "Zamah's Apparatus",
-   "body": "Residing in the shaded lower tier beneath Thunder Bluff's Spirit Rise, Zamah operates as an ambassador and researcher for the Royal Apothecary Society. Upon receiving Lydon's formulation, she sets to work converting the fluid into an aerosol agent, fabricating a pressurized device known as the Toxic Fogger. Her ultimate goal is to unleash this biological weapon directly upon the intrusive goblins of the Venture Company.",
+   "body": "Apothecary Zamah works beneath Spirit Rise in Thunder Bluff as an ambassador and researcher for the Royal Apothecary Society. With Lydon's formula, she makes an aerosol device called the Toxic Fogger. She intends to use it against the Venture Company goblins.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "what does zamah do with toxin",
     "lydons toxin use"
    ],
-   "answer": "Apothecary Lydon created the raw liquid toxin, but it requires a specialized dispersal system to maximize its effect across a broad area. Apothecary Zamah possesses the engineering skills needed to adapt the formula into an aerosolized device called the Toxic Fogger."
+   "answer": "Lydon made the liquid toxin, but it needs a way to spread across a broad area. Zamah can turn the formula into an aerosol device called the Toxic Fogger."
   },
   {
    "q": "Who is the target of this concoction?",
@@ -47,7 +47,7 @@
     "target of lydon toxin",
     "who are we fighting"
    ],
-   "answer": "The toxin is engineered specifically for deployment against the Venture Company, the ruthless goblin mining syndicate ravaging the land in the Stonetalon Mountains and beyond."
+   "answer": "The toxin is meant for the Venture Company, a goblin mining syndicate whose operations reach the Stonetalon Mountains and beyond."
   },
   {
    "q": "Where is Apothecary Zamah located?",
@@ -56,7 +56,7 @@
     "where is apothecary zamah",
     "zamah location"
    ],
-   "answer": "Apothecary Zamah is situated in the Pools of Vision, a cavern network concealed beneath the Spirit Rise in Thunder Bluff."
+   "answer": "Apothecary Zamah is in the Pools of Vision, beneath Spirit Rise in Thunder Bluff."
   },
   {
    "q": "Why are Undercity apothecaries working in a Tauren city?",
@@ -65,7 +65,7 @@
     "why are undead in thunder bluff",
     "apothecaries in mulgore"
    ],
-   "answer": "The Tauren granted the Forsaken asylum and supported their admission into the Horde, largely hoping to help them find a cure for their affliction. Apothecary Zamah acts as an envoy of the Royal Apothecary Society, though her work often leans far more toward pestilence and offensive bioweapons than healing."
+   "answer": "The Tauren gave the Forsaken asylum and helped them join the Horde, hoping they might find a cure for their affliction. Zamah represents the Royal Apothecary Society, whose work here turns toward pestilence and weapons rather than healing."
   },
   {
    "q": "What happens after turning in the toxin?",
@@ -74,7 +74,7 @@
     "what after return to thunder bluff",
     "fogger quest"
    ],
-   "answer": "Once Zamah takes the vial, she constructs the Toxic Fogger by her side. She will then dispatch you to deploy the aerosol machine directly at a Venture Company facility in the Stonetalon Mountains."
+   "answer": "After Zamah receives the vial, she makes the Toxic Fogger. She then sends you to use it at a Venture Company facility in the Stonetalon Mountains."
   },
   {
    "q": "Who created the original formula?",
@@ -83,21 +83,21 @@
     "who is lydon",
     "apothecary lydon lore"
    ],
-   "answer": "The poison was concocted by Apothecary Lydon, a researcher for the Royal Apothecary Society stationed in Tarren Mill within the Hillsbrad Foothills."
+   "answer": "Apothecary Lydon, a Royal Apothecary Society researcher in Tarren Mill, made the poison."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "This task demonstrates the Royal Apothecary Society's far-reaching operational network, coordinating research between the Lordaeron front and research outposts on Kalimdor."
+   "text": "As an Undead, you can see how the Royal Apothecary Society links research in Lordaeron with outposts on Kalimdor."
   },
   {
    "target": "race:Tauren",
-   "text": "While Magatha Grimtotem and the elders welcomed the Forsaken to Thunder Bluff in hopes of finding redemption or healing, the Apothecaries beneath Spirit Rise spend their time developing contagious bioweapons."
+   "text": "As a Tauren, you know Magatha Grimtotem and the elders welcomed the Forsaken to Thunder Bluff, hoping they would find redemption or healing. The apothecaries beneath Spirit Rise instead make contagious weapons."
   },
   {
    "target": "faction:Horde",
-   "text": "The collaborative effort between Forsaken alchemists helps protect Horde interests by targeting the destructive operations of the Venture Company."
+   "text": "As a member of the Horde, you see Forsaken alchemists working together against the Venture Company's destructive operations."
   }
  ],
  "keywords": [
@@ -119,5 +119,6 @@
  ],
  "attribution": [
   "Return to Thunder Bluff (1)"
- ]
+ ],
+ "style": 1
 }

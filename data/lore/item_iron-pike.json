@@ -10,16 +10,16 @@
    "quest:89"
   ]
  },
- "summary": "Iron Pikes are sturdy construction materials originally shipped from Stormwind to aid in repairing the Everstill Bridge in Lakeshire. The shipment was ambushed and looted by Redridge gnolls, leaving the town short on essential rebuilding supplies.",
+ "summary": "In Lakeshire, Iron Pike supplies are needed to repair the Everstill Bridge. The shipment from Stormwind was seized by Redridge gnolls, leaving the town short of iron.",
  "sections": [
   {
    "title": "Stolen Caravan Cargo",
-   "body": "When Lakeshire faced recent attacks from the Blackrock orcs, the town's metal reserves were melted down to forge armor, blades, and ammunition for defense. In response to the shortage, local builders requested a resupply shipment of iron from Stormwind City. Before the materials could reach the town, a pack of Redridge gnolls hijacked the transport caravan along the road. The gnolls dragged crates of iron pikes and rivets north into the hills, halting critical repairs on the Everstill Bridge.",
+   "body": "Lakeshire spent its metal reserves forging armor, blades, and ammunition after recent attacks by the Blackrock orcs. Builders requested more iron from Stormwind City, but Redridge gnolls hijacked the caravan on the road. They carried crates of iron pikes and rivets north into the hills, stopping repairs on the Everstill Bridge.",
    "spoiler": 0
   },
   {
    "title": "Rebuilding the Span",
-   "body": "Foreman Oslow, charged with overseeing the reconstruction of the Everstill Bridge, relies on adventurers to enter gnoll territory and reclaim the pilfered hardware. Without these heavy iron pikes to reinforce the stone and timber framework, Lakeshire remains partially severed from the northern roadway and vulnerable to further incursions.",
+   "body": "Foreman Oslow oversees the bridge's reconstruction and needs the stolen hardware back. Without the heavy pikes to reinforce its stone and timber frame, the bridge leaves Lakeshire partly cut off from the northern road and open to further incursions.",
    "spoiler": 0
   }
  ],
@@ -30,7 +30,7 @@
     "why do gnolls have iron pikes",
     "where did gnolls get iron pikes"
    ],
-   "answer": "The gnolls ambushed a supply caravan traveling from Stormwind to Lakeshire. They scattered into the Redridge hills with crates of stolen construction hardware, including iron pikes and rivets."
+   "answer": "The gnolls ambushed a supply caravan traveling from Stormwind to Lakeshire, then scattered into the Redridge hills with crates of stolen construction supplies, including iron pikes and rivets."
   },
   {
    "q": "Who needs these iron pikes in Lakeshire?",
@@ -38,7 +38,7 @@
     "who wants iron pikes",
     "foreman oslow iron pikes"
    ],
-   "answer": "Foreman Oslow requires them to rebuild the Everstill Bridge, which connects Lakeshire across Lake Everstill. The town lacks spare iron after melting down its local reserves to forge weapons and armor during recent orc attacks."
+   "answer": "Foreman Oslow needs the pikes to rebuild the Everstill Bridge across Lake Everstill. Lakeshire has no spare iron after melting its reserves into weapons and armor during recent orc attacks."
   },
   {
    "q": "Where can these iron pikes be recovered?",
@@ -46,7 +46,7 @@
     "where to find iron pikes",
     "iron pike location"
    ],
-   "answer": "They are held by the Redridge gnolls encamped in the hills and ridges north of Lakeshire."
+   "answer": "Redridge gnolls hold the pikes in their camps in the hills and ridges north of Lakeshire."
   },
   {
    "q": "Why couldn't Lakeshire just forge their own iron pikes?",
@@ -54,17 +54,17 @@
     "why did lakeshire order iron",
     "lakeshire iron shortage"
    ],
-   "answer": "Lakeshire exhausted its local iron supply fighting off the Blackrock orcs, melting down every scrap of metal for swords, bullets, and protective gear. They were forced to petition Stormwind for new structural iron."
+   "answer": "Lakeshire used its local iron supply fighting the Blackrock orcs, melting the metal into swords, bullets, and protective gear. The town had to ask Stormwind for new iron for construction."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Recovering stolen construction supplies from wild gnolls helps secure Lakeshire's vital crossings, keeping Stormwind's eastern border fortified against Blackrock aggression."
+   "text": "As an Alliance traveler, recovering the stolen supplies helps secure Lakeshire's crossings and fortify Stormwind's eastern border against Blackrock aggression."
   },
   {
    "target": "profession:Blacksmithing",
-   "text": "These heavy structural pikes demonstrate the strain placed on local smiths, whose entire supply of raw iron had to be diverted into weapons of war."
+   "text": "As a blacksmith, you can see how war strained local smiths: all their raw iron had to go toward weapons."
   }
  ],
  "keywords": [
@@ -89,5 +89,6 @@
  "attribution": [
   "Iron Pike",
   "The Everstill Bridge"
- ]
+ ],
+ "style": 1
 }

@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Dormitory"
  },
- "summary": "The Dormitory is a residential sector within the fallen technological capital of Gnomeregan. Once providing living quarters for countless gnome citizens, it now lies choked with radioactive fallout and crawls with savage, irradiated troggs.",
+ "summary": "In Gnomeregan, the Dormitory lies overrun by troggs and choked with radiation. Gnomes once lived here, but the fallen city's residential halls now belong to the creatures that drove them out.",
  "sections": [
   {
    "title": "A Home Overrun",
-   "body": "Situated just past the decontamination chambers of the Clean Zone, the Dormitory formerly housed the inventors, laborers, and families of Gnomeregan. When High Tinker Mekkatorque initiated the emergency radiation venting to combat the invading trogg horde, this densely populated sector became a trap. Today, its communal halls and living units are completely abandoned by gnomish life, occupied instead by mutated troggs that thrive in the radioactive miasma. Travelers descending toward the lower levels of the city must fight through this tragic reminder of the catastrophe to reach the lower Hall of Gears.",
+   "body": "Past the decontamination chambers of the Clean Zone, the Dormitory once housed Gnomeregan's inventors, laborers, and families. When High Tinker Mekkatorque opened the emergency radiation vents to fight the invading troggs, this crowded sector became a trap. No gnomish life remains in its communal halls or living quarters. Mutated troggs now thrive in the radioactive air. Travelers heading deeper through the city must fight through this reminder of the catastrophe to reach the lower Hall of Gears.",
    "spoiler": 0
   },
   {
    "title": "Punchograph Terminals",
-   "body": "Amid the abandoned living quarters, remnants of the city's administrative apparatus still function. The Matrix Punchograph 3005-B machines process security punch cards. These terminals provide clearance for higher-security data terminals deeper within Gnomeregan, helping recover important records left behind when the gnomes fled.",
+   "body": "The abandoned living quarters still hold working machines from Gnomeregan's administration. Matrix Punchograph 3005-B terminals process security punch cards. Their cards grant access to higher-security data terminals deeper in the city, helping recover important records left behind when the gnomes fled.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "dormitory purpose",
     "who lived here"
    ],
-   "answer": "The Dormitory served as everyday living quarters for Gnomeregan's vast population of inventors, workers, and their families. Its proximity to industrial and civic sectors allowed gnome citizens easy access between their workstations and resting bunks before toxic radiation flooded the lower corridors."
+   "answer": "The Dormitory housed Gnomeregan's inventors, workers, and their families. Its location near industrial and civic sectors gave residents easy access to their workstations and sleeping bunks before toxic radiation flooded the lower corridors."
   },
   {
    "q": "Why is the Dormitory infested with troggs?",
@@ -37,7 +37,7 @@
     "trogg infestation dormitory",
     "irradiated troggs"
    ],
-   "answer": "When the troggs breached the city from beneath, High Tinker Mekkatorque flooded the city with toxic gas to kill them. Instead of wiping them out, the radiation mutated the surviving troggs, making them more vicious and entirely resistant to the irradiated environment of the residential blocks."
+   "answer": "When the troggs broke into the city from below, High Tinker Mekkatorque flooded it with toxic gas to kill them. Radiation instead mutated the troggs that survived, making them more vicious and entirely resistant to the irradiated residential blocks."
   },
   {
    "q": "Where does the Dormitory lead?",
@@ -46,7 +46,7 @@
     "where to go from dormitory",
     "dormitory connections"
    ],
-   "answer": "The Dormitory sits just beyond the sanitized airlocks of the Clean Zone and connects the upper levels to the lower level of the Hall of Gears, making it an unavoidable chokepoint for anyone pushing deeper into Gnomeregan."
+   "answer": "The Dormitory lies just beyond the Clean Zone's sanitized airlocks and connects the upper levels to the lower Hall of Gears. Anyone pressing deeper into Gnomeregan must pass through it."
   },
   {
    "q": "What are the Matrix Punchograph machines found here?",
@@ -55,17 +55,17 @@
     "matrix punchograph 3005-B",
     "punch cards"
    ],
-   "answer": "The Matrix Punchograph 3005-B terminals process security punch cards. Their encoded cards grant clearance to higher-security terminals, allowing the recovery of important data left behind in Gnomeregan."
+   "answer": "Matrix Punchograph 3005-B terminals process security punch cards. The encoded cards grant access to higher-security terminals, helping recover important data left behind in Gnomeregan."
   }
  ],
  "angles": [
   {
    "target": "race:Gnome",
-   "text": "Stepping into the Dormitory is personal for every gnome: this was once your home, now reduced to irradiated rubble and overrun by the very brutes who drove you from it."
+   "text": "For a gnome, the Dormitory was once home. Now irradiated rubble fills the halls, overrun by the brutes who drove your people from it."
   },
   {
    "target": "profession:Engineering",
-   "text": "Even amid total bio-containment failure, automated terminals like the Matrix Punchograph 3005-B continue processing algorithmic security punch cards flawlessly."
+   "text": "Even amid a failure of bio-containment, automated Matrix Punchograph 3005-B terminals still process algorithmic security punch cards flawlessly."
   }
  ],
  "keywords": [
@@ -85,5 +85,6 @@
  ],
  "attribution": [
   "Dormitory"
- ]
+ ],
+ "style": 1
 }

@@ -20,16 +20,16 @@
    "The Branch of Cenarius (Classic)"
   ]
  },
- "summary": "Vile Satyr! Dryads in Danger! is an urgent Alliance quest begun in Ashenvale by the dryad Illiyana. Desperate for aid, she recruits travelers to search for her missing sisters who ventured into the corrupted ruins of Xavian to recover a stolen sacred relic.",
+ "summary": "Illiyana searches Ashenvale for her sisters, missing after setting out to recover a stolen relic. She asks travelers to find them in the corrupted ruins of Xavian.",
  "sections": [
   {
    "title": "A Desperate Sister",
-   "body": "While resting in Ashenvale, the dryad Illiyana finds herself overwhelmed with worry. A band of her dryad sisters departed into the corrupted northern reaches of the forest on a perilous mission to recover the Branch of Cenarius, a holy relic stolen by the vile satyrs. Though they promised to return swiftly, two days have passed in silence, prompting Illiyana to plead with passing Alliance travelers to track them down before it is too late.",
+   "body": "Dryad Illiyana waits in Ashenvale, overwhelmed with worry for her sisters. They left for the corrupted northern reaches of the forest to recover the Branch of Cenarius, a holy relic stolen by satyrs. They promised to return swiftly, but two days have passed without word. Now Illiyana asks passing Alliance travelers to track them down before it is too late.",
    "spoiler": 0
   },
   {
    "title": "The Ruins of Xavian",
-   "body": "The dryads directed their journey toward Xavian, an ancient night elf temple complex to the northeast that has long fallen under the shadow of the Burning Legion's lingering corruption. Swarming with fel-tainted satyrs, Xavian is an exceptionally dangerous hunting ground. Venturing deep into these ruins leads directly to Anilia, the leader of the dryad expedition, who lies gravely wounded and near death after suffering the brutal wrath of the ruins' demonic inhabitants.",
+   "body": "Xavian lies to the northeast, an ancient night elf temple complex long corrupted by the Burning Legion. Fel-tainted satyrs swarm its ruins, making them a perilous place to search. Deep inside, Anilia, leader of the dryad expedition, lies gravely wounded and near death after the demonic inhabitants attacked her.",
    "spoiler": 1
   }
  ],
@@ -41,7 +41,7 @@
     "who gives vile satyr dryads in danger",
     "quest giver"
    ],
-   "answer": "Illiyana is a dryad living in the forests of Ashenvale. Anxious over the fate of her sisters, she sends travelers toward the ruins of Xavian to search for their missing party."
+   "answer": "Illiyana is a dryad who lives in the forests of Ashenvale. Worried for her sisters, she sends travelers toward Xavian to search for their missing party."
   },
   {
    "q": "What is the Branch of Cenarius?",
@@ -50,7 +50,7 @@
     "what relic were they looking for",
     "dryad artifact"
    ],
-   "answer": "The Branch of Cenarius is a sacred relic deeply precious to the dryads and night elves. Satyrs in northern Ashenvale stole it, prompting Anilia and her sisters to stage a dangerous retrieval mission into Xavian."
+   "answer": "The Branch of Cenarius is a sacred relic precious to dryads and night elves. Satyrs in northern Ashenvale stole it, and Anilia and her sisters set out on a dangerous journey into Xavian to recover it."
   },
   {
    "q": "What is Xavian?",
@@ -59,7 +59,7 @@
     "ruins of xavian",
     "where are the dryads"
    ],
-   "answer": "Xavian is the ruins of an ancient night elf temple located in eastern Ashenvale. Overrun by demonic satyrs, the site is steeped in fel corruption and hostility toward nature's protectors."
+   "answer": "Xavian is an ancient night elf temple in eastern Ashenvale. Demonic satyrs have overrun the ruins, where fel corruption threatens nature's protectors."
   },
   {
    "q": "Who is Anilia?",
@@ -77,7 +77,7 @@
     "dryad satyr war",
     "satyr corruption"
    ],
-   "answer": "Dryads are the daughters of the demigod Cenarius, dedicated to preserving nature and the balance of the forest. Satyrs are ancient night elves twisted by demonic fel magic who actively corrupt the wilderness and desecrate sacred groves."
+   "answer": "Dryads are daughters of the demigod Cenarius, devoted to preserving nature and the forest's balance. Satyrs are ancient night elves twisted by demonic fel magic, and they corrupt the wilderness and desecrate sacred groves."
   },
   {
    "q": "What quest follows this one?",
@@ -86,21 +86,21 @@
     "dryads in danger chain",
     "after vile satyr"
    ],
-   "answer": "Finding Anilia completes this search and leads into 'The Branch of Cenarius', continuing the effort to recover the stolen relic."
+   "answer": "Finding Anilia completes the search and leads into 'The Branch of Cenarius', where the effort to recover the stolen relic continues."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "The dryads are the sacred daughters of Cenarius, making their distress and the defilement of ancient elven temples in Xavian a matter of personal honor and spiritual duty."
+   "text": "As a night elf, you share a bond with the dryads, daughters of Cenarius. Their distress and the defilement of ancient elven temples in Xavian call on your honor and spiritual duty."
   },
   {
    "target": "class:Druid",
-   "text": "Druids share a deep kinship with the children of Cenarius and are sworn to cleanse the demonic corruption spreading from satyr strongholds like Xavian."
+   "text": "As a druid, you share a deep kinship with the children of Cenarius. You are sworn to cleanse the demonic corruption spreading from satyr strongholds like Xavian."
   },
   {
    "target": "faction:Alliance",
-   "text": "Helping Illiyana strengthens the Alliance's bond with the mystical denizens of Ashenvale amid escalating regional threats."
+   "text": "As an Alliance traveler, you strengthen the Alliance's bond with Ashenvale's mystical denizens when you help Illiyana amid growing regional threats."
   }
  ],
  "keywords": [
@@ -124,5 +124,6 @@
  ],
  "attribution": [
   "Vile Satyr! Dryads in Danger! (Classic)"
- ]
+ ],
+ "style": 1
 }

@@ -17,16 +17,16 @@
   "wiki": "Junkboxes Needed",
   "chain": []
  },
- "summary": "At Ravenholdt Manor, Fahrad maintains an endless demand for sturdy, locked containers to train the guild's rising rogues. Because the practice locks provided by the manor's own craftsman are too simple for advanced students, Fahrad trades specialized throwing knives to anyone willing to supply authentic heavy junkboxes.",
+ "summary": "Fahrad keeps Ravenholdt supplied with locked boxes for rogue training. His demand never ends, and he trades specialized throwing knives to anyone who brings authentic heavy junkboxes.",
  "sections": [
   {
    "title": "Sharpening Ravenholdt's Talons",
-   "body": "Within the hidden redoubt of Ravenholdt Manor, nestled in the mountains above Hillsbrad Foothills, training never ceases. Master thief Fahrad oversees instruction for the guild's operatives, placing high value on practical lockpicking mastery. While Zan provides practice contraptions for new recruits, Fahrad considers that crude work entirely unfit for experienced operatives who must crack real, stubborn mechanisms in the field.",
+   "body": "Ravenholdt Manor is a hidden redoubt in the mountains above Hillsbrad Foothills. Training never ceases there. Master thief Fahrad oversees the guild's operatives and prizes practical skill at picking locks. Zan supplies practice contraptions for new recruits, but Fahrad finds them too crude for experienced thieves who must open stubborn mechanisms in the field.",
    "spoiler": 0
   },
   {
    "title": "A Curiously Open Arrangement",
-   "body": "To keep the manor supplied with real-world mechanisms, Fahrad contracts out for heavy junkboxes swiped from dangerous targets across Azeroth. Though only skilled thieves can lift these boxes from marks in the wild, Fahrad does not restrict his business solely to rogues. Anyone who delivers batches of these locked chests\u2014even if already picked clean of major valuables\u2014earns Fahrad's favor and a supply of the manor's lethally balanced throwing blades, provided a token coin remains inside to motivate the initiates.",
+   "body": "Fahrad contracts for heavy junkboxes stolen from dangerous targets across Azeroth, and he accepts deliveries in batches. Only skilled thieves can lift the boxes from their marks in the wild, but anyone may bring them to the manor. Even boxes picked clean of major valuables earn Fahrad's favor and a supply of the manor's finely balanced throwing knives, so long as a token coin remains inside to motivate the initiates.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "junkboxes purpose",
     "why fahrad wants boxes"
    ],
-   "answer": "Ravenholdt's apprentice rogues need realistic mechanisms to practice lockpicking. Fahrad finds the practice chests made by the manor's resident craftsman, Zan, far too elementary for anyone past rank beginners, requiring true lockboxes harvested from dangerous marks."
+   "answer": "Ravenholdt's apprentice rogues need realistic mechanisms for lockpicking practice. Zan, the manor's resident craftsman, makes practice chests that Fahrad considers too elementary for anyone past the beginner stage, so he requires real lockboxes taken from dangerous marks."
   },
   {
    "q": "Where does this task take place?",
@@ -47,7 +47,7 @@
     "where is fahrad",
     "ravenholdt location"
    ],
-   "answer": "The exchange takes place at Ravenholdt Manor, a secret refuge for the guild of thieves concealed within the mountains north of the Hillsbrad Foothills."
+   "answer": "The exchange takes place at Ravenholdt Manor, a secret refuge for the thieves' guild concealed in the mountains north of the Hillsbrad Foothills."
   },
   {
    "q": "Can only rogues turn in this quest?",
@@ -56,7 +56,7 @@
     "can anyone do junkboxes needed",
     "other classes junkboxes"
    ],
-   "answer": "While the heavy junkboxes themselves are originally procured through the rogue art of pickpocketing, Fahrad accepts deliveries from anyone capable of bringing them to the manor."
+   "answer": "Anyone who can bring heavy junkboxes to the manor may deliver them. Skilled thieves originally steal the boxes from their marks through pickpocketing."
   },
   {
    "q": "Why must there still be coins left inside the boxes?",
@@ -65,7 +65,7 @@
     "do boxes need loot",
     "empty junkboxes"
    ],
-   "answer": "Fahrad insists that a few coins remain inside each chest because even rogues in training need practical incentive and tangible reward to spur their lockpicking efforts."
+   "answer": "Fahrad requires a few coins to remain in each chest, giving rogues in training a practical incentive for their lockpicking efforts."
   },
   {
    "q": "What does Ravenholdt offer in exchange?",
@@ -74,7 +74,7 @@
     "what does fahrad give",
     "ravenholdt throwing knives"
    ],
-   "answer": "Fahrad rewards contributors with guild standing and finely crafted throwing knives, which he sardonically wishes will find a place directly in someone's heart."
+   "answer": "Contributors earn guild standing and finely crafted throwing knives from Fahrad, who sardonicly wishes they will find a place in someone's heart."
   },
   {
    "q": "Who is Zan that Fahrad complains about?",
@@ -83,21 +83,21 @@
     "zan ravenholdt",
     "zan locks"
    ],
-   "answer": "Zan is Ravenholdt's in-house locks supplier. Fahrad considers Zan's practice mechanisms crude and suitable only for the rawest neophytes rather than serious operatives."
+   "answer": "Zan supplies Ravenholdt with locks and practice mechanisms. Fahrad finds Zan's crude work fit only for the rawest beginners, not serious operatives."
   }
  ],
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "Sourcing these heavy chests relies entirely on the art of pickpocketing seasoned adversaries, cementing Ravenholdt as the ultimate clearinghouse for a rogue's illicit skills."
+   "text": "As a rogue, you can source these heavy chests by pickpocketing seasoned adversaries. Ravenholdt gives that illicit skill a place to serve."
   },
   {
    "target": "faction:Alliance",
-   "text": "Though hidden in contested Lordaeron territory, Ravenholdt operates independently, accepting contracts from Alliance wanderers without regard for faction lines."
+   "text": "Ravenholdt lies in contested Lordaeron territory and operates independently. As an Alliance wanderer, you can bring it contracts without regard for faction lines."
   },
   {
    "target": "faction:Horde",
-   "text": "Horde operatives who brave the trek into the Hillsbrad mountains find Ravenholdt strictly indifferent to faction loyalties, prizing useful illicit goods above all else."
+   "text": "As a Horde operative, you can brave the trek into the Hillsbrad mountains. Ravenholdt is indifferent to faction loyalties and prizes useful illicit goods above all else."
   }
  ],
  "keywords": [
@@ -116,5 +116,6 @@
  ],
  "attribution": [
   "Junkboxes Needed"
- ]
+ ],
+ "style": 1
 }

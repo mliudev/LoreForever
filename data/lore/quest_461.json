@@ -21,16 +21,16 @@
    "Wand to Bethor"
   ]
  },
- "summary": "After uncovering the talkative remains of Alaric from a shallow grave outside Fenris Keep, adventurers are directed back inside the stronghold. Guided by the deceased human's memories, travelers seek out a forgotten alcove concealed behind a dusty shelf to grant him final repose and claim an old relic.",
+ "summary": "Alaric's memories lead you back into Fenris Keep. His remains point toward a forgotten alcove where he seeks rest and an old relic waits.",
  "sections": [
   {
    "title": "A Restless Request",
-   "body": "Even after death, Alaric retains vivid memories of Fenris Keep during its better days. Relieved to be exhumed from a shallow, unceremonious dirt grave by Horde scouts, his skeletal remains refuse to simply be carried off to the Sepulcher. Instead, he bargains with vital information: a hidden niche inside the keep's southwestern tower containing an item deeply treasured by Thule Ravenclaw and his fellow mages.",
+   "body": "Alaric remembers Fenris Keep in its better days. Horde scouts have lifted his bones from a shallow grave outside the stronghold, but he will not go quietly to the Sepulcher. He offers vital knowledge instead: a hidden niche in the keep's southwestern tower holds an item treasured by Thule Ravenclaw and his fellow mages.",
    "spoiler": 0
   },
   {
    "title": "Buried in the Walls",
-   "body": "Navigating past the Rot Hide gnolls infesting the island fortress, travelers carry Alaric's remains up through the stone corridors. Tucked away behind a dusty bookshelf in the upper levels lies the secret compartment he spoke of. Once opened, Alaric asks only to be sealed away within the keep's ancient masonry, finding solace in resting inside the walls where he spent the happiest days of his life\u2014far from the gnawing jaws of the gnolls.",
+   "body": "You carry Alaric's remains through Fenris Keep, past the Rot Hide gnolls that infest the island fortress. In the upper levels, a dusty bookshelf hides the compartment he described. Alaric asks to be sealed inside the keep's ancient masonry, where he spent the happiest days of his life, beyond the gnolls' reach.",
    "spoiler": 1
   }
  ],
@@ -42,7 +42,7 @@
     "who is alaric",
     "whose bones are these"
    ],
-   "answer": "Alaric was Thule Ravenclaw's former head servant and bodyguard at Fenris Keep, beheaded by Thule after the creation of the Rot Hide gnolls. Discovered buried outside the fortress in a shallow grave, his animated spirit helps guide Horde adventurers in exchange for a proper resting place inside his beloved stronghold."
+   "answer": "Alaric served Thule Ravenclaw as head servant and bodyguard at Fenris Keep. Thule beheaded him after creating the Rot Hide gnolls. Found in a shallow grave outside the fortress, Alaric's animated spirit guides Horde travelers in exchange for a proper resting place inside his beloved stronghold."
   },
   {
    "q": "Where is the hidden niche located?",
@@ -51,7 +51,7 @@
     "where is the niche",
     "hidden niche location"
    ],
-   "answer": "The hidden niche is concealed inside the southwestern tower of Fenris Keep, hidden behind an unassuming, dusty bookshelf on the upper floor."
+   "answer": "The hidden niche lies behind a dusty bookshelf on an upper floor of Fenris Keep's southwestern tower."
   },
   {
    "q": "What item is hidden in the alcove?",
@@ -60,7 +60,7 @@
     "fenris keep treasure",
     "thule item"
    ],
-   "answer": "Inside the concealed alcove rests an old wand once treasured by Thule Ravenclaw and his former peers from Dalaran, along with other remnants Alaric leaves for those who aided him."
+   "answer": "The alcove holds an old wand treasured by Thule Ravenclaw and his former peers from Dalaran, along with other remnants Alaric leaves for those who helped him."
   },
   {
    "q": "Why does Alaric want to stay inside Fenris Keep?",
@@ -68,7 +68,7 @@
     "why leave alaric in fenris",
     "alaric resting place"
    ],
-   "answer": "Alaric considers the time he spent living within Fenris Keep to be the best days of his life. Sealing his remains within the stonework brings him peace and keeps him safe from the scavenger gnolls roaming the courtyards."
+   "answer": "Alaric remembers his years in Fenris Keep as the happiest of his life. Resting inside its stonework brings him peace and protects his remains from the scavenger gnolls in the courtyards."
   },
   {
    "q": "What happens after finding the shelf?",
@@ -76,7 +76,7 @@
     "quest after hidden niche",
     "what do i do with the wand"
    ],
-   "answer": "After sealing Alaric into the niche and retrieving the wand, adventurers are directed back to the Undercity to deliver the relic to Bethor Iceshard."
+   "answer": "After Alaric is sealed in the niche and you retrieve the wand, you return to the Undercity to deliver it to Bethor Iceshard."
   },
   {
    "q": "Why did Alaric tell you to leave his boots behind?",
@@ -84,21 +84,21 @@
     "alaric boots",
     "leave boots behind"
    ],
-   "answer": "When his bones were exhumed from the shallow grave, Alaric humorously insisted on leaving his old boots in the dirt, remarking that they never fit him properly anyway."
+   "answer": "When his bones were lifted from the shallow grave, Alaric joked that his old boots never fit properly and insisted they stay in the dirt."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "For the Forsaken, dealing with restless, speaking remains is familiar business, though Alaric's yearning for peaceful rest in human ruins is a stark reminder of the lands they inherited."
+   "text": "As a Forsaken, you know the business of speaking remains, but Alaric's wish for rest in human ruins recalls the lands your people inherited."
   },
   {
    "target": "class:Mage",
-   "text": "The hidden alcove preserves the arcane heritage of Fenris Keep, concealing artifacts tied directly to former Dalaran wizards like Thule Ravenclaw."
+   "text": "The hidden alcove preserves Fenris Keep's arcane heritage, with artifacts tied to former Dalaran wizards such as Thule Ravenclaw."
   },
   {
    "target": "faction:Horde",
-   "text": "Reclaiming relics from the heart of Fenris Keep undermines Thule's foothold on Fenris Isle and assists the Forsaken's campaign to secure Silverpine Forest."
+   "text": "As Horde, you recover relics from the heart of Fenris Keep, weakening Thule's foothold on Fenris Isle and aiding the Forsaken campaign to secure Silverpine Forest."
   }
  ],
  "keywords": [
@@ -117,5 +117,6 @@
  ],
  "attribution": [
   "The Hidden Niche"
- ]
+ ],
+ "style": 1
 }

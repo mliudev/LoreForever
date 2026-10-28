@@ -10,16 +10,16 @@
    "quest:3094"
   ]
  },
- "summary": "The Verdant Note is a summons delivered to novice tauren druids in Camp Narache. Sent on behalf of the druid mentor Gart Mistrunner, it instructs young initiates to report for training and begin learning the rites of the Earthmother.",
+ "summary": "In Camp Narache, Verdant Note calls young tauren druids to begin their training. Sent for Gart Mistrunner, it guides them toward the rites of the Earthmother.",
  "sections": [
   {
    "title": "A Call to the Path",
-   "body": "Young tauren who demonstrate a spiritual affinity for nature receive the Verdant Note shortly after beginning their trials in the Red Cloud Mesa. Carried by a messenger sent by Gart Mistrunner, the brief missive directs the initiate to present themselves to the mentor at Camp Narache. Restless spirits and shifting elements have begun troubling Mulgore, making the instruction of new druids an urgent duty for the elders.",
+   "body": "Young tauren with a gift for nature receive Verdant Note soon after their trials begin in the Red Cloud Mesa. A messenger carries Gart Mistrunner's brief summons to Camp Narache, where the initiate must report to the mentor. Restless spirits and shifting elements trouble Mulgore, and the elders need new druids trained quickly.",
    "spoiler": 0
   },
   {
    "title": "Teachings of the Earthmother",
-   "body": "Upon answering the note, initiates are inducted into the deeper mysteries of nature communion. Gart Mistrunner cautions young druids that although night elves share a common bond with the wild, their ancient pride keeps them distant and unwelcoming. Tauren druidism focuses strictly on reverence for the Earthmother, guiding initiates to listen to the land's restless ancestral voices and serve as her living instruments.",
+   "body": "Gart Mistrunner teaches initiates to commune with nature. He warns that night elves share a bond with the wild but keep their distance from tauren, guarded by ancient pride. Tauren druidism centers on reverence for the Earthmother. Initiates learn to hear the land's restless ancestral voices and serve as her living instruments.",
    "spoiler": 0
   }
  ],
@@ -30,7 +30,7 @@
     "verdant note item",
     "what is this note"
    ],
-   "answer": "It is a written summons delivered to fledgling tauren druids at Camp Narache, instructing them to seek out their local trainer, Gart Mistrunner, to formally begin their spiritual education."
+   "answer": "Verdant Note summons fledgling tauren druids to Camp Narache. It tells them to seek Gart Mistrunner and begin their spiritual training."
   },
   {
    "q": "Who sends the Verdant Note?",
@@ -38,7 +38,7 @@
     "who sent verdant note",
     "who wrote verdant note"
    ],
-   "answer": "The note is sent by a messenger on behalf of Gart Mistrunner, the druid trainer stationed at Camp Narache on the Red Cloud Mesa."
+   "answer": "A messenger carries Verdant Note on Gart Mistrunner's behalf. Gart is the druid trainer at Camp Narache on the Red Cloud Mesa."
   },
   {
    "q": "Why is Gart Mistrunner calling for druid initiates?",
@@ -46,7 +46,7 @@
     "why does gart want me",
     "gart mistrunner reason"
    ],
-   "answer": "Ancestral spirits across Mulgore and neighboring regions have grown unusually restless. Gart needs newly awakened druids trained quickly so they can commune with the wild spirits and heal the disturbed land."
+   "answer": "Restless ancestral spirits trouble Mulgore and nearby regions. Gart needs new druids trained quickly to commune with the wild spirits and heal the disturbed land."
   },
   {
    "q": "What does Gart tell druids regarding the night elves?",
@@ -54,17 +54,17 @@
     "night elves and tauren druids",
     "what about night elves"
    ],
-   "answer": "Gart warns that despite sharing a sacred bond with nature, the night elves are proud and unlikely to welcome tauren into their circles. He advises initiates to keep their attention focused on the teachings of the Earthmother instead."
+   "answer": "Gart warns that night elves share a sacred bond with nature but are proud and unlikely to welcome tauren into their circles. He urges initiates to focus on the teachings of the Earthmother."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "This parchment marks your formal acceptance into druidic study among the tauren, starting your lifelong journey in communion with the Earthmother."
+   "text": "As a druid, Verdant Note marks your acceptance into tauren druidic study and begins your lifelong communion with the Earthmother."
   },
   {
    "target": "race:Tauren",
-   "text": "For the Shu'halo, druidism is an ancestral calling directly tied to healing the balance of their sacred hunting grounds in Mulgore."
+   "text": "As Shu'halo, your druidism is an ancestral calling tied to healing the balance of your sacred hunting grounds in Mulgore."
   }
  ],
  "keywords": [
@@ -86,5 +86,6 @@
  "attribution": [
   "Verdant Note",
   "Verdant Note (quest)"
- ]
+ ],
+ "style": 1
 }

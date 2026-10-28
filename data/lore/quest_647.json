@@ -17,16 +17,16 @@
   "wiki": "MacKreel's Moonshine (quest)",
   "chain": []
  },
- "summary": "MacKreel's Moonshine is a fast-paced errand run on behalf of Foggy MacKreel, a dwarf stranded on the broken part of the Thandol Span. Having overindulged on his own potent brew and slept through his watch, Foggy entrusts an Alliance traveler with rushing a fresh batch to Hillsbrad to settle a lingering debt with Brewmeister Bilger in Southshore.",
+ "summary": "Foggy MacKreel sleeps through his watch on the broken Thandol Span after drinking too much of his own moonshine. Now he needs an Alliance traveler to hurry a fresh batch to Brewmeister Bilger in Southshore and settle his debt.",
  "sections": [
   {
    "title": "A Guard's Hangover",
-   "body": "Life on watch atop the shattered Thandol Span is wet, cold, and notoriously dull. Foggy MacKreel manages the damp chill by imbibing his own homemade moonshine, a concoction so fierce he compares its aftermath to an entire brigade of siege engines rolling across his skull. Unfortunately for Foggy, one drink too many caused him to pass out during his shift. With Longbraid the Grim commanding the dwarves defending the Span, Foggy cannot afford any further lapses in discipline.",
+   "body": "Foggy MacKreel keeps watch on the shattered Thandol Span, where the hours are wet, cold, and dull. To bear the damp chill, he drinks his homemade moonshine, a brew so fierce he likens its aftereffects to siege engines pounding across his skull. One drink too many leaves him passed out through his shift. Longbraid the Grim commands the dwarves defending the Span, and Foggy cannot afford another lapse in discipline.",
    "spoiler": 0
   },
   {
    "title": "A Race Against the Clock",
-   "body": "Compounding Foggy's troubles is a longstanding debt owed to Brewmeister Bilger in Southshore. Foggy promised Bilger a batch of his personal brew to balance the books, but between his hangover and his shift duties, he finds himself minutes away from default. Relying on gryphons and swift feet, travelers must race across the Arathi Highlands to Southshore to deliver the jug before Bilger decides Foggy has skipped out on his tab once again.",
+   "body": "Foggy also owes Brewmeister Bilger in Southshore a longstanding debt. He promised a batch of his personal brew to settle the account, but his hangover and watch duties leave him minutes from missing the deadline. With gryphons and swift feet, you race across the Arathi Highlands to Southshore with the jug, before Bilger decides Foggy has skipped out on his tab again.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who is foggy",
     "quest giver mackreel"
    ],
-   "answer": "Foggy MacKreel is a dwarf found on the broken part of the Thandol Span, reached from the Arathi Highlands side. Known for brewing extremely stout homemade moonshine, he tends to sample his own product a little too freely while on duty."
+   "answer": "Foggy MacKreel is a dwarf on the broken part of the Thandol Span, reached from the Arathi Highlands side. He brews extremely stout moonshine and often drinks too freely while on duty."
   },
   {
    "q": "Why is this delivery so urgent?",
@@ -47,7 +47,7 @@
     "why 15 minutes",
     "mackreel moonshine timer"
    ],
-   "answer": "Foggy ran severely behind schedule after passing out drunk during his watch. He has a strict deadline to deliver the moonshine to Brewmeister Bilger to settle an overdue tab, leaving barely a quarter of an hour to make the journey from the Thandol Span to Southshore."
+   "answer": "Foggy passed out drunk during his watch and fell badly behind schedule. He has barely a quarter of an hour to get the moonshine from the Thandol Span to Southshore and settle his overdue tab with Brewmeister Bilger."
   },
   {
    "q": "Who is Brewmeister Bilger?",
@@ -56,7 +56,7 @@
     "who is bilger",
     "bilger southshore"
    ],
-   "answer": "Brewmeister Bilger is a master dwarven brewer who plies his trade in the coastal settlement of Southshore within the Hillsbrad Foothills. He appreciates stout alcohol and has an outstanding business agreement with Foggy MacKreel."
+   "answer": "Brewmeister Bilger is a master dwarven brewer in the coastal settlement of Southshore, in the Hillsbrad Foothills. He appreciates stout alcohol and has an outstanding business agreement with Foggy MacKreel."
   },
   {
    "q": "How does one get the moonshine to Southshore in time?",
@@ -65,7 +65,7 @@
     "fastest way southshore mackreel",
     "moonshine delivery route"
    ],
-   "answer": "There is no boat from the Span to Southshore. The quickest route is to head into the Arathi Highlands and take a gryphon from Refuge Pointe to Southshore if you know that flight path, then find Brewmeister Bilger in town before the timer expires."
+   "answer": "There is no boat from the Span to Southshore. If you know the Refuge Pointe flight path, take a gryphon from Refuge Pointe to Southshore, then find Brewmeister Bilger in town before the time runs out."
   },
   {
    "q": "Who is Longbraid?",
@@ -73,17 +73,17 @@
     "captain longbraid",
     "longbraid menethil"
    ],
-   "answer": "Longbraid the Grim is the dwarf commander stationed outside Dun Modr in the Wetlands, leading the defenders of the Thandol Span. Foggy lives in absolute dread of Longbraid discovering that he drank himself unconscious while supposed to be on watch."
+   "answer": "Longbraid the Grim is the dwarf commander outside Dun Modr in the Wetlands, leading the defenders of the Thandol Span. Foggy dreads Longbraid discovering that he drank himself unconscious while on watch."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "Dwarves will immediately understand the double jeopardy of an agonizing hangover and an unpaid brewing debt owed to a fellow kinsman."
+   "text": "As a dwarf, you know the misery of a terrible hangover made worse by an unpaid brewing debt to a fellow kinsman."
   },
   {
    "target": "faction:Alliance",
-   "text": "This quick overland run highlights the vital connection between the Thandol Span and Alliance-held Southshore in Hillsbrad."
+   "text": "As an Alliance traveler, you cross the overland route linking the Thandol Span with Alliance-held Southshore in Hillsbrad."
   }
  ],
  "keywords": [
@@ -103,5 +103,6 @@
  ],
  "attribution": [
   "MacKreel's Moonshine (quest)"
- ]
+ ],
+ "style": 1
 }

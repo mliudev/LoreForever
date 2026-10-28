@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Demon Fall Canyon"
  },
- "summary": "Demon Fall Canyon is a scarred, fel-corrupted gorge situated in southern Ashenvale. It marks the legendary battleground where Grommash Hellscream and Thrall confronted the pit lord Mannoroth, ending the demonic blood curse that had enslaved the orcish race for a generation.",
+ "summary": "Demon Fall Canyon bears the scars of the battle that freed the orcs from the blood curse. Here, Thrall and Grommash Hellscream faced Mannoroth in southern Ashenvale.",
  "sections": [
   {
    "title": "The Fall of Mannoroth",
-   "body": "Carved into the rugged southern borders of Ashenvale near Felfire Hill and Demon Fall Ridge, this canyon bears the heavy scars of the Third War. It was here that Warchief Thrall and chieftain Grommash Hellscream tracked down the pit lord Mannoroth to break his hold over the Horde. During the fierce duel, Mannoroth incapacitated Thrall, but Grom seized the opening to drive his axe, Gorehowl, straight into the demon's chest. The resulting infernal explosion shattered the pit lord and slew Grom as well, permanently liberating the orcs from their lingering demonic servitude.",
+   "body": "In southern Ashenvale, the canyon lies near Felfire Hill and Demon Fall Ridge, its land scarred by the Third War. Warchief Thrall and chieftain Grommash Hellscream tracked the pit lord Mannoroth here to break his hold over the Horde. Mannoroth struck Thrall down, and Grom seized the chance to drive his axe, Gorehowl, into the demon’s chest. The infernal blast shattered Mannoroth and killed Grom. With the pit lord’s death, the orcs were free of their lingering demonic servitude.",
    "spoiler": 0
   },
   {
    "title": "A Sacred Yet Dangerous Chasm",
-   "body": "Following Mannoroth's demise, the Horde dubbed the canyon to commemorate Grom's final stand, erecting a monument nearby to honor his redemption. Despite the pit lord's destruction, his violent death unleashed raw demonic power that thoroughly tainted the surrounding land. Today, the canyon remains saturated in fel magic and crawls with hostile lingering lesser demons, making any pilgrimage to this hallowed ground a perilous venture.",
+   "body": "The Horde named the canyon for Grom’s final stand and raised a monument nearby to honor his redemption. Mannoroth’s death unleashed demonic power that tainted the surrounding land. Fel magic still saturates the canyon, where lesser demons roam. Pilgrims who come to this hallowed ground face danger at every turn.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "why called demon fall canyon",
     "how did it get its name"
    ],
-   "answer": "The canyon was named by the Horde to commemorate the death of the pit lord Mannoroth, who fell here after being slain by Grommash Hellscream."
+   "answer": "The Horde named the canyon for the fall of Mannoroth, slain here by Grommash Hellscream."
   },
   {
    "q": "What happened between Grom and Mannoroth here?",
@@ -37,7 +37,7 @@
     "grom vs mannoroth",
     "how did grom die"
    ],
-   "answer": "Thrall and Grom confronted Mannoroth together. Thrall was knocked unconscious, but Grom dealt a lethal blow with his axe. The violent explosion of demonic fire released by Mannoroth's demise fatally wounded Grom, freeing his people from the blood curse with his dying breath."
+   "answer": "Thrall and Grom confronted Mannoroth together. The pit lord knocked Thrall unconscious, but Grom struck a lethal blow with his axe. Mannoroth’s blast of demonic fire fatally wounded Grom, whose dying act freed his people from the blood curse."
   },
   {
    "q": "Why are there still demons roaming the canyon?",
@@ -46,7 +46,7 @@
     "demon fall canyon mobs",
     "why is it fel corrupted"
    ],
-   "answer": "When the pit lord Mannoroth died, the tremendous blast of demonic energy permanently corrupted the canyon floor, leaving behind lingering fel corruption that attracts and harbors lesser demons."
+   "answer": "Mannoroth’s death unleashed a tremendous blast of demonic energy that permanently corrupted the canyon floor. Lingering fel corruption still attracts and harbors lesser demons."
   },
   {
    "q": "Where is Grom Hellscream's memorial?",
@@ -55,17 +55,17 @@
     "hellscream memorial",
     "where is grom's grave"
    ],
-   "answer": "A memorial monument honoring Grom Hellscream stands nearby in the vicinity of Demon Fall Canyon, where Horde pilgrims come to pay tribute to the warrior who freed their people."
+   "answer": "A monument honoring Grom Hellscream stands near Demon Fall Canyon, where Horde pilgrims pay tribute to the warrior who freed their people."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "This scorched ground is sacred to the Horde as the site of Grommash Hellscream's ultimate sacrifice, where the blood curse of the Burning Legion was finally broken."
+   "text": "As a member of the Horde, you stand on sacred ground where Grommash Hellscream made his ultimate sacrifice and broke the Burning Legion’s blood curse."
   },
   {
    "target": "race:Orc",
-   "text": "Every orc owes their spiritual and physical freedom to the battle fought in this canyon, where Grom traded his life to shatter their demonic bondage."
+   "text": "As an orc, you owe your spiritual and physical freedom to the battle in this canyon, where Grom gave his life to end your demonic bondage."
   }
  ],
  "keywords": [
@@ -89,5 +89,6 @@
  ],
  "attribution": [
   "Demon Fall Canyon"
- ]
+ ],
+ "style": 1
 }

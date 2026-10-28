@@ -8,21 +8,21 @@
   "wiki": "Commander Springvale (Classic)",
   "refs": 5
  },
- "summary": "Commander Springvale was once a devoted paladin and a commander at Shadowfang Keep. Slain alongside his men during the feral worgen slaughter orchestrated by Archmage Arugal, his vengeful spirit remains behind to haunt the castle halls. Even in death, his ghost fiercely guards the keep against all who enter.",
+ "summary": "At Shadowfang Keep, Commander Springvale's spirit guards the halls where he fell. Once a devoted paladin and commander, he was slain with his men by Arugal's worgen and remains to haunt the castle.",
  "sections": [
   {
    "title": "The Fallen Commander",
-   "body": "Before the ruin of Shadowfang Keep, Commander Springvale stood as an honorable paladin dedicated to the Holy Light. Leading the garrison in Silverpine Forest, he oversaw the keep's security during the fraught days following the fall of Lordaeron to the Scourge.",
+   "body": "Commander Springvale led the garrison at Shadowfang Keep in Silverpine Forest. Before the keep's ruin, he was an honorable paladin devoted to the Holy Light. After Lordaeron fell to the Scourge, he oversaw the fortress's security through those troubled days.",
    "spoiler": 0
   },
   {
    "title": "Arugal's Folly",
-   "body": "When Archmage Arugal summoned the extraplanar worgen to bolster Dalaran's failing ranks against the undead Scourge, the wild beasts quickly slipped from the mage's control. The ravenous pack descended upon the fortress, slaughtering Baron Silverlaine and his entire guard. Springvale perished in the halls he had sworn to protect, his service violently cut short.",
+   "body": "Archmage Arugal summoned extraplanar worgen to strengthen Dalaran's failing ranks against the undead Scourge. The wild beasts soon escaped his control and descended on Shadowfang Keep. They slaughtered Baron Silverlaine and his entire guard. Springvale died in the halls he had sworn to protect, his service cut short.",
    "spoiler": 0
   },
   {
    "title": "An Endless Vigil",
-   "body": "Death offered no release to Springvale. His ghost haunts the keep's council room alongside its spectral soldiers. He still wields paladin powers, including Holy Light and Hammer of Justice, against intruders.",
+   "body": "Death did not release Springvale. His ghost haunts the keep's council room with its spectral soldiers. He still wields paladin powers, including Holy Light and Hammer of Justice, against intruders.",
    "spoiler": 0
   }
  ],
@@ -34,7 +34,7 @@
     "who is commander springvale",
     "is springvale a paladin"
    ],
-   "answer": "Commander Springvale was a paladin of the Holy Light and a commander at Shadowfang Keep. He died there when Arugal's worgen overran the keep."
+   "answer": "Commander Springvale was a paladin devoted to the Holy Light and a commander at Shadowfang Keep. He died there when Arugal's worgen overran the fortress."
   },
   {
    "q": "How did Commander Springvale die?",
@@ -43,7 +43,7 @@
     "who killed springvale",
     "springvale death"
    ],
-   "answer": "He was killed when Archmage Arugal summoned feral worgen to fight the Scourge. The untamed beasts turned upon the inhabitants of Shadowfang Keep, massacring Baron Silverlaine, Springvale, and the garrison."
+   "answer": "Archmage Arugal summoned feral worgen to fight the Scourge, but the beasts turned on Shadowfang Keep's inhabitants. They killed Baron Silverlaine, Springvale, and the garrison."
   },
   {
    "q": "Why is Commander Springvale haunting Shadowfang Keep?",
@@ -52,7 +52,7 @@
     "springvale motive",
     "why does springvale fight"
    ],
-   "answer": "Twisted in death, his spirit remains bound by his final oaths. Springvale's ghost wanders the halls to defend the ruins against all who enter."
+   "answer": "Springvale's spirit remains bound by his final oaths. His ghost wanders the halls to defend the ruins against all who enter."
   },
   {
    "q": "What powers does Springvale use?",
@@ -61,7 +61,7 @@
     "springvale unholy abilities",
     "corrupted paladin"
    ],
-   "answer": "Springvale retains paladin abilities in undeath, healing with Holy Light and stunning enemies with Hammer of Justice."
+   "answer": "Springvale retains paladin abilities in undeath. He heals with Holy Light and stuns enemies with Hammer of Justice."
   },
   {
    "q": "Who was his master?",
@@ -70,7 +70,7 @@
     "who did springvale serve",
     "springvale and silverlaine"
    ],
-   "answer": "No record names the lord he served. He is known only as a commander who fell when Arugal's worgen overran Shadowfang Keep, the seat of Baron Silverlaine."
+   "answer": "No record names the lord Springvale served. He is known as a commander who fell when Arugal's worgen overran Shadowfang Keep, the seat of Baron Silverlaine."
   },
   {
    "q": "Where in the keep can he be found?",
@@ -79,21 +79,21 @@
     "where is springvale",
     "shadowfang springvale room"
    ],
-   "answer": "Commander Springvale's ghost is encountered deep within the keep, haunting the fortified chambers near the castle chapel and council rooms."
+   "answer": "Commander Springvale's ghost haunts the fortified chambers deep within the keep, near the castle chapel and council rooms."
   }
  ],
  "angles": [
   {
    "target": "class:Paladin",
-   "text": "Springvale is a sobering reminder of how duty and sacred vows can curdle into eternal torment when an honorable knight is bound to a corrupted grave."
+   "text": "As a paladin, Springvale shows how duty and sacred vows can become eternal torment when an honorable knight is bound to a corrupted grave."
   },
   {
    "target": "faction:Alliance",
-   "text": "Springvale represents the lost soldiers of Lordaeron and Gilneas, loyal defenders who fell not to the Scourge directly, but to the reckless summonings meant to stop them."
+   "text": "As an Alliance member, you can remember Springvale among the lost soldiers of Lordaeron and Gilneas. They fell to the reckless summonings meant to stop the Scourge, not to the Scourge itself."
   },
   {
    "target": "faction:Horde",
-   "text": "For the Forsaken reclaiming Silverpine Forest, laying the commander's shade to rest is another step in purging the remnants of Arugal's tragic failure."
+   "text": "As a member of the Horde reclaiming Silverpine Forest, you can see laying Springvale's shade to rest as another step in purging the remnants of Arugal's tragic failure."
   }
  ],
  "keywords": [
@@ -120,5 +120,6 @@
  "attribution": [
   "Commander Springvale (Classic)",
   "Commander Springvale"
- ]
+ ],
+ "style": 1
 }

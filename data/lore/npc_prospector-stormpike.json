@@ -8,11 +8,11 @@
   "wiki": "Prospector Stormpike",
   "refs": 2
  },
- "summary": "Prospector Stormpike is a blunt, short-tempered dwarf stationed within the Library of the Hall of Explorers in Ironforge. A member of the renowned Stormpike clan, he oversees logistical support for distant archaeological digs and lends his sharp intellect to deciphering coded missives.",
+ "summary": "In Ironforge, Prospector Stormpike oversees support for distant archaeological digs. A blunt, short-tempered dwarf of the renowned Stormpike clan, he also uses his sharp mind to decipher coded messages.",
  "sections": [
   {
    "title": "Scholar of the Hall of Explorers",
-   "body": "Tucked away amid the towering bookshelves of the Hall of Explorers, Prospector Stormpike coordinates excavation efforts across Khaz Modan and beyond. Despite his gruff demeanor and impatience with idle chatter, he is deeply dedicated to uncovering dwarven history, keeping distant sites supplied with essentials like blasting powder. Beneath his rough exterior lies a keen analytical mind skilled at breaking intricate ciphers, making him an unexpected asset to Alliance scouts dealing with clandestine threats.",
+   "body": "Prospector Stormpike coordinates excavations from the Library of the Hall of Explorers. His work sends supplies, including blasting powder, to distant sites across Khaz Modan and beyond. He is impatient with idle chatter, but his dedication to uncovering dwarven history runs deep. His keen mind can break intricate ciphers, making him a useful ally to scouts facing secret threats.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "prospector stormpike lore",
     "stormpike npc"
    ],
-   "answer": "He is an archaeologist and logistics coordinator belonging to the well-known Stormpike clan, based in the Library wing of Ironforge's Hall of Explorers."
+   "answer": "Prospector Stormpike is an archaeologist and logistics coordinator of the renowned Stormpike clan. He works in the Library of Ironforge's Hall of Explorers."
   },
   {
    "q": "Where can I find Prospector Stormpike?",
@@ -32,7 +32,7 @@
     "stormpike location",
     "where is prospector stormpike"
    ],
-   "answer": "He can be found standing inside the Library, located within the Hall of Explorers in the eastern reaches of Ironforge."
+   "answer": "You can find Prospector Stormpike inside the Library, in the eastern reaches of Ironforge's Hall of Explorers."
   },
   {
    "q": "What kind of work does he do?",
@@ -40,7 +40,7 @@
     "stormpike quests",
     "what does stormpike do"
    ],
-   "answer": "Stormpike handles supply lines and reports for archaeological excavations\u2014such as dispatching blasting powder out to field prospectors like Prospector Ironband in Loch Modan\u2014and assists with breaking complex encrypted ciphers brought back by scouts."
+   "answer": "Stormpike manages supplies and reports for archaeological digs. He sends blasting powder to field prospectors such as Prospector Ironband in Loch Modan, and helps scouts break complex coded messages."
   },
   {
    "q": "Why does Southshore need his help?",
@@ -48,17 +48,17 @@
     "argus wake cipher",
     "southshore stormpike"
    ],
-   "answer": "Alliance authorities in Southshore rely on his knack for cryptography to decode intercepted letters written by the secretive Argus Wake cult."
+   "answer": "Southshore's Alliance authorities need Stormpike to decipher intercepted letters written by the secretive Argus Wake cult."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "Stormpike embodies the driven, no-nonsense spirit of the Explorers' League, treating ancient research and logistics as matters of utmost dwarven pride."
+   "text": "As a dwarf, you can see the Explorers' League spirit in Stormpike's driven, no-nonsense approach. He treats ancient research and logistics as matters of dwarven pride."
   },
   {
    "target": "faction:Alliance",
-   "text": "Beyond excavation work, Stormpike's knack for cryptography aids Alliance operations in northern lands against shadowy human cults like the Argus Wake."
+   "text": "As an Alliance member, you can rely on Stormpike's skill with ciphers in operations against secretive human cults such as the Argus Wake in northern lands."
   }
  ],
  "keywords": [
@@ -82,5 +82,6 @@
  ],
  "attribution": [
   "Prospector Stormpike"
- ]
+ ],
+ "style": 1
 }

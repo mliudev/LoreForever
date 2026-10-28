@@ -21,21 +21,21 @@
    "The Den (quest)"
   ]
  },
- "summary": "Braelyn Firehand at Sunrock Retreat uses her arcane sight to track down Keeper Ordanus, an elder son of Cenarius who fled Stonetalon Peak. Believing his people desecrated ancient Highborne ruins, she sends Horde champions across the border into Ashenvale to take his head.",
+ "summary": "At Sunrock Retreat, Braelyn Firehand uses arcane sight to hunt Keeper Ordanus, an elder son of Cenarius who fled Stonetalon Peak. She believes his people desecrated ancient Highborne ruins, so she sends Horde champions across the border into Ashenvale to take his head.",
  "sections": [
   {
    "title": "A Hunt Driven by Ancient Grudges",
-   "body": "Braelyn Firehand arrived in Stonetalon Mountains on orders from her master to reclaim the sacred ruins of Azshara's ancient temples. She found the night elves already occupying the peak, treating the relics of her Highborne forebears as wilderness to be contained. Her chief target, Keeper Ordanus, fled before she could corner him, slipping across the border into Ashenvale. Using her arcane vision, Braelyn scried his hiding place high in a wooden refuge at Raynewood Retreat and enlisted the Horde to finish the hunt.",
+   "body": "Braelyn Firehand came to Stonetalon Mountains on her master's orders to reclaim the sacred ruins of Azshara's ancient temples. She found night elves already at the peak, treating relics of her Highborne forebears as wilderness to be contained. Her chief target, Keeper Ordanus, escaped before she could corner him and crossed into Ashenvale. Braelyn used arcane vision to find his hiding place high in a wooden refuge at Raynewood Retreat, then enlisted the Horde to finish the hunt.",
    "spoiler": 0
   },
   {
    "title": "The Scion of the Forest God",
-   "body": "Ordanus is counted among the eldest sons of Cenarius, possessing deep ties to the wild magics of Kalimdor. Night elf guardians moved him from Stonetalon Peak to Raynewood Retreat, seeking to protect him from the arcane forces encroaching upon sacred groves. Defended by loyal Cenarion Vindicators and summoned woodland treants, the keeper represents both the ancient authority of the forest demigod and a living obstacle to Braelyn's vengeance.",
+   "body": "Among Cenarius's sons, Keeper Ordanus is counted as one of the eldest, with deep ties to Kalimdor's wild magics. Night elf guardians moved him from Stonetalon Peak to Raynewood Retreat to shield him from arcane forces encroaching on sacred groves. Loyal Cenarion Vindicators and summoned woodland treants defend him. For Braelyn, the keeper carries the forest demigod's ancient authority and blocks her vengeance.",
    "spoiler": 0
   },
   {
    "title": "Highborne Vengeance",
-   "body": "For Braelyn Firehand, claiming Ordanus's head is deeply personal rather than merely tactical. She openly recalls knowing him centuries ago, remembering the arrogance with which Cenarius's offspring looked down upon the Highborne and their mastery of the arcane. Severing his head serves to avenge ancient slights and clear the path for her master's deeper designs in Kalimdor's wilderness.",
+   "body": "Braelyn Firehand seeks Ordanus's head for a personal grievance as well as her cause. She recalls knowing him centuries ago, when Cenarius's offspring looked down on the Highborne and their mastery of the arcane. Taking his head would avenge those old slights and clear a path for her master's deeper designs in Kalimdor's wilderness.",
    "spoiler": 1
   }
  ],
@@ -47,7 +47,7 @@
     "who is ordanus",
     "who is keeper ordanus"
    ],
-   "answer": "Ordanus is a keeper of the grove and one of the eldest sons of the demigod Cenarius. He was initially stationed near Stonetalon Peak before fleeing into Ashenvale to escape Highborne vengeance."
+   "answer": "Keeper Ordanus is a keeper of the grove and one of Cenarius's eldest sons. He was first stationed near Stonetalon Peak, then fled into Ashenvale to escape Highborne vengeance."
   },
   {
    "q": "Where can Keeper Ordanus be found?",
@@ -56,7 +56,7 @@
     "where is ordanus",
     "raynewood retreat tree"
    ],
-   "answer": "Ordanus resides at the top of a massive hollow tree structure in Raynewood Retreat, located along the road through central Ashenvale."
+   "answer": "Keeper Ordanus lives at the top of a massive hollow tree structure at Raynewood Retreat, along the road through central Ashenvale."
   },
   {
    "q": "Why does Braelyn Firehand want Ordanus dead?",
@@ -65,7 +65,7 @@
     "braelyn grudge",
     "why does braelyn want ordanus"
    ],
-   "answer": "Braelyn views night elf presence in Stonetalon as a desecration of ancient Highborne temple ruins. She also holds a long-standing personal hatred toward Ordanus, remembering him as arrogant and dismissive of her people in ages past."
+   "answer": "Braelyn sees the night elves' presence in Stonetalon as a desecration of ancient Highborne temple ruins. She also hates Ordanus for what she remembers as his arrogance and contempt for her people in ages past."
   },
   {
    "q": "Who is Braelyn Firehand's master?",
@@ -74,7 +74,7 @@
     "who sent braelyn",
     "braelyns master"
    ],
-   "answer": "Braelyn speaks of serving a master who directed her to the peak of Stonetalon to reclaim the ancient temple ruins of Azshara, though she keeps the master's exact identity guarded."
+   "answer": "Braelyn says her master sent her to Stonetalon Peak to reclaim Azshara's ancient temple ruins, but she guards the master's exact identity."
   },
   {
    "q": "How does this conflict fit into the Horde's presence in Stonetalon?",
@@ -82,7 +82,7 @@
     "why does horde help braelyn",
     "stonetalon horde motives"
    ],
-   "answer": "Horde forces stationed at Sunrock Retreat frequently clash with night elf sentinels and Cenarion protectors for territory and resources across Stonetalon and Ashenvale, making Braelyn's strike against a Cenarion leader mutually beneficial."
+   "answer": "Horde forces at Sunrock Retreat often clash with night elf sentinels and Cenarion protectors over territory and resources across Stonetalon and Ashenvale. Braelyn's strike against a Cenarion leader serves both sides' aims."
   },
   {
    "q": "What happens after Ordanus is slain?",
@@ -91,21 +91,21 @@
     "quest after ordanus",
     "the den next"
    ],
-   "answer": "Once Ordanus is dead, Braelyn rewards the champion and directs them toward The Den, delving further into the surrounding threats across the Stonetalon peaks."
+   "answer": "After Ordanus dies, Braelyn rewards you and points you toward The Den, where threats across the Stonetalon peaks await."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "Striking down an elder son of Cenarius weakens night elf authority across the Ashenvale-Stonetalon border, aiding Horde expansion into contested timberlands."
+   "text": "As a member of the Horde, you weaken night elf authority across the Ashenvale-Stonetalon border by striking down an elder son of Cenarius, aiding Horde expansion into contested timberlands."
   },
   {
    "target": "class:Mage",
-   "text": "Braelyn Firehand represents the unyielding arcane pride of the Highborne, asserting arcane supremacy over Cenarion natural philosophy."
+   "text": "As a mage, you may see Braelyn Firehand embody the Highborne's unyielding arcane pride and belief in arcane mastery over Cenarion natural philosophy."
   },
   {
    "target": "class:Druid",
-   "text": "Horde druids face a grim dilemma in this task, taking the life of a direct son of Cenarius to fulfill a blood elf's ancient feud."
+   "text": "As a druid of the Horde, you face a grim choice: take the life of a direct son of Cenarius to fulfill a blood elf's ancient feud."
   }
  ],
  "keywords": [
@@ -130,5 +130,6 @@
  ],
  "attribution": [
   "Ordanus (quest)"
- ]
+ ],
+ "style": 1
 }

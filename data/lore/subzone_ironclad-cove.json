@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Ironclad Cove"
  },
- "summary": "Ironclad Cove is a massive subterranean cavern hidden beneath Westfall, housing an underground shipyard and dock. It serves as the secret construction dock for the Defias Brotherhood's war juggernaught and connects directly to the sea.",
+ "summary": "Deep beneath Westfall, Ironclad Cove holds a hidden shipyard and dock. The Defias Brotherhood builds its war juggernaught here, with a passage to the sea.",
  "sections": [
   {
    "title": "The Hidden Shipyard",
-   "body": "Buried at the deepest point of the Deadmines, Ironclad Cove is a monumental sea cavern converted into a fortified dockyard. Here, Edwin VanCleef and the Defias Brotherhood have constructed an enormous warship known as the juggernaught. The cavern features extensive wooden scaffolding, islets, and loading catwalks manned by Defias pirates, deckhands, and overseers. Its existence reveals the true scale of the Defias threat: VanCleef intends not merely to raid Westfall's farmsteads, but to assemble a private naval force capable of bombarding the shores of Stormwind itself.",
+   "body": "Ironclad Cove lies at the deepest point of the Deadmines, where a vast sea cavern has become a fortified dockyard. Edwin VanCleef and the Defias Brotherhood have built an enormous warship here, the juggernaught. Wooden scaffolding, islets, and loading catwalks fill the cavern, watched by Defias pirates, deckhands, and overseers. VanCleef aims to do more than raid Westfall's farmsteads: he plans to assemble a private naval force capable of bombarding Stormwind's shores.",
    "spoiler": 0
   },
   {
    "title": "Gateway to the Ocean",
-   "body": "The cavern is dominated by colossal iron-reinforced sea doors set into the rock wall. Once opened, these gates provide a direct outlet into the Great Sea, emerging along the coast of northern Stranglethorn Vale. Shielded from the eyes of the Stormwind naval fleet, the cove provides the Brotherhood an unmonitored lane for moving contraband, staging maritime raids, and preparing their naval assault.",
+   "body": "Colossal iron-reinforced sea doors fill the cavern wall. Beyond them lies the Great Sea, along the coast of northern Stranglethorn Vale. Hidden from Stormwind's naval fleet, the cove gives the Brotherhood an unmonitored route to move contraband, stage maritime raids, and prepare its naval assault.",
    "spoiler": 1
   }
  ],
@@ -28,7 +28,7 @@
     "what is the juggernaught",
     "deadmines ship purpose"
    ],
-   "answer": "The juggernaught is the centerpiece of Edwin VanCleef's military ambitions. The Defias Brotherhood assembled this massive warship deep beneath the earth so it could launch undetected through subterranean water channels and strike at Stormwind from the sea."
+   "answer": "The juggernaught is the centerpiece of Edwin VanCleef's military ambitions. The Defias Brotherhood built the massive warship deep beneath the earth so it could pass unseen through subterranean water channels and strike Stormwind from the sea."
   },
   {
    "q": "Where does the large metal door in the cove lead?",
@@ -37,7 +37,7 @@
     "deadmines iron doors",
     "exit into the ocean"
    ],
-   "answer": "The massive gates open directly into the ocean; their outer face can be seen along the coast of northern Stranglethorn Vale. When opened, the juggernaught can sail straight out into the Great Sea."
+   "answer": "The massive gates open directly into the ocean, along the coast of northern Stranglethorn Vale. Once they open, the juggernaught can sail into the Great Sea."
   },
   {
    "q": "Who controls Ironclad Cove?",
@@ -45,7 +45,7 @@
     "who runs the cove",
     "who lives in ironclad cove"
    ],
-   "answer": "The Defias Brotherhood holds the cove under the command of Edwin VanCleef, using the hidden docks to keep the juggernaught's construction entirely secret."
+   "answer": "The Defias Brotherhood controls Ironclad Cove under Edwin VanCleef's command. Its hidden docks keep the juggernaught's construction secret."
   },
   {
    "q": "Who is the murloc aboard the ship?",
@@ -54,17 +54,17 @@
     "why is there a murloc pirate",
     "chef cookie"
    ],
-   "answer": "That is Cookie, the Defias ship's cook. Armed with a rolling pin and cooking cauldrons, he is an unusual ally among the human and goblin renegades, having claimed the galley as his personal domain."
+   "answer": "The murloc is Cookie, the Defias ship's cook. Armed with a rolling pin and cooking cauldrons, he has claimed the galley as his own among the human and goblin renegades."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Finding a full-sized war galleon buried under Westfall transforms the Defias from a regional bandit gang into an existential military threat against the Kingdom of Stormwind."
+   "text": "Finding a full-sized war galleon buried beneath Westfall makes the Defias a military threat to the Kingdom of Stormwind, far beyond a regional bandit gang."
   },
   {
    "target": "class:Rogue",
-   "text": "The cove represents the zenith of Edwin VanCleef's craftsmanship, engineering prowess, and underground logistics, making it legendary among thieves and outlaws."
+   "text": "For a rogue, Ironclad Cove shows the height of Edwin VanCleef's craftsmanship, engineering skill, and underground logistics. Thieves and outlaws consider it legendary."
   }
  ],
  "keywords": [
@@ -85,5 +85,6 @@
  ],
  "attribution": [
   "Ironclad Cove"
- ]
+ ],
+ "style": 1
 }

@@ -17,16 +17,16 @@
   "wiki": "Worgen in the Woods (Classic, 4)",
   "chain": []
  },
- "summary": "This errand delivers Calor's letter of recommendation to Jonathan Carevin in Darkshire, concluding your pursuit of the savage worgen haunting Duskwood. Impressed by your prowess against the beastly invaders, Calor points you directly to a man fighting deeper threats among the shadows.",
+ "summary": "Calor sends you to Darkshire with a letter for Jonathan Carevin after your hunts against the worgen in Duskwood. Carevin faces dangers beyond the beasts, and Calor believes your skill can aid him.",
  "sections": [
   {
    "title": "A Rare Recommendation",
-   "body": "Having culled the Nightbane pack stalking Roland's Doom and the shadowed glades, you earn the hard-won respect of Calor. Stationed on the darkened frontiers of the woods, Calor is rarely eager to hand out compliments, let alone formal introductions. Handing over a faded scrap of parchment, he directs you to deliver his word directly to Jonathan Carevin in Darkshire, remarking that if they had more fighters of your caliber, their small cohort might finally eclipse the town's beleaguered Night Watch.",
+   "body": "You have driven the Nightbane pack from Roland's Doom and the shadowed glades, earning Calor's respect. He is stationed on the dark frontier of the woods and rarely offers praise or formal introductions. Calor gives you a faded scrap of parchment and asks you to deliver his recommendation to Jonathan Carevin in Darkshire. He says that with more fighters like you, his small company might outshine the town's beleaguered Night Watch.",
    "spoiler": 0
   },
   {
    "title": "Carevin's Vigil",
-   "body": "Jonathan Carevin operates within Darkshire under tremendous strain, wary of outsiders and perpetually pressed for time. The town faces onslaughts not only from slavering worgen, but also from unresting undead, shadowy demonic forces, and traitorous cultists aiding the corruption from within. Receiving Calor's glowing endorsement breaks Carevin's cold demeanor, confirming you as a trustworthy blade dedicated to preserving the Light against the suffocating terrors of Duskwood.",
+   "body": "Jonathan Carevin works in Darkshire under heavy strain, wary of outsiders and short on time. The town faces worgen, restless undead, demonic forces, and cultists aiding the corruption from within. Calor's recommendation wins Carevin's trust, and he sees you as a dependable fighter ready to preserve the Light against Duskwood's terrors.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who starts this",
     "calor"
    ],
-   "answer": "Calor sends you on this errand. Having observed your success against the voracious worgen packs throughout Duskwood, he provides you with a faded note of recommendation to carry to his associate, Jonathan Carevin."
+   "answer": "Calor sends you to deliver a faded letter of recommendation to Jonathan Carevin. Your success against the worgen packs across Duskwood has earned Calor's respect."
   },
   {
    "q": "Who is Jonathan Carevin?",
@@ -47,7 +47,7 @@
     "who is carevin",
     "master carevin"
    ],
-   "answer": "Jonathan Carevin is a grim, highly focused resident of Darkshire who coordinates efforts against the supernatural evils menacing the town. While wary of strangers, he works alongside trusted figures like Calor to root out undead, demons, and the sympathizers aiding them."
+   "answer": "Jonathan Carevin is a focused resident of Darkshire who coordinates the town's defense against supernatural threats. Though wary of strangers, he works with trusted allies such as Calor against undead, demons, and those who aid them."
   },
   {
    "q": "Why is Calor so dismissive of the Night Watch?",
@@ -56,7 +56,7 @@
     "outnumber the night watch",
     "why compete with night watch"
    ],
-   "answer": "Calor hints that the town's official Night Watch is struggling and stretched too thin to handle the variety of horrors invading Duskwood. He believes a few capable, dedicated fighters working outside the formal bureaucracy can achieve far more against the encroaching shadows."
+   "answer": "Calor believes the Night Watch is struggling to meet the many dangers in Duskwood. He thinks a few capable fighters can do more against them than the town's small company can manage."
   },
   {
    "q": "What threats does Carevin warn about upon delivery?",
@@ -65,7 +65,7 @@
     "what does carevin say",
     "what are we fighting"
    ],
-   "answer": "Upon reading the recommendation, Carevin warns that Darkshire faces threats on all fronts: ravenous worgen, wandering undead, invading demons, and insidious cultists or sympathizers providing them aid. He cautions you to remain ever-vigilant and trust only proven allies."
+   "answer": "Carevin faces worgen, restless undead, demonic forces, and cultists who help the corruption from within. The town is under pressure from threats on every side."
   },
   {
    "q": "Does this quest require any combat?",
@@ -74,7 +74,7 @@
     "do i kill anything",
     "delivery only"
    ],
-   "answer": "No. This final step is entirely a delivery mission. After enduring the dangerous hunts against the Nightbane worgen across Duskwood in the earlier parts of the chain, this task merely requires bringing Calor's note safely to Carevin in Darkshire."
+   "answer": "No. You only need to take Calor's letter to Carevin in Darkshire. The earlier hunts against the Nightbane worgen are already behind you."
   },
   {
    "q": "Where can I find Jonathan Carevin?",
@@ -83,21 +83,21 @@
     "where is carevin",
     "where to turn in"
    ],
-   "answer": "Jonathan Carevin can be found inside the town of Darkshire in Duskwood, attending to urgent matters regarding the town's precarious defense."
+   "answer": "Jonathan Carevin is in Darkshire, where he attends to the town's defense."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "With the Kingdom of Stormwind failing to spare soldiers for Duskwood's borderlands, independent Alliance adventurers and vigilantes like Carevin represent the town's only line of defense."
+   "text": "With the Kingdom of Stormwind failing to spare soldiers for Duskwood's borderlands, independent Alliance adventurers and vigilantes like Carevin are the town's only line of defense."
   },
   {
    "target": "class:Paladin",
-   "text": "Carevin greets proven allies with invocations of the Holy Light, seeking holy champions willing to stand firm against Duskwood's rampant unholy evils."
+   "text": "As a paladin, Carevin welcomes proven allies with words of the Holy Light and seeks holy champions to face Duskwood's unholy evils."
   },
   {
    "target": "class:Priest",
-   "text": "Carevin's parting blessing of 'Glory under the Light' echoes the desperate faith held by Darkshire's remaining defenders in the face of unending dark corruption."
+   "text": "As a priest, you hear Carevin's parting blessing, “Glory under the Light,” a sign of the defenders' faith amid Darkshire's unending corruption."
   }
  ],
  "keywords": [
@@ -119,5 +119,6 @@
  ],
  "attribution": [
   "Worgen in the Woods (Classic, 4)"
- ]
+ ],
+ "style": 1
 }

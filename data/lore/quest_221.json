@@ -17,16 +17,16 @@
   "wiki": "Worgen in the Woods (Classic, 2)",
   "chain": []
  },
- "summary": "As the Nightbane pack encroaches further upon Darkshire, Calor tasks adventurers with striking down the pack's primary rank-and-file stalkers. These ferocious Dark Runners have overrun the nearby Rotting Orchard, threatening to completely surround the besieged town.",
+ "summary": "In Duskwood, Nightbane Dark Runners press closer to Darkshire. Calor sends you into the Rotting Orchard to thin their ranks before the pack can surround the town.",
  "sections": [
   {
    "title": "A Tightening Perimeter",
-   "body": "While scouts first encountered lone worgen weaving shadowy magic on the fringes of the forest, Calor's rangings revealed a far more urgent tactical threat. Larger, swifter beasts known as Nightbane Dark Runners have massed in the Rotting Orchard just southwest of Darkshire. Rather than merely lurking beneath the canopy, these predators form the bulk of the pack's numbers, establishing a staging ground within striking distance of the village gates.",
+   "body": "Calor's scouting has revealed a greater danger than the lone worgen first seen weaving shadowy magic at the forest's edge. Larger and swifter Nightbane Dark Runners have gathered in the Rotting Orchard, just southwest of Darkshire. They make up most of the pack and have turned the orchard into a staging ground within striking distance of the village gates.",
    "spoiler": 0
   },
   {
    "title": "An Inexhaustible Tide",
-   "body": "Culling the Dark Runners temporarily blunts the pack's offensive, but it offers little peace of mind to the Night Watch. Calor notes with growing dread that every beast felled seems instantly replaced by another prowling the mists. The supernatural resilience and sheer replenishment rate of the Nightbane leave the town's defenders bewildered, forcing them to look to veteran monster hunters like Master Jonathan Carevin to uncover whatever foul catalyst summoned these alien horrors to Duskwood.",
+   "body": "The Night Watch gains only brief relief when you fell a Dark Runner. Calor sees another prowling the mists in its place, and the defenders cannot explain the Nightbane's resilience or their numbers. They look to veteran monster hunters such as Master Jonathan Carevin to discover what foul catalyst called these alien horrors to Duskwood.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "what are dark runners",
     "nightbane dark runner"
    ],
-   "answer": "Nightbane Dark Runners are larger, physically imposing worgen that constitute the primary front-line forces of the pack haunting Duskwood. Unlike the mystical Shadow Weavers, Dark Runners rely on raw speed, claws, and sheer predatory ferocity."
+   "answer": "Nightbane Dark Runners are larger, imposing worgen who make up the main front-line force of the pack haunting Duskwood. Unlike the mystical Shadow Weavers, they rely on speed, claws, and predatory ferocity."
   },
   {
    "q": "Where is the Rotting Orchard located?",
@@ -46,7 +46,7 @@
     "rotting orchard location",
     "where is rotting orchard"
    ],
-   "answer": "The Rotting Orchard lies just southwest of Darkshire. Once productive farmland, it has devolved into a corrupted, blighted clearing that the Nightbane pack seized as a forward foothold near the town."
+   "answer": "The Rotting Orchard lies just southwest of Darkshire. Once productive farmland, it is now a corrupted, blighted clearing that the Nightbane pack has seized as a foothold near the town."
   },
   {
    "q": "Who is Calor?",
@@ -55,7 +55,7 @@
     "calor duskwood",
     "calor questgiver"
    ],
-   "answer": "Calor is a ranger in Darkshire who serves Master Jonathan Carevin. He scouts the outskirts of the settlement, tracking the aggressive movements of the worgen packs that threaten the town's survival."
+   "answer": "Calor is a ranger in Darkshire who serves Master Jonathan Carevin. He scouts the settlement's outskirts and tracks the worgen packs threatening the town's survival."
   },
   {
    "q": "Why do the worgen numbers seem endless to the defenders?",
@@ -64,7 +64,7 @@
     "inexhaustible worgen",
     "where do worgen come from"
    ],
-   "answer": "The defenders do not yet understand the supernatural nature of the worgen presence. They believe an evil power is actively summoning or drawing the beasts into Duskwood, causing fresh waves to appear as quickly as the existing ones are slain."
+   "answer": "The defenders do not understand the supernatural nature of the worgen presence. They believe an evil power is summoning or drawing the beasts into Duskwood, so fresh waves appear as quickly as others are slain."
   },
   {
    "q": "Who is Master Carevin?",
@@ -73,7 +73,7 @@
     "jonathan carevin",
     "who is carevin"
    ],
-   "answer": "Master Jonathan Carevin leads the Carevin family's fight against the undead and other evils of Duskwood from Darkshire. Calor places immense trust in his expertise to track down the root cause behind the monstrous infestations plaguing the region."
+   "answer": "Master Jonathan Carevin leads his family's fight against the undead and other evils of Duskwood from Darkshire. Calor trusts his expertise to find the cause of the monstrous infestations troubling the region."
   },
   {
    "q": "How does this task fit into the defense of Darkshire?",
@@ -81,17 +81,17 @@
     "why kill dark runners",
     "darkshire defense"
    ],
-   "answer": "Darkshire is an isolated settlement with dwindling supplies and no aid from Stormwind. Clearing the Rotting Orchard prevents the Nightbane pack from staging direct, overwhelming ambushes on the town's southwest perimeter."
+   "answer": "Darkshire is isolated, its supplies dwindling, and Stormwind has sent no aid. Clearing the Rotting Orchard keeps the Nightbane from staging direct, overwhelming ambushes on the town's southwest perimeter."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Duskwood has received virtually no reinforcement from the Stormwind crown, forcing local volunteer militias like the Night Watch to rely entirely on traveling Alliance heroes to thin out encroaching predator packs."
+   "text": "Duskwood has received almost no reinforcement from the Stormwind crown. Local volunteers in the Night Watch rely on traveling Alliance heroes to thin the predator packs pressing in."
   },
   {
    "target": "class:Hunter",
-   "text": "The rapid encroachment of unnatural bipedal wolves at the Rotting Orchard offers hunters a grim lesson in dealing with otherworldly beasts whose instincts defy the natural ecology of Azeroth."
+   "text": "As a hunter, you face unnatural, bipedal wolves at the Rotting Orchard, whose instincts defy Azeroth's natural order."
   }
  ],
  "keywords": [
@@ -114,5 +114,6 @@
  ],
  "attribution": [
   "Worgen in the Woods (Classic, 2)"
- ]
+ ],
+ "style": 1
 }

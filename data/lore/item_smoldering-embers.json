@@ -10,11 +10,11 @@
    "quest:1083"
   ]
  },
- "summary": "Smoldering Embers are the glowing, heat-baked remnants retrieved from the raging fire elementals of the Charred Vale. Night elf Sentinels track these cinders as physical proof that the fiery terrors overrunning the devastated woodland are being subdued.",
+ "summary": "In the Charred Vale, Smoldering Embers remain after fire elementals are extinguished. Night elf Sentinels gather them as proof that the fires are being subdued.",
  "sections": [
   {
    "title": "Remnants of the Charred Vale",
-   "body": "The Venture Company's relentless clear-cutting and industrial devastation tore through the Charred Vale, setting the forest ablaze and unleashing destructive fury from deep within the earth. In their wake, elementals of living fire\u2014Burning Ravagers, Burning Destroyers, and wandering Rogue Flame Spirits\u2014surged across the scorched basin. These Smoldering Embers are the lingering, ash-covered cores left behind when an elemental is extinguished, serving as proof that the rampant fires of the vale are being systematically suppressed.",
+   "body": "Venture Company logging and industry set the Charred Vale ablaze and stirred destructive forces from deep within the earth. Burning Ravagers, Burning Destroyers, and Rogue Flame Spirits then swept across the scorched basin. When an elemental is extinguished, its ash-covered core remains as a Smoldering Ember. These cinders show that the fires overrunning the vale are being brought under control.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "who drops smoldering embers",
     "smoldering ember source"
    ],
-   "answer": "Smoldering Embers are gathered from the fiery elementals haunting the Charred Vale in southern Stonetalon Mountains, including Burning Ravagers, Burning Destroyers, and Rogue Flame Spirits."
+   "answer": "Smoldering Embers come from fire elementals in the Charred Vale of southern Stonetalon Mountains. Burning Ravagers, Burning Destroyers, and Rogue Flame Spirits all leave them behind."
   },
   {
    "q": "Why does Kaela Shadowspear want these embers?",
@@ -35,7 +35,7 @@
     "kaela shadowspear embers",
     "enraged spirits goal"
    ],
-   "answer": "Kaela Shadowspear seeks them as undeniable proof that the rampant fire elementals in the Charred Vale are being culled. She believes the scarred land can never heal under Elune's grace while these violent spirits roam unchecked."
+   "answer": "Kaela Shadowspear wants the embers as proof that the fire elementals in the Charred Vale are being culled. She believes the scarred land cannot heal under Elune's grace while violent spirits roam unchecked."
   },
   {
    "q": "What caused the fire elementals to appear in the Charred Vale?",
@@ -44,17 +44,17 @@
     "why are there fire elementals in stonetalon",
     "venture co fire spirits"
    ],
-   "answer": "The Venture Company used aggressive machinery and indiscriminate burning to clear the ancient forest. Their reckless exploitation destabilized the land, unearthing and unleashing hostile elementals of flame and stone that ultimately drove the goblins out."
+   "answer": "The Venture Company brought fire elementals to the Charred Vale by clearing the ancient forest with aggressive machinery and indiscriminate burning. Its reckless exploitation destabilized the land and unleashed hostile elementals of flame and stone, which drove the goblins out."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "For the night elves, seeing the Charred Vale in flames is a heartbreaking wound upon Kalimdor. Gathering these embers is a solemn duty to purge foreign desecration and bring peace back under Elune's gaze."
+   "text": "For night elves, the Charred Vale burning is a wound upon Kalimdor. Gathering its embers is a solemn duty to purge foreign desecration and restore peace beneath Elune's gaze."
   },
   {
    "target": "class:Druid",
-   "text": "Druids view the embers as tragic proof of nature unbalanced by industrial greed, where untamed elemental fury prevents the ash-choked soil from ever regenerating."
+   "text": "As a druid, you see the embers as tragic proof that industrial greed has unbalanced nature. Elemental fury keeps the ash-choked soil from regenerating."
   }
  ],
  "keywords": [
@@ -79,5 +79,6 @@
  "attribution": [
   "Smoldering Embers",
   "Enraged Spirits"
- ]
+ ],
+ "style": 1
 }

@@ -10,16 +10,16 @@
    "quest:1654"
   ]
  },
- "summary": "Whitestone Oak Lumber is a sturdy crafting timber sourced from the subterranean shipyards beneath Moonbrook. Prized for its strength, it serves as a critical shaft material for sacred armaments forged by Alliance master smiths.",
+ "summary": "Beneath Moonbrook, Whitestone Oak Lumber is shaped for the Defias fleet. Its strength also draws the attention of Alliance smiths seeking a haft for a sacred weapon.",
  "sections": [
   {
    "title": "A Sacred Haft",
-   "body": "Outside Ironforge, the smith Jordan Stilwell demands Whitestone Oak Lumber to construct a weapon befitting a true champion of the Light. Joined with a purified Kor gem and refined metals, this lumber provides the balanced, unyielding haft needed to withstand the holy energies channeled during the Test of Righteousness.",
+   "body": "Outside Ironforge, Jordan Stilwell needs Whitestone Oak Lumber for a weapon worthy of a champion of the Light. Joined with a purified Kor gem and refined metals, the timber forms a balanced, unyielding haft. It must bear the holy energies channeled during the Test of Righteousness.",
    "spoiler": 1
   },
   {
    "title": "Timber of the Under-Docks",
-   "body": "Found deep inside the labyrinthine Deadmines of Westfall, Whitestone Oak is shaped by Goblin Woodcarvers constructing the Defias Brotherhood's clandestine war fleet. Its dense, resilient grain makes it ideally suited to bear structural strain and high-impact wear, drawing the interest of seasoned armorers who require more than common ash or pine for ceremonial and martial craft.",
+   "body": "Deep in the Deadmines beneath Moonbrook, Goblin Woodcarvers shape Whitestone Oak for the Defias Brotherhood's hidden war fleet. The dense grain bears strain and hard blows, making it useful to armorers who need stronger timber than common ash or pine for ceremonial and martial work.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "whitestone oak location",
     "who drops whitestone oak lumber"
    ],
-   "answer": "It is recovered from Goblin Woodcarvers laboring deep within the Deadmines beneath Moonbrook in Westfall, where the Defias Brotherhood constructs its hidden juggernaut."
+   "answer": "Goblin Woodcarvers work the lumber deep in the Deadmines beneath Moonbrook in Westfall, where the Defias Brotherhood builds its hidden juggernaut."
   },
   {
    "q": "Who uses this lumber?",
@@ -39,7 +39,7 @@
     "who needs whitestone oak",
     "whitestone oak turn in"
    ],
-   "answer": "Jordan Stilwell, a skilled blacksmith working near the gates of Ironforge in Dun Morogh, requires the timber to fashion a specialized weapon for rising paladins."
+   "answer": "Jordan Stilwell, a blacksmith near Ironforge's gates in Dun Morogh, needs the timber to make a specialized weapon for rising paladins."
   },
   {
    "q": "What is the wood used to make?",
@@ -47,7 +47,7 @@
     "whitestone oak purpose",
     "what does jordan stilwell forge"
    ],
-   "answer": "Jordan Stilwell uses the resilient timber as the haft for a mastercrafted two-handed holy hammer, forged as a reward for completing the Test of Righteousness."
+   "answer": "Jordan Stilwell makes the resilient timber into the haft of a two-handed holy hammer, forged for those who complete the Test of Righteousness."
   },
   {
    "q": "Why is goblin lumber suitable for a holy weapon?",
@@ -55,17 +55,17 @@
     "why goblin wood",
     "why deadmines lumber"
    ],
-   "answer": "The Defias Brotherhood procures dense, high-grade timbers capable of supporting warships. Jordan Stilwell recognizes that such structural wood offers the physical resilience necessary to handle intense divine power."
+   "answer": "The Defias Brotherhood uses dense timber strong enough for warships. Jordan Stilwell sees that this wood can withstand the force of divine power."
   }
  ],
  "angles": [
   {
    "target": "class:Paladin",
-   "text": "Procuring this timber from the Defias under-docks is a core requirement of Jordan Stilwell's Test of Righteousness, yielding a sacred hammer crafted for defenders of the Light."
+   "text": "As a paladin, you must procure this timber from the Defias under-docks for Jordan Stilwell's Test of Righteousness. He uses it to craft a sacred hammer for defenders of the Light."
   },
   {
    "target": "profession:Blacksmithing",
-   "text": "Stilwell's weapon schematics pair dense Whitestone oak with refined ore and gemcraft to balance weight, durability, and metaphysical resonance."
+   "text": "Whitestone oak, refined ore, and a gem come together in Stilwell's weapon schematics, balancing weight, durability, and metaphysical resonance."
   }
  ],
  "keywords": [
@@ -89,5 +89,6 @@
  "attribution": [
   "Whitestone Oak Lumber",
   "The Test of Righteousness (2)"
- ]
+ ],
+ "style": 1
 }

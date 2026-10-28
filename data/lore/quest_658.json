@@ -27,16 +27,16 @@
    "Hints of a New Plague?"
   ]
  },
- "summary": "Quae and Kin have been watching Go'Shek Farm for days. Kin saw a courier come out of a small house to the south, and they suspect the courier carries notes bound for Tarren Mill. Quae wants those documents and asks whether you are a skilled tracker.",
+ "summary": "At Go'Shek Farm, Quae and Kin have watched for days. Kin saw a courier leave a small house to the south, and they suspect she carries notes to Tarren Mill. Quae asks if you are a skilled tracker and wants the documents.",
  "sections": [
   {
    "title": "Watching the Farm",
-   "body": "Quae is not surprised that Phin Odelic sent you to check on them, since Phin worries too much. Quae and Kin have been watching the farm for days. Not long ago Kin saw a courier come out of a small house to the south. Kin talks a lot, but Quae can always trust Kin's senses in dangerous areas.",
+   "body": "Quae expected Phin Odelic to send you, since he worries too much. Quae and Kin have watched the farm for days. Kin recently saw a courier leave a small house to the south. Kin talks often, but Quae trusts Kin's senses in dangerous places.",
    "spoiler": 0
   },
   {
    "title": "The Courier's Folder",
-   "body": "Quae asks whether you are a skilled tracker. The courier may carry notes bound for Tarren Mill, and getting hold of those documents could shed some light on what is happening in Hillsbrad. You are to find the Forsaken Courier and bring her Sealed Folder back to Quae near Go'Shek Farm. While you search, Kin spots an apothecary leaving that same house. Quae is confident the apothecary is up to no good, but needs proof before anyone does something rash.",
+   "body": "Quae asks if you are a skilled tracker. The courier may carry notes bound for Tarren Mill, and the documents could shed light on what is happening in Hillsbrad. You are to find the Forsaken Courier and bring her Sealed Folder to Quae near Go'Shek Farm. While you search, Kin spots an apothecary leaving that same house. Quae suspects the apothecary is up to no good, but needs proof before anyone acts rashly.",
    "spoiler": 0
   }
  ],
@@ -48,7 +48,7 @@
     "who started hints of a new plague",
     "phin odelic quest"
    ],
-   "answer": "Phin Odelic sent you to check on them, though Quae is not surprised since Phin worries too much."
+   "answer": "Phin Odelic sent you to check on Quae and Kin. Quae expected it, since Phin worries too much."
   },
   {
    "q": "Where did the courier come from?",
@@ -57,7 +57,7 @@
     "courier location",
     "house south of farm"
    ],
-   "answer": "Kin saw the courier come out of a small house to the south."
+   "answer": "Kin saw the courier leave a small house to the south."
   },
   {
    "q": "Where is the courier heading?",
@@ -73,7 +73,7 @@
     "what item does the courier have",
     "sealed folder"
    ],
-   "answer": "The Forsaken Courier's Sealed Folder, to be brought back to Quae near Go'Shek Farm."
+   "answer": "You are to bring the Forsaken Courier's Sealed Folder to Quae near Go'Shek Farm."
   },
   {
    "q": "Who else was spotted at the house?",
@@ -81,7 +81,7 @@
     "apothecary at the farm",
     "who came out of the house"
    ],
-   "answer": "Kin spotted an apothecary leaving that same house to the south while you were away."
+   "answer": "While you were away, Kin spotted an apothecary leaving the same house to the south."
   },
   {
    "q": "Why does Quae want the documents?",
@@ -89,7 +89,7 @@
     "why get the documents",
     "what are the notes for"
    ],
-   "answer": "They might shed some light on what is happening in Hillsbrad, and Quae needs proof before anyone does something rash."
+   "answer": "The documents might shed light on what is happening in Hillsbrad. Quae needs proof before anyone acts rashly."
   }
  ],
  "angles": [],
@@ -113,5 +113,6 @@
  ],
  "attribution": [
   "Hints of a New Plague? (2)"
- ]
+ ],
+ "style": 1
 }

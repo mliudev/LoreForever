@@ -9,7 +9,7 @@
 // Companion.lua). Plans come from lib/billing.js, so they can't drift. No prices: they change, and "no prices in the
 // wisp" (talk/talker.py LOCKED_LINE); the Plans page has them.
 import { COMPANION_NAME as NAME } from "./brand.js";
-import { PLANS, PAID, planFeatures, cardFlags, VOICE_NOTE } from "./billing.js";
+import { PLANS, PAID, planFeatures, cardFlags, VOICE_NOTE, FAIR_USE } from "./billing.js";
 import { hasAzeroth } from "./character-voices.js";
 import { readClient, atLeast } from "./client-version.js";
 import { CLEAR_ALL } from "./willo-notebook.js";
@@ -24,9 +24,9 @@ const plansText = ({ azeroth }) => `Your plans (a player asking what Adventurer,
   `which one they're on; Change plan opens ` +
   `the Plans page (with the prices) and Billing your payments. ` +
   ["free", ...PAID].map(id => `${PLANS[id].name}${id === "free" ? " (free)" : ""}: ${planFeatures({ ...cardFlags(null), azeroth })[id].join("; ")}.`).join(" ") +
-  ` ${VOICE_NOTE} Nothing is bought once: answers can't be bought. When a plan's answers are used up, I answer from ` +
-  `the add-on's lore library until they ` +
-  `come back. Out loud or over the game the Plans page isn't a button: say it opens from your window (right-click the wisp brings it up), never that your Settings is it. Never say a price (the Plans page has them), nor "limit", "cap" or "unlimited": answers are counts.`;
+  ` ${VOICE_NOTE} ${FAIR_USE} Nothing is bought once: answers can't be bought. When the free plan's answers for the ` +
+  `day are used up, I answer from the add-on's lore library until they ` +
+  `come back. Out loud or over the game the Plans page isn't a button: say it opens from your window (right-click the wisp brings it up), never that your Settings is it. Prices are on the Plans page: point them there. Say a paid plan's answers are unlimited, and the free plan's are ${PLANS.free.answersPerDay} a day.`;
 
 // A topic's own words with more alternatives joined on (other patterns').
 const orElse = (...patterns) => new RegExp(patterns.map(r => r.source).join("|"), "i");
@@ -52,9 +52,9 @@ export const asksWhereNotes = question => FIND_NOTES.test(String(question || "")
 // back, for a question that's about another's.
 const TOPICS = [
   { id: "about", own: /\bwho are you\b|\bwhat (?:are you|can you do|do you do)\b|\bhow do you work\b|\bwhat can i ask\b/i,
-    text: () => `About you: you're ${NAME}, a little blue wisp in the Lore Forever app beside the game. Players ask you ` +
+    text: () => `About you: you're ${NAME}, a little wisp of light in the Lore Forever app beside the game. Players ask you ` +
       `anything: the world's lore and story, quests, places, routes and practical help, and things outside the game ` +
-      `too (their computer, settings, addons, everyday questions), and you keep their notebook of to-dos and notes when ` +
+      `too (their computer, settings, other games, everyday life, anything at all), and you keep their notebook of to-dos and notes when ` +
       `they ask. They type in your window or your chat over the game, ` +
       `or hold the talk key and ask out loud. You read the add-on's lore library, their saved journey and, with Live ` +
       `game info on, where they are and who they target. You never act in the game: you advise, they play.` },
@@ -157,7 +157,7 @@ const TOPICS = [
       `site's page opens, they sign in and choose Connect. Sign out: Settings › Account › Your profile › Sign out, or ` +
       `Disconnect on loreforeverwow.com/account. "Reconnect account for answers" means the site signed this PC out: ` +
       `sign in again from your window.` },
-  { id: "chat", own: /\b(?:past|old|older|previous|earlier|saved|other)\s+(?:chats?|conversations?)\b|\b(?:show|list|see|find)\s+(?:me\s+)?(?:all\s+)?(?:of\s+)?my\s+(?:chats|conversations)\b|\bnew (?:chat|conversation)\b|\bstart (?:over|fresh)\b|\/lore\b|\bin-game chat\b|\bchat over the game\b/i,
+  { id: "chat", own: /\b(?:past|old|older|previous|earlier|saved|other)\s+(?:chats?|conversations?)\b|\b(?:show|list|see|find)\s+(?:me\s+)?(?:all\s+)?(?:of\s+)?my\s+(?:chats|conversations)\b|\bnew (?:chat|conversation)\b|\bstart (?:over|fresh)\b|\b(?:fresh|clean) (?:chat|conversation|start|slate)\b|\/lore\b|\bin-game chat\b|\bchat over the game\b/i,
     words: /\bchats?\b|\btype\b|\bconversations?\b|\bforget\b|\bremember\b|\bmemory\b/i,
     text: () => `Chats: in your window, + New chat starts one; over the game, left-click the wisp for a text box above ` +
       `you (Enter asks, + starts a new chat, Esc closes; after a character answered it says "Ask" and their name: click ` +
@@ -189,9 +189,10 @@ const TOPICS = [
       `history. When asked what you know or remember about them, one line in your own voice on what you ` +
       `know of their road (from what's in front of you) and what you keep in their notebook, as counted for you ` +
       `below (never read out, never counted yourself), then that everything you keep about them is on one page, ` +
-      `What ${NAME} keeps, and offer to open it. When asked to forget or delete something, you can't erase it from here ` +
-      `yourself, and a new chat erases nothing; What ${NAME} keeps does (one thing at a time, or Erase everything, which ` +
-      `also clears their chats on their computer), so offer to open it. On that page they see, change or erase ` +
+      `What ${NAME} keeps, and offer to open it. When asked to forget or erase something, do it with your tools (a ` +
+      `notebook line with the notebook's, something they told you with your memory, a kind of what you keep or ` +
+      `everything with keeps); a new chat erases nothing. What ${NAME} keeps shows it all (one thing at a time, or ` +
+      `Erase everything, which also clears their chats on their computer). On that page they see, change or erase ` +
       `everything you keep, and download it all. It opens from Settings › App & answers › What ${NAME} keeps in your ` +
       `window (in an app from before that button, from the ${NAME} tab of their account on the site). What's kept where: their ` +
       `chats are saved on their computer (and their questions on the site as above); Settings › Private Chat backup downloads ` +
@@ -405,9 +406,12 @@ export function stateOf(prompt) {
   return { state, prompt: (text.slice(0, found.index) + text.slice(found.index + found[0].length)).replace(/^\n+/, "") };
 }
 
-// usage: their allowance (lib/companion-answers.js allowance) for a question about plans: the answers left now.
+// usage: their allowance (lib/companion-answers.js allowance) for a question about plans: the answers left now. A paid
+// plan's are unlimited (lib/billing.js PLANS): never a count.
+const UNLIMITED_LINE = "- Their answers are unlimited on their plan: say so.\n";
 const usageLine = usage => {
-  if (!usage || !Number.isFinite(usage.remaining) || usage.unlimited) return "";
+  if (usage?.unlimited) return UNLIMITED_LINE;
+  if (!usage || !Number.isFinite(usage.remaining)) return "";
   const back = usage.resetsAt ? new Date(usage.resetsAt).toLocaleDateString("en-US", { month: "long", day: "numeric",
     timeZone: "UTC" }) : "";
   const taste = usage.taste;
@@ -418,6 +422,14 @@ const usageLine = usage => {
       `finest voice when they ask out loud${taste.why === "resting" ? "; the chorus is resting until tomorrow" : ""}), ` +
       `${taste.left} are left.\n` : "") + trialLine(usage.trial);
 };
+// Her read of the answers they have left (LOR-844 step 6), in place of the look-up only words about plans got: on
+// DeepSeek she calls it when her answer needs it ("how many more can I ask today?").
+export const ANSWERS_LEFT = "get_answers_left";
+export const answersLeftTool = { name: ANSWERS_LEFT, description: "How many answers they have left now (today or this " +
+  "month), when more come, and the first-run trial they're on. Only when they ask what they have left or can still ask.",
+  parameters: { type: "object", properties: {} } };
+export const answersLeftRead = usage => "THEIR ANSWERS NOW:\n" + (usageLine(usage) ||
+  "- Not known right now: say so plainly.\n");
 // Their first-run trial (lib/best-first.js trialView): what they're trying that their plan doesn't have, plainly, for
 // "what am I trying?" and "how many look-ups do I have?".
 const TRYING = { web: "looking things up online for them", sight: "answers where you see their game",

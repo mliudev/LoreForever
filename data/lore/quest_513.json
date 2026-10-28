@@ -17,16 +17,16 @@
   "wiki": "Elixir of Agony (2)",
   "chain": []
  },
- "summary": "This errand carries Apothecary Lydon's freshly mashed Mudsnout Composite from Tarren Mill straight to the heart of the Royal Apothecary Society in the Undercity. Master Apothecary Faranell requires the plant mash to treat it with a colloid of decay, furthering the Forsaken's development of a new plague.",
+ "summary": "In the Undercity, Lydon's freshly mashed Mudsnout Composite awaits refinement. Apothecary Lydon sends it from Tarren Mill to Master Apothecary Faranell, who must treat it with a colloid of decay as the Royal Apothecary Society develops a new plague for the Forsaken.",
  "sections": [
   {
    "title": "A Courier to the Capital",
-   "body": "In the ongoing efforts of the Royal Apothecary Society, regional researchers frequently send their raw discoveries back to Undercity for specialized refinement. Apothecary Lydon has mashed down local Mudsnout Blossoms into a composite, but bringing it to lethal fruition requires the advanced reagents kept only in the capital's laboratory.",
+   "body": "The Royal Apothecary Society sends raw discoveries from its regional researchers to the Undercity for specialized refinement. In Tarren Mill, Apothecary Lydon has mashed local Mudsnout Blossoms into a composite. Only the capital's laboratory holds the advanced reagents needed to bring his work to lethal fruition.",
    "spoiler": 0
   },
   {
    "title": "The Master's Urgency",
-   "body": "Master Apothecary Faranell works under tremendous pressure within the Apothecarium. Caught between the ever-present shadow of the Scourge in the north and aggressive human populations to the south, Lady Sylvanas Windrunner has demanded a potent new plague to defend their people. Receiving Lydon's composite provides Faranell with exactly the kind of toxic breakthrough the Dark Lady expects.",
+   "body": "Master Apothecary Faranell works under pressure in the Apothecarium. The Scourge threatens from the north, while aggressive human populations press from the south. Lady Sylvanas Windrunner has demanded a potent new plague to defend the Forsaken. Lydon's composite could give Faranell the toxic breakthrough the Dark Lady expects.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "mudsnout composite destination",
     "why bring to faranell"
    ],
-   "answer": "Apothecary Lydon in Tarren Mill lacks the specific reagents required to finish this stage of his experiment. Master Apothecary Faranell holds a colloid of decay in the Apothecarium that must be applied to the Mudsnout Composite before the mixture can progress."
+   "answer": "Apothecary Lydon in Tarren Mill lacks the reagents to finish this stage of his experiment. Master Apothecary Faranell has a colloid of decay in the Apothecarium, and he must apply it to the Mudsnout Composite before the mixture can progress."
   },
   {
    "q": "Who is Master Apothecary Faranell?",
@@ -47,7 +47,7 @@
     "master apothecary faranell lore",
     "apothecarium leader"
    ],
-   "answer": "Master Apothecary Faranell leads the Royal Apothecary Society from his laboratory deep in the Undercity. He oversees all major chemical and alchemical research for the Forsaken, answering directly to Lady Sylvanas Windrunner."
+   "answer": "Master Apothecary Faranell leads the Royal Apothecary Society from his laboratory deep in the Undercity. He oversees the Forsaken's major chemical and alchemical research and answers directly to Lady Sylvanas Windrunner."
   },
   {
    "q": "What is the new plague the apothecaries keep mentioning?",
@@ -56,7 +56,7 @@
     "forsaken plague project",
     "why make a new plague"
    ],
-   "answer": "The new plague is an ongoing Forsaken project commanded by Lady Sylvanas. It is engineered to annihilate both the living and the undead Scourge, providing the Forsaken with an absolute weapon against their enemies."
+   "answer": "The new plague is an ongoing Forsaken project commanded by Lady Sylvanas. It is engineered to annihilate both the living and the undead Scourge, giving the Forsaken an absolute weapon against their enemies."
   },
   {
    "q": "Where can I find Master Apothecary Faranell?",
@@ -65,7 +65,7 @@
     "faranell location",
     "apothecarium location"
    ],
-   "answer": "Faranell resides within the Apothecarium, the southwestern quarter of the Undercity dedicated entirely to alchemy, poison brewing, and surgical experimentation."
+   "answer": "Faranell resides in the Apothecarium, the Undercity's southwestern quarter, devoted entirely to alchemy, poison brewing, and surgical experimentation."
   },
   {
    "q": "What is Apothecary Lydon trying to create?",
@@ -74,7 +74,7 @@
     "elixir of agony purpose",
     "lydon experiment"
    ],
-   "answer": "Lydon is concocting the Elixir of Agony, an intensely virulent toxin brewed from Hillsbrad flora and decay agents, designed to prove the effectiveness of new strains in the field."
+   "answer": "Lydon is concocting the Elixir of Agony, an intensely virulent toxin brewed from Hillsbrad flora and decay agents. It is designed to prove the effectiveness of new strains in the field."
   },
   {
    "q": "Why is the Royal Apothecary Society so rushed?",
@@ -83,17 +83,17 @@
     "faranell busy",
     "undercity threat"
    ],
-   "answer": "The Forsaken perceive threats on every side. Northrend's Scourge threatens to overrun them, while remnants of human resistance apply relentless pressure from the south, making the completion of a decisive biological weapon urgently necessary."
+   "answer": "The Forsaken face threats on every side. The Scourge of Northrend threatens to overrun them, while human resistance from the south applies relentless pressure. A decisive biological weapon is urgently needed."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "Every batch of raw plant matter delivered to Faranell contributes to the ultimate survival and sovereign defense of the Forsaken against both the living and the Scourge."
+   "text": "As an Undead, each batch of raw plant matter delivered to Faranell helps secure the Forsaken's survival and sovereign defense against the living and the Scourge."
   },
   {
    "target": "faction:Horde",
-   "text": "The Horde relies on Forsaken territory to hold northern Lordaeron, and the Royal Apothecary Society's research forms a vital part of holding those vulnerable borders."
+   "text": "As a member of the Horde, you rely on Forsaken territory to hold northern Lordaeron. The Royal Apothecary Society's research helps defend those vulnerable borders."
   }
  ],
  "keywords": [
@@ -118,5 +118,6 @@
  ],
  "attribution": [
   "Elixir of Agony (2)"
- ]
+ ],
+ "style": 1
 }

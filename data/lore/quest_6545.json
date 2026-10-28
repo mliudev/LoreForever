@@ -17,16 +17,16 @@
   "wiki": "Warsong Runner Update (quest)",
   "chain": []
  },
- "summary": "Warsong Runner Update is a Horde communication task connecting the forward defenses of Ashenvale with commanders along the border. Entrusted to couriers and fresh recruits, the missive details the rising military pressure facing Warsong scouts, notably the aggression of encroaching naga.",
+ "summary": "Runners carry word through Ashenvale as the Warsong Clan faces growing pressure along the border. Their report warns commanders of increasingly bold naga attacks on Horde outposts.",
  "sections": [
   {
    "title": "Frontline Dispatches",
-   "body": "The Warsong Clan maintains a string of scouts and runners throughout Ashenvale to monitor surrounding hostilities and keep lines of supply intact. Between territorial skirmishes with night elf sentinels and the harsh environment, swift intelligence is vital. Couriers carrying frontline dispatches are essential in ensuring remote garrisons remain coordinated with commanders like Kadrak posted on the Mor'shan Rampart.",
+   "body": "Warsong scouts and runners watch the fighting across Ashenvale and keep supply lines open. They face night elf sentinels and the dangers of the forest, so commanders need word from the frontier quickly. Couriers carry dispatches to remote garrisons and commanders such as Kadrak at the Mor'shan Rampart.",
    "spoiler": 0
   },
   {
    "title": "The Naga Threat",
-   "body": "While the Horde expects fierce opposition from the night elves among the trees, outpost sentries have reported increasingly bold assaults from the naga. These serpentine invaders strike from waterways and ancient ruins, testing the outpost's barricades and forcing defenders to divert attention away from forestry and border patrols. The update carried back to the Mor'shan Rampart sounds the alarm regarding these coordinated amphibious attacks.",
+   "body": "Horde defenders expect to face night elves among the trees, but outpost sentries report bolder attacks by naga. The serpentine invaders strike from waterways and ancient ruins, testing the barricades and drawing defenders away from forest and border patrols. The dispatch to the Mor'shan Rampart warns of these coordinated attacks from the water.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "kadrak report",
     "where does report go"
    ],
-   "answer": "The report is carried directly back to Kadrak, an overseer stationed at the Mor'shan Rampart along the border between Ashenvale and the northern Barrens."
+   "answer": "The report goes to Kadrak, an overseer at the Mor'shan Rampart on the border between Ashenvale and the northern Barrens."
   },
   {
    "q": "What threats are mentioned in the update?",
@@ -47,7 +47,7 @@
     "runner update content",
     "naga attacks"
    ],
-   "answer": "The scout reports that the local outpost has weathered repeated assaults, highlighting an escalating threat from hostile naga operating in the nearby waters."
+   "answer": "The scout reports repeated assaults on the local outpost and an escalating threat from hostile naga in nearby waters."
   },
   {
    "q": "Why does the Horde rely on foot runners here?",
@@ -56,7 +56,7 @@
     "warsong runners lore",
     "why not wyverns"
    ],
-   "answer": "Dense foliage, active night elf marksmen, and isolated outposts make aerial transit difficult or exposed across parts of Ashenvale. Ground messengers allow swift, discreet communication along guarded paths."
+   "answer": "Dense foliage, night elf marksmen, and isolated outposts make flight difficult or dangerous across parts of Ashenvale. Runners carry messages quickly and discreetly along guarded paths."
   },
   {
    "q": "Who are the Warsong Runners?",
@@ -64,7 +64,7 @@
     "warsong clan ashenvale",
     "who are warsong runners"
    ],
-   "answer": "They are scouts, couriers, and vanguard fighters of the Warsong Clan tasked with securing supply lines and watching enemy movements around the forest's contested borders."
+   "answer": "Warsong Runners are scouts, couriers, and vanguard fighters of the Warsong Clan. They protect supply lines and watch enemy movements along the forest's contested borders."
   },
   {
    "q": "Where are the naga attacking in Ashenvale?",
@@ -72,7 +72,7 @@
     "where are naga",
     "ashenvale naga"
    ],
-   "answer": "Naga have established strongholds in the ruins along the shores and lakes of Ashenvale, often ambushing travelers and raiding nearby camps."
+   "answer": "Naga attack from strongholds in ruins along Ashenvale's shores and lakes, ambushing travelers and raiding nearby camps."
   },
   {
    "q": "What is the outpost's purpose in this area?",
@@ -80,17 +80,17 @@
     "why is the outpost here",
     "horde camp purpose"
    ],
-   "answer": "The post serves as an early warning station and defensive anchor, ensuring hostile forces cannot sever communications between deep forest lumber operations and the Barrens."
+   "answer": "The outpost warns of danger and anchors the defenses, guarding communication between lumber operations deep in the forest and the Barrens."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "Every soldier counts along the forest frontier, where maintaining communication lines between the Barrens and forward outposts is critical to survival."
+   "text": "Along the forest frontier, every soldier counts. Keeping communication open between the Barrens and forward outposts is vital to survival."
   },
   {
    "target": "race:Orc",
-   "text": "The Warsong Clan depends on the grit and vigilance of its runners to hold ground claimed under Warchief Thrall's command."
+   "text": "As an orc, you know the Warsong Clan depends on its runners' grit and watchfulness to hold ground claimed under Warchief Thrall's command."
   }
  ],
  "keywords": [
@@ -111,5 +111,6 @@
  ],
  "attribution": [
   "Warsong Runner Update (quest)"
- ]
+ ],
+ "style": 1
 }

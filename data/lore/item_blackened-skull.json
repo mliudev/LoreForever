@@ -10,11 +10,11 @@
    "quest:426"
   ]
  },
- "summary": "A blackened skull is the darkened cranial remnant of a Darkeye Bonecaster animating in the Agamand Mills. Deathguard Dillinger in Brill demands these grisly trophies as proof of thinning the mindless Scourge forces threatening Tirisfal Glades.",
+ "summary": "At Agamand Mills, Blackened Skull trophies mark the fight against the Scourge. Deathguard Dillinger in Brill wants them as proof that the Darkeye Bonecasters are being destroyed.",
  "sections": [
   {
    "title": "Trophy of the Bonecasters",
-   "body": "These blackened skulls are salvaged from the Darkeye Bonecasters haunting the Agamand Mills. These skeletal spellcasters direct necromantic malice against the living and the Forsaken alike, attempting to entrench a forward base for the Lich King's armies in northern Tirisfal. Presenting their ruined skulls to Deathguard Dillinger serves as tangible evidence that the Scourge's mystical vanguard is being crushed.",
+   "body": "Darkeye Bonecasters haunt the Agamand Mills. These skeletal spellcasters turn their necromantic malice against the living and the Forsaken, seeking to secure a forward base for the Lich King's armies in northern Tirisfal. Deathguard Dillinger in Brill asks for their ruined skulls as proof that the Scourge's mystical vanguard is being beaten back.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "who drops blackened skulls",
     "where to get blackened skulls"
    ],
-   "answer": "They are collected from the remains of Darkeye Bonecasters, the skeletal spellcasters prowling the fields and structures around the Agamand Mills in northern Tirisfal Glades."
+   "answer": "Blackened skulls come from Darkeye Bonecasters, skeletal spellcasters found in the fields and buildings around Agamand Mills in northern Tirisfal Glades."
   },
   {
    "q": "Why does Deathguard Dillinger want blackened skulls?",
@@ -35,7 +35,7 @@
     "why collect skulls",
     "mills overrun skulls"
    ],
-   "answer": "Deathguard Dillinger tasks Forsaken defenders with gathering blackened skulls and notched ribs as proof of active combat against the Scourge. The Forsaken cannot permit the Lich King's mindless minions to establish a foothold so close to Brill and the Undercity."
+   "answer": "Deathguard Dillinger wants blackened skulls and notched ribs as proof that Forsaken defenders are fighting the Scourge. The Forsaken must keep the Lich King's mindless minions from gaining a foothold so close to Brill and the Undercity."
   },
   {
    "q": "Why are the skulls blackened?",
@@ -43,7 +43,7 @@
     "why is it blackened",
     "blackened skull lore"
    ],
-   "answer": "No one in Brill says what blackened them. Deathguard Dillinger only wants them as proof that the Darkeye Bonecasters at Agamand Mills are being destroyed."
+   "answer": "No one in Brill says what blackened the skulls. Deathguard Dillinger wants them as proof that the Darkeye Bonecasters at Agamand Mills are being destroyed."
   },
   {
    "q": "What is the Scourge doing at Agamand Mills?",
@@ -51,17 +51,17 @@
     "agamand mills scourge",
     "why are scourge at the mills"
    ],
-   "answer": "The Scourge are attempting to fortify the abandoned Agamand Mills as a forward staging ground, using it to launch deeper attacks and raids across Tirisfal Glades."
+   "answer": "The Scourge is trying to fortify the abandoned Agamand Mills as a forward staging ground for deeper attacks and raids across Tirisfal Glades."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "For the Forsaken, bringing down Darkeye Bonecasters is a matter of pure survival, preventing their former master from establishing a staging ground on their doorstep."
+   "text": "As Forsaken, you fight Darkeye Bonecasters to survive and keep your former master from establishing a staging ground on your doorstep."
   },
   {
    "target": "class:Mage",
-   "text": "The skulls are physical remains of the Darkeye Bonecasters, the skeletal spellcasters targeted at Agamand Mills."
+   "text": "As a Mage, you know these skulls are the remains of the skeletal spellcasters targeted at Agamand Mills."
   }
  ],
  "keywords": [
@@ -86,5 +86,6 @@
  "attribution": [
   "Blackened Skull",
   "The Mills Overrun (Classic)"
- ]
+ ],
+ "style": 1
 }

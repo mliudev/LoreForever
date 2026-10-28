@@ -8,11 +8,11 @@
   "wiki": "Watcher Dodds",
   "refs": 1
  },
- "summary": "Watcher Dodds is a human scout of the Night Watch stationed at the central crossroads of Duskwood. Manning a lonely roadside outpost far from Darkshire's town walls, he monitors the encroaching horrors and tasks travelers with culling the local giant spider population.",
+ "summary": "At Duskwood's central crossroads, Watcher Dodds keeps watch for the Night Watch. From his roadside outpost, he watches for danger and asks travelers to thin the giant spider population.",
  "sections": [
   {
    "title": "On the Crossroads Watch",
-   "body": "Watcher Dodds serves the Night Watch under Commander Althea Ebonlocke, holding down an exposed post at the intersection connecting Darkshire to Raven Hill and Deadwind Pass. While Darkshire huddles within its palisades, forward sentries like Dodds live on the knife's edge between wolf packs, ravenous ghouls, and oversized arachnids. From his roadside camp, he keeps an eye on approaching threats and enlists wandering mercenaries to thin out the spiders crawling out from the undergrowth before they completely overrun the overgrown thoroughfares.",
+   "body": "Watcher Dodds guards the crossroads for the Night Watch, under Commander Althea Ebonlocke. His post stands where the roads from Darkshire, Raven Hill, and Deadwind Pass meet. Darkshire's palisades shelter the town, but Dodds keeps watch beyond them, amid wolf packs, ravenous ghouls, and oversized spiders. From his roadside camp, he watches for threats and asks passing mercenaries to kill spiders emerging from the undergrowth before they overrun the roads.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "who is dodds",
     "dodds duskwood"
    ],
-   "answer": "He is a human member of the Night Watch, the militia formed to defend Duskwood against the undead and beasts plaguing the region. He is stationed at the central crossroads rather than within the safety of Darkshire."
+   "answer": "Watcher Dodds is a human member of the Night Watch, the militia defending Duskwood from the undead and beasts that plague the region. He is stationed at the central crossroads, outside Darkshire's protection."
   },
   {
    "q": "Where can I find Watcher Dodds?",
@@ -33,7 +33,7 @@
     "where is dodds",
     "dodds coords"
    ],
-   "answer": "Dodds maintains a small roadside camp at the main crossroads in central Duskwood, where the roads between Darkshire, Raven Hill, and the southern passes diverge."
+   "answer": "Watcher Dodds keeps a small roadside camp at the main crossroads in central Duskwood. The roads from Darkshire, Raven Hill, and the southern passes meet there."
   },
   {
    "q": "Why does he want spiders killed?",
@@ -42,7 +42,7 @@
     "dodds spider quest",
     "why kill spiders"
    ],
-   "answer": "Giant venomous spiders infest the surrounding woods and prey upon wanderers and supply couriers using the road. Dodds relies on passing adventurers to cull the venom web spiders to prevent the paths from becoming entirely impassable."
+   "answer": "Giant venomous spiders infest the surrounding woods and prey on wanderers and supply couriers using the road. Watcher Dodds asks passing adventurers to thin the venom web spiders before they make the paths impassable."
   },
   {
    "q": "Who does Watcher Dodds report to?",
@@ -50,13 +50,13 @@
     "dodds commander",
     "who leads night watch"
    ],
-   "answer": "He answers to Commander Althea Ebonlocke, the leader of the Night Watch headquartered at the town hall in Darkshire."
+   "answer": "Watcher Dodds answers to Commander Althea Ebonlocke, who leads the Night Watch from Darkshire's town hall."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "For Alliance travelers navigating Duskwood, Dodds's campfire marks one of the few safe bastions of friendly support along the dark roads between Darkshire and western lands."
+   "text": "For Alliance travelers crossing Duskwood, Watcher Dodds's campfire marks one of the few safe places to find friendly support along the dark roads between Darkshire and the western lands."
   }
  ],
  "keywords": [
@@ -78,5 +78,6 @@
  ],
  "attribution": [
   "Watcher Dodds"
- ]
+ ],
+ "style": 1
 }

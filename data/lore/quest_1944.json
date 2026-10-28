@@ -17,16 +17,16 @@
   "wiki": "Waters of Xavian",
   "chain": []
  },
- "summary": "Waters of Xavian is a Horde mage quest offered by Deino in Orgrimmar. Seeking to plumb ancient elven secrets, she tasks her apprentice with traveling to the ruins of Xavian in Ashenvale to draw a sample from its highest waterfall.",
+ "summary": "Deino seeks a sample from the waters of Xavian, deep in Ashenvale. The troll mage hopes to study the ancient city's lingering arcane power, and sends her apprentice to draw water from its highest waterfall.",
  "sections": [
   {
    "title": "A Mage's Curiosity",
-   "body": "Within the dark crevices of the Valley of Spirits, the troll mage Deino seeks out lingering reservoirs of primal arcane energy across Kalimdor. Her gaze turns to Xavian, an ancient night elf city hidden deep in the eastern canopy of Ashenvale. Legends among scholars whisper that the city was steeped in magical knowledge before the Sundering, and its waters are said to retain potent arcane properties that modern casters yearn to dissect.",
+   "body": "Deino, a troll mage in Orgrimmar's Valley of Spirits, searches Kalimdor for traces of primal arcane energy. Her attention turns to Xavian, an ancient night elf city hidden beneath Ashenvale's eastern canopy. Scholars say the city held great magical knowledge before the Sundering. Its waters are believed to retain arcane power that modern mages hope to understand.",
    "spoiler": 0
   },
   {
    "title": "The Ruins of Xavian",
-   "body": "Reaching the source of these waters is no simple errand. Xavian no longer belongs to peaceful elven sages; it has fallen into ruin and is now overrun by feral, corrupt satyrs who fiercely guard their territory from outsiders. Prying mages must navigate past Satyrnaar and tread through dangerous waterways, avoiding both prowling beasts and demonic sentinels to fill Deino's flask at the base of the city's towering waterfall.",
+   "body": "Xavian lies in ruins, overrun by feral, corrupt satyrs who defend their ground from outsiders. To reach the water, you travel past Satyrnaar and through dangerous waterways, avoiding prowling beasts and demonic sentinels. Deino needs a sample from the pool at the base of the city's highest waterfall.",
    "spoiler": 0
   }
  ],
@@ -37,7 +37,7 @@
     "who gives waters of xavian",
     "deino orgrimmar"
    ],
-   "answer": "Deino is a troll mage trainer and scholar located in the Valley of Spirits in Orgrimmar. She instructs Horde mages and investigates relics of ancient Kalimdor magic."
+   "answer": "Deino is a troll mage trainer and scholar in Orgrimmar's Valley of Spirits. She teaches Horde mages and studies relics of ancient Kalimdor magic."
   },
   {
    "q": "Where is Xavian located?",
@@ -46,7 +46,7 @@
     "where is xavian",
     "finding xavian"
    ],
-   "answer": "Xavian is an ancient ruined city situated in northeastern Ashenvale, north of Splintertree Post and just northwest of the satyr stronghold of Satyrnaar."
+   "answer": "Xavian is a ruined city in northeastern Ashenvale, north of Splintertree Post and northwest of Satyrnaar."
   },
   {
    "q": "Why does Deino want this water?",
@@ -54,7 +54,7 @@
     "why get xavian water",
     "purpose of xavian water"
    ],
-   "answer": "Scholarly accounts claim Xavian once held vast magical knowledge, and its waters are believed to hold lingering arcane power. Deino wants a fresh sample from the waterfall's source to analyze its properties."
+   "answer": "Deino wants to study the water's lingering arcane power. Scholars say Xavian held great magical knowledge, and she needs a fresh sample from the waterfall's source to examine its properties."
   },
   {
    "q": "What dangers guard the ruins of Xavian?",
@@ -62,7 +62,7 @@
     "xavian enemies",
     "who controls xavian"
    ],
-   "answer": "The ruins are infested with satyrs\u2014demonic, corrupted beings who despise trespassers and guard their territory aggressively against prying mages."
+   "answer": "Satyrs overrun Xavian. These demonic, corrupted beings despise trespassers and guard their territory against intruders."
   },
   {
    "q": "Where exactly is the water sample collected?",
@@ -71,7 +71,7 @@
     "where to fill flask",
     "xavian waterfall"
    ],
-   "answer": "The sample must be scooped into Deino's flask from the pool at the very base of the highest waterfall within the ruins of Xavian."
+   "answer": "You collect the sample from the pool at the base of Xavian's highest waterfall and place it in Deino's flask."
   },
   {
    "q": "What comes next after returning the sample to Deino?",
@@ -79,17 +79,17 @@
     "waters of xavian followup",
     "next quest after waters of xavian"
    ],
-   "answer": "Satisfied with the water sample, Deino sends the mage on the next stage of study involving the dryads in Ashenvale with the quest Laughing Sisters."
+   "answer": "After you return the sample, Deino sends you to study the dryads in Ashenvale."
   }
  ],
  "angles": [
   {
    "target": "class:Mage",
-   "text": "This quest is an exclusive rite of study for Horde mages, testing their ability to venture into hostile wilderness to extract untamed arcane reagents."
+   "text": "As a Horde mage, you study arcane reagents by venturing into hostile wilderness to collect them."
   },
   {
    "target": "faction:Horde",
-   "text": "Splintertree Post serves as the Horde's nearest staging ground in eastern Ashenvale for navigating the satyr-infested wilds surrounding Xavian."
+   "text": "As a member of the Horde, you can use Splintertree Post as the nearest staging ground in eastern Ashenvale before traveling through the satyr-infested wilds around Xavian."
   }
  ],
  "keywords": [
@@ -115,5 +115,6 @@
  ],
  "attribution": [
   "Waters of Xavian"
- ]
+ ],
+ "style": 1
 }

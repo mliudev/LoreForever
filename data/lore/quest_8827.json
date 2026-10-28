@@ -18,16 +18,16 @@
   "wiki": "Winter's Presents (Alliance)",
   "chain": []
  },
- "summary": "Winter's Presents is an Alliance holiday breadcrumb quest celebrating the Feast of Winter Veil in Ironforge. Joyful revelers and PX-238 Wonderform Operators urge travelers to visit Greatfather Winter beside the Smokywood Pastures market stalls. There, beneath the grand holiday tree, festive gifts await hearty adventurers.",
+ "summary": "In Ironforge, revelers are gathering for the Feast of Winter Veil. They point travelers toward Greatfather Winter beside the Smokywood Pastures stalls, where gifts wait beneath the holiday tree.",
  "sections": [
   {
    "title": "A Season of Cheer",
-   "body": "As the chill of winter sets in across the peaks of Khaz Modan, Ironforge transforms into the heart of Alliance festivities for the Feast of Winter Veil. Revelers and holiday enthusiasts throughout the city spread word of good cheer, excitedly directing passersby toward the grand decorated tree nestled near the Smokywood Pastures vendors.",
+   "body": "Ironforge fills with Feast of Winter Veil cheer as winter settles over Khaz Modan. Revelers and holiday enthusiasts send passersby toward the decorated tree near the Smokywood Pastures vendors.",
    "spoiler": 0
   },
   {
    "title": "Smokywood Pastures and Greatfather Winter",
-   "body": "Behind the generous distribution of wrapped parcels sits the goblin enterprise of Smokywood Pastures, partnered alongside Greatfather Winter himself. While the jovial figure greets visitors with warm seasonal greetings, the goblin merchants are never shy about reminding happy gift-recipients that their festive treats and seasonal wares make wonderful gifts for friends and family.",
+   "body": "Smokywood Pastures, a goblin enterprise, shares the season with Greatfather Winter. He greets visitors while goblin merchants remind gift recipients that their festive treats and seasonal wares make gifts for friends and family.",
    "spoiler": 0
   }
  ],
@@ -39,7 +39,7 @@
     "who starts winter's presents",
     "who gives the quest"
    ],
-   "answer": "Either a Holiday Enthusiast or a Wonderform Operator tending the PX-238 Winter Wondervolt machines in Ironforge will invite you to visit Greatfather Winter at the decorated tree."
+   "answer": "A Holiday Enthusiast or a Wonderform Operator at an Ironforge PX-238 Winter Wondervolt machine invites you to visit Greatfather Winter at the decorated tree."
   },
   {
    "q": "Where can I find Greatfather Winter in Ironforge?",
@@ -48,7 +48,7 @@
     "greatfather winter location ironforge",
     "find greatfather winter"
    ],
-   "answer": "He sits right beside the festive holiday tree and the Smokywood Pastures vendor stalls in Ironforge, welcoming holiday visitors of all Alliance races."
+   "answer": "Greatfather Winter sits beside the festive tree and Smokywood Pastures vendor stalls in Ironforge, welcoming visitors of every Alliance race."
   },
   {
    "q": "What is the PX-238 Winter Wondervolt mentioned by the operator?",
@@ -57,7 +57,7 @@
     "winter wondervolt",
     "wondervolt machine"
    ],
-   "answer": "The PX-238 Winter Wondervolt is a whimsical holiday invention run by goblin operators that temporarily disguises adventurous festival-goers as merry little holiday helpers."
+   "answer": "Goblin operators run the PX-238 Winter Wondervolt, a holiday invention that briefly disguises festival-goers as merry little holiday helpers."
   },
   {
    "q": "Why is Smokywood Pastures involved in Winter Veil?",
@@ -66,7 +66,7 @@
     "why goblins winter veil",
     "goblin holiday"
    ],
-   "answer": "Smokywood Pastures is an entrepreneurial goblin merchant organization that sponsors seasonal treats, holiday novelties, and feasts across Azeroth, pairing genuine festive spirit with lucrative seasonal commerce."
+   "answer": "Smokywood Pastures is a goblin merchant organization that sponsors seasonal treats, holiday novelties, and feasts across Azeroth, joining festive spirit with seasonal commerce."
   },
   {
    "q": "Can Horde players do this quest?",
@@ -75,7 +75,7 @@
     "horde winter presents",
     "can horde turn this in"
    ],
-   "answer": "No, this particular invitation is purely for the Alliance in Ironforge. The Horde celebrates their own Winter Veil customs under Greatfather Winter's guidance in Orgrimmar."
+   "answer": "No. This invitation is for the Alliance in Ironforge. The Horde celebrates Winter Veil with Greatfather Winter in Orgrimmar."
   },
   {
    "q": "What happens after speaking to Greatfather Winter?",
@@ -84,21 +84,21 @@
     "opening presents",
     "after quest turn in"
    ],
-   "answer": "Greatfather Winter welcomes you, confirms he has not forgotten you, and encourages you to inspect the colorful packages placed beneath the surrounding holiday tree."
+   "answer": "Greatfather Winter welcomes you, says he has not forgotten you, and encourages you to look at the colorful packages beneath the holiday tree."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Ironforge serves as the grand gathering point for all Alliance races during the winter season, drawing elves, humans, and gnomes into the warm subterranean dwarven halls to share festive cheer."
+   "text": "Ironforge gathers Alliance races for the winter season, bringing elves, humans, and gnomes together to share festive cheer."
   },
   {
    "target": "race:Dwarf",
-   "text": "For dwarves, welcoming travelers to celebrate the Feast of Winter Veil within the Great Forge brings lively song, warm hearth fires, and cold ale to their mountain home."
+   "text": "For dwarves, welcoming travelers to the Feast of Winter Veil in the Great Forge brings lively song, warm hearth fires, and cold ale to their mountain home."
   },
   {
    "target": "race:Gnome",
-   "text": "Gnome mechanics marvel at the ingenious holiday contraptions brought in for the season, such as the PX-238 Winter Wondervolts operated across town."
+   "text": "As a gnome, you can marvel at the holiday contraptions brought in for the season, including PX-238 Winter Wondervolts operated across town."
   }
  ],
  "keywords": [
@@ -117,5 +117,6 @@
  ],
  "attribution": [
   "Winter's Presents (Alliance)"
- ]
+ ],
+ "style": 1
 }

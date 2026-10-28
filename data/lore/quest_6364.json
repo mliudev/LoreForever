@@ -17,16 +17,16 @@
   "wiki": "Return to Jahan",
   "chain": []
  },
- "summary": "Return to Jahan marks the concluding leg of an introduction to the Horde's wind rider flight network between Mulgore and the Barrens. After visiting Thunder Bluff to deliver hides to the skinner Ahanu, travelers take a wyvern back to the Crossroads carrying finished leather wares for the merchant Jahan Hawkwing.",
+ "summary": "You carry finished leather goods from Thunder Bluff back to Jahan Hawkwing at the Crossroads. The trip introduces travelers to the Horde’s wind rider routes between Mulgore and the Barrens, after they bring hides to Ahanu, the skinner in Thunder Bluff.",
  "sections": [
   {
    "title": "Wings Over Kalimdor",
-   "body": "For many travelers, this errand is their first experience soaring aboard a trained wind rider. Tal, the wind rider master perched high atop Thunder Bluff's central mesa, arranges flights across the plains of central Kalimdor. As long as a traveler has already established contact with the roost at another settlement\u2014such as Devrak's outpost at the Crossroads\u2014these winged beasts can effortlessly cover leagues that would otherwise demand a perilous overland trek through the Red Rocks and northern Barrens.",
+   "body": "Tal, the wind rider master on Thunder Bluff’s central mesa, arranges flights across central Kalimdor. For many travelers, this is their first ride on a trained wind rider. A rider can take you to another settlement once you have met its wind rider master, such as Devrak at the Crossroads. The beasts cross leagues that would otherwise mean a dangerous journey overland through the Red Rocks and northern Barrens.",
    "spoiler": 0
   },
   {
    "title": "Commerce of the Crossroads",
-   "body": "The courier run serves an economic purpose alongside flight training. Jahan Hawkwing operates out of the bustling settlement of the Crossroads, where hunters, scouts, and mercenaries gather daily. Raw hides sent to Ahanu on the high rises of Thunder Bluff are refined into durable armor and equipment, then flown back to the dusty intersection of the Barrens to supply the Horde's expanding frontier efforts.",
+   "body": "Jahan Hawkwing trades from the Crossroads, where hunters, scouts, and mercenaries gather each day. The flight also carries goods between the settlements. Hides sent to Ahanu on Thunder Bluff’s high rises are made into durable armor and equipment, then flown back to the Barrens crossroads to supply the Horde’s growing frontier efforts.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "jahan hawkwing lore",
     "who is jahan"
    ],
-   "answer": "Jahan Hawkwing is a tauren merchant stationed at the Crossroads in the Barrens. He buys and sells leather goods, relying on artisans in Thunder Bluff to turn raw beast hides into valuable gear for traveling adventurers."
+   "answer": "Jahan Hawkwing is a tauren merchant at the Crossroads in the Barrens. He buys and sells leather goods, including gear made by Thunder Bluff artisans from raw beast hides."
   },
   {
    "q": "Why do I need to take a wind rider back to the Crossroads?",
@@ -47,7 +47,7 @@
     "wind rider return",
     "how do flight paths work"
    ],
-   "answer": "The journey demonstrates how the flight network operates. Wind rider masters like Tal in Thunder Bluff can only dispatch couriers and passengers to settlements they have personally scouted or connected with, such as Devrak's roost at the Crossroads."
+   "answer": "The wind rider carries finished leather goods to Jahan and introduces travelers to the flight network. Tal in Thunder Bluff can send riders only to settlements already connected to the roost, such as Devrak’s at the Crossroads."
   },
   {
    "q": "Who is Ahanu?",
@@ -56,7 +56,7 @@
     "ahanu thunder bluff",
     "who crafted the goods"
    ],
-   "answer": "Ahanu is a skilled leatherworker and skinner located on the high bluffs of Thunder Bluff. He takes raw skins shipped from hunters in the Barrens and crafts them into finished goods before returning them for sale."
+   "answer": "Ahanu is a leatherworker and skinner on the high rises of Thunder Bluff. He takes raw skins from Barrens hunters and crafts them into finished goods to be sent back for sale."
   },
   {
    "q": "Who is Devrak?",
@@ -65,7 +65,7 @@
     "crossroads flight master",
     "wind rider master devrak"
    ],
-   "answer": "Devrak is the orcish wind rider master stationed at the Crossroads. He manages the flight roost that connects the Barrens to major Horde bastions like Orgrimmar and Thunder Bluff."
+   "answer": "Devrak is the orcish wind rider master at the Crossroads. He manages the roost connecting the Barrens with Horde strongholds such as Orgrimmar and Thunder Bluff."
   },
   {
    "q": "Can you use a wind rider without speaking to the destination master first?",
@@ -74,7 +74,7 @@
     "unlock flight master",
     "can I fly anywhere"
    ],
-   "answer": "No. Wind riders can only be dispatched to outposts where a traveler has already met and registered with the local wind rider master, establishing the connection between roosts."
+   "answer": "No. A traveler can ride only to outposts where they have already met the local wind rider master and established a connection between the roosts."
   },
   {
    "q": "What happens after returning the leather goods to Jahan?",
@@ -83,17 +83,17 @@
     "what next",
     "after return to jahan"
    ],
-   "answer": "Delivering the finished goods concludes the courier chain between Mulgore and the Barrens, leaving travelers familiar with air transit and free to continue assisting the garrison and merchants of the Crossroads."
+   "answer": "Returning the leather goods to Jahan completes the courier chain between Mulgore and the Barrens. Travelers learn how air travel works and can continue helping the Crossroads garrison and merchants."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "The wind rider routes between Mulgore, Durotar, and the Barrens are the vital arteries binding the Horde's central Kalimdor territories together."
+   "text": "As a member of the Horde, you rely on wind rider routes linking Mulgore, Durotar, and the Barrens. They bind the Horde’s central Kalimdor territories together."
   },
   {
    "target": "race:Tauren",
-   "text": "Trade chains between Mulgore tanners and Barrens outposts demonstrate how the united tribes support the Horde's broader frontier expansion."
+   "text": "As a tauren, you can see how trade links Mulgore tanners with Barrens outposts and supports the Horde’s frontier."
   }
  ],
  "keywords": [
@@ -117,5 +117,6 @@
  ],
  "attribution": [
   "Return to Jahan"
- ]
+ ],
+ "style": 1
 }

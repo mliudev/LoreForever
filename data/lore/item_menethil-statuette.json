@@ -11,16 +11,16 @@
    "quest:98191"
   ]
  },
- "summary": "The Menethil Statuette is a rare silvery figurine portraying the late King Terenas Menethil II as a youthful paladin with an upraised warhammer. Lost in a shipwreck off the coast of the Wetlands, it is an exceptionally scarce memorial of Lordaeron's fallen sovereign.",
+ "summary": "Off the Wetlands coast, the Menethil Statuette lies lost from a shipwreck. The rare silver likeness honors Lordaeron's fallen king.",
  "sections": [
   {
    "title": "A Rare Relic of Lordaeron",
-   "body": "The statuette depicts King Terenas Menethil II in his early years, portrayed as a long-haired paladin lifting a hammer toward the heavens. Terenas was notoriously humble during his reign and disliked personal monuments, meaning few statues or likenesses were ever commissioned in his honor. Following the collapse of the Kingdom of Lordaeron to the Scourge, almost all such relics were obliterated, making this surviving effigy extraordinarily valuable to the Alliance.",
+   "body": "King Terenas Menethil II appears in his youth, a long-haired paladin lifting a hammer toward the heavens. He was humble and disliked personal monuments, so few statues or likenesses were made in his honor. The Scourge's fall of Lordaeron destroyed almost all of them. This surviving effigy is extraordinarily valuable to the Alliance.",
    "spoiler": 0
   },
   {
    "title": "Loss in the Bogs",
-   "body": "The statuette was cargo aboard the merchant vessel Blind Princess, bound for the Alliance harbor of Menethil. When the ship came under attack by aggressive Bluegill murlocs off the marshy coast, the cargo was scattered and the statuette ended up trapped in a half-buried barrel on the shore. With local threats like the Dragonmaw orcs hovering nearby, local defenders hurried to send the retrieved icon south to Stormwind City, where Highlord Bolvar Fordragon entrusted it to the Cathedral of Light.",
+   "body": "The Blind Princess carried the statuette toward the Alliance harbor of Menethil. Bluegill murlocs attacked the merchant vessel off the marshy coast, scattering its cargo. The statuette became trapped in a half-buried barrel on shore. With Dragonmaw orcs and other local threats nearby, defenders hurried to send the recovered icon south to Stormwind City. There, Highlord Bolvar Fordragon entrusted it to the Cathedral of Light.",
    "spoiler": 0
   }
  ],
@@ -32,7 +32,7 @@
     "what does the statuette depict",
     "who is the menethil statuette"
    ],
-   "answer": "It depicts King Terenas Menethil II, the former ruler of Lordaeron and the architect of the original Alliance. He is shown not as an elderly monarch, but in his youth as a paladin brandishing a warhammer."
+   "answer": "The statuette depicts King Terenas Menethil II, former ruler of Lordaeron and architect of the original Alliance. He appears as a young paladin, raising a warhammer."
   },
   {
    "q": "How was the statuette lost?",
@@ -41,7 +41,7 @@
     "who lost the statuette",
     "shipwreck wetlands statue"
    ],
-   "answer": "It was being transported across the Great Sea aboard the merchant vessel Blind Princess. When the ship was assailed by Bluegill murlocs in the Wetlands, its cargo washed ashore and was buried in the mud."
+   "answer": "The merchant vessel Blind Princess carried it across the Great Sea. Bluegill murlocs attacked the ship in the Wetlands, and its cargo washed ashore and was buried in the mud."
   },
   {
    "q": "Why are depictions of King Terenas so rare?",
@@ -49,7 +49,7 @@
     "why are there few statues of terenas",
     "terenas memorials"
    ],
-   "answer": "King Terenas was a modest ruler who actively disliked self-aggrandizing memorials, so very few statues of him were ever sculpted. Almost all remaining portraits and figures in the north were destroyed during the Scourge's devastation of Lordaeron."
+   "answer": "King Terenas disliked self-aggrandizing memorials, so few statues of him were made. The Scourge's devastation of Lordaeron destroyed almost all the portraits and figures that remained in the north."
   },
   {
    "q": "Where does the statuette end up?",
@@ -58,17 +58,17 @@
     "who keeps the statuette",
     "statuette cathedral"
    ],
-   "answer": "After being recovered in the Wetlands, it is brought to Highlord Bolvar Fordragon in Stormwind Keep. Bolvar recognizes that the Light has coalesced within the relic and directs that it be safeguarded by Lord Grayson Shadowbreaker within the Cathedral of Light."
+   "answer": "After its recovery in the Wetlands, the statuette is brought to Highlord Bolvar Fordragon in Stormwind Keep. He recognizes the Light within the relic and entrusts it to Lord Grayson Shadowbreaker at the Cathedral of Light."
   }
  ],
  "angles": [
   {
    "target": "class:Paladin",
-   "text": "The statuette shows the late King Terenas as a young warrior of the Light with a raised hammer, a deeply moving portrait for holy knights mourning the fallen kingdom."
+   "text": "As a paladin, you see King Terenas as a young warrior of the Light, raising his hammer. His portrait speaks to holy knights who mourn the fallen kingdom."
   },
   {
    "target": "faction:Alliance",
-   "text": "Terenas was the unifying leader who founded the Grand Alliance, making any preserved memorial of him an inspiring treasure in a fractured world."
+   "text": "As an Alliance member, you know Terenas as the unifying leader who founded the Grand Alliance. Any memorial of him that survives is an inspiring treasure in a fractured world."
   }
  ],
  "keywords": [
@@ -95,5 +95,6 @@
   "Menethil Statuette",
   "A Friend of the Family",
   "A Friend of the Family (2)"
- ]
+ ],
+ "style": 1
 }

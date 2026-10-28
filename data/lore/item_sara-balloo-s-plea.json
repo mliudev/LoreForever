@@ -10,11 +10,11 @@
    "quest:683"
   ]
  },
- "summary": "Sara Balloo's Plea is a handwritten missive penned by a grieving widow in Ironforge. Unable to face the monarch directly in her sorrow, she entrusts this letter to a trusted champion of the Alliance to carry before King Magni Bronzebeard.",
+ "summary": "Sara Balloo asks a trusted Alliance champion to carry her handwritten letter to King Magni Bronzebeard. Grieving in Ironforge, she cannot face the monarch herself and trusts the champion to bring her appeal before him.",
  "sections": [
   {
    "title": "A Widow's Appeal",
-   "body": "Written in the shadow of deep personal tragedy, Sara Balloo's Plea represents a humble appeal directly to Ironforge's throne. Rather than braving the High Seat herself in her grief-stricken condition, Sara seeks an adventurer who has demonstrated loyalty and valor to the Alliance to deliver her words. The message asks for the attention of King Magni Bronzebeard, drawing the sovereign's gaze toward the private mourning and sacrifices made by ordinary dwarven families serving the kingdom.",
+   "body": "Sara Balloo sends a humble appeal to Ironforge's throne. Grieving, she cannot bring herself to face the High Seat, so she seeks an adventurer loyal to the Alliance to carry her words. Her message asks King Magni Bronzebeard to look toward the private mourning and sacrifices of ordinary dwarven families who serve the kingdom.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "widow note ironforge",
     "sara note"
    ],
-   "answer": "It is a handwritten letter penned by Sara Balloo, addressed to King Magni Bronzebeard, asking for his royal attention while she mourns in private."
+   "answer": "Sara Balloo's Plea is a handwritten letter addressed to King Magni Bronzebeard. In it, Sara asks for his attention while she mourns in private."
   },
   {
    "q": "Why does Sara Balloo need someone else to deliver it?",
@@ -35,7 +35,7 @@
     "why cant sara go",
     "sara grief"
    ],
-   "answer": "Sara feels overcome with grief and believes appearing before the King of Ironforge in such an emotional state would hinder her plea, prompting her to rely on an Alliance champion instead."
+   "answer": "Sara feels overcome with grief and believes appearing before the King of Ironforge in that emotional state would hinder her plea. She relies on an Alliance champion to deliver it."
   },
   {
    "q": "Who receives this message?",
@@ -44,7 +44,7 @@
     "who to deliver to",
     "magni letter"
    ],
-   "answer": "The letter is addressed and delivered directly to King Magni Bronzebeard in the High Seat of Ironforge."
+   "answer": "King Magni Bronzebeard receives the letter at the High Seat of Ironforge."
   },
   {
    "q": "What does delivering the letter lead to?",
@@ -53,17 +53,17 @@
     "a kings tribute link",
     "what happens next"
    ],
-   "answer": "Presenting the letter to King Magni draws his attention to Sara Balloo's bereavement and initiates a royal response honoring her fallen family."
+   "answer": "Presenting the letter draws King Magni's attention to Sara Balloo's bereavement and begins a royal response honoring her fallen family."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "For dwarves, carrying Sara's message to the High Seat is an act of deep kinship, ensuring that even in grief, no mountaineer or citizen goes unheard by King Magni."
+   "text": "As a dwarf, you carry Sara's message to the High Seat so that even in grief, no mountaineer or citizen goes unheard by King Magni."
   },
   {
    "target": "faction:Alliance",
-   "text": "Sara entrusts her petition only to champions recognized for their service to the Alliance, trusting their reputation to grant her appeal an audience before royalty."
+   "text": "As an Alliance champion, Sara trusts you to carry her petition before royalty, relying on your recognized service to the Alliance."
   }
  ],
  "keywords": [
@@ -86,5 +86,6 @@
  "attribution": [
   "Sara Balloo's Plea",
   "Sara Balloo's Plea (quest)"
- ]
+ ],
+ "style": 1
 }

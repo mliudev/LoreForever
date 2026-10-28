@@ -20,21 +20,21 @@
    "Blackfathom Villainy (Alliance)"
   ]
  },
- "summary": "Blackfathom Villainy is an Alliance task given by Argent Guard Thaelrid deep within the ruined subterranean temple of Blackfathom Deeps. To halt the horrific sacrifices fueling an ancient horror, heroes are tasked with executing the cult leader Twilight Lord Kelris and bringing proof back to the Argent Dawn in Darnassus.",
+ "summary": "At Blackfathom Deeps, Argent Guard Thaelrid calls for the Alliance to stop Twilight Lord Kelris. The cult leader sacrifices captives to Aku'mai, and Thaelrid asks for Kelris's severed head as proof to bring to the Argent Dawn in Darnassus.",
  "sections": [
   {
    "title": "A Defiled Sanctuary",
-   "body": "The flooded cavern now known as Blackfathom Deeps was once a pristine subterranean temple dedicated to Elune. That sacred past was shattered when the corruption of an ancient Old God seeped up through the rock, spoiling the temple's Moon Well and releasing Aku'mai, a voracious servant of that primordial darkness. In the wake of this defilement, the Twilight's Hammer cult forged an unholy alliance with local naga, turning holy halls into a den of ritual murder.",
+   "body": "Blackfathom Deeps was once a night elven temple devoted to Elune. Corruption from an ancient Old God rose through the rock, fouling the Moon Well and freeing Aku'mai, a voracious servant of that darkness. The Twilight's Hammer joined with local naga after the temple was defiled, making its holy halls a place of ritual murder.",
    "spoiler": 0
   },
   {
    "title": "The Fallen Guard's Plea",
-   "body": "Argent Guard Thaelrid ventured into Blackfathom Deeps on behalf of his order, only to be grievously wounded and drained of his strength. Stranded amidst enemies, Thaelrid realizes he cannot finish his mission alone. He implores any brave Alliance travelers who reach him to strike down Twilight Lord Kelris, the sinister cultist orchestrating the sacrifice of innocents to Aku'mai in exchange for dark power.",
+   "body": "Argent Guard Thaelrid entered Blackfathom Deeps on behalf of his order, but was grievously wounded and drained of strength. Surrounded by enemies, he knows he cannot finish his mission alone. He pleads with brave Alliance travelers who reach him to kill Twilight Lord Kelris, the cultist leading sacrifices of innocents to Aku'mai in exchange for dark power.",
    "spoiler": 0
   },
   {
    "title": "Justice in Darnassus",
-   "body": "Presenting the severed head of Kelris to Dawnwatcher Selgorm at the Craftsmen's Terrace in Darnassus finally closes a long and troubling hunt. The Argent Dawn had feared Kelris was dead or lost to the shadows, given his recurring involvement whenever dark forces stirred in Kalimdor. Slaying him secures a vital victory against the cult's designs in Ashenvale.",
+   "body": "At the Craftsmen's Terrace in Darnassus, the severed head of Kelris is presented to Dawnwatcher Selgorm, bringing a long and troubling hunt to an end. The Argent Dawn feared Kelris was dead or lost to the shadows, for he had been involved time and again when dark forces stirred in Kalimdor. His death secures a vital victory against the cult's designs in Ashenvale.",
    "spoiler": 1
   }
  ],
@@ -46,7 +46,7 @@
     "thaelrid lore",
     "argent guard"
    ],
-   "answer": "Thaelrid is an operative of the Argent Dawn sent to investigate the growing shadow within Blackfathom Deeps. Grievously wounded in the depths, his depleted strength forces him to recruit passing adventurers to stop Kelris."
+   "answer": "Thaelrid is an Argent Dawn operative sent to investigate the growing shadow within Blackfathom Deeps. Grievously wounded in the depths, his strength is spent, so he recruits passing adventurers to stop Kelris."
   },
   {
    "q": "Why is Twilight Lord Kelris being targeted?",
@@ -55,7 +55,7 @@
     "why kill kelris",
     "twilight lord kelris"
    ],
-   "answer": "Kelris is the leader of the Twilight's Hammer cultists inhabiting Blackfathom Deeps. He has been systematically sacrificing innocent captives to Aku'mai, a foul beast linked to the Old Gods, in exchange for malevolent power."
+   "answer": "Kelris leads the Twilight's Hammer cultists in Blackfathom Deeps. He sacrifices innocent captives to Aku'mai, a foul beast linked to the Old Gods, in exchange for malevolent power."
   },
   {
    "q": "Who is Dawnwatcher Selgorm?",
@@ -64,7 +64,7 @@
     "who is selgorm",
     "argent dawn darnassus"
    ],
-   "answer": "Dawnwatcher Selgorm is an Argent Dawn representative stationed on the Craftsmen's Terrace in Darnassus. He oversees the order's efforts to thwart encroaching corruptions across northern Kalimdor."
+   "answer": "Dawnwatcher Selgorm is an Argent Dawn representative stationed on the Craftsmen's Terrace in Darnassus. He oversees the order's efforts against encroaching corruption across northern Kalimdor."
   },
   {
    "q": "What is the history of Blackfathom Deeps?",
@@ -73,7 +73,7 @@
     "what was blackfathom deeps",
     "temple of elune bfd"
    ],
-   "answer": "Before it became a sunken lair of monsters and cultists, the caverns housed a great night elven temple dedicated to the goddess Elune. It fell into ruin after an Old God's malice bled upward and fouled its sacred Moon Well."
+   "answer": "Before Blackfathom Deeps became a sunken lair, its caverns held a great night elven temple devoted to Elune. The temple fell into ruin after an Old God's malice rose up and fouled its sacred Moon Well."
   },
   {
    "q": "Who is Aku'mai?",
@@ -82,7 +82,7 @@
     "aku'mai lore",
     "akumai beast"
    ],
-   "answer": "Aku'mai is a monstrous, hydra-like servant of an Old God that crawled forth from the tainted waters beneath Blackfathom Deeps. The Twilight's Hammer reveres the creature, feeding it captives to gain dark blessings."
+   "answer": "Aku'mai is a monstrous, hydra-like servant of an Old God that crawled from the tainted waters beneath Blackfathom Deeps. The Twilight's Hammer reveres Aku'mai and feeds it captives for dark blessings."
   },
   {
    "q": "Why are the Twilight's Hammer and naga working together?",
@@ -91,25 +91,25 @@
     "why are naga in bfd",
     "twilight hammer and naga"
    ],
-   "answer": "The reasons for their pact are not fully known, but in Blackfathom Deeps they have allied to occupy the ruined temple grounds while the cult offers sacrifices to Aku'mai."
+   "answer": "The reason for the pact between the Twilight's Hammer and the naga is not fully known. In Blackfathom Deeps, they have joined forces to occupy the ruined temple grounds while the cult sacrifices captives to Aku'mai."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "Avenging the defilement of an ancient temple of Elune and cleansing its poisoned Moon Well strikes directly at the heart of kaldorei heritage."
+   "text": "For a night elf, avenging the defilement of an ancient temple of Elune and cleansing its poisoned Moon Well strikes at the heart of kaldorei heritage."
   },
   {
    "target": "faction:Alliance",
-   "text": "By aiding the Argent Dawn against Kelris, the Alliance helps protect the vulnerable borders of Ashenvale from insidious cult infiltration."
+   "text": "As an Alliance member, you help the Argent Dawn protect Ashenvale's vulnerable borders from cult infiltration by aiding them against Kelris."
   },
   {
    "target": "class:Paladin",
-   "text": "Answering the call of the Argent Dawn to slay a cultist who sacrifices innocents to primordial horrors is the very definition of holy retribution."
+   "text": "As a paladin, answering the Argent Dawn's call to slay a cultist who sacrifices innocents to primordial horrors is holy retribution."
   },
   {
    "target": "class:Priest",
-   "text": "Stopping Kelris brings an end to the blasphemous desecration of consecrated waters once held holy in devotion to the divine."
+   "text": "As a priest, stopping Kelris ends the blasphemous desecration of waters once held holy in devotion to the divine."
   }
  ],
  "keywords": [
@@ -137,5 +137,6 @@
  ],
  "attribution": [
   "Blackfathom Villainy (Alliance)"
- ]
+ ],
+ "style": 1
 }

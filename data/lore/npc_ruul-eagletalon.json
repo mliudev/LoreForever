@@ -8,11 +8,11 @@
   "wiki": "Ruul Eagletalon",
   "refs": 1
  },
- "summary": "Ruul Eagletalon is a tauren resident of Bloodhoof Village in Mulgore. Stationed near the settlement's perimeter, he keeps a watchful eye on the local wildlife, particularly the aggressive Windfury harpies encroaching upon tauren lands.",
+ "summary": "At Bloodhoof Village, Ruul Eagletalon watches the settlement’s borders. He keeps an eye on Mulgore’s wildlife, especially the aggressive Windfury harpies pressing into tauren lands.",
  "sections": [
   {
    "title": "Watcher of Bloodhoof",
-   "body": "Ruul Eagletalon stands guard in Bloodhoof Village, tending to the security of the settlement as young braves arrive from Camp Narache. While Mulgore is a peaceful homeland compared to the arid wastes of the Barrens, territorial predators and hostile creatures continually press against the pastures. Ruul concerns himself with threats roaming the nearby plains, notably directing capable travelers to confront the savage Windfury harpies who prey on unwary nomads and game.",
+   "body": "Ruul Eagletalon tends to Bloodhoof Village’s security as young braves arrive from Camp Narache. Mulgore is a peaceful homeland beside the arid wastes of the Barrens, yet territorial predators and hostile creatures still press against its pastures. Ruul watches for dangers on the nearby plains and directs capable travelers against the savage Windfury harpies, which prey on unwary nomads and game.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "ruul eagletalon npc",
     "bloodhoof ruul"
    ],
-   "answer": "Ruul Eagletalon is a tauren stationed in Bloodhoof Village who helps protect the settlement by directing adventurers against local threats across Mulgore."
+   "answer": "Ruul Eagletalon watches over Bloodhoof Village and directs travelers against threats across Mulgore."
   },
   {
    "q": "What threat does Ruul Eagletalon ask travelers to deal with?",
@@ -33,7 +33,7 @@
     "dangers of the windfury",
     "harpies mulgore quest"
    ],
-   "answer": "Ruul warns of the hostile Windfury harpies nesting within Mulgore and tasks capable braves with culling their numbers before they bring harm to the village."
+   "answer": "Ruul warns travelers about aggressive Windfury harpies in Mulgore and asks capable braves to reduce their numbers before they harm the village."
   },
   {
    "q": "Where can Ruul Eagletalon be found?",
@@ -42,13 +42,13 @@
     "find ruul",
     "where is ruul"
    ],
-   "answer": "He can be found standing along the grounds of Bloodhoof Village, situated by the shores of Stonebull Lake in central Mulgore."
+   "answer": "Ruul Eagletalon can be found on the grounds of Bloodhoof Village, by the shores of Stonebull Lake in central Mulgore."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "Ruul represents the practical vigilance required of the Shu'halo, ensuring that the newfound sanctuary of Mulgore remains safe from territorial predators and winged raiders."
+   "text": "As a tauren, you know the vigilance needed to keep Mulgore safe from territorial predators and winged raiders."
   }
  ],
  "keywords": [
@@ -67,5 +67,6 @@
  ],
  "attribution": [
   "Ruul Eagletalon"
- ]
+ ],
+ "style": 1
 }

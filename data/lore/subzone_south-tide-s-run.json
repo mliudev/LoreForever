@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "South Tide's Run"
  },
- "summary": "South Tide's Run is the lonely southwestern coastline of Silverpine Forest, stretching along the cold waters of the Great Sea. Flanking the forested interior, these damp sands and surf serve as the southern complement to North Tide's Run.",
+ "summary": "South Tide's Run follows Silverpine Forest's southwestern edge beside the cold Great Sea. These damp shores border the forested interior and form the southern counterpart to North Tide's Run.",
  "sections": [
   {
    "title": "The Western Shore",
-   "body": "Stretching along the southwestern edge of Silverpine Forest, South Tide's Run forms a desolate boundary between the woods and the Great Sea. Unlike the protected eastern roads that lead down toward the Greymane Wall, this open shore takes the brunt of the western tides, serving as a bleak coastal wilderness largely untouched by the settlements inland.",
+   "body": "Along Silverpine Forest's southwestern edge, the Great Sea meets a desolate shore. The eastern roads lead toward the Greymane Wall under the forest's protection, but this open coastline takes the western tides. The bleak stretch remains largely untouched by the settlements inland.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "south tides run location",
     "south tide run map"
    ],
-   "answer": "South Tide's Run occupies the southwestern coastline of Silverpine Forest, bordering the open expanse of the Great Sea."
+   "answer": "South Tide's Run runs along Silverpine Forest's southwestern coast beside the open Great Sea."
   },
   {
    "q": "How does South Tide's Run differ from North Tide's Run?",
@@ -31,7 +31,7 @@
     "north tides run vs south tides run",
     "difference between tide runs"
    ],
-   "answer": "Both are long stretches of beach defining Silverpine Forest's western shoreline, but South Tide's Run covers the southern portion of the coast, whereas North Tide's Run extends along the northwest near the border with Tirisfal Glades."
+   "answer": "Both beaches trace Silverpine Forest's western shore. South Tide's Run covers the southern coast, while North Tide's Run follows the northwest near the border with Tirisfal Glades."
   },
   {
    "q": "Are there any settlements along South Tide's Run?",
@@ -39,13 +39,13 @@
     "towns in south tides run",
     "who lives in south tides run"
    ],
-   "answer": "There are no major towns or outposts along the beach itself. Most Forsaken activity remains inland near the main thoroughfares, leaving the shoreline isolated."
+   "answer": "No major towns or outposts stand along the beach. Most Forsaken activity stays inland near the main thoroughfares, leaving the shoreline isolated."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "The wild southwestern coast lies far from the protection of the Sepulcher, making it an empty frontier rarely trodden by the Forsaken."
+   "text": "As an Undead, you stand on a wild southwestern coast far from the Sepulcher's protection, an empty frontier the Forsaken rarely tread."
   }
  ],
  "keywords": [
@@ -61,5 +61,6 @@
  ],
  "attribution": [
   "South Tide's Run"
- ]
+ ],
+ "style": 1
 }

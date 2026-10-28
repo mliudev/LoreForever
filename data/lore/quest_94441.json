@@ -11,16 +11,16 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "A fellow Forsaken asks you to thank Danitha Morr for the service performed by the <class>s of Bandarion Keep. Your work has earned the Deathguard\u2019s gratitude and brings you a gift of redemption.",
+ "summary": "A fellow Forsaken asks you to thank Danitha Morr for the service performed by the paladins of Bandarion Keep. Your work has earned the Deathguard\u2019s gratitude and brings you a gift of redemption.",
  "sections": [
   {
    "title": "Thanks at the Keep",
-   "body": "A fellow Forsaken asks you to carry their thanks to Danitha Morr at Bandarion Keep. The rest of the Deathguard will hear about the service you and the other <class>s performed. They are proud to count you among the Forsaken and trust that the Dark Lady watches over you.",
+   "body": "A fellow Forsaken asks you to carry their thanks to Danitha Morr at Bandarion Keep. The rest of the Deathguard will hear about the service you and the other paladins performed. They are proud to count you among the Forsaken and trust that the Dark Lady watches over you.",
    "spoiler": 0
   },
   {
    "title": "A Gift of Light",
-   "body": "Danitha says the Symbol of Life can be used by a <class> ready to receive one of the Light\u2019s greatest blessings. She bestows the gift of redemption, which lets you resurrect fallen companions. Your service matters to both the Forsaken and the <class>s of Bandarion Keep, and the Deathguard hopes such acts will win the hearts and minds of fellow Forsaken.",
+   "body": "Danitha says the Symbol of Life can be used by a paladin ready to receive one of the Light\u2019s greatest blessings. She bestows the gift of redemption, which lets you resurrect fallen companions. Your service matters to both the Forsaken and the paladins of Bandarion Keep, and the Deathguard hopes such acts will win the hearts and minds of fellow Forsaken.",
    "spoiler": 1
   }
  ],
@@ -32,7 +32,7 @@
     "thank Danitha",
     "Danitha Morr"
    ],
-   "answer": "You are asked to thank Danitha Morr at Bandarion Keep for the service performed by the <class>s there."
+   "answer": "You are asked to thank Danitha Morr at Bandarion Keep for the service performed by the paladins there."
   },
   {
    "q": "Who will hear about the service?",
@@ -41,7 +41,7 @@
     "who gets told",
     "keep service"
    ],
-   "answer": "The rest of the Deathguard will hear about the service performed by the <class>s of Bandarion Keep."
+   "answer": "The rest of the Deathguard will hear about the service performed by the paladins of Bandarion Keep."
   },
   {
    "q": "What does the Symbol of Life do?",
@@ -50,7 +50,7 @@
     "life symbol",
     "what does it do"
    ],
-   "answer": "The Symbol of Life is for a <class> ready to make use of one of the Light\u2019s greatest blessings."
+   "answer": "The Symbol of Life is for a paladin ready to make use of one of the Light\u2019s greatest blessings."
   },
   {
    "q": "Why is the Deathguard proud of me?",
@@ -59,7 +59,7 @@
     "why proud",
     "Deathguard proud"
    ],
-   "answer": "They are proud to count you among the Forsaken and value the service you performed with the <class>s of Bandarion Keep."
+   "answer": "They are proud to count you among the Forsaken and value the service you performed with the paladins of Bandarion Keep."
   }
  ],
  "angles": [],

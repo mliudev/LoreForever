@@ -8,11 +8,11 @@
   "wiki": "Brock Stoneseeker",
   "refs": 2
  },
- "summary": "Brock Stoneseeker is a dwarven mining instructor based in the settlement of Thelsamar in Loch Modan. As the proprietor of Brock's School of Mining and Surveying, he instructs novice prospectors in the craft of extracting valuable ores and minerals from the earth.",
+ "summary": "Brock Stoneseeker teaches mining in Thelsamar, in Loch Modan. At Brock's School of Mining and Surveying, he trains novice prospectors to extract ores and minerals.",
  "sections": [
   {
    "title": "Master of Mining and Surveying",
-   "body": "Operating out of Thelsamar, Brock Stoneseeker directs Brock's School of Mining and Surveying. In the mineral-rich hills of Loch Modan, seasoned expertise with a pickaxe and an eye for geological veins are indispensable. Brock guides aspiring miners through the foundational techniques of identifying ore nodes, extracting raw metals, and properly surveying subterranean deposits, ensuring Alliance tradesfolk can fuel Ironforge's legendary smithies.",
+   "body": "In Thelsamar, Brock Stoneseeker teaches miners at Brock's School of Mining and Surveying. Loch Modan's hills hold rich mineral veins, and miners need skill with a pickaxe and an eye for the rock. Brock teaches the basics of finding ore, extracting raw metals, and surveying underground deposits. His lessons help Alliance tradesfolk supply Ironforge's smithies.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "who is brock",
     "brock thelsamar"
    ],
-   "answer": "Brock Stoneseeker is a dwarf mining trainer stationed in Thelsamar within Loch Modan. He runs Brock's School of Mining and Surveying, teaching tradesfolk how to extract ore and survey raw mineral deposits."
+   "answer": "Brock Stoneseeker trains miners in Thelsamar, in Loch Modan. At Brock's School of Mining and Surveying, he teaches tradesfolk to extract ore and survey mineral deposits."
   },
   {
    "q": "Where can Brock Stoneseeker be found?",
@@ -33,7 +33,7 @@
     "brock stoneseeker location",
     "brock map"
    ],
-   "answer": "Brock resides in Thelsamar, the main dwarven town in Loch Modan, operating his mining establishment near the local tradesmen."
+   "answer": "Brock Stoneseeker is in Thelsamar, the main dwarven town in Loch Modan. He runs his mining school near the local tradesmen."
   },
   {
    "q": "What profession does Brock teach?",
@@ -42,7 +42,7 @@
     "brock trainer type",
     "mining trainer thelsamar"
    ],
-   "answer": "He is a Mining trainer, teaching travelers the basics of gathering rough stone, copper, and other early ores found scattered across the Khaz Modan countryside."
+   "answer": "Brock Stoneseeker teaches Mining. He shows travelers how to gather rough stone, copper, and other early ores found across the Khaz Modan countryside."
   },
   {
    "q": "What is Brock's School of Mining and Surveying?",
@@ -50,17 +50,17 @@
     "brocks school",
     "school of mining thelsamar"
    ],
-   "answer": "It is Brock's training establishment in Thelsamar dedicated to teaching prospective prospectors how to safely extract minerals and read subterranean veins throughout the mountains."
+   "answer": "Brock's School of Mining and Surveying is a training school in Thelsamar. Brock teaches prospectors to extract minerals safely and read underground veins throughout the mountains."
   }
  ],
  "angles": [
   {
    "target": "profession:Mining",
-   "text": "Miners traveling through Loch Modan seek out Brock Stoneseeker in Thelsamar to begin or advance their training in unearthing and smelting regional ores."
+   "text": "As a miner in Loch Modan, you can find Brock Stoneseeker in Thelsamar to begin or advance your training in unearthing and smelting regional ores."
   },
   {
    "target": "race:Dwarf",
-   "text": "For dwarves of Khaz Modan, stone and metal are foundational, making teachers like Brock a vital link in sustaining Ironforge's deep-rooted craft traditions."
+   "text": "As a dwarf of Khaz Modan, you inherit a tradition built on stone and metal. Teachers like Brock help sustain Ironforge's craft traditions."
   }
  ],
  "keywords": [
@@ -79,5 +79,6 @@
  ],
  "attribution": [
   "Brock Stoneseeker"
- ]
+ ],
+ "style": 1
 }

@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Thunderbrew Distillery"
  },
- "summary": "Thunderbrew Distillery serves as the bustling tavern and central gathering place of Kharanos in Dun Morogh. Renowned far and wide for its potent ales, it functions as both an active brewhouse and an essential rest stop for travelers passing through the snowy mountain passes. Inside, patrons find warm hearths, cold pints, and a wide array of class mentors and local tradesfolk.",
+ "summary": "Travelers find the Thunderbrew Distillery at the heart of Kharanos, where ale and shelter await. Its brewhouse and tavern draw mountain travelers, while mentors and tradesfolk offer their skills within.",
  "sections": [
   {
    "title": "The Warm Hearth of Kharanos",
-   "body": "Perched in the center of Kharanos, the Thunderbrew Distillery is the heart of civic life in southern Dun Morogh. Founded by the Thunderbrew clan\u2014established by Arkilus Thunderbrew and maintained by his kin\u2014the brewhouse is famous across Khaz Modan for producing robust, warming ales built to ward off the biting mountain chill. It operates as the local inn, managed on the floor by Innkeeper Belm, offering weary mountaineers a roaring fire, hearty fare, and beds to escape the blizzards outside.",
+   "body": "The Thunderbrew Distillery anchors Kharanos in southern Dun Morogh. Arkilus Thunderbrew founded the brewhouse, and his kin have kept it in the family. Across Khaz Modan, its strong ales are known for warming those who face the mountain cold. Innkeeper Belm manages the inn, where weary mountaineers find a fire, hearty food, and beds beyond the blizzards outside.",
    "spoiler": 0
   },
   {
    "title": "A Crossroads of Knowledge and Craft",
-   "body": "Beyond pouring renowned stouts, the distillery doubles as a vital hub for developing adventurers. Because Kharanos is the first major settlement travelers reach after departing Coldridge Valley, the Thunderbrew tavern plays host to diverse trainers. Mentors in martial arts, holy rites, arcane studies, and roguecraft congregate under its sturdy timber rafters alongside instructors in cooking and emergency medical aid, turning a boisterous drinking hall into an indispensable preparation post.",
+   "body": "Kharanos is the first major settlement travelers reach after leaving Coldridge Valley, and the distillery gathers many kinds of instructors beneath its timber rafters. Teachers offer lessons in martial arts, holy rites, arcane studies, and roguecraft, alongside cooking and first aid. The hall pours its well-known stouts, but also gives travelers a place to prepare for the road ahead.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "who runs thunderbrew",
     "thunderbrew family"
    ],
-   "answer": "The establishment belongs to the Thunderbrew family, founded by Arkilus Thunderbrew. His son Ragnar Thunderbrew actively looks after the family brewing traditions, while Innkeeper Belm handles hospitality and rooms for travelers resting in Kharanos."
+   "answer": "The Thunderbrew family owns the distillery, which Arkilus Thunderbrew founded. His son Ragnar Thunderbrew tends the family brewing traditions, while Innkeeper Belm looks after guests and their rooms in Kharanos."
   },
   {
    "q": "What services are available inside the distillery?",
@@ -37,7 +37,7 @@
     "distillery trainers",
     "kharanos inn services"
    ],
-   "answer": "The distillery serves as the primary inn of Kharanos. Inside, travelers can bind their hearthstones with Innkeeper Belm, purchase drinks and supplies from vendors, and seek instruction from trainers for warriors, paladins, priests, mages, rogues, cooking, and first aid."
+   "answer": "The distillery is Kharanos's main inn. Innkeeper Belm can bind your hearthstone, vendors sell drinks and supplies, and trainers teach warriors, paladins, priests, mages, rogues, cooking, and first aid."
   },
   {
    "q": "Why is the distillery so famous?",
@@ -45,17 +45,17 @@
     "why is thunderbrew ale famous",
     "thunderbrew ale reputation"
    ],
-   "answer": "The distillery is celebrated throughout the Eastern Kingdoms for crafting exceptionally potent dwarven ales, particularly Thunderbrew Ale. Its brews are known to fortify travelers against the harsh freezing temperatures of the Dun Morogh peaks."
+   "answer": "The distillery is famed across the Eastern Kingdoms for potent dwarven ales, especially Thunderbrew Ale. Travelers know its brews for fortifying them against the freezing cold of the Dun Morogh peaks."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "For dwarves leaving Coldridge Valley, the distillery is a beloved homecoming, providing familiar stout, a seat near a blazing hearth, and trusted mentors in iron and faith."
+   "text": "As a dwarf leaving Coldridge Valley, you find familiar stout, a seat by the hearth, and trusted mentors in iron and faith at the distillery."
   },
   {
    "target": "profession:Cooking",
-   "text": "The kitchen inside the distillery offers culinary training and supplies, making it a key stop for cooks looking to learn how to prepare hearty mountain provisions."
+   "text": "The distillery kitchen offers cooking instruction and supplies, making it a useful stop when you want to learn to prepare hearty mountain provisions."
   }
  ],
  "keywords": [
@@ -75,5 +75,6 @@
  ],
  "attribution": [
   "Thunderbrew Distillery"
- ]
+ ],
+ "style": 1
 }

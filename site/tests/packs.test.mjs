@@ -10,6 +10,7 @@ import { SITE, r2 } from "./helpers.mjs";
 import { MANIFEST_KEY } from "../lib/lore.js";
 import { visiblePacks, packPlays, anchorOf } from "../lib/packs.js";
 import { SETUP_PICKS_AFTER } from "../lib/bundles.js";
+import { BUNDLES, cardHtml } from "../public/js/bundles.js";
 import { onRequestGet as downloadsGet } from "../functions/downloads/index.js";
 import { onRequestGet as entryGet } from "../functions/lore/[type]/[id].js";
 import { onRequestGet as indexGet } from "../functions/lore/index.js";
@@ -83,7 +84,20 @@ test("/downloads: once the published Setup reads the pick from its name, the Eng
   const [major, minor] = SETUP_PICKS_AFTER.split(".").map(Number);
   const later = await draw(`v${major}.${minor + 1}.0`);
   assert.deepEqual(ticks(later, "en").filter(Boolean), [], "the next one comes ticked");
-  assert.ok(ticks(later, "de").length && ticks(later, "de").every(t => /german/i.test(t)), "German narration isn't in Setup yet");
+});
+
+test("/downloads on Windows: a card whose voices Setup can't install gets CurseForge as its button, not a Setup that gives none of it", async () => {
+  const cat = catalogOf(await downloads({ ASSETS: assets(), STUDIO: await bucketWith([]) }));
+  const button = html => /<(?:a|summary)\b[^>]*\bbx-go\b[^>]*>/.exec(html)?.[0] || "";   // the card's one big button
+  const de = cat.langs.find(l => l.code === "de");
+  assert.ok(de?.narrators.length, "German has narrators");
+  for (const n of de.narrators) for (const b of BUNDLES) {
+    if (!n.cards[b.key].ok) continue;
+    const go = button(cardHtml(cat, { lang: "de", narrator: n.id, os: "win" }, b));
+    assert.ok(go && !go.includes("/download/setup/"), `de ${n.id} ${b.key}: ${go}`);
+  }
+  assert.match(button(cardHtml(cat, { lang: "en", narrator: "female", os: "win" }, BUNDLES[0])), /href="\/download\/setup\/female\/en\/addon"/,
+    "English stays one Setup");
 });
 
 test("/downloads: a pack that isn't out yet stays off the page; a missing packs.json leaves the rest of it working", async () => {

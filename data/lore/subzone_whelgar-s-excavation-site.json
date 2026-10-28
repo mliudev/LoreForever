@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Whelgar's Excavation Site"
  },
- "summary": "Whelgar's Excavation Site is a dwarven archaeological dig in the western foothills of the Wetlands. Intended to unearth ancient Titan relics and prehistoric secrets, the expedition ended in disaster when vicious mottled raptors overran the quarry. The surviving excavators are now trapped on a ridge overlooking the dig, cut off from their findings.",
+ "summary": "Dwarven prospectors are trapped above Whelgar's Excavation Site, cut off from their findings. The dig sought ancient Titan relics, prehistoric secrets, and fossils, but mottled raptors overran the quarry.",
  "sections": [
   {
    "title": "A Ruined Expedition",
-   "body": "Spearheaded by dwarven prospectors searching for ancient fossils and earthen mysteries, the excavation carved out a massive quarry between Menethil Harbor and Dun Modr. However, unearthing prehistoric remnants drew the wrath of native mottled raptors. Overwhelmed and under-equipped, the archaeologists retreated to a ridge overlooking the dig site, leaving their tents, tools, and unearthed relics scattered among prowling predators.",
+   "body": "Between Menethil Harbor and Dun Modr, dwarven prospectors dug for ancient fossils and earthen mysteries. Their search for prehistoric remnants stirred the native mottled raptors. Overwhelmed and under-equipped, the archaeologists fled to a ridge overlooking the site. Their tents, tools, and unearthed relics remain scattered among the prowling predators.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "what happened to the digsite",
     "why leave the dig"
    ],
-   "answer": "The dwarven excavators accidentally disturbed the territory of aggressive mottled raptors. Overrun by these ferocious creatures, the surviving crew took refuge on a ridge overlooking the dig site."
+   "answer": "The dwarven excavators disturbed the territory of aggressive mottled raptors. Overwhelmed by the ferocious creatures, the surviving crew took refuge on a ridge overlooking the dig site."
   },
   {
    "q": "What were the dwarves looking for here?",
@@ -32,7 +32,7 @@
     "purpose of the excavation",
     "whelgar digsite goal"
    ],
-   "answer": "The dwarves were digging for prehistoric fossils and subterranean artifacts in hopes of uncovering ancient clues about their Titan heritage and the world's distant past."
+   "answer": "The dwarves sought prehistoric fossils and subterranean artifacts, hoping to uncover ancient clues about their Titan heritage and the world's distant past."
   },
   {
    "q": "What threats roam the digsite now?",
@@ -41,7 +41,7 @@
     "digsite mobs",
     "raptors in wetlands"
    ],
-   "answer": "The quarry floor and surrounding ridges are swarming with mottled raptors, including the feared raptor Sarltooth."
+   "answer": "Mottled raptors swarm the quarry floor and surrounding ridges, including the feared Sarltooth."
   },
   {
    "q": "Where did the surviving excavators go?",
@@ -50,17 +50,17 @@
     "where are the dwarves",
     "digsite survivors location"
    ],
-   "answer": "The surviving dig crew, including Prospector Whelgar, are trapped atop a ridge overlooking the dig site, where they seek brave adventurers to recover their lost research."
+   "answer": "The surviving crew, including Prospector Whelgar, are trapped atop a ridge overlooking the dig site. They seek brave adventurers to recover their lost research."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "Every dig abandoned to feral beasts is an insult to the Explorers' League. Reclaiming Whelgar's research means defending your heritage and taking back stolen Titan secrets."
+   "text": "As a dwarf, seeing a dig abandoned to feral beasts is an insult to the Explorers' League. Reclaiming Whelgar's research means defending your heritage and recovering stolen Titan secrets."
   },
   {
    "target": "profession:Mining",
-   "text": "The massive exposed quarry walls and unearthed bedrock offer prime veins for miners daring enough to work beneath the snarls of hungry raptors."
+   "text": "The quarry's exposed walls and unearthed bedrock offer prime veins for miners daring enough to work beneath hungry raptors' snarls."
   }
  ],
  "keywords": [
@@ -79,5 +79,6 @@
  ],
  "attribution": [
   "Whelgar's Excavation Site"
- ]
+ ],
+ "style": 1
 }

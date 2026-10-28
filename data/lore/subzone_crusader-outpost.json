@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Crusader Outpost"
  },
- "summary": "Crusader Outpost is a fortified watchtower perched atop the rugged hills of eastern Tirisfal Glades. Manned by zealous members of the Scarlet Crusade, it guards the approaches leading toward their stronghold at the Scarlet Monastery. From this height, Crusaders observe travel along the road and stand ready to repel any Forsaken incursion.",
+ "summary": "Scarlet Crusaders watch the eastern road from the heights of Crusader Outpost. Their tower guards the approaches to the Scarlet Monastery and waits for Forsaken incursions.",
  "sections": [
   {
    "title": "Eyes Over Tirisfal",
-   "body": "Built into the bluffs overlooking the eastern road, the Crusader Outpost serves as a primary early-warning station for the Scarlet Crusade. From their elevated tower, sentries watch over movement between Brill and the eastern reaches of Lordaeron, ensuring that wandering undead or scouting parties are spotted long before reaching the Monastery gates. The tower also grants the garrison tactical flanking capability against any force seeking to march up the valley toward their holy bastion.",
+   "body": "Crusader Outpost watches the eastern road from bluffs above the valley. Scarlet sentries scan the route between Brill and Lordaeron’s eastern reaches, hoping to spot undead and scouting parties before they reach the Monastery gates. The tower also gives the garrison a way to flank forces marching up the valley toward their holy bastion.",
    "spoiler": 0
   },
   {
    "title": "A Thorn in the Dark Lady's Side",
-   "body": "Under the command of Scarlet officers like Captain Vachon, the garrison stationed here maintains unwavering vigilance. They see the surrounding woods not as sovereign territory of the Forsaken, but as unhallowed soil stolen from humanity by monstrosities. For travelers loyal to the Undercity, the outpost represents an ever-present ambush point where crossbow bolts and cleansing steel await anyone straying too close to the bluffs.",
+   "body": "Captain Vachon and other Scarlet officers keep the garrison on alert. They regard the woods as unhallowed ground stolen from humanity by monsters, not Forsaken territory. Travelers loyal to the Undercity face an ambush point near the bluffs, where crossbow bolts and cleansing steel await anyone who comes too close.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "crusader outpost tirisfal",
     "scarlet watchtower"
    ],
-   "answer": "It is a fortified scouting tower held by the Scarlet Crusade in eastern Tirisfal Glades. It monitors the road passing below and protects the southern approach to the Scarlet Monastery."
+   "answer": "The Scarlet Crusade holds this watchtower in eastern Tirisfal Glades. Its sentries monitor the road below and guard the southern approach to the Scarlet Monastery."
   },
   {
    "q": "Who controls this outpost?",
@@ -37,7 +37,7 @@
     "who lives here",
     "scarlet crusade outpost"
    ],
-   "answer": "The outpost is manned by zealots of the Scarlet Crusade under the command of Captain Vachon. They view all undead as abominations to be eradicated on sight."
+   "answer": "Captain Vachon commands the Scarlet Crusade zealots who man the outpost. They see all undead as abominations to eradicate on sight."
   },
   {
    "q": "Why is the tower situated in these hills?",
@@ -46,7 +46,7 @@
     "outpost location",
     "tactical purpose"
    ],
-   "answer": "Its elevated position offers clear sightlines over the main eastern thoroughfare of Tirisfal Glades. This allows Crusaders to detect Forsaken troop movements early and flank any forces attempting an assault on the Scarlet Monastery."
+   "answer": "The tower’s height gives Crusaders a clear view of Tirisfal Glades’ eastern road. From there, they can spot Forsaken troop movements early and flank forces attacking the Scarlet Monastery."
   },
   {
    "q": "Will the guards here attack me?",
@@ -54,17 +54,17 @@
     "is crusader outpost hostile",
     "are they aggressive"
    ],
-   "answer": "Yes. The Scarlet Crusade considers all outsiders\u2014particularly the Forsaken and their Horde allies\u2014corrupt enemies who must be purged in holy fire."
+   "answer": "Yes. The Scarlet Crusade sees outsiders, especially the Forsaken and their Horde allies, as corrupt enemies to purge in holy fire."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "This watchtower sits right on the edge of Forsaken territory, serving as a bitter reminder that zealous living crusaders still hold sovereign pockets within the glades."
+   "text": "As an undead traveler, you pass near a watchtower on the edge of Forsaken territory. Its living crusaders hold a pocket of ground in the glades."
   },
   {
    "target": "faction:Horde",
-   "text": "Navigating the eastern trails of Tirisfal requires caution, as Scarlet sentries atop this hill will swiftly attack anyone traveling toward the Monastery."
+   "text": "As a member of the Horde, you must travel the eastern trails of Tirisfal with care. Scarlet sentries on the hill attack anyone heading toward the Monastery."
   }
  ],
  "keywords": [
@@ -83,5 +83,6 @@
  ],
  "attribution": [
   "Crusader Outpost"
- ]
+ ],
+ "style": 1
 }

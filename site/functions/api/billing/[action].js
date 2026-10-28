@@ -1,5 +1,5 @@
 // Plans (LOR-252, lib/billing.js): what /plans and the plan card on /account show, and the Stripe pages they send players to.
-//   GET  /api/billing/plans     -> {on, plans: [{id, name, monthly (US cents), answersPerDay, answersPerMonth,
+//   GET  /api/billing/plans     -> {on, plans: [{id, name, monthly (US cents), answersPerDay or unlimited,
 //                                  sellable, features, promo (the first-month discount of the creator whose link
 //                                  brought this player, lib/referrals.js creatorOffers: {price (US cents), label, note},
 //                                  or none)}] (not hidden ones), compare (lib/billing.js planCompare: [{label, values: {free, hero,
@@ -37,7 +37,7 @@ import { setup, currentUser, fail, noStore, sameOrigin } from "../../../lib/acco
 import {
   billingOn, setupBilling, sellablePlans, planFor, packsFor, createCheckout, createVoicePack, createPortal, changePlan,
   verifyWebhook, applyEvent, preorderText, launchEnds, voicePackFor, planCompare, PLANS, planFeatures, cardFlags, VOICE_PACK,
-  VOICE_PACK_TEXT, VOICE_NOTE, VOICE_PACK_SOLD,
+  VOICE_PACK_TEXT, VOICE_NOTE, FAIR_USE, VOICE_PACK_SOLD,
 } from "../../../lib/billing.js";
 import { ALLOWED } from "../../../lib/willo-custom.js";
 import { featureOn } from "../../../lib/features.js";
@@ -65,12 +65,12 @@ async function plans({ request, env }) {
   return ok({
     on: true, current,
     plans: Object.values(PLANS).filter(p => !p.hidden).map(p => ({ id: p.id, name: p.name, monthly: p.monthly,
-      answersPerDay: p.answersPerDay, answersPerMonth: p.answersPerMonth, sellable: sellable.includes(p.id),
+      ...(p.unlimited ? { unlimited: true } : { answersPerDay: p.answersPerDay }), sellable: sellable.includes(p.id),
       features: features[p.id], ...(offers[p.id] && sellable.includes(p.id) ? { promo: offers[p.id] } : {}) })),
     compare: planCompare(ALLOWED, flags),
     voicePack: VOICE_PACK_SOLD && pack && { price: VOICE_PACK.price, replies: VOICE_PACK.replies, monthMax: VOICE_PACK.monthMax, ...pack,
       ...(packs ? { boughtThisMonth: packs.voice.boughtThisMonth, open: current.id !== "free" && !current.launch } : {}) },
-    voiceNote: VOICE_NOTE,
+    voiceNote: VOICE_NOTE, fairUse: FAIR_USE,
     launch: preorderText(env) || null,
     launchEnds: launchEnds(env) || null,
   });

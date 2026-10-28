@@ -10,11 +10,11 @@
    "quest:747"
   ]
  },
- "summary": "Plucked from the swift birds roaming the plains of Mulgore, Plainstrider Feathers are essential materials gathered by young hunters on Red Cloud Mesa. The tauren of Camp Narache use them primarily for crafting clothing and tribal adornments, while honoring the creatures that provide for the village.",
+ "summary": "On Red Cloud Mesa, young hunters gather Plainstrider Feather from the birds roaming Mulgore’s plains. Camp Narache uses them for clothing and tribal adornments, honoring the creatures that provide for the village.",
  "sections": [
   {
    "title": "A Hunter's First Offering",
-   "body": "On Red Cloud Mesa, young tauren learn early that survival relies on keen tracking and hunting. Plainstriders run wild across the grassy plateau, offering both sustenance and practical materials. Plucking their sturdy feathers allows the camp to craft traditional garments and gear. Presenting these feathers alongside fresh meat to Grull Hawkwind demonstrates respect for the tribe's needs and serves as the very first test toward being recognized by Chief Hawkwind and welcomed in Thunder Bluff.",
+   "body": "Young tauren on Red Cloud Mesa learn to track and hunt for what the tribe needs. Plainstriders roam the grassy plateau, providing food and useful feathers. Camp Narache makes garments and gear from their plumage. Young hunters bring feathers and fresh meat to Grull Hawkwind to meet the camp’s needs. The offering is their first test before Chief Hawkwind recognizes them and welcomes them in Thunder Bluff.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "plainstrider feather use",
     "why collect feathers"
    ],
-   "answer": "The tauren of Camp Narache use them primarily for making clothing and ceremonial items. Grull Hawkwind collects them from novice hunters to restock tribal supplies."
+   "answer": "Camp Narache uses Plainstrider Feathers to make clothing and ceremonial items. Grull Hawkwind gathers them from young hunters to replenish tribal supplies."
   },
   {
    "q": "Who gathers Plainstrider Feathers on Red Cloud Mesa?",
@@ -35,7 +35,7 @@
     "who needs feathers",
     "grull hawkwind feathers"
    ],
-   "answer": "Grull Hawkwind requests them on behalf of Camp Narache to replenish village stores and to test whether young hunters possess the discipline needed to provide for the tribe."
+   "answer": "Young hunters gather Plainstrider Feathers on Red Cloud Mesa at Grull Hawkwind’s request. He replenishes Camp Narache’s stores and tests their discipline in providing for the tribe."
   },
   {
    "q": "Where can plainstriders be found?",
@@ -44,7 +44,7 @@
     "plainstrider location",
     "feather farm"
    ],
-   "answer": "They roam the open grasslands across Red Cloud Mesa and throughout the rolling plains of Mulgore."
+   "answer": "Plainstriders roam the open grasslands of Red Cloud Mesa and the rolling plains of Mulgore."
   },
   {
    "q": "Why does Grull Hawkwind require these feathers for tribal rites?",
@@ -53,17 +53,17 @@
     "proving hunt tauren",
     "why hunt plainstriders"
    ],
-   "answer": "Hunting is a cornerstone of tauren culture, undertaken both for survival and sport. Successfully returning with meat and plumage proves to Chief Hawkwind that an initiate can sustain the tribe before venturing onward to Thunder Bluff."
+   "answer": "Hunting provides for survival and sport in tauren culture. Bringing meat and plumage back to Chief Hawkwind shows that a young hunter can sustain the tribe before going on to Thunder Bluff."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "For a young tauren, harvesting feathers from a plainstrider is an essential first lesson in taking nothing from the Earth Mother's creatures for granted, utilizing every part of the kill for food and clothing."
+   "text": "As a young tauren, gathering a plainstrider’s feathers teaches you to value the Earth Mother’s creatures and use each part of the kill for food and clothing."
   },
   {
    "target": "class:Hunter",
-   "text": "Stalking swift plainstriders across Red Cloud Mesa provides an initiate's foundational trial in patience, tracking, and honoring the quarry."
+   "text": "As a hunter, stalking swift plainstriders across Red Cloud Mesa tests your patience and tracking, and teaches you to honor your quarry."
   }
  ],
  "keywords": [
@@ -88,5 +88,6 @@
  "attribution": [
   "Plainstrider Feather",
   "The Hunt Begins"
- ]
+ ],
+ "style": 1
 }

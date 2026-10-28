@@ -10,16 +10,16 @@
    "quest:502"
   ]
  },
- "summary": "The Elixir of Pain is an experimental alchemical concoction brewed by Forsaken apothecaries stationed in Tarren Mill. Distilled using blood harvested across the foothills, the mixture is designed to test biological agents intended to serve Lady Sylvanas's darker ambitions.",
+ "summary": "Forsaken apothecaries at Tarren Mill brew the Elixir of Pain for dangerous experiments. The mixture tests biological agents meant to advance Lady Sylvanas's darker ambitions.",
  "sections": [
   {
    "title": "Apothecary Experimentation",
-   "body": "The Royal Apothecary Society relentlessly pursues new formulas to bolster the Forsaken's position against their mortal neighbors and the Scourge. The Elixir of Pain represents one such trial, blended from freshly harvested ingredients collected around the Hillsbrad Foothills. Concocted with little regard for the living, the potion serves as a proof of concept for volatile substances intended to aid the Dark Lady.",
+   "body": "The Royal Apothecary Society seeks formulas to strengthen the Forsaken against their mortal neighbors and the Scourge. The Elixir of Pain is one such trial, made with freshly harvested ingredients from around the Hillsbrad Foothills. Its living subjects matter little to its makers; the potion tests volatile substances meant to aid the Dark Lady.",
    "spoiler": 0
   },
   {
    "title": "Field Testing on Stanley",
-   "body": "Rather than risk precious military assets or immediately expose their operations to Hillsbrad's defenders, the apothecaries seek a subtle test subject. The elixir is fed to Stanley, a seemingly harmless domestic dog belonging to Farmer Ray on the northern farmstead of Hillsbrad Fields. Instead of a quiet demise, the toxic brew violently mutates the poor animal into an enraged, monstrous beast.",
+   "body": "The apothecaries seek a quiet test before risking military assets or exposing their work to Hillsbrad's defenders. They give the Elixir of Pain to Stanley, Farmer Ray's seemingly harmless domestic dog at the northern farmstead of Hillsbrad Fields. The brew does not kill him quietly. It mutates Stanley into an enraged, monstrous beast.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "elixir purpose",
     "what does the elixir do"
    ],
-   "answer": "The Elixir of Pain is an experimental potion crafted to test biological compounds for the Royal Apothecary Society. Its creators hope such mixtures will eventually yield devastating concoctions to serve Lady Sylvanas and secure Forsaken dominance."
+   "answer": "The Elixir of Pain tests biological compounds for the Royal Apothecary Society. Its creators hope these mixtures will eventually yield devastating concoctions for Lady Sylvanas and secure Forsaken dominance."
   },
   {
    "q": "Who is Stanley?",
@@ -40,7 +40,7 @@
     "farmer ray dog",
     "stanley dog"
    ],
-   "answer": "Stanley is a pet dog belonging to Farmer Ray at the northern farm in Hillsbrad Fields. He is chosen by the Forsaken apothecaries as an unsuspecting test subject to see the physiological effects of their newly brewed elixir."
+   "answer": "Stanley is Farmer Ray's pet dog at the northern farm in Hillsbrad Fields. Forsaken apothecaries choose the seemingly harmless domestic dog as an unsuspecting subject for their new elixir."
   },
   {
    "q": "Why is the elixir tested on Stanley?",
@@ -49,7 +49,7 @@
     "does stanley die",
     "stanley wolf transformation"
    ],
-   "answer": "Apothecary Lydon wants a field test of his newly mixed elixir and sends it to Farmer Ray's little dog Stanley to see how the animal responds."
+   "answer": "Apothecary Lydon wants to test his newly mixed elixir in the field, so he sends it to Farmer Ray's little dog Stanley to see how the animal responds."
   },
   {
    "q": "Where is the elixir tested?",
@@ -58,17 +58,17 @@
     "stanley location",
     "farmer ray farm"
    ],
-   "answer": "The test takes place outside the northern farmhouse within Hillsbrad Fields, located southwest of Tarren Mill. Stanley typically rests near the front porch of Farmer Ray's house."
+   "answer": "The test takes place outside Farmer Ray's northern farmhouse in Hillsbrad Fields, southwest of Tarren Mill. Stanley usually rests near the front porch."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "The Royal Apothecary Society's callous field trials demonstrate the Forsaken's willingness to use whatever means necessary to develop chemical weapons against the living."
+   "text": "The Royal Apothecary Society's callous field trials show the Forsaken's willingness to use any means necessary to develop chemical weapons against the living."
   },
   {
    "target": "faction:Horde",
-   "text": "Allies of the Forsaken are often called to facilitate these grim tests, witnessing firsthand the unsettling methods Tarren Mill's researchers employ."
+   "text": "Forsaken allies may witness the unsettling methods used by Tarren Mill's researchers during these grim tests."
   }
  ],
  "keywords": [
@@ -89,5 +89,6 @@
  "attribution": [
   "Elixir of Pain",
   "Elixir of Pain (2)"
- ]
+ ],
+ "style": 1
 }

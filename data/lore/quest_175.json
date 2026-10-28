@@ -22,21 +22,21 @@
    "Look To The Stars (4)"
   ]
  },
- "summary": "Following the blueprints provided by the tinker Cog, Viktori Prism'Antras seeks a reflective surface to assemble his observatory telescope in Darkshire. He directs travelers to southern Duskwood to locate Mary, a local woman remembered for carrying a looking glass.",
+ "summary": "In Darkshire, Viktori Prism'Antras seeks a mirror for the telescope he is building from Cog's blueprints. He sends you into southern Duskwood to find Mary, remembered for carrying a looking glass.",
  "sections": [
   {
    "title": "A Reflective Surface",
-   "body": "Having secured a bronze tube for his telescope, Viktori Prism'Antras turns to the next requirement outlined in Cog's blueprints: a reliable mirror to direct and reflect light through the device. Rather than forging fine silvered glass from scratch amidst the shortages plaguing Darkshire, Viktori recalls Mary, a local resident known across the region for always carrying a looking glass.",
+   "body": "Viktori Prism'Antras has the bronze tube for his telescope. Now he needs a mirror to guide and reflect light through it, as Cog's blueprints require. Fine silvered glass is hard to make while Darkshire faces shortages, so Viktori recalls Mary, a local woman known across the region for carrying a looking glass.",
    "spoiler": 0
   },
   {
    "title": "Searching the South",
-   "body": "Mary's former residence lies deep in southern Duskwood, just north of the haunted Tranquil Gardens Cemetery. Seeking her out takes adventurers past the safe patrol borders of the Night Watch and into blighted groves teeming with ravenous wolves, feral spiders, and wandering undead.",
+   "body": "Mary's old home lies deep in southern Duskwood, just north of Tranquil Gardens Cemetery. To reach it, you pass beyond the Night Watch's safe patrols and enter blighted groves where ravenous wolves, feral spiders, and wandering undead roam.",
    "spoiler": 0
   },
   {
    "title": "A Tragic Resident",
-   "body": "Reaching Mary's humble southern shack reveals the bleak reality of Duskwood's fall. The woman Viktori remembered is no longer a living resident, but Blind Mary\u2014a wandering spirit lingering near her old dwelling and the nearby cemetery, tethered to the memories and possessions of her former life.",
+   "body": "Mary's shack in the south reveals what became of the woman Viktori remembered. She is Blind Mary, a wandering spirit near her old home and the cemetery, bound to memories and possessions from her former life.",
    "spoiler": 1
   }
  ],
@@ -48,7 +48,7 @@
     "look to the stars project",
     "what is viktori making"
    ],
-   "answer": "Viktori is constructing an astronomical telescope in his hut up the hill in Darkshire, working off designs drawn up by a tinker named Cog."
+   "answer": "Viktori is building an astronomical telescope in his hut up the hill in Darkshire, following designs made by Cog, a tinker."
   },
   {
    "q": "Why does Viktori need a looking glass?",
@@ -56,7 +56,7 @@
     "why need mirror",
     "reflective surface telescope"
    ],
-   "answer": "Cog's optical blueprints require a mirror to reflect and focus light through the telescope housing. Viktori remembers Mary carrying a looking glass and hopes to acquire it for the assembly."
+   "answer": "Cog's blueprints call for a mirror to reflect and focus light through the telescope. Viktori remembers Mary carried a looking glass and hopes to use it in the assembly."
   },
   {
    "q": "Where can Mary be found?",
@@ -65,7 +65,7 @@
     "mary location duskwood",
     "find blind mary"
    ],
-   "answer": "Mary resides in a ruined home in southeastern Duskwood, situated just north of the Tranquil Gardens Cemetery."
+   "answer": "Mary's ruined home is in southeastern Duskwood, just north of Tranquil Gardens Cemetery."
   },
   {
    "q": "Who is Mary?",
@@ -73,7 +73,7 @@
     "who is blind mary",
     "blind mary backstory"
    ],
-   "answer": "Mary was a resident of southern Duskwood before the land fell into cursed darkness, well known around Darkshire for always carrying a looking glass. What became of her is something you must discover at her old home near Tranquil Gardens Cemetery."
+   "answer": "Mary lived in southern Duskwood before the land fell into cursed darkness, and people around Darkshire knew her for carrying a looking glass. You can learn what became of her at her old home near Tranquil Gardens Cemetery."
   },
   {
    "q": "Does Mary still have her looking glass?",
@@ -81,7 +81,7 @@
     "does mary have mirror",
     "blind mary looking glass"
    ],
-   "answer": "When approached, Mary acknowledges that she once owned a looking glass, though she no longer has it and can only point you toward where it went."
+   "answer": "Mary says she once owned a looking glass, but no longer has it. She can only point you toward where it went."
   },
   {
    "q": "What dangers surround Mary's cottage?",
@@ -89,17 +89,17 @@
     "hazards near mary",
     "tranquil gardens cemetery threats"
    ],
-   "answer": "The southeastern woods and the adjacent Tranquil Gardens Cemetery crawl with hostile undead, feral duskbats, venom web spiders, and rabid wolves that prey upon travelers venturing south of Darkshire."
+   "answer": "Undead, feral duskbats, venom web spiders, and rabid wolves prowl the southeastern woods and Tranquil Gardens Cemetery, preying on travelers who venture south of Darkshire."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Helping Viktori build his telescope offers a rare glimmer of curiosity and progress in a town otherwise consumed by terror and rot."
+   "text": "Helping Viktori build his telescope brings a rare glimmer of curiosity and progress to a town consumed by terror and rot."
   },
   {
    "target": "profession:Engineering",
-   "text": "Telescope assembly relies on precise optical specifications, borrowing from gnomish blueprints to mirror and magnify faint starlight."
+   "text": "Telescope assembly follows precise optical plans, using gnomish blueprints to reflect and magnify faint starlight."
   }
  ],
  "keywords": [
@@ -123,5 +123,6 @@
  ],
  "attribution": [
   "Look To The Stars (2)"
- ]
+ ],
+ "style": 1
 }

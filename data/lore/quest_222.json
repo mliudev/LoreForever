@@ -17,16 +17,16 @@
   "wiki": "Worgen in the Woods (Classic, 3)",
   "chain": []
  },
- "summary": "As the Nightbane pack tightens its grip on Duskwood, Calor directs adventurers to strike against their deadliest ranks. Taking the fight directly to their southern dens and mines, defenders push back the feral threat encroaching on Darkshire.",
+ "summary": "Calor sends you against the Nightbane pack in southern Duskwood. Their dens and mines bring the worgen threat close to Darkshire.",
  "sections": [
   {
    "title": "A Feral Foothold",
-   "body": "The worgen infestation haunting Duskwood is far from mindless chaos. Having carved out territory in the dark expanse south of Darkshire, the beasts known as the Nightbane have begun establishing fortified camps. Calor watches their bonfires flicker in the distance with growing dread, noting that the creatures have occupied deep caves and abandoned mining shafts. Among them, the Vile Fangs and Tainted Ones represent the most vicious breeds, displaying ferocious savagery and a tenacity that threatens to overwhelm the town's perimeter.",
+   "body": "South of Darkshire, the Nightbane worgen are making fortified camps in caves and abandoned mine shafts. Calor watches their bonfires and fears what their growing hold means for the town. The Vile Fangs and Tainted Ones are among the pack’s fiercest breeds. Their savagery and stubbornness threaten Darkshire’s perimeter.",
    "spoiler": 0
   },
   {
    "title": "Calor's Endorsement",
-   "body": "Calor serves as the watchful frontline recruiter for Darkshire's defense, though he harbors few illusions about the terrifying nature of the lupine invaders. Breaking the back of the Vile Fangs and Tainted Ones tests the mettle of any hero. Those who succeed in culling these hardened packs earn more than mere coin; they earn Calor's respect and a personal recommendation to Master Carevin, the reclusive figure coordinating the broader offensive against the worgen scourge.",
+   "body": "Calor watches the front line of Darkshire’s defense and knows how dangerous the worgen are. Defeating the Vile Fangs and Tainted Ones tests any hero. Those who do earn Calor’s respect and a personal recommendation to Master Carevin, who coordinates the wider fight against the worgen.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "where are vile fangs",
     "worgen locations duskwood"
    ],
-   "answer": "These dangerous breeds of the Nightbane pack congregate around caves and the mine in the southern reaches of Duskwood, often gathered around visible bonfires."
+   "answer": "The Vile Fangs and Tainted Ones gather around caves and the mine in southern Duskwood, often near bonfires."
   },
   {
    "q": "Who is Calor?",
@@ -46,7 +46,7 @@
     "calor darkshire",
     "who gives worgen in the woods 3"
    ],
-   "answer": "Calor is a dedicated resident of Darkshire who monitors the worgen threat in the woods and enlists capable adventurers to stem the creatures' advance."
+   "answer": "Calor lives in Darkshire, watches the worgen threat in the woods, and enlists capable adventurers to halt their advance."
   },
   {
    "q": "Who is Master Carevin?",
@@ -54,7 +54,7 @@
     "master carevin",
     "carevin duskwood"
    ],
-   "answer": "Master Carevin is Jonathan Carevin of Darkshire, whose family takes the fight to the region's evils, and who coordinates efforts to eradicate the worgen threat from the surrounding region."
+   "answer": "Master Carevin is Jonathan Carevin of Darkshire. His family fights the region’s evils, and he coordinates efforts to eradicate the worgen nearby."
   },
   {
    "q": "Why do the worgen have bonfires?",
@@ -62,7 +62,7 @@
     "why do worgen make fires",
     "nightbane bonfires"
    ],
-   "answer": "Despite their monstrous, wolf-like appearance, the Nightbane worgen exhibit an unsettling intelligence, gathering in organized camps, using fire, and holding fortified positions like mines."
+   "answer": "The Nightbane worgen gather in organized camps, use fire, and hold fortified positions such as mines, showing an unsettling intelligence despite their monstrous, wolf-like appearance."
   },
   {
    "q": "What happens after completing this hunt?",
@@ -70,7 +70,7 @@
     "next quest after worgen in the woods 3",
     "worgen in the woods follow up"
    ],
-   "answer": "Impressing Calor earns you a letter of recommendation, sending you directly to Master Carevin to aid him in the next phase of the hunt."
+   "answer": "Impressing Calor earns you a letter of recommendation to Master Carevin, so you can help him in the next phase of the hunt."
   },
   {
    "q": "Why is Darkshire so concerned about these specific worgen?",
@@ -78,17 +78,17 @@
     "why nightbane vile fang",
     "vile fang danger"
    ],
-   "answer": "The Vile Fangs and Tainted Ones are among the most lethal and aggressive members of the pack. Leaving them unchecked near the southern mines risks letting the beasts overrun the surrounding roads entirely."
+   "answer": "The Vile Fangs and Tainted Ones are among the pack’s most lethal and aggressive members. If left unchecked near the southern mines, they could overrun the surrounding roads."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Darkshire stands isolated in the gloomy south of the kingdom; clearing the southern caves helps protect the fragile supply lines and remaining homesteads of Duskwood."
+   "text": "As an Alliance traveler, you help protect Darkshire’s supply lines and Duskwood’s remaining homesteads by clearing the southern caves."
   },
   {
    "target": "class:Hunter",
-   "text": "The cunning shown by the Nightbane pack makes them unnatural prey, demanding vigilance from trackers venturing near their darkened dens."
+   "text": "As a hunter, you face unusual prey in the cunning Nightbane pack, so stay vigilant near their dark dens."
   }
  ],
  "keywords": [
@@ -110,5 +110,6 @@
  ],
  "attribution": [
   "Worgen in the Woods (Classic, 3)"
- ]
+ ],
+ "style": 1
 }

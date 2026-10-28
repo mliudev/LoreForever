@@ -11,16 +11,16 @@
    "quest:383"
   ]
  },
- "summary": "These intercepted papers were carried by a Scarlet Crusade messenger at the Crusade's camp near Deathknell. Containing orders for the Crusade's field commanders across Tirisfal Glades, they provide the Forsaken with the exact military intelligence needed to target the Crusade's regional leadership.",
+ "summary": "At the Crusade's camp near Deathknell, a messenger carries Scarlet Crusade Documents through Tirisfal. The intercepted orders name field commanders and direct their forces, giving the Forsaken military leadership intelligence on Scarlet positions across the Glades.",
  "sections": [
   {
    "title": "Intercepted Orders",
-   "body": "The courier Meven Korgal carried these documents at the Crusade's encampment southeast of Deathknell. Issued by order of the Highlord, the directives are addressed to the captains of the Crusade's Tirisfal Regional Command: Captain Perrine is to further fortify the southwest tower and gather information on the undead in Brill, Captain Vachon to crush undead movement near the northern tower, and Captain Melrose to watch the borders of the Plaguelands. The documents reveal the names, posts, and orders of Scarlet field officers stationed across Tirisfal Glades, turning an otherwise routine courier run into a catastrophic intelligence breach for the zealots.",
+   "body": "Meven Korgal carried the documents from the Crusade's encampment southeast of Deathknell. By order of the Highlord, they direct the captains of the Crusade's Tirisfal Regional Command. Captain Perrine must further fortify the southwest tower and gather information on the undead in Brill. Captain Vachon must crush undead movement near the northern tower, while Captain Melrose watches the borders of the Plaguelands. The orders name Scarlet field officers, their posts, and their duties across Tirisfal Glades.",
    "spoiler": 0
   },
   {
    "title": "Delivery to Brill",
-   "body": "Executor Arren swiftly recognized that local forces in Deathknell could not exploit the full breadth of the intelligence. Instead, the captured dossier serves as a newly awakened Forsaken's passport out of Deathknell. Carried northeast past Cold Hearth Manor into Brill, the documents are handed directly to Executor Zygand outside the Brill Town Hall. With these orders in hand, the Forsaken military leadership plans swift decapitation strikes against Scarlet commanders entrenched across the Glades.",
+   "body": "Executor Arren sees that Deathknell's local forces cannot use the full breadth of this intelligence. The captured documents become a newly awakened Forsaken's passport out of Deathknell. Carry them northeast, past Cold Hearth Manor, to Brill, and deliver them to Executor Zygand outside Brill Town Hall. With the orders in hand, Forsaken military leaders plan swift strikes against Scarlet commanders entrenched across the Glades.",
    "spoiler": 0
   }
  ],
@@ -32,7 +32,7 @@
     "scarlet messenger",
     "meven korgal"
    ],
-   "answer": "They were carried by Meven Korgal, a Scarlet Crusade courier found at the Crusade's encampment southeast of Deathknell."
+   "answer": "Meven Korgal, a Scarlet Crusade courier, carried the documents at the Crusade's encampment southeast of Deathknell."
   },
   {
    "q": "What information is inside the documents?",
@@ -40,7 +40,7 @@
     "what do the papers say",
     "document contents"
    ],
-   "answer": "The bundle holds directives, by order of the Highlord, to the captains of the Crusade's Tirisfal Regional Command: Captain Perrine is to fortify the southwest tower and scout the undead in Brill, Captain Vachon to deal with undead movement near the northern tower, and Captain Melrose to watch the borders of the Plaguelands."
+   "answer": "By order of the Highlord, the documents direct the Crusade's Tirisfal Regional Command. Captain Perrine must fortify the southwest tower and gather information on the undead in Brill. Captain Vachon must crush undead movement near the northern tower, and Captain Melrose must watch the borders of the Plaguelands."
   },
   {
    "q": "Who needs to see these documents?",
@@ -48,7 +48,7 @@
     "where do i take them",
     "who do i give the documents to"
    ],
-   "answer": "After being recovered for Executor Arren in Deathknell, they are entrusted to you for delivery to Executor Zygand, who oversees regional military efforts outside Brill Town Hall."
+   "answer": "Executor Arren recovers the documents in Deathknell and entrusts them to you for delivery to Executor Zygand, who oversees regional military efforts outside Brill Town Hall."
   },
   {
    "q": "Why are these documents important to the Forsaken?",
@@ -56,13 +56,13 @@
     "why do forsaken want them",
     "scarlet documents importance"
    ],
-   "answer": "The captured orders pinpoint Crusade officer deployments throughout Tirisfal Glades, giving the Forsaken the upper hand to eliminate enemy leadership and shatter the zealots' regional morale."
+   "answer": "The orders reveal where Scarlet officers are deployed across Tirisfal Glades. The Forsaken can use them to eliminate enemy leaders and shatter the zealots' regional morale."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "Carrying these intercepted papers marks an awakened Forsaken's graduation from the cemetery trials of Deathknell into the wider war effort directed from Brill."
+   "text": "As an awakened Forsaken, carrying these papers takes you from Deathknell's cemetery trials into the wider war effort directed from Brill."
   }
  ],
  "keywords": [
@@ -89,5 +89,6 @@
   "Scarlet Crusade Documents",
   "The Red Messenger",
   "Vital Intelligence (Classic)"
- ]
+ ],
+ "style": 1
 }

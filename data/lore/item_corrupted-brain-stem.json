@@ -10,16 +10,16 @@
    "quest:1275"
   ]
  },
- "summary": "Corrupted Brain Stems are biological specimens harvested from the twisted naga and satyrs inhabiting Blackfathom Deeps and the Ashenvale coastline. Gershala Nightwhisper of Auberdine seeks them to study the physical deformities wrought by reckless magical corruption. By examining these brains, night elf scholars hope to understand and potentially prevent a similar fate from befalling the blood elves.",
+ "summary": "In Blackfathom Deeps and along Ashenvale's coast, Corrupted Brain Stem specimens come from twisted naga and satyrs. Gershala Nightwhisper of Auberdine studies the deformities caused by reckless magic. Night elf scholars hope the findings can help keep the blood elves from suffering the same fate.",
  "sections": [
   {
    "title": "Anatomy of Transformation",
-   "body": "The satyrs and naga of Kalimdor stand as living testaments to the warping power of forbidden magic and demonic pacts. Long ago, reckless kaldorei highborne were irrevocably transformed into serpent-like aquatic beasts and demonic horned fiends. The brain stems harvested from these creatures exhibit heavy physical mutation, providing direct anatomical proof of how deep corruptive energies burrow into the nervous systems of once-elven beings.",
+   "body": "Naga and satyrs bear the marks of forbidden magic and demonic pacts. Long ago, reckless kaldorei highborne became serpent-like aquatic beasts and demonic horned fiends. Their brain stems show heavy physical mutation, proof of how deeply corruptive energies altered the nervous systems of beings who were once elves.",
    "spoiler": 0
   },
   {
    "title": "Gershala's Warning",
-   "body": "In the coastal settlement of Auberdine, the night elf Gershala Nightwhisper observes the troubling rumors surrounding the blood elves of the Eastern Kingdoms. Fearing that their flirtation with demonic sorcery will spawn yet another generation of monsters on Azeroth, Gershala tasks adventurers with venturing into Blackfathom Deeps. By dissecting both naga and satyr tissues, the researcher hopes to map the path of magical degeneration before another elven culture is lost.",
+   "body": "Gershala Nightwhisper watches troubling rumors about the blood elves of the Eastern Kingdoms from Auberdine. She fears their use of demonic sorcery will create another generation of monsters on Azeroth, so she sends adventurers into Blackfathom Deeps. By examining naga and satyr tissues, she hopes to trace magical degeneration before another elven culture is lost.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "corrupted brain stem drop",
     "where to get brain stems"
    ],
-   "answer": "They are gathered from naga and satyrs residing within Blackfathom Deeps and along the surrounding shores of Ashenvale, including Blackfathom oracles, sea witches, and Fallenroot satyrs."
+   "answer": "Naga and satyrs in Blackfathom Deeps and along the Ashenvale coast yield them, including Blackfathom oracles, sea witches, and Fallenroot satyrs."
   },
   {
    "q": "Who wants these brain stems and why?",
@@ -40,7 +40,7 @@
     "gershala quest",
     "turn in brain stems"
    ],
-   "answer": "Gershala Nightwhisper, stationed in the Darkshore port of Auberdine, requests them to conduct anatomical research on magical corruption."
+   "answer": "Gershala Nightwhisper in Auberdine wants the stems for anatomical research into magical corruption."
   },
   {
    "q": "What are night elves hoping to learn from these specimens?",
@@ -49,7 +49,7 @@
     "researching the corruption lore",
     "blood elf connection"
    ],
-   "answer": "Gershala fears that the blood elves' use of demonic magic will transform them into monsters, much like the ancient highborne became naga and satyrs. Studying these stems helps identify how demonic energies alter elven biology."
+   "answer": "Night elves hope to learn how demonic energies alter elven biology. Gershala fears the blood elves may become monsters, as the ancient highborne became naga and satyrs."
   },
   {
    "q": "Can these be found outside of the Blackfathom Deeps caverns?",
@@ -58,17 +58,17 @@
     "ashenvale brain stems",
     "do surface mobs drop them"
    ],
-   "answer": "Yes. Certain Fallenroot satyrs and Blackfathom tide priestesses lingering outside the cavern entrance along the Ashenvale coast also carry them."
+   "answer": "Yes. Some Fallenroot satyrs and Blackfathom tide priestesses outside the cavern entrance along the Ashenvale coast carry them."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "For night elves, collecting these remains is a grim reminder of their people's tragic history and the monstrous results of unchecked arcane and fel meddling."
+   "text": "For night elves, these remains recall their people's tragic history and the monstrous effects of unchecked arcane and fel meddling."
   },
   {
    "target": "faction:Alliance",
-   "text": "Alliance scouts sent into Ashenvale brave the depths of Blackfathom to aid Auberdine's scholars in understanding the burgeoning threats across Azeroth."
+   "text": "As an Alliance scout in Ashenvale, you brave Blackfathom's depths to help Auberdine's scholars understand growing threats across Azeroth."
   }
  ],
  "keywords": [
@@ -94,5 +94,6 @@
  "attribution": [
   "Corrupted Brain Stem",
   "Researching the Corruption (Classic)"
- ]
+ ],
+ "style": 1
 }

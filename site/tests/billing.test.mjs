@@ -14,7 +14,8 @@ import { onRequest as billing } from "../functions/api/billing/[action].js";
 import { onRequest as answer } from "../functions/api/companion/answer.js";
 import { findOrCreateUser, startSession, setup, deleteUser } from "../lib/accounts.js";
 import { startLink, decideLink, claimToken } from "../lib/devices.js";
-import { setupBilling, planFor, companionFeatures, INTEGRATION_ID, PLANS, TASTE_ANSWERS, BRAKE_ANSWERS } from "../lib/billing.js";
+import { setupBilling, planFor, companionFeatures, INTEGRATION_ID, PLANS, TASTE_ANSWERS, BRAKE_ANSWERS, GUARD_PER_DAY,
+  MACHINE_ACCOUNTS } from "../lib/billing.js";
 import { allowance, ANSWER_MODEL, LITE_MODEL, RESEARCH_MODEL, SMART_MODEL } from "../lib/companion-answers.js";
 import { optOut } from "../lib/email.js";
 import { machineOf } from "../lib/referrals.js";
@@ -143,9 +144,10 @@ const tasted = (user, used = TASTE_ANSWERS, daysAgo = null) => env.DB.prepare("I
   "used, started) VALUES (?, ?, ?, ?)").bind(`taste:test-${user.id}`, user.id, used,
   daysAgo === null ? null : new Date(NOW - daysAgo * 86400e3).toISOString()).run();
 
+// The plan's id and its answers a day, or "unlimited" (a paid plan's: no count).
 const daily = async user => {
   const a = await allowance(env, user.id);
-  return [a.plan.id, a.limit];
+  return [a.plan.id, a.unlimited ? "unlimited" : a.limit];
 };
 
 test("with the plans feature off, nothing is for sale and everyone keeps 20 answers a day, even with Stripe keys", async () => {
@@ -195,7 +197,7 @@ test("a paid checkout makes the account Hero, deletion makes it free, and a repl
   const paid = checkout("evt_2", "checkout.session.async_payment_succeeded", "paid");
   assert.equal((await hook(paid)).status, 200);
   const hero = await planFor(env, user.id);
-  assert.deepEqual([hero.id, hero.name, hero.answersPerDay, hero.status], ["hero", "Hero", 100, "active"]);
+  assert.deepEqual([hero.id, hero.name, hero.unlimited, hero.status], ["hero", "Hero", true, "active"]);
   assert.equal(hero.renews, new Date(NOW + 30 * 86400e3).toISOString());
 
   // No metadata this time: the stored Stripe customer finds the account.
@@ -320,18 +322,16 @@ test("a whole refund of the current period's payment ends the plan; an older mon
 test("daily answers: free, Hero while active or past due, Champion, an ended period, and the brake", async () => {
   // The numbers are lib/billing.js PLANS' (what the plan cards and the Terms say too): this checks each account gets
   // its plan's, not what the plans are.
-  const { free: F, hero: H, champion: C } = PLANS;
+  const F = PLANS.free;
   const free = await linkedDaysAgo("free", 30), hero = await linkedDaysAgo("hero", 30), champion = await linkedDaysAgo("champ", 3);
   assert.deepEqual(await daily(free), ["free", F.answersPerDay]);
   await entitle(hero, "hero", "active", 20);
-  assert.deepEqual(await daily(hero), ["hero", H.answersPerDay]);
+  assert.deepEqual(await daily(hero), ["hero", "unlimited"]);
   await entitle(hero, "hero", "past_due", 20);
-  assert.deepEqual(await daily(hero), ["hero", H.answersPerDay], "a failed payment keeps the plan while Stripe retries");
+  assert.deepEqual(await daily(hero), ["hero", "unlimited"], "a failed payment keeps the plan while Stripe retries");
   await entitle(champion, "champion", "active", 20);
-  assert.deepEqual(await daily(champion), ["champion", C.answersPerDay]);
-  // The month's pool rides along, as plans are sold: Mike's QA, 10/15.
-  const month = (await allowance(env, champion.id)).month;
-  assert.deepEqual([month.limit, month.remaining], [C.answersPerMonth, C.answersPerMonth]);
+  assert.deepEqual(await daily(champion), ["champion", "unlimited"]);
+  assert.equal((await allowance(env, champion.id)).upgrade, undefined, "nothing more to sell an unlimited plan");
   await entitle(hero, "hero", "active", -1);
   assert.deepEqual(await daily(hero), ["free", F.answersPerDay], "a period that ended is the free plan");
 
@@ -340,7 +340,7 @@ test("daily answers: free, Hero while active or past due, Champion, an ended per
   await env.DB.prepare("INSERT INTO story_spend (month, micro_usd) VALUES ('2026-10', ?)").bind(150e6).run();
   assert.deepEqual(await daily(free), ["free", BRAKE_ANSWERS], "past the free pool's day");
   assert.ok(BRAKE_ANSWERS < F.answersPerDay, "the brake gives fewer");
-  assert.deepEqual(await daily(hero), ["hero", H.answersPerDay], "paying players are unaffected");
+  assert.deepEqual(await daily(hero), ["hero", "unlimited"], "paying players are unaffected");
   assert.equal((await allowance(env, free.id)).upgrade, "/plans");
 });
 
@@ -544,12 +544,12 @@ test("a paying player skips the shared budget; past half their plan's net a mont
     assert.equal(lite.body.model, LITE_MODEL);
     assert.match(gemini[1].url, new RegExp(`${LITE_MODEL}:generateContent$`));
     assert.equal(gemini[1].body.tools, undefined, "past the text cap, no looking online");
-    // Once its answers and hosted voice have cost the whole net, none of the plan's until November, with Willo's words
-    // that only say when (the companion starts its lore-library answer with them), and nothing offered.
+    // Once its answers and hosted voice have cost the whole net, none of the plan's until November: her words start the
+    // companion's lore-library answer, and on an unlimited plan they never say it's spent or when it's back (fair use).
     env.DB.sqlite.prepare("UPDATE answer_user_spend SET micro = 4370000, voice_micro = 1000000 WHERE user_id = ?").run(user.id);
     const capped = await ask();
     assert.equal(capped.status, 429);
-    assert.equal(capped.body.error, "My light's spent for this month. The Moonwell refills it on November 1.");
+    assert.doesNotMatch(capped.body.error, /spent|\d/i);
     assert.equal(capped.body.offers, undefined);
     assert.deepEqual([capped.body.allowance.remaining, capped.body.allowance.period, capped.body.allowance.resetsAt],
       [0, "month", "2026-11-01T00:00:00.000Z"]);
@@ -699,29 +699,32 @@ function failingD1(sql, arg = "") {
 }
 
 test("a failed answer gives back the day and the month it was counted on, however it fails (LOR-673)", async () => {
-  // A paid plan counts each answer on the day and on its month's pool (from Sept 30, its renewal day).
+  // A paid plan counts each answer on the day (its hidden guard); the free plan on the day and its calendar month.
   const { user, ask } = await companionPlayer("unlucky", { plan: "hero" });
-  const counts = () => Object.fromEntries(env.DB.sqlite.prepare("SELECT bucket, n FROM rate_limits WHERE user_id = ? " +
-    "AND bucket IN ('companion-answer:2026-10-11', 'companion-month:2026-09-30')").all(user.id).map(r => [r.bucket.split(":")[0], r.n]));
+  const counts = (who = user) => Object.fromEntries(env.DB.sqlite.prepare("SELECT bucket, n FROM rate_limits WHERE user_id = ? " +
+    "AND bucket IN ('companion-answer:2026-10-11', 'companion-month:2026-10-01')").all(who.id).map(r => [r.bucket.split(":")[0], r.n]));
   assert.equal((await ask()).status, 200);
-  assert.deepEqual(counts(), { "companion-answer": 1, "companion-month": 1 });
+  assert.deepEqual(counts(), { "companion-answer": 1 });
 
-  // The model failing: both back, so the companion's second ask (LOR-580) costs the one answer.
+  // The model failing: it goes back, so the companion's second ask (LOR-580) costs the one answer.
   const working = globalThis.fetch;
   globalThis.fetch = async () => Response.json({ error: { message: "overloaded" } }, { status: 503 });
   try { assert.equal((await ask()).status, 502); } finally { globalThis.fetch = working; }
-  assert.deepEqual(counts(), { "companion-answer": 1, "companion-month": 1 });
+  assert.deepEqual(counts(), { "companion-answer": 1 });
 
-  // D1 failing on the month's count after the day's went in: the day's goes back.
-  let fixed = failingD1(/INSERT INTO rate_limits/, "companion-month:");
-  try { assert.equal((await ask()).status, 502); } finally { fixed(); }
-  assert.deepEqual(counts(), { "companion-answer": 1, "companion-month": 1 });
-
-  // An error after counting, before the answer is written (a look online's hold on the plan's cost cap): both go back.
-  fixed = failingD1(/INSERT INTO answer_holds/);
+  // An error after counting, before the answer is written (a look online's hold on the plan's cost cap): it goes back.
+  let fixed = failingD1(/INSERT INTO answer_holds/);
   try { assert.equal((await ask({ research_required: true })).status, 502); } finally { fixed(); }
-  assert.deepEqual(counts(), { "companion-answer": 1, "companion-month": 1 });
+  assert.deepEqual(counts(), { "companion-answer": 1 });
   assert.equal(gemini.length, 1, "the hold failed before anything was asked of the model");
+
+  // D1 failing on a free answer's month count after the day's went in: the day's goes back.
+  const monthly = await companionPlayer("monthly-free");
+  assert.equal((await monthly.ask()).status, 200);
+  assert.deepEqual(counts(monthly.user), { "companion-answer": 1, "companion-month": 1 });
+  fixed = failingD1(/INSERT INTO rate_limits/, "companion-month:");
+  try { assert.equal((await monthly.ask()).status, 502); } finally { fixed(); }
+  assert.deepEqual(counts(monthly.user), { "companion-answer": 1, "companion-month": 1 });
 
   // The shared budget refusing a free player's answer (the "at capacity" 429): the day's count goes back.
   const free = await companionPlayer("crowded");
@@ -741,7 +744,7 @@ test("the free pool a day at a time: its slice and a capped carry, the soft step
   spend(30);
   assert.equal((await ask()).status, 200, "the day's first answer marks where the day began");
   spend(44);
-  assert.equal((await planFor(env, user.id)).answersPerDay, 30);
+  assert.equal((await planFor(env, user.id)).answersPerDay, PLANS.free.answersPerDay);
   spend(45);
   const soft = await planFor(env, user.id);
   assert.deepEqual([soft.answersPerDay, soft.brake, (await allowance(env, user.id)).voice.tier], [5, true, "local"],
@@ -757,7 +760,7 @@ test("the free pool a day at a time: its slice and a capped carry, the soft step
     "Let it rest a while, and it will gather again.");
   // October 12th: $55 of slices before it and $50 spent, so a $5 carry: answers at full again.
   t.mock.timers.tick(86400e3);
-  assert.equal((await planFor(env, user.id)).answersPerDay, 30);
+  assert.equal((await planFor(env, user.id)).answersPerDay, PLANS.free.answersPerDay);
   assert.equal((await ask()).status, 200);
 });
 
@@ -765,8 +768,8 @@ test("one computer gets three free accounts' day: more accounts on it add no ans
   const { user, ask } = await freePlayer("fourth");
   const sent = "ab".repeat(32);
   const machine = await machineOf(new Request(ORIGIN, { headers: { "X-LF-Machine": sent } }));
-  await env.DB.prepare("INSERT INTO rate_limits (user_id, bucket, n) VALUES (?, 'companion-answer:2026-10-11', 90)")
-    .bind(`machine:${machine}`).run();
+  await env.DB.prepare("INSERT INTO rate_limits (user_id, bucket, n) VALUES (?, 'companion-answer:2026-10-11', ?)")
+    .bind(`machine:${machine}`, PLANS.free.answersPerDay * MACHINE_ACCOUNTS).run();
   const out = await ask({}, { "X-LF-Machine": sent });
   assert.equal(out.status, 429);
   assert.match(out.body.error, /^My light's spent for now\./);
@@ -779,7 +782,7 @@ test("out of answers just before 5 pm in California: back within the hour, never
   // The day turns at midnight UTC (LOR-742), 5 pm Pacific: "tomorrow" said at 4:59 pm was wrong for a minute's wait.
   const { user, ask } = await freePlayer("evening");
   t.mock.timers.setTime(Date.parse("2026-10-11T23:59:00Z"));          // 4:59 pm PDT
-  await usedToday(user, "companion-answer", 30);
+  await usedToday(user, "companion-answer", PLANS.free.answersPerDay);
   const out = await ask();
   assert.equal(out.status, 429);
   assert.match(out.body.error, /refills it in under an hour\.$/);
@@ -788,15 +791,16 @@ test("out of answers just before 5 pm in California: back within the hour, never
   assert.equal((await ask()).status, 200);
 });
 
-test("out of answers: Willo's words for when they come back, Hero the free plan's one offer, nothing for Legend", async () => {
+test("out of answers: Willo's words for when they come back, Hero the free plan's one offer", async () => {
   const { user, ask } = await freePlayer("broke");
-  await usedToday(user, "companion-answer", 30);
+  await usedToday(user, "companion-answer", PLANS.free.answersPerDay);
   const out = await ask();
   assert.equal(out.status, 429);
   // NOW is 12:00 UTC: the day turns at midnight UTC (LOR-742), twelve hours on.
   assert.equal(out.body.error, "My light's spent for now. The Moonwell refills it in about 12 hours.",
     "only when they come back: the companion starts its lore-library answer with these words");
-  assert.deepEqual(out.body.offers, [{ id: "hero", text: "Get Hero: 1,500 answers a month", url: "/plans" }]);
+  assert.deepEqual(out.body.offers.map(o => [o.id, o.url]), [["hero", "/plans"]]);
+  assert.match(out.body.offers[0].text, /unlimited/i);
 
   // With plans off, the 20 free answers a day and nothing for sale.
   delete env.SITE_FEATURES;
@@ -807,14 +811,23 @@ test("out of answers: Willo's words for when they come back, Hero the free plan'
     assert.equal(off.body.offers, undefined);
     assert.equal(off.body.error, "You've used your 20 free answers. They come back in about 12 hours.", "as before plans");
   } finally { env.SITE_FEATURES = "plans"; }
-
-  // Legend at its day's most: nothing above it to offer, and no way to the plans page for more light.
-  const legend = await companionPlayer("legend", { plan: "legend" });
-  await usedToday(legend.user, "companion-answer", 300);
-  const spent = await legend.ask();
-  assert.equal(spent.status, 429);
-  assert.deepEqual([spent.body.offers, spent.body.allowance.upgrade], [undefined, undefined]);
   assert.equal(gemini.length, 0);
+});
+
+test("unlimited (Mike, 10/28): a paid player's heavy day still gets live answers; past the hidden guard, the lore library", async () => {
+  // Ten times a heavy player's day (p95 about 31 answers), past every plan's old daily most (300 at most).
+  const hero = await companionPlayer("heavy", { plan: "hero" });
+  await usedToday(hero.user, "companion-answer", 310);
+  const heavy = await hero.ask();
+  assert.equal(heavy.status, 200, "a live answer");
+  assert.equal(heavy.body.allowance.unlimited, true, "and no count for the companion to show");
+  // A script or a shared account at the guard: her lore-library answer, no number, nothing to buy, and /admin sees it.
+  await usedToday(hero.user, "companion-answer", GUARD_PER_DAY);
+  const spent = await hero.ask();
+  assert.equal(spent.status, 429);
+  assert.doesNotMatch(spent.body.error, /d/);
+  assert.deepEqual([spent.body.offers, spent.body.allowance.upgrade], [undefined, undefined]);
+  assert.equal(env.DB.sqlite.prepare("SELECT kind FROM limit_hits WHERE user_id = ?").get(hero.user.id)?.kind, "guard");
 });
 
 // ---- The launch plans (Mike, 2026-10-12) ----
@@ -1048,28 +1061,12 @@ test("Champion's chat memory keeps more than the free plan's", async () => {
   assert.ok(memoryWords(gemini[0]) > memoryWords(gemini[1]));
 });
 
-test("a paid plan's answers and web look-ups are a month's pool from its renewal day, within today's most", async () => {
+test("a paid plan's web look-ups are a month's from its renewal day", async () => {
   // Hero renews on the 31st (20 days from 10/11), so its month started on Sept 30, September's last day.
   const H = PLANS.hero;
   const { user, ask } = await companionPlayer("monthly", { plan: "hero" });
-  const fresh = await allowance(env, user.id);
-  assert.deepEqual([fresh.period, fresh.limit, fresh.remaining], ["day", H.answersPerDay, H.answersPerDay],
-    "today's run out first");
-  const used = n => env.DB.prepare("INSERT OR REPLACE INTO rate_limits (user_id, bucket, n) VALUES (?, ?, ?)")
-    .bind(user.id, "companion-month:2026-09-30", n).run();
-  await used(H.answersPerMonth - 50);
-  const late = await allowance(env, user.id);
-  assert.deepEqual([late.period, late.limit, late.remaining, late.resetsAt],
-    ["month", H.answersPerMonth, 50, "2026-10-31T12:00:00.000Z"],
-    "the pool comes back with the renewal itself (noon), not at midnight before it");
-  await used(H.answersPerMonth);
-  const out = await ask();
-  assert.equal(out.status, 429);
-  assert.equal(out.body.error, "My light's spent for this month. The Moonwell refills it on October 31.");
-  assert.equal(gemini.length, 0);
 
   // The month's web look-ups: the last searches, the one after is answered without looking online.
-  await env.DB.prepare("DELETE FROM rate_limits WHERE user_id = ?").bind(user.id).run();
   await env.DB.prepare("INSERT INTO rate_limits (user_id, bucket, n) VALUES (?, 'companion-lookup:2026-09-30', ?)")
     .bind(user.id, H.lookupsPerMonth - 1).run();
   assert.equal((await ask({ research_required: true })).status, 200);

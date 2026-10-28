@@ -8,16 +8,16 @@
   "wiki": "Deathstalker Rane Yorick",
   "refs": 5
  },
- "summary": "Deathstalker Rane Yorick is an operative of the Forsaken intelligence guild stationed deep in Silverpine Forest. Together with her brother Quinn, she was sent to scout the farms of northern Silverpine and report to High Executor Hadrec.",
+ "summary": "At a farmhouse in Silverpine, Deathstalker Rane Yorick and her brother Quinn are cut off from the Sepulcher. Sent to scout the northern farms, they must get word to High Executor Hadrec.",
  "sections": [
   {
    "title": "Eyes in the Woods",
-   "body": "The Deathstalkers serve as Lady Sylvanas Windrunner's eyes, ears, and blades across Lordaeron. Operating out of shadows and hidden posts, agents like Rane Yorick monitor the wilderness for threats that could disrupt Forsaken dominion. When sent to scout northern Silverpine Forest, Rane and her brother Quinn found themselves hemmed in by surrounding feral dangers, turning an undercover reconnaissance mission into a battle for survival.",
+   "body": "Across Lordaeron, the Deathstalkers are Lady Sylvanas Windrunner's eyes, ears, and blades. Agents like Rane Yorick watch the wilds from hidden posts for threats to Forsaken rule. Rane and her brother Quinn were sent to scout northern Silverpine Forest. Feral dangers closed around them, turning their covert work into a fight to survive.",
    "spoiler": 0
   },
   {
    "title": "Trapped at Ivar Patch",
-   "body": "Holed up inside a derelict farmhouse at the Ivar Patch, Rane Yorick finds her mission compromised. The ghoul Ivar the Foul has badly mauled her brother Quinn, and worgs roam the fields between her and the safety of the Sepulcher. Rather than abandon her assignment, she relies on passing Horde travelers to gather worg hearts for a healing potion, slay Ivar, and deliver her report back to command.",
+   "body": "At the Ivar Patch, Rane Yorick shelters in a ruined farmhouse. The ghoul Ivar the Foul has badly mauled her brother Quinn, and worgs prowl the fields between them and the Sepulcher. Rane holds to her assignment. She calls on passing Horde travelers to gather worg hearts for a healing potion, slay Ivar, and carry her report to command.",
    "spoiler": 1
   }
  ],
@@ -29,7 +29,7 @@
     "rane yorick lore",
     "who is deathstalker yorick"
    ],
-   "answer": "She is an operative of the Deathstalkers, the Forsaken rogue order of assassins and intelligence gatherers. She is currently stationed at a dilapidated farmhouse at the Ivar Patch in Silverpine Forest."
+   "answer": "Rane Yorick serves with the Deathstalkers, the Forsaken order of rogues who gather intelligence and kill in secret. She is stationed at a ruined farmhouse in the Ivar Patch of Silverpine Forest."
   },
   {
    "q": "What are the Deathstalkers?",
@@ -38,7 +38,7 @@
     "deathstalker faction",
     "who are the deathstalkers"
    ],
-   "answer": "The Deathstalkers are the clandestine rogue guild of the Forsaken, answering to Lady Sylvanas Windrunner. They carry out covert scouting, espionage, and targeted assassinations across Lordaeron."
+   "answer": "The Deathstalkers are the Forsaken's covert rogue guild, answering to Lady Sylvanas Windrunner. They scout, spy, and carry out targeted killings across Lordaeron."
   },
   {
    "q": "Why is she trapped in a farmhouse?",
@@ -47,7 +47,7 @@
     "ivar patch farmhouse",
     "why is she hiding"
    ],
-   "answer": "Rane and her brother Quinn were sent to scout the farms of northern Silverpine Forest, but the ghoul Ivar the Foul attacked them at the Ivar Patch and badly mauled Quinn, forcing them to hole up in the farmhouse while he heals."
+   "answer": "Rane and her brother Quinn were sent to scout the farms of northern Silverpine Forest. At the Ivar Patch, the ghoul Ivar the Foul attacked them and badly mauled Quinn, so they took shelter in a farmhouse while he heals."
   },
   {
    "q": "Who is her brother?",
@@ -56,7 +56,7 @@
     "who is erland",
     "deathstalker erland"
    ],
-   "answer": "Her brother is Quinn Yorick, a fellow Deathstalker on the same reconnaissance mission, who was badly mauled by the ghoul Ivar the Foul at the Ivar Patch."
+   "answer": "Quinn Yorick is Rane's brother and a fellow Deathstalker on the same scouting mission. Ivar the Foul badly mauled him at the Ivar Patch."
   },
   {
    "q": "What threats are they tracking in Silverpine?",
@@ -64,7 +64,7 @@
     "what are they scouting",
     "what is rane investigating"
    ],
-   "answer": "Their mission was to scout the farms of northern Silverpine for threats to the Forsaken occupation. They found a far heavier Scourge presence than expected, along with prowling worgs and the ghoul Ivar the Foul."
+   "answer": "Rane and Quinn were sent to scout northern Silverpine's farms for threats to Forsaken rule. They found more Scourge than expected, along with prowling worgs and the ghoul Ivar the Foul."
   },
   {
    "q": "Where does she report her findings?",
@@ -72,21 +72,21 @@
     "where do reports go",
     "who is rane's superior"
    ],
-   "answer": "She reports to High Executor Hadrec at the Sepulcher, who oversees the Forsaken occupation of Silverpine Forest."
+   "answer": "Rane reports her findings to High Executor Hadrec at the Sepulcher. Hadrec oversees the Forsaken occupation of Silverpine Forest."
   }
  ],
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "For Forsaken rogues, Rane Yorick exemplifies the perilous fieldwork expected of the Deathstalkers, maintaining stealth and collecting intelligence under constant enemy pressure."
+   "text": "As a Forsaken rogue, you see the dangerous fieldwork of the Deathstalkers in Rane Yorick's efforts to gather intelligence under enemy pressure."
   },
   {
    "target": "race:Undead",
-   "text": "Forsaken champions encounter Rane as a frontline scout keeping the untamed frontier of Silverpine Forest from falling back into hostile hands."
+   "text": "As a Forsaken champion, you meet Rane as a scout guarding Silverpine Forest's frontier from hostile hands."
   },
   {
    "target": "faction:Horde",
-   "text": "Her intelligence operations help ensure Horde supply routes running through Silverpine remain clear of worgen and local ambushes."
+   "text": "As a member of the Horde, you benefit from Rane's intelligence work, which helps keep Horde supply routes through Silverpine clear of worgen and local ambushes."
   }
  ],
  "keywords": [
@@ -112,5 +112,6 @@
  ],
  "attribution": [
   "Deathstalker Rane Yorick"
- ]
+ ],
+ "style": 1
 }

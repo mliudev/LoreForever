@@ -12,16 +12,16 @@
   "harvested": true,
   "level": "6"
  },
- "summary": "Doom Weed is a task given by Junior Apothecary Holland in Brill to gather noxious flora sprouting near Tirisfal's northern mass graves. Holland recruits passing adventurers after becoming frustrated with the clumsy harvesting efforts of the abomination Gordo.",
+ "summary": "In Brill, Junior Apothecary Holland seeks doom weed for his research. The plant grows near Tirisfal's northern mass graves, where Rot Hide gnolls prowl.",
  "sections": [
   {
    "title": "Apothecary Ambitions",
-   "body": "Junior Apothecary Holland conducts research on behalf of the Royal Apothecary Society from the settlement of Brill. Seeking to advance his experiments, he requires quantities of doom weed, a vile plant that infests the blighted soil of Tirisfal Glades. Finding Gordo incapable of discerning the proper reagents, Holland turns to sharper hands to salvage his harvest.",
+   "body": "Junior Apothecary Holland researches for the Royal Apothecary Society from Brill. He wants doom weed to advance his experiments, but Gordo cannot tell the right plants from the wrong ones. Holland turns to more capable hands to gather what he needs.",
    "spoiler": 0
   },
   {
    "title": "The Mass Grave Harvest",
-   "body": "Doom weed thrives in places heavily corrupted by death and plague, proliferating densely around the mass gravesite situated just north of the Brill graveyard. Gathering the flora is made perilous by aggressive Rot Hide gnolls that prowl the desecrated burial mounds, scavenging among the remains and defending the overgrown trenches.",
+   "body": "Doom weed grows thick around the mass gravesite just north of the Brill graveyard, where death and plague have tainted the soil. Rot Hide gnolls prowl the burial mounds, scavenging among the remains and guarding the overgrown trenches.",
    "spoiler": 0
   }
  ],
@@ -33,7 +33,7 @@
     "why doom weed",
     "doom weed purpose"
    ],
-   "answer": "Junior Apothecary Holland needs doom weed to conduct his alchemical work for the Royal Apothecary Society. He claims the service directly aids Lady Sylvanas Windrunner, though his greedy enthusiasm suggests he is equally invested in furthering his own career within the society."
+   "answer": "Junior Apothecary Holland needs doom weed for his alchemical work with the Royal Apothecary Society. He says this work aids Lady Sylvanas Windrunner, though his eagerness also points to ambition within the society."
   },
   {
    "q": "Why doesn't Gordo gather the weeds himself?",
@@ -42,7 +42,7 @@
     "gordo task fail",
     "who is gordo"
    ],
-   "answer": "Gordo is an abomination tasked with gathering herbs around Brill, but he lacks the intellect to identify specific plants. Holland complains that the lumbering creature brought back entirely the wrong weeds, forcing the apothecary to hire capable adventurers instead."
+   "answer": "Gordo is an abomination sent to gather herbs around Brill, but he cannot identify particular plants. After Gordo brings back the wrong weeds, Holland turns to capable adventurers."
   },
   {
    "q": "Where does doom weed grow?",
@@ -51,7 +51,7 @@
     "where is doom weed",
     "mass grave weeds"
    ],
-   "answer": "Doom weed grows around the blighted flora surrounding the mass gravesite, located directly north of the graveyard outside Brill. It spreads through soil heavily tainted by burial trenches and lingering plague."
+   "answer": "Doom weed grows around the mass gravesite just north of the graveyard outside Brill. It spreads through soil tainted by burial trenches and lingering plague."
   },
   {
    "q": "What dangers lurk near the doom weed patches?",
@@ -60,7 +60,7 @@
     "mass grave enemies",
     "gnolls near brill"
    ],
-   "answer": "The grounds around the mass gravesite are overrun by Rot Hide gnolls. These feral, disease-ridden scavengers aggressively attack anyone venturing close to the burial grounds while harvesting the weeds."
+   "answer": "Rot Hide gnolls prowl the grounds around the mass gravesite. These feral, disease-ridden scavengers attack anyone who comes near while gathering the weeds."
   },
   {
    "q": "What is the Royal Apothecary Society's interest in Tirisfal flora?",
@@ -69,7 +69,7 @@
     "royal apothecary society tirisfal",
     "forsaken herb gathering"
    ],
-   "answer": "The Royal Apothecary Society constantly studies plants, poisons, and blight-altered fungi across Tirisfal Glades. Reagents like doom weed are harvested to refine toxins, uncover alchemical cures, and develop new weapons to aid the Forsaken against their enemies."
+   "answer": "The Royal Apothecary Society studies plants, poisons, and blight-altered fungi across Tirisfal Glades. It gathers reagents like doom weed to refine toxins, seek alchemical cures, and develop weapons for the Forsaken against their enemies."
   },
   {
    "q": "Who is 'the Lady' mentioned by Holland?",
@@ -78,21 +78,21 @@
     "holland lady sylvanas",
     "the lady undercity"
    ],
-   "answer": "The Lady refers to Lady Sylvanas Windrunner, the Banshee Queen and ruler of the Forsaken. Apothecaries in Undercity and Brill frequently invoke her name, as their alchemical efforts officially serve her command."
+   "answer": "“The Lady” means Lady Sylvanas Windrunner, the Banshee Queen and ruler of the Forsaken. Apothecaries in Undercity and Brill invoke her name, saying their alchemical work follows her command."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "Serving junior members of the Royal Apothecary Society is a common rite of passage for newly awakened Forsaken seeking to establish their usefulness to Sylvanas's realm."
+   "text": "As an undead, you may serve junior members of the Royal Apothecary Society as you establish your usefulness to Sylvanas's realm."
   },
   {
    "target": "profession:Herbalism",
-   "text": "While ordinary harvestable flora grows throughout the glades, corrupted variants like doom weed illustrate the unnatural botanical shifts caused by the Scourge's plague."
+   "text": "As a herbalist, you know the glades hold ordinary plants as well as corrupted growths like doom weed, shaped by the Scourge's plague."
   },
   {
    "target": "faction:Horde",
-   "text": "The unsettling alchemical experiments taking place in Brill reveal how the Forsaken operate quite differently from their shamanic and nomadic allies in Kalimdor."
+   "text": "As a member of the Horde, you see in Brill's unsettling alchemy how the Forsaken differ from their shamanic and nomadic allies in Kalimdor."
   }
  ],
  "keywords": [
@@ -115,5 +115,6 @@
  "attribution": [
   "In-game quest text: Doom Weed",
   "Doom Weed (Classic)"
- ]
+ ],
+ "style": 1
 }

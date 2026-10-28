@@ -410,3 +410,79 @@ export async function markCleared(env, device, userId, cleared) {
     .bind(device.id, userId, what, at)));
   return done.map(([what]) => what);
 }
+
+// ---- By voice ----
+// What Willo keeps, asked of her (LOR-844 step 6): "Help improve answers" off at once, and a kind of kept thing, or
+// everything, erased only on a plain yes to her read-back with its count (the friends' hold, lib/friend-send.js
+// holdChange and changeReply; it does them with keepsChange below). On the site only, so every Willo has it. Her notes,
+// reminders, goals, pins and memories have their own tools, and one item is the page's.
+export const KEEPS_TOOL = "keeps";
+const BY_VOICE = { answers: "questions I kept", wrong: "answers you marked wrong", screenshots: "screenshots",
+  saves: "game saves" };
+// Every kind said aloud in "erase everything"'s read-back (the Architect, #2057: the page's titles read long).
+const SAID_AS = { notebook: "notebook lines", goals: "goals", pins: "pins", reminders: "reminders",
+  memories: "things I remember", answers: "questions", screenshots: "screenshots" };
+// The end of each read-back, which a yes answers (friend-send.js DOES): one each, so a yes does only what was read back.
+export const KEEPS_DOES = { "keeps:answers": "erase your questions", "keeps:wrong": "erase your reports",
+  "keeps:screenshots": "erase your screenshots", "keeps:saves": "erase your game saves", "keeps:all": "erase everything" };
+export const keepsTool = () => ({ name: KEEPS_TOOL, description: `What you keep of them (What ${NAME} keeps), when ` +
+  `they ask to change it. op: answers_off, keep none of their questions from now on ("stop using my questions", "turn ` +
+  `off help improve answers"), done at once; erase, take away all of one kind already kept ("erase the questions you ` +
+  `kept", "delete my screenshots"), read back with its count for their yes (section: answers, their questions and your answers, kept 14 days; ` +
+  `wrong, answers they marked wrong; screenshots; saves, the game saves you read their gear from); erase_all, ` +
+  `everything you keep of them and your chats ("forget everything", "wipe all my data"), read back for their yes; ` +
+  `page, for one kept answer or turning Help improve answers back on. Notes, reminders, goals, pins and memories have ` +
+  `their own tools.`,
+  parameters: { type: "object", properties: { op: { type: "string", enum: ["answers_off", "erase", "erase_all", "page"] },
+    section: { type: "string", enum: Object.keys(BY_VOICE) } }, required: ["op"] } });
+
+const counted = async (env, userId, k) => {
+  const { items = [], more } = await k.list(env, userId);
+  return { n: items.length, more: Boolean(more) };
+};
+const many = ({ n, more }, what) => `${more ? "all " : ""}${n}${more ? "+" : ""} ${what}`;
+
+// Her call: {answer} (answers off, or nothing to erase), {hold: {kind, recipient, body}, answer} (an erase read back,
+// held for their yes), or null for any other call.
+export async function keepsCall(env, userId, call, now = new Date()) {
+  if (call?.name !== KEEPS_TOOL) return null;
+  await setupKeeps(env);
+  const op = call.args?.op;
+  // One item, or the switch turned on under its explanation: the page's (consent is a click there).
+  if (op === "page") return { answer: `That's on What ${NAME} keeps: each answer has its own Erase, and Help improve ` +
+    `answers is the switch at the top.` };
+  if (op === "answers_off") {
+    await setKeepAnswers(env, userId, false, now);
+    return { answer: `Done: I've stopped keeping your questions to improve my answers. It's on What ${NAME} keeps if you want it back.` };
+  }
+  if (op === "erase" && Object.hasOwn(BY_VOICE, call.args?.section)) {
+    const section = call.args.section, count = await counted(env, userId, keeper(section));
+    if (!count.n) return { answer: `There's nothing kept there.` };
+    return { hold: { kind: `keeps:${section}`, recipient: "me", body: "" },
+      answer: `Erase ${many(count, BY_VOICE[section])}? Say yes and I'll ${KEEPS_DOES[`keeps:${section}`]}.` };
+  }
+  if (op === "erase_all") {
+    const counts = [];
+    for (const k of KEEPERS) {
+      const c = await counted(env, userId, k);
+      if (c.n) counts.push([c, SAID_AS[k.id] || BY_VOICE[k.id] || String(k.title || k.id).toLowerCase()]);
+    }
+    const top = counts.sort((a, b) => b[0].n - a[0].n).slice(0, 3).map(([c, what]) => many(c, what));
+    const rest = counts.length > 3 ? ", and the rest" : "";
+    return { hold: { kind: "keeps:all", recipient: "me", body: "" },
+      answer: `Erase everything I keep${top.length ? ` (${top.join(", ")}${rest})` : ""}, and our chats? ` +
+        `Say yes and I'll ${KEEPS_DOES["keeps:all"]}.` };
+  }
+  return null;
+}
+// Their yes to a held erase (friend-send.js doChange): {answer}. What's there then is erased.
+export async function keepsChange(env, userId, held, now = new Date()) {
+  const section = String(held.kind).slice("keeps:".length);
+  if (section === "all") {
+    await eraseEverything(env, userId, {}, now);
+    return { answer: "Done. Everything I kept is erased, and our chats too." };
+  }
+  if (!Object.hasOwn(BY_VOICE, section)) return { answer: "I didn't do that one." };
+  await eraseSection(env, userId, { section }, now);
+  return { answer: `Done. Your ${BY_VOICE[section]} are erased.` };
+}

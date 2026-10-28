@@ -21,16 +21,16 @@
    "Wand to Bethor"
   ]
  },
- "summary": "This quest concludes the Fenris Keep confrontation by delivering a long-lost relic, the Woven Wand, back to Bethor Iceshard in the Undercity. Crafted years ago by three apprentice mages as a symbol of fellowship, the wand was hidden away when Thule Ravenclaw chose the Scourge. Returning it closes a bitter chapter in Bethor's past.",
+ "summary": "At Fenris Keep, the confrontation ends with the Woven Wand bound for Bethor Iceshard. Three apprentice mages made it as a sign of fellowship, but Thule Ravenclaw hid it after choosing the Scourge. Its return brings a piece of Bethor's mortal youth back to the Undercity.",
  "sections": [
   {
    "title": "A Token of Fractured Fellowship",
-   "body": "Long before Lordaeron fell into ruin, three young mages bound their training wands together into a single instrument known as the Woven Wand. It was meant to symbolize their shared bond and ambition within the magical arts. However, when Thule Ravenclaw turned his loyalty toward the Lich King and embraced the Scourge, that fellowship broke irrevocably. Though Thule came to despise the friendship they once shared, he could not bear to destroy the wand, nor could he stomach leaving it in his former comrades' hands.",
+   "body": "Before Lordaeron fell, three young mages joined their training wands into one, the Woven Wand. It marked their friendship and shared hopes in the magical arts. Thule Ravenclaw later gave his loyalty to the Lich King and embraced the Scourge, breaking their fellowship. He came to despise the friendship they had shared, yet could not destroy the wand or leave it with his former companions.",
    "spoiler": 0
   },
   {
    "title": "Hidden in the Keep",
-   "body": "Rather than part with the wand or destroy it, Thule carried it to Fenris Isle and concealed it in a dusty hidden shelf inside Fenris Keep. Untouched for years, its enchantment remained dormant; Thule never invoked its magic, an act Bethor noted would have immediately betrayed its whereabouts. Bringing it back to the Magic Quarter of the Undercity returns a rare keepsake of Bethor's mortal youth, recovered from the lair of a traitor who could neither love his friends nor let them go.",
+   "body": "Thule Ravenclaw carried the Woven Wand to Fenris Isle and hid it on a dusty shelf inside Fenris Keep. The wand lay untouched for years, its enchantment dormant. Bethor noted that using its magic would have revealed its whereabouts at once. Returning it to the Magic Quarter of the Undercity gives Bethor a keepsake of his mortal youth, recovered from the lair of a traitor who could neither love his friends nor let them go.",
    "spoiler": 1
   }
  ],
@@ -42,7 +42,7 @@
     "what is the wand",
     "thule wand lore"
    ],
-   "answer": "The Woven Wand is a unique magical tool fashioned long ago by Thule Ravenclaw and two fellow mage apprentices, one of whom was Bethor Iceshard. Each contributed their early apprentice wand, weaving them together as a physical emblem of their mutual friendship and shared arcane studies."
+   "answer": "The Woven Wand is a magical tool made long ago by Thule Ravenclaw, Bethor Iceshard, and a third apprentice mage. Each gave an early training wand, and the three were woven together as a sign of their friendship and shared arcane studies."
   },
   {
    "q": "Why did Thule Ravenclaw steal the wand?",
@@ -51,7 +51,7 @@
     "why steal the wand",
     "thule stolen wand"
    ],
-   "answer": "When Thule defected to the Lich King, the bond between the colleagues disintegrated. Even though Thule came to hate the friendship it represented, he was too possessive to part with the relic or allow Bethor and his other companion to keep it. Instead, he stole the wand and hid it on Fenris Isle."
+   "answer": "When Thule Ravenclaw turned to the Lich King, his bond with the other mages broke. He came to hate what the wand represented, yet would not part with it or let Bethor and their other companion keep it. He hid the wand on Fenris Isle."
   },
   {
    "q": "Who is Bethor Iceshard?",
@@ -60,7 +60,7 @@
     "bethor iceshard lore",
     "bethor undercity"
    ],
-   "answer": "Bethor Iceshard is a powerful Forsaken mage residing in the Magic Quarter of the Undercity. In life, he was a peer and friend to Thule Ravenclaw before the kingdom collapsed and Thule surrendered his will to the Scourge."
+   "answer": "Bethor Iceshard is a powerful Forsaken mage who lives in the Magic Quarter of the Undercity. Before Lordaeron fell, he was Thule Ravenclaw's peer and friend. Thule later surrendered his will to the Scourge."
   },
   {
    "q": "Why didn't Thule use the Woven Wand's magic?",
@@ -69,7 +69,7 @@
     "wand power",
     "why not use it"
    ],
-   "answer": "Had Thule ever invoked the wand's latent enchantments, Bethor would have sensed the resonance across the arcane weave. Thule kept it tucked away on a forgotten shelf in Fenris Keep solely out of spite and possessiveness, leaving its power untouched."
+   "answer": "Bethor would have sensed the wand's enchantment across the arcane weave if Thule had used it. Thule left its power untouched on a forgotten shelf in Fenris Keep, keeping the wand out of spite and possessiveness."
   },
   {
    "q": "Who was the third apprentice who helped make the wand?",
@@ -78,7 +78,7 @@
     "three mages wand",
     "third mage"
    ],
-   "answer": "The third apprentice was Gunther Arcanus, who wove the wand together with Bethor and Thule long before Thule's betrayal."
+   "answer": "Gunther Arcanus was the third apprentice who joined his wand with Bethor's and Thule's, long before Thule betrayed them."
   },
   {
    "q": "Where did the wand end up before being found?",
@@ -87,17 +87,17 @@
     "hidden niche wand",
     "fenris keep wand"
    ],
-   "answer": "The wand was stashed away in a dusty shelf within a hidden niche inside Fenris Keep, the stronghold on Fenris Isle where Thule Ravenclaw established his Scourge operations."
+   "answer": "Thule Ravenclaw hid the wand on a dusty shelf in a hidden niche inside Fenris Keep on Fenris Isle. He had established his Scourge operations in that stronghold."
   }
  ],
  "angles": [
   {
    "target": "class:Mage",
-   "text": "The Woven Wand represents a classic arcane tradition: apprentice mages binding their foci together in fellowship, an innocence shattered when the Scourge tore Dalaran and Lordaeron apart."
+   "text": "For a mage, the Woven Wand recalls an arcane tradition: apprentice mages joining their foci in fellowship. The Scourge shattered that innocence when it tore Dalaran and Lordaeron apart."
   },
   {
    "target": "race:Undead",
-   "text": "For Forsaken mages like Bethor, recovering pre-plague artifacts is a bittersweet reminder of mortal ambition and the former friends who chose the Lich King's tyranny over free will."
+   "text": "As one of the Forsaken, you may see old artifacts as reminders of mortal hopes and former friends. Bethor's keepsake recalls those who chose the Lich King's tyranny over free will."
   }
  ],
  "keywords": [
@@ -122,5 +122,6 @@
  ],
  "attribution": [
   "Wand to Bethor"
- ]
+ ],
+ "style": 1
 }

@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Howling Vale"
  },
- "summary": "Tucked away in north-central Ashenvale near the Felwood border, the Howling Vale is a darkened dell overrun by savage, alien wolf-beasts known as the Terrowulf worgen. Hidden deep within its caves lies the ancient Shrine of Mel'Thandris, an Elune-blessed ruin tied intimately to the tragic origins of the worgen curse on Kalimdor.",
+ "summary": "The Terrowulf worgen howl through Howling Vale in north-central Ashenvale, near the Felwood border. Their caves hide an ancient shrine to Elune, bound to the worgen’s origins on Kalimdor.",
  "sections": [
   {
    "title": "A Haunted Haven",
-   "body": "North of the road toward Felwood, the calm majesty of Ashenvale gives way to eerie, predatory howling. The vale shelters ancient trees alongside corrupted Terrowulf packlords and aggressive wildlife. At its heart lies a cave enshrining the memory of Mel'Thandris, an ancient night elf priestess. While the shrine once stood as a place of quiet devotion, its tranquil halls have fallen into ruined disrepair, defiled by feral wolf-men whose origin puzzles the Sentinels stationed nearby.",
+   "body": "North of the road to Felwood, Ashenvale’s calm gives way to the howls of the Terrowulf. Ancient trees still fill the vale, but corrupted packlords and aggressive wildlife roam among them. A cave at its heart holds the shrine of Mel'Thandris, an ancient night elf priestess. Once a place of quiet devotion, the shrine now lies in ruins, defiled by feral wolf-men whose origin puzzles the nearby Sentinels.",
    "spoiler": 0
   },
   {
    "title": "The Scythe and the Starsong Legacy",
-   "body": "The Tome of Mel'Thandris reveals recent events at the shrine: the night elf Velinde Starsong came into possession of a fateful artifact, the Scythe of Elune. Her attempts to channel its power to fight demons inadvertently unleashed the worgen upon the surrounding woods, leaving the vale haunted by the very beasts she summoned.",
+   "body": "The Tome of Mel'Thandris tells of recent events at the shrine. Night elf Velinde Starsong came into possession of the Scythe of Elune, a fateful artifact. She tried to channel its power against demons, but instead unleashed the worgen in the surrounding woods. The vale now echoes with the beasts she summoned.",
    "spoiler": 1
   }
  ],
@@ -28,7 +28,7 @@
     "origin of howling vale name",
     "why does it howl"
    ],
-   "answer": "The vale earned its grim name from the chilling calls of the Terrowulf worgen who claimed it. Their constant, echoing howls reverberate through the canyon and cavern, drowning out the natural sounds of Ashenvale's canopy."
+   "answer": "The Terrowulf worgen gave the vale its grim name with their chilling calls. Their constant howls echo through the canyon and cavern, drowning out Ashenvale’s natural sounds."
   },
   {
    "q": "What is the Shrine of Mel'Thandris?",
@@ -37,7 +37,7 @@
     "who was mel'thandris",
     "melthandris shrine"
    ],
-   "answer": "It is an ancient night elf sanctuary dedicated to Elune and named for Mel'Thandris. The Tome of Mel'Thandris kept there records events that may explain why the wolf-men have come."
+   "answer": "The Shrine of Mel'Thandris is an ancient night elf sanctuary dedicated to Elune and named for Mel'Thandris. The Tome of Mel'Thandris kept there records events that may explain the wolf-men’s arrival."
   },
   {
    "q": "Where did the worgen here come from?",
@@ -46,7 +46,7 @@
     "terrowulf origin",
     "why are worgen in ashenvale"
    ],
-   "answer": "Their origin puzzles the Sentinels. Sentinel Melyria Frostshadow sends Alliance scouts to study the Tome of Mel'Thandris at the shrine, whose history holds the key to where the wolf-men came from."
+   "answer": "The Sentinels are puzzled by the worgen’s origin. Sentinel Melyria Frostshadow sends Alliance scouts to study the Tome of Mel'Thandris at the shrine, where its history holds the key to where the wolf-men came from."
   },
   {
    "q": "What is the Tome of Mel'Thandris?",
@@ -55,17 +55,17 @@
     "tome in howling vale",
     "melthandris book"
    ],
-   "answer": "It is a sacred historical text resting at the shrine in the depths of the cave. Sentinel Melyria Frostshadow sends Alliance scouts to study the tome to understand the origins of the mysterious wolf-men plaguing the forest."
+   "answer": "The Tome of Mel'Thandris is a sacred historical text kept at the shrine deep inside the cave. Sentinel Melyria Frostshadow sends Alliance scouts to study it and learn where the wolf-men plaguing the forest came from."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "The defilement of Mel'Thandris's shrine is a bitter wound for the kaldorei, a sacred place of Elune now overrun by savage wolf-men."
+   "text": "For the kaldorei, the defilement of Mel'Thandris’s shrine is a bitter wound. A sacred place of Elune now lies overrun by savage wolf-men."
   },
   {
    "target": "class:Druid",
-   "text": "The feral wolf-men roaming the cave are a dark mirror of druidic shapeshifting, savage beasts whose arrival in Ashenvale remains a mystery to the Sentinels."
+   "text": "The feral wolf-men in the cave are a dark mirror of druidic shapeshifting. Their arrival in Ashenvale remains a mystery to the Sentinels."
   }
  ],
  "keywords": [
@@ -88,5 +88,6 @@
  ],
  "attribution": [
   "Howling Vale"
- ]
+ ],
+ "style": 1
 }

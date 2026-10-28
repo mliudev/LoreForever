@@ -10,16 +10,16 @@
    "quest:515"
   ]
  },
- "summary": "Torn Fin Eyes are ocular organs harvested from the Torn Fin murlocs prowling the shores of Hillsbrad Foothills. They serve as a crucial reactive ingredient for the Royal Apothecary Society's grim alchemical research into new plagues.",
+ "summary": "Along Hillsbrad's coast, Torn Fin Eyes draw the Royal Apothecary Society's attention. The Forsaken seek them for alchemical work on new plagues.",
  "sections": [
   {
    "title": "A Reagent for Ruin",
-   "body": "The Royal Apothecary Society rarely lets any vile biological component go to waste in their quest to develop the Forsaken's New Plague. Torn Fin Eyes, harvested from the salt-crusted murlocs prowling the Western Strand of Hillsbrad Foothills, possess specialized organic properties needed to activate volatile alchemical compounds. When combined with Daggerspine naga scales, restorative troll elixirs, and gnoll-derived sludge, the optic tissues help stabilize and trigger toxic mixtures formulated to sow death across enemy territories.",
+   "body": "The Royal Apothecary Society puts rare biological components to use in its work on the Forsaken's New Plague. Torn Fin Eyes come from murlocs along the Western Strand of Hillsbrad Foothills. Their organic properties help activate volatile alchemical compounds. Mixed with Daggerspine naga scales, restorative troll elixirs, and gnoll-derived sludge, the eyes help stabilize and trigger toxic mixtures meant to spread death through enemy lands.",
    "spoiler": 0
   },
   {
    "title": "Brewing Agony",
-   "body": "In the Apothecarium of the Undercity, master alchemists discovered that adding decaying colloids to Mudsnout composites required catalysts found only along Hillsbrad's coastline. Apothecary Lydon in Tarren Mill relies on these harvested eyes to catalyze his infamous Elixir of Agony. The concoction represents one of the Forsaken's relentless experiments to manufacture devastating bio-weapons right beneath the nose of neighboring human settlements.",
+   "body": "In the Undercity's Apothecarium, master alchemists found that decaying colloids added to Mudsnout composites need catalysts from Hillsbrad's coast. Apothecary Lydon in Tarren Mill uses the harvested eyes to catalyze his Elixir of Agony. The brew is part of the Forsaken's continuing effort to make devastating bio-weapons near human settlements.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "why get torn fin eyes",
     "torn fin eye purpose"
    ],
-   "answer": "Torn Fin Eyes are an alchemical catalyst sought by the Royal Apothecary Society. Apothecary Lydon in Tarren Mill uses them alongside Daggerspine Scales and a Strong Troll's Blood Elixir to activate the contaminating agents in a volatile Mudsnout Mixture, progressing his research into new deadly plagues."
+   "answer": "The Royal Apothecary Society seeks Torn Fin Eyes as an alchemical catalyst. In Tarren Mill, Apothecary Lydon combines them with Daggerspine Scales and a Strong Troll's Blood Elixir to activate contaminants in a volatile Mudsnout Mixture and advance his work on deadly plagues."
   },
   {
    "q": "Where do you find Torn Fin Eyes?",
@@ -40,7 +40,7 @@
     "torn fin eye location",
     "who drops torn fin eye"
    ],
-   "answer": "They are harvested from Torn Fin murlocs inhabiting the Western Strand of Hillsbrad Foothills, located directly along the coastline west of the human town of Southshore."
+   "answer": "You can harvest Torn Fin Eyes from Torn Fin murlocs on the Western Strand of Hillsbrad Foothills, along the coast west of Southshore."
   },
   {
    "q": "Who orders the gathering of these eyes?",
@@ -48,7 +48,7 @@
     "who needs torn fin eyes",
     "torn fin eye quest giver"
    ],
-   "answer": "Forsaken researchers in the Undercity and Apothecary Lydon stationed in Tarren Mill require them to finalize the concoction known as the Elixir of Agony."
+   "answer": "Forsaken researchers in the Undercity and Apothecary Lydon in Tarren Mill need the eyes to complete the Elixir of Agony."
   },
   {
    "q": "Why does the Royal Apothecary Society need murloc parts?",
@@ -56,17 +56,17 @@
     "why murloc eyes",
     "apothecary murlocs"
    ],
-   "answer": "The society's researchers experiment constantly with bizarre local fauna to uncover compounds that activate or intensify toxic contaminants. The physiology of the Torn Fin murlocs yields ocular humors capable of catalyzing volatile plague prototypes."
+   "answer": "The Royal Apothecary Society studies local creatures for compounds that activate or intensify toxic contaminants. Torn Fin murloc ocular humors can catalyze volatile plague prototypes."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "Procuring organic catalysts like Torn Fin Eyes directly advances the Royal Apothecary Society's ultimate ambition: perfecting a plague to wipe out both the Scourge and the living."
+   "text": "As an Undead, gathering organic catalysts like Torn Fin Eyes advances the Royal Apothecary Society's aim to perfect a plague that will destroy both the Scourge and the living."
   },
   {
    "target": "faction:Horde",
-   "text": "Gathering these coastal reagents aids the Horde war effort in Hillsbrad Foothills, strengthening the Forsaken foothold against hostile Alliance encroachments from Southshore."
+   "text": "As a member of the Horde, you help its war effort in Hillsbrad Foothills by gathering coastal reagents, strengthening the Forsaken foothold against Alliance advances from Southshore."
   }
  ],
  "keywords": [
@@ -92,5 +92,6 @@
  "attribution": [
   "Torn Fin Eye",
   "Elixir of Agony (3)"
- ]
+ ],
+ "style": 1
 }

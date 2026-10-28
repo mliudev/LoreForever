@@ -8,11 +8,11 @@
   "wiki": "Sida",
   "refs": 1
  },
- "summary": "Sida is a dwarven resident of Menethil Harbor in the Wetlands. Known for her estranged marriage to Einar Stonegrip, she spends her days in the port town while dealing with personal misadventures out in the surrounding marshes.",
+ "summary": "In Menethil Harbor, Sida lives apart from her estranged husband, Einar Stonegrip. She spends her days in the Wetlands port and sometimes ventures into the marshes, where she recently lost her bag near Ironbeard's Tomb.",
  "sections": [
   {
    "title": "A Harbor Resident",
-   "body": "Sida resides in the bustling Alliance port of Menethil Harbor, living apart from her husband, Einar Stonegrip. Their relationship is strained enough that Einar flatly refuses to travel to Menethil so long as Sida remains in town. Despite keeping to the coastal settlement, Sida occasionally ventures out into the dangers of the Wetlands, having recently suffered the misfortune of losing her personal bag during an expedition out toward Ironbeard's Tomb.",
+   "body": "Sida lives in Menethil Harbor, the Alliance port in the Wetlands, apart from Einar Stonegrip. Their marriage is strained, and Einar refuses to travel to Menethil while Sida remains there. She still sometimes ventures beyond the coastal settlement into the Wetlands. On a recent trip toward Ironbeard's Tomb, she lost her personal bag.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "sida npc",
     "sida wetlands"
    ],
-   "answer": "Sida is a dwarven woman living in Menethil Harbor in the Wetlands. She gives tasks to adventurers who pass through the port."
+   "answer": "Sida is a dwarven woman living in Menethil Harbor in the Wetlands. She gives tasks to adventurers passing through the port."
   },
   {
    "q": "What happened to Sida's bag?",
@@ -33,7 +33,7 @@
     "lost bag",
     "ironbeard tomb bag"
    ],
-   "answer": "Sida lost her bag while visiting Ironbeard's Tomb, an ancient burial site nestled in the Wetlands. The area has since been overrun by foul oozes that swallowed up her belongings."
+   "answer": "Sida lost her bag while visiting Ironbeard's Tomb, an ancient burial site in the Wetlands. Foul oozes have overrun the area and swallowed her belongings."
   },
   {
    "q": "Why won't Einar Stonegrip visit Menethil Harbor?",
@@ -42,7 +42,7 @@
     "sida husband",
     "einar stonegrip drama"
    ],
-   "answer": "Einar Stonegrip is Sida's estranged husband. Due to bad blood between them, Einar avoids Menethil Harbor entirely as long as Sida is still living there."
+   "answer": "Einar Stonegrip is Sida's estranged husband. Bad blood between them keeps him away from Menethil Harbor while Sida lives there."
   },
   {
    "q": "Where can Sida be found?",
@@ -50,17 +50,17 @@
     "sida location",
     "where is sida"
    ],
-   "answer": "Sida can be found strolling the docks and roads within Menethil Harbor on the western coast of the Wetlands."
+   "answer": "You can find Sida along the docks and roads of Menethil Harbor, on the Wetlands' western coast."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "Sida represents everyday dwarven town life in Menethil Harbor, caught between domestic disputes and the treacherous wilderness just beyond the town gates."
+   "text": "As a dwarf, you see everyday town life in Menethil Harbor alongside domestic disputes and the dangers of the wilderness beyond its gates."
   },
   {
    "target": "faction:Alliance",
-   "text": "For Alliance travelers arriving on the docks of Menethil Harbor, Sida offers local errands that take adventurers inland toward Ironbeard's Tomb."
+   "text": "As an Alliance traveler arriving at Menethil Harbor's docks, you can take local errands from Sida that lead inland toward Ironbeard's Tomb."
   }
  ],
  "keywords": [
@@ -82,5 +82,6 @@
  ],
  "attribution": [
   "Sida"
- ]
+ ],
+ "style": 1
 }

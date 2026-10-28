@@ -17,16 +17,16 @@
   "wiki": "The Adventurer (Tirisfal Glades)",
   "chain": []
  },
- "summary": "The Adventurer is an introductory task given by Executor Arren to seasoned young Forsaken champions outside Deathknell. Having proven reliable in strikes against the Scarlet Crusade, you are dispatched up the road toward Brill to investigate a stranger lingering near the settlement. Rather than uncovering another zealot spy, the task introduces you to Eleanor Shackleton, an independent traveler eager to teach the practical survival skills of the wild.",
+ "summary": "Near Deathknell, The Adventurer is sent to investigate a stranger by the road to Brill. Scarlet Crusaders threaten the region, but the stranger is Eleanor Shackleton, a Forsaken traveler with wilderness skills to share.",
  "sections": [
   {
    "title": "A Suspicious Watch",
-   "body": "Executor Arren maintains a vigilant watch over Deathknell and the surrounding approaches. With Scarlet Crusaders actively spying on the region and infiltrating northern Lordaeron, any newcomer spotted wandering near Brill warrants immediate scrutiny. Having demonstrated your dedication by eliminating crusader threats along the border, Arren turns to you to investigate the unknown figure quietly, determining whether she poses a hidden danger to the Forsaken.",
+   "body": "Executor Arren watches Deathknell and the roads around it. Scarlet Crusaders spy on the region and infiltrate northern Lordaeron, so an unfamiliar figure near Brill draws suspicion. You have proved your dedication by striking at Crusader threats along the border. Now Arren asks you to investigate the stranger quietly and learn whether she threatens the Forsaken.",
    "spoiler": 0
   },
   {
    "title": "A Traveler in the Woods",
-   "body": "Upon tracking down Eleanor Shackleton along the roadside near Brill, her intentions prove far removed from Crusade fanatical plots or Scourge necromancy. A fellow Forsaken pausing before her next journey into the wilds, Eleanor is simply an adventurer. Instead, she recognizes the spark of an adventurer in those sent to check on her, offering to share the practical essentials of surviving open wilderness and making camp.",
+   "body": "You find Eleanor Shackleton by the roadside near Brill. She is a Forsaken traveler, pausing before another journey into the wilds, with no Crusader plot or Scourge necromancy in mind. Eleanor sees a fellow adventurer in those sent to check on her. She offers to teach you how to survive in open country and make camp.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who sent me to eleanor",
     "arren eleanor task"
    ],
-   "answer": "Deathknell and Brill are constantly threatened by Scarlet Crusade infiltrators and hostile spies. Anyone unfamiliar lurking along the high road is treated with suspicion until their motives are proven benign."
+   "answer": "Scarlet Crusade infiltrators and hostile spies threaten Deathknell and Brill. Arren treats anyone unfamiliar on the high road with suspicion until their purpose is clear."
   },
   {
    "q": "Who is Eleanor Shackleton?",
@@ -47,7 +47,7 @@
     "eleanor shackleton lore",
     "who is the adventurer npc"
    ],
-   "answer": "Eleanor Shackleton is an independent adventurer camping along the road near Brill. She has no loyalty to the Scarlet Crusade and is focused purely on exploring the wilderness and sharing survival know-how with fellow travelers."
+   "answer": "Eleanor Shackleton is a Forsaken adventurer camping by the road near Brill. She explores the wilderness and offers fellow travelers practical survival skills."
   },
   {
    "q": "Is Eleanor connected to the Scarlet Crusade?",
@@ -56,7 +56,7 @@
     "eleanor enemy",
     "is eleanor a spy"
    ],
-   "answer": "No. Upon arriving at her camp, Eleanor quickly clarifies that she has no affiliation whatsoever with the zealous crusaders threatening Tirisfal Glades."
+   "answer": "No. Eleanor has no ties to the Scarlet Crusade, whose zealots threaten Tirisfal Glades."
   },
   {
    "q": "Where does this quest lead?",
@@ -65,7 +65,7 @@
     "next quest after adventurer",
     "eleanor shackleton follow up"
    ],
-   "answer": "Reporting to Eleanor opens the quest 'The Great Outdoors,' where she begins teaching you the basics of wilderness survival and setting up camp."
+   "answer": "Speaking with Eleanor leads to The Great Outdoors, where she begins teaching you wilderness survival and how to make camp."
   },
   {
    "q": "Where can Eleanor Shackleton be found?",
@@ -74,7 +74,7 @@
     "where is eleanor shackleton",
     "eleanor camp tirisfal"
    ],
-   "answer": "She makes her camp just off the main road leading east toward the town of Brill in Tirisfal Glades."
+   "answer": "Eleanor camps just off the main road east toward Brill in Tirisfal Glades."
   },
   {
    "q": "Why did Executor Arren choose you for this mission?",
@@ -83,17 +83,17 @@
     "arren trust",
     "why executor arren sends you"
    ],
-   "answer": "You earned Arren's trust through your successful service rooting out Scarlet Crusade agents and messengers near Deathknell, proving you can handle sensitive reconnaissance."
+   "answer": "You earned Arren's trust by rooting out Scarlet Crusade agents and messengers near Deathknell. That work showed you could handle sensitive reconnaissance."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "For fresh Forsaken venturing beyond Deathknell, meeting a fellow Forsaken adventurer like Eleanor is an early lesson that not every stranger near Brill is a Scarlet spy."
+   "text": "For a new Forsaken near Deathknell, meeting Eleanor, a fellow adventurer, shows that a stranger near Brill may be no Scarlet spy."
   },
   {
    "target": "faction:Horde",
-   "text": "While Executor Arren guards the fledgling borders of the Forsaken realm, opening peaceful dialogue with wandering survivalists secures valuable practical skills for Horde initiates."
+   "text": "As a member of the Horde, you can gain practical survival skills by speaking with wandering travelers while Executor Arren guards the Forsaken realm's young borders."
   }
  ],
  "keywords": [
@@ -117,5 +117,6 @@
  ],
  "attribution": [
   "The Adventurer (Tirisfal Glades)"
- ]
+ ],
+ "style": 1
 }

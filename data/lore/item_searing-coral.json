@@ -10,16 +10,16 @@
    "quest:1708"
   ]
  },
- "summary": "Searing Coral is a rare, resilient mineral substance harvested from living iron corals off the coast of the Wetlands. Prized by tinkerers and smiths, it possesses remarkable thermal properties that allow it to be smelted and forged into protective armor.",
+ "summary": "Along the Wetlands coast, Searing Coral is gathered from living iron coral beneath the sea. Tinkerers and smiths value the mineral-rich material for its unusual ability to endure heat and strengthen armor.",
  "sections": [
   {
    "title": "A Rare coastal Resource",
-   "body": "Searing Coral grows exclusively in the chilly ocean waters along the coast south of Menethil Harbor in the Wetlands. Despite thriving in cold saltwater, this unique marine organism yields a mineral-rich material capable of enduring extreme heat. Harvesters brave the Wetlands' treacherous surf and coastal predators to pry the hardened formations loose.",
+   "body": "Searing Coral grows in the cold sea south of Menethil Harbor. The living iron coral thrives in saltwater, yet yields mineral-rich material that withstands extreme heat. Harvesters pry the hardened growths loose through dangerous surf, with coastal predators nearby.",
    "spoiler": 0
   },
   {
    "title": "Application in Smithing",
-   "body": "While traditionally outside standard dwarven metallurgy, Searing Coral caught the attention of inquisitive minds in Ironforge. Gnome craftsmen such as Klockmort Spannerspan adapt the techniques of veteran armorsmith Furen Longbeard, smelting and hammering the coral directly into metal alloys to produce lightweight, exceptionally durable armor for aspiring warriors.",
+   "body": "Dwarven smiths do not traditionally work Searing Coral. In Ironforge, curious gnome craftsmen such as Klockmort Spannerspan use methods from veteran armorsmith Furen Longbeard. They smelt the coral and hammer it into metal alloys, making lightweight, durable armor for aspiring warriors.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "where to find searing coral",
     "iron coral location"
    ],
-   "answer": "Searing Coral is harvested from the seabed along the shoreline south of Menethil Harbor in the Wetlands. It grows within natural beds of iron coral submerged beneath the shallow coastal waters."
+   "answer": "Searing Coral grows in iron coral beds beneath the shallow coastal waters south of Menethil Harbor in the Wetlands."
   },
   {
    "q": "Who wants Searing Coral in Ironforge?",
@@ -40,7 +40,7 @@
     "klockmort spannerspan coral",
     "furen longbeard coral"
    ],
-   "answer": "Klockmort Spannerspan, a gnomish artificer residing in Ironforge's Tinkertown, seeks Searing Coral. He uses it to experiment with smithing methods learned from the legendary dwarven armorer Furen Longbeard."
+   "answer": "Klockmort Spannerspan, a gnomish artificer in Ironforge's Tinkertown, seeks Searing Coral. He experiments with smithing methods learned from the legendary dwarven armorer Furen Longbeard."
   },
   {
    "q": "How can coral be forged into armor?",
@@ -49,7 +49,7 @@
     "can you smelt coral",
     "searing coral metallurgy"
    ],
-   "answer": "Searing Coral possesses an unusually dense, heat-resistant structure. When smelted in a forge and hammered into metal alloys, it strengthens the composite plating, resulting in exceptionally tough protective gear."
+   "answer": "Searing Coral has an unusually dense, heat-resistant structure. Smelted in a forge and hammered into metal alloys, it strengthens the composite plating and makes exceptionally tough protective gear."
   },
   {
    "q": "Is Searing Coral dangerous to harvest?",
@@ -57,17 +57,17 @@
     "is searing coral hot",
     "harvesting iron coral"
    ],
-   "answer": "The coral itself is safe to gather once located, but harvesting it requires swimming through the open waters off the Wetlands' coast, where wild murlocs and aggressive aquatic beasts roam."
+   "answer": "The coral itself is safe to gather once found, but reaching it means swimming in open waters off the Wetlands coast, where wild murlocs and aggressive aquatic beasts roam."
   }
  ],
  "angles": [
   {
    "target": "class:Warrior",
-   "text": "Gathering Searing Coral is a crucial step in proving your dedication to Ironforge's master armorers, earning you a custom-forged breastplate designed to withstand heavy frontline combat."
+   "text": "As a warrior, gathering Searing Coral helps prove your dedication to Ironforge's master armorers. They forge you a custom breastplate for heavy frontline combat."
   },
   {
    "target": "profession:Blacksmithing",
-   "text": "The integration of Searing Coral demonstrates the inventive fusion of gnomish ingenuity and classic dwarven metalworking, turning oceanic minerals into tempered plate."
+   "text": "As a blacksmith, you can see how gnomish ingenuity joins classic dwarven metalworking to turn oceanic minerals into tempered plate."
   }
  ],
  "keywords": [
@@ -91,5 +91,6 @@
  "attribution": [
   "Searing Coral",
   "Iron Coral (quest)"
- ]
+ ],
+ "style": 1
 }

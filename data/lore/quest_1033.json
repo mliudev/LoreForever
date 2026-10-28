@@ -17,21 +17,21 @@
   "wiki": "Elune's Tear (Classic)",
   "chain": []
  },
- "summary": "Pelturas Whitemoon's young daughter Relara remains gripped by a foul and relentless malady, defying the herbal remedies brought from the northern ruins. Desperate for a stronger cure, Pelturas sends an adventurer to Iris Lake to retrieve Elune's Tear, a sacred mineral revered by night elves for its power to wash away corruption.",
+ "summary": "In Astranaar, Pelturas Whitemoon seeks a cure for his ailing daughter, Relara. The brew made from Bathran's hair slowed her sickness, but did not cleanse it. He asks you to bring Elune's Tear from Iris Lake, hoping its sacred power can drive the corruption from her.",
  "sections": [
   {
    "title": "A Father's Growing Panic",
-   "body": "Relara Whitemoon lies bedridden in Astranaar, wasting away from a virulent sickness of unknown origin. Pelturas had placed his hopes on an alchemical draught prepared from Bathran's hair by the apothecary Orendil Broadleaf. While that brew managed to arrest the rapid advance of the affliction, it fell short of cleansing her body entirely. Facing the bitter reality that ordinary restorative magic and wild herbs are not enough, Pelturas turns to the ancient traditions of his people, pleading for aid in securing remedies imbued with divine cleansing light.",
+   "body": "Pelturas Whitemoon's young daughter, Relara, lies gravely ill in Astranaar. He hoped a draught made from Bathran's hair would heal her, but though Orendil Broadleaf's brew slowed the sickness, it did not clear it from her body. Ordinary remedies have not been enough. Pelturas now turns to the old traditions of his people and seeks a cure touched by divine cleansing light.",
    "spoiler": 0
   },
   {
    "title": "The Stone of Iris Lake",
-   "body": "Before parting ways, Orendil shared darker precautions with Pelturas, naming legendary remedies should the herbal mixture prove insufficient. Foremost among them is Elune's Tear, a luminous, sacred stone found only upon an island resting within Iris Lake, east of Astranaar. Believed to carry the blessing of the Moon Goddess, the stone is said to hold the power to purge deep-seated corruption from living flesh. Recovering it is no gentle pilgrimage, as troubled water elementals patrol the shallows and banks of the lake, fiercely guarding the untouched heart of the water.",
+   "body": "Orendil Broadleaf named a stronger remedy in case the herbal brew failed: Elune's Tear, a sacred stone found on an island in Iris Lake, east of Astranaar. Night elves believe the stone bears the Moon Goddess's blessing and can purge corruption from the living. Troubled water elementals patrol the lake's shallows and banks, guarding its waters.",
    "spoiler": 0
   },
   {
    "title": "A Measure of Hope",
-   "body": "When brought safely back to Astranaar, Pelturas prepares to steep the stone into a medicinal broth to feed his ailing daughter. Yet even as he offers his desperate thanks, the lingering nature of the corruption suggests this ordeal may demand still rarer reagents before the child's life is truly secure.",
+   "body": "When you bring the stone to Astranaar, Pelturas plans to steep it in a medicinal broth for Relara. He gives thanks, but the corruption still lingers, and her life remains in danger.",
    "spoiler": 1
   }
  ],
@@ -43,7 +43,7 @@
     "elune tear item",
     "stone of iris lake"
    ],
-   "answer": "Elune's Tear is a rare, consecrated stone discovered upon the central isle of Iris Lake in Ashenvale. Night elven lore attributes powerful purifying and curative qualities to the mineral, holding that it can wash away severe poisons and lingering corruption."
+   "answer": "Elune's Tear is a sacred stone found on the central isle of Iris Lake in Ashenvale. Night elven lore says it can cleanse severe poisons and lingering corruption."
   },
   {
    "q": "Why did Orendil's previous cure fail?",
@@ -52,7 +52,7 @@
     "did orendil cure work",
     "relara still sick"
    ],
-   "answer": "The brew concocted by Orendil Broadleaf from the plant known as Bathran's hair successfully slowed the disease's progress, but it could not overcome the virulent nature of Relara's illness. Her father Pelturas realized ordinary herbalism was insufficient, prompting the search for spiritually blessed cures."
+   "answer": "Orendil Broadleaf's brew, made from Bathran's hair, slowed Relara's illness but could not overcome it. Pelturas turned to sacred remedies when herbs proved insufficient."
   },
   {
    "q": "Where is Iris Lake located?",
@@ -61,7 +61,7 @@
     "iris lake location",
     "how to find iris lake"
    ],
-   "answer": "Iris Lake lies east of Astranaar in Ashenvale. Travelers can reach it by following the main road east out of town and trailing a dirt path that winds northward alongside a feeding stream into the lake basin."
+   "answer": "Iris Lake lies east of Astranaar in Ashenvale. Follow the main road east out of town, then take the dirt path north beside a stream that feeds the lake."
   },
   {
    "q": "What dangers lurk around Iris Lake?",
@@ -69,7 +69,7 @@
     "iris lake enemies",
     "what attacks at iris lake"
    ],
-   "answer": "The waters and central isle of Iris Lake are inhabited by territorial water elementals. Anyone attempting to approach the isle to claim the Tear must navigate past these hostile nature spirits."
+   "answer": "Territorial water elementals inhabit Iris Lake and its central isle. Anyone approaching the isle to claim the Tear must pass these hostile nature spirits."
   },
   {
    "q": "How does Pelturas plan to use the stone?",
@@ -77,7 +77,7 @@
     "how to use elunes tear",
     "elunes tear stew"
    ],
-   "answer": "Pelturas intends to steep Elune's Tear into a medicinal stew, relying on the sacred mineral's reputed cleansing properties to leech out the dark affliction consuming his daughter Relara."
+   "answer": "Pelturas plans to steep Elune's Tear in a medicinal stew for his daughter Relara, hoping its cleansing power will drive out her affliction."
   },
   {
    "q": "Who is Relara Whitemoon?",
@@ -85,25 +85,25 @@
     "who is relara",
     "pelturas daughter"
    ],
-   "answer": "Relara is the young night elf daughter of Pelturas Whitemoon, residing in Astranaar. She has fallen gravely ill with an unnatural corruption that threatens her life."
+   "answer": "Relara Whitemoon is the young night elf daughter of Pelturas Whitemoon, and she lives in Astranaar. An unnatural corruption has left her gravely ill and threatens her life."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "For the kaldorei, turning to sacred stones named for the Moon Goddess reflects their absolute faith that Elune's grace can purify wounds that conventional remedies cannot touch."
+   "text": "As a night elf, you know the faith placed in sacred stones named for the Moon Goddess, and in Elune's grace to cleanse wounds ordinary remedies cannot reach."
   },
   {
    "target": "class:Priest",
-   "text": "Priests devoted to Elune will recognize the deep spiritual reliance on holy relics to combat dark, unnatural plagues when prayer alone requires a physical catalyst."
+   "text": "As a priest devoted to Elune, you know the faith placed in holy relics to fight dark, unnatural plagues when prayer calls for a physical aid."
   },
   {
    "target": "class:Druid",
-   "text": "Druids understand both the delicate balance of Ashenvale's waters and the presence of erratic water elementals that guard the undisturbed heart of Iris Lake."
+   "text": "As a druid, you know the waters of Ashenvale and the erratic elementals that guard the quiet heart of Iris Lake."
   },
   {
    "target": "faction:Alliance",
-   "text": "Assisting the defenders of Astranaar with personal crises strengthens Alliance unity in Ashenvale during a period of mounting regional peril."
+   "text": "As an Alliance member, you help Astranaar's defenders through a personal crisis as danger grows across Ashenvale."
   }
  ],
  "keywords": [
@@ -130,5 +130,6 @@
  ],
  "attribution": [
   "Elune's Tear (Classic)"
- ]
+ ],
+ "style": 1
 }

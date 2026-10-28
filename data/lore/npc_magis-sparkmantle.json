@@ -8,16 +8,16 @@
   "wiki": "Magis Sparkmantle",
   "refs": 1
  },
- "summary": "Magis Sparkmantle is a gnome mage trainer stationed inside the Thunderbrew Distillery in Kharanos. He offers guidance and training to fledgling spellcasters who venture out from Coldridge Valley into the heart of Dun Morogh.",
+ "summary": "In Kharanos, Magis Sparkmantle trains gnome mages inside the Thunderbrew Distillery. He guides fledgling spellcasters who travel from Coldridge Valley into Dun Morogh.",
  "sections": [
   {
    "title": "A Spellcaster in the Distillery",
-   "body": "While dwarves gather in the Thunderbrew Distillery for hearty ales, Magis Sparkmantle provides an arcane presence among the casks and kegs of Kharanos. Gnome mages often integrate closely with their dwarven allies across Dun Morogh, and Sparkmantle serves as a key mentor for novice spellcasters ready to expand their theoretical and practical grasp of the arcane arts.",
+   "body": "Dwarves gather at the Thunderbrew Distillery for ale, and Magis Sparkmantle teaches among its casks and kegs. Gnome mages work closely with their dwarven allies across Dun Morogh. Magis helps novice spellcasters deepen their knowledge of the arcane and put it into practice.",
    "spoiler": 0
   },
   {
    "title": "Directing Young Arcanists",
-   "body": "Beyond instructing novices in basic incantations, Magis ensures that promising students connect with broader magical circles. When mages outgrow early local instruction or require specialized guidance, Sparkmantle directs them further afield, sending them toward fellow practitioners like Bink or mentors stationed across the Alliance's primary hubs.",
+   "body": "Magis teaches beginners their first incantations and points promising students toward wider circles of magic. When they outgrow his early lessons or need specialized guidance, he sends them to other practitioners, including Bink, or to mentors in the Alliance’s main hubs.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "who is magis",
     "kharanos mage trainer"
    ],
-   "answer": "Magis Sparkmantle is a gnome mage trainer residing in Kharanos, Dun Morogh. He instructs novice spellcasters in arcane fundamentals."
+   "answer": "Magis Sparkmantle trains gnome mages in Kharanos, teaching novice spellcasters the fundamentals of the arcane."
   },
   {
    "q": "Where can Magis Sparkmantle be found?",
@@ -38,7 +38,7 @@
     "where is magis",
     "find sparkmantle"
    ],
-   "answer": "He can be found inside the Thunderbrew Distillery, the main inn and gathering hall of the town of Kharanos."
+   "answer": "You can find Magis inside the Thunderbrew Distillery, Kharanos’s main inn and gathering hall."
   },
   {
    "q": "Why is a gnome mage trainer staying in a dwarven distillery?",
@@ -47,7 +47,7 @@
     "gnome in distillery",
     "why thunderbrew distillery"
    ],
-   "answer": "Following the fall of Gnomeregan, many gnomes settled among their dwarven cousins in Dun Morogh. The Thunderbrew Distillery acts as the central hub of Kharanos, making it an ideal post for mentoring wandering spellcasters."
+   "answer": "After the fall of Gnomeregan, many gnomes settled among their dwarven cousins in Dun Morogh. The Thunderbrew Distillery is Kharanos’s central gathering place, making it a good post for Magis to guide wandering spellcasters."
   },
   {
    "q": "Does Magis Sparkmantle offer any quests?",
@@ -55,17 +55,17 @@
     "sparkmantle quests",
     "magis quests"
    ],
-   "answer": "Magis directs developing mages toward other arcane mentors as they advance, including sending practitioners to speak with Bink or report to instructors in human territories."
+   "answer": "Magis sends developing mages to other arcane mentors as their studies advance, including Bink and instructors in human territories."
   }
  ],
  "angles": [
   {
    "target": "class:Mage",
-   "text": "For Alliance mages traversing Dun Morogh, Sparkmantle is an essential local contact for spell training and referrals to broader arcane networks."
+   "text": "As an Alliance mage traveling through Dun Morogh, you can turn to Magis for spell training and referrals to wider circles of arcane study."
   },
   {
    "target": "race:Gnome",
-   "text": "Gnomes exiled from Gnomeregan often rely on mentors like Sparkmantle to keep their scholarly and arcane traditions flourishing while living among the dwarves."
+   "text": "As a gnome living among the dwarves, you can look to mentors like Magis to keep your scholarly and arcane traditions alive."
   }
  ],
  "keywords": [
@@ -88,5 +88,6 @@
  ],
  "attribution": [
   "Magis Sparkmantle"
- ]
+ ],
+ "style": 1
 }

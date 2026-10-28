@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Durnholde Keep"
  },
- "summary": "Durnholde Keep is a shattered fortress situated east of Tarren Mill in the Hillsbrad Foothills. Once the nerve center of the Alliance's orc internment camps and the place where Warchief Thrall was raised as a captive gladiator, it now lies in ruin, occupied by outlaws of the Syndicate.",
+ "summary": "Outlaws hold Durnholde Keep, a shattered fortress east of Tarren Mill in the Hillsbrad Foothills. Once the Alliance headquarters for the southern orc internment camps, it is now a Syndicate refuge.",
  "sections": [
   {
    "title": "A Crucible of Captivity",
-   "body": "Built by the Alliance, Durnholde served as the headquarters overseeing the southern internment camps following the Second War. Commanded by the ambitious and corrupt Lieutenant General Aedelas Blackmoore, it functioned as both an administrative fortress and a gladiatorial arena. It was here that Blackmoore raised the orphaned infant Go'el, naming him Thrall and training him to fight for sport and profit. Aided by Taretha Foxton, Thrall escaped captivity and later united the dispersed orc clans under the banner of the new Horde. Returning to Durnholde, Thrall laid siege to the fortress, slew Blackmoore, and called upon the earth spirits to shatter its walls.",
+   "body": "After the Second War, the Alliance made Durnholde Keep its headquarters for the southern internment camps. Lieutenant General Aedelas Blackmoore commanded the fortress and its arena, where orcs fought for sport and profit. Blackmoore raised the orphaned infant Go'el as a slave, named him Thrall, and trained him to fight. With Taretha Foxton's aid, Thrall escaped captivity and later united the scattered orc clans beneath the new Horde. He returned to Durnholde, besieged the keep, slew Blackmoore, and called on the earth spirits to shatter its walls.",
    "spoiler": 0
   },
   {
    "title": "In the Clutches of the Syndicate",
-   "body": "Since its collapse prior to the Third War, Durnholde Keep has remained a scarred heap of masonry. In the vacuum left by Lordaeron's fall, the aristocratic bandits of the Syndicate took refuge among the ramparts. Operating out of the broken bailey and towers, these dispossessed Alterac nobles and cutthroats prey upon travelers across the Hillsbrad Foothills, turning a former instrument of martial law into a heavily fortified rogue outpost.",
+   "body": "Durnholde Keep has lain in ruins since its collapse before the Third War. After Lordaeron fell, the Syndicate took refuge among its broken ramparts. These bandits are dispossessed Alterac nobles and cutthroats. From the ruined bailey and towers, they prey on travelers across the Hillsbrad Foothills, using the old fortress as a fortified outpost.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "what happened to durnholde keep",
     "why is durnholde destroyed"
    ],
-   "answer": "Thrall returned to Durnholde at the head of the liberated Horde to defeat his former master, Lieutenant General Aedelas Blackmoore. After slaying Blackmoore, Thrall communed with the spirits of the earth to demolish the fortress so it could never again cage his people."
+   "answer": "Thrall returned to Durnholde with the liberated Horde to face his former master, Lieutenant General Aedelas Blackmoore. After slaying Blackmoore, he called on the earth spirits to demolish the fortress so it could never again cage his people."
   },
   {
    "q": "Who currently occupies Durnholde Keep?",
@@ -37,7 +37,7 @@
     "durnholde mobs",
     "syndicate at durnholde"
    ],
-   "answer": "The stronghold is held by the Syndicate, a faction of exiled Alterac nobles turned outlaws. They use the crumbling ramparts as a fortified redoubt to conduct banditry and launch attacks across Hillsbrad."
+   "answer": "The Syndicate holds Durnholde Keep. Its exiled Alterac nobles have become outlaws, using the crumbling ramparts as a refuge for banditry and attacks across Hillsbrad."
   },
   {
    "q": "What was Thrall's connection to this place?",
@@ -46,7 +46,7 @@
     "thrall durnholde history",
     "was thrall a prisoner here"
    ],
-   "answer": "Aedelas Blackmoore discovered the orphaned orc as a child and raised him at Durnholde as a slave. Thrall was educated in tactics and forced to fight as a gladiator in the arena before he managed to break out with help from a human woman named Taretha Foxton."
+   "answer": "Aedelas Blackmoore found the orphaned orc as a child and raised him as a slave at Durnholde. Thrall learned tactics and was forced to fight as a gladiator before escaping with help from Taretha Foxton."
   },
   {
    "q": "What purpose did the keep serve during the Second War?",
@@ -54,17 +54,17 @@
     "durnholde second war",
     "what was durnholde used for"
    ],
-   "answer": "Durnholde was an Alliance stronghold. When the Second War ended, it became the command center of the internment camps that held the defeated orcs, ruled by Lieutenant General Aedelas Blackmoore."
+   "answer": "Durnholde was an Alliance stronghold. After the Second War, it became the command center for the internment camps holding the defeated orcs, under Lieutenant General Aedelas Blackmoore."
   }
  ],
  "angles": [
   {
    "target": "race:Orc",
-   "text": "The ruined stones of Durnholde mark the forge where Warchief Thrall threw off his chains, ending decades of orcish captivity and kindling the rebirth of the Horde."
+   "text": "For orcs, Durnholde's ruined stones mark where Warchief Thrall cast off his chains, ending decades of orcish captivity and kindling the Horde's rebirth."
   },
   {
    "target": "faction:Alliance",
-   "text": "Once a linchpin of Lordaeron's defense and justice, Durnholde's shattered ramparts now serve only as a wretched lair for Syndicate outlaws and cutthroats."
+   "text": "For the Alliance, Durnholde's shattered ramparts once guarded Lordaeron and upheld its justice. Now Syndicate outlaws and cutthroats make their lair there."
   }
  ],
  "keywords": [
@@ -88,5 +88,6 @@
  ],
  "attribution": [
   "Durnholde Keep"
- ]
+ ],
+ "style": 1
 }

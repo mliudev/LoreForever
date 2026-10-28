@@ -7,6 +7,38 @@ wrap long bullets with an indented continuation line.
 
 ## Unreleased
 
+## 0.31.0 (2026-10-28)
+
+- **Downloads page, smoother:** where Setup can't install a language's voices yet, that card's button goes straight to CurseForge. The three buttons line up, and Willo's card turns dark in dark mode.
+
+- Corrected lore in 3 entries.
+
+- Corrected lore in 18 entries.
+
+- Corrected lore in 12 entries.
+
+- **Willo on stream:** her new chat popup over the game now appears in the existing OBS Browser Source, including on scaled displays.
+  Closing it removes it from the stream. Only the popup itself is captured.
+
+- **Pack names you can read:** Ukrainian and Russian packs show their English names in Options unless your game font can draw the native ones.
+
+- **Playlist opens from every page:** the Playlist button now opens your queue even while a story page, History or the Road is open.
+
+- **Quest givers pause between sentences:** the quest-giver voices no longer rush. Thousands of lines now leave
+  a natural breath at the end of each sentence.
+
+- **The rewritten lore is read aloud again:** the places, people, items and quests that were rewritten tell their new story in both narrators' voices, and their hidden passages are recorded too.
+
+- **The rewritten lore is read aloud again:** the places, people, items and quests that were rewritten tell their new story in both narrators' voices, and their hidden passages are recorded too.
+
+- **The rewritten lore is read aloud again:** the places, people, items and quests that were rewritten tell their new story in both narrators' voices, and their hidden passages are recorded too.
+
+- **The rewritten lore is read aloud again:** the places, people, items and quests that were rewritten tell their new story in both narrators' voices, and their hidden passages are recorded too.
+
+- **The rewritten lore is read aloud again:** the places, people, items and quests that were rewritten tell their new story in both narrators' voices, and their hidden passages are recorded too.
+
+- **Willo knows your Azeroth Survivors build:** over the game she reads your save on your PC (your talents, gear, zones won, perks and the jewelry you've found) and remembers what she saw earlier in the run, so her picks fit the build you have.
+
 ## 0.30.0 (2026-10-27)
 
 - **Books are read aloud:** open a book, letter or plaque and the narrator reads each page as you turn it, with Listen

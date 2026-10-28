@@ -8,11 +8,11 @@
   "wiki": "Shelene Rhobart",
   "refs": 1
  },
- "summary": "Shelene Rhobart is a Forsaken leatherworking trainer stationed along the road in Tirisfal Glades. Operating out of a Deathguard waystation, she supplies cured hides and leathercraft training to support the Forsaken's military and logistical efforts across the blighted lands.",
+ "summary": "Along Tirisfal's road, Shelene Rhobart trains leatherworkers at a Deathguard waystation. She supplies cured hides and leathercraft training for the Forsaken's military and logistical efforts across the blighted lands.",
  "sections": [
   {
    "title": "Crafting for the Forsaken",
-   "body": "Shelene Rhobart plies her trade at a Deathguard waystation, an outpost situated southeast of Brill along the main road toward the ruins of Lordaeron. Even in undeath, practical crafts remain essential for survival and war. Shelene works with animal pelts collected from the prowling beasts of Tirisfal, refining tough hides into armor, straps, and field gear to supply local Forsaken patrols contending with both the Scourge and Scarlet crusaders.",
+   "body": "At a Deathguard waystation southeast of Brill, Shelene Rhobart works along the main road toward the ruins of Lordaeron. Practical crafts still matter in undeath, for survival and war. She turns pelts from Tirisfal's prowling beasts into tough hides, armor, straps, and field gear for Forsaken patrols facing the Scourge and Scarlet crusaders.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "where is shelene rhobart",
     "shelene rhobart map"
    ],
-   "answer": "Shelene Rhobart is stationed at a small Forsaken post located southeast of Brill in Tirisfal Glades, along the road leading toward the Undercity."
+   "answer": "Find Shelene Rhobart at a small Forsaken post southeast of Brill in Tirisfal Glades, along the road to the Undercity."
   },
   {
    "q": "What role does Shelene Rhobart serve?",
@@ -33,7 +33,7 @@
     "shelene rhobart trainer",
     "shelene profession"
    ],
-   "answer": "She is a skilled leatherworking trainer. She teaches fledgling leatherworkers the fundamentals of curing pelts, stitching garments, and assembling protective leather gear for the Forsaken."
+   "answer": "Shelene Rhobart trains leatherworkers in curing pelts, stitching garments, and assembling protective leather gear for the Forsaken."
   },
   {
    "q": "Why does she need beast hides?",
@@ -41,13 +41,13 @@
     "hides for the forsaken quest",
     "why collect hides tirisfal"
    ],
-   "answer": "Undead skin does not heal, so when the Forsaken are injured they must patch themselves with animal hides. Shelene's stocks are running low, and she wants duskbat wing membranes, darkhound hides and Vile Fin murloc skin, since different thicknesses suit different parts of the body."
+   "answer": "The Forsaken use animal hides to patch their injured bodies, since undead skin does not heal. Shelene's supplies are running low, and she needs duskbat wing membranes, darkhound hides, and Vile Fin murloc skin; different thicknesses suit different parts of the body."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "Shelene represents the pragmatic foundation of Forsaken industry, ensuring local defenders are properly outfitted despite the decay and desolation of Tirisfal."
+   "text": "As an Undead, you can see how practical crafts help outfit local defenders amid Tirisfal's decay and desolation."
   }
  ],
  "keywords": [
@@ -65,5 +65,6 @@
  ],
  "attribution": [
   "Shelene Rhobart"
- ]
+ ],
+ "style": 1
 }

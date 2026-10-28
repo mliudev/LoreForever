@@ -17,21 +17,21 @@
   "wiki": "The Legend of Stalvan (6)",
   "chain": []
  },
- "summary": "This leg of the investigation directs searchers to the Canals of Stormwind City, where Caretaker Folsom watches over the remaining possessions of the ruined Flintridge family. Looking for answers regarding the mysterious Stalvan Mistmantle, adventurers must dig through crated estate goods while confronting restless spirits tied to a past massacre.",
+ "summary": "In Stormwind, you search the Flintridge belongings for clues to Stalvan Mistmantle. Sealed crates by the canals hold the household’s remaining possessions, while restless spirits tied to the massacre guard what remains.",
  "sections": [
   {
    "title": "Echoes of a Massacre",
-   "body": "Tracking Stalvan's movements leads out of the shadowed groves of Duskwood and into the heart of Stormwind. Beside the city canals, Caretaker Folsom looks after what little remains of the Flintridge household. According to Folsom, his father served the estate before him and had the grisly task of mopping up blood in the wake of a horrific household slaughter\u2014a tragedy somehow tied to the name Stalvan.",
+   "body": "You trace Stalvan’s path from Duskwood to Stormwind. Beside the city canals, Caretaker Folsom watches over what remains of the Flintridge household. His father served the estate before him and had to mop up blood after a massacre that claimed the household. The name Stalvan is somehow tied to that slaughter.",
    "spoiler": 0
   },
   {
    "title": "The Auction of a Ruined House",
-   "body": "With the Flintridge trust funds entirely drained and royal tax vultures circling, the family's surviving heirlooms and packed belongings are slated for auction. Whatever keepsakes and papers survived the bloodshed sit piled into shipping crates along the canal embankment. Uncovering Stalvan's trail requires prying open these sealed boxes before the estate's remaining worldly goods are scattered to collectors across the kingdom.",
+   "body": "The Flintridge trust funds are gone, and royal tax collectors press the estate. Its surviving heirlooms and packed belongings are sealed inside shipping crates along the canal embankment, awaiting auction. You search the boxes for Stalvan’s trail before the family’s remaining goods are scattered to collectors across the kingdom.",
    "spoiler": 0
   },
   {
    "title": "A Restless Shade",
-   "body": "Disturbing the crates of the deceased does not go unnoticed. The trauma of the murders still clings to these salvaged possessions, manifesting as a vengeful Forlorn Spirit that attacks anyone probing the family effects. This weeping apparition, believed to be the phantom of young Tilloa Flintridge, remains fiercely tethered to the physical relics of her abruptly stolen life.",
+   "body": "A Forlorn Spirit attacks anyone who disturbs the Flintridge crates. The trauma of the murders clings to the family’s salvaged possessions, and the weeping apparition is believed to be the shade of young Tilloa Flintridge. Her spirit remains bound to the relics of the life cut short.",
    "spoiler": 1
   }
  ],
@@ -43,7 +43,7 @@
     "where is folsom",
     "where is caretaker folsom in stormwind"
    ],
-   "answer": "Caretaker Folsom is stationed along the Canals in Stormwind City, standing near a stack of discarded shipping crates and house goods beside the waterway."
+   "answer": "Caretaker Folsom watches over the Flintridge goods beside the Canals in Stormwind City, near shipping crates stacked by the waterway."
   },
   {
    "q": "What happened to the Flintridge family?",
@@ -52,7 +52,7 @@
     "what was the massacre",
     "who killed the flintridge family"
    ],
-   "answer": "The Flintridges were a wealthy household torn apart by a sudden and vicious massacre. As caretaker lore reveals, the bloodbath was so extensive that Folsom's father had to mop the estate clean. Who was responsible is not yet clear."
+   "answer": "The wealthy Flintridge household was torn apart by a sudden massacre. Caretaker Folsom says his father had to mop up the blood afterward; who was responsible remains unclear."
   },
   {
    "q": "Why are the family's possessions packed in crates along the canal?",
@@ -61,7 +61,7 @@
     "why are crates in the canals",
     "flintridge trust"
    ],
-   "answer": "The Flintridge family trust completely dried up following the tragedy. Facing pressure from kingdom tax collectors, the estate's surviving belongings were crated and staged by the canals to be liquidated at auction."
+   "answer": "The Flintridge trust funds ran dry after the tragedy. Their remaining belongings were crated and staged beside the canals for auction, under pressure from kingdom tax collectors."
   },
   {
    "q": "Why does a spirit attack when the crate is opened?",
@@ -70,7 +70,7 @@
     "who is the forlorn spirit",
     "why ghost in stormwind canals"
    ],
-   "answer": "The violent trauma of the massacre left the victims' souls bound to their former belongings. The Forlorn Spirit that manifests to defend the crates is widely believed to be the shade of Tilloa Flintridge, one of the murdered children."
+   "answer": "The massacre’s trauma bound the victims’ souls to their former belongings. A Forlorn Spirit attacks to defend the crates, and many believe it is the shade of Tilloa Flintridge, one of the murdered children."
   },
   {
    "q": "How does this connect back to Duskwood?",
@@ -79,7 +79,7 @@
     "why are we in stormwind for a duskwood quest",
     "legend of stalvan city connection"
    ],
-   "answer": "The investigation began in Darkshire as a missing-person inquiry into Stalvan Mistmantle. Tracing his history led back to his time as a tutor for the Flintridge family in Elwynn and Stormwind."
+   "answer": "The investigation began in Darkshire as a search for the missing Stalvan Mistmantle. Tracing his history led to his time as tutor to the Flintridge family in Elwynn and Stormwind."
   },
   {
    "q": "What do you find inside the sealed crate?",
@@ -88,17 +88,17 @@
     "sealed crate clue",
     "flintridge crate contents"
    ],
-   "answer": "Rifling through the packed furniture and personal items yields musty heirlooms and, near the bottom, a torn page from Stalvan's journal that becomes the next clue."
+   "answer": "The crate holds musty heirlooms among packed furniture and personal effects. Near the bottom, you find a torn page from Stalvan’s journal, the next clue."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "The quiet tragedy of the Flintridge family unfolds right within the kingdom's capital, exposing how even Stormwind's most sheltered noble lines can be violently undone."
+   "text": "The Flintridge tragedy unfolds in Stormwind, the kingdom’s capital, and shows how violence can undo even its most sheltered noble lines."
   },
   {
    "target": "class:Priest",
-   "text": "Confronting the weeping Forlorn Spirit in the city canals reveals the lingering torment of innocent souls murdered before their time, demanding peace from the Light."
+   "text": "As a priest, you face the weeping Forlorn Spirit in the city canals. Its torment belongs to innocent souls murdered before their time, and it demands peace from the Light."
   }
  ],
  "keywords": [
@@ -121,5 +121,6 @@
  ],
  "attribution": [
   "The Legend of Stalvan (6)"
- ]
+ ],
+ "style": 1
 }

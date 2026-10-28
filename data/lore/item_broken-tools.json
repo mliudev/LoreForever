@@ -10,11 +10,11 @@
    "quest:746"
   ]
  },
- "summary": "Broken Tools are the shattered remnants of dwarven prospector picks, intentionally destroyed at an anvil. They serve as physical proof to Baine Bloodhoof that the invasive dwarven excavation threatening Mulgore's land and wildlife has been disrupted.",
+ "summary": "At the dig northwest of Bloodhoof Village, dwarven picks lie broken on the forge. Baine Bloodhoof wants proof that the excavation threatening Mulgore's land and wildlife has been stopped.",
  "sections": [
   {
    "title": "Sabotaging the Dig",
-   "body": "To the northwest of Bloodhoof Village, dwarven excavators have set up operations to delve into the hills of Mulgore. While the dwarves seek buried ancient history, the tauren view their aggressive excavation as a direct defilement of the Earth Mother. The noise and destruction agitate the local wildlife, particularly the roaming kodo herds. Rather than merely driving the excavators away, young Baine Bloodhoof instructs defenders to confiscate the prospectors' iron picks and shatter them upon a forge, rendering the expedition unable to gouge further into the earth.",
+   "body": "Northwest of Bloodhoof Village, dwarven excavators dig into Mulgore's hills in search of ancient history. The tauren see their work as a defilement of the Earth Mother. The digging's noise and destruction agitate the local wildlife, especially the roaming kodo herds. Young Baine Bloodhoof orders defenders to take the prospectors' iron picks and break them at a forge. With their picks ruined, the expedition cannot gouge further into the earth.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "what are broken tools",
     "shattered picks"
    ],
-   "answer": "They are the ruined heads and splintered shafts of Prospector's Picks, taken from the dwarven excavators in Mulgore and deliberately crushed at a forge."
+   "answer": "Broken Tools are the ruined heads and splintered shafts of Prospector's Picks, taken from the dwarven excavators in Mulgore and crushed at a forge."
   },
   {
    "q": "Why does Baine Bloodhoof want them destroyed?",
@@ -35,7 +35,7 @@
     "why baine want broken tools",
     "baine dwarven digging"
    ],
-   "answer": "Baine believes that tearing up the soil defiles the land and enrages Mulgore's wildlife, especially the kodos. Smashing their tools halts the digging and sends a clear message that the land will not yield its wisdom to reckless excavation."
+   "answer": "Baine believes digging into the soil defiles the land and angers Mulgore's wildlife, especially the kodos. Breaking the picks stops the excavation and warns that the land will not yield its wisdom to reckless digging."
   },
   {
    "q": "Where can these picks be broken?",
@@ -44,7 +44,7 @@
     "where is forge",
     "break prospector pick"
    ],
-   "answer": "Any functional blacksmithing forge will do. You can use the forge located directly at the dwarven dig site, or visit one in Bloodhoof Village or up in Thunder Bluff."
+   "answer": "You can break the picks at any working forge. One stands at the dwarven dig site, and others can be found in Bloodhoof Village or Thunder Bluff."
   },
   {
    "q": "Why are dwarves digging in Mulgore?",
@@ -52,17 +52,17 @@
     "why dwarves in mulgore",
     "dwarf digsite mulgore"
    ],
-   "answer": "The dwarves believe deep secrets and relics of antiquity lie buried under Mulgore's soil. In their obsessive search for their origins, they frequently hollow out foreign lands without regard for the native inhabitants."
+   "answer": "The dwarves believe Mulgore's soil holds deep secrets and relics of antiquity. Searching for their origins, they hollow out foreign lands without regard for the people who live there."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "For the tauren, bringing ruined tools to Baine represents the defense of the Earth Mother against invasive gouging that torments the native beasts."
+   "text": "As a tauren, bringing ruined tools to Baine helps defend the Earth Mother from digging that torments the native beasts."
   },
   {
    "target": "profession:Blacksmithing",
-   "text": "Using an anvil to systematically destroy fine dwarven ironwork turns the crafter's forge into an instrument of territorial defense."
+   "text": "As a blacksmith, you can turn your forge and anvil against dwarven ironwork to defend the land."
   }
  ],
  "keywords": [
@@ -84,5 +84,6 @@
  "attribution": [
   "Broken Tools",
   "Dwarven Digging"
- ]
+ ],
+ "style": 1
 }

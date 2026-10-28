@@ -21,16 +21,16 @@
    "Return to Jitters"
   ]
  },
- "summary": "Stranded and terrified in the ruins of Raven Hill, the paranoid vagrant Jitters is desperate for real sustenance after subsisting on weeds and insects. He begs passing adventurers to travel east to Darkshire and convince Chef Grual to prepare a hot batch of his famous Dusky Crab Cakes.",
+ "summary": "In Raven Hill, Jitters is starving and afraid, with only weeds and insects to eat. He asks you to go east to Darkshire and seek a hot batch of Chef Grual’s famous Dusky Crab Cakes.",
  "sections": [
   {
    "title": "Starving in Raven Hill",
-   "body": "Raven Hill has become a den of ravenous undead and lurking beasts, leaving the eccentric hermit Jitters trapped in hiding for weeks. Prowling through dilapidated shanties under perpetual gloom, he has survived solely on dirt-dwelling grubs and wild weeds. Starved of civilized comfort, his nerves and stomach are pushed to their absolute limits.",
+   "body": "Raven Hill’s ruined streets shelter ravenous undead and lurking beasts. Jitters has hidden there for weeks, moving through its crumbling shanties under a sky that never seems to brighten. Grubs from the dirt and wild weeds are all he has found to eat. Hunger and fear wear him down, far from the comforts of ordinary life.",
    "spoiler": 0
   },
   {
    "title": "A Plea for Crab Cakes",
-   "body": "Desperate for any reminder of safety, Jitters dreams of the seasoned patties crafted at the Scarlet Raven Tavern in Darkshire. He sends travelers across the haunted road to seek out Chef Grual, hoping Grual will agree to whip up a batch of Dusky Crab Cakes to quiet his violently growling gut.",
+   "body": "Jitters longs for a taste of safety: the seasoned patties made at the Scarlet Raven Tavern in Darkshire. He asks you to cross the haunted road and speak with Chef Grual. If the chef agrees to make Dusky Crab Cakes, a hot meal may quiet Jitters’ growling gut.",
    "spoiler": 0
   }
  ],
@@ -42,7 +42,7 @@
     "who is jitters",
     "where is jitters"
    ],
-   "answer": "Jitters is a frightened, paranoid man hiding out in the ruined township of Raven Hill in western Duskwood. He is terrified of the undead infestation and constantly lives in fear of starvation and slaughter."
+   "answer": "Jitters is a frightened, paranoid man hiding in the ruined township of Raven Hill in western Duskwood. The undead there terrify him, and he fears starvation and slaughter."
   },
   {
    "q": "Where can I find Chef Grual?",
@@ -51,7 +51,7 @@
     "find grual",
     "scarlet raven chef"
    ],
-   "answer": "Chef Grual works in the kitchen of the Scarlet Raven Tavern, located in the town of Darkshire along the eastern side of Duskwood."
+   "answer": "Chef Grual works in the kitchen of the Scarlet Raven Tavern in Darkshire, on Duskwood’s eastern side."
   },
   {
    "q": "Why is Jitters eating grubs?",
@@ -60,7 +60,7 @@
     "why eats grubs",
     "raven hill food"
    ],
-   "answer": "Cut off from civilization by hordes of roaming undead and predatory worgen, Jitters has spent weeks pinned down in the ruined town of Raven Hill with no access to provisions other than whatever insects and foliage he can scavenge."
+   "answer": "Jitters has spent weeks trapped in ruined Raven Hill, cut off from civilization by roaming undead and predatory worgen. With no provisions, he scavenges insects and foliage to survive."
   },
   {
    "q": "What dish does Jitters want?",
@@ -69,7 +69,7 @@
     "crab cakes quest",
     "what does jitters want to eat"
    ],
-   "answer": "Jitters craves Dusky Crab Cakes, a regional specialty prepared by Chef Grual at the Scarlet Raven Tavern."
+   "answer": "Jitters wants Dusky Crab Cakes, a local specialty Chef Grual prepares at the Scarlet Raven Tavern."
   },
   {
    "q": "What happens after speaking with Chef Grual?",
@@ -78,7 +78,7 @@
     "next quest jitters gut",
     "chef grual task"
    ],
-   "answer": "Chef Grual is willing to cook the meal for Jitters, but he lacks fresh ingredients, tasking the adventurer with gathering gooey spider legs to prepare the Dusky Crab Cakes."
+   "answer": "Chef Grual agrees to cook for Jitters, but he has no fresh ingredients. He asks you to gather gooey spider legs for the Dusky Crab Cakes."
   },
   {
    "q": "Can Horde players complete this quest?",
@@ -86,17 +86,17 @@
     "is jitters alliance only",
     "horde jitters growling gut"
    ],
-   "answer": "No. Both Jitters and the town of Darkshire align with the Alliance, making this errand exclusive to Alliance adventurers."
+   "answer": "No. Jitters and Darkshire are aligned with the Alliance, so only Alliance adventurers can help him."
   }
  ],
  "angles": [
   {
    "target": "profession:Cooking",
-   "text": "Chef Grual's renowned Dusky Crab Cakes showcase how frontier culinary masters make do with local, exotic ingredients when regular shipments fail to reach Duskwood."
+   "text": "Chef Grual’s Dusky Crab Cakes show how cooks in Duskwood use local, unusual ingredients when regular shipments fail to arrive."
   },
   {
    "target": "faction:Alliance",
-   "text": "Lending aid to Jitters connects travelers with the fragile, struggling settlements and survivors clinging to life in the shadowed corners of Duskwood."
+   "text": "Helping Jitters brings you closer to the fragile settlements and survivors holding on in Duskwood’s shadowed corners."
   }
  ],
  "keywords": [
@@ -120,5 +120,6 @@
  ],
  "attribution": [
   "Jitters' Growling Gut"
- ]
+ ],
+ "style": 1
 }

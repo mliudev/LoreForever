@@ -17,16 +17,16 @@
   "wiki": "Arachnophobia (quest)",
   "chain": []
  },
- "summary": "Arachnophobia is a Horde bounty quest targeting Besseleth, an ancient and colossal predator haunting southern Stonetalon Mountains. Posted on a roadside notice near Windshear Crag, the bounty directs adventurers into Sishir Canyon to claim the spider matriarch's fang for Maggran Earthbinder at Sun Rock Retreat. Putting an end to her reign makes the mountain roads safer for night travelers.",
+ "summary": "A Horde bounty sends you west of Windshear Crag after Besseleth, the ancient spider haunting southern Stonetalon Mountains. Claim her fang for Maggran Earthbinder at Sun Rock Retreat, and the mountain roads may grow safer for travelers after dark.",
  "sections": [
   {
    "title": "The Roadside Warning",
-   "body": "Travelers along the main thoroughfare south of Windshear Crag will spot a weathered wanted poster warning of the dangers to the west. Sishir Canyon and Webwinder Path have been completely overrun by eight-legged predators. At the heart of this webbed menace sits Besseleth, an unusually large, orange-hued spider who commands her brood and ambushes anyone daring to stray off the path after sunset.",
+   "body": "A weathered wanted poster warns travelers on the main road south of Windshear Crag of dangers to the west. Sishir Canyon and Webwinder Path are overrun by spiders. At the heart of the threat is Besseleth, an unusually large orange spider who commands her brood. After sunset, she ambushes anyone who strays from the path.",
    "spoiler": 0
   },
   {
    "title": "The Earthbinder's Grievance",
-   "body": "The bounty on Besseleth is offered by Maggran Earthbinder, a tauren resident of Sun Rock Retreat. Maggran has a personal score to settle with the matriarch: during a previous encounter, he was nearly killed when struck by Besseleth's massive two-foot fang. Though he managed to fight her off and limp to safety, the lingering wound serves as a constant reminder of the danger lurking in the canyon shadows. By having an adventurer claim Besseleth's Fang, Maggran hopes to secure the passes so trade and travel to Sun Rock Retreat can flourish without fear.",
+   "body": "Maggran Earthbinder, a tauren at Sun Rock Retreat, has posted the bounty on Besseleth. He nearly died in an earlier encounter, when her massive two-foot fang struck him. Maggran fought her off and limped to safety, but the wound still reminds him of the danger in the canyon shadows. He hopes an adventurer will bring him Besseleth's Fang and secure the passes, so trade and travel to Sun Rock Retreat can continue without fear.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "wanted poster besseleth location",
     "how to start arachnophobia"
    ],
-   "answer": "The quest is started by inspecting a wanted poster posted along the west side of the main road in the Stonetalon Mountains, just south of the entrance to Windshear Crag."
+   "answer": "Inspect the wanted poster on the west side of the main road in Stonetalon Mountains, just south of the entrance to Windshear Crag."
   },
   {
    "q": "Where can Besseleth be found?",
@@ -47,7 +47,7 @@
     "where is besseleth",
     "find besseleth spider"
    ],
-   "answer": "Besseleth lairs inside Sishir Canyon, located just west of the roadside wanted poster. She roams among her spider offspring across the canyon's web-choked ground."
+   "answer": "Besseleth lairs in Sishir Canyon, west of the roadside wanted poster. She roams the canyon's web-choked ground among her spider offspring."
   },
   {
    "q": "Who is Maggran Earthbinder?",
@@ -56,7 +56,7 @@
     "maggran earthbinder role",
     "who turned in arachnophobia"
    ],
-   "answer": "Maggran Earthbinder is a tauren situated at Sun Rock Retreat in the Stonetalon Mountains. He personally survived a venomous strike from Besseleth and posted the bounty to rid the canyon of her menace."
+   "answer": "Maggran Earthbinder is a tauren at Sun Rock Retreat in Stonetalon Mountains. He survived a venomous strike from Besseleth and posted the bounty to rid the canyon of her threat."
   },
   {
    "q": "Why is Besseleth such a threat to the region?",
@@ -64,7 +64,7 @@
     "why kill besseleth",
     "what did besseleth do"
    ],
-   "answer": "Besseleth is an exceptionally large and ruthless spider who stalks Sishir Canyon and the neighboring Webwinder Path. She and her brood prey upon travelers under the cover of night, threatening anyone attempting to reach Sun Rock Retreat."
+   "answer": "Besseleth is an exceptionally large, ruthless spider who stalks Sishir Canyon and nearby Webwinder Path. At night, she and her brood prey on travelers heading toward Sun Rock Retreat."
   },
   {
    "q": "What proof is required to claim the bounty?",
@@ -73,7 +73,7 @@
     "besseleth quest item",
     "what drops from besseleth"
    ],
-   "answer": "You must slay Besseleth and sever one of her enormous two-foot fangs. Presenting Besseleth's Fang to Maggran Earthbinder at Sun Rock Retreat completes the bounty."
+   "answer": "Slay Besseleth and take one of her enormous two-foot fangs. Bring Besseleth's Fang to Maggran Earthbinder at Sun Rock Retreat to claim the bounty."
   },
   {
    "q": "Is this quest available to the Alliance?",
@@ -81,21 +81,21 @@
     "can alliance do arachnophobia",
     "alliance arachnophobia quest"
    ],
-   "answer": "No. The bounty poster awards credit to Maggran Earthbinder at Sun Rock Retreat, which is a Horde encampment, making Arachnophobia exclusive to the Horde."
+   "answer": "No. Arachnophobia is exclusive to the Horde, since Maggran Earthbinder at the Horde encampment of Sun Rock Retreat offers the bounty."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "Clearing out Besseleth stabilizes travel into Sun Rock Retreat, protecting the Horde's vital foothold in the central crags of Stonetalon."
+   "text": "As a Horde traveler, clearing out Besseleth helps secure travel to Sun Rock Retreat and protect your foothold in central Stonetalon's crags."
   },
   {
    "target": "race:Tauren",
-   "text": "Maggran Earthbinder bears the painful scar of Besseleth's venom, making the hunt a matter of honoring and assisting a fellow son of the earth."
+   "text": "As a tauren, you can help Maggran Earthbinder, who bears the painful scar of Besseleth's venom, in his hunt."
   },
   {
    "target": "class:Hunter",
-   "text": "Tracking down an elusive, colossal arachnid within the shadowed crags of Sishir Canyon offers a true test of mountain stalking."
+   "text": "As a hunter, tracking a colossal spider through the shadowed crags of Sishir Canyon tests your skill at stalking in the mountains."
   }
  ],
  "keywords": [
@@ -119,5 +119,6 @@
  ],
  "attribution": [
   "Arachnophobia (quest)"
- ]
+ ],
+ "style": 1
 }

@@ -25,16 +25,16 @@
    "Training the Beast (Dwarf)"
   ]
  },
- "summary": "The Hunter's Path is a rite of passage offered to novice dwarven hunters across Dun Morogh once they reach basic competence in tracking and marksmanship. Local trainers direct their apprentices to Grif Wildheart in Kharanos to begin learning the art of taming wild beasts as permanent companions.",
+ "summary": "In Dun Morogh, novice hunters are sent to Kharanos to learn to tame wild beasts. The Hunter's Path begins when local trainers judge them ready to face that trial.",
  "sections": [
   {
    "title": "A Hunter's True Calling",
-   "body": "Until a hunter masters the art of beast bonding, they walk the snowy crags of Dun Morogh alone, relying solely on axe, rifle, or bow. Trainers like Olmin Burningbeard and Tristane Shadowstone watch their pupils closely until they demonstrate the poise required to face a savage creature without killing it. Once a novice shows sufficient discipline, they are sent down the mountain roads toward Kharanos.",
+   "body": "Novice hunters travel Dun Morogh's snowy crags alone until they master bonding with beasts. Olmin Burningbeard and Tristane Shadowstone watch their pupils closely. They wait until a hunter can face a savage creature with the poise to spare its life. Once a novice shows enough discipline, the trainers send them down the mountain roads toward Kharanos.",
    "spoiler": 0
   },
   {
    "title": "Reporting to Grif Wildheart",
-   "body": "In Kharanos, Grif Wildheart oversees the final trials of dwarven huntsmanship. Taming a beast is considered far more demanding than bringing one down for meat or pelt; it requires patience, physical endurance, and an intuitive bond with the wild predators of the mountains. Wildheart acts as the gateway to these trials, preparing the hunter for the grueling task of testing their willpower against Dun Morogh's fiercest wildlife.",
+   "body": "In Kharanos, Grif Wildheart oversees the final trials of dwarven huntsmanship. Taming a beast demands more than bringing one down for meat or pelt. It calls for patience, physical endurance, and an instinctive bond with the wild predators of the mountains. Wildheart prepares each hunter to test their will against Dun Morogh's fiercest wildlife.",
    "spoiler": 0
   }
  ],
@@ -46,7 +46,7 @@
     "what is hunter's path",
     "hunter pet quest start"
    ],
-   "answer": "It serves as the formal summons sending a maturing hunter to Kharanos to begin their pet-taming trials under Grif Wildheart."
+   "answer": "The Hunter's Path sends a maturing hunter to Kharanos to begin taming trials under Grif Wildheart."
   },
   {
    "q": "Who sends me on this path?",
@@ -55,7 +55,7 @@
     "who gives hunters path",
     "where to pick up"
    ],
-   "answer": "Hunter trainers\u2014including Olmin Burningbeard in Ironforge's Hall of Arms, Tristane Shadowstone, and Einris Brightspear\u2014direct their pupils to take up this task."
+   "answer": "Hunter trainers, including Olmin Burningbeard in Ironforge's Hall of Arms, Tristane Shadowstone, and Einris Brightspear, direct their pupils to take this path."
   },
   {
    "q": "Where can I find Grif Wildheart?",
@@ -64,7 +64,7 @@
     "where is grif",
     "kharanos hunter trainer"
    ],
-   "answer": "Grif Wildheart is stationed outside the Thunderbrew Distillery in Kharanos, within the snowy valley of Dun Morogh."
+   "answer": "Grif Wildheart waits outside the Thunderbrew Distillery in Kharanos, in Dun Morogh's snowy valley."
   },
   {
    "q": "Why do hunters need a trainer to tame beasts?",
@@ -73,7 +73,7 @@
     "lore behind pet taming",
     "why cant i tame yet"
    ],
-   "answer": "Taming wild beasts requires specialized techniques and a taming rod to commune with predatory creatures without provoking a fight to the death. Grif Wildheart teaches these traditions."
+   "answer": "Taming wild beasts takes special techniques and a taming rod to commune with predators without provoking a fight to the death. Grif Wildheart teaches these traditions."
   },
   {
    "q": "What happens after reporting to Grif Wildheart?",
@@ -82,7 +82,7 @@
     "what follows hunters path",
     "chain after this"
    ],
-   "answer": "Grif Wildheart immediately tests your mettle by sending you into the wilderness with a taming rod to subdue several distinct beasts native to Dun Morogh."
+   "answer": "After you report to Grif Wildheart, he tests your mettle by sending you into the wilderness with a taming rod to subdue several distinct beasts native to Dun Morogh."
   },
   {
    "q": "Can any hunter take this specific quest?",
@@ -91,17 +91,17 @@
     "can night elves do this",
     "race restriction"
    ],
-   "answer": "This particular summons is tailored for dwarven hunters operating in Dun Morogh, directing them to the local trainer in Kharanos."
+   "answer": "This summons is for dwarven hunters in Dun Morogh, directing them to the local trainer in Kharanos."
   }
  ],
  "angles": [
   {
    "target": "class:Hunter",
-   "text": "This quest marks the defining transition from a solitary tracker to a true beastmaster capable of commanding wild predators."
+   "text": "As a hunter, you begin the shift from solitary tracker to beastmaster, able to command wild predators."
   },
   {
    "target": "race:Dwarf",
-   "text": "Dwarven mountaineers have long kept bears and boars as trusted scouting companions across the snowy peaks of Dun Morogh."
+   "text": "As a dwarf, you know mountaineers have long kept bears and boars as trusted scouting companions across Dun Morogh's snowy peaks."
   }
  ],
  "keywords": [
@@ -124,5 +124,6 @@
  ],
  "attribution": [
   "The Hunter's Path (Dwarf)"
- ]
+ ],
+ "style": 1
 }

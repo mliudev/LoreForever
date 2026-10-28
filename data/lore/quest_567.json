@@ -17,16 +17,16 @@
   "wiki": "Dangerous! (quest)",
   "chain": []
  },
- "summary": "Posted on the wanted board in Tarren Mill, this bounty marks four prominent Hillsbrad humans for execution. High Executor Darthalia has declared them dangerous enemies of the Forsaken due to specific assassinations and supply ambushes.",
+ "summary": "At Tarren Mill, High Executor Darthalia has marked four Hillsbrad humans for execution. She calls them enemies of the Forsaken for killing their people and striking at supplies.",
  "sections": [
   {
    "title": "A Matter of Retribution",
-   "body": "The front lines across the Hillsbrad Foothills are brutal and personal. To High Executor Darthalia and the Forsaken garrison at Tarren Mill, ordinary citizens of Hillsbrad have become lethal combatants. The wanted notice singles out four specific figures whose resistance has cost Forsaken lives and valuable shipments from the Undercity.",
+   "body": "Across the Hillsbrad Foothills, the fighting is brutal and personal. High Executor Darthalia and the Forsaken garrison at Tarren Mill see ordinary Hillsbrad citizens as deadly foes. A wanted notice names four people whose resistance has killed Forsaken and cost them valuable shipments from the Undercity.",
    "spoiler": 0
   },
   {
    "title": "Targets of Tarren Mill",
-   "body": "The bounty names Clerk Horrace Whitesteed for the killing of Deathguard Toma, Citizen Wilkes for the murder of Apothecary Eli, Miner Hackett for taking the life of Deathstalker Fry, and Farmer Kalaba for sabotaging supply convoys sent from the Undercity. Each target operates from different pockets of Hillsbrad resistance, remaining elusive amid the chaos of the broader conflict.",
+   "body": "The bounty names Clerk Horrace Whitesteed, who killed Deathguard Toma; Citizen Wilkes, who murdered Apothecary Eli; Miner Hackett, who killed Deathstalker Fry; and Farmer Kalaba, who sabotaged supply convoys from the Undercity. Each works from a different pocket of Hillsbrad resistance and remains elusive amid the wider conflict.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who gave dangerous quest",
     "darthalia bounty"
    ],
-   "answer": "High Executor Darthalia, commander of the Forsaken forces stationed at Tarren Mill, issued the bounty against four prominent Hillsbrad humans."
+   "answer": "High Executor Darthalia, commander of the Forsaken forces at Tarren Mill, issued the bounty against four prominent Hillsbrad humans."
   },
   {
    "q": "Why are these specific humans wanted?",
@@ -47,7 +47,7 @@
     "what did they do",
     "hillsbrad targets crime"
    ],
-   "answer": "Each has struck a blow against the Forsaken: Clerk Horrace Whitesteed killed Deathguard Toma, Citizen Wilkes murdered Apothecary Eli, Miner Hackett slew Deathstalker Fry, and Farmer Kalaba ambushed essential supplies sent from the Undercity."
+   "answer": "Each has struck the Forsaken: Clerk Horrace Whitesteed killed Deathguard Toma, Citizen Wilkes murdered Apothecary Eli, Miner Hackett killed Deathstalker Fry, and Farmer Kalaba ambushed essential supplies from the Undercity."
   },
   {
    "q": "Where are the targets located?",
@@ -56,7 +56,7 @@
     "dangerous quest locations",
     "hackett location"
    ],
-   "answer": "All four targets are entrenched across the human settlements and worksites of Hillsbrad Foothills, hiding among the townsfolk, farms, and mines."
+   "answer": "All four are scattered across Hillsbrad Foothills, among the human settlements, farms, and mines."
   },
   {
    "q": "What is the strategic purpose of this contract?",
@@ -65,7 +65,7 @@
     "hillsbrad bounty goal",
     "tarren mill strategy"
    ],
-   "answer": "Beyond raw vengeance, eliminating these leaders cripples local human resistance and protects Forsaken patrols and supply lines traveling between Tarren Mill and the Undercity."
+   "answer": "The contract answers the killings and aims to cripple local human resistance, protecting Forsaken patrols and supply lines between Tarren Mill and the Undercity."
   },
   {
    "q": "Does this connect to the Battle of Hillsbrad?",
@@ -74,7 +74,7 @@
     "darthalia battle",
     "hillsbrad offensive"
    ],
-   "answer": "Yes. The targets of this bounty reside in the very farms, mines, and town centers that Forsaken forces assault during the broader Battle of Hillsbrad offensive."
+   "answer": "Yes. The targets live in the farms, mines, and town centers Forsaken forces assault during the wider Battle of Hillsbrad offensive."
   },
   {
    "q": "Who turns in the bounty once they are slain?",
@@ -83,21 +83,21 @@
     "dangerous turn in",
     "darthalia turn in"
    ],
-   "answer": "Proof of their elimination is delivered directly to High Executor Darthalia in Tarren Mill."
+   "answer": "Bring proof of their deaths directly to High Executor Darthalia in Tarren Mill."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "Avenging fallen Deathguards, Apothecaries, and Deathstalkers is a point of grim pride for any loyal servant of the Dark Lady."
+   "text": "As an Undead, avenging fallen Deathguards, Apothecaries, and Deathstalkers is a grim point of pride for a loyal servant of the Dark Lady."
   },
   {
    "target": "faction:Horde",
-   "text": "Securing Hillsbrad Foothills requires breaking the human militia's fiercest figures, ensuring the safety of Horde movements through the region."
+   "text": "As Horde, you help secure Hillsbrad Foothills by breaking the human militia's fiercest figures and making Horde movements through the region safer."
   },
   {
    "target": "class:Rogue",
-   "text": "Tracking down concealed leaders in hostile territory mirrors the covert trade of Deathstalker Fry, whose death this contract avenges."
+   "text": "As a Rogue, tracking concealed leaders in hostile territory echoes the covert work of Deathstalker Fry, whose death this contract avenges."
   }
  ],
  "keywords": [
@@ -123,5 +123,6 @@
  ],
  "attribution": [
   "Dangerous! (quest)"
- ]
+ ],
+ "style": 1
 }

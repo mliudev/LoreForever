@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Magic Quarter"
  },
- "summary": "The Magic Quarter is the northeastern district of the Undercity, serving as the center for Forsaken arcane study and dark spellcraft. Dominated by an ominous Temple of the Damned, the quarter houses practitioners of both the arcane and fel arts.",
+ "summary": "In the Undercity's northeast, Forsaken spellcasters study arcane and fel arts. The Temple of the Damned anchors their work.",
  "sections": [
   {
    "title": "A Conclave of Dark Arts",
-   "body": "Occupying the northeastern quadrant of the subterranean city, the Magic Quarter is where the Forsaken preserve their arcane heritage and delve into darker methodologies. The centerpiece of the district is a looming Temple of the Damned, an architectural relic of Scourge design that has been repurposed by the free-willed undead. Beneath its vaulted, shadowy ceilings, mages practice subtle manipulations of magical energies alongside warlocks communing with demonic entities, making the quarter the nexus of intellectual power and occult research in Lordaeron.",
+   "body": "In the Undercity's northeastern quadrant, Forsaken mages preserve arcane learning and explore darker arts. The Temple of the Damned dominates the district, a Scourge-built structure now used by the free-willed undead. Beneath its vaulted ceilings, mages shape magical energies while warlocks commune with demons. Their work makes the quarter a center of study and occult research in Lordaeron.",
    "spoiler": 0
   },
   {
    "title": "Scholars, Weavers, and Summoners",
-   "body": "Beyond the study of raw evocation and summoning, the Magic Quarter functions as an essential civic hub for spellcasters. Portal trainers maintain transport links across Horde territories, while master tailors work with magically infused fabrics to craft robes and shrouds. Unlike Dalaran's strict segregation between academic wizardry and forbidden magic, the Forsaken blend arcane curiosity and fel power openly within these halls to secure their place against their many enemies.",
+   "body": "Spellcasters also come here for training and craft. Portal trainers maintain routes across Horde territories, and master tailors shape magically infused fabrics into robes and shrouds. In Dalaran, academic wizardry and forbidden magic are kept apart; Forsaken practitioners study arcane and fel power openly in the same halls, seeking strength against their many enemies.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "magic quarter purpose",
     "undercity magic district"
    ],
-   "answer": "The Magic Quarter serves as the center of arcane and demonic studies for the Forsaken. It houses class trainers for mages and warlocks, portal masters connecting to other cities, and tailoring professionals who weave enchanted cloth."
+   "answer": "The Magic Quarter is the Forsaken center for arcane and demonic studies. Mages and warlocks train there, portal masters connect it to other cities, and tailors weave enchanted cloth."
   },
   {
    "q": "Why is there a Temple of the Damned in the Undercity?",
@@ -37,7 +37,7 @@
     "why temple of the damned here",
     "scourge building undercity"
    ],
-   "answer": "When the Undercity was carved out beneath the ruins of Capital City by the Scourge, they erected structures like the Temple of the Damned. When Sylvanas and her free-willed Forsaken seized the subterranean complex, they claimed these existing facilities and repurposed them for their own spellcasters."
+   "answer": "The Scourge raised the Temple of the Damned when they carved the Undercity beneath the ruins of Capital City. Sylvanas and her free-willed Forsaken seized the subterranean complex and repurposed its existing buildings for their spellcasters."
   },
   {
    "q": "Who can be trained in the Magic Quarter?",
@@ -46,7 +46,7 @@
     "who trains here",
     "magic quarter classes"
    ],
-   "answer": "Mages, warlocks, and demon trainers instruct practitioners within the quarter, while portal specialists and tailoring artisans offer training in transport and craft."
+   "answer": "Mages, warlocks, and demon trainers teach in the Magic Quarter. Portal specialists and tailors also train practitioners in transport and craft."
   },
   {
    "q": "Where is the Magic Quarter located?",
@@ -55,17 +55,17 @@
     "magic quarter location",
     "find magic quarter"
    ],
-   "answer": "It is situated in the northeastern quadrant of the Undercity, directly across the central ring from the Apothecarium."
+   "answer": "The Magic Quarter occupies the Undercity's northeastern quadrant, across the central ring from the Apothecarium."
   }
  ],
  "angles": [
   {
    "target": "class:Mage",
-   "text": "The Magic Quarter is the heart of Forsaken wizardry, offering training in arcane arts and teleportation networks that link the Undercity with the wider Horde."
+   "text": "As a mage, you can study arcane arts in the Magic Quarter and learn teleportation routes linking the Undercity with the wider Horde."
   },
   {
    "target": "class:Warlock",
-   "text": "Within the dark alcoves of the Temple of the Damned, warlocks summon demonic minions and hone shadow magic far from the judgmental eyes of the Alliance."
+   "text": "As a warlock, you can summon demonic minions and hone shadow magic in the Temple of the Damned, away from the Alliance's judgment."
   }
  ],
  "keywords": [
@@ -84,5 +84,6 @@
  ],
  "attribution": [
   "Magic Quarter"
- ]
+ ],
+ "style": 1
 }

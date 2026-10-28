@@ -12,16 +12,16 @@
    "quest:1197"
   ]
  },
- "summary": "A Filled Etched Phial is an ornate dryad vessel laden with consecrated water drawn directly from a night elf moonwell in Ashenvale. Requested by the tauren of Thunder Bluff, this sanctified water possesses the rare spiritual potency required to quench the eternal flame shielding a sacred centaur relic.",
+ "summary": "In Thunder Bluff, the tauren seek a dryad phial filled with moonwell water. Its rare spiritual power can quench the eternal flame shielding a sacred centaur relic.",
  "sections": [
   {
    "title": "Moonwell Waters and Dryad Craft",
-   "body": "Obtaining this phial demands infiltrating night elf territory deep within Ashenvale. The empty vessel must first be claimed from the dryads around Raynewood Retreat, whose delicate containers are crafted to hold pure restorative draughts. Filled subsequently at a sacred moonwell near the western bank of the Falfarren River, the phial captures water brimming with celestial, nature-bound power. To the night elves, taking this water uninvited is an act of blatant desecration, but the tauren see it as a vital necessity for addressing a regional threat further south.",
+   "body": "To fill the phial, you must enter night elf territory deep in Ashenvale. Dryads around Raynewood Retreat carry the empty vessels, crafted to hold pure restorative draughts. A sacred moonwell near the western bank of the Falfarren River fills the phial with water rich in celestial and nature-bound power. Night elves regard taking it without leave as desecration. The tauren see the water as vital to meeting a threat farther south.",
    "spoiler": 0
   },
   {
    "title": "A Key to Centaur Sorcery",
-   "body": "Zangen Stonehoof and Rau Cliffrunner sought this specific water due to the hidden mythic ties binding dryads and centaur. Both lineages trace their ancestry back to Cenarius, endowing their magical traditions with a deep, intertwined resonance. In Thousand Needles, the Galak clan guards an ancient relic protected by an unyielding eternal fire dating back to the creation of the centaur race. Because of their shared primal roots, the blessed moonwell water carried within this dryad phial is uniquely capable of piercing and extinguishing that protective flame.",
+   "body": "Zangen Stonehoof and Rau Cliffrunner sought this water for the deep ties between dryads and centaur. Both trace their ancestry to Cenarius, and their magic shares a primal resonance. In Thousand Needles, the Galak clan guards an ancient relic behind an unyielding protective flame said to date from the creation of the centaur race. The moonwell water in the dryad phial can pierce and extinguish that ward.",
    "spoiler": 1
   }
  ],
@@ -32,7 +32,7 @@
     "what water is in the phial",
     "what is etched phial filled with"
    ],
-   "answer": "It contains sacred water gathered directly from a night elf moonwell in Ashenvale, near the Falfarren River. The water is held within an ornate glass phial taken from dryads near Raynewood Retreat."
+   "answer": "The Filled Etched Phial holds sacred water drawn from a night elf moonwell in Ashenvale, near the Falfarren River. The ornate glass vessel comes from dryads near Raynewood Retreat."
   },
   {
    "q": "Why do the tauren need moonwell water?",
@@ -40,7 +40,7 @@
     "why moonwell water",
     "why does rau need moonwell water"
    ],
-   "answer": "Rau Cliffrunner needs the sanctified water to breach an eternal protective flame maintained by the Galak centaur in Thousand Needles. Because dryads and centaur share common ancestry through Cenarius, the moonwell water is attuned to dispel the ancient ward guarding their relic."
+   "answer": "Rau Cliffrunner needs the sanctified water to pierce and extinguish the protective flame guarding the Galak centaur relic in Thousand Needles. Dryads and centaur share ancestry through Cenarius, giving the moonwell water power against the ancient ward."
   },
   {
    "q": "Where does the empty phial come from?",
@@ -48,7 +48,7 @@
     "where do i find etched phial",
     "how to get empty phial"
    ],
-   "answer": "The vessel is carried by Laughing Sisters, the dryads who wander the woods surrounding Raynewood Retreat in central Ashenvale."
+   "answer": "Laughing Sisters, dryads who wander the woods around Raynewood Retreat in central Ashenvale, carry the empty phials."
   },
   {
    "q": "Who do you deliver the Filled Etched Phial to?",
@@ -56,17 +56,17 @@
     "who gets the phial",
     "phial turn in"
    ],
-   "answer": "After collecting the water, it is initially brought to Zangen Stonehoof on the High Rise in Thunder Bluff, who then directs you to deliver it to Rau Cliffrunner at Freewind Post in Thousand Needles."
+   "answer": "After you collect the water, take it first to Zangen Stonehoof on the High Rise in Thunder Bluff. He directs you to bring it to Rau Cliffrunner at Freewind Post in Thousand Needles."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "For the tauren, securing this water is a calculated strike against the Galak centaur, turning the shared nature magic of Cenarius's children against their longtime tribal enemies."
+   "text": "For tauren, securing this water strikes at the Galak centaur, turning Cenarius's shared nature magic against their longtime tribal enemies."
   },
   {
    "target": "race:NightElf",
-   "text": "Night elves view the theft of a dryad's phial and the skimming of moonwell waters by Horde agents as an unforgivable intrusion upon Ashenvale's holiest sanctuaries."
+   "text": "As a night elf, you know the theft of a dryad's phial and the skimming of moonwell water by Horde agents violate Ashenvale's holiest sanctuaries."
   }
  ],
  "keywords": [
@@ -94,5 +94,6 @@
   "Filled Etched Phial",
   "The Sacred Flame (quest)",
   "The Sacred Flame (2)"
- ]
+ ],
+ "style": 1
 }

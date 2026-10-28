@@ -10,11 +10,11 @@
    "quest:1131"
   ]
  },
- "summary": "Steelsnap's Rib is a grim trophy taken from the carcass of the ferocious hyena Steelsnap in Thousand Needles. Brought back to Thunder Bluff, it serves as physical proof that a creature deemed outside the Earthmother's blessing has been put down.",
+ "summary": "In Thousand Needles, Steelsnap's Rib marks the end of a feared hyena's reign. Melor Stonehoof in Thunder Bluff wants the bone brought to Hunter Rise as proof that Steelsnap has been slain.",
  "sections": [
   {
    "title": "A Hunt Outside the Blessing",
-   "body": "Most tauren hunts are undertaken for sustenance, for honor, or to seek harmony with nature. Steelsnap, however, represents a different kind of quarry. Roaming the canyon floor of Thousand Needles south of Camp E'thok, this vicious alpha hyena terrorizes peaceful wildlife and rallies packs of lesser predators to senseless bloodshed. When the hunt master Melor Stonehoof on Hunter Rise marks Steelsnap for death, he demands a heavy bone\u2014Steelsnap's rib\u2014as undeniable confirmation that the tyrant has been slain and the canyon cleansed of its blight.",
+   "body": "Tauren hunts often seek food, honor, or harmony with nature. Steelsnap is different. The alpha hyena roams the canyon floor south of Camp E'thok in Thousand Needles, terrorizing peaceful wildlife and rallying lesser predators to bloodshed. Hunt master Melor Stonehoof, on Hunter Rise, marks Steelsnap for death. He asks for the hyena's rib as proof the tyrant is slain and the canyon cleansed of its blight.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "who wants steelsnaps rib",
     "what do i do with steelsnaps rib"
    ],
-   "answer": "The rib is brought to Melor Stonehoof atop Hunter Rise in Thunder Bluff to complete the hunt for Steelsnap. It serves as tangible proof that the vicious hyena has been defeated."
+   "answer": "Bring the rib to Melor Stonehoof on Hunter Rise in Thunder Bluff. It proves Steelsnap has been defeated."
   },
   {
    "q": "Where can I find Steelsnap to get the rib?",
@@ -35,7 +35,7 @@
     "where is steelsnap",
     "find steelsnap"
    ],
-   "answer": "Steelsnap roams the northwestern reaches of Thousand Needles, wandering the canyon floor south of Camp E'thok, typically flanked by loyal packmates."
+   "answer": "Steelsnap roams the canyon floor in northwestern Thousand Needles, south of Camp E'thok. Loyal packmates often flank him."
   },
   {
    "q": "Why does Melor Stonehoof want Steelsnap killed?",
@@ -44,7 +44,7 @@
     "melor stonehoof motive",
     "steelsnap lore"
    ],
-   "answer": "Melor considers Steelsnap an unnatural tyrant existing outside the Earthmother's blessing. Unlike normal predators that hunt for survival, Steelsnap spreads gratuitous bloodshed and fear among peaceful beasts, necessitating his destruction."
+   "answer": "Melor considers Steelsnap an unnatural tyrant outside the Earthmother's blessing. The hyena spreads bloodshed and fear among peaceful beasts, unlike predators that hunt for survival."
   },
   {
    "q": "Who is Melor Stonehoof?",
@@ -53,17 +53,17 @@
     "melor stonehoof location",
     "hunter rise melor"
    ],
-   "answer": "Melor Stonehoof is a veteran tauren hunter stationed on Hunter Rise in Thunder Bluff who tasks aspiring trackers with tracking down dangerous beasts across Kalimdor."
+   "answer": "Melor Stonehoof is a veteran tauren hunter on Hunter Rise in Thunder Bluff. He sends aspiring trackers after dangerous beasts across Kalimdor."
   }
  ],
  "angles": [
   {
    "target": "class:Hunter",
-   "text": "Taking the rib of an apex pack leader tests a hunter's ability to track dangerous quarry and cull threats that disrupt the balance of the wild."
+   "text": "As a hunter, tracking down Steelsnap tests your skill against a dangerous pack leader and helps cull a threat to the wild's balance."
   },
   {
    "target": "race:Tauren",
-   "text": "For the tauren, bringing back this trophy fulfills a duty to the Earthmother by purging a creature whose unchecked cruelty taints the sacred balance."
+   "text": "As a tauren, bringing back Steelsnap's Rib fulfills your duty to the Earthmother by purging a cruel creature that taints the sacred balance."
   }
  ],
  "keywords": [
@@ -89,5 +89,6 @@
  "attribution": [
   "Steelsnap's Rib",
   "Steelsnap (quest)"
- ]
+ ],
+ "style": 1
 }

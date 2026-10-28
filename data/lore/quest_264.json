@@ -17,16 +17,16 @@
   "wiki": "Until Death Do Us Part",
   "chain": []
  },
- "summary": "Until Death Do Us Part is a bitter, personal quest that leads to the Sepulcher in Silverpine Forest. Clarice Foster, a Forsaken dwelling in the Pools of Vision beneath Thunder Bluff, sends adventurers to discard her keepsake pendant upon the tomb of her late husband, Yuriv. The task reveals the painful human fractures caused by zealotry and war as the plague claimed Lordaeron.",
+ "summary": "In Silverpine Forest, Until Death Do Us Part brings Clarice Foster’s old grief to Yuriv’s grave. From the Pools of Vision beneath Thunder Bluff, the Forsaken asks you to leave her keepsake pendant on the tomb of the husband who abandoned her and their children.",
  "sections": [
   {
    "title": "A Bitter Keepsake",
-   "body": "Clarice Foster carries no fondness for the memories of her mortal marriage. While Lordaeron crumbled, her husband Yuriv abandoned her and their children to march off on a crusade against the rising undead threat, declaring that serving the Holy Light was paramount. In the end, his devotion saved neither his family nor himself. Now raised into undeath while Yuriv rots beneath a defaced stone, Clarice seeks only to cast away the last tangible reminder of his broken promises.",
+   "body": "Clarice Foster remembers her mortal marriage without fondness. As Lordaeron crumbled, Yuriv left her and their children to join a crusade against the rising undead, declaring service to the Holy Light paramount. His devotion saved neither his family nor himself. Clarice was raised into undeath, while Yuriv lies beneath a defaced stone. She wants the last tangible reminder of his broken promises cast away.",
    "spoiler": 0
   },
   {
    "title": "The Neglected Grave",
-   "body": "Yuriv's tomb rests in the graveyard surrounding the Sepulcher, marred by gashes, strewn with rubbish, and overtaken by weeds. Placing Clarice's pendant onto the sculpted relief of his hands brings no grand magic or spiritual closure, only a dulling of the gem and a cold, silent gust of wind over the tombs. It serves as a stark testament to the lingering resentments of Lordaeron's fallen people.",
+   "body": "Yuriv’s tomb lies in the graveyard around the Sepulcher, marked by gashes, rubbish, and weeds. Set Clarice’s pendant on the relief of his sculpted hands, and no grand magic or spiritual closure follows. The gem grows dull, and a cold, silent gust passes over the tombs, leaving the old resentments of Lordaeron’s fallen people.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "yuriv lore",
     "clarice husband"
    ],
-   "answer": "Yuriv was Clarice Foster's mortal husband. He left her and their children behind during life to fight against the Scourge in the name of the Holy Light, prioritizing his crusade over his family."
+   "answer": "Yuriv was Clarice Foster’s mortal husband. He left her and their children to fight the Scourge in the name of the Holy Light, putting his crusade before his family."
   },
   {
    "q": "Why does Clarice hate her late husband so much?",
@@ -46,7 +46,7 @@
     "why is clarice mad",
     "clarice foster backstory"
    ],
-   "answer": "Clarice spent night after night waiting for Yuriv while he placed his religious duties first. In the end, his crusade failed to protect them, leaving him dead in a neglected grave while she was cursed to rise as the very undead monster he fought against."
+   "answer": "Clarice waited night after night while Yuriv put his religious duties first. His crusade failed to protect them; he died in a neglected grave, and she was raised as the undead kind he fought."
   },
   {
    "q": "What happens when you return the pendant?",
@@ -54,7 +54,7 @@
     "pendant on grave",
     "ending of until death do us part"
    ],
-   "answer": "When placed upon the stone hands of Yuriv's carved relief, the pendant's gemstone noticeably dulls. A stiff, cool breeze sweeps over the Sepulcher, leaving the defaced tomb in cold, quiet abandonment."
+   "answer": "On the stone hands carved into Yuriv’s tomb, the pendant’s gem grows noticeably dull. A stiff, cool breeze sweeps over the Sepulcher, where the defaced grave lies in silence."
   },
   {
    "q": "Where is Yuriv's tomb located?",
@@ -62,7 +62,7 @@
     "where is yuriv tomb",
     "yuriv grave location"
    ],
-   "answer": "Yuriv's tombstone is found within the cemetery grounds of the Sepulcher, the Forsaken stronghold in northern Silverpine Forest."
+   "answer": "Yuriv’s tomb is in the cemetery at the Sepulcher, a Forsaken stronghold in northern Silverpine Forest."
   },
   {
    "q": "Why is Yuriv's grave so damaged?",
@@ -70,7 +70,7 @@
     "why is grave defaced",
     "tomb abused"
    ],
-   "answer": "The grave has been gashed, littered with garbage, and overgrown with weeds. The Forsaken living at the Sepulcher hold no sympathy or reverence for a crusader who died opposing their kind."
+   "answer": "The grave is gashed, littered with garbage, and overgrown with weeds. The Forsaken at the Sepulcher feel no sympathy or reverence for a crusader who died fighting their kind."
   },
   {
    "q": "Did Clarice's children survive?",
@@ -78,21 +78,21 @@
     "what happened to the kids",
     "clarice children"
    ],
-   "answer": "Clarice mentions that Yuriv abandoned his children along with her, but their ultimate fate remains unstated. Given the total devastation of Lordaeron, it is likely they met a tragic end."
+   "answer": "Clarice says Yuriv abandoned his children along with her, but gives no word of their fate. With Lordaeron devastated, they may have met a tragic end."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "For the Forsaken, Clarice's plight embodies the hypocrisy of the living: holy warriors left their families to perish in holy fervor, leaving their transformed survivors to bear the burden of memory."
+   "text": "As Forsaken, you can see Clarice’s plight as the hypocrisy of the living: holy warriors left their families to perish in holy fervor, while their transformed survivors bear the burden of memory."
   },
   {
    "target": "class:Priest",
-   "text": "The quest paints a grim picture of faith, highlighting how devotion to the Light can tear families apart and breed lasting bitterness in those left behind."
+   "text": "As a priest, you can see how devotion to the Light can tear families apart and leave lasting bitterness in those left behind."
   },
   {
    "target": "faction:Horde",
-   "text": "Aiding Clarice provides Horde champions insight into the personal tragedies and enduring spite that bind the Forsaken together in Silverpine Forest."
+   "text": "As Horde, you gain a glimpse of the personal tragedies and enduring spite that bind the Forsaken in Silverpine Forest."
   }
  ],
  "keywords": [
@@ -113,5 +113,6 @@
  ],
  "attribution": [
   "Until Death Do Us Part"
- ]
+ ],
+ "style": 1
 }

@@ -20,16 +20,16 @@
    "Coldridge Valley Mail Delivery (2)"
   ]
  },
- "summary": "This errand completes a courier run across the snowy drifts of Coldridge Valley. Passing the dispatch from mountaineer Talin Keeneye down the southeastern road ensures that Grelin Whitebeard stays connected to the dwarven capital.",
+ "summary": "Talin Keeneye's dispatch is bound for Grelin Whitebeard's camp in Coldridge Valley. Carrying it down the southeastern road keeps the mountaineers in touch with Ironforge.",
  "sections": [
   {
    "title": "A Link to the Mountain",
-   "body": "Even in an isolated basin like Coldridge Valley, news and formal correspondence must travel. While Anvilmar serves as the administrative heart of the valley, field scouts and sentries stationed along the trails rely on foot couriers to relay dispatches between the high passes and Ironforge.",
+   "body": "Couriers carry news through Coldridge Valley, where field scouts and sentries need word from the high passes and Ironforge. Anvilmar is the valley's administrative heart, but those posted along the trails rely on foot messengers to carry their dispatches.",
    "spoiler": 0
   },
   {
    "title": "Word for Whitebeard",
-   "body": "Grelin Whitebeard maintains a small camp down the road to the southeast of Talin Keeneye's post. Enduring freezing drifts and constant trogg harassment, veteran mountaineers stationed at these remote watchpoints depend on regular missives to stay informed of broader affairs across Dun Morogh and the kingdom beyond.",
+   "body": "Grelin Whitebeard keeps a small camp southeast of Talin Keeneye's post. Veteran mountaineers at these remote watchpoints face freezing drifts and trogg harassment, and depend on regular letters to follow affairs across Dun Morogh and the kingdom beyond.",
    "spoiler": 0
   }
  ],
@@ -41,7 +41,7 @@
     "grelin whitebeard info",
     "who is grelin"
    ],
-   "answer": "Grelin Whitebeard is a dwarven veteran stationed at an outpost along the southeastern road of Coldridge Valley. He monitors the valley roads and keeps watch against local threats like encroaching troggs and beasts."
+   "answer": "Grelin Whitebeard is a dwarven veteran at an outpost along Coldridge Valley's southeastern road. He watches the roads and guards against troggs and beasts."
   },
   {
    "q": "Where did this letter originate?",
@@ -50,7 +50,7 @@
     "ironforge letter",
     "letter sender"
    ],
-   "answer": "The letter was dispatched from the dwarven capital of Ironforge. It was brought into Coldridge Valley and carried down the mountain passes by local runners and sentries before reaching its final recipient."
+   "answer": "The letter was sent from Ironforge, the dwarven capital. Local runners and sentries carried it through Coldridge Valley and down the mountain passes to its recipient."
   },
   {
    "q": "Why is mail delivered by foot here?",
@@ -59,7 +59,7 @@
     "why run mail",
     "no mailboxes in coldridge"
    ],
-   "answer": "Coldridge Valley is surrounded by sheer, frostbitten peaks and cut off from the main roads of Dun Morogh. Without gryphon routes directly reaching isolated field camps, trusted travelers and mountaineers carry dispatches between outposts by hand."
+   "answer": "Foot couriers carry mail through Coldridge Valley because the surrounding peaks cut it off from Dun Morogh's main roads. Trusted travelers and mountaineers bring dispatches to the field camps by hand."
   },
   {
    "q": "Where is Grelin Whitebeard's camp located?",
@@ -68,7 +68,7 @@
     "grelin whitebeard location",
     "find grelin"
    ],
-   "answer": "His camp is situated further down the southeastern road leading through Coldridge Valley, past the hunting and scouting grounds of the upper pass."
+   "answer": "Grelin Whitebeard's camp lies farther down the southeastern road through Coldridge Valley, past the hunting and scouting grounds of the upper pass."
   },
   {
    "q": "Who handed off the letter to deliver to Grelin?",
@@ -77,7 +77,7 @@
     "talin keeneye role",
     "who starts quest"
    ],
-   "answer": "Talin Keeneye, an experienced hunter and scout stationed along the pass, handed the letter over after it had been brought out from the primary staging grounds near Anvilmar."
+   "answer": "Talin Keeneye, a hunter and scout stationed along the pass, handed over the letter after it came from the staging grounds near Anvilmar."
   },
   {
    "q": "What happens after Grelin receives his mail?",
@@ -86,17 +86,17 @@
     "grelin next quest",
     "after mail delivery"
    ],
-   "answer": "Once Grelin receives the news from Ironforge, he turns his focus to the pressing dangers menacing the valley, often directing recruits to assist with the local Frostmane troll and trogg incursions."
+   "answer": "After Grelin receives Ironforge's news, he turns to the dangers in the valley and often directs recruits against Frostmane trolls and troggs."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "Every outpost in Dun Morogh counts on dispatches from King Magni's seat in Ironforge to keep the defenses of the realm coordinated."
+   "text": "As a dwarf, you rely on dispatches from King Magni's seat in Ironforge to coordinate Dun Morogh's defenses."
   },
   {
    "target": "faction:Alliance",
-   "text": "Reliable courier routes through treacherous snowy passes keep remote Alliance scouts supplied with orders and vital intelligence."
+   "text": "As an Alliance member, you rely on courier routes through snowy passes to carry orders and vital intelligence to remote scouts."
   }
  ],
  "keywords": [
@@ -117,5 +117,6 @@
  ],
  "attribution": [
   "Coldridge Valley Mail Delivery (2)"
- ]
+ ],
+ "style": 1
 }

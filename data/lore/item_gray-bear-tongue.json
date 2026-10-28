@@ -10,11 +10,11 @@
    "quest:496"
   ]
  },
- "summary": "A gray bear tongue is a raw reagent harvested from the wild bears roaming the Hillsbrad Foothills. It is sought after by the Royal Apothecary Society in Tarren Mill to serve as a biological component in their experimental toxins.",
+ "summary": "In Hillsbrad Foothills, gray bear tongues are raw reagents sought by the Royal Apothecary Society in Tarren Mill for experimental toxins.",
  "sections": [
   {
    "title": "Apothecary Research in Hillsbrad",
-   "body": "The untamed wilderness surrounding Tarren Mill is rich in native fauna, including several varieties of sturdy gray bears. While natural predators pose a constant threat to travelers, the Forsaken see them as a harvestable source of raw alchemy components. Apothecary Lydon studies local wildlife to isolate potent organic agents, using the heavy muscular tissue and fluids of gray bear tongues as a base ingredient for concocting lethal solutions such as the Elixir of Suffering.",
+   "body": "Gray bears roam the wilds around Tarren Mill in several sturdy varieties. Their tongues hold heavy muscular tissue and fluids that Apothecary Lydon uses as a base ingredient for lethal solutions, including the Elixir of Suffering.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "apothecary lydon tongues",
     "bear tongue turn in"
    ],
-   "answer": "Apothecary Lydon, stationed at the Forsaken outpost of Tarren Mill in the Hillsbrad Foothills, seeks these tongues to brew experimental killing agents."
+   "answer": "Apothecary Lydon, stationed at the Forsaken outpost of Tarren Mill in the Hillsbrad Foothills, seeks gray bear tongues to brew experimental killing agents."
   },
   {
    "q": "What is the Apothecary using these tongues for?",
@@ -35,7 +35,7 @@
     "bear tongue purpose",
     "elixir of suffering ingredients"
    ],
-   "answer": "Lydon is developing a lethal concoction known as the Elixir of Suffering, designed to help plague the living human populations of Hillsbrad. The tongues serve as one of the primary organic agents alongside creeper ichor."
+   "answer": "Lydon uses gray bear tongues as one of the primary organic agents in the Elixir of Suffering, a lethal concoction designed to help plague Hillsbrad’s living human populations. Creeper ichor is another ingredient."
   },
   {
    "q": "Which creatures drop these tongues?",
@@ -44,13 +44,13 @@
     "which bears have tongues",
     "hillsbrad bears"
    ],
-   "answer": "They can be harvested from any of the local gray bears roaming the Hillsbrad Foothills, including standard gray bears, elder gray bears, vicious gray bears, and the notorious beast Big Samras."
+   "answer": "Gray bear tongues come from local gray bears roaming the Hillsbrad Foothills, including standard gray bears, elder gray bears, vicious gray bears, and Big Samras, a notorious beast."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "Procuring organic components from local wildlife directly aids the Royal Apothecary Society's mission to craft new plagues against the living."
+   "text": "As an undead, you help the Royal Apothecary Society craft new plagues against the living by procuring organic components from local wildlife."
   }
  ],
  "keywords": [
@@ -71,5 +71,6 @@
  "attribution": [
   "Gray Bear Tongue",
   "Elixir of Suffering (quest)"
- ]
+ ],
+ "style": 1
 }

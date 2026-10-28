@@ -8,11 +8,11 @@
   "wiki": "Warsong Outrider",
   "refs": 1
  },
- "summary": "Stationed along the contested road leading east from Ashenvale into Azshara, the Warsong Outrider keeps watch over the Horde's frontier. She serves as an advanced scout for the Warsong clan, monitoring travelers and relaying crucial intelligence back to their forward encampments. Although armed and vigilant against night elf incursions, she maintains a passive watch unless directly provoked.",
+ "summary": "On the road east from Ashenvale, the Warsong Outrider watches the Horde's frontier. She scouts for the Warsong clan, watches travelers, and sends intelligence to its forward encampments. She keeps watch unless someone provokes her.",
  "sections": [
   {
    "title": "Eyes on the Eastern Frontier",
-   "body": "The borderlands between Ashenvale and the shattered ruins of Azshara are fraught with danger. Operating far from the fortified safety of Splintertree Post or the lumber camps, the Warsong Outrider observes troop movements and patrols the transit corridor. Armed with a bow and toxic stingers, she stands ready to defend the Horde's claim over the region, though she conserves her strength by only firing upon Alliance trespassers who actively attack her.",
+   "body": "The Warsong Outrider watches the road between Ashenvale and Azshara's shattered ruins. Far from Splintertree Post and the lumber camps, she tracks troop movements along the route. Her bow and toxic stingers are ready, but she fires only at Alliance trespassers who attack her.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "where is warsong outrider",
     "warsong outrider map"
    ],
-   "answer": "She is posted along the main roadway in eastern Ashenvale that leads directly into the neighboring territory of Azshara."
+   "answer": "She watches the main road in eastern Ashenvale, which leads into Azshara."
   },
   {
    "q": "Will the Warsong Outrider attack Alliance players on sight?",
@@ -33,7 +33,7 @@
     "does warsong outrider attack alliance",
     "warsong outrider aggro"
    ],
-   "answer": "No. Despite being flagged for Horde PvP combat, she remains neutral in disposition toward passing Alliance players and will only fight back in self-defense if struck first."
+   "answer": "No. She does not attack passing Alliance travelers unless they strike her first."
   },
   {
    "q": "What is her role in the Warsong clan's operations?",
@@ -42,7 +42,7 @@
     "warsong outrider purpose",
     "why is she here"
    ],
-   "answer": "She acts as a frontier scout watching the border between Ashenvale and Azshara, observing threats and providing field reports through scouts delivering updates to the clan's leadership."
+   "answer": "She scouts the Ashenvale and Azshara border, watches for threats, and sends field reports through scouts to the Warsong clan's leaders."
   },
   {
    "q": "Does defeating the Warsong Outrider yield any treasure?",
@@ -51,17 +51,17 @@
     "does she drop loot",
     "outrider drops"
    ],
-   "answer": "No, defeating her yields no loot or specialized equipment, serving only to clear the road or disrupt Horde reconnaissance in the area."
+   "answer": "No. Defeating her yields no loot or specialized equipment. It only clears the road or disrupts Horde reconnaissance."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "Outriders like her maintain the fragile supply and scouting routes connecting Ashenvale's contested logging operations with the wild coasts of Azshara."
+   "text": "Outriders like her keep supply and scouting routes open between Ashenvale's contested logging operations and Azshara's wild coasts."
   },
   {
    "target": "faction:Alliance",
-   "text": "While an enemy combatant, this scout holds her fire against Alliance travelers unless provoked, allowing wary adventurers to pass by unmolested."
+   "text": "Though she serves the Horde, this scout holds her fire against Alliance travelers unless provoked, letting wary travelers pass unharmed."
   }
  ],
  "keywords": [
@@ -81,5 +81,6 @@
  ],
  "attribution": [
   "Warsong Outrider"
- ]
+ ],
+ "style": 1
 }

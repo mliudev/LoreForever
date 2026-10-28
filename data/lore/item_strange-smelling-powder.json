@@ -11,16 +11,16 @@
    "quest:199"
   ]
  },
- "summary": "Strange Smelling Powder is an enigmatic residue uncovered during investigations into suspicious sabotage around Loch Modan. Feared to be an unstable demolition agent, it prompts Chief Engineer Hinderweir to send an urgent courier north to seek out a demolition expert.",
+ "summary": "In Loch Modan, Strange Smelling Powder has raised alarm during an inquiry into sabotage. Chief Engineer Hinderweir suspects an explosive and seeks an expert's judgment.",
  "sections": [
   {
    "title": "A Volatile Discovery",
-   "body": "Discovered amid signs of sabotage threatening Loch Modan's infrastructure, this peculiar powder immediately raised alarm for Chief Engineer Hinderweir. Its pungent odor and fine consistency suggest an engineered demolition compound rather than standard mining blast powder. Unsure of the mixture's chemical nature or origin, Hinderweir refuses to tamper with it himself, knowing that even a slight spark could trigger disaster.",
+   "body": "Strange Smelling Powder was found amid signs of sabotage against Loch Modan's infrastructure. Chief Engineer Hinderweir fears it may be an engineered explosive, unlike the usual powder used in mining. He cannot identify its mixture or origin, and will not tamper with it himself. Even a small spark could bring disaster.",
    "spoiler": 0
   },
   {
    "title": "The Road North",
-   "body": "Because dwarven engineers take no chances with volatile reagents, Hinderweir sends samples of the powder through the Algaz Gate into the Wetlands. There, stationed at Dun Modr near the Thandol Span, the seasoned explosives expert Ashlan Stonesmirk is tasked with inspecting the grains to determine what kind of catastrophic blast the saboteurs are preparing.",
+   "body": "Chief Engineer Hinderweir sends samples through the Algaz Gate into the Wetlands for inspection. Ashlan Stonesmirk, a seasoned explosives expert stationed with the regiment at Dun Modr near the Thandol Span, is to examine the grains and determine what kind of blast the saboteurs are preparing.",
    "spoiler": 1
   }
  ],
@@ -32,7 +32,7 @@
     "what is this powder",
     "powder loch modan"
    ],
-   "answer": "It is a suspicious chemical residue recovered in Loch Modan during investigations into local sabotage. Its pungent stench and composition lead dwarven engineers to suspect it is an explosive agent."
+   "answer": "Strange Smelling Powder is suspicious chemical residue found in Loch Modan during an inquiry into local sabotage. Its strong odor and composition lead dwarven engineers to suspect it is explosive."
   },
   {
    "q": "Why does Chief Engineer Hinderweir want it examined?",
@@ -41,7 +41,7 @@
     "hinderweir powder",
     "who needs this powder"
    ],
-   "answer": "Hinderweir suspects the powder is a specialized explosive. To understand the scale and threat of the plot threatening Loch Modan, he requires a professional analysis from someone deeply versed in heavy demolitions."
+   "answer": "Chief Engineer Hinderweir suspects the powder is a specialized explosive. He needs an expert in heavy demolitions to understand the threat to Loch Modan."
   },
   {
    "q": "Who can identify the powder?",
@@ -50,7 +50,7 @@
     "where do i take the powder",
     "powder expert"
    ],
-   "answer": "Chief Engineer Hinderweir directs travelers to carry the sample to Ashlan Stonesmirk, an explosives expert stationed far north with the regiment at Dun Modr, near the Thandol Span."
+   "answer": "Chief Engineer Hinderweir directs travelers to take the sample to Ashlan Stonesmirk, an explosives expert stationed with the regiment at Dun Modr near the Thandol Span."
   },
   {
    "q": "Why is transporting the powder dangerous?",
@@ -58,17 +58,17 @@
     "is the powder dangerous",
     "why dangerous"
    ],
-   "answer": "Beyond the inherent volatility of an unknown blasting agent, carrying the sample requires braving the perilous journey through the Algaz Gate into the marshy, hostile roads of the Wetlands."
+   "answer": "The powder may be volatile, and carrying it means traveling through the Algaz Gate into the marshy, hostile roads of the Wetlands."
   }
  ],
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "Engineers will recognize the scent of sulfurous, unstable blasting concoctions that don't match the standard formulas used in Alliance mining outposts."
+   "text": "As an engineer, you may recognize the sulfurous scent of unstable blasting mixtures unlike the standard formulas used in Alliance mining outposts."
   },
   {
    "target": "race:Dwarf",
-   "text": "For dwarves, protecting the stonework and reservoirs of Loch Modan is paramount, making any hint of enemy explosives an immediate crisis for the clan."
+   "text": "As a dwarf, you know that protecting Loch Modan's stonework and reservoirs is paramount. Any sign of enemy explosives is an immediate crisis for the clan."
   }
  ],
  "keywords": [
@@ -91,5 +91,6 @@
   "Strange Smelling Powder",
   "A Dark Threat Looms (3)",
   "A Dark Threat Looms (2)"
- ]
+ ],
+ "style": 1
 }

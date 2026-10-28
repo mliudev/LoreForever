@@ -8,16 +8,16 @@
   "wiki": "Merrin Rockweaver",
   "refs": 2
  },
- "summary": "Merrin Rockweaver is a dwarven researcher representing the Explorers' League in the Wetlands. Following a violent raptor infestation that overran Whelgar's Excavation Site, she took refuge alongside Prospector Whelgar on a ridge overlooking the site.",
+ "summary": "On a ridge above Whelgar's Excavation Site, Merrin Rockweaver waits with the survivors. A raptor infestation drove them from the dig, where she represented the Explorers' League.",
  "sections": [
   {
    "title": "Displaced by the Dig",
-   "body": "Merrin Rockweaver traveled to the Wetlands on behalf of the Ironforge Explorers' League to unearth ancient Titan secrets buried beneath the muck. The expedition ended in disaster when the large bones they unearthed drew raptors to the dig. Vicious prehistoric beasts swarmed the trenches, forcing Merrin and the surviving crew to abandon their equipment, notes, and progress. She is now trapped with the few survivors on a bluff overlooking the overrun ruins.",
+   "body": "Merrin Rockweaver came to the Wetlands for the Ironforge Explorers' League, seeking ancient Titan secrets beneath the muck. The expedition fell apart when the large bones the crew unearthed drew raptors to the dig. The beasts swarmed the trenches, and Merrin and the surviving crew fled, leaving their equipment, notes, and progress behind. Now Merrin is trapped with a few survivors on a bluff overlooking the overrun ruins.",
    "spoiler": 0
   },
   {
    "title": "Salvaging the Operation",
-   "body": "Trapped on the bluff, the survivors refuse to let the expedition become an outright failure. While Ormer Ironbraid plots vengeance against the beasts and Prospector Whelgar seeks the tablet fragments left behind in the raptor-infested trenches, Merrin's thoughts turn to her husband Tarrel, who has not heard from her in weeks. She relies on the scout Longbraid sent to find the team to carry word of their plight back to him.",
+   "body": "The survivors on the bluff still hope to save what they can of the expedition. Ormer Ironbraid plans vengeance against the beasts, while Prospector Whelgar seeks tablet fragments in the raptor-infested trenches. Merrin worries about her husband Tarrel, who has heard nothing from her in weeks. A scout Longbraid sent to find the team can carry word of their plight back to him.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "who is merrin",
     "wetlands dwarf merrin"
    ],
-   "answer": "Merrin Rockweaver is a dwarf archaeologist affiliated with the Explorers' League of Ironforge. She was stationed at Whelgar's Excavation Site in the Wetlands before raptors overran the operation."
+   "answer": "Merrin Rockweaver is a dwarf archaeologist with the Explorers' League of Ironforge. She worked at Whelgar's Excavation Site in the Wetlands before raptors overran the operation."
   },
   {
    "q": "Why is she trapped above the dig site?",
@@ -38,7 +38,7 @@
     "whelgars retreat merrin",
     "what happened to her camp"
    ],
-   "answer": "Mottled raptors, drawn by the large bones the team uncovered, overwhelmed the dig site below and many lives were lost. Ormer Ironbraid defended Merrin and Prospector Whelgar as they fled to the nearby bluff, where they remain trapped."
+   "answer": "Raptors drawn by the large bones the team uncovered overwhelmed the dig, and many lives were lost. Ormer Ironbraid defended Merrin and Prospector Whelgar as they fled to a nearby bluff, where they remain trapped."
   },
   {
    "q": "What does Merrin need help with?",
@@ -47,7 +47,7 @@
     "merrin rockweaver tasks",
     "tooling around lore"
    ],
-   "answer": "Merrin needs someone to carry a letter explaining the disaster back to her husband Tarrel, who has been worried sick since her letters stopped arriving."
+   "answer": "Merrin needs someone to carry a letter about the disaster to her husband Tarrel. He has worried since her letters stopped arriving."
   },
   {
    "q": "What was the expedition trying to find?",
@@ -55,17 +55,17 @@
     "what are they digging for",
     "excavation site purpose"
    ],
-   "answer": "Like most Explorers' League operations, the Wetlands dig was commissioned to uncover ancient artifacts related to dwarven ancestry and the mysterious Titan relics hidden throughout Khaz Modan."
+   "answer": "The Wetlands expedition sought ancient artifacts tied to dwarven ancestry and the mysterious Titan relics hidden throughout Khaz Modan."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "For dwarven adventurers, aiding Merrin is a matter of national heritage, safeguarding the precious Titan relics and historical records that the Explorers' League risked their lives to uncover."
+   "text": "As a dwarf, you can help Merrin protect Titan relics and historical records the Explorers' League risked their lives to uncover."
   },
   {
    "target": "faction:Alliance",
-   "text": "Merrin represents Ironforge's academic presence in the Wetlands, and securing her research helps maintain the Alliance's tenuous foothold in the wild marshland."
+   "text": "As an Alliance adventurer, you can help Merrin safeguard Ironforge's research presence in the Wetlands and strengthen the Alliance's tenuous foothold in the wild marshland."
   }
  ],
  "keywords": [
@@ -86,5 +86,6 @@
  ],
  "attribution": [
   "Merrin Rockweaver"
- ]
+ ],
+ "style": 1
 }

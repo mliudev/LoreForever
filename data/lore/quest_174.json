@@ -22,16 +22,16 @@
    "Look To The Stars (4)"
   ]
  },
- "summary": "Look To The Stars begins Viktori Prism'Antras's endeavor to gaze past the eerie canopy of Duskwood. Believing that a scientific answer beyond arcane superstition explains the forest's dark curse, Viktori recruits you to gather components for a telescope designed by his gnomish associate.",
+ "summary": "In Duskwood, Viktori Prism'Antras looks beyond the canopy for answers to the forest's curse. He trusts observation over arcane superstition and asks you to gather parts for a telescope drawn up by his gnomish associate.",
  "sections": [
   {
    "title": "Searching the Skies",
-   "body": "Amid the gloom and fear shrouding Darkshire, Viktori Prism'Antras takes a distinctly unconventional view of Duskwood's misfortune. Rather than attributing the land's corruption purely to black magic, curses, or restless dead, Viktori suspects that greater truths await high above the canopy. With the aid of blueprints drawn up by his gnomish partner, Cog, he sets out to build an optical device capable of peering into the heavens.",
+   "body": "Viktori Prism'Antras sees Duskwood's troubles differently from many in fearful Darkshire. He doubts that black magic, curses, and restless dead alone explain the land's corruption. He believes answers may lie above the canopy. With blueprints from his gnomish partner, Cog, he plans to build an instrument for looking into the heavens.",
    "spoiler": 0
   },
   {
    "title": "A Matter of Engineering",
-   "body": "To commence assembly on the stargazing apparatus, Viktori needs a sturdy frame. Following Cog's specifications, he asks travelers to procure a machined bronze tube. This first step relies directly on the ingenuity of mortal mechanics rather than spellcraft, highlighting Viktori's stubborn insistence that practical craft and observation might shed light where mysticism has failed.",
+   "body": "Viktori needs a sturdy frame to begin building the stargazing instrument. Cog's plans call for a machined bronze tube, and Viktori asks you to find one. He trusts practical engineering and careful observation to shed light where mysticism has failed.",
    "spoiler": 0
   }
  ],
@@ -43,7 +43,7 @@
     "who gives look to the stars",
     "viktori prismantras"
    ],
-   "answer": "Viktori Prism'Antras is a scholarly resident of Darkshire. Unlike many locals paralyzed by fear or consumed by superstition, he seeks rational explanations for the corruption overtaking Duskwood by studying the stars."
+   "answer": "Viktori Prism'Antras is a scholarly resident of Darkshire who seeks rational answers to Duskwood's corruption by studying the stars."
   },
   {
    "q": "Why does Viktori want to build a telescope?",
@@ -52,7 +52,7 @@
     "why bronze tube duskwood",
     "telescope quest darkshire"
    ],
-   "answer": "Viktori believes there is a tangible truth beyond magic that explains Duskwood's strange transformation. He hopes peering through a telescope into the skies will reveal insights that local legends and spellcasters have overlooked."
+   "answer": "Viktori believes the skies may hold a tangible answer to Duskwood's strange transformation, beyond what magic and local legends can explain."
   },
   {
    "q": "Who is Cog?",
@@ -60,7 +60,7 @@
     "cog gnome",
     "who designed telescope"
    ],
-   "answer": "Cog is a gnomish engineer and friend of Viktori. He drew up the mechanical blueprints required to construct the stargazing device."
+   "answer": "Cog is Viktori's gnomish engineer friend, who drew the blueprints for the stargazing device."
   },
   {
    "q": "Where does one obtain a bronze tube?",
@@ -69,7 +69,7 @@
     "bronze tube location",
     "where find bronze tube"
    ],
-   "answer": "A bronze tube is typically crafted by engineers with moderate experience. Travelers who are not engineers themselves often acquire one through trade, auction houses, or from traveling engineering peddlers who happen to carry spare stock."
+   "answer": "Engineers craft bronze tubes. Travelers who cannot make one may find one through trade, at auction houses, or from traveling engineering peddlers with spare stock."
   },
   {
    "q": "Is this part of a longer questline?",
@@ -77,7 +77,7 @@
     "look to the stars chain",
     "how many look to the stars quests"
    ],
-   "answer": "Yes. This task is the opening step of a multi-part effort to assemble and calibrate Viktori's stargazing apparatus in Darkshire."
+   "answer": "Yes. It begins a longer effort to assemble and calibrate Viktori's stargazing apparatus in Darkshire."
   },
   {
    "q": "Why is Viktori looking for natural explanations in Duskwood?",
@@ -85,21 +85,21 @@
     "why scientific explanation duskwood",
     "magic vs science duskwood"
    ],
-   "answer": "While the forest crawls with the undead and dark enchantments, Viktori believes fundamental cosmic or natural laws might still govern the transformation, driving him to seek answers in celestial study."
+   "answer": "Though undead and dark enchantments fill the forest, Viktori believes natural laws may govern its transformation. He studies the heavens in search of answers."
   }
  ],
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "The entire undertaking hinges on gnomish design and skilled metalwork, offering tinkerers a direct role in aiding Viktori's astronomical pursuits."
+   "text": "Gnomish design and skilled metalwork drive Viktori's effort, giving engineers a direct hand in his study of the stars."
   },
   {
    "target": "race:Gnome",
-   "text": "Viktori relies on the ingenuity of his gnomish associate, Cog, demonstrating how gnomish craft brings order and reason even to the darkest corners of the kingdom."
+   "text": "Viktori depends on his gnomish associate, Cog, whose craft brings order and reason to a dark corner of the kingdom."
   },
   {
    "target": "faction:Alliance",
-   "text": "While Night Watch patrols fend off horrors along the roads of Darkshire, Viktori's project represents the town's small, stubborn hope to understand what poisoned their home."
+   "text": "Night Watch patrols fend off horrors along Darkshire's roads, while Viktori's project gives the town hope of understanding what poisoned their home."
   }
  ],
  "keywords": [
@@ -118,5 +118,6 @@
  ],
  "attribution": [
   "Look To The Stars (Classic)"
- ]
+ ],
+ "style": 1
 }

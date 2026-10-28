@@ -17,16 +17,16 @@
   "wiki": "Distracting Jarven",
   "chain": []
  },
- "summary": "Down in the cellar of Thunderbrew Distillery, guard Jarven Thunderbrew finds himself surrounded by barrels he is forbidden to touch. Craving a taste of the family craft, he asks a passing adventurer for a mug of Thunder Ale to help sharpen his wits on duty.",
+ "summary": "Jarven Thunderbrew watches the cellar stores at Thunderbrew Distillery in Kharanos. Forbidden to touch the barrels, he asks a passing traveler to bring him a mug of Thunder Ale from upstairs, hoping it will sharpen his wits on duty.",
  "sections": [
   {
    "title": "A Thirsty Guard on Duty",
-   "body": "Jarven Thunderbrew is tasked with keeping watch over the deep stores of Thunderbrew Distillery in Kharanos. Despite being surrounded by the finest stout in Dun Morogh, he works under strict family orders not to dip into the stock while on guard. The temptation proves too much, prompting him to enlist passing travelers to fetch him a pint of potent Thunder Ale from the taps upstairs.",
+   "body": "In Kharanos, Jarven Thunderbrew keeps watch over the deep stores of Thunderbrew Distillery. His family forbids him to drink from the stock while on guard, though the finest stout in Dun Morogh surrounds him. The temptation wins out, and he asks passing travelers to fetch a pint of potent Thunder Ale from the taps upstairs.",
    "spoiler": 0
   },
   {
    "title": "A Dubious Sharpener",
-   "body": "Jarven insists that a good drink will only hone his senses and bolster his watch. Whether indulging a guard on duty is wise remains an open question, but among the hardy dwarves of Dun Morogh, few can fault a Thunderbrew for wanting a taste of his own kin's world-famous brew.",
+   "body": "Jarven says a good drink will hone his senses and strengthen his watch. Whether a guard should drink on duty remains an open question. Few hardy dwarves in Dun Morogh can fault a Thunderbrew for wanting a taste of the brew made by his own kin.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "jarven lore",
     "guard in cellar"
    ],
-   "answer": "Jarven is a member of the renowned Thunderbrew family, stationed downstairs in the cellar of the Thunderbrew Distillery in Kharanos to watch over the stored casks."
+   "answer": "Jarven Thunderbrew belongs to the renowned Thunderbrew family and watches the stored casks in the cellar of Thunderbrew Distillery in Kharanos."
   },
   {
    "q": "Why does Jarven need someone to bring him ale?",
@@ -47,7 +47,7 @@
     "jarven ale quest",
     "why fetch booze"
    ],
-   "answer": "Jarven is under strict orders from his family not to drink from the cellar stock while on watch. To skirt the rules without breaking into the sealed casks, he asks an outsider to bring him a fresh mug from upstairs."
+   "answer": "Jarven's family forbids him to drink from the cellar stock while he is on watch. He asks an outsider to bring him a fresh mug from upstairs, avoiding the sealed casks."
   },
   {
    "q": "Where is Thunder Ale found?",
@@ -56,7 +56,7 @@
     "where is thunder ale",
     "buy thunder ale"
    ],
-   "answer": "Thunder Ale is served right upstairs in the main taproom of Thunderbrew Distillery in Kharanos, sold by the innkeeper and bartenders."
+   "answer": "The innkeeper and bartenders serve Thunder Ale upstairs in the main taproom of Thunderbrew Distillery in Kharanos."
   },
   {
    "q": "Where is the Thunderbrew Distillery located?",
@@ -65,7 +65,7 @@
     "thunderbrew cellar location",
     "where is jarven"
    ],
-   "answer": "The distillery serves as the bustling central inn of Kharanos, nestled in the snowy heart of Dun Morogh just down the mountain from Ironforge."
+   "answer": "In Kharanos, Thunderbrew Distillery is the central inn, in the snowy heart of Dun Morogh just down the mountain from Ironforge."
   },
   {
    "q": "Why is Thunderbrew ale so famous?",
@@ -73,7 +73,7 @@
     "thunderbrew reputation",
     "what is thunder ale"
    ],
-   "answer": "Crafted by the Thunderbrew clan, their stout and ales are legendary across Khaz Modan and beyond for their exceptional punch, flavor, and dwarven kick."
+   "answer": "The Thunderbrew clan's stout and ales are famous across Khaz Modan and beyond for their strong punch, flavor, and dwarven kick."
   },
   {
    "q": "Does getting Jarven drunk cause any trouble?",
@@ -81,17 +81,17 @@
     "jarven drunk consequences",
     "what happens after distracting jarven"
    ],
-   "answer": "Jarven claims the ale sharpens his wits rather than dulling them, though it certainly keeps his attention off anyone poking around the lower storage."
+   "answer": "Jarven says the ale sharpens his wits instead of dulling them, though it keeps his attention from anyone poking around the lower storage."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "Every dwarf understands the agony of standing guard beside casks of legendary ale without being allowed a single swallow."
+   "text": "As a dwarf, you know the agony of standing guard beside casks of legendary ale without a single swallow."
   },
   {
    "target": "class:Rogue",
-   "text": "Keeping a watchman distracted with strong liquor is an age-old trick of the trade, even if Jarven happily asks for the distraction himself."
+   "text": "As a rogue, you know strong liquor can distract a watchman, though Jarven asks for the distraction himself."
   }
  ],
  "keywords": [
@@ -108,5 +108,6 @@
  ],
  "attribution": [
   "Distracting Jarven"
- ]
+ ],
+ "style": 1
 }

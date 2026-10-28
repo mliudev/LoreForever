@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Brambleblade Ravine"
  },
- "summary": "Brambleblade Ravine is a rugged canyon cutting into the northeastern edge of Red Cloud Mesa. It serves as a fortified den for the Bristleback quilboar tribe, who persistently raid the nearby tauren settlement of Camp Narache. Young tauren braves are sent here to prove their strength and protect their homeland from these fierce interlopers.",
+ "summary": "Bristleback quilboar raid Camp Narache from Brambleblade Ravine, cut into Red Cloud Mesa’s northeastern edge. Young tauren braves enter the ravine to defend their homeland and prove their strength.",
  "sections": [
   {
    "title": "A Thorn in the Mesa's Side",
-   "body": "Carved into the sun-scorched earth of Red Cloud Mesa, Brambleblade Ravine is choked with dense, thorny briars and quilboar encampments. The Bristleback tribe uses this natural fortress as a staging ground for raids against Camp Narache, threatening the safety of young tauren coming of age. Bristleback shamans and warriors, led by Chief Sharptusk Thornmantle, dwell deep within the ravine among trained battleboars. For the Shu'halo, striking into the heart of the canyon is a crucial rite of passage and a grim necessity to secure the plains.",
+   "body": "Brambleblade Ravine cuts into Red Cloud Mesa’s northeastern edge, its thorny briars and quilboar camps guarding the Bristleback tribe. From this den, the Bristlebacks raid Camp Narache and threaten young tauren coming of age. Chief Sharptusk Thornmantle leads the shamans and warriors who dwell deep in the ravine with trained battleboars. For the Shu'halo, striking into the canyon is both a rite of passage and a hard need if the plains are to be safe.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "what is brambleblade ravine",
     "brambleblade mulgore"
    ],
-   "answer": "Brambleblade Ravine is a canyon situated on the northeastern edge of Red Cloud Mesa in Mulgore. It is heavily inhabited by Bristleback quilboar and serves as their local stronghold."
+   "answer": "Brambleblade Ravine cuts into the northeastern edge of Red Cloud Mesa in Mulgore. Bristleback quilboar hold it as a stronghold."
   },
   {
    "q": "Why are the Bristleback quilboar attacking from here?",
@@ -32,7 +32,7 @@
     "bristleback motives",
     "quilboar camp narache"
    ],
-   "answer": "The Bristlebacks are fiercely territorial and view the presence of the tauren as an encroachment upon lands they claim. From Brambleblade Ravine, they launch frequent raids on the nearby settlement of Camp Narache."
+   "answer": "The Bristlebacks claim the lands around Brambleblade Ravine and see the tauren as intruders. They raid nearby Camp Narache from the ravine."
   },
   {
    "q": "Who leads the quilboar in Brambleblade Ravine?",
@@ -41,7 +41,7 @@
     "quilboar boss mulgore",
     "chief sharptusk thornmantle"
    ],
-   "answer": "The quilboar here are led by Chief Sharptusk Thornmantle, a formidable chieftain who resides in a large hut located towards the back of the ravine."
+   "answer": "Chief Sharptusk Thornmantle leads the quilboar in Brambleblade Ravine. He lives in a large hut toward the ravine’s back."
   },
   {
    "q": "Why do young tauren travel to the ravine?",
@@ -50,17 +50,17 @@
     "why go to brambleblade",
     "camp narache quests"
    ],
-   "answer": "Tauren elders and chieftains at Camp Narache task fledgling braves with entering the ravine to push back the Bristleback threat, cull their numbers, and defeat their leadership to keep the mesa safe."
+   "answer": "Tauren elders and chieftains at Camp Narache send young braves into the ravine to push back the Bristlebacks, reduce their numbers, and defeat their leaders to keep the mesa safe."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "For young tauren coming of age at Camp Narache, striking into Brambleblade Ravine is one of the very first tests of martial and spiritual endurance to defend the tribe."
+   "text": "As a young tauren coming of age at Camp Narache, you face one of your first tests of martial and spiritual endurance when you strike into Brambleblade Ravine to defend your tribe."
   },
   {
    "target": "faction:Horde",
-   "text": "Clearing out the aggressive Bristlebacks in Brambleblade Ravine helps solidify the Horde's early foothold across Mulgore."
+   "text": "As a member of the Horde, you help secure its early foothold across Mulgore by clearing the aggressive Bristlebacks from Brambleblade Ravine."
   }
  ],
  "keywords": [
@@ -81,5 +81,6 @@
  ],
  "attribution": [
   "Brambleblade Ravine"
- ]
+ ],
+ "style": 1
 }

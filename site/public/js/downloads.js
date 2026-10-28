@@ -3,7 +3,7 @@
 // language's first until the visitor picks another; a pick they make is remembered on this browser. Change opens
 // the chooser (language chips, narrator cards with ▶, the computer). "Every file" shows the picked language first. A
 // link to a pack's row (#pack-voice-female-alliance, from the lore pages) opens it. The page works without this.
-import { barHtml, chooserHtml, cardsHtml, current } from "./bundles.js?v=20261026a";
+import { barHtml, chooserHtml, cardsHtml, current } from "./bundles.js?v=20261026c";
 
 const KEY = "lf-download-pick";
 const page = document.querySelector(".bx-page");

@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Amberstill Ranch"
  },
- "summary": "Amberstill Ranch is a tranquil dwarven homestead nestled along the snowy roadway toward Loch Modan, directly north of Gol'Bolar Quarry. It serves as the primary breeding and training grounds for Ironforge's celebrated mountain rams. Adventurers visit the ranch to acquire hardy dwarven mounts, train in riding, or help the family defend their livestock from local predators.",
+ "summary": "At Amberstill Ranch, the family tends the mountain rams and guards them from hungry predators. The homestead lies north of Gol'Bolar Quarry, along the snowy road to Loch Modan.",
  "sections": [
   {
    "title": "Home of the Mountain Rams",
-   "body": "Tucked against the crags of Dun Morogh, Amberstill Ranch is renowned throughout Khaz Modan for raising the sturdiest mountain rams in the Eastern Kingdoms. The Amberstill family manages the stables and paddocks, training these sure-footed beasts to navigate treacherous snowy passes and steep alpine cliffs. Outside of supplying riding mounts and domestic livestock, the family often contends with the savage fauna of the hills, particularly wandering wendigos drawn by the scent of fresh flock.",
+   "body": "Amberstill Ranch raises mountain rams prized across Khaz Modan for their strength. The Amberstill family tends the stables and paddocks, training the sure-footed beasts for snowy passes and steep cliffs. The ranch supplies riding mounts and livestock, while the family fends off wendigos drawn to the flock.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "why visit amberstill",
     "amberstill rams"
    ],
-   "answer": "The ranch is the Alliance's central hub for breeding Barak Tor'ol mountain rams. Dwarves and honored Alliance champions come here to learn ram riding and purchase mounts from the local stable masters."
+   "answer": "Amberstill Ranch breeds Barak Tor'ol mountain rams for the Alliance. Dwarves and honored Alliance champions come to learn ram riding and buy mounts from the stable masters."
   },
   {
    "q": "Can non-dwarves purchase mounts here?",
@@ -32,7 +32,7 @@
     "human buy ram",
     "ram mount requirements"
    ],
-   "answer": "Rams are traditionally reserved for dwarven riders who understand their stubborn temperament. Members of other Alliance races may only learn to ride and purchase them if they have earned the utmost trust and exalted standing with Ironforge."
+   "answer": "Rams are traditionally for dwarven riders who know their stubborn nature. Riders of other Alliance races can learn to ride and buy one only after earning Ironforge's utmost trust and exalted standing."
   },
   {
    "q": "What threats does the ranch face?",
@@ -41,7 +41,7 @@
     "wendigo threat",
     "vagash quest"
    ],
-   "answer": "The herd is under constant threat from hungry wendigos descending from the frozen bluffs. The most notorious predator prowling the surrounding heights is Vagash, a massive wendigo that regularly targets the vulnerable livestock."
+   "answer": "Wendigos descend from the frozen bluffs and threaten the herd. Vagash, a massive wendigo, is the most notorious predator on the surrounding heights and regularly targets the livestock."
   },
   {
    "q": "Can you obtain anything else at the ranch?",
@@ -50,17 +50,17 @@
     "snowshoe rabbit pet",
     "yarlyn amberstill"
    ],
-   "answer": "Young Yarlyn Amberstill keeps a collection of domestic snowshoe rabbits and is willing to sell crated rabbits to travelers looking for a companion pet on the road."
+   "answer": "Young Yarlyn Amberstill keeps domestic snowshoe rabbits and sells them in crates to travelers seeking a companion for the road."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "For dwarven adventurers, the ranch is a proud cultural cornerstone where young heroes acquire their first Barak Tor'ol ram mount."
+   "text": "For a dwarf, Amberstill Ranch is a proud cultural cornerstone, where young heroes acquire their first Barak Tor'ol ram mount."
   },
   {
    "target": "faction:Alliance",
-   "text": "The sturdy rams raised by the Amberstills provide the Alliance with dependable, cold-weather cavalry suitable for rugged mountain terrain."
+   "text": "For the Alliance, the Amberstill family's sturdy rams provide dependable cold-weather cavalry for rugged mountain terrain."
   }
  ],
  "keywords": [
@@ -83,5 +83,6 @@
  ],
  "attribution": [
   "Amberstill Ranch"
- ]
+ ],
+ "style": 1
 }

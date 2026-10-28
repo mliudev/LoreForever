@@ -17,16 +17,16 @@
   "wiki": "Verdant Note (quest)",
   "chain": []
  },
- "summary": "The Verdant Note is a formal summons delivered to promising young tauren in the Red Cloud Mesa. Entrusted by Grull Hawkwind, the message bids budding protectors of the wilds to seek out the druidic mentor Gart Mistrunner at Camp Narache.",
+ "summary": "At Camp Narache, a summons calls promising young tauren to seek Gart Mistrunner. Grull Hawkwind delivers the message on Gart's behalf.",
  "sections": [
   {
    "title": "A Summons to the Path",
-   "body": "Young tauren stepping into their responsibilities on the Red Cloud Mesa are quickly singled out for their natural gifts. Grull Hawkwind passes along this missive on behalf of a messenger sent by Gart Mistrunner. The note acts as an invitation into the ancient fold of tauren druidism, calling the initiate away from basic village errands to heed the whispering balance of the plains.",
+   "body": "On the Red Cloud Mesa, Grull Hawkwind gives young tauren a message from a messenger sent by Gart Mistrunner. The summons calls those showing natural gifts to take up their responsibilities. It invites them to enter the ancient practice of tauren druidism and turn from simple village errands toward the balance of the plains.",
    "spoiler": 0
   },
   {
    "title": "Voices of the Earthmother",
-   "body": "Upon answering the summons, Gart Mistrunner warns the fledgling druid that ancestral and natural spirits have grown restless across Mulgore. Tauren druids are tasked to act as living avatars of nature, keeping harmony with the will of the Earthmother regardless of distant rivalries. While night elves also practice druidic arts, Gart cautions that their pride blinds them to the tauren's own deep-seated bond with the natural realm.",
+   "body": "Gart Mistrunner warns that ancestral and natural spirits have grown restless across Mulgore. Tauren druids act as living avatars of nature, keeping harmony with the Earthmother's will despite distant rivalries. Night elves practice druidic arts too, but Gart says their pride blinds them to the tauren's deep bond with the natural realm.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "druid letter",
     "mulgore druid quest note"
    ],
-   "answer": "It is an introductory summons delivered to young tauren druids in Camp Narache. It instructs the bearer to seek out the local trainer, Gart Mistrunner, to begin structured training in the druidic arts."
+   "answer": "The Verdant Note summons young tauren druids to seek Gart Mistrunner at Camp Narache and begin training in the druidic arts."
   },
   {
    "q": "Who delivers the note to the player?",
@@ -46,7 +46,7 @@
     "who gives verdant note",
     "verdant note quest starter"
    ],
-   "answer": "Grull Hawkwind hands the note to the young druid, mentioning that a messenger sent by Gart Mistrunner was recently searching for them."
+   "answer": "Grull Hawkwind hands the note to the young druid and says a messenger sent by Gart Mistrunner was searching for them."
   },
   {
    "q": "Where can Gart Mistrunner be found?",
@@ -54,7 +54,7 @@
     "gart mistrunner location",
     "where is gart"
    ],
-   "answer": "Gart Mistrunner resides in Camp Narache, stationed under the shelter of the camp's natural bluffs where he oversees training for novice tauren druids."
+   "answer": "Gart Mistrunner can be found at Camp Narache, beneath the shelter of its natural bluffs, where he trains novice tauren druids."
   },
   {
    "q": "Why does Gart Mistrunner warn against the night elves?",
@@ -62,7 +62,7 @@
     "tauren and night elf druids",
     "night elf pride druid"
    ],
-   "answer": "Although both races revere nature and practice druidism through the Cenarion Circle, Gart observes that night elf arrogance often colors their perception of other cultures. He encourages his student to ignore such attitudes and remain focused solely on the Earthmother's wisdom."
+   "answer": "Gart Mistrunner says night elf pride blinds them to the tauren's deep bond with nature. He urges his student to focus on the Earthmother's wisdom."
   },
   {
    "q": "Why are the spirits in Mulgore restless?",
@@ -70,7 +70,7 @@
     "mulgore spirits restless",
     "why are nature spirits angry"
    ],
-   "answer": "Gart Mistrunner senses disturbances stirring ancestral and nature spirits throughout the plains of Mulgore, marking an early sign that balancing the wild will be the new druid's lifelong responsibility."
+   "answer": "Gart Mistrunner senses ancestral and natural spirits stirring across Mulgore. Their unrest marks the new druid's lifelong responsibility to balance the wild."
   },
   {
    "q": "What ability does Gart teach next after completing this quest?",
@@ -78,21 +78,21 @@
     "what comes after verdant note",
     "druid quest follow up"
    ],
-   "answer": "After reporting to Gart Mistrunner, he becomes the initiate's trainer, promising to teach the Earthmother's gifts as they grow in wisdom."
+   "answer": "After the young druid reports to Gart Mistrunner, he becomes their trainer and promises to teach the Earthmother's gifts as they grow in wisdom."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "For the tauren, druidism is not merely a school of magic, but a sacred covenant inherited from their mythic devotion to the Earthmother."
+   "text": "As a tauren, you inherit druidism as a sacred covenant rooted in devotion to the Earthmother."
   },
   {
    "target": "class:Druid",
-   "text": "This summons represents a druid's earliest induction into channeling the wild energies and restless spirits of Azeroth."
+   "text": "As a druid, you begin learning to channel the wild energies and restless spirits of Azeroth."
   },
   {
    "target": "faction:Horde",
-   "text": "Tauren druids represent the primary bridge between the modern Horde and the natural mysteries of Kalimdor, providing spiritual balance to the faction's raw martial strength."
+   "text": "As a member of the Horde, you join the tauren druids, who bridge the faction and Kalimdor's natural mysteries while balancing its martial strength."
   }
  ],
  "keywords": [
@@ -114,5 +114,6 @@
  ],
  "attribution": [
   "Verdant Note (quest)"
- ]
+ ],
+ "style": 1
 }

@@ -20,16 +20,16 @@
    "Blackfathom Villainy (Alliance)"
   ]
  },
- "summary": "In Search of Thaelrid is an Alliance reconnaissance mission dispatched from Darnassus on behalf of the Argent Dawn. Dawnwatcher Shaedlass tasks adventurers with venturing into the sunken ruins of Blackfathom Deeps to locate a missing scout who vanished while investigating a dangerous alliance between naga and cultists. It represents an early encounter with the reach of the Argent Dawn beyond their typical northern vigil.",
+ "summary": "Dawnwatcher Shaedlass sends you into Blackfathom Deeps to find the scout who went missing there. The Argent Dawn fears naga and Twilight's Hammer cultists have joined forces in the flooded ruins.",
  "sections": [
   {
    "title": "Eyes in Darnassus",
-   "body": "Though the Argent Dawn is most renowned for holding the line against the Scourge in the plague-ridden ruins of Lordaeron, its vigilance extends across Kalimdor. Stationed within Darnassus, Dawnwatcher Shaedlass gathers whispers and intelligence on unnatural threats emerging across the world. When unsettling reports arose that sea-dwelling naga and the doomsday zealots of the Twilight's Hammer had forged a pact within the flooded chambers of Blackfathom Deeps along the Ashenvale shore, the order recognized the potential catastrophe.",
+   "body": "The Argent Dawn watches for threats across Kalimdor as well as the Scourge in Lordaeron. Dawnwatcher Shaedlass gathers reports from Darnassus about unnatural dangers. Word reaches him that naga and the doomsday zealots of the Twilight's Hammer have made a pact in Blackfathom Deeps, the flooded ruins along the Ashenvale shore. The order fears what this alliance could bring.",
    "spoiler": 0
   },
   {
    "title": "The Missing Scout",
-   "body": "To assess the veracity of these coastal rumors, Shaedlass dispatched Argent Guard Thaelrid to quietly infiltrate the subterranean caverns. Weeks passed without word, leaving the Dawnwatcher in the dark with his other scouts committed to separate operations. Fearing that Thaelrid had either fallen in battle or been captured by the dark powers dwelling beneath the waves, he enlists seasoned travelers brave enough to breach Blackfathom Deeps and bring him back alive.",
+   "body": "Argent Guard Thaelrid entered the caverns to investigate the coastal rumors. Weeks have passed without word, and Shaedlass's other scouts are away on separate operations. He fears Thaelrid has fallen or been captured by the dark powers beneath the waves. Now he asks you to enter Blackfathom Deeps and bring the missing scout back alive.",
    "spoiler": 0
   }
  ],
@@ -41,7 +41,7 @@
     "argent dawn blackfathom",
     "argent dawn naga"
    ],
-   "answer": "The Argent Dawn monitors all existential, corrupting threats across Azeroth, not just the undead of the Eastern Kingdoms. The prospect of ancient naga collaborating with fanatical cultists of the Twilight's Hammer within Kalimdor represents a destabilizing evil that demands their attention."
+   "answer": "The Argent Dawn watches for threats across Azeroth, including dangers beyond the undead of the Eastern Kingdoms. Naga joining forces with Twilight's Hammer cultists in Kalimdor demands the order's attention."
   },
   {
    "q": "Who is Dawnwatcher Shaedlass?",
@@ -50,7 +50,7 @@
     "quest giver shaedlass",
     "dawnwatcher shaedlass role"
    ],
-   "answer": "Dawnwatcher Shaedlass is an Argent Dawn operative stationed within the night elf capital of Darnassus. His primary duty is information gathering, identifying where the order's aid is urgently required and dispatching investigators to evaluate regional crises."
+   "answer": "Dawnwatcher Shaedlass is an Argent Dawn operative in Darnassus, the night elf capital. He gathers information, finds where the order's aid is needed, and sends investigators to assess regional crises."
   },
   {
    "q": "Who is Argent Guard Thaelrid?",
@@ -59,7 +59,7 @@
     "thaelrid lore",
     "missing scout thaelrid"
    ],
-   "answer": "Argent Guard Thaelrid is an operative of the Argent Dawn sent to conduct reconnaissance on Blackfathom Deeps. His mission was to determine the true strength and intent of the cultists and naga residing within the drowned caverns."
+   "answer": "Argent Guard Thaelrid is an Argent Dawn operative sent to investigate Blackfathom Deeps. He was sent to learn the strength and intent of the naga and cultists in the drowned caverns."
   },
   {
    "q": "Where can Thaelrid be found?",
@@ -68,7 +68,7 @@
     "where is thaelrid",
     "find thaelrid bfd"
    ],
-   "answer": "Argent Guard Thaelrid has successfully infiltrated the subterranean depths of Blackfathom Deeps along the Zoram Strand in Ashenvale, though he remains isolated deep within the caverns awaiting reinforcements."
+   "answer": "Argent Guard Thaelrid is deep inside Blackfathom Deeps, along the Zoram Strand in Ashenvale. He has infiltrated the caverns and waits there alone for reinforcements."
   },
   {
    "q": "What happens after finding Thaelrid?",
@@ -77,7 +77,7 @@
     "followup to thaelrid",
     "next quest after thaelrid"
    ],
-   "answer": "Upon being located, Thaelrid reveals the full, insidious nature of the ritual underway inside the ruins, immediately directing adventurers toward a strike against the cult's leadership in the quest Blackfathom Villainy."
+   "answer": "When Thaelrid is found, he reveals the true nature of the ritual in the ruins and points you toward the cult's leaders in Blackfathom Villainy."
   },
   {
    "q": "Can Horde players take this mission?",
@@ -86,21 +86,21 @@
     "can horde do this quest",
     "horde thaelrid"
    ],
-   "answer": "The assignment is given by Dawnwatcher Shaedlass in Darnassus and is aimed at Alliance adventurers. Horde adventurers can also accept it if they reach him."
+   "answer": "Dawnwatcher Shaedlass gives the assignment in Darnassus, and it is aimed at Alliance adventurers. Horde adventurers can accept it if they reach him."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "This mission marks one of the earliest opportunities for Alliance adventurers to establish goodwill and service alongside the Argent Dawn."
+   "text": "As an Alliance adventurer, you can begin serving alongside the Argent Dawn and earn its goodwill."
   },
   {
    "target": "race:NightElf",
-   "text": "The desecration of the ancient Temple of Elune within Blackfathom Deeps makes assisting the Argent Dawn an urgent matter of recovering sacred night elven heritage."
+   "text": "As a night elf, you know the ancient Temple of Elune in Blackfathom Deeps has been defiled. Helping the Argent Dawn means recovering sacred night elven heritage."
   },
   {
    "target": "class:Paladin",
-   "text": "Paladins aligned with the Argent Dawn recognize Thaelrid's solitary vigil as a solemn duty to protect the world from creeping shadow and corruption."
+   "text": "As a paladin aligned with the Argent Dawn, you recognize Thaelrid's lonely vigil as a solemn duty to guard the world against shadow and corruption."
   }
  ],
  "keywords": [
@@ -125,5 +125,6 @@
  ],
  "attribution": [
   "In Search of Thaelrid"
- ]
+ ],
+ "style": 1
 }

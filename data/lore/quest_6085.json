@@ -23,16 +23,16 @@
    "Training the Beast (Dwarf)"
   ]
  },
- "summary": "This quest marks the final trial in a dwarven hunter's basic training under Grif Wildheart in Kharanos. By using an enchanted rod to subdue and understand an aggressive Ice Claw Bear, the hunter demonstrates mastery over sheer brute strength. Completing this exercise unlocks the foundational abilities needed to tame, call, and dismiss a permanent wild companion.",
+ "summary": "Grif Wildheart’s final trial in Kharanos tests a dwarf hunter’s control over a wild bear. You use an enchanted rod to subdue an aggressive Ice Claw Bear and learn to understand it. Passing unlocks the abilities to tame, call, and dismiss a permanent wild companion.",
  "sections": [
   {
    "title": "The Strength of the Wild",
-   "body": "Throughout Dun Morogh, mountaineers and scouts have long relied on hardy beasts to endure the freezing crags. After directing his students to practice on swift and cunning predators, master huntsman Grif Wildheart tasks budding hunters with capturing an Ice Claw Bear. Found prowling the snowdrifts east of Kharanos, these massive beasts embody raw physical power and relentless endurance\u2014qualities every dwarven huntsman must learn to control.",
+   "body": "Mountaineers and scouts across Dun Morogh rely on hardy beasts in its freezing crags. After students practice on swift, cunning predators, master huntsman Grif Wildheart sends you to capture an Ice Claw Bear. The bears prowl the snowdrifts east of Kharanos. Their raw strength and endurance test the control every dwarven huntsman must learn.",
    "spoiler": 0
   },
   {
    "title": "Earning a Companion",
-   "body": "The trials with the Taming Rod are strictly educational exercises meant to teach hunters how wild instincts respond to will and calm intent. Once the rod holds the bear docile, the temporary bond fulfills its purpose. Returning the tool to Grif concludes the formal trials, prompting the master to share the permanent secrets of beast mastery: how to pacify any compatible wild creature and call upon it throughout a lifetime of adventure.",
+   "body": "The Taming Rod trials teach you how wild instincts answer to will and calm intent. The rod holds the bear docile, making your bond temporary and the exercise educational. Return the rod to Grif to complete the formal trials. He then shares the lasting secrets of beast mastery: pacifying a compatible wild creature and calling upon it throughout your life of adventure.",
    "spoiler": 0
   }
  ],
@@ -44,7 +44,7 @@
     "target animal",
     "taming target"
    ],
-   "answer": "You must seek out an Ice Claw Bear, which prowls the frozen foothills east of Kharanos in Dun Morogh. Using the provided Taming Rod subdues the creature so you can experience handling raw brute force."
+   "answer": "You need to tame an Ice Claw Bear, which prowls the frozen foothills east of Kharanos in Dun Morogh. The Taming Rod subdues it so you can learn to handle raw brute force."
   },
   {
    "q": "Do I keep the Ice Claw Bear after turning in the quest?",
@@ -53,7 +53,7 @@
     "keep pet",
     "is bear permanent"
    ],
-   "answer": "No. The bear subdued by the Taming Rod is only a temporary test of discipline and skill. Once you hand the rod back to Grif Wildheart, the beast departs, and you are granted the true abilities to tame any wild beast you choose."
+   "answer": "No. The Ice Claw Bear subdued by the Taming Rod is only a temporary test of discipline and skill. When you return the rod to Grif Wildheart, the bear departs, and you gain the abilities to tame any wild beast you choose."
   },
   {
    "q": "Where is Grif Wildheart located?",
@@ -62,7 +62,7 @@
     "where is grif",
     "hunter trainer kharanos"
    ],
-   "answer": "Grif Wildheart is stationed outside the Thunderbrew Distillery in Kharanos, Dun Morogh, where he trains fledgling hunters in the ways of marksmanship and beast mastery."
+   "answer": "Grif Wildheart is outside the Thunderbrew Distillery in Kharanos, Dun Morogh. He trains fledgling hunters in marksmanship and beast mastery."
   },
   {
    "q": "What abilities do I learn upon finishing this trial?",
@@ -71,7 +71,7 @@
     "hunter skills learned",
     "tame beast reward"
    ],
-   "answer": "Completing this final trial teaches you the foundational spells of a hunter: Tame Beast, Call Pet, and Dismiss Pet. This allows you to venture out into the world and bond with a permanent companion."
+   "answer": "This final trial teaches you the foundational hunter abilities Tame Beast, Call Pet, and Dismiss Pet. They let you venture into the world with a permanent companion."
   },
   {
    "q": "What is the next step after completing this quest?",
@@ -80,7 +80,7 @@
     "what comes next",
     "training the beast"
    ],
-   "answer": "Grif will send you onward with the quest 'Training the Beast', directing you to learn how to feed, nurture, and instruct your new companion properly so it stays loyal in combat."
+   "answer": "Grif sends you onward with Training the Beast, where you learn to feed, nurture, and instruct your new companion so it stays loyal in combat."
   },
   {
    "q": "Why does Grif have hunters test multiple types of beasts?",
@@ -89,17 +89,17 @@
     "purpose of trials",
     "three animals"
    ],
-   "answer": "The three trials expose a novice hunter to different fighting styles\u2014agility, cunning, and brute power. Experiencing these distinct temperaments prepares a mountaineer to choose the best companion for their hunting style."
+   "answer": "The three trials introduce you to different fighting styles: agility, cunning, and brute power. These temperaments prepare a mountaineer to choose the companion that best suits their hunting style."
   }
  ],
  "angles": [
   {
    "target": "class:Hunter",
-   "text": "This quest is the rite of passage that turns an isolated archer into a true pet-taming hunter, unlocking the essential abilities to tame and summon beasts."
+   "text": "As a hunter, you begin as an isolated archer and become a true pet-taming hunter, with the essential abilities to tame and summon beasts."
   },
   {
    "target": "race:Dwarf",
-   "text": "Bears have long served as iconic companions for dwarven mountaineers patrolling Dun Morogh, renowned for matching their masters in stubborn resilience."
+   "text": "As a dwarf, you know bears as iconic companions of Dun Morogh’s mountaineers, renowned for matching their masters’ stubborn resilience."
   }
  ],
  "keywords": [
@@ -122,5 +122,6 @@
  ],
  "attribution": [
   "Taming the Beast (Dwarf 3)"
- ]
+ ],
+ "style": 1
 }

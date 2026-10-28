@@ -17,16 +17,16 @@
   "wiki": "The Ravaged Caravan (Horde) (1)",
   "chain": []
  },
- "summary": "Morin Cloudstalker directs travelers to examine the wreckage of an ambushed Venture Company caravan near the northern shore of Stonebull Lake. Although the tauren torched the convoy in retribution for lost comrades, goblin salvagers returned to recover intact cargo. Investigating the surviving supply crates reveals the true industrial scale of the Venture Company's operations in Mulgore.",
+ "summary": "Near Stonebull Lake, The Ravaged Caravan still draws Venture Company salvagers. Morin Cloudstalker sends travelers to inspect the wreckage after tauren warriors burned the convoy in retribution for lost companions. Intact crates reveal the industrial scale of Venture Company operations in Mulgore.",
  "sections": [
   {
    "title": "Retribution by the Lake",
-   "body": "The charred remnants along the northern bank of Stonebull Lake are the result of a swift strike by the tauren. Grieving the loss of two companions killed in an earlier skirmish, Morin Cloudstalker and his warriors ambushed an armed Venture Company supply convoy. Intending to obliterate the intruders' efforts, the tauren torched the wagons and abandoned the smoking ruin, presuming fire would consume whatever the goblins sought to haul.",
+   "body": "Tauren warriors burned a Venture Company convoy after an earlier skirmish cost them two companions. Morin Cloudstalker and his warriors struck swiftly, then torched the wagons to drive out the armed intruders. They left the smoking wreckage, believing the fire would consume whatever the goblins had come to haul.",
    "spoiler": 0
   },
   {
    "title": "Unfinished Business",
-   "body": "The tauren soon noticed Venture Company salvagers scouring the blackened debris, suggesting their fire had failed to destroy the most crucial cargo. Rather than risk further lives blindly, Morin dispatches scouts to inspect the wreckage. Among the soot-stained wreckage rest intact crates marked with the insignia of the Venture Company Mining Division, packed and destined for central processing facilities.",
+   "body": "Venture Company salvagers returned to the blackened wreckage, suggesting the fire had failed to destroy the most crucial cargo. Morin now sends scouts to inspect the remains rather than risk more lives blindly. Intact crates among the soot-stained debris bear the Venture Company Mining Division insignia. They are packed for shipment to central processing facilities.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "why is the caravan burned",
     "caravan attack"
    ],
-   "answer": "Morin Cloudstalker and his tauren warriors ambushed and torched the caravan in retaliation after losing two of their scouts in a previous clash with the Venture Company."
+   "answer": "Morin Cloudstalker and his tauren warriors ambushed and burned the caravan in retribution after two of their scouts were killed in an earlier skirmish with the Venture Company."
   },
   {
    "q": "Where is the Ravaged Caravan located?",
@@ -47,7 +47,7 @@
     "where is the caravan",
     "ravaged caravan spot"
    ],
-   "answer": "The burnt wagons sit along the northern shore of Stonebull Lake, east of Bloodhoof Village in Mulgore."
+   "answer": "The burned wagons lie along Stonebull Lake’s northern shore, east of Bloodhoof Village in Mulgore."
   },
   {
    "q": "Why are the goblins returning to the wreckage?",
@@ -56,7 +56,7 @@
     "venture co salvagers",
     "what do the goblins want"
    ],
-   "answer": "The Venture Company sent salvagers because fire failed to destroy all their cargo. They are attempting to retrieve durable supply crates stamped for shipment to their central processing operations."
+   "answer": "The Venture Company sent salvagers because the fire failed to destroy all its cargo. They seek to recover durable supply crates marked for shipment to its central processing operations."
   },
   {
    "q": "What is inside the supply crates?",
@@ -65,7 +65,7 @@
     "what is in the crate",
     "sealed supply crate"
    ],
-   "answer": "The crates bear the insignia of the Venture Company Mining Division and contain mineral resources labeled for refinement and processing at their primary industrial plants."
+   "answer": "The crates bear the Venture Company Mining Division insignia and hold mineral resources labeled for refinement and processing at the company’s primary industrial plants."
   },
   {
    "q": "Who is Morin Cloudstalker?",
@@ -73,7 +73,7 @@
     "who is morin",
     "morin cloudstalker role"
    ],
-   "answer": "Morin Cloudstalker is a tauren scout and tracker stationed east of Bloodhoof Village, tasked with monitoring hostile incursions across central Mulgore, particularly from the Venture Company."
+   "answer": "Morin Cloudstalker is a tauren scout and tracker stationed east of Bloodhoof Village. He monitors hostile incursions across central Mulgore, particularly those from the Venture Company."
   },
   {
    "q": "What does this caravan reveal about the Venture Company?",
@@ -81,21 +81,21 @@
     "venture co mulgore presence",
     "why are goblins in mulgore"
    ],
-   "answer": "It shows that the Venture Company's presence in Mulgore is not a mere exploratory team, but an organized industrial extraction effort complete with armed supply lines and centralized refining networks."
+   "answer": "The caravan shows the Venture Company’s presence in Mulgore is more than a mere exploratory team. It is an organized industrial extraction effort with armed supply lines and centralized refining networks."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "The desecration of the plains by Venture Company machines and timber-clearing strikes directly at your ancestral homeland, making the recovery and destruction of their supplies vital to the defense of Mulgore."
+   "text": "Venture Company machines desecrate the plains, and its timber-clearing strikes directly at your ancestral homeland. Recovering and destroying its supplies helps defend Mulgore."
   },
   {
    "target": "faction:Horde",
-   "text": "Unchecked corporate expansion into Mulgore threatens the stability of Thunder Bluff, requiring Horde scouts to disrupt Venture Company logistics."
+   "text": "Unchecked corporate expansion into Mulgore threatens Thunder Bluff’s stability, so Horde scouts must disrupt Venture Company logistics."
   },
   {
    "target": "profession:Mining",
-   "text": "The sturdy crates and logistics notes demonstrate the Venture Company's aggressive mineral surveying and extraction operations underway across Mulgore."
+   "text": "The sturdy crates and logistics notes show the Venture Company’s aggressive mineral surveying and extraction operations across Mulgore."
   }
  ],
  "keywords": [
@@ -116,5 +116,6 @@
  ],
  "attribution": [
   "The Ravaged Caravan (Horde) (1)"
- ]
+ ],
+ "style": 1
 }

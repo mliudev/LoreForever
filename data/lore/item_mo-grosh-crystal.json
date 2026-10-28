@@ -10,16 +10,16 @@
    "quest:278"
   ]
  },
- "summary": "Mo'grosh Crystals are rare mineral formations mined and hoarded by the Mo'grosh ogres in northeastern Loch Modan. Prized for their unusual alchemical properties, they serve as a vital component in neutralizing Dark Iron demolition materials.",
+ "summary": "In northeastern Loch Modan, Mo'grosh ogres mine and hoard rare crystals with unusual alchemical properties. The crystals help dwarven engineers neutralize Dark Iron explosives.",
  "sections": [
   {
    "title": "A Rare Ogresh Commodity",
-   "body": "Tucked away in the crags of northeastern Loch Modan, the Mo'grosh ogres excavate these distinctive crystals from their stronghold. Though the brute-strength ogres rarely specialize in delicate metallurgy, Mo'grosh Crystals are prized treasures among their clan, carried by common enforcers, mystic shamans, and their towering leaders alike. The crystals are relatively uncommon, making them a heavily guarded possession within the Mo'grosh Stronghold.",
+   "body": "The Mo'grosh ogres mine these crystals in their stronghold in northeastern Loch Modan. Though the ogres favor brute strength over delicate metallurgy, their clan prizes the stones. Common enforcers, mystic shamans, and towering leaders carry them. The crystals are uncommon, so the ogres guard them closely within the Mo'grosh Stronghold.",
    "spoiler": 0
   },
   {
    "title": "Countering the Dark Iron Threat",
-   "body": "When intelligence reveals that Dark Iron saboteurs are plotting against the Stonewrought Dam, Chief Engineer Hinderweir seeks a Mo'grosh Crystal alongside spider lurker venom and crocolisk tears. By combining the crystalline mineral with these reactive reagents, the dwarven engineers can concoct a specialized compound capable of disarming and defusing volatile Dark Iron explosives before the valley can be flooded.",
+   "body": "Chief Engineer Hinderweir seeks a Mo'grosh Crystal, spider lurker venom, and crocolisk tears after learning Dark Iron saboteurs plan to attack the Stonewrought Dam. Dwarven engineers combine the mineral with these reagents to make a compound that disarms and defuses the volatile explosives before the valley can be flooded.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "where to find mogrosh crystal",
     "who drops mogrosh crystal"
    ],
-   "answer": "They are mined and held by the Mo'grosh ogres in northeastern Loch Modan. Any member of the clan within the Mo'grosh Stronghold\u2014including mystics, brutes, enforcers, and shamans\u2014might be carrying one."
+   "answer": "Mo'grosh ogres mine and keep the crystals in northeastern Loch Modan. Any clan member in the Mo'grosh Stronghold, including mystics, brutes, enforcers, and shamans, might carry one."
   },
   {
    "q": "What is the crystal used for?",
@@ -40,7 +40,7 @@
     "use of mogrosh crystal",
     "why hinderweir wants crystal"
    ],
-   "answer": "Chief Engineer Hinderweir at the Stonewrought Dam requires the crystal to prepare a neutralizing mixture. Blended with lurker venom and crocolisk tears, it serves to disarm Dark Iron explosives intended to sabotage the dam."
+   "answer": "Chief Engineer Hinderweir at the Stonewrought Dam needs a crystal to prepare a neutralizing mixture. Combined with lurker venom and crocolisk tears, it disarms Dark Iron explosives meant to sabotage the dam."
   },
   {
    "q": "Why are the ogres mining these crystals?",
@@ -48,17 +48,17 @@
     "why ogres have crystals",
     "ogre crystal lore"
    ],
-   "answer": "The Mo'grosh ogres mine the crystals in the hills around their stronghold, and even among the ogres the crystals are a very rare commodity. What the ogres themselves use them for is not recorded."
+   "answer": "The Mo'grosh ogres mine the rare crystals in the hills around their stronghold. What the ogres use them for is not recorded."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "The defense of the Stonewrought Dam depends on dwarven ingenuity, turning an ogre clan's mined treasure into a safeguard against Dark Iron treachery."
+   "text": "As a dwarf, you know that defending the Stonewrought Dam takes ingenuity. Dwarven engineers turn the ogres' mined treasure into protection against Dark Iron treachery."
   },
   {
    "target": "profession:Mining",
-   "text": "Though excavated deep within ogre territory, these raw mineral specimens demonstrate unique chemical reactivity when combined with organic reagents."
+   "text": "As a miner, you can see that these raw minerals come from deep within ogre territory. They react in unusual ways when combined with organic reagents."
   }
  ],
  "keywords": [
@@ -79,5 +79,6 @@
  "attribution": [
   "Mo'grosh Crystal",
   "A Dark Threat Looms (5)"
- ]
+ ],
+ "style": 1
 }

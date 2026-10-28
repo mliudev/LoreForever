@@ -246,8 +246,8 @@ test("promptParts reads the question, place and last answer the companion sent, 
   const p = promptParts("PLAYER CONTEXT\nzone: Wetlands\nsub: Baradin Bay\nquest in their log: Apprentice's Duties (ID 471)\n\n" +
     conversation("Q1", "A1") + "\n\nQUESTION\nWhat city is that?\n\nRESEARCH FOCUS: something");
   assert.deepEqual(p, { question: "What city is that?", zone: "Wetlands", sub: "Baradin Bay", faction: "", race: "",
-    class: "", level: "", previous: "A1", previousQuestion: "Q1", target: "",
-    quests: [{ title: "Apprentice's Duties", id: "471" }], savedPlace: "" });
+    class: "", level: "", previous: "A1", previousQuestion: "Q1", earlier: [], target: "",
+    quests: [{ title: "Apprentice's Duties", id: "471" }], savedPlace: "", onScreen: "" });
   const c = promptParts("CHARACTER\n...\n\nTHE ADVENTURER\nrace: Human\nWhere you both are: Southshore, Hillsbrad Foothills\n\n" +
     "THE ADVENTURER SAYS\nWhere does the boat go?");
   assert.equal(c.question, "Where does the boat go?");

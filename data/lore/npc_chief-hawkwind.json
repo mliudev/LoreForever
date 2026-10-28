@@ -8,21 +8,21 @@
   "wiki": "Chief Hawkwind",
   "refs": 10
  },
- "summary": "Chief Hawkwind is the tribal leader of Camp Narache, the proving grounds nestled in the Red Cloud Mesa of Mulgore. Responsible for guiding the youth of the Shu'halo, he mentors new adventurers as they embark on their traditional rites of passage. Under his watchful gaze, young braves learn humility, respect for the land, and the strength needed to protect their people.",
+ "summary": "At Camp Narache, Chief Hawkwind prepares young Shu'halo for the wider world. He guides their traditional rites of passage on Red Cloud Mesa in Mulgore, teaching humility, respect for the land, and the strength to protect their people.",
  "sections": [
   {
    "title": "Chieftain of the Mesa",
-   "body": "Standing at the heart of Camp Narache, Chief Hawkwind carries the solemn responsibility of preparing the next generation of tauren for the wider world. Red Cloud Mesa serves as a sheltered haven where fledgling hunters, shamans, druids, and warriors undertake the ancient Rites of the Earthmother. Hawkwind oversees these customs, ensuring that every youth learns duty and endurance before venturing beyond the safety of the mesa.",
+   "body": "Chief Hawkwind prepares young tauren at Camp Narache for life beyond Red Cloud Mesa. On the mesa, fledgling hunters, shamans, druids, and warriors undertake the ancient Rites of the Earthmother. Hawkwind oversees the customs, teaching each youth duty and endurance before they leave the mesa's safety.",
    "spoiler": 0
   },
   {
    "title": "Guiding the Rites",
-   "body": "Hawkwind's lessons begin with humility rather than martial glory. He sends initiates on simple chores, such as fetching clean spring water, to instill reverence for the natural world and their elders. Only after demonstrating a humble heart are braves guided toward tests of martial prowess, culminating in trials that test their resolve against the aggressive Bristleback quilboar encroaching upon the ancestral plains.",
+   "body": "Chief Hawkwind begins his lessons with humility, not martial glory. He sends initiates to fetch clean spring water and do other simple chores, teaching reverence for nature and their elders. Once they show humility, braves face tests of martial prowess. Their trials test their resolve against aggressive Bristleback quilboar encroaching on the ancestral plains.",
    "spoiler": 0
   },
   {
    "title": "Defending Camp Narache",
-   "body": "Beyond his role as a mentor, Chief Hawkwind must reckon with rising dangers right at his camp's doorstep. The Bristleback tribe has grown increasingly bold, pressing hard against the perimeter of Red Cloud Mesa. Hawkwind coordinates the defense of the settlement, tasking newly proven braves with blunting the quilboar assaults to ensure the sacred training grounds remain secure.",
+   "body": "Chief Hawkwind must also face dangers at Camp Narache's doorstep. The Bristleback tribe presses against Red Cloud Mesa's perimeter with growing boldness. Hawkwind coordinates the settlement's defense, sending newly proven braves to blunt quilboar assaults and keep the sacred training grounds secure.",
    "spoiler": 0
   }
  ],
@@ -34,7 +34,7 @@
     "chief hawkwind lore",
     "who is the chief at camp narache"
    ],
-   "answer": "Chief Hawkwind is the chieftain of Camp Narache in the Red Cloud Mesa. He oversees tribal matters in the area and mentors young tauren as they prepare to take their first steps into the wider world of Mulgore and Kalimdor."
+   "answer": "Chief Hawkwind leads Camp Narache on Red Cloud Mesa. He oversees tribal matters there and mentors young tauren preparing to enter the wider world of Mulgore and Kalimdor."
   },
   {
    "q": "What are the Rites of the Earthmother?",
@@ -43,7 +43,7 @@
     "rites of earthmother",
     "what are the rites"
    ],
-   "answer": "The Rites of the Earthmother are a traditional series of sacred trials undertaken by young tauren coming of age. Guided by elders like Chief Hawkwind, these rites test humility, strength, courage, and spiritual connection to the land and the ancestors."
+   "answer": "The Rites of the Earthmother are sacred trials that young tauren undertake as they come of age. Elders such as Chief Hawkwind guide the rites, which test humility, strength, courage, and spiritual ties to the land and ancestors."
   },
   {
    "q": "Why does Chief Hawkwind have you fetch water first?",
@@ -52,7 +52,7 @@
     "why fetch water",
     "hawkwind water quest"
    ],
-   "answer": "Hawkwind assigns 'A Humble Task' to remind young braves that service and respect for the community are as vital as martial strength. Gathering fresh water for tribal elders teaches patience and humility before initiates are sent into battle."
+   "answer": "Chief Hawkwind gives you the task of fetching water to teach that service and respect for the community matter as much as martial strength. Gathering fresh water for tribal elders teaches patience and humility before initiates face battle."
   },
   {
    "q": "What threat is Camp Narache facing?",
@@ -61,7 +61,7 @@
     "who is attacking camp narache",
     "quilboar camp narache"
    ],
-   "answer": "Camp Narache is under constant pressure from hostile Bristleback quilboar who inhabit the surrounding hills of Red Cloud Mesa. Chief Hawkwind must organize the defense of the mesa and send initiates to thin the quilboar ranks."
+   "answer": "Hostile Bristleback quilboar from the hills around Red Cloud Mesa keep pressure on Camp Narache. Chief Hawkwind organizes the mesa's defense and sends initiates to thin their ranks."
   },
   {
    "q": "Where does Chief Hawkwind send adventurers next?",
@@ -70,7 +70,7 @@
     "after camp narache",
     "leaving red cloud mesa"
    ],
-   "answer": "Once a young brave completes the preliminary rites on the mesa, Chief Hawkwind directs them down into the sprawling valleys of Mulgore, sending them to Bloodhoof Village to seek out Chief Baine Bloodhoof, son of Cairne, and continue the Rites of the Earthmother."
+   "answer": "After a young brave completes the preliminary rites on the mesa, Chief Hawkwind sends them down into Mulgore's valleys. They go to Bloodhoof Village to find Chief Baine Bloodhoof, son of Cairne, and continue the Rites of the Earthmother."
   },
   {
    "q": "Is Chief Hawkwind related to Greatmother Hawkwind?",
@@ -79,17 +79,17 @@
     "hawkwind family",
     "who is greatmother hawkwind"
    ],
-   "answer": "Yes, Greatmother Hawkwind is his mother. The Hawkwind family has long held deep roots and leadership roles among the tauren dwelling on Red Cloud Mesa."
+   "answer": "Yes. Greatmother Hawkwind is Chief Hawkwind's mother. Their family has deep roots and a long history of leadership among the tauren of Red Cloud Mesa."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "As the first chieftain to guide you on your journey, Chief Hawkwind instills the foundational values of the Shu'halo: reverence for the Earthmother, loyalty to the tribe, and humility in strength."
+   "text": "As a tauren, you learn the Shu'halo's first values from Chief Hawkwind: reverence for the Earthmother, loyalty to your tribe, and humility in strength."
   },
   {
    "target": "faction:Horde",
-   "text": "Hawkwind's teachings ensure that newly raised tauren braves step forward not just as capable warriors and spellcasters, but as steadfast and honorable allies to the young Horde."
+   "text": "As a member of the Horde, you join newly raised tauren braves shaped by Hawkwind's teachings into capable warriors and spellcasters, and steadfast, honorable allies."
   }
  ],
  "keywords": [
@@ -115,5 +115,6 @@
  ],
  "attribution": [
   "Chief Hawkwind"
- ]
+ ],
+ "style": 1
 }

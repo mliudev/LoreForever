@@ -8,11 +8,11 @@
   "wiki": "Innkeeper Firebrew",
   "refs": 1
  },
- "summary": "Innkeeper Firebrew manages the Stonefire Tavern in the bustling Commons of Ironforge. A genial host to weary mountaineers and visiting dignitaries alike, he serves hearty dwarven staples and keeps travelers rested beneath the mountain.",
+ "summary": "At Ironforge’s Commons, Innkeeper Firebrew keeps travelers fed and rested at the Stonefire Tavern. His hearty dwarven fare welcomes mountaineers and visiting dignitaries beneath the mountain.",
  "sections": [
   {
    "title": "Keeper of the Stonefire",
-   "body": "Situated in the central ring of the Commons, Innkeeper Firebrew's establishment is often the first sanctuary encountered by travelers entering through the Great Gates of Ironforge. Behind a counter laden with flagons of ale, skins of stout, and roasted joints of meat, Firebrew offers hospitality to adventurers bound for the snowy passes of Dun Morogh or deeper into the mountain kingdom. His tavern remains a lively crossroad where miners, riflemen, and emissaries gather to escape the drafty tunnels and exchange tales around the hearth.",
+   "body": "Innkeeper Firebrew welcomes travelers at the Stonefire Tavern in the Commons. The tavern sits in the Commons’ central ring, and many travelers entering Ironforge through the Great Gates find it first. Behind a counter laden with ale, stout, and roasted meat, Firebrew offers hospitality to those bound for Dun Morogh’s snowy passes or deeper into the mountain kingdom. Miners, riflemen, and emissaries gather there to escape the drafty tunnels and trade tales around the hearth. The Stonefire remains a lively crossroads in the heart of Ironforge.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "where is innkeeper firebrew",
     "ironforge tavern keeper"
    ],
-   "answer": "Innkeeper Firebrew is found inside the Stonefire Tavern, located along the southern edge of the Commons in Ironforge."
+   "answer": "Innkeeper Firebrew can be found inside the Stonefire Tavern, along the southern edge of Ironforge’s Commons."
   },
   {
    "q": "What kind of goods does Firebrew sell?",
@@ -33,7 +33,7 @@
     "firebrew drinks",
     "stonefire tavern food"
    ],
-   "answer": "He offers standard innkeeper provisions, specializing in robust dwarven rations. Travelers can purchase drinks ranging from local Dwarven Stout and Mead to imported wines, alongside meats and hearty meals suited for long journeys."
+   "answer": "Firebrew sells standard innkeeper provisions, including robust dwarven rations. Travelers can buy Dwarven Stout and Mead, imported wines, meats, and hearty meals for long journeys."
   },
   {
    "q": "Is Firebrew part of any dwarven brewing family?",
@@ -41,7 +41,7 @@
     "firebrew family",
     "who is firebrew related to"
    ],
-   "answer": "He bears the surname Firebrew, but his family relationships are not confirmed."
+   "answer": "Firebrew bears the surname Firebrew, but his family relationships are not confirmed."
   },
   {
    "q": "What services does he provide to travelers?",
@@ -49,17 +49,17 @@
     "can i bind hearthstone here",
     "ironforge hearthstone inn"
    ],
-   "answer": "As a tavern keeper, Firebrew allows travelers of the Alliance to bind their hearthstones to the Stonefire Tavern and provides a warm bed to rest and recover beneath the mountain."
+   "answer": "Firebrew lets Alliance travelers bind their hearthstones to the Stonefire Tavern. He also provides a warm bed where travelers can rest and recover beneath the mountain."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "For dwarves returning from patrols across Khaz Modan, Firebrew's tavern offers the comforting warmth of home and a reliable mug of dwarven stout."
+   "text": "As a dwarf returning from patrol across Khaz Modan, you can find the comforting warmth of home and a reliable mug of dwarven stout at Firebrew’s tavern."
   },
   {
    "target": "faction:Alliance",
-   "text": "As the primary innkeeper near the front gates, Firebrew provides foreign Alliance travelers a central, safe haven to rest when visiting King Magni Bronzebeard's capital."
+   "text": "As an Alliance traveler from abroad, you can rest at the central safe haven Firebrew keeps near Ironforge’s front gates, in King Magni Bronzebeard’s capital. Firebrew is the primary innkeeper there."
   }
  ],
  "keywords": [
@@ -81,5 +81,6 @@
  ],
  "attribution": [
   "Innkeeper Firebrew"
- ]
+ ],
+ "style": 1
 }

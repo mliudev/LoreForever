@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Xavian"
  },
- "summary": "Xavian is an ancient ruined night elf temple complex in northeastern Ashenvale, now overrun and claimed by the satyrs. Serving as the primary seat of satyr influence in the forest, the ruin is foul with demonic corruption and dark rites directed against the woodland.",
+ "summary": "Xavian lies in northeastern Ashenvale, where satyrs have claimed an ancient night elf temple. It is their chief seat in the forest, and they use its ruins for dark rites that spread demonic corruption through the woodland.",
  "sections": [
   {
    "title": "A Seat of Shadow",
-   "body": "Tucked away in the northeastern hills of Ashenvale, west of Forest Song and north of Satyrnaar, Xavian stands as the foremost bastion of satyr power in the region. Once a sacred elven temple, its stone arches and terraces have been desecrated by followers of the Burning Legion. Leaders among the satyrs, including Prince Raze and Geltharis, oversee their kin from these ruins. They perform defiling rituals across the grounds, even utilizing stolen Warsong oil to further blight the sacred woodland. The area takes its name from Xavius, the highborne councilor who became the first satyr during the War of the Ancients after failing Sargeras.",
+   "body": "Xavian lies in Ashenvale's northeastern hills, west of Forest Song and north of Satyrnaar. Satyrs hold the ruined temple, once sacred to the night elves, and make it their chief stronghold in the forest. Their leaders, including Prince Raze and Geltharis, direct their followers from its desecrated arches and terraces. Across the grounds, satyrs perform rites against the woodland and use stolen Warsong oil to blight it. The place bears the name of Xavius, a highborne councilor who became the first satyr during the War of the Ancients after failing Sargeras.",
    "spoiler": 0
   },
   {
    "title": "The Fallen Vanguard",
-   "body": "The corruption radiating from Xavian has not gone unchallenged, but confronting the satyrs comes at a grim price. Sentinels and woodland guardians keep a watchful eye on the stronghold, knowing its strategic malice eclipses nearby enclaves like Night Run. Recently, dryad defenders attempted to infiltrate the ruins to recover the sacred Branch of Cenarius, only to suffer grievous losses. Adventurers who breach the outer terraces can find the dying dryad Anilia, struck down while attempting to halt the defilers from using holy relics in their dark incantations.",
+   "body": "Sentinels and woodland guardians watch Xavian, though the satyrs' threat reaches beyond nearby enclaves such as Night Run. Dryad defenders recently entered the ruins to recover the sacred Branch of Cenarius, but suffered grievous losses. Anilia, a dryad, lies dying on the outer terraces. She was struck down while trying to stop the defilers from using holy relics in their dark incantations.",
    "spoiler": 1
   }
  ],
@@ -28,7 +28,7 @@
     "who is xavian named after",
     "xavius xavian"
    ],
-   "answer": "The stronghold is named in honor of Lord Xavius, the highborne courtier of Queen Azshara who helped usher the Burning Legion into Azeroth during the War of the Ancients. After displeasing Sargeras, Xavius was remade into the very first satyr, a demonic curse that spread to others of his kind."
+   "answer": "Xavian takes its name from Lord Xavius, Queen Azshara's highborne courtier. During the War of the Ancients, he helped bring the Burning Legion to Azeroth. After displeasing Sargeras, Xavius became the first satyr, and the demonic curse spread to others of his kind."
   },
   {
    "q": "What are the satyrs doing here?",
@@ -36,7 +36,7 @@
     "what are they doing in xavian",
     "xavian satyr rituals"
    ],
-   "answer": "The satyrs use Xavian as their primary command center in Ashenvale. They conduct dark rituals to spread demonic corruption throughout the ancient forest, utilizing defiled sacred relics like the stolen Branch of Cenarius as well as machinery oil pilfered from the Warsong orcs."
+   "answer": "The satyrs use Xavian as their chief command center in Ashenvale. They perform dark rites to spread demonic corruption through the ancient forest, using defiled sacred relics such as the stolen Branch of Cenarius and oil taken from the Warsong orcs."
   },
   {
    "q": "Who is the dying dryad lying on the ground?",
@@ -45,7 +45,7 @@
     "who is anilia",
     "dryad in xavian"
    ],
-   "answer": "Her name is Anilia. She was part of a dryad effort to recover the stolen Branch of Cenarius from the satyrs. She was mortally wounded during the skirmish and lies among the ruins, pleading for someone to reclaim the sacred branch before it is completely corrupted."
+   "answer": "The dying dryad is Anilia. She joined an effort to recover the stolen Branch of Cenarius from the satyrs and was mortally wounded in the skirmish. She lies among the ruins, pleading for someone to reclaim the sacred branch before corruption overtakes it."
   },
   {
    "q": "How does Xavian differ from Satyrnaar or Night Run?",
@@ -54,17 +54,17 @@
     "other satyr camps",
     "why is xavian important"
    ],
-   "answer": "While Satyrnaar and Night Run are notable satyr camps within Ashenvale, Xavian acts as the political and ritual heart of their forces in the forest. High-ranking satyr leaders such as Geltharis and Prince Raze make their base here among the ruins."
+   "answer": "Satyrnaar and Night Run are notable satyr camps in Ashenvale, while Xavian is the political and ritual heart of their forces in the forest. High-ranking leaders such as Geltharis and Prince Raze make their base among its ruins."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "Seeing the desecrated halls of an ancient temple defiled by the twisted descendants of the Highborne is a bitter offense to any night elf, demanding swift retribution."
+   "text": "As a night elf, the desecration of an ancient temple by the twisted descendants of the Highborne is a bitter offense. The halls call for swift retribution."
   },
   {
    "target": "class:Druid",
-   "text": "The satyrs here have stolen the Branch of Cenarius and use fel rites to corrupt the land; druids are called upon to reclaim the artifact and heal the grove's spiritual wounds."
+   "text": "As a druid, you are called to reclaim the Branch of Cenarius from the satyrs, who use fel rites to corrupt the land, and heal the grove's spiritual wounds."
   }
  ],
  "keywords": [
@@ -89,5 +89,6 @@
  ],
  "attribution": [
   "Xavian"
- ]
+ ],
+ "style": 1
 }

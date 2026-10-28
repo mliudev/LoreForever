@@ -214,11 +214,12 @@ test("her friends: where they come from, never the game's social panel (QA 10/19
 
 test("a Mac is offered only the keys it hears (LOR-844 step 6)", () => {
   const pc = "actions/1 talk.key";
-  const keys = d => d.parameters.properties.key.enum;
-  assert.ok(keys(toolDeclaration("talk", pc, { state: "voice now: Sprite" })).includes("mouse5"), "a PC: every key");
+  const takes = (d, key) => actionOf({ name: "talk", args: { op: "key", key } }, [d])?.args?.key;
+  const pcTalk = toolDeclaration("talk", pc, { state: "voice now: Sprite" });
+  assert.equal(takes(pcTalk, "mouse5"), "mouse5", "a PC: every key");
   const mac = toolDeclaration("talk", pc, { state: "voice now: Sprite\nkeys she hears: f5 f6 f9" });
-  assert.deepEqual(keys(mac), ["f5", "f6", "f9"]);
-  assert.equal(actionOf({ name: "talk", args: { op: "key", key: "mouse5" } }, [mac]), null);
+  assert.equal(takes(mac, "f9"), "f9");
+  assert.equal(takes(mac, "mouse5"), undefined);
 });
 
 test("past chats by voice: only by the titles the app's state lists (LOR-844 step 6)", () => {
@@ -254,8 +255,10 @@ test("every feature by voice: an app is offered only what it says it runs (LOR-8
   assert.deepEqual(talk.parameters.properties.op.enum, ["off", "key"]);
   assert.deepEqual(actionOf({ name: "talk", args: { op: "key", key: "f9" } }, [talk]),
     { id: "talk", args: { op: "key", key: "f9" }, label: "Use F9" });
-  for (const args of [{ op: "on" }, { op: "key", key: "w" }, { op: "key" }])
+  for (const args of [{ op: "on" }, { op: "key", key: "w" }])
     assert.equal(actionOf({ name: "talk", args }, [talk]), null, JSON.stringify(args));
+  // No key named: theirs to pick (willo-actions.json "pick"), so it comes back keyless for the site to show the card.
+  assert.equal(actionOf({ name: "talk", args: { op: "key" } }, [talk])?.args?.key, undefined);
   assert.equal(toolDeclaration("player", pc), null, "nothing of the Lore Player's");
   // Asked plainly, a change runs at once; a delete, money or consent never does.
   assert.equal(withNow({ id: "remarks", args: { op: "level", level: "off" } }).now, true);

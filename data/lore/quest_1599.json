@@ -17,21 +17,21 @@
   "wiki": "Beginnings",
   "chain": []
  },
- "summary": "Beginnings is a rite of passage for fledgling Alliance warlocks starting in Dun Morogh. Under the begrudging tutelage of Alamar Grimm, novices are dispatched to harvest magical feather charms from nearby Frostmane troll novices to prove their competence before mastering the art of summoning an imp.",
+ "summary": "In Dun Morogh, Alliance warlock novices face their first trial under Alamar Grimm. They gather magical feather charms from Frostmane troll novices before learning to summon an imp.",
  "sections": [
   {
    "title": "A Reluctant Mentor",
-   "body": "Within the safe haven of Anvilmar, dark magic is not openly celebrated, but it is tolerated out of necessity. Alamar Grimm, an established warlock, conducts his occult research in relative discretion. When new practitioners show raw promise, Grimm is asked by unnamed parties who have taken an interest in the recruit to step away from his studies and assess the recruits personally.",
+   "body": "At Anvilmar, dark magic is tolerated out of necessity, though it is not openly celebrated. Alamar Grimm, an established warlock, pursues occult research in relative discretion. When a recruit shows raw promise, influential voices take an interest. Their pressure convinces Grimm to leave his studies and assess the novice himself.",
    "spoiler": 0
   },
   {
    "title": "The Spark of Dark Magic",
-   "body": "Before granting a novice the secrets to enslaving lesser demons, Grimm requires practical proof of both physical endurance and magical affinity. Nearby Frostmane troll novices, gathering in a cave southwest of Anvilmar, carry primitive feather charms infused with subtle primal magics. Harvesting these charms proves the aspiring warlock can conquer a magical adversary, while also providing Grimm with curious specimens for his ongoing research.",
+   "body": "Before teaching a novice to enslave lesser demons, Grimm demands proof of physical endurance and magical affinity. Frostmane troll novices gather in a cave southwest of Anvilmar, carrying primitive feather charms infused with subtle primal magic. The novice must defeat these magical adversaries and take their charms. The trial proves the novice can overcome a magical foe, while giving Grimm curious specimens for his research.",
    "spoiler": 0
   },
   {
    "title": "Summoning the Imp",
-   "body": "Returning with the charms satisfies Grimm that the novice has sufficient will to survive. The trial culminates in teaching the summoning of the imp, the warlock's most foundational minion. Grimm offers a stern warning alongside the ritual: despite their diminutive stature, imps wield chaotic fire magic that can easily overpower an undisciplined master.",
+   "body": "The charms satisfy Grimm that the novice has sufficient will to survive. He then teaches the summoning of an imp, the warlock's most basic minion. Grimm warns that an imp's small size hides chaotic fire magic, and an undisciplined master can easily be overpowered.",
    "spoiler": 0
   }
  ],
@@ -43,7 +43,7 @@
     "beginnings quest giver",
     "alamar grimm location"
    ],
-   "answer": "Alamar Grimm gives the quest. He is a warlock trainer located inside Anvilmar in Coldridge Valley, Dun Morogh."
+   "answer": "Alamar Grimm gives the trial. He is a warlock trainer inside Anvilmar in Coldridge Valley, Dun Morogh."
   },
   {
    "q": "What are the feather charms used for?",
@@ -52,7 +52,7 @@
     "feather charm purpose",
     "frostmane charms"
    ],
-   "answer": "The feather charms serve a dual purpose: they prove an aspiring warlock can face and defeat magically adept enemies, and they provide Alamar Grimm with curious enchanted troll trinkets to examine in his research."
+   "answer": "The feather charms prove an aspiring warlock can face and defeat magically adept enemies. They are enchanted troll trinkets that give Alamar Grimm curious specimens to examine in his research."
   },
   {
    "q": "Where are the Frostmane novices located?",
@@ -61,7 +61,7 @@
     "frostmane cave location",
     "frostmane novice spot"
    ],
-   "answer": "They reside in a cave to the southwest of Anvilmar in Coldridge Valley, where the Frostmane trolls have established a presence."
+   "answer": "Frostmane troll novices gather in a cave southwest of Anvilmar in Coldridge Valley, where the Frostmane trolls have established a presence."
   },
   {
    "q": "What reward does a warlock gain upon completing this task?",
@@ -70,7 +70,7 @@
     "quest reward beginnings",
     "imp spell quest"
    ],
-   "answer": "Completing the task earns Alamar Grimm's approval and grants the knowledge required to summon an imp, a warlock's first demonic companion."
+   "answer": "The trial earns Alamar Grimm's approval and teaches a warlock to summon an imp, their first demonic companion."
   },
   {
    "q": "Why is Alamar Grimm teaching new warlocks?",
@@ -78,7 +78,7 @@
     "why does alamar train me",
     "who told alamar to train me"
    ],
-   "answer": "Grimm mentions that influential voices have taken an interest in the fledgling warlock, convincing him to pause his private occult studies to test and mentor the recruit."
+   "answer": "Influential voices take an interest in the fledgling warlock, convincing Grimm to pause his private occult studies and test and mentor the recruit."
   },
   {
    "q": "Is the imp dangerous for a novice warlock?",
@@ -87,17 +87,17 @@
     "can imps kill you",
     "imp warnings"
    ],
-   "answer": "Yes. Alamar Grimm explicitly cautions that despite an imp's small size, its fel fire and cunning make it volatile, and an inexperienced summoner can easily be overpowered by one."
+   "answer": "Yes. Alamar Grimm warns that an imp's small size hides volatile fel fire and cunning, and an inexperienced summoner can easily be overpowered by one."
   }
  ],
  "angles": [
   {
    "target": "class:Warlock",
-   "text": "This quest marks the defining first step of an Alliance warlock's journey in Dun Morogh, unlocking the ability to summon your first demonic servant."
+   "text": "As an Alliance warlock, this is your defining first step in Dun Morogh, unlocking the ability to summon your first demonic servant."
   },
   {
    "target": "race:Gnome",
-   "text": "Gnome warlocks learning their craft in Coldridge Valley must prove their intellect and magical dominance by outsmarting the local Frostmane trolls."
+   "text": "As a gnome warlock learning your craft in Coldridge Valley, you must prove your intellect and magical dominance by outsmarting the local Frostmane trolls."
   }
  ],
  "keywords": [
@@ -118,5 +118,6 @@
  ],
  "attribution": [
   "Beginnings"
- ]
+ ],
+ "style": 1
 }

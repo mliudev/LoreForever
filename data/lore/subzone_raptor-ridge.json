@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Raptor Ridge"
  },
- "summary": "Raptor Ridge is an elevated, rugged expanse in the eastern Wetlands, sitting northwest of the fortified Dragonmaw Gates. It serves as the primary hunting and nesting grounds for packs of ferocious Razormaw raptors, overseen by a particularly vicious matriarch deep within its caverns.",
+ "summary": "Raptor Ridge rises above the eastern Wetlands, northwest of the Dragonmaw Gates. Razormaw raptors hunt and nest among its crags, with a vicious matriarch deep in the caverns.",
  "sections": [
   {
    "title": "A Den of Predators",
-   "body": "Rising above the sodden marshes of the eastern Wetlands, Raptor Ridge is among the most perilous wilderness areas in the region. Vicious Razormaw raptors prowl its crags and rocky trails in large packs, making travel near the foothills of Khaz Modan hazardous for wanderers. At the heart of the ridge lies a brooding cavern dominated by the Razormaw Matriarch, whose aggressive brood aggressively defends their nests against any encroaching predators or foolish travelers wandering too close to the Dragonmaw Gates.",
+   "body": "Razormaw raptors hunt in packs across Raptor Ridge, where rocky trails climb above the eastern Wetlands. Travelers near the foothills of Khaz Modan risk meeting these predators. In a cavern at the ridge's heart, the Razormaw Matriarch guards her brood and nests from intruders. The Dragonmaw Gates lie close by.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "where is raptor ridge",
     "how to get to raptor ridge"
    ],
-   "answer": "Raptor Ridge lies in the far eastern reaches of the Wetlands, directly northwest of the Dragonmaw Gates that guard the road up toward Grim Batol."
+   "answer": "Raptor Ridge rises in the far eastern Wetlands, directly northwest of the Dragonmaw Gates on the road toward Grim Batol."
   },
   {
    "q": "What creatures live here?",
@@ -32,7 +32,7 @@
     "raptors in wetlands",
     "raptor ridge beasts"
    ],
-   "answer": "The ridge is crawling with Razormaw raptors. Deep within its cavern, travelers will also find the Razormaw Matriarch guarding her nests and hatchlings."
+   "answer": "Razormaw raptors roam the ridge. Deep in its cavern, the Razormaw Matriarch guards her nests and hatchlings."
   },
   {
    "q": "Who is the Razormaw Matriarch?",
@@ -41,7 +41,7 @@
     "raptor matriarch wetlands",
     "raptor boss wetlands"
    ],
-   "answer": "The Razormaw Matriarch is the massive, deadly leader of the local raptor packs, brooding over her clutch inside the ridge's central cave."
+   "answer": "The Razormaw Matriarch leads the local raptor packs and broods over her clutch in the ridge's central cave."
   },
   {
    "q": "Why is the area so dangerous to traverse?",
@@ -49,13 +49,13 @@
     "is raptor ridge dangerous",
     "raptor ridge threat"
    ],
-   "answer": "Aside from dense packs of aggressive, fast-moving raptors that swarm trespassers, the ridge sits right in the shadow of hostile Dragonmaw orc territory near the mountain passes."
+   "answer": "Dense packs of aggressive, fast-moving raptors swarm trespassers. The ridge also lies in the shadow of hostile Dragonmaw orc territory near the mountain passes."
   }
  ],
  "angles": [
   {
    "target": "class:Hunter",
-   "text": "The fierce Razormaw raptors of the ridge make potent, aggressive beasts for any hunter seeking a swift and tenacious marshland companion."
+   "text": "As a hunter, you can seek a swift, tenacious marshland companion among the fierce Razormaw raptors of the ridge."
   }
  ],
  "keywords": [
@@ -73,5 +73,6 @@
  ],
  "attribution": [
   "Raptor Ridge"
- ]
+ ],
+ "style": 1
 }

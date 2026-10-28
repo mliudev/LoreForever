@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Misty Pine Refuge"
  },
- "summary": "Misty Pine Refuge is a small outpost building of the Argent Dawn tucked amidst the frigid snows of central Dun Morogh.",
+ "summary": "At Misty Pine Refuge, the Argent Dawn keeps a small outpost in central Dun Morogh.",
  "sections": [
   {
    "title": "Shelter in the Snow",
-   "body": "Situated amid the windswept hills of Dun Morogh, Misty Pine Refuge is an unassuming outpost of the Argent Dawn in the dwarven realm. While the surrounding crags are patrolled by Ironforge mountaineers, the refuge is home to Father Gavin, the order's lone agent here, who offers a quiet hearth amid the bitter elements and the perils that threaten the mountain roads.",
+   "body": "Misty Pine Refuge is an unassuming Argent Dawn outpost among Dun Morogh's windswept hills. Ironforge mountaineers patrol the surrounding crags, while Father Gavin, the order's lone agent here, keeps a quiet hearth amid the bitter cold and dangers of the mountain roads.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "misty pine",
     "misty pine refuge overview"
    ],
-   "answer": "It is an outpost building of the Argent Dawn in central Dun Morogh, kept by a single agent of the order, Father Gavin."
+   "answer": "Misty Pine Refuge is a small Argent Dawn outpost in central Dun Morogh, kept by the order's single agent there, Father Gavin."
   },
   {
    "q": "Why is the Argent Dawn here in Dun Morogh?",
@@ -32,7 +32,7 @@
     "father gavin argent dawn",
     "argent dawn dwarf lands"
    ],
-   "answer": "While the Argent Dawn focuses primarily on the undead menace in the north, agents like Father Gavin keep watch from quieter corners of the Alliance's lands as well."
+   "answer": "Though the Argent Dawn focuses chiefly on the undead menace in the north, agents such as Father Gavin keep watch in quieter corners of Alliance lands."
   },
   {
    "q": "Who stays at the refuge?",
@@ -40,13 +40,13 @@
     "who is at misty pine",
     "misty pine npcs"
    ],
-   "answer": "Father Gavin, an agent of the Argent Dawn, is the only member of the order stationed at the refuge."
+   "answer": "Father Gavin, an Argent Dawn agent, is the order's only member stationed at the refuge."
   }
  ],
  "angles": [
   {
    "target": "class:Priest",
-   "text": "Father Gavin's humble post demonstrates that the Light's service often lies in quiet vigilance far from the battlefields."
+   "text": "As a priest, you can see Father Gavin's humble post as an example of the Light's service through quiet vigilance, far from the battlefields."
   }
  ],
  "keywords": [
@@ -62,5 +62,6 @@
  ],
  "attribution": [
   "Misty Pine Refuge"
- ]
+ ],
+ "style": 1
 }

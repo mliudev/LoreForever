@@ -8,11 +8,11 @@
   "wiki": "Kuray'bin",
   "refs": 1
  },
- "summary": "Kuray'bin is a Darkspear jungle troll scout stationed at a guard post outside Splintertree Post in Ashenvale. He watches the surrounding forest trails for night elf scouts sneaking close to the Horde encampment.",
+ "summary": "Kuray'bin watches the forest trails outside Splintertree Post in Ashenvale. The Darkspear scout guards the Horde encampment from night elf scouts.",
  "sections": [
   {
    "title": "Eyes on the Forest Edge",
-   "body": "Positioned just outside Splintertree Post, Kuray'bin keeps watch against Alliance infiltration in the deep woods of Ashenvale. The Silverwing Sentinels constantly patrol the surrounding canopy, sending agile outrunners across the border to gather intelligence on Horde lumber operations and defenses. Knowing that unmonitored scouts quickly become ambushing forces, Kuray'bin directs capable Horde fighters to hunt down the outrunners before they can report back to Silverwing Outpost.",
+   "body": "Outside Splintertree Post, Kuray'bin watches the forest for Alliance scouts. Silverwing Sentinels patrol the canopy and send swift outrunners across the border. Their task is to gather intelligence on Horde lumber operations and defenses. Kuray'bin sends Horde fighters to hunt the outrunners before they can report to Silverwing Outpost, since scouts left unchecked can become an ambushing force.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "who is kuraybin",
     "splintertree troll scout"
    ],
-   "answer": "Kuray'bin is a Darkspear troll watchman stationed outside Splintertree Post in Ashenvale. He tasks Horde adventurers with culling hostile night elf scouts lurking in the surrounding woodland."
+   "answer": "Kuray'bin is a Darkspear troll watchman outside Splintertree Post in Ashenvale. He sends Horde fighters to hunt night elf scouts in the surrounding woods."
   },
   {
    "q": "Where can I find Kuray'bin?",
@@ -32,7 +32,7 @@
     "kuraybin location",
     "where is kuraybin"
    ],
-   "answer": "He is located just outside the stockade gates of Splintertree Post, guarding the road approaches in central-eastern Ashenvale."
+   "answer": "Kuray'bin stands just outside Splintertree Post's stockade gates, watching the road approaches in central-eastern Ashenvale."
   },
   {
    "q": "Why does Kuray'bin want the Silverwing Outrunners dead?",
@@ -40,7 +40,7 @@
     "why kill outrunners",
     "ashenvale outrunners quest lore"
    ],
-   "answer": "The outrunners are Silverwing Sentinels infiltrating close to Splintertree Post. Kuray'bin wants them eliminated before they gather tactical intelligence on the Horde's positions or coordinate surprise assaults."
+   "answer": "Silverwing Outrunners are Silverwing Sentinels scouting close to Splintertree Post. Kuray'bin wants them stopped before they can gather intelligence on Horde positions or coordinate surprise attacks."
   },
   {
    "q": "Does Kuray'bin offer any other tasks?",
@@ -48,17 +48,17 @@
     "kuraybin quests",
     "kuray bin task"
    ],
-   "answer": "No. His single duty at the outpost perimeter is overseeing counter-scouting against the elusive night elf outrunners."
+   "answer": "No. Kuray'bin's duty at the outpost perimeter is to oversee the effort against the night elf outrunners."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "Kuray'bin represents the frontline vigilance necessary to keep Splintertree Post from being surrounded and overrun by night elf guerillas."
+   "text": "As a member of the Horde, you can see why Kuray'bin keeps watch: night elf guerrillas could surround and overrun Splintertree Post."
   },
   {
    "target": "race:Troll",
-   "text": "Like many Darkspear scouts serving the Horde, Kuray'bin uses his jungle tracking instincts to detect night elf infiltrators where others see only trees."
+   "text": "As a troll, you share the jungle tracking instincts Kuray'bin uses to spot night elf scouts among the trees."
   }
  ],
  "keywords": [
@@ -80,5 +80,6 @@
  ],
  "attribution": [
   "Kuray'bin"
- ]
+ ],
+ "style": 1
 }

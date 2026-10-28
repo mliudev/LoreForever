@@ -10,11 +10,11 @@
    "quest:1205"
   ]
  },
- "summary": "Deadmire's Tooth is a trophy taken from the ancient crocolisk known as Deadmire, who stalks the murky waters of Dustwallow Marsh. Bringing it to the hunter Melor Stonehoof atop Thunder Bluff proves that the aging predator has been granted a merciful and honorable death.",
+ "summary": "In Dustwallow Marsh, Deadmire stalks the murky waters, and his tooth marks an honorable hunt. Melor Stonehoof on Hunter Rise in Thunder Bluff receives it as proof that the ancient crocolisk's suffering has ended.",
  "sections": [
   {
    "title": "A Trophy of Mercy",
-   "body": "In the traditions of the tauren hunters on Hunter Rise, tracking wild beasts is not merely a test of martial prowess or mindless bloodsport. It is a spiritual covenant of balance, reverence, and occasionally, mercy. Deadmire was once one of the most magnificent crocolisks in Dustwallow Marsh, but his great age turned his final years into excruciating torment. Despite possessing the unyielding spirit and terrifying ferocity of his prime, his massive bones and failing body became a prison of endless pain. Claiming Deadmire's Tooth serves as physical proof to Melor Stonehoof that the beast's prolonged suffering has finally been brought to an end through an honorable hunt.",
+   "body": "Tauren hunters on Hunter Rise see the hunt as a bond of balance, reverence, and mercy. Deadmire was once among the most magnificent crocolisks in Dustwallow Marsh. Great age turned his final years to torment, though he kept the fierce spirit of his prime. His massive bones and failing body had become a prison of pain. Deadmire's Tooth gives Melor Stonehoof proof that an honorable hunt has ended the beast's suffering.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "who wants deadmire tooth",
     "what do i do with deadmire tooth"
    ],
-   "answer": "The tooth is brought to Melor Stonehoof on the Hunter Rise in Thunder Bluff. It fulfills the hunt he assigns to track down Deadmire and grants proof that the ancient predator was given a merciful release."
+   "answer": "Bring the tooth to Melor Stonehoof on Hunter Rise in Thunder Bluff. It completes the hunt he assigns and proves Deadmire has been given a merciful release."
   },
   {
    "q": "Where does Deadmire's Tooth come from?",
@@ -35,7 +35,7 @@
     "who drops deadmire tooth",
     "deadmire location"
    ],
-   "answer": "The tooth is taken directly from Deadmire, an enormous, ancient crocolisk prowling the swamps of southern Dustwallow Marsh, roaming the waters east of Tabetha's Farm."
+   "answer": "Deadmire's Tooth comes from Deadmire, an enormous ancient crocolisk in southern Dustwallow Marsh. He roams the waters east of Tabetha's Farm."
   },
   {
    "q": "Why does Melor Stonehoof want Deadmire killed?",
@@ -44,17 +44,17 @@
     "melor stonehoof reason",
     "is deadmire evil"
    ],
-   "answer": "Melor does not view Deadmire as a monster, but as a noble creature enduring maddening physical agony in his old age. The hunt is an act of mercy, allowing the crocolisk's flame to pass on peacefully rather than waste away in slow torment."
+   "answer": "Melor Stonehoof sees Deadmire as a noble creature enduring terrible pain in old age. The hunt offers mercy, letting the crocolisk's flame pass peacefully instead of leaving him to waste away in torment."
   }
  ],
  "angles": [
   {
    "target": "class:Hunter",
-   "text": "For hunters learning under the mentors of Hunter Rise, claiming this tooth is a lesson that the hunt must incorporate respect and mercy, not just the pursuit of trophies."
+   "text": "As a hunter learning from the mentors of Hunter Rise, you learn that the hunt calls for respect and mercy as well as the pursuit of trophies."
   },
   {
    "target": "race:Tauren",
-   "text": "The hunt for Deadmire embodies the Earth Mother's cycle of balance, where elderly predators are guided toward peace rather than left to suffer."
+   "text": "As a tauren, you see Deadmire's hunt as part of the Earth Mother's cycle of balance. Elderly predators are guided toward peace instead of being left to suffer."
   }
  ],
  "keywords": [
@@ -76,5 +76,6 @@
  "attribution": [
   "Deadmire's Tooth",
   "Deadmire (quest)"
- ]
+ ],
+ "style": 1
 }

@@ -21,16 +21,16 @@
    "The Night Watch (3)"
   ]
  },
- "summary": "Tasked by Commander Althea Ebonlocke in Darkshire, this mission enlists adventurers to thin the ranks of undead rising in the nearby Tranquil Gardens Cemetery. Abandoned by Stormwind's official garrison, Darkshire's local militia relies on traveling mercenaries to stem the encroaching horrors.",
+ "summary": "In Darkshire, Commander Althea Ebonlocke calls for help against the dead rising nearby. Stormwind’s garrison has left the town to its local militia, which depends on travelers to hold back the undead at Tranquil Gardens Cemetery.",
  "sections": [
   {
    "title": "Abandoned by the Crown",
-   "body": "Duskwood once stood under the shield of Stormwind, but as royal resources stretched thin and political discord gripped the capital, the crown withdrew its commissioned soldiers. Darkshire was left largely defenseless against the encroaching shadows. In response, the people of the forest formed the Night Watch, a homegrown militia now led by Commander Althea Ebonlocke, standing between the cursed forest and the town's remaining residents.",
+   "body": "Stormwind once protected Duskwood, but royal resources ran thin and political discord gripped the capital. The crown withdrew its commissioned soldiers, leaving Darkshire largely defenseless against the forest’s encroaching shadows. The people formed the Night Watch, a local militia led by Commander Althea Ebonlocke. It stands between the cursed forest and the town’s remaining residents.",
    "spoiler": 0
   },
   {
    "title": "Clearing the Tranquil Gardens",
-   "body": "South of Darkshire lies the Tranquil Gardens Cemetery, a once-peaceful resting place now crawling with restless skeletons and reanimated spellcasters. With the Night Watch spread perilously thin across Duskwood's borders, Commander Ebonlocke directs incoming adventurers to strike down Skeletal Warriors and Skeletal Mages before the cemetery's dead spill onto the roads.",
+   "body": "South of Darkshire, Tranquil Gardens Cemetery was once a peaceful resting place. Now it is an active burial site crawling with restless skeletons and reanimated spellcasters. The Night Watch is stretched thin along Duskwood’s borders, so Commander Ebonlocke directs arriving travelers to strike down Skeletal Warriors and Skeletal Mages before the dead spill onto the roads.",
    "spoiler": 0
   }
  ],
@@ -42,7 +42,7 @@
     "why darkshire weak",
     "why no guards"
    ],
-   "answer": "Stormwind recalled its official garrison from Duskwood, leaving the town of Darkshire to fend for itself. The Night Watch is merely a localized militia without the manpower or supplies to fight off the surging undead across the entire territory without auxiliary aid."
+   "answer": "Stormwind recalled its official garrison from Duskwood, leaving Darkshire to fend for itself. The Night Watch is a local militia without the people or supplies to fight the undead across the whole territory without help."
   },
   {
    "q": "Who is Commander Althea Ebonlocke?",
@@ -51,7 +51,7 @@
     "commander ebonlocke",
     "althea ebonlocke lore"
    ],
-   "answer": "Althea Ebonlocke is a relative of Darkshire's mayor, Lord Ello Ebonlocke, and the resolute commander of the Night Watch. She took up the duty of organizing the town's defenses and rallying any able bodies willing to stand against Duskwood's dark menaces."
+   "answer": "Althea Ebonlocke is a relative of Darkshire’s mayor, Lord Ello Ebonlocke, and commands the Night Watch. She organizes the town’s defenses and rallies anyone able to stand against Duskwood’s dark menaces."
   },
   {
    "q": "Where is the Tranquil Gardens Cemetery?",
@@ -60,7 +60,7 @@
     "where is cemetery",
     "where to find skeletons"
    ],
-   "answer": "Tranquil Gardens Cemetery lies just south of Darkshire. It serves as an active burial site that has fallen victim to the dark magic permeating Duskwood, causing the dead to rise and harass travelers near the town's perimeter."
+   "answer": "Tranquil Gardens Cemetery lies just south of Darkshire. It remains an active burial site, but dark magic in Duskwood has caused the dead to rise and harass travelers near the town’s edge."
   },
   {
    "q": "What creatures are rising in the Tranquil Gardens?",
@@ -68,7 +68,7 @@
     "what undead are there",
     "skeletons in duskwood"
    ],
-   "answer": "The cemetery is overrun primarily by animated Skeletal Warriors and Skeletal Mages. Unlike ordinary corpses, these remains retain residual martial skill and arcane power, making them a lethal threat to common townfolk."
+   "answer": "Animated Skeletal Warriors and Skeletal Mages overrun the cemetery. Unlike ordinary corpses, these remains retain martial skill and arcane power, making them a lethal threat to common townfolk."
   },
   {
    "q": "Is Stormwind sending any reinforcements?",
@@ -76,7 +76,7 @@
     "stormwind help duskwood",
     "will stormwind send troops"
    ],
-   "answer": "No. Stormwind has retracted its commissioned guards from their posts, leaving the remote frontier of Duskwood entirely to its own devices."
+   "answer": "No. Stormwind withdrew its commissioned guards, leaving remote Duskwood to fend for itself."
   },
   {
    "q": "Does this assignment end the threat at the cemetery?",
@@ -84,21 +84,21 @@
     "is this the only quest",
     "night watch chain"
    ],
-   "answer": "No, culling the skeletons at Tranquil Gardens is only the opening effort. The Night Watch faces mounting threats deeper in the woods, requiring further expeditions to manage the territory's worsening corruption."
+   "answer": "No. Clearing skeletons from Tranquil Gardens is only the first effort. The Night Watch faces growing threats deeper in the woods, and further expeditions are needed to manage Duskwood’s worsening corruption."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "For Alliance loyalists, this duty exposes the bitter truth of Stormwind's neglect, showing frontier citizens forced to bleed for their own survival without royal aid."
+   "text": "For Alliance loyalists, this duty reveals Stormwind’s neglect: frontier citizens must fight for their own survival without royal aid."
   },
   {
    "target": "class:Paladin",
-   "text": "Tranquil Gardens represents an affront to the Light, where the desecrated graves of fallen citizens demand consecrated steel and righteous judgment."
+   "text": "As a paladin, you face an affront to the Light at Tranquil Gardens, where desecrated graves call for consecrated steel and righteous judgment."
   },
   {
    "target": "class:Priest",
-   "text": "Laying these tormented, restless skeletons to rest is an act of spiritual mercy in a land suffocating under sinister curses."
+   "text": "As a priest, you can lay tormented, restless skeletons to rest as an act of spiritual mercy in a land under sinister curses."
   }
  ],
  "keywords": [
@@ -120,5 +120,6 @@
  ],
  "attribution": [
   "The Night Watch (Classic)"
- ]
+ ],
+ "style": 1
 }

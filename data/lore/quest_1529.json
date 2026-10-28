@@ -17,16 +17,16 @@
   "wiki": "Call of Water (Thunder Bluff)",
   "chain": []
  },
- "summary": "Call of Water is an initiation rite that directs rising Horde shaman from the heights of Thunder Bluff toward the eastern shores of the Barrens. To commune with the cleansing element of water, an initiate must seek out the recluse Islen Waterseer. This meeting marks the first step on a spiritual journey to earn the Water Totem.",
+ "summary": "Your path to the Call of Water begins in Thunder Bluff, where a shaman is ready to seek the element of water. To meet Islen Waterseer, you travel east across the Barrens to its eastern shore. The meeting begins a spiritual journey toward the Water Totem.",
  "sections": [
   {
    "title": "A Summons from the Bluff",
-   "body": "Having mastered the unyielding earth and the untamed flame, an aspiring shaman is eventually deemed ready to study the deeper mysteries of the elements. In Thunder Bluff, trainers like Xanis Flameweaver recognize when a student has shown enough discipline to approach the fluid, cleansing spirit of water. The journey requires leaving the windswept mesas of Mulgore behind and traveling east across the sun-scorched plains of the Barrens.",
+   "body": "You have mastered earth and fire, and now your trainers judge you ready to study water. In Thunder Bluff, Xanis Flameweaver recognizes when you have shown the discipline to approach this cleansing element. Your path leads away from Mulgore's mesas and east across the dry plains of the Barrens.",
    "spoiler": 0
   },
   {
    "title": "The Hermit of the Coast",
-   "body": "The path leads to Islen Waterseer, a quiet mystic who lives away from the bustling settlements, residing in a humble fishing shack on the eastern coast south of Ratchet and the mouth of the Southfury River. Standing at the edge of the great ocean, Islen reads the readiness of travelers by how the elements linger about them. Seeing the steady earth, the brisk wind, and the warmth of fire already bound to the seeker's spirit, she prepares them for the trials required to understand water's purity.",
+   "body": "You find Islen Waterseer in a fishing shack on the eastern coast, south of Ratchet and the mouth of the Southfury River. She lives apart from the settlements, beside the open ocean. Islen reads your readiness in the elements around you. Earth, wind, and fire already touch your spirit, and she prepares you for trials that will teach you the purity of water.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who starts call of water",
     "where to get call of water tb"
    ],
-   "answer": "Shaman trainers in Thunder Bluff, such as Xanis Flameweaver, bestow this quest once an initiate has advanced far enough in their spiritual training to pursue the rites of water."
+   "answer": "A shaman trainer in Thunder Bluff, such as Xanis Flameweaver, sends you once your training has brought you to the rites of water."
   },
   {
    "q": "Where is Islen Waterseer located?",
@@ -47,7 +47,7 @@
     "islen location",
     "find islen"
    ],
-   "answer": "Islen Waterseer lives in a lonely fishing hut on the eastern coast of the Barrens. Her dwelling sits along the shore south of Ratchet and south of where the Southfury River meets the sea."
+   "answer": "Islen Waterseer lives in a fishing hut on the eastern coast of the Barrens, south of Ratchet and the Southfury River's mouth."
   },
   {
    "q": "What is the purpose of the Call of Water trial?",
@@ -56,7 +56,7 @@
     "call of water purpose",
     "shaman water totem quest"
    ],
-   "answer": "The trial is an essential rite of passage for every shaman seeking communion with water. It tests the initiate's understanding of elemental purity and leads directly to earning their Water Totem."
+   "answer": "The trial begins a shaman's communion with water, testing your understanding of its purity and leading toward the Water Totem."
   },
   {
    "q": "Do other Horde races receive this same instruction?",
@@ -65,7 +65,7 @@
     "orc call of water",
     "troll call of water"
    ],
-   "answer": "While the introductory summons in Thunder Bluff is typically taken by tauren, orc and troll shaman in Orgrimmar and Durotar receive similar calls to seek out Islen Waterseer on the Barrens coast."
+   "answer": "Tauren shaman receive the summons in Thunder Bluff. Orc and troll shaman in Orgrimmar and Durotar receive similar calls to find Islen Waterseer on the Barrens coast."
   },
   {
    "q": "What elements must a shaman master before water?",
@@ -74,7 +74,7 @@
     "which totems first",
     "elemental order"
    ],
-   "answer": "A shaman communes with the steady earth and the destructive yet life-giving fire before seeking the fluid nature of water. As Islen notes upon your arrival, earth, wind, and fire must already touch your spirit before water will reveal its purity."
+   "answer": "Before seeking water, you commune with earth and fire. Islen also sees earth, wind, and fire touching your spirit before water reveals its purity."
   },
   {
    "q": "What happens after finding Islen Waterseer?",
@@ -83,21 +83,21 @@
     "after finding islen",
     "call of water part 2"
    ],
-   "answer": "Speaking with Islen concludes the initial journey from Thunder Bluff. She will immediately challenge you with further tasks across Kalimdor to understand and purify the element of water directly."
+   "answer": "Finding Islen completes your journey from Thunder Bluff. She then sets further tasks across Kalimdor to help you understand and purify water."
   }
  ],
  "angles": [
   {
    "target": "class:Shaman",
-   "text": "This rite marks the transition from early elemental trials toward mastering the fluid powers of cleansing, restoration, and tide."
+   "text": "As a shaman, you move from early elemental trials toward the cleansing, restorative powers of water and tide."
   },
   {
    "target": "race:Tauren",
-   "text": "Starting in Thunder Bluff, this task carries young shu'halo shaman out from Mulgore's sheltered plains into the wider expanse of Kalimdor."
+   "text": "As a tauren, you leave Mulgore's sheltered plains from Thunder Bluff and travel into the wider reaches of Kalimdor."
   },
   {
    "target": "faction:Horde",
-   "text": "Shamanism remains a bedrock of the new Horde, linking ancient traditions across orc, troll, and tauren spiritualists."
+   "text": "As a member of the Horde, you share shamanic traditions that link orc, troll, and tauren spiritualists."
   }
  ],
  "keywords": [
@@ -119,5 +119,6 @@
  ],
  "attribution": [
   "Call of Water (Thunder Bluff)"
- ]
+ ],
+ "style": 1
 }

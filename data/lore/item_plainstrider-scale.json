@@ -10,16 +10,16 @@
    "quest:766"
   ]
  },
- "summary": "A tough scale harvested from the tallstriders roaming the sweeping plains of Mulgore. It serves as a vital component in a traditional remedy prepared by Maur Raincaller to counter a virulent infection.",
+ "summary": "Across Mulgore, Plainstrider Scale is sought for a remedy Maur Raincaller prepares in Bloodhoof Village. The tough scale helps counter a spreading infection.",
  "sections": [
   {
    "title": "A Rare Ingredient",
-   "body": "While plainstriders are best known for their soft feathers and lean meat, their powerful legs are covered in tough, protective scales. These scales are resilient against the harsh scrubland terrain and predator claws. Finding one intact and suitable for medicine requires patience, as only select plainstriders across Mulgore yield scales firm enough to be ground and prepared for folk remedies.",
+   "body": "Plainstriders roam Mulgore with tough scales covering their powerful legs. The scales protect them, though only some are firm enough to grind for folk remedies.",
    "spoiler": 0
   },
   {
    "title": "A Remedy for a Venomous Bite",
-   "body": "When Maur Raincaller in Bloodhoof Village crossed paths with Mazzranache\u2014a legendary strider known for its demonic red eyes and venomous bite\u2014he suffered a severe wound to his shoulder. Falling into a delirious fever, Maur requires a Plainstrider Scale alongside a wolf heart, cougar femur, and swoop gizzard to cleanse the spreading infection before it proves fatal.",
+   "body": "Maur Raincaller in Bloodhoof Village was bitten in the shoulder by Mazzranache, a legendary strider with demonic red eyes and a venomous bite. The wound left Maur delirious with fever. To cleanse the spreading infection before it proves fatal, he needs a Plainstrider Scale, a wolf heart, a cougar femur, and a swoop gizzard.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "plainstrider scale use",
     "why need plainstrider scale"
    ],
-   "answer": "It is an essential medicinal ingredient gathered for Maur Raincaller in Bloodhoof Village. Combined with parts from other Mulgore predators, it is brewed into a remedy to treat an infected, venomous wound inflicted by the rogue tallstrider Mazzranache."
+   "answer": "Maur Raincaller in Bloodhoof Village needs a Plainstrider Scale for a remedy. He combines it with parts from other Mulgore predators to treat the infected wound Mazzranache inflicted with its venomous bite."
   },
   {
    "q": "Where do you find a Plainstrider Scale?",
@@ -40,7 +40,7 @@
     "how to get plainstrider scale",
     "plainstrider scale location"
    ],
-   "answer": "The scales are obtained by hunting the wild plainstriders that roam the open grasslands throughout Mulgore."
+   "answer": "You find Plainstrider Scales on wild plainstriders roaming Mulgore's open grasslands."
   },
   {
    "q": "Why is Maur Raincaller infected?",
@@ -49,7 +49,7 @@
     "why is maur sick",
     "mazzranache bite"
    ],
-   "answer": "While traveling the plains, Maur was ambushed and bitten in the shoulder by Mazzranache, a terrifying tallstrider notorious for its venomous bite and crimson eyes. The bite left him with a worsening, delirious fever that ordinary rest cannot heal."
+   "answer": "Maur Raincaller was bitten in the shoulder by Mazzranache, a tallstrider with crimson eyes and a venomous bite. The wound left him with a worsening fever and delirium."
   },
   {
    "q": "What other ingredients does Maur need for his remedy?",
@@ -58,13 +58,13 @@
     "cure for mazzranache",
     "mazzranache quest items"
    ],
-   "answer": "Alongside the Plainstrider Scale, Maur requires a Prairie Wolf Heart, a Flatland Cougar Femur, and a Swoop Gizzard to complete the medicinal mixture."
+   "answer": "Maur needs a Plainstrider Scale, a Prairie Wolf Heart, a Flatland Cougar Femur, and a Swoop Gizzard for his remedy."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "Gathering remedies from the land reflects the traditional survival skills taught to young hunters in Mulgore, utilizing every part of the plains' wildlife to sustain the tribe."
+   "text": "As a Tauren, you learn to gather remedies from the land and use the plains' wildlife to sustain your tribe."
   }
  ],
  "keywords": [
@@ -89,5 +89,6 @@
  "attribution": [
   "Plainstrider Scale",
   "Mazzranache (Classic)"
- ]
+ ],
+ "style": 1
 }

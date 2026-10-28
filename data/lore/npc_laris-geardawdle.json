@@ -8,11 +8,11 @@
   "wiki": "Laris Geardawdle",
   "refs": 2
  },
- "summary": "Laris Geardawdle is an eccentric gnomish researcher stationed in the Library of the Hall of Explorers in Ironforge. He dedicates his academic life to studying the bizarre nature and origins of oozes across Azeroth. Adventurers willing to collect noxious slime samples find him an eager, if slightly unhinged, patron.",
+ "summary": "In Ironforge's Hall of Explorers, Laris Geardawdle studies oozes across Azeroth. The gnome researcher gives his academic life to their strange nature and origins, and welcomes adventurers who bring him noxious slime samples.",
  "sections": [
   {
    "title": "Scholar of Slime",
-   "body": "Tucked away among the towering bookshelves and ancient relics of the Hall of Explorers, Laris Geardawdle pursues a rather unglamorous niche of natural philosophy: the genesis of oozes. While his dwarven colleagues pore over Titan tablets and ancient stone carvings, Laris is convinced that Azeroth's vile, gelatinous horrors hold fascinating alchemical and biological secrets. He tasks roving explorers with gathering caustic samples from remote corners of the world, eager to test his strange hypotheses on how these mindless puddles of malice come to life.",
+   "body": "In the Library of the Hall of Explorers, Laris Geardawdle studies how oozes begin. His dwarven colleagues pore over Titan tablets and ancient stone carvings, but Laris searches the vile, gelatinous horrors of Azeroth for alchemical and biological secrets. He asks roving explorers to gather caustic samples from remote corners of the world. With them, he tests his unusual ideas about how these mindless puddles of malice come to life.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "geardawdle",
     "who is laris"
    ],
-   "answer": "Laris Geardawdle is a gnome researcher dwelling in the Library of the Hall of Explorers in Ironforge. He focuses his unconventional studies on oozes, slimes, and the bizarre mechanics behind their spontaneous generation."
+   "answer": "Laris Geardawdle is a gnome researcher in the Library of the Hall of Explorers in Ironforge. He studies oozes and slimes, and the strange way they come into being."
   },
   {
    "q": "Where can I find Laris Geardawdle?",
@@ -33,7 +33,7 @@
     "where is laris",
     "find laris geardawdle"
    ],
-   "answer": "He can be found in the northern wing of Ironforge inside the Hall of Explorers, specifically tucked into the quiet confines of the Library."
+   "answer": "You can find Laris Geardawdle in the northern wing of Ironforge, inside the Hall of Explorers and its Library."
   },
   {
    "q": "Why is he studying oozes?",
@@ -42,7 +42,7 @@
     "laris slime research",
     "ooze study"
    ],
-   "answer": "Laris possesses a keen, eccentric scientific mind and has developed distinct theories regarding the nature and creation of living slime. He believes analyzing caustic residue from different oozes will unlock deeper understanding of how these bizarre organisms form and replicate."
+   "answer": "Laris Geardawdle studies oozes because his curious, eccentric mind has led him to form theories about how living slime begins. He believes caustic residue from different oozes can help explain how these strange organisms form and replicate."
   },
   {
    "q": "What tasks does he offer adventurers?",
@@ -50,17 +50,17 @@
     "laris quests",
     "a little slime goes a long way"
    ],
-   "answer": "Laris recruits bold travelers to venture into treacherous lands to collect pure ooze samples. Through his task, 'A Little Slime Goes a Long Way', he provides empty ooze containers and asks adventurers to take samples from the oozes they slay in Felwood, then sends them in search of pure, uncorrupted samples."
+   "answer": "Laris Geardawdle asks travelers to collect ooze samples in dangerous lands. In A Little Slime Goes a Long Way, he gives them empty ooze containers and sends them to Felwood to take samples from oozes they slay, then asks them to seek pure, uncorrupted samples."
   }
  ],
  "angles": [
   {
    "target": "race:Gnome",
-   "text": "Laris exemplifies the quintessential gnomish drive to seek knowledge in places everyone else overlooks, even if it involves plunging hands into foul-smelling swamp muck."
+   "text": "As a gnome, you share Laris Geardawdle's drive to seek knowledge in places everyone else overlooks, even if that means reaching into foul swamp muck."
   },
   {
    "target": "faction:Alliance",
-   "text": "Stationed within the Hall of Explorers, Laris works under the broad umbrella of Alliance-sponsored scholarship, adding eccentric natural science to the League's historical digging."
+   "text": "As an Alliance member, you can find Laris Geardawdle at the Hall of Explorers. His work adds eccentric natural science to the League's historical digging."
   }
  ],
  "keywords": [
@@ -81,5 +81,6 @@
  ],
  "attribution": [
   "Laris Geardawdle"
- ]
+ ],
+ "style": 1
 }

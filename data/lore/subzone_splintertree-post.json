@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Splintertree Post"
  },
- "summary": "Splintertree Post is the primary Horde fortress in eastern Ashenvale, situated northwest of Felfire Hill. Established by Grommash Hellscream and the Warsong clan during the Third War, it serves as a heavily fortified bulwark against the night elves and a staging ground for territorial expansion.",
+ "summary": "Splintertree Post holds the Horde’s eastern Ashenvale frontier, northwest of Felfire Hill. Grommash Hellscream and the Warsong clan established it during the Third War as a fortified base against the night elves and a staging ground for expansion.",
  "sections": [
   {
    "title": "A Frontier Stronghold",
-   "body": "Carved straight out of the ancient woodlands, Splintertree Post serves as the Horde's main military and logistical hub across eastern Ashenvale. Originally established by Grommash Hellscream and the Warsong clan when orcs first pressed into the forest during the Third War, it remains a heavily armed enclave defended primarily by orcish and tauren scouts and warriors. Armed with a flight master, an inn, and steady supply lines to Orgrimmar, it anchors the Horde's contested presence beneath the canopy.",
+   "body": "Splintertree Post anchors the Horde’s military and supply lines across eastern Ashenvale. Grommash Hellscream and the Warsong clan founded it when the orcs first entered the forest during the Third War. Orcish and tauren scouts and warriors still defend the armed outpost. An inn, a flight master, and steady supplies from Orgrimmar support the Horde’s contested hold beneath the trees.",
    "spoiler": 0
   },
   {
    "title": "The Constant Threat of Retaliation",
-   "body": "Splintertree Post exists in a state of perpetual readiness. The night elves have neither forgotten nor forgiven Grommash's actions during the war, nor do they tolerate ongoing orcish logging and raids against Astranaar. As a result, the settlement faces constant retaliatory strikes and guerilla attacks from the Sentinels hiding in the surrounding timber, testing the garrison's watchmen at all hours.",
+   "body": "Splintertree Post remains ready for attack. The night elves have neither forgotten nor forgiven Grommash’s actions during the war. They also oppose the Horde’s continued logging and raids on Astranaar. Sentinels hide in the surrounding woods and launch constant retaliatory guerrilla strikes, testing the post’s watchmen at all hours.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "splintertree founder",
     "grom splintertree"
    ],
-   "answer": "It was established by Grommash Hellscream and the Warsong clan when the orcs first pushed into Ashenvale during the Third War to gather timber and establish a foothold."
+   "answer": "Grommash Hellscream and the Warsong clan established Splintertree Post when the orcs first pushed into Ashenvale during the Third War to gather timber and secure a foothold."
   },
   {
    "q": "Why do the night elves frequently attack this base?",
@@ -37,7 +37,7 @@
     "splintertree sentinel attacks",
     "night elf raids splintertree"
    ],
-   "answer": "The night elves view Splintertree as an illegal, desecrating intrusion on ancestral lands. Hostility lingers from Grommash's brutal campaigns in the Third War, fueled further by ongoing Horde logging and skirmishes against the nearby elven stronghold of Astranaar."
+   "answer": "The night elves regard Splintertree Post as an illegal, desecrating intrusion on their ancestral lands. Their hostility also stems from Grommash’s brutal campaigns during the Third War, continued Horde logging, and skirmishes against Astranaar."
   },
   {
    "q": "What amenities and travel options are available here?",
@@ -46,7 +46,7 @@
     "splintertree services",
     "splintertree inn"
    ],
-   "answer": "Splintertree Post provides an inn, stable master, mailbox, armor repair, and a wind rider flight master with routes connecting to Orgrimmar, the Crossroads, and other Horde outposts across Kalimdor."
+   "answer": "Splintertree Post has an inn, stable master, mailbox, armor repair, and a wind rider flight master. Its routes connect to Orgrimmar, the Crossroads, and other Horde outposts across Kalimdor."
   },
   {
    "q": "Who currently makes up the garrison at Splintertree?",
@@ -55,17 +55,17 @@
     "who lives in splintertree",
     "splintertree races"
    ],
-   "answer": "The settlement is populated primarily by orcs and tauren, functioning as seasoned scouts, sentries, and frontline officers tasked with holding the frontier."
+   "answer": "Orcs and tauren make up most of Splintertree Post’s garrison. They serve as seasoned scouts, sentries, and frontline officers charged with holding the frontier."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "Splintertree Post is the essential central base camp for adventurers pressing through Ashenvale, offering repairs, respite, and crucial flight routes across Kalimdor."
+   "text": "For Horde adventurers pressing through Ashenvale, Splintertree Post offers repairs, rest, and vital flight routes across Kalimdor."
   },
   {
    "target": "race:NightElf",
-   "text": "To the night elves, this fortress is a bitter scar upon Ashenvale, founded by the very warlord who struck down Cenarius and perpetuated by invaders who butcher their ancient trees."
+   "text": "To night elves, Splintertree Post scars Ashenvale. Grommash, the warlord who struck down Cenarius, founded it, and its people continue to butcher their ancient trees."
   }
  ],
  "keywords": [
@@ -89,5 +89,6 @@
  ],
  "attribution": [
   "Splintertree Post"
- ]
+ ],
+ "style": 1
 }

@@ -20,16 +20,16 @@
    "Assessing the Threat"
   ]
  },
- "summary": "Encroaching Gnolls is an Alliance task that alerts the town guard of Lakeshire to gnolls prowling dangerously close to the Elwynn border. Guard Parker discovers encampments clustering along the border pass, sending travelers ahead to warn Deputy Feldon. The news confirms Lakeshire's growing fears that the beastmen are threatening to cut off Redridge entirely.",
+ "summary": "Gnolls have reached the western road into Redridge, and Lakeshire fears being cut off. Guard Parker spots camps near the border and sends word to Deputy Feldon. The warning confirms the town’s fear that the beastmen may isolate Redridge.",
  "sections": [
   {
    "title": "Eyes on the Border",
-   "body": "The road linking Elwynn Forest to Redridge Mountains should be one of the most secure transit routes in the kingdom, but Stormwind's thinned forces leave it minimally defended. Guard Parker is stationed along the western border trail to monitor movement. While he manages to keep the gravel road passable for supply wagons, his scouting sweeps north and east reveal that gnoll warbands have advanced from the crags, establishing camps alarmingly near the road.",
+   "body": "Guard Parker watches the western border trail, where the road runs from Elwynn Forest into Redridge Mountains. Stormwind’s forces have thinned, leaving the route with few defenders. Parker keeps the gravel road open for supply wagons, but his scouts find gnoll warbands advancing from the crags to the north and east. Their camps lie alarmingly close to the road.",
    "spoiler": 0
   },
   {
    "title": "A Town Under Siege",
-   "body": "Upon receiving the alert near the Lakeshire bridge, Deputy Feldon realizes the situation is worse than anticipated. The Redridge gnolls are not merely raiding the town's perimeter; their forward presence near the Elwynn border implies they could encircle Lakeshire and push into the kingdom's heartland. With Stormwind ignoring pleas for reinforcements, Lakeshire's watch is ill-prepared to handle a two-front threat.",
+   "body": "Deputy Feldon receives the warning near the Lakeshire bridge and sees how much danger the town faces. Redridge gnolls are raiding near Lakeshire, and their camps near the Elwynn border could let them encircle the town and push into the kingdom’s heartland. Stormwind has ignored pleas for reinforcements, leaving Lakeshire’s watch unready for threats from both sides.",
    "spoiler": 0
   }
  ],
@@ -41,7 +41,7 @@
     "where to start",
     "guard parker location"
    ],
-   "answer": "Guard Parker offers this quest along the road in western Redridge Mountains, near the border crossing into Elwynn Forest."
+   "answer": "Guard Parker gives you the warning along the road in western Redridge Mountains, near the Elwynn Forest border crossing."
   },
   {
    "q": "Where can I find Deputy Feldon?",
@@ -50,7 +50,7 @@
     "who is deputy feldon",
     "turn in location"
    ],
-   "answer": "Deputy Feldon is stationed in Lakeshire, patrolling the grounds just south of the town's large stone bridge."
+   "answer": "Deputy Feldon is in Lakeshire, patrolling the grounds just south of the town’s large stone bridge."
   },
   {
    "q": "Why are the gnolls an issue on the road?",
@@ -59,7 +59,7 @@
     "redridge gnoll problem",
     "road danger"
    ],
-   "answer": "The road to Elwynn Forest is Lakeshire's only safe overland lifeline to the rest of the kingdom. If gnolls seize the western slopes, the town is effectively cut off from supplies and escape."
+   "answer": "The road to Elwynn Forest is Lakeshire’s only safe land route to the rest of the kingdom. If gnolls take the western slopes, the town could lose its supplies and its way out."
   },
   {
    "q": "Why doesn't Stormwind send help to Lakeshire?",
@@ -68,7 +68,7 @@
     "no reinforcements",
     "lakeshire defense"
    ],
-   "answer": "With King Varian Wrynn missing and the realm strained by unrest, Highlord Bolvar and the court have refused to commit royal troops to Redridge, leaving Lakeshire's defense entirely to local deputies and volunteers."
+   "answer": "With King Varian Wrynn missing and unrest straining the realm, Highlord Bolvar and the court have refused to send royal troops to Redridge. Lakeshire must rely on local deputies and volunteers for its defense."
   },
   {
    "q": "What happens after reporting the gnolls?",
@@ -76,7 +76,7 @@
     "next quest",
     "chain follow up"
    ],
-   "answer": "Deputy Feldon asks you to follow up by scouting the gnoll camps more closely in the quest Assessing the Threat to determine the true strength of their numbers."
+   "answer": "Deputy Feldon asks you to scout the gnoll camps more closely in Assessing the Threat, to learn how many gnolls have gathered."
   },
   {
    "q": "Which gnoll packs are encroaching here?",
@@ -84,17 +84,17 @@
     "which gnolls",
     "redridge gnoll clans"
    ],
-   "answer": "The Redridge gnolls, gathering in the hills as the Redridge Gnoll Pack, have become increasingly bold and coordinated as human control over the region weakens."
+   "answer": "Redridge gnolls gather in the hills as the Redridge Gnoll Pack. As human control of the region weakens, they have grown bolder and more coordinated."
   }
  ],
  "angles": [
   {
    "target": "race:Human",
-   "text": "The encroachment of beastmen within sight of Elwynn Forest highlights how vulnerable the kingdom's core territories have become in the king's absence."
+   "text": "As a human, you can see how the beastmen’s advance near Elwynn Forest leaves the kingdom’s heart vulnerable while the king is missing."
   },
   {
    "target": "faction:Alliance",
-   "text": "Lakeshire's isolation threatens the Alliance's eastern front, making border intelligence critical for travelers and supply convoys."
+   "text": "As an Alliance traveler, you know Lakeshire’s isolation threatens the eastern front, making border intelligence vital for travelers and supply convoys."
   }
  ],
  "keywords": [
@@ -115,5 +115,6 @@
  ],
  "attribution": [
   "Encroaching Gnolls"
- ]
+ ],
+ "style": 1
 }

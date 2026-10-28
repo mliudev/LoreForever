@@ -17,16 +17,16 @@
   "wiki": "The Hermit (Classic)",
   "chain": []
  },
- "summary": "Concerned by the prolonged absence of an elderly recluse, Elaine Carevin in Darkshire asks travelers to check on him. The lonely old man, Abercrombie, lives in a rickety shack perched right on the edge of Raven Hill Cemetery.",
+ "summary": "Elaine Carevin in Darkshire sends you to check on Abercrombie, an elderly recluse who has not come to town for provisions. He lives in a rickety shack at the edge of Raven Hill Cemetery.",
  "sections": [
   {
    "title": "A Neighborly Check-In",
-   "body": "In a beleaguered settlement like Darkshire, it is easy to lose track of eccentric loners until their absence becomes alarming. Elaine Carevin recalls an old man who once regularly trekked into town for provisions before abruptly vanishing from sight. Given the relentless dangers haunting the roads of Duskwood, she directs wandering adventurers to inspect his shack overlooking the haunted expanse of Raven Hill Cemetery to make sure he hasn't met a grim fate.",
+   "body": "Elaine Carevin remembers an old man who came to Darkshire for provisions, then stopped appearing. With danger on Duskwood’s roads, she asks you to visit his shack by Raven Hill Cemetery and see whether he is safe.",
    "spoiler": 0
   },
   {
    "title": "The Recluse of Raven Hill",
-   "body": "Reaching the lonely hut reveals that its resident, an old man named Abercrombie, is still among the living. He chuckles softly at the mention of the Carevins, claiming that his long absence is merely the consequence of advancing age and the treacherous monsters prowling the woods. Relieved to find an able traveler at his door, Abercrombie wastes no time in asking whether they might run a few helpful errands for him.",
+   "body": "At the shack, you find Abercrombie alive. He chuckles at the Carevins’ concern and says age and the monsters in the woods have kept him from town. Glad to have an able traveler at his door, he quickly asks for help with a few errands.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "where to start the hermit",
     "elaine carevin quest"
    ],
-   "answer": "Elaine Carevin, a resident of Darkshire in Duskwood, starts the task out of concern for an old hermit who used to purchase supplies in town."
+   "answer": "Elaine Carevin, who lives in Darkshire, asks you to check on an old hermit who once came to town for supplies."
   },
   {
    "q": "Where is the hermit located?",
@@ -47,7 +47,7 @@
     "hermit location duskwood",
     "shack near raven hill"
    ],
-   "answer": "Abercrombie lives inside a dilapidated wooden shack situated at the northern edge of Raven Hill Cemetery in western Duskwood."
+   "answer": "Abercrombie lives in a wooden shack at the northern edge of Raven Hill Cemetery in western Duskwood."
   },
   {
    "q": "Why was Elaine Carevin worried about him?",
@@ -56,7 +56,7 @@
     "why is elaine worried",
     "what happened to the old man"
    ],
-   "answer": "Abercrombie used to visit Darkshire regularly to buy supplies, but stopped appearing entirely. With wild beasts and undead roaming the roadways, she feared he might have perished."
+   "answer": "Abercrombie used to visit Darkshire for supplies, but stopped coming. With beasts and undead on the roads, Elaine feared he had died."
   },
   {
    "q": "Is Abercrombie actually in danger when you find him?",
@@ -65,7 +65,7 @@
     "is the hermit dying",
     "did the hermit get attacked"
    ],
-   "answer": "No. When you arrive at his shack, Abercrombie is alive, well, and quietly amused by the town's concern, explaining that the dangerous roads and his old age simply made travel too burdensome."
+   "answer": "No. Abercrombie is alive when you reach his shack. He says age and dangerous roads made travel too burdensome."
   },
   {
    "q": "Why does someone choose to live right next to Raven Hill Cemetery?",
@@ -74,7 +74,7 @@
     "abercrombie cemetery shack",
     "why is the hermit near graves"
    ],
-   "answer": "Abercrombie claims to prefer the seclusion, though living in the shadow of one of the most necromantically corrupted graveyards in the Eastern Kingdoms strikes many travelers as unsettling."
+   "answer": "Abercrombie says he prefers the seclusion. His home beside one of the Eastern Kingdoms’ most necromantically corrupted graveyards unsettles many travelers."
   },
   {
    "q": "What does Abercrombie ask for once you reach him?",
@@ -83,17 +83,17 @@
     "hermit followup quest",
     "what comes after the hermit"
    ],
-   "answer": "Abercrombie is eager to take advantage of having an able-bodied adventurer at his doorstep, immediately requesting assistance with various errands and tasks around the woods."
+   "answer": "Abercrombie quickly asks you to help with errands and tasks around the woods."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "The Night Watch struggles to protect the roads between Darkshire and Raven Hill, leaving remote recluses like Abercrombie entirely cut off from the safety of town."
+   "text": "The Night Watch struggles to protect the roads between Darkshire and Raven Hill, leaving recluses like Abercrombie cut off from town’s safety."
   },
   {
    "target": "race:Human",
-   "text": "The Carevin family represents the enduring neighborly ties of Duskwood, watching out for eccentric community elders even as their region falls into shadow."
+   "text": "As a human, you know the Carevin family’s neighborly ties. They look out for Duskwood’s elders even as shadow falls over the region."
   }
  ],
  "keywords": [
@@ -113,5 +113,6 @@
  ],
  "attribution": [
   "The Hermit (Classic)"
- ]
+ ],
+ "style": 1
 }

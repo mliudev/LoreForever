@@ -8,11 +8,11 @@
   "wiki": "Chef Jessen",
   "refs": 1
  },
- "summary": "Chef Jessen is Southshore's resident meat vendor and culinarian, working to keep the coastal town fed amidst constant border tensions. He is best remembered for his famous turtle bisque.",
+ "summary": "In Southshore, Chef Jessen works to feed the town amid constant border tensions. He is best known for his famous turtle bisque.",
  "sections": [
   {
    "title": "A Cook in Southshore",
-   "body": "Operating out of Southshore in the southern Hillsbrad Foothills, Chef Jessen provides provisions and meat to locals and visiting Alliance soldiers alike. He possesses notable culinary expertise. Years past, before plague and war disrupted northern Lordaeron, he regularly ventured north past Dalaran to the shores of Lordamere Lake. There, he harvested meat from native snapjaw turtles to concoct his prized Soothing Turtle Bisque, a hearty recipe he is willing to share with aspiring travelers who assist him in gathering ingredients.",
+   "body": "Chef Jessen supplies meat and provisions in Southshore, in the southern Hillsbrad Foothills, for locals and visiting Alliance soldiers. He is a skilled cook. Before plague and war disrupted northern Lordaeron, he often traveled north past Dalaran to the shores of Lordamere Lake. There he gathered meat from native snapjaw turtles to make his prized, hearty Soothing Turtle Bisque. He will share the recipe with travelers who help him gather its ingredients.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "chef jessen southshore",
     "who is jessen"
    ],
-   "answer": "Chef Jessen is a human butcher and cook located in Southshore within the Hillsbrad Foothills. He sells meats and shares local culinary recipes with travelers supporting the Alliance."
+   "answer": "Chef Jessen is a human butcher and cook in Southshore, in the Hillsbrad Foothills. He sells meat and shares local recipes with travelers who support the Alliance."
   },
   {
    "q": "What is Chef Jessen's famous dish?",
@@ -33,7 +33,7 @@
     "jessen specialty",
     "soothing turtle bisque"
    ],
-   "answer": "His signature recipe is Soothing Turtle Bisque. Historically, he harvested fresh turtle meat from the snapjaws dwelling around Lordamere Lake, just north past Dalaran, to craft the hearty broth."
+   "answer": "Chef Jessen's signature dish is Soothing Turtle Bisque. In years past, he gathered fresh snapjaw turtle meat from around Lordamere Lake, north past Dalaran, to make the hearty broth."
   },
   {
    "q": "Why does Chef Jessen ask travelers for help?",
@@ -41,7 +41,7 @@
     "jessen quest",
     "turtle meat quest"
    ],
-   "answer": "Gathering snapjaw turtle meat around Lordamere Lake has grown dangerous due to regional instability and nearby Forsaken presence. Jessen relies on capable adventurers to collect turtle meat so he can prepare his bisque."
+   "answer": "Gathering snapjaw turtle meat around Lordamere Lake has grown dangerous because of regional instability and the nearby Forsaken presence. Chef Jessen relies on capable travelers to collect the meat for his bisque."
   },
   {
    "q": "Does Chef Jessen sell anything unusual?",
@@ -49,17 +49,17 @@
     "jessen specialty",
     "jessen food vendor"
    ],
-   "answer": "Beyond the meat he sells to the people of Southshore, Jessen's true specialty is his Soothing Turtle Bisque, a recipe he will teach to cooks who help him gather snapjaw meat."
+   "answer": "Chef Jessen sells meat to the people of Southshore. His specialty is Soothing Turtle Bisque, a recipe he teaches cooks who help gather snapjaw meat."
   }
  ],
  "angles": [
   {
    "target": "profession:Cooking",
-   "text": "Jessen is a valuable contact for cooks passing through Hillsbrad, as his turtle bisque recipe provides a substantial meal for hardy travelers."
+   "text": "As a cook passing through Hillsbrad, you can turn to Jessen for his turtle bisque recipe, a substantial meal for hardy travelers."
   },
   {
    "target": "faction:Alliance",
-   "text": "Operating in Southshore, Jessen helps sustain the Alliance soldiers and adventurers holding the defensive line against northern threats."
+   "text": "In Southshore, Jessen helps feed Alliance soldiers and adventurers holding the defensive line against northern threats."
   }
  ],
  "keywords": [
@@ -82,5 +82,6 @@
  ],
  "attribution": [
   "Chef Jessen"
- ]
+ ],
+ "style": 1
 }

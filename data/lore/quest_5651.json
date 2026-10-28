@@ -20,16 +20,16 @@
    "Garments of Darkness"
   ]
  },
- "summary": "In Favor of Darkness marks a Forsaken priest's transition beyond the starting crypts of Deathknell toward advanced instruction in Brill. Entrusted by Dark Cleric Duesten, the fledgling disciple travels to study under Dark Cleric Beryl to master the delicate balance between the Holy Light and the Shadow.",
+ "summary": "Dark Cleric Duesten sends you from Deathknell to Brill in In Favor of Darkness. There, you continue your training with Dark Cleric Beryl and study the Holy Light and Shadow.",
  "sections": [
   {
    "title": "A Path Carved in Rot",
-   "body": "While priests of other races revere the Holy Light as an unblemished source of moral virtue, the Forsaken approach faith through the harsh lens of their own undeath. As Dark Cleric Duesten teaches, the Forsaken were forged in corruption and discarded like carrion. Their survival demands understanding both Light and Shadow without sentimentality. In Favor of Darkness directs new disciples out of Deathknell's cloistered graveyard to confront the wider reality awaiting them in Tirisfal Glades.",
+   "body": "Dark Cleric Duesten teaches that the Forsaken were forged in corruption and discarded like carrion. Their survival demands that they understand both Light and Shadow without sentimentality. In Tirisfal Glades, you leave Deathknell's graveyard and face the wider world beyond its walls.",
    "spoiler": 0
   },
   {
    "title": "Instruction in Brill",
-   "body": "The road leading northeast out of Deathknell brings the fledgling priest over a wooden covered bridge and into the ruined hamlet of Brill. There, in the upper quarters of the local inn, Dark Cleric Beryl waits to test the initiate's resolve. Beryl values ambition and cold practicality over blind devotion, demanding that a Forsaken priest wield divine power as a weapon and a tool rather than a moral crutch.",
+   "body": "You follow the road northeast from Deathknell, cross a wooden covered bridge, and reach the ruined hamlet of Brill. Dark Cleric Beryl waits in the upper quarters of the local inn to test your resolve. He values ambition and cold practicality over blind devotion, and expects a Forsaken priest to wield divine power as a weapon and a tool, not a moral crutch.",
    "spoiler": 0
   }
  ],
@@ -41,7 +41,7 @@
     "why in favor of darkness",
     "in favor of darkness purpose"
    ],
-   "answer": "It serves as a rite of passage for Forsaken priests leaving Deathknell. Dark Cleric Duesten sends you to Dark Cleric Beryl in Brill to continue your training and receive your next priestly challenge."
+   "answer": "This rite of passage sends Forsaken priests from Deathknell to continue their training. Dark Cleric Duesten sends you to Dark Cleric Beryl in Brill for your next priestly challenge."
   },
   {
    "q": "Why do Forsaken priests use the Light if they embrace darkness?",
@@ -50,7 +50,7 @@
     "forsaken priest lore",
     "light and shadow undead"
    ],
-   "answer": "Forsaken clerics acknowledge that the world operates on a balance between Light and Shadow. Even though the Holy Light causes excruciating pain to undead flesh and their origins lie in rot and darkness, they study both forces out of practicality and necessity."
+   "answer": "Forsaken clerics study both Light and Shadow because they see the world as governed by their balance. The Holy Light causes excruciating pain to undead flesh, and Forsaken origins lie in rot and darkness, so they study both forces out of practicality and necessity."
   },
   {
    "q": "Where do I find Dark Cleric Beryl?",
@@ -59,7 +59,7 @@
     "beryl location",
     "find beryl"
    ],
-   "answer": "Dark Cleric Beryl is located in the town of Brill, northeast of Deathknell. He resides on the second floor of the Gallows' End Tavern on the eastern side of the settlement."
+   "answer": "Dark Cleric Beryl is in Brill, northeast of Deathknell. He resides on the second floor of the Gallows' End Tavern on the settlement's eastern side."
   },
   {
    "q": "What does this quest lead into?",
@@ -68,7 +68,7 @@
     "next quest after in favor of darkness",
     "in favor of darkness followup"
    ],
-   "answer": "Speaking with Dark Cleric Beryl completes this task and opens the follow-up quest, Garments of Darkness, where he tests your ability to mend and sustain allies using your newfound disciplines."
+   "answer": "Speaking with Dark Cleric Beryl completes your training here and opens Garments of Darkness. There, he tests your ability to mend and sustain allies using your newfound disciplines."
   },
   {
    "q": "Who is Dark Cleric Duesten?",
@@ -77,7 +77,7 @@
     "duesten lore",
     "dark cleric duesten"
    ],
-   "answer": "Dark Cleric Duesten is the priest trainer stationed in Deathknell. He guides newly awakened Forsaken priests in understanding their painful existence and utilizing their spiritual powers."
+   "answer": "Dark Cleric Duesten is the priest trainer in Deathknell. He helps newly awakened Forsaken priests understand their painful existence and use their spiritual powers."
   },
   {
    "q": "Why does Beryl mention ambition over faith?",
@@ -86,17 +86,17 @@
     "why ambition not faith",
     "forsaken faith"
    ],
-   "answer": "Forsaken priests view traditional pious faith as insufficient after being abandoned by the powers they worshipped in life. Dark Cleric Beryl expects disciples to rely on personal ambition, urgency, and practical strength to survive."
+   "answer": "Forsaken priests view traditional pious faith as insufficient after the powers they worshipped in life abandoned them. Dark Cleric Beryl expects disciples to rely on personal ambition, urgency, and practical strength to survive."
   }
  ],
  "angles": [
   {
    "target": "class:Priest",
-   "text": "This quest encapsulates the fundamental philosophy of Forsaken priesthood: wielding both Holy Light and Shadow with cold discretion rather than religious reverence."
+   "text": "As a priest, you learn the Forsaken way: wield both Holy Light and Shadow with cold discretion rather than religious reverence."
   },
   {
    "target": "race:Undead",
-   "text": "The journey from Deathknell to Brill is the standard first excursion into the broader Forsaken realm, showing initiates how their people rebuild in the ruins of Lordaeron."
+   "text": "As an Undead, you travel from Deathknell to Brill on a standard first excursion into the broader Forsaken realm. The journey shows initiates how their people rebuild in the ruins of Lordaeron."
   }
  ],
  "keywords": [
@@ -120,5 +120,6 @@
  ],
  "attribution": [
   "In Favor of Darkness"
- ]
+ ],
+ "style": 1
 }

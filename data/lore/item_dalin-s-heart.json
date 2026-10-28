@@ -10,11 +10,11 @@
    "quest:1476"
   ]
  },
- "summary": "Dalin's Heart is a macabre ritual component carved from Dalin Forgewright, an honorable man patrolling near the Greymane Wall in Silverpine Forest. Undercity warlocks seek it out as an offering of unblemished purity, intended to lure and bind a succubus to their service.",
+ "summary": "Near the Greymane Wall in Silverpine Forest, Dalin Forgewright patrols with an honorable heart.",
  "sections": [
   {
    "title": "A Pure Heart for Dark Arts",
-   "body": "To summon and subjugate a succubus, Undercity warlocks require rare bait: the physical hearts of truly virtuous mortals. Dalin Forgewright earned his dark fate through selfless devotion, spending his days defending desperate Lordaeron refugees barred from safety at the sealed Greymane Wall. His unstinting altruism marks him as an emblem of goodness in a fallen land, making his heart an irresistible prize for demonic seduction rites conducted within the Temple of the Damned.",
+   "body": "Undercity warlocks seek hearts from truly virtuous mortals to call and bind a succubus to their service. Dalin Forgewright spends his days defending desperate Lordaeron refugees kept from safety by the sealed Greymane Wall. His selfless devotion marks him as a rare offering of unblemished purity, and his heart is carved for the rites held in the Temple of the Damned.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "who is dalin",
     "dalin lore"
    ],
-   "answer": "Dalin Forgewright was an honorable human who dedicated his life to protecting Lordaeron refugees stranded outside the closed gates of the Greymane Wall in southern Silverpine Forest."
+   "answer": "Dalin Forgewright was an honorable human who protected Lordaeron refugees stranded outside the closed gates of the Greymane Wall in southern Silverpine Forest."
   },
   {
    "q": "Why do warlocks need Dalin's Heart?",
@@ -35,7 +35,7 @@
     "purpose of dalins heart",
     "why do warlocks want dalin's heart"
    ],
-   "answer": "Warlock summoners in the Undercity require the heart of a genuinely pure and honorable man as a ritual lure to attract and dominate a succubus."
+   "answer": "Undercity warlocks use Dalin's Heart as a ritual lure to draw a succubus, then bind her to their service."
   },
   {
    "q": "Who accepts Dalin's Heart?",
@@ -44,7 +44,7 @@
     "dalin heart turn in",
     "where to bring dalins heart"
    ],
-   "answer": "The heart is brought to Carendin Halgar, a warlock trainer located in the Temple of the Damned within the Undercity."
+   "answer": "Carendin Halgar, a warlock trainer in the Temple of the Damned within the Undercity, accepts Dalin's Heart."
   },
   {
    "q": "What other component is needed alongside this heart?",
@@ -53,17 +53,17 @@
     "other heart needed",
     "second heart"
    ],
-   "answer": "Carendin Halgar requires both Dalin's Heart and Comar's Heart, belonging to Comar Villard, a faithful husband wandering the Wetlands in search of his lost wife."
+   "answer": "Carendin Halgar requires Dalin's Heart and Comar's Heart. Comar Villard is a faithful husband wandering the Wetlands in search of his lost wife."
   }
  ],
  "angles": [
   {
    "target": "class:Warlock",
-   "text": "Procuring this heart is an essential rite of passage for Forsaken warlocks learning to ensnare a succubus, proving their willingness to harvest untainted virtue for demonic mastery."
+   "text": "As a Forsaken warlock, you undergo this rite of passage to learn to ensnare a succubus, harvesting untainted virtue for demonic mastery."
   },
   {
    "target": "race:Undead",
-   "text": "The hunt for Dalin's heart highlights the bitter reality of post-Scourge Lordaeron, where remaining living human altruists outside the Greymane Wall become prey for the Forsaken."
+   "text": "As an undead, you see the bitter reality of post-Scourge Lordaeron, where living human altruists outside the Greymane Wall become prey for the Forsaken."
   }
  ],
  "keywords": [
@@ -87,5 +87,6 @@
  "attribution": [
   "Dalin's Heart",
   "Hearts of the Pure"
- ]
+ ],
+ "style": 1
 }

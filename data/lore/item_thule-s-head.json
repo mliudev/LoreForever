@@ -10,11 +10,11 @@
    "quest:442"
   ]
  },
- "summary": "Thule's Head is the grisly proof demanded by the Forsaken to confirm the demise of Thule Ravenclaw, commander of the Scourge forces on Fenris Isle. Bringing this macabre trophy back to High Executor Hadrec at the Sepulcher solidifies the Forsaken's hold on Silverpine Forest.",
+ "summary": "At the Sepulcher, High Executor Hadrec demands proof that Thule Ravenclaw is dead. His severed head confirms the commander of the Scourge forces on Fenris Isle has fallen and helps the Forsaken hold Silverpine Forest.",
  "sections": [
   {
    "title": "Trophy of Fenris Isle",
-   "body": "Fenris Isle serves as the primary bastion of the Lich King's Scourge within Silverpine Forest. From deep inside Fenris Keep, the necromancer Thule Ravenclaw directs his legions of rot hides and undead minions, directly threatening Forsaken outposts like the Sepulcher. High Executor Hadrec requires absolute certainty that this dark commander has fallen, refusing to accept any testimony short of Thule's severed head. The violent release of dark magic upon Ravenclaw's death was felt across the woods, but his head remains the physical proof Hadrec requires to declare Fenris Isle broken.",
+   "body": "Fenris Isle is the Lich King's chief Scourge stronghold in Silverpine Forest. From Fenris Keep, the necromancer Thule Ravenclaw commands rot hides and undead minions that threaten Forsaken outposts, including the Sepulcher. High Executor Hadrec will accept no report of Thule's death without his severed head. When Thule dies, dark magic surges through the woods. His head gives Hadrec the proof he needs to declare Fenris Isle broken.",
    "spoiler": 1
   }
  ],
@@ -26,7 +26,7 @@
     "who turned in thule head to",
     "who takes thule head"
    ],
-   "answer": "High Executor Hadrec, commander of Forsaken military operations stationed at the Sepulcher in Silverpine Forest, demands Thule's Head to confirm the Scourge leader's elimination."
+   "answer": "High Executor Hadrec, who commands Forsaken forces from the Sepulcher in Silverpine Forest, demands Thule's Head as proof that the Scourge leader is dead."
   },
   {
    "q": "Who was Thule Ravenclaw?",
@@ -35,7 +35,7 @@
     "who is thule",
     "thule ravenclaw backstory"
    ],
-   "answer": "Thule Ravenclaw is a powerful necromancer commanding the Scourge presence on Fenris Isle. From the heart of Fenris Keep, he orchestrates attacks against the Forsaken and wields sinister enchantments like the Hex of the Ravenclaw."
+   "answer": "Thule Ravenclaw is a powerful necromancer who commands the Scourge on Fenris Isle. From Fenris Keep, he directs attacks against the Forsaken and wields enchantments such as the Hex of the Ravenclaw."
   },
   {
    "q": "Why do the Forsaken demand his head specifically?",
@@ -43,7 +43,7 @@
     "why thule head",
     "why do they want his head"
    ],
-   "answer": "The Forsaken cannot afford lingering Scourge threats in Silverpine. Because necromancers are notorious for deceit and dark resurrections, High Executor Hadrec accepts nothing less than physical, irrefutable proof of Thule's total destruction."
+   "answer": "The Forsaken cannot leave Silverpine threatened by the Scourge. Necromancers are notorious for deceit and dark resurrections, so High Executor Hadrec demands physical proof that Thule is destroyed."
   },
   {
    "q": "What happens when Thule Ravenclaw is slain?",
@@ -51,17 +51,17 @@
     "what happens after thule dies",
     "energy released thule"
    ],
-   "answer": "Upon Thule's defeat, a violent burst of necrotic energy radiates across the region, potent enough that Forsaken scholars and apothecaries back at the Sepulcher can sense the magical shockwave from afar."
+   "answer": "When Thule Ravenclaw is slain, necrotic energy bursts across the region. Forsaken scholars and apothecaries at the Sepulcher can sense the magical shockwave from afar."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "For the Forsaken, severing Thule's head is both a military victory and personal vengeance against the Lich King's grip on Lordaeron."
+   "text": "For the Forsaken, severing Thule's head is a military victory and personal vengeance against the Lich King's hold on Lordaeron."
   },
   {
    "target": "faction:Horde",
-   "text": "Eliminating Thule Ravenclaw secures the eastern borders of Silverpine Forest, shielding newly gained Horde territories from Scourge incursions."
+   "text": "Thule Ravenclaw's death secures Silverpine Forest's eastern borders and shields newly gained Horde territory from Scourge attacks."
   }
  ],
  "keywords": [
@@ -86,5 +86,6 @@
  "attribution": [
   "Thule's Head",
   "Assault on Fenris Isle"
- ]
+ ],
+ "style": 1
 }

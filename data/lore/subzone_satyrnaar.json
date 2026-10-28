@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Satyrnaar"
  },
- "summary": "Satyrnaar is an ancient, ruined night elf settlement in northeastern Ashenvale that has fallen entirely into the hands of the Bleakheart satyrs. Perched just off the main road between Splintertree Post and Azshara, it is the most intact and easily accessible of the satyr strongholds in the forest.",
+ "summary": "Satyrnaar lies in ruin under the Bleakheart satyrs in northeastern Ashenvale. The ancient night elf settlement sits beside the road from Splintertree Post toward Azshara, intact enough to be one of the forest’s easiest satyr strongholds to reach.",
  "sections": [
   {
    "title": "A Den of Fel and Shadow",
-   "body": "Located northeast of Splintertree Post and southwest of Forest Song, Satyrnaar stands as one of Ashenvale's three primary satyr settlements alongside Xavian and Night Run. Unlike the deeper wilderness ruins, Satyrnaar is relatively well-preserved, featuring pitched tents nestled among crumbled elven architecture. It serves as a bustling camp for the Bleakheart satyrs, making the nearby trade route fraught with peril for travelers moving east toward Azshara. Furthermore, dark ties fester here: the satyrs have forged an alliance with the shadowy Cult of the Dark Strand, harboring one of their insidious soulgems amidst the corrupted stones.",
+   "body": "You find Satyrnaar northeast of Splintertree Post and southwest of Forest Song, among Ashenvale’s three chief satyr settlements with Xavian and Night Run. Its elven buildings remain more intact than those deep in the wilderness, though tents now stand among the broken stone. The Bleakheart satyrs occupy the camp, making the trade road east toward Azshara dangerous for travelers. They have also allied with the Cult of the Dark Strand, whose soulgem lies among the corrupted stones.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "what is this place",
     "satyr camp"
    ],
-   "answer": "Satyrnaar is a ruined night elf site in northeastern Ashenvale that has been claimed and occupied by the Bleakheart satyrs. It serves as one of their primary strongholds in the region."
+   "answer": "Satyrnaar lies in ruin in northeastern Ashenvale, occupied by the Bleakheart satyrs. It is one of their chief strongholds in the forest."
   },
   {
    "q": "Who lives in Satyrnaar?",
@@ -32,7 +32,7 @@
     "satyrnaar mobs",
     "bleakheart satyrs"
    ],
-   "answer": "The settlement is held by the Bleakheart tribe of satyrs. They have erected tents among the ancient ruins and work in league with the Cult of the Dark Strand."
+   "answer": "The Bleakheart satyrs occupy Satyrnaar, with tents among the ancient ruins. They are allied with the Cult of the Dark Strand."
   },
   {
    "q": "Why is Satyrnaar significant compared to other satyr ruins?",
@@ -40,7 +40,7 @@
     "satyrnaar vs xavian",
     "why satyrnaar"
    ],
-   "answer": "Of the three main satyr sites in Ashenvale\u2014Satyrnaar, Night Run, and Xavian\u2014Satyrnaar is the most intact and centrally located, lying right off the road toward Azshara."
+   "answer": "Satyrnaar, Night Run, and Xavian are Ashenvale’s three chief satyr settlements. Satyrnaar is the most intact and lies beside the road toward Azshara."
   },
   {
    "q": "What is the dark artifact hidden in Satyrnaar?",
@@ -49,17 +49,17 @@
     "satyrnaar crystal",
     "soulgem"
    ],
-   "answer": "Satyrnaar houses one of the corrupted soulgems belonging to the Cult of the Dark Strand, a mortal shadow cult allied with the Bleakheart satyrs."
+   "answer": "A soulgem of the Cult of the Dark Strand lies in Satyrnaar. The mortal shadow cult is allied with the Bleakheart satyrs."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "Seeing ancestral stonework defiled by fel corruption and inhabited by the cursed remnants of the Highborne is a bitter offense to any night elf traveling through Ashenvale."
+   "text": "As a night elf, seeing ancestral stonework defiled by fel corruption and occupied by the cursed remnants of the Highborne is a bitter sight in Ashenvale."
   },
   {
    "target": "class:Druid",
-   "text": "The twisted fel corruption spread by the Bleakheart satyrs actively chokes the natural spirit of Ashenvale, demanding swift cleansing."
+   "text": "As a druid, you see how the Bleakheart satyrs’ fel corruption chokes Ashenvale’s natural spirit, calling for swift cleansing."
   }
  ],
  "keywords": [
@@ -83,5 +83,6 @@
  ],
  "attribution": [
   "Satyrnaar"
- ]
+ ],
+ "style": 1
 }

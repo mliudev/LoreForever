@@ -76,7 +76,7 @@ const LOCALES = {
       "Abgeschlossene Quests": "quests", "Getroffene Personen": "people", "Bosse besiegt": "bosses",
       "Bemerkenswerte Siege": "kills", "Beute- und Questbelohnungen": "loot", "Stufenaufstiege": "levels",
       "Erlernte Zauber": "spells", "Reittiere": "mounts", "Berufsmeilensteine": "profs", "Ruf": "rep", "Tode": "deaths",
-      "Gelesene Bücher": "books", "Screenshots": "shots",
+      "Gelesene Bücher": "books", "Screenshots": "shots", "Eure Chronik": "chronicle",
     },
   },
   fr: {
@@ -103,7 +103,7 @@ const LOCALES = {
       "Quêtes terminées": "quests", "Personnes rencontrées": "people", "Boss vaincus": "bosses",
       "Victoires notables": "kills", "Butin et récompenses de quête": "loot", "Montées de niveau": "levels",
       "Sorts appris": "spells", "Montures": "mounts", "Étapes de métier": "profs", "Réputation": "rep", "Morts": "deaths",
-      "Livres lus": "books", "Captures d'écran": "shots",
+      "Livres lus": "books", "Captures d'écran": "shots", "Votre chronique": "chronicle",
     },
   },
   es: {
@@ -131,7 +131,7 @@ const LOCALES = {
       "Personas conocidas": "people", "Jefes derrotados": "bosses", "Muertes destacadas": "kills",
       "Botín y recompensas de misión": "loot", "Subidas de nivel": "levels", "Hechizos aprendidos": "spells",
       "Monturas": "mounts", "Hitos de profesión": "profs", "Reputación": "rep", "Muertes": "deaths",
-      "Libros leídos": "books", "Capturas de pantalla": "shots",
+      "Libros leídos": "books", "Capturas de pantalla": "shots", "Tu crónica": "chronicle",
     },
   },
   pt: {
@@ -159,7 +159,7 @@ const LOCALES = {
       "Pessoas encontradas": "people", "Chefes derrotados": "bosses", "Abates notáveis": "kills",
       "Saques e recompensas de missões": "loot", "Subidas de nível": "levels", "Feitiços aprendidos": "spells",
       "Montarias": "mounts", "Marcos de profissão": "profs", "Reputação": "rep", "Mortes": "deaths",
-      "Livros lidos": "books", "Capturas de tela": "shots",
+      "Livros lidos": "books", "Capturas de tela": "shots", "Sua crônica": "chronicle",
     },
   },
 };

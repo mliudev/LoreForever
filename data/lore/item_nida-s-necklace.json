@@ -10,11 +10,11 @@
    "quest:3741"
   ]
  },
- "summary": "Hilary's Necklace is a cherished childhood keepsake lost beneath the surface of Lake Everstill in the Redridge Mountains. Given to young Hilary by her father, the trinket slipped into the murky waters while the children of Lakeshire were out fishing along the docks.",
+ "summary": "In Lakeshire, Hilary searches for the necklace she lost in Lake Everstill. Her father gave it to her when she was young, and it slipped beneath the water while she and the other children fished by the docks.",
  "sections": [
   {
    "title": "Lost in the Depths",
-   "body": "While fishing along the shoreline of Lakeshire with her friend Shawn, young Hilary accidentally dropped her treasured necklace into Lake Everstill. The heirloom holds immense sentimental value, having been a gift from her father. Fear of the fierce beasts and aggressive murlocs inhabiting the depths keeps the local children safely on the docks, leaving the necklace sunken and buried in the silt of the lakebed until an adventurer is willing to dive into the murky water to recover it.",
+   "body": "Hilary lost her necklace while fishing with her friend Shawn along the Lakeshire shore. Her father had given it to her, and she treasures the gift. Fierce beasts and aggressive murlocs live in the lake's depths, so local children stay on the docks. The necklace remains beneath the water, buried in the lakebed silt.",
    "spoiler": 0
   }
  ],
@@ -27,7 +27,7 @@
     "whose necklace is this",
     "hilary necklace owner"
    ],
-   "answer": "The necklace belongs to Hilary, a young girl living in the town of Lakeshire in the Redridge Mountains. It was a special present given to her by her father."
+   "answer": "The necklace belongs to Hilary, a young girl who lives in Lakeshire in the Redridge Mountains. Her father gave it to her."
   },
   {
    "q": "How did the necklace end up in Lake Everstill?",
@@ -36,7 +36,7 @@
     "why is necklace in water",
     "how was necklace lost"
    ],
-   "answer": "Hilary was spending the day fishing near the water with her companion Shawn when the necklace slipped off and sank into the lakebed, settling into a mound of glinting mud."
+   "answer": "Hilary was fishing by the water with Shawn when the necklace slipped off and sank into Lake Everstill."
   },
   {
    "q": "Why didn't the children dive in to get it back?",
@@ -45,7 +45,7 @@
     "why can't shawn get the necklace",
     "why didn't hilary swim for it"
    ],
-   "answer": "Their parents strictly forbid them from swimming in Lake Everstill. The deep waters harbor dangerous aquatic predators and aggressive murlocs that pose a lethal threat to the local townspeople."
+   "answer": "Their parents forbid the children to swim in Lake Everstill. Dangerous predators and aggressive murlocs live in its deep waters and threaten the townspeople."
   },
   {
    "q": "Who is Effsee?",
@@ -54,13 +54,13 @@
     "nida cat",
     "hilary cat"
    ],
-   "answer": "Effsee is Hilary's pet cat, who stays by her side in Lakeshire and happily welcomes the necklace's return alongside its young owner."
+   "answer": "Effsee is Hilary's pet cat. The cat stays by her side in Lakeshire and welcomes the necklace's return with its young owner."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Lakeshire's defenders are stretched thin against surrounding threats, leaving small acts of kindness\u2014like helping local children recover lost keepsakes\u2014to traveling Alliance adventurers."
+   "text": "Lakeshire's defenders face threats from the surrounding area. Traveling Alliance adventurers can help local children recover lost keepsakes."
   }
  ],
  "keywords": [
@@ -82,5 +82,6 @@
  "attribution": [
   "Nida's Necklace",
   "Nida's Necklace (quest)"
- ]
+ ],
+ "style": 1
 }

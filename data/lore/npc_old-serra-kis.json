@@ -8,16 +8,16 @@
   "wiki": "Old Serra'kis",
   "refs": 5
  },
- "summary": "Old Serra'kis is an ancient, massive threshadon dwelling in the submerged subterranean waters of Blackfathom Deeps. Hidden in a flooded cave beneath the ruins, the enormous beast is lethal to any who seek it out.",
+ "summary": "Beneath the Moonshrine Sanctum, Old Serra'kis lurks in the flooded depths of Blackfathom Deeps. The enormous threshadon is hidden in a submerged cave, and deadly to anyone who seeks him there.",
  "sections": [
   {
    "title": "Unconquered in the Depths",
-   "body": "The Twilight's Hammer has made its home in the sunken Moonshrine Ruins, but the dark waters beneath the Moonshrine Sanctum hide older, wilder things. Old Serra'kis, the largest threshadon in the sunken temple, lurks in the Forgotten Pool, a flooded cave beneath the ruins where few would think to look.",
+   "body": "The Twilight's Hammer has made its home in the sunken Moonshrine Ruins. Beneath the Moonshrine Sanctum, dark waters conceal older, wilder things. Old Serra'kis, the largest threshadon in the sunken temple, lurks in the Forgotten Pool, a flooded cave beneath the ruins where few would think to look.",
    "spoiler": 0
   },
   {
    "title": "A Hidden Threat",
-   "body": "Reaching Old Serra'kis requires plunging deep beneath the temple floor into a flooded cavern beneath the ruins. Lacking air pockets, the cave itself is as deadly as the beast within. Those who corner him find that Serra'kis possesses an unnatural shadow-leeching resilience, draining the life from his attackers while sustaining his own vitality in the murky darkness.",
+   "body": "To reach Old Serra'kis, you must dive deep beneath the temple floor into a flooded cavern. No air pockets break the water, making the cave as deadly as the beast within. Cornered in the murk, Serra'kis shows an unnatural resilience. He drains life from his attackers with shadow energy, sustaining his own vitality in the darkness.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "is serrakis a hydra",
     "serrakis creature type"
    ],
-   "answer": "Old Serra'kis is a massive, ancient threshadon\u2014a long-necked, aquatic reptile native to the lakes and coastal waters of Azeroth."
+   "answer": "Old Serra'kis is a massive, ancient threshadon, a long-necked aquatic reptile native to Azeroth's lakes and coastal waters."
   },
   {
    "q": "Why didn't the Twilight's Hammer kill him?",
@@ -37,7 +37,7 @@
     "why is serrakis still alive",
     "twilights hammer serrakis"
    ],
-   "answer": "Nothing records the cult ever hunting him. Old Serra'kis lurks out of sight in the Forgotten Pool, a flooded, airless cave beneath the ruins, and is deadly to anyone who dives in after him."
+   "answer": "Nothing records the cult hunting him. Old Serra'kis hides in the Forgotten Pool, a flooded, airless cave beneath the ruins, and is deadly to anyone who dives in after him."
   },
   {
    "q": "Where is Old Serra'kis located?",
@@ -46,7 +46,7 @@
     "serrakis location",
     "where is old serrakis"
    ],
-   "answer": "He lurks in a submerged cavern beneath the water surrounding the Moonshrine Sanctum within Blackfathom Deeps. Swimmers must dive under the ruins into an airless pool to encounter him."
+   "answer": "Old Serra'kis lurks in a submerged cavern beneath the water around the Moonshrine Sanctum in Blackfathom Deeps. You must dive under the ruins into an airless pool to encounter him."
   },
   {
    "q": "What makes fighting him dangerous?",
@@ -54,7 +54,7 @@
     "serrakis abilities",
     "how to beat serrakis"
    ],
-   "answer": "Beyond fighting entirely underwater without natural pockets of air, Old Serra'kis leeches shadow energy from all nearby foes to heal his own wounds throughout combat."
+   "answer": "The fight takes place underwater, with no natural air pockets. Old Serra'kis leeches shadow energy from nearby foes to heal his wounds throughout the battle."
   },
   {
    "q": "Does Serra'kis serve the Twilight's Hammer?",
@@ -62,7 +62,7 @@
     "is serrakis a cultist pet",
     "who controls serrakis"
    ],
-   "answer": "No. Unlike other beasts corrupted or trained by the cult, Old Serra'kis remains a completely untamed wild predator defending his subterranean lair."
+   "answer": "No. Unlike other beasts corrupted or trained by the cult, Old Serra'kis remains an untamed wild predator defending his subterranean lair."
   },
   {
    "q": "Can you breathe during the battle with Serra'kis?",
@@ -70,21 +70,21 @@
     "drowning serrakis",
     "breath underwater serrakis"
    ],
-   "answer": "His enclosed cave offers no ceiling air pockets, forcing underwater fighters to either manage their breath, use magical water-breathing aid, or kite the beast out toward open water."
+   "answer": "The enclosed cave has no air pockets near the ceiling. Underwater fighters must manage their breath, use magical water-breathing aid, or draw the beast toward open water."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "Druids of the wild will find Aquatic Form indispensable when diving into the lightless pool to confront this prehistoric predator."
+   "text": "As a druid of the wild, Aquatic Form helps you dive into the lightless pool to confront this prehistoric predator."
   },
   {
    "target": "class:Warlock",
-   "text": "A warlock's ability to bestow Unending Breath turns an otherwise deadly, airless subterranean ambush into a manageable fight."
+   "text": "As a warlock, you can bestow Unending Breath, making an airless subterranean ambush manageable."
   },
   {
    "target": "class:Shaman",
-   "text": "Water Breathing spells granted by spiritual communion with the elements ensure your companions don't drown while grappling with the ancient thresher."
+   "text": "As a shaman, you can use Water Breathing spells granted through communion with the elements to help your companions avoid drowning as they grapple with the ancient threshadon."
   }
  ],
  "keywords": [
@@ -107,5 +107,6 @@
  ],
  "attribution": [
   "Old Serra'kis"
- ]
+ ],
+ "style": 1
 }

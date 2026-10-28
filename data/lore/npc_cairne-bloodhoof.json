@@ -8,16 +8,16 @@
   "wiki": "Cairne Bloodhoof",
   "refs": 2
  },
- "summary": "Cairne Bloodhoof is the venerable High Chieftain of the united tauren tribes and ruler of Thunder Bluff. A towering warrior of immense wisdom, he bound the fate of the tauren to Thrall's Horde after the orcs aided his people in escaping extinction at the hands of the centaur.",
+ "summary": "In Thunder Bluff, Cairne Bloodhoof rules with hard-won wisdom. The venerable High Chieftain leads the united tauren tribes, and bound their fate to Thrall’s Horde after the orcs helped them escape extinction at centaur hands.",
  "sections": [
   {
    "title": "A Nation in Mulgore",
-   "body": "For generations, the tauren lived as wandering nomads across the Barrens, continually hunted and driven toward extinction by savage centaur marauders. When Thrall and his orcs arrived on the shores of Kalimdor, Cairne recognized a rare nobility in them. Thrall offered military protection, escorting Cairne's desperate caravan across the plains to the safety of Mulgore in exchange for guidance to the Oracle at Stonetalon Peak. Settling upon the towering mesas of Thunder Bluff, Cairne finally established a permanent, unified home for all tauren tribes.",
+   "body": "Cairne Bloodhoof led the tauren from a life of flight to a home in Mulgore. For generations, centaur marauders hunted the wandering tribes across the Barrens and drove them toward extinction. When Thrall and his orcs reached Kalimdor, Cairne saw a rare nobility in them. Thrall offered military protection and an escort for Cairne’s desperate caravan across the plains, in return for guidance to the Oracle at Stonetalon Peak. The tauren settled on Thunder Bluff’s towering mesas, where Cairne united the tribes and gave them a permanent home.",
    "spoiler": 0
   },
   {
    "title": "Pledge to the Horde",
-   "body": "Indebted to Thrall, Cairne followed the orcs to Stonetalon Peak and fought side by side with the Horde and Jaina Proudmoore's humans against the Burning Legion during the Third War. Later, when Admiral Daelin Proudmoore invaded Durotar, Cairne personally took up arms once more to fight alongside Rexxar after his captured son, Baine, was safely recovered. Today, Cairne stands as one of the Horde's most respected elders and Thrall's closest confidant, offering calm council against reckless warmongering.",
+   "body": "Cairne Bloodhoof fought beside Thrall’s Horde and Jaina Proudmoore’s humans against the Burning Legion during the Third War. Grateful to Thrall, he had followed the orcs to Stonetalon Peak. When Admiral Daelin Proudmoore invaded Durotar, Cairne took up arms again and fought alongside Rexxar after his captured son, Baine, was safely recovered. Now one of the Horde’s most respected elders, Cairne remains Thrall’s closest confidant and offers calm counsel against reckless warmongering.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "tauren leader",
     "high chieftain"
    ],
-   "answer": "Cairne Bloodhoof is the High Chieftain of the united tauren tribes, chieftain of the Bloodhoof tribe, and leader of Thunder Bluff. He is an ancient warrior whose leadership and strength led the tauren out of nomadic exile and into a secure homeland."
+   "answer": "Cairne Bloodhoof is the High Chieftain of the united tauren tribes, chieftain of the Bloodhoof tribe, and leader of Thunder Bluff. An ancient warrior, he led the tauren out of nomadic exile and into a secure homeland."
   },
   {
    "q": "Why are the tauren allied with the orcs?",
@@ -38,7 +38,7 @@
     "cairne thrall friendship",
     "tauren orc alliance"
    ],
-   "answer": "During the Third War, marauding centaur tribes were hunting the tauren to extinction. Thrall and his newly arrived orcs fought off the marauders and escorted Cairne's great caravan to Mulgore. In gratitude, Cairne pledged his people's loyalty and strength to Thrall's Horde."
+   "answer": "During the Third War, marauding centaur tribes hunted the tauren toward extinction. Thrall and his newly arrived orcs fought off the marauders and escorted Cairne’s great caravan to Mulgore. In gratitude, Cairne pledged his people’s loyalty and strength to Thrall’s Horde."
   },
   {
    "q": "Where does Cairne reside?",
@@ -47,7 +47,7 @@
     "cairne location",
     "find cairne bloodhoof"
    ],
-   "answer": "He presides atop Thunder Bluff, the capital city built on the high mesas of Mulgore, ruling alongside the leaders of the various reunited tauren tribes."
+   "answer": "Cairne resides in Thunder Bluff, the city built on Mulgore’s high mesas. He rules alongside the leaders of the reunited tauren tribes."
   },
   {
    "q": "Who is Baine Bloodhoof to Cairne?",
@@ -56,17 +56,17 @@
     "is baine cairne's son",
     "baine bloodhoof relation"
    ],
-   "answer": "Baine is Cairne's beloved son and heir. When Baine was abducted by centaur raiders, Cairne fell into deep grief, refusing to fight until Rexxar and his companions tracked Baine down and returned him safely home."
+   "answer": "Baine is Cairne’s beloved son and heir. When centaur raiders abducted Baine, Cairne fell into deep grief and refused to fight until Rexxar and his companions found Baine and brought him safely home."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "Cairne is the savior of your people, having united the scattered tribes, repelled the centaur, and led the construction of Thunder Bluff."
+   "text": "As a tauren, Cairne is the savior of your people. He united the scattered tribes, repelled the centaur, and led the building of Thunder Bluff."
   },
   {
    "target": "faction:Horde",
-   "text": "Alongside Thrall, Cairne is a founding father of the modern Horde on Kalimdor, serving as a pillar of honor, wisdom, and military power."
+   "text": "As a member of the Horde, you share its cause with Cairne, a founding father on Kalimdor and a pillar of honor, wisdom, and military power."
   }
  ],
  "keywords": [
@@ -91,5 +91,6 @@
  ],
  "attribution": [
   "Cairne Bloodhoof"
- ]
+ ],
+ "style": 1
 }

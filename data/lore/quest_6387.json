@@ -17,16 +17,16 @@
   "wiki": "Honor Students (Classic)",
   "chain": []
  },
- "summary": "Mining instructor Brock Stoneseeker rewards promising young apprentices in Thelsamar with honorary mining picks. To arrange delivery of the tools from Ironforge, he directs adventurers to enlist the aid of the local gryphon master, Thorgrum Borrelson.",
+ "summary": "In Thelsamar, Brock Stoneseeker sends an order for honorary mining picks to Ironforge. He asks you to enlist gryphon master Thorgrum Borrelson to carry it there.",
  "sections": [
   {
    "title": "A Miner's Due",
-   "body": "In the dwarf town of Thelsamar, mining is more than an occupation\u2014it is a cornerstone of daily survival and dwarven pride. Brock Stoneseeker watches dozens of fresh recruits pass through his training, drilling them on rock composition and tunnel safety. For the students who distinguish themselves above the rest, tradition demands recognition in the form of a finely crafted honorary pick. Because local supply is limited, obtaining these picks requires reaching across Khaz Modan into the heart of Ironforge.",
+   "body": "In Thelsamar, Brock Stoneseeker trains new miners in rock composition and tunnel safety. The town depends on mining, and its dwarves take pride in the craft. Brock gives honorary picks to apprentices who distinguish themselves in training. Local supplies are limited, so the picks must come from Ironforge, across Khaz Modan.",
    "spoiler": 0
   },
   {
    "title": "Taking to the Skies",
-   "body": "Rather than trusting the slow, mountainous trek back through Dun Morogh on foot, Brock relies on the kingdom's aerial courier network. Thorgrum Borrelson tends the gryphon roost perched beside Thelsamar, offering rapid transit to the capital. Handing Brock's order to Thorgrum initiates a courier run that connects rural frontier training directly to the grand foundries of the dwarven capital.",
+   "body": "Thelsamar's gryphon roost links the frontier to Ironforge through the kingdom's aerial courier network. Gryphon master Thorgrum Borrelson tends the roost beside town. Brock asks you to bring his order to Thorgrum, who can arrange a swift courier run to the capital and its foundries.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who is brock",
     "mining trainer thelsamar"
    ],
-   "answer": "Brock Stoneseeker is a mining instructor residing in Thelsamar. He trains novices in the foundational skills of excavation and stonecraft."
+   "answer": "Brock Stoneseeker teaches mining in Thelsamar. He trains novices in excavation and stonecraft."
   },
   {
    "q": "Why does Brock need picks from Ironforge?",
@@ -47,7 +47,7 @@
     "why picks",
     "brock's list"
    ],
-   "answer": "Brock compiles a list of high-achieving mining students who have earned honorary picks. To fulfill these rewards, the order must be delivered to Golnir Bouldertoe, a mining supplies vendor stationed in Ironforge."
+   "answer": "Brock needs honorary picks for his high-achieving mining students, and local supplies are limited. The order must reach Golnir Bouldertoe, a mining supplies vendor in Ironforge."
   },
   {
    "q": "What role does Thorgrum Borrelson play in this task?",
@@ -56,7 +56,7 @@
     "who is thorgrum",
     "gryphon master thelsamar"
    ],
-   "answer": "Thorgrum Borrelson is Thelsamar's gryphon master. Brock instructs couriers to bring the order list to him so they can arrange speedy aerial transport back to Ironforge."
+   "answer": "Thorgrum Borrelson tends Thelsamar's gryphon roost. Brock asks you to bring him the order so he can arrange aerial transport to Ironforge."
   },
   {
    "q": "Who receives the list in Ironforge?",
@@ -65,7 +65,7 @@
     "golnir bouldertoe",
     "ironforge contact"
    ],
-   "answer": "The list is ultimately destined for Golnir Bouldertoe in Ironforge, who prepares the ceremonial picks for Brock's accomplished students."
+   "answer": "Golnir Bouldertoe receives the list in Ironforge and prepares the honorary picks for Brock's accomplished students."
   },
   {
    "q": "Where does this errand lead next?",
@@ -74,7 +74,7 @@
     "what follows honor students",
     "after brock's list"
    ],
-   "answer": "Once you speak with Thorgrum Borrelson, he arranges a gryphon flight directly to Ironforge so you can hand-deliver the order to Golnir Bouldertoe."
+   "answer": "After you speak with Thorgrum Borrelson, he arranges a gryphon flight to Ironforge, where you can deliver Brock's order to Golnir Bouldertoe."
   },
   {
    "q": "Where does this task take place?",
@@ -83,21 +83,21 @@
     "where is thelsamar",
     "where to start honor students"
    ],
-   "answer": "The task begins and concludes within the settlement of Thelsamar, located along the rolling hills of Loch Modan."
+   "answer": "You begin and finish in Thelsamar, a settlement in the hills of Loch Modan."
   }
  ],
  "angles": [
   {
    "target": "profession:Mining",
-   "text": "The errand highlights dwarven respect for mining as a disciplined craft, where mastering stone and vein earns tangible recognition from master instructors."
+   "text": "As a miner, you see how dwarves honor skill in the craft: mastering stone and finding veins can earn recognition from an instructor."
   },
   {
    "target": "race:Dwarf",
-   "text": "For dwarven adventurers, this task reflects the tight bond between frontier settlements like Thelsamar and the capital's deep mountain halls."
+   "text": "As a dwarf, you see the bond between frontier settlements like Thelsamar and the capital's halls deep in the mountains."
   },
   {
    "target": "faction:Alliance",
-   "text": "This request introduces travelers in Loch Modan to the Alliance's vital network of flight masters and aerial couriers."
+   "text": "As an Alliance traveler in Loch Modan, you encounter the network of flight masters and aerial couriers that links its settlements."
   }
  ],
  "keywords": [
@@ -121,5 +121,6 @@
  ],
  "attribution": [
   "Honor Students (Classic)"
- ]
+ ],
+ "style": 1
 }

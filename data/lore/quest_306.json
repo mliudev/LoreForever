@@ -20,16 +20,16 @@
    "In Search of The Excavation Team (2)"
   ]
  },
- "summary": "This errand delivers word of a disastrous dinosaur attack at the Whelgar's Excavation site back to Menethil Harbor. Merrin Rockweaver writes a hasty letter to reassure her anxious husband, Tarrel, while recounting how the expedition was overrun.",
+ "summary": "Merrin Rockweaver sends word from the Whelgar's Excavation site after mottled raptors overrun the dig. Her letter tells Tarrel Rockweaver that she survived, while most of the expedition did not.",
  "sections": [
   {
    "title": "A Message from the Ruins",
-   "body": "After locating the remnants of the excavation team cowering near the ridge overlooking the dig site, Merrin Rockweaver provides a hasty report. Unearthing rare artifacts alongside massive prehistoric fossils proved fatal when packs of native mottled raptors swarmed the diggers. The sudden ferocity left most of the crew dead and the survivors cut off from civilization.",
+   "body": "Merrin Rockweaver has a report for you from the ridge above Whelgar's Excavation site. The team was uncovering rare artifacts and massive prehistoric fossils when packs of mottled raptors swept through the dig. Most of the crew died in the attack. Merrin and the other survivors remain cut off from Menethil Harbor.",
    "spoiler": 0
   },
   {
    "title": "A Bitter Relief",
-   "body": "Returning to Menethil Harbor brings grim comfort to Tarrel Rockweaver. Knowing his wife and at least two companions survived thanks to the courage of a defender named Ormer eases his mind, though the slaughter of so many colleagues weighs heavily on the town's frontier spirit.",
+   "body": "At Menethil Harbor, Tarrel Rockweaver learns that his wife survived with at least two companions. Ormer's courage helped them escape, easing Tarrel's fear. The deaths of so many colleagues still weigh on the town and its frontier spirit.",
    "spoiler": 0
   }
  ],
@@ -41,7 +41,7 @@
     "wetlands excavation disaster",
     "why did excavation fail"
    ],
-   "answer": "While unearthing rare artifacts and massive ancient bones, the dwarven expedition was caught off guard and overrun by territorial mottled raptors. Most of the diggers were slain, leaving only a handful of survivors trapped on the bluffs above the dig site."
+   "answer": "Packs of mottled raptors overran the dwarven expedition while it uncovered rare artifacts and massive ancient bones. Most of the diggers were slain, and a handful survived on the bluffs above the site."
   },
   {
    "q": "Who saved Merrin Rockweaver?",
@@ -50,7 +50,7 @@
     "ormer rockweaver",
     "who is ormer"
    ],
-   "answer": "Merrin credits a brave defender named Ormer with fighting off the raptors and escorting her and the Prospector to relative safety up on the ridge as the lower site collapsed."
+   "answer": "Merrin Rockweaver credits Ormer with fighting off the raptors and escorting her and the Prospector to safety on the ridge."
   },
   {
    "q": "Who is Tarrel Rockweaver?",
@@ -58,7 +58,7 @@
     "who is tarrel",
     "tarrel rockweaver location"
    ],
-   "answer": "Tarrel Rockweaver is Merrin's husband, stationed back at Menethil Harbor. Anxious over the lack of communication from the dig site, he sought travelers to investigate her whereabouts."
+   "answer": "Tarrel Rockweaver is Merrin's husband, waiting in Menethil Harbor. Worried by the silence from the dig site, he sought travelers to learn what had happened to her."
   },
   {
    "q": "Where is the dig site located?",
@@ -74,7 +74,7 @@
     "what were they digging for",
     "excavation artifacts"
    ],
-   "answer": "Under the direction of dwarven prospectors, the team was excavating rare subterranean artifacts and large prehistoric fossils buried in the marshes."
+   "answer": "The team was digging for rare subterranean artifacts and large prehistoric fossils buried in the marshes under the direction of dwarven prospectors."
   },
   {
    "q": "Are there other survivors beside Merrin?",
@@ -82,17 +82,17 @@
     "who else survived",
     "excavation survivors"
    ],
-   "answer": "Yes, Merrin mentions that Ormer and the chief Prospector managed to escape the raptors alongside her, bringing the known survivor count to three."
+   "answer": "Yes. Merrin says Ormer and the chief Prospector escaped with her, making three known survivors."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "The disaster at the excavation cuts deeply into dwarven archeological ambitions, highlighting the perils King Magni's explorers face far from the safety of Ironforge."
+   "text": "As a dwarf, you know the dangers King Magni's explorers face far from Ironforge. The disaster strikes at dwarven hopes of exploring the past."
   },
   {
    "target": "faction:Alliance",
-   "text": "The supply roads and frontier projects across the Wetlands remain dangerously vulnerable to wild beasts, requiring constant vigilance from Alliance travelers."
+   "text": "As an Alliance traveler, you know wild beasts threaten settlements and work across the Wetlands."
   }
  ],
  "keywords": [
@@ -113,5 +113,6 @@
  ],
  "attribution": [
   "In Search of The Excavation Team (2)"
- ]
+ ],
+ "style": 1
 }

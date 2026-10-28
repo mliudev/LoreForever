@@ -360,7 +360,7 @@ footer { border-top: 1px solid var(--w-rim); background: #08161f; padding-block:
     if (p.promo && p.monthly > now) price.append(el("s", usd(p.monthly)));
     li.append(price);
     if (p.promo?.note) li.append(el("p", p.promo.note, "note"));
-    li.append(el("p", gist(p) + (p.answersPerDay ? `. ${p.answersPerDay} answers a day.` : "."), "what"));
+    li.append(el("p", gist(p) + (p.unlimited ? ". Unlimited answers." : p.answersPerDay ? `. ${p.answersPerDay} answers a day.` : "."), "what"));
     return li;
   }));
   // Before WoW Forever's launch, the pre-order's words too (launchEnds: the launch's day, null from it).

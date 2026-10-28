@@ -55,7 +55,11 @@ const SETUP = [
 ];
 // Columns added since the table was first made (10/18, the feedback loop): added once, where missing.
 // colo and first_ms (10/24): the Cloudflare data centre that served it, and when her first words went out (ms).
-const ADDED = ["ref TEXT", "signals TEXT", "topic TEXT", "ctx TEXT", "say TEXT", "plan TEXT", "colo TEXT", "first_ms INTEGER"];
+// speed_ms and speed (10/28, LOR-856 E4): asked out loud, the talk key coming up to her first sound on the player's PC,
+// and its pieces as JSON (lib/answer-signals.js lastOf speed), from the app's facts with the next question.
+// pre_ms (10/28, LOR-856 E4): the site's own time before it first asked the model (sign-in, plan, caps, look-ups).
+const ADDED = ["ref TEXT", "signals TEXT", "topic TEXT", "ctx TEXT", "say TEXT", "plan TEXT", "colo TEXT", "first_ms INTEGER",
+  "speed_ms INTEGER", "speed TEXT", "pre_ms INTEGER"];
 const AFTER_ADDED = ["CREATE INDEX IF NOT EXISTS answer_log_ref ON answer_log (ref)"];
 export const OUTCOMES = ["answered", "unverified", "failed"];
 
@@ -202,7 +206,7 @@ export async function logAnswer(env, userId, entry = {}, { names = [], now = new
     await env.DB.batch([
       env.DB.prepare("INSERT INTO answer_log (created, player, operation, npc, spoken, zone, sub, question, answer, " +
         "action, model, model_ms, total_ms, looked_up, lookups, facts, feedback, outcome, error, ref, topic, ctx, say, plan, " +
-        "colo, first_ms) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)").bind(now.toISOString(),
+        "colo, first_ms, pre_ms) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)").bind(now.toISOString(),
         key, entry.operation === "character" ? "character" : "answer", clip(entry.npc, 80),
         entry.spoken ? 1 : 0, clip(entry.zone, 80), clip(entry.sub, 80), question,
         clip(scrubNames(entry.answer, names), 2000), clip(entry.action, 40), clip(entry.model, 60),
@@ -213,7 +217,7 @@ export async function logAnswer(env, userId, entry = {}, { names = [], now = new
         entry.outcome, clip(entry.error, 200), ANSWER_ID.test(entry.ref || "") ? entry.ref : null,
         topicOf(entry.question, { operation: entry.operation, lookups: entry.lookups, action: entry.action }),
         ctxOf(entry.ctx, names), clip(scrubNames(entry.say, names), 1000), clip(entry.plan, 24),
-        /^[A-Z]{3}$/.test(entry.colo || "") ? entry.colo : null, whole(entry.first_ms)),
+        /^[A-Z]{3}$/.test(entry.colo || "") ? entry.colo : null, whole(entry.first_ms), whole(entry.pre_ms)),
       env.DB.prepare("DELETE FROM answer_log WHERE created < ?").bind(cutoff(now)),
     ]);
     return true;
@@ -246,6 +250,23 @@ export async function tagAnswer(env, userId, { ref = null, tags = [], question =
     return true;
   } catch (e) {
     console.warn(`answer log tag: ${e?.message || e}`);
+    return false;
+  }
+}
+
+// How fast a spoken answer was heard on the player's PC (lib/answer-signals.js lastOf speed), on its row: once, by its
+// ref. speed_ms is the talk key coming up to her first sound less any time a Lore Forever narration held her answer (a
+// narration playing isn't her keeping them waiting); speed keeps the app's own numbers, up and held among them. True
+// when a row took it.
+export async function timeAnswer(env, userId, ref, speed) {
+  if (!ANSWER_ID.test(ref || "") || !Number.isFinite(speed?.up)) return false;
+  try {
+    await setupAnswerLog(env);
+    const res = await env.DB.prepare("UPDATE answer_log SET speed_ms = ?, speed = ? WHERE ref = ? AND player = ? AND speed_ms IS NULL")
+      .bind(Math.max(0, speed.up - (speed.held || 0)), JSON.stringify(speed), ref, await playerKey(env, userId)).run();
+    return (res?.meta?.changes || 0) > 0;
+  } catch (e) {
+    console.warn(`answer log speed: ${e?.message || e}`);
     return false;
   }
 }

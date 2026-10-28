@@ -20,16 +20,16 @@
    "A Rogue's Deal (2)"
   ]
  },
- "summary": "A Rogue's Deal is a clandestine confrontation with Calvin Montague in Deathknell. After duping a newly awakened Forsaken into running an errand with the promise of wealth, the sly rogue refuses to pay until beaten into submission.",
+ "summary": "Calvin Montague offers work to newly awakened Forsaken in Deathknell. He promises wealth for delivering a letter, but refuses payment when the work is done.",
  "sections": [
   {
    "title": "A Dishonorable Promise",
-   "body": "Calvin Montague loiters near the crypts of Deathknell offering seemingly easy work for newly risen Forsaken. Claiming there is good coin to be earned by delivering a letter, Montague sends green adventurers into danger. However, once the errand is done, Montague conveniently forgets his promise of payment, feigning utter ignorance about any arrangement or owed coin.",
+   "body": "In Deathknell, Calvin Montague offers newly risen Forsaken work for good coin. He asks them to deliver a letter, but when they return, he pretends no bargain was made and denies owing them anything.",
    "spoiler": 0
   },
   {
    "title": "Paying the Price",
-   "body": "When pressed to honor his bargain, Montague shows his true colors. Rather than parting with his silver, he draws his weapons, betting that he can easily cut down an inexperienced fledgling. Beating sense into the rogue forces him to concede. Thoroughly battered, he coughs up a cut of coin, freely admitting that he lied about the payout simply because he thought he could get away with it.",
+   "body": "When you demand the promised silver, Calvin Montague draws his weapons instead. He expects an inexperienced Forsaken to be easy to cut down. Defeated, he gives you some coin and admits he lied about the payout because he thought he could get away with it.",
    "spoiler": 1
   }
  ],
@@ -41,7 +41,7 @@
     "calvin montague hostile",
     "why rogue attacks"
    ],
-   "answer": "Calvin Montague is an unscrupulous rogue who never intended to share his coin. When confronted about his broken promise, he attempts to silence his associate permanently rather than pay up, assuming a newly raised Forsaken will be an easy mark."
+   "answer": "Calvin Montague is an unscrupulous rogue who never meant to share his coin. When you confront him over the broken promise, he tries to silence you rather than pay, assuming a newly raised Forsaken will be an easy mark."
   },
   {
    "q": "Where does this confrontation take place?",
@@ -50,7 +50,7 @@
     "calvin montague location",
     "where is rogue's deal"
    ],
-   "answer": "The confrontation takes place directly in Deathknell, the ruined village in southwestern Tirisfal Glades where newly risen Forsaken first awaken."
+   "answer": "The confrontation takes place in Deathknell, the ruined village in southwestern Tirisfal Glades where newly risen Forsaken first awaken."
   },
   {
    "q": "Does Calvin Montague actually pay what he promised?",
@@ -59,7 +59,7 @@
     "does calvin pay",
     "did he lie about coin"
    ],
-   "answer": "No. Once beaten in combat, Calvin surrenders and hands over some coin, but admits it is far less than he originally offered because he lied about the full amount from the start."
+   "answer": "No. After you beat him, Calvin Montague surrenders and hands over some coin, far less than he originally offered. He admits he lied about the full amount from the start."
   },
   {
    "q": "How is this second task unlocked?",
@@ -68,7 +68,7 @@
     "unlock rogue deal fight",
     "secret rogue quest"
    ],
-   "answer": "After completing the initial delivery errand from Calvin Montague, return and speak to him again to demand the coin he promised. Challenging his deceit immediately triggers the fight."
+   "answer": "After you complete Calvin Montague's initial letter delivery, return and demand the promised coin. When you challenge his deceit, the fight begins."
   },
   {
    "q": "Does Calvin Montague die when defeated?",
@@ -77,7 +77,7 @@
     "is calvin dead",
     "calvin surrender"
    ],
-   "answer": "No. Montague yields before taking a fatal blow, profusely complimenting your fighting skill and begrudgingly opening his coin pouch to save his own skin."
+   "answer": "No. Calvin Montague yields before taking a fatal blow, compliments your fighting skill, and begrudgingly opens his coin pouch to save his own skin."
   },
   {
    "q": "What lesson does this encounter offer to new Forsaken?",
@@ -85,17 +85,17 @@
     "what is the point of rogue deal",
     "lore behind rogue's deal"
    ],
-   "answer": "It serves as an early, practical lesson in the harsh realities of the Forsaken: honor is scarce among the undead, words are cheap, and respect is earned only through martial strength."
+   "answer": "For new Forsaken, the encounter offers a practical lesson in harsh realities: honor is scarce among the undead, words are cheap, and respect is earned only through martial strength."
   }
  ],
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "Dealing with Calvin Montague offers young rogues an immediate lesson in professional hazard: trust no one, watch your purse, and never let another scoundrel walk away with your cut."
+   "text": "As a young rogue, dealing with Calvin Montague teaches you to trust no one, watch your purse, and never let another scoundrel walk away with your cut."
   },
   {
    "target": "race:Undead",
-   "text": "Waking up in Deathknell quickly proves that death does not strip humanity's pettiest vices; Forsaken cutpurses are just as quick to swindle their own kin as living bandits."
+   "text": "As a Forsaken, waking in Deathknell quickly shows you that death does not strip away humanity's pettiest vices. Forsaken cutpurses swindle their own kin as readily as living bandits."
   }
  ],
  "keywords": [
@@ -115,5 +115,6 @@
  ],
  "attribution": [
   "A Rogue's Deal (2)"
- ]
+ ],
+ "style": 1
 }

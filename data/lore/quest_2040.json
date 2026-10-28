@@ -20,16 +20,16 @@
    "Underground Assault"
   ]
  },
- "summary": "Underground Assault is an Alliance quest offered by Shoni the Shilent in Stormwind City's Dwarven District. Tasked with aiding the displaced gnomes, adventurers venture into the Deadmines to salvage an intact power core from a goblin shredder. This stolen component is destined to power drilling machines intended to spearhead the liberation of Gnomeregan.",
+ "summary": "Shoni the Shilent sends Alliance adventurers into the Deadmines for a power core. The displaced gnomes need it to power drills that can break through the rock around Gnomeregan and help reclaim their home.",
  "sections": [
   {
    "title": "A Desperate Ingenuity",
-   "body": "Following the catastrophic fall of Gnomeregan to the primitive troggs, surviving gnomish tinkerers have been forced into exile across Khaz Modan and Stormwind. Rather than wallowing in defeat, engineers like Shoni the Shilent are already devising mechanical operations to breach their lost home. The primary obstacle is the dense, subterranean rock surrounding the technocratic city, requiring massive tunneling engines known as gyrodrillmatic excavationators. Lacking the necessary localized power grids in human lands, the gnomes have turned their sights to an unlikely and volatile alternative: goblin heavy machinery operating in the criminal underworld.",
+   "body": "After Gnomeregan fell catastrophically to primitive troggs, surviving gnomish tinkerers fled across Khaz Modan and Stormwind. Shoni the Shilent is among the engineers already planning how to breach the rock around their lost home. Her gyrodrillmatic excavationators need great power to bore through the underground stone. Without local power grids in human lands, the gnomes have turned to goblin heavy machinery in the criminal underworld.",
    "spoiler": 0
   },
   {
    "title": "Looting the Defias Foundries",
-   "body": "Deep within the twisting shafts of the Deadmines in Westfall, Edwin VanCleef's Defias Brotherhood employs goblin engineers to manufacture war machines, including a fully operational goblin shredder. Shoni directs Alliance operatives to infiltrate this foundry, destroy or dismantle the lumbering automaton, and recover its specialized heart\u2014the Gnoam Sprecklesprocket. By commandeering the potent goblin power supply, the exiled gnomes gain the raw mechanical output needed to bore through the subterranean perimeter and launch a counteroffensive to reclaim Gnomeregan.",
+   "body": "Deep in the twisting shafts of the Deadmines in Westfall, Edwin VanCleef's Defias Brotherhood employs goblin engineers to build war machines. One is a working goblin shredder, a lumbering automaton. Shoni sends Alliance operatives to destroy or dismantle it and recover its specialized heart, the Gnoam Sprecklesprocket. The exiled gnomes need the goblin power supply to drive their drills through the underground rock and begin their counteroffensive to reclaim Gnomeregan.",
    "spoiler": 0
   }
  ],
@@ -41,7 +41,7 @@
     "who gives underground assault",
     "shoni quest"
    ],
-   "answer": "The quest is given by Shoni the Shilent, a gnomish engineer located in the Dwarven District of Stormwind City. Adventurers are often directed to her after speaking with other gnomes who mention her ambitious plans."
+   "answer": "Shoni the Shilent, a gnomish engineer in Stormwind City's Dwarven District, gives it. Other gnomes often direct adventurers to her after mentioning her ambitious plans."
   },
   {
    "q": "Where do I find the Gnoam Sprecklesprocket?",
@@ -50,7 +50,7 @@
     "where is sprecklesprocket",
     "shredder part deadmines"
    ],
-   "answer": "The Gnoam Sprecklesprocket is recovered from a functional goblin shredder deep within the foundry tunnels of the Deadmines in Westfall."
+   "answer": "You recover the Gnoam Sprecklesprocket from a working goblin shredder deep in the Deadmines foundry tunnels in Westfall."
   },
   {
    "q": "Why does Shoni need parts from a goblin shredder?",
@@ -59,7 +59,7 @@
     "why shredder power supply",
     "sprecklesprocket purpose"
    ],
-   "answer": "Gnomish gyrodrillmatic excavationators need an immense, portable power supply to breach the reinforced subterranean borders around Gnomeregan. The heavy-duty power core running the Defias Brotherhood's goblin shredder provides the exact mechanical output required for the drills."
+   "answer": "Gnomish gyrodrillmatic excavationators need immense portable power to breach the reinforced underground borders around Gnomeregan. The heavy-duty core running the Defias goblin shredder provides the exact mechanical output the drills require."
   },
   {
    "q": "What is the broader goal of this mission?",
@@ -68,7 +68,7 @@
     "reclaiming gnomeregan quest",
     "gnome assault plan"
    ],
-   "answer": "The mission supports the future liberation of Gnomeregan. By powering up heavy excavation drills, the exiled gnomes intend to tunnel directly through the rocky perimeter of their captured city and mount a surprise assault against the occupying troggs."
+   "answer": "The exiled gnomes plan to power heavy excavation drills, tunnel through the rocky perimeter of captured Gnomeregan, and launch a surprise assault against the troggs occupying it."
   },
   {
    "q": "What happened to Gnomeregan that caused this assault to be planned?",
@@ -77,7 +77,7 @@
     "what happened to gnomeregan",
     "trogg invasion"
    ],
-   "answer": "Gnomeregan was overwhelmed by a subterranean trogg invasion emerging from deep beneath the city. In the chaotic defense, the city was contaminated by toxic radiation, forcing the surviving gnomish populace to flee to Ironforge and Stormwind as refugees."
+   "answer": "A subterranean trogg invasion rose from deep beneath Gnomeregan and overwhelmed the city. Toxic radiation contaminated it during the chaotic defense, forcing survivors to flee as refugees to Ironforge and Stormwind."
   },
   {
    "q": "Are the Defias Brotherhood and the troggs allied?",
@@ -85,21 +85,21 @@
     "defias and troggs",
     "are troggs with defias"
    ],
-   "answer": "No, they have no connection. The Defias Brotherhood merely hired goblin tinkerers to build warmachines in Westfall. Shoni simply exploits the Defias presence in the Deadmines as a convenient source of high-yield goblin technology."
+   "answer": "No, the Defias Brotherhood and the troggs have no connection. The Defias hired goblin tinkerers to build war machines in Westfall, and Shoni exploits their Deadmines foundry as a convenient source of high-yield goblin technology."
   }
  ],
  "angles": [
   {
    "target": "race:Gnome",
-   "text": "For exiled gnomish adventurers, salvaging this power core is a personal step toward piercing the rocky walls of their fallen home and driving the troggs out of Gnomeregan."
+   "text": "As an exiled gnomish adventurer, you help salvage a power core that can drive drills through the rocky walls of your fallen home and help drive the troggs from Gnomeregan."
   },
   {
    "target": "profession:Engineering",
-   "text": "Tinkers will appreciate the audacious engineering behind cannibalizing a brutal goblin shredder power core to fuel precision gnomish excavation machinery."
+   "text": "As an engineer, you can appreciate the audacious work of cannibalizing a brutal goblin shredder's power core to fuel precise gnomish excavation machinery."
   },
   {
    "target": "faction:Alliance",
-   "text": "Assisting the displaced gnomes of the Dwarven District strengthens the bond between Stormwind and its exiled allies while striking a blow against the Defias supply line."
+   "text": "As an Alliance adventurer, you strengthen Stormwind's bond with its displaced gnomish allies and strike at the Defias supply line."
   }
  ],
  "keywords": [
@@ -123,5 +123,6 @@
  ],
  "attribution": [
   "Underground Assault"
- ]
+ ],
+ "style": 1
 }

@@ -17,16 +17,16 @@
   "wiki": "Wait for Sirra to Finish",
   "chain": []
  },
- "summary": "This brief pause marks the moment Sirra Von'Indi deciphers the cryptic note delivered from the reclusive hermit Abercrombie. As he puts quill to paper in Darkshire's Town Hall, an ominous dread settles over the room, hinting that the hermit's words are far darker than expected.",
+ "summary": "In Darkshire's Town Hall, Sirra Von'Indi deciphers Abercrombie's cryptic note. As the resident scholar puts quill to paper, dread settles over the room, and the hermit's words hint at danger.",
  "sections": [
   {
    "title": "A Moment of Translation",
-   "body": "After receiving the mysterious note penned by the hermit Abercrombie, Sirra Von'Indi requires only a short spell to decipher its text. As a resident scholar aiding the Night Watch and town leadership, he undertakes the task without realizing immediately what horrors the message conceals.",
+   "body": "Sirra Von'Indi has the note Abercrombie sent from his seclusion. The scholar aids the Night Watch and Darkshire's leaders, and needs only a short time to decipher the message. He does not yet know what horrors its words conceal.",
    "spoiler": 0
   },
   {
    "title": "An Ominous Chill",
-   "body": "The moment Sirra completes the transcription, the atmosphere shifts palpably. A sudden heaviness hangs over the room, likened to a thick black curtain dropping over the region. The deciphered note portends great danger for Darkshire, revealing that Abercrombie's seemingly harmless errands were part of a sinister, vengeful design.",
+   "body": "When Sirra finishes the transcription, a sudden heaviness fills the room, like a black curtain falling over the region. The note warns of great danger for Darkshire. Abercrombie's seemingly harmless errands were part of a sinister, vengeful design.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "who is sirra",
     "sirra duskwood"
    ],
-   "answer": "Sirra Von'Indi is an educated scholar residing in Darkshire's Town Hall. He assists Mayor Ello Ebonlocke and the local authorities by translating ancient scripts, strange documents, and ciphered messages brought in from the gloomy wilds of Duskwood."
+   "answer": "Sirra Von'Indi is a scholar who lives in Darkshire's Town Hall. He helps Mayor Ello Ebonlocke and the local authorities translate ancient scripts, strange documents, and ciphered messages brought in from Duskwood's gloomy wilds."
   },
   {
    "q": "What note is Sirra translating?",
@@ -47,7 +47,7 @@
     "abercrombie note",
     "what did abercrombie write"
    ],
-   "answer": "The note was penned by Abercrombie, the hermit who lives secluded in a shack near the western edge of Duskwood. You carried out a string of errands for him before this note ended up in Sirra's hands for translation."
+   "answer": "The note was written by Abercrombie, the hermit living in a shack near Duskwood's western edge. You carried out a string of errands for him before the note came to Sirra for translation."
   },
   {
    "q": "Why does the air feel heavy when he finishes?",
@@ -56,7 +56,7 @@
     "black curtain over land",
     "duskwood dark air"
    ],
-   "answer": "The sudden oppressive chill is an omen of impending doom: whatever the note says, it is grim news for Darkshire, and its full meaning becomes clear once the translation reaches Lord Ello Ebonlocke."
+   "answer": "The heaviness is an omen of impending doom. The note brings grim news for Darkshire, and its full meaning becomes clear when the translation reaches Lord Ello Ebonlocke."
   },
   {
    "q": "Who should receive the translated letter next?",
@@ -65,7 +65,7 @@
     "who gets the note next",
     "next step after sirra"
    ],
-   "answer": "Once Sirra finishes the translation, he instructs you to carry the chilling words directly across the room to Mayor Ello Ebonlocke so the Night Watch can prepare for what is to come."
+   "answer": "When Sirra finishes translating, he asks you to carry the chilling words across the room to Mayor Ello Ebonlocke, so the Night Watch can prepare for what is coming."
   },
   {
    "q": "Is Abercrombie actually an enemy of Darkshire?",
@@ -74,7 +74,7 @@
     "hermit enemy",
     "abercrombie lore"
    ],
-   "answer": "Abercrombie presents himself as a harmless, reclusive old man needing assistance to survive. The heavy dread that falls as Sirra finishes the translation suggests his note holds grim news for Darkshire, and its full meaning becomes clear once it reaches Lord Ello Ebonlocke."
+   "answer": "Abercrombie presents himself as a harmless, reclusive old man who needs help to survive. The dread that falls as Sirra finishes suggests grim news for Darkshire, and the note's full meaning becomes clear when it reaches Lord Ello Ebonlocke."
   },
   {
    "q": "Why do you have to wait for him?",
@@ -83,17 +83,17 @@
     "how long do i wait",
     "sirra waiting"
    ],
-   "answer": "Translating ancient ciphers takes time and focus. The brief delay gives Sirra a moment to parse the hermit's handwriting and coded phrasing before producing the readable transcript for the mayor."
+   "answer": "Sirra needs time and focus to translate ancient ciphers. He parses the hermit's handwriting and coded phrasing before producing a readable transcript for the mayor."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Darkshire's fragile safety hangs by a thread."
+   "text": "As an Alliance traveler, you know Darkshire's fragile safety hangs by a thread."
   },
   {
    "target": "class:Mage",
-   "text": "Mages studying arcane scripts and runes will recognize the dark, lingering resonance of a cursed message as its contents are laid bare."
+   "text": "As a mage, you recognize the dark, lingering resonance of a cursed message as its contents are laid bare."
   }
  ],
  "keywords": [
@@ -113,5 +113,6 @@
  ],
  "attribution": [
   "Wait for Sirra to Finish"
- ]
+ ],
+ "style": 1
 }

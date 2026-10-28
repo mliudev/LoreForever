@@ -42,10 +42,15 @@ local QUEST_GIVER_PACKS = { QUEST_GIVERS, QUEST_GIVERS .. "2", QUEST_GIVERS .. "
 -- Where players get voice packs (the site's Downloads page). Players type it, so keep it short.
 Voice.DOWNLOADS = "loreforeverwow.com/downloads"
 local AUTO = "auto"
-local LANGUAGES = { enUS = "English", enGB = "English", deDE = "Deutsch", frFR = "Français", esES = "Español",
+local NATIVE_NAMES = { enUS = "English", enGB = "English", deDE = "Deutsch", frFR = "Français", esES = "Español",
   esMX = "Español (Latinoamérica)", ptBR = "Português", itIT = "Italiano", ruRU = "Русский", koKR = "한국어",
   zhCN = "简体中文", zhTW = "繁體中文", ukUA = "Українська",
   roRO = "Română", svSE = "Svenska" }
+
+-- A language's own name, or its English name where this client's font can't draw it (Packs.LanguageName).
+local LANGUAGES = setmetatable({}, { __index = function(_, locale)
+  if NATIVE_NAMES[locale] then return ns.Packs.LanguageName(locale, NATIVE_NAMES[locale]) end
+end })
 
 local function readingLocale() return ns.readingLocale or "enUS" end
 -- Same language, whatever the region: enGB recordings suit English text (the clip hashes still decide per clip).
@@ -196,9 +201,10 @@ function Voice.ClipPath(pack, id, ext)
   return "Interface\\AddOns\\" .. pack .. "\\Audio\\" .. stem .. "." .. (ext or "mp3")
 end
 
--- A quest giver's words (quest:176#detail, #progress, #complete: lore.clips), not a lore narration.
+-- A quest giver's words (quest:176#detail, #progress, #complete: lore.clips), not a lore narration (nor a quest's spoken
+-- title, quest:176#title: lore.titles).
 local function isQuestClip(id)
-  return type(id) == "string" and id:find("^quest:%d+#%a+$") ~= nil
+  return type(id) == "string" and id:find("^quest:%d+#%a+$") ~= nil and not id:find("#title$")
 end
 
 -- The default pack for a language: LoreForever_Voice_Default_<locale>, or LoreForever_Voice_Default for its language.
@@ -540,7 +546,10 @@ end
 
 -- The clip a voice should keep together with this one (voiceGroup): its story's main clip ("story": the entry, for
 -- its #faq clips), its zone's story ("zone": a zone's places and people follow it), or none ("line").
-local function storyOf(id) return id:match("^(.-)#faq%d+$") or id:match("^(.-)#section%d+$") or id end
+local function storyOf(id)
+  return id:match("^(.-)#faq%d+$") or id:match("^(.-)#section%d+$") or id:match("^(.-)#title$")
+    or id:match("^(.-)#head%d+$") or id
+end
 local function anchorOf(id, mode)
   if mode == "story" then return storyOf(id) end
   if mode == "zone" then
@@ -1445,6 +1454,7 @@ function Voice.Heard(id)
 end
 
 function Voice.MarkHeard(id)
+  if type(id) == "string" and (id:find("#title$") or id:find("#head%d+$")) then return end   -- (part of its story)
   local t = id and heardStore()
   if t and t[id] == nil then t[id] = (time and time()) or 0 end
 end
@@ -1535,6 +1545,13 @@ function Voice.Transport(key, pack, wholeRecording)
   end
   local out = { key = key, pack = pack, assetPack = assetPack, hash = row.hash, fullHash = row.fullHash, duration = total,
     text = type(row.text) == "string" and row.text or nil, chain = chain and #base > 1, rates = {} }
+  for i, part in ipairs(chain and base or {}) do   -- head = n: the piece starts section n (spoken headings)
+    local n = part.head
+    if i > 1 and type(n) == "number" and n % 1 == 0 and n >= 1 and n <= 99 then
+      out.heads = out.heads or {}
+      out.heads[i] = n
+    end
+  end
   for _, rate in ipairs(Voice.PLAYBACK_RATES) do
     local parts, valid, list = row[tostring(rate)], true, {}
     if not dense(parts) or #parts ~= #base then valid = false end
@@ -1603,11 +1620,30 @@ local function segment(t, index, scheduled)
   return true
 end
 
+-- Spoken headings (lore.titles): the piece that starts section n of a story (row.heads) follows the section's heading,
+-- <key>#head<n>, when the voice telling the story has it, the same rule as its title (UI). The heading takes no time in
+-- the story: it starts and finishes where the section does, so a resume there plays the section, not the heading.
+local function withHeadings(row, parts)
+  if not row.heads then return parts end
+  local served, out = Voice.servedBy or {}, {}
+  for i, part in ipairs(parts) do
+    local id = row.heads[i] and row.key .. "#head" .. row.heads[i]
+    local path = id and served[id] ~= nil and served[id] == served[row.key] and Voice.HasAudio(id)
+      and (Voice.active[id] or {})[1]
+    local seconds = path and Voice.PackLength(ns.Packs.data[Voice.PackOf(path)], id)
+    if seconds then
+      out[#out + 1] = { path = path, duration = seconds, start = part.start, finish = part.start, heading = id }
+    end
+    out[#out + 1] = part
+  end
+  return out
+end
+
 local function beginTransport(row, options)
   local rate = 1
   local offset = options and tonumber(options.offset) or 0
   if not offset or offset ~= offset or offset < 0 or offset == math.huge or offset >= row.duration then offset = 0 end
-  local parts, index = row.rates[rate], 1
+  local parts, index = withHeadings(row, row.rates[rate]), 1
   for i, part in ipairs(parts) do if part.start <= offset then index = i else break end end
   local t = { row = row, parts = parts, rate = rate, index = index, lastTick = (GetTime and GetTime()) or 0 }
   if not segment(t, index) then return false end

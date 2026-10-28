@@ -17,21 +17,21 @@
   "wiki": "A Humble Task (2)",
   "chain": []
  },
- "summary": "A Humble Task is an introductory rite of service in Red Cloud Mesa, where an elder tests a fledgling adventurer's humility and diligence. By carrying fresh well water across the plains to Camp Narache's leader, young tauren learn that serving their people starts with the simplest duties.",
+ "summary": "In Red Cloud Mesa, A Humble Task sends young tauren to carry well water to Camp Narache. Greatmother Hawkwind asks for this service, a first lesson in humility and care for the tribe.",
  "sections": [
   {
    "title": "Vitality of the Youth",
-   "body": "Greatmother Hawkwind has walked many trails in her long life, and while her spirit remains steady, her legs no longer carry her across the plains with the speed of her youth. Stationed near the water well on the southern edges of Red Cloud Mesa, she tends to her responsibilities with patient resolve. When aspiring tribal defenders cross her path, she redirects their youthful energy toward practical community needs, offering them a chance to prove their worth through service rather than violence.",
+   "body": "Greatmother Hawkwind has walked many trails, though age has slowed her across the plains. She tends to her duties beside the well on Red Cloud Mesa's southern edge. When young tauren with hopes of defending their people meet her, she turns their energy toward the needs of the community. Service gives them a chance to prove themselves through care for others.",
    "spoiler": 0
   },
   {
    "title": "Service to the Tribe",
-   "body": "The task asks the initiate to haul a filled water pitcher back northwest to Camp Narache and present it directly to the settlement's leader, Chief Hawkwind, who happens to be the Greatmother's son. In tauren society, survival across the arid plains of Mulgore demands shared labor and reliable supplies of fresh water. Demonstrating respect for the community's elders by shouldering their burdens is considered the cornerstone of becoming a true protector of the tribe.",
+   "body": "You carry a filled pitcher northwest to Camp Narache and give it to Chief Hawkwind, the settlement's leader and Greatmother Hawkwind's son. Life across Mulgore's dry plains depends on shared labor and steady supplies of fresh water. By carrying a burden for an elder, you show respect for the people whose care holds the tribe together.",
    "spoiler": 0
   },
   {
    "title": "A Path Toward Thunder Bluff",
-   "body": "Chief Hawkwind sees more than a mere chore completed when a young wanderer arrives bearing water from his mother. In tauren custom, an individual's readiness to champion their people across wider lands begins with humility and an unprompted willingness to help. By demonstrating this quiet discipline, the initiate catches the chief's eye and earns recommendation for the ancient Rites of the Earthmother, the true spiritual tests that open the gates to Thunder Bluff.",
+   "body": "When you bring his mother's water to Camp Narache, Chief Hawkwind sees more than a chore completed. Tauren custom asks those who would champion their people across distant lands to begin with humility and a ready hand. Your quiet discipline catches the chief's eye, and he recommends you for the Rites of the Earthmother, spiritual tests that open the gates to Thunder Bluff.",
    "spoiler": 0
   }
  ],
@@ -43,7 +43,7 @@
     "who gives a humble task",
     "hawkwind elder"
    ],
-   "answer": "Greatmother Hawkwind is an elder of the Hawkwind family stationed at the well in Red Cloud Mesa. She is the mother of Camp Narache's leader, Chief Hawkwind, and guides young tauren in learning humility and tribal values."
+   "answer": "Greatmother Hawkwind is an elder of the Hawkwind family who tends the well on Red Cloud Mesa. She is Chief Hawkwind's mother and teaches young tauren humility and care for their tribe."
   },
   {
    "q": "Where is the water well located?",
@@ -52,7 +52,7 @@
     "where is the well",
     "find water pitcher"
    ],
-   "answer": "The water well sits southeast of Camp Narache on the grassy plains of Red Cloud Mesa. Pitchers of fresh well water rest beside it for travelers and camp caretakers to carry back."
+   "answer": "The water well is southeast of Camp Narache, on the grassy plains of Red Cloud Mesa. Pitchers of fresh water rest beside it for travelers and camp caretakers to carry back."
   },
   {
    "q": "Who is Chief Hawkwind?",
@@ -61,7 +61,7 @@
     "who is the chief",
     "camp narache leader"
    ],
-   "answer": "Chief Hawkwind is the chieftain overseeing Camp Narache on Red Cloud Mesa. He directs the training and spiritual rites of young tauren, preparing them to venture out and serve the wider tribe in Mulgore."
+   "answer": "Chief Hawkwind leads Camp Narache on Red Cloud Mesa. He directs the training and spiritual rites of young tauren as they prepare to serve the wider tribe in Mulgore."
   },
   {
    "q": "Why is this chore treated as an important test?",
@@ -70,7 +70,7 @@
     "why humble task",
     "is this quest important"
    ],
-   "answer": "Tauren culture places great value on humility, community support, and respect for elders. Accomplishing unglamorous, everyday duties demonstrates that an adventurer cares about sustaining their people, not just personal glory in battle."
+   "answer": "Tauren value humility, care for the community, and respect for elders. Everyday duties show that you care for your people as well as your own glory in battle."
   },
   {
    "q": "What comes after completing A Humble Task?",
@@ -79,7 +79,7 @@
     "next quest",
     "after humble task"
    ],
-   "answer": "Completing this task proves your discipline to Chief Hawkwind, who then directs you to undertake the Rites of the Earthmother\u2014a sequence of traditional challenges required of all tauren coming of age."
+   "answer": "After carrying the water, Chief Hawkwind directs you to the Rites of the Earthmother, traditional challenges for tauren coming of age."
   },
   {
    "q": "Where does this path eventually lead?",
@@ -88,17 +88,17 @@
     "where are we going",
     "thunder bluff goal"
    ],
-   "answer": "Earning the respect of the elders in Camp Narache prepares you to leave the secluded mesa behind, journeying into the wider plains of Mulgore and ultimately toward the high mesas of the capital, Thunder Bluff."
+   "answer": "The elders' respect prepares you to leave Red Cloud Mesa and travel across Mulgore toward Thunder Bluff, the capital's high mesas."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "Fetching water for your elders embodies the foundational tauren virtue of communal care, showing you are ready to walk the path of the Earthmother."
+   "text": "As a tauren, carrying water for your elders shows communal care and readiness to walk the path of the Earthmother."
   },
   {
    "target": "faction:Horde",
-   "text": "The Hawkwind family's lessons illustrate how the tauren maintain solidarity and survival in Mulgore, forming a peaceful yet unyielding cornerstone of Thrall's Horde."
+   "text": "As a member of the Horde, you see how the Hawkwind family teaches tauren solidarity and survival in Mulgore, a peaceful yet steadfast part of Thrall's Horde."
   }
  ],
  "keywords": [
@@ -122,5 +122,6 @@
  ],
  "attribution": [
   "A Humble Task (2)"
- ]
+ ],
+ "style": 1
 }

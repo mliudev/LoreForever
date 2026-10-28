@@ -17,16 +17,16 @@
   "wiki": "A Light in the Darkness (Forever)",
   "chain": []
  },
- "summary": "Offered by Aramis Hammerhand in Deathknell, this quest tasks Forsaken adventurers with rescuing newly raised undead trapped in Night's Web Hollow. It highlights the delicate relationship between undead wielders of the Holy Light and a populace that deeply distrusts them. By aiding their fallen kin, these holy practitioners hope to prove their loyalty to Sylvanas and the Forsaken cause.",
+ "summary": "In Deathknell, Aramis Hammerhand asks you to save newly raised Forsaken from Night's Web Hollow. Your aid can show that wielders of the Holy Light remain loyal to Sylvanas and their people.",
  "sections": [
   {
    "title": "A Precarious Faith",
-   "body": "The Holy Light is notoriously agonizing and hazardous to the undead, yet some Forsaken retain their connection to the sacred magic they wielded in life. In Deathknell, figures like Aramis Hammerhand strive to demonstrate that their faith has not turned them against their people. To combat the suspicion that holy practitioners will turn on other undead as monstrosities, they actively use their abilities and compassion to safeguard their kin.",
+   "body": "Some Forsaken still wield the Holy Light they knew in life, though its power brings pain to the undead. In Deathknell, Aramis Hammerhand and others seek to prove their faith has not turned them against their own people. They use their gifts to protect the Forsaken and ease fears that holy wielders see their kin as monsters.",
    "spoiler": 0
   },
   {
    "title": "Night's Web Hollow",
-   "body": "Northwest of Deathknell lies Night's Web Hollow, a dank cavern crawling with vicious spiders. Freshly raised undead, still disoriented by their awakening and lacking the wits to defend themselves, frequently stumble into the hollow and end up cocooned in sticky webbing. Rescuing these unfortunate Forsaken serves a dual purpose: saving new recruits for the Dark Lady and proving to leaders like Executor Arren that practitioners of the Light are devoted servants of the Forsaken.",
+   "body": "Northwest of Deathknell, Night's Web Hollow is a dank cavern crawling with vicious spiders. Newly raised Forsaken often stumble inside, disoriented and unable to defend themselves, and become trapped in sticky webbing. Saving them brings new recruits to the Dark Lady and may convince Executor Arren that wielders of the Light serve the Forsaken faithfully.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who starts a light in the darkness",
     "aramis hammerhand quest"
    ],
-   "answer": "The quest is given by Aramis Hammerhand, a holy practitioner stationed in Deathknell in Tirisfal Glades."
+   "answer": "Aramis Hammerhand, a holy practitioner in Deathknell in Tirisfal Glades, asks you to help."
   },
   {
    "q": "Where is Night's Web Hollow located?",
@@ -47,7 +47,7 @@
     "where are the webbed victims",
     "where is the cave"
    ],
-   "answer": "Night's Web Hollow is located northwest of Deathknell within the hills of Tirisfal Glades."
+   "answer": "Night's Web Hollow lies northwest of Deathknell in the hills of Tirisfal Glades."
   },
   {
    "q": "Why do the Forsaken distrust wielders of the Light?",
@@ -56,7 +56,7 @@
     "why do forsaken hate paladins",
     "forsaken holy fear"
    ],
-   "answer": "The Holy Light is deeply searing and dangerous to undead flesh. Many Forsaken fear that anyone wielding holy powers might view them as abominations to be eradicated rather than brethren to be embraced."
+   "answer": "The Holy Light sears undead flesh, and many Forsaken fear its wielders see them as abominations to destroy instead of kin."
   },
   {
    "q": "Who are the victims trapped in the webs?",
@@ -65,7 +65,7 @@
     "what is inside the webs",
     "trapped victims"
    ],
-   "answer": "The victims inside the cocoons are newly awakened Forsaken adventurers who blundered into the spider caves before finding their bearings."
+   "answer": "The victims are newly awakened Forsaken adventurers who wandered into the spider caves before finding their bearings."
   },
   {
    "q": "Who is Executor Arren, and why does Aramis want to impress him?",
@@ -73,7 +73,7 @@
     "who is executor arren",
     "why arren matters"
    ],
-   "answer": "Executor Arren oversees military and civic order in Deathknell. Gaining his trust is essential for holy wielders who wish to integrate smoothly into the Forsaken forces."
+   "answer": "Executor Arren oversees military and civic order in Deathknell. Aramis seeks his trust so holy wielders can integrate smoothly into the Forsaken forces."
   },
   {
    "q": "Can the undead really wield the Holy Light?",
@@ -81,17 +81,17 @@
     "can forsaken use light",
     "undead light lore"
    ],
-   "answer": "Yes, through incredible willpower and devotion, some undead retain their bond with the Light, even though channeling it causes immense discomfort and their own society views them with suspicion."
+   "answer": "Yes. Some undead retain their bond with the Light through great will and devotion, though wielding it causes immense discomfort and earns suspicion from their own people."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "This task demonstrates the complex internal struggles of the Forsaken, showing how individuals can overcome prejudice among their own freshly risen people."
+   "text": "As Forsaken, you see the inner struggles of your people, where the newly risen may face prejudice from their own kin."
   },
   {
    "target": "class:Priest",
-   "text": "For Forsaken who channel holy energy, this mission illustrates the delicate tightrope walked between lingering mortal faith and the harsh reality of undeath."
+   "text": "As a Forsaken priest, you walk a difficult path between the faith you held in life and the harsh reality of undeath."
   }
  ],
  "keywords": [
@@ -114,5 +114,6 @@
  ],
  "attribution": [
   "A Light in the Darkness (Forever)"
- ]
+ ],
+ "style": 1
 }

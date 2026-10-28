@@ -20,16 +20,16 @@
    "Tools of the Trade (Classic)"
   ]
  },
- "summary": "Tools of the Trade is an initiation mission for Horde rogues given by Mennet Carkad in the Undercity. Ordered by Lord Varimathras, agents must obtain lockpicking gear and infiltrate Ambermill to recover sensitive Kirin Tor reports detailing Dalaran's current state.",
+ "summary": "Horde rogues are sent from the Undercity to steal a report from Ambermill. Lord Varimathras orders them to obtain lockpicking tools and recover Kirin Tor intelligence on Dalaran’s condition.",
  "sections": [
   {
    "title": "Eyes on Ambermill",
-   "body": "Following the interrogation of one of their prisoners, the Deathstalkers learned that vital intelligence concerning the ruins of Dalaran lies hidden in Ambermill. Silverpine Forest remains a precarious front line, and the human mages guarding the village guard their communications fiercely. Under the orders of Lord Varimathras, Deathstalker handler Mennet Carkad directs promising operatives to bypass Kirin Tor sentries and secure the Dalaran Status Report.",
+   "body": "A prisoner’s interrogation points the Deathstalkers toward intelligence hidden in Ambermill. Silverpine Forest remains a precarious front line, and human mages guard the village’s communications fiercely. Lord Varimathras orders Deathstalker handler Mennet Carkad to direct promising operatives around the Kirin Tor sentries and recover the Dalaran Status Report.",
    "spoiler": 0
   },
   {
    "title": "The Art of the Breach",
-   "body": "Unlike straightforward assassinations, this mission serves as a practical proving ground in infiltration and lockpicking. Operatives are outfitted with specialized thieves' tools from Estelle Gendry before marching into hostile Kirin Tor territory. Cracking the secured chest in Ambermill demonstrates that an operative has progressed beyond raw street brutality into an indispensable espionage asset for the Forsaken.",
+   "body": "Infiltration and lockpicking test skills beyond assassination. Before entering Kirin Tor territory, operatives receive specialized thieves’ tools from Estelle Gendry. Opening the secured chest in Ambermill proves an operative can move beyond street brutality and become an espionage asset for the Forsaken.",
    "spoiler": 0
   }
  ],
@@ -41,7 +41,7 @@
     "quest giver",
     "mennet carkad quest"
    ],
-   "answer": "Mennet Carkad, a master rogue of the Deathstalkers stationed in the Rogues' Quarter of the Undercity, assigns the task. The overarching mandate comes directly from Lord Varimathras, who oversees intelligence gathering for the Forsaken."
+   "answer": "Mennet Carkad, a Deathstalker rogue in the Undercity’s Rogues' Quarter, assigns the work. Lord Varimathras gives the order and oversees Forsaken intelligence gathering."
   },
   {
    "q": "What is the Dalaran Status Report?",
@@ -50,7 +50,7 @@
     "kirin tor papers",
     "status report"
    ],
-   "answer": "It is a sealed Kirin Tor dispatch detailing conditions within Dalaran. Deathstalker interrogators extracted its location from one of their prisoners, alerting the Undercity that crucial information about their southern neighbors was vulnerable."
+   "answer": "The Dalaran Status Report is a sealed Kirin Tor dispatch about conditions in Dalaran. Deathstalker interrogators learned its location from a prisoner, revealing that vital information about the Forsaken’s southern neighbors was vulnerable."
   },
   {
    "q": "Where is the report kept?",
@@ -59,7 +59,7 @@
     "ambermill chest location",
     "where is the status report"
    ],
-   "answer": "The report is secured inside a locked chest within the Kirin Tor outpost of Ambermill, located in southern Silverpine Forest."
+   "answer": "The report is inside a locked chest at the Kirin Tor outpost of Ambermill in southern Silverpine Forest."
   },
   {
    "q": "Who provides the lockpicking tools?",
@@ -68,7 +68,7 @@
     "estelle gendry role",
     "outfitter tools"
    ],
-   "answer": "Estelle Gendry, an outfitter in the Rogues' Quarter of the Undercity, provides the necessary thieves' tools to open the Kirin Tor's locked chest."
+   "answer": "Estelle Gendry, an outfitter in the Undercity’s Rogues' Quarter, provides the thieves’ tools needed to open the locked chest."
   },
   {
    "q": "Why is Dalaran important to the Forsaken right now?",
@@ -77,7 +77,7 @@
     "forsaken vs dalaran",
     "kirin tor threat"
    ],
-   "answer": "Dalaran's surviving wizards are rebuilding their city across Lordamere Lake from Silverpine Forest. The Forsaken monitor the Kirin Tor to protect their own holdings in Lordaeron."
+   "answer": "Dalaran’s surviving wizards are rebuilding their city across Lordamere Lake from Silverpine Forest. The Forsaken monitor the Kirin Tor to protect their holdings in Lordaeron."
   },
   {
    "q": "What prerequisite must be completed before taking this mission?",
@@ -86,21 +86,21 @@
     "what quest comes before",
     "fenwick thatros quest"
    ],
-   "answer": "Operatives must first complete the assassination contract Fenwick Thatros, hunting down a target in Silverpine Forest before Mennet Carkad trusts them with delicate infiltration work."
+   "answer": "Operatives must first complete the assassination contract Fenwick Thatros, hunting a target in Silverpine Forest before Mennet Carkad trusts them with delicate infiltration work."
   }
  ],
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "This mission marks a rite of passage for Horde rogues, requiring you to procure formal lockpicking tools and apply stealth and finesse rather than brute force."
+   "text": "As a Horde rogue, you prove your worth with formal lockpicking tools, stealth, and finesse instead of brute force."
   },
   {
    "target": "race:Undead",
-   "text": "Infiltrating Ambermill allows the Forsaken to outwit the very Kirin Tor mages who seek to reclaim Lordaeron from the grave."
+   "text": "As an undead, you help the Forsaken outwit the Kirin Tor mages who seek to reclaim Lordaeron."
   },
   {
    "target": "faction:Horde",
-   "text": "Securing human intelligence in Silverpine solidifies the Horde's foothold across northern Lordaeron against remnants of the Alliance."
+   "text": "As a member of the Horde, you help secure human intelligence in Silverpine and strengthen the Horde’s foothold across northern Lordaeron against Alliance remnants."
   }
  ],
  "keywords": [
@@ -126,5 +126,6 @@
  ],
  "attribution": [
   "Tools of the Trade (Classic)"
- ]
+ ],
+ "style": 1
 }

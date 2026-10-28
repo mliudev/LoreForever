@@ -10,19 +10,19 @@ P.transport["npc:aelthalyste"] = {
   },
 }
 P.transport["npc:ahanu"] = {
-  hash = "55a912",
-  fullHash = "55a912",
-  text = "Ahanu. Ahanu is a tauren merchant operating within Hewa's Armory on the lower rise of Thunder Bluff. He crafts and trades leather armor to travelers and young braves setting out across Mulgore and the wider plains. He also helps newly arrived couriers navigate the bluffs when delivering messages from nearby settlements. Situated amidst the leatherworking stalls and armories of Thunder Bluff's lower rise, Ahanu provides vital equipment to those who make their living across Kalimdor's grasslands. Working hides sent by his friend Jahan Hawkwing at the Crossroads, he represents the everyday tradesfolk who keep the tauren capital supplied with durable cured and tanned hide gear. For travelers fresh off a wind rider from the Crossroads, Ahanu frequently serves as a first point of contact in the grand city, receiving deliveries and directing messengers toward the local flight roosts.",
+  hash = "c2b605",
+  fullHash = "c2b605",
+  text = "Ahanu. Couriers arriving in Thunder Bluff can find Ahanu in Hewa's Armory. He crafts and trades leather armor for travelers and young braves setting out across Mulgore and the wider plains, and helps new couriers find their way across the bluffs. Ahanu works the hides his friend Jahan Hawkwing sends from the Crossroads. In Hewa's Armory on Thunder Bluff's lower rise, he crafts durable leather gear for those who travel Kalimdor's grasslands. Travelers arriving by wind rider from the Crossroads can find him among the city's tradesfolk. He receives their deliveries and directs messengers toward the local flight roosts.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_ahanu-4f8d14e55b4007b675d9/1-0000.mp3", duration = 48.2742857, start = 0},
+    {file = "Audio/Transport/full_npc_ahanu-70da2eb84ed466d31573/1-0000.mp3", duration = 35.2914286, start = 0},
   },
 }
 P.transport["npc:alamar-grimm"] = {
-  hash = "d652a6",
-  fullHash = "d652a6",
-  text = "Alamar Grimm. Alamar Grimm is a gnome warlock trainer stationed in Coldridge Valley at Anvilmar. Bitter over the tragic loss of Gnomeregan, he distrusts outsiders and focuses on teaching fledgling warlocks how to harness dark arts and summon their first demonic minions. While most gnomes in Coldridge Valley channel their energies into recovery and tinkering, Alamar Grimm harbors a deep resentment over the fall of Gnomeregan. He holds a cynical view of standard adventurers and even the host dwarves of Ironforge, grumbling that their allies care more about diplomacy with humans than reclaiming the fallen techno-city. Operating from Anvilmar, he seeks kindred spirits who understand that ruthless power may be what his people truly need. To young gnomes walking the path of fel magic, Grimm serves as an initial guide. When presented with a tainted memorandum, he offers a rare warm reception and begins tutoring recruits in fundamental spells. Before granting a novice the dangerous knowledge required to bind a demonic imp, however, he demands proof of their magical and physical endurance by sending them to retrieve the strange feather charms carried by local Frostmane troll novices.",
+  hash = "ce50b7",
+  fullHash = "ce50b7",
+  text = "Alamar Grimm. At Anvilmar in Coldridge Valley, Alamar Grimm trains young gnome warlocks. The fall of Gnomeregan has left him bitter, wary of outsiders, and intent on teaching them to wield fel magic and summon an imp. At Anvilmar, Alamar Grimm carries a deep resentment over Gnomeregan's fall. While other gnomes in Coldridge Valley focus on recovery and tinkering, he distrusts ordinary adventurers and even the Ironforge dwarves who shelter his people. He grumbles that their allies care more about diplomacy with humans than reclaiming the fallen city. Alamar seeks others who share his belief that his people may need ruthless power. Alamar Grimm guides young gnomes who take up fel magic. A tainted memorandum earns a rare warm welcome, and he begins teaching them basic spells. Before he shares the dangerous knowledge needed to bind a demonic imp, he demands proof of their magical and physical endurance. He sends each novice to retrieve strange feather charms carried by local Frostmane troll novices.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_alamar-grimm-4987b413c16ab0137d44/1-0000.mp3", duration = 65.7763265, start = 0},
+    {file = "Audio/Transport/full_npc_alamar-grimm-fba7d65ce7298153a83d/1-0000.mp3", duration = 57.4432653, start = 0},
   },
 }
 P.transport["npc:altsoba-ragetotem"] = {
@@ -50,11 +50,11 @@ P.transport["npc:amber-kearnen"] = {
   },
 }
 P.transport["npc:andron-gant"] = {
-  hash = "5b65cb",
-  fullHash = "5b65cb",
-  text = "Andron Gant. Andron Gant is a reclusive, frequently intoxicated Forsaken residing in the murky depths of the Apothecarium in the Undercity. He handles occasional research commissions for local mages. Lounging amidst the noxious fumes of the Apothecarium, Andron Gant rarely ventures beyond the safety of the Undercity's stone walls. To the casual observer, he appears to be little more than a drunken scholar, occasionally hiring adventurous couriers to retrieve obscure relics like the Tablet of Markri from distant shores on behalf of local mages.",
+  hash = "28d3a3",
+  fullHash = "28d3a3",
+  text = "Andron Gant. In the Undercity's Apothecarium, Andron Gant handles occasional commissions and relic recoveries for local scholars. He is a reclusive Forsaken, often drunk, and rarely leaves the city. Andron Gant spends his time in the Apothecarium, among its noxious fumes, and rarely ventures beyond the Undercity's stone walls. He seems little more than a drunken scholar. For local mages, he sometimes hires couriers to seek obscure relics on distant shores, including the Tablet of Markri.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_andron-gant-0cc618d6088b63de9f2a/1-0000.mp3", duration = 31.6342857, start = 0},
+    {file = "Audio/Transport/full_npc_andron-gant-f366806474033a4a426f/1-0000.mp3", duration = 28.7608163, start = 0},
   },
 }
 P.transport["npc:anduin-wrynn"] = {
@@ -130,11 +130,11 @@ P.transport["npc:archmage-xylem"] = {
   },
 }
 P.transport["npc:argent-guard-manados"] = {
-  hash = "da8273",
-  fullHash = "da8273",
-  text = "Argent Guard Manados. Argent Guard Manados is a night elf sentry stationed in Darnassus on behalf of the Argent Dawn. Resting at the Craftsmen's Terrace, he keeps watch over Kalimdor's growing corruption and directs adventurers toward the sinister forces lurking in Blackfathom Deeps. While most of the Argent Dawn focuses its vigilance on the blighted lands of Lordaeron and the Scourge, Argent Guard Manados represents their watchful eyes in the night elf capital of Darnassus. Standing among the artisans and tradefolk of the Craftsmen's Terrace, Manados monitors emerging threats that menace the balance of northern Kalimdor. When rumors reach him of the Twilight's Hammer cult establishing a foul foothold beneath the waves of Ashenvale, Manados enlists capable heroes to strike at Blackfathom Deeps and recover artifacts of their dark devotion.",
+  hash = "822414",
+  fullHash = "822414",
+  text = "Argent Guard Manados. At the Craftsmen's Terrace in Darnassus, Argent Guard Manados watches for corruption across Kalimdor. He serves the Argent Dawn and sends adventurers toward Blackfathom Deeps. Argent Guard Manados keeps the Argent Dawn's watch in Darnassus. While most of the order guards Lordaeron against the Scourge, he stands among the artisans and tradefolk of the Craftsmen's Terrace. His post lets him watch for threats to northern Kalimdor's balance. When word reaches him that the Twilight's Hammer has gained a foothold beneath Ashenvale's waves, he calls on capable heroes to strike at Blackfathom Deeps and recover the cult's artifacts of dark devotion.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_argent-guard-manados-dabba0360749e66fdba5/1-0000.mp3", duration = 47.9869388, start = 0},
+    {file = "Audio/Transport/full_npc_argent-guard-manados-dc40cc68d74924216acf/1-0000.mp3", duration = 37.2244898, start = 0},
   },
 }
 P.transport["npc:argos-nightwhisper"] = {
@@ -146,19 +146,19 @@ P.transport["npc:argos-nightwhisper"] = {
   },
 }
 P.transport["npc:ashlan-stonesmirk"] = {
-  hash = "d3deaa",
-  fullHash = "d3deaa",
-  text = "Ashlan Stonesmirk. Ashlan Stonesmirk is a dwarven explosives expert assigned to the regiment guarding Dun Modr and the Thandol Span in the northern Wetlands. From there, he keeps a vigilant eye on regional dangers threatening the realm of Ironforge. Positioned at Dun Modr in the northern Wetlands, Ashlan Stonesmirk serves the regiment guarding the Thandol Span. His expertise with explosives makes him a useful contact when suspicious materials threaten dwarven defenses.",
+  hash = "ce6636",
+  fullHash = "ce6636",
+  text = "Ashlan Stonesmirk. At Dun Modr, Ashlan Stonesmirk watches the border with the regiment guarding the Thandol Span. The dwarven explosives expert keeps alert for dangers threatening Ironforge. At Dun Modr in the northern Wetlands, Ashlan Stonesmirk serves the regiment guarding the Thandol Span. His knowledge of explosives makes him a useful contact when suspicious materials threaten dwarven defenses.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_ashlan-stonesmirk-8a9fa2472b0982123b17/1-0000.mp3", duration = 25.4955102, start = 0},
+    {file = "Audio/Transport/full_npc_ashlan-stonesmirk-ea615371c75befffbd62/1-0000.mp3", duration = 22.7526531, start = 0},
   },
 }
 P.transport["npc:austil-de-mon"] = {
-  hash = "78c80c",
-  fullHash = "78c80c",
-  text = "Austil de Mon. Austil de Mon is a Forsaken warrior trainer stationed in Brill within Tirisfal Glades. Based out of the Gallows' End Tavern, he instructs newly risen warriors looking to hone their martial prowess in service of the Dark Lady. Found inside the Gallows' End Tavern in Brill, Austil de Mon serves as one of the earliest instructors for Forsaken warriors venturing out of Deathknell. While the living once populated the inn to drink and rest, Austil now uses the gloomy refuge to teach newly liberated undead how to channel raw martial discipline and ruthless combat techniques against the kingdom's surrounding foes.",
+  hash = "c12de1",
+  fullHash = "c12de1",
+  text = "Austil de Mon. In Brill, Austil de Mon trains Forsaken warriors at Gallows' End Tavern. He teaches the newly risen to fight in service of the Dark Lady. Austil de Mon trains Forsaken warriors inside Gallows' End Tavern in Brill. Warriors leaving Deathknell come to him among their first instructors. The living once drank and rested in the inn. Now Austil teaches newly liberated undead to master martial discipline and combat against the foes surrounding the kingdom.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_austil-de-mon-4f7f91a30bbe3532ff46/1-0000.mp3", duration = 37.2244898, start = 0},
+    {file = "Audio/Transport/full_npc_austil-de-mon-b471317326b662142093/1-0000.mp3", duration = 26.5926531, start = 0},
   },
 }
 P.transport["npc:ayanna-everstride"] = {
@@ -178,11 +178,11 @@ P.transport["npc:ayessa-dawnsinger"] = {
   },
 }
 P.transport["npc:azar-stronghammer"] = {
-  hash = "995b4d",
-  fullHash = "995b4d",
-  text = "Azar Stronghammer. Azar Stronghammer is a dwarven paladin stationed at the Thunderbrew Distillery in Kharanos. Having completed his own training in the holy arts, he guides newly awakened dwarven champions of the Holy Light and directs promising recruits toward higher instruction in Ironforge. While paladins are more commonly associated with the great cathedrals of humanity, the dwarves of Khaz Modan have fully embraced the virtues of the Holy Light. Stationed at the Thunderbrew Distillery in Kharanos, Azar Stronghammer watches over newly inducted dwarven paladins finding their footing amidst Dun Morogh's freezing slopes. Having mastered his own martial and spiritual vows, he serves as an approachable mentor. When a novice shows enough dedication and spiritual maturity, Azar directs them up the mountain path to Ironforge to study under veteran champions such as Tiza Battleforge.",
+  hash = "d8da0c",
+  fullHash = "d8da0c",
+  text = "Azar Stronghammer. At the Thunderbrew Distillery in Kharanos, Azar Stronghammer guides new dwarven paladins. After completing his own training in the Holy Light, he sends promising recruits to Ironforge for further instruction. Azar Stronghammer guides new dwarven paladins at the Thunderbrew Distillery in Kharanos. Humans are often linked to the great cathedrals, yet the dwarves of Khaz Modan have embraced the virtues of the Holy Light. Azar has mastered his own martial and spiritual vows, and helps newly inducted paladins find their footing on Dun Morogh's freezing slopes. When a novice shows dedication and spiritual maturity, he sends them up the mountain path to Ironforge. There they can study under veteran champions such as Tiza Battleforge.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_azar-stronghammer-a99b22921b0740dcca9a/1-0000.mp3", duration = 49.0840816, start = 0},
+    {file = "Audio/Transport/full_npc_azar-stronghammer-8762a52f6d83e737a94f/1-0000.mp3", duration = 42.1616327, start = 0},
   },
 }
 P.transport["npc:azuregos"] = {
@@ -194,27 +194,27 @@ P.transport["npc:azuregos"] = {
   },
 }
 P.transport["npc:bailiff-conacher"] = {
-  hash = "f2f99d",
-  fullHash = "f2f99d",
-  text = "Bailiff Conacher. Bailiff Conacher serves in the Lakeshire Town Hall as the chief enforcement officer under Magistrate Solomon. Tasked with maintaining civil order and administering local decrees, he turns to independent champions to enforce the laws of Stormwind across the embattled Redridge Mountains. Within the Lakeshire Town Hall, Bailiff Conacher works closely with Magistrate Solomon to uphold lawful authority in the Redridge Mountains. With the town besieged on all fronts by Blackrock orcs and local gnolls, Conacher cannot rely on standard civic procedures or royal garrisons. Instead, he issues legal decrees that grant passing travelers the authority to administer capital justice on behalf of the realm. When the dark mage Morganth occupied the Tower of Ilgalar and subjugated the local Shadowhide gnolls to his will, the Court of Lakeshire deemed the beasts complicit in high treason. Since aiding a fugitive and criminal of the Kingdom of Stormwind carries a sentence of death, Conacher invokes Solomon's Law. He directs adventurers to scour the ridges for Shadowhide gnolls, demanding their pendants as legal proof that the crown's law has been carried out.",
+  hash = "c0fade",
+  fullHash = "c0fade",
+  text = "Bailiff Conacher. In Lakeshire Town Hall, Bailiff Conacher keeps Stormwind law in force under Magistrate Solomon. He relies on travelers to uphold local decrees across the embattled Redridge Mountains. Bailiff Conacher works with Magistrate Solomon in Lakeshire Town Hall to uphold law across the Redridge Mountains. Blackrock orcs and local gnolls besiege the town, leaving Conacher without ordinary civic procedures or royal garrisons to rely on. He issues legal decrees that authorize passing travelers to carry out capital justice in the realm's name. When the dark mage Morganth took the Tower of Ilgalar and bent the local Shadowhide gnolls to his will, the Court of Lakeshire judged the beasts guilty of high treason. Stormwind law sentences those who aid a fugitive and criminal to death. Conacher invokes Solomon's Law and sends travelers across the ridges to find Shadowhide gnolls and bring back their pendants as proof that the crown's law has been carried out.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_bailiff-conacher-07f9363293b700e9afa1/1-0000.mp3", duration = 65.9853061, start = 0},
+    {file = "Audio/Transport/full_npc_bailiff-conacher-1ca6721fd7b6699ccd22/1-0000.mp3", duration = 53.8383673, start = 0},
   },
 }
 P.transport["npc:bailor-stonehand"] = {
-  hash = "e13d21",
-  fullHash = "e13d21",
-  text = "Bailor Stonehand. Bailor Stonehand is a skilled dwarven smith residing in Thelsamar within Loch Modan. Renowned for his metallurgical expertise, he once mentored the human weaponsmith Jordan Stilwell and produces a specialized alloy crucial for masterwork armaments. Currently, his forge work faces setbacks after local Mo'grosh ogres ambushed and stole his ore shipments. Operating in the dwarven settlement of Thelsamar, Bailor Stonehand represents the enduring craft of Loch Modan's blacksmiths. Known for his keen eye for raw minerals and his ability to smelt specialized alloys, Bailor's knowledge extends beyond Khaz Modan. He served as a mentor to the renowned human smith Jordan Stilwell, teaching him the foundational arts of metallurgy and sharing formulas that would later prove essential in forging blessed paladin armaments such as Verigan's Fist. Despite his quiet mastery, Bailor's trade is not immune to the rising threats in Loch Modan. Shipments of high-grade ore destined for his forge have fallen prey to the Mo'grosh ogres entrenched in the hills to the northeast. Without raw materials, Bailor finds himself unable to craft his rare alloys, forcing him to rely on passing travelers and allies to reclaim his stolen supplies from the brute encampments.",
+  hash = "336ed9",
+  fullHash = "336ed9",
+  text = "Bailor Stonehand. In Thelsamar, Bailor Stonehand’s forge work has been set back by stolen ore. The skilled dwarven smith once taught the human weaponsmith Jordan Stilwell and makes a specialized alloy for masterwork arms. Bailor Stonehand works the forge in Thelsamar, where his knowledge of minerals and specialized alloys reaches beyond Khaz Modan. He once taught Jordan Stilwell, a human smith, the foundations of metallurgy and shared formulas used to forge blessed paladin weapons such as Verigan's Fist. Mo'grosh ogres in the hills northeast of Thelsamar have stolen ore shipments meant for Bailor's forge. Without the raw material, he cannot make his rare alloys, and needs travelers and allies to recover the supplies from the ogres' encampments.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_bailor-stonehand-f4c6b198365ae1228dc6/1-0000.mp3", duration = 72.1502041, start = 0},
+    {file = "Audio/Transport/full_npc_bailor-stonehand-c56f8c588c9595c4f949/1-0000.mp3", duration = 41.1428571, start = 0},
   },
 }
 P.transport["npc:balir-frosthammer"] = {
-  hash = "be1db9",
-  fullHash = "be1db9",
-  text = "Balir Frosthammer. Balir Frosthammer is a dwarven defender stationed in Coldridge Valley within Dun Morogh. Alarmed by the sudden and aggressive incursions of Rockjaw troggs into dwarven lands, he recruits fledgling adventurers to stem the tide before the valley is overrun. Perched in the snowy enclave of Coldridge Valley, Balir Frosthammer watches the perimeter against encroaching dangers. The valley has long served as a safe haven and training ground for dwarven and gnomish novices, but recent disturbances underground have unleashed violent Rockjaw troggs onto the surface. Balir is among the first to sound the alarm, rallying newly arrived recruits to cull the troggs before they breach deeper into Dun Morogh. Bearing the proud Frosthammer surname, Balir may share a lineage with Tannok Frosthammer of Kharanos. Their family stands resolute in their duty to Ironforge, ensuring that the cold mountain passes remain secure for travelers, miners, and mountaineers even as regional threats multiply.",
+  hash = "8a729a",
+  fullHash = "8a729a",
+  text = "Balir Frosthammer. In Coldridge Valley, Balir Frosthammer rallies recruits against the Rockjaw troggs. The dwarf guards Dun Morogh as the troggs press into dwarven lands. Balir Frosthammer calls new recruits to defend Coldridge Valley. Dwarven and gnomish novices have long found safety and training there, but trouble underground has driven violent Rockjaw troggs to the surface. Balir is among the first to raise the alarm. He urges recruits to thin their numbers before they push farther into Dun Morogh. Balir Frosthammer bears a name shared with Tannok Frosthammer of Kharanos. The two may belong to the same family, whose members stand by Ironforge. They help keep the cold mountain passes safe for travelers, miners, and mountaineers as threats grow across the region.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_balir-frosthammer-97962883518bda0b887b/1-0000.mp3", duration = 56.7902041, start = 0},
+    {file = "Audio/Transport/full_npc_balir-frosthammer-88c95cbf00b795c50aa1/1-0000.mp3", duration = 44.6432653, start = 0},
   },
 }
 P.transport["npc:barithras-moonshade"] = {
@@ -226,11 +226,11 @@ P.transport["npc:barithras-moonshade"] = {
   },
 }
 P.transport["npc:barkeep-daniels"] = {
-  hash = "17b4d7",
-  fullHash = "17b4d7",
-  text = "Barkeep Daniels. Barkeep Daniels tends the counter at the Lakeshire Inn, serving weary town guards, local fishermen, and visiting travelers. With the Blackrock clan raiding across the Redridge Mountains and cutting off supply routes, keeping the tavern fully stocked has become an uphill battle. Behind the counter of the Lakeshire Inn stands Barkeep Daniels, pouring drinks and greeting whoever wanders in from the bridge. Lakeshire has spent months under constant pressure from gnolls and the Blackrock orcs, and the town's defenders rely on the tavern to unwind after grim patrols. Unfortunately for Daniels, the severed roads and relentless attacks have disrupted trade throughout the region. Finding himself dangerously low on liquor during a time when the town needs good cheer most, he is eager for any passing adventurer willing to fetch shipments from safer settlements.",
+  hash = "cad761",
+  fullHash = "cad761",
+  text = "Barkeep Daniels. At the Lakeshire Inn, Barkeep Daniels keeps drinks flowing as raiders disrupt the roads. The town guards, fishermen, and travelers who gather there depend on the inn for a welcome pause, but supplies are running low. Barkeep Daniels pours drinks and greets visitors at the Lakeshire Inn, near the bridge. Gnolls and Blackrock orcs have kept Lakeshire under pressure for months, and its defenders turn to the tavern after grim patrols. Raids and severed roads have disrupted trade across the region. With liquor running low when the town needs good cheer, Daniels welcomes travelers willing to fetch shipments from safer settlements.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_barkeep-daniels-378ae99f294267f9e8f1/1-0000.mp3", duration = 46.2628571, start = 0},
+    {file = "Audio/Transport/full_npc_barkeep-daniels-659fd8ffd7f8d7aac123/1-0000.mp3", duration = 37.2767347, start = 0},
   },
 }
 P.transport["npc:baron-revilgaz"] = {
@@ -250,11 +250,11 @@ P.transport["npc:bartleby"] = {
   },
 }
 P.transport["npc:bashana-runetotem"] = {
-  hash = "8c3bde",
-  fullHash = "8c3bde",
-  text = "Bashana Runetotem. Bashana Runetotem is an herbalist and druidic researcher residing on the Elder Rise in Thunder Bluff. The daughter of Archdruid Hamuul Runetotem, she aids the Cenarion Circle by overseeing agricultural investigations and guiding Horde adventurers against corrupting forces. Standing atop the breezy heights of the Elder Rise, Bashana Runetotem carries on the druidic legacy of her father, Archdruid Hamuul Runetotem. While her father guides the burgeoning tauren druids and advises Cairne Bloodhoof, Bashana focuses on practical research into botanical anomalies and regional threats. She equips travelers with tools like evergreen pouches to cultivate mysterious flora, notably the enigmatic morrowgrain, while also coordinating Horde efforts to cleanse foul corruption spreading from places like Blackfathom Deeps.",
+  hash = "9b0c67",
+  fullHash = "9b0c67",
+  text = "Bashana Runetotem. On the Elder Rise in Thunder Bluff, Bashana Runetotem studies plants and corruption. She is the daughter of Archdruid Hamuul Runetotem and aids the Cenarion Circle. Bashana Runetotem carries her father Archdruid Hamuul Runetotem’s druidic legacy on Thunder Bluff’s Elder Rise. While he guides tauren druids and advises Cairne Bloodhoof, Bashana studies unusual plants and regional threats. She gives travelers tools such as evergreen pouches to cultivate mysterious flora, including morrowgrain. She also coordinates Horde efforts against corruption spreading from places such as Blackfathom Deeps.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_bashana-runetotem-1845c4df21765841450e/1-0000.mp3", duration = 46.6546939, start = 0},
+    {file = "Audio/Transport/full_npc_bashana-runetotem-19d314c817141d4e49a7/1-0000.mp3", duration = 36.4146939, start = 0},
   },
 }
 P.transport["npc:bath-rah-the-windwatcher"] = {
@@ -266,19 +266,19 @@ P.transport["npc:bath-rah-the-windwatcher"] = {
   },
 }
 P.transport["npc:beldin-steelgrill"] = {
-  hash = "9c12a7",
-  fullHash = "9c12a7",
-  text = "Beldin Steelgrill. Beldin Steelgrill is a renowned dwarven engineer and the master technician operating Steelgrill's Depot in Dun Morogh. Widely regarded as one of the finest siege engine mechanics in Khaz Modan, he oversees the maintenance of the Ironforge military's heavy armor and treaded warmachines. Keeping those massive contraptions running requires an endless supply of high-grade specialized tools. Situated just down the road from Kharanos, Steelgrill's Depot serves as the primary proving ground and service station for dwarven steam tanks and siege engines. Beldin Steelgrill stands as its chief technician, celebrated far and wide for his unmatched expertise in repairing and tuning armored war wagons. Taming heavy metal and rumbling boilers is unforgiving work, and Beldin burns through gear rapidly. His constant demand for heavy wrenches, cutters, and precision instruments frequently pushes local ironworkers to their limits just to keep his workbench supplied.",
+  hash = "4cdca5",
+  fullHash = "4cdca5",
+  text = "Beldin Steelgrill. At Steelgrill's Depot in Dun Morogh, Beldin Steelgrill keeps dwarven war machines running. He is its master technician, renowned in Khaz Modan for repairing siege engines and armored wagons. His work depends on a steady supply of specialized tools. Just down the road from Kharanos, Steelgrill's Depot is where dwarven steam tanks and siege engines are tested and serviced. Beldin Steelgrill runs the work as its chief technician, known across Khaz Modan for repairing and tuning armored war wagons. The work is hard on heavy wrenches, cutters, and precision instruments. Beldin needs them constantly, keeping local ironworkers busy supplying his bench.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_beldin-steelgrill-d967a97b2e4f7ea8bc6d/1-0000.mp3", duration = 55.6930612, start = 0},
+    {file = "Audio/Transport/full_npc_beldin-steelgrill-bc8365021961b2ea94ff/1-0000.mp3", duration = 38.2432653, start = 0},
   },
 }
 P.transport["npc:bingles-blastenheimer"] = {
-  hash = "32383d",
-  fullHash = "32383d",
-  text = "Bingles Blastenheimer. Bingles Blastenheimer is an eccentric gnomish aviator stranded on the southeastern shores of the Loch in Loch Modan. Having crash-landed his experimental flying machine, he finds himself marooned amidst local troggs and beasts, desperate to salvage his precious tools and components. Like many ambitious gnomish engineers, Bingles Blastenheimer took to the skies in a customized flying craft, only to discover that coming down safely is far more difficult than lifting off. After his gyrocopter malfunctioned and crashed into the southeastern shores of the Loch, Bingles survived the impact intact, but his machine shattered into scattered parts. Stranded far from Ironforge, he remains huddled near the wreckage, guarded against hungry crocolisks and hostile troggs while pleading with passing travelers to recover the tools and Blastencapper explosives that troggs from a nearby island stole from him.",
+  hash = "d668a8",
+  fullHash = "d668a8",
+  text = "Bingles Blastenheimer. On Loch Modan’s southeastern shore, Bingles Blastenheimer waits beside the wreck of his flying machine. Stranded among troggs and beasts, the gnomish aviator needs his tools and parts back. Bingles Blastenheimer took his customized flying craft into the skies, but bringing it down safely proved harder than lifting off. His gyrocopter malfunctioned and crashed on the Loch’s southeastern shore. Bingles survived, but the machine broke apart. Far from Ironforge, he stays near the wreck, wary of hungry crocolisks and hostile troggs. Troggs from a nearby island stole his tools and Blastencapper explosives, and he asks passing travelers to recover them.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_bingles-blastenheimer-e3324a44a013eec61144/1-0000.mp3", duration = 52.2187755, start = 0},
+    {file = "Audio/Transport/full_npc_bingles-blastenheimer-107ed6d0fcc1355721b2/1-0000.mp3", duration = 40.0979592, start = 0},
   },
 }
 P.transport["npc:bink"] = {
@@ -322,27 +322,27 @@ P.transport["npc:bloodmage-lynnore"] = {
   },
 }
 P.transport["npc:bluff-runner-windstrider"] = {
-  hash = "4b4aee",
-  fullHash = "4b4aee",
-  text = "Bluff Runner Windstrider. Bluff Runner Windstrider is a wandering tauren messenger roaming the mesas of Thunder Bluff. He carries urgent dispatches across the city, directing Horde adventurers toward distant frontiers like Ashenvale, Feralas, and the Plaguelands. Thunder Bluff's soaring plateaus require swift feet to keep its leaders and visitors informed, and Bluff Runner Windstrider fills that vital role. Continually jogging the rope bridges and pathways of the tauren capital, he acts as a town crier and dispatch runner. When key outposts across Kalimdor or the Eastern Kingdoms require reinforcements, Windstrider flags down passing champions to carry word and take up the call to arms. Windstrider's dispatches range far beyond Mulgore's serene borders. He directs adventurers northward into Ashenvale to join Senani Thunderheart's great hunt at Splintertree Post, points hardened scouts south toward Camp Mojache in deep Feralas, and relays grave warnings regarding the ongoing undead menace in the Western Plaguelands. Through him, the tribal heart of Mulgore stays bound to the wider conflicts of the Horde.",
+  hash = "7fbf86",
+  fullHash = "7fbf86",
+  text = "Bluff Runner Windstrider. On Thunder Bluff's mesas, Bluff Runner Windstrider carries urgent messages across the city. He directs Horde travelers toward distant frontiers, including Ashenvale, Feralas, and the Plaguelands. Bluff Runner Windstrider carries messages across Thunder Bluff's high plateaus. His swift runs keep the city's leaders and visitors informed. He jogs along the rope bridges and pathways, calling out news and carrying dispatches. When outposts across Kalimdor or the Eastern Kingdoms need reinforcements, Windstrider calls on passing champions to carry word and answer the call to arms. Bluff Runner Windstrider's messages reach far beyond Mulgore. He sends adventurers north to join Senani Thunderheart's great hunt at Splintertree Post in Ashenvale. He points seasoned scouts south toward Camp Mojache in Feralas and carries grave warnings about the ongoing undead menace in the Western Plaguelands. His dispatches connect Mulgore's tribal heart to the wider conflicts of the Horde.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_bluff-runner-windstrider-88ec92d8aa8909014031/1-0000.mp3", duration = 63.8955102, start = 0},
+    {file = "Audio/Transport/full_npc_bluff-runner-windstrider-9172f500bcd2d4cabe06/1-0000.mp3", duration = 58.3053061, start = 0},
   },
 }
 P.transport["npc:braelyn-firehand"] = {
-  hash = "96f165",
-  fullHash = "96f165",
-  text = "Braelyn Firehand. Braelyn Firehand is an elusive elf residing quietly among the Horde at Sun Rock Retreat in the Stonetalon Mountains. While presenting herself as an arcane practitioner seeking to clear mystical obstructions in the highlands, she pursues a deep personal grudge against the grove keepers of Stonetalon Peak. Standing out amidst the tauren lodges and rustic orcish tents of Sun Rock Retreat, Braelyn Firehand is a rare sight: a blood elf dwelling openly within a remote Horde settlement. The shaman and chieftains of the retreat tolerate her presence, seemingly oblivious to her true loyalties. Braelyn presents herself as an observer fascinated by the flow of regional magic, eager to hire passing Horde mercenaries to handle dangerous field assignments across the crags.",
+  hash = "addacc",
+  fullHash = "addacc",
+  text = "Braelyn Firehand. At Sun Rock Retreat, Braelyn Firehand lives among the Horde and draws travelers into a campaign against the night elves of Stonetalon Peak. At Sun Rock Retreat, Braelyn Firehand is a blood elf living openly among tauren lodges and orcish tents. The retreat’s shamans and chieftains tolerate her, apparently unaware of her true loyalties. She calls herself an observer of the region’s magic and hires passing Horde mercenaries for dangerous work among the crags.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_braelyn-firehand-77d732c12c0496bb2c22/1-0000.mp3", duration = 43.1804082, start = 0},
+    {file = "Audio/Transport/full_npc_braelyn-firehand-f3934c7a5092165720cb/1-0000.mp3", duration = 27.2979592, start = 0},
   },
 }
 P.transport["npc:braenna-flintcrag"] = {
-  hash = "4a9c7e",
-  fullHash = "4a9c7e",
-  text = "Braenna Flintcrag. Braenna Flintcrag is a dwarven priest trainer stationed within the Hall of Mysteries in Ironforge's Mystic Ward. She instructs devout followers of the Holy Light, guiding dwarven acolytes as they develop their spiritual disciplines and healing arts. She also passes word to visiting night elf priests when they are called home to the Temple of the Moon in Darnassus. Residing within the quiet alcoves of the Hall of Mysteries in Ironforge's Mystic Ward, Braenna Flintcrag serves the Alliance as a dedicated priest trainer. While Ironforge is renowned for its roaring forges and martial warriors, devout dwarves like Braenna tend to the spiritual welfare of Khaz Modan. She mentors novices answering the call of the Holy Light, teaching the dual disciplines of restorative mending and defensive warding required to survive in an increasingly dangerous world.",
+  hash = "d751d1",
+  fullHash = "d751d1",
+  text = "Braenna Flintcrag. In Ironforge's Mystic Ward, Braenna Flintcrag guides dwarves in the ways of the Holy Light. She trains priests in healing and spiritual discipline, and tells visiting night elf priests when they are called home to the Temple of the Moon in Darnassus. Braenna Flintcrag trains priests in Ironforge's Hall of Mysteries. From the Mystic Ward, she teaches dwarven acolytes the Holy Light's healing arts and defensive wards, preparing them for a dangerous world. Her work tends the spiritual needs of Khaz Modan, amid a city renowned for its forges and warriors.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_braenna-flintcrag-b75683113fa03dc47dcd/1-0000.mp3", duration = 47.1771429, start = 0},
+    {file = "Audio/Transport/full_npc_braenna-flintcrag-f58f9579b87edef46bfe/1-0000.mp3", duration = 32.4179592, start = 0},
   },
 }
 P.transport["npc:brainwashed-noble"] = {
@@ -354,11 +354,11 @@ P.transport["npc:brainwashed-noble"] = {
   },
 }
 P.transport["npc:brandur-ironhammer"] = {
-  hash = "930abb",
-  fullHash = "930abb",
-  text = "Brandur Ironhammer. Brandur Ironhammer is a dwarven paladin trainer residing in the Hall of Mysteries within Ironforge. He guides aspiring champions of the Holy Light through their early rites, testing their devotion and dispatching them across the Alliance. Stationed within the quiet alcoves of the Hall of Mysteries, Brandur Ironhammer serves the Alliance by instructing novice paladins in the ways of the Holy Light. Alongside his peer, Tiza Battleforge, Brandur keeps a watchful eye on young dwarven champions, guiding them through the trials of the Tome of Divinity. While deeply committed to his holy duties, he has acknowledged personal flaws under Tiza's frank counsel, working diligently to temper his envy and maintain the inner purity demanded of a warrior of the Light. Brandur serves as an essential liaison between Ironforge and the wider Alliance brotherhood. When human initiates find their way into the dwarven mountain, he redirects them back south to Duthorian Rall in the Cathedral of Light. As paladins grow seasoned in the field, Brandur coordinates their deployment to battlegrounds such as Chillwind Camp in the Western Plaguelands, eventually sending veteran crusaders to Lord Grayson Shadowbreaker to undertake the demanding trials of the war charger.",
+  hash = "dc8bc3",
+  fullHash = "dc8bc3",
+  text = "Brandur Ironhammer. In Ironforge, Brandur Ironhammer guides young paladins in the Holy Light and sends them across the Alliance. In the Hall of Mysteries, Brandur Ironhammer trains novice paladins in the ways of the Holy Light. He and Tiza Battleforge watch over young dwarven champions as they face the trials of the Tome of Divinity. Tiza has spoken frankly about Brandur’s personal flaws. He works to master his envy and keep the inner purity expected of a warrior of the Light. Brandur connects Ironforge to the wider Alliance brotherhood. Human initiates who come to the dwarven mountain are sent south to Duthorian Rall in the Cathedral of Light. Seasoned paladins are directed to battlegrounds such as Chillwind Camp in the Western Plaguelands. Veteran crusaders are sent to Lord Grayson Shadowbreaker for the demanding trials of the war charger.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_brandur-ironhammer-9858ca1afe6711ab6b6e/1-0000.mp3", duration = 68.9893878, start = 0},
+    {file = "Audio/Transport/full_npc_brandur-ironhammer-cf246266bba5acacabb7/1-0000.mp3", duration = 48.0130612, start = 0},
   },
 }
 P.transport["npc:brann-bronzebeard"] = {
@@ -370,11 +370,11 @@ P.transport["npc:brann-bronzebeard"] = {
   },
 }
 P.transport["npc:branstock-khalder"] = {
-  hash = "de12e9",
-  fullHash = "de12e9",
-  text = "Branstock Khalder. Branstock Khalder is the priest trainer stationed at Anvilmar in Coldridge Valley. Friendly and grounded, he introduces novice dwarven priests to the Holy Light while keeping a watchful eye on the growing trogg threat outside. Inside the bustling hall of Anvilmar, Branstock Khalder serves as a patient mentor to aspiring priests embarking on their spiritual journey. An easy-going dwarf with a deep devotion to the Light, he helps new acolytes master their early prayers and sacred runes. While his primary duty is spiritual instruction, Branstock is acutely aware of the valley's mounting perils—most notably the aggressive trogg infestation menacing the local mountaineers. Once a novice demonstrates sufficient command of the Light, he directs them through Coldridge Pass to seek further guidance from his superior, Maxan Anvol, in Kharanos.",
+  hash = "c5fadf",
+  fullHash = "c5fadf",
+  text = "Branstock Khalder. At Anvilmar in Coldridge Valley, Branstock Khalder trains dwarven priests in the Holy Light and watches the trogg threat beyond the outpost. At Anvilmar, Branstock Khalder guides aspiring priests through their first prayers and sacred runes. This easy-going dwarf is devoted to the Light, yet keeps watch on the growing trogg threat to the local mountaineers. When a novice has learned enough of the Light, Branstock sends them through Coldridge Pass to Kharanos for further guidance from his superior, Father Maxan Anvol.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_branstock-khalder-373f65ba3d91041b234c/1-0000.mp3", duration = 48.404898, start = 0},
+    {file = "Audio/Transport/full_npc_branstock-khalder-d3a1271e7bc52d6b7e06/1-0000.mp3", duration = 30.6416327, start = 0},
   },
 }
 P.transport["npc:brave-moonhorn"] = {
@@ -386,27 +386,27 @@ P.transport["npc:brave-moonhorn"] = {
   },
 }
 P.transport["npc:brewmeister-bilger"] = {
-  hash = "44d50d",
-  fullHash = "44d50d",
-  text = "Brewmeister Bilger. Brewmeister Bilger is an intoxicated dwarven brewer residing in the cellar of the inn at Southshore in the Hillsbrad Foothills. He whiles away his hours tasting potent spirits and waiting on deliveries from distant lands. Bilger spends his days pacing the cool cellar beneath Southshore's inn, nursing hiccups and seeking out the strongest brews Azeroth can offer. Despite his perpetual stupor, Bilger remains a discerning judge of spirits. He maintains an appetite for heavy dwarven moonshines and potent liquors crafted in the south, eagerly receiving special batches like the moonshine Foggy MacKreel sends him from the Thandol Span.",
+  hash = "971a9d",
+  fullHash = "971a9d",
+  text = "Brewmeister Bilger. Brewmeister Bilger waits in Southshore's inn cellar for deliveries from distant lands. The intoxicated dwarf passes his hours tasting potent spirits. Brewmeister Bilger paces the cellar beneath Southshore's inn, nursing hiccups as he seeks the strongest brews Azeroth can offer. Brewmeister Bilger can judge spirits despite his constant stupor. He favors heavy dwarven moonshines and potent southern liquors, and eagerly receives special batches such as the moonshine Foggy MacKreel sends from the Thandol Span.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_brewmeister-bilger-ea611dbc80deaa7dc1d5/1-0000.mp3", duration = 36.1795918, start = 0},
+    {file = "Audio/Transport/full_npc_brewmeister-bilger-552b77655aa8fd6e542f/1-0000.mp3", duration = 30.1714286, start = 0},
   },
 }
 P.transport["npc:brock-stoneseeker"] = {
-  hash = "b051d5",
-  fullHash = "b051d5",
-  text = "Brock Stoneseeker. Brock Stoneseeker is a dwarven mining instructor based in the settlement of Thelsamar in Loch Modan. As the proprietor of Brock's School of Mining and Surveying, he instructs novice prospectors in the craft of extracting valuable ores and minerals from the earth. Operating out of Thelsamar, Brock Stoneseeker directs Brock's School of Mining and Surveying. In the mineral-rich hills of Loch Modan, seasoned expertise with a pickaxe and an eye for geological veins are indispensable. Brock guides aspiring miners through the foundational techniques of identifying ore nodes, extracting raw metals, and properly surveying subterranean deposits, ensuring Alliance tradesfolk can fuel Ironforge's legendary smithies.",
+  hash = "c62163",
+  fullHash = "c62163",
+  text = "Brock Stoneseeker. Brock Stoneseeker teaches mining in Thelsamar, in Loch Modan. At Brock's School of Mining and Surveying, he trains novice prospectors to extract ores and minerals. In Thelsamar, Brock Stoneseeker teaches miners at Brock's School of Mining and Surveying. Loch Modan's hills hold rich mineral veins, and miners need skill with a pickaxe and an eye for the rock. Brock teaches the basics of finding ore, extracting raw metals, and surveying underground deposits. His lessons help Alliance tradesfolk supply Ironforge's smithies.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_brock-stoneseeker-e5bfe8ce9eb66818b377/1-0000.mp3", duration = 42.3967347, start = 0},
+    {file = "Audio/Transport/full_npc_brock-stoneseeker-c9c155252f11eae96208/1-0000.mp3", duration = 32.1044898, start = 0},
   },
 }
 P.transport["npc:bromos-grummner"] = {
-  hash = "0fb03f",
-  fullHash = "0fb03f",
-  text = "Bromos Grummner. Bromos Grummner is a dwarven paladin trainer stationed in Anvilmar within Coldridge Valley. He mentors fledgling dwarven holy warriors, preaching steadfast faith in the Holy Light and the vital bond between dwarves and humans in the Knights of the Silver Hand. Standing within the sturdy stone hall of Anvilmar, Bromos Grummner welcomes dwarven novices drawn to the discipline of the Holy Light. Confident and resolute, he instructs young paladins in martial rites and sacred invocations. Beyond the basic tenets of combat, Bromos emphasizes unity, reminding his pupils that the order of the Knights of the Silver Hand bridges the realms of Ironforge and the human kingdoms of the Alliance in righteous purpose.",
+  hash = "4da563",
+  fullHash = "4da563",
+  text = "Bromos Grummner. In Anvilmar, Bromos Grummner trains young dwarven paladins in the Holy Light. He teaches steadfast faith and the bond between dwarves and humans in the Knights of the Silver Hand. In Anvilmar, Bromos Grummner welcomes dwarven novices to the discipline of the Holy Light. He teaches young paladins their martial rites and sacred invocations. Beyond combat, Bromos urges unity. The Knights of the Silver Hand bring Ironforge and the human kingdoms of the Alliance together in a shared righteous purpose.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_bromos-grummner-a6c08d5127a35246101f/1-0000.mp3", duration = 41.3257143, start = 0},
+    {file = "Audio/Transport/full_npc_bromos-grummner-3f7d7a473817575e0539/1-0000.mp3", duration = 29.6228571, start = 0},
   },
 }
 P.transport["npc:brother-joshua"] = {
@@ -450,19 +450,19 @@ P.transport["npc:brother-wilhelm"] = {
   },
 }
 P.transport["npc:cain-firesong"] = {
-  hash = "038a36",
-  fullHash = "038a36",
-  text = "Cain Firesong. Cain Firesong is a Forsaken mage trainer located in the settlement of Brill within Tirisfal Glades. He assists fledgling practitioners of the arcane as they grow in power, guiding them before directing them onward to deeper studies in the Undercity. He can be found on the upstairs landing of the Gallows' End Tavern. While many Forsaken spellcasters delve into shadow or necromancy, Cain Firesong maintains mastery over traditional arcane disciplines. Stationed in Brill, he serves as an early mentor to Forsaken mages venturing forth from Deathknell. The local Deathguards direct visitors to the upstairs landing of the Gallows' End Tavern, joking that he arrived too late to get a room. As novice mages under his tutelage advance beyond their preliminary studies in Tirisfal Glades, Cain ensures they do not stagnate. He directs his most capable students to seek out Anastasia Hartwell, a master sorceress residing in the Magic Quarter of the Undercity.",
+  hash = "4731e0",
+  fullHash = "4731e0",
+  text = "Cain Firesong. At the Gallows' End Tavern in Brill, Cain Firesong guides Forsaken mages in the arcane. He trains them in Tirisfal Glades before sending advanced students to the Undercity for deeper study. Cain Firesong teaches traditional arcane arts in Brill, where Forsaken mages begin their studies. Many Forsaken spellcasters turn to shadow or necromancy, but Cain keeps to the arcane. He mentors mages who set out from Deathknell. The Deathguards point visitors to the upstairs landing of the Gallows' End Tavern, where Cain can be found. They joke that he arrived too late to get a room. Cain sends capable students onward when they outgrow their first studies in Tirisfal Glades. He directs them to Anastasia Hartwell, a master sorceress who lives in the Magic Quarter of the Undercity.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_cain-firesong-bcda1c9762ae8c686a02/1-0000.mp3", duration = 54.3869388, start = 0},
+    {file = "Audio/Transport/full_npc_cain-firesong-e5c003828202cc828daf/1-0000.mp3", duration = 48.0914286, start = 0},
   },
 }
 P.transport["npc:calvin-montague"] = {
-  hash = "ff4a42",
-  fullHash = "ff4a42",
-  text = "Calvin Montague. Calvin Montague is an opportunistic Forsaken rogue loitering near the exit gate of Deathknell in Tirisfal Glades. Preying on newly awakened undead as they leave the graveyard, he attempts to trick passersby into running errands on his behalf. Positioned just outside the gates leading away from Deathknell, Calvin Montague embodies the ruthless pragmatism common among Lordaeron's restless dead. Rather than handling his own correspondence or paying fair courier rates, he attempts to smooth-talk wandering adventurers into delivering letters under false pretenses. While several other prominent undead bearing the Montague family name manage banking interests within the Undercity, Calvin pursues a decidedly less reputable trade, preferring petty schemes and deception.",
+  hash = "7a02ac",
+  fullHash = "7a02ac",
+  text = "Calvin Montague. At Deathknell's gate, Calvin Montague preys on newly awakened Forsaken leaving the graveyard, tricking passersby into errands for him. Calvin Montague waits just beyond Deathknell's gates, where the road leads out into Tirisfal Glades. He tries to talk wandering adventurers into carrying his letters, using false pretenses instead of handling his own correspondence or paying a fair courier's fee. Other prominent undead named Montague manage banking interests in the Undercity. Calvin follows a less reputable path, relying on petty schemes and deception.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_calvin-montague-134db10da6fbccfb58e4/1-0000.mp3", duration = 43.1542857, start = 0},
+    {file = "Audio/Transport/full_npc_calvin-montague-e6e09b764928ce2c90fb/1-0000.mp3", duration = 31.6865306, start = 0},
   },
 }
 P.transport["npc:captain-danuvin"] = {
@@ -474,11 +474,11 @@ P.transport["npc:captain-danuvin"] = {
   },
 }
 P.transport["npc:captain-rugelfuss"] = {
-  hash = "dd2047",
-  fullHash = "dd2047",
-  text = "Captain Rugelfuss. Captain Rugelfuss is a stern dwarven officer stationed at the southern gate in the Valley of Kings. Tasked with securing the border of Loch Modan, he organizes the defense against a sudden and aggressive trogg uprising. Positioned near the monumental carved arches of the Valley of Kings, Captain Rugelfuss oversees the southern gateway into Loch Modan. With Alliance forces stretched thin across the world, Ironforge relies on veteran officers like him to keep the home territories secure. Rugelfuss dismisses military pomp and formalities, preferring to focus entirely on the grim reality facing the border. The primary crisis demanding Rugelfuss's attention is the swelling trogg threat. Unearthed from ancient caverns and surging into the highlands, these savage brutes have overwhelmed outlying dwarven patrols and established fortified footholds nearby. Under the banner of defending the King's lands, the captain recruits capable travelers to cull their ranks and push the creatures back from the roadway.",
+  hash = "c63ca1",
+  fullHash = "c63ca1",
+  text = "Captain Rugelfuss. At Loch Modan’s southern gate, Captain Rugelfuss faces a sudden trogg uprising. The stern dwarven officer organizes the defense of the border. Captain Rugelfuss guards Loch Modan’s southern gateway from the Valley of Kings. With Alliance forces stretched thin across the world, Ironforge depends on veteran officers like him to defend its home territories. He sets aside military ceremony and turns his attention to the danger at the border. Troggs are surging into the highlands from ancient caverns. They have overwhelmed outlying dwarven patrols and built fortified footholds nearby. Rugelfuss calls on capable travelers to thin their ranks and drive them back from the roadway, defending the King’s lands.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_captain-rugelfuss-cfb559cad7ec06fb5e69/1-0000.mp3", duration = 56.555102, start = 0},
+    {file = "Audio/Transport/full_npc_captain-rugelfuss-a980bb6384ceff020f1c/1-0000.mp3", duration = 42.9714286, start = 0},
   },
 }
 P.transport["npc:captain-shatterskull"] = {
@@ -498,19 +498,19 @@ P.transport["npc:captain-thalo-thas-brightsun"] = {
   },
 }
 P.transport["npc:captured-mountaineer"] = {
-  hash = "e64939",
-  fullHash = "e64939",
-  text = "Captured Mountaineer. The Captured Mountaineer is an Ironforge dwarf held prisoner in the basement of the Gallows' End Tavern in Brill. Bound and guarded by the Forsaken, he serves as an unwilling subject for the Royal Apothecary Society's grim experiments. Tucked away beneath the floorboards of the Gallows' End Tavern in Brill, this Ironforge Mountaineer sits captive far from the safety of Khaz Modan. While patrons drink above, the Royal Apothecary Society puts him to work as an unwitting test subject for their concoctions. Apothecary Johaan and his peers test the lethal potency of their developing plague against living Alliance physiology, using the prisoner to gauge how well their toxins bring a swift and agonizing end to the living.",
+  hash = "031dae",
+  fullHash = "031dae",
+  text = "Captured Mountaineer. In Brill, a captured Ironforge Mountaineer is held beneath the Gallows' End Tavern. The Forsaken keep him bound for the Royal Apothecary Society's experiments. Beneath the Gallows' End Tavern in Brill, an Ironforge Mountaineer is held far from Khaz Modan. While patrons drink above, the Royal Apothecary Society uses him to test its concoctions. Apothecary Johaan and his peers measure their developing plague against living Alliance bodies, testing how swiftly and painfully their toxins kill.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_captured-mountaineer-9967f22ed6c301ea3432/1-0000.mp3", duration = 41.5608163, start = 0},
+    {file = "Audio/Transport/full_npc_captured-mountaineer-9c7d34283868caa431ef/1-0000.mp3", duration = 30.0146939, start = 0},
   },
 }
 P.transport["npc:captured-scarlet-zealot"] = {
-  hash = "4cd3b5",
-  fullHash = "4cd3b5",
-  text = "Captured Scarlet Zealot. The Captured Scarlet Zealot is a crusader prisoner held captive in the basement of Gallows' End Tavern in Brill. Watched over by Forsaken apothecaries and townsfolk, he serves as a living test subject for the Royal Apothecary Society's developing concoctions. Confined beneath Gallows' End Tavern, this member of the Scarlet Crusade embodies the unyielding fanaticism of his order. Even in chains, surrounded by the undead he views as an abomination, he offers no remorse, calling on the Light to protect him from the foul and unholy creatures around him. For the Forsaken, capturing a living zealot is not an act of mercy; it provides valuable human test material to evaluate the lethality of experimental plagues and toxins under development by Apothecary Johaan.",
+  hash = "a9838c",
+  fullHash = "a9838c",
+  text = "Captured Scarlet Zealot. Beneath Gallows' End Tavern in Brill, a Scarlet Zealot is held captive. Forsaken apothecaries use him to test concoctions for the Royal Apothecary Society. Beneath Gallows' End Tavern, a Scarlet Crusade zealot remains chained and defiant. His unyielding faith reflects his order, and he sees the undead around him as abominations. He calls on the Light to shield him from the foul creatures holding him. The Forsaken did not capture him out of mercy. As a living human, he is valuable test material for Apothecary Johaan, who uses him to measure the lethality of experimental plagues and toxins under development.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_captured-scarlet-zealot-64eacc4bc0c60b565b35/1-0000.mp3", duration = 43.8334694, start = 0},
+    {file = "Audio/Transport/full_npc_captured-scarlet-zealot-8809cb865a1d30ec0d2c/1-0000.mp3", duration = 37.6946939, start = 0},
   },
 }
 P.transport["npc:caretaker-folsom"] = {
@@ -522,11 +522,11 @@ P.transport["npc:caretaker-folsom"] = {
   },
 }
 P.transport["npc:carolai-anise"] = {
-  hash = "e5ae5c",
-  fullHash = "e5ae5c",
-  text = "Carolai Anise. Carolai Anise is an eccentric Forsaken alchemist residing in the village of Brill in Tirisfal Glades. She trains novice alchemists, though her hazardous concoctions have drawn nervous murmurs from local guards. Operating out of Brill, Carolai Anise devotes her unlife to the volatile art of alchemy. While many Forsaken researchers operate under the Royal Apothecary Society's grim mandate, Carolai pursues her own strange brews right inside the settlement. Her unpredictable experiments and smoking retorts are notorious enough that the Deathguards keeping watch over Brill openly grumble that she seems bent on blowing up her own house.",
+  hash = "e8b2ba",
+  fullHash = "e8b2ba",
+  text = "Carolai Anise. In Brill, Carolai Anise teaches alchemy while her experiments make the guards uneasy. Carolai Anise pursues alchemy in Brill, where she teaches novice alchemists. Many Forsaken researchers work under the Royal Apothecary Society's grim mandate, but Carolai makes her own strange brews inside the settlement. Her unpredictable experiments and smoking retorts are well known. The Deathguards watching Brill openly grumble that she seems bent on blowing up her own house.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_carolai-anise-9b7f23a5cd3cb94fea0a/1-0000.mp3", duration = 35.5004082, start = 0},
+    {file = "Audio/Transport/full_npc_carolai-anise-f13afd1a988d4fe55cb9/1-0000.mp3", duration = 27.2457143, start = 0},
   },
 }
 P.transport["npc:cazul"] = {
@@ -546,27 +546,27 @@ P.transport["npc:cerellean-whiteclaw"] = {
   },
 }
 P.transport["npc:chef-breanna"] = {
-  hash = "16cac0",
-  fullHash = "16cac0",
-  text = "Chef Breanna. Chef Breanna is the head cook at Lakeshire's local dining house in the Redridge Mountains. Tasked with feeding the garrison of Stormwind soldiers stationed to protect the embattled lakeside town, she relies on hearty, local ingredients to keep the defenders on their feet. Operating out of a restaurant house in northwestern Lakeshire alongside her assistants Crystal Boughman and Gretchen Vogel, Chef Breanna bears the heavy responsibility of provisioning the entire local battalion. With Lakeshire besieged by Blackrock orcs, gnolls, and murlocs, maintaining the strength and morale of Stormwind's understaffed garrison is essential. Her signature dish, Redridge Goulash, relies on the wild game and beasts roaming the surrounding ridges, turning dangerous wilderness predators into fuel for the town's weary guard.",
+  hash = "78de57",
+  fullHash = "78de57",
+  text = "Chef Breanna. In Lakeshire, Chef Breanna feeds the Stormwind soldiers guarding the Redridge Mountains. She leads the town's kitchen and uses hearty local ingredients to keep the defenders on their feet. Chef Breanna works from a restaurant house in northwestern Lakeshire with her assistants, Crystal Boughman and Gretchen Vogel. She is responsible for feeding the entire local battalion. Blackrock orcs, gnolls, and murlocs besiege the town, and Stormwind's understaffed garrison must stay strong. Her signature Redridge Goulash uses wild game and beasts from the surrounding ridges to feed the weary guards.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_chef-breanna-5aac470318b3d933dd13/1-0000.mp3", duration = 45.6620408, start = 0},
+    {file = "Audio/Transport/full_npc_chef-breanna-9f1700b7aea34d25403f/1-0000.mp3", duration = 36.1012245, start = 0},
   },
 }
 P.transport["npc:chef-grual"] = {
-  hash = "0380f0",
-  fullHash = "0380f0",
-  text = "Chef Grual. Chef Grual is the resident cook at the Scarlet Raven Tavern in Darkshire. In a secluded town choked by mist and monsters, Grual does his best to keep the Night Watch and weary travelers fed, even if his choice of ingredients raises eyebrows. Running an eatery in Darkshire is a grim task. With supply lines from Westfall and Stormwind constantly harassed by highwaymen, wolves, and undead, fresh provisions are virtually nonexistent. Grual makes do with whatever the wilderness provides. From wolf flank to whatever scavenged meats local adventurers drag through the door, Grual cooks with pragmatism born of necessity. Grual is infamous for his specialty dishes, most notably his famous 'Dusky Crab Cakes' and seasoned wolf kabobs. Given that coastal crabs are nowhere near the gloomy inland woods of Duskwood, his crab cakes rely on a rather revolting substitute: the gooey legs of local Venom Web Spiders. Whether patrons realize they are eating arachnid meat or simply prefer not to ask, Grual keeps the kitchen running without apologies.",
+  hash = "98da05",
+  fullHash = "98da05",
+  text = "Chef Grual. In Darkshire, Chef Grual keeps the Scarlet Raven Tavern's kitchen working. He feeds the Night Watch and weary travelers, though some ingredients raise eyebrows. Darkshire's cook works with scarce supplies. Highwaymen, wolves, and undead harass the roads from Westfall and Stormwind, leaving fresh provisions hard to find. Grual makes do with what the wilderness offers. He cooks wolf flank and meat scavenged by local adventurers, using whatever reaches his kitchen.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_chef-grual-f1622194748758dcf8b2/1-0000.mp3", duration = 62.3281633, start = 0},
+    {file = "Audio/Transport/full_npc_chef-grual-414827e4ace2d3f08fde/1-0000.mp3", duration = 26.4359184, start = 0},
   },
 }
 P.transport["npc:chef-jessen"] = {
-  hash = "350a3a",
-  fullHash = "350a3a",
-  text = "Chef Jessen. Chef Jessen is Southshore's resident meat vendor and culinarian, working to keep the coastal town fed amidst constant border tensions. He is best remembered for his famous turtle bisque. Operating out of Southshore in the southern Hillsbrad Foothills, Chef Jessen provides provisions and meat to locals and visiting Alliance soldiers alike. He possesses notable culinary expertise. Years past, before plague and war disrupted northern Lordaeron, he regularly ventured north past Dalaran to the shores of Lordamere Lake. There, he harvested meat from native snapjaw turtles to concoct his prized Soothing Turtle Bisque, a hearty recipe he is willing to share with aspiring travelers who assist him in gathering ingredients.",
+  hash = "b79993",
+  fullHash = "b79993",
+  text = "Chef Jessen. In Southshore, Chef Jessen works to feed the town amid constant border tensions. He is best known for his famous turtle bisque. Chef Jessen supplies meat and provisions in Southshore, in the southern Hillsbrad Foothills, for locals and visiting Alliance soldiers. He is a skilled cook. Before plague and war disrupted northern Lordaeron, he often traveled north past Dalaran to the shores of Lordamere Lake. There he gathered meat from native snapjaw turtles to make his prized, hearty Soothing Turtle Bisque. He will share the recipe with travelers who help him gather its ingredients.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_chef-jessen-a28c1c0c264115b9cdae/1-0000.mp3", duration = 42.7102041, start = 0},
+    {file = "Audio/Transport/full_npc_chef-jessen-029d6e31898a8fb333f4/1-0000.mp3", duration = 34.5861224, start = 0},
   },
 }
 P.transport["npc:chief-archaeologist-greywhisker"] = {
@@ -578,11 +578,11 @@ P.transport["npc:chief-archaeologist-greywhisker"] = {
   },
 }
 P.transport["npc:christoph-jeffcoat"] = {
-  hash = "1756eb",
-  fullHash = "1756eb",
-  text = "Christoph Jeffcoat. Christoph Jeffcoat is a Forsaken merchant stationed in the settlement of Tarren Mill within the Hillsbrad Foothills. He supplies local crafters and travelers with essential trade goods, cooking seasonings, and specialty recipes. In an active war zone contested by the Alliance and the Syndicate, his mundane wares keep the northern Horde war effort running. While Tarren Mill stands as the Forsaken's military stronghold in Hillsbrad Foothills, a garrison cannot fight on malice alone. Christoph Jeffcoat handles the quiet, practical side of occupation, vending reagents, tools, threads, and spices to soldiers and traveling artisans. From the soothing spices required for local culinary recipes like turtle bisque to rare schematics and alchemical vials, Jeffcoat ensures that Horde forces passing through southern Lordaeron are fully provisioned for the battles against Southshore and the regional perils.",
+  hash = "eb966d",
+  fullHash = "eb966d",
+  text = "Christoph Jeffcoat. At Tarren Mill, Christoph Jeffcoat supplies the Forsaken with goods for trade and travel. His wares help crafters and travelers in Hillsbrad Foothills, where the Alliance and the Syndicate contest the land. Christoph Jeffcoat tends to the practical needs of Tarren Mill, the Forsaken stronghold in Hillsbrad Foothills. He sells reagents, tools, threads, and spices to soldiers and traveling artisans. His goods include the spices used in turtle bisque, rare schematics, and alchemical vials. Horde forces passing through southern Lordaeron rely on such supplies as they face Southshore and the dangers of the region.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_christoph-jeffcoat-7f6ae9b048b58609b2cc/1-0000.mp3", duration = 52.4538776, start = 0},
+    {file = "Audio/Transport/full_npc_christoph-jeffcoat-338648463274bfb411f6/1-0000.mp3", duration = 36.1012245, start = 0},
   },
 }
 P.transport["npc:chronormu"] = {
@@ -594,11 +594,11 @@ P.transport["npc:chronormu"] = {
   },
 }
 P.transport["npc:clarice-foster"] = {
-  hash = "e4f004",
-  fullHash = "e4f004",
-  text = "Clarice Foster. Clarice Foster is a Forsaken woman residing deep beneath the bluffs of Mulgore within the Pools of Vision. Far from the plagued glades of Lordaeron, she spends her days in contemplation among the tauren seers and mystics. While most Forsaken remain in the northern lands of Lordaeron rebuilding their kingdom under the Undercity, Clarice Foster has traveled to the heart of the tauren lands in Kalimdor. Sheltered within the cavernous Pools of Vision beneath the mesa of Thunder Bluff, she dwells alongside Forsaken apothecaries and tauren shamans who study the spiritual and elemental mysteries of the earth.",
+  hash = "d65ab5",
+  fullHash = "d65ab5",
+  text = "Clarice Foster. In the Pools of Vision, Clarice Foster lives among tauren seers and mystics. Far from Lordaeron, the Forsaken woman spends her days in contemplation beneath the bluffs of Mulgore. Most Forsaken remain in Lordaeron, rebuilding their kingdom beneath the Undercity. Clarice Foster has traveled to the heart of tauren lands in Kalimdor. She lives in the cavernous Pools of Vision beneath the mesa of Thunder Bluff, among Forsaken apothecaries and tauren shamans who study the spiritual and elemental mysteries of the earth.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_clarice-foster-29de8a07ddbc9575fed9/1-0000.mp3", duration = 33.7240816, start = 0},
+    {file = "Audio/Transport/full_npc_clarice-foster-e88dd9897e98f0cee9de/1-0000.mp3", duration = 30.2497959, start = 0},
   },
 }
 P.transport["npc:colonel-kurzen"] = {
@@ -618,11 +618,11 @@ P.transport["npc:commander-mar-alith"] = {
   },
 }
 P.transport["npc:councilman-millstipe"] = {
-  hash = "01876c",
-  fullHash = "01876c",
-  text = "Councilman Millstipe. Councilman Millstipe is a member of Darkshire's governing council, residing within the town hall of Duskwood. Deeply resentful of royal neglect and judicial meddling from the capital, he actively seeks retribution against criminals who endanger the darkened region. While Darkshire struggles under the shadow of the undead and ferocious beast attacks, its local council fights an uphill battle against the bureaucracy of Stormwind City. Councilman Millstipe represents the town's growing bitterness toward the crown. When the notorious grave robber Dextren Ward was caught selling freshly dug corpses to the necromancer Morbent Fel, Darkshire's leaders sentenced him to death. Instead, Stormwind's House of Nobles intervened, commuting Ward's execution and locking him safely away inside the Stormwind Stockade.",
+  hash = "5007b6",
+  fullHash = "5007b6",
+  text = "Councilman Millstipe. Darkshire's council grows bitter as Stormwind overrides its judgment. Councilman Millstipe lives in the town hall and wants justice for Duskwood's people. Darkshire faces undead and attacks from ferocious beasts, while its council struggles against Stormwind City's bureaucracy. Councilman Millstipe reflects the town's growing bitterness toward the crown. The notorious grave robber Dextren Ward was caught selling freshly dug corpses to the necromancer Morbent Fel. Darkshire's leaders sentenced Ward to death, but Stormwind's House of Nobles commuted the execution and locked him away in the Stormwind Stockade.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_councilman-millstipe-fa7d826a0aba01a43238/1-0000.mp3", duration = 45.5314286, start = 0},
+    {file = "Audio/Transport/full_npc_councilman-millstipe-9514e729290eb6ed1d59/1-0000.mp3", duration = 35.84, start = 0},
   },
 }
 P.transport["npc:count-remington-ridgewell"] = {
@@ -658,19 +658,19 @@ P.transport["npc:cyrus-therepentous"] = {
   },
 }
 P.transport["npc:darcy-parker"] = {
-  hash = "b69230",
-  fullHash = "b69230",
-  text = "Darcy. Darcy is a waitress serving drinks and warm meals at the Lakeshire Inn. Amid the constant threats looming over Redridge, she keeps her spirits up by looking after local defenders—particularly Guard Parker. Behind the busy counter of the Lakeshire Inn, Darcy works day and night to keep the town's weary militia fed and watered. Lakeshire sits under constant pressure from gnolls and Blackrock orcs, making the tavern one of the few places of warmth left in the settlement. Darcy takes a personal interest in the guards posted around town, frequently recruiting traveling adventurers to run hot meals and friendly errands out to those stationed along the borders. Darcy's warmth extends especially toward Guard Parker, who patrols the roads near Three Corners. Convinced he works too hard on an empty stomach, she regularly sends travelers out with lunch to keep him on his feet. Her affections have not gone unnoticed—Darcy keeps a watchful eye on Martie Jainrose, whom she considers a jealous rival for Parker's favor, turning the defense of Lakeshire into the backdrop for an earnest small-town romance.",
+  hash = "66af27",
+  fullHash = "66af27",
+  text = "Darcy. At the Lakeshire Inn, Darcy keeps the town's defenders fed and spirits up. She serves drinks and warm meals, with a special care for Guard Parker. Darcy keeps the Lakeshire Inn's counter working through long days and nights. The town's militia come there for food and drink while gnolls and Blackrock orcs keep Lakeshire under pressure. Darcy also looks out for guards posted around town. She asks travelers to carry hot meals and friendly errands to defenders stationed along the borders. Darcy pays special attention to Guard Parker, who patrols the roads near Three Corners. She thinks he works too hard on an empty stomach and often sends travelers with lunch for him. Darcy watches Martie Jainrose closely, believing her to be jealous and a rival for Parker's favor. Their feelings mingle with the work of defending Lakeshire.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_darcy-parker-b269654f3439aadd8572/1-0000.mp3", duration = 63.3469388, start = 0},
+    {file = "Audio/Transport/full_npc_darcy-parker-28de2fc2608edfd2803a/1-0000.mp3", duration = 49.684898, start = 0},
   },
 }
 P.transport["npc:dark-cleric-beryl"] = {
-  hash = "c6ad14",
-  fullHash = "c6ad14",
-  text = "Dark Cleric Beryl. Dark Cleric Beryl is a Forsaken priest trainer stationed in the Gallows' End Tavern in Brill. He guides newly awakened undead priests as they learn to wield shadow magic and adapt to their new, unholy existence under the Dark Lady. Residing on the upper floor of the Gallows' End Tavern in Brill, Dark Cleric Beryl serves the Forsaken by mentoring nascent priests. Beryl teaches that a Forsaken priest's power comes from darkness and shadow, yet one must also know the light before mastering the dark. He assists newly risen practitioners as they turn their focus toward shadow and the dark arts, guiding them through early trials like crafting their Garments of Darkness and proving their dedication to the new path.",
+  hash = "90e7d5",
+  fullHash = "90e7d5",
+  text = "Dark Cleric Beryl. In Brill, Dark Cleric Beryl guides newly awakened undead priests in the shadows. Stationed in the Gallows' End Tavern, he teaches them shadow magic and helps them adapt to their unholy existence under the Dark Lady. Dark Cleric Beryl mentors new Forsaken priests upstairs in Brill's Gallows' End Tavern. He teaches that a priest's power comes from darkness and shadow, yet mastering the dark also requires knowing the light. Newly risen priests turn their focus to shadow and the dark arts under his guidance. Their early trials include crafting their Garments of Darkness and proving their dedication to this new path.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_dark-cleric-beryl-3a2a41bf7db1d135e7ad/1-0000.mp3", duration = 41.5608163, start = 0},
+    {file = "Audio/Transport/full_npc_dark-cleric-beryl-d730000dbd7b3949d281/1-0000.mp3", duration = 34.9779592, start = 0},
   },
 }
 P.transport["npc:darkmaster-gandling"] = {
@@ -682,19 +682,19 @@ P.transport["npc:darkmaster-gandling"] = {
   },
 }
 P.transport["npc:darn-talongrip"] = {
-  hash = "c4014b",
-  fullHash = "c4014b",
-  text = "Darn Talongrip. Darn Talongrip is an orc scout stationed along the frontier of the Stonetalon Mountains near Malaka'jin. He monitors local threats in the crags and helps coordinate Horde communication between forward outposts and regional commanders. Darn Talongrip watches the rugged ascents leading into Stonetalon from the southern Barrens. Stationed in the settlement of Malaka'jin, Darn directs recruits toward the Horde's new fronts in Ashenvale. His post serves as an early line of contact for travelers winding upward into contested peaks. From his post in Malaka'jin, Darn ensures messages and frontline reports reach key commanders like Kadrak at the watch tower in the northern Barrens. Outlying encampments in these mountains operate under constant pressure, making Darn's role as a sentry and courier essential to keeping the Horde vanguard informed.",
+  hash = "34ba30",
+  fullHash = "34ba30",
+  text = "Darn Talongrip. Near Malaka'jin, Darn Talongrip watches the Stonetalon frontier. The orc scout tracks threats in the crags and carries word between forward outposts and Horde commanders. Darn Talongrip watches the rugged climbs into Stonetalon from the southern Barrens. At Malaka'jin, he directs recruits toward the Horde's new fronts in Ashenvale. Travelers climbing into the contested peaks can reach the Horde through his post. From Malaka'jin, Darn sends messages and reports from the front to commanders such as Kadrak, at the watch tower in the northern Barrens. Encampments scattered through the mountains face constant pressure, and Darn keeps the Horde vanguard informed as a sentry and courier.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_darn-talongrip-eb98318433709fe9d5b9/1-0000.mp3", duration = 48.9012245, start = 0},
+    {file = "Audio/Transport/full_npc_darn-talongrip-4977cbd94a1a4a5d374a/1-0000.mp3", duration = 40.0979592, start = 0},
   },
 }
 P.transport["npc:daryl-the-youngling"] = {
-  hash = "d4d089",
-  fullHash = "d4d089",
-  text = "Daryl the Youngling. Daryl the Youngling is a human hunter residing at Farstrider Lodge in the southeastern hills of Loch Modan. Eager to prove his marksmanship among veteran dwarven trackers, he challenges traveling adventurers to hone their wilderness skills and test their mettle against the local beasts. Farstrider Lodge is primarily a haven for dwarven mountaineers, trackers, and seasoned outdoorsmen who watch over the wilderness of Loch Modan. Daryl stands out as a young human striving to earn his place alongside these veteran stalkers. Rather than relying on mere bravado, he actively seeks to measure his hunting instincts against other travelers, issuing challenges to hunt down the tough wild boars and beasts roaming the crags and lakeshore.",
+  hash = "9f56da",
+  fullHash = "9f56da",
+  text = "Daryl the Youngling. At Farstrider Lodge, Daryl the Youngling tests his hunting skill among veteran dwarven trackers. He challenges travelers to prove their marksmanship against Loch Modan's beasts. Farstrider Lodge shelters dwarven mountaineers, trackers, and seasoned outdoorsmen who watch over Loch Modan's wilderness. Daryl is a young human trying to earn a place among them. He measures his hunting instincts against other travelers, challenging them to hunt the tough wild boars and beasts that roam the crags and lakeshore.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_daryl-the-youngling-8d14a23e9919a2015a26/1-0000.mp3", duration = 39.8628571, start = 0},
+    {file = "Audio/Transport/full_npc_daryl-the-youngling-cd908ce394d0b617327e/1-0000.mp3", duration = 30.8244898, start = 0},
   },
 }
 P.transport["npc:dashel-stonefist"] = {
@@ -706,27 +706,27 @@ P.transport["npc:dashel-stonefist"] = {
   },
 }
 P.transport["npc:david-trias"] = {
-  hash = "4f1149",
-  fullHash = "4f1149",
-  text = "David Trias. David Trias is the Forsaken rogue trainer stationed in Deathknell. He instructs freshly awakened undead in the arts of stealth, subterfuge, and bladecraft to aid Queen Sylvanas and the Forsaken. Positioned amidst the tombstones and ruins of Deathknell, David Trias is tasked with identifying and training those newly risen undead who possess a talent for unseen murder. For the fledgling Forsaken, survival requires more than sheer force of arms; it demands precise strikes from the dark. Trias decrypts orders and teaches initiates how to wield daggers, conceal their movements, and turn their reanimated reflexes into lethal precision against the living and the Scourge.",
+  hash = "5a2984",
+  fullHash = "5a2984",
+  text = "David Trias. In Deathknell, David Trias trains the newly awakened Forsaken. He teaches stealth and bladecraft so they can serve Queen Sylvanas and the Forsaken. David Trias trains newly risen undead among Deathknell’s tombstones and ruins. He seeks those with a talent for killing unseen. For the fledgling Forsaken, survival calls for more than strength at arms; it calls for precise strikes from the dark. Trias deciphers orders and teaches initiates to wield daggers, hide their movements, and use their reanimated reflexes with lethal precision against the living and the Scourge.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_david-trias-b34805d63524f092e2b6/1-0000.mp3", duration = 40.8555102, start = 0},
+    {file = "Audio/Transport/full_npc_david-trias-2a608a5c70476c2d318a/1-0000.mp3", duration = 33.8546939, start = 0},
   },
 }
 P.transport["npc:dawnwatcher-selgorm"] = {
-  hash = "a3aff9",
-  fullHash = "a3aff9",
-  text = "Dawnwatcher Selgorm. Dawnwatcher Selgorm is a human representative of the Argent Dawn stationed upon the Craftsmen's Terrace in Darnassus. Acting as an observer and liaison in the night elven capital, he monitors reports of shadowy cult activity and dark threats stirring across northern Kalimdor. While the Argent Dawn focuses heavily on the undead scourge festering in the Eastern Plaguelands, their vigilance extends anywhere ancient evil takes root. Dawnwatcher Selgorm stands watch in Darnassus, bridging the gap between the insular night elves and the broader crusade against malevolence. From the Craftsmen's Terrace, he gathers intelligence on emerging threats in Kalimdor's wilderness, enlisting capable Alliance travelers to strike at cultists and dark powers before their influence can corrupt the realm.",
+  hash = "d91460",
+  fullHash = "d91460",
+  text = "Dawnwatcher Selgorm. At the Craftsmen's Terrace in Darnassus, Dawnwatcher Selgorm watches for threats across northern Kalimdor. The human serves the Argent Dawn as an observer and liaison in the night elven capital, tracking reports of shadowy cult activity and dark powers stirring nearby. Dawnwatcher Selgorm keeps watch in Darnassus for the Argent Dawn. The order's fight against the undead Scourge in the Eastern Plaguelands does not end its vigilance elsewhere. From the Craftsmen's Terrace, Selgorm gathers reports of emerging threats in Kalimdor's wilds. He connects the night elves with the wider effort against ancient evil and seeks Alliance travelers able to strike at cultists and dark powers before their influence spreads.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_dawnwatcher-selgorm-ed6af22e85fe4365db74/1-0000.mp3", duration = 45.2179592, start = 0},
+    {file = "Audio/Transport/full_npc_dawnwatcher-selgorm-33d392fbd2bda4197556/1-0000.mp3", duration = 40.4114286, start = 0},
   },
 }
 P.transport["npc:dawnwatcher-shaedlass"] = {
-  hash = "2b23e0",
-  fullHash = "2b23e0",
-  text = "Dawnwatcher Shaedlass. Dawnwatcher Shaedlass is a night elf affiliated with the Argent Dawn, stationed within the Craftsmen's Terrace of Darnassus. Acting as a quiet eyes-and-ears operative in Kalimdor, he seeks news of his fellow order members sent on perilous reconnaissance into hostile lands. While the Argent Dawn is most famous for its bitter crusade against the Scourge in the Eastern Plaguelands, its vigilance extends far beyond Lordaeron. Dawnwatcher Shaedlass maintains a presence in the night elven capital of Darnassus, watching over the faction's interests in Kalimdor. From his quiet post on the Craftsmen's Terrace, he keeps tabs on covert expeditions against dark cults and corrupting powers that threaten the wider world.",
+  hash = "3c474b",
+  fullHash = "3c474b",
+  text = "Dawnwatcher Shaedlass. In Darnassus, Dawnwatcher Shaedlass keeps watch for the Argent Dawn across Kalimdor. From the Craftsmen's Terrace, he seeks word of his fellow order members sent to scout hostile lands. The Argent Dawn fights the Scourge in the Eastern Plaguelands, yet its watch reaches beyond Lordaeron. Dawnwatcher Shaedlass keeps the order's interests in Kalimdor from the night elf capital of Darnassus. At his post on the Craftsmen's Terrace, he follows covert expeditions against dark cults and corrupting powers that threaten the wider world.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_dawnwatcher-shaedlass-dc562f62b0b0cd1a2d7c/1-0000.mp3", duration = 41.3257143, start = 0},
+    {file = "Audio/Transport/full_npc_dawnwatcher-shaedlass-b5819b12ee46b717022e/1-0000.mp3", duration = 30.72, start = 0},
   },
 }
 P.transport["npc:dazalar"] = {
@@ -738,83 +738,83 @@ P.transport["npc:dazalar"] = {
   },
 }
 P.transport["npc:deathguard-bartholomew"] = {
-  hash = "e4cb66",
-  fullHash = "e4cb66",
-  text = "Deathguard Bartholomew. Deathguard Bartholomew is a vigilant Forsaken soldier stationed in the town of Brill. Tasked with maintaining security across Tirisfal Glades, he helps travelers navigate the blighted settlement and assists in enforcing discipline among local defenders. Standing watch in the settlement of Brill, Deathguard Bartholomew represents the stalwart military backbone of the Forsaken. Like his fellow Deathguards throughout Tirisfal Glades, he defends reclaimed territory from lingering Scourge, fanatical Scarlet Crusaders, and any other threats to Lady Sylvanas's domain. In addition to keeping watch, he provides directions to travelers attempting to navigate the town's facilities and participates in maintaining orderly conduct among the newly risen.",
+  hash = "4ad949",
+  fullHash = "4ad949",
+  text = "Deathguard Bartholomew. In Brill, Deathguard Bartholomew keeps watch over the town and helps travelers find their way. He helps keep order among the Forsaken defenders of Tirisfal Glades. Deathguard Bartholomew keeps watch in Brill, part of the Forsaken guard defending Tirisfal Glades. Like other Deathguards, he protects reclaimed land from the lingering Scourge, fanatical Scarlet Crusaders, and other threats to Lady Sylvanas's domain. He also guides travelers around the town and helps keep order among the newly risen.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_deathguard-bartholomew-53feea5dba14ccc906b2/1-0000.mp3", duration = 41.482449, start = 0},
+    {file = "Audio/Transport/full_npc_deathguard-bartholomew-39eb9651059585ff1262/1-0000.mp3", duration = 29.5444898, start = 0},
   },
 }
 P.transport["npc:deathguard-burgess"] = {
-  hash = "5f3124",
-  fullHash = "5f3124",
-  text = "Deathguard Burgess. Deathguard Burgess is a Forsaken sentry stationed in the town of Brill within Tirisfal Glades. Standing watch over the settlement, he keeps order and directs travelers to vital services across the hamlet. Positioned in the settlement of Brill just north of the Undercity, Deathguard Burgess serves as one of the town guards maintaining security against the Scourge and Scarlet Crusade. Like other Deathguards throughout Tirisfal Glades, Burgess aids arriving Forsaken by providing directions to local tradesfolk, class trainers, and civic services, keeping the vulnerable outpost running smoothly.",
+  hash = "cc10e2",
+  fullHash = "cc10e2",
+  text = "Deathguard Burgess. In Brill, Deathguard Burgess keeps watch over the town for the Forsaken. He guards the settlement and points travelers toward the services they need. North of the Undercity, Deathguard Burgess guards Brill against the Scourge and Scarlet Crusade. Like other Deathguards in Tirisfal Glades, he guides arriving Forsaken to local tradesfolk, class trainers, and civic services, helping keep the vulnerable outpost running.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_deathguard-burgess-d94b8508abddfb276226/1-0000.mp3", duration = 32.8097959, start = 0},
+    {file = "Audio/Transport/full_npc_deathguard-burgess-8440b2e22a61318aa036/1-0000.mp3", duration = 24.3461224, start = 0},
   },
 }
 P.transport["npc:deathguard-humbert"] = {
-  hash = "a68967",
-  fullHash = "a68967",
-  text = "Deathguard Humbert. Deathguard Humbert is a Forsaken sentry stationed in Tarren Mill within the Hillsbrad Foothills. Assigned to monitor the encroaching Alliance presence, he finds himself in an embarrassing predicament after losing his military gear to the dwarves of Dun Garok. While tasked with maintaining Tarren Mill's perimeter against regional threats, Deathguard Humbert suffered a humiliating setback. Sent by High Executor Darthalia to watch Dun Garok from a hidden camp, he left one morning to gather firewood, and dwarven scouts from Dun Garok made off with his prized sword and assorted equipment, leaving the undead soldier desperate to salvage his pride and armament before high command takes notice.",
+  hash = "4d4875",
+  fullHash = "4d4875",
+  text = "Deathguard Humbert. At Tarren Mill, Deathguard Humbert watches the Alliance presence in Hillsbrad. The Forsaken sentry has lost his military gear to dwarves from Dun Garok. Deathguard Humbert watches Dun Garok from a hidden camp for High Executor Darthalia. One morning, he left to gather firewood. Dwarven scouts from Dun Garok took his prized sword and other equipment while he was away. Now he must recover his arms and save his pride before high command learns what happened.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_deathguard-humbert-c7e9ab5fddd265b498c5/1-0000.mp3", duration = 38.5044898, start = 0},
+    {file = "Audio/Transport/full_npc_deathguard-humbert-0c5727d82855b5510c31/1-0000.mp3", duration = 27.4808163, start = 0},
   },
 }
 P.transport["npc:deathguard-linnea"] = {
-  hash = "eb6fbf",
-  fullHash = "eb6fbf",
-  text = "Deathguard Linnea. Deathguard Linnea is a Forsaken soldier stationed at a Deathguard waystation in southeastern Tirisfal Glades. She helps secure the roads between Brill and the eastern borders, watching for threats posed by the Scarlet Crusade and lingering Scourge. Adventurers passing along the main thoroughfares often assist her unit with patrol duties. Deathguard Linnea stands sentinel at a small fortified post southeast of Brill. Life—or unlife—on patrol in Tirisfal Glades is treacherous, as the Forsaken must vigilantly defend their fledgling realm against Scarlet Crusade infiltrators and mindless Scourge prowling the wilderness. Stationed alongside her fellow guards, Linnea oversees patrol efforts along the roadway, coordinating reports with local authorities such as Magistrate Sevren in Brill to keep the eastern road toward the Bulwark secure.",
+  hash = "92b522",
+  fullHash = "92b522",
+  text = "Deathguard Linnea. At a roadside post in southeastern Tirisfal, Deathguard Linnea watches the roads between Brill and the eastern borders. Her unit guards against the Scarlet Crusade and the lingering Scourge, with passing travelers sometimes helping on patrol. Deathguard Linnea guards a fortified post southeast of Brill. The Forsaken defend their young realm against Scarlet Crusade infiltrators and Scourge still prowling the wilderness. Linnea and her fellow guards patrol the road and coordinate reports with Magistrate Sevren in Brill. Their watch keeps the eastern road toward the Bulwark secure.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_deathguard-linnea-f1e7ea500a4a2dfcfdf2/1-0000.mp3", duration = 49.5542857, start = 0},
+    {file = "Audio/Transport/full_npc_deathguard-linnea-b8c04f3054ba8c124b1c/1-0000.mp3", duration = 34.6383673, start = 0},
   },
 }
 P.transport["npc:deathguard-samsa"] = {
-  hash = "a3b6da",
-  fullHash = "a3b6da",
-  text = "Deathguard Samsa. Deathguard Samsa is a Forsaken sentry stationed in Tarren Mill within the Hillsbrad Foothills. Tasked with maintaining Horde vigilance on a tense frontier, he directs traveling champions to strike at local threats encroaching on the settlement. Standing watch in Tarren Mill, Deathguard Samsa represents the defensive backbone of the Forsaken in the contested Hillsbrad Foothills. Tarren Mill serves as the Horde's primary outpost in the region, facing immediate pressure from Alliance outposts like Southshore as well as savage local wildlife. Samsa's duties involve securing the perimeter and directing capable adventurers to eliminate threats before they endanger the encampment.",
+  hash = "107898",
+  fullHash = "107898",
+  text = "Deathguard Samsa. In Tarren Mill, Deathguard Samsa watches the tense frontier and sends travelers against threats near the settlement. Deathguard Samsa keeps watch in Tarren Mill, where the Forsaken hold their ground in the contested Hillsbrad Foothills. Horde sentries face pressure from Alliance outposts such as Southshore and from savage local wildlife. Samsa guards the perimeter and directs capable adventurers against threats before they endanger the encampment.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_deathguard-samsa-94b24c426e6febebfa03/1-0000.mp3", duration = 38.2955102, start = 0},
+    {file = "Audio/Transport/full_npc_deathguard-samsa-5b0e849339a4b3ea221c/1-0000.mp3", duration = 26.0179592, start = 0},
   },
 }
 P.transport["npc:deathguard-simmer"] = {
-  hash = "da14de",
-  fullHash = "da14de",
-  text = "Deathguard Simmer. Deathguard Simmer is a Forsaken soldier stationed just outside Deathknell in Tirisfal Glades. He sizes up newly risen Forsaken and sends them to raid the human pumpkin farm to the west, patrolled by the Scarlet Crusade, for reagents the apothecaries of Brill need. Posted just outside Deathknell, Deathguard Simmer represents the Forsaken military line holding the border between the safe haven of Deathknell and the wider perils of Tirisfal Glades. The region crawls with living humans—most notably the fanatical Scarlet Crusade—who view all undead as abominations to be purged with fire and blade. Simmer tests fledgling Forsaken by sending them west to the Solliden Farmstead, where the Scarlet Crusade patrols from its nearby tower, to steal ten pumpkins and carry them to Apothecary Johaan in Brill.",
+  hash = "fe93f6",
+  fullHash = "fe93f6",
+  text = "Deathguard Simmer. At Deathknell’s edge, Deathguard Simmer sizes up newly risen Forsaken. He sends them west to raid a human pumpkin farm patrolled by the Scarlet Crusade, gathering reagents Brill’s apothecaries need. Deathguard Simmer guards the ground just outside Deathknell, where the Forsaken hold the line between their haven and Tirisfal Glades. Living humans roam the region, including the fanatical Scarlet Crusade, who see all undead as abominations to purge with fire and blade. Simmer tests newly risen Forsaken by sending them west to Solliden Farmstead. Scarlet Crusade soldiers patrol from a nearby tower. The recruits must steal ten pumpkins and carry them to Apothecary Johaan in Brill.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_deathguard-simmer-c99e348924fef2896857/1-0000.mp3", duration = 46.9159184, start = 0},
+    {file = "Audio/Transport/full_npc_deathguard-simmer-ad39ce2044324251aa69/1-0000.mp3", duration = 44.0163265, start = 0},
   },
 }
 P.transport["npc:deathstalker-faerleia"] = {
-  hash = "d7b278",
-  fullHash = "d7b278",
-  text = "Deathstalker Faerleia. Deathstalker Faerleia is an operative of the Forsaken intelligence agency stationed deep within enemy territory inside Pyrewood Village. Operating out of the settlement's town hall, she orchestrates covert strikes against the Pyrewood Council, the village leaders Arugal uses as puppets. As an agent of the Deathstalkers—the covert intelligence and assassin branch of the Undercity—Faerleia is tasked with infiltrating Pyrewood Village in southern Silverpine Forest. The isolated human enclave harbors dark secrets, including a curse that transforms its populace under the night sky. Stationed within the upper levels of the town hall, Faerleia coordinates operations to disrupt the settlement from the inside, calling on Horde operatives to eliminate the influential members of the Pyrewood Council.",
+  hash = "8bad7d",
+  fullHash = "8bad7d",
+  text = "Deathstalker Faerleia. Deep inside Pyrewood Village, Deathstalker Faerleia works against its leaders. From the town hall, she directs covert strikes against the Pyrewood Council, the puppets Arugal uses to rule the village.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_deathstalker-faerleia-39cb2903aaf2db35d6db/1-0000.mp3", duration = 44.3036735, start = 0},
+    {file = "Audio/Transport/full_npc_deathstalker-faerleia-9339ea9b8a16986b84d7/1-0000.mp3", duration = 11.3893878, start = 0},
   },
 }
 P.transport["npc:deathstalker-lesh"] = {
-  hash = "e5a4d8",
-  fullHash = "e5a4d8",
-  text = "Deathstalker Lesh. Deathstalker Lesh is a Forsaken rogue serving as a forward scout at Southpoint Tower in the Hillsbrad Foothills. Operating directly under High Executor Darthalia, she keeps watch over the human farms in the Hillsbrad Fields to gauge when the Forsaken should strike. Perched at Southpoint Tower on the southern road through the Hillsbrad Foothills, Deathstalker Lesh monitors the human farmers and town militia working the nearby Hillsbrad Fields. As an operative of the Deathstalkers—the Forsaken's secretive intelligence and assassination network—Lesh tracks enemy movements and numbers for High Executor Darthalia in Tarren Mill. When the moment is right, Lesh sends word to Darthalia with a coded message, 'The raven's cry from the west doth beckon', signaling that Hillsbrad is ripe for the Forsaken's attack.",
+  hash = "d7bd05",
+  fullHash = "d7bd05",
+  text = "Deathstalker Lesh. At Southpoint Tower, Deathstalker Lesh watches the human farms in the Hillsbrad Foothills. She serves High Executor Darthalia and gauges when the Forsaken should strike. From Southpoint Tower, Deathstalker Lesh watches the human farmers and town militia in the nearby Hillsbrad Fields. The tower stands on the southern road through the Hillsbrad Foothills. Lesh belongs to the Deathstalkers, the Forsaken's covert network of scouts, spies, and assassins. She tracks enemy movements and numbers for High Executor Darthalia in Tarren Mill. When the moment is right, Lesh sends Darthalia a coded message: “The raven's cry from the west doth beckon.” The words signal that Hillsbrad is ripe for the Forsaken's attack.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_deathstalker-lesh-c803459b3db44a2bad24/1-0000.mp3", duration = 46.08, start = 0},
+    {file = "Audio/Transport/full_npc_deathstalker-lesh-46433489ffe762125b95/1-0000.mp3", duration = 40.9861224, start = 0},
   },
 }
 P.transport["npc:deathstalker-rane-yorick"] = {
-  hash = "09cd14",
-  fullHash = "09cd14",
-  text = "Rane Yorick. Deathstalker Rane Yorick is an operative of the Forsaken intelligence guild stationed deep in Silverpine Forest. Together with her brother Quinn, she was sent to scout the farms of northern Silverpine and report to High Executor Hadrec. The Deathstalkers serve as Lady Sylvanas Windrunner's eyes, ears, and blades across Lordaeron. Operating out of shadows and hidden posts, agents like Rane Yorick monitor the wilderness for threats that could disrupt Forsaken dominion. When sent to scout northern Silverpine Forest, Rane and her brother Quinn found themselves hemmed in by surrounding feral dangers, turning an undercover reconnaissance mission into a battle for survival.",
+  hash = "c2280c",
+  fullHash = "c2280c",
+  text = "Rane Yorick. At a farmhouse in Silverpine, Deathstalker Rane Yorick and her brother Quinn are cut off from the Sepulcher. Sent to scout the northern farms, they must get word to High Executor Hadrec. Across Lordaeron, the Deathstalkers are Lady Sylvanas Windrunner's eyes, ears, and blades. Agents like Rane Yorick watch the wilds from hidden posts for threats to Forsaken rule. Rane and her brother Quinn were sent to scout northern Silverpine Forest. Feral dangers closed around them, turning their covert work into a fight to survive.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_deathstalker-rane-yorick-a8c8b66ed58c7a54f974/1-0000.mp3", duration = 38.0865306, start = 0},
+    {file = "Audio/Transport/full_npc_deathstalker-rane-yorick-d52f6603cbbae0e1119a/1-0000.mp3", duration = 28.8914286, start = 0},
   },
 }
 P.transport["npc:deathstalker-vincent"] = {
-  hash = "05abf8",
-  fullHash = "05abf8",
-  text = "Deathstalker Vincent. Deathstalker Vincent was a Forsaken scout sent alongside Deathstalker Adamant to infiltrate Shadowfang Keep. Slain by the mad mage Arugal, his corpse remains inside the stronghold as a grim warning to any who challenge the feral worgen within. Before the Forsaken could launch a full-scale assault against the beasts holding Shadowfang Keep, intelligence on the fortress's interior was desperately needed. Two operatives from the Deathstalkers, the intelligence arm of the Forsaken, slipped past the barricades: Vincent and Adamant. Their mission ended in disaster. While Adamant was captured and locked away in a dungeon cell, Vincent was dragged directly before Shadowfang's master. Refusing to bend the knee or serve Arugal's dark designs, Vincent was executed on the spot, his body discarded on the stone floor to rot as a testament to the mage's fury.",
+  hash = "68a153",
+  fullHash = "68a153",
+  text = "Deathstalker Vincent. Inside Shadowfang Keep, Deathstalker Vincent lies slain by Arugal. The Forsaken scout entered the stronghold with Deathstalker Adamant to learn its defenses, but the mission ended before the Forsaken could attack. The Deathstalkers needed to learn Shadowfang Keep’s layout before the Forsaken could assault it. Vincent and Adamant slipped past the barricades into the fortress. Their mission failed: Adamant was captured and locked in a dungeon cell, while Vincent was brought before the keep’s master. Vincent refused to serve Arugal or yield to him. The mage executed him, leaving his body on the stone floor.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_deathstalker-vincent-a0fc9b7841a7cdab73c5/1-0000.mp3", duration = 49.6065306, start = 0},
+    {file = "Audio/Transport/full_npc_deathstalker-vincent-ebad5c76760164296428/1-0000.mp3", duration = 36.9632653, start = 0},
   },
 }
 P.transport["npc:deathwing"] = {
@@ -842,11 +842,11 @@ P.transport["npc:demisette-cloyce"] = {
   },
 }
 P.transport["npc:deputy-feldon"] = {
-  hash = "f210e7",
-  fullHash = "f210e7",
-  text = "Deputy Feldon. Deputy Feldon is a member of the Redridge town guard stationed just south of the Great Lakeshire Bridge. Tasked with watching the primary road into Lakeshire, he keeps a nervous vigil against the aggressive gnoll packs creeping toward the town perimeter. Standing watch near the southern approach to the Lakeshire bridge, Deputy Feldon represents an overextended town guard fighting to keep basic trade and travel routes open. With the Blackrock orcs pressing from the north and gnoll packs overrunning the southern hills, guardsmen like Feldon are stretched to their limits. Unable to leave his post without compromising the town's perimeter, he relies on passing adventurers to cull the gnolls encroaching on the roadway before they can cut Lakeshire off entirely.",
+  hash = "39b70b",
+  fullHash = "39b70b",
+  text = "Deputy Feldon. South of the Great Lakeshire Bridge, Deputy Feldon watches the road into Lakeshire. Gnoll packs are creeping toward the town, and he keeps a nervous vigil. Deputy Feldon stands watch south of the Lakeshire bridge, guarding a road needed for trade and travel. Blackrock orcs press from the north while gnoll packs overrun the southern hills, stretching the town guard thin. Feldon cannot leave his post without weakening Lakeshire's perimeter. He depends on passing adventurers to drive back the gnolls before they cut the town off.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_deputy-feldon-9f0838612e3ccea83f7f/1-0000.mp3", duration = 41.3518367, start = 0},
+    {file = "Audio/Transport/full_npc_deputy-feldon-478cc564074af301cc62/1-0000.mp3", duration = 30.8244898, start = 0},
   },
 }
 P.transport["npc:deputy-rainer"] = {
@@ -882,11 +882,11 @@ P.transport["npc:doctor-gregory-victor"] = {
   },
 }
 P.transport["npc:doctor-gustaf-vanhowzen"] = {
-  hash = "d5a3f6",
-  fullHash = "d5a3f6",
-  text = "Doctor Gustaf VanHowzen. Doctor Gustaf VanHowzen serves as the trauma surgeon and chief physician of Alliance Trauma in Theramore Isle. Stationed within Foothold Citadel, he trains the island's healers and evaluates medics who wish to master the highest tiers of field triage and bandage work. Located on the ground floor of Foothold Citadel in Theramore Isle, Doctor Gustaf VanHowzen oversees the medical care of Lady Jaina Proudmoore's forces and trains the outpost's frontline healers. Facing harsh conditions in Dustwallow Marsh, VanHowzen insists on rigorous field competence, personally putting experienced medics through an intense triage test to ensure they can prioritize critical wounds under severe pressure.",
+  hash = "470147",
+  fullHash = "470147",
+  text = "Doctor Gustaf VanHowzen. At Foothold Citadel, Doctor Gustaf VanHowzen directs Theramore's medical care. He trains healers and tests seasoned medics in field triage and bandage work. On the ground floor of Foothold Citadel, Doctor Gustaf VanHowzen oversees medical care for Lady Jaina Proudmoore's forces and trains Theramore's frontline healers. Dustwallow Marsh makes their work harsh, and VanHowzen demands skill under pressure. He puts experienced medics through a demanding triage test, where they must judge which wounds need care first.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_doctor-gustaf-vanhowzen-62f0ee42bc76944e8c5a/1-0000.mp3", duration = 40.8032653, start = 0},
+    {file = "Audio/Transport/full_npc_doctor-gustaf-vanhowzen-cad6cef150fcc9a4885e/1-0000.mp3", duration = 31.8432653, start = 0},
   },
 }
 P.transport["npc:donova-snowden"] = {
@@ -906,11 +906,11 @@ P.transport["npc:donyal-tovald"] = {
   },
 }
 P.transport["npc:doomsayer-wiserunner"] = {
-  hash = "1b6f7d",
-  fullHash = "1b6f7d",
-  text = "Seer Wiserunner. This respected tauren elder is known as Seer Wiserunner, serving his people faithfully in the rolling hills of Mulgore. From a cave in the hills northwest of Bloodhoof Village, he aids young tauren braves as they undertake the traditional rites of passage that lead toward spiritual adulthood. Seer Wiserunner stands among the gentle bluffs of Mulgore as an elder and mystic of the shu'halo. When young tauren complete their initial trials of strength and vision, they are sent to seek his counsel during their ancestral rites. He interprets visions of the Earth Mother and guides the youth on how to honor their forebears, offering the steady wisdom that binds the scattered nomadic tribes into a unified community.",
+  hash = "5a73ec",
+  fullHash = "5a73ec",
+  text = "Seer Wiserunner. At his cave northwest of Bloodhoof Village, Seer Wiserunner guides young tauren through sacred rites. The respected elder helps them seek spiritual wisdom in Mulgore. Seer Wiserunner guides young tauren through their ancestral rites. After their first trials of strength and vision, they seek his counsel. He interprets visions of the Earth Mother and teaches them how to honor their forebears. His wisdom helps bind Mulgore’s scattered nomadic tribes into one community.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_doomsayer-wiserunner-60ddfe87230d659ea441/1-0000.mp3", duration = 38.3738776, start = 0},
+    {file = "Audio/Transport/full_npc_doomsayer-wiserunner-52a5908a889c21246afe/1-0000.mp3", duration = 27.1673469, start = 0},
   },
 }
 P.transport["npc:doras"] = {
@@ -930,11 +930,11 @@ P.transport["npc:doren"] = {
   },
 }
 P.transport["npc:drum-fel"] = {
-  hash = "184bc3",
-  fullHash = "184bc3",
-  text = "Drum Fel. Drum Fel is an orc commander stationed at the Horde outpost of Hammerfall in the Arathi Highlands. Alongside his wife, Korin, he directs military efforts to secure the refuge against encroaching trolls, ogres, and human remnants. His strategic push is vital to carving out a lasting foothold for the Horde in Arathi. Situated within the fortified refuge of Hammerfall, Drum Fel oversees the defense and territorial expansion of the Horde in Arathi. Surrounded by rival factions, he coordinates military strikes against the Witherbark forest trolls and the Boulderfist ogre clan holding Boulder'gor and Boulderfist Hall. Drum recognizes that Hammerfall cannot merely survive through isolation; it must break its neighbors' strength to thrive. To that end, he regularly directs veteran champions into hostile territory to disrupt regional threats before they can mount an assault on the Horde encampment.",
+  hash = "b8d02e",
+  fullHash = "b8d02e",
+  text = "Drum Fel. At Hammerfall, Drum Fel directs the Horde’s fight to hold Arathi against trolls, ogres, and human remnants. With his wife Korin, he works to secure a lasting foothold for the Horde in the region. Drum Fel commands Hammerfall’s defenses and the Horde’s push into Arathi. From the fortified refuge, he faces rival factions on every side. The Witherbark forest trolls and the Boulderfist ogres hold Boulder'gor and Boulderfist Hall. Drum knows Hammerfall cannot thrive by keeping to itself; its neighbors’ strength must be broken. He sends veteran champions into hostile territory to disrupt these threats before they can strike the Horde encampment.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_drum-fel-f3b007e8d61b2be8ac7a/1-0000.mp3", duration = 51.4612245, start = 0},
+    {file = "Audio/Transport/full_npc_drum-fel-c0e26d8854a2ba79cb29/1-0000.mp3", duration = 37.8514286, start = 0},
   },
 }
 P.transport["npc:drusilla-la-salle"] = {
@@ -954,11 +954,11 @@ P.transport["npc:duke-hydraxis"] = {
   },
 }
 P.transport["npc:durnan-furcutter"] = {
-  hash = "89f92f",
-  fullHash = "89f92f",
-  text = "Durnan Furcutter. Durnan Furcutter is a dwarven clothier and leather merchant operating out of Anvilmar in Coldridge Valley. Working inside Anvilmar, he equips freshly trained dwarven and gnomish adventurers with lightweight attire suited to withstand the biting mountain chills. Anvilmar serves as the first proving ground for young dwarves and exiled gnomes, and not every warrior steps forth clad in heavy iron. Durnan Furcutter caters to scouts, rogues, and spellcasters who need light, pliable layers to stay agile without succumbing to the bitter winds of Dun Morogh. Positioned right near the hearth of Anvilmar, he sells everyday tailoring and stitched leather, claiming his stock is the finest to be found in the entire valley. Like any true dwarf stationed in the snowy foothills, Durnan appreciates a strong drink almost as much as an honest trade. He orders steaming mugs of Scalding Mornbrew from Nori Pridedrift, who sells the brew piping hot across Coldridge Valley, to fight off the freezing draft. Adventurers running errands in the valley often find themselves rushing a hot mug into his welcoming hands before it cools, then carrying the empty back to Nori.",
+  hash = "7e9441",
+  fullHash = "7e9441",
+  text = "Durnan Furcutter. At Anvilmar in Coldridge Valley, Durnan Furcutter outfits young dwarves and gnomes. He works inside the settlement as a clothier and leather merchant, selling light attire for the mountain cold. Inside Anvilmar, young dwarves and exiled gnomes prove themselves, and some need more freedom of movement than heavy iron allows. Durnan Furcutter sells light, pliable layers to scouts, rogues, and spellcasters who want to stay agile in Dun Morogh's bitter winds. He works near Anvilmar's hearth, offering everyday tailoring and stitched leather. He claims his stock is the finest in the valley. Durnan appreciates a strong drink as much as an honest trade. To warm himself against the freezing draft, he orders steaming mugs of Scalding Mornbrew from Nori Pridedrift, who sells the brew piping hot across Coldridge Valley. Adventurers running errands in the valley often hurry a hot mug to Durnan before it cools, then carry the empty back to Nori.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_durnan-furcutter-2d6209f2d82fc8232443/1-0000.mp3", duration = 64.5485714, start = 0},
+    {file = "Audio/Transport/full_npc_durnan-furcutter-84a70423e694d82a2919/1-0000.mp3", duration = 55.9281633, start = 0},
   },
 }
 P.transport["npc:ebru"] = {
@@ -970,11 +970,11 @@ P.transport["npc:ebru"] = {
   },
 }
 P.transport["npc:einar-stonegrip"] = {
-  hash = "41bfd5",
-  fullHash = "41bfd5",
-  text = "Einar Stonegrip. Einar Stonegrip is a dwarven trapper stationed along the main crossroads of the Wetlands. Rather than risk an uncomfortable reunion with his estranged wife in Menethil Harbor, he relies on passing adventurers to haul his crocolisk skins to town. Perched at the central intersection connecting Dun Algaz, Dun Modr, and Menethil Harbor, Einar Stonegrip earns his living braving the sodden marshes of the Wetlands. He hunts the local crocolisks for their sturdy hides, supplying leatherworkers and merchants along the coast. Though rugged enough to wrestle reptiles out of the mire, he is thoroughly cowed by domestic strife. Embroiled in a bitter falling-out with his wife, Sida, Einar stays out on the road, hiring travelers to deliver his bundles of skins to his trading partner James Halloran rather than set foot in Menethil Harbor himself.",
+  hash = "21cee5",
+  fullHash = "21cee5",
+  text = "Einar Stonegrip. Along the Wetlands crossroads, Einar Stonegrip keeps to the road and sends his goods to town with travelers. He avoids Menethil Harbor, where his estranged wife lives. Einar Stonegrip hunts crocolisks where the roads meet in the Wetlands. The crossroads link Dun Algaz, Dun Modr, and Menethil Harbor. He sells their sturdy hides to leatherworkers and merchants along the coast. Though rugged enough to wrestle reptiles from the mire, Einar is embroiled in a bitter falling-out with his wife, Sida. He stays on the road and asks travelers to carry his bundles of skins to his trading partner, James Halloran, rather than enter Menethil Harbor himself.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_einar-stonegrip-f7a41a758633982ed14f/1-0000.mp3", duration = 47.9085714, start = 0},
+    {file = "Audio/Transport/full_npc_einar-stonegrip-997b067864381780b238/1-0000.mp3", duration = 36.7281633, start = 0},
   },
 }
 P.transport["npc:elanaria"] = {
@@ -986,19 +986,19 @@ P.transport["npc:elanaria"] = {
   },
 }
 P.transport["npc:elder-bloodhoof"] = {
-  hash = "6b9b07",
-  fullHash = "6b9b07",
-  text = "Elder Bloodhoof. Elder Bloodhoof is an ancestral spirit found resting just north of Bloodhoof Village in Mulgore. Appearing prominently to travelers during the Lunar Festival, he stands as a revered guardian spirit of the Bloodhoof tribe. Elder Bloodhoof represents the deep spiritual bond the tauren share with their lineage. Manifesting near Bloodhoof Village, this ghostly elder watches over his people and rewards respectful travelers who seek wisdom during the Lunar Festival. His presence reinforces the enduring guidance of deceased chieftains and tribal forebears, whose spirits remain intimately tied to the plains of Mulgore.",
+  hash = "558b60",
+  fullHash = "558b60",
+  text = "Elder Bloodhoof. During the Lunar Festival, Elder Bloodhoof rests just north of Bloodhoof Village in Mulgore. The Bloodhoof tribe honors him as a guardian spirit of its ancestors. Near Bloodhoof Village, Elder Bloodhoof watches over his people. The tauren honor him as a spirit bound to their lineage and to the plains of Mulgore. During the Lunar Festival, respectful travelers seek his wisdom and receive his blessings. His presence keeps the guidance of dead chieftains and tribal forebears close to the Bloodhoof tribe.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_elder-bloodhoof-a5eef3ba3dec5094a518/1-0000.mp3", duration = 34.5861224, start = 0},
+    {file = "Audio/Transport/full_npc_elder-bloodhoof-e91e07f11e5e69c8e798/1-0000.mp3", duration = 29.9885714, start = 0},
   },
 }
 P.transport["npc:elder-bronzebeard"] = {
-  hash = "f6f0e2",
-  fullHash = "f6f0e2",
-  text = "Elder Bronzebeard. Elder Bronzebeard is an ancient spirit of the earthen who appears in the Mystic Ward of Ironforge during the Lunar Festival. Bearing the name of the clan that rules the city, his spectral presence serves as a bridge between modern dwarves and their stony stone-hewn ancestors. Appearing near the pool in Ironforge's Mystic Ward, Elder Bronzebeard does not wear the flesh of modern dwarves; instead, his ghostly form is that of an earthen, the ancient race forged from living stone by the Titans. Dwarven scholars and explorers are only beginning to uncover their origins through excavations across Khaz Modan and beyond, making this spirit's presence a striking living relic. His very name and visage suggest he is a direct ancestor of the Bronzebeard clan, standing silent witness to how far his stoneborn progeny have evolved.",
+  hash = "371dba",
+  fullHash = "371dba",
+  text = "Elder Bronzebeard. During the Lunar Festival, Elder Bronzebeard appears in Ironforge's Mystic Ward. His name belongs to the clan that rules the city, and his earthen form recalls the dwarves' stone-born ancestors. Near the pool in Ironforge's Mystic Ward, Elder Bronzebeard appears in the shape of an earthen. The Titans forged the ancient earthen from living stone, before they became creatures of flesh. Dwarven scholars and explorers are only beginning to uncover their origins through excavations across Khaz Modan and beyond. Elder Bronzebeard's name is that of the ruling clan, and his form suggests he is a direct ancestor of the Bronzebeards. His spirit bears witness to how far his stone-born descendants have changed.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_elder-bronzebeard-886348773123fe52d1b7/1-0000.mp3", duration = 46.315102, start = 0},
+    {file = "Audio/Transport/full_npc_elder-bronzebeard-abf984bb06d0f218f371/1-0000.mp3", duration = 41.0383673, start = 0},
   },
 }
 P.transport["npc:elder-darkcore"] = {
@@ -1010,19 +1010,19 @@ P.transport["npc:elder-darkcore"] = {
   },
 }
 P.transport["npc:elder-goldwell"] = {
-  hash = "709afc",
-  fullHash = "709afc",
-  text = "Elder Goldwell. Elder Goldwell is an ancient earthen spirit lingering near the dwarven settlement of Kharanos in Dun Morogh. Appearing during the Lunar Festival, this revered ancestor represents the forgotten origins of modern dwarven civilization. Elder Goldwell manifests as a translucent earthen spirit, watching over the snowy slopes of Kharanos. Unlike modern mortal dwarves of flesh and bone, his stony form echoes the ancient Titan-forged race from which the Bronzebeard clan descended. His presence during ancestor celebrations offers travelers a chance to honor that ancient heritage.",
+  hash = "db9811",
+  fullHash = "db9811",
+  text = "Elder Goldwell. Near Kharanos, Elder Goldwell appears during the Lunar Festival. The ancient earthen spirit recalls the origins of modern dwarven civilization. Elder Goldwell watches over the snowy slopes near Kharanos as a translucent earthen spirit. His stony form recalls the Titan-forged ancestors from whom the Bronzebeard clan descended. During the ancestor celebrations, travelers can honor that heritage in his presence.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_elder-goldwell-6747f36c2fed17190fd0/1-0000.mp3", duration = 33.4889796, start = 0},
+    {file = "Audio/Transport/full_npc_elder-goldwell-11b3ae9c657e9098963c/1-0000.mp3", duration = 25.7828571, start = 0},
   },
 }
 P.transport["npc:elder-graveborn"] = {
-  hash = "d53ea7",
-  fullHash = "d53ea7",
-  text = "Elder Graveborn. Elder Graveborn is an ancestral spirit who manifests just southeast of Brill during the Lunar Festival. Appearing as a spectral earthen elder, he honors travelers and guides pilgrims searching for other ancient spirits scattered throughout northern Lordaeron. Appearing just beyond the Forsaken town of Brill, Elder Graveborn stands among the haunted woods of Tirisfal Glades as part of the worldwide Lunar Festival. Despite the blighted surroundings and the troubled state of the kingdom, the spectral elder offers peaceful greetings to travelers seeking the festival's traditional blessings. In addition to bestowing his own ancestral wisdom, Graveborn shares news of other elders lingering nearby—pointing pilgrims toward spirits abiding in the Undercity, the Sepulcher, and across the Plaguelands.",
+  hash = "b2e49a",
+  fullHash = "b2e49a",
+  text = "Elder Graveborn. Near Brill, Elder Graveborn greets travelers during the Lunar Festival. The ancestral spirit honors them and points pilgrims toward other elders in northern Lordaeron. Elder Graveborn greets travelers just southeast of Brill during the Lunar Festival. The spectral elder stands among the haunted woods of Tirisfal Glades, where the Forsaken town lies nearby. Though the kingdom is troubled, Graveborn offers pilgrims peaceful greetings and ancestral wisdom. He also points them toward spirits in the Undercity, the Sepulcher, and across the Plaguelands.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_elder-graveborn-13f0da294dcceef2ca2d/1-0000.mp3", duration = 43.8073469, start = 0},
+    {file = "Audio/Transport/full_npc_elder-graveborn-93201a5d0874ea2d8dbe/1-0000.mp3", duration = 33.6195918, start = 0},
   },
 }
 P.transport["npc:elder-morningdew"] = {
@@ -1034,11 +1034,11 @@ P.transport["npc:elder-morningdew"] = {
   },
 }
 P.transport["npc:elder-obsidian"] = {
-  hash = "6ae753",
-  fullHash = "6ae753",
-  text = "Elder Obsidian. Elder Obsidian is an ancestral earthen spirit who manifests at the Sepulcher in Silverpine Forest during the annual Lunar Festival. Appearing among the graves claimed by the Forsaken, he offers the wisdom and blessings of the ancient world to travelers honoring the festival. Standing amid the somber tombs of the Sepulcher, Elder Obsidian provides a striking contrast to Silverpine Forest's gloomy expanse. As an ethereal earthen elder, his spirit manifests during the Lunar Festival to celebrate the ancient heritage of Azeroth. While the surrounding crypts are held by the Forsaken and menaced by feral worgen, Obsidian greets wayfarers of all allegiances in peace, bestowing Coin of Ancestry and ancient blessings upon those who take the time to seek out his wisdom.",
+  hash = "c811b4",
+  fullHash = "c811b4",
+  text = "Elder Obsidian. At the Sepulcher in Silverpine Forest, Elder Obsidian appears for the Lunar Festival. The ancestral earthen spirit greets travelers among the graves claimed by the Forsaken, offering ancient wisdom and blessings. Elder Obsidian greets travelers at the Sepulcher during the Lunar Festival. His earthen spirit brings the ancient heritage of Azeroth to Silverpine Forest. The surrounding crypts are held by the Forsaken, and feral worgen menace the forest. Yet Obsidian welcomes wayfarers of every allegiance in peace, offering a Coin of Ancestry and ancient blessings to those who seek his wisdom.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_elder-obsidian-f1b66d658afb7957c548/1-0000.mp3", duration = 45.5836735, start = 0},
+    {file = "Audio/Transport/full_npc_elder-obsidian-38d945113d4e4f2f05ac/1-0000.mp3", duration = 34.8212245, start = 0},
   },
 }
 P.transport["npc:elder-runetotem"] = {
@@ -1066,11 +1066,11 @@ P.transport["npc:elder-starweave"] = {
   },
 }
 P.transport["npc:eleanor-shackleton"] = {
-  hash = "b289de",
-  fullHash = "b289de",
-  text = "Eleanor Shackleton. Eleanor Shackleton is a Forsaken outdoorswoman found camping southwest of Brill in Tirisfal Glades. Rather than lingering within town or the Undercity, she assists wandering travelers in learning wilderness survival and field crafts. She shares her surname with other Forsaken surviving in the region, suggesting lingering ties from life before the plague. While many newly awakened Forsaken head straight to Brill or delve into the Undercity, Eleanor Shackleton makes her camp in the haunted woods to the southwest. Surviving out in Tirisfal requires pragmatic self-reliance, and Eleanor serves as an instructor for fledgling adventurers seeking to live off the blighted land. Through her various field lessons, she guides travelers in establishing campsites, gathering firewood, and maintaining trade crafts while roaming far from civilization's forge fires and kitchens. In the shattered remnants of Lordaeron, family names often serve as the sole surviving tether to an undead's mortal past. Eleanor carries the surname Shackleton, shared by Pierce Shackleton and Samantha Shackleton in the Undercity's Magic Quarter. Whether the three maintain close bonds or merely carry common ancestry from their mortal days, each has carved out a distinct role in serving the Forsaken cause across the blighted kingdom.",
+  hash = "0703e0",
+  fullHash = "0703e0",
+  text = "Eleanor Shackleton. Southwest of Brill, Eleanor Shackleton camps in the woods of Tirisfal Glades. This Forsaken outdoorswoman teaches travelers wilderness survival and field crafts instead of staying in town or the Undercity. Her surname is shared by other Forsaken in the region, a possible link to life before the plague. Eleanor Shackleton camps in the haunted woods southwest of Brill, away from the Undercity. Newly awakened Forsaken often head for those settlements, but she teaches travelers how to live off Tirisfal's blighted land. Her lessons cover setting up campsites, gathering firewood, and keeping trade crafts while roaming far from civilization's fires and kitchens. Eleanor Shackleton shares her surname with Pierce Shackleton and Samantha Shackleton, who live in the Undercity's Magic Quarter. Family names can be the only tether an undead person has to mortal life in the shattered remnants of Lordaeron. Whether Eleanor, Pierce, and Samantha are close kin or share only common ancestry, each serves the Forsaken in a distinct way across the blighted kingdom.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_eleanor-shackleton-7c6ce286a99824b0318c/1-0000.mp3", duration = 75.3110204, start = 0},
+    {file = "Audio/Transport/full_npc_eleanor-shackleton-83d32cb79c6cf52e4f3b/1-0000.mp3", duration = 61.5967347, start = 0},
   },
 }
 P.transport["npc:elu"] = {
@@ -1098,11 +1098,11 @@ P.transport["npc:falfindel-waywarder"] = {
   },
 }
 P.transport["npc:falla-sagewind"] = {
-  hash = "73b0a3",
-  fullHash = "73b0a3",
-  text = "Falla Sagewind. Falla Sagewind is a reclusive tauren mystic perched high upon a rocky peak overlooking the central Barrens. Stationed between the Crossroads and the Lushwater Oasis, she studies the natural and mystical anomalies troubling the surrounding land. Adventurers probing the twisted corruption seeping from the nearby Wailing Caverns often seek her guidance. Falla Sagewind makes her camp far above the dust and bustle of the Barrens trails, situated on a secluded summit just southwest of the Crossroads. From this vantage, she keeps a solemn watch over the fragile savannas below, observing the sudden shifts in wildlife behavior and the encroaching corruption rising from the subterranean fissures of the Wailing Caverns. Her solitary vigil separates her from the daily trade of the Crossroads, positioning her as an observant hermit tuned to the spirits and the land's silent wounds.",
+  hash = "32d113",
+  fullHash = "32d113",
+  text = "Falla Sagewind. On a crag above the Barrens, Falla Sagewind watches the land for signs of trouble. Her camp lies between the Crossroads and the Lushwater Oasis, where she studies changes in nature and magic. Falla Sagewind keeps camp on a secluded summit southwest of the Crossroads, high above the Barrens trails. From there, she watches the savanna and the changes in its wildlife. She also studies corruption rising from fissures beneath the Wailing Caverns. Her vigil keeps her apart from the daily trade at the Crossroads, but her attention remains on the spirits and wounds of the land.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_falla-sagewind-e029cb1489306e395e90/1-0000.mp3", duration = 51.8530612, start = 0},
+    {file = "Audio/Transport/full_npc_falla-sagewind-399a54f67b66b465da83/1-0000.mp3", duration = 32.4179592, start = 0},
   },
 }
 P.transport["npc:fallen-hero-of-the-horde"] = {
@@ -1138,11 +1138,11 @@ P.transport["npc:feegly-the-exiled"] = {
   },
 }
 P.transport["npc:feero-ironhand"] = {
-  hash = "a5bf2e",
-  fullHash = "a5bf2e",
-  text = "Feero Ironhand. Feero Ironhand is a human paladin stationed at Maestra's Post in the western reaches of Ashenvale. Standing guard along the border between Darkshore and the forest, he works closely with Delgren the Purifier to combat the shadowy Cult of the Dark Strand. Located along the road leading south from Darkshore into Ashenvale, Maestra's Post serves as a critical watchpoint for travelers and Alliance defenders alike. Feero Ironhand operates out of this outpost, maintaining communications and trade lines with Auberdine while keeping a vigilant watch over the surrounding woods. Together with Delgren the Purifier, Feero focuses his efforts against the malevolent Cult of the Dark Strand, ensuring the cultists and forest predators do not sever the path between Darnassus's supply lines and the front lines of Ashenvale.",
+  hash = "c7b1df",
+  fullHash = "c7b1df",
+  text = "Feero Ironhand. At Maestra's Post, Feero Ironhand guards the road between Darkshore and Ashenvale. He works with Delgren the Purifier against the Cult of the Dark Strand. Maestra's Post watches the road south from Darkshore into Ashenvale. Feero Ironhand serves at the outpost, keeping communication and trade with Auberdine moving while watching the surrounding woods. He and Delgren the Purifier oppose the Cult of the Dark Strand. Cultists and forest predators threaten the path between Darnassus's supply lines and Ashenvale's front lines.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_feero-ironhand-0f718cbd79a5cec5e04e/1-0000.mp3", duration = 45.3485714, start = 0},
+    {file = "Audio/Transport/full_npc_feero-ironhand-f480beacb9a2a1a3748d/1-0000.mp3", duration = 28.8130612, start = 0},
   },
 }
 P.transport["npc:fel-zerul"] = {
@@ -1162,19 +1162,19 @@ P.transport["npc:felgur-twocuts"] = {
   },
 }
 P.transport["npc:felix-whindlebolt"] = {
-  hash = "ee02bb",
-  fullHash = "ee02bb",
-  text = "Felix Whindlebolt. Felix Whindlebolt is a displaced gnome refugee taking shelter at Anvilmar in Coldridge Valley. In his haste to flee the radiation flooding Gnomeregan, he lost his personal belongings, and hostile Frostmane trolls made off with them. Following the tragic fall of Gnomeregan, thousands of gnomes found themselves wandering the freezing reaches of Dun Morogh in search of safety. Felix Whindlebolt fled the irradiated city in such haste that he lost all his personal belongings and tools. To make matters worse, Frostmane ice trolls carried his chest, his box and his bucket of bolts back to their camps southwest of Anvilmar, leaving him stranded, destitute, and relying on sympathetic wanderers to retrieve his stolen gear.",
+  hash = "bc7d71",
+  fullHash = "bc7d71",
+  text = "Felix Whindlebolt. At Anvilmar in Coldridge Valley, Felix Whindlebolt seeks shelter after fleeing Gnomeregan. He lost his belongings in the rush, and Frostmane trolls carried them away. Felix Whindlebolt fled Gnomeregan when radiation flooded the city. In his haste, he lost his personal belongings and tools. Frostmane ice trolls carried his chest, box and bucket of bolts to their camps southwest of Anvilmar. Now stranded without his gear, Felix relies on travelers to retrieve it.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_felix-whindlebolt-d30cd6f8ed01661b4e88/1-0000.mp3", duration = 41.9787755, start = 0},
+    {file = "Audio/Transport/full_npc_felix-whindlebolt-4ef9429fb3ce2992aef9/1-0000.mp3", duration = 29.3093878, start = 0},
   },
 }
 P.transport["npc:field-marshal-snowfall"] = {
-  hash = "cbb2f1",
-  fullHash = "cbb2f1",
-  text = "Field Marshal Snowfall. Field Marshal Snowfall is a dwarven military officer stationed in Ironforge's Military Ward to coordinate the Alliance war effort against the rising silithid threat. Facing an ancient evil stirring in the southern sands of Silithus, he oversees the massive logistical drive required to equip the allied armies. Snowfall tracks donated raw materials and rewards those who aid the realm's preparation for war. Standing watch in Ironforge's Military Ward, Field Marshal Snowfall serves as the central coordinator for the Alliance's mobilization against Ahn'Qiraj. He views the brewing conflict not merely as a border skirmish, but as a critical fight against an ancient enemy hostile to all creations of the Titans. Snowfall oversees staggering stockpiles of supplies—millions of bandages, tons of metal bars, leathers, herbs, and rations gathered by adventurers—ensuring that Alliance forces will be armed, armored, and fed when the march south to Silithus begins. Mobilizing an entire faction requires coordination between blacksmiths, gathers, cooks, and soldiers across every Alliance territory. Snowfall monitors each stage of this immense operation, accepting commendation signets and offering supply requisitions to volunteers. Once the required war supplies are fully gathered across both factions, the stockpiles are packed and hauled south to Cenarion Hold, readying the grand assault against the insectoid swarms and the Old God lurking behind the Scarab Wall.",
+  hash = "70972d",
+  fullHash = "70972d",
+  text = "Field Marshal Snowfall. In Ironforge's Military Ward, Field Marshal Snowfall directs the Alliance's preparations for war. The dwarven military officer tracks the supplies gathered to face the silithid threat in Silithus and rewards those who aid the realm's preparations. Field Marshal Snowfall directs the Alliance's war preparations from Ironforge's Military Ward. He sees the coming conflict as more than a border skirmish: it is a fight against an ancient enemy hostile to all creations of the Titans. Adventurers gather bandages, metal bars, leathers, herbs, and rations in great numbers. Snowfall oversees these stores so Alliance forces can be armed, armored, and fed when the march south to Silithus begins. Blacksmiths, gatherers, cooks, and soldiers across Alliance lands all have a part in preparing for war. Snowfall tracks the effort, accepts commendation signets, and offers supply requisitions to volunteers. Once both factions have gathered the required supplies, the stores are packed and hauled south to Cenarion Hold. From there, the grand assault will target the qiraji swarms and the Old God behind the Scarab Wall.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_field-marshal-snowfall-311fde7aa35e589f39ef/1-0000.mp3", duration = 84.2710204, start = 0},
+    {file = "Audio/Transport/full_npc_field-marshal-snowfall-dacc1d7c6cdde41906ec/1-0000.mp3", duration = 68.9632653, start = 0},
   },
 }
 P.transport["npc:field-marshal-stonebridge"] = {
@@ -1202,19 +1202,19 @@ P.transport["npc:fleet-master-seahorn"] = {
   },
 }
 P.transport["npc:foggy-mackreel"] = {
-  hash = "df43b3",
-  fullHash = "df43b3",
-  text = "Foggy MacKreel. Foggy MacKreel is an intrepid dwarf stranded precariously on the ruined lower masonry of the Thandol Span. Despite the shattered stonework beneath his feet and the dizzying drop below, his only real concern is fulfilling his moonshine delivery north to Southshore. Perched on the broken pylons beneath the shattered Thandol Span, Foggy MacKreel appears utterly unfazed by his perilous predicament. While Dark Iron sabotage and war damage have left the grand bridge between the Wetlands and the Arathi Highlands fractured, MacKreel treats his precarious footing as a minor inconvenience. His primary thought is not his rescue, but an undelivered batch of potent moonshine destined for the patrons of Southshore in the Hillsbrad Foothills. He readily hires passing adventurers nimble enough to reach his ledge to finish the courier run on his behalf.",
+  hash = "52f25a",
+  fullHash = "52f25a",
+  text = "Foggy MacKreel. On the broken Thandol Span, Foggy MacKreel worries about a moonshine delivery bound for Southshore. Stranded on ruined lower masonry above a dizzying drop, the dwarf keeps his mind on the task. Foggy MacKreel waits on broken pylons beneath the Thandol Span, calm despite his dangerous perch. Dark Iron sabotage and war damage shattered the bridge between the Wetlands and the Arathi Highlands. MacKreel gives little thought to rescue; he wants his potent moonshine delivered to the patrons of Southshore in the Hillsbrad Foothills. He hires passing travelers nimble enough to reach his ledge and finish the delivery for him.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_foggy-mackreel-f5ae785c80a3e1d18b6b/1-0000.mp3", duration = 46.0016327, start = 0},
+    {file = "Audio/Transport/full_npc_foggy-mackreel-959a34787013e2272034/1-0000.mp3", duration = 38.0865306, start = 0},
   },
 }
 P.transport["npc:foreman-stonebrow"] = {
-  hash = "842e6b",
-  fullHash = "842e6b",
-  text = "Foreman Stonebrow. Foreman Stonebrow is a dwarven overseer representing the Miners' League at Gol'Bolar Quarry in eastern Dun Morogh. After aggressive troggs erupted from the rock and overran the excavation site, he was forced to organize a defense and hire adventurers to clear the pits. Foreman Stonebrow was charged with directing operations at Gol'Bolar Quarry, a key dwarven excavation nestled in the mountains east of Kharanos. When deep digging broke into hidden trogg burrows, subterranean beasts swarmed the pits and drove the miners from their equipment. Refusing to abandon the site entirely, Stonebrow remains at the rim of the quarry to enlist any able-bodied travelers willing to push the troggs back.",
+  hash = "c9bec5",
+  fullHash = "c9bec5",
+  text = "Foreman Stonebrow. At Gol'Bolar Quarry, Foreman Stonebrow faces a trogg attack that has driven miners from the pits. He speaks for the Miners' League and now needs help defending the excavation. Foreman Stonebrow directs the Miners' League's work at Gol'Bolar Quarry, east of Kharanos. Deep digging broke into trogg burrows beneath the quarry, and the creatures swarmed the pits, driving miners from their tools. Stonebrow remains at the quarry rim, seeking travelers willing to push the troggs back.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_foreman-stonebrow-69ce7487e9645864101b/1-0000.mp3", duration = 41.0644898, start = 0},
+    {file = "Audio/Transport/full_npc_foreman-stonebrow-8e61e528404d1bf02a58/1-0000.mp3", duration = 27.4808163, start = 0},
   },
 }
 P.transport["npc:foreman-thazz-ril"] = {
@@ -1274,19 +1274,19 @@ P.transport["npc:gar-thok"] = {
   },
 }
 P.transport["npc:gart-mistrunner"] = {
-  hash = "030610",
-  fullHash = "030610",
-  text = "Gart Mistrunner. Gart Mistrunner is the resident druid trainer stationed at Camp Narache on the Red Cloud Mesa. He welcomes novice tauren called by the Earth Mother and guides them through their first rites of nature magic. Standing watch over Camp Narache, Gart Mistrunner represents the ancient druidic path rekindled among the Shu'halo. New tauren druids are directed straight to Gart upon taking their first steps on the Red Cloud Mesa, often carrying a verdant note commending them into his care. Through his patient guidance, young practitioners learn to commune with the natural world, drawing upon the restorative powers of nature and the lunar radiance of Mu'sha to heal their allies and strike down threats to the land.",
+  hash = "1f3397",
+  fullHash = "1f3397",
+  text = "Gart Mistrunner. At Camp Narache, Gart Mistrunner guides novice tauren called by the Earth Mother. He teaches their first rites of nature magic on the Red Cloud Mesa. Gart Mistrunner watches over Camp Narache as the Shu'halo rekindle their ancient druidic path. New tauren druids are sent to him when they take their first steps on the Red Cloud Mesa, often with a note commending them to his care. Gart teaches them to commune with the natural world. They draw on nature's restorative power and Mu'sha's lunar radiance to heal allies and strike down threats to the land.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_gart-mistrunner-8c8c77fee7411f82caae/1-0000.mp3", duration = 41.6130612, start = 0},
+    {file = "Audio/Transport/full_npc_gart-mistrunner-7eba5b5bf8125e9ea67b/1-0000.mp3", duration = 32.2612245, start = 0},
   },
 }
 P.transport["npc:gath-ilzogg"] = {
-  hash = "3c7d87",
-  fullHash = "3c7d87",
-  text = "Gath'Ilzogg. Gath'Ilzogg is the fearsome Blackrock orc warlord who commands the invasion force occupying Stonewatch Keep in the Redridge Mountains. Under his brutal leadership, the orcs seized the fortress and launched devastating raids against the town of Lakeshire, earning him an urgent bounty from the town's desperate magistrate. Gath'Ilzogg marched north out of the Burning Steppes under orders to secure Redridge for the Blackrock clan. Aided by the foul sorcery of the renegade human warlock Morganth, Gath'Ilzogg's warband battered the defenders of Stonewatch Keep and seized the high ground overlooking the entire region. From this entrenched redoubt, he oversees aggressive raids into the valleys and down toward the bridge of Lakeshire, steadily suffocating the human settlement. He rarely fights alone, keeping elite Blackrock guards and a vicious black dragon whelp named Singe close at hand.",
+  hash = "deba94",
+  fullHash = "deba94",
+  text = "Gath'Ilzogg. Stonewatch Keep remains under Gath'Ilzogg's command in the Redridge Mountains. The Blackrock warlord's force holds the fortress and raids Lakeshire, where Magistrate Solomon has placed a bounty on him. Gath'Ilzogg came north from the Burning Steppes to secure Redridge for the Blackrock clan. With help from the renegade human warlock Morganth's foul sorcery, his warband battered Stonewatch Keep's defenders and seized the heights above the region. From the fortress, Gath'Ilzogg directs raids through the valleys and toward Lakeshire's bridge, tightening pressure on the human settlement. Elite Blackrock guards and a vicious black dragon whelp named Singe stay close to him.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_gath-ilzogg-76c09ad1f310a91f68fa/1-0000.mp3", duration = 48.9795918, start = 0},
+    {file = "Audio/Transport/full_npc_gath-ilzogg-e74576cef5a0b62f99ab/1-0000.mp3", duration = 38.5828571, start = 0},
   },
 }
 P.transport["npc:gazin-tenorm"] = {
@@ -1306,11 +1306,11 @@ P.transport["npc:gelkak-gyromast"] = {
   },
 }
 P.transport["npc:general-marcus-jonathan"] = {
-  hash = "24bbff",
-  fullHash = "24bbff",
-  text = "General Marcus Jonathan. General Marcus Jonathan is the High Commander of Stormwind Defense, stationed directly at the gates in the Valley of Heroes. A veteran of the Second War, he oversees the garrison protecting the capital and manages military requests from the kingdom's frontier settlements. Mounted atop his steed in the Valley of Heroes, General Marcus Jonathan stands as the first line of defense and the highest-ranking military officer overseeing the city gates. He fought in the Second War alongside renowned soldiers like Reginald Windsor under the command of General Turalyon. In this era of rising tension, Jonathan must balance the immediate security of the capital with the increasingly desperate calls for aid from frontier towns like Lakeshire.",
+  hash = "c1fabc",
+  fullHash = "c1fabc",
+  text = "General Marcus Jonathan. At Stormwind's gates, General Marcus Jonathan guards the capital and weighs calls for aid from the kingdom's frontier settlements. A veteran of the Second War, he commands Stormwind Defense and oversees the garrison. General Marcus Jonathan commands Stormwind's defense from horseback in the Valley of Heroes. He is the highest-ranking officer at the city gates and its first line of defense. During the Second War, he fought beside soldiers such as Reginald Windsor under General Turalyon. Now he must protect the capital while frontier towns, including Lakeshire, make increasingly desperate appeals for help.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_general-marcus-jonathan-f61df69e976a8f100ecc/1-0000.mp3", duration = 41.9265306, start = 0},
+    {file = "Audio/Transport/full_npc_general-marcus-jonathan-29b96ce52b067e850c0c/1-0000.mp3", duration = 36.1795918, start = 0},
   },
 }
 P.transport["npc:gerard-tiller"] = {
@@ -1322,19 +1322,19 @@ P.transport["npc:gerard-tiller"] = {
   },
 }
 P.transport["npc:gerrig-bonegrip"] = {
-  hash = "4021d7",
-  fullHash = "4021d7",
-  text = "Gerrig Bonegrip. Gerrig Bonegrip is an unassuming dwarven shopkeeper tucked away in the shadowy corridors of Ironforge's Forlorn Cavern. Behind the counter of Bonegrip's Runes and Dooms, he quietly buys and sells esoteric texts concerning dark rituals and forgotten ancient powers.",
+  hash = "79c4b9",
+  fullHash = "79c4b9",
+  text = "Gerrig Bonegrip. In Ironforge's Forlorn Cavern, Gerrig Bonegrip keeps a quiet shop of strange texts. At Bonegrip's Runes and Dooms, he buys and sells writings on dark rituals and forgotten ancient powers.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_gerrig-bonegrip-79e1e3646499da9003db/1-0000.mp3", duration = 15.4383673, start = 0},
+    {file = "Audio/Transport/full_npc_gerrig-bonegrip-efa3241b83f2ccc27902/1-0000.mp3", duration = 12.042449, start = 0},
   },
 }
 P.transport["npc:gershala-nightwhisper"] = {
-  hash = "e71371",
-  fullHash = "e71371",
-  text = "Gershala Nightwhisper. Gershala Nightwhisper is a night elf researcher residing in the coastal settlement of Auberdine in Darkshore. Driven by grave concern over the path taken by the high elves of Quel'Thalas, he studies specimens of cursed aquatic and demonic creatures to understand how magical corruption warps both mind and body. Stationed peacefully within Auberdine, Gershala Nightwhisper looks beyond the immediate coastal troubles of Darkshore toward a broader, creeping danger. Watching with dismay as the remaining high elves embrace perilous arcane practices and dub themselves blood elves, Gershala seeks to understand the biological and spiritual descent that follows unchecked magic. To unlock these secrets, he directs seasoned Alliance adventurers into the submerged halls of Blackfathom Deeps to harvest corrupted brain stems from the naga and satyr who dwell within. Gershala's grim focus on brain stems from naga and satyr stems from their shared lineage: both races were once night elves before yielding to Queen Azshara and demonic bargains. By dissecting the physical marks left upon their nervous systems by millennia of demonic and abyssal energies, he hopes to uncover warnings or safeguards that might keep other elven kin from plunging into similar monstrous deformity.",
+  hash = "237cec",
+  fullHash = "237cec",
+  text = "Gershala Nightwhisper. In Auberdine, Gershala Nightwhisper studies what magical corruption does to elves. Concerned by the path taken by the high elves of Quel'Thalas, he examines cursed aquatic and demonic creatures for signs of how corruption changes mind and body. From Auberdine, Gershala Nightwhisper looks beyond Darkshore's coastal troubles to the danger he sees in the high elves of Quel'Thalas. He watches with dismay as they embrace perilous arcane practices and call themselves blood elves. Gershala wants to understand the bodily and spiritual changes that follow unchecked magic. To study them, he sends seasoned Alliance adventurers into the submerged halls of Blackfathom Deeps to gather corrupted brain stems from the naga and satyr who dwell there. Gershala's interest in naga and satyr brain stems comes from their shared past. Both races were once night elves, before they yielded to Queen Azshara and demonic bargains. Gershala examines the marks that millennia of demonic and abyssal energies have left on their nervous systems. He hopes to find warnings or safeguards that might keep other elven kin from suffering similar monstrous deformity.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_gershala-nightwhisper-63e77493b559a39c1896/1-0000.mp3", duration = 71.0791837, start = 0},
+    {file = "Audio/Transport/full_npc_gershala-nightwhisper-5c015f5764f482bdfb7c/1-0000.mp3", duration = 64.3395918, start = 0},
   },
 }
 P.transport["npc:gilshalan-windwalker"] = {
@@ -1354,27 +1354,27 @@ P.transport["npc:gilthares-firebough"] = {
   },
 }
 P.transport["npc:gnoarn"] = {
-  hash = "98ea2d",
-  fullHash = "98ea2d",
-  text = "Gnoarn. Gnoarn is an exiled gnome residing in Tinker Town within the dwarven mountain city of Ironforge. Displaced following the devastating fall of Gnomeregan, he assists his scattered people by directing adventurers to assist fellow gnomish engineers and survivors. Like the majority of his brethren, Gnoarn was forced to flee the depths of Gnomeregan when troggs invaded and catastrophic radiation rendered the great subterranean metropolis uninhabitable. Taking refuge in Ironforge's Tinker Town under the hospitality of the Bronzebeard dwarves, Gnoarn spends his days keeping track of other survivors. He serves as an informal coordinator among the refugees, pointing capable travelers toward gnomes abroad who urgently require assistance, such as the stranded pilot Bingles Blastenheimer in Loch Modan or the ambitious engineer Shoni the Shilent in Stormwind.",
+  hash = "33f5f0",
+  fullHash = "33f5f0",
+  text = "Gnoarn. In Ironforge, Gnoarn helps his scattered people find aid. The exiled gnome lives in Tinker Town after the fall of Gnomeregan, directing travelers to fellow engineers and survivors. Gnoarn keeps track of Gnomeregan's scattered survivors from Tinker Town in Ironforge. Troggs invaded the great underground city, and catastrophic radiation made it uninhabitable. The Bronzebeard dwarves gave Gnoarn refuge, as they did many of his people. He now points capable travelers toward gnomes who need help abroad, including the stranded pilot Bingles Blastenheimer in Loch Modan and the ambitious engineer Shoni the Shilent in Stormwind.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_gnoarn-08dc3b9c6073eeef4557/1-0000.mp3", duration = 47.3861224, start = 0},
+    {file = "Audio/Transport/full_npc_gnoarn-6e681d575a834783b605/1-0000.mp3", duration = 37.5379592, start = 0},
   },
 }
 P.transport["npc:godrick-farsan"] = {
-  hash = "f40989",
-  fullHash = "f40989",
-  text = "Godrick Farsan. Godrick Farsan is an undead warlock assistant located in the Undercity, serving alongside Carendin Halgar in the Magic Quarter. Despite being entirely blind, he says that he sees in a different way. Situated amidst the summoning circles of the Magic Quarter, Godrick Farsan aids Master Carendin Halgar in guiding aspiring Forsaken warlocks. Though he lacks physical sight, Godrick says he can still see in a different way, without explaining the means. He tests practitioners seeking to bind greater demonic entities, dispatching them to gather pure hearts and essences needed for intricate summoning rituals.",
+  hash = "260eef",
+  fullHash = "260eef",
+  text = "Godrick Farsan. In the Undercity’s Magic Quarter, Godrick Farsan aids Forsaken warlocks beside Carendin Halgar. Though blind, he says he sees in a different way. Among the summoning circles in the Magic Quarter, Godrick Farsan aids Master Carendin Halgar as he guides aspiring Forsaken warlocks. Godrick is blind, yet says he sees in a different way and does not explain how. He tests those who seek to bind greater demons, sending them to gather pure hearts and essences for intricate summoning rites.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_godrick-farsan-597dc6ee4f4aa9b6acfb/1-0000.mp3", duration = 34.1159184, start = 0},
+    {file = "Audio/Transport/full_npc_godrick-farsan-5b291aacccd95e7b0f6a/1-0000.mp3", duration = 28.6563265, start = 0},
   },
 }
 P.transport["npc:golnir-bouldertoe"] = {
-  hash = "68a56d",
-  fullHash = "68a56d",
-  text = "Golnir Bouldertoe. Golnir Bouldertoe is a dwarven mining vendor stationed beside the bustling Great Forge in Ironforge. He provides essential supplies for miners and prospectors while handling dispatches for local couriers and travelers. Standing within the roaring heat of Ironforge's Great Forge, Golnir Bouldertoe outfits prospectors and craftsmen with the necessities of their trade. From sturdy mining picks to fluxes and coal, his wares fuel the tireless smelting fires and smithies that define the dwarven capital. Kin to Geofram Bouldertoe, Golnir is a reliable point of contact for workers arriving in the city, often directing fresh hands or receiving supply missives shuttled in from nearby outposts.",
+  hash = "9c292a",
+  fullHash = "9c292a",
+  text = "Golnir Bouldertoe. Beside Ironforge's Great Forge, Golnir Bouldertoe supplies miners and prospectors and receives dispatches for couriers and travelers. At Ironforge's Great Forge, Golnir Bouldertoe outfits prospectors and craftsmen with the necessities of their trade. He sells sturdy mining picks, flux, and coal, supplies that fuel the smelting fires and smithies that define the dwarven capital. Kin to Geofram Bouldertoe, Golnir is a reliable contact for workers arriving in the city. He directs fresh hands and receives supply messages carried from nearby outposts.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_golnir-bouldertoe-eb7372520a1af35a6885/1-0000.mp3", duration = 40.6465306, start = 0},
+    {file = "Audio/Transport/full_npc_golnir-bouldertoe-85cf3fa2b97f35339523/1-0000.mp3", duration = 33.28, start = 0},
   },
 }
 P.transport["npc:gorbold-steelhand"] = {
@@ -1386,11 +1386,11 @@ P.transport["npc:gorbold-steelhand"] = {
   },
 }
 P.transport["npc:gordon-wendham"] = {
-  hash = "3f26c9",
-  fullHash = "3f26c9",
-  text = "Gordon Wendham. Gordon Wendham is a Forsaken weaponsmith and merchant operating out of the bustling Trade Quarter in the Undercity. He equips newly arrived champions and local defenders of the Dark Lady with reliable steel, blades, and bludgeons. Beyond hawking basic armaments, he frequently serves as a local point of contact for couriers arriving from the surface. Situated amidst the damp stonework and chemical canals of the Undercity's Trade Quarter, Gordon Wendham provides essential weaponry to those taking up arms for the Forsaken. From basic daggers and hand axes to sturdy broadswords and maces, his stock caters to fledgling fighters who need dependable iron before venturing out into the contested reaches of Lordaeron. Beyond his merchant trade, Wendham is integrated into the capital's busy logistics network. Travelers sent on errands from flight masters and couriers—such as those connecting from the bat handlers atop the ruins—are often directed straight to his stall. His central location in the Trade Quarter makes him an accessible and recognizable fixture for coordinating basic supplies and dispatches throughout the underground city.",
+  hash = "f7f1a4",
+  fullHash = "f7f1a4",
+  text = "Gordon Wendham. In the Undercity's Trade Quarter, Gordon Wendham sells weapons and helps couriers from the surface find their way. Gordon Wendham sells weapons to those who take up arms for the Forsaken. His stock ranges from daggers and hand axes to broadswords and maces. Fledgling fighters can find dependable iron here before they venture into the contested reaches of Lordaeron. Travelers sent by flight masters and couriers are often directed to Gordon Wendham's stall. Some arrive from the bat handlers atop the ruins. His place in the Trade Quarter makes him easy to find when travelers need supplies or have dispatches to carry through the underground city.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_gordon-wendham-eacf083a645c42ca1cd9/1-0000.mp3", duration = 62.4587755, start = 0},
+    {file = "Audio/Transport/full_npc_gordon-wendham-40d82280848d735a9a78/1-0000.mp3", duration = 36.5714286, start = 0},
   },
 }
 P.transport["npc:gramma-stonefield"] = {
@@ -1402,19 +1402,19 @@ P.transport["npc:gramma-stonefield"] = {
   },
 }
 P.transport["npc:grand-mason-marblesten"] = {
-  hash = "aed91d",
-  fullHash = "aed91d",
-  text = "Grand Mason Marblesten. Grand Mason Marblesten is an esteemed dwarven stonemason stationed in the busy Commons of Ironforge. Deeply devoted to the royal legacy of Khaz Modan, he has been commissioned by King Magni Bronzebeard to build a memorial to Sully Balloo, a dwarven soldier who died in the Thandol Span tragedy. Adventurers often meet him when assisting with the materials needed to complete this solemn tribute. Dwarven stonemasonry is not merely a trade; it is an enduring art form that shapes the very soul of Ironforge. Grand Mason Marblesten stands among the city's foremost masters of the chisel, representing the centuries-old tradition of carving halls, pillars, and great effigies straight from the living mountain. Based in the Commons, he oversees civic projects and commemorative monuments that immortalize Bronzebeard history. Marblesten's most poignant task is a memorial King Magni commissioned for Sully Balloo, a soldier who died in the Thandol Span tragedy, as a tribute to his grieving widow. Wanting a truly lasting piece, the Grand Mason insists on one of the finest stones available: Alterac Granite from Darrow Hill in Hillsbrad.",
+  hash = "2f842c",
+  fullHash = "2f842c",
+  text = "Grand Mason Marblesten. In Ironforge's Commons, Grand Mason Marblesten prepares a tribute to Sully Balloo. King Magni Bronzebeard commissioned the memorial for the dwarven soldier, who died in the Thandol Span tragedy, and Marblesten seeks stone worthy of the work. Grand Mason Marblesten oversees civic projects and memorials in Ironforge's Commons. Dwarven stonemasons carve halls, pillars, and great effigies from the mountain, carrying on a tradition centuries old. Marblesten is among the city's foremost masters of the chisel, shaping stone to preserve the history of the Bronzebeard line. King Magni commissioned Marblesten to build a memorial to Sully Balloo, a soldier who died in the Thandol Span tragedy. The memorial honors Balloo and his grieving widow. For a lasting tribute, Marblesten seeks Alterac Granite, one of the finest stones available, from Darrow Hill in Hillsbrad.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_grand-mason-marblesten-42889ef0e02273f9eb4d/1-0000.mp3", duration = 65.4889796, start = 0},
+    {file = "Audio/Transport/full_npc_grand-mason-marblesten-02dbc2b727dd73fc0d98/1-0000.mp3", duration = 52.6628571, start = 0},
   },
 }
 P.transport["npc:granis-swiftaxe"] = {
-  hash = "a7c20d",
-  fullHash = "a7c20d",
-  text = "Granis Swiftaxe. Granis Swiftaxe is a dwarf warrior trainer stationed inside the Thunderbrew Distillery in Kharanos. Known for his blunt demeanor and hardy training regimen, he mentors fledgling Alliance fighters emerging from Coldridge Pass before directing seasoned warriors to the city of Ironforge. Found warming himself among the casks of the Thunderbrew Distillery, Granis Swiftaxe serves as the primary combat instructor for young warriors traversing Dun Morogh. He possesses the unyielding pride typical of dwarven fighters, showing open amusement and disdain toward non-warriors who try to catch his ear. Once a student demonstrates sufficient prowess in combat, Granis sends them up the mountain path to seek out master trainer Muren Stormpike in the Military Ward of Ironforge.",
+  hash = "f3e393",
+  fullHash = "f3e393",
+  text = "Granis Swiftaxe. Inside Kharanos, Granis Swiftaxe trains young Alliance fighters from Coldridge Pass. The dwarf warrior trainer waits in the Thunderbrew Distillery, then sends seasoned warriors to Ironforge. Granis Swiftaxe warms himself among the casks of the Thunderbrew Distillery in Kharanos, where he trains young warriors crossing Dun Morogh. Proud of the warrior’s path, he openly amuses himself at those from other callings who try to win his attention. When a student proves their skill in combat, Granis sends them up the mountain path to Muren Stormpike, the master trainer in Ironforge’s Military Ward.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_granis-swiftaxe-3620fcf1d7cd29c8db0f/1-0000.mp3", duration = 43.0759184, start = 0},
+    {file = "Audio/Transport/full_npc_granis-swiftaxe-77b1d4dafb2c30514c35/1-0000.mp3", duration = 33.6195918, start = 0},
   },
 }
 P.transport["npc:great-father-winter"] = {
@@ -1426,19 +1426,19 @@ P.transport["npc:great-father-winter"] = {
   },
 }
 P.transport["npc:greatfather-winter"] = {
-  hash = "c70f31",
-  fullHash = "c70f31",
-  text = "Greatfather Winter. Greatfather Winter is the legendary personification of the winter season and the central figure of the Feast of Winter Veil. While ancient legends revere him as a mythical being who blankets Azeroth in snow to allow the land to rest and renew, modern city-dwellers know him primarily through the commercial spectacle managed by the goblins of Smokywood Pastures. According to ancient lore, Greatfather Winter is an ethereal wanderer who walks the world late in the year, casting his billowing snowy cloak across the land so nature may slumber and be reborn. Dwarves view him as an embodiment or herald of the titans, pointing to the frosted crags of Dun Morogh as living proof of his favor. Other traditions, such as those of the tauren, respect his role in the season's turning while attributing the cold and storms to the elemental work of the Sun and Moon, giving the Earth Mother time to rest. Wherever the legend traveled, communities learned to gather and feast together against the cold, celebrating the promise of returning life. In major settlements like Ironforge and Orgrimmar, the ancient spirit has been thoroughly reshaped by the enterprising goblins of Smokywood Pastures. The trading cartel popularized the depiction of Greatfather Winter as a jolly, red-suited elder with a white beard who rides a flying sleigh and hands out holiday treats and toys. Smokywood Pastures hires local actors—a dwarf in Ironforge and an orc in Orgrimmar—to listen to children's wishlists, receive offerings of milk and gingerbread cookies, and advertise seasonal merchandise beneath lavishly decorated trees.",
+  hash = "0ea2d4",
+  fullHash = "0ea2d4",
+  text = "Greatfather Winter. At winter's turning, Greatfather Winter belongs to both ancient legend and city festivities. Some believe he blankets Azeroth in snow so the land can rest and renew. In the cities, goblins of Smokywood Pastures shape how people know him. Ancient tales tell of Greatfather Winter wandering the world late in the year, spreading his snowy cloak so nature can sleep and be reborn. Dwarves see him as an aspect or herald of the titans, and point to Dun Morogh's frosted crags as proof of his favor. Tauren respect his place in winter's turning, while crediting the Sun and Moon with the cold and storms that let the Earth Mother rest. Across the lands, people gather and feast against the cold, holding to the promise of life returning. In Ironforge and Orgrimmar, goblins of Smokywood Pastures have reshaped the old spirit for city celebrations. The trading company made popular the image of Greatfather Winter as a cheerful elder in red, with a white beard, flying sleigh, holiday treats, and toys. Smokywood Pastures hires a dwarf in Ironforge and an orc in Orgrimmar to hear children's wishlists and accept milk and gingerbread cookies. Beneath lavishly decorated trees, the company also promotes its seasonal wares.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_greatfather-winter-2791ba5cc10044793553/1-0000.mp3", duration = 89.0253061, start = 0},
+    {file = "Audio/Transport/full_npc_greatfather-winter-aa5dc29374556fd4289f/1-0000.mp3", duration = 72.4636735, start = 0},
   },
 }
 P.transport["npc:greatmother-hawkwind"] = {
-  hash = "57e771",
-  fullHash = "57e771",
-  text = "Greatmother Hawkwind. Greatmother Hawkwind is a revered tauren elder resting by the water well on Red Cloud Mesa. As the mother of Camp Narache's leader, Chief Hawkwind, she embodies the enduring spirit and communal responsibility of the tribe despite her advanced age. Greatmother Hawkwind spends her days beside the fresh water well at Camp Narache, serving as the spiritual matriarch for young tauren beginning their rites of passage. Though years have slowed her stride, she refuses to let age sideline her duty to the village. She believes that every member of the tribe, young or old, has an active role to play in sustaining the community, often asking fledgling youths to lend a hand with simple domestic chores like fetching fresh water. As the mother of Chief Hawkwind, the chieftain of Camp Narache, Greatmother Hawkwind provides steady counsel and quiet dignity amidst the threats facing Red Cloud Mesa. While her son organizes hunters and warriors against encroaching Bristleback quilboar and local predators, she tends to the moral heart of the settlement, reminding the newly awakened that strength begins with humility and service to one's kin.",
+  hash = "8c19cd",
+  fullHash = "8c19cd",
+  text = "Greatmother Hawkwind. Beside the well on Red Cloud Mesa, Greatmother Hawkwind guides young tauren. As mother of Chief Hawkwind, Camp Narache's leader, she holds to the tribe's shared duty despite her age. Greatmother Hawkwind spends her days beside Camp Narache's fresh water well, guiding young tauren as they begin their rites of passage. Age has slowed her stride, but she still takes part in village life. She believes every member of the tribe, young or old, must help sustain the community. She often asks young tauren to fetch water and help with simple chores. Greatmother Hawkwind is mother to Chief Hawkwind, who leads Camp Narache. She offers counsel as threats face Red Cloud Mesa. Her son organizes hunters and warriors against Bristleback quilboar and local predators. She tends to the settlement's moral heart, reminding the newly awakened that strength begins with humility and service to kin.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_greatmother-hawkwind-1d784b898f2fd12be757/1-0000.mp3", duration = 66.5077551, start = 0},
+    {file = "Audio/Transport/full_npc_greatmother-hawkwind-dbfc38b13674e99c318f/1-0000.mp3", duration = 54.1779592, start = 0},
   },
 }
 P.transport["npc:greta-mosshoof"] = {
@@ -1474,11 +1474,11 @@ P.transport["npc:grub"] = {
   },
 }
 P.transport["npc:grull-hawkwind"] = {
-  hash = "856cdf",
-  fullHash = "856cdf",
-  text = "Grull Hawkwind. Grull Hawkwind is a young tauren brave stationed at Camp Narache on the Red Cloud Mesa in Mulgore. As the son of Chief Hawkwind, he helps guide novice tauren taking their very first steps into the world. He directs young hunters and warriors through their earliest trials to test their resolve and honor their ancestors. Standing proudly beside the braves and elders of Camp Narache, Grull Hawkwind bears both the proud lineage of Chief Hawkwind and the responsibility of preparing the tribe's youth. He serves as an initial mentor for new arrivals on the Red Cloud Mesa, assessing their readiness to serve the Shu'halo. By assigning trials that test stamina, tracking, and survival against local beasts such as plainstriders and mountain cougars, Grull ensures that young tauren understand that balance and respect for nature are foundational to life in Mulgore.",
+  hash = "2b3f4e",
+  fullHash = "2b3f4e",
+  text = "Grull Hawkwind. At Camp Narache on Red Cloud Mesa, Grull Hawkwind guides young tauren through their first trials. As Chief Hawkwind’s son, he prepares hunters and warriors to test their resolve and honor their ancestors. At Camp Narache, Grull Hawkwind helps prepare the tribe’s youth. The son of Chief Hawkwind, he guides new arrivals on Red Cloud Mesa and judges whether they are ready to serve the Shu'halo. He sets trials of stamina, tracking, and survival against plainstriders and mountain cougars. Through these trials, young tauren learn that balance and respect for nature are foundations of life in Mulgore.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_grull-hawkwind-88ef8c42febba6979b54/1-0000.mp3", duration = 48.4832653, start = 0},
+    {file = "Audio/Transport/full_npc_grull-hawkwind-13d1099ee5a6ae9e33e0/1-0000.mp3", duration = 34.2465306, start = 0},
   },
 }
 P.transport["npc:grunt-dogran"] = {
@@ -1490,11 +1490,11 @@ P.transport["npc:grunt-dogran"] = {
   },
 }
 P.transport["npc:grunt-logmar"] = {
-  hash = "3f9daf",
-  fullHash = "3f9daf",
-  text = "Grunt Logmar. Grunt Logmar is an orc warrior of the Horde stationed in the southern Barrens at Camp Taurajo. Dutiful and vigilant, he monitors threats surrounding the camp and coordinates efforts to locate and aid missing Horde scouts in the region. Stationed among the tauren at Camp Taurajo, Grunt Logmar serves as a watchful orc guard on the southern Barrens frontier. The settlement sits close to hostile quilboar grounds and the mountain passes leading into Stonetalon and Mulgore, requiring constant vigilance. Logmar coordinates scouting reports and reaches out to capable Horde travelers when his comrades find themselves ambushed or captured by local hostiles.",
+  hash = "a615f0",
+  fullHash = "a615f0",
+  text = "Grunt Logmar. At Camp Taurajo, Grunt Logmar watches the southern Barrens frontier for the Horde. He tracks threats near the camp and seeks aid for missing scouts. At Camp Taurajo, Grunt Logmar guards the Horde's southern Barrens frontier. The camp lies among the tauren, near hostile quilboar grounds and the mountain passes into Stonetalon and Mulgore. Logmar keeps watch over these dangers and coordinates scouting reports. When his comrades are ambushed or captured by local hostiles, he calls on capable Horde travelers to help find and aid them.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_grunt-logmar-63e0a9845cb9e01f85bc/1-0000.mp3", duration = 37.6163265, start = 0},
+    {file = "Audio/Transport/full_npc_grunt-logmar-2d4755c89d5c622b9a37/1-0000.mp3", duration = 30.9028571, start = 0},
   },
 }
 P.transport["npc:grunth"] = {
@@ -1506,19 +1506,19 @@ P.transport["npc:grunth"] = {
   },
 }
 P.transport["npc:guard-berton"] = {
-  hash = "2cc8ac",
-  fullHash = "2cc8ac",
-  text = "Guard Berton. Guard Berton is a human town guardsman stationed outside the Lakeshire Inn in Redridge Mountains. Frustrated by the bureaucratic delays of Stormwind's legal system, he seeks swift justice against Targorr the Dread, an imprisoned orc leader. While Redridge Mountains buckles under the threat of the Blackrock orc invasion, Guard Berton remains posted outside the Lakeshire Inn. Despite local defenses being pushed to the brink, Berton's attention is fixed on a captive enemy: Targorr the Dread. Targorr was captured and locked away deep within the Stormwind Stockade, sentenced to death for his crimes against the kingdom. Yet with Stormwind's execution postponed indefinitely, Berton refuses to let the brutal raider linger in a cell while Lakeshire bleeds. Taking matters into his own hands, he hires willing adventurers to bypass royal delays and execute the orc directly.",
+  hash = "f0358b",
+  fullHash = "f0358b",
+  text = "Guard Berton. Outside the Lakeshire Inn, Guard Berton seeks swift justice for Targorr the Dread. The human guardsman is tired of Stormwind's delays while Redridge faces the Blackrock orc invasion. Guard Berton keeps watch outside the Lakeshire Inn as Redridge Mountains faces the Blackrock orc invasion. His concern is Targorr the Dread, an enemy captured and locked deep within the Stormwind Stockade. Sentenced to death for crimes against the kingdom, Targorr remains imprisoned because Stormwind has postponed his execution indefinitely. Berton will not let the brutal raider linger in a cell while Lakeshire bleeds. He hires willing adventurers to bypass the delays and kill the orc.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_guard-berton-bd269e50b2cf433972a6/1-0000.mp3", duration = 49.0579592, start = 0},
+    {file = "Audio/Transport/full_npc_guard-berton-01333e60b706a932187a/1-0000.mp3", duration = 39.7583673, start = 0},
   },
 }
 P.transport["npc:guard-howe"] = {
-  hash = "e13124",
-  fullHash = "e13124",
-  text = "Guard Howe. Guard Howe is a town guardsman stationed near the southern foot of the Lakeshire bridge in the Redridge Mountains. Driven by a personal vendetta against the Blackrock orcs encroaching on the valley, he offers bounties to any adventurer willing to cut down the invaders. Positioned just south of the large stone bridge spanning Lake Everstill, Guard Howe stands watch over the heart of Lakeshire. Like many in the beleaguered town, he sees the encroaching Blackrock orcs as an existential threat to Redridge. Harbouring a bitter desire for revenge against the clan, Howe actively recruits passing mercenaries to hunt orcs in the eastern hills, offering pay in exchange for tangible proof of their defeat.",
+  hash = "4e444d",
+  fullHash = "4e444d",
+  text = "Guard Howe. Near Lakeshire's bridge, Guard Howe watches the road and seeks fighters against the Blackrock orcs. A personal vendetta drives him to offer bounties for proof of their defeat. Guard Howe keeps watch just south of the stone bridge over Lake Everstill, near the heart of Lakeshire. Blackrock orcs press into the Redridge Mountains, and Howe sees them as a threat to the valley. He holds a bitter grudge against the clan and recruits passing fighters to hunt orcs in the eastern hills. In return, he offers pay for proof that they have been defeated.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_guard-howe-18e6ac6560f0367d694e/1-0000.mp3", duration = 36.4930612, start = 0},
+    {file = "Audio/Transport/full_npc_guard-howe-fafe9e4cfe36d8442c50/1-0000.mp3", duration = 32.1044898, start = 0},
   },
 }
 P.transport["npc:gubber-blump"] = {
@@ -1530,11 +1530,11 @@ P.transport["npc:gubber-blump"] = {
   },
 }
 P.transport["npc:gurda-ragescar"] = {
-  hash = "7efb2e",
-  fullHash = "7efb2e",
-  text = "Gurda Ragescar. Gurda Ragescar was an orc stationed at a small Horde outpost southwest of Splintertree Post in Ashenvale. Alongside Feran Strongwind, she fell defending their camp against local perils in the shadowed forest. Resting just southwest of the fortified walls of Splintertree Post, Gurda Ragescar maintained a modest Horde camp under the dense canopy of Ashenvale. Deep within territory contested by night elven defenders and wild beasts, maintaining such isolated positions is perilous work. Gurda, along with Feran Strongwind and their detachment of guards, was ultimately overrun and killed at their post, leaving only the remnants of their final stand for passing allies to discover. Travelers wandering near the trail may come across the tragic scene of Gurda's defeat. Even in death, the possessions and tasks carried by her encampment offer clues to Horde endeavors across the woods, including missing documents and orders disrupted by the ambush.",
+  hash = "6f9253",
+  fullHash = "6f9253",
+  text = "Gurda Ragescar. Gurda Ragescar fell at a Horde camp southwest of Splintertree Post in Ashenvale. She and Feran Strongwind died defending it against dangers in the shadowed forest. Gurda Ragescar and her guards fell at a small Horde camp southwest of Splintertree Post. The outpost stood beneath Ashenvale's dense canopy, deep in territory contested by night elven defenders and wild beasts. Gurda and Feran Strongwind were killed when the camp was overrun. Only remnants of their last stand remain for passing allies to find. Travelers near the trail may find the scene of Gurda's defeat. The camp's possessions and unfinished work point to Horde efforts across the woods, including missing documents and orders disrupted by the ambush.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_gurda-ragescar-1a2e88abf5328fe63b91/1-0000.mp3", duration = 57.364898, start = 0},
+    {file = "Audio/Transport/full_npc_gurda-ragescar-d400ad6d9bbd33e8384d/1-0000.mp3", duration = 43.3632653, start = 0},
   },
 }
 P.transport["npc:hagar-lightninghoof"] = {
@@ -1562,11 +1562,11 @@ P.transport["npc:hana-zua"] = {
   },
 }
 P.transport["npc:hands-springsprocket"] = {
-  hash = "7fc7e3",
-  fullHash = "7fc7e3",
-  text = "Hands Springsprocket. Hands Springsprocket is an industrious gnome stationed at the entrance of Coldridge Pass in Dun Morogh. He coordinates shipments between the secluded training grounds of Coldridge Valley and the town of Kharanos, though recent trogg incursions have severely hampered his efforts. Perched at the mouth of Coldridge Pass, Hands Springsprocket finds his regular supply runs thoroughly disrupted. He routinely delivers provisions to the Thunderbrew distillery and the inn in Kharanos, but hostile Rockjaw troggs have overrun the subterranean tunnel leading out of the valley. With trade and foot traffic halted by the beasts, Hands is forced to rely on capable travelers to carry essential crates through the dangerous mountain corridor.",
+  hash = "4da10e",
+  fullHash = "4da10e",
+  text = "Hands Springsprocket. At Coldridge Pass, Hands Springsprocket struggles to keep supplies moving between the valley and Kharanos. Rockjaw troggs have blocked the route. Hands Springsprocket waits at the mouth of Coldridge Pass, where Rockjaw troggs have stopped his supply runs. He usually carries provisions to the Thunderbrew distillery and the inn in Kharanos. The troggs have overrun the underground tunnel out of Coldridge Valley, halting trade and foot traffic. Hands now depends on travelers able to carry essential crates through the dangerous mountain passage.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_hands-springsprocket-8f509e9d1a6dbe2067de/1-0000.mp3", duration = 40.1763265, start = 0},
+    {file = "Audio/Transport/full_npc_hands-springsprocket-f962d2c6f8011f5e4e70/1-0000.mp3", duration = 28.8914286, start = 0},
   },
 }
 P.transport["npc:hansel-heavyhands"] = {
@@ -1578,19 +1578,19 @@ P.transport["npc:hansel-heavyhands"] = {
   },
 }
 P.transport["npc:harb-clawhoof"] = {
-  hash = "62223d",
-  fullHash = "62223d",
-  text = "Harb Clawhoof. Harb Clawhoof is a tauren mount breeder stationed just outside Bloodhoof Village in Mulgore. He tends to the tribe's sturdy kodos, offering them to worthy tauren riders and trusted champions of Thunder Bluff. Situated near the pens of Bloodhoof Village, Harb Clawhoof spends his days tending the massive kodo beasts that serve as the backbone of tauren travel and labor. Built to carry immense weight across vast distances, these sturdy animals are essential to life on the plains. Harb ensures each beast is well-cared for, disciplined, and matched only with riders who command the respect of the tauren people. While tauren naturally earn the trust required to ride Harb's kodos, outsiders face stricter scrutiny. Due to their immense size and temperament, kodos are not easily guided by those unfamiliar with their nature. Non-tauren allies who wish to ride away atop one of Harb's prized mounts must first prove their loyalty and earn exalted status with Thunder Bluff.",
+  hash = "eaffc8",
+  fullHash = "eaffc8",
+  text = "Harb Clawhoof. Near Bloodhoof Village, Harb Clawhoof tends the tauren’s kodos. He offers them to worthy tauren riders and trusted champions of Thunder Bluff. Harb Clawhoof tends the kodos near Bloodhoof Village. These great beasts carry heavy loads across long distances and are vital to tauren travel and work on the plains. Harb cares for each one, trains it, and pairs it with riders respected by the tauren people. Tauren earn the trust needed to ride Harb’s kodos, while outsiders face closer scrutiny. Their size and temperament make kodos difficult for those unfamiliar with them to guide. Non-tauren allies must prove their loyalty and earn exalted standing with Thunder Bluff before riding one of Harb’s mounts.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_harb-clawhoof-8423d6dde21c71f7bfed/1-0000.mp3", duration = 54.7787755, start = 0},
+    {file = "Audio/Transport/full_npc_harb-clawhoof-83995f965a5260e864bc/1-0000.mp3", duration = 41.3518367, start = 0},
   },
 }
 P.transport["npc:harken-windtotem"] = {
-  hash = "5035a6",
-  fullHash = "5035a6",
-  text = "Harken Windtotem. Harken Windtotem is a tauren huntsman residing in Bloodhoof Village in Mulgore. Dedicated to the traditions of his people, he tasks young hunters and travelers with proving their tracking and foraging skills across the golden plains. Situated near the heart of Bloodhoof Village, Harken Windtotem serves as an instructor and guide for those learning the hunting ways of the tauren. Life on the plains of Mulgore demands respect for the natural world alongside the practical skill to sustain one's tribe. Harken evaluates young adventurers by directing them to hunt the native swoops that circle the mesas, collecting their quills to gauge a hunter's patience, aim, and ability to harvest without waste.",
+  hash = "c5304a",
+  fullHash = "c5304a",
+  text = "Harken Windtotem. In Bloodhoof Village, Harken Windtotem guides young hunters across Mulgore’s plains. He teaches the traditions of his people and asks hunters and travelers to prove their tracking and foraging skills. Near the heart of Bloodhoof Village, Harken Windtotem guides those learning the tauren hunting ways. Life on Mulgore’s plains calls for respect for the natural world and the skills needed to sustain a tribe. Harken tests young hunters by sending them after the swoops that circle the mesas. They gather the birds’ quills, showing patience, aim, and care in taking only what they need.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_harken-windtotem-1650cbd80ba8e5d1e599/1-0000.mp3", duration = 39.444898, start = 0},
+    {file = "Audio/Transport/full_npc_harken-windtotem-aadffa5f932a9591d31d/1-0000.mp3", duration = 33.4628571, start = 0},
   },
 }
 P.transport["npc:harlan-bagley"] = {
@@ -1602,19 +1602,19 @@ P.transport["npc:harlan-bagley"] = {
   },
 }
 P.transport["npc:harlo-barnaby"] = {
-  hash = "209047",
-  fullHash = "209047",
-  text = "Harlo Barnaby. Harlo Barnaby is a wounded dwarven refugee residing in Menethil Harbor. Having barely escaped the slaughter when the Dark Iron clan seized Dun Modr, he now alerts travelers to the tragedy that unfolded in the northern marshes. Harlo Barnaby lived in Dun Modr until the northern stronghold fell to a sudden, savage assault by the Dark Iron dwarves. In the chaos of the ambush, Harlo fled south toward safety, only to catch a stray axe square in the back. Knocked unconscious by the blow, he somehow survived the trek across the marshland and awoke bandaged in Menethil Harbor. Though alive, his wounds and memories of the massacre leave him unable to return, prompting him to urge Alliance adventurers to investigate the smoking ruins of his former home.",
+  hash = "393d5d",
+  fullHash = "393d5d",
+  text = "Harlo Barnaby. In Menethil Harbor, Harlo Barnaby bears the wounds of Dun Modr's fall. The dwarven refugee escaped the Dark Iron assault and warns travelers of the tragedy in the northern marshes. Harlo Barnaby fled Dun Modr when Dark Iron dwarves struck the northern stronghold without warning. In the chaos, a stray axe hit him square in the back. The blow knocked him unconscious, yet he survived the trek across the marshland. Harlo awoke bandaged in Menethil Harbor, alive but marked by his wounds and memories of the massacre. He cannot return to Dun Modr, so he urges Alliance adventurers to investigate the smoking ruins of his former home.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_harlo-barnaby-3d138bdb0d295b1b278b/1-0000.mp3", duration = 42.2922449, start = 0},
+    {file = "Audio/Transport/full_npc_harlo-barnaby-b954aedc83bc360c561f/1-0000.mp3", duration = 37.5379592, start = 0},
   },
 }
 P.transport["npc:hegnar-rumbleshot"] = {
-  hash = "7a7f0a",
-  fullHash = "7a7f0a",
-  text = "Hegnar Rumbleshot. Hegnar Rumbleshot is a dwarven gunsmith stationed along the snowy roadway leading from Coldridge Pass toward Kharanos. He maintains a busy shooting range and equips local hunters and mountaineers with firearms and ammunition. Set up at a small campsite between Coldridge Pass and Kharanos, Hegnar Rumbleshot caters to dwarven marksmen, travelers, and the local militia. His camp features a popular shooting range where mountain folk hone their aim against the wild beasts prowling Dun Morogh. Supplying so many eager shooters means Hegnar burns through munitions at a brisk pace, leaving him perpetually reliant on fresh shipments of ammunition from his supplier, the dwarf engineer Loslor Rudge.",
+  hash = "ba9c6a",
+  fullHash = "ba9c6a",
+  text = "Hegnar Rumbleshot. On the snowy road from Coldridge Pass to Kharanos, Hegnar Rumbleshot keeps a gunsmith's camp. He supplies local hunters and mountaineers with firearms and ammunition. Hegnar Rumbleshot keeps a small camp between Coldridge Pass and Kharanos, where he serves dwarven marksmen, travelers, and the local militia. At the camp, mountain folk use a popular range to hone their aim against the wild beasts prowling Dun Morogh. The steady stream of shooters leaves Hegnar in need of fresh ammunition from his supplier, the dwarf engineer Loslor Rudge.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_hegnar-rumbleshot-e93eeb02410ae1a4dd78/1-0000.mp3", duration = 39.4710204, start = 0},
+    {file = "Audio/Transport/full_npc_hegnar-rumbleshot-ea4d71cbd78dc3facdfd/1-0000.mp3", duration = 31.5297959, start = 0},
   },
 }
 P.transport["npc:henze-faulk"] = {
@@ -1626,27 +1626,27 @@ P.transport["npc:henze-faulk"] = {
   },
 }
 P.transport["npc:heralath-fallowbrook"] = {
-  hash = "a2bd25",
-  fullHash = "a2bd25",
-  text = "Heralath Fallowbrook. Heralath Fallowbrook is a dying night elf druid imprisoned deep within Razorfen Kraul. Dispatched to investigate the thorny corruption surrounding the remains of the Ancient Agamaggan, he was captured and brutalized by the Razorfen tribe. With his final breaths, he seeks to send word of his fate and a cherished pendant back to his wife in Darnassus. Sent by his people to investigate the ancient boar god Agamaggan and the spreading briars choking the southern Barrens, Heralath Fallowbrook sought the root of Razorfen Kraul's corruption. Instead of unearthing answers, the night elf was taken prisoner by the quilboar. Locked in a squalid pen and relentlessly beaten, Heralath succumbed to severe wounds and raging fever. Before fading entirely, he shared what he knew with a fellow captive, the dwarf Henrig Lonebrow, urging him to warn the sentinel outpost at Thalanaar about the aggression stirred up by the quilboar crone Charlga Razorflank.",
+  hash = "7c4c59",
+  fullHash = "7c4c59",
+  text = "Heralath Fallowbrook. Deep in Razorfen Kraul, Heralath Fallowbrook lies dying in quilboar hands. Sent to investigate the briars around Ancient Agamaggan's remains, he was captured and brutalized. Now he hopes word of his fate and his cherished pendant will reach his wife in Darnassus. Heralath Fallowbrook came to the southern Barrens to investigate Ancient Agamaggan and the briars spreading around his remains. Sent by his people, the night elf druid sought the source of Razorfen Kraul's corruption. The quilboar captured him instead and locked him in a pen, where beatings and fever left him with mortal wounds. Before he faded, Heralath told Henrig Lonebrow, a dwarf captive, what he had learned. He urged Henrig to warn the sentinel outpost at Thalanaar about the aggression stirred by Charlga Razorflank, the quilboar crone.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_heralath-fallowbrook-2ef11ed6676ec873de0e/1-0000.mp3", duration = 54.7787755, start = 0},
+    {file = "Audio/Transport/full_npc_heralath-fallowbrook-fb6278ab86fd603586d6/1-0000.mp3", duration = 48.9795918, start = 0},
   },
 }
 P.transport["npc:high-executor-derrington"] = {
-  hash = "e3c3d8",
-  fullHash = "e3c3d8",
-  text = "High Executor Derrington. High Executor Derrington commands the Forsaken vanguard stationed at the Bulwark on the eastern border of Tirisfal Glades. A no-nonsense military officer, he oversees the Horde's front-line defense against the Scourge and Scarlet Crusade threats emanating from the Western Plaguelands. From this fortified barricade, he directs seasoned champions toward contested ruins like Andorhal and Scholomance. Standing directly before the fortified barricades of the Bulwark, High Executor Derrington serves as the gatekeeper between the haunted safety of Tirisfal Glades and the rotting horrors of the Western Plaguelands. Derrington holds little patience for political maneuvering in the Undercity, viewing the front lines as a crucible of sheer survival. For Horde soldiers and sellswords seeking to test their mettle, Derrington provides direct military orders, sending scouts and strike teams deep into plagueridden territory to blunt enemy incursions before they breach Tirisfal. Derrington's defensive position is beleaguered on multiple axes. To the east lies the Scourge, entrenched in the shattered town of Andorhal and spilling through the countryside via corrupting cauldrons. Simultaneously, the zealous fanatics of the Scarlet Crusade contest northern fortifications and skirmish relentlessly with Forsaken patrols. Derrington coordinates surgical counterattacks, sabotage against the Scarlet lines, and the systematic disruption of Scourge cauldron fields to safeguard the eastern border.",
+  hash = "abaa25",
+  fullHash = "abaa25",
+  text = "High Executor Derrington. At the Bulwark, High Executor Derrington directs the Forsaken vanguard against threats from the Western Plaguelands. A no-nonsense military officer, he sends seasoned champions toward contested ruins such as Andorhal and Scholomance. At the Bulwark’s barricades, High Executor Derrington gives orders to those crossing from Tirisfal Glades into the Western Plaguelands. He has little patience for political maneuvering in the Undercity and sees the front lines as a crucible of sheer survival. Horde soldiers and sellswords receive direct orders to scout plague-ridden territory and blunt enemy incursions before they reach Tirisfal. The Bulwark faces threats from the Scourge in Andorhal and from the Scarlet Crusade farther north. Scourge forces spread corruption through cauldrons in the countryside, while the Crusade’s zealous fanatics contest northern fortifications and skirmish relentlessly with Forsaken patrols. Derrington coordinates surgical counterattacks, sabotage against Scarlet lines, and systematic disruption of Scourge cauldron fields to protect the eastern border.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_high-executor-derrington-75e9ecb7e80927fd8aa9/1-0000.mp3", duration = 85.8644898, start = 0},
+    {file = "Audio/Transport/full_npc_high-executor-derrington-110d16d9221c9aa0b81d/1-0000.mp3", duration = 61.5183673, start = 0},
   },
 }
 P.transport["npc:high-priest-rohan"] = {
-  hash = "204c46",
-  fullHash = "204c46",
-  text = "High Priest Rohan. High Priest Rohan is the preeminent leader of the Church of the Holy Light within Ironforge, found pacing inside the Hall of Mysteries. He oversees the spiritual development of fledgling priests across the Alliance and aids those seeking mastery over the Holy Light. Through his guidance and sacred relics, he maintains spiritual ties between the mountain kingdom, Stormwind, and distant allies. Pacing the quiet flagstones of the Hall of Mysteries in the Mystic Ward, High Priest Rohan acts as the highest-ranking representative of the Church of the Holy Light in Ironforge. While dwarves historically honored the titans, dwarven priests have deeply embraced the Light's virtues of wisdom, compassion, and justice. Rohan serves as a patient teacher to young acolytes, teaching them the discipline necessary to channel holy magic and steel their minds against despair. Rohan recognizes that spiritual insight takes many shapes across the Alliance. Once priests under his tutelage grasp the fundamentals, he directs them outward—sending human and dwarven students to High Priestess Laurena in Stormwind City, or dispatching night elf disciples to Priestess Alathea at the Temple of the Moon in Darnassus to master elusive mysteries like Elune's Grace. Beyond the capitals, he urges devotees to render assistance wherever hardship strikes, even directing healers abroad to aid the druids of the Cenarion Circle in distant Azshara. In addition to his teachings, Rohan holds custody over sacred relics essential to the wider Alliance priesthood and paladin brotherhoods. Among his possessions is a blessed exorcism censer, seasoned through years of cleansing vile spirits. When the Order of the Silver Hand and Lord Grayson Shadowbreaker require the vessel to temper the holy calling of their knights, Rohan freely yields it—asking only for charitable alms to replenish Ironforge's dwindling food reserves for the city's needy.",
+  hash = "8d598a",
+  fullHash = "8d598a",
+  text = "High Priest Rohan. In Ironforge, High Priest Rohan guides the Church of the Holy Light from the Hall of Mysteries. He teaches young priests, helps them deepen their mastery of the Light, and keeps spiritual ties between Ironforge, Stormwind, and distant allies. High Priest Rohan paces the Hall of Mysteries in Ironforge’s Mystic Ward as the Church of the Holy Light’s highest-ranking representative in the city. Dwarves once honored the titans, yet their priests have embraced the Light’s wisdom, compassion, and justice. Rohan patiently teaches young acolytes to channel holy magic and steel their minds against despair. After priests under his care master the fundamentals, Rohan sends them abroad to learn from other traditions. Human and dwarven students go to High Priestess Laurena in Stormwind City. Night elf disciples travel to Priestess Alathea at Darnassus’s Temple of the Moon to study mysteries such as Elune’s Grace. Rohan also sends healers to aid the Cenarion Circle’s druids in distant Azshara, wherever hardship calls. Rohan keeps sacred relics for the Alliance priesthood and paladin brotherhoods. One is a blessed exorcism censer, used for years to cleanse vile spirits. When the Order of the Silver Hand and Lord Grayson Shadowbreaker need it for their knights’ holy calling, Rohan lends it freely. He asks only for charitable alms to replenish Ironforge’s dwindling food reserves for the needy.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_high-priest-rohan-953bc6fcc0e6e00b1095/1-0000.mp3", duration = 110.393469, start = 0},
+    {file = "Audio/Transport/full_npc_high-priest-rohan-d10ec0df76f2597d3b48/1-0000.mp3", duration = 83.722449, start = 0},
   },
 }
 P.transport["npc:highlord-demitrian"] = {
@@ -1666,27 +1666,27 @@ P.transport["npc:hogger"] = {
   },
 }
 P.transport["npc:holt-thunderhorn"] = {
-  hash = "62c5e8",
-  fullHash = "62c5e8",
-  text = "Holt Thunderhorn. Holt Thunderhorn is a tauren hunter trainer stationed upon Hunter Rise in the elevated city of Thunder Bluff. He instructs novice and seasoned track-masters in their craft, offering basic martial guidance and pointing maturing marksmen toward specialized trials across Mulgore and beyond. Perched on Hunter Rise above the sweeping plains of Mulgore, Holt Thunderhorn serves the Horde as a seasoned instructor in ranged combat, tracking, and survival. Like many elders of his craft, he guides young tauren as they make the transition from roaming hunters into disciplined defenders of their new capital.",
+  hash = "f2d8f4",
+  fullHash = "f2d8f4",
+  text = "Holt Thunderhorn. On Hunter Rise in Thunder Bluff, Holt Thunderhorn trains tauren hunters for the Horde. He teaches tracking and survival, and points hunters toward specialized trials across Mulgore and beyond. Holt Thunderhorn trains hunters for the Horde on Hunter Rise, above the plains of Mulgore. He teaches ranged combat, tracking, and survival. Like other elders of his craft, he guides young tauren as they move from roaming hunters to disciplined defenders of their new capital.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_holt-thunderhorn-ee0e1fc3bcc196fb1420/1-0000.mp3", duration = 32.7053061, start = 0},
+    {file = "Audio/Transport/full_npc_holt-thunderhorn-fe8098e7bb71e868f4f0/1-0000.mp3", duration = 26.2008163, start = 0},
   },
 }
 P.transport["npc:huldar"] = {
-  hash = "689455",
-  fullHash = "689455",
-  text = "Huldar. Huldar is a dwarven teamster stationed along the southern road of Loch Modan, near the shores of the lake. Tasked with hauling vital blast powder to the dig site in the south, his delivery caravan faces relentless harassment from local threats and Dark Iron saboteurs. Hauling explosives through Loch Modan is no simple trade route. Huldar was tasked with driving wagonloads of mining blast powder down toward the southern excavation site, where dwarven archaeologists and prospectors desperately need supplies. However, the wilderness roads have become increasingly hazardous. With local wildlife, troggs, and Dark Iron infiltrators lurking near the lake's southern bend, Huldar finds himself stranded by his damaged wagon, relying on wandering travelers to safeguard the remaining powder kegs and ensure the shipment reaches the dig.",
+  hash = "dcd3e1",
+  fullHash = "dcd3e1",
+  text = "Huldar. Along Loch Modan’s southern road, Huldar’s powder run has come to a halt. His wagon carries blast powder for the southern dig, but threats on the road have put the delivery in danger. Huldar’s wagon is stranded on the road through southern Loch Modan. He was sent with loads of mining blast powder for the excavation site, where dwarven archaeologists and prospectors need supplies. Local wildlife and troggs threaten the route near the lake’s southern bend. Dark Iron infiltrators also lurk there. With his wagon damaged, Huldar depends on passing travelers to guard the remaining powder kegs and carry the shipment to the dig.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_huldar-3317a1993253db0e762e/1-0000.mp3", duration = 47.7518367, start = 0},
+    {file = "Audio/Transport/full_npc_huldar-1bb026eac8c244891df6/1-0000.mp3", duration = 36.3363265, start = 0},
   },
 }
 P.transport["npc:illiyana-moonblaze"] = {
-  hash = "4ae57a",
-  fullHash = "4ae57a",
-  text = "Illiyana Moonblaze. Illiyana Moonblaze is a night elf supply officer stationed at Silverwing Grove in Ashenvale. Operating alongside the Silverwing Sentinels, she supplies Alliance champions waging war against the Warsong Outriders. Illiyana Moonblaze serves as the supply officer for the Silverwing Sentinels nestled in Silverwing Grove. From her post near the path into Warsong Gulch, she outfits the defenders who hold the southern woods of Ashenvale against the Warsong clan. Beyond keeping the grove's stores, Illiyana equips Alliance volunteers preparing to clash with the Warsong clan in Warsong Gulch. As champions earn favor with the Silverwing Sentinels, she rewards their service with custom rations, specialized draughts, and masterwork armaments designed specifically for woodland skirmishes. She also maintains weapons and armor for weary fighters returning from the frontline, keeping the Sentinels' war effort supplied and functional.",
+  hash = "df28a0",
+  fullHash = "df28a0",
+  text = "Illiyana Moonblaze. At Silverwing Grove, Illiyana Moonblaze supplies the Alliance champions fighting the Warsong Outriders. She works alongside the Silverwing Sentinels in Ashenvale. Illiyana Moonblaze keeps supplies for the Silverwing Sentinels at Silverwing Grove. Her post is near the path into Warsong Gulch, where she outfits defenders holding Ashenvale's southern woods against the Warsong clan. Illiyana equips Alliance volunteers preparing to fight the Warsong clan in Warsong Gulch. As champions earn favor with the Silverwing Sentinels, she provides custom rations, specialized draughts, and fine weapons for woodland skirmishes. She also repairs weapons and armor for weary fighters returning from the front, keeping the Sentinels supplied for war.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_illiyana-moonblaze-7f9a231c3d0a48332578/1-0000.mp3", duration = 52.8979592, start = 0},
+    {file = "Audio/Transport/full_npc_illiyana-moonblaze-a043d6bf1e84843f02c7/1-0000.mp3", duration = 43.9379592, start = 0},
   },
 }
 P.transport["npc:ilthalaine"] = {
@@ -1714,11 +1714,11 @@ P.transport["npc:innkeeper-farley"] = {
   },
 }
 P.transport["npc:innkeeper-firebrew"] = {
-  hash = "5baaf7",
-  fullHash = "5baaf7",
-  text = "Innkeeper Firebrew. Innkeeper Firebrew manages the Stonefire Tavern in the bustling Commons of Ironforge. A genial host to weary mountaineers and visiting dignitaries alike, he serves hearty dwarven staples and keeps travelers rested beneath the mountain. Situated in the central ring of the Commons, Innkeeper Firebrew's establishment is often the first sanctuary encountered by travelers entering through the Great Gates of Ironforge. Behind a counter laden with flagons of ale, skins of stout, and roasted joints of meat, Firebrew offers hospitality to adventurers bound for the snowy passes of Dun Morogh or deeper into the mountain kingdom. His tavern remains a lively crossroad where miners, riflemen, and emissaries gather to escape the drafty tunnels and exchange tales around the hearth.",
+  hash = "db9b85",
+  fullHash = "db9b85",
+  text = "Innkeeper Firebrew. At Ironforge’s Commons, Innkeeper Firebrew keeps travelers fed and rested at the Stonefire Tavern. His hearty dwarven fare welcomes mountaineers and visiting dignitaries beneath the mountain. Innkeeper Firebrew welcomes travelers at the Stonefire Tavern in the Commons. The tavern sits in the Commons’ central ring, and many travelers entering Ironforge through the Great Gates find it first. Behind a counter laden with ale, stout, and roasted meat, Firebrew offers hospitality to those bound for Dun Morogh’s snowy passes or deeper into the mountain kingdom. Miners, riflemen, and emissaries gather there to escape the drafty tunnels and trade tales around the hearth. The Stonefire remains a lively crossroads in the heart of Ironforge.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_innkeeper-firebrew-00754e75bdd5514c8307/1-0000.mp3", duration = 46.4979592, start = 0},
+    {file = "Audio/Transport/full_npc_innkeeper-firebrew-fd568263230fa15f9869/1-0000.mp3", duration = 40.4897959, start = 0},
   },
 }
 P.transport["npc:innkeeper-grosk"] = {
@@ -1746,19 +1746,19 @@ P.transport["npc:innkeeper-keldamyr"] = {
   },
 }
 P.transport["npc:innkeeper-norman"] = {
-  hash = "e7c877",
-  fullHash = "e7c877",
-  text = "Innkeeper Norman. Innkeeper Norman tends the hearth at the primary tavern in the Trade Quarter of the Undercity. A quiet, diligent Forsaken, he offers travelers of the Horde respite, hearthstone bindings, and food suited to the varied tastes of both the living and the dead. Located in the bustling Trade Quarter beneath the ruined Capital City of Lordaeron, Innkeeper Norman provides lodging for emissaries, mercenaries, and adventurers passing through the Forsaken stronghold. Despite the damp chill and alchemical stenches of the Undercity, Norman's tavern remains a bustling hub for travelers looking to anchor their hearthstones, share news from across Azeroth, or prepare for expeditions into the Plaguelands. While Norman typically keeps to his duties selling provisions and managing rooms, the seasonal arrival of Hallow's End reveals a more peculiar side. During the holiday, Norman participates in the seasonal revelry, demanding peculiar displays—such as clucking like a chicken—from adventurous patrons eager to earn holiday treats like Undercity mints.",
+  hash = "8ee0e8",
+  fullHash = "8ee0e8",
+  text = "Innkeeper Norman. Innkeeper Norman keeps the Trade Quarter tavern ready for travelers in the Undercity. The quiet, diligent Forsaken offers Horde travelers rest, hearthstone bindings, and food for the living and the dead. Beneath Lordaeron's ruined capital, Innkeeper Norman tends the main tavern in the Undercity's Trade Quarter. Emissaries, mercenaries, and adventurers passing through the Forsaken stronghold find lodging there. Travelers come to bind their hearthstones, share news from across Azeroth, or prepare for journeys into the Plaguelands. Innkeeper Norman sells provisions and manages rooms through most of the year. During Hallow's End, he joins the holiday revelry and asks adventurous patrons for peculiar displays, such as clucking like a chicken. Those who oblige can earn holiday treats like Undercity mints.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_innkeeper-norman-91efdaef9e6f065e7a45/1-0000.mp3", duration = 58.5665306, start = 0},
+    {file = "Audio/Transport/full_npc_innkeeper-norman-ab79a437a38e905448e3/1-0000.mp3", duration = 46.3412245, start = 0},
   },
 }
 P.transport["npc:innkeeper-pala"] = {
-  hash = "e84f3c",
-  fullHash = "e84f3c",
-  text = "Innkeeper Pala. Innkeeper Pala manages the Cat and the Shaman, the bustling tavern situated on the lower tier of Thunder Bluff. She offers visiting adventurers a hearthstone binding, cold drinks, and a place to rest between journeys across Mulgore and beyond. Perched on the lower rise of Thunder Bluff's sweeping mesas, Innkeeper Pala tends the hearth at the Cat and the Shaman. The establishment serves as one of the primary gathering points for travelers stepping off the central lifts or arriving from the sprawling plains of Mulgore. Holding a steady vigil over her common room, Pala ensures that weary warriors, wandering druids, and visiting allies of the Horde find a dependable shelter, a warm drink, and a familiar home away from home.",
+  hash = "61e29c",
+  fullHash = "61e29c",
+  text = "Innkeeper Pala. On Thunder Bluff’s lower rise, travelers find Innkeeper Pala tending the Cat and the Shaman. She offers a place to rest, cold drinks, and a hearthstone binding for journeys across Mulgore and beyond. Innkeeper Pala tends the hearth at the Cat and the Shaman on Thunder Bluff’s lower rise. Travelers arrive from the central lifts or the plains of Mulgore. In the common room, weary warriors, wandering druids, and the Horde’s visiting allies can find shelter, a warm drink, and a familiar place to rest.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_innkeeper-pala-ac02289132a1b5a2dee1/1-0000.mp3", duration = 40.96, start = 0},
+    {file = "Audio/Transport/full_npc_innkeeper-pala-2b744408104c67a1bf77/1-0000.mp3", duration = 29.7795918, start = 0},
   },
 }
 P.transport["npc:jahan-hawkwing"] = {
@@ -1770,11 +1770,11 @@ P.transport["npc:jahan-hawkwing"] = {
   },
 }
 P.transport["npc:james-halloran"] = {
-  hash = "5d923f",
-  fullHash = "5d923f",
-  text = "James Halloran. James Halloran is a human tanner working out of the Wetlands to supply fine hides across the eastern continents. Based in Menethil Harbor, he makes a living harvesting the tough, prized skins of the region's native crocolisks. He relies on passing travelers and nearby trade channels to gather raw materials and transport his finished leathers to market. From his home in Menethil Harbor, James Halloran makes his living from the marshland just outside town. As an enterprising tanner, Halloran recognized that the perilous bogs offer a lucrative commodity: crocolisk skins. Transforming the rugged hide of marsh reptiles into high-quality leather requires rare craftsmanship, and Halloran's finished goods are shipped out through local trade channels to buyers all across Azeroth. Operating so close to the marsh comes with constant danger. Halloran cannot easily hunt every beast himself while tending to curing vats and trade logistics. He frequently hires hardy travelers to handle the rougher chores of skinning young marsh beasts and managing routine deliveries between his work site and surrounding settlements, ensuring his bustling leather craft stays fully supplied.",
+  hash = "400b1c",
+  fullHash = "400b1c",
+  text = "James Halloran. In Menethil Harbor, James Halloran makes a living tanning crocolisk hides. Passing travelers and nearby trade channels help him gather raw skins and carry finished leather to buyers across the eastern continents. James Halloran lives and works in Menethil Harbor, earning his living from the marsh just outside town. The dangerous bogs provide crocolisk skins, which he turns into fine leather through rare craftsmanship. Nearby trade channels carry his finished goods to buyers across Azeroth. Halloran tends his curing vats and trade arrangements near the marsh, where danger is constant. He hires hardy travelers to skin young marsh beasts and handle routine deliveries between his work site and nearby settlements. Their help keeps his leather craft supplied while he manages the tanning and trade.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_james-halloran-deebcdf8849de18ae662/1-0000.mp3", duration = 66.5077551, start = 0},
+    {file = "Audio/Transport/full_npc_james-halloran-304898709bb23e79c04a/1-0000.mp3", duration = 44.9828571, start = 0},
   },
 }
 P.transport["npc:jannok-breezesong"] = {
@@ -1842,11 +1842,11 @@ P.transport["npc:jorgen"] = {
   },
 }
 P.transport["npc:josef-gregorian"] = {
-  hash = "04fc22",
-  fullHash = "04fc22",
-  text = "Josef Gregorian. Josef Gregorian is a Forsaken tailoring trainer found working in the Magic Quarter of the Undercity. He guides ambitious Horde tailors seeking to weave enchanted fabrics, providing expertise and directing them toward specialized garments. Amid the dim alchemical lanterns and damp vaults of the Magic Quarter, Josef Gregorian maintains the fine craft of tailoring for the Forsaken and their Horde allies. While life in the subterranean kingdom has turned cold, cloth-working remains vital for warlocks, mages, and priests who channel raw energies through woven fibers. Gregorian serves as a dependable instructor in the capital, ready to teach foundational patterns and to stitch the first robes of young mages who bring him the right materials.",
+  hash = "4f8622",
+  fullHash = "4f8622",
+  text = "Josef Gregorian. In the Undercity’s Magic Quarter, Josef Gregorian trains tailors of the Horde. His skill guides them toward enchanted fabrics and specialized garments. Josef Gregorian teaches tailoring in the Undercity’s Magic Quarter, where Forsaken and their Horde allies practice the craft. Tailoring remains vital to warlocks, mages, and priests who channel raw energies through woven fibers. Gregorian teaches foundational patterns and stitches the first robes for young mages who bring him the right materials.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_josef-gregorian-18c8243e977d6abcc8c5/1-0000.mp3", duration = 41.8742857, start = 0},
+    {file = "Audio/Transport/full_npc_josef-gregorian-fd5ec3142a33865dfb21/1-0000.mp3", duration = 29.9885714, start = 0},
   },
 }
 P.transport["npc:kaal-soulreaper"] = {
@@ -1890,11 +1890,11 @@ P.transport["npc:kaplak"] = {
   },
 }
 P.transport["npc:karang-amakkar"] = {
-  hash = "c75877",
-  fullHash = "c75877",
-  text = "Karang Amakkar. Karang Amakkar is an orc scout stationed at Zoram'gar Outpost along the rocky coast of Ashenvale. Operating on the fringe of Horde territory, he focuses on curbing the violent furbolg tribes that threaten the outpost's supply lines and borders. Adventurers travelling through the outpost rely on his local intelligence to navigate the perilous tensions of the forest. Perched at Zoram'gar Outpost on the Zoram Strand, Karang Amakkar serves the Horde at one of its most vulnerable border outposts. The encampment faces constant pressure from the sea, the night elves, and wild beasts inland. Karang keeps a close eye on the hostile native populations that surround the road eastward, ensuring that Horde couriers and scouting parties do not get ambushed by territorial indigenous tribes. Karang focuses much of his attention on the furbolg populations native to the ancient woods, notably the Foulweald tribe. With corruption and primal hostility driving these bear-folk into frenzies, Karang tasks capable warriors with culling their leader and clearing out dens before the tribes can muster organized assaults against Zoram'gar.",
+  hash = "55163d",
+  fullHash = "55163d",
+  text = "Karang Amakkar. At Zoram'gar Outpost, Karang Amakkar watches Ashenvale's rocky coast and the threats closing in around the Horde. At Zoram'gar Outpost on the Zoram Strand, Karang Amakkar guards one of the Horde's most exposed borders. The camp faces pressure from the sea, the night elves, and wild beasts inland. Karang watches the hostile peoples along the road east, guarding Horde couriers and scouts from ambush by tribes defending their territory. Karang Amakkar gives much of his attention to the furbolgs of the ancient woods, especially the Foulweald tribe. Corruption and primal hostility drive these bear-folk into frenzies. Karang sends capable warriors to bring down their leader and clear their dens before the tribes can gather for an organized assault on Zoram'gar.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_karang-amakkar-84d03873fa29d0ca6f2f/1-0000.mp3", duration = 63.3469388, start = 0},
+    {file = "Audio/Transport/full_npc_karang-amakkar-dd34f71c2b2f15ccca0d/1-0000.mp3", duration = 44.8261224, start = 0},
   },
 }
 P.transport["npc:kargal-battlescar"] = {
@@ -1906,11 +1906,11 @@ P.transport["npc:kargal-battlescar"] = {
   },
 }
 P.transport["npc:karos-razok"] = {
-  hash = "e3f4ae",
-  fullHash = "e3f4ae",
-  text = "Karos Razok. Karos Razok is the Forsaken bat handler stationed at the Sepulcher in Silverpine Forest. He oversees the roost of undead fliers that connect this contested frontier outpost directly to the Undercity and other Horde strongholds. Perched on the wooden platform above the crypts of the Sepulcher, Karos Razok tends to the skeletal bats vital for Forsaken communications. With Silverpine Forest infested by Moonrage worgen, rogue Dalaran magi, and the human remnants of Ambermill, overland travel along the northern road is treacherous. Razok ensures that messengers, fresh recruits, and vital supplies can cross above the haunted canopy, keeping the front line linked straight back to the capital in Tirisfal Glades.",
+  hash = "6d714b",
+  fullHash = "6d714b",
+  text = "Karos Razok. At the Sepulcher in Silverpine Forest, Karos Razok keeps the Forsaken bat roost ready. Karos Razok tends the skeletal bats from the wooden platform above the Sepulcher's crypts. Moonrage worgen, rogue Dalaran magi, and the human remnants of Ambermill make the northern road through Silverpine Forest treacherous. Razok keeps messengers, fresh recruits, and vital supplies moving above the haunted canopy, linking the frontier outpost to the capital in Tirisfal Glades.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_karos-razok-ed5a8b2834c70dd8c439/1-0000.mp3", duration = 44.6955102, start = 0},
+    {file = "Audio/Transport/full_npc_karos-razok-f7a2c3e5487b972959ca/1-0000.mp3", duration = 28.2644898, start = 0},
   },
 }
 P.transport["npc:katie-hunter"] = {
@@ -1930,27 +1930,27 @@ P.transport["npc:kaymard-copperpinch"] = {
   },
 }
 P.transport["npc:keeper-albagorm"] = {
-  hash = "7cae14",
-  fullHash = "7cae14",
-  text = "Keeper Albagorm. Keeper Albagorm is a keeper of the grove stationed at the idyllic sanctuary of Stonetalon Peak. Deeply concerned by the devastation corrupting the southern reaches of the mountains, he enlists travelers to help heal the scorched wilderness of the Charred Vale. Perched within the peaceful boughs of Stonetalon Peak, Keeper Albagorm stands vigil over one of Kalimdor's sacred elven refuges. Like many sons of Cenarius, he feels the pain of the natural world acutely. His attention is drawn southward toward the smoldering ruins of the Charred Vale, set afire by a greedy mechanized army of industrialists and now held by Bloodfury harpies who block any regrowth. From his sanctuary, Albagorm works tirelessly to halt the spread of the corruption and restore balance to the wounded forest.",
+  hash = "1668ba",
+  fullHash = "1668ba",
+  text = "Keeper Albagorm. At Stonetalon Peak, Keeper Albagorm watches the Charred Vale burn and seeks help healing the wilds. Keeper Albagorm guards the night elven refuge at Stonetalon Peak. Like other sons of Cenarius, he feels the pain of the natural world. South of the peak, the Charred Vale lies scorched by a greedy mechanized army of industrialists. Bloodfury harpies now hold the ruins and prevent new growth. From his sanctuary, Albagorm works to halt the corruption and restore balance to the wounded forest.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_keeper-albagorm-c9358ee0fe13a57bc527/1-0000.mp3", duration = 44.5910204, start = 0},
+    {file = "Audio/Transport/full_npc_keeper-albagorm-e2fc75c2e8d2e925f51c/1-0000.mp3", duration = 31.1379592, start = 0},
   },
 }
 P.transport["npc:keeper-bel-dugur"] = {
-  hash = "8527a4",
-  fullHash = "8527a4",
-  text = "Keeper Bel'dugur. Keeper Bel'dugur is a scholarly Forsaken residing deep within the Apothecarium of the Undercity. While ostensibly serving the interests of his people by commissioning expeditions to recover dark tomes and magical artifacts, subtle clues reveal far more sinister allegiances. Situated among the vats and researchers of the Apothecarium, Keeper Bel'dugur tasks adventurers with retrieving dangerous arcane and occult relics from across Azeroth. Among his most prominent interests is the Book of Ur, a legendary treatise on extra-dimensional beings locked away inside Shadowfang Keep. While many in the Undercity seek magical knowledge to cure or weaponize the condition of the undead, Bel'dugur's curated acquisitions appear tailored toward unearthing ancient, forbidden powers.",
+  hash = "ebbe03",
+  fullHash = "ebbe03",
+  text = "Keeper Bel'dugur. In the Undercity, Keeper Bel'dugur commissions expeditions to recover dark tomes and magical artifacts for his people. The scholarly Forsaken works deep within the Apothecarium. Among the Apothecarium's vats and researchers, Keeper Bel'dugur sends adventurers to recover dangerous arcane and occult relics from across Azeroth. The Book of Ur, a legendary treatise on extra-dimensional beings, is locked away inside Shadowfang Keep and draws his keen interest. While many in the Undercity seek magical knowledge to cure or weaponize undeath, Bel'dugur's curated acquisitions seem chosen to uncover ancient, forbidden powers.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_keeper-bel-dugur-ad111c5d2087535e5c35/1-0000.mp3", duration = 43.5722449, start = 0},
+    {file = "Audio/Transport/full_npc_keeper-bel-dugur-2105d9edba8e64013fba/1-0000.mp3", duration = 37.3812245, start = 0},
   },
 }
 P.transport["npc:keeper-bel-varil"] = {
-  hash = "20ef1f",
-  fullHash = "20ef1f",
-  text = "Keeper Bel'varil. Keeper Bel'varil is a Forsaken caretaker and researcher stationed at Tarren Mill in the Hillsbrad Foothills. Working closely alongside Wordeen Voidglare, he directs Horde adventurers to gather magical relics and binding materials from the surrounding lands to further their occult studies. Amid the besieged village of Tarren Mill, Keeper Bel'varil quietly supports the Forsaken's magical and alchemical research. While royal apothecaries and soldiers occupy themselves with the Alliance garrison down the road at Southshore, Bel'varil focuses on practical sorcery, dispatching travelers to recover stone tokens and binding bracers from nearby elemental and enchanted threats.",
+  hash = "d7da58",
+  fullHash = "d7da58",
+  text = "Keeper Bel'varil. At Tarren Mill, Keeper Bel'varil studies magic and alchemy for the Forsaken. His work with Wordeen Voidglare draws Horde adventurers into the search for relics and binding materials across Hillsbrad Foothills. Keeper Bel'varil supports Forsaken magic and alchemy in besieged Tarren Mill. The royal apothecaries and soldiers focus on the Alliance garrison down the road at Southshore. Bel'varil turns to practical sorcery, sending travelers to recover stone tokens and binding bracers from nearby elemental and enchanted threats.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_keeper-bel-varil-3fdf81a91109e1bd966c/1-0000.mp3", duration = 36.8065306, start = 0},
+    {file = "Audio/Transport/full_npc_keeper-bel-varil-97e322c7d78fe11c7cb4/1-0000.mp3", duration = 29.44, start = 0},
   },
 }
 P.transport["npc:keldran"] = {
@@ -1978,11 +1978,11 @@ P.transport["npc:kerlonian-evershade"] = {
   },
 }
 P.transport["npc:kernobee"] = {
-  hash = "e53a24",
-  fullHash = "e53a24",
-  text = "Kernobee. Kernobee is a goblin engineer trapped deep within the ruined halls of Gnomeregan. After stumbling upon dangerous secrets involving Dark Iron dwarf sabotage, he was captured, beaten unconscious, and left to die among the troggs in the dormitory quarters. While conducting business or scavenging within the fallen gnome capital, Kernobee uncovered a grave secret: the Dark Iron dwarves were directly involved in the construction and operation of the massive super rig burrowing beneath the city. Realizing the immense value—and lethality—of this intelligence, he attempted to flee immediately to Ratchet to deliver word to his associate, Tinkerwiz. Unfortunately, the Dark Irons caught him before he could make his escape. Rather than killing him outright, his captors battered Kernobee unconscious and tossed him into a small room along the dormitory corridor, opposite the Clean Zone. Left stranded among feral troggs and radiation fallout, the battered goblin depends entirely on passing adventurers to revive him and shield him until he can reach safety.",
+  hash = "da3d4f",
+  fullHash = "da3d4f",
+  text = "Kernobee. Deep within Gnomeregan, Kernobee is trapped among the ruins. The goblin engineer uncovered Dark Iron involvement in the super rig, then was captured, beaten unconscious, and left in the dormitory quarters among the troggs. While doing business or scavenging in Gnomeregan, Kernobee discovered the Dark Iron dwarves had helped build and operate the great super rig burrowing beneath the city. Knowing how dangerous this knowledge was, he tried to flee to Ratchet and warn his associate, Tinkerwiz. The Dark Irons caught him before he could escape. Kernobee's captors beat him unconscious instead of killing him. They threw him into a small room along the dormitory corridor, opposite the Clean Zone. Feral troggs and radiation surround him, and he needs help to wake, reach safety, and get clear of the ruins.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_kernobee-0d6ca5470e2d39a73aef/1-0000.mp3", duration = 60.6302041, start = 0},
+    {file = "Audio/Transport/full_npc_kernobee-5d11f7171d6dc4688c03/1-0000.mp3", duration = 46.6546939, start = 0},
   },
 }
 P.transport["npc:keryn-sylvius"] = {
@@ -2002,11 +2002,11 @@ P.transport["npc:khelden-bremen"] = {
   },
 }
 P.transport["npc:kil-hala"] = {
-  hash = "bb9ab9",
-  fullHash = "bb9ab9",
-  text = "Kil'hala. Kil'hala is a jungle troll tailoring trainer stationed at the Crossroads in the Barrens. Skilled in working with both everyday cloth and exotic woven materials, he instructs Horde crafters looking to refine their needlework. Beyond common thread, he weaves nether-lace robes for young Horde mages who bring him locks of hair from the laughing sisters of Ashenvale. Positioned at the bustling hub of the Crossroads, Kil'hala offers his tailoring expertise to passing travelers and Horde recruits. While much of his craft involves common spun bolts and garments fit for dry plains life, his knowledge extends into rare magical textiles. As a favor to the mage Deino, he fashions nether-lace robes for young mages who bring him hair taken from the laughing sisters, dryads of Ashenvale's forests.",
+  hash = "8cd295",
+  fullHash = "8cd295",
+  text = "Kil'hala. At the Crossroads in the Barrens, Kil'hala teaches Horde tailors to work cloth. He also weaves nether-lace robes for young Horde mages who bring him locks of hair from Ashenvale's laughing sisters. Kil'hala trains tailors at the Crossroads, where Horde recruits and travelers can learn his craft. He teaches work with common spun bolts and garments suited to life on the dry plains. At Deino's request, he also makes nether-lace robes for young mages who bring him hair from the laughing sisters, the dryads of Ashenvale's forests.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_kil-hala-3513f47145bb13f534df/1-0000.mp3", duration = 45.2179592, start = 0},
+    {file = "Audio/Transport/full_npc_kil-hala-ee415825892f5a4d5397/1-0000.mp3", duration = 33.3583673, start = 0},
   },
 }
 P.transport["npc:kin-weelay"] = {
@@ -2074,35 +2074,35 @@ P.transport["npc:kreldig-ungor"] = {
   },
 }
 P.transport["npc:krolg"] = {
-  hash = "331f6c",
-  fullHash = "331f6c",
-  text = "Krolg. Krolg is an uncorrupted furbolg living in an isolated hut south of Mystral Lake in Ashenvale. Formerly a member of the Foulweald tribe, he was cast out by his kin, who fell to demonic madness, and will only speak with those who appear to him in furbolg form. While most of the Foulweald furbolgs in Ashenvale have succumbed to the demonic taint left behind by the Burning Legion, Krolg remains lucid and untouched by madness. Residing in a secluded shelter south of Mystral Lake, he keeps a cautious vigil over the forest. Having witnessed the tragic descent of his brethren into senseless violence, he refuses to interact with outsiders at face value, speaking only with beings that appear as kin.",
+  hash = "a9d8f6",
+  fullHash = "a9d8f6",
+  text = "Krolg. South of Mystral Lake, Krolg lives uncorrupted in an isolated hut in Ashenvale. Cast out from the Foulweald tribe, he kept his sanity when his kin fell to demonic madness. He speaks only with those who appear to be furbolgs. South of Mystral Lake, Krolg remains lucid and untouched by madness. Most Foulweald furbolgs in Ashenvale have succumbed to the demonic taint left by the Burning Legion. In his secluded shelter, Krolg keeps a cautious vigil over the forest. He witnessed his brethren descend into senseless violence, and now speaks only with beings who appear to be kin.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_krolg-9cae48b889a22b39ab37/1-0000.mp3", duration = 41.5346939, start = 0},
+    {file = "Audio/Transport/full_npc_krolg-e1ef6af9b9b59d9417bf/1-0000.mp3", duration = 34.8212245, start = 0},
   },
 }
 P.transport["npc:krom-stoutarm"] = {
-  hash = "6682e1",
-  fullHash = "6682e1",
-  text = "Krom Stoutarm. Krom Stoutarm is a dwarven scholar and warlock found deep within the Library of the Hall of Explorers in Ironforge. Unlike most of his kin who delve solely into ancient stone and titan relics, Krom studies darker, arcane texts and demonic rituals. He acts as an indispensable contact for Alliance warlocks seeking esoteric knowledge across Kalimdor and the Eastern Kingdoms. The Hall of Explorers is typically known for dwarven archaeologists obsessed with picks, shovels, and titan artifacts. Krom Stoutarm cuts an unusual figure among them. Lurking in the Library surrounded by massive tomes, he pursues occult lore and the binding rites of demonic summoners. His presence in Ironforge demonstrates that while warlock arts are widely distrusted, scholar-practitioners who study the forbidden arts still operate within the mountain city's halls. When Alliance warlocks seek to bind potent demonic servants like the felhunter, their journey inevitably crosses paths with Krom. Possessing knowledge of scattered occult volumes, he directs aspiring summoners far across the seas—including dangerous forays among the centaur of Thousand Needles—to recover torn pages and fragments of the infamous Tome of the Cabal.",
+  hash = "f7f132",
+  fullHash = "f7f132",
+  text = "Krom Stoutarm. In Ironforge, Krom Stoutarm studies the darker arts in the Hall of Explorers. A dwarven scholar and warlock, he reads arcane texts and demonic rites in the library, and guides Alliance warlocks seeking esoteric knowledge across Kalimdor and the Eastern Kingdoms. Krom Stoutarm pursues occult lore in the Hall of Explorers. While dwarven archaeologists there focus on picks, shovels, and titan artifacts, Krom studies massive tomes and the rites used to bind demons. His work gives a warlock’s craft a place within Ironforge’s mountain halls, though many distrust those arts. Alliance warlocks seeking to bind powerful demons such as the felhunter turn to Krom Stoutarm. He knows of occult volumes scattered across distant lands and directs summoners to recover torn pages and fragments of the infamous Tome of the Cabal, including from the centaur of Thousand Needles.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_krom-stoutarm-e77e3e6a73b43eb5a6ff/1-0000.mp3", duration = 72.0195918, start = 0},
+    {file = "Audio/Transport/full_npc_krom-stoutarm-1379eba40363d8bb651f/1-0000.mp3", duration = 50.4163265, start = 0},
   },
 }
 P.transport["npc:krusk"] = {
-  hash = "b3b4c4",
-  fullHash = "b3b4c4",
-  text = "Krusk. Krusk is an orc scout stationed at Tarren Mill in the Hillsbrad Foothills. Dispatched directly under Warchief Thrall's orders to investigate the Syndicate and recover relics from the ruins of Durnholde Keep, he now coordinates reconnaissance and rescue efforts after his initial infiltration was ambushed. When Warchief Thrall turned his attention back to the ruins of Durnholde Keep, he dispatched Krusk and a small strike team to scout Syndicate activity and retrieve relics tied to the fortress's grim past. However, the human outlaws proved more entrenched and coordinated than anticipated. An ambush inside Durnholde's crumbling walls overwhelmed the orcish scout squad. Krusk managed to fight his way out, but his comrades were taken captive: Drull and Tog'thar were locked away within the ruins, while the expedition's leader, Gol'dir, was moved to another Syndicate hold. Regrouping at Tarren Mill, Krusk now directs Horde adventurers to breach Durnholde, recover the lost items, and liberate his trapped comrades. Beyond recovering his scouts, Krusk remains fixated on dismantling the Syndicate's hold over Hillsbrad. The fallen nobles of Alterac represent a volatile threat, operating out of Durnholde Keep and scheming against both Horde outposts and their former Alliance brethren. Working from Tarren Mill, Krusk tracks the movements of Syndicate leaders, such as Lord Aliden Perenolde, hoping to sever their leadership before they can threaten the tenuous Horde foothold in Lordaeron.",
+  hash = "716315",
+  fullHash = "716315",
+  text = "Krusk. At Tarren Mill, Krusk coordinates the search for his captured scouts and the Syndicate's relics. Sent by Warchief Thrall to investigate Durnholde Keep, he survived an ambush that scattered his team. Krusk leads the effort from Tarren Mill after a failed strike at Durnholde Keep. Warchief Thrall sent him and a small team to scout Syndicate activity and recover relics tied to the fortress's grim past. The human outlaws were more entrenched and coordinated than expected, and an ambush inside the crumbling walls overwhelmed the orcish scouts. Krusk fought his way out. Drull and Tog'thar were taken captive and locked within the ruins, while Gol'dir, the expedition's leader, was moved to another Syndicate hold. Krusk now directs Horde forces to breach Durnholde, recover the lost items, and free his trapped comrades. From Tarren Mill, Krusk tracks the Syndicate's movements in Hillsbrad. The fallen nobles of Alterac operate from Durnholde Keep, plotting against Horde outposts and their former Alliance brethren. Krusk watches leaders such as Lord Aliden Perenolde, hoping to break their command before they threaten the Horde's tenuous foothold in Lordaeron.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_krusk-c688783a91abdf21033b/1-0000.mp3", duration = 88.5028571, start = 0},
+    {file = "Audio/Transport/full_npc_krusk-31da496c91c5159116a6/1-0000.mp3", duration = 71.0269388, start = 0},
   },
 }
 P.transport["npc:kuray-bin"] = {
-  hash = "aade92",
-  fullHash = "aade92",
-  text = "Kuray'bin. Kuray'bin is a Darkspear jungle troll scout stationed at a guard post outside Splintertree Post in Ashenvale. He watches the surrounding forest trails for night elf scouts sneaking close to the Horde encampment. Positioned just outside Splintertree Post, Kuray'bin keeps watch against Alliance infiltration in the deep woods of Ashenvale. The Silverwing Sentinels constantly patrol the surrounding canopy, sending agile outrunners across the border to gather intelligence on Horde lumber operations and defenses. Knowing that unmonitored scouts quickly become ambushing forces, Kuray'bin directs capable Horde fighters to hunt down the outrunners before they can report back to Silverwing Outpost.",
+  hash = "95d531",
+  fullHash = "95d531",
+  text = "Kuray'bin. Kuray'bin watches the forest trails outside Splintertree Post in Ashenvale. The Darkspear scout guards the Horde encampment from night elf scouts. Outside Splintertree Post, Kuray'bin watches the forest for Alliance scouts. Silverwing Sentinels patrol the canopy and send swift outrunners across the border. Their task is to gather intelligence on Horde lumber operations and defenses. Kuray'bin sends Horde fighters to hunt the outrunners before they can report to Silverwing Outpost, since scouts left unchecked can become an ambushing force.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_kuray-bin-5652582852d4d3289285/1-0000.mp3", duration = 38.7395918, start = 0},
+    {file = "Audio/Transport/full_npc_kuray-bin-7bfe4beea3b00a41227b/1-0000.mp3", duration = 33.2016327, start = 0},
   },
 }
 P.transport["npc:kzan-thornslash"] = {
@@ -2130,11 +2130,11 @@ P.transport["npc:lakota-windsong"] = {
   },
 }
 P.transport["npc:lanka-farshot"] = {
-  hash = "22ea15",
-  fullHash = "22ea15",
-  text = "Lanka Farshot. Lanka Farshot is a tauren hunter trainer stationed at Camp Narache within the Red Cloud Mesa. He guides novice tauren hunters as they take their first steps in tracking, marksmanship, and surviving the plains of Mulgore. Standing watch over Camp Narache, Lanka Farshot greets new tauren called to the path of the hunter. Fresh recruits arrive carrying an etched note directing them to seek his counsel. Under his steady eye, apprentices learn the fundamentals of ranged combat, tracking prey, and respecting the wild beasts that roam the grassy plains of Mulgore. His teachings ensure that every young hunter serves as a capable scout and provider for the tribe.",
+  hash = "90a3cb",
+  fullHash = "90a3cb",
+  text = "Lanka Farshot. At Camp Narache, Lanka Farshot guides young tauren onto the hunter's path. He is stationed within the Red Cloud Mesa and teaches tracking, marksmanship, and survival on Mulgore's plains. At Camp Narache, Lanka Farshot welcomes new tauren called to the hunter's path. Fresh recruits arrive with an etched note that sends them to seek his counsel. Under his guidance, they learn ranged combat, how to track prey, and respect for the wild beasts roaming Mulgore's grassy plains. He prepares each young hunter to scout and provide for the tribe.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_lanka-farshot-3e91e0cf1faff492c710/1-0000.mp3", duration = 38.3216327, start = 0},
+    {file = "Audio/Transport/full_npc_lanka-farshot-e2356117491674b55d2b/1-0000.mp3", duration = 32.9665306, start = 0},
   },
 }
 P.transport["npc:lar-prowltusk"] = {
@@ -2146,19 +2146,19 @@ P.transport["npc:lar-prowltusk"] = {
   },
 }
 P.transport["npc:laris-geardawdle"] = {
-  hash = "814f54",
-  fullHash = "814f54",
-  text = "Laris Geardawdle. Laris Geardawdle is an eccentric gnomish researcher stationed in the Library of the Hall of Explorers in Ironforge. He dedicates his academic life to studying the bizarre nature and origins of oozes across Azeroth. Adventurers willing to collect noxious slime samples find him an eager, if slightly unhinged, patron. Tucked away among the towering bookshelves and ancient relics of the Hall of Explorers, Laris Geardawdle pursues a rather unglamorous niche of natural philosophy: the genesis of oozes. While his dwarven colleagues pore over Titan tablets and ancient stone carvings, Laris is convinced that Azeroth's vile, gelatinous horrors hold fascinating alchemical and biological secrets. He tasks roving explorers with gathering caustic samples from remote corners of the world, eager to test his strange hypotheses on how these mindless puddles of malice come to life.",
+  hash = "c152eb",
+  fullHash = "c152eb",
+  text = "Laris Geardawdle. In Ironforge's Hall of Explorers, Laris Geardawdle studies oozes across Azeroth. The gnome researcher gives his academic life to their strange nature and origins, and welcomes adventurers who bring him noxious slime samples. In the Library of the Hall of Explorers, Laris Geardawdle studies how oozes begin. His dwarven colleagues pore over Titan tablets and ancient stone carvings, but Laris searches the vile, gelatinous horrors of Azeroth for alchemical and biological secrets. He asks roving explorers to gather caustic samples from remote corners of the world. With them, he tests his unusual ideas about how these mindless puddles of malice come to life.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_laris-geardawdle-51f59add9de14d385d27/1-0000.mp3", duration = 51.5395918, start = 0},
+    {file = "Audio/Transport/full_npc_laris-geardawdle-78cae85f89ec3dc00bd9/1-0000.mp3", duration = 39.5232653, start = 0},
   },
 }
 P.transport["npc:lars"] = {
-  hash = "55964e",
-  fullHash = "55964e",
-  text = "Lars. Lars is a beleaguered human survivor camping out in the wilderness of Duskwood. Along with his companion Sven Yorgen, he struggles to hold his ground on the northern edge of the Hushed Bank against the terrors that stalk the forest. Perched in a modest camp on the northern edge of the Hushed Bank, Lars ekes out a precarious survival far from the questionable safety of Darkshire. Duskwood is treacherous at the best of times, but the surrounding woods crawl with ferocious beasts, relentless undead, and creeping worgen. Lars stays close by Sven Yorgen, striving simply to stay alive in an increasingly hostile wilderness. Survival at the camp requires constant vigilance against the local predators. Lars finds himself sorely pressed by the relentless packs of starving dire wolves that haunt the shadows around their fire. Unable to lower his guard or drive them back alone, he relies on capable travelers to thin the hungry predators before his small camp is completely overrun.",
+  hash = "f8d678",
+  fullHash = "f8d678",
+  text = "Lars. At a camp on the northern edge of the Hushed Bank, Lars struggles to survive Duskwood with Sven Yorgen. The woods around them hold beasts, undead, and worgen. Lars keeps to a small camp on the northern edge of the Hushed Bank, away from the uncertain safety of Darkshire. Duskwood is dangerous, and the surrounding woods hold ferocious beasts, undead, and worgen. He stays close to Sven Yorgen, trying to survive in the hostile forest. Starving dire wolves prowl the woods around Lars and Sven's camp. Lars cannot keep watch or drive them off alone, so he depends on travelers to thin their packs before the predators overrun the camp.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_lars-133552013bf9dee7b0c8/1-0000.mp3", duration = 54.7526531, start = 0},
+    {file = "Audio/Transport/full_npc_lars-0f4153091db4c091df99/1-0000.mp3", duration = 38.7395918, start = 0},
   },
 }
 P.transport["npc:lelanai"] = {
@@ -2178,19 +2178,19 @@ P.transport["npc:lieutenant-haggerdin"] = {
   },
 }
 P.transport["npc:lieutenant-lisande"] = {
-  hash = "cd98ac",
-  fullHash = "cd98ac",
-  text = "Lieutenant Lisande. Lieutenant Lisande is an emissary of the Argent Dawn stationed upon the high mesas of Thunder Bluff. As a human operating openly in tauren lands, she serves as a liaison against the shared existential threat of the Scourge. While human faces are rare across the windblown heights of Thunder Bluff, the Argent Dawn transcends traditional faction enmities. Lieutenant Lisande serves the holy order by watching for signs of the Lich King's taint even in remote Kalimdor. When undead forces stir on the plains below, she rallies brave Horde champions to ride out and investigate the encroaching menace before it can defile the sacred earth.",
+  hash = "f3b394",
+  fullHash = "f3b394",
+  text = "Lieutenant Lisande. On Thunder Bluff’s high mesas, Lieutenant Lisande watches for signs of the Scourge. Lieutenant Lisande serves the Argent Dawn from Thunder Bluff, where human faces are rare. The holy order watches for signs of the Lich King's taint, even in remote Kalimdor. When undead forces stir on the plains below, Lisande calls on Horde champions to ride out and investigate before the Scourge can defile the sacred earth.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_lieutenant-lisande-7e0ad80e5443812ccdaa/1-0000.mp3", duration = 37.6163265, start = 0},
+    {file = "Audio/Transport/full_npc_lieutenant-lisande-728c448a0dd0021233b4/1-0000.mp3", duration = 25.6261224, start = 0},
   },
 }
 P.transport["npc:lieutenant-nevell"] = {
-  hash = "66d30e",
-  fullHash = "66d30e",
-  text = "Lieutenant Nevell. Lieutenant Nevell is an officer of the Argent Dawn stationed outside the gates of Ironforge in Dun Morogh. Serving as a bulwark against the spreading darkness of the Scourge, he coordinates local defenders and alerts arriving adventurers to undead threats probing the dwarf kingdom's borders. While the Argent Dawn is most renowned for holding the line in the shattered Plaguelands of Lordaeron, its vigilance reaches far into the south. Stationed in the freezing winds outside Ironforge, Lieutenant Nevell represents the order's proactive defense against necromantic incursions. When Scourge activity stirs in the mountain passes of Dun Morogh, Nevell directs recruits and capable adventurers toward the front lines to ensure Ironforge's snowy doorstep remains secure.",
+  hash = "a2e25e",
+  fullHash = "a2e25e",
+  text = "Lieutenant Nevell. Outside Ironforge in Dun Morogh, Lieutenant Nevell watches for the Scourge. The Argent Dawn officer coordinates local defenders and warns arriving adventurers of undead threats near the dwarven kingdom. Lieutenant Nevell watches Ironforge's snowy approaches for the Scourge. Though the Argent Dawn is best known for holding the line in Lordaeron's shattered Plaguelands, its watch reaches farther south. From outside Ironforge, Nevell directs recruits and capable adventurers toward the front when Scourge activity stirs in Dun Morogh's mountain passes. The dwarven city's borders remain under watch.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_lieutenant-nevell-e06fecc2233c2e9c5e11/1-0000.mp3", duration = 42.24, start = 0},
+    {file = "Audio/Transport/full_npc_lieutenant-nevell-11b5ff3f6615ed58a556/1-0000.mp3", duration = 34.1681633, start = 0},
   },
 }
 P.transport["npc:lieutenant-orrin"] = {
@@ -2210,19 +2210,19 @@ P.transport["npc:loganaar"] = {
   },
 }
 P.transport["npc:lomac-gearstrip"] = {
-  hash = "8ae00f",
-  fullHash = "8ae00f",
-  text = "Lomac Gearstrip. Lomac Gearstrip is an ambitious gnome inventor based in Tinker Town within Ironforge. Renowned for formulating the devastating NG-5 explosive, he liaises with fellow gnomish researchers operating across Kalimdor. Amid the clanging gears and hissing pipes of Ironforge's Tinker Town, Lomac Gearstrip pursues the finer points of gnomish ordnance. Like many exiled gnomes who fled the tragedy at Gnomeregan, Lomac has integrated his tinkering operations directly into the dwarven capital. His workshop focuses on volatile chemical mixtures and specialized munitions designed to overcome heavily defended enemy strongholds. Lomac's proudest contribution to modern combat engineering is the NG-5 explosive. Formulated for maximum destructive yield, the compound demands precise handling and rare chemical reagents. To refine and deploy such hazardous inventions in the field, Lomac maintains contact with old colleagues stationed in distant theaters, exchanging technical orders and dangerous supplies across the Great Sea.",
+  hash = "66dc77",
+  fullHash = "66dc77",
+  text = "Lomac Gearstrip. In Ironforge's Tinker Town, Lomac Gearstrip pursues gnomish inventions. He formulated the NG-5 explosive and keeps in contact with fellow researchers in Kalimdor. Lomac Gearstrip works on gnomish ordnance in Ironforge's Tinker Town. Like many gnomes who fled Gnomeregan's tragedy, he has brought his tinkering operations to the dwarven capital. His workshop focuses on volatile chemical mixtures and specialized munitions meant to overcome heavily defended enemy strongholds. Lomac's proudest contribution to combat engineering is the NG-5 explosive. The compound is made for maximum destructive yield and requires precise handling and rare chemical reagents. To refine and use such hazardous inventions in the field, Lomac stays in contact with former colleagues stationed in distant theaters. They exchange technical orders and dangerous supplies across the Great Sea.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_lomac-gearstrip-355bd181a774aabc104a/1-0000.mp3", duration = 60.4995918, start = 0},
+    {file = "Audio/Transport/full_npc_lomac-gearstrip-814ea52a9841dbd5b954/1-0000.mp3", duration = 52.6628571, start = 0},
   },
 }
 P.transport["npc:longbraid-the-grim"] = {
-  hash = "a2da55",
-  fullHash = "a2da55",
-  text = "Longbraid the Grim. Longbraid the Grim is an Ironforge dwarf commander stationed just outside the fallen fortress of Dun Modr in the northern Wetlands. Mourning the loss of his brother and the overrun of the Thandol Span, he coordinates the surviving dwarf forces against the invading Dark Iron clan. Positioned within sight of the bridge to the Arathi Highlands, Longbraid the Grim rallies what remains of the dwarven garrison after the Dark Iron clan seized Dun Modr. The sudden assault devastated the regional defenders and resulted in the death of Longbraid's own brother during the siege of the Thandol Span. Burdened by grief and hatred, Longbraid refuses to abandon the northern boundary, directing travelers and surviving mountaineers in surgical strikes to curb the Dark Iron advance. Beyond defending the approach to the bridge, Longbraid oversees broader dwarven operations across the Wetlands. He dispatched vital soldiers to escort Prospector Whelgar into the marshlands and works relentlessly to reclaim the lost fortifications of Dun Modr, vowing retribution against the Dark Iron saboteurs.",
+  hash = "1ff14a",
+  fullHash = "1ff14a",
+  text = "Longbraid the Grim. Outside fallen Dun Modr, Longbraid the Grim keeps watch over the northern Wetlands. He mourns his brother and the loss of the Thandol Span, while leading the surviving dwarves against the Dark Iron clan. Longbraid the Grim rallies the dwarven garrison near the bridge to the Arathi Highlands. The Dark Iron clan seized Dun Modr in a sudden assault that devastated the defenders. Longbraid's brother died during the siege of the Thandol Span. Grief and hatred keep Longbraid at the northern boundary, where he directs travelers and surviving mountaineers in strikes against the Dark Iron advance. Longbraid also directs dwarven operations across the Wetlands. He sent soldiers to escort Prospector Whelgar into the marshlands and works to reclaim Dun Modr's lost fortifications. He vows retribution against the Dark Iron saboteurs.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_longbraid-the-grim-490f45e7fe3f7f172930/1-0000.mp3", duration = 60.4734694, start = 0},
+    {file = "Audio/Transport/full_npc_longbraid-the-grim-cbd1d2bb6cb11be48f9e/1-0000.mp3", duration = 48.3265306, start = 0},
   },
 }
 P.transport["npc:loramus-thalipedes"] = {
@@ -2250,11 +2250,11 @@ P.transport["npc:lord-baurles-k-wishock"] = {
   },
 }
 P.transport["npc:lord-grayson-shadowbreaker"] = {
-  hash = "685f96",
-  fullHash = "685f96",
-  text = "Lord Grayson Shadowbreaker. Lord Grayson Shadowbreaker is a veteran paladin commander of the Knights of the Silver Hand stationed within Stormwind's Cathedral of Light. One of the Alliance's foremost paladins, he trains budding champions of the Light and oversees the sacred, arduous trials required for senior paladins to claim their holy chargers. Lord Grayson Shadowbreaker stands among the foremost defenders of the Alliance, anchoring the order's presence in Stormwind City. A veteran of the Silver Hand, Grayson does not merely instruct recruits in martial skill; he tests their spiritual conviction. When promising knights demonstrate their readiness, Grayson dispatches them north toward the contested front lines of the Western Plaguelands to aid Commander Ashlam Valorfist at Chillwind Camp.",
+  hash = "cc3796",
+  fullHash = "cc3796",
+  text = "Lord Grayson Shadowbreaker. At Stormwind's Cathedral of Light, Lord Grayson Shadowbreaker trains champions of the Light. A veteran paladin commander of the Knights of the Silver Hand, he guides promising knights and oversees the sacred trials senior paladins must complete to claim their holy chargers. Lord Grayson Shadowbreaker leads the Silver Hand's work in Stormwind City and ranks among the Alliance's foremost defenders. A veteran of the order, he trains recruits in arms and tests their faith in the Light. When promising knights are ready, he sends them north to the contested front lines of the Western Plaguelands. There, they aid Commander Ashlam Valorfist at Chillwind Camp.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_lord-grayson-shadowbreaker-f1e484fe7f3c6c471ec8/1-0000.mp3", duration = 41.5346939, start = 0},
+    {file = "Audio/Transport/full_npc_lord-grayson-shadowbreaker-d0fcfe3cd46720532ce1/1-0000.mp3", duration = 37.8514286, start = 0},
   },
 }
 P.transport["npc:lord-jorach-ravenholdt"] = {
@@ -2282,19 +2282,19 @@ P.transport["npc:lord-shalzaru"] = {
   },
 }
 P.transport["npc:lorekeeper-raintotem"] = {
-  hash = "67f0f0",
-  fullHash = "67f0f0",
-  text = "Lorekeeper Raintotem. Lorekeeper Raintotem is a tauren elder stationed in northern Mulgore just south of Red Rocks. He tends to the sacred burial grounds and asks adventurers to drive off the Bristleback quilboar disturbing them. Positioned near the sacred bluffs of Red Rocks in Mulgore, Lorekeeper Raintotem tends to the spiritual obligations of his people. He asks adventurers to drive Bristleback Interlopers from the burial ground, restoring peace to the ancestors' resting place. Beyond testing fledgling heroes, Lorekeeper Raintotem watches over the hallowed burial sites at Red Rocks. When Bristleback quilboar interlopers disturb the sanctified resting places of deceased tauren chieftains and shamans, Raintotem enlists travelers to restore dignity and quiet the disturbed dead.",
+  hash = "a072ed",
+  fullHash = "a072ed",
+  text = "Lorekeeper Raintotem. South of Red Rocks, Lorekeeper Raintotem tends Mulgore’s sacred burial grounds. He asks travelers to drive off Bristleback quilboar disturbing them. Lorekeeper Raintotem tends his people’s sacred burial grounds near Red Rocks in Mulgore. Bristleback Interlopers disturb the resting place, and he asks travelers to drive them away so the ancestors may rest in peace. Lorekeeper Raintotem watches over the burial sites at Red Rocks. Bristleback quilboar disturb the resting places of tauren chieftains and shamans. Raintotem calls on travelers to restore quiet and dignity to the grounds and their dead.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_lorekeeper-raintotem-445215c34a6ba8ed5845/1-0000.mp3", duration = 42.5795918, start = 0},
+    {file = "Audio/Transport/full_npc_lorekeeper-raintotem-1e91f613ca0b30b34612/1-0000.mp3", duration = 35.2130612, start = 0},
   },
 }
 P.transport["npc:loslor-rudge"] = {
-  hash = "de7d37",
-  fullHash = "de7d37",
-  text = "Loslor Rudge. Loslor Rudge is an enterprising dwarven engineering supplier stationed at Steelgrill's Depot in Dun Morogh. He provides mechanical parts, tools, and munitions to tinkerers across the snowy mountain ridges, keeping critical connections open with gunsmiths like Hegnar Rumbleshot. Operating out of Steelgrill's Depot just down the road from Kharanos, Loslor Rudge keeps a steady inventory of engineering essentials—ranging from copper modulators and bronze tubing to blasting powder and spanners. Dun Morogh's harsh weather and sprawling tinker operations mean practical parts are constantly in demand, and Loslor prides himself on keeping the local gearheads supplied. However, the wilderness between outposts is treacherous; when a courier taking a shortcut near the Grizzled Den was chased away by wendigos, an essential shipment of ammunition meant for his valued client, gunsmith Hegnar Rumbleshot, was left behind in the snow.",
+  hash = "46ef3d",
+  fullHash = "46ef3d",
+  text = "Loslor Rudge. At Steelgrill's Depot, Loslor Rudge keeps Dun Morogh's tinkerers supplied. His tools, parts, and munitions reach craftsmen across the snowy ridges, including gunsmith Hegnar Rumbleshot. Loslor Rudge supplies engineering goods from Steelgrill's Depot, just down the road from Kharanos. His stock includes copper modulators, bronze tubing, blasting powder, and spanners. Harsh weather and scattered tinker operations keep practical parts in demand, and Loslor works to keep local gearheads supplied. The wilderness between outposts makes deliveries perilous. A courier taking a shortcut near the Grizzled Den was driven off by wendigos, leaving behind an ammunition shipment meant for Loslor's valued client, gunsmith Hegnar Rumbleshot.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_loslor-rudge-9637f2625eafd97bd613/1-0000.mp3", duration = 52.9763265, start = 0},
+    {file = "Audio/Transport/full_npc_loslor-rudge-3d033fe00b37bd0364b6/1-0000.mp3", duration = 46.5763265, start = 0},
   },
 }
 P.transport["npc:lotwil-veriatus"] = {
@@ -2346,19 +2346,19 @@ P.transport["npc:magga"] = {
   },
 }
 P.transport["npc:magis-sparkmantle"] = {
-  hash = "100e4f",
-  fullHash = "100e4f",
-  text = "Magis Sparkmantle. Magis Sparkmantle is a gnome mage trainer stationed inside the Thunderbrew Distillery in Kharanos. He offers guidance and training to fledgling spellcasters who venture out from Coldridge Valley into the heart of Dun Morogh. While dwarves gather in the Thunderbrew Distillery for hearty ales, Magis Sparkmantle provides an arcane presence among the casks and kegs of Kharanos. Gnome mages often integrate closely with their dwarven allies across Dun Morogh, and Sparkmantle serves as a key mentor for novice spellcasters ready to expand their theoretical and practical grasp of the arcane arts. Beyond instructing novices in basic incantations, Magis ensures that promising students connect with broader magical circles. When mages outgrow early local instruction or require specialized guidance, Sparkmantle directs them further afield, sending them toward fellow practitioners like Bink or mentors stationed across the Alliance's primary hubs.",
+  hash = "f23983",
+  fullHash = "f23983",
+  text = "Magis Sparkmantle. In Kharanos, Magis Sparkmantle trains gnome mages inside the Thunderbrew Distillery. He guides fledgling spellcasters who travel from Coldridge Valley into Dun Morogh. Dwarves gather at the Thunderbrew Distillery for ale, and Magis Sparkmantle teaches among its casks and kegs. Gnome mages work closely with their dwarven allies across Dun Morogh. Magis helps novice spellcasters deepen their knowledge of the arcane and put it into practice. Magis teaches beginners their first incantations and points promising students toward wider circles of magic. When they outgrow his early lessons or need specialized guidance, he sends them to other practitioners, including Bink, or to mentors in the Alliance’s main hubs.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_magis-sparkmantle-ba01bd739cc566678d91/1-0000.mp3", duration = 57.1820408, start = 0},
+    {file = "Audio/Transport/full_npc_magis-sparkmantle-38cbc6f3a506096373e9/1-0000.mp3", duration = 42.5795918, start = 0},
   },
 }
 P.transport["npc:magistrate-henry-maleb"] = {
-  hash = "d0ff8b",
-  fullHash = "d0ff8b",
-  text = "Magistrate Henry Maleb. Magistrate Henry Maleb oversees civic administration in the port town of Southshore, the Alliance's primary coastal bastion in the Hillsbrad Foothills. Tasked with maintaining order amid constant threats, he focuses much of his authority on hunting down the Syndicate conspirators targeting the town's leadership. Operating from the town hall in Southshore, Magistrate Henry Maleb handles civil governance for one of the last true Alliance settlements in Lordaeron. The town sits under constant siege from the Forsaken to the north and West, while ruthless highwaymen prowl the foothills. Maleb stepped into his current station after the mysterious assassination of the prior magistrate, an act he attributes directly to the Syndicate. Determined not to suffer the same fate, he coordinates active investigations to root out hidden assassins, dismantle Syndicate supply networks, and unmask the rogue nobles pulling the strings from the ruins of Alterac.",
+  hash = "14e0cb",
+  fullHash = "14e0cb",
+  text = "Magistrate Henry Maleb. In Southshore, Magistrate Henry Maleb keeps order in the Alliance's chief coastal stronghold in Hillsbrad Foothills. The port town faces threats from the Forsaken and the Syndicate. Magistrate Henry Maleb governs from Southshore's town hall, one of the last true Alliance settlements in Lordaeron. Forsaken forces threaten the town from the north and west, while highwaymen prowl the foothills. Maleb took office after the previous magistrate was mysteriously assassinated, an act he blames on the Syndicate. He means to avoid the same fate. His investigations seek hidden assassins, Syndicate supply networks, and the nobles directing them from the ruins of Alterac.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_magistrate-henry-maleb-7c1c089b3ed31e3499fc/1-0000.mp3", duration = 51.6702041, start = 0},
+    {file = "Audio/Transport/full_npc_magistrate-henry-maleb-0cbd9cb2fc62a403aa0d/1-0000.mp3", duration = 39.2097959, start = 0},
   },
 }
 P.transport["npc:magus-rimtori"] = {
@@ -2402,11 +2402,11 @@ P.transport["npc:mankrik"] = {
   },
 }
 P.transport["npc:marcus-redpath"] = {
-  hash = "a076c7",
-  fullHash = "a076c7",
-  text = "Marcus Redpath. Marshal Marcus Redpath is the senior military authority defending the Alliance town of Southshore in the Hillsbrad Foothills. He organizes patrols and bounty contracts to hold off surrounding ogres, murlocs, and naga. His leadership is essential to maintaining Lordaeron's last southern bastion on the coast. Marcus Redpath is the marshal of Southshore, the Alliance port on the southern coast of the Hillsbrad Foothills. Southshore endured the fall of Lordaeron's capital and the devastating Scourge invasion, and Redpath now stands at the head of its defense, guarding the port's beleaguered survivors. In the wake of the Third War, Southshore stands virtually alone against hostile forces pressing in from every side. Marshal Redpath coordinates defense operations across the Hillsbrad Foothills, enlisting seasoned adventurers to push back the Crushridge ogres creeping down from Alterac and purge dangerous naga and murloc encampments along the coastline. With the Forsaken occupying the north and Tarren Mill heavily fortified nearby, Redpath's vigilance is one of the few barriers preventing the regional Alliance presence from collapsing entirely.",
+  hash = "5bbd5a",
+  fullHash = "5bbd5a",
+  text = "Marcus Redpath. In Southshore, Marshal Marcus Redpath holds Lordaeron's last southern bastion on the coast. He organizes patrols and bounty contracts against nearby ogres, murlocs, and naga. Marshal Marcus Redpath guards Southshore, the Alliance port on the southern coast of the Hillsbrad Foothills. The town endured the fall of Lordaeron's capital and the devastating Scourge invasion. Redpath now leads its defense, protecting the survivors who remain there. Southshore stands virtually alone against hostile forces pressing in from every side. Marshal Redpath coordinates the defense across the Hillsbrad Foothills and enlists seasoned adventurers to push back the Crushridge ogres advancing from Alterac. He also sends them against dangerous naga and murloc encampments along the coast. The Forsaken occupy the north, and nearby Tarren Mill is heavily fortified. Redpath's vigilance helps keep the Alliance presence in the region from collapsing.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_marcus-redpath-77f401b27654128ef814/1-0000.mp3", duration = 64.8881633, start = 0},
+    {file = "Audio/Transport/full_npc_marcus-redpath-b608c66b9ee75e51357e/1-0000.mp3", duration = 54.9616327, start = 0},
   },
 }
 P.transport["npc:mardant-strongoak"] = {
@@ -2418,11 +2418,11 @@ P.transport["npc:mardant-strongoak"] = {
   },
 }
 P.transport["npc:marek-ironheart"] = {
-  hash = "de3fd0",
-  fullHash = "de3fd0",
-  text = "Marek Ironheart. Marek Ironheart is a veteran dwarven hunter stationed at the Farstrider Lodge in south-eastern Loch Modan. Dedicated to the traditions of the wild, he tests wandering travelers and marksmen alike before welcoming them into the ranks of the lodge's honored hunters. Perched on the scenic ridge overlooking the lake, the Farstrider Lodge serves as an outpost for the finest marksmen and trackers in the dwarven lands. Marek Ironheart embodies this frontier spirit. Unimpressed by titles or talk, Marek requires anyone seeking the lodge's respect to demonstrate their practical prowess against the varied beasts roaming Loch Modan, proving they have the patience and nerve demanded of a true stalker of the wild.",
+  hash = "f7fc7f",
+  fullHash = "f7fc7f",
+  text = "Marek Ironheart. At the Farstrider Lodge, Marek Ironheart tests those who seek the respect of its hunters. The veteran dwarven hunter is stationed in south-eastern Loch Modan and keeps to the traditions of the wild. At the Farstrider Lodge, Marek Ironheart expects hunters to prove their skill. The lodge overlooks the lake from a ridge in south-eastern Loch Modan and gathers marksmen and trackers from across the dwarven lands. Marek pays little heed to titles or boasts. Anyone seeking the lodge’s respect must show practical skill against the beasts roaming Loch Modan, with the patience and nerve of a true hunter.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_marek-ironheart-8adfae4654a740744b21/1-0000.mp3", duration = 39.5755102, start = 0},
+    {file = "Audio/Transport/full_npc_marek-ironheart-9d1e4ee0b71c45ffe8f0/1-0000.mp3", duration = 35.1346939, start = 0},
   },
 }
 P.transport["npc:marisa-du-paige"] = {
@@ -2434,19 +2434,19 @@ P.transport["npc:marisa-du-paige"] = {
   },
 }
 P.transport["npc:marleth-barleybrew"] = {
-  hash = "797478",
-  fullHash = "797478",
-  text = "Marleth Barleybrew. Marleth Barleybrew is an ambitious dwarven brewer stationed out in Brewnall Village. Frustrated by the Thunderbrew clan's dominance over the local beer market, she constantly schemes to prove her family's brew is superior to Kharanos's famous Thunder Ale. In Dun Morogh, alcohol is taken as seriously as steel, and the rivalry between the Barleybrew and Thunderbrew families is legendary. Marleth Barleybrew resents the near-monopoly that Ragnar Thunderbrew and his kin maintain out of the Thunderbrew Distillery in Kharanos. Convinced her own craft is every bit as robust, she seeks clever ways to slip Barleybrew kegs into the hands of tavern patrons. Rather than engaging in open conflict, she opts for petty subterfuge, recruiting passing travelers to secretly swap out Kharanos's prized ale casks with her own.",
+  hash = "fbca5d",
+  fullHash = "fbca5d",
+  text = "Marleth Barleybrew. At Brewnall Village, Marleth Barleybrew works to prove her family’s ale can rival Thunder Ale. Frustrated by the Thunderbrew clan’s hold on the local beer trade, she schemes to put Barleybrew brew before drinkers. In Dun Morogh, beer matters as much as steel, and the Barleybrew and Thunderbrew families have long been rivals. Ragnar Thunderbrew and his kin control nearly all the trade from their distillery in Kharanos, to Marleth Barleybrew’s frustration. She believes her family’s brew is just as strong. Rather than challenge the Thunderbrews openly, Marleth turns to quiet tricks. She recruits travelers to secretly replace Kharanos tavern casks with Barleybrew kegs.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_marleth-barleybrew-5f5e42896cab8f24f4dd/1-0000.mp3", duration = 45.2963265, start = 0},
+    {file = "Audio/Transport/full_npc_marleth-barleybrew-c936165cff23b746c121/1-0000.mp3", duration = 39.2097959, start = 0},
   },
 }
 P.transport["npc:marryk-nurribit"] = {
-  hash = "cabab4",
-  fullHash = "cabab4",
-  text = "Marryk Nurribit. Marryk Nurribit is the resident gnome mage trainer stationed at Anvilmar in Coldridge Valley. A bit more fond of local brews than disciplined pedagogy, he introduces fledgling gnomish arcanists to their craft while frequently soliciting spare coins for a drink. Tucked away inside the warm hearth of Anvilmar, Marryk Nurribit offers arcane guidance to young gnomes taking their very first steps into magic. Though knowledgeable in the arcane arts, his demeanor is decidedly casual—often seeming far more interested in nursing a flagon of dwarven ale and bumming spare pocket change off his new pupils than drilling them in complex theorems. Despite his vices, Marryk remains acutely aware of the perils outside Coldridge Valley, regularly warning aspiring spellcasters about the lingering radioactive and trogg-infested horrors of fallen Gnomeregan.",
+  hash = "b10364",
+  fullHash = "b10364",
+  text = "Marryk Nurribit. At Anvilmar in Coldridge Valley, Marryk Nurribit teaches young gnomes the arcane arts. He favors local brews over strict lessons and often asks his pupils for spare coins to buy a drink. Marryk Nurribit teaches young gnomes magic inside Anvilmar in Coldridge Valley. He knows the arcane arts, though he takes a casual approach to teaching. A flagon of dwarven ale often holds more of his attention than a lesson, and he asks his new pupils for spare pocket change. He also warns aspiring spellcasters about the dangers beyond Coldridge Valley, where Gnomeregan's ruins remain radioactive and infested with troggs.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_marryk-nurribit-76b55b68826a126003e8/1-0000.mp3", duration = 47.3338776, start = 0},
+    {file = "Audio/Transport/full_npc_marryk-nurribit-39005214ab7b16570922/1-0000.mp3", duration = 36.4146939, start = 0},
   },
 }
 P.transport["npc:marshal-maxwell"] = {
@@ -2458,27 +2458,27 @@ P.transport["npc:marshal-maxwell"] = {
   },
 }
 P.transport["npc:martie-jainrose"] = {
-  hash = "c20cb3",
-  fullHash = "c20cb3",
-  text = "Martie Jainrose. Martie Jainrose is Lakeshire's local herbalist, tending to her garden along the edge of Lake Everstill in the Redridge Mountains. Beside cultivating remedies and flowers for the beleaguered town, she contends with wild beasts trampling her plots and harbors a quiet affection for Guard Parker. Residing in Lakeshire, Martie Jainrose works diligently as the settlement's resident herbalist. Even as Blackrock orcs, gnolls, and local brigands threaten the region, Martie focuses on keeping the town supplied with fresh herbs and floral arrangements. Her daily labors are often disrupted by local wildlife—most notably the monstrous boar Bellygrub, who frequently ravages her prized garden beds. Beyond her herbal pursuits, Martie seems to hold a fondness for Guard Parker, though Parker is courting Darcy, who calls Martie a jealous rival.",
+  hash = "0392cc",
+  fullHash = "0392cc",
+  text = "Martie Jainrose. In Lakeshire, Martie Jainrose tends a garden beside Lake Everstill. She gathers herbs and flowers for the town while wild beasts threaten her plots, and she seems fond of Guard Parker. Martie Jainrose tends herbs and flowers for Lakeshire as its herbalist. Blackrock orcs, gnolls, and local brigands threaten the Redridge Mountains, but Martie keeps the town supplied with fresh herbs and floral arrangements. Wild animals disrupt her work, especially Bellygrub, a monstrous boar that often ravages her garden beds. Martie also seems fond of Guard Parker. Parker is courting Darcy, who calls Martie a jealous rival.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_martie-jainrose-f0050dbd4a5d03f5eb93/1-0000.mp3", duration = 50.2595918, start = 0},
+    {file = "Audio/Transport/full_npc_martie-jainrose-6049575ebfb4403dfa21/1-0000.mp3", duration = 38.4, start = 0},
   },
 }
 P.transport["npc:marukai"] = {
-  hash = "c6b5d3",
-  fullHash = "c6b5d3",
-  text = "Marukai. Marukai is a Darkspear jungle troll stationed at Zoram'gar Outpost along the foggy coast of northwest Ashenvale. Dedicated to holding this remote beachhead for the Horde, she coordinates efforts to cull the encroaching Wrathtail naga who threaten the outpost. Zoram'gar Outpost sits isolated on the northern edge of the Zoram Strand, surrounded by ancient ruins, hostile night elf territory, and the restless sea. As the Wrathtail naga emerge in force from the waters and ancient elven ruins to claim the shoreline, Marukai works to keep the encampment from being overwhelmed. She directs Horde champions to push the serpent-folk back into the tide and collect their heads, ensuring the outpost remains a viable coastal stronghold.",
+  hash = "d0f23b",
+  fullHash = "d0f23b",
+  text = "Marukai. At Zoram'gar Outpost, Marukai holds a remote Horde beachhead against the Wrathtail naga. The Darkspear jungle troll coordinates efforts to drive the naga back along Ashenvale's foggy northwest coast. At Zoram'gar Outpost, Marukai works to keep the encampment from being overwhelmed. The outpost sits on the northern edge of the Zoram Strand, surrounded by ancient ruins, hostile night elf territory, and the restless sea. Wrathtail naga emerge in force from the waters and ancient elven ruins to claim the shoreline. Marukai directs Horde champions to push them back into the tide and collect their heads, keeping the outpost a viable coastal stronghold.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_marukai-a1093082368c8bac9700/1-0000.mp3", duration = 41.8742857, start = 0},
+    {file = "Audio/Transport/full_npc_marukai-d98d4f2753d8d9947e2b/1-0000.mp3", duration = 38.3216327, start = 0},
   },
 }
 P.transport["npc:master-apothecary-lydon"] = {
-  hash = "fe0c54",
-  fullHash = "fe0c54",
-  text = "Apothecary Lydon. Apothecary Lydon is a morbid researcher of the Royal Apothecary Society stationed in Tarren Mill. Chronically depressed and intensely bored, he finds joy only in refining lethal concoctions and watching the living suffer. He spearheads the research into potent new toxins aimed at securing Hillsbrad for the Forsaken and furthering Sylvanas's New Plague. Stationed inside the chapel turned laboratory of Tarren Mill, Apothecary Lydon represents the cold, calculating ethos of the Royal Apothecary Society. He is afflicted by a profound, languid melancholy, disgusted by the blooming flowers and crisp air of Hillsbrad Foothills. The only diversion that lifts his perpetual gloom is the art of deathcraft. When left unattended, he passes the time poisoning, dissecting, and reanimating his unfortunate pet frog, Umpi, repeatedly waiting for new reagents to arrive.",
+  hash = "223b02",
+  fullHash = "223b02",
+  text = "Apothecary Lydon. In Tarren Mill, Apothecary Lydon studies poisons for the Royal Apothecary Society. Bored and sunk in gloom, he takes pleasure in lethal brews and the suffering they cause. His research seeks to secure Hillsbrad for the Forsaken and advance Sylvanas's New Plague. Inside Tarren Mill's chapel, now a laboratory, Apothecary Lydon carries out the cold work of the Royal Apothecary Society. Flowers in bloom and Hillsbrad Foothills' crisp air only deepen his languid melancholy. Deathcraft is the one diversion that lifts his gloom. Left alone, he poisons, dissects, and reanimates his pet frog, Umpi, again and again while he waits for new reagents.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_master-apothecary-lydon-c73037aacfda0522c5d2/1-0000.mp3", duration = 52.7412245, start = 0},
+    {file = "Audio/Transport/full_npc_master-apothecary-lydon-62d440f75c9432960333/1-0000.mp3", duration = 41.0644898, start = 0},
   },
 }
 P.transport["npc:master-vornal"] = {
@@ -2490,11 +2490,11 @@ P.transport["npc:master-vornal"] = {
   },
 }
 P.transport["npc:mastok-wrilehiss"] = {
-  hash = "890b8b",
-  fullHash = "890b8b",
-  text = "Mastok Wrilehiss. Mastok Wrilehiss is an orc officer stationed at Splintertree Post in eastern Ashenvale. Serving as a crucial defensive coordinator for the Horde in the contested forest, he directs scouts and warriors to secure nearby borders and handle corrupting elemental threats. His presence is vital for maintaining the precarious foothold the Horde holds amidst constant night elf hostility. Splintertree Post stands deep in the shadow of Ashenvale's towering canopy, completely surrounded by hostile night elven territory. Mastok Wrilehiss serves as one of the post's core defenders, monitoring supply routes and forest activity. The position is perilous; any sign of weakness invites swift strikes from the Sentinels who view the settlement as a despoiling intrusion. From his vantage within the stockade, Mastok actively tasks passing adventurers with critical strategic duties. He keeps watchful eyes on the borders leading into neighboring territories like the Stonetalon Mountains and dispatches scouts to consult shamans such as Je'neu Sancrea of the Earthen Ring at Zoram'gar Strand. His duties bridge military defense with monitoring the strange, corrupting forces afflicting the local elementals.",
+  hash = "3b58b0",
+  fullHash = "3b58b0",
+  text = "Mastok Wrilehiss. At Splintertree Post in eastern Ashenvale, Mastok Wrilehiss helps hold the Horde’s ground. He directs scouts and warriors to watch nearby borders and confront corrupting elemental forces amid the night elves’ hostility. Deep beneath Ashenvale’s canopy, Splintertree Post is surrounded by hostile night elf territory. Mastok Wrilehiss helps defend the outpost and watches its supply routes and the forest around it. The Sentinels see the settlement as an intrusion that despoils their lands, and they strike quickly at any sign of weakness. From within the stockade, Mastok gives passing adventurers duties tied to the Horde’s defense. He watches the borders toward the Stonetalon Mountains and sends scouts to speak with shamans such as Je'neu Sancrea of the Earthen Ring at Zoram'gar Strand. His work also follows the strange corruption afflicting local elementals.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_mastok-wrilehiss-7627c9983e231f43c190/1-0000.mp3", duration = 68.1534694, start = 0},
+    {file = "Audio/Transport/full_npc_mastok-wrilehiss-3f6a7eda1e47754195e6/1-0000.mp3", duration = 51.9314286, start = 0},
   },
 }
 P.transport["npc:mathredis-firestar"] = {
@@ -2514,11 +2514,11 @@ P.transport["npc:maur-grimtotem"] = {
   },
 }
 P.transport["npc:maur-raincaller"] = {
-  hash = "efdb4e",
-  fullHash = "efdb4e",
-  text = "Maur Raincaller. Maur Raincaller is a tauren resident found residing in Bloodhoof Village in Mulgore. Connected to the natural and spiritual life of the plains, he assists the village elders and watches over local matters affecting the herds and wild beasts. Situated near the heart of Bloodhoof Village on the shores of Lake Stonebull, Maur Raincaller serves his community by attending to regional ecological and beast-related concerns. Like many who bear the mantle of Raincaller, he pays close attention to the balance of the elements and wildlife across the fertile plains of Mulgore. After a bite from the fearsome strider Mazzranache left his wound infected, Maur turns to capable young travelers to gather the animal parts he needs for a remedy.",
+  hash = "72b4a6",
+  fullHash = "72b4a6",
+  text = "Maur Raincaller. In Bloodhoof Village, Maur Raincaller watches over Mulgore’s herds and wild beasts. He attends to concerns tied to the plains’ natural and spiritual life. Maur Raincaller lives near the heart of Bloodhoof Village, on the shore of Lake Stonebull. He watches over matters involving Mulgore’s wildlife and the balance of the elements. After the strider Mazzranache bites him and infects his wound, Maur asks young travelers to gather animal parts for a remedy.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_maur-raincaller-345c021ad0dcc5af02dc/1-0000.mp3", duration = 42.2661224, start = 0},
+    {file = "Audio/Transport/full_npc_maur-raincaller-5fa0c73a9b5890d3ba41/1-0000.mp3", duration = 26.5926531, start = 0},
   },
 }
 P.transport["npc:maurin-bonesplitter"] = {
@@ -2530,11 +2530,11 @@ P.transport["npc:maurin-bonesplitter"] = {
   },
 }
 P.transport["npc:maxan-anvol"] = {
-  hash = "97d7ae",
-  fullHash = "97d7ae",
-  text = "Maxan Anvol. Maxan Anvol is a dwarven priest trainer stationed within the Thunderbrew Distillery in Kharanos. Dedicated to the Holy Light, he guides fledgling dwarven priests as they learn to channel divine power amid Dun Morogh's frigid climes. He tests young acolytes to ensure they are worthy of wearing the vestments of the church. While it might seem strange to find an ordained minister of the Holy Light stationed inside Thunderbrew Distillery, it suits dwarven culture well. Kharanos serves as the primary hub between Coldridge Valley and Ironforge, and the local inn is where travelers, mountaineers, and acolytes naturally gather. Maxan tends to the spiritual welfare of the hamlet alongside pints of stout, offering prayers and counsel to any who step through the doors. Maxan Anvol is responsible for vetting novice priests before they venture into the wider world. He tasks initiates with demonstrating mastery over fundamental curative prayers on wounded defenders of Dun Morogh. Those who prove their devotion and practical competence are bestowed their first proper priestly vestments, formally marking their recognized standing within the Church of the Holy Light.",
+  hash = "306cd8",
+  fullHash = "306cd8",
+  text = "Maxan Anvol. At the Thunderbrew Distillery in Kharanos, Maxan Anvol trains dwarven priests in the Holy Light. He tests young acolytes before they earn the Church’s vestments. Maxan Anvol tends to the hamlet’s spiritual welfare from the Thunderbrew Distillery, where travelers, mountaineers, and acolytes gather. Kharanos lies between Coldridge Valley and Ironforge, and its inn draws those who pass through. Maxan offers prayers and counsel to anyone who enters, with pints of stout close at hand. Maxan Anvol tests novice priests before they venture into the wider world. He has initiates use basic healing prayers on Dun Morogh’s wounded defenders. Those who show devotion and skill receive their first priestly vestments, marking their recognized place in the Church of the Holy Light.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_maxan-anvol-5cdc5f7e215e5771c037/1-0000.mp3", duration = 65.4367347, start = 0},
+    {file = "Audio/Transport/full_npc_maxan-anvol-c5c9c85bd2c36cd837f0/1-0000.mp3", duration = 45.4530612, start = 0},
   },
 }
 P.transport["npc:maybell-maclure"] = {
@@ -2562,27 +2562,27 @@ P.transport["npc:merissa-stilwell"] = {
   },
 }
 P.transport["npc:merrin-rockweaver"] = {
-  hash = "8aa5c7",
-  fullHash = "8aa5c7",
-  text = "Merrin Rockweaver. Merrin Rockweaver is a dwarven researcher representing the Explorers' League in the Wetlands. Following a violent raptor infestation that overran Whelgar's Excavation Site, she took refuge alongside Prospector Whelgar on a ridge overlooking the site. Merrin Rockweaver traveled to the Wetlands on behalf of the Ironforge Explorers' League to unearth ancient Titan secrets buried beneath the muck. The expedition ended in disaster when the large bones they unearthed drew raptors to the dig. Vicious prehistoric beasts swarmed the trenches, forcing Merrin and the surviving crew to abandon their equipment, notes, and progress. She is now trapped with the few survivors on a bluff overlooking the overrun ruins. Trapped on the bluff, the survivors refuse to let the expedition become an outright failure. While Ormer Ironbraid plots vengeance against the beasts and Prospector Whelgar seeks the tablet fragments left behind in the raptor-infested trenches, Merrin's thoughts turn to her husband Tarrel, who has not heard from her in weeks. She relies on the scout Longbraid sent to find the team to carry word of their plight back to him.",
+  hash = "ef1453",
+  fullHash = "ef1453",
+  text = "Merrin Rockweaver. On a ridge above Whelgar's Excavation Site, Merrin Rockweaver waits with the survivors. A raptor infestation drove them from the dig, where she represented the Explorers' League. Merrin Rockweaver came to the Wetlands for the Ironforge Explorers' League, seeking ancient Titan secrets beneath the muck. The expedition fell apart when the large bones the crew unearthed drew raptors to the dig. The beasts swarmed the trenches, and Merrin and the surviving crew fled, leaving their equipment, notes, and progress behind. Now Merrin is trapped with a few survivors on a bluff overlooking the overrun ruins. The survivors on the bluff still hope to save what they can of the expedition. Ormer Ironbraid plans vengeance against the beasts, while Prospector Whelgar seeks tablet fragments in the raptor-infested trenches. Merrin worries about her husband Tarrel, who has heard nothing from her in weeks. A scout Longbraid sent to find the team can carry word of their plight back to him.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_merrin-rockweaver-aad421d50b7d7356586f/1-0000.mp3", duration = 64.0522449, start = 0},
+    {file = "Audio/Transport/full_npc_merrin-rockweaver-50bc26bc7e1386d9326d/1-0000.mp3", duration = 56.7902041, start = 0},
   },
 }
 P.transport["npc:miles-welsh"] = {
-  hash = "231d0b",
-  fullHash = "231d0b",
-  text = "Miles Welsh. Miles Welsh is a Forsaken priest trainer residing deep within the Pools of Vision beneath Thunder Bluff. He offers spiritual instruction and shadow discipline to priests traversing the tauren capital. Miles Welsh stands far from the plague-scarred ruins of Lordaeron, making his home in the humid, spirit-laden grotto beneath Thunder Bluff known as the Pools of Vision. As a Forsaken priest, he instructs travelers who channel divine and shadowy energies. His presence in the heart of Mulgore reflects the tenuous diplomatic ties binding the Forsaken to the Horde, sharing sanctuary with tauren mystics and shamans while guiding acolytes in the arts of shadow and faith.",
+  hash = "a683f5",
+  fullHash = "a683f5",
+  text = "Miles Welsh. In the Pools of Vision, Miles Welsh teaches priests beneath Thunder Bluff. The Forsaken trainer offers spiritual instruction and shadow discipline in the tauren capital. Miles Welsh teaches priests in the Pools of Vision beneath Thunder Bluff. Far from Lordaeron's plague-scarred ruins, the Forsaken priest makes his home in the grotto beneath the city. He instructs travelers in divine and shadowy energies. His place in the heart of Mulgore reflects the tenuous ties between the Forsaken and the Horde. There, he shares sanctuary with tauren mystics and shamans while guiding acolytes in shadow and faith.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_miles-welsh-69e96b4130ff59d828ac/1-0000.mp3", duration = 38.9746939, start = 0},
+    {file = "Audio/Transport/full_npc_miles-welsh-49b9dad7135f30f9861c/1-0000.mp3", duration = 34.6383673, start = 0},
   },
 }
 P.transport["npc:milli-featherwhistle"] = {
-  hash = "722f10",
-  fullHash = "722f10",
-  text = "Milli Featherwhistle. Milli Featherwhistle is a master gnomish mechanostrider engineer stationed at Steelgrill's Depot in Dun Morogh. Following the fall of Gnomeregan, she meticulously handcrafts and maintains the clockwork mounts favored by her kin. She sells her prized mechanical creations to fellow gnomes and trusted allies of the exiled Gnomeregan survivors. Operating outdoors in the biting chill of Steelgrill's Depot just east of Kharanos, Milli Featherwhistle oversees the supply of clockwork steeds for Gnomeregan's displaced populace. Unlike the biological beasts favored by dwarves and night elves, Milli builds her entire inventory herself, personally calibrating gears, pistons, and balancing gyros to ensure each mechanical bird runs at peak efficiency across the snowy crags of Dun Morogh. Every frame and spring in Milli's workshop is rooted in blueprints originally drafted by High Tinker Gelbin Mekkatorque. While Milli has integrated modern performance improvements over the years—streamlining chassis weights and refining exhaust vents—she faithfully adheres to the High Tinker's foundational schematics. Her mechanical wonders prove that even in exile, gnomish technological ambition remains thoroughly unbroken.",
+  hash = "10c9df",
+  fullHash = "10c9df",
+  text = "Milli Featherwhistle. At Steelgrill's Depot, Milli Featherwhistle keeps Gnomeregan's mechanostriders in motion. She builds and maintains these clockwork mounts for her kin and trusted allies among the exiles. Outdoors in the biting chill at Steelgrill's Depot, just east of Kharanos, Milli keeps clockwork steeds ready for Gnomeregan's displaced people. Dwarves and night elves favor living mounts, but Milli builds each mechanostrider herself. She calibrates its gears, pistons, and balancing gyros so it can travel across Dun Morogh's snowy crags. Milli builds her mechanostriders from blueprints first drawn by High Tinker Gelbin Mekkatorque. She has improved their performance by lightening the chassis and refining the exhaust vents, while keeping to the High Tinker's original designs. Her work carries gnomish ambition forward even in exile.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_milli-featherwhistle-23253eaabfe9fff74901/1-0000.mp3", duration = 68.1795918, start = 0},
+    {file = "Audio/Transport/full_npc_milli-featherwhistle-edf19c12ee8d7bd2d06a/1-0000.mp3", duration = 48.7967347, start = 0},
   },
 }
 P.transport["npc:milton-sheaf"] = {
@@ -2594,19 +2594,19 @@ P.transport["npc:milton-sheaf"] = {
   },
 }
 P.transport["npc:minor-manifestation-of-earth"] = {
-  hash = "2082ac",
-  fullHash = "2082ac",
-  text = "Minor Manifestation of Earth. A Minor Manifestation of Earth is a localized elemental spirit bound to sacred stones in Mulgore and Durotar. Invisible to ordinary sight, it reveals itself only to fledgling shamans who drink the sacred Earth Sapta, providing the rough quartz required to carve their very first earth totem. The spirits of the earth dwell everywhere beneath the dirt and stone, but communicating with them requires deliberate ritual. At sacred landmarks like Kodo Rock in Mulgore and Spirit Rock in Durotar, Minor Manifestations of Earth linger in the unseen realm, surrounded by even smaller elemental presences. Only initiates who have drunk the Earth Sapta—a ritual draught brewed by shamanic mentors—can lift the veil between the physical world and the elements. Once acknowledged, the spirit imparts the earth's blessings along with a piece of rough quartz, granting the novice the spiritual focal point needed to fashion an Earth Totem.",
+  hash = "2322f5",
+  fullHash = "2322f5",
+  text = "Minor Manifestation of Earth. At sacred stones in Mulgore and Durotar, Minor Manifestation of Earth waits unseen. Fledgling shamans who drink Earth Sapta can meet the spirit and receive rough quartz for carving their first earth totem. Earth spirits dwell beneath dirt and stone, but reaching them takes a deliberate rite. At Kodo Rock in Mulgore and Spirit Rock in Durotar, Minor Manifestations of Earth linger beyond ordinary sight, surrounded by lesser elemental presences. Only initiates who drink Earth Sapta, a draught brewed by shamanic mentors, can cross the veil between the physical world and the elements. When an initiate makes contact, the spirit grants the earth's blessings and a piece of rough quartz. The novice can use it as the spiritual focus for making an Earth Totem.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_minor-manifestation-of-earth-7f5c935300b764305e70/1-0000.mp3", duration = 52.8718367, start = 0},
+    {file = "Audio/Transport/full_npc_minor-manifestation-of-earth-39d39472f7e342116845/1-0000.mp3", duration = 45.9232653, start = 0},
   },
 }
 P.transport["npc:minor-manifestation-of-water"] = {
-  hash = "d685ce",
-  fullHash = "d685ce",
-  text = "Minor Manifestation of Water. The Minor Manifestation of Water is an elemental spirit found along North Tide's Run on the coast of Silverpine Forest. It serves as a vital trial for Horde shamans seeking to commune with and master the element of water. Before this peaceful spirit can be consulted, initiates must first cleanse its corrupted counterpart. Lurking along the mist-shrouded shores of North Tide's Run, west of the Sepulcher in Silverpine Forest, the Minor Manifestation of Water represents an essential rite of passage for developing shamans. Water elementals embody life, renewal, and fluidity, but they can easily fall victim to malevolent blight. An initiate must face and defeat a corrupted manifestation of this elemental before the pure Minor Manifestation of Water can reveal itself. Once cleansed, the spirit offers guidance to shamans completing their sacred journey to fashion a Water Totem.",
+  hash = "893e7d",
+  fullHash = "893e7d",
+  text = "Minor Manifestation of Water. Along North Tide's Run, the Minor Manifestation of Water awaits shamans on Silverpine Forest's coast. Its corrupted counterpart must be cleansed before the peaceful spirit can be consulted. The Minor Manifestation of Water waits west of the Sepulcher, along North Tide's Run. For developing shamans, meeting the spirit is an essential rite. Water elementals embody life, renewal, and fluidity, yet malevolent blight can corrupt them. An initiate must face and defeat a corrupted manifestation before the pure spirit reveals itself. Once cleansed, the Minor Manifestation of Water guides shamans on their sacred journey to fashion a Water Totem.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_minor-manifestation-of-water-c28c9ec4e55de58aa306/1-0000.mp3", duration = 51.5134694, start = 0},
+    {file = "Audio/Transport/full_npc_minor-manifestation-of-water-cc7c3c669d02b7e07649/1-0000.mp3", duration = 37.9297959, start = 0},
   },
 }
 P.transport["npc:misha"] = {
@@ -2626,11 +2626,11 @@ P.transport["npc:misha-tor-kren"] = {
   },
 }
 P.transport["npc:mitsuwa"] = {
-  hash = "914078",
-  fullHash = "914078",
-  text = "Mitsuwa. Mitsuwa is a Darkspear troll stationed at Zoram'gar Outpost along the misty coast of Ashenvale. Deeply troubled by the ambush of his traveling kin, he enlists Horde champions to avenge the fallen and reclaim stolen spiritual talismans. Situated at the remote Zoram'gar Outpost on the strand of the Zoram Strand, Mitsuwa serves the Horde alongside his companion Marukai. When a group of traveling trolls bound for the encampment was ambushed and slaughtered by the aggressive Thistlefur furbolgs of northern Ashenvale, Mitsuwa took the loss as a grievous offense. Driven by duty and anger, he directs able-bodied warriors toward the Thistlefur dens to reclaim the stolen troll charms, ensuring the spirits of his kin are honored and their sacred possessions recovered from the beasts.",
+  hash = "7d13bd",
+  fullHash = "7d13bd",
+  text = "Mitsuwa. At Zoram'gar Outpost, Mitsuwa mourns the trolls slain on their journey through Ashenvale. He calls on Horde champions to recover their stolen charms. Mitsuwa serves the Horde at Zoram'gar Outpost on the Zoram Strand, alongside Marukai. Thistlefur furbolgs of northern Ashenvale ambushed and slaughtered a group of traveling trolls bound for the outpost. Mitsuwa sees their deaths as a grievous offense. He sends warriors to the Thistlefur dens to reclaim the stolen troll charms and honor the spirits of his kin.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_mitsuwa-76a00bba996168ad524c/1-0000.mp3", duration = 46.8897959, start = 0},
+    {file = "Audio/Transport/full_npc_mitsuwa-9b90de86df54b02f6f4a/1-0000.mp3", duration = 30.0146939, start = 0},
   },
 }
 P.transport["npc:monte-gazlowe"] = {
@@ -2650,11 +2650,11 @@ P.transport["npc:moon-priestess-amara"] = {
   },
 }
 P.transport["npc:mor-rogal"] = {
-  hash = "6eb91d",
-  fullHash = "6eb91d",
-  text = "Mor'rogal. Mor'rogal is a tauren resident of Sun Rock Retreat in the Stonetalon Mountains. He serves as an advisor and guide for travelers seeking glory and peril within the rugged subterranean reaches of the crags. Perched within the refuge of Sun Rock Retreat, Mor'rogal takes a keen interest in the deep crevices and caverns that cut through the Stonetalon Mountains. Recognizing that the region's twisting subterranean passes offer both great riches and lethal danger, he directs brave Horde wanderers to investigate troubled areas like the Boulderslide Ravine. For Mor'rogal, delving into these treacherous depths is not merely a matter of survival, but a test of spirit for those who follow their heart and soul in search of glory.",
+  hash = "150a2c",
+  fullHash = "150a2c",
+  text = "Mor'rogal. In Sun Rock Retreat, Mor'rogal guides travelers toward the dangers and promise of the Stonetalon Mountains. Mor'rogal watches the deep crevices and caverns of the Stonetalon Mountains from Sun Rock Retreat. Their twisting passages offer riches, but can also bring deadly danger. He sends brave Horde wanderers to troubled places such as Boulderslide Ravine. To Mor'rogal, facing those depths tests the spirit of anyone who seeks glory by following heart and soul.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_mor-rogal-7bc50d132f8f65119d68/1-0000.mp3", duration = 40.2808163, start = 0},
+    {file = "Audio/Transport/full_npc_mor-rogal-ca80634fa11948cf2e93/1-0000.mp3", duration = 26.7493878, start = 0},
   },
 }
 P.transport["npc:morgan-pestle"] = {
@@ -2674,35 +2674,35 @@ P.transport["npc:morgan-the-collector"] = {
   },
 }
 P.transport["npc:mountaineer-barleybrew"] = {
-  hash = "9bf398",
-  fullHash = "9bf398",
-  text = "Mountaineer Barleybrew. Mountaineer Barleybrew is an Ironforge mountaineer stationed at the South Gate Outpost in Dun Morogh. Guarding the pass leading eastward toward Loch Modan, he relies on hearty dwarven brews to keep sentries alert in the biting cold. Perched at the South Gate Outpost guarding the snowy roadway toward Loch Modan, Mountaineer Wellart Barleybrew stands as part of Ironforge's border watch. Like many mountaineers serving in the bitter winds of Dun Morogh, he appreciates the fortifying qualities of fine dwarven drink. Bearing the name of the renowned Barleybrew clan, he helps see to it that shipments of potent Shimmer Stout make their way to fellow watchmen who need warmth and stamina during long shifts along the mountain passes.",
+  hash = "c9223a",
+  fullHash = "c9223a",
+  text = "Mountaineer Barleybrew. At South Gate Outpost, Mountaineer Barleybrew watches the pass from Dun Morogh toward Loch Modan. He relies on dwarven brews to help sentries endure the cold. Mountaineer Wellart Barleybrew watches the snowy road to Loch Modan from South Gate Outpost. He is part of Ironforge's border watch. Like other mountaineers in Dun Morogh's bitter winds, he values the strength of fine dwarven drink. His name links him to the renowned Barleybrew clan. He also helps send potent Shimmer Stout to fellow watchmen who need warmth and stamina during long shifts in the mountain passes.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_mountaineer-barleybrew-28c728fe0ceb8d04d06d/1-0000.mp3", duration = 41.3257143, start = 0},
+    {file = "Audio/Transport/full_npc_mountaineer-barleybrew-f91ea4fbcf72d87df066/1-0000.mp3", duration = 34.0114286, start = 0},
   },
 }
 P.transport["npc:mountaineer-kadrell"] = {
-  hash = "9f2940",
-  fullHash = "9f2940",
-  text = "Mountaineer Kadrell. Mountaineer Kadrell is a stalwart dwarven sentry stationed across from the Stoutlager Inn in Thelsamar. Serving as a crucial liaison within the Loch Modan Mountaineers, he coordinates reconnaissance, supply deliveries, and border defense across the region. Standing watch in the bustling settlement of Thelsamar, Mountaineer Kadrell acts as an anchor for dwarven defenses throughout Loch Modan. While outposts on the valley's fringes face relentless pressure from troggs, gnolls, and native beasts, Kadrell remains at the center of town to organize reinforcements, relay orders, and assess incoming field reports from wandering scouts. Kadrell's duties frequently involve maintaining contact between Thelsamar and remote forward positions. Whether coordinating with Mountaineer Stormpike or sending adventurers to report to sentries like Mountaineer Rockgar, Kadrell ensures that the isolated outposts guarding the mountain passes receive vital supplies, reinforcements, and defensive intelligence.",
+  hash = "49dafa",
+  fullHash = "49dafa",
+  text = "Mountaineer Kadrell. Across from the Stoutlager Inn in Thelsamar, Mountaineer Kadrell keeps watch over Loch Modan. Mountaineer Kadrell keeps watch in Thelsamar and organizes the dwarven defenses of Loch Modan. Outposts along the valley’s fringes face pressure from troggs, gnolls, and native beasts. From the center of town, Kadrell organizes reinforcements, relays orders, and weighs reports from scouts in the field. Mountaineer Kadrell keeps in touch with Thelsamar’s remote forward posts. He coordinates with Mountaineer Stormpike and sends adventurers to report to sentries such as Mountaineer Rockgar. The outposts guard the mountain passes, and Kadrell helps get them supplies, reinforcements, and word of threats.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_mountaineer-kadrell-5cf8889fc695b1892a83/1-0000.mp3", duration = 57.5477551, start = 0},
+    {file = "Audio/Transport/full_npc_mountaineer-kadrell-070f8f6527c711908797/1-0000.mp3", duration = 44.6432653, start = 0},
   },
 }
 P.transport["npc:mountaineer-stormpike"] = {
-  hash = "6cdfaa",
-  fullHash = "6cdfaa",
-  text = "Mountaineer Stormpike. Mountaineer Stormpike is an Ironforge mountaineer stationed at Algaz Station in northern Loch Modan. Watching over the mountain pass leading toward the Wetlands, he works tirelessly to keep vital supply routes safe from lurking troggs and kobolds. As a proud member of the Stormpike clan, his loyalty lies squarely with Ironforge and the safety of dwarven lands. Perched along the northern border of Loch Modan, Algaz Station serves as a critical checkpoint before the perilous descent into the Wetlands. Mountaineer Stormpike is stationed here amid rocky crags and constant wilderness threats. His primary duty is maintaining the line of communication and keeping the roads open for travelers and supply convoys traversing through Dun Algaz. The northern reaches of Loch Modan are plagued by relentless pests, from kobolds infesting nearby digs to subterranean troggs. Stormpike routinely enlists passing adventurers to disrupt these threats, particularly targeting the kobolds who have moved into the Silver Stream Mine and put their filthy paws on the Miners' League's stored dwarven tools.",
+  hash = "35af13",
+  fullHash = "35af13",
+  text = "Mountaineer Stormpike. At Algaz Station in northern Loch Modan, Mountaineer Stormpike watches the road into the Wetlands. A proud member of the Stormpike clan, he guards Ironforge’s supply routes from troggs and kobolds. At Algaz Station, Mountaineer Stormpike guards the northern road out of Loch Modan. The station stands before the descent through Dun Algaz into the Wetlands, where rocky crags and threats from the wilderness surround it. Stormpike keeps communication open and the road clear for travelers and supply convoys crossing the pass. Kobolds in nearby digs and troggs from beneath the ground trouble northern Loch Modan. Stormpike asks passing adventurers to disrupt these threats. Kobolds have moved into Silver Stream Mine and taken the Miners' League's stored dwarven tools.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_mountaineer-stormpike-ac2c080997e9d8d0fb5c/1-0000.mp3", duration = 62.3804082, start = 0},
+    {file = "Audio/Transport/full_npc_mountaineer-stormpike-1488205c47a9e9c612df/1-0000.mp3", duration = 46.7330612, start = 0},
   },
 }
 P.transport["npc:mountaineer-thalos"] = {
-  hash = "4b25f8",
-  fullHash = "4b25f8",
-  text = "Mountaineer Thalos. Mountaineer Thalos is a dwarven sentry stationed at the Coldridge Valley mouth of Coldridge Pass. Tasked with guarding the route, he warns travelers about the sudden trogg infestation choking the tunnel. Adventurers carrying urgent reports from the valley rely on him to point the way safely toward Kharanos. Perched on the snowy border where Coldridge Valley gives way to the deeper crags of Dun Morogh, Mountaineer Thalos serves as the first line of defense for travelers leaving the dwarven training grounds. Coldridge Pass has become a treacherous chokepoint overrun by hostile troggs who have burrowed up from the subterranean depths. Thalos stands vigil in the cold, warning the unready to turn back and assessing whether hardy couriers possess the grit to fight their way through to the wider kingdom. When Grelin Whitebeard finishes his report on the Frostmane troll movements within the secluded valley, the courier carrying it to his brother Senir in Kharanos is told to speak with Mountaineer Thalos before entering the tunnel. After verifying that an adventurer is capable of braving the infested passage, Thalos directs them onward to Kharanos, where regional commanders coordinate Dun Morogh's defense. His watchful presence ensures that vital intelligence reaches Ironforge's military leaders rather than dying in the snow.",
+  hash = "532de1",
+  fullHash = "532de1",
+  text = "Mountaineer Thalos. At Coldridge Pass, Mountaineer Thalos warns travelers of troggs in the tunnel. He guards the route from Coldridge Valley toward Kharanos and guides couriers carrying urgent reports. At the mouth of Coldridge Pass, Mountaineer Thalos guards the route out of Coldridge Valley. Troggs have burrowed up from below and overrun the tunnel, making the crossing dangerous. Thalos warns travelers who are not ready to turn back and judges whether couriers can brave the passage toward the wider kingdom. After Grelin Whitebeard reports Frostmane troll movements in the secluded valley, a courier carries the report to Grelin's brother Senir in Kharanos. Before entering the tunnel, the courier is told to speak with Mountaineer Thalos. He sends capable travelers onward through the pass to Kharanos, where regional commanders coordinate Dun Morogh's defense. The route carries vital intelligence toward Ironforge's military leaders.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_mountaineer-thalos-597b42e299d397128dec/1-0000.mp3", duration = 74.8408163, start = 0},
+    {file = "Audio/Transport/full_npc_mountaineer-thalos-c2315e67140eeba61aff/1-0000.mp3", duration = 51.0432653, start = 0},
   },
 }
 P.transport["npc:mupsi-shacklefridd"] = {
@@ -2778,11 +2778,11 @@ P.transport["npc:nathanos-blightcaller"] = {
   },
 }
 P.transport["npc:nida"] = {
-  hash = "dc8f54",
-  fullHash = "dc8f54",
-  text = "Hilary. Hilary is a young human girl living in the lakeside town of Lakeshire in the Redridge Mountains. Distraught after dropping a cherished gift from her father into the lake, she spends her time crying along the town's docks. Amid the mounting threats of gnoll invasions and Blackrock orc warbands pressing down on Lakeshire, the children of the town still face everyday childhood troubles. Hilary accidentally dropped a necklace given to her by her father into the murky waters of Lake Everstill. Terrified that her father will be angry with her, the distraught girl waits by the town pier in tears, hoping someone brave enough will plunge into the lake to retrieve it.",
+  hash = "cf2260",
+  fullHash = "cf2260",
+  text = "Hilary. At the Lakeshire docks, Hilary cries over the necklace she lost in Lake Everstill. Hilary waits in tears by the Lakeshire pier, afraid her father will be angry. She dropped the necklace he gave her into Lake Everstill, and hopes someone brave will dive in to find it. Gnoll invasions and Blackrock orc warbands press upon Lakeshire, but children there still face troubles of their own.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_nida-2eed9537bc7bb57e9d60/1-0000.mp3", duration = 34.7689796, start = 0},
+    {file = "Audio/Transport/full_npc_nida-075a3b696e7b011c6cd2/1-0000.mp3", duration = 21.7861224, start = 0},
   },
 }
 P.transport["npc:nikova-raskol"] = {
@@ -2794,35 +2794,35 @@ P.transport["npc:nikova-raskol"] = {
   },
 }
 P.transport["npc:nissa-firestone"] = {
-  hash = "74ef64",
-  fullHash = "74ef64",
-  text = "Nissa Firestone. Nissa Firestone is a dwarven physician stationed above the bustle of the Great Forge in Ironforge. She serves as an instructor in field medicine, teaching travelers and soldiers how to dress wounds and bind trauma. Amid the clanging metal and blistering heat of the Great Forge, Nissa Firestone practices medicine from the upper floor of the Ironforge Physician shop. While dwarven warriors are famed for their endurance, even stone-hard skin splits against blade and claw. Nissa ensures that those heading out into the snows of Dun Morogh or beyond know how to keep themselves and their allies alive with basic bandaging and field dressings. For field medics who have mastered the basics of cloth and lint, Nissa recognizes when a student has outgrown her clinic. When practitioners reach the limits of what she can teach, she points them toward specialized triage officers in far-flung outposts, directing skilled healers to where the Alliance's casualties are heaviest.",
+  hash = "13b3e3",
+  fullHash = "13b3e3",
+  text = "Nissa Firestone. Above Ironforge’s Great Forge, Nissa Firestone teaches field medicine to travelers and soldiers. Nissa Firestone tends patients on the upper floor of the Ironforge Physician shop. The Great Forge’s clang and heat rise around her, but the work is keeping wounds bound. Dwarven warriors can endure much, yet blades and claws still break their skin. Before travelers and soldiers head into the snows of Dun Morogh or farther afield, Nissa teaches them basic bandaging and field dressings to help keep themselves and their allies alive. Nissa Firestone teaches field medics the basics of cloth and lint. When a practitioner has learned all she can teach, she points them toward specialized triage officers in far-flung outposts. Skilled healers go where the Alliance’s casualties are heaviest.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_nissa-firestone-b3085a135386531e64b8/1-0000.mp3", duration = 53.524898, start = 0},
+    {file = "Audio/Transport/full_npc_nissa-firestone-efa02aeb85f760268d09/1-0000.mp3", duration = 47.3077551, start = 0},
   },
 }
 P.transport["npc:nogg"] = {
-  hash = "d27cbe",
-  fullHash = "d27cbe",
-  text = "Nogg. Nogg is a goblin engineer operating out of a workshop in the Valley of Honor in Orgrimmar. He offers tinkering expertise and specialized craftsmanship to the Horde, notably analyzing strange mechanical salvage recovered from deep within Gnomeregan. Tucked away in Orgrimmar's Valley of Honor, Nogg runs an independent engineering workshop catering to adventurers and craftsmen alike. While the surrounding city relies heavily on traditional orcish steel and brute strength, Nogg provides the specialized mechanical finesse that only a goblin can offer. He maintains a keen interest in foreign contraptions and tech, happily examining curious trinkets and mechanical oddities dragged back from Alliance lands or subterranean ruins. Nogg takes special interest in items recovered from the fallen gnomish capital of Gnomeregan. When Horde operatives retrieve intricate rings or technological remnants from the irradiated vaults across the sea, Nogg is one of the few minds in Durotar capable of disassembling, deciphering, and retrofitting such bizarre clockwork mechanisms for Horde use.",
+  hash = "efce80",
+  fullHash = "efce80",
+  text = "Nogg. In Orgrimmar's Valley of Honor, Nogg puts his craft to work for the Horde. The goblin engineer studies strange mechanical salvage from deep within Gnomeregan. Nogg runs an independent engineering workshop in Orgrimmar's Valley of Honor. Adventurers and craftsmen come to him for the mechanical skill only a goblin can offer in a city known for orcish steel and strength. He is eager to examine unusual devices and trinkets brought back from Alliance lands or underground ruins. Salvage from Gnomeregan draws Nogg's special attention. When Horde operatives recover intricate rings and other remnants from the fallen gnomish capital, few minds in Durotar can take apart, decipher, and adapt those strange clockwork devices for Horde use.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_nogg-96f44743a65bbb422712/1-0000.mp3", duration = 60.1338776, start = 0},
+    {file = "Audio/Transport/full_npc_nogg-d847e45433a534fb2fe8/1-0000.mp3", duration = 41.5346939, start = 0},
   },
 }
 P.transport["npc:nori-pridedrift"] = {
-  hash = "7967b0",
-  fullHash = "7967b0",
-  text = "Nori Pridedrift. Nori Pridedrift is an enterprising dwarf peddling his piping-hot Scalding Mornbrew throughout snowy Coldridge Valley. He makes his living braving the cold to supply shivering mountaineers with their morning pick-me-up, often enlisting swift recruits to run deliveries while the drink remains steaming. Life in Coldridge Valley is harsh and bitterly cold, and nothing cuts through the chill quite like a draught of Scalding Mornbrew. Nori Pridedrift has carved out a living by brewing and distributing this hot, coffee-like morning drink across the frozen drifts. Because the brew must be consumed while still scalding to be fully appreciated, delivery is a race against the elements. Nori frequently recruits brisk couriers to sprint fresh draughts out to freezing sentries before the mountain air robs the brew of its heat. Just as important as the brew itself are his limited supplies of sturdy mugs, which he expects his runners to return promptly.",
+  hash = "aa6c79",
+  fullHash = "aa6c79",
+  text = "Nori Pridedrift. In Coldridge Valley, Nori Pridedrift carries steaming Mornbrew to those facing the cold. He makes his living brewing and selling the hot drink, and hires swift couriers to deliver it while it is still warm. Nori Pridedrift sends hot Mornbrew across the frozen reaches of Coldridge Valley. The valley's cold bites hard, and a draught of Scalding Mornbrew offers welcome warmth. Nori brews the coffee-like drink and sends it to mountaineers and freezing sentries. It must reach them while still scalding, so his couriers race against the mountain air. Nori also has only a limited supply of sturdy mugs, and expects runners to bring them back promptly.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_nori-pridedrift-49c71fe93e330a109252/1-0000.mp3", duration = 52.9240816, start = 0},
+    {file = "Audio/Transport/full_npc_nori-pridedrift-756de5c4b0f092948135/1-0000.mp3", duration = 37.8514286, start = 0},
   },
 }
 P.transport["npc:novice-elreth"] = {
-  hash = "cad730",
-  fullHash = "cad730",
-  text = "Novice Elreth. Novice Elreth is an undead member of the Forsaken stationed inside the chapel at Deathknell. As newly risen undead awaken into their second life, she directs them to confront the mindless Scourge haunting the nearby graves and tend to the tragic aftermath of the plague. Inside the desecrated chapel at Deathknell, Novice Elreth assists the emerging undead as they struggle to understand their horrific awakening. Rather than succumbing to despair or the mindless hunger of the Scourge, the Forsaken must organize quickly to secure their territory. Elreth provides newly freed souls with early tasks, directing them to gather paws and wings from the wolves and bats to the south and deal with the lingering remnants of Lordaeron's tragic downfall, including the sorrow of her friend Marla Fipps, slain by her own husband Samuel after he joined the mindless Scourge.",
+  hash = "2ee9c1",
+  fullHash = "2ee9c1",
+  text = "Novice Elreth. Inside Deathknell's chapel, Novice Elreth guides the newly risen Forsaken. She sends them against the mindless Scourge near the graves and helps them face the plague's sorrowful aftermath. Novice Elreth guides newly risen undead inside the desecrated chapel at Deathknell. They struggle to understand their horrific awakening, while the Forsaken must organize quickly to secure their territory. Elreth sends them south to gather paws from wolves and wings from bats. She also points them toward Lordaeron's tragic aftermath, including the sorrow of her friend Marla Fipps, whom her husband Samuel killed after joining the mindless Scourge.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_novice-elreth-80da3965f4bcc30eff6b/1-0000.mp3", duration = 49.3453061, start = 0},
+    {file = "Audio/Transport/full_npc_novice-elreth-203a7156bc176f615f39/1-0000.mp3", duration = 36.4930612, start = 0},
   },
 }
 P.transport["npc:oben-rageclaw"] = {
@@ -2858,11 +2858,11 @@ P.transport["npc:old-murk-eye"] = {
   },
 }
 P.transport["npc:orendil-broadleaf"] = {
-  hash = "1a8e40",
-  fullHash = "1a8e40",
-  text = "Orendil Broadleaf. Orendil Broadleaf is a skilled night elf herbalist and healer stationed at Maestra's Post in western Ashenvale. Known for his deep knowledge of forest flora, he concocts vital remedies to save young lives across the troubled woodlands. Positioned at Maestra's Post along the western threshold of Ashenvale, Orendil Broadleaf tends to the sick as a skilled healer. Recognized for his masterful knowledge of local herbs and restorative craft, Orendil relies on passing travelers to gather rare natural reagents. Even as tension and conflict encroach upon the forest, his tireless focus remains on safeguarding his kin and soothing their ailments.",
+  hash = "3eb8e6",
+  fullHash = "3eb8e6",
+  text = "Orendil Broadleaf. At Maestra's Post in western Ashenvale, night elf Orendil Broadleaf tends to the sick. His knowledge of forest plants helps him make remedies for young lives in the troubled woodlands. At Maestra's Post on Ashenvale's western border, Orendil Broadleaf cares for the sick. The skilled healer knows the local herbs and how to use them in restorative remedies. He depends on travelers passing through to gather rare plants and other natural ingredients. Tension and conflict press closer to the forest, but Orendil remains focused on protecting his kin and easing their ailments.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_orendil-broadleaf-9f0ef293b1818432c5bb/1-0000.mp3", duration = 38.2955102, start = 0},
+    {file = "Audio/Transport/full_npc_orendil-broadleaf-be7ebbfcf2fd6daa6ae6/1-0000.mp3", duration = 33.4367347, start = 0},
   },
 }
 P.transport["npc:orenthil-whisperwind"] = {
@@ -2882,11 +2882,11 @@ P.transport["npc:ormak-grimshot"] = {
   },
 }
 P.transport["npc:ormer-ironbraid"] = {
-  hash = "7e097c",
-  fullHash = "7e097c",
-  text = "Ormer Ironbraid. Ormer Ironbraid is a dwarven archaeologist stationed at Whelgar's Excavation Site in the southern Wetlands. His team's historical research has been violently interrupted by ravenous raptors that overran the dig. Ormer seeks adventurous allies to clear out the beasts and avenge the miners driven from the site. Ormer Ironbraid arrived in the Wetlands as part of the dwarven effort to uncover Titan relics and ancient history at Whelgar's Excavation Site. Unfortunately, uncovering ancient stones also unearthed—or at least provoked—packs of fierce Wetlands raptors. Rather than cataloging ancient earthenware and tablets, Ormer spends his days watching the beasts prowl among the ruins, nursing a fierce hatred for the creatures that disrupted their work. Ormer refuses to abandon the dig, but he lacks the raw muscle to purge the site alone. He directs his frustration into a systematic campaign of extermination, enlisting passing travelers to slay raptors of increasing size and ferocity. For Ormer, reclaiming the excavation is not just about the artifacts—it is a deeply personal matter of dwarven pride and vengeance against the local wildlife.",
+  hash = "fbbd74",
+  fullHash = "fbbd74",
+  text = "Ormer Ironbraid. At Whelgar's Excavation Site, Ormer Ironbraid faces a raptor threat that has driven the dwarven workers away. He remains at the dig, seeking allies to reclaim it. Ormer Ironbraid came to the Wetlands with the dwarven effort to uncover Titan relics and ancient history at Whelgar's Excavation Site. The work stirred packs of fierce Wetlands raptors, or at least drew them to the dig. Now beasts prowl among the ruins where Ormer's team hoped to study ancient earthenware and tablets. The raptors have disrupted their work, and Ormer's anger toward them runs deep. Ormer will not abandon the dig, though he cannot drive the raptors out alone. He asks passing travelers to kill the beasts, beginning with smaller ones and taking on larger, fiercer raptors in turn. Reclaiming the excavation means recovering the artifacts, but the fight has become personal: Ormer wants vengeance for the work the raptors disrupted and the dwarven pride wounded by their presence.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_ormer-ironbraid-eeead151ce26e5bea9ed/1-0000.mp3", duration = 67.7616327, start = 0},
+    {file = "Audio/Transport/full_npc_ormer-ironbraid-220af10e20296163857a/1-0000.mp3", duration = 57.364898, start = 0},
   },
 }
 P.transport["npc:orokk-omosh"] = {
@@ -2946,19 +2946,19 @@ P.transport["npc:parqual-fintallas"] = {
   },
 }
 P.transport["npc:pilot-bellowfiz"] = {
-  hash = "faa812",
-  fullHash = "faa812",
-  text = "Pilot Bellowfiz. Pilot Bellowfiz, affectionately known as 'Fizzer,' is a dwarven driver stationed at Steelgrill's Depot in Dun Morogh. As a member of the Ironforge Siege Brigade, he is responsible for maintaining and fielding heavy dwarven war machines, specifically his own siege engine, Jetsteam. Stationed just outside the bustling halls of Ironforge at Steelgrill's Depot, Pilot Bellowfiz represents the mechanical backbone of the dwarven military. Piloting the powerful siege engine known as Jetsteam, Bellowfiz spends his days tuning components, procuring essential parts, and keeping his machine battle-ready. Alongside his comrade Pilot Stonegear, Bellowfiz is constantly discussing vehicular designs, armor plating, and engine output, ensuring that the mountain kingdom's mechanized firepower remains unmatched across Khaz Modan.",
+  hash = "449827",
+  fullHash = "449827",
+  text = "Pilot Bellowfiz. At Steelgrill's Depot, Pilot Bellowfiz keeps a dwarven siege engine ready for battle. Known as “Fizzer,” he belongs to the Ironforge Siege Brigade and tends Jetsteam. At Steelgrill's Depot, Pilot Bellowfiz keeps Jetsteam ready for battle. The depot lies just outside Ironforge, where he tends the heavy war machine he pilots. He tunes its parts and gathers what it needs for the field. Fellow driver Pilot Stonegear joins him in talk of vehicle designs, armor plating, and engine output. Their work keeps the mountain kingdom's mechanized strength ready across Khaz Modan.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_pilot-bellowfiz-d8c4a8308ead9d651894/1-0000.mp3", duration = 50.2595918, start = 0},
+    {file = "Audio/Transport/full_npc_pilot-bellowfiz-0ba1a7d296e362a0a266/1-0000.mp3", duration = 34.4816327, start = 0},
   },
 }
 P.transport["npc:pilot-hammerfoot"] = {
-  hash = "699800",
-  fullHash = "699800",
-  text = "Pilot Hammerfoot. Pilot Hammerfoot is a dwarven siege engine pilot of the Ironforge Siege Brigade, stationed near the mountain passes connecting Dun Morogh and Loch Modan. Worried for a fellow pilot lost in the hills, he seeks willing adventurers to search for his friend. His presence highlights the dangers faced by dwarves along the high alpine ridges. Ironforge's siege engines are the pride of its Siege Brigade, but driving them across harsh mountainous terrain carries extreme risk. Stationed at the North Gate Outpost overlooking the border between Dun Morogh and Loch Modan, Pilot Hammerfoot guards the pilots' engines and watches the mountain passes. When a pilot goes missing, finding him quickly becomes a priority, especially with savage beasts prowling the nearby hills.",
+  hash = "bc8e6f",
+  fullHash = "bc8e6f",
+  text = "Pilot Hammerfoot. Near the mountain passes, Pilot Hammerfoot watches over the Siege Brigade’s engines and worries for a missing fellow pilot. He seeks travelers to search the hills, where the high ridges put dwarves in danger. At North Gate Outpost, Pilot Hammerfoot watches the passes between Dun Morogh and Loch Modan and guards the Siege Brigade’s engines. Ironforge’s siege engines are prized by the brigade, but rough mountain ground makes them dangerous to drive. When a pilot goes missing, finding him matters, especially with savage beasts roaming the nearby hills.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_pilot-hammerfoot-14b5c704826a5bf37bdb/1-0000.mp3", duration = 45.1134694, start = 0},
+    {file = "Audio/Transport/full_npc_pilot-hammerfoot-3849bf05d515adb01060/1-0000.mp3", duration = 32.6530612, start = 0},
   },
 }
 P.transport["npc:pilot-longbeard"] = {
@@ -2970,27 +2970,27 @@ P.transport["npc:pilot-longbeard"] = {
   },
 }
 P.transport["npc:pilot-stonegear"] = {
-  hash = "e37213",
-  fullHash = "e37213",
-  text = "Pilot Stonegear. Pilot Stonegear, nicknamed 'Stone', is a dwarf mechanic and driver in the Ironforge Siege Brigade stationed at Steelgrill's Depot. He operates the formidable siege engine known as Trollplow and works tirelessly to enhance its performance and armor. Adventurers traveling through Dun Morogh often help him secure rare materials to keep his war machine battle-ready. Stationed among the rumbling boilers and clanking tracks of Steelgrill's Depot, Pilot Stonegear serves Ironforge as a proud driver in the Siege Brigade. His pride and joy is Trollplow, a heavy siege tank built to smash through enemy lines. Stonegear takes his machine seriously—knowing that in the heat of battle, a driver's life depends entirely on the resilience of gears, plates, and steam pressure. He constantly seeks to fine-tune both Trollplow's combat efficiency and the everyday livability of its cramped cockpit. Like many dwarven and gnomish grease-monkeys at the depot, Stonegear is rarely content with factory specifications. He often spends off-duty hours debating engineering schematics with comrades like Pilot Bellowfiz. Whether chasing down rumors of exotic ores or tracking down volatile minerals to fuel enhanced plating and munitions, Stonegear relies on eager recruits to venture into the snowy wilderness and dangerous caves of Dun Morogh on supply runs.",
+  hash = "149f5f",
+  fullHash = "149f5f",
+  text = "Pilot Stonegear. At Steelgrill's Depot, Pilot Stonegear keeps the Trollplow ready for battle. Known as “Stone,” the dwarf mechanic and driver serves in the Ironforge Siege Brigade, working to improve the engine's performance and armor. Travelers in Dun Morogh help him find rare materials for the war machine. At Steelgrill's Depot, Pilot Stonegear drives for Ironforge's Siege Brigade. His pride is Trollplow, a heavy siege tank built to break enemy lines. He knows a driver's life in battle depends on sound gears, strong plates, and steady steam pressure. So he keeps refining the tank's fighting power and making its cramped cockpit more livable. Pilot Stonegear spends his time off duty debating engineering plans with fellow pilots such as Pilot Bellowfiz. He is never content with the depot's standard designs. To improve Trollplow's armor and munitions, he seeks unusual ores and volatile minerals. Travelers venture through Dun Morogh's snowy wilderness and dangerous caves to find the supplies he needs.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_pilot-stonegear-c69476092484462f619a/1-0000.mp3", duration = 80.6922449, start = 0},
+    {file = "Audio/Transport/full_npc_pilot-stonegear-57bed17c78db98c7937a/1-0000.mp3", duration = 60.395102, start = 0},
   },
 }
 P.transport["npc:pixel"] = {
-  hash = "2820bc",
-  fullHash = "2820bc",
-  text = "Pixel. Pixel is an enterprising goblin courier operating out of Splintertree Post in Ashenvale. Making her living delivering heavy goods across dangerous territories, she handles shipments like Warsong saw blades for the local Horde forces—though she never lets any cargo go without proper compensation. While Splintertree Post serves as a fortified bastion for the Horde amidst the hostile canopies of Ashenvale, Pixel remains firmly focused on profit. As an independent courier willing to haul freight into active war zones, she provides essential logistics for the Warsong Clan's logging efforts. However, true to goblin custom, contracts and coin dictate her cooperation. She holds fast to her deliveries until the client produces payment; for the saw blades, she wants a deadly blunderbuss to protect herself on the road. Always alert to an opportunity, she also pays passing adventurers for satyr horns, which are in high demand in Ratchet.",
+  hash = "3a40dd",
+  fullHash = "3a40dd",
+  text = "Pixel. At Splintertree Post, Pixel carries Warsong goods through dangerous lands for a fee. She keeps the saw blades until she is paid, and looks for other cargo worth carrying. Pixel carries freight for the Warsong Clan from Splintertree Post, where the Horde holds a fortified post in Ashenvale. She takes goods through active war zones to support the clan’s logging work, but coin and contracts guide her choices. The saw blades stay with her until she receives payment. For this shipment, she wants a deadly blunderbuss to guard herself on the road. Pixel also pays travelers for satyr horns, which are in high demand in Ratchet.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_pixel-7cefbf843320b06b4277/1-0000.mp3", duration = 53.0808163, start = 0},
+    {file = "Audio/Transport/full_npc_pixel-6ccc998e28ea83840243/1-0000.mp3", duration = 38.164898, start = 0},
   },
 }
 P.transport["npc:piznik"] = {
-  hash = "cc8b2e",
-  fullHash = "cc8b2e",
-  text = "Piznik. Piznik is a disgruntled goblin surveyor hiding deep within Windshear Mine in the Stonetalon Mountains. Once a high-ranking overseer in the local Venture Company operations, he was sidelined by the ruthless Gerenzo Wrenchwhistle. Now nursing a grudge, Piznik secretly gathers intel to undermine his former workplace. Before Gerenzo Wrenchwhistle seized supreme authority over Windshear Crag, Piznik held the enviable title of second-in-command across the entire operation. However, corporate restructuring in the Venture Company is unforgiving. Once Gerenzo took full control, Piznik found himself pushed aside and relegated to the murky depths of Windshear Mine. Rather than accepting his demotion quietly, Piznik bides his time underground, keeping a watchful eye on mine movements and quietly plotting revenge against the boss who demoted him.",
+  hash = "70de1f",
+  fullHash = "70de1f",
+  text = "Piznik. Deep in Windshear Mine, Piznik watches the Venture Company at work. Once second-in-command, he was pushed aside by Gerenzo Wrenchwhistle and now plots against his former boss. Before Gerenzo Wrenchwhistle took control of Windshear Crag, Piznik ranked second across the entire operation. When Gerenzo seized authority, the Venture Company pushed Piznik aside and sent him into the depths of Windshear Mine. Piznik has not accepted the demotion quietly. Underground, he watches the mine's movements and waits for a chance to take revenge on the boss who demoted him.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_piznik-4e98d311b6960a65a046/1-0000.mp3", duration = 48.7183673, start = 0},
+    {file = "Audio/Transport/full_npc_piznik-046b5d2d873cfdfc8649/1-0000.mp3", duration = 33.1232653, start = 0},
   },
 }
 P.transport["npc:pozzik"] = {
@@ -3026,11 +3026,11 @@ P.transport["npc:priestess-josetta"] = {
   },
 }
 P.transport["npc:prospector-ironband"] = {
-  hash = "33e6af",
-  fullHash = "33e6af",
-  text = "Prospector Ironband. Prospector Darteus Ironband is an honest, hardworking dwarven surveyor who oversees an archaeological dig in southeastern Loch Modan. Working under the banner of the Dwarven Explorers' Guild, he is determined to uncover the earthen heritage buried beneath Khaz Modan. Despite setbacks and hostile local creatures, Ironband remains committed to sending regular progress reports and uncovered relics back to Ironforge. Darteus Ironband leads the dig at Ironband's Excavation Site nestled in the hills of southeastern Loch Modan. Like many field researchers in the Explorers' Guild, Ironband believes that the soil of Khaz Modan hides vital truths about the origins of the dwarven race. His camp works tirelessly digging trenches and sifting through rubble in search of ancient relics, stone tablets, and earthen artifacts. Despite the slow pace of unearthing buried history, Ironband's resolve remains unshaken, and he is always eager to recruit competent adventurers to safeguard his operation. Conducting an excavation in the rugged wilds is never quiet. The site faces relentless harassment from local troggs and wildlife, threatening the supply lines and equipment essential for the dig. Relics and valuable survey equipment are constantly at risk of being stolen or wrecked before they can be examined. Ironband relies on visiting Alliance travelers to protect the cargo shipments, keep hostile raiders at bay, and investigate missing guild contacts in the neighboring badlands.",
+  hash = "d91a1f",
+  fullHash = "d91a1f",
+  text = "Prospector Ironband. At Ironband's Excavation Site, Prospector Ironband directs a dig into Khaz Modan's buried past. He leads the Dwarven Explorers' Guild's work in southeastern Loch Modan, seeking the heritage of the dwarven people and sending reports and relics to Ironforge despite setbacks and hostile creatures. Prospector Ironband leads the dig at Ironband's Excavation Site in the hills of southeastern Loch Modan. Like other field researchers in the Explorers' Guild, he believes Khaz Modan's soil holds truths about the origins of the dwarven race. His camp digs trenches and sifts rubble for ancient relics, stone tablets, and earthen artifacts. The work moves slowly, but Ironband remains resolute and welcomes capable travelers who can safeguard the operation. Local troggs and wildlife threaten the excavation in Loch Modan's rugged wilds. They put the dig's supply lines and equipment at risk, and relics and survey tools may be stolen or wrecked before the Guild can examine them. Ironband relies on visiting Alliance travelers to guard cargo shipments, hold off raiders, and look into missing Guild contacts in the neighboring badlands.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_prospector-ironband-1c9551a770d9ee732985/1-0000.mp3", duration = 84.4016327, start = 0},
+    {file = "Audio/Transport/full_npc_prospector-ironband-6b149d25dd16691cd5fb/1-0000.mp3", duration = 68.4669388, start = 0},
   },
 }
 P.transport["npc:prospector-remtravel"] = {
@@ -3050,19 +3050,19 @@ P.transport["npc:prospector-ryedol"] = {
   },
 }
 P.transport["npc:prospector-stormpike"] = {
-  hash = "451fce",
-  fullHash = "451fce",
-  text = "Prospector Stormpike. Prospector Stormpike is a blunt, short-tempered dwarf stationed within the Library of the Hall of Explorers in Ironforge. A member of the renowned Stormpike clan, he oversees logistical support for distant archaeological digs and lends his sharp intellect to deciphering coded missives. Tucked away amid the towering bookshelves of the Hall of Explorers, Prospector Stormpike coordinates excavation efforts across Khaz Modan and beyond. Despite his gruff demeanor and impatience with idle chatter, he is deeply dedicated to uncovering dwarven history, keeping distant sites supplied with essentials like blasting powder. Beneath his rough exterior lies a keen analytical mind skilled at breaking intricate ciphers, making him an unexpected asset to Alliance scouts dealing with clandestine threats.",
+  hash = "ff6bd2",
+  fullHash = "ff6bd2",
+  text = "Prospector Stormpike. In Ironforge, Prospector Stormpike oversees support for distant archaeological digs. A blunt, short-tempered dwarf of the renowned Stormpike clan, he also uses his sharp mind to decipher coded messages. Prospector Stormpike coordinates excavations from the Library of the Hall of Explorers. His work sends supplies, including blasting powder, to distant sites across Khaz Modan and beyond. He is impatient with idle chatter, but his dedication to uncovering dwarven history runs deep. His keen mind can break intricate ciphers, making him a useful ally to scouts facing secret threats.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_prospector-stormpike-ada5edb4c227f6ecd8e4/1-0000.mp3", duration = 45.4791837, start = 0},
+    {file = "Audio/Transport/full_npc_prospector-stormpike-f3f901aed876caf627d7/1-0000.mp3", duration = 36.1012245, start = 0},
   },
 }
 P.transport["npc:prospector-whelgar"] = {
-  hash = "17a898",
-  fullHash = "17a898",
-  text = "Prospector Whelgar. Prospector Whelgar is a dwarven archaeologist stationed at an excavation site in the Wetlands east of Menethil Harbor. His mission to uncover titan relics has stalled after vicious raptors overran the dig. He now seeks hardy adventurers willing to brave the beasts to recover ancient artifacts. Sent into the marshy wilderness of the Wetlands to unearth the history of the dwarven race, Prospector Whelgar established an archaeological camp known as Whelgar's Excavation Site. The valley was once rich with ancient stone relics, but the local raptors quickly grew territorial and drove his team into hiding. Despite the danger, Whelgar refuses to abandon his duty. He remains focused on recovering valuable relics—including the enigmatic Goaz Stone—before wild predators or rival scoundrels ruin the site entirely.",
+  hash = "4219d8",
+  fullHash = "4219d8",
+  text = "Prospector Whelgar. At Whelgar's Excavation Site, Prospector Whelgar's search for titan relics has stalled. Vicious raptors overran the dig, and he seeks hardy adventurers to recover ancient artifacts. Prospector Whelgar leads a dwarven dig in the Wetlands. His camp, Whelgar's Excavation Site, lies east of Menethil Harbor, where he searches for the history of the dwarven race. Ancient stone relics once filled the valley, but territorial raptors drove his team into hiding. Whelgar refuses to leave his duty unfinished. He still hopes to recover valuable relics, including the Goaz Stone, before predators or rival scoundrels ruin the site.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_prospector-whelgar-0d0a2a53aa344dc35250/1-0000.mp3", duration = 46.2628571, start = 0},
+    {file = "Audio/Transport/full_npc_prospector-whelgar-e9a081f457044d80339b/1-0000.mp3", duration = 39.2097959, start = 0},
   },
 }
 P.transport["npc:quartermaster-lewis"] = {
@@ -3074,35 +3074,35 @@ P.transport["npc:quartermaster-lewis"] = {
   },
 }
 P.transport["npc:quinn-yorick"] = {
-  hash = "7bab21",
-  fullHash = "7bab21",
-  text = "Quinn Yorick. Quinn Yorick is a wounded Forsaken scout sheltering on the upper floor of a ruined farmhouse in the Ivar Patch. Having barely survived an encounter with the ghoul known as Ivar the Foul, he now relies on passing allies to help secure his survival. Tucked away inside an abandoned home at the Ivar Patch, Quinn Yorick lies gravely injured upstairs. His condition is the result of a vicious clash with Ivar the Foul, a ghoul lurking in the farm's barn in the northern stretches of Silverpine Forest. Sent with his sister Rane to scout Silverpine and report to High Executor Hadrec, Quinn cannot finish his mission or safely retreat alone, so he remains in hiding while travelers working for the Forsaken bring him healing and deal with the creature that nearly tore him apart.",
+  hash = "115034",
+  fullHash = "115034",
+  text = "Quinn Yorick. At the Ivar Patch, Quinn Yorick hides from the ghoul that wounded him. The Forsaken scout waits in a ruined farmhouse, unable to finish his mission or retreat alone. Quinn Yorick lies gravely injured upstairs in a ruined farmhouse at the Ivar Patch. Ivar the Foul, a ghoul lurking in the farm’s barn in northern Silverpine Forest, wounded him in a vicious clash. Quinn and his sister Rane were sent to scout Silverpine and report to High Executor Hadrec. Too hurt to finish the mission or make a safe retreat alone, he remains in hiding. Passing travelers working for the Forsaken bring him healing and deal with the creature that nearly tore him apart.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_quinn-yorick-b575e0688afdf1b51b95/1-0000.mp3", duration = 45.1395918, start = 0},
+    {file = "Audio/Transport/full_npc_quinn-yorick-7edf135465571f1915ab/1-0000.mp3", duration = 37.6163265, start = 0},
   },
 }
 P.transport["npc:ragnar-thunderbrew"] = {
-  hash = "dc98ff",
-  fullHash = "dc98ff",
-  text = "Ragnar Thunderbrew. Ragnar Thunderbrew is a dwarven brewer and co-owner of the renowned Thunderbrew Distillery in Kharanos. Known across Dun Morogh for serving his family's signature Beer Basted Boar Ribs, he works constantly to keep the busy tavern stocked and its patrons satisfied. Standing inside the Thunderbrew Distillery at Kharanos, Ragnar Thunderbrew manages the establishment's culinary reputation alongside his family's brewing operations. The distillery is a central gathering place for local mountaineers, traveling adventurers, and gnome refugees fleeing Gnomeregan. Chief among his duties is preparing the family's renowned Beer Basted Boar Ribs, a hearty Dun Morogh specialty cooked with stout dwarven ale. However, maintaining steady supplies has become difficult; his usual meat provider enlisted in the King's Army, leaving Ragnar dependent on wandering mountaineers and hunters to keep fresh crag boar flanks coming into the kitchen. The Thunderbrew name is synonymous with dwarven alcohol and pub culture throughout Ironforge territory. Ragnar has kept the family distillery running since his older brother, Grimbooze Thunderbrew, disappeared in a drunken haze a few harvests ago, defending the family's fiercely guarded brewing heritage against thieves like the Dark Iron dwarves, who stole the recipe for Thunderbrew Lager. Between restless patrons, missing supply lines, and rowdy tavern disputes, Ragnar keeps a steady hand on the taps, ensuring no traveler departs Kharanos with an empty mug or an empty belly.",
+  hash = "e23ae1",
+  fullHash = "e23ae1",
+  text = "Ragnar Thunderbrew. At the Thunderbrew Distillery in Kharanos, Ragnar Thunderbrew keeps the family tavern supplied and its patrons fed. The dwarven brewer is known across Dun Morogh for the family's Beer Basted Boar Ribs. Ragnar Thunderbrew tends the kitchen and brewing work at the Thunderbrew Distillery in Kharanos. Mountaineers, travelers, and gnome refugees fleeing Gnomeregan gather there. His Beer Basted Boar Ribs, made with dwarven ale, are a Dun Morogh specialty. Supplies have grown hard to find since his usual meat provider enlisted in the King's Army. Ragnar now relies on wandering mountaineers and hunters to bring fresh crag boar flanks to the kitchen. Across Ironforge territory, the Thunderbrew name is known for dwarven drink and tavern life. Ragnar has kept the distillery running since his older brother, Grimbooze Thunderbrew, disappeared in a drunken haze a few harvests ago. He guards the family's brewing heritage against thieves such as the Dark Iron dwarves, who stole the recipe for Thunderbrew Lager. With patrons restless, supplies scarce, and disputes breaking out in the tavern, Ragnar keeps the taps flowing and travelers fed in Kharanos.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_ragnar-thunderbrew-2f8389311084a7895052/1-0000.mp3", duration = 85.4726531, start = 0},
+    {file = "Audio/Transport/full_npc_ragnar-thunderbrew-493beee00963016b6065/1-0000.mp3", duration = 67.4481633, start = 0},
   },
 }
 P.transport["npc:rahauro"] = {
-  hash = "7eb184",
-  fullHash = "7eb184",
-  text = "Rahauro. Rahauro is a tauren attendant found on the Elder Rise in Thunder Bluff, faithfully serving the elder crone Magatha Grimtotem. Acting on her behalf, he recruits brave adventurers to venture into the volcanic depths of Ragefire Chasm beneath Orgrimmar. He coordinates efforts to retaliate against the hostile troggs and recover missing possessions belonging to his mistress's fallen agents. Standing loyally near Magatha Grimtotem on the high terrace of Elder Rise, Rahauro acts as her direct intermediary. Magatha often operates through trusted underlings rather than soiling her own hooves with public recruitment. When reports emerge of wild creatures swarming beneath the orcish capital, it is Rahauro who handles the logistical details, dispatching Horde mercenaries to deal with the uprising. The troggs infesting the subterranean caverns of Ragefire Chasm did not respond kindly to diplomatic outreach. Magatha originally dispatched envoys in an attempt to forge peace with the primitive beasts, but the troggs turned violently on the delegates and butchered them. Viewing them as an intolerable threat to the Horde, Rahauro directs champions into the caverns to cull the troggs and assess their true strength.",
+  hash = "c44a52",
+  fullHash = "c44a52",
+  text = "Rahauro. On Elder Rise in Thunder Bluff, Rahauro sends Horde fighters against threats beneath Orgrimmar. He serves Magatha Grimtotem, coordinating the response to troggs in Ragefire Chasm and the search for a fallen agent’s possessions. Rahauro attends Magatha Grimtotem on the high terrace of Elder Rise. He speaks and acts for the elder crone, who relies on trusted servants to recruit others. When wild creatures swarm beneath the orcish capital, Rahauro handles the arrangements and sends Horde mercenaries to face them. Troggs in the caverns of Ragefire Chasm rejected Magatha’s attempt to make peace. Her envoys went below Orgrimmar to parley, but the troggs attacked and killed them. Magatha sees the creatures as a threat to the Horde, and Rahauro sends champions into the caverns to thin their numbers and learn their strength.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_rahauro-316a9ef23f2c83e6996b/1-0000.mp3", duration = 68.4930612, start = 0},
+    {file = "Audio/Transport/full_npc_rahauro-ca165b7116a0a0014e87/1-0000.mp3", duration = 47.36, start = 0},
   },
 }
 P.transport["npc:raleigh-andrean"] = {
-  hash = "9ae959",
-  fullHash = "9ae959",
-  text = "Raleigh Andrean. Raleigh Andrean is a Forsaken resident of the Undercity. His requests reveal a callous attitude toward his former human life and those he once knew. Before the Third War devastated Lordaeron, Raleigh Andrean lived an ordinary human life, married to a woman named Deliah and keeping company with his friend Valdred Moray. Like countless others, he fell when the Scourge tore through the kingdom, only to be raised as a mindless thrall in service to the Lich King. He regained his free will following the shattering of the Ner'zhul's grip and Sylvanas Windrunner's uprising, taking his place among the Forsaken in the Undercity.",
+  hash = "e07dc8",
+  fullHash = "e07dc8",
+  text = "Raleigh Andrean. In the Undercity, Raleigh Andrean lives among the Forsaken. His requests show how little regard he has for his human life and those he once knew. Before the Third War, Raleigh Andrean lived in Lordaeron as a human. He was married to Deliah and counted Valdred Moray as a friend. The Scourge swept through the kingdom, killing Raleigh and raising him as a mindless thrall in service to the Lich King. After the Lich King's grip shattered and Sylvanas Windrunner led her uprising, Raleigh regained his free will and joined the Forsaken in the Undercity.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_raleigh-andrean-3e0a2563def2957b4291/1-0000.mp3", duration = 34.9779592, start = 0},
+    {file = "Audio/Transport/full_npc_raleigh-andrean-7363d7c5a6c7d06194be/1-0000.mp3", duration = 30.9028571, start = 0},
   },
 }
 P.transport["npc:randis"] = {
@@ -3130,19 +3130,19 @@ P.transport["npc:rau-cliffrunner"] = {
   },
 }
 P.transport["npc:razzle-sprysprocket"] = {
-  hash = "c0c6c7",
-  fullHash = "c0c6c7",
-  text = "Razzle Sprysprocket. Razzle Sprysprocket is a gnomish engineer residing in Kharanos in Dun Morogh. Known for his technical tinkering alongside Ozzie Togglevolt, he enlists travelers to help salvage disrupted gnomish machinery and components around the snowy hills. Following the tragedy at Gnomeregan, Razzle Sprysprocket found refuge among the snowdrifts of Dun Morogh, setting up his workshop in Kharanos. With a knack for delicate mechanical parts, Razzle works alongside fellow engineer Ozzie Togglevolt. Their efforts frequently involve recovering gyro-mechanisms and cog assemblies that were lost or scavenged during the flight from their irradiated homeland. Life in Dun Morogh is far from peaceful for a gnome inventor. Between the wild beasts of the frozen ridges and raids by local Frostmane trolls, Razzle's work is never entirely safe. Despite the dangers, he remains dedicated to keeping gnomish contraptions functional and recovering the lost wonders of Gnomeregan.",
+  hash = "15b6c2",
+  fullHash = "15b6c2",
+  text = "Razzle Sprysprocket. In Kharanos, Razzle Sprysprocket works to recover gnomish machinery. He tinkers with Ozzie Togglevolt and seeks lost parts scattered through the snowy hills. After Gnomeregan's fall, Razzle found refuge in Dun Morogh and set up his workshop in Kharanos. He has a gift for delicate mechanical parts and works beside fellow engineer Ozzie Togglevolt. Together, they recover gyro-mechanisms and cog assemblies lost or scavenged during the flight from their irradiated homeland. Wild beasts roam Dun Morogh's frozen ridges, and local Frostmane trolls raid the area. These dangers keep Razzle's work from being safe. Still, he labors to keep gnomish contraptions working and recover the lost wonders of Gnomeregan.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_razzle-sprysprocket-7c8b9fcef5fb610f60ad/1-0000.mp3", duration = 54.9093878, start = 0},
+    {file = "Audio/Transport/full_npc_razzle-sprysprocket-83dd7129c1759d1b1e12/1-0000.mp3", duration = 45.2963265, start = 0},
   },
 }
 P.transport["npc:red-jack-flint"] = {
-  hash = "15909e",
-  fullHash = "15909e",
-  text = "Red Jack Flint. Red Jack Flint is a seasoned human mariner stationed within Menethil Keep in Menethil Harbor. A member of the crew of the vessel Maiden's Virtue, he serves as a point of contact for travelers seeking passage or contacts across the sea toward Kalimdor. Found inside the stone walls of Menethil Keep, Red Jack Flint is an experienced seafarer tied to the harbor's maritime trade. As part of the crew of the Maiden's Virtue, he navigates the dangerous sea routes linking the marshlands of Khaz Modan with distant shores. Rather than staying confined to naval routine, Flint directs capable adventurers to allies across the Great Sea, including contacts in Kalimdor like Fiora Longears.",
+  hash = "13a6f1",
+  fullHash = "13a6f1",
+  text = "Red Jack Flint. In Menethil Keep, Red Jack Flint connects sailors with travelers bound across the sea. He is a seasoned human mariner and crew member of the Maiden's Virtue, helping travelers find passage and contacts toward Kalimdor. Red Jack Flint is a seasoned sailor in Menethil Keep. A crewman of the Maiden's Virtue, he knows the sea routes from Khaz Modan to distant shores. He also directs capable travelers to allies across the Great Sea, including Fiora Longears in Kalimdor.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_red-jack-flint-14d06d785b6d73eb2a97/1-0000.mp3", duration = 40.4114286, start = 0},
+    {file = "Audio/Transport/full_npc_red-jack-flint-8ebbd6f948f4922df463/1-0000.mp3", duration = 28.6040816, start = 0},
   },
 }
 P.transport["npc:rema-schneider"] = {
@@ -3178,11 +3178,11 @@ P.transport["npc:renato-gallina"] = {
   },
 }
 P.transport["npc:renee-lauer"] = {
-  hash = "5570c5",
-  fullHash = "5570c5",
-  text = "Innkeeper Renee. Innkeeper Renee runs the Gallows' End Tavern in Brill, offering shelter, food, and drink to the Forsaken and to Horde travelers passing through Tirisfal Glades. Renee keeps the Gallows' End Tavern, the inn at the heart of Brill. Behind her counter she sells food, drink and general goods, and she welcomes weary newcomers to rest their bones, remarking that the Forsaken certainly do have huge appetites. For the undead of Tirisfal, her tavern is a cozy little place where victims of the plague try to make their way in the world. Renee's inn is often a newcomer's first stop in Brill. Calvin Montague of Deathknell sends fresh adventurers to her with a nondescript letter, word she has been eagerly waiting for. Below her floorboards, the tavern's cellar also holds a captured Scarlet Crusade zealot.",
+  hash = "5df15d",
+  fullHash = "5df15d",
+  text = "Innkeeper Renee. Travelers find food, drink, and shelter with Innkeeper Renee at the Gallows' End Tavern in Brill. Innkeeper Renee welcomes weary newcomers to the Gallows' End Tavern, Brill's central inn. She sells food, drink, and general goods from behind her counter, and remarks that the Forsaken have huge appetites. Her tavern offers the undead of Tirisfal a cozy place to rest as plague victims make their way in the world. Newcomers to Brill often stop first at Renee's inn. Calvin Montague of Deathknell sends fresh adventurers to her with a nondescript letter, the word she has eagerly awaited. Beneath the tavern's floorboards, the cellar also holds a captured Scarlet Crusade zealot.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_renee-lauer-b9937a14e945ce57a107/1-0000.mp3", duration = 46.315102, start = 0},
+    {file = "Audio/Transport/full_npc_renee-lauer-4817f24a0eabb709dfa3/1-0000.mp3", duration = 40.0979592, start = 0},
   },
 }
 P.transport["npc:renzik-the-shiv"] = {
@@ -3226,19 +3226,19 @@ P.transport["npc:rivern-frostwind"] = {
   },
 }
 P.transport["npc:roetten-stonehammer"] = {
-  hash = "956c57",
-  fullHash = "956c57",
-  text = "Roetten Stonehammer. Roetten Stonehammer is an enterprising dwarf found wandering the Library in Ironforge's Hall of Explorers. Representing the interests of Reclaimers Inc., he organizes expeditions and recruits adventurers to handle salvage operations in distant lands like Desolace. Amid the ancient tomes and dust of the Hall of Explorers' Library, Roetten Stonehammer keeps his eye on matters of practical recovery. Operating on behalf of Reclaimers Inc., Roetten connects daring mercenaries with lucrative salvage contracts across Kalimdor. Rather than digging purely for historical curiosity, his associates look to reclaim valuable cargo, wreckage, and rare reagents from perilous frontiers like the rugged wastes of Desolace.",
+  hash = "7c0cbc",
+  fullHash = "7c0cbc",
+  text = "Roetten Stonehammer. Roetten Stonehammer works from the Library in Ironforge's Hall of Explorers. He represents Reclaimers Inc., organizing expeditions and hiring adventurers for salvage work in distant lands such as Desolace. In the Hall of Explorers' Library, Roetten Stonehammer handles practical recovery for Reclaimers Inc. He connects mercenaries with salvage work across Kalimdor. His associates seek valuable cargo, wreckage, and rare reagents in dangerous lands such as Desolace.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_roetten-stonehammer-5ef3e125e75196ba856c/1-0000.mp3", duration = 39.6016327, start = 0},
+    {file = "Audio/Transport/full_npc_roetten-stonehammer-c21e5f1660ce14b8fe0c/1-0000.mp3", duration = 28.0293878, start = 0},
   },
 }
 P.transport["npc:royal-historian-archesonus"] = {
-  hash = "a6b046",
-  fullHash = "a6b046",
-  text = "Royal Historian Archesonus. Royal Historian Archesonus is a dwarven scholar serving King Magni Bronzebeard within Ironforge's High Seat. Renowned for her scholarly works documenting recent catastrophes in the northern human kingdoms, she also directs research into ancient dwarven tragedies, notably the scorched remains of the Dark Iron kingdom. Stationed steps from King Magni Bronzebeard's throne in the High Seat, Royal Historian Archesonus maintains historical records on behalf of the Ironforge crown. Her academic gaze extends well beyond the Khaz Modan mountains. She authored 'The Fall of Lordaeron and the Scouring of the Eastweald' as well as 'On Plagues, Curses, and Blights,' tracking the horrific collapse of humanity's northern realm under the Scourge. Rather than hiding from dark histories, Archesonus approaches disasters methodically, seeking to record the truth of ruinous magic and political collapse. In addition to her texts on Lordaeron, Archesonus oversees inquiries into the War of the Three Hammers and the catastrophic destruction of the city of Thaurissan. Seeking recovered relics and charred tablets from the Burning Steppes, she enlists adventurers to search the Smoldering Ruins of Thaurissan. For Archesonus, understanding the cataclysm that scorched the Burning Steppes and bound the Dark Iron clan to the Firelord is vital statecraft—ensuring the Bronzebeard kingdom remembers exactly what sorcery and desperation can unleash.",
+  hash = "fee098",
+  fullHash = "fee098",
+  text = "Royal Historian Archesonus. At the High Seat, Royal Historian Archesonus records catastrophes for the Ironforge crown. A dwarven scholar serving King Magni Bronzebeard, she writes of recent calamities in the northern human kingdoms and oversees research into ancient dwarven tragedies, including the scorched remains of the Dark Iron kingdom. Royal Historian Archesonus keeps Ironforge’s records near King Magni Bronzebeard’s throne in the High Seat. Her studies reach beyond the Khaz Modan mountains. She wrote 'The Fall of Lordaeron and the Scouring of the Eastweald' and 'On Plagues, Curses, and Blights,' tracing the Scourge’s ruin of humanity’s northern realm. Archesonus faces these dark histories with care, seeking to record the truth of ruinous magic and political collapse. Royal Historian Archesonus also oversees research into the War of the Three Hammers and the destruction of Thaurissan. She seeks recovered relics and charred tablets from the Smoldering Ruins of Thaurissan in the Burning Steppes, and sends adventurers there to search. Her work examines the cataclysm that scorched the Burning Steppes and bound the Dark Iron clan to the Firelord.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_royal-historian-archesonus-283991b0cb27bada292a/1-0000.mp3", duration = 82.5208163, start = 0},
+    {file = "Audio/Transport/full_npc_royal-historian-archesonus-e63986ecb92916e9b951/1-0000.mp3", duration = 68.1795918, start = 0},
   },
 }
 P.transport["npc:ruga-ragetotem"] = {
@@ -3258,19 +3258,19 @@ P.transport["npc:rutgar-glyphshaper"] = {
   },
 }
 P.transport["npc:ruul-eagletalon"] = {
-  hash = "58aa4b",
-  fullHash = "58aa4b",
-  text = "Ruul Eagletalon. Ruul Eagletalon is a tauren resident of Bloodhoof Village in Mulgore. Stationed near the settlement's perimeter, he keeps a watchful eye on the local wildlife, particularly the aggressive Windfury harpies encroaching upon tauren lands. Ruul Eagletalon stands guard in Bloodhoof Village, tending to the security of the settlement as young braves arrive from Camp Narache. While Mulgore is a peaceful homeland compared to the arid wastes of the Barrens, territorial predators and hostile creatures continually press against the pastures. Ruul concerns himself with threats roaming the nearby plains, notably directing capable travelers to confront the savage Windfury harpies who prey on unwary nomads and game.",
+  hash = "f88945",
+  fullHash = "f88945",
+  text = "Ruul Eagletalon. At Bloodhoof Village, Ruul Eagletalon watches the settlement’s borders. He keeps an eye on Mulgore’s wildlife, especially the aggressive Windfury harpies pressing into tauren lands. Ruul Eagletalon tends to Bloodhoof Village’s security as young braves arrive from Camp Narache. Mulgore is a peaceful homeland beside the arid wastes of the Barrens, yet territorial predators and hostile creatures still press against its pastures. Ruul watches for dangers on the nearby plains and directs capable travelers against the savage Windfury harpies, which prey on unwary nomads and game.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_ruul-eagletalon-d9efdc544ab00ad02ce1/1-0000.mp3", duration = 41.3779592, start = 0},
+    {file = "Audio/Transport/full_npc_ruul-eagletalon-b2fcbdd25d591640bd3e/1-0000.mp3", duration = 34.5077551, start = 0},
   },
 }
 P.transport["npc:ruul-snowhoof"] = {
-  hash = "d14325",
-  fullHash = "d14325",
-  text = "Ruul Snowhoof. Ruul Snowhoof is a tauren druid held captive inside Thistlefur Hold in northern Ashenvale. Trapped in his bear form within a crude cage, he relies on Horde adventurers to break him out and guide him to safety. Ruul Snowhoof ventured into northern Ashenvale only to fall into the clutches of the corrupt Thistlefur furbolgs. When captured, he assumed the shape of a mighty bear—a guise his captors entirely mistook for an actual wild beast. Instead of slaying him outright, the furbolgs locked him inside a wooden cage deep within Thistlefur Hold, leaving him to slowly starve. Weakened and unable to safely drop his form or fight his way out alone, Ruul waits for allies of the Horde to spring his lock, fight off his jailers, and clear a path through the den so he can return to his sister, Yama Snowhoof, at Splintertree Post.",
+  hash = "feb397",
+  fullHash = "feb397",
+  text = "Ruul Snowhoof. Deep in northern Ashenvale, Ruul Snowhoof waits for rescue. The tauren druid is trapped in bear form inside a crude cage at Thistlefur Hold, relying on Horde adventurers to free him and guide him to safety. Ruul Snowhoof entered northern Ashenvale and fell into the hands of the corrupt Thistlefur furbolgs. He took the shape of a bear, and his captors mistook him for a wild beast. They locked him in a wooden cage deep within Thistlefur Hold instead of killing him. Now weakened and unable to safely leave his form or fight his way out alone, Ruul waits for Horde allies to open the cage, drive off his captors, and clear a path through the den. He hopes to return to his sister, Yama Snowhoof, at Splintertree Post.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_ruul-snowhoof-1f7e6a10d57626a6dc5d/1-0000.mp3", duration = 48.9795918, start = 0},
+    {file = "Audio/Transport/full_npc_ruul-snowhoof-3a2d8214233d16eab3bb/1-0000.mp3", duration = 43.284898, start = 0},
   },
 }
 P.transport["npc:rwag"] = {
@@ -3306,11 +3306,11 @@ P.transport["npc:salma-saldean"] = {
   },
 }
 P.transport["npc:sara-balloo"] = {
-  hash = "9214aa",
-  fullHash = "9214aa",
-  text = "Sara Balloo. Sara Balloo is a grieving dwarven widow residing in the Military Ward of Ironforge. She spends her days mourning her late husband, Sully Balloo, clinging to any remnant or message left behind from his final days in service. Standing within the bustling Military Ward of Ironforge, Sara Balloo presents a somber contrast to the clatter of weaponry and martial drills. Her husband, Sully Balloo, fell in battle far from home, leaving her alone with memories and lingering grief. For Sara, closure arrives only through recovered words—a final letter carrying Sully's devotion across the mountains from the scene of his demise.",
+  hash = "80ea5f",
+  fullHash = "80ea5f",
+  text = "Sara Balloo. In Ironforge's Military Ward, Sara Balloo mourns her husband Sully and holds fast to the words he left behind. Sara Balloo keeps vigil in Ironforge's Military Ward, amid the clang of weapons and the drill of soldiers. Her husband, Sully Balloo, fell in battle far from home, leaving her alone with grief and memories. A final letter, carried across the mountains from where he died, gives Sara words from his last days and a measure of closure.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_sara-balloo-da38b40bd2cb51fb9eba/1-0000.mp3", duration = 36.884898, start = 0},
+    {file = "Audio/Transport/full_npc_sara-balloo-ea75b1f6eeee5873376c/1-0000.mp3", duration = 27.8726531, start = 0},
   },
 }
 P.transport["npc:sara-timberlain"] = {
@@ -3322,11 +3322,11 @@ P.transport["npc:sara-timberlain"] = {
   },
 }
 P.transport["npc:scooty"] = {
-  hash = "b5015b",
-  fullHash = "b5015b",
-  text = "Scooty. Scooty is a goblin engineer operating out of the bustling pirate port of Booty Bay. Proclaiming himself a master of engineering, he maintains a delicate transponder setup linked directly to an experimental teleporter in the fallen city of Gnomeregan. His contraptions offer Horde operatives a direct, if perilous, technological bypass right into the heart of Dun Morogh. Operating amid the wharves and workshops of Booty Bay, Scooty holds court as one of the Steamwheedle Cartel's most ambitious tinkerers. While typical goblins obsess over gunpowder and explosives, Scooty turned his attention to instantaneous molecular transport. By calibrating complex transponder systems, he manages a direct operational link to a teleportation pad situated inside Gnomeregan. Horde forces looking to breach the subterranean gnome stronghold rely heavily on Scooty's tinkering to bypass treacherous Alliance territory altogether. Maintaining experimental goblin teleporters is rarely a dull enterprise. Scooty and his partner Sovik built the Transpolyporter 6000 after word reached them of a new gnomish rig in Gnomeregan, and by Scooty's own cheerful admission it has only exploded a dozen or so times. Despite the obvious physical perils involved in being dematerialized across continents, Scooty remains entirely confident in his genius, dismissing every catastrophic mechanical hiccup as merely a minor obstacle on the road to true innovation.",
+  hash = "d57c39",
+  fullHash = "d57c39",
+  text = "Scooty. In Booty Bay, Scooty runs a teleport link to Gnomeregan from the busy pirate port. The goblin engineer calls himself a master of his craft and keeps transponders tied to an experimental pad in the fallen gnome city. His device gives Horde forces a perilous route into Dun Morogh. Scooty holds court among Booty Bay’s wharves and workshops as one of the Steamwheedle Cartel’s most ambitious tinkerers. While many goblins favor gunpowder and explosives, he has turned to moving matter across great distances. He calibrates transponders to keep a working link with a teleportation pad inside Gnomeregan. Horde forces rely heavily on his craft to reach the subterranean gnome stronghold without crossing dangerous Alliance territory. Keeping experimental goblin teleporters running is rarely dull. After hearing of a new gnomish rig in Gnomeregan, Scooty and his partner Sovik built the Transpolyporter 6000. Scooty cheerfully admits it has exploded a dozen or so times. Crossing continents as scattered matter carries clear physical dangers, yet Scooty remains sure of his genius. He treats every mechanical failure as a small obstacle on the road to innovation.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_scooty-9ba7fda0ff2a8594b27a/1-0000.mp3", duration = 83.0955102, start = 0},
+    {file = "Audio/Transport/full_npc_scooty-b00a516e3dcc5dc0f56e/1-0000.mp3", duration = 67.2130612, start = 0},
   },
 }
 P.transport["npc:scout-riell"] = {
@@ -3338,11 +3338,11 @@ P.transport["npc:scout-riell"] = {
   },
 }
 P.transport["npc:scout-thaelrid"] = {
-  hash = "ddb3f8",
-  fullHash = "ddb3f8",
-  text = "Argent Guard Thaelrid. Argent Guard Thaelrid is a wounded night elf scout sent by the Argent Dawn into the submerged ruins of Blackfathom Deeps. Trapped near the Pool of Ask'ar, he bears witness to the dark alliance taking root between the naga and the Twilight's Hammer cult. When strange reports trickled out of the Zoram Strand concerning foul rites deep beneath the sea, the Argent Dawn took interest. Dedicated to watching for rising evils and unnatural corruption across Azeroth, the order dispatched Scout Thaelrid to slip inside Blackfathom Deeps. His mission was simple: assess the depth of the threat, observe the movements within the flooded temple, and report back so the Dawn could decide where aid was most desperately needed.",
+  hash = "a8c079",
+  fullHash = "a8c079",
+  text = "Argent Guard Thaelrid. Wounded near the Pool of Ask'ar, Argent Guard Thaelrid is cut off in Blackfathom Deeps. The night elf scout entered the submerged ruins for the Argent Dawn, and now he has seen what gathers below. Reports of foul rites beneath the sea reached the Argent Dawn from the Zoram Strand. The order watches for rising evils and unnatural corruption across Azeroth, so it sent Scout Thaelrid into Blackfathom Deeps. He was to judge the threat, watch the flooded temple, and report back. Then the Dawn could decide where aid was most needed.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_scout-thaelrid-d5ecf0735069de51c3ac/1-0000.mp3", duration = 41.0122449, start = 0},
+    {file = "Audio/Transport/full_npc_scout-thaelrid-5f5dce39993ac2ee5520/1-0000.mp3", duration = 32.4179592, start = 0},
   },
 }
 P.transport["npc:searn-firewarder"] = {
@@ -3354,19 +3354,19 @@ P.transport["npc:searn-firewarder"] = {
   },
 }
 P.transport["npc:seer-graytongue"] = {
-  hash = "187fe9",
-  fullHash = "187fe9",
-  text = "Seer Graytongue. Seer Graytongue is a venerable tauren elder and spiritual guide residing on Red Cloud Mesa in Mulgore. Stationed near Camp Narache, he tests young braves undertaking their earliest tribal trials. Through rituals such as the Rite of Strength, he ensures that the youth honor the Earthmother before stepping into the wider world. Seer Graytongue makes his home atop Red Cloud Mesa, serving as an early instructor for aspiring tauren braves and spellweavers. As young adventurers set forth from Camp Narache, Graytongue oversees critical steps of their sacred passage, including the Rites of the Earthmother. By testing their resolve against the harsh plains and dangerous beasts of Mulgore, he instills the virtues of honor, patience, and reverence that every true tauren must carry into adulthood.",
+  hash = "4370fb",
+  fullHash = "4370fb",
+  text = "Seer Graytongue. On Red Cloud Mesa, Seer Graytongue guides young tauren through their first tribal trials. Near Camp Narache in Mulgore, he teaches them to honor the Earthmother before they enter the wider world. Young tauren braves and spellweavers find Seer Graytongue atop Red Cloud Mesa. From there, he guides those setting out from Camp Narache through sacred steps, including the Rites of the Earthmother. Their trials test resolve against Mulgore’s harsh plains and dangerous beasts. Through them, Graytongue teaches honor, patience, and reverence, virtues every tauren carries into adulthood.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_seer-graytongue-e4246a93bfe6f523cffa/1-0000.mp3", duration = 46.5763265, start = 0},
+    {file = "Audio/Transport/full_npc_seer-graytongue-450fd3c5e07c277782ff/1-0000.mp3", duration = 35.2130612, start = 0},
   },
 }
 P.transport["npc:seer-ravenfeather"] = {
-  hash = "e888c7",
-  fullHash = "e888c7",
-  text = "Seer Ravenfeather. Seer Ravenfeather is a tauren shaman instructor stationed at Camp Narache on the Red Cloud Mesa. She guides fledging spiritualists through their early trials, helping them attune to the voices of the spirits and the land of Mulgore. Standing within the quiet shelters of Camp Narache, Seer Ravenfeather serves as a patient teacher for young tauren called to walk the shamanic path. The Red Cloud Mesa is a sacred proving ground, and Ravenfeather ensures that novice practitioners understand their duties before venturing into the wider expanses of Mulgore. She instructs them in the foundational rites needed to commune with elemental forces and honor the Earth Mother. Ravenfeather's primary charge is overseeing the initial spiritual steps of nascent shamans, directing them in the traditional rite known as the Call of Earth. Through her guidance, initiates prepare ceremonial saptas and seek communion with the earthen spirits nestled within the mesa's stony outcrops, forging a bond that anchors their elemental magic.",
+  hash = "aa2336",
+  fullHash = "aa2336",
+  text = "Seer Ravenfeather. At Camp Narache on the Red Cloud Mesa, Seer Ravenfeather guides young tauren in the ways of the spirits and Mulgore's land. At Camp Narache, Seer Ravenfeather teaches young tauren who have chosen the shamanic path. Red Cloud Mesa is a sacred proving ground, and she prepares new practitioners for their duties before they venture farther into Mulgore. She teaches the rites that let them commune with elemental forces and honor the Earth Mother. Seer Ravenfeather guides new shamans through their first spiritual steps and the traditional Call of Earth rite. Under her guidance, initiates prepare ceremonial saptas and seek communion with the earthen spirits among the mesa's stony outcrops. The bond they forge anchors their elemental magic.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_seer-ravenfeather-1e7c9927c896fe0cefbf/1-0000.mp3", duration = 57.2865306, start = 0},
+    {file = "Audio/Transport/full_npc_seer-ravenfeather-cc5c9e1c0bcff6cefb5c/1-0000.mp3", duration = 42.24, start = 0},
   },
 }
 P.transport["npc:seereth-stonebreak"] = {
@@ -3378,11 +3378,11 @@ P.transport["npc:seereth-stonebreak"] = {
   },
 }
 P.transport["npc:senator-mehr-stonehallow"] = {
-  hash = "9277b4",
-  fullHash = "9277b4",
-  text = "Senator Mehr Stonehallow. Senator Mehr Stonehallow is an Ironforge politician and member of the Explorers' League stationed at the Gol'Bolar Quarry in Dun Morogh. Rather than debating policy in the capital, he has traveled to the front lines to personally oversee the containment of the local trogg infestation. He enlists eager adventurers to cull the beasts before they overrun the quarry completely. While most members of the Ironforge Senate spend their days safely sequestered within the great stone halls of the capital, Senator Mehr Stonehallow prefers direct action. As a dwarf dedicated both to governance and the historical pursuits of the Explorers' League, he understands the practical dangers facing the realm. When vicious Rockjaw troggs began clawing out of the deep rock in Gol'Bolar Quarry, Stonehallow made the journey to the mining pit himself. Convinced that bureaucratic posturing will not save the workers, he offers bounties to capable travelers to eradicate the aggressive troggs and reclaim the quarry.",
+  hash = "c7fcb5",
+  fullHash = "c7fcb5",
+  text = "Senator Mehr Stonehallow. At Gol'Bolar Quarry, Senator Mehr Stonehallow faces a trogg infestation. The Ironforge politician and Explorers' League member has come to the front lines to oversee its containment, enlisting eager adventurers to cull the beasts before they overrun the quarry. Senator Mehr Stonehallow has left Ironforge's Senate halls for Gol'Bolar Quarry. A dwarf devoted to governance and the Explorers' League's historical pursuits, he knows the dangers facing the realm. When Rockjaw troggs clawed their way from the deep rock, Stonehallow traveled to the mining pit himself. He believes debate alone will not protect the workers, so he offers bounties to capable travelers who can drive back the aggressive troggs and reclaim the quarry.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_senator-mehr-stonehallow-e87c35886356816fd8bc/1-0000.mp3", duration = 55.1183673, start = 0},
+    {file = "Audio/Transport/full_npc_senator-mehr-stonehallow-a6d2726cb4aa90dcf75b/1-0000.mp3", duration = 41.7697959, start = 0},
   },
 }
 P.transport["npc:senior-surveyor-fizzledowser"] = {
@@ -3418,35 +3418,35 @@ P.transport["npc:sentinel-elissa-starbreeze"] = {
   },
 }
 P.transport["npc:sentinel-farsong"] = {
-  hash = "3cbc07",
-  fullHash = "3cbc07",
-  text = "Sentinel Farsong. Sentinel Farsong is a night elf sentinel stationed at Silverwing Grove in Ashenvale. Serving as a crucial liaison for the Silverwing Sentinels, she coordinates intelligence and combat efforts against the encroaching Warsong Outriders in Warsong Gulch. Standing vigil within Silverwing Grove, Sentinel Farsong is deeply involved in the defense of Ashenvale's southern border. With the Warsong clan continuously harvesting lumber and pushing deeper into ancestral night elf territories, she mobilizes Alliance champions to strike at Warsong Outriders and ensures field reports reach Silverwing command. Her duties center on rallying volunteers to check the Horde's territorial expansion and preserve the sacred woods.",
+  hash = "53eb04",
+  fullHash = "53eb04",
+  text = "Sentinel Farsong. At Silverwing Grove, Sentinel Farsong helps defend Ashenvale’s southern border. She rallies champions against the Warsong Outriders in Warsong Gulch. Sentinel Farsong keeps watch at Silverwing Grove as the Warsong clan cuts lumber and advances into night elf lands. She calls Alliance champions to strike at Warsong Outriders and sends field reports to Silverwing command. Her work helps check the Horde’s expansion and protect the woods.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_sentinel-farsong-a668838df5703e89d792/1-0000.mp3", duration = 40.5420408, start = 0},
+    {file = "Audio/Transport/full_npc_sentinel-farsong-047732bdd417998680a1/1-0000.mp3", duration = 24.4244898, start = 0},
   },
 }
 P.transport["npc:sentinel-onaeya"] = {
-  hash = "743889",
-  fullHash = "743889",
-  text = "Sentinel Onaeya. Sentinel Onaeya is a night elf guardian stationed at Maestra's Post in northwestern Ashenvale, near the border with Darkshore. Tasked with holding the line against encroaching perils, she rallies capable Alliance adventurers to safeguard the forest and aid fellow sentinels. Maestra's Post serves as a critical wayside outpost along the road from Darkshore into the dense, contested canopy of Ashenvale. Sentinel Onaeya stands guard outside the settlement's main lodge, keeping a vigilant watch over travelers and coordinating defensive actions. Between hostile wildlife, corrupting forces, and border tensions, sentinels like Onaeya represent the first line of defense for night elf settlements in the region. Onaeya receives news of Sentinel Aynasha, who is attacked by furbolgs while carrying an important message through Darkshore. She rewards adventurers who protect the poisoned sentinel until her antidote takes effect.",
+  hash = "c44999",
+  fullHash = "c44999",
+  text = "Sentinel Onaeya. At Maestra's Post, Sentinel Onaeya guards the northern edge of Ashenvale. The night elf guardian rallies Alliance adventurers to protect the forest and aid fellow sentinels. Maestra's Post is a wayside outpost on the road from Darkshore into Ashenvale. Sentinel Onaeya guards the lodge outside the settlement and coordinates its defense. Hostile wildlife, corrupting forces, and border tensions threaten night elf settlements in the region. Sentinel Onaeya hears that Sentinel Aynasha was attacked by furbolgs while carrying an important message through Darkshore. Onaeya rewards those who protect the poisoned sentinel until her antidote takes effect.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_sentinel-onaeya-280599650fd03fe5cd98/1-0000.mp3", duration = 53.3942857, start = 0},
+    {file = "Audio/Transport/full_npc_sentinel-onaeya-4648f804d4a8e23119f2/1-0000.mp3", duration = 39.2097959, start = 0},
   },
 }
 P.transport["npc:sentinel-selarin"] = {
-  hash = "e73fb2",
-  fullHash = "e73fb2",
-  text = "Sentinel Selarin. Sentinel Selarin is a night elf scout dispatched to the coastal settlement of Auberdine. Acting as an emissary for the defenders of Ashenvale, she seeks reinforcements to help stem the rising perils threatening the ancient forest. As tensions and dark threats mount across Ashenvale, the garrison there has found its resources stretched to the breaking point. Under the direction of Raene Wolfrunner, Sentinel Selarin traveled north along the forest road into Darkshore. Her mission was straightforward: seek out Terenthis in Auberdine and request assistance from the sentinels and scouts stationed on the coast. Upon arriving in Auberdine, Selarin found Terenthis thoroughly consumed by local duties and unable to personally answer the call. Rather than returning empty-handed, Selarin resolved to remain in town and enlist capable travelers passing through Darkshore. She directs proven adventurers south toward Astranaar, urging them to lend their blades and spells to Raene Wolfrunner's beleaguered forces.",
+  hash = "aafe52",
+  fullHash = "aafe52",
+  text = "Sentinel Selarin. In Auberdine, Sentinel Selarin seeks help for Ashenvale's defenders. She carries Raene Wolfrunner's appeal to the coastal settlement as dangers threaten the forest. Sentinel Selarin carries Raene Wolfrunner's appeal from Ashenvale to Auberdine. With threats mounting across Ashenvale, the garrison is stretched thin. Selarin travels north along the forest road into Darkshore to find Terenthis and ask for help from the sentinels and scouts stationed on the coast. Terenthis cannot answer Selarin's appeal in person, so she remains in Auberdine to enlist travelers passing through Darkshore. She sends capable adventurers south to Astranaar, where they can bring their blades and spells to Raene Wolfrunner's beleaguered forces.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_sentinel-selarin-1c7bb6333ac709f0df7c/1-0000.mp3", duration = 58.5665306, start = 0},
+    {file = "Audio/Transport/full_npc_sentinel-selarin-94109e5143ef712e3450/1-0000.mp3", duration = 42.24, start = 0},
   },
 }
 P.transport["npc:sentinel-thenysil"] = {
-  hash = "9367b6",
-  fullHash = "9367b6",
-  text = "Sentinel Thenysil. Sentinel Tara Thenysil is a night elf sentinel stationed in Astranaar within the ancient forest of Ashenvale. Vigilant over the surrounding wilderness, she keeps close tabs on military operations in the region and coordinates scouts watching neighboring territories. Her attention is particularly focused on allied movements pushing south into the contested Stonetalon Mountains. From her post in the fortified settlement of Astranaar, Sentinel Thenysil helps secure Ashenvale against growing hostility. Night elf holdings throughout the region face relentless encroachment, making communications between distant outposts vital. While much of the local garrison focuses directly on defending the forest road, Thenysil directs Alliance volunteers beyond Ashenvale's borders to ensure distant allies remain supported. Thenysil maintains a close personal and military friendship with Kaela Shadowspear, an operative deployed south into the crags of the Stonetalon Mountains. Learning that Kaela was dispatched alongside an eccentric gnome mage, Thenysil considered the unorthodox pairing an unmistakable sign of serious trouble brewing in the peaks. Wary of what dangers her comrade might face, she recruits capable adventurers to journey south, deliver support, and report on the unfolding mission.",
+  hash = "67069c",
+  fullHash = "67069c",
+  text = "Sentinel Thenysil. In Astranaar, Sentinel Tara Thenysil watches Ashenvale and the southern road into Stonetalon. She tracks military movements and keeps scouts watching neighboring lands, with special attention on allied forces moving south. At her post in Astranaar, Sentinel Thenysil helps guard Ashenvale as hostility grows. Night elf lands across the region face steady encroachment, so outposts must stay in contact. While much of the garrison defends the forest road, Thenysil sends Alliance volunteers beyond Ashenvale to support distant allies. Sentinel Thenysil shares a close friendship and military bond with Kaela Shadowspear, an operative sent south into the Stonetalon Mountains. When she learns Kaela was sent with an eccentric gnome mage, Thenysil takes the strange pairing as a sign of serious trouble in the peaks. Concerned for her comrade, she sends capable travelers south with support and asks them to report on the mission.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_sentinel-thenysil-aed4a9888ed722e4f392/1-0000.mp3", duration = 75.3632653, start = 0},
+    {file = "Audio/Transport/full_npc_sentinel-thenysil-9c921d3c0ae861acbb97/1-0000.mp3", duration = 55.04, start = 0},
   },
 }
 P.transport["npc:sentinel-tysha-moonblade"] = {
@@ -3458,11 +3458,11 @@ P.transport["npc:sentinel-tysha-moonblade"] = {
   },
 }
 P.transport["npc:sentinel-velene-starstrike"] = {
-  hash = "af0648",
-  fullHash = "af0648",
-  text = "Sentinel Velene Starstrike. Sentinel Velene Starstrike is a night elf guardian stationed at Silverwind Refuge in central Ashenvale. Tasked with protecting the sanctuary and the surrounding waters, she confronts encroaching unnatural threats such as rogue elementals and foul sorcerers. Her vigilance helps safeguard the ancient woodland from corrupting magical interference. Stationed beside the clear waters of Mystral Lake, Sentinel Velene Starstrike maintains a watchful vigil from Silverwind Refuge. Like many night elf sentinels scattered throughout Ashenvale, her primary duty is preserving the balance of the forest and repelling threats to elven sanctuaries. The serene grove serves as a vital rest stop for travelers traversing the central woods, making her presence essential to the area's ongoing safety. The peace around Silverwind Refuge is fragile. Velene keeps close watch over Mystral Lake, where erratic elemental spirits and reckless mage summoners disrupt the natural rhythm of the wilderness. Through her direction, champions are dispatched to suppress rogue water elementals and put an end to the careless practitioners disturbing the spirits of the land.",
+  hash = "b4d0c1",
+  fullHash = "b4d0c1",
+  text = "Sentinel Velene Starstrike. At Silverwind Refuge, Sentinel Velene Starstrike guards central Ashenvale. She protects the sanctuary and nearby waters from rogue elementals and foul sorcerers, keeping their magic from corrupting the ancient woodland. At Mystral Lake, Sentinel Velene Starstrike keeps watch from Silverwind Refuge. Night elf sentinels across Ashenvale work to preserve the forest's balance and defend elven sanctuaries. Silverwind Refuge offers travelers a place to rest in the central woods, and Velene helps keep the area safe. Peace around Silverwind Refuge can be easily disturbed. Velene watches Mystral Lake, where unruly elemental spirits and reckless mage summoners upset the wilderness. She directs champions against rogue water elementals and the careless spellcasters who disturb the spirits of the land.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_sentinel-velene-starstrike-e2b88c940174d8e0b9b1/1-0000.mp3", duration = 64.6530612, start = 0},
+    {file = "Audio/Transport/full_npc_sentinel-velene-starstrike-1f2b4694bd633311b575/1-0000.mp3", duration = 47.5167347, start = 0},
   },
 }
 P.transport["npc:serge-hinott"] = {
@@ -3490,59 +3490,59 @@ P.transport["npc:shandris-feathermoon"] = {
   },
 }
 P.transport["npc:shari-stilwell"] = {
-  hash = "0b19ec",
-  fullHash = "0b19ec",
-  text = "Shari Stilwell. Shari Stilwell is a Forsaken paladin trainer stationed in the settlement of Brill within Tirisfal Glades. Bearing a surname shared with notable figures in the Eastern Kingdoms, she instructs Forsaken who take up the mantle of holy warriors. Her presence marks a rare and unconventional discipline among the undead under the Banshee Queen. Found among the blight-touched buildings of Brill, Shari Stilwell stands out as a mentor to Forsaken holy warriors. While the holy Light is excruciating to the undead, Shari guides fledgling Forsaken who endure that agonizing path. She aids newcomers seeking their footing in Tirisfal Glades through their early training and adjustments, offering guidance to those looking to secure a place within the Forsaken kingdom. Shari shares her family name with several living figures scattered across the southern kingdoms, including Daphne, Merissa, and the renowned smith Jordan Stilwell. Whether she was torn away from these kin during the fall of Lordaeron or shares only a distant lineage remains an unspoken tragedy of the Scourge's devastation.",
+  hash = "888a10",
+  fullHash = "888a10",
+  text = "Shari Stilwell. In Brill, Shari Stilwell trains Forsaken in the paladin's path. She is stationed in Tirisfal Glades, where the undead who endure the Light's pain learn holy and martial discipline. In Brill, Shari Stilwell guides Forsaken who seek the path of holy warriors. The Light brings the undead excruciating pain, yet she trains those willing to endure it. She helps newcomers find their footing in Tirisfal Glades, through early training and the adjustments of Forsaken life. Those she guides seek a place within the Forsaken kingdom. Shari bears the same family name as Daphne, Merissa, and Jordan Stilwell, a renowned smith among the living in the southern kingdoms. Whether the fall of Lordaeron tore Shari from these kin, or whether their bond is only distant, remains unknown amid the Scourge's devastation.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_shari-stilwell-8a5912b12d442bf27374/1-0000.mp3", duration = 60.6040816, start = 0},
+    {file = "Audio/Transport/full_npc_shari-stilwell-f40b43bdaff81c96b811/1-0000.mp3", duration = 48.5616327, start = 0},
   },
 }
 P.transport["npc:shelene-rhobart"] = {
-  hash = "f1f5bc",
-  fullHash = "f1f5bc",
-  text = "Shelene Rhobart. Shelene Rhobart is a Forsaken leatherworking trainer stationed along the road in Tirisfal Glades. Operating out of a Deathguard waystation, she supplies cured hides and leathercraft training to support the Forsaken's military and logistical efforts across the blighted lands. Shelene Rhobart plies her trade at a Deathguard waystation, an outpost situated southeast of Brill along the main road toward the ruins of Lordaeron. Even in undeath, practical crafts remain essential for survival and war. Shelene works with animal pelts collected from the prowling beasts of Tirisfal, refining tough hides into armor, straps, and field gear to supply local Forsaken patrols contending with both the Scourge and Scarlet crusaders.",
+  hash = "23f8da",
+  fullHash = "23f8da",
+  text = "Shelene Rhobart. Along Tirisfal's road, Shelene Rhobart trains leatherworkers at a Deathguard waystation. She supplies cured hides and leathercraft training for the Forsaken's military and logistical efforts across the blighted lands. At a Deathguard waystation southeast of Brill, Shelene Rhobart works along the main road toward the ruins of Lordaeron. Practical crafts still matter in undeath, for survival and war. She turns pelts from Tirisfal's prowling beasts into tough hides, armor, straps, and field gear for Forsaken patrols facing the Scourge and Scarlet crusaders.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_shelene-rhobart-95d3c1d660dee81b42ba/1-0000.mp3", duration = 43.2065306, start = 0},
+    {file = "Audio/Transport/full_npc_shelene-rhobart-793c0a3bff56ea14998e/1-0000.mp3", duration = 36.1795918, start = 0},
   },
 }
 P.transport["npc:shindrell-swiftfire"] = {
-  hash = "a2298f",
-  fullHash = "a2298f",
-  text = "Shindrell Swiftfire. Shindrell Swiftfire is a night elf sentinel and scout stationed in Astranaar, the heart of night elf operations in Ashenvale. Keenly aware of shifting perils along Kalimdor's western reaches, she directs capable Alliance adventurers toward gathering threats on the coastline and nearby mountain passes. Her duties make her an essential hub for coordinating local defense against emerging oceanic and wild menaces. From Astranaar's winding walkways, Shindrell Swiftfire serves as an alert observer of Ashenvale's broader frontiers. While the forest's Sentinels are constantly pressured by the Horde's logging incursions from the east and south, Shindrell keeps her eyes fixed on dangers that lie beyond the immediate woodland front. She acts as a vital liaison for travelers arriving from Darkshore or heading out toward the jagged ridges of Stonetalon, ensuring no sudden menace strikes Astranaar undefended from the flank. Among Shindrell's primary concerns is the troubled Zoram Strand on Ashenvale's northwestern shore. The sudden emergence of hostile naga crawling from the ocean depths poses a grave mystery and direct threat to the Kaldorei settlements. By dispatching seasoned fighters to investigate the shoreline and coordinate with scouts closer to the scene, Shindrell works to contain the serpentine invaders before they secure a permanent foothold on ancient night elf lands.",
+  hash = "9fb015",
+  fullHash = "9fb015",
+  text = "Shindrell Swiftfire. Astranaar’s defense reaches beyond Ashenvale’s forest. Shindrell Swiftfire, a night elf sentinel and scout, watches from the town at the heart of night elf operations in Ashenvale. Alert to changing dangers along Kalimdor’s western reaches, she directs capable Alliance adventurers toward threats on the coast and nearby mountain passes, helping coordinate local defense against dangers from sea and wilds. From Astranaar’s winding walkways, Shindrell Swiftfire watches the frontiers beyond Ashenvale. Sentinels face Horde logging incursions from the east and south, while Shindrell keeps watch beyond the woodland itself. Travelers arrive from Darkshore or set out toward Stonetalon’s jagged ridges, and she helps ensure Astranaar is not left undefended against danger from the flank. On Ashenvale’s northwestern shore, the troubled Zoram Strand draws Shindrell’s attention. Hostile naga have emerged from the ocean depths, a grave mystery and a direct threat to Kaldorei settlements. Shindrell sends seasoned fighters to investigate the shoreline and coordinate with scouts near the coast, seeking to contain the serpentine invaders before they gain a lasting foothold on ancient night elf lands.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_shindrell-swiftfire-c087354e3a13c61d57f4/1-0000.mp3", duration = 78.9159184, start = 0},
+    {file = "Audio/Transport/full_npc_shindrell-swiftfire-3fd3710447bce9e33007/1-0000.mp3", duration = 71.915102, start = 0},
   },
 }
 P.transport["npc:shoni-the-shilent"] = {
-  hash = "d1ecda",
-  fullHash = "d1ecda",
-  text = "Shoni the Shilent. Shoni the Shilent is an industrious gnome engineer stationed in Stormwind City's bustling Dwarven District. As commander of the Gnomeregan underground assault crew, she directs Alliance adventurers into the Deadmines to salvage the power supply of a goblin shredder, fuel for the machines she hopes will break a path back into Gnomeregan. Operating out of the smoky workshops of the Dwarven District, Shoni represents gnomish strategic ingenuity far from the lost halls of Gnomeregan. Her engineering plans are ambitious. With Gnomeregan in the hands of the troggs, Shoni is organizing an underground assault to retake it, and she sends operatives into the subterranean tunnels beneath Westfall for the parts her crew needs. Shoni's plan rests on the gnomes' own gyrodrillmatic excavationators, heavy drilling machines meant to break through the rocky underground borders of Gnomeregan and open the way for a gnomish assault. They lack the power to do it, so she wants the intact power supply, the Gnoam Sprecklesprocket, from a working goblin shredder deep in the Deadmines. Later, she also sends adventurers into Gnomeregan itself to tear apart its robots for spare parts to repair her fleet.",
+  hash = "2696df",
+  fullHash = "2696df",
+  text = "Shoni the Shilent. In Stormwind’s Dwarven District, Shoni the Shilent sends a crew beneath Westfall. She leads the gnomish effort to reclaim Gnomeregan and seeks power for the machines meant to break a path back into the city. Shoni the Shilent directs a gnomish assault crew from Stormwind’s Dwarven District. With Gnomeregan held by troggs, she plans to retake the city and sends operatives into the tunnels beneath Westfall for the parts her crew needs. Shoni’s plan depends on the gnomes’ gyrodrillmatic excavationators, heavy machines built to break through Gnomeregan’s underground borders and open a way for an assault. The machines lack power, so she seeks the intact Gnoam Sprecklesprocket from a working goblin shredder deep in the Deadmines. She also sends adventurers into Gnomeregan to dismantle its robots for spare parts to repair her fleet.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_shoni-the-shilent-11b1630193fe77fbc2bd/1-0000.mp3", duration = 67.3697959, start = 0},
+    {file = "Audio/Transport/full_npc_shoni-the-shilent-1b3fb8547b6f0c581765/1-0000.mp3", duration = 47.2032653, start = 0},
   },
 }
 P.transport["npc:sicco-thermaplugg"] = {
-  hash = "dee2a8",
-  fullHash = "dee2a8",
-  text = "Mekgineer Thermaplugg. Mekgineer Thermaplugg is the self-proclaimed ruler of ruined Gnomeregan and the greatest traitor in gnomish history. Once the trusted chief advisor of High Tinker Gelbin Mekkatorque, he orchestrated the catastrophic irradiation of the underground city in a twisted bid to seize power. Now thoroughly deranged and transformed into a leper gnome, he commands the irradiated halls from within a massive mechanical battle suit. Mekgineer Thermaplugg served for many years as chief advisor to High Tinker Gelbin Mekkatorque, who trusted him completely. All the while, Thermaplugg secretly coveted the office of High Tinker. What finally drove him to betray that trust, whether power or wealth, not even Mekkatorque can say; the High Tinker can only note that Thermaplugg would have had both in time.",
+  hash = "5ade79",
+  fullHash = "5ade79",
+  text = "Mekgineer Thermaplugg. In ruined Gnomeregan, Mekgineer Thermaplugg rules from a massive mechanical battle suit. Once High Tinker Gelbin Mekkatorque’s trusted advisor, he brought about the city’s irradiation in a bid for power. The fallout transformed him into a leper gnome and left him deranged, ruling the ruined halls. For many years, Mekgineer Thermaplugg served as chief advisor to High Tinker Gelbin Mekkatorque, who trusted him completely. In secret, Thermaplugg coveted the High Tinker’s office. Even Mekkatorque cannot say what finally drove him to betray that trust. The High Tinker can only note that Thermaplugg would have had both power and wealth in time.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_sicco-thermaplugg-eef22cff83967f80fddf/1-0000.mp3", duration = 46.3673469, start = 0},
+    {file = "Audio/Transport/full_npc_sicco-thermaplugg-eb07ca5bbab68edd7bf8/1-0000.mp3", duration = 38.9746939, start = 0},
   },
 }
 P.transport["npc:sida"] = {
-  hash = "83289a",
-  fullHash = "83289a",
-  text = "Sida. Sida is a dwarven resident of Menethil Harbor in the Wetlands. Known for her estranged marriage to Einar Stonegrip, she spends her days in the port town while dealing with personal misadventures out in the surrounding marshes. Sida resides in the bustling Alliance port of Menethil Harbor, living apart from her husband, Einar Stonegrip. Their relationship is strained enough that Einar flatly refuses to travel to Menethil so long as Sida remains in town. Despite keeping to the coastal settlement, Sida occasionally ventures out into the dangers of the Wetlands, having recently suffered the misfortune of losing her personal bag during an expedition out toward Ironbeard's Tomb.",
+  hash = "528f4f",
+  fullHash = "528f4f",
+  text = "Sida. In Menethil Harbor, Sida lives apart from her estranged husband, Einar Stonegrip. She spends her days in the Wetlands port and sometimes ventures into the marshes, where she recently lost her bag near Ironbeard's Tomb. Sida lives in Menethil Harbor, the Alliance port in the Wetlands, apart from Einar Stonegrip. Their marriage is strained, and Einar refuses to travel to Menethil while Sida remains there. She still sometimes ventures beyond the coastal settlement into the Wetlands. On a recent trip toward Ironbeard's Tomb, she lost her personal bag.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_sida-800f07b8147a0de9a63a/1-0000.mp3", duration = 40.5681633, start = 0},
+    {file = "Audio/Transport/full_npc_sida-45284035f8800efcbe70/1-0000.mp3", duration = 32.4963265, start = 0},
   },
 }
 P.transport["npc:sirra-von-indi"] = {
-  hash = "e74687",
-  fullHash = "e74687",
-  text = "Sirra Von'Indi. Sirra Von'Indi is the resident historian of Darkshire, stationed within the town hall amid stacks of forgotten records. Versed in ancient languages and local history, he assists the township in deciphering mysterious documents and uncovering the dark past of Duskwood. Sirra Von'Indi serves as Darkshire's foremost scholar, keeping watch over the settlement's archives from inside the Darkshire Town Hall. While the town guard focuses on the immediate threats lurking in the woods, Sirra turns his attention to the written word, translating cryptic texts and preserving the fading history of Grand Hamlet before the shadow fell across the region.",
+  hash = "9db105",
+  fullHash = "9db105",
+  text = "Sirra Von'Indi. In Darkshire, Sirra Von'Indi studies the records that hold Duskwood's history. The town's historian knows ancient languages and helps decipher mysterious documents and the region's past. In Darkshire Town Hall, Sirra Von'Indi keeps the settlement's archives. While the town guard faces threats in the woods, he studies old texts and preserves the history of Grand Hamlet from before shadow fell across the region.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_sirra-von-indi-25e332edf279b927efeb/1-0000.mp3", duration = 38.635102, start = 0},
+    {file = "Audio/Transport/full_npc_sirra-von-indi-eb573e89c5ac8be4f2ff/1-0000.mp3", duration = 22.2563265, start = 0},
   },
 }
 P.transport["npc:sister-aquinne"] = {
@@ -3554,11 +3554,11 @@ P.transport["npc:sister-aquinne"] = {
   },
 }
 P.transport["npc:skorn-whitecloud"] = {
-  hash = "505afd",
-  fullHash = "505afd",
-  text = "Skorn Whitecloud. Skorn Whitecloud is an aging tauren hunter residing at Bloodhoof Village in the rolling plains of Mulgore. He guides young hunters in understanding their relationship with the land's predators and aids travelers who cross paths with Mulgore's lurking dangers. Living at Bloodhoof Village in Mulgore, Skorn Whitecloud is an old hunter who now serves as an instructor in the ways of the hunt. His primary role is instilling respect for the wild creatures of the plains. He tests aspiring hunters by sending them after the claws of Mulgore's cunning flatland prowlers, to be shown to Melor Stonehoof in Thunder Bluff, ensuring that those who take up the bow or spear understand the balance between predator and prey.",
+  hash = "f5e68f",
+  fullHash = "f5e68f",
+  text = "Skorn Whitecloud. At Bloodhoof Village, aging tauren hunter Skorn Whitecloud guides young hunters and aids travelers facing Mulgore’s dangers. Skorn Whitecloud lives at Bloodhoof Village in Mulgore, where he guides young hunters in the ways of the hunt. He teaches respect for the plains’ wild creatures. Aspiring hunters prove themselves against cunning flatland prowlers, then take the claws to Melor Stonehoof in Thunder Bluff. Skorn wants those who take up bow or spear to understand the balance between predator and prey.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_skorn-whitecloud-41313893d49f15e2da2a/1-0000.mp3", duration = 38.9746939, start = 0},
+    {file = "Audio/Transport/full_npc_skorn-whitecloud-fd2dcca1ec8d2d5b717f/1-0000.mp3", duration = 29.204898, start = 0},
   },
 }
 P.transport["npc:skuerto"] = {
@@ -3570,19 +3570,19 @@ P.transport["npc:skuerto"] = {
   },
 }
 P.transport["npc:smith-argus"] = {
-  hash = "fa1818",
-  fullHash = "fa1818",
-  text = "Smith Argus. Smith Argus is the resident blacksmith and trainer stationed in the heart of Goldshire in Elwynn Forest. From his open-air forge near the Lion's Pride Inn, he repairs traveler gear, teaches novice smiths their fundamentals, and coordinates with craftsmen across southern Azeroth. His network ties Goldshire's local trade directly to logistical hubs like Stormwind and distant frontiers like Redridge. Situated just outside the Lion's Pride Inn, Smith Argus maintains one of the busiest anvils in Elwynn Forest. While Goldshire faces growing perils from nearby gnolls, kobolds, and Defias bandits, Argus keeps local militia and passing adventurers properly equipped. In addition to mending dented armor and forging sturdy implements, he serves as a blacksmithing trainer, initiating fledgling craftsmen into the fundamentals of working copper and bronze. Argus is not an isolated village smith; his workshop is a vital link in the Kingdom of Stormwind's regional supply chain. When craftsmen in neighboring settlements require specialized gear or raw materials, they look to Goldshire's central position. Farrier Verner Osgood in Redridge relies on Argus for shipments of crafted horseshoes to keep pack animals and cavalry moving, while metalworkers in Stormwind's Dwarven District regularly coordinate deliveries through him.",
+  hash = "50fdea",
+  fullHash = "50fdea",
+  text = "Smith Argus. At Goldshire's forge, Smith Argus keeps travelers and local smiths supplied. He repairs gear, teaches new smiths, and sends horseshoes to Redridge while coordinating with Stormwind craftsmen. Smith Argus works the forge near the Lion's Pride Inn in Goldshire. Gnolls, kobolds, and Defias bandits threaten the area, but Argus keeps the local militia and passing adventurers equipped. He mends armor and makes sturdy tools. As a blacksmithing trainer, he teaches new smiths to work copper and bronze. Goldshire's central position makes Smith Argus a link in Stormwind's regional supply. Craftsmen in nearby settlements turn to him for specialized gear and raw materials. Farrier Verner Osgood in Redridge depends on Argus for crafted horseshoes for pack animals and cavalry. Metalworkers in Stormwind's Dwarven District also arrange deliveries through him.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_smith-argus-00e5fbd3af63348da017/1-0000.mp3", duration = 77.8710204, start = 0},
+    {file = "Audio/Transport/full_npc_smith-argus-0a864d99e28c4af7673e/1-0000.mp3", duration = 52.5061224, start = 0},
   },
 }
 P.transport["npc:solm-hargrin"] = {
-  hash = "50f749",
-  fullHash = "50f749",
-  text = "Solm Hargrin. Solm Hargrin is the rogue trainer stationed within Anvilmar in Coldridge Valley. A pragmatic dwarf who values honor amongst thieves, he instructs novice dwarven and gnomish scoundrels in the art of subterfuge. He firmly believes that covert operatives will prove vital as geopolitical tensions simmer across Azeroth. Tucked away in the dwarven stronghold of Anvilmar, Solm Hargrin watches the snowy passes of Coldridge Valley with a keen, calculating eye. While Ironforge relies heavily on the brute strength of its mountaineers and warriors, Hargrin understands that some threats require a quieter, sharper touch. He welcomes budding rogues of both dwarven and gnomish heritage, deciphering coded missives for them and drilling them in essential techniques like Eviscerate. Above all, Hargrin champions a creed of professional loyalty and honor among thieves, preparing his pupils for an increasingly volatile world where subtle knives often shape the fate of nations.",
+  hash = "d519bc",
+  fullHash = "d519bc",
+  text = "Solm Hargrin. At Anvilmar in Coldridge Valley, Solm Hargrin teaches rogues the quiet arts. The dwarf trains young dwarves and gnomes, and holds that honor among thieves matters as tensions rise across Azeroth. Solm Hargrin trains rogues at Anvilmar in Coldridge Valley. He welcomes young dwarves and gnomes, deciphers coded messages for them, and teaches techniques such as Eviscerate. Ironforge relies on mountaineers and warriors, but Solm knows some threats call for quieter methods. He teaches loyalty and honor among thieves as the world grows more unsettled.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_solm-hargrin-34d748687226c46502c4/1-0000.mp3", duration = 56.4767347, start = 0},
+    {file = "Audio/Transport/full_npc_solm-hargrin-88bc813837ca05a87226/1-0000.mp3", duration = 35.0563265, start = 0},
   },
 }
 P.transport["npc:sprite-darter"] = {
@@ -3594,11 +3594,11 @@ P.transport["npc:sprite-darter"] = {
   },
 }
 P.transport["npc:stitches"] = {
-  hash = "65e750",
-  fullHash = "65e750",
-  text = "Stitches. Stitches is a colossal, stitched-together undead abomination stalking Duskwood's main thoroughfare. His march threatens travelers, the Night Watch, and the town of Darkshire. Stitches is an undead abomination assembled from harvested corpses and unholy sorcery. Appearing near Abercrombie's shack northeast of Raven Hill Cemetery, the lumbering monstrosity immediately sets out eastward along the road toward Darkshire. Imbued with immense physical strength and relentless malice, Stitches tears through any Night Watch checkpoints stationed along the thoroughfare—including the defense camp across from Vul'Gol Ogre Mound and the outpost outside the Rotting Orchard—bringing outright slaughter to unwary travelers and town defenders alike.",
+  hash = "5fd878",
+  fullHash = "5fd878",
+  text = "Stitches. Along Duskwood's western road, Stitches marches toward Darkshire, crushing the Night Watch and unwary travelers in his path. Near Abercrombie's shack, northeast of Raven Hill Cemetery, Stitches sets out east along the road toward Darkshire. Unholy sorcery and harvested corpses made the undead abomination, whose immense strength and malice overwhelm the Night Watch checkpoints. He tears through the defense camp across from Vul'Gol Ogre Mound and the outpost outside the Rotting Orchard, slaughtering travelers and town defenders along the way.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_stitches-8417c05ba870d83929d0/1-0000.mp3", duration = 42.5012245, start = 0},
+    {file = "Audio/Transport/full_npc_stitches-fbf7fa3d332628390b00/1-0000.mp3", duration = 33.1232653, start = 0},
   },
 }
 P.transport["npc:supervisor-raelen"] = {
@@ -3674,27 +3674,27 @@ P.transport["npc:takata-steelblade"] = {
   },
 }
 P.transport["npc:tal"] = {
-  hash = "ad9b18",
-  fullHash = "ad9b18",
-  text = "Tal. Tal is the primary wind rider master of Thunder Bluff, tending the city's aerial roost high above the plains of Mulgore. He provides seasoned wyverns to Horde travelers looking to traverse the vast reaches of Kalimdor. Perched upon the central mesa of Thunder Bluff, Tal manages the vital aerial thoroughfare connecting the tauren capital to the rest of the Horde. From his perch, he tends to the loyal wind riders, or wyverns, ensuring they are healthy, well-fed, and prepared for long-distance journeys across Kalimdor's rugged landscapes. Whether sending messengers down to Camp Taurajo or dispatching scouts across the Barrens to Orgrimmar, Tal maintains an indispensable lifeline that keeps the towering mesa city in constant touch with its allies.",
+  hash = "933e8a",
+  fullHash = "933e8a",
+  text = "Tal. At Thunder Bluff, Tal tends the Horde's chief wind rider roost above the plains of Mulgore. He sends seasoned wyverns carrying travelers across Kalimdor. Tal tends the wind rider roost on Thunder Bluff's central mesa, linking the tauren capital with the rest of the Horde. He cares for the loyal wind riders, or wyverns, keeping them healthy and well-fed for long journeys across Kalimdor. From the roost, he sends messengers to Camp Taurajo and scouts across the Barrens to Orgrimmar. The flights keep the towering mesa city in touch with its allies.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_tal-554e367fcc5bd68238fb/1-0000.mp3", duration = 45.2440816, start = 0},
+    {file = "Audio/Transport/full_npc_tal-469670be080bed21170b/1-0000.mp3", duration = 32.1828571, start = 0},
   },
 }
 P.transport["npc:talen"] = {
-  hash = "cdb561",
-  fullHash = "cdb561",
-  text = "Talen. Talen is a night elf amateur archaeologist encamped near the Zoram Strand in northwestern Ashenvale. Despite the constant danger posed by nearby naga and Horde outposts, he is dedicated to recovering ancient kaldorei relics buried along the coast. Perched at a small camp on the edge of the Zoram Strand, Talen spends his days pursuing historical curiosities rather than waging war. While the wilderness of Ashenvale is fraught with territorial skirmishes and hostile shoreline denizens, Talen remains focused on gathering long-lost treasures from the ruins submerged beneath the waves and sands. He relies heavily on passing adventurers to brave the savage Wrathtail naga and retrieve elusive artifacts—including pristine statuettes and the Ring of Zoram held by the naga leader Ruuzel.",
+  hash = "67cdde",
+  fullHash = "67cdde",
+  text = "Talen. At his camp by the Zoram Strand, Talen searches for kaldorei relics along the coast. Nearby naga and Horde outposts make the work dangerous. At a camp beside the Zoram Strand, Talen studies the past instead of taking up arms. Naga and Horde outposts make the coast dangerous, but he keeps searching the ruins beneath the waves and sands for lost kaldorei relics. He depends on travelers to face the Wrathtail naga and recover artifacts, including pristine statuettes and the Ring of Zoram, held by their leader Ruuzel.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_talen-04d98ec76248a5be9356/1-0000.mp3", duration = 45.7926531, start = 0},
+    {file = "Audio/Transport/full_npc_talen-07641bf79681f29a3190/1-0000.mp3", duration = 31.6865306, start = 0},
   },
 }
 P.transport["npc:tallow"] = {
-  hash = "3f3630",
-  fullHash = "3f3630",
-  text = "Tallow. Tallow is a Forsaken warrior stationed in the fortified settlement of Tarren Mill within the Hillsbrad Foothills. Serving the Dark Lady and the Horde, he watches over the contested front lines, helping organize strikes against local Alliance threats. Situated in the heart of Tarren Mill, Tallow stands among the Forsaken and Horde forces holding the line in the Hillsbrad Foothills. The region is a powder keg of conflict, caught between nearby Southshore humans, wandering Syndicate outlaws, and hostile wildlife. Tallow helps direct capable adventurers into the field, testing their strength against the Boulderfist ogres of the Arathi Highlands before sending them on to aid the besieged outpost of Hammerfall.",
+  hash = "0eb314",
+  fullHash = "0eb314",
+  text = "Tallow. At Tarren Mill, Tallow watches the contested front lines for the Dark Lady and the Horde. The Forsaken warrior helps organize strikes against Alliance threats in the Hillsbrad Foothills. Tallow stands with the Forsaken and Horde forces holding Tarren Mill in the Hillsbrad Foothills. Conflict stirs across the region, with Southshore humans nearby, Syndicate outlaws on the roads, and hostile wildlife beyond the town. Tallow sends capable adventurers against the Boulderfist ogres of the Arathi Highlands to test their strength. Then he directs them to aid the besieged outpost of Hammerfall.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_tallow-2e44fe22ce248a2e8b53/1-0000.mp3", duration = 41.1689796, start = 0},
+    {file = "Audio/Transport/full_npc_tallow-156e09bfba2403ad697b/1-0000.mp3", duration = 34.324898, start = 0},
   },
 }
 P.transport["npc:talvash-del-kissel"] = {
@@ -3706,19 +3706,19 @@ P.transport["npc:talvash-del-kissel"] = {
   },
 }
 P.transport["npc:tammra-windfield"] = {
-  hash = "4e1d15",
-  fullHash = "4e1d15",
-  text = "Tammra Windfield. Tammra Windfield is a tauren resident of Sun Rock Retreat, nestled within the heights of the Stonetalon Mountains. Deeply attuned to the balance of the land, she guides Horde travelers in honoring the natural cycle of renewal and keeping hope alive amid the peaks. Her concerns lie with both the health of the untamed wilderness and the safety of her kin. Sun Rock Retreat serves as a vital sanctuary for the Horde within the craggy peaks of Stonetalon, surrounded by hostile harpies, Venture Company loggers, and lurking predators. Tammra Windfield stands among the settlement's caretakers, keeping a watchful eye on both the mountain wilderness and travelers who cross its threshold. Her gentle demeanor belies the resolve necessary to maintain a home in such rugged terrain. Like many of her people, Tammra honors the Earth Mother by observing the constant rhythm of growth and decay in nature. Through the tasks she entrusts to travelers—such as tending the cycle of rebirth and bringing forth new life—she works to counter the ravages that conflict and exploitation bring upon Stonetalon. To Tammra, protecting the land requires active healing, ensuring that life flourishes even in scarred mountain soil. Beyond her spiritual duties to the surrounding wild, Tammra bears deep concern for the companions and kin who brave the treacherous trails of the Stonetalon Mountains. When word spreads that travelers or family have vanished along the crags, she is among the first to seek out reliable aid. For Tammra, the endurance of Sun Rock Retreat depends as much on mutual protection and loyalty as it does on harmony with nature.",
+  hash = "41140e",
+  fullHash = "41140e",
+  text = "Tammra Windfield. At Sun Rock Retreat, Tammra Windfield guides Horde travelers in honoring the land's renewal. The tauren watches over the wilderness and the safety of her kin in the Stonetalon Mountains. Sun Rock Retreat shelters the Horde among the crags of Stonetalon. Harpies, Venture Company loggers, and predators threaten the settlement. Tammra Windfield watches over the mountain wilderness and the travelers who enter. Her gentle manner carries the resolve needed to keep a home safe in such rugged country. Tammra honors the Earth Mother by watching nature's steady rhythm of growth and decay. She asks travelers to tend the cycle of rebirth and bring forth new life, working against the harm conflict and exploitation cause in Stonetalon. For Tammra, protecting the land means healing it so life can flourish in scarred mountain soil. Tammra's concern reaches beyond the wilds to the companions and kin who travel Stonetalon's dangerous trails. When word comes that travelers or family have vanished among the crags, she is among the first to seek reliable aid. Sun Rock Retreat endures through loyalty and mutual protection, as well as harmony with nature.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_tammra-windfield-451f54c37ea75078cf20/1-0000.mp3", duration = 92.8130612, start = 0},
+    {file = "Audio/Transport/full_npc_tammra-windfield-1715008f6762df3edd47/1-0000.mp3", duration = 64.9404082, start = 0},
   },
 }
 P.transport["npc:tannok-frosthammer"] = {
-  hash = "f3d937",
-  fullHash = "f3d937",
-  text = "Tannok Frosthammer. Tannok Frosthammer is a dwarven resident found at Thunderbrew Distillery outside Kharanos in Dun Morogh. He serves as an anxious recipient of goods coming from Coldridge Valley, deeply troubled by how trogg attacks have cut off the roads to Anvilmar. Stationed around the Thunderbrew Distillery in Kharanos, Tannok Frosthammer keeps a watchful eye on incoming deliveries and local tidings. The sudden surge of troggs swarming Coldridge Pass has severed normal transit from Coldridge Valley, leaving Tannok cut off from regular communication with the settlement at Anvilmar. Relying on couriers like the gnome tinkerer Hands Springsprocket to ferry vital supplies and news through the perilous, snowy mountain pass, Tannok represents the quiet worry shared by many Bronzebeards as subterranean threats crawl closer to their doorsteps.",
+  hash = "b3615f",
+  fullHash = "b3615f",
+  text = "Tannok Frosthammer. At Thunderbrew Distillery outside Kharanos, Tannok Frosthammer waits anxiously for supplies from Coldridge Valley. Trogg attacks have cut off the roads to Anvilmar. Tannok Frosthammer watches deliveries and listens for news at Thunderbrew Distillery in Kharanos. Troggs have surged through Coldridge Pass, cutting off the usual route from Coldridge Valley and regular word from Anvilmar. Hands Springsprocket, a gnome tinkerer, carries supplies and news through the dangerous, snowy pass. Tannok shares the quiet worry of many Bronzebeards as subterranean troggs creep closer to their doorsteps.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_tannok-frosthammer-485914c69043760d7332/1-0000.mp3", duration = 45.9493878, start = 0},
+    {file = "Audio/Transport/full_npc_tannok-frosthammer-65c1e43a75f0c357c94c/1-0000.mp3", duration = 34.4816327, start = 0},
   },
 }
 P.transport["npc:tarindrella"] = {
@@ -3730,11 +3730,11 @@ P.transport["npc:tarindrella"] = {
   },
 }
 P.transport["npc:tarrel-rockweaver"] = {
-  hash = "6068da",
-  fullHash = "6068da",
-  text = "Tarrel Rockweaver. Tarrel Rockweaver is an anxious dwarven husband stationed on the bridge leading into Menethil Harbor. Deeply worried for his wife Merrin, an archaeologist who ventured inland with Whelgar's excavation team, he watches the road hoping for news of her safety. While trade and military shipments flow through Menethil Harbor, Tarrel Rockweaver keeps an anxious vigil at the bridge on the edge of town. His wife, Merrin Rockweaver, joined Prospector Whelgar's prestigious archaeological expedition deeper into the Wetlands. When violent raptors overran the excavation site and cut off regular communication, Tarrel was left stranded in town, begging passing travelers to scout east toward Whelgar's Excavation Site to ensure she survived the disaster.",
+  hash = "89bb0b",
+  fullHash = "89bb0b",
+  text = "Tarrel Rockweaver. At Menethil Harbor’s bridge, Tarrel Rockweaver anxiously waits for news of his wife, Merrin. The dwarf fears for her safety after she joined an inland archaeological expedition. Tarrel Rockweaver watches the bridge at Menethil Harbor, where trade and military shipments pass. His wife, Merrin Rockweaver, joined Prospector Whelgar’s prestigious archaeological expedition deeper in the Wetlands. Violent raptors overran the excavation site and cut off regular communication. Stranded in town, Tarrel begs travelers to scout east toward Whelgar’s Excavation Site and learn whether Merrin survived.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_tarrel-rockweaver-d35f99063ee4714eeae5/1-0000.mp3", duration = 42.8669388, start = 0},
+    {file = "Audio/Transport/full_npc_tarrel-rockweaver-23ba6ca251bf5a6e53ea/1-0000.mp3", duration = 36.4146939, start = 0},
   },
 }
 P.transport["npc:tatternack-steelforge"] = {
@@ -3754,11 +3754,11 @@ P.transport["npc:tenaron-stormgrip"] = {
   },
 }
 P.transport["npc:teronis-corpse"] = {
-  hash = "9c8853",
-  fullHash = "9c8853",
-  text = "Teronis' Corpse. Teronis' Corpse lies on a secluded island within Lake Falathim in western Ashenvale. Before his untimely demise, this night elf scout was dispatched from Astranaar on a crucial mission to recover Dartol's Rod to aid in cleansing the forest. Sent forth by Raene Wolfrunner from the settlement of Astranaar, Teronis was tasked with recovering the lost rod of Dartol, an ancient night elf relic capable of purifying corrupted woodland magic. His search brought him deep into the waters of Lake Falathim, but the journey turned fatal when hostile murlocs swarmed the island. Teronis fell in battle, leaving his journal behind and the rod's radiant gemstone plundered by the lake's aggressive amphibians.",
+  hash = "828c6f",
+  fullHash = "828c6f",
+  text = "Teronis' Corpse. On an island in western Ashenvale, Teronis' Corpse lies in Lake Falathim. The night elf scout left Astranaar to find Dartol's Rod and help cleanse the forest. Teronis was sent from Astranaar to recover Dartol's Rod. Raene Wolfrunner gave the night elf scout this charge, seeking an ancient relic that could cleanse corrupted woodland magic. Teronis searched the waters of Lake Falathim, but hostile murlocs swarmed the island and killed him. His journal remains there, while the murlocs took the rod's radiant gemstone.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_teronis-corpse-9caa1b13de209862987b/1-0000.mp3", duration = 42.0571429, start = 0},
+    {file = "Audio/Transport/full_npc_teronis-corpse-6e00a8b08b431fc96bcf/1-0000.mp3", duration = 31.8432653, start = 0},
   },
 }
 P.transport["npc:thadius-grimshade"] = {
@@ -3778,11 +3778,11 @@ P.transport["npc:thalia-amberhide"] = {
   },
 }
 P.transport["npc:tharek-blackstone"] = {
-  hash = "5090ac",
-  fullHash = "5090ac",
-  text = "Tharek Blackstone. Tharek Blackstone is a hardworking toolsmith residing in Kharanos, in the snowy heart of Dun Morogh. Known for supplying heavy hardware to local craftsmen, his primary patron is Beldin Steelgrill of Steelgrill's Depot. Though constantly busy at his trade, he also serves as a reliable point of contact for travelers seeking work around the settlement. Situated amidst the cold drifts of Kharanos, Tharek Blackstone keeps busy turning out reliable dwarven tools. Between repairing gear for the locals and supplying larger operations, he rarely finds a moment to rest. His biggest headache—and most reliable customer—is Beldin Steelgrill, whose mechanostrider depot just outside town demands a steady stream of heavy wrenches, gears, and replacement implements. To keep his forge running without falling behind on deliveries, Tharek often hires wandering travelers to haul newly finished tool crates over to the depot for him. Beyond his trade at the anvil, Tharek carries considerable respect among the folk of Dun Morogh. While he holds no formal military title, his standing in town makes him an approachable liaison for odd jobs, supply runs, and coordinating local efforts.",
+  hash = "d3fbc6",
+  fullHash = "d3fbc6",
+  text = "Tharek Blackstone. In Kharanos, Tharek Blackstone keeps dwarven tools flowing to local craftsmen. Beldin Steelgrill at Steelgrill's Depot is his main customer, and Tharek also helps travelers find work around town. Tharek Blackstone keeps his forge busy in Kharanos, repairing gear and making tools for local workers. His main customer is Beldin Steelgrill, whose mechanostrider depot just outside town needs a steady supply of heavy wrenches, gears, and replacement tools. Tharek hires passing travelers to carry finished crates to the depot, so he can keep up with the work at his forge. Tharek has earned the respect of people across Dun Morogh through his work at the anvil. He holds no formal military title, but people in town turn to him for odd jobs, supply runs, and help coordinating local efforts.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_tharek-blackstone-c6a8346c6a9f92ed406a/1-0000.mp3", duration = 69.1983673, start = 0},
+    {file = "Audio/Transport/full_npc_tharek-blackstone-b51badd6b6eafd014f7c/1-0000.mp3", duration = 48.404898, start = 0},
   },
 }
 P.transport["npc:tharnariun-treetender"] = {
@@ -3810,19 +3810,19 @@ P.transport["npc:theldurin-the-lost"] = {
   },
 }
 P.transport["npc:therylune"] = {
-  hash = "b2618a",
-  fullHash = "b2618a",
-  text = "Therylune. Therylune is a dryad found held captive at the Master's Glaive in southern Darkshore. Entrapped by the insidious Twilight's Hammer cultists who have occupied the ancient site, she relies on bold travelers to help her break free and escape their clutches. Dryads are guardians of nature and daughters of Cenarius, normally roaming the tranquil woodlands of northern Kalimdor. However, Therylune ventured too close to the ominous excavation at the Master's Glaive in southern Darkshore, where Twilight's Hammer cultists have gathered. Ambushed and trapped by the dark cult, she is unable to fight her way out alone through the swarms of cultists and requires an escort to flee to safety.",
+  hash = "8eb1e0",
+  fullHash = "8eb1e0",
+  text = "Therylune. At the Master's Glaive in southern Darkshore, Therylune waits for a chance to escape her captors. Twilight's Hammer cultists have trapped the dryad at the ancient site, and she needs a traveler's help to reach safety. Therylune is a dryad, a daughter of Cenarius who guards nature. She came from the tranquil woodlands of northern Kalimdor to the Master's Glaive in southern Darkshore. Twilight's Hammer cultists have gathered at the ancient excavation and ambushed her. Surrounded by their swarms, she cannot fight her way free alone. She needs an escort through the cultists and out to safety.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_therylune-c832bfedb0a8c1de1c7a/1-0000.mp3", duration = 39.2097959, start = 0},
+    {file = "Audio/Transport/full_npc_therylune-c222d21bcab1cbe3856d/1-0000.mp3", duration = 34.8212245, start = 0},
   },
 }
 P.transport["npc:therysil"] = {
-  hash = "3387d5",
-  fullHash = "3387d5",
-  text = "Therysil. Therysil is a dryad dwelling at the Shrine of Aessina in central Ashenvale. Deeply devoted to the preservation of nature, she waits anxiously for word of her sister, Therylune, who fell into the hands of sinister cultists. Therysil makes her home near the tranquil waters of the Shrine of Aessina, a sacred glade within the ancient woods of Ashenvale. Like all dryads, the daughters of Cenarius, she is bound to the defense of the wild and the spirits dwelling within it. Yet her focus has been torn from quiet stewardship to gnawing worry. Her sister, Therylune, was captured nearby by the deranged Twilight's Hammer cult, leaving Therysil desperate for any wandering ally willing to aid in her sister's rescue.",
+  hash = "6a2bc2",
+  fullHash = "6a2bc2",
+  text = "Therysil. At the Shrine of Aessina in central Ashenvale, Therysil waits for word of her sister. The dryad is devoted to protecting nature, but Therylune has been taken by the Twilight's Hammer cultists. Therysil keeps watch near the waters of the Shrine of Aessina in Ashenvale's ancient woods. As a dryad and daughter of Cenarius, she is bound to defend the wild and its spirits. Her thoughts now turn to Therylune, captured nearby by the deranged Twilight's Hammer cult. Therysil waits anxiously for a wandering ally who can help rescue her sister.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_therysil-ec4b50f22762a3d226ff/1-0000.mp3", duration = 41.0906122, start = 0},
+    {file = "Audio/Transport/full_npc_therysil-c6bbc43077d3a93e0ab9/1-0000.mp3", duration = 31.764898, start = 0},
   },
 }
 P.transport["npc:thor"] = {
@@ -3834,35 +3834,35 @@ P.transport["npc:thor"] = {
   },
 }
 P.transport["npc:thorgas-grimson"] = {
-  hash = "9e30b8",
-  fullHash = "9e30b8",
-  text = "Thorgas Grimson. Thorgas Grimson is the resident dwarf hunter trainer stationed inside Anvilmar in Coldridge Valley. A seasoned outdoorsman of Dun Morogh, he firmly believes that hands-on survival in the freezing wilds is the finest teacher any fledgling marksman can have. Perched inside the stone halls of Anvilmar, Thorgas Grimson welcomes novice mountaineers and scouts taking their very first steps into the harsh snowdrifts of Coldridge Valley. Rather than bogging young hunters down with dry lectures, Grimson espouses a practical philosophy: real skill is forged out in the freezing winds, bow or gun in hand, tracking Dun Morogh's rugged beasts firsthand.",
+  hash = "5d8fee",
+  fullHash = "5d8fee",
+  text = "Thorgas Grimson. Inside Anvilmar in Coldridge Valley, Thorgas Grimson trains new hunters. A seasoned outdoorsman of Dun Morogh, he believes the frozen wilds teach survival best. Thorgas Grimson welcomes new mountaineers and scouts inside Anvilmar. He teaches young hunters to leave dry lectures behind and learn in the freezing winds. With bow or gun in hand, they track Dun Morogh's rugged beasts firsthand.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_thorgas-grimson-d84bec4ca5486bfb0218/1-0000.mp3", duration = 37.7730612, start = 0},
+    {file = "Audio/Transport/full_npc_thorgas-grimson-757b12ecd5ab35e74dde/1-0000.mp3", duration = 24.3461224, start = 0},
   },
 }
 P.transport["npc:thorgrum-borrelson"] = {
-  hash = "993ffb",
-  fullHash = "993ffb",
-  text = "Thorgrum Borrelson. Thorgrum Borrelson is the dwarven gryphon master stationed above Thelsamar in Loch Modan. From his roost overlooking the settlement, he tends the aerial mounts that connect the valley to Ironforge and the surrounding mountain passes. Perched on the bluff rising immediately above Thelsamar, Thorgrum Borrelson handles aerial transport for the Alliance across Loch Modan. With trogg incursions and gnoll packs threatening overland paths, his trained gryphons provide vital transit over the jagged ridges. He maintains frequent connections back through the South Gate Pass to the Great Forge in Dun Morogh, as well as routes onward toward the Wetlands and beyond.",
+  hash = "92aa2d",
+  fullHash = "92aa2d",
+  text = "Thorgrum Borrelson. Above Thelsamar, Thorgrum Borrelson tends the gryphons that carry travelers across Loch Modan. His roost links the valley with Ironforge and the mountain passes nearby. Thorgrum Borrelson keeps the gryphon roost on the bluff above Thelsamar. His trained gryphons carry the Alliance across Loch Modan, where troggs and gnoll packs threaten the roads. They fly through South Gate Pass to the Great Forge in Dun Morogh, and onward toward the Wetlands and beyond.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_thorgrum-borrelson-adfdf8556d5638f1d75d/1-0000.mp3", duration = 35.8922449, start = 0},
+    {file = "Audio/Transport/full_npc_thorgrum-borrelson-3e1f5fea4ed1c59c3407/1-0000.mp3", duration = 25.8612245, start = 0},
   },
 }
 P.transport["npc:thorvald-deepforge"] = {
-  hash = "14eff5",
-  fullHash = "14eff5",
-  text = "Thorvald Deepforge. Thorvald Deepforge is a dwarven weapon merchant stationed near the border pass in the Valley of Kings. He helps arm travelers and defenders securing the critical pathway between Dun Morogh and Loch Modan. Positioned within the towering monument of the Valley of Kings, Thorvald Deepforge serves the Alliance as a reliable arms dealer. The mountain passes connecting Khaz Modan's interior to the outlying territories are plagued by trogg incursions and roving wildlife, making well-forged steel essential for any Mountaineer or recruit on the road. Thorvald ensures that those arriving from Dun Morogh or heading deeper into Loch Modan carry the blades and axes needed to defend dwarven lands.",
+  hash = "ac1c6b",
+  fullHash = "ac1c6b",
+  text = "Thorvald Deepforge. At the Valley of Kings, Thorvald Deepforge arms travelers bound for Loch Modan. He helps defend the pass between Dun Morogh and Loch Modan. Thorvald Deepforge supplies weapons at the Valley of Kings. Troggs and roaming wildlife threaten the mountain passes between Khaz Modan's interior and its outlying lands. Travelers from Dun Morogh and those heading deeper into Loch Modan can find blades and axes here to defend dwarven lands.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_thorvald-deepforge-9fc87675cda87e472eb7/1-0000.mp3", duration = 40.0195918, start = 0},
+    {file = "Audio/Transport/full_npc_thorvald-deepforge-4583b9ab5e84b605bcbd/1-0000.mp3", duration = 25.5477551, start = 0},
   },
 }
 P.transport["npc:thran-khorman"] = {
-  hash = "11d048",
-  fullHash = "11d048",
-  text = "Thran Khorman. Thran Khorman is the resident dwarven warrior trainer stationed in Anvilmar, nestled within the snowy Coldridge Valley. He oversees the basic combat drilling for newly minted warriors stepping out into Dun Morogh. Standing near the training grounds of Anvilmar, Thran Khorman is tasked with turning raw dwarven recruits and visiting gnomes into disciplined combatants. He maintains a gruff, uncompromising demeanor toward anyone who lacks the grit for front-line fighting. In his eyes, even though the Third War has concluded, peace is merely an illusion: troggs encroach upon Coldridge Pass, and the mountains remain fraught with peril. He demands relentless practice with axe, mace, and shield so that Ironforge's defenders never grow dull.",
+  hash = "83fa48",
+  fullHash = "83fa48",
+  text = "Thran Khorman. At Anvilmar, Thran Khorman trains new warriors for the dangers of Coldridge Valley. Thran Khorman drills dwarven recruits and visiting gnomes on the grounds of Anvilmar. Gruff and demanding, he has little patience for anyone who lacks the grit for front-line fighting. Though the Third War has ended, troggs press into Coldridge Pass, and danger still fills the mountains. Thran insists on relentless practice with axe, mace, and shield so Ironforge’s defenders stay ready.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_thran-khorman-ab59d0b9d34aecb62450/1-0000.mp3", duration = 42.8669388, start = 0},
+    {file = "Audio/Transport/full_npc_thran-khorman-524d1946d79acee021e0/1-0000.mp3", duration = 28.4995918, start = 0},
   },
 }
 P.transport["npc:thunderaan"] = {
@@ -3882,11 +3882,11 @@ P.transport["npc:tommy-joe-stonefield"] = {
   },
 }
 P.transport["npc:tormus-deepforge"] = {
-  hash = "cea47e",
-  fullHash = "cea47e",
-  text = "Tormus Deepforge. Tormus Deepforge is a dwarven smith working at the center of the Great Forge in Ironforge. A dependable craftsman, he coordinates iron deliveries and supplies armaments for Alliance defense efforts across Khaz Modan and beyond. Positioned right beside the roaring fires of the Great Forge, Tormus Deepforge oversees substantial metalworking tasks on behalf of the Bronzebeard clan. Beyond hammering steel himself, Tormus mourns his mentor, Sturgy Ironband, whose smithing compound south of Helm's Bed Lake in eastern Dun Morogh was overrun by Dark Iron dwarves after a load of strange umbral ore arrived there.",
+  hash = "230fce",
+  fullHash = "230fce",
+  text = "Tormus Deepforge. At Ironforge's Great Forge, Tormus Deepforge keeps weapons flowing to the Alliance. He coordinates iron deliveries and arms defenses across Khaz Modan and beyond. Tormus Deepforge oversees the Bronzebeard clan's metalwork beside the Great Forge fires. He still hammers steel himself, but he also mourns Sturgy Ironband, his mentor. Dark Iron dwarves overran Sturgy's smithing compound south of Helm's Bed Lake in eastern Dun Morogh after a load of strange umbral ore arrived there.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_tormus-deepforge-3fc84f81eba25cd78df5/1-0000.mp3", duration = 35.7093878, start = 0},
+    {file = "Audio/Transport/full_npc_tormus-deepforge-63008ce6c5c4fbc281fb/1-0000.mp3", duration = 29.7795918, start = 0},
   },
 }
 P.transport["npc:torwa-pathfinder"] = {
@@ -3898,19 +3898,19 @@ P.transport["npc:torwa-pathfinder"] = {
   },
 }
 P.transport["npc:treshala-fallowbrook"] = {
-  hash = "ae05c6",
-  fullHash = "ae05c6",
-  text = "Treshala Fallowbrook. Treshala Fallowbrook is a night elf residing quietly on the upper level of the Tradesmen's Terrace in Darnassus. She is the wife of Heralath Fallowbrook, whose work has taken him far from home into the thorny depths of Razorfen Kraul in the Barrens. Treshala Fallowbrook keeps a modest vigil on the second floor of a workshop in Darnassus's Tradesmen's Terrace. Her husband, Heralath, journeyed to the brambled depths of Razorfen Kraul in the Barrens, and she waits at home for word of him. The two are joined by a pendant of bonding, a keepsake of their marriage that Heralath carried with him into the quilboar's warrens.",
+  hash = "d2a664",
+  fullHash = "d2a664",
+  text = "Treshala Fallowbrook. In Darnassus, Treshala Fallowbrook waits at home for news of her husband. Heralath Fallowbrook has gone far away, into Razorfen Kraul in the Barrens. On the second floor of a Tradesmen's Terrace workshop, Treshala Fallowbrook waits for word from her husband. Heralath journeyed to Razorfen Kraul in the Barrens, where thorny growth surrounds the quilboar's warrens. Their marriage is marked by a pendant of bonding, which Heralath carried with him.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_treshala-fallowbrook-c663f2194a97549a6840/1-0000.mp3", duration = 34.7428571, start = 0},
+    {file = "Audio/Transport/full_npc_treshala-fallowbrook-3e1bffe231ac4ef1cc99/1-0000.mp3", duration = 25.4693878, start = 0},
   },
 }
 P.transport["npc:tsunaman"] = {
-  hash = "80ec60",
-  fullHash = "80ec60",
-  text = "Tsunaman. Tsunaman is a sentient water elemental stationed at Sun Rock Retreat in the Stonetalon Mountains. Acting as an agent of the Tribunal of the Tides, he watches over the elemental currents of Kalimdor and rallies Horde adventurers to confront corrupting forces. Dwelling near the path leading from Sun Rock Retreat down into the Charred Vale, Tsunaman serves the Tribunal of the Tides, high-ranking servants aligned with the Tidehunter, Neptulon. Rather than showing mindless hostility to mortal travelers, he cooperates with the Horde to monitor elemental unrest throughout Kalimdor, particularly the disturbances rippling out of the submerged caverns of Blackfathom Deeps. True to his elemental nature, Tsunaman harbors an instinctive, visceral hatred for fire in all forms. He constantly fumes over the nearby burning landscapes of the Charred Vale and elemental fire incursions. In camp, his animosity is so petty and unyielding that he regularly marches over to nearby cooking fires and campfires just to smack them out with a heavy fist of water.",
+  hash = "a318ff",
+  fullHash = "a318ff",
+  text = "Tsunaman. At Sun Rock Retreat, Tsunaman watches the currents of Kalimdor for signs of unrest. He works with the Horde against forces that threaten the waters. Near the path from Sun Rock Retreat down to the Charred Vale, Tsunaman serves the Tribunal of the Tides, high-ranking servants aligned with the Tidehunter, Neptulon. He works with the Horde to watch for elemental unrest throughout Kalimdor, especially disturbances spreading from the submerged caverns of Blackfathom Deeps. Tsunaman hates fire in every form. The burning lands of the Charred Vale and incursions by fire elementals keep him fuming. Around camp, he sometimes marches to nearby cooking fires and campfires and smacks them out with a heavy fist of water.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_tsunaman-ff5680e9ba8140c9c291/1-0000.mp3", duration = 58.9583673, start = 0},
+    {file = "Audio/Transport/full_npc_tsunaman-a0b8a2246aeb24b7881a/1-0000.mp3", duration = 40.9861224, start = 0},
   },
 }
 P.transport["npc:tyrion"] = {
@@ -3938,19 +3938,19 @@ P.transport["npc:ula-elek"] = {
   },
 }
 P.transport["npc:umpi"] = {
-  hash = "ad0fd6",
-  fullHash = "ad0fd6",
-  text = "Umpi. Umpi is a frog residing in Tarren Mill as the unwitting laboratory assistant of Apothecary Lydon. Kept inside the Royal Apothecary Society's workshop, she serves as a recurring test subject for experimental toxins and plague concoctions. Within the dark laboratories of Tarren Mill, the Forsaken work tirelessly to brew concoctions of death and torment. For Apothecary Lydon, scientific rigor requires living flesh to test his formulas, and Umpi bears the brunt of these trials. Lydon regularly tests lethal brews—such as the Elixir of Suffering and the Elixir of Agony—directly on her. Once the poisons take their inevitable toll and kill her, the apothecary re-animates the amphibian, ensuring she is ready to endure the next lethal dose for the glory of the Royal Apothecary Society.",
+  hash = "a14a38",
+  fullHash = "a14a38",
+  text = "Umpi. In Tarren Mill, Umpi endures Apothecary Lydon's experiments. The frog is kept in the Royal Apothecary Society's workshop as a test subject for toxins and plague brews. Umpi is a frog in Tarren Mill who bears the cost of Apothecary Lydon's experiments. For Lydon, testing his formulas requires living flesh, and he gives Umpi lethal brews such as the Elixir of Suffering and the Elixir of Agony. The poisons kill her, but Lydon re-animates her so she can face another dose for the Royal Apothecary Society.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_umpi-0e31e77d02d33de4a89f/1-0000.mp3", duration = 46.08, start = 0},
+    {file = "Audio/Transport/full_npc_umpi-ebde304020b56ac54389/1-0000.mp3", duration = 31.6081633, start = 0},
   },
 }
 P.transport["npc:undertaker-mordo"] = {
-  hash = "8748a6",
-  fullHash = "8748a6",
-  text = "Undertaker Mordo. Undertaker Mordo is the caretaker of the crypt of Deathknell, serving as the very first face newly awakened Forsaken see when they open their eyes. He tells those who wake that they are the Lich King's slaves no more and sends them on toward the Forsaken cause; the bodies that never stir go to the fire. Keeping the crypt of Deathknell in Tirisfal Glades, Undertaker Mordo watches over the dead as corpses break free from the Scourge's shattered grip. For every newly liberated Forsaken who wakes in the cold of the crypt, Mordo provides their initial bearing in an unrecognizable second life. He assesses their sanity, introduces them to the reality of their condition, and immediately directs them toward duty under Queen Sylvanas Windrunner. Not every body brought to the crypt wakes. Mordo does not wait long: the corpses that stay still are tossed into the fire, and those who do stir are greeted with dry impatience and little ceremony. Anyone who rises with their wits intact is sent up the steps and down the road to Shadow Priest Sarvis in the chapel, who explains their new existence. The mindless zombies that overrun the north of the village are Sarvis's concern, not Mordo's; the shadow priest sends the newly risen out to destroy them.",
+  hash = "6d84dc",
+  fullHash = "6d84dc",
+  text = "Undertaker Mordo. At Deathknell's crypt, Undertaker Mordo greets newly awakened Forsaken. He tells them they are free of the Lich King's control and sends them toward Queen Sylvanas's cause. Bodies that never stir go to the fire. Undertaker Mordo tends the crypt in Tirisfal Glades as corpses break free of the Scourge. Newly awakened Forsaken find him in a world they no longer recognize. He tests their sanity, tells them what they have become, and directs them toward service under Queen Sylvanas Windrunner. Some bodies brought to the crypt never wake. Mordo soon casts them into the fire. Those who stir meet his dry impatience and little ceremony. If they have kept their wits, he sends them up the steps and down the road to Shadow Priest Sarvis at the chapel, where Sarvis explains their new existence. The mindless zombies overrunning the north of the village are Sarvis's concern. He sends the newly risen to destroy them.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_undertaker-mordo-c7fb396a36393385b1c9/1-0000.mp3", duration = 71.4710204, start = 0},
+    {file = "Audio/Transport/full_npc_undertaker-mordo-469ac8408783c3615204/1-0000.mp3", duration = 54.1779592, start = 0},
   },
 }
 P.transport["npc:ur-kyo"] = {
@@ -3970,27 +3970,27 @@ P.transport["npc:uzzek"] = {
   },
 }
 P.transport["npc:valstag-ironjaw"] = {
-  hash = "830ba3",
-  fullHash = "830ba3",
-  text = "Valstag Ironjaw. Valstag Ironjaw is an Ironforge dwarven soldier stationed within Menethil Keep in the coastal marshlands of the Wetlands. Facing the pressing dangers that plague the trade passages connecting Loch Modan and the coast, he assists in securing regional routes and keeping the harbor's garrison informed of local threats. Found inside Menethil Keep in Menethil Harbor, Valstag Ironjaw serves as part of the dwarven garrison keeping watch over the lowlands. The surrounding marsh is rife with danger, from hostile Dragonmaw orcs to ravenous wildlife, making communications and supply lines difficult to maintain. Valstag helps coordinate defense efforts along the primary thoroughfares, particularly the treacherous passage cutting through Dun Algaz toward Loch Modan. With the treacherous Algaz Gauntlet choked by hostile forces, travelers and supply convoys heading between Menethil Harbor and Loch Modan are under constant threat. Valstag directs capable adventurers to confront the brigands and orcs lurking in the passes, relaying crucial military intelligence back and forth between forward scouts and commanders like Captain Stoutfist.",
+  hash = "62ee4f",
+  fullHash = "62ee4f",
+  text = "Valstag Ironjaw. At Menethil Keep, Valstag Ironjaw helps guard the routes between Loch Modan and the coast. He keeps the garrison informed of dangers along the trade passages. Valstag Ironjaw serves with the dwarven garrison inside Menethil Keep in Menethil Harbor. The marsh around the keep is dangerous, with Dragonmaw orcs and ravenous wildlife threatening communications and supplies. Valstag helps coordinate defenses along the main roads, especially the perilous passage through Dun Algaz toward Loch Modan. Hostile forces crowd the Algaz Gauntlet, putting travelers and supply convoys between Menethil Harbor and Loch Modan at risk. Valstag sends capable adventurers against the brigands and orcs in the passes. He carries military reports between forward scouts and commanders such as Captain Stoutfist.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_valstag-ironjaw-4742d857799143ce8b12/1-0000.mp3", duration = 64.4702041, start = 0},
+    {file = "Audio/Transport/full_npc_valstag-ironjaw-f2d6dd4aafbf389c4ff8/1-0000.mp3", duration = 47.7779592, start = 0},
   },
 }
 P.transport["npc:vanndar-stormpike"] = {
-  hash = "fef05e",
-  fullHash = "fef05e",
-  text = "Vanndar Stormpike. Vanndar Stormpike is a fierce dwarf mountain king who commands the Stormpike Expedition from the northern fortress of Dun Baldar. Searching the frozen peaks of Alterac Valley for ancient relics and raw resources, he leads the Alliance's unyielding war against the Frostwolf orcs. A veteran mountain king of Ironforge, Vanndar Stormpike spearheads the dwarven excavation into Alterac Valley. Following the Third War, he marched the Stormpike Guard into the northern mountains seeking hidden mineral riches and long-lost titan artifacts. Settling into the fortified redoubt of Dun Baldar, Vanndar views the valley as an ancestral right and rightful Alliance territory. He directs military outposts, defensive bunkers, and frontline pushes with grim dwarven resolve, determined that no retreat will ever be sounded under his watch. Vanndar's relentless mining and prospecting encroached directly onto the home of the Frostwolf clan, sparking brutal mountain warfare. Despite orcish demands to withdraw, Vanndar refuses to yield an inch of ground, vowing that Alterac Valley will belong to the dwarves. From his throne room deep within Dun Baldar, flanked by his marshals and bodyguards, he personally oversees the defense against Frostwolf incursions while dispatching Alliance champions to break the enemy lines and claim the valley once and for all.",
+  hash = "ce375a",
+  fullHash = "ce375a",
+  text = "Vanndar Stormpike. At Dun Baldar, Vanndar Stormpike leads the Stormpike Expedition into Alterac Valley. He searches its frozen peaks for ancient relics and raw resources, waging an unyielding Alliance war against the Frostwolf orcs. Vanndar Stormpike leads the dwarven excavation into Alterac Valley as a veteran mountain king of Ironforge. After the Third War, he marched the Stormpike Guard into the northern mountains to seek hidden mineral riches and long-lost titan artifacts. He made Dun Baldar his fortified base, claiming the valley as ancestral ground and rightful Alliance territory. From there, he directs military outposts, defensive bunkers, and frontline pushes. Vanndar is determined that no retreat will ever be sounded under his watch. Vanndar's mining and prospecting reached into the Frostwolf clan's home, starting a brutal mountain war. The orcs demanded that he withdraw, but he refused to yield an inch, vowing Alterac Valley would belong to the dwarves. From his throne room deep within Dun Baldar, with marshals and bodyguards at his side, Vanndar oversees the defense against Frostwolf incursions. He also sends Alliance champions to break enemy lines and claim the valley.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_vanndar-stormpike-367140e00289ac9c899f/1-0000.mp3", duration = 77.4008163, start = 0},
+    {file = "Audio/Transport/full_npc_vanndar-stormpike-279a6228bc0a7798deef/1-0000.mp3", duration = 71.915102, start = 0},
   },
 }
 P.transport["npc:varok-saurfang"] = {
-  hash = "31e000",
-  fullHash = "31e000",
-  text = "Varok Saurfang. High Overlord Saurfang is a legendary orc warrior and a veteran of the Old Horde's wars. Serving as Warchief Thrall's trusted military commander in Orgrimmar, he represents the proud martial spine of the modern Horde. Few living warriors possess a martial pedigree to rival Saurfang. A veteran of the Old Horde's wars, he is considered an unstoppable force on the battlefield. Today he stands in Orgrimmar as High Overlord, a bulwark of Thrall's newborn Horde. Though he stands as an unmatched champion of the Horde, Saurfang is not driven by reckless battle-lust. While he will relentlessly defend the Horde and enforce Thrall's rule against any threat, Saurfang harbors a profound disdain for warmongering and fights strictly for honor and preservation.",
+  hash = "498221",
+  fullHash = "498221",
+  text = "Varok Saurfang. In Orgrimmar, Varok Saurfang commands the Horde's war forces under Warchief Thrall. The veteran of the Old Horde's wars lends the young Horde his strength and experience. Varok Saurfang carries the Old Horde's wars into the present. Few living warriors match his record, and many regard him as unstoppable in battle. Now High Overlord in Orgrimmar, he helps hold together Thrall's newborn Horde. Varok Saurfang defends the Horde and enforces Thrall's rule against threats. He does not seek battle for its own sake. He despises warmongering and fights for honor and the Horde's preservation.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_varok-saurfang-34a841df31741da9efcb/1-0000.mp3", duration = 43.6244898, start = 0},
+    {file = "Audio/Transport/full_npc_varok-saurfang-58da615bab1174e694d5/1-0000.mp3", duration = 35.1346939, start = 0},
   },
 }
 P.transport["npc:velarok"] = {
@@ -4026,19 +4026,19 @@ P.transport["npc:verna-furlbrow"] = {
   },
 }
 P.transport["npc:veron-amberstill"] = {
-  hash = "9cfe1c",
-  fullHash = "9cfe1c",
-  text = "Veron Amberstill. Veron Amberstill is a dwarven ram breeder residing at Amberstill Ranch in eastern Dun Morogh. He tends to the rugged mountain rams that serve as the traditional mounts of Ironforge and offers them to skilled riders who have earned his trust. Tucked away in the snow-dusted hills of eastern Dun Morogh, Veron Amberstill oversees the celebrated stock of Amberstill Ranch. Mountain rams are perfectly suited for Khaz Modan's treacherous slopes, sure-footed and thick-coated against the bite of mountain blizzards. Veron breeds and trains these beasts to carry dwarven scouts, mountaineers, and traveling adventurers. While he gladly provides standard and swift mounts to fellow dwarves, outsiders must prove their unwavering loyalty to the throne of Ironforge before he will part with any of his prized herd.",
+  hash = "a04f2b",
+  fullHash = "a04f2b",
+  text = "Veron Amberstill. At Amberstill Ranch in eastern Dun Morogh, Veron Amberstill tends the rams Ironforge riders trust. Veron Amberstill breeds and trains mountain rams at Amberstill Ranch in eastern Dun Morogh. Their sure footing and thick coats suit the steep slopes and mountain blizzards of Khaz Modan. He raises them to carry dwarven scouts, mountaineers, and traveling adventurers. Veron offers standard and swift mounts to fellow dwarves. Riders from other peoples must prove loyalty to Ironforge's throne before he parts with a ram.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_veron-amberstill-289a612ab23ee704b609/1-0000.mp3", duration = 44.7216327, start = 0},
+    {file = "Audio/Transport/full_npc_veron-amberstill-50dc4cbf57ac141b5218/1-0000.mp3", duration = 30.2497959, start = 0},
   },
 }
 P.transport["npc:veronica-nials"] = {
-  hash = "d35954",
-  fullHash = "d35954",
-  text = "Veronica Nials. Captain Veronica Nials is an officer of the Stromgarde military stationed at Refuge Pointe in the Arathi Highlands. Amid the kingdom's collapse, she coordinates defensive operations against the Syndicate and ogres that overrun the fallen capital. Following the Third War, the human kingdom of Stromgarde shattered, leaving its remnants struggling to survive against invading Boulderfist ogres and the treachery of the Syndicate. Captain Veronica Nials stands as one of the central commanders of the surviving Stromgarde defenders at Refuge Pointe. Tasked with holding the line, she directs Alliance champions against key Syndicate leadership, such as Lord Falconcrest and the warlock Marez Cowl, while striving to recover fallen soldiers' badges so their grieving families can find closure. Captain Nials's loyalties are strictly tied to her battered homeland. When Rhag Garmason and the dwarven defenders of Dun Modr begged for Stromgarde's assistance after Dark Iron saboteurs devastated the Thandol Span, Nials was forced to turn them away. Bound by honor and duty, her troops cannot spare a single blade beyond the Arathi Highlands while their own ancestral kingdom remains occupied.",
+  hash = "adfd48",
+  fullHash = "adfd48",
+  text = "Veronica Nials. At Refuge Pointe, Captain Veronica Nials directs Stromgarde's defense as her kingdom crumbles. She faces Syndicate treachery and Boulderfist ogres in the Arathi Highlands. After the Third War, Stromgarde shattered, and its people faced invading Boulderfist ogres and the Syndicate's treachery. At Refuge Pointe, Captain Veronica Nials commands the surviving Stromgarde defenders. She directs Alliance champions against Syndicate leaders, including Lord Falconcrest and the warlock Marez Cowl. She also seeks the badges of fallen soldiers so their grieving families can learn what became of them. When Rhag Garmason and the dwarven defenders of Dun Modr asked Stromgarde for help, Captain Nials had to refuse. Dark Iron saboteurs had devastated the Thandol Span, but her troops could not spare a single blade beyond the Arathi Highlands. Honor and duty bound them to defend their homeland while Stromgarde remained occupied.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_veronica-nials-e42914bb6bbb7ff56735/1-0000.mp3", duration = 67.7616327, start = 0},
+    {file = "Audio/Transport/full_npc_veronica-nials-0bdad77025e3ac0b1486/1-0000.mp3", duration = 50.8865306, start = 0},
   },
 }
 P.transport["npc:vesprystus"] = {
@@ -4050,11 +4050,11 @@ P.transport["npc:vesprystus"] = {
   },
 }
 P.transport["npc:vidra-hearthstove"] = {
-  hash = "cb6441",
-  fullHash = "cb6441",
-  text = "Vidra Hearthstove. Vidra Hearthstove is a dwarven cook residing in the Stoutlager Inn in Thelsamar. Known for preparing local specialties, she frequently relies on traveling adventurers to gather regional ingredients for her famous blood sausages. Within the bustling warmth of the Stoutlager Inn, Vidra Hearthstove tends the kitchen and helps feed the locals and travelers passing through Loch Modan. Sharing a surname with the innkeeper, she keeps Thelsamar well-provisioned. Her signature dish, Thelsamar blood sausages, is a hearty dwarven staple that requires fresh game meats gathered from the surrounding wilderness, including boar entrails, spider ichor, and bear meat.",
+  hash = "a9e993",
+  fullHash = "a9e993",
+  text = "Vidra Hearthstove. In Thelsamar, Vidra Hearthstove cooks local specialties at the Stoutlager Inn. She often relies on traveling adventurers to gather ingredients for her famous blood sausages. Vidra Hearthstove cooks for locals and travelers at the Stoutlager Inn in Loch Modan. Sharing a surname with the innkeeper, she helps keep Thelsamar well provisioned. Her signature dish, Thelsamar blood sausages, calls for fresh game from the surrounding wilderness: boar entrails, spider ichor, and bear meat.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_vidra-hearthstove-3fc28fa780a631bdd0f1/1-0000.mp3", duration = 38.7395918, start = 0},
+    {file = "Audio/Transport/full_npc_vidra-hearthstove-c2221c9c2191483466d1/1-0000.mp3", duration = 29.8579592, start = 0},
   },
 }
 P.transport["npc:volcor"] = {
@@ -4066,11 +4066,11 @@ P.transport["npc:volcor"] = {
   },
 }
 P.transport["npc:vorn-skyseer"] = {
-  hash = "5ee441",
-  fullHash = "5ee441",
-  text = "Vorn Skyseer. Vorn Skyseer is a peaceful tauren resident of Camp Narache atop Red Cloud Mesa in Mulgore. Resting among the camp's tents, he greets young adventurers beginning their journeys and introduces them to local life. Situated in Camp Narache on Red Cloud Mesa, Vorn Skyseer serves as an informal welcoming presence for young tauren. As they undertake their rites of passage before venturing into the wider valleys of Mulgore, Vorn offers kind words and hospitality, helping new arrivals settle into the camp. Vorn is no warrior. He leaves the camp's defense to its braves and keeps to a quiet, unhurried life, content to watch over the tranquil plains of his homeland.",
+  hash = "173765",
+  fullHash = "173765",
+  text = "Vorn Skyseer. At Camp Narache, Vorn Skyseer welcomes young tauren beginning their journeys. He lives among the tents on Red Cloud Mesa in Mulgore and introduces newcomers to camp life. At Camp Narache, Vorn Skyseer greets young tauren beginning their rites of passage. They prepare to leave Red Cloud Mesa for the wider valleys of Mulgore, and his kind words and welcome help them settle into camp. Vorn Skyseer leaves the camp's defense to its braves. He lives quietly and without hurry, watching over the plains of his homeland.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_vorn-skyseer-ab519fb5a7157b94f282/1-0000.mp3", duration = 41.2995918, start = 0},
+    {file = "Audio/Transport/full_npc_vorn-skyseer-eccd2ac78b3376c75ab6/1-0000.mp3", duration = 32.2612245, start = 0},
   },
 }
 P.transport["npc:warcaller-gorlach"] = {
@@ -4090,27 +4090,27 @@ P.transport["npc:warlord-goretooth"] = {
   },
 }
 P.transport["npc:warmaster-laggrond"] = {
-  hash = "fb0f4e",
-  fullHash = "fb0f4e",
-  text = "Warmaster Laggrond. Warmaster Laggrond is a seasoned orc commander stationed outside the Horde entrance to Alterac Valley in the Alterac Mountains. He oversees recruitment and frontline recognition for warriors answering the call to aid the Frostwolf clan. Through his trials, fighters prove their mettle and earn the respect of the Horde vanguard. Standing watch in the bitter cold at the threshold of Alterac Valley, Warmaster Laggrond organizes the Horde's war effort against the Stormpike Expedition. He ensures that only capable fighters enter the valley to represent the Frostwolf clan and the wider Horde. Laggrond tests arriving combatants through the Proving Grounds before directing them into the thick of battle. As warriors spill blood across the frozen peaks, it is Laggrond who measures their standing, bestowing honors upon those who earn renown among the Frostwolves.",
+  hash = "cd3224",
+  fullHash = "cd3224",
+  text = "Warmaster Laggrond. Outside Alterac Valley, Warmaster Laggrond prepares Horde fighters for the Frostwolf clan. He commands from the valley’s entrance in the Alterac Mountains, where warriors answer the call to aid the Frostwolves. Warmaster Laggrond directs the Horde's fight against the Stormpike Expedition at Alterac Valley's entrance. In the bitter cold, he admits only capable fighters to represent the Frostwolf clan and the wider Horde. Warmaster Laggrond sends arriving combatants through the Proving Grounds before they enter battle. As warriors fight across the frozen peaks, he measures their standing and honors those who earn renown among the Frostwolves.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_warmaster-laggrond-1035dc6ae0f2e3ed96d4/1-0000.mp3", duration = 49.6587755, start = 0},
+    {file = "Audio/Transport/full_npc_warmaster-laggrond-36a2248619ad01dfbf39/1-0000.mp3", duration = 36.4146939, start = 0},
   },
 }
 P.transport["npc:warsong-outrider"] = {
-  hash = "49b717",
-  fullHash = "49b717",
-  text = "Warsong Outrider. Stationed along the contested road leading east from Ashenvale into Azshara, the Warsong Outrider keeps watch over the Horde's frontier. She serves as an advanced scout for the Warsong clan, monitoring travelers and relaying crucial intelligence back to their forward encampments. Although armed and vigilant against night elf incursions, she maintains a passive watch unless directly provoked. The borderlands between Ashenvale and the shattered ruins of Azshara are fraught with danger. Operating far from the fortified safety of Splintertree Post or the lumber camps, the Warsong Outrider observes troop movements and patrols the transit corridor. Armed with a bow and toxic stingers, she stands ready to defend the Horde's claim over the region, though she conserves her strength by only firing upon Alliance trespassers who actively attack her.",
+  hash = "624462",
+  fullHash = "624462",
+  text = "Warsong Outrider. On the road east from Ashenvale, the Warsong Outrider watches the Horde's frontier. She scouts for the Warsong clan, watches travelers, and sends intelligence to its forward encampments. She keeps watch unless someone provokes her. The Warsong Outrider watches the road between Ashenvale and Azshara's shattered ruins. Far from Splintertree Post and the lumber camps, she tracks troop movements along the route. Her bow and toxic stingers are ready, but she fires only at Alliance trespassers who attack her.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_warsong-outrider-c5a8a8710c16908f89df/1-0000.mp3", duration = 48.1959184, start = 0},
+    {file = "Audio/Transport/full_npc_warsong-outrider-cbaaa738c3099ce6e9d0/1-0000.mp3", duration = 31.4514286, start = 0},
   },
 }
 P.transport["npc:watch-captain-parker"] = {
-  hash = "821aef",
-  fullHash = "821aef",
-  text = "Watch Captain Parker. Guard Parker is a vigilant town guardsman stationed at the Three Corners outpost in the Redridge Mountains. Tasked with patrolling the roads and monitoring aggressive gnoll packs, he serves as an early line of defense for travelers heading into Lakeshire. Positioned at the vital junction known as Three Corners, Parker keeps watch over the roads connecting Elwynn Forest, Duskwood, and Redridge. With Stormwind's military resources stretched thin and little official reinforcement reaching the region, solo watchmen like Parker carry the burden of keeping the crossroads clear of bandits, prowling predators, and raiding gnolls. Parker's immediate concern is the gnoll encampments gathering to the north and east of his post. As packs encroach closer toward the roadway, he sends able-bodied travelers to carry word of the gathering gnoll force to Deputy Feldon in Lakeshire. The Redridge pack's growing boldness poses an immediate danger to supply convoys and refugees seeking shelter in Lakeshire. Life on a lonely roadside post can be grim, but small kindnesses still find their way to Three Corners. Darcy, the server from the Lakeshire Inn, sends Parker a warm lunch while he is out on patrol. Touched by the gesture, Parker asks the adventurer who delivered it to fetch a bouquet from Lakeshire's herbalist and bring it back to her as a token of his appreciation, without telling the herbalist whom the flowers are from or for.",
+  hash = "a686d4",
+  fullHash = "a686d4",
+  text = "Watch Captain Parker. At Three Corners, Watch Captain Parker guards the road and travelers bound for Lakeshire. He patrols the junction and watches the gnoll packs gathering nearby, an early line of defense for those heading into town. At Three Corners, Watch Captain Parker watches the roads between Elwynn Forest, Duskwood, and Redridge. Stormwind has few troops to spare, and little official help reaches the region. Parker and other lone watchmen must keep the crossroads clear of bandits, prowling predators, and raiding gnolls. Gnoll camps gathering north and east of Parker’s post draw his attention. As the packs press closer to the road, he sends able-bodied travelers to warn Deputy Feldon in Lakeshire. The Redridge gnolls grow bolder, threatening supply convoys and refugees seeking shelter in town. A lonely roadside post can be grim, yet kindness reaches Three Corners. Darcy, a server at the Lakeshire Inn, sends Parker a warm lunch while he patrols. Touched by her kindness, Parker asks the traveler who brought it to fetch a bouquet from Lakeshire’s herbalist and take it back to Darcy. He asks that the herbalist not be told who the flowers are from or for.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_watch-captain-parker-c4c87b2bf405066cfdc8/1-0000.mp3", duration = 80.9795918, start = 0},
+    {file = "Audio/Transport/full_npc_watch-captain-parker-ed0dd5e8de43644346cd/1-0000.mp3", duration = 71.3404082, start = 0},
   },
 }
 P.transport["npc:watcher-backus"] = {
@@ -4122,19 +4122,19 @@ P.transport["npc:watcher-backus"] = {
   },
 }
 P.transport["npc:watcher-dodds"] = {
-  hash = "577c04",
-  fullHash = "577c04",
-  text = "Watcher Dodds. Watcher Dodds is a human scout of the Night Watch stationed at the central crossroads of Duskwood. Manning a lonely roadside outpost far from Darkshire's town walls, he monitors the encroaching horrors and tasks travelers with culling the local giant spider population. Watcher Dodds serves the Night Watch under Commander Althea Ebonlocke, holding down an exposed post at the intersection connecting Darkshire to Raven Hill and Deadwind Pass. While Darkshire huddles within its palisades, forward sentries like Dodds live on the knife's edge between wolf packs, ravenous ghouls, and oversized arachnids. From his roadside camp, he keeps an eye on approaching threats and enlists wandering mercenaries to thin out the spiders crawling out from the undergrowth before they completely overrun the overgrown thoroughfares.",
+  hash = "5744ff",
+  fullHash = "5744ff",
+  text = "Watcher Dodds. At Duskwood's central crossroads, Watcher Dodds keeps watch for the Night Watch. From his roadside outpost, he watches for danger and asks travelers to thin the giant spider population. Watcher Dodds guards the crossroads for the Night Watch, under Commander Althea Ebonlocke. His post stands where the roads from Darkshire, Raven Hill, and Deadwind Pass meet. Darkshire's palisades shelter the town, but Dodds keeps watch beyond them, amid wolf packs, ravenous ghouls, and oversized spiders. From his roadside camp, he watches for threats and asks passing mercenaries to kill spiders emerging from the undergrowth before they overrun the roads.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_watcher-dodds-b284f16f31ddce8afaba/1-0000.mp3", duration = 45.6097959, start = 0},
+    {file = "Audio/Transport/full_npc_watcher-dodds-22efed0c83392d560173/1-0000.mp3", duration = 39.2881633, start = 0},
   },
 }
 P.transport["npc:wilder-thistlenettle"] = {
-  hash = "5c785d",
-  fullHash = "5c785d",
-  text = "Wilder Thistlenettle. Wilder Thistlenettle is a dwarven miner brooding in a tavern within Stormwind's Dwarven District. The sole survivor of a tragic cave-in deep within the Deadmines, he is haunted by the gruesome fate of his mining company and his brother. Wilder Thistlenettle can be found drowning his sorrows in an alehouse near the southeastern gates of the Dwarven District. Years ago, he joined an expedition into the deep lodes of Moonbrook's Deadmines alongside his brother and their companions. A catastrophic cave-in sealed the rest of the crew in the dark while Wilder barely made it to the surface alive.",
+  hash = "0ef7de",
+  fullHash = "0ef7de",
+  text = "Wilder Thistlenettle. In Stormwind’s Dwarven District, Wilder Thistlenettle drinks alone with old grief. He once entered Moonbrook’s Deadmines with his brother and their mining crew, but a cave-in left him the sole survivor. Wilder Thistlenettle drinks away his sorrow in an alehouse near the Dwarven District’s southeastern gates. Years ago, he joined his brother and their companions in the deep lodes of Moonbrook’s Deadmines. A cave-in sealed the rest of the crew underground, and Wilder barely reached the surface alive.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_wilder-thistlenettle-4bba77f316df1d12bc45/1-0000.mp3", duration = 31.6081633, start = 0},
+    {file = "Audio/Transport/full_npc_wilder-thistlenettle-6a4e43b525bbf464c609/1-0000.mp3", duration = 29.9363265, start = 0},
   },
 }
 P.transport["npc:wiley-the-black"] = {
@@ -4170,19 +4170,19 @@ P.transport["npc:winna-hazzard"] = {
   },
 }
 P.transport["npc:winstone-wolfe"] = {
-  hash = "68a076",
-  fullHash = "68a076",
-  text = "Winstone Wolfe. Winstone Wolfe is a human operative affiliated with the secretive Ravenholdt organization, stationed at their secluded estate nestled between Hillsbrad and the Alterac Mountains. He keeps watch over the estate's grounds and groundskeepers, serving as one of the trusted contacts within the hidden league of thieves and assassins. Tucked away in the hidden valley of Ravenholdt Manor, Winstone Wolfe operates among the ranks of Lord Jorach Ravenholdt's syndicate. Quiet, watchful, and practical, Wolfe is one of the capable hands who handles business around the manor, ensuring that only those with proper discretion and talent walk the grounds undisturbed.",
+  hash = "568ab8",
+  fullHash = "568ab8",
+  text = "Winstone Wolfe. At Ravenholdt Manor, Winstone Wolfe keeps watch over the estate grounds. The human operative belongs to Lord Jorach Ravenholdt's secretive organization, hidden between Hillsbrad and the Alterac Mountains. Winstone Wolfe works among Lord Jorach Ravenholdt's syndicate at Ravenholdt Manor. Quiet and watchful, he handles business around the manor and watches its grounds and groundskeepers. Only those with discretion and talent walk there undisturbed.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_winstone-wolfe-4445d13199763ba8f6f7/1-0000.mp3", duration = 36.6497959, start = 0},
+    {file = "Audio/Transport/full_npc_winstone-wolfe-80cb7004620759ab3226/1-0000.mp3", duration = 25.2342857, start = 0},
   },
 }
 P.transport["npc:witch-doctor-jin-zil"] = {
-  hash = "760f67",
-  fullHash = "760f67",
-  text = "Witch Doctor Jin'Zil. Witch Doctor Jin'Zil is a Darkspear troll mystic dwelling in a cave at Malaka'jin in the southern Stonetalon Mountains. A longtime comrade of Darsok Swiftdagger and the shadow hunter Rokhan, he turns dark voodoo and ritual sorcery against the Horde's local enemies. Secluded inside an eastern cavern above the camp of Malaka'jin, Jin'Zil practices ancient jungle troll arts away from the coastal home of his tribe. Surrounded by bubbling cauldrons and captive prisoners, he gathers exotic reagents from the crags of the Stonetalon Mountains to weave potent blessings and curses in defense of the Horde's mountain encampment. Jin'Zil is no ordinary hedge wizard; he shares a storied history with senior Horde scouts, counting both Darsok Swiftdagger and the renowned shadow hunter Rokhan among his old friends. While Darsok coordinates frontline skirmishes against night elves and harpies, Jin'Zil fights the war spiritually and alchemically, using his forest magic and volatile voodoo to undermine threats before they ever reach the camp gates.",
+  hash = "3fefaf",
+  fullHash = "3fefaf",
+  text = "Witch Doctor Jin'Zil. In Malaka'jin, Witch Doctor Jin'Zil turns dark voodoo against the Horde's enemies. The Darkspear troll mystic lives in a cave in the southern Stonetalon Mountains and is a longtime comrade of Darsok Swiftdagger and the shadow hunter Rokhan. In a cave east of Malaka'jin, Jin'Zil practices the ancient arts of jungle trolls, far from his tribe's coastal home. Bubbling cauldrons and captive prisoners fill his cavern. He gathers exotic reagents from the Stonetalon crags, weaving blessings and curses to defend the Horde's mountain camp. Jin'Zil is an old friend of senior Horde scouts Darsok Swiftdagger and the shadow hunter Rokhan. Darsok leads frontline skirmishes against night elves and harpies. Jin'Zil fights the war through spirit and alchemy, using forest magic and volatile voodoo to weaken threats before they reach the camp gates.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_witch-doctor-jin-zil-9d22d2b81c6b577205c6/1-0000.mp3", duration = 59.2979592, start = 0},
+    {file = "Audio/Transport/full_npc_witch-doctor-jin-zil-ab1f02359c7a4632f177/1-0000.mp3", duration = 51.435102, start = 0},
   },
 }
 P.transport["npc:witch-doctor-uzer-i"] = {
@@ -4250,11 +4250,11 @@ P.transport["npc:yeh-kinya"] = {
   },
 }
 P.transport["npc:yvette-farthing"] = {
-  hash = "090386",
-  fullHash = "090386",
-  text = "Yvette Farthing. Yvette Farthing is a Forsaken resident of Brill in Tirisfal Glades, dwelling in the Gallows' End Tavern alongside her father, Coleman. Though she appears as hardened and detached as any of Sylvanas's people, she carries the lingering ghost of a mortal romance cut short by the Scourge. Before the Third War swept Lordaeron into ruin, Yvette was in love with Thurman Agamand, one of the heirs of the prosperous Agamand Mills. When the Scourge plague approached, Yvette and her father, Coleman, begged Thurman to abandon the estate and flee with them. Thurman refused out of devotion to his family's legacy. Both would eventually perish and rise into undeath, but while Yvette found a place among the free-willed Forsaken in Brill, Thurman's tragic final fate remained unknown to her.",
+  hash = "b62968",
+  fullHash = "b62968",
+  text = "Yvette Farthing. In Brill, Yvette Farthing shares the Gallows' End Tavern with her father, Coleman. A Forsaken, she carries the memory of a love cut short by the Scourge. Yvette loved Thurman Agamand, heir to the prosperous Agamand Mills, before the Third War ruined Lordaeron. As the Scourge plague drew near, Yvette and her father, Coleman, begged Thurman to leave the estate with them. He refused, devoted to his family's legacy. Yvette and Thurman both perished and rose into undeath. Yvette found a place among the free-willed Forsaken in Brill, but she did not know Thurman's final fate.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_yvette-farthing-71c7aa1e3027c9f9fb70/1-0000.mp3", duration = 46.0277551, start = 0},
+    {file = "Audio/Transport/full_npc_yvette-farthing-36ae9178fb3beca6e529/1-0000.mp3", duration = 36.7281633, start = 0},
   },
 }
 P.transport["npc:zaldimar-wefhellt"] = {
@@ -4274,11 +4274,11 @@ P.transport["npc:zamja"] = {
   },
 }
 P.transport["npc:zangen-stonehoof"] = {
-  hash = "a45ac3",
-  fullHash = "a45ac3",
-  text = "Zangen Stonehoof. Zangen Stonehoof is a tauren keeper situated at the High Rise bonfire in the heart of Thunder Bluff. Dutiful and revered among his peers, he faithfully tends to the central flames each evening while coordinating efforts to aid his distant kin across Kalimdor. Perched on the High Rise of Thunder Bluff, Zangen Stonehoof maintains the central communal bonfire that overlooks the city's highest bluffs. As twilight falls over Mulgore, Zangen kindles the fire, providing warmth and an enduring beacon for the tribes assembled beneath High Chieftain Cairne Bloodhoof. Beyond keeping the flames alight, he maintains ties with allies beyond Mulgore's mesa, acting as a liaison for spiritual and ritual endeavors taking place across the continent. Zangen acts as an intermediary for Rau Cliffrunner, an associate stationed south in Thousand Needles. When Rau required the mystical waters of a night elf moonwell for sacred rituals, Zangen enlisted dependable Horde adventurers to brave the contested forests of Ashenvale. By securing the filled phial from the ancient groves and dispatching it south to Freewind Post, Zangen plays a quiet but pivotal part in preserving ancient rites and assisting scattered tauren posts.",
+  hash = "4c8b12",
+  fullHash = "4c8b12",
+  text = "Zangen Stonehoof. At the High Rise bonfire, Zangen Stonehoof tends the flames and aids tauren kin across Kalimdor. Each evening, he keeps the central fire burning in Thunder Bluff. Zangen Stonehoof tends the communal bonfire atop Thunder Bluff's High Rise. Each evening, as twilight falls over Mulgore, he lights the fire above the city's highest bluffs. The flames give warmth to the tribes gathered beneath High Chieftain Cairne Bloodhoof. Zangen also keeps ties with allies beyond Mulgore's mesa, helping with spiritual and ritual work across the continent. Zangen helps Rau Cliffrunner, who is stationed south in Thousand Needles. When Rau needed water from a night elf moonwell for sacred rituals, Zangen enlisted dependable Horde adventurers to cross the contested forests of Ashenvale. They secured a filled phial from the ancient groves and sent it south to Freewind Post. Zangen helps preserve ancient rites and support scattered tauren posts.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_zangen-stonehoof-1305a54bc87c0ac957b7/1-0000.mp3", duration = 71.0269388, start = 0},
+    {file = "Audio/Transport/full_npc_zangen-stonehoof-a2cdc15c576d0abd99f2/1-0000.mp3", duration = 55.6669388, start = 0},
   },
 }
 P.transport["npc:zankaja"] = {
@@ -4306,11 +4306,11 @@ P.transport["npc:zargh"] = {
   },
 }
 P.transport["npc:zarlman-two-moons"] = {
-  hash = "50597d",
-  fullHash = "50597d",
-  text = "Zarlman Two-Moons. Zarlman Two-Moons is a revered tauren mystic residing in Bloodhoof Village in central Mulgore. While Baine Bloodhoof oversees the village's daily earthly affairs, Zarlman guides its spiritual life and communions with the spirits. He plays a vital role in initiating young tauren into adulthood through the sacred Rite of Vision. Within Bloodhoof Village, leadership is divided between the physical and the mystical. Baine Bloodhoof commands the settlement's defense and temporal needs, but it is Zarlman Two-Moons who maintains the harmony of the spirit world. In a culture deeply rooted in reverence for the Earth Mother and ancestral wisdom, Zarlman serves as a conduit between the everyday struggles of the plains and the timeless voices of the past. Zarlman's most crucial duty to his people is administering the Rite of Vision, a traditional trial every maturing tauren must undertake. By guiding initiates to prepare sacred draughts and listen closely to ancestral portents, he helps young hunters, shamans, and warriors discover their destined path and spirit guides. Under his instruction, initiates learn that physical strength on the plains means little without spiritual clarity.",
+  hash = "2f1c2b",
+  fullHash = "2f1c2b",
+  text = "Zarlman Two-Moons. In central Mulgore, Zarlman Two-Moons guides Bloodhoof Village's spiritual life. While Baine Bloodhoof tends its daily affairs, Zarlman communes with the spirits and guides young tauren through the Rite of Vision. Zarlman Two-Moons tends the spirits while Baine Bloodhoof commands Bloodhoof Village's defenses and temporal needs. The village looks to Zarlman for harmony with the spirit world. He joins the plains' everyday struggles with the voices of ancestors and honors the Earth Mother and ancestral wisdom. Zarlman guides maturing tauren through the Rite of Vision, a traditional trial each must undertake. He teaches initiates to prepare sacred draughts and heed ancestral portents. Young hunters, shamans, and warriors seek their destined path and spirit guides through the rite. Zarlman teaches them that strength on the plains means little without spiritual clarity.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_zarlman-two-moons-de0784d8cb8e4dcd2a0c/1-0000.mp3", duration = 66.1420408, start = 0},
+    {file = "Audio/Transport/full_npc_zarlman-two-moons-2282530dfe83b7eb14af/1-0000.mp3", duration = 50.1028571, start = 0},
   },
 }
 P.transport["npc:zarrin"] = {

@@ -1,0 +1,92 @@
+{
+ "key": "quest:95111",
+ "type": "quest",
+ "name": "An Underrated Talent",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95111
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Trevan Rol in Silverpine Forest asks you to bring materials to Ott in Tarren Mill and offer him a custom commission. His simple blades have impressed smiths in the Undercity, and this order gives him a chance to show what he can make.",
+ "sections": [
+  {
+   "title": "A Smith's Chance",
+   "body": "Trevan Rol asks you to take materials to Ott in Tarren Mill and offer him a commission. Ott is known for selling simple blades to travelers. Trevan bought one and later took it to the Undercity for maintenance, where local smiths were surprised by its quality. They thought it came from a famous master, but it was Ott's work. Now you bring him the chance to forge a blade to your specifications.",
+   "spoiler": 0
+  },
+  {
+   "title": "Ott's Answer",
+   "body": "Ott says no one has asked him to make a custom commission before. He usually crafts humble, functional weapons in his own style and says he does not seek acclaim. He is willing to try, though he wonders why you chose him when smiths in the Undercity also take custom work.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Ott?",
+   "aliases": [
+    "ott smith",
+    "who's ott",
+    "tarren mill smith"
+   ],
+   "answer": "Ott is a weaponsmith in Tarren Mill who sells simple blades to travelers."
+  },
+  {
+   "q": "Why does the Undercity smith want me to find Ott?",
+   "aliases": [
+    "why ott",
+    "undercity smith order",
+    "ott commission"
+   ],
+   "answer": "The smith bought one of Ott's blades and was surprised when Undercity smiths praised its quality. The smith wants to give Ott a chance to make something special."
+  },
+  {
+   "q": "What am I bringing to Ott?",
+   "aliases": [
+    "materials for ott",
+    "what do i take",
+    "ott materials"
+   ],
+   "answer": "You are taking materials to Ott in Tarren Mill and offering him a commission to forge your blade."
+  },
+  {
+   "q": "Does Ott make custom weapons?",
+   "aliases": [
+    "ott custom blade",
+    "can ott forge for me",
+    "ott commissions"
+   ],
+   "answer": "Ott says no one has asked him to carry out a custom commission before, but he is happy to try."
+  },
+  {
+   "q": "Why does Ott ask why I chose him?",
+   "aliases": [
+    "why choose ott",
+    "ott wonders why",
+    "why not undercity smith"
+   ],
+   "answer": "Ott says there are smiths in the Undercity who take custom jobs, and he wonders why you sought him instead."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "commission",
+  "custom blade",
+  "ott",
+  "smith",
+  "tarren mill",
+  "undercity",
+  "weaponsmith"
+ ],
+ "related": [
+  "subzone:tarren-mill",
+  "zone:undercity"
+ ],
+ "style": 1,
+ "attribution": [
+  "In-game quest text: An Underrated Talent"
+ ]
+}

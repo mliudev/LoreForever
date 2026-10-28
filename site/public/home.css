@@ -349,5 +349,5 @@ button.hb-chip { margin-top: 0; }
 :where(html:not([data-door="willo"])) .home .h-foot a { color: var(--ch-bar-ink); }
 :where(html:not([data-door="willo"])) .home .h-foot a:hover { color: var(--ch-bar-gold); }
 :where(html:not([data-door="willo"])) .home .h-foot :focus-visible { outline-color: var(--ch-bar-gold); }
-:where(html:not([data-door="willo"])) .home main .ch-willo a { color: #12304a; }
-:where(html:not([data-door="willo"])) .home main .ch-willo a:hover { color: #000; }
+:where(html:not([data-door="willo"])) .home main .ch-willo a { color: var(--w-link); }
+:where(html:not([data-door="willo"])) .home main .ch-willo a:hover { color: var(--w-hover); }

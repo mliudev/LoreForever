@@ -10,16 +10,16 @@
    "quest:68"
   ]
  },
- "summary": "A Dusty Unsent Letter is a forgotten parchment recovered from an old footlocker in Westfall. It offers vital proof that the elusive Stalvan Mistmantle lived in Moonbrook before his disappearance.",
+ "summary": "In Westfall, a dusty letter sheds light on Stalvan Mistmantle’s past in Moonbrook. The unsent parchment was found in an old footlocker and confirms that he lived there before his disappearance.",
  "sections": [
   {
    "title": "A Clue in the Dust",
-   "body": "While searching for the past of the mysterious Stalvan Mistmantle, investigators discover this unsent letter tucked away inside an old footlocker in Moonbrook. Darkshire's town registry still listed his last address as the Moonbrook Schoolhouse, and Clerk Daltry wanted word on whether he had truly lived there. This unmailed correspondence provides the missing link, confirming that Stalvan resided in the Westfall township for a time. Yet its presence also raises ominous questions, as retrieving it disturbs a vengeful Forlorn Spirit that guards the remnants of Stalvan's past with bitter malice.",
+   "body": "Investigators searching for Stalvan Mistmantle’s past find an unsent letter in an old footlocker in Moonbrook. Darkshire’s town registry still gives his last address as the Moonbrook Schoolhouse, and Clerk Daltry wants to know whether he truly lived there. The letter confirms that Stalvan resided in the Westfall township for a time. Finding it disturbs a vengeful Forlorn Spirit, which guards the remnants of Stalvan’s past with bitter malice.",
    "spoiler": 0
   },
   {
    "title": "Updating the Registry",
-   "body": "Brought before Clerk Daltry at Darkshire's Town Hall, the letter serves as concrete evidence to update the town's registry. Daltry notes how strange it is that the correspondence was never sent, hinting at the sudden departures and secretive trail Stalvan left across the southern kingdoms of the Alliance.",
+   "body": "Clerk Daltry receives the letter at Darkshire’s Town Hall as evidence for the town registry. He finds it strange that the correspondence was never sent and hints at the trail Stalvan left across the southern kingdoms of the Alliance.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "where to get dusty unsent letter",
     "moonbrook letter"
    ],
-   "answer": "The letter is recovered from an abandoned footlocker located within Moonbrook in Westfall, hidden among the dilapidated houses now overrun by the Defias Brotherhood."
+   "answer": "The letter is found in an abandoned footlocker in Moonbrook, Westfall, among dilapidated houses overrun by the Defias Brotherhood."
   },
   {
    "q": "Why was the letter never sent?",
@@ -40,7 +40,7 @@
     "stalvan letter unsent",
     "who was the letter for"
    ],
-   "answer": "The exact reasons remain uncertain, though Clerk Daltry finds it highly suspicious. It suggests Stalvan Mistmantle may have fled Moonbrook in haste or abandoned his correspondence before moving on."
+   "answer": "The reason the letter was never sent is uncertain. Clerk Daltry finds it suspicious and suggests Stalvan may have fled Moonbrook in haste or left his correspondence behind before moving on."
   },
   {
    "q": "Who needs to see this letter?",
@@ -49,7 +49,7 @@
     "clerk daltry letter",
     "turn in letter"
    ],
-   "answer": "The letter must be delivered to Clerk Daltry, who manages the town registry inside the Town Hall in Darkshire."
+   "answer": "Clerk Daltry needs to see the letter. He manages the town registry inside Darkshire’s Town Hall."
   },
   {
    "q": "Why does a spirit attack when finding it?",
@@ -58,13 +58,13 @@
     "why ghost spawn",
     "curse of stalvan"
    ],
-   "answer": "Disturbing the footlocker summons a Forlorn Spirit tied to Stalvan's haunting legacy. It lashes out at anyone prying into his forgotten life, afflicting intruders with the debilitating Curse of Stalvan."
+   "answer": "Disturbing the footlocker summons a Forlorn Spirit tied to Stalvan’s haunting legacy. It attacks anyone prying into his forgotten life and afflicts intruders with the debilitating Curse of Stalvan."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Piecing together Stalvan's trail helps Darkshire keep accurate records of travelers and outcasts wandering across human settlements from Westfall into Duskwood."
+   "text": "As an Alliance traveler, learning Stalvan’s trail helps Darkshire keep accurate records of travelers and outcasts moving between human settlements in Westfall and Duskwood."
   }
  ],
  "keywords": [
@@ -85,5 +85,6 @@
  "attribution": [
   "A Dusty Unsent Letter",
   "The Legend of Stalvan (3)"
- ]
+ ],
+ "style": 1
 }

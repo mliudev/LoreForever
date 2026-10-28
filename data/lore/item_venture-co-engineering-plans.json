@@ -10,16 +10,16 @@
    "quest:1079"
   ]
  },
- "summary": "The Venture Co. Engineering Plans are mechanical schematics kept inside the goblin logging mill in Windshear Crag. Recovered by Alliance operatives, they detail the inner workings of the heavy machinery devastating the Stonetalon Mountains.",
+ "summary": "At Windshear Crag, the Venture Co. Engineering Plans reveal how the logging machinery is built. Alliance operatives recover the schematics from the goblin mill.",
  "sections": [
   {
    "title": "Industrial Secrets",
-   "body": "Windshear Crag is choked with smoke and logging machinery as the Venture Company strips the forests of Stonetalon. Hidden inside their lumber mill south of Cragpool Lake, these engineering blueprints lay out the exact construction, strengths, and flaws of their specialized timber-harvesting contraptions.",
+   "body": "Inside the lumber mill south of Cragpool Lake, the Venture Co. Engineering Plans show the construction, strengths, and flaws of the timber-harvesting machines. The Venture Company uses those machines to strip the forests of Stonetalon, while smoke hangs over Windshear Crag.",
    "spoiler": 0
   },
   {
    "title": "Gnomish Espionage",
-   "body": "Gnome engineer Gaxim Rustfizzle orchestrated a covert operation to sabotage the Venture Company's logging works while securing these documents. While planting explosives offers immediate disruption, acquiring the blueprints allows Alliance craftspeople to systematically exploit structural weaknesses in goblin equipment and adapt their innovative designs for Alliance projects.",
+   "body": "Gnome engineer Gaxim Rustfizzle directs a covert operation against the Venture Company's logging works and seeks the plans. Explosives can disrupt the mill at once, while the schematics let Alliance craftspeople exploit weaknesses in goblin equipment and adapt its designs for Alliance projects.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "plans location stonetalon",
     "where are the plans"
    ],
-   "answer": "The plans are kept inside the Venture Company's primary lumber mill located in Windshear Crag, south of Cragpool Lake in the Stonetalon Mountains."
+   "answer": "The Venture Co. Engineering Plans are inside the Venture Company's primary lumber mill at Windshear Crag, south of Cragpool Lake in the Stonetalon Mountains."
   },
   {
    "q": "Who wants these engineering plans?",
@@ -40,7 +40,7 @@
     "who turns in engineering plans",
     "gaxim rustfizzle plans"
    ],
-   "answer": "Gaxim Rustfizzle, an Alliance gnome coordinating covert actions in the Stonetalon Mountains, sends agents to recover them."
+   "answer": "Gaxim Rustfizzle, an Alliance gnome coordinating covert actions in the Stonetalon Mountains, sends agents to recover the plans."
   },
   {
    "q": "Why are these blueprints important to the Alliance?",
@@ -48,7 +48,7 @@
     "why steal the plans",
     "what do the plans do"
    ],
-   "answer": "The schematics reveal critical design flaws in the Venture Company's logging machinery, allowing operatives to break them down more effectively, while also providing Alliance gnomes with industrial designs they can incorporate into their own inventions."
+   "answer": "The schematics reveal flaws in the Venture Company's logging machinery, helping operatives dismantle it and giving Alliance gnomes industrial designs to adapt for their own inventions."
   },
   {
    "q": "What operation is tied to stealing these plans?",
@@ -56,17 +56,17 @@
     "covert ops alpha objective",
     "what quest is this for"
    ],
-   "answer": "Securing these plans is the primary objective of Covert Ops - Alpha. While the mission involves setting detonators throughout the site, returning with the blueprints defines the operation's true success."
+   "answer": "Recovering the plans is the chief aim of Covert Ops - Alpha. Agents also plant detonators throughout the site, but returning with the blueprints marks the operation's success."
   }
  ],
  "angles": [
   {
    "target": "race:Gnome",
-   "text": "For gnome tinkerers, capturing rival goblin schematics is both an intellectual victory and a treasure trove of industrial ideas ripe for adaptation."
+   "text": "As a gnome tinkerer, capturing rival goblin schematics offers an intellectual victory and industrial ideas to adapt."
   },
   {
    "target": "profession:Engineering",
-   "text": "The Venture Company's brutal, resource-hungry contraptions may lack refinement, but their mechanical blueprints hold valuable insights into heavy industrial machinery."
+   "text": "As an engineer, you can study the Venture Company's brutal, resource-hungry machines for insights into heavy industrial machinery."
   }
  ],
  "keywords": [
@@ -90,5 +90,6 @@
  "attribution": [
   "Venture Co. Engineering Plans",
   "Covert Ops - Alpha"
- ]
+ ],
+ "style": 1
 }

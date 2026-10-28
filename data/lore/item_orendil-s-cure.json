@@ -10,11 +10,11 @@
    "quest:1020"
   ]
  },
- "summary": "Orendil's Cure is a medicinal draught concocted by the herbalist Orendil Broadleaf in northern Ashenvale. Created using the rare herb Bathran's Hair, it is meant to treat the mysterious, deathly sickness afflicting Relara Whitemoon in Astranaar.",
+ "summary": "In northern Ashenvale, Orendil Broadleaf brews a draught for a child in Astranaar. He uses rare Bathran's Hair to treat Relara Whitemoon's mysterious, deathly sickness.",
  "sections": [
   {
    "title": "A Father's Hope",
-   "body": "When young Relara Whitemoon fell deathly ill in Astranaar, conventional remedies proved useless against her ailment. Her desperate father, Pelturas Whitemoon, turned to Orendil Broadleaf, a hermit and master of natural medicine dwelling along the northern reaches of Ashenvale. Utilizing bundles of the rare plant Bathran's Hair harvested from the haunted ruins of Bathran's Haunt, Orendil brewed this tailored concoction. The arrival of the vial gives Pelturas hope where before he had little, though the cure only slows the disease, and Pelturas must turn to the further remedies Orendil suggested.",
+   "body": "Relara Whitemoon, still young, fell deathly ill in Astranaar, and ordinary remedies failed. Her father, Pelturas Whitemoon, sought help from Orendil Broadleaf, a hermit and master of natural medicine who lives in northern Ashenvale. Orendil used bundles of rare Bathran's Hair gathered from the haunted ruins of Bathran's Haunt to brew a draught for Relara. When the vial arrives, it gives Pelturas hope. Yet the cure only slows the disease, so he must seek the further remedies Orendil suggested.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "what does the cure do",
     "who is the cure for"
    ],
-   "answer": "The cure is formulated to soothe and treat Relara Whitemoon, a young night elf child in Astranaar who has been struck down by a sudden, severe illness."
+   "answer": "Orendil's Cure is meant to soothe and treat Relara Whitemoon, a young night elf child in Astranaar. Her sudden, severe illness has left her stricken."
   },
   {
    "q": "Who crafted the cure?",
@@ -34,7 +34,7 @@
     "who made orendils cure",
     "creator of orendils cure"
    ],
-   "answer": "It was prepared by Orendil Broadleaf, a reclusive night elf herbalist living in the northern woods of Ashenvale who is renowned for his mastery over forest flora and remedies."
+   "answer": "Orendil Broadleaf prepared the cure. He is a reclusive night elf herbalist in Ashenvale's northern woods, renowned for his mastery of forest plants and remedies."
   },
   {
    "q": "What ingredients were used to make it?",
@@ -42,7 +42,7 @@
     "cure ingredients",
     "what is in orendil's cure"
    ],
-   "answer": "The vital ingredient is Bathran's Hair, a delicate and uncommon plant gathered among the ruins of Bathran's Haunt in northern Ashenvale."
+   "answer": "The cure uses Bathran's Hair, a delicate, uncommon plant gathered among the ruins of Bathran's Haunt in northern Ashenvale."
   },
   {
    "q": "Does this potion completely heal the child?",
@@ -50,17 +50,17 @@
     "did it cure relara",
     "is relara healed"
    ],
-   "answer": "Not completely. Pelturas later finds that Orendil's cure only slowed the disease running through his daughter, so he seeks a stronger remedy that Orendil had suggested: Elune's Tear."
+   "answer": "No. Pelturas learns that Orendil's Cure only slows the disease afflicting his daughter, so he seeks the stronger remedy Orendil suggested: Elune's Tear."
   }
  ],
  "angles": [
   {
    "target": "profession:Herbalism",
-   "text": "The remedy showcases the profound medicinal power of Ashenvale's native flora, particularly Bathran's Hair, which thrives only in select, shadowed corners of the forest."
+   "text": "Ashenvale's native plants hold great medicinal power. Bathran's Hair is one such herb, growing only in select, shadowed corners of the forest."
   },
   {
    "target": "race:NightElf",
-   "text": "For the night elves of Astranaar, saving Relara is an urgent community matter, combining the woodland knowledge of hermits like Orendil with divine faith in Elune."
+   "text": "For night elves in Astranaar, saving Relara is an urgent matter for the community. Hermits like Orendil bring woodland knowledge, while faith in Elune brings divine aid."
   }
  ],
  "keywords": [
@@ -85,5 +85,6 @@
  "attribution": [
   "Orendil's Cure",
   "Orendil's Cure (Classic)"
- ]
+ ],
+ "style": 1
 }

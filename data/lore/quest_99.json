@@ -23,16 +23,16 @@
    "Arugal's Folly (4)"
   ]
  },
- "summary": "Arugal's Folly culminates in a dangerous investigation into the curse gripping Pyrewood Village. Dalar Dawnweaver tasks Horde operatives with obtaining enchanted shackles from the villagers to decode Archmage Arugal's twisted handiwork. Unraveling these bindings exposes the tragic magic holding the settlement under the shadow of the worgen.",
+ "summary": "In Pyrewood Village, Dalar Dawnweaver seeks the magic binding its people to a curse. He needs enchanted shackles from the villagers to study Archmage Arugal's work and understand the worgen transformation.",
  "sections": [
   {
    "title": "The Dual Lives of Pyrewood",
-   "body": "South of the Sepulcher lies Pyrewood Village, a settlement caught in an uncanny state of existence. Under the daylight sun, its residents go about their lives as ordinary human peasants, fearful and insular. Yet as twilight falls over the forest, their human forms tear apart into savage Moonrage worgen, roaming the streets under Arugal's sway. Dalar Dawnweaver seeks to unravel the exact arcane bindings causing this diurnal horror.",
+   "body": "South of the Sepulcher, Pyrewood Village lives two lives. In daylight, its fearful, insular residents appear to be ordinary human peasants. At twilight, their human forms tear apart and become savage Moonrage worgen, roaming the streets under Arugal's sway. Dalar Dawnweaver seeks to learn what arcane bindings cause this horror.",
    "spoiler": 0
   },
   {
    "title": "Shattering the Shackles",
-   "body": "To analyze the enchantment holding Pyrewood in thrall, Dawnweaver requires enchanted Pyrewood Shackles taken directly from the transformed townsfolk. Rather than simple iron, these restraints thrum with the residual sorcery of Arugal's failed wards. By studying their arcane composition, the Forsaken mage hopes to comprehend the mechanisms of the beastly transformation and devise a way to finally bring down the rogue archmage of Shadowfang Keep.",
+   "body": "Dalar Dawnweaver needs enchanted Pyrewood Shackles from the transformed townsfolk to study the spell holding Pyrewood in thrall. The restraints carry the lingering sorcery of Arugal's failed wards. By examining their magic, the Forsaken mage hopes to understand the beastly transformation and find a way to bring down the rogue archmage of Shadowfang Keep.",
    "spoiler": 1
   }
  ],
@@ -44,7 +44,7 @@
     "pyrewood curse",
     "why human then wolf"
    ],
-   "answer": "Archmage Arugal cast twisted enchantments over Pyrewood Village. By day, his spells maintain an illusion or dormant state of humanity, but nightfall causes the townsfolk to transform into Moonrage worgen under his control."
+   "answer": "Archmage Arugal's enchantments keep Pyrewood's people human by day, through an illusion or a dormant state. At night, they become Moonrage worgen under his control."
   },
   {
    "q": "What are the Pyrewood Shackles?",
@@ -52,7 +52,7 @@
     "pyrewood shackle",
     "arugal shackles"
    ],
-   "answer": "They are enchanted bindings worn by the cursed residents of Pyrewood Village. Arugal used them as part of his magic over the town, and Dalar Dawnweaver uses their residual energy to study the curse."
+   "answer": "The Pyrewood Shackles are enchanted bindings worn by Pyrewood's cursed residents. Arugal used them as part of his magic over the town, and Dalar Dawnweaver studies their lingering energy to learn about the curse."
   },
   {
    "q": "Who is Dalar Dawnweaver?",
@@ -60,7 +60,7 @@
     "dalar dawnweaver lore",
     "who is quest giver sepulcher"
    ],
-   "answer": "Dalar Dawnweaver is a Forsaken mage stationed at the Sepulcher in Silverpine Forest. He spearheads the Forsaken's magical investigation into Archmage Arugal's summoned worgen."
+   "answer": "Dalar Dawnweaver is a Forsaken mage stationed at the Sepulcher in Silverpine Forest. He leads the Forsaken's magical study of Archmage Arugal's summoned worgen."
   },
   {
    "q": "Does finishing this quest cure Pyrewood Village?",
@@ -68,7 +68,7 @@
     "can you cure pyrewood",
     "do pyrewood people get cured"
    ],
-   "answer": "No. The retrieved shackles provide Dalar Dawnweaver with the magical insight needed to understand Arugal's magic, but the curse continues to hold Pyrewood in perpetual torment."
+   "answer": "No. The shackles give Dalar Dawnweaver insight into Arugal's magic, but Pyrewood's curse continues to hold the village in perpetual torment."
   },
   {
    "q": "How does Arugal control the villagers?",
@@ -76,7 +76,7 @@
     "arugal pyrewood connection",
     "how does arugal control them"
    ],
-   "answer": "Through reckless enchantments and enchanted shackles, Arugal bound the villagers to his will, forcing them into beastly forms that guard the approach to his domain at Shadowfang Keep."
+   "answer": "Arugal bound the villagers to his will with reckless enchantments and enchanted shackles. They become beasts that guard the way to his domain at Shadowfang Keep."
   },
   {
    "q": "What happens after completing the Arugal's Folly quest chain?",
@@ -84,21 +84,21 @@
     "after arugals folly",
     "arugals folly finale"
    ],
-   "answer": "This assignment marks the final chapter of the Arugal's Folly chain. The knowledge gathered allows the Forsaken to fully assess the threat of Shadowfang Keep and plan Arugal's downfall."
+   "answer": "The Arugal's Folly chain ends with this assignment. What the Forsaken have learned lets them assess the threat of Shadowfang Keep and plan Arugal's downfall."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "The Forsaken view Pyrewood Village with cold fascination and ruthless pragmatism, keen to dismantle Arugal's enchantments to secure southern Silverpine."
+   "text": "As Forsaken, you may see Pyrewood with cold fascination and ruthless pragmatism. Dismantling Arugal's enchantments could secure southern Silverpine."
   },
   {
    "target": "class:Mage",
-   "text": "For practitioners of the arcane, Arugal's shackles are a grim reminder of how Kirin Tor sorcery can spiral into madness when mixed with otherworldly summoned beasts."
+   "text": "As a mage, you know Arugal's shackles warn how Kirin Tor sorcery can descend into madness when mixed with otherworldly summoned beasts."
   },
   {
    "target": "faction:Horde",
-   "text": "Securing these shackles breaks Arugal's mystical stranglehold over the road leading south toward the Greymane Wall."
+   "text": "As a member of the Horde, you help secure shackles that break Arugal's mystical stranglehold over the road south toward the Greymane Wall."
   }
  ],
  "keywords": [
@@ -122,5 +122,6 @@
  ],
  "attribution": [
   "Arugal's Folly (4)"
- ]
+ ],
+ "style": 1
 }

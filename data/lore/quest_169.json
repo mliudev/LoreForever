@@ -17,16 +17,16 @@
   "wiki": "Wanted: Gath'Ilzogg (quest)",
   "chain": []
  },
- "summary": "Wanted: Gath'Ilzogg is an Alliance bounty posted in Redridge Mountains targeting the warlord behind the Blackrock invasion of Stonewatch. Magistrate Solomon offers a generous reward for anyone daring enough to assault the conquered keep and bring back the commander's severed head.",
+ "summary": "In Redridge, Magistrate Solomon offers a generous bounty on the warlord behind Blackrock's invasion of Stonewatch. The reward goes to anyone who storms the conquered keep and brings back the commander's severed head.",
  "sections": [
   {
    "title": "The Warlord of Stonewatch",
-   "body": "Gath'Ilzogg is the brutal commander directing Blackrock clan raids across the Redridge Mountains. Under his direction, the orcs stormed and conquered Stonewatch Keep, turning a former human bastion into a fortified staging ground for assaults on the surrounding settlements. From the keep's highest ramparts, he plots further incursions into Lakeshire, threatening to cut Redridge off from the rest of the kingdom.",
+   "body": "Gath'Ilzogg commands Blackrock raids across the Redridge Mountains. His orcs stormed Stonewatch Keep and made the former human bastion a fortified staging ground for attacks on nearby settlements. From its highest ramparts, he plans further incursions into Lakeshire, threatening to cut Redridge off from the rest of the kingdom.",
    "spoiler": 0
   },
   {
    "title": "A Town Pushed to the Brink",
-   "body": "With Stormwind's royal army failing to deploy reinforcements to the border regions, Magistrate Solomon has taken matters into his own hands. The township of Lakeshire simply lacks the military manpower to retake Stonewatch Keep by force. By posting a public bounty on Gath'Ilzogg, Solomon aims to decapitate the Blackrock leadership and spark the first stage of reclaiming the keep for the crown.",
+   "body": "Stormwind's royal army has failed to send reinforcements to the border regions, so Magistrate Solomon takes matters into his own hands. Lakeshire lacks the soldiers to retake Stonewatch Keep by force. Solomon posts a public bounty on Gath'Ilzogg, hoping to break Blackrock's leadership and begin reclaiming the keep for the crown.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who is gathilzogg",
     "blackrock leader redridge"
    ],
-   "answer": "Gath'Ilzogg is an orc warlord leading the Blackrock clan forces occupying Stonewatch. He directed the conquest of the keep and is responsible for frequent deadly raids against the human settlers of Lakeshire."
+   "answer": "Gath'Ilzogg is an orc warlord leading the Blackrock forces occupying Stonewatch. He directed the keep's conquest and is responsible for frequent deadly raids against Lakeshire's human settlers."
   },
   {
    "q": "Where can Gath'Ilzogg be found?",
@@ -47,7 +47,7 @@
     "where is gathilzogg",
     "stonewatch boss location"
    ],
-   "answer": "He is entrenched at the very top of Stonewatch Keep, located in the eastern crags of the Redridge Mountains. He is heavily guarded by his Blackrock champions and bodyguards."
+   "answer": "Gath'Ilzogg is entrenched at the top of Stonewatch Keep, in the eastern crags of the Redridge Mountains. Blackrock champions and bodyguards guard him."
   },
   {
    "q": "Why is Magistrate Solomon offering a bounty instead of sending soldiers?",
@@ -56,7 +56,7 @@
     "where are stormwind soldiers",
     "lakeshire guard help"
    ],
-   "answer": "Lakeshire's local town guard is stretched to the limit, and the crown in Stormwind has not sent the required troops to relieve the region. Magistrate Solomon has to rely on mercenaries and independent adventurers to handle major threats."
+   "answer": "Lakeshire's town guard is stretched thin, and Stormwind's crown has sent no troops to relieve the region. Magistrate Solomon relies on mercenaries and independent adventurers to face major threats."
   },
   {
    "q": "What happens after Gath'Ilzogg is killed?",
@@ -64,7 +64,7 @@
     "is stonewatch retaken",
     "after gath'ilzogg"
    ],
-   "answer": "Magistrate Solomon sees the warlord's death as the crucial first step toward clearing out the orc infestation and eventually reclaiming Stonewatch Keep for the Kingdom of Stormwind, though the Blackrock presence in the region remains heavy."
+   "answer": "Magistrate Solomon sees Gath'Ilzogg's death as the first step toward clearing out the orcs and, eventually, reclaiming Stonewatch Keep for the Kingdom of Stormwind. Blackrock forces remain heavy in the region."
   },
   {
    "q": "Why did the Blackrock orcs invade Stonewatch Keep?",
@@ -72,7 +72,7 @@
     "why are blackrock in redridge",
     "why stonewatch taken"
    ],
-   "answer": "The Blackrock clan uses Stonewatch Keep as a fortified forward base. Sitting high in the mountains above Redridge, it gives them strategic control over the passes and a direct launching point for raids against human settlements."
+   "answer": "The Blackrock clan uses Stonewatch Keep as a fortified forward base high in the Redridge Mountains. From there, they control the passes and launch raids against human settlements."
   },
   {
    "q": "Who claims the bounty once Gath'Ilzogg is dead?",
@@ -80,21 +80,21 @@
     "who to turn in gathilzogg",
     "gathilzogg quest turn in"
    ],
-   "answer": "The bounty must be delivered directly to Magistrate Solomon in Lakeshire's town hall, accompanied by Gath'Ilzogg's head as definitive proof of his defeat."
+   "answer": "Bring Gath'Ilzogg's head to Magistrate Solomon at Lakeshire's town hall as proof of his defeat."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Striking down Gath'Ilzogg eliminates one of the most immediate military threats to the kingdom's eastern borders, buying vital breathing room for the citizens of Lakeshire."
+   "text": "Striking down Gath'Ilzogg removes one of the most immediate military threats to the kingdom's eastern borders and buys vital breathing room for Lakeshire's citizens."
   },
   {
    "target": "race:Human",
-   "text": "For the people of Stormwind, Stonewatch Keep was a hard-won fortification; Gath'Ilzogg's slaughter of innocents during its fall makes this bounty a matter of bitter vengeance."
+   "text": "For Stormwind's people, Stonewatch Keep was hard won. Gath'Ilzogg's slaughter of innocents when it fell makes this bounty a matter of bitter vengeance."
   },
   {
    "target": "class:Warrior",
-   "text": "Breaching the summit of Stonewatch Keep means facing the hardened veteran warriors and brute strength of the Dark Horde's frontline command."
+   "text": "At Stonewatch Keep's summit, you face the hardened veteran warriors and brute strength of the Dark Horde's frontline command."
   }
  ],
  "keywords": [
@@ -118,5 +118,6 @@
  ],
  "attribution": [
   "Wanted: Gath'Ilzogg (quest)"
- ]
+ ],
+ "style": 1
 }

@@ -10,16 +10,16 @@
    "quest:315"
   ]
  },
- "summary": "Shimmerweed is a distinct herb cultivated by the Frostmane trolls on Shimmer Ridge in the snowy heights of Dun Morogh. While the trolls harvest it for their own tribal rituals, local dwarven brewers covet its sharp, unique flavor for experimental ales.",
+ "summary": "On Shimmer Ridge, Frostmane trolls gather shimmerweed for their rituals. Dwarven brewmaster Rejold Barleybrew wants to test its sharp flavor in his stout.",
  "sections": [
   {
    "title": "A Trollish Crop",
-   "body": "High above the lowlands of Dun Morogh, the Frostmane trolls tend patches of shimmerweed along the icy crags of Shimmer Ridge. The trolls harvest and store the plant in woven baskets scattered throughout their camps, relying on it to fuel their sacred and enigmatic rituals. Outside of troll society, few mountaineers pay the weed much mind, though its potent properties have drawn the gaze of inventive outsiders.",
+   "body": "The Frostmane trolls tend shimmerweed on the icy crags of Shimmer Ridge, high above Dun Morogh's lowlands. They harvest the plant and store it in woven baskets throughout their camps, where it fuels their sacred rituals. Few mountaineers beyond troll society pay the herb much mind, though inventive outsiders have taken an interest.",
    "spoiler": 0
   },
   {
    "title": "A Secret Ingredient",
-   "body": "In nearby Brewnall Village, brewmaster Rejold Barleybrew has taken a keen interest in the herb. Believing that brewing is in his blood, Rejold seeks to craft the ultimate dwarven stout and suspects that the pungent, unmistakable flavor of shimmerweed might be the missing piece. He frequently hires adventurous travelers to slip into the Frostmane encampments, dodge the hostile trolls, and haul back bushels to dump into his fermenting vats.",
+   "body": "In Brewnall Village, brewmaster Rejold Barleybrew suspects shimmerweed may be the missing piece in his attempt to brew the ultimate dwarven stout. He has detected the herb's pungent, unmistakable flavor and wants to see what it brings to his fermenting vats. Rejold hires travelers to slip into Frostmane camps, evade the hostile trolls, and bring back bushels.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "where to find shimmerweed",
     "shimmer ridge plant"
    ],
-   "answer": "Shimmerweed is found up on Shimmer Ridge, an icy rise northwest of Brewnall Village in Dun Morogh. It is cultivated and gathered by the Frostmane trolls, who keep it stored in baskets around their camps."
+   "answer": "Shimmerweed grows on Shimmer Ridge, an icy rise northwest of Brewnall Village in Dun Morogh. The Frostmane trolls tend it and store what they gather in baskets around their camps."
   },
   {
    "q": "What do the Frostmane trolls use shimmerweed for?",
@@ -39,7 +39,7 @@
     "troll shimmerweed use",
     "why do trolls want shimmerweed"
    ],
-   "answer": "The Frostmane trolls utilize shimmerweed in their mysterious tribal rites and ceremonies. While the precise details of their rituals remain opaque to outsiders, the herb plays an active role in their cultural and spiritual practices on Shimmer Ridge."
+   "answer": "The Frostmane trolls use shimmerweed in their mysterious tribal rites and ceremonies. Outsiders do not know the precise details, but the herb has a place in their cultural and spiritual practices on Shimmer Ridge."
   },
   {
    "q": "Why does Rejold Barleybrew want shimmerweed?",
@@ -48,7 +48,7 @@
     "who wants shimmerweed",
     "why brew with shimmerweed"
    ],
-   "answer": "Rejold Barleybrew is striving to brew the perfect dwarven stout in Brewnall Village. Having detected a unique taste in the wild herb, he wants to toss fresh bushels of shimmerweed into his experimental mash to see if it delivers the bold profile his recipe needs."
+   "answer": "Rejold Barleybrew wants shimmerweed for his attempt to brew the perfect dwarven stout in Brewnall Village. He has detected its unique taste and hopes fresh bushels will give his experimental mash the bold profile his recipe needs."
   },
   {
    "q": "Does shimmerweed grow anywhere outside Dun Morogh?",
@@ -56,17 +56,17 @@
     "shimmerweed durotar",
     "shimmerweed outside dun morogh"
    ],
-   "answer": "Varieties of shimmerweed have been gathered in arid lands like Durotar, where farseers such as Drek'Thar value the plant for potent herbal concoctions and medicinal brews, proving the weed can adapt beyond the frozen peaks of Khaz Modan."
+   "answer": "Shimmerweed has also been gathered in arid lands like Durotar, where farseers such as Drek'Thar value it for potent herbal concoctions and medicinal brews. The plant grows beyond the frozen peaks of Khaz Modan."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "True to dwarven ingenuity, if a strange plant grows on a nearby cliffside, someone will eventually try to ferment it into beer."
+   "text": "Dwarven ingenuity can turn a strange plant from a nearby cliffside into an experiment in brewing."
   },
   {
    "target": "profession:Herbalism",
-   "text": "While not part of a standard field botanist's kit, shimmerweed showcases how regional flora is often adapted for local brewing traditions and ritual alchemy alike."
+   "text": "For herbalists, shimmerweed shows how regional plants find uses in local brewing traditions and ritual alchemy."
   }
  ],
  "keywords": [
@@ -90,5 +90,6 @@
  "attribution": [
   "Shimmerweed",
   "The Perfect Stout"
- ]
+ ],
+ "style": 1
 }

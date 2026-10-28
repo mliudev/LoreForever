@@ -20,16 +20,16 @@
    "The Reports"
   ]
  },
- "summary": "Carry Senir Whitebeard's report on the Frostmane trolls from Kharanos to Senator Barin Redstone in Ironforge. Senir warns that the senator is sour and asks you not to mention who helped gather the information.",
+ "summary": "Senir Whitebeard sends an urgent report from Kharanos to Senator Barin Redstone in Ironforge. He warns that the senator is sour and asks you to keep the scout who gathered the information unnamed.",
  "sections": [
   {
    "title": "A Dispatch to the Capital",
-   "body": "After daring reconnaissance deep inside Frostmane Hold, Senir Whitebeard drafts an urgent report detailing the growing troll threat facing Dun Morogh. Stationed out of Kharanos, the mountaineer needs a courier to deliver these intelligence findings directly to Senator Barin Redstone in Ironforge. Eager to preserve his own reputation in the eyes of the government, Whitebeard cheerfully advises his runner not to mention who actually did the hazardous legwork out in the snowy crags.",
+   "body": "Senir Whitebeard needs you to carry an urgent report from Kharanos to Senator Barin Redstone in Ironforge. The mountaineer’s account details the growing Frostmane troll threat facing Dun Morogh, drawn from reconnaissance deep inside Frostmane Hold. Senir asks you not to mention who helped gather the information from the snowy crags.",
    "spoiler": 0
   },
   {
    "title": "Friction in the High Seat",
-   "body": "When delivered to Senator Redstone in the royal court, the document causes immediate outrage. Rather than expressing gratitude for intelligence on hostile troll movements, the sour senator bristles at finding King Magni's personal authority invoked to sanction Whitebeard's operations. The delivery exposes an ongoing power struggle within Ironforge's governing halls, highlighting how deeply the Senate resents executive decrees and unapproved field initiatives undertaken in the King's name.",
+   "body": "Senator Barin Redstone reacts with anger when you deliver Senir’s report in Ironforge’s royal court. The senator bristles at the report’s use of King Magni’s authority to sanction Senir’s operations. His response reveals resentment in the Senate toward the King’s decrees and field initiatives carried out in his name.",
    "spoiler": 1
   }
  ],
@@ -41,7 +41,7 @@
     "who gives the reports",
     "whitebeard kharanos"
    ],
-   "answer": "Senir Whitebeard is a dwarven mountaineer stationed near Kharanos in Dun Morogh. He oversees scouting and military reconnaissance against the Frostmane troll tribes encroaching on dwarven settlements."
+   "answer": "Senir Whitebeard is a dwarven mountaineer stationed near Kharanos in Dun Morogh. He oversees scouting and military reconnaissance against Frostmane trolls encroaching on dwarven settlements."
   },
   {
    "q": "Who is Senator Barin Redstone?",
@@ -50,7 +50,7 @@
     "who is the senator",
     "redstone ironforge"
    ],
-   "answer": "Barin Redstone is a sour, aristocratic dwarf senator residing in the throne room of Ironforge near King Magni Bronzebeard. He is fiercely protective of legislative authority and easily annoyed by common petitioners."
+   "answer": "Barin Redstone is a sour, aristocratic dwarf senator who resides in Ironforge’s throne room near King Magni Bronzebeard. He is easily annoyed by common petitioners."
   },
   {
    "q": "Why is Senator Redstone angry about the report?",
@@ -59,7 +59,7 @@
     "why does the senator yell",
     "senate vs magni"
    ],
-   "answer": "Senir warns that Redstone has a sour disposition. The senator's response to the report is discovered when you deliver it."
+   "answer": "Senir warns you that Senator Redstone is sour. You learn the senator’s response when you deliver the report."
   },
   {
    "q": "Why does Senir Whitebeard ask to keep your help secret?",
@@ -68,7 +68,7 @@
     "whitebeard stole credit",
     "senir's secret"
    ],
-   "answer": "Whitebeard wants his superiors in Ironforge to believe he personally managed and completed the arduous field scouting, bolstering his standing rather than admitting an itinerant adventurer carried out the mission."
+   "answer": "Senir Whitebeard asks you to keep your help secret so his superiors will believe he completed the arduous scouting himself. He does not want to admit that an adventurer carried out the mission."
   },
   {
    "q": "Where is the report delivered?",
@@ -77,7 +77,7 @@
     "barin redstone location",
     "the reports turn in"
    ],
-   "answer": "The report is delivered to Senator Barin Redstone inside the High Seat of Ironforge, the great chamber where King Magni Bronzebeard holds court."
+   "answer": "You deliver the report to Senator Barin Redstone in the High Seat of Ironforge, the great chamber where King Magni Bronzebeard holds court."
   },
   {
    "q": "What does this quest reveal about Ironforge politics?",
@@ -86,17 +86,17 @@
     "dwarf senate lore",
     "magni vs senate"
    ],
-   "answer": "The delivery introduces Ironforge's Senate and the officials receiving frontier reports. Redstone's reaction provides a closer glimpse of its politics."
+   "answer": "The delivery introduces Ironforge’s Senate and the officials who receive frontier reports. Redstone’s reaction gives you a glimpse of Ironforge politics."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "For dwarves, walking into the High Seat to deliver the dispatch offers a firsthand glimpse at the delicate balance between King Magni's crown and the parliamentary power of the dwarven Senate."
+   "text": "As a dwarf, you see the balance between King Magni’s crown and the dwarven Senate’s parliamentary power when you deliver the dispatch in the High Seat."
   },
   {
    "target": "faction:Alliance",
-   "text": "The delivery serves as an early introduction to Ironforge's civic layout and the political bureaucracy that shapes Alliance domestic policy within Dun Morogh."
+   "text": "As an Alliance member, you see Ironforge’s civic layout and the bureaucracy that shapes Alliance domestic policy."
   }
  ],
  "keywords": [
@@ -118,5 +118,6 @@
  ],
  "attribution": [
   "The Reports"
- ]
+ ],
+ "style": 1
 }

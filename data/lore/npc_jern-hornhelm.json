@@ -8,16 +8,16 @@
   "wiki": "Jern Hornhelm",
   "refs": 5
  },
- "summary": "Jern Hornhelm is a dwarven miner affiliated with the Explorers' League, stationed in the town of Thelsamar. He coordinates vital logistics and communication between the settlement, Ironforge, and the archaeological dig site deeper in Loch Modan. Adventurers frequently assist him with shuttling mining supplies and progress reports across the region.",
+ "summary": "In Thelsamar, Jern Hornhelm keeps the Explorers' League's work moving. The dwarven miner coordinates supplies and messages between the town, Ironforge, and the dig site deeper in Loch Modan. Travelers carry mining supplies and progress reports across the region for him.",
  "sections": [
   {
    "title": "Logistics in Thelsamar",
-   "body": "Stationed within the rustic town of Thelsamar, Jern Hornhelm plays a key logistical role for dwarven operations throughout Loch Modan. While dwarven scholars and field teams venture out into the wilderness to unearth their ancestral past, maintaining consistent supply chains remains essential. Jern ensures that vital resources, tools, and communications reach the active dig sites safely.",
+   "body": "Jern Hornhelm works from Thelsamar to keep supplies moving to Loch Modan's dig sites. Dwarven scholars and field teams search the wilderness for their ancestral past, and they need steady deliveries of resources and tools. Jern also makes sure communications reach the active digs.",
    "spoiler": 0
   },
   {
    "title": "Serving the Explorers' League",
-   "body": "As a member of the Explorers' League, Jern bridges the gap between field archaeologists and the League's leadership in the Hall of Explorers in Ironforge. Sites such as Ironband's Excavation rely heavily on blasting powder, equipment, and regular dispatches to keep work moving forward. Jern enlists reliable travelers to navigate the trogg-infested roads and keep the dig fully operational.",
+   "body": "Jern Hornhelm links field archaeologists with the Explorers' League leadership in Ironforge's Hall of Explorers. Ironband's Excavation depends on blasting powder, equipment, and regular dispatches to keep work moving. Jern asks trusted travelers to carry supplies and reports along the trogg-infested roads so the dig can continue.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "jern hornhelm identity",
     "thelsamar dwarf jern"
    ],
-   "answer": "Jern Hornhelm is a dwarven miner and logistics coordinator based in Thelsamar in Loch Modan. He works on behalf of the Explorers' League to keep local excavation efforts running smoothly."
+   "answer": "Jern Hornhelm is a dwarven miner in Thelsamar who coordinates logistics for the Explorers' League. He helps keep local excavation work supplied and moving."
   },
   {
    "q": "Where can I find Jern Hornhelm?",
@@ -38,7 +38,7 @@
     "where is jern",
     "jern hornhelm map"
    ],
-   "answer": "He can be found standing outdoors in the town of Thelsamar, situated centrally in Loch Modan along the main road."
+   "answer": "Jern Hornhelm stands outdoors in Thelsamar, near the center of Loch Modan along the main road."
   },
   {
    "q": "What faction does Jern Hornhelm belong to?",
@@ -47,7 +47,7 @@
     "who does jern work for",
     "is jern explorers league"
    ],
-   "answer": "Jern is aligned with the Alliance and specifically represents the dwarven Explorers' League, managing the movement of personnel and mining supplies."
+   "answer": "Jern Hornhelm is aligned with the Alliance and represents the dwarven Explorers' League. He manages the movement of personnel and mining supplies."
   },
   {
    "q": "Why does Jern need blasting powder sent to the excavation?",
@@ -56,7 +56,7 @@
     "why excavation needs powder",
     "blasting powder loch modan"
    ],
-   "answer": "Archaeological digs in the mountainous terrain require controlled demolitions to break through stubborn rock faces. Jern coordinates the delivery of specialized blasting powder to Prospector Ironband's dig site so the crew can dig out the ancient ruins east of the lake."
+   "answer": "The mountainous dig site needs blasting powder to break through stubborn rock faces. Jern coordinates its delivery to Prospector Ironband's site east of the lake, where the crew works to uncover ancient ruins."
   },
   {
    "q": "What is Jern Hornhelm's connection to Ironforge?",
@@ -64,7 +64,7 @@
     "jern hornhelm ironforge",
     "report to ironforge jern"
    ],
-   "answer": "Jern serves as a vital communications link between remote digs in Loch Modan and the high leadership of the Explorers' League located in Ironforge's Hall of Explorers, frequently dispatching field progress reports back to the capital."
+   "answer": "Jern Hornhelm links the remote digs in Loch Modan with Explorers' League leadership in Ironforge's Hall of Explorers. He frequently sends field progress reports back to Ironforge."
   },
   {
    "q": "What problems are the dig sites facing in Loch Modan?",
@@ -73,21 +73,21 @@
     "loch modan dig dangers",
     "why jern needs help"
    ],
-   "answer": "Troggs have been harrying Ironband's Excavation and slowing its progress, and the supply runs are in danger too: a blastpowder shipment bound for the site was ambushed by Dark Iron dwarves, so Jern relies on armed adventurers to see deliveries through."
+   "answer": "Troggs harry Ironband's Excavation and slow its progress. Supply runs are also in danger: Dark Iron dwarves ambushed a blastpowder shipment bound for the site, so Jern depends on armed travelers to get deliveries through."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "For dwarves, assisting Jern directly advances the sacred quest to uncover the race's ancient Titan heritage buried deep within the mountains."
+   "text": "As a dwarf, you help uncover your people's ancient Titan heritage, buried deep within the mountains."
   },
   {
    "target": "profession:Mining",
-   "text": "Miners will appreciate Jern's trade background and practical understanding of subterranean logistics, blasting, and resource hauling."
+   "text": "As a miner, you can appreciate Jern's trade background and practical knowledge of underground logistics, blasting, and hauling resources."
   },
   {
    "target": "faction:Alliance",
-   "text": "Alliance travelers passing through Loch Modan find Jern to be an essential point of contact for securing the region and maintaining dwarven infrastructure."
+   "text": "As an Alliance traveler in Loch Modan, you can turn to Jern for help securing the region and maintaining dwarven infrastructure."
   }
  ],
  "keywords": [
@@ -112,5 +112,6 @@
  ],
  "attribution": [
   "Jern Hornhelm"
- ]
+ ],
+ "style": 1
 }

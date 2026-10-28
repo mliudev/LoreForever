@@ -17,16 +17,16 @@
   "wiki": "Ineptitude + Chemicals = Fun",
   "chain": []
  },
- "summary": "Seeking an explosive countermeasure against the Venture Company in the Stonetalon Mountains, Alliance adventurers are sent across the sea to Ironforge. There, the eccentric gnome Lomac Gearstrip agrees to brew his volatile invention, Nitromirglyceronium, provided you fetch the necessary alchemical reagents.",
+ "summary": "Across the sea, Alliance adventurers reach Ironforge seeking an explosive answer to the Venture Company in Stonetalon. Lomac Gearstrip agrees to brew Nitromirglyceronium if you bring him the needed alchemical reagents.",
  "sections": [
   {
    "title": "A Volatile Solution",
-   "body": "Gaxim Rustfizzle, stationed high in the craggy passes of the Stonetalon Mountains, needed potent explosives for the most advanced device he had yet devised against the Venture Company. For that, he turned to an eccentric former colleague living in Ironforge: Lomac Gearstrip. Lomac is the creator of Nitromirglyceronium, a substance so inherently unstable and destructive that he finds the prospect of anyone using it hilarious, regardless of who gets blown apart in the process.",
+   "body": "Gaxim Rustfizzle needs powerful explosives for his most advanced device against the Venture Company. He is stationed high in the craggy passes of the Stonetalon Mountains, far from his eccentric former colleague Lomac Gearstrip in Ironforge. Lomac created Nitromirglyceronium, a compound so unstable and destructive that he finds the thought of anyone using it hilarious, no matter who gets blown apart.",
    "spoiler": 0
   },
   {
    "title": "Potions for Pyrotechnics",
-   "body": "Despite Lomac's eagerness to see goblin machinery—and possibly the adventurer—blown into pieces, his workshop in Ironforge is entirely out of the finished compound. Before he will brew a fresh batch of Nitromirglyceronium, Lomac demands common alchemical draughts: Minor Mana Potions and Elixirs of Minor Fortitude. In his eyes, forcing an adventurer to gather these ingredients serves a dual purpose, ensuring he has the raw reagents needed for the reaction while proving they possess at least a shred of respect for the craft of alchemy.",
+   "body": "Lomac is eager to see goblin machinery, and perhaps you, blown to pieces, but his Ironforge workshop has run out of Nitromirglyceronium. Before brewing another batch, he asks for Minor Mana Potions and Elixirs of Minor Fortitude. The draughts supply the raw reagents for his mixture, and gathering them lets Lomac judge whether you have even a shred of respect for alchemy.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who is lomac",
     "ironforge gnome"
    ],
-   "answer": "Lomac Gearstrip is an eccentric gnomish alchemist and tinkerer located in the dwarven capital of Ironforge. He is an old colleague of Gaxim Rustfizzle and the inventor of Nitromirglyceronium, an extraordinarily volatile explosive compound."
+   "answer": "Lomac Gearstrip is an eccentric gnomish alchemist and tinkerer in Ironforge, the dwarven capital. He is Gaxim Rustfizzle's former colleague and created the volatile explosive Nitromirglyceronium."
   },
   {
    "q": "Why does Lomac want potions instead of standard engineering parts?",
@@ -47,7 +47,7 @@
     "alchemical ingredients",
     "why mana potions"
    ],
-   "answer": "Lomac utilizes alchemy alongside his mechanical know-how to produce high-grade volatile reactions. The magical energy of Minor Mana Potions and the stabilizing bodily humors enhanced by Elixirs of Minor Fortitude serve as base reagents for his specialized Nitromirglyceronium mixture."
+   "answer": "Lomac combines alchemy with his mechanical knowledge to make volatile reactions. Minor Mana Potions provide magical energy, while Elixirs of Minor Fortitude provide stabilizing bodily humors; both serve as base reagents for his Nitromirglyceronium mixture."
   },
   {
    "q": "Why send an adventurer all the way to Ironforge for this?",
@@ -56,7 +56,7 @@
     "why travel so far",
     "gaxim to ironforge"
    ],
-   "answer": "Gaxim Rustfizzle is isolated in the wilds of Stonetalon without access to heavy industrial or chemical workshops. Lomac Gearstrip in Ironforge is the only associate he trusts—or fears enough—to possess an explosive potent enough for his most advanced device."
+   "answer": "Gaxim Rustfizzle is isolated in the Stonetalon wilds, without access to heavy industrial or chemical workshops. Lomac Gearstrip in Ironforge is the only associate Gaxim trusts, or fears enough, to have an explosive potent enough for his most advanced device."
   },
   {
    "q": "What is Nitromirglyceronium?",
@@ -65,7 +65,7 @@
     "what is the explosive",
     "gnome bomb juice"
    ],
-   "answer": "Nitromirglyceronium is Lomac Gearstrip's proprietary explosive chemical brew. It is notoriously volatile, and Lomac calls it his greatest creation."
+   "answer": "Nitromirglyceronium is Lomac Gearstrip's explosive chemical brew, notoriously volatile and, as Lomac calls it, his greatest creation."
   },
   {
    "q": "Is Lomac worried about the Venture Company or the forest?",
@@ -73,7 +73,7 @@
     "does lomac care about nature",
     "lomac motives"
    ],
-   "answer": "Not in the slightest. Lomac openly laughs at the idea of using high explosives to save trees. His sole interest in handing over the compound is the chaotic prospect of watching either the goblins or the courier get blasted to pieces."
+   "answer": "Lomac has no concern for the Venture Company or the forest. He laughs at the idea of using explosives to save trees and wants to watch either the goblins or the courier get blasted to pieces."
   },
   {
    "q": "Do you need to be an alchemist to complete this task?",
@@ -81,21 +81,21 @@
     "need alchemy",
     "alchemy required"
    ],
-   "answer": "No. While Lomac talks about testing your alchemical mettle, he accepts reagents acquired through trade, merchants, or other crafters just the same, so long as he gets the draughts required for his recipe."
+   "answer": "No. Lomac speaks of testing your alchemical skill, but he accepts reagents obtained through trade, merchants, or other crafters, as long as he gets the draughts his recipe requires."
   }
  ],
  "angles": [
   {
    "target": "race:Gnome",
-   "text": "Lomac represents the unrestrained, madcap fringe of gnomish ingenuity, prioritizing sheer chemical yield and theoretical application over safety or diplomatic caution."
+   "text": "Lomac represents the unrestrained, madcap edge of gnomish ingenuity, putting chemical yield and theory ahead of safety or diplomatic caution."
   },
   {
    "target": "faction:Alliance",
-   "text": "The long trek from Stonetalon to Ironforge highlights the logistical strain of supporting remote Alliance outposts scattered throughout hostile Kalimdor."
+   "text": "The long journey from Stonetalon to Ironforge shows the strain of supporting remote Alliance outposts scattered across hostile Kalimdor."
   },
   {
    "target": "profession:Engineering",
-   "text": "Where standard blasting powder fails against Venture Company steel, combining esoteric alchemy with engineering principles produces far more catastrophic results."
+   "text": "When ordinary blasting powder fails against Venture Company steel, alchemy joined with engineering can bring far greater destruction."
   }
  ],
  "keywords": [
@@ -117,5 +117,6 @@
  ],
  "attribution": [
   "Ineptitude + Chemicals = Fun"
- ]
+ ],
+ "style": 1
 }

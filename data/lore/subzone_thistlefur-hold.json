@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Thistlefur Hold"
  },
- "summary": "Thistlefur Hold is a cavernous den carved into northern Thistlefur Village in west-central Ashenvale. Once peaceful bears of the forest, the Thistlefur furbolgs residing here have succumbed to corruption and turn violent toward any outsider who draws near.",
+ "summary": "Corruption has turned the furbolgs of Thistlefur Hold against every outsider who draws near. Their cavern den lies at the northern end of Thistlefur Village in west-central Ashenvale.",
  "sections": [
   {
    "title": "A Corrupted Den",
-   "body": "Tucked into the northern reaches of Thistlefur Village, Thistlefur Hold serves as the heart of the Thistlefur tribe's territory. The furbolgs here have been driven mad by corruption, falling into a state of feral hostility that makes them dangerous to travelers and neighbors alike. Deep within the winding caverns, the tribe hordes scavenged relics\u2014including troll charms of interest to the Darkspear\u2014and keeps captives bound in wooden cages, such as the imprisoned tauren brave Ruul Snowhoof.",
+   "body": "Thistlefur Hold lies at the northern end of Thistlefur Village, at the heart of the Thistlefur tribe's territory. Corruption has driven its furbolgs mad, and they attack travelers and neighbors who draw near. In the winding caverns, the tribe hoards scavenged relics, including troll charms sought by the Darkspear. Captives are kept in wooden cages deep within, among them Ruul Snowhoof, a tauren brave.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "what is this cave",
     "thistlefur cave"
    ],
-   "answer": "Thistlefur Hold is the subterranean cavern complex at the northern end of Thistlefur Village in west-central Ashenvale. It houses the densest population of the hostile Thistlefur furbolg tribe."
+   "answer": "Thistlefur Hold lies beneath the northern end of Thistlefur Village in west-central Ashenvale. Its caverns hold the greatest number of hostile Thistlefur furbolgs."
   },
   {
    "q": "Why are the furbolgs in Thistlefur Hold hostile?",
@@ -32,7 +32,7 @@
     "thistlefur corruption",
     "why are furbolgs attacking"
    ],
-   "answer": "The Thistlefur furbolgs have fallen to corruption. The malign influence twisted their minds and drove them to lash out against all outsiders."
+   "answer": "Corruption has twisted the minds of the Thistlefur furbolgs and driven them to attack outsiders."
   },
   {
    "q": "Who is trapped inside the hold?",
@@ -41,7 +41,7 @@
     "tauren in thistlefur hold",
     "who is ruul snowhoof"
    ],
-   "answer": "Ruul Snowhoof, a tauren brave, was captured by the Thistlefur tribe and sits locked in a wooden cage deep inside the caverns awaiting rescue by Horde champions."
+   "answer": "Ruul Snowhoof, a tauren brave, is held in a wooden cage deep in the caverns. Horde champions seek to free him."
   },
   {
    "q": "Why is the Horde interested in Thistlefur Hold?",
@@ -49,17 +49,17 @@
     "horde quests thistlefur",
     "troll charms thistlefur"
    ],
-   "answer": "The Horde seeks to free the captured tauren Ruul Snowhoof and recover valuable troll charms that the furbolgs have hoarded within the depths of the cave."
+   "answer": "The Horde seeks to free the captured tauren Ruul Snowhoof and recover the troll charms the furbolgs have hoarded in the caverns."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "The hold represents both a rescue mission and a salvage operation for the Horde, demanding warriors enter the den to liberate Ruul Snowhoof and retrieve stolen troll charms."
+   "text": "As a member of the Horde, you face two aims in Thistlefur Hold: free Ruul Snowhoof and recover the troll charms the furbolgs have hoarded."
   },
   {
    "target": "class:Druid",
-   "text": "Seeing the Thistlefur furbolgs fall to corruption and madness is a tragic reminder of how easily nature's guardians can be corrupted in Ashenvale."
+   "text": "As a druid, you see the Thistlefur furbolgs' corruption and madness as a tragedy. Their fall shows how nature's guardians in Ashenvale can be corrupted."
   }
  ],
  "keywords": [
@@ -83,5 +83,6 @@
  ],
  "attribution": [
   "Thistlefur Hold"
- ]
+ ],
+ "style": 1
 }

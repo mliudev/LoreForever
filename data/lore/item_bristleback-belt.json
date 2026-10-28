@@ -10,16 +10,16 @@
    "quest:757"
   ]
  },
- "summary": "A Bristleback Belt is a piece of crudely crafted gear worn by the quilboar infesting Brambleblade Ravine. For young tauren coming of age in Camp Narache, collecting these belts serves as physical proof of valor during the Rite of Strength.",
+ "summary": "In Camp Narache, young tauren gather Bristleback Belts to prove their valor. The belts come from quilboar in Brambleblade Ravine and mark a step in the Rite of Strength.",
  "sections": [
   {
    "title": "Proof of the Rite",
-   "body": "The Red Cloud tribe tests every youth who aspires to earn respect in Thunder Bluff through the ancient Rites of the Earthmother. The first trial, the Rite of Strength, requires the initiate to protect the tribe from active threats. Because the hostile Bristleback quilboar repeatedly raid tribal food supplies and ambush hunting parties outside Camp Narache, Chief Hawkwind demands the belts of these intruders. Returning twelve belts to the chieftain proves that an initiate can confront danger directly and strike a blow for the tribe's defense.",
+   "body": "The Red Cloud tribe tests youths who seek respect in Thunder Bluff through the ancient Rites of the Earthmother. The first trial, the Rite of Strength, asks each initiate to protect the tribe from threats. Bristleback quilboar raid food supplies and ambush hunting parties outside Camp Narache. Chief Hawkwind demands their belts in return. Bringing him twelve proves an initiate can face danger and help defend the tribe.",
    "spoiler": 0
   },
   {
    "title": "Quilboar Craft",
-   "body": "Stripped from Bristleback quilboar warriors and shamans throughout Brambleblade Ravine, these belts are fashioned from rough hide, twine, and scrap. While worthless as apparel to a tauren warrior, they are distinctly quilboar make and serve as unmistakable evidence of a slain enemy. Bringing them back to the camp circle fulfills the proof required by the rite.",
+   "body": "Bristleback warriors and shamans in Brambleblade Ravine wear belts made from rough hide, twine, and scrap. A tauren warrior has little use for one as apparel, but its quilboar make marks it as evidence of a slain enemy. Bringing the belts back to the camp circle fulfills the rite's proof.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "bristleback belt purpose",
     "what is this belt for"
    ],
-   "answer": "Chief Hawkwind in Camp Narache requires twelve Bristleback Belts as physical proof that an initiate has completed the Rite of Strength, the first of the traditional Rites of the Earthmother."
+   "answer": "Chief Hawkwind in Camp Narache asks for twelve Bristleback Belts as proof that an initiate has completed the Rite of Strength, the first of the traditional Rites of the Earthmother."
   },
   {
    "q": "Where do Bristleback Belts come from?",
@@ -40,7 +40,7 @@
     "who drops bristleback belts",
     "bristleback belt location"
    ],
-   "answer": "They are taken from Bristleback quilboar and Bristleback shamans dwelling inside Brambleblade Ravine, just east of Camp Narache in the Red Cloud Mesa."
+   "answer": "Bristleback quilboar and shamans in Brambleblade Ravine, just east of Camp Narache in the Red Cloud Mesa, wear the belts."
   },
   {
    "q": "Why does Chief Hawkwind want belts instead of heads or weapons?",
@@ -48,7 +48,7 @@
     "why belts",
     "hawkwind proof"
    ],
-   "answer": "The belts serve as portable proof that the initiate has slain enemies of the tribe. The rite asks specifically for belts, without explaining why they were chosen over other trophies."
+   "answer": "The belts provide portable proof that an initiate has slain enemies of the tribe. The rite calls for belts but does not explain why they were chosen over other trophies."
   },
   {
    "q": "Why are the Bristlebacks being targeted?",
@@ -56,17 +56,17 @@
     "why kill bristlebacks",
     "quilboar threat mulgore"
    ],
-   "answer": "The Bristlebacks have encroached onto tribal land from Brambleblade Ravine, raiding Camp Narache by cover of night and ambushing tauren hunting parties across the mesa."
+   "answer": "Bristlebacks have encroached on tribal land from Brambleblade Ravine. They raid Camp Narache by night and ambush tauren hunting parties across the mesa."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "Taking the belt of a fallen Bristleback is a rite of passage for every youth on the Red Cloud Mesa, marking the first step toward recognition by the elders in Thunder Bluff."
+   "text": "As a tauren youth on the Red Cloud Mesa, taking a fallen Bristleback's belt marks your first step toward recognition by the elders in Thunder Bluff."
   },
   {
    "target": "faction:Horde",
-   "text": "Curbing the aggressive quilboar of Mulgore secures the southern borders of the Horde's heartland in central Kalimdor."
+   "text": "As a member of the Horde, curbing Mulgore's aggressive quilboar helps secure the southern borders of the Horde's heartland in central Kalimdor."
   }
  ],
  "keywords": [
@@ -92,5 +92,6 @@
  "attribution": [
   "Bristleback Belt",
   "Rite of Strength (Classic)"
- ]
+ ],
+ "style": 1
 }

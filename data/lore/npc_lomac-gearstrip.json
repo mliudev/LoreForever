@@ -8,16 +8,16 @@
   "wiki": "Lomac Gearstrip",
   "refs": 3
  },
- "summary": "Lomac Gearstrip is an ambitious gnome inventor based in Tinker Town within Ironforge. Renowned for formulating the devastating NG-5 explosive, he liaises with fellow gnomish researchers operating across Kalimdor.",
+ "summary": "In Ironforge's Tinker Town, Lomac Gearstrip pursues gnomish inventions. He formulated the NG-5 explosive and keeps in contact with fellow researchers in Kalimdor.",
  "sections": [
   {
    "title": "A Spark in Tinker Town",
-   "body": "Amid the clanging gears and hissing pipes of Ironforge's Tinker Town, Lomac Gearstrip pursues the finer points of gnomish ordnance. Like many exiled gnomes who fled the tragedy at Gnomeregan, Lomac has integrated his tinkering operations directly into the dwarven capital. His workshop focuses on volatile chemical mixtures and specialized munitions designed to overcome heavily defended enemy strongholds.",
+   "body": "Lomac Gearstrip works on gnomish ordnance in Ironforge's Tinker Town. Like many gnomes who fled Gnomeregan's tragedy, he has brought his tinkering operations to the dwarven capital. His workshop focuses on volatile chemical mixtures and specialized munitions meant to overcome heavily defended enemy strongholds.",
    "spoiler": 0
   },
   {
    "title": "The NG-5 Explosive",
-   "body": "Lomac's proudest contribution to modern combat engineering is the NG-5 explosive. Formulated for maximum destructive yield, the compound demands precise handling and rare chemical reagents. To refine and deploy such hazardous inventions in the field, Lomac maintains contact with old colleagues stationed in distant theaters, exchanging technical orders and dangerous supplies across the Great Sea.",
+   "body": "Lomac's proudest contribution to combat engineering is the NG-5 explosive. The compound is made for maximum destructive yield and requires precise handling and rare chemical reagents. To refine and use such hazardous inventions in the field, Lomac stays in contact with former colleagues stationed in distant theaters. They exchange technical orders and dangerous supplies across the Great Sea.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "where is lomac",
     "find lomac gearstrip"
    ],
-   "answer": "Lomac Gearstrip resides in Tinker Town, the gnomish quarter located in the eastern portion of the mountain city of Ironforge."
+   "answer": "Lomac works in Tinker Town, the gnomish quarter in the eastern part of Ironforge."
   },
   {
    "q": "What is Lomac Gearstrip famous for inventing?",
@@ -38,7 +38,7 @@
     "lomac invention",
     "ng-5 explosive creator"
    ],
-   "answer": "Lomac is best known as the creator of the NG-5 explosive, a potent ordnance formula designed to provide devastating firepower for gnomish endeavors."
+   "answer": "Lomac is best known for formulating the NG-5 explosive, designed to bring devastating firepower to gnomish endeavors."
   },
   {
    "q": "Why does Lomac deal with contacts in Kalimdor?",
@@ -47,7 +47,7 @@
     "why stonetalon quest",
     "lomac colleagues"
    ],
-   "answer": "Lomac keeps in touch with former research peers and colleagues working in frontier regions like Stonetalon Mountains, coordinating the procurement of hazardous chemical ingredients and testing his high-yield explosives in active operations."
+   "answer": "Lomac keeps in touch with former research peers and colleagues in frontier regions such as Stonetalon Mountains. They coordinate hazardous chemical ingredients and test his high-yield explosives in active operations."
   },
   {
    "q": "What kind of tasks does Lomac offer to adventurers?",
@@ -56,7 +56,7 @@
     "ineptitude chemicals fun",
     "an old colleague quest"
    ],
-   "answer": "Lomac tasks trustworthy Alliance couriers with transporting purchase orders and volatile chemical reagents between Ironforge and researchers stationed abroad, often involving his NG-5 explosive experiments."
+   "answer": "Lomac entrusts Alliance couriers with carrying purchase orders and volatile chemical reagents between Ironforge and researchers abroad. These deliveries often involve his NG-5 explosive experiments."
   },
   {
    "q": "What is the Purchase Order Receipt tied to Lomac?",
@@ -64,7 +64,7 @@
     "purchase order receipt",
     "lomac receipt"
    ],
-   "answer": "Lomac authored the Purchase Order Receipt, a manifest used to organize and document shipments of specialized equipment and dangerous volatile reagents between tinkerers."
+   "answer": "Lomac authored the Purchase Order Receipt, a manifest for organizing and documenting shipments of specialized equipment and dangerous volatile reagents between tinkerers."
   },
   {
    "q": "Is Lomac affiliated with Gnomeregan's refugees?",
@@ -72,21 +72,21 @@
     "is lomac from gnomeregan",
     "lomac faction"
    ],
-   "answer": "Yes. Like the rest of the residents of Tinker Town, Lomac is part of the displaced Gnomeregan community living under the hospitality of the Ironforge dwarves while continuing his engineering work."
+   "answer": "Yes. Lomac belongs to the displaced Gnomeregan community living under the hospitality of Ironforge's dwarves while continuing his engineering work."
   }
  ],
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "Lomac's NG-5 explosive represents the cutting edge of gnomish pyrotechnics, serving as inspiration for tinkerers interested in high-yield blasting compounds."
+   "text": "Lomac's NG-5 explosive reflects advanced gnomish pyrotechnics and can inspire tinkerers interested in high-yield blasting compounds."
   },
   {
    "target": "race:Gnome",
-   "text": "Lomac embodies the resilient drive of Tinker Town's gnomes, maintaining high-stakes technical research even while living in exile from Gnomeregan."
+   "text": "As a gnome, Lomac shares Tinker Town's resilient drive, pursuing demanding technical research while exiled from Gnomeregan."
   },
   {
    "target": "faction:Alliance",
-   "text": "Alliance operatives moving between Ironforge and expedition outposts in Kalimdor often handle sensitive munitions and volatile formulas on Lomac's behalf."
+   "text": "Alliance operatives traveling between Ironforge and expedition outposts in Kalimdor often handle sensitive munitions and volatile formulas for Lomac."
   }
  ],
  "keywords": [
@@ -109,5 +109,6 @@
  ],
  "attribution": [
   "Lomac Gearstrip"
- ]
+ ],
+ "style": 1
 }

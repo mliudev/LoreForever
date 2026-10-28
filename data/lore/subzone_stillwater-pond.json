@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Stillwater Pond"
  },
- "summary": "Stillwater Pond is a quiet, stagnant body of water resting just west of Brill in Tirisfal Glades. Once a beloved picnic and swimming spot for the living children of Lordaeron, it has decayed into a murky pool inhabited by skeletal fish and prowled by dangerous scavengers.",
+ "summary": "At Stillwater Pond, gray water and skeletal fish mark the loss of a place where Lordaeron's children once swam. Dangerous scavengers prowl its western shore, just west of Brill.",
  "sections": [
   {
    "title": "A Ruined Respite",
-   "body": "Before the Third War and the ravages of the Plague of Undeath, Stillwater Pond served as a tranquil retreat for the folk of Tirisfal Glades. Families from nearby hamlets gathered on its grassy banks for afternoon picnics, and children too young to brave the treacherous depths of Brightwater Lake learned to swim in its shallows. Today, the idyllic waters have turned lifeless and gray. The living have long vanished, leaving only skeletal fish darting beneath the surface and wandering undead drifting through the surrounding woods.",
+   "body": "Stillwater Pond once drew families from nearby hamlets for picnics on its grassy banks. Before the Third War and the Plague of Undeath, its shallows gave children too young to brave Brightwater Lake a place to learn to swim. The water is now lifeless and gray. The living have vanished, leaving skeletal fish beneath the surface and wandering undead in the surrounding woods.",
    "spoiler": 0
   },
   {
    "title": "Prowlers in the Mist",
-   "body": "Though quiet compared to the besieged roads and contested farms of Tirisfal, Stillwater Pond holds its own perils. The murky waters provide water only to the blighted beasts of the glades, most notably a ferocious darkhound named Bayne who stalks the shoreline. Travelers cutting through the western meadows on their way toward Brill must tread carefully, as predatory beasts and aimless zombies frequently linger along the water's edge.",
+   "body": "Stillwater Pond is quieter than Tirisfal's besieged roads and contested farms, but danger lingers along its shore. Blighted beasts drink from its murky water, including Bayne, a ferocious darkhound that stalks the banks. Travelers crossing the western meadows toward Brill must watch for predatory beasts and aimless zombies by the water's edge.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "what was stillwater pond used for",
     "tirisfal swimming spot"
    ],
-   "answer": "In the days of human Lordaeron, Stillwater Pond was a scenic and popular spot for local picnics. Because it was shallow and calmer than the expansive Brightwater Lake, families frequently brought young children here to swim safely."
+   "answer": "Before the Plague, Stillwater Pond drew local families for picnics in human Lordaeron. Its shallows were calmer than Brightwater Lake, so parents brought young children there to swim."
   },
   {
    "q": "Is there anything living in the water now?",
@@ -37,7 +37,7 @@
     "what lives in stillwater pond",
     "stillwater creatures"
    ],
-   "answer": "Normal aquatic life did not survive the blighting of Tirisfal. The only things swimming beneath the gray surface are the animated, skeletal remains of fish left behind by the Scourge's corruption."
+   "answer": "No normal aquatic life survived Tirisfal's blighting. Only animated, skeletal fish swim beneath the gray surface, left by the Scourge's corruption."
   },
   {
    "q": "What dangerous creatures wander near the pond?",
@@ -46,7 +46,7 @@
     "who is bayne",
     "darkhound near brill"
    ],
-   "answer": "Apart from mindless undead wandering the glades, the most notorious threat along the shore is Bayne, an unusually powerful and aggressive darkhound who feeds on unwary travelers."
+   "answer": "Mindless undead wander the glades, and Bayne is the shore's most notorious threat. The unusually powerful, aggressive darkhound feeds on unwary travelers."
   },
   {
    "q": "Where is Stillwater Pond located?",
@@ -55,17 +55,17 @@
     "stillwater pond location",
     "how to find stillwater pond"
    ],
-   "answer": "Stillwater Pond sits in central Tirisfal Glades, directly west of the town of Brill and southwest of the larger Brightwater Lake."
+   "answer": "Stillwater Pond lies in central Tirisfal Glades, directly west of Brill and southwest of Brightwater Lake."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "For Forsaken who retain memories of life in Lordaeron, Stillwater Pond stands as a grim reminder of lost childhood days spent picnicking and swimming along its once-clear banks."
+   "text": "As a Forsaken who remembers life in Lordaeron, Stillwater Pond may recall childhood days spent picnicking and swimming along its once-clear banks."
   },
   {
    "target": "class:Hunter",
-   "text": "The blighted wildlife around the pond, including feral darkhounds like Bayne, makes the area a hazardous hunting ground for scouts patrolling the outskirts of Brill."
+   "text": "As a hunter, you face blighted wildlife around the pond, including feral darkhounds like Bayne. The shore is hazardous hunting ground for scouts patrolling Brill's outskirts."
   }
  ],
  "keywords": [
@@ -86,5 +86,6 @@
  ],
  "attribution": [
   "Stillwater Pond"
- ]
+ ],
+ "style": 1
 }

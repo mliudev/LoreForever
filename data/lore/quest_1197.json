@@ -21,16 +21,16 @@
    "The Sacred Flame (3)"
   ]
  },
- "summary": "The Sacred Flame is the final task in Rau Cliffrunner's investigation into the Galak centaur of Thousand Needles. Armed with blessed waters, a Horde adventurer must penetrate Splithoof Hold, extinguish the tribe's revered brazier, and claim the ancient Cloven Hoof relic.",
+ "summary": "At Splithoof Hold, Rau Cliffrunner seeks to silence the Galak centaur's sacred fire. With blessed water, you enter their stronghold, quench the brazier, and take the Cloven Hoof.",
  "sections": [
   {
    "title": "Striking the Hearth",
-   "body": "North of Freewind Post lies Splithoof Crag, the heart of the Galak centaur domain in Thousand Needles. Deep within its cavernous den, Splithoof Hold, burns a fire that the centaur hold sacred. After preparing an etched phial filled with purified water, Rau Cliffrunner tasks his allies with penetrating the subterranean stronghold, using the water to momentarily quench the flame, and snatching the prize guarded within: a relic known as the Cloven Hoof.",
+   "body": "North of Freewind Post, Splithoof Crag marks the heart of Galak territory in Thousand Needles. Deep in its cavern, Splithoof Hold, a fire burns that the centaur hold sacred. Rau Cliffrunner prepares an etched phial of purified water for his allies. You enter the hold, use the water to quench the flame for a moment, and take the Cloven Hoof relic guarded within.",
    "spoiler": 0
   },
   {
    "title": "Secrets of the Hoof",
-   "body": "The Cloven Hoof is not merely an ornament of war; it radiates a strange, potent energy that catches Rau Cliffrunner's mystical senses the moment it is brought before him. Tauren scholars have long fought the marauding centaur tribes across Kalimdor, but relics such as this hint at deeper, poorly understood forces that fuel their zeal and tribal unity.",
+   "body": "When Rau Cliffrunner sees the Cloven Hoof, its strange power stirs his mystical senses. Tauren scholars have long fought the marauding centaur tribes across Kalimdor. The relic hints at deeper forces, still poorly understood, that feed the centaur's zeal and tribal unity.",
    "spoiler": 1
   }
  ],
@@ -42,7 +42,7 @@
     "where is sacred flame",
     "flame cave thousand needles"
    ],
-   "answer": "The flame burns at the deepest end of Splithoof Hold, a cavern situated inside the centaur camp at Splithoof Crag, directly north of Freewind Post in Thousand Needles."
+   "answer": "The flame burns deep inside Splithoof Hold, a cavern in the centaur camp at Splithoof Crag, north of Freewind Post in Thousand Needles."
   },
   {
    "q": "Who asks you to douse the flame?",
@@ -51,7 +51,7 @@
     "rau cliffrunner location",
     "who gives the quest"
    ],
-   "answer": "Rau Cliffrunner, an elder stationed high atop Freewind Post, commissions the mission as the culmination of his research into the Galak centaur."
+   "answer": "Rau Cliffrunner, an elder stationed high atop Freewind Post, asks you to douse the flame after investigating the Galak centaur."
   },
   {
    "q": "How do you put out the flame?",
@@ -60,7 +60,7 @@
     "dousing flame item",
     "quench sacred flame"
    ],
-   "answer": "You must use the Filled Etched Phial provided by Rau Cliffrunner, which contains water gathered earlier in the quest chain, to temporarily douse the brazier."
+   "answer": "Use the Filled Etched Phial Rau Cliffrunner provides. It holds water gathered earlier in the chain, and briefly quenches the brazier."
   },
   {
    "q": "What is the Cloven Hoof?",
@@ -69,7 +69,7 @@
     "centaur relic",
     "what did we steal"
    ],
-   "answer": "The Cloven Hoof is a venerated tribal relic kept inside the flame by the Galak centaur. Rau Cliffrunner detects an unusual magical energy emanating from it, hoping it will yield secrets about centaur culture and power."
+   "answer": "The Cloven Hoof is a revered tribal relic kept inside the flame by the Galak centaur. Rau Cliffrunner senses unusual magical energy from it and hopes to learn about centaur culture and power."
   },
   {
    "q": "Why do the tauren want this relic?",
@@ -77,7 +77,7 @@
     "why steal cloven hoof",
     "tauren centaur war"
    ],
-   "answer": "Centaur tribes have driven tauren from their ancestral hunting grounds for generations. By seizing a sacred heirloom, the tauren disrupt Galak operations while seeking to understand the arcane or spiritual nature behind their enemies' savagery."
+   "answer": "Centaur tribes have driven tauren from their ancestral hunting grounds for generations. Taking a sacred heirloom disrupts Galak operations while the tauren seek to understand the arcane or spiritual forces behind their enemies' savagery."
   },
   {
    "q": "Which centaur clan guards Splithoof Hold?",
@@ -85,17 +85,17 @@
     "thousand needles centaur tribe",
     "galak centaur"
    ],
-   "answer": "Splithoof Crag and its cavern hold are controlled by the Galak tribe, the predominant centaur clan inhabiting the Thousand Needles canyon floor."
+   "answer": "The Galak tribe controls Splithoof Crag and its cavern hold. They are the chief centaur clan on the floor of Thousand Needles canyon."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "For the tauren, striking into the heart of a centaur den and claiming their sacred icon is both retribution for generations of raids and an invaluable scholarly prize for Freewind Post."
+   "text": "As a tauren, striking into a centaur den and taking its sacred icon answers generations of raids. The relic is also a valuable prize for the scholars at Freewind Post."
   },
   {
    "target": "class:Shaman",
-   "text": "Shaman who handle the Cloven Hoof will easily detect the strange energies radiating from the talisman, proving the centaur draw on mystical forces far beyond simple brute savagery."
+   "text": "As a shaman, you can sense the strange energies radiating from the Cloven Hoof. They show that the centaur draw on mystical forces beyond brute savagery."
   }
  ],
  "keywords": [
@@ -119,5 +119,6 @@
  ],
  "attribution": [
   "The Sacred Flame (3)"
- ]
+ ],
+ "style": 1
 }

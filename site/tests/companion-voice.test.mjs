@@ -91,6 +91,9 @@ async function companionPlayer(sub, plan) {
              ...(res.headers.has("X-LF-Text") ? { text: decodeURIComponent(res.headers.get("X-LF-Text")) } : {}),
              body: type.startsWith("audio/") ? Buffer.from(await res.arrayBuffer()) : res.status === 204 ? null : await res.json() };
   };
+  // The response itself, for one read as it comes.
+  const call = body => speakApi({ env, request: new Request(ORIGIN + "/api/companion/speak", { method: "POST", headers,
+    body: JSON.stringify({ voice: "willo", ...body }) }) });
   const voice = async () => (await allowance(env, user.id)).voice;
   // `n` replies already said this plan month by the finest voice.
   const saidBest = async n => {
@@ -107,7 +110,7 @@ async function companionPlayer(sub, plan) {
   const tasted = (used = TASTE_ANSWERS, voices = 0, daysAgo = null) => env.DB.sqlite.prepare("INSERT OR REPLACE INTO best_first " +
     "(claim, user_id, used, voices, started) VALUES (?, ?, ?, ?, ?)").run(`taste:test-${user.id}`, user.id, used, voices,
     daysAgo === null ? null : new Date(NOW - daysAgo * 86400e3).toISOString());
-  return { user, speak, voice, saidBest, spent, tasted };
+  return { user, speak, call, voice, saidBest, spent, tasted };
 }
 
 // Every plan hears her whole answer since 10/21 (PLAN_VOICE whole, replies to WHOLE_MAX_CHARS); a test of the
@@ -134,6 +137,30 @@ function freeStarter(t) {
   PLAN_VOICE.free = { voice: "chatterbox", choice: false, starter: true };
   t.after(() => { PLAN_VOICE.free = real; });
 }
+
+test("her first sound goes back as soon as her finest voice sends it, not once the whole piece is made (LOR-856 E4)", async () => {
+  const hero = await companionPlayer("e4-hero", "hero");
+  let release;
+  const rest = new Promise(r => { release = r; });
+  const half = MP3.length >> 1;
+  const line = part => new TextEncoder().encode(JSON.stringify({ result: { audioContent: part.toString("base64") } }) + "\n");
+  globalThis.fetch = async () => new Response(new ReadableStream({ async start(c) {
+    c.enqueue(line(MP3.subarray(0, half)));
+    await rest;                                  // the rest of the piece isn't made until the first sound is back
+    c.enqueue(line(MP3.subarray(half)));
+    c.close();
+  } }));
+  const res = await Promise.race([hero.call({ text: "Edwin VanCleef leads the Defias.", reply: "reply-stream", piece: 0 }),
+    new Promise((_, no) => setTimeout(() => no(new Error("no audio until the whole piece was made")), 2000))]);
+  assert.equal(res.status, 200);
+  const reader = res.body.getReader();
+  const first = await reader.read();
+  assert.deepEqual(Buffer.from(first.value), MP3.subarray(0, half));
+  release();
+  const chunks = [first.value];
+  for (let r = await reader.read(); !r.done; r = await reader.read()) chunks.push(r.value);
+  assert.deepEqual(Buffer.concat(chunks), MP3);
+});
 
 test("who says each plan's answers: Free's studio voice, Hero's finest, Champion's finest by choice, Legend's richer", async () => {
   const free = await companionPlayer("free"), hero = await companionPlayer("hero", "hero");

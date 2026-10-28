@@ -10,16 +10,16 @@
    "quest:80"
   ]
  },
- "summary": "A torn, bloodstained parchment examined during the investigation into Stalvan Mistmantle. A few words remain legible through the thick blood, and Commander Althea Ebonlocke asks that its handwriting be checked.",
+ "summary": "Commander Althea Ebonlocke has a torn, bloodstained journal page examined during the investigation into Stalvan Mistmantle. A few words remain legible, and she asks Clerk Daltry to compare the handwriting with the Town Registry.",
  "sections": [
   {
    "title": "A Grim Piece of Evidence",
-   "body": "Commander Althea Ebonlocke keeps a vigilant watch over Darkshire and asks for the handwriting on this torn, blood-spattered page to be examined. Despite the thick blood, a few words remain legible enough for Clerk Daltry to compare with the Town Registry.",
+   "body": "Commander Althea Ebonlocke watches over Darkshire and asks that the handwriting on a torn, bloodstained page be examined. Though thick blood covers it, a few words remain legible for Clerk Daltry to compare with the Town Registry.",
    "spoiler": 0
   },
   {
    "title": "Handwriting and Guilt",
-   "body": "To remove any shred of doubt before enacting justice, Commander Ebonlocke relies on Clerk Daltry, keeper of Darkshire's Town Hall registry. Years spent archiving municipal signatures made Daltry an authority on local penmanship. Upon examining the bloodstained leaf against municipal records, Daltry definitively authenticates the hand as Stalvan's, sealing the tutor's guilt.",
+   "body": "Clerk Daltry keeps the registry in Darkshire's Town Hall and knows local handwriting from years of archiving signatures. He compares the page with municipal records and confirms that Stalvan wrote it, leaving no doubt of the tutor's guilt.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "stalvan journal page",
     "blood page"
    ],
-   "answer": "It is a torn, bloodstained leaf associated with the investigation into Stalvan Mistmantle. Commander Althea Ebonlocke asks Clerk Daltry to examine its handwriting."
+   "answer": "It is a torn, bloodstained page examined during the investigation into Stalvan Mistmantle. Commander Althea Ebonlocke asks Clerk Daltry to check its handwriting."
   },
   {
    "q": "Who can confirm who wrote this page?",
@@ -40,7 +40,7 @@
     "clerk daltry journal",
     "who identifies handwriting"
    ],
-   "answer": "Clerk Daltry in Darkshire's Town Hall. As the keeper of the town registry, he compares the script on the page against old signatures on file to verify Stalvan's handwriting."
+   "answer": "Clerk Daltry in Darkshire's Town Hall can confirm who wrote the page. He keeps the town registry and compares its script with old signatures to verify Stalvan's handwriting."
   },
   {
    "q": "Why does Althea Ebonlocke need this page examined?",
@@ -48,7 +48,7 @@
     "why althea needs page",
     "why check handwriting"
    ],
-   "answer": "Commander Althea has watched Stalvan for some time and wants Clerk Daltry to compare the page with the Town Registry. She needs to establish whether both were written by the same hand."
+   "answer": "Commander Althea Ebonlocke has watched Stalvan for some time and wants Clerk Daltry to compare the page with the Town Registry. She needs to learn whether both were written by the same hand."
   },
   {
    "q": "Where does this page lead in the investigation?",
@@ -56,13 +56,13 @@
     "what happens after page",
     "stalvan chain next"
    ],
-   "answer": "The page is taken to Clerk Daltry in Darkshire so he can compare its handwriting with the registry. The investigation continues with Commander Ebonlocke after his examination."
+   "answer": "The page goes to Clerk Daltry in Darkshire, where he compares its handwriting with the registry. After his examination, the investigation continues with Commander Ebonlocke."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "For protectors of the realm, this grim document is evidence examined by Darkshire's Night Watch during the investigation."
+   "text": "For protectors of the realm, Darkshire's Night Watch examines this grim document as evidence in the investigation."
   }
  ],
  "keywords": [
@@ -85,5 +85,6 @@
  "attribution": [
   "A Bloodstained Journal Page",
   "The Legend of Stalvan (11)"
- ]
+ ],
+ "style": 1
 }

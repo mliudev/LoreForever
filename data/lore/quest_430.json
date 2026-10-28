@@ -22,16 +22,16 @@
    "Ivar the Foul (quest)"
   ]
  },
- "summary": "Return to Quinn is a Horde quest in Silverpine Forest where an adventurer delivers a restorative draught concocted by Apothecary Renferrel to the wounded Deathstalker Quinn Yorick. Trapped and weakened at the Ivar Patch north of the Sepulcher, Quinn requires the draught before he can contemplate returning to duty.",
+ "summary": "At the Ivar Patch, Quinn Yorick waits for a draught that may let him travel again. Apothecary Renferrel sends you from the Sepulcher with the mixture, while Quinn remains wounded in dangerous country.",
  "sections": [
   {
    "title": "A Bitter Draught",
-   "body": "Following the harvesting of wild beast hearts for the Royal Apothecary Society, Apothecary Renferrel at the Sepulcher brews a restorative potion formulated to aid Quinn Yorick. Renferrel has little time for sentimentality or bedside manners, quickly handing off the mixture to return to his own clandestine alchemical research, leaving the adventurer to run the courier run back into the wilderness.",
+   "body": "After you gather wild beast hearts for the Royal Apothecary Society, Apothecary Renferrel brews a restorative draught for Quinn Yorick at the Sepulcher. He hands it over without ceremony and returns to his secret alchemical research. You carry the mixture back into the wilderness.",
    "spoiler": 0
   },
   {
    "title": "Respite at the Ivar Patch",
-   "body": "Quinn Yorick hides beside his sister, Deathstalker Rane Yorick, amid the ruined farmstead known as the Ivar Patch. Severely hurt by the ghoul Ivar the Foul and unable to march through hostile territory, Quinn drinks the draught immediately upon arrival. While the concoction restores his strength enough to eventually travel, the surrounding territory remains fraught with danger, particularly under the watchful malice of the ghoul lurking nearby.",
+   "body": "At the ruined Ivar Patch, Quinn Yorick hides beside his sister, Deathstalker Rane Yorick. The ghoul Ivar the Foul wounded him so badly he cannot cross hostile ground. Quinn drinks the draught as soon as you arrive. It restores enough strength for him to travel in time, though danger still surrounds the farmstead, with Ivar lurking nearby.",
    "spoiler": 0
   }
  ],
@@ -43,7 +43,7 @@
     "quinn yorick location",
     "ivar patch location"
    ],
-   "answer": "Quinn Yorick is sheltered at the Ivar Patch, an abandoned farmstead in northern Silverpine Forest, well north of the Sepulcher."
+   "answer": "Quinn Yorick is sheltering at the abandoned Ivar Patch in northern Silverpine Forest, well north of the Sepulcher."
   },
   {
    "q": "Who made the potion for Quinn?",
@@ -51,7 +51,7 @@
     "who brewed the potion",
     "apothecary renferrel potion"
    ],
-   "answer": "Apothecary Renferrel, an alchemist of the Royal Apothecary Society stationed in the crypts of the Sepulcher, brewed the potion using wild beast hearts collected from the forest."
+   "answer": "Apothecary Renferrel brewed Quinn's potion at the Sepulcher for the Royal Apothecary Society, using wild beast hearts gathered in the forest."
   },
   {
    "q": "Why was Quinn unable to move on his own?",
@@ -59,7 +59,7 @@
     "why is quinn stuck",
     "quinn yorick injured"
    ],
-   "answer": "Quinn was ambushed and badly mauled by the ghoul Ivar the Foul while scouting the area with his sister, leaving him incapacitated and dependent on his sister Rane and medicinal aid to recover."
+   "answer": "Quinn was badly mauled by the ghoul Ivar the Foul while scouting with his sister, leaving him unable to move without Rane's help and medicine."
   },
   {
    "q": "What happens after giving Quinn the potion?",
@@ -67,7 +67,7 @@
     "what next after return to quinn",
     "next quest after quinn"
    ],
-   "answer": "Drinking the concoction restores Quinn's strength, paving the way to strike back against Ivar the Foul, the dangerous ghoul threatening their position."
+   "answer": "The draught restores Quinn's strength enough for him to travel, and he can prepare to strike back at Ivar the Foul, who threatens their position."
   },
   {
    "q": "Who is Quinn's sister?",
@@ -75,7 +75,7 @@
     "quinn yorick sister",
     "quinn sister"
    ],
-   "answer": "Quinn's sister is Deathstalker Rane Yorick, who stayed by his side at the Ivar Patch to protect him and coordinate their survival."
+   "answer": "Quinn's sister is Deathstalker Rane Yorick. She stayed beside him at the Ivar Patch to protect him and help them survive."
   },
   {
    "q": "Does Apothecary Renferrel care about Quinn's fate?",
@@ -83,21 +83,21 @@
     "does renferrel care",
     "renferrel attitude"
    ],
-   "answer": "Renferrel shows minimal personal concern, viewing the concoction purely as an errand before dismissing the adventurer so he can resume his own secretive research for the Royal Apothecary Society."
+   "answer": "Renferrel shows little personal concern for Quinn. He gives you the draught, then returns to his secret research for the Royal Apothecary Society."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "The mission illustrates the practical utility of the Royal Apothecary Society, providing vital restorative mixtures to keep the Dark Lady's scouts operational in hostile terrain."
+   "text": "As an Undead, you see how the Royal Apothecary Society's restorative mixtures help the Dark Lady's scouts keep working in hostile terrain."
   },
   {
    "target": "faction:Horde",
-   "text": "Securing scouts stranded behind enemy lines is crucial for cementing the Horde's foothold across Silverpine Forest against feral worgen packs."
+   "text": "As a member of the Horde, you know stranded scouts need help to secure the Horde's foothold in Silverpine Forest against feral worgen packs."
   },
   {
    "target": "class:Rogue",
-   "text": "Assisting fellow operatives of the Deathstalkers highlights the perilous reality of reconnaissance work when caught unawares by pack predators."
+   "text": "As a Rogue, you know how dangerous reconnaissance can be when pack predators catch operatives of the Deathstalkers off guard."
   }
  ],
  "keywords": [
@@ -122,5 +122,6 @@
  ],
  "attribution": [
   "Return to Quinn"
- ]
+ ],
+ "style": 1
 }

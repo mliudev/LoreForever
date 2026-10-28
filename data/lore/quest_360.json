@@ -20,16 +20,16 @@
    "Return to the Magistrate (Classic)"
   ]
  },
- "summary": "Return to the Magistrate concludes an urgent reconnaissance dispatch between the eastern border of Tirisfal Glades and the town of Brill. Having reported to Deathguard Linnea at her waystation east of Brill, adventurers are sent back to deliver troubling news directly to Magistrate Sevren. The message confirms that the mindless minions of the Lich King continue to test the borders of the young Forsaken nation.",
+ "summary": "At Brill, Magistrate Sevren receives a warning from the eastern frontier. Deathguard Linnea sends word that the Lich King's mindless servants still test the Forsaken borders.",
  "sections": [
   {
    "title": "Frontier Reports",
-   "body": "The eastern road out of Tirisfal Glades leads directly into the blighted ruins of the Western Plaguelands, where the Scourge holds devastating sway. To keep the undead hordes from spilling over into their newly claimed homeland, the Forsaken established the Bulwark\u2014a fortified checkpoint watched from a waystation behind the line by grim sentries like Deathguard Linnea. After gathering reports of what presses against the eastern gate, Linnea sends messengers racing back west along the King's Road toward Brill before enemy infiltrators can capitalize on any gaps.",
+   "body": "East of Tirisfal Glades, the road reaches the blighted ruins of the Western Plaguelands, where the Scourge holds sway. The Forsaken built the Bulwark to keep the undead from entering their homeland. Deathguard Linnea watches from a waystation behind the line, gathering reports from the eastern gate. She sends messengers west along the King's Road to Brill before enemy infiltrators can exploit gaps in the defenses.",
    "spoiler": 0
   },
   {
    "title": "Sevren's Vow",
-   "body": "When Magistrate Sevren receives the dispatch in Brill, it confirms his worst fears: Scourge scouts are finding pathways around or through the frontline perimeter. For the Forsaken, every creeping ghoul and mindless skeleton is not merely a military nuisance, but a reminder of the enslavement they broke free from during the fall of Lordaeron. Sevren remains adamant that no matter how ceaseless the Lich King's onslaught becomes, the free undead will never surrender their newfound autonomy.",
+   "body": "In Brill, Magistrate Sevren hears that Scourge scouts are finding paths around or through the frontline. Each creeping ghoul and mindless skeleton recalls the Forsaken's enslavement, broken when Lordaeron fell. Sevren vows that no matter how ceaseless the Lich King's assault, the free undead will not surrender their new autonomy.",
    "spoiler": 0
   }
  ],
@@ -41,7 +41,7 @@
     "who sent this report",
     "where is linnea"
    ],
-   "answer": "The report comes from Deathguard Linnea, stationed at a Deathguard waystation east of Brill, on the road toward the Bulwark. She gathers reports from the barricades separating Tirisfal from the Scourge-choked Western Plaguelands."
+   "answer": "Deathguard Linnea sends the report from her waystation east of Brill, on the road to the Bulwark. She gathers word from the barricades between Tirisfal and the Scourge-held Western Plaguelands."
   },
   {
    "q": "Why is Magistrate Sevren concerned about this news?",
@@ -50,7 +50,7 @@
     "what does the report say",
     "scourge threat"
    ],
-   "answer": "The dispatch informs Sevren that Scourge forces have managed to slip past the Bulwark's fortifications. For the Forsaken in Brill, enemy incursions threaten their fledgling towns and serve as a constant reminder of the Lich King's efforts to reclaim them."
+   "answer": "The dispatch warns Sevren that Scourge forces have slipped past the Bulwark's fortifications. Their incursions threaten the Forsaken's young towns and recall the Lich King's effort to reclaim them."
   },
   {
    "q": "Who is Magistrate Sevren?",
@@ -58,7 +58,7 @@
     "sevren lore",
     "who is the magistrate"
    ],
-   "answer": "Magistrate Sevren is the civil administrator of Brill. Operating out of the town hall, he oversees local defenses, infrastructure, and the mobilization of newly raised Forsaken citizens across central Tirisfal Glades."
+   "answer": "Magistrate Sevren administers Brill from its town hall. He oversees local defenses, infrastructure, and the mustering of newly raised Forsaken across central Tirisfal Glades."
   },
   {
    "q": "What is the Bulwark?",
@@ -66,7 +66,7 @@
     "bulwark lore",
     "eastern border tirisfal"
    ],
-   "answer": "The Bulwark is a fortified outpost constructed along the main thoroughfare between Tirisfal Glades and the Western Plaguelands. It serves as the primary barrier preventing Scourge incursions into Forsaken lands."
+   "answer": "The Bulwark is a fortified outpost on the main road between Tirisfal Glades and the Western Plaguelands. It bars Scourge incursions into Forsaken lands."
   },
   {
    "q": "Why do the Forsaken hate the Scourge so much?",
@@ -74,7 +74,7 @@
     "forsaken vs scourge",
     "why hate lich king"
    ],
-   "answer": "The Forsaken were once mindless thralls of the Scourge, slaughtered in life and raised in undeath to butcher their own kin. Having regained their free will, they despise the Lich King and fear losing their minds to his control once again."
+   "answer": "The Forsaken were once the Scourge's mindless thralls, slain in life and raised to butcher their own kin. Now free-willed, they hate the Lich King and fear falling under his control again."
   },
   {
    "q": "What path does this message travel?",
@@ -82,17 +82,17 @@
     "route from bulwark to brill",
     "road to brill"
    ],
-   "answer": "Messengers travel west along the main road from Deathguard Linnea's waystation, heading through central Tirisfal Glades until reaching the town center of Brill."
+   "answer": "Messengers carry the message west from Deathguard Linnea's waystation along the main road, through central Tirisfal Glades, to Brill's town center."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "Carrying intelligence from the Bulwark brings home the precarious reality of Forsaken freedom: the master you escaped still clawing at the doorstep of your new home."
+   "text": "As an Undead, you know how fragile Forsaken freedom remains: the master you escaped still presses against your new home."
   },
   {
    "target": "faction:Horde",
-   "text": "The Horde's foothold in the Eastern Kingdoms relies on the stability of Tirisfal Glades, making the Bulwark's defenses critical against the undead horrors of the Plaguelands."
+   "text": "As a member of the Horde, you know Tirisfal Glades anchors your foothold in the Eastern Kingdoms. The Bulwark guards it from the horrors of the Plaguelands."
   }
  ],
  "keywords": [
@@ -116,5 +116,6 @@
  ],
  "attribution": [
   "Return to the Magistrate (Classic)"
- ]
+ ],
+ "style": 1
 }

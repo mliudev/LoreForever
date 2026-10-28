@@ -20,16 +20,16 @@
    "In Search of The Excavation Team (2)"
   ]
  },
- "summary": "In Search of the Excavation Team begins with Tarrel Rockweaver in the Wetlands, who is distraught over a sudden silence from his wife, Merrin. Assigned to the prestigious Whelgar Excavation Site to the east, she has missed two weeks of regular letters, prompting fears that disaster has struck the expedition. Travelers are tasked with venturing into the marsh to locate the dig site and ascertain her safety.",
+ "summary": "Tarrel Rockweaver waits in the Wetlands for word from Merrin at the Whelgar Excavation Site. His wife has missed two weeks of letters, and he fears disaster at the eastern dig.",
  "sections": [
   {
    "title": "A Husband's Dread",
-   "body": "While stationed in the soggy expanse of the Wetlands, Tarrel Rockweaver anticipated steady correspondence from his wife Merrin. Operating out of the dwarven dig known as the Whelgar Excavation Site, Merrin had maintained weekly dispatches describing their work. When two full weeks passed without a single word, Tarrel grew convinced that calamity had overtaken the camp. With official dwarf authorities stretched thin, he relies on passing scouts to brave the perils of the marshes to see if the diggers still draw breath.",
+   "body": "Tarrel Rockweaver has heard nothing from his wife, Merrin, for two weeks. From her post at the Whelgar Excavation Site, she used to send him weekly letters about the work. Now Tarrel fears calamity has struck the camp. With dwarf authorities stretched thin, he turns to passing scouts to learn whether the diggers are still alive.",
    "spoiler": 0
   },
   {
    "title": "The Whelgar Dig",
-   "body": "The Whelgar Excavation Site represents a typical dwarven endeavor to unearth ancient Titan relics and Titan-forged history buried in the muck of the Wetlands. However, digging into prehistoric strata in wild territory frequently exposes crews to untamed beasts and hostile subterranean threats. Reaching the site requires heading eastward into territory far removed from the relative safety of the main roads, where whatever disrupted the diggers' letters still lingers.",
+   "body": "The Whelgar Excavation Site lies east in the Wetlands, where dwarves dig for ancient Titan relics and history. Crews working in the wild can face beasts and threats from below. The site is far from the main roads, and whatever stopped the letters has left the diggers beyond easy reach.",
    "spoiler": 0
   }
  ],
@@ -41,7 +41,7 @@
     "quest giver",
     "who gives in search of the excavation team"
    ],
-   "answer": "Tarrel Rockweaver is a concerned dwarf stationed in the Wetlands. Terrified by an abrupt break in letters from his wife Merrin, who is working at the eastern excavation site, he mistakes passing adventurers for official scouts sent to investigate the camp's silence."
+   "answer": "Tarrel Rockweaver is a dwarf in the Wetlands, worried because his wife Merrin has stopped writing from the eastern excavation site. He takes passing adventurers for scouts sent to investigate the silence."
   },
   {
    "q": "Who is Merrin Rockweaver?",
@@ -50,7 +50,7 @@
     "tarrel wife",
     "who is merrin"
    ],
-   "answer": "Merrin Rockweaver is a dwarf archaeologist working with the Whelgar Excavation team east of Menethil Harbor in the Wetlands. She regularly wrote to her husband until an unexpected turn of events abruptly severed her communications."
+   "answer": "Merrin Rockweaver is a dwarf archaeologist working with the Whelgar Excavation team east of Menethil Harbor in the Wetlands. She wrote regularly to her husband until something stopped her letters."
   },
   {
    "q": "Where is the Whelgar Excavation Site?",
@@ -59,7 +59,7 @@
     "where to find merrin",
     "where is whelgar excavation"
    ],
-   "answer": "The Whelgar Excavation Site lies east of Menethil Harbor and southwest of Dun Modr in the Wetlands, nestled in the rocky ridges far off the main roadway."
+   "answer": "The Whelgar Excavation Site lies east of Menethil Harbor and southwest of Dun Modr in the Wetlands, among rocky ridges far from the main road."
   },
   {
    "q": "Why did Merrin stop sending letters?",
@@ -68,7 +68,7 @@
     "what happened to excavation team",
     "why no mail"
    ],
-   "answer": "The sudden silence from the excavation site was prompted by an emerging threat at the dig that cut the dwarven researchers off from normal courier routes and routine camp life."
+   "answer": "Merrin stopped sending letters because a threat at the dig cut the researchers off from normal courier routes and camp life."
   },
   {
    "q": "Who is the 'Longbraid' mentioned by Tarrel?",
@@ -76,7 +76,7 @@
     "who is longbraid",
     "longbraid scout"
    ],
-   "answer": "Longbraid is a dwarven authority figure who promised to deploy scouts to check on the Whelgar Excavation team if communications broke down, leading Tarrel to assume any capable adventurer arriving to help was sent on Longbraid's orders."
+   "answer": "Longbraid is a dwarven authority who promised to send scouts to check on the Whelgar Excavation team if contact failed. Tarrel assumes any capable adventurer who arrives to help was sent by Longbraid."
   },
   {
    "q": "Is the excavation site safe to approach?",
@@ -84,17 +84,17 @@
     "is the dig safe",
     "whelgar dangerous"
    ],
-   "answer": "No. The site is located in the dangerous wilderness of the Wetlands, and whatever disrupted the team's weekly dispatches poses an active danger to anyone arriving at the dig."
+   "answer": "No. The Whelgar Excavation Site lies in dangerous Wetlands wilderness, and whatever stopped the team's weekly letters threatens anyone who reaches the dig."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "The Explorers' League takes great pride in unearthing ancient history, making the distress of kin at the Whelgar Excavation an urgent matter for any wandering dwarf."
+   "text": "As a dwarf, you know the Explorers' League takes pride in uncovering ancient history. The distress of your kin at the Whelgar Excavation calls for your attention."
   },
   {
    "target": "faction:Alliance",
-   "text": "Maintaining dwarven footholds and research expeditions across the marshlands is vital to securing the Wetlands against encroaching wilderness perils."
+   "text": "As an Alliance member, you know dwarven outposts and research across the marshlands help guard the Wetlands from the dangers of the wild."
   }
  ],
  "keywords": [
@@ -113,5 +113,6 @@
  ],
  "attribution": [
   "In Search of The Excavation Team"
- ]
+ ],
+ "style": 1
 }

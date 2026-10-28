@@ -10,16 +10,16 @@
    "quest:143"
   ]
  },
- "summary": "Solomon's Plea to Westfall is an urgent written appeal penned by Magistrate Solomon of Lakeshire. Desperate for reinforcements against the Blackrock orcs and gnolls, Solomon sends this dispatch to Gryan Stoutmantle in Westfall hoping the newly formed People's Militia can lend aid while Stormwind's royal army fails to respond.",
+ "summary": "In Lakeshire, Magistrate Solomon sends an urgent appeal to Westfall for help against Blackrock orcs and gnolls. He asks Gryan Stoutmantle to send the People's Militia while Stormwind's royal army fails to answer.",
  "sections": [
   {
    "title": "A Desperate Call for Aid",
-   "body": "As the threat of the Blackrock clan and hostile gnolls looms large over Redridge, Magistrate Solomon finds himself dangerously isolated in Lakeshire. The royal army from Stormwind has inexplicably failed to arrive in force to defend the region's borders. Unable to wait for official support from the kingdom's capital, Solomon pens this plea in a desperate bid to recruit assistance from outside the regular military structure. Having caught word of a volunteer defense force coalescing across Elwynn to the west, he turns directly to the People's Militia.",
+   "body": "Blackrock orcs and hostile gnolls threaten Redridge, and Magistrate Solomon is isolated in Lakeshire. Stormwind's royal army has not arrived in force to defend the region's borders. With no time to wait for support from the capital, Solomon writes to seek help beyond the regular army. Word has reached him of a volunteer defense force forming in Elwynn to the west, so he appeals to the People's Militia.",
    "spoiler": 0
   },
   {
    "title": "Reaching Across the Border",
-   "body": "The message is addressed directly to Gryan Stoutmantle, a veteran warrior organizing the frontier defense of Westfall. Solomon hopes Stoutmantle can spare fighters to reinforce Lakeshire until Stormwind's crown finally sends regular reserves. Entrusted to an adventurer acting as courier, the document reflects the fracturing administrative coordination across Stormwind's outlying territories, where local magistrates are left to negotiate mutual aid agreements on their own initiative.",
+   "body": "Solomon addresses his message to Gryan Stoutmantle, a veteran warrior organizing Westfall's frontier defense. He hopes Stoutmantle can spare fighters for Lakeshire until Stormwind sends regular reserves. An adventurer carries the document. With Stormwind's outlying territories poorly coordinated, local magistrates must arrange mutual aid on their own.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "solomon plea to westfall letter",
     "lakeshire westfall letter"
    ],
-   "answer": "It is an official written petition written by Magistrate Solomon of Lakeshire, asking Gryan Stoutmantle and the People's Militia in Westfall to send military reinforcements to help defend Redridge."
+   "answer": "Magistrate Solomon of Lakeshire writes to Gryan Stoutmantle, asking the People's Militia in Westfall to send reinforcements for Redridge's defense."
   },
   {
    "q": "Why is Magistrate Solomon asking Westfall for help instead of Stormwind?",
@@ -40,7 +40,7 @@
     "why not ask stormwind",
     "why send plea to westfall"
    ],
-   "answer": "Solomon notes that something strange is happening with the Stormwind Army, as royal troops have failed to arrive in force despite Lakeshire's worsening peril. Lacking the time to wait on the Crown, Solomon turns to any nearby fighting force willing to help."
+   "answer": "Stormwind's royal troops have not arrived in force as Lakeshire's danger grows. With no time to wait for the Crown, Solomon seeks help from a nearby fighting force."
   },
   {
    "q": "Who is Gryan Stoutmantle?",
@@ -48,7 +48,7 @@
     "who is stoutmantle",
     "gryan stoutmantle role"
    ],
-   "answer": "Gryan Stoutmantle is the leader of the People's Militia, a grass-roots defensive league organized by local farmers and settlers to protect Westfall from the Defias Brotherhood."
+   "answer": "Gryan Stoutmantle leads the People's Militia, a volunteer defense league of local farmers and settlers protecting Westfall from the Defias Brotherhood."
   },
   {
    "q": "What threats are pushing Solomon to send this letter?",
@@ -56,17 +56,17 @@
     "why is lakeshire in danger",
     "what threatens redridge"
    ],
-   "answer": "Lakeshire is facing aggressive incursions from the Blackrock orcs, alongside raiding gnolls throughout the Redridge Mountains, stretching the local town guard beyond its limits."
+   "answer": "Blackrock orcs are invading, and gnolls raid throughout the Redridge Mountains, straining Lakeshire's town guard."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "The document highlights the mounting administrative paralysis inside the Alliance heartland, where outlying towns must rely on local volunteers rather than royal troops."
+   "text": "For the Alliance, Solomon's appeal shows how outlying towns turn to local volunteers when royal troops do not arrive."
   },
   {
    "target": "race:Human",
-   "text": "For humans across the southern provinces, this appeal reveals how strained rural settlements have become as the missing king and political neglect leave frontier lands vulnerable."
+   "text": "As a human, you can see how strained rural settlements have become, with the missing king and political neglect leaving frontier lands vulnerable."
   }
  ],
  "keywords": [
@@ -92,5 +92,6 @@
  "attribution": [
   "Solomon's Plea to Westfall",
   "Messenger to Westfall"
- ]
+ ],
+ "style": 1
 }

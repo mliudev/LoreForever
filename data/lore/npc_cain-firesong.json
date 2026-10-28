@@ -8,16 +8,16 @@
   "wiki": "Cain Firesong",
   "refs": 1
  },
- "summary": "Cain Firesong is a Forsaken mage trainer located in the settlement of Brill within Tirisfal Glades. He assists fledgling practitioners of the arcane as they grow in power, guiding them before directing them onward to deeper studies in the Undercity. He can be found on the upstairs landing of the Gallows' End Tavern.",
+ "summary": "At the Gallows' End Tavern in Brill, Cain Firesong guides Forsaken mages in the arcane. He trains them in Tirisfal Glades before sending advanced students to the Undercity for deeper study.",
  "sections": [
   {
    "title": "A Practitioner in Brill",
-   "body": "While many Forsaken spellcasters delve into shadow or necromancy, Cain Firesong maintains mastery over traditional arcane disciplines. Stationed in Brill, he serves as an early mentor to Forsaken mages venturing forth from Deathknell. The local Deathguards direct visitors to the upstairs landing of the Gallows' End Tavern, joking that he arrived too late to get a room.",
+   "body": "Cain Firesong teaches traditional arcane arts in Brill, where Forsaken mages begin their studies. Many Forsaken spellcasters turn to shadow or necromancy, but Cain keeps to the arcane. He mentors mages who set out from Deathknell. The Deathguards point visitors to the upstairs landing of the Gallows' End Tavern, where Cain can be found. They joke that he arrived too late to get a room.",
    "spoiler": 0
   },
   {
    "title": "Guiding New Talent",
-   "body": "As novice mages under his tutelage advance beyond their preliminary studies in Tirisfal Glades, Cain ensures they do not stagnate. He directs his most capable students to seek out Anastasia Hartwell, a master sorceress residing in the Magic Quarter of the Undercity.",
+   "body": "Cain sends capable students onward when they outgrow their first studies in Tirisfal Glades. He directs them to Anastasia Hartwell, a master sorceress who lives in the Magic Quarter of the Undercity.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "cain firesong lore",
     "cain firesong brill"
    ],
-   "answer": "Cain Firesong is a Forsaken mage trainer stationed in Brill in Tirisfal Glades. He teaches arcane spells to fledgling Horde spellcasters and directs advanced students toward the Undercity."
+   "answer": "Cain Firesong trains Forsaken mages in Brill, in Tirisfal Glades. He teaches them arcane spells and directs advanced students to continue their studies in the Undercity."
   },
   {
    "q": "Where does Cain Firesong stay in Brill?",
@@ -38,7 +38,7 @@
     "cain firesong location",
     "cain tavern room"
    ],
-   "answer": "Cain stands on the upstairs landing of the Gallows' End Tavern in Brill. Local Deathguards joke that he checked in too late to get a room."
+   "answer": "Cain Firesong can be found on the upstairs landing of the Gallows' End Tavern in Brill. The local Deathguards joke that he arrived too late to get a room."
   },
   {
    "q": "Where does Cain send mages after their initial training?",
@@ -47,17 +47,17 @@
     "who does cain send mages to",
     "speak with anastasia"
    ],
-   "answer": "Once a mage has advanced sufficiently under his guidance, Cain directs them to travel down into the Undercity's Magic Quarter to continue their instruction under Anastasia Hartwell."
+   "answer": "Cain sends mages who advance under his guidance to the Undercity's Magic Quarter, where Anastasia Hartwell continues their instruction."
   }
  ],
  "angles": [
   {
    "target": "class:Mage",
-   "text": "For young Forsaken mages stepping out from Deathknell, Cain Firesong is your primary mentor in Tirisfal Glades before you are summoned to the Undercity."
+   "text": "As a Forsaken mage setting out from Deathknell, you can learn the arcane from Cain Firesong in Tirisfal Glades before continuing your studies in the Undercity."
   },
   {
    "target": "race:Undead",
-   "text": "Cain proves that even in undeath, the arcane traditions of former human magi remain a potent weapon for the Forsaken."
+   "text": "As an Undead, you can wield the arcane traditions of former human magi as a weapon for the Forsaken."
   }
  ],
  "keywords": [
@@ -79,5 +79,6 @@
  ],
  "attribution": [
   "Cain Firesong"
- ]
+ ],
+ "style": 1
 }

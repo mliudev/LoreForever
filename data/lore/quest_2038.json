@@ -20,21 +20,21 @@
    "Bingles' Missing Supplies"
   ]
  },
- "summary": "After crash-landing his gyrocopter into the waters of the Loch, the eccentric gnome engineer Bingles Blastenheimer was ambushed by local troggs who made off with his essential gear. Stranded on the lake's southeastern shore, he needs his stolen wrench, screwdriver, hammer, and customized Blastencapper explosives recovered so he can repair his craft and rejoin the fight for Gnomeregan.",
+ "summary": "Bingles Blastenheimer is stranded on Loch Modan's southeastern shore after troggs steal his gear. He needs his tools and Blastencapper explosives to repair his gyrocopter and return to the fight for Gnomeregan.",
  "sections": [
   {
    "title": "A Damp Descent",
-   "body": "Bingles Blastenheimer was piloting his gyrocopter over Loch Modan when an unexpected crash sent him plummeting directly into the cold waters of the Loch. Surviving the impact was fortunate enough, but dragging himself ashore proved to be only half the ordeal. The troggs infesting the lake's central islands took immediate advantage of his predicament, swarming the dazed pilot and looting his most valuable belongings.",
+   "body": "Bingles Blastenheimer crashes his gyrocopter into Loch Modan's cold waters. He survives and drags himself ashore, but troggs from the lake's central islands swarm the dazed pilot and steal his most valuable belongings.",
    "spoiler": 0
   },
   {
    "title": "Gnomish Ingenuity Under Siege",
-   "body": "The marauding troggs scattered Bingles' essential gear across their island camps. Among the missing supplies are his standard field tools\u2014a wrench, screwdriver, and hammer\u2014alongside his prized invention, the Blastenheimer Blastencapper. While mundane salvage is bothersome enough to lose, parting with volatile high-yield explosives in a region already crawling with troggs poses an immediate danger to anyone traveling through Loch Modan.",
+   "body": "Troggs scatter Bingles' gear among their island camps. His missing supplies include a wrench, screwdriver, and hammer, along with the Blastenheimer Blastencapper, his volatile, high-yield invention. Losing ordinary tools is troublesome; leaving explosives in a region crawling with troggs puts travelers in immediate danger.",
    "spoiler": 0
   },
   {
    "title": "For Gnomeregan",
-   "body": "Bingles is not merely joyriding through the Khaz Modan skies; he considers himself an aerial vanguard for the liberation of his fallen homeland. With Gnomeregan currently overrun by subterranean troggs and irradiated leper gnomes, Bingles envisions a decisive aerial assault to break the enemy hold. Without his tools and blastencappers to rebuild his flying machine, however, his grand airborne campaign remains thoroughly grounded in the reeds.",
+   "body": "Bingles fights for the liberation of his fallen homeland, Gnomeregan. It is overrun by subterranean troggs and irradiated leper gnomes, and he imagines a decisive aerial assault to break their hold. Without his tools and Blastencappers, he cannot rebuild his flying machine, and his campaign remains grounded in the reeds.",
    "spoiler": 0
   }
  ],
@@ -46,7 +46,7 @@
     "how did bingles crash",
     "bingles crash"
    ],
-   "answer": "Bingles crashed his gyrocopter straight into the Loch. While trying to recover from the wreck on the southeastern bank, he was ambushed by nearby island troggs who plundered his tools and experimental ordnance."
+   "answer": "Bingles crashed his gyrocopter into Loch Modan. As he struggled ashore on the southeastern bank, troggs from nearby islands ambushed him and stole his tools and experimental explosives."
   },
   {
    "q": "What supplies were stolen by the troggs?",
@@ -55,7 +55,7 @@
     "bingles supplies",
     "what items bingles"
    ],
-   "answer": "The troggs made off with four key items: Bingles' wrench, screwdriver, hammer, and a specialized explosive charge known as the Blastenheimer Blastencapper."
+   "answer": "The troggs stole Bingles' wrench, screwdriver, hammer, and specialized explosive, the Blastenheimer Blastencapper."
   },
   {
    "q": "Where did the troggs take Bingles' gear?",
@@ -64,7 +64,7 @@
     "trogg island location",
     "where is blastencapper"
    ],
-   "answer": "The troggs carried the stolen gear back to their encampments on the islands situated in the northern portion of the Loch, scattering the tool buckets and explosives along the rocky shores."
+   "answer": "The troggs took Bingles' gear to their camps on islands in the northern part of the Loch, scattering the tools and explosives along the rocky shores."
   },
   {
    "q": "What is the Blastencapper?",
@@ -73,7 +73,7 @@
     "blastenheimer blastencapper",
     "bingles explosive"
    ],
-   "answer": "The Blastencapper is a proprietary explosive device engineered by Bingles Blastenheimer, intended for combat use in air strikes against the enemies occupying Gnomeregan."
+   "answer": "The Blastenheimer Blastencapper is an explosive device Bingles designed for air strikes against the enemies occupying Gnomeregan."
   },
   {
    "q": "What movement is Bingles referring to?",
@@ -82,7 +82,7 @@
     "for gnomeregan",
     "bingles cause"
    ],
-   "answer": "Bingles is dedicated to the reclamation of Gnomeregan. He aims to mobilize an aerial bombardment campaign to purge the subterranean troggs and leper gnomes holding the gnomish capital hostage."
+   "answer": "Bingles is committed to reclaiming Gnomeregan. He hopes to lead an aerial bombardment against the subterranean troggs and leper gnomes holding the gnomish capital."
   },
   {
    "q": "Why can't Bingles retrieve the supplies himself?",
@@ -90,25 +90,25 @@
     "why doesnt bingles get them",
     "why bingles waiting"
    ],
-   "answer": "Bingles is isolated, soaking wet, and completely unarmed after surviving a catastrophic crash. Facing a fortified camp of aggressive troggs across open water without weapons or aircraft would be suicide for a solitary engineer."
+   "answer": "Bingles is alone and unarmed after surviving the crash, with his gyrocopter out of reach. Crossing open water to face aggressive troggs without weapons or aircraft would be suicide for a lone engineer."
   }
  ],
  "angles": [
   {
    "target": "race:Gnome",
-   "text": "Every tool recovered brings the gnomish people one step closer to launching an aerial counteroffensive against the troggs and leper gnomes suffocating Gnomeregan."
+   "text": "As a gnome, each tool you recover brings your people closer to an aerial counteroffensive against the troggs and leper gnomes suffocating Gnomeregan."
   },
   {
    "target": "race:Dwarf",
-   "text": "The trogg outbreak on the islands of the Loch threatens local trade and travel, making any strike against their camps a welcome service to the Mountaineers."
+   "text": "As a dwarf, you know the troggs on the Loch's islands threaten local trade and travel. Any blow against their camps helps the Mountaineers."
   },
   {
    "target": "profession:Engineering",
-   "text": "Leaving specialized tools and volatile ordnance like the Blastenheimer Blastencapper in the crude hands of troggs is an affront to craftsmanship and a catastrophic accident waiting to happen."
+   "text": "As an engineer, you know specialized tools and volatile explosives like the Blastenheimer Blastencapper are dangerous in trogg hands and an affront to craftsmanship."
   },
   {
    "target": "faction:Alliance",
-   "text": "Assisting an Alliance pilot in the heart of Loch Modan secures the waterways and aids the broader strategic war effort to reclaim Khaz Modan's lost territories."
+   "text": "As an Alliance member, helping a fellow pilot in Loch Modan secures the waterways and aids the wider effort to reclaim Khaz Modan's lost territories."
   }
  ],
  "keywords": [
@@ -136,5 +136,6 @@
  ],
  "attribution": [
   "Bingles' Missing Supplies"
- ]
+ ],
+ "style": 1
 }

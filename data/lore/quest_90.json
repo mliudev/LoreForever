@@ -17,16 +17,16 @@
   "wiki": "Seasoned Wolf Kabobs (Classic)",
   "chain": []
  },
- "summary": "Seasoned Wolf Kabobs is an Alliance culinary quest offered by Chef Grual at the Scarlet Raven Tavern in Darkshire. Grual seeks to prepare his signature house dish, tasking adventurers with hunting wild wolves in Duskwood for the meat, while his seasoning herbs arrive by shipment from Stormwind City. It highlights the everyday survival challenges and resourcefulness required to keep a besieged hamlet fed.",
+ "summary": "In Darkshire, Chef Grual prepares his signature dish at the Scarlet Raven Tavern. He asks you to hunt Duskwood wolves for meat while his herbs arrive from Stormwind City.",
  "sections": [
   {
    "title": "A Dish for Darkshire",
-   "body": "Darkshire is an isolated settlement surrounded by the creeping horrors of Duskwood, where trade caravans rarely venture and normal agriculture has completely collapsed. Despite the ever-present gloom and lurking undead, the town's citizens still require sustenance. Chef Grual, presiding over the kitchens of the Scarlet Raven Tavern, makes practical use of the forest's dangerous fauna by transforming wild wolf meat into hearty skewers. Because local timber and soil cannot sustain delicate crops, Grual relies on specialized spices brought in from the capital to make the gamey forest meat palatable.",
+   "body": "Darkshire sits isolated among Duskwood's creeping horrors. Trade caravans rarely come, farming has collapsed, and undead lurk nearby, yet the town still needs food. Chef Grual cooks at the Scarlet Raven Tavern, turning dangerous forest wolves into hearty skewers. Local timber and soil cannot support delicate crops, so he depends on spices brought from the capital to make the gamey meat palatable.",
    "spoiler": 0
   },
   {
    "title": "A Shipment from Stormwind",
-   "body": "To complete Grual's recipe, travelers need only secure lean flanks from the ferocious wolves stalking Duskwood. Grual has just received his latest shipment of Stormwind Seasoning Herbs, so the meat is all he lacks. The shipment underscores Darkshire's delicate connection to the broader kingdom: while royal military aid has dwindled, small-scale civic ties and supply lines between the city merchants and outer hamlets still barely endure.",
+   "body": "Grual has just received his latest shipment of Stormwind Seasoning Herbs. All he lacks is lean meat from the ferocious wolves stalking Duskwood. The delivery shows how Darkshire remains tied to the wider kingdom: royal military aid has dwindled, while small civic ties and supply lines between city merchants and outer hamlets barely endure.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "grual darkshire",
     "who gives seasoned wolf kabobs"
    ],
-   "answer": "Chef Grual is the town cook stationed at the Scarlet Raven Tavern in Darkshire. He keeps the patrons, locals, and Night Watch members fed, crafting hearty meals out of whatever game can be hunted in the surrounding woods."
+   "answer": "Chef Grual is the cook stationed at the Scarlet Raven Tavern in Darkshire. He feeds patrons, locals, and Night Watch members with hearty meals made from whatever game can be hunted in the surrounding woods."
   },
   {
    "q": "Where do you get the Stormwind Seasoning Herbs?",
@@ -46,7 +46,7 @@
     "stormwind herbs location",
     "where are seasoning herbs"
    ],
-   "answer": "You don't need to fetch them. Chef Grual has just received his latest shipment of Stormwind Seasoning Herbs, so all he needs from you are 10 Lean Wolf Flanks."
+   "answer": "You do not need to fetch the Stormwind Seasoning Herbs. Grual has just received his latest shipment; he needs ten Lean Wolf Flanks from you."
   },
   {
    "q": "Where are the wolves for the wolf flanks found?",
@@ -55,7 +55,7 @@
     "wolf flanks duskwood",
     "where to hunt wolves"
    ],
-   "answer": "Wild wolves roam throughout the dark forests of Duskwood, particularly stalking the groves and pathways just outside Darkshire. Any of the local wolves yield the lean meat Chef Grual requires."
+   "answer": "Wild wolves roam Duskwood's dark forests, especially in the groves and pathways just outside Darkshire. Any local wolf yields the lean meat Grual needs."
   },
   {
    "q": "Why does Darkshire need wolf meat for food?",
@@ -64,7 +64,7 @@
     "darkshire food supply",
     "why wolf kabobs"
    ],
-   "answer": "Duskwood's farmland is ruined and cut off by monsters, making traditional livestock and crop cultivation virtually impossible. The locals survive by hunting the dangerous wildlife prowling outside their borders, including the ubiquitous wolves."
+   "answer": "Darkshire's farmland is ruined and cut off by monsters, making livestock and crops nearly impossible to raise. The locals hunt dangerous wildlife, including the wolves prowling beyond the town's borders."
   },
   {
    "q": "Why can't Grual get herbs locally in Duskwood?",
@@ -72,7 +72,7 @@
     "why buy herbs in stormwind",
     "duskwood herbs"
    ],
-   "answer": "The pervasive curse blighting Duskwood has corrupted much of the native plant life, leaving little in the way of edible or fragrant cooking herbs. Grual must rely on cultivated varieties imported from Stormwind to season his dishes."
+   "answer": "Duskwood's curse has corrupted much of its native plant life, leaving few edible or fragrant cooking herbs. Grual relies on cultivated varieties brought from Stormwind to season his dishes."
   },
   {
    "q": "Does this quest tie into a larger storyline?",
@@ -80,21 +80,21 @@
     "wolf kabobs lore significance",
     "is seasoned wolf kabobs important"
    ],
-   "answer": "It is a standalone local flavor quest rather than part of a grand narrative. However, it vividly illustrates the rustic, self-reliant lifestyle of Darkshire's folk and their ongoing, tenuous supply link back to Stormwind."
+   "answer": "This is a standalone local tale, not part of a grand narrative. It shows Darkshire's self-reliant way of life and its tenuous supply link to Stormwind."
   }
  ],
  "angles": [
   {
    "target": "profession:Cooking",
-   "text": "Chef Grual's recipe teaches adventurers how wilderness hunters make use of tough predator meat by masking wild gaminess with refined city spices."
+   "text": "Grual's recipe shows how wilderness hunters make tough predator meat palatable with refined city spices."
   },
   {
    "target": "faction:Alliance",
-   "text": "The delivery run between Darkshire and Stormwind demonstrates how isolated settlements in the kingdom rely on the capital's markets even when military garrisons are withheld."
+   "text": "The delivery between Darkshire and Stormwind shows how isolated settlements rely on the capital's markets, even as military garrisons are withheld."
   },
   {
    "target": "class:Hunter",
-   "text": "Tracking down Duskwood's ravenous wolf packs requires classic tracking and culling skills to protect the hamlet while keeping the tavern larder stocked."
+   "text": "You track down Duskwood's ravenous wolf packs, using your skills to protect the hamlet and keep the tavern's larder stocked."
   }
  ],
  "keywords": [
@@ -116,5 +116,6 @@
  ],
  "attribution": [
   "Seasoned Wolf Kabobs (Classic)"
- ]
+ ],
+ "style": 1
 }

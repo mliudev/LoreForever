@@ -17,16 +17,16 @@
   "wiki": "Report to Ironforge",
   "chain": []
  },
- "summary": "This errand sends an adventurer from Thelsamar in Loch Modan into the heart of Ironforge with critical updates from Ironband's Excavation Site. Delivering the excavation progress report to Prospector Stormpike in the Assembly of Explorers sets off an investigation into missing blastpowder and stalled archaeology in the foothills.",
+ "summary": "Ironband’s report is bound for Ironforge from Thelsamar in Loch Modan. It carries news from the excavation site to Prospector Stormpike in the Assembly of Explorers, where the stalled dig and missing blastpowder need attention.",
  "sections": [
   {
    "title": "A Courier for the League",
-   "body": "Archaeological expeditions throughout Khaz Modan rely heavily on funding, supplies, and oversight from the Explorers' League. When Prospector Ironband's dig site in southern Loch Modan runs short of blasting supplies, his overseers cannot simply requisition more locally. Jern Hornhelm at the Thelsamar inn entrusts an adventurer with carrying Ironband's written report across the mountain passes directly to Prospector Stormpike at League headquarters.",
+   "body": "The Explorers' League funds, supplies, and oversees archaeological expeditions across Khaz Modan. Prospector Ironband's dig in southern Loch Modan has run short of blasting supplies, and its overseers cannot simply requisition more nearby. At the Thelsamar inn, Jern Hornhelm entrusts you with Ironband's written report. You carry it over the mountain passes to Prospector Stormpike at the League's headquarters in Ironforge.",
    "spoiler": 0
   },
   {
    "title": "The Stormpike Temper",
-   "body": "Prospector Stormpike represents the no-nonsense, fiery determination characteristic of his clan. Stationed within the grand Library and Hall of Explorers in Ironforge, he expects swift, tangible results from the League's digs. Upon receiving the missive, Stormpike is outraged to find that Ironband fails to account for a massive shipment of blastpowder sent weeks earlier, revealing that supply lines in Loch Modan have suffered a dangerous breakdown.",
+   "body": "Prospector Stormpike brings fierce resolve to his work for the League. He is stationed in Ironforge's grand Library and Hall of Explorers, where he expects swift results from the League's digs. When Stormpike reads Ironband's report, he is outraged: Ironband does not account for a massive shipment of blastpowder sent weeks ago. The missing record points to a dangerous breakdown in Loch Modan's supply lines.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "why take report to stormpike",
     "ironforge report reason"
    ],
-   "answer": "The Explorers' League strictly governs the distribution of valuable resources like blastpowder. Field digs cannot order dangerous explosives without formal authorization from senior prospectors stationed at headquarters in the Hall of Explorers."
+   "answer": "The Explorers' League controls the distribution of valuable supplies such as blastpowder. Field digs need formal approval from senior prospectors at the Hall of Explorers before they can order explosives."
   },
   {
    "q": "Who is Prospector Stormpike?",
@@ -46,7 +46,7 @@
     "who is stormpike",
     "prospector stormpike lore"
    ],
-   "answer": "He is a high-ranking official within the Explorers' League based in Ironforge. A member of the proud Stormpike clan, he is notorious for his short temper and impatience with stalled dig sites and missing inventory."
+   "answer": "Prospector Stormpike is a senior Explorers' League official based in Ironforge. He belongs to the proud Stormpike clan and is known for his short temper and impatience with stalled digs and missing supplies."
   },
   {
    "q": "Where did Ironband's original blastpowder go?",
@@ -55,7 +55,7 @@
     "missing blastpowder",
     "where is the powder"
    ],
-   "answer": "A shipment of blasting powder was dispatched weeks prior, but Ironband makes no mention of ever receiving it. This raises immediate fears that troggs or bandits ambushed the transport wagon along the roads of Loch Modan."
+   "answer": "A shipment of blasting powder was sent weeks ago, but Ironband's report does not say he received it. Troggs or bandits may have ambushed the wagon on Loch Modan's roads."
   },
   {
    "q": "Where do you find Prospector Stormpike in Ironforge?",
@@ -64,7 +64,7 @@
     "where is stormpike",
     "assembly of explorers location"
    ],
-   "answer": "Prospector Stormpike is located within the Assembly of Explorers, also known as the Library or Hall of Explorers, tucked in the northeastern wing of Ironforge."
+   "answer": "You can find Prospector Stormpike in Ironforge's Assembly of Explorers, also called the Library or Hall of Explorers, in the city's northeastern wing."
   },
   {
    "q": "Who gives you the report in Thelsamar?",
@@ -72,7 +72,7 @@
     "who starts report to ironforge",
     "jern hornhelm role"
    ],
-   "answer": "Jern Hornhelm, who resides inside the Stoutlager Inn in Thelsamar, acts as the liaison coordinating reports and communications between Ironband's remote camp and the city leadership."
+   "answer": "Jern Hornhelm gives you the report at the Stoutlager Inn in Thelsamar. He coordinates reports and messages between Ironband's remote camp and the city leadership."
   },
   {
    "q": "What happens after Stormpike reads the report?",
@@ -80,17 +80,17 @@
     "what comes next",
     "next quest after report to ironforge"
    ],
-   "answer": "Furious over the unaccounted munitions and stalled progress, Stormpike orders the player to organize a new shipment of blastpowder and deliver it straight back to Prospector Ironband."
+   "answer": "After reading the report, Stormpike is furious about the missing munitions and stalled progress. He orders you to arrange a new shipment of blastpowder and take it straight back to Prospector Ironband."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "For dwarves, navigating the bureaucracy of the Explorers' League and dealing with Clan Stormpike's legendary temper is a familiar rite of passage in the halls of their capital."
+   "text": "As a dwarf, you know the Explorers' League's procedures and Clan Stormpike's legendary temper from life in your capital's halls."
   },
   {
    "target": "faction:Alliance",
-   "text": "This task demonstrates the Alliance's logistical reach, connecting far-flung research camps in the mountain valleys to the military and scholarly leadership in Ironforge."
+   "text": "As an Alliance member, you see how the Alliance links distant research camps in mountain valleys with Ironforge's military and scholarly leadership."
   }
  ],
  "keywords": [
@@ -113,5 +113,6 @@
  ],
  "attribution": [
   "Report to Ironforge"
- ]
+ ],
+ "style": 1
 }

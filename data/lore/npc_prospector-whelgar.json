@@ -8,11 +8,11 @@
   "wiki": "Prospector Whelgar",
   "refs": 1
  },
- "summary": "Prospector Whelgar is a dwarven archaeologist stationed at an excavation site in the Wetlands east of Menethil Harbor. His mission to uncover titan relics has stalled after vicious raptors overran the dig. He now seeks hardy adventurers willing to brave the beasts to recover ancient artifacts.",
+ "summary": "At Whelgar's Excavation Site, Prospector Whelgar's search for titan relics has stalled. Vicious raptors overran the dig, and he seeks hardy adventurers to recover ancient artifacts.",
  "sections": [
   {
    "title": "A Dig Under Siege",
-   "body": "Sent into the marshy wilderness of the Wetlands to unearth the history of the dwarven race, Prospector Whelgar established an archaeological camp known as Whelgar's Excavation Site. The valley was once rich with ancient stone relics, but the local raptors quickly grew territorial and drove his team into hiding. Despite the danger, Whelgar refuses to abandon his duty. He remains focused on recovering valuable relics—including the enigmatic Goaz Stone—before wild predators or rival scoundrels ruin the site entirely.",
+   "body": "Prospector Whelgar leads a dwarven dig in the Wetlands. His camp, Whelgar's Excavation Site, lies east of Menethil Harbor, where he searches for the history of the dwarven race. Ancient stone relics once filled the valley, but territorial raptors drove his team into hiding. Whelgar refuses to leave his duty unfinished. He still hopes to recover valuable relics, including the Goaz Stone, before predators or rival scoundrels ruin the site.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "who is whelgar",
     "prospector whelgar lore"
    ],
-   "answer": "Prospector Whelgar is an Ironforge dwarf archaeologist tasked with leading an expedition in the Wetlands. He oversees the dig site east of Menethil Harbor, studying relics from the dawn of dwarven history."
+   "answer": "Prospector Whelgar leads an Ironforge dwarf expedition in the Wetlands. East of Menethil Harbor, he oversees a dig where he studies relics from the dawn of dwarven history."
   },
   {
    "q": "Where can I find Prospector Whelgar?",
@@ -33,7 +33,7 @@
     "where is whelgar",
     "whelgar wetlands map"
    ],
-   "answer": "He shelters on a ridge overlooking Whelgar's Excavation Site, east of Menethil Harbor and southwest of Dun Modr in the Wetlands."
+   "answer": "You can find Prospector Whelgar sheltering on a ridge above Whelgar's Excavation Site, east of Menethil Harbor and southwest of Dun Modr in the Wetlands."
   },
   {
    "q": "Why is Whelgar having trouble at the dig site?",
@@ -42,7 +42,7 @@
     "what happened to whelgar dig",
     "whelgars excavation raptors"
    ],
-   "answer": "Fierce native raptors have completely overrun the dig site, killing or scattering his crew and forcing Whelgar into a defensive pocket. He cannot continue unearthing relics without outside protection."
+   "answer": "Fierce native raptors have overrun the dig, killing or scattering Whelgar's crew and forcing him into a defensive pocket. He cannot continue unearthing relics without protection."
   },
   {
    "q": "What is the Goaz Stone?",
@@ -51,17 +51,17 @@
     "what is the goaz stone",
     "uncovering the past relic"
    ],
-   "answer": "The Goaz Stone is an ancient artifact uncovered among the ruins at the excavation site. Whelgar works to translate its inscriptions to better understand the forgotten origins and ancient history of the dwarven people."
+   "answer": "The Goaz Stone is an ancient artifact uncovered among the ruins at Whelgar's excavation site. Whelgar is working to translate its inscriptions to learn more about the forgotten origins and ancient history of the dwarven people."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "Whelgar's mission directly serves the Explorers' League and King Magni Bronzebeard's ongoing search into the titan roots of the dwarven race."
+   "text": "As a dwarf, Whelgar's mission serves the Explorers' League and King Magni Bronzebeard's search into the titan roots of the dwarven race."
   },
   {
    "target": "profession:Mining",
-   "text": "The craggy ridges around Whelgar's dig site contain rich mineral veins, though prospectors must contend with the same raptors plaguing Whelgar's team."
+   "text": "As a miner, you can find rich mineral veins in the craggy ridges around Whelgar's dig site. Raptors also roam the area and plague his team."
   }
  ],
  "keywords": [
@@ -83,5 +83,6 @@
  ],
  "attribution": [
   "Prospector Whelgar"
- ]
+ ],
+ "style": 1
 }

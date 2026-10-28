@@ -8,11 +8,11 @@
   "wiki": "Minor Manifestation of Earth",
   "refs": 2
  },
- "summary": "A Minor Manifestation of Earth is a localized elemental spirit bound to sacred stones in Mulgore and Durotar. Invisible to ordinary sight, it reveals itself only to fledgling shamans who drink the sacred Earth Sapta, providing the rough quartz required to carve their very first earth totem.",
+ "summary": "At sacred stones in Mulgore and Durotar, Minor Manifestation of Earth waits unseen. Fledgling shamans who drink Earth Sapta can meet the spirit and receive rough quartz for carving their first earth totem.",
  "sections": [
   {
    "title": "Voice of the Stone",
-   "body": "The spirits of the earth dwell everywhere beneath the dirt and stone, but communicating with them requires deliberate ritual. At sacred landmarks like Kodo Rock in Mulgore and Spirit Rock in Durotar, Minor Manifestations of Earth linger in the unseen realm, surrounded by even smaller elemental presences. Only initiates who have drunk the Earth Sapta\u2014a ritual draught brewed by shamanic mentors\u2014can lift the veil between the physical world and the elements. Once acknowledged, the spirit imparts the earth's blessings along with a piece of rough quartz, granting the novice the spiritual focal point needed to fashion an Earth Totem.",
+   "body": "Earth spirits dwell beneath dirt and stone, but reaching them takes a deliberate rite. At Kodo Rock in Mulgore and Spirit Rock in Durotar, Minor Manifestations of Earth linger beyond ordinary sight, surrounded by lesser elemental presences. Only initiates who drink Earth Sapta, a draught brewed by shamanic mentors, can cross the veil between the physical world and the elements. When an initiate makes contact, the spirit grants the earth's blessings and a piece of rough quartz. The novice can use it as the spiritual focus for making an Earth Totem.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "where is the earth spirit",
     "earth manifestation invisible"
    ],
-   "answer": "The manifestation exists on the elemental plane and remains invisible to the naked eye. You must drink an Earth Sapta, provided by your shaman trainer, to enter the altered state of perception required to perceive and speak with elemental spirits."
+   "answer": "Minor Manifestation of Earth remains unseen by ordinary sight on the elemental plane. Drink Earth Sapta from your shaman trainer to perceive and speak with elemental spirits."
   },
   {
    "q": "Where can these earth spirits be found?",
@@ -32,7 +32,7 @@
     "minor manifestation location",
     "where to find manifestation of earth"
    ],
-   "answer": "They appear at Kodo Rock in the rolling plains of Mulgore and at Spirit Rock in the arid canyons of Durotar. Both sites serve as traditional proving grounds for young tauren, orc, and troll shamans."
+   "answer": "These earth spirits appear at Kodo Rock in Mulgore and Spirit Rock in Durotar. Both places are traditional proving grounds for young tauren, orc, and troll shamans."
   },
   {
    "q": "What is the spirit's purpose during the rite?",
@@ -40,7 +40,7 @@
     "what does manifestation do",
     "manifestation quest purpose"
    ],
-   "answer": "The manifestation tests and formally acknowledges the initiate's connection to the earth element. Upon speaking with the shaman, it bestows a piece of rough quartz, which is taken back to a shaman trainer to construct the Earth Totem."
+   "answer": "The manifestation tests and acknowledges your bond with the earth element. After you speak with it, the spirit gives you rough quartz to take back to your shaman trainer for making an Earth Totem."
   },
   {
    "q": "What are the smaller creatures surrounding it?",
@@ -48,17 +48,17 @@
     "lesser manifestations",
     "small earth elementals around it"
    ],
-   "answer": "Surrounding the central spirit are lesser manifestations of earth. They are minor echos of the element drawn to the sacred grounds, existing purely as part of the natural communion, and cannot be directly interacted with."
+   "answer": "Lesser manifestations of earth gather around the central spirit. They are minor echoes of the element drawn to the sacred grounds, part of the natural communion, and cannot be directly engaged."
   }
  ],
  "angles": [
   {
    "target": "class:Shaman",
-   "text": "Every young Horde shaman must commune with a Minor Manifestation of Earth under the influence of the Earth Sapta to earn their very first totem."
+   "text": "As a young Horde shaman, you commune with Minor Manifestation of Earth under the influence of Earth Sapta to earn your first totem."
   },
   {
    "target": "race:Tauren",
-   "text": "Tauren youth travel east across Mulgore to Kodo Rock to seek communion with this manifestation as part of their ancestral spiritual trials."
+   "text": "As a young tauren, you travel east across Mulgore to Kodo Rock to commune with this manifestation as part of your ancestral spiritual trials."
   }
  ],
  "keywords": [
@@ -79,5 +79,6 @@
  ],
  "attribution": [
   "Minor Manifestation of Earth"
- ]
+ ],
+ "style": 1
 }

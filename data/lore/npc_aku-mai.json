@@ -8,16 +8,16 @@
   "wiki": "Aku'mai",
   "refs": 5
  },
- "summary": "Aku'mai is a monstrous, three-headed hydra dwelling in the sunken ruins of Blackfathom Deeps along the Zoram Strand. A servant of an Old God, it rose from the waters when that Old God's corruption tainted the temple's sacred Moon Well. The Twilight's Hammer cult has gathered in the Deeps and sacrifices innocents to it for power.",
+ "summary": "At Blackfathom Deeps, Aku'mai haunts the sunken ruins of Elune's temple along the Zoram Strand. An Old God's corruption tainted the temple's sacred Moon Well, and Aku'mai rose from the waters as its servant. The Twilight's Hammer now sacrifices innocents to Aku'mai for power.",
  "sections": [
   {
    "title": "The Scourge of Zoram Strand",
-   "body": "Blackfathom Deeps was once a great temple of Elune, until the corruption of an Old God seeped up from beneath the earth and tainted its sacred Moon Well. Aku'mai, a gargantuan hydra and servant of the Old God, rose from the waters. Rather than an ordinary denizen of the tides, Aku'mai is a living blight upon the Zoram Strand that has taken up residence in the submerged ruins of the night elves' fallen temple, poisoning the waters with its malice.",
+   "body": "Blackfathom Deeps was once a great temple of Elune, until an Old God's corruption tainted its sacred Moon Well. Aku'mai, a gargantuan hydra and servant of the Old God, rose from the waters. Now Aku'mai lairs in the submerged ruins of the night elves' fallen temple, a blight upon the Zoram Strand whose malice poisons the waters.",
    "spoiler": 0
   },
   {
    "title": "Servant of the Primordial Darkness",
-   "body": "Aku'mai's foul presence eventually drew the Twilight's Hammer deep into the subterranean caverns. Led by Twilight Lord Kelris and allied with the naga, the cultists occupy the drowned temple and sacrifice innocents to Aku'mai for power.",
+   "body": "Aku'mai's presence drew the Twilight's Hammer into the subterranean caverns. Led by Twilight Lord Kelris and allied with the naga, the cultists occupy the drowned temple and sacrifice innocents to Aku'mai for power.",
    "spoiler": 1
   }
  ],
@@ -29,7 +29,7 @@
     "akumai lore",
     "what kind of monster is akumai"
    ],
-   "answer": "Aku'mai is an ancient, three-headed hydra steeped in dark power. A servant of an Old God, it rose from the tainted waters of Blackfathom Deeps and now lairs in the temple's submerged halls."
+   "answer": "Aku'mai is an ancient, three-headed hydra that serves an Old God. Aku'mai rose from Blackfathom Deeps' tainted waters and lairs in the temple's submerged halls."
   },
   {
    "q": "Where does Aku'mai live?",
@@ -38,7 +38,7 @@
     "where is akumai",
     "where can i find akumai"
    ],
-   "answer": "Aku'mai resides in the deepest submerged grottos of Blackfathom Deeps, a ruined temple complex dedicated to Elune located along the coast of the Zoram Strand in north-western Ashenvale."
+   "answer": "Aku'mai lives in the submerged grottos of Blackfathom Deeps, a ruined temple of Elune along the Zoram Strand in north-western Ashenvale."
   },
   {
    "q": "Why is the Twilight's Hammer feeding Aku'mai?",
@@ -47,7 +47,7 @@
     "kelris akumai",
     "twilights hammer akumai"
    ],
-   "answer": "The Twilight's Hammer reveres Aku'mai as a servant of the Old Gods they worship. Led by Twilight Lord Kelris, the cultists sacrifice innocents to the beast in exchange for dark power."
+   "answer": "The Twilight's Hammer reveres Aku'mai as a servant of the Old Gods. Led by Twilight Lord Kelris, the cultists sacrifice innocents to Aku'mai for dark power."
   },
   {
    "q": "What powers does Aku'mai possess?",
@@ -56,7 +56,7 @@
     "is akumai magical",
     "void hydra"
    ],
-   "answer": "Beyond its immense physical size and multiple snapping heads, Aku'mai carries the dark favor of the Old Gods. In battle it flies into frenzied rages and engulfs those who draw near in clouds of poison."
+   "answer": "Aku'mai is immense, with multiple snapping heads, and carries the dark favor of the Old Gods. In battle, Aku'mai rages and engulfs those nearby in clouds of poison."
   },
   {
    "q": "Is Aku'mai an Old God?",
@@ -64,7 +64,7 @@
     "is akumai an old god",
     "is akumai a god"
    ],
-   "answer": "No. Aku'mai is not an Old God, but a primordial hydra that serves one. Its evil presence is enough to draw the Twilight's Hammer to worship around it."
+   "answer": "No. Aku'mai is a primordial hydra that serves an Old God. Its evil presence drew the Twilight's Hammer to worship around it."
   },
   {
    "q": "Why do adventurers venture into the deeps to slay it?",
@@ -73,21 +73,21 @@
     "blackfathom villainy akumai",
     "akumai threat"
    ],
-   "answer": "Left unchecked, Aku'mai's savagery and the cult's devotion threaten to unleash a calamitous evil across Ashenvale and Kalimdor. Both Alliance and Horde authorities seek to put an end to the Twilight's Hammer and slay the horror lurking at the heart of the temple."
+   "answer": "If left unchecked, Aku'mai's savagery and the cult's devotion threaten to unleash calamitous evil across Ashenvale and Kalimdor. Alliance and Horde authorities seek to end the Twilight's Hammer and slay the horror in the heart of the temple."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "Aku'mai has defiled the deepest sanctorum of a ruined temple once consecrated to the moon-goddess Elune, turning a holy site into a lair of corruption."
+   "text": "Aku'mai has defiled the deepest sanctorum of a ruined temple once consecrated to Elune, turning a holy site into a lair of corruption."
   },
   {
    "target": "class:Priest",
-   "text": "The vile presence of Aku'mai and the Twilight's Hammer represents the corruption of the Old Gods set against the teachings of the Holy Light and Elune."
+   "text": "Aku'mai and the Twilight's Hammer embody the Old Gods' corruption, set against the teachings of the Holy Light and Elune."
   },
   {
    "target": "class:Druid",
-   "text": "Aku'mai's unnatural corruption warps the coastal waters of Ashenvale, demanding cleansing to restore natural balance."
+   "text": "Aku'mai's unnatural corruption warps Ashenvale's coastal waters, which must be cleansed to restore natural balance."
   }
  ],
  "keywords": [
@@ -111,5 +111,6 @@
  ],
  "attribution": [
   "Aku'mai"
- ]
+ ],
+ "style": 1
 }

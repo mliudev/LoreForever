@@ -10,16 +10,16 @@
    "quest:223"
   ]
  },
- "summary": "Calor's Note is a scrap of faded parchment written by the woodsman Calor to recommend a tested adventurer to Master Jonathan Carevin. It serves as an introduction into a shadowy cadre operating alongside, yet distinct from, Darkshire's formal town militia.",
+ "summary": "In Duskwood, Calor's Note carries a woodsman's recommendation to Master Jonathan Carevin. Calor writes it on a scrap of faded parchment for a tested adventurer, opening a path to a hidden band that fights beside Darkshire's militia but remains apart from it.",
  "sections": [
   {
    "title": "A Rare Recommendation",
-   "body": "Duskwood offers very little warmth to strangers, and Calor is notoriously hard to impress. Surviving encounters with the bloodthirsty worgen stalking the woods earns his respect, prompting him to draft this brief message. Carried to Darkshire, the faded note acts as a badge of credibility, introducing an outsider directly to Jonathan Carevin.",
+   "body": "Calor is notoriously hard to impress, and Duskwood offers strangers little warmth. When an adventurer survives the bloodthirsty worgen stalking the woods, Calor's respect is earned, and he writes a brief message. The faded note travels to Darkshire, where it introduces the outsider directly to Jonathan Carevin.",
    "spoiler": 0
   },
   {
    "title": "A Private Crusade",
-   "body": "While Darkshire relies on the Night Watch for public defense, Calor and Carevin pursue a grimmer, more clandestine fight. Calor openly laments being outnumbered by the town guard, hoping for enough capable fighters to advance their private war. Delivery of the note grants entry into Carevin's campaign against demons, undead, and the hidden sympathizers abetting Duskwood's decline.",
+   "body": "Darkshire relies on the Night Watch for public defense, while Calor and Carevin pursue a grimmer, hidden fight. Calor laments that the town guard outnumbers them and hopes to find enough capable fighters to advance their private war. When the note is handed over, it grants entry to Carevin's campaign against demons, undead, and the hidden sympathizers aiding Duskwood's decline.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "what is this note",
     "what does the note say"
    ],
-   "answer": "It is a handwritten message penned by Calor upon a scrap of faded parchment. It serves as a personal letter of recommendation vouching for an adventurer's combat prowess and reliability against the horrors of Duskwood."
+   "answer": "Calor's Note is a handwritten message from Calor on a scrap of faded parchment. It recommends an adventurer as capable and reliable against Duskwood's horrors."
   },
   {
    "q": "Who receives the note?",
@@ -40,7 +40,7 @@
     "who gets calors note",
     "jonathan carevin note"
    ],
-   "answer": "The note is addressed to Jonathan Carevin, a stern figure stationed in Darkshire who coordinates a dedicated effort against the dark forces threatening the region."
+   "answer": "The note is addressed to Jonathan Carevin, a stern figure stationed in Darkshire who coordinates an effort against the dark forces threatening the region."
   },
   {
    "q": "How does Calor regard the Night Watch?",
@@ -48,7 +48,7 @@
     "calor and night watch",
     "why does calor want to outnumber night watch"
    ],
-   "answer": "Calor considers the Night Watch insufficient for the true threats lurking in Duskwood. When handing over the note, he expresses a desire to recruit enough capable allies to outnumber the militia, hoping to finally finish the urgent work his small faction carries on alone."
+   "answer": "Calor believes the Night Watch cannot meet the true threats in Duskwood. As he hands over the note, he says he wants to recruit enough capable allies to outnumber the militia and finish the urgent work his small faction carries on alone."
   },
   {
    "q": "What kind of battle does Jonathan Carevin fight?",
@@ -57,17 +57,17 @@
     "what does carevin do",
     "who does carevin fight"
    ],
-   "answer": "Master Carevin wages an unyielding battle against demons, the undead, and mortal collaborators who aid them in Duskwood. He values vigilance and devotion to the Holy Light, accepting only proven individuals into his confidence."
+   "answer": "Master Carevin fights demons, the undead, and mortal collaborators who aid them in Duskwood. He values vigilance and devotion to the Holy Light, and accepts only proven people into his confidence."
   }
  ],
  "angles": [
   {
    "target": "class:Paladin",
-   "text": "Jonathan Carevin welcomes the bearer with 'Glory under the Light,' signaling an ideological kinship with holy warriors committed to cleansing Duskwood of demons and undead."
+   "text": "Jonathan Carevin greets the bearer with 'Glory under the Light,' a sign of shared ideals with holy warriors committed to cleansing Duskwood of demons and undead."
   },
   {
    "target": "faction:Alliance",
-   "text": "With the Stormwind army entirely absent from Duskwood, unofficial factions like Carevin's circle and the Night Watch represent the southern border's only bulwark against darkness."
+   "text": "With the Stormwind army absent from Duskwood, Carevin's circle and the Night Watch are unofficial factions guarding the southern border against darkness."
   }
  ],
  "keywords": [
@@ -92,5 +92,6 @@
  "attribution": [
   "Calor's Note",
   "Worgen in the Woods (Classic, 4)"
- ]
+ ],
+ "style": 1
 }

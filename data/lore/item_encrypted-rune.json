@@ -10,16 +10,16 @@
    "quest:3109"
   ]
  },
- "summary": "An Encrypted Rune is a coded summoning message handed to promising new rogues in Coldridge Valley. Delivered covertly, it bids the bearer to decipher its contents and seek out the rogue trainer Solm Hargrin inside Anvilmar.",
+ "summary": "In Coldridge Valley, an Encrypted Rune quietly calls promising new rogues to Anvilmar. Its message asks them to decipher its contents and seek out rogue trainer Solm Hargrin.",
  "sections": [
   {
    "title": "A Coded Summons",
-   "body": "In the sheltered snowy basin of Coldridge Valley, overt recruitment is rarely the style of the local scoundrels and scouts. Instead, novitiates showing a knack for stealth and cunning are slipped an Encrypted Rune. Marked with subtle ciphers, the inscribed stone carries a discreet invitation from Solm Hargrin, the rogue mentor quartered in Anvilmar. It serves as both a private test of literacy in thieves' cant and an introduction to the shadowy craft needed to survive Dun Morogh's harsh wilderness.",
+   "body": "The Encrypted Rune is a discreet summons for those who show promise in stealth and cunning. Solm Hargrin, the rogue mentor in Anvilmar, sends the inscribed stone with ciphers for its bearer to decipher. The message tests whether a new rogue can read thieves' cant and introduces the shadowy craft needed to survive Dun Morogh's harsh wilderness.",
    "spoiler": 0
   },
   {
    "title": "Eyes in the Shadows",
-   "body": "Deciphering the rune directs new rogues to Solm, who looks to bolster the valley's covert ranks amidst rising local tensions. Beyond basic bladecraft and stealth techniques, Solm emphasizes vigilance and camaraderie, reminding incoming rogues that in this time of strained peace it is all the more important for their kind to stick together.",
+   "body": "Deciphering the rune leads new rogues to Solm Hargrin inside Anvilmar. He hopes to strengthen the valley's covert ranks amid rising local tensions. Along with bladecraft and stealth, Solm teaches vigilance and camaraderie. In a time of strained peace, rogues need to stick together.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "encrypted rune purpose",
     "what does the rune do"
    ],
-   "answer": "It is a coded message delivered to fledgling rogues in Coldridge Valley, instructing them to report to Solm Hargrin inside Anvilmar for training."
+   "answer": "The Encrypted Rune is a coded message for fledgling rogues in Coldridge Valley. It tells them to report to Solm Hargrin inside Anvilmar for training."
   },
   {
    "q": "Who sent the Encrypted Rune?",
@@ -40,7 +40,7 @@
     "who gave this",
     "sender of rune"
    ],
-   "answer": "The message originates from Solm Hargrin, the rogue trainer stationed within Anvilmar, who uses it to quietly summon new recruits without drawing unwanted attention."
+   "answer": "Solm Hargrin, the rogue trainer in Anvilmar, sends the Encrypted Rune to quietly summon new recruits."
   },
   {
    "q": "Where should I take the rune?",
@@ -49,7 +49,7 @@
     "who do i bring it to",
     "where is solm"
    ],
-   "answer": "Take the deciphered instructions to Solm Hargrin, who can be found indoors at Anvilmar in Coldridge Valley."
+   "answer": "Take the deciphered instructions to Solm Hargrin inside Anvilmar, in Coldridge Valley."
   },
   {
    "q": "Why is the message encrypted?",
@@ -58,17 +58,17 @@
     "why is it coded",
     "why secret rune"
    ],
-   "answer": "Rogues rely on secrecy, deception, and covert communication. Sending an encrypted rune ensures that only an aspiring rogue capable of reading the cipher heeds the call, keeping their methods out of plain view."
+   "answer": "The cipher lets only an aspiring rogue who can read it heed the call, keeping rogue methods out of plain view."
   }
  ],
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "This rune marks your first formal contact with the network of rogues in Dun Morogh, initiating you into the arts of stealth, quick blades, and survival."
+   "text": "As a rogue, the rune is your first formal contact with Dun Morogh's rogues. It begins your training in stealth, quick blades, and survival."
   },
   {
    "target": "race:Dwarf",
-   "text": "Passed along within Coldridge Valley, the rune calls another child of Ironforge to master the shadows and protect the clan's interests from beneath the surface."
+   "text": "As a dwarf, the rune calls you, another child of Ironforge in Coldridge Valley, to master the shadows and protect the clan's interests from beneath the surface."
   }
  ],
  "keywords": [
@@ -93,5 +93,6 @@
  "attribution": [
   "Encrypted Rune",
   "Encrypted Rune (Classic)"
- ]
+ ],
+ "style": 1
 }

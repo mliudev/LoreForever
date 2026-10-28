@@ -8,11 +8,11 @@
   "wiki": "Lieutenant Nevell",
   "refs": 1
  },
- "summary": "Lieutenant Nevell is an officer of the Argent Dawn stationed outside the gates of Ironforge in Dun Morogh. Serving as a bulwark against the spreading darkness of the Scourge, he coordinates local defenders and alerts arriving adventurers to undead threats probing the dwarf kingdom's borders.",
+ "summary": "Outside Ironforge in Dun Morogh, Lieutenant Nevell watches for the Scourge. The Argent Dawn officer coordinates local defenders and warns arriving adventurers of undead threats near the dwarven kingdom.",
  "sections": [
   {
    "title": "A Watch in the Snow",
-   "body": "While the Argent Dawn is most renowned for holding the line in the shattered Plaguelands of Lordaeron, its vigilance reaches far into the south. Stationed in the freezing winds outside Ironforge, Lieutenant Nevell represents the order's proactive defense against necromantic incursions. When Scourge activity stirs in the mountain passes of Dun Morogh, Nevell directs recruits and capable adventurers toward the front lines to ensure Ironforge's snowy doorstep remains secure.",
+   "body": "Lieutenant Nevell watches Ironforge's snowy approaches for the Scourge. Though the Argent Dawn is best known for holding the line in Lordaeron's shattered Plaguelands, its watch reaches farther south. From outside Ironforge, Nevell directs recruits and capable adventurers toward the front when Scourge activity stirs in Dun Morogh's mountain passes. The dwarven city's borders remain under watch.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "who is nevell",
     "lieutenant nevell"
    ],
-   "answer": "Lieutenant Nevell is an officer of the Argent Dawn stationed near Ironforge in Dun Morogh. His mission is to rally local defenders and investigate signs of Scourge presence encroaching upon the dwarven realm."
+   "answer": "Lieutenant Nevell serves the Argent Dawn near Ironforge in Dun Morogh. He rallies local defenders and investigates signs of the Scourge near the dwarven realm."
   },
   {
    "q": "Why is the Argent Dawn outside Ironforge?",
@@ -32,7 +32,7 @@
     "argent dawn in dun morogh",
     "argent dawn ironforge"
    ],
-   "answer": "Though based primarily in Lordaeron, the Argent Dawn monitors the entire continent for undead incursions. If the Lich King attempts to strike deep into allied territories like Dun Morogh, officers like Nevell are dispatched to coordinate city defenses and scout enemy movements."
+   "answer": "The Argent Dawn watches for undead incursions across the continent, though its main presence is in Lordaeron. Officers such as Nevell monitor Dun Morogh and coordinate defenses against Scourge threats."
   },
   {
    "q": "What does Lieutenant Nevell ask adventurers to do?",
@@ -40,17 +40,17 @@
     "nevell quests",
     "investigate the scourge"
    ],
-   "answer": "Nevell charges capable heroes with venturing beyond Ironforge's gates to scout and beat back nearby Scourge forces, neutralizing the undead threat before it can establish a foothold in the mountain passes."
+   "answer": "Lieutenant Nevell sends capable adventurers beyond Ironforge's gates to scout and fight nearby Scourge forces before the undead can establish a foothold in the mountain passes."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "Dwarves appreciate the Argent Dawn's watchful eye outside their mountain home, knowing that vigilance against necromancy is needed even on the cold slopes of Dun Morogh."
+   "text": "As a dwarf, you have the Argent Dawn watching over your mountain home against necromancy on Dun Morogh's cold slopes."
   },
   {
    "target": "faction:Alliance",
-   "text": "For Alliance champions heading into Ironforge, Nevell stands as a reminder that the war against the Scourge is not confined to the north."
+   "text": "As an Alliance champion entering Ironforge, you see that the war against the Scourge reaches beyond the north."
   }
  ],
  "keywords": [
@@ -71,5 +71,6 @@
  ],
  "attribution": [
   "Lieutenant Nevell"
- ]
+ ],
+ "style": 1
 }

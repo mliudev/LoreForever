@@ -21,16 +21,16 @@
    "Delivering Daffodils"
   ]
  },
- "summary": "A Free Lunch is an Alliance errand originating in Lakeshire, where the inn cook Darcy asks an adventurer to take a prepared meal to Guard Parker. Parker patrols the perilous southern road heading toward Duskwood, keeping Lakeshire's approaches clear of hostile gnolls and Blackrock orcs.",
+ "summary": "Darcy asks you to carry a prepared meal from Lakeshire to Guard Parker on the southern road. Gnolls and Blackrock orcs threaten the approaches, and the town's guards are stretched thin.",
  "sections": [
   {
    "title": "A Meal for the Road",
-   "body": "Daily life in Redridge is fraught with tension, but Darcy, a local of Lakeshire, tries to support those defending the town in her own way. Having packed a hearty meal for Guard Parker, she finds herself unable to deliver it personally. The wilderness just beyond the town gates swarms with aggressive Redridge gnolls and roaming orc warbands, making travel outside the town perimeter far too dangerous for an unarmored civilian. Instead, she relies on passing travelers to carry the ration out along the road toward Darkshire.",
+   "body": "Darcy, the cook in Lakeshire, has packed a meal for Guard Parker but cannot carry it beyond town herself. Redridge gnolls and roaming orc warbands make the roads outside the gates too dangerous for a civilian. She asks passing travelers to take the food along the road toward Darkshire, where Parker keeps watch.",
    "spoiler": 0
   },
   {
    "title": "Guarding the Border",
-   "body": "Guard Parker is stationed along the road south of Lakeshire, keeping watch over the route that connects Redridge to Duskwood. The guard detail in Redridge is stretched dangerously thin, with the Stormwind army failing to supply adequate reinforcements against the rising Redridge gnoll packs and the Blackrock clan entrenched in the mountains. Standing solitary watch amidst such hostile territory leaves sentries like Parker thoroughly worn down, making simple gestures of civilian care and hot food an essential boost to troop morale.",
+   "body": "Guard Parker watches the road south of Lakeshire, along the route toward Duskwood. Redridge's guards have too few reinforcements from the Stormwind army to face the growing gnoll packs and the Blackrock clan in the mountains. Sentries like Parker keep watch alone in hostile country, and a hot meal from town can lift their spirits.",
    "spoiler": 0
   }
  ],
@@ -42,7 +42,7 @@
     "where is parker",
     "find guard parker"
    ],
-   "answer": "Guard Parker patrols the southern dirt road leading out of Lakeshire toward the border of Duskwood and the town of Darkshire."
+   "answer": "Guard Parker patrols the southern dirt road from Lakeshire toward Duskwood and Darkshire."
   },
   {
    "q": "Why doesn't Darcy deliver the lunch herself?",
@@ -50,7 +50,7 @@
     "why cant darcy go",
     "darcy redridge"
    ],
-   "answer": "Darcy is an ordinary civilian and considers the outskirts of Lakeshire far too perilous to wander alone. Hostile gnolls and Blackrock orcs prowl right along the roadways just outside town."
+   "answer": "Darcy is a civilian and considers the outskirts of Lakeshire too dangerous to travel alone. Gnolls and Blackrock orcs prowl the roads outside town."
   },
   {
    "q": "What threats is Guard Parker dealing with?",
@@ -58,7 +58,7 @@
     "parker enemies",
     "redridge threats"
    ],
-   "answer": "Parker must hold the southern roadway against roaming gnoll packs native to the Redridge Mountains as well as aggressive Blackrock orc war parties."
+   "answer": "Parker faces Redridge gnoll packs and Blackrock orc war parties on the southern road."
   },
   {
    "q": "What happens after Guard Parker gets his lunch?",
@@ -66,7 +66,7 @@
     "a free lunch next quest",
     "parker follow up"
    ],
-   "answer": "Receiving Darcy's meal sparks Parker's gratitude, eventually prompting him to send the adventurer on further domestic errands between the guards and townspeople, beginning with a visit to the local herbalist."
+   "answer": "Darcy's meal earns Parker's gratitude. He then sends you on further errands between the guards and townspeople, beginning with a visit to the local herbalist."
   },
   {
    "q": "Why are Stormwind guards struggling to keep Redridge safe?",
@@ -74,7 +74,7 @@
     "why is lakeshire undefended",
     "stormwind neglect redridge"
    ],
-   "answer": "With King Varian Wrynn missing and the kingdom's political leadership preoccupied in Stormwind City, outlying settlements like Lakeshire have received little to no military support, leaving individual town guards heavily isolated."
+   "answer": "Stormwind has sent too few reinforcements to outlying settlements like Lakeshire, leaving the town guards to face the threats with little support."
   },
   {
    "q": "What is Darcy's promised reward?",
@@ -82,17 +82,17 @@
     "what is the free lunch",
     "darcy reward"
    ],
-   "answer": "In exchange for carrying Parker's meal through dangerous wilderness, Darcy promises to prepare and serve a free lunch to the courier upon their return to town."
+   "answer": "Darcy promises to prepare and serve you a free lunch when you return to town with Parker's meal."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Delivering Darcy's food highlights the strain placed on everyday folk and line sentries in outlying Alliance settlements that have been left largely to fend for themselves."
+   "text": "Carrying Darcy's food shows the strain on ordinary people and sentries in outlying Alliance settlements left largely to fend for themselves."
   },
   {
    "target": "profession:Cooking",
-   "text": "A warm, well-prepared ration in the field is often all that sustains an isolated sentry holding a hostile crossroads."
+   "text": "A warm meal can sustain a lone sentry keeping watch in hostile country."
   }
  ],
  "keywords": [
@@ -118,5 +118,6 @@
  ],
  "attribution": [
   "A Free Lunch"
- ]
+ ],
+ "style": 1
 }

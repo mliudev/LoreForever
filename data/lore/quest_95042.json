@@ -1,0 +1,94 @@
+{
+ "key": "quest:95042",
+ "type": "quest",
+ "name": "Seeking the Kor Gem",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95042
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Ulric Frostveil, a Forsaken in Ashenvale, sees your search for a Kor Gem as familiar work for Alliance spellcasters. He points you toward Blackfathom Deeps, where naga still use the gems.",
+ "sections": [
+  {
+   "title": "A Gem in Ashenvale",
+   "body": "Ulric asks you to bring him a Kor Gem from the ruins of Blackfathom Deeps, north of Ashenvale. He says the naga below still use the gems, which can empower magical weapons and implements. He warns you not to go alone.",
+   "spoiler": 0
+  },
+  {
+   "title": "Ulric's Interest",
+   "body": "Ulric recognizes corruption in the gem and says he can dispel the evil the naga witches infused into it. He asks whether you would sell it to him for his academic pursuits instead.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Ulric Frostveil?",
+   "aliases": [
+    "ulric frostveil",
+    "who is ulric",
+    "forsaken in ashenvale"
+   ],
+   "answer": "Ulric Frostveil is a Forsaken in Ashenvale who asks you to bring him a Kor Gem."
+  },
+  {
+   "q": "Where can I find a Kor Gem?",
+   "aliases": [
+    "kor gem location",
+    "where gem",
+    "blackfathom gem"
+   ],
+   "answer": "Ulric directs you north to Blackfathom Deeps, where naga still use Kor Gems."
+  },
+  {
+   "q": "What are Kor Gems used for?",
+   "aliases": [
+    "kor gem use",
+    "gem magic",
+    "what does kor gem do"
+   ],
+   "answer": "Kor Gems are sometimes used to empower magical weapons and implements."
+  },
+  {
+   "q": "Why does Ulric want a Kor Gem?",
+   "aliases": [
+    "ulric wants gem",
+    "why gem",
+    "frostveil gem"
+   ],
+   "answer": "Ulric asks you to bring him a Kor Gem, and says he may value it for his academic pursuits."
+  },
+  {
+   "q": "Who still uses Kor Gems?",
+   "aliases": [
+    "naga gems",
+    "who uses kor gems",
+    "blackfathom naga"
+   ],
+   "answer": "The naga in Blackfathom Deeps still use Kor Gems."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "ashenvale",
+  "blackfathom deeps",
+  "forsaken",
+  "kor gem",
+  "naga",
+  "ulric frostveil"
+ ],
+ "related": [
+  "zone:ashenvale",
+  "zone:blackfathom",
+  "topic:naga",
+  "topic:forsaken",
+  "topic:alliance"
+ ],
+ "style": 1,
+ "attribution": [
+  "In-game quest text: Seeking the Kor Gem"
+ ]
+}

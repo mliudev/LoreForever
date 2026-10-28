@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Scarlet Monastery"
  },
- "summary": "Perched in the northeastern hills of Tirisfal Glades, the Scarlet Monastery was once a peaceful center of scholarship and worship for the Church of the Holy Light. In the wake of Lordaeron's fall, it has become a heavily fortified redoubt for the fanatical Scarlet Crusade. Anyone approaching without red colors is treated as an infected carrier of the plague and executed on sight.",
+ "summary": "Scarlet Monastery now shelters the fanatical Scarlet Crusade in Tirisfal Glades. Once a peaceful center of scholarship and worship for the Church of the Holy Light, it has become a fortified redoubt. Anyone approaching without red colors is treated as a carrier of the plague and executed on sight.",
  "sections": [
   {
    "title": "From Sanctuary to Stronghold",
-   "body": "Before the Third War, this complex was a proud bastion of Lordaeron's priesthood, serving as a vital center for theological study, sacred archives, and paladin training. When the Kingdom of Lordaeron fell to the Scourge, surviving defenders held the site against the undead. As they devolved into the zealous Scarlet Crusade, they fortified the cloister, turning its peaceful libraries, gardens, and cathedral into an armed citadel.",
+   "body": "Before the Third War, the Scarlet Monastery was a proud center of Lordaeron's priesthood. Its halls held theological studies and sacred archives, and paladins trained there. When the Scourge brought down the kingdom, surviving defenders held the site against the undead. Those survivors became the zealous Scarlet Crusade and fortified the cloister. Libraries, gardens, and the cathedral became parts of an armed stronghold.",
    "spoiler": 0
   },
   {
    "title": "A Bastion of Fanaticism",
-   "body": "Divided into four distinct wings\u2014a defiled graveyard, an expansive library, an armory, and a grand cathedral\u2014the Monastery now houses a massive garrison commanded by Scarlet Commander Mograine and High Inquisitor Whitemane. The Crusaders here view all outsiders, whether living or undead, Alliance or Horde, as plague-bearers. While the Forsaken seek to eliminate the garrison threatening their very doorstep, Alliance leadership increasingly views the Crusade's violent extremism as a dangerous perversion of the Light.",
+   "body": "Four wings make up the Scarlet Monastery: a defiled graveyard, an expansive library, an armory, and a grand cathedral. Scarlet Commander Mograine and High Inquisitor Whitemane command its massive garrison. The Crusaders see every outsider as a plague-bearer, living or undead, Alliance or Horde. The Forsaken seek to destroy the garrison that threatens their doorstep, while Alliance leaders increasingly see the Crusade's violent extremism as a dangerous perversion of the Light.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "why did they build monastery in tirisfal",
     "monastery purpose"
    ],
-   "answer": "It was originally built during the reign of Lordaeron as a peaceful sanctuary for study, housing sacred scriptures and training paladins. Surviving crusaders seized and fortified it after the kingdom fell to serve as a military staging ground against the undead in Tirisfal Glades."
+   "answer": "Lordaeron built the Scarlet Monastery as a peaceful sanctuary for study, sacred scriptures, and paladin training. After the kingdom fell, surviving crusaders seized and fortified it as a military staging ground against the undead in Tirisfal Glades."
   },
   {
    "q": "Why does the Scarlet Crusade attack Alliance members?",
@@ -37,7 +37,7 @@
     "are scarlet crusade alliance",
     "why do crusaders attack humans"
    ],
-   "answer": "The Crusade's zealotry has spiraled into complete paranoia. They believe anyone who has traveled outside their secured compounds could be a carrier of the Scourge's plague of undeath, and they refuse to take chances with outsiders regardless of race or allegiance."
+   "answer": "The Scarlet Crusade believes anyone who has traveled beyond its secured compounds could carry the Scourge's plague of undeath. Its zealotry has grown into complete paranoia, and it takes no chances with outsiders, whatever their race or allegiance."
   },
   {
    "q": "Who leads the forces within the Monastery?",
@@ -46,7 +46,7 @@
     "monastery leaders",
     "who runs the scarlet crusade here"
    ],
-   "answer": "The garrison is held by Scarlet Commander Mograine, who directs military operations from within the cathedral, and High Inquisitor Whitemane, a zealous priestess renowned for her devotion and resurrection powers."
+   "answer": "Scarlet Commander Mograine directs military operations from the cathedral, while High Inquisitor Whitemane commands the garrison. She is a zealous priestess renowned for her devotion and powers of resurrection."
   },
   {
    "q": "What are the four wings of the complex?",
@@ -55,17 +55,17 @@
     "what wings are in scarlet monastery",
     "monastery layout"
    ],
-   "answer": "The complex is split into four distinct areas: the Graveyard, overrun by restless dead and torture chambers; the Library, preserving historical archives and tomes; the Armory, where the Crusade manufactures weapons and armor; and the Cathedral, the spiritual heart and commander's seat."
+   "answer": "The four wings are the Graveyard, with restless dead and torture chambers; the Library, with historical archives and tomes; the Armory, where the Crusade makes weapons and armor; and the Cathedral, the spiritual heart and commander's seat."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "The Monastery sits right on the Undercity's doorstep, making its heavily armed crusaders an active, existential threat to Forsaken territory."
+   "text": "The Monastery sits at the Undercity's doorstep. Its heavily armed crusaders pose an active, existential threat to Forsaken territory."
   },
   {
    "target": "class:Paladin",
-   "text": "The complex once trained paladins under the Silver Hand, making its corruption into an intolerant bastion of fanaticism a bitter sight for faithful holy warriors."
+   "text": "As a paladin, you may find it bitter to see a place that once trained paladins under the Silver Hand corrupted into an intolerant stronghold of fanaticism."
   }
  ],
  "keywords": [
@@ -92,5 +92,6 @@
  ],
  "attribution": [
   "Scarlet Monastery"
- ]
+ ],
+ "style": 1
 }

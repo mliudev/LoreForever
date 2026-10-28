@@ -17,16 +17,16 @@
   "wiki": "The Eye of Paleth (Classic)",
   "chain": []
  },
- "summary": "This quest sees an adventurer recover a blackened, pulsating gem known as the Cursed Eye of Paleth from the flooded wreckage of the Intrepid. Recovered at the behest of the haunted sailor Fitzsimmons, the malevolent artifact must be brought to Menethil Harbor so the dwarven priest Glorin Steelbrow can divine how to purge its blight.",
+ "summary": "Fitzsimmons asks you to recover The Eye of Paleth from the sunken Intrepid. Bring the cursed gem to Glorin Steelbrow in Menethil Harbor, where the dwarven priest can seek a way to purge its blight.",
  "sections": [
   {
    "title": "A Blighted Relic",
-   "body": "Beneath the treacherous waters of the Baradin Bay, resting inside the locked strongbox of the sunken vessel Intrepid, lies no ordinary treasure. The chest yields a blackened orb pulsing with an unsettling radiance: an Eye of Paleth. Rather than gleaning sacred light, this particular stone has been warped into an engine of suffering, heavily tied to the restless spirits and doom that claimed the sailors of the Third Fleet.",
+   "body": "The locked strongbox aboard the Intrepid holds a blackened orb that pulses beneath the waters of Baradin Bay. It is The Eye of Paleth, warped from sacred light into a source of suffering. Its corruption is bound to the restless spirits and doom that claimed the sailors of the Third Fleet.",
    "spoiler": 0
   },
   {
    "title": "Seeking the Priesthood",
-   "body": "Recognizing that such dark magic exceeds common salvage, the artifact is brought directly ashore to Menethil Harbor. There, Glorin Steelbrow, a dwarven priest of the Holy Light, inspects the anomaly. While stunned that such a sacred device was ever in the possession of the Third Fleet, Glorin immediately recognizes its unnatural taint and begins preparing the rites necessary to undo its dark influence.",
+   "body": "Glorin Steelbrow examines the relic in Menethil Harbor. The dwarven priest of the Holy Light is stunned that such a sacred device belonged to the Third Fleet. He recognizes its unnatural taint and begins preparing rites to undo its dark influence.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "what is paleth",
     "cursed eye of paleth"
    ],
-   "answer": "The Eye of Paleth is an ancient and powerful sacred gem. Normally associated with holy energies, this particular specimen was aboard the sunken Third Fleet vessel Intrepid and has become twisted and cursed, radiating dark magic."
+   "answer": "The Eye of Paleth is an ancient, powerful sacred gem, normally tied to holy energies. The specimen aboard the sunken Third Fleet vessel Intrepid has become twisted and cursed, radiating dark magic."
   },
   {
    "q": "Where was the Eye recovered?",
@@ -47,7 +47,7 @@
     "eye of paleth location",
     "intrepid strongbox"
    ],
-   "answer": "It is recovered from a locked strongbox aboard the flooded wreck of the Intrepid, resting just off the mist-shrouded coast of the Wetlands."
+   "answer": "You recover the Eye from a locked strongbox in the flooded wreck of the Intrepid, just off the coast of the Wetlands."
   },
   {
    "q": "Why does Glorin Steelbrow care about the artifact?",
@@ -55,7 +55,7 @@
     "who is glorin steelbrow",
     "why steelbrow"
    ],
-   "answer": "Glorin Steelbrow is a dwarven priest stationed in Menethil Harbor. As a practitioner of the Holy Light, he possesses the sacred knowledge required to recognize ancient relics and begin the rituals necessary to break sinister curses."
+   "answer": "Glorin Steelbrow is a dwarven priest stationed in Menethil Harbor. His knowledge of the Holy Light lets him recognize ancient relics and begin rites to break sinister curses."
   },
   {
    "q": "How does Fitzsimmons know about the Eye?",
@@ -63,7 +63,7 @@
     "fitzsimmons connection",
     "why did fitzsimmons send me"
    ],
-   "answer": "Fitzsimmons is a survivor of the Third Fleet who remains haunted by the tragedy. Traumatized and taking refuge in Menethil's tavern, he knew of the dark relic hidden in the wreckage that tormented his fallen crewmates."
+   "answer": "Fitzsimmons survived the tragedy of the Third Fleet and remains haunted by it. Taking refuge in Menethil's tavern, he knew of the dark relic hidden in the wreckage, which tormented his fallen crewmates."
   },
   {
    "q": "Why is the Eye cursed?",
@@ -71,7 +71,7 @@
     "why is it cursed",
     "eye curse origin"
    ],
-   "answer": "While its exact corruption remains tied to the supernatural demise and restless undead haunting the wrecked ships of the Third Fleet, the artifact absorbed dark energies during or after the catastrophe that sent the fleet to the ocean floor."
+   "answer": "The Eye's corruption is tied to the supernatural deaths and restless undead haunting the wrecked ships of the Third Fleet. It absorbed dark energies during or after the catastrophe that sent the fleet to the ocean floor."
   },
   {
    "q": "What happens after giving the Eye to Glorin?",
@@ -79,21 +79,21 @@
     "next quest",
     "what to do with the eye"
    ],
-   "answer": "Glorin examines the cursed gem and determines that it cannot be left in its blighted state, directing the adventurer to cleanse the relic of its corrupting influence."
+   "answer": "Glorin examines the cursed gem and sees it cannot remain blighted. He directs you to cleanse the relic of its corrupting influence."
   }
  ],
  "angles": [
   {
    "target": "class:Priest",
-   "text": "Dealing with the defilement of a sacred artifact like the Eye of Paleth makes this investigation directly relevant to priests of the Holy Light."
+   "text": "As a priest, the defilement of a sacred artifact like The Eye of Paleth makes this investigation matter to your faith in the Holy Light."
   },
   {
    "target": "race:Dwarf",
-   "text": "Uncovering lost artifacts off the shores of Khaz Modan touches upon the dwarven dedication to reclaiming hidden relics, aided by Ironforge clergy like Glorin Steelbrow."
+   "text": "As a dwarf, you share a dedication to reclaiming lost relics off the shores of Khaz Modan, with Ironforge clergy like Glorin Steelbrow to aid you."
   },
   {
    "target": "faction:Alliance",
-   "text": "The Third Fleet was an Alliance expedition whose destruction left Menethil Harbor vulnerable; retrieving its remnants helps bring closure to lost comrades."
+   "text": "As an Alliance member, you know the Third Fleet's destruction left Menethil Harbor vulnerable. Recovering its remnants can bring closure to lost comrades."
   }
  ],
  "keywords": [
@@ -116,5 +116,6 @@
  ],
  "attribution": [
   "The Eye of Paleth (Classic)"
- ]
+ ],
+ "style": 1
 }

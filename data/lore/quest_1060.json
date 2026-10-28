@@ -22,16 +22,16 @@
    "Letter to Jin'Zil (quest)"
   ]
  },
- "summary": "Letter to Jin'Zil is a Horde delivery quest entrusted to adventurers who have slain Serena Bloodfeather in the northern Barrens. Orc rogue Darsok Swiftdagger sends you across the border into the rugged crags of Stonetalon Mountains to deliver word of the harpy matriarch's demise to his old friend, Witch Doctor Jin'Zil.",
+ "summary": "Darsok Swiftdagger sends you from the northern Barrens into Stonetalon Mountains with news for his old friend, Witch Doctor Jin'Zil. Serena Bloodfeather has fallen, and Darsok wants Jin'Zil to know.",
  "sections": [
   {
    "title": "A Message into the Mountains",
-   "body": "After the harpy threat around the northern Barrens is systematically dismantled, Darsok Swiftdagger reveals that the winged raiders were never native to the scrublands. The Witchwing and Bloodfeather broods descended from the rugged ridges of the Stonetalon Mountains to the northwest. Impressed by your prowess in dispatching Serena Bloodfeather, Darsok sends you into those dangerous peaks to carry news of her death to an old acquaintance, Witch Doctor Jin'Zil, residing at the troll settlement of Malaka'jin.",
+   "body": "Darsok Swiftdagger sends you into Stonetalon Mountains after Serena Bloodfeather falls. The Witchwing and Bloodfeather broods came from the rugged ridges northwest of the northern Barrens, not the scrublands. Now that you have defeated Serena, Darsok asks you to carry the news of her death to his old acquaintance, Witch Doctor Jin'Zil. Jin'Zil lives at the troll settlement of Malaka'jin, in the dangerous mountain peaks.",
    "spoiler": 0
   },
   {
    "title": "Echoes of the Bloodfury Claws",
-   "body": "Reaching Jin'Zil in his shaded cave reveals an older chapter of Horde history. Upon hearing that Serena Bloodfeather has fallen, the troll witch doctor recalls the earlier campaign when the shadow hunter Rokhan and the wandering Beastmaster Rexxar slew Serena's elder sister, Bloodfeather. The eradication of Serena brings a sense of finality to the longstanding feud between the Horde's frontier outposts and the bloodthirsty harpies of Kalimdor.",
+   "body": "Witch Doctor Jin'Zil remembers an earlier campaign when he hears that Serena Bloodfeather has fallen. The shadow hunter Rokhan and the wandering Beastmaster Rexxar slew Serena's elder sister, Bloodfeather. Serena's death brings a sense of finality to the long feud between the Horde's frontier outposts and Kalimdor's bloodthirsty harpies.",
    "spoiler": 1
   }
  ],
@@ -43,7 +43,7 @@
     "where to get quest",
     "who starts letter to jin'zil"
    ],
-   "answer": "Darsok Swiftdagger gives the quest at the Crossroads in the Barrens. He offers it only after you complete the hunt for Serena Bloodfeather."
+   "answer": "Darsok Swiftdagger gives you the task at the Crossroads in the Barrens, after you complete the hunt for Serena Bloodfeather."
   },
   {
    "q": "Where can I find Witch Doctor Jin'Zil?",
@@ -52,7 +52,7 @@
     "jin'zil location",
     "malaka'jin location"
    ],
-   "answer": "Witch Doctor Jin'Zil resides inside a cave at Malaka'jin, a Darkspear troll encampment located just off the main path entering the Stonetalon Mountains from the Barrens."
+   "answer": "Witch Doctor Jin'Zil lives in a cave at Malaka'jin, a Darkspear troll encampment just off the main path into Stonetalon Mountains from the Barrens."
   },
   {
    "q": "Why does Darsok send you to Stonetalon Mountains?",
@@ -60,7 +60,7 @@
     "why go to stonetalon",
     "why darsok sends letter"
    ],
-   "answer": "Darsok wants to inform his old friend Jin'Zil that the harpy threat has been broken with Serena Bloodfeather's death, while also steering a capable adventurer toward the wider challenges awaiting the Horde in the Stonetalon peaks."
+   "answer": "Darsok sends you to tell his old friend Jin'Zil that Serena Bloodfeather's death has broken the harpy threat. He also sends a capable adventurer toward the wider challenges facing the Horde in the Stonetalon peaks."
   },
   {
    "q": "What previous sister of Serena is Jin'Zil referring to?",
@@ -69,7 +69,7 @@
     "rokhan and rexxar harpy",
     "bloodfury"
    ],
-   "answer": "Jin'Zil mentions Bloodfeather, an elder harpy who terrorized Kalimdor years earlier. She was slain by the Shadow Hunter Rokhan and the half-ogre warrior Rexxar during their travels alongside the founding Horde."
+   "answer": "Jin'Zil refers to Bloodfeather, Serena's elder sister, who terrorized Kalimdor years earlier. The shadow hunter Rokhan and the half-ogre warrior Rexxar slew her while traveling with the founding Horde."
   },
   {
    "q": "Is this quest part of a larger chain?",
@@ -78,7 +78,7 @@
     "prerequisites",
     "what leads to this"
    ],
-   "answer": "Yes. It serves as the conclusion to the northern Barrens harpy hunting chain, following Harpy Raiders, Harpy Lieutenants, and Serena Bloodfeather, while acting as a breadcrumb into the Stonetalon Mountains."
+   "answer": "Yes. This follows Harpy Raiders, Harpy Lieutenants, and Serena Bloodfeather, and concludes the northern Barrens harpy hunt. It also points toward Stonetalon Mountains."
   },
   {
    "q": "What faction can undertake this task?",
@@ -86,17 +86,17 @@
     "is this horde only",
     "can alliance do this quest"
    ],
-   "answer": "This is strictly a Horde quest, as both Darsok Swiftdagger and Witch Doctor Jin'Zil serve the interests of the Horde frontier."
+   "answer": "Only the Horde can undertake this work. Darsok Swiftdagger and Witch Doctor Jin'Zil both serve the Horde frontier."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "Delivering this letter transitions Horde warriors from pacifying the internal trade routes of the Barrens into establishing footholds in the contentious Stonetalon Mountains."
+   "text": "As a Horde warrior, you carry the effort to secure the Barrens' internal trade routes into the contested Stonetalon Mountains."
   },
   {
    "target": "race:Troll",
-   "text": "Jin'Zil's cave at Malaka'jin serves as a key spiritual and tactical outpost for Darkspear trolls seeking to secure the mountain approaches."
+   "text": "As a troll, you find Jin'Zil's cave at Malaka'jin, an important spiritual and tactical outpost for Darkspear trolls securing the mountain approaches."
   }
  ],
  "keywords": [
@@ -121,5 +121,6 @@
  ],
  "attribution": [
   "Letter to Jin'Zil (quest)"
- ]
+ ],
+ "style": 1
 }

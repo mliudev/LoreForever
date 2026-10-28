@@ -17,16 +17,16 @@
   "wiki": "Calling in the Reserves",
   "chain": []
  },
- "summary": "\"Calling in the Reserves\" is a Horde courier task entrusted to adventurers resting at Sun Rock Retreat. Maggran Earthbinder sends you south to the edge of the Barrens with orders to relieve an exhausted sentry watching the Great Lift.",
+ "summary": "At Sun Rock Retreat, Calling in the Reserves sends you south to relieve a weary sentry at the Great Lift. Maggran Earthbinder gives you a letter for Grish Longrunner, who has stood watch far from home.",
  "sections": [
   {
    "title": "A Long-Awaited Relief",
-   "body": "Even in an era of relative prosperity following the Third War, maintaining garrisons across central Kalimdor tests the Horde's resources. At Sun Rock Retreat in the Stonetalon Mountains, Maggran Earthbinder oversees logistics and troop welfare. Recognizing that seasoned soldiers wear thin under endless watch duty, Maggran dispatches a letter of reassignment south to the Great Lift, where a young sentry named Grish Longrunner has been standing guard far from home.",
+   "body": "Maggran Earthbinder keeps troop welfare and supplies in hand at Sun Rock Retreat in the Stonetalon Mountains. Across central Kalimdor, the Horde strains to keep its garrisons staffed, even in the years after the Third War. Maggran knows that endless watch duty wears seasoned soldiers down. He sends a reassignment letter south to the Great Lift, where Grish Longrunner has stood guard far from home.",
    "spoiler": 0
   },
   {
    "title": "Watching the Lift",
-   "body": "The Great Lift serves as the singular engineering artery linking the high plateaus of the southern Barrens down into the wind-carved canyons of Thousand Needles. Handing the letter over to Grish relieves him of an isolated and monotonous watch over the lift mechanisms, clearing the way for him to finally return to his family and allowing fresh reserves to step in.",
+   "body": "The Great Lift links the high southern Barrens to the canyons of Thousand Needles. When Grish receives Maggran's letter, he can leave his lonely watch over the lift mechanisms and return to his family. Fresh reserves can take his place.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "where to get calling in the reserves",
     "maggran earthbinder location"
    ],
-   "answer": "Maggran Earthbinder gives the quest at Sun Rock Retreat, nestled high within the Stonetalon Mountains."
+   "answer": "Maggran Earthbinder gives you the letter at Sun Rock Retreat in the Stonetalon Mountains."
   },
   {
    "q": "Where do I deliver Maggran's letter?",
@@ -47,7 +47,7 @@
     "where is grish",
     "where is the great lift"
    ],
-   "answer": "You must take Maggran's Reserve Letter south through the Barrens all the way to the Great Lift, the massive wooden elevator structure perched on the border overlooking Thousand Needles."
+   "answer": "Take Maggran's Reserve Letter south through the Barrens to the Great Lift, on the border above Thousand Needles."
   },
   {
    "q": "Why does Grish Longrunner need relief?",
@@ -56,7 +56,7 @@
     "why grish leaves",
     "great lift sentry duty"
    ],
-   "answer": "Grish has spent extended duty stationed alone guarding the lift mechanisms. He submitted a formal request some time ago to be relieved so he could travel home and visit his family."
+   "answer": "Grish Longrunner has stood alone watch over the lift mechanisms for a long time. He asked to be relieved so he could travel home and visit his family."
   },
   {
    "q": "Is there any combat required for this quest?",
@@ -65,7 +65,7 @@
     "peaceful quest",
     "courier task"
    ],
-   "answer": "No combat is required. It is purely a messenger task intended to steer travelers south toward Thousand Needles."
+   "answer": "No combat is required. You carry a message south toward Thousand Needles."
   },
   {
    "q": "Which faction gains reputation from completing this?",
@@ -74,7 +74,7 @@
     "what rep does this give",
     "thunder bluff rep"
    ],
-   "answer": "Delivering the letter to Grish grants reputation with Thunder Bluff, reflecting the tauren presence and administration over the route."
+   "answer": "Delivering the letter to Grish grants you reputation with Thunder Bluff, whose tauren oversee the route."
   },
   {
    "q": "Where does this quest lead next?",
@@ -83,17 +83,17 @@
     "where to go after",
     "thousand needles breadcrumb"
    ],
-   "answer": "The delivery brings you right to the top of the Great Lift, positioning you to ride the elevators down into the canyons of Thousand Needles to explore further Horde outposts."
+   "answer": "The delivery brings you to the top of the Great Lift. You can ride it down into the canyons of Thousand Needles and explore more Horde outposts."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "The mission illustrates how Horde commanders manage their forces across the Kalimdor frontier, rotating sentries to keep morale and watchposts steady."
+   "text": "As a member of the Horde, you see commanders rotate sentries across the Kalimdor frontier to keep morale and watchposts steady."
   },
   {
    "target": "race:Tauren",
-   "text": "Helping rotate sentries at the Great Lift supports the vital passage connecting the southern reaches of Kalimdor toward Thunder Bluff's broader territories."
+   "text": "As a tauren, you help keep the Great Lift passage open toward Thunder Bluff's wider territories."
   }
  ],
  "keywords": [
@@ -118,5 +118,6 @@
  ],
  "attribution": [
   "Calling in the Reserves"
- ]
+ ],
+ "style": 1
 }

@@ -17,16 +17,16 @@
   "wiki": "The Doomed Fleet",
   "chain": []
  },
- "summary": "The Doomed Fleet is a journey northward dispatched by Bishop Farthing in Stormwind's Cathedral of Light. Seeking a way to defeat the powerful necromancer Morbent Fel, heroes are sent across Khaz Modan to the drowned wreckage off the coast of the Wetlands.",
+ "summary": "Bishop Farthing sends you north from Stormwind to seek a way past Morbent Fel's wards. The trail leads across Khaz Modan to the wreckage of Kul Tiras's Third Fleet off the Wetlands.",
  "sections": [
   {
    "title": "A Weapon of Holy Truth",
-   "body": "Conventional steel has proven ineffective against the dark wards shielding Morbent Fel at his retreat on the Forlorn Rowe. To pierce such necromantic defenses, Bishop Farthing instructs adventurers that they must forge a weapon bound to the Holy Light. The key component is Lightforge Iron, a rare and consecrated metal whose strikes carry holy truth, cutting through sorcerous protections that turn aside ordinary blades.",
+   "body": "Morbent Fel's wards turn aside ordinary steel at his retreat on the Forlorn Rowe. Bishop Farthing sends you to seek a weapon bound to the Holy Light. Its key is Lightforge Iron, a rare consecrated metal whose strikes carry holy truth and pierce sorcerous protections.",
    "spoiler": 0
   },
   {
    "title": "The Wreck of the Third Fleet",
-   "body": "Unfortunately, Lightforge Iron is not kept in ready supply in besieged Duskwood. Farthing recalls that years ago, the Third Fleet of the island nation of Kul Tiras met catastrophe along the treacherous shores of the Wetlands north of Ironforge. Aboard one of those sunken galleons was a shipment of the precious ore. Adventurers must travel all the way to Menethil Harbor to consult Glorin Steelbrow, a dwarven contact who knows the marshes and their shipwrecks best.",
+   "body": "Duskwood has no supply of Lightforge Iron ready to hand. Bishop Farthing recalls that Kul Tiras's Third Fleet sank years ago along the dangerous Wetlands coast, north of Ironforge. One of its galleons carried a shipment of the precious ore. You travel to Menethil Harbor to meet Glorin Steelbrow, a dwarven contact who knows the marshes and their wrecks.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "why menethil harbor",
     "wetlands trip"
    ],
-   "answer": "Morbent Fel's dark enchantments protect him from ordinary attacks. Bishop Farthing knows that only a weapon forged from sacred Lightforge Iron can strip those wards away, and the only known shipment lies among the wrecked ships of Kul Tiras's Third Fleet off Menethil Harbor."
+   "answer": "Morbent Fel's dark enchantments turn aside ordinary attacks. Bishop Farthing says only a weapon forged from sacred Lightforge Iron can break through those wards. The known shipment lies among Kul Tiras's wrecked Third Fleet off Menethil Harbor."
   },
   {
    "q": "Who is Morbent Fel?",
@@ -47,7 +47,7 @@
     "who is the necromancer",
     "duskwood necromancer"
    ],
-   "answer": "Morbent Fel is a sinister necromancer residing on the Forlorn Rowe in Duskwood. His sorcery has fueled much of the undead uprising plaguing the region, making his defeat essential for Darkshire's survival."
+   "answer": "Morbent Fel is a necromancer who dwells on the Forlorn Rowe in Duskwood. His sorcery has fueled much of the undead uprising threatening the region, and Darkshire's survival depends on defeating him."
   },
   {
    "q": "Who is Glorin Steelbrow?",
@@ -55,7 +55,7 @@
     "who is steelbrow",
     "steelbrow role"
    ],
-   "answer": "Glorin Steelbrow is a dwarf stationed at Menethil Harbor in the Wetlands. He serves as an ally to the Church of the Holy Light and possesses deep knowledge of the coastline, shipwrecks, and salvage operations in the marsh."
+   "answer": "Glorin Steelbrow is a dwarf at Menethil Harbor in the Wetlands. He is an ally of the Church of the Holy Light and knows the coastline, shipwrecks and salvage work in the marsh."
   },
   {
    "q": "What is Lightforge Iron?",
@@ -64,7 +64,7 @@
     "lightforge metal",
     "blessed iron"
    ],
-   "answer": "Lightforge Iron is a specially consecrated metal prized by the priesthood. Arms hammered from it strike with holy power, capable of dispelling or piercing dark shields and necromantic curses that defy ordinary iron."
+   "answer": "Lightforge Iron is a specially consecrated metal prized by the priesthood. Weapons forged from it carry holy power that can pierce dark shields and necromantic curses ordinary iron cannot overcome."
   },
   {
    "q": "What happened to the Third Fleet of Kul Tiras?",
@@ -73,7 +73,7 @@
     "kul tiras ships wetlands",
     "how did ships sink"
    ],
-   "answer": "Years ago, the Third Fleet of Kul Tiras was wrecked and sunk along the jagged, swampy coast of the Wetlands. Their hulls remain submerged off the shore, holding lost cargo and defended by drowned sailors and aquatic predators."
+   "answer": "Years ago, Kul Tiras's Third Fleet sank along the rough, swampy Wetlands coast. Its hulls still lie beneath the water, with lost cargo and drowned sailors and aquatic predators among the wrecks."
   },
   {
    "q": "Does this quest involve any fighting right away?",
@@ -81,25 +81,25 @@
     "is there combat",
     "just travel quest"
    ],
-   "answer": "This particular leg is entirely a courier quest. It requires a lengthy journey out of Duskwood, through the Kingdom of Stormwind and Khaz Modan, down to Menethil Harbor to make contact with Glorin Steelbrow."
+   "answer": "You make this leg as a courier, traveling from Duskwood through the Kingdom of Stormwind and Khaz Modan to Menethil Harbor, where you contact Glorin Steelbrow."
   }
  ],
  "angles": [
   {
    "target": "class:Paladin",
-   "text": "Seeking holy metal to smite an unholy necromancer exemplifies the Paladin calling to purge darkness using weapons sanctified by the Light."
+   "text": "As a Paladin, you seek holy metal to strike down an unholy necromancer, using weapons sanctified by the Light to purge darkness."
   },
   {
    "target": "class:Priest",
-   "text": "Acting under the guidance of Bishop Farthing connects priests directly to the Church's ancient knowledge of blessed relics and consecrated ores."
+   "text": "As a Priest, you follow Bishop Farthing's guidance and the Church's old knowledge of blessed relics and consecrated ores."
   },
   {
    "target": "faction:Alliance",
-   "text": "This quest highlights the logistical span of the Alliance, linking the isolated human towns of the south to dwarven harbors and ancient maritime routes."
+   "text": "As an Alliance traveler, you connect the isolated human towns of the south with dwarven harbors and ancient sea routes."
   },
   {
    "target": "profession:Blacksmithing",
-   "text": "Smiths will appreciate the rare lore of Lightforge Iron, a metal imbued with faith that requires master craftsmanship to shape."
+   "text": "As a Blacksmith, you learn of rare Lightforge Iron, a metal imbued with faith and shaped by master craftsmanship."
   }
  ],
  "keywords": [
@@ -125,5 +125,6 @@
  ],
  "attribution": [
   "The Doomed Fleet"
- ]
+ ],
+ "style": 1
 }

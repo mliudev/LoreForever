@@ -10,16 +10,16 @@
    "quest:252"
   ]
  },
- "summary": "The Translated Letter is the deciphered message penned by the hermit Abercrombie and translated by Sirra Von'Indi in Darkshire. It must be carried urgently to Lord Ello Ebonlocke, who needs to understand the warning it contains.",
+ "summary": "In Darkshire, Sirra Von'Indi translates Abercrombie's letter for Mayor Ello Ebonlocke. The message reveals what the hermit made with the supplies brought to him.",
  "sections": [
   {
    "title": "A Gruesome Revelation",
-   "body": "What began as errands of mercy for a seemingly helpless hermit in Raven Hill takes a dark turn with this parchment. Written in an obscure hand, Abercrombie's message to Mayor Ello Ebonlocke remained an enigma until brought to Sirra Von'Indi for translation. The decoded text lays bare the hermit's true identity as the Embalmer. Rather than living in harmless solitude, Abercrombie used the supplies brought to him to construct a monstrous abomination named Stitches, unleashing the hulking creation to trample and slaughter the people of Darkshire.",
+   "body": "The errands began as acts of mercy for a seemingly helpless hermit in Raven Hill. Abercrombie's obscure message to Mayor Ello Ebonlocke remained a mystery until Sirra Von'Indi translated it. The words reveal that the hermit is the Embalmer. He used the supplies brought to him to build Stitches, a monstrous abomination, then unleashed the hulking creation on Darkshire's people to trample and slaughter them.",
    "spoiler": 1
   },
   {
    "title": "The Price of Good Intentions",
-   "body": "Presenting the translated missive to Lord Ello Ebonlocke drains all color from the mayor's face. While the traveler's assistance was offered out of genuine goodwill, the note proves that Abercrombie played them for a fool, using their labor to fashion an instrument of absolute slaughter. As the town council scrambles to marshal the Night Watch, the deciphered note serves as a chilling testament to how easily charity can be twisted into devastation across the haunted roads of Duskwood.",
+   "body": "When the translated message is presented to Lord Ello Ebonlocke, the mayor's face drains of color. The traveler's help came from goodwill, but Abercrombie used that labor to build an instrument of slaughter. As the town council scrambles to marshal the Night Watch, the letter reveals how charity can be twisted into devastation on Duskwood's haunted roads.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "what did abercrombie write",
     "what does it say"
    ],
-   "answer": "It contains an alarming message from Abercrombie for Lord Ello Ebonlocke. Its full contents are revealed when the translated note is delivered in Darkshire."
+   "answer": "The letter carries an alarming message from Abercrombie to Lord Ello Ebonlocke. Its full contents are revealed when you deliver the translated note to him in Darkshire."
   },
   {
    "q": "Who translates the letter?",
@@ -40,7 +40,7 @@
     "who decoded the letter",
     "sirra von indi letter"
    ],
-   "answer": "Sirra Von'Indi, a scholar residing in Darkshire, translates Abercrombie's cryptic handwriting and warns you to hurry back to Lord Ello with the alarming news."
+   "answer": "Sirra Von'Indi, a scholar in Darkshire, translates Abercrombie's cryptic handwriting and warns you to hurry back to Lord Ello with the alarming news."
   },
   {
    "q": "What happens when Ello reads the letter?",
@@ -49,7 +49,7 @@
     "turning in translated letter",
     "what happens after translation"
    ],
-   "answer": "Ello is deeply alarmed by the translation. Bring it to him to learn what it means for Darkshire."
+   "answer": "Ello is deeply alarmed by the translation. Bring the letter to him to learn what it means for Darkshire."
   },
   {
    "q": "Can I throw away the Translated Letter after the quest?",
@@ -58,13 +58,13 @@
     "can i destroy translated letter",
     "keep translated letter"
    ],
-   "answer": "Yes. Once Lord Ello inspects the parchment and advances the town's defense, the letter remains in your pack as a souvenir and serves no further functional purpose."
+   "answer": "Yes. Once Lord Ello inspects the parchment and advances the town's defense, the letter remains in your pack as a souvenir and has no further use."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "The missive marks a devastating moment of reckoning for Alliance travelers in Duskwood, proving that even pure intentions can be weaponized against the fragile defenders of Darkshire."
+   "text": "As an Alliance traveler in Duskwood, you learn how good intentions can be turned against Darkshire's fragile defenders."
   }
  ],
  "keywords": [
@@ -90,5 +90,6 @@
  "attribution": [
   "Translated Letter",
   "Translation to Ello"
- ]
+ ],
+ "style": 1
 }

@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Stonewatch Tower"
  },
- "summary": "Stonewatch Tower is a stone guard tower standing within the overrun stronghold of Stonewatch in northeastern Redridge. Once maintained by the defenders of Lakeshire, the outpost was captured by the Blackrock clan to monitor the surrounding ridges and secure their mountain bastion.",
+ "summary": "Blackrock sentinels hold Stonewatch Tower in northeastern Redridge. Once Lakeshire's outpost, it now helps the clan watch the ridges and guard its mountain stronghold.",
  "sections": [
   {
    "title": "A Fallen Watchpost",
-   "body": "Built by the Kingdom of Stormwind to guard the high mountain passes above Lake Everstill, Stonewatch Tower served as the forward scouting sibling to Stonewatch Keep. From its elevated vantage point, sentries could easily watch the eastern ridges and alert Lakeshire to any threats advancing from the Burning Steppes. That early warning network collapsed when Warlord Gath'Ilzogg's Blackrock orcs swept down from the heights, overrunning the human defenders and claiming the stronghold for their own war effort. Today, the tower bristles with Blackrock sentinels, ensuring no Alliance scouts approach the fortress undetected.",
+   "body": "Stonewatch Tower rises above Lake Everstill, guarding the high mountain passes. The Kingdom of Stormwind built it as a forward scout for Stonewatch Keep. From its heights, sentries watched the eastern ridges and warned Lakeshire of threats coming from the Burning Steppes. Warlord Gath'Ilzogg's Blackrock orcs swept down from the heights, overcame the human defenders, and seized the stronghold for their war effort. Blackrock sentinels now watch the tower, keeping Alliance scouts from reaching the fortress unnoticed.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "what is this tower",
     "stonewatch lookout"
    ],
-   "answer": "It is a fortified human watchtower located inside the greater Stonewatch complex in northeastern Redridge Mountains. Originally built to protect the region, it is currently held by invaders from the Blackrock clan."
+   "answer": "Stonewatch Tower is a human watchtower within the larger Stonewatch complex in northeastern Redridge Mountains. Built to protect the region, it is now held by the Blackrock clan."
   },
   {
    "q": "Who controls Stonewatch Tower right now?",
@@ -32,7 +32,7 @@
     "who is in stonewatch tower",
     "stonewatch tower enemies"
    ],
-   "answer": "The tower is occupied by orcs of the Blackrock clan serving under Warlord Gath'Ilzogg, who captured the stronghold from the local humans of Redridge."
+   "answer": "Blackrock orcs serving Warlord Gath'Ilzogg control Stonewatch Tower. They captured the stronghold from Redridge's human defenders."
   },
   {
    "q": "Why is the tower important to the Blackrock orcs?",
@@ -40,7 +40,7 @@
     "why do orcs want stonewatch tower",
     "strategic importance of stonewatch tower"
    ],
-   "answer": "Its high elevation allows the Blackrock clan to spot approaching Alliance forces and safeguard the approach to their primary fortress, Stonewatch Keep."
+   "answer": "Its height lets the Blackrock clan spot approaching Alliance forces and guard the approach to Stonewatch Keep, their main fortress."
   },
   {
    "q": "Can Lakeshire reclaim the tower?",
@@ -48,17 +48,17 @@
     "will lakeshire take it back",
     "lakeshire plans for stonewatch tower"
    ],
-   "answer": "Lakeshire lacks the military manpower to retake Stonewatch on its own and relies on wandering adventurers to thin out the Blackrock garrison holding the tower and keep."
+   "answer": "Lakeshire lacks the soldiers to retake Stonewatch alone. You can help weaken the Blackrock garrison holding the tower and keep."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Stonewatch Tower is a grim reminder of how far the Blackrock clan has pushed into Stormwind territory while the kingdom's central army remains absent."
+   "text": "As an Alliance traveler, you see how far the Blackrock clan has pushed into Stormwind territory while the kingdom's central army remains absent."
   },
   {
    "target": "race:Human",
-   "text": "For the folk of Lakeshire, seeing orcish standards flying above Stonewatch's towers is an ongoing threat to their very survival."
+   "text": "As a human from Lakeshire, you know the orcish standards above Stonewatch's towers threaten your people's survival."
   }
  ],
  "keywords": [
@@ -79,5 +79,6 @@
  ],
  "attribution": [
   "Stonewatch Tower"
- ]
+ ],
+ "style": 1
 }

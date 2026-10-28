@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Bathran's Haunt"
  },
- "summary": "Bathran's Haunt is an ancient kaldorei ruin nestled in northwestern Ashenvale, east of the Zoram Strand. Recently, Forsaken herbalists and their guardians have overtaken the site to harvest local flora for their alchemical research, steadily withering the surrounding woodland.",
+ "summary": "Forsaken herbalists now harvest rare plants at Bathran's Haunt, east of the Zoram Strand in northwestern Ashenvale. Their work is withering the woodland around the ancient kaldorei ruin.",
  "sections": [
   {
    "title": "A Blighted Refuge in the Ancient Woods",
-   "body": "North of the Ruins of Ordil'Aran, crumbling night elf pillars stand swallowed by thick Ashenvale foliage. What was once a tranquil kaldorei relic has fallen under the shadow of the Forsaken. Skulking among the broken marble, undead herbalists and their enforcers have set up a crude open-air laboratory. Their presence alone blights the ancient soil: grass rots into a sickly brown, vibrant blossoms wilt, and an unnatural decay creeps through the grove as they methodically harvest rare woodland reagents for their experiments.",
+   "body": "At Bathran's Haunt, crumbling night elf pillars stand north of the Ruins of Ordil'Aran, tangled in Ashenvale's thick foliage. Once a tranquil kaldorei relic, the ruin now shelters Forsaken herbalists and their enforcers. They work among the broken marble in an open-air laboratory, harvesting rare woodland reagents for their experiments. The grass rots brown, blossoms wilt, and decay creeps through the grove as their work blights the ancient soil.",
    "spoiler": 0
   },
   {
    "title": "The Harvest of Bathran's Hair",
-   "body": "The primary draw of these ruins is Bathran's Hair, a unique remedial herb found taking root only among these particular stones. While night elf and Alliance scouts view the Forsaken presence as a vile desecration of sacred elven soil, the undead work diligently to extract the plant's potent properties. The Horde maintains a vested interest in the compound's botanical yield, though the Forsaken's secretive methods and the resulting corruption of the earth draw suspicion from outsiders and allies alike.",
+   "body": "Bathran's Hair, a unique remedial herb, grows only among these stones. Night elf and Alliance scouts see its harvest as a desecration of sacred elven soil, while Forsaken herbalists seek the plant's potent properties. The Horde has an interest in the herb's yield, but the Forsaken keep their methods secret. The corruption of the earth draws suspicion from outsiders and allies alike.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "bathrans haunt location",
     "how to get to bathrans haunt"
    ],
-   "answer": "Bathran's Haunt sits in northwestern Ashenvale, positioned directly north of the Ruins of Ordil'Aran and inland to the east of the Zoram Strand."
+   "answer": "Bathran's Haunt lies in northwestern Ashenvale, north of the Ruins of Ordil'Aran and inland, east of the Zoram Strand."
   },
   {
    "q": "Why are the Forsaken here?",
@@ -37,7 +37,7 @@
     "why are forsaken at bathrans haunt",
     "forsaken purpose bathran"
    ],
-   "answer": "Forsaken herbalists have established an encampment and laboratory among the ruins to gather and study the unique botanical life of the forest, most notably a rare remedial plant known as Bathran's Hair."
+   "answer": "Forsaken herbalists have set up an encampment and laboratory among the ruins to gather and study the forest's unique plants, especially Bathran's Hair, a rare remedial herb."
   },
   {
    "q": "What is Bathran's Hair?",
@@ -46,7 +46,7 @@
     "what is bathrans hair",
     "bathran herb"
    ],
-   "answer": "Bathran's Hair is a distinctive, valuable herb with potent restorative qualities that grows exclusively around the crumbling stonework of Bathran's Haunt."
+   "answer": "Bathran's Hair is a distinctive, valuable remedial herb with potent restorative qualities. It grows only among the crumbling stones of Bathran's Haunt."
   },
   {
    "q": "Why is the ground dying around the ruins?",
@@ -55,17 +55,17 @@
     "blight in bathrans haunt",
     "why is the land decaying"
    ],
-   "answer": "The prolonged presence and alchemical activities of the Forsaken have corrupted the immediate area, causing the grass to wither brown and delicate woodland flowers to die."
+   "answer": "The Forsaken's presence and alchemical work have corrupted the ground near the ruins. Grass withers brown, and woodland flowers die."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "The Forsaken encampment at Bathran's Haunt is an outrage to kaldorei heritage, where undead intruders defile ancient elven stonework and blight the sacred soil."
+   "text": "The Forsaken encampment at Bathran's Haunt defiles kaldorei heritage: undead intruders occupy ancient elven stonework and blight sacred soil."
   },
   {
    "target": "profession:Herbalism",
-   "text": "The ruins are botanically unique as the only known habitat for Bathran's Hair, an herb sought after for its rare remedial properties."
+   "text": "Bathran's Haunt is the only known habitat for Bathran's Hair, a unique remedial herb sought for its rare restorative properties."
   }
  ],
  "keywords": [
@@ -89,5 +89,6 @@
  ],
  "attribution": [
   "Bathran's Haunt"
- ]
+ ],
+ "style": 1
 }

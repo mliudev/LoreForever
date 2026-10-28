@@ -8,11 +8,11 @@
   "wiki": "Maur Raincaller",
   "refs": 1
  },
- "summary": "Maur Raincaller is a tauren resident found residing in Bloodhoof Village in Mulgore. Connected to the natural and spiritual life of the plains, he assists the village elders and watches over local matters affecting the herds and wild beasts.",
+ "summary": "In Bloodhoof Village, Maur Raincaller watches over Mulgore’s herds and wild beasts. He attends to concerns tied to the plains’ natural and spiritual life.",
  "sections": [
   {
    "title": "A Resident of Bloodhoof Village",
-   "body": "Situated near the heart of Bloodhoof Village on the shores of Lake Stonebull, Maur Raincaller serves his community by attending to regional ecological and beast-related concerns. Like many who bear the mantle of Raincaller, he pays close attention to the balance of the elements and wildlife across the fertile plains of Mulgore. After a bite from the fearsome strider Mazzranache left his wound infected, Maur turns to capable young travelers to gather the animal parts he needs for a remedy.",
+   "body": "Maur Raincaller lives near the heart of Bloodhoof Village, on the shore of Lake Stonebull. He watches over matters involving Mulgore’s wildlife and the balance of the elements. After the strider Mazzranache bites him and infects his wound, Maur asks young travelers to gather animal parts for a remedy.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "who is maur",
     "maur raincaller lore"
    ],
-   "answer": "Maur Raincaller is a tauren living in Bloodhoof Village within the verdant grasslands of Mulgore. He acts as a local quest giver, tasking adventurers with managing unruly wildlife in the surrounding area."
+   "answer": "Maur Raincaller is a tauren who lives in Bloodhoof Village in Mulgore. He asks travelers to deal with unruly wildlife nearby."
   },
   {
    "q": "Where can I find Maur Raincaller?",
@@ -33,7 +33,7 @@
     "where is maur",
     "maur coords"
    ],
-   "answer": "He can be found standing outdoors among the tepees and hearth fires of Bloodhoof Village, situated just south of Thunder Bluff along the eastern bank of Lake Stonebull."
+   "answer": "Maur Raincaller can be found outdoors in Bloodhoof Village, among its tepees and hearth fires. The village lies south of Thunder Bluff, on the eastern bank of Lake Stonebull."
   },
   {
    "q": "What trouble is Maur dealing with?",
@@ -42,17 +42,17 @@
     "mazzranache problem",
     "what does maur want"
    ],
-   "answer": "Maur was bitten by Mazzranache, a fearsome strider from his grandfather's stories, and the wound has become infected. He asks adventurers to bring him parts from the wolves, cougars, plainstriders and swoops of Mulgore so he can make a remedy."
+   "answer": "Maur Raincaller’s wound is infected after Mazzranache bites him. He asks travelers to bring parts from Mulgore’s wolves, cougars, plainstriders and swoops so he can make a remedy."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "For young tauren stepping out of Camp Narache, Maur provides an opportunity to protect your people's ancestral lands from wandering predators and disruptive beasts."
+   "text": "As a young tauren leaving Camp Narache, you can help protect your people’s ancestral lands from wandering predators and disruptive beasts."
   },
   {
    "target": "class:Hunter",
-   "text": "Maur provides an early hunting test, sending you after the wolves, cougars, plainstriders and swoops of the open plains for the parts he needs to cure Mazzranache's venomous bite."
+   "text": "Maur Raincaller sends you to hunt wolves, cougars, plainstriders and swoops across the plains for parts to treat the bite Mazzranache gave him."
   }
  ],
  "keywords": [
@@ -71,5 +71,6 @@
  ],
  "attribution": [
   "Maur Raincaller"
- ]
+ ],
+ "style": 1
 }
