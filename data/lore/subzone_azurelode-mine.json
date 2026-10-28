@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Azurelode Mine"
  },
- "summary": "Azurelode Mine is an active Alliance iron mine nestled in the southwestern hills of Hillsbrad Foothills. Guarded by Southshore's militia and worked by human laborers, its steady supply of ore fuels the local human war effort against the Forsaken of Tarren Mill.",
+ "summary": "In southwestern Hillsbrad, Azurelode Mine sends iron to the Alliance war effort. Southshore's militia guards the human laborers who work its tunnels.",
  "sections": [
   {
    "title": "Veins of the Foothills",
-   "body": "Situated southwest of the open farmland and just west of Southshore, Azurelode Mine has long tapped into the mineral-rich ridges along the coast. Today, human miners labor deep underground under the watchful eye of Foreman Bonds, extracting iron to forge arms and armor for the Alliance defenders holding the region against the Undercity.",
+   "body": "Southwest of the open farmland and just west of Southshore, Azurelode Mine cuts into the ridges along the coast. Human miners work deep underground under Foreman Bonds's watch, drawing iron for arms and armor. That iron helps Alliance defenders hold the region against the Undercity.",
    "spoiler": 0
   },
   {
    "title": "A Vital Military Target",
-   "body": "Because Azurelode Mine supplies the bulk of the raw iron needed to maintain Southshore's garrisons and town militia, it sits directly in the crosshairs of the Horde. Tarren Mill has targeted its workforce and guards in an effort to shatter the supply lines that sustain Hillsbrad's human strongholds.",
+   "body": "Southshore's garrisons and town militia rely on Azurelode Mine for most of their raw iron. Tarren Mill targets the mine's workers and guards, seeking to break the supply lines that sustain Hillsbrad's human strongholds.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "azurelode mine faction",
     "who owns azurelode"
    ],
-   "answer": "Azurelode Mine is controlled by the Alliance and operated by human miners affiliated with Southshore and the Hillsbrad township, overseen on-site by Foreman Bonds."
+   "answer": "The Alliance controls Azurelode Mine, where human miners affiliated with Southshore and the Hillsbrad township work under Foreman Bonds."
   },
   {
    "q": "Why is the mine important to the Horde?",
@@ -37,7 +37,7 @@
     "battle of hillsbrad mine",
     "horde interest in mine"
    ],
-   "answer": "The mine supplies vital iron to the armories of Southshore and local Alliance militia. Tarren Mill's leadership targets the miners and overseers to cripple human weapon production in the Foothills."
+   "answer": "Azurelode Mine supplies iron to Southshore's armories and the local Alliance militia. Tarren Mill's leaders target the miners and overseers to cripple human weapon production in the Foothills."
   },
   {
    "q": "Was Azurelode Mine always part of Hillsbrad?",
@@ -46,7 +46,7 @@
     "was azurelode gilneas",
     "gilneas mine"
    ],
-   "answer": "The accounts of this era don't say who held these hills before Hillsbrad. Today the mine is worked by miners from the Hillsbrad Fields under Foreman Bonds."
+   "answer": "The accounts of this era do not say who held these hills before Hillsbrad. Today, miners from the Hillsbrad Fields work the mine under Foreman Bonds."
   },
   {
    "q": "What metals are mined here?",
@@ -54,17 +54,17 @@
     "what ore in azurelode",
     "azurelode resources"
    ],
-   "answer": "The mine primarily produces iron ore for nearby human armories."
+   "answer": "Azurelode Mine primarily produces iron ore for nearby human armories."
   }
  ],
  "angles": [
   {
    "target": "profession:Mining",
-   "text": "The tunnels inside and the ridges around Azurelode are rich in iron deposits, though Alliance miners guard the interior fiercely."
+   "text": "The tunnels and ridges around Azurelode hold rich iron deposits, though Alliance miners guard the mine's interior fiercely."
   },
   {
    "target": "faction:Horde",
-   "text": "Striking at Azurelode Mine cuts off Southshore's supply of fresh iron, directly supporting the Forsaken offensive in the Foothills."
+   "text": "Striking Azurelode Mine cuts off Southshore's fresh iron supply and supports the Forsaken offensive in the Foothills."
   }
  ],
  "keywords": [
@@ -85,5 +85,6 @@
  ],
  "attribution": [
   "Azurelode Mine"
- ]
+ ],
+ "style": 1
 }

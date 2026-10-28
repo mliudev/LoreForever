@@ -8,11 +8,11 @@
   "wiki": "Azar Stronghammer",
   "refs": 1
  },
- "summary": "Azar Stronghammer is a dwarven paladin stationed at the Thunderbrew Distillery in Kharanos. Having completed his own training in the holy arts, he guides newly awakened dwarven champions of the Holy Light and directs promising recruits toward higher instruction in Ironforge.",
+ "summary": "At the Thunderbrew Distillery in Kharanos, Azar Stronghammer guides new dwarven paladins. After completing his own training in the Holy Light, he sends promising recruits to Ironforge for further instruction.",
  "sections": [
   {
    "title": "A Guide in the Cold",
-   "body": "While paladins are more commonly associated with the great cathedrals of humanity, the dwarves of Khaz Modan have fully embraced the virtues of the Holy Light. Stationed at the Thunderbrew Distillery in Kharanos, Azar Stronghammer watches over newly inducted dwarven paladins finding their footing amidst Dun Morogh's freezing slopes. Having mastered his own martial and spiritual vows, he serves as an approachable mentor. When a novice shows enough dedication and spiritual maturity, Azar directs them up the mountain path to Ironforge to study under veteran champions such as Tiza Battleforge.",
+   "body": "Azar Stronghammer guides new dwarven paladins at the Thunderbrew Distillery in Kharanos. Humans are often linked to the great cathedrals, yet the dwarves of Khaz Modan have embraced the virtues of the Holy Light. Azar has mastered his own martial and spiritual vows, and helps newly inducted paladins find their footing on Dun Morogh's freezing slopes. When a novice shows dedication and spiritual maturity, he sends them up the mountain path to Ironforge. There they can study under veteran champions such as Tiza Battleforge.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "azar stronghammer role",
     "kharanos paladin trainer"
    ],
-   "answer": "Azar Stronghammer is a dwarven paladin trainer stationed in Kharanos at the Thunderbrew Distillery. He oversees the earliest training of young dwarven holy warriors before sending them onward to the capital."
+   "answer": "Azar Stronghammer trains dwarven paladins at the Thunderbrew Distillery in Kharanos. He guides them through their earliest instruction before sending promising recruits to Ironforge for further study."
   },
   {
    "q": "Where can Azar Stronghammer be found?",
@@ -33,7 +33,7 @@
     "where is azar",
     "find azar stronghammer"
    ],
-   "answer": "He is located inside the Thunderbrew Distillery in the village of Kharanos, nestled in the central snowy hills of Dun Morogh."
+   "answer": "You can find Azar Stronghammer inside the Thunderbrew Distillery in Kharanos, among the snowy hills of Dun Morogh."
   },
   {
    "q": "What training does he provide to young paladins?",
@@ -42,7 +42,7 @@
     "azar quest",
     "paladin quests azar"
    ],
-   "answer": "Azar teaches fundamental paladin martial arts and spells to novices. Once an apprentice is ready to undertake the trials of the Tome of Divinity to learn the sacred rites of resurrection, he directs them to Tiza Battleforge in Ironforge."
+   "answer": "Azar teaches novices fundamental paladin martial arts and spells. When an apprentice is ready for the trials of the Tome of Divinity and its sacred rites of resurrection, he directs them to Tiza Battleforge in Ironforge."
   },
   {
    "q": "Why is a paladin trainer stationed at a distillery?",
@@ -51,17 +51,17 @@
     "paladin in bar",
     "distillery trainer"
    ],
-   "answer": "Dwarven culture intertwines civic life, camaraderie, and stout drink. The Thunderbrew Distillery acts as the heart of social life and defense in Kharanos, making it a natural gathering hall for local defenders and mentors."
+   "answer": "The Thunderbrew Distillery is a natural gathering place for Kharanos's defenders and mentors. Dwarven life brings civic duties, fellowship, and stout drink together, and the distillery lies at the heart of the village's social life and defense."
   }
  ],
  "angles": [
   {
    "target": "class:Paladin",
-   "text": "For dwarven paladins starting their journey in Dun Morogh, Azar is an essential early mentor who eventually steers you to Ironforge to earn the sacred Tome of Divinity."
+   "text": "As a dwarven paladin beginning in Dun Morogh, you can learn from Azar before he directs you to Ironforge to earn the sacred Tome of Divinity."
   },
   {
    "target": "race:Dwarf",
-   "text": "Azar exemplifies the dwarven embrace of the Holy Light, showing that devotion to holy righteousness pairs seamlessly with a warm hearth and a mug of Thunderbrew."
+   "text": "Azar shows how the dwarves of Khaz Modan embrace the Holy Light. For you, devotion to holy righteousness belongs alongside a warm hearth and a mug of Thunderbrew."
   }
  ],
  "keywords": [
@@ -86,5 +86,6 @@
  ],
  "attribution": [
   "Azar Stronghammer"
- ]
+ ],
+ "style": 1
 }

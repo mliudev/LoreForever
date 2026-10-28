@@ -8,16 +8,16 @@
   "wiki": "Witch Doctor Jin'Zil",
   "refs": 2
  },
- "summary": "Witch Doctor Jin'Zil is a Darkspear troll mystic dwelling in a cave at Malaka'jin in the southern Stonetalon Mountains. A longtime comrade of Darsok Swiftdagger and the shadow hunter Rokhan, he turns dark voodoo and ritual sorcery against the Horde's local enemies.",
+ "summary": "In Malaka'jin, Witch Doctor Jin'Zil turns dark voodoo against the Horde's enemies. The Darkspear troll mystic lives in a cave in the southern Stonetalon Mountains and is a longtime comrade of Darsok Swiftdagger and the shadow hunter Rokhan.",
  "sections": [
   {
    "title": "The Hermit of Malaka'jin",
-   "body": "Secluded inside an eastern cavern above the camp of Malaka'jin, Jin'Zil practices ancient jungle troll arts away from the coastal home of his tribe. Surrounded by bubbling cauldrons and captive prisoners, he gathers exotic reagents from the crags of the Stonetalon Mountains to weave potent blessings and curses in defense of the Horde's mountain encampment.",
+   "body": "In a cave east of Malaka'jin, Jin'Zil practices the ancient arts of jungle trolls, far from his tribe's coastal home. Bubbling cauldrons and captive prisoners fill his cavern. He gathers exotic reagents from the Stonetalon crags, weaving blessings and curses to defend the Horde's mountain camp.",
    "spoiler": 0
   },
   {
    "title": "A Trusted Veteran",
-   "body": "Jin'Zil is no ordinary hedge wizard; he shares a storied history with senior Horde scouts, counting both Darsok Swiftdagger and the renowned shadow hunter Rokhan among his old friends. While Darsok coordinates frontline skirmishes against night elves and harpies, Jin'Zil fights the war spiritually and alchemically, using his forest magic and volatile voodoo to undermine threats before they ever reach the camp gates.",
+   "body": "Jin'Zil is an old friend of senior Horde scouts Darsok Swiftdagger and the shadow hunter Rokhan. Darsok leads frontline skirmishes against night elves and harpies. Jin'Zil fights the war through spirit and alchemy, using forest magic and volatile voodoo to weaken threats before they reach the camp gates.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "where is jinzil",
     "jinzil cave"
    ],
-   "answer": "He resides inside a cave on the eastern side of Malaka'jin, a Horde settlement nestled in the southern pass of the Stonetalon Mountains."
+   "answer": "Jin'Zil lives in a cave on the eastern side of Malaka'jin, a Horde settlement in the southern pass of the Stonetalon Mountains."
   },
   {
    "q": "What is Jin'Zil's connection to Rokhan and Darsok Swiftdagger?",
@@ -38,7 +38,7 @@
     "darsok and jinzil",
     "rokhan connection"
    ],
-   "answer": "Jin'Zil is an old, trusted friend to both Darsok Swiftdagger and the shadow hunter Rokhan. Because of these long-standing ties, scouts throughout Stonetalon rely on his magical expertise when dealing with unusual threats."
+   "answer": "Jin'Zil is an old, trusted friend of Darsok Swiftdagger and the shadow hunter Rokhan. Scouts across Stonetalon rely on his magic when unusual threats arise."
   },
   {
    "q": "Why does Jin'Zil have prisoners in his cave?",
@@ -47,7 +47,7 @@
     "jinzil cages",
     "why does jinzil have captives"
    ],
-   "answer": "Jin'Zil keeps captive enemies caged within his cavern workshop. As a traditional witch doctor, he employs captives and raw reagents to test curses, divine portents, and craft defensive voodoo for the settlement."
+   "answer": "Jin'Zil keeps captive enemies caged in his cavern workshop. He uses captives and raw reagents to test curses, divine portents, and craft defensive voodoo for the settlement."
   },
   {
    "q": "What kind of tasks does he give to Horde adventurers?",
@@ -55,17 +55,17 @@
     "jinzil quests",
     "what does jinzil want"
    ],
-   "answer": "He sends travelers across Stonetalon to collect mystical components for his forest magic, using them to fuel his voodoo rituals."
+   "answer": "He sends travelers across Stonetalon to gather mystical components for his forest magic and voodoo rituals."
   }
  ],
  "angles": [
   {
    "target": "race:Troll",
-   "text": "Jin'Zil represents traditional Darkspear witch doctor practices transplanted into the rugged wilderness of Kalimdor, maintaining deep ties to prominent figures like Rokhan."
+   "text": "As a troll, you see Jin'Zil carry Darkspear witch doctor practices into Kalimdor's rugged wilderness. He has deep ties to prominent figures such as Rokhan."
   },
   {
    "target": "faction:Horde",
-   "text": "As the Horde secures Stonetalon's southern paths, Jin'Zil provides essential occult defense and intelligence support alongside the outpost's scouts."
+   "text": "As a member of the Horde, you can rely on Jin'Zil for occult defense and intelligence support alongside the outpost's scouts as the Horde secures Stonetalon's southern paths."
   }
  ],
  "keywords": [
@@ -88,5 +88,6 @@
  ],
  "attribution": [
   "Witch Doctor Jin'Zil"
- ]
+ ],
+ "style": 1
 }

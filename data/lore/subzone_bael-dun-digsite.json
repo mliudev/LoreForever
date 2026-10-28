@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Bael'dun Digsite"
  },
- "summary": "The Bael'dun Digsite is a dwarven excavation carved deep into the mountains along the western edge of Mulgore. Established by Prospector Khazgorm's team out of Bael Modan, the quarry is viewed by the local tauren as a direct desecration of their ancestral homeland and an insult to the Earth Mother.",
+ "summary": "Dwarven prospectors cut into the western hills of Mulgore at Bael'dun Digsite. Their search for ancient Titan relics has brought them into conflict with the tauren, who see the digging as an insult to the Earth Mother.",
  "sections": [
   {
    "title": "Intrusion in the Hills",
-   "body": "Perched on the mountain slopes of western Mulgore, the Bael'dun Digsite represents the southernmost reach of the dwarven Explorers' League expedition based out of Bael Modan in the southern Barrens. Unconcerned with territorial borders or the spiritual traditions of the newly settled tribes, dwarven prospectors arrived with picks, shovels, and blasting powder to unearth ancient Titan relics buried beneath the plains.",
+   "body": "Dwarven prospectors dig into the mountain slopes of western Mulgore. Their camp marks the southernmost reach of the Explorers' League expedition based at Bael Modan in the southern Barrens. The dwarves came with picks, shovels, and blasting powder, seeking ancient Titan relics buried beneath the plains. They paid no heed to borders or to the spiritual traditions of the newly settled tribes.",
    "spoiler": 0
   },
   {
    "title": "Defending the Earth Mother",
-   "body": "The Bloodhoof tribe viewed this invasive quarrying as an outright assault on the Earth Mother. Baine Bloodhoof initially urged caution and attempted to warn the interlopers away, but the dwarves flatly refused to abandon their trenches. Concluding that diplomacy had failed, the tauren resolved to break the expedition's tools and forcibly expel the miners before their destructive digging tears further into Mulgore's sacred earth.",
+   "body": "The Bloodhoof tribe sees the digging as an assault on the Earth Mother. Baine Bloodhoof first urged caution and warned the dwarves to leave, but they refused to abandon their trenches. With diplomacy failed, the tauren resolved to break the expedition's tools and drive out the miners before their digging cuts deeper into Mulgore's sacred earth.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "dwarves in mulgore",
     "baeldun dwarves"
    ],
-   "answer": "The prospectors belong to the dwarven expedition headquartered at Bael Modan in the southern Barrens. Driven by the Explorers' League's quest to uncover ancient artifacts and Titan heritage, they established this outpost wherever their instruments suggested relics might lie, disregarding tauren sovereignty."
+   "answer": "The prospectors belong to the dwarven expedition based at Bael Modan in the southern Barrens. The Explorers' League seeks ancient artifacts and Titan heritage, and the dwarves chose this outpost where their instruments pointed to relics, disregarding tauren sovereignty."
   },
   {
    "q": "How does the Bloodhoof tribe respond to the digsite?",
@@ -37,7 +37,7 @@
     "baine reaction",
     "tauren response to digsite"
    ],
-   "answer": "The tauren view the operation as an intolerable wound against the Earth Mother. After the dwarves refused early warnings to leave peacefully, Baine Bloodhoof and the village leaders sent warriors to destroy the miners' tools and drive the trespassers out of Mulgore."
+   "answer": "The tauren see the digsite as a wound against the Earth Mother. After the dwarves refused early warnings to leave peacefully, Baine Bloodhoof and the village leaders sent warriors to destroy the miners' tools and drive them from Mulgore."
   },
   {
    "q": "What is the connection between Bael'dun and Bael Modan?",
@@ -45,7 +45,7 @@
     "bael modan link",
     "where do these dwarves come from"
    ],
-   "answer": "Bael'dun is a satellite digsite established directly from the fortress and primary excavation at Bael Modan, located just across the mountain ridge in the southern Barrens."
+   "answer": "Bael'dun is an outpost of the fortress and main excavation at Bael Modan, just across the mountain ridge in the southern Barrens."
   },
   {
    "q": "Why didn't the tauren simply negotiate with the expedition?",
@@ -53,17 +53,17 @@
     "did tauren try peace",
     "diplomacy with dwarves"
    ],
-   "answer": "Baine Bloodhoof initially pursued diplomatic solutions and issued formal warnings to the expedition leaders. However, the dwarves treated Mulgore as unclaimed wilderness and completely ignored tauren spiritual concerns, leaving force as the tribe's only recourse."
+   "answer": "Baine Bloodhoof first tried diplomacy and warned the expedition leaders. The dwarves treated Mulgore as unclaimed wilderness and ignored tauren spiritual concerns, leaving the tribe to use force."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "The intrusive scarring of Mulgore's western hills makes Bael'dun a direct insult to the Earth Mother, demanding decisive action to protect ancestral soil from foreign desecration."
+   "text": "As a tauren, you see Bael'dun's scars on Mulgore's western hills as an insult to the Earth Mother. The ancestral soil must be defended from foreign desecration."
   },
   {
    "target": "faction:Alliance",
-   "text": "Though driven by an earnest thirst for historical discovery, the Bael'dun miners have overextended deep into sovereign Horde territory, sparking violent friction with the locals."
+   "text": "As an Alliance member, you may understand the miners' thirst for historical discovery. Their digging has reached deep into Horde territory and brought them into violent conflict with the locals."
   }
  ],
  "keywords": [
@@ -86,5 +86,6 @@
  ],
  "attribution": [
   "Bael'dun Digsite"
- ]
+ ],
+ "style": 1
 }

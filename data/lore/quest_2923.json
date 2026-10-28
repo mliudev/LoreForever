@@ -20,16 +20,16 @@
    "Save Techbot's Brain!"
   ]
  },
- "summary": "This errand directs Alliance adventurers in Stormwind to Tinker Town in Ironforge, where Tinkmaster Overspark is mourning a tragic malfunction. Brother Sarno sends word that Overspark's mechanical creation, Techbot, has gone rogue amidst the irradiated ruins of Gnomeregan. Reaching the Tinkmaster is the first step toward recovering the wayward construct's memory core.",
+ "summary": "In Stormwind, Brother Sarno hears that Tinkmaster Overspark is grieving in Ironforge over Techbot's malfunction. He sends Alliance adventurers to Tinker Town, where Overspark mourns the failure of his creation. His plea begins the effort to recover Techbot's memory core from Gnomeregan.",
  "sections": [
   {
    "title": "A Plea from the Cathedral",
-   "body": "Brother Sarno, tending to travelers in Stormwind City, shares word of an unfortunate dilemma brewing among the gnomish refugees. Tinkmaster Overspark\u2014one of the brilliant minds behind Gnomeregan's wonders\u2014is distraught over the corruption of Techbot, a once-helpful mechanical servant that served the tinkerers faithfully before the city fell into ruin.",
+   "body": "Brother Sarno tends to travelers in Stormwind City and tells them of trouble among the gnomish refugees. Tinkmaster Overspark, one of the minds behind Gnomeregan's wonders, grieves over Techbot's corruption. The mechanical servant once helped the tinkerers faithfully, before the city fell into ruin.",
    "spoiler": 0
   },
   {
    "title": "To Tinker Town",
-   "body": "The quest dispatches helpful souls via the Deeprun Tram up into Ironforge's bustling enclave of Tinker Town. There, Overspark desperately seeks adventurers brave enough to plunge back into the irradiated halls of Gnomeregan to salvage what remains of Techbot's faculties before the construct causes irreparable harm.",
+   "body": "The Deeprun Tram carries you from Stormwind to Ironforge's Tinker Town. There, Overspark seeks help from adventurers willing to enter Gnomeregan's irradiated halls and salvage what remains of Techbot's faculties before the construct causes irreparable harm.",
    "spoiler": 0
   }
  ],
@@ -41,7 +41,7 @@
     "who is overspark",
     "tinkmaster overspark"
    ],
-   "answer": "Tinkmaster Overspark is a gnome engineer and the trainer of gnomish engineering. Currently stationed in Tinker Town within Ironforge, he works tirelessly to coordinate reclaim efforts and rescue stray gnomish technology from their ruined capital."
+   "answer": "Tinkmaster Overspark is a gnome engineer who trains gnomish engineering. He is in Tinker Town in Ironforge, coordinating efforts to reclaim Gnomeregan and rescue stray gnomish technology from the ruined capital."
   },
   {
    "q": "Who starts this quest?",
@@ -49,7 +49,7 @@
     "quest giver",
     "where to get tinkmaster overspark quest"
    ],
-   "answer": "Brother Sarno, a human cleric situated in Stormwind City, gives adventurers this quest to guide them toward the gnomes needing aid in Ironforge."
+   "answer": "Brother Sarno, a human cleric in Stormwind City, sends you to help the gnomes in Ironforge."
   },
   {
    "q": "What is Techbot?",
@@ -57,7 +57,7 @@
     "techbot",
     "what happened to techbot"
    ],
-   "answer": "Techbot is a mechanical creation designed by Tinkmaster Overspark. Formerly a helpful and friendly tool for gnomish engineers, it malfunctioned following the catastrophic fall of Gnomeregan and went rogue in the irradiated city."
+   "answer": "Techbot is a mechanical creation designed by Tinkmaster Overspark. It once served gnomish engineers as a helpful tool, but malfunctioned after Gnomeregan fell and went rogue in the irradiated city."
   },
   {
    "q": "Where can Tinkmaster Overspark be found?",
@@ -65,7 +65,7 @@
     "overspark location",
     "where is overspark"
    ],
-   "answer": "Overspark resides in Tinker Town, the gnomish quarter located in the eastern district of Ironforge, surrounded by fellow refugee tinkerers and experimental machinery."
+   "answer": "Tinkmaster Overspark is in Tinker Town, the gnomish quarter in Ironforge's eastern district, among fellow refugee tinkerers and experimental machinery."
   },
   {
    "q": "What follows after speaking to Overspark?",
@@ -73,7 +73,7 @@
     "next quest",
     "save techbot's brain"
    ],
-   "answer": "Upon reporting to Overspark, he offers the quest 'Save Techbot's Brain!', asking you to venture into Gnomeregan to deactivate Techbot and retrieve its memory core so it can be restored."
+   "answer": "After you speak with Overspark, he asks you to enter Gnomeregan, deactivate Techbot, and retrieve its memory core so it can be restored."
   },
   {
    "q": "Why is the Alliance interested in an inventor's broken machine?",
@@ -81,21 +81,21 @@
     "why care about techbot",
     "techbot importance"
    ],
-   "answer": "Beyond sympathy for the exiled gnomes, wandering rogue automatons inside Gnomeregan present an immediate threat to any expeditions attempting to reclaim the underground capital or protect Dun Morogh's borders."
+   "answer": "The Alliance cares about the exiled gnomes, and rogue automatons in Gnomeregan threaten expeditions trying to reclaim the underground capital or guard Dun Morogh's borders."
   }
  ],
  "angles": [
   {
    "target": "race:Gnome",
-   "text": "Every salvaged creation and recovered memory core represents a piece of your fallen homeland preserved before radiation and troggs destroyed it completely."
+   "text": "As a gnome, each creation you salvage and memory core you recover preserves a piece of your fallen homeland from radiation and troggs."
   },
   {
    "target": "profession:Engineering",
-   "text": "Overspark's creations represent the cutting edge of gnomish ingenuity, making any opportunity to examine his rogue constructs an instructive endeavor."
+   "text": "As an engineer, you can learn from the cutting edge of gnomish ingenuity by examining Overspark's rogue creations."
   },
   {
    "target": "faction:Alliance",
-   "text": "Aiding the displaced gnomish refugees in Tinker Town strengthens the vital bonds between Stormwind and the dwarven and gnomish kingdoms."
+   "text": "As a member of the Alliance, helping the displaced gnomes in Tinker Town strengthens the bonds between Stormwind and the dwarven and gnomish kingdoms."
   }
  ],
  "keywords": [
@@ -117,5 +117,6 @@
  ],
  "attribution": [
   "Tinkmaster Overspark (quest)"
- ]
+ ],
+ "style": 1
 }

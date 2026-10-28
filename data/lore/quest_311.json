@@ -20,16 +20,16 @@
    "Return to Marleth"
   ]
  },
- "summary": "Return to Marleth marks the mischievous conclusion to a heated brewing feud in Dun Morogh. Having infiltrated the Kharanos cellar and swapped in a keg of Marleth's fiery Scalder, an adventurer returns to Brewnall Village with a prize barrel of Thunder Ale as indisputable proof.",
+ "summary": "Marleth waits in Brewnall Village for the Thunder Ale brought from Kharanos. You return with proof that her Scalder reached the Thunderbrew cellar.",
  "sections": [
   {
    "title": "The Spoils of Sabotage",
-   "body": "Dwarven rivalries are rarely settled with diplomacy when there is ale on the line. Marleth Barleybrew of Brewnall Village harbors a fierce competitive grudge against the distillers of Kharanos, creators of the famed Thunder Ale. After having her potent 'Scalder' slipped into the Thunderbrew cellar unnoticed, Marleth demands evidence of the feat. Hoisting a genuine barrel of Thunder Ale from beneath their noses serves as both trophy and leverage.",
+   "body": "Marleth Barleybrew of Brewnall Village wants proof that her Scalder was slipped into the Kharanos cellar, where the distillers make Thunder Ale. You bring back a barrel of their brew, taken from beneath their noses. The prize proves the switch succeeded and gives Marleth a trophy from her rival.",
    "spoiler": 0
   },
   {
    "title": "A Bitter Brew Settled",
-   "body": "Hauling the heavy keg back across the snowswept ridges to Brewnall Village finishes the caper. Marleth is thrilled to see the plan succeed, gleefully reveling in outsmarting Kharanos's guards and cellar masters. While harmless on the surface, the stunt cements the fierce, uncompromising pride that different dwarven families pour into their signature recipes across Dun Morogh.",
+   "body": "You haul the heavy keg over the snowy ridges to Brewnall Village, where Marleth is thrilled by the caper. She delights in having outsmarted Kharanos's guards and cellar masters. The stunt puts the fierce pride dwarven families take in their signature recipes on display across Dun Morogh.",
    "spoiler": 0
   }
  ],
@@ -41,7 +41,7 @@
     "return to marleth objective",
     "barrel turn in"
    ],
-   "answer": "You must deliver the stolen barrel of Thunder Ale back to Marleth Barleybrew at Brewnall Village to prove you successfully planted her Scalder in the Kharanos cellar."
+   "answer": "You bring the stolen barrel of Thunder Ale to Marleth Barleybrew in Brewnall Village as proof that you planted her Scalder in the Kharanos cellar."
   },
   {
    "q": "Who is Marleth Barleybrew?",
@@ -50,7 +50,7 @@
     "marleth lore",
     "barleybrew"
    ],
-   "answer": "Marleth is a dwarven brewer residing in Brewnall Village. She takes intense pride in her family's stout recipes and holds a petty rivalry with the Thunderbrew distillers in Kharanos."
+   "answer": "Marleth is a dwarven brewer in Brewnall Village. She takes pride in her family's stout recipes and rivals the Thunderbrew distillers in Kharanos."
   },
   {
    "q": "Where is the barrel brought from?",
@@ -59,7 +59,7 @@
     "kharanos cellar",
     "thunder ale location"
    ],
-   "answer": "The barrel is acquired directly from the cellar storage inside the Thunderbrew Distillery in Kharanos after swapping Marleth's Scalder into their stocks."
+   "answer": "You take the barrel from the Thunderbrew Distillery cellar in Kharanos after swapping Marleth's Scalder into their stocks."
   },
   {
    "q": "Where is Brewnall Village?",
@@ -68,7 +68,7 @@
     "where is brewnall",
     "how to find marleth"
    ],
-   "answer": "Brewnall Village sits along the frozen banks of the Iceflow Lake in western Dun Morogh, northwest of Kharanos."
+   "answer": "Brewnall Village lies on the frozen banks of Iceflow Lake in western Dun Morogh, northwest of Kharanos."
   },
   {
    "q": "Why is Marleth feuding with Kharanos?",
@@ -77,7 +77,7 @@
     "marleth vs thunderbrew",
     "brewing feud"
    ],
-   "answer": "Dwarven brewmasters are fiercely competitive about their recipes. Marleth wanted to prove her own blend, the Scalder, could best or humiliate the celebrated Thunder Ale produced by the Thunderbrews."
+   "answer": "Marleth wants to prove her Scalder can best or humiliate the celebrated Thunder Ale made by the Thunderbrews. Dwarven brewmasters compete fiercely over their recipes."
   },
   {
    "q": "What does Marleth do with the barrel?",
@@ -85,17 +85,17 @@
     "why steal thunder ale",
     "what happens to ale"
    ],
-   "answer": "The barrel serves primarily as proof that the switch was pulled off under the noses of the Kharanos guards, though Marleth is undoubtedly delighted to keep her rival's stock."
+   "answer": "The barrel proves the switch succeeded under the noses of the Kharanos guards, and Marleth is delighted to keep her rival's stock."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "Dwarven culture treats brewing as an art form and a contest of honor, making petty cellar espionage a matter of great local pride."
+   "text": "As a dwarf, you know brewing can be both an art and a contest of honor. Even cellar espionage can stir local pride."
   },
   {
    "target": "class:Rogue",
-   "text": "Infiltrating a guarded cellar to swap out illicit kegs offers an amusing test of stealth and sleight of hand in the snowy hills."
+   "text": "As a rogue, you can test your stealth and sleight of hand by slipping into a guarded cellar and switching kegs in the snowy hills."
   }
  ],
  "keywords": [
@@ -116,5 +116,6 @@
  ],
  "attribution": [
   "Return to Marleth"
- ]
+ ],
+ "style": 1
 }

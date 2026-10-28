@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Sewers"
  },
- "summary": "The Sewers are a sprawling subterranean drainage network that provides a secondary entrance directly into the Undercity. Cutting beneath the hills west of the ruined palace of Lordaeron, this conduit allows bat handlers and stealthy travelers to bypass the precarious elevators leading down from the throne room.",
+ "summary": "Beneath the hills west of Lordaeron's ruined palace, the Sewers offer a second way into the Undercity. Their stone passage carries bat handlers and travelers past the elevators descending from the throne room.",
  "sections": [
   {
    "title": "A Backdoor into the Catacombs",
-   "body": "Before the plague wiped out Lordaeron, these stone culverts served as the mundane sewer lines draining the royal capital. In the hands of Sylvanas Windrunner's Forsaken, however, the runoff tunnels have been integrated into the Undercity's outer defenses. Emerging west of the surface ruins near a contested Scarlet Watchtower in Tirisfal Glades, the passage provides a level, direct slope inside. Forsaken bat handlers use this cavernous conduit to fly riders swiftly into the subterranean rings, avoiding the sluggish cage lifts entirely. Because it circumvents the heavily fortified surface courtyards, it remains a dangerous vulnerability that hostile infiltrators constantly seek to exploit.",
+   "body": "The Sewers once drained Lordaeron's royal capital. Now Sylvanas Windrunner's Forsaken fold those old stone channels into the Undercity's defenses. The passage opens west of the surface ruins, near a Scarlet Watchtower in Tirisfal Glades, then slopes directly inside. Forsaken bat handlers fly riders through the cavernous conduit into the Undercity's subterranean rings, avoiding the slow cage lifts. The route also skirts the fortified courtyards, leaving a dangerous weakness that hostile infiltrators seek to exploit.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "where do sewers go",
     "sewer back entrance"
    ],
-   "answer": "The conduit empties onto the rolling hills of Tirisfal Glades, just west of the main gates of the Ruins of Lordaeron. It is situated not far from the Scarlet Watchtower overlooking the lake."
+   "answer": "The sewer passage opens in the hills of Tirisfal Glades, west of the main gates to the Ruins of Lordaeron. The Scarlet Watchtower overlooking the lake is nearby."
   },
   {
    "q": "Why would anyone use the sewers instead of the main entrance?",
@@ -32,7 +32,7 @@
     "sewers vs elevators",
     "undercity backdoor"
    ],
-   "answer": "The primary way into the Undercity requires riding iron cage elevators down from the palace ruins, which can be slow and dangerous during an attack. The sewer is a direct, ramped route that handles the Forsaken bat transit and permits quick egress without waiting on lifts."
+   "answer": "The main entrance descends from the palace ruins by iron cage elevators, which can be slow and dangerous during an attack. The Sewers provide a direct, sloped route for Forsaken bat traffic and a quick way out without waiting for the lifts."
   },
   {
    "q": "Is the sewer safe from Alliance raiders?",
@@ -41,17 +41,17 @@
     "is sewer guarded",
     "undercity sewer defense"
    ],
-   "answer": "Hardly. Because it bypasses the fortified gatehouse and throne room of Lordaeron, the sewer is the preferred breach point for daring Alliance scouts and strike teams attempting to sneak directly into the Forsaken capital."
+   "answer": "No. The Sewers bypass Lordaeron's fortified gatehouse and throne room, making them a breach point for Alliance scouts and strike teams trying to enter the Forsaken capital unseen."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "For the Forsaken, the sewers are an essential lifeline and flight corridor that keeps the Undercity connected to the rest of Lordaeron without bottling up traffic in the courtyard elevators."
+   "text": "For the Forsaken, the Sewers are an essential lifeline and flight corridor, keeping the Undercity connected to the rest of Lordaeron without crowding the courtyard elevators."
   },
   {
    "target": "faction:Alliance",
-   "text": "Anyone foolish or brave enough to assault the Forsaken capital knows the sewers provide the only covert path past the heavily defended surface ruins."
+   "text": "If you assault the Forsaken capital, the Sewers offer a covert route past the heavily defended surface ruins."
   }
  ],
  "keywords": [
@@ -73,5 +73,6 @@
  ],
  "attribution": [
   "Sewers"
- ]
+ ],
+ "style": 1
 }

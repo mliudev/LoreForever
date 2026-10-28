@@ -17,21 +17,21 @@
   "wiki": "Laughing Sisters",
   "chain": []
  },
- "summary": "Laughing Sisters is a Horde quest that sends mages into the heart of Ashenvale to gather enchanted locks of hair from wild dryads. The material is destined for Kil'hala, an experienced troll tailor at the Crossroads, to spin into an empowered mage robe. Hunting the daughters of Cenarius underscores the relentless friction between Horde spellcasters and the native defenders of the ancient woodland.",
+ "summary": "In Ashenvale, dryad hair is sought for an empowered robe. The experienced troll tailor Kil'hala at the Crossroads needs the enchanted locks to weave a mage robe, as Horde mages press against the woodland's native defenders.",
  "sections": [
   {
    "title": "Weaving the Arcane",
-   "body": "Following their efforts to secure water from Xavian, rising mages are directed by Deino in Orgrimmar to assist in crafting their own enchanted vestments. Arcane tailoring of this nature demands materials imbued with raw magical essence. Dryad locks, naturally suffused with the primeval vitality of the forest, hold the necessary qualities to thread intricate magical garments capable of shielding and augmenting a caster's powers.",
+   "body": "After securing water from Xavian, rising mages are sent by Deino in Orgrimmar to help craft their own enchanted vestments. These arcane garments need materials touched by raw magic. Dryad locks carry the forest's ancient vitality, giving them what is needed to weave intricate robes that shield and strengthen a caster.",
    "spoiler": 0
   },
   {
    "title": "Stalking Raynewood",
-   "body": "To harvest these locks, mages must venture south toward Raynewood Retreat in Ashenvale. The laughing sisters\u2014nimble, woodland dryads allied with the night elves\u2014guard these groves fiercely against encroaching woodsmen and outsiders alike. Because these woodland fey would never willingly surrender their hair to Horde spellcasters, the harvest is inevitably paid in blood beneath the canopy of ancient trees.",
+   "body": "Mages seek the laughing sisters near Raynewood Retreat in Ashenvale. These nimble dryads ally with the night elves and fiercely guard their groves from woodsmen and outsiders. They will not willingly give their hair to Horde spellcasters, so the locks are taken by force beneath the ancient trees.",
    "spoiler": 0
   },
   {
    "title": "The Weaver's Prerogative",
-   "body": "Once gathered, the locks are carried south across the border to the dusty settlement of the Crossroads in the Barrens. There, the troll tailor Kil'hala receives the tribute without remorse. While acknowledging the loss of the woodland creatures with a touch of irony, Kil'hala wastes no time putting the enchanted strands to practical use, recognizing that power in the Horde often requires unyielding resolve.",
+   "body": "The locks travel south across the border to the dusty settlement of the Crossroads in the Barrens. There, troll tailor Kil'hala receives them without remorse. Kil'hala acknowledges the woodland creatures' loss with a touch of irony, then puts the enchanted strands to use, knowing Horde power demands resolve.",
    "spoiler": 0
   }
  ],
@@ -43,7 +43,7 @@
     "laughing sisters quest giver",
     "deino quest"
    ],
-   "answer": "Deino, a troll mage in the Darkbriar Lodge in Orgrimmar, sends mages on this errand as reward and preparation for crafting their class robes."
+   "answer": "Deino, a troll mage at Darkbriar Lodge in Orgrimmar, sends mages to gather what is needed for their mage class robes."
   },
   {
    "q": "What are the laughing sisters?",
@@ -52,7 +52,7 @@
     "laughing sister dryad",
     "are laughing sisters dryads"
    ],
-   "answer": "Laughing sisters are dryads, daughters of the demigod Cenarius. Possessing the upper body of night elf women and the lower body of fawns, they protect the woodlands and sacred clearings of Ashenvale."
+   "answer": "The laughing sisters are dryads, daughters of the demigod Cenarius. With night elf women's upper bodies and fawn-like lower bodies, they protect Ashenvale's woodlands and sacred clearings."
   },
   {
    "q": "Where can the laughing sisters be found?",
@@ -61,7 +61,7 @@
     "where are laughing sisters",
     "where to find laughing sisters"
    ],
-   "answer": "They roam the forested areas near Raynewood Retreat and the Laughing Sister clearing in central Ashenvale, not far from the trade road."
+   "answer": "They roam the forest near Raynewood Retreat and the Laughing Sister clearing in central Ashenvale, not far from the trade road."
   },
   {
    "q": "Why does Kil'hala need dryad hair?",
@@ -70,7 +70,7 @@
     "why laughing sister hair",
     "what is the hair for"
    ],
-   "answer": "Dryad hair is steeped in natural enchantment, making it an ideal thread for Kil'hala to weave into specialized, magically resonant robes suited for the arcane arts."
+   "answer": "Dryad hair carries natural enchantment, making it suitable thread for Kil'hala to weave into specialized robes that resonate with magic and suit the arcane arts."
   },
   {
    "q": "Where do I deliver the hair once it is collected?",
@@ -79,7 +79,7 @@
     "turn in laughing sisters",
     "crossroads tailor warlock"
    ],
-   "answer": "Deliver the hair to Kil'hala, an artisan tailor located in the bustling outpost of the Crossroads within the Barrens."
+   "answer": "Take the hair to Kil'hala, a tailor at the Crossroads in the Barrens."
   },
   {
    "q": "What happens after Kil'hala takes the hair?",
@@ -88,21 +88,21 @@
     "after laughing sisters",
     "nether lace garment follow up"
    ],
-   "answer": "After receiving the hair, Kil'hala takes a brief moment to work with the material before offering the follow-up task, Nether-lace Garment, to finalize the robe."
+   "answer": "Kil'hala works briefly with the hair, then offers Nether-lace Garment to finish the robe."
   }
  ],
  "angles": [
   {
    "target": "class:Mage",
-   "text": "This rite of passage teaches rising mages that even the sacred woodland spirits of Ashenvale can be harvested for the materials of arcane craft."
+   "text": "As a mage, this rite of passage shows how even Ashenvale's sacred woodland spirits are harvested for arcane craft."
   },
   {
    "target": "profession:Tailoring",
-   "text": "The quest highlights the rare art of infusing living magical fibers into cloth armor, showcasing the high-level technique Kil'hala employs at the Crossroads."
+   "text": "As a tailor, you see the rare art of weaving living magical fibers into cloth armor, using the high-level technique Kil'hala practices at the Crossroads."
   },
   {
    "target": "faction:Horde",
-   "text": "Striking down the dryads of Ashenvale sharpens the conflict between the Horde's expansionist presence and the sacred forest guardians answering to the night elves."
+   "text": "As a member of the Horde, you strike at Ashenvale's dryads and deepen the conflict with the sacred forest guardians allied with the night elves."
   }
  ],
  "keywords": [
@@ -128,5 +128,6 @@
  ],
  "attribution": [
   "Laughing Sisters"
- ]
+ ],
+ "style": 1
 }

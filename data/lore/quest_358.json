@@ -17,16 +17,16 @@
   "wiki": "Graverobbers (Classic)",
   "chain": []
  },
- "summary": "Magistrate Sevren of Brill tasks adventurers with purging Rot Hide gnolls from the Mass Grave southwest of Garren's Haunt. These undead beasts were sent by the Scourge to dig up the corpses of early plague victims to swell their ranks. Slaying them and recovering their embalming ichor protects the fallen and aids the Royal Apothecary Society's research.",
+ "summary": "At the Mass Grave southwest of Garren's Haunt, Rot Hide gnolls dig up the dead. Magistrate Sevren sends you to stop them and recover their embalming ichor for the Royal Apothecary Society's research.",
  "sections": [
   {
    "title": "Desecration of the Mass Graves",
-   "body": "When the Plague of Undeath first tore through Tirisfal Glades, the dead piled up faster than formal burials could accommodate. Immense mass graves were dug across the north to contain the staggering loss. Until recently, those buried remains escaped resurrection. Now, however, the Scourge has unleashed Rot Hide gnolls upon the trenches southwest of Garren's Haunt, sending them to exhumate the decayed remains to reinforce the Lich King's armies.",
+   "body": "The Plague of Undeath overwhelmed Tirisfal Glades, and the dead outnumbered those who could bury them. Immense mass graves were dug across the north to hold the countless victims. For a time, the buried escaped resurrection. Now the Scourge sends Rot Hide gnolls to the trenches southwest of Garren's Haunt. They exhume the decayed remains to swell the Lich King's armies.",
    "spoiler": 0
   },
   {
    "title": "Turning Scourge Alchemy Inward",
-   "body": "The Rot Hides are sustained by embalming ichor, an alchemical concoction that preserves and animates their rotting frames. By commanding scouts to slay the graverobbers and extract this fluid, Magistrate Sevren strikes two blows at once: halting the Scourge's harvest of raw bodies and delivering valuable biological specimens directly to the apothecaries in Brill, who seek to turn the Lich King's own craft against him.",
+   "body": "Embalming ichor preserves and animates the Rot Hides' rotting frames. Magistrate Sevren sends you to slay the graverobbers and recover the fluid. This stops the Scourge from harvesting bodies and gives Brill's apothecaries valuable specimens. They hope to turn the Lich King's own alchemy against him.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "what does the scourge want with bodies",
     "mass grave purpose"
    ],
-   "answer": "The Mass Grave holds countless victims from the initial arrival of the Plague in Tirisfal. The Scourge intends to unearth these preserved bodies to raise new soldiers and swell their armies against the Forsaken."
+   "answer": "The Scourge digs up the Mass Grave's victims from the Plague's first arrival in Tirisfal to raise new soldiers and swell its armies against the Forsaken."
   },
   {
    "q": "What are the Rot Hide gnolls?",
@@ -47,7 +47,7 @@
     "undead gnolls tirisfal",
     "what are rot hides"
    ],
-   "answer": "They are undead gnolls enslaved by the Scourge. Animated and preserved using alchemical embalming ichor, they serve as scavengers and shock troops around Garren's Haunt and the neighboring graves."
+   "answer": "Rot Hide gnolls are undead gnolls enslaved by the Scourge. Embalming ichor animates and preserves them, and they serve as scavengers and shock troops around Garren's Haunt and the neighboring graves."
   },
   {
    "q": "Where is the Mass Grave located?",
@@ -65,7 +65,7 @@
     "what is ichor for",
     "ichor lore"
    ],
-   "answer": "Magistrate Sevren hands the collected ichor over to Forsaken apothecaries to study how the Scourge animates and maintains its lesser thralls, searching for weaknesses to exploit in the ongoing war."
+   "answer": "Magistrate Sevren gives the collected ichor to Forsaken apothecaries. They study how the Scourge animates and maintains its lesser thralls, seeking weaknesses to exploit in the ongoing war."
   },
   {
    "q": "Who orders the death of the Graverobbers?",
@@ -73,7 +73,7 @@
     "who gives graverobbers",
     "magistrate sevren role"
    ],
-   "answer": "Magistrate Sevren, the Forsaken overseer of Brill, issues the bounty to defend Tirisfal's borders and secure useful reagents for the Apothecaries."
+   "answer": "Magistrate Sevren, Brill's Forsaken overseer, orders the graverobbers killed to defend Tirisfal's borders and secure useful reagents for the Apothecaries."
   },
   {
    "q": "Why do the Forsaken care if dead plague victims are raised?",
@@ -81,17 +81,17 @@
     "why do forsaken protect graves",
     "why care about dead bodies"
    ],
-   "answer": "Every corpse claimed and raised by the Scourge becomes an enemy soldier marching under the Lich King's will, directly threatening the newly liberated Forsaken kingdom."
+   "answer": "The Scourge turns every corpse it claims into an enemy soldier under the Lich King's will, threatening the newly liberated Forsaken kingdom."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "For the Forsaken, preventing the Scourge from raising Tirisfal's former citizens spares their fallen countrymen the horrific fate of mindless servitude."
+   "text": "As Forsaken, you help keep the Scourge from raising Tirisfal's former citizens and condemning your fallen countrymen to mindless servitude."
   },
   {
    "target": "faction:Horde",
-   "text": "Halting the Scourge's resupply efforts secures northern Lordaeron, strengthening the Horde's foothold against the Lich King's remaining forces."
+   "text": "As Horde, you help halt the Scourge's resupply efforts and secure northern Lordaeron, strengthening the Horde's foothold against the Lich King's remaining forces."
   }
  ],
  "keywords": [
@@ -115,5 +115,6 @@
  ],
  "attribution": [
   "Graverobbers (Classic)"
- ]
+ ],
+ "style": 1
 }

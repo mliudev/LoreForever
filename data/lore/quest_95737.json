@@ -1,0 +1,84 @@
+{
+ "key": "quest:95737",
+ "type": "quest",
+ "name": "Seeking Caitlin",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95737
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "An alchemist asks you to find Caitlin Grassman in Menethil Harbor. Caitlin may know why her husband has not reported back about a rare grass found at an excavation site.",
+ "sections": [
+  {
+   "title": "A Missing Report",
+   "body": "The alchemist heard from Caitlin that her husband\u2019s excavation team uncovered signs of a primordial grass. She has not heard how much was found or whether it can be reached. The alchemist asks you to speak with Caitlin in Menethil Harbor, where both women are waiting to learn what happened to the promised seeds.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Caitlin Grassman?",
+   "aliases": [
+    "Caitlin",
+    "who is Caitlin",
+    "Caitlin Grassman"
+   ],
+   "answer": "Caitlin Grassman is an alchemist in Menethil Harbor. Her husband was part of an excavation team that found signs of a primordial grass."
+  },
+  {
+   "q": "What does the alchemist want me to do?",
+   "aliases": [
+    "find Caitlin",
+    "talk to Caitlin",
+    "Caitlin quest"
+   ],
+   "answer": "The alchemist asks you to speak with Caitlin Grassman in Menethil Harbor."
+  },
+  {
+   "q": "What did the excavation team find?",
+   "aliases": [
+    "primordial grass",
+    "rare grass",
+    "excavation find"
+   ],
+   "answer": "The team uncovered signs of a long-lost primordial grass, but its abundance and accessibility remain unknown."
+  },
+  {
+   "q": "Why are they concerned?",
+   "aliases": [
+    "where are the seeds",
+    "missing grass seeds",
+    "why worried"
+   ],
+   "answer": "Caitlin promised the alchemist that her husband would bring back grass seeds, but they have not arrived. Both women suspect something about the excavation site is troubling."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Herbalism",
+   "text": "As an herbalist, you are asked to check on Caitlin after her husband\u2019s team found signs of a rare primordial grass."
+  }
+ ],
+ "keywords": [
+  "alchemist",
+  "caitlin grassman",
+  "excavation",
+  "grass seeds",
+  "menethil harbor",
+  "primordial grass",
+  "seeking caitlin",
+  "wetlands"
+ ],
+ "related": [
+  "zone:wetlands",
+  "subzone:menethil-harbor"
+ ],
+ "style": 1,
+ "attribution": [
+  "In-game quest text: Seeking Caitlin"
+ ]
+}

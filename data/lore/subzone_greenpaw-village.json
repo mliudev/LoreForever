@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Greenpaw Village"
  },
- "summary": "Greenpaw Village is a furbolg settlement nestled in central Ashenvale, situated between Raynewood Retreat and Silverwind Refuge. It serves as the primary home of the Foulweald tribe, led by Chief Murgut and the shaman Oakpaw. Gripped by demonic corruption and embattled by outside forces, the village is an active conflict point for both Alliance and Horde travelers.",
+ "summary": "Greenpaw Village lies between Raynewood Retreat and Silverwind Refuge, where the Foulweald furbolgs remain hostile. Chief Murgut and Shaman Oakpaw lead the corrupted tribe, and Alliance and Horde forces clash with them in Ashenvale.",
  "sections": [
   {
    "title": "A Corrupted Settlement",
-   "body": "Situated south of Raynewood Retreat and northeast of Silverwind Refuge, Greenpaw Village was once a quiet home for the forest's ursine denizens. In the wake of the Third War, its resident furbolgs\u2014the Foulweald tribe\u2014succumbed to the insidious corruption tainting Ashenvale's soil and spirits. Under the dominion of Chief Murgut and their corrupted spiritual guide, Shaman Oakpaw, the Foulweald have become hostile and unstable, attacking any travelers who stray into their forest territory.",
+   "body": "Greenpaw Village lies south of Raynewood Retreat and northeast of Silverwind Refuge. Since the Third War, the Foulweald furbolgs who live there have fallen to the corruption tainting Ashenvale’s soil and spirits. Chief Murgut leads them, with Shaman Oakpaw as their corrupted spiritual guide. The tribe attacks travelers who enter its forest territory.",
    "spoiler": 0
   },
   {
    "title": "Caught in the Crosshairs",
-   "body": "Because of their relentless aggression and proximity to major roadways, Greenpaw Village draws hostility from every side. Alliance sentinels and night elf druids seek to purge the mad furbolgs to protect their nearby outposts and sacred moonwells. Simultaneously, Horde forces advancing into Ashenvale have fought bloody skirmishes against the Foulweald as both factions push through the ancient woodland.",
+   "body": "The Foulweald’s attacks draw fighting from every side of Greenpaw Village. Alliance sentinels and night elf druids seek to purge the furbolgs to protect nearby outposts and sacred moonwells. Horde forces advancing through Ashenvale also clash with them as both factions press through the woodland.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "where is greenpaw village",
     "find greenpaw"
    ],
-   "answer": "Greenpaw Village lies in central Ashenvale, directly south of Raynewood Retreat, northeast of Silverwind Refuge, and just northwest of the southern moonwell."
+   "answer": "Greenpaw Village lies in central Ashenvale, south of Raynewood Retreat, northeast of Silverwind Refuge, and northwest of the southern moonwell."
   },
   {
    "q": "Who lives in Greenpaw Village?",
@@ -37,7 +37,7 @@
     "greenpaw mobs",
     "greenpaw furbolgs"
    ],
-   "answer": "The settlement is populated by the Foulweald furbolg tribe, who are governed by Chief Murgut alongside their corrupted spiritual advisor, Shaman Oakpaw."
+   "answer": "The Foulweald furbolg tribe lives in Greenpaw Village, led by Chief Murgut and their corrupted spiritual advisor, Shaman Oakpaw."
   },
   {
    "q": "Why are the furbolgs in Greenpaw Village hostile?",
@@ -45,7 +45,7 @@
     "why are furbolgs mad",
     "are greenpaw furbolgs corrupt"
    ],
-   "answer": "Like many furbolg tribes across northern Kalimdor, the Foulweald tribe fell victim to the demonic corruption left behind after the Burning Legion invaded Ashenvale, driving their minds into maddened aggression."
+   "answer": "Demonic corruption left after the Burning Legion invaded Ashenvale drove the Foulweald into maddened aggression."
   },
   {
    "q": "Why are the Alliance and Horde fighting here?",
@@ -53,17 +53,17 @@
     "greenpaw quests",
     "who attacks greenpaw"
    ],
-   "answer": "Both factions view the aggressive Foulweald as a threat to their roads and settlements. The night elves seek to cleanse or contain the madness near their moonwells, while Horde forces clash with the furbolgs as they push through Ashenvale."
+   "answer": "Both factions see the aggressive Foulweald as a threat to their roads and settlements. Night elves seek to cleanse or contain the madness near their moonwells, while Horde forces clash with the furbolgs as they advance through Ashenvale."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "For the night elves, seeing the Foulweald succumb to corruption so near Raynewood Retreat and their sacred moonwells is a tragic reminder of Ashenvale's lingering demonic scars."
+   "text": "For night elves, the Foulweald’s corruption near Raynewood Retreat and their sacred moonwells is a reminder of Ashenvale’s lingering demonic scars."
   },
   {
    "target": "class:Druid",
-   "text": "Druids witness the pain of the ancient bear folk firsthand at Greenpaw Village, where the balance of nature has broken down into rampant feral madness."
+   "text": "As a druid, you witness the ancient bear folk’s pain at Greenpaw Village, where nature’s balance has broken into feral madness."
   }
  ],
  "keywords": [
@@ -87,5 +87,6 @@
  ],
  "attribution": [
   "Greenpaw Village"
- ]
+ ],
+ "style": 1
 }

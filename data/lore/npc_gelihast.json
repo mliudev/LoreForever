@@ -8,16 +8,16 @@
   "wiki": "Gelihast",
   "refs": 5
  },
- "summary": "Gelihast is a ferocious, twin-blade wielding murloc chieftain residing in the Pool of Ask'ar within Blackfathom Deeps. Surrounded by his Blindlight murlocs, he guards a strange altar in the flooded ruins of the sunken temple.",
+ "summary": "In Blackfathom Deeps, Gelihast guards a strange altar in the flooded Pool of Ask'ar. His Blindlight murlocs gather around him in the sunken temple.",
  "sections": [
   {
    "title": "A Deadly Calling",
-   "body": "While most murlocs stay near coastal shallows, Gelihast has claimed a lair deep in the sunken temple of Blackfathom Deeps beneath the Zoram Strand. Wielding twin swords with blinding speed, he cuts down intruders before they can react, and casters who stray into his reach rarely survive.",
+   "body": "Deep beneath the Zoram Strand, Gelihast has claimed a lair in Blackfathom Deeps. Most murlocs keep to coastal shallows, but he strikes at intruders with twin swords, moving too quickly for many to react. Casters who come within his reach rarely survive.",
    "spoiler": 0
   },
   {
    "title": "Master of the Blindlight",
-   "body": "Gelihast rules the Pool of Ask'ar, surrounded by his Blindlight brood, who swarm to his side at the first sign of trouble. Beyond his lair stands an altar; those who defeat him and touch it receive the Blessing of Blackfathom.",
+   "body": "Gelihast rules the Pool of Ask'ar with his Blindlight brood, who swarm to his side at the first sign of trouble. An altar stands beyond his lair. Those who defeat him and touch it receive the Blessing of Blackfathom.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "gelihast lore",
     "gelihast background"
    ],
-   "answer": "Gelihast is a vicious murloc chieftain who commands the Blindlight tribe inside the Pool of Ask'ar in Blackfathom Deeps. He fights with twin blades of blinding speed."
+   "answer": "Gelihast commands the Blindlight tribe in the Pool of Ask'ar, deep within Blackfathom Deeps. He fights with twin blades at blinding speed."
   },
   {
    "q": "Why is Gelihast inside Blackfathom Deeps?",
@@ -37,7 +37,7 @@
     "why is there a murloc in bfd",
     "why is gelihast in the temple"
    ],
-   "answer": "No one knows what first drew him there. He and his Blindlight murlocs have claimed the Pool of Ask'ar in the flooded ruins, and he defends it savagely against all intruders."
+   "answer": "No one knows what first drew Gelihast to Blackfathom Deeps. He and his Blindlight murlocs have claimed the Pool of Ask'ar in the flooded ruins, which he defends savagely against intruders."
   },
   {
    "q": "How did the Twilight's Hammer react to him?",
@@ -45,7 +45,7 @@
     "gelihast and twilights hammer",
     "do cultists like gelihast"
    ],
-   "answer": "Nothing is recorded of dealings between Gelihast and the Twilight's Hammer cultists deeper in the temple. He rules his own pool with his Blindlight murlocs."
+   "answer": "Nothing is recorded of Gelihast's dealings with the Twilight's Hammer cultists deeper in the temple. He rules his own pool with his Blindlight murlocs."
   },
   {
    "q": "What is the altar behind Gelihast?",
@@ -54,7 +54,7 @@
     "gelihast altar",
     "blessing of blackfathom altar"
    ],
-   "answer": "An altar stands beyond his pool. Travelers who defeat him can touch it to receive the Blessing of Blackfathom."
+   "answer": "An altar stands beyond Gelihast's pool. Travelers who defeat him can touch it to receive the Blessing of Blackfathom."
   },
   {
    "q": "What tribe of murlocs does he lead?",
@@ -62,7 +62,7 @@
     "gelihast tribe",
     "what murlocs are in bfd"
    ],
-   "answer": "He leads the Blindlight murlocs, an aggressive tribe that infests the Pool of Ask'ar within the caverns."
+   "answer": "Gelihast leads the Blindlight murlocs, an aggressive tribe that infests the Pool of Ask'ar within the caverns."
   },
   {
    "q": "What happens to Gelihast if he is left unchecked?",
@@ -70,21 +70,21 @@
     "gelihast fate",
     "who kills gelihast"
    ],
-   "answer": "He and his Blindlight murlocs keep the Pool of Ask'ar closed to anyone seeking to venture deeper into the sunken temple."
+   "answer": "Gelihast and his Blindlight murlocs keep the Pool of Ask'ar closed to anyone seeking to venture deeper into the sunken temple."
   }
  ],
  "angles": [
   {
    "target": "class:Warrior",
-   "text": "Gelihast attacks with blinding sword speed; skilled warriors who brace themselves can turn his frantic dual-wielding assault entirely against him."
+   "text": "Gelihast attacks with blinding sword speed. As a warrior, you can brace yourself and turn his frantic dual-blade assault against him."
   },
   {
    "target": "faction:Alliance",
-   "text": "For Alliance forces seeking to cleanse the corruption leaking into Ashenvale, removing Gelihast is essential to secure the northern passages of the submerged temple."
+   "text": "As an Alliance adventurer seeking to cleanse the corruption leaking into Ashenvale, you must remove Gelihast to secure the submerged temple's northern passages."
   },
   {
    "target": "faction:Horde",
-   "text": "Horde adventurers dispatched to scour Blackfathom Deeps must eliminate Gelihast to clear the way deeper into the sunken temple beneath the Zoram Strand."
+   "text": "As a Horde adventurer sent to scour Blackfathom Deeps, you must eliminate Gelihast to clear the way deeper into the sunken temple beneath the Zoram Strand."
   }
  ],
  "keywords": [
@@ -104,5 +104,6 @@
  ],
  "attribution": [
   "Gelihast"
- ]
+ ],
+ "style": 1
 }

@@ -8,21 +8,21 @@
   "wiki": "Abercrombie",
   "refs": 8
  },
- "summary": "Abercrombie appears to be a feeble, eccentric hermit dwelling in a dilapidated shack in western Duskwood near Raven Hill Cemetery. Claiming to be a harmless recluse plagued by the horrors of the woods, he readily enlists sympathetic travelers to gather peculiar reagents and supplies on his behalf.",
+ "summary": "Near Raven Hill Cemetery, Abercrombie asks travelers for help from his shack in western Duskwood. He seems a feeble, eccentric hermit, plagued by the horrors of the woods. He sends sympathetic travelers to Darkshire for peculiar reagents and supplies.",
  "sections": [
   {
    "title": "The Recluse of Raven Hill",
-   "body": "Tucked away in the rotting shadows near Raven Hill Cemetery, Abercrombie cuts a pathetic figure. He presents himself as an old man merely trying to survive the terrors of Duskwood, asking travelers to run modest errands into Darkshire for supplies, herbs, and thread. To those unfamiliar with the history of the region, he seems like just another unfortunate soul left behind as the province fell into decay.",
+   "body": "Abercrombie lives in a dilapidated shack near Raven Hill Cemetery, where Duskwood's decay has left him looking like a broken old man. He says he is only trying to survive the terrors of the woods and asks travelers to bring supplies, herbs, and thread from Darkshire. To anyone who does not know the region's history, he seems another unfortunate soul left behind as the province fell into ruin.",
    "spoiler": 0
   },
   {
    "title": "The Embalmer's Madness",
-   "body": "Before grief consumed his mind, Abercrombie was a respected, kindly alchemist living in Raven Hill. When his beloved wife, Eliza, died, sorrow broke his sanity. Turning to forbidden necromantic arts, he cut out his own heart and placed it within Eliza's dead breast to bring her back. The ritual succeeded only in creating a monster: Eliza returned cursed with an insatiable hunger for living flesh, forcing the mad alchemist to keep her buried in the cemetery.",
+   "body": "Abercrombie once lived in Raven Hill as a respected, kindly alchemist. When his beloved wife, Eliza, died, grief broke his sanity. He turned to forbidden necromantic arts, cut out his own heart, and placed it in Eliza's dead breast to bring her back. The ritual made her a monster with an insatiable hunger for living flesh, and the mad alchemist kept her buried in the cemetery.",
    "spoiler": 2
   },
   {
    "title": "A Monstrous Deception",
-   "body": "Known in dark folklore simply as 'The Embalmer,' Abercrombie nurses a deep, psychotic grudge against the township of Darkshire and its leaders. The seemingly innocuous tasks he assigns to helpful adventurers\u2014fetching ghoul ribs, specialty thread, and caustic brews\u2014are actually the final components required to assemble Stitches, a colossal, flesh-stitched abomination engineered to slaughter the Night Watch and ravage the town.",
+   "body": "Abercrombie, known in dark folklore as the Embalmer, nurses a deep, psychotic grudge against Darkshire and its leaders. He sends helpful travelers for ghoul ribs, specialty thread, and caustic brews. Those supplies are the final parts needed to assemble Stitches, a colossal abomination stitched from flesh and built to slaughter the Night Watch and ravage the town.",
    "spoiler": 1
   }
  ],
@@ -34,7 +34,7 @@
     "abercrombie lore",
     "who is abercrombie"
    ],
-   "answer": "Abercrombie is a hermit dwelling near Raven Hill Cemetery in Duskwood. Once a skilled alchemist, he lost his mind following the death of his wife and is secretly the necromantic figure known as the Embalmer."
+   "answer": "Abercrombie is a hermit near Raven Hill Cemetery in Duskwood. Once a skilled alchemist, he lost his mind after his wife died and became the necromantic figure known as the Embalmer."
   },
   {
    "q": "Why does Abercrombie want supplies from Darkshire?",
@@ -43,7 +43,7 @@
     "abercrombie supplies",
     "what is abercrombie building"
    ],
-   "answer": "While Abercrombie claims he needs domestic supplies and thread to survive in the wilderness, he is actually tricking adventurers into gathering the necessary parts to assemble the monstrous abomination Stitches."
+   "answer": "Abercrombie says he needs domestic supplies and thread to survive in the wilderness. In truth, he tricks travelers into gathering the parts needed to assemble Stitches, a monstrous abomination."
   },
   {
    "q": "Who was Eliza?",
@@ -52,7 +52,7 @@
     "abercrombie wife",
     "bride of the embalmer"
    ],
-   "answer": "Eliza was Abercrombie's wife. After she died, Abercrombie attempted to resurrect her using dark magic, transplanting his own heart into her corpse. She returned as a ravenous undead monster that he had to keep buried in Raven Hill Cemetery."
+   "answer": "Eliza was Abercrombie's wife. After her death, he tried to resurrect her with dark magic by placing his own heart in her corpse. She returned as a ravenous undead monster, and he had to keep her buried in Raven Hill Cemetery."
   },
   {
    "q": "What happens when you deliver the Note to the Mayor?",
@@ -61,7 +61,7 @@
     "what does the note say",
     "abercrombie letter"
    ],
-   "answer": "Lord Ello cannot read it, because it is written in an ancient language, so he has Sirra Von'Indi translate it. The translation reveals that Abercrombie has done something unspeakable, and once Ello reads it, the monstrous Stitches begins lumbering down the road from Raven Hill toward Darkshire."
+   "answer": "Lord Ello cannot read the Note because it is written in an ancient language, so he asks Sirra Von'Indi to translate it. The translation reveals that Abercrombie has done something unspeakable. Once Ello reads it, the monstrous Stitches lumbers down the road from Raven Hill toward Darkshire."
   },
   {
    "q": "Why does Abercrombie hate Darkshire?",
@@ -70,7 +70,7 @@
     "embalmer motive",
     "abercrombie revenge"
    ],
-   "answer": "Abercrombie never explains himself. Driven mad by grief and dark magic after his wife's death, he mockingly calls Mayor Ello Ebonlocke an old friend while sending his monstrous creation down the road to destroy Darkshire."
+   "answer": "Abercrombie never explains his hatred of Darkshire. Grief and dark magic drove him mad after his wife's death, and he mockingly calls Mayor Ello Ebonlocke an old friend as he sends his monstrous creation down the road to destroy the town."
   },
   {
    "q": "Is Abercrombie allied with the Scourge?",
@@ -84,15 +84,15 @@
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Alliance heroes who naively lend a helping hand to the miserable hermit unknowingly provide the materials needed to orchestrate an assault on Darkshire."
+   "text": "Alliance heroes who help the miserable hermit unknowingly provide the materials for an assault on Darkshire."
   },
   {
    "target": "class:Paladin",
-   "text": "Abercrombie represents the sinister corruption of necromancy festering under the guise of an ordinary, harmless townsman in need of charity."
+   "text": "As a paladin, you can see in Abercrombie how necromancy's sinister corruption hides beneath the guise of an ordinary townsman seeking charity."
   },
   {
    "target": "class:Warlock",
-   "text": "Abercrombie's sacrifice of his own heart to reanimate a corpse demonstrates the extreme, self-destructive lengths mortals will go to wield dark magic."
+   "text": "As a warlock, you can see in Abercrombie's sacrifice of his own heart the extreme, self-destructive lengths mortals will go to wield dark magic."
   }
  ],
  "keywords": [
@@ -119,5 +119,6 @@
  ],
  "attribution": [
   "Abercrombie"
- ]
+ ],
+ "style": 1
 }

@@ -8,16 +8,16 @@
   "wiki": "Krolg",
   "refs": 3
  },
- "summary": "Krolg is an uncorrupted furbolg living in an isolated hut south of Mystral Lake in Ashenvale. Formerly a member of the Foulweald tribe, he was cast out by his kin, who fell to demonic madness, and will only speak with those who appear to him in furbolg form.",
+ "summary": "South of Mystral Lake, Krolg lives uncorrupted in an isolated hut in Ashenvale. Cast out from the Foulweald tribe, he kept his sanity when his kin fell to demonic madness. He speaks only with those who appear to be furbolgs.",
  "sections": [
   {
    "title": "A Mind Unbroken",
-   "body": "While most of the Foulweald furbolgs in Ashenvale have succumbed to the demonic taint left behind by the Burning Legion, Krolg remains lucid and untouched by madness. Residing in a secluded shelter south of Mystral Lake, he keeps a cautious vigil over the forest. Having witnessed the tragic descent of his brethren into senseless violence, he refuses to interact with outsiders at face value, speaking only with beings that appear as kin.",
+   "body": "South of Mystral Lake, Krolg remains lucid and untouched by madness. Most Foulweald furbolgs in Ashenvale have succumbed to the demonic taint left by the Burning Legion. In his secluded shelter, Krolg keeps a cautious vigil over the forest. He witnessed his brethren descend into senseless violence, and now speaks only with beings who appear to be kin.",
    "spoiler": 0
   },
   {
    "title": "Dartol's Legacy",
-   "body": "Through the magical enchantment of Dartol's Rod of Transformation, Alliance travelers are able to cloak themselves in the guise of a furbolg. Upon seeing what appears to be a friendly kindred spirit, Krolg opens up and reveals crucial insights into cleansing the land. He directs heroes against Ran Bloodtooth and his guards, whose corruption and hatred threaten the forest.",
+   "body": "Dartol's Rod of Transformation lets Alliance travelers take the shape of furbolgs. Seeing what seems to be a friendly kindred spirit, Krolg shares ways to cleanse the land. He sends heroes against Ran Bloodtooth and his guards, whose corruption and hatred threaten the forest.",
    "spoiler": 1
   }
  ],
@@ -29,7 +29,7 @@
     "cant talk to krolg",
     "why is krolg silent"
    ],
-   "answer": "Krolg is deeply suspicious of outsiders and terrified of the violent chaos consuming the forest. He will completely ignore you unless you are under the furbolg transformation granted by Dartol's Rod of Transformation during the Raene's Cleansing questline."
+   "answer": "Krolg distrusts outsiders and fears the violent chaos consuming the forest. He ignores you unless Dartol's Rod of Transformation has made you appear to be a furbolg during Raene's Cleansing."
   },
   {
    "q": "Where can Krolg be found?",
@@ -38,7 +38,7 @@
     "where is krolg",
     "krolg hut"
    ],
-   "answer": "He lives in a small shelter known as Krolg's Hut, situated just south of Mystral Lake in south-central Ashenvale."
+   "answer": "Krolg lives in Krolg's Hut, just south of Mystral Lake in south-central Ashenvale."
   },
   {
    "q": "What tribe does Krolg belong to?",
@@ -46,7 +46,7 @@
     "krolg tribe",
     "is krolg foulweald"
    ],
-   "answer": "Krolg was originally part of the Foulweald tribe. Unlike the rest of his kin, who fell to corruption and demonic frenzy, he maintained his sanity, and he was cast out of the tribe."
+   "answer": "Krolg was once part of the Foulweald tribe. His kin fell to corruption and demonic frenzy, but he kept his sanity and was cast out."
   },
   {
    "q": "Is Krolg hostile to players?",
@@ -54,7 +54,7 @@
     "does krolg attack",
     "is krolg an enemy"
    ],
-   "answer": "Krolg attacks outsiders who approach him without using the furbolg transformation. Adventurers must use Dartol's Rod of Transformation before approaching him."
+   "answer": "Krolg attacks outsiders who approach without appearing to be furbolgs. Use Dartol's Rod of Transformation before approaching him."
   },
   {
    "q": "Why does Krolg want Ran Bloodtooth dead?",
@@ -62,7 +62,7 @@
     "krolg ran bloodtooth",
     "why kill ran bloodtooth"
    ],
-   "answer": "Krolg sees Ran Bloodtooth as power-hungry and made stronger by corruption. Although Krolg blames the night elves for his kin's suffering, he will not let Ran threaten their children or the forest's other creatures."
+   "answer": "Krolg sees Ran Bloodtooth as power-hungry and strengthened by corruption. Though he blames the night elves for his kin's suffering, he will not let Ran threaten their children or the forest's other creatures."
   },
   {
    "q": "Who was Dartol, whose rod lets adventurers speak with Krolg?",
@@ -70,21 +70,21 @@
     "who is dartol",
     "dartols rod backstory"
    ],
-   "answer": "Dartol was an evil wizard, now dead, who created the enchanted Rod of Transformation, which lets its bearer take furbolg form. During Raene's Cleansing, adventurers recover the rod's lost pieces and have it remade so they can approach Krolg."
+   "answer": "Dartol was an evil wizard who created the enchanted Rod of Transformation before his death. During Raene's Cleansing, adventurers recover its lost pieces and have it remade so they can approach Krolg in furbolg form."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "For the night elves of Astranaar, Krolg represents a bittersweet reminder of their ancient furbolg allies before demonic corruption shattered the tribes."
+   "text": "For the night elves of Astranaar, Krolg recalls their ancient furbolg allies, before demonic corruption shattered the tribes."
   },
   {
    "target": "class:Druid",
-   "text": "Druids seeking to restore balance to Ashenvale find an invaluable, lucid voice in Krolg amidst a landscape overrun by tainted wildlife."
+   "text": "As a druid seeking to restore balance to Ashenvale, you can turn to Krolg, a lucid voice amid wildlife tainted by corruption."
   },
   {
    "target": "faction:Alliance",
-   "text": "Alliance scouts assisting Raene Wolfrunner rely on Krolg to dismantle the leadership of the hostile Foulweald furbolgs."
+   "text": "As an Alliance scout aiding Raene Wolfrunner, you rely on Krolg to dismantle the leadership of the hostile Foulweald furbolgs."
   }
  ],
  "keywords": [
@@ -108,5 +108,6 @@
  ],
  "attribution": [
   "Krolg"
- ]
+ ],
+ "style": 1
 }

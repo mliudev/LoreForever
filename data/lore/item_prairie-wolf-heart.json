@@ -10,11 +10,11 @@
    "quest:766"
   ]
  },
- "summary": "A Prairie Wolf Heart is a vital organ harvested from the wolves roaming the grasslands of Mulgore. It serves as an essential ingredient in an urgent folk remedy prepared by Maur Raincaller in Bloodhoof Village to counteract venomous infection.",
+ "summary": "Maur Raincaller in Bloodhoof Village needs a Prairie Wolf Heart for a remedy against venom.",
  "sections": [
   {
    "title": "A Remedy for a Venomous Bite",
-   "body": "The wolves of the plains are fierce predators, hardy and persistent across the sweeping grasses of Mulgore. Their hearts are sought out by Maur Raincaller, a tauren residing in Bloodhoof Village who fell victim to the legendary plainstrider known as Mazzranache. Struck by the creature's virulent, fever-inducing venom, Maur relies on traditional plains medicine to halt the spreading poison. Alongside other potent reagents like cougar bone and bird gizzard, the vital essence of a freshly slain prairie wolf provides the cleansing properties needed to concoct a cure before delirium proves fatal.",
+   "body": "Maur Raincaller lives in Bloodhoof Village and is suffering from the venom of Mazzranache, the legendary plainstrider. The bite brings fever and threatens to spread poison through him. Maur seeks the heart of a prairie wolf, along with cougar bone and bird gizzard, for a traditional plains remedy meant to stop the infection before delirium proves fatal.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "why get wolf heart",
     "prairie wolf heart purpose"
    ],
-   "answer": "It is gathered for Maur Raincaller in Bloodhoof Village. Maur needs it alongside several other animal parts to brew a potent folk medicine to treat a venomous bite inflicted by the notorious strider Mazzranache."
+   "answer": "Maur Raincaller in Bloodhoof Village needs a Prairie Wolf Heart for a folk remedy. He combines it with other animal parts to treat the venomous bite Mazzranache gave him."
   },
   {
    "q": "Where does one obtain a Prairie Wolf Heart?",
@@ -35,7 +35,7 @@
     "who drops wolf heart",
     "how to find prairie wolf heart"
    ],
-   "answer": "It is taken from the bodies of prairie wolves, prairie wolf alphas, and prairie stalkers found hunting across the rolling plains of Mulgore."
+   "answer": "Prairie wolves, prairie wolf alphas, and prairie stalkers hunt across Mulgore’s plains, and their bodies provide the heart."
   },
   {
    "q": "Why does Maur Raincaller need animal organs to treat his wound?",
@@ -43,7 +43,7 @@
     "why wolf heart for medicine",
     "maur remedy"
    ],
-   "answer": "Mazzranache inflicts a terrible, infected bite that causes fever and delirium. Maur uses traditional tauren plains remedies composed of potent reagents\u2014wolf heart, cougar femur, plainstrider scale, and swoop gizzard\u2014to cleanse the infection before it proves lethal."
+   "answer": "Mazzranache’s infected bite brings fever and delirium. Maur relies on tauren plains remedies made with a wolf heart, cougar femur, plainstrider scale, and swoop gizzard to cleanse the infection before it proves lethal."
   },
   {
    "q": "Can any wolf heart be used for the remedy?",
@@ -51,17 +51,17 @@
     "any wolf heart",
     "which wolves drop it"
    ],
-   "answer": "Maur Raincaller simply asks for a wolf heart. The one gathered for the remedy is taken from the prairie wolves, prairie wolf alphas or prairie stalkers that hunt the plains of Mulgore."
+   "answer": "Maur asks for a wolf heart. The heart for his remedy comes from prairie wolves, prairie wolf alphas, or prairie stalkers on Mulgore’s plains."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "Using harvested animal parts to concoct survival cures reflects the pragmatic, earth-bound traditions of the tauren across Mulgore's wilds."
+   "text": "As a tauren, you know that animal parts can help make practical cures for survival in Mulgore’s wilds."
   },
   {
    "target": "class:Hunter",
-   "text": "Tracking down specific wolf packs on the plains demonstrates an early understanding of the quarry and beast ecology in Mulgore."
+   "text": "As a hunter, you learn to track the wolf packs that hunt Mulgore’s plains and understand the beasts that live there."
   }
  ],
  "keywords": [
@@ -85,5 +85,6 @@
  "attribution": [
   "Prairie Wolf Heart",
   "Mazzranache (Classic)"
- ]
+ ],
+ "style": 1
 }

@@ -17,16 +17,16 @@
   "wiki": "Lifting the Curse (Classic)",
   "chain": []
  },
- "summary": "First Mate Fitzsimmons believes that the restless curse binding his fallen crewmates stems from a dark artifact secured aboard their wrecked ship, the Intrepid. To set his brethren free, an adventurer must face the ghost of Captain Halyndor, take the strongbox key, and recover the relic from the submerged hull.",
+ "summary": "First Mate Fitzsimmons seeks to free his fallen crewmates from a restless curse. He believes a dark artifact aboard the wrecked Intrepid binds them, and Captain Halyndor's ghost guards the key to its strongbox.",
  "sections": [
   {
    "title": "A Captain's Burden",
-   "body": "First Mate Fitzsimmons survived the tragic fate of the Third Fleet, but the memory of his comrades haunts his waking hours and his dreams. He remains convinced that the undeath gripping his shipmates is tied to a mysterious, malignant object locked away inside the strongbox of his old vessel, the Intrepid. Overseeing the wreck is the spectral remnants of Captain Halyndor, who even in death fiercely guards the key to the vessel's deepest secrets.",
+   "body": "First Mate Fitzsimmons survived the Third Fleet's fate, but memories of his comrades haunt him by day and by night. He believes an evil object locked in the Intrepid's strongbox is tied to the undeath gripping his shipmates. The wreck is watched by Captain Halyndor, whose ghost guards the key to the strongbox.",
    "spoiler": 0
   },
   {
    "title": "Unlocking the Depths",
-   "body": "Off the mist-choked coast of the northern Wetlands lie the fractured hulks of the Third Fleet. Resting within the flooded hull of the Intrepid, the ship's locked strongbox holds the relic at the heart of the crew's misery. Reclaiming it requires defeating Halyndor's tortured ghost on deck, securing the rusted key, and braving the flooded interior to retrieve the dark artifact so that holy hands can cleanse it.",
+   "body": "The Third Fleet's broken ships lie off the northern Wetlands coast. Inside the flooded hull of the Intrepid, a locked strongbox holds the relic at the heart of the crew's misery. To reach it, you face Halyndor's ghost on deck, take the rusted key, and enter the flooded hull. The artifact must be recovered so holy hands can cleanse it.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "intrepid shipwreck",
     "where is the strongbox"
    ],
-   "answer": "You are searching the Intrepid, the sunken ship of the Third Fleet resting off the northwestern shore of the Wetlands."
+   "answer": "You are searching the Intrepid, a sunken ship of the Third Fleet off the northwestern Wetlands shore."
   },
   {
    "q": "Who is Captain Halyndor?",
@@ -46,7 +46,7 @@
     "who is halyndor",
     "captain halyndor lore"
    ],
-   "answer": "Captain Halyndor was the commanding officer of the Intrepid. In death, his restless spirit haunts the deck of the ruined vessel, clinging stubbornly to the key to his ship's strongbox."
+   "answer": "Captain Halyndor commanded the Intrepid. His restless ghost haunts the ruined ship's deck and guards the key to its strongbox."
   },
   {
    "q": "Why does First Mate Fitzsimmons want the strongbox opened?",
@@ -55,7 +55,7 @@
     "why open strongbox",
     "purpose of quest"
    ],
-   "answer": "Fitzsimmons believes a cursed object secured inside the strongbox is responsible for trapping the spirits of his fellow sailors in torment, and opening it is the only way to recover the artifact for purification."
+   "answer": "Fitzsimmons believes a cursed object in the strongbox traps his fellow sailors' spirits in torment. He wants it opened so the artifact can be recovered and purified."
   },
   {
    "q": "Where is the Intrepid's strongbox located?",
@@ -64,7 +64,7 @@
     "where is the chest",
     "how to find strongbox"
    ],
-   "answer": "The strongbox sits submerged inside the lower hull of the Intrepid, accessible through a breach in the side of the wrecked ship beneath the waves."
+   "answer": "The Intrepid's strongbox lies submerged in the lower hull, reached through a breach in the wreck's side beneath the waves."
   },
   {
    "q": "Who can cleanse the cursed object once it is recovered?",
@@ -73,7 +73,7 @@
     "who is glorin steelbrow",
     "where take cursed thing"
    ],
-   "answer": "Fitzsimmons directs adventurers to take the recovered object to the dwarven priest Glorin Steelbrow in Menethil Harbor to have its foul taint cleansed."
+   "answer": "Fitzsimmons directs you to bring the recovered object to Glorin Steelbrow, a dwarven priest in Menethil Harbor, for cleansing."
   },
   {
    "q": "What caused the shipwreck in the first place?",
@@ -81,17 +81,17 @@
     "how did third fleet sink",
     "third fleet wreckage cause"
    ],
-   "answer": "During the Second War the Third Fleet was attacked by red dragons controlled by orcs, and its ships were burned and sunk off the Wetlands coast; the cursed treasure aboard now keeps the drowned crews from rest."
+   "answer": "During the Second War, orc-controlled red dragons attacked the Third Fleet, burning and sinking its ships off the Wetlands coast. A cursed treasure aboard now keeps the drowned crews from rest."
   }
  ],
  "angles": [
   {
    "target": "class:Priest",
-   "text": "Unraveling spiritual afflictions and cleansing tainted relics requires spiritual authority, which is why Fitzsimmons entrusts the final purification of the strongbox's contents to the priesthood."
+   "text": "As a priest, you have the spiritual authority to address afflictions and cleanse tainted relics. Fitzsimmons entrusts the strongbox's contents to the priesthood for purification."
   },
   {
    "target": "faction:Alliance",
-   "text": "The sailors of the Third Fleet served the Alliance in life, and laying their tortured souls to rest is an obligation of honor for Alliance champions traveling through Menethil Harbor."
+   "text": "As an Alliance champion, you honor the sailors who served the Alliance in life by helping lay their tortured souls to rest while traveling through Menethil Harbor."
   }
  ],
  "keywords": [
@@ -113,5 +113,6 @@
  ],
  "attribution": [
   "Lifting the Curse (Classic)"
- ]
+ ],
+ "style": 1
 }

@@ -10,11 +10,11 @@
    "quest:6002"
   ]
  },
- "summary": "Cenarion Lunardust is a sacred powder bestowed upon young tauren druids by Turak Runetotem on the heights of Thunder Bluff. It is used to awaken the guardian beast Lunaclaw at an ancient Moonkin Stone on the border of Mulgore and the Barrens.",
+ "summary": "Turak Runetotem gives Cenarion Lunardust to young tauren druids on Thunder Bluff. They use it to awaken Lunaclaw at an ancient Moonkin Stone between Mulgore and the Barrens.",
  "sections": [
   {
    "title": "A Rite of Body and Heart",
-   "body": "Entrusted to initiates ready to claim their place among the Druids of the Claw, Cenarion Lunardust carries the blessings of the Cenarion Circle. When scattered across the Moonkin Stone west of Camp Taurajo, the glowing dust summons forth Lunaclaw, a sacred beast bound to test the initiate. Defeating this guardian tests both physical fortitude and spiritual resolve, allowing the young druid to absorb the strength of body and heart required to assume the form of the bear.",
+   "body": "Cenarion Lunardust carries the Cenarion Circle’s blessing for druids ready to join the Druids of the Claw. At the Moonkin Stone west of Camp Taurajo, the dust calls Lunaclaw, a sacred beast bound to test each initiate. Defeating the guardian tests strength and resolve. The trial teaches the young druid the strength of body and heart needed to take the form of a bear.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "how to use cenarion lunardust",
     "lunardust purpose"
    ],
-   "answer": "It is sprinkled over the Moonkin Stone located in the hills between Mulgore and the Barrens, just west of Camp Taurajo. Applying the dust summons Lunaclaw, a powerful beast that initiates must defeat to prove their strength."
+   "answer": "Sprinkle Cenarion Lunardust over the Moonkin Stone in the hills between Mulgore and the Barrens, west of Camp Taurajo. The dust summons Lunaclaw, whom initiates must defeat to prove their strength."
   },
   {
    "q": "Who provides the Cenarion Lunardust?",
@@ -35,7 +35,7 @@
     "where to get cenarion lunardust",
     "turak runetotem dust"
    ],
-   "answer": "Turak Runetotem, the druid trainer on the Elder Rise in Thunder Bluff, provides the dust to tauren druids undertaking the trial of the bear form."
+   "answer": "Turak Runetotem, the druid trainer on the Elder Rise in Thunder Bluff, gives the dust to tauren druids undertaking the trial of bear form."
   },
   {
    "q": "What happens if you lose your Cenarion Lunardust?",
@@ -44,7 +44,7 @@
     "need more lunardust",
     "where to get another lunardust"
    ],
-   "answer": "If you lose the dust or fail your trial against Lunaclaw, you must return to Turak Runetotem on the Elder Rise in Thunder Bluff to obtain another pouch."
+   "answer": "If you lose the dust or fail against Lunaclaw, return to Turak Runetotem on the Elder Rise in Thunder Bluff for another pouch."
   },
   {
    "q": "Why must a druid face Lunaclaw?",
@@ -53,17 +53,17 @@
     "who is lunaclaw",
     "purpose of lunaclaw"
    ],
-   "answer": "Lunaclaw is the protector of the stone and embodies the balance of physical strength and inner resolve. By challenging and besting the creature, an aspiring Druid of the Claw absorbs the lessons of body and heart needed to harness the powers of the Great Bear Spirit."
+   "answer": "A druid faces Lunaclaw, protector of the stone, to test physical strength and inner resolve. By defeating the beast, an aspiring Druid of the Claw learns the lessons of body and heart needed to wield the Great Bear Spirit’s power."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "For tauren druids, this dust is the key catalyst in the sacred rite of passage that unlocks the ancient art of bear shapeshifting."
+   "text": "As a tauren druid, you use this dust in the rite of passage that opens the way to bear shapeshifting."
   },
   {
    "target": "race:Tauren",
-   "text": "The dust links young Shu'halo directly to the Cenarion Circle's teachings, demonstrating their deepening communion with nature and the wild spirits of Kalimdor."
+   "text": "As a tauren, you receive the dust as a young Shu'halo, deepening your bond with the Cenarion Circle’s teachings, nature, and Kalimdor’s wild spirits."
   }
  ],
  "keywords": [
@@ -87,5 +87,6 @@
  "attribution": [
   "Cenarion Lunardust",
   "Body and Heart (Horde)"
- ]
+ ],
+ "style": 1
 }

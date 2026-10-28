@@ -8,11 +8,11 @@
   "wiki": "Karos Razok",
   "refs": 2
  },
- "summary": "Karos Razok is the Forsaken bat handler stationed at the Sepulcher in Silverpine Forest. He oversees the roost of undead fliers that connect this contested frontier outpost directly to the Undercity and other Horde strongholds.",
+ "summary": "At the Sepulcher in Silverpine Forest, Karos Razok keeps the Forsaken bat roost ready.",
  "sections": [
   {
    "title": "Keeper of the Sepulcher's Wings",
-   "body": "Perched on the wooden platform above the crypts of the Sepulcher, Karos Razok tends to the skeletal bats vital for Forsaken communications. With Silverpine Forest infested by Moonrage worgen, rogue Dalaran magi, and the human remnants of Ambermill, overland travel along the northern road is treacherous. Razok ensures that messengers, fresh recruits, and vital supplies can cross above the haunted canopy, keeping the front line linked straight back to the capital in Tirisfal Glades.",
+   "body": "Karos Razok tends the skeletal bats from the wooden platform above the Sepulcher's crypts. Moonrage worgen, rogue Dalaran magi, and the human remnants of Ambermill make the northern road through Silverpine Forest treacherous. Razok keeps messengers, fresh recruits, and vital supplies moving above the haunted canopy, linking the frontier outpost to the capital in Tirisfal Glades.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "who is the flight master in the sepulcher",
     "sepulcher bat handler"
    ],
-   "answer": "Karos Razok is the Forsaken flight master stationed at the Sepulcher in Silverpine Forest. He manages the roost of trained vampiric bats used by Horde adventurers and messengers to travel across Lordaeron."
+   "answer": "Karos Razok tends the Forsaken bat roost at the Sepulcher in Silverpine Forest. Horde travelers and messengers use the trained vampiric bats to cross Lordaeron."
   },
   {
    "q": "Where can Karos Razok send travelers?",
@@ -33,7 +33,7 @@
     "where does the sepulcher bat fly",
     "flight routes from sepulcher"
    ],
-   "answer": "Razok links the Sepulcher directly to the Undercity in Tirisfal Glades and to Tarren Mill in the Hillsbrad Foothills, facilitating rapid transit across northern Lordaeron."
+   "answer": "Karos Razok sends travelers from the Sepulcher to the Undercity in Tirisfal Glades and to Tarren Mill in the Hillsbrad Foothills. His routes connect the outpost with northern Lordaeron."
   },
   {
    "q": "What creatures does Karos handle?",
@@ -42,7 +42,7 @@
     "forsaken flight beasts",
     "what are the flying mounts at sepulcher"
    ],
-   "answer": "He tends to large, skeletal flight bats. These undead beasts are hardy, tireless fliers adapted to Lordaeron's blighted skies and are favored by the Forsaken for their silence and endurance."
+   "answer": "Karos Razok tends large, skeletal flight bats. These undead fliers are hardy and tireless, and the Forsaken favor them for their silence and endurance in Lordaeron's blighted skies."
   },
   {
    "q": "Why is a flight master important at the Sepulcher?",
@@ -50,17 +50,17 @@
     "why is sepulcher bat master needed",
     "sepulcher travel importance"
    ],
-   "answer": "The roads of Silverpine are choked with hostile forces, from Pyrewood's worgen curse to human wizards at Ambermill. Razok provides an aerial lifeline that allows the Forsaken to supply this forward base without suffering ambushes on the highway."
+   "answer": "Hostile forces make Silverpine's roads dangerous, from Pyrewood's worgen curse to the human wizards at Ambermill. Karos Razok gives the Forsaken an aerial route to supply the forward base without risking ambushes on the highway."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "Karos Razok represents your lifeline back to the Undercity, ensuring that frontline efforts in Silverpine remain firmly tethered to Lady Sylvanas's capital."
+   "text": "As an Undead, you can use Karos Razok's bat roost to travel back to the Undercity, Lady Sylvanas's capital, from the Silverpine front."
   },
   {
    "target": "faction:Horde",
-   "text": "For Horde travelers pushing south toward Hillsbrad Foothills, Razok's bat roost is an indispensable waypoint on the western edge of Lordaeron."
+   "text": "As a Horde traveler heading south toward Hillsbrad Foothills, you can use Karos Razok's bat roost as a waypoint on Lordaeron's western edge."
   }
  ],
  "keywords": [
@@ -83,5 +83,6 @@
  ],
  "attribution": [
   "Karos Razok"
- ]
+ ],
+ "style": 1
 }

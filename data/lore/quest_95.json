@@ -17,16 +17,16 @@
   "wiki": "Sven's Revenge",
   "chain": []
  },
- "summary": "Driven by grief and vengeance, the hermit Sven Yorgen asks travelers to return to his ruined farmstead in southern Duskwood. While he spent years pursuing the shadowy horsemen who slaughtered his family, a suspicious figure once buried something near his barn that may hold answers.",
+ "summary": "In southern Duskwood, grief sends Sven Yorgen from his ruined farm in pursuit of its killers. Now camped in the western hills, he asks travelers to return to the farmstead where a stranger buried something near the barn.",
  "sections": [
   {
    "title": "Tragedy at the Farmstead",
-   "body": "Sven Yorgen was once a simple farmer working the fields in southeastern Duskwood. His life shattered when hooded Dark Riders riding down from Deadwind Pass attacked his homestead, massacring his family while he was away. Returning to the slaughter, Sven caught sight of an unknown figure skulking near the barn, frantically burying something in the earth. Sven chose vengeance, setting off immediately to hunt down the killers, leaving whatever had been concealed behind.",
+   "body": "Hooded Dark Riders came down from Deadwind Pass and attacked Sven Yorgen's farm in southeastern Duskwood. While Sven was away, they killed his family. Returning to the slaughter, Sven saw an unknown figure skulking near the barn, hurriedly burying something. He left the hidden object behind and set out to hunt the killers.",
    "spoiler": 0
   },
   {
    "title": "Unearthing Secrets",
-   "body": "Now camped in the western hills and consumed by wrath, Sven needs someone to return to the Yorgen Farmstead. Behind an old tree stump sitting between the farmhouse and the ruined barn lies a mound of loose dirt hastily piled together. Recovering whatever is buried there is the first step toward understanding why the shadowy riders targeted a quiet Duskwood farmer in the first place.",
+   "body": "Sven Yorgen is camped in the western hills, consumed by wrath and seeking help at his farmstead. Between the farmhouse and ruined barn, behind an old tree stump, a mound of loose dirt marks where something was hastily buried. Recovering it may help explain why the shadowy riders targeted a quiet Duskwood farmer.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "sven lore",
     "sven backstory"
    ],
-   "answer": "Sven Yorgen was an ordinary farmer who lived in southeastern Duskwood near the border of Deadwind Pass. After returning home to find his family murdered by sinister riders, he abandoned his farm and became a recluse obsessed with seeking vengeance against those responsible."
+   "answer": "Sven Yorgen was a farmer in southeastern Duskwood, near the border of Deadwind Pass. After hooded riders murdered his family, he left his farm and became a recluse bent on vengeance."
   },
   {
    "q": "What happened to Sven's farm?",
@@ -47,7 +47,7 @@
     "what happened to sven farm",
     "why is sven farm destroyed"
    ],
-   "answer": "Sven's farmstead was raided by the mysterious Dark Riders coming out of Deadwind Pass. They slaughtered his entire family, leaving the property in ruins before Sven could return to defend them."
+   "answer": "Dark Riders from Deadwind Pass attacked Sven Yorgen's farmstead and killed his family. The property was left in ruins while Sven was away."
   },
   {
    "q": "Who buried something behind the barn?",
@@ -56,7 +56,7 @@
     "shadowy figure sven farm",
     "who dug the mound"
    ],
-   "answer": "Sven saw a shadowy figure lurking near his barn burying an object just after the massacre took place. Sven fled into the wilds chasing the Dark Riders before he could catch the stranger or unearth what was hidden."
+   "answer": "After the massacre, Sven saw a shadowy figure burying something near his barn. He pursued the Dark Riders before he could catch the stranger or uncover what was buried."
   },
   {
    "q": "Where is the mound of loose dirt located?",
@@ -65,7 +65,7 @@
     "dirt mound location",
     "where is the stump"
    ],
-   "answer": "The mound of loose dirt is found at the Yorgen Farmstead in southeastern Duskwood, buried directly behind an old tree stump between the barn and the ruined farmhouse."
+   "answer": "At the Yorgen Farmstead in southeastern Duskwood, a mound of loose dirt lies behind an old tree stump between the barn and ruined farmhouse."
   },
   {
    "q": "Who are the Dark Riders?",
@@ -74,7 +74,7 @@
     "dark riders lore",
     "riders of deadwind pass"
    ],
-   "answer": "The Dark Riders are ominous, hooded horsemen that ride out of Deadwind Pass. Little is known about their origins, but their violent incursions into Duskwood leave only death and ruin in their wake."
+   "answer": "The Dark Riders are hooded horsemen who ride out of Deadwind Pass. Their origins are unknown, but their attacks in Duskwood bring death and ruin."
   },
   {
    "q": "Why didn't Sven dig up the buried item himself?",
@@ -82,17 +82,17 @@
     "why didn't sven check the dirt",
     "why did sven leave"
    ],
-   "answer": "When Sven returned home and saw the figure burying the item, he was consumed by grief and immediately pursued the retreating Dark Riders. By the time he established his hidden camp, the farm was overrun and too painful for him to revisit directly."
+   "answer": "Sven was overcome with grief when he returned home and saw a figure burying something. He immediately pursued the retreating Dark Riders, leaving the object behind."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "The slaughter of the Yorgen family is yet another sign of Duskwood's isolation, showing how far the reaches of dark forces extend without regular Stormwind army patrols."
+   "text": "The slaughter of the Yorgen family shows how far dark forces reach in isolated Duskwood, where Stormwind army patrols are scarce."
   },
   {
    "target": "class:Paladin",
-   "text": "The violent slaughter of innocents by sinister forces out of Deadwind Pass calls for righteous retribution and justice for the dead."
+   "text": "As a paladin, you see the slaughter of innocents by forces from Deadwind Pass as a call for justice for the dead."
   }
  ],
  "keywords": [
@@ -116,5 +116,6 @@
  ],
  "attribution": [
   "Sven's Revenge"
- ]
+ ],
+ "style": 1
 }

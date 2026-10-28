@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Camp Narache"
  },
- "summary": "Camp Narache is a secluded village nestled upon Red Cloud Mesa in southern Mulgore. It serves as the ancestral home of the Hawkwind tribe and the proving ground where young tauren begin their training. Sheltered high above the plains, the camp maintains ancient traditions while constantly guarding against encroaching quilboar and lingering centaur threats.",
+ "summary": "Young tauren begin their training at Camp Narache, high on Red Cloud Mesa in southern Mulgore. The camp is the Hawkwind tribe’s ancestral home, where elders preserve old ways as quilboar press close and centaur scouts linger.",
  "sections": [
   {
    "title": "Heart of the Hawkwind Tribe",
-   "body": "Situated at the northern edge of the elevated Red Cloud Mesa, Camp Narache is the primary settlement of the Hawkwind tribe. The village consists of several large hide lodges and pavilions, including a communal tent for wounded braves, an armory, a bakery tent, and a spirit lounge dedicated to meditation and ancestral communion. At the center of the camp, tribal elders and path trainers stand in a circle at the heart of the camp, where the venerable Greatmother Hawkwind still offers guidance, guiding newly initiated youth as they step into their roles as defenders of the Earth Mother.",
+   "body": "Camp Narache sits at the northern edge of Red Cloud Mesa, the main settlement of the Hawkwind tribe. Hide lodges and pavilions house the wounded, store weapons, bake bread, and offer a place for meditation and communion with ancestors. At the camp’s heart, elders and path trainers gather in a circle. Greatmother Hawkwind guides the newly initiated as they take up their roles as defenders of the Earth Mother.",
    "spoiler": 0
   },
   {
    "title": "A Proving Ground Under Threat",
-   "body": "Though naturally fortified by the steep sheer cliffs of the mesa, Camp Narache faces persistent unrest. Bristleback quilboar from Brambleblade Ravine continuously encroach upon Hawkwind lands, while centaur scouts linger in the distance. Young hunters, shamans, druids, and warriors prove their mettle here by culling the aggressive local wildlife, protecting the village's water well, and turning back quilboar raiders before descending the grand path into the wider valleys of Mulgore.",
+   "body": "Steep cliffs shield Camp Narache, but threats reach the mesa all the same. Bristleback quilboar from Brambleblade Ravine press into Hawkwind lands, while centaur scouts remain in the distance. Young hunters, shamans, druids, and warriors prove their mettle by thinning aggressive wildlife, guarding the village well, and driving back quilboar raiders. Then they descend the grand path into Mulgore’s wider valleys.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "narache lore",
     "tauren starting town"
    ],
-   "answer": "Camp Narache is the starting village for young tauren, located atop Red Cloud Mesa in southern Mulgore. It is the central encampment of the Hawkwind tribe, serving as a sanctuary where fledgling hunters, warriors, druids, and shamans master their crafts before traveling outward to Bloodhoof Village and Thunder Bluff."
+   "answer": "Young tauren begin their training at Camp Narache, atop Red Cloud Mesa in southern Mulgore. The camp is the Hawkwind tribe’s main settlement, where hunters, warriors, druids, and shamans learn their crafts before traveling to Bloodhoof Village and Thunder Bluff."
   },
   {
    "q": "Who leads the village?",
@@ -37,7 +37,7 @@
     "camp narache chief",
     "hawkwind leader"
    ],
-   "answer": "Chief Hawkwind guides the tribe's braves and coordinates the defenses of the mesa, alongside the tribe's revered elder, Greatmother Hawkwind. The tribe's trainers and elders gather at the center of the camp to instruct young adventurers."
+   "answer": "Greatmother Hawkwind guides the tribe alongside Chief Hawkwind, who leads the braves and coordinates the mesa’s defenses. The elders and trainers gather at the camp’s center to instruct the young."
   },
   {
    "q": "What threats does the camp face?",
@@ -46,7 +46,7 @@
     "who attacks camp narache",
     "mesa threats"
    ],
-   "answer": "The encampment is continually harassed by Bristleback quilboar operating out of Brambleblade Ravine to the east. In addition to feral battleboars and striders wandering the surrounding bluffs, the lingering danger of predatory centaur bands keeps the Hawkwind braves on constant alert."
+   "answer": "Bristleback quilboar from Brambleblade Ravine to the east harass the camp. Battleboars and striders roam the surrounding bluffs, and centaur bands remain a threat."
   },
   {
    "q": "Can travelers easily leave the mesa?",
@@ -55,17 +55,17 @@
     "exit camp narache",
     "path off the mesa"
    ],
-   "answer": "Red Cloud Mesa is naturally bounded by sheer cliffs. The only way down into the greater plains of Mulgore is along a guarded mountain path leading north, watched over by Hawkwind braves to prevent hostile beasts and quilboar from ambushing travelers."
+   "answer": "Steep cliffs bound Red Cloud Mesa, and a guarded mountain path leads north into Mulgore’s plains. Hawkwind braves watch the way to keep hostile beasts and quilboar from ambushing travelers."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "For the tauren, Camp Narache represents childhood's end\u2014the sacred earth where you take your first rites of the hunt and attune yourself to the ancestral spirits under the watchful gaze of the Hawkwind elders."
+   "text": "As a tauren, you begin your rites of the hunt on this sacred earth and attune yourself to ancestral spirits under the Hawkwind elders’ watch."
   },
   {
    "target": "class:Shaman",
-   "text": "Young shaman take their very first steps along the spiritual path here, undertaking trials to earn their Earth Totem and speak directly with the elementals of the mesa."
+   "text": "As a young shaman, you take your first steps on the spiritual path here, facing trials to earn your Earth Totem and speak with the mesa’s elementals."
   }
  ],
  "keywords": [
@@ -88,5 +88,6 @@
  ],
  "attribution": [
   "Camp Narache"
- ]
+ ],
+ "style": 1
 }

@@ -17,21 +17,21 @@
   "wiki": "Thule Ravenclaw (quest)",
   "chain": []
  },
- "summary": "Following the discovery of strange Rot Hide ichor in Silverpine Forest, Bethor Iceshard identifies the foul substance as the handiwork of his traitorous former colleague, Thule Ravenclaw. To aid the Forsaken in repelling the Rot Hide gnolls, Bethor prepares a specialized scroll containing counter-incantations for Apothecary Renferrel.",
+ "summary": "A courier brings strange Rot Hide ichor to Bethor Iceshard, who recognizes the work of his traitorous former colleague, Thule Ravenclaw. To help the Forsaken resist the gnolls, Bethor prepares a scroll of counter-incantations for Apothecary Renferrel.",
  "sections": [
   {
    "title": "A Colleague Turned Traitor",
-   "body": "When a courier delivers the sampled Rot Hide ichor to Bethor Iceshard in the Magic Quarter of the Undercity, the veteran sorcerer immediately recognizes its signature arcane resonance. The distillation belongs to Thule Ravenclaw, once a bright and promising young mage alongside Bethor before the Third War. When the Lich King rose to power, Thule betrayed his peers to swear allegiance to the Scourge, abandoning his humanity as Lordaeron fell.",
+   "body": "At the Magic Quarter of the Undercity, Bethor Iceshard recognizes the arcane mark in a courier’s sample of Rot Hide ichor. Thule Ravenclaw made the distillation. Before the Third War, Thule was a bright young mage and Bethor’s colleague. When the Lich King rose to power, Thule betrayed his peers and swore himself to the Scourge. As Lordaeron fell, he abandoned his humanity.",
    "spoiler": 0
   },
   {
    "title": "The Master of Fenris Isle",
-   "body": "Bethor is troubled to learn that Ravenclaw not only survived the war, but has entrenched himself inside Fenris Keep upon Fenris Isle in Lake Lordamere. From there, Thule commands the Rot Hide gnolls, infusing them with foul magic and sending them forth to harass Forsaken borders. Drawing upon his intimate knowledge of his former peer's magical repertoire, Bethor scribes a specialized scroll designed to neutralize Thule's signature curses and wards.",
+   "body": "Bethor learns that Thule survived the war and now holds Fenris Keep on Fenris Isle, in Lake Lordamere. Thule commands the Rot Hide gnolls, filling them with foul magic and sending them against Forsaken borders. Bethor draws on his close knowledge of Thule’s magic as he writes a scroll to counter the mage’s curses and wards.",
    "spoiler": 1
   },
   {
    "title": "Alchemical Countermeasures",
-   "body": "Entrusted with Bethor's scroll, the courier returns to the Sepulcher to present it to Apothecary Renferrel of the Royal Apothecary Society. Fascinated by the potent magical incantations laid out by the Undercity mage, Renferrel begins combining high sorcery with the society's alchemical brews. The resulting concoction is crafted specifically to shatter Ravenclaw's hexes, clearing the path for an assault on Fenris Keep.",
+   "body": "A courier carries Bethor’s scroll back to the Sepulcher for Apothecary Renferrel of the Royal Apothecary Society. Renferrel studies the Undercity mage’s potent incantations and begins joining high sorcery with the Society’s alchemical brews. The mixture is made specifically to shatter Ravenclaw’s hexes, clearing a path for an assault on Fenris Keep.",
    "spoiler": 1
   }
  ],
@@ -43,7 +43,7 @@
     "who is thule",
     "thule ravenclaw backstory"
    ],
-   "answer": "Thule Ravenclaw was once a promising young Dalaran-trained human mage who studied alongside Bethor Iceshard. When the Lich King began spreading corruption throughout Lordaeron, Thule betrayed his brethren to serve the Scourge, eventually rising to command the Rot Hide gnolls from Fenris Isle."
+   "answer": "Before the Scourge claimed him, Thule Ravenclaw was a promising human mage trained in Dalaran who studied with Bethor Iceshard. He betrayed his brethren to serve the Scourge as the Lich King spread corruption through Lordaeron, and eventually rose to command the Rot Hide gnolls from Fenris Isle."
   },
   {
    "q": "Why does Bethor Iceshard know Thule's magic?",
@@ -52,7 +52,7 @@
     "how does bethor know thule",
     "bethor iceshard connection"
    ],
-   "answer": "Bethor and Thule were colleagues and fellow spellcasters before the fall of Lordaeron. Because they studied the arcane arts together, Bethor is intimately familiar with Thule's favored spellcraft, magical theory, and hexes."
+   "answer": "Bethor and Thule were colleagues and fellow spellcasters before Lordaeron fell. Their studies together left Bethor intimately familiar with Thule’s favored spells, magical theory, and hexes."
   },
   {
    "q": "What is Bethor's Scroll used for?",
@@ -61,7 +61,7 @@
     "scroll purpose",
     "what does the scroll do"
    ],
-   "answer": "Bethor's Scroll contains intricate counter-incantations specifically crafted to unravel Thule's spells. Apothecary Renferrel uses these incantations to brew an alchemical potion that shields Forsaken champions against Ravenclaw's hexes."
+   "answer": "Bethor’s Scroll holds counter-incantations crafted to unravel Thule’s spells. Apothecary Renferrel uses them to brew a potion that shields Forsaken champions from Ravenclaw’s hexes."
   },
   {
    "q": "Why are the Rot Hide gnolls a threat in Silverpine?",
@@ -70,7 +70,7 @@
     "why fight gnolls",
     "fenris isle gnolls"
    ],
-   "answer": "Unlike ordinary wild beasts, the Rot Hide gnolls are coordinated and empowered by Thule Ravenclaw using Scourge necromancy. From their stronghold on Fenris Isle, they stage organized incursions against Forsaken settlements and patrols across Silverpine Forest."
+   "answer": "Thule Ravenclaw uses Scourge necromancy to coordinate and empower the Rot Hide gnolls. From Fenris Isle, they mount organized attacks on Forsaken settlements and patrols across Silverpine Forest."
   },
   {
    "q": "Where does this quest take place?",
@@ -79,7 +79,7 @@
     "where to turn in thule ravenclaw",
     "scroll delivery location"
    ],
-   "answer": "The quest begins with Bethor Iceshard in the Magic Quarter of the Undercity and concludes with Apothecary Renferrel at the Sepulcher in Silverpine Forest."
+   "answer": "The journey begins with Bethor Iceshard in the Undercity’s Magic Quarter and ends with Apothecary Renferrel at the Sepulcher in Silverpine Forest."
   },
   {
    "q": "What happens after Renferrel receives the scroll?",
@@ -88,21 +88,21 @@
     "after thule ravenclaw quest",
     "fenris isle attack"
    ],
-   "answer": "With the counter-potion developed, Renferrel sends you to report to High Executor Hadrec ahead of an all-out assault on Fenris Isle to eliminate Thule Ravenclaw and reclaim the island."
+   "answer": "After developing the counter-potion, Renferrel sends you to report to High Executor Hadrec before an all-out assault on Fenris Isle to eliminate Thule Ravenclaw and reclaim the island."
   }
  ],
  "angles": [
   {
    "target": "class:Mage",
-   "text": "The conflict between Bethor and Thule highlights the tragic divide among Lordaeron's former magi, contrasting those who fell to necromancy with those who retained their arcane discipline into undeath."
+   "text": "The conflict between Bethor and Thule reveals the divide among Lordaeron’s former magi: some fell to necromancy, while others kept their arcane discipline through undeath."
   },
   {
    "target": "race:Undead",
-   "text": "Neutralizing Thule Ravenclaw is vital for the Forsaken, as his control of Fenris Isle threatens both the Sepulcher and the western approaches to the Capital City."
+   "text": "For the Forsaken, stopping Thule Ravenclaw matters because his hold on Fenris Isle threatens the Sepulcher and the western approaches to the Capital City."
   },
   {
    "target": "faction:Horde",
-   "text": "Rooting out Scourge remnants in Lordaeron secures the Horde's solitary foothold in the Eastern Kingdoms."
+   "text": "Driving Scourge remnants from Lordaeron helps secure the Horde’s only foothold in the Eastern Kingdoms."
   }
  ],
  "keywords": [
@@ -127,5 +127,6 @@
  ],
  "attribution": [
   "Thule Ravenclaw (quest)"
- ]
+ ],
+ "style": 1
 }

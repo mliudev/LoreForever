@@ -17,16 +17,16 @@
   "wiki": "Tramping Paws",
   "chain": []
  },
- "summary": "Tramping Paws is an Alliance task given by Rethiel the Greenwarden at the Greenwarden's Grove in the Wetlands. Troubled by the surging Mosshide gnoll population near the Gate of Algaz, the bog beast protector tasks adventurers with culling their numbers before their fires and trampling paws ruin the bog.",
+ "summary": "At Greenwarden's Grove in the Wetlands, Rethiel watches the Mosshide numbers rise near the Gate of Algaz. Their fires and trampling threaten the bog, and Rethiel asks travelers to thin their ranks.",
  "sections": [
   {
    "title": "A Swelling Fen Menace",
-   "body": "For many years, the Mosshide gnolls inhabited the Wetlands without utterly overwhelming its natural order. Lately, however, their pack numbers have exploded south toward the pass of Dun Algaz. Their heavy boots and pawprints trample rare fen flora, and their crude logging strips vital groves to feed their campsite blazes. Left unchecked, the burgeoning packs threaten to degrade the fragile marsh ecology.",
+   "body": "Mosshide gnolls lived in the Wetlands for many years without overwhelming the natural order. Now their numbers have surged south toward the pass of Dun Algaz. Their heavy boots and paws crush rare fen plants, while their logging strips groves for campsite fires. If the packs keep growing, the fragile marsh will suffer.",
    "spoiler": 0
   },
   {
    "title": "The Greenwarden's Judgment",
-   "body": "Rethiel the Greenwarden watches over the marsh with an eye for balance rather than civilization. To the Greenwarden, the issue is not that gnolls exist, but that their runaway population outstrips what the Wetlands can support. By driving Mosshide gnolls and mongrels back into manageable numbers, adventurers help preserve the wetlands and earn the reluctant approval of an ancient wilderness guardian.",
+   "body": "Rethiel the Greenwarden watches the marsh for signs of imbalance. The gnolls' existence is not the trouble; their numbers have grown beyond what the Wetlands can support. Thinning the Mosshide gnolls and mongrels helps preserve the fen, and may earn the approval of its ancient guardian.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who gives tramping paws",
     "greenwarden wetlands"
    ],
-   "answer": "Rethiel is a bog beast dwelling in the Wetlands along the road between Ironforge's borders and Arathi. Dedicated to preserving the marsh, it monitors the land's health and tasks travelers with keeping destructive populations in check."
+   "answer": "Rethiel is a bog beast who lives in the Wetlands along the road between Ironforge's borders and Arathi. Dedicated to preserving the marsh, Rethiel watches the land's health and asks travelers to keep destructive populations in check."
   },
   {
    "q": "Why are the Mosshide gnolls a problem now?",
@@ -46,7 +46,7 @@
     "why kill gnolls wetlands",
     "mosshide gnoll threat"
    ],
-   "answer": "While the Mosshide pack once coexisted with the marsh without causing long-term harm, their recent population boom has led to heavy deforestation for firewood and widespread trampling of fragile marsh flora."
+   "answer": "The Mosshide gnolls once lived alongside the marsh without lasting harm, but their recent population boom has brought heavy logging for firewood and widespread trampling of fragile marsh plants."
   },
   {
    "q": "Where are the gnolls causing this damage?",
@@ -54,7 +54,7 @@
     "where are mosshide gnolls",
     "tramping paws location"
    ],
-   "answer": "The Mosshide gnolls and mongrels gather in large numbers to the south of the Wetlands, clustered particularly near the dwarven pass of Dun Algaz."
+   "answer": "Mosshide gnolls and mongrels gather in large numbers in the southern Wetlands, especially near the dwarven pass of Dun Algaz."
   },
   {
    "q": "What comes after culling the gnolls?",
@@ -62,7 +62,7 @@
     "next quest after tramping paws",
     "tramping paws follow up"
    ],
-   "answer": "Once the packs are thinned, Rethiel looks deeper into the source of their unusual activity and fuel consumption, sending adventurers on the follow-up quest 'Fire Taboo'."
+   "answer": "After the packs are thinned, Rethiel investigates the cause of their unusual activity and fuel use, then sends travelers to Fire Taboo."
   },
   {
    "q": "Why does Rethiel mention having its faith tested?",
@@ -70,21 +70,21 @@
     "rethiel dialogue",
     "faith taxed in the past"
    ],
-   "answer": "Rethiel tells you that its faith in your people has been taxed in the past, and it views mortals and their rapid expansion with wariness. Helping it protect the wild fen proves that mortal adventurers can act as stewards of nature rather than exploiters."
+   "answer": "Rethiel says its faith in your people has been taxed in the past, and it remains wary of mortals and their rapid expansion. Helping protect the wild fen shows that mortals can care for nature rather than exploit it."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "Rethiel's mission directly mirrors the Cenarion mandate to maintain ecological equilibrium, culling unnatural population spikes to ensure the marsh does not collapse."
+   "text": "As a druid, you share the Cenarion duty to keep nature in balance. Thinning an unnatural population surge can help keep the marsh from collapsing."
   },
   {
    "target": "race:NightElf",
-   "text": "Night elves share ancestral bonds with the wild spirits of nature, making Rethiel's plea to heal the marsh a familiar and honored duty."
+   "text": "As a night elf, you share old bonds with nature's wild spirits. Helping Rethiel heal the marsh is a familiar and honored duty."
   },
   {
    "target": "race:Dwarf",
-   "text": "With the gnolls swarming directly outside the Gate of Algaz, culling them not only preserves the fen but also secures the vital road linking Ironforge to Menethil Harbor."
+   "text": "As a dwarf, you know the gnolls swarm just outside the Gate of Algaz. Thinning their ranks protects the fen and secures the vital road between Ironforge and Menethil Harbor."
   }
  ],
  "keywords": [
@@ -106,5 +106,6 @@
  ],
  "attribution": [
   "Tramping Paws"
- ]
+ ],
+ "style": 1
 }

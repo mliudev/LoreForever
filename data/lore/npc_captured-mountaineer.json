@@ -8,11 +8,11 @@
   "wiki": "Captured Mountaineer",
   "refs": 1
  },
- "summary": "The Captured Mountaineer is an Ironforge dwarf held prisoner in the basement of the Gallows' End Tavern in Brill. Bound and guarded by the Forsaken, he serves as an unwilling subject for the Royal Apothecary Society's grim experiments.",
+ "summary": "In Brill, a captured Ironforge Mountaineer is held beneath the Gallows' End Tavern. The Forsaken keep him bound for the Royal Apothecary Society's experiments.",
  "sections": [
   {
    "title": "A Prisoner in the Cellar",
-   "body": "Tucked away beneath the floorboards of the Gallows' End Tavern in Brill, this Ironforge Mountaineer sits captive far from the safety of Khaz Modan. While patrons drink above, the Royal Apothecary Society puts him to work as an unwitting test subject for their concoctions. Apothecary Johaan and his peers test the lethal potency of their developing plague against living Alliance physiology, using the prisoner to gauge how well their toxins bring a swift and agonizing end to the living.",
+   "body": "Beneath the Gallows' End Tavern in Brill, an Ironforge Mountaineer is held far from Khaz Modan. While patrons drink above, the Royal Apothecary Society uses him to test its concoctions. Apothecary Johaan and his peers measure their developing plague against living Alliance bodies, testing how swiftly and painfully their toxins kill.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "dwarf in brill tavern",
     "captive dwarf"
    ],
-   "answer": "He is an Alliance scout from Ironforge who fell into Forsaken hands. He is currently imprisoned in the basement of the Gallows' End Tavern in Brill."
+   "answer": "He is an Alliance scout from Ironforge, now held by the Forsaken in the Gallows' End Tavern basement in Brill."
   },
   {
    "q": "Why are the Forsaken keeping him alive in the basement?",
@@ -33,7 +33,7 @@
     "why is he in the tavern",
     "what are they doing to the dwarf"
    ],
-   "answer": "The Royal Apothecary Society uses him as a live test subject. Rather than executing him outright, apothecaries like Johaan administer experimental mixtures to study their effectiveness against living dwarven biology."
+   "answer": "The Royal Apothecary Society keeps him alive as a test subject. Apothecaries such as Johaan give him experimental mixtures to study their effects on living dwarves."
   },
   {
    "q": "What happens to him during the tests?",
@@ -41,7 +41,7 @@
     "does the dwarf die",
     "what happens in a new plague"
    ],
-   "answer": "As part of the research into developing a new plague, he is forced to ingest concoctions brewed by the apothecaries. The lethal mixture quickly proves effective, terminating the prisoner as proof of the toxin's progress."
+   "answer": "The apothecaries force him to swallow concoctions as they develop a new plague. The lethal mixture kills him, showing the toxin's progress."
   },
   {
    "q": "Who else interacts with him down here?",
@@ -49,17 +49,17 @@
     "who talks to the dwarf",
     "renee lauer"
    ],
-   "answer": "Aside from the apothecaries conducting experiments, the Deathguard use the tavern cellar as a holding cell, keeping captured mountaineers there until they can be \"properly\" dealt with."
+   "answer": "The Deathguard use the tavern cellar to hold captured mountaineers until they can be dealt with. Apothecaries also come there to conduct experiments."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "Seeing a proud brother of Ironforge caged beneath a Forsaken tavern and subjected to horrific alchemical trials is a bitter reminder of the Forsaken's ruthless hostility toward the living."
+   "text": "For a dwarf, seeing an Ironforge brother caged beneath a Forsaken tavern and subjected to alchemical trials shows the Forsaken's hostility toward the living."
   },
   {
    "target": "race:Undead",
-   "text": "For the Forsaken, live Alliance captives are vital resources for the Royal Apothecary Society's goal of perfecting a plague capable of wiping out Scourge and living foes alike."
+   "text": "For the Forsaken, living Alliance captives serve the Royal Apothecary Society's effort to perfect a plague against the Scourge and the living."
   }
  ],
  "keywords": [
@@ -79,5 +79,6 @@
  ],
  "attribution": [
   "Captured Mountaineer"
- ]
+ ],
+ "style": 1
 }

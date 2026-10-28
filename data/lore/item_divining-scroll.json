@@ -10,11 +10,11 @@
    "quest:1016"
   ]
  },
- "summary": "The Divining Scroll is an enchanted parchment provided by Sentinel Velene Starstrike at Silverwind Refuge. Its magic allows investigators to trace the magical signature of the unnatural water elementals infesting Ashenvale back to their creator.",
+ "summary": "At Silverwind Refuge, Sentinel Velene Starstrike gives investigators the Divining Scroll to trace the corrupted elementals to their creator.",
  "sections": [
   {
    "title": "Tracing Unnatural Elementals",
-   "body": "When corrupt water elementals began rising from the pristine pools of Ashenvale, the Sentinels knew the disturbance was not a natural emergence. Sentinel Velene Starstrike acquired this divination scroll to identify the person responsible. By channeling the scroll's magic through intact elemental bracers as a focusing reagent, the user extracts the summoner's signature, transforming the blank parchment into a Divined Scroll that names the guilty party.",
+   "body": "Corrupt water elementals rise from Ashenvale’s pools, and the Sentinels know the disturbance is unnatural. Sentinel Velene Starstrike obtains a scroll to find who is responsible. With intact elemental bracers as a focus, its magic draws out the summoner’s signature. The blank parchment becomes a Divined Scroll and names the guilty party.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "divining scroll purpose",
     "why use divining scroll"
    ],
-   "answer": "The scroll is designed to identify who created the corrupt water elementals invading Ashenvale. Using intact elemental bracers as a focus, the parchment channels divination magic to read the caster's aura and record their identity."
+   "answer": "The Divining Scroll identifies who created the corrupt water elementals in Ashenvale. Intact elemental bracers focus its magic, which reads the caster’s aura and records their identity."
   },
   {
    "q": "Who provides the Divining Scroll?",
@@ -35,7 +35,7 @@
     "where to get scroll",
     "velene starstrike scroll"
    ],
-   "answer": "Sentinel Velene Starstrike provides the scroll to Alliance investigators at Silverwind Refuge in southern Ashenvale during her investigation into the tainted waters."
+   "answer": "Sentinel Velene Starstrike gives the scroll to Alliance investigators at Silverwind Refuge in southern Ashenvale as she investigates the tainted waters."
   },
   {
    "q": "Why are intact elemental bracers needed?",
@@ -44,7 +44,7 @@
     "intact elemental bracers",
     "reagent for scroll"
    ],
-   "answer": "Most bracers shatter beyond recognition during combat. A handful of intact bracers still retain enough residual binding magic from their summoner to serve as a proper arcane focus for the divination spell."
+   "answer": "Most bracers shatter beyond recognition in combat. A few remain intact, holding enough of their summoner’s binding magic to focus the divination spell."
   },
   {
    "q": "What happens after the scroll is used?",
@@ -53,17 +53,17 @@
     "after using scroll",
     "what does it turn into"
    ],
-   "answer": "Once activated in the presence of five intact bracers, the item is consumed and becomes a Divined Scroll, revealing that a rogue mage is deliberately summoning the corrupt elementals into the forest's lakes."
+   "answer": "Used in the presence of five intact bracers, the scroll is consumed and becomes a Divined Scroll. It reveals that a rogue mage is deliberately summoning corrupt elementals into the forest’s lakes."
   }
  ],
  "angles": [
   {
    "target": "class:Mage",
-   "text": "The scroll showcases classic divination magic used to track arcane resonance, revealing that a fellow practitioner of the arcane is abusing elemental summoning within sacred kaldorei groves."
+   "text": "The scroll uses divination to track arcane resonance. It reveals that a fellow practitioner is abusing elemental summoning within sacred kaldorei groves."
   },
   {
    "target": "race:NightElf",
-   "text": "For the Sentinels protecting Ashenvale, this scroll is a crucial tool to expose outsiders who desecrate the forest's pristine waters with unnatural corruption."
+   "text": "For the Sentinels who protect Ashenvale, the scroll can expose outsiders who defile the forest’s pristine waters with unnatural corruption."
   }
  ],
  "keywords": [
@@ -87,5 +87,6 @@
  "attribution": [
   "Divining Scroll",
   "Elemental Bracers (quest)"
- ]
+ ],
+ "style": 1
 }

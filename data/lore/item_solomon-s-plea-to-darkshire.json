@@ -10,16 +10,16 @@
    "quest:145"
   ]
  },
- "summary": "Solomon's Plea to Darkshire is an urgent missive penned by Magistrate Solomon of Lakeshire addressed to Lord Ello Ebonlocke. In the face of mounting Blackrock orc and gnoll threats, the letter begs the leadership of Darkshire to send their elite militia, the Night Watch, to bolster Lakeshire's strained defenses.",
+ "summary": "Magistrate Solomon asks Darkshire for aid as Lakeshire faces mounting threats. His urgent letter to Lord Ello Ebonlocke requests the Night Watch to help defend Redridge.",
  "sections": [
   {
    "title": "A Desperate Call for Aid",
-   "body": "Lakeshire stands on the brink of being overwhelmed by invading Blackrock orcs, gnolls, and murlocs, with virtually no official reinforcements arriving from Stormwind. In desperation, Magistrate Solomon drafted this formal plea to Mayor Ello Ebonlocke of Darkshire, petitioning him to dispatch members of the Night Watch northward into Redridge. The document reflects the severe breakdown of central military support across southern Azeroth, forcing individual human settlements to look to one another for mutual survival.",
+   "body": "Lakeshire faces attacks from Blackrock orcs, gnolls, and murlocs, with few reinforcements arriving from Stormwind. Magistrate Solomon sends a formal plea to Mayor Ello Ebonlocke in Darkshire, asking him to send Night Watch militia north into Redridge. With central military support failing across southern Azeroth, human settlements must seek help from one another to survive.",
    "spoiler": 0
   },
   {
    "title": "Darkshire's Grim Plight",
-   "body": "While Solomon's request is urgent, it underscores Lakeshire's isolation from the true horrors gripping its neighbors. Duskwood itself is besieged by undead, ravenous beasts, and pervasive darkness, leaving the Night Watch already stretched beyond its limits simply holding the village borders. Rather than discovering an untapped reserve of fresh soldiers, couriers delivering the plea find a town equally beleaguered and wholly unable to spare defenders for Redridge.",
+   "body": "Darkshire is already struggling to hold its borders against undead, ravenous beasts, and the darkness gripping Duskwood. The Night Watch is stretched thin, leaving the town unable to spare defenders for Redridge when Solomon’s plea arrives.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "what is solomons plea",
     "lakeshire letter to duskwood"
    ],
-   "answer": "It is an official letter written by Magistrate Solomon of Lakeshire to Lord Ello Ebonlocke, the mayor of Darkshire. The message urgently petitions Darkshire to lend the aid of their militia, the Night Watch, to assist in defending Redridge against Blackrock orcs and gnolls."
+   "answer": "Solomon’s Plea to Darkshire is Magistrate Solomon’s urgent letter to Lord Ello Ebonlocke, Darkshire’s mayor. It asks the Night Watch to help defend Redridge against Blackrock orcs and gnolls."
   },
   {
    "q": "Why is Lakeshire asking Darkshire for military help instead of Stormwind?",
@@ -40,7 +40,7 @@
     "why not stormwind",
     "why does solomon need night watch"
    ],
-   "answer": "Stormwind's central government has largely failed to provide adequate garrison troops to its outlying territories due to political inertia and internal strife. Left to defend Lakeshire alone against escalating incursions, Magistrate Solomon has turned to neighboring human townships in hopes of securing allied forces."
+   "answer": "Stormwind has sent few garrison troops to its outlying territories amid political inertia and internal strife. Left to face growing attacks alone, Magistrate Solomon seeks help from neighboring human towns."
   },
   {
    "q": "Who is Lord Ello Ebonlocke?",
@@ -49,7 +49,7 @@
     "mayor of darkshire",
     "lord ello"
    ],
-   "answer": "Lord Ello Ebonlocke is the mayor and chief civic leader of Darkshire in Duskwood. He oversees the town and coordinates the Night Watch, the civilian defense force dedicated to holding back the horrors lurking within the woods."
+   "answer": "Lord Ello Ebonlocke is Darkshire’s mayor and chief civic leader in Duskwood. He oversees the town and coordinates the Night Watch, its civilian defense force against the dangers in the woods."
   },
   {
    "q": "Can Darkshire actually spare the Night Watch to help Lakeshire?",
@@ -58,17 +58,17 @@
     "will the night watch come",
     "did ebonlocke send guards"
    ],
-   "answer": "No. Duskwood is trapped in its own nightmare, surrounded by undead, feral worgen, and dark magic. The Night Watch barely has enough personnel to hold Darkshire's perimeter and cannot spare a single fighter to travel to Redridge."
+   "answer": "No. Duskwood faces undead, feral worgen, and dark magic, and the Night Watch can barely hold Darkshire’s perimeter. It cannot spare fighters to travel to Redridge."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "The message illustrates the fracturing of the Grand Alliance's southern lands, where distant settlements must plead among themselves for survival while Stormwind remains indifferent."
+   "text": "For the Alliance, Solomon’s plea shows how southern settlements must seek one another’s help while Stormwind gives little support."
   },
   {
    "target": "race:Human",
-   "text": "For human travelers, carrying this dispatch highlights the shared peril facing both the Redridge borderlands and the shadowed woods of Duskwood."
+   "text": "As a human traveler, you carry a dispatch that speaks to the danger facing Redridge and Duskwood."
   }
  ],
  "keywords": [
@@ -95,5 +95,6 @@
  "attribution": [
   "Solomon's Plea to Darkshire",
   "Messenger to Darkshire"
- ]
+ ],
+ "style": 1
 }

@@ -17,16 +17,16 @@
   "wiki": "Scalding Mornbrew Delivery",
   "chain": []
  },
- "summary": "Scalding Mornbrew Delivery is a hurried errand through Coldridge Valley to deliver fresh hot drink before it chills in the mountain frost. Nori Pridedrift entrusts the delivery to an adventurer to ensure Durnan Furcutter receives his mornbrew piping hot.",
+ "summary": "Nori Pridedrift sends you across Coldridge Valley with hot mornbrew for Durnan Furcutter. The drink must reach Anvilmar before the mountain cold takes its heat.",
  "sections": [
   {
    "title": "A Race Against the Frost",
-   "body": "Dun Morogh's biting cold has ruined many a hot meal, and Mornbrew is no exception. After completing a delivery to Grelin Whitebeard, Nori Pridedrift realizes he lacks the time to bring another fresh cup to Anvilmar before it freezes into an unpalatable slush. Rather than let his customer down, he enlists any swift traveler willing to brave the snow.",
+   "body": "Nori Pridedrift has just sent a delivery to Grelin Whitebeard. Now he has no time to carry another fresh cup to Anvilmar before it freezes into slush. Rather than leave his customer waiting, Nori asks a swift traveler to brave the snow with the mornbrew.",
    "spoiler": 0
   },
   {
    "title": "The Price of a Warm Mug",
-   "body": "Durnan Furcutter, stationed inside the warmth of Anvilmar's mountain hall, is known to be particular about his refreshments. Chilly Mornbrew simply will not do. Delivering the piping drink intact earns a weary dwarf a much-needed break from his duties, though Nori still expects his favorite mug returned in one piece.",
+   "body": "Durnan Furcutter waits inside Anvilmar's warm mountain hall and is particular about his refreshments. Chilled mornbrew will not do. A hot cup gives the weary dwarf a needed break from his duties, and Nori expects his favorite mug back in one piece.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who is durnan",
     "furcutter"
    ],
-   "answer": "Durnan Furcutter is a dwarf residing inside the subterranean hall of Anvilmar in Coldridge Valley. He relies on local deliveries from Nori Pridedrift for his hot mornbrew."
+   "answer": "Durnan Furcutter is a dwarf in Anvilmar's underground hall in Coldridge Valley. Nori Pridedrift brings him hot mornbrew."
   },
   {
    "q": "Why does the delivery need to be so fast?",
@@ -47,7 +47,7 @@
     "mornbrew timer",
     "why hurry"
    ],
-   "answer": "The freezing alpine weather of Coldridge Valley causes hot drinks to cool rapidly. Durnan specifically ordered scalding mornbrew, and cold ale or tea is considered ruined by dwarf standards."
+   "answer": "Cold weather in Coldridge Valley cools hot drinks quickly. Durnan ordered scalding mornbrew, and dwarves consider cold ale or tea ruined."
   },
   {
    "q": "Who is Nori Pridedrift?",
@@ -56,7 +56,7 @@
     "nori",
     "who is nori"
    ],
-   "answer": "Nori Pridedrift is a dwarf stationed out in the snowy paths of Coldridge Valley. He tends to deliveries between local encampments, including bringing drinks to Grelin Whitebeard and workers in Anvilmar."
+   "answer": "Nori Pridedrift is a dwarf stationed along Coldridge Valley's snowy paths. He carries deliveries between local encampments, including drinks for Grelin Whitebeard and workers in Anvilmar."
   },
   {
    "q": "What is mornbrew?",
@@ -64,7 +64,7 @@
     "what is mornbrew",
     "mornbrew lore"
    ],
-   "answer": "Mornbrew is a warm, invigorating dwarven morning brew, crafted to cut through the freezing chill of the Dun Morogh peaks and sustain hardy mountain workers."
+   "answer": "Mornbrew is a warm, invigorating dwarven morning brew. It cuts through the chill of the Dun Morogh peaks and sustains hardy mountain workers."
   },
   {
    "q": "Where is Anvilmar located?",
@@ -73,7 +73,7 @@
     "anvilmar location",
     "find anvilmar"
    ],
-   "answer": "Anvilmar is situated directly northeast of Nori's post, carved into the mountain rock of Coldridge Valley to shelter young mountaineers and craftsmen from the blizzards."
+   "answer": "Anvilmar lies northeast of Nori's post, carved into the mountain rock of Coldridge Valley. It shelters young mountaineers and craftsmen from the blizzards."
   },
   {
    "q": "Does Nori want the mug back?",
@@ -82,17 +82,17 @@
     "bring back the mug",
     "nori's mug"
    ],
-   "answer": "Yes. Once Durnan finishes enjoying his hot brew, he hands back the empty container so it can be returned to Nori in Coldridge Valley."
+   "answer": "Yes. After Durnan finishes his hot brew, he returns the empty mug for Nori in Coldridge Valley."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "Every dwarf understands the tragedy of cold brew in freezing mountain air, making this dash across the valley a matter of pure principle."
+   "text": "As a dwarf, you know cold brew in mountain air is a sorrow worth crossing the valley to prevent."
   },
   {
    "target": "profession:Cooking",
-   "text": "Serving beverages at the proper temperature is a mark of true culinary respect, especially under Dun Morogh's punishing sub-zero conditions."
+   "text": "As a cook, you know serving a drink at the proper temperature shows respect, especially in Dun Morogh's bitter cold."
   }
  ],
  "keywords": [
@@ -112,5 +112,6 @@
  ],
  "attribution": [
   "Scalding Mornbrew Delivery"
- ]
+ ],
+ "style": 1
 }

@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Steelgrill's Depot"
  },
- "summary": "Steelgrill's Depot is a bustling engineering workshop and repair station situated directly east of Kharanos in Dun Morogh. Overseen by Beldin Steelgrill and a crew of craftsmen, it serves as a frontline hub for vehicle maintenance, tinker supply runs, and salvage efforts.",
+ "summary": "East of Kharanos, Steelgrill's Depot keeps Alliance vehicles and machinery in working order. Beldin Steelgrill and his crew handle repairs, tinker supplies, and salvage efforts.",
  "sections": [
   {
    "title": "A Bastion of Steam and Steel",
-   "body": "Nestled just off the snowy road east of Kharanos, Steelgrill's Depot buzzes with the clamor of clanking metal, hissing steam vents, and the hum of experimental engines. Dwarven miners and eccentric gnome engineers gather here amid heavy machinery, mechanized walking frames, and stockpiles of raw ores hauled out from nearby quarries. With Dun Morogh facing relentless trogg disruptions and mechanical supply shortages, Beldin Steelgrill and his crew keep Alliance machinery in working order, serving as an indispensable stop for travelers seeking spare parts or technical guidance in the bitter cold.",
+   "body": "Steelgrill's Depot rings with clanking metal, hissing steam vents, and the hum of experimental engines. Just off the snowy road east of Kharanos, dwarven miners and eccentric gnome engineers gather among heavy machinery, mechanized walking frames, and stockpiles of raw ores hauled from nearby quarries. Trogg disruptions and shortages of mechanical supplies trouble Dun Morogh. Beldin Steelgrill and his crew keep Alliance machinery in working order, making the depot an indispensable stop for travelers seeking spare parts or technical guidance in the bitter cold.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "what is this place",
     "steelgrills"
    ],
-   "answer": "Steelgrill's Depot is an engineering workshop and outpost in Dun Morogh, located just down the road east of Kharanos. It caters to miners, tinkerers, and field technicians maintaining heavy machinery."
+   "answer": "Steelgrill's Depot is a workshop and outpost in Dun Morogh, just down the road east of Kharanos. It caters to miners, tinkerers, and field technicians, with heavy machinery to maintain."
   },
   {
    "q": "Who runs the depot?",
@@ -32,7 +32,7 @@
     "who runs steelgrill depot",
     "belbi steelgrill"
    ],
-   "answer": "The depot is managed by the Steelgrill family, notably Beldin Steelgrill, alongside fellow dwarven and gnomish crafters who maintain the surrounding machinery and oversee mining operations."
+   "answer": "Beldin Steelgrill manages the depot with fellow dwarven and gnomish crafters. They maintain the surrounding machinery and oversee mining operations."
   },
   {
    "q": "What services are available here?",
@@ -41,17 +41,17 @@
     "what can i do here",
     "steelgrills depot services"
    ],
-   "answer": "The depot houses trade suppliers, repair services, and trainers for craftsmen looking to hone their engineering and gathering skills out in the field."
+   "answer": "The depot houses trade suppliers, repair services, and trainers for craftsmen seeking to hone their engineering and gathering skills in the field."
   }
  ],
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "The depot is an open-air laboratory surrounded by steam machinery and tinkering supplies, making it a natural rest stop for aspiring engineers traveling through Dun Morogh."
+   "text": "As an aspiring engineer traveling through Dun Morogh, you can rest at this open-air laboratory surrounded by steam machinery and tinkering supplies."
   },
   {
    "target": "race:Gnome",
-   "text": "Working closely with their dwarven hosts, exiled gnomish tinkers often use the depot's forge fires and spare components to keep their salvaged contraptions running."
+   "text": "As a gnome, you may work with your dwarven hosts at the depot. Exiled gnomish tinkers often use its forge fires and spare components to keep their salvaged contraptions running."
   }
  ],
  "keywords": [
@@ -70,5 +70,6 @@
  ],
  "attribution": [
   "Steelgrill's Depot"
- ]
+ ],
+ "style": 1
 }

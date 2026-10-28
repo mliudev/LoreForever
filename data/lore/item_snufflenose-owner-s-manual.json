@@ -10,11 +10,11 @@
    "quest:1221"
   ]
  },
- "summary": "The Snufflenose Owner's Manual is an instructional booklet from Marwig Rustbolt of Snuff Inc., kept beside the goblin entrepreneur Mebok Mizzyrix in Ratchet. It outlines how to deploy and direct a trained Snufflenose Gopher to locate rare Blueleaf Tubers buried in Razorfen Kraul.",
+ "summary": "In Ratchet, Mebok Mizzyrix keeps Snufflenose Owner's Manual beside him. Marwig Rustbolt of Snuff Inc. wrote the booklet to explain how to send a trained Snufflenose Gopher after Blueleaf Tubers in Razorfen Kraul.",
  "sections": [
   {
    "title": "A Goblin's Operating Guide",
-   "body": "Written by Marwig Rustbolt, owner of Snuff Inc., this short guide details how to work with the company's trained snufflenose gophers. These beasts possess a keen sense of smell capable of detecting subterranean Blueleaf Tubers from fifty paces away. The manual instructs prospectors to release a gopher using a ventilated crate and guide its rooting instincts with a command stick, directing the creature through the hostile thorns and quilboar tunnels of Razorfen Kraul to secure the prized culinary delicacies.",
+   "body": "Marwig Rustbolt, owner of Snuff Inc., wrote a guide to handling the company's trained snufflenose gophers. Their keen noses can detect Blueleaf Tubers buried underground from fifty paces away. The manual explains how to release a gopher from a ventilated crate and guide its rooting with a command stick. Prospectors direct it through Razorfen Kraul's thorns and quilboar tunnels to find the tubers.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "why read the manual",
     "manual purpose"
    ],
-   "answer": "It serves as instructions for handling Mebok Mizzyrix's trained snufflenose gophers. Adventurers read it to understand how to deploy the animal from its crate and direct it with a command stick to locate buried Blueleaf Tubers within Razorfen Kraul."
+   "answer": "The manual explains how to release Mebok Mizzyrix's trained snufflenose gopher from its crate and guide it with a command stick to find Blueleaf Tubers in Razorfen Kraul."
   },
   {
    "q": "Where can I find the manual?",
@@ -35,7 +35,7 @@
     "where is the book",
     "how to get the manual"
    ],
-   "answer": "The manual is kept in Ratchet in the Barrens, right near Mebok Mizzyrix alongside the specialized crates and command sticks needed for gathering tubers."
+   "answer": "You can find the manual in Ratchet, beside Mebok Mizzyrix and the crates and command sticks used to gather tubers."
   },
   {
    "q": "Why are snufflenose gophers needed to find Blueleaf Tubers?",
@@ -43,7 +43,7 @@
     "why use gophers",
     "can i find tubers without gophers"
    ],
-   "answer": "Blueleaf tubers grow concealed deep within the earth inside Razorfen Kraul and are virtually impossible for humanoids to spot. The trained gophers possess sharp noses that can detect the scent of a buried tuber from fifty paces away."
+   "answer": "Blueleaf Tubers lie buried deep in Razorfen Kraul, where they are nearly impossible for humanoids to spot. A trained gopher can smell one from fifty paces away."
   },
   {
    "q": "Who wrote the manual?",
@@ -51,13 +51,13 @@
     "author of manual",
     "who made it"
    ],
-   "answer": "It is signed by Marwig Rustbolt, owner of Snuff Inc., who wrote it to teach new owners how to feed, walk and command their gophers with the patented command stick."
+   "answer": "Marwig Rustbolt, owner of Snuff Inc., signed the manual. He wrote it to teach new owners how to feed, walk and command their gophers with the patented command stick."
   }
  ],
  "angles": [
   {
    "target": "profession:Cooking",
-   "text": "The manual outlines the retrieval process for Blueleaf Tubers, an underground root considered a rare delicacy by gourmands and traders across Azeroth."
+   "text": "The manual explains how to retrieve Blueleaf Tubers, an underground root prized as a rare delicacy by gourmands and traders across Azeroth."
   }
  ],
  "keywords": [
@@ -82,5 +82,6 @@
  "attribution": [
   "Snufflenose Owner's Manual",
   "Blueleaf Tubers"
- ]
+ ],
+ "style": 1
 }

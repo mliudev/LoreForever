@@ -8,16 +8,16 @@
   "wiki": "Brewmeister Bilger",
   "refs": 1
  },
- "summary": "Brewmeister Bilger is an intoxicated dwarven brewer residing in the cellar of the inn at Southshore in the Hillsbrad Foothills. He whiles away his hours tasting potent spirits and waiting on deliveries from distant lands.",
+ "summary": "Brewmeister Bilger waits in Southshore's inn cellar for deliveries from distant lands. The intoxicated dwarf passes his hours tasting potent spirits.",
  "sections": [
   {
    "title": "Life in the Cellar",
-   "body": "Bilger spends his days pacing the cool cellar beneath Southshore's inn, nursing hiccups and seeking out the strongest brews Azeroth can offer.",
+   "body": "Brewmeister Bilger paces the cellar beneath Southshore's inn, nursing hiccups as he seeks the strongest brews Azeroth can offer.",
    "spoiler": 0
   },
   {
    "title": "A Taste for Potent Imports",
-   "body": "Despite his perpetual stupor, Bilger remains a discerning judge of spirits. He maintains an appetite for heavy dwarven moonshines and potent liquors crafted in the south, eagerly receiving special batches like the moonshine Foggy MacKreel sends him from the Thandol Span.",
+   "body": "Brewmeister Bilger can judge spirits despite his constant stupor. He favors heavy dwarven moonshines and potent southern liquors, and eagerly receives special batches such as the moonshine Foggy MacKreel sends from the Thandol Span.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "where is bilger",
     "southshore cellar dwarf"
    ],
-   "answer": "Brewmeister Bilger is located downstairs in the cellar of the inn at Southshore, the Alliance port town in Hillsbrad Foothills."
+   "answer": "Find Brewmeister Bilger in the cellar beneath the inn at Southshore, the Alliance port town in Hillsbrad Foothills."
   },
   {
    "q": "What quests involve Brewmeister Bilger?",
@@ -37,17 +37,17 @@
     "bilger quest",
     "mackreel's moonshine quest"
    ],
-   "answer": "Bilger is the recipient of rare liquor delivered from the Wetlands, including strong spirits like MacKreel's Moonshine shipped north to Southshore."
+   "answer": "Brewmeister Bilger receives rare liquor from the Wetlands, including strong spirits such as MacKreel's Moonshine, shipped north to Southshore."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "Bilger shows that the dwarven love of strong drink thrives even in a human port town far from Ironforge."
+   "text": "As a dwarf, you can see Bilger's love of strong drink thriving in a human port town far from Ironforge."
   },
   {
    "target": "faction:Alliance",
-   "text": "A fixture of Southshore's inn cellar, Bilger is one of the dwarves who make their home among the humans of this beleaguered Alliance town."
+   "text": "As an Alliance member, you can find Bilger in Southshore's inn cellar, one of the dwarves who make their home among the humans of this beleaguered town."
   }
  ],
  "keywords": [
@@ -68,5 +68,6 @@
  ],
  "attribution": [
   "Brewmeister Bilger"
- ]
+ ],
+ "style": 1
 }

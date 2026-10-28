@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Tinker Town"
  },
- "summary": "Tinker Town is the bustling gnomish quarter nestled within the subterranean dwarven city of Ironforge. Established to shelter refugees following the tragic fall of Gnomeregan, the district serves as the seat of High Tinker Gelbin Mekkatorque's government-in-exile and the primary terminus for the Deeprun Tram.",
+ "summary": "In Tinker Town, gnomes make a home in exile beneath Ironforge. After Gnomeregan fell, the district became the seat of High Tinker Gelbin Mekkatorque's government and the Ironforge terminus of the Deeprun Tram.",
  "sections": [
   {
    "title": "A Home in Exile",
-   "body": "When subterranean troggs overran the high-tech city of Gnomeregan, the dwarven hosts of Ironforge opened their gates to the survivors. To accommodate the sudden influx of refugees, a cavernous district\u2014previously home to dwarven residents and the entrance to the Deeprun Tram\u2014was set aside for them. Under the watchful eye of High Tinker Gelbin Mekkatorque and his council, Tinker Town quickly became an energetic hub of whirring gears, experimental alchemy, and gadgetry. Despite being cramped guests in a stone city, the gnomes have rebuilt a semblance of their civilization around a massive spherical contraption, determined to reclaim their subterranean homeland.",
+   "body": "Tinker Town shelters the gnomes who fled Gnomeregan. When troggs overran their high-tech city, Ironforge's dwarves opened their gates, setting aside a cavern that had housed dwarves and held the Deeprun Tram entrance. High Tinker Gelbin Mekkatorque and his council lead the refugees here. Around a massive spherical contraption, the gnomes have rebuilt a semblance of their civilization amid whirring gears, experimental alchemy, and gadgetry. Though cramped guests in a stone city, they remain determined to reclaim their subterranean homeland.",
    "spoiler": 0
   },
   {
    "title": "Subway and Secrets",
-   "body": "Beyond housing the gnomish leadership, Tinker Town is one of the most strategically significant transit hubs on the continent. The district hosts the Ironforge entrance to the Deeprun Tram, an engineering wonder that swiftly links the dwarven capital to Stormwind.",
+   "body": "Tinker Town connects Ironforge to Stormwind by tram. The district holds the Ironforge entrance to the Deeprun Tram, an engineering wonder that swiftly links the dwarven capital with Stormwind.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "why do gnomes live in ironforge",
     "gnome refugees ironforge"
    ],
-   "answer": "Gnomeregan fell to a sudden, devastating invasion of primitive troggs. Rather than burdening the Alliance during the Third War, the gnomes fought alone and were ultimately forced to evacuate. King Magni Bronzebeard offered Ironforge as a sanctuary, allowing High Tinker Mekkatorque to establish this district as their temporary capital in exile."
+   "answer": "Gnomeregan fell when primitive troggs invaded, and the gnomes evacuated. They fought the troggs alone rather than burdening the Alliance during the Third War. King Magni Bronzebeard offered Ironforge as a sanctuary, where High Tinker Mekkatorque established a temporary capital in exile."
   },
   {
    "q": "What is the Deeprun Tram entrance doing here?",
@@ -37,17 +37,17 @@
     "tram in tinkertown",
     "tinkertown portal"
    ],
-   "answer": "The Deeprun Tram was built as a collaborative engineering marvel between gnomes and dwarves to connect Ironforge directly to Stormwind City. The tram's Ironforge terminus opens right into Tinker Town, providing high-speed transit between the two Alliance capitals."
+   "answer": "The Deeprun Tram connects Ironforge directly to Stormwind City. Gnomes and dwarves built it together, and its Ironforge terminus opens into Tinker Town, linking the two Alliance capitals with high-speed transit."
   }
  ],
  "angles": [
   {
    "target": "race:Gnome",
-   "text": "Tinker Town is the heart of your exiled people. Here, surrounded by clanking prototypes and fellow survivors, High Tinker Mekkatorque directs ongoing efforts to reclaim Gnomeregan."
+   "text": "As a gnome, Tinker Town is the heart of your people in exile. Amid clanking prototypes and fellow survivors, High Tinker Mekkatorque directs efforts to reclaim Gnomeregan."
   },
   {
    "target": "profession:Engineering",
-   "text": "For engineers, Tinker Town is an essential stop in Ironforge, offering specialized trainers, gadget vendors, and parts alongside the Deeprun Tram."
+   "text": "For an engineer, Tinker Town is an essential stop in Ironforge, with specialized trainers, gadget vendors, and parts, as well as the Deeprun Tram."
   }
  ],
  "keywords": [
@@ -68,5 +68,6 @@
  ],
  "attribution": [
   "Tinker Town"
- ]
+ ],
+ "style": 1
 }

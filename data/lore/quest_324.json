@@ -17,16 +17,16 @@
   "wiki": "The Lost Ingots",
   "chain": []
  },
- "summary": "The Lost Ingots is an Alliance task in the Wetlands to recover consecrated metal from a shipwreck. After finding only a single bar in a sunken chest, travelers must hunt down the local Bluegill murlocs who looted the remaining shipment.",
+ "summary": "Glorin Steelbrow needs Lightforge iron from a shipwreck off the Wetlands. The chest holds only one ingot, and the Bluegill murlocs have taken the rest.",
  "sections": [
   {
    "title": "A Plundered Shipwreck",
-   "body": "Off the misty shores of the Wetlands lies the shattered wreckage of the Flying Osprey. Sent to retrieve precious Lightforge iron for the dwarven priest Glorin Steelbrow, seekers discovered that the cargo hold's waterlogged chest was nearly empty. The ravenous local Bluegill murlocs had already scavenged the rest of the vessel, taking the gleaming ingots for themselves.",
+   "body": "The Flying Osprey lies broken off the Wetlands shore. Glorin Steelbrow, a dwarven priest, sent you to recover its Lightforge iron. The waterlogged chest in the cargo hold holds only a single ingot. Bluegill murlocs near the wreck have scavenged the rest of the shipment.",
    "spoiler": 0
   },
   {
    "title": "Reclaiming the Sacred Metal",
-   "body": "Lightforge iron is no ordinary ore; it is rare, specialized metal attuned to work sacred smithing craft. Allowing it to rot in murloc encampments is unthinkable for a dwarf of the Light. By hunting down the Bluegill raiders swarming the shallows near the broken hull, adventurers prise back the scattered bars so Glorin Steelbrow can see the iron hammered into a weapon.",
+   "body": "Lightforge iron is rare metal suited to sacred smithing. Glorin Steelbrow needs it for a weapon, so the bars cannot be left in Bluegill camps. Hunt the Bluegill raiders in the shallows near the broken hull and reclaim the scattered ingots for Glorin.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "flying osprey",
     "shipwreck name"
    ],
-   "answer": "The cargo arrived aboard the Flying Osprey, an unfortunate vessel that met its demise off the coast of the Wetlands. Its broken timbers now lie partially submerged in the shallows."
+   "answer": "The Flying Osprey carried the Lightforge iron before it sank off the Wetlands coast. Its broken timbers lie partly submerged in the shallows."
   },
   {
    "q": "Why were the ingots not in the chest?",
@@ -47,7 +47,7 @@
     "why are murlocs holding iron",
     "chest empty"
    ],
-   "answer": "Only a single ingot remained locked within the waterlogged chest. The coastal Bluegill murlocs had already pried into the sunken wreckage and scavenged the rest of the shipment to scatter among their coastal raiders."
+   "answer": "Only one ingot remained in the waterlogged chest. Bluegill murlocs had scavenged the rest of the shipment from the wreck."
   },
   {
    "q": "Who is Glorin Steelbrow?",
@@ -56,7 +56,7 @@
     "who is glorin steelbrow",
     "quest giver"
    ],
-   "answer": "Glorin Steelbrow is a dwarven priest of the Church of the Holy Light, found in the Deepwater Tavern in Menethil Harbor. A colleague of Bishop Farthing, he seeks Lightforge iron so a weapon can be forged against the necromancer Morbent Fel."
+   "answer": "Glorin Steelbrow is a dwarven priest of the Church of the Holy Light in the Deepwater Tavern in Menethil Harbor. A colleague of Bishop Farthing, he seeks Lightforge iron for a weapon to use against the necromancer Morbent Fel."
   },
   {
    "q": "What is special about Lightforge iron?",
@@ -65,7 +65,7 @@
     "what is lightforge iron",
     "why is the iron important"
    ],
-   "answer": "Lightforge iron is a rare, sanctified metal uniquely receptive to holy enchantments and smithing. It is prized by artisans crafting armaments aligned with the Holy Light."
+   "answer": "Lightforge iron is rare metal suited to holy enchantments and sacred smithing. Artisans use it to craft weapons aligned with the Holy Light."
   },
   {
    "q": "Which murlocs took the iron?",
@@ -74,7 +74,7 @@
     "which tribe",
     "bluegill raiders"
    ],
-   "answer": "The Bluegill tribe, specifically the murloc raiders that prowl the shallows and beaches around the wreckage of the Flying Osprey, seized the missing bars."
+   "answer": "Bluegill murloc raiders took the missing bars. They prowl the shallows and beaches around the Flying Osprey wreck."
   },
   {
    "q": "What comes next after returning the ingots?",
@@ -83,21 +83,21 @@
     "what does glorin do",
     "blessed arm quest"
    ],
-   "answer": "Once Glorin Steelbrow receives the full set of ingots, he packs the sanctified metal into a crate and sends you to the weaponsmith Grimand Elmore in Stormwind to have it forged, continuing in Blessed Arm."
+   "answer": "After Glorin Steelbrow receives all the ingots, he packs the sanctified metal in a crate and sends you to weaponsmith Grimand Elmore in Stormwind. There, the metal is forged in Blessed Arm."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "Recovering lost masterwork ore and putting it into the hands of a dwarven priest like Glorin Steelbrow honors the long tradition of dwarven craftsmanship and reclaimers."
+   "text": "As a dwarf, recovering lost masterwork ore for a dwarven priest like Glorin Steelbrow honors your people's tradition of craftsmanship and reclaiming what was lost."
   },
   {
    "target": "class:Paladin",
-   "text": "Reclaiming Lightforge iron from primitive murlocs ensures holy materials are preserved to fashion consecrated weaponry fit to champion the Light."
+   "text": "As a paladin, recovering Lightforge iron helps preserve holy metal for weapons that champion the Light."
   },
   {
    "target": "profession:Blacksmithing",
-   "text": "Every metalworker knows the tragedy of seeing superior stock like Lightforge iron end up as curios in a coastal murloc nest instead of an anvil."
+   "text": "As a blacksmith, you know the loss of fine Lightforge iron to a coastal murloc nest, where it lies unused instead of being worked at an anvil."
   }
  ],
  "keywords": [
@@ -119,5 +119,6 @@
  ],
  "attribution": [
   "The Lost Ingots"
- ]
+ ],
+ "style": 1
 }

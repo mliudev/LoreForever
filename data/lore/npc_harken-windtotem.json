@@ -8,11 +8,11 @@
   "wiki": "Harken Windtotem",
   "refs": 1
  },
- "summary": "Harken Windtotem is a tauren huntsman residing in Bloodhoof Village in Mulgore. Dedicated to the traditions of his people, he tasks young hunters and travelers with proving their tracking and foraging skills across the golden plains.",
+ "summary": "In Bloodhoof Village, Harken Windtotem guides young hunters across Mulgore’s plains. He teaches the traditions of his people and asks hunters and travelers to prove their tracking and foraging skills.",
  "sections": [
   {
    "title": "Huntsman of Bloodhoof",
-   "body": "Situated near the heart of Bloodhoof Village, Harken Windtotem serves as an instructor and guide for those learning the hunting ways of the tauren. Life on the plains of Mulgore demands respect for the natural world alongside the practical skill to sustain one's tribe. Harken evaluates young adventurers by directing them to hunt the native swoops that circle the mesas, collecting their quills to gauge a hunter's patience, aim, and ability to harvest without waste.",
+   "body": "Near the heart of Bloodhoof Village, Harken Windtotem guides those learning the tauren hunting ways. Life on Mulgore’s plains calls for respect for the natural world and the skills needed to sustain a tribe. Harken tests young hunters by sending them after the swoops that circle the mesas. They gather the birds’ quills, showing patience, aim, and care in taking only what they need.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "harken windtotem lore",
     "who is harken"
    ],
-   "answer": "Harken is a tauren hunter living in Bloodhoof Village in central Mulgore. He guides travelers and fledgling adventurers in learning the fundamental tracking and hunting traditions of the tauren."
+   "answer": "Harken Windtotem is a tauren huntsman in Bloodhoof Village, where he guides travelers and young hunters in the tracking and hunting traditions of the tauren."
   },
   {
    "q": "Where can Harken Windtotem be found?",
@@ -31,7 +31,7 @@
     "harken location",
     "where is harken windtotem"
    ],
-   "answer": "Harken is stationed in Bloodhoof Village, a settlement situated south of Thunder Bluff in central Mulgore."
+   "answer": "Harken Windtotem can be found in Bloodhoof Village, south of Thunder Bluff in central Mulgore."
   },
   {
    "q": "What tasks does Harken give to adventurers?",
@@ -39,7 +39,7 @@
     "harken windtotem quests",
     "swoop hunting quest"
    ],
-   "answer": "He offers the task Swoop Hunting, asking hunters to venture into the grasslands of Mulgore to bring down wild swoops and gather their sturdy flight quills."
+   "answer": "Harken Windtotem sends hunters into Mulgore’s grasslands to hunt wild swoops and gather their sturdy flight quills."
   },
   {
    "q": "Is Harken related to Bovan Windtotem?",
@@ -47,17 +47,17 @@
     "is harken related to bovan",
     "bovan windtotem relation"
    ],
-   "answer": "They share the Windtotem clan name, suggesting a tribal kinship or family connection, though Harken remains focused on local village hunts in Mulgore."
+   "answer": "Harken Windtotem and Bovan Windtotem share a clan name, suggesting a tribal kinship or family connection. Harken focuses on local hunts in Mulgore."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "Harken Windtotem embodies the ancestral tauren philosophy of hunting: proving discipline and self-sufficiency on the plains while honoring the beasts of the Earth Mother."
+   "text": "As a tauren, you can see Harken Windtotem’s respect for the ancestral ways of hunting: discipline and self-sufficiency on the plains, with honor for the beasts of the Earth Mother."
   },
   {
    "target": "class:Hunter",
-   "text": "For wilderness trackers passing through Bloodhoof Village, Harken's task of bringing down airborne swoops provides an essential early test of marksmanship and quarry collection."
+   "text": "As a hunter passing through Bloodhoof Village, you can test your marksmanship and gathering skills by bringing down airborne swoops."
   }
  ],
  "keywords": [
@@ -76,5 +76,6 @@
  ],
  "attribution": [
   "Harken Windtotem"
- ]
+ ],
+ "style": 1
 }

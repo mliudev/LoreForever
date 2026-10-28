@@ -8,16 +8,16 @@
   "wiki": "Illiyana Moonblaze",
   "refs": 3
  },
- "summary": "Illiyana Moonblaze is a night elf supply officer stationed at Silverwing Grove in Ashenvale. Operating alongside the Silverwing Sentinels, she supplies Alliance champions waging war against the Warsong Outriders.",
+ "summary": "At Silverwing Grove, Illiyana Moonblaze supplies the Alliance champions fighting the Warsong Outriders. She works alongside the Silverwing Sentinels in Ashenvale.",
  "sections": [
   {
    "title": "Silverwing Supply Officer",
-   "body": "Illiyana Moonblaze serves as the supply officer for the Silverwing Sentinels nestled in Silverwing Grove. From her post near the path into Warsong Gulch, she outfits the defenders who hold the southern woods of Ashenvale against the Warsong clan.",
+   "body": "Illiyana Moonblaze keeps supplies for the Silverwing Sentinels at Silverwing Grove. Her post is near the path into Warsong Gulch, where she outfits defenders holding Ashenvale's southern woods against the Warsong clan.",
    "spoiler": 0
   },
   {
    "title": "Supplies for the Front Lines",
-   "body": "Beyond keeping the grove's stores, Illiyana equips Alliance volunteers preparing to clash with the Warsong clan in Warsong Gulch. As champions earn favor with the Silverwing Sentinels, she rewards their service with custom rations, specialized draughts, and masterwork armaments designed specifically for woodland skirmishes. She also maintains weapons and armor for weary fighters returning from the frontline, keeping the Sentinels' war effort supplied and functional.",
+   "body": "Illiyana equips Alliance volunteers preparing to fight the Warsong clan in Warsong Gulch. As champions earn favor with the Silverwing Sentinels, she provides custom rations, specialized draughts, and fine weapons for woodland skirmishes. She also repairs weapons and armor for weary fighters returning from the front, keeping the Sentinels supplied for war.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "where is illiyana",
     "silverwing quartermaster location"
    ],
-   "answer": "She is located at Silverwing Grove in southeastern Ashenvale, near the staging grounds and portal leading into Warsong Gulch."
+   "answer": "Illiyana Moonblaze is at Silverwing Grove in southeastern Ashenvale, near the staging grounds and portal leading into Warsong Gulch."
   },
   {
    "q": "Is Illiyana Moonblaze a member of the Sentinels?",
@@ -38,7 +38,7 @@
     "illiyana rank",
     "illiyana faction"
    ],
-   "answer": "She serves as the Silverwing Supply Officer, working alongside the Silverwing Sentinels to outfit and supply the Alliance champions who fight beside them."
+   "answer": "Illiyana Moonblaze works alongside the Silverwing Sentinels as their supply officer, outfitting Alliance champions who fight beside them."
   },
   {
    "q": "What does Illiyana offer to Alliance champions?",
@@ -47,7 +47,7 @@
     "warsong gulch rewards ashenvale",
     "illiyana vendor"
    ],
-   "answer": "She acts as the Silverwing Sentinels' quartermaster, offering care packages, battlefield armaments, rings, tabards, and consumables tailored for the struggle in Warsong Gulch to those who gain reputation with the faction."
+   "answer": "Illiyana Moonblaze offers care packages, battlefield weapons, armor, rings, tabards, and consumables to champions who gain favor with the Silverwing Sentinels."
   },
   {
    "q": "Does she provide equipment repairs?",
@@ -56,7 +56,7 @@
     "silverwing repair vendor",
     "repair in silverwing grove"
    ],
-   "answer": "Yes, alongside supplying specialized military gear, she offers standard weapon and armor repair services to Alliance defenders resting at the grove."
+   "answer": "Yes. Illiyana Moonblaze repairs weapons and armor for Alliance defenders resting at the grove, as well as supplying specialized military gear."
   },
   {
    "q": "What care packages does she hand out?",
@@ -65,17 +65,17 @@
     "illiyana quests",
     "warsong gulch packages"
    ],
-   "answer": "She assists Alliance fighters through logistical quests involving Sentinel Basic, Standard, and Advanced Care Packages, supplying frontline defenders with essential battlefield provisions."
+   "answer": "Illiyana Moonblaze gives Alliance fighters Sentinel Basic, Standard, and Advanced Care Packages through her supply work, providing frontline defenders with essential battlefield provisions."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "For Alliance fighters marching south into the contested border of Warsong Gulch, Illiyana is the primary quartermaster supplying weapons, armor, and rations."
+   "text": "As an Alliance fighter marching south toward the contested border of Warsong Gulch, you can look to Illiyana Moonblaze for weapons, armor, and rations."
   },
   {
    "target": "race:NightElf",
-   "text": "Illiyana keeps the Silverwing Sentinels supplied, showing how the kaldorei rally every hand to safeguard Ashenvale."
+   "text": "As a night elf, you can see Illiyana Moonblaze keeping the Silverwing Sentinels supplied as the kaldorei rally to safeguard Ashenvale."
   }
  ],
  "keywords": [
@@ -95,5 +95,6 @@
  ],
  "attribution": [
   "Illiyana Moonblaze"
- ]
+ ],
+ "style": 1
 }

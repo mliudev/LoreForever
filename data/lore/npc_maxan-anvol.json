@@ -8,16 +8,16 @@
   "wiki": "Maxan Anvol",
   "refs": 4
  },
- "summary": "Maxan Anvol is a dwarven priest trainer stationed within the Thunderbrew Distillery in Kharanos. Dedicated to the Holy Light, he guides fledgling dwarven priests as they learn to channel divine power amid Dun Morogh's frigid climes. He tests young acolytes to ensure they are worthy of wearing the vestments of the church.",
+ "summary": "At the Thunderbrew Distillery in Kharanos, Maxan Anvol trains dwarven priests in the Holy Light. He tests young acolytes before they earn the Church’s vestments.",
  "sections": [
   {
    "title": "A Priest in the Pub",
-   "body": "While it might seem strange to find an ordained minister of the Holy Light stationed inside Thunderbrew Distillery, it suits dwarven culture well. Kharanos serves as the primary hub between Coldridge Valley and Ironforge, and the local inn is where travelers, mountaineers, and acolytes naturally gather. Maxan tends to the spiritual welfare of the hamlet alongside pints of stout, offering prayers and counsel to any who step through the doors.",
+   "body": "Maxan Anvol tends to the hamlet’s spiritual welfare from the Thunderbrew Distillery, where travelers, mountaineers, and acolytes gather. Kharanos lies between Coldridge Valley and Ironforge, and its inn draws those who pass through. Maxan offers prayers and counsel to anyone who enters, with pints of stout close at hand.",
    "spoiler": 0
   },
   {
    "title": "Testing the Faithful",
-   "body": "Maxan Anvol is responsible for vetting novice priests before they venture into the wider world. He tasks initiates with demonstrating mastery over fundamental curative prayers on wounded defenders of Dun Morogh. Those who prove their devotion and practical competence are bestowed their first proper priestly vestments, formally marking their recognized standing within the Church of the Holy Light.",
+   "body": "Maxan Anvol tests novice priests before they venture into the wider world. He has initiates use basic healing prayers on Dun Morogh’s wounded defenders. Those who show devotion and skill receive their first priestly vestments, marking their recognized place in the Church of the Holy Light.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "where is maxan",
     "priest trainer kharanos"
    ],
-   "answer": "Maxan Anvol is located inside the Thunderbrew Distillery, the main inn and gathering place in the town of Kharanos, nestled in the central snowdrifts of Dun Morogh."
+   "answer": "Maxan Anvol can be found inside the Thunderbrew Distillery in Kharanos, the town’s inn and gathering place in Dun Morogh."
   },
   {
    "q": "What does Maxan Anvol teach?",
@@ -37,7 +37,7 @@
     "what does he train",
     "maxan anvol spells"
    ],
-   "answer": "He is a priest trainer who instructs novice and journeyman priests in spells of holy mending, shadow control, and divine protection. He also instructs dwarven priests in specialized supplications like Desperate Prayer."
+   "answer": "Maxan Anvol teaches novice and journeyman priests spells of holy healing, shadow control, and divine protection. He also teaches dwarven priests prayers such as Desperate Prayer."
   },
   {
    "q": "Why is a holy priest hanging out in a distillery?",
@@ -45,7 +45,7 @@
     "why distillery",
     "priest in a bar"
    ],
-   "answer": "In dwarven society, life, communion, and celebration center around brewing and taverns. Thunderbrew Distillery functions as Kharanos's public forum, town hall, and traveler's rest. Maxan stays where he can reach common folk, guards, and passing travelers who need spiritual comfort."
+   "answer": "Dwarven life and celebration gather around brewing and taverns. The Thunderbrew Distillery is Kharanos’s public gathering place and a rest for travelers, so Maxan can offer spiritual comfort to townsfolk, guards, and passersby."
   },
   {
    "q": "Does Maxan Anvol offer any special tasks?",
@@ -53,7 +53,7 @@
     "maxan quests",
     "garments of the light"
    ],
-   "answer": "Yes. He tests aspiring priests with trials such as 'In Favor of the Light' and 'Garments of the Light,' sending them to heal injured mountaineers in the snow. Successfully completing these tasks earns the initiate their official acolyte robes."
+   "answer": "Yes. Maxan Anvol tests aspiring priests with trials such as 'In Favor of the Light' and 'Garments of the Light.' He sends them to heal injured mountaineers in the snow, and those who succeed earn their acolyte robes."
   },
   {
    "q": "What does he say to non-priests?",
@@ -61,7 +61,7 @@
     "maxan dialogue",
     "maxan quote"
    ],
-   "answer": "He warns other adventurers never to turn their back on the Holy Light, reminding them that divine grace might very well be the one thing that saves their life in battle some day."
+   "answer": "Maxan Anvol warns adventurers never to turn their backs on the Holy Light. Divine grace may be what saves their lives in battle."
   },
   {
    "q": "Can gnomes learn from Maxan Anvol?",
@@ -69,21 +69,21 @@
     "can gnomes talk to him",
     "gnome priest trainer"
    ],
-   "answer": "Yes. Gnomes train as priests too, and Maxan welcomes any member of the Alliance who has pledged themselves to the Light."
+   "answer": "Yes. Gnomes can train as priests, and Maxan welcomes any member of the Alliance who has pledged to the Light."
   }
  ],
  "angles": [
   {
    "target": "class:Priest",
-   "text": "Maxan serves as your early guide in Dun Morogh, granting you access to foundational holy discipline, teaching racial prayers like Desperate Prayer, and awarding your first formal church robes."
+   "text": "As a priest, Maxan Anvol guides you early in Dun Morogh and opens the way to foundational holy discipline. He teaches racial prayers such as Desperate Prayer and awards your first church robes."
   },
   {
    "target": "race:Dwarf",
-   "text": "Embodying the pragmatic piety of Ironforge, Maxan anchors dwarven faith where the people actually congregate: right alongside the ale kegs of Kharanos."
+   "text": "As a dwarf, you see Ironforge’s practical faith where people gather, beside the ale kegs of Kharanos."
   },
   {
    "target": "faction:Alliance",
-   "text": "Maxan tends to the physical and spiritual readiness of Alliance mountaineers and scouts guarding Dun Morogh from troggs, frost trolls, and wilderness beasts."
+   "text": "As an Alliance member, you find Maxan tending to the physical and spiritual readiness of mountaineers and scouts who guard Dun Morogh from troggs, frost trolls, and wilderness beasts."
   }
  ],
  "keywords": [
@@ -108,5 +108,6 @@
  ],
  "attribution": [
   "Maxan Anvol"
- ]
+ ],
+ "style": 1
 }

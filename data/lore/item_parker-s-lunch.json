@@ -10,11 +10,11 @@
    "quest:129"
   ]
  },
- "summary": "Parker's Lunch is a freshly prepared meal packed by Darcy in Lakeshire. Intended for Guard Parker on patrol, it offers a simple glimpse into the daily bonds and modest comforts of Redridge's defenders.",
+ "summary": "Darcy packs Parker's Lunch in Lakeshire for Guard Parker's patrol. The meal offers a glimpse of the bonds and modest comforts among Redridge's defenders.",
  "sections": [
   {
    "title": "A Meal for the Road",
-   "body": "While Redridge Mountains reels under attacks from gnolls and Blackrock orcs, the small gestures of daily life persist. Darcy, a waitress at the inn in Lakeshire, packs this wholesome meal for Guard Parker, who patrols the exposed road leading south toward Duskwood. Redridge's garrison is stretched thin and isolated from Stormwind's aid, leaving individual guards to maintain long, lonely watches. Delivering this bundle not only keeps a sentry fed, but also sparks an enduring, bashful courtship between the two townspeople.",
+   "body": "Darcy, a waitress at the Lakeshire inn, packs a meal for Guard Parker. He patrols the exposed road south toward Duskwood while Redridge faces attacks from gnolls and Blackrock orcs. The garrison is stretched thin and cut off from Stormwind's aid, leaving guards to keep long, lonely watches. Darcy's small gesture keeps Parker fed and begins a bashful courtship between the two townspeople.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "who gave me parker's lunch",
     "darcy redridge lunch"
    ],
-   "answer": "The lunch was prepared by Darcy, a waitress at the Lakeshire inn. Concerned for Guard Parker while he is out on dangerous patrol, she relies on traveling adventurers to deliver it safely to him."
+   "answer": "Darcy, a waitress at the Lakeshire inn, prepares Parker's Lunch for Guard Parker, who is out on patrol. A traveler carries it to him."
   },
   {
    "q": "Where can Guard Parker be found?",
@@ -35,7 +35,7 @@
     "where is guard parker",
     "find guard parker"
    ],
-   "answer": "Guard Parker patrols the main dirt road heading southwest out of Lakeshire toward the border of Duskwood. He marches back and forth along that route keeping watch for roaming gnolls."
+   "answer": "Guard Parker patrols the main dirt road southwest from Lakeshire toward the Duskwood border. He marches back and forth, watching for roaming gnolls."
   },
   {
    "q": "What does Guard Parker do after receiving his lunch?",
@@ -44,7 +44,7 @@
     "darcy and parker",
     "parker reaction to lunch"
    ],
-   "answer": "Parker is deeply touched by Darcy's thoughtfulness. Grateful for the warm food on his difficult patrol, he soon seeks a way to return her kindness, enlisting help to send her fresh daffodils from the herbalist."
+   "answer": "Parker is touched by Darcy's thoughtfulness and seeks a way to return her kindness. He arranges to send her fresh daffodils from the herbalist."
   },
   {
    "q": "Why doesn't Darcy deliver the lunch herself?",
@@ -52,17 +52,17 @@
     "why cant darcy bring it",
     "why deliver lunch redridge"
    ],
-   "answer": "The roads outside Lakeshire are rife with aggressive Redridge gnolls and Blackrock invaders. While Guard Parker has the combat training and armor to survive out on patrol, ordinary townspeople like Darcy cannot safely risk the journey alone."
+   "answer": "Gnolls and Blackrock invaders threaten the roads outside Lakeshire. Darcy is an ordinary towns-person, while Parker has the training and armor to patrol them."
   }
  ],
  "angles": [
   {
    "target": "profession:Cooking",
-   "text": "A warm, packed meal is often the only comfort sustaining frontier guards against long hours and hostile beasts in the wilderness."
+   "text": "For frontier guards, a warm packed meal can be a comfort through long hours in the wilderness among hostile beasts."
   },
   {
    "target": "faction:Alliance",
-   "text": "With the capital slow to send reinforcements, local solidarity between the townspeople and the few remaining guards is what keeps Lakeshire functioning."
+   "text": "With reinforcements from the capital slow to arrive, townspeople and the few remaining guards support one another to keep Lakeshire functioning."
   }
  ],
  "keywords": [
@@ -86,5 +86,6 @@
  "attribution": [
   "Parker's Lunch",
   "A Free Lunch"
- ]
+ ],
+ "style": 1
 }

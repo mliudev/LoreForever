@@ -8,11 +8,11 @@
   "wiki": "Guard Berton",
   "refs": 1
  },
- "summary": "Guard Berton is a human town guardsman stationed outside the Lakeshire Inn in Redridge Mountains. Frustrated by the bureaucratic delays of Stormwind's legal system, he seeks swift justice against Targorr the Dread, an imprisoned orc leader.",
+ "summary": "Outside the Lakeshire Inn, Guard Berton seeks swift justice for Targorr the Dread. The human guardsman is tired of Stormwind's delays while Redridge faces the Blackrock orc invasion.",
  "sections": [
   {
    "title": "A Guard Seeking Justice",
-   "body": "While Redridge Mountains buckles under the threat of the Blackrock orc invasion, Guard Berton remains posted outside the Lakeshire Inn. Despite local defenses being pushed to the brink, Berton's attention is fixed on a captive enemy: Targorr the Dread. Targorr was captured and locked away deep within the Stormwind Stockade, sentenced to death for his crimes against the kingdom. Yet with Stormwind's execution postponed indefinitely, Berton refuses to let the brutal raider linger in a cell while Lakeshire bleeds. Taking matters into his own hands, he hires willing adventurers to bypass royal delays and execute the orc directly.",
+   "body": "Guard Berton keeps watch outside the Lakeshire Inn as Redridge Mountains faces the Blackrock orc invasion. His concern is Targorr the Dread, an enemy captured and locked deep within the Stormwind Stockade. Sentenced to death for crimes against the kingdom, Targorr remains imprisoned because Stormwind has postponed his execution indefinitely. Berton will not let the brutal raider linger in a cell while Lakeshire bleeds. He hires willing adventurers to bypass the delays and kill the orc.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "berton lakeshire",
     "who is berton"
    ],
-   "answer": "Guard Berton is an Alliance guard stationed outside the Lakeshire Inn in the Redridge Mountains. He is primarily known for hiring adventurers to carry out justice against an infamous orc prisoner."
+   "answer": "Guard Berton is an Alliance guard posted outside the Lakeshire Inn in Redridge Mountains. He hires adventurers to carry out justice against an infamous orc prisoner."
   },
   {
    "q": "Why does Guard Berton want Targorr the Dread killed?",
@@ -32,7 +32,7 @@
     "targorr execution",
     "what comes around quest lore"
    ],
-   "answer": "Targorr the Dread was sentenced to execution for his crimes, but Stormwind's leadership placed the sentence on hold. Frustrated by this stalling while Redridge remains under siege, Berton arranges for Targorr to be eliminated inside the Stockade."
+   "answer": "Stormwind has put Targorr the Dread's execution on hold, despite his sentence for crimes against the kingdom. With Redridge under siege, Berton arranges for Targorr to be killed inside the Stockade."
   },
   {
    "q": "Where is Targorr the Dread held?",
@@ -40,7 +40,7 @@
     "targorr location",
     "where is targorr"
    ],
-   "answer": "Targorr is confined inside the Stockade, the high-security dungeon located within the Canal district of Stormwind City."
+   "answer": "Targorr the Dread is held in the Stockade, a high-security dungeon in Stormwind City's Canal district."
   },
   {
    "q": "Where can Guard Berton be found?",
@@ -48,13 +48,13 @@
     "where is berton",
     "berton location"
    ],
-   "answer": "He stands watch just outside the entrance to the Lakeshire Inn, overlooking the town center of Lakeshire in Redridge."
+   "answer": "Guard Berton keeps watch just outside the Lakeshire Inn, overlooking Lakeshire's town center in Redridge."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Berton represents the growing frustration among rural Alliance settlements, where local defenders watch Stormwind's central bureaucracy delay justice while border towns fight for survival."
+   "text": "As an Alliance defender, you can see why border towns grow frustrated when Stormwind's bureaucracy delays justice while they fight for survival."
   }
  ],
  "keywords": [
@@ -79,5 +79,6 @@
  ],
  "attribution": [
   "Guard Berton"
- ]
+ ],
+ "style": 1
 }

@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Silver Stream Mine"
  },
- "summary": "Silver Stream Mine is a depleted dwarf mine located in northern Loch Modan, nestled between Algaz Station and the Stonewrought Dam. Once a rich silver vein for the kingdom of Ironforge, the excavated hollow was repurposed as a Miners' League supply depot before being overrun by vermin. Today, Tunnel Rat kobolds squat inside the tunnels, hoarding stolen equipment and rare mineral curiosities.",
+ "summary": "In northern Loch Modan, Silver Stream Mine lies between Algaz Station and the Stonewrought Dam, its silver veins exhausted. The Miners' League made the hollow a supply depot, but Tunnel Rat kobolds now occupy its tunnels and hoard stolen equipment and rare minerals.",
  "sections": [
   {
    "title": "From Rich Vein to Storage Depot",
-   "body": "Silver Stream Mine once flowed with precious ore, contributing heavily to the silver reserves of Ironforge. In time, the dwarf pickaxes dug deep enough to exhaust the primary veins, turning the sprawling chambers into an empty subterranean complex. Rather than abandon the hard-won earthworks, the Miners' League transformed the shafts into a secure storage depot for tools, mining crates, and regional equipment. It also serves as the only known source of rare Charged Rift Gems, which draw inquisitive arcanists searching for delicate tailoring reagents.",
+   "body": "Silver Stream Mine once yielded rich silver for Ironforge. Dwarf miners dug until the main veins ran dry, leaving broad underground chambers. The Miners' League kept the hard-won shafts in use as a guarded storehouse for tools, mining crates, and regional equipment. The mine is also the only known source of Charged Rift Gems, which draw arcanists seeking delicate tailoring reagents.",
    "spoiler": 0
   },
   {
    "title": "The Kobold Incursion",
-   "body": "The quiet depot did not remain secure for long. Aggressive Tunnel Rat kobolds, drawn by the smell of unattended tools, candle wax, and forgotten subterranean crevices, swarmed the shafts in large numbers. The Miners' League caretakers were promptly driven out into the Loch Modan cold. Now, the kobolds guard the stolen dwarf crates with manic fervor, while old, shattered orcish catapults and wagons rest forgotten outside the rear entrances, silent reminders of older frontier skirmishes.",
+   "body": "Tunnel Rat kobolds came in large numbers and drove the Miners' League caretakers out into the cold of Loch Modan. Now the kobolds guard the stolen dwarf crates with manic fervor. Outside the rear entrances, shattered orcish catapults and wagons lie forgotten, reminders of older frontier skirmishes.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "silver stream history",
     "why was silver stream built"
    ],
-   "answer": "Originally, it was a productive silver mine excavated by the dwarves of Ironforge. After the veins ran dry, the Ironforge Miners' League repurposed the vacant subterranean halls into a storage depot for tools and excavation supplies."
+   "answer": "Dwarves of Ironforge first worked Silver Stream Mine for its rich silver. When the veins ran dry, the Ironforge Miners' League turned its empty halls into a depot for tools and mining supplies."
   },
   {
    "q": "Who currently occupies the mine?",
@@ -37,7 +37,7 @@
     "silver stream mobs",
     "what is inside silver stream mine"
    ],
-   "answer": "The mine has been completely overrun by Tunnel Rat kobolds. They chased off the dwarf caretakers and now guard the tunnels, hoarding the League's abandoned supply crates and digging for residual scraps."
+   "answer": "Tunnel Rat kobolds occupy Silver Stream Mine. They drove out the dwarf caretakers and now guard the abandoned League crates, hoarding supplies and digging for what remains."
   },
   {
    "q": "Why do mages travel to Silver Stream Mine?",
@@ -46,7 +46,7 @@
     "charged rift gems",
     "silver stream mage robes"
    ],
-   "answer": "The mine is the only known source of Charged Rift Gems. These volatile, magically reactive stones are sought after by Alliance arcanists to weave potent enchanted robes."
+   "answer": "Charged Rift Gems, sought by Alliance arcanists to weave enchanted robes, come only from Silver Stream Mine."
   },
   {
    "q": "What are the ruined catapults behind the mine?",
@@ -55,17 +55,17 @@
     "broken catapults loch modan mine",
     "horde siege engines loch modan"
    ],
-   "answer": "Behind the mine sit broken orcish wagons and ruined catapults, weathered remnants of earlier wartime conflicts that threatened the passages connecting Loch Modan and the northern mountain passes."
+   "answer": "Broken orcish wagons and ruined catapults lie behind Silver Stream Mine. They are remnants of earlier wartime conflicts that threatened the passages between Loch Modan and the northern mountain passes."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "For dwarves, Silver Stream Mine is an infuriating loss of hard-earned infrastructure, where clumsy kobolds now sully a respectable Ironforge Miners' League depot."
+   "text": "For dwarves, Silver Stream Mine is hard-won Ironforge infrastructure now lost to clumsy kobolds, who sully a respectable Miners' League depot."
   },
   {
    "target": "class:Mage",
-   "text": "Apprentice mages journey into the dangerous kobold-infested tunnels specifically to extract Charged Rift Gems, an indispensable ingredient for crafting ritual garments."
+   "text": "As an apprentice mage, you brave the kobold-infested tunnels for Charged Rift Gems, an indispensable ingredient in ritual garments."
   }
  ],
  "keywords": [
@@ -88,5 +88,6 @@
  ],
  "attribution": [
   "Silver Stream Mine"
- ]
+ ],
+ "style": 1
 }

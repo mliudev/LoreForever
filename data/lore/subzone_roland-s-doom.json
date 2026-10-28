@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Roland's Doom"
  },
- "summary": "Roland's Doom is an abandoned, shadow-drenched mine tucked into the southeastern hills of Duskwood, just east of the Rotting Orchard. Once an ordinary delve, it has become infamous as a dangerous den overrun by savage worgen.",
+ "summary": "Nightbane worgen hold Roland's Doom, east of the Rotting Orchard in southeastern Duskwood. The mine is abandoned, and its tunnels are a dangerous den.",
  "sections": [
   {
    "title": "A Den of Shadows and Savagery",
-   "body": "Cut into the ridges east of the Rotting Orchard, Roland's Doom long ago ceased to be a functioning mine. Instead, it serves as a violent staging ground for the Nightbane worgen pack, led by beasts such as Gutspill and Nefaru. The dark tunnels echo with guttural snarls and the reek of damp earth and blood, making it one of the most perilous corners in all of Duskwood for unwary travelers.",
+   "body": "Roland's Doom lies in the ridges east of the Rotting Orchard, where the mine has long stood idle. Nightbane worgen now use its tunnels as a staging ground, under leaders such as Gutspill and Nefaru. Snarls carry through the dark shafts, and the damp earth is stained with blood. Travelers who enter face one of Duskwood's most perilous places.",
    "spoiler": 0
   },
   {
    "title": "The Fall of Velinde Starsong",
-   "body": "The true tragedy of Roland's Doom lies buried deep within its tunnels. It was here that the night elven priestess Velinde Starsong met her end while carrying the Scythe of Elune, an ancient artifact of immense and volatile power. Disturbed dirt within the mine can still stir the lingering spirit of Velinde to speak of her final moments. Later, the terrified wanderer Jitters stumbled upon the scythe inside the delve, accidentally unleashing an escalation of savage worgen and drawing the deadly Dark Riders to Duskwood.",
+   "body": "Deep in Roland's Doom, the night elven priestess Velinde Starsong met her end while carrying the Scythe of Elune, an ancient artifact of immense and volatile power. Disturbed earth in the mine can stir Velinde's lingering spirit, who speaks of her final moments. Later, the terrified wanderer Jitters found the scythe inside the mine. His accidental release of more savage worgen drew the deadly Dark Riders to Duskwood.",
    "spoiler": 1
   }
  ],
@@ -27,7 +27,7 @@
     "where is rolands doom",
     "what is this mine"
    ],
-   "answer": "Roland's Doom is a ruined, abandoned mine located in southeastern Duskwood, east of the Rotting Orchard. It is currently overrun by vicious Nightbane worgen."
+   "answer": "Roland's Doom lies east of the Rotting Orchard in southeastern Duskwood. The abandoned mine is overrun by vicious Nightbane worgen."
   },
   {
    "q": "Why are there worgen inside the mine?",
@@ -35,7 +35,7 @@
     "why worgen here",
     "who lives in rolands doom"
    ],
-   "answer": "The mine became infested with worgen following the loss of the Scythe of Elune. Currently, powerful beasts of the Nightbane pack, including Nefaru and Gutspill, make their lair within its damp shafts."
+   "answer": "The Nightbane worgen occupy the mine after the Scythe of Elune was lost there. Powerful beasts including Nefaru and Gutspill make their lair in its shafts."
   },
   {
    "q": "Who was Velinde Starsong and why is she connected to this place?",
@@ -43,7 +43,7 @@
     "velinde starsong rolands doom",
     "who died here"
    ],
-   "answer": "Velinde Starsong was a night elven priestess of Elune who wielded the Scythe of Elune to fight the demons of Felwood. Her journey brought her across the sea to Duskwood, where she was killed inside this very mine, leaving the Scythe behind."
+   "answer": "Velinde Starsong was a night elven priestess of Elune who wielded the Scythe of Elune against demons in Felwood. Her journey brought her across the sea to Duskwood, where she died inside Roland's Doom and left the scythe behind."
   },
   {
    "q": "How does Jitters fit into the story of Roland's Doom?",
@@ -51,17 +51,17 @@
     "jitters mine",
     "jitters scythe"
    ],
-   "answer": "Jitters entered Roland's Doom and discovered the buried Scythe of Elune. His meddling unintentionally released more worgen into Duskwood and drew the sinister Dark Riders to the region, plunging the forest into greater peril."
+   "answer": "Jitters entered Roland's Doom and found the buried Scythe of Elune. His meddling unintentionally released more worgen into Duskwood and drew the Dark Riders to the region, bringing greater peril to the forest."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "The search for the missing priestess Velinde Starsong and the elusive Scythe of Elune makes Roland's Doom a site of somber reflection for night elves investigating the fate of their kin."
+   "text": "For night elves, the search for the missing priestess Velinde Starsong and the Scythe of Elune makes Roland's Doom a place to reflect on the fate of their kin."
   },
   {
    "target": "profession:Mining",
-   "text": "Though once a working quarry, any prospector foolish enough to swing a pick here will quickly find that the only veins running in Roland's Doom belong to bloodthirsty worgen."
+   "text": "As a miner, you know Roland's Doom is no place to work a pick. Bloodthirsty worgen stalk its tunnels."
   }
  ],
  "keywords": [
@@ -87,5 +87,6 @@
  ],
  "attribution": [
   "Roland's Doom"
- ]
+ ],
+ "style": 1
 }

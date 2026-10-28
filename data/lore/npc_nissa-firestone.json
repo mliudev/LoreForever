@@ -8,16 +8,16 @@
   "wiki": "Nissa Firestone",
   "refs": 1
  },
- "summary": "Nissa Firestone is a dwarven physician stationed above the bustle of the Great Forge in Ironforge. She serves as an instructor in field medicine, teaching travelers and soldiers how to dress wounds and bind trauma.",
+ "summary": "Above Ironforge’s Great Forge, Nissa Firestone teaches field medicine to travelers and soldiers.",
  "sections": [
   {
    "title": "A Healer Above the Anvils",
-   "body": "Amid the clanging metal and blistering heat of the Great Forge, Nissa Firestone practices medicine from the upper floor of the Ironforge Physician shop. While dwarven warriors are famed for their endurance, even stone-hard skin splits against blade and claw. Nissa ensures that those heading out into the snows of Dun Morogh or beyond know how to keep themselves and their allies alive with basic bandaging and field dressings.",
+   "body": "Nissa Firestone tends patients on the upper floor of the Ironforge Physician shop. The Great Forge’s clang and heat rise around her, but the work is keeping wounds bound. Dwarven warriors can endure much, yet blades and claws still break their skin. Before travelers and soldiers head into the snows of Dun Morogh or farther afield, Nissa teaches them basic bandaging and field dressings to help keep themselves and their allies alive.",
    "spoiler": 0
   },
   {
    "title": "Triage and Advanced Trauma",
-   "body": "For field medics who have mastered the basics of cloth and lint, Nissa recognizes when a student has outgrown her clinic. When practitioners reach the limits of what she can teach, she points them toward specialized triage officers in far-flung outposts, directing skilled healers to where the Alliance's casualties are heaviest.",
+   "body": "Nissa Firestone teaches field medics the basics of cloth and lint. When a practitioner has learned all she can teach, she points them toward specialized triage officers in far-flung outposts. Skilled healers go where the Alliance’s casualties are heaviest.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "nissa firestone role",
     "ironforge first aid trainer"
    ],
-   "answer": "Nissa Firestone is a dwarf first aid trainer who operates out of the Ironforge Physician shop, located on the southern perimeter of the Great Forge."
+   "answer": "Nissa Firestone is a dwarf who teaches first aid at the Ironforge Physician shop on the Great Forge’s southern perimeter."
   },
   {
    "q": "Where can I find Nissa Firestone?",
@@ -38,7 +38,7 @@
     "where is nissa",
     "ironforge physician location"
    ],
-   "answer": "She can be found on the upper floor of the Ironforge Physician shop, which sits on the southern edge of the Great Forge ring in Ironforge."
+   "answer": "Nissa Firestone works on the upper floor of the Ironforge Physician shop, on the southern edge of the Great Forge ring in Ironforge."
   },
   {
    "q": "What does Nissa Firestone teach?",
@@ -47,7 +47,7 @@
     "first aid ironforge",
     "learn bandages ironforge"
    ],
-   "answer": "She instructs Alliance adventurers in the art of First Aid, teaching the craft of preparing bandages and antidotes to treat injuries sustained in the field."
+   "answer": "Nissa Firestone teaches Alliance adventurers First Aid, including how to prepare bandages and antidotes for injuries in the field."
   },
   {
    "q": "Can Nissa teach master-level triage?",
@@ -56,17 +56,17 @@
     "master first aid ironforge",
     "first aid over 225"
    ],
-   "answer": "No. Once a medic reaches advanced proficiency, Nissa directs them elsewhere via the Alliance Trauma assignment, sending them to seasoned field surgeons stationed near active war zones."
+   "answer": "No. When a medic reaches advanced proficiency, Nissa directs them elsewhere through the Alliance Trauma assignment, toward seasoned field surgeons near active war zones."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "For dwarves returning from skirmishes with troggs or frost trolls, Nissa represents the practical, no-nonsense approach of Ironforge's medical tradition."
+   "text": "As a dwarf returning from a skirmish with troggs or frost trolls, you find in Nissa the practical, no-nonsense tradition of Ironforge medicine."
   },
   {
    "target": "faction:Alliance",
-   "text": "Any Alliance adventurer passing through Khaz Modan relies on trainers like Nissa to acquire essential survivability skills without needing divine or arcane magic."
+   "text": "As an Alliance adventurer passing through Khaz Modan, you can learn essential ways to survive from trainers like Nissa, without divine or arcane magic."
   }
  ],
  "keywords": [
@@ -87,5 +87,6 @@
  ],
  "attribution": [
   "Nissa Firestone"
- ]
+ ],
+ "style": 1
 }

@@ -20,21 +20,21 @@
    "Kaya's Alive"
   ]
  },
- "summary": "Protect Kaya is a Horde escort quest in the Stonetalon Mountains. After discovering Kaya Flathoof held captive by hostile Grimtotem tauren, adventurers guide her through dangerous mountain trails to reach Camp Aparaje. Returning word of her survival brings immense relief to her anxious father, Makaba Flathoof.",
+ "summary": "In the Stonetalon Mountains, Kaya Flathoof is found captive among hostile Grimtotem tauren. Horde adventurers guide her along dangerous mountain trails to Camp Aparaje, then bring word of her survival to her anxious father, Makaba Flathoof.",
  "sections": [
   {
    "title": "A Captive in the Crags",
-   "body": "The Stonetalon Mountains harbor bitter rivalries among the tauren, none sharper than the tension surrounding the treacherous Grimtotem clan. Deep within hostile territory, Kaya Flathoof was captured and held prisoner. Escaping on foot requires navigating winding trails flanked by opportunistic predators and watchful enemies, making an armed escort her only realistic hope of reaching friendly soil.",
+   "body": "Kaya Flathoof was captured and held prisoner deep in Grimtotem territory in the Stonetalon Mountains. The tauren clans are divided by bitter rivalries, and few are sharper than the hostility surrounding the Grimtotem. Kaya has escaped captivity, but reaching friendly ground on foot means winding through trails watched by enemies and predators. An armed escort is her best hope of getting through.",
    "spoiler": 0
   },
   {
    "title": "Flight to Camp Aparaje",
-   "body": "Camp Aparaje lies in the eastern Stonetalon Mountains, and Kaya knows her way home from there. She aims for the camp, confident that once she reaches it she can find her own way. Guiding her through the ambush-heavy paths ensures she avoids recapture before her captors realize she slipped away.",
+   "body": "Camp Aparaje lies in the eastern Stonetalon Mountains, and Kaya knows the way home from there. She aims for the camp, where she can continue on her own. You guide her through paths where ambushes threaten, helping her avoid recapture on the way to safety.",
    "spoiler": 0
   },
   {
    "title": "A Father's Relief",
-   "body": "Awaiting news near the southeastern border of Stonetalon, Makaba Flathoof fears the absolute worst for his missing daughter. When runners arrive to deliver confirmation that Kaya safely reached Camp Aparaje, Makaba's despair turns to overwhelming gratitude toward the champions who stood between his child and her captors.",
+   "body": "Makaba Flathoof waits near Stonetalon's southeastern border, fearing the worst for his missing daughter. Runners bring confirmation that Kaya reached Camp Aparaje safely. Makaba's despair gives way to gratitude for the champions who stood between his child and her captors.",
    "spoiler": 1
   }
  ],
@@ -46,7 +46,7 @@
     "kaya flathoof lore",
     "kaya"
    ],
-   "answer": "Kaya Flathoof is a young tauren who was captured by hostile Grimtotem forces in the Stonetalon Mountains. She relies on passing Horde adventurers to break her out and shepherd her to safe ground."
+   "answer": "Kaya Flathoof is a young tauren captured by hostile Grimtotem forces in the Stonetalon Mountains. She depends on passing Horde adventurers to help her escape and reach safe ground."
   },
   {
    "q": "Where does Kaya need to be escorted?",
@@ -55,7 +55,7 @@
     "where to take kaya",
     "where does kaya go"
    ],
-   "answer": "Kaya must be escorted safely along the trails leading to Camp Aparaje in eastern Stonetalon, from where she knows her own way home."
+   "answer": "Kaya needs an escort along the trails to Camp Aparaje in eastern Stonetalon, where she knows her way home."
   },
   {
    "q": "Who is Makaba Flathoof?",
@@ -64,7 +64,7 @@
     "makaba flathoof lore",
     "kaya's father"
    ],
-   "answer": "Makaba Flathoof is Kaya's father, waiting anxiously near the southeastern entrance of the Stonetalon Mountains. He despairs over his missing child until adventurers bring word of her rescue."
+   "answer": "Makaba Flathoof is Kaya's father, waiting anxiously near the southeastern entrance to the Stonetalon Mountains. He fears for his missing child until adventurers bring word that she has been rescued."
   },
   {
    "q": "Who captured Kaya?",
@@ -73,7 +73,7 @@
     "who kidnapped kaya",
     "kaya kidnappers"
    ],
-   "answer": "Kaya was taken prisoner by hostile Grimtotem tauren who maintain camps and ambushes across the crags of Stonetalon."
+   "answer": "Hostile Grimtotem tauren captured Kaya. Their camps and ambushes lie across the crags of Stonetalon."
   },
   {
    "q": "What happens after Kaya reaches Camp Aparaje?",
@@ -82,7 +82,7 @@
     "what next after escort",
     "protect kaya follow up"
    ],
-   "answer": "Once Kaya reaches Camp Aparaje, she can find her own way, and the player is tasked with returning to Makaba Flathoof to deliver the joyful news that she survived."
+   "answer": "Once Kaya reaches Camp Aparaje, she can find her own way home. You then return to Makaba Flathoof with the joyful news that she survived."
   },
   {
    "q": "Is this quest available to Alliance players?",
@@ -90,17 +90,17 @@
     "can alliance do protect kaya",
     "is kaya horde only"
    ],
-   "answer": "No. The Flathoof family belongs to the peaceful tauren aligned with the Horde, making this rescue mission exclusive to Horde adventurers."
+   "answer": "No. The Flathoof family are peaceful tauren aligned with the Horde, so this rescue is exclusive to Horde adventurers."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "Rescuing Kaya directly aids fellow kin torn apart by the aggressive aggression of the Grimtotem clan."
+   "text": "As a tauren, you help a fellow of your kin caught in the Grimtotem clan's aggression."
   },
   {
    "target": "faction:Horde",
-   "text": "Ensuring the safety of traveling families reinforces the Horde's hard-won footholds and supply routes in Stonetalon."
+   "text": "As a member of the Horde, you help keep traveling families safe and reinforce the Horde's hard-won footholds and supply routes in Stonetalon."
   }
  ],
  "keywords": [
@@ -121,5 +121,6 @@
  ],
  "attribution": [
   "Protect Kaya"
- ]
+ ],
+ "style": 1
 }

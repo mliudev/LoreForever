@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Kargathia Keep"
  },
- "summary": "Kargathia Keep is a fortified Horde stronghold anchoring the eastern front of the Warsong Lumber Camp in Ashenvale. Serving as headquarters for the outpost's overseers, it guards the river border and ensures rapid reinforcement lines directly back to Orgrimmar.",
+ "summary": "Warsong overseers hold the eastern edge of their lumber camp at Kargathia Keep. The fortified stronghold guards the Southfury River border in Ashenvale and links the outpost to Orgrimmar.",
  "sections": [
   {
    "title": "A Bastion on the Southfury",
-   "body": "Perched on the eastern edge of the Warsong Lumber Camp just west of the Southfury River, Kargathia Keep serves as the command center for the Horde's logging operations in Ashenvale. Upgraded with heavy spiked barricades, this fortified outpost houses Overseer Gorthak and his officers. Its strategic position against the river border allows the Warsong clan to monitor incoming incursions and receive swift reinforcements directly from the neighboring lands of Durotar and Orgrimmar whenever night elf skirmishers strike.",
+   "body": "Kargathia Keep anchors the eastern edge of the Warsong Lumber Camp, just west of the Southfury River. Spiked barricades fortify the outpost, where Overseer Gorthak and his officers direct the Horde’s logging operations. From the river border, the Warsong clan watches for incursions. When night elf skirmishers strike, reinforcements can come swiftly from Durotar and Orgrimmar.",
    "spoiler": 0
   },
   {
    "title": "Honoring the Bladefist",
-   "body": "Like the fortress of Kargath in the Badlands and Bladefist Bay along the coast of Durotar, the outpost takes its name from the famed chieftain Kargath Bladefist. For the Warsong orcs braving Ashenvale's hostile woodlands, the keep's imposing classic architecture stands as an enduring symbol of martial resilience and Horde defiance in territory claimed by the night elves.",
+   "body": "Kargathia Keep shares its namesake with Kargath in the Badlands and Bladefist Bay on Durotar’s coast: the famed chieftain Kargath Bladefist. For Warsong orcs facing Ashenvale’s hostile woodlands, its imposing architecture speaks of martial resilience and Horde defiance in lands claimed by the night elves.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "where is kargathia keep",
     "kargathia outpost location"
    ],
-   "answer": "Kargathia Keep is situated in eastern Ashenvale, on the eastern edge of the Warsong Lumber Camp just west of the Southfury River."
+   "answer": "Kargathia Keep stands in eastern Ashenvale, at the east edge of the Warsong Lumber Camp, just west of the Southfury River."
   },
   {
    "q": "Who leads the keep?",
@@ -37,7 +37,7 @@
     "kargathia keep leader",
     "overseer gorthak"
    ],
-   "answer": "Overseer Gorthak commands the Warsong Lumber Camp from within Kargathia Keep, directing logging operations and coordinating defenses against Alliance attacks."
+   "answer": "Overseer Gorthak commands the Warsong Lumber Camp from Kargathia Keep, directing logging and defenses against Alliance attacks."
   },
   {
    "q": "Why was the keep named Kargathia?",
@@ -46,7 +46,7 @@
     "kargath bladefist",
     "why kargathia"
    ],
-   "answer": "The stronghold was named in honor of Kargath Bladefist, the legendary chieftain of the Shattered Hand clan, sharing this naming heritage with Kargath in the Badlands and Bladefist Bay in Durotar."
+   "answer": "Kargathia Keep was named for Kargath Bladefist, the legendary chieftain of the Shattered Hand clan. Kargath in the Badlands and Bladefist Bay in Durotar share that naming heritage."
   },
   {
    "q": "What is the strategic purpose of this stronghold?",
@@ -55,17 +55,17 @@
     "purpose of kargathia keep",
     "kargathia keep importance"
    ],
-   "answer": "The keep commands the eastern border of the logging camp along the Southfury River, securing the vital supply route and enabling rapid troop reinforcements to cross over from Orgrimmar."
+   "answer": "Kargathia Keep commands the logging camp’s eastern border along the Southfury River, securing the supply route and allowing troops to come swiftly from Orgrimmar."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "For Horde defenders, Kargathia Keep is an indispensable sanctuary on the frontline of Ashenvale, securing valuable timber shipments vital to Orgrimmar's construction."
+   "text": "As a Horde defender, you can hold this frontline stronghold in Ashenvale and secure timber shipments vital to Orgrimmar’s construction."
   },
   {
    "target": "race:NightElf",
-   "text": "To the night elves, this heavily spiked stronghold represents the aggressive, deeply entrenched nature of the Horde's intrusion into their sacred ancestral forest."
+   "text": "As a night elf, you see this spiked stronghold as a sign of the Horde’s aggressive, entrenched presence in your sacred ancestral forest."
   }
  ],
  "keywords": [
@@ -89,5 +89,6 @@
  ],
  "attribution": [
   "Kargathia Keep"
- ]
+ ],
+ "style": 1
 }

@@ -8,16 +8,16 @@
   "wiki": "Tsunaman",
   "refs": 1
  },
- "summary": "Tsunaman is a sentient water elemental stationed at Sun Rock Retreat in the Stonetalon Mountains. Acting as an agent of the Tribunal of the Tides, he watches over the elemental currents of Kalimdor and rallies Horde adventurers to confront corrupting forces.",
+ "summary": "At Sun Rock Retreat, Tsunaman watches the currents of Kalimdor for signs of unrest. He works with the Horde against forces that threaten the waters.",
  "sections": [
   {
    "title": "Agent of the Tides",
-   "body": "Dwelling near the path leading from Sun Rock Retreat down into the Charred Vale, Tsunaman serves the Tribunal of the Tides, high-ranking servants aligned with the Tidehunter, Neptulon. Rather than showing mindless hostility to mortal travelers, he cooperates with the Horde to monitor elemental unrest throughout Kalimdor, particularly the disturbances rippling out of the submerged caverns of Blackfathom Deeps.",
+   "body": "Near the path from Sun Rock Retreat down to the Charred Vale, Tsunaman serves the Tribunal of the Tides, high-ranking servants aligned with the Tidehunter, Neptulon. He works with the Horde to watch for elemental unrest throughout Kalimdor, especially disturbances spreading from the submerged caverns of Blackfathom Deeps.",
    "spoiler": 0
   },
   {
    "title": "Hatred of Flame",
-   "body": "True to his elemental nature, Tsunaman harbors an instinctive, visceral hatred for fire in all forms. He constantly fumes over the nearby burning landscapes of the Charred Vale and elemental fire incursions. In camp, his animosity is so petty and unyielding that he regularly marches over to nearby cooking fires and campfires just to smack them out with a heavy fist of water.",
+   "body": "Tsunaman hates fire in every form. The burning lands of the Charred Vale and incursions by fire elementals keep him fuming. Around camp, he sometimes marches to nearby cooking fires and campfires and smacks them out with a heavy fist of water.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "tsunaman lore",
     "what is tsunaman"
    ],
-   "answer": "Tsunaman is a water elemental located at Sun Rock Retreat in the Stonetalon Mountains. He serves as an emissary for the Tribunal of the Tides, watching elemental conflicts in Kalimdor and seeking help against unnatural disturbances."
+   "answer": "Tsunaman is a water elemental at Sun Rock Retreat in the Stonetalon Mountains. He serves the Tribunal of the Tides, watching elemental conflicts in Kalimdor and seeking aid against unnatural disturbances."
   },
   {
    "q": "Why does Tsunaman attack the campfire?",
@@ -38,7 +38,7 @@
     "why does tsunaman hit fire",
     "water elemental campfire"
    ],
-   "answer": "Tsunaman despises fire elementals and the concept of fire itself. Driven by elemental rivalry, he will periodically stomp over to campfires lit by travelers in Sun Rock Retreat and extinguish them with a watery strike."
+   "answer": "Tsunaman despises fire elementals and fire itself. At Sun Rock Retreat, he sometimes stomps over to travelers' campfires and extinguishes them with a watery strike."
   },
   {
    "q": "What is the Tribunal of the Tides?",
@@ -46,7 +46,7 @@
     "tribunal of the tides",
     "who does tsunaman serve"
    ],
-   "answer": "The Tribunal of the Tides is an order of powerful elemental lieutenants serving Neptulon the Tidehunter, the Elemental Lord of water. They oversee aquatic domains and react to disruptions in the world's waters."
+   "answer": "The Tribunal of the Tides is an order of powerful elemental lieutenants aligned with Neptulon the Tidehunter, the Elemental Lord of water. They oversee aquatic domains and respond to disruptions in the world's waters."
   },
   {
    "q": "Why is Tsunaman interested in Blackfathom Deeps?",
@@ -54,17 +54,17 @@
     "tsunaman blackfathom",
     "trouble in the deeps"
    ],
-   "answer": "Blackfathom Deeps has become polluted by twilight cultists and dark forces corrupting the native water spirits. Tsunaman enlists Horde adventurers to delve into the sunken temple and quell the chaos disrupting the waters."
+   "answer": "Blackfathom Deeps has been polluted by twilight cultists and dark forces that corrupt its native water spirits. Tsunaman enlists Horde adventurers to enter the sunken temple and quell the chaos in the waters."
   }
  ],
  "angles": [
   {
    "target": "class:Shaman",
-   "text": "For shamans striving to understand and commune with the elements, Tsunaman offers a rare chance to speak directly with an emissary of the Tidehunter's court."
+   "text": "As a shaman seeking to understand and commune with the elements, you can speak directly with an emissary of the Tidehunter's court through Tsunaman."
   },
   {
    "target": "faction:Horde",
-   "text": "Tsunaman treats the Horde at Sun Rock Retreat as convenient allies against elemental imbalance and cultist intrusion in Kalimdor's waters."
+   "text": "As a member of the Horde, you can work with Tsunaman at Sun Rock Retreat against elemental imbalance and cultist intrusion in Kalimdor's waters."
   }
  ],
  "keywords": [
@@ -86,5 +86,6 @@
  ],
  "attribution": [
   "Tsunaman"
- ]
+ ],
+ "style": 1
 }

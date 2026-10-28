@@ -10,11 +10,11 @@
    "quest:116"
   ]
  },
- "summary": "A Skin of Sweet Rum is a specialized liquor sourced from the Lion's Pride Inn in Goldshire. It is sought after by Barkeep Daniels in Lakeshire, who is desperate to keep his tavern stocked while Blackrock orcs cut off Redridge from regular trade routes.",
+ "summary": "At the Lion's Pride Inn in Goldshire, Skin of Sweet Rum is bound for Lakeshire, where war has thinned the tavern's stores.",
  "sections": [
   {
    "title": "A Rare Comfort for Lakeshire",
-   "body": "In the war-weary town of Lakeshire, tavern supplies are running dangerously low. The Blackrock orc invasion has choked the supply roads leading into the Redridge Mountains, leaving Barkeep Daniels scrambling to quench the thirst of beleaguered town guards and refugees. To restock his depleted shelves, Daniels sends travelers across the kingdom to gather regional specialties, including a waterskin filled with the distinctive sweet rum brewed and served in Goldshire's Lion's Pride Inn.",
+   "body": "Lakeshire's tavern supplies are running low as the Blackrock orc invasion cuts off the roads into the Redridge Mountains. Barkeep Daniels needs drink for the town guards and refugees, so he sends travelers to gather regional specialties. Among them is a waterskin of sweet rum from the Lion's Pride Inn in Goldshire.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "where buy sweet rum",
     "who sells sweet rum"
    ],
-   "answer": "A Skin of Sweet Rum can be purchased directly from the innkeeper or barkeep at the Lion's Pride Inn in Goldshire, situated in Elwynn Forest."
+   "answer": "You can buy a Skin of Sweet Rum from the innkeeper or barkeep at the Lion's Pride Inn in Goldshire, in Elwynn Forest."
   },
   {
    "q": "Who wants this rum?",
@@ -35,7 +35,7 @@
     "sweet rum turn in",
     "sweet rum quest"
    ],
-   "answer": "Barkeep Daniels, the proprietor of the tavern in Lakeshire, requests a skin of Sweet Rum alongside several other regional brews to restock his depleted supply during the quest Dry Times."
+   "answer": "Barkeep Daniels, who keeps the tavern in Lakeshire, wants a skin of Sweet Rum and other regional brews to refill his shelves during Dry Times."
   },
   {
    "q": "Why is Lakeshire running out of liquor?",
@@ -44,7 +44,7 @@
     "why lakeshire dry",
     "dry times reason"
    ],
-   "answer": "The sudden escalation of the Blackrock orc invasion in Redridge has severed trade lines and delayed shipments into town. With normal merchant wagons unable to safely traverse the roads, local stocks are nearly empty."
+   "answer": "The Blackrock orc invasion has cut trade routes into Redridge, leaving merchant wagons unable to travel safely and Lakeshire's liquor stocks nearly empty."
   },
   {
    "q": "What other spirits are needed alongside the rum?",
@@ -53,13 +53,13 @@
     "daniels drinks list",
     "other booze needed"
    ],
-   "answer": "Alongside the Skin of Sweet Rum from Goldshire, Barkeep Daniels also needs a keg of Thunderbrew Lager from Westfall, a cask of Merlot from Stormwind City, and a bottle of Moonshine from Darkshire."
+   "answer": "Barkeep Daniels also needs a keg of Thunderbrew Lager from Westfall, a cask of Merlot from Stormwind City, and a bottle of Moonshine from Darkshire."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Procuring this rum highlights the logistical strain the Blackrock orc invasion has put on the small settlements defending the eastern borders of the kingdom of Stormwind."
+   "text": "As an Alliance traveler, gathering the rum shows the strain the Blackrock orc invasion puts on the small settlements defending Stormwind's eastern borders."
   }
  ],
  "keywords": [
@@ -84,5 +84,6 @@
  "attribution": [
   "Skin of Sweet Rum",
   "Dry Times"
- ]
+ ],
+ "style": 1
 }

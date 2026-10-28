@@ -8,16 +8,16 @@
   "wiki": "Milli Featherwhistle",
   "refs": 3
  },
- "summary": "Milli Featherwhistle is a master gnomish mechanostrider engineer stationed at Steelgrill's Depot in Dun Morogh. Following the fall of Gnomeregan, she meticulously handcrafts and maintains the clockwork mounts favored by her kin. She sells her prized mechanical creations to fellow gnomes and trusted allies of the exiled Gnomeregan survivors.",
+ "summary": "At Steelgrill's Depot, Milli Featherwhistle keeps Gnomeregan's mechanostriders in motion. She builds and maintains these clockwork mounts for her kin and trusted allies among the exiles.",
  "sections": [
   {
    "title": "Master of Mechanostriders",
-   "body": "Operating outdoors in the biting chill of Steelgrill's Depot just east of Kharanos, Milli Featherwhistle oversees the supply of clockwork steeds for Gnomeregan's displaced populace. Unlike the biological beasts favored by dwarves and night elves, Milli builds her entire inventory herself, personally calibrating gears, pistons, and balancing gyros to ensure each mechanical bird runs at peak efficiency across the snowy crags of Dun Morogh.",
+   "body": "Outdoors in the biting chill at Steelgrill's Depot, just east of Kharanos, Milli keeps clockwork steeds ready for Gnomeregan's displaced people. Dwarves and night elves favor living mounts, but Milli builds each mechanostrider herself. She calibrates its gears, pistons, and balancing gyros so it can travel across Dun Morogh's snowy crags.",
    "spoiler": 0
   },
   {
    "title": "Legacy of Mekkatorque",
-   "body": "Every frame and spring in Milli's workshop is rooted in blueprints originally drafted by High Tinker Gelbin Mekkatorque. While Milli has integrated modern performance improvements over the years\u2014streamlining chassis weights and refining exhaust vents\u2014she faithfully adheres to the High Tinker's foundational schematics. Her mechanical wonders prove that even in exile, gnomish technological ambition remains thoroughly unbroken.",
+   "body": "Milli builds her mechanostriders from blueprints first drawn by High Tinker Gelbin Mekkatorque. She has improved their performance by lightening the chassis and refining the exhaust vents, while keeping to the High Tinker's original designs. Her work carries gnomish ambition forward even in exile.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "who is milli",
     "mechanostrider vendor"
    ],
-   "answer": "Milli Featherwhistle is the primary mechanostrider breeder and engineer for the gnomes of Gnomeregan. Stationed at Steelgrill's Depot in Dun Morogh, she hand-builds and sells clockwork mechanostriders to eligible riders."
+   "answer": "Milli is the primary mechanostrider breeder and engineer for Gnomeregan's gnomes. At Steelgrill's Depot in Dun Morogh, she builds and sells clockwork mounts to eligible riders."
   },
   {
    "q": "Where can I find Milli Featherwhistle?",
@@ -38,7 +38,7 @@
     "where is milli featherwhistle",
     "find milli"
    ],
-   "answer": "She is located at Steelgrill's Depot, an engineering outpost situated just a short walk east down the road from the town of Kharanos in Dun Morogh."
+   "answer": "Milli works at Steelgrill's Depot in Dun Morogh, a short walk east along the road from Kharanos."
   },
   {
    "q": "Who is allowed to purchase mounts from her?",
@@ -47,7 +47,7 @@
     "mechanostrider requirements",
     "who can ride mechanostriders"
    ],
-   "answer": "By default, only gnomish adventurers have the immediate clearance and aptitude to purchase her creations. Members of other Alliance races must earn the utmost trust and exalted status with the Gnomeregan Exiles before she will entrust them with a mechanostrider."
+   "answer": "Gnomish adventurers can buy Milli's creations directly. Riders of other Alliance races must earn her utmost trust and exalted standing with the Gnomeregan Exiles before she entrusts them with a mechanostrider."
   },
   {
    "q": "How are mechanostriders made?",
@@ -56,7 +56,7 @@
     "who makes mechanostriders",
     "mechanostrider origins"
    ],
-   "answer": "Milli Featherwhistle crafts each mechanostrider herself, basing her construction on the iconic blueprints drafted by High Tinker Gelbin Mekkatorque while implementing custom engine and balance enhancements."
+   "answer": "Milli builds each mechanostrider herself from High Tinker Gelbin Mekkatorque's blueprints, with improvements to the engines and balance."
   },
   {
    "q": "What mount varieties does she offer?",
@@ -65,7 +65,7 @@
     "mechanostrider models",
     "what mounts does milli sell"
    ],
-   "answer": "She provides several calibrated models, ranging from standard unpainted, blue, green, and red frames to finely tuned swift variants finished in white, green, and yellow coatings."
+   "answer": "Milli offers standard mechanostriders with unpainted, blue, green, and red frames, along with swift models finished in white, green, and yellow."
   },
   {
    "q": "Why is she working out in the snow at Steelgrill's Depot?",
@@ -73,21 +73,21 @@
     "why is milli in dun morogh",
     "why steelgrills depot"
    ],
-   "answer": "After the radioactive catastrophe and trogg invasion drove the gnomes from Gnomeregan, refugees gathered wherever they could. Steelgrill's Depot serves as a natural staging hub outside Kharanos for vehicular testing and mechanical maintenance alongside dwarven engineers."
+   "answer": "After a radioactive catastrophe and a trogg invasion drove the gnomes from Gnomeregan, refugees gathered wherever they could. Steelgrill's Depot outside Kharanos became a natural staging hub for vehicle testing and mechanical maintenance alongside dwarven engineers."
   }
  ],
  "angles": [
   {
    "target": "race:Gnome",
-   "text": "Milli Featherwhistle is your people's premier mount engineer, carrying forward High Tinker Mekkatorque's technological genius even while exiled from your subterranean home."
+   "text": "As a gnome, you can see Milli carrying forward High Tinker Mekkatorque's technological genius. She is your people's premier mount engineer, still at work in exile from your subterranean home."
   },
   {
    "target": "profession:Engineering",
-   "text": "Milli's mechanostriders represent the pinnacle of large-scale gnomish locomotion, combining gyroscopic balance units with high-torque mechanical limbs."
+   "text": "Milli's mechanostriders are the pinnacle of gnomish locomotion, with gyroscopic balance units and high-torque mechanical limbs."
   },
   {
    "target": "faction:Alliance",
-   "text": "Alliance heroes who earn the utmost respect of the Gnomeregan Exiles can seek out Milli to command one of the swiftest mechanical mounts on Azeroth."
+   "text": "As an Alliance hero, you can seek out Milli after earning the utmost respect of the Gnomeregan Exiles, then command one of Azeroth's swiftest mechanical mounts."
   }
  ],
  "keywords": [
@@ -110,5 +110,6 @@
  ],
  "attribution": [
   "Milli Featherwhistle"
- ]
+ ],
+ "style": 1
 }

@@ -8,11 +8,11 @@
   "wiki": "Minor Manifestation of Water",
   "refs": 2
  },
- "summary": "The Minor Manifestation of Water is an elemental spirit found along North Tide's Run on the coast of Silverpine Forest. It serves as a vital trial for Horde shamans seeking to commune with and master the element of water. Before this peaceful spirit can be consulted, initiates must first cleanse its corrupted counterpart.",
+ "summary": "Along North Tide's Run, the Minor Manifestation of Water awaits shamans on Silverpine Forest's coast. Its corrupted counterpart must be cleansed before the peaceful spirit can be consulted.",
  "sections": [
   {
    "title": "A Spirit of the Western Tides",
-   "body": "Lurking along the mist-shrouded shores of North Tide's Run, west of the Sepulcher in Silverpine Forest, the Minor Manifestation of Water represents an essential rite of passage for developing shamans. Water elementals embody life, renewal, and fluidity, but they can easily fall victim to malevolent blight. An initiate must face and defeat a corrupted manifestation of this elemental before the pure Minor Manifestation of Water can reveal itself. Once cleansed, the spirit offers guidance to shamans completing their sacred journey to fashion a Water Totem.",
+   "body": "The Minor Manifestation of Water waits west of the Sepulcher, along North Tide's Run. For developing shamans, meeting the spirit is an essential rite. Water elementals embody life, renewal, and fluidity, yet malevolent blight can corrupt them. An initiate must face and defeat a corrupted manifestation before the pure spirit reveals itself. Once cleansed, the Minor Manifestation of Water guides shamans on their sacred journey to fashion a Water Totem.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "where is manifestation of water",
     "north tides run elemental"
    ],
-   "answer": "The Minor Manifestation of Water appears along North Tide's Run, on the western coast of Silverpine Forest just west of the Sepulcher."
+   "answer": "Find the Minor Manifestation of Water along North Tide's Run, on Silverpine Forest's western coast, just west of the Sepulcher."
   },
   {
    "q": "Why is the elemental hostile when I first approach?",
@@ -33,7 +33,7 @@
     "why is water manifestation angry",
     "manifestation attacking me"
    ],
-   "answer": "A shaman must first summon and destroy the Corrupt Minor Manifestation of Water. Only after defeating the corrupted presence does the peaceful manifestation appear to speak with you."
+   "answer": "A shaman must first summon and destroy the Corrupt Minor Manifestation of Water. After its defeat, the peaceful manifestation appears and speaks with you."
   },
   {
    "q": "What quest involves this elemental?",
@@ -42,7 +42,7 @@
     "water totem quest silverpine",
     "what quest is this for"
    ],
-   "answer": "This spirit is a crucial contact in the shaman quest chain 'Call of Water,' through which shamans ultimately earn the ability to cast their Water Totem."
+   "answer": "The Minor Manifestation of Water guides shamans in the Call of Water chain, which ultimately teaches them to cast their Water Totem."
   },
   {
    "q": "Can non-shamans interact with this spirit?",
@@ -51,17 +51,17 @@
     "can anyone talk to manifestation",
     "who talks to minor manifestation"
    ],
-   "answer": "The Minor Manifestation of Water exists specifically to guide shamans completing their spiritual trials. Other adventurers will find little reason to interact with it."
+   "answer": "The Minor Manifestation of Water guides shamans through their spiritual trials. Other adventurers have little reason to seek the spirit."
   }
  ],
  "angles": [
   {
    "target": "class:Shaman",
-   "text": "Cleansing the corruption from this elemental and receiving its blessing is the final milestone in attuning to the tides and forging your Water Totem."
+   "text": "As a shaman, cleanse the corruption from this elemental and receive its blessing to attune to the tides and forge your Water Totem."
   },
   {
    "target": "faction:Horde",
-   "text": "Troll, orc, and tauren shamans travel all the way from Kalimdor to the shores of Lordaeron to commune with this spirit."
+   "text": "As a troll, orc, or tauren shaman, you travel from Kalimdor to Lordaeron's shores to commune with this spirit."
   }
  ],
  "keywords": [
@@ -82,5 +82,6 @@
  ],
  "attribution": [
   "Minor Manifestation of Water"
- ]
+ ],
+ "style": 1
 }

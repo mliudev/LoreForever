@@ -28,16 +28,16 @@
    "Hints of a New Plague?"
   ]
  },
- "summary": "Kinelory is ready to head down to the farm and wants you at her side. She fears the undead may be doing harm back in Hillsbrad the longer they wait, and you are asked to see her safely back to Quae.",
+ "summary": "Kinelory is ready to return to Quae, and asks you to go with her to the farm. She fears the undead may harm Hillsbrad while they wait, and she needs you to see her safely back.",
  "sections": [
   {
    "title": "Watching Kinelory's Back",
-   "body": "After the earlier steps of the investigation, Kinelory is ready to act. She asks you to come with her down to the farm. You are to see her safely back to Quae, and anyone who cares about the people of Hillsbrad is urged to protect her.",
+   "body": "Kinelory is ready to act after the earlier steps of the investigation. She asks you to go with her down to the farm, then see her safely back to Quae. Anyone who cares about the people of Hillsbrad is urged to protect her.",
    "spoiler": 0
   },
   {
    "title": "A Safe Return",
-   "body": "Back with Quae, you are thanked for the service. Quae admits to hoping Kinelory was not too much of a handful: she is very friendly, but just as deadly when you are her enemy.",
+   "body": "Quae thanks you when Kinelory returns. Quae admits to hoping Kinelory was not too much of a handful: Kinelory is very friendly, but just as deadly when you are her enemy.",
    "spoiler": 1
   }
  ],
@@ -49,7 +49,7 @@
     "who gives quest",
     "who starts hints of a new plague 4"
    ],
-   "answer": "Kinelory asks you to come with her once she is ready to set out."
+   "answer": "Kinelory asks you to go with her when she is ready to set out."
   },
   {
    "q": "Where does Kinelory need to go?",
@@ -58,7 +58,7 @@
     "where does kinelory go",
     "kinelory destination"
    ],
-   "answer": "She goes down to a farm, then makes her way back to Quae."
+   "answer": "Kinelory goes down to a farm, then makes her way back to Quae."
   },
   {
    "q": "Who do you report to when finished?",
@@ -67,7 +67,7 @@
     "who completes quest",
     "where to turn in"
    ],
-   "answer": "Quae, once Kinelory has made it back to her."
+   "answer": "You report to Quae once Kinelory has made it back to her."
   },
   {
    "q": "What came right before this part of the investigation?",
@@ -76,7 +76,7 @@
     "prereq",
     "what comes before"
    ],
-   "answer": "The third part of Hints of a New Plague?, which leads straight into this one."
+   "answer": "The third part of Hints of a New Plague? leads straight into this part of the investigation."
   },
   {
    "q": "What follows after returning safely?",
@@ -85,7 +85,7 @@
     "what comes next",
     "follow up"
    ],
-   "answer": "The investigation goes on with the fifth part of Hints of a New Plague?."
+   "answer": "The investigation continues with the fifth part of Hints of a New Plague?."
   },
   {
    "q": "Why must Kinelory be protected?",
@@ -93,7 +93,7 @@
     "why protect kinelory",
     "why care about kinelory"
    ],
-   "answer": "Anyone who cares about the people of Hillsbrad is urged to see her safely through."
+   "answer": "Anyone who cares about the people of Hillsbrad is urged to see Kinelory safely through."
   }
  ],
  "angles": [],
@@ -110,5 +110,6 @@
  ],
  "attribution": [
   "Hints of a New Plague? (4)"
- ]
+ ],
+ "style": 1
 }

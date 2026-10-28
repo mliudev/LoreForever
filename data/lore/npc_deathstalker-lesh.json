@@ -8,11 +8,11 @@
   "wiki": "Deathstalker Lesh",
   "refs": 1
  },
- "summary": "Deathstalker Lesh is a Forsaken rogue serving as a forward scout at Southpoint Tower in the Hillsbrad Foothills. Operating directly under High Executor Darthalia, she keeps watch over the human farms in the Hillsbrad Fields to gauge when the Forsaken should strike.",
+ "summary": "At Southpoint Tower, Deathstalker Lesh watches the human farms in the Hillsbrad Foothills. She serves High Executor Darthalia and gauges when the Forsaken should strike.",
  "sections": [
   {
    "title": "Eyes on the Fields",
-   "body": "Perched at Southpoint Tower on the southern road through the Hillsbrad Foothills, Deathstalker Lesh monitors the human farmers and town militia working the nearby Hillsbrad Fields. As an operative of the Deathstalkers\u2014the Forsaken's secretive intelligence and assassination network\u2014Lesh tracks enemy movements and numbers for High Executor Darthalia in Tarren Mill. When the moment is right, Lesh sends word to Darthalia with a coded message, 'The raven's cry from the west doth beckon', signaling that Hillsbrad is ripe for the Forsaken's attack.",
+   "body": "From Southpoint Tower, Deathstalker Lesh watches the human farmers and town militia in the nearby Hillsbrad Fields. The tower stands on the southern road through the Hillsbrad Foothills. Lesh belongs to the Deathstalkers, the Forsaken's covert network of scouts, spies, and assassins. She tracks enemy movements and numbers for High Executor Darthalia in Tarren Mill. When the moment is right, Lesh sends Darthalia a coded message: “The raven's cry from the west doth beckon.” The words signal that Hillsbrad is ripe for the Forsaken's attack.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "who is lesh",
     "lesh hillsbrad"
    ],
-   "answer": "Lesh is a Forsaken scout stationed at Southpoint Tower. She answers to High Executor Darthalia in Tarren Mill and monitors the human activity across the Hillsbrad Fields."
+   "answer": "Lesh is a Forsaken scout at Southpoint Tower. She answers to High Executor Darthalia in Tarren Mill and watches human activity across the Hillsbrad Fields."
   },
   {
    "q": "What are the Deathstalkers?",
@@ -33,7 +33,7 @@
     "deathstalker order",
     "forsaken rogues"
    ],
-   "answer": "The Deathstalkers serve Queen Sylvanas Windrunner as scouts, spies, and assassins. They function as the covert arm of the Forsaken military, gathering intelligence and eliminating high-value targets across Lordaeron."
+   "answer": "The Deathstalkers serve Queen Sylvanas Windrunner as scouts, spies, and assassins. They gather intelligence for the Forsaken military and eliminate high-value targets across Lordaeron."
   },
   {
    "q": "What is Lesh's role at Southpoint Tower?",
@@ -42,7 +42,7 @@
     "lesh quest",
     "why is lesh here"
    ],
-   "answer": "She acts as a forward lookout. From Southpoint Tower she surveys the town of Hillsbrad, and when the time is right she sends a traveler to High Executor Darthalia in Tarren Mill with a coded message signaling that Hillsbrad is ripe for attack."
+   "answer": "Lesh keeps watch from Southpoint Tower, surveying both the Hillsbrad Fields and the town of Hillsbrad. When the moment is right, she sends a traveler to High Executor Darthalia in Tarren Mill with a coded message signaling that Hillsbrad is ripe for attack."
   },
   {
    "q": "Who does Lesh report to?",
@@ -51,17 +51,17 @@
     "who commands lesh",
     "high executor darthalia"
    ],
-   "answer": "She reports to High Executor Darthalia, the Forsaken commander stationed at Tarren Mill who oversees the offensive against the human forces in Hillsbrad."
+   "answer": "Lesh reports to High Executor Darthalia, the Forsaken commander at Tarren Mill who oversees the offensive against the human forces in Hillsbrad."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "For the Forsaken, scouts like Lesh represent the vital frontier work of securing Lordaeron from Alliance resurgents."
+   "text": "For you as Forsaken, scouts like Lesh help secure Lordaeron from Alliance resurgents."
   },
   {
    "target": "class:Rogue",
-   "text": "Deathstalker Lesh demonstrates the essential military function of covert operatives within the Horde war effort."
+   "text": "As a rogue, you share the covert work Deathstalker Lesh performs for the Horde's war effort."
   }
  ],
  "keywords": [
@@ -83,5 +83,6 @@
  ],
  "attribution": [
   "Deathstalker Lesh"
- ]
+ ],
+ "style": 1
 }

@@ -10,16 +10,16 @@
    "quest:530"
   ]
  },
- "summary": "Valdred's Hands are the severed limbs of Valdred Moray, claimed after his death in southern Silverpine Forest. They are sought by Raleigh Andrean in the Undercity as a morbid trophy and proof of vengeance for the murder of his wife.",
+ "summary": "In southern Silverpine Forest, Valdred Moray's severed hands become proof of Raleigh Andrean's vengeance for his wife's murder. Raleigh seeks them in the Undercity as a grim trophy.",
  "sections": [
   {
    "title": "A Gruesome Trophy of Betrayal",
-   "body": "Before the plague consumed Lordaeron, Valdred Moray and Raleigh Andrean were close friends. That bond was shattered when Valdred murdered Raleigh's wife, Deliah. Though Raleigh succumbed to death and arose as one of the Forsaken\u2014professing an inability to genuinely grieve\u2014the lingering hunger for retribution never left him. When Valdred attempted to flee southward past the Greymane Wall into Gilneas, Raleigh dispatched an emissary to end his former friend's flight, demanding his severed hands as definitive proof that the deed was done.",
+   "body": "The plague consumed Lordaeron and ended the friendship between Valdred Moray and Raleigh Andrean. Valdred had murdered Raleigh's wife, Deliah. Raleigh died and rose as one of the Forsaken, claiming he could no longer truly grieve. Yet he still wanted vengeance. When Valdred fled south past the Greymane Wall toward Gilneas, Raleigh sent an emissary after his former friend. He demanded Valdred's severed hands as proof that the deed was done.",
    "spoiler": 0
   },
   {
    "title": "A Bitter Remembrance",
-   "body": "Upon receiving the severed hands, Raleigh relinquishes his late wife's engraved ring, dismissing it as a meaningless bauble. Because Deliah has been dead to him for so long, he finds no comfort in sentimental keepsakes of the past. Instead, he preserves Valdred's hands as an enduring, cold reminder of betrayal and finalized vengeance.",
+   "body": "Raleigh Andrean gives up Deliah's engraved ring when he receives Valdred's hands, calling the ring meaningless. Deliah has been dead to him for so long that keepsakes bring him no comfort. He keeps the hands as a cold reminder of betrayal and vengeance.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "valdred moray lore",
     "valdred story"
    ],
-   "answer": "Valdred Moray was once a close friend of Raleigh Andrean during life. He betrayed that friendship by murdering Raleigh's wife, Deliah, before eventually trying to flee south toward Gilneas."
+   "answer": "Valdred Moray was once a close friend of Raleigh Andrean. He betrayed that friendship by murdering Raleigh's wife, Deliah, then tried to flee south toward Gilneas."
   },
   {
    "q": "Why does Raleigh Andrean want Valdred's hands specifically?",
@@ -40,7 +40,7 @@
     "why valdreds hands",
     "raleigh hands trophy"
    ],
-   "answer": "Raleigh wants the hands because they were the instruments that strangled or struck down his wife. In Forsaken fashion, he keeps them as a physical trophy of his friend's betrayal and the revenge he extracted."
+   "answer": "Raleigh wants Valdred's hands because they were the instruments that strangled or struck down his wife. He keeps them as a physical trophy of his friend's betrayal and the revenge he took."
   },
   {
    "q": "Where is Valdred Moray found?",
@@ -49,7 +49,7 @@
     "valdred location",
     "valdred moray spawn"
    ],
-   "answer": "Valdred is located in southern Silverpine Forest, lingering near the towering gate of the Greymane Wall in an attempt to escape into the isolationist kingdom of Gilneas."
+   "answer": "Valdred is in southern Silverpine Forest, near the Greymane Wall, as he tries to escape into Gilneas."
   },
   {
    "q": "What happens to the hands after bringing them to Undercity?",
@@ -57,13 +57,13 @@
     "what does raleigh do with hands",
     "turn in valdreds hands"
    ],
-   "answer": "Raleigh keeps the hands in the Undercity as a permanent memento of his completed revenge, simultaneously discarding his murdered wife's ring as a useless trinket."
+   "answer": "Raleigh keeps the hands in the Undercity as a lasting reminder of his vengeance. He also discards Deliah's engraved ring as a meaningless trinket."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "The demand for Valdred's hands exemplifies the cold, vengeful nature of the Forsaken, who often channel their inability to feel conventional sorrow into lingering, obsessive grudges."
+   "text": "Valdred's hands show the Forsaken's cold, vengeful nature. Unable to feel conventional sorrow, they often channel that loss into lingering, obsessive grudges."
   }
  ],
  "keywords": [
@@ -88,5 +88,6 @@
  "attribution": [
   "Valdred's Hands",
   "A Husband's Revenge"
- ]
+ ],
+ "style": 1
 }

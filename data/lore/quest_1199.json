@@ -17,21 +17,21 @@
   "wiki": "Twilight Falls (Classic)",
   "chain": []
  },
- "summary": "Argent Guard Manados in Darnassus calls upon Alliance champions to strike at the Twilight's Hammer cultists gathered within Blackfathom Deeps. The dark cult has allied with serpent-like naga to occupy the sunken night elf temple along the Ashenvale coast. By gathering pendants from the fallen cultists, adventurers strike a blow against their insidious plans to awaken ancient evils.",
+ "summary": "At Blackfathom Deeps, Twilight's Hammer cultists join with naga beneath the Ashenvale coast. Argent Guard Manados in Darnassus calls on Alliance champions to gather pendants from the fallen cultists and hinder their plans to awaken ancient evils.",
  "sections": [
   {
    "title": "A Sanctum Defiled",
-   "body": "Beneath the rugged cliffs of the Zoram Strand in Ashenvale lie the ruins of Blackfathom Deeps. Once a sacred night elf temple dedicated to Elune and home to a powerful moonwell, it was shattered and plunged into the depths during the Sundering. Today, the sacred waters have turned putrid and foul, overrun by bloodthirsty naga and fanatic cultists who venerate forces far darker than the sea.",
+   "body": "Beneath Ashenvale's Zoram Strand, Blackfathom Deeps lies in ruins. The night elf temple was once sacred to Elune and held a powerful moonwell, until the Sundering shattered it and plunged it beneath the sea. Now naga and cultists fill its halls. The waters have turned foul, and the cultists revere powers darker than the sea.",
    "spoiler": 0
   },
   {
    "title": "Whispers of the Old Gods",
-   "body": "The Twilight's Hammer is an apocalyptic cult devoted to the chaotic Old Gods, seeking to bring about the return of their primordial patrons and cover the world in madness and ruin. Reports reaching Darnassus confirm that these madmen have joined hands with the naga inhabiting Blackfathom Deeps. Deep within the submerged halls, they conduct blasphemous rituals, using the sunken temple's tainted waters to feed their dark masters' resurgence.",
+   "body": "Twilight's Hammer worships the chaotic Old Gods and seeks their return, hoping to spread madness and ruin across the world. Reports in Darnassus say the cultists have joined with the naga in Blackfathom Deeps. In the submerged halls, they perform rituals and use the temple's tainted waters to feed their dark masters' resurgence.",
    "spoiler": 0
   },
   {
    "title": "The Vigil of the Argent Dawn",
-   "body": "Stationed in Darnassus, Argent Guard Manados represents the Argent Dawn's vigilance against all scourges that threaten Azeroth. Recognizing that the depravity within Blackfathom Deeps could unleash horrors upon all civilized races, the order offers recognition and aid to any heroes willing to descend into the flooded labyrinth, cull the cultists, and pry the Twilight Pendants from their necks as proof of their downfall.",
+   "body": "Argent Guard Manados watches over threats to Azeroth from Darnassus on behalf of the Argent Dawn. He sees the danger in Blackfathom Deeps: its horrors could reach every civilized race. The order offers aid and recognition to heroes who enter the flooded labyrinth, cull the cultists, and bring back the Twilight Pendants from their necks as proof of their defeat.",
    "spoiler": 0
   }
  ],
@@ -43,7 +43,7 @@
     "who gives twilight falls",
     "argent guard manados location"
    ],
-   "answer": "Argent Guard Manados is an emissary of the Argent Dawn stationed in Darnassus. Acting as the eyes and ears of his order in Kalimdor, he monitors malevolent cults and dark forces that threaten the realm, enlisting adventurers to eradicate them."
+   "answer": "Argent Guard Manados is an Argent Dawn emissary stationed in Darnassus. He watches for cults and dark forces threatening Kalimdor and enlists adventurers to destroy them."
   },
   {
    "q": "Why is the Argent Dawn concerned about Blackfathom Deeps?",
@@ -51,7 +51,7 @@
     "why argent dawn darnassus",
     "argent dawn blackfathom"
    ],
-   "answer": "While the Argent Dawn is best known for fighting the Scourge in Lordaeron, their charter encompasses confronting any existential, unnatural evil. The resurgence of Old God worship and the alliance between cultists and naga in Kalimdor represents a global catastrophe if left unchecked."
+   "answer": "The Argent Dawn fights the Scourge in Lordaeron, but its charter also covers unnatural evils that threaten the world. Old God worship and the alliance between cultists and naga in Kalimdor could bring catastrophe if left unchecked."
   },
   {
    "q": "What is the Twilight's Hammer?",
@@ -60,7 +60,7 @@
     "who are twilight's hammer",
     "twilights hammer"
    ],
-   "answer": "The Twilight's Hammer is a fanatical doomsday cult that worships the Old Gods—chaotic, primordial entities imprisoned beneath the earth long ago. Cultists believe in hastening an apocalyptic end where their shadowy masters rise again to remake the world in terror and madness."
+   "answer": "Twilight's Hammer is a doomsday cult devoted to the chaotic Old Gods, primordial beings imprisoned beneath the earth long ago. Its followers seek an apocalyptic end that would let their masters rise and remake the world in terror and madness."
   },
   {
    "q": "What were the Twilight Pendants used for?",
@@ -68,7 +68,7 @@
     "twilight pendant lore",
     "what are twilight pendants"
    ],
-   "answer": "The Twilight Pendants are dark talismans worn by members of the Twilight's Hammer. Symbolizing their allegiance to the chaotic entities they worship, the Argent Dawn collects them as verifiable proof that a cultist has been slain and neutralized."
+   "answer": "Twilight Pendants are dark talismans worn by Twilight's Hammer members to show their allegiance to the entities they worship. The Argent Dawn gathers them as proof that a cultist has been slain and neutralized."
   },
   {
    "q": "What was Blackfathom Deeps originally?",
@@ -77,7 +77,7 @@
     "bfd temple history",
     "blackfathom moonwell"
    ],
-   "answer": "Long before its corruption, Blackfathom Deeps was a magnificent night elven temple dedicated to the moon goddess Elune. It was renowned for housing a profoundly potent moonwell before the Great Sundering cracked the earth and submerged its halls beneath the sea."
+   "answer": "Blackfathom Deeps was a night elf temple dedicated to Elune, famed for its powerful moonwell. The Great Sundering broke the earth and submerged its halls beneath the sea."
   },
   {
    "q": "Why are the Twilight's Hammer working with the naga?",
@@ -85,25 +85,25 @@
     "naga cultists alliance",
     "bfd naga alliance"
    ],
-   "answer": "The reasons for their union are not fully known, but both are drawn to the dark power stirring within the sunken temple. Within Blackfathom Deeps, their cooperation allows the cultists safe access to ancient submerged chambers while the naga benefit from the cult's vile sorceries and sacrificial rites."
+   "answer": "The reasons for the union are not fully known. Both groups are drawn to the dark power stirring in the sunken temple. The cultists gain safe access to ancient submerged chambers, while the naga benefit from their sorceries and sacrificial rites."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "The desecration of a sacred temple and moonwell by creeping Old God cultists and naga is a direct affront to Elune and the ancestral lands of Ashenvale."
+   "text": "For a night elf, the desecration of a sacred temple and moonwell by Old God cultists and naga affronts Elune and Ashenvale's ancestral lands."
   },
   {
    "target": "faction:Alliance",
-   "text": "The Twilight's Hammer poses an encroaching peril just south of Darkshore, making the purge of Blackfathom Deeps essential to securing northern Kalimdor."
+   "text": "For the Alliance, Twilight's Hammer threatens from just south of Darkshore, and clearing Blackfathom Deeps helps secure northern Kalimdor."
   },
   {
    "target": "class:Paladin",
-   "text": "As champions of the Holy Light aligned with orders like the Argent Dawn, paladins view the Twilight's Hammer's depraved Old God worship as an abomination demanding righteous cleansing."
+   "text": "As a paladin aligned with orders like the Argent Dawn, you see Twilight's Hammer's Old God worship as an abomination that demands righteous cleansing."
   },
   {
    "target": "class:Priest",
-   "text": "Priests are keenly attuned to the perversion of the temple's once-sacred moonwell and the maddening, shadowy whispers driving the cultists deeper into madness."
+   "text": "As a priest, you sense the corruption of the temple's once-sacred moonwell and the maddening, shadowy whispers driving the cultists deeper into madness."
   }
  ],
  "keywords": [
@@ -131,5 +131,6 @@
  ],
  "attribution": [
   "Twilight Falls (Classic)"
- ]
+ ],
+ "style": 1
 }

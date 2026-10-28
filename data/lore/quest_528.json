@@ -17,16 +17,16 @@
   "wiki": "Battle of Hillsbrad (2)",
   "chain": []
  },
- "summary": "Battle of Hillsbrad is a Forsaken military mission directed by High Executor Darthalia from Tarren Mill. Following the initial strikes on the northern human farms, Horde operatives are sent south to slaughter the fleeing Hillsbrad Peasants seeking refuge in the orchards.",
+ "summary": "In Hillsbrad, Forsaken forces press their assault south. After strikes on the northern farms, Horde operatives hunt the peasants fleeing to the orchards.",
  "sections": [
   {
    "title": "Sowing Terror in the Fields",
-   "body": "The campaign against the human presence in Hillsbrad Foothills moves with cold deliberation. After Horde forces strike the northern farms, panic sweeps through the settlement. Rather than taking up arms, many laborers flee southward into the orchards and pastures of Hillsbrad Fields, hoping to hide from the advancing undead. High Executor Darthalia views their terror not with mercy, but as a strategic opening to break Hillsbrad's remaining labor force and morale completely.",
+   "body": "The attack on Hillsbrad's human farms drives laborers south into the fields. After the northern farms are struck, many flee to the orchards and pastures of Hillsbrad Fields, hoping to escape the advancing undead. High Executor Darthalia sees their flight as a chance to break the township's remaining labor force and morale.",
    "spoiler": 0
   },
   {
    "title": "The Dark Lady's Advance",
-   "body": "Under direct orders from Tarren Mill, champions of the Horde hunt down these displaced laborers in the fields. Deprived of protection, the peasants are systematically eliminated to choke off Hillsbrad's food supply and shatter civilian resolve. For Darthalia and the Forsaken, every human felled tightens the grip of death around the surviving township, ensuring that Lordaeron remains firmly in the hands of the Forsaken.",
+   "body": "From Tarren Mill, High Executor Darthalia orders Horde forces to hunt the displaced laborers in the fields. The peasants have no protection, and their deaths choke Hillsbrad's food supply and weaken civilian resolve. For Darthalia and the Forsaken, each human killed tightens their hold over the surviving township and helps keep Lordaeron in Forsaken hands.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "why target farmers",
     "darthalia peasant plan"
    ],
-   "answer": "Targeting the peasants destroys the agrarian backbone that feeds the Hillsbrad settlement. By killing the laborers hiding in the southern orchards, High Executor Darthalia ensures the town descends further into panic and starves, making ultimate conquest far easier."
+   "answer": "The Forsaken target the peasants to destroy the labor force that feeds Hillsbrad. By killing those hiding in the southern orchards, High Executor Darthalia deepens the town's panic and hunger, making conquest easier."
   },
   {
    "q": "Who orders this assault?",
@@ -47,7 +47,7 @@
     "quest giver battle of hillsbrad",
     "darthalia orders"
    ],
-   "answer": "High Executor Darthalia, the Forsaken commander stationed at Tarren Mill, commands the entire military effort against the local human settlements in the name of Lady Sylvanas Windrunner."
+   "answer": "High Executor Darthalia, the Forsaken commander at Tarren Mill, orders the assault on local human settlements in the name of Lady Sylvanas Windrunner."
   },
   {
    "q": "Where did these peasants flee from?",
@@ -55,7 +55,7 @@
     "where are peasants coming from",
     "northern farms hillsbrad"
    ],
-   "answer": "They fled from the northern farms of Hillsbrad following earlier Horde strikes. Panicked and defenseless, they took refuge among the trees and pastures of the southern Hillsbrad Fields."
+   "answer": "The peasants fled the northern farms after earlier Horde strikes. In panic, they sought refuge among the trees and pastures of southern Hillsbrad Fields."
   },
   {
    "q": "Where can the fleeing peasants be found?",
@@ -63,7 +63,7 @@
     "hillsbrad peasant location",
     "where are hillsbrad peasants"
    ],
-   "answer": "The peasants are scattered across the southern orchards and pastures of Hillsbrad Fields, just south of the main road running through the foothills."
+   "answer": "The peasants are scattered through the southern orchards and pastures of Hillsbrad Fields, just south of the main road through the foothills."
   },
   {
    "q": "What comes after killing the peasants?",
@@ -71,7 +71,7 @@
     "what is next after peasants",
     "battle of hillsbrad next step"
    ],
-   "answer": "With the southern fields cleared of laborers, High Executor Darthalia escalates the campaign to target Blacksmith Verringtan and the smithy arming Hillsbrad's defenders, bringing the fight ever closer to the town center."
+   "answer": "After the laborers are cleared from the southern fields, High Executor Darthalia turns the campaign toward Blacksmith Verringtan and the smithy arming Hillsbrad's defenders. The fighting moves closer to the town center."
   },
   {
    "q": "Why is the Horde fighting so ruthlessly here?",
@@ -79,21 +79,21 @@
     "why horde attacking hillsbrad",
     "forsaken vs hillsbrad war"
    ],
-   "answer": "The human town of Hillsbrad represents one of the final remaining Alliance strongholds in Lordaeron. The Forsaken regard the region as their rightful sovereign territory and seek to expel or eliminate any Alliance enclaves that threaten their southern border."
+   "answer": "The human town of Hillsbrad is one of the last Alliance strongholds in Lordaeron. The Forsaken claim the region as their sovereign territory and seek to drive out or kill Alliance enclaves that threaten their southern border."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "For the Forsaken, this purge is practical and uncompromising: eliminating the living laborers denies the Alliance sustenance and cements the Dark Lady's dominion over southern Lordaeron."
+   "text": "For the Forsaken, killing the living laborers is practical and absolute. It denies the Alliance sustenance and strengthens the Dark Lady's rule over southern Lordaeron."
   },
   {
    "target": "faction:Horde",
-   "text": "Tarren Mill serves as the Horde's vital bastion in the foothills. Breaking Hillsbrad ensures Horde lines of communication and supply remain secure against Alliance incursions."
+   "text": "Tarren Mill is the Horde's stronghold in the foothills. Breaking Hillsbrad keeps Horde lines of communication and supply secure against Alliance incursions."
   },
   {
    "target": "faction:Alliance",
-   "text": "The slaughter of unarmed refugees in the southern orchards underscores the ruthless, total war waged by the Forsaken against Lordaeron's remaining living subjects."
+   "text": "The killing of unarmed refugees in the southern orchards shows the Forsaken's ruthless war against Lordaeron's remaining living subjects."
   }
  ],
  "keywords": [
@@ -114,5 +114,6 @@
  ],
  "attribution": [
   "Battle of Hillsbrad (2)"
- ]
+ ],
+ "style": 1
 }

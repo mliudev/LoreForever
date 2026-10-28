@@ -17,16 +17,16 @@
   "wiki": "Raene's Cleansing (4)",
   "chain": []
  },
- "summary": "This quest represents a pivotal step in restoring Dartol's Rod of Transformation, an ancient night elf artifact being sought by Raene Wolfrunner. Guided by Shael'dryn at her moonwell, adventurers must venture north toward the foul border of Felwood to recover an iron shaft locked inside a hidden chest. The mission carries a tragic undertone, forcing the Alliance to confront corrupted ancients who guard the key.",
+ "summary": "In Ashenvale, Raene's Cleansing brings Dartol's Rod closer to being whole. Shael'dryn knows where its iron shaft lies, in a chest near the Felwood border. The search leads toward treants changed by corruption.",
  "sections": [
   {
    "title": "A Fragment Near the Blight",
-   "body": "Following the clues to repair Dartol's Rod, Raene directs the search to Shael'dryn, a knowledgeable keeper watching over a tranquil moonwell deep in Ashenvale. Shael'dryn knows the whereabouts of the rod's iron shaft, yet retrieving it requires confronting the creeping taint threatening the northern woods. The piece lies locked in an old chest tucked away in a quiet glade near the border of Felwood.",
+   "body": "Raene Wolfrunner sends you to Shael'dryn, a keeper who watches over a moonwell deep in Ashenvale. Shael'dryn knows where Dartol's Rod's iron shaft lies, but reaching it means facing the taint spreading through the northern woods. The shaft is locked in an old chest in a quiet glade near the Felwood border.",
    "spoiler": 0
   },
   {
    "title": "The Fallen Guardians",
-   "body": "Reaching the chest requires a wooden key, but the key itself has fallen into the hands of the forest's warped protectors. Along the mountain road running north toward Felwood, treants known as Crazed and Withered Ancients wander in agony. The corruption leaching southward from the demonic wastes has shattered their natural harmony, turning former stewards of the wild into hostile, tormented creatures that must be subdued to reclaim Dartol's relic.",
+   "body": "A wooden key is needed to open the chest, and Crazed and Withered Ancients hold it. These treants wander the mountain road north toward Felwood, their natural harmony shattered by corruption spreading south from the demonic wastes. Once guardians of the wild, they are now tormented and hostile, and the key lies with them.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who is the moonwell keeper",
     "shael'dryn lore"
    ],
-   "answer": "Shael'dryn is a dryad stationed at a secluded moonwell in Ashenvale, east of Astranaar and south of the Felwood road. She possesses deep knowledge of the forest's history and Dartol's ancient craft, offering quiet counsel to those trying to mend the rod."
+   "answer": "Shael'dryn is a dryad at a secluded moonwell in Ashenvale, east of Astranaar and south of the Felwood road. She knows the forest's history and Dartol's ancient craft, and offers counsel to those trying to mend the rod."
   },
   {
    "q": "Why are the treants corrupted?",
@@ -47,7 +47,7 @@
     "why are treants crazy",
     "crazed ancients lore"
    ],
-   "answer": "The treants dwell along the northern ridges adjoining Felwood. The pervasive demonic taint lingering from the Third War continues to bleed southward into Ashenvale, warping the trees, driving the ancient protectors insane, and twisting their natural connection to the land."
+   "answer": "Demonic taint from the Third War still spreads south from Felwood into Ashenvale. It warps the treants along the northern ridges, driving the ancient protectors mad and twisting their bond with the land."
   },
   {
    "q": "What is Dartol's Rod?",
@@ -56,7 +56,7 @@
     "rod of transformation",
     "what does the rod do"
    ],
-   "answer": "Dartol's Rod is an enchanted relic created by Dartol, a now-dead evil wizard. Once fully assembled and purified, it carries strong transformative magic capable of disguising the bearer as a furbolg, making it vital to Raene's plans for investigating the local tribes."
+   "answer": "Dartol's Rod is an enchanted relic made by Dartol, a now-dead evil wizard. Once assembled and purified, it can disguise its bearer as a furbolg, a power Raene needs to investigate the local tribes."
   },
   {
    "q": "Where is the hidden chest located?",
@@ -65,7 +65,7 @@
     "where is the iron shaft",
     "where is the chest"
    ],
-   "answer": "The worn chest containing the iron shaft rests in a small, quiet glade just west of the mountain road that climbs north out of Ashenvale toward the Felwood border."
+   "answer": "The worn chest holding the iron shaft rests in a small, quiet glade just west of the mountain road that climbs north from Ashenvale toward Felwood."
   },
   {
    "q": "Why does Shael'dryn mourn the treants?",
@@ -73,7 +73,7 @@
     "shaeldryn treants",
     "why is shaeldryn sad"
    ],
-   "answer": "Treants are timeless caretakers of the Kaldorei forests, revered as sacred spirits of nature. Watching them fall to madness and corruption without any known cure pains Shael'dryn deeply, as putting them down is an act of sorrow rather than malice."
+   "answer": "Shael'dryn mourns the treants because they are timeless caretakers of the Kaldorei forests, revered as sacred spirits of nature. Their madness and corruption have no known cure, so putting them down brings sorrow, not malice."
   },
   {
    "q": "How does this task fit into the wider cleansing chain?",
@@ -81,21 +81,21 @@
     "raene's cleansing chain",
     "raene questline"
    ],
-   "answer": "It serves as the stage where the physical components of Dartol's broken rod are assembled. Once the iron shaft and other pieces are gathered, the effort shifts toward purifying the rod's lingering magical power."
+   "answer": "Raene's Cleansing gathers the physical pieces of Dartol's broken rod. Once the iron shaft and other pieces are gathered, the work turns to purifying the rod's lingering magic."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "Putting down the Crazed Ancients is an agonizing duty, as these living trees were once beloved companions and forest wardens before the demonic blight poisoned their spirits."
+   "text": "Putting down the Crazed Ancients is agonizing. These living trees were beloved companions and forest wardens before the demonic blight poisoned their spirits."
   },
   {
    "target": "class:Druid",
-   "text": "Seeing the ancients driven to madness by Felwood's encroaching taint is a grim reminder of the Emerald Dream's struggle to heal the wounded surface world."
+   "text": "The ancients' madness, brought on by Felwood's encroaching taint, recalls the Emerald Dream's struggle to heal the wounded surface world."
   },
   {
    "target": "faction:Alliance",
-   "text": "Rebuilding Dartol's relic is essential to securing the road network in northern Ashenvale against rising hostilities from corrupted furbolgs and demonic forces."
+   "text": "Rebuilding Dartol's relic is essential to securing northern Ashenvale's roads against rising hostilities from corrupted furbolgs and demonic forces."
   }
  ],
  "keywords": [
@@ -119,5 +119,6 @@
  ],
  "attribution": [
   "Raene's Cleansing (4)"
- ]
+ ],
+ "style": 1
 }

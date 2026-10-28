@@ -10,11 +10,11 @@
    "quest:1221"
   ]
  },
- "summary": "A portable transport container provided by the goblin entrepreneur Mebok Mizzyrix in Ratchet. Pierced with air vents, it safely houses a trained Snufflenose Gopher used to track down subterranean culinary delicacies within the quilboar stronghold of Razorfen Kraul.",
+ "summary": "In Ratchet, Mebok Mizzyrix prepares a crate for a Snufflenose Gopher.",
  "sections": [
   {
    "title": "A Sniffer in a Box",
-   "body": "To acquire rare Blueleaf Tubers from the thorny depths of Razorfen Kraul, goblin merchant Mebok Mizzyrix relies on trained Snufflenose Gophers rather than blind digging. Because gophers cannot simply follow an adventurer across the dusty trails of the Barrens on foot, Mebok packs each critter into a well-ventilated wooden crate. Once brought into the humid, root-choked corridors of the quilboar lair, the crate is unlatched, allowing the beast within to follow its keen sense of smell toward buried tubers.",
+   "body": "Mebok Mizzyrix sends trained Snufflenose Gophers to find Blueleaf Tubers in Razorfen Kraul. The gophers cannot follow an adventurer across the Barrens on foot, so Mebok places each one in a wooden crate with air holes. Inside the quilboar stronghold, the crate is opened and the gopher follows its keen nose toward the buried tubers.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "crate contents",
     "what is inside"
    ],
-   "answer": "The crate contains a living Snufflenose Gopher trained by Mebok Mizzyrix. The holes drilled into the wood allow the creature to breathe during transit across the Barrens."
+   "answer": "A living Snufflenose Gopher trained by Mebok Mizzyrix rides inside. Holes in the crate let it breathe as it travels across the Barrens."
   },
   {
    "q": "Where do I get the Crate With Holes?",
@@ -35,7 +35,7 @@
     "where to find crate with holes",
     "mebok crate"
    ],
-   "answer": "You can pick up a crate directly from the pile sitting beside Mebok Mizzyrix in the port town of Ratchet, located along the eastern coast of the Barrens."
+   "answer": "You can take a crate from the pile beside Mebok Mizzyrix in Ratchet, the port town on the Barrens' eastern coast."
   },
   {
    "q": "How does the crate work inside Razorfen Kraul?",
@@ -44,7 +44,7 @@
     "using crate",
     "summon gopher"
    ],
-   "answer": "Opening the crate while inside Razorfen Kraul releases the Snufflenose Gopher. When directed with a Snufflenose Command Stick, the gopher uses its sharp nose to locate buried Blueleaf Tubers hidden beneath the earth."
+   "answer": "Open the crate inside Razorfen Kraul to release the Snufflenose Gopher. Direct it with a Snufflenose Command Stick, and it will use its nose to find Blueleaf Tubers buried underground."
   },
   {
    "q": "Why are Blueleaf Tubers so hard to find without the gopher?",
@@ -53,7 +53,7 @@
     "finding tubers",
     "tuber location"
    ],
-   "answer": "Blueleaf Tubers grow deep underground within the root networks of Razorfen Kraul. They are invisible to ordinary sight, but Snufflenose Gophers can scent them from fifty paces away."
+   "answer": "Blueleaf Tubers grow deep underground among Razorfen Kraul's roots, beyond ordinary sight. Snufflenose Gophers can smell them from fifty paces away."
   }
  ],
  "angles": [],
@@ -78,5 +78,6 @@
  "attribution": [
   "Crate With Holes",
   "Blueleaf Tubers"
- ]
+ ],
+ "style": 1
 }

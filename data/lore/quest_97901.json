@@ -1,0 +1,79 @@
+{
+ "key": "quest:97901",
+ "type": "quest",
+ "name": "Camping 101: Enchanting",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   97901
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "You can craft an Enchanted Lute, but townsfolk dislike camps in town centers. A campfire is needed to set up camp in the wilderness.",
+ "sections": [
+  {
+   "title": "A Campfire First",
+   "body": "You can make a fire the basis of your camp. Most cooks can teach you how, so seek a cooking trainer if you have not learned the basics.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What can I craft?",
+   "aliases": [
+    "enchanted lute",
+    "make a lute",
+    "camping lute"
+   ],
+   "answer": "You can craft an Enchanted Lute."
+  },
+  {
+   "q": "Where can I try it out?",
+   "aliases": [
+    "where to camp",
+    "camping spot",
+    "try the lute"
+   ],
+   "answer": "You need to head into the wilderness to try it out, since most folks dislike camps in the center of town."
+  },
+  {
+   "q": "Why do I need a campfire?",
+   "aliases": [
+    "need campfire",
+    "camp fire",
+    "camping fire"
+   ],
+   "answer": "A campfire is needed as the basis of your camp."
+  },
+  {
+   "q": "Who can teach me to make a fire?",
+   "aliases": [
+    "learn fire",
+    "cooking trainer",
+    "make campfire"
+   ],
+   "answer": "Most cooks can teach you to make a fire. Check with someone who trains cooks if you have not learned the basics."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Cooking",
+   "text": "As a cook, you can teach others to make the fire needed as the basis of a camp."
+  }
+ ],
+ "keywords": [
+  "campfire",
+  "camping",
+  "cooking",
+  "enchanted lute",
+  "fire",
+  "wilderness"
+ ],
+ "related": [],
+ "style": 1,
+ "attribution": [
+  "In-game quest text: Camping 101: Enchanting"
+ ]
+}

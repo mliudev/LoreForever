@@ -10,16 +10,16 @@
    "quest:447"
   ]
  },
- "summary": "Skittering Blood is an alchemical reagent harvested from the arachnids dwelling within the Skittering Dark of Silverpine Forest. It serves as a vital toxic ingredient for the Royal Apothecary Society's research into a New Plague designed to eradicate both Scourge and humanity.",
+ "summary": "Skittering Blood feeds the Royal Apothecary Society's work on a New Plague. The reagent comes from arachnids in the Skittering Dark of Silverpine Forest, where Forsaken alchemists seek a weapon against the Scourge and humanity.",
  "sections": [
   {
    "title": "A Toxic Distillate",
-   "body": "Harvested from Skitterweb lurkers, strikers, and their broodmother Krethis the Shadowspinner, this venomous hemolymph possesses virulent properties prized by Forsaken alchemists. Apothecary Renferrel discovered that when refined alongside toxins extracted from grizzled bear hearts, the blood forms the base of an exceptionally lethal elixir. The compounds within the fluid demonstrate severe contaminating agents, making it an ideal biological catalyst for the Apothecarium's chemical experiments.",
+   "body": "Skitterweb lurkers, strikers, and their broodmother Krethis the Shadowspinner yield a venomous blood. Apothecary Renferrel found that, refined with toxins from grizzled bear hearts, it forms the base of an exceptionally lethal elixir. Its contaminating agents make it useful in the Apothecarium's chemical experiments.",
    "spoiler": 0
   },
   {
    "title": "Fueling the New Plague",
-   "body": "Under the direction of Master Apothecary Faranell in the Undercity, the Royal Apothecary Society gathers reagents like Skittering Blood to engineer a devastating New Plague. Faced with overwhelming Scourge hordes and hostile human remnants, the Forsaken pursue biological warfare as an equalizer. Faranell analyzes the blood's toxic potency to devise a contagion potent enough to snuff out unlife and living flesh alike.",
+   "body": "In the Undercity, Master Apothecary Faranell directs the Royal Apothecary Society's search for a New Plague. The Forsaken face Scourge hordes and hostile human remnants, and turn to biological warfare to even the odds. Faranell studies the blood's toxic strength as he works toward a contagion that can destroy unlife and living flesh alike.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "why gather spider blood",
     "what does faranell do with skittering blood"
    ],
-   "answer": "The Royal Apothecary Society utilizes Skittering Blood to develop the Forsaken's New Plague. When blended with toxins derived from bear hearts, it produces a volatile mixture that Master Apothecary Faranell studies to eradicate both Scourge undead and living humans."
+   "answer": "The Royal Apothecary Society uses Skittering Blood in its work on the Forsaken's New Plague. Blended with toxins from bear hearts, it makes a volatile mixture that Master Apothecary Faranell studies for use against the Scourge and living humans."
   },
   {
    "q": "Where is Skittering Blood found?",
@@ -40,7 +40,7 @@
     "skittering blood location",
     "who drops skittering blood"
    ],
-   "answer": "It is gathered from the bodies of Skitterweb spiders\u2014including lurkers, strikers, and Krethis the Shadowspinner\u2014lurking in and around the Skittering Dark, a gloomy web-choked wood located in northwestern Silverpine Forest."
+   "answer": "Skittering Blood comes from Skitterweb lurkers, strikers, and Krethis the Shadowspinner in and around the Skittering Dark, a gloomy, web-choked wood in northwestern Silverpine Forest."
   },
   {
    "q": "Who requests these samples?",
@@ -48,7 +48,7 @@
     "who wants skittering blood",
     "quest giver for skittering blood"
    ],
-   "answer": "Apothecary Renferrel at the Sepulcher in Silverpine Forest commissions the collection of the blood, directing adventurers to deliver the harvested fluid straight to Master Apothecary Faranell in the Apothecarium of the Undercity."
+   "answer": "Apothecary Renferrel at the Sepulcher in Silverpine Forest asks for the blood. The gathered fluid is delivered to Master Apothecary Faranell in the Undercity's Apothecarium."
   },
   {
    "q": "Why do the Forsaken need venom from local beasts?",
@@ -56,17 +56,17 @@
     "why spider venom",
     "apothecary beast research"
    ],
-   "answer": "The Royal Apothecary Society constantly isolates natural toxins from Lordaeron's corrupted fauna. The inherent venom of the giant arachnids of Silverpine provides raw biological pathogens that can be concentrated and weaponized into synthetic plagues."
+   "answer": "The Royal Apothecary Society draws natural toxins from Lordaeron's corrupted fauna. Venom from Silverpine's giant arachnids provides raw biological pathogens that can be concentrated and weaponized into synthetic plagues."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "Contributing Skittering Blood directly aids Queen Sylvanas and the Royal Apothecary Society in engineering the ultimate biological weapon against Arthas and living humanity."
+   "text": "As an Undead, your contribution of Skittering Blood aids Queen Sylvanas and the Royal Apothecary Society as they develop a biological weapon against Arthas and living humanity."
   },
   {
    "target": "faction:Horde",
-   "text": "Forsaken apothecaries welcome the raw materials to secure Lordaeron, fighting their war against the Scourge with weapons of their own making."
+   "text": "As Horde, you help Forsaken apothecaries secure Lordaeron with weapons of their own making in their war against the Scourge."
   }
  ],
  "keywords": [
@@ -92,5 +92,6 @@
  "attribution": [
   "Skittering Blood",
   "A Recipe For Death"
- ]
+ ],
+ "style": 1
 }

@@ -10,11 +10,11 @@
    "quest:366"
   ]
  },
- "summary": "Gunther's Spellbook is a personal arcane tome tied to a mysterious mage dwelling in Tirisfal Glades. Imbued with an enchantment by Bethor Iceshard, the book serves as proof that other practitioners of magic have successfully broken free of the Lich King's control, though the true history between its owner and the Forsaken remains to be unraveled.",
+ "summary": "Bethor's enchantment now marks Gunther's Spellbook in Tirisfal Glades. The tome may show its owner that other mages have escaped the Lich King's control.",
  "sections": [
   {
    "title": "A Token of Old Kinship",
-   "body": "Before the Third War, Gunther Arcanus studied the arcane arts in Dalaran alongside Bethor Iceshard and Thule Ravenclaw as members of the Kirin Tor. When the Plague of Undeath swept Lordaeron, Gunther fell and was raised into undeath, yet eventually managed to wrest his own mind free of the Scourge. Believing himself isolated and perpetually hounded by the Lich King's agents, he remained deeply hostile to outsiders. After the tome was recovered, Bethor Iceshard layered an arcane enchantment over its pages\u2014a deliberate magical signature that allows Gunther to recognize Bethor's presence and realize he is not the only mage to possess free will.",
+   "body": "Gunther Arcanus once studied magic in Dalaran with Bethor Iceshard and Thule Ravenclaw as fellow Kirin Tor members. When the Plague of Undeath swept Lordaeron, Gunther fell and rose again as one of the undead. In time, he broke free of the Scourge's hold on his mind. Believing he stood alone and that the Lich King's agents hunted him, Gunther grew deeply hostile to outsiders. After the tome was recovered, Bethor laid an arcane enchantment across its pages. Its magic bears Bethor's signature, so Gunther can recognize his old companion's presence and learn that another mage has kept his own will.",
    "spoiler": 1
   }
  ],
@@ -26,7 +26,7 @@
     "gunther book owner",
     "spellbook owner"
    ],
-   "answer": "It belongs to Gunther Arcanus, a powerful undead mage residing on an isolated island on Brightwater Lake in Tirisfal Glades."
+   "answer": "Gunther Arcanus owns the spellbook and lives on an isolated island in Brightwater Lake, in Tirisfal Glades."
   },
   {
    "q": "Why did Bethor enchant the spellbook?",
@@ -35,7 +35,7 @@
     "bethor spell on book",
     "book magic"
    ],
-   "answer": "Bethor placed a personal spell on the tome to serve as unmistakable proof that he survives in Lordaeron and is free from the Lich King's control, hoping to convince Gunther to ally with the Forsaken."
+   "answer": "Bethor placed a personal spell on the tome to prove that he survives in Lordaeron and has escaped the Lich King's control. He hopes Gunther will believe him and ally with the Forsaken."
   },
   {
    "q": "Why is Gunther suspicious when the book is returned?",
@@ -44,7 +44,7 @@
     "gunther angry",
     "gunther hostile"
    ],
-   "answer": "Gunther assumes anyone approaching his retreat is an agent of the Scourge sent to re-enslave him, and initially believes the adventurer was merely the thief who took his tome."
+   "answer": "Gunther believes anyone who approaches his retreat may be a Scourge agent sent to enslave him again. At first, he thinks you are only the thief who took his tome."
   },
   {
    "q": "How did Gunther and Bethor know each other?",
@@ -53,17 +53,17 @@
     "kirin tor connection",
     "dalaran friends"
    ],
-   "answer": "Long ago, Gunther, Bethor Iceshard, and Thule Ravenclaw studied magic together as friends and Kirin Tor apprentices in the city of Dalaran before the Plague took them."
+   "answer": "Before the Plague took them, Gunther, Bethor Iceshard, and Thule Ravenclaw studied magic together in Dalaran as friends and Kirin Tor apprentices."
   }
  ],
  "angles": [
   {
    "target": "class:Mage",
-   "text": "For practitioners of the arcane, the tome represents the shared Dalaran roots connecting the Forsaken's current magical leadership to rogue practitioners in the wilderness."
+   "text": "As a mage, you share Dalaran's arcane roots with the Forsaken's magical leaders and with practitioners who roam the wilderness alone."
   },
   {
    "target": "race:Undead",
-   "text": "The enchanted book highlights the Forsaken's ongoing effort to recruit powerful independent undead who broke free of the Lich King on their own."
+   "text": "As an undead, you know the Forsaken seek powerful undead who have freed themselves from the Lich King's control."
   }
  ],
  "keywords": [
@@ -89,5 +89,6 @@
  "attribution": [
   "Gunther's Spellbook",
   "Return the Book"
- ]
+ ],
+ "style": 1
 }

@@ -17,16 +17,16 @@
   "wiki": "In Defense of the King's Lands (Classic 4)",
   "chain": []
  },
- "summary": "In Defense of the King's Lands culminates with a direct strike against the leadership of the trogg incursion in Loch Modan. Dwarven scouts trace the violent infestation to Chieftain Grawmug and his brute bodyguards deep within Stonesplinter Valley. Captain Rugelfuss tasks bold Alliance adventurers with slaying the chieftain to shatter trogg morale and reclaim the realm's southern borders.",
+ "summary": "Captain Rugelfuss sends you after the Stonesplinter troggs’ leader in Loch Modan. Scouts have traced their attacks to Chieftain Grawmug, deep in Stonesplinter Valley. His death may break the pack’s resolve and help reclaim the King’s Lands.",
  "sections": [
   {
    "title": "Decapitating the Swarm",
-   "body": "The persistent trogg menace across southern Loch Modan has proven to be more than random subterranean crawling. Captain Rugelfuss's scouts discovered that the Stonesplinter troggs are operating under the crude direction of a chieftain named Grawmug. Unlike typical scattered marauders, this pack moves with concerted aggression, threatening to overrun the King's Lands if left unchecked. By taking the fight into their lair and executing Grawmug alongside his personal bruisers, the Dwarven defenders hope to break the pack's cohesion and stem the tide.",
+   "body": "Captain Rugelfuss’s scouts have found that the Stonesplinter troggs follow a chieftain named Grawmug. Their attacks threaten the King’s Lands in southern Loch Modan. You are sent into their lair to kill Grawmug and his personal bruisers, in hopes of breaking the pack’s cohesion and stopping its advance.",
    "spoiler": 0
   },
   {
    "title": "Into Stonesplinter Lair",
-   "body": "Grawmug makes his stand within a shadowy cavern tucked into the southeastern cliffs of Stonesplinter Valley. Surrounded by his most trusted brutes, Gnasher and Brawler, the chieftain presents a dangerous challenge for lone soldiers. Striking down this inner circle forces the remaining troggs into disarray, buying the beleaguered Mountaineers the opportunity they desperately need to fortify the roads and drive the beasts back into the dark depths.",
+   "body": "Grawmug holds a cavern in the southeastern cliffs of Stonesplinter Valley, with his trusted brutes Gnasher and Brawler beside him. The three pose a danger to a lone soldier. Defeating them could throw the remaining troggs into disarray and give the beleaguered Mountaineers time to fortify the roads and drive the beasts back underground.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who is the trogg leader",
     "chieftain grawmug"
    ],
-   "answer": "Grawmug is the vicious trogg chieftain rallying the Stonesplinter troggs in southern Loch Modan. Dwarven scouts identified him as the mastermind behind the organized assaults troubling the valley, keeping two formidable bodyguards, Gnasher and Brawler, at his side at all times."
+   "answer": "Grawmug is the trogg chieftain leading the Stonesplinter troggs in southern Loch Modan. Dwarven scouts traced the organized assaults troubling the valley to him, and he keeps Gnasher and Brawler as bodyguards."
   },
   {
    "q": "Where are Grawmug and his guards located?",
@@ -47,7 +47,7 @@
     "where is grawmug",
     "where to find grawmug"
    ],
-   "answer": "Grawmug, Gnasher, and Brawler are entrenched inside a cave on the southeastern edge of Stonesplinter Valley in Loch Modan. They dwell deep in the cavern recesses together."
+   "answer": "Grawmug, Gnasher, and Brawler are in a cave on the southeastern edge of Stonesplinter Valley in Loch Modan. They dwell deep in its recesses."
   },
   {
    "q": "Who is Captain Rugelfuss?",
@@ -56,7 +56,7 @@
     "captain rugelfuss role",
     "who gives defense of the kings lands"
    ],
-   "answer": "Captain Rugelfuss is the dwarven officer stationed at the Southern Guard Tower in Loch Modan. He oversees the defensive campaigns against the encroaching trogg incursions and issues orders to protect the territorial integrity of the King's Lands."
+   "answer": "Captain Rugelfuss is the dwarven officer stationed at the Southern Guard Tower in Loch Modan. He oversees the defense against the trogg incursions and gives orders to protect the King’s Lands."
   },
   {
    "q": "Why must Grawmug's guards be slain as well?",
@@ -65,7 +65,7 @@
     "gnasher and brawler",
     "grawmug bodyguards"
    ],
-   "answer": "Gnasher and Brawler are Grawmug's personal enforcers who never leave his flank. To eliminate the chieftain and definitively break the leadership of the trogg offensive, both heavy protectors must be defeated alongside their leader."
+   "answer": "Gnasher and Brawler are Grawmug’s personal enforcers and stay at his side. They must be defeated with their leader to break the troggs’ command."
   },
   {
    "q": "What happens after Grawmug is eliminated?",
@@ -74,7 +74,7 @@
     "troggs after grawmug dies",
     "did we save loch modan"
    ],
-   "answer": "Slaying Grawmug brings vital relief to Loch Modan. Without their chieftain to coordinate their raids, the Stonesplinter troggs lose organization, allowing the local dwarven militia to stand a fighting chance at holding the borders and pushing the beasts underground."
+   "answer": "Grawmug’s death could bring relief to Loch Modan. Without him to coordinate their raids, the Stonesplinter troggs may lose their organization, giving the local dwarven militia a better chance to hold the borders and push the beasts underground."
   },
   {
    "q": "Why are troggs invading Loch Modan?",
@@ -83,17 +83,17 @@
     "trogg invasion loch modan",
     "stonesplinter trogg origin"
    ],
-   "answer": "Troggs have long festered deep within subterranean chambers beneath Khaz Modan. Excavations and unsealed caverns have allowed them to boil to the surface, where they aggressively displace settlements and attack travelers on the King's roads."
+   "answer": "Troggs have long lived in subterranean chambers beneath Khaz Modan. Excavations and unsealed caverns have let them reach the surface, where they displace settlements and attack travelers on the King’s roads."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "For dwarves, repelling troggs from Khaz Modan's ancient soil is a matter of homeland defense and honor, ensuring the mountain holds remain unblemished by subterranean scourges."
+   "text": "As a dwarf, driving troggs from Khaz Modan’s ancient soil defends your homeland and honors it, keeping the mountain holds clear of subterranean scourges."
   },
   {
    "target": "faction:Alliance",
-   "text": "Defending Loch Modan preserves the vital overland connection between Ironforge and the eastern frontiers, keeping supply lines secure for all Alliance forces."
+   "text": "As an Alliance member, defending Loch Modan helps preserve the overland connection between Ironforge and the eastern frontiers and keep supply lines secure for Alliance forces."
   }
  ],
  "keywords": [
@@ -115,5 +115,6 @@
  ],
  "attribution": [
   "In Defense of the King's Lands (Classic 4)"
- ]
+ ],
+ "style": 1
 }

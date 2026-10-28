@@ -17,16 +17,16 @@
   "wiki": "Zombie Juice (Classic)",
   "chain": []
  },
- "summary": "Zombie Juice is an errand run on behalf of Abercrombie, the peculiar hermit dwelling in the haunted wilds of Duskwood. Claiming to suffer from the oppressive midnight chill, he dispatches travelers to Darkshire's tavern to secure an unusually potent concoction.",
+ "summary": "Abercrombie sends travelers from his lonely shack in Duskwood to fetch Zombie Juice in Darkshire. He says the chill of the night leaves him cold.",
  "sections": [
   {
    "title": "A Chilly Request",
-   "body": "Dwelling alone among the horrors of the shadowed woods, the hermit Abercrombie frequently sends sympathetic travelers on strange errands. Claiming that the creeping dusk drains his warmth and vitality, he asks that an adventurer make the trek east to Darkshire. His target is Tavernkeep Smitts of the Scarlet Raven Tavern, from whom he seeks a bottle of a potent, ominously named brew known as Zombie Juice to put fire back in his veins.",
+   "body": "Abercrombie lives alone among the horrors of Duskwood's shadowed woods and often sends sympathetic travelers on strange errands. He says the creeping dusk drains his warmth and vitality, then asks you to travel east to Darkshire. At the Scarlet Raven Tavern, Tavernkeep Smitts sells the potent drink Abercrombie seeks. Its ominous name is Zombie Juice, and Abercrombie says it will put fire back in his veins.",
    "spoiler": 0
   },
   {
    "title": "At the Scarlet Raven",
-   "body": "Darkshire's tavern sees plenty of weary guards and frightened townsfolk, but requests for Zombie Juice are rare even for Tavernkeep Smitts. The drink carries a reputation for being dangerously strong. While Smitts recognizes the vintage, Abercrombie's thirst for such a morbid concoction raises quiet eyebrows in a region already besieged by the restless dead.",
+   "body": "Tavernkeep Smitts serves weary guards and frightened townsfolk at Darkshire's tavern, but few ask for Zombie Juice. The drink is known for its dangerous strength, and Smitts recognizes the vintage. Abercrombie's taste for such a morbid brew raises quiet eyebrows in a region besieged by the restless dead.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "what is the liquor",
     "zombie juice lore"
    ],
-   "answer": "It is an exceptionally strong, morbidly named liquor sold by Tavernkeep Smitts at the Scarlet Raven Tavern in Darkshire. It is rarely requested by ordinary patrons."
+   "answer": "Zombie Juice is an exceptionally strong liquor with a morbid name, sold by Tavernkeep Smitts at the Scarlet Raven Tavern in Darkshire. Ordinary patrons rarely ask for it."
   },
   {
    "q": "Who sends you to fetch Zombie Juice?",
@@ -47,7 +47,7 @@
     "abercrombie quest drink",
     "hermit drink request"
    ],
-   "answer": "The hermit Abercrombie, who lives isolated in a shack in western Duskwood, asks travelers to fetch it to help warm his cold bones."
+   "answer": "The hermit Abercrombie sends you to fetch Zombie Juice. He lives alone in a shack in western Duskwood and says the drink will warm his cold bones."
   },
   {
    "q": "Where do you turn in the quest?",
@@ -56,7 +56,7 @@
     "turn in zombie juice",
     "smitts location"
    ],
-   "answer": "You speak with Tavernkeep Smitts inside the Scarlet Raven Tavern, the central inn of Darkshire in eastern Duskwood."
+   "answer": "You speak with Tavernkeep Smitts inside the Scarlet Raven Tavern, Darkshire's central inn in eastern Duskwood."
   },
   {
    "q": "Why does Abercrombie want it?",
@@ -65,7 +65,7 @@
     "abercrombie cold",
     "why does he drink zombie juice"
    ],
-   "answer": "Abercrombie claims the gloomy, shadowed nights of Duskwood leave him shivering and that he needs the fiery drink to warm his blood."
+   "answer": "Abercrombie says Duskwood's gloomy, shadowed nights leave him shivering, and he needs the fiery drink to warm his blood."
   },
   {
    "q": "Is Tavernkeep Smitts surprised by the order?",
@@ -74,7 +74,7 @@
     "does smitts have zombie juice",
     "smitts dialogue"
    ],
-   "answer": "Yes. Smitts notes that Zombie Juice is extraordinarily potent stuff and mentions that he does not usually receive requests for it from his regular clientele."
+   "answer": "Yes. Smitts says Zombie Juice is extraordinarily potent and that his regular customers rarely ask for it."
   },
   {
    "q": "Does this quest involve fighting any monsters?",
@@ -83,13 +83,13 @@
     "is zombie juice dangerous",
     "zombie juice mobs"
    ],
-   "answer": "No. The errand itself simply requires traveling along the road from Abercrombie's secluded hut to Darkshire and speaking with Tavernkeep Smitts, though the roads of Duskwood are always fraught with wandering beasts and undead."
+   "answer": "No. You travel along the road from Abercrombie's secluded hut to Darkshire and speak with Tavernkeep Smitts. Duskwood's roads are also fraught with wandering beasts and undead."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Alliance adventurers working to support the embattled outpost of Darkshire often find themselves serving as couriers for the eccentric recluses sheltering along Duskwood's perilous roads."
+   "text": "As an Alliance adventurer, you may carry messages for the eccentric recluses along Duskwood's perilous roads while supporting Darkshire's embattled outpost."
   }
  ],
  "keywords": [
@@ -110,5 +110,6 @@
  ],
  "attribution": [
   "Zombie Juice (Classic)"
- ]
+ ],
+ "style": 1
 }

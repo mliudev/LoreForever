@@ -17,16 +17,16 @@
   "wiki": "The Islander",
   "chain": []
  },
- "summary": "The Islander is an invitation extended by veteran warrior trainers across Azeroth to those who have proven their basic mettle in battle. It directs rising fighters to Fray Island off the Merchant Coast, where an insular brotherhood of warriors tests their peers in raw martial combat. Meeting the chief warrior Klannoc Macleod marks a pivotal step toward mastering advanced combat disciplines.",
+ "summary": "Warrior trainers across Azeroth send proven fighters to Fray Island for a test among their peers. The island lies off the Merchant Coast, where chief warrior Klannoc Macleod awaits those who seek the next step in their training.",
  "sections": [
   {
    "title": "A Gathering of Blades",
-   "body": "Warrior trainers in capital cities across both the Alliance and the Horde recognize when a student has outgrown basic drills. Rather than formal rank or political loyalty, martial progression demands that combatants measure themselves against true peers. The journey sends warriors away from civilized sparring yards toward a rugged isle isolated in the Great Sea.",
+   "body": "Warrior trainers in Alliance and Horde capitals send students who have outgrown basic drills to test themselves against their peers. A fighter's progress comes through combat, not rank or loyalty. The journey leads away from civilized sparring yards to a rugged isle in the Great Sea.",
    "spoiler": 0
   },
   {
    "title": "Fray Island and the Merchant Coast",
-   "body": "Fray Island sits east off the Merchant Coast, just south of the goblin port of Ratchet in the Barrens. It is reached by swimming the waters over submerged sandbar shallows. On this rock, political ties dissolve in favor of martial fraternity; fighters gather under the gaze of Klannoc Macleod, the chief warrior on the isle, awaiting whatever brutal trial he deems necessary.",
+   "body": "Fray Island lies east of the Merchant Coast, just south of Ratchet in the Barrens. You can reach it by swimming across waters that pass over submerged sandbar shallows. Political ties matter little on the island, where fighters gather before Klannoc Macleod, its chief warrior, and await the trial he chooses.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "fray island lore",
     "fray isle"
    ],
-   "answer": "Fray Island is a rocky outcrop located off the Merchant Coast of the Barrens, south of Ratchet. It serves as an isolated proving ground where warriors from across Azeroth gather to hone their craft, spar, and face grueling combat trials away from civil authority."
+   "answer": "Fray Island is a rocky outcrop off the Merchant Coast of the Barrens, south of Ratchet. Warriors from across Azeroth gather there to hone their craft, spar, and face combat trials away from civil authority."
   },
   {
    "q": "Who is Klannoc Macleod?",
@@ -47,7 +47,7 @@
     "klannoc macleod role",
     "macleod warrior"
    ],
-   "answer": "Klannoc Macleod is the chief warrior presiding over Fray Island. He assesses hopeful contenders who make the journey to the island, deciding whether their spirit and skill are worthy of being guided further along the warrior's path."
+   "answer": "Klannoc Macleod is the chief warrior on Fray Island. He assesses those who make the journey and decides whether their spirit and skill merit further guidance along the warrior's path."
   },
   {
    "q": "Why do trainers from both Horde and Alliance send warriors here?",
@@ -56,7 +56,7 @@
     "is fray island neutral",
     "horde and alliance fray island"
    ],
-   "answer": "True martial mastery transcends faction boundaries. Master trainers in Orgrimmar, Stormwind, Thunder Bluff, and Ironforge recognize that raw martial skill must be tested in unbridled combat, and Fray Island exists as an unspoken proving ground for any warrior capable of surviving its challenges."
+   "answer": "Trainers from both the Horde and Alliance send warriors to test their martial skill in combat. Trainers in Orgrimmar, Stormwind, Thunder Bluff, and Ironforge recognize Fray Island as a proving ground for warriors able to survive its challenges."
   },
   {
    "q": "How do you reach Fray Island from the mainland?",
@@ -65,7 +65,7 @@
     "fray island directions",
     "finding fray island"
    ],
-   "answer": "Travel south along the Merchant Coast from the port town of Ratchet in the Barrens. From the shoreline, navigate the sandbar shallows and swim east across the open water toward the island."
+   "answer": "Travel south along the Merchant Coast from Ratchet in the Barrens. From shore, swim east across the sandbar shallows toward Fray Island."
   },
   {
    "q": "What happens after meeting Klannoc Macleod?",
@@ -73,21 +73,21 @@
     "what comes after the islander",
     "klannoc macleod next quest"
    ],
-   "answer": "Once Klannoc confirms you have made the journey and evaluates your resolve, he invites you to participate in The Affray\u2014a gauntlet designed to test your combat stamina against waves of challengers."
+   "answer": "After Klannoc Macleod confirms your journey and weighs your resolve, he invites you into The Affray, a gauntlet that tests your stamina against waves of challengers."
   }
  ],
  "angles": [
   {
    "target": "class:Warrior",
-   "text": "This rite of passage is exclusive to warriors, marking the crucial transition from learning basic maneuvers to unlocking the full ferocity and tactical versatility of veteran stances."
+   "text": "As a warrior, you take this rite of passage from basic maneuvers toward the full ferocity and tactical versatility of veteran stances."
   },
   {
    "target": "faction:Horde",
-   "text": "Starting from Thunder Bluff or Orgrimmar, Horde warriors journey down to the Barrens to prove their strength beyond the watchful eyes of their chieftains."
+   "text": "As a Horde warrior, you travel from Thunder Bluff or Orgrimmar to the Barrens to prove your strength beyond your chieftains' watchful eyes."
   },
   {
    "target": "faction:Alliance",
-   "text": "Alliance warriors must journey across the sea or through Kalimdor's wilderness to reach Fray Island, demonstrating martial devotion in a rugged frontier far from human and dwarven strongholds."
+   "text": "As an Alliance warrior, you cross the sea or Kalimdor's wilderness to reach Fray Island, showing your martial devotion in a rugged frontier far from human and dwarven strongholds."
   }
  ],
  "keywords": [
@@ -111,5 +111,6 @@
  ],
  "attribution": [
   "The Islander"
- ]
+ ],
+ "style": 1
 }

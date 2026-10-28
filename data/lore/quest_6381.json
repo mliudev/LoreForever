@@ -20,16 +20,16 @@
    "New Life"
   ]
  },
- "summary": "New Life is a restorative Horde quest offered by Tammra Windfield in Sun Rock Retreat. Following the collection of enchanted seeds, the player journeys west into the ashen ruins of the Charred Vale to sow them into fertile earth. This ritual effort aims to spark the land's recovery amidst hostile elementals and harpies.",
+ "summary": "Tammra Windfield sends travelers west from Sun Rock Retreat to plant Gaea seeds in the Charred Vale. She hopes the scorched land can begin to heal.",
  "sections": [
   {
    "title": "Healing the Scorched Earth",
-   "body": "The Charred Vale stands as a tragic testament to recent devastation, choked by soot, furious fire elementals, and scavenging harpies. Tammra Windfield refuses to let the region surrender to ruin. Relying on the ancient resilience of the Earth Mother, she dispatches travelers into the heart of the blackened valley to seek out Gaea Dirt Mounds\u2014patches of fertile topsoil that survived the inferno.",
+   "body": "Tammra Windfield sends you into the Charred Vale, where soot, fire elementals, and harpies haunt the ruined ground. She trusts in the Earth Mother's resilience and asks you to find Gaea Dirt Mounds, where fertile soil survived the fire.",
    "spoiler": 0
   },
   {
    "title": "A Foothold for the Future",
-   "body": "The enchanted Gaea seeds planted in the scorched soil are bred to withstand lingering elemental corruption. By taking root, they begin weaving a vital ecological anchor that can resist decay and invite flora back into the valley. Tammra envisions a long-term healing process: as living roots slowly reclaim the basin, the agitated fire spirits will settle, the harpies will lose their desolate roost, and the Venture Company's rapacious logging operations will eventually be driven out.",
+   "body": "Gaea seeds can take root despite the lingering elemental corruption. Their roots form an ecological anchor against decay and invite plants back into the valley. Tammra hopes that, as life reclaims the basin, the fire spirits will settle, the harpies will lose their desolate roost, and the Venture Company's logging will eventually be driven out.",
    "spoiler": 0
   }
  ],
@@ -41,7 +41,7 @@
     "new life purpose",
     "what do gaea seeds do"
    ],
-   "answer": "The enchanted Gaea seeds are designed to take root in the scarred earth of the Charred Vale. They resist corruption and establish an initial foothold of vibrant plant life, setting the foundation for the forest to gradually regrow and heal."
+   "answer": "The enchanted Gaea seeds can take root in the Charred Vale's scarred earth and resist corruption. They give plant life a foothold from which the forest can gradually regrow and heal."
   },
   {
    "q": "Where do I need to go to plant the seeds?",
@@ -50,7 +50,7 @@
     "where do i plant gaea seeds",
     "seed locations"
    ],
-   "answer": "You must travel west from Sun Rock Retreat into the Charred Vale. The seeds are planted into small Gaea Dirt Mounds scattered across the blackened basin."
+   "answer": "Travel west from Sun Rock Retreat into the Charred Vale, where Gaea Dirt Mounds are scattered across the blackened basin."
   },
   {
    "q": "Who is Tammra Windfield?",
@@ -59,7 +59,7 @@
     "tammra quest giver",
     "tammra windfield lore"
    ],
-   "answer": "Tammra Windfield is a tauren naturalist residing in Sun Rock Retreat within the Stonetalon Mountains. She is dedicated to soothing the wounded spirits of the land and rehabilitating areas ravaged by elemental fury and industrial greed."
+   "answer": "Tammra Windfield is a tauren naturalist who lives in Sun Rock Retreat in the Stonetalon Mountains. She works to soothe the land's wounded spirits and restore places ravaged by elemental fury and industrial greed."
   },
   {
    "q": "What threats roam the Charred Vale while planting?",
@@ -68,7 +68,7 @@
     "what attacks in charred vale",
     "dangers in charred vale"
    ],
-   "answer": "The Charred Vale is inhabited by rogue fire elementals stirred up by the recent devastation, as well as aggressive Bloodfury harpies that nest amidst the burnt trees."
+   "answer": "Rogue fire elementals stirred by the devastation and aggressive Bloodfury harpies roam the Charred Vale. The harpies nest among the burnt trees."
   },
   {
    "q": "What quest comes before New Life?",
@@ -77,7 +77,7 @@
     "cycle of rebirth quest",
     "what leads to new life"
    ],
-   "answer": "New Life directly follows the quest Cycle of Rebirth, in which you help Tammra collect the vital materials required to prepare the enchanted Gaea seeds."
+   "answer": "Cycle of Rebirth comes before New Life. You helped Tammra gather the materials needed to prepare the enchanted Gaea seeds."
   },
   {
    "q": "What does Tammra hope will happen to Stonetalon long term?",
@@ -86,25 +86,25 @@
     "tammra goal",
     "what happens to charred vale"
    ],
-   "answer": "Tammra hopes the regrowing land will eventually calm the enraged fire elementals, crowd out the predatory harpies, and outlast the logging operations of the Venture Company, restoring the mountains to a lush and peaceful forest."
+   "answer": "Tammra hopes regrowth will calm the enraged fire elementals, drive away the predatory harpies, and outlast the Venture Company's logging operations. She wants the mountains restored to a lush, peaceful forest."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "For the tauren, sowing enchanted seeds into scarred soil is an act of spiritual communion with the Earth Mother, fulfilling their sacred duty to heal wounded lands."
+   "text": "For tauren, planting enchanted seeds in scarred soil joins them in communion with the Earth Mother and fulfills their sacred duty to heal wounded lands."
   },
   {
    "target": "class:Druid",
-   "text": "Druids share a close kinship with Tammra's mission, viewing the renewal of the Charred Vale as an essential restoration of nature's delicate balance."
+   "text": "As a druid, you share Tammra's work to renew the Charred Vale and restore nature's delicate balance."
   },
   {
    "target": "class:Shaman",
-   "text": "Shaman understand that the agitated fire elementals roaming the Vale will never find peace until the battered land itself begins to heal."
+   "text": "As a shaman, you know the agitated fire elementals will never find peace until the battered land begins to heal."
   },
   {
    "target": "profession:Herbalism",
-   "text": "Herbalists appreciate the profound power of resilient seeds to bring forth thriving vegetation out of completely deadened soil."
+   "text": "As an herbalist, you appreciate the seeds' power to bring thriving vegetation from deadened soil."
   }
  ],
  "keywords": [
@@ -129,5 +129,6 @@
  ],
  "attribution": [
   "New Life"
- ]
+ ],
+ "style": 1
 }

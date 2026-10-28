@@ -17,16 +17,16 @@
   "wiki": "Redridge Goulash (quest)",
   "chain": []
  },
- "summary": "Redridge Goulash is a local culinary tradition kept alive by Chef Breanna in the lakeside settlement of Lakeshire. After exhausting her pantry to feed the defending Stormwind garrison during the recent Blackrock orc incursions, Breanna turns to traveling adventurers to replenish her supply of hearty mountain ingredients.",
+ "summary": "In Lakeshire, Redridge Goulash helps feed a town under strain. Chef Breanna fed the active Stormwind garrison during the recent Blackrock orc uprising, emptying her pantry and leaving her to seek hearty ingredients from the mountains.",
  "sections": [
   {
    "title": "A Bare Mountain Pantry",
-   "body": "Lakeshire sits perpetually under siege from Blackrock orcs, gnolls, and ferocious wild beasts. When the recent orc uprising broke out along the ridges, Chef Breanna shouldered the task of feeding the entire brigade of Stormwind troops stationed in town. Sustaining an active military garrison rapidly cleared out her cupboards, leaving the town cook with plenty of appetite to satisfy but empty larders.",
+   "body": "Lakeshire remains under siege from Blackrock orcs, gnolls, and ferocious wild beasts. When the recent orc uprising began along the ridges, Chef Breanna took on feeding the entire brigade of Stormwind troops stationed in town. Keeping the active garrison fed quickly emptied her cupboards, though the town still had plenty of hungry mouths.",
    "spoiler": 0
   },
   {
    "title": "Mountain Bounty",
-   "body": "With her cupboard bare, Chef Breanna turns to the dangerous wilderness outside Lakeshire's gates. The signature goulash demands a rugged blend of local meats: tough cuts from mountain condors, seasoned snouts from the formidable Great Goretusks, and crisp leg meat harvested from giant tarantulas prowling the hills.",
+   "body": "With her cupboards bare, Chef Breanna looks to the dangerous wilderness beyond Lakeshire's gates. Her signature goulash calls for tough mountain condor meat, seasoned snouts from formidable Great Goretusks, and crisp leg meat from giant tarantulas that prowl the hills.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "breanna pantry",
     "why no food"
    ],
-   "answer": "During the recent Blackrock orc uprising, Breanna had to feed the entire brigade of Stormwind troops deployed to defend Lakeshire, completely emptying her cupboards."
+   "answer": "During the recent Blackrock orc uprising, Chef Breanna fed the entire brigade of Stormwind troops stationed to defend Lakeshire. Keeping the active garrison supplied emptied her cupboards."
   },
   {
    "q": "What ingredients are used to make Redridge Goulash?",
@@ -47,7 +47,7 @@
     "what is in redridge goulash",
     "goulash meat"
    ],
-   "answer": "Authentic Redridge Goulash requires five pieces of Tough Condor Meat, five Great Goretusk Snouts, and five helpings of Crisp Spider Meat, all harvested from creatures native to the surrounding mountains."
+   "answer": "Redridge Goulash calls for five pieces of Tough Condor Meat, five Great Goretusk Snouts, and five helpings of Crisp Spider Meat, gathered from creatures in the surrounding mountains."
   },
   {
    "q": "Where is Chef Breanna located?",
@@ -56,7 +56,7 @@
     "where is chef breanna",
     "lakeshire chef"
    ],
-   "answer": "Chef Breanna can be found tending her hearth and cooking kettles in the town of Lakeshire, nestled along the northern shores of Lake Everstill in the Redridge Mountains."
+   "answer": "Chef Breanna tends her hearth and cooking kettles in Lakeshire, along the northern shores of Lake Everstill in the Redridge Mountains."
   },
   {
    "q": "Why doesn't Lakeshire just import food from Stormwind City?",
@@ -65,7 +65,7 @@
     "why not trade with stormwind",
     "lakeshire food shortage"
    ],
-   "answer": "With orcs, Blackrock raiders, and gnolls choking the mountain passes and Stormwind's resources stretched thin, Lakeshire must frequently rely on local wildlife and visiting adventurers to stay fed."
+   "answer": "Orcs, Blackrock raiders, and gnolls choke the mountain passes, while Stormwind's resources are stretched thin. Lakeshire often depends on local wildlife and visiting adventurers for food."
   },
   {
    "q": "Is Redridge Goulash considered a delicacy?",
@@ -74,7 +74,7 @@
     "tasty goulash",
     "redridge delicacy"
    ],
-   "answer": "While the combination of spider meat, boar snouts, and leathery condor flesh sounds harsh to outsiders, Chef Breanna and the frontier folk of Lakeshire consider the finished dish a hearty mountain delicacy."
+   "answer": "Chef Breanna and Lakeshire's frontier folk consider the finished dish a hearty mountain delicacy, though its spider meat, boar snouts, and leathery condor flesh may sound harsh to outsiders."
   },
   {
    "q": "What brigade did Breanna have to feed?",
@@ -83,17 +83,17 @@
     "who defended lakeshire",
     "troops in lakeshire"
    ],
-   "answer": "Breanna cooked for the Stormwind soldiers stationed in Lakeshire to push back against the Blackrock orc forces pressing down from the northern ridges."
+   "answer": "Chef Breanna cooked for the Stormwind soldiers stationed in Lakeshire to push back the Blackrock orc forces pressing down from the northern ridges."
   }
  ],
  "angles": [
   {
    "target": "profession:Cooking",
-   "text": "For culinarians exploring the Eastern Kingdoms, Chef Breanna's goulash demonstrates how resourceful frontier cooks transform fierce mountain beasts into sustaining, savory fare."
+   "text": "As a cook exploring the Eastern Kingdoms, you can see how Chef Breanna turns fierce mountain beasts into sustaining, savory fare."
   },
   {
    "target": "faction:Alliance",
-   "text": "The meager state of Lakeshire's stores is a stark reminder of the toll the Blackrock orc invasion has taken on local Alliance garrisons and civilian infrastructure."
+   "text": "As an Alliance member, you can see how the Blackrock orc invasion has strained Lakeshire's stores, garrisons, and civilian life."
   }
  ],
  "keywords": [
@@ -114,5 +114,6 @@
  ],
  "attribution": [
   "Redridge Goulash (quest)"
- ]
+ ],
+ "style": 1
 }

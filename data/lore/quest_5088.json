@@ -17,16 +17,16 @@
   "wiki": "Arikara (quest)",
   "chain": []
  },
- "summary": "\"Arikara\" is the culmination of an ominous task given by Magatha Grimtotem in Thunder Bluff. Warning that an ancient wind serpent may be stalking High Chieftain Cairne Bloodhoof, the elder shaman sends Horde adventurers to summon and slay the beast upon the burial spires of Thousand Needles.",
+ "summary": "Magatha Grimtotem sends a warning from Thunder Bluff: Arikara may be hunting High Chieftain Cairne Bloodhoof. She sends Horde adventurers to summon and slay the ancient wind serpent on the burial spires of Thousand Needles.",
  "sections": [
   {
    "title": "A Beast in the Smoke",
-   "body": "After securing refined Incendia powder, Magatha Grimtotem enchants the reagent to serve as a summoning catalyst. She warns that ancient tauren traditions have shifted too rapidly under the new Horde alliance, provoking the vengeance of Arikara, a ferocious wind serpent spirit. Magatha directs heroes southward into the windswept canyon of Thousand Needles, instructing them to throw the powder onto a ritual pyre situated among the elevated burial sites of Darkcloud Pinnacle.",
+   "body": "Magatha Grimtotem enchants the refined Incendia powder, a reagent, to call Arikara. She warns that ancient tauren traditions have changed too quickly under the new Horde alliance, stirring the vengeance of the ferocious wind serpent spirit. Magatha sends you south to the canyon of Thousand Needles. She tells you to cast the powder onto a ritual pyre among the elevated burial sites of Darkcloud Pinnacle.",
    "spoiler": 0
   },
   {
    "title": "Doubt at Whitereach Post",
-   "body": "Upon slaying the serpent on the burial needle and claiming its skin, adventurers deliver the remains to Motega Firemane at Whitereach Post. Rather than relief, Motega expresses genuine bewilderment. He finds it unbelievable that a primal spirit like Arikara would harbor malice toward Cairne Bloodhoof. Yet, unwilling to openly question Magatha's status as the tribe's most powerful shaman, Motega sets aside his suspicions and rewards the champion for protecting the chieftain.",
+   "body": "After you slay Arikara on the burial needle and claim its skin, you bring the remains to Motega Firemane at Whitereach Post. Motega is bewildered, finding it hard to believe that a primal spirit would bear malice toward Cairne Bloodhoof. He sets his doubts aside rather than openly question Magatha, the tribe's most powerful shaman, and rewards you for protecting the chieftain.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "arikara lore",
     "who is the serpent"
    ],
-   "answer": "Arikara is a powerful wind serpent summoned atop Darkcloud Pinnacle in Thousand Needles. Magatha Grimtotem claims the beast was stirred to vengeance by modern deviations from traditional tauren lore."
+   "answer": "Arikara is a powerful wind serpent summoned atop Darkcloud Pinnacle in Thousand Needles. Magatha says modern departures from traditional tauren lore stirred the beast to vengeance."
   },
   {
    "q": "Why does Magatha Grimtotem want Arikara dead?",
@@ -47,7 +47,7 @@
     "why kill arikara",
     "why summon arikara"
    ],
-   "answer": "Magatha claims Arikara is hunting Cairne Bloodhoof, the High Chieftain of the tauren. She sends you to destroy the serpent using enchanted Incendia powder before it can threaten Thunder Bluff's leader."
+   "answer": "Magatha says Arikara is hunting Cairne Bloodhoof, the High Chieftain of the tauren. She sends you to destroy the serpent with enchanted Incendia powder before it can threaten Thunder Bluff's leader."
   },
   {
    "q": "Where is the sacred fire located to summon her?",
@@ -56,7 +56,7 @@
     "where to summon arikara",
     "sacred fire of life location"
    ],
-   "answer": "The unlit sacred fire of life is found atop an isolated spire within Darkcloud Pinnacle in Thousand Needles, an elevated mesa used by the local tauren to bury their dead."
+   "answer": "The unlit sacred fire of life stands atop an isolated spire within Darkcloud Pinnacle in Thousand Needles, where local tauren bury their dead."
   },
   {
    "q": "Why is Motega Firemane skeptical of the hunt?",
@@ -65,7 +65,7 @@
     "why is motega confused",
     "cairne arikara make sense"
    ],
-   "answer": "Magatha fears Arikara may be stalking Cairne and asks you to bring proof of the hunt to Motega. Motega's response is revealed when you deliver the remains."
+   "answer": "Magatha fears Arikara may be stalking Cairne and asks you to bring proof of the hunt to Motega. Motega's response comes when you deliver the remains."
   },
   {
    "q": "Is Cairne actually in danger from Arikara?",
@@ -74,7 +74,7 @@
     "did arikara want cairne",
     "magatha lying"
    ],
-   "answer": "Magatha says she fears Arikara may be stalking Cairne. The quest asks you to act on her warning; it does not establish the danger independently."
+   "answer": "Magatha says she fears Arikara may be stalking Cairne. Her warning calls for action, but does not establish the danger independently."
   },
   {
    "q": "What is the previous quest in this chain?",
@@ -83,21 +83,21 @@
     "quest before arikara",
     "sacred fire quest"
    ],
-   "answer": "This quest directly follows \"Sacred Fire,\" in which adventurers gather Incendia Agave from the Boiling Pool in Thousand Needles for Magatha Grimtotem to enchant into Incendia powder."
+   "answer": "This story follows \"Sacred Fire,\" when adventurers gather Incendia Agave from the Boiling Pool in Thousand Needles for Magatha Grimtotem to enchant into Incendia powder."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "For the tauren, the quest touches on the tension between ancient ancestral rites and the political shifts occurring under Cairne Bloodhoof's leadership, mediated by the ever-calculating Grimtotem."
+   "text": "For you as a tauren, the story touches on tension between ancestral rites and political shifts under Cairne Bloodhoof's leadership, with the Grimtotem caught in the matter."
   },
   {
    "target": "class:Shaman",
-   "text": "Shaman adventurers will notice the friction between elemental ritual and political intrigue, as well as Motega's reluctance to dispute Magatha's peerless spiritual authority."
+   "text": "As a shaman, you can see the friction between elemental ritual and political intrigue, and Motega's reluctance to challenge Magatha's spiritual authority."
   },
   {
    "target": "faction:Horde",
-   "text": "Sworn to protect Cairne Bloodhoof, Horde warriors readily march into Thousand Needles to neutralize any threat to the venerable High Chieftain."
+   "text": "As a member of the Horde, you march into Thousand Needles to neutralize any threat to Cairne Bloodhoof, the venerable High Chieftain you are sworn to protect."
   }
  ],
  "keywords": [
@@ -123,5 +123,6 @@
  ],
  "attribution": [
   "Arikara (quest)"
- ]
+ ],
+ "style": 1
 }

@@ -10,11 +10,11 @@
    "quest:449"
   ]
  },
- "summary": "The Deathstalker Report is a written dispatch penned by Deathstalker Rane Yorick detailing military reconnaissance in Silverpine Forest. It contains critical tactical intelligence intended for High Executor Hadrec at the Sepulcher regarding local Scourge movements and the state of the Forsaken's forward scouts.",
+ "summary": "Deathstalker Rane Yorick sends word of Scourge resistance in Silverpine Forest to High Executor Hadrec.",
  "sections": [
   {
    "title": "Frontline Intelligence",
-   "body": "Reconnaissance in northern Silverpine Forest is a lethal duty, even for the undead. After finding themselves ambushed and pinned down by Scourge prowling the pine woods, Deathstalkers Rane Yorick and Quinn Yorick had to consolidate their findings into this hurried dispatch. The report summarizes unexpected levels of Scourge resistance threatening Forsaken territorial ambitions in the region. Because Quinn suffered grievous injuries during their mission, the document is entrusted to passing allies to ensure High Executor Hadrec receives word at the Sepulcher without delay.",
+   "body": "Deathstalkers Rane Yorick and Quinn Yorick faced a deadly ambush in northern Silverpine Forest. Pinned down by Scourge in the pine woods, they gathered their findings into a hurried dispatch. It describes stronger resistance than the Forsaken expected as they seek to claim the region. Quinn was grievously injured, so Rane entrusted the report to passing allies, who must carry it to High Executor Hadrec at the Sepulcher without delay.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "deathstalker report lore",
     "what is deathstalker report"
    ],
-   "answer": "It is a field report assembled by Deathstalker Rane Yorick documenting the dangers, Scourge activities, and obstacles faced by Forsaken scouts operating within Silverpine Forest."
+   "answer": "The report records Scourge activity, dangers, and the obstacles Forsaken scouts faced in Silverpine Forest."
   },
   {
    "q": "Who wrote the report?",
@@ -35,7 +35,7 @@
     "report author",
     "who wrote it"
    ],
-   "answer": "The report is written by Deathstalker Rane Yorick after tending to her injured brother, Deathstalker Quinn, following an encounter with the regional Scourge."
+   "answer": "Deathstalker Rane Yorick wrote the report after tending to her injured brother, Deathstalker Quinn, following their encounter with the Scourge."
   },
   {
    "q": "Who is the report delivered to?",
@@ -44,7 +44,7 @@
     "who gets the report",
     "hadrec report"
    ],
-   "answer": "It is addressed and delivered to High Executor Hadrec, the Forsaken commander stationed at the Sepulcher who oversees military operations throughout Silverpine Forest."
+   "answer": "The report is addressed to High Executor Hadrec at the Sepulcher, where he commands Forsaken forces in Silverpine Forest."
   },
   {
    "q": "Why is the report so urgently needed?",
@@ -53,17 +53,17 @@
     "why does hadrec need it",
     "what info is inside"
    ],
-   "answer": "High Executor Hadrec had undercalculated the sheer volume of Scourge presence in Silverpine Forest. The report outlines these hostile forces, providing vital data needed to protect Forsaken occupation efforts."
+   "answer": "Hadrec had underestimated the Scourge presence in Silverpine Forest. The report describes those hostile forces and gives him information to protect Forsaken efforts to occupy the region."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "The report highlights the ruthless efficiency and persistent danger facing the Deathstalkers, the intelligence-gathering arm that secures Lordaeron's frontiers for Sylvanas."
+   "text": "As an undead, you know the danger Deathstalkers face while gathering intelligence for Sylvanas along Lordaeron's frontiers."
   },
   {
    "target": "class:Rogue",
-   "text": "Carrying intelligence gathered by seasoned Deathstalkers offers a direct glimpse into the covert reconnaissance work that keeps the Forsaken military functional."
+   "text": "As a rogue, you can see how Deathstalkers' covert reconnaissance helps keep the Forsaken military functioning."
   }
  ],
  "keywords": [
@@ -87,5 +87,6 @@
  "attribution": [
   "Deathstalker Report",
   "The Deathstalkers' Report"
- ]
+ ],
+ "style": 1
 }

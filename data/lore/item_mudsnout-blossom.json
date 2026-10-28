@@ -10,16 +10,16 @@
    "quest:509"
   ]
  },
- "summary": "Mudsnout Blossoms are pungent, toxic fungal growths found sprouting in Nethander Stead in the Hillsbrad Foothills. Guarded by local gnolls and harvested by the Royal Apothecary Society, these foul mushrooms are used in Apothecary Lydon's elixir research.",
+ "summary": "Mudsnout Blossoms grow in Nethander Stead, south of Tarren Mill. Mudsnout gnolls guard the foul, toxic mushrooms, and Apothecary Lydon seeks them for his elixir research.",
  "sections": [
   {
    "title": "A Toxic Fungus",
-   "body": "Despite their floral name, Mudsnout Blossoms are actually large, foul-smelling mushrooms that flourish primarily in the soiled dirt of Nethander Stead, south of Tarren Mill. They grow amidst the camps of the local Mudsnout gnolls, who defend the territory fiercely. To living organisms, the spores and flesh of the mushroom act as a virulent poison, causing agony and rapid biological deterioration.",
+   "body": "South of Tarren Mill, Mudsnout Blossoms grow in Nethander Stead. Despite their name, they are large, foul-smelling mushrooms that flourish in soiled dirt among the local Mudsnout gnolls' camps. The gnolls defend the territory fiercely. The mushrooms' spores and flesh poison living things, causing agony and rapid bodily decay.",
    "spoiler": 0
   },
   {
    "title": "Fuel for the Royal Apothecary Society",
-   "body": "In Tarren Mill, Apothecary Lydon seeks out Mudsnout Blossoms as raw material for his chemical experiments. Under the mandate of Lady Sylvanas Windrunner, the Royal Apothecary Society labors relentlessly to engineer a new plague capable of eradicating both the Scourge and living humanity. The caustic, flesh-withering properties of these mushrooms make them an ideal base component for Lydon's brew, the infamous Elixir of Agony.",
+   "body": "In Tarren Mill, Apothecary Lydon uses Mudsnout Blossoms in his chemical experiments. Lady Sylvanas Windrunner has charged the Royal Apothecary Society with creating a plague to eradicate both the Scourge and living humanity. The mushrooms' caustic, flesh-withering properties make them a base for Lydon's Elixir of Agony.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "is mudsnout blossom a flower",
     "what kind of plant is mudsnout blossom"
    ],
-   "answer": "Despite being called a blossom, it is a large, pungent toxic mushroom found in the damp soil of the Hillsbrad Foothills."
+   "answer": "Despite the name, a Mudsnout Blossom is a large, pungent, toxic mushroom found in the damp soil of the Hillsbrad Foothills."
   },
   {
    "q": "Where do Mudsnout Blossoms grow?",
@@ -40,7 +40,7 @@
     "where to find mudsnout blossoms",
     "nethander stead mushrooms"
    ],
-   "answer": "They grow throughout Nethander Stead, an abandoned farmstead south of Tarren Mill and east of the river that runs past Southshore. The area is heavily infested with Mudsnout gnolls."
+   "answer": "Mudsnout Blossoms grow throughout Nethander Stead, an abandoned farmstead south of Tarren Mill and east of the river that runs past Southshore. Mudsnout gnolls heavily infest the area."
   },
   {
    "q": "Why is the Royal Apothecary Society collecting them?",
@@ -49,7 +49,7 @@
     "elixir of agony ingredients",
     "apothecary lydon mushroom"
    ],
-   "answer": "Apothecary Lydon in Tarren Mill requires them to brew the Elixir of Agony. The Forsaken are researching toxins to help craft a new plague capable of wiping out both the living and the Scourge."
+   "answer": "Apothecary Lydon in Tarren Mill needs Mudsnout Blossoms to brew the Elixir of Agony. The Forsaken study toxins to help make a plague that can wipe out both the living and the Scourge."
   },
   {
    "q": "What does the Royal Apothecary Society use the blossoms for?",
@@ -57,17 +57,17 @@
     "mudsnout blossom experiments",
     "mudsnout blossom elixir use"
    ],
-   "answer": "Apothecary Lydon gathers the foul-smelling mushrooms for his next elixir, as part of the Forsaken's research into disease and poisons."
+   "answer": "Apothecary Lydon gathers the foul-smelling mushrooms for his next elixir, part of the Forsaken's research into disease and poisons."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "The Forsaken make extensive use of the blossom's toxic properties, harvesting it to refine biochemical weapons for the Royal Apothecary Society."
+   "text": "As Forsaken, you know the Royal Apothecary Society harvests Mudsnout Blossoms for their toxic properties and to refine biochemical weapons."
   },
   {
    "target": "profession:Herbalism",
-   "text": "Though botanists and herbalists might mistake its name for a common flower, the Mudsnout Blossom is actually a volatile, foul-smelling fungus prized by toxicologists and dark alchemists."
+   "text": "As a herbalist, you may expect a flower, but Mudsnout Blossom is a volatile, foul-smelling fungus prized by toxicologists and dark alchemists."
   }
  ],
  "keywords": [
@@ -90,5 +90,6 @@
  "attribution": [
   "Mudsnout Blossom",
   "Elixir of Agony"
- ]
+ ],
+ "style": 1
 }

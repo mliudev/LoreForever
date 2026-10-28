@@ -10,11 +10,11 @@
    "quest:3106"
   ]
  },
- "summary": "A Simple Rune is an inscribed stone token passed to fledgling dwarven warriors training in Coldridge Valley. It serves as a summons from the warrior trainer Thran Khorman, directing recruits to seek instruction inside Anvilmar.",
+ "summary": "In Coldridge Valley, Thran Khorman calls young dwarven warriors to Anvilmar. The Simple Rune is an inscribed stone token that directs recruits to seek instruction from their warrior trainer.",
  "sections": [
   {
    "title": "A Summons to Arms",
-   "body": "Carved with basic martial marks, the Simple Rune is handed to promising recruits who have begun clearing out the threats around Coldridge Valley. Rather than a magical charm, it acts as a formal calling stone from Thran Khorman, the resident warrior trainer at Anvilmar. Upon reading its inscribed guidance, a young fighter is expected to report directly to Thran to learn basic combat techniques and hear practical advice on surviving Dun Morogh's hostile wilds.",
+   "body": "The Simple Rune marks the start of a recruit’s training. Thran Khorman gives the inscribed stone to promising young fighters who have begun clearing threats from Coldridge Valley. Its marks are a formal summons, not a magical charm. A recruit who reads it is expected to report to Thran inside Anvilmar, where the warrior trainer teaches basic combat and offers practical advice for surviving Dun Morogh’s hostile wilds.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "what does rune do",
     "simple rune quest item"
    ],
-   "answer": "The Simple Rune is an instructional tablet given to novitiate warriors in Coldridge Valley. Reading it directs the recruit to present themselves to Thran Khorman inside Anvilmar for formal training."
+   "answer": "The Simple Rune directs a recruit to seek formal instruction from Thran Khorman inside Anvilmar. Young warriors in Coldridge Valley receive it as an instructional tablet."
   },
   {
    "q": "Who sends the Simple Rune?",
@@ -35,7 +35,7 @@
     "who gave me simple rune",
     "sender of rune"
    ],
-   "answer": "It is sent by Thran Khorman, the dwarf warrior trainer stationed inside Anvilmar, who watches for promising fighters assisting around the valley."
+   "answer": "Thran Khorman sends the Simple Rune. The dwarf warrior trainer inside Anvilmar watches for promising fighters helping around the valley."
   },
   {
    "q": "Where do I take the Simple Rune?",
@@ -44,17 +44,17 @@
     "rune turn in",
     "thran khorman location"
    ],
-   "answer": "Take it to Thran Khorman inside the great forge hall of Anvilmar, located in central Coldridge Valley."
+   "answer": "Take the Simple Rune to Thran Khorman inside Anvilmar, in central Coldridge Valley."
   }
  ],
  "angles": [
   {
    "target": "class:Warrior",
-   "text": "For dwarven warriors, this inscribed stone marks the first step into formal military training under veteran instructor Thran Khorman."
+   "text": "As a dwarven warrior, the Simple Rune marks your first step into formal training under veteran instructor Thran Khorman."
   },
   {
    "target": "race:Dwarf",
-   "text": "Thran Khorman's rune promises a young dwarf the basics of the fight: the grip of an axe, the weight of armor and the sweat of real battle."
+   "text": "As a dwarf, Thran Khorman’s rune offers you the basics of the fight: an axe’s grip, armor’s weight, and the sweat of real battle."
   }
  ],
  "keywords": [
@@ -78,5 +78,6 @@
  "attribution": [
   "Simple Rune",
   "Simple Rune (Classic)"
- ]
+ ],
+ "style": 1
 }

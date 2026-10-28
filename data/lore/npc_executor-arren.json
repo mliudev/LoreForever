@@ -8,21 +8,21 @@
   "wiki": "Executor Arren",
   "refs": 5
  },
- "summary": "Executor Arren is a high-ranking Forsaken officer stationed in Deathknell. He oversees the immediate defense and consolidation of the settlement as newly awakened undead emerge from their graves. Arren coordinates the local campaign against mindless Scourge zombies, feral beasts, and the encroaching zealots of the Scarlet Crusade.",
+ "summary": "At Deathknell, Executor Arren directs the settlement's defense as new undead rise from their graves. He leads efforts against Scourge zombies, wild beasts, and threats to the Forsaken.",
  "sections": [
   {
    "title": "Commander of Deathknell",
-   "body": "Standing resolute just outside the chapel in Deathknell, Executor Arren serves as the primary military voice for the nascent Forsaken within their awakening grounds. While the caretakers in the crypts guide newly raised undead through their disorientation, Arren directs their focus outward toward survival. Under Queen Sylvanas Windrunner's banner, he organizes local operations to sweep away mindless zombies that threaten the village borders, establishing secure territory in the shadow of Lordaeron's fall.",
+   "body": "Executor Arren directs Deathknell's defense from outside its chapel. While caretakers in the crypts guide newly risen undead through their confusion, Arren turns their attention to survival beyond the graves. Under Queen Sylvanas Windrunner's banner, he organizes efforts to clear mindless zombies from the village borders. The Forsaken secure ground here in the shadow of Lordaeron's fall.",
    "spoiler": 0
   },
   {
    "title": "Securing the Borderlands",
-   "body": "Deathknell is surrounded by perils far deadlier than confused fledglings. Under Arren's orders, scouts and initiates strike at the vicious arachnids inhabiting Night Web's Hollow and eliminate dangerous predators haunting the woodland fringes. By demanding decisive action from every capable hand, Arren tests the fortitude of new arrivals, ensuring only those capable of defending their second chance at existence remain in the service of the Dark Lady.",
+   "body": "Danger surrounds Deathknell beyond the confused newly risen. Under Arren's orders, scouts and initiates strike at the vicious spiders in Night Web's Hollow and hunt predators along the woodland edges. He calls on every capable hand to act, testing whether new arrivals can defend their second chance and serve the Dark Lady.",
    "spoiler": 0
   },
   {
    "title": "The Crimson Threat",
-   "body": "Arren's greatest strategic concern lies with the Scarlet Crusade. The zealots consider all undead to be monstrosities requiring total eradication, failing or refusing to distinguish between the Scourge and the free-willed Forsaken. Arren organizes targeted strikes against Scarlet patrols encamped in the Tirisfal wilderness, intercepting couriers and analyzing stolen dispatches to safeguard Deathknell from being purged in holy fire.",
+   "body": "The Scarlet Crusade is Arren's greatest concern. Its zealots seek to destroy all undead and make no distinction between the Scourge and the free-willed Forsaken. Arren orders strikes against Scarlet patrols encamped in the Tirisfal wilderness. His forces intercept couriers and study stolen dispatches to protect Deathknell from a purge in holy fire.",
    "spoiler": 1
   }
  ],
@@ -34,7 +34,7 @@
     "who is arren",
     "deathknell executor"
    ],
-   "answer": "Executor Arren is the commanding military officer overseeing Deathknell in Tirisfal Glades. He organizes newly risen Forsaken into an effective fighting force to defend the village and secure the surrounding countryside."
+   "answer": "Executor Arren commands Deathknell's defense in Tirisfal Glades. He organizes newly risen Forsaken to defend the village and secure the surrounding countryside."
   },
   {
    "q": "What rank is an Executor among the Forsaken?",
@@ -43,7 +43,7 @@
     "what is an executor",
     "forsaken executor rank"
    ],
-   "answer": "Executors are trusted military and administrative commanders within the Forsaken hierarchy. They govern local garrisons, direct operations in the field, and enforce the will and law of Queen Sylvanas Windrunner."
+   "answer": "Among the Forsaken, Executors are trusted military and administrative commanders. They govern local garrisons, direct field operations, and enforce Queen Sylvanas Windrunner's will and law."
   },
   {
    "q": "Why does Arren send recruits against the zombies?",
@@ -52,7 +52,7 @@
     "the damned quest",
     "mindless scourge"
    ],
-   "answer": "The zombies prowling near Deathknell are mindless Scourge remnants left behind after the plague devastated Lordaeron. Arren orders them cleared so that newly awakened undead are not torn apart upon leaving the crypts."
+   "answer": "Mindless Scourge remnants prowl near Deathknell, left behind after the plague devastated Lordaeron. Arren orders them cleared so they cannot tear apart newly awakened undead as they leave the crypts."
   },
   {
    "q": "Why is the Scarlet Crusade in Tirisfal Glades?",
@@ -61,7 +61,7 @@
     "why crusade here",
     "crusaders in deathknell"
    ],
-   "answer": "The Scarlet Crusade is a radical human faction dedicated to exterminating all undead. They hold outposts across the ruins of Lordaeron and actively seek to purge the Forsaken, considering them identical to the Scourge."
+   "answer": "The Scarlet Crusade is a radical human faction devoted to exterminating all undead. It holds outposts across Lordaeron's ruins and seeks to purge the Forsaken, whom it considers no different from the Scourge."
   },
   {
    "q": "What is Night Web's Hollow?",
@@ -70,7 +70,7 @@
     "night webs hollow",
     "arren spider quest"
    ],
-   "answer": "Night Web's Hollow is a gold mine northwest of Deathknell that spiders have overrun. The Forsaken need its gold, so Arren sends recruits to clear the arachnids out little by little."
+   "answer": "Night Web's Hollow is a gold mine northwest of Deathknell, overrun by spiders. The Forsaken need its gold, so Arren sends recruits to clear out the arachnids a little at a time."
   },
   {
    "q": "Where does Arren send recruits once they finish his tasks?",
@@ -79,17 +79,17 @@
     "where to go after arren",
     "the executor in the field"
    ],
-   "answer": "Once Deathknell's immediate threats are neutralized, Arren directs capable recruits outward to Brill to report to Executor Zygand and aid the broader Forsaken effort across Tirisfal Glades."
+   "answer": "After Deathknell's immediate threats are dealt with, Arren sends capable recruits to Brill to report to Executor Zygand and aid the wider Forsaken effort across Tirisfal Glades."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "Executor Arren is one of the first commanders every Forsaken meets upon emerging into Tirisfal, giving them their earliest taste of duty under the Dark Lady."
+   "text": "As an undead, you meet Executor Arren among the first commanders in Tirisfal. He gives you an early taste of duty under the Dark Lady."
   },
   {
    "target": "faction:Horde",
-   "text": "Arren's frontline commands in Deathknell represent the Horde's initial foothold in northern Lordaeron, securing survival amidst hostile surroundings."
+   "text": "As a member of the Horde, you see Arren's commands at Deathknell secure its first foothold in northern Lordaeron amid hostile surroundings."
   }
  ],
  "keywords": [
@@ -111,5 +111,6 @@
  ],
  "attribution": [
   "Executor Arren"
- ]
+ ],
+ "style": 1
 }

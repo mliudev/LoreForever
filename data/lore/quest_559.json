@@ -24,16 +24,16 @@
    "Reassignment"
   ]
  },
- "summary": "Farren's Proof is an Alliance assignment in Southshore given by Lieutenant Farren Orinelle. Tasked with proving his coastal patrol efforts to his superior, Marshal Redpath, Farren sends recruits out to harvest severed murloc heads along the Western Strand.",
+ "summary": "Lieutenant Farren Orinelle sends Alliance recruits along Southshore's coast to prove his patrol's success. Marshal Redpath wants evidence that the murlocs have been cleared from the Western Strand.",
  "sections": [
   {
    "title": "A Grudging Request",
-   "body": "Following initial sweeps along the coastline in Down the Coast, Lieutenant Farren Orinelle finds himself under scrutiny by Marshal Redpath and town leadership. Claiming credit for clearing out the local murlocs is one thing; presenting undeniable evidence to skeptical superiors is quite another. Unwilling to soil his own hands with gruesome butchery, Farren tasks wandering Alliance adventurers with returning to the shoreline to collect tangible proof of the kill.",
+   "body": "After the first coastal sweeps in Down the Coast, Lieutenant Farren Orinelle faces scrutiny from Marshal Redpath and Southshore's leaders. Farren claims the local murlocs have been cleared, but his superiors want proof. He leaves the grim work to wandering Alliance adventurers and sends them back to the shore for evidence of the kills.",
    "spoiler": 0
   },
   {
    "title": "Grisly Evidence",
-   "body": "The task takes fighters west of Southshore along the Western Strand, where coastal murlocs nest along the shallows. The lieutenant requires ten severed murloc heads to appease the town garrison's officers. Farren himself detests the creatures, admitting that the repulsive sight and smell of amphibious fish-men has utterly ruined his appetite for Southshore's primary export and staple food.",
+   "body": "The Western Strand lies west of Southshore, where coastal murlocs live along the shallows. Farren asks for ten severed murloc heads to satisfy the garrison's officers. He detests the creatures and says their repulsive sight and smell have ruined his appetite for Southshore's chief export and staple food.",
    "spoiler": 0
   }
  ],
@@ -45,7 +45,7 @@
     "who gives farren's proof",
     "lieutenant farren"
    ],
-   "answer": "Lieutenant Farren Orinelle is an Alliance town officer stationed in Southshore. While eager to report success to his superiors, he prefers delegating the violent and filthy aspects of shoreline security to capable adventurers."
+   "answer": "Lieutenant Farren Orinelle is an Alliance officer stationed in Southshore. He wants to report success to his superiors and leaves the violent, filthy work of shoreline security to adventurers."
   },
   {
    "q": "Why does Farren need severed murloc heads?",
@@ -54,7 +54,7 @@
     "farren proof reason",
     "why collect heads"
    ],
-   "answer": "Marshal Redpath and town officials were not satisfied by simple verbal reports that the Western Strand had been cleared. They demanded physical evidence of dead murlocs before officially acknowledging the patrol's success."
+   "answer": "Marshal Redpath and Southshore's officials wanted physical proof of dead murlocs before accepting reports that the Western Strand had been cleared."
   },
   {
    "q": "Where are these murlocs located?",
@@ -63,7 +63,7 @@
     "where is western strand",
     "murloc spots hillsbrad"
    ],
-   "answer": "The murlocs inhabit the Western Strand, the coastal beaches stretching directly west of Southshore toward the border of Silverpine Forest."
+   "answer": "The murlocs live along the Western Strand, west of Southshore, toward the border of Silverpine Forest."
   },
   {
    "q": "What happens after turning in Farren's Proof?",
@@ -72,7 +72,7 @@
     "farren quest chain",
     "farren's proof followup"
    ],
-   "answer": "Farren asks you to report the murloc deaths to Marshal Redpath. After accepting the proof, Redpath turns attention to threats on the Eastern Strand and later passes along Stormwind's reassignment orders for Farren."
+   "answer": "Farren asks you to report the murloc deaths to Marshal Redpath. After accepting the proof, Redpath turns his attention to threats on the Eastern Strand and later passes along Stormwind's reassignment orders for Farren."
   },
   {
    "q": "Why is Farren disgusted by the murlocs?",
@@ -80,7 +80,7 @@
     "farren fish",
     "why doesn't farren like fish"
    ],
-   "answer": "Farren finds walking, bipedal fish inherently repulsive. Handling their cold, slimy remains has completely turned his stomach against eating fish, making daily life in Southshore's fishing community miserable for him."
+   "answer": "Farren finds walking, bipedal fish repulsive. Handling their cold, slimy remains has put him off eating fish, making life in Southshore's fishing community miserable."
   },
   {
    "q": "Who is Marshal Redpath?",
@@ -88,17 +88,17 @@
     "captain redpath",
     "who is redpath"
    ],
-   "answer": "Marshal Redpath is a commanding military officer within the Southshore town defense forces, responsible for holding junior officers like Farren Orinelle accountable for regional security."
+   "answer": "Marshal Redpath commands Southshore's town defenses. He holds junior officers like Farren Orinelle accountable for regional security."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Holding Southshore requires securing its coastlines against native predators so the outpost can focus on threats from the Syndicate and the Horde."
+   "text": "As an Alliance member, you help secure Southshore's coast against native predators, leaving the outpost to focus on threats from the Syndicate and the Horde."
   },
   {
    "target": "profession:Cooking",
-   "text": "For fish-based cooks in Southshore, Farren's squeamish aversion to seafood is baffling, though fighting along the beach often yields spare raw catches."
+   "text": "As a cook in Southshore, you may find Farren's aversion to seafood baffling. Fighting along the beach can also yield spare raw catches."
   }
  ],
  "keywords": [
@@ -123,5 +123,6 @@
  ],
  "attribution": [
   "Farren's Proof"
- ]
+ ],
+ "style": 1
 }

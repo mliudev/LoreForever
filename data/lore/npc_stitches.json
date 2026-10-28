@@ -8,16 +8,16 @@
   "wiki": "Stitches",
   "refs": 0
  },
- "summary": "Stitches is a colossal, stitched-together undead abomination stalking Duskwood's main thoroughfare. His march threatens travelers, the Night Watch, and the town of Darkshire.",
+ "summary": "Along Duskwood's western road, Stitches marches toward Darkshire, crushing the Night Watch and unwary travelers in his path.",
  "sections": [
   {
    "title": "The Terror of the Main Road",
-   "body": "Stitches is an undead abomination assembled from harvested corpses and unholy sorcery. Appearing near Abercrombie's shack northeast of Raven Hill Cemetery, the lumbering monstrosity immediately sets out eastward along the road toward Darkshire. Imbued with immense physical strength and relentless malice, Stitches tears through any Night Watch checkpoints stationed along the thoroughfare\u2014including the defense camp across from Vul'Gol Ogre Mound and the outpost outside the Rotting Orchard\u2014bringing outright slaughter to unwary travelers and town defenders alike.",
+   "body": "Near Abercrombie's shack, northeast of Raven Hill Cemetery, Stitches sets out east along the road toward Darkshire. Unholy sorcery and harvested corpses made the undead abomination, whose immense strength and malice overwhelm the Night Watch checkpoints. He tears through the defense camp across from Vul'Gol Ogre Mound and the outpost outside the Rotting Orchard, slaughtering travelers and town defenders along the way.",
    "spoiler": 0
   },
   {
    "title": "The Embalmer's Twisted Revenge",
-   "body": "Stitches did not appear in Duskwood by mere chance; he was deliberately crafted as an instrument of retribution. Abercrombie, known to passersby only as a harmless hermit, harbored a deep grudge against Lord Ello Ebonlocke, the mayor of Darkshire. By relying on unsuspecting adventurers to collect occult reagents, tools, and materials under innocent guises, Abercrombie finalized his horrific creation. He sent Stitches as a mocking \"gift\" to Darkshire, intent on breaking the town's defenses and punishing Lord Ebonlocke.",
+   "body": "Abercrombie, known to passersby as a harmless hermit, harbored a deep grudge against Lord Ello Ebonlocke, Darkshire's mayor. Under innocent guises, he relied on unsuspecting adventurers to gather occult reagents, tools, and materials, then completed his horrific creation. Abercrombie sent Stitches to Darkshire as a mocking gift, intending to break the town's defenses and punish Lord Ebonlocke.",
    "spoiler": 1
   }
  ],
@@ -29,7 +29,7 @@
     "who made stitches",
     "abercrombie stitches"
    ],
-   "answer": "Stitches is a product of necromancy assembled in Duskwood. Discovering who made him is part of the mystery surrounding the undead near Raven Hill."
+   "answer": "Stitches was assembled in Duskwood through necromancy. Who made him remains part of the mystery surrounding the undead near Raven Hill."
   },
   {
    "q": "Why is Stitches marching toward Darkshire?",
@@ -38,7 +38,7 @@
     "stitches attack goal",
     "where is stitches walking"
    ],
-   "answer": "Stitches advances along Duskwood's main road toward the town, attacking the Night Watch and anyone else in his path. The reason behind his attack emerges during the local investigation."
+   "answer": "Stitches marches along Duskwood's main road toward Darkshire, attacking the Night Watch and anyone else in his path. The reason for his attack emerges during the local investigation."
   },
   {
    "q": "Can the Night Watch stop Stitches on their own?",
@@ -47,7 +47,7 @@
     "night watch beat stitches",
     "can darkshire guards kill stitches"
    ],
-   "answer": "No. Left alone, Stitches easily overwhelms and decimates the Night Watch checkpoints outside Vul'Gol Ogre Mound and the Rotting Orchard before reaching the gates of Darkshire. It requires concerted militia defense and traveling adventurers to bring him down."
+   "answer": "No. Left alone, Stitches easily overwhelms and decimates the Night Watch checkpoints outside Vul'Gol Ogre Mound and the Rotting Orchard, then reaches Darkshire's gates. Concerted militia defense and traveling adventurers are needed to bring him down."
   },
   {
    "q": "Where does Stitches spawn?",
@@ -56,17 +56,17 @@
     "stitches location",
     "stitches start point"
    ],
-   "answer": "Stitches spawns behind Abercrombie's shack, situated along the road northeast of Raven Hill Cemetery, before beginning his long, deadly march eastward across Duskwood."
+   "answer": "Stitches appears behind Abercrombie's shack, along the road northeast of Raven Hill Cemetery, then begins his long, deadly march east across Duskwood."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Stitches poses a catastrophic threat to Darkshire's beleaguered citizens, turning the Duskwood high road into a deadly gauntlet for fresh Alliance recruits."
+   "text": "Stitches threatens Darkshire's beleaguered citizens and turns Duskwood's high road into a deadly gauntlet for fresh Alliance recruits."
   },
   {
    "target": "class:Paladin",
-   "text": "As a grotesque product of necromancy and profane flesh-crafting, Stitches represents everything the Holy Light is called upon to purge."
+   "text": "As a grotesque product of necromancy and profane flesh-crafting, Stitches embodies what the Holy Light is called upon to purge."
   }
  ],
  "keywords": [
@@ -90,5 +90,6 @@
  ],
  "attribution": [
   "Stitches"
- ]
+ ],
+ "style": 1
 }

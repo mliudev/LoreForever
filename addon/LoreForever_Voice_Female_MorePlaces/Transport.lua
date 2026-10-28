@@ -10,11 +10,11 @@ P.transport["subzone:agmond-s-end"] = {
   },
 }
 P.transport["subzone:aku-mai-s-lair"] = {
-  hash = "c6890a",
-  fullHash = "c6890a",
-  text = "Aku'mai's Lair. Aku'mai's Lair is the deepest and darkest cavern within Blackfathom Deeps. Located beyond the Moonshrine Sanctum, this submerged hollow serves as the nesting ground for Aku'mai, a monstrous hydra venerated as a servant of the Old Gods. Sealed away behind the Moonshrine Sanctum, Aku'mai's Lair represents the culmination of the corruption sweeping Blackfathom Deeps. To enter the cavern, dark rituals must be engaged by igniting the four brazier fires flanking a naga statue, awakening guardians sworn to defend the threshold. Beyond these heavy double doors lies a sunless, flooded grotto. Here, both the Twilight's Hammer cultists and invading naga gather in reverence of Aku'mai, an ancient three-headed hydra considered a living servant of the Old Gods. The presence of Aku'mai within the lair makes it a focal point for the apocalyptic plans of the Twilight's Hammer. The cultists revere the great beast as an omen of a promised age of darkness, believing its emergence and continued sustenance will herald the breaking of subterranean prisons holding their ancient deities. Fed by sacrificial offerings and guarded zealously by dark magic, the subterranean pool serves as a grim symbol of the ancient evil clawing its way back into Kalimdor.",
+  hash = "e3fcf1",
+  fullHash = "e3fcf1",
+  text = "Aku'mai's Lair. Beyond the Moonshrine Sanctum, Aku'mai's Lair lies beneath Blackfathom Deeps. In its flooded depths, cultists and naga gather around Aku'mai, a hydra they honor as a servant of the Old Gods. Four braziers flank a naga statue behind the Moonshrine Sanctum's sealed double doors. Lighting them awakens guardians sworn to defend the threshold. Beyond the doors, a sunless grotto lies beneath the water. Twilight's Hammer cultists and invading naga gather there in reverence of Aku'mai, an ancient, three-headed hydra they consider a living servant of the Old Gods. Twilight's Hammer cultists see Aku'mai as an omen of a promised age of darkness. They believe the beast's emergence and continued sustenance will herald the breaking of subterranean prisons holding their ancient deities. Sacrificial offerings feed Aku'mai, while dark magic guards the pool where it dwells. The cult's plans center on this beast as ancient evil claws its way back into Kalimdor.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_aku-mai-s-lair-bbe1462bfc7921945e91/1-0000.mp3", duration = 77.5314286, start = 0},
+    {file = "Audio/Transport/full_subzone_aku-mai-s-lair-cc18eabedb8deff29286/1-0000.mp3", duration = 61.5967347, start = 0},
   },
 }
 P.transport["subzone:altar-of-storms-burning-steppes"] = {
@@ -98,11 +98,11 @@ P.transport["subzone:bitter-reaches"] = {
   },
 }
 P.transport["subzone:black-channel-marsh"] = {
-  hash = "cbeefa",
-  fullHash = "cbeefa",
-  text = "Black Channel Marsh. Black Channel Marsh is a murky mire situated in the southwestern Wetlands, flanking the main road leading toward Menethil Harbor. Infested with aggressive raptors, the soggy terrain poses an immediate threat to unwary travelers and supply couriers traversing the coastal lowlands. Stretching across the swampy low ground southwest of the main thoroughfare, Black Channel Marsh is infamous among caravan drivers and couriers heading to Menethil Harbor. While the raised road offers the illusion of safety, the stagnant channels and thick reeds are home to territorial raptor packs. Hungry beasts frequently stray directly into traffic, ambushing fresh recruits and weary wayfarers who stray even a pace or two from the beaten path.",
+  hash = "d91bd8",
+  fullHash = "d91bd8",
+  text = "Black Channel Marsh. Raptors prowl Black Channel Marsh beside the road to Menethil Harbor. The mire lies in the Wetlands’ southwest, where travelers and couriers face danger along the coast. Black Channel Marsh spreads across the low ground southwest of the main road to Menethil Harbor. Caravan drivers and couriers know the danger there. The raised road may seem safe, but territorial raptors live among the stagnant channels and thick reeds. Hungry beasts often stray into the road, ambushing recruits and weary travelers who wander even a little from the path.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_black-channel-marsh-5f2d00d591b847f4d1b5/1-0000.mp3", duration = 42.4228571, start = 0},
+    {file = "Audio/Transport/full_subzone_black-channel-marsh-4ae62a74171c4acba182/1-0000.mp3", duration = 35.1346939, start = 0},
   },
 }
 P.transport["subzone:blackchar-cave"] = {
@@ -114,11 +114,11 @@ P.transport["subzone:blackchar-cave"] = {
   },
 }
 P.transport["subzone:blackfathom-deeps"] = {
-  hash = "e8e718",
-  fullHash = "e8e718",
-  text = "Blackfathom Deeps. Blackfathom Deeps is a flooded subterranean temple ruin buried beneath the Zoram Strand along Ashenvale's northwestern coast. Once a glorious house of worship dedicated to the moon goddess Elune, its drowned halls have been overtaken by naga, satyr, and the sinister Twilight's Hammer cult. Before the Great Sundering shattered ancient Kalimdor ten thousand years ago, this complex was a temple dedicated to the goddess Elune, complete with its own moonwell. When the Well of Eternity collapsed, the shrine sank beneath the ocean waves, presumed lost forever. Over millennia, receding shorelines and subterranean shifting left its remains partly flooded beneath the cliffs of Ashenvale.",
+  hash = "65295f",
+  fullHash = "65295f",
+  text = "Blackfathom Deeps. Blackfathom Deeps lies flooded beneath the Zoram Strand on Ashenvale's northwestern coast. Its halls once honored Elune, but naga, satyr, and the Twilight's Hammer now hold the ruins. Beneath Ashenvale's northwestern cliffs, flooded halls mark the remains of an ancient temple. Before the Great Sundering shattered Kalimdor ten thousand years ago, the temple honored Elune and held its own moonwell. When the Well of Eternity collapsed, the shrine sank beneath the waves and was presumed lost forever. Over millennia, shorelines receded and the ground shifted below, leaving the temple partly flooded beneath the cliffs.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_blackfathom-deeps-e2409fb6a3588dab62b7/1-0000.mp3", duration = 41.3518367, start = 0},
+    {file = "Audio/Transport/full_subzone_blackfathom-deeps-7d5b35df9228e505f6c1/1-0000.mp3", duration = 38.7395918, start = 0},
   },
 }
 P.transport["subzone:blackrock-mountain"] = {
@@ -194,11 +194,11 @@ P.transport["subzone:bluefen"] = {
   },
 }
 P.transport["subzone:bluegill-marsh"] = {
-  hash = "9a3dc4",
-  fullHash = "9a3dc4",
-  text = "Bluegill Marsh. Bluegill Marsh is a sodden mire in the western Wetlands that serves as the sprawling settlement for the hostile Bluegill murloc tribe. The waterways and huts are fiercely guarded by these aquatic humanoids under the rule of the brute known as Gobbler. Travelers heading through the western fens must navigate carefully to avoid being surrounded in the shallows. Situated amidst the boggy flats of the western Wetlands, Bluegill Marsh is thick with mud, reeds, and the squawking war cries of its resident murlocs. The Bluegill tribe has erected crude primitive camps throughout the stagnant water, claiming this territory as their own. Unlike more isolated beasts of the swamp, these murlocs live and hunt in tightly knit packs. Wary wanderers and scouts from Menethil Harbor know that wading into their territory invites swift ambushes from every direction, especially with the formidable chieftain Gobbler prowling the murky shallows.",
+  hash = "f726bb",
+  fullHash = "f726bb",
+  text = "Bluegill Marsh. In western Wetlands, Bluegill Marsh is claimed by the hostile Bluegill tribe. Their huts and waterways are guarded by Gobbler, and travelers risk being surrounded in the shallows. Bluegill murlocs crowd the muddy flats and reed beds of the western Wetlands. Their tribe has built crude camps in the stagnant water and claims the marsh as its own. They live and hunt in close-knit packs. Travelers and scouts from Menethil Harbor risk ambush from every direction when they wade into Bluegill territory, where the chieftain Gobbler prowls the shallows.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_bluegill-marsh-6740c419680322d4fb25/1-0000.mp3", duration = 54.1257143, start = 0},
+    {file = "Audio/Transport/full_subzone_bluegill-marsh-67d7d8d18bb745b0a913/1-0000.mp3", duration = 34.9779592, start = 0},
   },
 }
 P.transport["subzone:bolgan-s-hole"] = {
@@ -394,11 +394,11 @@ P.transport["subzone:chillwind-camp"] = {
   },
 }
 P.transport["subzone:chillwind-point"] = {
-  hash = "89368e",
-  fullHash = "89368e",
-  text = "Chillwind Point. Chillwind Point is a rocky rise and ancient troll ruin sitting on the high frontier between the Alterac Mountains, Hillsbrad Foothills, and the Western Plaguelands. It gets its name from the freezing drafts howling through the mountain pass out of the blighted north. Today, it serves as a lonely vantage point inhabited primarily by a lone troll mystic. Perched on the borderlands where Hillsbrad gives way to Alterac and the plagued north, Chillwind Point looks out over the mountain ravine leading directly into the Western Plaguelands. Long before Lordaeron claimed these passes, ancient trolls built stone structures upon these heights, the remnants of which still stand weather-beaten against the elements. Today, cold winds blow south through the ravine, carrying the chill of the fallen north into the foothill valleys below. Despite its bleak exposure and proximity to Scourge-ravaged lands, Chillwind Point is not entirely deserted. The ancient masonry provides shelter for Bath'rah the Windwatcher, a jungle troll hermit who communes with the violent gales coursing through the gap. Travelers and shamans venturing north often seek out his solitary camp amid the ruins to learn the secrets of the mountain currents.",
+  hash = "92d9c1",
+  fullHash = "92d9c1",
+  text = "Chillwind Point. Cold drafts sweep through Chillwind Point, a rocky rise above the mountain pass. The ancient troll ruin sits where Hillsbrad Foothills, the Alterac Mountains, and the Western Plaguelands meet, and Bath'rah the Windwatcher lives among its stones. Chillwind Point overlooks the ravine from Hillsbrad's edge. The pass leads into the Western Plaguelands, while the Alterac Mountains rise nearby. Long before Lordaeron claimed these routes, ancient trolls built stone structures on the heights. Their weather-beaten remains still face the elements. Cold winds now blow south through the ravine, carrying the chill of the fallen north into the foothills below. Bath'rah the Windwatcher lives among the old stones at Chillwind Point. The jungle troll hermit communes with the violent gales that course through the gap. Despite the bleak exposure and the nearby Scourge-ravaged lands, his camp is not entirely deserted. Travelers and shamans heading north often seek him out to learn the secrets of the mountain currents.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_chillwind-point-7626ecec16a33baced50/1-0000.mp3", duration = 73.9004082, start = 0},
+    {file = "Audio/Transport/full_subzone_chillwind-point-fde2fe9f476b05653970/1-0000.mp3", duration = 63.0334694, start = 0},
   },
 }
 P.transport["subzone:circle-of-aquementas"] = {
@@ -434,11 +434,11 @@ P.transport["subzone:circle-of-west-binding"] = {
   },
 }
 P.transport["subzone:clockwerk-run"] = {
-  hash = "5692f8",
-  fullHash = "5692f8",
-  text = "Clockwerk Run. The Clockwerk Run is the main entrance corridor leading into the heart of fallen Gnomeregan. Stretching between the Train Depot and the Hall of Gears, this damaged hallway is heavily contaminated by toxic fallout and overrun with irradiated troggs. Serving as the primary gateway into Gnomeregan from the outer train depot, the Clockwerk Run was once a bustling conduit of gnomish logistics and transit. When High Tinker Mekkatorque ordered the venting of radioactive waste to stem the trogg invasion, the corridor became a lethal trap. The blast and subsequent fighting caused portions of the hallway to collapse onto itself. Today, the passage is choked with toxic fumes and prowling irradiated troggs, making it the perilous frontline that any expedition must fight through to reach the upper Hall of Gears.",
+  hash = "f2ca20",
+  fullHash = "f2ca20",
+  text = "Clockwerk Run. In Gnomeregan, Clockwerk Run lies between the Train Depot and the Hall of Gears. Toxic fallout and irradiated troggs fill the route into the fallen city. Clockwerk Run runs from the outer Train Depot into Gnomeregan. Once, gnomish traffic and supplies moved through this corridor. High Tinker Mekkatorque ordered radioactive waste vented to stop the trogg invasion, turning the passage into a deadly trap. The blast and the fighting that followed brought parts of the hallway down. Toxic fumes and irradiated troggs now block the way to the upper Hall of Gears.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_clockwerk-run-d0a7d8b9e6fa17e5bfbe/1-0000.mp3", duration = 48.3526531, start = 0},
+    {file = "Audio/Transport/full_subzone_clockwerk-run-025efd224df8e48517ca/1-0000.mp3", duration = 35.1346939, start = 0},
   },
 }
 P.transport["subzone:corin-s-crossing"] = {
@@ -450,11 +450,11 @@ P.transport["subzone:corin-s-crossing"] = {
   },
 }
 P.transport["subzone:corrahn-s-dagger"] = {
-  hash = "22b6dd",
-  fullHash = "22b6dd",
-  text = "Corrahn's Dagger. Corrahn's Dagger is the second ridge among the four mountainous fingers towering over northern Hillsbrad Foothills. This high ground serves as a hideout for rogue Syndicate operatives. Rising steeply in northern Hillsbrad Foothills, Corrahn's Dagger is the second of the four rocky projections known locally as the fingers of Hillsbrad. The ridge is overrun by cutthroats belonging to the Syndicate, who use the elevated perch to overlook the valley below.",
+  hash = "9f3a7c",
+  fullHash = "9f3a7c",
+  text = "Corrahn's Dagger. Syndicate cutthroats hold Corrahn's Dagger, the second ridge among northern Hillsbrad's four rocky fingers. They use its high ground as a hideout. Corrahn's Dagger rises in northern Hillsbrad Foothills as the second of four rocky ridges called the fingers of Hillsbrad. Syndicate cutthroats overrun the ridge and use its height to watch the valley below.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_corrahn-s-dagger-ff923fd1815a70b4bdaa/1-0000.mp3", duration = 26.5926531, start = 0},
+    {file = "Audio/Transport/full_subzone_corrahn-s-dagger-1a309ea389bd469cc7ee/1-0000.mp3", duration = 23.3273469, start = 0},
   },
 }
 P.transport["subzone:crown-guard-tower"] = {
@@ -578,11 +578,11 @@ P.transport["subzone:darnassus"] = {
   },
 }
 P.transport["subzone:darrow-hill"] = {
-  hash = "153e10",
-  fullHash = "153e10",
-  text = "Darrow Hill. Darrow Hill is an elevated expanse of rugged grassland nestled in northern Hillsbrad Foothills directly beneath the Headland. While mountain lions and stags graze across its open slopes, feral yetis lurk inside the Foothill Caverns that pit the hillside. Rich with veins of Alterac Granite, it serves as a treacherous frontier where natural beasts and rival travelers constantly clash. Rising along the base of the northern mountains below the Headland, Darrow Hill bridges the rolling pasture of southern Hillsbrad with the jagged, colder heights of Alterac. Mountain lions and stags stalk through the tall grasses, sharing the rocky slopes with towering yetis that spill out from the Foothill Caverns. Beyond its feral wildlife, the cavern walls hide deposits of dense Alterac Granite, drawing quarry workers, miners, and adventurers straight into harm's way. Caught between contentious regional claims, its trails remain notoriously dangerous for travelers of either faction caught unawares.",
+  hash = "bd85b4",
+  fullHash = "bd85b4",
+  text = "Darrow Hill. In northern Hillsbrad, Darrow Hill's rugged grassland rises beneath the Headland. Mountain lions and stags roam its open slopes, while feral yetis lurk in the Foothill Caverns. Alterac Granite draws travelers into this dangerous frontier. Darrow Hill stretches below the Headland, joining southern Hillsbrad's rolling pasture to Alterac's jagged, colder heights. Mountain lions and stags move through tall grasses on its rocky slopes, and towering yetis emerge from the Foothill Caverns. The cavern walls hold deposits of dense Alterac Granite, drawing quarry workers, miners, and adventurers into danger. Regional claims remain contentious, and travelers of either faction can be caught unaware on the trails.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_darrow-hill-62e85cfc88ea1258c96c/1-0000.mp3", duration = 62.197551, start = 0},
+    {file = "Audio/Transport/full_subzone_darrow-hill-d085e4751c85b037f83e/1-0000.mp3", duration = 43.7028571, start = 0},
   },
 }
 P.transport["subzone:darrowmere-lake"] = {
@@ -642,19 +642,19 @@ P.transport["subzone:dire-maul"] = {
   },
 }
 P.transport["subzone:direforge-hill"] = {
-  hash = "5bccb8",
-  fullHash = "5bccb8",
-  text = "Direforge Hill. Direforge Hill is a rugged highland in the northeastern Wetlands, southeast of Dun Modr and northeast of the Green Belt. The Dark Iron dwarf warlock Balgaras the Foul commands a hostile encampment on its slopes. Direforge Hill serves as a major Dark Iron campsite in the northeastern Wetlands. Balgaras the Foul, a Dark Iron dwarf warlock, commands the hostile dwarves occupying the hill southeast of Dun Modr. The Dark Iron dwarves occupying Direforge Hill pose a threat to travelers through the northeastern Wetlands. Balgaras the Foul commands the hostile encampment.",
+  hash = "1db822",
+  fullHash = "1db822",
+  text = "Direforge Hill. Hostile Dark Iron dwarves hold Direforge Hill in the northeastern Wetlands, southeast of Dun Modr and northeast of the Green Belt. Dark Iron dwarves hold the northeastern Wetlands hill under Balgaras the Foul, a Dark Iron dwarf warlock. Their encampment lies southeast of Dun Modr. Travelers crossing the northeastern Wetlands face the hostile Dark Iron encampment on Direforge Hill. Balgaras the Foul commands the dwarves there.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_direforge-hill-d7381f9dfa8a1ba180ad/1-0000.mp3", duration = 35.1085714, start = 0},
+    {file = "Audio/Transport/full_subzone_direforge-hill-76f1bebb4de9d928ab10/1-0000.mp3", duration = 26.8277551, start = 0},
   },
 }
 P.transport["subzone:dragonmaw-gates"] = {
-  hash = "e436f2",
-  fullHash = "e436f2",
-  text = "Dragonmaw Gates. The Dragonmaw Gates are a series of imposing fortifications along the mountain road leading up from the eastern Wetlands. Built to guard the steep ascent to the mountain fortress of Grim Batol, these heavy barricades bar entry into the cursed heights of the dwarven ruins. Carved into the rugged peaks bordering the eastern Wetlands, the Dragonmaw Gates seal the winding road that climbs into the mountains toward Grim Batol. Named after the Dragonmaw clan of orcs who held the dwarven mountain city during the Second War, these defensive barriers remain deeply fortified checkpoints. Anyone attempting to ascend toward the heights must contend with the lingering perils of the pass, where powerful drakes and grim reminders of the clan's dark history still cast a long shadow. Though the Dragonmaw orcs were broken and scattered following the destruction of the Demon Soul, the mountain path remains exceptionally dangerous. Powerful red dragons have been seen watching over the winding slopes and perches around the gates. Between monstrous drakes and remnants of the Dragonmaw clan lurking in the nearby hills, the gates stand as a firm barrier against any travelers bold enough to venture up the heights.",
+  hash = "b69e49",
+  fullHash = "b69e49",
+  text = "Dragonmaw Gates. At the Dragonmaw Gates, heavy fortifications bar the road climbing from the eastern Wetlands. They guard the ascent to Grim Batol, a mountain fortress in the cursed dwarven ruins. Carved into rugged peaks along the eastern Wetlands, the Dragonmaw Gates seal the winding road to Grim Batol. The barriers take their name from the Dragonmaw orcs, who held the dwarven mountain city during the Second War. The road remains a fortified checkpoint, and the ascent still brings danger. Powerful drakes haunt the pass, while grim reminders of the clan's dark history linger in the mountains. The Dragonmaw orcs were broken and scattered after the Demon Soul was destroyed, but the mountain path remains dangerous. Powerful red dragons have been seen watching the winding slopes and perches around the gates. Monstrous drakes and Dragonmaw remnants still lurk in the nearby hills, and the gates remain a firm barrier against travelers bold enough to venture into the heights.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_dragonmaw-gates-818866a1d819da9f5b56/1-0000.mp3", duration = 70.5567347, start = 0},
+    {file = "Audio/Transport/full_subzone_dragonmaw-gates-9869266fce619fc4023a/1-0000.mp3", duration = 58.3314286, start = 0},
   },
 }
 P.transport["subzone:dragonmurk"] = {
@@ -706,11 +706,11 @@ P.transport["subzone:drowned-reef"] = {
   },
 }
 P.transport["subzone:drowned-sacellum"] = {
-  hash = "9481f4",
-  fullHash = "9481f4",
-  text = "Drowned Sacellum. The Drowned Sacellum is a submerged elven shrine lying just inside the entrance of Blackfathom Deeps. Submerged beneath brackish saltwater and draped in cavernous roots, its shattered masonry is now overrun by murlocs and makrura. Stepping through the threshold of Blackfathom Deeps immediately brings explorers into the Drowned Sacellum. Once a tranquil subterranean chapel dedicated to Elune, the sacellum has long collapsed into the sea-swept abyss beneath Ashenvale's coast. Saltwater pools swallow ancient marble flagstones overgrown with starfish, while massive tree roots dangle from the cavern ceiling above. Dark, flickering wisps provide the only dim light in the gloom, illuminating a ruined pathway of stones that adventurers must carefully navigate to reach the Pool of Ask'ar deeper within the temple complex. Long abandoned by its night elf caretakers, the Drowned Sacellum has fallen into the hands of shoreline scavengers. Packs of aggressive murlocs and heavily armored makrura dwell side by side in the murky waters, attacking anyone who dares disturb their nesting grounds. While darker, cultic threats lurk further below in the temple depths, these predatory creatures form the first hazardous line of defense for the subterranean ruins.",
+  hash = "ef0095",
+  fullHash = "ef0095",
+  text = "Drowned Sacellum. At Blackfathom Deeps' entrance, the Drowned Sacellum lies submerged beneath the coast. Brackish saltwater and cavern roots surround its broken stones, now occupied by murlocs and makrura. You enter the Drowned Sacellum just beyond Blackfathom Deeps' threshold. The chapel once offered quiet worship to Elune, but it has long since collapsed into the sea-swept abyss beneath Ashenvale's coast. Brackish pools swallow its ancient marble flagstones, where starfish cling beneath the cavern ceiling's massive roots. Dark wisps flicker dimly through the gloom, lighting a broken stone path. Careful steps along it lead deeper into the temple complex, toward the Pool of Ask'ar. Night elf caretakers left the Drowned Sacellum long ago, and shoreline scavengers now hold the ruins. Packs of aggressive murlocs and heavily armored makrura share the murky waters and attack anyone who disturbs their nesting grounds. Darker cultic threats lie deeper in the temple, but these predators guard the first stretch of the underground ruins.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_drowned-sacellum-103cb4e33dc6b117c01a/1-0000.mp3", duration = 74.8146939, start = 0},
+    {file = "Audio/Transport/full_subzone_drowned-sacellum-66a07ff9ded99b48e921/1-0000.mp3", duration = 66.2465306, start = 0},
   },
 }
 P.transport["subzone:drywhisker-gorge"] = {
@@ -762,11 +762,11 @@ P.transport["subzone:dustwallow-bay"] = {
   },
 }
 P.transport["subzone:eastern-strand"] = {
-  hash = "fa38e2",
-  fullHash = "fa38e2",
-  text = "Eastern Strand. The Eastern Strand is a stretch of southern coastline in Hillsbrad Foothills, lying to the southeast toward the border of the Arathi Highlands. Once peaceful shores, the beaches and shallows have been overrun by hostile Daggerspine naga establishing a coastal beachhead. Running along the southeastern edge of Hillsbrad Foothills, the Eastern Strand complements the Western Strand across the bay. While the region is primarily known for human farming settlements and territorial clashes between Southshore and Tarren Mill, these sandy flats and tidelines are dominated entirely by the Daggerspine naga. Creeping out of the Great Sea, the serpent folk slither across the sandbars and dwell among the rocky outcrops, watching the mainland closely.",
+  hash = "4e21e8",
+  fullHash = "4e21e8",
+  text = "Eastern Strand. Daggerspine naga hold the Eastern Strand along Hillsbrad's southeastern coast. The beaches and shallows reach toward the Arathi Highlands border. The Daggerspine naga hold the Eastern Strand on Hillsbrad's southeastern edge. Across the bay lies the Western Strand. Southshore and Tarren Mill clash over the region's human farms, while the naga dominate these sandy flats and tidelines. They come from the Great Sea, crossing the sandbars and settling among rocky outcrops. From there, they watch the mainland.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_eastern-strand-bf1c145dd8b861108abe/1-0000.mp3", duration = 42.475102, start = 0},
+    {file = "Audio/Transport/full_subzone_eastern-strand-f5806e7af6da18da32d2/1-0000.mp3", duration = 30.9028571, start = 0},
   },
 }
 P.transport["subzone:eastmoon-ruins"] = {
@@ -922,11 +922,11 @@ P.transport["subzone:forgotten-coast"] = {
   },
 }
 P.transport["subzone:forgotten-pool"] = {
-  hash = "aa83c6",
-  fullHash = "aa83c6",
-  text = "Forgotten Pool. The Forgotten Pool is a submerged cavern tucked deep beneath the flooded corridors of Blackfathom Deeps. Located beyond the Moonshrine Ruins, this quiet dead-end serves as the aquatic lair of monstrous deep-sea predators lurking in the subterranean dark. Reaching the Forgotten Pool requires diving into the sunken subterranean waterways extending past the Moonshrine Ruins. Cut off from dry ground, the pool is an isolated, stagnant cavern completely flooded by dark waters. Away from the chanting Twilight's Hammer cultists and the patrolling naga, this secluded pocket serves as the lair of the ancient aquatic terror known as Old Serra'kis, keeping the beast hidden in the flooded dark.",
+  hash = "53b928",
+  fullHash = "53b928",
+  text = "Forgotten Pool. Past the Moonshrine Ruins, Forgotten Pool lies beneath the flooded halls of Blackfathom Deeps. Its dark waters hide monstrous deep-sea predators. You reach Forgotten Pool by diving through the sunken waterways beyond the Moonshrine Ruins. Dark water fills this isolated cavern, cut off from dry ground. Twilight's Hammer cultists chant nearby, and naga patrol the flooded halls, but the pool lies apart from them. Old Serra'kis, an ancient aquatic terror, lairs in its depths, hidden by the water.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_forgotten-pool-0d4afeef4eb8a64a8781/1-0000.mp3", duration = 41.9787755, start = 0},
+    {file = "Audio/Transport/full_subzone_forgotten-pool-0fb7dac8b07ec242fdd3/1-0000.mp3", duration = 33.1232653, start = 0},
   },
 }
 P.transport["subzone:forlorn-cloister"] = {
@@ -1050,11 +1050,11 @@ P.transport["subzone:ghost-walker-post"] = {
   },
 }
 P.transport["subzone:gnomeregan"] = {
-  hash = "6aedcd",
-  fullHash = "6aedcd",
-  text = "Gnomeregan. Gnomeregan was the magnificent subterranean capital of the gnomish race, renowned across Azeroth for its mechanical brilliance and technological marvels. Today, it stands as a radioactive tomb, overrun by subterranean troggs, haywire defense automatons, and deranged leper gnomes after a desperate defense ended in catastrophe. Carved into the snowy crags of western Dun Morogh, Gnomeregan was built with the aid of the Ironforge dwarves centuries ago. Inside, massive steam-driven gears, intricate copper piping, and cavernous assembly halls formed the intellectual and industrial beating heart of gnomekind. It was from these subterranean halls that gnomish designs, flying machines, and complex armaments supplied the Alliance throughout the Second War, standing firm even when besieged by Orgrim Doomhammer's Horde. During the Third War, a subterranean surge of troggs erupted from deep beneath the earth, breaching the city's lowest chambers. Unwilling to divert Alliance armies from the slaughter in Lordaeron, High Tinker Gelbin Mekkatorque attempted to handle the crisis alone. On the advice of his chief engineer, Mekgineer Thermaplugg, Mekkatorque ordered radioactive gas vented through the lower chambers to wipe out the brutes. The plan backfired horrifyingly: the gas empowered many troggs while killing nearly eighty percent of the gnomish populace. Those exposed who did not perish mutated into twisted leper gnomes, while Thermaplugg seized rule over the poisoned ruins.",
+  hash = "f71771",
+  fullHash = "f71771",
+  text = "Gnomeregan. In the poisoned halls of Gnomeregan, troggs and leper gnomes roam among broken defenses. Once the gnomes’ subterranean capital, it fell after a desperate defense turned to catastrophe. Gnomeregan’s halls once rang with the work of gnomish engineers. Built with aid from the Ironforge dwarves centuries ago, the city was carved into the snowy crags of western Dun Morogh. Steam-driven gears, copper piping, and vast assembly halls made it the heart of gnomish industry and invention. During the Second War, its designs, flying machines, and complex armaments supplied the Alliance. The city held firm even as Orgrim Doomhammer’s Horde laid siege. During the Third War, troggs surged from deep underground and broke into Gnomeregan’s lowest chambers. High Tinker Gelbin Mekkatorque chose to face the invasion alone, unwilling to draw Alliance armies away from the slaughter in Lordaeron. On the advice of chief engineer Mekgineer Thermaplugg, he ordered radioactive gas released through the lower chambers to wipe out the troggs. Instead, the gas empowered many of them and killed nearly eighty percent of the gnomish people. Those exposed who survived became twisted leper gnomes, and Thermaplugg took control of the poisoned ruins.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_gnomeregan-e07ea81914c3cfb0ae5c/1-0000.mp3", duration = 94.4326531, start = 0},
+    {file = "Audio/Transport/full_subzone_gnomeregan-57c917530007cdb23cb9/1-0000.mp3", duration = 76.564898, start = 0},
   },
 }
 P.transport["subzone:go-shek-farm"] = {
@@ -1090,11 +1090,11 @@ P.transport["subzone:gordunni-outpost"] = {
   },
 }
 P.transport["subzone:green-belt"] = {
-  hash = "85c131",
-  fullHash = "85c131",
-  text = "Green Belt. The Green Belt is a wild stretch of marshland in the eastern Wetlands, sprawling below the ridges of Grim Batol. It is overrun by roaming bog beasts, predatory crocolisks, and toxic oozes, guarded primarily by the solitary night elf Rethiel the Greenwarden. Stretching across the eastern interior of the Wetlands, the Green Belt is one of the sodden region's untamed hollows. The local wildlife—ranging from massive crocolisks to shifting oozes and shambling bog beasts—makes travel through the mossy waters hazardous. Deep within its reaches sits a solitary watch post manned by Rethiel the Greenwarden, a lone night elf dedicated to studying the fen's ecology and keeping its hostile denizens in check. Scattered amidst the muck lies the wreckage of a Dragonmaw clan caravan, left behind after the catastrophic battle at nearby Grim Batol. Crimson whelplings still linger around the broken carts and crushed cages, haunting reminders of the orcish clan's past enslavement of Alexstrasza and her red dragon brood.",
+  hash = "99e634",
+  fullHash = "99e634",
+  text = "Green Belt. In eastern Wetlands, Green Belt lies below the ridges of Grim Batol. Bog beasts, crocolisks, and toxic oozes roam its marshes, while Rethiel the Greenwarden keeps watch alone. Green Belt fills the eastern interior of Wetlands, where mossy waters make travel hazardous. Massive crocolisks, shifting oozes, and shambling bog beasts roam the fen. Deep within it, a solitary watch post is manned by Rethiel the Greenwarden, a night elf who studies the fen's ecology and keeps its hostile creatures in check. Wreckage from a Dragonmaw clan caravan lies scattered in the muck, left behind after the catastrophic battle at nearby Grim Batol. Crimson whelplings linger around the broken carts and crushed cages, reminders of the clan's past enslavement of Alexstrasza and her red dragon brood.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_green-belt-cd99abfa20a61c17c307/1-0000.mp3", duration = 65.5934694, start = 0},
+    {file = "Audio/Transport/full_subzone_green-belt-0b02924b60284b78f17f/1-0000.mp3", duration = 53.1330612, start = 0},
   },
 }
 P.transport["subzone:grimesilt-dig-site"] = {
@@ -1122,11 +1122,11 @@ P.transport["subzone:grom-gol-base-camp"] = {
   },
 }
 P.transport["subzone:growless-cave"] = {
-  hash = "afdae9",
-  fullHash = "afdae9",
-  text = "Growless Cave. Growless Cave is a frigid cavern carved into the crags of the Alterac Mountains, overrun by ferocious mountain yetis. It is best known as the resting place of the Flame of Uzel, an unholy ceremonial pyre tied to the dark necromancy of Helcular. Tucked away in the snow-dusted heights overlooking the foothills, Growless Cave serves primarily as a den for the territorial mountain yetis that roam Alterac. Travelers navigating the treacherous slopes often steer clear of its mouth, especially when the notorious yeti Skhowl is sighted prowling outside. Beyond the primal danger of the beasts, the cave harbors a sinister past: inside lies the Flame of Uzel, an arcane brazier left behind by the ambitious human mage Helcular. Before his demise, Helcular intended to use the pyre in a dark ritual to achieve lichdom, and its foul warmth once drew the massive predator Frostmaw out from the frozen wastes.",
+  hash = "bf4424",
+  fullHash = "bf4424",
+  text = "Growless Cave. In frigid Growless Cave, mountain yetis roam the cavern in the Alterac Mountains. The cave also holds the Flame of Uzel, a ceremonial pyre tied to Helcular's dark necromancy. Territorial mountain yetis roam Growless Cave in the crags above Alterac's foothills. Travelers on the treacherous slopes avoid its entrance, especially when Skhowl, a notorious yeti, prowls outside. The cave holds more than danger from the beasts. Within it stands the Flame of Uzel, an arcane brazier left by the human mage Helcular. Before his death, Helcular meant to use the pyre in a dark ritual to become a lich. Its foul warmth once drew Frostmaw, a massive predator, from the frozen wastes.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_growless-cave-c417983f2c0c9da9bbf7/1-0000.mp3", duration = 57.1036735, start = 0},
+    {file = "Audio/Transport/full_subzone_growless-cave-9c984ca58ec77dcf528a/1-0000.mp3", duration = 43.284898, start = 0},
   },
 }
 P.transport["subzone:gurubashi-arena"] = {
@@ -1266,11 +1266,11 @@ P.transport["subzone:infectis-scar"] = {
   },
 }
 P.transport["subzone:ironforge"] = {
-  hash = "968079",
-  fullHash = "968079",
-  text = "Ironforge. Ironforge is the underground capital city of the dwarves, excavated deep into the stone of Ironforge Mountain within Dun Morogh. Centered around the roaring Great Forge, it serves as the political and mercantile anchor of the Kingdom of Khaz Modan and a bulwark of the Alliance. Carved into the subterranean depths of Ironforge Mountain, the city is arranged in concentric stone rings radiating out from the monumental Great Forge. Originally founded millenia ago after the dwarves awakened and migrated from Uldaman, it has weathered ages of history, including the ancient War of the Three Hammers that left the Bronzebeard clan in sole control. Powered by cascading torrents of molten magma and fortified behind massive stone gates, the cavern city is equal parts industrial powerhouse and impenetrable bastion. Beyond dwarven craftsmen and warriors, its halls also host a substantial population of exiled gnomes following the recent fall of Gnomeregan. In 25 ADP, Ironforge stands as perhaps the busiest center of commerce and industry across the Alliance. King Magni Bronzebeard presides over Khaz Modan from the High Seat, while dwarven prospectors, miners, and engineers work in concert with gnome refugees settled in Tinker Town. The subterranean Deeprun Tram establishes an unbroken, high-speed transit line beneath the mountains directly to Stormwind City, keeping both capitals tightly linked through trade, troop movements, and mutual defense.",
+  hash = "ee2d26",
+  fullHash = "ee2d26",
+  text = "Ironforge. Ironforge's Great Forge burns beneath the mountain, at the heart of dwarven rule and Alliance trade. Deep inside Ironforge Mountain in Dun Morogh, the city is the political and mercantile anchor of Khaz Modan and a bulwark of the Alliance. Ironforge fills the deep halls of Ironforge Mountain, its stone rings circling the Great Forge. The dwarves founded the city millennia ago, after awakening and migrating from Uldaman. It has weathered ages of history, including the ancient War of the Three Hammers, which left the Bronzebeard clan in sole control. Natural magma pours through the mountain to power the city, while massive stone gates guard its halls. Dwarven craftsmen and warriors share them with many exiled gnomes, who came after the recent fall of Gnomeregan. Ironforge is perhaps the Alliance's busiest center of commerce and industry. King Magni Bronzebeard rules Khaz Modan from the High Seat, while dwarven prospectors, miners, and engineers work alongside gnome refugees in Tinker Town. The Deeprun Tram runs beneath the mountains to Stormwind City, carrying trade and troops at high speed and keeping the capitals linked in mutual defense.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_ironforge-29408a3b1d1d947b7694/1-0000.mp3", duration = 92.6302041, start = 0},
+    {file = "Audio/Transport/full_subzone_ironforge-52688f3438463e36547d/1-0000.mp3", duration = 74.3444898, start = 0},
   },
 }
 P.transport["subzone:ironstone-camp"] = {
@@ -1450,11 +1450,11 @@ P.transport["subzone:lariss-pavilion"] = {
   },
 }
 P.transport["subzone:launch-bay"] = {
-  hash = "d767c9",
-  fullHash = "d767c9",
-  text = "Launch Bay. The Launch Bay is a subterranean airfield and hangar tucked within the depths of Gnomeregan, located just beyond the Hall of Gears. Once the staging ground for gnomish flying machines and bombers, it has fallen completely under the control of hostile leper gnomes and corrupted mechanical contraptions. Serving as the primary hangar for Gnomeregan's aerial fleet, the Launch Bay is split across two tiers. Its central platform, reached by ramps from the upper walkway, still houses parked gnomish flying machines and heavy bombers that never made it out before the city was evacuated. Instead of skilled pilots, the flight decks are now crawling with crazed leper gnomes who maintain and guard the idling war machines. Beyond its military role, the Launch Bay serves as a vital junction within the complex. Ramps from its southeastern corridor descend into the Engineering Labs, while a southern passage on the lower deck is choked with invading Dark Iron dwarves. That southern tunnel provides a perilous path toward the heart of the city at Tinkers' Court.",
+  hash = "f64f3d",
+  fullHash = "f64f3d",
+  text = "Launch Bay. Hostile leper gnomes and corrupted machines hold Launch Bay, deep in Gnomeregan beyond the Hall of Gears. The underground airfield once served gnomish flying machines and bombers; now the city’s former hangar is under enemy control. Launch Bay’s two tiers once housed Gnomeregan’s aerial fleet. Ramps from the upper walkway lead to a central platform where flying machines and heavy bombers remain parked, left behind before the city was evacuated. Crazed leper gnomes now roam the flight decks, maintaining and guarding the idle war machines in place of skilled pilots. Launch Bay also joins several parts of the complex. Ramps from its southeastern corridor descend into the Engineering Labs. On the lower deck, invading Dark Iron dwarves choke the southern passage. That tunnel offers a perilous route toward Tinkers' Court, deep in the city.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_launch-bay-a10047b6c6be666f8a35/1-0000.mp3", duration = 62.4326531, start = 0},
+    {file = "Audio/Transport/full_subzone_launch-bay-9569bae2753a10b5481b/1-0000.mp3", duration = 52.0881633, start = 0},
   },
 }
 P.transport["subzone:lethlor-ravine"] = {
@@ -1482,11 +1482,11 @@ P.transport["subzone:light-s-hope-chapel"] = {
   },
 }
 P.transport["subzone:loading-room"] = {
-  hash = "1de187",
-  fullHash = "1de187",
-  text = "Loading Room. The Loading Room is an industrial staging chamber inside Gnomeregan's sprawling mechanical complex. In the current era, this subterranean staging area lies deep within the corrupted fallen capital, dangerously close to rogue constructs such as Techbot. Before the fall of Gnomeregan, the Loading Room functioned as a bustling transit point and cargo staging bay linked to the subterranean transit networks of the tinker capital. Today, like the rest of the ruined city, it has succumbed to chaos. Radioactive fallout, invading troggs, and malfunctioning machinery have rendered the area extremely perilous. The rogue mechanized construct Techbot guards the vicinity, posing a severe threat to any gnome survivors or daring Alliance reclaimers attempting to secure the perimeter.",
+  hash = "33a42e",
+  fullHash = "33a42e",
+  text = "Loading Room. In Gnomeregan's depths, the Loading Room is a dangerous place to pass through. The ruined chamber once staged cargo for the city's transit networks, but radioactive fallout and rogue machinery now threaten anyone who enters. The Loading Room once handled cargo for Gnomeregan's underground transit network. Before the city fell, goods passed through its staging bay on their way across the tinker capital. Now the room is caught in the ruin that has overtaken Gnomeregan. Radioactive fallout, invading troggs, and failing machinery make the area perilous. Techbot, a rogue mechanized construct, guards the vicinity. Gnome survivors and Alliance reclaimers who try to secure the perimeter must face that danger.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_loading-room-a11ec0c8e52be3049c76/1-0000.mp3", duration = 45.7926531, start = 0},
+    {file = "Audio/Transport/full_subzone_loading-room-fcbb4a4a1ba6ec17a598/1-0000.mp3", duration = 42.7363265, start = 0},
   },
 }
 P.transport["subzone:lordamere-internment-camp"] = {
@@ -1498,11 +1498,11 @@ P.transport["subzone:lordamere-internment-camp"] = {
   },
 }
 P.transport["subzone:lost-fleet"] = {
-  hash = "124518",
-  fullHash = "124518",
-  text = "Lost Fleet. The Lost Fleet consists of the shattered wooden hulks of the Kul Tiras Third Fleet, sunken off the northern coast of the Wetlands along Baradin Bay. Decimated during the Second War by Dragonmaw-enslaved red dragons, the wreckage is now haunted by restless, cursed undead sailors bound to the wreckage by a mysterious curse. During the Second War, on its last voyage, the Kul Tiras Third Fleet was ambushed from above by red dragons enslaved by the Dragonmaw clan. Sheets of dragonflame quickly engulfed the fleet, sending proud vessels like the Wave Mistress and the Intrepid crashing onto the shallows and reefs of northern Bluegill Marsh. Almost the entire contingent drowned or burned, with First Mate Fitzsimmons standing as the lone living survivor of the disaster.",
+  hash = "16b431",
+  fullHash = "16b431",
+  text = "Lost Fleet. The Lost Fleet lies broken off the Wetlands’ northern coast, along Baradin Bay. The Kul Tiras Third Fleet was destroyed in the Second War by red dragons enslaved by the Dragonmaw clan, and its wrecks are haunted by cursed undead sailors. On its last voyage in the Second War, the Kul Tiras Third Fleet came under attack from red dragons enslaved by the Dragonmaw clan. Dragonflame engulfed its ships, and the Wave Mistress and the Intrepid crashed onto the shallows and reefs of northern Bluegill Marsh. Almost the entire contingent drowned or burned. First Mate Fitzsimmons was the lone living survivor.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_lost-fleet-3baa3cf60cb582baf650/1-0000.mp3", duration = 49.4497959, start = 0},
+    {file = "Audio/Transport/full_subzone_lost-fleet-55c90440c847844713d8/1-0000.mp3", duration = 38.164898, start = 0},
   },
 }
 P.transport["subzone:lost-point"] = {
@@ -1610,19 +1610,19 @@ P.transport["subzone:mazthoril"] = {
   },
 }
 P.transport["subzone:menethil-bay"] = {
-  hash = "7b9729",
-  fullHash = "7b9729",
-  text = "Menethil Bay. Menethil Bay is the sheltered body of water along the western coast of the Wetlands, nestled between Menethil Harbor and the steep northern cliffs of Dun Morogh. Opening outward into the wider Baradin Bay, these waters are home to aggressive crocolisks and the remains of sunken vessels. It serves as the primary maritime approach for Alliance traffic journeying between the Eastern Kingdoms and Kalimdor. Part of the larger Baradin Bay along the Great Sea, Menethil Bay forms a natural inlet bordered by Menethil Harbor to the north, Black Channel Marsh to the east, and the towering coastal bluffs of Dun Morogh to the south. Its shallow margins and marshy shores crawl with crocolisks of various ages and sizes, making the shallows treacherous for unguided travelers even though the bay serves as the lifeblood of Alliance maritime travel. Near the mouth of the bay lies the ruined wreckage of the Flying Osprey, a silent reminder of the dangers lurking beneath the surface.",
+  hash = "409c20",
+  fullHash = "409c20",
+  text = "Menethil Bay. Menethil Bay carries Alliance traffic along the western coast of the Wetlands. The sheltered waters open into Baradin Bay, with Menethil Harbor to the north and Dun Morogh's steep cliffs to the south. Crocolisks prowl the shallows, and sunken vessels lie below. Menethil Bay opens from the Wetlands into the Great Sea as part of Baradin Bay. Menethil Harbor lies to the north, Black Channel Marsh to the east, and Dun Morogh's coastal bluffs to the south. Crocolisks of many sizes prowl the shallow margins and marshy shores, making the water dangerous for travelers without a guide. The bay carries Alliance sea traffic, and near its mouth rests the ruined Flying Osprey, a warning of the wreckage beneath the surface.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_menethil-bay-e0ad40007b9e9a4b990e/1-0000.mp3", duration = 58.9844898, start = 0},
+    {file = "Audio/Transport/full_subzone_menethil-bay-23d38fffff612b1a4a2b/1-0000.mp3", duration = 44.0163265, start = 0},
   },
 }
 P.transport["subzone:menethil-keep"] = {
-  hash = "646a33",
-  fullHash = "646a33",
-  text = "Menethil Keep. Menethil Keep is the stone stronghold dominating the skyline of Menethil Harbor in the Wetlands. Marked by four sturdy watchtowers, it serves as the administrative heart and defensive bastion of the Alliance port, housing the local militia commander, Captain Stoutfist. Rising above the wooden docks and soggy marshes of the Wetlands, Menethil Keep is the central military strongpoint of Menethil Harbor. With four stone watchtowers gazing out over the town and the bay, the fortress offers a commanding view against seaward raiders, renegades, and the encroaching swamp beasts. Inside, Captain Stoutfist oversees the defense of the port, directing the town militia and organizing patrols to safeguard Alliance interests throughout the region.",
+  hash = "9aa656",
+  fullHash = "9aa656",
+  text = "Menethil Keep. Menethil Keep commands the skyline above Menethil Harbor in the Wetlands. Four watchtowers guard the Alliance port, and Captain Stoutfist leads its militia from within the stone walls. Menethil Keep rises over Menethil Harbor’s wooden docks and the Wetlands marshes. Four stone watchtowers overlook the town and bay, watching for seaward raiders, renegades, and swamp beasts pushing into the area. Within the fortress, Captain Stoutfist directs the town militia and organizes patrols to defend the port and protect Alliance interests across the region.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_menethil-keep-094563e5fe0d63ffa97e/1-0000.mp3", duration = 46.9681633, start = 0},
+    {file = "Audio/Transport/full_subzone_menethil-keep-fe3ab63d90c7a8b2e699/1-0000.mp3", duration = 35.8661224, start = 0},
   },
 }
 P.transport["subzone:mirage-flats"] = {
@@ -1682,11 +1682,11 @@ P.transport["subzone:moon-horror-den"] = {
   },
 }
 P.transport["subzone:moonshrine-sanctum"] = {
-  hash = "1fb9d1",
-  fullHash = "1fb9d1",
-  text = "Moonshrine Sanctum. Moonshrine Sanctum is an ancient elven shrine deep within Blackfathom Deeps, now serving as the inner redoubt for the Twilight's Hammer cult. Presided over by Twilight Lord Kelris, the chamber houses a pristine monument to Queen Azshara and directly guards the sealed entrance to Aku'mai's lair. Situated just beyond the flooded Moonshrine Ruins, the Moonshrine Sanctum represents the central hub of cultist activity inside Blackfathom Deeps. Though originally built millennia ago by night elves to honor the moon and their rulers, the hall is now defiled by the Twilight's Hammer. Interestingly, the cultists have carefully maintained the towering effigy of Queen Azshara, seemingly untroubled by its subject. Under the watchful gaze of Twilight Lord Kelris, dark rituals are chanted day and night beneath the cavernous stone ceiling.",
+  hash = "030c67",
+  fullHash = "030c67",
+  text = "Moonshrine Sanctum. Within Blackfathom Deeps, Twilight's Hammer gathers beneath Queen Azshara's statue. Twilight Lord Kelris watches over the ancient shrine, which guards the sealed way to Aku'mai's lair. Past the flooded Moonshrine Ruins, cultists gather in the Moonshrine Sanctum, the heart of Twilight's Hammer activity inside Blackfathom Deeps. Night elves built the hall millennia ago to honor the moon and their rulers. Now the cult has defiled it, yet carefully maintains the towering statue of Queen Azshara. Beneath the cavernous stone ceiling, Twilight Lord Kelris watches as the cultists chant dark rituals day and night.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_moonshrine-sanctum-d7b44152fce3ac0ecfbb/1-0000.mp3", duration = 50.1289796, start = 0},
+    {file = "Audio/Transport/full_subzone_moonshrine-sanctum-83690410de4910b48ac2/1-0000.mp3", duration = 40.9861224, start = 0},
   },
 }
 P.transport["subzone:morgan-s-plot"] = {
@@ -1722,11 +1722,11 @@ P.transport["subzone:mosh-ogg-ogre-mound"] = {
   },
 }
 P.transport["subzone:mosshide-fen"] = {
-  hash = "8ad353",
-  fullHash = "8ad353",
-  text = "Mosshide Fen. Mosshide Fen is a swampy, treacherous tract in the eastern Wetlands overrun by the Mosshide gnoll tribe. Dotted with primitive encampments, it is one of the most perilous regions for travelers venturing off the main trade roads. Sprawling across the murky eastern reaches of the Wetlands, Mosshide Fen serves as the primary domain of the aggressive Mosshide gnolls. The swamp here is dense and tangled, dotted with rough lean-tos and bone-strewn camps. Under the vicious command of pack leaders like Gnawbone, the gnolls fiercely guard their muddy claims, readily ambushing and devouring any travelers, scouts, or prospectors foolish enough to wander into their hunting grounds.",
+  hash = "6db38d",
+  fullHash = "6db38d",
+  text = "Mosshide Fen. In eastern Wetlands, Mosshide Fen is held by the Mosshide gnolls. Its primitive camps lie far from the main trade roads, where travelers face danger. Mosshide gnolls hold the tangled marsh of eastern Wetlands. Rough lean-tos and bone-strewn camps mark their territory. Gnawbone and other pack leaders command the tribe, which ambushes and devours travelers, scouts, and prospectors who enter its hunting grounds.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_mosshide-fen-a8fb9aa8278be2a6b03f/1-0000.mp3", duration = 40.1502041, start = 0},
+    {file = "Audio/Transport/full_subzone_mosshide-fen-d09bea9af28939bea8e6/1-0000.mp3", duration = 26.122449, start = 0},
   },
 }
 P.transport["subzone:nat-s-landing"] = {
@@ -1754,11 +1754,11 @@ P.transport["subzone:nesingwary-s-expedition"] = {
   },
 }
 P.transport["subzone:nethander-stead"] = {
-  hash = "fd1a45",
-  fullHash = "fd1a45",
-  text = "Nethander Stead. Nethander Stead is an abandoned farmstead lying along the road just east of Southshore in the Hillsbrad Foothills. Once a working human farm, it has fallen into ruin and is completely overrun by the Mudsnout gnoll pack. The fields are overgrown with giant white mushrooms known as Mudsnout Blossoms, attracting the interest of Forsaken alchemists. Situated within sight of Southshore's eastern borders, Nethander Stead was once an active piece of the region's agricultural belt. Like much of the eastern foothills, the farm was abandoned as regional security eroded and wild packs moved in. Today, it serves as the sole enclave of the Mudsnout gnolls in the foothills. The brutes dwell among the ruined fences and outbuildings, aggressively driving off any travelers who wander too close to their claimed territory.",
+  hash = "6f58c6",
+  fullHash = "6f58c6",
+  text = "Nethander Stead. Nethander Stead lies abandoned along the road east of Southshore, overrun by Mudsnout gnolls. Once a human farm, its fields now hold giant white Mudsnout Blossoms that draw Forsaken alchemists. At Nethander Stead, ruined fences and outbuildings stand within sight of Southshore's eastern borders. The farm once formed part of Hillsbrad's working fields, but it was abandoned as security weakened and wild packs moved in. Now the Mudsnout gnolls make their only home in the foothills here. They drive off travelers who come too close to their territory.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_nethander-stead-678a33f59098de83e48d/1-0000.mp3", duration = 49.92, start = 0},
+    {file = "Audio/Transport/full_subzone_nethander-stead-11c84e28b5a268689d33/1-0000.mp3", duration = 35.2130612, start = 0},
   },
 }
 P.transport["subzone:nethergarde-keep"] = {
@@ -1962,11 +1962,11 @@ P.transport["subzone:ragefire-chasm"] = {
   },
 }
 P.transport["subzone:raptor-ridge"] = {
-  hash = "f9911c",
-  fullHash = "f9911c",
-  text = "Raptor Ridge. Raptor Ridge is an elevated, rugged expanse in the eastern Wetlands, sitting northwest of the fortified Dragonmaw Gates. It serves as the primary hunting and nesting grounds for packs of ferocious Razormaw raptors, overseen by a particularly vicious matriarch deep within its caverns. Rising above the sodden marshes of the eastern Wetlands, Raptor Ridge is among the most perilous wilderness areas in the region. Vicious Razormaw raptors prowl its crags and rocky trails in large packs, making travel near the foothills of Khaz Modan hazardous for wanderers. At the heart of the ridge lies a brooding cavern dominated by the Razormaw Matriarch, whose aggressive brood aggressively defends their nests against any encroaching predators or foolish travelers wandering too close to the Dragonmaw Gates.",
+  hash = "e86750",
+  fullHash = "e86750",
+  text = "Raptor Ridge. Raptor Ridge rises above the eastern Wetlands, northwest of the Dragonmaw Gates. Razormaw raptors hunt and nest among its crags, with a vicious matriarch deep in the caverns. Razormaw raptors hunt in packs across Raptor Ridge, where rocky trails climb above the eastern Wetlands. Travelers near the foothills of Khaz Modan risk meeting these predators. In a cavern at the ridge's heart, the Razormaw Matriarch guards her brood and nests from intruders. The Dragonmaw Gates lie close by.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_raptor-ridge-2b32afa3b8868056dd4b/1-0000.mp3", duration = 47.2816327, start = 0},
+    {file = "Audio/Transport/full_subzone_raptor-ridge-dbce210a16c06a6edfc4/1-0000.mp3", duration = 30.5110204, start = 0},
   },
 }
 P.transport["subzone:ravaged-twilight-camp"] = {
@@ -2130,11 +2130,11 @@ P.transport["subzone:rustmaul-dig-site"] = {
   },
 }
 P.transport["subzone:saltspray-glen"] = {
-  hash = "c5bf78",
-  fullHash = "c5bf78",
-  text = "Saltspray Glen. Saltspray Glen is a windswept expanse in the northwestern Wetlands hugging the shores of Baradin Bay. Strong coastal gales regularly fling briny seawater across the mossy lowland, which is overrun by aggressive wild raptors. It forms a treacherous natural corridor between neighboring murloc-infested marshes and ancient dwarven ruins. Tucked away in the far northwestern reach of the Wetlands, Saltspray Glen takes its name from the sea spray driven inland off Baradin Bay whenever coastal gales kick up. Bordered by the murloc-haunted waters of Bluegill Marsh to the south and the quiet bluffs of Ironbeard's Tomb to the east, the glen offers little comfort to passing travelers. Packs of cunning wild raptors nest throughout the marshy grass, hunting along the brackish flats alongside their kin from nearby Raptor Ridge and Black Channel Marsh.",
+  hash = "ba14e4",
+  fullHash = "ba14e4",
+  text = "Saltspray Glen. Along Baradin Bay, salty spray sweeps across Saltspray Glen, where wild raptors roam the lowland. The glen lies between murloc waters and ancient dwarven ruins. In the Wetlands' far northwest, salty spray blows inland across Saltspray Glen from Baradin Bay. Bluegill Marsh and its murloc-haunted waters lie to the south, while the quiet bluffs of Ironbeard's Tomb rise to the east. Cunning wild raptors nest through the marshy grass and hunt across the brackish flats. Their kin range nearby at Raptor Ridge and Black Channel Marsh, leaving little comfort for travelers passing through.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_saltspray-glen-2d4944e7d30202b0795b/1-0000.mp3", duration = 53.8122449, start = 0},
+    {file = "Audio/Transport/full_subzone_saltspray-glen-1af41bdf220f557951c0/1-0000.mp3", duration = 38.2432653, start = 0},
   },
 }
 P.transport["subzone:salty-sailor-tavern"] = {
@@ -2226,11 +2226,11 @@ P.transport["subzone:scarlet-basilica"] = {
   },
 }
 P.transport["subzone:scarlet-monastery"] = {
-  hash = "a08ff6",
-  fullHash = "a08ff6",
-  text = "Scarlet Monastery. Perched in the northeastern hills of Tirisfal Glades, the Scarlet Monastery was once a peaceful center of scholarship and worship for the Church of the Holy Light. In the wake of Lordaeron's fall, it has become a heavily fortified redoubt for the fanatical Scarlet Crusade. Anyone approaching without red colors is treated as an infected carrier of the plague and executed on sight. Before the Third War, this complex was a proud bastion of Lordaeron's priesthood, serving as a vital center for theological study, sacred archives, and paladin training. When the Kingdom of Lordaeron fell to the Scourge, surviving defenders held the site against the undead. As they devolved into the zealous Scarlet Crusade, they fortified the cloister, turning its peaceful libraries, gardens, and cathedral into an armed citadel. Divided into four distinct wings—a defiled graveyard, an expansive library, an armory, and a grand cathedral—the Monastery now houses a massive garrison commanded by Scarlet Commander Mograine and High Inquisitor Whitemane. The Crusaders here view all outsiders, whether living or undead, Alliance or Horde, as plague-bearers. While the Forsaken seek to eliminate the garrison threatening their very doorstep, Alliance leadership increasingly views the Crusade's violent extremism as a dangerous perversion of the Light.",
+  hash = "c13340",
+  fullHash = "c13340",
+  text = "Scarlet Monastery. Scarlet Monastery now shelters the fanatical Scarlet Crusade in Tirisfal Glades. Once a peaceful center of scholarship and worship for the Church of the Holy Light, it has become a fortified redoubt. Anyone approaching without red colors is treated as a carrier of the plague and executed on sight. Before the Third War, the Scarlet Monastery was a proud center of Lordaeron's priesthood. Its halls held theological studies and sacred archives, and paladins trained there. When the Scourge brought down the kingdom, surviving defenders held the site against the undead. Those survivors became the zealous Scarlet Crusade and fortified the cloister. Libraries, gardens, and the cathedral became parts of an armed stronghold. Four wings make up the Scarlet Monastery: a defiled graveyard, an expansive library, an armory, and a grand cathedral. Scarlet Commander Mograine and High Inquisitor Whitemane command its massive garrison. The Crusaders see every outsider as a plague-bearer, living or undead, Alliance or Horde. The Forsaken seek to destroy the garrison that threatens their doorstep, while Alliance leaders increasingly see the Crusade's violent extremism as a dangerous perversion of the Light.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_scarlet-monastery-887c068051f7ae32c4da/1-0000.mp3", duration = 81.162449, start = 0},
+    {file = "Audio/Transport/full_subzone_scarlet-monastery-e9268c2d350abf360160/1-0000.mp3", duration = 71.9934694, start = 0},
   },
 }
 P.transport["subzone:scarlet-monastery-armory"] = {
@@ -2322,11 +2322,11 @@ P.transport["subzone:shadowbreak-ravine"] = {
   },
 }
 P.transport["subzone:shadowfang-keep"] = {
-  hash = "df0386",
-  fullHash = "df0386",
-  text = "Shadowfang Keep. Perched on a rugged bluff overlooking Pyrewood Village in southern Silverpine Forest, Shadowfang Keep is the dark lair of the mad Archmage Arugal and his feral worgen. Formerly known as Silverlaine Keep, the fortress fell to ravenous wolf-beasts summoned during the Third War, leaving its ancient halls haunted by the slain nobility and crawling with lupine horrors. Before the Third War, this towering fortress was called Silverlaine Keep, the ancestral seat of Baron Silverlaine and the center of authority for nearby Pyrewood Village. When the Scourge swept through Lordaeron, desperate wizards sought forbidden means to stem the undead tide. Relying on the dimensional research of the Dalaran mage Ur, the Archmage Arugal summoned the extra-dimensional worgen into Azeroth. The savage beasts tore through the Scourge, but quickly spiraled out of control. Rampaging across southern Silverpine, the pack besieged the stronghold, slaughtering Baron Silverlaine, his family, and Commander Springvale's defenders. Guilt and grief shattered Arugal's sanity; rather than flee, he claimed the fortress, renaming it Shadowfang Keep and adopting the monstrous predators as his 'children.' Today, Shadowfang Keep serves as the epicenter of a growing wolf curse that plagues Silverpine Forest. Arugal dwells in the highest observatory, flanked by his ravenous worgen—including the Moonrage and Shadowfang packs—and sinister beasts like his massive pet wolf, Fenrus. Below his sanctum, the restless ghosts of the keep's former lords, such as Baron Silverlaine and Commander Springvale, remain trapped in torment, cursed to endlessly defend the halls they failed to protect in life. From atop these walls, Arugal extends his insidious influence down into Pyrewood Village and the surrounding woodlands, posing a dire threat to the neighboring Forsaken who seek to purge the forest of his madness.",
+  hash = "c0187f",
+  fullHash = "c0187f",
+  text = "Shadowfang Keep. On a rugged bluff above Pyrewood Village, Shadowfang Keep broods over southern Silverpine Forest. Once Silverlaine Keep, it fell to worgen summoned during the Third War and became the lair of the mad Archmage Arugal, haunted by slain nobles and overrun by wolf-beasts. Before the Third War, Baron Silverlaine ruled nearby Pyrewood Village from his ancestral seat, Silverlaine Keep. When the Scourge swept through Lordaeron, desperate wizards sought forbidden means to stem the undead tide. Drawing on Dalaran mage Ur's dimensional research, Archmage Arugal summoned worgen from beyond this world. The savage beasts tore through the Scourge, then escaped control. They rampaged across southern Silverpine and besieged the keep, killing Baron Silverlaine, his family, and the defenders under Commander Springvale. Guilt and grief broke Arugal's sanity. He claimed the fortress, renamed it Shadowfang Keep, and called the monstrous predators his children. Shadowfang Keep is the heart of a growing wolf curse in Silverpine Forest. Arugal dwells in the highest observatory, surrounded by ravenous worgen of the Moonrage and Shadowfang packs. Sinister beasts also prowl the keep, including his massive pet wolf, Fenrus. Below Arugal's sanctum, the restless ghosts of the keep's former lords and household remain trapped in torment. Baron Silverlaine and Commander Springvale are among them, cursed to defend the halls they failed to protect in life. From the walls, Arugal's influence reaches Pyrewood Village and the surrounding woodlands, threatening the neighboring Forsaken who seek to purge the forest of his madness.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_shadowfang-keep-5d0fc0cb5d5157132c0e/1-0000.mp3", duration = 117.55102, start = 0},
+    {file = "Audio/Transport/full_subzone_shadowfang-keep-c130f4c5154e616d0487/1-0000.mp3", duration = 101.093878, start = 0},
   },
 }
 P.transport["subzone:shadowprey-village"] = {
@@ -2402,11 +2402,11 @@ P.transport["subzone:slag-pit"] = {
   },
 }
 P.transport["subzone:slaughter-hollow"] = {
-  hash = "ff4d8b",
-  fullHash = "ff4d8b",
-  text = "Slaughter Hollow. Slaughter Hollow is a secluded ogre mound tucked away in the snowy heights of the Alterac Mountains. Controlled by the brutish Crushridge clan, it stands as a rough camp rather than a bustling settlement. Travelers rarely have reason to trespass unless hunting ogres or exploring the frozen mountain passes. Hidden high in the peaks bordering Hillsbrad and Alterac, Slaughter Hollow serves as an encampment for the local Crushridge ogres. Like many ogre mounds scattered across the highlands, it is littered with makeshift bonfires, discarded bones, and crude shelters. While other ogre dens in the mountains see frequent conflicts over territory or stolen supplies, Slaughter Hollow remains largely quiet and bypassed by major military campaigns. Due to its seclusion, the mound occasionally serves as a holding place for unlucky prisoners taken along the mountain trails. Word among travelers tells of an unfortunate gnome named Rizz Loosebolt who has found himself locked in a crude cage here, attempting to barter with anyone passing by. Such unfortunate captives rarely fare well against the appetite of the Crushridge clan.",
+  hash = "ae4c3b",
+  fullHash = "ae4c3b",
+  text = "Slaughter Hollow. In the snowy heights of the Alterac Mountains, Crushridge ogres hold Slaughter Hollow as a secluded camp. Travelers rarely come here except to hunt ogres or cross the frozen passes. Slaughter Hollow shelters the Crushridge ogres high in the peaks between Hillsbrad and Alterac. Makeshift fires, scattered bones, and crude shelters mark the mound. Other ogre dens in the highlands often see fights over territory or stolen supplies, but Slaughter Hollow stays quiet and beyond the reach of major military campaigns. Crushridge ogres sometimes keep prisoners taken along the mountain trails in their secluded mound. Travelers speak of Rizz Loosebolt, an unlucky gnome locked in a crude cage and trying to bargain with anyone who passes. Captives seldom fare well against the clan's appetite.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_slaughter-hollow-629062df66fdcf72ddbb/1-0000.mp3", duration = 65.4106122, start = 0},
+    {file = "Audio/Transport/full_subzone_slaughter-hollow-582dae705718cf3507ee/1-0000.mp3", duration = 49.4497959, start = 0},
   },
 }
 P.transport["subzone:slither-rock"] = {
@@ -2474,11 +2474,11 @@ P.transport["subzone:southmoon-ruins"] = {
   },
 }
 P.transport["subzone:southpoint-tower"] = {
-  hash = "f806ca",
-  fullHash = "f806ca",
-  text = "Southpoint Tower. Southpoint Tower is a ruined Lordaeron scout tower situated at the western border of Hillsbrad Foothills, overlooking the road to Silverpine Forest. Once a human sentry post, the shattered structure is now utilized by Forsaken scouts keeping watch over Alliance movements in the region. Standing just south of the highway linking Silverpine Forest and Hillsbrad Foothills, Southpoint Tower was originally built by the Kingdom of Lordaeron to guard traffic moving between the eastern farmlands and the western woods. Following the Third War and the Scourge's destruction of the kingdom, the stonework fell into ruin. Today, it stands roofless and crumbling, an isolated relic of human dominion in a fractured territory. Despite its collapsed state, the vantage point remains tactically valuable. The Forsaken maintain an outpost here, stationing agents such as Deathstalker Lesh to spy on local Alliance patrols, the nearby human settlements of Hillsbrad Fields, and travelers passing along the primary road. Because of its lonely location right near hostile territory, the tower frequently becomes a flashpoint for skirmishes.",
+  hash = "05d321",
+  fullHash = "05d321",
+  text = "Southpoint Tower. Forsaken scouts watch Alliance movements from Southpoint Tower, near Hillsbrad's western edge. The ruined Lordaeron post overlooks the road into Silverpine Forest. Southpoint Tower overlooks the highway between Silverpine Forest and Hillsbrad Foothills. The Kingdom of Lordaeron built it to guard traffic between the eastern farmlands and the western woods. After the Third War and the Scourge's destruction of the kingdom, the stonework fell into ruin. Now the tower stands roofless and crumbling, a remnant of human rule in fractured lands. Forsaken agents watch Alliance patrols from the ruined tower. Deathstalker Lesh is among those stationed there, keeping an eye on nearby human settlements in Hillsbrad Fields and travelers on the main road. The vantage remains valuable despite the collapsed walls. So close to hostile territory, this lonely post often becomes a flashpoint for skirmishes.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_southpoint-tower-bfaff4641e4a2d73d49b/1-0000.mp3", duration = 65.6979592, start = 0},
+    {file = "Audio/Transport/full_subzone_southpoint-tower-f52b06ad31e64ee8651a/1-0000.mp3", duration = 53.6032653, start = 0},
   },
 }
 P.transport["subzone:southridge-beach"] = {
@@ -2490,11 +2490,11 @@ P.transport["subzone:southridge-beach"] = {
   },
 }
 P.transport["subzone:southshore-town-hall"] = {
-  hash = "fa8d97",
-  fullHash = "fa8d97",
-  text = "Southshore Town Hall. Southshore Town Hall serves as the administrative seat of the southern coast of Hillsbrad Foothills, standing as one of the last functioning centers of Lordaeron's civil authority. From inside, Magistrate Henry Maleb coordinates local defenses and governs the town's surviving populace. The hall is a vital hub for the Alliance as they struggle to maintain a foothold in the plagued north. While much of Lordaeron lies shattered under Scourge corruption and Forsaken expansion, Southshore's town hall maintains the semblance of an intact human government. Magistrate Henry Maleb oversees daily governance from his office here, working alongside officials like Kundric Zanden to secure resources and preserve civic order. In a region surrounded by aggressive undead, Syndicate rogues, and Hillsbrad's fierce border skirmishes, the hall is the nerve center directing the town's survival against constant threats.",
+  hash = "514df3",
+  fullHash = "514df3",
+  text = "Southshore Town Hall. At Southshore Town Hall, Magistrate Henry Maleb directs the town’s affairs and defenses. It remains one of Lordaeron’s last centers of civil authority, while the Alliance struggles to hold ground in the plagued north. Southshore Town Hall keeps human rule alive amid Lordaeron’s ruin. Magistrate Henry Maleb governs from his office, working with officials such as Kundric Zanden to secure supplies and preserve order. Undead press from nearby lands, Syndicate rogues threaten the region, and Hillsbrad’s border sees fierce skirmishes. From the hall, town leaders direct Southshore’s survival against these threats.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_southshore-town-hall-c934ed092d44396a002e/1-0000.mp3", duration = 54.282449, start = 0},
+    {file = "Audio/Transport/full_subzone_southshore-town-hall-3804d418c2919646a818/1-0000.mp3", duration = 39.3665306, start = 0},
   },
 }
 P.transport["subzone:southwind-village"] = {
@@ -2634,11 +2634,11 @@ P.transport["subzone:stromgarde-keep"] = {
   },
 }
 P.transport["subzone:sundown-marsh"] = {
-  hash = "c087da",
-  fullHash = "c087da",
-  text = "Sundown Marsh. Sundown Marsh marks the deepest, westernmost reaches of the Wetlands where stagnant waters meet treacherous wildlife. Despite the prowling raptors, oozes, and gnolls, an eccentric pair maintains a solitary homestead along its muddy borders. Sundown Marsh sits tucked into the northwest of the Wetlands, characterized by deep water, thick mud, and a dense population of predators. Giant crocolisks, shifting oozes, roaming raptors, and territorial Mosshide gnolls roam freely through the mist. The hazardous terrain keeps most passing travelers strictly to the main cobblestone road connecting Menethil Harbor to Ironforge, leaving this deep corner largely untamed. Amid the hazards of the marsh stands a lonely stone cottage topped with a churning windmill. There, the gnome Fradd Swiftgear and the dwarf Wenna Silkbeard make an unlikely living scavenging the bog. They peddle curiosities and rare trade recipes recovered from the mire to travelers brave enough to navigate the marsh's aggressive denizens.",
+  hash = "c7969b",
+  fullHash = "c7969b",
+  text = "Sundown Marsh. In the Wetlands' far west, Sundown Marsh holds deep water, stagnant pools, and dangerous wildlife. An eccentric pair keeps a solitary home along its muddy borders. Sundown Marsh fills the Wetlands' deepest, westernmost reaches, where deep water and thick mud hide a dense population of predators. Giant crocolisks, shifting oozes, roaming raptors, and territorial Mosshide gnolls move through the mist. Most travelers keep to the main cobblestone road between Menethil Harbor and Ironforge, leaving this corner largely untamed. A lonely stone cottage with a churning windmill stands amid the marsh's hazards. The gnome Fradd Swiftgear and the dwarf Wenna Silkbeard make their living scavenging the bog. They sell curiosities and rare trade recipes recovered from the mire to travelers who brave its aggressive denizens.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_sundown-marsh-ed39a4a44ce651a54533/1-0000.mp3", duration = 61.3877551, start = 0},
+    {file = "Audio/Transport/full_subzone_sundown-marsh-f588a0fcecd1e6f57fd3/1-0000.mp3", duration = 53.2897959, start = 0},
   },
 }
 P.transport["subzone:sunnyglade"] = {
@@ -2786,11 +2786,11 @@ P.transport["subzone:thandol-span"] = {
   },
 }
 P.transport["subzone:thelgen-rock"] = {
-  hash = "8e3ed5",
-  fullHash = "8e3ed5",
-  text = "Thelgen Rock. Thelgen Rock is an extensive cavern system cut into the southern mountain wall of the Wetlands. Infested with venomous spiders, it is notorious for harboring rare veins of volatile Incendicite Ore. Nestled against the southern mountains separating the Wetlands from Loch Modan, Thelgen Rock is a deep subterranean cave network overrun by aggressive arachnids. The passages are thick with webs and crawling with poisonous spiders that make entering the caverns extremely hazardous for travelers. Despite the infestation, miners and adventurers brave its depths for the valuable deposits of Incendicite Ore found embedded in the rocky tunnels.",
+  hash = "efc233",
+  fullHash = "efc233",
+  text = "Thelgen Rock. In the southern mountain wall of the Wetlands, Thelgen Rock’s caverns hold volatile Incendicite Ore. Venomous spiders infest the passages. Thelgen Rock cuts deep into the mountains between the Wetlands and Loch Modan. Aggressive spiders fill its web-choked passages, and their venom makes every step dangerous. Miners and adventurers still brave the tunnels for the valuable Incendicite Ore embedded in the rock.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_thelgen-rock-6a27da23da7550b22633/1-0000.mp3", duration = 38.4261224, start = 0},
+    {file = "Audio/Transport/full_subzone_thelgen-rock-4b1de41b8b7a4ea8af63/1-0000.mp3", duration = 24.5028571, start = 0},
   },
 }
 P.transport["subzone:theramore-isle"] = {
@@ -2842,11 +2842,11 @@ P.transport["subzone:thunder-axe-fortress"] = {
   },
 }
 P.transport["subzone:thunder-bluff"] = {
-  hash = "a10332",
-  fullHash = "a10332",
-  text = "Thunder Bluff. Thunder Bluff is the high-perched capital city of the tauren, rising hundreds of feet above the rolling plains of Mulgore. Founded by Cairne Bloodhoof following the Third War, it serves as the united sanctuary and cultural heart for a people who roamed as nomads for generations. For countless generations, the tauren lived as nomadic wanderers across central Kalimdor, constantly beset by brutal centaur raiding parties. That era of flight ended during the Third War, when Cairne Bloodhoof forged a bond of honor with Warchief Thrall and the New Horde. Together, they drove back the centaur menace and claimed the fertile grasslands of Mulgore. Cairne gathered the scattered tribes and established Thunder Bluff atop a series of sweeping, natural stone mesas. Today, the city is connected by dizzying rope bridges and accessed by ingenious wooden elevators, offering both absolute defense and a bustling center of trade and spiritual assembly. While Thunder Bluff stands as a beacon of harmony, its towering heights house diverse factions. Most tribes revere the wisdom of Cairne Bloodhoof, yet dissent quietly simmers among traditionalists such as Magatha Grimtotem and her kin on the Elder Rise. Deep beneath the city's surface lie the subterranean Pools of Vision, where spirit walkers and shaman peer into the ancestors' will. Despite underlying tribal rivalries, Thunder Bluff remains the true spiritual pillar of Kalimdor's Horde, welcoming hunters returning from the Barrens, traveling artisans, and druids communing with the Earth Mother.",
+  hash = "b8690f",
+  fullHash = "b8690f",
+  text = "Thunder Bluff. On Mulgore’s high mesas, Thunder Bluff shelters the tauren as their capital. Cairne Bloodhoof founded the city after the Third War, bringing a people long scattered across Kalimdor together in a place of refuge and tradition. Thunder Bluff rises above Mulgore, where rope bridges link its stone mesas and wooden elevators carry travelers up from the plains. For generations, the tauren wandered across central Kalimdor, pursued by centaur raiding parties. During the Third War, Cairne Bloodhoof joined with Warchief Thrall and the New Horde. Together, they drove back the centaurs and claimed Mulgore’s fertile grasslands. Cairne gathered the scattered tribes and founded the city atop the mesas, where the heights offered shelter and a place for the tauren to trade and gather in worship. Cairne Bloodhoof’s followers share Thunder Bluff with tauren who hold to other ways. Magatha Grimtotem and her kin dwell on the Elder Rise, while spirit walkers and shaman seek the ancestors’ will at the Pools of Vision beneath the city. Tribal rivalries persist, yet Thunder Bluff remains a spiritual pillar of Kalimdor’s Horde. Hunters return from the Barrens, artisans travel through, and druids come to commune with the Earth Mother.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_thunder-bluff-610e65475679a0beca19/1-0000.mp3", duration = 98.2204082, start = 0},
+    {file = "Audio/Transport/full_subzone_thunder-bluff-2085001f0b16bba1e88f/1-0000.mp3", duration = 72.8555102, start = 0},
   },
 }
 P.transport["subzone:tidefury-cove"] = {
@@ -3194,11 +3194,11 @@ P.transport["subzone:woodpaw-hills"] = {
   },
 }
 P.transport["subzone:workshop-entrance"] = {
-  hash = "546a49",
-  fullHash = "546a49",
-  text = "Workshop Entrance. The Workshop Entrance, commonly known as the backdoor to Gnomeregan, is an access portal situated just beyond the Train Depot. It provides seasoned adventurers and engineers an alternative route into the depths of the irradiated city, bypassing the front gates and opening near the Engineering Labs. Located across the cavernous workshop floor just past the Train Depot, the Workshop Entrance offers a direct approach into the industrial heart of Gnomeregan. Flanked on one side by the opening to the Loading Room, this passage cuts straight through to the Engineering Labs, avoiding the fortified entry gates that leper gnomes and troggs contest near the surface. For strike teams attempting to reclaim the underground capital, bypassing the initial perimeter through this side door can prove vital.",
+  hash = "2bfbe8",
+  fullHash = "2bfbe8",
+  text = "Workshop Entrance. Beyond the Train Depot, Workshop Entrance gives a backdoor into Gnomeregan. The route opens near the Engineering Labs and bypasses the front gates, offering another way into the irradiated city. Past the Train Depot, Workshop Entrance crosses the cavernous workshop floor toward the industrial heart of Gnomeregan. The opening to the Loading Room lies on one side. This passage runs straight to the Engineering Labs, avoiding the fortified entry gates near the surface, where leper gnomes and troggs contest the way. For those trying to reclaim the underground capital, this side door bypasses the first perimeter.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_workshop-entrance-3b5698277415080d0522/1-0000.mp3", duration = 45.7926531, start = 0},
+    {file = "Audio/Transport/full_subzone_workshop-entrance-4c8aeaa08990cc925177/1-0000.mp3", duration = 38.9746939, start = 0},
   },
 }
 P.transport["subzone:writhing-deep"] = {

@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Ironforge Airfield"
  },
- "summary": "Tucked away high in the snowy peaks northeast of Ironforge, this remote dwarven airstrip serves as a proving ground and staging area for gnome flying machines and dwarven mountaineers. Unmarked by main roads, the plateau overlooks the jagged crags of Dun Morogh and the steep descent toward the Wetlands.",
+ "summary": "High above Dun Morogh, gnome flying machines and dwarven mountaineers hold a remote airfield northeast of Ironforge. Its plateau overlooks jagged crags and the steep descent toward the Wetlands.",
  "sections": [
   {
    "title": "A Hidden Redoubt in the Crags",
-   "body": "Perched far above the beaten trails of Dun Morogh, the high-altitude airfield is a quiet marvel of Alliance cooperation. Sheltered by surrounding mountain peaks, dwarven masonry anchors the blustery ridgelines while gnomish flying machines sit parked along open landing strips. Mountaineers keep watch over the perimeter alongside engineers busy wrenching gears and inspecting steam-belching engines in the biting cold.",
+   "body": "High above Dun Morogh's trails, gnome flying machines line open landing strips among the mountain peaks. Dwarven masonry anchors the ridgelines, and mountaineers watch the perimeter. Nearby, engineers tend the machines and inspect their engines in the cold.",
    "spoiler": 0
   },
   {
    "title": "Frontier Skirmishes and Frozen Valleys",
-   "body": "Despite its isolation, the airfield is far from serene. The surrounding valley features frozen waters and crags contested by Frostmane trolls, who dwell in nearby caves and constantly harass the dwarven sentries. In the shadow of the peaks, dwarven defenders and Stormpike patrols clash regularly with troll raiders across the ice, keeping the remote installation in a state of quiet, vigilant standoff.",
+   "body": "The valley around the airfield is contested ground. Frostmane trolls dwell in nearby caves and harass the dwarven sentries. Across frozen waters beneath the peaks, dwarven defenders and Stormpike patrols clash with troll raiders, keeping the outpost on guard.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "airfield location",
     "airfield path"
    ],
-   "answer": "There are no roads, flights, or maintained tunnels connecting the valley to Ironforge or lower Dun Morogh. Reaching it requires scaling the steep mountainsides on foot, typically via tricky ridgeline climbing paths beginning out of Loch Modan or near the passes of Dun Morogh."
+   "answer": "No roads, flights, or maintained tunnels connect the valley to Ironforge or lower Dun Morogh. You must climb the steep mountainsides on foot, following difficult ridgeline paths from Loch Modan or near Dun Morogh's passes."
   },
   {
    "q": "What is the purpose of this place?",
@@ -37,7 +37,7 @@
     "why is there an airstrip",
     "what is ironforge airfield for"
    ],
-   "answer": "It serves as an elevated flight testing and military outpost where dwarven mountaineers and gnome engineers maintain flying machines and scout the high mountain borderlands separating Dun Morogh, Loch Modan, and the Wetlands."
+   "answer": "The airfield is a high outpost for testing and maintaining flying machines, and for scouting the mountain borderlands between Dun Morogh, Loch Modan, and the Wetlands. Dwarven mountaineers and gnome engineers work there."
   },
   {
    "q": "Who is attacking the dwarven guards here?",
@@ -45,7 +45,7 @@
     "who attacks airfield",
     "who is fighting on the lake"
    ],
-   "answer": "Local Frostmane trolls inhabit caves in the southern cliffs of the valley. Dwarven mountaineers clash regularly with them over the frozen lake just beneath the runway."
+   "answer": "Frostmane trolls from nearby caves attack the dwarven guards. The mountaineers clash with them over the frozen lake below the runway."
   },
   {
    "q": "Is the airfield tied to any official quests?",
@@ -53,17 +53,17 @@
     "any quests here",
     "airfield quests"
    ],
-   "answer": "No standard quests direct adventurers to visit the airstrip in everyday travels. It remains an obscure, remote plateau largely separated from the main logistics of the dwarven kingdom."
+   "answer": "No standard assignment sends travelers to the airstrip. The remote plateau lies apart from the dwarven kingdom's main routes."
   }
  ],
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "For tinkers, the airstrip showcases the apex of gnomish aviation, featuring fully assembled flying machines stationed in extreme, sub-zero conditions."
+   "text": "For a tinker, the airstrip shows gnomish flying machines assembled and kept in extreme cold."
   },
   {
    "target": "race:Dwarf",
-   "text": "A testament to dwarven territorial watchfulness, the airfield proves that Ironforge's Mountaineers stand sentry even in the most inaccessible heights of Khaz Modan."
+   "text": "As a dwarf, you know Ironforge's Mountaineers keep watch even in Khaz Modan's most inaccessible heights."
   }
  ],
  "keywords": [
@@ -86,5 +86,6 @@
  ],
  "attribution": [
   "Ironforge Airfield"
- ]
+ ],
+ "style": 1
 }

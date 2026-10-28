@@ -22,16 +22,16 @@
    "Vital Intelligence (Classic)"
   ]
  },
- "summary": "Vital Intelligence marks the end of a freshly risen Forsaken's training in Deathknell. Entrusted with intercepted Scarlet Crusade documents, the courier is sent out into Tirisfal Glades to report to Executor Zygand in Brill.",
+ "summary": "In Tirisfal Glades, a new Forsaken carries captured Scarlet Crusade documents from Deathknell to Brill. Executor Zygand awaits the courier there.",
  "sections": [
   {
    "title": "Leaving Deathknell",
-   "body": "Having neutralized local threats and intercepted a courier of the Scarlet Crusade, newly recruited Forsaken are deemed ready for broader service. Executor Arren entrusts the recovered intelligence to the player, directing them out through the sheltered canyon of Deathknell and east along the road toward Brill, past Cold Hearth Manor.",
+   "body": "Executor Arren sends you from Deathknell with captured Scarlet Crusade documents. You have dealt with local threats and intercepted a Scarlet Crusade courier, and are ready for wider service. Leave through Deathknell's sheltered canyon and follow the road east toward Brill, passing Cold Hearth Manor.",
    "spoiler": 0
   },
   {
    "title": "A Decisive Strike",
-   "body": "Upon arrival in Brill, Executor Zygand evaluates the captured correspondence. The documents contain rosters and details identifying active Scarlet Crusade commanders operating throughout Tirisfal Glades, laying the groundwork for targeted assassinations intended to fracture the zealots' leadership and morale.",
+   "body": "In Brill, Executor Zygand studies the captured correspondence. It names active Scarlet Crusade commanders across Tirisfal Glades and lists their assignments. Zygand plans targeted killings to break the zealots' leadership and morale.",
    "spoiler": 1
   }
  ],
@@ -43,7 +43,7 @@
     "scarlet crusade documents contents",
     "what intelligence was gathered"
    ],
-   "answer": "The captured documents contain names and assignments of Scarlet Crusade officers stationed across Tirisfal Glades. Executor Zygand intends to use these rosters to target and eliminate their local leadership in swift, demoralizing strikes."
+   "answer": "The captured documents name Scarlet Crusade officers stationed across Tirisfal Glades and list their assignments. Executor Zygand plans swift strikes to eliminate the local leadership and demoralize the Crusade."
   },
   {
    "q": "Where is Executor Zygand located?",
@@ -52,7 +52,7 @@
     "find executor zygand",
     "executor zygand location"
    ],
-   "answer": "Executor Zygand is stationed in Brill, positioned just outside the Brill Town Hall along the town's main square."
+   "answer": "Executor Zygand is in Brill, just outside Brill Town Hall beside the town's main square."
   },
   {
    "q": "How do I get to Brill from Deathknell?",
@@ -61,7 +61,7 @@
     "how to get to brill",
     "directions to brill"
    ],
-   "answer": "Follow the road north out of Deathknell. At the fork leading into greater Tirisfal Glades, take the eastern path and continue past Cold Hearth Manor and across the covered bridge straight into Brill."
+   "answer": "Follow the road north out of Deathknell. At the fork into greater Tirisfal Glades, take the eastern path past Cold Hearth Manor, then cross the covered bridge into Brill."
   },
   {
    "q": "Why does this quest signal the end of Deathknell?",
@@ -70,7 +70,7 @@
     "why leave deathknell",
     "is this the last deathknell quest"
    ],
-   "answer": "Deathknell serves as the initial proving ground for newly awakened Forsaken. Once you have helped secure the hamlet and gathered actionable intelligence on the Scarlet Crusade, Executor Arren transfers your services to higher-ranking commanders in Brill."
+   "answer": "Deathknell is the first proving ground for newly awakened Forsaken. After you help secure the hamlet and gather useful intelligence on the Scarlet Crusade, Executor Arren sends you to higher-ranking commanders in Brill."
   },
   {
    "q": "Who is Executor Arren?",
@@ -78,7 +78,7 @@
     "who is arren",
     "arren lore"
    ],
-   "answer": "Executor Arren is the Forsaken officer overseeing operations, security, and the initial integration of newly risen undead within Deathknell."
+   "answer": "Executor Arren is the Forsaken officer who oversees operations, security, and the first integration of newly risen undead in Deathknell."
   },
   {
    "q": "What happens after turning in these documents?",
@@ -86,17 +86,17 @@
     "what comes next",
     "next quest after vital intelligence"
    ],
-   "answer": "Delivering the documents integrates you into the broader Forsaken military efforts operating out of Brill, opening assignments across Tirisfal Glades aimed at dismantling local Scarlet Crusade encampments and Scourge remnants."
+   "answer": "Delivering the documents brings you into the wider Forsaken military effort based in Brill. From there, assignments across Tirisfal Glades target local Scarlet Crusade encampments and Scourge remnants."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "Carrying these intercepted plans represents a rite of passage: having proven viable after rising from the grave, you are dispatched from your cradle in Deathknell into the wider war for Lordaeron."
+   "text": "As an Undead, carrying these intercepted plans marks your passage from Deathknell into the wider war for Lordaeron. You have proven yourself after rising from the grave."
   },
   {
    "target": "faction:Horde",
-   "text": "The intelligence gathered here helps the Forsaken consolidate their hold on Tirisfal Glades, protecting the northern gateway to the Undercity from crusade incursions."
+   "text": "As a member of the Horde, you help the Forsaken strengthen their hold on Tirisfal Glades and guard the northern gateway to the Undercity from Scarlet Crusade incursions."
   }
  ],
  "keywords": [
@@ -122,5 +122,6 @@
  ],
  "attribution": [
   "Vital Intelligence (Classic)"
- ]
+ ],
+ "style": 1
 }

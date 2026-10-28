@@ -10,16 +10,16 @@
    "quest:6301"
   ]
  },
- "summary": "Gaea Seeds are hardy plant kernels found along the water's edge of Mirkfallon Lake in the Stonetalon Mountains. Treasured by tauren shamans, they are imbued with elemental blessings to help replenish areas ravaged by war and industry.",
+ "summary": "Along Mirkfallon Lake, Gaea Seeds offer a way to heal Stonetalon's wounded land. Tauren shamans value the hardy kernels for restoring places scarred by war and industry.",
  "sections": [
   {
    "title": "Vessels of Renewal",
-   "body": "Gaea Seeds are native to Stonetalon Mountains, naturally washing up or growing around the shores of Mirkfallon Lake. While modest in appearance\u2014resembling small, fibrous coconuts\u2014they carry an inherent resilience. As industrial exploitation and conflict scar Stonetalon, shamanic practitioners view these seeds as vital conduits for healing the wounded earth.",
+   "body": "Gaea Seeds wash ashore or grow along Mirkfallon Lake in the Stonetalon Mountains. Small and fibrous, they look like coconuts, yet endure harsh conditions. As conflict and industry scar the land, shamans see the seeds as a means to heal it.",
    "spoiler": 0
   },
   {
    "title": "Blessings of the Earthmother",
-   "body": "At Sun Rock Retreat, the tauren shaman Tammra Windfield gathers Gaea Seeds to counter the destruction spreading across the peaks. Through traditional chants and elemental rituals, shamans imbue these dormant husks with the Earthmother's blessing. This spiritual infusion drastically accelerates their natural growth, transforming simple seeds into hardy saplings capable of taking root in scorched, barren ground like the Charred Vale.",
+   "body": "At Sun Rock Retreat, the tauren shaman Tammra Windfield gathers Gaea Seeds to counter the destruction across the peaks. Shamans use traditional chants and elemental rites to bless the dormant husks with the Earthmother's power. That blessing hastens their growth, making them hardy saplings able to take root in scorched, barren ground such as the Charred Vale.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "where to find gaea seeds",
     "how to get gaea seed"
    ],
-   "answer": "Gaea Seeds are found scattered along the shoreline of Mirkfallon Lake, situated in the mountains north of Sun Rock Retreat in Stonetalon."
+   "answer": "Gaea Seeds wash ashore along Mirkfallon Lake, in the mountains north of Sun Rock Retreat in Stonetalon."
   },
   {
    "q": "What are Gaea Seeds used for?",
@@ -40,7 +40,7 @@
     "why collect gaea seeds",
     "what does tammra do with gaea seeds"
    ],
-   "answer": "Tammra Windfield collects them at Sun Rock Retreat to perform an elemental blessing. Once imbued with shamanistic power, the seeds are used to restore plant life to devastated areas like the Charred Vale."
+   "answer": "At Sun Rock Retreat, Tammra Windfield gathers Gaea Seeds for an elemental blessing. The blessed seeds help restore plant life in devastated places such as the Charred Vale."
   },
   {
    "q": "Why do shamans need to imbue the seeds?",
@@ -48,7 +48,7 @@
     "why bless the seeds",
     "shaman gaea seed magic"
    ],
-   "answer": "The land in parts of Stonetalon has been severely degraded by fire, warfare, and logging. Channeling the power of the Earthmother into the seeds accelerates their germination and strengthens them enough to grow in hostile, ruined soil."
+   "answer": "Fire, warfare, and logging have badly damaged parts of Stonetalon. The Earthmother's power quickens the seeds' growth and strengthens them to take root in ruined soil."
   },
   {
    "q": "What do Gaea Seeds look like?",
@@ -56,17 +56,17 @@
     "gaea seed appearance",
     "how to spot gaea seeds"
    ],
-   "answer": "They lie near the water's edge around Mirkfallon Lake and look like small, brown, rounded husks or coconuts resting on the bank."
+   "answer": "Gaea Seeds look like small, brown, rounded husks or coconuts along the water's edge of Mirkfallon Lake."
   }
  ],
  "angles": [
   {
    "target": "class:Shaman",
-   "text": "The seeds represent practical earth restoration, demonstrating how shamanistic rituals and the Earthmother's blessing can speed natural growth in damaged environments."
+   "text": "As a shaman, you see how elemental rites and the Earthmother's blessing can hasten growth and help heal damaged land."
   },
   {
    "target": "race:Tauren",
-   "text": "For the tauren of Sun Rock Retreat, cultivating Gaea Seeds is a sacred obligation to heal the balance of the land disrupted by outside warfare and lumber exploitation."
+   "text": "As a tauren, you share the people of Sun Rock Retreat's sacred duty to heal land damaged by outside warfare and lumbering."
   }
  ],
  "keywords": [
@@ -91,5 +91,6 @@
  "attribution": [
   "Gaea Seed",
   "Cycle of Rebirth"
- ]
+ ],
+ "style": 1
 }

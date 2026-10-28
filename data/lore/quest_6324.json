@@ -17,16 +17,16 @@
   "wiki": "Return to Podrig",
   "chain": []
  },
- "summary": "Return to Podrig is a logistics quest concluding a courier run between Silverpine Forest and the Undercity. After delivering a dispatch to the capital, the courier is entrusted with a crate of weapons to ferry back to Deathguard Podrig at the Sepulcher using the Forsaken bat handler network.",
+ "summary": "At the Undercity, you receive a crate of weapons for the Sepulcher after delivering a dispatch to the capital. Forsaken bats carry you across Lordaeron to Deathguard Podrig.",
  "sections": [
   {
    "title": "The Undercity Supply Line",
-   "body": "Outposts throughout Lordaeron depend heavily on regular shipments from the Undercity to remain operational. At the Sepulcher in Silverpine Forest, Deathguard sentries face pressure from local worgen, Dalaran remnants, and Scourge stragglers. Supplying remote garrisons with freshly forged armaments is vital to holding the region under Forsaken control.",
+   "body": "Deathguard Podrig's garrison at the Sepulcher needs a steady supply of weapons from the Undercity. In Silverpine Forest, its sentries face worgen, Dalaran remnants, and Scourge stragglers. Fresh armaments help the Forsaken hold the region and keep the outpost ready.",
    "spoiler": 0
   },
   {
    "title": "Wings of the Forsaken",
-   "body": "Bat Master Michael Garrett operates the central roost in the Undercity's Trade Quarter, serving as the hub for Forsaken aerial travel. While bats naturally return to the capital, riders must first coordinate with local handlers like Karos Razok before flights to distant outposts can be charted. Flying Gordon's Crate across Lordaeron's skies teaches couriers how the Forsaken bind their scattered strongholds together.",
+   "body": "Bat Master Michael Garrett tends the central roost in the Undercity's Trade Quarter. Forsaken bats know the way back to the capital, but you speak with local handlers such as Karos Razok before arranging a flight to a distant outpost. Carrying Gordon's Crate across Lordaeron links the Undercity's supplies with its scattered strongholds.",
    "spoiler": 0
   }
  ],
@@ -37,7 +37,7 @@
     "gordons crate contents",
     "what am i delivering to podrig"
    ],
-   "answer": "The crate contains fresh weapons produced in the Undercity to keep the Deathguards stationed at the Sepulcher properly equipped against surrounding threats."
+   "answer": "Gordon's Crate holds fresh weapons made in the Undercity for the Deathguards at the Sepulcher, who face threats nearby."
   },
   {
    "q": "Who is Deathguard Podrig?",
@@ -45,7 +45,7 @@
     "podrig",
     "who is podrig"
    ],
-   "answer": "Deathguard Podrig is a Forsaken soldier stationed at the Sepulcher in Silverpine Forest who oversees logistical and defense duties for the local garrison."
+   "answer": "Deathguard Podrig is a Forsaken soldier stationed at the Sepulcher in Silverpine Forest. He oversees the garrison's supplies and defenses."
   },
   {
    "q": "Who is Michael Garrett?",
@@ -53,7 +53,7 @@
     "michael garrett",
     "undercity bat master"
    ],
-   "answer": "Michael Garrett is the Forsaken bat master stationed in the Trade Quarter of the Undercity, responsible for coordinating flight paths across Lordaeron."
+   "answer": "Michael Garrett is the Forsaken bat master at the Undercity's Trade Quarter. He coordinates flight paths across Lordaeron."
   },
   {
    "q": "Why do you have to speak to a bat master before flying somewhere?",
@@ -61,7 +61,7 @@
     "flight path rules",
     "how do bat handlers work"
    ],
-   "answer": "Forsaken bats naturally know the way back to the central roost in the Undercity, but outward flights require establishing a route with a regional handler first to ensure safe arrival."
+   "answer": "Forsaken bats know the way back to the central roost in the Undercity. For an outward flight, you first establish a route with a regional handler so the bat can reach its destination safely."
   },
   {
    "q": "Why is the Sepulcher so important to supply?",
@@ -69,7 +69,7 @@
     "why sepulcher matters",
     "sepulcher importance"
    ],
-   "answer": "The Sepulcher is the Forsaken's main forward base in Silverpine Forest. It anchors their military presence against worgen packs, Moonrage threats, and Dalaran forces in the area."
+   "answer": "The Sepulcher is the Forsaken's main forward base in Silverpine Forest. It anchors their presence against worgen packs, Moonrage threats, and Dalaran forces in the area."
   },
   {
    "q": "Who is Karos Razok?",
@@ -77,17 +77,17 @@
     "karos razok",
     "sepulcher bat master"
    ],
-   "answer": "Karos Razok is the bat master stationed at the Sepulcher in Silverpine Forest, managing roosted bats that connect the outpost to the Undercity."
+   "answer": "Karos Razok is the bat master at the Sepulcher in Silverpine Forest. He manages the roosted bats that connect the outpost to the Undercity."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "Keeping forward garrisons armed is essential to defending Lordaeron and securing Queen Sylvanas's fledgling realm."
+   "text": "As an undead, you help keep forward garrisons armed to defend Lordaeron and secure Queen Sylvanas's fledgling realm."
   },
   {
    "target": "faction:Horde",
-   "text": "This task demonstrates the logistical framework connecting the Undercity to remote outposts across the northern continent."
+   "text": "As a member of the Horde, you help sustain the supply routes connecting the Undercity to remote outposts across the northern continent."
   }
  ],
  "keywords": [
@@ -108,5 +108,6 @@
  ],
  "attribution": [
   "Return to Podrig"
- ]
+ ],
+ "style": 1
 }

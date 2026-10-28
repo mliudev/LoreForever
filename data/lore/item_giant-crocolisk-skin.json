@@ -10,16 +10,16 @@
    "quest:471"
   ]
  },
- "summary": "Giant Crocolisk Skins are thick hides taken from the massive reptiles native to the marshes of the Wetlands. Prized by Menethil Harbor tradesmen for leatherworking, harvesting them is perilous work that has maimed more than one unwary hunter.",
+ "summary": "In the Wetlands, giant crocolisks yield thick hides that Menethil Harbor tradesmen need for leatherworking. Taking one is perilous work, and more than one hunter has been maimed.",
  "sections": [
   {
    "title": "A Dangerous Trade",
-   "body": "The bogs and waterways of the Wetlands are home to enormous crocolisks whose hides are dense enough to resist the damp rot of the marshes. In Menethil Harbor, artisans like James Halloran rely on steady shipments of skins to craft rugged leather goods. However, taking a hide from a fully grown giant crocolisk requires braving deep waters and outmatching ferocious swamp predators, making every gathered pelt hard-won.",
+   "body": "The Wetlands' bogs and waterways shelter enormous crocolisks with hides dense enough to resist the marsh's damp rot. In Menethil Harbor, artisans such as James Halloran rely on steady shipments of skins to make rugged leather goods. Reaching a full-grown giant crocolisk means braving deep water and facing a fierce swamp predator, so every hide comes hard-won.",
    "spoiler": 0
   },
   {
    "title": "The Apprentice's Folly",
-   "body": "Harvesting these thick skins was originally the duty of Halloran's young apprentice. Lacking the martial skill to fell full-grown marsh beasts, the boy was ambushed along the northern coast. Mauled by the giant crocolisks, he now lies in a local midwife's care, and she says he might pull through. The attack forced Halloran to hire seasoned adventurers to hunt down the predators and secure the required skins.",
+   "body": "Halloran's young apprentice once gathered the thick skins. Without the skill to defeat full-grown marsh beasts, the boy was ambushed along the northern coast. Giant crocolisks mauled him, and he now lies in a local midwife's care. She says he might pull through. After the attack, Halloran hired seasoned adventurers to hunt the predators and secure the skins he needs.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "why collect giant crocolisk skins",
     "halloran skin purpose"
    ],
-   "answer": "They are procured by James Halloran, a tradesman in Menethil Harbor, who values the thick hides for crafting sturdy leather goods that can endure the damp climate of the marshlands."
+   "answer": "James Halloran, a tradesman in Menethil Harbor, uses Giant Crocolisk Skins to make sturdy leather goods that can endure the marshlands' damp climate."
   },
   {
    "q": "Where are the crocolisks found that provide these skins?",
@@ -40,7 +40,7 @@
     "where to find giant crocolisks",
     "croc coast wetlands"
    ],
-   "answer": "Giant Wetlands Crocolisks prowl the coast and inland marsh waters north of Menethil Harbor, roaming the shallows beyond the local murloc settlements."
+   "answer": "Giant Wetlands Crocolisks roam the coast and inland marsh waters north of Menethil Harbor, in the shallows beyond local murloc settlements."
   },
   {
    "q": "What happened to Halloran's apprentice?",
@@ -49,7 +49,7 @@
     "halloran apprentice",
     "who lost a leg"
    ],
-   "answer": "Halloran sent his apprentice into the marsh to harvest skins alone. The apprentice was attacked by giant crocolisks and was mauled so badly that he was left under the care of a Menethil midwife, who says he might pull through."
+   "answer": "Halloran sent his apprentice alone to gather skins in the marsh. Giant crocolisks mauled the boy, and he now lies in a Menethil midwife's care. She says he might pull through."
   },
   {
    "q": "How do these skins compare to young crocolisk skins?",
@@ -57,13 +57,13 @@
     "young vs giant crocolisk skin",
     "crocolisk leather difference"
    ],
-   "answer": "Young crocolisks yield thinner, more pliable skins. Full-grown giant crocolisks produce far tougher, thicker hides, but killing one requires seasoned combat skill."
+   "answer": "Young crocolisks yield thinner, more pliable skins. Full-grown giant crocolisks yield thicker, tougher hides, but killing one takes seasoned combat skill."
   }
  ],
  "angles": [
   {
    "target": "class:Hunter",
-   "text": "Stalking giant crocolisks along the misty coastline tests a hunter's ability to track aquatic beasts and avoid getting dragged beneath the marsh waters."
+   "text": "As a hunter, stalking giant crocolisks along the coastline tests your skill at tracking aquatic beasts and keeping clear of the marsh waters."
   }
  ],
  "keywords": [
@@ -87,5 +87,6 @@
  "attribution": [
   "Giant Crocolisk Skin",
   "Apprentice's Duties"
- ]
+ ],
+ "style": 1
 }

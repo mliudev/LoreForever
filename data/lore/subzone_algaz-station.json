@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Algaz Station"
  },
- "summary": "Algaz Station is a dwarven military outpost situated in northwestern Loch Modan, directly south of the fortified pass of Dun Algaz. Manning the approach to the northern tunnels, its garrison of Mountaineers helps safeguard travelers and watch the frontier leading toward the Wetlands.",
+ "summary": "At Algaz Station, Mountaineers guard the northern road from Loch Modan toward the Wetlands. The outpost lies south of Dun Algaz, where the pass leads through the mountains.",
  "sections": [
   {
    "title": "Watching the Northern Pass",
-   "body": "Perched just east of North Gate Pass and south of Dun Algaz, Algaz Station serves as a vital strategic watchpoint for the kingdom of Ironforge. A cadre of dwarven Mountaineers maintains a permanent vigil here, keeping the vital road between Loch Modan and the northern lowlands open to trade and troop movements. Given the frequent threats in the surrounding hills, from wandering beasts to encroaching troggs, the outpost provides respite, repairs, and martial support for weary travelers before they venture through the mountain tunnels.",
+   "body": "At Algaz Station, dwarven Mountaineers watch the road north from Loch Modan. The post lies east of North Gate Pass and south of Dun Algaz, guarding the route between the kingdom of Ironforge and the northern lowlands. The road carries trade and troops through the mountain tunnels, but the hills bring danger from wandering beasts and troggs. Mountaineers keep the way open and offer weary travelers a place for respite, repairs, and martial support before they enter the pass.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "algaz station purpose",
     "who runs algaz station"
    ],
-   "answer": "It is an Ironforge military outpost in northwestern Loch Modan. It serves as a guard post and waystation for Mountaineers patrolling the mountain passes leading north to Dun Algaz."
+   "answer": "Algaz Station is an Ironforge military outpost in northwestern Loch Modan. Mountaineers guard the mountain passes leading north to Dun Algaz and aid travelers on the way."
   },
   {
    "q": "Where does the station get its name?",
@@ -32,7 +32,7 @@
     "dun algaz connection",
     "name meaning"
    ],
-   "answer": "It takes its name from Dun Algaz, the massive dwarven pass and tunnel system situated just north of the station that connects Loch Modan to the Wetlands."
+   "answer": "The station takes its name from Dun Algaz, the massive dwarven pass and tunnel system just to its north. It connects Loch Modan to the Wetlands."
   },
   {
    "q": "Who can be found at Algaz Station?",
@@ -41,17 +41,17 @@
     "npcs at algaz station",
     "mountaineer stormpike location"
    ],
-   "answer": "The outpost is manned by dwarven Mountaineers, including Mountaineer Stormpike, alongside support personnel like the armorer Gothor Brumn who provides field repairs to travelers."
+   "answer": "Dwarven Mountaineers man the outpost, including Mountaineer Stormpike. Armorer Gothor Brumn provides field repairs to travelers."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "For dwarven travelers, Algaz Station is a familiar emblem of Ironforge's reach, ensuring the king's highways remain guarded against threats spilling from the mountains."
+   "text": "As a dwarf, you know Algaz Station as a sign of Ironforge's reach. Its Mountaineers guard the king's highways against threats from the mountains."
   },
   {
    "target": "faction:Alliance",
-   "text": "The outpost offers a secure staging ground and repair stop for Alliance adventurers journeying between Loch Modan and the marshlands of the north."
+   "text": "As an Alliance traveler, you can use the outpost as a secure staging ground and repair stop on the way between Loch Modan and the northern marshlands."
   }
  ],
  "keywords": [
@@ -72,5 +72,6 @@
  ],
  "attribution": [
   "Algaz Station"
- ]
+ ],
+ "style": 1
 }

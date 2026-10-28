@@ -8,16 +8,16 @@
   "wiki": "Raleigh Andrean",
   "refs": 2
  },
- "summary": "Raleigh Andrean is a Forsaken resident of the Undercity. His requests reveal a callous attitude toward his former human life and those he once knew.",
+ "summary": "In the Undercity, Raleigh Andrean lives among the Forsaken. His requests show how little regard he has for his human life and those he once knew.",
  "sections": [
   {
    "title": "A Bitter Afterlife",
-   "body": "Before the Third War devastated Lordaeron, Raleigh Andrean lived an ordinary human life, married to a woman named Deliah and keeping company with his friend Valdred Moray. Like countless others, he fell when the Scourge tore through the kingdom, only to be raised as a mindless thrall in service to the Lich King. He regained his free will following the shattering of the Ner'zhul's grip and Sylvanas Windrunner's uprising, taking his place among the Forsaken in the Undercity.",
+   "body": "Before the Third War, Raleigh Andrean lived in Lordaeron as a human. He was married to Deliah and counted Valdred Moray as a friend. The Scourge swept through the kingdom, killing Raleigh and raising him as a mindless thrall in service to the Lich King. After the Lich King's grip shattered and Sylvanas Windrunner led her uprising, Raleigh regained his free will and joined the Forsaken in the Undercity.",
    "spoiler": 0
   },
   {
    "title": "Vengeance over Grief",
-   "body": "When presented with his late wife's wedding ring, Raleigh displays the callous emotional decay of undeath. He harbors no sorrow or lingering love for Deliah, coldly dismissing her death. Instead, his focus fixates entirely on spite: he demands the severed hands of Valdred Moray, his former friend who murdered her. Raleigh keeps the gruesome trophies not out of affection for Deliah, but as an eternal memento of betrayal, rewarding whoever aids him with a ring forged of pure scorn.",
+   "body": "Raleigh Andrean's requests reveal how undeath has worn away his feelings. When Deliah's wedding ring is brought to him, he shows no sorrow or lingering love for his late wife. He dismisses her death and asks for the severed hands of Valdred Moray, his former friend who murdered her. Raleigh keeps the hands as a reminder of betrayal, not out of affection for Deliah. Whoever helps him receives a ring forged of pure scorn.",
    "spoiler": 1
   }
  ],
@@ -29,7 +29,7 @@
     "where is raleigh",
     "find raleigh andrean"
    ],
-   "answer": "Raleigh Andrean resides within the bustling Trade Quarter of the Undercity, standing among the subterranean city's Forsaken populace."
+   "answer": "Raleigh Andrean lives in the Trade Quarter of the Undercity, among the Forsaken."
   },
   {
    "q": "Who was Raleigh when he was alive?",
@@ -38,7 +38,7 @@
     "who was raleigh",
     "raleigh andrean lore"
    ],
-   "answer": "In life, Raleigh was a mortal resident of the kingdom of Lordaeron. He was married to a woman named Deliah and shared a friendship with a man named Valdred Moray before the Scourge swept through the realm."
+   "answer": "Before the Scourge swept through Lordaeron, Raleigh lived there as a human. He was married to Deliah and was friends with Valdred Moray."
   },
   {
    "q": "Why does Raleigh want revenge on Valdred Moray?",
@@ -47,7 +47,7 @@
     "raleigh wife",
     "valdred moray murder"
    ],
-   "answer": "Raleigh seeks revenge against someone from his former life. The wedding ring brought to him leads into the details of that grievance."
+   "answer": "Raleigh wants revenge because Valdred Moray, his former friend, murdered Deliah. Raleigh asks for Valdred's severed hands."
   },
   {
    "q": "How did Raleigh become free from the Scourge?",
@@ -55,13 +55,13 @@
     "how did raleigh become forsaken",
     "raleigh scourge freedom"
    ],
-   "answer": "Raleigh was slain and raised into servitude by the Scourge during the Third War. When the Lich King's control slipped following attacks on the Frozen Throne, Sylvanas Windrunner led an uprising, freeing Raleigh and many others to form the Forsaken."
+   "answer": "During the Third War, the Scourge killed Raleigh and raised him as a thrall. After the Lich King's grip shattered, Sylvanas Windrunner led an uprising that freed Raleigh and many others, who formed the Forsaken."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "Raleigh's treatment of his former human ties offers a disturbing example of one Forsaken's response to undeath."
+   "text": "As an Undead, you can see how one Forsaken responds to undeath through Raleigh's treatment of his former human ties."
   }
  ],
  "keywords": [
@@ -86,5 +86,6 @@
  ],
  "attribution": [
   "Raleigh Andrean"
- ]
+ ],
+ "style": 1
 }

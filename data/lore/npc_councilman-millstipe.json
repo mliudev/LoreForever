@@ -8,16 +8,16 @@
   "wiki": "Councilman Millstipe",
   "refs": 2
  },
- "summary": "Councilman Millstipe is a member of Darkshire's governing council, residing within the town hall of Duskwood. Deeply resentful of royal neglect and judicial meddling from the capital, he actively seeks retribution against criminals who endanger the darkened region.",
+ "summary": "Darkshire's council grows bitter as Stormwind overrides its judgment. Councilman Millstipe lives in the town hall and wants justice for Duskwood's people.",
  "sections": [
   {
    "title": "Justice Denied by Stormwind",
-   "body": "While Darkshire struggles under the shadow of the undead and ferocious beast attacks, its local council fights an uphill battle against the bureaucracy of Stormwind City. Councilman Millstipe represents the town's growing bitterness toward the crown. When the notorious grave robber Dextren Ward was caught selling freshly dug corpses to the necromancer Morbent Fel, Darkshire's leaders sentenced him to death. Instead, Stormwind's House of Nobles intervened, commuting Ward's execution and locking him safely away inside the Stormwind Stockade.",
+   "body": "Darkshire faces undead and attacks from ferocious beasts, while its council struggles against Stormwind City's bureaucracy. Councilman Millstipe reflects the town's growing bitterness toward the crown. The notorious grave robber Dextren Ward was caught selling freshly dug corpses to the necromancer Morbent Fel. Darkshire's leaders sentenced Ward to death, but Stormwind's House of Nobles commuted the execution and locked him away in the Stormwind Stockade.",
    "spoiler": 0
   },
   {
    "title": "A Message to the Nobles",
-   "body": "Refusing to let the capital's corrupt politicians override the safety and justice of Duskwood, Millstipe discreetly tasks adventurers with finishing the job. By ordering the summary execution of Dextren Ward within his Stockade cell, Millstipe aims to send an unmistakable message to the House of Nobles: if Stormwind refuses to protect the people of Duskwood, the people will take justice into their own hands.",
+   "body": "Councilman Millstipe believes Stormwind's politicians have put Duskwood's safety and justice aside. He discreetly directs adventurers to kill Dextren Ward in his Stockade cell. The order defies the House of Nobles and warns that, if Stormwind will not protect Duskwood's people, they will take justice into their own hands.",
    "spoiler": 1
   }
  ],
@@ -29,7 +29,7 @@
     "where is millstipe",
     "find councilman millstipe"
    ],
-   "answer": "Councilman Millstipe is located inside Darkshire's town hall, situated in the eastern part of Duskwood."
+   "answer": "Councilman Millstipe can be found inside Darkshire's town hall, in eastern Duskwood."
   },
   {
    "q": "Why does Millstipe want Dextren Ward dead?",
@@ -38,7 +38,7 @@
     "millstipe dextren ward",
     "ward crime"
    ],
-   "answer": "Dextren Ward was a grave robber who exhumed the dead of Duskwood and sold them to the necromancer Morbent Fel. Lord Ebonlocke sentenced him to be beheaded, but Stormwind's House of Nobles spared his life and threw him into the Stockade instead."
+   "answer": "Dextren Ward was a grave robber who dug up Duskwood's dead and sold them to the necromancer Morbent Fel. Lord Ebonlocke sentenced him to be beheaded, but Stormwind's House of Nobles spared him and sent him to the Stockade."
   },
   {
    "q": "What is Millstipe's grievance with Stormwind?",
@@ -47,7 +47,7 @@
     "house of nobles darkshire",
     "millstipe politics"
    ],
-   "answer": "Millstipe believes Stormwind has abandoned Duskwood while meddling in its local justice. The House of Nobles overruled Darkshire's rightful death sentence for Dextren Ward, leaving the traumatized settlement feeling ignored and unprotected by the throne."
+   "answer": "Millstipe believes Stormwind has abandoned Duskwood while interfering with its local justice. The House of Nobles overturned Darkshire's death sentence for Dextren Ward, leaving the settlement feeling ignored and unprotected by the throne."
   },
   {
    "q": "Does Millstipe have any known family?",
@@ -62,11 +62,11 @@
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Millstipe embodies the deep political rift between Stormwind's sheltered nobility and the desperate frontier settlements of Duskwood, which receive little aid yet face heavy-handed meddling from the capital."
+   "text": "Millstipe shows the political divide between Stormwind's sheltered nobility and Duskwood's desperate frontier settlements, which receive little aid and face heavy-handed interference from the capital."
   },
   {
    "target": "class:Rogue",
-   "text": "For an operative willing to slip into the heavily guarded Stockade and carry out an unsanctioned political execution, Millstipe offers work that directly defies the House of Nobles."
+   "text": "For a rogue willing to enter the heavily guarded Stockade and carry out an unsanctioned political execution, Millstipe offers work that defies the House of Nobles."
   }
  ],
  "keywords": [
@@ -90,5 +90,6 @@
  ],
  "attribution": [
   "Councilman Millstipe"
- ]
+ ],
+ "style": 1
 }

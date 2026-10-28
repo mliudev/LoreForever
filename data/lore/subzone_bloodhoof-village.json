@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Bloodhoof Village"
  },
- "summary": "Bloodhoof Village is a central tauren settlement resting along the banks of Stonebull Lake in Mulgore. Named in honor of the Bloodhoof tribe, it serves as the first major gathering hub for young hunters and braves journeying out from Camp Narache toward Thunder Bluff. Led by Baine Bloodhoof, the village coordinates local defense, trade, and traditional rites across the plains.",
+ "summary": "Young tauren gather at Bloodhoof Village beside Stonebull Lake in central Mulgore. Led by Baine Bloodhoof, the village guides them from Camp Narache toward Thunder Bluff and tends the plains’ defense, trade, and rites.",
  "sections": [
   {
    "title": "Heart of the Plains",
-   "body": "Situated around the clear waters of Stonebull Lake, Bloodhoof Village is a bustling center of commerce, craft, and ceremony in central Mulgore. Young tauren departing their trials at Camp Narache arrive here to hone their skills before venturing onward to the great mesas of Thunder Bluff. It is also home to the patient breeders who tame wild kodo beasts for travel.",
+   "body": "Bloodhoof Village gathers tauren around Stonebull Lake in central Mulgore. Young tauren arrive from their trials at Camp Narache to hone their skills before traveling onward to the great mesas of Thunder Bluff. Patient breeders here tame wild kodo beasts for travel, while the village is also a center of craft and ceremony.",
    "spoiler": 0
   },
   {
    "title": "Leadership and Rites",
-   "body": "Day-to-day governance and the defense of the region fall under Baine Bloodhoof, son of High Chieftain Cairne Bloodhoof. Under his watchful eye, braves are dispatched to secure the grasslands against aggressive wildlife, quilboar encroachers, and the shadowy presence of the Venture Company. Alongside Baine, spiritual guides such as Zarlman Two-Moons tend to the inner life of the tribe, directing novices through sacred journeys like the Rite of Vision.",
+   "body": "Baine Bloodhoof, son of High Chieftain Cairne Bloodhoof, oversees daily governance and the region’s defense. Braves patrol the grasslands against aggressive wildlife, quilboar encroachers, and the Venture Company. Spiritual guides such as Zarlman Two-Moons tend to the tribe’s inner life and lead novices through sacred journeys like the Rite of Vision.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "baine bloodhoof location",
     "who is in charge of bloodhoof village"
    ],
-   "answer": "Baine Bloodhoof, son of High Chieftain Cairne Bloodhoof, leads the settlement and directs its defenses against threats to the central plains."
+   "answer": "Baine Bloodhoof, son of High Chieftain Cairne Bloodhoof, leads Bloodhoof Village and directs its defenses against threats to the central plains."
   },
   {
    "q": "What major rites are conducted here?",
@@ -37,7 +37,7 @@
     "spiritual trials",
     "zarlman two-moons quest"
    ],
-   "answer": "Spiritual advisors such as Zarlman Two-Moons guide young tauren through the traditional Rite of Vision, an essential spiritual journey on the path to adulthood."
+   "answer": "Spiritual guides such as Zarlman Two-Moons lead young tauren through the traditional Rite of Vision, an essential spiritual journey on the path to adulthood."
   },
   {
    "q": "What is the settlement known for producing?",
@@ -46,7 +46,7 @@
     "kodo taming",
     "bloodhoof drums"
    ],
-   "answer": "Bloodhoof Village is the primary hub where wild plains kodos are tamed and trained as mounts."
+   "answer": "Bloodhoof Village is the main place where wild plains kodos are tamed and trained as mounts."
   },
   {
    "q": "Where do travelers go after finishing their tasks here?",
@@ -55,17 +55,17 @@
     "where next after bloodhoof",
     "next hub"
    ],
-   "answer": "Once their deeds in central Mulgore are complete, travelers are generally directed northward to Thunder Bluff, the capital city of the tauren."
+   "answer": "After their deeds in central Mulgore, travelers are generally directed north to Thunder Bluff, the tauren capital."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "For young tauren, entering Bloodhoof Village marks the first real step beyond youth into broader tribal responsibility and spiritual maturity."
+   "text": "For young tauren, entering Bloodhoof Village marks their first real step beyond youth and into broader tribal responsibility and spiritual maturity."
   },
   {
    "target": "faction:Horde",
-   "text": "This peaceful settlement serves as a critical stopover and logistics link between the southern plains of Mulgore and the Horde capital at Thunder Bluff."
+   "text": "For the Horde, Bloodhoof Village is a peaceful stopover and a vital link between Mulgore’s southern plains and the Horde capital at Thunder Bluff."
   }
  ],
  "keywords": [
@@ -89,5 +89,6 @@
  ],
  "attribution": [
   "Bloodhoof Village"
- ]
+ ],
+ "style": 1
 }

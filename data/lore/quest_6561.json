@@ -17,21 +17,21 @@
   "wiki": "Blackfathom Villainy (Horde)",
   "chain": []
  },
- "summary": "Blackfathom Villainy is an urgent plea delivered by a dying Argent Dawn crusader trapped inside Blackfathom Deeps. Horde adventurers are charged with putting an end to Twilight Lord Kelris, the cult leader orchestrating horrific blood sacrifices to an ancient monstrosity in the ruins below.",
+ "summary": "Inside Blackfathom Deeps, Blackfathom Villainy reaches a wounded scout who cannot finish his mission alone. Argent Dawn scout Thaelrid asks passing Horde champions to end Twilight Lord Kelris's blood sacrifices to Aku'mai in the sunken ruins.",
  "sections": [
   {
    "title": "A Desperate Last Stand",
-   "body": "Drawn to the subterranean temple along the Ashenvale coast, the Argent Dawn scout Thaelrid discovered horrors far worse than simple naga incursions. Wounded and stripped of strength within the caverns, the night elf realizes he cannot finish his mission alone. Rather than letting his reconnaissance die with him, he turns to any passing Horde champions willing to strike at the dark leadership presiding over the sunken halls.",
+   "body": "Argent Dawn scout Thaelrid lies wounded in the underground temple along the Ashenvale coast. His reconnaissance uncovered horrors beyond naga incursions, but his strength is spent and he cannot complete the mission alone. He calls on passing Horde champions to strike at the cult's leaders in the sunken halls.",
    "spoiler": 0
   },
   {
    "title": "Sacrifices to the Deep",
-   "body": "The target of the task is Twilight Lord Kelris, the head of the Twilight's Hammer cultists who have entrenched themselves within the ruined Temple of the Moon. Allied with the local naga, Kelris conducts dark rituals over the defiled Moon Well, feeding living captives to Aku'mai\u2014a ravenous hydra and beast of the Old Gods\u2014in a mad pursuit of cosmic power and primordial chaos.",
+   "body": "Twilight Lord Kelris leads the Twilight's Hammer cultists within the ruined Temple of the Moon. With the local naga, he performs dark rites over the defiled Moon Well. Captives are fed alive to Aku'mai, a ravenous hydra and beast of the Old Gods, as Kelris seeks cosmic power and primordial chaos.",
    "spoiler": 0
   },
   {
    "title": "Word to Thunder Bluff",
-   "body": "Kelris was once thought dead or lost by the Argent Dawn, making confirmation of his demise vital. Rather than forcing heroes back into human lands, Thaelrid directs proof of the cult leader's death to Bashana Runetotem on the Elder Rise in Thunder Bluff. Bashana, deeply attuned to the natural balance of the Earthmother, honors the victory for extinguishing a foul corruption bent on dragging Kalimdor into primeval ruin.",
+   "body": "Argent Dawn believed Kelris dead or lost, so word of his fate matters. Thaelrid directs proof of the cult leader's death to Bashana Runetotem on the Elder Rise in Thunder Bluff. Attuned to the Earthmother's natural balance, Bashana honors the victory over a corruption bent on dragging Kalimdor into primeval ruin.",
    "spoiler": 1
   }
  ],
@@ -43,7 +43,7 @@
     "who is kelris",
     "twilight lord kelris"
    ],
-   "answer": "Kelris is the leader of the Twilight's Hammer cultists occupying Blackfathom Deeps. Believed by the Argent Dawn to have been dead or missing, he has instead been secretly gathering power by offering living sacrifices to the ancient hydra Aku'mai in the corrupted Moon Well."
+   "answer": "Twilight Lord Kelris leads the Twilight's Hammer cultists in Blackfathom Deeps. Argent Dawn believed him dead or missing, but he has gathered power by sacrificing captives to the ancient hydra Aku'mai in the corrupted Moon Well."
   },
   {
    "q": "Why is an Argent Dawn member inside Blackfathom Deeps?",
@@ -52,7 +52,7 @@
     "why is thaelrid here",
     "argent dawn in bfd"
    ],
-   "answer": "Argent Guard Thaelrid came to investigate the growing threat within the ruined night elf temple. Overwhelmed and mortally weakened by the denizens within, he remains trapped and must rely on visiting adventurers to finish his duty and eliminate Kelris."
+   "answer": "Argent Dawn scout Thaelrid entered the ruined night elf temple to investigate its growing threat. The dangers there left him mortally weakened and trapped, so he relies on visiting adventurers to finish his duty and kill Kelris."
   },
   {
    "q": "What is Aku'mai?",
@@ -61,7 +61,7 @@
     "who is akumai",
     "aku'mai lore"
    ],
-   "answer": "Aku'mai is a monstrous, ancient multi-headed hydra considered a primordial servant of the Old Gods. Slumbering beneath the sunken ruins, it awoke when deep subterranean corruption tainted the temple's sacred waters, and it now devours captives delivered by the Twilight's Hammer."
+   "answer": "Aku'mai is an ancient, monstrous hydra with many heads, regarded as a primordial servant of the Old Gods. It woke when corruption from deep underground tainted the temple's sacred waters, and now devours captives brought by the Twilight's Hammer."
   },
   {
    "q": "Why turn the quest in to Bashana Runetotem?",
@@ -70,7 +70,7 @@
     "why thunder bluff",
     "where to turn in blackfathom villainy"
    ],
-   "answer": "Thaelrid directs Horde champions to Bashana Runetotem on the Elder Rise in Thunder Bluff. As a steward of the Earthmother's balance, Bashana maintains communication with defenders against ancient evil and recognizes Kelris's Old God worship as an abhorrent blight upon Kalimdor."
+   "answer": "Thaelrid sends Horde champions to Bashana Runetotem on the Elder Rise in Thunder Bluff. As a steward of the Earthmother's balance, Bashana keeps in touch with defenders against ancient evil and sees Kelris's Old God worship as a blight upon Kalimdor."
   },
   {
    "q": "What happened to the ruins of Blackfathom Deeps?",
@@ -79,7 +79,7 @@
     "temple of elune ruins",
     "why is bfd corrupted"
    ],
-   "answer": "Long ago, the subterranean complex was a sacred temple dedicated to the moon goddess Elune. Cataclysmic upheaval and ancient dark seepages from the earth tainted the grand Moon Well, allowing naga and doomsday cultists to claim the sunken sanctuaries for their dark master Aku'mai."
+   "answer": "Blackfathom Deeps was once a subterranean temple sacred to the moon goddess Elune. Upheaval and ancient darkness seeping from the earth tainted the great Moon Well, and naga and doomsday cultists claimed the sunken sanctuaries for their dark master Aku'mai."
   },
   {
    "q": "What is the goal of the Twilight's Hammer cult here?",
@@ -88,25 +88,25 @@
     "why cult in bfd",
     "kelris goals"
    ],
-   "answer": "The Twilight's Hammer seeks to revert the world to an age of primordial chaos by worshipping the Old Gods. Kelris seeks personal power through dark communion, feeding innocents into the depths to earn the favor of ancient entities."
+   "answer": "The Twilight's Hammer seeks to return the world to primordial chaos through worship of the Old Gods. Kelris seeks power through dark communion, feeding innocents to the depths to win the favor of ancient beings."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "For the Horde, entering into this pact with an Argent Dawn scout represents an uncommon moment of mutual interest against a cosmic blight, earning the early favor of the Dawn."
+   "text": "For the Horde, joining forces with an Argent Dawn scout is an uncommon act of shared purpose against a cosmic blight, and earns the Dawn's early favor."
   },
   {
    "target": "race:Tauren",
-   "text": "Bashana Runetotem sees the defeat of Kelris as a vital defense of the Earthmother, purging an abomination that sought to throw the world's natural order into primeval chaos."
+   "text": "Bashana Runetotem sees Kelris's defeat as a defense of the Earthmother, cleansing an abomination that sought to drive the world's natural order into primeval chaos."
   },
   {
    "target": "class:Druid",
-   "text": "The defilement of an ancient night elf Moon Well by void-worshipping cultists and naga is an agonizing wound upon Kalimdor's natural and spiritual sanctuary."
+   "text": "For a druid, the naga and void-worshipping cultists' defilement of an ancient night elf Moon Well wounds Kalimdor's natural and spiritual sanctuary."
   },
   {
    "target": "class:Shaman",
-   "text": "The unrest stirred by Kelris and Aku'mai offends the balance of the elements, warping pure underground waters into a festering bed of shadow and sacrifice."
+   "text": "For a shaman, Kelris and Aku'mai disturb elemental balance, turning pure underground waters into a place of shadow and sacrifice."
   }
  ],
  "keywords": [
@@ -133,5 +133,6 @@
  ],
  "attribution": [
   "Blackfathom Villainy (Horde)"
- ]
+ ],
+ "style": 1
 }

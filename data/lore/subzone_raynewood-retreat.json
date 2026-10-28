@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Raynewood Retreat"
  },
- "summary": "Raynewood Retreat is an ancient night elf outpost perched around a massive great tree in north-central Ashenvale. Guarded by dryads and Cenarion protectors, it serves as a watchful sanctuary monitoring the northern passes toward corrupted Felwood. It is also the sanctuary of Keeper Ordanus, an elder son of Cenarius targeted by sinister outside forces.",
+ "summary": "Raynewood Retreat watches the northern approaches to Felwood from a great tree in Ashenvale. Dryads and Cenarion protectors guard the outpost, where Keeper Ordanus makes his home.",
  "sections": [
   {
    "title": "Bastion of the Great Tree",
-   "body": "Nestled between Shael'dryn's moonwell and the satyr-infested ruins of Night Run, the outpost is fiercely guarded by Cenarion Protectors, faerie dragons, and Laughing Sisters. Their collective vigilance keeps a wary eye on the encroaching taint descending from Felwood just to the north.",
+   "body": "At Raynewood Retreat, the great tree rises between Shael'dryn's moonwell and the satyr-infested ruins of Night Run. Cenarion Protectors, faerie dragons, and Laughing Sisters guard the outpost. Their watch turns north, toward the taint spreading from Felwood.",
    "spoiler": 0
   },
   {
    "title": "The Hunt for Ordanus",
-   "body": "High atop the boughs of the great tree resides Keeper Ordanus, one of Cenarius's eldest sons. While the canopy offers him refuge, it has also become a focal point of dark intrigue. Agents aligned with the shadowy remnants of the Shadow Council, notably Braelyn Firehand, seek the keeper's demise. Horde mercenaries are dispatched to storm the heights and claim his head, turning what should be a peaceful forest sanctuary into a battleground.",
+   "body": "Keeper Ordanus lives high among the great tree's boughs, one of Cenarius's eldest sons. The canopy shelters him, yet it has drawn the attention of dark forces. Agents tied to the Shadow Council's remnants, including Braelyn Firehand, seek his death. Horde mercenaries are sent to storm the heights and claim his head, bringing battle to the forest sanctuary.",
    "spoiler": 1
   }
  ],
@@ -28,7 +28,7 @@
     "what is this place",
     "raynewood tree"
    ],
-   "answer": "Raynewood Retreat is a night elf and Cenarion settlement situated around a Great Tree in north-central Ashenvale. It acts as an Alliance-aligned sanctuary and watchpost monitoring the approaches to Felwood."
+   "answer": "Raynewood Retreat watches the approaches to Felwood from a night elf and Cenarion settlement around a Great Tree in north-central Ashenvale. The Alliance-aligned outpost guards the northern passes."
   },
   {
    "q": "Who lives at Raynewood Retreat?",
@@ -37,7 +37,7 @@
     "raynewood mobs",
     "who guards raynewood"
    ],
-   "answer": "The outpost is defended by Cenarion Protectors, dryads known as Laughing Sisters, and faerie dragons. Its most prominent resident is Keeper Ordanus, who dwells high within the great tree."
+   "answer": "Cenarion Protectors, Laughing Sisters, and faerie dragons defend Raynewood Retreat. Keeper Ordanus lives high in the great tree."
   },
   {
    "q": "Who is Keeper Ordanus?",
@@ -46,7 +46,7 @@
     "who is ordanus",
     "ordanus lore"
    ],
-   "answer": "Keeper Ordanus is a powerful keeper of the grove and one of the eldest sons of the demigod Cenarius. He oversees the sanctuary but finds himself hunted by hostile infiltrators."
+   "answer": "Keeper Ordanus is a keeper of the grove and one of Cenarius's eldest sons. He oversees the sanctuary."
   },
   {
    "q": "Why does the Horde attack Raynewood Retreat?",
@@ -55,17 +55,17 @@
     "why kill ordanus",
     "braelyn firehand quest"
    ],
-   "answer": "Braelyn Firehand hires Horde adventurers to infiltrate the tree and seek Keeper Ordanus. Her motives and allegiances are uncovered through the quest."
+   "answer": "Braelyn Firehand hires Horde adventurers to enter the tree and seek Keeper Ordanus. Her motives and allegiances come to light through the events there."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "Raynewood Retreat is holy ground under the stewardship of Cenarius's children, serving as a bulwark against demonic and fel corruption."
+   "text": "As a druid, you find holy ground at Raynewood Retreat, under the care of Cenarius's children. The grove guards against demonic and fel corruption."
   },
   {
    "target": "faction:Horde",
-   "text": "To the Horde, the retreat is an Alliance-friendly grove whose guardian, Keeper Ordanus, is targeted for elimination by covert questgivers."
+   "text": "As a member of the Horde, you face an Alliance-friendly grove at Raynewood Retreat. Its guardian, Keeper Ordanus, is marked for elimination by covert employers."
   }
  ],
  "keywords": [
@@ -90,5 +90,6 @@
  ],
  "attribution": [
   "Raynewood Retreat"
- ]
+ ],
+ "style": 1
 }

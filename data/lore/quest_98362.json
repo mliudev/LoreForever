@@ -17,16 +17,16 @@
   "wiki": "To Thunder Bluff",
   "chain": []
  },
- "summary": "To Thunder Bluff marks the triumphant return of a young tauren druid from their communion with the Cenarion Circle in Moonglade. Having earned the favor of the Great Cat Spirit, the initiate returns to Turak Runetotem on the Elder Rise to master the art of feline shapeshifting.",
+ "summary": "After communion in Moonglade, a young tauren druid makes a triumphant return to Thunder Bluff. Having earned the Great Cat Spirit's favor, the initiate goes to Turak Runetotem on the Elder Rise to master feline shapeshifting.",
  "sections": [
   {
    "title": "Return from Moonglade",
-   "body": "After proving their insight and worth before Dendrite Starblaze and the Great Cat Spirit in the sacred groves of Moonglade, a young druid must carry the spirit's blessings back to Mulgore. The communion with such primal powers represents a pivotal milestone in a druid's training, bridging ancient night elven teachings with the tauren's own earthen heritage.",
+   "body": "You return to Mulgore after meeting Dendrite Starblaze and the Great Cat Spirit in Moonglade's sacred groves. The communion joins ancient night elven teachings with the tauren's earthen heritage, marking a pivotal milestone in a druid's training.",
    "spoiler": 0
   },
   {
    "title": "Mastering the Cat Form",
-   "body": "Awaiting your return high atop the Elder Rise in Thunder Bluff is Turak Runetotem. While Dendrite facilitated communion with the spirit itself, it falls to Turak to guide the physical transformation. With the blessing of the Great Cat Spirit acknowledged, the elder trainer imparts the sacred knowledge required to adopt the swift, predatory shape of the cat.",
+   "body": "Turak Runetotem awaits you atop the Elder Rise in Thunder Bluff. Dendrite guided your communion with the Great Cat Spirit; Turak now teaches the physical change. With the spirit's blessing acknowledged, the elder trainer shares the knowledge to take the cat's swift, predatory shape.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who starts to thunder bluff",
     "to thunder bluff quest turn in"
    ],
-   "answer": "The quest is given by Dendrite Starblaze in the sacred haven of Moonglade. It directs the traveler back to the Elder Rise in Thunder Bluff to speak with Turak Runetotem."
+   "answer": "Dendrite Starblaze gives you this charge in Moonglade's sacred haven. You return to the Elder Rise in Thunder Bluff to speak with Turak Runetotem."
   },
   {
    "q": "What is the purpose of this quest?",
@@ -47,7 +47,7 @@
     "what do i get from to thunder bluff",
     "cat form quest"
    ],
-   "answer": "It serves as the concluding transition in the druid trial of the cat. After receiving the blessing of the Great Cat Spirit in Moonglade, the initiate must return to their mentor in Thunder Bluff to finally learn how to assume Cat Form."
+   "answer": "It is the concluding transition in the druid trial of the cat. After earning the Great Cat Spirit's blessing in Moonglade, you return to your mentor in Thunder Bluff to learn Cat Form."
   },
   {
    "q": "Who is Turak Runetotem?",
@@ -55,7 +55,7 @@
     "turak runetotem lore",
     "who is turak"
    ],
-   "answer": "Turak Runetotem is a respected elder of the tauren druids stationed on the Elder Rise of Thunder Bluff. He oversees the training and initiation of young Horde druids seeking to harmonize with nature and master their shapeshifting forms."
+   "answer": "Turak Runetotem is a respected elder of the tauren druids on Thunder Bluff's Elder Rise. He oversees the training and initiation of young Horde druids who seek to harmonize with nature and master their shapeshifting forms."
   },
   {
    "q": "Who is Dendrite Starblaze?",
@@ -63,7 +63,7 @@
     "dendrite starblaze role",
     "night elf in moonglade"
    ],
-   "answer": "Dendrite Starblaze is a night elf keeper of the Cenarion Circle who guides visiting druids in Nighthaven within Moonglade. He bridges instruction between ancient kaldorei traditions and tauren practitioners regardless of factional tensions."
+   "answer": "Dendrite Starblaze is a night elf keeper of the Cenarion Circle who guides visiting druids in Nighthaven, Moonglade. He bridges instruction between ancient kaldorei traditions and tauren practitioners despite factional tensions."
   },
   {
    "q": "What is the Great Cat Spirit?",
@@ -71,7 +71,7 @@
     "cat spirit lore",
     "spirit of the cat"
    ],
-   "answer": "The Great Cat Spirit is an ancient, primal entity revered by druids, embodying predatory instinct, stealth, and agility. Every druid seeking to take the feline form must pass a trial to earn its blessing and understand its dual nature as both playful and deadly."
+   "answer": "The Great Cat Spirit is an ancient primal entity revered by druids, embodying predatory instinct, stealth, and agility. Druids seeking feline form must pass a trial to earn its blessing and understand its playful and deadly nature."
   },
   {
    "q": "Do Alliance druids have an equivalent task?",
@@ -79,21 +79,21 @@
     "alliance version of to thunder bluff",
     "night elf cat form return"
    ],
-   "answer": "Yes. Night elf druids undergo a parallel rite in Moonglade, returning to Darnassus to report to their own mentor rather than heading to the wind-swept mesas of Mulgore."
+   "answer": "Yes. Night elf druids undergo a parallel rite in Moonglade, then return to Darnassus to report to their own mentor instead of traveling to the wind-swept mesas of Mulgore."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "This rite represents the unlocking of your predatory instincts, granting mastery over stealth and claws as taught by Turak Runetotem."
+   "text": "As a druid, you learn from Turak Runetotem to master stealth and claws through this rite."
   },
   {
    "target": "race:Tauren",
-   "text": "The journey underscores the tauren reconnection to Cenarion traditions, carrying lessons from sacred Moonglade back to the Elder Rise of Thunder Bluff."
+   "text": "As a tauren, your journey reconnects you with Cenarion traditions as you carry lessons from Moonglade back to the Elder Rise of Thunder Bluff."
   },
   {
    "target": "faction:Horde",
-   "text": "Though the Cenarion Circle remains neutral, Horde druids must return to their capital to ensure their growing power serves the defense of their kin."
+   "text": "As a Horde druid, you return to your capital so your growing power can defend your kin. The Cenarion Circle remains neutral."
   }
  ],
  "keywords": [
@@ -116,5 +116,6 @@
  ],
  "attribution": [
   "To Thunder Bluff"
- ]
+ ],
+ "style": 1
 }

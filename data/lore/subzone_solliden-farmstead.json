@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Solliden Farmstead"
  },
- "summary": "Solliden Farmstead is an active human pumpkin farm nestled in western Tirisfal Glades, just north of Deathknell. It represents a rare anomaly in northern Lordaeron: living native farmers who survived the Plague of Undeath and cling fiercely to their soil under the shadow of the Scarlet Crusade.",
+ "summary": "At Solliden Farmstead, human farmers still tend pumpkins in western Tirisfal Glades, just north of Deathknell. These native Lordaeronians survived the Plague of Undeath, a rare sight in northern Lordaeron, and hold fiercely to their soil beneath the Scarlet Crusade’s shadow.",
  "sections": [
   {
    "title": "A Defiant Remnant",
-   "body": "While most of Lordaeron fell to ruin and rot, the fields of Solliden Farmstead still produce healthy crops. Today, these surviving human farmers live under the watchful shield of the Scarlet Crusade patrolling from a nearby tower. Traumatized and insular, they defend their homestead with unyielding hostility, striking at any outsiders who draw near—Horde and Alliance alike.",
+   "body": "Solliden Farmstead’s fields still yield healthy crops while much of Lordaeron lies in ruin and rot. The surviving human farmers are traumatized and insular, living beneath the watch of Scarlet Crusade patrols from a nearby tower. They defend their home with fierce hostility, striking at outsiders who come near, whether Horde or Alliance.",
    "spoiler": 0
   },
   {
    "title": "Eyes in the Undercity",
-   "body": "To the Forsaken just emerging from Deathknell, Solliden is both a threat and a resource. The Royal Apothecary Society eyes the farm's pristine pumpkins as prime organic testing material for brewing their New Plague. Meanwhile, Forsaken officers like Deathguard Simmer send fledgling recruits to raid the fields, steal those pumpkins for Apothecary Johaan in Brill, and teach the living a lesson.",
+   "body": "Forsaken rising from Deathknell see Solliden Farmstead as both a threat and a resource. The Royal Apothecary Society wants its pristine pumpkins as prime organic material for testing and brewing the New Plague. Forsaken officers such as Deathguard Simmer send fledgling recruits to raid the fields, steal pumpkins for Apothecary Johaan in Brill, and teach the living a lesson.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "who are these farmers",
     "living humans in tirisfal"
    ],
-   "answer": "The Solliden farmers are native Lordaeron humans who miraculously escaped infection during the Third War. Shielded by the Scarlet Crusade patrolling from a nearby tower, they stubbornly continue cultivating the land rather than fleeing their ancestral home."
+   "answer": "The Solliden farmers are native humans of Lordaeron who miraculously escaped infection during the Third War. Scarlet Crusade patrols from a nearby tower shield them, and they keep cultivating their land rather than flee their ancestral home."
   },
   {
    "q": "Why are the Solliden farmers hostile to Alliance players?",
@@ -37,7 +37,7 @@
     "are they alliance",
     "why red to alliance"
    ],
-   "answer": "Living through the fall of Lordaeron has left the farmers paranoid, bitter, and completely untrusting of anyone outside their immediate circle. Protected by the fanatical Scarlet Crusade, they view all trespassers as potential threats or infected scavengers, attacking Alliance and Horde travelers indiscriminately."
+   "answer": "The fall of Lordaeron left the farmers paranoid, bitter, and unwilling to trust anyone beyond their circle. Shielded by the fanatical Scarlet Crusade, they see trespassers as threats or infected scavengers and attack Alliance and Horde travelers alike."
   },
   {
    "q": "Why do the Forsaken want pumpkins from Solliden Farmstead?",
@@ -46,7 +46,7 @@
     "fields of grief pumpkin quest",
     "royal apothecary society pumpkins"
    ],
-   "answer": "Apothecaries serving the Royal Apothecary Society require fresh, uncorrupted organic matter to test and refine their New Plague. The plump, untainted pumpkins growing in Solliden's soil serve as ideal living hosts for developing toxic strains."
+   "answer": "The Royal Apothecary Society needs fresh, uncorrupted organic matter to test and refine its New Plague. Pumpkins growing in Solliden’s soil are untainted hosts for developing toxic strains."
   },
   {
    "q": "Who is Deathguard Simmer, and why does he target the farm?",
@@ -55,17 +55,17 @@
     "deathguard simmer quest",
     "reaping the reapers"
    ],
-   "answer": "Deathguard Simmer is a Forsaken officer stationed near Deathknell. He sends fledgling Forsaken to raid the farm, steal ten of its pumpkins for Apothecary Johaan in Brill, and teach the humans and their Scarlet Crusade protectors a lesson."
+   "answer": "Deathguard Simmer is a Forsaken officer stationed near Deathknell. He sends fledgling Forsaken to raid the farm, steal ten pumpkins for Apothecary Johaan in Brill, and teach the humans and their Scarlet Crusade protectors a lesson."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "For the newly risen Forsaken, Solliden Farmstead is an immediate lesson in realpolitik: living Lordaeronians who despise what you have become, serving as both raw material for Apothecary toxins and a potential southern beachhead."
+   "text": "For a newly risen Forsaken, Solliden Farmstead is an immediate lesson in realpolitik: living Lordaeronians despise what you have become, while the farm offers raw material for Apothecary toxins and a possible southern beachhead."
   },
   {
    "target": "faction:Alliance",
-   "text": "Seeing living humans tilling Lordaeron's soil brings a glimmer of hope, but the bitter reality is that these isolated survivors view Stormwind's citizens with the same xenophobic hatred they hold for the undead."
+   "text": "Seeing living humans till Lordaeron’s soil may bring you hope, but these isolated survivors hate Stormwind’s citizens as they hate the undead."
   }
  ],
  "keywords": [
@@ -88,5 +88,6 @@
  ],
  "attribution": [
   "Solliden Farmstead"
- ]
+ ],
+ "style": 1
 }

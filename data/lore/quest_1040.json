@@ -17,16 +17,16 @@
   "wiki": "Passage to Booty Bay",
   "chain": []
  },
- "summary": "This errand traces the missing Sentinel Velinde Starsong across the Great Sea to the lawless haven of Booty Bay. Following shipping logs uncovered by Wharfmaster Dizzywig, Alliance travelers must journey from Ratchet to the Eastern Kingdoms in search of a goblin caravan driver named Ruzzgot.",
+ "summary": "Wharfmaster Dizzywig’s records send the search for Velinde Starsong from Ratchet to Booty Bay. From there, Alliance travelers seek Ruzzgot, a goblin caravan driver.",
  "sections": [
   {
    "title": "A Trail Across the Sea",
-   "body": "The search for the night elf Sentinel Velinde Starsong leads away from the familiar boughs of Ashenvale and onto the ocean trade lanes. In the bustling goblin port of Ratchet, Wharfmaster Dizzywig eventually unearths old shipping manifests confirming that Velinde booked passage aboard a vessel named the Black Osprey, bound directly for the pirate haven of Booty Bay in Stranglethorn Vale.",
+   "body": "Wharfmaster Dizzywig’s records carry the search for night elf Sentinel Velinde Starsong from Ashenvale to the sea. In Ratchet, the goblin port, Dizzywig finds old shipping manifests showing that Velinde booked passage on the Black Osprey. The vessel was bound for Booty Bay in Stranglethorn Vale.",
    "spoiler": 0
   },
   {
    "title": "The Road to Booty Bay",
-   "body": "Reaching Booty Bay requires boarding the neutral goblin trans-oceanic ferry running between Ratchet and the southern tip of the Eastern Kingdoms. Upon arrival, the trail narrows toward Caravaneer Ruzzgot, a goblin transport master Dizzywig recommended to Velinde when she inquired about dangerous overland journeys through the southern wilderness.",
+   "body": "A neutral goblin ferry crosses the Great Sea between Ratchet and the southern tip of the Eastern Kingdoms. In Booty Bay, the trail leads to Caravaneer Ruzzgot, a goblin transport master Dizzywig recommended to Velinde. She had asked about dangerous overland journeys through the southern wilderness.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who is velinde",
     "velinde starsong lore"
    ],
-   "answer": "Velinde Starsong was a night elf priestess who led the effort in Ashenvale to hold back the demonic presence in Felwood. Her efforts slowly faltered until she disappeared, and the Sentinels are now tracing her journey across the sea."
+   "answer": "Velinde Starsong was a night elf priestess who led efforts to hold back the demonic presence in Felwood. Her efforts faltered, and she disappeared. The Sentinels are tracing her journey across the sea."
   },
   {
    "q": "Why did Velinde travel to Booty Bay?",
@@ -47,7 +47,7 @@
     "velinde booty bay",
     "why did she go to booty bay"
    ],
-   "answer": "Booty Bay is the primary maritime hub connecting central Kalimdor to the southern Eastern Kingdoms. Velinde needed passage across the Great Sea, and the Black Osprey out of Ratchet offered direct transit toward the human and dwarven kingdoms, where she asked about overland travel."
+   "answer": "Velinde traveled to Booty Bay to seek passage across the Great Sea. The Black Osprey sailed from Ratchet to Booty Bay, where she asked about overland travel toward the human and dwarven kingdoms."
   },
   {
    "q": "Who is Wharfmaster Dizzywig?",
@@ -56,7 +56,7 @@
     "who is dizzywig",
     "wharfmaster"
    ],
-   "answer": "Wharfmaster Dizzywig manages the shipping docks in Ratchet for the Steamwheedle Cartel. Known for his impatient demeanor, he maintains the port's logbooks and passage manifests for all vessels traveling between Kalimdor and the Eastern Kingdoms."
+   "answer": "Wharfmaster Dizzywig manages Ratchet’s shipping docks for the Steamwheedle Cartel. Impatient by nature, he keeps logbooks and passage manifests for vessels traveling between Kalimdor and the Eastern Kingdoms."
   },
   {
    "q": "Who is Caravaneer Ruzzgot?",
@@ -65,7 +65,7 @@
     "caravaneer ruzzgot",
     "who is ruzzgot"
    ],
-   "answer": "Caravaneer Ruzzgot is a goblin teamster based in Booty Bay who coordinates supply convoys and overland transport through the dangerous jungles of Stranglethorn Vale and beyond."
+   "answer": "Caravaneer Ruzzgot is a goblin teamster based in Booty Bay. He coordinates supply convoys and overland transport through the dangerous jungles of Stranglethorn Vale and beyond."
   },
   {
    "q": "What ship did Velinde take?",
@@ -74,7 +74,7 @@
     "what boat did velinde take",
     "black osprey"
    ],
-   "answer": "According to Wharfmaster Dizzywig's shipping records, Velinde Starsong booked passage aboard the Black Osprey, which made a successful voyage from Ratchet across the Great Sea to Booty Bay."
+   "answer": "Wharfmaster Dizzywig’s shipping records show that Velinde Starsong booked passage aboard the Black Osprey. The ship sailed from Ratchet across the Great Sea to Booty Bay."
   },
   {
    "q": "How do I travel to Booty Bay from Ratchet?",
@@ -83,17 +83,17 @@
     "how to get to booty bay",
     "boat to booty bay"
    ],
-   "answer": "The Steamwheedle Cartel operates a passenger ferry directly from the southern dock in Ratchet across the Great Sea, docking in the pirate port of Booty Bay on the southern tip of Stranglethorn Vale."
+   "answer": "The Steamwheedle Cartel runs a passenger ferry from Ratchet’s southern dock across the Great Sea. It docks at Booty Bay on the southern tip of Stranglethorn Vale."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "Finding Velinde Starsong is an urgent duty for the Kaldorei, as her disappearance with the Scythe of Elune left behind a lingering, dangerous mystery in the forests of Ashenvale."
+   "text": "As a Kaldorei, you have urgent reason to find Velinde Starsong. She disappeared with the Scythe of Elune, leaving a dangerous mystery in Ashenvale’s forests."
   },
   {
    "target": "faction:Alliance",
-   "text": "Navigating neutral goblin territory like Ratchet and Booty Bay requires patience and diplomacy, forcing Alliance travelers to deal with mercenaries and cartel bureaucrats."
+   "text": "As an Alliance traveler, you need patience and diplomacy in neutral goblin ports like Ratchet and Booty Bay. Mercenaries and cartel bureaucrats are part of the way."
   }
  ],
  "keywords": [
@@ -116,5 +116,6 @@
  ],
  "attribution": [
   "Passage to Booty Bay"
- ]
+ ],
+ "style": 1
 }

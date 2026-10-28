@@ -27,16 +27,16 @@
    "Crown of Will"
   ]
  },
- "summary": "With Mug'Thol's lieutenants dead, Melisara in Tarren Mill sends you after Mug'Thol himself. You are to bring back his head and the Crown of Will, and the Crushridge resistance will be over.",
+ "summary": "With Mug'Thol's lieutenants dead, Melisara in Tarren Mill sends you after him. Bring back his head and the Crown of Will, and the Crushridge resistance will be over.",
  "sections": [
   {
    "title": "The Last Head",
-   "body": "Only Mug'Thol is left now. Melisara expects him to be reluctant to give up the Crown of Will, and thinks he is probably expecting you, given what befell his lieutenants. Find him, kill him, and carry his head and the Crown back to Tarren Mill.",
+   "body": "Only Mug'Thol remains. Melisara expects him to resist giving up the Crown of Will. After his lieutenants fell, he likely expects you. Find him, kill him, and bring his head and the Crown back to Tarren Mill.",
    "spoiler": 0
   },
   {
    "title": "Melisara's Reply",
-   "body": "Melisara is pleased with the work. Mug'Thol's head will adorn the topmost peak of the Ruins of Alterac, while the Deathguard are to crush whatever remains of the Crushridge.",
+   "body": "Melisara is pleased with your work. Mug'Thol's head will adorn the highest peak of the Ruins of Alterac, and the Deathguard will crush what remains of the Crushridge.",
    "spoiler": 1
   }
  ],
@@ -48,7 +48,7 @@
     "who gives the crown of will",
     "melisara quest"
    ],
-   "answer": "Melisara, in Tarren Mill, who is also the one you bring his head to."
+   "answer": "Melisara in Tarren Mill sends you to kill Mug'Thol, and you bring his head back to her."
   },
   {
    "q": "What does Melisara require from Mug'Thol?",
@@ -57,7 +57,7 @@
     "what do i get from mugthol",
     "mug'thol items"
    ],
-   "answer": "His head, and the Crown of Will."
+   "answer": "Melisara requires Mug'Thol's head and the Crown of Will."
   },
   {
    "q": "Why does Melisara think Mug'Thol expects trouble?",
@@ -66,7 +66,7 @@
     "mugthol expecting fight",
     "mug'thol alerted"
    ],
-   "answer": "His lieutenants have been killed, so Melisara suspects he is expecting you, and that he will be reluctant to part with the Crown."
+   "answer": "With his lieutenants dead, Melisara suspects Mug'Thol expects you and will resist giving up the Crown."
   },
   {
    "q": "Where does this fall in The Crown of Will?",
@@ -75,7 +75,7 @@
     "what quest comes before crown of will 4",
     "crown of will progression"
    ],
-   "answer": "It comes after the third part, in which Mug'Thol's lieutenants were hunted, and is followed by a fifth part."
+   "answer": "This comes after the third part, in which Mug'Thol's lieutenants were hunted, and is followed by a fifth part."
   }
  ],
  "angles": [],
@@ -96,5 +96,6 @@
  ],
  "attribution": [
   "The Crown of Will (4)"
- ]
+ ],
+ "style": 1
 }

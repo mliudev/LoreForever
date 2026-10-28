@@ -17,16 +17,16 @@
   "wiki": "The Dark Iron War",
   "chain": []
  },
- "summary": "At the northern edge of the Wetlands, Motley Garmason mounts a desperate defense to reclaim Dun Modr from the Dark Iron clan. After enemy saboteurs shattered the Thandol Span and seized the town, the Ironforge Mountaineers are left holding a tenuous line while waiting for reinforcements that may never arrive.",
+ "summary": "At Dun Modr, on the Wetlands' northern edge, Motley Garmason leads a desperate defense. The Dark Iron clan holds the town after saboteurs shattered the Thandol Span, leaving the Ironforge Mountaineers with a tenuous line as they wait for reinforcements that may never come.",
  "sections": [
   {
    "title": "A Front at the Northern Gate",
-   "body": "Dun Modr once stood as Ironforge's proud bastion guarding the southern end of the Thandol Span, the colossal bridge connecting Khaz Modan to Lordaeron. When Dark Iron saboteurs and demolitionists detonated the bridge's archway, they severed Alliance transit and swiftly overwhelmed the stronghold. Motley Garmason and a handful of surviving defenders managed to pull back just far enough to establish an observation camp, but without immediate counterattacks, the entire northern gateway risks permanent Dark Iron dominion.",
+   "body": "Dun Modr guarded the southern end of the colossal Thandol Span, the bridge linking Khaz Modan to Lordaeron. Dark Iron saboteurs and demolitionists shattered its archway, severing Alliance travel before they overran the stronghold. Motley Garmason and a handful of surviving defenders withdrew to an observation camp just outside town. Without a counterattack, the northern gateway risks permanent Dark Iron dominion.",
    "spoiler": 0
   },
   {
    "title": "Buying Time for the Reserves",
-   "body": "With dwarven regiments deployed to distant Alliance battlefields, Motley's small detachment has been largely left to fend for itself. His scouts attempt to signal Ironforge for relief, but communications have faltered and promised reserves are nowhere to be seen. In an attempt to buy time and disrupt enemy entrenchments, Motley orders surgical strikes directly into Dun Modr's ruins to thin the ranks of Dark Iron engineers, tunnelers, and front-line soldiers before they can push further south into the Wetlands.",
+   "body": "Dwarven regiments are deployed to distant Alliance battlefields, leaving Motley's small detachment largely to fend for itself. His scouts try to signal Ironforge for relief, but communications falter and promised reserves remain out of sight. To buy time and disrupt the enemy's entrenchments, Motley orders surgical strikes into Dun Modr's ruins. The aim is to thin the ranks of Dark Iron engineers, tunnelers, and front-line soldiers before they push farther south into the Wetlands.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who is motley",
     "dun modr commander"
    ],
-   "answer": "Motley Garmason is an Ironforge Mountaineer officer commanding the remnants of the Dun Modr garrison. Stationed just outside the occupied town, he coordinates scouting and guerrilla strikes against the occupying Dark Iron forces."
+   "answer": "Motley Garmason is an Ironforge Mountaineer officer commanding Dun Modr's surviving garrison. From a camp just outside the occupied town, he coordinates scouting and guerrilla strikes against the Dark Iron forces."
   },
   {
    "q": "Why is Dun Modr so important to Ironforge?",
@@ -47,7 +47,7 @@
     "dun modr importance",
     "dun modr lore"
    ],
-   "answer": "Dun Modr guards the southern foot of the Thandol Span. As the sole overland highway linking Khaz Modan to the Arathi Highlands and northern Lordaeron, whoever controls Dun Modr effectively controls all ground travel and supply between the regions."
+   "answer": "Dun Modr guards the southern foot of the Thandol Span. The span is the sole overland highway linking Khaz Modan to the Arathi Highlands and northern Lordaeron, so control of Dun Modr means control of ground travel and supplies between those regions."
   },
   {
    "q": "Why are Dark Iron dwarves fighting in the Wetlands?",
@@ -56,7 +56,7 @@
     "dark iron wetlands",
     "dark iron war reason"
    ],
-   "answer": "The Dark Iron clan has long sought to undermine their Bronzebeard cousins and weaken the Alliance. By invading the Wetlands and destroying the Thandol Span, they cut off Ironforge's supply lines to the north and open a hostile second front behind Alliance borders."
+   "answer": "The Dark Iron clan has long sought to undermine their Bronzebeard cousins and weaken the Alliance. By invading the Wetlands and destroying the Thandol Span, they cut Ironforge's supply lines to the north and open a hostile second front behind Alliance borders."
   },
   {
    "q": "What happened to the Thandol Span?",
@@ -65,7 +65,7 @@
     "who blew up the bridge",
     "thandol span explosion"
    ],
-   "answer": "Dark Iron tunnelers and demolitionists laid concentrated explosives within the Thandol Span's foundational arches, severely damaging the bridge to cut off Ironforge reinforcements from Lordaeron before overrunning Dun Modr."
+   "answer": "Dark Iron tunnelers and demolitionists planted concentrated explosives in the Thandol Span's foundational arches, severely damaging the bridge. They meant to cut off Ironforge reinforcements from Lordaeron before overrunning Dun Modr."
   },
   {
    "q": "Where are the Ironforge reserve forces?",
@@ -74,7 +74,7 @@
     "where are reinforcements",
     "roggo reserve"
    ],
-   "answer": "Ironforge's military is heavily stretched across multiple campaigns abroad and home defenses. Garmason's scout, Roggo, has struggled to establish reliable contact with high command, leaving the Dun Modr outpost to hold the line with whatever local allies they can find."
+   "answer": "Ironforge's military is stretched across campaigns abroad and defenses at home. Garmason's scout, Roggo, struggles to reach high command reliably, leaving the Dun Modr outpost to hold the line with whatever local allies it can find."
   },
   {
    "q": "What happens after pushing back the Dark Irons in Dun Modr?",
@@ -83,21 +83,21 @@
     "the fury runs deep quest",
     "what follows the dark iron war"
    ],
-   "answer": "Clearing the foot soldiers and sappers buys crucial time, but Roggo's intelligence reveals that Kam Deepfury, held in the Stormwind Stockade, helped plan the attack on the Thandol Span, and Motley asks you to bring him Deepfury's head."
+   "answer": "Clearing the foot soldiers and sappers buys crucial time. Roggo's intelligence reveals that Kam Deepfury, held in the Stormwind Stockade, helped plan the attack on the Thandol Span, and Motley asks you to bring him Deepfury's head."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "For Bronzebeard dwarves, the loss of Dun Modr is a bitter humiliation and a direct threat to Khaz Modan's sovereignty, demanding vengeance against their ancestral enemies."
+   "text": "As a Bronzebeard dwarf, you know Dun Modr's loss is a bitter humiliation and a direct threat to Khaz Modan's sovereignty. Vengeance against ancestral enemies is called for."
   },
   {
    "target": "faction:Alliance",
-   "text": "The destruction of the Thandol Span and the fall of Dun Modr sever overland access between Stormwind's northern allies and the southern kingdoms."
+   "text": "As an Alliance member, you know the Thandol Span's destruction and Dun Modr's fall sever overland access between Stormwind's northern allies and the southern kingdoms."
   },
   {
    "target": "profession:Engineering",
-   "text": "The precision with which Dark Iron saboteurs deployed specialized explosives to shatter ancient dwarven stonework reveals chilling mastery of structural demolition."
+   "text": "As an engineer, you can see the Dark Iron saboteurs' specialized explosives reveal a chilling mastery of structural demolition."
   }
  ],
  "keywords": [
@@ -123,5 +123,6 @@
  ],
  "attribution": [
   "The Dark Iron War"
- ]
+ ],
+ "style": 1
 }

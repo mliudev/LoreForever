@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Royal Quarter"
  },
- "summary": "The Royal Quarter is the secluded seat of power within the Undercity, serving as the throne room for Lady Sylvanas Windrunner. Here, the Banshee Queen directs the Forsaken alongside her dreadlord enforcer, Varimathras, guarded by an elite cohort of Royal Dreadguards.",
+ "summary": "In the Royal Quarter, Sylvanas Windrunner directs the Forsaken from her throne. Varimathras stands at her side, while Royal Dreadguards protect the seat of power beneath the Undercity.",
  "sections": [
   {
    "title": "The Seat of the Dark Lady",
-   "body": "Tucked away behind towering archways and shadowed corridors, the Royal Quarter\u2014also known as the Hall of the Dark Lady\u2014is the political and military nerve center of the Forsaken. Sylvanas Windrunner holds court in this cavernous subterranean chamber, plotting the survival of her free-willed undead and the destruction of the Scourge. Heavily armored Royal Dreadguards stand vigil along the dais, ensuring that uninvited guests and would-be assassins never reach their queen.",
+   "body": "The Royal Quarter, also called the Hall of the Dark Lady, is where the Forsaken make their military and political decisions. Sylvanas Windrunner holds court in its vast chamber beneath the Undercity, working for the survival of her free-willed undead and the destruction of the Scourge. Royal Dreadguards keep watch along the dais, protecting their queen from uninvited visitors and would-be assassins.",
    "spoiler": 0
   },
   {
    "title": "A Dangerous Alliance",
-   "body": "Standing beside the Dark Lady is the nathrezim Varimathras, an unexpected and uneasy fixture in the heart of the Undercity. After siding with Sylvanas during the civil war in the ruins of Lordaeron to save his own life, the dreadlord pledged loyalty to her cause. From the Royal Quarter, he commands deathstalkers and coordinates defensive operations across the realm. While his tactical cunning serves the Forsaken well, his demonic nature leaves many Horde allies wary of his true allegiances.",
+   "body": "Varimathras, a nathrezim, stands beside Sylvanas in the heart of the Undercity. During the civil war in the ruins of Lordaeron, he sided with her to save his own life and pledged loyalty to her cause. From the Royal Quarter, he commands deathstalkers and coordinates defenses across the realm. His tactical skill serves the Forsaken, but his demonic nature makes many Horde allies wary of his true allegiance.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "undercity throne room leader",
     "who leads undercity"
    ],
-   "answer": "Lady Sylvanas Windrunner, the Banshee Queen, rules the Forsaken from the throne within the Royal Quarter. She is flanked by the nathrezim Varimathras, who pledged allegiance to her during the reconquest of Lordaeron."
+   "answer": "Lady Sylvanas Windrunner, the Banshee Queen, rules the Forsaken from the Royal Quarter. The nathrezim Varimathras stands beside her, having pledged loyalty during the reconquest of Lordaeron."
   },
   {
    "q": "Why is there a dreadlord standing in the throne room?",
@@ -37,7 +37,7 @@
     "dreadlord in undercity",
     "why is demon in royal quarter"
    ],
-   "answer": "Varimathras surrendered to Sylvanas Windrunner during the reconquest of Capital City before betraying his brothers Detheroc and Balnazzar. He spared his own life by swearing loyalty to Sylvanas, and now acts as her enforcer and master of scouts."
+   "answer": "Varimathras surrendered to Sylvanas Windrunner during the reconquest of Capital City, then betrayed his brothers Detheroc and Balnazzar. He saved his own life by swearing loyalty to Sylvanas, and now acts as her enforcer and master of scouts."
   },
   {
    "q": "What are the Royal Dreadguards?",
@@ -46,7 +46,7 @@
     "undercity throne room guards",
     "royal quarter guards"
    ],
-   "answer": "The Royal Dreadguards are elite Forsaken protectors chosen specifically to guard Lady Sylvanas and the Royal Quarter. They are among the most disciplined and lethal defenders in the Undercity."
+   "answer": "The Royal Dreadguards are elite Forsaken chosen to protect Lady Sylvanas and the Royal Quarter. They are among the Undercity's most disciplined and lethal defenders."
   },
   {
    "q": "What other function does this chamber serve?",
@@ -55,17 +55,17 @@
     "royal quarter purpose",
     "battlemasters royal quarter"
    ],
-   "answer": "Beyond serving as the primary audience chamber for the Dark Lady and Varimathras, the Royal Quarter houses battlemasters who coordinate Horde combatants for foreign campaigns and strategic skirmishes across Azeroth."
+   "answer": "The Royal Quarter is also an audience chamber for the Dark Lady and Varimathras, and houses battlemasters. They coordinate Horde combatants for foreign campaigns and strategic skirmishes across Azeroth."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "The Royal Quarter represents the heart of Forsaken independence, where Sylvanas Windrunner and her dreadlord lieutenant chart the future of their liberated people."
+   "text": "For the Forsaken, the Royal Quarter is the heart of their independence. Sylvanas Windrunner and her dreadlord lieutenant chart the future of their liberated people there."
   },
   {
    "target": "faction:Horde",
-   "text": "Visiting Horde envoys to the Royal Quarter often view the Dark Lady's nathrezim councilor with intense suspicion, questioning the wisdom of trusting a demon in the heart of a Horde capital."
+   "text": "Horde envoys visiting the Royal Quarter often regard the Dark Lady's nathrezim councilor with deep suspicion. They question the wisdom of trusting a demon in the heart of a Horde capital."
   }
  ],
  "keywords": [
@@ -88,5 +88,6 @@
  ],
  "attribution": [
   "Royal Quarter"
- ]
+ ],
+ "style": 1
 }

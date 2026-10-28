@@ -8,16 +8,16 @@
   "wiki": "Marcus Redpath",
   "refs": 4
  },
- "summary": "Marshal Marcus Redpath is the senior military authority defending the Alliance town of Southshore in the Hillsbrad Foothills. He organizes patrols and bounty contracts to hold off surrounding ogres, murlocs, and naga. His leadership is essential to maintaining Lordaeron's last southern bastion on the coast.",
+ "summary": "In Southshore, Marshal Marcus Redpath holds Lordaeron's last southern bastion on the coast. He organizes patrols and bounty contracts against nearby ogres, murlocs, and naga.",
  "sections": [
   {
    "title": "A Sentinel of Southshore",
-   "body": "Marcus Redpath is the marshal of Southshore, the Alliance port on the southern coast of the Hillsbrad Foothills. Southshore endured the fall of Lordaeron's capital and the devastating Scourge invasion, and Redpath now stands at the head of its defense, guarding the port's beleaguered survivors.",
+   "body": "Marshal Marcus Redpath guards Southshore, the Alliance port on the southern coast of the Hillsbrad Foothills. The town endured the fall of Lordaeron's capital and the devastating Scourge invasion. Redpath now leads its defense, protecting the survivors who remain there.",
    "spoiler": 0
   },
   {
    "title": "Holding the Coast",
-   "body": "In the wake of the Third War, Southshore stands virtually alone against hostile forces pressing in from every side. Marshal Redpath coordinates defense operations across the Hillsbrad Foothills, enlisting seasoned adventurers to push back the Crushridge ogres creeping down from Alterac and purge dangerous naga and murloc encampments along the coastline. With the Forsaken occupying the north and Tarren Mill heavily fortified nearby, Redpath's vigilance is one of the few barriers preventing the regional Alliance presence from collapsing entirely.",
+   "body": "Southshore stands virtually alone against hostile forces pressing in from every side. Marshal Redpath coordinates the defense across the Hillsbrad Foothills and enlists seasoned adventurers to push back the Crushridge ogres advancing from Alterac. He also sends them against dangerous naga and murloc encampments along the coast. The Forsaken occupy the north, and nearby Tarren Mill is heavily fortified. Redpath's vigilance helps keep the Alliance presence in the region from collapsing.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "who is the marshal in southshore",
     "marcus redpath info"
    ],
-   "answer": "Marcus Redpath is the marshal and military commander of Southshore in the Hillsbrad Foothills. He oversees local defense against surrounding wilderness threats and hostile neighbors."
+   "answer": "Marcus Redpath is Southshore's marshal and military authority in the Hillsbrad Foothills. He oversees the town's defense against threats from the surrounding wilderness and hostile neighbors."
   },
   {
    "q": "What role did he play in the Second War?",
@@ -37,7 +37,7 @@
     "second war marcus",
     "did marcus redpath meet lothar"
    ],
-   "answer": "No account of the Second War records Redpath's part in it. He is known today as Southshore's marshal, holding the town against the ogres, murlocs and naga of the Hillsbrad Foothills."
+   "answer": "No account of the Second War records Redpath's part in it. Today, Southshore's marshal holds the town against the ogres, murlocs, and naga of the Hillsbrad Foothills."
   },
   {
    "q": "What threats does he focus on fighting?",
@@ -45,7 +45,7 @@
     "marcus redpath quests",
     "what does redpath want killed"
    ],
-   "answer": "Redpath organizes military efforts against local predators and invaders encroaching on Southshore. He issues bounties and missions targeting the Crushridge ogre tribe in the Alterac foothills, coastal murlocs, and raiding naga."
+   "answer": "Redpath organizes efforts against local predators and invaders pressing toward Southshore. He issues bounties and missions targeting the Crushridge ogre tribe in the Alterac foothills, coastal murlocs, and raiding naga."
   },
   {
    "q": "Is he related to the Redpaths of Darrowshire?",
@@ -54,7 +54,7 @@
     "is marcus related to joseph redpath",
     "redpath relatives"
    ],
-   "answer": "While he shares the Redpath surname made famous by Captain Joseph Redpath of Darrowshire in the Eastern Plaguelands, no direct kinship has been formally established beyond their shared heritage in the Kingdom of Lordaeron."
+   "answer": "Marcus Redpath shares the surname made famous by Captain Joseph Redpath of Darrowshire in the Eastern Plaguelands. No direct kinship has been established beyond their shared heritage in the Kingdom of Lordaeron."
   },
   {
    "q": "Where can Marcus Redpath be found?",
@@ -62,17 +62,17 @@
     "where is marcus redpath",
     "marcus redpath location"
    ],
-   "answer": "Marshal Redpath is stationed in the center of Southshore, an Alliance haven situated on the southern coast of the Hillsbrad Foothills."
+   "answer": "Marshal Redpath is stationed in central Southshore, an Alliance haven on the southern coast of the Hillsbrad Foothills."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Marshal Redpath provides Alliance champions with vital tasks to secure Hillsbrad against encroaching ogres and coastal hazards."
+   "text": "As an Alliance champion, you can help Marshal Redpath secure Hillsbrad against encroaching ogres and coastal hazards."
   },
   {
    "target": "race:Human",
-   "text": "Redpath holds one of humanity's last footholds in Lordaeron, keeping Southshore standing while the kingdom around it lies in ruin."
+   "text": "As a human, you see Redpath holding one of humanity's last footholds in Lordaeron. He keeps Southshore standing while the kingdom around it lies in ruin."
   }
  ],
  "keywords": [
@@ -90,5 +90,6 @@
  ],
  "attribution": [
   "Marcus Redpath"
- ]
+ ],
+ "style": 1
 }

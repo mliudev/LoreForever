@@ -10,11 +10,11 @@
    "quest:2928"
   ]
  },
- "summary": "Robo-Mechanical Guts are salvagable gearworks, conduits, and machine innards harvested from the malfunctioning constructs roaming the ruins of Gnomeregan. Gnomish engineers in Stormwind require these specific components to repair heavy tunneling vehicles meant to aid in the reclamation of Gnomeregan in Dun Morogh.",
+ "summary": "In Stormwind, Shoni gathers parts from the roaming machines of Gnomeregan. She needs them to repair tunneling vehicles meant to help reclaim the city in Dun Morogh.",
  "sections": [
   {
    "title": "Salvage for the Fleet",
-   "body": "When High Tinker Gelbin Mekkatorque and the surviving gnomes evacuated Gnomeregan, thousands of automated mechanisms, clockwork sentries, and industrial robots were abandoned inside. In the city's radioactive aftermath, these machines continue to roam the corridors autonomously. In Stormwind City, the tinker Shoni seeks to assemble a fleet of gyrodrillmatic excavationators to pierce the defenses of Gnomeregan and reclaim the lost city. Lacking fresh raw materials, she tasks bold adventurers with braving the contaminated halls of Gnomeregan to carve out functional robot viscera—springs, wires, and gyro-components—to refit the excavation machinery.",
+   "body": "After High Tinker Gelbin Mekkatorque and the surviving gnomes fled Gnomeregan, thousands of automated mechanisms, clockwork sentries, and industrial robots remained inside. The machines still roam the radioactive city's corridors on their own. In Stormwind City, tinker Shoni is assembling gyrodrillmatic excavationators to break through Gnomeregan's defenses and reclaim the lost city. Without fresh materials, she sends adventurers into the contaminated halls to salvage working parts from the robots, including springs, wires, and gyro-components.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "robo-mechanical guts use",
     "why collect mechanical guts"
    ],
-   "answer": "They are collected by Shoni in Stormwind City to repair a fleet of gyrodrillmatic excavationators—specialized tunneling vehicles intended to support operations to reclaim Gnomeregan in Dun Morogh."
+   "answer": "Shoni in Stormwind City collects Robo-Mechanical Guts to repair gyrodrillmatic excavationators, tunneling vehicles meant to help reclaim Gnomeregan in Dun Morogh."
   },
   {
    "q": "Where do you find these components?",
@@ -35,7 +35,7 @@
     "robot guts drop location",
     "gnomeregan robot parts"
    ],
-   "answer": "They can be scavenged from the various hostile clockwork automatons, mechs, and contaminated hostiles wandering both the outskirts and the depths of Gnomeregan."
+   "answer": "You can salvage the components from hostile clockwork automatons, mechs, and contaminated hostiles roaming Gnomeregan's outskirts and depths."
   },
   {
    "q": "Who is Shoni and why does she need so many parts?",
@@ -44,17 +44,17 @@
     "shoni stormwind",
     "gyrodrillmatic excavationator fleet"
    ],
-   "answer": "Shoni is an ambitious gnome engineer stationed in the Dwarven District of Stormwind. She is tasked with preparing an entire division of subterranean excavation machines—nearly four hundred in total—to breach the occupied ruins of Gnomeregan."
+   "answer": "Shoni is a gnome engineer stationed in Stormwind's Dwarven District. She needs parts to prepare nearly four hundred subterranean excavation machines to breach Gnomeregan's occupied ruins."
   }
  ],
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "Every salvaged tangle of wiring and gyro-cog serves as a reminder of the pinnacle of gnomish automated design, now tragically turned feral by radiation and isolation."
+   "text": "Each tangle of wiring and gyro-cog comes from gnomish automated designs, now roaming after radiation and isolation changed them."
   },
   {
    "target": "race:Gnome",
-   "text": "Stripping down the rogue clockwork sentries of your lost home is bittersweet, but repurposing their internal machinery provides the tangible parts needed to reclaim Gnomeregan."
+   "text": "As a gnome, salvaging the rogue clockwork sentries of your lost home can feel bittersweet. Their machinery provides parts to help reclaim Gnomeregan."
   }
  ],
  "keywords": [
@@ -75,5 +75,6 @@
  "attribution": [
   "Robo-Mechanical Guts",
   "Gyrodrillmatic Excavationators"
- ]
+ ],
+ "style": 1
 }

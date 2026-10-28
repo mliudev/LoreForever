@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Nightmare Vale"
  },
- "summary": "Nightmare Vale is a shadowed hollow nestled in southwestern Tirisfal Glades, just west of the Crusader's Outpost. Once a lush forest haven, its trees have withered under the blight, and vicious predators now roam among the twisted trunks.",
+ "summary": "Twisted trees and hungry beasts crowd Nightmare Vale in southwestern Tirisfal Glades, west of the Crusader's Outpost. Once a forest haven, it now lies blighted and withered.",
  "sections": [
   {
    "title": "A Decayed Wilderness",
-   "body": "Before the Third War, this valley was a verdant part of the Tirisfal countryside, filled with songbirds and standard woodland game. In the wake of the Scourge's plague, the vegetation has blackened and rotted away. Ravenous darkhounds and massive vampire bats have devoured the native wildlife, turning the hollow into a grim haven for scavengers and beasts of prey.",
+   "body": "Before the Third War, songbirds and woodland game filled this valley in the Tirisfal countryside. After the Scourge's plague, its plants blackened and rotted. Ravenous darkhounds and massive vampire bats consumed the native wildlife, leaving the hollow to scavengers and beasts of prey.",
    "spoiler": 0
   },
   {
    "title": "Stalkers of the Hollow",
-   "body": "Lurking in the shadows of Nightmare Vale is Ressan the Needler, an unusually large, pale vampire bat notorious among local travelers. Wedged uncomfortably between the haunted wilderness and the zealous sentries at the nearby Crusader's Outpost, the vale is an unforgiving expanse where unwary adventurers quickly become prey.",
+   "body": "Ressan the Needler, an unusually large, pale vampire bat, lurks in Nightmare Vale and is known to local travelers. The vale lies between haunted wilderness and the zealous sentries at the nearby Crusader's Outpost. Unwary travelers crossing this unforgiving expanse can quickly become prey.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "where is nightmare vale",
     "find nightmare vale"
    ],
-   "answer": "Nightmare Vale lies in the southwestern reaches of Tirisfal Glades, tucked just west of the Crusader's Outpost."
+   "answer": "Nightmare Vale lies in southwestern Tirisfal Glades, just west of the Crusader's Outpost."
   },
   {
    "q": "Why is the valley called Nightmare Vale?",
@@ -36,7 +36,7 @@
     "why nightmare vale",
     "nightmare vale lore"
    ],
-   "answer": "Once a peaceful, vibrant forest, the valley succumbed completely to the plague that devastated Lordaeron. Its withered trees and aggressive predators—hungry darkhounds and blood-drinking bats—make it a waking nightmare for anyone passing through."
+   "answer": "The plague that devastated Lordaeron consumed what had been a peaceful, vibrant forest. Withered trees and aggressive predators, including hungry darkhounds and blood-drinking bats, make the valley a waking nightmare for travelers."
   },
   {
    "q": "What creatures roam Nightmare Vale?",
@@ -45,7 +45,7 @@
     "monsters in nightmare vale",
     "beasts here"
    ],
-   "answer": "The vale is overrun by savage darkhounds and giant vampire bats that have driven out or consumed the native forest animals. The rare white vampire bat, Ressan the Needler, also prowls this hollow."
+   "answer": "Savage darkhounds and giant vampire bats roam the vale, driving out or consuming native forest animals. The rare white vampire bat Ressan the Needler also prowls there."
   },
   {
    "q": "Who is Ressan the Needler?",
@@ -54,17 +54,17 @@
     "ressan the needler",
     "rare bat tirisfal"
    ],
-   "answer": "Ressan the Needler is a rare, stark-white vampire bat known to stalk the darkened skies and withered canopy of Nightmare Vale."
+   "answer": "Ressan the Needler is a rare, stark-white vampire bat that stalks Nightmare Vale's dark skies and withered canopy."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "The twisted wildlife of Nightmare Vale serves as a reminder of the plague's lingering footprint across Tirisfal, posing an immediate threat to Forsaken travelers venturing beyond Brill."
+   "text": "As Forsaken, you can see the plague's lingering mark across Tirisfal in Nightmare Vale's twisted wildlife. Those beasts threaten travelers who venture beyond Brill."
   },
   {
    "target": "class:Hunter",
-   "text": "The vale is home to vicious darkhounds and vampire bats, including the rare white bat Ressan the Needler, making it a noteworthy proving ground for hunters seeking fearsome beasts."
+   "text": "As a hunter, you can find vicious darkhounds and vampire bats in the vale, including the rare white bat Ressan the Needler. These fearsome beasts make the vale a notable hunting ground."
   }
  ],
  "keywords": [
@@ -79,5 +79,6 @@
  ],
  "attribution": [
   "Nightmare Vale"
- ]
+ ],
+ "style": 1
 }

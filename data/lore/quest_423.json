@@ -23,16 +23,16 @@
    "Arugal's Folly (4)"
   ]
  },
- "summary": "This task sends Forsaken agents to collect enchanted shackles from Moonrage worgen roaming Silverpine Forest. Dalar Dawnweaver, analyzing Arugal's notes, aims to unravel how the renegade mage artificially reinforced his unstable magic. Studying these bindings brings the Forsaken closer to dismantling the worgen threat plaguing the region.",
+ "summary": "In Silverpine, Forsaken agents seek shackles worn by Moonrage worgen. Dalar Dawnweaver studies Arugal's notes to learn how the renegade mage strengthened his unstable magic. The bindings may help the Forsaken break the worgen threat.",
  "sections": [
   {
    "title": "A Hack's Shortcut",
-   "body": "Upon inspecting Arugal's recovered research, Dalar Dawnweaver expresses utter contempt for his former peer. According to Dalar, Arugal was never fit to serve Dalaran, let alone handle high sorcery during the kingdom's direst hour. To compensate for his mediocre talent, Arugal relied on enchanted relics and hardware to bolster and bind his summoned worgen beasts. Dalar requires physical samples of these items to dissect the magical tether holding the monsters together.",
+   "body": "Dalar Dawnweaver studies Arugal's recovered research with open contempt for his former peer. He says Arugal was never fit to serve Dalaran, much less wield high sorcery in the kingdom's darkest hour. Lacking talent, Arugal turned to enchanted relics and devices to strengthen and bind the worgen he summoned. Dalar needs samples of those objects to study the magic tethering the beasts.",
    "spoiler": 0
   },
   {
    "title": "The Moonrage Bindings",
-   "body": "The cursed inhabitants of Silverpine, transformed into Moonrage worgen, wander the woods carrying physical manifestations of Arugal's binding enchantments. Moonrage Gluttons and Moonrage Darksouls stalk the regions to the north and east of the Sepulcher. Prized for the residual arcane energy woven into their metal, their heavy shackles serve as crucial specimens for Dawnweaver's counter-research against Shadowfang Keep.",
+   "body": "Moonrage worgen roam Silverpine with shackles that carry Arugal's binding enchantments. Moonrage Gluttons and Moonrage Darksouls prowl north and east of the Sepulcher. Their heavy metal shackles hold residual arcane energy, making them useful to Dawnweaver as he searches for a way to counter Shadowfang Keep.",
    "spoiler": 0
   }
  ],
@@ -44,7 +44,7 @@
     "purpose of worgen shackles",
     "dalar dawnweaver plan"
    ],
-   "answer": "Dalar determined that Arugal used enchanted items to compensate for weak magical talent. By examining the enchanted shackles worn by Moonrage Gluttons and Darksouls, Dalar hopes to extract their magical energy and uncover how Arugal commands his beasts."
+   "answer": "Dalar wants the shackles to study how Arugal used enchanted objects to make up for his weak magical talent. He hopes their magic will show how Arugal commands his beasts."
   },
   {
    "q": "Who was Arugal before he went mad in Silverpine?",
@@ -53,7 +53,7 @@
     "who is arugal",
     "arugal dalaran"
    ],
-   "answer": "Arugal was a mage of Dalaran. According to Dalar Dawnweaver, Arugal was considered a mediocre talent within the Kirin Tor, but during the Third War he turned to forbidden extra-planar summoning to unleash the worgen against the Scourge."
+   "answer": "Arugal was a mage of Dalaran. Dalar Dawnweaver calls him a mediocre talent in the Kirin Tor, but during the Third War Arugal used forbidden summoning from beyond this world to unleash worgen against the Scourge."
   },
   {
    "q": "Where are the Moonrage Gluttons and Darksouls found?",
@@ -62,7 +62,7 @@
     "darksoul location",
     "worgen locations silverpine"
    ],
-   "answer": "These savage worgen roam the wilds north and east of the Sepulcher in Silverpine Forest, prowling near old ruins and forested trails."
+   "answer": "Moonrage Gluttons and Moonrage Darksouls roam Silverpine Forest north and east of the Sepulcher, near old ruins and wooded trails."
   },
   {
    "q": "Why are the Forsaken so concerned with Arugal?",
@@ -70,7 +70,7 @@
     "forsaken worgen threat",
     "why fight arugal"
    ],
-   "answer": "Arugal's worgen overrun Silverpine Forest, directly threatening the Sepulcher and the Forsaken's territorial control south of Tirisfal Glades. Neutralizing his magic is critical to securing the northern kingdom."
+   "answer": "Arugal's worgen threaten the Sepulcher and Forsaken control south of Tirisfal Glades. The Forsaken seek to break his magic and secure the northern kingdom."
   },
   {
    "q": "What does Dalar Dawnweaver think of Dalaran?",
@@ -78,7 +78,7 @@
     "dalar dalaran opinion",
     "dalar on kirin tor"
    ],
-   "answer": "Dalar holds bitter disdain for his former peers in Dalaran, viewing them as fools for trusting Arugal with responsibilities he was not competent enough to handle."
+   "answer": "Dalar bitterly despises his former peers in Dalaran. He believes they were fools to trust Arugal with duties beyond his abilities."
   },
   {
    "q": "Is Arugal working with the Scourge?",
@@ -86,21 +86,21 @@
     "arugal scourge alliance",
     "is arugal scourge"
    ],
-   "answer": "No. Arugal originally summoned the worgen to fight the Scourge to defend Dalaran. However, the beasts turned wild and drove him mad, leading him to claim Shadowfang Keep as his personal domain."
+   "answer": "No. Arugal summoned the worgen to defend Dalaran from the Scourge. The beasts became wild and drove him mad, and he claimed Shadowfang Keep as his own domain."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "For the Forsaken, securing Silverpine from feral worgen is essential to protecting the southern border of Tirisfal Glades and cementing Queen Sylvanas's domain."
+   "text": "As Forsaken, you need to secure Silverpine from feral worgen to protect Tirisfal Glades' southern border and strengthen Queen Sylvanas's domain."
   },
   {
    "target": "class:Mage",
-   "text": "Forsaken mages can appreciate Dalar's scathing professional critique: Arugal compensated for shoddy arcane fundamentals by channeling power through physical enchanted bindings."
+   "text": "As a Forsaken mage, you can recognize Dalar's harsh professional judgment: Arugal made up for poor arcane skill by channeling power through enchanted bindings."
   },
   {
    "target": "faction:Horde",
-   "text": "Clearing the woods of Silverpine ensures safe transit along the high road connecting Tirisfal to regions further south."
+   "text": "As a member of the Horde, you need clear woods in Silverpine for safe travel along the high road from Tirisfal to lands farther south."
   }
  ],
  "keywords": [
@@ -126,5 +126,6 @@
  ],
  "attribution": [
   "Arugal's Folly (2)"
- ]
+ ],
+ "style": 1
 }

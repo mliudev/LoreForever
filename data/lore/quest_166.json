@@ -17,21 +17,21 @@
   "wiki": "The Defias Brotherhood (7)",
   "chain": []
  },
- "summary": "This mission represents the culmination of Gryan Stoutmantle's long campaign to reclaim Westfall from outlaw rule. Tasked with entering the Deadmines, Alliance champions must breach the criminal hideout and strike down the mastermind Edwin VanCleef himself.",
+ "summary": "In Westfall, The Defias Brotherhood still holds the farmlands in fear. Gryan Stoutmantle has found their stronghold beneath Moonbrook and calls for a final blow against their leader.",
  "sections": [
   {
    "title": "A Sentence Passed",
-   "body": "For months, Gryan Stoutmantle and the beleaguered People's Militia have fought a desperate holding action against the Defias Brotherhood across Westfall. With the true location of the thieves' stronghold uncovered beneath Moonbrook, Stoutmantle issues his final, grim decree: Edwin VanCleef must be assassinated to break the back of the rebellion once and for all.",
+   "body": "Gryan Stoutmantle and the People's Militia have fought the Defias Brotherhood across Westfall for months. Now the thieves' stronghold lies exposed beneath Moonbrook. Stoutmantle orders Edwin VanCleef assassinated, believing his death will break the rebellion once and for all.",
    "spoiler": 0
   },
   {
    "title": "Into the Labyrinth",
-   "body": "To carry out the execution, fighters must delve deep into the winding shafts of the Deadmines. Past renegade stonemasons, goblin engineers, and heavy iron blast doors lies the central dry dock, where VanCleef oversees the final construction of his grand war vessel. Taking his head severs the command structure holding the entire outlaw network together.",
+   "body": "You face winding shafts deep beneath the Deadmines, where renegade stonemasons, goblin engineers, and heavy iron blast doors guard the way. At the central dry dock, VanCleef oversees the final construction of his grand war vessel. His death would sever the command that holds the outlaw network together.",
    "spoiler": 1
   },
   {
    "title": "Shadows of a Greater Conspiracy",
-   "body": "While Stoutmantle believes VanCleef's death marks the beginning of the end for the Brotherhood, the fallen guildmaster's corpse holds troubling secrets. Upon his body rests an unsent letter, hinting that the uprising in Westfall was never an isolated revolt, but part of a wider, darker web stretching into the very nobility of Stormwind City.",
+   "body": "Gryan Stoutmantle believes VanCleef's death will begin the end for the Brotherhood. Yet an unsent letter rests on the fallen guildmaster's body. It hints that Westfall's uprising was tied to a wider web reaching into Stormwind City's nobility.",
    "spoiler": 1
   }
  ],
@@ -43,7 +43,7 @@
     "what do i do",
     "what is this quest"
    ],
-   "answer": "You are tasked by Gryan Stoutmantle to venture into the Deadmines dungeon in Moonbrook, eliminate Edwin VanCleef, and return with his severed head to Sentinel Hill."
+   "answer": "Gryan Stoutmantle asks you to enter the Deadmines beneath Moonbrook, kill Edwin VanCleef, and bring his severed head to Sentinel Hill."
   },
   {
    "q": "Who is Edwin VanCleef?",
@@ -52,7 +52,7 @@
     "vancleef identity",
     "edwin vancleef lore"
    ],
-   "answer": "Edwin VanCleef was formerly the Grand Mason of the Stonemasons Guild who led the rebuilding of Stormwind City after the orcs razed it in the First War. After a bitter dispute over payment with the House of Nobles, he founded the Defias Brotherhood to exact vengeance upon the kingdom."
+   "answer": "Edwin VanCleef once served as Grand Mason of the Stonemasons Guild and led Stormwind City's rebuilding after the orcs razed it in the First War. After a bitter dispute with the House of Nobles over payment, he founded the Defias Brotherhood to seek vengeance on the kingdom."
   },
   {
    "q": "Why does Gryan Stoutmantle order an assassination?",
@@ -61,7 +61,7 @@
     "stoutmantle motive",
     "why death penalty"
    ],
-   "answer": "The People's Militia lacks the regular army reinforcements from Stormwind needed to fight an enduring war. Stoutmantle recognizes that decapitating the leadership is Westfall's only realistic chance of breaking the syndicate's stranglehold on the farmlands."
+   "answer": "The People's Militia lacks the regular army reinforcements from Stormwind needed for a long war. Stoutmantle sees the removal of the Brotherhood's leadership as Westfall's only realistic chance to break the syndicate's grip on the farmlands."
   },
   {
    "q": "Where can Edwin VanCleef be found?",
@@ -70,7 +70,7 @@
     "where is edwin vancleef",
     "deadmines boss location"
    ],
-   "answer": "He is hidden deep within the Deadmines beneath Moonbrook. Gryan Stoutmantle asks you to enter the hideout and seek him out."
+   "answer": "Edwin VanCleef is hidden deep in the Deadmines beneath Moonbrook. Gryan Stoutmantle asks you to enter the hideout and find him."
   },
   {
    "q": "Does killing VanCleef destroy the Defias completely?",
@@ -88,21 +88,21 @@
     "unsent letter",
     "what does vancleef drop"
    ],
-   "answer": "Stoutmantle demands VanCleef's head as proof. Other discoveries inside the hideout are revealed during the mission."
+   "answer": "Stoutmantle demands VanCleef's head as proof. Other discoveries inside the hideout come during the assault."
   }
  ],
  "angles": [
   {
    "target": "race:Human",
-   "text": "For humans of the kingdom, striking down VanCleef is a bittersweet tragedy, cutting down the very artisan whose hands rebuilt their capital out of ashes."
+   "text": "As a human of the kingdom, you face a bitter tragedy in VanCleef's death: the artisan who rebuilt your capital from ashes."
   },
   {
    "target": "faction:Alliance",
-   "text": "This mission marks a critical early victory for the Alliance, securing the breadbasket of Westfall when the throne of Stormwind cannot spare its own troops."
+   "text": "As an Alliance member, you strike an early blow to secure Westfall's breadbasket while Stormwind's throne cannot spare its own troops."
   },
   {
    "target": "class:Rogue",
-   "text": "VanCleef is a legendary rogue and master artisan; crossing blades with him in his inner sanctum tests the martial training of any stealth operative."
+   "text": "As a rogue, you face VanCleef, a famed rogue and master artisan, in his inner sanctum. The clash tests the training of any stealth operative."
   }
  ],
  "keywords": [
@@ -128,5 +128,6 @@
  ],
  "attribution": [
   "The Defias Brotherhood (7)"
- ]
+ ],
+ "style": 1
 }

@@ -17,16 +17,16 @@
   "wiki": "Murloc Poachers",
   "chain": []
  },
- "summary": "Dockmaster Baren of Lakeshire needs adventurers to thin the swelling ranks of murlocs along Lake Everstill before they deplete the town's primary food source. What begins as a practical pest-control bounty raises an unsettling ecological question: why are coastal creatures settling so deep into the inland mountains?",
+ "summary": "Along Lake Everstill, Murloc Poachers are stripping Lakeshire's waters of fish. Dockmaster Baren needs you to thin their swelling ranks before the town loses its main food supply.",
  "sections": [
   {
    "title": "A Threat to the Town's Pantry",
-   "body": "Lake Everstill is the lifeblood of Lakeshire, keeping the mountain town fed and supplying its market with fresh catches. When large tribes of murlocs began dropping anchor along the shallows, Dockmaster Baren realized the town faced an ecological crisis. The ravenous fish-men were aggressively scouring the waters, threatening to wipe out the local fish populations entirely if left unchecked.",
+   "body": "Dockmaster Baren needs you to protect the fish that feed Lakeshire. Lake Everstill supplies the mountain town and its market with fresh catches. Large tribes of murlocs now crowd the shallows and scour the waters for food. Left unchecked, they could wipe out the local fish and leave Lakeshire without its main food supply.",
    "spoiler": 0
   },
   {
    "title": "Strange Inland Migration",
-   "body": "Murlocs are typically coastal scavengers, making their massive presence high up in the Redridge Mountains an unusual sight. Dockmaster Baren openly wonders why they have traveled so far from the open ocean. Whether driven inland by maritime predators, fleeing territorial squabbles, or drawn by Lake Everstill's bountiful waters, their displacement hints at deeper disruptions elsewhere in the region.",
+   "body": "Murlocs usually scavenge along the coast, so their numbers high in the Redridge Mountains are hard to explain. Dockmaster Baren wonders why they have come so far from the open ocean. They may be fleeing predators at sea, losing territorial fights, or drawn by Lake Everstill's plentiful waters. Whatever brought them inland, their presence points to trouble elsewhere in the region.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who gives murloc poachers",
     "dockmaster baren"
    ],
-   "answer": "Dockmaster Baren oversees the docks and fishing traffic along the shore of Lake Everstill at Lakeshire. He handles waterborne supplies and hires adventurers to defend the lake's resources from aquatic threats."
+   "answer": "Dockmaster Baren oversees the docks and fishing traffic along Lake Everstill's shore at Lakeshire. He handles supplies brought by water and hires you to defend the lake's resources from aquatic threats."
   },
   {
    "q": "Why are murlocs in Redridge Mountains?",
@@ -47,7 +47,7 @@
     "murlocs inland redridge",
     "why fishmen in lake"
    ],
-   "answer": "Murlocs usually inhabit coastal shores and marshlands, making their presence in the high-altitude Lake Everstill unusual. Dockmaster Baren speculates that these tribes migrated deep inland because they were fleeing something even worse along the coasts."
+   "answer": "Murlocs usually live along coastal shores and marshes, so their presence at high-altitude Lake Everstill is unusual. Dockmaster Baren suspects the tribes came inland to escape something worse along the coasts."
   },
   {
    "q": "What threat do the murlocs pose to Lakeshire?",
@@ -56,7 +56,7 @@
     "murloc problem lakeshire",
     "lake everstill fish depleted"
    ],
-   "answer": "Lakeshire depends heavily on Lake Everstill for fishing and commerce. The murloc tribes are rapidly overfishing the waters, threatening to starve out the town's primary food supply and disrupt the local economy."
+   "answer": "Lakeshire relies on Lake Everstill for fish and commerce. The murloc tribes are overfishing its waters, threatening the town's main food supply and local trade."
   },
   {
    "q": "Why does Dockmaster Baren collect murloc fins?",
@@ -64,7 +64,7 @@
     "why murloc fins",
     "fin bounty lakeshire"
    ],
-   "answer": "Baren collects eight murloc fins as physical proof of the cull. The fins confirm that adventurers are actively thinning the population along the shores and deterring the encroaching tribes."
+   "answer": "Dockmaster Baren collects eight murloc fins as proof that you have culled the tribes along the shore and helped deter their advance."
   },
   {
    "q": "Are there other tasks involving Lake Everstill's murlocs?",
@@ -72,7 +72,7 @@
     "selling fish quest connection",
     "other murloc quests redridge"
    ],
-   "answer": "Yes, Dockmaster Baren also offers a companion task, Selling Fish, which asks adventurers to bring him the lake's famous spotted sunfish, either caught by line or taken from the murlocs."
+   "answer": "Yes. Dockmaster Baren also offers Selling Fish, which asks you to bring him the lake's famous spotted sunfish, caught by line or taken from the murlocs."
   },
   {
    "q": "What reward does Dockmaster Baren give for clearing the poachers?",
@@ -80,17 +80,17 @@
     "murloc poachers reward",
     "dwarven fishing pole quest"
    ],
-   "answer": "After receiving the eight fins, Dockmaster Baren rewards the adventurer with a well-crafted Dwarven Fishing Pole to encourage proper stewardship of the lake's waters."
+   "answer": "After you bring him eight fins, Dockmaster Baren gives you a well-crafted Dwarven Fishing Pole to encourage care for the lake's waters."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Lakeshire is already hard-pressed by blackrock orcs and gnolls, leaving the Alliance town with little defense to spare for securing its vital food supplies in Lake Everstill."
+   "text": "Lakeshire is already hard pressed by blackrock orcs and gnolls, leaving the Alliance town with little defense to protect its vital food supply in Lake Everstill."
   },
   {
    "target": "race:Human",
-   "text": "Redridge was once a tranquil vacation haven for the kingdom of Stormwind; seeing its pristine mountain waters overrun by hostile murlocs underscores how far order has deteriorated."
+   "text": "As a human, you know Redridge was once a tranquil vacation haven for the kingdom of Stormwind. Hostile murlocs now overrun its pristine mountain waters, a sign of how far order has deteriorated."
   }
  ],
  "keywords": [
@@ -111,5 +111,6 @@
  ],
  "attribution": [
   "Murloc Poachers"
- ]
+ ],
+ "style": 1
 }

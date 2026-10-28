@@ -21,21 +21,21 @@
    "A Recipe For Death (3)"
   ]
  },
- "summary": "A Recipe For Death concludes an investigation into the findings of a fallen researcher, directing adventurers to gather rare biological reagents across Lake Lordamere. By recovering harvested mosses and a strange tumor, the Forsaken bring essential components to Master Apothecary Faranell in the Undercity. This work directly supports the Royal Apothecary Society's overarching goal to develop a New Plague.",
+ "summary": "Apothecary Renferrel sends you to gather rare reagents across Lake Lordamere. Berard's journal names mosses and a strange tumor, which you bring to Master Apothecary Faranell in the Undercity. The Royal Apothecary Society needs them for its work on a New Plague.",
  "sections": [
   {
    "title": "A Legacy of Research",
-   "body": "The loss of Apothecary Berard to Arugal's curse struck a blow against the Royal Apothecary Society, but his field journal left behind crucial insights into the blighted biology of Silverpine Forest and Lake Lordamere. Stationed at the Sepulcher, Apothecary Renferrel parsed through Berard's recovered notes and discovered that Berard had documented promising properties in local freshwater organisms. Rather than let Berard's sacrifice go to waste, Renferrel tasks champions of the Horde with fulfilling his lost colleague's vision.",
+   "body": "Apothecary Berard's death under Arugal's curse cost the Royal Apothecary Society a skilled researcher. His field journal survived, preserving what he learned about blighted life in Silverpine Forest and Lake Lordamere. At the Sepulcher, Apothecary Renferrel studied the recovered notes and found Berard's account of promising properties in local freshwater organisms. Now Renferrel asks you to carry forward the work his colleague began.",
    "spoiler": 0
   },
   {
    "title": "The Hazards of Lake Lordamere",
-   "body": "Gathering Berard's specified reagents requires venturing onto the Dawning Isles, the mist-shrouded islands situated along the eastern waters of Lake Lordamere. The lake skulkers and lake creepers inhabiting these isles gather peculiar strains of moss that survive in tainted waters. More elusive is the hardened tumor, a bizarre growth noted by Berard among the vicious Vile Fin murloc tribes that nest along the islets and southern lake shoreline near Ambermill.",
+   "body": "Berard's reagents lie among the Dawning Isles, mist-shrouded islands in the eastern waters of Lake Lordamere. Lake skulkers and lake creepers on the isles carry peculiar moss strains that live in tainted water. Berard also noted a hardened tumor among the fierce Vile Fin murloc tribes that nest along the islets and the lake's southern shoreline near Ambermill.",
    "spoiler": 0
   },
   {
    "title": "Fueling the Apothecarium",
-   "body": "Once collected, the specimens bypass the Sepulcher entirely and are delivered straight to the Apothecarium in the Undercity, into the waiting hands of Master Apothecary Faranell. Faranell views these strange mutations as indispensable steps toward crafting a New Plague capable of eradicating both Scourge and living foes. Berard's research is swiftly integrated into the Society's ongoing cauldron vats, bringing the Forsaken one step closer to their ultimate weapon.",
+   "body": "Master Apothecary Faranell receives the specimens at the Apothecarium in the Undercity, bypassing the Sepulcher. He considers these strange mutations essential to making a New Plague that can destroy the Scourge and the living. Berard's research now feeds the Society's work in its cauldron vats, bringing the Forsaken closer to their weapon.",
    "spoiler": 1
   }
  ],
@@ -47,7 +47,7 @@
     "apothecary recipe ingredients",
     "what is the tumor for"
    ],
-   "answer": "Apothecary Berard's field journal noted that the aquatic mosses found on lake beasts and the bizarre hardened tumors developing on local Vile Fin murlocs possess unique biological properties. Master Apothecary Faranell utilizes these rare mutated reagents to brew and refine the Royal Apothecary Society's New Plague."
+   "answer": "Apothecary Berard's field journal describes unusual properties in the aquatic mosses found on lake beasts and the hardened tumors growing on local Vile Fin murlocs. Master Apothecary Faranell uses these rare, altered materials to brew and refine the Royal Apothecary Society's New Plague."
   },
   {
    "q": "Who was Berard?",
@@ -56,7 +56,7 @@
     "who is berard",
     "berard journal"
    ],
-   "answer": "Apothecary Berard was a researcher for the Royal Apothecary Society operating in Silverpine Forest. After Arugal's curse left him a mindless servant, his recovered field journal provided Apothecary Renferrel and Master Apothecary Faranell with the vital reagent specifications needed to continue his work."
+   "answer": "Apothecary Berard researched for the Royal Apothecary Society in Silverpine Forest. Arugal's curse made him a mindless servant, but his recovered field journal gave Apothecary Renferrel and Master Apothecary Faranell the reagent details needed to carry on his work."
   },
   {
    "q": "Where are the Dawning Isles located?",
@@ -65,7 +65,7 @@
     "dawning isles location",
     "lake skulker location"
    ],
-   "answer": "The Dawning Isles are a cluster of small islands situated in eastern Lake Lordamere, just east of Silverpine Forest. They are heavily infested with lake skulkers, lake creepers, and tribes of hostile Vile Fin murlocs."
+   "answer": "The Dawning Isles are small islands in eastern Lake Lordamere, just east of Silverpine Forest. Lake skulkers, lake creepers, and hostile Vile Fin murloc tribes infest them."
   },
   {
    "q": "Who is Master Apothecary Faranell?",
@@ -74,7 +74,7 @@
     "who is faranell",
     "master apothecary faranell"
    ],
-   "answer": "Master Apothecary Faranell is the leader of the Royal Apothecary Society, stationed deep within the Apothecarium of the Undercity. He oversees all research and development concerning chemical warfare, biological concoctions, and the creation of the New Plague on behalf of Lady Sylvanas Windrunner."
+   "answer": "Master Apothecary Faranell leads the Royal Apothecary Society from deep within the Apothecarium in the Undercity. He oversees research into chemical warfare and biological concoctions, as well as the creation of the New Plague for Lady Sylvanas Windrunner."
   },
   {
    "q": "Why are Vile Fin murlocs growing hardened tumors?",
@@ -83,7 +83,7 @@
     "vile fin tumor lore",
     "hardened tumor murlocs"
    ],
-   "answer": "The waters and shores around Lake Lordamere have been heavily warped by blighted decay and nearby arcane conflicts. The hardened tumors found on the Vile Fin are rare, abnormal growths resulting from this contaminated environment, making them of immense scientific interest to the Forsaken."
+   "answer": "Blighted decay and nearby arcane conflicts have warped Lake Lordamere's waters and shores. Hardened tumors on the Vile Fin are rare, abnormal growths from this contaminated environment, and the Forsaken prize them for study."
   },
   {
    "q": "How does this quest connect to the New Plague?",
@@ -92,17 +92,17 @@
     "a new plague questline",
     "is this the plague"
    ],
-   "answer": "The entire Recipe for Death chain is an ingredient-gathering endeavor directly tied to the development of the New Plague. While junior apothecaries like Renferrel decipher and collect regional materials, everything is funneled directly to Faranell's central plague-brewing operations in the Undercity."
+   "answer": "The Recipe for Death chain gathers ingredients for the New Plague. Junior apothecaries such as Renferrel decipher and collect regional materials, then send them to Faranell's plague-brewing work in the Undercity."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "Fulfilling Berard's unfinished experiments directly empowers the Dark Lady's vision, proving that every Forsaken mind contributes to the nation's survival even in death."
+   "text": "As an Undead, carrying on Berard's unfinished experiments serves the Dark Lady's vision. Every Forsaken mind helps the nation survive, even in death."
   },
   {
    "target": "faction:Horde",
-   "text": "Forsaken apothecaries welcome help from allied Horde combatants in gathering the reagents for their New Plague."
+   "text": "As a member of the Horde, you can help Forsaken apothecaries gather reagents for their New Plague."
   }
  ],
  "keywords": [
@@ -131,5 +131,6 @@
  ],
  "attribution": [
   "A Recipe For Death (3)"
- ]
+ ],
+ "style": 1
 }

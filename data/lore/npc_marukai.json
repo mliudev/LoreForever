@@ -8,11 +8,11 @@
   "wiki": "Marukai",
   "refs": 1
  },
- "summary": "Marukai is a Darkspear jungle troll stationed at Zoram'gar Outpost along the foggy coast of northwest Ashenvale. Dedicated to holding this remote beachhead for the Horde, she coordinates efforts to cull the encroaching Wrathtail naga who threaten the outpost.",
+ "summary": "At Zoram'gar Outpost, Marukai holds a remote Horde beachhead against the Wrathtail naga. The Darkspear jungle troll coordinates efforts to drive the naga back along Ashenvale's foggy northwest coast.",
  "sections": [
   {
    "title": "Holding the Strand",
-   "body": "Zoram'gar Outpost sits isolated on the northern edge of the Zoram Strand, surrounded by ancient ruins, hostile night elf territory, and the restless sea. As the Wrathtail naga emerge in force from the waters and ancient elven ruins to claim the shoreline, Marukai works to keep the encampment from being overwhelmed. She directs Horde champions to push the serpent-folk back into the tide and collect their heads, ensuring the outpost remains a viable coastal stronghold.",
+   "body": "At Zoram'gar Outpost, Marukai works to keep the encampment from being overwhelmed. The outpost sits on the northern edge of the Zoram Strand, surrounded by ancient ruins, hostile night elf territory, and the restless sea. Wrathtail naga emerge in force from the waters and ancient elven ruins to claim the shoreline. Marukai directs Horde champions to push them back into the tide and collect their heads, keeping the outpost a viable coastal stronghold.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "who is marukai",
     "marukai npc"
    ],
-   "answer": "Marukai is a jungle troll questgiver defending Zoram'gar Outpost, the Horde's isolated coastal encampment on the northwestern shores of Ashenvale."
+   "answer": "Marukai is a jungle troll defending Zoram'gar Outpost, the Horde's isolated coastal encampment on Ashenvale's northwestern shore."
   },
   {
    "q": "Why is Marukai fighting the naga?",
@@ -33,7 +33,7 @@
     "marukai naga quest",
     "zoram strand naga"
    ],
-   "answer": "The Wrathtail naga have infested the nearby Zoram Strand and surrounding ruins. To secure the outpost's borders and ensure Horde survival on the coast, Marukai hires adventurers to thin their numbers by hunting them down directly."
+   "answer": "Wrathtail naga have infested the nearby Zoram Strand and surrounding ruins. To secure the outpost's borders and ensure Horde survival on the coast, Marukai hires adventurers to hunt them directly and thin their numbers."
   },
   {
    "q": "Where is Marukai located?",
@@ -42,17 +42,17 @@
     "marukai location",
     "find marukai"
    ],
-   "answer": "She can be found standing alongside her kin at Zoram'gar Outpost, situated at the mouth of the Zoram Strand in northwestern Ashenvale, just south of the submerged ruins of Blackfathom Deeps."
+   "answer": "Marukai stands with her kin at Zoram'gar Outpost, at the mouth of the Zoram Strand in northwestern Ashenvale, just south of the submerged ruins of Blackfathom Deeps."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "Marukai anchors one of the Horde's most precarious coastal camps in night elf territory, relying on allied champions to prevent the local naga from overrunning their position."
+   "text": "In night elf territory, Marukai anchors one of the Horde's most precarious coastal camps. She relies on allied champions to keep the local naga from overrunning their position."
   },
   {
    "target": "race:Troll",
-   "text": "Far from the warm echoes of Sen'jin Village, Marukai represents the resilience of the Darkspear tribe as they carve out fortified footholds for the Horde across Kalimdor."
+   "text": "Far from the warm echoes of Sen'jin Village, Marukai shows the Darkspear tribe's resilience as they carve out fortified footholds for the Horde across Kalimdor."
   }
  ],
  "keywords": [
@@ -77,5 +77,6 @@
  ],
  "attribution": [
   "Marukai"
- ]
+ ],
+ "style": 1
 }

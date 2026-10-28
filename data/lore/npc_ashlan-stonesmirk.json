@@ -8,16 +8,16 @@
   "wiki": "Ashlan Stonesmirk",
   "refs": 2
  },
- "summary": "Ashlan Stonesmirk is a dwarven explosives expert assigned to the regiment guarding Dun Modr and the Thandol Span in the northern Wetlands. From there, he keeps a vigilant eye on regional dangers threatening the realm of Ironforge.",
+ "summary": "At Dun Modr, Ashlan Stonesmirk watches the border with the regiment guarding the Thandol Span. The dwarven explosives expert keeps alert for dangers threatening Ironforge.",
  "sections": [
   {
    "title": "An Expert on the Border",
-   "body": "Positioned at Dun Modr in the northern Wetlands, Ashlan Stonesmirk serves the regiment guarding the Thandol Span. His expertise with explosives makes him a useful contact when suspicious materials threaten dwarven defenses.",
+   "body": "At Dun Modr in the northern Wetlands, Ashlan Stonesmirk serves the regiment guarding the Thandol Span. His knowledge of explosives makes him a useful contact when suspicious materials threaten dwarven defenses.",
    "spoiler": 0
   },
   {
    "title": "A Dark Threat Looms",
-   "body": "When Chief Engineer Hinderweir finds a suspicious powder near the Stonewrought Dam, he sends it to Ashlan for examination. Ashlan identifies the powder as Seaforium and advises how to neutralize it.",
+   "body": "Chief Engineer Hinderweir finds suspicious powder near the Stonewrought Dam and sends it to Ashlan for examination. Ashlan identifies the powder as Seaforium and explains how to neutralize it.",
    "spoiler": 1
   }
  ],
@@ -29,7 +29,7 @@
     "where is ashlan stonesmirk",
     "ashlan stonesmirk loc"
    ],
-   "answer": "In this era, Ashlan Stonesmirk is stationed at Dun Modr in the northern Wetlands, near the Thandol Span."
+   "answer": "Ashlan Stonesmirk is stationed at Dun Modr in the northern Wetlands, near the Thandol Span."
   },
   {
    "q": "What is Ashlan Stonesmirk's role?",
@@ -38,7 +38,7 @@
     "ashlan purpose",
     "what does ashlan do"
    ],
-   "answer": "He is a dwarven explosives expert stationed with the regiment guarding Dun Modr and the Thandol Span. Hinderweir turns to him to identify a suspicious powder found near the Stonewrought Dam."
+   "answer": "Ashlan Stonesmirk is a dwarven explosives expert with the regiment guarding Dun Modr and the Thandol Span. Hinderweir turns to him to identify suspicious powder found near the Stonewrought Dam."
   },
   {
    "q": "What quests does Ashlan offer?",
@@ -46,17 +46,17 @@
     "ashlan quests",
     "quests from ashlan stonesmirk"
    ],
-   "answer": "He assists adventurers during 'A Dark Threat Looms', examining suspicious powder sent by Chief Engineer Hinderweir."
+   "answer": "Ashlan helps adventurers examine suspicious powder sent by Chief Engineer Hinderweir during 'A Dark Threat Looms'."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "Stonesmirk represents the skilled specialists supporting Ironforge's soldiers along Khaz Modan's borders."
+   "text": "As a dwarf, Ashlan represents the skilled specialists who support Ironforge's soldiers along Khaz Modan's borders."
   },
   {
    "target": "faction:Alliance",
-   "text": "Assisting Ashlan secures the strategic corridor connecting Loch Modan to the Wetlands and northern Alliance territories."
+   "text": "Ashlan's work helps secure the strategic corridor connecting Loch Modan to the Wetlands and northern Alliance territories."
   }
  ],
  "keywords": [
@@ -75,5 +75,6 @@
  ],
  "attribution": [
   "Ashlan Stonesmirk"
- ]
+ ],
+ "style": 1
 }

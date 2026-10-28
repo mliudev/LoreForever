@@ -10,16 +10,16 @@
    "quest:2930"
   ]
  },
- "summary": "The Prismatic Punch Card is the highest security clearance data card found within the fallen city of Gnomeregan. Upgraded sequentially through a series of Matrix Punchograph terminals, it holds data desperately sought by gnome refugees in Ironforge.",
+ "summary": "In Gnomeregan, the Prismatic Punch Card carries the highest security clearance. Gnome refugees in Ironforge seek the records it unlocks.",
  "sections": [
   {
    "title": "A Matter of Security",
-   "body": "When the gnomes fled the trogg invasion and toxic irradiation of Gnomeregan, massive troves of research and civic records were abandoned in the depths. To safeguard high-level systems, the gnomes utilized an escalating security protocol. Accessing the Matrix Punchograph 3005-D terminal in the lower Engineering Labs requires working through a progression of punch cards: starting from a basic White Punch Card and advancing through Yellow, Blue, and Red clearances at dedicated terminals before stamping the final Prismatic Punch Card. Its encoded clearance level is whimsically noted as pending the invention of an entirely new number.",
+   "body": "When the gnomes fled Gnomeregan, troggs and toxic irradiation drove them from their city. Vast stores of research and civic records remained in its depths. The gnomes guarded high-level systems with rising levels of clearance. To reach the Matrix Punchograph 3005-D in the lower Engineering Labs, a card must pass through a series of terminals. It starts white, then advances through yellow, blue, and red before the final terminal stamps it Prismatic. The card's encoded clearance is listed as awaiting the invention of an entirely new number.",
    "spoiler": 0
   },
   {
    "title": "The Vital Transmission",
-   "body": "Master Mechanic Castpipe, now stationed among the refugee enclaves in Ironforge, sends brave adventurers back into the contaminated halls of Gnomeregan on a mission of critical data salvage. While Castpipe describes the target data as utterly vital and impossible to live without, the decoded binary message stamped on the final prismatic card reveals an amusing truth of everyday gnomish civic life: an automated notification informing Castpipe that his laundry is ready for pickup.",
+   "body": "Master Mechanic Castpipe sends adventurers from Ironforge's refugee enclaves into Gnomeregan's contaminated halls to recover data he calls vital and impossible to live without. The binary message on the Prismatic Punch Card reveals what the transmission says: Castpipe is being notified that his laundry is ready for pickup.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "make prismatic punch card",
     "punch card upgrade sequence"
    ],
-   "answer": "You obtain a Prismatic Punch Card by inserting a Red Punch Card into a Matrix Punchograph 3005-D terminal located on the lower level of the Engineering Labs in Gnomeregan. Reaching that stage requires upgrading a baseline White Punch Card sequentially through the A, B, and C model terminals across the complex."
+   "answer": "Insert a Red Punch Card into the Matrix Punchograph 3005-D in Gnomeregan's lower Engineering Labs. First, upgrade a White Punch Card in sequence through the A, B, and C model terminals across the complex."
   },
   {
    "q": "What data is stored on the Prismatic Punch Card?",
@@ -40,7 +40,7 @@
     "punch card binary translation",
     "decoded punch card"
    ],
-   "answer": "The card proclaims that its security rating is so high it is pending the invention of a new number, followed by a long string of binary code. Master Mechanic Castpipe insists the data is vitally important."
+   "answer": "The card gives its security rating as awaiting the invention of a new number, then carries a long string of binary code. Master Mechanic Castpipe says the data is vital."
   },
   {
    "q": "Who wants the Prismatic Punch Card?",
@@ -49,7 +49,7 @@
     "castpipe quest",
     "who needs the card"
    ],
-   "answer": "Master Mechanic Castpipe, an exiled gnome engineer residing in Ironforge, requests the card during the mission Data Rescue. He considers the card's contents to be urgent, invaluable information left behind during the evacuation of Gnomeregan."
+   "answer": "Master Mechanic Castpipe, an exiled gnome engineer in Ironforge, requests the card during Data Rescue. He says its contents are urgent, invaluable information left behind when the gnomes evacuated Gnomeregan."
   },
   {
    "q": "Where are the Matrix Punchograph terminals located?",
@@ -58,17 +58,17 @@
     "where are the punchographs",
     "where to punch cards"
    ],
-   "answer": "The terminals are scattered throughout Gnomeregan based on clearance tier. Punchograph 3005-A is found near the surface Train Depot and Workshop entrance, model B is located in the Dormitory beyond the Clean Zone, model C sits deeper within the complex, and model D stands in the lower Engineering Labs."
+   "answer": "The terminals are spread across Gnomeregan by clearance tier. Punchograph 3005-A is near the surface Train Depot and Workshop entrance, model B is in the Dormitory beyond the Clean Zone, model C lies deeper in the complex, and model D is in the lower Engineering Labs."
   }
  ],
  "angles": [
   {
    "target": "race:Gnome",
-   "text": "The elaborate Punchograph security system is a prime example of gnomish ingenuity and bureaucracy surviving undisturbed even after the fall of their home."
+   "text": "As a gnome, you can see the Punchograph security system as gnomish ingenuity and bureaucracy still at work after the fall of your home."
   },
   {
    "target": "profession:Engineering",
-   "text": "The sequential punch-card programming and automated terminal network demonstrate the high standard of computing machinery built by Gnomeregan's tinkerers."
+   "text": "As an engineer, you can see the sequential punch-card programming and automated terminal network as examples of the high standard of computing machinery built by Gnomeregan's tinkerers."
   }
  ],
  "keywords": [
@@ -93,5 +93,6 @@
  "attribution": [
   "Prismatic Punch Card",
   "Data Rescue"
- ]
+ ],
+ "style": 1
 }

@@ -14,7 +14,7 @@
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Rebuilding the infrastructure of Lakeshire is vital for the Kingdom of Stormwind, but constant threats keep pulling resources away from the bridge."
+   "text": "As an Alliance member, you know Lakeshire needs its bridge rebuilt, but constant threats keep drawing resources away from the work."
   }
  ],
  "faq": [
@@ -23,7 +23,7 @@
     "who is foreman oslow",
     "foreman oslow redridge"
    ],
-   "answer": "Foreman Oslow is the stonemason and overseer in charge of repairing and rebuilding the bridge in Lakeshire. He is constantly plagued by local threats delaying his construction efforts.",
+   "answer": "Foreman Oslow is the stonemason overseeing repairs and rebuilding of the bridge in Lakeshire. Local threats keep delaying his work.",
    "q": "Who is Foreman Oslow?"
   },
   {
@@ -31,7 +31,7 @@
     "what is althers mill",
     "where is althers mill"
    ],
-   "answer": "Alther's Mill is a lumber mill located east of Lakeshire in the Redridge Mountains. It supplies crucial lumber shipments needed for construction projects around Lakeshire, including the bridge.",
+   "answer": "Alther's Mill is a lumber mill east of Lakeshire in the Redridge Mountains. Its timber shipments supply construction around Lakeshire, including the bridge.",
    "q": "What is Alther's Mill?"
   },
   {
@@ -39,7 +39,7 @@
     "who is alther",
     "where is ol alther"
    ],
-   "answer": "Alther is the proprietor or operator of the lumber mill east of Lakeshire. According to Foreman Oslow, Alther is responsible for managing the site, though an infestation of spiders has currently overtaken his mill.",
+   "answer": "Alther operates the lumber mill east of Lakeshire. Foreman Oslow holds him responsible for managing the site, now overrun by spiders.",
    "q": "Who is Alther?"
   },
   {
@@ -47,7 +47,7 @@
     "why clear althers mill",
     "why kill spiders redridge"
    ],
-   "answer": "Foreman Oslow cannot safely send workers to collect essential lumber shipments while tarantulas infest the mill. Clearing the spiders and destroying their eggs ensures the mill can safely resume supply deliveries for the bridge construction.",
+   "answer": "Foreman Oslow cannot safely send workers to gather lumber while tarantulas infest the mill. Clearing the spiders and destroying their eggs lets timber deliveries for the bridge resume safely.",
    "q": "Why does Foreman Oslow need Alther's Mill cleared?"
   },
   {
@@ -55,7 +55,7 @@
     "what spiders at althers mill",
     "redridge spiders"
    ],
-   "answer": "Greater tarantulas have infested the mill grounds along with clutches of spider eggs, posing a severe threat to any workers sent to retrieve lumber.",
+   "answer": "Greater tarantulas and clutches of spider eggs infest the mill, threatening any workers sent to collect lumber.",
    "q": "What is infesting Alther's Mill?"
   },
   {
@@ -63,7 +63,7 @@
     "what bridge in redridge",
     "lakeshire bridge"
    ],
-   "answer": "Foreman Oslow is working to rebuild the bridge in Lakeshire, but his timeline is repeatedly stalled by hostile orcs, gnolls, murlocs, and resource shortages caused by local pests.",
+   "answer": "Foreman Oslow is rebuilding the bridge in Lakeshire. Hostile orcs, gnolls, murlocs, and local pests that threaten lumber supplies keep delaying the work.",
    "q": "What bridge is Foreman Oslow trying to build?"
   }
  ],
@@ -85,18 +85,19 @@
  ],
  "sections": [
   {
-   "body": "Foreman Oslow has his hands full attempting to keep bridge repairs on schedule in Lakeshire. Between hostile Blackrock orcs, encroaching gnoll packs, and aggressive murlocs along Lake Everstill, his workforce is pushed to the limit. The latest disruption strikes directly at his supply chain: Alther's Mill, the lumber operation to the east, has been overrun by giant tarantulas, halting timber shipments needed for the town's bridge.",
+   "body": "Foreman Oslow is trying to keep bridge repairs on schedule in Lakeshire. Blackrock orcs, gnoll packs, and murlocs along Lake Everstill already strain his workforce. Now giant tarantulas have overrun Alther's Mill to the east, stopping the timber shipments the bridge needs.",
    "spoiler": 0,
    "title": "A Bottleneck in Lumber"
   },
   {
-   "body": "The lumber mill sits as good as useless while spiders lurk among the timber stacks. Foreman Oslow cannot risk sending his laborers into a nest of greater tarantulas, prompting him to hire capable adventurers to clear out the arachnids and destroy their egg clutches. Though Oslow is irritated that Alther allowed the mill to fall into such disarray, restoring the flow of lumber takes precedence over any grievances.",
+   "body": "Spiders lurk among the timber stacks, leaving the mill useless. Foreman Oslow cannot risk sending laborers into a nest of greater tarantulas, so he hires capable adventurers to clear the spiders and destroy their egg clutches. He is irritated that Alther let the mill fall into disarray, but Lakeshire needs the lumber before the bridge work can continue.",
    "spoiler": 0,
    "title": "Clearing the Infestation"
   }
  ],
- "summary": "Alther's Mill is a Redridge Mountains quest given by Foreman Oslow in Lakeshire. The foreman needs adventurers to clear out a dangerous tarantula infestation at the nearby lumber mill so workers can safely retrieve the timber required to finish the Lakeshire bridge.",
+ "summary": "Workers at Alther's Mill cannot send timber to Lakeshire while giant spiders overrun the eastern lumberyard. Foreman Oslow needs the wood to finish the town bridge.",
  "attribution": [
   "In-game quest text: Alther's Mill"
- ]
+ ],
+ "style": 1
 }

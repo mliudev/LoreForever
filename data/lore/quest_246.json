@@ -20,16 +20,16 @@
    "Assessing the Threat"
   ]
  },
- "summary": "Assessing the Threat is a defensive scouting operation commissioned by Deputy Feldon in Lakeshire. With the local garrison stretched thin and denied reinforcements from Stormwind, adventurers are hired to cull encroaching gnoll packs along the southern road and measure the strength of the growing menace.",
+ "summary": "Deputy Feldon needs a measure of the gnoll threat near Lakeshire. With the garrison stretched thin and Stormwind withholding reinforcements, he hires travelers to thin the packs and learn their strength.",
  "sections": [
   {
    "title": "A Strained Frontier",
-   "body": "The town of Lakeshire is fighting for its survival on multiple fronts. Between Blackrock orc warbands descending from the heights and aggressive gnoll packs harassing the valleys, the local defenders cannot spare troops for standard reconnaissance patrols. When initial reports confirmed gnolls encroaching on the border, Deputy Feldon turned to outside help. Rather than committing regular guardsmen to the wilderness, the town pays traveling champions to test the enemy's strength firsthand.",
+   "body": "Lakeshire faces Blackrock orc warbands from the heights and aggressive gnoll packs in the valleys. Its defenders are too few for ordinary scouting patrols. When reports confirmed gnolls pressing toward the border, Deputy Feldon sought help from travelers. He pays champions to test the enemy in the wild, rather than send guards the town cannot spare.",
    "spoiler": 0
   },
   {
    "title": "Reconnaissance by Force",
-   "body": "The mission sends scouts along the southern road of Redridge, cutting into the encampments of Redridge Mongrels and Poachers. This is intelligence gathering by attrition: clearing out vanguard scouts, disrupting supply lines, and gauging whether the packs are simply roaming scavengers or part of an organized martial presence threatening the settlement. The bloody skirmishing provides Feldon the concrete numbers he needs to plan Lakeshire's strained defense.",
+   "body": "You scout along Redridge's southern road, striking the camps of Redridge Mongrels and Poachers. Each fight thins the gnolls' forward scouts and disrupts their supply lines. It also reveals whether the packs are roaming scavengers or an organized force threatening Lakeshire. The fighting gives Feldon numbers he can use to plan the town's strained defense.",
    "spoiler": 0
   }
  ],
@@ -41,7 +41,7 @@
     "where are the guards",
     "lakeshire guard shortage"
    ],
-   "answer": "Lakeshire's garrison is critically undermanned. With no reinforcements arriving from Stormwind City and hostile forces pressing in from all directions, the town guard cannot spare the soldiers required for extended patrols along the southern road."
+   "answer": "Lakeshire's garrison is badly undermanned. Stormwind City sends no reinforcements, and hostile forces press from several directions, leaving the guards unable to spare soldiers for long patrols along the southern road."
   },
   {
    "q": "Where are the gnolls located for this mission?",
@@ -50,7 +50,7 @@
     "gnoll locations redridge",
     "southern road gnolls"
    ],
-   "answer": "The Redridge Mongrels and Poachers form loose warcamps along the southern road and low foothills of the Redridge Mountains, south of Lakeshire and near the border passes."
+   "answer": "The Redridge Mongrels and Poachers camp along the southern road and in the low foothills of the Redridge Mountains, south of Lakeshire and near the border passes."
   },
   {
    "q": "What is the strategic purpose of culling these gnolls?",
@@ -59,7 +59,7 @@
     "threat assessment goal",
     "lakeshire defense"
    ],
-   "answer": "The operation serves two purposes: it pushes back forward scouts encroaching on the road, and it brings back firsthand military intelligence regarding the size, weapons, and discipline of the Redridge gnolls."
+   "answer": "The fighting pushes back gnolls pressing toward the road, disrupts their supply lines, and gives Feldon firsthand intelligence about the packs' size, weapons, and discipline."
   },
   {
    "q": "Does Stormwind City help with the gnoll threat?",
@@ -68,7 +68,7 @@
     "why won't stormwind help",
     "stormwind army lakeshire"
    ],
-   "answer": "No. The Stormwind House of Nobles and regency council have withheld regular military support from outlying regions like Redridge, forcing local authorities such as Magistrate Solomon and Deputy Feldon to rely on paid mercenaries."
+   "answer": "No. Stormwind's House of Nobles and regency council withhold regular military support from outlying regions such as Redridge. Local leaders, including Magistrate Solomon and Deputy Feldon, must rely on paid mercenaries."
   },
   {
    "q": "What does Deputy Feldon do with your report?",
@@ -77,7 +77,7 @@
     "what happens after assessing threat",
     "turn in report"
    ],
-   "answer": "Deputy Feldon evaluates the strength and tenacity of the packs, confirming that the southern gnolls represent a serious military hazard rather than isolated beasts, and directs you to assist other town leaders in shore up defenses."
+   "answer": "Deputy Feldon weighs the packs' strength and tenacity, confirming that the southern gnolls pose a serious military danger rather than being isolated beasts. He directs you to help other town leaders shore up their defenses."
   },
   {
    "q": "How does this task connect to the prior quest?",
@@ -86,21 +86,21 @@
     "encroaching gnolls followup",
     "prerequisite quest"
    ],
-   "answer": "It is the direct sequel to Encroaching Gnolls. After you first alerted the garrison to the gnoll movement, Feldon commissioned this combat patrol to assess just how bad the intrusion really is."
+   "answer": "This follows Encroaching Gnolls. After you alerted the garrison to the gnoll movement, Feldon sent you on a combat patrol to learn how serious the incursion is."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Redridge showcases the cracks in the Alliance's heartland, where neglected border settlements must hire freelance champions to survive while the capital looks away."
+   "text": "Redridge shows the strain on the Alliance's heartland: neglected border settlements hire champions to survive while the capital looks away."
   },
   {
    "target": "race:Human",
-   "text": "For human defenders, protecting Lakeshire is personal; these frontier families are enduring the consequences of political paralysis in Stormwind Keep."
+   "text": "As a human defender, protecting Lakeshire is personal. Frontier families bear the cost of political paralysis in Stormwind Keep."
   },
   {
    "target": "class:Warrior",
-   "text": "Deputy Feldon asks for aggressive combat reconnaissance, testing an armed fighter's ability to wade into fortified enemy camps and break their vanguard."
+   "text": "Deputy Feldon calls for armed reconnaissance. As a warrior, you wade into fortified camps and break the gnolls' vanguard."
   }
  ],
  "keywords": [
@@ -125,5 +125,6 @@
  ],
  "attribution": [
   "Assessing the Threat"
- ]
+ ],
+ "style": 1
 }

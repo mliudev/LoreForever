@@ -17,16 +17,16 @@
   "wiki": "A Visitor to Dun Morogh",
   "chain": []
  },
- "summary": "A Visitor to Dun Morogh is an investigative task offered by Beldin Steelgrill outside Kharanos. Mountaineers reported an unfamiliar campfire high on the cliffs overlooking Gol'Bolar Quarry, prompting a scout to check whether the stranger poses a threat to the local dwarves.",
+ "summary": "Beldin Steelgrill asks you to investigate a fire on the heights above Gol'Bolar Quarry. Mountaineers have spotted a stranger's camp, and the dwarves want to know whether the visitor threatens them.",
  "sections": [
   {
    "title": "A Smoke Plume on the Heights",
-   "body": "Dun Morogh's mountaineers keep a diligent watch over the crags and snowy valleys surrounding Ironforge. When a campfire suddenly appeared high above Gol'Bolar Quarry, it raised eyebrows in Kharanos. Beldin Steelgrill, concerned by the unusual encampment situated directly above a vital dwarven excavation, recruits travelers to scale the ridges and determine whether the mysterious stranger is a benign traveler or an intruder.",
+   "body": "A strange fire has appeared above Gol'Bolar Quarry, drawing concern in Kharanos. Dun Morogh's mountaineers watch the crags and snowy valleys around Ironforge, and an unfamiliar camp on the heights is hard to ignore. Beldin Steelgrill asks you to climb the ridge and learn whether the stranger above the dwarven excavation means harm.",
    "spoiler": 0
   },
   {
    "title": "Meeting the Earthseer",
-   "body": "Investigating the ridge reveals that the traveler is Earthseer Farsen, a mystic who has set up camp on the windswept heights. Far from being a marauding trogg or an outright hostile spy, this mysterious observer possesses deep spiritual ties to the earth. His presence on the precipice overlooking the quarry begins a journey uncovering deeper disturbances hidden beneath Khaz Modan, ultimately tying into the mystery of the Hall of Thanes.",
+   "body": "Earthseer Farsen has made camp on the heights above Gol'Bolar Quarry. He is a mystic with deep ties to the earth, not a marauding trogg or hostile spy. His presence overlooks the quarry, and his watch leads into disturbances beneath Khaz Modan and the mystery of the Hall of Thanes.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "quest starter",
     "beldin steelgrill quest"
    ],
-   "answer": "Beldin Steelgrill, stationed outside Kharanos in Dun Morogh, gives the quest after mountaineers report an unfamiliar fire up in the hills."
+   "answer": "Beldin Steelgrill, outside Kharanos, asks you to investigate after mountaineers report an unfamiliar fire in the hills."
   },
   {
    "q": "Where is the mysterious campsite located?",
@@ -47,7 +47,7 @@
     "where is the visitor",
     "visitor spot"
    ],
-   "answer": "The campfire sits high up on the snowy ridges to the east of Kharanos, perched directly overlooking the Gol'Bolar Quarry excavation."
+   "answer": "The campfire burns high on the snowy ridges east of Kharanos, above Gol'Bolar Quarry."
   },
   {
    "q": "Who is the visitor overlooking the quarry?",
@@ -56,7 +56,7 @@
     "who is the visitor",
     "earthseer farsen"
    ],
-   "answer": "The visitor is Earthseer Farsen, a spiritual observer residing in a secluded camp on the heights above the quarry."
+   "answer": "The visitor is Earthseer Farsen, a spiritual observer camped on the heights above the quarry."
   },
   {
    "q": "Why were the dwarves suspicious of the campfire?",
@@ -65,7 +65,7 @@
     "why investigate",
     "why send me"
    ],
-   "answer": "Gol'Bolar Quarry is a critical dwarven operation already under pressure from local troggs. Any unknown encampment set high above the pit could easily belong to scouts or hostile forces watching dwarven movements."
+   "answer": "The dwarves are wary because the unknown camp overlooks Gol'Bolar Quarry, a critical operation already under pressure from local troggs. They fear it may belong to scouts or hostile forces watching their movements."
   },
   {
    "q": "What does this quest lead into?",
@@ -74,7 +74,7 @@
     "followup quest",
     "hall of thanes intro"
    ],
-   "answer": "Reporting to Earthseer Farsen leads directly into the quest 'Farsen's Watch' and serves as the opening breadcrumb for the Hall of Thanes attunement chain."
+   "answer": "Speaking with Earthseer Farsen leads to Farsen's Watch and begins the Hall of Thanes attunement chain."
   },
   {
    "q": "Do you need to fight the stranger at the camp?",
@@ -83,21 +83,21 @@
     "do i kill the visitor",
     "visitor fight"
    ],
-   "answer": "No. While Beldin Steelgrill prepares you for the possibility of violence, the visitor is Earthseer Farsen, a peaceful observer willing to speak with you."
+   "answer": "No. Beldin Steelgrill warns you to be ready for violence, but Earthseer Farsen is a peaceful observer willing to speak with you."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "For Bronzebeard dwarves, monitoring uninvited observers overlooking major mining sites like Gol'Bolar is standard security for protecting Khaz Modan's borders."
+   "text": "As a Bronzebeard dwarf, you know why the mountaineers watch strangers above major mining sites like Gol'Bolar to guard Khaz Modan's borders."
   },
   {
    "target": "class:Shaman",
-   "text": "Meeting Earthseer Farsen connects directly to spiritual communion with the mountain stones, a rare sight in the snowy highlands of Dun Morogh."
+   "text": "As a shaman, you meet Earthseer Farsen, whose communion with the mountain stones is rare in Dun Morogh's snowy highlands."
   },
   {
    "target": "faction:Alliance",
-   "text": "Aiding the local mountaineers outside Kharanos ensures the supply lines and quarry workers remain safe from unforeseen threats."
+   "text": "As an Alliance member, you help the mountaineers outside Kharanos protect the supply lines and quarry workers from unforeseen threats."
   }
  ],
  "keywords": [
@@ -120,5 +120,6 @@
  ],
  "attribution": [
   "A Visitor to Dun Morogh"
- ]
+ ],
+ "style": 1
 }

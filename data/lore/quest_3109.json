@@ -17,16 +17,16 @@
   "wiki": "Encrypted Rune (Classic)",
   "chain": []
  },
- "summary": "The Encrypted Rune is a coded missive delivered to aspiring rogues taking their first steps in Coldridge Valley. Passed along by Sten Stoutarm, the etched message directs promising shadows into Anvilmar to report to the rogue trainer, Solm Hargrin.",
+ "summary": "At Anvilmar, Solm Hargrin sends a coded message to young rogues in Coldridge Valley. Sten Stoutarm passes it to them, and the rune directs them indoors to meet their trainer.",
  "sections": [
   {
    "title": "A Message in Code",
-   "body": "While assisting Sten Stoutarm out in the snowy passes of Coldridge Valley, sharp-eyed rogues receive a curious etched stone. Sten admits the piece was slipped to him to hand over, suspecting it came directly from Solm Hargrin. Rather than shouting out across the courtyard for potential scouts and scoundrels, Solm uses an encrypted rune to test a novice's discretion and summon them indoors.",
+   "body": "Sten Stoutarm gives the etched stone to rogues who help him in Coldridge Valley's snowy passes. He says someone slipped it to him for delivery and suspects Solm Hargrin sent it. The rune tests a novice's discretion and calls them inside, where Solm can meet them without announcing his need for scouts and scoundrels across the courtyard.",
    "spoiler": 0
   },
   {
    "title": "Under Anvilmar's Rafters",
-   "body": "Inside Anvilmar, Solm Hargrin welcomes newly arrived operatives to the craft. He offers to teach the maneuvers, strikes, and subtle arts that keep an operative breathing and lining their pockets with coin. Beyond sharpening their daggers, Solm reminds dwarven rogues to look out for their displaced gnomish allies, who are still recovering from the catastrophic fall of Gnomeregan.",
+   "body": "Inside Anvilmar, Solm Hargrin welcomes the new rogues and offers to teach them the maneuvers, strikes, and subtle arts that keep them alive and earn them coin. He also reminds dwarf rogues to look after their displaced gnomish allies, who are still recovering from Gnomeregan's catastrophic fall.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "encrypted rune sender",
     "who gave sten the rune"
    ],
-   "answer": "The rune is authored by Solm Hargrin, the rogue trainer stationed inside the great hall of Anvilmar. He has Sten Stoutarm discreetly pass it along to promising recruits out in the snow."
+   "answer": "Solm Hargrin, the rogue trainer in Anvilmar's great hall, writes the rune and has Sten Stoutarm pass it discreetly to promising recruits in the snow."
   },
   {
    "q": "Where do I find Solm Hargrin?",
@@ -47,7 +47,7 @@
     "solm hargrin location",
     "find solm"
    ],
-   "answer": "Solm Hargrin is located inside the main hall of Anvilmar, the stone bastion at the center of Coldridge Valley in Dun Morogh."
+   "answer": "Solm Hargrin is inside Anvilmar's main hall, the stone bastion at the center of Coldridge Valley in Dun Morogh."
   },
   {
    "q": "What is the purpose of this rune?",
@@ -56,7 +56,7 @@
     "encrypted rune purpose",
     "why encrypted rune"
    ],
-   "answer": "It serves as an introductory summons for novice rogues, encouraging them to decode the message, report to their class trainer, and begin learning advanced combat techniques and survival maneuvers."
+   "answer": "The rune summons novice rogues to decode its message and report to their trainer, who offers to teach them combat techniques and survival maneuvers."
   },
   {
    "q": "Why does Solm mention the gnomes?",
@@ -64,7 +64,7 @@
     "why help gnomes",
     "solm gnomeregan comment"
    ],
-   "answer": "With Gnomeregan recently fallen to disaster, gnomish refugees share Coldridge Valley and Anvilmar with the dwarves. Solm reminds his students that the gnomes have had a rough time and need support settling into their temporary home."
+   "answer": "Gnomeregan has recently fallen to disaster, and gnomish refugees share Coldridge Valley and Anvilmar with the dwarves. Solm reminds his students that they need support as they settle into their temporary home."
   },
   {
    "q": "Who gives the rune to the player?",
@@ -72,7 +72,7 @@
     "who starts encrypted rune",
     "quest giver encrypted rune"
    ],
-   "answer": "Sten Stoutarm hands the stone over to rogue adventurers in Coldridge Valley after they finish lending him an initial hand with local valley tasks."
+   "answer": "Sten Stoutarm gives the stone to rogue adventurers in Coldridge Valley after they help him with local valley matters."
   },
   {
    "q": "Can other classes receive this rune?",
@@ -80,21 +80,21 @@
     "is this quest rogue only",
     "can warriors get encrypted rune"
    ],
-   "answer": "No. The Encrypted Rune is intended solely for rogue initiates starting their journeys in Coldridge Valley."
+   "answer": "No. The rune is for rogue initiates beginning their journeys in Coldridge Valley."
   }
  ],
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "This rune marks your first formal contact with the rogue network in Dun Morogh, leading you to Solm Hargrin to begin honing your stealth, martial tricks, and survival trade."
+   "text": "As a rogue, this rune brings you to Solm Hargrin, where he offers to teach you stealth, martial tricks, and survival skills in Dun Morogh."
   },
   {
    "target": "race:Dwarf",
-   "text": "Solm welcomes fellow dwarves of the Ironforge clan into the shadows, noting there is nothing quite like a cold blade and the dark to keep an operative alive in Dun Morogh."
+   "text": "As a dwarf of the Ironforge clan, you are welcomed by Solm into the shadows, where a cold blade and darkness help keep you alive in Dun Morogh."
   },
   {
    "target": "race:Gnome",
-   "text": "Solm urges his students to show camaraderie to the gnomes sheltering in Coldridge Valley following the tragic loss of their home in Gnomeregan."
+   "text": "As a gnome, you hear Solm urge his students to stand by the gnomes sheltering in Coldridge Valley after the tragic loss of their home in Gnomeregan."
   }
  ],
  "keywords": [
@@ -118,5 +118,6 @@
  ],
  "attribution": [
   "Encrypted Rune (Classic)"
- ]
+ ],
+ "style": 1
 }

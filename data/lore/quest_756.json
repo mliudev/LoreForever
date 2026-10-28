@@ -17,16 +17,16 @@
   "wiki": "Thunderhorn Totem (Classic)",
   "chain": []
  },
- "summary": "Thunderhorn Totem is a task given by Mull Thunderhorn in Bloodhoof Village to craft a sacred cleansing totem. To combat goblin-borne pollution spreading through Mulgore's water wells, young Horde champions must gather natural talons from plains predators to bind the land's primal strength into ritual wood.",
+ "summary": "In Bloodhoof Village, Mull Thunderhorn asks young Horde champions to help make a sacred cleansing totem. Goblin pollution is spreading through Mulgore's water wells, and natural predator claws will bind the land's primal strength into ritual wood.",
  "sections": [
   {
    "title": "Hunting the Plains Predators",
-   "body": "As the Venture Company's industrial exploitation poisons Mulgore's precious water sources, Mull Thunderhorn works urgently to craft remedies. Creating the Thunderhorn Cleansing Totem requires the natural essences of the plains' most focused hunters: prairie stalkers and flatland cougars. By taking the claws of these predators roaming east and west of Bloodhoof Village, the ritual channels the raw, uncorrupted predatory vigor of the wildlife directly into the totem.",
+   "body": "Mull Thunderhorn needs natural claws to make a cleansing totem. The Venture Company is poisoning Mulgore's water sources through its industrial exploitation, and he works to craft a remedy. Prairie stalkers and flatland cougars roam east and west of Bloodhoof Village. Their claws carry the plains predators' natural essences, channeling their raw, uncorrupted predatory vigor directly into the totem.",
    "spoiler": 0
   },
   {
    "title": "The Nature of the Hunt",
-   "body": "Tauren tradition sees a profound distinction between hunting for sustenance or spiritual balance and the wholesale plunder practiced by the goblins. Mull emphasizes that the purity with which native predators hunt is vital for purifying corrupted earth. Where goblin machinery defiles the springs with oil and industrial waste, the natural strength of the beasts contending with the land provides the spiritual catalyst needed to restore the Thunderhorn Water Well.",
+   "body": "Tauren tradition distinguishes hunting for sustenance or spiritual balance from the goblins' wholesale plunder. Mull says the native predators' pure way of hunting can help purify corrupted earth. Goblin machinery fouls the springs with oil and industrial waste, while the beasts' natural strength provides the spiritual catalyst to restore the Thunderhorn Water Well.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "purpose of stalker claws",
     "cougar claws purpose"
    ],
-   "answer": "Mull uses the claws of prairie stalkers and flatland cougars to channel the pure, primal predatory spirit of the plains into a cleansing totem. He believes the pure spirit of natural hunters counteracts artificial, industrial corruption."
+   "answer": "Mull uses prairie stalker and flatland cougar claws to channel the plains' pure, primal predatory spirit into a cleansing totem. He believes the spirit of natural hunters can counter artificial, industrial corruption."
   },
   {
    "q": "Who is corrupting the water in Mulgore?",
@@ -47,7 +47,7 @@
     "why is the well poisoned",
     "what poisoned mulgore"
    ],
-   "answer": "The Venture Company goblins operating in Mulgore are polluting the land and water. Their reckless resource extraction and mining rigs introduce toxic sludge into the aquifers feeding the tribal wells."
+   "answer": "Venture Company goblins operating in Mulgore pollute the land and water. Their reckless resource extraction and mining rigs send toxic sludge into the aquifers that feed the tribal wells."
   },
   {
    "q": "Where are the prairie stalkers and flatland cougars found?",
@@ -56,7 +56,7 @@
     "where to find cougars",
     "cougar claw locations"
    ],
-   "answer": "Both beasts roam the open plains of central Mulgore, primarily spread out across the rolling savannas directly east and west of Bloodhoof Village."
+   "answer": "Prairie stalkers and flatland cougars roam the open plains of central Mulgore, mainly across the rolling savannas east and west of Bloodhoof Village."
   },
   {
    "q": "What happens after crafting the Thunderhorn Totem?",
@@ -65,7 +65,7 @@
     "after thunderhorn totem",
     "totem follow up"
    ],
-   "answer": "Once Mull carves and enchants the totem using the claws, he sends you directly to the tainted Thunderhorn Water Well to perform the cleansing ritual and drive out the poison."
+   "answer": "After carving and enchanting the totem with the claws, Mull sends you to the tainted Thunderhorn Water Well to perform the cleansing ritual and drive out the poison."
   },
   {
    "q": "How does this relate to the previous cleansing at Winterhoof Well?",
@@ -73,7 +73,7 @@
     "winterhoof connection",
     "previous totem quest"
    ],
-   "answer": "This is part of an ongoing tribal effort to preserve Mulgore's sacred waters. The Winterhoof Water Well was purified first, and now the contamination threatens the Thunderhorn well further north."
+   "answer": "The tauren are working to preserve Mulgore's sacred waters. The Winterhoof Water Well was purified first, and now contamination threatens the Thunderhorn well further north."
   },
   {
    "q": "Why don't the tauren simply use herbal remedies instead of animal claws?",
@@ -81,21 +81,21 @@
     "why not herbs",
     "shamanic totem materials"
    ],
-   "answer": "Tauren ritual craft draws on distinct elemental and physical aspects of nature. The sharp purity of apex predators provides an active, contending spiritual force specifically required to cut through aggressive goblin industrial poisons."
+   "answer": "Tauren ritual craft draws on elemental and physical aspects of nature. The sharp purity of apex predators provides the active, contending spiritual force needed to cut through aggressive goblin industrial poisons."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "Defending Mulgore's aquifers from foreign exploitation is a sacred tribal duty, reflecting the Earth Mother's mandate to live in balance rather than plunder."
+   "text": "As a tauren, defending Mulgore's aquifers from foreign exploitation is a sacred tribal duty. The Earth Mother's mandate calls for life in balance rather than plunder."
   },
   {
    "target": "class:Shaman",
-   "text": "Totemic restoration relies on invoking the living spirits of the land to cleanse water corrupted by unnatural, careless enterprise."
+   "text": "As a shaman, you invoke the living spirits of the land to cleanse water corrupted by unnatural, careless enterprise."
   },
   {
    "target": "class:Hunter",
-   "text": "Gathering the claws requires understanding the native stalking beasts of the plains, honoring the kill to preserve the ecosystem."
+   "text": "As a hunter, you learn the plains' native stalking beasts and honor the kill as you gather their claws to preserve the ecosystem."
   }
  ],
  "keywords": [
@@ -119,5 +119,6 @@
  ],
  "attribution": [
   "Thunderhorn Totem (Classic)"
- ]
+ ],
+ "style": 1
 }

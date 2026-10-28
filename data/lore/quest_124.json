@@ -23,16 +23,16 @@
    "Howling in the Hills"
   ]
  },
- "summary": "Verner Osgood, the stable master in Lakeshire, finds his business under siege by gnolls raiding south from the Redridge foothills. Already strained by Blackrock orc incursions, he asks travelers to clear out the brutes and mystics threatening his livestock.",
+ "summary": "Gnolls raid Verner Osgood’s stable in Lakeshire from the Redridge foothills. Blackrock orcs already threaten the region, and Verner asks travelers to drive off the brutes and mystics endangering his horses.",
  "sections": [
   {
    "title": "Horses on the Ridge",
-   "body": "Running a stable in Lakeshire has become increasingly hazardous. Blackrock orcs command the heights of the region, while packs of gnolls roam the surrounding ridges. For Verner Osgood, the situation reached a breaking point when aggressive gnoll raiding bands crept close to the northern borders of his paddocks, preying on any horses that wandered too close to the bluffs.",
+   "body": "Verner Osgood’s stable in Lakeshire has become dangerous to run. Blackrock orcs hold the heights, and gnoll packs roam the ridges around town. Gnoll raiders have reached the northern edge of Verner’s paddocks, preying on horses that wander too close to the bluffs.",
    "spoiler": 0
   },
   {
    "title": "A Coordinated Menace",
-   "body": "These are not just scattered scavengers. The packs operating directly north of the town combine savage muscle with primitive spellcraft, employing tough brutes to overwhelm prey alongside mystics wielding wild magic. Thinning their numbers offers brief respite to the settlement, though it quickly becomes apparent that their aggression is driven by a larger power lurking higher in the hills.",
+   "body": "Gnoll packs north of Lakeshire bring both brute force and primitive spellcraft. Their brutes overwhelm prey while mystics wield wild magic. Thinning their numbers gives the settlement a brief respite, but their aggression points to a greater power higher in the hills.",
    "spoiler": 1
   }
  ],
@@ -44,7 +44,7 @@
     "why verner wants gnolls killed",
     "lakeshire stable gnolls"
    ],
-   "answer": "Gnolls from the northern ridges have begun encroaching on Verner's stables, snatching horses whenever they stray from the paddocks. Between that threat and the Blackrock orc invasion, he cannot safeguard his stock without outside aid."
+   "answer": "Gnolls from the northern ridges have begun reaching Verner’s stables and snatching horses that stray from the paddocks. With Blackrock orcs also threatening the region, he cannot protect his stock alone."
   },
   {
    "q": "Where are these gnolls located?",
@@ -53,7 +53,7 @@
     "redridge mystic location",
     "gnolls north of stables"
    ],
-   "answer": "The Redridge brutes and mystics prowl along the elevated ridges and foothills directly north and east of Lakeshire, overlooking the town and the road toward the Everstill Bridge."
+   "answer": "Redridge brutes and mystics prowl the elevated ridges and foothills directly north and east of Lakeshire, overlooking the town and the road toward the Everstill Bridge."
   },
   {
    "q": "Why are gnolls an issue alongside the Blackrock orcs?",
@@ -61,7 +61,7 @@
     "orcs and gnolls redridge",
     "why both gnolls and orcs"
    ],
-   "answer": "While the Blackrock clan is the primary military force menacing Redridge, local gnoll packs exploit the distraction. With Lakeshire's defenders stretched thin and Stormwind offering minimal reinforcements, indigenous predators have expanded unchecked right up to the village perimeter."
+   "answer": "Blackrock orcs are Redridge’s main military threat, and local gnoll packs take advantage of the distraction. Lakeshire’s defenders are stretched thin, and Stormwind sends few reinforcements, leaving the predators free to range up to the village perimeter."
   },
   {
    "q": "What comes after dealing with these gnolls?",
@@ -69,7 +69,7 @@
     "baying of gnolls follow up",
     "what next after baying of gnolls"
    ],
-   "answer": "After thinning out the brutes and mystics, Verner notes that the howling in the hills continues, pointing toward a larger leadership threat that must be addressed in the surrounding heights."
+   "answer": "After the brutes and mystics are thinned, the howling continues in the hills. It points to a greater leadership threat in the surrounding heights."
   },
   {
    "q": "Why are mystics particularly dangerous?",
@@ -77,7 +77,7 @@
     "redridge mystics lore",
     "gnoll shamans redridge"
    ],
-   "answer": "Redridge mystics practice rudimentary nature and elemental magic, turning erratic, feral incantations against trespassers. Their presence among the brutes suggests an organized clan structure rather than lone wild scavengers."
+   "answer": "Redridge mystics use rudimentary nature and elemental magic, turning erratic, feral incantations against trespassers. Their presence among the brutes suggests an organized clan rather than lone scavengers."
   },
   {
    "q": "Is Stormwind sending soldiers to protect Lakeshire's stables?",
@@ -85,17 +85,17 @@
     "stormwind guard redridge",
     "why no guards helping verner"
    ],
-   "answer": "No. Stormwind's royal court has left Redridge largely to defend itself amid ongoing political turmoil and troop shortages, forcing Magistrate Solomon and citizens like Verner Osgood to recruit wandering adventurers."
+   "answer": "No. Stormwind’s royal court has left Redridge largely to defend itself amid political turmoil and troop shortages. Magistrate Solomon and citizens like Verner Osgood must recruit wandering adventurers."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Every small community in the southern kingdom is feeling the strain of Stormwind's neglect, leaving humble tradesmen like Verner to hire private help to protect essential supply lines."
+   "text": "Stormwind’s neglect strains small communities across the southern kingdom. Tradesmen like Verner must hire private help to protect essential supply lines."
   },
   {
    "target": "class:Hunter",
-   "text": "The wild beasts and feral packs of Redridge have grown brazen in the absence of organized culls, making them a volatile threat to domestic animals and travelers."
+   "text": "As a hunter, you face wild beasts and feral packs in Redridge that have grown bold without organized culls. They threaten domestic animals and travelers."
   }
  ],
  "keywords": [
@@ -119,5 +119,6 @@
  ],
  "attribution": [
   "A Baying of Gnolls"
- ]
+ ],
+ "style": 1
 }

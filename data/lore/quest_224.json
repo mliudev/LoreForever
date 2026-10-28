@@ -17,16 +17,16 @@
   "wiki": "In Defense of the King's Lands (Classic)",
   "chain": []
  },
- "summary": "Mountaineer Cobbleflint guards the southern tower in the Valley of Kings, desperately seeking aid against the encroaching Stonesplinter troggs. With Ironforge's military stretched thin across distant fronts, the defense of Loch Modan's southern passes falls to passing Alliance volunteers.",
+ "summary": "At the southern watchtower, In Defense of the King's Lands rests on Mountaineer Cobbleflint and those who answer his call. Stonesplinter troggs press toward the Valley of Kings while Ironforge's forces serve on distant fronts.",
  "sections": [
   {
    "title": "A Thin Line in the Valley of Kings",
-   "body": "The massive dwarven monuments carved into the mountains of the Valley of Kings loom over a garrison under severe strain. Mountaineer Cobbleflint and his fellow guards stationed at the southern watchtower face an ever-growing invasion of troggs erupting from the rock. With much of King Magni Bronzebeard's regular army dispatched abroad to support Alliance commitments, the home front relies heavily on local patrols and hired blades to prevent the province from being overrun.",
+   "body": "Mountaineer Cobbleflint and the guards at the southern watchtower face a growing trogg invasion. The great dwarven monuments of the Valley of Kings look down on a garrison under strain. King Magni Bronzebeard has sent much of his regular army abroad to support the Alliance. Local patrols and hired blades must keep the province from being overrun.",
    "spoiler": 0
   },
   {
    "title": "The Stonesplinter Incursion",
-   "body": "The subterranean threat originates within Stonesplinter Valley, a craggy ravine carving into the southern peaks of Loch Modan. Troggs and their scouts have burrowed surface-ward in massive numbers, carving out fortified camps along the valley floor. Left unchecked, their scouting parties threaten the critical roads connecting Loch Modan to the southern passes, forcing the Mountaineers to wage a continuous war of attrition.",
+   "body": "Stonesplinter Valley cuts through Loch Modan's southern peaks, and the troggs have burrowed up from its depths. Their scouts and warriors have built camps along the valley floor. If left unchecked, their parties threaten the roads to the southern passes, leaving the Mountaineers to fight them without pause.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "where are ironforge soldiers",
     "why undermanned"
    ],
-   "answer": "King Magni Bronzebeard has committed large portions of Ironforge's military to distant Alliance battlefields and outposts across Azeroth. This foreign commitment leaves home territories like Loch Modan protected primarily by light patrols of Mountaineers who must call upon traveling adventurers to stem regional invasions."
+   "answer": "King Magni Bronzebeard has sent much of Ironforge's military to distant Alliance battlefields and outposts across Azeroth. Loch Modan and other home territories rely mainly on light Mountaineer patrols, which call on travelers to help hold back regional invasions."
   },
   {
    "q": "Who is Mountaineer Cobbleflint?",
@@ -47,7 +47,7 @@
     "who gives quest",
     "quest giver"
    ],
-   "answer": "Mountaineer Cobbleflint is a dwarven sentry posted at the southern guard tower in the Valley of Kings. He coordinates perimeter security along the southern boundary of Loch Modan and directs counterattacks against the nesting trogg tribes."
+   "answer": "Mountaineer Cobbleflint is a dwarven sentry at the southern guard tower in the Valley of Kings. He coordinates security along Loch Modan's southern boundary and directs attacks against the trogg tribes."
   },
   {
    "q": "Where is Stonesplinter Valley located?",
@@ -56,7 +56,7 @@
     "where are troggs",
     "find stonesplinter valley"
    ],
-   "answer": "Stonesplinter Valley lies south of Thelsamar, accessed by an entrance near the main road before reaching the massive dwarven statues in the Valley of Kings. The troggs maintain several encampments along its rocky floor."
+   "answer": "Stonesplinter Valley lies south of Thelsamar. Its entrance is near the main road, before the massive dwarven statues in the Valley of Kings, and the troggs keep several camps along its rocky floor."
   },
   {
    "q": "What makes troggs such a severe threat to the dwarves?",
@@ -65,7 +65,7 @@
     "why fight troggs",
     "are troggs dangerous"
    ],
-   "answer": "Troggs are aggressive, subterranean brutes that tunnel through solid rock, bypassing conventional surface walls and fortifications. Because they can erupt without warning beneath roads, settlements, and mines, dwarven authorities view their unchecked proliferation as an existential danger to Ironforge's security."
+   "answer": "Troggs tunnel through solid rock and can bypass surface walls and fortifications. They may burst up beneath roads, settlements, and mines, putting Ironforge's security at risk."
   },
   {
    "q": "Who do I speak to after helping Cobbleflint?",
@@ -74,7 +74,7 @@
     "where to go after",
     "gravelgaw"
    ],
-   "answer": "After thinning the ranks of the Stonesplinter troggs and scouts, Cobbleflint directs you to Mountaineer Gravelgaw, stationed just inside the adjacent watchtower, who manages the next phase of the patrol along the valley front."
+   "answer": "After you thin the Stonesplinter troggs and scouts, Cobbleflint sends you to Mountaineer Gravelgaw, who is just inside the adjacent watchtower and manages the next patrol along the valley front."
   },
   {
    "q": "Are the Stonesplinter troggs organized?",
@@ -83,21 +83,21 @@
     "are troggs smart",
     "stonesplinter structure"
    ],
-   "answer": "While primitive, the Stonesplinter clan demonstrates rudimentary organization by deploying specialized scouts to reconnoiter the roads alongside brutish foot soldiers who maintain defensive camps throughout the ravine."
+   "answer": "The Stonesplinter clan sends specialized scouts to reconnoiter the roads while foot soldiers hold defensive camps throughout the ravine."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "For dwarven adventurers, answering Cobbleflint's call is a vital matter of homeland defense, ensuring that King Magni's ancestral valleys do not fall to subterranean pests while the army fights elsewhere."
+   "text": "As a dwarf, answering Cobbleflint's call helps defend King Magni's ancestral valleys from subterranean pests while the army fights elsewhere."
   },
   {
    "target": "faction:Alliance",
-   "text": "Helping secure the Valley of Kings demonstrates the strength of the Alliance bond, answering Ironforge's plea when dwarven troops are deployed on distant allied fronts."
+   "text": "As an Alliance adventurer, helping secure the Valley of Kings answers Ironforge's call while dwarven troops serve on distant allied fronts."
   },
   {
    "target": "class:Hunter",
-   "text": "The crags and outcroppings of Stonesplinter Valley provide ideal terrain to pick off aggressive trogg sentries and scouting parties from high vantages."
+   "text": "As a hunter, you can use the crags and outcroppings of Stonesplinter Valley to target trogg sentries and scouts from high ground."
   }
  ],
  "keywords": [
@@ -122,5 +122,6 @@
  ],
  "attribution": [
   "In Defense of the King's Lands (Classic)"
- ]
+ ],
+ "style": 1
 }

@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Corrahn's Dagger"
  },
- "summary": "Corrahn's Dagger is the second ridge among the four mountainous fingers towering over northern Hillsbrad Foothills. This high ground serves as a hideout for rogue Syndicate operatives.",
+ "summary": "Syndicate cutthroats hold Corrahn's Dagger, the second ridge among northern Hillsbrad's four rocky fingers. They use its high ground as a hideout.",
  "sections": [
   {
    "title": "A Northern Strongpoint",
-   "body": "Rising steeply in northern Hillsbrad Foothills, Corrahn's Dagger is the second of the four rocky projections known locally as the fingers of Hillsbrad. The ridge is overrun by cutthroats belonging to the Syndicate, who use the elevated perch to overlook the valley below.",
+   "body": "Corrahn's Dagger rises in northern Hillsbrad Foothills as the second of four rocky ridges called the fingers of Hillsbrad. Syndicate cutthroats overrun the ridge and use its height to watch the valley below.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "corrahns dagger faction",
     "who lives here"
    ],
-   "answer": "The ridge is held by rogue humans of the Syndicate, who keep the heights as a hideout."
+   "answer": "Rogue humans of the Syndicate hold Corrahn's Dagger and use its heights as a hideout."
   },
   {
    "q": "What are the fingers of Hillsbrad?",
@@ -32,17 +32,17 @@
     "four ridges hillsbrad",
     "hillsbrad fingers"
    ],
-   "answer": "The fingers of Hillsbrad are four prominent, finger-like mountain ridges projecting southward from the northern mountain range into the Hillsbrad valley. Corrahn's Dagger is the second of these formations."
+   "answer": "The fingers of Hillsbrad are four prominent ridges that project south from the northern mountain range into Hillsbrad valley. Corrahn's Dagger is the second ridge."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "The ridge is a Syndicate hideout, so dwarven travelers crossing the northern foothills should expect bandits rather than allies."
+   "text": "As a dwarf crossing the northern foothills, expect bandits rather than allies at this Syndicate hideout."
   },
   {
    "target": "race:Undead",
-   "text": "The Syndicate cutthroats on the ridge are hostile to the Forsaken working in Hillsbrad."
+   "text": "As Forsaken working in Hillsbrad, you face hostility from the Syndicate cutthroats on the ridge."
   }
  ],
  "keywords": [
@@ -60,5 +60,6 @@
  ],
  "attribution": [
   "Corrahn's Dagger"
- ]
+ ],
+ "style": 1
 }

@@ -17,16 +17,16 @@
   "wiki": "Wheathoof the Elder",
   "chain": []
  },
- "summary": "Proudhorn the Elder is an ancestral tauren spirit honored during the Lunar Festival atop the heights of Thunder Bluff. Visiting him is an act of deep reverence, acknowledging the wisdom of the ancestors who watch over Mulgore and the Horde.",
+ "summary": "During the Lunar Festival, Proudhorn the Elder receives visitors atop Thunder Bluff. Tauren honor him as an ancestral spirit and pay respect to the wisdom of those who watch over Mulgore and the Horde.",
  "sections": [
   {
    "title": "A Spirit of Mulgore",
-   "body": "Perched high on the windblown mesas of Thunder Bluff, Proudhorn the Elder manifests as an ancestral presence during the Lunar Festival. Tauren culture holds the voices of their ancestors in the highest regard, believing that the spirits of ancient leaders and sages linger to offer guidance and strength to the living.",
+   "body": "During the Lunar Festival, Proudhorn the Elder appears high on Thunder Bluff's windblown mesas. Tauren hold their ancestors' voices in the highest regard. They believe ancient leaders and sages remain as spirits, offering guidance and strength to the living.",
    "spoiler": 0
   },
   {
    "title": "Homage and Ancestral Blessing",
-   "body": "Travelers who climb the heights to pay their respects to Elder Proudhorn are greeted not as strangers, but as vital flames of life. In exchange for the traveler's homage, the elder bestows a Coin of Ancestry, symbolizing communion between the enduring past and the living champions fighting for the world's future.",
+   "body": "Travelers who climb Thunder Bluff's heights to honor Elder Proudhorn are welcomed as vital flames of life. In return for their homage, he gives them a Coin of Ancestry, a sign of communion between the enduring past and the living champions who fight for the world's future.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "elder wheathoof",
     "who is wheathoof"
    ],
-   "answer": "He is an honored tauren ancestral spirit manifested atop the city of Thunder Bluff during the Lunar Festival to receive homage from champions across Azeroth."
+   "answer": "Proudhorn the Elder is an honored tauren ancestral spirit who appears atop Thunder Bluff during the Lunar Festival to receive homage from champions across Azeroth."
   },
   {
    "q": "Where can I find Proudhorn the Elder?",
@@ -47,7 +47,7 @@
     "wheathoof location",
     "thunder bluff elder"
    ],
-   "answer": "Elder Proudhorn resides in the tauren capital of Thunder Bluff, located on the sweeping central mesas overlooking the plains of Mulgore."
+   "answer": "You can find Elder Proudhorn atop Thunder Bluff, the tauren capital on the central mesas overlooking Mulgore's plains."
   },
   {
    "q": "What is the purpose of visiting him?",
@@ -56,7 +56,7 @@
     "wheathoof quest",
     "lunar festival elder"
    ],
-   "answer": "Visiting Elder Proudhorn allows players to honor the spirits of the past during the Lunar Festival, receiving his blessing and a Coin of Ancestry in return."
+   "answer": "Visiting Elder Proudhorn lets you honor the spirits of the past during the Lunar Festival. He gives visitors his blessing and a Coin of Ancestry."
   },
   {
    "q": "Can Alliance players visit Elder Proudhorn?",
@@ -64,7 +64,7 @@
     "can alliance talk to wheathoof",
     "alliance thunder bluff elder"
    ],
-   "answer": "While the spirit will bestow his blessing upon any respectful traveler, entering Thunder Bluff as an Alliance adventurer is extremely perilous due to the vigilant city guards and Horde defenders."
+   "answer": "Elder Proudhorn blesses any respectful traveler, but Alliance travelers face great danger in Thunder Bluff from its vigilant guards and Horde defenders."
   },
   {
    "q": "What is a Coin of Ancestry?",
@@ -72,7 +72,7 @@
     "coin of ancestry",
     "lunar festival coin"
    ],
-   "answer": "It is a ceremonial token granted by the ancient spirits during the Lunar Festival, symbolizing respect and communion between the living and the ancestors."
+   "answer": "A Coin of Ancestry is a ceremonial token granted by ancient spirits during the Lunar Festival. It symbolizes respect and communion between the living and their ancestors."
   },
   {
    "q": "How do the tauren view their elders?",
@@ -80,21 +80,21 @@
     "tauren ancestor worship",
     "tauren elders lore"
    ],
-   "answer": "Tauren revere their ancestors as guardians and teachers whose spiritual presence remains woven into the land, offering continuous guidance to those attuned to the Earth Mother."
+   "answer": "Tauren revere their ancestors as guardians and teachers. Their spirits remain woven into the land, guiding those attuned to the Earth Mother."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "Honoring Elder Proudhorn is a sacred homecoming for tauren champions, reaffirming their eternal bond with the spirits watching over Mulgore."
+   "text": "As a tauren, honoring Elder Proudhorn is a sacred homecoming that renews your bond with the spirits watching over Mulgore."
   },
   {
    "target": "faction:Horde",
-   "text": "Located at the heart of tauren power, this elder welcomes all allies of the Horde who ascend Thunder Bluff to pay homage."
+   "text": "As a member of the Horde, you are welcome to climb Thunder Bluff and pay homage to this elder at the heart of tauren power."
   },
   {
    "target": "class:Shaman",
-   "text": "For a shaman, communing with an ancestral elder is a profound ritual of communion with the enduring spirit world."
+   "text": "As a shaman, you can commune with an ancestral elder through a profound rite with the enduring spirit world."
   }
  ],
  "keywords": [
@@ -110,5 +110,6 @@
  "related": [],
  "attribution": [
   "Wheathoof the Elder"
- ]
+ ],
+ "style": 1
 }

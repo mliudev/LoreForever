@@ -10,11 +10,11 @@
    "quest:550"
   ]
  },
- "summary": "Darthalia's Sealed Commendation is an official dispatch penned by the Forsaken battle commander in Tarren Mill. It praises a soldier's relentless campaign against the humans of Hillsbrad and delivers word of those victories directly to Undercity's high command.",
+ "summary": "At Tarren Mill, Darthalia sends word of victories against Hillsbrad's humans to Undercity's high command.",
  "sections": [
   {
    "title": "Report to High Command",
-   "body": "Following the brutal clashes across the Hillsbrad Foothills, High Executor Darthalia drafted this sealed dispatch to officially record victories against Hillsbrad's human defenders and the devastation wrought upon human positions. Sealed to preserve the commander's appraisal from prying eyes, the document is addressed to Varimathras, dreadlord advisor to Lady Sylvanas Windrunner. For the Forsaken leadership in the Royal Quarter, such missives offer tangible proof that Alliance enclaves south of Lordaeron can be broken, freeing northern garrisons to focus on the relentless threat of the Scourge.",
+   "body": "After the fighting across the Hillsbrad Foothills, High Executor Darthalia seals a dispatch recording victories against Hillsbrad's human defenders and the ruin of their positions. She addresses it to Varimathras, the dreadlord who advises Lady Sylvanas Windrunner. In the Royal Quarter, the report gives Forsaken leaders proof that Alliance enclaves south of Lordaeron can be broken, leaving northern garrisons free to face the Scourge.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "darthalia letter",
     "hillsbrad report"
    ],
-   "answer": "It is an official war commendation written by High Executor Darthalia of Tarren Mill. The document formally commends a fighter's combat performance against the Alliance during the Battle of Hillsbrad and is meant for the high command in the Undercity."
+   "answer": "High Executor Darthalia of Tarren Mill writes a sealed commendation for a fighter's performance against the Alliance in the Battle of Hillsbrad. It is meant for Undercity's high command."
   },
   {
    "q": "Who receives this commendation?",
@@ -35,7 +35,7 @@
     "commendation turn in",
     "who gets darthalia's commendation"
    ],
-   "answer": "The commendation must be brought directly to the dreadlord Varimathras, who oversees military operations beside Lady Sylvanas Windrunner in the Royal Quarter of the Undercity."
+   "answer": "The commendation is addressed to Varimathras, the dreadlord advisor to Lady Sylvanas Windrunner in Undercity's Royal Quarter."
   },
   {
    "q": "Why does Varimathras care about the fighting in Hillsbrad?",
@@ -44,17 +44,17 @@
     "hillsbrad dreadlord",
     "forsaken strategy hillsbrad"
    ],
-   "answer": "Although the Forsaken consider the Lich King and his Scourge to be their foremost existential threat from the north, human presence in Hillsbrad constantly interrupts their supply lines and southern border security. Varimathras values battlefield victories that remove the human obstacle, allowing Undercity's forces to focus on the greater war."
+   "answer": "The Forsaken face the Lich King and his Scourge to the north, while humans in Hillsbrad disrupt their supply lines and southern border security. Varimathras values victories that remove that obstacle and let Undercity's forces focus on the greater war."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "The commendation marks a crucial strategic victory in Lordaeron, demonstrating to Undercity's leadership that the Alliance's fortified toeholds in the southern foothills can be systematically dismantled."
+   "text": "For the Horde, the commendation records a strategic victory in Lordaeron and shows Undercity's leadership that Alliance strongholds in the southern foothills can be dismantled."
   },
   {
    "target": "race:Undead",
-   "text": "Earning high praise from Darthalia and presenting it directly to the throne room elevates a soldier's standing within the Dark Lady's burgeoning military hierarchy."
+   "text": "As an Undead, earning Darthalia's praise and bringing the commendation to the throne room raises your standing in the Dark Lady's growing military hierarchy."
   }
  ],
  "keywords": [
@@ -79,5 +79,6 @@
  "attribution": [
   "Darthalia's Sealed Commendation",
   "Battle of Hillsbrad (7) (Classic)"
- ]
+ ],
+ "style": 1
 }

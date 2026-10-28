@@ -17,21 +17,21 @@
   "wiki": "Return the Book",
   "chain": []
  },
- "summary": "Bethor Iceshard enchants Gunther Arcanus's stolen spellbook to prove his own freedom and recruit his former Kirin Tor colleague to the Forsaken cause. Taking the tome back to Gunther's island retreat reveals that neither former wizard is a thrall to the Lich King.",
+ "summary": "Bethor Iceshard sends his enchanted message back to Gunther Arcanus on Brightwater Lake. The stolen spellbook may bring his old Kirin Tor companion into the Forsaken fold.",
  "sections": [
   {
    "title": "A Message in Arcane Ink",
-   "body": "After discovering that the renegade necromancer on Brightwater Lake was his old companion Gunther Arcanus, Bethor Iceshard devised an ingenious method of communication. Having previously ordered the theft of Gunther's spellbook to uncover the necromancer's identity, Bethor weaves an intricate dweomer into its pages. Rather than a demand or an armed parley, the enchantment serves as an arcane signature, proving that Bethor is not only active in Lordaeron, but completely liberated from the Lich King's mental yoke.",
+   "body": "Bethor Iceshard sends an arcane message to Gunther Arcanus through a stolen spellbook. Once Bethor learns the necromancer on Brightwater Lake is his old companion, he enchants the tome's pages. The spell leaves Bethor's own magical mark, showing he is active in Lordaeron and free of the Lich King's control.",
    "spoiler": 0
   },
   {
    "title": "The Old Circle of Dalaran",
-   "body": "Before the Third War devastated Lordaeron, Bethor Iceshard, Gunther Arcanus, and Thule Ravenclaw were fellow students and friends within the Kirin Tor in Dalaran. Their paths diverged sharply when the Lich King rose: Thule betrayed his brethren and willingly sided with the Scourge, while Bethor and Gunther both fell to the Plague, and Bethor later broke free alongside Queen Sylvanas. Believing Gunther was either dead or enslaved, Bethor's realization that Gunther also achieved self-willed undeath sparked an urgent effort to draw him into the Forsaken.",
+   "body": "Before the Third War devastated Lordaeron, Bethor Iceshard, Gunther Arcanus, and Thule Ravenclaw studied and became friends in the Kirin Tor of Dalaran. When the Lich King rose, Thule betrayed his companions and joined the Scourge willingly. Bethor and Gunther fell to the Plague. Bethor later broke free alongside Queen Sylvanas. Believing Gunther dead or enslaved, Bethor now learns his old friend has also won his own freedom and seeks to bring him to the Forsaken.",
    "spoiler": 0
   },
   {
    "title": "Mistrust on the Island",
-   "body": "When approached on his solitary island, Gunther initially lashes out in fury, assuming anyone trespassing on Brightwater Lake is an agent of the Scourge seeking to re-enslave him or the thief who plundered his magic. The sight of his personal grimoire, accompanied by Bethor's familiar magical resonance, catches the solitary mage off guard. Recognizing that someone from his mortal past broke the Scourge's shackles forces Gunther to reconsider his absolute isolation.",
+   "body": "Gunther Arcanus meets an intruder on his island with fury. He suspects a Scourge agent has come to enslave him again, or that the thief who stole his magic has returned. Then he sees his grimoire and feels Bethor's familiar magic in it. The sign of someone from his mortal past forces the solitary mage to question his isolation.",
    "spoiler": 1
   }
  ],
@@ -43,7 +43,7 @@
     "gunthers book spell",
     "what did bethor do to the book"
    ],
-   "answer": "Bethor enchanted the stolen grimoire with a personal magical signature to prove to Gunther that he was truly free from the Lich King. Knowing Gunther's deep paranoia and hatred of the Scourge, a mundane messenger would have been rejected or destroyed on sight."
+   "answer": "Bethor Iceshard enchants the stolen spellbook with his magical signature to show Gunther he is free of the Lich King. A plain messenger might be rejected or destroyed by Gunther, who fears the Scourge."
   },
   {
    "q": "Who was Gunther Arcanus before he died?",
@@ -52,7 +52,7 @@
     "gunther backstory",
     "gunther lore"
    ],
-   "answer": "Gunther Arcanus was a human mage and scholar of the Kirin Tor in Dalaran. He studied alongside Bethor Iceshard and Thule Ravenclaw before the Third War, eventually falling victim to the Scourge's Plague of Undeath."
+   "answer": "Before his death, Gunther Arcanus was a human mage and Kirin Tor scholar in Dalaran. He studied with Bethor Iceshard and Thule Ravenclaw before the Third War, then fell to the Scourge's Plague of Undeath."
   },
   {
    "q": "Why is Gunther hiding on Brightwater Lake?",
@@ -61,7 +61,7 @@
     "gunthers retreat lore",
     "why did gunther leave"
    ],
-   "answer": "After breaking free from the Lich King's control, Gunther believed he was entirely alone in his freedom. He secluded himself on an island in Brightwater Lake to avoid being hunted down and re-enslaved by the Scourge or killed by living enemies."
+   "answer": "After breaking free of the Lich King's control, Gunther believed he was alone in his freedom. He hid on an island in Brightwater Lake to escape the Scourge and living enemies who might hunt or kill him."
   },
   {
    "q": "Who is Thule Ravenclaw?",
@@ -70,7 +70,7 @@
     "thule ravenclaw lore",
     "third friend"
    ],
-   "answer": "Thule Ravenclaw was the third member of Bethor and Gunther's circle of Kirin Tor students in Dalaran. Unlike Bethor and Gunther, who broke their shackles, Thule willingly remains a loyal necromancer serving the Scourge in Silverpine Forest."
+   "answer": "Thule Ravenclaw was a fellow Kirin Tor student of Bethor Iceshard and Gunther Arcanus in Dalaran. Unlike them, Thule willingly serves the Scourge as a loyal necromancer in Silverpine Forest."
   },
   {
    "q": "Why does Gunther think the player is a thief?",
@@ -79,7 +79,7 @@
     "did i steal gunthers book",
     "stolen book"
    ],
-   "answer": "Earlier on, Bethor instructed Forsaken adventurers to sneak into Gunther's sanctum and steal his spellbook so Bethor could verify who was practicing necromancy on the lake. Gunther correctly recognizes the returning adventurer as the person who robbed him."
+   "answer": "Bethor earlier sent Forsaken adventurers into Gunther's sanctum to steal his spellbook and learn who was practicing necromancy on the lake. Gunther recognizes the returning adventurer as the one who robbed him."
   },
   {
    "q": "Does Gunther immediately join the Forsaken?",
@@ -88,21 +88,21 @@
     "gunther allegience",
     "what happens next with gunther"
    ],
-   "answer": "Not right away. While stunned to learn Bethor lives and possesses free will, Gunther remains skeptical of the Forsaken and requires proof that you are an enemy of the Scourge: summoning and destroying the Scourge agent Lillith Nefara at an old altar off his island's southern coast."
+   "answer": "No. Gunther is stunned to learn Bethor lives and is free, but remains wary of the Forsaken. He asks you to prove you oppose the Scourge by summoning and destroying its agent Lillith Nefara at an old altar off the island's southern coast."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "Gunther's plight mirrors the foundational struggle of the Forsaken: waking from the nightmare of mindless servitude only to face an isolated, hostile world."
+   "text": "As an undead, you share Gunther's struggle: waking from mindless service to face a hostile, lonely world."
   },
   {
    "target": "class:Mage",
-   "text": "This exchange highlights the deep bonds among former Kirin Tor magi, who continue to recognize one another's distinct magical signatures across the veil of undeath."
+   "text": "As a mage, you know how former Kirin Tor magi can recognize one another's magic across undeath."
   },
   {
    "target": "faction:Horde",
-   "text": "Recruiting independent undead sorcerers like Gunther bolsters Undercity's arcane strength against both the Scourge and the Scarlet Crusade."
+   "text": "As a member of the Horde, you help strengthen Undercity's arcane ranks when independent undead sorcerers like Gunther join the cause against the Scourge and the Scarlet Crusade."
   }
  ],
  "keywords": [
@@ -129,5 +129,6 @@
  ],
  "attribution": [
   "Return the Book"
- ]
+ ],
+ "style": 1
 }

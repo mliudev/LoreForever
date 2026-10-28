@@ -8,11 +8,11 @@
   "wiki": "Vidra Hearthstove",
   "refs": 1
  },
- "summary": "Vidra Hearthstove is a dwarven cook residing in the Stoutlager Inn in Thelsamar. Known for preparing local specialties, she frequently relies on traveling adventurers to gather regional ingredients for her famous blood sausages.",
+ "summary": "In Thelsamar, Vidra Hearthstove cooks local specialties at the Stoutlager Inn. She often relies on traveling adventurers to gather ingredients for her famous blood sausages.",
  "sections": [
   {
    "title": "Kitchen of the Stoutlager",
-   "body": "Within the bustling warmth of the Stoutlager Inn, Vidra Hearthstove tends the kitchen and helps feed the locals and travelers passing through Loch Modan. Sharing a surname with the innkeeper, she keeps Thelsamar well-provisioned. Her signature dish, Thelsamar blood sausages, is a hearty dwarven staple that requires fresh game meats gathered from the surrounding wilderness, including boar entrails, spider ichor, and bear meat.",
+   "body": "Vidra Hearthstove cooks for locals and travelers at the Stoutlager Inn in Loch Modan. Sharing a surname with the innkeeper, she helps keep Thelsamar well provisioned. Her signature dish, Thelsamar blood sausages, calls for fresh game from the surrounding wilderness: boar entrails, spider ichor, and bear meat.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "who is vidra",
     "stoutlager cook"
    ],
-   "answer": "Vidra Hearthstove is a dwarf living at the Stoutlager Inn in Thelsamar. She is renowned for her cooking, especially the hearty Thelsamar blood sausages she serves to patrons and Mountaineers defending Loch Modan."
+   "answer": "Vidra Hearthstove is a dwarf who lives and cooks at the Stoutlager Inn in Thelsamar. Her renowned Thelsamar blood sausages are served to patrons and Mountaineers defending Loch Modan."
   },
   {
    "q": "Where can Vidra Hearthstove be found?",
@@ -33,7 +33,7 @@
     "where is vidra hearthstove",
     "stoutlager inn vidra"
    ],
-   "answer": "She can be found inside the Stoutlager Inn, located in the center of Thelsamar in Loch Modan."
+   "answer": "You can find Vidra inside the Stoutlager Inn, in the center of Thelsamar in Loch Modan."
   },
   {
    "q": "What ingredients does she use for Thelsamar Blood Sausages?",
@@ -42,17 +42,17 @@
     "what is in thelsamar blood sausages",
     "vidra recipe"
    ],
-   "answer": "Her famous recipe calls for a rugged assortment of local wildlife parts, specifically bear meat, boar intestines, and spider ichor harvested from the beasts roaming Loch Modan."
+   "answer": "Vidra's famous recipe calls for bear meat, boar intestines, and spider ichor from wildlife in Loch Modan."
   }
  ],
  "angles": [
   {
    "target": "profession:Cooking",
-   "text": "Vidra represents the hearty, rustic culinary traditions of Khaz Modan, turning harsh local ingredients into sustaining meals for hungry adventurers and mountain patrols."
+   "text": "As a cook, Vidra turns harsh local ingredients into sustaining meals for hungry adventurers and mountain patrols, in the hearty, rustic tradition of Khaz Modan."
   },
   {
    "target": "race:Dwarf",
-   "text": "For dwarves passing through Thelsamar, Vidra's kitchen provides a comforting taste of home, embodying her staple role in keeping town morale high."
+   "text": "As a dwarf passing through Thelsamar, you can find a comforting taste of home in Vidra's kitchen, where her cooking helps keep town morale high."
   }
  ],
  "keywords": [
@@ -73,5 +73,6 @@
  ],
  "attribution": [
   "Vidra Hearthstove"
- ]
+ ],
+ "style": 1
 }

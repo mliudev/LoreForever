@@ -10,11 +10,11 @@
    "quest:496"
   ]
  },
- "summary": "Creeper Ichor is a rare, virulent fluid harvested from the moss creepers lurking throughout the forests of the Hillsbrad Foothills. It is sought by the Royal Apothecary Society in Tarren Mill as a potent biological agent for formulating novel plagues against the living.",
+ "summary": "Across the Hillsbrad forests, rare, virulent Creeper Ichor is harvested from moss creepers. The Royal Apothecary Society in Tarren Mill seeks it as a biological agent for formulating novel plagues against the living.",
  "sections": [
   {
    "title": "Apothecary Research in Hillsbrad",
-   "body": "In Tarren Mill, Apothecary Lydon conducts experiments to craft deadly new toxins, seeking to eradicate the surrounding human population. Despising the clean air and vibrant life of the foothills, Lydon searches for natural toxins and biological catalysts native to the local wildlife. The venomous fluids of the forest's giant arachnids, particularly the elusive ichor found within mature moss creepers, serve as an ideal base for his Elixir of Suffering. Mixed with other reagents like gray bear tongues, this fluid aids the Forsaken in perfecting their craft of lethal alchemy.",
+   "body": "In Tarren Mill, Apothecary Lydon seeks natural toxins and biological catalysts to craft deadly new toxins and eradicate the surrounding human population. The clean air and vibrant life of the foothills offend him. Among the forest’s giant arachnids, mature moss creepers hold an elusive ichor that makes an ideal base for his Elixir of Suffering. Mixed with other reagents, including gray bear tongues, the fluid helps the Forsaken perfect their lethal alchemy.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "what drops creeper ichor",
     "creeper ichor mobs"
    ],
-   "answer": "The fluid is harvested from moss creepers inhabiting the Hillsbrad Foothills, including Giant Moss Creepers, Forest Moss Creepers, Elder Moss Creepers, and the notable arachnid Creepthess."
+   "answer": "Moss creepers throughout the Hillsbrad Foothills yield the fluid. They include Giant Moss Creepers, Forest Moss Creepers, Elder Moss Creepers, and the notable arachnid Creepthess."
   },
   {
    "q": "Why does Apothecary Lydon need this fluid?",
@@ -35,7 +35,7 @@
     "elixir of suffering purpose",
     "what is creeper ichor used for"
    ],
-   "answer": "Apothecary Lydon uses Creeper Ichor as a vital killing agent in his ongoing alchemical research to brew the Elixir of Suffering, designed to plague and exterminate the living humans in Hillsbrad."
+   "answer": "Apothecary Lydon uses Creeper Ichor as a vital killing agent in his ongoing alchemical research. It helps him brew the Elixir of Suffering, designed to plague and exterminate the living humans in Hillsbrad."
   },
   {
    "q": "Why is Creeper Ichor so difficult to find?",
@@ -43,13 +43,13 @@
     "why rare",
     "creeper ichor drop rate"
    ],
-   "answer": "While moss creepers are common throughout the forests surrounding Tarren Mill, viable reservoirs of this particular virulent ichor are uncommon, requiring hunters to slay many arachnids before securing a usable specimen."
+   "answer": "Moss creepers are common in the forests around Tarren Mill, but usable reservoirs of this virulent ichor are uncommon. Hunters may have to slay many arachnids before securing a usable specimen."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "For Forsaken loyalists, securing lethal components like Creeper Ichor directly advances the Royal Apothecary Society's campaign to scour the living from Lordaeron."
+   "text": "As a Forsaken loyalist, securing lethal components like Creeper Ichor directly advances the Royal Apothecary Society’s campaign to scour the living from Lordaeron."
   }
  ],
  "keywords": [
@@ -71,5 +71,6 @@
  "attribution": [
   "Creeper Ichor",
   "Elixir of Suffering (quest)"
- ]
+ ],
+ "style": 1
 }

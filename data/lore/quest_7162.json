@@ -17,21 +17,21 @@
   "wiki": "Proving Grounds (Alterac Valley) (Alliance)",
   "chain": []
  },
- "summary": "Proving Grounds is an initiation rite given by Lieutenant Haggerdin to Alliance recruits enlisting with the Stormpike Guard in Alterac. To earn an official Stormpike Insignia, aspirants must venture into the harpy-infested Icewing Caverns and recover a planted battle standard. Proving one's courage in the cavern marks the first step toward rising through the expedition's military ranks.",
+ "summary": "In Alterac, recruits face a trial before joining the Stormpike Guard. Lieutenant Haggerdin sends them into Icewing Caverns to recover a planted battle standard. Success earns an official Stormpike Insignia and begins their rise through the expedition’s ranks.",
  "sections": [
   {
    "title": "A Measure of Courage",
-   "body": "The Stormpike Guard wages a relentless campaign in Alterac Valley against the Frostwolf Clan. Lieutenant Haggerdin, coordinating forces from the Alliance encampment in the Alterac Mountains, refuses to send green recruits onto the battlefield without a test. Before granting any soldier an official place in the guard, Haggerdin demands proof of skill and nerve by sending them into the treacherous Icewing Caverns southwest of Dun Baldar.",
+   "body": "The Stormpike Guard fights the Frostwolf Clan in Alterac Valley. Lieutenant Haggerdin directs Alliance forces from their encampment in the Alterac Mountains. He tests new recruits before sending them to the battlefield, demanding proof of skill and nerve in Icewing Caverns, southwest of Dun Baldar.",
    "spoiler": 0
   },
   {
    "title": "The Icewing Caverns",
-   "body": "The trial is straightforward in concept but deadly in execution: a Stormpike banner stands planted deep within the subterranean ice tunnels. The caverns are not empty; vicious frost harpies nest in the frostbitten recesses and eagerly tear apart unwary trespassers. Returning with the banner intact demonstrates that a recruit can navigate dangerous terrain, withstand brutal predators, and maintain discipline under pressure.",
+   "body": "A Stormpike banner waits deep in the icy tunnels of Icewing Caverns. Frost harpies nest in the frozen recesses and attack unwary trespassers. Bringing back the banner intact shows a recruit can cross dangerous ground, face the predators, and keep discipline under pressure.",
    "spoiler": 0
   },
   {
    "title": "The Stormpike Insignia",
-   "body": "Surviving the cavern and returning the standard earns a soldier the Stormpike initiate's insignia, welcoming them officially into the expeditionary force. As Haggerdin promises, the insignia is not merely a trinket\u2014it is a mark of rank that can be enhanced as a soldier earns greater honor on the battlefield, aspiring toward legendary honors such as the Eye of Command.",
+   "body": "Returning from the caverns with the standard earns a soldier the Stormpike initiate’s insignia and a place in the expeditionary force. Haggerdin promises that the insignia can be improved as a soldier earns greater honor on the battlefield, with honors such as the Eye of Command as a distant aim.",
    "spoiler": 0
   }
  ],
@@ -43,7 +43,7 @@
     "haggerdin",
     "who gives proving grounds"
    ],
-   "answer": "Lieutenant Haggerdin is an Alliance officer stationed in the Alterac Mountains who oversees recruitment and field recognition for the Stormpike Guard. He tests prospective fighters and rewards their service with military insignias."
+   "answer": "Lieutenant Haggerdin is an Alliance officer in the Alterac Mountains who oversees Stormpike Guard recruitment and field recognition. He tests prospective fighters and rewards their service with military insignias."
   },
   {
    "q": "Where are the Icewing Caverns?",
@@ -52,7 +52,7 @@
     "where is icewing caverns",
     "banner location"
    ],
-   "answer": "The Icewing Caverns lie southwest of the Alliance stronghold of Dun Baldar inside the frozen reaches of Alterac Valley. They are labyrinthine subterranean tunnels carved out of ice and stone."
+   "answer": "Icewing Caverns lie southwest of Dun Baldar, the Alliance stronghold in Alterac Valley. Their winding tunnels run beneath the ice and stone."
   },
   {
    "q": "What threats dwell inside the Icewing Caverns?",
@@ -61,7 +61,7 @@
     "what is in icewing caverns",
     "icewing harpies"
    ],
-   "answer": "The caverns are inhabited by ferocious ice harpies. Lieutenant Haggerdin warns recruits that these savage creatures will not hesitate to ambush trespassers and tear out their throats."
+   "answer": "Ferocious ice harpies live in Icewing Caverns. Haggerdin warns that they ambush trespassers and tear out their throats."
   },
   {
    "q": "Why does the Stormpike Guard require this test?",
@@ -70,7 +70,7 @@
     "why do the banner trial",
     "stormpike initiation"
    ],
-   "answer": "The battle against the Frostwolf orcs is brutal and unforgiving. Haggerdin insists on weeding out untested recruits before they join the main lines, ensuring every soldier bearing their banner can fight under harsh conditions."
+   "answer": "The Stormpike Guard fights a brutal war against the Frostwolf orcs. Haggerdin tests recruits before they join the main lines, so every soldier bearing the banner can fight in harsh conditions."
   },
   {
    "q": "What is the reward for completing the proving ground?",
@@ -79,7 +79,7 @@
     "eye of command",
     "proving grounds reward"
    ],
-   "answer": "Completing the trial rewards the recruit with a Stormpike initiate's insignia. Haggerdin upgrades this insignia to more powerful versions as the soldier accumulates honor in Alterac Valley."
+   "answer": "A recruit who returns with the standard earns a Stormpike initiate’s insignia. Haggerdin can improve it as the soldier gains honor in Alterac Valley."
   },
   {
    "q": "Who are the Frostwolves mentioned by Haggerdin?",
@@ -88,17 +88,17 @@
     "who are the frostwolves",
     "frostwolf clan"
    ],
-   "answer": "The Frostwolf Clan is an orcish clan that has inhabited Alterac Valley since their exile decades ago. The Stormpike Guard considers them hostile savages standing in the way of Alliance interests and excavation in the valley."
+   "answer": "The Frostwolf Clan is an orcish clan that has lived in Alterac Valley since its exile decades ago. The Stormpike Guard sees them as hostile savages who stand in the way of Alliance interests and excavation in the valley."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "The Stormpike expedition represents the Alliance's primary military endeavor in Alterac, blending dwarven archaeological ambitions with territorial defense against the Horde."
+   "text": "The Stormpike expedition is the Alliance’s main military effort in Alterac. It joins dwarven archaeological ambitions with the defense of Alliance territory against the Horde."
   },
   {
    "target": "race:Dwarf",
-   "text": "The Stormpike Guard is predominantly led by Ironforge dwarves seeking ancestral relics and titan mysteries, making this trial an entry into one of your race's proudest military units."
+   "text": "As a dwarf, you enter a guard led mostly by Ironforge dwarves seeking ancestral relics and titan mysteries. The trial can be your first step into one of your race’s proudest military units."
   }
  ],
  "keywords": [
@@ -119,5 +119,6 @@
  ],
  "attribution": [
   "Proving Grounds (Alterac Valley) (Alliance)"
- ]
+ ],
+ "style": 1
 }

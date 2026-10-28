@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Coldridge Pass"
  },
- "summary": "Coldridge Pass is a rugged, snowbound tunnel cutting through the southern mountain ridge of Dun Morogh. It serves as the sole overland route connecting the secluded training grounds of Coldridge Valley to the rest of the kingdom, emerging near the bustling town of Kharanos. Because hostile troggs have overrun the passage, any traveler attempting the journey must either fight their way through or make a desperate dash for the other side.",
+ "summary": "Troggs now bar the road through Coldridge Pass, the way out of Coldridge Valley.",
  "sections": [
   {
    "title": "The Gateway Out of the Valley",
-   "body": "For young dwarven recruits and gnome novices taking their first steps beyond Coldridge Valley, Coldridge Pass is a harsh rite of passage. Chiseled straight through the rock, this tunnel forms the primary link sending newly trained adventurers eastward toward the frontier hub of Kharanos. What was once a secure mountain corridor has become a perilous choke point, infested with aggressive troggs that have pushed up from dark sub-terrains to menace any soul trying to travel between the sheltered valley and the wider reaches of Dun Morogh.",
+   "body": "Coldridge Pass carries recruits from Coldridge Valley toward Kharanos. The tunnel cuts through Dun Morogh’s southern mountain ridge, linking the sheltered training grounds to the wider kingdom. Troggs have overrun the passage and threaten anyone crossing between the valley and the rest of Dun Morogh.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "coldridge pass destination",
     "how to leave coldridge valley"
    ],
-   "answer": "The pass connects Coldridge Valley in the southwest to the greater region of Dun Morogh, emptying out into the snowy hills just west of the town of Kharanos."
+   "answer": "Coldridge Pass connects Coldridge Valley in the southwest to the rest of Dun Morogh, emerging in snowy hills just west of Kharanos."
   },
   {
    "q": "Why are there troggs in Coldridge Pass?",
@@ -32,7 +32,7 @@
     "coldridge pass monsters",
     "trogg infestation"
    ],
-   "answer": "Troggs have recently surged forth from the deep subterranean cracks beneath Dun Morogh, seizing dark caves and tunnels throughout the region. Coldridge Pass provided them shelter and an easy ambush point against mountain travelers."
+   "answer": "Troggs have surged from deep cracks beneath Dun Morogh and seized caves and tunnels across the region. Coldridge Pass shelters them and gives them a place to ambush travelers."
   },
   {
    "q": "Is Coldridge Pass safe to travel through?",
@@ -40,7 +40,7 @@
     "is coldridge pass dangerous",
     "can i walk through coldridge pass"
    ],
-   "answer": "No, it is not safe. The tunnel is swarming with hostile troggs, meaning recruits and travelers must cut their way through the brutes or sprint through the darkness to reach the opposite end."
+   "answer": "No. Hostile troggs crowd the tunnel, so recruits and travelers must fight through or sprint in darkness to reach the far end."
   },
   {
    "q": "Who guards or maintains the pass?",
@@ -48,17 +48,17 @@
     "dwarf guards at coldridge pass",
     "who controls the pass"
    ],
-   "answer": "Mountaineers watch the valley and road exits, but the tunnel interior remains contested and uncleared, leaving individual travelers to defend themselves as they make the crossing."
+   "answer": "Mountaineers watch the valley and road exits, but the tunnel remains contested and uncleared. Travelers must defend themselves during the crossing."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "For dwarven mountaineers and recruits, traversing Coldridge Pass represents your departure from novice training at Anvilmar into active service across Ironforge's lands."
+   "text": "As a dwarf, you leave novice training at Anvilmar through Coldridge Pass to serve across Ironforge’s lands."
   },
   {
    "target": "race:Gnome",
-   "text": "Exiled gnomes seeking to aid the Alliance must push through this trogg-infested choke point to reach Kharanos and the higher road toward Ironforge."
+   "text": "As a gnome, you must cross the trogg-held pass to reach Kharanos and the higher road toward Ironforge, where you can aid the Alliance."
   }
  ],
  "keywords": [
@@ -79,5 +79,6 @@
  ],
  "attribution": [
   "Coldridge Pass"
- ]
+ ],
+ "style": 1
 }

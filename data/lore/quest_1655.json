@@ -17,16 +17,16 @@
   "wiki": "Bailor's Ore Shipment",
   "chain": []
  },
- "summary": "Bailor's Ore Shipment is a task undertaken by paladins seeking refined metal for Jordan Stilwell's sanctified weapon. The shipment of alloy was plundered by the Mo'grosh ogres during an ambush along the roadway from the Wetlands.",
+ "summary": "Paladins seek Bailor's Ore Shipment in Loch Modan for Jordan Stilwell's sanctified weapon. Mo'grosh ogres plundered the alloy during an ambush on the road from the Wetlands.",
  "sections": [
   {
    "title": "An Ambushed Caravan",
-   "body": "When Jordan Stilwell required a specialized shipment of ore refined by his old friend Bailor Stonehand, the delivery never made it safely into Ironforge's hands. While winding its way southward out of the Wetlands into Loch Modan, the supply caravan was ambushed and slaughtered by the Mo'grosh ogres. The last surviving guard managed to limp into camp only to succumb to his injuries shortly after, leaving the shipment lost in ogre territory.",
+   "body": "Jordan Stilwell needs ore refined by his old friend Bailor Stonehand, but the shipment never reaches Ironforge. As the caravan travels south from the Wetlands into Loch Modan, Mo'grosh ogres ambush and slaughter its guards. One wounded guard reaches a camp, then dies soon after. The shipment is left in ogre territory.",
    "spoiler": 0
   },
   {
    "title": "Reclaiming the Alloy",
-   "body": "Bailor Stonehand, camped in Loch Modan, directs paladins across the waters of the Loch toward the northeastern hills. There, among the encampments of the Mo'grosh ogres, the stolen crate of alloy sits abandoned as plunder. Recovering the crate proves a paladin's resolve to venture into hostile territory, allowing Bailor to honor his original agreement with Jordan Stilwell.",
+   "body": "Bailor Stonehand camps in Loch Modan and sends paladins across the Loch toward the northeastern hills. Among the Mo'grosh camps, the stolen crate of alloy lies abandoned. Recovering it means venturing into hostile territory, and lets Bailor fulfill his agreement with Jordan Stilwell.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who is bailor",
     "bailor"
    ],
-   "answer": "Bailor Stonehand is a dwarven artisan and old friend of Jordan Stilwell who operates in Loch Modan. He is responsible for preparing and supplying the specialized alloy required for Jordan's craft."
+   "answer": "Bailor Stonehand is a dwarven artisan and old friend of Jordan Stilwell who works in Loch Modan. He prepares and supplies the specialized alloy Jordan needs for his craft."
   },
   {
    "q": "Who stole Jordan's ore shipment?",
@@ -47,7 +47,7 @@
     "who took the shipment",
     "ore thieves"
    ],
-   "answer": "The Mo'grosh ogres ambushed the supply caravan as it was traveling from the Wetlands into Loch Modan, killing the escorts and hauling off the cargo to their camps."
+   "answer": "Mo'grosh ogres ambushed the caravan as it traveled from the Wetlands into Loch Modan, killed its escorts, and carried the cargo to their camps."
   },
   {
    "q": "Where did the ambush take place?",
@@ -55,7 +55,7 @@
     "ambush location",
     "where was caravan attacked"
    ],
-   "answer": "The caravan was ambushed along the mountain road connecting the Wetlands and Loch Modan before it could reach the safety of local settlements."
+   "answer": "The caravan was ambushed along the mountain road from the Wetlands into Loch Modan, before it reached local settlements."
   },
   {
    "q": "Where are the Mo'grosh ogres located?",
@@ -64,7 +64,7 @@
     "ogre camp location",
     "where is shipment"
    ],
-   "answer": "The Mo'grosh ogres have fortified camps in the rugged hills northeast of the Loch, across the water from the western settlements."
+   "answer": "Mo'grosh ogres have fortified camps in the rugged hills northeast of the Loch, across the water from the western settlements."
   },
   {
    "q": "Why is this shipment needed?",
@@ -73,7 +73,7 @@
     "what is shipment for",
     "purpose of ore"
    ],
-   "answer": "The shipment contains a particular alloy that Jordan Stilwell needs to forge a holy weapon for paladins completing their Test of Righteousness."
+   "answer": "Jordan Stilwell needs the alloy to forge a holy weapon for paladins undertaking the Test of Righteousness."
   },
   {
    "q": "What happened to the caravan guards?",
@@ -81,21 +81,21 @@
     "caravan guards",
     "survivors of caravan"
    ],
-   "answer": "Nearly all were killed outright by the ogres. The solitary guard who managed to escape and reach help died a few days later before a healer could save him."
+   "answer": "Nearly all the guards were killed in the ambush. The lone guard who reached help died a few days later, before a healer could save him."
   }
  ],
  "angles": [
   {
    "target": "class:Paladin",
-   "text": "Retrieving Bailor's alloy is an essential rite of passage during the Test of Righteousness, proving you can brave dangerous brutes to gather materials for your sacred warhammer."
+   "text": "As a paladin, you prove you can face dangerous brutes and recover materials for your sacred warhammer during the Test of Righteousness."
   },
   {
    "target": "profession:Blacksmithing",
-   "text": "Bailor's custom alloy represents the exacting metallurgical requirements Jordan Stilwell insists upon when constructing legendary armaments."
+   "text": "Bailor's custom alloy meets the exacting metalworking requirements Jordan Stilwell sets for his legendary armaments."
   },
   {
    "target": "faction:Alliance",
-   "text": "The Mo'grosh ogre presence in northeastern Loch Modan remains an open threat to supply lines and caravans passing through the Wetlands pass."
+   "text": "Mo'grosh ogres in northeastern Loch Modan threaten supply lines and caravans passing through the Wetlands pass."
   }
  ],
  "keywords": [
@@ -119,5 +119,6 @@
  ],
  "attribution": [
   "Bailor's Ore Shipment"
- ]
+ ],
+ "style": 1
 }

@@ -8,16 +8,16 @@
   "wiki": "Gerrig Bonegrip",
   "refs": 1
  },
- "summary": "Gerrig Bonegrip is an unassuming dwarven shopkeeper tucked away in the shadowy corridors of Ironforge's Forlorn Cavern. Behind the counter of Bonegrip's Runes and Dooms, he quietly buys and sells esoteric texts concerning dark rituals and forgotten ancient powers.",
+ "summary": "In Ironforge's Forlorn Cavern, Gerrig Bonegrip keeps a quiet shop of strange texts. At Bonegrip's Runes and Dooms, he buys and sells writings on dark rituals and forgotten ancient powers.",
  "sections": [
   {
    "title": "Bonegrip's Runes and Dooms",
-   "body": "Operating in the dingy recesses of the Forlorn Cavern, Gerrig Bonegrip appears to most citizens as just an eccentric purveyor of bizarre relics and forbidden lore. However, his humble shop serves a far darker function. Bonegrip is an active member of the nihilistic Twilight's Hammer cult, using his storefront to gather dangerous manuscripts and obscure texts relating to the Old Gods under the very noses of the Ironforge Senate and the High Seat.",
+   "body": "Gerrig Bonegrip runs Bonegrip's Runes and Dooms in the Forlorn Cavern. To most citizens, he looks like an eccentric dealer in strange relics and forbidden lore. Beneath that trade, Gerrig serves the nihilistic Twilight's Hammer cult. He uses the shop to gather dangerous manuscripts and obscure writings about the Old Gods, while the Ironforge Senate and the High Seat remain unaware.",
    "spoiler": 1
   },
   {
    "title": "Collecting Forbidden Knowledge",
-   "body": "Gerrig actively enlists unwitting Alliance adventurers to retrieve ancient artifacts, such as the Lorgalis Manuscript lost deep within Blackfathom Deeps. Once these relics are in his hands, he transcribes and disseminates the profane knowledge directly to his cult brethren across Azeroth. Through subtle connections to shadowy associates like Skuerto and figures dealing with ancient primordial entities like Myzrael, Bonegrip works tirelessly to advance the cult's apocalyptic designs.",
+   "body": "Gerrig enlists unwitting Alliance adventurers to recover ancient artifacts, including the Lorgalis Manuscript from deep within Blackfathom Deeps. He transcribes the knowledge in these relics and shares it with cult brethren across Azeroth. His connections include Skuerto and figures involved with ancient primordial entities such as Myzrael. Gerrig works to advance the cult's apocalyptic designs.",
    "spoiler": 1
   }
  ],
@@ -29,7 +29,7 @@
     "gerrig bonegrip lore",
     "bonegrip ironforge"
    ],
-   "answer": "Gerrig Bonegrip is a dwarf running Bonegrip's Runes and Dooms in Ironforge's Forlorn Cavern. He deals in eccentric curiosities and obscure texts concerning ancient rituals."
+   "answer": "Gerrig Bonegrip runs Bonegrip's Runes and Dooms in Ironforge's Forlorn Cavern. He trades in strange curiosities and obscure texts about ancient rituals."
   },
   {
    "q": "What does he do with the Lorgalis Manuscript?",
@@ -38,7 +38,7 @@
     "knowledge in the deeps turn in",
     "lorgalis manuscript use"
    ],
-   "answer": "He seeks the Lorgalis Manuscript from Blackfathom Deeps for his collection of rare texts. Further investigation can uncover more about his use of it."
+   "answer": "Gerrig seeks the Lorgalis Manuscript from Blackfathom Deeps for his collection of rare texts. Further investigation can reveal how he uses it."
   },
   {
    "q": "How does Gerrig operate in Ironforge?",
@@ -46,7 +46,7 @@
     "does ironforge know bonegrip is a cultist",
     "why is bonegrip allowed in ironforge"
    ],
-   "answer": "Gerrig maintains a low profile as an eccentric scholar and merchant in the Forlorn Cavern, where he buys and sells obscure texts."
+   "answer": "Gerrig keeps a low profile as an eccentric scholar and merchant in the Forlorn Cavern, buying and selling obscure texts."
   },
   {
    "q": "What is his connection to Myzrael?",
@@ -54,17 +54,17 @@
     "gerrig bonegrip and myzrael",
     "skuerto and gerrig"
    ],
-   "answer": "Gerrig is an old associate of the dwarf Skuerto, who investigates the sealed earth elemental Myzrael in the Arathi Highlands. Through these connections, Gerrig helps orchestrate tasks tied to ancient binding rituals and primordial powers."
+   "answer": "Gerrig is an old associate of the dwarf Skuerto, who investigates the sealed earth elemental Myzrael in the Arathi Highlands. Through these ties, Gerrig helps arrange work connected to ancient binding rituals and primordial powers."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "For dwarven visitors, Bonegrip's trade in forbidden lore casts an unsettling shadow over Ironforge's scholarly life."
+   "text": "As a dwarf, you may find Bonegrip's trade in forbidden lore casts an unsettling shadow over Ironforge's scholarly life."
   },
   {
    "target": "class:Warlock",
-   "text": "For warlocks frequenting the shadowy corners of the Forlorn Cavern, Bonegrip's collection of esoteric rituals and dark tomes offers a convenient well of dangerous knowledge."
+   "text": "As a warlock in the Forlorn Cavern, you can find dangerous knowledge in Bonegrip's collection of obscure rituals and dark tomes."
   }
  ],
  "keywords": [
@@ -89,5 +89,6 @@
  ],
  "attribution": [
   "Gerrig Bonegrip"
- ]
+ ],
+ "style": 1
 }

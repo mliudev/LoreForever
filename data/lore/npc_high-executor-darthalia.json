@@ -8,16 +8,16 @@
   "wiki": "High Executor Darthalia",
   "refs": 15
  },
- "summary": "High Executor Darthalia is a high-ranking Forsaken military commander stationed at Tarren Mill in the Hillsbrad Foothills. Acting under the direct authority of Lady Sylvanas Windrunner and Varimathras, she directs Forsaken operations against the human stronghold of Southshore and local Syndicate brigands. Her leadership is central to securing the Horde's southern flank in Lordaeron.",
+ "summary": "At Tarren Mill, High Executor Darthalia directs the Forsaken war in Hillsbrad. Under Lady Sylvanas Windrunner and Varimathras, she targets Southshore and the Syndicate.",
  "sections": [
   {
    "title": "Commander of Tarren Mill",
-   "body": "Operating out of Tarren Mill, High Executor Darthalia serves as the operational commander for Forsaken forces throughout the Hillsbrad Foothills. Her primary strategic concern is halting the expansion of human resistance, keeping the Alliance forces in Southshore contained, and hunting down the lawless Syndicate rogues infesting the surrounding countryside. Every offensive push into southern Hillsbrad flows directly through her command.",
+   "body": "High Executor Darthalia commands Forsaken forces from Tarren Mill. She works to contain the human forces in Southshore and hunt the Syndicate brigands across the Hillsbrad Foothills. Every Forsaken offensive in southern Hillsbrad passes through her command.",
    "spoiler": 0
   },
   {
    "title": "The War for Hillsbrad",
-   "body": "Under direct orders originating from the Undercity's high leadership\u2014the Banshee Queen and her dreadlord lieutenant, Varimathras\u2014Darthalia oversees the relentless attrition war across Hillsbrad. She coordinates scouting missions, targeted strikes against human leadership, and bounties on dangerous outlaws who threaten the Forsaken hold on northern Lordaeron.",
+   "body": "High Executor Darthalia follows orders from the Undercity's leaders, Lady Sylvanas Windrunner and Varimathras. She directs the war across Hillsbrad, with scouting, strikes against human leaders, and bounties on outlaws who threaten Forsaken control of northern Lordaeron.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "darthalia identity",
     "executor darthalia"
    ],
-   "answer": "High Executor Darthalia is a Forsaken military leader stationed in Hillsbrad Foothills. She is responsible for directing Horde and Forsaken military efforts against the human town of Southshore and eliminating hostile regional threats."
+   "answer": "High Executor Darthalia leads Forsaken forces in the Hillsbrad Foothills. She directs their efforts against Southshore and the Syndicate."
   },
   {
    "q": "Where can Darthalia be found?",
@@ -38,7 +38,7 @@
     "where is darthalia",
     "executor darthalia map"
    ],
-   "answer": "She commands Forsaken forces from Tarren Mill, organizing troops and coordinating strikes across the central region of Lordaeron."
+   "answer": "Darthalia commands Forsaken forces from Tarren Mill, coordinating troops and strikes across central Lordaeron."
   },
   {
    "q": "Who does Darthalia answer to?",
@@ -47,7 +47,7 @@
     "darthalia faction",
     "who commands darthalia"
    ],
-   "answer": "Darthalia operates under the direct military hierarchy of the Undercity, answering to Lady Sylvanas Windrunner and the dreadlord Varimathras as they coordinate the defense and expansion of Forsaken territory."
+   "answer": "Darthalia answers to Lady Sylvanas Windrunner and Varimathras, the Undercity's leaders."
   },
   {
    "q": "What tasks does Darthalia give to adventurers?",
@@ -56,7 +56,7 @@
     "quests from darthalia",
     "what does darthalia want"
    ],
-   "answer": "Darthalia tasks Horde champions with striking directly against human settlements, executing dangerous outlaws, and hunting down members of the Syndicate operating throughout the Hillsbrad Foothills."
+   "answer": "Darthalia sends Horde champions against human settlements and dangerous outlaws, including Syndicate members throughout the Hillsbrad Foothills."
   },
   {
    "q": "Why is Darthalia fighting the humans of Southshore?",
@@ -65,7 +65,7 @@
     "southshore war",
     "hillsbrad conflict"
    ],
-   "answer": "Southshore represents the primary Alliance military foothold in Lordaeron. Darthalia's mission is to suppress the human presence, protect Tarren Mill, and prevent the Alliance from pushing north toward the Undercity."
+   "answer": "Darthalia fights to contain Southshore's Alliance forces, protect Tarren Mill, and stop them from pushing north toward the Undercity."
   },
   {
    "q": "What is Darthalia's rank in the Forsaken military?",
@@ -73,21 +73,21 @@
     "high executor rank",
     "darthalia title"
    ],
-   "answer": "As a High Executor, Darthalia holds one of the highest field-grade ranks within the Forsaken military hierarchy, granting her operational command over regional forces, outposts, and war strategy in the zone."
+   "answer": "As a High Executor, Darthalia holds a high rank in the Forsaken military and commands regional forces, outposts, and war strategy in Hillsbrad."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "For the Forsaken, Darthalia represents the iron will of the Undercity, ensuring that Lordaeron remains firmly in the hands of the free-willed undead."
+   "text": "As Forsaken, you can see Darthalia's resolve to keep Lordaeron in undead hands."
   },
   {
    "target": "faction:Horde",
-   "text": "Horde adventurers report to Darthalia to check Alliance aggression and hold the contested frontier of Hillsbrad Foothills."
+   "text": "As a Horde adventurer, you report to Darthalia to oppose the Alliance and hold Hillsbrad's contested frontier."
   },
   {
    "target": "faction:Alliance",
-   "text": "To the humans of Southshore and their allies, Darthalia is the ruthless architect behind the relentless assaults threatening their last foothold in Lordaeron."
+   "text": "To Southshore's humans and their allies, Darthalia leads the assaults threatening their foothold in Lordaeron."
   }
  ],
  "keywords": [
@@ -113,5 +113,6 @@
  ],
  "attribution": [
   "High Executor Darthalia"
- ]
+ ],
+ "style": 1
 }

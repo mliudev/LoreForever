@@ -17,16 +17,16 @@
   "wiki": "A King's Tribute",
   "chain": []
  },
- "summary": "A King's Tribute is an Alliance quest offered by King Magni Bronzebeard in the High Seat of Ironforge. Deeply moved by the grief of Sara Balloo, whose husband Sully fell defending the Thandol Span, the King decides to honor the fallen soldier with a lasting monument. He dispatches an adventurer to relay his royal commission to Grand Mason Marblesten.",
+ "summary": "In Ironforge, King Magni Bronzebeard answers Sara Balloo's plea with a lasting tribute to Sully, her fallen husband. He sends you to relay his royal commission to Grand Mason Marblesten.",
  "sections": [
   {
    "title": "A Sovereign's Burden",
-   "body": "When King Magni Bronzebeard receives the plea of Sara Balloo, he does not dismiss the grieving widow. While he acknowledges that common folk may struggle to understand the brutal necessities of war, the loss of every soldier fighting beneath the Alliance banner weighs heavily upon his conscience. Unable to reverse the grim finality of death on the front lines, Magni chooses to ensure Sully Balloo's sacrifice is never forgotten.",
+   "body": "King Magni Bronzebeard hears Sara Balloo's plea and gives the grieving widow his attention. He knows common folk may struggle to understand the harsh needs of war, yet every soldier who fights beneath the Alliance banner weighs on his conscience. Magni cannot undo a death on the front lines. He can make sure Sully Balloo's sacrifice is remembered.",
    "spoiler": 0
   },
   {
    "title": "The Mason's Chisel",
-   "body": "Rather than issuing empty platitudes, the King resolves to raise a physical memorial in Sully's honor. He appoints the adventurer as custodian of his royal will, sending them across Ironforge to confer with Grand Mason Marblesten. Entrusted with the King's personal commission, the master stonemason prepares to carve the memory of a fallen defender into stone.",
+   "body": "King Magni chooses a stone memorial for Sully instead of empty words. He appoints you custodian of his royal will and sends you across Ironforge to Grand Mason Marblesten. The master stonemason receives the King's personal commission and prepares to carve the memory of a fallen defender into stone.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "sully balloo lore",
     "who died"
    ],
-   "answer": "Sully Balloo was a dwarven soldier who lost his life fighting for the Alliance during the defense of the Thandol Span. His widow, Sara Balloo, petitioned King Magni Bronzebeard after learning of his death."
+   "answer": "Sully Balloo was a dwarven soldier who died fighting for the Alliance in the defense of the Thandol Span. After learning of his death, his widow, Sara Balloo, petitioned King Magni Bronzebeard."
   },
   {
    "q": "Why does King Magni commission a memorial?",
@@ -47,7 +47,7 @@
     "magni motive",
     "kings tribute purpose"
    ],
-   "answer": "King Magni carries the weight of every dwarven life lost in the Alliance's ongoing struggles. Though he cannot restore Sully to his widow, he intends to honor the soldier's courage with an enduring royal monument."
+   "answer": "King Magni carries the weight of every dwarven life lost in the Alliance's ongoing struggles. He cannot restore Sully to his widow, so he commissions an enduring monument to honor the soldier's courage."
   },
   {
    "q": "Who is Grand Mason Marblesten?",
@@ -55,7 +55,7 @@
     "who is marblesten",
     "grand mason role"
    ],
-   "answer": "Grand Mason Marblesten is Ironforge's master stoneworker, tasked with executing major civic and royal architectural projects throughout the city. King Magni relies on him to sculpt Sully Balloo's memorial."
+   "answer": "Grand Mason Marblesten is Ironforge's master stoneworker, entrusted with major civic and royal building projects throughout the city. King Magni relies on him to sculpt Sully Balloo's memorial."
   },
   {
    "q": "Where does this quest take place?",
@@ -63,7 +63,7 @@
     "where is this quest",
     "quest location"
    ],
-   "answer": "The quest takes place entirely within Ironforge, beginning at the High Seat with King Magni Bronzebeard and leading to Grand Mason Marblesten elsewhere in the capital."
+   "answer": "You travel within Ironforge, beginning at the High Seat with King Magni Bronzebeard and going on to Grand Mason Marblesten elsewhere in the capital."
   },
   {
    "q": "What comes before this quest?",
@@ -71,7 +71,7 @@
     "prerequisites",
     "previous quest"
    ],
-   "answer": "Before receiving this quest, an adventurer must complete 'Sara Balloo's Plea', delivering the widow's heartfelt letter directly to King Magni Bronzebeard."
+   "answer": "Before this, you complete 'Sara Balloo's Plea' by delivering the widow's heartfelt letter directly to King Magni Bronzebeard."
   },
   {
    "q": "Is this memorial only for Sully Balloo?",
@@ -79,17 +79,17 @@
     "who does it honor",
     "is it just for sully"
    ],
-   "answer": "While specifically commissioned in name of Sully Balloo to console his widow Sara, the tribute symbolizes the King's reverence for every dwarven fighter who perishes in service to the Alliance."
+   "answer": "The tribute bears Sully Balloo's name and is meant to console his widow, Sara. It also honors every dwarven fighter who dies serving the Alliance."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "This task demonstrates King Magni's dedication to his folk, showing that even the lowliest dwarven foot soldier is remembered by the throne."
+   "text": "As a dwarf, you can see King Magni's devotion to his people: even the lowliest dwarven foot soldier is remembered by the throne."
   },
   {
    "target": "faction:Alliance",
-   "text": "The fallen at the Thandol Span gave their lives guarding crucial supply lines between Khaz Modan and the northern kingdoms for the Alliance."
+   "text": "As an Alliance fighter, you know the fallen at the Thandol Span gave their lives guarding crucial supply lines between Khaz Modan and the northern kingdoms."
   }
  ],
  "keywords": [
@@ -109,5 +109,6 @@
  ],
  "attribution": [
   "A King's Tribute"
- ]
+ ],
+ "style": 1
 }

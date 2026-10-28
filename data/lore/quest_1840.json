@@ -17,16 +17,16 @@
   "wiki": "Orm Stonehoof and the Brutal Helm",
   "chain": []
  },
- "summary": "This errand directs rising Horde warriors to Thunder Bluff to consult with Orm Stonehoof, an artisan smith. Recommended by Thun'grim Firegaze, Orm possesses the specialized craft required to forge the Brutal Helm.",
+ "summary": "In Thunder Bluff, Orm Stonehoof has the skill to forge the Brutal Helm. Thun'grim Firegaze sends warriors to him for that work.",
  "sections": [
   {
    "title": "A Recommendation in Iron",
-   "body": "After proving their mettle and assembling pieces of the Brutal Armor in the Barrens, warriors are directed higher into the mesa city of Thunder Bluff. Thun'grim Firegaze, an accomplished armorsmith himself, recognizes his limits and refers his champions to Orm Stonehoof. Orm's craft is renowned throughout Kalimdor, specifically his ability to mold resilient battlefield helms from rare, savage trophies.",
+   "body": "Warriors who prove their mettle and assemble pieces of the Brutal Armor in the Barrens are sent up to Thunder Bluff. Thun'grim Firegaze is an accomplished armorsmith, but he knows the work has reached beyond his own skill. He refers the warriors to Orm Stonehoof, whose craft is renowned across Kalimdor. Orm can shape resilient battlefield helms from rare, savage trophies.",
    "spoiler": 0
   },
   {
    "title": "The Artisan by the Pool",
-   "body": "Orm makes his home and workplace on the high bluffs of Mulgore, standing near the tranquil waters beneath the city's towering central totem. When a warrior arrives carrying word from Thun'grim, Orm steps away from routine work to discuss the demanding components needed to forge headgear truly worthy of the Horde's front lines.",
+   "body": "Orm Stonehoof lives and works on the high bluffs of Mulgore, near the tranquil pool beneath Thunder Bluff's towering central totem. When a warrior arrives with Thun'grim Firegaze's word, Orm leaves his routine work to discuss the demanding components needed for a helm worthy of the Horde's front lines.",
    "spoiler": 0
   }
  ],
@@ -37,7 +37,7 @@
     "orm stonehoof",
     "who is orm"
    ],
-   "answer": "Orm Stonehoof is a skilled tauren armorsmith residing in Thunder Bluff. Known for his craftsmanship, he aids warriors sent by Thun'grim Firegaze in crafting specialized battle headgear."
+   "answer": "Orm Stonehoof is a skilled tauren armorsmith who lives in Thunder Bluff. Thun'grim Firegaze sends warriors to him for his skill in crafting battle helms."
   },
   {
    "q": "Where can Orm Stonehoof be found?",
@@ -46,7 +46,7 @@
     "orm stonehoof location",
     "find orm"
    ],
-   "answer": "He is located in the heart of Thunder Bluff, standing near the pool of water close to the city's massive central totem."
+   "answer": "Orm Stonehoof works near the pool beneath Thunder Bluff's massive central totem."
   },
   {
    "q": "Why does Thun'grim Firegaze send you to Thunder Bluff?",
@@ -54,7 +54,7 @@
     "why thunder bluff",
     "why see orm"
    ],
-   "answer": "While Thun'grim can craft the chestpiece and other elements of the Brutal set, he acknowledges that Orm Stonehoof possesses the precise expertise needed to fashion the Brutal Helm."
+   "answer": "Thun'grim Firegaze can craft the chestpiece and other parts of the Brutal set, but Orm Stonehoof has the skill needed to forge the Brutal Helm."
   },
   {
    "q": "What is the Brutal Helm?",
@@ -62,7 +62,7 @@
     "brutal helm quest",
     "what is brutal helm"
    ],
-   "answer": "The Brutal Helm is an iconic piece of headgear forged for Horde warriors reaching veteran standing. It requires dangerous materials sourced from beasts across Kalimdor."
+   "answer": "The Brutal Helm is headgear forged for Horde warriors who have reached veteran standing. It requires dangerous materials from beasts across Kalimdor."
   },
   {
    "q": "What does Orm ask for next?",
@@ -71,7 +71,7 @@
     "after orm stonehoof",
     "chimaeric horn quest"
    ],
-   "answer": "Once you speak with Orm, he directs you to gather the necessary beast trophies for the helm, beginning with hunting chimaeras in the wild to claim a Chimaeric Horn."
+   "answer": "Orm Stonehoof asks you to gather beast trophies for the helm, starting with a Chimaeric Horn from a chimaera in the wild."
   },
   {
    "q": "Can any class take this quest?",
@@ -79,17 +79,17 @@
     "is this warrior only",
     "who can do this quest"
    ],
-   "answer": "No. This quest line is exclusive to warriors who have advanced far enough in their martial training and completed Thun'grim's initial armor tasks."
+   "answer": "No. This line is for warriors who have advanced far enough in their martial training and completed Thun'grim's initial armor work."
   }
  ],
  "angles": [
   {
    "target": "class:Warrior",
-   "text": "This quest marks the transition into heavyweight head protection, sending warriors to one of the Horde's finest master smiths."
+   "text": "As a warrior, you are sent to one of the Horde's finest master smiths for heavyweight head protection."
   },
   {
    "target": "faction:Horde",
-   "text": "The quest illustrates the cooperation between orcish weaponmasters in the Barrens and tauren craftsmen high atop Thunder Bluff."
+   "text": "As a member of the Horde, you see orcish weaponmasters in the Barrens work with tauren craftsmen high atop Thunder Bluff."
   }
  ],
  "keywords": [
@@ -109,5 +109,6 @@
  ],
  "attribution": [
   "Orm Stonehoof and the Brutal Helm"
- ]
+ ],
+ "style": 1
 }

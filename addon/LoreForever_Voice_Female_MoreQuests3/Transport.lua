@@ -274,11 +274,11 @@ P.transport["quest:3626"] = {
   },
 }
 P.transport["quest:507"] = {
-  hash = "71aed0",
-  fullHash = "71aed0",
-  text = "Lord Aliden Perenolde. Krusk wants Lord Aliden Perenolde, leader of the Syndicate, dead and the Warchief's pendant recovered. His manor stands north, on the shores of Lordamere Lake, and his mistress Elysa is the one to ask about the pendant. After Blackmoore's Legacy, Krusk says Perenolde has to die, and the world be rid of his foulness. The manor sits a way to the north, on the shores of Lordamere Lake, at Dandred's Fold. When the deed is done, you are to put your questions about Taretha's pendant, which the Warchief desires, to his mistress Elysa.",
+  hash = "8e50c3",
+  fullHash = "8e50c3",
+  text = "Lord Aliden Perenolde. Krusk wants Lord Aliden Perenolde dead, and the Warchief's pendant recovered. Perenolde's manor lies north, on Lordamere Lake; his mistress Elysa knows about the pendant. After Blackmoore's Legacy, Krusk says Perenolde must die and his foulness be ended. His manor lies north, on the shores of Lordamere Lake at Dandred's Fold. Once the deed is done, ask his mistress Elysa about Taretha's pendant, which the Warchief desires.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_507-7b5d19ad4e24ab306833/1-0000.mp3", duration = 35.2914286, start = 0},
+    {file = "Audio/Transport/full_quest_507-b263ac1161367529a2ad/1-0000.mp3", duration = 28.7608163, start = 0},
   },
 }
 P.transport["quest:508"] = {
@@ -290,35 +290,35 @@ P.transport["quest:508"] = {
   },
 }
 P.transport["quest:519"] = {
-  hash = "15a559",
-  fullHash = "15a559",
-  text = "The Crown of Will. With the ogres' defenses weakened, Melisara in Tarren Mill wants the heads of Mug'Thol's three lieutenants, Targ, Muckrake and Glommus, before Mug'Thol himself is dealt with. Mug'Thol's lieutenants are Targ, Muckrake and Glommus, all loyal to him, though Melisara wonders what could make an ogre loyal. You are to kill all three and bring their heads back to Tarren Mill. After that, only Mug'Thol's own head remains to be taken, crown and all.",
+  hash = "a54b6d",
+  fullHash = "a54b6d",
+  text = "The Crown of Will. In Tarren Mill, Melisara seeks the heads of three ogres before Mug'Thol. Melisara names Targ, Muckrake and Glommus as Mug'Thol's loyal lieutenants, though she wonders what could make an ogre loyal. You are to kill all three and bring their heads to Tarren Mill. Then only Mug'Thol's head, crown and all, remains to be taken.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_519-8fb71e5f70ec77283594/1-0000.mp3", duration = 27.7942857, start = 0},
+    {file = "Audio/Transport/full_quest_519-eb9f5e4bbbda48d65e0a/1-0000.mp3", duration = 20.9763265, start = 0},
   },
 }
 P.transport["quest:520"] = {
-  hash = "7c85cc",
-  fullHash = "7c85cc",
-  text = "The Crown of Will. With Mug'Thol's lieutenants dead, Melisara in Tarren Mill sends you after Mug'Thol himself. You are to bring back his head and the Crown of Will, and the Crushridge resistance will be over. Only Mug'Thol is left now. Melisara expects him to be reluctant to give up the Crown of Will, and thinks he is probably expecting you, given what befell his lieutenants. Find him, kill him, and carry his head and the Crown back to Tarren Mill.",
+  hash = "40495d",
+  fullHash = "40495d",
+  text = "The Crown of Will. With Mug'Thol's lieutenants dead, Melisara in Tarren Mill sends you after him. Bring back his head and the Crown of Will, and the Crushridge resistance will be over. Only Mug'Thol remains. Melisara expects him to resist giving up the Crown of Will. After his lieutenants fell, he likely expects you. Find him, kill him, and bring his head and the Crown back to Tarren Mill.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_520-55918418872752e98640/1-0000.mp3", duration = 26.0440816, start = 0},
+    {file = "Audio/Transport/full_quest_520-ff2245c6a72a2a8c3a37/1-0000.mp3", duration = 23.1444898, start = 0},
   },
 }
 P.transport["quest:521"] = {
-  hash = "5f7402",
-  fullHash = "5f7402",
-  text = "The Crown of Will. Only one thing remains. The Crown is to go to Sharlindra in the Undercity, who will make sure it reaches Lady Sylvanas. Melisara says all that remains is to take the Crown to Sharlindra in the Undercity, and she will pass it on to Lady Sylvanas. Melisara also warns you against thinking of using it for your own purposes. Mug'Thol's fate, Melisara says, is illustration enough.",
+  hash = "7e9b4f",
+  fullHash = "7e9b4f",
+  text = "The Crown of Will. Only one step remains: the Crown is bound for Sharlindra in the Undercity, who will see that it reaches Lady Sylvanas. Melisara sends you to take the Crown to Sharlindra in the Undercity, where she will pass it on to Lady Sylvanas. She warns you not to use it for your own purposes. Mug'Thol's fate is warning enough.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_521-67c675c36400ce984ebf/1-0000.mp3", duration = 24.5028571, start = 0},
+    {file = "Audio/Transport/full_quest_521-4e3c48c761c0b19ff5ee/1-0000.mp3", duration = 20.1926531, start = 0},
   },
 }
 P.transport["quest:566"] = {
-  hash = "6f9a2c",
-  fullHash = "6f9a2c",
-  text = "WANTED: Baron Vardus. A notice carrying High Executor Darthalia's order names Baron Vardus, a human and a high-ranking member of the Syndicate, wanted dead for crimes against the Forsaken. Proof of his death is to be brought to Darthalia in Tarren Mill. Darthalia has put a price on Baron Vardus, a human charged with crimes against the Forsaken and counted among the Syndicate's high-ranking members. Last word placed him in the Uplands of the Alterac Mountains, to the north of Tarren Mill. The order is plain: he is to die, and whoever brings Darthalia proof of his death will be paid for it. Vardus could be at any one of the Syndicate camps across the Uplands. He may also be hiding in the cellar of the inn at Strahnbrad.",
+  hash = "705345",
+  fullHash = "705345",
+  text = "WANTED: Baron Vardus. In Tarren Mill, High Executor Darthalia calls for Baron Vardus's death. The human is a high-ranking member of the Syndicate, wanted for crimes against the Forsaken; bring proof of his death to Darthalia. High Executor Darthalia has put a price on Baron Vardus, a human accused of crimes against the Forsaken and counted among the Syndicate's high-ranking members. The last word placed him in the Uplands of the Alterac Mountains, north of Tarren Mill. Darthalia's order calls for his death, and payment awaits whoever brings her proof. Baron Vardus may be at any of the Syndicate camps across the Uplands. He may also be hiding in the cellar of the inn at Strahnbrad.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_566-a2813c3231ce06aeb10b/1-0000.mp3", duration = 45.9232653, start = 0},
+    {file = "Audio/Transport/full_quest_566-816214b72789c6a587c2/1-0000.mp3", duration = 40.3330612, start = 0},
   },
 }
 P.transport["quest:571"] = {

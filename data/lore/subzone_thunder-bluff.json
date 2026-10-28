@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Thunder Bluff"
  },
- "summary": "Thunder Bluff is the high-perched capital city of the tauren, rising hundreds of feet above the rolling plains of Mulgore. Founded by Cairne Bloodhoof following the Third War, it serves as the united sanctuary and cultural heart for a people who roamed as nomads for generations.",
+ "summary": "On Mulgore’s high mesas, Thunder Bluff shelters the tauren as their capital. Cairne Bloodhoof founded the city after the Third War, bringing a people long scattered across Kalimdor together in a place of refuge and tradition.",
  "sections": [
   {
    "title": "A Refuge Upon the Mesas",
-   "body": "For countless generations, the tauren lived as nomadic wanderers across central Kalimdor, constantly beset by brutal centaur raiding parties. That era of flight ended during the Third War, when Cairne Bloodhoof forged a bond of honor with Warchief Thrall and the New Horde. Together, they drove back the centaur menace and claimed the fertile grasslands of Mulgore. Cairne gathered the scattered tribes and established Thunder Bluff atop a series of sweeping, natural stone mesas. Today, the city is connected by dizzying rope bridges and accessed by ingenious wooden elevators, offering both absolute defense and a bustling center of trade and spiritual assembly.",
+   "body": "Thunder Bluff rises above Mulgore, where rope bridges link its stone mesas and wooden elevators carry travelers up from the plains. For generations, the tauren wandered across central Kalimdor, pursued by centaur raiding parties. During the Third War, Cairne Bloodhoof joined with Warchief Thrall and the New Horde. Together, they drove back the centaurs and claimed Mulgore’s fertile grasslands. Cairne gathered the scattered tribes and founded the city atop the mesas, where the heights offered shelter and a place for the tauren to trade and gather in worship.",
    "spoiler": 0
   },
   {
    "title": "Unity and Gathering Mists",
-   "body": "While Thunder Bluff stands as a beacon of harmony, its towering heights house diverse factions. Most tribes revere the wisdom of Cairne Bloodhoof, yet dissent quietly simmers among traditionalists such as Magatha Grimtotem and her kin on the Elder Rise. Deep beneath the city's surface lie the subterranean Pools of Vision, where spirit walkers and shaman peer into the ancestors' will. Despite underlying tribal rivalries, Thunder Bluff remains the true spiritual pillar of Kalimdor's Horde, welcoming hunters returning from the Barrens, traveling artisans, and druids communing with the Earth Mother.",
+   "body": "Cairne Bloodhoof’s followers share Thunder Bluff with tauren who hold to other ways. Magatha Grimtotem and her kin dwell on the Elder Rise, while spirit walkers and shaman seek the ancestors’ will at the Pools of Vision beneath the city. Tribal rivalries persist, yet Thunder Bluff remains a spiritual pillar of Kalimdor’s Horde. Hunters return from the Barrens, artisans travel through, and druids come to commune with the Earth Mother.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "how to get up to tb",
     "entering thunder bluff"
    ],
-   "answer": "Travelers reach the city via massive wooden rope-and-pulley elevators located on the southwestern and northeastern bluffs, or by taking flight directly to the city's wind rider roost atop the central mesa."
+   "answer": "Travelers ascend to Thunder Bluff by wooden rope and pulley elevators on the southwestern and northeastern bluffs, or fly to the wind rider roost atop the central mesa."
   },
   {
    "q": "Why did the tauren build their city on cliffs?",
@@ -37,7 +37,7 @@
     "why build on high bluffs",
     "thunder bluff defense"
    ],
-   "answer": "After enduring centuries of relentless centaur raids on open ground, Cairne Bloodhoof chose the towering stone mesas to grant his nomadic people an impregnable sanctuary overlooking the sacred grazing grounds of Mulgore."
+   "answer": "After centuries of centaur raids across the open plains, Cairne Bloodhoof chose the stone mesas for a refuge above Mulgore’s sacred grazing grounds."
   },
   {
    "q": "Who rules Thunder Bluff?",
@@ -46,7 +46,7 @@
     "who is the chief",
     "cairne thunder bluff"
    ],
-   "answer": "High Chieftain Cairne Bloodhoof leads Thunder Bluff. He united the scattered tribes and secured the peace of Mulgore, ruling with the counsel of tribal leaders and elders across the rises."
+   "answer": "High Chieftain Cairne Bloodhoof leads Thunder Bluff. He united the scattered tribes and secured peace in Mulgore, with counsel from tribal leaders and elders across the rises."
   },
   {
    "q": "Are all tauren tribes loyal to Cairne?",
@@ -55,17 +55,17 @@
     "tribes of thunder bluff",
     "tauren political rivals"
    ],
-   "answer": "While the vast majority revere Cairne's wisdom, some groups\u2014most notably the Grimtotem tribe led by the elder crone Magatha\u2014harbor doubts about the Horde alliance and seek their own course for the tauren people."
+   "answer": "Most tauren revere Cairne’s wisdom, but some tribes, especially the Grimtotem led by Magatha, doubt the Horde alliance and seek their own course for the tauren people."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "For the tauren, Thunder Bluff represents their first true permanent home after generations of wandering, holding their sacred totems, spirit lodges, and greatest chieftains."
+   "text": "For the tauren, Thunder Bluff is their first lasting home after generations of wandering, and holds their sacred totems, spirit lodges, and greatest chieftains."
   },
   {
    "target": "faction:Horde",
-   "text": "Thunder Bluff provides the Horde with an essential bastion on southern Kalimdor, resting as a steady anchor of wisdom and resources alongside orcish Orgrimmar."
+   "text": "As a member of the Horde, you have Thunder Bluff as a stronghold in southern Kalimdor, with wisdom and resources alongside Orgrimmar."
   }
  ],
  "keywords": [
@@ -90,5 +90,6 @@
  ],
  "attribution": [
   "Thunder Bluff"
- ]
+ ],
+ "style": 1
 }

@@ -10,11 +10,11 @@
    "quest:1221"
   ]
  },
- "summary": "The Snufflenose Command Stick is a training rod provided by the goblin entrepreneur Mebok Mizzyrix in Ratchet. It is used to direct trained snufflenose gophers to locate and unearth valuable blueleaf tubers buried deep within Razorfen Kraul.",
+ "summary": "In Ratchet, Mebok Mizzyrix sends trained gophers after blueleaf tubers in Razorfen Kraul.",
  "sections": [
   {
    "title": "A Rod for Rodents",
-   "body": "Blueleaf tubers are coveted delicacies across Azeroth, but finding them is nearly impossible without specialized help. Buried in the thorny underground depths of Razorfen Kraul, the roots are entirely hidden from sight. To exploit this lucrative market without braving the quilboar dens himself, the Ratchet merchant Mebok Mizzyrix conditioned keen-scented snufflenose gophers to dig up the tubers. The Snufflenose Command Stick is the tool adventurers use to direct these trained critters, prodding them to sniff out and expose root nodes from up to fifty paces away.",
+   "body": "Mebok Mizzyrix has trained snufflenose gophers to find blueleaf tubers deep in Razorfen Kraul. The roots lie hidden beneath the thorny tunnels, where finding them is nearly impossible without help. Mebok, a merchant in Ratchet, avoids entering the quilboar dens himself. He gives adventurers the Snufflenose Command Stick to direct the gophers. From up to fifty paces away, the stick guides them to sniff out and uncover the roots.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "what does command stick do",
     "command stick purpose"
    ],
-   "answer": "The command stick is used to order a trained snufflenose gopher to search for hidden blueleaf tubers inside the thorny tunnels of Razorfen Kraul. When directed at a summoned gopher, the rod prompts the creature to follow scents and dig up root nodes."
+   "answer": "The Snufflenose Command Stick directs a trained snufflenose gopher to find hidden blueleaf tubers in Razorfen Kraul. Point it at a gopher, and it follows the scent and digs up the roots."
   },
   {
    "q": "Where do you obtain the Snufflenose Command Stick?",
@@ -35,7 +35,7 @@
     "command stick location",
     "who gives the command stick"
    ],
-   "answer": "You pick it up in Ratchet in the Barrens directly outside the workshop of Mebok Mizzyrix, alongside a crate holding a trained gopher and an instruction manual."
+   "answer": "You obtain the Snufflenose Command Stick in Ratchet, just outside Mebok Mizzyrix's workshop. It comes with a crate holding a trained gopher and an instruction manual."
   },
   {
    "q": "Why does Mebok Mizzyrix want blueleaf tubers?",
@@ -44,7 +44,7 @@
     "blueleaf tuber purpose",
     "why does mebok want tubers"
    ],
-   "answer": "Blueleaf tubers are rare delicacies that sell for a substantial profit to affluent culinary contacts around the world. Because they only grow deep beneath the Barrens in quilboar territory, Mebok hires adventurers to harvest them."
+   "answer": "Mebok Mizzyrix seeks blueleaf tubers because they are rare delicacies that bring substantial profit from affluent culinary contacts around the world. They grow deep beneath the Barrens in quilboar territory, so he hires adventurers to gather them."
   },
   {
    "q": "Do you get to keep the stick after finding the tubers?",
@@ -52,13 +52,13 @@
     "can i keep command stick",
     "returning command stick"
    ],
-   "answer": "No. Once you gather the requested tubers, Mebok requires you to return both the command stick and the transport crate back to him in Ratchet along with your harvest."
+   "answer": "No. After gathering the requested tubers, you return the Snufflenose Command Stick and transport crate to Mebok in Ratchet with your harvest."
   }
  ],
  "angles": [
   {
    "target": "profession:Cooking",
-   "text": "While blueleaf tubers are considered an exquisite culinary delicacy worldwide, extracting them requires a trained animal and a handler's stick rather than standard kitchen tools."
+   "text": "Blueleaf tubers are prized as a culinary delicacy around the world. You need a trained animal and a handler's stick to find them, rather than ordinary kitchen tools."
   }
  ],
  "keywords": [
@@ -84,5 +84,6 @@
  "attribution": [
   "Snufflenose Command Stick",
   "Blueleaf Tubers"
- ]
+ ],
+ "style": 1
 }

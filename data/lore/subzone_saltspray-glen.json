@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Saltspray Glen"
  },
- "summary": "Saltspray Glen is a windswept expanse in the northwestern Wetlands hugging the shores of Baradin Bay. Strong coastal gales regularly fling briny seawater across the mossy lowland, which is overrun by aggressive wild raptors. It forms a treacherous natural corridor between neighboring murloc-infested marshes and ancient dwarven ruins.",
+ "summary": "Along Baradin Bay, salty spray sweeps across Saltspray Glen, where wild raptors roam the lowland. The glen lies between murloc waters and ancient dwarven ruins.",
  "sections": [
   {
    "title": "Brine and Claws",
-   "body": "Tucked away in the far northwestern reach of the Wetlands, Saltspray Glen takes its name from the sea spray driven inland off Baradin Bay whenever coastal gales kick up. Bordered by the murloc-haunted waters of Bluegill Marsh to the south and the quiet bluffs of Ironbeard's Tomb to the east, the glen offers little comfort to passing travelers. Packs of cunning wild raptors nest throughout the marshy grass, hunting along the brackish flats alongside their kin from nearby Raptor Ridge and Black Channel Marsh.",
+   "body": "In the Wetlands' far northwest, salty spray blows inland across Saltspray Glen from Baradin Bay. Bluegill Marsh and its murloc-haunted waters lie to the south, while the quiet bluffs of Ironbeard's Tomb rise to the east. Cunning wild raptors nest through the marshy grass and hunt across the brackish flats. Their kin range nearby at Raptor Ridge and Black Channel Marsh, leaving little comfort for travelers passing through.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "why saltspray",
     "origin of name"
    ],
-   "answer": "The glen sits directly along the open coast of Baradin Bay. Whenever fierce maritime winds whip across the bay from the north and west, ocean water is tossed far inland across the low-lying terrain as a dense, salty mist."
+   "answer": "Saltspray Glen lies along the open coast of Baradin Bay. Fierce winds from the north and west drive seawater inland across the low ground as a dense, salty mist."
   },
   {
    "q": "What creatures live in Saltspray Glen?",
@@ -32,7 +32,7 @@
     "saltspray raptors",
     "what is here"
    ],
-   "answer": "The glen is thoroughly overrun by aggressive wild raptors that use the coastal brush and marshy hollows as prime nesting grounds. They readily ambush anyone wandering off the beaten path."
+   "answer": "Aggressive wild raptors overrun the glen, nesting in its coastal brush and marshy hollows. They readily ambush anyone who wanders off the beaten path."
   },
   {
    "q": "Where does Saltspray Glen lead?",
@@ -41,13 +41,13 @@
     "where is saltspray glen",
     "borders"
    ],
-   "answer": "Saltspray Glen lies in the northwestern Wetlands. It borders Baradin Bay to the north and west, the murloc territory of Bluegill Marsh to the south, and the rocky rise of Ironbeard's Tomb to the east."
+   "answer": "Saltspray Glen lies in the Wetlands' northwestern reaches. Baradin Bay borders it to the north and west, Bluegill Marsh and its murlocs lie to the south, and the rocky rise of Ironbeard's Tomb stands to the east."
   }
  ],
  "angles": [
   {
    "target": "class:Hunter",
-   "text": "The vicious raptors prowling the glen's damp sea-grass provide hearty quarry and dependable, fierce beasts for trackers stalking the coast."
+   "text": "As a hunter, you find vicious raptors prowling the glen's damp sea grass. They make hearty quarry and dependable, fierce beasts for trackers stalking the coast."
   }
  ],
  "keywords": [
@@ -69,5 +69,6 @@
  ],
  "attribution": [
   "Saltspray Glen"
- ]
+ ],
+ "style": 1
 }

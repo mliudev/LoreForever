@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Sundown Marsh"
  },
- "summary": "Sundown Marsh marks the deepest, westernmost reaches of the Wetlands where stagnant waters meet treacherous wildlife. Despite the prowling raptors, oozes, and gnolls, an eccentric pair maintains a solitary homestead along its muddy borders.",
+ "summary": "In the Wetlands' far west, Sundown Marsh holds deep water, stagnant pools, and dangerous wildlife. An eccentric pair keeps a solitary home along its muddy borders.",
  "sections": [
   {
    "title": "A Wild and Murky Sinkhole",
-   "body": "Sundown Marsh sits tucked into the northwest of the Wetlands, characterized by deep water, thick mud, and a dense population of predators. Giant crocolisks, shifting oozes, roaming raptors, and territorial Mosshide gnolls roam freely through the mist. The hazardous terrain keeps most passing travelers strictly to the main cobblestone road connecting Menethil Harbor to Ironforge, leaving this deep corner largely untamed.",
+   "body": "Sundown Marsh fills the Wetlands' deepest, westernmost reaches, where deep water and thick mud hide a dense population of predators. Giant crocolisks, shifting oozes, roaming raptors, and territorial Mosshide gnolls move through the mist. Most travelers keep to the main cobblestone road between Menethil Harbor and Ironforge, leaving this corner largely untamed.",
    "spoiler": 0
   },
   {
    "title": "Life at the Edge of the Mire",
-   "body": "Amid the hazards of the marsh stands a lonely stone cottage topped with a churning windmill. There, the gnome Fradd Swiftgear and the dwarf Wenna Silkbeard make an unlikely living scavenging the bog. They peddle curiosities and rare trade recipes recovered from the mire to travelers brave enough to navigate the marsh's aggressive denizens.",
+   "body": "A lonely stone cottage with a churning windmill stands amid the marsh's hazards. The gnome Fradd Swiftgear and the dwarf Wenna Silkbeard make their living scavenging the bog. They sell curiosities and rare trade recipes recovered from the mire to travelers who brave its aggressive denizens.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "where is sundown marsh",
     "wetlands marsh location"
    ],
-   "answer": "Sundown Marsh is situated in the northwestern area of the Wetlands. It represents one of the lowest and deepest portions of the marshland, lying off the beaten track of the primary royal roads."
+   "answer": "Sundown Marsh lies in the Wetlands' deepest, westernmost reaches, in the northwest and away from the main royal roads."
   },
   {
    "q": "Who lives in Sundown Marsh?",
@@ -37,7 +37,7 @@
     "sundown marsh npcs",
     "swiftgear cottage"
    ],
-   "answer": "An odd pair, the gnome Fradd Swiftgear and the dwarf Wenna Silkbeard, live here in a small stone dwelling equipped with a windmill. They scour the bog for oddities and sell rare goods to passing travelers."
+   "answer": "The gnome Fradd Swiftgear and the dwarf Wenna Silkbeard live in a small stone dwelling with a windmill. They make their living scavenging the bog and sell oddities and rare goods to passing travelers."
   },
   {
    "q": "What threats can be found in Sundown Marsh?",
@@ -46,7 +46,7 @@
     "sundown marsh dangers",
     "enemies sundown marsh"
    ],
-   "answer": "The marsh is thick with dangerous wildlife and monsters, including giant crocolisks, foul oozes, bog beasts, raptors, and hostile Mosshide gnolls that discourage casual exploration."
+   "answer": "Giant crocolisks, foul oozes, bog beasts, raptors, and hostile Mosshide gnolls threaten travelers. These dangers discourage casual exploration."
   },
   {
    "q": "Why would an adventurer travel into Sundown Marsh?",
@@ -55,13 +55,13 @@
     "reasons to go to sundown marsh",
     "sundown marsh vendors"
    ],
-   "answer": "Beyond dealing with local beasts, travelers make the trek to the windmill cottage to trade with Fradd Swiftgear and Wenna Silkbeard, who offer uncommon recipes and peculiar curiosities found in the surrounding swamp."
+   "answer": "Travelers visit the windmill cottage to trade with Fradd Swiftgear and Wenna Silkbeard, who offer rare recipes and peculiar curiosities scavenged from the surrounding swamp."
   }
  ],
  "angles": [
   {
    "target": "race:Gnome",
-   "text": "Seeing Fradd Swiftgear and Wenna Silkbeard thriving with their windmill outpost out in the dangerous mud proves that gnomish ingenuity can carve out a comfortable home anywhere."
+   "text": "As a gnome, you can see Fradd Swiftgear and Wenna Silkbeard make a home with their windmill outpost in dangerous mud. Their ingenuity shows how gnomes can make a comfortable home anywhere."
   }
  ],
  "keywords": [
@@ -79,5 +79,6 @@
  ],
  "attribution": [
   "Sundown Marsh"
- ]
+ ],
+ "style": 1
 }

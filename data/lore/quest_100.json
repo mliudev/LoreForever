@@ -17,16 +17,16 @@
   "wiki": "Call of Water (8)",
   "chain": []
  },
- "summary": "This ritualistic step marks the culmination of the shaman's ordeal at the Brazier of Everfount along the coast of Silverpine Forest. Having shattered the corrupt spirits threatening the spring with a burst of elemental radiance, the shaman stands before an apparition of pure water to receive its communion.",
+ "summary": "At Silverpine's coast, the shaman completes the Call of Water at the Brazier of Everfount. The rite clears nearby corruption, and a spirit of pure water appears.",
  "sections": [
   {
    "title": "A Burst of Cleansing Light",
-   "body": "Upon reciting the final incantation at the Brazier of Everfount, an explosion of light scours the area of surrounding corruption. The hissed protests of tainted water drops evaporating over elemental flame fade, leaving the immediate shore silent as malevolent minor spirits disperse.",
+   "body": "At the Brazier of Everfount, your final words call forth a burst of light. It scatters the minor spirits that threaten the spring, and the shore falls quiet.",
    "spoiler": 0
   },
   {
    "title": "The Water's Gratitude",
-   "body": "In the wake of the spirits' destruction, a Minor Manifestation of Water materializes beside the brazier. Grateful for the ritual intervention, the spirit recognizes the growing burden placed upon the Horde's shamans: though the local taint has ebbed, life in the decaying lands of Silverpine continues to wane, requiring vigilance to preserve.",
+   "body": "A Minor Manifestation of Water appears beside the brazier after the spirits are gone. The spirit thanks you for the rite and says the taint here has ebbed. Yet life across Silverpine's decaying lands continues to wane, and the Horde's shamans must stay watchful to preserve it.",
    "spoiler": 0
   }
  ],
@@ -37,7 +37,7 @@
     "brazier ritual light",
     "everfount explosion"
    ],
-   "answer": "Completing the incantation at the Brazier of Everfount releases an explosion of brilliant light. This destroys the surrounding corrupted spirits and purifies the immediate elemental flow."
+   "answer": "The final incantation at the Brazier of Everfount releases a burst of light that destroys the nearby corrupted spirits and purifies the surrounding flow of water."
   },
   {
    "q": "Who is the Minor Manifestation of Water?",
@@ -45,7 +45,7 @@
     "water spirit silverpine",
     "manifestation of water"
    ],
-   "answer": "It is a minor elemental entity of pure water that manifests after the corrupted elementals near the Brazier of Everfount are destroyed."
+   "answer": "The Minor Manifestation of Water is a small elemental of pure water that appears after the corrupted elementals near the Brazier of Everfount are destroyed."
   },
   {
    "q": "What does the water spirit say about Silverpine?",
@@ -53,7 +53,7 @@
     "water spirit warning",
     "silverpine corruption"
    ],
-   "answer": "The spirit expresses thanks to the shamans, noting that while this specific corruption has ebbed, life across the land continues to wane and requires constant stewardship to safeguard."
+   "answer": "The spirit thanks the shamans and says that although the local corruption has ebbed, life across Silverpine continues to wane and needs constant care."
   },
   {
    "q": "Where does this ritual take place?",
@@ -61,7 +61,7 @@
     "brazier location",
     "call of water location"
    ],
-   "answer": "The ritual takes place at the Brazier of Everfount, situated along the coastline of Silverpine Forest."
+   "answer": "The ritual takes place at the Brazier of Everfount, along the coast of Silverpine Forest."
   },
   {
    "q": "Why must shamans intervene in Silverpine?",
@@ -69,7 +69,7 @@
     "why shamans here",
     "shaman duty silverpine"
    ],
-   "answer": "As part of their elemental trials to earn the Water Totem, shamans must prove their commitment to balance by defending distant, embattled natural waters from blight and lingering corruption."
+   "answer": "Shamans must defend distant, embattled waters from blight and lingering corruption as part of their elemental trials to earn the Water Totem and prove their commitment to balance."
   },
   {
    "q": "What comes next in the trials?",
@@ -77,17 +77,17 @@
     "next step call of water",
     "after water manifestation"
    ],
-   "answer": "After conferring with the Minor Manifestation of Water, the shaman receives elemental remains or guidance to complete their journey and forge their Water Totem."
+   "answer": "After meeting the Minor Manifestation of Water, the shaman receives elemental remains or guidance to finish the journey and forge the Water Totem."
   }
  ],
  "angles": [
   {
    "target": "class:Shaman",
-   "text": "This communion directly tests a shaman's resolve to heal suffering waters far beyond their native homes, earning communion with the spirit of water itself."
+   "text": "As a shaman, you prove your resolve by healing suffering waters far from home and earning communion with the spirit of water."
   },
   {
    "target": "faction:Horde",
-   "text": "The Horde's spiritual leaders must cleanse corrupted waterways even within Forsaken-controlled territories like Silverpine to maintain elemental harmony."
+   "text": "As a member of the Horde, you help cleanse corrupted waterways in Forsaken-controlled Silverpine and preserve elemental harmony."
   }
  ],
  "keywords": [
@@ -107,5 +107,6 @@
  ],
  "attribution": [
   "Call of Water (8)"
- ]
+ ],
+ "style": 1
 }

@@ -10,11 +10,11 @@
    "quest:3110"
   ]
  },
- "summary": "The Hallowed Rune is an inscribed stone passed to novice priests beginning their training in Coldridge Valley. Sent by the dwarven priest trainer Branstock Khalder, it calls aspiring wielders of the Holy Light into Anvilmar to begin their formal tutelage.",
+ "summary": "In Coldridge Valley, the Hallowed Rune calls novice priests to Anvilmar for training. Branstock Khalder sends the inscribed stone to aspiring wielders of the Holy Light.",
  "sections": [
   {
    "title": "A Calling to the Light",
-   "body": "When a fledgling priest demonstrates their resolve aiding the mountaineers and defenders of Coldridge Valley, Branstock Khalder sends forth the Hallowed Rune. Inscribed with teachings of the Holy Light, the stone serves as both an introduction and an invitation. Dwarven novices are directed to step away from minor skirmishes in the snow and report to Anvilmar, where Branstock prepares them to mend wounds and harness holy power against the trogg infestation threatening Dun Morogh.",
+   "body": "Branstock Khalder sends the Hallowed Rune when a young priest proves their resolve by aiding Coldridge Valley’s mountaineers and defenders. The stone bears teachings of the Holy Light and invites them to Anvilmar. There, Branstock prepares them to mend wounds and wield holy power against the troggs threatening Dun Morogh.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "hallowed rune item",
     "rune purpose"
    ],
-   "answer": "The Hallowed Rune is a small sacred stone bearing words of guidance for novice priests. It serves as an official summons from Branstock Khalder to begin formal spiritual and magical instruction inside Anvilmar."
+   "answer": "The Hallowed Rune is a sacred stone inscribed with guidance for novice priests. Branstock Khalder sends it as a summons to begin formal spiritual and magical instruction inside Anvilmar."
   },
   {
    "q": "Who sends the Hallowed Rune to you?",
@@ -35,7 +35,7 @@
     "who gave me this rune",
     "branstock rune"
    ],
-   "answer": "It is sent by Branstock Khalder, the dwarven priest trainer stationed within Anvilmar. He passes it through allies in Coldridge Valley to reach young priests who have begun proving themselves in the field."
+   "answer": "Branstock Khalder, the dwarven priest trainer in Anvilmar, sends the Hallowed Rune to novice priests in Coldridge Valley."
   },
   {
    "q": "What should I do after receiving the Hallowed Rune?",
@@ -43,7 +43,7 @@
     "where do i take the rune",
     "what to do with hallowed rune"
    ],
-   "answer": "You should take a moment to read the rune and then head inside the main hall of Anvilmar to present yourself to Branstock Khalder, where he will offer to teach you new prayers and spells."
+   "answer": "Read the rune, then go to Anvilmar’s main hall and present yourself to Branstock Khalder. He offers to teach you new prayers and spells."
   },
   {
    "q": "Why does Branstock want novice priests trained so quickly?",
@@ -51,17 +51,17 @@
     "why need priests",
     "trogg problem priests"
    ],
-   "answer": "Coldridge Valley is under steady harassment from trogg incursions, and the mountaineers need all the divine healing and offensive power they can muster to defend Dun Morogh."
+   "answer": "Branstock wants novice priests trained because troggs keep invading Coldridge Valley, and the mountaineers need healing and holy power to defend Dun Morogh."
   }
  ],
  "angles": [
   {
    "target": "class:Priest",
-   "text": "The Hallowed Rune marks the official beginning of a priest's formal mentorship under the Holy Light in Coldridge Valley."
+   "text": "As a priest, you begin your formal mentorship under the Holy Light in Coldridge Valley with the Hallowed Rune."
   },
   {
    "target": "race:Dwarf",
-   "text": "Dwarven priests blend devout reverence for the Light with steadfast duty to Ironforge, stepping up to defend their mountain homeland from troggs."
+   "text": "As a dwarf, you bring reverence for the Light and duty to Ironforge together as you defend your mountain homeland from troggs."
   }
  ],
  "keywords": [
@@ -86,5 +86,6 @@
  "attribution": [
   "Hallowed Rune",
   "Hallowed Rune (Classic)"
- ]
+ ],
+ "style": 1
 }

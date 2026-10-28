@@ -22,16 +22,16 @@
    "Ivar the Foul (quest)"
   ]
  },
- "summary": "Ivar the Foul is a quest in Silverpine Forest that marks the culmination of the reconnaissance mission undertaken by Deathstalkers Rane and Quinn Yorick. Trapped at the farmstead known as the Ivar Patch, Rane asks Horde travelers to eliminate the savage ghoul Ivar the Foul so Quinn can recover from his mauling and complete their report to High Executor Hadrec.",
+ "summary": "At the Ivar Patch in northern Silverpine, Ivar the Foul has trapped two Deathstalkers. Rane asks Horde travelers to kill the savage ghoul so Quinn can recover and they can finish their report to High Executor Hadrec.",
  "sections": [
   {
    "title": "A Mission Derailed",
-   "body": "Siblings Rane and Quinn Yorick were deployed by the Deathstalkers to conduct reconnaissance across Silverpine Forest on behalf of High Executor Hadrec at the Sepulcher. Their reconnaissance grinded to a sudden, violent halt when moving through a farmstead in the northern forest, where they were ambushed by the vicious ghoul known as Ivar the Foul.",
+   "body": "Rane and Quinn Yorick, siblings and Deathstalkers, were sent to survey Silverpine Forest for High Executor Hadrec at the Sepulcher. Their work ended in violence at a farmstead in the northern forest, where Ivar the Foul ambushed them.",
    "spoiler": 0
   },
   {
    "title": "The Threat in the Barn",
-   "body": "Though the scouts managed to escape with their unlives, Quinn was severely mauled in the confrontation. Even after receiving an alchemical remedy concocted from forest beasts, Quinn remains too frail to march. Knowing Ivar prowls the nearby barn waiting for Rane's guard to falter, Rane calls upon Horde adventurers to storm the barn, sever Ivar's head, and permanently secure the homestead.",
+   "body": "Rane and Quinn escaped, but Quinn was badly mauled. An alchemical remedy made from forest beasts has not made him strong enough to travel. Ivar prowls the nearby barn, waiting for Rane's guard to fail. She asks Horde travelers to enter the barn and kill him, so the homestead can be secured.",
    "spoiler": 0
   }
  ],
@@ -43,7 +43,7 @@
     "ivar the foul lore",
     "what is ivar the foul"
    ],
-   "answer": "Ivar the Foul is a dangerous Scourge ghoul lingering in the northern reaches of Silverpine Forest. The Ivar Patch was once his own farm; he and most of his family and workers fell to the Scourge, and he now lurks there, ambushing passersby and savaging Forsaken scouts."
+   "answer": "Ivar the Foul is a Scourge ghoul lurking in northern Silverpine Forest. The Ivar Patch was once his farm, and he and most of his family and workers fell to the Scourge. He now ambushes passersby and attacks Forsaken scouts there."
   },
   {
    "q": "Where can Ivar the Foul be found?",
@@ -52,7 +52,7 @@
     "where is ivar",
     "ivar the foul barn"
    ],
-   "answer": "Ivar lurks inside the dilapidated barn at the Ivar Patch, situated just north of the ruined farmhouse where Rane and Quinn Yorick have taken shelter."
+   "answer": "Ivar lurks in the barn at the Ivar Patch, just north of the ruined farmhouse where Rane and Quinn Yorick have taken shelter."
   },
   {
    "q": "Who are Rane and Quinn Yorick?",
@@ -61,7 +61,7 @@
     "yorick brothers",
     "who is quinn yorick"
    ],
-   "answer": "Rane and Quinn Yorick are Forsaken siblings, a sister and brother, and Deathstalkers. They were dispatched by High Executor Hadrec to map and survey enemy activity within Silverpine Forest before being ambushed by Ivar."
+   "answer": "Rane and Quinn Yorick are Forsaken siblings, a sister and brother, and Deathstalkers. High Executor Hadrec sent them to survey enemy activity in Silverpine Forest, where Ivar ambushed them."
   },
   {
    "q": "Why does Rane ask an adventurer to kill Ivar?",
@@ -69,7 +69,7 @@
     "why kill ivar",
     "why doesn't rane fight"
    ],
-   "answer": "Quinn was grievously mauled during their initial encounter and is still convalescing. Rane must stay by her brother's side to guard him against sudden Scourge attacks, making it impossible for her to hunt down the ghoul herself."
+   "answer": "Quinn was badly mauled in their first encounter and is still recovering. Rane must guard her brother against sudden Scourge attacks, so she cannot hunt Ivar herself."
   },
   {
    "q": "Who receives the report on Ivar's death?",
@@ -77,7 +77,7 @@
     "who is hadrec",
     "who sent the yoricks"
    ],
-   "answer": "High Executor Hadrec, the military commander seated at the Sepulcher in Silverpine Forest, receives the scouts' official reconnaissance logs, in which Rane promises to commend the adventurer's assistance."
+   "answer": "High Executor Hadrec, the military commander at the Sepulcher in Silverpine Forest, receives the scouts' reconnaissance logs. Rane promises to commend the adventurer's help in them."
   },
   {
    "q": "What happens after Ivar is slain?",
@@ -85,21 +85,21 @@
     "what next after ivar",
     "quest after ivar"
    ],
-   "answer": "Slaying Ivar the Foul concludes the Deathstalkers' ordeal at the Ivar Patch. With the immediate threat removed, Quinn has the time needed to heal before the siblings finish their survey of the forest."
+   "answer": "Killing Ivar the Foul ends the siblings' ordeal at the Ivar Patch. With the immediate danger gone, Quinn has time to heal before they finish their survey of the forest."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "The mission emphasizes the perilous duty of the Deathstalkers, demonstrating how lone Forsaken scouts must rely on wandering champions when cornered behind enemy lines."
+   "text": "As an Undead, you know the danger faced by the Deathstalkers. Forsaken scouts caught behind enemy lines must rely on champions who come their way."
   },
   {
    "target": "faction:Horde",
-   "text": "By clearing Scourge remnants like Ivar, Horde forces protect vital supply lines and strategic ground for the Forsaken war effort in Lordaeron."
+   "text": "As a member of the Horde, you help protect Forsaken supply lines and strategic ground in Lordaeron by clearing away Scourge remnants like Ivar."
   },
   {
    "target": "class:Rogue",
-   "text": "Assisting the Deathstalkers showcases the dangers of stealth reconnaissance when caught unawares by ravenous Scourge horrors."
+   "text": "As a Rogue, you know the danger of stealth reconnaissance when ravenous Scourge horrors catch you unaware."
   }
  ],
  "keywords": [
@@ -124,5 +124,6 @@
  ],
  "attribution": [
   "Ivar the Foul (quest)"
- ]
+ ],
+ "style": 1
 }

@@ -10,11 +10,11 @@
    "quest:391"
   ]
  },
- "summary": "The severed head of Bazil Thredd serves as definitive proof that the leader behind the Stockade uprising has been eliminated. Demanded by Warden Thelwater, this grim trophy marks an end to the Defias Brotherhood's organized control over Stormwind's subterranean prison.",
+ "summary": "Warden Thelwater demands proof that the Stockade uprising has been crushed. The severed head of Bazil Thredd is meant to show that the rebellion's leader is dead and Defias control of Stormwind's prison has ended.",
  "sections": [
   {
    "title": "Proof of Treason's End",
-   "body": "When riots erupted throughout the Stockade beneath Stormwind City, Bazil Thredd quickly established himself as the rebellion's mastermind. Entrenched in his cell block among loyal Defias inmates, Thredd directed the chaos from deep within the dungeon walls. Distrustful of outsiders and struggling to maintain order, Warden Thelwater demanded Thredd's head as unambiguous evidence of his demise and as a test of the adventurer's true allegiance to Stormwind.",
+   "body": "Bazil Thredd led the uprising in the Stockade beneath Stormwind City. From his cell block, he directed the riots with the help of loyal Defias inmates. Warden Thelwater distrusts outsiders and struggles to keep order. He demands Thredd's head as proof that the ringleader is dead and to test the adventurer's allegiance to Stormwind.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "where to turn in thredd head",
     "thredd head questgiver"
    ],
-   "answer": "Warden Thelwater, stationed at the entrance of the Stockade, demands the head. He requires it as absolute proof that the ringleader has been slain before he is willing to share any intelligence about Thredd's conspirators."
+   "answer": "Warden Thelwater, at the Stockade entrance, demands Bazil Thredd's head. He wants proof that the ringleader is dead before sharing what he knows about Thredd's conspirators."
   },
   {
    "q": "Who was Bazil Thredd?",
@@ -35,7 +35,7 @@
     "thredd lore",
     "what did bazil do"
    ],
-   "answer": "Bazil Thredd was a high-ranking member of the Defias Brotherhood imprisoned beneath Stormwind. Once the prisoners revolted, he took charge of the riot, coordinating the insurrection from deep within the eastern cell block."
+   "answer": "Bazil Thredd was a high-ranking member of the Defias Brotherhood, imprisoned beneath Stormwind. When the prisoners revolted, he took charge and coordinated the uprising from the eastern cell block."
   },
   {
    "q": "Where is Bazil Thredd found?",
@@ -44,13 +44,13 @@
     "thredd location",
     "how to find bazil thredd"
    ],
-   "answer": "Bazil Thredd is located in the eastern wing of the Stockade instance. He is locked down at the far end of the block in a central cell, guarded by Defias inmates loyal to him."
+   "answer": "Bazil Thredd is in the eastern wing of the Stockade, at the far end of the block in a central cell. Defias inmates loyal to him guard the cell."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Presenting Thredd's severed head quells immediate panic in the capital, proving that the crown's justice can still reach deep into the rebellious Stockade."
+   "text": "For the Alliance, Thredd's severed head calms immediate panic in the capital and proves the crown's justice can reach the rebellious Stockade."
   }
  ],
  "keywords": [
@@ -70,5 +70,6 @@
  "attribution": [
   "Head of Bazil Thredd",
   "The Stockade Riots"
- ]
+ ],
+ "style": 1
 }

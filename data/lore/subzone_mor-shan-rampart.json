@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Mor'shan Rampart"
  },
- "summary": "The Mor'shan Rampart is a heavily fortified Horde barricade positioned at the northern border of the Barrens, guarding the entrance to Ashenvale. Constructed primarily by the Warsong clan, it shields Horde territory from night elf counterattacks while serving as a staging ground for incursions deeper into the forest.",
+ "summary": "At Mor'shan Rampart, the Horde guards the northern end of the Gold Road and the way into Ashenvale. The Warsong clan built the barricade to shield Horde territory from night elf counterattacks and stage raids into the forest.",
  "sections": [
   {
    "title": "The Northern Gate",
-   "body": "Standing at the northern terminus of the Gold Road, the Mor'shan Rampart marks the transition between the arid plains of the Barrens and the ancient canopies of Ashenvale. Built from heavy timber, defensive palisades, and fortified watchtowers, this bulwark was raised to stem the retaliatory strikes of night elven forces outraged by the Horde's logging operations. It acts both as a shield securing the northern gate to Kalimdor's interior and as a forward staging post for raiding parties pushing north toward Astranaar.",
+   "body": "Mor'shan Rampart guards the northern end of the Gold Road, where the Barrens meet Ashenvale. Its timber walls and watchtowers were raised against night elf strikes over the Horde's logging. From here, raiding parties head north toward Astranaar.",
    "spoiler": 0
   },
   {
    "title": "Warsong Outpost",
-   "body": "Manned primarily by battle-hardened fighters affiliated with the Warsong clan, the rampart remains under constant military readiness. From these parapets, sentries monitor the tree line for night elf scouts and archers, keeping open supply lines between the frontline outposts of Ashenvale and the greater Horde settlements to the south.",
+   "body": "Warsong fighters and sentries keep Mor'shan Rampart ready for battle. They watch the tree line for night elf scouts and archers, while the post keeps supply lines open between Ashenvale's frontline outposts and Horde settlements to the south.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "what is this barricade",
     "northern barrens gate"
    ],
-   "answer": "It is a fortified Horde border post situated where the Barrens meets Ashenvale. It was constructed to block Alliance counterattacks from entering the Barrens and to guard the northern end of the Gold Road."
+   "answer": "Mor'shan Rampart is a fortified Horde border post where the Barrens meet Ashenvale. It guards the northern end of the Gold Road against attacks on the Barrens."
   },
   {
    "q": "Who controls this fortification?",
@@ -37,7 +37,7 @@
     "who guards the rampart",
     "morshan defenders"
    ],
-   "answer": "The fortification is garrisoned by the Horde, specifically warriors and sentries tied to the Warsong clan. They maintain watchtowers and palisades along the forest boundary."
+   "answer": "The Horde garrisons Mor'shan Rampart with warriors and sentries tied to the Warsong clan. They keep watch from its towers and palisades along the forest boundary."
   },
   {
    "q": "Why is the rampart here instead of deeper in Ashenvale?",
@@ -45,7 +45,7 @@
     "why build ramparts here",
     "strategic importance morshan"
    ],
-   "answer": "It anchors the northern terminus of the Gold Road, making it the primary land route connecting the central Barrens with Ashenvale. Controlling this chokepoint ensures that night elf strikes cannot easily sweep south into the heart of Horde-held lands."
+   "answer": "Mor'shan Rampart guards the northern end of the Gold Road, the main land route between the central Barrens and Ashenvale. Holding this narrow passage makes it harder for night elf forces to strike south into Horde lands."
   },
   {
    "q": "Can Alliance travelers pass through the rampart safely?",
@@ -53,17 +53,17 @@
     "can alliance pass",
     "alliance crossing morshan"
    ],
-   "answer": "No. The rampart is an active Horde military position. Alliance travelers approaching from either Ashenvale or the Barrens will be attacked on sight by the stationed guards."
+   "answer": "No. Mor'shan Rampart is an active Horde military post, and its guards attack Alliance travelers approaching from Ashenvale or the Barrens."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "For the Horde, the Rampart is the primary overland gate protecting the heart of the Barrens from night elf incursions, while keeping the supply lines to Ashenvale's logging operations intact."
+   "text": "For the Horde, Mor'shan Rampart guards the Barrens against night elf incursions and keeps supply lines to Ashenvale's logging operations open."
   },
   {
    "target": "faction:Alliance",
-   "text": "Alliance fighters view the Mor'shan Rampart as an aggressive barricade erected by Horde lumber operations to protect stolen territory and stage raids into Ashenvale."
+   "text": "Alliance fighters see Mor'shan Rampart as an aggressive barricade built to protect Horde logging and stage raids into Ashenvale."
   }
  ],
  "keywords": [
@@ -86,5 +86,6 @@
  ],
  "attribution": [
   "Mor'shan Rampart"
- ]
+ ],
+ "style": 1
 }

@@ -8,16 +8,16 @@
   "wiki": "Baron Silverlaine",
   "refs": 5
  },
- "summary": "Baron Silverlaine was the rightful human lord of the fortress once known as Silverlaine Keep, perched high above Pyrewood Village. When Archmage Arugal unleashed the savage worgen upon the region, the baron was mercilessly slaughtered. Now, his tormented spirit lingers in the ruined dining hall, bound in undeath to defend the very lair that became his tomb.",
+ "summary": "Baron Silverlaine's spirit lingers in the Great Hall above Pyrewood Village. He once ruled Silverlaine Keep, until Archmage Arugal unleashed worgen upon the region and they slaughtered him.",
  "sections": [
   {
    "title": "The Fall of Silverlaine Keep",
-   "body": "Before the shadow of the wolf-beasts blanketed the southern hills of Silverpine, Baron Silverlaine ruled over a proud noble estate. His fortress provided safety and oversight to the surrounding lands. That peace shattered when Archmage Arugal, seeking a weapon against the rampaging Scourge, unleashed summoned worgen into the region. The feral monstrosities could not be controlled; they stormed the stronghold, overran its guards, and butchered the baron.",
+   "body": "Baron Silverlaine ruled a noble estate in the southern hills of Silverpine. His fortress guarded the surrounding lands and kept them safe. That peace ended when Archmage Arugal summoned worgen to fight the rampaging Scourge and unleashed them upon the region. The feral beasts could not be controlled. They stormed the stronghold, overwhelmed its guards, and butchered the baron.",
    "spoiler": 0
   },
   {
    "title": "A Tormented Specter",
-   "body": "Death brought no release to Baron Silverlaine. Bound to the keep's ancient Great Hall, his restless ghost now wanders the trashed dining tables where he once feasted. The cursed lord lashes out at intruders who enter his ruined home.",
+   "body": "Baron Silverlaine remains bound to the keep's ancient Great Hall. His restless ghost wanders among the wrecked dining tables where he once feasted. The cursed lord attacks intruders who enter his former home.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "who is silverlaine",
     "who ruled shadowfang"
    ],
-   "answer": "He was the noble human master of the fortress originally named Silverlaine Keep, situated above Pyrewood Village. He was slain when worgen overran the fortress."
+   "answer": "Baron Silverlaine ruled Silverlaine Keep, a fortress above Pyrewood Village. Worgen overran the fortress and killed him."
   },
   {
    "q": "Why is he haunting Shadowfang Keep?",
@@ -38,7 +38,7 @@
     "is silverlaine dead",
     "silverlaine spirit"
    ],
-   "answer": "Silverlaine was slaughtered in his own home during the worgen onslaught unleashed by Archmage Arugal. Cursed in death, his ghost remains tethered to the dining hall of his ruined keep, unable to move on."
+   "answer": "Worgen unleashed by Archmage Arugal slaughtered Silverlaine in his own home. Cursed in death, his ghost remains bound to the dining hall of his keep and cannot move on."
   },
   {
    "q": "Why does Silverlaine attack trespassers?",
@@ -47,7 +47,7 @@
     "silverlaine ghost",
     "silverlaine trespassers"
    ],
-   "answer": "His cursed spirit remains within his former home, where he attacks trespassers in the Great Hall."
+   "answer": "Silverlaine's cursed spirit remains in his former home, where he attacks trespassers in the Great Hall."
   },
   {
    "q": "Where in the keep can he be found?",
@@ -56,7 +56,7 @@
     "baron silverlaine location",
     "silverlaine dining hall"
    ],
-   "answer": "Baron Silverlaine haunts the Great Hall, which served as the keep's lavish dining room before it was wrecked during the fall of his estate."
+   "answer": "Baron Silverlaine haunts the Great Hall, once the keep's lavish dining room, which was wrecked when his estate fell."
   },
   {
    "q": "What was Shadowfang Keep called before the worgen attack?",
@@ -65,7 +65,7 @@
     "keep silverlaine lore",
     "old name of shadowfang"
    ],
-   "answer": "It was originally called Silverlaine Keep, named after the baron's noble family who held dominion over it before Arugal took control."
+   "answer": "Before the worgen attack, the fortress was called Silverlaine Keep, after the baron's noble family, who ruled it before Arugal took control."
   },
   {
    "q": "Did anyone in Silverlaine's family survive?",
@@ -74,21 +74,21 @@
     "did silverlaines family live",
     "silverlaine heirs"
    ],
-   "answer": "No account says. The old reports tell only that the worgen besieged the baron's keep and that his vengeful ghost haunts it still; nothing is recorded of the rest of his household."
+   "answer": "No account says whether anyone in Silverlaine's family survived. The accounts tell of the worgen assault and the baron's ghost, but say nothing about the rest of his household."
   }
  ],
  "angles": [
   {
    "target": "race:Human",
-   "text": "Silverlaine stands as a bitter testament to the downfall of human noble authority on the borders of Gilneas, his keep overrun by the magical hubris of a Dalaran-trained wizard."
+   "text": "For a human, Silverlaine's fate marks the fall of human noble authority on Gilneas's borders. His keep fell to the reckless magic of a Dalaran-trained wizard."
   },
   {
    "target": "race:Undead",
-   "text": "For the Forsaken pushing across Silverpine, Silverlaine's specter is merely another remnant of the old aristocracy that must be cleared to break Arugal's grip on the keep."
+   "text": "For the Forsaken crossing Silverpine, Silverlaine's specter is another remnant of the old aristocracy to clear before they can break Arugal's hold on the keep."
   },
   {
    "target": "class:Mage",
-   "text": "Silverlaine's fate serves as a grim warning of magical recklessness; the summoner's art, when mishandled as Archmage Arugal did, destroys innocent lives and leaves indelible scars."
+   "text": "For a mage, Silverlaine's fate warns of reckless magic. Archmage Arugal mishandled the summoner's art, destroying innocent lives and leaving lasting scars."
   }
  ],
  "keywords": [
@@ -112,5 +112,6 @@
  ],
  "attribution": [
   "Baron Silverlaine"
- ]
+ ],
+ "style": 1
 }

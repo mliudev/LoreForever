@@ -10,11 +10,11 @@
    "quest:385"
   ]
  },
- "summary": "Crocolisk skins are harvested from the tough hides of the crocolisks inhabiting the islands and waters of the Loch in Loch Modan. Prized by merchants and leatherworkers for their durability, they fetch a respectable price despite the danger involved in securing them.",
+ "summary": "In Loch Modan, crocolisk skins come from the fierce beasts that haunt the Loch’s islands and waters. Merchants and leatherworkers seek their durable hides, though hunters face danger to gather them.",
  "sections": [
   {
    "title": "A Dangerous Trade",
-   "body": "The cold waters of the Loch teem with aggressive crocolisks that make their dens along the lake's islands and shores. Hunting them is no simple task, as these ferocious beasts possess razor-sharp teeth and thick, resilient scales capable of turning away careless blades. Despite the hazards, hunters operating out of Farstrider Lodge frequently harvest the creatures. Tailors, leatherworkers, and distant merchants continually seek out the skins to craft durable garments and protective armor, making a bundle of undamaged hides a valuable trade commodity in the region.",
+   "body": "Crocolisks crowd the Loch’s cold waters and make dens along its islands and shores. Their sharp teeth and thick scales make them dangerous quarry. Hunters based at Farstrider Lodge still pursue them for their hides. Tailors, leatherworkers, and merchants from distant places seek the skins for sturdy garments and armor, so undamaged hides bring a good price in the region.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "loch croc skin source",
     "who drops crocolisk skin"
    ],
-   "answer": "They are gathered from the Loch Crocolisks and Large Loch Crocolisks that inhabit the waters and islands of the Loch in Loch Modan."
+   "answer": "Loch Crocolisks and Large Loch Crocolisks in the waters and on the islands of the Loch in Loch Modan provide the skins."
   },
   {
    "q": "Who buys or trades these hides in Loch Modan?",
@@ -35,7 +35,7 @@
     "farstrider lodge croc skins",
     "marek ironheart skins"
    ],
-   "answer": "Marek Ironheart, an experienced dwarven hunter stationed at the Farstrider Lodge, collects them alongside crocolisk meat to sell to visiting merchants and craftsmen."
+   "answer": "Marek Ironheart, a dwarven hunter at Farstrider Lodge, gathers the skins and crocolisk meat to sell to visiting merchants and craftsmen."
   },
   {
    "q": "Why are these skins in demand?",
@@ -44,7 +44,7 @@
     "crocolisk leather use",
     "why hunt crocs"
    ],
-   "answer": "Merchants prize the tough, scaly hides for crafting sturdy clothing and armor. Because the beasts are fierce and hard to kill, good-quality skins command a reliable payout."
+   "answer": "Merchants prize the tough, scaly hides for sturdy clothing and armor. The fierce crocolisks are hard to kill, so good skins bring steady pay."
   },
   {
    "q": "Is hunting crocolisks in the Loch considered dangerous?",
@@ -52,17 +52,17 @@
     "are loch crocs dangerous",
     "crocolisk hunting danger"
    ],
-   "answer": "Yes. The crocolisks are notoriously aggressive, possessing powerful jaws and serrated teeth capable of severing limbs. Local hunters like Marek Ironheart often trade tales of near-fatal encounters while trying to pin down their quarry."
+   "answer": "Yes. Loch crocolisks are aggressive, with powerful jaws and serrated teeth that can sever limbs. Local hunters such as Marek Ironheart trade tales of near-fatal encounters as they try to pin down their quarry."
   }
  ],
  "angles": [
   {
    "target": "class:Hunter",
-   "text": "Farstrider Lodge respects any tracker willing to wade out to the islands and wrestle a thrashing crocolisk into submission for its hide."
+   "text": "As a hunter, you earn Farstrider Lodge’s respect by wading to the islands and subduing a thrashing crocolisk for its hide."
   },
   {
    "target": "race:Dwarf",
-   "text": "Loch Modan's famous crocs are a well-known local test of grit among mountaineers and lodge woodsmen alike."
+   "text": "As a dwarf, you know Loch Modan’s crocolisks test the grit of mountaineers and lodge woodsmen."
   }
  ],
  "keywords": [
@@ -85,5 +85,6 @@
  "attribution": [
   "Crocolisk Skin (Classic)",
   "Crocolisk Hunting"
- ]
+ ],
+ "style": 1
 }

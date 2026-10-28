@@ -17,16 +17,16 @@
   "wiki": "Mercenaries",
   "chain": []
  },
- "summary": "Mercenaries is a bounty contract issued by Magistrate Bluntnose in Thelsamar to cull the encroaching Mo'grosh ogres in northeastern Loch Modan. With military reinforcements from Ironforge bogged down in months of bureaucratic delay, the magistrate is forced to hire passing adventurers to protect the valley's vulnerable settlements, excavations, and the vital Stonewrought Dam.",
+ "summary": "In Thelsamar, Magistrate Bluntnose hires passing fighters as Mo'grosh ogres press into northeastern Loch Modan. Ironforge's promised soldiers are months away, leaving the valley's settlements, excavations, and Stonewrought Dam exposed.",
  "sections": [
   {
    "title": "Ironforge's Slow Wheels",
-   "body": "Thelsamar is feeling the sting of dwarven bureaucracy. It took two full months for Ironforge to even promise a handful of soldiers to bolster Loch Modan's local defense, and another two months before those troops are slated to arrive. With town guards stretched to their limits, Magistrate Bluntnose cannot afford to wait four months while hostile forces mass just beyond the valley's borders.",
+   "body": "Ironforge has taken months to send help to Loch Modan. Two months passed before it promised a handful of soldiers for the valley's defense, and another two months will pass before they arrive. With Thelsamar's guards stretched thin and hostile forces gathering beyond the valley, Magistrate Bluntnose cannot wait.",
    "spoiler": 0
   },
   {
    "title": "The Threat in the Hills",
-   "body": "The Mo'grosh ogres have fortified an encampment in the hills northeast of the loch. Their growing presence jeopardizes not just the town of Thelsamar, but the Ironband Excavation Site and the Stonewrought Dam itself. Should the dam be attacked or compromised, the devastation downstream would be catastrophic. Lacking official mountaineer detachments, Bluntnose has turned to freelance mercenaries to thin out the ogre ranks and buy the valley time against both ogres and troggs.",
+   "body": "Mo'grosh ogres have fortified a camp in the hills northeast of the loch. Their growing presence threatens Thelsamar, the Ironband Excavation Site, and the Stonewrought Dam. If the dam is attacked or damaged, the destruction downstream would be catastrophic. Without official mountaineer detachments, Bluntnose hires independent fighters to thin the ogre ranks and buy the valley time against ogres and troggs.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "thelsamar guards",
     "ironforge help"
    ],
-   "answer": "Ironforge has been agonizingly slow to respond to Loch Modan's pleas for aid. It took two months for the Senate to approve sending even a handful of soldiers, and another two months until they actually arrive. Facing immediate threats to Thelsamar, the dam, and local dig sites, Bluntnose has no choice but to pay independent adventurers."
+   "answer": "Ironforge has been slow to answer Loch Modan's pleas for help. Two months passed before the Senate approved sending even a handful of soldiers, and another two months will pass before they arrive. With Thelsamar, the dam, and local dig sites facing immediate threats, Bluntnose hires independent fighters."
   },
   {
    "q": "Where are the Mo'grosh ogres located?",
@@ -47,7 +47,7 @@
     "where are mogrosh",
     "mogrosh camp"
    ],
-   "answer": "The Mo'grosh ogres inhabit the Mo'grosh Stronghold, situated in the rugged bluffs and hills northeast of Loch Modan's great lake."
+   "answer": "The Mo'grosh ogres are at the Mo'grosh Stronghold in the rugged bluffs and hills northeast of Loch Modan's great lake."
   },
   {
    "q": "Why is the Stonewrought Dam considered in danger?",
@@ -55,7 +55,7 @@
     "why protect dam",
     "ogres and the dam"
    ],
-   "answer": "The Stonewrought Dam regulates the entire lake and is an architectural jewel of the dwarves. With military defense practically nonexistent and the Mo'grosh ogres establishing a camp nearby, Bluntnose fears an organized raid could damage or sabotage the massive structure, unleashing catastrophic floods."
+   "answer": "The Stonewrought Dam regulates the entire lake and is an architectural jewel of the dwarves. With almost no military defense and a Mo'grosh camp nearby, Bluntnose fears an organized attack could damage or sabotage the structure and unleash catastrophic floods."
   },
   {
    "q": "What other threats does Thelsamar face alongside the ogres?",
@@ -63,17 +63,17 @@
     "other threats loch modan",
     "trogg threat"
    ],
-   "answer": "Troggs have erupted across the loch from underground ruins and excavations. Bluntnose considers them a massive menace, but the brute strength of the nearby ogre stronghold forces him to hire fighters to push back the Mo'grosh so the local guard can concentrate on the trogg incursions."
+   "answer": "Troggs have erupted across the loch from underground ruins and excavations. Bluntnose sees them as a massive threat, but the nearby ogre stronghold forces him to hire fighters to push back the Mo'grosh so the local guard can focus on the trogg incursions."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "Seeing the crown jewel of dwarven engineering\u2014the Stonewrought Dam\u2014left unguarded due to Ironforge red tape makes Bluntnose's call to arms a personal matter for any mountaineer or traveler from the capital."
+   "text": "As a dwarf, seeing the Stonewrought Dam, a crown jewel of dwarven engineering, left unguarded because of Ironforge red tape makes Bluntnose's call to arms personal, whether you're a mountaineer or a traveler from the capital."
   },
   {
    "target": "faction:Alliance",
-   "text": "Loch Modan forms a crucial corridor between Khaz Modan and the northern kingdoms; letting it fall into chaos under ogre raids threatens Alliance supply lines across the Eastern Kingdoms."
+   "text": "As an Alliance traveler, you know Loch Modan is a vital corridor between Khaz Modan and the northern kingdoms. Ogre raids that throw it into chaos threaten Alliance supply lines across the Eastern Kingdoms."
   }
  ],
  "keywords": [
@@ -94,5 +94,6 @@
  ],
  "attribution": [
   "Mercenaries"
- ]
+ ],
+ "style": 1
 }

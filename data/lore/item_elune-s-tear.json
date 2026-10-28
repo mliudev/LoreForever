@@ -10,16 +10,16 @@
    "quest:1033"
   ]
  },
- "summary": "Elune's Tear is a rare, luminous mineral found on the central island of Iris Lake in Ashenvale. Revering it as a sacred blessing of the Moon Goddess, night elf herbalists and healers seek the stone for its potent ability to cleanse magical corruption and deadly sickness.",
+ "summary": "On Ashenvale's central island, Elune's Tear offers night elf healers a sacred means to cleanse corruption and sickness.",
  "sections": [
   {
    "title": "A Sacred Cleansing Stone",
-   "body": "Found secluded upon the small islet in Iris Lake east of Astranaar, Elune's Tear is a mystical stone believed to carry the purity of the Moon Goddess herself. The lake itself has not escaped the forest's corruption: its waters have turned a sickly green, and twisted bog beasts roam its shores. The stone is famous among local night elf herbalists and healers\u2014such as Orendil Broadleaf\u2014as an emergency remedy capable of washing away deep-seated corruption when ordinary woodland poultices fail.",
+   "body": "Elune's Tear rests on a small islet in Iris Lake, east of Astranaar. Night elves believe the stone carries the Moon Goddess's purity. Corruption has turned the lake green, and twisted bog beasts roam its shores. Local herbalists and healers, including Orendil Broadleaf, seek the stone as an emergency remedy when ordinary woodland poultices cannot wash away deep corruption.",
    "spoiler": 0
   },
   {
    "title": "A Desperate Remedy",
-   "body": "When a mysterious wasting illness strikes the young night elf Relara Whitemoon in Astranaar, her father Pelturas exhausts ordinary medicines. Following the counsel of the apothecary Orendil, Pelturas seeks out Elune's Tear to brew directly into a restorative stew. While it provides immediate hope against the strange malady, the stubborn corruption plaguing Ashenvale often demands even greater rites of cleansing.",
+   "body": "Relara Whitemoon, a young night elf in Astranaar, falls ill with a mysterious wasting sickness. Her father, Pelturas, exhausts ordinary medicines. At apothecary Orendil's counsel, Pelturas seeks Elune's Tear to brew into a restorative stew. The stone gives immediate hope against the strange malady, but Ashenvale's stubborn corruption often calls for greater rites of cleansing.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "what is this stone",
     "what does elunes tear do"
    ],
-   "answer": "Elune's Tear is a rare magical mineral resting on the isle at Iris Lake in Ashenvale. Night elves regard it as a sacred relic imbued with the purifying touch of Elune, utilized primarily to cure unnatural corruptions and virulent diseases."
+   "answer": "Elune's Tear is a rare magical mineral on an island in Iris Lake, Ashenvale. Night elves regard it as sacred to Elune and use it to cleanse unnatural corruption and deadly sickness."
   },
   {
    "q": "Where can Elune's Tear be found?",
@@ -40,7 +40,7 @@
     "iris lake stone location",
     "find elunes tear"
    ],
-   "answer": "The tear is located on the island in the middle of Iris Lake, situated east of Astranaar in central Ashenvale. Travelers can reach it by following the stream path north off the main road."
+   "answer": "Elune's Tear lies on the island in the middle of Iris Lake, east of Astranaar in central Ashenvale. Follow the stream path north from the main road to reach it."
   },
   {
    "q": "Why does Pelturas Whitemoon need the tear?",
@@ -49,7 +49,7 @@
     "relara cure",
     "who needs elunes tear"
    ],
-   "answer": "Pelturas seeks the tear to save his ailing daughter, Relara. When standard herbal cures fail to stop the unnatural sickness creeping through her body, the apothecary Orendil advises that only the restorative purity of the stone can cleanse the affliction."
+   "answer": "Pelturas seeks Elune's Tear to help his ailing daughter, Relara. When ordinary herbal cures fail against her strange sickness, apothecary Orendil advises him to use the stone's restorative power."
   },
   {
    "q": "What guards the stone at Iris Lake?",
@@ -57,17 +57,17 @@
     "iris lake enemies",
     "what protects elunes tear"
    ],
-   "answer": "Twisted bog beasts roam the area around Iris Lake, whose waters have turned a sickly green under the corruption spreading through Ashenvale."
+   "answer": "Twisted bog beasts roam the shores of Iris Lake, whose waters have turned green under Ashenvale's spreading corruption."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "For the night elves, relics bearing the name of Elune are sacred gifts. Using the stone to save an innocent child reflects the eternal bond between the kaldorei and the Moon Mother's healing grace."
+   "text": "As a night elf, you know relics bearing Elune's name as sacred gifts. The stone's use to save an innocent child reflects the kaldorei bond with the Moon Mother's healing grace."
   },
   {
    "target": "class:Priest",
-   "text": "Devotees of the light and the moon recognize the stone's innate power to purge shadow and rot, exemplifying the restorative miracles attributed to the Priesthood of Elune."
+   "text": "As a priest, you recognize the stone's power to purge shadow and rot. Its healing reflects the restorative miracles attributed to the Priesthood of Elune."
   }
  ],
  "keywords": [
@@ -93,5 +93,6 @@
  "attribution": [
   "Elune's Tear",
   "Elune's Tear (Classic)"
- ]
+ ],
+ "style": 1
 }

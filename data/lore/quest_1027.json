@@ -17,16 +17,16 @@
   "wiki": "Raene's Cleansing (5)",
   "chain": []
  },
- "summary": "This quest marks the search for the final component needed to restore Dartol's Rod, an ancient relic tied to cleansing Ashenvale. Shael'dryn directs travelers toward the fallen druid sanctuary of Dor'Danil to recover the missing iron pommel.",
+ "summary": "In Ashenvale, Raene Wolfrunner and Shael'dryn seek Dartol's Rod's final piece. They hope the relic can help cleanse the forest and slow the furbolg attacks on its night elves.",
  "sections": [
   {
    "title": "The Ruins of Dor'Danil",
-   "body": "The final piece of Dartol's Rod\u2014an iron pommel\u2014was entrusted to the night elf druids dwelling at the Dor'Danil barrow den. Tragically, the sanctuary fell to disaster, and its caretakers were slain. With the druids dead and their refuge overrun, the exact hiding place of the relic was lost, leaving scavengers and wandering oozes to swallow up whatever was left behind in the ruins east of the southern road.",
+   "body": "The iron pommel of Dartol's Rod was entrusted to the night elf druids at Dor'Danil barrow den. Disaster struck the sanctuary, and its caretakers were slain. With their refuge overrun, the pommel's hiding place was lost. Scavengers and wandering oozes now consume what remains in the ruins east of the southern road.",
    "spoiler": 0
   },
   {
    "title": "Rebuilding Dartol's Legacy",
-   "body": "Dartol was a now-dead evil wizard, but the rod he created holds transformative powers. Raene Wolfrunner and Shael'dryn seek to reassemble the artifact in the hope that it can help slow the furbolg attacks on Ashenvale's night elves. Securing the iron pommel is the last step required before Shael'dryn can attempt to mend the fractured rod at the moonwell.",
+   "body": "Dartol was an evil wizard who has since died, but the rod he made holds transformative powers. Raene Wolfrunner and Shael'dryn seek to reassemble it, hoping it can help slow the furbolg attacks on Ashenvale's night elves. The iron pommel is the final piece Shael'dryn needs before she can try to mend the fractured rod at the moonwell.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "final rod piece",
     "what is pommel"
    ],
-   "answer": "The iron pommel is the finishing segment of Dartol's Rod. Without it, the relic cannot be reforged or channeled to cleanse Ashenvale."
+   "answer": "The iron pommel is the final piece of Dartol's Rod. Without it, the relic cannot be reforged or channeled to cleanse Ashenvale."
   },
   {
    "q": "What happened to the druids of Dor'Danil?",
@@ -47,7 +47,7 @@
     "who killed the druids",
     "dor danil"
    ],
-   "answer": "The druids residing at the Dor'Danil barrow den were recently slain when their sanctuary fell, leaving the refuge abandoned to lurking oozes and beasts. Shael'dryn considers their tragic fate a painful subject to discuss."
+   "answer": "The druids at Dor'Danil barrow den were slain when their sanctuary fell. Their refuge now lies abandoned to lurking oozes and beasts, and Shael'dryn finds their fate painful to discuss."
   },
   {
    "q": "Where is Dor'Danil located?",
@@ -55,7 +55,7 @@
     "where is dordanil",
     "dor danil location"
    ],
-   "answer": "Dor'Danil sits in southern Ashenvale, east of the main road heading down toward the Barrens border, south of Splintertree Post."
+   "answer": "Dor'Danil lies in southern Ashenvale, east of the main road toward the Barrens border and south of Splintertree Post."
   },
   {
    "q": "Who is Shael'dryn?",
@@ -63,7 +63,7 @@
     "shaeldryn",
     "who is shaeldryn"
    ],
-   "answer": "Shael'dryn is a dryad tending a sacred moonwell in Ashenvale. She aids Raene Wolfrunner by tracking down the scattered remnants of Dartol's Rod and guiding heroes in repairing it."
+   "answer": "Shael'dryn is a dryad who tends a sacred moonwell in Ashenvale. She helps Raene Wolfrunner track down the scattered pieces of Dartol's Rod and guides their repair."
   },
   {
    "q": "Why is the pommel swallowed by oozes?",
@@ -72,7 +72,7 @@
     "pommel slime",
     "why do slimes have it"
    ],
-   "answer": "After the barrow den fell, gelatinous slimes infested the area and consumed discarded relics, chests, and corpses, inadvertently engulfing the iron pommel along with other debris."
+   "answer": "After the barrow den fell, gelatinous slimes infested the area and consumed discarded relics, chests, and corpses. The oozes engulfed the iron pommel along with the other debris."
   },
   {
    "q": "What happens after finding the pommel?",
@@ -80,21 +80,21 @@
     "next step",
     "what does shaeldryn do"
    ],
-   "answer": "Returning the pommel to Shael'dryn allows her to begin repairing the rod so it can finally be used to assist Raene Wolfrunner in cleansing the forest."
+   "answer": "When you return the pommel to Shael'dryn, she can begin repairing the rod. Once mended, it can help Raene Wolfrunner cleanse the forest."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "Visiting the desecrated grounds of Dor'Danil is a sobering reminder of the losses the Cenarion Circle and Kaldorei druids have suffered in Ashenvale."
+   "text": "As a druid, you see the losses the Cenarion Circle and Kaldorei druids have suffered in Ashenvale when you visit Dor'Danil's desecrated grounds."
   },
   {
    "target": "race:NightElf",
-   "text": "Recovering Dartol's heirloom honors both the fallen caretakers of Dor'Danil and the ongoing defense of ancient Kaldorei lands."
+   "text": "As a night elf, recovering Dartol's heirloom honors Dor'Danil's fallen caretakers and the defense of ancient Kaldorei lands."
   },
   {
    "target": "faction:Alliance",
-   "text": "Securing Ashenvale against corruption is vital to the Alliance's hold on northern Kalimdor, especially with Horde forces advancing from Splintertree."
+   "text": "As an Alliance member, you know Ashenvale's defense against corruption matters to the Alliance's hold on northern Kalimdor, with Horde forces advancing from Splintertree."
   }
  ],
  "keywords": [
@@ -116,5 +116,6 @@
  ],
  "attribution": [
   "Raene's Cleansing (5)"
- ]
+ ],
+ "style": 1
 }

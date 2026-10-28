@@ -17,16 +17,16 @@
   "wiki": "An Aggressive Defense",
   "chain": []
  },
- "summary": "An Aggressive Defense is an Alliance quest given by Sentinel Raene Wolfrunner in Astranaar. Faced with rampant furbolg corruption along the central thoroughfares of Ashenvale, the night elves are forced to mount an active cull against the maddened Foulweald tribe.",
+ "summary": "Raene Wolfrunner sends Alliance defenders against the Foulweald furbolgs in Ashenvale. Corruption has made the tribe dangerous along the road east of Astranaar.",
  "sections": [
   {
    "title": "Threat to the Highway",
-   "body": "The road running east from Astranaar toward the Falfarren River serves as a vital lifeline through Ashenvale, but it has grown exceedingly dangerous. Furbolgs driven mad by demonic corruption have begun raiding travelers directly off the main trail. Rather than simply manning barricades and waiting for the next ambush, Sentinel Raene Wolfrunner dispatches capable adventurers to break the Foulweald camps located just south of the highway.",
+   "body": "Furbolgs now attack travelers on the road east from Astranaar toward the Falfarren River. Sentinel Raene Wolfrunner sends capable defenders to strike the Foulweald camps just south of the highway. The attacks have made this vital road through Ashenvale dangerous for anyone who travels it.",
    "spoiler": 0
   },
   {
    "title": "A Bitter History",
-   "body": "Striking down the Foulweald furbolgs carries a tragic weight for the night elves. The bear-folk were longtime friends and allies of the kaldorei throughout ancient ages, sharing reverence for nature and the wild gods. However, the lingering taint of the Burning Legion's invasion shattered the minds of many tribes, warping peaceful neighbors into bloodthirsty reavers whose violence threatens innocent travelers.",
+   "body": "The Foulweald were once friends and allies of the night elves. For ages, the kaldorei and furbolgs shared a reverence for nature and the wild gods. The Burning Legion's invasion left a taint that shattered many furbolg minds. Peaceful neighbors became violent reavers, and innocent travelers now face their attacks.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who gives an aggressive defense",
     "raene wolfrunner location"
    ],
-   "answer": "The quest is provided by Raene Wolfrunner, a Sentinel commander stationed in Astranaar, the principal night elf settlement in central Ashenvale."
+   "answer": "Sentinel Raene Wolfrunner offers the defense from Astranaar, the principal night elf settlement in central Ashenvale."
   },
   {
    "q": "Why are the furbolgs in Ashenvale hostile?",
@@ -47,7 +47,7 @@
     "foulweald hostile",
     "furbolg corruption"
    ],
-   "answer": "The Foulweald tribe, like several other furbolg clans across Kalimdor, succumbed to the demonic taint left behind by the Burning Legion during the Third War. Their minds became warped and violent, driving them to butcher travelers and attack former allies."
+   "answer": "The Foulweald fell to demonic taint left by the Burning Legion during the Third War. Their minds turned violent, driving them to attack travelers and former allies."
   },
   {
    "q": "Where are the Foulweald camps found?",
@@ -56,7 +56,7 @@
     "where to find foulweald",
     "where are the furbolgs"
    ],
-   "answer": "Their encampments lie south of the main eastern road running out of Astranaar, situated west of the Falfarren River."
+   "answer": "The Foulweald camps lie south of the main road east from Astranaar, west of the Falfarren River."
   },
   {
    "q": "Were the furbolgs always enemies of the night elves?",
@@ -65,7 +65,7 @@
     "were furbolgs good",
     "kaldorei and furbolgs"
    ],
-   "answer": "No. For thousands of years, the furbolgs and night elves lived side by side in harmony. It was only after demonic corruption swept through Ashenvale and Felwood that tribes like the Foulweald lost their sanity and turned hostile."
+   "answer": "No. Furbolgs and night elves lived side by side in harmony for thousands of years. Demonic corruption in Ashenvale and Felwood drove tribes like the Foulweald to hostility."
   },
   {
    "q": "Does this quest connect to other events in Astranaar?",
@@ -73,7 +73,7 @@
     "quest prerequisites",
     "raene cleansing connection"
    ],
-   "answer": "Yes. Raene Wolfrunner offers this task as an interim defensive strike while directing heroes on investigations into corrupted moonwells and the broader cleansing of the forest."
+   "answer": "Raene's strike is one part of Astranaar's defense. She also directs defenders to investigate corrupted moonwells and help cleanse the forest."
   },
   {
    "q": "What specific furbolgs must be eliminated?",
@@ -82,21 +82,21 @@
     "who do i kill",
     "foulweald targets"
    ],
-   "answer": "Raene requires the culling of a Foulweald Den Watcher, two Ursas, ten Totemics, and twelve Warriors in order to shatter their command structure and disperse the threat near the road."
+   "answer": "Raene calls for one Foulweald Den Watcher, two Ursas, ten Totemics, and twelve Warriors to be slain, breaking the tribe's command near the road."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "For the kaldorei, executing the Foulweald is a somber necessity born of tragedy, turning blades upon former forest brethren who have completely lost their minds to corruption."
+   "text": "As a kaldorei, you face the grim need to fight former forest kin whose minds corruption has taken."
   },
   {
    "target": "faction:Alliance",
-   "text": "Clearing the Foulweald protects vital Alliance supply and transit lanes connecting Astranaar to eastern outposts across Ashenvale."
+   "text": "As an Alliance defender, you help keep the road from Astranaar to eastern outposts clear for supplies and travelers."
   },
   {
    "target": "class:Druid",
-   "text": "Druids view the madness of the Foulweald as a harrowing reminder of the fel taint afflicting Kalimdor's sacred wild sanctuaries."
+   "text": "As a druid, you see the Foulweald's madness as a warning of fel taint in Kalimdor's sacred wild places."
   }
  ],
  "keywords": [
@@ -120,5 +120,6 @@
  ],
  "attribution": [
   "An Aggressive Defense"
- ]
+ ],
+ "style": 1
 }

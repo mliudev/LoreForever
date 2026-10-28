@@ -19,16 +19,16 @@
    "WANTED: Baron Vardus"
   ]
  },
- "summary": "Posted on the Tarren Mill bounty board under the authority of Lady Sylvanas, this decree condemns all members of the Syndicate to death. The Forsaken seek to purge the brigands gathering in the ruins of Durnholde Keep before they threaten Horde operations in the foothills.",
+ "summary": "On Tarren Mill's bounty board, Lady Sylvanas's decree condemns every Syndicate member to death. The Forsaken seek to clear the brigands from Durnholde Keep's ruins before they threaten Horde operations in the foothills.",
  "sections": [
   {
    "title": "A Standing Execution Order",
-   "body": "The Syndicate's sudden presence southeast of Tarren Mill has not gone unnoticed by the Forsaken. Rather than offering parley or treating them as mere displaced nobles, Lady Sylvanas Windrunner and her commanders view the Syndicate as an active pestilence. The bounty dictates immediate death, specifying that any prisoners brought in will be executed without trial.",
+   "body": "The Syndicate's sudden arrival southeast of Tarren Mill has drawn the Forsaken's attention. Lady Sylvanas Windrunner and her commanders see the Syndicate as an active pestilence, not displaced nobles to bargain with. The bounty orders immediate death. Any prisoners brought in will be executed without trial.",
    "spoiler": 0
   },
   {
    "title": "The Ruins of Durnholde",
-   "body": "Once an infamous internment camp fortress, Durnholde Keep now lies shattered and lawless. Syndicate Rogues and Watchmen have crept into its crumbled ramparts and towers, using the historic stronghold as an operations hub. For High Executor Darthalia, ridding the ruins of these armed bandits is essential to securing the road and safeguarding Tarren Mill's southeastern approach.",
+   "body": "Durnholde Keep, once an infamous internment fortress, now lies shattered and lawless. Syndicate Rogues and Watchmen have taken its crumbling ramparts and towers as an operations hub. High Executor Darthalia needs the armed bandits driven from the ruins to secure the road and protect Tarren Mill's southeastern approach.",
    "spoiler": 0
   }
  ],
@@ -40,7 +40,7 @@
     "who wants syndicate dead",
     "bounty poster"
    ],
-   "answer": "The bounty was issued under the direct authority of Lady Sylvanas Windrunner and posted on the notice board in Tarren Mill. Proof of execution is collected by High Executor Darthalia, the military commander of the settlement."
+   "answer": "Lady Sylvanas Windrunner issued the bounty under her direct authority, and it is posted on Tarren Mill's notice board. High Executor Darthalia, the settlement's military commander, collects proof of execution."
   },
   {
    "q": "Where are these Syndicate members located?",
@@ -49,7 +49,7 @@
     "durnholde syndicate location",
     "where to find watchmen"
    ],
-   "answer": "They congregate among the shattered stones of Durnholde Keep, situated southeast of Tarren Mill across the river, as well as around the ruined guard tower just south of the main fortress."
+   "answer": "Syndicate members gather among Durnholde Keep's shattered stones, southeast of Tarren Mill across the river, and around the ruined guard tower just south of the fortress."
   },
   {
    "q": "Why do the Forsaken want them dead instead of captured?",
@@ -58,7 +58,7 @@
     "why no prisoners",
     "darthalia syndicate"
    ],
-   "answer": "The Forsaken view the Syndicate as treacherous pests and an armed threat encroaching on their territory. The decree explicitly orders that any members brought into custody are to be summarily executed, making capture entirely pointless."
+   "answer": "The Forsaken see the Syndicate as treacherous pests and an armed threat on their territory. The decree orders any captured members executed without trial, so there is no point in taking them alive."
   },
   {
    "q": "What is the Syndicate doing in Durnholde Keep?",
@@ -67,7 +67,7 @@
     "syndicate purpose hillsbrad",
     "durnholde keep occupiers"
    ],
-   "answer": "Composed primarily of disgraced Alteraci nobility and mercenaries, the Syndicate utilizes abandoned keeps, ruins, and towers across Lordaeron as staging grounds to raid settlements, rob travelers, and rebuild their shattered power base."
+   "answer": "Made up mostly of disgraced Alteraci nobles and mercenaries, the Syndicate uses abandoned keeps, ruins, and towers across Lordaeron as bases to raid settlements, rob travelers, and rebuild its shattered power."
   },
   {
    "q": "What happens after culling these Syndicate operatives?",
@@ -76,21 +76,21 @@
     "after wanted syndicate personnel",
     "next bounty"
    ],
-   "answer": "Thinning the ranks of the rogues and watchmen leads High Executor Darthalia to issue a high-priority bounty targeting their local leadership, specifically Baron Vardus."
+   "answer": "Once the local Rogues and Watchmen are thinned, High Executor Darthalia issues a high-priority bounty on their leader, Baron Vardus."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "For the Forsaken, clearing out the living remnants of Alterac's nobility is a practical necessity to ensure unchallenged control over the hills of Lordaeron."
+   "text": "For the Forsaken, clearing Alterac's living noble remnants is a practical need if they are to hold the hills of Lordaeron without challenge."
   },
   {
    "target": "faction:Horde",
-   "text": "Durnholde Keep holds grim memories as the internment fortress where orcs were once held in captivity; purging the brigands now occupying its ruins carries symbolic weight for the Horde."
+   "text": "Durnholde Keep carries grim memories for the Horde as the internment fortress where orcs were once held captive. Clearing the brigands from its ruins carries symbolic weight."
   },
   {
    "target": "class:Rogue",
-   "text": "The Syndicate fields skilled cutpurses and ambushers throughout Durnholde, making this contract a direct clash between rival practitioners of stealth."
+   "text": "The Syndicate has skilled cutpurses and ambushers throughout Durnholde, bringing rival practitioners of stealth into direct conflict."
   }
  ],
  "keywords": [
@@ -114,5 +114,6 @@
  ],
  "attribution": [
   "WANTED: Syndicate Personnel"
- ]
+ ],
+ "style": 1
 }

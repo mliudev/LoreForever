@@ -8,16 +8,16 @@
   "wiki": "Viscous Fallout",
   "refs": 5
  },
- "summary": "Viscous Fallout is a toxic water elemental wandering the irradiated corridors of Gnomeregan, a living mass of the poison that fouled the city after Mekgineer Thermaplugg's devastating radiation release.",
+ "summary": "In Gnomeregan's lower passages, Viscous Fallout drifts through the toxic runoff.",
  "sections": [
   {
    "title": "A Polluted Spirit",
-   "body": "When Gnomeregan was flooded with radiation on Mekgineer Thermaplugg's treacherous advice to wipe out the invading troggs, the fallout left the city's lower levels awash in toxic slime and contamination. Viscous Fallout is a water elemental of that poisoned depth, its very substance thick with the city's toxic waste. Where it came from before the fall is not known.",
+   "body": "Radiation flooded Gnomeregan on Mekgineer Thermaplugg's treacherous advice, meant to wipe out the invading troggs. The fallout filled the city's lower levels with toxic slime and contamination. Viscous Fallout is a water elemental of those poisoned depths, its substance thick with the city's toxic waste. Its origins before the fall are unknown.",
    "spoiler": 0
   },
   {
    "title": "Agony in the Runoff",
-   "body": "Now, the creature is little more than a living pool of toxic sludge, drifting through the irradiated lower passages. Spewing volleys of toxin, Viscous Fallout lashes out at anything in its path. Striking it down is a grim necessity for those venturing into Gnomeregan to cleanse the tainted depths.",
+   "body": "Viscous Fallout drifts through the irradiated lower passages as a living pool of toxic sludge. It spews volleys of toxin and lashes out at anything in its path. Those who enter Gnomeregan to cleanse its tainted depths must destroy the creature.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "viscous fallout lore",
     "what kind of mob is viscous fallout"
    ],
-   "answer": "Viscous Fallout is a water elemental mini-boss located inside the ruined city of Gnomeregan, thoroughly tainted by toxic sludge and radioactive fallout."
+   "answer": "Viscous Fallout is a water elemental mini-boss inside Gnomeregan's ruined city, tainted by toxic sludge and radioactive fallout."
   },
   {
    "q": "How did it become corrupted?",
@@ -38,7 +38,7 @@
     "why is the elemental toxic",
     "how was viscous fallout created"
    ],
-   "answer": "Gnomeregan was flooded with radiation on Mekgineer Thermaplugg's treacherous advice to repel the trogg invasion, leaving its lower passages awash in toxic waste. Exactly how this elemental came to be steeped in that poison is not known; it is simply part of the irradiated ruin the city has become."
+   "answer": "Radiation flooded Gnomeregan on Mekgineer Thermaplugg's treacherous advice to repel the trogg invasion, leaving the lower passages awash in toxic waste. No one knows exactly how the elemental came to be poisoned; it is part of the irradiated ruin the city has become."
   },
   {
    "q": "Where in Gnomeregan does it wander?",
@@ -47,7 +47,7 @@
     "where to find viscous fallout",
     "how to find viscous fallout"
    ],
-   "answer": "Viscous Fallout patrols the lower irradiated passages and runoff canals below the main entry paths of Gnomeregan, often blending in among the ordinary mutated slimes and toxic wastes infesting the area."
+   "answer": "Viscous Fallout wanders the lower irradiated passages and runoff canals beneath Gnomeregan's main entry paths. It blends among the mutated slimes and toxic waste that infest the area."
   },
   {
    "q": "Why is it hostile?",
@@ -55,7 +55,7 @@
     "why does it attack",
     "can it be saved"
    ],
-   "answer": "Like most of what now haunts the irradiated depths, the toxic elemental lashes out at any living creature trespassing in the tainted passages."
+   "answer": "Like much of what haunts the irradiated depths, Viscous Fallout lashes out at living creatures that trespass in the tainted passages."
   },
   {
    "q": "Does it have any connection to Ironforge?",
@@ -63,7 +63,7 @@
     "hydrocane ironforge",
     "gnome connection"
    ],
-   "answer": "Only indirectly. The gnomes who fled Gnomeregan now live as refugees in Tinker Town inside Ironforge, and Viscous Fallout is one of the horrors left behind in the home they lost."
+   "answer": "The connection is indirect. Gnomes who fled Gnomeregan now live as refugees in Tinker Town inside Ironforge, while Viscous Fallout remains among the horrors in the home they lost."
   },
   {
    "q": "Can the elemental be cleansed or cured?",
@@ -71,21 +71,21 @@
     "can you cure viscous fallout",
     "cleanse viscous fallout"
    ],
-   "answer": "No cure is known for the elemental. The radiation and toxic chemicals have permeated its form so entirely that destroying it is the only answer."
+   "answer": "No cure is known for the elemental. Radiation and toxic chemicals have permeated its form so thoroughly that destroying it is the only answer."
   }
  ],
  "angles": [
   {
    "target": "race:Gnome",
-   "text": "For gnomes, Viscous Fallout is a tragic reminder of the damage Mekgineer Thermaplugg inflicted upon their home, where even the water now runs toxic."
+   "text": "For gnomes, Viscous Fallout recalls the damage Mekgineer Thermaplugg inflicted on their home, where even the water runs toxic."
   },
   {
    "target": "class:Shaman",
-   "text": "A shaman will recognize the perversion of the elemental plane, seeing in Viscous Fallout a water elemental defiled by artificial toxic waste."
+   "text": "As a shaman, you can recognize a water elemental defiled by artificial toxic waste."
   },
   {
    "target": "class:Druid",
-   "text": "Druids view the creature as a living wound upon nature, illustrating the horrific consequences of reckless industrial contamination seeping into natural underground waters."
+   "text": "As a druid, you can see Viscous Fallout as a living wound upon nature, showing the harm reckless industry brings when contamination seeps into underground waters."
   }
  ],
  "keywords": [
@@ -106,5 +106,6 @@
  ],
  "attribution": [
   "Viscous Fallout"
- ]
+ ],
+ "style": 1
 }

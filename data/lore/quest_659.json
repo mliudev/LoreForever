@@ -24,16 +24,16 @@
    "Hints of a New Plague?"
   ]
  },
- "summary": "Phin Odelic leads a band of adventurers looking into odd happenings in the area, and believes the undead are involved. Two companions, Quae and Kinelory, headed for Go'Shek Farm, in the Arathi Highlands. No word has come from them for days.",
+ "summary": "In Hillsbrad, Phin Odelic's companions search for signs of trouble. Quae and Kinelory have been missing for days since heading to Go'Shek Farm in the Arathi Highlands.",
  "sections": [
   {
    "title": "Odd Happenings",
-   "body": "Not long ago, a cousin of Phin's in Hillsbrad had to put down his dog, Stanley. The beast had mystically swollen to a huge size and savagely turned on anyone who came near. Phin believes the undead are involved in the odd happenings, and the group is looking for signs to prove it.",
+   "body": "Phin Odelic's cousin in Hillsbrad had to put down his dog, Stanley. The beast had mystically grown huge and savagely attacked anyone who came near. Phin believes the undead are involved in these odd happenings, and his band searches for signs to prove it.",
    "spoiler": 0
   },
   {
    "title": "The Missing Companions",
-   "body": "Quae and Kinelory, two of Phin's companions, headed into the Arathi Highlands, to Go'Shek Farm, and have not checked in for days. Phin grows concerned and wants you to find them near the farm.",
+   "body": "Quae and Kinelory, Phin Odelic's companions, headed to Go'Shek Farm in the Arathi Highlands. They have not checked in for days, and Phin fears for them. He wants you to find them near the farm.",
    "spoiler": 0
   }
  ],
@@ -45,7 +45,7 @@
     "who gives hints of a new plague",
     "quest giver"
    ],
-   "answer": "Phin leads a band of adventurers who are looking into odd happenings in the area."
+   "answer": "Phin Odelic leads a band of adventurers investigating odd happenings in the area."
   },
   {
    "q": "What happened to Stanley?",
@@ -54,7 +54,7 @@
     "what happened to the dog",
     "stanley hillsbrad"
    ],
-   "answer": "Stanley was the dog of Phin's cousin in Hillsbrad. The beast mystically swelled to a huge size and savagely turned on anyone who came near, so the cousin put it down."
+   "answer": "Stanley was Phin's cousin's dog in Hillsbrad. The beast mystically grew huge and attacked anyone who came near, so the cousin put him down."
   },
   {
    "q": "Where are Quae and Kinelory supposed to be?",
@@ -64,7 +64,7 @@
     "quae location",
     "find quae"
    ],
-   "answer": "Near Go'Shek Farm in the Arathi Highlands, where they set out for. Phin has not heard from them for days."
+   "answer": "Quae and Kinelory set out for Go'Shek Farm in the Arathi Highlands. Phin has heard nothing from them for days."
   },
   {
    "q": "Why is Phin investigating?",
@@ -73,7 +73,7 @@
     "go shek farm undead",
     "investigate go shek"
    ],
-   "answer": "Phin believes the undead are involved in the odd happenings in the area, and the group is looking for signs to prove it."
+   "answer": "Phin believes the undead are involved in the odd happenings, and his band searches for signs to prove it."
   }
  ],
  "angles": [],
@@ -93,5 +93,6 @@
  ],
  "attribution": [
   "Hints of a New Plague?"
- ]
+ ],
+ "style": 1
 }

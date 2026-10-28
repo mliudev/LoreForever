@@ -21,16 +21,16 @@
    "Nogg's Ring Redo"
   ]
  },
- "summary": "After scouring away the filth of Gnomeregan in the Sparklematic 5200, an adventurer uncovers a ring bearing the seal of Orgrimmar and the engraved letters 'NOG'. Tracing the piece back to the Horde's capital leads directly to the goblin engineer Nogg, who has his own curious theories about the city's fall.",
+ "summary": "A ring from Gnomeregan bears Orgrimmar's seal and the letters NOG. Its trail leads to Nogg, a goblin engineer with a theory about the ruins.",
  "sections": [
   {
    "title": "A Curious Discovery",
-   "body": "Gnomeregan is an Alliance city deep in Khaz Modan, making the recovery of a ring bearing the official seal of Orgrimmar entirely unexpected. Once processed through the gnomes' Sparklematic cleaning rig, the bauble sheds its thick layer of subterranean sludge, revealing a surge of magical power and the partially legible letters 'NOG'. Whether crafted in Kalimdor or brought along on an ill-fated expedition, the trinket clearly has roots in the Horde capital.",
+   "body": "You clean a ring from Gnomeregan in the Sparklematic 5200. The machine strips away the filth and reveals Orgrimmar's official seal, a surge of magical power, and the partly legible letters NOG. Gnomeregan lies deep in Khaz Modan, an Alliance city far from the Horde capital. The ring may have been made in Kalimdor or carried there on a doomed expedition, but its seal points back to Orgrimmar.",
    "spoiler": 0
   },
   {
    "title": "Gnomish Rivalries and Dark Iron Plots",
-   "body": "Taking the ring back to the Valley of Honor in Orgrimmar leads straight to Nogg, an engineer who quickly clarifies that while the ring is not his personal jewelry, its origins raise intriguing questions. Goblins have long looked down on gnomish inventors as eccentric rivals. To Nogg, the fact that Dark Iron dwarves held the ring inside Gnomeregan suggests the gnomes may have stolen and modified the Dark Irons' golem designs, leaving the Dark Irons eager for payback, a lead he thinks worth investigating.",
+   "body": "You take the ring to Nogg in Orgrimmar's Valley of Honor. The goblin engineer says it is not his, though its origins raise questions. Goblins have long regarded gnomish inventors as eccentric rivals. Nogg suspects the gnomes stole and altered Dark Iron golem designs. Since Dark Iron dwarves held the ring inside Gnomeregan, he thinks they may be seeking payback, a lead worth investigating.",
    "spoiler": 1
   }
  ],
@@ -42,7 +42,7 @@
     "horde ring in gnomeregan",
     "how did the ring get there"
    ],
-   "answer": "The exact circumstances of how the ring entered Gnomeregan remain unknown, but it was carried deep into the ruins and recovered by Dark Iron dwarves. Its Orgrimmar insignia connects it back to Horde metalworkers and craftsmen operating out of Durotar."
+   "answer": "No one knows exactly how the ring reached Gnomeregan. Dark Iron dwarves carried it deep into the ruins, where it was recovered. Its Orgrimmar seal links it to Horde metalworkers and craftsmen in Durotar."
   },
   {
    "q": "Who is Nogg?",
@@ -51,7 +51,7 @@
     "nogg orgrimmar",
     "nog letters ring"
    ],
-   "answer": "Nogg is a goblin engineer located in the Valley of Honor in Orgrimmar. He oversees engineering supplies and machines, and his name matches the worn letters engraved alongside the Orgrimmar seal on the cleaned ring."
+   "answer": "Nogg is a goblin engineer in Orgrimmar's Valley of Honor. He oversees engineering supplies and machines, and his name matches the worn letters on the cleaned ring."
   },
   {
    "q": "What is the Sparklematic 5200?",
@@ -60,7 +60,7 @@
     "sparklematic 5200",
     "cleanomatic"
    ],
-   "answer": "The Sparklematic 5200 is an automated industrial wash system located within the Clean Zone of Gnomeregan. It strips away heavy layers of toxic sludge and irradiation from objects dragged out of the ruined corridors."
+   "answer": "The Sparklematic 5200 is an automated industrial wash system in Gnomeregan's Clean Zone. It strips heavy layers of toxic sludge and irradiation from objects brought out of the ruined corridors."
   },
   {
    "q": "Does Nogg own the ring?",
@@ -69,7 +69,7 @@
     "did nogg lose his ring",
     "who owns the ring"
    ],
-   "answer": "No. When presented with the cleaned band, Nogg inspects it and admits that it does not belong to him. However, he recognizes its craftsmanship and uses his engineering expertise to modify it further for the adventurer."
+   "answer": "No. Nogg inspects the cleaned ring and says it is not his. He recognizes its craftsmanship and uses his engineering skill to modify it further for you."
   },
   {
    "q": "What does Nogg think happened to Gnomeregan?",
@@ -78,7 +78,7 @@
     "what happened to gnomeregan",
     "why dark iron dwarves"
    ],
-   "answer": "Nogg suspects that the gnomes stole advanced golem blueprints from the Dark Iron clan. He reasons that the Dark Irons would want major payback for that, and thinks the lead is worth investigating."
+   "answer": "Nogg suspects the gnomes stole advanced golem blueprints from the Dark Iron clan. He thinks the Dark Irons would want payback and considers the lead worth investigating."
   },
   {
    "q": "Can I keep the ring instead of returning it to Nogg?",
@@ -87,17 +87,17 @@
     "should i return the ring",
     "do i have to give it to nogg"
    ],
-   "answer": "The choice is yours to wear the ring immediately or take it to Orgrimmar. Bringing it to Nogg, however, allows the goblin engineer to inspect its craftsmanship and offer further improvements."
+   "answer": "You can wear the ring at once or take it to Orgrimmar. Bringing it to Nogg lets the goblin engineer inspect its craftsmanship and offer further improvements."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "Finding Horde iconography deep inside the premier technological capital of the Eastern Kingdoms is a rare sight, drawing Horde adventurers straight from Khaz Modan back to the Valley of Honor."
+   "text": "As a member of the Horde, you rarely find its symbols deep inside the Eastern Kingdoms' leading center of technology. The ring draws you from Khaz Modan to the Valley of Honor."
   },
   {
    "target": "profession:Engineering",
-   "text": "The goblin engineers in Orgrimmar constantly measure themselves against gnomish invention, and Nogg is eager to dissect anything retrieved from the heart of their fallen technological wonder."
+   "text": "As an engineer, you know goblin inventors in Orgrimmar measure themselves against gnomish invention. Nogg is eager to examine anything recovered from their ruined technological wonder."
   }
  ],
  "keywords": [
@@ -121,5 +121,6 @@
  ],
  "attribution": [
   "Return of the Ring (Horde)"
- ]
+ ],
+ "style": 1
 }

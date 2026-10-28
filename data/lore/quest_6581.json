@@ -20,16 +20,16 @@
    "Warsong Saw Blades (quest)"
   ]
  },
- "summary": "Warsong Saw Blades is a Horde errand undertaken at Splintertree Post on behalf of the Warsong Clan's logging campaign. To acquire heavy saw blades imported from Ratchet, adventurers must strike an under-the-table bargain with the courier Pixel, who demands personal protection before surrendering the shipment. Fulfilling her trade secures essential machinery needed to keep the Horde's lumber mills humming in Ashenvale.",
+ "summary": "At Splintertree Post, the Warsong loggers wait on blades from Ratchet. Pixel, their courier, will trade the shipment for a weapon to protect herself on Ashenvale's dangerous roads. The blades are needed to keep the Horde's lumber camps working.",
  "sections": [
   {
    "title": "A Courier's Shrewd Barter",
-   "body": "The Warsong loggers in Ashenvale rely entirely on imported heavy machinery to cut through the ancient timber of the deep forest. While Pixel has successfully brought a shipment of specialized saw blades straight from the goblin port of Ratchet to Splintertree Post, she has no intention of simply handing them over for free. Out in the perilous wilds of Ashenvale, coin is only worth so much; personal safety is worth far more. Rather than demanding gold, Pixel insists on bartering the heavy saw blades for a reliable Deadly Blunderbuss to keep herself safe during her dangerous travels through hostile territory.",
+   "body": "Pixel has brought heavy saw blades from Ratchet to Splintertree Post, but she will not hand them over for free. In Ashenvale's wilds, she values safety more than coin. She asks for a Deadly Blunderbuss in trade, so she can protect herself on her dangerous travels through hostile territory.",
    "spoiler": 0
   },
   {
    "title": "Supplying the War Effort",
-   "body": "Ashenvale's dense canopy is prized by the Horde, which faces severe timber shortages across the arid plains of Durotar and the Barrens. However, logging ancient sentinel groves quickly dulls standard axes, making goblin-forged industrial blades a necessity. Securing Pixel's shipment directly fuels the operations of the Warsong lumber camps, ensuring the Horde can continue constructing outposts and war machines despite fierce resistance from the night elves.",
+   "body": "The Horde needs timber from Ashenvale to ease shortages across Durotar and the Barrens. Axes dull quickly against the ancient groves, so the Warsong loggers need goblin-forged blades. Pixel's shipment supplies the lumber camps, where the Horde cuts timber for outposts and war machines despite fierce resistance from the night elves.",
    "spoiler": 0
   }
  ],
@@ -41,7 +41,7 @@
     "pixie splintertree",
     "saw blade courier"
    ],
-   "answer": "Pixel is a courier currently stationed at Splintertree Post who transported a shipment of industrial saw blades directly from the goblin port of Ratchet. She holds onto the shipment until she can secure a reliable weapon for her own protection."
+   "answer": "Pixel is a courier at Splintertree Post who brought saw blades from Ratchet. She keeps the shipment until she can secure a weapon for her protection."
   },
   {
    "q": "Why does Pixel want a Deadly Blunderbuss instead of gold?",
@@ -50,7 +50,7 @@
     "pixel gun trade",
     "why want a gun"
    ],
-   "answer": "Traveling across the Barrens and deep into night elf territory in Ashenvale is extremely hazardous. Knowing the dangers of the road, Pixel prioritizes personal defense over coin and demands an engineer-crafted firearm to safeguard her journeys."
+   "answer": "Pixel considers personal safety more valuable than coin on the dangerous road from the Barrens into Ashenvale. She asks for a Deadly Blunderbuss to defend herself on her travels."
   },
   {
    "q": "Why are these saw blades so important to the Horde?",
@@ -59,7 +59,7 @@
     "warsong lumber importance",
     "why warsong supplies"
    ],
-   "answer": "The Horde requires massive quantities of timber to build fortifications and war machines across Kalimdor. Standard cutting tools quickly wear out against Ashenvale's ancient ironwood trees, making imported mechanical saw blades vital for the Warsong Clan's logging machinery."
+   "answer": "The Warsong Clan needs timber for the Horde's outposts and war machines. Axes wear down against Ashenvale's ancient trees, so the lumber camps rely on imported mechanical blades."
   },
   {
    "q": "Where did the saw blades originally come from?",
@@ -68,7 +68,7 @@
     "ratchet blades",
     "where did saw blades come from"
    ],
-   "answer": "The saw blades were manufactured in and shipped from Ratchet, the neutral goblin port on the eastern coast of the Barrens, before being hauled overland to Splintertree Post."
+   "answer": "The saw blades came from Ratchet and were hauled overland to Splintertree Post."
   },
   {
    "q": "Where does this quest fit into the Warsong logging effort?",
@@ -76,7 +76,7 @@
     "warsong supplies chain",
     "warsong saw blades prerequisite"
    ],
-   "answer": "This task is part of the larger effort to assemble Warsong Supplies for the lumber camps in Ashenvale. Recovering the saw blades from Pixel completes one of the key logistics requirements needed to sustain the Horde's logging operations."
+   "answer": "The saw blades are one of the supplies needed to keep the Warsong lumber camps working in Ashenvale."
   },
   {
    "q": "Can anyone make the weapon Pixel wants?",
@@ -85,21 +85,21 @@
     "blunderbuss source",
     "engineering gun"
    ],
-   "answer": "A Deadly Blunderbuss is crafted by skilled Engineers using copper tubes, copper bolts, a wooden stock, and leather, though couriers and warriors often trade for them through local markets or fellow adventurers."
+   "answer": "Skilled Engineers can craft a Deadly Blunderbuss from copper tubes, copper bolts, a wooden stock, and leather. Couriers and warriors can also trade for one through local markets or fellow adventurers."
   }
  ],
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "The Deadly Blunderbuss demanded by Pixel is a staple product of adept tinkerers, highlighting how goblin and mortal engineering drives the logistics of frontline war."
+   "text": "As an Engineer, you can craft the Deadly Blunderbuss Pixel wants. Engineering supplies weapons and machinery for the Horde's war effort."
   },
   {
    "target": "faction:Horde",
-   "text": "The lumber camps in Ashenvale provide the vital structural spine for Orgrimmar's expansions, making every delivery of machinery essential to the Horde's survival on Kalimdor."
+   "text": "As a member of the Horde, you depend on Ashenvale's lumber camps for timber to build in Orgrimmar. Each machinery delivery helps keep the camps working."
   },
   {
    "target": "race:Orc",
-   "text": "The Warsong Clan staked their pride on logging Ashenvale under Grommash Hellscream; keeping their industrial blades turning honors the clan's continued foothold in the forest."
+   "text": "As an orc, you know the Warsong Clan stakes its pride on logging Ashenvale under Grommash Hellscream. Keeping the blades turning supports the clan's foothold in the forest."
   }
  ],
  "keywords": [
@@ -121,5 +121,6 @@
  ],
  "attribution": [
   "Warsong Saw Blades (quest)"
- ]
+ ],
+ "style": 1
 }

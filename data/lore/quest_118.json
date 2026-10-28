@@ -23,16 +23,16 @@
    "Howling in the Hills"
   ]
  },
- "summary": "Verner Osgood, the smith in Lakeshire, has depleted his supply of iron patching together equipment for the beleaguered town guard. With no metal left to shoe the local horses, he sends a courier across Elwynn Forest to enlist help from Smith Argus in Goldshire.",
+ "summary": "Verner Osgood has run out of iron in Lakeshire, where the guard's gear needs constant repair. He sends you west across Elwynn Forest to ask Smith Argus in Goldshire for horseshoes.",
  "sections": [
   {
    "title": "A Frontier Strained to the Limit",
-   "body": "Lakeshire sits directly in the crosshairs of gnolls, orcs, and murlocs, yet Stormwind offers precious little reinforcement. The local garrison has to fight daily to keep the township from falling, and that relentless combat wears gear down quickly. Verner Osgood spends nearly every waking hour repairing dented breastplates, reshaping dulled swords, and keeping the town guards clad in iron, exhausting his raw materials in the process.",
+   "body": "Lakeshire faces gnolls, orcs, and murlocs, while Stormwind sends little help. The garrison fights each day to keep the town from falling, and battle quickly wears down its gear. Verner Osgood spends nearly every waking hour repairing dented breastplates, reshaping dulled swords, and keeping the guards clad in iron. The work has exhausted his supply of raw materials.",
    "spoiler": 0
   },
   {
    "title": "Supply Lines to Elwynn",
-   "body": "When a frontier settlement runs completely out of iron, even mundane tasks ground to a halt. Without horseshoes, messengers cannot ride swift relays and draft animals cannot haul supplies across the rocky paths of Redridge. Verner must swallow his pride and appeal to the heartland, sending travelers west down the Three Corners road to Goldshire, where Smith Argus still enjoys regular access to the royal realm's deep mineral stores.",
+   "body": "Without iron, even ordinary work in a frontier town can stop. Horses without shoes cannot carry messengers swiftly or haul supplies along Redridge's rocky paths. Verner swallows his pride and sends you west along the Three Corners road to Goldshire. Smith Argus there still has regular access to the kingdom's mineral stores.",
    "spoiler": 0
   }
  ],
@@ -44,7 +44,7 @@
     "verner out of metal",
     "lakeshire iron shortage"
    ],
-   "answer": "The local guards in Lakeshire face constant assaults from Redridge's hostile wildlife, gnolls, and Blackrock orcs. Verner has been pouring all his iron stock into repairing their battered armor and weapons, leaving none behind for civilian needs."
+   "answer": "Lakeshire's guards face constant assaults from hostile wildlife, gnolls, and Blackrock orcs. Verner has used his iron to repair their battered armor and weapons, leaving none for civilian needs."
   },
   {
    "q": "Who is Smith Argus?",
@@ -53,7 +53,7 @@
     "who is argus",
     "blacksmith in goldshire"
    ],
-   "answer": "Smith Argus is the resident blacksmith of Goldshire in Elwynn Forest. Located near the bustling center of the kingdom, his forge has far easier access to raw ingots and supplies than frontier towns like Lakeshire."
+   "answer": "Smith Argus is Goldshire's blacksmith in Elwynn Forest. His forge has easier access to raw ingots and supplies than frontier towns such as Lakeshire."
   },
   {
    "q": "Why does Lakeshire lack supplies from Stormwind?",
@@ -62,7 +62,7 @@
     "lakeshire ignored",
     "stormwind neglect"
    ],
-   "answer": "Stormwind's rulers are entangled in political inertia while King Varian Wrynn remains missing. With the House of Nobles withholding troops and funds, frontier towns like Lakeshire are largely left to fend for themselves using whatever regional trade they can muster."
+   "answer": "Stormwind's rulers are caught in political inertia while King Varian Wrynn is missing. The House of Nobles withholds troops and funds, leaving frontier towns such as Lakeshire to fend for themselves with whatever regional trade they can muster."
   },
   {
    "q": "Why are horseshoes so critical in Redridge?",
@@ -70,7 +70,7 @@
     "why need horseshoes",
     "why shoes matter"
    ],
-   "answer": "Redridge's rocky, unforgiving terrain quickly destroys the hooves of unshod beasts. Without shoes, messenger couriers, supply wagons, and patrol mounts become lame, cutting Lakeshire off from the rest of the kingdom."
+   "answer": "Redridge's rocky terrain quickly wears down unshod hooves. Without horseshoes, couriers, supply wagons, and patrol mounts can go lame, cutting Lakeshire off from the rest of the kingdom."
   },
   {
    "q": "What happens after reaching Smith Argus?",
@@ -78,7 +78,7 @@
     "next quest",
     "what after argus"
    ],
-   "answer": "Argus accepts Verner's note and provides a shipment of horseshoes for you to carry back to Lakeshire, opening up further tasks to help secure the embattled settlement."
+   "answer": "Argus accepts Verner's note and gives you horseshoes to carry back to Lakeshire. The town's struggle to hold out continues."
   },
   {
    "q": "Where is Smith Argus located in Goldshire?",
@@ -86,17 +86,17 @@
     "where is argus",
     "argus location"
    ],
-   "answer": "He can be found working the outdoor forge near the Lion's Pride Inn in Goldshire, just off the main road through Elwynn Forest."
+   "answer": "Smith Argus works at the outdoor forge near the Lion's Pride Inn in Goldshire, just off Elwynn Forest's main road."
   }
  ],
  "angles": [
   {
    "target": "profession:Blacksmithing",
-   "text": "The request highlights the harsh material realities of frontier smithing, where a craftsman's forge must prioritize surviving soldiers over ordinary farmsteads."
+   "text": "A frontier smith must spend scarce materials keeping soldiers alive, leaving little for ordinary farmsteads."
   },
   {
    "target": "faction:Alliance",
-   "text": "Lakeshire's reliance on Goldshire underscores how thinly stretched the kingdom's logistics are under the regency in Stormwind."
+   "text": "Lakeshire depends on Goldshire for supplies, showing how thinly stretched the kingdom's logistics are under Stormwind's regency."
   }
  ],
  "keywords": [
@@ -121,5 +121,6 @@
  ],
  "attribution": [
   "The Price of Shoes"
- ]
+ ],
+ "style": 1
 }

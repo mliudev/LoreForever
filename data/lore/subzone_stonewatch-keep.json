@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Stonewatch Keep"
  },
- "summary": "Stonewatch Keep is a fortified stone stronghold looming in eastern Redridge Mountains, once built and manned by the Kingdom of Stormwind. It has fallen to an invading host of Blackrock orcs, serving as the forward operational base from which their warlords terrorize Lakeshire.",
+ "summary": "Blackrock orcs hold Stonewatch Keep in eastern Redridge Mountains, turning it against Lakeshire. The Kingdom of Stormwind built and manned the fortress before the invaders seized it as a base for their warlords.",
  "sections": [
   {
    "title": "A Fallen Bastion",
-   "body": "Stonewatch Keep originally defended the eastern ridges and guarded the settlers of Lakeshire against hostile incursions. That peace shattered when the renegade warlock Morganth struck an alliance with the Blackrock clan. Bolstered by dark magic, the orcs stormed the fortress with vicious ferocity, overwhelming the human defenders and taking the keep for themselves. Although Morganth later abandoned his allies to raise the nearby Tower of Ilgalar and subjugate local gnolls, the Blackrock invaders successfully consolidated their grip over Stonewatch, transforming a former bastion of the Alliance into a fortified staging ground for their assault on the valley.",
+   "body": "Stonewatch Keep once guarded the eastern ridges and the settlers of Lakeshire from hostile incursions. That changed when the renegade warlock Morganth allied with the Blackrock clan. Strengthened by dark magic, the orcs stormed the fortress and overcame its human defenders. After their victory, Morganth abandoned the Blackrock clan to raise the nearby Tower of Ilgalar and subjugate local gnolls. The invaders kept Stonewatch, turning a former Alliance bastion into a staging ground for assaults on the valley.",
    "spoiler": 0
   },
   {
    "title": "The Warlord's Seat",
-   "body": "Now occupied by a heavy garrison of Blackrock warriors, the keep is overseen by the formidable orcish warlord Gath'Ilzogg and his brutal lieutenant, Tharil'zun. From the stone ramparts, these commanders coordinate raids across Redridge, taking prisoners such as Stormwind's Corporal Keeshan. With the kingdom's military spread thin and unable to dispatch a full regiment to liberate the fortress, Magistrate Solomon and Marshal Marris have been forced to hire mercenary champions to infiltrate the stronghold and execute the Blackrock leadership before Lakeshire is completely overrun.",
+   "body": "A heavy garrison of Blackrock warriors holds Stonewatch Keep under the command of the orc warlord Gath'Ilzogg and his lieutenant, Tharil'zun. From the ramparts, they direct raids across Redridge and take prisoners, including Stormwind's Corporal Keeshan. Stormwind's forces are spread thin, leaving the kingdom unable to send a full regiment to reclaim the fortress. Magistrate Solomon and Marshal Marris have hired mercenary champions to enter the stronghold and kill the Blackrock leaders before Lakeshire is overrun.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "who lives in stonewatch keep",
     "stonewatch keep enemies"
    ],
-   "answer": "The keep is currently occupied by the Blackrock clan, led on-site by Warlord Gath'Ilzogg and his lieutenant Tharil'zun. It was formerly an Alliance stronghold defending the town of Lakeshire before it was captured."
+   "answer": "The Blackrock clan holds Stonewatch Keep under Warlord Gath'Ilzogg and his lieutenant, Tharil'zun. The fortress once belonged to the Alliance and protected Lakeshire before its capture."
   },
   {
    "q": "How did the Blackrock orcs capture the keep?",
@@ -37,7 +37,7 @@
     "fall of stonewatch keep",
     "why did stonewatch fall"
    ],
-   "answer": "The Blackrock clan allied with the rogue human warlock Morganth. Empowered by Morganth's dark sorcery, the orcs launched a ferocious assault that overwhelmed the human defenders stationed at Stonewatch."
+   "answer": "Morganth, a renegade human warlock, allied with the Blackrock clan. His dark magic strengthened the orcs as they stormed Stonewatch and overwhelmed its human defenders."
   },
   {
    "q": "Why doesn't the Stormwind Army retake Stonewatch Keep?",
@@ -46,7 +46,7 @@
     "where are the guards",
     "lakeshire army help"
    ],
-   "answer": "The Stormwind Army has left Redridge largely neglected due to internal politics and troop shortages across the kingdom. As a result, Lakeshire's town leaders must rely on independent adventurers to deal with the threat."
+   "answer": "Internal politics and troop shortages across the kingdom have left Redridge largely neglected by Stormwind's army. Lakeshire's leaders must rely on independent adventurers to face the threat."
   },
   {
    "q": "What is Morganth's connection to this fortress?",
@@ -54,17 +54,17 @@
     "morganth stonewatch",
     "is morganth inside stonewatch keep"
    ],
-   "answer": "Morganth helped the Blackrock clan conquer Stonewatch Keep, but betrayed them shortly after their victory. He relocated to construct his own lair, the Tower of Ilgalar, using ensorcelled Shadowhide gnolls rather than orcs to do his bidding."
+   "answer": "Morganth helped the Blackrock clan capture Stonewatch Keep, then abandoned them after their victory. He went to the nearby Tower of Ilgalar, where he raised his lair and used ensorcelled Shadowhide gnolls to do his bidding."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Stonewatch Keep is a painful reminder of Stormwind's strained borders; clearing its ramparts is essential to protecting Lakeshire's vulnerable townsfolk."
+   "text": "For the Alliance, Stonewatch Keep recalls Stormwind's strained borders. Its ramparts must be cleared to protect Lakeshire's vulnerable townsfolk."
   },
   {
    "target": "race:Human",
-   "text": "Human defenders shed blood defending these walls, and liberating the keep helps avenge the fallen soldiers and captives taken by the Blackrock clan."
+   "text": "As a human, you can honor the defenders who shed blood at Stonewatch by helping free the keep and avenge the soldiers and captives taken by the Blackrock clan."
   }
  ],
  "keywords": [
@@ -89,5 +89,6 @@
  ],
  "attribution": [
   "Stonewatch Keep"
- ]
+ ],
+ "style": 1
 }

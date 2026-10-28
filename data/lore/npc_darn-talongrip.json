@@ -8,16 +8,16 @@
   "wiki": "Darn Talongrip",
   "refs": 1
  },
- "summary": "Darn Talongrip is an orc scout stationed along the frontier of the Stonetalon Mountains near Malaka'jin. He monitors local threats in the crags and helps coordinate Horde communication between forward outposts and regional commanders.",
+ "summary": "Near Malaka'jin, Darn Talongrip watches the Stonetalon frontier. The orc scout tracks threats in the crags and carries word between forward outposts and Horde commanders.",
  "sections": [
   {
    "title": "Frontier Scout of Stonetalon",
-   "body": "Darn Talongrip watches the rugged ascents leading into Stonetalon from the southern Barrens. Stationed in the settlement of Malaka'jin, Darn directs recruits toward the Horde's new fronts in Ashenvale. His post serves as an early line of contact for travelers winding upward into contested peaks.",
+   "body": "Darn Talongrip watches the rugged climbs into Stonetalon from the southern Barrens. At Malaka'jin, he directs recruits toward the Horde's new fronts in Ashenvale. Travelers climbing into the contested peaks can reach the Horde through his post.",
    "spoiler": 0
   },
   {
    "title": "Eyes for the Command",
-   "body": "From his post in Malaka'jin, Darn ensures messages and frontline reports reach key commanders like Kadrak at the watch tower in the northern Barrens. Outlying encampments in these mountains operate under constant pressure, making Darn's role as a sentry and courier essential to keeping the Horde vanguard informed.",
+   "body": "From Malaka'jin, Darn sends messages and reports from the front to commanders such as Kadrak, at the watch tower in the northern Barrens. Encampments scattered through the mountains face constant pressure, and Darn keeps the Horde vanguard informed as a sentry and courier.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "darn talongrip identity",
     "who is this orc"
    ],
-   "answer": "Darn Talongrip is an orc scout stationed in Malaka'jin in the southern reaches of the Stonetalon Mountains."
+   "answer": "Darn Talongrip scouts for the Horde from Malaka'jin in the southern Stonetalon Mountains."
   },
   {
    "q": "Where can Darn Talongrip be found?",
@@ -38,7 +38,7 @@
     "where is darn talongrip",
     "darn talongrip coordinates"
    ],
-   "answer": "He can be found in the troll settlement of Malaka'jin in the Stonetalon Mountains."
+   "answer": "Darn Talongrip can be found in the troll settlement of Malaka'jin, in the Stonetalon Mountains."
   },
   {
    "q": "What is his role in Stonetalon?",
@@ -46,7 +46,7 @@
     "what does darn talongrip do",
     "darn talongrip purpose"
    ],
-   "answer": "Darn directs new recruits to Kadrak in the northern Barrens to help defend the Horde's outposts in Ashenvale."
+   "answer": "Darn directs recruits to Kadrak in the northern Barrens to help defend the Horde's outposts in Ashenvale."
   },
   {
    "q": "Who is Kadrak, and why does Darn send travelers to him?",
@@ -54,17 +54,17 @@
     "who is kadrak",
     "report to kadrak"
    ],
-   "answer": "Kadrak is a Horde commander stationed at the watch tower in the northern Barrens, heading up the Horde's Ashenvale campaign. Darn directs new recruits to him to help defend the Horde's new fronts in Ashenvale."
+   "answer": "Kadrak commands the Horde from the watch tower in the northern Barrens and leads its Ashenvale campaign. Darn sends recruits to him to help defend the Horde's new fronts in Ashenvale."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "Darn Talongrip keeps early watch along the ascent into Stonetalon, acting as a valuable contact for Horde adventurers fresh from the Barrens."
+   "text": "Darn Talongrip watches the ascent into Stonetalon and gives Horde adventurers fresh from the Barrens a point of contact."
   },
   {
    "target": "race:Orc",
-   "text": "Like many orc scouts, Darn embraces the harsh conditions of the frontier, standing watch amid jagged rocks and hostile wildlife."
+   "text": "As an orc, you know the harsh frontier where Darn keeps watch among jagged rocks and hostile wildlife."
   }
  ],
  "keywords": [
@@ -82,5 +82,6 @@
  ],
  "attribution": [
   "Darn Talongrip"
- ]
+ ],
+ "style": 1
 }

@@ -8,16 +8,16 @@
   "wiki": "Vorn Skyseer",
   "refs": 1
  },
- "summary": "Vorn Skyseer is a peaceful tauren resident of Camp Narache atop Red Cloud Mesa in Mulgore. Resting among the camp's tents, he greets young adventurers beginning their journeys and introduces them to local life.",
+ "summary": "At Camp Narache, Vorn Skyseer welcomes young tauren beginning their journeys. He lives among the tents on Red Cloud Mesa in Mulgore and introduces newcomers to camp life.",
  "sections": [
   {
    "title": "A Friendly Face at Camp Narache",
-   "body": "Situated in Camp Narache on Red Cloud Mesa, Vorn Skyseer serves as an informal welcoming presence for young tauren. As they undertake their rites of passage before venturing into the wider valleys of Mulgore, Vorn offers kind words and hospitality, helping new arrivals settle into the camp.",
+   "body": "At Camp Narache, Vorn Skyseer greets young tauren beginning their rites of passage. They prepare to leave Red Cloud Mesa for the wider valleys of Mulgore, and his kind words and welcome help them settle into camp.",
    "spoiler": 0
   },
   {
    "title": "A Detached Observer",
-   "body": "Vorn is no warrior. He leaves the camp's defense to its braves and keeps to a quiet, unhurried life, content to watch over the tranquil plains of his homeland.",
+   "body": "Vorn Skyseer leaves the camp's defense to its braves. He lives quietly and without hurry, watching over the plains of his homeland.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "who is vorn",
     "vorn mulgore"
    ],
-   "answer": "Vorn Skyseer is an elder resident of Camp Narache in Mulgore. He primarily serves to welcome young tauren braves beginning their introductory rites at Red Cloud Mesa."
+   "answer": "Vorn Skyseer is an elder resident of Camp Narache in Mulgore. He welcomes young tauren braves beginning their introductory rites at Red Cloud Mesa."
   },
   {
    "q": "Where can I find Vorn Skyseer?",
@@ -38,7 +38,7 @@
     "where is vorn",
     "vorn camp narache"
    ],
-   "answer": "He can be found resting outdoors among the tents of Camp Narache, atop Red Cloud Mesa in southwestern Mulgore."
+   "answer": "You can find Vorn Skyseer resting outdoors among the tents of Camp Narache, atop Red Cloud Mesa in southwestern Mulgore."
   },
   {
    "q": "What quests does Vorn offer?",
@@ -46,17 +46,17 @@
     "vorn skyseer quests",
     "vorn welcome quest"
    ],
-   "answer": "He receives the Bloodhoof Village Gift Voucher in the quest Welcome!, greeting its bearer and offering a small companion to join them on their adventures."
+   "answer": "Vorn receives the Bloodhoof Village Gift Voucher in Welcome! He greets its bearer and offers a small companion to join them on their adventures."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "For young tauren on Red Cloud Mesa, Vorn Skyseer is often one of the first familiar, reassuring faces to greet them as they prepare to step into the wider life of Mulgore."
+   "text": "As a young tauren on Red Cloud Mesa, you may find Vorn Skyseer among the first familiar, reassuring faces to greet you as you prepare for the wider life of Mulgore."
   },
   {
    "target": "faction:Horde",
-   "text": "Vorn exemplifies the calm and steady nature of the plains tribes who have gathered under Cairne Bloodhoof's leadership to build a permanent home."
+   "text": "As a member of the Horde, you can see in Vorn the calm, steady nature of the plains tribes gathered under Cairne Bloodhoof's leadership to build a permanent home."
   }
  ],
  "keywords": [
@@ -74,5 +74,6 @@
  ],
  "attribution": [
   "Vorn Skyseer"
- ]
+ ],
+ "style": 1
 }

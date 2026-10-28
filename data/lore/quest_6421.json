@@ -17,16 +17,16 @@
   "wiki": "Boulderslide Ravine (quest)",
   "chain": []
  },
- "summary": "Deep in the Boulderslide Ravine of the Stonetalon Mountains, local kobolds have begun frantically mining a rare subterranean mineral known as Resonite. Sensing a growing tension in the earth, the tauren Mor'rogal sends Horde adventurers to explore the ravine's cave system and retrieve mineral samples to uncover what lies buried beneath the rock.",
+ "summary": "Kobolds dig furiously for Resonite in Boulderslide Ravine, deep in the Stonetalon Mountains. From Sun Rock Retreat, Mor'rogal sends Horde scouts into the caves for samples, troubled by a growing tension in the earth.",
  "sections": [
   {
    "title": "Tension in the Stone",
-   "body": "From his post at Sun Rock Retreat, the tauren Mor'rogal watches the peaks of the Stonetalon Mountains with deep concern. The land itself feels disturbed, an unnatural agitation radiating from the southeast. There, within the crags of Boulderslide Ravine, the local kobolds have abandoned their ordinary foraging to aggressively excavate a rare, subterranean mineral known as Resonite. To determine why these superstitious vermin are mining with such desperate frenzy, Mor'rogal enlists Horde scouts to push past their defenses, plumb the lowest depths of the cavern, and bring back unrefined mineral samples.",
+   "body": "At Sun Rock Retreat, Mor'rogal watches the Stonetalon peaks with concern. The earth feels disturbed, with an unnatural agitation rising from the southeast. In Boulderslide Ravine, kobolds have left their usual foraging to dig aggressively for Resonite, a rare mineral found beneath the surface. Mor'rogal sends Horde scouts past the kobolds and into the cave's deepest reaches to learn why they mine with such frenzy. He asks them to bring back raw samples.",
    "spoiler": 0
   },
   {
    "title": "Awakening the Ancients",
-   "body": "When the raw Resonite is inspected, its true nature becomes clear: the crystals hum with ancient Earthen magic. Kobolds digging blindly into the deep stone have breached an ancient layer of the world and unearthed an Earthen, one of the primordial stone-beings shaped by the Titans to sculpt the subterranean foundations of Kalimdor. What the kobolds treat as mere quarry has disturbed a relic of primordial history, forcing the tauren to intervene before whatever lies buried breaks free.",
+   "body": "Raw Resonite crystals hum with ancient Earthen magic. The kobolds have dug into a layer of the deep stone and uncovered an Earthen, one of the primordial stone-beings the Titans shaped to form Kalimdor's subterranean foundations. Their mining has disturbed a relic of primordial history. The tauren must act before the buried being breaks free.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "where is boulderslide ravine",
     "how to find boulderslide ravine"
    ],
-   "answer": "Boulderslide Ravine cuts into the mountains southeast of Sun Rock Retreat in the Stonetalon Mountains. The ravine leads into a winding cave system overrun with Boulderslide kobolds."
+   "answer": "Boulderslide Ravine cuts into the Stonetalon Mountains southeast of Sun Rock Retreat. Its winding caves are overrun with Boulderslide kobolds."
   },
   {
    "q": "Who gives the quest Boulderslide Ravine?",
@@ -47,7 +47,7 @@
     "quest giver boulderslide ravine",
     "mor'rogal quest"
    ],
-   "answer": "The quest is given by Mor'rogal, a tauren located at Sun Rock Retreat, the primary Horde outpost in the Stonetalon Mountains."
+   "answer": "Mor'rogal, a tauren at Sun Rock Retreat, gives the task. Sun Rock Retreat is the main Horde outpost in the Stonetalon Mountains."
   },
   {
    "q": "What are Resonite Crystals?",
@@ -56,7 +56,7 @@
     "resonite lore",
     "resonite crystals"
    ],
-   "answer": "Resonite is a rare mineral found deep within the Boulderslide cave system. It carries lingering traces of Titan-forged Earthen magic, indicating that the crystals were formed in close proximity to subterranean Earthen relics."
+   "answer": "Resonite is a rare mineral from deep in the Boulderslide cave system. It carries traces of Titan-forged Earthen magic, a sign that the crystals formed near subterranean Earthen relics."
   },
   {
    "q": "Why are the kobolds mining Resonite so frantically?",
@@ -65,7 +65,7 @@
     "boulderslide kobolds goal",
     "kobold plot stonetalon"
    ],
-   "answer": "The kobolds stumbled upon Resonite while digging and, in their voracious search for shiny ores, penetrated deep beneath the mountains until they disturbed an ancient Earthen buried in the rock."
+   "answer": "The kobolds found Resonite while digging for shiny ores. Their digging carried them deep beneath the mountains, where they disturbed an ancient Earthen buried in the rock."
   },
   {
    "q": "What is an Earthen according to tauren lore?",
@@ -74,7 +74,7 @@
     "earthen titan connection",
     "who are earthen"
    ],
-   "answer": "According to ancient lore recalled by Mor'rogal, the Earthen are stone-hewn creatures forged by the Titans long ago to carve and shape the very bedrock of the world."
+   "answer": "Mor'rogal's ancient lore calls the Earthen stone-hewn creatures the Titans forged long ago to carve and shape the world's bedrock."
   },
   {
    "q": "What happens after completing this quest?",
@@ -83,21 +83,21 @@
     "what follows boulderslide ravine",
     "boulderslide ravine follow up"
    ],
-   "answer": "Upon identifying the Earthen magic within the Resonite crystals, Mor'rogal prepares an enchanted countermeasure and offers the follow-up quest 'Earthen Arise', sending you back into the cavern to confront the awakened threat."
+   "answer": "After finding Earthen magic in the Resonite crystals, Mor'rogal prepares an enchanted countermeasure. He sends you back into the cavern to face the awakened threat."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "For tauren who revere the Earth Mother, unearthing ancient Titan workings beneath the mountains signals a dangerous disturbance in the natural balance of Stonetalon."
+   "text": "As a tauren who reveres the Earth Mother, you may see ancient Titan workings beneath the mountains as a dangerous disturbance in Stonetalon's natural balance."
   },
   {
    "target": "class:Shaman",
-   "text": "Shaman who listen to the earth can sense the unnatural resonance vibrating through the rock as the kobolds unseal relics of primordial Titan elemental crafting."
+   "text": "As a shaman who listens to the earth, you can sense an unnatural resonance through the rock as kobolds uncover relics of primordial Titan elemental craft."
   },
   {
    "target": "profession:Mining",
-   "text": "The Resonite mined by the Boulderslide kobolds is not ordinary ore; its matrix is infused with ancient arcane residue left by subterranean builders of old."
+   "text": "As a miner, you can tell that the Resonite from Boulderslide is no ordinary ore. Its matrix holds ancient arcane residue left by subterranean builders."
   }
  ],
  "keywords": [
@@ -122,5 +122,6 @@
  ],
  "attribution": [
   "Boulderslide Ravine (quest)"
- ]
+ ],
+ "style": 1
 }

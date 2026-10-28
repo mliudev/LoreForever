@@ -12,16 +12,16 @@
   "harvested": true,
   "level": "17"
  },
- "summary": "Show of Force is an Alliance defensive task in the Redridge Mountains issued by Deputy Feldon. Tasked with halting encroaching gnoll packs near Lakeshire, adventurers are sent to hunt gnoll thrashers and collect their spiked collars to deter further incursions into human settlements.",
+ "summary": "Deputy Feldon sends you to drive gnoll packs back from Lakeshire. The Redridge guards need proof that the thrashers have been beaten.",
  "sections": [
   {
    "title": "A Bold Encroachment",
-   "body": "The Redridge Mountains have long sheltered wild tribes of gnolls, but they have grown increasingly audacious. Rather than remaining isolated high in the craggy hills, gnoll raiding packs have set up camps disturbingly close to Lakeshire and the outlying human homesteads. With Stormwind's military stretched thin and unable to spare reinforcements for rural borderlands, local authorities must rely on passing adventurers to secure the perimeter before these encroaching bands gather the nerve to strike the town itself.",
+   "body": "Gnoll packs have grown bolder in the Redridge Mountains. Their camps now lie close to Lakeshire and the human homesteads beyond it. Stormwind has too few soldiers to spare for the borderlands, so local authorities depend on travelers to hold the perimeter. The gnolls have not yet struck the town, but their camps bring them within reach of its homes.",
    "spoiler": 0
   },
   {
    "title": "Speaking Their Language",
-   "body": "Deputy Feldon recognizes that gnolls are brutal, disorganized creatures who respect little beyond sheer martial dominance. To force them back into the wilderness, diplomatic appeals or half-measures are useless. Feldon seeks to strike at their most ferocious vanguards\u2014the gnoll thrashers\u2014and harvest their spiked collars as grim proof of dominance. By breaking their frontline fighters and flaunting trophies of their defeat, Lakeshire's defenders hope to intimidate the surviving packs into retreating back to the highlands.",
+   "body": "Deputy Feldon knows the gnolls respect strength above all. He wants you to hunt their fiercest fighters, the gnoll thrashers, and bring back their spiked collars as proof of defeat. By breaking the front line and showing the trophies, Lakeshire's defenders hope to frighten the surviving packs into retreating to the highlands.",
    "spoiler": 0
   }
  ],
@@ -33,7 +33,7 @@
     "deputy feldon location",
     "who gives show of force"
    ],
-   "answer": "The quest is offered by Deputy Feldon, a town guard stationed on the perimeter near Lakeshire in the Redridge Mountains."
+   "answer": "Deputy Feldon offers this work from the town guard perimeter near Lakeshire in the Redridge Mountains."
   },
   {
    "q": "Why are the gnolls pushing so close to Lakeshire?",
@@ -42,7 +42,7 @@
     "gnoll threat redridge",
     "why gnolls close"
    ],
-   "answer": "Gnolls are aggressive opportunists who test their boundaries. As Lakeshire struggles with stretched defenses and little military aid from Stormwind, the gnolls have grown bold enough to establish hunting camps right outside human-settled lands."
+   "answer": "The gnolls have grown bold while Lakeshire's defenses are stretched and Stormwind sends little military aid. They have established hunting camps close to human settlements."
   },
   {
    "q": "What enemies need to be defeated for this mission?",
@@ -51,7 +51,7 @@
     "what mobs to kill",
     "gnoll thrashers"
    ],
-   "answer": "The mission targets gnoll thrashers, the more dangerous and aggressive shock-fighters of the local packs, who wear heavy spiked collars."
+   "answer": "You are sent after gnoll thrashers, the more dangerous fighters in the local packs, who wear spiked collars."
   },
   {
    "q": "Why does Deputy Feldon want spiked collars specifically?",
@@ -60,7 +60,7 @@
     "collar purpose",
     "why take collars"
    ],
-   "answer": "Gnolls operate on brutal hierarchy and raw strength. Taking the spiked collars of their thrashers serves as a direct display of force, aiming to frighten the surviving gnolls into retreating back up into the hills."
+   "answer": "Deputy Feldon wants the thrashers' collars as a show of strength, to frighten the other gnolls into retreating to the hills."
   },
   {
    "q": "Can Stormwind provide soldiers to deal with the gnolls?",
@@ -69,7 +69,7 @@
     "why no stormwind army",
     "where are the guards"
    ],
-   "answer": "Stormwind has left Redridge largely to defend itself. Facing domestic instability and troop shortages across the kingdom, the capital has sent virtually no reinforcements, forcing local deputies to rely on independent champions."
+   "answer": "Stormwind has sent almost no reinforcements, leaving Redridge to defend itself amid instability and troop shortages across the kingdom."
   },
   {
    "q": "Where are the gnolls typically encamped in Redridge?",
@@ -78,21 +78,21 @@
     "where to find gnolls",
     "gnoll locations redridge"
    ],
-   "answer": "Gnoll encampments are scattered throughout the hills and low ridges bordering Lake Everstill and the roads leading east toward the Stonewatch region."
+   "answer": "Gnoll camps lie across the hills and low ridges by Lake Everstill and along the roads east toward Stonewatch."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Lakeshire stands as one of the easternmost bastions of the Alliance in the southern Eastern Kingdoms; securing its borders against beastly incursions is vital for regional stability."
+   "text": "Lakeshire is one of the Alliance's easternmost strongholds in the southern Eastern Kingdoms. Its borders must hold against attacks by wild beasts."
   },
   {
    "target": "race:Human",
-   "text": "Redridge's homesteaders and townsfolk are fellow subjects of Stormwind, left dangerously unprotected and relying on their kin to repel wild marauders."
+   "text": "As a human, Redridge's settlers and townsfolk are your fellow subjects of Stormwind. They are left exposed to marauders and rely on their own people to drive them back."
   },
   {
    "target": "class:Warrior",
-   "text": "Gnolls only yield to displays of direct, crushing violence\u2014making straightforward front-line martial discipline the ideal method to break their ranks."
+   "text": "As a warrior, you meet the gnolls with direct force. They yield only to strength, so disciplined fighting at the front can break their ranks."
   }
  ],
  "keywords": [
@@ -114,5 +114,6 @@
  ],
  "attribution": [
   "In-game quest text: Show of Force"
- ]
+ ],
+ "style": 1
 }

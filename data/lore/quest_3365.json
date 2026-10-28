@@ -17,16 +17,16 @@
   "wiki": "Bring Back the Mug",
   "chain": []
  },
- "summary": "After delivering a piping hot draught of Mornbrew across the snowdrifts of Dun Morogh, one final errand remains: returning the empty tankard. Durnan Furcutter sends the runner back across Coldridge Valley to return Nori Pridedrift's prized mug. It is a simple courtesy, but one the brew seller deeply appreciates.",
+ "summary": "Durnan Furcutter sends you back across Coldridge Valley with Nori Pridedrift's empty mug. Returning it brings the Mornbrew delivery to a close.",
  "sections": [
   {
    "title": "A Matter of Tavern Etiquette",
-   "body": "Serving piping hot Mornbrew out in the biting freeze of Dun Morogh is a delicate business. Once Durnan Furcutter has finished warming his bones with the scalding brew, the empty tankard cannot simply be tossed in the snow. Dwarven hospitality runs on mutual respect, and letting good dishware go missing is a sure way to find oneself cut off from future rounds.",
+   "body": "Durnan Furcutter has finished warming himself with the Mornbrew you delivered across Dun Morogh's snowdrifts. Now he sends you back with the empty tankard. In the biting cold, dwarven hospitality depends on mutual respect, and good dishware must not be left behind.",
    "spoiler": 0
   },
   {
    "title": "Mugs Don't Grow on Trees",
-   "body": "Returning to Coldridge Valley completes the delivery run for Nori Pridedrift. As Nori is fond of reminding forgetful couriers, sturdy drinkware does not simply grow on trees\u2014especially not in the subzero crags of the dwarven homeland. Returning the empty vessel in one piece cements an adventurer's reputation as a reliable hand in the local community.",
+   "body": "Your return to Coldridge Valley completes the delivery for Nori Pridedrift. Sturdy drinkware does not grow on trees, especially in the dwarven homeland's subzero crags. Bringing the empty vessel back in one piece shows that you can be trusted in the local community.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who gives bring back the mug",
     "durnan furcutter quest"
    ],
-   "answer": "Durnan Furcutter gives you this task immediately after you deliver the freshly brewed Mornbrew to him out in Dun Morogh."
+   "answer": "After you deliver the freshly brewed Mornbrew to Durnan Furcutter in Dun Morogh, he sends you back with the empty tankard."
   },
   {
    "q": "Who do I return the mug to?",
@@ -47,7 +47,7 @@
     "who gets the mug",
     "nori location"
    ],
-   "answer": "You return the empty mug to Nori Pridedrift, who wanders Coldridge Valley in Dun Morogh selling his mornbrew."
+   "answer": "Return the empty mug to Nori Pridedrift, who wanders Coldridge Valley in Dun Morogh selling his mornbrew."
   },
   {
    "q": "Is there a time limit to return the mug?",
@@ -56,7 +56,7 @@
     "mug timer",
     "do i have to hurry back"
    ],
-   "answer": "No. While the initial delivery of the Scalding Mornbrew had a strict timer to keep the drink piping hot, returning the empty mug can be done at your own pace."
+   "answer": "No. The initial delivery of the Scalding Mornbrew had a strict timer to keep it piping hot, but you can return the empty mug at your own pace."
   },
   {
    "q": "Why does Nori care so much about an empty mug?",
@@ -64,7 +64,7 @@
     "why does nori want the mug back",
     "importance of the mug"
    ],
-   "answer": "Quality mugs and steins are valuable barware in Dun Morogh. As Nori points out, mugs do not grow on trees, and taverns cannot afford to lose drinkware to every passing courier."
+   "answer": "Quality mugs and steins are valuable barware in Dun Morogh. Nori points out that mugs do not grow on trees, and taverns cannot afford to lose drinkware to passing couriers."
   },
   {
    "q": "What quest leads directly into this one?",
@@ -72,7 +72,7 @@
     "prerequisite quest",
     "what comes before bring back the mug"
    ],
-   "answer": "This errand is the direct follow-up to 'Scalding Mornbrew Delivery', beginning the moment Durnan drinks the beverage you brought him."
+   "answer": "This follows directly after Scalding Mornbrew Delivery, when Durnan drinks the beverage you brought him."
   },
   {
    "q": "Where can Durnan Furcutter be found?",
@@ -80,17 +80,17 @@
     "durnan location",
     "where is durnan"
    ],
-   "answer": "Durnan Furcutter is a cloth and leather armor merchant found inside Anvilmar, the settlement dug into the mountain in Coldridge Valley."
+   "answer": "Find Durnan Furcutter inside Anvilmar, the settlement dug into the mountain in Coldridge Valley. He sells cloth and leather armor."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "Every dwarf knows that keeping a tavernkeeper's tankard is a quick route to a brawl; returning Nori's mug is basic dwarven manners."
+   "text": "As a dwarf, you know that keeping a tavernkeeper's tankard can lead to a brawl. Returning Nori's mug is basic dwarven manners."
   },
   {
    "target": "profession:Cooking",
-   "text": "Any proper cook or brewer knows that quality service does not end until the dishware is accounted for and returned to the kitchen."
+   "text": "As a cook or brewer, you know good service ends only when the dishware is accounted for and returned to the kitchen."
   }
  ],
  "keywords": [
@@ -110,5 +110,6 @@
  ],
  "attribution": [
   "Bring Back the Mug"
- ]
+ ],
+ "style": 1
 }

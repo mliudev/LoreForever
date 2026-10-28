@@ -10,11 +10,11 @@
    "quest:2038"
   ]
  },
- "summary": "Bingles' Wrench is a vital piece of gnomish engineering gear belonging to the pilot Bingles Blastenheimer. Lost when Bingles crash-landed his flying machine into the Loch, it was hauled off by the local troggs alongside the rest of his toolkit.",
+ "summary": "Bingles' Wrench is missing, along with the pilot's other tools. Troggs took it after Bingles Blastenheimer crash-landed his flying machine into the Loch.",
  "sections": [
   {
    "title": "Salvage on the Islands",
-   "body": "After Bingles Blastenheimer crashed his gyrocopter into the placid waters of the Loch, his survival quickly turned into an ordeal. Troggs inhabiting the small northern islands raided the crash site, looting his specialized supplies and scattering his tools into various buckets across their camps. Bingles' Wrench is one of three critical hand tools needed alongside his high-yield Blastencapper explosives. Without it, Bingles has no hope of repairing his downed gyrocopter, stalling his planned aerial offensive to aid the exiled gnomes fighting to reclaim Gnomeregan.",
+   "body": "Bingles Blastenheimer survived his gyrocopter's crash into the Loch, but survival quickly became an ordeal. Troggs on the small northern islands raided the crash site, taking his specialized supplies and scattering his tools among buckets in their camps. Bingles' Wrench is one of three critical hand tools, alongside his high-yield Blastencapper explosives. Without the wrench, Bingles cannot repair his downed gyrocopter, delaying his planned aerial offensive to aid the exiled gnomes fighting to reclaim Gnomeregan.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "bingles owner",
     "wrench owner"
    ],
-   "answer": "The wrench belongs to Bingles Blastenheimer, an eccentric gnome pilot who crashed his gyrocopter into the Loch in Loch Modan."
+   "answer": "The wrench belongs to Bingles Blastenheimer, an eccentric gnome pilot whose gyrocopter crashed into the Loch."
   },
   {
    "q": "Why is the wrench so important to Bingles?",
@@ -35,7 +35,7 @@
     "wrench purpose",
     "what is wrench for"
    ],
-   "answer": "Bingles needs his specialized tools to repair his damaged flying machine and arm his explosive payload so he can launch an aerial assault against the troggs and leper gnomes occupying Gnomeregan."
+   "answer": "Bingles needs his specialized tools to repair his damaged flying machine and arm his explosive payload for an aerial assault against the troggs and leper gnomes occupying Gnomeregan."
   },
   {
    "q": "Where did the wrench end up after the crash?",
@@ -44,7 +44,7 @@
     "wrench location",
     "find bingles wrench"
    ],
-   "answer": "The wrench was scavenged by local troggs and stashed inside one of Bingles' stolen toolbuckets scattered across the northern islands of the Loch."
+   "answer": "Local troggs scavenged the wrench and stashed it in one of Bingles' stolen toolbuckets among their camps on the northern islands of the Loch."
   },
   {
    "q": "What else was stolen along with the wrench?",
@@ -53,17 +53,17 @@
     "missing tools",
     "what else did troggs take"
    ],
-   "answer": "Along with his wrench, the troggs made off with Bingles' Screwdriver, Bingles' Hammer, and his experimental Blastenheimer Blastencapper explosives."
+   "answer": "The troggs also took Bingles' Screwdriver, Bingles' Hammer, and his experimental Blastenheimer Blastencapper explosives."
   }
  ],
  "angles": [
   {
    "target": "race:Gnome",
-   "text": "Every tool recovered brings the gnomish resistance one step closer to taking the fight back to Gnomeregan's irradiated halls."
+   "text": "As a gnome, every recovered tool brings the resistance closer to taking the fight back to Gnomeregan's irradiated halls."
   },
   {
    "target": "profession:Engineering",
-   "text": "A craftsman knows that an engineer without their custom wrench is completely grounded, especially when facing salvage-hungry troggs."
+   "text": "As an engineer, you know a craftsman without a custom wrench is grounded, especially with troggs scavenging nearby."
   }
  ],
  "keywords": [
@@ -88,5 +88,6 @@
  "attribution": [
   "Bingles' Wrench",
   "Bingles' Missing Supplies"
- ]
+ ],
+ "style": 1
 }

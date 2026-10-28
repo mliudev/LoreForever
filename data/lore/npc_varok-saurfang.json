@@ -8,16 +8,16 @@
   "wiki": "Varok Saurfang",
   "refs": 1
  },
- "summary": "High Overlord Saurfang is a legendary orc warrior and a veteran of the Old Horde's wars. Serving as Warchief Thrall's trusted military commander in Orgrimmar, he represents the proud martial spine of the modern Horde.",
+ "summary": "In Orgrimmar, Varok Saurfang commands the Horde's war forces under Warchief Thrall. The veteran of the Old Horde's wars lends the young Horde his strength and experience.",
  "sections": [
   {
    "title": "A Living Legend of the Wars",
-   "body": "Few living warriors possess a martial pedigree to rival Saurfang. A veteran of the Old Horde's wars, he is considered an unstoppable force on the battlefield. Today he stands in Orgrimmar as High Overlord, a bulwark of Thrall's newborn Horde.",
+   "body": "Varok Saurfang carries the Old Horde's wars into the present. Few living warriors match his record, and many regard him as unstoppable in battle. Now High Overlord in Orgrimmar, he helps hold together Thrall's newborn Horde.",
    "spoiler": 0
   },
   {
    "title": "The Weight of the Blood",
-   "body": "Though he stands as an unmatched champion of the Horde, Saurfang is not driven by reckless battle-lust. While he will relentlessly defend the Horde and enforce Thrall's rule against any threat, Saurfang harbors a profound disdain for warmongering and fights strictly for honor and preservation.",
+   "body": "Varok Saurfang defends the Horde and enforces Thrall's rule against threats. He does not seek battle for its own sake. He despises warmongering and fights for honor and the Horde's preservation.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "who is saurfang",
     "high overlord saurfang"
    ],
-   "answer": "High Overlord Saurfang is a renowned orc warrior and the primary military commander serving Warchief Thrall in the Horde."
+   "answer": "Varok Saurfang is a renowned orc warrior and the primary military commander serving Warchief Thrall in the Horde."
   },
   {
    "q": "What wars did Saurfang fight in?",
@@ -38,7 +38,7 @@
     "did saurfang fight in the first war",
     "saurfang battles"
    ],
-   "answer": "Saurfang is a veteran of the Old Horde's wars against the Alliance. Today he fights for Thrall's Horde."
+   "answer": "Varok Saurfang fought in the Old Horde's wars against the Alliance. Now he fights for Thrall's Horde."
   },
   {
    "q": "How does Saurfang view the Horde's past?",
@@ -46,7 +46,7 @@
     "saurfang blood curse",
     "why does saurfang regret the past"
    ],
-   "answer": "Saurfang fought for the Old Horde in the days of the demon blood curse. Today he serves Thrall's Horde, which has turned away from that dark path."
+   "answer": "Varok Saurfang fought for the Old Horde in the days of the demon blood curse. Now he serves Thrall's Horde, which has turned from that path."
   },
   {
    "q": "What is Saurfang's role in the current Horde?",
@@ -54,17 +54,17 @@
     "what does saurfang do now",
     "saurfang orgrimmar role"
    ],
-   "answer": "He serves as High Overlord of Thrall's forces, overseeing military readiness, enforcing the Warchief's commands, and acting as a seasoned mentor to younger warriors within the Horde."
+   "answer": "Varok Saurfang leads Thrall's forces as High Overlord. He oversees military readiness, enforces the Warchief's commands, and mentors younger Horde warriors."
   }
  ],
  "angles": [
   {
    "target": "race:Orc",
-   "text": "To the orcs, High Overlord Saurfang is both the ultimate paragon of martial strength and a sobering reminder of the spiritual toll exacted by the demonic blood curse."
+   "text": "As an orc, you can look to High Overlord Saurfang as a paragon of martial strength and a reminder of the spiritual toll of the demonic blood curse."
   },
   {
    "target": "class:Warrior",
-   "text": "Warriors revere Saurfang as a peerless veteran whose axe technique, tactical battlefield brilliance, and enduring resolve define the ideal soldier."
+   "text": "As a warrior, you can revere Saurfang as a peerless veteran. His axe technique, tactical brilliance, and enduring resolve embody the ideal soldier."
   }
  ],
  "keywords": [
@@ -83,5 +83,6 @@
  ],
  "attribution": [
   "Varok Saurfang"
- ]
+ ],
+ "style": 1
 }

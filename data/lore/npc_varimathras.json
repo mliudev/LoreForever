@@ -8,21 +8,21 @@
   "wiki": "Varimathras",
   "refs": 3
  },
- "summary": "Varimathras is a dreadlord of the nathrezim race who serves as the chief lieutenant and military advisor to Lady Sylvanas Windrunner. Forced to pledge loyalty to the Banshee Queen after suffering defeat during the civil war for Lordaeron, he now stands at her right hand in the Royal Quarter of the Undercity.",
+ "summary": "In the Royal Quarter, Varimathras advises Lady Sylvanas Windrunner and commands her forces. Defeated during the civil war for Lordaeron, the dreadlord pledged himself to the Banshee Queen and now stands at her right hand in the Undercity.",
  "sections": [
   {
    "title": "Jailor of the Lich King",
-   "body": "Before the Third War, Kil'jaeden sent Varimathras and his fellow dreadlords to Azeroth as the Lich King's jailors, to make sure the spirit of Ner'zhul served the Legion's plans. Bound alongside his brothers Detheroc and Balnazzar, he oversaw the Scourge in Lordaeron while Archimonde invaded Kalimdor. When the Legion fell at Mount Hyjal, the triumvirate remained entrenched in the ruins of the Capital City, entirely unaware of their master's demise until Prince Arthas returned to drive them into hiding.",
+   "body": "Before the Third War, Kil'jaeden sent Varimathras and his fellow dreadlords to Azeroth to guard the Lich King and ensure Ner'zhul's spirit served the Legion's plans. With his brothers Detheroc and Balnazzar, Varimathras oversaw the Scourge in Lordaeron while Archimonde invaded Kalimdor. The Legion fell at Mount Hyjal, but the three dreadlords remained entrenched in the ruins of the Capital City. They did not learn of their master's defeat until Prince Arthas returned and drove them into hiding.",
    "spoiler": 0
   },
   {
    "title": "A Demon's Surrender",
-   "body": "As the Lich King's hold over his undead forces fractured, Varimathras attempted to coerce the newly freed banshee Sylvanas Windrunner into serving the dreadlords' new regime. Sylvanas refused, rallying liberated undead to crush Varimathras's outpost. Facing execution, the dreadlord fell to his knees and bartered for his life, trading tactical secrets and knowledge of his brothers' fortifications in exchange for survival. Sylvanas accepted, binding him to her service as a living weapon against his kin.",
+   "body": "As the Lich King's hold over his undead forces weakened, Varimathras tried to make the newly freed banshee Sylvanas Windrunner serve the dreadlords' new regime. Sylvanas refused and rallied liberated undead to destroy his outpost. Facing execution, Varimathras begged for his life and offered tactical secrets, including knowledge of his brothers' fortifications. Sylvanas spared him and bound him to her service as a weapon against his kin.",
    "spoiler": 0
   },
   {
    "title": "Brother Against Brother",
-   "body": "To secure Sylvanas's trust, Varimathras was ordered to kill his fellow dreadlord Balnazzar after the conquest of the Capital City. He appeared to obey, but Balnazzar survived the deception. Varimathras then executed the human warlord Grand Marshal Garithos at Sylvanas's command. Now stationed beside Sylvanas's throne, he coordinates military excursions across Lordaeron, though many in the Horde look upon this demonic ally with deep unease.",
+   "body": "Varimathras was ordered to kill his fellow dreadlord Balnazzar after the conquest of the Capital City to earn Sylvanas's trust. He seemed to obey, but Balnazzar survived the deception. At Sylvanas's command, Varimathras then executed the human warlord Grand Marshal Garithos. Now beside Sylvanas's throne, he coordinates military excursions across Lordaeron, while many in the Horde regard this demonic ally with deep unease.",
    "spoiler": 1
   }
  ],
@@ -34,7 +34,7 @@
     "why dreadlord with sylvanas",
     "varimathras allegiance"
    ],
-   "answer": "When Sylvanas Windrunner gathered her army of newly liberated undead during the Lordaeron civil war, she routed Varimathras's forces. Facing imminent death, the dreadlord pleaded for mercy and offered his cunning, military knowledge, and service in exchange for his life. Sylvanas spared him to use as a tactician and enforcer."
+   "answer": "During the Lordaeron civil war, Sylvanas Windrunner led newly liberated undead against Varimathras's forces and defeated them. Facing death, he begged for mercy and offered his cunning, military knowledge, and service. Sylvanas spared him to serve as her tactician and enforcer."
   },
   {
    "q": "What kind of creature is Varimathras?",
@@ -43,7 +43,7 @@
     "is varimathras a vampire",
     "varimathras species"
    ],
-   "answer": "Varimathras is a nathrezim, commonly known as a dreadlord. The nathrezim are an intelligent, manipulative race of demons who serve the Burning Legion, specializing in mental domination, shadow magic, and spreading plague and discord."
+   "answer": "Varimathras is a nathrezim, or dreadlord. Nathrezim are intelligent, manipulative demons who serve the Burning Legion, using mental domination, shadow magic, plague, and discord."
   },
   {
    "q": "Where does Varimathras stand in the Undercity?",
@@ -52,7 +52,7 @@
     "varimathras location",
     "find varimathras"
    ],
-   "answer": "He can be found standing on the dais in the Royal Quarter of the Undercity, directly beside Lady Sylvanas Windrunner, surrounded by Forsaken royal guards."
+   "answer": "Varimathras stands on the dais in the Undercity's Royal Quarter, directly beside Lady Sylvanas Windrunner and surrounded by Forsaken royal guards."
   },
   {
    "q": "What happened between Varimathras and Balnazzar?",
@@ -61,7 +61,7 @@
     "varimathras brother",
     "dreadlord taboo"
    ],
-   "answer": "After the conquest of the Capital City, Sylvanas ordered Varimathras to strike down his brother Balnazzar as a test of loyalty, and Varimathras turned on his fellow dreadlord at her command."
+   "answer": "After the conquest of the Capital City, Sylvanas ordered Varimathras to attack his brother Balnazzar as a test of loyalty. Varimathras turned on his fellow dreadlord at her command."
   },
   {
    "q": "What role did Varimathras play in creating the Scourge?",
@@ -69,7 +69,7 @@
     "varimathras nerzhul",
     "varimathras lich king origin"
    ],
-   "answer": "After Kil'jaeden bound the spirit of the orc shaman Ner'zhul inside the Frozen Throne and hurled it to Azeroth as the Lich King, he sent Varimathras and his fellow dreadlords to act as its jailors and watch over the Scourge's work in Lordaeron."
+   "answer": "Kil'jaeden bound the orc shaman Ner'zhul's spirit inside the Frozen Throne and hurled it to Azeroth as the Lich King. He sent Varimathras and the other dreadlords to guard the Lich King and oversee the Scourge's work in Lordaeron."
   },
   {
    "q": "Do the other Horde leaders trust Varimathras?",
@@ -78,21 +78,21 @@
     "thrall varimathras",
     "is varimathras trusted"
    ],
-   "answer": "Not at all. The orcs, trolls, and tauren carry deep scars from demonic corruption and regard dreadlords as monstrous manipulators. Even among the Forsaken, many view Varimathras as an uneasy weapon held on a very tight leash rather than a true brother-in-arms."
+   "answer": "No. The orcs, trolls, and tauren bear deep scars from demonic corruption and see dreadlords as monstrous manipulators. Many Forsaken also regard Varimathras as an uneasy weapon kept on a tight leash, not a true brother-in-arms."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "Varimathras represents the Forsaken's pragmatic willingness to turn the weapons of their oppressors against them, standing subdued beside the Dark Lady who freed Lordaeron from his grip."
+   "text": "As an undead, you see Varimathras as proof that the Forsaken will turn their oppressors' weapons against them. He stands subdued beside the Dark Lady who freed Lordaeron from his grip."
   },
   {
    "target": "class:Warlock",
-   "text": "To practitioners of demonic magic, the sight of a high-ranking nathrezim serving a mortal undead queen is an impressive, if unsettling, display of leveraged will."
+   "text": "As a warlock, you may find a high-ranking nathrezim serving a mortal undead queen an impressive, unsettling display of will."
   },
   {
    "target": "faction:Horde",
-   "text": "The dreadlord's presence in Undercity is a source of intense friction with Orgrimmar, as the Horde spent decades breaking free from the very demonic masters Varimathras served."
+   "text": "As a member of the Horde, you find Varimathras's presence in the Undercity a source of friction with Orgrimmar. The Horde spent decades breaking free from the demonic masters he served."
   }
  ],
  "keywords": [
@@ -117,5 +117,6 @@
  ],
  "attribution": [
   "Varimathras"
- ]
+ ],
+ "style": 1
 }

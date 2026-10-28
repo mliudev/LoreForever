@@ -22,16 +22,16 @@
    "Nogg's Ring Redo"
   ]
  },
- "summary": "Deep within the irradiated ruins of Gnomeregan, adventurers can recover a jewelry piece heavily caked in toxic filth and hardened muck from a Dark Iron dwarf invader. Discovering its true identity requires using the Sparklematic 5200, an industrial cleaning automaton found inside the Dormitory sector. Once scrubbed clean, the ring reveals personal markings that launch a journey to return or refashion the heirloom.",
+ "summary": "In Gnomeregan, a Dark Iron dwarf carries a ring caked in toxic filth and hardened muck. The Sparklematic 5200 in the Clean Zone dormitory can strip away the grime and reveal its markings.",
  "sections": [
   {
    "title": "A Relic Beneath the Muck",
-   "body": "Gnomeregan's corridors are swimming in toxic sludge, oil, and radioactive fallout, so it is no surprise that items dropped in the fighting become coated in impenetrable sludge. Slain Dark Iron dwarves infiltrating the city often carry heavily soiled trinkets, chief among them this grime-encrusted band. The crust is far too tough for mundane hand-washing, completely obscuring whether the metal beneath is copper, gold, or junk.",
+   "body": "Fighting leaves Gnomeregan's corridors coated in toxic sludge, oil, and radioactive fallout. Dark Iron dwarves infiltrating the city carry trinkets fouled by the filth, including a ring whose crust defeats ordinary hand-washing. Beneath it, the metal could be copper, gold, or junk.",
    "spoiler": 0
   },
   {
    "title": "The Sparklematic 5200",
-   "body": "To clean the ring, one must find the Sparklematic 5200 in the Clean Zone dormitory. Gnomish engineering at its most delightfully absurd, the machine accepts coins, subjects heavily fouled items to violent internal scouring, and spits them out freshly polished and neatly gift-wrapped with a bow. Stripping away the irradiated muck reveals a city's seal and engraved initials inside the band, turning a scavenged trinket into a quest of restitution.",
+   "body": "The Sparklematic 5200 in the Clean Zone dormitory accepts coins, scours fouled items, and returns them polished and wrapped with a bow. Cleaning the ring reveals a city's seal and engraved initials inside the band. The markings begin Return of the Ring, a journey to make restitution.",
    "spoiler": 1
   }
  ],
@@ -43,7 +43,7 @@
     "where does grime ring drop",
     "who drops grime encrusted ring"
    ],
-   "answer": "The Grime-Encrusted Ring is recovered from the corpses of Dark Iron dwarves encountered inside the besieged dungeon of Gnomeregan."
+   "answer": "Dark Iron dwarves inside Gnomeregan carry the ring."
   },
   {
    "q": "How do you clean the ring?",
@@ -52,7 +52,7 @@
     "how to clean grime encrusted ring",
     "where to wash ring"
    ],
-   "answer": "Take the ring to the Sparklematic 5200, located in the Clean Zone dormitory inside Gnomeregan. Inserting the ring along with the required coin fee will initiate an intense automated scrub that strips away the hardened muck."
+   "answer": "Use the Sparklematic 5200 in Gnomeregan's Clean Zone dormitory. Insert the ring and pay the required coin fee for the machine to scour away the hardened muck."
   },
   {
    "q": "What happens after the ring is cleaned?",
@@ -61,7 +61,7 @@
     "what do i do with clean ring",
     "sparklematic ring result"
    ],
-   "answer": "The Sparklematic dispenses a neatly packaged box containing a restored ring with distinct personal engravings. This begins the quest Return of the Ring, leading you to find its original owner."
+   "answer": "The Sparklematic dispenses a neatly packaged box with the restored ring and its personal engravings. This begins Return of the Ring, which leads you to find the ring's original owner."
   },
   {
    "q": "Can Horde players complete this quest?",
@@ -70,7 +70,7 @@
     "horde grime encrusted ring",
     "can horde clean ring"
    ],
-   "answer": "Yes. Horde adventurers can use the Sparklematic 5200 to clean the ring. However, subsequent steps in the chain diverge, ultimately directing Horde players to an engineer in Orgrimmar rather than returning it to Ironforge."
+   "answer": "Yes. Horde adventurers can clean the ring with the Sparklematic 5200. Later steps lead Horde players to an engineer in Orgrimmar instead of sending the ring back to Ironforge."
   },
   {
    "q": "Why is the ring wrapped in a gift box after cleaning?",
@@ -78,7 +78,7 @@
     "gift wrapped ring",
     "why gift box sparklematic"
    ],
-   "answer": "The Sparklematic 5200 is built with typical gnomish whimsy. In addition to vigorously scouring away sludge and grime, the apparatus is programmed to automatically package and tie a decorative bow around processed items upon completion."
+   "answer": "The Sparklematic 5200 scours away sludge and grime, then automatically packages processed items and ties on a decorative bow, all with gnomish whimsy."
   },
   {
    "q": "Are there multiple Sparklematic machines?",
@@ -86,21 +86,21 @@
     "which sparklematic",
     "sparklematic 5200 locations"
    ],
-   "answer": "Several Sparklematic units line the wall in the Clean Zone dormitory, but only one works correctly for the ring: the one on the left as you enter by the stairs, near the friendly gnomes."
+   "answer": "Several Sparklematic units line the wall in the Clean Zone dormitory, but only the one on the left as you enter by the stairs, near the friendly gnomes, works for the ring."
   }
  ],
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "The Sparklematic 5200 is a classic example of quirky gnomish engineering, combining industrial solvent-scrubbing with an automated gift-wrapping dispenser."
+   "text": "The Sparklematic 5200 shows gnomish engineering at work, joining industrial solvent-scrubbing with an automatic gift wrapper."
   },
   {
    "target": "race:Gnome",
-   "text": "Even during the catastrophic fall of their city, gnomes designed sanitation contraptions that finish dangerous industrial wash cycles with a cheerful bell chime and a bow."
+   "text": "As a gnome, you know that even as your city fell, its inventors designed sanitation machines that finish dangerous wash cycles with a cheerful bell and a bow."
   },
   {
    "target": "race:Dwarf",
-   "text": "The ring's presence on an infiltrating Dark Iron dwarf hints at scavenged loot taken from Ironforge or gnomish victims during the chaos of Gnomeregan's fall."
+   "text": "As a dwarf, you can see the ring on an infiltrating Dark Iron dwarf may have been scavenged from Ironforge or from gnomish victims during Gnomeregan's fall."
   }
  ],
  "keywords": [
@@ -122,5 +122,6 @@
  ],
  "attribution": [
   "Grime-Encrusted Ring (quest)"
- ]
+ ],
+ "style": 1
 }

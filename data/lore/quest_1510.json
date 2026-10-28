@@ -26,16 +26,16 @@
    "The Binding (Succubus, Orgrimmar)"
   ]
  },
- "summary": "This quest sends Horde adventurers deep into the foothills of the Stonetalon Mountains to contact the Darkspear troll Ken'zigla at Malaka'jin. An injured grunt from Camp Taurajo named Dogran lies wounded, and the first runner sent to fetch a lifesaving herbal draught never returned.",
+ "summary": "In Stonetalon's foothills, Dogran's life hangs on a healing draught from Malaka'jin. The first runner sent to fetch it never returned, and you travel deep into the foothills to find Ken'zigla, a Darkspear troll.",
  "sections": [
   {
    "title": "A Plea Across the Frontier",
-   "body": "Dogran, a Horde grunt stationed at Camp Taurajo in the southern Barrens, was grievously wounded during a skirmish against entrenched quilboar. The grunts with him made it back and tried to rescue him, but his wounds had festered so badly that they were afraid to move him without patching him up first. Desperate for a potent remedy, Taurajo sent word north to the Crossroads, hoping to procure a traditional healing draught prepared by the jungle trolls of Malaka'jin.",
+   "body": "Dogran, a Horde grunt at Camp Taurajo in the southern Barrens, was badly wounded fighting entrenched quilboar. His fellow grunts brought him back, but his wounds had festered. They feared moving him without first treating him. Taurajo sent word north to the Crossroads for a traditional healing draught made by the jungle trolls of Malaka'jin.",
    "spoiler": 0
   },
   {
    "title": "Bloodshed at Malaka'jin",
-   "body": "When travelers arrive at the crags of Malaka'jin, they discover that the relief mission collapsed almost immediately. The first courier sent to collect the medicine was killed by goblins before he could bring the draught back. Ken'zigla still possesses the remedy Dogran needs, but securing it requires dealing with the volatile frontier dangers bordering the Stonetalon passes.",
+   "body": "At Malaka'jin, you learn the first courier sent for the medicine was killed by goblins before he could bring it back. Ken'zigla still has the draught Dogran needs. Getting it means facing the dangers along the Stonetalon passes.",
    "spoiler": 1
   }
  ],
@@ -47,7 +47,7 @@
     "why is dogran hurt",
     "dogran story"
    ],
-   "answer": "Dogran is an orc grunt stationed at Camp Taurajo. While leading a squad to clear out aggressive quilboar encampments in the southern Barrens, he suffered brutal, festering wounds that made it impossible to transport him without immediate medical treatment."
+   "answer": "Dogran is a Horde grunt at Camp Taurajo. He was badly wounded fighting quilboar in the southern Barrens, and his wounds festered until moving him seemed too dangerous without treatment."
   },
   {
    "q": "Where is Malaka'jin located?",
@@ -56,7 +56,7 @@
     "where is malakajin",
     "find ken'zigla"
    ],
-   "answer": "Malaka'jin is a small Darkspear troll outpost nestled in the rocky base of the Stonetalon Mountains, just past the northwestern border of the Barrens."
+   "answer": "Malaka'jin is a Darkspear troll outpost in the rocky base of the Stonetalon Mountains, just beyond the Barrens' northwestern border."
   },
   {
    "q": "What happened to the first messenger sent for the draught?",
@@ -65,7 +65,7 @@
     "what happened to the messenger",
     "dead courier"
    ],
-   "answer": "The initial courier dispatched from the Crossroads to retrieve Ken'zigla's draught was killed by goblins near Malaka'jin before he could bring the draught back. Ken'zigla says only that the goblins did him in."
+   "answer": "Goblins killed the first courier from the Crossroads near Malaka'jin before he could bring back Ken'zigla's draught. Ken'zigla says only that the goblins killed him."
   },
   {
    "q": "Why do warlock trainers care about Dogran's fate?",
@@ -74,7 +74,7 @@
     "succubus dogran",
     "why warlocks do this"
    ],
-   "answer": "Warlock initiates are directed toward Dogran's plight under the guise of an errand for Blind Cazul and Gazrog, but the ordeal ultimately leads them to an artifact steeped in love and heartbreak required to summon and bind a succubus."
+   "answer": "Warlock initiates receive an errand for Blind Cazul and Gazrog under the guise of helping Dogran. The ordeal leads them to an artifact tied to love and heartbreak, needed to summon and bind a succubus."
   },
   {
    "q": "Who is Ken'zigla?",
@@ -83,7 +83,7 @@
     "kenzigla stonetalon",
     "ken'zigla"
    ],
-   "answer": "Ken'zigla is a Darkspear troll alchemist and herbalist residing at the Malaka'jin settlement in Stonetalon, knowledgeable in brewing potent wilderness draughts."
+   "answer": "Ken'zigla is a Darkspear troll alchemist and herbalist at Malaka'jin in Stonetalon. He knows how to brew potent wilderness draughts."
   },
   {
    "q": "Why could Dogran not be moved directly to a city?",
@@ -92,17 +92,17 @@
     "dogran wounds",
     "why camp taurajo left him"
    ],
-   "answer": "Dogran's wounds became severely festered following the fight with the quilboar. His fellow soldiers feared that hauling him across the rough roads of the Barrens to a major healer would kill him before he arrived."
+   "answer": "After the fight with the quilboar, Dogran's wounds festered badly. His fellow soldiers feared the rough Barrens roads to a major healer would kill him before he arrived."
   }
  ],
  "angles": [
   {
    "target": "class:Warlock",
-   "text": "What appears to be a standard military mercy mission is actually a pivotal trial set by Cazul and the warlocks of Orgrimmar, steering you toward the emotional resonance required to bind a succubus."
+   "text": "As a warlock, you face what seems to be a military mercy mission. Cazul and Orgrimmar's warlocks have set a trial that leads you toward the feelings needed to bind a succubus."
   },
   {
    "target": "faction:Horde",
-   "text": "This leg of the journey illustrates the thin, fragile supply chains connecting remote outposts like Camp Taurajo to isolated camps such as Malaka'jin in the face of quilboar and goblin hostility."
+   "text": "As a member of the Horde, you see how fragile the supply routes are between Camp Taurajo and the isolated camp at Malaka'jin, with quilboar and goblins threatening the way."
   }
  ],
  "keywords": [
@@ -127,5 +127,6 @@
  ],
  "attribution": [
   "News of Dogran (2)"
- ]
+ ],
+ "style": 1
 }

@@ -8,16 +8,16 @@
   "wiki": "Deathstalker Vincent",
   "refs": 1
  },
- "summary": "Deathstalker Vincent was a Forsaken scout sent alongside Deathstalker Adamant to infiltrate Shadowfang Keep. Slain by the mad mage Arugal, his corpse remains inside the stronghold as a grim warning to any who challenge the feral worgen within.",
+ "summary": "Inside Shadowfang Keep, Deathstalker Vincent lies slain by Arugal. The Forsaken scout entered the stronghold with Deathstalker Adamant to learn its defenses, but the mission ended before the Forsaken could attack.",
  "sections": [
   {
    "title": "A Scout's Fatal End",
-   "body": "Before the Forsaken could launch a full-scale assault against the beasts holding Shadowfang Keep, intelligence on the fortress's interior was desperately needed. Two operatives from the Deathstalkers, the intelligence arm of the Forsaken, slipped past the barricades: Vincent and Adamant. Their mission ended in disaster. While Adamant was captured and locked away in a dungeon cell, Vincent was dragged directly before Shadowfang's master. Refusing to bend the knee or serve Arugal's dark designs, Vincent was executed on the spot, his body discarded on the stone floor to rot as a testament to the mage's fury.",
+   "body": "The Deathstalkers needed to learn Shadowfang Keep’s layout before the Forsaken could assault it. Vincent and Adamant slipped past the barricades into the fortress. Their mission failed: Adamant was captured and locked in a dungeon cell, while Vincent was brought before the keep’s master. Vincent refused to serve Arugal or yield to him. The mage executed him, leaving his body on the stone floor.",
    "spoiler": 0
   },
   {
    "title": "Arugal's Defiance",
-   "body": "Arugal used Vincent's demise to issue a scathing declaration to the intruders in his keep. Confronting the captive operative, the mad mage mocked the Forsaken and compared their intrusion to the failed efforts of his former Kirin Tor comrades. Demanding that Vincent surrender his blade and secrets to his master, Arugal struck the scout down when he refused, declaring that Vincent's moldering remains would serve as a warning to anyone foolish enough to trespass in his domain.",
+   "body": "Arugal used Vincent’s death to defy the intruders in his keep. Facing the captive scout, the mad mage mocked the Forsaken and compared their intrusion with the failed efforts of his former Kirin Tor comrades. Arugal demanded Vincent’s blade and secrets for his own use. When Vincent refused, Arugal struck him down and declared that his remains would warn anyone who trespassed in his domain.",
    "spoiler": 1
   }
  ],
@@ -29,7 +29,7 @@
     "vincent shadowfang keep",
     "dead rogue shadowfang"
    ],
-   "answer": "Vincent was a Forsaken scout belonging to the Deathstalkers. He was dispatched with Deathstalker Adamant to gather critical reconnaissance inside Shadowfang Keep ahead of a planned assault by the Undercity."
+   "answer": "Vincent was a Forsaken scout in the Deathstalkers, the Forsaken’s intelligence arm. He and Deathstalker Adamant entered Shadowfang Keep to gather intelligence before the planned assault."
   },
   {
    "q": "What happened to Vincent in Shadowfang Keep?",
@@ -38,7 +38,7 @@
     "why is vincent dead",
     "who killed vincent"
    ],
-   "answer": "Vincent was captured during his reconnaissance mission and executed by Archmage Arugal after refusing to defect or offer intelligence against the Forsaken. Arugal left his corpse where it fell as a display of power."
+   "answer": "Vincent was captured during his reconnaissance and executed by Arugal after refusing to serve him or give up secrets. Arugal left his body where it fell."
   },
   {
    "q": "Where is his partner, Deathstalker Adamant?",
@@ -47,7 +47,7 @@
     "other deathstalker",
     "adamant location"
    ],
-   "answer": "While Vincent was executed out in the open, Deathstalker Adamant was captured alive and locked in a nearby dungeon cell under the watchful eye of a worgen guard."
+   "answer": "Deathstalker Adamant was captured alive and locked in a nearby dungeon cell, watched by a worgen guard."
   },
   {
    "q": "Why were the Deathstalkers sent to Shadowfang Keep?",
@@ -55,17 +55,17 @@
     "why are deathstalkers in shadowfang",
     "forsaken mission shadowfang"
    ],
-   "answer": "Silverpine Forest is vital territory for Sylvanas and the Forsaken, but Arugal's worgen hold the regional fortress of Shadowfang Keep. Vincent and Adamant were sent to scout the layout and defenses so the Forsaken could mount an effective offensive."
+   "answer": "Silverpine Forest is vital territory for Sylvanas and the Forsaken, while Arugal’s worgen hold Shadowfang Keep. Vincent and Adamant were sent to learn the fortress’s layout and defenses so the Forsaken could mount an effective attack."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "Finding Vincent confirms the worst fears of the Forsaken commanders in Silverpine: the reconnaissance team failed, and the keep must now be cleared by force."
+   "text": "As a member of the Horde, finding Vincent confirms the Forsaken commanders’ fears in Silverpine: the reconnaissance team failed, and the keep must be cleared by force."
   },
   {
    "target": "class:Rogue",
-   "text": "Vincent's execution stands as a sobering reminder of the risks faced by stealth operatives infiltrating hostile strongholds alone."
+   "text": "As a rogue, Vincent’s execution shows the danger faced by stealth operatives who infiltrate hostile strongholds alone."
   }
  ],
  "keywords": [
@@ -87,5 +87,6 @@
  ],
  "attribution": [
   "Deathstalker Vincent"
- ]
+ ],
+ "style": 1
 }

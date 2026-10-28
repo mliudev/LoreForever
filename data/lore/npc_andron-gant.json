@@ -8,16 +8,16 @@
   "wiki": "Andron Gant",
   "refs": 2
  },
- "summary": "Andron Gant is a reclusive, frequently intoxicated Forsaken residing in the murky depths of the Apothecarium in the Undercity. He handles occasional research commissions for local mages.",
+ "summary": "In the Undercity's Apothecarium, Andron Gant handles occasional commissions and relic recoveries for local scholars. He is a reclusive Forsaken, often drunk, and rarely leaves the city.",
  "sections": [
   {
    "title": "A Slurring Recluse",
-   "body": "Lounging amidst the noxious fumes of the Apothecarium, Andron Gant rarely ventures beyond the safety of the Undercity's stone walls. To the casual observer, he appears to be little more than a drunken scholar, occasionally hiring adventurous couriers to retrieve obscure relics like the Tablet of Markri from distant shores on behalf of local mages.",
+   "body": "Andron Gant spends his time in the Apothecarium, among its noxious fumes, and rarely ventures beyond the Undercity's stone walls. He seems little more than a drunken scholar. For local mages, he sometimes hires couriers to seek obscure relics on distant shores, including the Tablet of Markri.",
    "spoiler": 0
   },
   {
    "title": "Unmasked by the Deathstalkers",
-   "body": "Gant's treacherous dealings did not escape the notice of Undercity's intelligence network. When the Syndicate dispatched a courier named Astor Hadren to collect a ledger of compromised data, aspiring operatives within the Deathstalkers intercepted the runner. Disguised as Hadren, an agent was able to trick the drunken Gant into parting with his incriminating ledger without raising an eyebrow, handing Lord Varimathras definitive proof of Gant's treason against the Forsaken.",
+   "body": "The Undercity's intelligence network noticed Gant's treacherous dealings. The Syndicate sent Astor Hadren to collect a ledger of compromised data, but aspiring Deathstalker operatives intercepted the courier. One agent took Hadren's place and tricked the drunken Gant into handing over the incriminating ledger without raising suspicion. The ledger gave Lord Varimathras definitive proof of Gant's treason against the Forsaken.",
    "spoiler": 1
   }
  ],
@@ -29,7 +29,7 @@
     "where is andron gant",
     "gant undercity location"
    ],
-   "answer": "Andron Gant is located inside the Undercity, lingering in the lower levels of the Apothecarium district."
+   "answer": "Andron Gant can be found in the lower levels of the Apothecarium district, inside the Undercity."
   },
   {
    "q": "Why is Andron Gant interested in Azshara tablets?",
@@ -38,7 +38,7 @@
     "tablet of markri andron gant",
     "why does gant want tablets"
    ],
-   "answer": "Gant acts as an intermediary for certain Undercity mages, arranging payments to scavengers and contacts like Jediga to recover ancient relics from the ruins of Azshara."
+   "answer": "Gant arranges payments for certain Undercity mages, sending scavengers and contacts such as Jediga to recover ancient relics from the ruins of Azshara."
   },
   {
    "q": "Why do the Deathstalkers investigate Andron Gant?",
@@ -47,7 +47,7 @@
     "andron gant contacts",
     "who does andron gant work for"
    ],
-   "answer": "The Deathstalkers investigate his dealings with outside contacts and seek intelligence about his research commissions."
+   "answer": "The Deathstalkers investigate Gant's dealings with outside contacts and seek intelligence about his research commissions."
   },
   {
    "q": "Who directs the investigation into Andron Gant?",
@@ -62,11 +62,11 @@
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "Forsaken rogues climbing the ranks of the Deathstalkers learn that the Undercity's own halls demand as much vigilance as its borders."
+   "text": "As a Forsaken rogue, you learn while rising through the Deathstalkers that the Undercity's halls demand as much vigilance as its borders."
   },
   {
    "target": "race:Undead",
-   "text": "Gant is a familiar sight in the Apothecarium, a drunken Forsaken who rarely leaves the city and brokers odd errands for its mages."
+   "text": "As an Undead, you may know Gant as a familiar sight in the Apothecarium: a drunken Forsaken who rarely leaves the city and brokers odd errands for its mages."
   }
  ],
  "keywords": [
@@ -89,5 +89,6 @@
  ],
  "attribution": [
   "Andron Gant"
- ]
+ ],
+ "style": 1
 }

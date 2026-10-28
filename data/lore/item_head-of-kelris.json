@@ -11,16 +11,16 @@
    "quest:6561"
   ]
  },
- "summary": "The severed head of Twilight Lord Kelris serves as undeniable proof that the leader of the Twilight's Hammer within Blackfathom Deeps has fallen. Carried out from the corrupted temple ruins, it is sought by representatives of the Argent Dawn to confirm the end of his profane ritual sacrifices.",
+ "summary": "Agents of the Argent Dawn seek Kelris's severed head to confirm his fall and the end of his sacrifices.",
  "sections": [
   {
    "title": "A Trophy of Ruin",
-   "body": "Within the submerged depths of the sunken Temple of Elune, Twilight Lord Kelris orchestrated dark sacrifices to Aku'mai, a monstrous servant of an Old God. Claiming his head marks the end of his tyrannical leadership over the Twilight's Hammer cultists and their naga allies in the cavern. The grisly trophy must be carried back to surface civilizations to assure leaders that Kelris's bloody ceremonies have finally ceased.",
+   "body": "In Blackfathom Deeps, Twilight Lord Kelris led sacrifices to Aku'mai, a monstrous servant of an Old God. Taking his head marks the end of his rule over the Twilight's Hammer cultists and their naga allies in the cavern. The head must reach the surface so leaders can know his bloody ceremonies have ended.",
    "spoiler": 0
   },
   {
    "title": "Proof for the Dawn",
-   "body": "For months, Kelris was presumed dead or lost by the Argent Dawn, only for his sinister influence to resurface alongside Kalimdor's encroaching shadows. When presented to agents in Darnassus or Thunder Bluff, the head settles lingering bounties and confirms that his attempts to plunge the world back into primeval chaos have been thwarted.",
+   "body": "The Argent Dawn had presumed Kelris dead or lost for months before his influence returned with Kalimdor's encroaching shadows. His head, brought to agents in Darnassus or Thunder Bluff, settles lingering bounties and confirms that his attempt to plunge the world into primeval chaos has been stopped.",
    "spoiler": 0
   }
  ],
@@ -32,7 +32,7 @@
     "kelris lore",
     "twilight lord kelris"
    ],
-   "answer": "Kelris was the leader of the Twilight's Hammer sect entrenched within Blackfathom Deeps. Allied with the naga, he orchestrated ritual sacrifices of innocents to feed Aku'mai, a hydra servant of an Old God, in pursuit of dark power and ancient chaos."
+   "answer": "Twilight Lord Kelris led the Twilight's Hammer sect in Blackfathom Deeps. Allied with the naga, he sacrificed innocents to Aku'mai, a hydra servant of an Old God, seeking dark power and ancient chaos."
   },
   {
    "q": "Who wants the Head of Kelris?",
@@ -41,7 +41,7 @@
     "head of kelris turn in",
     "who do i give kelris head to"
    ],
-   "answer": "Alliance champions deliver the head to Dawnwatcher Selgorm in Darnassus, while Horde adventurers bring it to Bashana Runetotem on the Elder Rise in Thunder Bluff. Dawnwatcher Selgorm serves the Argent Dawn, while Bashana Runetotem belongs to the Cenarion Circle."
+   "answer": "Alliance champions take the head to Dawnwatcher Selgorm in Darnassus. Horde adventurers bring it to Bashana Runetotem on the Elder Rise in Thunder Bluff. Selgorm serves the Argent Dawn, while Bashana belongs to the Cenarion Circle."
   },
   {
    "q": "Why does the Argent Dawn care about Kelris?",
@@ -49,7 +49,7 @@
     "why argent dawn kelris",
     "argent dawn blackfathom"
    ],
-   "answer": "The Argent Dawn tracks malevolent threats that endanger Azeroth. Kelris was a known villain who had long eluded them, and his worship of the Old Gods and sacrifice of innocents posed a dire threat to the balance of Kalimdor."
+   "answer": "The Argent Dawn tracks threats to Azeroth. Kelris had long eluded them, and his Old God worship and sacrifices of innocents threatened Kalimdor's balance."
   },
   {
    "q": "Where is the head obtained?",
@@ -57,17 +57,17 @@
     "where to get kelris head",
     "kelris head location"
    ],
-   "answer": "It is severed from the corpse of Twilight Lord Kelris inside his sanctum within the Blackfathom Deeps dungeon, located beneath the Zoram Strand along the coast of Ashenvale."
+   "answer": "The head comes from Twilight Lord Kelris's corpse in his sanctum within Blackfathom Deeps, beneath the Zoram Strand on Ashenvale's coast."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Delivering Kelris's head to Dawnwatcher Selgorm in Darnassus avenges the desecration of an ancient night elf temple dedicated to Elune."
+   "text": "As an Alliance champion, you take Kelris's head to Dawnwatcher Selgorm in Darnassus, avenging the desecration of an ancient night elf temple dedicated to Elune."
   },
   {
    "target": "faction:Horde",
-   "text": "Presenting the head to Bashana Runetotem in Thunder Bluff earns the trust of the Cenarion Circle, proving their dedication to cleansing Kalimdor's corruption."
+   "text": "As a Horde adventurer, you present the head to Bashana Runetotem in Thunder Bluff, earning the Cenarion Circle's trust and proving your dedication to cleansing Kalimdor's corruption."
   }
  ],
  "keywords": [
@@ -94,5 +94,6 @@
   "Head of Kelris",
   "Blackfathom Villainy (Alliance)",
   "Blackfathom Villainy (Horde)"
- ]
+ ],
+ "style": 1
 }

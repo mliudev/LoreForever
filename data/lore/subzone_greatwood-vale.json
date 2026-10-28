@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Greatwood Vale"
  },
- "summary": "Greatwood Vale is a forested valley nestled in the eastern foothills of the Stonetalon Mountains, reached via the perilous Webwinder Path. Recently, the hostile Grimtotem tribe seized the vale, using it as a staging ground for bloody assaults on neighboring settlements.",
+ "summary": "The Grimtotem have seized Greatwood Vale in the eastern foothills of the Stonetalon Mountains. The perilous Webwinder Path leads into the forested valley, which the tribe now uses to launch bloody assaults on nearby settlements.",
  "sections": [
   {
    "title": "A Contested Valley",
-   "body": "Tucked away off the Webwinder Path, Greatwood Vale has become a violent frontier. The Grimtotem tribe, under the ruthless leadership of Grundig Darkcloud, has moved into the vale in force, cutting off safe passage and bringing terror to the surrounding foothills.",
+   "body": "Greatwood Vale has become a violent frontier off the Webwinder Path. Grundig Darkcloud leads the Grimtotem who have moved into the vale in force. They block safe passage and terrorize the surrounding foothills.",
    "spoiler": 0
   },
   {
    "title": "The Scourge of Camp Aparaje",
-   "body": "The Grimtotem did not merely occupy Greatwood Vale; they used it to orchestrate the butchery of nearby Camp Aparaje. Sweeping out of the woods, Darkcloud's raiders slaughtered nearly every tauren inhabiting the encampment. Makaba Flathoof, one of the few survivors who managed to flee the carnage, now directs vengeful Horde warriors straight into the heart of Greatwood Vale to cut down the renegade Grimtotem and put an end to Grundig Darkcloud.",
+   "body": "From Greatwood Vale, Grimtotem raiders swept into nearby Camp Aparaje and slaughtered nearly every tauren there. Makaba Flathoof escaped the attack. Now she directs vengeful Horde warriors into the heart of the vale to kill the renegade Grimtotem and end Grundig Darkcloud's rule.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "greatwood vale enemies",
     "grimtotem in greatwood vale"
    ],
-   "answer": "The valley is occupied by the hostile Grimtotem tribe, led locally by Grundig Darkcloud. They hold the woods with warbands and spellcasters, menacing anyone attempting to travel the region."
+   "answer": "Grundig Darkcloud leads the Grimtotem tribe occupying Greatwood Vale. Their warbands and spellcasters menace anyone traveling through the woods."
   },
   {
    "q": "What happened at Camp Aparaje?",
@@ -37,7 +37,7 @@
     "what happened to aparaje",
     "why did grimtotem attack"
    ],
-   "answer": "The Grimtotem launched a surprise attack from Greatwood Vale upon Camp Aparaje, massacring most of its peaceful tauren residents. Makaba Flathoof survived the slaughter and now seeks vengeance against the raiders and their leader."
+   "answer": "Grimtotem raiders attacked Camp Aparaje from Greatwood Vale and massacred most of its peaceful tauren residents. Makaba Flathoof survived and seeks vengeance against the raiders and their leader."
   },
   {
    "q": "Why is the Horde fighting the Grimtotem here?",
@@ -46,17 +46,17 @@
     "makaba flathoof quest",
     "avenge my village"
    ],
-   "answer": "The Grimtotem tribe has not formally joined the Horde, despite Magatha's presence in Thunder Bluff. Grundig Darkcloud's followers attacked fellow tauren at Camp Aparaje, prompting survivors to call on Horde adventurers for aid."
+   "answer": "The Grimtotem have not formally joined the Horde, despite Magatha's presence in Thunder Bluff. Grundig Darkcloud's followers attacked fellow tauren at Camp Aparaje, so survivors called on Horde warriors for aid."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "The Grimtotem's treacherous slaughter of fellow tauren at Camp Aparaje makes the cleansing of Greatwood Vale a deeply personal, sorrowful duty for Thunder Bluff's loyal children."
+   "text": "For loyal children of Thunder Bluff, cleansing Greatwood Vale is a sorrowful, personal duty after the Grimtotem slaughtered fellow tauren at Camp Aparaje."
   },
   {
    "target": "faction:Horde",
-   "text": "Securing Greatwood Vale is essential to protect the fragile southern outpost of Malaka'jin from sudden flank attacks by rogue Grimtotem."
+   "text": "Securing Greatwood Vale helps protect Malaka'jin, the fragile southern outpost, from sudden flank attacks by rogue Grimtotem."
   }
  ],
  "keywords": [
@@ -81,5 +81,6 @@
  ],
  "attribution": [
   "Greatwood Vale"
- ]
+ ],
+ "style": 1
 }

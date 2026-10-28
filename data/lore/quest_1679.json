@@ -17,16 +17,16 @@
   "wiki": "Muren Stormpike (quest)",
   "chain": []
  },
- "summary": "Muren Stormpike is an introductory quest for developing Alliance warriors, given once a recruit proves their basic mettle in Dun Morogh. Directed by Granis Swiftaxe in Kharanos, the young fighter travels into the mountain city of Ironforge to seek formal instruction in martial discipline. Meeting Muren marks the beginning of deeper training in tactical stances and dwarven military traditions.",
+ "summary": "In Ironforge, Muren Stormpike awaits warriors sent from Kharanos for formal training. Granis Swiftaxe sends recruits who have proved their mettle in Dun Morogh to the city's Military Ward.",
  "sections": [
   {
    "title": "A Summons to Ironforge",
-   "body": "After cutting their teeth against local threats in the snowy valleys of Dun Morogh, warrior novices catch the eye of Granis Swiftaxe in Kharanos. Recognizing that crude skirmishing can only take a brawler so far, Swiftaxe sends promising fighters to the heart of dwarven martial prowess: the Military Ward of Ironforge. There, within the echoing halls of the forge-city, senior combatants oversee the formal schooling of those bound for battle.",
+   "body": "Granis Swiftaxe sends promising warriors from Kharanos to Ironforge after they face local threats in Dun Morogh. He knows rough skirmishes can teach only so much. In the Military Ward, senior fighters oversee formal training for those bound for battle.",
    "spoiler": 0
   },
   {
    "title": "The Master of Arms",
-   "body": "Upon reaching the Hall of Arms, recruits are introduced to Muren Stormpike, a seasoned veteran of a storied dwarven clan. Muren cares little for tavern tales and demands proof that his new charges can withstand real combat. Reporting to him opens the pathway toward mastering the defensive arts, learning to absorb and control enemy aggression, and earning well-crafted iron armaments fit for true front-line duty.",
+   "body": "At the Hall of Arms, you meet Muren Stormpike, a veteran of a storied dwarven clan. He wants proof that his new charges can endure real combat, not tavern tales. Reporting to him opens the way to learn defensive arts, control an enemy's aggression, and earn iron arms for the front line.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "where do i get muren stormpike",
     "quest giver muren stormpike"
    ],
-   "answer": "Granis Swiftaxe, the warrior trainer stationed in Kharanos, gives you the quest once you have proven your basic martial capability in Dun Morogh."
+   "answer": "Granis Swiftaxe, the warrior trainer in Kharanos, sends you after you prove your basic fighting skill in Dun Morogh."
   },
   {
    "q": "Where is Muren Stormpike located?",
@@ -47,7 +47,7 @@
     "muren stormpike location",
     "how to find muren"
    ],
-   "answer": "Muren Stormpike is located in the Hall of Arms, situated within the Military Ward on the eastern side of Ironforge."
+   "answer": "Muren Stormpike is in the Hall of Arms, in the Military Ward on Ironforge's eastern side."
   },
   {
    "q": "Why is this quest important for warriors?",
@@ -56,7 +56,7 @@
     "why do muren stormpike",
     "muren stormpike rewards"
    ],
-   "answer": "Reporting to Muren initiates advanced warrior training. This leads directly to tasks that unlock the Defensive Stance, teach vital defensive skills like Taunt, and reward a reliable early-career weapon."
+   "answer": "Reporting to Muren begins advanced warrior training. It leads to instruction in Defensive Stance and Taunt, along with a reliable early weapon."
   },
   {
    "q": "Who is Muren Stormpike?",
@@ -65,7 +65,7 @@
     "muren stormpike lore",
     "is muren stormpike clan"
    ],
-   "answer": "Muren is a veteran combat instructor in Ironforge belonging to the renowned Stormpike clan, an influential dwarven family known for its fierce warriors and expeditionary engineers."
+   "answer": "Muren Stormpike is a veteran combat instructor in Ironforge and a member of the Stormpike clan, a renowned dwarven family of warriors and expeditionary engineers."
   },
   {
    "q": "Can any class take this quest?",
@@ -74,7 +74,7 @@
     "is muren stormpike warrior only",
     "muren stormpike classes"
    ],
-   "answer": "No. This quest is strictly reserved for warrior novices ready to undergo specialized martial instruction."
+   "answer": "No. Only warrior novices ready for specialized martial training can take it."
   },
   {
    "q": "What happens after reporting to Muren?",
@@ -83,21 +83,21 @@
     "next quest after muren stormpike",
     "vejrek quest"
    ],
-   "answer": "After arriving and speaking with Muren, he immediately tests your resolve by directing you toward a combat trial, beginning with the quest to confront Vejrek."
+   "answer": "After you speak with Muren, he tests your resolve by sending you into a combat trial against Vejrek."
   }
  ],
  "angles": [
   {
    "target": "class:Warrior",
-   "text": "This summons marks your rite of passage from a scrappy recruit into a disciplined soldier capable of holding the line and protecting allies."
+   "text": "As a warrior, this summons marks your passage from recruit to disciplined soldier, ready to hold the line and protect allies."
   },
   {
    "target": "race:Dwarf",
-   "text": "For dwarven fighters, reporting to the Hall of Arms connects you directly with the storied martial lineage and tactical discipline of the mountain clans."
+   "text": "As a dwarf fighter, reporting to the Hall of Arms connects you with the martial traditions and tactical discipline of the mountain clans."
   },
   {
    "target": "race:Gnome",
-   "text": "Gnomish warriors, having evacuated to Dun Morogh following the fall of Gnomeregan, rely on Ironforge's Hall of Arms to master traditional heavy frontline combat."
+   "text": "As a gnomish warrior, you rely on Ironforge's Hall of Arms to learn traditional heavy frontline combat after the fall of Gnomeregan drove your people to Dun Morogh."
   }
  ],
  "keywords": [
@@ -120,5 +120,6 @@
  ],
  "attribution": [
   "Muren Stormpike (quest)"
- ]
+ ],
+ "style": 1
 }

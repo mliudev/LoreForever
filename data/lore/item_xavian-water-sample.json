@@ -10,11 +10,11 @@
    "quest:1944"
   ]
  },
- "summary": "A vial of pristine, magically infused water drawn from the base of the highest waterfall in the ancient elven ruins of Xavian. Horde mages in Orgrimmar seek it out to unravel the latent arcane powers preserved in Ashenvale's oldest sacred sites.",
+ "summary": "At Xavian, ancient waters hold arcane power sought by Horde mages in Orgrimmar. They seek it to unravel the latent magic preserved in Ashenvale's oldest sacred sites.",
  "sections": [
   {
    "title": "Waters of the Ancient City",
-   "body": "Xavian is a fabled ancient elven city, and tales of its ancient knowledge are well known among the learned. Even in ruin, its waters are said to hold vast magical powers. Deino, an arcane instructor in Orgrimmar, tasks rising mages with trekking deep into Ashenvale to collect a fresh sample straight from the pool below Xavian's tallest waterfall. Securing it requires braving dangerous territory, as the ruins are now fiercely guarded by corrupt satyrs hostile to any meddling spellcasters.",
+   "body": "Xavian was a fabled ancient elven city, and its old knowledge remains known among the learned. Even in ruin, its waters are said to hold great magical power. Deino, an arcane instructor in Orgrimmar, sends rising mages deep into Ashenvale to draw fresh water from the pool beneath Xavian's tallest waterfall. They must cross dangerous ground, for corrupt satyrs now guard the ruins fiercely and oppose spellcasters who meddle there.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "xavian waterfall location",
     "how to get xavian water sample"
    ],
-   "answer": "It is gathered by filling Deino's Flask at the pool beneath the tallest waterfall within the ruins of Xavian. The site is located in northeastern Ashenvale, north past the lakes that lie beyond Splintertree Post and Satyrnaar."
+   "answer": "Fill Deino's Flask at the pool beneath the tallest waterfall in Xavian's ruins. The site lies in northeastern Ashenvale, north past the lakes beyond Splintertree Post and Satyrnaar."
   },
   {
    "q": "Why does Deino want this water?",
@@ -35,7 +35,7 @@
     "why collect water from xavian",
     "deino purpose"
    ],
-   "answer": "Deino is an arcane instructor based in the Valley of Spirits in Orgrimmar. She studies potent and unusual sources of magic to educate young Horde practitioners, seeking the ancient magical essence preserved in Xavian's undisturbed waters."
+   "answer": "Deino, an arcane instructor in Orgrimmar's Valley of Spirits, wants the water for her studies of potent and unusual magic. She teaches young Horde practitioners and seeks the ancient magical essence held in Xavian's undisturbed waters."
   },
   {
    "q": "What threats guard the waters of Xavian?",
@@ -44,7 +44,7 @@
     "who lives in xavian",
     "xavian dangers"
    ],
-   "answer": "The ancient elven ruins are inhabited by satyrs, demonic beings who hate intruders and fiercely defend their territory against curious mages. The surrounding waterways are also home to aggressive beasts such as river crocolisks."
+   "answer": "Satyrs inhabit the ancient elven ruins and fiercely defend their ground from curious mages. Aggressive beasts, including river crocolisks, also live in the surrounding waterways."
   },
   {
    "q": "What happens once the sample is returned to Orgrimmar?",
@@ -52,17 +52,17 @@
     "turning in xavian water",
     "what is the water used for"
    ],
-   "answer": "Deino immediately begins studying the sample's arcane properties, using the gathered magic to further her research and aid the training and instruction of Horde mages."
+   "answer": "When the sample returns to Orgrimmar, Deino begins studying its arcane properties at once. She uses the gathered magic to advance her research and help train and instruct Horde mages."
   }
  ],
  "angles": [
   {
    "target": "class:Mage",
-   "text": "Retrieving the sample serves as an essential field trial for Horde mages, testing their ability to harness natural arcane fonts and navigate hostile, demon-tainted grounds."
+   "text": "As a Horde mage, retrieving the sample tests your skill with natural arcane power and your ability to cross hostile, demon-tainted ground."
   },
   {
    "target": "faction:Horde",
-   "text": "As the Horde establishes a firmer presence in Ashenvale around Splintertree Post, harvesting the ancient arcane resources of Xavian provides vital knowledge for Orgrimmar's scholars."
+   "text": "As a member of the Horde, you can see how gathering Xavian's ancient arcane resources aids Orgrimmar's scholars as the Horde strengthens its presence around Splintertree Post in Ashenvale."
   }
  ],
  "keywords": [
@@ -87,5 +87,6 @@
  "attribution": [
   "Xavian Water Sample",
   "Waters of Xavian"
- ]
+ ],
+ "style": 1
 }

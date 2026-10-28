@@ -24,16 +24,16 @@
    "Reassignment"
   ]
  },
- "summary": "Farren's Proof is an Alliance courier mission within the harbor town of Southshore. Acting on behalf of Marshal Redpath, an adventurer delivers orders directing Lieutenant Farren Orinelle to focus his military attention on the naga encroaching upon the Eastern Strand.",
+ "summary": "At Southshore, Farren's Proof carries Marshal Redpath's orders to Lieutenant Farren Orinelle. The Marshal wants him to turn his attention to the naga pressing along the Eastern Strand.",
  "sections": [
   {
    "title": "A Shift in Command",
-   "body": "Southshore's military leadership is hard-pressed by surrounding threats, yet Marshal Redpath remains attentive to maritime dangers along the southern coast. Having received fresh intelligence concerning naga incursions upon the Eastern Strand, Redpath dispatches a runner across town to Lieutenant Farren Orinelle with direct orders: abandon peripheral distractions, eliminate the amphibious menace, and deliver his progress reports directly to the Marshal in person.",
+   "body": "Marshal Redpath sends word across Southshore to Lieutenant Farren Orinelle. Fresh reports speak of naga incursions on the Eastern Strand, and the Marshal wants Orinelle to focus on that threat. He orders the lieutenant to set aside other concerns, drive back the naga, and report his progress in person.",
    "spoiler": 0
   },
   {
    "title": "Rivalry on the Coast",
-   "body": "Upon receiving the message, Lieutenant Orinelle reveals the quiet friction festering among Southshore's garrison officers. Rather than offering dutiful compliance, Orinelle suspects Redpath is capitalizing on recently shared intelligence to claim credit for pacifying the shoreline. Determined not to let his commanding officer reap a promotion off his soldiers' sweat, Orinelle immediately begins scheming his own avenue to curry favor with the crown.",
+   "body": "Lieutenant Farren Orinelle suspects Marshal Redpath wants credit for calming the Eastern Strand. He believes Redpath is using intelligence they both received to claim the work of the garrison. Unwilling to let his commander earn a promotion through his soldiers' labor, Orinelle begins devising another way to win favor with the crown.",
    "spoiler": 1
   }
  ],
@@ -45,7 +45,7 @@
     "why send message to farren",
     "farren proof 3 objective"
    ],
-   "answer": "Marshal Redpath intends to redirect Lieutenant Farren Orinelle's troops toward the naga infesting Hillsbrad's Eastern Strand, requiring Orinelle to report back to him directly once measurable progress is made."
+   "answer": "Marshal Redpath's orders redirect Lieutenant Farren Orinelle's attention to the naga on Hillsbrad's Eastern Strand and require him to report progress directly to the Marshal."
   },
   {
    "q": "Why does Farren Orinelle react bitterly to Redpath's orders?",
@@ -54,7 +54,7 @@
     "why is orinelle mad",
     "orinelle promotion"
    ],
-   "answer": "Orinelle believes Redpath is acting on identical military intelligence they both just received. He fears the Marshal intends to take credit for clearing the coast and earn a promotion off Orinelle's hard labor."
+   "answer": "Orinelle believes Redpath is acting on the same military intelligence they both received. He fears the Marshal means to claim credit for clearing the coast and gain a promotion through Orinelle's hard work."
   },
   {
    "q": "Where is the Eastern Strand located?",
@@ -63,7 +63,7 @@
     "where are the naga",
     "hillsbrad coast"
    ],
-   "answer": "The Eastern Strand stretches along the southern saltwater coastline of the Hillsbrad Foothills, situated southeast of Southshore where encroaching naga have established foul encampments on the sand."
+   "answer": "The Eastern Strand runs along the southern coast of the Hillsbrad Foothills, southeast of Southshore, where naga have made encampments on the sand."
   },
   {
    "q": "What comes next after delivering this message?",
@@ -72,7 +72,7 @@
     "what happens next",
     "stormwind ho follow up"
    ],
-   "answer": "Following this encounter, Orinelle hatches his own scheme rather than submitting cleanly to Redpath's authority, pointing adventurous couriers down the coast and toward high command in the quest 'Stormwind Ho!'."
+   "answer": "After the delivery, Orinelle devises his own scheme instead of simply following Redpath's authority. His plan sends couriers down the coast toward high command in 'Stormwind Ho!'."
   },
   {
    "q": "Who are the leaders involved in this exchange?",
@@ -81,7 +81,7 @@
     "southshore officers",
     "farren orinelle and redpath"
    ],
-   "answer": "Marshal Redpath serves as Southshore's primary garrison commander, while Lieutenant Farren Orinelle serves under him as a field lieutenant overseeing coastal defense efforts."
+   "answer": "Marshal Redpath commands Southshore's garrison, and Lieutenant Farren Orinelle serves under him as a field lieutenant overseeing coastal defense."
   },
   {
    "q": "Does this assignment require any combat?",
@@ -90,17 +90,17 @@
     "do i fight naga",
     "farrens proof combat"
    ],
-   "answer": "No. This specific step is purely an internal communication errand between officers within Southshore, though it deals directly with the military response to naga hostiles along the shore."
+   "answer": "No. The delivery is an exchange between officers in Southshore, though it concerns the military response to naga along the shore."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "The exchange offers a glimpse into the bureaucratic and career rivalries simmering inside Southshore's garrison, showing that even in besieged northern outposts, officers jockey for prestige."
+   "text": "The exchange reveals rivalries over rank and recognition within Southshore's garrison, even as the northern outpost faces threats."
   },
   {
    "target": "class:Warrior",
-   "text": "Navigating the petty jealousies of officer politics is a familiar frustration for soldiers serving the Alliance banner, where battlefield prowess often clashes with command ambition."
+   "text": "As an Alliance warrior, you may recognize the strain between proving yourself in battle and navigating officers' ambitions."
   }
  ],
  "keywords": [
@@ -125,5 +125,6 @@
  ],
  "attribution": [
   "Farren's Proof (3)"
- ]
+ ],
+ "style": 1
 }

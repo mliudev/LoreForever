@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Gates of Ironforge"
  },
- "summary": "The Gates of Ironforge serve as the monumental main entrance leading travelers from the snowy mountain vales of Dun Morogh into the dwarven capital. Carved directly into the sheer stone face of the mountain, they are guarded inside by a colossal statue of High King Modimus Anvilmar.",
+ "summary": "Travelers climb from Dun Morogh to the Gates of Ironforge, where a stone king guards the way into the dwarven capital. The gates open in the mountain face, with High King Modimus Anvilmar's statue just inside.",
  "sections": [
   {
    "title": "The Threshold of the Mountain",
-   "body": "Approached by climbing the winding, fortified ramp ascending from central Dun Morogh, the Gates of Ironforge present an imposing facade visible across much of the snowy lowlands. Beyond the massive portal, visitors enter the city proper, greeted immediately by an enormous stone statue honoring High King Modimus Anvilmar\u2014the legendary ruler who united the dwarven clans before the War of the Three Hammers. Passing through these gates leads directly into the bustling commercial district of the Commons.",
+   "body": "The Gates of Ironforge rise above the snowy lowlands at the end of a winding, fortified ramp from central Dun Morogh. Beyond the massive portal, you enter the city proper beneath an enormous stone likeness of High King Modimus Anvilmar. He united the dwarven clans before the War of the Three Hammers. The passage opens directly into the Commons, where Ironforge's trade and banking are centered.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "where do the gates go",
     "gates of ironforge location"
    ],
-   "answer": "They connect the exterior mountain terrain of Dun Morogh to the city of Ironforge. Passing through the threshold brings you directly into the southwestern part of the Commons, the city's lively trade and banking hub."
+   "answer": "The Gates of Ironforge lead from Dun Morogh into Ironforge. You emerge in the southwestern part of the Commons, the city's trade and banking hub."
   },
   {
    "q": "Who is the statue inside the gates depicting?",
@@ -32,7 +32,7 @@
     "giant dwarf statue",
     "who is the statue at the gate"
    ],
-   "answer": "The monumental sculpture just inside the entrance depicts High King Modimus Anvilmar. He was the wise and revered monarch who presided over all dwarven clans before political rifts fractured them into the Bronzebeard, Wildhammer, and Dark Iron factions."
+   "answer": "The statue just inside the entrance depicts High King Modimus Anvilmar. He ruled over all dwarven clans before political rifts divided them into the Bronzebeard, Wildhammer, and Dark Iron factions."
   },
   {
    "q": "How do you reach the gates from Dun Morogh?",
@@ -41,17 +41,17 @@
     "path to ironforge gates",
     "ironforge ramp"
    ],
-   "answer": "From central Dun Morogh, head north and climb the broad, fortified stone ramp carved into the mountainside. The ramp leads straight to the exterior threshold of the mountain fortress."
+   "answer": "From central Dun Morogh, head north and climb the broad, fortified stone ramp cut into the mountainside. It leads straight to the fortress's outer threshold."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "Standing beneath the grand likeness of High King Modimus Anvilmar reminds every dwarf of the ancient era when all clans lived under one mountain as a single kin."
+   "text": "Beneath High King Modimus Anvilmar's likeness, you can remember the ancient era when all dwarven clans lived under one mountain as a single kin."
   },
   {
    "target": "faction:Alliance",
-   "text": "The Gates of Ironforge stand as one of the Alliance's most fortified redoubts, virtually impervious to siege from the frigid valleys of Dun Morogh."
+   "text": "You enter the Gates of Ironforge, one of the Alliance's most fortified strongholds, nearly impossible to besiege from Dun Morogh's frigid valleys."
   }
  ],
  "keywords": [
@@ -70,5 +70,6 @@
  ],
  "attribution": [
   "Gates of Ironforge"
- ]
+ ],
+ "style": 1
 }

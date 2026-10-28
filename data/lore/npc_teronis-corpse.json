@@ -8,11 +8,11 @@
   "wiki": "Teronis' Corpse",
   "refs": 2
  },
- "summary": "Teronis' Corpse lies on a secluded island within Lake Falathim in western Ashenvale. Before his untimely demise, this night elf scout was dispatched from Astranaar on a crucial mission to recover Dartol's Rod to aid in cleansing the forest.",
+ "summary": "On an island in western Ashenvale, Teronis' Corpse lies in Lake Falathim. The night elf scout left Astranaar to find Dartol's Rod and help cleanse the forest.",
  "sections": [
   {
    "title": "A Scout's Grim Fate",
-   "body": "Sent forth by Raene Wolfrunner from the settlement of Astranaar, Teronis was tasked with recovering the lost rod of Dartol, an ancient night elf relic capable of purifying corrupted woodland magic. His search brought him deep into the waters of Lake Falathim, but the journey turned fatal when hostile murlocs swarmed the island. Teronis fell in battle, leaving his journal behind and the rod's radiant gemstone plundered by the lake's aggressive amphibians.",
+   "body": "Teronis was sent from Astranaar to recover Dartol's Rod. Raene Wolfrunner gave the night elf scout this charge, seeking an ancient relic that could cleanse corrupted woodland magic. Teronis searched the waters of Lake Falathim, but hostile murlocs swarmed the island and killed him. His journal remains there, while the murlocs took the rod's radiant gemstone.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "teronis lore",
     "identity of teronis"
    ],
-   "answer": "Teronis was a night elf scout sent out from Astranaar by Sentinel Raene Wolfrunner. He was tasked with retrieving Dartol's Rod, an old artifact needed to cleanse demonic corruption seeped into Ashenvale's soil and waters."
+   "answer": "Teronis was a night elf scout sent from Astranaar by Sentinel Raene Wolfrunner. He sought Dartol's Rod, an old artifact meant to cleanse demonic corruption in Ashenvale's soil and waters."
   },
   {
    "q": "How did Teronis die?",
@@ -33,7 +33,7 @@
     "teronis cause of death",
     "how did he die"
    ],
-   "answer": "Teronis was ambushed and slain by the aggressive murlocs that infest the shores and waters of Lake Falathim while attempting to secure the rod's components."
+   "answer": "Aggressive murlocs ambushed and killed Teronis as he tried to secure the rod's components in Lake Falathim."
   },
   {
    "q": "Where is his lost gemstone?",
@@ -42,7 +42,7 @@
     "lost gem",
     "teronis gem"
    ],
-   "answer": "After Teronis was killed, the glowing gemstone that crowned Dartol's Rod was scavenged by the local murlocs dwelling around Lake Falathim."
+   "answer": "Local murlocs around Lake Falathim scavenged the glowing gemstone that crowned Dartol's Rod after Teronis was killed."
   },
   {
    "q": "Why is recovering his mission so important to Astranaar?",
@@ -50,17 +50,17 @@
     "why help raene",
     "dartol rod purpose"
    ],
-   "answer": "Ashenvale's wildlife and woodland pools are increasingly suffering from vile demonic and fel taint. Dartol's Rod holds innate cleansing magic that the Sentinels hope will reverse or hold back this persistent rot."
+   "answer": "Ashenvale's wildlife and woodland pools suffer from demonic and fel taint. The Sentinels hope Dartol's Rod can cleanse the land or hold back the spreading rot."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "Finding Teronis fallen in the wilds is a sobering reminder of how dangerous Ashenvale has become even to seasoned Sentinels and scouts."
+   "text": "Finding Teronis fallen in the wilds shows how dangerous Ashenvale has become, even for seasoned Sentinels and scouts."
   },
   {
    "target": "faction:Alliance",
-   "text": "Honoring the sacrifice of Astranaar's scouts means carrying on their unfinished work to purge the land of looming corruption."
+   "text": "Honoring Astranaar's fallen scouts means carrying on their unfinished work to cleanse the land of corruption."
   }
  ],
  "keywords": [
@@ -82,5 +82,6 @@
  ],
  "attribution": [
   "Teronis' Corpse"
- ]
+ ],
+ "style": 1
 }

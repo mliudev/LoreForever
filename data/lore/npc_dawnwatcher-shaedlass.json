@@ -8,16 +8,16 @@
   "wiki": "Dawnwatcher Shaedlass",
   "refs": 1
  },
- "summary": "Dawnwatcher Shaedlass is a night elf affiliated with the Argent Dawn, stationed within the Craftsmen's Terrace of Darnassus. Acting as a quiet eyes-and-ears operative in Kalimdor, he seeks news of his fellow order members sent on perilous reconnaissance into hostile lands.",
+ "summary": "In Darnassus, Dawnwatcher Shaedlass keeps watch for the Argent Dawn across Kalimdor. From the Craftsmen's Terrace, he seeks word of his fellow order members sent to scout hostile lands.",
  "sections": [
   {
    "title": "Eyes of the Argent Dawn",
-   "body": "While the Argent Dawn is most famous for its bitter crusade against the Scourge in the Eastern Plaguelands, its vigilance extends far beyond Lordaeron. Dawnwatcher Shaedlass maintains a presence in the night elven capital of Darnassus, watching over the faction's interests in Kalimdor. From his quiet post on the Craftsmen's Terrace, he keeps tabs on covert expeditions against dark cults and corrupting powers that threaten the wider world.",
+   "body": "The Argent Dawn fights the Scourge in the Eastern Plaguelands, yet its watch reaches beyond Lordaeron. Dawnwatcher Shaedlass keeps the order's interests in Kalimdor from the night elf capital of Darnassus. At his post on the Craftsmen's Terrace, he follows covert expeditions against dark cults and corrupting powers that threaten the wider world.",
    "spoiler": 0
   },
   {
    "title": "A Missing Brother",
-   "body": "Shaedlass's chief concern is the whereabouts of Argent Guard Thaelrid, a comrade dispatched south to investigate reports of insidious cult activity within the Blackfathom Deeps along the Ashenvale coast. Fearing Thaelrid has met with foul play among the Twilight's Hammer and the aquatic horrors of the ancient elven temple, Shaedlass actively enlists daring Alliance adventurers to infiltrate the ruins and discover the scout's fate.",
+   "body": "Argent Guard Thaelrid is missing after a journey south to investigate cult activity in Blackfathom Deeps, along the Ashenvale coast. Shaedlass fears the Twilight's Hammer and the ancient elven temple's aquatic horrors may have harmed his comrade. He calls on daring Alliance adventurers to enter the ruins and learn what became of the scout.",
    "spoiler": 1
   }
  ],
@@ -29,7 +29,7 @@
     "dawnwatcher shaedlass lore",
     "argent dawn darnassus npc"
    ],
-   "answer": "Dawnwatcher Shaedlass is a night elf agent of the Argent Dawn. He is posted on the Craftsmen's Terrace in Darnassus, serving as a liaison and point of contact for the order's efforts in northern Kalimdor."
+   "answer": "Dawnwatcher Shaedlass is a night elf agent of the Argent Dawn, posted on the Craftsmen's Terrace in Darnassus. He connects the order with its efforts in northern Kalimdor."
   },
   {
    "q": "Why is an Argent Dawn member in Darnassus?",
@@ -37,7 +37,7 @@
     "why is argent dawn in darnassus",
     "argent dawn night elf"
    ],
-   "answer": "Although the Argent Dawn primarily wages war against the Scourge in Lordaeron, they maintain vigilant agents across Azeroth to track corrupting evils. Shaedlass coordinates intelligence and monitors threats brewing across Kalimdor, including shadowy cults."
+   "answer": "The Argent Dawn fights the Scourge in Lordaeron, and keeps watch across Azeroth for corrupting evils. In Kalimdor, Shaedlass tracks threats such as shadowy cults."
   },
   {
    "q": "What does Shaedlass ask adventurers to do?",
@@ -45,7 +45,7 @@
     "shaedlass quest",
     "in search of thaelrid quest"
    ],
-   "answer": "Shaedlass sends Alliance adventurers into the sunken temple of Blackfathom Deeps on the quest 'In Search of Thaelrid'. He tasks them with finding Argent Guard Thaelrid, an undercover scout who ventured into the ruins to investigate the Twilight's Hammer and never reported back."
+   "answer": "Shaedlass sends Alliance adventurers into the sunken temple of Blackfathom Deeps to find Argent Guard Thaelrid. Thaelrid went undercover to investigate the Twilight's Hammer and has not reported back."
   },
   {
    "q": "Where can I find Dawnwatcher Shaedlass?",
@@ -53,17 +53,17 @@
     "shaedlass location",
     "where is dawnwatcher shaedlass"
    ],
-   "answer": "He is located in Darnassus on the Craftsmen's Terrace, situated near the trade vendors and craftsmen of the capital."
+   "answer": "Dawnwatcher Shaedlass is on the Craftsmen's Terrace in Darnassus, near the capital's trade vendors and craftsmen."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Shaedlass provides Alliance heroes in Darnassus a direct link to the mysteries of Blackfathom Deeps, dispatching scouts to rescue an operative deep behind enemy lines."
+   "text": "For Alliance heroes in Darnassus, Shaedlass offers a path into the mysteries of Blackfathom Deeps and sends scouts to recover an operative deep behind enemy lines."
   },
   {
    "target": "race:NightElf",
-   "text": "As one of the few night elves openly serving under the banner of the Argent Dawn, Shaedlass bridges the insular politics of Teldrassil with a global vigil against darkness."
+   "text": "As a night elf serving openly with the Argent Dawn, Shaedlass links Teldrassil's insular politics with the order's watch against darkness across the world."
   }
  ],
  "keywords": [
@@ -86,5 +86,6 @@
  ],
  "attribution": [
   "Dawnwatcher Shaedlass"
- ]
+ ],
+ "style": 1
 }

@@ -8,16 +8,16 @@
   "wiki": "Agathelos the Raging",
   "refs": 5
  },
- "summary": "Agathelos the Raging is a colossal armored boar penned within the thorned tunnels of Razorfen Kraul. To the quilboar, whose god and progenitor is the great boar Agamaggan, a beast of his size carries considerable spiritual significance, and he grows even more fearsome when enraged. His sheer mass and strength make him one of the most dangerous beasts lurking under the southern Barrens.",
+ "summary": "Deep within Razorfen Kraul, Agathelos the Raging is penned among the thorned tunnels. His great size matters to the quilboar, who revere Agamaggan as their god and progenitor, and rage makes the armored boar more fearsome still. His strength and mass make him one of the most dangerous beasts beneath the southern Barrens.",
  "sections": [
   {
    "title": "Avatars of the Great Boar",
-   "body": "The god and progenitor of the quilboar is Agamaggan, a titanic boar. A beast the size of Agathelos\u2014standing roughly twice as tall as a Barrens thunder lizard\u2014therefore carries considerable spiritual significance among the Razorfen tribes.",
+   "body": "Agamaggan, a titanic boar, is the god and progenitor of the quilboar. Among the Razorfen tribes, a beast as large as Agathelos carries deep spiritual meaning. He stands roughly twice as tall as a Barrens thunder lizard.",
    "spoiler": 0
   },
   {
    "title": "Kept in Chains",
-   "body": "The quilboar do not let Agathelos roam loose within the Kraul. He is kept in a short, dead-end tunnel behind a field maintained by several quilboar guards. Should intruders break past the barrier, they face a raging beast that grows even bigger and more terrifying when enraged.",
+   "body": "The quilboar keep Agathelos from roaming freely through the Kraul. Several guards maintain a field in front of the short, dead-end tunnel where he is penned. Intruders who break through the barrier face a raging beast, made even bigger and more terrifying by his fury.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "agathelos size",
     "giant boar barrens"
    ],
-   "answer": "Agathelos is a naturally colossal armored boar, roughly twice the size of a common thunder lizard, and he grows even bigger when enraged. To the quilboar, whose god and progenitor Agamaggan was a titanic boar, a beast of his size carries considerable spiritual significance."
+   "answer": "Agathelos is a naturally colossal armored boar, roughly twice the size of a common thunder lizard. He grows even bigger when enraged. The quilboar revere Agamaggan, their titanic boar god and progenitor, so a beast of Agathelos's size carries great spiritual meaning."
   },
   {
    "q": "Why do the quilboar keep him locked behind a barrier?",
@@ -38,7 +38,7 @@
     "why is agathelos caged",
     "agathelos force field"
    ],
-   "answer": "The quilboar keep Agathelos penned in a short tunnel behind a field maintained by several of their guards, so the monstrous, raging boar cannot roam the Kraul freely."
+   "answer": "The quilboar pen Agathelos in a short tunnel behind a field maintained by several guards. The barrier keeps the monstrous, raging boar from roaming the Kraul freely."
   },
   {
    "q": "What is his connection to Agamaggan?",
@@ -47,7 +47,7 @@
     "is agathelos a god",
     "agamaggan son"
    ],
-   "answer": "Agamaggan is the great boar Ancient and progenitor of the quilboar race. Because of this ancestry, a gigantic boar like Agathelos carries considerable spiritual significance for the quilboar."
+   "answer": "Agamaggan is the great boar Ancient and progenitor of the quilboar. His ancestry gives a gigantic boar like Agathelos great spiritual meaning to the quilboar."
   },
   {
    "q": "What tribe created Agathelos?",
@@ -56,7 +56,7 @@
     "who feeds agathelos",
     "agathelos tribe"
    ],
-   "answer": "Agathelos is a beast, not a creation. He is kept by the Death's Head quilboar of Razorfen Kraul, who pen him in a guarded tunnel deep within the thorns."
+   "answer": "Agathelos is a beast, not a creation. The Death's Head quilboar of Razorfen Kraul keep him in a guarded tunnel deep within the thorns."
   },
   {
    "q": "Can hunters tame Agathelos?",
@@ -65,21 +65,21 @@
     "can i tame agathelos",
     "hunter agathelos"
    ],
-   "answer": "No. Agathelos is an elite, heavily armored monster, far too dangerous to be brought under a hunter's control."
+   "answer": "No. Agathelos is an elite, heavily armored monster, too dangerous for a hunter to bring under control."
   }
  ],
  "angles": [
   {
    "target": "class:Hunter",
-   "text": "A hunter can appreciate the sheer predatory bulk of Agathelos, though his endless rage makes him a beast to be slain rather than tamed."
+   "text": "As a hunter, you can admire Agathelos's predatory bulk, but his endless rage makes him a beast to slay rather than tame."
   },
   {
    "target": "class:Druid",
-   "text": "Druids hold Agamaggan in high esteem as one of the great Ancients who fell during the War of the Ancients; seeing one of his colossal kin penned and raging in the Kraul is a grim sight."
+   "text": "As a druid, you hold Agamaggan in high esteem as one of the great Ancients who fell during the War of the Ancients. Seeing one of his colossal kin penned and raging in the Kraul is grim."
   },
   {
    "target": "race:Tauren",
-   "text": "The earth-attuned tauren know the legends of Agamaggan well, recognizing that the quilboar's corruption of his kindred beasts is another sign of the rot infesting the Barrens."
+   "text": "As a tauren attuned to the earth, you know the legends of Agamaggan. The quilboar's corruption of his kindred beasts marks the rot spreading through the Barrens."
   }
  ],
  "keywords": [
@@ -99,5 +99,6 @@
  ],
  "attribution": [
   "Agathelos the Raging"
- ]
+ ],
+ "style": 1
 }

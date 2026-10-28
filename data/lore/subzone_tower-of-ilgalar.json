@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Tower of Ilgalar"
  },
- "summary": "The Tower of Ilgalar is an isolated spire perched high in the crags of the eastern Redridge Mountains. Once a wizard's retreat, it has fallen into shadow as the hideout of Morganth, a banished sorcerer from Stormwind who now commands the region's feral gnolls and practices dark magic.",
+ "summary": "In eastern Redridge, Morganth holds the Tower of Ilgalar and commands the Shadowhide gnolls. The banished sorcerer practices dark magic there, far from Stormwind.",
  "sections": [
   {
    "title": "A Bastion of Dark Sorcery",
-   "body": "Looming over eastern Redridge, the Tower of Ilgalar serves as the personal sanctum of Morganth. Cast out from the Mage Quarter of Stormwind for dabbling in forbidden magic, the rogue sorcerer retreated into these rugged heights to delve deeper into the dark arts without imperial interference. Rather than living in solitude, Morganth asserted dominion over the local Shadowhide gnoll clan, employing them as savage sentries around the base of the spire. Inside, the tower crawls with conjured demonic hounds and crackles with shadowy power, posing a constant, brooding menace to the beleaguered town of Lakeshire below.",
+   "body": "Morganth holds the Tower of Ilgalar above eastern Redridge. Cast out of Stormwind's Mage Quarter for forbidden magic, the sorcerer retreated to these rugged heights to pursue the dark arts beyond imperial interference. He rules the local Shadowhide gnoll clan, whose members guard the spire's base. Inside, conjured demonic hounds stalk the tower, and shadowy power threatens Lakeshire below.",
    "spoiler": 0
   },
   {
    "title": "The Rivalry with Azora",
-   "body": "Scholars often draw parallels between the Tower of Ilgalar and the Tower of Azora in Elwynn Forest. While the true identity of Ilgalar remains shrouded in mystery, the two towers stand in quiet, magical opposition. In Elwynn, the archmage Theocritus maintains careful watch over Ilgalar through enchanted scrying devices like the Eye of Azora, monitoring Morganth's sinister experiments and plotting to neutralize the renegade before his corruption spreads further through the kingdom.",
+   "body": "The Tower of Ilgalar draws comparisons to the Tower of Azora in Elwynn Forest. Who built Ilgalar remains a mystery, and the towers face one another in quiet magical opposition. In Elwynn, the archmage Theocritus watches Ilgalar through enchanted scrying devices such as the Eye of Azora. He monitors Morganth's experiments and seeks to stop the sorcerer's corruption from spreading through the kingdom.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "tower of ilgalar boss",
     "who controls the tower"
    ],
-   "answer": "The tower is held by Morganth, a renegade human sorcerer who was exiled from Stormwind City for practicing forbidden dark magic. He now rules the tower alongside summoned demonic darkhounds and commands the local Shadowhide gnolls."
+   "answer": "Morganth lives in the tower, ruling it with summoned demonic darkhounds and the local Shadowhide gnolls. The human sorcerer was exiled from Stormwind City for forbidden dark magic."
   },
   {
    "q": "Why did Morganth flee to Redridge?",
@@ -37,7 +37,7 @@
     "morganth backstory",
     "why was morganth exiled"
    ],
-   "answer": "Morganth was cast out of the Mage Quarter in Stormwind after pursuing the dark arts. He retreated to the remote crags of Redridge to conduct his forbidden experiments far away from the scrutiny of the realm's authorities and the Kirin Tor."
+   "answer": "Morganth fled Stormwind after the Mage Quarter cast him out for pursuing the dark arts. He withdrew to Redridge's remote crags to carry out forbidden experiments beyond the scrutiny of the realm's authorities and the Kirin Tor."
   },
   {
    "q": "What is the connection between this tower and the Tower of Azora?",
@@ -46,7 +46,7 @@
     "ilgalar and azora",
     "eye of azora redridge"
    ],
-   "answer": "Both towers are prominent magical spires in southern Stormwind, seemingly mirrored in purpose. From the Tower of Azora in Elwynn Forest, the mage Theocritus actively scries upon the upper sanctum of Ilgalar using the Eye of Azora to keep watch over Morganth's dark rituals."
+   "answer": "The Tower of Ilgalar and the Tower of Azora are magical spires in southern Stormwind, seemingly mirrored in purpose. From Elwynn Forest, Theocritus uses the Eye of Azora to watch Ilgalar's upper sanctum and Morganth's dark rituals."
   },
   {
    "q": "Why are there gnolls guarding the tower?",
@@ -55,17 +55,17 @@
     "shadowhide gnolls tower",
     "gnolls around tower"
    ],
-   "answer": "Morganth used his magical influence to subjugate the local Shadowhide clan of gnolls. They act as outer sentries and muscle, keeping intruders, scouts, and the Lakeshire militia from scaling the cliffs to his sanctum."
+   "answer": "Morganth used magic to subdue the local Shadowhide gnolls. They guard the tower's outer reaches and keep intruders, scouts, and the Lakeshire militia from climbing the cliffs to his sanctum."
   }
  ],
  "angles": [
   {
    "target": "class:Mage",
-   "text": "The tower serves as a stark warning of what happens when arcane studies delve into forbidden dark magic, drawing the watchful eye of Kirin Tor veterans like Theocritus."
+   "text": "As a mage, the tower warns of the dangers of forbidden dark magic. Kirin Tor veterans such as Theocritus keep watch."
   },
   {
    "target": "class:Warlock",
-   "text": "Morganth's reliance on summoned darkhounds and shadowy hexes mirrors demonic arts, making his mountain retreat an intriguing example of rogue spellcraft outside of city covens."
+   "text": "As a warlock, you may find Morganth's summoned darkhounds and shadowy hexes a striking example of rogue spellcraft beyond city covens."
   }
  ],
  "keywords": [
@@ -89,5 +89,6 @@
  ],
  "attribution": [
   "Tower of Ilgalar"
- ]
+ ],
+ "style": 1
 }

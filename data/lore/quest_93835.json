@@ -1,0 +1,102 @@
+{
+ "key": "quest:93835",
+ "type": "quest",
+ "name": "Confront Lorthuna",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   93835
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "An injured mage asks you to follow Ayessa and Elaadrin through a portal to the Rohashi Spires. They need help confronting High Priestess Lorthuna.",
+ "sections": [
+  {
+   "title": "Through the portal",
+   "body": "Lorthuna fled to the spires above by portal, and Ayessa Dawnsinger and Elaadrin Evengale went after her moments ago. Their companion is too badly hurt to follow. Go through the portal and join them as they face the High Priestess.",
+   "spoiler": 0
+  },
+  {
+   "title": "After the clash",
+   "body": "The remaining mages were sent to help Valennia and her forces escape, and Valennia is resting at High Elder Shadowsong's residence. Ansirem has returned to Azeroth after discussing the High Order's next steps. Zephras survived the day, but is dangerously vulnerable, and plans must be made for what comes next.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is asking me to go after Lorthuna?",
+   "aliases": [
+    "who sent me",
+    "injured mage",
+    "who needs help"
+   ],
+   "answer": "An injured mage asks you to follow Ayessa Dawnsinger and Elaadrin Evengale through the portal and help them confront High Priestess Lorthuna."
+  },
+  {
+   "q": "Where did Lorthuna go?",
+   "aliases": [
+    "where is lorthuna",
+    "lorthuna portal",
+    "where'd she flee"
+   ],
+   "answer": "Lorthuna fled through a portal to the Rohashi Spires overhead."
+  },
+  {
+   "q": "Who went after Lorthuna?",
+   "aliases": [
+    "ayessa and elaadrin",
+    "who followed her",
+    "who's up there"
+   ],
+   "answer": "Ayessa Dawnsinger and Elaadrin Evengale went through the portal after Lorthuna."
+  },
+  {
+   "q": "Why can't the injured mage go with them?",
+   "aliases": [
+    "why am i going alone",
+    "mage too hurt",
+    "why stay behind"
+   ],
+   "answer": "The mage took too many hits and must stay behind."
+  },
+  {
+   "q": "Where is Valennia?",
+   "aliases": [
+    "valennia location",
+    "where did she go",
+    "valennia safe"
+   ],
+   "answer": "Valennia is resting at High Elder Shadowsong's residence after the remaining mages helped her and her forces escape."
+  },
+  {
+   "q": "What is at risk now?",
+   "aliases": [
+    "zephras vulnerable",
+    "what happened to zephras",
+    "high order next"
+   ],
+   "answer": "Zephras is dangerously vulnerable, and the High Order must make plans for what comes next."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "ayessa dawnsinger",
+  "elaadrin evengale",
+  "high order",
+  "lorthuna",
+  "portal",
+  "rohashi spires",
+  "valennia",
+  "zephras"
+ ],
+ "related": [
+  "npc:ayessa-dawnsinger",
+  "quest:92596"
+ ],
+ "style": 1,
+ "attribution": [
+  "In-game quest text: Confront Lorthuna"
+ ]
+}

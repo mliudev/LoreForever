@@ -10,16 +10,16 @@
    "quest:491"
   ]
  },
- "summary": "The Woven Wand is a unique enchanted relic crafted long ago by three Dalaran apprentice magi as a pledge of brotherhood. Following the fall of Lordaeron and bitter betrayals among its creators, the wand was hidden away in Fenris Keep before resurfacing in the hands of the Forsaken.",
+ "summary": "In the Undercity, the Woven Wand has returned to Bethor Iceshard. Three Dalaran apprentices made it as a pledge of brotherhood, before betrayal and the fall of Lordaeron scattered them.",
  "sections": [
   {
    "title": "The Hidden Alcove",
-   "body": "Though Thule came to detest the sentimentality of the wand after turning to darkness, he could never bring himself to destroy it or surrender it to his former peers. Instead, he carried the artifact into Silverpine Forest and concealed it deep within an alcove in Fenris Keep. Years later, with Thule's lair breached and his servant Alaric directing Horde agents to the hiding place, the relic was retrieved intact. Never having had its dormant enchantments invoked by the necromancer, the wand was finally delivered to Bethor Iceshard within the Magic Quarter of the Undercity.",
+   "body": "Thule Ravenclaw could not destroy the wand or surrender it to his former friends, though he came to despise what it meant after turning to darkness. He carried it to Silverpine Forest and hid it in an alcove deep within Fenris Keep. Years later, Thule's lair was breached, and his servant Alaric directed Horde agents to the hiding place. They recovered the relic intact. Thule had never invoked its dormant enchantments, and the wand was delivered to Bethor Iceshard in the Undercity's Magic Quarter.",
    "spoiler": 1
   },
   {
    "title": "A Sundered Bond",
-   "body": "In the days when Dalaran still trained the young magi of the north, three aspiring wizards\u2014Bethor Iceshard, Gunther Arcanus, and Thule Ravenclaw\u2014intertwined their individual apprentice wands into a single talisman. This Woven Wand served as both a conduit of combined magical power and a symbol of their enduring friendship. That fellowship shattered irrevocably when the Scourge swept through Lordaeron. Thule Ravenclaw chose to swear fealty to the Lich King, turning to foul necromancy. Meanwhile, the Plague of Undeath claimed both Bethor and Gunther, eventually cutting their ties to Dalaran entirely.",
+   "body": "When Dalaran still trained the young magi of the north, apprentices Bethor Iceshard, Gunther Arcanus, and Thule Ravenclaw joined their wands into one talisman. The Woven Wand focused their combined magical power and marked their friendship. The Scourge's march through Lordaeron broke that bond. Thule swore fealty to the Lich King and turned to necromancy. The Plague of Undeath claimed Bethor and Gunther, severing their ties to Dalaran.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "creators of woven wand",
     "wand creators"
    ],
-   "answer": "The wand was crafted jointly by three Dalaran apprentice mages: Bethor Iceshard, Gunther Arcanus, and Thule Ravenclaw. They combined their three separate apprentice wands into one shared artifact to represent their friendship."
+   "answer": "Bethor Iceshard, Gunther Arcanus, and Thule Ravenclaw made the Woven Wand as Dalaran apprentices. They joined their three wands into one to mark their friendship."
   },
   {
    "q": "Why was the wand hidden in Fenris Keep?",
@@ -40,7 +40,7 @@
     "where was woven wand found",
     "why fenris keep"
    ],
-   "answer": "After Thule betrayed his colleagues to serve the Lich King, he grew to despise the artifact and the bond it represented. However, he was unable to part with it or destroy it, so he hid it away within a secret niche in his lair at Fenris Keep."
+   "answer": "After Thule betrayed his former friends and served the Lich King, he despised the wand and what it represented. Still, he could neither destroy it nor part with it, so he hid it in an alcove in Fenris Keep."
   },
   {
    "q": "Why did Bethor Iceshard think the wand was lost?",
@@ -48,7 +48,7 @@
     "what does bethor say about the wand",
     "bethor reaction to wand"
    ],
-   "answer": "Bethor assumed the wand had been permanently lost when their friendship collapsed and the plague ravaged the land. He also noted that Thule never dared to invoke its magical energies; had Thule used it, Bethor would have sensed the surge through their lingering magical link."
+   "answer": "Bethor believed the wand was lost when the plague ravaged the land and the apprentices' friendship broke apart. Thule never used its magic; Bethor would have sensed its power through their lingering magical link."
   },
   {
    "q": "How was the wand recovered?",
@@ -56,17 +56,17 @@
     "who found the wand",
     "how to get woven wand"
    ],
-   "answer": "Horde adventurers assaulted Fenris Keep to defeat Thule Ravenclaw. Guided by the severed, still-talking head of Ravenclaw's former servant Alaric, they located the hidden niche containing the wand and brought it out of the ruins."
+   "answer": "Horde agents recovered the wand from Fenris Keep after breaching Thule Ravenclaw's lair. Alaric, his former servant, directed them to the hidden alcove."
   }
  ],
  "angles": [
   {
    "target": "class:Mage",
-   "text": "The Woven Wand illustrates the old traditions of Dalaran's apprentices, who often experimented with melding personal conduits to focus their collective arcane potential."
+   "text": "As a mage, you can see how Dalaran's apprentices joined their personal wands to focus their shared arcane power."
   },
   {
    "target": "race:Undead",
-   "text": "The artifact serves as a bittersweet reminder of mortal lives lost to the Scourge, uniting the memories of two Forsaken survivors against the madness of their fallen former peer."
+   "text": "As an undead, you can see the wand as a reminder of mortal lives lost to the Scourge. It connects two Forsaken survivors in memory of their fallen former friend."
   }
  ],
  "keywords": [
@@ -92,5 +92,6 @@
  "attribution": [
   "Woven Wand",
   "Wand to Bethor"
- ]
+ ],
+ "style": 1
 }

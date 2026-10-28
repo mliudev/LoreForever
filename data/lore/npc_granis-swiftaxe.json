@@ -8,11 +8,11 @@
   "wiki": "Granis Swiftaxe",
   "refs": 1
  },
- "summary": "Granis Swiftaxe is a dwarf warrior trainer stationed inside the Thunderbrew Distillery in Kharanos. Known for his blunt demeanor and hardy training regimen, he mentors fledgling Alliance fighters emerging from Coldridge Pass before directing seasoned warriors to the city of Ironforge.",
+ "summary": "Inside Kharanos, Granis Swiftaxe trains young Alliance fighters from Coldridge Pass. The dwarf warrior trainer waits in the Thunderbrew Distillery, then sends seasoned warriors to Ironforge.",
  "sections": [
   {
    "title": "A Gruff Mentor in Kharanos",
-   "body": "Found warming himself among the casks of the Thunderbrew Distillery, Granis Swiftaxe serves as the primary combat instructor for young warriors traversing Dun Morogh. He possesses the unyielding pride typical of dwarven fighters, showing open amusement and disdain toward non-warriors who try to catch his ear. Once a student demonstrates sufficient prowess in combat, Granis sends them up the mountain path to seek out master trainer Muren Stormpike in the Military Ward of Ironforge.",
+   "body": "Granis Swiftaxe warms himself among the casks of the Thunderbrew Distillery in Kharanos, where he trains young warriors crossing Dun Morogh. Proud of the warrior’s path, he openly amuses himself at those from other callings who try to win his attention. When a student proves their skill in combat, Granis sends them up the mountain path to Muren Stormpike, the master trainer in Ironforge’s Military Ward.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "who is granis",
     "kharanos warrior trainer"
    ],
-   "answer": "Granis Swiftaxe is a dwarven warrior trainer located on the ground floor of the Thunderbrew Distillery in Kharanos. He teaches early martial techniques to young dwarf and gnome warriors adventuring across Dun Morogh."
+   "answer": "Granis Swiftaxe trains young dwarf and gnome warriors on the ground floor of the Thunderbrew Distillery in Kharanos. He teaches the first martial techniques they need while traveling across Dun Morogh."
   },
   {
    "q": "Why does Granis mock my character?",
@@ -33,7 +33,7 @@
     "why is granis laughing at me",
     "granis non warrior text"
    ],
-   "answer": "Granis has no patience for those who do not walk the path of the warrior. If an adventurer of another class speaks to him, he scoffs at the notion of them surviving even a single day under his intense training regimen."
+   "answer": "Granis has little patience for those who do not follow the warrior’s path. When someone of another class speaks to him, he scoffs that they would not survive a day under his training."
   },
   {
    "q": "Where does Granis send advancing warriors?",
@@ -42,7 +42,7 @@
     "granis questline",
     "who does granis send you to"
    ],
-   "answer": "Once a warrior gains enough experience in Dun Morogh, Granis directs them to seek out Muren Stormpike, a senior warrior trainer located in the Military Ward of Ironforge."
+   "answer": "When a warrior has gained enough experience in Dun Morogh, Granis sends them to Muren Stormpike, a senior warrior trainer in Ironforge’s Military Ward."
   },
   {
    "q": "Is Granis related to other Swiftaxes in Khaz Modan?",
@@ -50,17 +50,17 @@
     "swiftaxe family",
     "granis swiftaxe relatives"
    ],
-   "answer": "He shares the Swiftaxe surname with other dwarves, but no family relationship is confirmed."
+   "answer": "Granis shares the Swiftaxe surname with other dwarves, but no family relationship is confirmed."
   }
  ],
  "angles": [
   {
    "target": "class:Warrior",
-   "text": "For dwarven and gnomish fighters leaving Coldridge Valley, Granis provides essential early combat instruction right alongside a fresh pint at the distillery."
+   "text": "As a dwarf or gnome warrior leaving Coldridge Valley, you can learn early combat skills from Granis at the Thunderbrew Distillery."
   },
   {
    "target": "race:Dwarf",
-   "text": "Embodying the robust and stubborn spirit of Ironforge's foot soldiers, Granis blends martial discipline with the comforts of local ale."
+   "text": "As a dwarf, you’ll find Granis’s stubborn pride and martial discipline among the comforts of local ale."
   }
  ],
  "keywords": [
@@ -81,5 +81,6 @@
  ],
  "attribution": [
   "Granis Swiftaxe"
- ]
+ ],
+ "style": 1
 }

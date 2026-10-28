@@ -10,11 +10,11 @@
    "quest:164"
   ]
  },
- "summary": "Supplies for Sven is a bundle of vital provisions packaged in Darkshire and destined for Sven Yorgen's secluded camp. Surrounded by the horrors of Duskwood, Sven and his small band rely on sympathetic townspeople like the Carevin family to sustain their vigil against the shadows.",
+ "summary": "Darkshire sends provisions to Sven Yorgen's camp in northwestern Duskwood. The Carevin family keeps his small band supplied as they hold their watch against the shadows.",
  "sections": [
   {
    "title": "A Lifeline for the Camp",
-   "body": "Carrying survival gear and basic necessities through Duskwood is no simple chore. Sven Yorgen and his handful of followers camp in the northwestern wilderness of the woods, far from the safety of Darkshire. Their numbers are so depleted and their watch so demanding that they cannot spare a single fighter to make the trek into town. This parcel represents a lifeline sent by the Carevin family, ensuring that the isolated camp has the food, bandages, and materials needed to hold their ground.",
+   "body": "Sven Yorgen and his few followers camp in the northwestern wilderness, far from Darkshire. Their numbers are too low, and their watch too demanding, to spare anyone for the journey into town. The Carevin family sends food, bandages, and other necessities to the isolated camp, helping the band hold its ground.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "who packed sven's supplies",
     "carevin family supplies"
    ],
-   "answer": "The supplies are sent through the Carevin family of Darkshire. Recognizing the desperate struggle Sven Yorgen faces in the wilderness, they arrange these provisions to support his camp."
+   "answer": "The Carevin family of Darkshire sends these supplies. They arrange provisions to support Sven Yorgen and his camp in the wilderness."
   },
   {
    "q": "Why can't Sven fetch his own supplies?",
@@ -35,7 +35,7 @@
     "why delivery for sven",
     "why need supplies"
    ],
-   "answer": "Sven's band is stretched too thin. With only a few surviving companions guarding their camp in northwestern Duskwood against beasts and undead, they cannot spare anyone to walk the dangerous roads to Darkshire."
+   "answer": "Sven's band has too few people to leave the camp. His surviving companions guard it in northwestern Duskwood against beasts and undead, and cannot spare anyone for the dangerous road to Darkshire."
   },
   {
    "q": "Where is Sven's camp located?",
@@ -44,7 +44,7 @@
     "sven camp location",
     "find sven duskwood"
    ],
-   "answer": "Sven's camp is situated along the northwestern edge of Duskwood, tucked into the hills well beyond the direct protection of the Night Watch."
+   "answer": "Sven's camp lies along the northwestern edge of Duskwood, in the hills beyond the Night Watch's direct protection."
   },
   {
    "q": "Who is Sven Yorgen?",
@@ -58,11 +58,11 @@
  "angles": [
   {
    "target": "class:Paladin",
-   "text": "Sven's steadfast defiance against the darkness in Duskwood is seen by the pious as genuine work of the Light, making these provisions a vital service to a brother in faith."
+   "text": "As a paladin, you can see Sven's defiance against Duskwood's darkness as work of the Light. These provisions serve a brother in faith."
   },
   {
    "target": "faction:Alliance",
-   "text": "With the Night Watch stretched thin defending Darkshire, Alliance travelers often serve as the only reliable courier link to isolated outposts like Sven's camp."
+   "text": "With the Night Watch stretched thin defending Darkshire, Alliance travelers often carry supplies to isolated outposts like Sven's camp."
   }
  ],
  "keywords": [
@@ -85,5 +85,6 @@
  "attribution": [
   "Supplies for Sven",
   "Deliveries to Sven"
- ]
+ ],
+ "style": 1
 }

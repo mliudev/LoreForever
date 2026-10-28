@@ -10,11 +10,11 @@
    "quest:378"
   ]
  },
- "summary": "The severed head of Kam Deepfury serves as grim proof that the Dark Iron conspirator behind the sabotaged Thandol Span has met his end. Slain within the riots of the Stormwind Stockade, his death fulfills a personal vendetta for the dwarven defenders of Dun Modr.",
+ "summary": "At the Stormwind Stockade, Kam Deepfury’s severed head marks the end of a Dark Iron conspirator. His death in the prison riots answers the grievance of the dwarven defenders at Dun Modr.",
  "sections": [
   {
    "title": "A Conspirator's Justice",
-   "body": "Kam Deepfury was arrested and locked away in the Stormwind Stockade for political reasons, spared from immediate execution by human diplomatic bureaucracy. To the Ironforge mountaineers stationed at Dun Modr, this restraint was unacceptable. Intelligence uncovered by Roggo revealed that Deepfury orchestrated the devastating attack on the Thandol Span\u2014an assault that cost the lives of King Magni's soldiers and the kin of Longbraid the Grim. Bound by duty to remain at his post, Motley Garmason commissioned Alliance champions to infiltrate the rioting prison and claim Deepfury's head, ensuring true dwarven vengeance was delivered where human diplomacy faltered.",
+   "body": "Kam Deepfury was held in the Stormwind Stockade for political reasons, spared immediate execution by human diplomacy. Roggo uncovered that Deepfury had orchestrated the attack on the Thandol Span, which cost the lives of King Magni’s soldiers and Longbraid the Grim’s kin. The Ironforge mountaineers at Dun Modr could not accept his continued imprisonment. Bound to his post, Motley Garmason sent Alliance champions into the rioting prison to take Deepfury’s head and deliver dwarven vengeance.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "who is deepfury",
     "kam deepfury backstory"
    ],
-   "answer": "Kam Deepfury was a treacherous Dark Iron dwarf who helped plan the sabotage of the Thandol Span, the critical land bridge connecting the Wetlands to the Arathi Highlands. His conspiracy resulted in the deaths of dwarven defenders, including the brother of Longbraid the Grim."
+   "answer": "Kam Deepfury was a Dark Iron dwarf who helped plan the sabotage of the Thandol Span, the land bridge between the Wetlands and the Arathi Highlands. His conspiracy cost dwarven defenders their lives, including Longbraid the Grim’s brother."
   },
   {
    "q": "Why was Kam Deepfury in the Stockade instead of executed?",
@@ -34,7 +34,7 @@
     "why was deepfury imprisoned",
     "why stockade"
    ],
-   "answer": "Deepfury was being held alive by the authorities in Stormwind for political reasons. While human bureaucracy was content to let him rot in a prison cell, Ironforge mountaineers viewed this leniency as an outrage and demanded blood."
+   "answer": "Stormwind authorities held Deepfury alive for political reasons. The Ironforge mountaineers saw this restraint as an outrage and demanded his death."
   },
   {
    "q": "Who wants the Head of Deepfury?",
@@ -42,7 +42,7 @@
     "who takes deepfury head",
     "fury runs deep turn in"
    ],
-   "answer": "Motley Garmason, a dwarf stationed at Dun Modr in the northern Wetlands, requests the head. Bound by honor to remain at his post beside Longbraid the Grim, Motley sends an adventurer to finish what he cannot do himself."
+   "answer": "Motley Garmason, stationed at Dun Modr in the northern Wetlands, wants the head. Bound by honor to remain at his post beside Longbraid the Grim, he sends someone to do what he cannot."
   },
   {
    "q": "What does bringing back the head accomplish?",
@@ -50,17 +50,17 @@
     "why bring deepfury head",
     "fury runs deep result"
    ],
-   "answer": "Presenting Deepfury's severed head brings closure and justice to the mourning dwarven families at Dun Modr. It avenges the slain brother of Longbraid the Grim and demonstrates that crimes against Ironforge will not be buried beneath human political maneuvering."
+   "answer": "Bringing Deepfury’s severed head to Dun Modr answers the grievance of the mourning dwarven families. It avenges Longbraid the Grim’s slain brother and shows that human political maneuvering will not bury crimes against Ironforge."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "For dwarves of Ironforge, taking Deepfury's head is a matter of pure clan justice, settling a blood debt incurred by the Dark Iron treachery at the Thandol Span."
+   "text": "For Ironforge dwarves, taking Deepfury’s head answers the grievance over the Dark Iron treachery at the Thandol Span."
   },
   {
    "target": "faction:Alliance",
-   "text": "The bounty illustrates growing friction within the Alliance, contrasting human legal caution in Stormwind with the harsh frontier justice demanded by Ironforge mountaineers."
+   "text": "The demand for Deepfury’s head reveals friction within the Alliance: Stormwind’s human authorities favor legal caution, while Ironforge’s mountaineers demand harsh justice."
   }
  ],
  "keywords": [
@@ -86,5 +86,6 @@
  "attribution": [
   "Head of Deepfury",
   "The Fury Runs Deep"
- ]
+ ],
+ "style": 1
 }

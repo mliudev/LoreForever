@@ -8,11 +8,11 @@
   "wiki": "Tarrel Rockweaver",
   "refs": 2
  },
- "summary": "Tarrel Rockweaver is an anxious dwarven husband stationed on the bridge leading into Menethil Harbor. Deeply worried for his wife Merrin, an archaeologist who ventured inland with Whelgar's excavation team, he watches the road hoping for news of her safety.",
+ "summary": "At Menethil Harbor’s bridge, Tarrel Rockweaver anxiously waits for news of his wife, Merrin. The dwarf fears for her safety after she joined an inland archaeological expedition.",
  "sections": [
   {
    "title": "A Watch on the Bridge",
-   "body": "While trade and military shipments flow through Menethil Harbor, Tarrel Rockweaver keeps an anxious vigil at the bridge on the edge of town. His wife, Merrin Rockweaver, joined Prospector Whelgar's prestigious archaeological expedition deeper into the Wetlands. When violent raptors overran the excavation site and cut off regular communication, Tarrel was left stranded in town, begging passing travelers to scout east toward Whelgar's Excavation Site to ensure she survived the disaster.",
+   "body": "Tarrel Rockweaver watches the bridge at Menethil Harbor, where trade and military shipments pass. His wife, Merrin Rockweaver, joined Prospector Whelgar’s prestigious archaeological expedition deeper in the Wetlands. Violent raptors overran the excavation site and cut off regular communication. Stranded in town, Tarrel begs travelers to scout east toward Whelgar’s Excavation Site and learn whether Merrin survived.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "who is this dwarf",
     "menethil bridge dwarf"
    ],
-   "answer": "Tarrel is an Ironforge dwarf currently lingering near the entrance bridge of Menethil Harbor. He is waiting desperately for word regarding his wife, Merrin, who left on an inland dig."
+   "answer": "Tarrel is an Ironforge dwarf waiting desperately near the entrance bridge of Menethil Harbor. He hopes for word of his wife, Merrin, who left on an inland dig."
   },
   {
    "q": "Why is Tarrel asking travelers for help?",
@@ -33,7 +33,7 @@
     "in search of the excavation team",
     "tarrel rockweaver mission"
    ],
-   "answer": "He lost contact with his wife Merrin after her archaeological team encountered danger at their dig site. Unable to leave his post, he asks passing adventurers to head east toward Whelgar's Excavation Site to find her."
+   "answer": "Tarrel lost contact with Merrin after danger struck her archaeological team at the dig site. Unable to leave his post, he asks travelers to head east toward Whelgar’s Excavation Site and find her."
   },
   {
    "q": "Who is Merrin Rockweaver?",
@@ -42,7 +42,7 @@
     "tarrel wife",
     "who is merrin"
    ],
-   "answer": "Merrin Rockweaver is Tarrel's wife and an archaeologist attached to Prospector Whelgar's excavation team. She survived an attack on their camp and took shelter with the survivors in a cave overlooking the dig site."
+   "answer": "Merrin Rockweaver is Tarrel’s wife and an archaeologist with Prospector Whelgar’s excavation team. She survived an attack on their camp and took shelter with the other survivors in a cave overlooking the dig site."
   },
   {
    "q": "Where did Tarrel's wife go?",
@@ -51,17 +51,17 @@
     "excavation team location",
     "whelgar's retreat"
    ],
-   "answer": "Merrin traveled eastward into the Wetlands to study ancient titan and dwarven relics. After their main dig site was attacked, she and the surviving excavators took shelter in a cave overlooking the ruined dig."
+   "answer": "Merrin traveled east into the Wetlands to study ancient titan and dwarven relics. After the main dig site was attacked, she and the surviving excavators took shelter in a cave overlooking the ruined dig."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "Tarrel's concern highlights the perilous cost of the Explorer's League's relentless drive to unearth dwarven origins across the wild frontiers of Khaz Modan."
+   "text": "Tarrel’s worry shows the perilous cost of the Explorer’s League’s relentless drive to uncover dwarven origins across the wild frontiers of Khaz Modan."
   },
   {
    "target": "faction:Alliance",
-   "text": "For travelers arriving at Menethil's port, Tarrel offers an immediate connection to the hardships facing Alliance citizens stationed along the untamed marshes."
+   "text": "For travelers arriving at Menethil’s port, Tarrel offers a close look at the hardships facing Alliance citizens stationed along the untamed marshes."
   }
  ],
  "keywords": [
@@ -81,5 +81,6 @@
  ],
  "attribution": [
   "Tarrel Rockweaver"
- ]
+ ],
+ "style": 1
 }

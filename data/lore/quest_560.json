@@ -24,16 +24,16 @@
    "Reassignment"
   ]
  },
- "summary": "Farren's Proof is a short delivery mission in Southshore where an adventurer carries a grisly bounty of murloc heads from Lieutenant Farren Orinelle to Marshal Redpath. Having let someone else do the bloody work of hunting the coast, the squeamish lieutenant delegates the actual reporting as well. It marks an intermediate step in securing town recognition along the Hillsbrad coast.",
+ "summary": "At Southshore, Farren's Proof brings Lieutenant Farren Orinelle's report to Marshal Redpath. The murloc heads prove the work is done, though Farren will not carry them himself.",
  "sections": [
   {
    "title": "A Squeamish Officer",
-   "body": "Lieutenant Farren Orinelle is tasked with patrolling and securing the southern coastline of Hillsbrad Foothills, yet he has little stomach for the brutal realities of frontier warfare. After sending an adventurer out to cull the rampant murlocs infesting the beaches, he balks at actually touching the severed heads brought back as proof. Rather than personally marching the dripping trophies to Southshore's town command, Farren gladly dumps the errand right back onto the bearer.",
+   "body": "Lieutenant Farren Orinelle patrols and secures Hillsbrad Foothills' southern coast, but the brutal work of frontier warfare turns his stomach. After you cull the murlocs along the beaches, he cannot bring himself to touch the severed heads you bring back as proof. He sends you across Southshore to deliver them to the town's command.",
    "spoiler": 0
   },
   {
    "title": "Report to Redpath",
-   "body": "Across Southshore, Marshal Redpath oversees the town's defensive operations and military readiness amidst mounting threats from Tarren Mill and wild beast populations. Receiving a sack of murloc heads via courier rather than directly from his lieutenant hardly surprises him. While recognizing that the adventurer has become Farren's errand runner, Redpath is pragmatic enough to accept the assistance, knowing Southshore requires all the diligent labor it can muster to keep its borders intact.",
+   "body": "Marshal Redpath oversees Southshore's defenses and military readiness as threats rise from Tarren Mill and wild beasts. He receives the sack of murloc heads from you instead of directly from Farren. Redpath knows you have become Farren's errand runner, but accepts the help. Southshore needs every willing hand to keep its borders safe.",
    "spoiler": 0
   }
  ],
@@ -45,7 +45,7 @@
     "farren proof why deliver",
     "why errand boy"
    ],
-   "answer": "Lieutenant Farren simply has no desire to handle a dripping sack of severed murloc heads. Having already enlisted an adventurer to do the fighting, he finds it far more comfortable to delegate the messy delivery to Marshal Redpath as well."
+   "answer": "Lieutenant Farren has no wish to handle a sack of severed murloc heads. After sending you to fight, he leaves the delivery to you as well."
   },
   {
    "q": "Who is Marshal Redpath?",
@@ -54,7 +54,7 @@
     "marshal redpath lore",
     "southshore marshal"
    ],
-   "answer": "Marshal Redpath is the senior Alliance military commander stationed in Southshore. He oversees local defense, coordinates town guards, and handles the various regional threats menacing the human settlement in Hillsbrad Foothills."
+   "answer": "Marshal Redpath is Southshore's senior Alliance military commander. He oversees local defense, coordinates the town guards, and handles threats to the human settlement in Hillsbrad Foothills."
   },
   {
    "q": "Where does this delivery lead next in the quest chain?",
@@ -63,7 +63,7 @@
     "farren's proof next quest",
     "redpath next quest"
    ],
-   "answer": "Delivering the proof leads to further duties from Marshal Redpath and Lieutenant Farren, culminating in official dispatches regarding troop deployments and paperwork sent back to the capital in Stormwind."
+   "answer": "The delivery leads to more duties from Marshal Redpath and Lieutenant Farren, then official dispatches about troop deployments and paperwork sent to Stormwind."
   },
   {
    "q": "Why are murlocs a priority for Southshore's garrison?",
@@ -72,7 +72,7 @@
     "murloc problem southshore",
     "hillsbrad murlocs"
    ],
-   "answer": "Murloc tribes nest densely along the beaches of the Hillsbrad coast. Left unchecked, they raid coastal supply routes, harass local fishermen, and threaten the southern approach to Southshore while the town is already preoccupied with the Forsaken to the north."
+   "answer": "Murloc tribes gather densely along Hillsbrad's beaches. They threaten coastal supply routes, harass local fishermen, and endanger Southshore's southern approach while the town faces the Forsaken to the north."
   },
   {
    "q": "What does Marshal Redpath think of Lieutenant Farren's conduct?",
@@ -80,7 +80,7 @@
     "redpath opinion on farren",
     "does redpath like farren"
    ],
-   "answer": "Marshal Redpath is well aware of Farren's habits, dryly noting that the courier has become 'Farren's errand boy.' However, Redpath welcomes the help regardless, as Southshore is hard-pressed and needs any capable labor it can get."
+   "answer": "Marshal Redpath knows Farren's habits and dryly remarks that you have become Farren's errand runner. He welcomes the help because Southshore is hard-pressed and needs capable hands."
   },
   {
    "q": "Where is Marshal Redpath located in Southshore?",
@@ -89,17 +89,17 @@
     "where is marshal redpath",
     "redpath location"
    ],
-   "answer": "Marshal Redpath can be found near the town center and council building in Southshore, keeping watch over the settlement's daily defense operations."
+   "answer": "Marshal Redpath is near Southshore's town center and council building, overseeing the settlement's daily defenses."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Every minor chore in Southshore contributes to keeping the Alliance's primary bastion in Lordaeron fortified against hostile forces encroaching from the north and sea."
+   "text": "Every small duty in Southshore helps keep the Alliance's main stronghold in Lordaeron fortified against threats from the north and sea."
   },
   {
    "target": "race:Human",
-   "text": "For human travelers, dealing with Farren and Redpath offers a candid look at the strained bureaucracy and frontier weariness of the Hillsbrad garrison."
+   "text": "As a human traveler, you see the strained bureaucracy and frontier weariness of Hillsbrad's garrison in your dealings with Farren and Redpath."
   }
  ],
  "keywords": [
@@ -124,5 +124,6 @@
  ],
  "attribution": [
   "Farren's Proof (2)"
- ]
+ ],
+ "style": 1
 }

@@ -10,11 +10,11 @@
    "quest:5541"
   ]
  },
- "summary": "Rumbleshot's Ammo is a mislaid crate of munitions bound for the gunsmith Hegnar Rumbleshot in Dun Morogh. Lost when a frightened courier fled from hungry wendigos, the heavy crate sits abandoned in the snow near the Grizzled Den.",
+ "summary": "Near the Grizzled Den, Rumbleshot's Ammo lies abandoned in the snow. The crate was bound for gunsmith Hegnar Rumbleshot in Dun Morogh, but a frightened courier fled from hungry wendigos and left it behind.",
  "sections": [
   {
    "title": "A Stranded Shipment",
-   "body": "Hegnar Rumbleshot operates a roadside arms shop along the mountain path leading down from Coldridge Pass toward Anvilmar. With Ironforge riflemen, mountaineers, and dwarven mortar teams constantly drilling in the snowy heights, his supplies burn away almost as fast as powder catches flame. This particular shipment of shot was dispatched by Loslor from Kharanos, but never reached the shelves. The courier tasked with transporting it pitched camp too close to the predatory wendigos of the Grizzled Den, panicked when attacked, and fled for his life, leaving the heavy supply crate sitting deep within the beast's hunting grounds.",
+   "body": "Hegnar Rumbleshot keeps a roadside arms shop on the mountain path from Coldridge Pass toward Anvilmar. Ironforge riflemen, mountaineers, and dwarven mortar teams drill in the snowy heights, and his supplies run low as quickly as powder burns. Loslor sent this shipment of shot from Kharanos, but it never reached the shelves. Its courier camped too close to the Grizzled Den's wendigos. When they attacked, the courier panicked and fled, leaving the heavy crate in the beasts' hunting grounds.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "who is hegnar",
     "gun vendor"
    ],
-   "answer": "Hegnar Rumbleshot is a dwarven gunsmith who runs a shop off the road toward Anvilmar. He caters to local marksmen, hunters, and military gunners who burn through munitions quickly while practicing in the crags of Dun Morogh."
+   "answer": "Hegnar Rumbleshot is a dwarven gunsmith with a shop off the road toward Anvilmar. He supplies local marksmen, hunters, and military gunners, who use munitions while practicing in Dun Morogh's crags."
   },
   {
    "q": "How did the ammo crate get lost?",
@@ -35,7 +35,7 @@
     "what happened to the ammo",
     "courier ammo"
    ],
-   "answer": "A delivery courier dispatched with the crate made the mistake of camping near the entrance of the Grizzled Den. When the den's territorial wendigos attacked his camp, the terrified courier ran away, leaving the heavy crate behind in the snow."
+   "answer": "A courier carrying the crate camped near the Grizzled Den. When its wendigos attacked, the frightened courier fled and left the heavy crate in the snow."
   },
   {
    "q": "Where is the Grizzled Den?",
@@ -43,17 +43,17 @@
     "grizzled den location",
     "where is wendigo cave"
    ],
-   "answer": "The Grizzled Den is a cavern system carved into the mountains southwest of Kharanos. It serves as a notorious lair for Dun Morogh's vicious wendigos, making the surrounding slopes perilous for solitary travelers."
+   "answer": "The Grizzled Den is a cavern system in the mountains southwest of Kharanos. Dun Morogh's wendigos make their lair there, putting solitary travelers on the surrounding slopes in danger."
   }
  ],
  "angles": [
   {
    "target": "class:Hunter",
-   "text": "For marksmen roaming the bitter cold of Dun Morogh, keeping Hegnar's powder dry and shot stocked ensures a steady supply of ammunition for dwarven firearms."
+   "text": "As a hunter in Dun Morogh, keep Hegnar's powder dry and shot stocked for a steady supply of ammunition for dwarven firearms."
   },
   {
    "target": "profession:Engineering",
-   "text": "Dwarven engineers and tinkers rely heavily on a constant flow of shot and powder to test their crafted firearms and experimental weaponry."
+   "text": "As an engineer, you rely on shot and powder to test crafted firearms and experimental weaponry."
   }
  ],
  "keywords": [
@@ -78,5 +78,6 @@
  "attribution": [
   "Rumbleshot's Ammo",
   "Ammo for Rumbleshot"
- ]
+ ],
+ "style": 1
 }

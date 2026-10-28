@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Forlorn Cavern"
  },
- "summary": "Tucked along the northern shores of Ironforge's subterranean lake, the Forlorn Cavern is a dimly lit, secluded district far removed from the city's bustling Great Forge. It serves as a shadowy refuge where thieves, cutpurses, and practitioners of the dark arts conduct their business away from prying dwarven guards.",
+ "summary": "Along Ironforge's northern underground lake, the Forlorn Cavern shelters those who keep to the shadows. Thieves, cutpurses, and practitioners of the dark arts conduct business there, far from the Great Forge and prying dwarven guards.",
  "sections": [
   {
    "title": "Ironforge's Shaded Corner",
-   "body": "While the rest of Ironforge clangs with anvil strikes and radiates heat from the Great Forge, the Forlorn Cavern is cold, damp, and hushed. Wrapping along the northern edge of the mountain's underground lake, the winding pathways sit comfortably out of sight between the Mystic Ward and the Hall of Explorers. Its gloom makes it an ideal gathering place for those who prefer to keep their affairs discreet. Rogues and warlocks train here alongside vendors serving them, while weapon merchants and fishermen also work beside the lake.",
+   "body": "The Forlorn Cavern is cold, damp, and hushed beneath Ironforge's clang of anvils and the Great Forge's heat. Its winding paths follow the northern edge of the underground lake, out of sight between the Mystic Ward and the Hall of Explorers. Rogues and warlocks train there, and vendors serve them. Weapon merchants and fishermen work beside the lake as well.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "how to get to forlorn cavern",
     "where is forlorn cavern"
    ],
-   "answer": "The cavern sits in the northern portion of Ironforge along the subterranean lake. You can enter it by heading east out of the Mystic Ward or west along the tunnel from the Hall of Explorers."
+   "answer": "The cavern lies in northern Ironforge, along the subterranean lake. Enter from the Mystic Ward to the east, or follow the tunnel west from the Hall of Explorers."
   },
   {
    "q": "Why do rogues and warlocks gather here?",
@@ -32,7 +32,7 @@
     "why rogues in forlorn cavern",
     "shady district ironforge"
    ],
-   "answer": "The cavern is naturally dark and secluded, making it a discreet meeting place. Rogue and warlock trainers and merchants serving both groups can be found here."
+   "answer": "The cavern's natural darkness and seclusion make it a discreet meeting place. Rogue and warlock trainers, along with merchants who serve both groups, can be found there."
   },
   {
    "q": "What shops and services can be found in the Forlorn Cavern?",
@@ -40,17 +40,17 @@
     "forlorn cavern vendors",
     "shops in forlorn cavern"
    ],
-   "answer": "Aside from rogue and warlock trainers, the cavern features Bonegrip's Runes and Dooms catering to practitioners of dark magic, the Stoneblade weapon shop, and a quiet angling supply post known as The Traveling Fisherman."
+   "answer": "The cavern has rogue and warlock trainers, Bonegrip's Runes and Dooms for practitioners of dark magic, the Stoneblade weapon shop, and The Traveling Fisherman, an angling supply post."
   }
  ],
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "The cavern serves as the Alliance's primary rogue hub within Khaz Modan, offering poisons, specialized blades, and discreet trainers hidden along the damp stone walkways."
+   "text": "As a rogue, you can find trainers and supplies in this Alliance hub in Khaz Modan. Poisons and specialized blades are sold along its damp stone walkways."
   },
   {
    "target": "class:Warlock",
-   "text": "Warlocks gather within Bonegrip's Runes and Dooms to train and obtain supplies in this secluded part of Ironforge."
+   "text": "As a warlock, you can train and find supplies at Bonegrip's Runes and Dooms in this secluded part of Ironforge."
   }
  ],
  "keywords": [
@@ -70,5 +70,6 @@
  ],
  "attribution": [
   "Forlorn Cavern"
- ]
+ ],
+ "style": 1
 }

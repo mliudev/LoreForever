@@ -8,16 +8,16 @@
   "wiki": "Blind Hunter",
   "refs": 5
  },
- "summary": "The Blind Hunter is an elusive, albino bat that roosts deep within Razorfen Kraul. Unlike the ordinary bats nesting near the cavern entrances, this rare creature prowls the sunless depths of the quilboar redoubt.",
+ "summary": "Deep within Razorfen Kraul, the Blind Hunter roosts in the sunless depths. This elusive albino bat prowls the quilboar redoubt, far from common bats near the cavern entrances.",
  "sections": [
   {
    "title": "Depths of the Kraul",
-   "body": "Razorfen Kraul is riddled with winding briars and dark subterranean caverns. While common Kraul bats roost nearer to the surface where faint light filters in from the outside world, the Blind Hunter has adapted entirely to the furthest, darkest alcoves of the tangle. Its pale, albino hide and milky gaze are likely the result of generations spent completely isolated from natural sunlight.",
+   "body": "Razorfen Kraul winds through briars and dark caverns below ground. Common bats roost nearer the surface, where faint light reaches in from outside. The Blind Hunter keeps to the furthest, darkest alcoves of the tangle. Its pale hide and milky gaze may come from generations spent apart from natural sunlight.",
    "spoiler": 0
   },
   {
    "title": "A Rare Quarry",
-   "body": "True to its name, scholars and scouts believe the creature has lost most or all of its conventional eyesight, relying instead on keen senses of hearing and echolocation to track prey through the gloom. It rarely shows itself, appearing only on occasion to hunt through the dense thickets, making an encounter with this phantom beast a prized occurrence among cavern explorers.",
+   "body": "The Blind Hunter is thought to have lost most or all of its ordinary sight. Scholars and scouts believe it tracks prey through the gloom with keen hearing and echolocation. It rarely appears, hunting only now and then among the dense thickets. For cavern explorers, seeing this phantom beast is a rare encounter.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "what is blind hunter",
     "blind hunter bat"
    ],
-   "answer": "The Blind Hunter is a rare albino bat dwelling in the deepest, pitch-black tunnels of Razorfen Kraul. It is remarkably pale and elusive compared to the common cavern bats found closer to the entrance."
+   "answer": "The Blind Hunter is a rare albino bat in the deepest, darkest tunnels of Razorfen Kraul. Its pale coloring and elusive habits set it apart from the common bats nearer the entrance."
   },
   {
    "q": "Where does the Blind Hunter appear?",
@@ -38,7 +38,7 @@
     "where to find blind hunter",
     "blind hunter spawn"
    ],
-   "answer": "It dwells in the shadowy interior paths of Razorfen Kraul, nesting well past the threshold where outside daylight fades away entirely."
+   "answer": "The Blind Hunter roosts along Razorfen Kraul's shadowed inner paths, past the point where daylight from outside fades away."
   },
   {
    "q": "Is the Blind Hunter actually blind?",
@@ -46,7 +46,7 @@
     "is it blind",
     "can blind hunter see"
    ],
-   "answer": "While naturalists and adventurers suspect it is truly blind due to its milky eyes and deep-cave habitat, its hunting ability remains razor-sharp, relying on keen hearing and echolocation in the darkness."
+   "answer": "Naturalists and adventurers suspect the Blind Hunter is blind, given its milky eyes and deep-cave home. Its hunting remains sharp, guided by keen hearing and echolocation."
   },
   {
    "q": "Can hunters tame the Blind Hunter?",
@@ -55,7 +55,7 @@
     "blind hunter tameable",
     "blind hunter pet"
    ],
-   "answer": "Yes, beastmasters capable of managing winged predators can tame the Blind Hunter, making it a distinctive pale companion for those patient enough to track it down."
+   "answer": "Yes. Beastmasters who can handle winged predators can tame the Blind Hunter, a distinctive pale companion for those patient enough to find it."
   },
   {
    "q": "Why is the Blind Hunter white?",
@@ -64,7 +64,7 @@
     "why is blind hunter white",
     "albino bat"
    ],
-   "answer": "It is an albino specimen whose coloration likely developed from living in perpetual darkness far from the reach of the sun, unlike bats that venture near the cave mouth."
+   "answer": "The Blind Hunter is an albino bat. Its coloring may have developed in perpetual darkness, far from the sun, unlike bats that venture near the cave mouth."
   },
   {
    "q": "How does it differ from regular Kraul bats?",
@@ -72,13 +72,13 @@
     "kraul bat difference",
     "kraul bat vs blind hunter"
    ],
-   "answer": "Ordinary Kraul bats possess typical dark coloration and live nearer to the entrance where light still penetrates, whereas the Blind Hunter is pale, reclusive, and adapted strictly to deep subterranean tunnels."
+   "answer": "Common Kraul bats have typical dark coloring and live nearer the entrance, where light still reaches. The Blind Hunter is pale, reclusive, and adapted to the deep tunnels."
   }
  ],
  "angles": [
   {
    "target": "class:Hunter",
-   "text": "For beastmasters traversing the Barrens, the Blind Hunter represents a prize quarry\u2014either as a rare albino beast to tame or as a source of well-crafted subterranean bows."
+   "text": "As a beastmaster crossing the Barrens, you may prize the Blind Hunter as a rare albino beast to tame or as a source of well-crafted subterranean bows."
   }
  ],
  "keywords": [
@@ -96,5 +96,6 @@
  ],
  "attribution": [
   "Blind Hunter"
- ]
+ ],
+ "style": 1
 }

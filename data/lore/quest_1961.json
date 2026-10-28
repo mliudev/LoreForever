@@ -17,21 +17,21 @@
   "wiki": "Gathering Materials (Horde)",
   "chain": []
  },
- "summary": "Gathering Materials is a rite of passage for aspiring Horde mages training in the Undercity. Assigned by Anastasia Hartwell, the task sends apprentices into Silverpine Forest to claim arcane gems from the wizards of Dalaran, assembling the components needed to weave their first true mage's robes.",
+ "summary": "In the Undercity, Anastasia Hartwell sends aspiring Horde mages to Silverpine Forest for Dalaran mana gems. They also need linen to make their first true mage's robes.",
  "sections": [
   {
    "title": "A Rite of Arcane Standing",
-   "body": "Within the arcane cloisters of the Magic Quarter, novice mages must prove their mastery over more than just raw incantations. To earn their first true robes\u2014a formal mantle marking their station and personal worth\u2014initiates are directed by Anastasia Hartwell to harvest the raw components required for enchanted weave: a bolt of simple linen and a set of potent Dalaran mana gems.",
+   "body": "Undercity initiates gather the materials for their first true robes: a bolt of simple linen and potent Dalaran mana gems. The robes mark their station and personal worth, and Anastasia Hartwell directs the novices to harvest these raw components for an enchanted weave.",
    "spoiler": 0
   },
   {
    "title": "Pragmatism of the Forsaken",
-   "body": "The mana gems cannot simply be purchased or manifested; they must be torn from Dalaran mages stationed across Silverpine Forest, particularly near Ambermill. Anastasia Hartwell remarks with cold detachment that while Dalaran's arcane philosophies mirror their own, sentimental hesitation has no place in the Undercity. In the eyes of the Forsaken, if those living wizards lack the strength to defend their relics, they forfeit both their treasures and their lives.",
+   "body": "The mana gems cannot be bought or conjured. Dalaran mages are stationed across Silverpine Forest, especially near Ambermill, and the gems must be taken from them. Anastasia Hartwell says Dalaran's arcane philosophies mirror those of the Forsaken, but sentiment has no place in the Undercity. To the Forsaken, wizards too weak to defend their relics forfeit both their treasures and their lives.",
    "spoiler": 0
   },
   {
    "title": "The Tailor of the Magic Quarter",
-   "body": "Once gathered, the cloth and gems are delivered to Josef Gregorian, a tailor residing in the Magic Quarter. While Gregorian readily admits he lacks the magical talent to gauge the pristine quality of Dalaran's enchanted stones, he possesses the rare artisan skill needed to weave their raw power directly into the fabric of the robes.",
+   "body": "Josef Gregorian, a tailor in the Undercity's Magic Quarter, receives the gathered cloth and gems. He admits he lacks the magical talent to judge the pristine quality of Dalaran's enchanted stones, but he has the rare artisan skill to weave their raw power into the robes.",
    "spoiler": 0
   }
  ],
@@ -43,7 +43,7 @@
     "gathering materials quest purpose",
     "mage robe quest undercity"
    ],
-   "answer": "The quest serves as an initiation for Horde mages. Completing it provides the tailor Josef Gregorian with the necessary components\u2014linen and mana gems\u2014to craft the initiate's first formal enchanted robes."
+   "answer": "The rite initiates Horde mages into their first formal enchanted robes. The linen and mana gems go to tailor Josef Gregorian, who uses them to craft the robes."
   },
   {
    "q": "Why does Anastasia Hartwell send you after Dalaran mages?",
@@ -52,7 +52,7 @@
     "dalaran mana gems lore",
     "why silverpine mages"
    ],
-   "answer": "Dalaran wizards stationed in Silverpine Forest carry refined mana gems capable of channeling strong magical currents. Hartwell views these living mages pragmatically: despite shared intellectual roots, weakness in the field means their lives and resources are forfeit to the Forsaken."
+   "answer": "Dalaran wizards stationed across Silverpine Forest carry refined mana gems that channel strong magical currents. Anastasia Hartwell sees their shared arcane philosophies, but believes weakness in the field forfeits their lives and resources to the Forsaken."
   },
   {
    "q": "Where are the Dalaran wizards located?",
@@ -61,7 +61,7 @@
     "silverpine mages location",
     "ambermill mages"
    ],
-   "answer": "They can be encountered in Silverpine Forest, occupying outposts and grounds southeast of the Sepulcher, centered around the settlement of Ambermill."
+   "answer": "Dalaran wizards are stationed across Silverpine Forest, particularly near Ambermill and around the grounds southeast of the Sepulcher."
   },
   {
    "q": "Who is Josef Gregorian?",
@@ -70,7 +70,7 @@
     "who is the tailor in magic quarter",
     "gregorian tailor"
    ],
-   "answer": "Josef Gregorian is an Undead tailor working out of the Magic Quarter of the Undercity. Though he is an artisan rather than an arcane spellcaster, he specializes in stitching enchanted garments like spellfire robes."
+   "answer": "Josef Gregorian is an Undead tailor in the Undercity's Magic Quarter. Though he is no arcane spellcaster, he specializes in stitching enchanted garments like spellfire robes."
   },
   {
    "q": "What robes are crafted from these materials?",
@@ -79,7 +79,7 @@
     "spellfire robes reward",
     "gathering materials reward robe"
    ],
-   "answer": "Josef Gregorian uses the linen and Dalaran mana gems to stitch Spellfire Robes, a classic garment marking an apprentice's transition into an established mage."
+   "answer": "Josef Gregorian uses the linen and Dalaran mana gems to stitch Spellfire Robes, a classic garment that marks an apprentice's passage into an established mage."
   },
   {
    "q": "Why does Anastasia find killing Dalaran mages somewhat distasteful?",
@@ -88,21 +88,21 @@
     "forsaken mages vs dalaran",
     "anastasia hartwell lore"
    ],
-   "answer": "As Hartwell admits, the Dalaran mages' beliefs are similar to those of the Forsaken mages, who share many of the same intellectual and magical philosophies. Despite this kinship, survival and necessity override sentiment."
+   "answer": "Anastasia Hartwell finds the killing distasteful because Dalaran mages share many arcane beliefs and philosophies with Forsaken mages. Still, survival and necessity outweigh sentiment."
   }
  ],
  "angles": [
   {
    "target": "class:Mage",
-   "text": "This quest represents a pivotal milestone for Horde mages, marking their graduation from simple apprentice attire into tailored robes woven with captured arcane power."
+   "text": "As a Horde mage, you reach a milestone when you leave simple apprentice attire for tailored robes woven with captured arcane power."
   },
   {
    "target": "race:Undead",
-   "text": "The mission illustrates the Forsaken's ruthless worldview: former kinship with Dalaran's sorcerers yields no mercy if those living wizards prove too weak to hold Silverpine."
+   "text": "As an Undead, you see the Forsaken's ruthless outlook: shared arcane philosophies with Dalaran's sorcerers bring no mercy when those wizards prove too weak to hold Silverpine."
   },
   {
    "target": "profession:Tailoring",
-   "text": "The process highlights how mundane linen cloth can be bound with potent mana gems to create enduring enchanted garments."
+   "text": "As a tailor, you bind mundane linen cloth with potent mana gems to make enduring enchanted garments."
   }
  ],
  "keywords": [
@@ -128,5 +128,6 @@
  ],
  "attribution": [
   "Gathering Materials (Horde)"
- ]
+ ],
+ "style": 1
 }

@@ -8,16 +8,16 @@
   "wiki": "Sara Balloo",
   "refs": 2
  },
- "summary": "Sara Balloo is a grieving dwarven widow residing in the Military Ward of Ironforge. She spends her days mourning her late husband, Sully Balloo, clinging to any remnant or message left behind from his final days in service.",
+ "summary": "In Ironforge's Military Ward, Sara Balloo mourns her husband Sully and holds fast to the words he left behind.",
  "sections": [
   {
    "title": "A Widow's Vigil",
-   "body": "Standing within the bustling Military Ward of Ironforge, Sara Balloo presents a somber contrast to the clatter of weaponry and martial drills. Her husband, Sully Balloo, fell in battle far from home, leaving her alone with memories and lingering grief. For Sara, closure arrives only through recovered words\u2014a final letter carrying Sully's devotion across the mountains from the scene of his demise.",
+   "body": "Sara Balloo keeps vigil in Ironforge's Military Ward, amid the clang of weapons and the drill of soldiers. Her husband, Sully Balloo, fell in battle far from home, leaving her alone with grief and memories. A final letter, carried across the mountains from where he died, gives Sara words from his last days and a measure of closure.",
    "spoiler": 0
   },
   {
    "title": "A Cry for Remembrance",
-   "body": "Unwilling to let her husband's sacrifice slip quietly into oblivion, Sara seeks more than mere solace. Through her heartfelt appeals, she petitions King Magni Bronzebeard to ensure that Sully and fallen soldiers like him are formally honored and remembered by the throne, ensuring the cost paid by ordinary dwarven families is never forgotten.",
+   "body": "Sara Balloo wants Sully's sacrifice remembered. In her appeals, she asks King Magni Bronzebeard to honor Sully and other fallen soldiers from the throne, so the cost borne by ordinary dwarven families is not forgotten.",
    "spoiler": 1
   }
  ],
@@ -29,7 +29,7 @@
     "who is sara balloo",
     "sara balloo ironforge"
    ],
-   "answer": "Sara Balloo is a dwarven woman living in the Military Ward of Ironforge. She is the widow of Sully Balloo, a fallen dwarven soldier."
+   "answer": "Sara Balloo lives in Ironforge's Military Ward. She is the widow of Sully Balloo, a dwarven soldier who fell in battle."
   },
   {
    "q": "Where can I find Sara Balloo?",
@@ -38,7 +38,7 @@
     "sara balloo location",
     "find sara balloo"
    ],
-   "answer": "She can be found in the Military Ward of the mountain city of Ironforge, standing near the training grounds and barracks."
+   "answer": "You can find Sara Balloo in Ironforge's Military Ward, near the training grounds and barracks."
   },
   {
    "q": "What happened to her husband?",
@@ -47,7 +47,7 @@
     "who is sully balloo",
     "what happened to sully"
    ],
-   "answer": "Her husband, Sully Balloo, died during military service. His belongings and a final waterlogged letter were lost until an adventurer recovered them."
+   "answer": "Sully Balloo died during military service. His belongings and a final waterlogged letter were lost until an adventurer recovered them."
   },
   {
    "q": "What does Sara do with Sully's letter?",
@@ -56,17 +56,17 @@
     "sara balloos plea",
     "what does sara balloo want"
    ],
-   "answer": "After reading her late husband's heartfelt words, Sara crafts a plea to King Magni Bronzebeard, asking for proper recognition and remembrance of Sully's sacrifice."
+   "answer": "After reading Sully's heartfelt words, Sara writes to King Magni Bronzebeard, asking him to recognize and remember Sully's sacrifice."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "For dwarves passing through the Military Ward, Sara Balloo is a poignant reminder of the personal toll borne by families whose kin march off to defend Khaz Modan."
+   "text": "As a dwarf passing through Ironforge's Military Ward, you can see in Sara Balloo the toll on families whose kin defend Khaz Modan."
   },
   {
    "target": "faction:Alliance",
-   "text": "Delivering news to Sara brings closure to an Alliance soldier's family, highlighting the tragic domestic realities behind the battles fought across Azeroth."
+   "text": "As an Alliance soldier, you see how news can bring closure to a fallen soldier's family, and how battles across Azeroth wound those at home."
   }
  ],
  "keywords": [
@@ -88,5 +88,6 @@
  ],
  "attribution": [
   "Sara Balloo"
- ]
+ ],
+ "style": 1
 }

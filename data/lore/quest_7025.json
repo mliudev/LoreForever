@@ -17,16 +17,16 @@
   "wiki": "Treats for Greatfather Winter",
   "chain": []
  },
- "summary": "During the Feast of Winter Veil, the performer portraying Greatfather Winter in Ironforge grows tired and asks passersby for a seasonal treat. Bringing him freshly baked gingerbread cookies and ice cold milk earns a festive reward and his warm gratitude.",
+ "summary": "During Winter Veil in Ironforge, the performer portraying Greatfather Winter asks passersby for a treat. Bring him freshly baked gingerbread cookies and ice cold milk, and he offers a festive gift with warm thanks.",
  "sections": [
   {
    "title": "A Long Day in the Seat",
-   "body": "While Winter Veil has its roots in ancient titan lore and dwarven myths of an immortal figure cloaked in winter's chill, modern festivities rely heavily on the commercial sponsorship of Smokywood Pastures. Stationed by the holiday tree in the Commons of Ironforge, an ordinary dwarf spends grueling hours suited up as Greatfather Winter, fielding holiday wishes from citizens and eager children alike.",
+   "body": "In the Commons of Ironforge, a dwarf sits by the holiday tree dressed as Greatfather Winter. The figure’s roots lie in ancient titan lore and dwarven myths of an immortal being cloaked in winter’s chill, but modern festivities rely on Smokywood Pastures. For hours, the performer hears holiday wishes from citizens and eager children.",
    "spoiler": 0
   },
   {
    "title": "Baking Holiday Cheer",
-   "body": "After listening to requests for gifts all day, the resident Greatfather Winter inevitably develops a hearty appetite of his own. Rather than asking for something extravagant, he requests a simple comfort: five freshly baked gingerbread cookies made with holiday spices and an ice cold milk to wash them down. The trade offers a moment of relief to an exhausted festival worker and spreads goodwill throughout the snowy capital.",
+   "body": "After hearing requests for gifts all day, the performer grows hungry. He asks for five freshly baked gingerbread cookies and ice cold milk. The simple meal gives an exhausted festival worker a moment of relief and spreads goodwill through Ironforge.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "greatfather winter location ironforge",
     "ironforge santa location"
    ],
-   "answer": "Greatfather Winter sits beside the large holiday tree and the Smokywood Pastures display in the Commons of Ironforge, surrounded by festive decorations."
+   "answer": "In the Commons of Ironforge, Greatfather Winter sits beside the large holiday tree and the Smokywood Pastures display, amid festive decorations."
   },
   {
    "q": "How do you make Gingerbread Cookies?",
@@ -47,7 +47,7 @@
     "gingerbread recipe",
     "how to bake cookies"
    ],
-   "answer": "The recipe is sold by Smokywood Pastures vendors near Greatfather Winter. Baking them requires Cooking skill along with holiday spices purchased from the festival merchant and small eggs gathered from wild birds."
+   "answer": "Smokywood Pastures vendors near Greatfather Winter sell the recipe. Baking the cookies takes Cooking skill, holiday spices from the festival merchant, and small eggs gathered from wild birds."
   },
   {
    "q": "Where do I get Ice Cold Milk?",
@@ -56,7 +56,7 @@
     "where to buy milk",
     "milk ironforge"
    ],
-   "answer": "Ice Cold Milk can be purchased from almost any innkeeper, food vendor, or drink seller in major Alliance cities, including the taverns across Ironforge."
+   "answer": "Innkeepers, food vendors, and drink sellers in major Alliance cities sell Ice Cold Milk, including the taverns across Ironforge."
   },
   {
    "q": "Is this Greatfather Winter the real mythic figure?",
@@ -65,7 +65,7 @@
     "who is the guy in ironforge",
     "is he really greatfather winter"
    ],
-   "answer": "No, he is a dwarven performer hired by Smokywood Pastures to represent the legendary titan-associated figure for the Winter Veil holiday celebrations."
+   "answer": "No. A dwarf hired by Smokywood Pastures portrays the legendary titan-associated figure during Winter Veil celebrations."
   },
   {
    "q": "What does Greatfather Winter send you after finishing the quest?",
@@ -74,7 +74,7 @@
     "mail from greatfather winter",
     "smokywood pastures sampler"
    ],
-   "answer": "Upon receiving the cookies and milk, Greatfather Winter hands you a Smokywood Pastures Gift Pack as a little something for the effort."
+   "answer": "After receiving the cookies and milk, Greatfather Winter gives you a Smokywood Pastures Gift Pack in thanks for your effort."
   },
   {
    "q": "Can Horde players complete this specific quest?",
@@ -82,21 +82,21 @@
     "can horde do this quest",
     "horde treats for greatfather winter"
    ],
-   "answer": "This particular quest is offered in Ironforge to Alliance players. Horde members have their own equivalent quest visiting Greatfather Winter in Orgrimmar."
+   "answer": "This offering in Ironforge is for Alliance players. Horde members have an equivalent offering that sends them to Greatfather Winter in Orgrimmar."
   }
  ],
  "angles": [
   {
    "target": "profession:Cooking",
-   "text": "The quest requires simple culinary skills to mix small eggs and holiday spices into festive gingerbread cookies."
+   "text": "As a cook, you use small eggs and holiday spices to bake gingerbread cookies."
   },
   {
    "target": "race:Dwarf",
-   "text": "For dwarves, Greatfather Winter represents an ancient legend tied to the titans and winter's bounty, though seeing one snacking on cookies in the Commons brings the myth down to earth."
+   "text": "As a dwarf, you know Greatfather Winter as an ancient legend tied to the titans and winter’s bounty. Seeing the figure snack on cookies in the Commons brings the myth down to earth."
   },
   {
    "target": "faction:Alliance",
-   "text": "Ironforge serves as the Alliance's primary hub for Winter Veil festivities, drawing travelers from across the Eastern Kingdoms to the holiday tree in the Commons."
+   "text": "As an Alliance traveler, you find Winter Veil festivities in Ironforge, where visitors from across the Eastern Kingdoms gather by the holiday tree in the Commons."
   }
  ],
  "keywords": [
@@ -114,5 +114,6 @@
  ],
  "attribution": [
   "Treats for Greatfather Winter"
- ]
+ ],
+ "style": 1
 }

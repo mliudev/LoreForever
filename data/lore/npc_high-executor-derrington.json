@@ -8,16 +8,16 @@
   "wiki": "High Executor Derrington",
   "refs": 4
  },
- "summary": "High Executor Derrington commands the Forsaken vanguard stationed at the Bulwark on the eastern border of Tirisfal Glades. A no-nonsense military officer, he oversees the Horde's front-line defense against the Scourge and Scarlet Crusade threats emanating from the Western Plaguelands. From this fortified barricade, he directs seasoned champions toward contested ruins like Andorhal and Scholomance.",
+ "summary": "At the Bulwark, High Executor Derrington directs the Forsaken vanguard against threats from the Western Plaguelands. A no-nonsense military officer, he sends seasoned champions toward contested ruins such as Andorhal and Scholomance.",
  "sections": [
   {
    "title": "Commander at the Threshold",
-   "body": "Standing directly before the fortified barricades of the Bulwark, High Executor Derrington serves as the gatekeeper between the haunted safety of Tirisfal Glades and the rotting horrors of the Western Plaguelands. Derrington holds little patience for political maneuvering in the Undercity, viewing the front lines as a crucible of sheer survival. For Horde soldiers and sellswords seeking to test their mettle, Derrington provides direct military orders, sending scouts and strike teams deep into plagueridden territory to blunt enemy incursions before they breach Tirisfal.",
+   "body": "At the Bulwark’s barricades, High Executor Derrington gives orders to those crossing from Tirisfal Glades into the Western Plaguelands. He has little patience for political maneuvering in the Undercity and sees the front lines as a crucible of sheer survival. Horde soldiers and sellswords receive direct orders to scout plague-ridden territory and blunt enemy incursions before they reach Tirisfal.",
    "spoiler": 0
   },
   {
    "title": "A War on Two Fronts",
-   "body": "Derrington's defensive position is beleaguered on multiple axes. To the east lies the Scourge, entrenched in the shattered town of Andorhal and spilling through the countryside via corrupting cauldrons. Simultaneously, the zealous fanatics of the Scarlet Crusade contest northern fortifications and skirmish relentlessly with Forsaken patrols. Derrington coordinates surgical counterattacks, sabotage against the Scarlet lines, and the systematic disruption of Scourge cauldron fields to safeguard the eastern border.",
+   "body": "The Bulwark faces threats from the Scourge in Andorhal and from the Scarlet Crusade farther north. Scourge forces spread corruption through cauldrons in the countryside, while the Crusade’s zealous fanatics contest northern fortifications and skirmish relentlessly with Forsaken patrols. Derrington coordinates surgical counterattacks, sabotage against Scarlet lines, and systematic disruption of Scourge cauldron fields to protect the eastern border.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "who is derrington",
     "high executor derrington lore"
    ],
-   "answer": "High Executor Derrington is the senior Forsaken commander at the Bulwark, the military outpost separating Tirisfal Glades from the Western Plaguelands. He coordinates the Horde's strategic push eastward against both the Scourge and the Scarlet Crusade."
+   "answer": "High Executor Derrington is the senior Forsaken commander stationed at the Bulwark, the military outpost between Tirisfal Glades and the Western Plaguelands. He coordinates the Horde’s eastward push against the Scourge and the Scarlet Crusade."
   },
   {
    "q": "Where is Derrington located?",
@@ -38,7 +38,7 @@
     "derrington location",
     "find high executor derrington"
    ],
-   "answer": "He is stationed at the Bulwark, the fortified choke point located at the far eastern edge of Tirisfal Glades along the road leading into the Western Plaguelands."
+   "answer": "Derrington is stationed at the Bulwark, a fortified choke point at Tirisfal Glades’ eastern edge, along the road into the Western Plaguelands."
   },
   {
    "q": "What is Derrington's objective at the Bulwark?",
@@ -47,7 +47,7 @@
     "bulwark purpose",
     "derrington mission"
    ],
-   "answer": "Derrington's goal is to ensure the survival of the Forsaken by maintaining a strong defensive perimeter against the Scourge and striking eastward into the Western Plaguelands. He tasks adventurers with scouting Andorhal, disabling plague cauldrons, and neutralizing Scarlet Crusade operations."
+   "answer": "Derrington seeks to preserve Forsaken survival with a strong defense against the Scourge and strikes into the Western Plaguelands. He sends adventurers to scout Andorhal, disable plague cauldrons, and neutralize Scarlet Crusade operations."
   },
   {
    "q": "Does Derrington care about Undercity politics?",
@@ -55,7 +55,7 @@
     "derrington personality",
     "is derrington political"
    ],
-   "answer": "No. Derrington expresses open disdain for court schemers and politicians, noting that such luxuries do not exist on the front lines where survival must be fought for every day."
+   "answer": "No. Derrington disdains court schemers and politicians; on the front lines, survival must be fought for every day."
   },
   {
    "q": "What major threats does Derrington send soldiers against?",
@@ -63,7 +63,7 @@
     "derrington quests",
     "what does derrington fight"
    ],
-   "answer": "Derrington primarily targets the Scourge holding the ruins of Andorhal, the dark necromancers inside Scholomance, and nearby Scarlet Crusade garrisons that threaten the Horde's eastern supply routes."
+   "answer": "Derrington sends soldiers against the Scourge holding Andorhal, the dark necromancers inside Scholomance, and nearby Scarlet Crusade garrisons threatening the Horde’s eastern supply routes."
   },
   {
    "q": "Why is the Bulwark so heavily fortified?",
@@ -71,21 +71,21 @@
     "why is the bulwark here",
     "bulwark lore"
    ],
-   "answer": "The Bulwark stands as the primary chokepoint between the relative security of Tirisfal Glades and the active combat zones of the Plaguelands. Derrington's forces hold the pass to prevent massive Scourge swarms or Scarlet Crusade crusades from sweeping directly toward the Undercity."
+   "answer": "The Bulwark is the primary chokepoint between Tirisfal Glades and the Plaguelands’ active combat zones. Its forces hold the pass to keep Scourge swarms or Scarlet Crusade forces from sweeping toward the Undercity."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "For Horde travelers arriving in Tirisfal, Derrington is the principal military commander directing forces into the dangerous conflicts of the Western Plaguelands."
+   "text": "For Horde travelers in Tirisfal, Derrington directs forces into the dangerous conflicts of the Western Plaguelands."
   },
   {
    "target": "race:Undead",
-   "text": "Derrington represents the martial backbone of the Forsaken military, focused squarely on preserving their reclaimed lands from Scourge reclamation and Scarlet fanaticism."
+   "text": "Derrington represents the Forsaken military’s martial backbone, guarding their reclaimed lands against the Scourge’s attempt to reclaim them and against Scarlet fanaticism."
   },
   {
    "target": "class:Warrior",
-   "text": "Derrington embodies the grim, practical grit of a front-line soldier who values martial competence and battlefield results over Court scheming."
+   "text": "Derrington embodies a front-line soldier’s grim, practical grit, valuing martial competence and battlefield results over court scheming."
   }
  ],
  "keywords": [
@@ -110,5 +110,6 @@
  ],
  "attribution": [
   "High Executor Derrington"
- ]
+ ],
+ "style": 1
 }

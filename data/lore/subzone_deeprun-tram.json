@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Deeprun Tram"
  },
- "summary": "The Deeprun Tram is an subterranean marvel of gnomish engineering linking the Alliance capitals of Ironforge and Stormwind City. Commissioned by King Magni Bronzebeard following the Second War, it allows citizens and soldiers to cross vast distances beneath the earth in mere minutes. The enclosed twin tracks cut beneath mountain and lake, serving as a vital artery for Alliance military support and commerce.",
+ "summary": "The Deeprun Tram carries travelers beneath the earth between Ironforge and Stormwind City. King Magni Bronzebeard commissioned it after the Second War, and its twin tracks now carry citizens, soldiers, and goods between the Alliance capitals.",
  "sections": [
   {
    "title": "A Marvel of Subterranean Engineering",
-   "body": "Following the devastation of the Second War, King Magni Bronzebeard grew increasingly frustrated with how slowly dwarven aid and construction supplies reached Stormwind across the mountain passes. To solve the logistical hurdle and guarantee that dwarven soldiers could rapidly reinforce the human capital in times of crisis, Magni turned to High Tinker Gelbin Mekkatorque. The master gnomish engineer drafted designs for an enclosed underground railway powered by cutting-edge technology. Despite excavation complications\u2014including cutting right through a vast subterranean lake and battling relentless infestations of underground rats\u2014the tram became a crowning achievement of the Alliance, moving thousands of travelers free of charge between Ironforge and Stormwind.",
+   "body": "King Magni Bronzebeard wanted dwarven aid and supplies to reach Stormwind faster after the Second War. Mountain passes slowed the journey, so he asked High Tinker Gelbin Mekkatorque to design an underground railway. Gnomish engineers cut the route beneath a mountain and through a vast subterranean lake. Rats plagued the excavation, but the tram was completed. It carries thousands of travelers between Ironforge and Stormwind without charge.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "tram purpose",
     "who built deeprun tram"
    ],
-   "answer": "After the Second War, King Magni Bronzebeard needed a faster way to transport supplies and dwarven troops to assist in rebuilding and defending Stormwind. He commissioned High Tinker Gelbin Mekkatorque, who drafted and executed the subterranean railway project to seamlessly bind the two capitals together."
+   "answer": "After the Second War, King Magni Bronzebeard needed a faster route for supplies and dwarven troops helping to rebuild and defend Stormwind. He commissioned High Tinker Gelbin Mekkatorque to design and build the underground railway linking the two capitals."
   },
   {
    "q": "How does the tram travel underwater?",
@@ -32,7 +32,7 @@
     "underwater tram",
     "deeprun tram lake"
    ],
-   "answer": "During the excavation between Dun Morogh and Stormwind, gnomish engineers breached a massive subterranean lake. Rather than routing around it, they constructed a sealed, reinforced glass viewing tunnel directly through the deep water, allowing passengers to watch wild threshadons and sharks swim alongside the track."
+   "answer": "Gnomish engineers breached a vast subterranean lake while digging between Dun Morogh and Stormwind. They built a sealed, reinforced glass tunnel through the water, where passengers can watch threshadons and sharks swim beside the track."
   },
   {
    "q": "Why are there so many rats along the tracks?",
@@ -41,7 +41,7 @@
     "why rats in tram",
     "rat problem"
    ],
-   "answer": "The damp, dark subterranean shafts provide an ideal breeding ground for vermin. Gnomish station masters constantly struggle to keep the rat population from chewing through cables or overrunning the platforms, occasionally relying on travelers and rat catchers like Monty to cull their numbers."
+   "answer": "The dark, damp shafts along the tracks give vermin a place to breed. Gnomish station masters struggle to keep rats from chewing cables and overrunning platforms, and sometimes travelers and rat catchers like Monty help thin their numbers."
   },
   {
    "q": "Is the tram free to ride?",
@@ -50,17 +50,17 @@
     "tram ticket price",
     "how much to ride tram"
    ],
-   "answer": "Yes. Sponsored as an open civic and military project by the governments of Ironforge and Stormwind, the tram operates continuously and without fare for all citizens and allies of the Alliance."
+   "answer": "Yes. Ironforge and Stormwind sponsor the tram as a civic and military service. It runs continuously without fare for citizens and Alliance allies."
   }
  ],
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "The entire railway is an unparalleled gnomish masterpiece, showcasing advanced track propulsion, pressurized glasswork capable of withstanding subterranean lake depths, and intricate electrical switching stations."
+   "text": "The railway is a gnomish engineering achievement, with advanced track propulsion, reinforced glasswork built to withstand the depths of a subterranean lake, and intricate electrical switching stations."
   },
   {
    "target": "faction:Alliance",
-   "text": "The tram serves as the primary strategic artery connecting the Alliance's two most fortified capitals, allowing for rapid troop redeployment and mutual defense within minutes."
+   "text": "For the Alliance, the tram connects two of its most fortified capitals. It allows troops to move quickly between them and supports their mutual defense."
   }
  ],
  "keywords": [
@@ -84,5 +84,6 @@
  ],
  "attribution": [
   "Deeprun Tram"
- ]
+ ],
+ "style": 1
 }

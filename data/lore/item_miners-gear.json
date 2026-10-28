@@ -10,11 +10,11 @@
    "quest:307"
   ]
  },
- "summary": "Miners' Gear consists of sturdy dwarven picks, shovels, and excavation tools stored within the Silver Stream Mine. Following an infestation of vermin, the Miners' League tasked adventurers with retrieving these valuable implements before local guards launched an assault.",
+ "summary": "Miners' Gear lies stored in the Silver Stream Mine after its ore ran out. Kobolds have overrun the tunnels, and the Miners' League wants the tools recovered before local guards attack.",
  "sections": [
   {
    "title": "Supplies of the Miners' League",
-   "body": "When the Silver Stream Mine in northern Loch Modan ran out of ore, the Miners' League repurposed the quiet tunnels into a subterranean storage depot for mining equipment. Unfortunately, tunnel-dwelling kobolds quickly overrun the complex, making off with the stored goods and nesting among the crates. Fearing the valuable dwarven gear would either be wrecked in an all-out assault by the Mountaineers or ruined by the scavengers, the league relies on bold adventurers to venture inside and haul the crates back to safety.",
+   "body": "The Silver Stream Mine in northern Loch Modan holds the Miners' League's stored tools. After the mine ran out of ore, the league turned its quiet tunnels into a depot for mining equipment. Kobolds soon overran the mine, took the goods, and made their nests among the crates. The league fears the dwarven gear could be wrecked in an assault by the Mountaineers or ruined by the scavengers. Adventurers are sent inside to bring the crates back to safety.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "miners gear items",
     "miners gear loch modan"
    ],
-   "answer": "Miners' Gear refers to crates of dwarven excavation tools\u2014such as picks and shovels\u2014belonging to the Miners' League, stored away in the dry tunnels of the Silver Stream Mine."
+   "answer": "Miners' Gear means crates of dwarven excavation tools, including picks and shovels, stored by the Miners' League in the dry tunnels of the Silver Stream Mine."
   },
   {
    "q": "Why was the gear left in the mine?",
@@ -34,7 +34,7 @@
     "why is gear in silver stream mine",
     "why leave gear there"
    ],
-   "answer": "After the Silver Stream Mine ran out of ore, the Miners' League converted the empty tunnels into a storage depot. It remained there until kobolds unexpectedly infested the shafts."
+   "answer": "The Miners' League turned the empty tunnels into a storage depot after the Silver Stream Mine ran out of ore. The gear stayed there until kobolds infested the shafts."
   },
   {
    "q": "Who wants this gear recovered?",
@@ -43,7 +43,7 @@
     "who needs the gear",
     "mountaineer stormpike gear"
    ],
-   "answer": "Mountaineer Stormpike coordinates the recovery effort on behalf of the Miners' League. He seeks to salvage the tools before his fellow warriors march in to exterminate the kobolds."
+   "answer": "Mountaineer Stormpike directs the recovery effort for the Miners' League. He wants the tools salvaged before his fellow warriors march in to kill the kobolds."
   },
   {
    "q": "Where is the Miners' Gear found?",
@@ -52,17 +52,17 @@
     "where to find miners gear",
     "miners league crates location"
    ],
-   "answer": "The gear is packed into Miners' League Crates scattered throughout the shafts of the Silver Stream Mine, located in the northern hills of Loch Modan, east of Algaz Station."
+   "answer": "Miners' League Crates holding the gear are scattered through the Silver Stream Mine's shafts, in northern Loch Modan east of Algaz Station."
   }
  ],
  "angles": [
   {
    "target": "profession:Mining",
-   "text": "Every miner knows the worth of well-forged dwarven iron; leaving high-grade picks and shovels in the hands of candle-wearing scavengers is considered a minor tragedy."
+   "text": "As a miner, you know the worth of well-forged dwarven iron. Leaving high-grade picks and shovels with candle-wearing scavengers is a small tragedy."
   },
   {
    "target": "race:Dwarf",
-   "text": "For dwarves, kobolds laying their filthy paws on dwarven craft is an intolerable insult that warrants clearing out the mine immediately."
+   "text": "As a dwarf, you may find kobolds laying their filthy paws on dwarven craft an intolerable insult, one that calls for clearing out the mine at once."
   }
  ],
  "keywords": [
@@ -85,5 +85,6 @@
  "attribution": [
   "Miners' Gear",
   "Filthy Paws (Classic)"
- ]
+ ],
+ "style": 1
 }

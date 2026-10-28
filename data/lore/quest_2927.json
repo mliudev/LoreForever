@@ -21,16 +21,16 @@
    "The Only Cure is More Green Glow"
   ]
  },
- "summary": "The Day After is an Alliance quest that bridges the survivors in Ironforge with researchers stationed in Dun Morogh. Gnoarn, lamenting the catastrophic radiation leak that cost him his legendary hair and his homeland, sends adventurers to assist Ozzie Togglevolt in Kharanos as he searches for a solution.",
+ "summary": "In Ironforge and Kharanos, Gnomeregan's survivors seek a way to answer the city's ruin. Gnoarn sends travelers to Ozzie Togglevolt, who studies the contamination and hopes to find a solution.",
  "sections": [
   {
    "title": "A Tragic Loss",
-   "body": "Gnomeregan's downfall took a deeply personal toll on every survivor, and Gnoarn is no exception. A refugee in Ironforge's Tinker Town, Gnoarn mourns not only the mechanical wonderland stolen by trogg invaders, but also his prized gnomefro—a glorious mane lost in an instant when a bolt of toxic fallout blasted him. Driven by lingering fury toward the troggs and a desperate hope to recover the city, he directs sympathetic travelers to colleagues who might still possess the scientific prowess to salvage what remains.",
+   "body": "Gnoarn, a refugee in Ironforge's Tinker Town, mourns Gnomeregan and the loss of his gnomefro. Trogg invaders took the mechanical city, and toxic fallout blasted away his prized mane. Fury toward the troggs and hope of recovering the city drive him to send sympathetic travelers to colleagues with the skill to salvage what remains.",
    "spoiler": 0
   },
   {
    "title": "The Road to Kharanos",
-   "body": "Rather than surrender to despair, Gnoarn points Alliance champions toward Kharanos, where inventive minds have begun tackling the fallout. Chief among them is Ozzie Togglevolt, working alongside his partner Razzle Sprysprocket. Ozzie remembers the horrifying moment of the catastrophe vividly, recalling how Gnoarn's locks fell out in clumps while madness and thirst for vengeance took hold. Now, in the relative safety of the snowbound town, Ozzie turns his engineering genius toward analyzing the contamination in hopes of finding an antidote.",
+   "body": "In Kharanos, inventive gnomes have begun to tackle the fallout. Gnoarn points travelers toward Ozzie Togglevolt, who works with his partner Razzle Sprysprocket. Ozzie remembers the catastrophe, when Gnoarn's locks fell out in clumps and madness and thirst for vengeance took hold. Now, in the snowbound town, Ozzie analyzes the contamination with his engineering skill, hoping to find an antidote.",
    "spoiler": 0
   }
  ],
@@ -42,7 +42,7 @@
     "bald gnome",
     "who gives the day after"
    ],
-   "answer": "Gnoarn is a gnome refugee found in Tinker Town in Ironforge. Deeply embittered by the trogg invasion and the city's radioactive vent catastrophe, he is especially traumatized by the sudden loss of his once-proud gnomefro."
+   "answer": "Gnoarn is a gnome refugee in Tinker Town, Ironforge. Trogg invaders and the radioactive vent catastrophe have embittered him, and he is especially shaken by the sudden loss of his once-proud gnomefro."
   },
   {
    "q": "Why does Gnoarn send you to Ozzie Togglevolt?",
@@ -51,7 +51,7 @@
     "ozzie togglevolt quest",
     "kharanos engineer"
    ],
-   "answer": "Gnoarn believes there might still be hope to save Gnomeregan. Ozzie Togglevolt and his partner Razzle are stationed in Kharanos, conducting research into the toxic radiation clinging to the city and attempting to engineer a cure."
+   "answer": "Gnoarn hopes Gnomeregan can still be saved. Ozzie Togglevolt and his partner Razzle Sprysprocket are in Kharanos, studying the toxic radiation clinging to the city and trying to engineer a cure."
   },
   {
    "q": "What happened to Gnomeregan to cause this?",
@@ -60,7 +60,7 @@
     "why is gnomeregan irradiated",
     "trogg invasion"
    ],
-   "answer": "During a massive subterranean invasion by barbaric troggs, High Tinker Gelbin Mekkatorque was persuaded to vent radioactive toxic waste into the lower halls to eradicate them. The gambit failed tragically, mutating or killing countless gnomes and rendering the techno-city unlivable without wiping out the troggs."
+   "answer": "During a vast invasion by troggs beneath the city, High Tinker Gelbin Mekkatorque was persuaded to vent radioactive toxic waste into the lower halls to destroy them. The plan failed: countless gnomes were killed or mutated, Gnomeregan became unlivable, and the troggs survived."
   },
   {
    "q": "Where does this quest chain lead after reaching Ozzie?",
@@ -69,21 +69,21 @@
     "what comes after the day after",
     "next quest"
    ],
-   "answer": "Reporting to Ozzie unlocks the quest 'Gnogaine', where Ozzie asks you to gather radioactive fallout directly from the irradiated troggs outside Gnomeregan to test experimental neutralizing mixtures."
+   "answer": "After you report to Ozzie, he asks you to gather radioactive fallout from the irradiated troggs outside Gnomeregan. He will test experimental mixtures meant to neutralize it."
   }
  ],
  "angles": [
   {
    "target": "race:Gnome",
-   "text": "For gnomes, Gnoarn's peculiar lament captures the mixture of profound tragedy, eccentric pride, and bitter vengeance felt by every refugee exiled from their wondrous capital."
+   "text": "As a gnome, you know Gnoarn's lament: it carries the tragedy, eccentric pride, and bitter vengeance of refugees driven from their capital."
   },
   {
    "target": "faction:Alliance",
-   "text": "Alliance heroes assist Dun Morogh's gnomish thinkers in containing the bizarre biochemical disaster threatening the mountain realm."
+   "text": "As an Alliance hero, you help Dun Morogh's gnomish thinkers contain the bizarre biochemical disaster threatening the mountain realm."
   },
   {
    "target": "profession:Engineering",
-   "text": "Ozzie Togglevolt's efforts highlight the trial-and-error approach gnomish tinkerers take when confronting runaway techno-disasters."
+   "text": "As an engineer, you see Ozzie Togglevolt testing ideas as gnomish tinkerers confront a runaway technological disaster."
   }
  ],
  "keywords": [
@@ -107,5 +107,6 @@
  ],
  "attribution": [
   "The Day After"
- ]
+ ],
+ "style": 1
 }

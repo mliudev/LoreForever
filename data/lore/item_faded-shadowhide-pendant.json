@@ -10,16 +10,16 @@
    "quest:178"
   ]
  },
- "summary": "A tarnished talisman once worn by the Shadowhide gnolls of Redridge, enchanted to serve as a conduit for dark orders. To the astonishment of whoever holds it, the pendant also carries a delayed magical message cast by the wizard Theocritus.",
+ "summary": "A voice now comes from the Faded Shadowhide Pendant, found in the Redridge Mountains. The Shadowhide gnolls wore it to receive orders from Morganth, and the delayed message is a spell cast by Theocritus.",
  "sections": [
   {
    "title": "A Broken Network",
-   "body": "The Shadowhide gnolls roaming the Redridge Mountains answer to a sinister master named Morganth, coordinating their movements through enchanted pendants. While investigating these talismans from his sanctuary at Tower Azora, the High Mage Theocritus devised an experimental spell to breach their mystical frequency. Though his magical broadcast took weeks to manifest, this faded pendant proved that the gnolls' communication line can be hijacked, opening a path to disrupt their dark master's reach.",
+   "body": "The Shadowhide gnolls of the Redridge Mountains follow Morganth and coordinate their movements through enchanted pendants. From his sanctuary at Tower Azora, High Mage Theocritus studied the talismans and devised a spell to breach their magical link. His broadcast took weeks to appear. This faded pendant proves the gnolls’ communication can be intercepted, giving Theocritus a way to disrupt Morganth’s reach.",
    "spoiler": 0
   },
   {
    "title": "The Mage's Ambition",
-   "body": "Studying the faded pendant in person offers Theocritus far more than just intercepted chatter. By examining how the enchantment weathered his intrusion, the mage hopes to refine his sorcery into a weapon capable of projecting disabling attacks directly through any matching amulets worn across Redridge. Delivering the artifact back to Tower Azora in Elwynn Forest is the vital first step toward dismantling Morganth's hold on the region's gnolls.",
+   "body": "Theocritus wants to study the pendant and learn how its enchantment endured his intrusion. He hopes to refine his sorcery until he can send disabling attacks through matching amulets worn across Redridge. The pendant must be brought to Tower Azora in Elwynn Forest so he can begin his work against Morganth’s hold over the region’s gnolls.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "what is this pendant",
     "theocritus pendant"
    ],
-   "answer": "It is an enchanted amulet originally worn by Shadowhide gnolls in the Redridge Mountains to receive orders from their master, Morganth. This particular pendant has been altered by an intercepted broadcast spell cast by High Mage Theocritus."
+   "answer": "The Faded Shadowhide Pendant was worn by Shadowhide gnolls in the Redridge Mountains to receive orders from Morganth. High Mage Theocritus’s broadcast spell has altered this pendant."
   },
   {
    "q": "Why does a voice speak from the pendant?",
@@ -40,7 +40,7 @@
     "disembodied voice",
     "theocritus voice"
    ],
-   "answer": "High Mage Theocritus spent months researching how to magically breach the pendants' communication link. The voice you hear is an echo of a spell he projected weeks earlier, proving his incantation successfully penetrated the gnolls' network."
+   "answer": "The voice is an echo of a spell High Mage Theocritus cast weeks ago. After months of study, he found a way to breach the pendants’ communication link, and the message shows his spell reached the gnolls’ network."
   },
   {
    "q": "Who is Theocritus?",
@@ -49,7 +49,7 @@
     "high mage theocritus",
     "tower azora mage"
    ],
-   "answer": "Theocritus is the High Mage residing at Tower Azora in eastern Elwynn Forest. He dedicates his magical studies to monitoring dark threats across the border in Redridge, particularly the rogue sorcerer Morganth."
+   "answer": "Theocritus is the High Mage at Tower Azora in eastern Elwynn Forest. He studies dark threats across the border in Redridge, especially the rogue sorcerer Morganth."
   },
   {
    "q": "Who is Morganth?",
@@ -58,7 +58,7 @@
     "who is morganth",
     "gnoll master"
    ],
-   "answer": "Morganth is a rogue, sinister magic-user operating out of Redridge. He exerts dark influence over the local Shadowhide gnoll pack, issuing commands to them through these enchanted pendants."
+   "answer": "Morganth is a sinister rogue magic-user in Redridge. He commands the local Shadowhide gnolls through enchanted pendants."
   },
   {
    "q": "What does Theocritus plan to do with the pendant?",
@@ -67,17 +67,17 @@
     "pendant purpose",
     "weaponizing pendants"
    ],
-   "answer": "Theocritus intends to study the pendant's enchantment in his laboratory. His ultimate goal is to find a way to project disabling magical attacks across the network, instantly incapacitating any gnoll wearing one."
+   "answer": "Theocritus plans to study the pendant’s enchantment in his laboratory. He hopes to send disabling attacks through the network and incapacitate any gnoll wearing a matching pendant."
   }
  ],
  "angles": [
   {
    "target": "class:Mage",
-   "text": "The pendant demonstrates the subtleties of magical interception, showing that even crude or dark enchantments can be decoded and hijacked by a disciplined wizard."
+   "text": "As a Mage, you can see how magical interception can reach even crude or dark enchantments. A disciplined wizard can decode and hijack them."
   },
   {
    "target": "faction:Alliance",
-   "text": "Retrieving this amulet aids Tower Azora in weakening the Shadowhide gnolls that threaten the stability of both Elwynn Forest and Lakeshire."
+   "text": "As an Alliance member, you help Tower Azora weaken the Shadowhide gnolls threatening Elwynn Forest and Lakeshire."
   }
  ],
  "keywords": [
@@ -103,5 +103,6 @@
  "attribution": [
   "Faded Shadowhide Pendant",
   "Theocritus' Retrieval"
- ]
+ ],
+ "style": 1
 }

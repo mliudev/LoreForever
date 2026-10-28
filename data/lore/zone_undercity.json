@@ -11,21 +11,21 @@
   "levels": "",
   "aliases": []
  },
- "summary": "Deep beneath the shattered ruins of Lordaeron's Capital City lies the Undercity, the dark stronghold of the Forsaken. Originally carved out of ancient royal crypts and dungeons by the Scourge, it was seized by Lady Sylvanas Windrunner and remade into an impenetrable subterranean sanctuary. Today it serves as the seat of Forsaken power and the Horde's vital bastion in the northern Eastern Kingdoms.",
+ "summary": "Beneath the shattered ruins of Lordaeron's Capital City, the Undercity is the Forsaken's dark stronghold. Lady Sylvanas Windrunner took it from the Scourge and remade it into an impenetrable sanctuary. Today it is the seat of Forsaken power and the Horde's vital bastion in the northern Eastern Kingdoms.",
  "sections": [
   {
    "title": "From Royal Crypts to Scourge Redoubt",
-   "body": "Long before the plague swept Lordaeron, the catacombs, dungeons, and sewers beneath the palace were collectively known as the Undercity. It held the tombs of nobility, the kingdom's deepest prisons\u2014where the former Warchief Orgrim Doomhammer was once held before his escape\u2014and the poorest denizens of the realm. When Arthas Menethil murdered King Terenas and laid waste to the capital in 20 ADP, the prince ordered his undead servants to excavate and expand the subterranean passages into a fortified seat of Scourge rule.",
+   "body": "Long before the plague, the catacombs, dungeons and sewers beneath the palace were already called the Undercity. They held the tombs of nobles, the poorest people of the realm and the kingdom's deepest prisons, where the former Warchief Orgrim Doomhammer was held before his escape. In the Third War, Arthas Menethil murdered King Terenas and laid waste to the capital. The prince then set his undead servants to dig out and expand the passages into a fortified seat of Scourge rule.",
    "spoiler": 0
   },
   {
    "title": "Rise of the Forsaken",
-   "body": "The Scourge never saw their dark capital completed. When the Lich King's powers waned following the battle of Mount Hyjal, Lady Sylvanas Windrunner broke free from the hive mind, taking thousands of undead with her. She lured Arthas into an ambush and drove him back to Northrend. After a vicious three-way civil war against Scourge remnants, dreadlords, and human resistance, Sylvanas claimed the half-finished catacombs. Naming her people the Forsaken, she oversaw years of labor completing the sprawling subterranean city.",
+   "body": "The Scourge never saw their dark capital finished. When the Lich King's power waned after the battle of Mount Hyjal, Lady Sylvanas Windrunner broke free of the hive mind and took thousands of undead with her. She lured Arthas into an ambush and drove him back to Northrend. After a vicious three-way civil war against Scourge remnants, dreadlords and the human resistance, she claimed the half-finished catacombs. She named her people the Forsaken and oversaw years of labor to complete the sprawling city.",
    "spoiler": 0
   },
   {
    "title": "Architecture of the Damned",
-   "body": "The Undercity is laid out in concentric rings divided into functional quarters. At its heart lies the Trade Quarter, connected by great lifts to the palace ruins above. Surrounding it are the War Quarter, Rogues' Quarter, Magic Quarter, and the toxic Apothecarium, where the Royal Apothecary Society brews virulent plagues in green slime-filled canals. Deeper still lies the Royal Quarter, where the Banshee Queen holds court alongside her dreadlord commander, Varimathras, guarded by legions of towering abominations.",
+   "body": "The city spreads in concentric rings divided into quarters. At its heart is the Trade Quarter, linked by great lifts to the palace ruins above. Around it lie the War Quarter, the Rogues' Quarter, the Magic Quarter and the toxic Apothecarium, where the Royal Apothecary Society brews virulent plagues beside canals of green slime. Deeper still, in the Royal Quarter, the Banshee Queen holds court with her dreadlord commander, Varimathras, guarded by legions of towering abominations.",
    "spoiler": 0
   }
  ],
@@ -127,5 +127,6 @@
  ],
  "attribution": [
   "Undercity"
- ]
+ ],
+ "style": 1
 }

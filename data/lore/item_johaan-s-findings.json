@@ -10,11 +10,11 @@
    "quest:445"
   ]
  },
- "summary": "Johaan's Findings is a bundle of research documents penned by Apothecary Johaan in Brill. Entrusted to a courier heading south, these notes convey recent alchemical developments in Tirisfal Glades to Apothecary Renferrel at the Sepulcher.",
+ "summary": "Apothecary Johaan sends his findings south from Brill to the Sepulcher. His research carries recent alchemical work from Tirisfal Glades to Apothecary Renferrel in Silverpine Forest.",
  "sections": [
   {
    "title": "Apothecary Correspondence",
-   "body": "The Royal Apothecary Society operates under relentless pressure from Lady Sylvanas Windrunner to engineer a New Plague capable of destroying both the living and the Scourge. Because researchers are scattered across Lordaeron's contested ruins, maintaining a flow of data between outposts is vital. Apothecary Johaan compiles his local testing notes in Brill and dispatches them southward to Apothecary Renferrel, who directs society efforts from the Sepulcher in Silverpine Forest. These records represent one small piece of the Society's collective effort to hone their lethal brews.",
+   "body": "Apothecary Johaan sends his research from Brill to Apothecary Renferrel at the Sepulcher. The Royal Apothecary Society works under Lady Sylvanas Windrunner's demand for a New Plague that can destroy both the living and the Scourge. Its researchers are scattered across Lordaeron's contested ruins, so they must share their findings between outposts. Renferrel directs the Society's efforts from Silverpine Forest, while Johaan records his local tests in Brill. His documents join the Society's wider work to refine its deadly brews.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "what are johaans findings",
     "johaan research papers"
    ],
-   "answer": "It is a package of alchemical notes and research compiled by Apothecary Johaan in Brill. The papers detail his recent testing and experiments within Tirisfal Glades."
+   "answer": "Johaan's Findings are alchemical notes and research compiled by Apothecary Johaan in Brill. They record his recent tests and experiments in Tirisfal Glades."
   },
   {
    "q": "Who is supposed to receive this item?",
@@ -35,7 +35,7 @@
     "where do i take johaans findings",
     "renferrel delivery"
    ],
-   "answer": "The findings are addressed to Apothecary Renferrel, a senior member of the Royal Apothecary Society stationed at the Sepulcher in northern Silverpine Forest."
+   "answer": "Apothecary Renferrel is meant to receive the findings. He is a senior member of the Royal Apothecary Society at the Sepulcher in northern Silverpine Forest."
   },
   {
    "q": "Why is this research being shared between apothecaries?",
@@ -44,7 +44,7 @@
     "purpose of johaans findings",
     "royal apothecary society research"
    ],
-   "answer": "The Royal Apothecary Society relies on shared knowledge among its dispersed researchers to accelerate their work. Sylvanas Windrunner demands rapid development of the New Plague, making it essential that researchers in Silverpine stay updated on breakthroughs made back in Tirisfal."
+   "answer": "The Royal Apothecary Society shares knowledge among its scattered researchers to hasten their work. Sylvanas Windrunner demands swift progress on the New Plague, so researchers in Silverpine need to hear of discoveries made in Tirisfal."
   },
   {
    "q": "Who wrote these documents?",
@@ -53,17 +53,17 @@
     "who wrote this",
     "apothecary johaan"
    ],
-   "answer": "Apothecary Johaan, an alchemist of the Royal Apothecary Society based near the gallows in Brill. He conducts experimental testing on local specimens to advance Forsaken alchemical goals."
+   "answer": "Apothecary Johaan wrote the documents. He is a Royal Apothecary Society alchemist near the gallows in Brill, where he tests local specimens for Forsaken alchemical work."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "These findings reflect the singular, driving ambition of the Royal Apothecary Society: delivering the New Plague promised to the Dark Lady."
+   "text": "As an Undead, these findings speak to the Royal Apothecary Society's driving aim: delivering the New Plague promised to the Dark Lady."
   },
   {
    "target": "faction:Horde",
-   "text": "Carrying research southward marks a traveler's graduation from the familiar grounds of Tirisfal Glades into the darker conflicts of Silverpine Forest."
+   "text": "As a member of the Horde, carrying research south takes you from familiar Tirisfal Glades into Silverpine Forest's darker conflicts."
   }
  ],
  "keywords": [
@@ -89,5 +89,6 @@
  "attribution": [
   "Johaan's Findings",
   "Delivery to Silverpine Forest"
- ]
+ ],
+ "style": 1
 }

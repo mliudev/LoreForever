@@ -12,16 +12,16 @@
    "quest:441"
   ]
  },
- "summary": "Deliah's Ring is an engraved piece of jewelry recovered from a corpse pile amassed by the Rot Hide gnolls in Silverpine Forest. Bearing the inscription 'For Deliah', the keepsake offers a grim trail tracing back to a plague victim stolen from Tirisfal's mass graves.",
+ "summary": "A grim trail begins with Deliah's Ring, found among the Rot Hide gnolls’ corpse piles in Silverpine Forest. Its inscription, “For Deliah,” points back to a plague victim taken from Tirisfal’s mass graves.",
  "sections": [
   {
    "title": "A Keepsake in the Mire",
-   "body": "Discovered upon the pockmarked, relatively fresh hand of a corpse among gnoll mounds in Silverpine Forest, the ring is inscribed simply: 'For Deliah'. The discovery reveals that the local Rot Hide gnolls are not merely scavenging battlefields\u2014they are actively raiding the mass graves of Tirisfal Glades and ferrying human and Forsaken corpses south to Fenris Isle for their own vile purposes.",
+   "body": "Among the gnoll mounds in Silverpine Forest, a ring rests on the pockmarked hand of a relatively fresh corpse. The band bears a simple inscription: “For Deliah.” The Rot Hide gnolls are doing more than scavenging battlefields. They raid the mass graves of Tirisfal Glades and carry human and Forsaken corpses south to Fenris Isle for their own purposes.",
    "spoiler": 0
   },
   {
    "title": "Ties to Brill",
-   "body": "When brought before the Forsaken authorities, High Executor Hadrec directs the artifact toward Brill, where Magistrate Sevren maintains records of recent deceased. Sevren confirms that Deliah lived in Brill before succumbing to the plague, where she was laid to rest before body-snatchers exhumed her remains. Tracing the ring uncovers the lingering grief of those she left behind, testing whether mortal devotion can survive the transition into undeath.",
+   "body": "High Executor Hadrec sends the ring to Brill, where Magistrate Sevren keeps records of the recently deceased. Sevren confirms that Deliah lived in Brill and died of the plague. She was buried before body-snatchers exhumed her remains. The ring leads to the grief of those she left behind, and to the question of whether mortal devotion can endure undeath.",
    "spoiler": 1
   }
  ],
@@ -33,7 +33,7 @@
     "deliah ring location",
     "how do you get deliahs ring"
    ],
-   "answer": "The ring is discovered during investigations into the Rot Hide gnoll mounds in northern Silverpine Forest, resting on the hand of an unwrapped plague victim among the scavenged dead."
+   "answer": "The ring is found among the Rot Hide gnoll mounds in northern Silverpine Forest, on the hand of an unwrapped plague victim among the scavenged dead."
   },
   {
    "q": "Who was Deliah?",
@@ -42,7 +42,7 @@
     "deliah lore",
     "deliah of brill"
    ],
-   "answer": "Deliah was a former resident of Brill who died of the plague. Her body was interred in the local mass graves before being stolen by Rot Hide gnolls and dragged into Silverpine Forest."
+   "answer": "Deliah lived in Brill and died of the plague. She was buried in the local mass graves before Rot Hide gnolls stole her body and dragged it into Silverpine Forest."
   },
   {
    "q": "Why did the Rot Hide gnolls have her body?",
@@ -51,7 +51,7 @@
     "rot hide corpse stealing",
     "what are gnolls doing with corpses"
    ],
-   "answer": "The Scourge-aligned Rot Hide gnolls have been pillaging the communal graves in Tirisfal Glades, stockpiling corpses and ferrying them toward their stronghold on Fenris Isle."
+   "answer": "The Rot Hide gnolls, aligned with the Scourge, pillage the communal graves in Tirisfal Glades. They stockpile corpses and carry them toward their stronghold on Fenris Isle."
   },
   {
    "q": "What is the inscription on the ring?",
@@ -60,13 +60,13 @@
     "what does the ring say",
     "for deliah ring"
    ],
-   "answer": "The interior of the band is engraved with the words 'For Deliah', indicating it was a personal gift from a lover or husband prior to her death."
+   "answer": "The ring bears the words “For Deliah” inside its band. It was a personal gift from a lover or husband before her death."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "The ring illustrates the cold reality of Forsaken existence: mortal attachments often rot away alongside flesh, though a rare few still cling to the memory of who they loved in life."
+   "text": "As an undead, you know that mortal attachments can fade alongside the flesh. A rare few still hold to the memory of those they loved in life."
   }
  ],
  "keywords": [
@@ -93,5 +93,6 @@
   "Deliah's Ring",
   "Rot Hide Clues",
   "The Engraved Ring"
- ]
+ ],
+ "style": 1
 }

@@ -23,21 +23,21 @@
    "Fallen Sky Lake (quest)"
   ]
  },
- "summary": "Pelturas Whitemoon's desperate quest to heal his daughter Relara continues in Astranaar. While the sacred stone Elune's Tear calmed her terrifying nightmares, a fierce fever still grips her. Guided by Orendil Broadleaf's botanical knowledge, adventurers journey south to harvest a cooling, luminescent dust settled among ancient night elven stones.",
+ "summary": "In Astranaar, Pelturas Whitemoon still seeks a cure for his daughter Relara. Elune's Tear eased her nightmares, but a fierce fever grips her. Orendil Broadleaf sends him south for cooling stardust among ancient night elven stones.",
  "sections": [
   {
    "title": "A Father's Lingering Despair",
-   "body": "Pelturas Whitemoon has spent sleepless nights by the bedside of his daughter, Relara, watching a malignant affliction burn through her. Though offering an Elune's Tear provided a temporary respite from the tormenting dreams that plagued her thoughts, the illness remains deeply rooted. Her body is racked by an intense fever that mundane medicines have failed to quench. With the temple healers pushed to their limits, Pelturas turns once more to ancient, nature-infused remedies to preserve his daughter's life.",
+   "body": "Pelturas Whitemoon keeps vigil beside his daughter, Relara, as a malignant illness burns through her. Elune's Tear brought her some relief from the nightmares, but the sickness remains. A fierce fever still racks her, beyond the reach of ordinary medicines. With the temple healers stretched thin, Pelturas turns to old remedies drawn from nature, hoping to save her life.",
    "spoiler": 0
   },
   {
    "title": "The Glint of Stardust",
-   "body": "On the advice of the elder herbalist Orendil Broadleaf, Pelturas looks toward the Ruins of Stardust, located south across the river from Astranaar. The fallen marble columns and archways of this ancient kaldorei sanctuary harbor a peculiar phenomenon: a frosted, shimmering substance that settles over the local foliage. This powdered condensation, colloquially termed stardust, possesses natural cooling properties potent enough to draw out unnatural heat. Pelturas intends to grind the collected residue into a medicinal poultice, hoping its tranquil chill will finally break Relara's burning fever.",
+   "body": "Orendil Broadleaf, an elder herbalist, points Pelturas toward the Ruins of Stardust, south across the river from Astranaar. Frosted, shimmering dust settles on the plants among the fallen marble columns and archways of this ancient kaldorei sanctuary. The powder, called stardust, has a natural chill strong enough to draw out unnatural heat. Pelturas hopes to grind it into a poultice and ease Relara's fever.",
    "spoiler": 0
   },
   {
    "title": "Prowlers in the Waters",
-   "body": "Harvesting the frosted dust is perilous due to the guardians and wildlife inhabiting the flooded, sunken stones. Water elementals, corrupted or agitated by shifts in Ashenvale's balance, surge around the sunken plazas where the bushes grow thickest. Harvesters must wade into the tranquil-looking shallows while staying alert to sudden ambushes from the murky depths, scouring sparkling bushes for enough clean residue before rushing it back to Astranaar.",
+   "body": "Water elementals and wildlife make gathering the frosted dust dangerous among the flooded stones. Elementals, corrupted or stirred by changes in Ashenvale's balance, surge around the sunken plazas where the bushes grow thickest. You wade into shallows that look calm, watching for ambushes from the murky depths. The sparkling bushes must yield enough clean dust to carry back to Astranaar.",
    "spoiler": 0
   }
  ],
@@ -49,7 +49,7 @@
     "ruins of stardust purpose",
     "relara fever cure"
    ],
-   "answer": "Pelturas Whitemoon's daughter, Relara, is dying of a severe magical or corrupted fever in Astranaar. While Elune's Tear eased her dark nightmares, her fever still rages unchecked. The elder herbalist Orendil advised that the frosted residue gathering in the Ruins of Stardust has potent cooling properties that can be crafted into a soothing poultice."
+   "answer": "Relara, Pelturas Whitemoon's daughter, suffers from a severe fever in Astranaar. Elune's Tear eased her nightmares, but the fever remains. Orendil Broadleaf says the frosted dust in the Ruins of Stardust can cool her in a poultice."
   },
   {
    "q": "Where are the Ruins of Stardust located?",
@@ -58,7 +58,7 @@
     "where is ruins of stardust",
     "find stardust ruins"
    ],
-   "answer": "The Ruins of Stardust lie directly south of Astranaar in central Ashenvale, situated around a small lake and surrounded by ancient, overgrown kaldorei masonry."
+   "answer": "The Ruins of Stardust lie south of Astranaar in central Ashenvale, around a small lake amid ancient, overgrown kaldorei stonework."
   },
   {
    "q": "What is stardust in this context?",
@@ -67,7 +67,7 @@
     "nature of stardust",
     "stardust lore"
    ],
-   "answer": "Pelturas hopes the cooling frosted dust from the lake's vegetation can be used in a poultice to lower his daughter's fever."
+   "answer": "Stardust is frosted dust that gathers on vegetation by the lake. Pelturas hopes to use its cooling effect in a poultice for his daughter's fever."
   },
   {
    "q": "Does the stardust cure Relara completely?",
@@ -76,7 +76,7 @@
     "relara cured",
     "is the girl saved"
    ],
-   "answer": "Pelturas hopes a poultice made from stardust will lower Relara's fever. Whether it restores all of her strength is learned after the treatment."
+   "answer": "Pelturas hopes a stardust poultice will lower Relara's fever. Whether it restores all her strength is learned after the treatment."
   },
   {
    "q": "What threats are found at the Ruins of Stardust?",
@@ -84,7 +84,7 @@
     "ruins of stardust enemies",
     "what attacks at ruins of stardust"
    ],
-   "answer": "The flooded ruins are inhabited by aggressive water elementals that lurk beneath the surface and defend the tranquil waters, posing a danger to anyone wading through the shallows to inspect the shimmering bushes."
+   "answer": "Aggressive water elementals lurk beneath the surface of the flooded ruins and defend the waters. They threaten anyone wading through the shallows to search the shimmering bushes."
   },
   {
    "q": "Who is Orendil?",
@@ -92,25 +92,25 @@
     "who told pelturas about stardust",
     "orendil broadleaf"
    ],
-   "answer": "Orendil Broadleaf is a knowledgeable night elf herbalist residing in northern Ashenvale near Maestra's Post. He has studied the region's unique plants for centuries and advises Pelturas on rare botanical treatments when standard temple remedies fall short."
+   "answer": "Orendil Broadleaf is a night elf herbalist who lives in northern Ashenvale near Maestra's Post. He has studied the region's plants for centuries and advises Pelturas on rare botanical remedies when temple treatments fall short."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "The ruins scattered south of Astranaar are relics of ancient kaldorei civilization, reminding night elves that the magic lingering in the stones can still be marshaled for healing."
+   "text": "The ruins south of Astranaar are remnants of ancient kaldorei civilization. Their lingering magic can still be put to use in healing."
   },
   {
    "target": "class:Priest",
-   "text": "While Elune's grace soothed Relara's nightmares, the physical body often demands earthly remedies alongside divine prayer to preserve mortal life."
+   "text": "Elune's grace soothed Relara's nightmares, but the body may need earthly remedies alongside prayer to preserve mortal life."
   },
   {
    "target": "profession:Herbalism",
-   "text": "The collection of sparkling powder from the brush showcases the specialized knowledge required to identify rare botanical phenomena in Ashenvale's damp microclimates."
+   "text": "Finding sparkling powder in the brush takes the knowledge to recognize rare plants in Ashenvale's damp places."
   },
   {
    "target": "class:Druid",
-   "text": "Gathering soothing stardust requires contending with the perturbed water spirits inhabiting the flooded ruins, a stark reminder of Ashenvale's fragile ecological harmony."
+   "text": "To gather soothing stardust, you contend with perturbed water spirits in flooded ruins. Their presence speaks to Ashenvale's fragile balance."
   }
  ],
  "keywords": [
@@ -137,5 +137,6 @@
  ],
  "attribution": [
   "The Ruins of Stardust (quest)"
- ]
+ ],
+ "style": 1
 }

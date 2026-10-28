@@ -12,16 +12,16 @@
   "harvested": true,
   "level": "6"
  },
- "summary": "Camping 101: Herbalism directs budding herbalists to local profession trainers across Azeroth, such as Faruza in Brill, to master the craft of Incense Candles. These aromatic creations provide vital restorative aid to spellcasters resting in wilderness camps.",
+ "summary": "In Tirisfal, Eleanor Shackleton sends new herbalists to Faruza in Brill to learn a useful craft. Incense Candles give spellcasters help as they rest at camps in the wild.",
  "sections": [
   {
    "title": "Flora for the Camp",
-   "body": "While herbalism is commonly seen as the groundwork for alchemy, practical field survival relies just as heavily on gathered roots and blossoms. Experienced travelers point aspiring foragers toward regional master herbalists to learn how to prepare Incense Candles. In the Tirisfal Glades, Eleanor Shackleton directs promising foragers to visit Faruza in Brill once they demonstrate fundamental skill.",
+   "body": "Herbalism gives alchemists their first materials, but travelers also depend on gathered roots and blossoms. Regional master herbalists teach aspiring foragers to prepare Incense Candles. In Tirisfal Glades, Eleanor Shackleton points promising foragers toward Faruza in Brill once they show basic skill.",
    "spoiler": 0
   },
   {
    "title": "Sustenance for the Mind",
-   "body": "Life on the road takes a heavy mental toll on spellcasters and spiritualists. Incense Candles release restorative fragrances meant to lift spirits and soothe weary minds. By infusing dried plants into candles, gatherers provide crucial aid to the healers and mages whose magical reserves falter during extended travel.",
+   "body": "Long travel wears on spellcasters and spiritualists. Incense Candles release restorative fragrances to lift spirits and soothe tired minds. Gatherers infuse dried plants into the candles, helping healers and mages whose magical reserves falter on the road.",
    "spoiler": 0
   }
  ],
@@ -33,7 +33,7 @@
     "what does camping 101 give",
     "camping 101 herbalism objective"
    ],
-   "answer": "The quest directs herbalists to reach a basic level of proficiency so they can learn how to craft Incense Candles from an herbalism trainer. These candles are used to sustain and assist spellcasters during wilderness rests."
+   "answer": "Herbalists build their skill so a trainer can teach them to make Incense Candles. The candles help spellcasters while they rest in wilderness camps."
   },
   {
    "q": "Who offers this quest in Tirisfal Glades?",
@@ -41,7 +41,7 @@
     "who gives camping 101 herbalism tirisfal",
     "eleanor shackleton quest"
    ],
-   "answer": "Eleanor Shackleton offers this guidance to herbalists in Tirisfal Glades, pointing them toward Faruza in the nearby settlement of Brill."
+   "answer": "Eleanor Shackleton guides herbalists in Tirisfal Glades and points them toward Faruza in Brill."
   },
   {
    "q": "What does an Incense Candle do?",
@@ -49,7 +49,7 @@
     "incense candle effect",
     "what are incense candles for"
    ],
-   "answer": "Incense Candles provide ambient benefits to a campsite, raising spirits and assisting healers and magic users who need to recover their mental focus while resting in the field."
+   "answer": "Incense Candles lift spirits and help healers and magic users recover their mental focus while resting in the field."
   },
   {
    "q": "Who teaches the Incense Candle recipe?",
@@ -57,7 +57,7 @@
     "who teaches camping herbalism",
     "where to turn in camping 101 herbalism"
    ],
-   "answer": "Local herbalism trainers instruct adventurers once they qualify. In Tirisfal Glades, Faruza in Brill handles training, while other cities and towns rely on trainers like Jandi in Orgrimmar, Reyna Stonebranch in Ironforge, and Malorne Bladeleaf in Dolanaar."
+   "answer": "Local herbalism trainers teach the recipe to qualified herbalists. In Tirisfal Glades, Faruza teaches in Brill; Jandi teaches in Orgrimmar, Reyna Stonebranch in Ironforge, and Malorne Bladeleaf in Dolanaar."
   },
   {
    "q": "Can members of other factions and races take this quest?",
@@ -65,7 +65,7 @@
     "is camping 101 horde only",
     "alliance camping 101 herbalism"
    ],
-   "answer": "Yes. While Eleanor Shackleton and Faruza cater to travelers in Tirisfal Glades, other questgivers and trainers provide identical instruction to herbalists across Kalimdor and the Eastern Kingdoms."
+   "answer": "Yes. Other guides and trainers give herbalists across Kalimdor and the Eastern Kingdoms the same instruction as Eleanor Shackleton and Faruza give travelers in Tirisfal Glades."
   },
   {
    "q": "What skill requirement is needed to complete the training?",
@@ -73,21 +73,21 @@
     "how much herbalism needed",
     "camping 101 skill level"
    ],
-   "answer": "Herbalists must show true proficiency in their trade, reaching an herbalism skill of twenty before the trainer will teach the candle recipe."
+   "answer": "Herbalists need a skill of twenty before a trainer will teach them the candle recipe."
   }
  ],
  "angles": [
   {
    "target": "profession:Herbalism",
-   "text": "Rather than simply brewing potions or selling stalks, herbalists can directly support adventuring groups by fashioning fragrant Incense Candles for campfires."
+   "text": "Herbalists can aid traveling groups by making fragrant Incense Candles for their camps, alongside brewing potions and gathering stalks."
   },
   {
    "target": "race:Undead",
-   "text": "Forsaken travelers operating out of Deathknell and Brill learn from Faruza how to make practical field craft out of Tirisfal's withered vegetation."
+   "text": "As Forsaken travelers from Deathknell and Brill, you can learn from Faruza to make practical use of Tirisfal's withered plants."
   },
   {
    "target": "class:Mage",
-   "text": "Spellcasters value herbalists who craft Incense Candles, as their soothing smoke helps restore focus and spirits far from tavern comforts."
+   "text": "As a mage, you value herbalists who make Incense Candles. Their soothing smoke helps restore focus and spirits far from taverns."
   }
  ],
  "keywords": [
@@ -111,5 +111,6 @@
  "attribution": [
   "In-game quest text: Camping 101: Herbalism",
   "Camping 101: Herbalism"
- ]
+ ],
+ "style": 1
 }

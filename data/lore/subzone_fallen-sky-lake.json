@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Fallen Sky Lake"
  },
- "summary": "Fallen Sky Lake is a secluded body of water nestled deep within the forests of eastern Ashenvale. Situated between Silverwing Outpost and the encroaching Warsong Labor Camp, the serene waters hide danger in the form of hostile shadethicket bog beasts that aggressively defend the lake and its central isle.",
+ "summary": "In eastern Ashenvale, Fallen Sky Lake lies between Silverwing Outpost and the Warsong Labor Camp. Shadethickets defend its shores and central isle.",
  "sections": [
   {
    "title": "A Contested Sanctuary",
-   "body": "Tucked south of Silverwing Outpost and just west of the Warsong Labor Camp, Fallen Sky Lake offers a fleeting glimpse of Ashenvale's natural splendor before the Orcish axes took root nearby. The shores and the small islet rising from the middle of the lake are inhabited by shadethickets\u2014hulking bog beasts that view any intruder as a threat. The heart of the island serves as the domain of a powerful Shadethicket Oracle, who hoards the fallen moonstones once gathered at the lake and keeps the local shadethickets bound to the waters and relentlessly vigilant against travelers passing through.",
+   "body": "Fallen Sky Lake lies south of Silverwing Outpost and west of the Warsong Labor Camp. Shadethickets, hulking bog beasts, roam its shores and the small isle at its center, treating intruders as threats. A powerful Shadethicket Oracle rules from the isle's heart. The Oracle hoards the fallen moonstones once gathered at the lake and keeps the shadethickets bound to the waters, ever watchful for travelers.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "where is fallen sky lake",
     "how to find fallen sky lake"
    ],
-   "answer": "Fallen Sky Lake is located in eastern Ashenvale, directly south of Silverwing Outpost, west of the Warsong Labor Camp, and northeast of Silverwing Grove."
+   "answer": "Fallen Sky Lake lies in eastern Ashenvale, south of Silverwing Outpost, west of the Warsong Labor Camp, and northeast of Silverwing Grove."
   },
   {
    "q": "What creatures live around Fallen Sky Lake?",
@@ -32,7 +32,7 @@
     "what is at fallen sky lake",
     "fallen sky lake enemies"
    ],
-   "answer": "The lake and its surrounding banks are overrun by shadethickets\u2014aggressive bog beasts\u2014led by a formidable Shadethicket Oracle who dwells on the central island."
+   "answer": "Shadethickets, aggressive bog beasts, roam the lake and its banks. A Shadethicket Oracle leads them from the central isle."
   },
   {
    "q": "Why is the Shadethicket Oracle important?",
@@ -41,17 +41,17 @@
     "shadethicket oracle",
     "who is on the island"
    ],
-   "answer": "The Shadethicket Oracle is the leader of the shadethickets gathered at the lake. He hoards the fallen moonstones that night elves once gathered there, so those who need a moonstone must slay him on his central isle."
+   "answer": "The Shadethicket Oracle leads the shadethickets at the lake and hoards the fallen moonstones night elves once gathered there. Anyone who needs a moonstone must slay the Oracle on the central isle."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "Night elves once gathered moonstones at Fallen Sky Lake, but the hostile shadethicket bog beasts that now claim its waters have made even this quiet corner of the forest a place of danger."
+   "text": "As a druid, you know night elves once gathered moonstones at Fallen Sky Lake. Shadethicket bog beasts now claim its waters and make this quiet forest corner dangerous."
   },
   {
    "target": "race:NightElf",
-   "text": "Positioned just south of Silverwing Outpost, the lake represents yet another corner of the sacred ancestral forest where wild beasts have grown erratic amidst the gathering drums of the Horde."
+   "text": "As a night elf, you find Fallen Sky Lake just south of Silverwing Outpost, in your sacred ancestral forest. Wild beasts have grown erratic amid the Horde's gathering drums."
   }
  ],
  "keywords": [
@@ -72,5 +72,6 @@
  ],
  "attribution": [
   "Fallen Sky Lake"
- ]
+ ],
+ "style": 1
 }

@@ -8,21 +8,21 @@
   "wiki": "High Priest Rohan",
   "refs": 3
  },
- "summary": "High Priest Rohan is the preeminent leader of the Church of the Holy Light within Ironforge, found pacing inside the Hall of Mysteries. He oversees the spiritual development of fledgling priests across the Alliance and aids those seeking mastery over the Holy Light. Through his guidance and sacred relics, he maintains spiritual ties between the mountain kingdom, Stormwind, and distant allies.",
+ "summary": "In Ironforge, High Priest Rohan guides the Church of the Holy Light from the Hall of Mysteries. He teaches young priests, helps them deepen their mastery of the Light, and keeps spiritual ties between Ironforge, Stormwind, and distant allies.",
  "sections": [
   {
    "title": "Shepherd of the Hall of Mysteries",
-   "body": "Pacing the quiet flagstones of the Hall of Mysteries in the Mystic Ward, High Priest Rohan acts as the highest-ranking representative of the Church of the Holy Light in Ironforge. While dwarves historically honored the titans, dwarven priests have deeply embraced the Light's virtues of wisdom, compassion, and justice. Rohan serves as a patient teacher to young acolytes, teaching them the discipline necessary to channel holy magic and steel their minds against despair.",
+   "body": "High Priest Rohan paces the Hall of Mysteries in Ironforge’s Mystic Ward as the Church of the Holy Light’s highest-ranking representative in the city. Dwarves once honored the titans, yet their priests have embraced the Light’s wisdom, compassion, and justice. Rohan patiently teaches young acolytes to channel holy magic and steel their minds against despair.",
    "spoiler": 0
   },
   {
    "title": "Bridges Across the Alliance",
-   "body": "Rohan recognizes that spiritual insight takes many shapes across the Alliance. Once priests under his tutelage grasp the fundamentals, he directs them outward\u2014sending human and dwarven students to High Priestess Laurena in Stormwind City, or dispatching night elf disciples to Priestess Alathea at the Temple of the Moon in Darnassus to master elusive mysteries like Elune's Grace. Beyond the capitals, he urges devotees to render assistance wherever hardship strikes, even directing healers abroad to aid the druids of the Cenarion Circle in distant Azshara.",
+   "body": "After priests under his care master the fundamentals, Rohan sends them abroad to learn from other traditions. Human and dwarven students go to High Priestess Laurena in Stormwind City. Night elf disciples travel to Priestess Alathea at Darnassus’s Temple of the Moon to study mysteries such as Elune’s Grace. Rohan also sends healers to aid the Cenarion Circle’s druids in distant Azshara, wherever hardship calls.",
    "spoiler": 0
   },
   {
    "title": "The Exorcism Censer",
-   "body": "In addition to his teachings, Rohan holds custody over sacred relics essential to the wider Alliance priesthood and paladin brotherhoods. Among his possessions is a blessed exorcism censer, seasoned through years of cleansing vile spirits. When the Order of the Silver Hand and Lord Grayson Shadowbreaker require the vessel to temper the holy calling of their knights, Rohan freely yields it\u2014asking only for charitable alms to replenish Ironforge's dwindling food reserves for the city's needy.",
+   "body": "Rohan keeps sacred relics for the Alliance priesthood and paladin brotherhoods. One is a blessed exorcism censer, used for years to cleanse vile spirits. When the Order of the Silver Hand and Lord Grayson Shadowbreaker need it for their knights’ holy calling, Rohan lends it freely. He asks only for charitable alms to replenish Ironforge’s dwindling food reserves for the needy.",
    "spoiler": 0
   }
  ],
@@ -35,7 +35,7 @@
     "rohan map",
     "hall of mysteries priest trainer"
    ],
-   "answer": "High Priest Rohan is located inside the Hall of Mysteries, situated within the Mystic Ward on the northern side of Ironforge. He paces back and forth between the holy library and the altar."
+   "answer": "Find High Priest Rohan pacing inside the Hall of Mysteries in Ironforge’s Mystic Ward, on the city’s northern side. He walks between the holy library and the altar."
   },
   {
    "q": "What role does Rohan serve in Ironforge?",
@@ -44,7 +44,7 @@
     "what does rohan do",
     "rohan lore"
    ],
-   "answer": "He is the senior priest trainer in Ironforge and the leading dwarven representative of the Church of the Holy Light in Khaz Modan. He trains new priests, provides spiritual counsel, and directs practitioners to further advanced study across Azeroth."
+   "answer": "Rohan trains new priests, offers spiritual counsel, and directs them to advanced study across Azeroth. He is Ironforge’s senior priest trainer and the leading dwarven representative of the Church of the Holy Light in Khaz Modan."
   },
   {
    "q": "Why does Rohan send priests to Darnassus or Stormwind?",
@@ -53,7 +53,7 @@
     "desperate prayer rohan",
     "temple of the moon quest"
    ],
-   "answer": "Rohan believes spiritual growth requires learning from diverse traditions. He sends human and dwarven initiates to the Cathedral of Light in Stormwind to learn specialized prayers like Desperate Prayer, and directs night elves back to Darnassus's Temple of the Moon so they may attune with Elune's Grace."
+   "answer": "Rohan sends human and dwarven initiates to Stormwind’s Cathedral of Light to learn prayers such as Desperate Prayer. Night elf priests return to Darnassus’s Temple of the Moon to attune with Elune’s Grace. He believes spiritual growth draws on diverse traditions."
   },
   {
    "q": "Why do paladins seek out Rohan?",
@@ -62,7 +62,7 @@
     "exorcism censer",
     "emphasis on sacrifice"
    ],
-   "answer": "Paladins sent by Lord Grayson Shadowbreaker visit Rohan to secure his blessed exorcism censer. Rohan donates the relic to help the Order of the Silver Hand complete their rites, requesting in return a modest donation of supplies to feed the impoverished of Ironforge."
+   "answer": "Paladins sent by Lord Grayson Shadowbreaker seek Rohan’s blessed exorcism censer. He lends the relic for the Order of the Silver Hand’s rites and asks for a modest donation of supplies to feed Ironforge’s poor."
   },
   {
    "q": "Why does Rohan send priests to Azshara?",
@@ -70,7 +70,7 @@
     "cenarion aid rohan",
     "rohan cenarion circle"
    ],
-   "answer": "Guided by the Light's tenets of charity and service, Rohan dispatches healers to aid the night elf druids of the Cenarion Circle who are working in the wild, rugged lands of Azshara."
+   "answer": "Rohan sends healers to aid the Cenarion Circle’s night elf druids working in Azshara’s wild lands. He follows the Light’s call to charity and service."
   },
   {
    "q": "Does Rohan only train dwarves?",
@@ -78,25 +78,25 @@
     "can humans train with rohan",
     "who does rohan train"
    ],
-   "answer": "Rohan guides any Alliance devotee walking the path of the priesthood, including dwarves, humans, and night elves, offering early instruction before sending them onward to mentors tailored to their specific traditions."
+   "answer": "Rohan guides Alliance devotees of many races, including dwarves, humans, and night elves. His early instruction prepares them to study with mentors who know their traditions."
   }
  ],
  "angles": [
   {
    "target": "class:Priest",
-   "text": "High Priest Rohan offers essential guidance and early ability training, eventually directing you to renowned mentors in Stormwind or Darnassus to unlock unique racial devotions."
+   "text": "As a priest, Rohan’s guidance and early training are essential. He later directs you to renowned mentors in Stormwind or Darnassus, where you can learn racial devotions."
   },
   {
    "target": "class:Paladin",
-   "text": "Holy knights sent by Lord Grayson Shadowbreaker must visit Rohan to obtain his famed exorcism censer in exchange for aid to the needy of Ironforge."
+   "text": "As a paladin sent by Lord Grayson Shadowbreaker, you visit Rohan to borrow his exorcism censer. In return, you bring aid for Ironforge’s needy."
   },
   {
    "target": "race:Dwarf",
-   "text": "Rohan embodies the dwarven devotion to the Holy Light, showing that the stout folk of Khaz Modan possess deep spiritual conviction alongside their titan heritage."
+   "text": "As a dwarf, you can see Rohan’s devotion to the Holy Light. The people of Khaz Modan hold deep spiritual conviction alongside their titan heritage."
   },
   {
    "target": "faction:Alliance",
-   "text": "Through his close cooperation with the Cathedral of Light, the Temple of the Moon, and the Cenarion Circle, Rohan keeps Ironforge's clergy woven tightly into the wider Alliance."
+   "text": "As an Alliance devotee, you can see Rohan keep Ironforge’s clergy connected with the Cathedral of Light, the Temple of the Moon, and the Cenarion Circle."
   }
  ],
  "keywords": [
@@ -122,5 +122,6 @@
  ],
  "attribution": [
   "High Priest Rohan"
- ]
+ ],
+ "style": 1
 }

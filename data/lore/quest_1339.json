@@ -20,16 +20,16 @@
    "Stormpike's Order"
   ]
  },
- "summary": "Mountaineer Stormpike's Task is a brief Alliance courier dispatch in Loch Modan. Mountaineer Kadrell directs roving adventurers to the northern watchtower, where Mountaineer Stormpike requires a reliable runner for an assignment beyond the valley. It serves as an introduction to a longer errand that reaches into neighboring lands.",
+ "summary": "In Loch Modan, Mountaineer Stormpike needs a runner for business beyond the valley. Mountaineer Kadrell sends travelers to the northern watchtower, where Stormpike waits with an assignment that leads into neighboring lands.",
  "sections": [
   {
    "title": "A Watchman in Need of a Runner",
-   "body": "Patrolling the roads and outposts of Loch Modan leaves the Mountaineers stretched thin against trogg incursions and roving wildlife. Mountaineer Kadrell frequently points capable travelers toward guards who cannot abandon their posts. Mountaineer Stormpike, stationed high in the northern guard tower, finds himself tied down by watch duties just when urgent private business requires a messenger to venture far beyond the region's borders.",
+   "body": "Mountaineer Stormpike watches from the northern guard tower, but his post keeps him from leaving Loch Modan. Mountaineer Kadrell points capable travelers toward guards who cannot leave their duties. With troggs and roaming wildlife threatening the roads and outposts, the Mountaineers have little room to spare. Stormpike needs a messenger for urgent personal business far beyond the region's borders.",
    "spoiler": 0
   },
   {
    "title": "From Tower to Distant Roads",
-   "body": "Reaching Stormpike requires ascending the northern guard tower overlooking the valley. As a member of the prominent Stormpike clan, his affairs often extend past the everyday frontier defense of Thelsamar. Taking his task means agreeing to carry word and supplies across regional boundaries on his behalf, offering green adventurers their first major step out of the loch and onto the wider highways of Khaz Modan.",
+   "body": "You find Stormpike at the top of the northern guard tower, above the valley. A member of the prominent Stormpike clan, he has affairs beyond the frontier defense of Thelsamar. Carrying his message and supplies means crossing regional borders on his behalf, taking you from the loch onto the highways of Khaz Modan.",
    "spoiler": 0
   }
  ],
@@ -41,7 +41,7 @@
     "where is stormpike",
     "find stormpike tower"
    ],
-   "answer": "Mountaineer Stormpike is stationed at the very top of the northern guard tower in Loch Modan, keeping watch over the surrounding trails."
+   "answer": "Mountaineer Stormpike keeps watch from the top of the northern guard tower in Loch Modan, overlooking the surrounding trails."
   },
   {
    "q": "Who starts this quest?",
@@ -50,7 +50,7 @@
     "quest starter",
     "kadrell location"
    ],
-   "answer": "Mountaineer Kadrell, who patrols around Thelsamar in Loch Modan, starts this quest by pointing you toward Stormpike's tower."
+   "answer": "Mountaineer Kadrell patrols near Thelsamar in Loch Modan and points you toward Stormpike's tower."
   },
   {
    "q": "Why does Stormpike need an adventurer?",
@@ -59,7 +59,7 @@
     "stormpike problem",
     "what does stormpike want"
    ],
-   "answer": "As an active mountaineer, Stormpike cannot abandon his guard post at the tower. His personal errand requires traveling well outside Loch Modan, making an unattached adventurer the ideal courier."
+   "answer": "Stormpike cannot leave his post at the tower. His personal business takes him well beyond Loch Modan, so he needs a traveler to carry his message."
   },
   {
    "q": "What happens after reporting to Stormpike?",
@@ -68,7 +68,7 @@
     "what comes after mountaineer stormpikes task",
     "stormpike followup"
    ],
-   "answer": "Speaking with Stormpike completes this introductory step and unlocks his follow-up errand, 'Stormpike's Order', which sends you on a delivery run to another territory."
+   "answer": "Reporting to Stormpike completes this first step and opens his follow-up errand, 'Stormpike's Order', a delivery to another territory."
   },
   {
    "q": "Is this related to the Stormpike Guard in Alterac?",
@@ -77,7 +77,7 @@
     "alterac valley stormpike",
     "is this the av stormpikes"
    ],
-   "answer": "Mountaineer Stormpike shares the name and blood of the renowned Stormpike clan known for the Stormpike Guard and their mining expeditions, though this particular assignment is a modest local errand."
+   "answer": "Mountaineer Stormpike shares the name and blood of the Stormpike clan, known for the Stormpike Guard and its mining expeditions. His assignment here is a modest local errand."
   },
   {
    "q": "Do Horde players have an equivalent quest here?",
@@ -85,17 +85,17 @@
     "horde version",
     "can horde do this"
    ],
-   "answer": "No. Loch Modan is sovereign dwarven territory aligned entirely with the Alliance, and the Mountaineers will attack Horde travelers on sight."
+   "answer": "No. Loch Modan is dwarven territory aligned with the Alliance, and its Mountaineers attack Horde travelers on sight."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "Helping a fellow dwarf of the famed Stormpike line is a natural duty for any wanderer honoring clan ties across Khaz Modan."
+   "text": "As a dwarf, you may feel a natural duty to help a fellow dwarf of the famed Stormpike line and honor clan ties across Khaz Modan."
   },
   {
    "target": "faction:Alliance",
-   "text": "Taking courier dispatches for regional mountaineers keeps the garrisons of Ironforge supplied and coordinated across the eastern territories."
+   "text": "As an Alliance traveler, you help regional mountaineers carry dispatches that keep Ironforge's garrisons supplied and coordinated across the eastern territories."
   }
  ],
  "keywords": [
@@ -116,5 +116,6 @@
  ],
  "attribution": [
   "Mountaineer Stormpike's Task"
- ]
+ ],
+ "style": 1
 }

@@ -8,21 +8,21 @@
   "wiki": "Dextren Ward",
   "refs": 5
  },
- "summary": "Dextren Ward is an infamous criminal and grave robber locked away inside the Stormwind Stockade. Before his capture, he profited by exhuming bodies from Duskwood's Raven Hill Cemetery and delivering them to the necromancer Morbent Fel. Now caught in the midst of the prison's bloody uprising, he remains marked for death by the town council of Darkshire.",
+ "summary": "In the Stormwind Stockade, Dextren Ward remains a prisoner amid a bloody uprising. Before his capture, he dug up bodies at Raven Hill Cemetery in Duskwood and sold them to the necromancer Morbent Fel. Darkshire's town council has marked him for death.",
  "sections": [
   {
    "title": "Grave Robbery in Duskwood",
-   "body": "Before ending up in chains beneath the streets of Stormwind, Dextren Ward conducted a grim and lucrative business in the fog-choked woods of Duskwood. Raven Hill Cemetery was already a site of sorrow and growing horror, but Ward treated its burial grounds as a private quarry. Rather than hunting merely for trinkets and heirlooms left with the dead, Ward dealt in flesh, unearthing fresh graves to supply local dark practitioners.",
+   "body": "Before chains bound him beneath Stormwind, Dextren Ward robbed graves in Duskwood for profit. At Raven Hill Cemetery, where sorrow and horror had grown, he dug up the newly buried dead. He sold the bodies to local practitioners of dark arts.",
    "spoiler": 0
   },
   {
    "title": "Pawn of the Necromancer",
-   "body": "Ward's primary customer was Morbent Fel, a necromancer whose dark rituals have plagued Duskwood and swelled the ranks of the undead. In supplying bodies to Fel, Ward actively contributed to the terror that grips Darkshire. Though eventually caught by Stormwind authorities and dragged into the Stockade, his crimes earned him the undying enmity of the people of Duskwood, prompting Councilman Millstipe to demand Ward's hand as proof of justice served.",
+   "body": "Morbent Fel, a necromancer whose rituals plagued Duskwood and swelled the undead ranks, was Ward's main customer. By supplying him with bodies, Ward helped spread terror through Darkshire. Stormwind authorities eventually captured Ward and brought him to the Stockade. His crimes left the people of Duskwood demanding justice, and Councilman Millstipe called for Ward's hand as proof.",
    "spoiler": 0
   },
   {
    "title": "Chaos in the Stockade",
-   "body": "When a sweeping rebellion broke out inside the Stockade, Ward was not liberated by allies, but rather freed from his cell to join the chaos within the locked-down dungeon. Armed and vicious, he commands his own corner of the prison and uses terror to ward off interlopers, making him one of the priority targets Alliance forces seek to eliminate while restoring order.",
+   "body": "A rebellion swept through the Stockade, and Ward was freed from his cell amid the chaos. Armed and vicious, he seized control of his corner of the prison and uses fear to keep intruders away. Alliance forces seeking to restore order count him among their priority targets.",
    "spoiler": 0
   }
  ],
@@ -34,7 +34,7 @@
     "dextren ward lore",
     "stockade dextren"
    ],
-   "answer": "Dextren Ward is a notorious criminal imprisoned in the Stormwind Stockade. He is an elite human inmate responsible for robbing the dead in Duskwood to fuel dark rituals."
+   "answer": "Dextren Ward is a notorious criminal held in the Stormwind Stockade. In Duskwood, he robbed graves to supply bodies for dark rituals."
   },
   {
    "q": "Why is Dextren Ward in the Stockade?",
@@ -43,7 +43,7 @@
     "dextren ward crime",
     "what did dextren do"
    ],
-   "answer": "Ward was captured and imprisoned for grave robbing in Duskwood's Raven Hill Cemetery. Instead of stealing valuables, he exhumed fresh corpses to sell directly to the necromancer Morbent Fel."
+   "answer": "Stormwind authorities captured Ward for robbing graves at Raven Hill Cemetery in Duskwood. He dug up newly buried bodies and sold them to the necromancer Morbent Fel."
   },
   {
    "q": "Who wants Dextren Ward dead?",
@@ -52,7 +52,7 @@
     "dextren ward bounty",
     "crime and punishment questgiver"
    ],
-   "answer": "Councilman Millstipe of Darkshire wants Ward dead. Millstipe seeks retribution for the desecration of Duskwood's graves and demands Ward's severed hand as proof of his demise."
+   "answer": "Councilman Millstipe of Darkshire wants Ward dead. He demands Ward's hand as proof of justice for the desecrated graves of Duskwood."
   },
   {
    "q": "What is Ward's connection to Morbent Fel?",
@@ -61,7 +61,7 @@
     "dextren ward morbent fel",
     "who bought the bodies"
    ],
-   "answer": "Ward acted as a corpse supplier for Morbent Fel. By unearthing the freshly buried dead of Raven Hill Cemetery, Ward provided the raw material Fel needed for his necromantic experiments and undead creations."
+   "answer": "Ward supplied corpses to Morbent Fel. He dug up the newly buried dead at Raven Hill Cemetery for the necromancer's dark rituals."
   },
   {
    "q": "Where can Dextren Ward be found?",
@@ -70,7 +70,7 @@
     "where is dextren ward",
     "where to find dextren"
    ],
-   "answer": "He is located inside the Stormwind Stockade, the high-security prison situated in the canals of Stormwind City. He lurks in one of the holding wings during the ongoing prison revolt."
+   "answer": "Dextren Ward is inside the Stormwind Stockade, the prison in Stormwind City's canals. During the ongoing revolt, he is in one of its holding wings."
   },
   {
    "q": "Why does the quest require Dextren's hand?",
@@ -79,21 +79,21 @@
     "dextren ward hand",
     "proof of death dextren"
    ],
-   "answer": "Councilman Millstipe explicitly asks for Ward's cold, dead hand as irrefutable physical proof that the grave robber can no longer dig up the graves of Duskwood or profit from necromancy."
+   "answer": "Councilman Millstipe asks for Ward's dead hand as proof that the grave robber can no longer dig up Duskwood's graves or profit from necromancy."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "For Alliance champions assisting Darkshire, putting an end to Dextren Ward is an act of justice for the desecrated families of Duskwood and an essential task in reclaiming the rioting Stockade."
+   "text": "As an Alliance champion helping Darkshire, ending Ward's crimes brings justice for Duskwood's desecrated graves and helps reclaim the rioting Stockade."
   },
   {
    "target": "class:Paladin",
-   "text": "Ward's collaboration with necromancers to provide fresh corpses represents an abhorrent offense against the Sanctity of the Light and the peaceful rest of the departed."
+   "text": "As a paladin, you can see Ward's work with necromancers and fresh corpses as an offense against the Light and the peaceful rest of the dead."
   },
   {
    "target": "class:Priest",
-   "text": "The desecration of holy burial ground at Raven Hill makes Ward's fate an imperative of moral and spiritual restitution."
+   "text": "As a priest, you can see Ward's desecration of Raven Hill's burial ground as a matter of moral and spiritual restitution."
   }
  ],
  "keywords": [
@@ -119,5 +119,6 @@
  ],
  "attribution": [
   "Dextren Ward"
- ]
+ ],
+ "style": 1
 }

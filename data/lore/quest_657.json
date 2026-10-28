@@ -27,21 +27,21 @@
    "Hints of a New Plague?"
   ]
  },
- "summary": "Quae has gone through the folder and learned that Apothecary Jorell is running deadly experiments at Go'Shek Farm. Quae is in poor shape after clashing with orcs and cannot help Kinelory, who will need your protection when she heads for the farm to steal any of Jorell's research not yet sent to Tarren Mill.",
+ "summary": "Kinelory needs your protection while she seeks Jorell’s remaining research at Go'Shek Farm. Quae has learned from the folder that Apothecary Jorell is conducting deadly experiments there, but she is too hurt to help after clashing with orcs.",
  "sections": [
   {
    "title": "Jorell's Experiments",
-   "body": "Quae reads through the folder and finds that Apothecary Jorell is running deadly experiments at Go'Shek Farm. How that touches Hillsbrad is unclear to Quae, yet Phin would not want it to go on. Some of Jorell's research has already been sent to Tarren Mill.",
+   "body": "The folder reveals Jorell’s deadly experiments at Go'Shek Farm. Quae does not know how they affect Hillsbrad, but Phin would not want them to continue. Some of Jorell’s research has already reached Tarren Mill.",
    "spoiler": 0
   },
   {
    "title": "Kinelory's Protector",
-   "body": "While you were away, Quae clashed with some orcs and is in no shape to help Kinelory. Kinelory means to go down to the farm and steal the research Jorell has not yet sent to Tarren Mill, and she will need protection. You are to speak to Kinelory.",
+   "body": "Quae clashed with some orcs while you were away and cannot help Kinelory. Kinelory plans to go to the farm and steal the research Jorell has not yet sent to Tarren Mill. She will need your protection.",
    "spoiler": 0
   },
   {
    "title": "Kinelory's Resolve",
-   "body": "Kinelory says that if it brings Phin peace, she will destroy every one of the Forsaken personally. Phin has done so much for Kinelory and the others since the plague, and they never thought they would find friends or family again. Kinelory asks you to say when you are prepared, and the two of you will get started right away.",
+   "body": "Kinelory says she will destroy every one of the Forsaken herself if that brings Phin peace. Since the plague, Phin has done so much for Kinelory and the others, who never thought they would find friends or family again. Kinelory asks you to tell her when you are ready, and you will set out together right away.",
    "spoiler": 1
   }
  ],
@@ -62,7 +62,7 @@
     "jorell experiments",
     "what is jorell doing"
    ],
-   "answer": "That Apothecary Jorell has been working on deadly experiments at Go'Shek Farm."
+   "answer": "The folder reveals that Apothecary Jorell is conducting deadly experiments at Go'Shek Farm."
   },
   {
    "q": "Why are Quae and Kinelory investigating this?",
@@ -71,7 +71,7 @@
     "why do they care about the plague",
     "why help phin"
    ],
-   "answer": "They are companions of Phin, who leads a band of adventurers looking into odd happenings. Phin would not like it if Jorell's experiments were allowed to continue."
+   "answer": "Quae and Kinelory are Phin’s companions. Phin leads a band of adventurers investigating odd happenings and would not want Jorell’s experiments to continue."
   },
   {
    "q": "Where is the research being sent?",
@@ -79,7 +79,7 @@
     "where are the notes going",
     "tarren mill research"
    ],
-   "answer": "Some of it has already been sent to Tarren Mill. Kinelory plans to steal what Jorell has not yet sent."
+   "answer": "Some of Jorell’s research has already gone to Tarren Mill. Kinelory plans to steal what he has not yet sent."
   }
  ],
  "angles": [],
@@ -100,5 +100,6 @@
  ],
  "attribution": [
   "Hints of a New Plague? (3)"
- ]
+ ],
+ "style": 1
 }

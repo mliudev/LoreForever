@@ -17,16 +17,16 @@
   "wiki": "Operation Recombobulation (Classic)",
   "chain": []
  },
- "summary": "Operation Recombobulation is a bold engineering effort orchestrated by Razzle Sprysprocket in Kharanos. In response to the tragedy of Gnomeregan, Razzle and Ozzie Togglevolt seek to reverse the horrific transformation of their afflicted kin into leper gnomes using an experimental contraption known as the Recombobulator.",
+ "summary": "In Kharanos, Razzle Sprysprocket and Ozzie Togglevolt seek a cure for their kin. After Gnomeregan's fall, they hope an experimental machine can reverse the change that made many gnomes leper gnomes.",
  "sections": [
   {
    "title": "A Remedy for a Calamity",
-   "body": "When radiation flooded Gnomeregan to purge the trogg menace, it failed to destroy the invaders and instead warped the majority of the gnomish population into deranged, sickly leper gnomes. Refusing to accept this tragic mutation as permanent, inventor Razzle Sprysprocket has partnered with Ozzie Togglevolt to develop a technological cure: the Recombobulator. Their audacious goal is nothing less than restoring their mutated brethren back to health and sanity.",
+   "body": "Radiation meant to purge the troggs in Gnomeregan changed most of the city's gnomes into sickly, deranged leper gnomes instead. Razzle Sprysprocket refuses to accept that this change must last. Working with Ozzie Togglevolt, the inventor is building a machine called the Recombobulator to restore their afflicted kin to health and sanity.",
    "spoiler": 0
   },
   {
    "title": "Scavenging from the Afflicted",
-   "body": "Building a delicate prototype requires precise components, namely Restabilization Cogs and Gyromechanic Gears. In an ironic twist of fate, these essential parts are salvaged directly from the hostile leper gnomes wandering outside the sealed gates of Gnomeregan. By harvesting mechanical debris from their corrupted brothers and sisters, Razzle hopes to assemble the very device that will undo their shared tragedy.",
+   "body": "Razzle needs Restabilization Cogs and Gyromechanic Gears to build a delicate prototype. The parts come from the hostile leper gnomes outside Gnomeregan's sealed gates. Razzle hopes the debris taken from their altered kin will help build a device to undo the tragedy they share.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "purpose of recombobulator",
     "recombobulate meaning"
    ],
-   "answer": "The Recombobulator is an experimental machine designed by Razzle Sprysprocket and Ozzie Togglevolt intended to reverse the horrific mutagenic effects of Gnomeregan's radiation and cure the leper gnomes."
+   "answer": "Razzle Sprysprocket and Ozzie Togglevolt designed the Recombobulator to reverse the effects of Gnomeregan's radiation and cure leper gnomes."
   },
   {
    "q": "Who are Razzle Sprysprocket and Ozzie?",
@@ -47,7 +47,7 @@
     "who is ozzie togglevolt",
     "razzle sprysprocket lore"
    ],
-   "answer": "They are gnomish inventors operating out of Kharanos in Dun Morogh. Following the fall of Gnomeregan, they have dedicated their engineering talents to studying the crisis and fabricating technological solutions to rescue their displaced and irradiated people."
+   "answer": "Razzle Sprysprocket and Ozzie Togglevolt are gnomish inventors working in Kharanos, in Dun Morogh. Since Gnomeregan fell, they have devoted their skills to finding ways to save their displaced, irradiated people."
   },
   {
    "q": "Why are there leper gnomes outside Gnomeregan?",
@@ -56,7 +56,7 @@
     "how did leper gnomes happen",
     "gnomeregan radiation"
    ],
-   "answer": "During the trogg invasion of Gnomeregan, radiation was released into the city to wipe out the beasts. The gambit backfired catastrophically: it failed to stop the troggs and instead drove many surviving gnomes mad, mutating them into hostile leper gnomes."
+   "answer": "Radiation released during the trogg invasion failed to kill the troggs and instead drove many surviving gnomes mad, changing them into hostile leper gnomes."
   },
   {
    "q": "Where do the parts for the Recombobulator come from?",
@@ -65,7 +65,7 @@
     "restabilization cogs source",
     "gyromechanic gears"
    ],
-   "answer": "They are salvaged directly from the deranged leper gnomes pacing outside the entrance of Gnomeregan in western Dun Morogh, who still carry salvaged technological hardware on their bodies."
+   "answer": "The parts come from leper gnomes outside Gnomeregan's entrance in western Dun Morogh. The afflicted gnomes still carry salvaged mechanical hardware on their bodies."
   },
   {
    "q": "Does the Recombobulator actually work?",
@@ -74,17 +74,17 @@
     "can leper gnomes be cured",
     "recombobulator success"
    ],
-   "answer": "Razzle claims that with the right parts, hydrolubricant, and adjustments to the electrogum gel, the machine will restore the gnomes to normal. However, gnomish engineering is famously prone to volatility, and whether it can truly undo toxic irradiation remains uncertain."
+   "answer": "Razzle says the right parts, hydrolubricant, and adjustments to the electrogum gel will restore the gnomes to normal. Gnomish engineering can be volatile, and it remains uncertain whether the machine can undo toxic irradiation."
   }
  ],
  "angles": [
   {
    "target": "race:Gnome",
-   "text": "For gnomes, this task represents a desperate, heartfelt hope to save lost family and friends who were warped into violent shells during the fall of their capital."
+   "text": "For gnomes, this work offers a desperate hope of saving family and friends, changed into violent shells during the fall of their capital."
   },
   {
    "target": "profession:Engineering",
-   "text": "Engineers will appreciate Razzle's unorthodox tinkering, featuring intricate Restabilization Cogs, crank-o-ratchets, and viscous electrogum gel to manipulate biophysical radiation."
+   "text": "As an engineer, you can appreciate Razzle's unorthodox work with Restabilization Cogs, crank-o-ratchets, and viscous electrogum gel to manipulate biophysical radiation."
   }
  ],
  "keywords": [
@@ -109,5 +109,6 @@
  ],
  "attribution": [
   "Operation Recombobulation (Classic)"
- ]
+ ],
+ "style": 1
 }

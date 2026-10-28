@@ -10,11 +10,11 @@
    "quest:6395"
   ]
  },
- "summary": "Samuel's Remains are the recovered earthly remnants of Samuel Fipps, a former resident of Tirisfal Glades who fell to the Scourge. Gathered by adventurers near Deathknell, they are laid to rest beside his wife Marla to fulfill her dying wish.",
+ "summary": "Near Deathknell, Samuel's Remains are gathered from a Scourge thrall and laid beside Marla.",
  "sections": [
   {
    "title": "A Tragic Reunion",
-   "body": "Before the plague of undeath swept across Lordaeron, Samuel Fipps lived peacefully with his wife, Marla. When the contagion struck, Samuel succumbed and was bound into mindless service to the Scourge. Marla escaped undeath only to be struck down by the very husband she loved. Despite this brutal end, her final wish was not vengeance, but eternity together: she pleaded to be interred beside Samuel once his cursed form was put to rest. Novice Elreth in Deathknell enlists newly awoken Forsaken to track down Samuel's wandering form northeast of the settlement, recover his bones, and bury them in the front row of the local cemetery.",
+   "body": "Samuel Fipps and his wife Marla lived peacefully in Tirisfal Glades before the plague of undeath swept across Lordaeron. Samuel succumbed to the contagion and became the Scourge's mindless servant. Marla escaped undeath, but Samuel struck her down. With her dying breath, she asked to be buried beside him once his cursed form was put to rest. Novice Elreth in Deathknell sends newly awoken Forsaken northeast of the settlement to find Samuel's wandering form, recover his bones, and bury them in the front row of the local cemetery.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "who is samuel",
     "samuel backstory"
    ],
-   "answer": "Samuel Fipps was a human living in Tirisfal Glades prior to the Third War. When the Scourge plague invaded, he perished and rose as an undead thrall of the Lich King. Driven by mindless hunger, he eventually slew his own wife, Marla."
+   "answer": "Samuel Fipps was a human who lived in Tirisfal Glades before the Third War. The Scourge plague killed him, then raised him as an undead thrall of the Lich King. Driven by mindless hunger, he eventually slew his wife, Marla."
   },
   {
    "q": "Where are Samuel's remains found?",
@@ -35,7 +35,7 @@
     "where is samuel fipps",
     "samuel location"
    ],
-   "answer": "They are recovered from Samuel Fipps himself, who roams among the ruined camp along the road northeast of Deathknell. Putting an end to his mindless existence allows his earthly remains to be retrieved."
+   "answer": "Samuel's remains are recovered from his wandering form among the ruined camp along the road northeast of Deathknell. Putting an end to his mindless existence lets his bones be retrieved."
   },
   {
    "q": "Why do the Forsaken bury him beside his wife?",
@@ -44,13 +44,13 @@
     "marla grave",
     "marlas last wish"
    ],
-   "answer": "Marla's dying wish was to rest alongside her beloved husband, despite him being the one who killed her. Novice Elreth honors this request to prove that the newly liberated Forsaken still possess compassion, respect for the dead, and humanity that separates them from the Scourge."
+   "answer": "Marla's dying wish was to rest beside her beloved husband, even though he killed her. Novice Elreth honors her request to show that the newly liberated Forsaken still have compassion, respect for the dead, and the humanity that separates them from the Scourge."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "Burying Samuel's remains is an early lesson in Forsaken identity: respecting the tragic dead marks the crucial moral divide between free undead and the mindless thralls of the Scourge."
+   "text": "As an undead, you learn early that honoring the tragic dead marks the moral divide between free Forsaken and the Scourge's mindless thralls."
   }
  ],
  "keywords": [
@@ -72,5 +72,6 @@
  "attribution": [
   "Samuel's Remains",
   "Marla's Last Wish"
- ]
+ ],
+ "style": 1
 }

@@ -17,16 +17,16 @@
   "wiki": "Guarded Thunderbrew Barrel",
   "chain": []
  },
- "summary": "The Guarded Thunderbrew Barrel rests in the cellar of the Thunderbrew Distillery in Kharanos. It represents the prized stock of the famed dwarven brewing family, watched over day and night to keep thieves and rivals from meddling with their craft.",
+ "summary": "In Kharanos, the Thunderbrew family's ale rests under guard in the distillery cellar. The watch protects their prized stock from thieves and rivals.",
  "sections": [
   {
    "title": "A Cellar Under Watch",
-   "body": "In the cold snows of Dun Morogh, few things are guarded more fiercely than good ale. Beneath the floorboards of the Thunderbrew Distillery in Kharanos, stout casks of potent brew age in peace. The family takes no chances with their stock, posting watchful sentries like Jarven Thunderbrew right beside the barrels to ensure not a single drop is tampered with or siphoned off.",
+   "body": "Jarven Thunderbrew keeps watch over the Thunderbrew family's ale in the cellar beneath their distillery in Kharanos. In Dun Morogh, the family trusts no one with its stock; sentries stand beside the aging casks to keep anyone from tampering with or siphoning away the brew.",
    "spoiler": 0
   },
   {
    "title": "Family Pride and Rivalries",
-   "body": "Dwarven brewing is as serious a discipline as smithing or mining. The Thunderbrews take immense pride in their proprietary recipes, particularly potent batches of Thunder Ale. Between greedy troggs creeping around Dun Morogh and bitter brewing rivalries across the Alliance, Jarven's vigilant presence ensures the family's liquid gold remains untouched until properly tapped.",
+   "body": "The Thunderbrews take pride in their proprietary recipes, especially their potent batches of Thunder Ale. Dwarves treat brewing with the care they give smithing and mining. Troggs creep through Dun Morogh, and brewing rivals compete across the Alliance. Jarven watches the casks so the family's ale stays untouched until it is ready to be tapped.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "why cant i touch the ale",
     "jarven guarding barrel"
    ],
-   "answer": "Jarven Thunderbrew is standing right there in the basement keeping watch. As long as he remains on guard, no one is permitted to disturb the Thunderbrew family's barrels."
+   "answer": "Jarven Thunderbrew is standing watch in the basement. While he guards the barrels, no one may disturb the Thunderbrew family's stock."
   },
   {
    "q": "Who is Jarven Thunderbrew?",
@@ -47,7 +47,7 @@
     "jarven lore",
     "dwarf in cellar"
    ],
-   "answer": "Jarven is a member of the Thunderbrew clan stationed in the Kharanos distillery cellar. His primary duty is to keep an eye on the family's finest ales and stop any would-be thieves or troublemakers from tampering with the stock."
+   "answer": "Jarven Thunderbrew is a member of the Thunderbrew clan, stationed in the Kharanos distillery cellar. He watches the family's finest ales and stops thieves or troublemakers from tampering with them."
   },
   {
    "q": "Where is this barrel located?",
@@ -56,7 +56,7 @@
     "cellar location",
     "thunderbrew basement"
    ],
-   "answer": "The barrel sits down in the cellar beneath the Thunderbrew Distillery, located in the town of Kharanos in Dun Morogh."
+   "answer": "The barrel is in the cellar beneath the Thunderbrew Distillery, in Kharanos, Dun Morogh."
   },
   {
    "q": "Why do the Thunderbrews guard their ale so closely?",
@@ -64,7 +64,7 @@
     "why guard ale",
     "importance of thunderbrew ale"
    ],
-   "answer": "To dwarves, brewing is a revered craft and a family legacy. With competing brewers, sneaky thieves, and nearby threats like troggs and leper gnomes, rare vintage barrels of Thunder Ale require constant protection."
+   "answer": "The Thunderbrews guard their ale because brewing is a revered craft and family legacy to dwarves. Rival brewers, thieves, troggs, and leper gnomes threaten rare vintage barrels of Thunder Ale."
   },
   {
    "q": "Is this part of another quest?",
@@ -72,7 +72,7 @@
     "thunderbrew questline",
     "what quest is this for"
    ],
-   "answer": "Yes. It ties into Marleth Barleybrew's quest Bitter Rivals, in which you must sneak a barrel of Barleybrew Scalder in among the Thunderbrews' barrels of Thunder Ale."
+   "answer": "Yes. You help Marleth Barleybrew with Bitter Rivals by sneaking a barrel of Barleybrew Scalder among the Thunderbrews' barrels of Thunder Ale."
   },
   {
    "q": "Can you distract or move Jarven?",
@@ -80,17 +80,17 @@
     "how to get past jarven",
     "distract jarven"
    ],
-   "answer": "Yes. Jarven has strict orders not to touch the stock, but he admits he would love a taste of Thunder Ale. Bringing him one in the quest Distracting Jarven draws his attention away from the barrels."
+   "answer": "Yes. Jarven has orders not to touch the stock, though he admits he would love a taste of Thunder Ale. Bringing him one draws his attention from the barrels."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "Every dwarf understands that a family's secret brew is worth defending with life and limb, making Jarven's stubborn vigil down in the cellar completely natural."
+   "text": "As a dwarf, you know a family's secret brew is worth defending with your life and limb. Jarven's stubborn watch in the cellar comes naturally."
   },
   {
    "target": "class:Rogue",
-   "text": "Slipping into a cellar to pilfer a cask of stout dwarven ale is classic work, but a vigilant dwarf watching the keg makes a quiet heist much trickier."
+   "text": "As a rogue, you know a quiet cellar heist is harder with a vigilant dwarf watching the keg."
   }
  ],
  "keywords": [
@@ -108,5 +108,6 @@
  ],
  "attribution": [
   "Guarded Thunderbrew Barrel"
- ]
+ ],
+ "style": 1
 }

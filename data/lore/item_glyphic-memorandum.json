@@ -10,11 +10,11 @@
    "quest:3114"
   ]
  },
- "summary": "The Glyphic Memorandum is a written notice delivered to novice mages arriving in Coldridge Valley. Penned on behalf of the mage trainer Marryk Nurribit, it directs fledgling spellcasters indoors to begin their formal arcane instruction.",
+ "summary": "In Coldridge Valley, the Glyphic Memorandum sends novice mages to Anvilmar. Marryk Nurribit wrote it to guide arriving spellcasters into formal arcane instruction.",
  "sections": [
   {
    "title": "A Summons to Anvilmar",
-   "body": "Novice spellcasters setting out into the bitter frost of Coldridge Valley receive this brief missive after completing their initial tasks. Authored by the local mage trainer Marryk Nurribit, the memorandum summons young practitioners into the warmth of Anvilmar. Rather than stern academic dogma, Marryk's guidance is informal and blunt: learn your incantations, set aside coin for training and tavern ale, and steer well clear of the irradiated ruin of Gnomeregan.",
+   "body": "Novice spellcasters receive the Glyphic Memorandum after finishing their first tasks in Coldridge Valley. Marryk Nurribit, the local mage trainer, calls them inside Anvilmar. His advice is plain: learn your incantations, save coin for training and tavern ale, and keep clear of Gnomeregan, ruined by radiation.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "mage note",
     "what is glyphic memorandum"
    ],
-   "answer": "It is a short written summons provided to newly arrived mages in Coldridge Valley, instructing them to seek out the local arcane trainer inside Anvilmar."
+   "answer": "The Glyphic Memorandum is a short summons for newly arrived mages in Coldridge Valley. It directs them to the arcane trainer inside Anvilmar."
   },
   {
    "q": "Who wrote this memorandum?",
@@ -35,7 +35,7 @@
     "who sent glyphic memorandum",
     "author of note"
    ],
-   "answer": "The note originates from Marryk Nurribit, a gnome mage trainer stationed within the halls of Anvilmar in Dun Morogh."
+   "answer": "Marryk Nurribit wrote the memorandum. He trains mages in Anvilmar, in Dun Morogh."
   },
   {
    "q": "What advice does the trainer give when answering the memorandum?",
@@ -43,17 +43,17 @@
     "marryk advice",
     "what does marryk say"
    ],
-   "answer": "Upon presenting the note, Marryk reminds the novice to practice restraint, save money for spells and tavern ale, and strictly avoid the radioactive halls of Gnomeregan."
+   "answer": "When you present the note, Marryk advises restraint. Save coin for spells and tavern ale, and avoid Gnomeregan's radioactive halls."
   }
  ],
  "angles": [
   {
    "target": "class:Mage",
-   "text": "For budding mages venturing through Dun Morogh, this note marks the formal beginning of their arcane apprenticeship under Marryk Nurribit."
+   "text": "As a mage in Dun Morogh, you begin your formal arcane apprenticeship under Marryk Nurribit with this note."
   },
   {
    "target": "race:Gnome",
-   "text": "Gnome mages starting their journeys in exile are reminded by their trainer to focus on their studies and stay away from their lost homeland of Gnomeregan."
+   "text": "As a gnome mage starting your journey in exile, your trainer urges you to focus on your studies and stay away from Gnomeregan, your lost homeland."
   }
  ],
  "keywords": [
@@ -76,5 +76,6 @@
  "attribution": [
   "Glyphic Memorandum",
   "Glyphic Memorandum (quest)"
- ]
+ ],
+ "style": 1
 }

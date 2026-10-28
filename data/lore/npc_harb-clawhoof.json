@@ -8,16 +8,16 @@
   "wiki": "Harb Clawhoof",
   "refs": 2
  },
- "summary": "Harb Clawhoof is a tauren mount breeder stationed just outside Bloodhoof Village in Mulgore. He tends to the tribe's sturdy kodos, offering them to worthy tauren riders and trusted champions of Thunder Bluff.",
+ "summary": "Near Bloodhoof Village, Harb Clawhoof tends the tauren’s kodos. He offers them to worthy tauren riders and trusted champions of Thunder Bluff.",
  "sections": [
   {
    "title": "Breeder of the Great Kodo",
-   "body": "Situated near the pens of Bloodhoof Village, Harb Clawhoof spends his days tending the massive kodo beasts that serve as the backbone of tauren travel and labor. Built to carry immense weight across vast distances, these sturdy animals are essential to life on the plains. Harb ensures each beast is well-cared for, disciplined, and matched only with riders who command the respect of the tauren people.",
+   "body": "Harb Clawhoof tends the kodos near Bloodhoof Village. These great beasts carry heavy loads across long distances and are vital to tauren travel and work on the plains. Harb cares for each one, trains it, and pairs it with riders respected by the tauren people.",
    "spoiler": 0
   },
   {
    "title": "Steeds of the Plains",
-   "body": "While tauren naturally earn the trust required to ride Harb's kodos, outsiders face stricter scrutiny. Due to their immense size and temperament, kodos are not easily guided by those unfamiliar with their nature. Non-tauren allies who wish to ride away atop one of Harb's prized mounts must first prove their loyalty and earn exalted status with Thunder Bluff.",
+   "body": "Tauren earn the trust needed to ride Harb’s kodos, while outsiders face closer scrutiny. Their size and temperament make kodos difficult for those unfamiliar with them to guide. Non-tauren allies must prove their loyalty and earn exalted standing with Thunder Bluff before riding one of Harb’s mounts.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "where is harb clawhoof",
     "kodo vendor location"
    ],
-   "answer": "Harb Clawhoof is stationed alongside the kodo corral on the outskirts of Bloodhoof Village in central Mulgore, just south of Thunder Bluff."
+   "answer": "Harb Clawhoof tends the kodo corral on the outskirts of Bloodhoof Village in central Mulgore, just south of Thunder Bluff."
   },
   {
    "q": "What does Harb Clawhoof sell?",
@@ -38,7 +38,7 @@
     "harb mounts",
     "kodo vendor wares"
    ],
-   "answer": "Harb sells various types of kodo mounts, including standard brown and gray kodos, as well as heavily armored great kodos for seasoned riders."
+   "answer": "Harb sells several kinds of kodo mounts, including brown and gray kodos and heavily armored great kodos for seasoned riders."
   },
   {
    "q": "Can non-tauren buy kodos from Harb?",
@@ -47,7 +47,7 @@
     "can trolls ride kodos",
     "kodo reputation requirement"
    ],
-   "answer": "Yes, but only if they have earned exalted standing with Thunder Bluff. Tauren can purchase them directly, but other Horde races must prove themselves to the tribe before Harb will entrust them with a kodo."
+   "answer": "Yes. Tauren can buy kodos directly, while other Horde races must earn exalted standing with Thunder Bluff and prove themselves to the tribe before Harb entrusts them with one."
   },
   {
    "q": "Why are kodos so important to the tauren?",
@@ -55,17 +55,17 @@
     "tauren kodo lore",
     "why kodos"
    ],
-   "answer": "Kodos are powerful, resilient creatures perfectly suited for the nomadic lifestyle and open plains of central Kalimdor. They serve as reliable beasts of burden, war mounts, and trade transport across the rugged landscape."
+   "answer": "Kodos suit the tauren’s nomadic life and the open plains of central Kalimdor. They carry burdens, serve as war mounts, and transport trade across the rugged land."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "Harb Clawhoof provides the quintessential mount of your heritage, providing both practical transit across Mulgore and a symbol of your nomadic traditions."
+   "text": "As a tauren, Harb Clawhoof offers you a mount tied to your heritage, useful for travel across Mulgore and bound to your nomadic traditions."
   },
   {
    "target": "faction:Horde",
-   "text": "For orcs, trolls, and Forsaken, earning a kodo from Harb is the ultimate mark of honor and friendship recognized by the elders of Thunder Bluff."
+   "text": "As an orc, troll, or Forsaken, earning a kodo from Harb marks honor and friendship recognized by the elders of Thunder Bluff."
   }
  ],
  "keywords": [
@@ -86,5 +86,6 @@
  ],
  "attribution": [
   "Harb Clawhoof"
- ]
+ ],
+ "style": 1
 }

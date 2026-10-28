@@ -17,16 +17,16 @@
   "wiki": "Battle of Hillsbrad (6)",
   "chain": []
  },
- "summary": "This critical phase of the Forsaken campaign in Hillsbrad targets the dwarven stronghold of Dun Garok. High Executor Darthalia dispatches Horde champions to dismantle the dwarven garrison assisting the local humans and execute their commanding officer, Captain Ironhill.",
+ "summary": "In Hillsbrad, the Forsaken turn their campaign on Dun Garok. High Executor Darthalia sends Horde champions to break the dwarven garrison aiding local humans and kill its commander, Captain Ironhill.",
  "sections": [
   {
    "title": "Testing the Alliance",
-   "body": "Having pressured the human farmers and town militia across the foothills, High Executor Darthalia turns Tarren Mill's fury against Ironforge's military contingent. Dwarven troops have taken up arms in support of Southshore, reinforcing the human presence in Lordaeron. To Darthalia, this solidarity is an obstacle that must be shattered, proving to the Alliance that aiding the human remnants will bring only devastation.",
+   "body": "High Executor Darthalia has already pressed the human farmers and town militia across the foothills. Now she turns Tarren Mill's fury on Ironforge's troops. Dwarven soldiers have taken up arms for Southshore, strengthening the human presence in Lordaeron. Darthalia sees that alliance as an obstacle to be broken. She means to show the Alliance that helping the human survivors will bring devastation.",
    "spoiler": 0
   },
   {
    "title": "The Fall of Dun Garok",
-   "body": "Tucked against the ancient ramparts of Thoradin's Wall in southeastern Hillsbrad, Dun Garok serves as a heavily fortified dwarven bastion. Storming the outpost requires breaking through ranks of disciplined mountaineers, crack riflemen, and battle-hardened priests. The assault culminates in the death of Captain Ironhill, breaking Ironforge's forward tactical command in the region and leaving the remaining human enclaves isolated.",
+   "body": "Dun Garok is built against Thoradin's Wall in southeastern Hillsbrad. The fortified stronghold is held by disciplined mountaineers, skilled riflemen, and battle-hardened priests. To take it, Horde forces must break through those defenders and kill Captain Ironhill. His death breaks Ironforge's forward command in the region and leaves the remaining human enclaves isolated.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "dwarves dun garok",
     "why dwarves helping humans"
    ],
-   "answer": "The dwarves of Ironforge maintain strong ties to the Alliance and have sent armed forces north to Dun Garok to aid the surviving human populations of Southshore and Hillsbrad against Forsaken expansion."
+   "answer": "Ironforge sent its soldiers north to Dun Garok because the dwarves support the Alliance and want to aid the human survivors in Southshore and Hillsbrad against Forsaken expansion."
   },
   {
    "q": "Where is Dun Garok located?",
@@ -47,7 +47,7 @@
     "where is dun garok",
     "find dun garok"
    ],
-   "answer": "Dun Garok is situated in the southeastern corner of Hillsbrad Foothills, built directly into the foundations of Thoradin's Wall."
+   "answer": "Dun Garok lies in southeastern Hillsbrad Foothills, built into the foundations of Thoradin's Wall."
   },
   {
    "q": "Who is Captain Ironhill?",
@@ -56,7 +56,7 @@
     "who is ironhill",
     "dun garok leader"
    ],
-   "answer": "Captain Ironhill is the dwarven commander in charge of the garrison at Dun Garok. His presence keeps the mountaineers organized and operational in the region."
+   "answer": "Captain Ironhill commands Dun Garok's dwarven garrison and keeps its mountaineers organized and ready to fight in the region."
   },
   {
    "q": "Who gives this order?",
@@ -65,7 +65,7 @@
     "questgiver darthalia",
     "darthalia hillsbrad"
    ],
-   "answer": "High Executor Darthalia, the Forsaken military commander stationed at Tarren Mill, issues the mission to crush the dwarven garrison."
+   "answer": "High Executor Darthalia, the Forsaken commander stationed at Tarren Mill, orders the attack on the dwarven garrison."
   },
   {
    "q": "What happens if Horde forces fail here?",
@@ -74,7 +74,7 @@
     "darthalia threat",
     "consequences"
    ],
-   "answer": "High Executor Darthalia makes it clear that failure is intolerable, warning that anyone unable to break Dun Garok will be demoted to digging graves back in Tirisfal Glades."
+   "answer": "Darthalia warns that failure will not be tolerated. Those who cannot break Dun Garok will be sent back to Tirisfal Glades to dig graves."
   },
   {
    "q": "Why is Dun Garok so difficult to assault?",
@@ -83,21 +83,21 @@
     "why is dun garok hard",
     "dun garok defense"
    ],
-   "answer": "Unlike the rural militia of Hillsbrad, Dun Garok is manned by trained dwarven soldiers, rifle squads, and holy priests who fight in tight, fortified formations within their underground and elevated bunker."
+   "answer": "Dun Garok is held by trained dwarven soldiers, rifle squads, and holy priests. They fight in tight formations inside the fortified underground and elevated bunker."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "Striking Dun Garok cuts off vital military reinforcements sent by Ironforge to assist the beleaguered humans of Southshore."
+   "text": "Striking Dun Garok cuts off Ironforge's military reinforcements sent to aid the beleaguered humans of Southshore."
   },
   {
    "target": "race:Undead",
-   "text": "For the Forsaken, eliminating the dwarven garrison secures southeastern Lordaeron and ensures no southern Alliance vanguard can easily march through Thoradin's Wall."
+   "text": "For the Forsaken, destroying the dwarven garrison secures southeastern Lordaeron and makes it harder for an Alliance vanguard to march south through Thoradin's Wall."
   },
   {
    "target": "race:Dwarf",
-   "text": "Dun Garok represents Ironforge's steadfast loyalty to their human allies, enduring Forsaken siege to hold the northern frontier."
+   "text": "Dun Garok shows Ironforge's loyalty to its human allies. The dwarves endure the Forsaken siege to hold the northern frontier."
   }
  ],
  "keywords": [
@@ -121,5 +121,6 @@
  ],
  "attribution": [
   "Battle of Hillsbrad (6)"
- ]
+ ],
+ "style": 1
 }

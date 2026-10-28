@@ -17,16 +17,16 @@
   "wiki": "Raene's Cleansing (9)",
   "chain": []
  },
- "summary": "This critical stage of Raene Wolfrunner's mission requires the use of Dartol's newly restored rod to disguise an outsider and initiate contact with an uncorrupted furbolg. Southeast of Mystral Lake, an outcast named Krolg offers a rare glimpse into the surviving furbolgs' deep resentment toward the night elves.",
+ "summary": "In Ashenvale, Raene Wolfrunner seeks a way to speak with an uncorrupted furbolg. Southeast of Mystral Lake, Krolg offers a rare glimpse of the surviving furbolgs’ resentment toward the night elves.",
  "sections": [
   {
    "title": "A Guise of Fur and Claw",
-   "body": "With Dartol's Rod of Transformation restored, Raene Wolfrunner suspects the late night elf intended to disguise himself in order to safely approach the furbolgs. The woods of Ashenvale have grown perilous, and the madness spreading through the tribes makes direct diplomacy impossible. By harnessing the arcane relic, an adventurer takes on the appearance of a furbolg, hoping to slip past instinctive territorial rage and find someone willing to speak.",
+   "body": "Raene Wolfrunner believes the late night elf meant to use Dartol’s restored Rod of Transformation to approach the furbolgs in disguise. Ashenvale’s woods have grown perilous, and madness spreads through the tribes, leaving no path to direct diplomacy. The rod gives you the shape of a furbolg, so you can try to pass their territorial rage and find someone willing to speak.",
    "spoiler": 0
   },
   {
    "title": "The Exile's Bitterness",
-   "body": "Southeast of Mystral Lake lies Krolg, an isolated furbolg who has managed to escape the corrupting touch of Fel Moss. Believing he is speaking to a clean member of his own kin, Krolg speaks freely of his exile and profound sorrow. Yet rather than seeing the night elves as allies or protectors, he harbors deep bitterness toward them, openly blaming night elven hubris and ancient failures for the demonic taint ravaging his people.",
+   "body": "Southeast of Mystral Lake, Krolg lives apart from his kin, untouched by Fel Moss. Believing you are one of his own, he speaks freely of his exile and sorrow. He does not see the night elves as allies or protectors. Instead, he blames their pride and old failures for the demonic taint ravaging his people.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "dartol rod transformation",
     "furbolg disguise rod"
    ],
-   "answer": "Dartol's Rod of Transformation temporarily changes the bearer's appearance into that of a furbolg. This disguise allows an adventurer to walk among uncorrupted furbolgs without inciting an immediate violent attack."
+   "answer": "Dartol’s Rod of Transformation briefly changes its bearer into a furbolg. The disguise lets you approach uncorrupted furbolgs without provoking an immediate attack."
   },
   {
    "q": "Who is Krolg?",
@@ -47,7 +47,7 @@
     "uncorrupted furbolg mystral lake",
     "furbolg southeast of mystral lake"
    ],
-   "answer": "Krolg is an uncorrupted furbolg living in exile southeast of Mystral Lake. Having avoided the Fel Moss that infected his kin, he lives alone across a torch-lined stream, mourning the loss of his tribe while holding a deep grudge against night elf kind."
+   "answer": "Krolg is an uncorrupted furbolg living in exile southeast of Mystral Lake. He escaped the Fel Moss that infected his kin and lives alone across a torch-lined stream, mourning his lost tribe and resenting the night elves."
   },
   {
    "q": "Why will Krolg attack if you don't use the rod?",
@@ -56,7 +56,7 @@
     "krolg aggressive",
     "why use the rod on krolg"
    ],
-   "answer": "Krolg is terrified and deeply distrustful of outsiders, particularly the night elves whom he blames for his people's downfall. Without the illusion making you look like an uncorrupted furbolg, he will treat you as an intruder and defend his camp violently."
+   "answer": "Krolg fears and distrusts outsiders, especially night elves, whom he blames for his people’s downfall. Without the rod’s disguise, he sees you as an intruder and attacks to defend his camp."
   },
   {
    "q": "Why does Krolg blame the night elves for the corruption?",
@@ -65,7 +65,7 @@
     "furbolg blame night elves",
     "krolg night elf hatred"
    ],
-   "answer": "Krolg views the demonic corruption of the forest\u2014brought on by the Legion's invasions and historical arcane meddling\u2014as the direct fault of night elven pride. In his eyes, the ancient Kaldorei brought ruin upon Kalimdor and left the indigenous tribes to suffer the consequences."
+   "answer": "Krolg blames night elven pride for the demonic corruption ravaging the forest. He sees the ancient Kaldorei’s arcane meddling as bringing ruin to Kalimdor and leaving its indigenous tribes to suffer."
   },
   {
    "q": "Where can Krolg be found?",
@@ -74,7 +74,7 @@
     "krolg location",
     "find uncorrupted furbolg"
    ],
-   "answer": "He can be found southeast of Mystral Lake in Ashenvale. Follow a winding dirt path marked by burning torches that leads down across a small stream to his solitary camp."
+   "answer": "Krolg lives southeast of Mystral Lake in Ashenvale. A winding dirt path marked by burning torches crosses a small stream and leads to his solitary camp."
   },
   {
    "q": "What is Fel Moss and how did it affect the furbolgs?",
@@ -83,21 +83,21 @@
     "fel moss furbolgs",
     "why did furbolgs go mad"
    ],
-   "answer": "Fel Moss is a demonic growth spreading through Ashenvale that seeps demonic taint into the soil and flora. The local furbolg tribes fell victim to its influence, driving them into a state of rabid, violent insanity that fractured their society."
+   "answer": "Fel Moss is a demonic growth spreading through Ashenvale, tainting the soil and plants. Its influence drove local furbolg tribes into violent madness and fractured their society."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "Hearing Krolg's words is a sobering reminder that many indigenous denizens of Ashenvale do not view the Kaldorei as benevolent guardians, but as the reckless architects of the land's recurring doom."
+   "text": "For a night elf, Krolg’s words show that many of Ashenvale’s native inhabitants see the Kaldorei as reckless bringers of the land’s recurring ruin, not its guardians."
   },
   {
    "target": "class:Druid",
-   "text": "Druids seeking to restore balance to the forest are confronted with the raw tragedy of the furbolgs, who were once close nature allies but now suffer horrific madness from lingering demonic filth."
+   "text": "For a druid, the furbolgs’ plight is a stark sorrow: once close allies of nature, they now suffer terrible madness from lingering demonic taint."
   },
   {
    "target": "faction:Alliance",
-   "text": "Astranaar's survival depends on unraveling the threats lurking along the border roads, making this covert parley essential for securing eastern Ashenvale."
+   "text": "For the Alliance, Astranaar’s survival depends on uncovering the dangers along the border roads. This secret meeting can help secure eastern Ashenvale."
   }
  ],
  "keywords": [
@@ -119,5 +119,6 @@
  ],
  "attribution": [
   "Raene's Cleansing (9)"
- ]
+ ],
+ "style": 1
 }

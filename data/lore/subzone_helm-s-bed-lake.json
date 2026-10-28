@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Helm's Bed Lake"
  },
- "summary": "Helm's Bed Lake is a frozen body of water nestled in the southeastern hills of Dun Morogh. A maintained hole in the thick ice provides crucial fresh water to local mountaineers and travelers. However, the surrounding shoreline has become perilous due to prowling wildlife, encroaching troggs, and hostile Dark Iron infiltrators.",
+ "summary": "In southeastern Dun Morogh, Helm's Bed Lake lies frozen beneath the hills. Dwarves keep a hole open in its ice for fresh water, while beasts, troggs, and hostile Dark Iron dwarves threaten the shore.",
  "sections": [
   {
    "title": "A Treacherous Shoreline",
-   "body": "Helm's Bed Lake sits quietly beneath a thick sheet of winter ice in southeastern Dun Morogh. Local dwarves keep an opening chopped through the frost to draw clean, fresh water. While crossing the frozen expanse is stable enough, lingering near the banks has become increasingly risky. Wild beasts wander the edges, displaced troggs scavenge along the ridges, and a cell of hostile Dark Iron dwarves has commandeered an abandoned lodge just south of the water, aggressively ambushing any travelers who pass through.",
+   "body": "Helm's Bed Lake lies beneath winter ice in southeastern Dun Morogh. Local dwarves keep an opening chopped through the frost so they can draw clean, fresh water. The frozen surface is stable enough to cross, but the banks are dangerous. Wild beasts roam the edges, displaced troggs scavenge along the ridges, and hostile Dark Iron dwarves have taken an abandoned lodge just south of the water. They ambush travelers who pass through.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "water access",
     "why is the ice broken"
    ],
-   "answer": "The hole in the thick ice is deliberately maintained by local dwarves to allow consistent access to fresh, unfrozen water amid Dun Morogh's sub-zero climate."
+   "answer": "Local dwarves keep a hole open in the thick ice so they can reach fresh, unfrozen water throughout Dun Morogh's sub-zero climate."
   },
   {
    "q": "What dangers lurk around Helm's Bed Lake?",
@@ -32,7 +32,7 @@
     "who is attacking here",
     "enemies nearby"
    ],
-   "answer": "While the lake surface itself is solid, the perimeter is hunted by predatory beasts and stray troggs. To the south, an encampment of hostile Dark Iron dwarves occupies an old building and violently repels anyone who draws near."
+   "answer": "The solid lake surface is safe to cross, but predatory beasts and stray troggs prowl its perimeter. South of the water, hostile Dark Iron dwarves occupy an old building and violently repel anyone who draws near."
   },
   {
    "q": "Who is Narm Faulk?",
@@ -41,7 +41,7 @@
     "dead dwarf near lake",
     "dead body at helms bed lake"
    ],
-   "answer": "Narm Faulk is an unfortunate dwarf whose body can be found along the shoreline of Helm's Bed Lake, a grim casualty of the sudden surge of hostile threats and Dark Iron infiltrators in the area."
+   "answer": "Narm Faulk is an unfortunate dwarf whose body lies along Helm's Bed Lake's shoreline. He is a grim casualty of the sudden surge of hostile threats and Dark Iron infiltrators in the area."
   },
   {
    "q": "Are the Dark Iron dwarves officially occupying the lake?",
@@ -49,17 +49,17 @@
     "dark irons at the lake",
     "dark iron dwarf lodge"
    ],
-   "answer": "They have not seized the lake outright, but an armed squad has claimed an abandoned structure just to the south, using it as a forward position to stage skirmishes into central Dun Morogh."
+   "answer": "The Dark Iron dwarves have not seized the lake, but an armed squad has claimed an abandoned structure just south of it. They use the building as a forward position to stage skirmishes into central Dun Morogh."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "For the Ironforge dwarves, Helm's Bed Lake represents both a vital freshwater spot and an irritating security failure, as Dark Iron saboteurs and troggs push deeper into Dun Morogh's heartland."
+   "text": "As a dwarf of Ironforge, you know Helm's Bed Lake as a vital source of fresh water and a security failure. Dark Iron saboteurs and troggs are pushing deeper into Dun Morogh's heartland."
   },
   {
    "target": "faction:Alliance",
-   "text": "Alliance scouts traveling east toward Loch Modan must stay alert here, as the southward trail skirts uncomfortably close to aggressive Dark Iron ambushes."
+   "text": "As an Alliance traveler heading east toward Loch Modan, stay alert. The southward trail skirts close to aggressive Dark Iron ambushes."
   }
  ],
  "keywords": [
@@ -76,5 +76,6 @@
  ],
  "attribution": [
   "Helm's Bed Lake"
- ]
+ ],
+ "style": 1
 }

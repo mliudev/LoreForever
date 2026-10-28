@@ -24,16 +24,16 @@
    "Hints of a New Plague?"
   ]
  },
- "summary": "Kinelory is back from the farm, none the worse for wear, and Quae has the items she brought. Quae and Kinelory mean to stay in Arathi a while longer, so it falls to you to carry word to Phin Odelic in Southshore.",
+ "summary": "In Arathi, Quae and Kinelory stay while you carry news to Southshore. Quae has the items from the farm, and Kinelory has returned safely.",
  "sections": [
   {
    "title": "Word for Southshore",
-   "body": "Quae is pleased with how well you looked after Kinelory, who has come back in better shape than after a night at the tavern. The items from the farm should give Phin Odelic some idea of what is happening out in Arathi. Since the farm was attacked, Quae and Kinelory plan to stay put a little longer in case of retaliation, and ask you to go back to Southshore and speak to Phin.",
+   "body": "Quae is pleased with how you cared for Kinelory. She says Kinelory is in better shape than after a night at the tavern. The items from the farm should help Phin Odelic understand what is happening in Arathi. Since the farm was attacked, Quae and Kinelory plan to stay there a little longer in case anyone retaliates. They ask you to return to Southshore and speak with Phin.",
    "spoiler": 0
   },
   {
    "title": "Phin's Answer",
-   "body": "Phin is glad to hear that Kinelory and Quae are alive and well, calling the two of them irreplaceable friends and travelling companions. Phin thanks you with a gift on behalf of the whole group, and hopes that with luck they will learn what the Forsaken are planning and bring it to an end.",
+   "body": "Phin is glad to hear that Quae and Kinelory are alive and well. He calls them irreplaceable friends and travelling companions. On behalf of the whole group, Phin thanks you with a gift. He hopes that, with luck, they will learn what the Forsaken are planning and bring it to an end.",
    "spoiler": 1
   }
  ],
@@ -54,7 +54,7 @@
     "why stay behind",
     "quae staying"
    ],
-   "answer": "Quae wants them to stay in Arathi a little longer, to be safe in case anyone retaliates for the attack on the farm."
+   "answer": "Quae and Kinelory plan to stay in Arathi a little longer in case anyone retaliates for the attack on the farm."
   },
   {
    "q": "Where can Phin Odelic be found?",
@@ -63,7 +63,7 @@
     "where is phin",
     "phin odelic southshore"
    ],
-   "answer": "In Southshore."
+   "answer": "Phin Odelic is in Southshore."
   },
   {
    "q": "What is the purpose of bringing news to Phin Odelic?",
@@ -72,7 +72,7 @@
     "phin odelic purpose",
     "what does phin want"
    ],
-   "answer": "The items Kinelory brought back from the farm should help Phin Odelic understand what is going on out in Arathi."
+   "answer": "The items Kinelory brought from the farm should help Phin Odelic understand what is happening in Arathi."
   }
  ],
  "angles": [],
@@ -93,5 +93,6 @@
  ],
  "attribution": [
   "Hints of a New Plague? (5)"
- ]
+ ],
+ "style": 1
 }

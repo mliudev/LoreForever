@@ -10,11 +10,11 @@
    "quest:1066"
   ]
  },
- "summary": "A Vial of Innocent Blood is a grim alchemical reagent gathered by Syndicate shadow mages lurking in the ruins of Durnholde Keep. Sought after by the Royal Apothecary Society in Tarren Mill, it serves as a key catalyst in brewing experimental toxins.",
+ "summary": "Syndicate shadow mages gather Vial of Innocent Blood in the ruins of Durnholde Keep. The Royal Apothecary Society in Tarren Mill seeks it as a catalyst for experimental toxins.",
  "sections": [
   {
    "title": "A Gruesome Reagent",
-   "body": "Within the crumbled walls of Durnholde Keep, the fallen human nobles of the Syndicate practice dark and unsavory arts. Among them are shadow mages who systematically harvest the blood of innocents for their own occult rituals. This macabre practice has drawn the keen attention of Apothecary Lydon in Tarren Mill. Needing untainted blood to brew an experimental pacifying agent meant to neutralize the Venture Company in Stonetalon Mountains, the Forsaken apothecary sees the Syndicate's grim stores as a convenient shortcut for his work.",
+   "body": "Syndicate shadow mages gather innocent blood in the ruins of Durnholde Keep. The Syndicate's fallen human nobles practice dark arts within the crumbled walls. Apothecary Lydon in Tarren Mill wants untainted blood for an experimental pacifying agent. He means to use it against the Venture Company in Stonetalon Mountains, and sees the Syndicate's stores as a convenient source.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "what is vial of innocent blood for",
     "blood of innocents use"
    ],
-   "answer": "Apothecary Lydon in Tarren Mill uses the blood to brew a specialized toxin intended to suppress aggression in the Venture Company operators causing trouble for the Horde in the Stonetalon Mountains."
+   "answer": "Apothecary Lydon in Tarren Mill uses the blood to brew a toxin meant to suppress aggression among Venture Company operators troubling the Horde in Stonetalon Mountains."
   },
   {
    "q": "Who carries these vials?",
@@ -35,7 +35,7 @@
     "where to get innocent blood",
     "syndicate shadow mages"
    ],
-   "answer": "They are carried by Syndicate shadow mages stationed around the ruined fortress of Durnholde Keep in the southeastern Hillsbrad Foothills."
+   "answer": "Syndicate shadow mages carry the vials around the ruined fortress of Durnholde Keep in the southeastern Hillsbrad Foothills."
   },
   {
    "q": "Why do Syndicate shadow mages have innocent blood?",
@@ -43,7 +43,7 @@
     "why do syndicate have blood",
     "syndicate blood rituals"
    ],
-   "answer": "The human brigands and fallen nobles of the Syndicate employ shadow casters who harvest and preserve the blood of innocents for their own dark, unsavory magical experiments."
+   "answer": "The Syndicate's human brigands and fallen nobles employ shadow casters to harvest and preserve innocent blood for dark magical experiments."
   },
   {
    "q": "Why does Apothecary Lydon need blood from innocents?",
@@ -51,17 +51,17 @@
     "why innocent blood",
     "apothecary lydon blood"
    ],
-   "answer": "Lydon notes that blood from the innocent possesses specific, rare properties required to formulate a concoction capable of bleeding violence from its victims and rendering them docile."
+   "answer": "Lydon says innocent blood has rare properties needed to make a concoction that bleeds violence from its victims and renders them docile."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "The Royal Apothecary Society rarely shrinks from morally questionable ingredients, happily scavenging from human outlaws to further their alchemical advances."
+   "text": "As an undead, you know the Royal Apothecary Society will use morally questionable ingredients, gathering from human outlaws to advance its alchemy."
   },
   {
    "target": "faction:Horde",
-   "text": "Securing this reagent aids the Horde's wider territorial efforts against Venture Company deforestation in Stonetalon."
+   "text": "As a member of the Horde, securing this reagent helps its efforts against Venture Company deforestation in Stonetalon."
   }
  ],
  "keywords": [
@@ -86,5 +86,6 @@
  "attribution": [
   "Vial of Innocent Blood",
   "Blood of Innocents (quest)"
- ]
+ ],
+ "style": 1
 }

@@ -17,16 +17,16 @@
   "wiki": "Devouring Plague (Thunder Bluff)",
   "chain": []
  },
- "summary": "Devouring Plague is a rite of passage quest for Forsaken priests journeying far from Lordaeron. Guided by the Forsaken priest trainer Miles Welsh in Thunder Bluff, the adept is directed back across the seas to Aelthalyste in the Undercity to unlock a signature manifestation of Shadow magic.",
+ "summary": "Across the sea, Devouring Plague awaits Forsaken priests who travel far from Lordaeron. Miles Welsh in Thunder Bluff sends the adept to Aelthalyste in the Ruins of Lordaeron, where a signature form of Shadow magic awaits.",
  "sections": [
   {
    "title": "A Summons Home",
-   "body": "While visiting Thunder Bluff, Forsaken priests who have honed their mastery over divine and shadowy disciplines are evaluated by Miles Welsh, a Forsaken priest posted among the tauren. Recognizing that an acolyte has grown sufficiently in power, Miles bids them return to the Ruins of Lordaeron rather than attempt to impart these higher mysteries himself in Kalimdor.",
+   "body": "In Thunder Bluff, Miles Welsh judges Forsaken priests who have honed their divine and shadowy disciplines. Posted among the tauren, he recognizes when an acolyte has grown strong enough for higher mysteries. Miles directs them back to the Ruins of Lordaeron rather than attempt to impart those teachings himself in Kalimdor.",
    "spoiler": 0
   },
   {
    "title": "The Secrets of Aelthalyste",
-   "body": "Awaiting beneath the city ruins within the Undercity's War Quarter is Aelthalyste, one of the foremost mentors of Forsaken priesthood. She watches over the development of shadow-weaving acolytes, ensuring that the potent, draining blight known as the Devouring Plague is entrusted only to those capable of wielding its corruptive force without succumbing to it.",
+   "body": "Beneath the city ruins, Aelthalyste waits in the Undercity's War Quarter. One of the foremost mentors of the Forsaken priesthood, she watches over acolytes who weave shadow. The Devouring Plague drains its victim and carries a corruptive force. Aelthalyste entrusts it only to those able to wield that force without succumbing to it.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "quest giver devouring plague",
     "miles welsh role"
    ],
-   "answer": "Miles Welsh, a Forsaken priest trainer stationed in the Pools of Vision beneath Spirit Rise in Thunder Bluff, sends you on this journey once your abilities have developed sufficiently."
+   "answer": "Miles Welsh sends you from the Pools of Vision beneath Spirit Rise in Thunder Bluff once your abilities have developed enough. He is a Forsaken priest trainer stationed among the tauren."
   },
   {
    "q": "Where is Aelthalyste located?",
@@ -47,7 +47,7 @@
     "where is aelthalyste",
     "devouring plague turn in"
    ],
-   "answer": "Aelthalyste resides in the War Quarter of the Undercity, standing among the training rings and dark conduits where Forsaken priests gather."
+   "answer": "Aelthalyste is in the Undercity's War Quarter, among the training rings and dark conduits where Forsaken priests gather."
   },
   {
    "q": "Why can't Miles Welsh teach the spell himself?",
@@ -56,7 +56,7 @@
     "why see aelthalyste",
     "undercity priest trainer"
    ],
-   "answer": "The spell itself is no secret: every priest learns Devouring Plague from a priest trainer at level 20. But Welsh honors the Forsaken priesthood's hierarchy by sending worthy adepts home, so master mentors like Aelthalyste can test them in the heart of the Undercity."
+   "answer": "Every priest learns Devouring Plague from a priest trainer at level twenty. Miles honors the Forsaken priesthood's hierarchy by sending worthy adepts home to the Undercity, where Aelthalyste can test them."
   },
   {
    "q": "What is Devouring Plague from a lore perspective?",
@@ -65,7 +65,7 @@
     "lore of devouring plague",
     "forsaken disease spell"
    ],
-   "answer": "It is a devastating curse practiced by Forsaken priests, afflicting the victim with a virulent magical affliction that consumes their vitality to restore the caster."
+   "answer": "Devouring Plague is a devastating curse practiced by Forsaken priests. Its virulent magical affliction consumes a victim's vitality to restore the caster."
   },
   {
    "q": "Is this quest available to other races?",
@@ -74,7 +74,7 @@
     "can orcs do devouring plague",
     "is this quest undead only"
    ],
-   "answer": "No. This summons is for Forsaken priests, though every priest, whatever their race, learns Devouring Plague itself from a priest trainer at level 20."
+   "answer": "No. This summons is for Forsaken priests, though priests of every race learn Devouring Plague from a priest trainer at level twenty."
   },
   {
    "q": "Why is a Forsaken trainer in Thunder Bluff in the first place?",
@@ -83,21 +83,21 @@
     "forsaken in thunder bluff lore",
     "miles welsh thunder bluff"
    ],
-   "answer": "Following the Forsaken's admission into the Horde, diplomats and mentors were exchanged across capitals. Priests like Miles Welsh represent the Undercity's spiritual traditions and offer guidance to Forsaken traveling through Kalimdor."
+   "answer": "After the Forsaken joined the Horde, diplomats and mentors were exchanged across its capitals. Miles Welsh represents the Undercity's spiritual traditions and guides Forsaken traveling through Kalimdor."
   }
  ],
  "angles": [
   {
    "target": "class:Priest",
-   "text": "This quest marks an important milestone in a Forsaken priest's education, transitioning them from basic tenets into the dread Shadow traditions unique to the undead."
+   "text": "As a Forsaken priest, you pass an important milestone in your education, moving from basic tenets into the dread Shadow traditions unique to the undead."
   },
   {
    "target": "race:Undead",
-   "text": "Unlike the Light practiced in life, Forsaken priests embrace harsh afflictions and Shadow magic such as Devouring Plague."
+   "text": "As a Forsaken, you embrace harsh afflictions and Shadow magic such as Devouring Plague, unlike the Light practiced in life."
   },
   {
    "target": "faction:Horde",
-   "text": "The quest illustrates the logistical and spiritual bonds linking the distant Horde outposts in Mulgore directly back to the dark heart of the Undercity."
+   "text": "As a member of the Horde, you are linked to distant outposts in Mulgore by spiritual and practical bonds that reach back to the Undercity."
   }
  ],
  "keywords": [
@@ -118,5 +118,6 @@
  ],
  "attribution": [
   "Devouring Plague (Thunder Bluff)"
- ]
+ ],
+ "style": 1
 }

@@ -17,16 +17,16 @@
   "wiki": "Rot Hide Ichor (quest)",
   "chain": []
  },
- "summary": "Rot Hide Ichor is a Horde quest in Silverpine Forest assigned by High Executor Hadrec at the Sepulcher. Seeking to understand the unnatural Rot Hide gnolls infesting Fenris Isle before launching an assault, Forsaken leadership tasks adventurers with extracting the foul, mysterious fluid circulating through the creatures' veins for study.",
+ "summary": "High Executor Hadrec seeks Rot Hide Ichor in Silverpine Forest before the Forsaken attack Fenris Isle. He wants the fluid studied to understand the gnolls that infest the island.",
  "sections": [
   {
    "title": "Unnatural Biology",
-   "body": "The Rot Hide gnolls of Silverpine Forest are far from typical wild humanoids. Decaying, aggressive, and reeking of blight, they occupy strategic positions like Fenris Isle across Lordamere Lake. High Executor Hadrec recognizes that their unnatural resilience stems from whatever strange fluid flows within them, requiring hard specimens before committing soldiers to a costly assault.",
+   "body": "Rot Hide gnolls on Fenris Isle are decaying, aggressive, and unlike ordinary wild humanoids. They hold strategic ground across Lordamere Lake. High Executor Hadrec believes the strange fluid in their veins may explain their unnatural resilience. He needs samples before committing Forsaken soldiers to a costly assault.",
    "spoiler": 0
   },
   {
    "title": "Apothecary Analysis",
-   "body": "The Royal Apothecary Society maintains an active presence in the Sepulcher, and Apothecary Renferrel specializes in biological and chemical anomalies. By bringing samples of this putrid rot hide ichor to Renferrel, the Forsaken hope to uncover the gnolls' origins, identify who is engineering them, and pinpoint vulnerabilities to exploit in battle.",
+   "body": "The Royal Apothecary Society works from the Sepulcher, where Apothecary Renferrel studies biological and chemical anomalies. Bring him samples of the putrid fluid, and the Forsaken hope to learn where the gnolls came from, who is engineering them, and what weaknesses they have in battle.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "rot hide fluid",
     "gnoll ichor"
    ],
-   "answer": "It is an unnatural, putrid fluid that courses through the bodies of the Rot Hide gnolls on Fenris Isle. Rather than normal blood, this foul concoction sustains their undead-like, rotting state and gives them abnormal resilience."
+   "answer": "Rot Hide Ichor is a putrid fluid that flows through the bodies of the Rot Hide gnolls on Fenris Isle. It sustains their undead-like, rotting state and gives them unusual resilience."
   },
   {
    "q": "Why does High Executor Hadrec want samples of the ichor?",
@@ -47,7 +47,7 @@
     "hadrec's goal",
     "why hadrec wants ichor"
    ],
-   "answer": "Hadrec plans an assault on Fenris Isle, but military wisdom dictates understanding the enemy first. By obtaining fluid samples for Apothecary Renferrel to examine, the Forsaken hope to deduce who created the Rot Hides and find a biological weakness to exploit."
+   "answer": "High Executor Hadrec wants samples studied before the Forsaken assault Fenris Isle. Apothecary Renferrel may be able to trace who created the Rot Hides and find a weakness to exploit."
   },
   {
    "q": "Where are the Rot Hide gnolls located?",
@@ -56,7 +56,7 @@
     "rot hide gnoll location",
     "fenris gnolls"
    ],
-   "answer": "They inhabit Fenris Isle, located east across Lordamere Lake from the Decrepit Ferry in Silverpine Forest. The island's shoreline, camps, and surrounding ruined grounds are overrun by various Rot Hide breeds, including brutes and plague weavers."
+   "answer": "The Rot Hide gnolls live on Fenris Isle, east across Lordamere Lake from the Decrepit Ferry in Silverpine Forest. Rot Hide brutes, plague weavers, and other breeds overrun its shore, camps, and ruined grounds."
   },
   {
    "q": "Who is Apothecary Renferrel?",
@@ -64,7 +64,7 @@
     "who is renferrel",
     "apothecary renferrel role"
    ],
-   "answer": "Renferrel is a researcher for the Royal Apothecary Society stationed outside the crypt at the Sepulcher. He studies local blights, plagues, and strange biological hazards throughout Silverpine Forest on behalf of the Forsaken."
+   "answer": "Apothecary Renferrel is a Royal Apothecary Society researcher stationed outside the crypt at the Sepulcher. He studies local blights, plagues, and strange biological hazards throughout Silverpine Forest for the Forsaken."
   },
   {
    "q": "What happens after Renferrel receives the ichor?",
@@ -72,7 +72,7 @@
     "next quest after rot hide ichor",
     "rot hide ichor follow up"
    ],
-   "answer": "Once Renferrel receives the samples, he sets about analyzing the fluid's chemical makeup to trace the origin of the Rot Hides, leading into the quest Rot Hide Origins."
+   "answer": "After receiving the samples, Renferrel analyzes the fluid's chemical makeup to trace the Rot Hides' origin. His work leads into Rot Hide Origins."
   },
   {
    "q": "Why do the Forsaken care about gnolls?",
@@ -80,17 +80,17 @@
     "why forsaken fight gnolls",
     "gnoll threat silverpine"
    ],
-   "answer": "The Rot Hide gnolls hold Fenris Isle, a vital stronghold in Lordamere Lake bordering Forsaken territory. Furthermore, their rotting condition and use of plague-like abilities suggest outside tampering, posing a potential direct threat to Undercity's security."
+   "answer": "The Rot Hide gnolls hold Fenris Isle, a vital stronghold in Lordamere Lake on the border of Forsaken territory. Their rotting condition and plague-like abilities suggest outside tampering and could threaten Undercity's security."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "For the Forsaken, understanding biological horrors and engineered diseases is both a science and a survival instinct. Dissecting the Rot Hides' fluid allows the Royal Apothecary Society to determine whether this infection threatens their own claims in Lordaeron."
+   "text": "As Forsaken, you know that studying biological horrors and engineered diseases is part of survival. The Royal Apothecary Society examines the Rot Hides' fluid to learn whether the infection threatens Forsaken claims in Lordaeron."
   },
   {
    "target": "faction:Horde",
-   "text": "Fenris Isle sits on the eastern edge of Silverpine Forest, serving as a tactical danger zone if left unmonitored by the Horde forces securing the surrounding lands."
+   "text": "As a member of the Horde, you know Fenris Isle lies on Silverpine Forest's eastern edge. Left unmonitored, it poses a tactical danger to the forces securing the surrounding lands."
   }
  ],
  "keywords": [
@@ -115,5 +115,6 @@
  ],
  "attribution": [
   "Rot Hide Ichor (quest)"
- ]
+ ],
+ "style": 1
 }

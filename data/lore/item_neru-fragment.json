@@ -10,16 +10,16 @@
    "quest:299"
   ]
  },
- "summary": "The Neru Fragment is one of four ancient carved stone pieces belonging to the Goaz Stone, a relic discovered in the Whelgar's Excavation site within the Wetlands. Unearthed from the disturbed earth, it holds a segment of ancient Titan script detailing the primeval history of Azeroth.",
+ "summary": "Unearthed from disturbed earth, the Neru Fragment carries part of the Goaz Stone's ancient Titan script. The relic was discovered at Whelgar's Excavation in the Wetlands, and its words tell of Azeroth's primeval history.",
  "sections": [
   {
    "title": "Piece of the Goaz Stone",
-   "body": "Discovered by the dwarven archaeological expedition led by Prospector Whelgar, the Goaz Stone broke apart into four distinct remnants: the Ados, Modr, Golm, and Neru fragments. When raptors overrun the dig site, work ground to a halt, leaving the Neru Fragment buried beneath loose soil amid the aggressive beasts. Recovering this fragment is crucial for reassembling the tablet, allowing dwarven scholars to decipher a forgotten record whose surviving words mention a divine plan and a doomed prophecy.",
+   "body": "Prospector Whelgar led the dwarven expedition that discovered the Goaz Stone. The relic broke into four pieces: Ados, Modr, Golm, and Neru. Raptors overran the dig, halting the work, and the Neru Fragment remained beneath loose soil among the aggressive beasts. Once recovered, it can join the other pieces and restore the tablet. Its surviving words speak of a divine plan and a doomed prophecy, giving dwarven scholars a record to decipher.",
    "spoiler": 0
   },
   {
    "title": "Reading the Restored Tablet",
-   "body": "Once the four fragments restore the Goaz Stone, Prospector Whelgar continues translating its Titan script. The newly legible words speak of Old Gods chained beneath the land.",
+   "body": "With all four fragments gathered, Prospector Whelgar restores the Goaz Stone and continues translating its Titan script. The newly legible words tell of Old Gods chained beneath the land.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "what is neru fragment",
     "neru tablet piece"
    ],
-   "answer": "It is an ancient stone piece broken off from a larger relic called the Goaz Stone. It was uncovered by the dwarven expedition in the Wetlands before raptors overran their dig."
+   "answer": "The Neru Fragment is an ancient stone piece broken from the Goaz Stone, a larger relic. The dwarven expedition uncovered it in the Wetlands before raptors overran the dig."
   },
   {
    "q": "Where is the fragment found?",
@@ -40,7 +40,7 @@
     "neru fragment location",
     "how to get neru fragment"
    ],
-   "answer": "It lies scattered in the raptor-infested Whelgar's Excavation east of Menethil Harbor in the Wetlands, typically buried under loose soil or hidden among abandoned artifacts."
+   "answer": "The Neru Fragment lies scattered in Whelgar's Excavation, east of Menethil Harbor in the Wetlands. It is typically buried under loose soil or hidden among abandoned artifacts."
   },
   {
    "q": "What happens when all four fragments are gathered?",
@@ -49,7 +49,7 @@
     "what does the goaz stone say",
     "uncovering the past ending"
    ],
-   "answer": "Prospector Whelgar pieces the Goaz Stone back together so he can continue translating its Titan script and investigate the mystery hinted at by its surviving text."
+   "answer": "After all four fragments are gathered, Prospector Whelgar pieces the Goaz Stone back together and continues translating its Titan script, pursuing the mystery hinted at by the surviving text."
   }
  ],
  "angles": [
@@ -80,5 +80,6 @@
  "attribution": [
   "Neru Fragment",
   "Uncovering the Past"
- ]
+ ],
+ "style": 1
 }

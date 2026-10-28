@@ -22,16 +22,16 @@
    "Plea To The Alliance"
   ]
  },
- "summary": "Plea to the Alliance carries a desperate request for reinforcements from the surviving dwarven defenders of Dun Modr across the Thandol Span into Arathi. Faced with the slaughter of their garrison by Dark Iron infiltrators, the dwarves seek aid from the human forces stationed at Refuge Pointe, only to find the Alliance stretched beyond its limits.",
+ "summary": "At the shattered Thandol Span, Plea To The Alliance carries a desperate call for aid from Dun Modr's dwarven survivors. Dark Iron infiltrators slaughtered the garrison, and the dwarves appeal to the human forces at Refuge Pointe, though the Alliance is stretched thin.",
  "sections": [
   {
    "title": "A Cry Across the Chasm",
-   "body": "Following the devastation of Dun Modr and the sabotage of the Thandol Span by Dark Iron dwarves, the dwarven survivors hold a precarious foothold at the northern rim of the Wetlands. With Ironforge's main reserves yet to arrive, Rhag Garmason and Longbraid the Grim look north toward the Arathi Highlands. Learning of an Alliance encampment established at Refuge Pointe, Garmason dispatches an emissary across the shattered bridge to appeal to Captain Nials for urgent military aid.",
+   "body": "Dun Modr lies devastated, and Dark Iron dwarves have sabotaged the Thandol Span. The survivors hold a precarious foothold at the Wetlands' northern rim. Ironforge's main reserves have yet to arrive, so Rhag Garmason and Longbraid the Grim look north to the Arathi Highlands. They learn that Alliance forces have made camp at Refuge Pointe. Garmason sends an emissary across the shattered bridge to ask Captain Nials for urgent military aid.",
    "spoiler": 0
   },
   {
    "title": "The Plight of Stromgarde",
-   "body": "Upon reaching Refuge Pointe, the grim reality of the northern Alliance becomes apparent. Captain Nials offers heartfelt sympathies to Longbraid's soldiers, but he cannot spare a single fighter. Stromgarde itself has fallen into ruin, overwhelmed by Syndicate rogues, Boulderfist ogres, and Witherbark trolls. The surviving Stromgarde defenders are entirely committed to reclaiming their ancestral capital. Bound by honor and desperate circumstances of their own, Nials is forced to send word back that the dwarves at the Span must stand alone.",
+   "body": "At Refuge Pointe, Captain Nials offers sympathy to Longbraid's soldiers, but cannot spare a single fighter. Stromgarde has fallen into ruin, overrun by Syndicate rogues, Boulderfist ogres, and Witherbark trolls. Its surviving defenders are committed to reclaiming their ancestral capital. Bound by honor and pressed by their own desperate struggle, Nials sends word that the dwarves at the Span must stand alone.",
    "spoiler": 0
   }
  ],
@@ -43,7 +43,7 @@
     "rhag garmason quest",
     "who asks for help"
    ],
-   "answer": "Rhag Garmason, stationed near the ruined bridgehead of the Thandol Span on the Wetlands border, sends the plea on behalf of Longbraid the Grim and the remnants of Dun Modr's defense."
+   "answer": "Rhag Garmason, near the ruined bridgehead of the Thandol Span on the Wetlands border, sends the plea for Longbraid the Grim and Dun Modr's remaining defenders."
   },
   {
    "q": "Why do the dwarves need help from Refuge Pointe?",
@@ -52,7 +52,7 @@
     "why ask refuge pointe",
     "dun modr reinforcements"
    ],
-   "answer": "Dun Modr fell to a sudden and brutal assault by Dark Iron clan infiltrators, who also sabotaged the Thandol Span. While the survivors await heavy reserves from Ironforge, their immediate numbers are too few to retake their settlement and secure the crossing alone."
+   "answer": "Dark Iron clan infiltrators attacked Dun Modr and sabotaged the Thandol Span. While the survivors await Ironforge's heavy reserves, they lack the numbers to retake their settlement and secure the crossing alone."
   },
   {
    "q": "Why does Captain Nials refuse to send soldiers?",
@@ -61,7 +61,7 @@
     "why refuge pointe refuses",
     "captain nials answer"
    ],
-   "answer": "Captain Nials cannot spare any troops because the Kingdom of Stromgarde has itself collapsed into ruins. The human forces at Refuge Pointe are wholly engaged in a desperate campaign to retake Stromgarde from the Syndicate, ogres, and forest trolls."
+   "answer": "Captain Nials cannot spare troops because Stromgarde has collapsed into ruins. The human forces at Refuge Pointe are committed to reclaiming Stromgarde from the Syndicate, ogres, and forest trolls."
   },
   {
    "q": "Where is Refuge Pointe located?",
@@ -79,7 +79,7 @@
     "what happened dun modr",
     "who attacked dun modr"
    ],
-   "answer": "Dun Modr was overwhelmed and sacked by the Dark Iron clan, who infiltrated through the mountains to sever the land route between the southern dwarven lands and the northern Alliance territories."
+   "answer": "The Dark Iron clan overwhelmed and sacked Dun Modr after infiltrating through the mountains to sever the land route between the southern dwarven lands and the northern Alliance territories."
   },
   {
    "q": "What happens after Captain Nials turns down the request?",
@@ -88,21 +88,21 @@
     "next quest after plea",
     "chain continuation"
    ],
-   "answer": "Captain Nials sends his regrets to Longbraid the Grim, confirming that no human reinforcements are coming. The dwarven survivors at the bridge must rely on their own wits, wandering adventurers, and distant Ironforge reinforcements."
+   "answer": "Captain Nials sends his regrets to Longbraid the Grim and confirms that no human reinforcements are coming. The dwarven survivors at the bridge must rely on their own wits, wandering adventurers, and distant Ironforge reinforcements."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "For dwarves, this mission highlights the painful isolation of northern garrisons like Dun Modr, proving that even longtime human allies are too besieged to lend a hand."
+   "text": "For dwarves, Dun Modr's isolation is painful: even longtime human allies are too besieged to lend a hand."
   },
   {
    "target": "race:Human",
-   "text": "Human travelers witness the bitter sorrow of Captain Nials, who is torn between honoring Alliance brotherhood and fighting for the survival of fallen Stromgarde."
+   "text": "As a human traveler, you witness Captain Nials' sorrow as he weighs Alliance brotherhood against Stromgarde's survival."
   },
   {
    "target": "faction:Alliance",
-   "text": "The exchange underscores how fractured the Alliance remains in the northern Eastern Kingdoms, where local garrisons fight separate, desperate battles with no shared reserves."
+   "text": "For the Alliance, this exchange shows how fractured its northern Eastern Kingdoms remain, with local garrisons fighting separate, desperate battles without shared reserves."
   }
  ],
  "keywords": [
@@ -128,5 +128,6 @@
  ],
  "attribution": [
   "Plea To The Alliance"
- ]
+ ],
+ "style": 1
 }

@@ -10,16 +10,16 @@
    "quest:493"
   ]
  },
- "summary": "Renferrel's Findings is a collection of research notes compiled by Apothecary Renferrel in Silverpine Forest. Entrusted to Horde couriers, these documents carry vital data southward to Apothecary Lydon in Tarren Mill to assist in brewing the Forsaken's New Plague.",
+ "summary": "In Silverpine Forest, Renferrel's Findings carry research south to Tarren Mill. Apothecary Renferrel gathered the notes at the Sepulcher for Apothecary Lydon, who is helping brew the Forsaken's New Plague.",
  "sections": [
   {
    "title": "A Plague in Development",
-   "body": "The Royal Apothecary Society labours tirelessly under direct orders from the Dark Lady, Lady Sylvanas Windrunner, to engineer a New Plague. Achieving this breakthrough requires constant collaboration among researchers scattered across Lordaeron. Stationed at the Sepulcher in Silverpine Forest, Apothecary Renferrel compiles these findings to document his progress and experiments, sending the gathered intelligence south to Tarren Mill so fellow researchers can build upon his results.",
+   "body": "At the Sepulcher, Apothecary Renferrel records his work on the New Plague. The Royal Apothecary Society labours under direct orders from Lady Sylvanas Windrunner, the Dark Lady. Researchers scattered across Lordaeron must work together to achieve a breakthrough. Renferrel sends his findings south to Tarren Mill, where fellow researchers can build on his results.",
    "spoiler": 0
   },
   {
    "title": "To Tarren Mill",
-   "body": "Carrying these papers across the border from Silverpine into the Hillsbrad Foothills represents a vital link in the Forsaken's alchemical network. In Tarren Mill, Apothecary Lydon eagerly awaits Renferrel's notes to cross-reference and advance his own concoctions against the living and the Scourge. Without reliable couriers running the contested roads of Hillsbrad, the Society's decentralized research would quickly stall.",
+   "body": "The papers link Silverpine Forest to Hillsbrad Foothills and the Forsaken's alchemical network. Apothecary Lydon awaits Renferrel's notes in Tarren Mill, where he can compare them with his own work against the living and the Scourge. Reliable couriers must cross Hillsbrad's contested roads; without them, the Society's scattered research would quickly stall.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "renferrel research",
     "what is in the notes"
    ],
-   "answer": "The package contains the latest experimental data and research notes collected by Apothecary Renferrel during his work in Silverpine Forest, specifically relating to the synthesis of a New Plague for the Forsaken."
+   "answer": "Renferrel's Findings contain Apothecary Renferrel's latest research and experimental data from Silverpine Forest. The notes concern the Forsaken's work to brew a New Plague."
   },
   {
    "q": "Who is supposed to receive this research?",
@@ -40,7 +40,7 @@
     "where do the findings go",
     "delivery target"
    ],
-   "answer": "Apothecary Lydon receives the documents. He conducts plague research in Tarren Mill, a Forsaken settlement situated in the Hillsbrad Foothills."
+   "answer": "Apothecary Lydon is to receive the documents. He conducts plague research in Tarren Mill, a Forsaken settlement in the Hillsbrad Foothills."
   },
   {
    "q": "Why are the apothecaries sharing notes?",
@@ -49,7 +49,7 @@
     "why send to lydon",
     "apothecary communication"
    ],
-   "answer": "Lady Sylvanas Windrunner has placed immense pressure on the Royal Apothecary Society to invent a New Plague. The apothecaries believe their breakthrough will arrive far more quickly if they coordinate and compare results rather than working in isolation."
+   "answer": "Lady Sylvanas Windrunner has ordered the Royal Apothecary Society to create a New Plague. The apothecaries believe comparing results will bring a breakthrough far more quickly than working alone."
   },
   {
    "q": "Where does Apothecary Renferrel conduct his experiments?",
@@ -58,17 +58,17 @@
     "apothecary renferrel location",
     "who wrote renferrels findings"
    ],
-   "answer": "Apothecary Renferrel is stationed at the Sepulcher, the primary Forsaken outpost located in the heart of Silverpine Forest."
+   "answer": "Apothecary Renferrel conducts his experiments at the Sepulcher, the primary Forsaken outpost in the heart of Silverpine Forest."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "The research inside these documents serves Sylvanas Windrunner's ultimate ambition: perfecting a New Plague to eradicate both the Scourge and the living foes encroaching upon Forsaken lands."
+   "text": "As an undead, you know these papers serve Sylvanas Windrunner's ambition: to perfect a New Plague against the Scourge and the living foes encroaching on Forsaken lands."
   },
   {
    "target": "faction:Horde",
-   "text": "Couriers transporting Renferrel's papers help solidify the Horde's foothold across Lordaeron, connecting isolated outposts like the Sepulcher and Tarren Mill."
+   "text": "As a member of the Horde, you know couriers carrying Renferrel's papers connect outposts such as the Sepulcher and Tarren Mill, strengthening the Horde's foothold across Lordaeron."
   }
  ],
  "keywords": [
@@ -91,5 +91,6 @@
  "attribution": [
   "Renferrel's Findings",
   "Journey to Hillsbrad Foothills"
- ]
+ ],
+ "style": 1
 }

@@ -10,16 +10,16 @@
    "quest:647"
   ]
  },
- "summary": "MacKreel's Moonshine is a potent dwarven liquor brewed by Foggy MacKreel, stationed on the broken Thandol Span north of the Wetlands. Strong enough to knock out a sentry on duty, it is prized as far north as Southshore, where Brewmeister Bilger accepts it as payment for debts.",
+ "summary": "On the broken Thandol Span, Foggy MacKreel brews moonshine strong enough to fell a sentry. Brewmeister Bilger in Southshore takes a batch to settle Foggy's debt.",
  "sections": [
   {
    "title": "A Potent Brew",
-   "body": "Brewed by the guard Foggy MacKreel on the Thandol Span, this moonshine carries an infamous reputation for potency. Even hardened dwarven sentries find themselves laid low by a night with the brew, waking with headaches akin to a brigade of siege engines rolling overhead. Despite its punishing kick, it is highly valued for warming up travelers against the damp chills of Lordaeron and Khaz Modan.",
+   "body": "Foggy MacKreel brews his moonshine while stationed as a guard on the Thandol Span. The liquor has a fierce reputation, and even hardened dwarven sentries can be laid low after a night of drinking it. They wake with headaches like siege engines rolling overhead. Travelers value its warmth against the damp chill of Lordaeron and Khaz Modan.",
    "spoiler": 0
   },
   {
    "title": "Payment to Southshore",
-   "body": "Foggy MacKreel ran up an unsettled debt with Brewmeister Bilger, the tavern keeper and master brewer of Southshore. In order to clear his tab, Foggy traded a batch of his moonshine instead of coin. Bilger gladly accepts the liquor in place of gold, eager to add MacKreel's potent brew to his stock for the chilly coastal days of the Hillsbrad Foothills.",
+   "body": "Foggy MacKreel owed an unsettled debt to Brewmeister Bilger, Southshore's tavern keeper and master brewer. He sent a batch of moonshine instead of coin to clear his tab. Bilger accepts the liquor in place of gold and adds MacKreel's potent brew to his stock for the chilly coastal days of the Hillsbrad Foothills.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "who brewed it",
     "foggy mackreel liquor"
    ],
-   "answer": "It is distilled by Foggy MacKreel, a dwarf sentry stationed on the broken stretch of the Thandol Span between the Wetlands and the Arathi Highlands."
+   "answer": "Foggy MacKreel, a dwarf sentry stationed on the broken Thandol Span between the Wetlands and the Arathi Highlands, distills the moonshine."
   },
   {
    "q": "Why is this moonshine being sent to Southshore?",
@@ -40,7 +40,7 @@
     "moonshine delivery",
     "brewmeister bilger debt"
    ],
-   "answer": "Foggy MacKreel owed a debt to Brewmeister Bilger in Southshore. Instead of coin, he agreed to settle his overdue balance by sending Bilger a fresh batch of his moonshine."
+   "answer": "Foggy MacKreel owed a debt to Brewmeister Bilger in Southshore. He agreed to settle it by sending Bilger a fresh batch of moonshine instead of coin."
   },
   {
    "q": "How strong is MacKreel's Moonshine?",
@@ -49,7 +49,7 @@
     "moonshine strength",
     "effects of mackreels moonshine"
    ],
-   "answer": "It is exceptionally strong. Foggy admitted to passing out cold while on duty after drinking it, complaining afterwards of a headache that felt like an entire brigade of siege engines rumbling over his skull."
+   "answer": "MacKreel's Moonshine is exceptionally strong. Foggy admitted that he passed out while on duty after drinking it, then woke with a headache like siege engines rumbling over his skull."
   },
   {
    "q": "Why does the delivery need to be rushed?",
@@ -58,17 +58,17 @@
     "is the quest timed",
     "why hurry"
    ],
-   "answer": "Foggy drank heavily and slept through his watch, realizing only upon waking that he had mere minutes left before his debt deadline with Brewmeister Bilger expired."
+   "answer": "Foggy drank heavily and slept through his watch. When he woke, only minutes remained before his debt deadline with Brewmeister Bilger."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "Dwarves know a good stiff drink when they smell one, and Foggy's moonshine clearly packs enough punch to knock a mountaineer flat."
+   "text": "As a dwarf, you know a good stiff drink when you smell one. Foggy's moonshine packs enough punch to knock a mountaineer flat."
   },
   {
    "target": "profession:Cooking",
-   "text": "While distilled as rough moonshine rather than fine culinary wine, potent regional spirits like Foggy's are staple trade goods across frontier taverns."
+   "text": "As a cook, you know potent regional spirits like Foggy's rough moonshine are staple trade goods across frontier taverns."
   }
  ],
  "keywords": [
@@ -90,5 +90,6 @@
  "attribution": [
   "MacKreel's Moonshine",
   "MacKreel's Moonshine (quest)"
- ]
+ ],
+ "style": 1
 }

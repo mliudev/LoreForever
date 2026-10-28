@@ -14,15 +14,15 @@
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "The Nord'el represents a precious botanical relic from Mount Hyjal, gathered before the night elves relocated their home to the boughs of Teldrassil."
+   "text": "As a night elf, you can treasure Nord'el as a botanical relic of Mount Hyjal, gathered before your people moved their home to Teldrassil."
   },
   {
    "target": "faction:Alliance",
-   "text": "The lost vessel Flying Osprey sailed alongside the Kul Tiran Third Fleet before both met disaster off the shores of Menethil Harbor."
+   "text": "For the Alliance, the Flying Osprey sailed alongside the Kul Tiran Third Fleet before both met disaster off Menethil Harbor."
   },
   {
    "target": "profession:Herbalism",
-   "text": "Nord'el is an exceedingly rare night elf flower cultivated under the full moon atop Mount Hyjal, making it a specimen of extraordinary botanical wonder."
+   "text": "As a herbalist, you know Nord'el as a rare night elf flower gathered under the full moon atop Mount Hyjal, a remarkable botanical specimen."
   }
  ],
  "faq": [
@@ -32,7 +32,7 @@
     "nordel flower",
     "what is bloom of the heavens"
    ],
-   "answer": "Nord'el translates to Bloom of the Heavens in Darnassian. It is a sacred flower of great significance to the night elves, gathered after blossoming under a full moon atop Mount Hyjal, the night elves' ancestral mountain home.",
+   "answer": "Nord'el means Bloom of the Heavens in Darnassian. The night elves gather this sacred flower after it blossoms beneath a full moon atop Mount Hyjal, their ancestral mountain home.",
    "q": "What is Nord'el?"
   },
   {
@@ -41,7 +41,7 @@
     "what ship wrecked",
     "kul tiran third fleet wetlands"
    ],
-   "answer": "The Flying Osprey was a night elf vessel sailing in company with the Kul Tiran Third Fleet. Many moons ago, the ship wrecked just south of Menethil Harbor along the coast of the Wetlands, scattering its valuable cargo.",
+   "answer": "The Flying Osprey was a night elf vessel sailing with the Kul Tiran Third Fleet. Many moons ago, it wrecked on the Wetlands coast just south of Menethil Harbor, scattering its cargo.",
    "q": "What was the Flying Osprey?"
   },
   {
@@ -50,7 +50,7 @@
     "quest giver menethil",
     "night elf in menethil"
    ],
-   "answer": "Sylessa Duskwhisper is a night elf emissary who journeyed across the sea from Auberdine and the boughs of Teldrassil to Menethil Harbor specifically to recover the lost bloom for her people.",
+   "answer": "Sylessa Duskwhisper is a night elf emissary who sailed from Auberdine and Teldrassil to Menethil Harbor to recover the lost bloom for her people.",
    "q": "Who is Sylessa Duskwhisper?"
   },
   {
@@ -59,7 +59,7 @@
     "who guards the wreck",
     "wreckage south of menethil"
    ],
-   "answer": "Fierce murloc raiders have infested the coastal wreckage south of Menethil Harbor, claiming the remains of the Flying Osprey and making salvage hazardous for Sylessa.",
+   "answer": "Fierce murloc raiders occupy the coastal wreck south of Menethil Harbor. They claim the remains of the Flying Osprey, making salvage dangerous for Sylessa.",
    "q": "Why is the shipwreck dangerous?"
   },
   {
@@ -67,7 +67,7 @@
     "why is the flower important",
     "why does sylessa want nordel"
    ],
-   "answer": "The flower was picked at the peak of Mount Hyjal, the former home of the Kaldorei, before the founding of Teldrassil. Because of its origin and sacred harvesting under the full moon, it holds immense cultural and emotional value to the night elves.",
+   "answer": "Night elves gathered Nord'el atop Mount Hyjal, their former home, before they founded Teldrassil. Its sacred harvest beneath the full moon gives the flower deep cultural and emotional value.",
    "q": "Why is Nord'el so important to the night elves?"
   },
   {
@@ -76,7 +76,7 @@
     "where is the flower",
     "shipwreck location wetlands"
    ],
-   "answer": "The wreckage of the Flying Osprey lies on the coast just south of Menethil Harbor in the Wetlands, amidst rocks now overrun by hostile murlocs.",
+   "answer": "The Flying Osprey lies on the rocky coast just south of Menethil Harbor in the Wetlands, where hostile murlocs occupy the wreck.",
    "q": "Where can the wreckage be found?"
   }
  ],
@@ -101,18 +101,19 @@
  ],
  "sections": [
   {
-   "body": "Sylessa Duskwhisper made the long voyage from Auberdine on the shores of Kalimdor to Menethil Harbor to salvage a treasure of profound cultural meaning. The cargo she seeks is Nord'el, known in the Common tongue as the Bloom of the Heavens, a sacred flower gathered from the peak of Mount Hyjal under a radiant full moon. To the displaced night elves who now dwell in Teldrassil, such relics of their ancestral mountain are irreplaceable reminders of their heritage.",
+   "body": "Sylessa Duskwhisper has sailed from Auberdine to Menethil Harbor to recover Nord'el, the Bloom of the Heavens. Gathered under a full moon atop Mount Hyjal, the sacred flower carries deep meaning for the night elves. Those who now live in Teldrassil treasure such relics from their ancestral mountain as reminders of their heritage.",
    "spoiler": 0,
    "title": "A Relic of Mount Hyjal"
   },
   {
-   "body": "The flower was lost many moons ago when the night elf ship Flying Osprey was wrecked along the rocky coast just south of Menethil Harbor, having sailed in company with the Kul Tiran Third Fleet. Today, the ruined hull rests in the shallows as a somber monument to the disaster. To make matters worse, fierce murloc raiders have colonized the wreckage, fiercely defending the ruined vessel and threatening anyone who attempts to recover the Kaldorei cargo.",
+   "body": "Many moons ago, the night elf vessel Flying Osprey wrecked on the rocky coast south of Menethil Harbor while sailing with the Kul Tiran Third Fleet. Its ruined hull rests in the shallows. Fierce murloc raiders have made the wreck their home and defend it against anyone who tries to recover the night elf cargo.",
    "spoiler": 0,
    "title": "The Fate of the Flying Osprey"
   }
  ],
- "summary": "Bloom of the Heavens concerns the recovery of Nord'el, a sacred night elf flower gathered under a full moon on Mount Hyjal. The flower was lost when the night elf vessel Flying Osprey wrecked south of Menethil Harbor alongside ships of the Kul Tiran Third Fleet, leaving its retrieval in the hands of adventurers brave enough to face the murlocs nesting among the ruins.",
+ "summary": "Sylessa Duskwhisper seeks Bloom of the Heavens in the waters south of Menethil Harbor. The sacred flower Nord'el was lost when the night elf vessel Flying Osprey wrecked alongside ships of the Kul Tiran Third Fleet. Murlocs now occupy the wreck, where the flower lies among the ruins.",
  "attribution": [
   "In-game quest text: Bloom of the Heavens"
- ]
+ ],
+ "style": 1
 }

@@ -22,21 +22,21 @@
    "Aku'mai"
   ]
  },
- "summary": "Blackfathom Deeps is a flooded subterranean temple complex situated along the Zoram Strand in northwestern Ashenvale. Once a shrine dedicated to the night elven moon goddess Elune, the sunken sanctuary has been overtaken by the Twilight's Hammer cult, treacherous naga, and satyrs. They gather in its dark waters to venerate Aku'mai, a primordial hydra and servant of an Old God.",
+ "summary": "Twilight's Hammer cultists now gather in the flooded halls of Blackfathom Deeps, along the Zoram Strand in northwestern Ashenvale. The temple once honored Elune, the night elven moon goddess. Naga and satyrs have joined the cult in veneration of Aku'mai, a primordial hydra and servant of an Old God.",
  "sections": [
   {
    "title": "Sunken Sanctum of Elune",
-   "body": "Long before the Great Sundering shattered ancient Kalimdor, this complex was a splendid temple dedicated to Elune. Highborne masons raised gem-encrusted bridges while Queen Azshara commanded the surrounding waters, partitionining salt seas and mountain streams around a sacred moonwell. When the Sundering tore the world apart ten thousand years ago, the temple sank into the coastal depths of the Veiled Sea. For millenia, it sat undisturbed beneath the waves\u2014until foul whispers began seeping upward from the subterranean dark.",
+   "body": "Blackfathom Deeps once honored Elune, the night elven moon goddess. Long before the Great Sundering shattered ancient Kalimdor, Highborne masons raised gem-encrusted bridges through its splendid halls. Queen Azshara commanded the waters around the sacred moonwell, keeping salt seas and mountain streams apart. When the Sundering broke the world ten thousand years ago, the temple sank beneath the coastal waters of the Veiled Sea. It lay undisturbed for millennia, until foul whispers began to rise from the darkness below.",
    "spoiler": 0
   },
   {
    "title": "A Den of Ancient Horrors",
-   "body": "Drawn by mad dreams and dark portents, the Twilight's Hammer cult converged on the sunken ruins. Within, they forged an unholy truce with coastal naga led by Lady Sarevess and prowling satyrs. Together, they desecrated the moonwell and enslaved local life. They drove the giant sea turtle Ghamoo-ra mad through years of torment, allowed the brutal murloc Gelihast to erect a blood shrine, and stocked cavernous depths with fresh sacrifices. Under the leadership of Twilight Lord Kelris, the cultists turned the ruins into a staging ground for the Old Gods' impending return.",
+   "body": "Twilight's Hammer cultists came to the sunken ruins, drawn by mad dreams and dark portents. Inside, they forged an unholy truce with coastal naga led by Lady Sarevess and prowling satyrs. Together, they desecrated the moonwell and enslaved the creatures nearby. Years of torment drove the giant sea turtle Ghamoo-ra mad. The brutal murloc Gelihast raised a blood shrine, and the caverns filled with fresh sacrifices. Under Twilight Lord Kelris, the cultists made the ruins a staging ground for the Old Gods' impending return.",
    "spoiler": 0
   },
   {
    "title": "The Beast in the Deep",
-   "body": "At the deepest heart of the sunken temple lies Aku'mai, an ancient three-headed hydra and servant of an Old God, which rose from the waters when the Old God's corruption tainted the temple's Moon Well. Twilight Lord Kelris and his cultists sacrifice innocents to the beast for power. Striking down Kelris and lighting the ritual candles in his sanctum opens the way to the beast's lair, allowing champions to slay Aku'mai before its evil spreads across Kalimdor.",
+   "body": "Aku'mai dwells in the deepest heart of the sunken temple. The ancient three-headed hydra serves an Old God and rose from the waters after its corruption tainted the temple's Moon Well. Twilight Lord Kelris and his cultists sacrifice innocents to Aku'mai for power. Striking down Kelris and lighting the ritual candles in his sanctum opens the way to the beast's lair, where champions can slay Aku'mai before its evil spreads across Kalimdor.",
    "spoiler": 1
   }
  ],
@@ -48,7 +48,7 @@
     "who built bfd",
     "original temple"
    ],
-   "answer": "Originally, it was a magnificent night elven temple dedicated to the moon goddess Elune. It featured crystal-clear pools, gemmed bridges, and a blessed moonwell, all overseen by Queen Azshara before the Great Sundering broke the temple and cast it beneath the sea."
+   "answer": "Blackfathom Deeps began as a magnificent night elven temple devoted to Elune, the moon goddess. Crystal-clear pools, gemmed bridges, and a blessed moonwell filled its halls, under Queen Azshara's watch, until the Great Sundering broke the temple and sank it beneath the sea."
   },
   {
    "q": "Why are the Twilight's Hammer cultists here?",
@@ -57,7 +57,7 @@
     "why is twilight's hammer here",
     "what do cultists want"
    ],
-   "answer": "Drawn by nightmare visions and whispering voices from beneath Azeroth, the cultists came to worship the Old Gods. Under Twilight Lord Kelris, they took over the sunken ruins to nurture Aku'mai, offering living sacrifices in hopes of hastening the return of their chaotic masters."
+   "answer": "Nightmare visions and whispering voices from beneath Azeroth drew the cultists to worship the Old Gods. Under Twilight Lord Kelris, they seized the sunken ruins and nurture Aku'mai with living sacrifices, hoping to hasten their chaotic masters' return."
   },
   {
    "q": "Who is Twilight Lord Kelris?",
@@ -66,7 +66,7 @@
     "kelris lore",
     "leader of bfd"
    ],
-   "answer": "Twilight Lord Kelris is the leader of the Twilight's Hammer cell within Blackfathom Deeps. Striving to bring about the return of the Old Gods, he orchestrates the cult's sacrifices to Aku'mai and oversees the desecration of the temple."
+   "answer": "Twilight Lord Kelris leads the Twilight's Hammer cell in Blackfathom Deeps. He seeks the return of the Old Gods, directs the cult's sacrifices to Aku'mai, and oversees the temple's desecration."
   },
   {
    "q": "What are the naga and satyr doing in the ruins?",
@@ -75,7 +75,7 @@
     "why satyrs in bfd",
     "lady sarevess"
    ],
-   "answer": "Both the naga and satyrs were lured to the drowned temple by lingering ancient magical energies. The naga, led by Lady Sarevess, formed a pact with the Twilight's Hammer: the cultists feed her captives and dark knowledge, and in return, her sea witches provide magical shielding against the horrors lurking in the deep."
+   "answer": "Naga and satyrs were drawn to the drowned temple by lingering ancient magical energies. Led by Lady Sarevess, the naga made a pact with the Twilight's Hammer: the cultists provide captives and dark knowledge, while her sea witches shield them from horrors in the deep."
   },
   {
    "q": "Why do the Earthen Ring and Argent Dawn care about this place?",
@@ -84,7 +84,7 @@
     "argent dawn bfd",
     "scout thaelrid"
    ],
-   "answer": "The Argent Dawn sent Scout Thaelrid to investigate suspicious alliances between the naga and cultists, uncovering proof of their murderous rituals. Meanwhile, the Earthen Ring rushed to Ashenvale because the invocation of Old Gods threatens the elemental balance and safety of the entire world."
+   "answer": "The Argent Dawn sent Scout Thaelrid to investigate suspected alliances between the naga and cultists, and he uncovered proof of their murderous rituals. The Earthen Ring rushed to Ashenvale because invoking the Old Gods threatens elemental balance and the world's safety."
   },
   {
    "q": "What happens when Aku'mai is defeated?",
@@ -93,25 +93,25 @@
     "aku'mai ending",
     "after killing final boss"
    ],
-   "answer": "Slaying Aku'mai severs the immediate physical foothold of the Old Gods within Ashenvale. It ends the cult's hope of using the ancient hydra to bring back the reign of the Old Gods, striking a major blow against the Twilight's Hammer cult and cleansing a fragment of the dark taint infecting the ruined moonwell."
+   "answer": "Slaying Aku'mai cuts off the Old Gods' immediate physical foothold in Ashenvale. It ends the cult's hope of restoring their reign through the ancient hydra, deals a major blow to the Twilight's Hammer, and cleanses part of the dark taint infecting the ruined moonwell."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "For night elves, the deeps represent a heartbreaking desecration of their heritage, as an ancient shrine of Elune and its sacred moonwell have been befouled by void cultists and monstrous aberrations."
+   "text": "As a night elf, you see a beloved part of your heritage desecrated: an ancient shrine of Elune and its sacred moonwell befouled by void cultists and monstrous aberrations."
   },
   {
    "target": "class:Shaman",
-   "text": "Shaman answering the call of Je'neu and the Earthen Ring must plunge into the watery dark to halt the corruption of the elements and banish the chaotic taint of the Old Gods."
+   "text": "As a shaman answering Je'neu and the Earthen Ring, you must plunge into the watery dark to halt the corruption of the elements and banish the Old Gods' chaotic taint."
   },
   {
    "target": "faction:Horde",
-   "text": "Operating out of Zoram'gar Outpost, the Horde seeks to secure the northern coast of Ashenvale from encroaching naga aggression and prevent the dark rituals within the deeps from threatening their outposts."
+   "text": "From Zoram'gar Outpost, the Horde seeks to secure Ashenvale's northern coast against naga aggression and keep the dark rituals from threatening its outposts."
   },
   {
    "target": "faction:Alliance",
-   "text": "Alliance heroes enter to rescue Scout Thaelrid, recover lost Highborne knowledge, and aid the night elves in cleansing their sacred homeland from cultist terror."
+   "text": "As an Alliance hero, you enter to rescue Scout Thaelrid, recover lost Highborne knowledge, and help the night elves cleanse their sacred homeland of cultist terror."
   }
  ],
  "keywords": [
@@ -138,5 +138,6 @@
  "attribution": [
   "Blackfathom Deeps (Classic)",
   "Blackfathom Deeps"
- ]
+ ],
+ "style": 1
 }

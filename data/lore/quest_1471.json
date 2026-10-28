@@ -22,16 +22,16 @@
    "The Binding (Voidwalker, Undercity)"
   ]
  },
- "summary": "The Binding is the culminating rite for Forsaken warlocks seeking to command a voidwalker. In the Magic Quarter of the Undercity, Carendin Halgar requires initiates to summon, conquer, and permanently subjugate a creature of the Void.",
+ "summary": "In the Magic Quarter of the Undercity, Forsaken warlocks seek to summon, conquer, and permanently command a voidwalker. Carendin Halgar oversees the rite that grants them this power.",
  "sections": [
   {
    "title": "A Rite of Subjugation",
-   "body": "Unlike minor imps, which are easily coerced into pacts with dark magic, creatures of the Void despise reality and possess formidable physical might. To earn the right to summon a voidwalker, an aspiring warlock in the Undercity must prove total mastery over it. In the shadowed enclave of the Magic Quarter, the Forsaken mentor Carendin Halgar provides the mystic runes required to tear a voidwalker from the Nether into the physical realm.",
+   "body": "Forsaken warlocks must prove they can master a voidwalker before they may summon one. Unlike minor imps, which dark magic easily draws into pacts, creatures of the Void despise reality and possess formidable physical might. In the Magic Quarter, mentor Carendin Halgar provides the mystic runes required to tear a voidwalker from the Nether into the physical realm.",
    "spoiler": 0
   },
   {
    "title": "Within the Circle",
-   "body": "The ritual takes place within the glowing summoning circle etched beneath the mentor's dais. Once the runes are activated, an unbound voidwalker materializes in fury. Subduing it is not an exercise in diplomacy; the summoner must break the entity through sheer arcane force and raw will. Only when the entity is thoroughly crushed does Carendin reveal the true formula of summoning, binding the creature's essence to the practitioner indefinitely.",
+   "body": "Beneath Carendin Halgar's dais, a glowing summoning circle is etched into the floor. When the runes are activated, an unbound voidwalker appears in fury. You cannot subdue it through diplomacy; you must break it with arcane force and raw will. Only after the creature is thoroughly crushed does Carendin reveal the true summoning formula, which binds its essence to you indefinitely.",
    "spoiler": 0
   }
  ],
@@ -43,7 +43,7 @@
     "what does the binding quest do",
     "binding reward"
    ],
-   "answer": "The ritual tests an aspiring warlock's ability to overpower a creature of the Void. By defeating an unbound voidwalker in combat, the summoner proves their will is strong enough to control it, allowing Carendin Halgar to teach them the permanent summoning spell."
+   "answer": "The rite tests whether you can overpower a creature of the Void. Defeating an unbound voidwalker proves your will is strong enough to control it, and Carendin Halgar then teaches you the permanent summoning spell."
   },
   {
    "q": "Where does the summoning take place?",
@@ -52,7 +52,7 @@
     "where is the summoning circle",
     "circle of summoning undercity"
    ],
-   "answer": "It takes place directly within the purple summoning circle etched into the floor beneath Carendin Halgar's platform in the Magic Quarter of the Undercity."
+   "answer": "The summoning takes place in the purple circle etched into the floor beneath Carendin Halgar's platform in the Magic Quarter of the Undercity."
   },
   {
    "q": "Who is Carendin Halgar?",
@@ -60,7 +60,7 @@
     "who is halgar",
     "carendin halgar lore"
    ],
-   "answer": "Carendin Halgar is the primary warlock trainer residing in the Magic Quarter of the Undercity, overseeing the instruction and dark initiations of newly raised Forsaken practitioners."
+   "answer": "Carendin Halgar is the primary warlock trainer in the Magic Quarter of the Undercity. He oversees instruction and dark initiations for newly raised Forsaken practitioners."
   },
   {
    "q": "Do warlocks need to defeat every demon they want to summon?",
@@ -68,7 +68,7 @@
     "do warlocks always fight demons",
     "why fight the voidwalker"
    ],
-   "answer": "Warlocks must establish authority over powerful extradimensional beings before commanding them. While smaller entities like imps are bound by simple contracts and rituals, voidwalkers require physical and magical dominance before they submit to servitude."
+   "answer": "Warlocks must establish authority over powerful extradimensional beings before commanding them. Smaller entities like imps are bound by simple contracts and rituals, while voidwalkers require physical and magical dominance before they submit to servitude."
   },
   {
    "q": "What happens if a warlock fails to subdue the voidwalker?",
@@ -76,7 +76,7 @@
     "what if i fail the binding",
     "failure lore warlock"
    ],
-   "answer": "An unbound voidwalker will relentlessly batter and destroy anyone nearby. As Halgar warns, failing to meet his expectations is nothing compared to the danger of being torn apart by the untamed entity within the circle."
+   "answer": "An unbound voidwalker relentlessly batters anyone nearby. Halgar warns that failing to meet his expectations is nothing compared to the danger of being torn apart by the untamed entity within the circle."
   },
   {
    "q": "What is a voidwalker?",
@@ -84,17 +84,17 @@
     "what is a voidwalker",
     "voidwalker lore"
    ],
-   "answer": "Voidwalkers are shadowy, extradimensional beings originating from the Void. They possess immense physical resilience and an innate desire to extinguish living light and energy, making them ideal protective shields for practitioners of dark magic."
+   "answer": "Voidwalkers are shadowy, extradimensional beings from the Void. They have immense physical resilience and an innate desire to extinguish living light and energy, making them ideal protective shields for practitioners of dark magic."
   }
  ],
  "angles": [
   {
    "target": "class:Warlock",
-   "text": "This rite marks the warlock's transition from petty trickery with imps to genuine domination over entities capable of absorbing immense physical punishment on the battlefield."
+   "text": "As a warlock, this rite takes you from petty trickery with imps to domination over beings that can absorb immense physical punishment on the battlefield."
   },
   {
    "target": "race:Undead",
-   "text": "For the Forsaken, binding a creature of shadow is a natural extension of their resilience and lack of moral restraint regarding forbidden magic."
+   "text": "As one of the Forsaken, binding a creature of shadow extends your resilience and your lack of moral restraint regarding forbidden magic."
   }
  ],
  "keywords": [
@@ -116,5 +116,6 @@
  ],
  "attribution": [
   "The Binding (Voidwalker, Undercity)"
- ]
+ ],
+ "style": 1
 }

@@ -17,16 +17,16 @@
   "wiki": "Souvenirs of Death",
   "chain": []
  },
- "summary": "Souvenirs of Death is a quest given by Deathguard Samsa in Tarren Mill to Horde champions campaigning against the human settlements of the Hillsbrad Foothills. Envious of those sent to the front lines, Samsa asks for thirty human skulls taken in battle to add to his morbid collection.",
+ "summary": "At Tarren Mill, Deathguard Samsa envies those sent against the human settlements of the Hillsbrad Foothills. He asks for thirty human skulls taken in battle for his collection.",
  "sections": [
   {
    "title": "A Guard's Envy",
-   "body": "While High Executor Darthalia directs the full military might of the Forsaken against the Hillsbrad human settlements, Deathguard Samsa finds himself stranded on sentry duty in Tarren Mill. Harboring a bitter jealousy toward those dispatched to raid, burn, and pillage, Samsa views the open slaughter of the living as an enviable privilege denied to stationary town guards.",
+   "body": "High Executor Darthalia directs the Forsaken campaign against Hillsbrad's human settlements. Deathguard Samsa remains on sentry duty in Tarren Mill, while others are sent to raid, burn, and pillage. He envies their chance to slaughter the living, a privilege denied to a guard fixed in place.",
    "spoiler": 0
   },
   {
    "title": "A Gruesome Trophy",
-   "body": "Unable to leave his post, Samsa indulges his hatred by collecting the skulls of Hillsbrad humans slain across the ongoing campaign. Rather than serving an arcane ritual or a tactical strategy, his request for thirty skulls is a purely personal indulgence\u2014trophies of a war he longs to fight firsthand.",
+   "body": "Samsa hates the humans of Hillsbrad and collects the skulls of those slain in the campaign. He asks for thirty, not for an arcane rite or military plan, but as trophies from a war he longs to fight himself.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who gives souvenirs of death",
     "samsa location"
    ],
-   "answer": "Deathguard Samsa offers the task. He is stationed as a sentry within Tarren Mill, the primary Forsaken bastion in the northern Hillsbrad Foothills."
+   "answer": "Deathguard Samsa offers it from his sentry post in Tarren Mill, the main Forsaken stronghold in northern Hillsbrad Foothills."
   },
   {
    "q": "What does Deathguard Samsa want?",
@@ -47,7 +47,7 @@
     "what items needed",
     "skulls required"
    ],
-   "answer": "Samsa asks for thirty Hillsbrad Human Skulls, harvested from the human combatants and townsfolk you slay while fighting across Hillsbrad Fields and the town of Hillsbrad."
+   "answer": "Samsa asks for thirty Hillsbrad Human Skulls from human combatants and townsfolk across Hillsbrad Fields and the town of Hillsbrad."
   },
   {
    "q": "Why does Samsa want human skulls?",
@@ -56,7 +56,7 @@
     "samsa motivation",
     "what are skulls for"
    ],
-   "answer": "Samsa is an avid collector of macabre trophies. Stuck on garrison duty in Tarren Mill while others wage total war, he gathers skulls to vicariously share in the slaughter of the living."
+   "answer": "Samsa collects macabre trophies. Confined to garrison duty in Tarren Mill while others wage war, he gathers skulls to share in the slaughter of the living from afar."
   },
   {
    "q": "When does this quest become available?",
@@ -65,7 +65,7 @@
     "how to unlock",
     "prereqs for souvenirs"
    ],
-   "answer": "Samsa only approaches you after you have enlisted with High Executor Darthalia and completed the opening assault in the Battle of Hillsbrad quest line."
+   "answer": "Samsa approaches you after you enlist with High Executor Darthalia and complete the opening assault in the Battle of Hillsbrad campaign."
   },
   {
    "q": "Are the skulls used for Forsaken alchemy or magic?",
@@ -74,7 +74,7 @@
     "magic skulls",
     "necromancy use"
    ],
-   "answer": "No. Unlike assignments from the Royal Apothecary Society that seek biological reagents for the New Plague, Samsa's request is entirely personal. He finds the severed skulls beautiful and cherishes them as souvenirs of war."
+   "answer": "No. Samsa's request is personal, unlike Royal Apothecary Society assignments that seek biological reagents for the New Plague. He finds the severed skulls beautiful and cherishes them as souvenirs of war."
   },
   {
    "q": "Which humans provide the skulls?",
@@ -83,21 +83,21 @@
     "which mobs drop skulls",
     "hillsbrad humans"
    ],
-   "answer": "Any of the human farmers, peasants, militia, and defenders living in Hillsbrad Fields or the town of Hillsbrad can yield the skulls while you fight on behalf of Tarren Mill."
+   "answer": "The skulls come from human farmers, peasants, militia, and defenders in Hillsbrad Fields or the town of Hillsbrad, where you fight for Tarren Mill."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "The campaign against Hillsbrad represents the Horde's direct push to dismantle remaining Alliance strongholds in Lordaeron, securing northern supply routes for Tarren Mill."
+   "text": "As a Horde champion, you take part in the push against Alliance strongholds in Lordaeron, securing northern supply routes for Tarren Mill."
   },
   {
    "target": "race:Undead",
-   "text": "Deathguard Samsa reflects the casual cruelty and deep-seated animosity many Forsaken hold toward the living humans who view them as monsters."
+   "text": "As an undead champion, you see the casual cruelty and deep animosity many Forsaken hold toward living humans who view them as monsters."
   },
   {
    "target": "faction:Alliance",
-   "text": "The systematic collection of severed human heads highlights the brutal and existential threat the Forsaken pose to the surviving townsfolk of Hillsbrad."
+   "text": "As an Alliance champion, you face the brutal, existential threat the Forsaken pose to Hillsbrad's surviving townsfolk, marked by their systematic collection of severed human heads."
   }
  ],
  "keywords": [
@@ -118,5 +118,6 @@
  ],
  "attribution": [
   "Souvenirs of Death"
- ]
+ ],
+ "style": 1
 }

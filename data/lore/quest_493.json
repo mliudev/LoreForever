@@ -17,16 +17,16 @@
   "wiki": "Journey to Hillsbrad Foothills",
   "chain": []
  },
- "summary": "Journey to Hillsbrad Foothills is a Horde courier task connecting the Forsaken research efforts in Silverpine Forest with their outpost in Tarren Mill. Entrusted with sensitive notes from Apothecary Renferrel, the traveler journeys south into the disputed Hillsbrad Foothills to deliver vital biological research to Apothecary Lydon. This dispatch reflects the intense pressure Lady Sylvanas Windrunner places upon the Royal Apothecary Society to produce a weapon of mass devastation.",
+ "summary": "Renferrel sends his research south to Tarren Mill, where the Forsaken press on with their plague studies. You carry his notes from Silverpine Forest to Apothecary Lydon in Hillsbrad Foothills.",
  "sections": [
   {
    "title": "A Plague of Their Own",
-   "body": "Since breaking free from the Lich King's iron grip, Lady Sylvanas Windrunner has harbored a single-minded ambition: the development of a New Plague engineered to eradicate both living enemies and the Scourge. To achieve this, the Royal Apothecary Society operates under relentless pressure from the Banshee Queen. Because distance isolates their laboratories, researchers scattered across Lordaeron must continuously share raw chemical data and test findings to accelerate their sinister breakthrough.",
+   "body": "Since escaping the Lich King's control, Lady Sylvanas Windrunner has pursued a New Plague that could destroy both the living and the Scourge. The Royal Apothecary Society works under the Banshee Queen's relentless pressure to create it. Its researchers are scattered across Lordaeron, so they share chemical data and test findings to hasten their work.",
    "spoiler": 0
   },
   {
    "title": "The Road South",
-   "body": "Apothecary Renferrel, operating out of the Sepulcher in Silverpine Forest, directs couriers to deliver his recent findings to his colleague, Apothecary Lydon. The trek winds south through the shadowed pine woods and down into the open, rolling pastures of Hillsbrad Foothills. There, nestled beneath the Alterac Mountains, lies Tarren Mill\u2014a vital Forsaken hub and laboratory staging ground.",
+   "body": "Apothecary Renferrel works from the Sepulcher in Silverpine Forest and sends you south with his recent findings for Apothecary Lydon. Your road leaves the pine woods and crosses the open pastures of Hillsbrad Foothills. Tarren Mill lies beneath the Alterac Mountains, serving the Forsaken as an outpost and a place to stage their research.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "renferrel research",
     "what am i delivering"
    ],
-   "answer": "Renferrel's findings consist of research documentation detailing his experiments on local fauna, flora, and biological toxins. They serve as pieces of the broader formula the Royal Apothecary Society is compiling toward their prized New Plague."
+   "answer": "Renferrel's notes document his experiments with local plants, animals, and biological toxins. They contribute to the Royal Apothecary Society's work on the New Plague."
   },
   {
    "q": "Why is the Royal Apothecary Society in such a rush?",
@@ -47,7 +47,7 @@
     "why under pressure",
     "sylvanas pressure"
    ],
-   "answer": "Lady Sylvanas Windrunner demands immediate results. Surrounded by hostile human remnants, the fanatical Scarlet Crusade, and wandering Scourge, the Forsaken believe only a definitive biological weapon can guarantee their survival and exact revenge upon Arthas."
+   "answer": "Lady Sylvanas Windrunner demands quick results. The Forsaken face hostile human remnants, the Scarlet Crusade, and wandering Scourge. They believe a biological weapon can secure their survival and avenge Arthas."
   },
   {
    "q": "Who is Apothecary Lydon?",
@@ -55,7 +55,7 @@
     "who is lydon",
     "apothecary lydon lore"
    ],
-   "answer": "Apothecary Lydon is a senior researcher of the Royal Apothecary Society stationed in Tarren Mill. Highly respected by his peers like Renferrel, Lydon oversees lethal biological experiments in Hillsbrad Foothills, refining plague strains using local supplies and captives."
+   "answer": "Apothecary Lydon is a senior Royal Apothecary Society researcher stationed in Tarren Mill. Respected by Renferrel and his other peers, he oversees biological experiments in Hillsbrad Foothills, refining plague strains with local supplies and captives."
   },
   {
    "q": "Where is Tarren Mill?",
@@ -64,7 +64,7 @@
     "how to get to tarren mill",
     "where is hillsbrad"
    ],
-   "answer": "Tarren Mill is located in northern Hillsbrad Foothills, situated south of the Alterac Mountains and east of Silverpine Forest. Following the primary roads south from Silverpine and turning east at the crossroads leads directly to the settlement."
+   "answer": "Tarren Mill lies in northern Hillsbrad Foothills, south of the Alterac Mountains and east of Silverpine Forest. Follow the main roads south from Silverpine, then turn east at the crossroads to reach it."
   },
   {
    "q": "Why do the Forsaken have to share findings via foot couriers?",
@@ -72,7 +72,7 @@
     "why foot messenger",
     "why courier delivery"
    ],
-   "answer": "Renferrel asks a traveler to carry his written findings from the Sepulcher to Lydon in Tarren Mill. He wants the Society's distant researchers to share their discoveries quickly; he gives no explanation about magical alternatives."
+   "answer": "Renferrel asks you to carry his written findings from the Sepulcher to Lydon in Tarren Mill. He wants the Society's distant researchers to share discoveries quickly, but gives no reason for using foot couriers instead of magical means."
   },
   {
    "q": "What happens after Lydon gets the research?",
@@ -80,21 +80,21 @@
     "what next after delivering",
     "lydon reaction"
    ],
-   "answer": "Upon receiving the package, Apothecary Lydon immediately begins studying Renferrel's notes to integrate them into his own concoctions, eventually tasking adventurers with testing improved strains on the local human population."
+   "answer": "After receiving Renferrel's notes, Apothecary Lydon begins studying them and working their findings into his own concoctions. He later asks adventurers to test improved strains on the local human population."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "For the Forsaken, delivering these findings is a direct contribution to their people's survival and vengeance against the living and the Scourge alike."
+   "text": "As Forsaken, you help advance your people's efforts to survive and avenge themselves against the living and the Scourge."
   },
   {
    "target": "faction:Horde",
-   "text": "While orcs and tauren generally disfavor underhanded poisons, helping establish Forsaken dominance in Hillsbrad secures the Horde's foothold in the Eastern Kingdoms."
+   "text": "As Horde, you help secure the Forsaken's hold in Hillsbrad and strengthen the Horde's foothold in the Eastern Kingdoms, despite orc and tauren misgivings about underhanded poisons."
   },
   {
    "target": "profession:Herbalism",
-   "text": "The research conducted by both Renferrel and Lydon relies heavily on the study and harvest of virulent, mutated flora across Lordaeron's soils."
+   "text": "As a herbalist, you know that Renferrel and Lydon study and gather virulent, mutated plants from across Lordaeron."
   }
  ],
  "keywords": [
@@ -116,5 +116,6 @@
  ],
  "attribution": [
   "Journey to Hillsbrad Foothills"
- ]
+ ],
+ "style": 1
 }

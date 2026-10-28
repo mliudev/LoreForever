@@ -8,16 +8,16 @@
   "wiki": "Drum Fel",
   "refs": 1
  },
- "summary": "Drum Fel is an orc commander stationed at the Horde outpost of Hammerfall in the Arathi Highlands. Alongside his wife, Korin, he directs military efforts to secure the refuge against encroaching trolls, ogres, and human remnants. His strategic push is vital to carving out a lasting foothold for the Horde in Arathi.",
+ "summary": "At Hammerfall, Drum Fel directs the Horde’s fight to hold Arathi against trolls, ogres, and human remnants. With his wife Korin, he works to secure a lasting foothold for the Horde in the region.",
  "sections": [
   {
    "title": "Warden of Hammerfall",
-   "body": "Situated within the fortified refuge of Hammerfall, Drum Fel oversees the defense and territorial expansion of the Horde in Arathi. Surrounded by rival factions, he coordinates military strikes against the Witherbark forest trolls and the Boulderfist ogre clan holding Boulder'gor and Boulderfist Hall. Drum recognizes that Hammerfall cannot merely survive through isolation; it must break its neighbors' strength to thrive. To that end, he regularly directs veteran champions into hostile territory to disrupt regional threats before they can mount an assault on the Horde encampment.",
+   "body": "Drum Fel commands Hammerfall’s defenses and the Horde’s push into Arathi. From the fortified refuge, he faces rival factions on every side. The Witherbark forest trolls and the Boulderfist ogres hold Boulder'gor and Boulderfist Hall. Drum knows Hammerfall cannot thrive by keeping to itself; its neighbors’ strength must be broken. He sends veteran champions into hostile territory to disrupt these threats before they can strike the Horde encampment.",
    "spoiler": 0
   },
   {
    "title": "The Threat in Stromgarde",
-   "body": "Drum Fel's campaign extends into the ruins of Stromgarde Keep, where Boulderfist ogres have entrenched themselves amidst the fallen human kingdom. Years ago, Drum defeated the ogre brute Or'Kalar, earning an enduring grudge. Unknown to Drum, Or'Kalar waits within Stromgarde seeking vengeance. To protect her husband from falling into an ambush fueled by this rivalry, his wife Korin quietly takes measures to obscure Or'Kalar's presence, relying on outside adventurers to eliminate the threat before Drum charges in himself.",
+   "body": "Drum Fel carries his campaign into Stromgarde Keep, where Boulderfist ogres have made their stand among the ruins of the fallen human kingdom. Years ago, Drum defeated the ogre brute Or'Kalar, and the ogre has not forgotten. Or'Kalar now waits inside Stromgarde, seeking vengeance. Korin, Drum’s wife, quietly works to hide Or'Kalar’s presence from her husband. She relies on outside adventurers to remove the threat before Drum charges into an ambush.",
    "spoiler": 1
   }
  ],
@@ -29,7 +29,7 @@
     "who is drum fel",
     "hammerfall drum"
    ],
-   "answer": "Drum Fel is an orc leader located in Hammerfall in the Arathi Highlands. He coordinates the stronghold's military campaigns against rival factions in the region."
+   "answer": "Drum Fel leads the Horde’s military efforts from Hammerfall in the Arathi Highlands, directing campaigns against rival factions in the region."
   },
   {
    "q": "Where can Drum Fel be found?",
@@ -38,7 +38,7 @@
     "where is drum fel",
     "find drum fel"
    ],
-   "answer": "He is located inside the Horde settlement of Hammerfall, situated in northeastern Arathi Highlands just east of the main road heading north into the Hinterlands."
+   "answer": "Drum Fel can be found inside Hammerfall, in northeastern Arathi Highlands, just east of the main road north into the Hinterlands."
   },
   {
    "q": "Who is Korin Fel?",
@@ -46,7 +46,7 @@
     "korin fel",
     "drum fel wife"
    ],
-   "answer": "Korin Fel is Drum's wife. She also resides in Hammerfall."
+   "answer": "Korin Fel is Drum Fel’s wife, and she lives in Hammerfall."
   },
   {
    "q": "Why does the ogre Or'Kalar want Drum Fel dead?",
@@ -55,7 +55,7 @@
     "why does orkalar hate drum fel",
     "or'kalar drum fel"
    ],
-   "answer": "Years ago, Drum Fel defeated Or'Kalar in battle. Deeply humiliated, the ogre now lurks within the ruins of Stromgarde Keep, plotting vengeance against the orc commander."
+   "answer": "Years ago, Drum Fel defeated Or'Kalar in battle. The humiliated ogre now waits in the ruins of Stromgarde Keep, seeking vengeance against Drum."
   },
   {
    "q": "What threats does Drum Fel target?",
@@ -64,17 +64,17 @@
     "drum fel enemies",
     "who does drum fel fight"
    ],
-   "answer": "Drum Fel directs strikes against the Boulderfist ogres at Boulder'gor, Boulderfist Hall, and Stromgarde Keep, as well as the Witherbark troll tribe nearby."
+   "answer": "Drum Fel directs strikes against the Boulderfist ogres at Boulder'gor, Boulderfist Hall, and Stromgarde Keep, along with the nearby Witherbark troll tribe."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "For Horde warriors advancing through the Eastern Kingdoms, Drum Fel serves as a primary military coordinator securing the fragile lifeline between the Undercity and southern territories."
+   "text": "For Horde warriors advancing through the Eastern Kingdoms, Drum Fel coordinates the military effort to secure the fragile lifeline between the Undercity and the southern territories."
   },
   {
    "target": "race:Orc",
-   "text": "Drum Fel embodies the practical military grit required to rebuild orcish lives in the Eastern Kingdoms, holding fast in the very land where the internment camps once stood."
+   "text": "As an orc, Drum Fel shows the hard resolve needed to rebuild orcish lives in the Eastern Kingdoms, holding ground in the land where the internment camps once stood."
   }
  ],
  "keywords": [
@@ -98,5 +98,6 @@
  ],
  "attribution": [
   "Drum Fel"
- ]
+ ],
+ "style": 1
 }

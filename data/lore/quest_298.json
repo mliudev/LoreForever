@@ -17,16 +17,16 @@
   "wiki": "Excavation Progress Report",
   "chain": []
  },
- "summary": "Excavation Progress Report is an Alliance errand run from the digs in Loch Modan back to town. Prospector Ironband tasks an adventurer with carrying his latest excavation dispatches and a renewal of his explosive supply orders to Jern Hornhelm in Thelsamar.",
+ "summary": "In Loch Modan, Ironband sends an excavation report to Thelsamar. Prospector Ironband asks you to carry his latest dispatches and renewed explosive supply orders to Jern Hornhelm.",
  "sections": [
   {
    "title": "A Dispatch to Thelsamar",
-   "body": "Prospector Ironband's archaeological efforts in Loch Modan require constant logistical support from nearby settlements. Excavation is strenuous labor, demanding picks, manpower, and generous quantities of blasting powder to cut through stubborn bedrock. Ironband relies on runners to relay his regular status reports and material requisition orders to Jern Hornhelm, the local expedition contact stationed in Thelsamar.",
+   "body": "Prospector Ironband's dig in Loch Modan depends on supplies from nearby settlements. Excavation takes picks, workers, and plenty of blasting powder to break through bedrock. Ironband sends runners with regular reports and supply requests to Jern Hornhelm, his local contact in Thelsamar.",
    "spoiler": 0
   },
   {
    "title": "Missing Munitions",
-   "body": "Upon receiving Ironband's dispatch, Hornhelm learns that the dig site faces severe harassment from aggressive troggs. While Hornhelm agrees that supplying powder to either crack stone or blast troggs is worthy work, Ironband's renewed requisition raises immediate concern. Hornhelm had dispatched a sizable shipment of blastpowder weeks prior, leaving him to wonder what fate befell the missing munitions along the rugged mountain paths.",
+   "body": "When Jern Hornhelm receives Ironband's dispatch, he learns that aggressive troggs are harassing the dig. Powder could break stone or blast troggs, but Ironband's renewed request gives Hornhelm pause. He sent a large shipment weeks ago, and now wonders what happened to it along the rugged mountain paths.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "who starts excavation progress report",
     "ironband location"
    ],
-   "answer": "Prospector Ironband gives you the report at Ironband's Excavation Site, located in the southeastern hills of Loch Modan. He is supervising the archaeological dig taking place there."
+   "answer": "Prospector Ironband gives you the report at Ironband's Excavation Site in Loch Modan's southeastern hills. He supervises the archaeological dig there."
   },
   {
    "q": "Who is Jern Hornhelm?",
@@ -47,7 +47,7 @@
     "who is the recipient",
     "thelsamar contact"
    ],
-   "answer": "Jern Hornhelm is a dwarven contact for the Explorers' League stationed in Thelsamar. He coordinates local logistics and supplies for archaeological expeditions operating across Loch Modan."
+   "answer": "Jern Hornhelm is a dwarven Explorers' League contact in Thelsamar. He coordinates supplies and local logistics for archaeological expeditions across Loch Modan."
   },
   {
    "q": "Why does Prospector Ironband need more blastpowder?",
@@ -55,7 +55,7 @@
     "why blastpowder",
     "what does ironband want powder for"
    ],
-   "answer": "Ironband ostensibly needs blastpowder to clear solid rock for his excavation. However, the dig site is swarming with hostile troggs, making explosives just as crucial for defense."
+   "answer": "Ironband needs blastpowder to clear solid rock for his excavation. The dig site is also swarming with hostile troggs, so explosives matter for defense as well."
   },
   {
    "q": "What happened to the previous shipment of powder?",
@@ -63,7 +63,7 @@
     "where did the powder go",
     "missing blastpowder"
    ],
-   "answer": "Jern Hornhelm sent a shipment of blastpowder weeks ago that never arrived at the excavation. Its mysterious disappearance signals trouble along the supply routes connecting Thelsamar to the outlying sites."
+   "answer": "Jern Hornhelm sent blastpowder weeks ago, but it never reached the excavation. Its disappearance points to trouble along the routes between Thelsamar and the outlying sites."
   },
   {
    "q": "What follows after delivering the progress report?",
@@ -72,7 +72,7 @@
     "what comes after",
     "report to ironforge"
    ],
-   "answer": "After reviewing Ironband's predicament and the unresolved issue of the missing powder, Hornhelm directs you to deliver word of the expedition's status to superiors in Ironforge."
+   "answer": "After reviewing Ironband's situation and the missing powder, Hornhelm sends you to report the expedition's status to his superiors in Ironforge."
   },
   {
    "q": "Why are troggs attacking the excavation site?",
@@ -80,21 +80,21 @@
     "trogg attack reason",
     "why troggs hate ironband"
    ],
-   "answer": "Dwarven excavations often unearth subterranean chambers and disturb trogg dens. The creatures view the miners as intruders on their territory and violently swarm anyone digging into the earth."
+   "answer": "Dwarven excavations can uncover underground chambers and disturb trogg dens. Troggs see miners as intruders and swarm those digging into the earth."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "For dwarven adventurers, aiding Ironband upholds the vital historical pursuits of the Explorers' League and protects kin from ravenous trogg incursions."
+   "text": "As a dwarf, you help Ironband pursue the Explorers' League's historical work and protect your kin from trogg attacks."
   },
   {
    "target": "profession:Mining",
-   "text": "Miners understand all too well the necessity of reliable blasting powder when breaking dense bedrock and tunneling into ancient strata."
+   "text": "As a miner, you know reliable blasting powder is needed to break dense bedrock and tunnel into ancient strata."
   },
   {
    "target": "faction:Alliance",
-   "text": "Keeping the supply lines open between Thelsamar and remote outposts ensures Alliance authority remains firm throughout the mountains of Loch Modan."
+   "text": "As an Alliance member, you help keep supply lines open between Thelsamar and remote outposts across Loch Modan's mountains."
   }
  ],
  "keywords": [
@@ -117,5 +117,6 @@
  ],
  "attribution": [
   "Excavation Progress Report"
- ]
+ ],
+ "style": 1
 }

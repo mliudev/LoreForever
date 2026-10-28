@@ -17,16 +17,16 @@
   "wiki": "Hides for the Forsaken",
   "chain": []
  },
- "summary": "A grim necessity of undead existence in Tirisfal Glades, where the Forsaken must scavenge animal hides to replace their decaying flesh. Shelene Rhobart tasks adventurers with gathering darkhound hides, duskbat wing membranes, and murloc skin to patch damaged bodies.",
+ "summary": "In Tirisfal, the Forsaken gather animal skins to mend their ruined flesh. Shelene Rhobart asks you to bring darkhound hides, duskbat wing membranes, and murloc skin.",
  "sections": [
   {
    "title": "The Price of Undeath",
-   "body": "Forsaken flesh does not heal naturally. Sustaining physical wounds leaves rotting gaps that cannot regenerate through normal biological means. To maintain their forms and keep their corpses functional, the Forsaken must source organic material from the living world and stitch replacement pieces over their injuries.",
+   "body": "Forsaken flesh cannot heal on its own. A wound leaves a rotting gap, and the body cannot close it through natural means. To keep their forms intact, the Forsaken stitch living tissue over their injuries and keep their corpses working.",
    "spoiler": 0
   },
   {
    "title": "Specialized Materials",
-   "body": "Not every hide serves the same anatomical purpose. Thick darkhound hide offers durability for broad, sturdy repairs. Delicate duskbat wing membranes are light and pliable enough to cover faces and fingers without creating stiff, clumsy layers. Meanwhile, the pliable skin of Vile Fin murlocs is gathered to line internal membranes and sensitive areas such as inner cheeks and mouths.",
+   "body": "Different materials mend different parts of the body. Thick darkhound hide suits broad repairs that need to hold firm. Duskbat wing membranes are thin and pliable, covering faces and fingers without making them stiff. Vile Fin murloc skin lines inner membranes and sensitive places such as cheeks and mouths.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "undead healing lore",
     "do undead heal"
    ],
-   "answer": "The skin of an undead does not naturally heal or regenerate when damaged. In order to survive physical injury and halt outward decay, the Forsaken harvest skins and membranes from living creatures to patch and sew over their wounded bodies."
+   "answer": "Forsaken skin cannot heal or grow back after an injury. They harvest skins and membranes from living creatures to cover wounds and slow the decay."
   },
   {
    "q": "Who is Shelene Rhobart?",
@@ -46,7 +46,7 @@
     "shelene rhobart",
     "who is shelene"
    ],
-   "answer": "Shelene Rhobart is a Forsaken leatherworker in Tirisfal Glades. She collects various hides and biological materials to ensure damaged Forsaken have the resources needed to mend their rotting forms."
+   "answer": "Shelene Rhobart is a Forsaken leatherworker in Tirisfal Glades. She gathers hides and other materials so the wounded can mend their rotting forms."
   },
   {
    "q": "Why are duskbat wing membranes specifically needed?",
@@ -54,7 +54,7 @@
     "duskbat wings use",
     "why duskbat membrane"
    ],
-   "answer": "Duskbat wing membranes are exceptionally thin and supple compared to heavier pelts. This lightness makes them ideal for covering sensitive and intricate parts of the anatomy, such as facial features and fingers, preventing the grafted skin from becoming too thick or rigid."
+   "answer": "Duskbat wing membranes are thin and supple. They cover delicate places such as faces and fingers without making the skin too thick or stiff."
   },
   {
    "q": "What is murloc skin used for?",
@@ -62,7 +62,7 @@
     "why murloc skin",
     "murloc skin undead"
    ],
-   "answer": "Vile Fin murloc skin possesses unique moisture and flexibility, making it well-suited for internal membranes or delicate mucosal surfaces like the inside of cheeks and mouths."
+   "answer": "Vile Fin murloc skin lines inner membranes and delicate surfaces, including the inside of cheeks and mouths."
   },
   {
    "q": "Where are these materials found?",
@@ -70,7 +70,7 @@
     "where to get hides",
     "tirisfal beasts"
    ],
-   "answer": "All three creatures roam the haunted landscapes of Tirisfal Glades. Darkhounds and duskbats stalk the woods and roadsides, while Vile Fin murlocs nest along the northern coast and inland waterways."
+   "answer": "Darkhounds, duskbats, and Vile Fin murlocs roam Tirisfal Glades. Darkhounds and duskbats haunt the woods and roadsides, while Vile Fin murlocs gather along the northern coast and inland waterways."
   },
   {
    "q": "Is using animal hides common for the Forsaken?",
@@ -78,17 +78,17 @@
     "do all forsaken use hides",
     "forsaken fleshcraft"
    ],
-   "answer": "Yes. Sourcing tissues from animals and scavenged remains is a fundamental part of everyday Forsaken survival. Without access to replacement flesh and hides, unhealed wounds would leave underlying bones, organs, and muscles entirely exposed to the elements."
+   "answer": "Yes. The Forsaken rely on animal tissue and scavenged remains to keep going. Without replacement flesh and hides, wounds can leave bones, organs, and muscles exposed."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "A stark reminder of the practical burdens of the Forsaken condition, where survival requires manual upkeep and scavenged grafts rather than natural healing."
+   "text": "As an undead, you face the burdens of the Forsaken condition: keeping your body intact takes constant work and scavenged grafts, not natural healing."
   },
   {
    "target": "profession:Tailoring",
-   "text": "Forsaken tailoring often overlaps with mortuary science, using stitching skills not just for garments, but to bind raw beast membranes to decaying frames."
+   "text": "As a tailor, you can use your stitching to bind beast membranes to decaying bodies as well as to make garments."
   }
  ],
  "keywords": [
@@ -108,5 +108,6 @@
  ],
  "attribution": [
   "Hides for the Forsaken"
- ]
+ ],
+ "style": 1
 }

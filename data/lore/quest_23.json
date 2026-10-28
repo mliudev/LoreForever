@@ -17,16 +17,16 @@
   "wiki": "Ursangous's Paw (quest)",
   "chain": []
  },
- "summary": "This quest represents the proof of felling Ursangous, one of the most ferocious and legendary predators prowling Ashenvale. Bringing the beast's severed paw to Senani Thunderheart at Splintertree Post earns honor among the Horde's trackers.",
+ "summary": "In Ashenvale, Ursangous's Paw proves you brought down one of the forest's fiercest predators. Bring it to Senani Thunderheart at Splintertree Post to earn honor among the Horde's trackers.",
  "sections": [
   {
    "title": "A Trophy of the Great Hunt",
-   "body": "As part of the Ashenvale Hunt, trackers operating out of Splintertree Post are tasked with pursuing the ancient beasts that dominate the dense forest canopy. Ursangous ranks among the fiercest of these apex predators, known for killing numerous travelers and warriors who crossed his path. Taking down such a beast is no small feat, and claiming his paw serves as undeniable physical proof that the mighty creature has finally met his match.",
+   "body": "The Ashenvale Hunt sends trackers from Splintertree Post after the ancient beasts that rule the forest canopy. Ursangous is among the fiercest, known for killing travelers and warriors who cross his path. Bringing back his paw proves the mighty beast has fallen to your hunt.",
    "spoiler": 0
   },
   {
    "title": "The Night Elf Connection",
-   "body": "Upon closer examination of Ursangous's paw, a small quarter-crescent emblem is visible carved or marked into the flesh. When presented to Senani Thunderheart, she identifies this mark as a clear indicator of kaldorei influence. The night elves often train and bond with the forest's formidable beasts to defend their sacred borders, meaning Ursangous was likely more than just a wild predator—he served as an unwitting guardian or weapon of the Alliance.",
+   "body": "A quarter-crescent mark is carved or pressed into Ursangous's paw. Senani Thunderheart recognizes it as a sign of kaldorei influence. Night elves train and bond with formidable forest beasts to defend their sacred borders, so Ursangous may have been more than a wild predator: he may have guarded or served as a weapon for the Alliance.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "ursangous bear",
     "ursangous lore"
    ],
-   "answer": "Ursangous is an exceptionally massive and deadly bear roaming the forests of Ashenvale. Feared by hunters and wayfarers alike, he has claimed countless lives before falling to the Horde's hunt."
+   "answer": "Ursangous is an exceptionally massive, deadly bear that roams Ashenvale. Hunters and wayfarers fear him, and he claimed countless lives before the Horde's hunt brought him down."
   },
   {
    "q": "What does the crescent emblem on the paw mean?",
@@ -47,7 +47,7 @@
     "paw emblem",
     "why is there a crescent"
    ],
-   "answer": "The quarter-crescent emblem is a mystery when you inspect the trophy. Senani Thunderheart can examine it when you deliver the paw."
+   "answer": "The quarter-crescent mark on the paw is a mystery when you inspect the trophy. Senani Thunderheart can examine it when you bring her the paw."
   },
   {
    "q": "Who do I bring Ursangous's Paw to?",
@@ -56,7 +56,7 @@
     "who wants ursangous paw",
     "senani thunderheart location"
    ],
-   "answer": "The paw must be delivered to Senani Thunderheart, the tauren huntress stationed at Splintertree Post in eastern Ashenvale."
+   "answer": "Bring Ursangous's Paw to Senani Thunderheart, the tauren huntress at Splintertree Post in eastern Ashenvale."
   },
   {
    "q": "How does this fit into the Ashenvale Hunt?",
@@ -65,7 +65,7 @@
     "what is the hunt",
     "hunting quest line"
    ],
-   "answer": "Ursangous is one of three great beasts targeted in the Ashenvale Hunt, alongside Shadumbra and Sharptalon. Defeating all three and presenting their trophies is required to complete the overall rite."
+   "answer": "Ursangous is one of three great beasts hunted in Ashenvale, alongside Shadumbra and Sharptalon. Defeat all three and present their trophies to complete the rite."
   },
   {
    "q": "Why is the Horde hunting the great beasts of Ashenvale?",
@@ -73,7 +73,7 @@
     "why hunt bears",
     "splintertree hunting lore"
    ],
-   "answer": "Horde hunters, particularly the tauren and orcs at Splintertree Post, hunt these apex creatures both to test their martial prowess and to curb the deadliest threats lurking near their vulnerable supply lines and encampments."
+   "answer": "Horde hunters, especially the tauren and orcs at Splintertree Post, hunt these deadly beasts to test their martial prowess and curb threats near their vulnerable supply lines and encampments."
   },
   {
    "q": "What happens after turning in the paw?",
@@ -81,21 +81,21 @@
     "next quest after paw",
     "what follows ursangous"
    ],
-   "answer": "Once you have collected the trophies of Ursangous and the other designated quarry, Senani Thunderheart will acknowledge your triumph in the concluding trial, The Hunt Completed."
+   "answer": "After you collect Ursangous's trophy and those of the other designated quarry, Senani Thunderheart will acknowledge your triumph in the concluding trial, The Hunt Completed."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "For tauren hunters, taking Ursangous's paw is a sacred matter of honoring the beast while demonstrating martial resolve and respect for the spirits of the hunt."
+   "text": "As a tauren hunter, taking Ursangous's paw honors the beast and shows your martial resolve and respect for the spirits of the hunt."
   },
   {
    "target": "faction:Horde",
-   "text": "Horde hunters regard Ursangous as a dangerous quarry whose defeat earns honor at Splintertree Post."
+   "text": "As a member of the Horde, you can earn honor at Splintertree Post by defeating the dangerous Ursangous."
   },
   {
    "target": "class:Hunter",
-   "text": "Tracking and besting one of Ashenvale's oldest and deadliest predators stands as a premier test of fieldcraft, survival, and combat skill."
+   "text": "As a hunter, tracking and defeating one of Ashenvale's oldest and deadliest predators tests your fieldcraft, survival, and combat skill."
   }
  ],
  "keywords": [
@@ -117,5 +117,6 @@
  ],
  "attribution": [
   "Ursangous's Paw (quest)"
- ]
+ ],
+ "style": 1
 }

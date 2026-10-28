@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Fire Scar Shrine"
  },
- "summary": "Fire Scar Shrine is a despoiled night elf shrine nestled in the southwestern forests of Ashenvale. Once a serene place of worship, it has been corrupted by demonic forces and turned into a blister of fel energy right on Astranaar's doorstep.",
+ "summary": "At Fire Scar Shrine, fel corruption scars the forest southwest of Astranaar. Once a night elf place of worship, the shrine now draws demons to its altar stones.",
  "sections": [
   {
    "title": "A Blight in the Forest",
-   "body": "Located southwest of Astranaar and west of the Ruins of Stardust, Fire Scar Shrine stands as a grim reminder of the Burning Legion's lingering poison in Ashenvale. The shrine has fallen under the sway of demonic corruption, nurtured by servants of the shadowy Cult of the Dark Strand and the Shadow Council. Fel magic has twisted the surrounding earth into scorched rock, where roaming demons now gather in open defiance of the forest's defenders.",
+   "body": "Fire Scar Shrine lies southwest of Astranaar and west of the Ruins of Stardust. Demonic corruption has seized the shrine, fed by servants of the Cult of the Dark Strand and the Shadow Council. Fel magic has scorched the earth around it, and demons gather openly among the trees, defying the forest's defenders.",
    "spoiler": 0
   },
   {
    "title": "Shadows of the Dark Strand",
-   "body": "The shrine's descent into darkness was spearheaded by agents like the orcish warlock Ilkrud Magthrull, operating under the orders of Athrikus Narassin. Though mortal sorcerers brought the corruption to bear, summoned fiends now patrol the altar stones unchecked. The localized tear in the veil occasionally draws greater horrors, including the towering doomguard Akkrilus.",
+   "body": "Agents of the Cult of the Dark Strand and the Shadow Council brought corruption to Fire Scar Shrine. The orc warlock Ilkrud Magthrull acted under Athrikus Narassin's orders. Summoned fiends now patrol the altar stones unchecked. A tear in the veil sometimes draws greater horrors, including the towering doomguard Akkrilus.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "where is fire scar shrine",
     "fire scar shrine map"
    ],
-   "answer": "Fire Scar Shrine is situated in southwestern Ashenvale, directly southwest of the night elf hub of Astranaar, south of the Shrine of Aessina, and just west of the Ruins of Stardust."
+   "answer": "Fire Scar Shrine lies in southwestern Ashenvale, southwest of Astranaar, south of the Shrine of Aessina, and west of the Ruins of Stardust."
   },
   {
    "q": "Why are there demons at Fire Scar Shrine?",
@@ -37,7 +37,7 @@
     "what corrupted fire scar shrine",
     "who summoned the demons"
    ],
-   "answer": "The shrine was infiltrated and corrupted by agents of the Shadow Council and the Cult of the Dark Strand, notably the orc warlock Ilkrud Magthrull. Their dark rituals summoned demons and infused the sacred ground with lingering fel taint."
+   "answer": "Agents of the Shadow Council and the Cult of the Dark Strand corrupted Fire Scar Shrine, with the orc warlock Ilkrud Magthrull among them. Their rituals summoned demons and left fel taint on the sacred ground."
   },
   {
    "q": "Who is Akkrilus?",
@@ -46,7 +46,7 @@
     "doomguard at fire scar",
     "rare demon fire scar shrine"
    ],
-   "answer": "Akkrilus is a formidable doomguard that occasionally manifests around Fire Scar Shrine, drawn to the potent demonic energies that pool around the corrupted stones."
+   "answer": "Akkrilus is a doomguard that sometimes appears around Fire Scar Shrine, drawn by the demonic energies gathered around its corrupted stones."
   },
   {
    "q": "What connection does this place have to the Cult of the Dark Strand?",
@@ -55,17 +55,17 @@
     "dark strand connection",
     "athrikus narassin fire scar"
    ],
-   "answer": "The orc warlock who operated here, Ilkrud Magthrull, served Athrikus Narassin, the leader of the Cult of the Dark Strand. They leveraged the shrine as a foothold for their demonic summoning and dark ambitions within Ashenvale."
+   "answer": "Ilkrud Magthrull, the orc warlock who operated at Fire Scar Shrine, served Athrikus Narassin, leader of the Cult of the Dark Strand. They used the shrine as a foothold for demonic summoning and their ambitions in Ashenvale."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "The desecration of Fire Scar Shrine is a bitter affront so near to Astranaar, demanding swift retribution against any demonic trespassers who sully the forest."
+   "text": "As a night elf, the desecration of Fire Scar Shrine so near Astranaar calls for swift retribution against the demons sullying the forest."
   },
   {
    "target": "class:Warlock",
-   "text": "The fel scarring and wild demonic summons here bear the clear signature of the Shadow Council's subtle infiltrations throughout Kalimdor."
+   "text": "As a warlock, you can read the Shadow Council's mark in the fel scars and wild demonic summons at Fire Scar Shrine, signs of its infiltrations across Kalimdor."
   }
  ],
  "keywords": [
@@ -87,5 +87,6 @@
  ],
  "attribution": [
   "Fire Scar Shrine"
- ]
+ ],
+ "style": 1
 }

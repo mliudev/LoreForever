@@ -10,16 +10,16 @@
    "quest:556"
   ]
  },
- "summary": "Worn Stone Tokens are small magical talismans carried by personnel and mages associated with Dalaran in the Alterac Mountains. Though their ambient magic has largely faded, they were crafted to help the Kirin Tor bind and command elemental servants.",
+ "summary": "Across the Alterac Mountains, Worn Stone Token enchantments have faded, though Dalaran crafted them to command elementals. The tokens remain with Dalaran personnel, from mages to laborers.",
  "sections": [
   {
    "title": "Tokens of Elemental Mastery",
-   "body": "The magi of Dalaran have long possessed a formidable command over elemental entities, using specialized talismans to bend these extradimensional beings to their will. Worn Stone Tokens represent depleted or exhausted versions of these implements. Carried not only by theurgists and summoners but even by Dalaran laborers and guards stationed around the ruins and internment camps of Alterac, they demonstrate how deeply elemental binding is integrated into Dalaran's everyday operations.",
+   "body": "Dalaran’s magi command elementals with talismans that bend beings from other realms to their will. Worn Stone Tokens are depleted versions of these implements. Theurgists and summoners carry them, as do Dalaran laborers and guards stationed around the ruins and internment camps of Alterac. Their presence shows how deeply elemental binding reaches into Dalaran’s daily work.",
    "spoiler": 0
   },
   {
    "title": "Forsaken Curiosity",
-   "body": "From their outpost in Tarren Mill, the Forsaken keep a watchful eye on the nearby wizards. Magus Voidglare sought specimens of these tokens to decipher Dalaran's methods of elemental enslavement. Keeper Bel'varil directs agents to collect worn, inert tokens first, allowing the Magus to safely analyze the foundational enchanting techniques before experimenting with more potent, volatile conduits.",
+   "body": "At Tarren Mill, the Forsaken watch the nearby wizards. Magus Voidglare seeks Worn Stone Tokens to study Dalaran’s methods of enslaving elementals. Keeper Bel'varil directs agents to gather worn, inert tokens first. These let the Magus examine basic enchanting techniques safely before attempting more potent, volatile conduits.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "what are stone tokens",
     "why do dalaran carry tokens"
    ],
-   "answer": "Dalaran's wizards use these magical stone tokens to command and bind elementals summoned from other realms to serve as laborers, guards, and defenders."
+   "answer": "Dalaran’s wizards use the stone tokens to bind and command elementals summoned from other realms, setting them to work as laborers, guards, and defenders."
   },
   {
    "q": "Why are the tokens described as worn?",
@@ -40,7 +40,7 @@
     "are tokens magical",
     "inert tokens"
    ],
-   "answer": "Their active enchantments have faded over time and heavy use. Keeper Bel'varil considers these inert specimens safer for Magus Voidglare's initial research into Dalaran's binding rituals."
+   "answer": "The tokens’ active enchantments have faded with time and heavy use. Keeper Bel'varil considers inert specimens safer for Magus Voidglare’s first study of Dalaran’s binding rituals."
   },
   {
    "q": "Who carries these tokens?",
@@ -49,7 +49,7 @@
     "where to get tokens",
     "dalaran token drops"
    ],
-   "answer": "They are found on various Dalaran personnel operating in the southern Alterac Mountains, ranging from high-ranking summoners and theurgists to ordinary laborers, shield guards, and Warden Belamoore at the internment camp."
+   "answer": "Dalaran personnel in the southern Alterac Mountains carry them, from high-ranking summoners and theurgists to ordinary laborers, shield guards, and Warden Belamoore at the internment camp."
   },
   {
    "q": "Why does the Forsaken want them?",
@@ -57,17 +57,17 @@
     "why does belvaril want tokens",
     "magus voidglare tokens"
    ],
-   "answer": "Magus Voidglare wishes to study Dalaran's arcane techniques for controlling elementals, seeking to unravel the secrets behind their summoning and subjugation arts."
+   "answer": "Magus Voidglare wants to study Dalaran’s arcane control of elementals and unravel its arts of summoning and subjugation."
   }
  ],
  "angles": [
   {
    "target": "class:Mage",
-   "text": "Mages recognize these tokens as the practical focus items the Kirin Tor uses to keep conjured elementals stable and obedient in the field."
+   "text": "As a mage, you recognize these tokens as practical focuses the Kirin Tor uses to keep conjured elementals stable and obedient in the field."
   },
   {
    "target": "faction:Horde",
-   "text": "Securing these tokens aids the Forsaken at Tarren Mill in studying the arcane defenses and practices of the hostile Kirin Tor presence in Alterac."
+   "text": "As a member of the Horde, you can help the Forsaken at Tarren Mill study the arcane defenses and practices of the hostile Kirin Tor presence in Alterac."
   }
  ],
  "keywords": [
@@ -91,5 +91,6 @@
  "attribution": [
   "Worn Stone Token",
   "Stone Tokens"
- ]
+ ],
+ "style": 1
 }

@@ -17,16 +17,16 @@
   "wiki": "Hallowed Rune (Classic)",
   "chain": []
  },
- "summary": "Hallowed Rune is an introductory quest for fledgling dwarven priests in Coldridge Valley. Sten Stoutarm passes along an inscribed rune from priest trainer Branstock Khalder, summoning the novice inside Anvilmar to deepen their connection with the Holy Light.",
+ "summary": "In Coldridge Valley, Hallowed Rune brings a young dwarf priest to Anvilmar. Sten Stoutarm carries Branstock Khalder’s inscribed prayers and guidance to the novice, who is summoned inside to deepen their bond with the Holy Light.",
  "sections": [
   {
    "title": "A Calling to the Cloth",
-   "body": "While assisting Sten Stoutarm with clearing the immediate threats outside Anvilmar, a newly arrived priest catches the eye of the settlement's spiritual guide. Branstock Khalder entrusts Sten with a hallowed rune inscribed with prayers and guidance, directing the young adventurer to step inside the sturdy halls of Anvilmar to formally begin their sacred studies.",
+   "body": "A young priest earns Sten Stoutarm’s notice while helping clear threats outside Anvilmar. Branstock Khalder, the settlement’s spiritual guide, gives Sten a rune inscribed with prayers and guidance for the novice. The young priest is called inside Anvilmar’s sturdy halls to begin sacred studies.",
    "spoiler": 0
   },
   {
    "title": "Defenders of Coldridge",
-   "body": "Though dwarven culture often emphasizes martial fortitude and heavy plate, the Holy Light remains a cornerstone of Ironforge society. In Coldridge Valley, holy casters play a vital role alongside warriors and hunters in shielding the enclave from aggressive trogg incursions and dangerous wildlife creeping through the snow drifts.",
+   "body": "Dwarven life prizes martial strength and heavy plate, yet the Holy Light remains central to Ironforge society. In Coldridge Valley, holy casters stand with warriors and hunters to protect the enclave from trogg incursions and dangerous wildlife moving through the snow.",
    "spoiler": 0
   }
  ],
@@ -37,7 +37,7 @@
     "what is hallowed rune",
     "rune purpose"
    ],
-   "answer": "It is an inscribed clerical rune provided by Sten Stoutarm on behalf of Branstock Khalder. Reading it serves as an introduction to basic prayers and encourages young priests to seek out formal training."
+   "answer": "Sten Stoutarm gives the inscribed clerical rune on Branstock Khalder’s behalf. Its prayers introduce young priests to the faith and point them toward formal training."
   },
   {
    "q": "Who is Branstock Khalder?",
@@ -45,7 +45,7 @@
     "branstock",
     "priest trainer coldridge"
    ],
-   "answer": "Branstock Khalder is the dwarven priest trainer stationed inside Anvilmar. Known for his dry humor and steadfast faith, he mentors nascent acolytes and teaches them foundational Holy spells to aid the defense of Coldridge Valley."
+   "answer": "Branstock Khalder trains dwarven priests inside Anvilmar. His dry humor and steadfast faith guide new acolytes as he teaches the foundational Holy spells used to defend Coldridge Valley."
   },
   {
    "q": "Where do I find Branstock Khalder?",
@@ -53,7 +53,7 @@
     "branstock location",
     "where is branstock"
    ],
-   "answer": "He can be found inside the main stone lodge of Anvilmar, located in the central clearing of Coldridge Valley in Dun Morogh."
+   "answer": "Branstock Khalder is inside Anvilmar’s main stone lodge, in the central clearing of Coldridge Valley in Dun Morogh."
   },
   {
    "q": "Why do dwarves need priests in Coldridge Valley?",
@@ -61,7 +61,7 @@
     "why dwarven priests",
     "priests in anvilmar"
    ],
-   "answer": "Troggs have overrun parts of the valley, and the local guards rely on the mending powers and holy smiting of Light-wielders to sustain their lines and heal the wounded."
+   "answer": "Troggs have overrun parts of the valley. Guards rely on priests to heal the wounded and use the Light to smite their foes and hold their lines."
   },
   {
    "q": "Can any class take this quest?",
@@ -69,7 +69,7 @@
     "who can get hallowed rune",
     "is this quest priest only"
    ],
-   "answer": "No. The Hallowed Rune is specifically given only to young dwarf priests beginning their journey in Coldridge Valley."
+   "answer": "No. Only young dwarf priests beginning their journey in Coldridge Valley receive the Hallowed Rune."
   },
   {
    "q": "Who delivers the rune to the player?",
@@ -77,17 +77,17 @@
     "who starts hallowed rune",
     "sten stoutarm role"
    ],
-   "answer": "Sten Stoutarm, an Anvilmar mountaineer overseeing trials just outside the lodge, hands the rune over after you assist him with early valley defense."
+   "answer": "Sten Stoutarm delivers the rune. He is an Anvilmar mountaineer who oversees trials outside the lodge and gives it to you after you help defend the early valley."
   }
  ],
  "angles": [
   {
    "target": "class:Priest",
-   "text": "This rune marks your formal recognition as a servant of the Holy Light in Dun Morogh, directing you to Branstock Khalder for your earliest spellcraft."
+   "text": "As a priest, this rune marks your formal recognition as a servant of the Holy Light in Dun Morogh and sends you to Branstock Khalder for your first spellcraft."
   },
   {
    "target": "race:Dwarf",
-   "text": "Dwarven priests blend deep devotion to the Light with standard mountain grit, proving essential to holding Coldridge Valley against invading troggs."
+   "text": "As a dwarf, you join devotion to the Light with mountain grit, helping hold Coldridge Valley against invading troggs."
   }
  ],
  "keywords": [
@@ -111,5 +111,6 @@
  ],
  "attribution": [
   "Hallowed Rune (Classic)"
- ]
+ ],
+ "style": 1
 }

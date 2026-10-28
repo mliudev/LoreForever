@@ -22,21 +22,21 @@
    "Plea To The Alliance"
   ]
  },
- "summary": "Following a devastating explosion that rocked northern Wetlands, Rhag Garmason asks travelers to search the ruined bridges of the Thandol Span for a missing dwarf scout. The Dark Iron clan has launched a brutal assault against Dun Modr, cutting off communication and leaving local defenders stranded without reinforcements. Finding Ol' Rustlocke is the first step toward uncovering the full scale of the sabotage.",
+ "summary": "After a blast shatters the northern crossing, Rhag Garmason asks travelers to search for a missing dwarf scout. The Dark Iron clan has attacked Dun Modr, cutting off communication and stranding its defenders without reinforcements. Ol' Rustlocke may hold a clue to the sabotage.",
  "sections": [
   {
    "title": "Thunder Over the Span",
-   "body": "A catastrophic blast recently tore through the Thandol Span, shattering the massive stone bridge connecting the Wetlands to the Arathi Highlands. Bronzebeard soldiers stationed at the border were caught in the devastation as Dark Iron dwarves ambushed Dun Modr. With their ranks thinned and their strongholds besieged, the survivors under Longbraid the Grim have been forced into a desperate defensive holdout against the attackers.",
+   "body": "A blast has torn through the bridge between Wetlands and the Arathi Highlands. Bronzebeard soldiers at the border were caught in the devastation when Dark Iron dwarves attacked Dun Modr. Their ranks are thinned, and their strongholds are under siege. The survivors, led by Longbraid the Grim, hold their ground against the attackers.",
    "spoiler": 0
   },
   {
    "title": "A Scout Sent East",
-   "body": "Hoping to salvage a crossing and determine whether any path northward remains usable, Longbraid dispatched the veteran scout Ebenezer Rustlocke to inspect the eastern span. Days passed without a single report, but with Dun Modr actively under siege, Rhag Garmason and the garrison lack the soldiers to launch a rescue expedition into enemy-controlled rubble.",
+   "body": "Longbraid sent veteran scout Ebenezer Rustlocke to inspect the eastern span and see whether a crossing or a northern route remained usable. Days have passed without a report. Dun Modr is under siege, and Rhag Garmason and the garrison have too few soldiers to search the enemy-held rubble for him.",
    "spoiler": 0
   },
   {
    "title": "Grim Discovery",
-   "body": "Venturing out onto the shattered span reveals the cost of the Dark Iron assault. Far from returning with reconnaissance, Ol' Rustlocke was slain amidst the debris of the eastern bridge. His body and the parchment clutched in his fist confirm the worst: he ran into a Dark Iron ambush, and the Dark Irons are not yet finished with the vital artery between Khaz Modan and Lordaeron.",
+   "body": "Ol' Rustlocke lies dead among the eastern bridge's debris. His body and the parchment in his fist show that he fell into a Dark Iron ambush while scouting. The Dark Irons still threaten the route between Khaz Modan and Lordaeron.",
    "spoiler": 1
   }
  ],
@@ -48,7 +48,7 @@
     "what is thandol bridge",
     "wetlands bridge"
    ],
-   "answer": "The Thandol Span is a colossal dwarven bridge structure that spans the chasm between the northern Wetlands and the Arathi Highlands. It serves as the primary land route connecting Khaz Modan to the northern lands of Lordaeron."
+   "answer": "The Thandol Span crosses the chasm between northern Wetlands and the Arathi Highlands. This dwarven bridge is the main land route from Khaz Modan to the northern lands of Lordaeron."
   },
   {
    "q": "Who attacked the Thandol Span?",
@@ -57,7 +57,7 @@
     "thandol span explosion",
     "who attacked dun modr"
    ],
-   "answer": "The Dark Iron dwarf clan attacked the bridge and the nearby outpost of Dun Modr. They detonated explosives to sever the span, crippling Alliance transit and catching the Bronzebeard defenders off guard."
+   "answer": "The Dark Iron dwarf clan attacked the bridge and nearby Dun Modr. They used explosives to sever the span, crippling Alliance travel and catching the Bronzebeard defenders off guard."
   },
   {
    "q": "Who is Ol' Rustlocke?",
@@ -66,7 +66,7 @@
     "who is rustlocke",
     "missing scout"
    ],
-   "answer": "Ebenezer Rustlocke was a trusted dwarven scout serving Longbraid the Grim. He was sent to assess the condition of the eastern bridge following the explosion, but he was overwhelmed and killed by Dark Iron forces during his mission."
+   "answer": "Ebenezer Rustlocke was a trusted dwarven scout serving Longbraid the Grim. He was sent to inspect the eastern bridge after the explosion and was killed by Dark Iron forces during his mission."
   },
   {
    "q": "Where is Rhag Garmason located?",
@@ -75,7 +75,7 @@
     "where is rhag",
     "quest giver dun modr"
    ],
-   "answer": "Rhag Garmason is stationed near the beleaguered settlement of Dun Modr, just south of the Thandol Span in northern Wetlands. He helps coordinate defense efforts while the garrison is cut off from Ironforge."
+   "answer": "Rhag Garmason is near Dun Modr, just south of the Thandol Span in northern Wetlands. He helps coordinate the defense while the garrison is cut off from Ironforge."
   },
   {
    "q": "Why hasn't Ironforge sent help to Dun Modr?",
@@ -84,7 +84,7 @@
     "ironforge help wetlands",
     "dun modr reinforcement"
    ],
-   "answer": "The suddenness of the attack, combined with the destruction of the bridge and the siege of Dun Modr, has left the garrison isolated. The defenders are stretched too thin to send couriers or divert troops, leaving them dependent on passing adventurers to deliver word."
+   "answer": "The attack came suddenly, the bridge is destroyed, and Dun Modr is under siege. The isolated defenders are too stretched to send couriers or divert troops, so they rely on passing travelers to carry word."
   },
   {
    "q": "What happens after finding Rustlocke's corpse?",
@@ -93,17 +93,17 @@
     "thandol span continuation",
     "after the thandol span"
    ],
-   "answer": "Rustlocke's remains hold a parchment showing that Kam Deepfury, mastermind of the attack, had a cache of explosives stashed just across the span. This begins an effort to destroy the cache before it reaches the remaining bridge and ultimately seek aid through a plea to the Alliance camp at Refuge Pointe."
+   "answer": "Rustlocke's remains hold a parchment showing that Kam Deepfury had explosives stashed just across the span. The parchment begins an effort to destroy the cache before it reaches the remaining bridge, then seek aid from the Alliance camp at Refuge Pointe."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "The destruction of the Thandol Span is an affront to dwarven stonework and a direct strike against Khaz Modan by their hated Dark Iron kin."
+   "text": "As a dwarf, you may see the destruction of the Thandol Span as an insult to dwarven stonework and a blow against Khaz Modan by your hated Dark Iron kin."
   },
   {
    "target": "faction:Alliance",
-   "text": "The Thandol Span is the sole overland supply corridor linking Stormwind and Ironforge to Alliance forces holding out in Arathi and Hillsbrad."
+   "text": "As an Alliance member, you know the Thandol Span is the only overland supply route linking Stormwind and Ironforge to Alliance forces in Arathi and Hillsbrad."
   }
  ],
  "keywords": [
@@ -125,5 +125,6 @@
  ],
  "attribution": [
   "The Thandol Span"
- ]
+ ],
+ "style": 1
 }

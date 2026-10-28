@@ -10,16 +10,16 @@
    "quest:1359"
   ]
  },
- "summary": "Wolf Heart Samples are peculiar organic specimens gathered from corrupted wolves in Silverpine Forest. Despite their lethal toxicity, the hearts beat within the living creatures without killing them, drawing the intense scientific interest of the Royal Apothecary Society.",
+ "summary": "In Silverpine Forest, wolf hearts hold a poison their living hosts endure. Apothecary Renferrel sends samples to the Royal Apothecary Society, whose members study them.",
  "sections": [
   {
    "title": "A Toxic Paradox",
-   "body": "While examining carcasses in Silverpine Forest, Apothecary Renferrel discovered that certain wolf hearts harbor a deadly compound. Strangely, the level of poison present within the tissue should easily be fatal to the wolves themselves. Recognizing the unique value of a physiology that thrives while saturated in lethal toxicity, Renferrel set aside tissue samples to be dispatched directly to Undercity. For the Forsaken, studying naturally resilient or toxic organisms is a critical step in mastering biological warfare and compounding new reagents.",
+   "body": "Apothecary Renferrel found a deadly compound in certain wolf hearts while examining carcasses in Silverpine Forest. The poison saturates the tissue at a level that should kill the wolves, yet they live. Renferrel set tissue samples aside for delivery to Undercity. The Forsaken study organisms that withstand toxins as they seek to master biological warfare and prepare new reagents.",
    "spoiler": 0
   },
   {
    "title": "Consignment to Undercity",
-   "body": "Entrusted to couriers heading deep beneath the ruins of Lordaeron, the samples are delivered to Apothecary Zinge within the Royal Apothecary Society's headquarters in the Apothecarium. Zinge and her colleagues prize novel toxins above almost all else. By dissecting and experimenting on these tainted tissues, the Society seeks to isolate the virulent compounds and unravel how the beasts survived them, hoping to apply the principles to their own alchemical projects.",
+   "body": "Couriers carry the samples beneath the ruins of Lordaeron to Apothecary Zinge at the Royal Apothecary Society's headquarters in the Apothecarium. Zinge and her colleagues prize new toxins. They dissect and test the tainted tissue to isolate its virulent compounds and learn how the beasts survive them, hoping to use that knowledge in their alchemical work.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "what makes the hearts special",
     "why do apothecaries want wolf hearts"
    ],
-   "answer": "The samples contain an intense, unexplained toxicity that normally would have killed the host wolves. The Royal Apothecary Society is fascinated by both the virulent poison itself and the biological mechanism allowing the creatures to survive it."
+   "answer": "The wolf hearts contain intense, unexplained toxicity that should have killed their hosts. The Royal Apothecary Society wants to understand both the poison and how the wolves survive it."
   },
   {
    "q": "Who requests these samples?",
@@ -40,7 +40,7 @@
     "who sent the samples",
     "who receives the samples"
    ],
-   "answer": "Apothecary Renferrel collected the samples after studying wolves in Silverpine Forest. He instructed a courier to deliver them directly to his colleague, Apothecary Zinge, at the Society's headquarters in Undercity."
+   "answer": "Apothecary Renferrel collected the samples after studying wolves in Silverpine Forest. He arranged for a courier to take them to his colleague, Apothecary Zinge, at the Society's headquarters in Undercity."
   },
   {
    "q": "What will Apothecary Zinge do with them?",
@@ -49,7 +49,7 @@
     "zinge experiments",
     "apothecary zinge research"
    ],
-   "answer": "Apothecary Zinge conducts alchemical experiments and dissections on the samples. The Royal Apothecary Society constantly catalogs and weaponizes novel toxins to develop new plagues and concoctions for Queen Sylvanas."
+   "answer": "Apothecary Zinge dissects and tests the samples. The Royal Apothecary Society catalogs and weaponizes new toxins to develop plagues and concoctions for Queen Sylvanas."
   },
   {
    "q": "Where did the wolves originate?",
@@ -58,13 +58,13 @@
     "silverpine wolves",
     "wolf location"
    ],
-   "answer": "The wolves were hunted in the tainted wilds of Silverpine Forest, an area heavily afflicted by dark magic, decay, and strange corruption that alters the local fauna."
+   "answer": "The wolves came from Silverpine Forest, where dark magic, decay, and strange corruption afflict the wilds and alter the local fauna."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "The Royal Apothecary Society's endless pursuit of lethal reagents fuels the survival and defense of the Forsaken against living and undead enemies alike."
+   "text": "As an Undead, you depend on the Royal Apothecary Society's pursuit of lethal reagents to defend the Forsaken against living and undead enemies alike."
   }
  ],
  "keywords": [
@@ -86,5 +86,6 @@
  "attribution": [
   "Wolf Heart Samples",
   "Zinge's Delivery"
- ]
+ ],
+ "style": 1
 }

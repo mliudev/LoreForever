@@ -1,0 +1,62 @@
+{
+ "key": "quest:97931",
+ "type": "quest",
+ "name": "Camping 101: First Aid",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   97931
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "You can now make your own bandage pouch. To try it, you need to camp in the wilderness, where a campfire is also needed.",
+ "sections": [
+  {
+   "title": "A Place to Camp",
+   "body": "The pouch is ready to make, but most people dislike camps in the middle of town. You need to try it in the wilderness. A campfire is required before you can set up camp, and most cooks can teach you how to make one.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where can I try the bandage pouch?",
+   "aliases": [
+    "where try pouch",
+    "bandage pouch place"
+   ],
+   "answer": "You need to try it in the wilderness, since most people dislike camps in the middle of town."
+  },
+  {
+   "q": "What do I need before setting up camp?",
+   "aliases": [
+    "campfire needed",
+    "what for camping"
+   ],
+   "answer": "You need a campfire before you can set up camp."
+  },
+  {
+   "q": "Who can teach me to make a campfire?",
+   "aliases": [
+    "make campfire",
+    "fire teacher"
+   ],
+   "answer": "Most cooks can teach you how to make a campfire."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "bandage pouch",
+  "campfire",
+  "camping",
+  "cooking",
+  "first aid",
+  "wilderness"
+ ],
+ "related": [],
+ "style": 1,
+ "attribution": [
+  "In-game quest text: Camping 101: First Aid"
+ ]
+}

@@ -21,16 +21,16 @@
    "Call of Earth (Mulgore 3)"
   ]
  },
- "summary": "This rite concludes a young tauren shaman's initial communion with the spirits of the land in Mulgore. After drinking the Sapta of Earth and speaking directly with a spirit manifestation, the initiate receives a fragment of raw stone to bring home. Returning to Camp Narache marks the fledgling mystic's formal bond with the first of the four elements.",
+ "summary": "After the first communion with the land spirits in Mulgore, a young tauren shaman returns to Camp Narache with a gift from the earth. Drinking the Earth Sapta lets the initiate speak directly with a spirit manifestation and receive raw stone, binding them to the first of the four elements.",
  "sections": [
   {
    "title": "A Gift from the Mountain",
-   "body": "Upon communing with the Minor Manifestation of Earth atop the crags near Red Cloud Mesa, the spirit yields a simple Rough Quartz. Though plain in appearance, the stone represents an elemental pact and the endurance of stone itself. The spirit reminds the young shaman that patience and strength are the core virtues demanded by the earth, promising that mutual respect will grant harmony with the land.",
+   "body": "After drinking the Earth Sapta, you meet the Minor Manifestation of Earth atop the crags near Red Cloud Mesa. The spirit gives you a plain Rough Quartz. It represents your pact with the element and the endurance of stone. The spirit reminds you that patience and strength are the virtues the earth demands, and promises harmony with the land through mutual respect.",
    "spoiler": 0
   },
   {
    "title": "The First Totem",
-   "body": "Returning to Camp Narache, Seer Ravenfeather uses the gifted quartz to fashion the shaman's very first Earth Totem. Far more than a decorative symbol of status, the totem serves as a permanent physical and spiritual anchor. Through this carved focus, the initiate channels the grounding, protective magic of the earth itself, taking the first true step along the fourfold elemental path.",
+   "body": "At Camp Narache, Seer Ravenfeather shapes the gifted quartz into your first Earth Totem. The totem is more than a mark of status: it is a lasting physical and spiritual anchor. Through this carved focus, you channel the earth’s grounding, protective magic and take your first true step along the fourfold elemental path.",
    "spoiler": 0
   }
  ],
@@ -42,7 +42,7 @@
     "what is the quartz for",
     "rough quartz use"
    ],
-   "answer": "The quartz is a token given directly by the Minor Manifestation of Earth as proof of communion. Seer Ravenfeather uses it as the spiritual heart of your newly carved Earth Totem."
+   "answer": "The Rough Quartz is a token the Minor Manifestation of Earth gives you as proof of communion. Seer Ravenfeather uses it as the spiritual heart of your new Earth Totem."
   },
   {
    "q": "Why is an Earth Totem so important to a shaman?",
@@ -51,7 +51,7 @@
     "what does earth totem do",
     "earth totem lore"
    ],
-   "answer": "Totems act as conduits through which a shaman channels elemental power. Without the Earth Totem as a focus, a shaman cannot petition the spirits of the land to manifest their spells and protective wards."
+   "answer": "Totems let a shaman channel elemental power. Without an Earth Totem as a focus, a shaman cannot petition the land spirits to manifest spells and protective wards."
   },
   {
    "q": "Who is Seer Ravenfeather?",
@@ -60,7 +60,7 @@
     "seer ravenfeather lore",
     "camp narache seer"
    ],
-   "answer": "Seer Ravenfeather is the spiritual guide and shaman trainer stationed at Camp Narache on Red Cloud Mesa. She oversees the elemental trials of young tauren, guiding them through their introductory visions and crafting their sacred implements."
+   "answer": "Seer Ravenfeather is the spiritual guide and shaman trainer at Camp Narache on Red Cloud Mesa. She oversees young tauren’s elemental trials, guides them through their first visions, and crafts their sacred implements."
   },
   {
    "q": "What are the four paths Seer Ravenfeather mentions?",
@@ -69,7 +69,7 @@
     "four elements shaman",
     "what are the paths"
    ],
-   "answer": "She refers to the four primal elements that a shaman must master: Earth, Fire, Water, and Air. Earth is the foundation, representing endurance and steadfastness, and serves as the initiate's initial trial."
+   "answer": "Seer Ravenfeather means the four primal elements a shaman must master: Earth, Fire, Water, and Air. Earth is the foundation, representing endurance and steadfastness, and it is the initiate’s first trial."
   },
   {
    "q": "Where does this communion take place?",
@@ -78,7 +78,7 @@
     "manifestation location",
     "where is the spirit"
    ],
-   "answer": "The Minor Manifestation of Earth resides in the rugged cliffs bordering Red Cloud Mesa in Mulgore, reachable only after drinking the specialized Earth Sapta."
+   "answer": "The communion takes place among the rugged cliffs bordering Red Cloud Mesa in Mulgore. You can reach the Minor Manifestation of Earth only after drinking the Earth Sapta."
   },
   {
    "q": "Do other Horde shamans undertake a similar rite?",
@@ -87,21 +87,21 @@
     "troll call of earth",
     "do all shamans get earth totem"
    ],
-   "answer": "Yes. Orcs and Darkspear trolls in Durotar undertake their own version of the Call of Earth in the Valley of Trials, seeking communion with local elemental manifestations to carve their first totems."
+   "answer": "Yes. Orcs and Darkspear trolls in Durotar undertake their own Call of Earth in the Valley of Trials. They seek communion with local elemental manifestations and carve their first totems."
   }
  ],
  "angles": [
   {
    "target": "class:Shaman",
-   "text": "This rite marks the acquisition of your very first totem. Carrying it grounds your spiritual identity and unlocks your ability to cast essential earth-aligned wards."
+   "text": "As a shaman, this rite gives you your first totem. Carrying it grounds your spiritual identity and lets you cast essential earth-aligned wards."
   },
   {
    "target": "race:Tauren",
-   "text": "Tauren culture regards the Earth Mother with profound reverence. Undertaking this trial binds an initiate directly to the living rock and soil of their ancestral homeland."
+   "text": "Tauren culture holds the Earth Mother in profound reverence. This trial binds an initiate to the living rock and soil of their ancestral homeland."
   },
   {
    "target": "faction:Horde",
-   "text": "Shamans serve as vital spiritual anchors and advisors within the new Horde, bridging the mortal races with the volatile elemental forces of Kalimdor."
+   "text": "As a Horde shaman, you serve as a spiritual anchor and advisor, bridging the mortal races with Kalimdor’s volatile elemental forces."
   }
  ],
  "keywords": [
@@ -124,5 +124,6 @@
  ],
  "attribution": [
   "Call of Earth (Mulgore 3)"
- ]
+ ],
+ "style": 1
 }

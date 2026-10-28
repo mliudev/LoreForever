@@ -17,21 +17,21 @@
   "wiki": "Moonglade (Horde)",
   "chain": []
  },
- "summary": "This quest marks a young tauren druid's introduction to Moonglade, the sacred sanctuary of Cenarion druidism. Guided by Turak Runetotem in Thunder Bluff, the initiate learns to traverse the waking world to commune directly with nature's ancient keepers.",
+ "summary": "In Moonglade, a young tauren druid learns to reach nature’s ancient keepers. Guided by Turak Runetotem in Thunder Bluff, the initiate learns to cross the waking world and commune with them directly.",
  "sections": [
   {
    "title": "A Sacred Haven Beyond Faction",
-   "body": "Moonglade stands apart from the turbulent politics of Kalimdor. Sheltered beneath primeval boughs and watched over by Keeper Remulos, the son of Cenarius, this ancient valley is a neutral refuge for all who walk the path of nature. Whether night elf or tauren, any druid who enters Nighthaven does so as an equal peer under the timeless mantle of the Cenarion Circle.",
+   "body": "Moonglade lies beyond Kalimdor’s faction struggles. Keeper Remulos, son of Cenarius, watches over the ancient valley, a neutral refuge for all who follow nature. Night elf and tauren druids enter Nighthaven as equals, beneath the Cenarion Circle’s timeless mantle.",
    "spoiler": 0
   },
   {
    "title": "The Leap Across Kalimdor",
-   "body": "To aid your spiritual and martial development, Turak Runetotem teaches you a unique transport spell tied to the valley itself. By invoking the mystic bond between druids and the natural world, you step across hundreds of leagues in a heartbeat. This sanctuary will serve as both a study hall and an enduring refuge throughout your journey.",
+   "body": "Turak Runetotem teaches you a unique transport spell bound to Moonglade, aiding your spiritual and martial growth. Through your bond with the natural world, you cross hundreds of leagues in a heartbeat. The valley offers a place to study and a lasting refuge throughout your journey.",
    "spoiler": 0
   },
   {
    "title": "Awakening the Bear",
-   "body": "Upon arriving in Nighthaven, you meet Dendrite Starblaze, an elder night elf druid awaiting new pupils. Under his guidance, the first true trial of your calling begins: seeking the perspective of the bear. Embracing the ways of the Claw requires proving one's strength, courage, and balance before the Great Bear Spirit.",
+   "body": "In Nighthaven, you meet Dendrite Starblaze, an elder night elf druid who awaits new pupils. Under his guidance, you begin the first true trial of your calling: learning the bear’s perspective. To embrace the ways of the Claw, you must prove strength, courage, and balance before the Great Bear Spirit.",
    "spoiler": 1
   }
  ],
@@ -43,7 +43,7 @@
     "horde allowed in moonglade",
     "is moonglade neutral"
    ],
-   "answer": "Moonglade is sovereign sacred ground under the Cenarion Circle, guided by Keeper Remulos. Within its borders, devotion to nature and Cenarius completely supersedes the faction conflict between the Horde and the Alliance, permitting tauren and night elf druids to train and dwell alongside one another in peace."
+   "answer": "Moonglade is sovereign sacred ground guided by the Cenarion Circle. Devotion to nature and Cenarius takes precedence over the Horde and Alliance conflict there, allowing tauren and night elf druids to train and dwell together in peace."
   },
   {
    "q": "Who is Dendrite Starblaze?",
@@ -52,7 +52,7 @@
     "who is dendrite",
     "night elf quest giver"
    ],
-   "answer": "Dendrite Starblaze is an elder night elf druid stationed in the settlement of Nighthaven. He mentors newly arrived initiates of both races, administering their early trials as they attune to the ancient animal aspects."
+   "answer": "Dendrite Starblaze is an elder night elf druid in Nighthaven. He mentors newly arrived initiates of both races and administers their early trials as they attune to the ancient animal aspects."
   },
   {
    "q": "Who is Keeper Remulos?",
@@ -61,7 +61,7 @@
     "remulos moonglade",
     "who protects moonglade"
    ],
-   "answer": "Keeper Remulos is a mighty Keeper of the Grove and son of the demigod Cenarius. He serves as the supreme guardian of Moonglade, watching over the sacred barrows where sleeping druids hibernate and ensuring the sanctity of the valley remains inviolate."
+   "answer": "Keeper Remulos is a mighty Keeper of the Grove and son of Cenarius. He is Moonglade’s supreme guardian, watching over the sacred barrows where sleeping druids hibernate and protecting the valley’s sanctity."
   },
   {
    "q": "What happens after reaching Moonglade?",
@@ -70,7 +70,7 @@
     "bear questline",
     "after moonglade quest"
    ],
-   "answer": "Speaking with Dendrite Starblaze begins your trial with the Great Bear Spirit. He sends you to the spirit's home in northwestern Moonglade to learn the strength of body and the strength of heart, the first step toward unlocking the secrets of the bear form."
+   "answer": "Speaking with Dendrite Starblaze begins your trial with the Great Bear Spirit. He sends you to the spirit’s home in northwestern Moonglade to learn strength of body and heart, the first step toward unlocking bear form."
   },
   {
    "q": "How does Teleport: Moonglade work lore-wise?",
@@ -78,7 +78,7 @@
     "moonglade teleport lore",
     "teleport spell druid"
    ],
-   "answer": "Druids weave natural ley energies and their spiritual connection to the Cenarion Circle to instantly bridge the distance between wherever they stand and the heart of Moonglade. It serves as a spiritual anchor, letting them return for instruction and solace whenever summoned."
+   "answer": "Druids weave natural ley energies and their spiritual bond with the Cenarion Circle to cross instantly from wherever they stand to Moonglade’s heart. Teleport: Moonglade is a spiritual anchor, letting them return for instruction and solace whenever summoned."
   },
   {
    "q": "Where is Turak Runetotem located?",
@@ -86,21 +86,21 @@
     "turak runetotem location",
     "where is turak"
    ],
-   "answer": "Turak Runetotem resides atop the Elder Rise in Thunder Bluff, mentoring young tauren who heed the call of the wild before sending them onward to Moonglade."
+   "answer": "Turak Runetotem resides atop the Elder Rise in Thunder Bluff. He mentors young tauren who heed the call of the wild before sending them onward to Moonglade."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "This rite of passage bridges the distance between traditional tribal beliefs and the broader tenets of the Cenarion Circle, opening the door to ancient shapeshifting forms."
+   "text": "As a druid, this rite of passage bridges traditional tribal beliefs and the broader teachings of the Cenarion Circle. It opens the way to ancient shapeshifting forms."
   },
   {
    "target": "race:Tauren",
-   "text": "For tauren initiates, arriving in Moonglade is a profound awakening: proof that their ancient ties to the Earth Mother align deeply with the teachings of Cenarius."
+   "text": "As a tauren, arriving in Moonglade is a profound awakening. Your ancient ties to the Earth Mother align with the teachings of Cenarius."
   },
   {
    "target": "faction:Horde",
-   "text": "Though tensions simmer across Kalimdor, Horde druids find Moonglade to be one of the rare places in the world where they can cross paths peacefully with their night elf counterparts."
+   "text": "As a Horde druid, you can cross paths peacefully with night elf druids in Moonglade, one of the few places in Kalimdor where this is possible."
   }
  ],
  "keywords": [
@@ -125,5 +125,6 @@
  ],
  "attribution": [
   "Moonglade (Horde)"
- ]
+ ],
+ "style": 1
 }

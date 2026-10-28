@@ -17,16 +17,16 @@
   "wiki": "Inquire at the Inn",
   "chain": []
  },
- "summary": "Inquire at the Inn is an Alliance quest in Darkshire that continues the investigation into the mysterious stranger connected to Sven Yorgen's ruined farm. Directed by Clerk Daltry, adventurers take a recovered journal to the Scarlet Raven Tavern to question Tavernkeep Smitts about who stayed there.",
+ "summary": "In Darkshire, Clerk Daltry sends you to the Scarlet Raven Tavern with a journal from Sven Yorgen's ruined farm. He hopes someone there can tell you who owned it.",
  "sections": [
   {
    "title": "A Lead at the Scarlet Raven",
-   "body": "After Clerk Daltry finishes examining the tattered book recovered from Sven Yorgen's farm, he suggests that any stranger visiting Darkshire would almost certainly have passed through the local tavern. The Scarlet Raven Tavern stands across town as Darkshire's only gathering hall and lodging house, making it the most sensible place to track down transient visitors.",
+   "body": "Clerk Daltry has finished examining the tattered book from Sven Yorgen's farm. He believes any stranger who visited Darkshire would have passed through its tavern. The Scarlet Raven Tavern is across town, the only gathering hall and lodging house in Darkshire. There, you may learn who came through and where they went.",
    "spoiler": 0
   },
   {
    "title": "The Paranoid Guest",
-   "body": "Presenting the book to Tavernkeep Smitts confirms Daltry's hunch. Smitts immediately recognizes the tome, recalling a patron who took a room for several days and spent his evenings scribbling obsessively at the bar. According to the innkeeper, the guest fled Darkshire in a state of terror, convinced he was being relentlessly hunted by an unseen pursuer. His path led west down the gloom of the road toward Raven Hill.",
+   "body": "Tavernkeep Smitts recognizes the journal when you show it to him. Its owner rented a room for several days and spent evenings scribbling at the bar. Then the guest fled Darkshire in terror, convinced an unseen pursuer was hunting him. His path led west along the road toward Raven Hill.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "quest giver",
     "where does inquire at the inn start"
    ],
-   "answer": "Clerk Daltry, the town record-keeper situated in Darkshire's town hall, hands back the journal and suggests checking the local inn for anyone who might recognize its owner."
+   "answer": "Clerk Daltry, Darkshire's town record-keeper, sends you to the Scarlet Raven Tavern after examining the journal. He hopes someone there will recognize its owner."
   },
   {
    "q": "What is the book you are carrying?",
@@ -47,7 +47,7 @@
     "book from svens farm",
     "journal"
    ],
-   "answer": "It is the worn journal retrieved from Sven Yorgen's ruined farmstead in southern Duskwood, believed to belong to the shadowy figure seen prowling around the area."
+   "answer": "The worn journal came from Sven Yorgen's ruined farmstead in southern Duskwood. It is believed to belong to the shadowy figure seen prowling nearby."
   },
   {
    "q": "Who runs the Scarlet Raven Tavern?",
@@ -56,7 +56,7 @@
     "innkeeper darkshire",
     "who is smitts"
    ],
-   "answer": "Tavernkeep Smitts manages the Scarlet Raven Tavern, pouring drinks and renting rooms to whatever travelers still dare to venture into Duskwood."
+   "answer": "Tavernkeep Smitts runs the Scarlet Raven Tavern, where he serves drinks and rents rooms to travelers who venture into Duskwood."
   },
   {
    "q": "What does Tavernkeep Smitts reveal about the guest?",
@@ -65,7 +65,7 @@
     "what happened to the shadowy figure",
     "what does the innkeeper know"
    ],
-   "answer": "Smitts recalls that the journal's owner rented a room for a few days and spent his nights drinking and writing. The traveler then fled west in a panic, muttering about being hunted by something terrifying."
+   "answer": "The journal's owner rented a room for several days and spent his evenings writing at the bar. Then he fled Darkshire in terror, convinced an unseen pursuer was hunting him."
   },
   {
    "q": "Where did the shadowy figure flee?",
@@ -74,7 +74,7 @@
     "where is the shadowy figure",
     "where to next"
    ],
-   "answer": "He hurried westward out of Darkshire seeking a hiding place, pointing searchers toward the abandoned settlement and sprawling cemetery grounds of Raven Hill."
+   "answer": "The stranger fled west from Darkshire along the road toward Raven Hill."
   },
   {
    "q": "What quest follows Inquire at the Inn?",
@@ -83,17 +83,17 @@
     "what comes after inquire at the inn",
     "following quest"
    ],
-   "answer": "Tavernkeep Smitts directs you to follow the stranger's trail westward in the quest 'Finding the Shadowy Figure'."
+   "answer": "Tavernkeep Smitts points you west to follow the stranger's trail in Finding the Shadowy Figure."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Investigating threats inside Darkshire helps protect one of the Alliance's most vulnerable and isolated frontier settlements in the southern Eastern Kingdoms."
+   "text": "As an Alliance adventurer, you help protect Darkshire, an isolated frontier settlement in the southern Eastern Kingdoms, by investigating threats within its walls."
   },
   {
    "target": "class:Rogue",
-   "text": "Tracking a paranoid fugitive from tavern hearsay to desolate ruins plays directly into an operative's investigative tradecraft."
+   "text": "As a rogue, you can follow a fugitive's trail from tavern talk to desolate ruins through careful investigation."
   }
  ],
  "keywords": [
@@ -118,5 +118,6 @@
  ],
  "attribution": [
   "Inquire at the Inn"
- ]
+ ],
+ "style": 1
 }

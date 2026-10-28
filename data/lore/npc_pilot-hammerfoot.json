@@ -8,16 +8,16 @@
   "wiki": "Pilot Hammerfoot",
   "refs": 2
  },
- "summary": "Pilot Hammerfoot is a dwarven siege engine pilot of the Ironforge Siege Brigade, stationed near the mountain passes connecting Dun Morogh and Loch Modan. Worried for a fellow pilot lost in the hills, he seeks willing adventurers to search for his friend. His presence highlights the dangers faced by dwarves along the high alpine ridges.",
+ "summary": "Near the mountain passes, Pilot Hammerfoot watches over the Siege Brigade’s engines and worries for a missing fellow pilot. He seeks travelers to search the hills, where the high ridges put dwarves in danger.",
  "sections": [
   {
    "title": "Eyes in the Mountains",
-   "body": "Ironforge's siege engines are the pride of its Siege Brigade, but driving them across harsh mountainous terrain carries extreme risk. Stationed at the North Gate Outpost overlooking the border between Dun Morogh and Loch Modan, Pilot Hammerfoot guards the pilots' engines and watches the mountain passes. When a pilot goes missing, finding him quickly becomes a priority, especially with savage beasts prowling the nearby hills.",
+   "body": "At North Gate Outpost, Pilot Hammerfoot watches the passes between Dun Morogh and Loch Modan and guards the Siege Brigade’s engines. Ironforge’s siege engines are prized by the brigade, but rough mountain ground makes them dangerous to drive. When a pilot goes missing, finding him matters, especially with savage beasts roaming the nearby hills.",
    "spoiler": 0
   },
   {
    "title": "Avenging a Comrade",
-   "body": "Hammerfoot was close friends with Pilot Mori Hildelve, a fellow siege engine pilot who busted his engine on a steep hill while the two searched for a rare ore, then went on alone on foot. Upon learning that Hildelve was mauled to death by Mangeclaw, a huge ice claw bear, Hammerfoot's mission shifts from routine border watch to personal vengeance, demanding retribution against the beast responsible for his friend's death.",
+   "body": "Pilot Hammerfoot was close friends with Pilot Mori Hildelve, another siege engine pilot. The two searched for rare ore when Hildelve broke his engine on a steep hill and continued on foot alone. Hammerfoot learned that Mangeclaw, a huge ice claw bear, mauled Hildelve to death. Now Hammerfoot seeks retribution against the beast that killed his friend.",
    "spoiler": 1
   }
  ],
@@ -29,7 +29,7 @@
     "who is hammerfoot",
     "pilot hammerfoot info"
    ],
-   "answer": "Pilot Hammerfoot is a dwarven siege engine pilot serving Ironforge. He is stationed at North Gate Outpost along the pass connecting Dun Morogh to Loch Modan, watching over the region's borders and his fellow pilots."
+   "answer": "Pilot Hammerfoot serves Ironforge as a dwarven siege engine pilot. He watches the border from North Gate Outpost, along the pass between Dun Morogh and Loch Modan, and keeps watch over the region and the other pilots."
   },
   {
    "q": "Where can Pilot Hammerfoot be found?",
@@ -38,7 +38,7 @@
     "where is pilot hammerfoot",
     "where is hammerfoot"
    ],
-   "answer": "He is located at North Gate Outpost, situated along the mountain highway guarding the tunnel pass between Dun Morogh and Loch Modan."
+   "answer": "Pilot Hammerfoot can be found at North Gate Outpost, beside the mountain highway and tunnel pass between Dun Morogh and Loch Modan."
   },
   {
    "q": "What happened to Hammerfoot's partner, Pilot Hildelve?",
@@ -47,7 +47,7 @@
     "what happened to morter",
     "morter death"
    ],
-   "answer": "Pilot Mori Hildelve broke his siege engine on a steep hill while searching for rare ore and continued on foot. Hammerfoot has not heard from him and asks travelers to investigate."
+   "answer": "Pilot Mori Hildelve broke his siege engine on a steep hill while searching for rare ore, then continued on foot. Hammerfoot has heard nothing from him and asks travelers to search for him."
   },
   {
    "q": "Why is Hammerfoot worried about his partner?",
@@ -56,17 +56,17 @@
     "why avenge morter",
     "mangeclaw grudge"
    ],
-   "answer": "Hammerfoot and Mori Hildelve are close friends and fellow Siege Brigade pilots. Hildelve has gone missing in dangerous mountain terrain, and Hammerfoot needs someone to discover what happened."
+   "answer": "Hammerfoot and Mori Hildelve are close friends and fellow Siege Brigade pilots. Hildelve went missing in dangerous mountain country, and Hammerfoot needs someone to find out what happened."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "Hammerfoot embodies the fierce camaraderie of the Ironforge mountaineers, refusing to let a fallen brother's murder go unanswered."
+   "text": "As a dwarf, you share the fierce camaraderie of Ironforge’s mountaineers and refuse to let a fallen brother’s murder go unanswered."
   },
   {
    "target": "faction:Alliance",
-   "text": "Aiding Hammerfoot secures vital reconnaissance outposts along the primary highway linking Dun Morogh and Loch Modan."
+   "text": "When you aid Hammerfoot, you help secure vital reconnaissance outposts along the main highway between Dun Morogh and Loch Modan."
   }
  ],
  "keywords": [
@@ -90,5 +90,6 @@
  ],
  "attribution": [
   "Pilot Hammerfoot"
- ]
+ ],
+ "style": 1
 }

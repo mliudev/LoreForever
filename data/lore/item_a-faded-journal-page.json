@@ -11,16 +11,16 @@
    "quest:78"
   ]
  },
- "summary": "A Faded Journal Page is an old parchment retrieved from an upstairs chest in Marshal Haggard's secluded home in Elwynn Forest. It serves as a vital clue in unraveling the dark history surrounding Stalvan Mistmantle.",
+ "summary": "In eastern Elwynn, an old page points toward Stalvan Mistmantle's grim history.",
  "sections": [
   {
    "title": "Parchment in the Chest",
-   "body": "Left behind inside an old trunk when retired Marshal Haggard took residence near the eastern border of Elwynn Forest, this weathered parchment sat undisturbed for years. With Haggard's failing eyesight preventing him from deciphering it, the page remained neglected until adventurers digging into the legend of Stalvan Mistmantle retrieved it.",
+   "body": "The Faded Journal Page lay for years in an old trunk at Marshal Haggard's home near Elwynn Forest's eastern border. Haggard had retired there, but his failing eyesight kept him from reading the weathered parchment. The page stayed neglected until investigators seeking the truth about Stalvan Mistmantle retrieved it.",
    "spoiler": 0
   },
   {
    "title": "The Trail to Darkshire",
-   "body": "Though Haggard could not read the brittle text, he directed investigators across the river to the Scarlet Raven Tavern in Duskwood. The barkeep, Tavernkeep Smitts, recognized the distinctive handwriting immediately upon examining the page, linking the journal entry directly to the grim saga that haunts the region.",
+   "body": "Marshal Haggard could not read the brittle writing, but he sent investigators across the river to the Scarlet Raven Tavern in Duskwood. Tavernkeep Smitts, the barkeep, recognized the handwriting as soon as he examined the page, tying it to the grim saga that haunts the region.",
    "spoiler": 1
   }
  ],
@@ -32,7 +32,7 @@
     "where is faded journal page",
     "chest location"
    ],
-   "answer": "The page is discovered inside a chest upstairs in the house near Marshal Haggard, located in eastern Elwynn Forest near the river boundary with Duskwood."
+   "answer": "The page is found in an upstairs chest in a house near Marshal Haggard, in eastern Elwynn Forest by the river boundary with Duskwood."
   },
   {
    "q": "Why couldn't Marshal Haggard read the page himself?",
@@ -40,7 +40,7 @@
     "why didn't haggard read it",
     "marshal haggard blindness"
    ],
-   "answer": "Marshal Haggard is an aging veteran whose eyesight has deteriorated significantly, leaving him nearly blind and unable to decipher the faded script on the parchment."
+   "answer": "Marshal Haggard's eyesight has grown so poor with age that he can no longer make out the faded writing."
   },
   {
    "q": "Who recognizes the handwriting on the journal page?",
@@ -48,7 +48,7 @@
     "who knows the handwriting",
     "who reads the page"
    ],
-   "answer": "Tavernkeep Smitts, the barkeep at the Scarlet Raven Tavern in Darkshire, immediately recognizes the handwriting when presented with the page."
+   "answer": "Tavernkeep Smitts, the barkeep at the Scarlet Raven Tavern in Darkshire, recognizes the handwriting when he sees the page."
   },
   {
    "q": "What protects the chest containing the page?",
@@ -56,13 +56,13 @@
     "chest ghost",
     "what attacks at the chest"
    ],
-   "answer": "Opening the upstairs chest disturbs a hostile Forlorn Spirit that attacks investigators before the page can be safely examined."
+   "answer": "A hostile Forlorn Spirit attacks anyone who opens the upstairs chest, before the page can be examined safely."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Uncovering this forgotten record helps solve a long-cold mystery that has troubled townsfolk on both sides of the river between Elwynn and Duskwood."
+   "text": "As an Alliance traveler, this forgotten record can help solve a mystery that has troubled townsfolk on both sides of the river between Elwynn and Duskwood."
   }
  ],
  "keywords": [
@@ -86,5 +86,6 @@
   "A Faded Journal Page",
   "The Legend of Stalvan (8)",
   "The Legend of Stalvan (9)"
- ]
+ ],
+ "style": 1
 }

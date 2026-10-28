@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Loading Room"
  },
- "summary": "The Loading Room is an industrial staging chamber inside Gnomeregan's sprawling mechanical complex. In the current era, this subterranean staging area lies deep within the corrupted fallen capital, dangerously close to rogue constructs such as Techbot.",
+ "summary": "In Gnomeregan's depths, the Loading Room is a dangerous place to pass through. The ruined chamber once staged cargo for the city's transit networks, but radioactive fallout and rogue machinery now threaten anyone who enters.",
  "sections": [
   {
    "title": "Industrial Depot Under Siege",
-   "body": "Before the fall of Gnomeregan, the Loading Room functioned as a bustling transit point and cargo staging bay linked to the subterranean transit networks of the tinker capital. Today, like the rest of the ruined city, it has succumbed to chaos. Radioactive fallout, invading troggs, and malfunctioning machinery have rendered the area extremely perilous. The rogue mechanized construct Techbot guards the vicinity, posing a severe threat to any gnome survivors or daring Alliance reclaimers attempting to secure the perimeter.",
+   "body": "The Loading Room once handled cargo for Gnomeregan's underground transit network. Before the city fell, goods passed through its staging bay on their way across the tinker capital. Now the room is caught in the ruin that has overtaken Gnomeregan. Radioactive fallout, invading troggs, and failing machinery make the area perilous. Techbot, a rogue mechanized construct, guards the vicinity. Gnome survivors and Alliance reclaimers who try to secure the perimeter must face that danger.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "what is loading room",
     "what was loading room"
    ],
-   "answer": "Historically, it served as an industrial loading bay and cargo staging point connected to Gnomeregan's internal transport and train facilities. Since the city's fall, it has become another lost sector overrun by hazards."
+   "answer": "The Loading Room once staged cargo for Gnomeregan's internal transport and train facilities. Since the city fell, hazards have overrun this lost sector."
   },
   {
    "q": "What threats can be found in the Loading Room?",
@@ -32,7 +32,7 @@
     "loading room bosses",
     "techbot location"
    ],
-   "answer": "The Loading Room is home to the haywire mechanical defense construct known as Techbot, along with surrounding radioactive contamination and erratic machinery lingering in the depths of the city."
+   "answer": "Techbot, a rogue mechanical defense construct, prowls the Loading Room. Radioactive contamination and erratic machinery also threaten anyone in this part of the city."
   },
   {
    "q": "Is the Loading Room safe to explore?",
@@ -40,17 +40,17 @@
     "is it safe",
     "can alliance go here"
    ],
-   "answer": "No. The entire district is contested ground inside the ruins of Gnomeregan. Any Alliance strike team venturing into this part of the complex must contend with hostile constructs and toxic conditions."
+   "answer": "No. The Loading Room lies in contested ground among Gnomeregan's ruins. Alliance strike teams entering the complex face hostile constructs and toxic conditions."
   }
  ],
  "angles": [
   {
    "target": "race:Gnome",
-   "text": "For gnomish reclaimers, the Loading Room is a bitter reminder of how everyday city infrastructure was violently abandoned during the trogg invasion and toxic catastrophe."
+   "text": "For gnomish reclaimers, the Loading Room recalls how ordinary city works were abandoned during the trogg invasion and toxic catastrophe."
   },
   {
    "target": "profession:Engineering",
-   "text": "The rogue construct Techbot and the mechanical assemblies remaining in the Loading Room offer engineers a stark lesson in what happens when automated defenses malfunction without maintenance."
+   "text": "Techbot and the remaining mechanical assemblies in the Loading Room show engineers the danger of automated defenses left without maintenance."
   }
  ],
  "keywords": [
@@ -68,5 +68,6 @@
  ],
  "attribution": [
   "Loading Room"
- ]
+ ],
+ "style": 1
 }

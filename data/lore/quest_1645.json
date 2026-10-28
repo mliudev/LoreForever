@@ -17,16 +17,16 @@
   "wiki": "The Tome of Divinity (dwarf 1)",
   "chain": []
  },
- "summary": "The Tome of Divinity marks an essential milestone in a dwarven paladin's training within Ironforge. Bestowed by Tiza Battleforge in the Hall of Mysteries, this holy text begins a trials-based journey meant to test an initiate's devotion to the Light and their readiness to defend Azeroth against dark forces like the Scourge.",
+ "summary": "In Ironforge, Tiza Battleforge places the Tome of Divinity in a dwarven paladin's hands. Its teachings begin trials meant to test devotion to the Light and readiness to defend Azeroth from dark forces such as the Scourge.",
  "sections": [
   {
    "title": "A Calling to Virtue",
-   "body": "Paladin mentors across the eastern kingdoms direct promising initiates to Ironforge's Hall of Mysteries once they demonstrate mastery of martial and spiritual fundamentals. Under the watchful eye of Tiza Battleforge, young dwarven paladins are introduced to the solemn principles that separate a simple warrior from an ordained champion of the Holy Light. Taking up this task represents a conscious pledge toward lifelong self-sacrifice, duty, and spiritual discipline.",
+   "body": "Promising paladin initiates from across the eastern kingdoms come to Ironforge's Hall of Mysteries after mastering the martial and spiritual basics. Tiza Battleforge guides young dwarven paladins in the principles that set a champion of the Holy Light apart from an ordinary warrior. Taking up this calling means pledging a life to duty, self-sacrifice, and spiritual discipline.",
    "spoiler": 0
   },
   {
    "title": "The Book of Divinity",
-   "body": "Accepting this charge places a Book of Divinity into the hands of the novice. This text outlines the expectations, virtues, and spiritual tenets required to wield sacred energies effectively against wicked threats. Studying its teachings is merely the introductory step; the scripture serves as a foundational guide before the initiate is sent forth across Khaz Modan and beyond to embody its lessons in real acts of faith.",
+   "body": "The novice receives the Book of Divinity as a guide to its duties, virtues, and spiritual teachings. Its words show how sacred power may be wielded against wicked threats. Study is only the first step; the initiate must carry those lessons into acts of faith across Khaz Modan and beyond.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "tome of divinity purpose",
     "why do this quest"
    ],
-   "answer": "This quest is the doorway to advanced paladin training for dwarven champions. By speaking with Tiza Battleforge, initiates receive their holy text and embark on a series of trials designed to prove their virtue and unlock the ability to call fallen allies back from death."
+   "answer": "The Tome of Divinity begins advanced training for dwarven paladins. Tiza Battleforge gives initiates a holy book and sends them on trials to prove their virtue and learn to call fallen allies back from death."
   },
   {
    "q": "Who is Tiza Battleforge?",
@@ -47,7 +47,7 @@
     "who is the paladin trainer in ironforge",
     "who gives tome of divinity"
    ],
-   "answer": "Tiza Battleforge is a prominent paladin trainer residing in the Hall of Mysteries in Ironforge. She is tasked with guiding dwarven paladins toward greater virtue, testing their devotion to the Light, and preparing them to confront threats such as the Scourge."
+   "answer": "Tiza Battleforge is a paladin trainer in Ironforge's Hall of Mysteries. She guides dwarven paladins toward greater virtue, tests their devotion to the Light, and prepares them to face threats such as the Scourge."
   },
   {
    "q": "Why must initiates study the Book of Divinity?",
@@ -56,7 +56,7 @@
     "why read the book",
     "book of divinity lore"
    ],
-   "answer": "The Book of Divinity contains core teachings regarding the duties and virtues demanded by the Holy Light. Studying it ensures that an initiate understands the spiritual discipline required before wielding miraculous sacred powers."
+   "answer": "The Book of Divinity teaches the duties and virtues demanded by the Holy Light. Its teachings prepare initiates for the spiritual discipline needed to wield sacred powers."
   },
   {
    "q": "What major threats are dwarven paladins preparing to fight?",
@@ -65,7 +65,7 @@
     "why train paladins ironforge",
     "paladin purpose"
    ],
-   "answer": "As outlined by Tiza Battleforge, the paladins dedicate themselves to defending Azeroth from dangerous perils across the land, with particular vigilance directed toward the encroaching undead menace of the Scourge."
+   "answer": "Dwarven paladins prepare to defend Azeroth from dangers across the land, especially the encroaching undead menace of the Scourge."
   },
   {
    "q": "Where does this training take place?",
@@ -74,7 +74,7 @@
     "ironforge paladin location",
     "hall of mysteries paladin"
    ],
-   "answer": "The initiation begins in the Hall of Mysteries, the quiet sanctuary nestled in the northern quarters of Ironforge where scholars, priests, mages, and paladins gather in prayer and study."
+   "answer": "The training begins in the Hall of Mysteries, in Ironforge's northern quarters, where scholars, priests, mages, and paladins gather for prayer and study."
   },
   {
    "q": "What comes next after receiving the book?",
@@ -83,17 +83,17 @@
     "next quest tome of divinity",
     "where do i go after getting the book"
    ],
-   "answer": "Once the initiate reads and contemplates the Book of Divinity, Tiza Battleforge delivers practical trials that require the paladin to demonstrate compassion, duty, and sacrifice outside the safety of the city gates."
+   "answer": "After reading and reflecting on the Book of Divinity, the initiate faces practical trials from Tiza Battleforge. These call for compassion, duty, and sacrifice beyond the city gates."
   }
  ],
  "angles": [
   {
    "target": "class:Paladin",
-   "text": "This rite of passage bridges early martial instruction with the deeper virtues of the Holy Light, setting initiates on the path to channel the power of redemption and resurrection."
+   "text": "As a paladin, this rite carries you from martial training into the deeper virtues of the Holy Light, toward powers of redemption and resurrection."
   },
   {
    "target": "race:Dwarf",
-   "text": "For dwarven champions, taking the Tome of Divinity reinforces the alliance of faith forged between the Bronzebeard kingdom and the human knights of the Silver Hand."
+   "text": "As a dwarf, taking up the Tome of Divinity strengthens the bond of faith between the Bronzebeard kingdom and the human knights of the Silver Hand."
   }
  ],
  "keywords": [
@@ -115,5 +115,6 @@
  ],
  "attribution": [
   "The Tome of Divinity (dwarf 1)"
- ]
+ ],
+ "style": 1
 }

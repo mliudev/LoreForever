@@ -17,16 +17,16 @@
   "wiki": "Troll Charm (quest)",
   "chain": []
  },
- "summary": "Troll Charm is a Horde quest offered by the Darkspear troll Mitsuwa at Zoram'gar Outpost in Ashenvale. After a traveling party of trolls was ambushed and slaughtered by the Thistlefur furbolgs, Mitsuwa asks adventurers to delve into their den to recover sacred talismans stolen from the dead.",
+ "summary": "At Zoram'gar Outpost, Mitsuwa seeks sacred charms stolen from his kin. A traveling party of Darkspear trolls was ambushed and slaughtered by the Thistlefur furbolgs, who took the talismans into their den.",
  "sections": [
   {
    "title": "An Ambushed Caravan",
-   "body": "Zoram'gar Outpost serves as a remote western refuge for the Horde on Ashenvale's coast, making travel along the woodland paths fraught with danger. A party of Darkspear trolls journeying toward the post never arrived, having fallen victim to a violent ambush by the territorial Thistlefur tribe of furbolgs. While Mitsuwa accepts the deaths of his kin as an eventual reunion in the afterlife, the desecration and theft of their sacred charms is an intolerable insult.",
+   "body": "Zoram'gar Outpost is a remote Horde refuge on Ashenvale's western coast. Woodland paths make travel there dangerous. A party of Darkspear trolls never reached the post after the Thistlefur furbolgs ambushed them. Mitsuwa accepts that his kin have died and will one day meet him in the afterlife. Their sacred charms were stolen from the dead, however, and he cannot abide that insult.",
    "spoiler": 0
   },
   {
    "title": "Sacred Trinkets",
-   "body": "In troll culture, charms and talismans are deeply tied to identity, spiritual protection, and connection with the Loa. Mitsuwa considers a troll without her charm to be as hollow and worthless as an orc devoid of battle scars. The Thistlefur furbolgs dragged these purloined artifacts back into Thistlefur Hold, deep within the cave systems past Thistlefur Village, stashing them in chests away from their rightful owners.",
+   "body": "Troll charms and talismans mark identity, offer spiritual protection, and bind their bearers to the Loa. Mitsuwa sees a troll without her charm as hollow and worthless, like an orc without battle scars. The Thistlefur furbolgs carried the stolen charms to Thistlefur Hold, deep in the caves beyond Thistlefur Village. They hid the talismans in chests, far from their rightful owners.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "where is mitsuwa",
     "who starts troll charm"
    ],
-   "answer": "The quest is given by Mitsuwa, a Darkspear troll stationed at Zoram'gar Outpost along the Zoram Strand on the northwestern coast of Ashenvale."
+   "answer": "Mitsuwa, a Darkspear troll, is at Zoram'gar Outpost on the Zoram Strand along Ashenvale's northwestern coast."
   },
   {
    "q": "Why are the troll charms so important to Mitsuwa?",
@@ -47,7 +47,7 @@
     "why troll charms matter",
     "significance of charms"
    ],
-   "answer": "To trolls, sacred charms carry deep spiritual and cultural significance. Mitsuwa compares a troll without her charm to an orc without battle scars, viewing the possession of these relics by hostile furbolgs as an outrageous desecration of her slain kin."
+   "answer": "Troll charms carry deep spiritual and cultural meaning. Mitsuwa sees a troll without her charm as an orc without battle scars, and the furbolgs' possession of these relics desecrates his slain kin."
   },
   {
    "q": "Where are the troll charms located?",
@@ -56,7 +56,7 @@
     "where are chests",
     "find charms"
    ],
-   "answer": "The charms are stored inside chests within Thistlefur Hold, a deep cavern complex located at the northern edge of Thistlefur Village, situated north of the night elf settlement of Astranaar."
+   "answer": "The charms are in chests inside Thistlefur Hold, a deep cavern complex at the northern edge of Thistlefur Village, north of Astranaar."
   },
   {
    "q": "Who stole the charms?",
@@ -64,7 +64,7 @@
     "who took charms",
     "ambush culprits"
    ],
-   "answer": "The Thistlefur furbolgs ambushed and murdered Mitsuwa's kinfolk as they traveled toward Zoram'gar Outpost, looting their belongings and hauling the sacred charms into their caverns."
+   "answer": "The Thistlefur furbolgs stole the charms. They ambushed and killed Mitsuwa's kin as they traveled toward Zoram'gar Outpost, then carried the charms into their caverns."
   },
   {
    "q": "What happened to the trolls who originally carried the charms?",
@@ -73,7 +73,7 @@
     "slain trolls",
     "mitsuwa kin"
    ],
-   "answer": "They were killed by the Thistlefur furbolgs along the trail. Mitsuwa mourns their loss but believes he will eventually reunite with them in the afterlife, prioritizing the retrieval of their sacred relics."
+   "answer": "The Thistlefur furbolgs killed the trolls along the trail. Mitsuwa mourns them and believes they will meet again in the afterlife, while he seeks to recover their sacred relics."
   },
   {
    "q": "Is this quest available to the Alliance?",
@@ -81,17 +81,17 @@
     "alliance troll charm",
     "can alliance do it"
    ],
-   "answer": "No. The quest originates at Zoram'gar Outpost and is strictly available to Horde players helping the Darkspear tribe."
+   "answer": "No. Mitsuwa offers this to the Horde at Zoram'gar Outpost."
   }
  ],
  "angles": [
   {
    "target": "race:Troll",
-   "text": "Recovering the charms is an act of spiritual duty for Darkspear trolls, ensuring sacred ancestral items are rescued from the clutches of savage furbolgs."
+   "text": "As a troll, recovering the charms is a spiritual duty. These sacred ancestral items must be rescued from the furbolgs."
   },
   {
    "target": "faction:Horde",
-   "text": "Pushing into Thistlefur territory strikes back against woodland threats that ambush Horde supply lines and travelers moving through Ashenvale."
+   "text": "As a member of the Horde, striking into Thistlefur territory pushes back against woodland threats that ambush Horde supply lines and travelers in Ashenvale."
   }
  ],
  "keywords": [
@@ -116,5 +116,6 @@
  ],
  "attribution": [
   "Troll Charm (quest)"
- ]
+ ],
+ "style": 1
 }

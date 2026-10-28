@@ -10,16 +10,16 @@
    "quest:2926"
   ]
  },
- "summary": "A heavy, lead-lined flask filled with irradiated radioactive fallout gathered from the troggs infesting Gnomeregan. The inventor Ozzie Togglevolt requested this hazardous sample in hopes of synthesizing a cure for irradiated leper gnomes\u2014or perhaps concocting a dangerously potent rum.",
+ "summary": "Ozzie Togglevolt seeks a sample from Gnomeregan’s troggs in a heavy, lead-lined phial. He hopes to make a cure for irradiated leper gnomes, or perhaps a dangerously potent rum.",
  "sections": [
   {
    "title": "A Toxic Brew",
-   "body": "The lead lining of this collection phial is essential to shield the carrier from the volatile green fallout saturating Gnomeregan. The fallout originated when High Tinker Mekkatorque's advisors flooded the lower corridors with toxic radiation to halt the invading troggs, a catastrophe that instead corrupted both troggs and surviving gnomes into maddened, irradiated horrors. By collecting fluid residue directly from Irradiated Invaders and Pillagers, daring adventurers furnish refugee tinkerers like Ozzie Togglevolt and Razzle Sprysprocket in Kharanos with raw materials needed to experiment on remedies.",
+   "body": "The phial’s lead lining shields its carrier from the volatile green fallout that saturates Gnomeregan. High Tinker Mekkatorque’s advisors flooded the lower corridors with toxic radiation to stop the invading troggs. Instead, the disaster corrupted troggs and surviving gnomes into maddened, irradiated horrors. Fluid residue gathered from Irradiated Invaders and Pillagers gives refugee tinkerers in Kharanos, including Ozzie Togglevolt and Razzle Sprysprocket, raw material for their experiments on remedies.",
    "spoiler": 0
   },
   {
    "title": "Cure or Concoction",
-   "body": "While Gnoarn remains fixated on reclaiming the city, Ozzie Togglevolt approaches the fallout problem with frantic gnome experimentation. Ozzie seeks to use the liquid gathered in the phial to treat an entrapped leper gnome\u2014while simultaneously hoping the mixture might reverse his own baldness. The boundary between a miraculous antidote and a highly volatile beverage remains dangerously thin in gnomic laboratory science.",
+   "body": "Ozzie Togglevolt pursues the fallout problem with frantic experimentation while Gnoarn remains fixed on reclaiming the city. Ozzie hopes the liquid in the phial will treat an entrapped leper gnome and perhaps reverse his own baldness. In gnome laboratories, the line between a miraculous antidote and a highly volatile beverage remains dangerously thin.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "why lead flask",
     "leaden collection phial purpose"
    ],
-   "answer": "The lead lining prevents the intense radioactive fallout collected from Gnomeregan's contaminated troggs from sickening or killing the bearer who carries it back to Kharanos."
+   "answer": "The lead lining shields the bearer from intense radioactive fallout gathered from Gnomeregan’s contaminated troggs, so carrying it back to Kharanos does not sicken or kill them."
   },
   {
    "q": "Who wants this irradiated fluid?",
@@ -40,7 +40,7 @@
     "ozzie togglevolt quest",
     "who turns in gnogaine"
    ],
-   "answer": "Ozzie Togglevolt, a gnome researcher operating in Kharanos, needs the irradiated fallout to experiment on a cure for leprosy-afflicted gnomes, aided by Razzle Sprysprocket."
+   "answer": "Ozzie Togglevolt, a gnome researcher in Kharanos, wants the irradiated fallout to experiment on a cure for leprosy-afflicted gnomes, with help from Razzle Sprysprocket."
   },
   {
    "q": "Where does the radiation in the phial come from?",
@@ -49,7 +49,7 @@
     "irradiated troggs location",
     "green glow source"
    ],
-   "answer": "The glowing green residue is harvested directly from Irradiated Invaders and Irradiated Pillagers, troggs that prowl the tainted corridors leading into Gnomeregan."
+   "answer": "The glowing green residue comes directly from Irradiated Invaders and Irradiated Pillagers, troggs prowling the tainted corridors leading into Gnomeregan."
   },
   {
    "q": "Does Ozzie actually cure the leper gnomes with it?",
@@ -58,17 +58,17 @@
     "gnogaine outcome",
     "is leper gnome cured"
    ],
-   "answer": "Ozzie's experiments are chaotic and uncertain. His concoction aims to cure a captured leper gnome and restore his own hair, but gnomic science often requires repeated testing and refined samples before finding safe, consistent results."
+   "answer": "Ozzie’s experiments are chaotic and uncertain. His concoction aims to cure a captured leper gnome and restore his own hair, but gnome science often needs repeated testing and refined samples to find safe, consistent results."
   }
  ],
  "angles": [
   {
    "target": "race:Gnome",
-   "text": "For exiled gnomes in Dun Morogh, carrying this toxic sample is a grim reminder of the disaster that poisoned their ancestral home, but it represents a desperate hope to restore their corrupted kin."
+   "text": "For exiled gnomes in Dun Morogh, carrying this toxic sample recalls the disaster that poisoned their ancestral home and offers desperate hope of restoring their corrupted kin."
   },
   {
    "target": "profession:Engineering",
-   "text": "The leaden casing demonstrates standard gnomic safety protocols when handling volatile, toxic fallout for laboratory testing."
+   "text": "The lead casing shows standard gnome safety protocols for handling volatile, toxic fallout in laboratory testing."
   }
  ],
  "keywords": [
@@ -94,5 +94,6 @@
  "attribution": [
   "Full Leaden Collection Phial",
   "Gnogaine"
- ]
+ ],
+ "style": 1
 }

@@ -17,16 +17,16 @@
   "wiki": "A Grim Task",
   "chain": []
  },
- "summary": "Following the devastating Dark Iron assault on Dun Modr and the Thandol Span, Longbraid the Grim seeks vengeance for fallen kin and lost soldiers. He tasks brave travelers with tracking down and slaying the elusive Dark Iron warlock Balgaras the Foul, taking his ear as proof of the deed.",
+ "summary": "Longbraid the Grim seeks vengeance in the Wetlands after Dun Modr falls. The Dark Iron assault shattered the Thandol Span and took the lives of his brother and many soldiers. Now he wants Balgaras the Foul slain, with the warlock's ear as proof.",
  "sections": [
   {
    "title": "The Ruins of Dun Modr",
-   "body": "The northern reaches of the Wetlands have seen intense fighting between the Mountaineers of Ironforge and infiltrators from the Dark Iron clan. During the siege, the town of Dun Modr was overtaken, and the western bridge of the Thandol Span was shattered. Longbraid the Grim lost not only many loyal soldiers in the assault, but also his own brother, leaving him determined to see the enemy paid back in kind.",
+   "body": "The northern Wetlands are scarred by fighting between Ironforge Mountaineers and Dark Iron infiltrators. Dun Modr fell during the siege, and the western bridge of the Thandol Span was shattered. Longbraid the Grim lost many loyal soldiers and his brother in the assault. He wants the Dark Iron clan to pay for those deaths.",
    "spoiler": 0
   },
   {
    "title": "A Cowardly Commander",
-   "body": "Reconnaissance by scouts like Roggo revealed that the Dark Iron contingent occupying Dun Modr is commanded by a warlock known as Balgaras the Foul. Rather than meeting his foes face to face, Balgaras cowers in hiding while ordering his soldiers to carry out his dark designs. Longbraid hopes that cutting down Balgaras will break the backbone of the Dark Iron force, allowing the survivors of Ironforge to secure the vital passage northward.",
+   "body": "Scouts such as Roggo have found that Balgaras the Foul commands the Dark Iron force occupying Dun Modr. The warlock hides while ordering his soldiers to carry out his dark designs. Longbraid hopes Balgaras's death will break the force's resolve and let Ironforge's survivors secure the passage north.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who is balgaras",
     "dark iron leader dun modr"
    ],
-   "answer": "Balgaras the Foul is a Dark Iron warlock who commands the forces occupying Dun Modr in the northern Wetlands. Described by Longbraid the Grim as a coward, he avoids direct combat while sending throngs of Dark Iron troops to hold the region."
+   "answer": "Balgaras the Foul is a Dark Iron warlock commanding the force occupying Dun Modr in the northern Wetlands. Longbraid the Grim calls him a coward who avoids direct combat while sending Dark Iron troops to hold the region."
   },
   {
    "q": "Who is Longbraid the Grim?",
@@ -47,7 +47,7 @@
     "longbraid the grim",
     "quest giver dun modr"
    ],
-   "answer": "Longbraid the Grim is a dwarf commander encamped outside the ruins of Dun Modr. He lost his brother and many soldiers when Dark Iron forces seized the settlement and destroyed the western crossing of the Thandol Span."
+   "answer": "Longbraid the Grim is a dwarf commander encamped outside Dun Modr's ruins. Dark Iron forces seized the settlement and destroyed the Thandol Span's western crossing, killing his brother and many of his soldiers."
   },
   {
    "q": "Why does Longbraid want Balgaras's ear?",
@@ -55,7 +55,7 @@
     "why ear",
     "ear of balgaras"
    ],
-   "answer": "Because Balgaras is an elusive target who frequently hides from open battle, Longbraid demands physical proof of the warlock's death to ensure the threat has truly been eliminated."
+   "answer": "Longbraid wants Balgaras's ear as proof of the warlock's death. Balgaras is elusive and often hides from open battle."
   },
   {
    "q": "What happened to the Thandol Span?",
@@ -63,7 +63,7 @@
     "thandol span bridge destroyed",
     "why is thandol span broken"
    ],
-   "answer": "The western bridge of the Thandol Span was destroyed by Dark Iron dwarves during their surprise offensive into Dun Modr, cutting off an essential roadway between the Wetlands and the Arathi Highlands."
+   "answer": "Dark Iron dwarves destroyed the western bridge of the Thandol Span during their surprise attack on Dun Modr. The crossing between the Wetlands and the Arathi Highlands is cut off."
   },
   {
    "q": "Where is Balgaras hiding?",
@@ -71,7 +71,7 @@
     "where is balgaras",
     "find balgaras"
    ],
-   "answer": "Balgaras lurks within the captured fortifications and ruins around Dun Modr, hiding behind his soldiers rather than venturing out into the open marshlands."
+   "answer": "Balgaras hides among the captured fortifications and ruins around Dun Modr, behind his soldiers rather than out in the marshlands."
   },
   {
    "q": "What happens after Balgaras is slain?",
@@ -79,21 +79,21 @@
     "after a grim task",
     "what next dun modr"
    ],
-   "answer": "With Balgaras dead, Longbraid believes the remaining disorganized Dark Iron troops will be far easier to sweep aside before another commander can arrive to reinforce them."
+   "answer": "Longbraid believes Balgaras's death will make the remaining Dark Iron troops easier to defeat before another commander arrives to reinforce them."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "For dwarves of Ironforge, the betrayal and violence of the Dark Iron clan at Dun Modr is a personal affront and a fresh wound in the long civil strife between the clans."
+   "text": "As a dwarf of Ironforge, the Dark Iron clan's violence at Dun Modr is a personal affront and a fresh wound in the clans' long civil strife."
   },
   {
    "target": "faction:Alliance",
-   "text": "The Thandol Span is the primary land route connecting Khaz Modan to Lordaeron, making the removal of Dark Iron saboteurs a critical strategic priority for the entire Alliance."
+   "text": "As an Alliance traveler, you know the Thandol Span is the main land route between Khaz Modan and Lordaeron. Removing the Dark Iron saboteurs matters to the whole Alliance."
   },
   {
    "target": "class:Warlock",
-   "text": "Balgaras the Foul wields sinister fel magic to orchestrate the slaughter of Dun Modr's defenders, showcasing the dangerous ends to which the Dark Irons turn their craft."
+   "text": "As a warlock, you know the dangerous ends to which the Dark Irons turn their craft: Balgaras the Foul uses fel magic to direct the slaughter of Dun Modr's defenders."
   }
  ],
  "keywords": [
@@ -115,5 +115,6 @@
  ],
  "attribution": [
   "A Grim Task"
- ]
+ ],
+ "style": 1
 }

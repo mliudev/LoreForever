@@ -17,16 +17,16 @@
   "wiki": "A Curious Pair",
   "chain": []
  },
- "summary": "A Curious Pair begins when Trevan Rol notices an unusual duo passing through the Sepulcher in Silverpine Forest. Under the banner of the Earthen Ring, a tauren was seen traveling alongside a high elf\u2014an alliance rare enough in Horde territory to prompt immediate suspicion.",
+ "summary": "In the Sepulcher, Trevan Rol spots an unusual pair passing through Silverpine Forest. The tauren and high elf travel under the Earthen Ring's banner, a rare sight in Horde territory that draws suspicion.",
  "sections": [
   {
    "title": "Eyes in the Sepulcher",
-   "body": "The Sepulcher is a grim waystation where strangers are scrutinized carefully, especially those claiming diplomatic business. When two representatives purporting to belong to the Earthen Ring passed along the road, local scout Trevan Rol caught sight of them. While a tauren walking under the shamanic order's mantle surprised no one, his cloaked companion struck the Forsaken as exceedingly bizarre: an unmistakable high elf.",
+   "body": "Trevan Rol sees two travelers claiming to represent the Earthen Ring pass along the road by the Sepulcher. The outpost is a grim waystation where strangers, especially those on diplomatic business, draw close scrutiny. A tauren traveling under the shamanic order's banner raises little surprise. His cloaked companion is another matter: the scout recognizes an unmistakable high elf, a sight that strikes the Forsaken as exceedingly strange.",
    "spoiler": 0
   },
   {
    "title": "A Peculiar Partnership",
-   "body": "The presence of a quel'dorei traveling openly alongside a member of the Horde's shamanic circles naturally raises questions for the Forsaken sentries. The Earthen Ring typically concerns itself with the balance of the elements and rarely fields high elves in Lordaeron, let alone as companions to tauren envoys. To verify where this unusual pair went and what business they might have in the forest, travelers are directed to consult Deathguard Baldren at the edge of town.",
+   "body": "A high elf traveling openly beside a member of the Horde's shamanic circles raises questions among the Forsaken sentries. The Earthen Ring concerns itself with the balance of the elements, and high elves are rarely seen in Lordaeron, much less as companions to tauren envoys. To learn where the pair went and what business brought them to the forest, you are directed to Deathguard Baldren at the edge of town.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who passed through sepulcher",
     "who were the travelers"
    ],
-   "answer": "According to Trevan Rol, the travelers presented themselves as Earthen Ring dignitaries. One was a tauren, typical of the shamanic organization, but his traveling companion was identified as a cloaked high elf."
+   "answer": "Trevan Rol says the travelers presented themselves as Earthen Ring dignitaries. One is a tauren, while his cloaked companion is a high elf."
   },
   {
    "q": "Why is a high elf traveling with a tauren so unusual?",
@@ -46,7 +46,7 @@
     "why is high elf with tauren weird",
     "tauren and high elf lore"
    ],
-   "answer": "High elves have historical ties to the Alliance and arcane magic, while tauren are devoted members of the Horde and deep practitioners of shamanism. Seeing members of these two peoples traveling together through Horde-controlled Silverpine Forest under the Earthen Ring is an exceedingly rare and suspicious sight."
+   "answer": "The high elves have ties to the Alliance and arcane magic, while tauren belong to the Horde and practice shamanism. Seeing them travel together through Horde-controlled Silverpine Forest under the Earthen Ring is rare and suspicious."
   },
   {
    "q": "Who starts the quest A Curious Pair?",
@@ -54,7 +54,7 @@
     "quest giver",
     "where to pick up a curious pair"
    ],
-   "answer": "The quest is given by Trevan Rol in the Sepulcher, an outpost located in Silverpine Forest."
+   "answer": "Trevan Rol gives the request in the Sepulcher, an outpost in Silverpine Forest."
   },
   {
    "q": "Where do I find Deathguard Baldren?",
@@ -62,7 +62,7 @@
     "baldren location",
     "where is baldren"
    ],
-   "answer": "Deathguard Baldren stands on watch near the entrance of the Sepulcher in Silverpine Forest, keeping watch over travelers along the road."
+   "answer": "Deathguard Baldren watches near the Sepulcher's entrance in Silverpine Forest, keeping an eye on travelers along the road."
   },
   {
    "q": "What is the Earthen Ring?",
@@ -70,7 +70,7 @@
     "earthen ring lore",
     "what is earthen ring"
    ],
-   "answer": "The Earthen Ring is an ancient organization of shamans dedicated to preserving the balance of the elements and healing spiritual discord throughout the world. While mostly comprised of shamans like tauren and orcs, their diplomats occasionally travel into distant lands."
+   "answer": "The Earthen Ring is an ancient shamanic organization devoted to preserving the balance of the elements and healing spiritual discord throughout the world. Its members are mostly shamans, including tauren and orcs, though its diplomats sometimes travel to distant lands."
   },
   {
    "q": "Is the high elf an enemy to the Forsaken?",
@@ -78,21 +78,21 @@
     "are they hostile",
     "is elf an enemy"
    ],
-   "answer": "It is not immediately clear. Trevan Rol notes that the elf was cloaked and traveling under diplomatic pretense alongside a tauren, leading the Forsaken to question their purpose rather than attack outright."
+   "answer": "Trevan Rol does not know whether the high elf is an enemy. The elf is cloaked and travels under diplomatic pretense beside a tauren, so the Forsaken question their purpose rather than attack outright."
   }
  ],
  "angles": [
   {
    "target": "class:Shaman",
-   "text": "The mention of the Earthen Ring traveling alongside an elf is unusual even to experienced shamans, who know the Ring's traditions rarely involve the quel'dorei."
+   "text": "Even experienced shamans find the Earthen Ring traveling with an elf unusual. The Ring's traditions rarely involve the quel'dorei."
   },
   {
    "target": "race:Tauren",
-   "text": "Tauren adventurers may feel conflicted seeing one of their kin traveling alongside an elven stranger through Lordaeron, drawing the sharp eyes of Forsaken sentries."
+   "text": "As a tauren, you may feel conflicted seeing one of your kin travel through Lordaeron beside an elven stranger, watched closely by Forsaken sentries."
   },
   {
    "target": "race:Undead",
-   "text": "For the Forsaken guarding the Sepulcher, any outsider slipping through Silverpine Forest warrants close scrutiny, especially given Lordaeron's fractured political climate."
+   "text": "As Forsaken, you know that outsiders passing through Silverpine Forest warrant close scrutiny, especially amid Lordaeron's fractured political climate."
   }
  ],
  "keywords": [
@@ -113,5 +113,6 @@
  ],
  "attribution": [
   "A Curious Pair"
- ]
+ ],
+ "style": 1
 }

@@ -10,16 +10,16 @@
    "quest:3376"
   ]
  },
- "summary": "Chief Sharptusk Thornmantle's Head is taken as grim proof of victory over the leader of the Bristleback quilboar threatening Red Cloud Mesa. Recovered from the depths of Brambleblade Ravine, it is presented to Brave Windfeather to mark the end of a persistent menace against young tauren braves.",
+ "summary": "Chief Sharptusk Thornmantle's Head marks the end of a threat to Red Cloud Mesa. The Bristleback leader threatened the young tauren braves, and his head was recovered from deep in Brambleblade Ravine as proof of victory.",
  "sections": [
   {
    "title": "Trophy of the Hunt",
-   "body": "The tauren carve their peaceful homeland out of Mulgore through vigilance and strength. The Bristleback quilboar entrenched within Brambleblade Ravine have waged an aggressive campaign against the tribes of Camp Narache, urged on by their ferocious chieftain, Sharptusk Thornmantle. Severing his head serves not out of senseless cruelty, but as definitive proof of his demise and a stark warning to the surviving quilboar clans encroaching upon mesa borders.",
+   "body": "The Bristleback quilboar of Brambleblade Ravine have attacked the tribes of Camp Narache. Their chieftain, Sharptusk Thornmantle, urges them on. The tauren seek to protect their homeland in Mulgore with vigilance and strength. Sharptusk's head proves he is dead and warns the surviving quilboar clans against encroaching on the mesa borders.",
    "spoiler": 0
   },
   {
    "title": "A Lesson in the Hunt",
-   "body": "Brave Windfeather demands the chieftain's head as a rite of passage for fledgling hunters and defenders of the tribe. To the tauren, facing an adversary cunning enough to retaliate and organize an entire war band provides an essential test of martial prowess. Presenting Sharptusk's head fulfills that trial, earning the young combatant an established reputation among the braves of Red Cloud Mesa.",
+   "body": "Brave Windfeather demands Sharptusk's head as a rite of passage for young hunters and tribal defenders. Facing an enemy clever enough to strike back and lead a war band tests a young combatant's martial skill. Presenting the head fulfills that trial and earns the young fighter a reputation among the braves of Red Cloud Mesa.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "reason for sharptusk head",
     "windfeather head request"
    ],
-   "answer": "Brave Windfeather requires undisputed proof that the Bristleback quilboar chieftain has fallen. Bringing back his head demonstrates that Sharptusk will no longer direct raids against Camp Narache and signals to the remaining quilboar that their aggression will be met with decisive force."
+   "answer": "Brave Windfeather wants proof that the Bristleback chieftain has fallen. Sharptusk can no longer direct raids against Camp Narache, and the head warns the remaining quilboar that their aggression will meet decisive force."
   },
   {
    "q": "Who was Chief Sharptusk Thornmantle?",
@@ -40,7 +40,7 @@
     "sharptusk thornmantle lore",
     "quilboar chief mulgore"
    ],
-   "answer": "Chief Sharptusk Thornmantle was the leader of the Bristleback quilboar inhabiting Brambleblade Ravine on the eastern edge of Red Cloud Mesa. Under his command, the Bristlebacks continuously harassed and attacked young tauren braves."
+   "answer": "Chief Sharptusk Thornmantle led the Bristleback quilboar in Brambleblade Ravine, on Red Cloud Mesa's eastern edge. Under his command, the Bristlebacks harassed and attacked young tauren braves."
   },
   {
    "q": "Where is this trophy obtained?",
@@ -48,17 +48,17 @@
     "where do i find the head",
     "sharptusk head location"
    ],
-   "answer": "The head is obtained by slaying Chief Sharptusk Thornmantle in his makeshift tribal village, located deep inside Brambleblade Ravine to the east of Camp Narache."
+   "answer": "You obtain the head by killing Chief Sharptusk Thornmantle in his makeshift tribal village, deep inside Brambleblade Ravine east of Camp Narache."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "Claiming the head of a formidable adversary marks an important milestone for young tauren, proving they possess the resolve and skill to protect the newly established home of their people."
+   "text": "As a tauren, claiming a formidable enemy's head marks an important step for a young defender. It proves you have the resolve and skill to protect your people's new home."
   },
   {
    "target": "class:Hunter",
-   "text": "For hunters, Sharptusk represents the ultimate prey: an intelligent enemy capable of hunting back, turning a survival skirmish into a true test of tracking and marksmanship."
+   "text": "As a hunter, Sharptusk is prey that can hunt back. Tracking and striking such an intelligent foe tests your skill."
   }
  ],
  "keywords": [
@@ -80,5 +80,6 @@
  "attribution": [
   "Chief Sharptusk Thornmantle's Head",
   "Break Sharptusk!"
- ]
+ ],
+ "style": 1
 }

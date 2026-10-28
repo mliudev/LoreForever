@@ -20,16 +20,16 @@
    "Return to Marleth"
   ]
  },
- "summary": "Bitter Rivals is an early Alliance quest in Dun Morogh born from the fierce competition between two proud dwarven brewing families. Marleth Barleybrew sends an adventurer to infiltrate the Thunderbrew Distillery in Kharanos and tamper with their rival's stock.",
+ "summary": "In Dun Morogh, the Barleybrews and Thunderbrews compete for renown. Marleth Barleybrew sends you to the Thunderbrew Distillery in Kharanos to replace a cask of Thunder Ale with her family's brew.",
  "sections": [
   {
    "title": "A Taste of Competition",
-   "body": "Few things in Khaz Modan stir passions as quickly as a pint of ale. The Barleybrews have long bristled under the shadow of the famed Thunderbrew Distillery in Kharanos. While Marleth Barleybrew begrudgingly concedes that Thunderbrew craft is respectable, she cannot stomach the notion that it is the only renowned vintage in Dun Morogh. To shake up the local palate, she devises a plan to swap a cask of Thunder Ale with her own fiery concoction, Barleybrew Scalder.",
+   "body": "Ale stirs fierce pride in Khaz Modan. The Barleybrews have long resented the fame of the Thunderbrew Distillery in Kharanos. Marleth Barleybrew admits that Thunderbrew makes a respectable ale, but she cannot accept that it alone is renowned in Dun Morogh. She plans to shake up the local palate by replacing a cask of Thunder Ale with her own fiery Barleybrew Scalder.",
    "spoiler": 0
   },
   {
    "title": "Cellar Subterfuge",
-   "body": "Carrying out the scheme requires slipping directly beneath the noses of Kharanos patrons. Beneath the kitchen of the distillery lies the basement storeroom where aging casks await tapping. Because the Thunderbrews keep a guard posted near their most prized reserve, a would-be saboteur must find a way to lure the watchman away before secretly substituting the barrels.",
+   "body": "The plan takes you into the distillery cellar, beneath the kitchen in Kharanos. Aging casks wait in the basement storeroom, and a guard watches near the Thunderbrews' most prized reserve. You need to draw him away before secretly switching the barrels.",
    "spoiler": 0
   }
  ],
@@ -40,7 +40,7 @@
     "who starts bitter rivals",
     "marleth quest starter"
    ],
-   "answer": "Marleth Barleybrew gives the quest. She is determined to prove that her family's craft can rival the renowned drinks poured at the Thunderbrew Distillery."
+   "answer": "Marleth Barleybrew gives the work. She wants her family's brewing craft to rival the renowned ale of the Thunderbrew Distillery."
   },
   {
    "q": "Where is the Thunderbrew cellar located?",
@@ -48,7 +48,7 @@
     "where is thunderbrew basement",
     "how to get to distillery cellar"
    ],
-   "answer": "The cellar is beneath the Thunderbrew Distillery in the town of Kharanos. The stairs leading down are tucked away behind a table in the kitchen."
+   "answer": "The cellar lies beneath the Thunderbrew Distillery in Kharanos. Its stairs are tucked behind a table in the kitchen."
   },
   {
    "q": "What is Barleybrew Scalder?",
@@ -56,7 +56,7 @@
     "barleybrew scalder",
     "what brew do i swap"
    ],
-   "answer": "Barleybrew Scalder is Marleth Barleybrew's potent house ale. She believes that if patrons in Kharanos taste it under the guise of Thunder Ale, they will finally recognize her brewing superiority."
+   "answer": "Barleybrew Scalder is Marleth Barleybrew's potent house ale. She hopes that tasting it in place of Thunder Ale will make Kharanos patrons recognize her brewing skill."
   },
   {
    "q": "How do you bypass the guard watching the barrels?",
@@ -65,7 +65,7 @@
     "unguarded thunder ale barrel",
     "guard barrel"
    ],
-   "answer": "The Thunderbrew guard posted down in the basement will drop hints about what might draw his attention away, giving you just enough time to swap the barrels while he is distracted."
+   "answer": "The Thunderbrew guard in the basement hints at what might draw his attention away. Distract him, then you have time to switch the barrels."
   },
   {
    "q": "Why are the Barleybrews and Thunderbrews feuding?",
@@ -73,7 +73,7 @@
     "brewer feud",
     "why barleybrew hate thunderbrew"
    ],
-   "answer": "It is a matter of professional dwarven pride. The Thunderbrews dominate the local tavern scene in Kharanos, and the Barleybrews want to prove that their own recipes are just as good, if not better."
+   "answer": "The feud comes from dwarven pride in their craft. The Thunderbrews dominate Kharanos taverns, and the Barleybrews want to prove their recipes just as good, or better."
   },
   {
    "q": "What quest follows Bitter Rivals?",
@@ -81,21 +81,21 @@
     "next quest after bitter rivals",
     "what comes after bitter rivals"
    ],
-   "answer": "Once the cask of Barleybrew Scalder is in place, the quest leads directly into Return to Marleth to report your success."
+   "answer": "After placing the cask of Barleybrew Scalder, you return to Marleth to report your success."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "For dwarves, brewing is serious business that rivals blacksmithing in prestige. Getting involved in a cellar feud over rival ales feels right at home in the snows of Dun Morogh."
+   "text": "As a dwarf, you know brewing is serious business, with prestige rivaling blacksmithing. A feud over rival ales feels at home in the snows of Dun Morogh."
   },
   {
    "target": "class:Rogue",
-   "text": "Infiltrating a guarded cellar, distracting the sentry, and pulling a stealthy switch of contraband is familiar work for any rogue, even if the prize is beer instead of gold."
+   "text": "As a rogue, you know how to slip into a guarded cellar, distract a sentry, and switch contraband. Here, the prize is beer instead of gold."
   },
   {
    "target": "faction:Alliance",
-   "text": "Kharanos is the cultural and logistical hub of Dun Morogh for Alliance travelers, making local inn disputes a frequent diversion for passing recruits."
+   "text": "As an Alliance traveler, you pass through Kharanos, Dun Morogh's cultural and logistical hub, where local inn disputes often draw in recruits."
   }
  ],
  "keywords": [
@@ -117,5 +117,6 @@
  ],
  "attribution": [
   "Bitter Rivals"
- ]
+ ],
+ "style": 1
 }

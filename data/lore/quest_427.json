@@ -22,16 +22,16 @@
    "At War With The Scarlet Crusade (4)"
   ]
  },
- "summary": "Executor Zygand in Brill coordinates the Forsaken campaign against the Scarlet Crusade in Tirisfal Glades. Using intelligence recovered by Executor Arren, you are dispatched to eliminate Scarlet Warriors stationed at a guard tower west of the Solliden Farmstead. This assault marks the Forsaken military's opening offensive to purge the zealous crusaders from their borders.",
+ "summary": "In Tirisfal Glades, Executor Zygand directs the Forsaken campaign against the Scarlet Crusade. With intelligence recovered by Executor Arren, you are sent to strike Scarlet Warriors at a guard tower west of the Solliden Farmstead. The attack opens the Forsaken military effort to drive the crusaders from their borders.",
  "sections": [
   {
    "title": "A Two-Front War",
-   "body": "The fledgling Forsaken state under Lady Sylvanas Windrunner faces simultaneous threats on multiple fronts. While the Deathguard keeps a wary vigil against the swelling armies of the Lich King, the fanatical mortals of the Scarlet Crusade contest Forsaken dominance over their former homeland. The Crusade considers all undead abominations to be purged with fire and blade, blind to the fact that the Forsaken have broken free of the Scourge's control.",
+   "body": "The Forsaken state under Lady Sylvanas Windrunner faces threats on several fronts. The Deathguard watches the growing armies of the Lich King, while the Scarlet Crusade contests Forsaken dominance over their former homeland. The Crusade condemns all undead as abominations to be purged with fire and blade. Its zealots fail to see that the Forsaken have broken free of the Scourge’s control.",
    "spoiler": 0
   },
   {
    "title": "Striking the Western Outpost",
-   "body": "Thanks to intelligence documents secured by Executor Arren at Deathknell, Executor Zygand now knows the exact encampments and outposts held by the zealots across Tirisfal Glades. With regular Deathguard garrisons occupied by Scourge containment, independent Forsaken champions are commissioned to strike out directly. The first strike falls upon the guard tower west of Solliden Farmstead, where Scarlet Warriors muster and threaten the western approaches to Brill.",
+   "body": "Executor Arren secured intelligence documents at Deathknell, giving Executor Zygand the locations of Scarlet encampments and outposts across Tirisfal Glades. With Deathguard garrisons occupied containing the Scourge, independent Forsaken champions are sent to strike the zealots directly. The first target is a guard tower west of Solliden Farmstead, where Scarlet Warriors gather and threaten the western approaches to Brill.",
    "spoiler": 0
   }
  ],
@@ -43,7 +43,7 @@
     "scarlet crusade motivation",
     "why are they attacking"
    ],
-   "answer": "The Scarlet Crusade is an extremist human order dedicated to eradicating the undead. They make no distinction between the mindless Scourge controlled by the Lich King and the free-willed Forsaken loyal to Lady Sylvanas, viewing every undead being as a plague-ridden monster that must be burned."
+   "answer": "The Scarlet Crusade is an extremist human order devoted to eradicating the undead. Its members make no distinction between the mindless Scourge under the Lich King and the free-willed Forsaken loyal to Lady Sylvanas. They see every undead being as a plague-ridden monster that must be burned."
   },
   {
    "q": "Who is Executor Zygand?",
@@ -52,7 +52,7 @@
     "brill quest giver executor",
     "zygand lore"
    ],
-   "answer": "Executor Zygand is the senior military officer of the Forsaken Deathguard stationed in Brill. He directs tactical deployments, defends the roads surrounding the capital's approaches, and oversees offensive strikes against nearby Scarlet and Scourge encroachments."
+   "answer": "Executor Zygand is the senior military officer of the Forsaken Deathguard stationed in Brill. He directs tactical deployments, defends the roads around the capital’s approaches, and oversees offensive strikes against nearby Scarlet and Scourge forces."
   },
   {
    "q": "How did the Forsaken get intelligence on Scarlet positions?",
@@ -61,7 +61,7 @@
     "arren intelligence",
     "how did they find the tower"
    ],
-   "answer": "Crucial tactical documents were recovered by recruits serving Executor Arren in Deathknell. These papers laid out Scarlet patrol routes, outposts, and encampments throughout Tirisfal, giving Executor Zygand the information needed to orchestrate targeted counter-attacks."
+   "answer": "Recruits serving Executor Arren recovered tactical documents in Deathknell. The papers detailed Scarlet patrol routes, outposts, and encampments throughout Tirisfal, giving Executor Zygand the information to plan targeted counter-attacks."
   },
   {
    "q": "Where are the Scarlet Warriors located?",
@@ -70,7 +70,7 @@
     "where is the tower",
     "solliden farmstead tower"
    ],
-   "answer": "The Scarlet Warriors garrison a defensive tower located to the west of the Solliden Farmstead, in the western countryside of Tirisfal Glades."
+   "answer": "Scarlet Warriors hold a defensive tower west of the Solliden Farmstead, in the western countryside of Tirisfal Glades."
   },
   {
    "q": "Why doesn't the Deathguard handle the Crusade directly?",
@@ -79,7 +79,7 @@
     "where is the deathguard",
     "why help zygand"
    ],
-   "answer": "The Deathguard's formal ranks are stretched thin monitoring the Scourge, whose forces grow in number each night under the Lich King's reach. Because regular soldiers cannot be spared from containment, Zygand relies on ambitious, unassigned champions to cull the Crusaders."
+   "answer": "The Deathguard’s formal ranks are stretched thin watching the Scourge, whose forces grow in number each night under the Lich King’s reach. Unable to spare regular soldiers from containment, Zygand relies on ambitious, unassigned champions to cull the Crusaders."
   },
   {
    "q": "Does this mission end the Scarlet presence in Tirisfal?",
@@ -87,17 +87,17 @@
     "is this the last scarlet quest",
     "scarlet crusade quest chain"
    ],
-   "answer": "No. This attack on the western watchtower is merely the first strike in a four-part campaign directed by Executor Zygand to dismantle Scarlet command and outposts across the region."
+   "answer": "No. The attack on the western watchtower is the first strike in a four-part campaign directed by Executor Zygand to dismantle Scarlet command and outposts across the region."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "For the Forsaken, the Scarlet Crusade represents a bitter irony: living former countrymen who brand them monsters and seek their eradication rather than mourning the tragic fall of Lordaeron."
+   "text": "As Forsaken, you face living former countrymen who call you monsters and seek your eradication instead of mourning Lordaeron’s tragic fall."
   },
   {
    "target": "faction:Horde",
-   "text": "Establishing a secure border around Tirisfal Glades and the Undercity is essential to giving the Horde a permanent foothold in the Eastern Kingdoms."
+   "text": "As Horde, you need a secure border around Tirisfal Glades and the Undercity to give the Horde a permanent foothold in the Eastern Kingdoms."
   }
  ],
  "keywords": [
@@ -121,5 +121,6 @@
  ],
  "attribution": [
   "At War With The Scarlet Crusade (Classic)"
- ]
+ ],
+ "style": 1
 }

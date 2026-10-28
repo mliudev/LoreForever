@@ -17,16 +17,16 @@
   "wiki": "The Ashenvale Hunt (The Barrens)",
   "chain": []
  },
- "summary": "The Ashenvale Hunt is a directive guiding proven Horde adventurers out of the arid Barrens and northward into the dense forests of Ashenvale. Entrusted by Jorn Skyseer at Camp Taurajo, travelers are sent to Splintertree Post to assist Senani Thunderheart and test their tracking skills against a wild, contested land.",
+ "summary": "In Ashenvale, Horde hunters face a new test beneath the ancient trees. Jorn Skyseer at Camp Taurajo sends proven hunters north to Splintertree Post, where Senani Thunderheart awaits.",
  "sections": [
   {
    "title": "Into the Ancient Canopy",
-   "body": "After proving their hunting prowess in the sun-bleached plains of the Barrens, Horde hunters and warriors are directed toward an entirely different proving ground. Jorn Skyseer recognizes when a traveler has outgrown the local game and points them north to Ashenvale. For the young Horde, these ancient woodlands represent both a bounty of resources and a profound political and spiritual frontier that they must learn to understand and claim.",
+   "body": "Horde hunters who have proven themselves in the Barrens are sent toward Ashenvale. Jorn Skyseer sees when a traveler has outgrown the local game and points the way north. For the young Horde, these old forests offer resources and mark a political and spiritual frontier they must learn to understand and claim.",
    "spoiler": 0
   },
   {
    "title": "Splintertree Post",
-   "body": "Following the winding road north past the Mor'shan Rampart brings travelers to Splintertree Post, a fortified Horde encampment nestled deep within the tree line. There, the tauren huntress Senani Thunderheart welcomes seasoned arrivals looking for greater tests of survival. To thrive in Ashenvale, the Horde relies on skilled trackers who can navigate not only aggressive native predators, but also the hostile watchful eyes of the forest's defenders.",
+   "body": "The road north passes the Mor'shan Rampart before reaching Splintertree Post, a fortified Horde camp deep among the trees. The tauren huntress Senani Thunderheart welcomes experienced hunters seeking harder tests of survival. The Horde depends on skilled trackers to face Ashenvale's native predators and the watchful defenders of the forest.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "quest giver ashenvale hunt",
     "jorn skyseer quest"
    ],
-   "answer": "Jorn Skyseer, a tauren hunter stationed at Camp Taurajo in the southern Barrens, offers this task once you have demonstrated your skill at local beast hunting."
+   "answer": "Jorn Skyseer, a tauren hunter at Camp Taurajo in the southern Barrens, sends you north after you prove your skill hunting local beasts."
   },
   {
    "q": "Where is Splintertree Post located?",
@@ -47,7 +47,7 @@
     "where is senani thunderheart",
     "find splintertree post"
    ],
-   "answer": "Splintertree Post lies in east-central Ashenvale. If you follow the main road north from the Barrens past the Mor'shan Rampart and continue up through the woods, the fortified outpost sits along the northern side of the road."
+   "answer": "Splintertree Post lies in east-central Ashenvale, along the north side of the road. Follow the main road north from the Barrens, past the Mor'shan Rampart and up through the woods."
   },
   {
    "q": "Who is Senani Thunderheart?",
@@ -56,7 +56,7 @@
     "who is senani",
     "huntress senani"
    ],
-   "answer": "Senani Thunderheart is a tauren huntress based at Splintertree Post. She coordinates hunting efforts across Ashenvale, teaching incoming Horde adventurers how to pursue the fiercest predators and spirits of the ancient forest."
+   "answer": "Senani Thunderheart is a tauren huntress at Splintertree Post. She coordinates hunts across Ashenvale and teaches arriving Horde hunters to pursue the forest's fiercest predators and spirits."
   },
   {
    "q": "What other Horde outposts are nearby in Ashenvale?",
@@ -64,7 +64,7 @@
     "horde bases ashenvale",
     "other camps ashenvale"
    ],
-   "answer": "Beyond Splintertree Post, the Horde maintains the Warsong Lumber Camp to the east and Zoram'gar Outpost on the far western coast at the Zoram Strand."
+   "answer": "The Horde also keeps the Warsong Lumber Camp to the east and Zoram'gar Outpost on the far western coast at the Zoram Strand."
   },
   {
    "q": "Why is the Horde interested in hunting in Ashenvale?",
@@ -72,7 +72,7 @@
     "why hunt ashenvale",
     "horde ashenvale motivation"
    ],
-   "answer": "The untamed wilderness provides critical meat, pelts, and resources that the arid lands of Durotar and the Barrens lack. Facing the forest's dangerous beasts is also considered a vital test of will and spiritual strength for Horde warriors and hunters."
+   "answer": "The wilds offer meat, pelts, and resources scarce in arid Durotar and the Barrens. Facing Ashenvale's dangerous beasts also tests the will and spiritual strength of Horde hunters and warriors."
   },
   {
    "q": "What challenges follow this journey?",
@@ -80,21 +80,21 @@
     "next quest after ashenvale hunt",
     "what does senani give you"
    ],
-   "answer": "Senani Thunderheart enlists seasoned hunters in tracking down notable woodland threats, sending them out into the canopy to hunt apex predators such as the great bear Ursangous, the cat Shadumbra, and the hippogryph Sharptalon."
+   "answer": "Senani Thunderheart sends experienced hunters to track woodland threats beneath the canopy, including the great bear Ursangous, the cat Shadumbra, and the hippogryph Sharptalon."
   }
  ],
  "angles": [
   {
    "target": "class:Hunter",
-   "text": "Moving from the plains of Kalimdor into Ashenvale represents a massive shift in terrain, offering exotic beasts to track, study, and tame under the dense canopy."
+   "text": "As a hunter, you leave Kalimdor's plains for Ashenvale's dense canopy, where exotic beasts await tracking, study, and taming."
   },
   {
    "target": "race:Tauren",
-   "text": "Both Jorn Skyseer and Senani Thunderheart guide this journey, viewing the hunt not merely as slaughter, but as a spiritual balance and a way to honor the wilderness."
+   "text": "As a tauren, you follow the guidance of Jorn Skyseer and Senani Thunderheart. They see the hunt as a spiritual balance and a way to honor the wilderness."
   },
   {
    "target": "faction:Horde",
-   "text": "Ashenvale is a crucial strategic frontier; establishing a foothold here provides vital timber and food supplies to fuel the settlements across Durotar and the Barrens."
+   "text": "As a member of the Horde, you enter a strategic frontier. A foothold in Ashenvale brings timber and food to settlements across Durotar and the Barrens."
   }
  ],
  "keywords": [
@@ -116,5 +116,6 @@
  ],
  "attribution": [
   "The Ashenvale Hunt (The Barrens)"
- ]
+ ],
+ "style": 1
 }

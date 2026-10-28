@@ -17,21 +17,21 @@
   "wiki": "Investigate the Alchemist Shop",
   "chain": []
  },
- "summary": "Investigate the Alchemist Shop is an Undercity quest for Horde mages tasked with resolving an arcane anomaly in the Apothecarium. Guided by Anastasia Hartwell, practitioners track and capture invisible creatures made of pure magical energy running loose inside Algernon's shop.",
+ "summary": "An arcane disturbance has brought invisible creatures into Algernon's shop in the Undercity. Anastasia Hartwell sends Horde mages to reveal and contain them before they can cause harm.",
  "sections": [
   {
    "title": "A Disturbance in the Apothecarium",
-   "body": "The Undercity is no stranger to unnatural phenomena, but the Apothecarium recently developed a problem of purely arcane origin. Unseen magical entities were detected wandering Algernon's alchemy shop, passing silently among bubbling cauldrons and toxic reagents. Recognizing an unnatural breach in the flow of magic, the Undercity's mage instructor, Anastasia Hartwell, directs promising arcane initiates to investigate and contain the entities before catastrophic damage occurs.",
+   "body": "Anastasia Hartwell sends arcane initiates to investigate a disturbance in the Apothecarium. Invisible magical creatures have been wandering through Algernon's alchemy shop, among its cauldrons and reagents. The Undercity's mage instructor suspects a breach in the flow of magic. The creatures must be contained before they cause serious damage.",
    "spoiler": 0
   },
   {
    "title": "Manifestation and Containment",
-   "body": "Because the entities are invisible and composed entirely of raw arcane force, ordinary tracking methods are useless. Anastasia equips her students with a specialized Cantation of Manifestation to strip away the entities' invisibility, alongside sturdy containment coffers. Once revealed, the volatile rift spawns must be battered down and sealed safely inside the coffers before they can unravel further or harm the alchemists at work.",
+   "body": "Anastasia gives her students a Cantation of Manifestation to reveal the invisible creatures, along with sturdy containment coffers. Ordinary tracking cannot find beings made entirely of raw arcane force. Once visible, the rift spawns must be weakened and sealed in the coffers before they can unravel further or harm the alchemists at work.",
    "spoiler": 0
   },
   {
    "title": "Accident or Arcane Assault?",
-   "body": "Upon securing the specimens, Anastasia's concern shifts to their origin. A spontaneous rift in the ambient flow of magic is troubling enough, but an intentional breach would imply an active, coordinated magical assault against the Forsaken capital. The captured creatures are turned over for study to determine whether the Apothecarium merely suffered an arcane accident or sits on the frontline of a targeted threat.",
+   "body": "Anastasia wants to learn where the creatures came from. A spontaneous rift in the flow of magic is troubling; an intentional breach could mean a coordinated magical assault on the Forsaken capital. The captured creatures go to Undercity scholars for study, who must determine whether the Apothecarium suffered an accident or faces a targeted threat.",
    "spoiler": 1
   }
  ],
@@ -43,7 +43,7 @@
     "where to start",
     "anastasia location"
    ],
-   "answer": "The quest is offered by Anastasia Hartwell, the mage trainer stationed in the Magic Quarter of the Undercity."
+   "answer": "Anastasia Hartwell, the mage trainer, offers this in the Undercity's Magic Quarter."
   },
   {
    "q": "Where is the disturbance located?",
@@ -52,7 +52,7 @@
     "alchemist shop location",
     "where is algernon"
    ],
-   "answer": "The disturbance is centered around Algernon's alchemy shop, located down within the Apothecarium district of the Undercity."
+   "answer": "The disturbance is in Algernon's alchemy shop, in the Undercity's Apothecarium district."
   },
   {
    "q": "What are the creatures wandering the shop?",
@@ -61,7 +61,7 @@
     "invisible creatures",
     "rift spawns"
    ],
-   "answer": "They are rift spawns, invisible beings made entirely of concentrated magical energy that appeared through an anomaly in the local flow of magic."
+   "answer": "The creatures are rift spawns, invisible beings made of concentrated magical energy that appeared through an anomaly in the local flow of magic."
   },
   {
    "q": "How do you capture the creatures?",
@@ -70,7 +70,7 @@
     "using the coffer",
     "how to complete"
    ],
-   "answer": "You must recite the Cantation of Manifestation in the shop to reveal the rift spawns, weaken them with spells, and then deploy a containment coffer to trap them inside."
+   "answer": "You recite the Cantation of Manifestation in the shop to reveal the rift spawns, weaken them with spells, then use a containment coffer to trap them."
   },
   {
    "q": "Why does Anastasia want these creatures captured alive?",
@@ -79,7 +79,7 @@
     "containment coffers purpose",
     "why study them"
    ],
-   "answer": "Anastasia and the Undercity's scholars need live specimens to determine whether the tear in magic was a natural, random rift or an intentional attack against the city by an outside magical force."
+   "answer": "Anastasia and the Undercity's scholars need live specimens to learn whether the tear in magic came from a natural rift or an intentional attack on the city by an outside magical force."
   },
   {
    "q": "Can classes other than mages do this quest?",
@@ -87,17 +87,17 @@
     "mage only",
     "who can take this quest"
    ],
-   "answer": "No, this quest is specifically part of the early training lineage restricted entirely to Horde mages."
+   "answer": "Only Horde mages can take part; this is part of their early training."
   }
  ],
  "angles": [
   {
    "target": "class:Mage",
-   "text": "This task tests an apprentice's mastery over pure arcane forces, demanding the use of specialized manifestation cantations and containment vessels rather than mere destructive force."
+   "text": "As a mage, you test your command of arcane forces with manifestation cantations and containment vessels, not destructive force alone."
   },
   {
    "target": "race:Undead",
-   "text": "While Forsaken apothecaries focus heavily on alchemy and plaguecraft, this mission highlights the vigilance of the Undercity's arcane scholars in guarding their city from magical infiltration."
+   "text": "As Forsaken, you see the Undercity's arcane scholars guarding the city against magical infiltration, alongside apothecaries focused on alchemy and plaguecraft."
   }
  ],
  "keywords": [
@@ -118,5 +118,6 @@
  ],
  "attribution": [
   "Investigate the Alchemist Shop"
- ]
+ ],
+ "style": 1
 }

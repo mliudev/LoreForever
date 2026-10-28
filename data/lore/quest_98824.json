@@ -14,11 +14,11 @@
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "Recovering genuine titan relics strikes at the heart of dwarven identity and the Explorers' League's core mission to uncover their makers' origins."
+   "text": "As a dwarf, recovering genuine titan relics speaks to your people's search for their makers' origins and the Explorers' League's purpose."
   },
   {
    "target": "faction:Alliance",
-   "text": "Donating discovered ancient treasures directly enriches the scholarly collections of Ironforge's prestigious Hall of Explorers."
+   "text": "As an Alliance member, your discovery enriches the scholarly collections in Ironforge's Hall of Explorers."
   }
  ],
  "faq": [
@@ -28,7 +28,7 @@
     "where does prehistoric prism start",
     "quest giver prehistoric prism"
    ],
-   "answer": "Prospector Whelgar directs you to deliver the relic to Ironforge after authenticating the titan-like inscriptions found on its facets in the Wetlands.",
+   "answer": "Prospector Whelgar asks you to carry the relic to Ironforge after authenticating the titan-like inscriptions on its facets in the Wetlands.",
    "q": "Who gives the quest Prehistoric Prism?"
   },
   {
@@ -37,7 +37,7 @@
     "where to turn in prehistoric prism",
     "prehistoric prism completion"
    ],
-   "answer": "You deliver the relic to High Explorer Magellas in the Hall of Explorers within Ironforge, who happily accepts it into the museum's collection.",
+   "answer": "You deliver the relic to High Explorer Magellas in the Hall of Explorers in Ironforge, and he accepts it for the museum's collection.",
    "q": "Where do you deliver the Prehistoric Prism?"
   },
   {
@@ -46,7 +46,7 @@
     "is prehistoric prism titan",
     "what is the relic"
    ],
-   "answer": "It is an ancient multifaceted artifact bearing the unmistakable marks of the keepers. When illuminated, light dances through its crystalline form in a manner reminiscent of the relics unearthed in Uldaman.",
+   "answer": "The relic is an ancient, multifaceted artifact bearing the unmistakable marks of the keepers. Light passing through its crystalline form recalls relics found in Uldaman.",
    "q": "What kind of artifact is the Prehistoric Prism?"
   },
   {
@@ -55,7 +55,7 @@
     "why donate prism",
     "hall of explorers prism"
    ],
-   "answer": "The Explorers' League actively collects and catalogs authentic relics of titan origin. High Explorer Magellas considers artifacts of this caliber essential for advancing the world's wisdom and understanding ancient history.",
+   "answer": "The Explorers' League collects and catalogs authentic relics of titan origin. High Explorer Magellas studies artifacts like this to deepen understanding of ancient history.",
    "q": "Why is the Hall of Explorers interested in the prism?"
   },
   {
@@ -64,7 +64,7 @@
     "uldaman connection",
     "prism uldaman"
    ],
-   "answer": "Upon examining the artifact's refraction and keeper markings, High Explorer Magellas compares its dancing light to relics he examined during his very first archaeological dig in Uldaman.",
+   "answer": "High Explorer Magellas compares the light refracted through the artifact to relics he examined on his first archaeological dig in Uldaman, noting its keeper markings.",
    "q": "How does the prism relate to Uldaman?"
   },
   {
@@ -73,7 +73,7 @@
     "do you get credited",
     "history credit prism"
    ],
-   "answer": "Prospector Whelgar and High Explorer Magellas ensure that your recovery of the relic is formally credited and recorded in the historical archives of the Explorers' League.",
+   "answer": "Prospector Whelgar's authentication and your recovery of the relic are to be recorded in the Explorers' League's historical archives.",
    "q": "Does your name get recorded in the museum's catalogue?"
   }
  ],
@@ -97,18 +97,19 @@
  ],
  "sections": [
   {
-   "body": "While surveying the Wetlands, Prospector Whelgar identifies a remarkable artifact adorned with intricate keeper inscriptions across its facets. Recognizing that a find of such historical weight belongs in scholarly hands, the dwarven prospector urges that it immediately be transported to the dwarven capital of Ironforge. Whelgar hopes the discovery will be entered into the official catalogue, ensuring the adventurer receives proper credit alongside his authentication.",
+   "body": "Prospector Whelgar finds a remarkable artifact while surveying the Wetlands. Intricate keeper inscriptions cover its many facets, and Whelgar authenticates the titan-like markings. He urges you to carry the relic to Ironforge, where scholars can study it. Whelgar hopes the discovery will enter the official catalogue, with both your recovery and his authentication properly credited.",
    "spoiler": 0,
    "title": "An Ancient Discovery"
   },
   {
-   "body": "Within the storied halls of the Hall of Explorers, High Explorer Magellas receives the relic on behalf of the Explorers' League. The lead archaeologist marvels at its authentic maker marks, remarking that the way light cascades through its polished facets echoes the wonders he witnessed during his earliest excavation in Uldaman. Donating the artifact preserves it for study, expanding the League's growing records of the titans' legacy.",
+   "body": "High Explorer Magellas receives the relic for the Explorers' League in Ironforge's Hall of Explorers. Its maker marks confirm its authenticity. Magellas says the light passing through its polished facets recalls wonders he saw on his first excavation in Uldaman. Your donation preserves the artifact for study and adds to the League's records of the titans' legacy.",
    "spoiler": 0,
    "title": "A Gift to the Museum"
   }
  ],
- "summary": "Prehistoric Prism is an exploratory quest directing adventurers to transport a multifaceted titan relic from the Wetlands to Ironforge. Entrusted by Prospector Whelgar, the relic is donated to High Explorer Magellas in the Hall of Explorers to further the League's study of the ancient keepers.",
+ "summary": "In the Wetlands, Prospector Whelgar finds a relic marked by the keepers. He sends you with it to Ironforge, where the Explorers' League can study the titans' legacy.",
  "attribution": [
   "In-game quest text: Prehistoric Prism"
- ]
+ ],
+ "style": 1
 }

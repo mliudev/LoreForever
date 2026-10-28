@@ -8,11 +8,11 @@
   "wiki": "Veron Amberstill",
   "refs": 2
  },
- "summary": "Veron Amberstill is a dwarven ram breeder residing at Amberstill Ranch in eastern Dun Morogh. He tends to the rugged mountain rams that serve as the traditional mounts of Ironforge and offers them to skilled riders who have earned his trust.",
+ "summary": "At Amberstill Ranch in eastern Dun Morogh, Veron Amberstill tends the rams Ironforge riders trust.",
  "sections": [
   {
    "title": "Master of the Mounts",
-   "body": "Tucked away in the snow-dusted hills of eastern Dun Morogh, Veron Amberstill oversees the celebrated stock of Amberstill Ranch. Mountain rams are perfectly suited for Khaz Modan's treacherous slopes, sure-footed and thick-coated against the bite of mountain blizzards. Veron breeds and trains these beasts to carry dwarven scouts, mountaineers, and traveling adventurers. While he gladly provides standard and swift mounts to fellow dwarves, outsiders must prove their unwavering loyalty to the throne of Ironforge before he will part with any of his prized herd.",
+   "body": "Veron Amberstill breeds and trains mountain rams at Amberstill Ranch in eastern Dun Morogh. Their sure footing and thick coats suit the steep slopes and mountain blizzards of Khaz Modan. He raises them to carry dwarven scouts, mountaineers, and traveling adventurers. Veron offers standard and swift mounts to fellow dwarves. Riders from other peoples must prove loyalty to Ironforge's throne before he parts with a ram.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "who is veron",
     "amberstill ram vendor"
    ],
-   "answer": "Veron Amberstill is a dwarven mount breeder and vendor located at Amberstill Ranch in Dun Morogh. He raises sturdy mountain rams for the kingdom of Ironforge and sells them to qualified riders."
+   "answer": "Veron Amberstill breeds mounts at Amberstill Ranch in Dun Morogh. He raises sturdy mountain rams for Ironforge and sells them to qualified riders."
   },
   {
    "q": "Can non-dwarves purchase rams from Veron?",
@@ -33,7 +33,7 @@
     "ram mount non dwarf",
     "ironforge reputation ram"
    ],
-   "answer": "Yes, but only if they have earned an exalted reputation with Ironforge. Dwarves can buy his rams naturally, but outsiders must prove themselves staunch champions of the mountain kingdom before Veron entrusts them with his stock."
+   "answer": "Yes. Dwarves can buy Veron's rams, while outsiders must earn an exalted reputation with Ironforge before he entrusts them with his herd."
   },
   {
    "q": "Where is Veron Amberstill located?",
@@ -42,7 +42,7 @@
     "where is veron",
     "where to find veron amberstill"
    ],
-   "answer": "You can find him standing outside at Amberstill Ranch, situated nestled in the hills of eastern Dun Morogh, just north of Gol'Bolar Quarry."
+   "answer": "You can find Veron outside Amberstill Ranch in the hills of eastern Dun Morogh, just north of Gol'Bolar Quarry."
   },
   {
    "q": "Why do dwarves ride rams instead of horses?",
@@ -51,17 +51,17 @@
     "dwarven mounts lore",
     "mountain ram mount lore"
    ],
-   "answer": "Mountain rams possess thick coats, robust frames, and extraordinary balance, making them far better suited to the freezing winds and sheer rocky ledges of Dun Morogh and the surrounding peaks than ordinary horses."
+   "answer": "Mountain rams have thick coats, sturdy frames, and sure footing, which suit Dun Morogh's freezing winds and sheer rocky ledges better than ordinary horses."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "Veron represents your people's deep heritage with mountain beasts, providing standard and swift rams that every dwarven adventurer relies on to navigate Khaz Modan."
+   "text": "As a dwarf, you can see your people's ties to mountain rams in the standard and swift mounts Veron raises for riders across Khaz Modan."
   },
   {
    "target": "faction:Alliance",
-   "text": "Allies of Ironforge who wish to master riding a mountain ram must first prove their dedication to the dwarven kingdom to earn Veron's respect."
+   "text": "As an ally of Ironforge, you must prove your dedication to the dwarven kingdom to earn Veron's respect and ride a mountain ram."
   }
  ],
  "keywords": [
@@ -81,5 +81,6 @@
  ],
  "attribution": [
   "Veron Amberstill"
- ]
+ ],
+ "style": 1
 }

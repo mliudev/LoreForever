@@ -17,21 +17,21 @@
   "wiki": "Naga at the Zoram Strand",
   "chain": []
  },
- "summary": "Naga at the Zoram Strand is a Horde quest tasking adventurers with culling the aggressive serpentine invaders along northwestern Ashenvale's coastline. Stationed at Zoram'gar Outpost, the troll Marukai seeks to secure the contested coast by driving the Wrathtail naga away from the sunken ruins of ancient Zoram.",
+ "summary": "At Zoram Strand, Naga threaten the Horde's hold on Ashenvale's coast. From Zoram'gar Outpost, Marukai seeks to drive the Wrathtail away from the sunken ruins of ancient Zoram.",
  "sections": [
   {
    "title": "A Precarious Foothold",
-   "body": "The Horde's presence on the Zoram Strand is tenuous. Surrounded by hostile night elf territory and bitter woodland skirmishes in Ashenvale, the outpost provides a vital coastal connection. However, the unexpected emergence of aggressive naga crawling ashore threatens to cut the Horde off from the sea and overrun the small defensive garrison before their position can be fully fortified.",
+   "body": "The Horde's hold on Zoram Strand is fragile. Hostile night elf territory and bitter woodland fighting surround the outpost, whose coast links the Horde to the sea. Aggressive naga have now crawled ashore. They could cut off that link and overwhelm the small garrison before its defenses are ready.",
    "spoiler": 0
   },
   {
    "title": "Echoes of Doomed Zoram",
-   "body": "The sandy shoals of the strand conceal the shattered remnants of Zoram, an ancient elven city swallowed by the Great Sundering thousands of years ago. Marukai and the defenders of the outpost know little of why the serpentine Wrathtail tribe has crawled out of the deep trenches now, but their sudden interest in the sunken ruins bodes ill for anyone walking the surface.",
+   "body": "Zoram Strand's sandy shoals hide the shattered remains of Zoram, an ancient elven city swallowed by the Great Sundering thousands of years ago. Marukai and the outpost's defenders do not know why the Wrathtail have come out of the deep trenches now. Their sudden interest in the sunken ruins threatens anyone walking above them.",
    "spoiler": 0
   },
   {
    "title": "The Price of Survival",
-   "body": "Marukai views the situation through the lens of straightforward survival: reason does not matter when swords and tridents are drawn. By demanding twenty severed heads from the Wrathtail invaders, she aims to throw the serpentine monsters back into the depths through sheer force, securing the shoreline for the Horde.",
+   "body": "Marukai sees a simple fight for survival. With swords and tridents drawn, reason matters little. She demands twenty severed heads from the Wrathtail, hoping force will drive the naga back into the depths and secure the shore for the Horde.",
    "spoiler": 0
   }
  ],
@@ -43,7 +43,7 @@
     "who starts this",
     "marukai location"
    ],
-   "answer": "The quest is offered by Marukai, a Darkspear troll stationed at the Horde outpost of Zoram'gar along the Zoram Strand in northwestern Ashenvale."
+   "answer": "Marukai, a Darkspear troll, gives the task from the Horde outpost of Zoram'gar on Zoram Strand in northwestern Ashenvale."
   },
   {
    "q": "What is the history behind the Zoram Strand?",
@@ -52,7 +52,7 @@
     "history of zoram",
     "sunken city"
    ],
-   "answer": "The strand marks the resting place of the ancient doomed city of Zoram. Destroyed and submerged beneath the Great Sea long ago during the Sundering, its ruins now lie partially underwater along the Ashenvale coastline."
+   "answer": "Zoram Strand lies along the resting place of the ancient city of Zoram. The Sundering destroyed and submerged it beneath the Great Sea long ago, and its ruins now lie partly underwater along the Ashenvale coast."
   },
   {
    "q": "Why are the naga attacking the shore?",
@@ -61,7 +61,7 @@
     "wrathtail motive",
     "naga goal"
    ],
-   "answer": "The Horde garrison does not know the exact motive behind the Wrathtail tribe's arrival, only that the creatures have surged out of the deep ocean to claim the sunken ruins and drive off any land-dwellers."
+   "answer": "The Horde garrison does not know why the Wrathtail have arrived. The naga have surged from the deep ocean to claim the sunken ruins and drive off land-dwellers."
   },
   {
    "q": "Which enemies do I need to fight for this quest?",
@@ -70,7 +70,7 @@
     "wrathtail heads",
     "target enemies"
    ],
-   "answer": "You need to slay members of the Wrathtail naga tribe that crawl across the beaches and surf of the Zoram Strand, collecting twenty of their severed heads for Marukai."
+   "answer": "You face members of the Wrathtail tribe, who crawl across Zoram Strand's beaches and surf. Marukai asks you to bring her twenty of their severed heads."
   },
   {
    "q": "What quest follows Naga at the Zoram Strand?",
@@ -79,7 +79,7 @@
     "follow up",
     "marukai next"
    ],
-   "answer": "Marukai offers no further task after this one; she simply thanks you and asks for more of your kind to help hold the strand."
+   "answer": "Marukai offers no further task after this one. She thanks you and asks for more of your kind to help hold Zoram Strand."
   },
   {
    "q": "Why does the Horde care about this remote beach?",
@@ -87,17 +87,17 @@
     "why is horde here",
     "zoram'gar outpost purpose"
    ],
-   "answer": "Ashenvale is fiercely contested between the Horde and the Night Elves. Establishing a secure maritime beachhead at the Zoram Strand gives the Horde strategic access and supply lines away from the dense inland forests."
+   "answer": "Ashenvale is fiercely contested by the Horde and the Night Elves. A secure beachhead at Zoram Strand gives the Horde sea access and supply lines beyond the dense inland forests."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "Holding Zoram'gar Outpost is crucial for the Horde's expansion into Ashenvale, making the clearing of the naga a matter of military survival."
+   "text": "As a member of the Horde, you help hold Zoram'gar Outpost and secure a foothold in Ashenvale. Driving off the naga is a matter of military survival."
   },
   {
    "target": "race:Orc",
-   "text": "Marukai's straightforward strategy of brutal repelling matches the pragmatic martial culture of orcs holding a frontier border."
+   "text": "As an orc, you know the value of Marukai's direct, forceful approach to defending a frontier."
   }
  ],
  "keywords": [
@@ -118,5 +118,6 @@
  ],
  "attribution": [
   "Naga at the Zoram Strand"
- ]
+ ],
+ "style": 1
 }

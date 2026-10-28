@@ -8,11 +8,11 @@
   "wiki": "Therysil",
   "refs": 1
  },
- "summary": "Therysil is a dryad dwelling at the Shrine of Aessina in central Ashenvale. Deeply devoted to the preservation of nature, she waits anxiously for word of her sister, Therylune, who fell into the hands of sinister cultists.",
+ "summary": "At the Shrine of Aessina in central Ashenvale, Therysil waits for word of her sister. The dryad is devoted to protecting nature, but Therylune has been taken by the Twilight's Hammer cultists.",
  "sections": [
   {
    "title": "A Guardian's Vigil",
-   "body": "Therysil makes her home near the tranquil waters of the Shrine of Aessina, a sacred glade within the ancient woods of Ashenvale. Like all dryads, the daughters of Cenarius, she is bound to the defense of the wild and the spirits dwelling within it. Yet her focus has been torn from quiet stewardship to gnawing worry. Her sister, Therylune, was captured nearby by the deranged Twilight's Hammer cult, leaving Therysil desperate for any wandering ally willing to aid in her sister's rescue.",
+   "body": "Therysil keeps watch near the waters of the Shrine of Aessina in Ashenvale's ancient woods. As a dryad and daughter of Cenarius, she is bound to defend the wild and its spirits. Her thoughts now turn to Therylune, captured nearby by the deranged Twilight's Hammer cult. Therysil waits anxiously for a wandering ally who can help rescue her sister.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "therysil lore",
     "dryad at aessina"
    ],
-   "answer": "Therysil is a dryad found residing at the Shrine of Aessina in Ashenvale. She is a daughter of Cenarius and the sister of Therylune."
+   "answer": "Therysil is a dryad who dwells at the Shrine of Aessina in Ashenvale. She is a daughter of Cenarius and Therylune's sister."
   },
   {
    "q": "What is Therysil's concern?",
@@ -33,7 +33,7 @@
     "why is therysil worried",
     "therysil quest"
    ],
-   "answer": "Her sister, Therylune, was ambushed and taken captive by the Twilight's Hammer cultists at the Master's Glaive in southern Darkshore. Therysil waits at the shrine hoping an adventurer can guide her sister safely home."
+   "answer": "Therysil fears for her sister, Therylune, whom Twilight's Hammer cultists ambushed and captured at the Master's Glaive in southern Darkshore. She waits at the shrine, hoping someone can guide Therylune safely home."
   },
   {
    "q": "Who is Therylune?",
@@ -42,7 +42,7 @@
     "therysil sister",
     "who is therylune"
    ],
-   "answer": "Therylune is Therysil's sister, another dryad of Ashenvale. She was captured by the Twilight's Hammer and requires an escort to escape their clutches and reunite with Therysil."
+   "answer": "Therylune is Therysil's sister and a dryad of Ashenvale. The Twilight's Hammer captured her, and she needs an escort to escape and reunite with Therysil."
   },
   {
    "q": "Where can Therysil be found?",
@@ -51,17 +51,17 @@
     "where is therysil",
     "shrine of aessina dryad"
    ],
-   "answer": "Therysil stands at the Shrine of Aessina, a sacred natural haven nestled along the roadway in central Ashenvale."
+   "answer": "Find Therysil at the Shrine of Aessina, a sacred natural haven along the roadway in central Ashenvale."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "As a daughter of Cenarius, Therysil represents the deep bond between the Cenarion circle and the natural spirits of Ashenvale, making her plight especially urgent to visiting druids."
+   "text": "As a daughter of Cenarius, Therysil reflects the close bond between the Cenarion Circle and Ashenvale's natural spirits. Her plight is especially urgent for visiting druids."
   },
   {
    "target": "race:NightElf",
-   "text": "The dryads have long been staunch allies of the kaldorei in safeguarding Ashenvale's sacred groves, such as the Shrine of Aessina."
+   "text": "Dryads have long stood with the kaldorei to safeguard Ashenvale's sacred groves, including the Shrine of Aessina."
   }
  ],
  "keywords": [
@@ -82,5 +82,6 @@
  ],
  "attribution": [
   "Therysil"
- ]
+ ],
+ "style": 1
 }

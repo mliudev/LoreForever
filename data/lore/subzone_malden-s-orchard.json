@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Malden's Orchard"
  },
- "summary": "Malden's Orchard is a ruined farmstead in northern Silverpine Forest, named after the human owner who fled during the Scourge invasion of Lordaeron. Long abandoned, its dark evergreen trees sit overgrown while vicious black worgs stalk the grounds. The orchard's crumbling cottage served as a temporary refuge for a stranded Forsaken scout cut off from his unit.",
+ "summary": "Black worgs prowl Malden's Orchard in northern Silverpine Forest. The ruined farmstead takes its name from Malden, the human farmer who fled during the Scourge invasion of Lordaeron. Its dark evergreen trees grow wild, and a crumbling cottage once sheltered a Forsaken scout cut off from his unit.",
  "sections": [
   {
    "title": "A Blighted Harvest",
-   "body": "Before the Third War, this homestead supplied fresh fruit to the towns of Lordaeron, tended by a farmer named Malden. When the Scourge tore through the kingdom, Malden abandoned his land to flee the plague. In the years since, the orchard has choked under the dark, encroaching mists of Silverpine Forest. The evergreen trees remain unpruned and their fruit rots ungathered on blighted boughs, leaving the plot entirely reclaimed by wild predators.",
+   "body": "Malden's Orchard once sent fresh fruit to the towns of Lordaeron. Malden, a human farmer, tended the land before the Third War. When the Scourge swept through the kingdom, he abandoned the farm and fled the plague. Since then, Silverpine's dark mists have closed over the orchard. Its evergreen trees go unpruned, and fruit rots on blighted boughs. Wild predators have claimed the plot.",
    "spoiler": 0
   },
   {
    "title": "Trapped in the Cottage",
-   "body": "The overgrown orchard has become a hunting ground for territorial black worgs, making it a hazardous route through northern Silverpine. During a reconnaissance mission for the Deathstalkers, the scout Erland McKree was dispatched to survey the area but found himself overwhelmed by the beasts. Pinned inside Malden's dilapidated cottage for days, Erland survived only until Forsaken reinforcements could break through the pack and escort him back to his fellow scouts at the Ivar Patch.",
+   "body": "Black worgs hunt through the overgrown orchard and make the route through northern Silverpine dangerous. Erland McKree, a scout sent to survey the area for the Deathstalkers, was overwhelmed by the beasts. He remained trapped for days in Malden's dilapidated cottage. Forsaken reinforcements finally broke through the pack and escorted him back to his fellow scouts at the Ivar Patch.",
    "spoiler": 1
   }
  ],
@@ -28,7 +28,7 @@
     "who owned the orchard",
     "who is malden"
    ],
-   "answer": "Malden was a human farmer who lived here before the fall of Lordaeron. He abandoned the orchard and fled for his life when the Scourge invaded the realm during the Third War."
+   "answer": "Malden was a human farmer who lived here before Lordaeron fell. When the Scourge invaded during the Third War, he abandoned the orchard and fled for his life."
   },
   {
    "q": "Why is the orchard full of worgs?",
@@ -37,7 +37,7 @@
     "malden orchard dogs",
     "worg infestation"
    ],
-   "answer": "With no living tenders to defend the farmstead, wild black worgs prowling Silverpine Forest claimed the dense grove and abandoned yard as their pack territory."
+   "answer": "Wild black worgs from Silverpine Forest claimed the dense grove and abandoned yard as pack territory after no living tenders remained to defend the farmstead."
   },
   {
    "q": "Who is trapped inside the cottage?",
@@ -46,7 +46,7 @@
     "who is in the house",
     "deathstalker in the cabin"
    ],
-   "answer": "Deathstalker Erland McKree was trapped inside the cottage. Sent on a reconnaissance mission by the Forsaken, he was ambushed by the orchard's worgs and holed up inside until aid arrived."
+   "answer": "Deathstalker Erland McKree was trapped inside the cottage. Sent to survey the area for the Forsaken, he was ambushed by the orchard's worgs and stayed inside until aid arrived."
   },
   {
    "q": "Does anyone harvest fruit from this orchard now?",
@@ -55,17 +55,17 @@
     "malden's orchard harvest",
     "can you pick fruit"
    ],
-   "answer": "No. The dark trees have not been tended in years, and their fruit rots on the branches amidst the decay spreading through Silverpine Forest."
+   "answer": "No one tends the dark trees, and their fruit rots on the branches amid the decay spreading through Silverpine Forest."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "For the Forsaken, the orchard is a reminder of human ruin and a contested piece of northern Silverpine that Deathstalker scouts must secure against feral beasts."
+   "text": "For you, the orchard recalls human ruin. Deathstalker scouts must secure this contested part of northern Silverpine against feral beasts."
   },
   {
    "target": "faction:Horde",
-   "text": "Travelers moving south from the Sepulcher or the Tirisfal border must tread carefully around the orchard due to the aggressive worg packs nesting on the farm."
+   "text": "If you travel south from the Sepulcher or the Tirisfal border, tread carefully near the orchard. Aggressive worg packs make their home on the farm."
   }
  ],
  "keywords": [
@@ -90,5 +90,6 @@
  ],
  "attribution": [
   "Malden's Orchard"
- ]
+ ],
+ "style": 1
 }

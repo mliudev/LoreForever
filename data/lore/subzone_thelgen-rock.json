@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Thelgen Rock"
  },
- "summary": "Thelgen Rock is an extensive cavern system cut into the southern mountain wall of the Wetlands. Infested with venomous spiders, it is notorious for harboring rare veins of volatile Incendicite Ore.",
+ "summary": "In the southern mountain wall of the Wetlands, Thelgen Rock’s caverns hold volatile Incendicite Ore. Venomous spiders infest the passages.",
  "sections": [
   {
    "title": "A Web-Choked Cavern",
-   "body": "Nestled against the southern mountains separating the Wetlands from Loch Modan, Thelgen Rock is a deep subterranean cave network overrun by aggressive arachnids. The passages are thick with webs and crawling with poisonous spiders that make entering the caverns extremely hazardous for travelers. Despite the infestation, miners and adventurers brave its depths for the valuable deposits of Incendicite Ore found embedded in the rocky tunnels.",
+   "body": "Thelgen Rock cuts deep into the mountains between the Wetlands and Loch Modan. Aggressive spiders fill its web-choked passages, and their venom makes every step dangerous. Miners and adventurers still brave the tunnels for the valuable Incendicite Ore embedded in the rock.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "why is thelgen rock dangerous",
     "spiders in thelgen rock"
    ],
-   "answer": "The caverns of Thelgen Rock are densely inhabited by large, poisonous spiders. Travelers who venture into the winding tunnels can easily find themselves cornered and overwhelmed by venomous bites amidst the webs."
+   "answer": "Large, poisonous spiders crowd Thelgen Rock’s caverns. Their webs fill the winding tunnels, where travelers can be cornered and overwhelmed by venomous bites."
   },
   {
    "q": "Why do prospectors and miners come here?",
@@ -32,7 +32,7 @@
     "ore in thelgen rock",
     "incendicite ore"
    ],
-   "answer": "The cave system contains rich seams of Incendicite Ore, a fiery and volatile mineral sought after by dwarven prospectors and engineers. Despite the spider infestation, daring miners enter to harvest samples from the cave walls."
+   "answer": "The caves hold rich seams of fiery, volatile Incendicite Ore, sought by dwarven prospectors and engineers. Despite the spiders, miners enter to gather samples from the cave walls."
   },
   {
    "q": "Where is Thelgen Rock located?",
@@ -40,13 +40,13 @@
     "thelgen rock location",
     "where is thelgen rock"
    ],
-   "answer": "Thelgen Rock lies along the southern mountain ridge of the Wetlands, south of the main road that connects Menethil Harbor to the Dun Algaz mountain pass."
+   "answer": "Thelgen Rock lies along the Wetlands’ southern mountain ridge, south of the main road between Menethil Harbor and the Dun Algaz mountain pass."
   }
  ],
  "angles": [
   {
    "target": "profession:Mining",
-   "text": "The deep tunnels of Thelgen Rock house rare deposits of Incendicite Ore, drawing prospectors into danger beneath the mountain."
+   "text": "Rare Incendicite Ore deposits lie deep within Thelgen Rock, drawing prospectors beneath the mountain despite the danger."
   }
  ],
  "keywords": [
@@ -63,5 +63,6 @@
  ],
  "attribution": [
   "Thelgen Rock"
- ]
+ ],
+ "style": 1
 }

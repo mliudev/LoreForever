@@ -17,16 +17,16 @@
   "wiki": "Return to Sven",
   "chain": []
  },
- "summary": "This quest marks the moment Sven Yorgen finally learns the truth behind the brutal massacre of his family at the Yorgen Farmstead. After tracking down the runaway Jitters, you return to Sven's isolated camp on the edge of Westfall carrying the vagrant's completed journal. The journal promises answers to the questions that have haunted Sven since the attack.",
+ "summary": "You carry Jitters' finished journal back to Sven Yorgen's camp near Westfall. Its pages may answer the questions that have haunted him since his family's murder.",
  "sections": [
   {
    "title": "A Coward's Confession",
-   "body": "When Sven Yorgen's farm was attacked, Jitters fled into the woods in terror, leaving behind only an incomplete diary amidst the slaughter. Terrified of Sven's wrath and haunted by what he witnessed, Jitters hid deep within Duskwood. When confronted, he hands over his completed journal willingly, desperately hoping that providing the full story of the attack will spare him from having to face the vengeful farmer in person.",
+   "body": "When Sven Yorgen's farm was attacked, Jitters fled into the woods, leaving an incomplete diary behind. Afraid of Sven's anger and haunted by what he had seen, Jitters hid deep in Duskwood. When you find him, he willingly gives you his completed journal. He hopes its full account of the attack will spare him from facing Sven in person.",
    "spoiler": 0
   },
   {
    "title": "Unmasking the Dark Riders",
-   "body": "Reading Jitters' finished account finally connects the horrifying pieces for Sven. The slaughter at his farm was not a random undead surge or feral beast attack; it was carried out by the enigmatic Dark Riders searching for an artifact. Furthermore, Sven recalls witnessing these very same hooded figures meeting secretly with the necromancer Morbent Fel near the Forlorn Rowe. Jitters' journal transforms Sven's blind sorrow into a targeted hunt for retribution against the dark wizard.",
+   "body": "Jitters' finished account connects the pieces of Sven's family's murder. The Dark Riders killed them while searching for an artifact, not in a random undead surge or an attack by feral beasts. Sven also remembers seeing the same hooded figures meet secretly with the necromancer Morbent Fel near the Forlorn Rowe. The journal turns Sven's blind sorrow into a targeted hunt for retribution against Morbent Fel.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "jitters afraid of sven",
     "what did jitters do"
    ],
-   "answer": "Jitters fled Sven's farm and dreads facing the grieving farmer's wrath. He asks you to deliver his journal so Sven can read his account."
+   "answer": "Jitters fled Sven's farm and fears facing the grieving farmer's anger. He asks you to take his journal to Sven so he can read the account."
   },
   {
    "q": "What is in Jitters' completed journal?",
@@ -46,7 +46,7 @@
     "what does the journal say",
     "jitters completed journal lore"
    ],
-   "answer": "It is Jitters' full account of the events at Sven's farm. Sven needs to read it to understand what happened to his family."
+   "answer": "Jitters' completed journal gives his full account of the events at Sven's farm. Sven needs to read it to understand what happened to his family."
   },
   {
    "q": "Who are the Dark Riders mentioned by Sven?",
@@ -55,7 +55,7 @@
     "riders in duskwood",
     "black riders"
    ],
-   "answer": "The Dark Riders are mysterious, hooded cloaked figures roaming Duskwood. Ruthless and deadly, they entered the forest searching relentlessly for powerful magical relics, leaving death and ruin wherever they tread."
+   "answer": "The Dark Riders are mysterious, hooded figures roaming Duskwood. They search for powerful magical relics and leave death and ruin in their wake."
   },
   {
    "q": "How is Morbent Fel connected to the attack on Sven's farm?",
@@ -64,7 +64,7 @@
     "why morbent fel",
     "who is morbent fel"
    ],
-   "answer": "Morbent Fel is a powerful necromancer in western Duskwood. His connection to the attack is uncovered through Sven's investigation and Jitters' journal."
+   "answer": "Morbent Fel is a powerful necromancer in western Duskwood. Sven's investigation and Jitters' journal reveal his connection to the attack."
   },
   {
    "q": "Where can Sven Yorgen be found?",
@@ -73,7 +73,7 @@
     "sven yorgen location",
     "sven camp"
    ],
-   "answer": "Sven has abandoned his ruined farmstead and now resides at a small, tense encampment tucked against the northwestern hills of Duskwood, near the border crossing into Westfall."
+   "answer": "Sven has left his ruined farmstead and lives at a small encampment in Duskwood's northwestern hills, near the border crossing into Westfall."
   },
   {
    "q": "What happens after giving Sven the journal?",
@@ -81,17 +81,17 @@
     "next quest after return to sven",
     "sven questline next"
    ],
-   "answer": "Sven reads Jitters' completed account and asks you to prove your combat abilities in the next task, Proving Your Worth."
+   "answer": "Sven reads Jitters' account, then asks you to prove your combat abilities in Proving Your Worth."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "The tragic demise of the Yorgen Farmstead is a stark reminder of Stormwind's complete failure to protect Duskwood's frontier settlements from the encroaching shadows."
+   "text": "The Yorgen Farmstead's destruction shows Stormwind's failure to protect Duskwood's frontier settlements from the encroaching shadows."
   },
   {
    "target": "class:Paladin",
-   "text": "Helping Sven uncover the forces behind his family's murder serves the holy duty to protect the innocent and seek justice."
+   "text": "As a paladin, helping Sven uncover the forces behind his family's murder serves your holy duty to protect the innocent and seek justice."
   }
  ],
  "keywords": [
@@ -116,5 +116,6 @@
  ],
  "attribution": [
   "Return to Sven"
- ]
+ ],
+ "style": 1
 }

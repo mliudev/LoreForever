@@ -10,11 +10,11 @@
    "quest:1093"
   ]
  },
- "summary": "The Super Reaper 6000 Blueprints are the technical schematics for an enormous mechanized woodcutter deployed by the Venture Company in Stonetalon Mountains. Designed under the supervision of the gnome engineer Gerenzo Wrenchwhistle, the plans are heavily coveted by his disgruntled goblin rivals.",
+ "summary": "In Windshear Crag, the Venture Company’s Super Reaper 6000 Blueprints are coveted by goblin rivals. They hold the technical schematics for an enormous mechanized woodcutter deployed in Stonetalon Mountains, designed under gnome engineer Gerenzo Wrenchwhistle’s supervision.",
  "sections": [
   {
    "title": "Industrial Espionage in Windshear Crag",
-   "body": "The Venture Company's relentless clear-cutting operation in Windshear Crag relies on massive mechanized lumber harvesters known as Super Reapers. To the utter dismay of traditional goblin engineers, the company placed a gnome named Gerenzo in charge of designing the Super Reaper 6000 model. These blueprints contain the schematics for the contraption, carried by Venture Co. operators working the machinery across the crag. When the goblin engineer Ziz Fizziks was ousted from the operation, he was quickly hired by Sputtervalve to steal the designs. However, deciphering Gerenzo's dense, eccentric gnomish technical notations proves to be almost as difficult as taking the blueprints by force.",
+   "body": "Venture Company operators carry the Super Reaper 6000 Blueprints through Windshear Crag. The plans show how to build the massive mechanized lumber harvesters driving the company’s relentless clear-cutting. To the dismay of traditional goblin engineers, the Venture Company put Gerenzo, a gnome, in charge of designing the model. When goblin engineer Ziz Fizziks was ousted from the operation, Sputtervalve quickly hired him to steal the designs. Yet Gerenzo’s dense, eccentric gnomish notations are almost as hard to decipher as the plans are to take by force.",
    "spoiler": 0
   }
  ],
@@ -25,7 +25,7 @@
     "what is super reaper",
     "super reaper machine"
    ],
-   "answer": "It is an enormous mechanized woodcutting device developed for the Venture Company's clear-cutting operations in the Stonetalon Mountains, designed to fell and process timber with ruthless industrial efficiency."
+   "answer": "The Super Reaper 6000 is an enormous mechanized woodcutter developed for the Venture Company’s clear-cutting in Stonetalon Mountains."
   },
   {
    "q": "Who designed the Super Reaper 6000?",
@@ -33,7 +33,7 @@
     "who made blueprints",
     "who designed super reaper"
    ],
-   "answer": "The plans were drafted under Gerenzo Wrenchwhistle, a gnome engineer hired by the Venture Company to lead their mechanical efforts in Windshear Crag, much to the annoyance of local goblin mechanics."
+   "answer": "Gerenzo Wrenchwhistle, a gnome engineer, designed the plans under the Venture Company’s supervision after being hired to lead its mechanical efforts in Windshear Crag. His appointment annoyed local goblin mechanics."
   },
   {
    "q": "Why does Ziz Fizziks want these blueprints?",
@@ -41,7 +41,7 @@
     "why does ziz want plans",
     "who wants blueprints"
    ],
-   "answer": "Ziz was sacked from the Venture Company and immediately hired by Sputtervalve. Stealing the Super Reaper plans is Ziz's ticket to proving his worth and mechanical genius to his new boss."
+   "answer": "After the Venture Company ousted Ziz Fizziks, Sputtervalve hired him to steal the plans. Ziz wants to prove his worth and mechanical genius to his new boss."
   },
   {
    "q": "Who holds the blueprints in Windshear Crag?",
@@ -49,17 +49,17 @@
     "where do blueprints drop",
     "who drops blueprints"
    ],
-   "answer": "The physical schematics are carried by Venture Co. Operators actively overseeing machinery and deforesting timber throughout Windshear Crag."
+   "answer": "Venture Co. operators carrying the physical schematics oversee machinery and clear timber throughout Windshear Crag."
   }
  ],
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "The blueprints reflect a bizarre blend of crude goblin corporate muscle and meticulous gnomish mechanical design, featuring technical schematics that baffle ordinary tinkers."
+   "text": "As an engineer, you can see how Gerenzo’s precise gnomish schematics leave ordinary tinkers baffled, even as goblin corporate muscle puts the machinery to work."
   },
   {
    "target": "race:Gnome",
-   "text": "Gerenzo Wrenchwhistle's blueprints prove that even cutthroat goblin syndicates like the Venture Company ultimately rely on gnomish ingenuity to construct complex heavy machinery."
+   "text": "As a gnome, you can see Gerenzo Wrenchwhistle’s ingenuity at work in the blueprints. Even the Venture Company relies on a gnome engineer to design its complex heavy machinery."
   }
  ],
  "keywords": [
@@ -85,5 +85,6 @@
  "attribution": [
   "Super Reaper 6000 Blueprints",
   "Super Reaper 6000 (quest)"
- ]
+ ],
+ "style": 1
 }

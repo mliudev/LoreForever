@@ -17,21 +17,21 @@
   "wiki": "Battle of Hillsbrad (5)",
   "chain": []
  },
- "summary": "This campaign order from High Executor Darthalia directs Horde agents to strike deep into Azurelode Mine, a vital iron excavation south of Hillsbrad Fields. By eliminating Foreman Bonds and his crew, the Forsaken aim to sever iron shipments to Alliance armories and seize the tunnels for themselves.",
+ "summary": "Horde forces strike at Azurelode Mine in the Battle of Hillsbrad. High Executor Darthalia orders them to kill Foreman Bonds and his crew, cutting iron shipments to Alliance armories.",
  "sections": [
   {
    "title": "Severing the Iron Supply",
-   "body": "Having seized the Hillsbrad Town Registry during earlier raids, High Executor Darthalia identified Azurelode Mine as a linchpin of human military endurance in the region. The mine operates just south of the contested fields, continuously extracting rich veins of iron ore to supply Alliance weaponsmiths and armories. Leaving it untouched would allow Southshore's forces to rearm and bolster their garrisons, rendering Tarren Mill's prior victories moot.",
+   "body": "High Executor Darthalia marked Azurelode Mine as vital to human strength after Horde forces seized the Hillsbrad Town Registry in earlier raids. The mine lies just south of Hillsbrad Fields, where workers keep extracting rich iron ore for Alliance weaponsmiths and armories. If the mine keeps operating, Southshore can rearm and strengthen its garrisons, undoing Tarren Mill's earlier victories.",
    "spoiler": 0
   },
   {
    "title": "A Decisive Message",
-   "body": "To completely break production, Darthalia targets both leadership and labor. Horde forces are ordered to eliminate Foreman Bonds, the human overseer running the excavation, along with a significant portion of his workforce. Striking into the dark shafts sends an unmistakable message to Southshore: neither their supply lines nor their isolated labor camps are beyond the Forsaken's reach.",
+   "body": "Darthalia orders Horde forces to kill Foreman Bonds, the human overseer, and a significant part of his workforce. The assault reaches into the mine's dark shafts to break production. It sends Southshore a clear warning: the Forsaken can reach its supply lines and isolated labor camps.",
    "spoiler": 0
   },
   {
    "title": "Spoils for the Dark Lady",
-   "body": "Beyond denying war material to the Alliance, this assault serves a practical secondary motive for the Undercity. Securing the mine allows Sylvanas Windrunner's forces to claim the rich ore veins for their own foundries. Tarren Mill requires a steady supply of metal to manufacture weapons and plate for the war effort across Lordaeron, turning a former human asset into an engine for Forsaken conquest.",
+   "body": "Sylvanas Windrunner's forces also seek the mine's rich ore veins for their own foundries. Tarren Mill needs a steady supply of metal to make weapons and plate for the war across Lordaeron. The ore can turn a former human asset into a source of Forsaken arms.",
    "spoiler": 1
   }
  ],
@@ -43,7 +43,7 @@
     "azurelode mine purpose",
     "why target the mine"
    ],
-   "answer": "Azurelode Mine provides high-grade iron ore directly to Alliance armories. Seizing it starves human garrisons like Southshore of forging materials while handing a rich source of raw metal over to the Undercity to equip Forsaken forces."
+   "answer": "Azurelode Mine supplies high-grade iron ore to Alliance armories. Taking it deprives garrisons such as Southshore of materials for forging and puts the ore in the Undercity's hands to equip Forsaken forces."
   },
   {
    "q": "Who is Foreman Bonds?",
@@ -52,7 +52,7 @@
     "who is bonds",
     "who leads the mine"
    ],
-   "answer": "Foreman Bonds is the human overseer in charge of the Azurelode excavation. He manages the miners and can call upon stalwart dwarven defenders when cornered deep within the lower chambers."
+   "answer": "Foreman Bonds is the human overseer of the Azurelode excavation. He manages the miners and can call on stalwart dwarven defenders when cornered deep in the lower chambers."
   },
   {
    "q": "Where is the Azurelode Mine located?",
@@ -61,7 +61,7 @@
     "azurelode location",
     "how to find the mine"
    ],
-   "answer": "Azurelode Mine is carved into the hills south of Hillsbrad Fields, sitting west of Southshore along the coastline bluffs."
+   "answer": "Azurelode Mine lies in the hills south of Hillsbrad Fields, west of Southshore along the coastline bluffs."
   },
   {
    "q": "How did Darthalia find out about the mine's operations?",
@@ -70,7 +70,7 @@
     "town registry mine",
     "hillsbrad intel"
    ],
-   "answer": "Darthalia discovered the mine's logistical value and active status by reviewing the Hillsbrad Town Registry, which Horde operatives recovered during previous strikes on the human settlements."
+   "answer": "Darthalia learned the mine was active and important to supply lines by reviewing the Hillsbrad Town Registry. Horde operatives recovered it in earlier strikes on human settlements."
   },
   {
    "q": "What happens after Foreman Bonds is slain?",
@@ -79,7 +79,7 @@
     "after killing bonds",
     "quest aftermath"
    ],
-   "answer": "With the mine crippled and its resources marked for Forsaken control, High Executor Darthalia escalates the offensive, turning the Horde's attention toward breaking the remaining infrastructure of Hillsbrad and pushing closer to Southshore itself."
+   "answer": "With the mine crippled and its resources marked for Forsaken control, High Executor Darthalia widens the offensive against Hillsbrad's remaining infrastructure and presses closer to Southshore."
   },
   {
    "q": "Does the Alliance defend the mine?",
@@ -88,21 +88,21 @@
     "alliance presence in azurelode",
     "dwarves in mine"
    ],
-   "answer": "Yes. Beyond the human miners working the shafts, the Alliance maintains armed guards at the entrance, and Foreman Bonds keeps tough dwarven reinforcements at hand deep within the tunnels."
+   "answer": "Yes. Armed Alliance guards watch the entrance, and human miners work the shafts. Foreman Bonds can also call on tough dwarven reinforcements deep in the tunnels."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "Taking Azurelode Mine secures vital iron for the Deathguard, turning human industry toward arming Sylvanas's armies across Lordaeron."
+   "text": "As an Undead, taking Azurelode Mine secures iron for the Deathguard and turns human industry toward arming Sylvanas's armies across Lordaeron."
   },
   {
    "target": "faction:Horde",
-   "text": "Disrupting the Alliance's primary metal supply in Hillsbrad relieves pressure on the Tarren Mill frontline, ensuring human troops cannot easily replace their equipment."
+   "text": "As Horde, disrupting Hillsbrad's main metal supply eases pressure on the Tarren Mill frontline and makes it harder for human troops to replace their equipment."
   },
   {
    "target": "profession:Mining",
-   "text": "Azurelode Mine is one of the richest iron operations in the foothills, making it a natural flashpoint for anyone competing over valuable ore veins."
+   "text": "As a miner, you can see why Azurelode Mine's rich iron veins make it a point of conflict for those seeking valuable ore."
   }
  ],
  "keywords": [
@@ -127,5 +127,6 @@
  ],
  "attribution": [
   "Battle of Hillsbrad (5)"
- ]
+ ],
+ "style": 1
 }

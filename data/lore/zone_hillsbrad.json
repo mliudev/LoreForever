@@ -12,21 +12,21 @@
   "levels": "20-30",
   "aliases": []
  },
- "summary": "Hillsbrad Foothills is a green, fertile region that represents the last pastoral bastion of the fallen kingdom of Lordaeron. Despite having largely escaped the Scourge's plague, the land is torn apart by brutal open war between the humans of Southshore and the Forsaken entrenched at Tarren Mill. It serves as a violent crossroads where the armies of the Alliance and the Horde clash without mercy.",
+ "summary": "Hillsbrad Foothills remains green while war tears through the last pastoral reaches of Lordaeron. Southshore's humans and the Forsaken at Tarren Mill clash across the fields, making the region a violent crossroads for Alliance and Horde armies.",
  "sections": [
   {
    "title": "A Garden Beside the Ruins",
-   "body": "While northern Lordaeron rots under the blight of the Scourge, Hillsbrad remains strikingly green. Its rolling pastures, pine groves, and working farmsteads offer travelers a rare glimpse of what the kingdom looked like before the Third War. Yet that tranquil appearance is deceptive. The peaceful fields and rural roads are constantly swept by armed patrols, rogue mercenaries, and scavenger beasts. What should be Lordaeron's breadbasket has instead become its most contested borderland.",
+   "body": "Hillsbrad remains green while blight consumes much of northern Lordaeron. Rolling pastures, pine groves, and working farms still recall the kingdom before the Third War. Armed patrols, rogue mercenaries, and scavenger beasts cross its fields and roads. Lordaeron's breadbasket has become one of its most contested borderlands.",
    "spoiler": 0
   },
   {
    "title": "The War of Southshore and Tarren Mill",
-   "body": "The political heart of Hillsbrad is defined by two entrenched strongholds. In the south along the coast lies Southshore, an Alliance haven populated by human refugees and soldiers fiercely loyal to the Alliance. To the north sits Tarren Mill, once a quiet human farming hamlet that was wiped out by the Scourge and later fortified as the Forsaken's southernmost garrison. The open ground between the two settlements is known throughout Azeroth as a relentless kill zone, where Alliance and Horde champions wage perpetual skirmishes for control of the region.",
+   "body": "Southshore stands on the southern coast, held by human refugees and soldiers loyal to the Alliance. North of it, Tarren Mill was once a quiet human farming hamlet, until the Scourge destroyed it and the Forsaken fortified it as their southernmost garrison. The open ground between the settlements has become a relentless killing ground, where Alliance and Horde champions skirmish for control of Hillsbrad.",
    "spoiler": 0
   },
   {
    "title": "Old Scars and Hidden Threats",
-   "body": "Hillsbrad's history of violence runs deep. During the Second War, its coast and hills witnessed the first massive clashes between the Grand Alliance and the Old Horde. Later, the fortress of Durnholde Keep served as the internment camp where Thrall was raised before leading the orcish rebellion. Today, Durnholde lies in ruins, seized by the Syndicate\u2014displaced human nobles turned bandit cutthroats. Coastal murlocs, hostile gnolls, and the shadowed dead on Purgation Isle ensure that no corner of the hills is truly secure.",
+   "body": "Hillsbrad's violence reaches back to the Second War, when its coast and hills saw the first massive clashes between the Grand Alliance and the Old Horde. Durnholde Keep later served as the internment camp where Thrall was raised before leading the orcish rebellion. Now the keep lies in ruins, held by the Syndicate, displaced human nobles turned bandits. Coastal murlocs, hostile gnolls, and the shadowed dead on Purgation Isle leave no corner of the hills secure.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "did hillsbrad get plagued",
     "why no plague in hillsbrad"
    ],
-   "answer": "The Scourge marched primarily along the central corridors toward the capital and the northern kingdoms, leaving Hillsbrad largely bypassed by the plague cauldrons that ruined the north. As a result, the soil remains fertile and the vegetation healthy, making it the most pristine remnant of old Lordaeron."
+   "answer": "The Scourge marched mainly through the central corridors toward the capital and northern kingdoms, leaving Hillsbrad largely beyond the reach of the plague cauldrons that ruined the north. Its soil remains fertile and its vegetation healthy, making it the most pristine remnant of old Lordaeron."
   },
   {
    "q": "Who controls Hillsbrad right now?",
@@ -47,7 +47,7 @@
     "hillsbrad faction control",
     "is hillsbrad alliance or horde"
    ],
-   "answer": "Neither faction holds full control. The Alliance maintains Southshore and nearby farms like the Hillsbrad Fields, while the Forsaken hold Tarren Mill to the north. Dwarven forces hold the fortress of Dun Garok in the east, and the criminal Syndicate occupies the ruins of Durnholde Keep."
+   "answer": "Neither faction controls all of Hillsbrad. The Alliance holds Southshore and nearby farms such as the Hillsbrad Fields, while the Forsaken hold Tarren Mill to the north. Dwarven forces occupy Dun Garok in the east, and the criminal Syndicate holds the ruins of Durnholde Keep."
   },
   {
    "q": "What is Durnholde Keep?",
@@ -56,7 +56,7 @@
     "what happened at durnholde",
     "who runs durnholde"
    ],
-   "answer": "Durnholde was once the headquarters of the Alliance internment camp system after the Second War, governed by Aedelas Blackmoore, who raised Thrall there as a gladiator slave. Thrall escaped, rallied the orcs, and laid waste to the keep. In the aftermath of Lordaeron's fall, the ruins were occupied by the Syndicate."
+   "answer": "Durnholde once served as the headquarters of the Alliance's internment camp system after the Second War. Aedelas Blackmoore governed it and raised Thrall there as a gladiator slave. Thrall escaped, rallied the orcs, and laid waste to the keep; after Lordaeron fell, the Syndicate occupied its ruins."
   },
   {
    "q": "Why do the Forsaken and humans fight so fiercely here?",
@@ -65,7 +65,7 @@
     "southshore vs tarren mill lore",
     "hillsbrad conflict reason"
    ],
-   "answer": "Tarren Mill represents the southern frontier of Sylvanas Windrunner's domain, while Southshore is the Alliance's primary staging ground and port into Lordaeron. The Forsaken view Southshore as an existential threat to their southern flank, while the humans view the undead as horrific usurpers who must be driven from their homeland."
+   "answer": "Tarren Mill marks the southern frontier of Sylvanas Windrunner's domain, while Southshore is the Alliance's main staging ground and port into Lordaeron. The Forsaken see Southshore as a threat to their southern flank, and the humans see the undead as usurpers who must be driven from their homeland."
   },
   {
    "q": "What is Purgation Isle?",
@@ -74,7 +74,7 @@
     "island off southshore",
     "why undead on purgation isle"
    ],
-   "answer": "Purgation Isle is an isolated, rugged island off the southern coast of Hillsbrad. Unlike the mainland hills, the island is infested with powerful undead ghouls, skeletons, and vengeful spirits, making it an extremely dangerous offshore haven for dark magic and restless dead."
+   "answer": "Purgation Isle is a rugged, isolated island off Hillsbrad's southern coast. Powerful undead ghouls, skeletons, and vengeful spirits infest it, making it a dangerous offshore refuge for dark magic and restless dead."
   },
   {
    "q": "Who are the bandits occupying the camps and towers?",
@@ -83,29 +83,29 @@
     "who is the syndicate",
     "syndicate in hillsbrad"
    ],
-   "answer": "They belong to the Syndicate, an organized network of former nobility and foot soldiers from the fallen human kingdom of Alterac. Cast out for their kingdom's betrayal during the Second War, they now operate as ruthless bandits seeking to reclaim their lands through blackmail, theft, and slaughter."
+   "answer": "The bandits belong to the Syndicate, an organized network of former nobles and foot soldiers from the fallen human kingdom of Alterac. Cast out after their kingdom's betrayal during the Second War, they now seek to reclaim their lands through blackmail, theft, and slaughter."
   }
  ],
  "angles": [
   {
    "target": "race:Human",
-   "text": "Southshore is one of your people's final refuges in Lordaeron; walking these pastures is a painful reminder of the great kingdom that was lost to betrayal and undeath."
+   "text": "Southshore is one of your people's last refuges in Lordaeron. These pastures recall the great kingdom lost to betrayal and undeath."
   },
   {
    "target": "race:Undead",
-   "text": "Tarren Mill anchors the southern frontier of the Forsaken realm, where Apothecary Lydon works tirelessly to develop the New Plague to secure your people's future."
+   "text": "Tarren Mill anchors the southern frontier of the Forsaken realm. Apothecary Lydon works there to develop the New Plague and secure your people's future."
   },
   {
    "target": "race:Orc",
-   "text": "This soil holds monumental weight for your people: the ruined ramparts of Durnholde Keep are where Warchief Thrall broke his chains and reawakened the spirit of the Horde."
+   "text": "Durnholde Keep's ruined ramparts mark where Warchief Thrall broke his chains and rekindled the spirit of the Horde."
   },
   {
    "target": "race:Dwarf",
-   "text": "The soldiers of Dun Garok represent Ironforge's resolute military commitment to defending their human allies and containing the undead threat north of the Wetlands."
+   "text": "The soldiers of Dun Garok show Ironforge's resolve to defend its human allies and contain the undead threat north of the Wetlands."
   },
   {
    "target": "class:Rogue",
-   "text": "Hidden high in the mountains above the foothills lies Ravenholdt Manor, the secretive gathering place and training ground for Azeroth's most elite guild of thieves and assassins."
+   "text": "Ravenholdt Manor lies hidden in the mountains above the foothills. It is the secret gathering place and training ground of Azeroth's most elite guild of thieves and assassins."
   }
  ],
  "keywords": [
@@ -132,5 +132,6 @@
  "attribution": [
   "Hillsbrad Foothills (Classic)",
   "Hillsbrad Foothills"
- ]
+ ],
+ "style": 1
 }

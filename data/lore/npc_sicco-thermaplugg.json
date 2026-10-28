@@ -8,21 +8,21 @@
   "wiki": "Sicco Thermaplugg",
   "refs": 5
  },
- "summary": "Mekgineer Thermaplugg is the self-proclaimed ruler of ruined Gnomeregan and the greatest traitor in gnomish history. Once the trusted chief advisor of High Tinker Gelbin Mekkatorque, he orchestrated the catastrophic irradiation of the underground city in a twisted bid to seize power. Now thoroughly deranged and transformed into a leper gnome, he commands the irradiated halls from within a massive mechanical battle suit.",
+ "summary": "In ruined Gnomeregan, Mekgineer Thermaplugg rules from a massive mechanical battle suit. Once High Tinker Gelbin Mekkatorque’s trusted advisor, he brought about the city’s irradiation in a bid for power. The fallout transformed him into a leper gnome and left him deranged, ruling the ruined halls.",
  "sections": [
   {
    "title": "A Toxic Ambition",
-   "body": "Mekgineer Thermaplugg served for many years as chief advisor to High Tinker Gelbin Mekkatorque, who trusted him completely. All the while, Thermaplugg secretly coveted the office of High Tinker. What finally drove him to betray that trust, whether power or wealth, not even Mekkatorque can say; the High Tinker can only note that Thermaplugg would have had both in time.",
+   "body": "For many years, Mekgineer Thermaplugg served as chief advisor to High Tinker Gelbin Mekkatorque, who trusted him completely. In secret, Thermaplugg coveted the High Tinker’s office. Even Mekkatorque cannot say what finally drove him to betray that trust. The High Tinker can only note that Thermaplugg would have had both power and wealth in time.",
    "spoiler": 0
   },
   {
    "title": "The Poisoning of Gnomeregan",
-   "body": "When subterranean troggs swarmed Gnomeregan during the Third War, the gnomes fought them in the subterranean darkness. Seeking a way to break the siege, Gelbin turned to Thermaplugg for counsel. Thermaplugg urged him to flood the city with radioactive gas, promising it would destroy the troggs while sparing the gnomes. In truth, Thermaplugg was using the crisis as his chance to unseat Mekkatorque and seize power for himself.",
+   "body": "During the Third War, subterranean troggs swarmed Gnomeregan, and the gnomes fought them in the darkness below ground. Seeking a way to break the siege, Gelbin asked Thermaplugg for counsel. Thermaplugg urged him to flood the city with radioactive gas, claiming it would destroy the troggs while sparing the gnomes. In truth, he meant to use the crisis to unseat Mekkatorque and seize power.",
    "spoiler": 1
   },
   {
    "title": "King of the Ruins",
-   "body": "Thermaplugg's gamble proved catastrophically wrong. The radioactive fallout swept uncontrollably through all levels of the city, slaughtering eighty percent of the gnomish population and twisting many of the survivors into feral, diseased leper gnomes. Instead of ascending the throne of a thriving metropolis, Thermaplugg himself was warped by the fallout. Driven utterly mad by the radiation, he crowned himself King of the Gnomes and now presides over a charnel house of irradiated machines and mutated thralls, fighting a perpetual war against trogg invaders and any surface gnomes seeking to reclaim their lost home.",
+   "body": "Thermaplugg’s gamble went terribly wrong. Radioactive fallout swept through every level of the city, killing eighty percent of the gnomish population and twisting many survivors into feral, diseased leper gnomes. The fallout warped Thermaplugg too, and the radiation drove him utterly mad. He crowned himself King of the Gnomes and rules among irradiated machines and mutated thralls. His forces fight trogg invaders and surface gnomes seeking to reclaim their lost home.",
    "spoiler": 1
   }
  ],
@@ -35,7 +35,7 @@
     "who is the boss in gnomeregan",
     "thermaplugg backstory"
    ],
-   "answer": "He is the former chief advisor to High Tinker Gelbin Mekkatorque who betrayed his people during the trogg invasion. Intending to usurp power, he convinced Mekkatorque to release radioactive gas into Gnomeregan, which resulted in the near-extinction of their race and left him ruling the irradiated ruins as a mad king."
+   "answer": "Mekgineer Thermaplugg was High Tinker Gelbin Mekkatorque’s chief advisor before betraying his people during the trogg invasion. He urged Mekkatorque to release radioactive gas into Gnomeregan, intending to seize power. The gas nearly extinguished the gnomish population, and Thermaplugg now rules the irradiated ruins as a mad king."
   },
   {
    "q": "Why did Thermaplugg betray Gelbin Mekkatorque?",
@@ -44,7 +44,7 @@
     "thermaplugg motive",
     "why does sicco hate gelbin"
    ],
-   "answer": "Even Mekkatorque cannot say for certain. The High Tinker trusted him and wonders whether it was for power or wealth, things Thermaplugg would have had in time anyway. What is known is that Thermaplugg had long secretly coveted the office of High Tinker, and he used the trogg crisis to seize Gnomeregan for himself."
+   "answer": "Even Mekkatorque cannot say for certain why Thermaplugg betrayed him. The High Tinker wonders whether Thermaplugg sought power or wealth, both of which he would have had in time. Thermaplugg had long coveted the High Tinker’s office and used the trogg crisis to seize Gnomeregan for himself."
   },
   {
    "q": "Did Thermaplugg cause the trogg invasion?",
@@ -53,7 +53,7 @@
     "did sicco bring the troggs",
     "trogg invasion gnomeregan origin"
    ],
-   "answer": "The troggs originally broke through into Gnomeregan's lower levels after being unearthed from the ancient titan vault of Uldaman. While rumors swirl that Thermaplugg had prior knowledge of the subterranean breach or even facilitated it to engineer a crisis, Mekkatorque has never been able to verify whether Thermaplugg initiated the invasion or simply exploited it."
+   "answer": "Troggs first broke into Gnomeregan’s lower levels after being unearthed from the ancient titan vault of Uldaman. Rumors claim Thermaplugg knew of the breach or even helped bring it about to create a crisis. Mekkatorque has never verified whether Thermaplugg started the invasion or simply exploited it."
   },
   {
    "q": "What happened to Thermaplugg after the gas was released?",
@@ -62,14 +62,14 @@
     "how did he become a leper gnome",
     "why is thermaplugg green"
    ],
-   "answer": "Like thousands of other gnomes caught in the disaster, Thermaplugg was exposed to lethal levels of radiation. The fallout withered his flesh, turned his skin a sickly green, and fractured his mind. Instead of fleeing with the surviving refugees to Ironforge, he stayed behind to rule the ruins as the self-proclaimed King of the Gnomes."
+   "answer": "Thermaplugg was exposed to lethal radiation along with thousands of other gnomes. The fallout withered his flesh, turned his skin sickly green, and fractured his mind. He stayed behind to rule the ruins as the self-proclaimed King of the Gnomes instead of fleeing with the surviving refugees to Ironforge."
   },
   {
    "q": "What is the Crowd Pummeler 9-60?",
    "aliases": [
     "crowd pummeler origin"
    ],
-   "answer": "The Crowd Pummeler 9-60 is a hulking gnomish war machine that still stomps through Gnomeregan's Engineering Labs, one of the many mechanical guardians defending Thermaplugg's irradiated domain."
+   "answer": "The Crowd Pummeler 9-60 is a hulking gnomish war machine that still stomps through Gnomeregan’s Engineering Labs. It is one of many mechanical guardians defending Thermaplugg’s irradiated domain."
   },
   {
    "q": "What does High Tinker Mekkatorque want done with Thermaplugg?",
@@ -78,25 +78,25 @@
     "kill thermaplugg quest",
     "does mekkatorque want him dead"
    ],
-   "answer": "Mekkatorque considers Thermaplugg his greatest failure and his people's greatest traitor. From his temporary court in Ironforge's Tinker Town, Mekkatorque actively commissions brave Alliance adventurers to delve into the irradiated depths of Gnomeregan and execute Thermaplugg to bring justice to the fallen."
+   "answer": "Mekkatorque regards Thermaplugg as his greatest failure and his people’s greatest traitor. From his temporary court in Ironforge’s Tinker Town, he commissions brave Alliance adventurers to enter Gnomeregan’s irradiated depths and execute Thermaplugg, seeking justice for the fallen."
   }
  ],
  "angles": [
   {
    "target": "race:Gnome",
-   "text": "Thermaplugg is the embodiment of everything your people mourn and despise; his vanity and treachery cost you your homeland and turned your kin into diseased horrors."
+   "text": "Thermaplugg embodies what your people mourn and despise. His vanity and treachery cost you your homeland and turned your kin into diseased horrors."
   },
   {
    "target": "faction:Alliance",
-   "text": "Thermaplugg's betrayal kept Gnomeregan from answering the call to arms in the Third War, crippling Alliance supply lines and engineering support during humanity's darkest hour."
+   "text": "Thermaplugg’s betrayal kept Gnomeregan from answering the call to arms in the Third War. It crippled Alliance supply lines and engineering support during humanity’s darkest hour."
   },
   {
    "target": "profession:Engineering",
-   "text": "Thermaplugg represents the lethal hazard of sloppy formulas and unprincipled design, wielding hazardous walking war machines and toxic bomb Dispensers against anyone who enters his workshop."
+   "text": "Thermaplugg shows the lethal danger of sloppy formulas and unprincipled design. He wields hazardous walking war machines and toxic bomb Dispensers against anyone who enters his workshop."
   },
   {
    "target": "race:Dwarf",
-   "text": "Your kin in Ironforge gave refuge to the ragged survivors fleeing Thermaplugg's poison, and Ironforge guards watch the Dun Morogh gates closely against his irradiated wanderers."
+   "text": "Your kin in Ironforge gave refuge to survivors fleeing Thermaplugg’s poison. Ironforge guards watch the Dun Morogh gates closely against his irradiated wanderers."
   }
  ],
  "keywords": [
@@ -121,5 +121,6 @@
  ],
  "attribution": [
   "Sicco Thermaplugg"
- ]
+ ],
+ "style": 1
 }

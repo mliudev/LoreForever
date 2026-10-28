@@ -10,16 +10,16 @@
    "quest:365"
   ]
  },
- "summary": "Tirisfal Pumpkins grow in the tilled plots of the Solliden Farmstead, tended by surviving living humans struggling to survive in the blighted glades. The Forsaken routinely raid these fields to supply the Royal Apothecary Society with organic matter for their ongoing chemical concoctions.",
+ "summary": "At Solliden Farmstead, living humans still tend pumpkins in blighted Tirisfal. The Forsaken take them for the Royal Apothecary Society’s mixtures.",
  "sections": [
   {
    "title": "Harvest in a Blighted Land",
-   "body": "Despite the corruption settling over Lordaeron, crops still somehow sprout in the fields west of Brill. At the Solliden Farmstead, living human farmers cling to their soil, cultivating massive orange squash under the watchful guard of the nearby Scarlet Crusade. For these mortals, the harvest is vital sustenance. For the nearby Forsaken of Brill, however, the pumpkins represent both a spiteful target of sabotage and a bounty of raw organic reagents needed by Apothecary Johaan.",
+   "body": "West of Brill, crops still grow despite the corruption spreading across Lordaeron. At Solliden Farmstead, living human farmers work the soil and grow large orange pumpkins under the watch of the nearby Scarlet Crusade. The harvest feeds these farmers. To the Forsaken of Brill, the pumpkins are targets for sabotage and raw materials for Apothecary Johaan.",
    "spoiler": 0
   },
   {
    "title": "Apothecary Reagents",
-   "body": "Deathguard Simmer directs young Forsaken out into the contested fields to pilfer the pumpkins directly from beneath the farmers' noses. Rather than feeding the dead, these vegetables find their way into the boiling cauldrons of the Royal Apothecary Society. The apothecaries frequently test how natural flora reacts to their plagues and experimental mixtures, turning Lordaeron's remaining agriculture against the living.",
+   "body": "Deathguard Simmer sends young Forsaken into the contested fields to steal pumpkins from under the farmers’ noses. The vegetables do not feed the dead; they go into the Royal Apothecary Society’s cauldrons. Apothecaries test how natural plants react to plagues and experimental mixtures, using Lordaeron’s remaining crops against the living.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "where are the pumpkins",
     "solliden farm pumpkins"
    ],
-   "answer": "They grow in the patches of the Solliden Farmstead, situated west of Brill and just north of Deathknell in Tirisfal Glades."
+   "answer": "They grow at Solliden Farmstead, west of Brill and just north of Deathknell in Tirisfal Glades."
   },
   {
    "q": "Why does the Forsaken want these pumpkins?",
@@ -40,7 +40,7 @@
     "johaan pumpkin",
     "what are pumpkins for"
    ],
-   "answer": "Deathguard Simmer orders them stolen to deny resources to the surviving humans and the Scarlet Crusade, and to deliver them to Apothecary Johaan in Brill as raw organic reagents for apothecary research."
+   "answer": "Deathguard Simmer orders the pumpkins stolen to deny them to the surviving humans and the Scarlet Crusade, and to bring them to Apothecary Johaan in Brill as raw materials for apothecary research."
   },
   {
    "q": "Can players eat or cook with Tirisfal Pumpkins?",
@@ -48,7 +48,7 @@
     "can you eat tirisfal pumpkins",
     "pumpkin cooking ingredient"
    ],
-   "answer": "No. They are gathered strictly as a quest reagent for the Royal Apothecary Society and serve no culinary purpose for adventurers."
+   "answer": "No. The Royal Apothecary Society gathers them for its mixtures, and adventurers do not use them for cooking."
   },
   {
    "q": "Who is currently growing them?",
@@ -56,17 +56,17 @@
     "who owns the farm",
     "solliden farmers"
    ],
-   "answer": "Living human farmers still till the soil at the Solliden Farmstead, protected loosely by the Scarlet Crusade stationed at the nearby watchtower."
+   "answer": "Living human farmers still tend the soil at Solliden Farmstead, with loose protection from the Scarlet Crusade at a nearby watchtower."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "Raiding the Solliden patch serves a dual purpose: depriving the remaining living mortals of sustenance while providing Apothecary Johaan with test materials for the Forsaken's dark research."
+   "text": "As an undead, you raid Solliden Farmstead both to deprive living people of food and to provide Apothecary Johaan with materials for Forsaken research."
   },
   {
    "target": "faction:Alliance",
-   "text": "The pumpkins grown at the Solliden Farmstead represent the desperate efforts of Lordaeron's surviving populace to feed themselves amid constant Forsaken incursions."
+   "text": "As an Alliance member, you see the pumpkins at Solliden Farmstead as the surviving people of Lordaeron trying to feed themselves amid Forsaken raids."
   }
  ],
  "keywords": [
@@ -92,5 +92,6 @@
  "attribution": [
   "Tirisfal Pumpkin",
   "Fields of Grief (Classic)"
- ]
+ ],
+ "style": 1
 }

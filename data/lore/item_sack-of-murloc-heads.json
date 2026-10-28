@@ -10,11 +10,11 @@
    "quest:560"
   ]
  },
- "summary": "The Sack of Murloc Heads is a gruesome bundle collected along the beaches of the Hillsbrad Foothills. Assembled as proof of military action against local shore pests, it is pawned off by Lieutenant Farren Orinelle onto passing adventurers for delivery to Marshal Redpath in Southshore.",
+ "summary": "Along the Hillsbrad beaches, a gruesome sack of Murloc Heads is gathered as proof of military action against local shore pests. Lieutenant Farren Orinelle hands the bundle to passing adventurers for delivery to Marshal Redpath in Southshore.",
  "sections": [
   {
    "title": "Bureaucracy and Coastal Pests",
-   "body": "Southshore stands under constant siege from Syndicate outlaws, Forsaken skirmishers, and wild murlocs crowding the coast. To secure funding and favor from town leadership, local officers must demonstrate that coastal threats are actively being culled. Lieutenant Farren Orinelle gathers proof in the form of severed heads, but the distasteful nature of the cargo\u2014and his own squeamishness\u2014prompts him to hand the dripping sack off to travelers rather than deliver the grisly evidence to Marshal Redpath himself.",
+   "body": "Southshore faces constant attacks from Syndicate outlaws, Forsaken skirmishers, and wild murlocs along the coast. Local officers must show town leaders that coastal threats are being culled to secure funding and favor. Lieutenant Farren Orinelle collects severed heads as proof, but finds the cargo distasteful. His squeamishness leads him to hand the sack to travelers instead of bringing the grisly evidence to Marshal Redpath himself.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "murloc sack",
     "what is this item"
    ],
-   "answer": "It is a burlap sack filled with severed murloc heads gathered from the western beaches of Hillsbrad. It serves as physical proof of coastal pacification for Southshore's garrison commander."
+   "answer": "The Sack of Murloc Heads is a burlap sack of severed murloc heads gathered from Hillsbrad's western beaches. It gives Southshore's garrison commander physical proof of efforts to pacify the coast."
   },
   {
    "q": "Why won't Lieutenant Farren deliver it himself?",
@@ -35,7 +35,7 @@
     "farren's excuse",
     "lazy farren"
    ],
-   "answer": "Farren finds carrying a foul-smelling bag of decaying fish-beast heads revolting. Preferring to keep his uniform and hands clean, he delegates the unpleasant chore across Southshore to an obliging adventurer."
+   "answer": "Lieutenant Farren Orinelle finds carrying a foul-smelling bag of decaying murloc heads revolting. He hands the unpleasant delivery across Southshore to an obliging adventurer."
   },
   {
    "q": "Who receives the sack?",
@@ -44,7 +44,7 @@
     "where do i bring it",
     "marshal redpath turn in"
    ],
-   "answer": "The delivery is made to Marshal Redpath, the commander overseeing the defenses of Southshore, who assesses the town's security and demands hard proof of defensive efforts."
+   "answer": "Marshal Redpath receives the sack. He commands Southshore's defenses, assesses the town's security, and demands proof of defensive efforts."
   },
   {
    "q": "Why does Southshore require murloc heads as proof?",
@@ -52,13 +52,13 @@
     "why collect murloc heads",
     "proof of kill"
    ],
-   "answer": "Murlocs constantly raid the coastlines and threaten the harbor. Officers are expected to verify that patrols are maintaining perimeter security, and tangible trophies ensure no soldier is simply taking credit for idle watches."
+   "answer": "Southshore requires murloc heads as proof because murlocs constantly raid the coast and threaten the harbor. Officers must verify that patrols maintain perimeter security, and tangible trophies help ensure soldiers do not claim credit for idle watches."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "The delivery illustrates the frayed logistics and unglamorous day-to-day burdens carried by Southshore's defenders as they hold the northern Alliance enclave together."
+   "text": "As an Alliance member, you see the frayed logistics and unglamorous daily burdens Southshore's defenders bear as they hold the northern Alliance enclave together."
   }
  ],
  "keywords": [
@@ -82,5 +82,6 @@
  "attribution": [
   "Sack of Murloc Heads",
   "Farren's Proof (2)"
- ]
+ ],
+ "style": 1
 }

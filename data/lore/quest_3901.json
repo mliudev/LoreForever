@@ -17,16 +17,16 @@
   "wiki": "Rattling the Rattlecages",
   "chain": []
  },
- "summary": "Rattling the Rattlecages is an early trial assigned by Shadow Priest Sarvis to newly awakened Forsaken in Deathknell. Tasked with destroying twelve Rattlecage Skeletons, fresh undead prove their resilience against the Scourge and demonstrate that they possess the willpower to defend their newly won freedom.",
+ "summary": "In Deathknell, newly awakened Forsaken face a test against the Rattlecage Skeletons. Shadow Priest Sarvis sends them to destroy twelve skeletons and prove they can defend their hard-won freedom.",
  "sections": [
   {
    "title": "A Test of Resolve",
-   "body": "Having culled the mindless zombies stumbling through Deathknell, newly risen Forsaken are immediately pushed into a harsher trial. Shadow Priest Sarvis directs recruits to confront the Rattlecage Skeletons roaming the outskirts of the settlement. These animated bones lack any trace of sapience or self-control, yet they hit harder and fight with greater ferocity than the decaying corpses nearby. Surviving their clattering ambushes demonstrates that a new recruit will not falter when placed under immediate pressure.",
+   "body": "Newly risen Forsaken face a harder trial after culling the mindless zombies in Deathknell. Shadow Priest Sarvis sends recruits against the Rattlecage Skeletons roaming the settlement’s outskirts. The animated bones have no sapience or self-control, yet strike harder and fight more fiercely than the nearby decaying corpses. Surviving their clattering ambushes shows Sarvis that a recruit can withstand immediate pressure.",
    "spoiler": 0
   },
   {
    "title": "Defending Newly Won Freedom",
-   "body": "To Sarvis and the leadership in Deathknell, culling the skeletons serves a dual purpose. It protects the fragile refuge from being overrun by the lingering grip of the Lich King while weeding out those recruits who cannot cut it. Those who fail or hesitate risk meeting the same fate as the mindless wretches wandering the woods. Overcoming the Rattlecages proves to Sarvis that the recruit possesses the mettle required to navigate a world that despises their very existence.",
+   "body": "Destroying the skeletons protects Deathknell from the lingering grip of the Lich King and tests which recruits can endure the fight. Those who fail or hesitate risk becoming like the mindless wretches wandering the woods. Overcoming the Rattlecages proves to Sarvis that you have the mettle to face a world that despises your existence.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "what are rattlecage skeletons",
     "who are the skeletons"
    ],
-   "answer": "Rattlecage Skeletons are mindless undead still held in thrall to the Lich King. Stripped of flesh and cognitive will, they wander the edges of Deathknell, attacking anyone who crosses their path."
+   "answer": "Rattlecage Skeletons are mindless undead still held by the Lich King. Stripped of flesh and cognitive will, they roam Deathknell’s edges and attack anyone who crosses their path."
   },
   {
    "q": "Why does Shadow Priest Sarvis want the skeletons destroyed?",
@@ -47,7 +47,7 @@
     "sarvis purpose",
     "reason for rattling rattlecages"
    ],
-   "answer": "Sarvis wants to test the combat ability and willpower of newly awakened Forsaken under pressure. Thinning out the aggressive skeletons also protects Deathknell from being overwhelmed by the Scourge."
+   "answer": "Sarvis tests newly awakened Forsaken for combat skill and willpower under pressure. Thinning the aggressive skeletons also helps keep Deathknell from being overwhelmed by the Scourge."
   },
   {
    "q": "Where are the Rattlecage Skeletons found?",
@@ -56,7 +56,7 @@
     "where to find rattlecage skeletons",
     "skeleton spawns deathknell"
    ],
-   "answer": "They wander the northern and northeastern borders of the Deathknell valley, just beyond the village where the mindless zombies roam."
+   "answer": "Rattlecage Skeletons roam the northern and northeastern borders of the Deathknell valley, just beyond the village where mindless zombies wander."
   },
   {
    "q": "What happens after completing this quest?",
@@ -65,7 +65,7 @@
     "what to do after",
     "sarvis next step"
    ],
-   "answer": "Sarvis considers your initial training complete, declaring that you have proven worthy of your freedom. He then directs you toward other leaders in Deathknell to aid the Forsaken's broader operations."
+   "answer": "Sarvis considers your initial training complete and declares you have proven worthy of your freedom. He sends you to other leaders in Deathknell to aid the Forsaken’s broader operations."
   },
   {
    "q": "Why are some undead free while these skeletons remain mindless?",
@@ -74,7 +74,7 @@
     "forsaken vs scourge free will",
     "how did forsaken wake up"
    ],
-   "answer": "When the Lich King's telepathic hold wavered after the Third War, a fraction of undead broke free and reclaimed their sentience, forming the Forsaken. Constructs and simple animated bones like the Rattlecages retained no personality or will, remaining purely bound to the Scourge."
+   "answer": "After the Lich King’s telepathic hold wavered following the Third War, some undead broke free, reclaimed their sentience, and formed the Forsaken. Constructs and simple animated bones like the Rattlecages kept no personality or will and remained bound to the Scourge."
   },
   {
    "q": "Who is Shadow Priest Sarvis?",
@@ -83,21 +83,21 @@
     "sarvis lore",
     "shadow priest sarvis role"
    ],
-   "answer": "Shadow Priest Sarvis is the Forsaken overseer in Deathknell's chapel. He evaluates newly raised undead, guiding them through their awakening and ensuring they are strong enough to survive as free beings."
+   "answer": "Shadow Priest Sarvis oversees the Forsaken in Deathknell’s chapel. He evaluates newly raised undead, guides them through their awakening, and makes sure they are strong enough to survive as free beings."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "Confronting the Rattlecages is a harsh reminder of what awaits any Forsaken whose mind slips, contrasting your hard-won autonomy with the mindless servitude of the Scourge."
+   "text": "As a Forsaken, the Rattlecages show what awaits if your mind slips. Their mindless servitude stands against your hard-won autonomy."
   },
   {
    "target": "faction:Horde",
-   "text": "The trials in Deathknell temper new Forsaken soldiers into capable fighters ready to defend their fledgling faction and secure Tirisfal Glades."
+   "text": "As a member of the Horde, you help temper new Forsaken soldiers into fighters who can defend their fledgling faction and secure Tirisfal Glades."
   },
   {
    "target": "class:Priest",
-   "text": "Working directly for Shadow Priest Sarvis offers newly risen Priests an early glimpse into the ruthless pragmatism defining the Forsaken's spiritual path."
+   "text": "As a newly risen Priest, working for Shadow Priest Sarvis gives you an early glimpse of the ruthless pragmatism that shapes the Forsaken’s spiritual path."
   }
  ],
  "keywords": [
@@ -120,5 +120,6 @@
  ],
  "attribution": [
   "Rattling the Rattlecages"
- ]
+ ],
+ "style": 1
 }

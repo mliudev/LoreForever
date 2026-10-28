@@ -8,16 +8,16 @@
   "wiki": "Lady Sarevess",
   "refs": 5
  },
- "summary": "Lady Sarevess is a twisted naga sorceress dwelling within the flooded ruins of Blackfathom Deeps, where she dabbles in dark sorceries.",
+ "summary": "Within Blackfathom Deeps, Lady Sarevess works dark sorceries in the flooded ruins.",
  "sections": [
   {
    "title": "A Grotto in the Deeps",
-   "body": "Within the Pool of Ask'ar, Lady Sarevess conducts her rituals in a flooded grotto of the ruined temple. A very twisted spellcaster, she dabbles in dark magic while the Twilight's Hammer cultists who also haunt the sunken temple pursue their own worship deeper in the cavern.",
+   "body": "Lady Sarevess performs rituals in a flooded grotto within the Pool of Ask'ar. The Twilight's Hammer cultists haunt the sunken temple too, pursuing their own worship deeper in the cavern.",
    "spoiler": 0
   },
   {
    "title": "Sorcery of the Tides",
-   "body": "Much like a sea witch of the deep oceans, Sarevess commands elemental currents and crackling arcs of lightning. Surrounded by loyal naga sentinels and summoned water elementals, she fiercely defends her sanctuary against any intruders who threaten her dark work.",
+   "body": "Lady Sarevess commands elemental currents and crackling lightning. Loyal naga sentinels and summoned water elementals guard her sanctuary as she fights intruders who threaten her dark work.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "sarevess lore",
     "lady sarevess backstory"
    ],
-   "answer": "Lady Sarevess is a naga spellcaster who has taken up residence within the subterranean Pool of Ask'ar inside Blackfathom Deeps. She is a very twisted spellcaster who dabbles in dark magic."
+   "answer": "Lady Sarevess dwells in the subterranean Pool of Ask'ar inside Blackfathom Deeps. The very twisted naga spellcaster dabbles in dark magic."
   },
   {
    "q": "Where can Lady Sarevess be found?",
@@ -38,7 +38,7 @@
     "where is lady sarevess",
     "pool of askar"
    ],
-   "answer": "She makes her lair in the Pool of Ask'ar, a flooded chamber situated in the early reaches of the Blackfathom Deeps temple complex along the Ashenvale coast."
+   "answer": "Lady Sarevess makes her lair in the Pool of Ask'ar, a flooded chamber in the early reaches of the Blackfathom Deeps temple complex along the Ashenvale coast."
   },
   {
    "q": "What powers does Lady Sarevess command?",
@@ -46,17 +46,17 @@
     "sarevess magic",
     "sarevess abilities"
    ],
-   "answer": "Drawing upon the traditions of naga sea witches, Sarevess wields powerful water and elemental magic, particularly violent bursts of forked lightning, to strike down anyone who enters her cove."
+   "answer": "Lady Sarevess wields water and elemental magic, including violent bursts of forked lightning, against anyone who enters her cove."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "The ruins Lady Sarevess inhabits were once a sacred temple of Elune. Seeing her twisted naga kin defile the waters of Ask'ar is a bitter reminder of the Sundering."
+   "text": "As a night elf, the ruins Lady Sarevess inhabits were once a sacred temple of Elune. Her twisted naga kin defiling the waters of Ask'ar recalls the Sundering."
   },
   {
    "target": "class:Mage",
-   "text": "Sarevess demonstrates how highborne magical practices degenerated into raw, chaotic lightning and tidal sorcery under centuries of oceanic corruption."
+   "text": "As a mage, you can see how highborne magical practices became raw, chaotic lightning and tidal sorcery after centuries of oceanic corruption."
   }
  ],
  "keywords": [
@@ -78,5 +78,6 @@
  ],
  "attribution": [
   "Lady Sarevess"
- ]
+ ],
+ "style": 1
 }

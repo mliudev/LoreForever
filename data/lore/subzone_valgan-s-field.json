@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Valgan's Field"
  },
- "summary": "Valgan's Field is an abandoned wheat farm nestled in northern Silverpine Forest, overlooking Lordamere Lake. Once a picturesque homestead, it now lies desolate and overrun by the feral Moonrage worgen unleashed by Archmage Arugal.",
+ "summary": "Worgen roam Valgan's Field, a ruined farm overlooking Lordamere Lake in northern Silverpine Forest. Archmage Arugal unleashed the Moonrage pack, and the Forsaken now seek his abandoned research there.",
  "sections": [
   {
    "title": "A Ruined Homestead",
-   "body": "Situated just west of the Shining Strand and north of the nearby river, Valgan's Field was once a prosperous wheat farm offering scenic views of Lordamere Lake. That peaceful life vanished when the Scourge tore through Lordaeron, forcing its owner, Valgan, to flee or meet his end. Left untended, the ruined structures fell into the claws of feral Moonrage worgen prowling down from Shadowfang Keep. Before the Third War, the mage Arugal spent time here, leaving behind remnants of his arcane research that now draw the attention of the Forsaken.",
+   "body": "Valgan's Field lies west of the Shining Strand and north of the nearby river, with Lordamere Lake beyond its ruined farmstead. The wheat farm once prospered, until the Scourge swept through Lordaeron and forced its owner, Valgan, to flee or die. Left untended, the buildings fell to feral Moonrage worgen prowling down from Shadowfang Keep. Before the Third War, Arugal spent time here and left remnants of his arcane research, which now draw the Forsaken's attention.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "who is valgan",
     "valgans field history"
    ],
-   "answer": "Valgan was the human farmer who owned and worked this homestead before the Third War. When the Scourge swept across northern Lordaeron, Valgan either died or fled into exile, leaving the farm to fall into ruin."
+   "answer": "Valgan was the human farmer who owned and worked the homestead before the Third War. When the Scourge swept across northern Lordaeron, Valgan either died or fled into exile, leaving the farm to ruin."
   },
   {
    "q": "Why are worgen roaming Valgan's Field?",
@@ -32,7 +32,7 @@
     "moonrage worgen valgan",
     "who brought the worgen"
    ],
-   "answer": "The feral Moonrage pack infesting the farm was summoned into Silverpine Forest by Archmage Arugal. Arugal unleashed the beasts against the Scourge, but quickly lost control as they spread across the forest, and guilt drove him mad."
+   "answer": "Archmage Arugal summoned the feral Moonrage pack into Silverpine Forest and unleashed the beasts against the Scourge. He quickly lost control as they spread through the forest, and guilt drove him mad."
   },
   {
    "q": "Why are the Forsaken interested in this farm?",
@@ -41,7 +41,7 @@
     "why forsaken care about valgans field",
     "arugal spellbook farm"
    ],
-   "answer": "Archmage Arugal resided at the farm before the war and left behind valuable spellbooks. The Forsaken seek out these lost writings in their campaign to understand and counter Arugal's terrifying magic."
+   "answer": "Archmage Arugal lived at the farm before the war and left valuable spellbooks behind. The Forsaken seek the lost writings to understand and counter his terrifying magic."
   },
   {
    "q": "What rare threats appear near the farm?",
@@ -50,17 +50,17 @@
     "rare spawn valgans field",
     "monsters at valgan"
    ],
-   "answer": "The Moonrage worgen packs are the farm's chief menace; no other notable threat is known to haunt its fields."
+   "answer": "Moonrage worgen packs are the farm's chief menace. No other notable threat is known to haunt its fields."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "For the Forsaken, clearing Valgan's Field is essential to securing the road through Silverpine and recovering Arugal's notes before his monstrous pets spread further north."
+   "text": "For the Forsaken, clearing Valgan's Field is essential to securing the road through Silverpine and recovering Arugal's notes before his monstrous pets spread farther north."
   },
   {
    "target": "class:Mage",
-   "text": "Arugal's abandoned research at the farm offers a sobering warning of the catastrophic perils of unchecked summoning and extraplanar magic."
+   "text": "Arugal's abandoned research at the farm warns of the catastrophic perils of unchecked summoning and extraplanar magic."
   }
  ],
  "keywords": [
@@ -84,5 +84,6 @@
  ],
  "attribution": [
   "Valgan's Field"
- ]
+ ],
+ "style": 1
 }

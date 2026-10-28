@@ -10,11 +10,11 @@
    "quest:546"
   ]
  },
- "summary": "A gruesome war trophy harvested from slain human defenders and townsfolk across the Hillsbrad Foothills. These skulls are collected by Forsaken stationed at Tarren Mill as grim mementos of the relentless assault against the local human settlements.",
+ "summary": "Across the Hillsbrad Foothills, Forsaken gather the skulls of slain humans. At Tarren Mill, they keep them as grim mementos of the assault on local settlements.",
  "sections": [
   {
    "title": "Trophies of a Bitter War",
-   "body": "As conflict rages between the Forsaken of Tarren Mill and the human inhabitants of Southshore and surrounding settlements, severed skulls serve as physical proof of the slaughter. While Deathstalkers and soldiers carry out the systematic purge ordered by Darthalia during the Battle of Hillsbrad, other guards stuck on watch duty crave a piece of the carnage. Deathguard Samsa eagerly solicits these trophies from frontline fighters, taking twisted pleasure in amassing the remains of the very people the Forsaken once lived among in life.",
+   "body": "Forsaken forces from Tarren Mill fight the humans of Southshore and nearby settlements. During the Battle of Hillsbrad, Deathstalkers and soldiers carry out the purge Darthalia ordered. Guards left on watch want a share of the slaughter. Deathguard Samsa collects skulls from the fighters on the front lines, taking pleasure in keeping the remains of people the Forsaken once lived among. These trophies are proof of the killing as the conflict rages.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "who takes human skulls",
     "deathguard samsa skulls"
    ],
-   "answer": "Deathguard Samsa, a Forsaken sentry stationed in Tarren Mill, collects them. Envious of the soldiers sent out to battle and pillage Hillsbrad while he remains confined to guard duty, he asks passing adventurers to bring him thirty skulls to add to his private collection."
+   "answer": "Deathguard Samsa, a Forsaken sentry at Tarren Mill, collects the skulls. Envious of soldiers sent to battle and pillage Hillsbrad while he remains on guard, he asks passing adventurers to bring him thirty for his private collection."
   },
   {
    "q": "Where are Hillsbrad Human Skulls gathered?",
@@ -35,7 +35,7 @@
     "farm human skulls",
     "who drops human skulls"
    ],
-   "answer": "They are recovered from human combatants and laborers throughout the Hillsbrad Foothills, notably around the human-held farms, mines, and town fortifications assaulted during the Battle of Hillsbrad campaign."
+   "answer": "Forsaken gather the skulls from human combatants and laborers across the Hillsbrad Foothills, especially near the human-held farms, mines, and town fortifications attacked during the Battle of Hillsbrad."
   },
   {
    "q": "Why do the Forsaken collect human remains?",
@@ -43,17 +43,17 @@
     "why do forsaken want skulls",
     "forsaken skull collection"
    ],
-   "answer": "Beyond raw hatred and dark humor, collecting trophies of dead humans is a grim sport for some Forsaken. Soldiers like Samsa view the skulls as prized curiosities and satisfying proof of Hillsbrad's impending downfall."
+   "answer": "Some Forsaken collect human remains out of hatred and dark humor. Soldiers like Samsa treat the skulls as prized curiosities and proof that Hillsbrad is nearing defeat."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "For the Forsaken, claiming human skulls from Hillsbrad is both sweet vengeance and a macabre reminder of the living brethren who shun them."
+   "text": "As Forsaken, you may see the skulls as vengeance and a grim reminder of the living kin who shun you."
   },
   {
    "target": "faction:Alliance",
-   "text": "The sight of Hillsbrad's farmers and soldiers reduced to collected trinkets represents the grim cruelty of the Forsaken campaign in Lordaeron."
+   "text": "As an Alliance member, you see Hillsbrad's farmers and soldiers reduced to trinkets, a sign of the Forsaken campaign's cruelty in Lordaeron."
   }
  ],
  "keywords": [
@@ -77,5 +77,6 @@
  "attribution": [
   "Hillsbrad Human Skull",
   "Souvenirs of Death"
- ]
+ ],
+ "style": 1
 }

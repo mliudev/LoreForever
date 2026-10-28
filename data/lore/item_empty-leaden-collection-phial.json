@@ -10,11 +10,11 @@
    "quest:2926"
   ]
  },
- "summary": "The Empty Leaden Collection Phial is a shielded container designed by gnome tinkerers to harvest radioactive fallout from the ruins of Gnomeregan. Crafted from lead to protect the bearer from lethal contamination, it is used by adventurers assisting Ozzie Togglevolt in Kharanos. Ozzie hopes the captured glow might yield a cure for their afflicted kin\u2014or at least an extraordinarily potent beverage.",
+ "summary": "In the ruins of Gnomeregan, Ozzie Togglevolt’s leaden phial gathers radioactive fallout for study. He hopes it may help cure his afflicted kin, or make an extraordinarily potent drink.",
  "sections": [
   {
    "title": "A Shielded Vessel",
-   "body": "When the vents of Gnomeregan flooded the subterranean city with toxic radiation to purge the trogg menace, it instead warped the surviving defenders into leper gnomes and irradiated the invading beasts. Seeking to study and reverse the fallout, Ozzie Togglevolt crafted the Empty Leaden Collection Phial. Made of heavy lead to shield handlers from the ambient danger, the specialized vial draws in the noxious green glow lingering on the bodies of Irradiated Invaders and Pillagers that prowl the ruins. Once sealed, the resulting Full Leaden Collection Phial provides the raw, dangerous matter needed for experimental remedies.",
+   "body": "Ozzie Togglevolt made a leaden phial to gather the radiation left in Gnomeregan. When the city’s vents flooded its tunnels with toxic radiation to purge the trogg menace, the surviving defenders became leper gnomes and the invading beasts were irradiated. The green glow still clings to Irradiated Invaders and Pillagers prowling the ruins. The phial’s lead shields its handler as it draws in the dangerous residue. Once sealed, it becomes a Full Leaden Collection Phial, holding matter for Ozzie’s experiments.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "how to use empty leaden collection phial",
     "phial purpose"
    ],
-   "answer": "The phial is used to draw and store hazardous radioactive fallout from Irradiated Invaders and Irradiated Pillagers near the surface tunnels of Gnomeregan. Sealing the fallout inside transforms the container into a Full Leaden Collection Phial for research."
+   "answer": "The phial gathers radioactive fallout from Irradiated Invaders and Irradiated Pillagers near Gnomeregan’s surface tunnels. Sealed inside, the collection turns it into a Full Leaden Collection Phial for research."
   },
   {
    "q": "Why is the phial made of lead?",
@@ -34,7 +34,7 @@
     "why lead phial",
     "why leaden"
    ],
-   "answer": "The radioactive fallout within Gnomeregan is lethal to unshielded living beings, capable of inflicting severe radiation sickness or turning gnomes into lepers. The dense lead structure acts as a protective barrier, keeping the collector safe from the volatile glowing contaminant inside."
+   "answer": "The lead shields the handler from Gnomeregan’s lethal radioactive fallout. Without protection, living beings can suffer severe radiation sickness, and gnomes can become lepers."
   },
   {
    "q": "Who created this collection device?",
@@ -43,7 +43,7 @@
     "ozzie togglevolt phial",
     "who gave me this phial"
    ],
-   "answer": "The phial is provided by the gnome tinkerer Ozzie Togglevolt, who conducts his chaotic experiments out of Kharanos in Dun Morogh. He provides the container to adventurers willing to brave the toxic outskirts of the ruined city."
+   "answer": "Ozzie Togglevolt, a gnome tinkerer, made the phial. He works from Kharanos in Dun Morogh and gives it to adventurers willing to brave the toxic outskirts of Gnomeregan."
   },
   {
    "q": "What does Ozzie hope to achieve with the collected fallout?",
@@ -52,17 +52,17 @@
     "gnogaine purpose",
     "what is ozzie making"
    ],
-   "answer": "Ozzie and his associate Razzle are attempting to invent a cure for leper gnomes afflicted by the catastrophe. As with many gnomish ventures, Ozzie admits the experimental formula might also turn out to be a recipe for incredibly potent rum, or perhaps a cure for baldness."
+   "answer": "Ozzie and his associate Razzle hope the collected fallout will help them invent a cure for leper gnomes afflicted by the catastrophe. Ozzie also allows that their formula might become potent rum, or a cure for baldness."
   }
  ],
  "angles": [
   {
    "target": "race:Gnome",
-   "text": "The devastation of Gnomeregan remains an open wound for exiled gnomes, making any experimental attempt to reverse the toxic fallout of high personal stakes, no matter how eccentric the researcher."
+   "text": "For exiled gnomes, Gnomeregan’s ruin remains an open wound. Any attempt to reverse its toxic fallout carries personal stakes, however eccentric the researcher."
   },
   {
    "target": "profession:Engineering",
-   "text": "The leaden phial showcases straightforward gnomish utility: heavy-metal radiation shielding combined with suction apparatus designed to collect volatile environmental particulates safely."
+   "text": "The leaden phial pairs heavy-metal shielding with suction apparatus to collect volatile environmental particles safely, a practical piece of gnomish engineering."
   }
  ],
  "keywords": [
@@ -88,5 +88,6 @@
  "attribution": [
   "Empty Leaden Collection Phial",
   "Gnogaine"
- ]
+ ],
+ "style": 1
 }

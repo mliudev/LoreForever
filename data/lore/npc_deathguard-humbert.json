@@ -8,11 +8,11 @@
   "wiki": "Deathguard Humbert",
   "refs": 1
  },
- "summary": "Deathguard Humbert is a Forsaken sentry stationed in Tarren Mill within the Hillsbrad Foothills. Assigned to monitor the encroaching Alliance presence, he finds himself in an embarrassing predicament after losing his military gear to the dwarves of Dun Garok.",
+ "summary": "At Tarren Mill, Deathguard Humbert watches the Alliance presence in Hillsbrad. The Forsaken sentry has lost his military gear to dwarves from Dun Garok.",
  "sections": [
   {
    "title": "A Guard Relieved of His Steel",
-   "body": "While tasked with maintaining Tarren Mill's perimeter against regional threats, Deathguard Humbert suffered a humiliating setback. Sent by High Executor Darthalia to watch Dun Garok from a hidden camp, he left one morning to gather firewood, and dwarven scouts from Dun Garok made off with his prized sword and assorted equipment, leaving the undead soldier desperate to salvage his pride and armament before high command takes notice.",
+   "body": "Deathguard Humbert watches Dun Garok from a hidden camp for High Executor Darthalia. One morning, he left to gather firewood. Dwarven scouts from Dun Garok took his prized sword and other equipment while he was away. Now he must recover his arms and save his pride before high command learns what happened.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "who is humbert",
     "humbert tarren mill"
    ],
-   "answer": "Deathguard Humbert is a Forsaken warrior stationed as a scout and guard in Tarren Mill. His duties involve keeping an eye on hostile Alliance operations throughout the Hillsbrad Foothills."
+   "answer": "Deathguard Humbert guards and scouts from Tarren Mill. He watches Alliance operations across the Hillsbrad Foothills."
   },
   {
    "q": "What happened to Humbert's sword and armor?",
@@ -33,7 +33,7 @@
     "who took humberts gear",
     "why does humbert need help"
    ],
-   "answer": "High Executor Darthalia sent Humbert to keep watch on Dun Garok from a distance. One morning he left his hidden camp to gather firewood, and when he returned, dwarven scouts from Dun Garok had passed by and made off with his gear, including his precious sword."
+   "answer": "High Executor Darthalia sent Humbert to watch Dun Garok from a hidden camp. One morning, he went to gather firewood. When he returned, dwarven scouts from Dun Garok had taken his gear, including his prized sword."
   },
   {
    "q": "Why doesn't Humbert just recover his gear himself?",
@@ -41,17 +41,17 @@
     "why cant humbert fight",
     "humbert dun garok"
    ],
-   "answer": "Dun Garok is heavily fortified with disciplined dwarven riflemen and mountaineers. A lone scout standing outside its trenches stands little chance, and Humbert cannot easily leave his post without answering for how he lost his kit in the first place."
+   "answer": "Dun Garok is heavily fortified, with disciplined dwarven riflemen and mountaineers. A lone scout outside its trenches has little chance, and Humbert cannot easily leave his post without answering for how he lost his kit."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "Recovering Humbert's lost sword strikes back against the bold dwarven foothold in Hillsbrad while preserving the dignity of Tarren Mill's garrison."
+   "text": "Recovering Humbert's sword strikes back at the dwarven foothold in Hillsbrad and helps preserve the dignity of Tarren Mill's garrison."
   },
   {
    "target": "race:Undead",
-   "text": "Forsaken soldiers are expected to serve the Dark Lady with unyielding vigilance, making Humbert's lapse of attention against the living an embarrassing blemish on the Deathguard."
+   "text": "Forsaken soldiers are expected to serve the Dark Lady with unyielding vigilance. Humbert's lapse against the living leaves an embarrassing blemish on the Deathguard."
   }
  ],
  "keywords": [
@@ -73,5 +73,6 @@
  ],
  "attribution": [
   "Deathguard Humbert"
- ]
+ ],
+ "style": 1
 }

@@ -8,16 +8,16 @@
   "wiki": "Hamhock",
   "refs": 5
  },
- "summary": "Hamhock is a massive two-headed ogre confined within the depths of the Stormwind Stockade. Locked away beneath the capital alongside hardened Defias insurgents and cutthroats, he looms as a particularly brutal and unexpected inmate amidst the prison riot.",
+ "summary": "In the Stormwind Stockade, Hamhock remains locked among the rioting prisoners. The massive two-headed ogre is one of the prison’s most brutal inmates.",
  "sections": [
   {
    "title": "A Brute Behind Bars",
-   "body": "The Stormwind Stockade was built to hold petty thieves, murderers, and political dissidents, making a towering two-headed ogre an imposing sight among the cells. When the prisoners rose up and took control of the facility, Hamhock remained entrenched in the chaos, crushing anyone foolish enough to intrude on his cellblock.",
+   "body": "Hamhock is a towering two-headed ogre in the Stormwind Stockade. The prison was built for petty thieves, murderers, and political dissidents, so his size makes him an imposing presence among the cells. When the prisoners rose up and took control, Hamhock stayed amid the disorder, crushing anyone who entered his cellblock.",
    "spoiler": 0
   },
   {
    "title": "Murky Origins",
-   "body": "No record explains how Hamhock was captured or why a two-headed ogre was locked away among Stormwind's thieves and dissidents. Whatever brought him to the Stockade, he is now one of its most dangerous inmates.",
+   "body": "No record tells how Hamhock was captured or why he was locked among Stormwind’s thieves and dissidents. Whatever brought him to the Stockade, he is now one of its most dangerous inmates.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "who is the ogre in stockade",
     "ogre boss stockade"
    ],
-   "answer": "Hamhock is an elite two-headed ogre prisoner held within the Stormwind Stockade. Amid the uprising led by the Defias convicts, he acts as a dangerous obstacle deep inside the prison corridors."
+   "answer": "Hamhock is a massive two-headed ogre held in the Stormwind Stockade. During the uprising led by Defias convicts, he is a danger deep in the prison corridors."
   },
   {
    "q": "How did an ogre end up in the Stormwind Stockade?",
@@ -38,7 +38,7 @@
     "how did hamhock get captured",
     "why is there an ogre in stockades"
    ],
-   "answer": "No record explains how he was captured or brought to Stormwind."
+   "answer": "No record tells how Hamhock was captured or brought to Stormwind."
   },
   {
    "q": "Is Hamhock allied with the Defias rioters?",
@@ -47,7 +47,7 @@
     "hamhock defias brotherhood",
     "does hamhock work for bazil"
    ],
-   "answer": "While the entire facility has fallen into rebellion under Defias ringleaders, it is unclear whether Hamhock truly coordinates with them or simply revels in the unbridled mayhem of the broken cells."
+   "answer": "The Defias ringleaders lead the prison rebellion, but no one knows whether Hamhock works with them or simply revels in the chaos among the broken cells."
   },
   {
    "q": "Is Hamhock related to the ogres in Duskwood?",
@@ -56,7 +56,7 @@
     "hamhock vulgol",
     "vul'gol ogres stockade"
    ],
-   "answer": "Nothing ties him to them. The Splinter Fist ogres of Duskwood's Vul'Gol Ogre Mound are the nearest ogre clan to Stormwind, but no record says where Hamhock came from."
+   "answer": "Nothing ties Hamhock to the ogres in Duskwood. The Splinter Fist ogres at Duskwood’s Vul'Gol Ogre Mound are the nearest ogre clan to Stormwind, but no record tells where Hamhock came from."
   },
   {
    "q": "Is Hamhock tied to any specific bounty or quest?",
@@ -65,7 +65,7 @@
     "is there a quest for hamhock",
     "hamhock bounty"
    ],
-   "answer": "No official bounties or city warrants are offered specifically for Hamhock's head. He is an incidental menace whom adventurers encounter while clearing out the rioting stronghold."
+   "answer": "No bounty or city warrant names Hamhock. He is a danger encountered while adventurers clear the rioting stronghold."
   },
   {
    "q": "Why are two-headed ogres significant?",
@@ -73,17 +73,17 @@
     "two headed ogre lore",
     "why two heads"
    ],
-   "answer": "Two-headed ogres possess distinct personalities between their heads and are often more cunning or magically adept than their single-headed kin, making Hamhock exceptionally dangerous to standard prison guards."
+   "answer": "Two-headed ogres have distinct personalities in each head and are often more cunning or magically adept than their single-headed kin. That makes Hamhock exceptionally dangerous to ordinary prison guards."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Finding a two-headed ogre unrestrained directly beneath the capital's streets underscores just how catastrophically the city guards have lost control of the Stockade."
+   "text": "An unrestrained two-headed ogre beneath the capital’s streets shows how completely the city guards have lost control of the Stockade."
   },
   {
    "target": "class:Warrior",
-   "text": "Subduing Hamhock requires meeting raw, hulking strength head-on within the tight confines of the prison hallways."
+   "text": "To subdue Hamhock, a warrior must meet his hulking strength head-on in the prison’s narrow halls."
   }
  ],
  "keywords": [
@@ -106,5 +106,6 @@
  ],
  "attribution": [
   "Hamhock"
- ]
+ ],
+ "style": 1
 }

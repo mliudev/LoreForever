@@ -17,16 +17,16 @@
   "wiki": "What Comes Around...",
   "chain": []
  },
- "summary": "What Comes Around... is an Alliance quest offered by Guard Berton in Lakeshire, who is infuriated by the political delays surrounding an orcish war criminal. Players are directed into the Stormwind Stockade to execute Targorr the Dread before corrupt nobility can arrange his escape.",
+ "summary": "Guard Berton in Lakeshire is pressing for Targorr the Dread's execution. The Blackrock orc remains in Stormwind Stockade despite his sentence, while political delays keep justice out of reach.",
  "sections": [
   {
    "title": "A Butcher Held in Limbo",
-   "body": "Targorr the Dread gained infamy in the Redridge Mountains serving as supreme executioner under General Gath'Ilzogg, chieftain of the Blackrock orcs entrenched at Stonewatch Keep. Renowned for savage cruelty even among the Blackrock invaders, Targorr personally oversaw the torture and execution of numerous defenders of Redridge. Following his eventual capture, he was transferred to the capital's high-security prison, the Stormwind Stockade, and condemned to death for his atrocities against the realm.",
+   "body": "Targorr the Dread earned his name in the Redridge Mountains, where he served as supreme executioner under General Gath'Ilzogg, chieftain of the Blackrock orcs at Stonewatch Keep. Even among the invaders, his cruelty was notorious. He oversaw the torture and execution of many Redridge defenders. After his capture, Stormwind sent him to its high-security prison, the Stormwind Stockade, and condemned him to die for his crimes against the realm.",
    "spoiler": 0
   },
   {
    "title": "Corruption in High Places",
-   "body": "Despite Targorr's formal death sentence, his execution ground to a halt due to an intervention by an unnamed nobleman within Stormwind's House of Nobles. Guard Berton, stationed out in vulnerable Lakeshire, sees through the political maneuvering and suspects foul play or bribery intended to secure the brute's eventual release. Taking justice into his own hands, Berton recruits trusted adventurers to infiltrate the riot-torn prison and fulfill the execution order without bureaucratic interference.",
+   "body": "An unnamed nobleman in Stormwind's House of Nobles intervened, and Targorr's execution stopped despite his sentence. Guard Berton, stationed in vulnerable Lakeshire, suspects foul play or bribery meant to free the brute. He recruits trusted adventurers to enter the riot-torn prison and carry out the order without bureaucratic interference.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "who is targorr",
     "targorr lore"
    ],
-   "answer": "Targorr the Dread is an elite Blackrock orc who served as the supreme executioner under General Gath'Ilzogg in Redridge. Infamous for torturing captured human soldiers, he was eventually caught and imprisoned in the Stormwind Stockade."
+   "answer": "Targorr the Dread is a Blackrock orc who served as supreme executioner under General Gath'Ilzogg in Redridge. He tortured captured human soldiers before his capture and imprisonment in the Stormwind Stockade."
   },
   {
    "q": "Why hasn't Stormwind executed Targorr yet?",
@@ -46,7 +46,7 @@
     "why is targorr alive",
     "noble stay of execution"
    ],
-   "answer": "Although sentenced to die, his execution was indefinitely delayed by an influential noble in the capital. Guard Berton suspects political corruption or hidden foul play designed to spare or exploit the orc warlord."
+   "answer": "A nobleman in Stormwind delayed Targorr's execution despite his sentence. Guard Berton suspects corruption or foul play meant to spare or exploit the orc warlord."
   },
   {
    "q": "Who gives the quest What Comes Around...?",
@@ -54,7 +54,7 @@
     "quest giver",
     "where to get quest"
    ],
-   "answer": "Guard Berton gives the quest. He is stationed in Lakeshire within the Redridge Mountains, guarding the town against ongoing Blackrock orc incursions."
+   "answer": "Guard Berton gives it. He is stationed in Lakeshire in the Redridge Mountains, where he guards the town against Blackrock orc incursions."
   },
   {
    "q": "Where can Targorr the Dread be found?",
@@ -62,7 +62,7 @@
     "targorr location",
     "where is targorr"
    ],
-   "answer": "Targorr is held inside the Stormwind Stockade, situated in the canal district of Stormwind City. He can typically be found locked within a cell in the prison's central cell block."
+   "answer": "Targorr is held in the Stormwind Stockade, in Stormwind City's canal district. He is usually found in a cell in the prison's central cell block."
   },
   {
    "q": "Who is General Gath'Ilzogg?",
@@ -70,7 +70,7 @@
     "gath'ilzogg",
     "blackrock general redridge"
    ],
-   "answer": "General Gath'Ilzogg is the warlord commanding the Blackrock orc forces occupying Stonewatch Keep in eastern Redridge Mountains, under whom Targorr served as executioner."
+   "answer": "General Gath'Ilzogg commands the Blackrock orcs occupying Stonewatch Keep in eastern Redridge. Targorr served under him as executioner."
   },
   {
    "q": "Why does Guard Berton take matters into his own hands?",
@@ -78,21 +78,21 @@
     "berton motive",
     "why bypass nobles"
    ],
-   "answer": "Berton watched Redridge soldiers suffer and die under Targorr's blades. Disgusted that politicians in Stormwind are treating a ruthless murderer as a political pawn, he bypasses official bureaucracy to ensure true justice is served."
+   "answer": "Berton saw Redridge soldiers suffer and die under Targorr's blades. Disgusted that Stormwind politicians are treating a ruthless murderer as a political pawn, he bypasses official channels to secure justice."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "The quest exposes the growing divide between frontline frontier garrisons like Lakeshire and the self-serving political machinations within Stormwind's noble courts."
+   "text": "For the Alliance, this reveals the divide between frontier garrisons like Lakeshire and the self-serving politics of Stormwind's noble courts."
   },
   {
    "target": "race:Human",
-   "text": "For humans of the kingdom, executing Targorr settles personal debts for the atrocities committed against local town guards and militia during the Blackrock invasion of Redridge."
+   "text": "As a human of the kingdom, you can settle personal debts for the atrocities Targorr committed against Redridge town guards and militia during the Blackrock invasion."
   },
   {
    "target": "class:Paladin",
-   "text": "Bypassing corrupt legal stays to deliver retribution to an unrepentant torturer challenges the balance between codified law and genuine moral justice."
+   "text": "As a paladin, you face the conflict between written law and moral justice when you bypass a corrupt legal delay to punish an unrepentant torturer."
   }
  ],
  "keywords": [
@@ -116,5 +116,6 @@
  ],
  "attribution": [
   "What Comes Around..."
- ]
+ ],
+ "style": 1
 }

@@ -12,21 +12,21 @@
   "levels": "1-10",
   "aliases": []
  },
- "summary": "Durotar is the arid, red-rock homeland founded by Warchief Thrall following the Third War, named in honor of his father, Durotan. Bounded by the Southfury River and the Great Sea, it serves as the heartland of the New Horde and the proving ground for young orcs and Darkspear trolls. Within its harsh canyons lie fortified settlements like Razor Hill, the sprawling warrior city of Orgrimmar, and entrenched hostile holdouts ranging from quilboar tribes to stranded Alliance troops.",
+ "summary": "In Durotar's red canyons, young orcs and Darkspear trolls prove themselves to the New Horde. Warchief Thrall founded this arid homeland after the Third War and named it for his father, Durotan. The Southfury River and the Great Sea hem it in. Razor Hill and the warrior city of Orgrimmar rise from its rock, while quilboar tribes and stranded Alliance troops still hold out.",
  "sections": [
   {
    "title": "A Harsh New Home",
-   "body": "When Thrall led his people across the Great Sea to Kalimdor, he deliberately sought an untamed frontier where the orcs could carve out an honest existence through labor and grit rather than conquest. Durotar's cracked red soil, baked gullies, and towering red-rock spires remind the orcs deeply of Draenor before its destruction. While the climate is unforgiving, offering little arable land and sparse water, the Horde embraced the landscape's natural defense and austere majesty. Bordered to the west across the Southfury River by the open Barrens and to the north by the ruined wilderness of Azshara, Durotar stands as living proof that the orcs have forged their own destiny.",
+   "body": "When Thrall led his people across the Great Sea to Kalimdor, he chose an untamed frontier on purpose. Here the orcs would earn an honest living through labor and grit, not conquest. The cracked red soil, baked gullies and towering spires remind them of Draenor before its destruction. Water is scarce and little of the land can be farmed, but the Horde embraced its natural defenses and stark grandeur. Across the Southfury to the west lie the open Barrens, and to the north the ruined wilds of Azshara. Durotar is proof that the orcs have forged their own destiny.",
    "spoiler": 0
   },
   {
    "title": "Enemies on the Frontier",
-   "body": "Though Durotar is firmly under Horde dominion, securing it remains an active war. Razormane quilboar, pushed out during the nation's founding, relentlessly raid settlements and farms from the western crags. Farther south, remnants of Grand Admiral Daelin Proudmoore's Kul Tiras fleet still hold the crumbling garrison of Tiragarde Keep under Lieutenant Benedict, refusing to surrender. Worse still, demonic remnants of the Burning Blade coven lurk within hidden ravines and deep sea caves, subtly seeking to re-corrupt young orcs with promises of fel power.",
+   "body": "The Horde holds Durotar, but keeping it is still a war. Razormane quilboar, pushed out when the nation was founded, raid farms and settlements from the western crags. In the south, what is left of Grand Admiral Daelin Proudmoore's Kul Tiras fleet still holds the crumbling garrison of Tiragarde Keep under Lieutenant Benedict, and refuses to surrender. Worse, the demonic Burning Blade coven lurks in hidden ravines and deep sea caves, tempting young orcs back to fel power.",
    "spoiler": 0
   },
   {
    "title": "The Trials of the Darkspear",
-   "body": "Along the southern coast lies Sen'jin Village, the staging ground for the exiled Darkspear trolls. Led by Master Gadrin, the Darkspear were forced from their home on the nearby Echo Isles when the witch doctor Zalazane lost his mind and used dark voodoo to enslave his kin. Unable to reclaim their islands alone, the Darkspear rely on newly trained orc and troll warriors stepping forth from the Valley of Trials to break Zalazane's hold and secure the coast.",
+   "body": "On the southern coast, Sen'jin Village is the staging ground of the exiled Darkspear trolls, led by Master Gadrin. They lost their home on the nearby Echo Isles when the witch doctor Zalazane lost his mind and used dark voodoo to enslave his own kin. Unable to take the islands back alone, the Darkspear count on new orc and troll warriors from the Valley of Trials to break Zalazane's hold and secure the coast.",
    "spoiler": 0
   }
  ],
@@ -101,7 +101,7 @@
   },
   {
    "target": "class:Shaman",
-   "text": "The arid terrain is steeped in raw elemental spirits. Young shamans visit sacred sites like the Spirit Rock and the Shrine of the Dormant Flame to attune themselves to earth and fire."
+   "text": "As a young shaman, you find the arid land alive with raw elemental spirits. You visit sacred sites like the Spirit Rock and the Shrine of the Dormant Flame to attune yourself to earth and fire."
   },
   {
    "target": "class:Warlock",
@@ -135,5 +135,6 @@
  "attribution": [
   "Durotar (Classic)",
   "Durotar"
- ]
+ ],
+ "style": 1
 }

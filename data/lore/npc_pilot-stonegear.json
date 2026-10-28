@@ -8,16 +8,16 @@
   "wiki": "Pilot Stonegear",
   "refs": 3
  },
- "summary": "Pilot Stonegear, nicknamed 'Stone', is a dwarf mechanic and driver in the Ironforge Siege Brigade stationed at Steelgrill's Depot. He operates the formidable siege engine known as Trollplow and works tirelessly to enhance its performance and armor. Adventurers traveling through Dun Morogh often help him secure rare materials to keep his war machine battle-ready.",
+ "summary": "At Steelgrill's Depot, Pilot Stonegear keeps the Trollplow ready for battle. Known as “Stone,” the dwarf mechanic and driver serves in the Ironforge Siege Brigade, working to improve the engine's performance and armor. Travelers in Dun Morogh help him find rare materials for the war machine.",
  "sections": [
   {
    "title": "Master of the Trollplow",
-   "body": "Stationed among the rumbling boilers and clanking tracks of Steelgrill's Depot, Pilot Stonegear serves Ironforge as a proud driver in the Siege Brigade. His pride and joy is Trollplow, a heavy siege tank built to smash through enemy lines. Stonegear takes his machine seriously\u2014knowing that in the heat of battle, a driver's life depends entirely on the resilience of gears, plates, and steam pressure. He constantly seeks to fine-tune both Trollplow's combat efficiency and the everyday livability of its cramped cockpit.",
+   "body": "At Steelgrill's Depot, Pilot Stonegear drives for Ironforge's Siege Brigade. His pride is Trollplow, a heavy siege tank built to break enemy lines. He knows a driver's life in battle depends on sound gears, strong plates, and steady steam pressure. So he keeps refining the tank's fighting power and making its cramped cockpit more livable.",
    "spoiler": 0
   },
   {
    "title": "Tinkering and Metallurgy",
-   "body": "Like many dwarven and gnomish grease-monkeys at the depot, Stonegear is rarely content with factory specifications. He often spends off-duty hours debating engineering schematics with comrades like Pilot Bellowfiz. Whether chasing down rumors of exotic ores or tracking down volatile minerals to fuel enhanced plating and munitions, Stonegear relies on eager recruits to venture into the snowy wilderness and dangerous caves of Dun Morogh on supply runs.",
+   "body": "Pilot Stonegear spends his time off duty debating engineering plans with fellow pilots such as Pilot Bellowfiz. He is never content with the depot's standard designs. To improve Trollplow's armor and munitions, he seeks unusual ores and volatile minerals. Travelers venture through Dun Morogh's snowy wilderness and dangerous caves to find the supplies he needs.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "who is stonegear",
     "pilot stone"
    ],
-   "answer": "Pilot Stonegear, often called 'Stone', is an Ironforge dwarf and member of the Ironforge Siege Brigade. He is stationed at Steelgrill's Depot in Dun Morogh, where he maintains and operates his siege engine, the Trollplow."
+   "answer": "Pilot Stonegear, often called “Stone,” is a dwarf in the Ironforge Siege Brigade. At Steelgrill's Depot in Dun Morogh, he maintains and drives his siege engine, Trollplow."
   },
   {
    "q": "Where is Pilot Stonegear located?",
@@ -38,7 +38,7 @@
     "where is stonegear",
     "find stonegear"
    ],
-   "answer": "Stonegear is located just outside Kharanos at Steelgrill's Depot in Dun Morogh, surrounded by siege tanks, spare parts, and fellow pilots."
+   "answer": "Stonegear is at Steelgrill's Depot, just outside Kharanos in Dun Morogh. Siege tanks, spare parts, and fellow pilots surround him there."
   },
   {
    "q": "What is the Trollplow?",
@@ -47,7 +47,7 @@
     "trollplow tank",
     "stonegear's tank"
    ],
-   "answer": "The Trollplow is Pilot Stonegear's personal siege engine. He constantly works to upgrade its mechanical reliability, armor plating, and internal comfort so it can survive the brutal demands of front-line combat."
+   "answer": "Trollplow is Pilot Stonegear's personal siege engine. He works to improve its reliability, armor, and interior comfort for the demands of front-line combat."
   },
   {
    "q": "What does Stonegear need adventurers for?",
@@ -56,7 +56,7 @@
     "why does stonegear have quests",
     "stonegear's search"
    ],
-   "answer": "Stonegear enlists travelers to scout nearby threats and collect rare minerals\u2014such as incendicite ore\u2014to help upgrade and maintain the Siege Brigade's heavy war machinery."
+   "answer": "Stonegear asks travelers to scout nearby threats and gather rare minerals, including incendicite ore. He uses them to maintain and improve the Siege Brigade's heavy war machines."
   },
   {
    "q": "Who does Pilot Stonegear work with?",
@@ -65,7 +65,7 @@
     "siege brigade pilots",
     "bellowfiz and stonegear"
    ],
-   "answer": "He serves in the Ironforge Siege Brigade alongside other drivers like Pilot Bellowfiz and Pilot Hammerfoot, and he frequently debates mechanical upgrades and machine designs with Bellowfiz at the depot."
+   "answer": "Pilot Stonegear serves in the Ironforge Siege Brigade with drivers such as Pilot Bellowfiz and Pilot Hammerfoot. At the depot, he often discusses mechanical improvements and machine designs with Bellowfiz."
   },
   {
    "q": "What is the Ironforge Siege Brigade?",
@@ -74,25 +74,25 @@
     "siege brigade lore",
     "dwarf tank brigade"
    ],
-   "answer": "The Ironforge Siege Brigade is the mechanized armor division of the dwarven military. Operating steam tanks, siege engines, and heavy artillery, they provide armored support to defend Dun Morogh and project Ironforge's military might across Khaz Modan."
+   "answer": "The Ironforge Siege Brigade is the mechanized armor division of the dwarven military. Its steam tanks, siege engines, and heavy artillery defend Dun Morogh and project Ironforge's military might across Khaz Modan."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "Stonegear exemplifies the dwarven love for heavy steel, roaring engines, and crushing mountain foes under massive iron treads."
+   "text": "As a dwarf, you can share Stonegear's love of heavy steel, roaring engines, and crushing mountain foes beneath iron treads."
   },
   {
    "target": "race:Gnome",
-   "text": "Gnomes working alongside the Siege Brigade find a kindred spirit in Stonegear, who is always eager to tinker with experimental designs and optimize output."
+   "text": "As a gnome serving alongside the Siege Brigade, you may find a kindred spirit in Stonegear, who eagerly tinkers with designs and seeks greater output."
   },
   {
    "target": "profession:Engineering",
-   "text": "Engineers can appreciate Stonegear's dedication to field-modifying the Trollplow, balancing deadly combat performance with pilot ergonomics."
+   "text": "As an engineer, you can appreciate Stonegear's work adapting Trollplow in the field, balancing combat power with the driver's comfort."
   },
   {
    "target": "profession:Mining",
-   "text": "Miners provide the vital raw ores and volatile subterranean deposits Stonegear requires to forge reinforced plating and munitions."
+   "text": "As a miner, you can supply the raw ores and volatile underground deposits Stonegear needs for reinforced plating and munitions."
   }
  ],
  "keywords": [
@@ -118,5 +118,6 @@
  ],
  "attribution": [
   "Pilot Stonegear"
- ]
+ ],
+ "style": 1
 }

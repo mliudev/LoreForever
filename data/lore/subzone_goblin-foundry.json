@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Goblin Foundry"
  },
- "summary": "The Goblin Foundry is an industrial workshop deep within the Deadmines where goblin tinkerers manufacture heavy metalwork for the Defias Brotherhood. A massive smelting cauldron dominates the chamber, which remains occupied by goblin craftsmen and engineers under Gilnid.",
+ "summary": "In the Deadmines, goblins keep the Goblin Foundry working for the Defias Brotherhood. Gilnid oversees craftsmen and engineers around a great smelting cauldron.",
  "sections": [
   {
    "title": "Industrial Ambitions",
-   "body": "Carved into the subterranean depths of Moonbrook, the Goblin Foundry provides the Defias Brotherhood with heavy manufacturing power. Goblin craftsmen and engineers work among the smelters and iron ramps, producing anchors and cannonballs.",
+   "body": "Deep beneath Moonbrook, goblin craftsmen and engineers work at the Goblin Foundry for the Defias Brotherhood. Smelters and iron ramps fill the chamber as they make anchors and cannonballs.",
    "spoiler": 0
   },
   {
    "title": "Gilnid's Workshop",
-   "body": "Gilnid presides over the foundry's goblin workforce. Craftsmen maintain production while engineers defend the workshop with remote-controlled golems, making its narrow ramps and molten metal dangerous for intruders.",
+   "body": "Gilnid oversees the goblin workforce at the foundry. Craftsmen keep production moving, while engineers use remote-controlled golems to defend the workshop. Narrow ramps and molten metal make the chamber dangerous for intruders.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "foundry purpose",
     "deadmines factory"
    ],
-   "answer": "The goblin craftsmen produce heavy metalwork, including anchors and cannonballs, for the Defias Brotherhood."
+   "answer": "Goblin craftsmen make heavy metalwork for the Defias Brotherhood, including anchors and cannonballs."
   },
   {
    "q": "Why are there golems in the foundry?",
@@ -37,7 +37,7 @@
     "foundry robots",
     "mechanical enemies deadmines"
    ],
-   "answer": "Goblin engineers use remote-controlled golems to defend their workshop against intruders."
+   "answer": "Goblin engineers use remote-controlled golems to defend their workshop from intruders."
   },
   {
    "q": "Where are the goblins who ran this workshop?",
@@ -46,7 +46,7 @@
     "foundry engineers",
     "gilnid workers"
    ],
-   "answer": "The goblin craftsmen and engineers remain at work in the foundry under Gilnid, the smelter."
+   "answer": "The goblin craftsmen and engineers are still at work in the foundry under Gilnid, the smelter."
   },
   {
    "q": "What is the large structure in the center of the room?",
@@ -55,17 +55,17 @@
     "smelting vat",
     "cauldron in deadmines"
    ],
-   "answer": "The center of the room is dominated by a massive industrial smelting cauldron used to melt down ore hauled from the mines to forge armor plates and mechanical chassis."
+   "answer": "A massive industrial smelting cauldron dominates the room's center. It melts ore hauled from the mines to forge armor plates and mechanical chassis."
   }
  ],
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "The foundry showcases goblin metalworking and mechanical ingenuity, with engineers using remote-controlled golems to defend the workshop."
+   "text": "The foundry shows goblin metalworking and mechanical skill. Its engineers use remote-controlled golems to defend the workshop."
   },
   {
    "target": "faction:Alliance",
-   "text": "The Defias workshop reveals the scale of the Brotherhood's industrial resources beneath Westfall."
+   "text": "Beneath Westfall, the Defias workshop reveals the scale of the Brotherhood's industrial resources."
   }
  ],
  "keywords": [
@@ -83,5 +83,6 @@
  ],
  "attribution": [
   "Goblin Foundry"
- ]
+ ],
+ "style": 1
 }

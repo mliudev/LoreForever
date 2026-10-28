@@ -21,16 +21,16 @@
    "Delivering Daffodils"
   ]
  },
- "summary": "Delivering Daffodils concludes a small domestic errand running between the guard post and town square in Lakeshire. After fetching lunch for Guard Parker and picking up a bouquet from herbalist Martie Jainrose, you hand over the blooms to Darcy at the Lakeshire Inn, only to stumble straight into an awkward local rivalry.",
+ "summary": "In Lakeshire, you carry flowers from Martie Jainrose to Darcy, and an awkward rivalry comes to light. First, you bring lunch to Guard Parker, who asks you to collect a bouquet for Darcy at the Lakeshire Inn.",
  "sections": [
   {
    "title": "A Fragrant Errand",
-   "body": "What began as a simple favor delivering a hot meal to Guard Parker turns into a delicate romantic gesture. Grateful for his lunch, Parker asks you to fetch flowers from Martie Jainrose as a surprise for Darcy, the cook who prepared his food. Martie arranges a fresh bouquet of her own favorite blooms\u2014daffodils\u2014unaware of who is intended to receive them.",
+   "body": "Guard Parker thanks you for bringing his lunch and asks you to fetch flowers from Martie Jainrose for Darcy, the cook who prepared his meal. Martie arranges a bouquet of daffodils, her own favorite flowers, without knowing who will receive them.",
    "spoiler": 0
   },
   {
    "title": "Town Rivalries",
-   "body": "Upon bringing the bouquet back to the Lakeshire Inn, Darcy's initial delight quickly curdles into suspicion. Recognizing daffodils as Martie's personal favorite, Darcy immediately suspects Parker dealt with a woman she considers a jealous vixen. While worried Martie might have spitefully poisoned the stems had she known the recipient, Darcy relieves you of blame and hands over a hot portion of sauteed sunfish for your trouble.",
+   "body": "At the Lakeshire Inn, Darcy's delight turns to suspicion when she sees the daffodils. She knows they are Martie's favorite and considers Martie a jealous rival. Darcy fears Martie might have poisoned the stems if she had known who would receive them, but she does not blame you. She gives you hot sauteed sunfish for your trouble.",
    "spoiler": 1
   }
  ],
@@ -42,7 +42,7 @@
     "who is darcy in lakeshire",
     "lakeshire cook darcy"
    ],
-   "answer": "Darcy works at the Lakeshire Inn in Redridge Mountains, preparing meals for locals and town guards. She is the cook who sent a lunch to Guard Parker, prompting Parker to send back a bouquet of flowers in gratitude."
+   "answer": "Darcy works at the Lakeshire Inn in Redridge Mountains, where she prepares meals for locals and town guards. She sent lunch to Guard Parker, who asked you to bring her flowers in thanks."
   },
   {
    "q": "Who is Martie Jainrose?",
@@ -51,7 +51,7 @@
     "lakeshire herbalist",
     "who gave the flowers"
    ],
-   "answer": "Martie Jainrose is Lakeshire's resident herbalist and flower enthusiast. Guard Parker directs you to her to purchase a nice bouquet, and Martie happily assembles daffodils, noting they happen to be her own favorite flowers."
+   "answer": "Martie Jainrose is Lakeshire's herbalist and a flower enthusiast. Guard Parker sends you to her for a bouquet, and she chooses daffodils, her own favorite flowers."
   },
   {
    "q": "Why is Darcy upset about the daffodils?",
@@ -60,7 +60,7 @@
     "darcy martie feud",
     "why poisoned flowers"
    ],
-   "answer": "Darcy instantly recognizes daffodils as Martie's favorite flower. She considers Martie a jealous rival and fears Martie would have poisoned the stems had she known the bouquet was meant for Darcy."
+   "answer": "Darcy recognizes the daffodils as Martie's favorite flowers and considers Martie a jealous rival. She fears Martie would have poisoned the stems if she had known the bouquet was meant for Darcy."
   },
   {
    "q": "Did Martie actually poison the bouquet?",
@@ -68,7 +68,7 @@
     "are daffodils poisoned",
     "is bouquet poisoned"
    ],
-   "answer": "No. Martie had no idea the flowers were intended for Darcy, as Parker simply asked you to pick up an arrangement, and Martie casually chose her own favorites for the bundle."
+   "answer": "No. Martie did not know the flowers were for Darcy; Parker only asked you to pick up a bouquet, so Martie chose her own favorites."
   },
   {
    "q": "What quests lead up to this delivery?",
@@ -77,7 +77,7 @@
     "daffodils prerequisites",
     "delivering daffodils chain"
    ],
-   "answer": "The chain starts with 'A Free Lunch', where you carry Darcy's meal to Guard Parker. Parker then gives you 'Visit the Herbalist' to buy a gift from Martie Jainrose, which ends with 'Delivering Daffodils'."
+   "answer": "The chain begins with A Free Lunch, where you carry Darcy's meal to Guard Parker. Parker then sends you to buy a gift from Martie Jainrose in Visit the Herbalist, which leads to Delivering Daffodils."
   },
   {
    "q": "What reward do you get for delivering the flowers?",
@@ -85,21 +85,21 @@
     "quest reward",
     "daffodils rewards"
    ],
-   "answer": "Darcy thanks you with a hearty bundle of sauteed sunfish, some copper and experience, along with standing with the kingdom of Stormwind."
+   "answer": "Darcy gives you a hearty bundle of sauteed sunfish, some copper and experience, and standing with the kingdom of Stormwind."
   }
  ],
  "angles": [
   {
    "target": "profession:Cooking",
-   "text": "Darcy rewards your delivery with seasoned sauteed sunfish, offering an example of simple Redridge lakeside home cooking."
+   "text": "Darcy rewards you with seasoned sauteed sunfish, a taste of simple Redridge lakeside cooking."
   },
   {
    "target": "profession:Herbalism",
-   "text": "The errand relies on Martie Jainrose's botanical knowledge and her eye for fresh lakeside blooms, showcasing the peaceful side of herb gathering."
+   "text": "Martie Jainrose draws on her knowledge of plants and her eye for fresh lakeside flowers, showing the quieter side of gathering herbs."
   },
   {
    "target": "faction:Alliance",
-   "text": "Assisting the town guard and innkeeper in Lakeshire helps maintain civilian morale while the town struggles under Blackrock and gnoll incursions."
+   "text": "Helping the town guard and innkeeper in Lakeshire bolsters civilian morale as the town faces Blackrock and gnoll incursions."
   }
  ],
  "keywords": [
@@ -121,5 +121,6 @@
  ],
  "attribution": [
   "Delivering Daffodils"
- ]
+ ],
+ "style": 1
 }

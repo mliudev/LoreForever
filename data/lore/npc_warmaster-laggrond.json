@@ -8,16 +8,16 @@
   "wiki": "Warmaster Laggrond",
   "refs": 3
  },
- "summary": "Warmaster Laggrond is a seasoned orc commander stationed outside the Horde entrance to Alterac Valley in the Alterac Mountains. He oversees recruitment and frontline recognition for warriors answering the call to aid the Frostwolf clan. Through his trials, fighters prove their mettle and earn the respect of the Horde vanguard.",
+ "summary": "Outside Alterac Valley, Warmaster Laggrond prepares Horde fighters for the Frostwolf clan. He commands from the valley’s entrance in the Alterac Mountains, where warriors answer the call to aid the Frostwolves.",
  "sections": [
   {
    "title": "Frontline Commander",
-   "body": "Standing watch in the bitter cold at the threshold of Alterac Valley, Warmaster Laggrond organizes the Horde's war effort against the Stormpike Expedition. He ensures that only capable fighters enter the valley to represent the Frostwolf clan and the wider Horde.",
+   "body": "Warmaster Laggrond directs the Horde's fight against the Stormpike Expedition at Alterac Valley's entrance. In the bitter cold, he admits only capable fighters to represent the Frostwolf clan and the wider Horde.",
    "spoiler": 0
   },
   {
    "title": "The Path of Honor",
-   "body": "Laggrond tests arriving combatants through the Proving Grounds before directing them into the thick of battle. As warriors spill blood across the frozen peaks, it is Laggrond who measures their standing, bestowing honors upon those who earn renown among the Frostwolves.",
+   "body": "Warmaster Laggrond sends arriving combatants through the Proving Grounds before they enter battle. As warriors fight across the frozen peaks, he measures their standing and honors those who earn renown among the Frostwolves.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "where is laggrond",
     "alterac valley entrance warmaster"
    ],
-   "answer": "Warmaster Laggrond is posted near the Horde encampment at the entrance portal to Alterac Valley, high in the snowy passes of the Alterac Mountains north of Hillsbrad Foothills."
+   "answer": "Warmaster Laggrond is posted near the Horde encampment at Alterac Valley's entrance portal, in the snowy passes of the Alterac Mountains north of Hillsbrad Foothills."
   },
   {
    "q": "What is Warmaster Laggrond's role?",
@@ -38,7 +38,7 @@
     "laggrond purpose",
     "why talk to laggrond"
    ],
-   "answer": "He serves as a recruitment officer for the Horde's Alterac Valley war effort, assessing recruits through initial combat trials and rewarding those who achieve standing with the Frostwolf clan."
+   "answer": "Warmaster Laggrond recruits for the Horde's war in Alterac Valley. He tests new fighters and honors those who earn standing with the Frostwolf clan."
   },
   {
    "q": "What is the Proving Grounds quest?",
@@ -46,7 +46,7 @@
     "proving grounds horde",
     "laggrond initial quest"
    ],
-   "answer": "Laggrond asks prospective recruits to retrieve a Frostwolf banner from the Wildpaw Den in Alterac Valley. This proves their resourcefulness before joining the campaign."
+   "answer": "Warmaster Laggrond asks prospective recruits to retrieve a Frostwolf banner from the Wildpaw Den in Alterac Valley. The trial proves their resourcefulness before they join the campaign."
   },
   {
    "q": "Why is the Horde fighting in Alterac Valley?",
@@ -55,7 +55,7 @@
     "frostwolf war",
     "alterac valley conflict"
    ],
-   "answer": "The Frostwolf clan has long claimed the valley as their home after being exiled during the First War. The Stormpike Guard, an Alliance dwarven expedition, has pushed into the region searching for relics and territory, sparking a bitter territorial war."
+   "answer": "The Frostwolf clan claims Alterac Valley as its home after exile during the First War. The Stormpike Guard, an Alliance dwarven expedition, has pushed into the region in search of relics and territory, sparking a bitter territorial war."
   },
   {
    "q": "Can Alliance players interact with Warmaster Laggrond?",
@@ -63,21 +63,21 @@
     "can alliance talk to laggrond",
     "laggrond hostile"
    ],
-   "answer": "No. Warmaster Laggrond is a devoted champion of the Horde and will attack any Alliance trespassers who approach his outpost in the mountains."
+   "answer": "No. Warmaster Laggrond is a devoted Horde champion and attacks Alliance trespassers who approach his mountain outpost."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "Warmaster Laggrond serves as your initial point of contact for the Alterac Valley war effort, acknowledging your battlefield achievements on behalf of the Frostwolf clan."
+   "text": "Warmaster Laggrond is your first contact for the Alterac Valley war effort. He recognizes your battlefield achievements for the Frostwolf clan."
   },
   {
    "target": "race:Orc",
-   "text": "For orcs, answering Laggrond's summons is a matter of heritage, defending the ancestral refuge of the venerable Frostwolf clan from dwarven intrusion."
+   "text": "As an orc, answering Laggrond's summons means defending the Frostwolf clan's ancestral refuge from dwarven intrusion."
   },
   {
    "target": "class:Warrior",
-   "text": "Laggrond values raw frontline courage and tests prospective champions to ensure they can hold the line against heavy dwarven armor and vanguard charges."
+   "text": "As a warrior, you face Laggrond's tests of frontline courage, meant to prove you can hold against heavy dwarven armor and vanguard charges."
   }
  ],
  "keywords": [
@@ -97,5 +97,6 @@
  ],
  "attribution": [
   "Warmaster Laggrond"
- ]
+ ],
+ "style": 1
 }

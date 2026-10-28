@@ -8,16 +8,16 @@
   "wiki": "Shari Stilwell",
   "refs": 1
  },
- "summary": "Shari Stilwell is a Forsaken paladin trainer stationed in the settlement of Brill within Tirisfal Glades. Bearing a surname shared with notable figures in the Eastern Kingdoms, she instructs Forsaken who take up the mantle of holy warriors. Her presence marks a rare and unconventional discipline among the undead under the Banshee Queen.",
+ "summary": "In Brill, Shari Stilwell trains Forsaken in the paladin's path. She is stationed in Tirisfal Glades, where the undead who endure the Light's pain learn holy and martial discipline.",
  "sections": [
   {
    "title": "A Beacon in Brill",
-   "body": "Found among the blight-touched buildings of Brill, Shari Stilwell stands out as a mentor to Forsaken holy warriors. While the holy Light is excruciating to the undead, Shari guides fledgling Forsaken who endure that agonizing path. She aids newcomers seeking their footing in Tirisfal Glades through their early training and adjustments, offering guidance to those looking to secure a place within the Forsaken kingdom.",
+   "body": "In Brill, Shari Stilwell guides Forsaken who seek the path of holy warriors. The Light brings the undead excruciating pain, yet she trains those willing to endure it. She helps newcomers find their footing in Tirisfal Glades, through early training and the adjustments of Forsaken life. Those she guides seek a place within the Forsaken kingdom.",
    "spoiler": 0
   },
   {
    "title": "Ties of the Stilwell Name",
-   "body": "Shari shares her family name with several living figures scattered across the southern kingdoms, including Daphne, Merissa, and the renowned smith Jordan Stilwell. Whether she was torn away from these kin during the fall of Lordaeron or shares only a distant lineage remains an unspoken tragedy of the Scourge's devastation.",
+   "body": "Shari bears the same family name as Daphne, Merissa, and Jordan Stilwell, a renowned smith among the living in the southern kingdoms. Whether the fall of Lordaeron tore Shari from these kin, or whether their bond is only distant, remains unknown amid the Scourge's devastation.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "shari stilwell lore",
     "brill paladin trainer"
    ],
-   "answer": "Shari Stilwell is an undead paladin trainer stationed in Brill in Tirisfal Glades. She assists Forsaken paladins with their early martial and holy instruction as they learn to survive in Lordaeron."
+   "answer": "Shari Stilwell is an undead paladin trainer in Brill, Tirisfal Glades. She guides Forsaken paladins through early martial and holy instruction as they learn to survive in Lordaeron."
   },
   {
    "q": "Where can Shari Stilwell be found?",
@@ -38,7 +38,7 @@
     "where is shari stilwell",
     "find shari stilwell"
    ],
-   "answer": "She is located in the town of Brill, just north of the Capital City ruins and the Undercity in Tirisfal Glades."
+   "answer": "Shari can be found in the town of Brill, just north of the Capital City ruins and the Undercity in Tirisfal Glades."
   },
   {
    "q": "Is Shari related to Jordan Stilwell?",
@@ -47,7 +47,7 @@
     "stilwell family ties",
     "shari stilwell relatives"
    ],
-   "answer": "She shares her surname with Jordan Stilwell, the famous human smith, as well as Daphne and Merissa Stilwell. Their exact family connection is unconfirmed, but likely severed by the plague that destroyed Lordaeron."
+   "answer": "Shari shares her surname with Jordan Stilwell, a famous human smith, and with Daphne and Merissa Stilwell. Their exact family connection is unknown, though the plague that destroyed Lordaeron may have severed it."
   },
   {
    "q": "Can Forsaken wield the Light as paladins?",
@@ -56,17 +56,17 @@
     "how can undead be paladins",
     "undead paladin lore"
    ],
-   "answer": "Channeling the Holy Light is deeply painful for undead beings, causing intense agony and burning sensations. However, trainers like Shari Stilwell guide determined Forsaken through the mental fortitude and devotion required to wield both martial skill and holy power."
+   "answer": "The Holy Light brings intense pain and burning to the undead. Shari Stilwell guides determined Forsaken in the devotion and mental fortitude needed to wield its power alongside martial skill."
   }
  ],
  "angles": [
   {
    "target": "class:Paladin",
-   "text": "For Forsaken paladins beginning their journey in Tirisfal Glades, Shari Stilwell serves as the primary trainer and mentor in Brill."
+   "text": "As a Forsaken paladin beginning in Tirisfal Glades, you can find your primary trainer and mentor, Shari Stilwell, in Brill."
   },
   {
    "target": "race:Undead",
-   "text": "Shari Stilwell reflects the tragic splintering of families wrought by the Third War, standing as an undead mentor while potential kin endure far to the south."
+   "text": "As an undead traveler, you see in Shari Stilwell how the Third War splintered families: she mentors the Forsaken while possible kin live far to the south."
   }
  ],
  "keywords": [
@@ -90,5 +90,6 @@
  ],
  "attribution": [
   "Shari Stilwell"
- ]
+ ],
+ "style": 1
 }

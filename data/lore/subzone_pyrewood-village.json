@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Pyrewood Village"
  },
- "summary": "Pyrewood Village is an isolated human settlement nestled in southern Silverpine Forest beneath Shadowfang Keep. Originally part of Gilneas before being stranded outside the Greymane Wall, its living residents harbor a horrific secret brought upon them by the mad archmage Arugal.",
+ "summary": "Isolated Pyrewood Village lies beneath Shadowfang Keep in southern Silverpine Forest. Once part of Gilneas, the settlement was stranded outside the Greymane Wall, and Arugal's curse now haunts its living residents.",
  "sections": [
   {
    "title": "A Town Severed",
-   "body": "Pyrewood was once a prosperous Gilnean settlement. When King Genn Greymane chose to isolate his kingdom behind the massive Greymane Wall following the Second War, Pyrewood was left on the northern side. Cut off from their homeland, the townsfolk were left entirely defenseless during the Third War as the Scourge marched across Lordaeron. Though they managed to survive the initial wave of the undead, their true nightmare began when the mage Arugal took refuge in the fortress above.",
+   "body": "Pyrewood was once a prosperous Gilnean settlement. After the Second War, King Genn Greymane sealed Gilneas behind the massive Greymane Wall, leaving Pyrewood on the wrong side. Cut off from their homeland, the townsfolk were entirely defenseless as the Scourge crossed Lordaeron during the Third War. They survived the first wave of undead, but their nightmare began when the mage Arugal took refuge in the fortress above.",
    "spoiler": 0
   },
   {
    "title": "The Moonrage Curse",
-   "body": "From the towers of Shadowfang Keep, Archmage Arugal unleashed otherworldly beasts upon the surrounding lands, ultimately cursing the living population of Pyrewood. By the light of day, the citizens appear as normal human villagers, quietly maintaining their town hall, blacksmith, and chapel, even offering trade to visiting Alliance travelers. Yet as soon as the sun dips beneath the horizon, a terrible transformation occurs: every resident shifts into a savage, bloodthirsty worgen of the Moonrage pack, turning on anyone unfortunate enough to linger within the walls.",
+   "body": "Archmage Arugal unleashed otherworldly beasts from Shadowfang Keep and cursed Pyrewood's living residents. By day, they look like ordinary human villagers and keep their normal faculties as they tend the town hall, blacksmith, and chapel. The village merchants even trade with visiting Alliance travelers. When the sun sets, every resident becomes a savage, bloodthirsty worgen of the Moonrage pack. Anyone left within the village walls is attacked.",
    "spoiler": 1
   }
  ],
@@ -28,7 +28,7 @@
     "pyrewood worgen shift",
     "why are they worgen"
    ],
-   "answer": "The villagers are afflicted by a dark curse cast by Archmage Arugal of Shadowfang Keep. During the day, they retain their human forms and normal faculties, but each night they transform into ravenous Moonrage worgen who attack all outsiders on sight."
+   "answer": "Archmage Arugal of Shadowfang Keep cursed Pyrewood's villagers. By day, they keep their human forms and normal faculties, but each night they become ravenous Moonrage worgen and attack outsiders on sight."
   },
   {
    "q": "Why is Pyrewood outside the Greymane Wall?",
@@ -36,7 +36,7 @@
     "why outside the wall",
     "is pyrewood gilnean"
    ],
-   "answer": "King Genn Greymane ordered the Greymane Wall constructed to seal Gilneas off from the outside world following the Second War. Pyrewood lay on the wrong side of the wall, leaving its residents to fend for themselves."
+   "answer": "King Genn Greymane ordered the Greymane Wall built to seal Gilneas away from the outside world after the Second War. Pyrewood ended up on the wrong side, leaving its residents to fend for themselves."
   },
   {
    "q": "Can Alliance players visit Pyrewood safely?",
@@ -45,7 +45,7 @@
     "can alliance go to pyrewood",
     "pyrewood vendors"
    ],
-   "answer": "Yes, but strictly during daylight hours. Alliance travelers can walk among the townsfolk and trade with the village merchants while the sun is up. Once darkness falls, however, the entire village transforms into hostile worgen regardless of your faction."
+   "answer": "Yes, Alliance travelers can visit and trade with the village merchants during daylight. After dark, the entire village transforms into hostile worgen, whatever your faction."
   },
   {
    "q": "How does the Horde view Pyrewood?",
@@ -54,17 +54,17 @@
     "horde hostile pyrewood",
     "deathstalker faerleia pyrewood"
    ],
-   "answer": "The Forsaken view the village as an intolerable threat on their southern border. Under the direction of agents like Deathstalker Faerleia, the Horde seeks to assassinate the village's council and sever Pyrewood's ties to Arugal."
+   "answer": "The Forsaken see Pyrewood as an intolerable threat on their southern border. Under agents such as Deathstalker Faerleia, the Horde seeks to assassinate the village's council and sever Pyrewood's ties to Arugal."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "The village represents a tragic remnant of living humanity in Lordaeron, willing to trade with travelers by day before succumbing to a horrific curse each night."
+   "text": "Pyrewood is a tragic remnant of living humanity in Lordaeron. Its people trade with travelers by day, then succumb to a horrific curse each night."
   },
   {
    "target": "faction:Horde",
-   "text": "For the Forsaken, Pyrewood is a lingering pocket of hostile humans and monstrous worgen serving Archmage Arugal right on the border of their lands."
+   "text": "The Forsaken see Pyrewood as a lingering pocket of hostile humans and monstrous worgen serving Archmage Arugal on the border of their lands."
   }
  ],
  "keywords": [
@@ -88,5 +88,6 @@
  ],
  "attribution": [
   "Pyrewood Village"
- ]
+ ],
+ "style": 1
 }

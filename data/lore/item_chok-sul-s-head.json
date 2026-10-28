@@ -10,11 +10,11 @@
    "quest:256"
   ]
  },
- "summary": "Chok'sul's Head serves as gruesome physical proof of the death of the Mo'grosh ogre chieftain. Brought to Magistrate Bluntnose in Thelsamar, it secures a formal bounty placed by local dwarven authorities.",
+ "summary": "In Thelsamar, Chok'sul's Head proves the Mo'grosh chieftain is dead. Magistrate Bluntnose requires it before paying the bounty set by local dwarven authorities.",
  "sections": [
   {
    "title": "Proof of the Chieftain's Fall",
-   "body": "The ogres of Mo'grosh Stronghold pose a persistent menace to the settlements of Loch Modan, orchestrating assaults against Thelsamar, the excavation sites, and the vital Stonewrought Dam. Magistrate Bluntnose placed a bounty on the brute presumed to be coordinating these attacks: Chok'sul. Given the chaos of the northeastern hills, the magistrate demands undeniable evidence before releasing township funds. The severed head of the ogre chieftain provides the grotesque certainty the dwarven council needs to mark the contract fulfilled.",
+   "body": "Ogres from Mo'grosh Stronghold threaten Loch Modan's settlements. They attack Thelsamar, excavation sites, and the Stonewrought Dam. Magistrate Bluntnose placed a bounty on Chok'sul, the brute believed to direct these assaults. The northeastern hills are in turmoil, so the magistrate demands clear proof before releasing township funds. Chok'sul's severed head gives the dwarven council the certainty it needs to mark the bounty fulfilled.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "choksul lore",
     "chok'sul identity"
    ],
-   "answer": "Chok'sul was an ogre chieftain stationed in the Mo'grosh Stronghold in northeastern Loch Modan. Dwarven officials believe he was the mastermind behind coordinated raids targeting Thelsamar, the Stonewrought Dam, and nearby excavation sites."
+   "answer": "Chok'sul was an ogre chieftain at Mo'grosh Stronghold in northeastern Loch Modan. Dwarven officials believe he directed raids against Thelsamar, the Stonewrought Dam, and nearby excavation sites."
   },
   {
    "q": "Why does Magistrate Bluntnose want the head?",
@@ -35,7 +35,7 @@
     "choksul head purpose",
     "who wants choksuls head"
    ],
-   "answer": "Magistrate Bluntnose issued a public bounty for Chok'sul's demise through any means necessary. Because ogre raids have severely strained the region, the magistrate requires indisputable proof of the chieftain's death before distributing monetary compensation from Thelsamar's coffers."
+   "answer": "Magistrate Bluntnose set a public bounty for Chok'sul's death by any means. Ogre raids have strained the region, so the magistrate requires clear proof of the chieftain's death before paying from Thelsamar's coffers."
   },
   {
    "q": "Where did Chok'sul operate?",
@@ -44,7 +44,7 @@
     "mo'grosh stronghold location",
     "choksul location"
    ],
-   "answer": "Chok'sul commanded his warband from the Mo'grosh Stronghold, a heavily fortified ogre redoubt nestled in the craggy hills of northeastern Loch Modan."
+   "answer": "Chok'sul led his warband from Mo'grosh Stronghold in the craggy hills of northeastern Loch Modan."
   },
   {
    "q": "What threats did Chok'sul pose to the region?",
@@ -52,13 +52,13 @@
     "why is choksul wanted",
     "what did choksul do"
    ],
-   "answer": "He was believed to coordinate aggressive strikes against Thelsamar and nearby dwarven infrastructure, including the Stonewrought Dam and local archeological excavation sites."
+   "answer": "Chok'sul was believed to direct attacks on Thelsamar and nearby dwarven works, including the Stonewrought Dam and local excavation sites."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "Eliminating Chok'sul directly relieves the pressure on Ironforge's rural settlements and protects vital civic monuments like the Stonewrought Dam from brute destruction."
+   "text": "As a dwarf, defeating Chok'sul eases the danger to Ironforge's rural settlements and protects the Stonewrought Dam from destruction."
   }
  ],
  "keywords": [
@@ -82,5 +82,6 @@
  "attribution": [
   "Chok'sul's Head",
   "WANTED: Chok'sul"
- ]
+ ],
+ "style": 1
 }

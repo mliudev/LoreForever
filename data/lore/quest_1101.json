@@ -20,21 +20,21 @@
    "The Crone of the Kraul"
   ]
  },
- "summary": "The Crone of the Kraul is an Alliance quest offered by Falfindel Waywarder at Thalanaar, on the border of Feralas and the Thousand Needles. After reading the recovered journal of the fallen dwarf Henrig Lonebrow, Falfindel tasks adventurers with infiltrating Razorfen Kraul and slaying the quilboar crone, Charlga Razorflank.",
+ "summary": "At Thalanaar, on the border of Feralas and the Thousand Needles, Falfindel Waywarder sends adventurers after Charlga Razorflank. Henrig Lonebrow's recovered journal reveals the growing danger inside Razorfen Kraul.",
  "sections": [
   {
    "title": "A Plea at the Border",
-   "body": "At the secluded night elf outpost of Thalanaar, Falfindel Waywarder grieves for the druid Heralath and the dwarf Henrig Lonebrow. Lonebrow, an Explorers' League traveler captured by the quilboar, escaped Razorfen Kraul only to die on the road, leaving behind a tattered journal detailing the growing menace within Razorfen Kraul. Realizing there is no time to send a runner to Darnassus for military reinforcements, Falfindel turns to passing adventurers to strike directly at the heart of the thorned dens.",
+   "body": "At secluded Thalanaar, the night elf outpost, Falfindel Waywarder grieves for the druid Heralath and the dwarf Henrig Lonebrow. Lonebrow traveled with the Explorers' League before the quilboar captured him. He escaped Razorfen Kraul, but died on the road, leaving a tattered journal that describes the growing menace inside. There is no time to send a runner to Darnassus for military reinforcements. Falfindel sends passing adventurers into the thorned dens to face the danger at its heart.",
    "spoiler": 0
   },
   {
    "title": "Striking the Chieftain",
-   "body": "The target of the expedition is Charlga Razorflank, an ancient geomancer and ruthless matriarch who has united the fractious Razorfen quilboar under her iron rule. From the depths of the Kraul, she marshals a bristling army that threatens neighboring lands. Adventurers must carve through thick thorn mazes, battlement walls, and swarms of fanatical quilboar warriors to corner Charlga and pry her medallion from her lifeless body as proof of her downfall.",
+   "body": "Charlga Razorflank is an ancient geomancer and ruthless matriarch who has united the fractious Razorfen quilboar under her iron rule. From deep within the Kraul, she marshals a bristling army that threatens neighboring lands. Thick thorn mazes, battlement walls, and swarms of fanatical quilboar warriors guard the way to Charlga. Her medallion, taken from her lifeless body, will prove her downfall.",
    "spoiler": 0
   },
   {
    "title": "A Deeper Corruption",
-   "body": "While Charlga's demise blunts the immediate quilboar threat, her defeat raises deeper concerns for the night elves. The Kraul is formed from the living briars that sprouted where the boar Ancient, Agamaggan, fell during the War of the Ancients. When the medallion is returned, Falfindel notes that neutralizing Charlga allows night elf scholars to study the area's corruption more closely, though he senses that insidious treachery may be at the root of the sudden blight sweeping Agamaggan's sacred remains.",
+   "body": "Charlga's death blunts the immediate quilboar threat, but leaves the night elves with deeper concerns. The living briars of the Kraul sprouted where the boar Ancient, Agamaggan, fell during the War of the Ancients. When Falfindel receives the medallion, he notes that neutralizing Charlga allows night elf scholars to study the area's corruption more closely. He senses insidious treachery may lie at the root of the sudden blight sweeping Agamaggan's sacred remains.",
    "spoiler": 1
   }
  ],
@@ -46,7 +46,7 @@
     "where do i get crone of the kraul",
     "falfindel waywarder quest"
    ],
-   "answer": "The quest is given by Falfindel Waywarder, a night elf stationed at Thalanaar. Thalanaar is an Alliance outpost located on the high mountain pass between Feralas and the Thousand Needles."
+   "answer": "Falfindel Waywarder, a night elf stationed at Thalanaar, gives it. Thalanaar is an Alliance outpost on the high mountain pass between Feralas and the Thousand Needles."
   },
   {
    "q": "What prerequisite must be completed before starting this quest?",
@@ -55,7 +55,7 @@
     "how to unlock crone of the kraul",
     "lonebrow journal prerequisite"
    ],
-   "answer": "You must first complete the quest Lonebrow's Journal. That task involves retrieving the journal of Henrig Lonebrow from his fallen remains near the Great Lift in Thousand Needles and delivering it to Falfindel in Thalanaar."
+   "answer": "First, you must complete Lonebrow's Journal. Retrieve Henrig Lonebrow's journal from his fallen remains near the Great Lift in Thousand Needles, then deliver it to Falfindel in Thalanaar."
   },
   {
    "q": "Who is Charlga Razorflank?",
@@ -64,7 +64,7 @@
     "charlga lore",
     "charlga razorflank"
    ],
-   "answer": "Charlga Razorflank is the supreme crone and matriarch of the Razorfen quilboar. She is a powerful geomancer who has united the warring tribes within Razorfen Kraul, directing their aggression against neighboring territories."
+   "answer": "Charlga Razorflank is the supreme crone and matriarch of the Razorfen quilboar. A powerful geomancer, she has united the warring tribes within Razorfen Kraul and directs their aggression against neighboring territories."
   },
   {
    "q": "Where can Charlga Razorflank be found?",
@@ -73,7 +73,7 @@
     "charlga location",
     "where is the crone in rfk"
    ],
-   "answer": "She resides at the very end of Razorfen Kraul, situated in the far southern corner of the Barrens near the Great Lift. She waits atop an altar deep inside the dungeon."
+   "answer": "Charlga Razorflank waits at the very end of Razorfen Kraul, in the far southern corner of the Barrens near the Great Lift. She waits atop an altar deep inside the dungeon."
   },
   {
    "q": "Why does Falfindel need adventurers instead of calling the Darnassus army?",
@@ -81,7 +81,7 @@
     "why not call darnassus",
     "why hire adventurers"
    ],
-   "answer": "Thalanaar is a remote frontier outpost far from northern Kalimdor. With Charlga actively amassing her forces, sending word to Darnassus and waiting for a dispatched army would take too long to avert the rising danger."
+   "answer": "Thalanaar is a remote frontier outpost far from northern Kalimdor. Charlga is actively amassing her forces, and word sent to Darnassus would take too long to bring a dispatched army and avert the rising danger."
   },
   {
    "q": "What proof does Falfindel demand of the crone's death?",
@@ -90,17 +90,17 @@
     "proof of demise item",
     "razorflank medallion"
    ],
-   "answer": "Falfindel requires Razorflank's Medallion, an amulet worn by Charlga herself that serves as indisputable evidence that the crone has been slain."
+   "answer": "Falfindel requires Razorflank's Medallion, the amulet Charlga wears, as proof that she has been slain."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "This quest represents the primary Alliance initiative against the quilboar menace in the southern Barrens, launched from the outpost of Thalanaar."
+   "text": "This is the Alliance's main effort against the quilboar menace in the southern Barrens, launched from Thalanaar."
   },
   {
    "target": "race:NightElf",
-   "text": "Night elves view the desecration of Agamaggan's resting place with dismay, recognizing the boar Ancient as a fallen ally from the War of the Ancients."
+   "text": "Night elves grieve over the desecration of Agamaggan's resting place. The boar Ancient fell as an ally of the night elves during the War of the Ancients."
   },
   {
    "target": "race:Dwarf",
@@ -108,7 +108,7 @@
   },
   {
    "target": "class:Druid",
-   "text": "Druids hold Agamaggan in high esteem as a revered Ancient of nature and seek to cleanse the dark taint distorting his thorn-covered legacy."
+   "text": "As a druid, you hold Agamaggan in high esteem as a revered Ancient of nature and seek to cleanse the dark taint distorting his thorn-covered legacy."
   }
  ],
  "keywords": [
@@ -133,5 +133,6 @@
  ],
  "attribution": [
   "The Crone of the Kraul"
- ]
+ ],
+ "style": 1
 }

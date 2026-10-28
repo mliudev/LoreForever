@@ -10,16 +10,16 @@
    "quest:1007"
   ]
  },
- "summary": "The Ancient Statuette is a sunken relic recovered from the shores of the Zoram Strand in northwestern Ashenvale. Sought by the night elf Talen, the small effigy originates from the submerged ruins of the ancient city of Zoram.",
+ "summary": "Along Ashenvale's northwestern shore, Talen seeks the Ancient Statuette he recovered from Zoram's sunken ruins. The night elf effigy came from a city lost beneath the waves.",
  "sections": [
   {
    "title": "A Relic in the Shallows",
-   "body": "The waters off northwestern Ashenvale conceal the sunken remains of Zoram, a pre-Sundering night elven city lost beneath the waves ten thousand years ago. In recent days, the explorer Talen surveyed the submerged ruins from a small craft, seeking lost historical relics. When a vicious assault by naga drove him ashore, Talen abandoned most of his belongings in his flight, dropping the ancient statuette he had dredged up onto the tideline sand near his scuttled skiff.",
+   "body": "The sunken ruins of Zoram lie off northwestern Ashenvale. The pre-Sundering night elven city was lost beneath the waves ten thousand years ago. Recently, the explorer Talen surveyed the ruins from a small craft, searching for historical relics. Naga attacked and drove him ashore. In his flight, he left most of his belongings behind, including the ancient statuette he had dredged up. It lies on the tideline sand near his scuttled skiff.",
    "spoiler": 0
   },
   {
    "title": "Secrets of Zoram",
-   "body": "Talen considers the statuette his most prized possession and the entire justification for braving the monster-infested coast. Rather than merely being a piece of decorative stonework, he believes the effigy serves as an essential key to deciphering the architecture, history, and arcane secrets locked away beneath the surf of Zoram Strand.",
+   "body": "Talen calls the statuette his most prized possession and the reason he braved the monster-infested coast. He believes the effigy can help decipher Zoram's architecture, history, and arcane secrets, all hidden beneath the surf of Zoram Strand.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "ancient statuette lore",
     "what is this item"
    ],
-   "answer": "It is an artifact retrieved from the sunken ruins of the ancient night elven city of Zoram, located off the northwestern coast of Ashenvale."
+   "answer": "The Ancient Statuette came from the sunken ruins of Zoram, an ancient night elven city off Ashenvale's northwestern coast."
   },
   {
    "q": "Who is looking for the statuette?",
@@ -40,7 +40,7 @@
     "talen statuette",
     "who lost the statuette"
    ],
-   "answer": "The night elf scholar Talen seeks it. He was skimming over the submerged ruins in a boat when naga ambushed him, causing him to drop the relic on the beach as he fled for his life."
+   "answer": "The night elf explorer Talen seeks the statuette. Naga attacked while he surveyed the submerged ruins by boat, and he dropped the relic on the beach as he fled."
   },
   {
    "q": "Why is the statuette important?",
@@ -48,7 +48,7 @@
     "why does talen want it",
     "statuette purpose"
    ],
-   "answer": "Talen believes the statuette holds the secrets of the ancient city of Zoram and might serve as a key to unraveling the history buried in the ruins beneath the waves."
+   "answer": "Talen believes the statuette can help uncover Zoram's history and the secrets hidden in its ruins beneath the waves."
   },
   {
    "q": "Why are naga prowling around where it was found?",
@@ -56,17 +56,17 @@
     "why naga on beach",
     "zoram strand naga"
    ],
-   "answer": "Naga have infested the coastal waters and ruins of the Zoram Strand, aggressively attacking any surface dwellers who venture near the sunken remains of their submerged territory."
+   "answer": "Naga have infested the coastal waters and ruins of Zoram Strand. They attack surface dwellers who venture near the sunken remains of their submerged territory."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "The statuette is a rare surviving fragment of ancient Kaldorei civilization from before the Great Sundering, preserved for millennia under the sea."
+   "text": "As a night elf, you can see the statuette as a fragment of Kaldorei civilization from before the Great Sundering, preserved under the sea for millennia."
   },
   {
    "target": "faction:Alliance",
-   "text": "Recovering this artifact assists Talen in documenting and reclaiming night elven heritage from the encroaching naga along Ashenvale's coast."
+   "text": "As an Alliance member, you can help Talen document and reclaim night elven heritage from the naga encroaching along Ashenvale's coast."
   }
  ],
  "keywords": [
@@ -91,5 +91,6 @@
  "attribution": [
   "Ancient Statuette",
   "The Ancient Statuette"
- ]
+ ],
+ "style": 1
 }

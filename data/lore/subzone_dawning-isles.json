@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Dawning Isles"
  },
- "summary": "The Dawning Isles are a cluster of low-lying islets situated within Lordamere Lake along the eastern edge of Silverpine Forest. Once idyllic retreats, they have succumbed to the blight of the Plague of Undeath and are overrun by aggressive murlocs.",
+ "summary": "The Dawning Isles lie blighted beneath the Vile Fin murlocs’ growing numbers. Along Silverpine Forest’s eastern edge, the islets rise from Lordamere Lake, where the Plague of Undeath has left their shores rotting.",
  "sections": [
   {
    "title": "Blight on the Lake",
-   "body": "Before the Third War, the Dawning Isles were known as scenic keys resting on the calm, clear waters of Lordamere Lake. When the Plague of Undeath swept across Lordaeron, corruption seeped into the lake's shallows. The vegetation turned pallid and rotting, driving away idyllic peacefulness. Today, the Vile Fin murloc tribe dominates the muddy shores and tangled brush, aggressively defending their burgeoning colonies from anyone seeking to traverse the lake.",
+   "body": "The Dawning Isles lie under the Vile Fin murlocs’ claim. Before the Third War, these keys rested amid Lordamere Lake’s calm, clear waters. When the Plague of Undeath swept across Lordaeron, corruption spread through the shallows. The vegetation turned pallid and rotting, and the islands lost their former peace. Now the Vile Fin murlocs hold the muddy shores and tangled brush. They defend their growing colonies against anyone who tries to cross the lake.",
    "spoiler": 0
   },
   {
    "title": "A Murloc Stronghold",
-   "body": "Murlocs were not always the only danger on the isles. Bog beasts once prowled the blighted islets alongside them, but the bog beasts have since vanished. In their absence the Vile Fin population has swelled to the point that the murlocs now control the isles outright, turning what was once a quiet chain of keys into their stronghold on Lordamere Lake.",
+   "body": "Bog beasts once prowled the blighted Dawning Isles alongside the murlocs. The bog beasts have since vanished, leaving the Vile Fin population to swell. The murlocs now control the isles outright, making the chain of keys their stronghold on Lordamere Lake.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "where is dawning isles",
     "dawning islands map"
    ],
-   "answer": "The Dawning Isles are located in Lordamere Lake, bordering the eastern boundary of Silverpine Forest and resting just west of the Ruins of Lordaeron."
+   "answer": "The Dawning Isles rise from Lordamere Lake along Silverpine Forest’s eastern boundary, just west of the Ruins of Lordaeron."
   },
   {
    "q": "What creatures inhabit the Dawning Isles?",
@@ -37,7 +37,7 @@
     "what lives on dawning isles",
     "dawning isle monsters"
    ],
-   "answer": "The islands are primarily infested by the Vile Fin tribe of murlocs, which thrives along the corrupted shorelines. In the past, dangerous bog beasts also prowled the islets, though they have largely vanished in favor of the teeming murloc population."
+   "answer": "The Vile Fin tribe of murlocs thrives along the corrupted shores. Bog beasts once prowled the islets too, but they have since largely vanished as the murloc population has grown."
   },
   {
    "q": "Why are the trees and shores rotting here?",
@@ -45,17 +45,17 @@
     "why are dawning isles blighted",
     "lake blight dawning isles"
    ],
-   "answer": "The islands were tainted during the Third War when the Plague of Undeath swept Lordaeron. The water and soil absorbed the blight, poisoning the vegetation and leaving the islets murky, sickly, and decayed."
+   "answer": "The Plague of Undeath tainted the Dawning Isles when it swept across Lordaeron during the Third War. The water and soil absorbed the blight, poisoning the vegetation and leaving the islets murky, sickly, and decayed."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "The blighted Dawning Isles lie on Lordamere Lake, within sight of the western approaches to the Undercity, and the Vile Fin murlocs that hold them grow more numerous each year."
+   "text": "The blighted Dawning Isles lie on Lordamere Lake, within sight of the Undercity’s western approaches. The Vile Fin murlocs that hold them grow more numerous each year."
   },
   {
    "target": "faction:Alliance",
-   "text": "The blighted islands serve as a grim reminder of how far the corruption of the Scourge reached into Lordaeron's most scenic waters."
+   "text": "The blighted Dawning Isles show how far the Scourge’s corruption reached into Lordaeron’s scenic waters."
   }
  ],
  "keywords": [
@@ -76,5 +76,6 @@
  ],
  "attribution": [
   "Dawning Isles"
- ]
+ ],
+ "style": 1
 }

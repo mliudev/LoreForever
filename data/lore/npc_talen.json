@@ -8,11 +8,11 @@
   "wiki": "Talen",
   "refs": 2
  },
- "summary": "Talen is a night elf amateur archaeologist encamped near the Zoram Strand in northwestern Ashenvale. Despite the constant danger posed by nearby naga and Horde outposts, he is dedicated to recovering ancient kaldorei relics buried along the coast.",
+ "summary": "At his camp by the Zoram Strand, Talen searches for kaldorei relics along the coast. Nearby naga and Horde outposts make the work dangerous.",
  "sections": [
   {
    "title": "Scholar on the Coast",
-   "body": "Perched at a small camp on the edge of the Zoram Strand, Talen spends his days pursuing historical curiosities rather than waging war. While the wilderness of Ashenvale is fraught with territorial skirmishes and hostile shoreline denizens, Talen remains focused on gathering long-lost treasures from the ruins submerged beneath the waves and sands. He relies heavily on passing adventurers to brave the savage Wrathtail naga and retrieve elusive artifacts\u2014including pristine statuettes and the Ring of Zoram held by the naga leader Ruuzel.",
+   "body": "At a camp beside the Zoram Strand, Talen studies the past instead of taking up arms. Naga and Horde outposts make the coast dangerous, but he keeps searching the ruins beneath the waves and sands for lost kaldorei relics. He depends on travelers to face the Wrathtail naga and recover artifacts, including pristine statuettes and the Ring of Zoram, held by their leader Ruuzel.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "talen ashenvale",
     "talen zoram strand"
    ],
-   "answer": "Talen is a night elf scholar and amateur archaeologist residing at a small camp near the Zoram Strand in Ashenvale. Rather than serving as a sentinel or soldier, he studies the ancient relics buried along the seashore."
+   "answer": "At his camp near the Zoram Strand, Talen studies ancient kaldorei relics buried along the shore. He is a night elf scholar and amateur archaeologist, not a sentinel or soldier."
   },
   {
    "q": "Why is Talen camping near the Zoram Strand?",
@@ -32,7 +32,7 @@
     "why is talen here",
     "talen purpose"
    ],
-   "answer": "He is investigating the sunken ruins and shores of the Zoram Strand to recover ancient kaldorei artifacts. Because the beach is crawling with violent naga and lies close to the Horde outpost of Zoram'gar, he stays at a small campsite tucked away from the main shoreline."
+   "answer": "Talen camps near the Zoram Strand to investigate its sunken ruins and recover ancient kaldorei artifacts. Violent naga roam the beach, and the Horde outpost of Zoram'gar lies nearby, so he stays in a small camp away from the main shoreline."
   },
   {
    "q": "What artifacts does Talen want?",
@@ -41,7 +41,7 @@
     "what does talen need",
     "ruuzel quest"
    ],
-   "answer": "Talen enlists travelers to search the coastline for ancient statuettes washed ashore and tasks them with hunting down the powerful naga Ruuzel on a nearby offshore isle to retrieve the Ring of Zoram, the key to the ancient statuette's lock."
+   "answer": "Talen asks travelers to search the coast for ancient statuettes washed ashore and to hunt Ruuzel, a powerful naga on a nearby offshore isle. Ruuzel holds the Ring of Zoram, which unlocks the statuette."
   },
   {
    "q": "Is Talen hostile to the Horde?",
@@ -49,17 +49,17 @@
     "does talen attack horde",
     "horde friendly talen"
    ],
-   "answer": "While Talen is allied with the night elves, he is primarily a scholar and does not aggressively attack Horde travelers unless provoked or attacked first."
+   "answer": "Talen is allied with the night elves, but he is a scholar. He does not attack Horde travelers unless they provoke or attack him first."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "For the kaldorei, the Zoram Strand is a tragic reminder of the Sundering; Talen represents a desire to preserve and recover the heritage lost when ancient coastal estates slid into the Great Sea."
+   "text": "For the kaldorei, the Zoram Strand recalls the Sundering. Talen seeks to preserve and recover the heritage lost when ancient coastal estates sank into the Great Sea."
   },
   {
    "target": "faction:Alliance",
-   "text": "Talen provides Alliance travelers with a valuable field contact in the contested northern reaches of Ashenvale, not far from Maestra's Post."
+   "text": "Talen gives Alliance travelers a field contact in contested northern Ashenvale, near Maestra's Post."
   }
  ],
  "keywords": [
@@ -81,5 +81,6 @@
  ],
  "attribution": [
   "Talen"
- ]
+ ],
+ "style": 1
 }

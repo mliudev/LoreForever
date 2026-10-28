@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Ironbeard's Tomb"
  },
- "summary": "Ironbeard's Tomb is a defiled dwarven burial site situated west of the road leading north toward Dun Modr in the Wetlands. Marked by an outdoor graveyard and a stone statue of its namesake, the crypt has fallen into disuse as acidic oozes swarm the grounds. Travelers rarely set foot in the hollow unless searching for lost possessions swallowed by the slime.",
+ "summary": "West of the road to Dun Modr, Ironbeard's Tomb lies defiled and overrun by acidic oozes. A stone statue watches over the outdoor graveyard, where travelers search the slime for lost possessions.",
  "sections": [
   {
    "title": "A Befouled Resting Place",
-   "body": "Overlooking the marshes along the road north to Dun Modr, Ironbeard's Tomb stands as a testament to the dwarven presence in the Wetlands. A monumental stone statue, presumed to depict Ironbeard himself, watches over the surrounding burial plot. Yet solemn peace no longer keeps vigil here. The subterranean crypt has been completely overrun by oozes of various black and crimson strains, leaving the tomb contaminated. Dwarves no longer bring their dead to this ruined sanctuary, and those brave enough to disturb the vaults do so primarily to hunt through the remains digested by the lurking slimes.",
+   "body": "Ironbeard's Tomb overlooks the marshes beside the road north to Dun Modr. A great stone statue, believed to show Ironbeard, watches over the burial plot. Black and crimson oozes have overrun the crypt below, tainting the resting place. Dwarves no longer bring their dead here. Those who enter the vaults search among the remains swallowed by the slimes.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "who is ironbeard",
     "statue identity"
    ],
-   "answer": "Very little is recorded about Ironbeard himself, though the massive statue and crypt grounds suggest he was an honored dwarven figure of note in the Wetlands. The monument erected in his likeness watches over the hillside above the cemetery."
+   "answer": "Little is recorded about Ironbeard, but the statue and crypt suggest he was an honored dwarf in the Wetlands. His likeness watches over the hillside above the cemetery."
   },
   {
    "q": "Why is the tomb abandoned?",
@@ -32,7 +32,7 @@
     "oozes in tomb",
     "what happened to the crypt"
    ],
-   "answer": "The crypt has been completely overrun by acidic black and crimson oozes. With the burial grounds defiled and infested with dangerous slimes, mourning families have ceased bringing their dead here."
+   "answer": "Acidic black and crimson oozes have overrun the crypt. The burial grounds are defiled and dangerous, so mourning families no longer bring their dead here."
   },
   {
    "q": "Why do adventurers explore Ironbeard's Tomb?",
@@ -41,7 +41,7 @@
     "sida bag",
     "tomb quests"
    ],
-   "answer": "Beyond fighting back the foul infestation, travelers frequently search the tomb's slimes hoping to recover swallowed items, most notably Sida's lost bag."
+   "answer": "Travelers search the slimes for swallowed possessions, especially Sida's lost bag, while trying to fight back the infestation."
   },
   {
    "q": "Where is Ironbeard's Tomb located?",
@@ -50,13 +50,13 @@
     "how to get to ironbeard tomb",
     "ironbeard wetlands map"
    ],
-   "answer": "The tomb sits in north-central Wetlands, nestled into the hill just west of the main road heading north toward the dwarven redoubt of Dun Modr."
+   "answer": "Ironbeard's Tomb sits in north-central Wetlands, in a hill just west of the main road north toward Dun Modr."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "Seeing a clan hero's final resting place infested by mindless marsh oozes is a bitter disgrace for any dwarf traveling the road toward the Thandol Span."
+   "text": "As a dwarf, seeing a clan hero's resting place infested by mindless marsh oozes is a bitter disgrace on the road toward the Thandol Span."
   }
  ],
  "keywords": [
@@ -77,5 +77,6 @@
  ],
  "attribution": [
   "Ironbeard's Tomb"
- ]
+ ],
+ "style": 1
 }

@@ -20,16 +20,16 @@
    "Kill Grundig Darkcloud"
   ]
  },
- "summary": "Kill Grundig Darkcloud is a Horde quest given by Makaba Flathoof along the southeastern path of Stonetalon Mountains. After culling the Grimtotem ruffians and mercenaries, Makaba directs you to strike down the leader responsible for sacking his home: Grundig Darkcloud. Eliminating Grundig and his retinue of brutes delivers justice for the devastated settlement.",
+ "summary": "At Grimtotem Post, Grundig Darkcloud leads the Grimtotem force that sacked Makaba Flathoof's home. After you strike down the ruffians and mercenaries, Makaba sends you after Grundig and his brutes.",
  "sections": [
   {
    "title": "The Butcher of the Path",
-   "body": "Makaba Flathoof managed to survive the sudden, violent assault on his settlement along the Stonetalon trail, but his sorrow remains raw. After testing your capability against the Grimtotem's foot soldiers, he points you toward the mastermind behind the bloodshed: Grundig Darkcloud. Unlike mere opportunistic raiders, Grundig commands a devoted retinue of brutes and spearheaded the slaughter that leveled the village.",
+   "body": "Makaba Flathoof survived the assault on his settlement along the Stonetalon trail, but his grief is still raw. After you prove yourself against Grimtotem foot soldiers, he points you toward Grundig Darkcloud, the one behind the bloodshed. Grundig commands a devoted band of brutes and led the slaughter that leveled the village.",
    "spoiler": 0
   },
   {
    "title": "Strike at Grimtotem Post",
-   "body": "Grundig makes his camp at Grimtotem Post, situated further up the mountain road to the west. To avenge Makaba's kin and secure the pass from further violence, travelers must ascend into the stronghold, carve through Darkcloud's inner circle of brutes, and put an end to Grundig himself before his raiding party can descend upon other vulnerable camps.",
+   "body": "Grundig camps at Grimtotem Post, farther up the mountain road to the west. To avenge Makaba's kin and protect the pass from more violence, you climb to the stronghold, fight through Grundig's brutes, and kill him before his raiders can descend on other vulnerable camps.",
    "spoiler": 0
   }
  ],
@@ -41,7 +41,7 @@
     "who is grundig",
     "grimtotem leader"
    ],
-   "answer": "Grundig Darkcloud is a violent Grimtotem commander based out of Grimtotem Post in southeastern Stonetalon Mountains. He directly orchestrated and led the brutal attack that destroyed Makaba Flathoof's village."
+   "answer": "Grundig Darkcloud is a Grimtotem commander at Grimtotem Post in southeastern Stonetalon Mountains. He led the attack that destroyed Makaba Flathoof's village."
   },
   {
    "q": "Where can Grundig Darkcloud be found?",
@@ -50,7 +50,7 @@
     "where is grundig",
     "grimtotem post location"
    ],
-   "answer": "Grundig Darkcloud is located at Grimtotem Post, perched along the mountain trail just up the path to the west of Makaba Flathoof's camp near the Barrens border."
+   "answer": "Grundig Darkcloud is at Grimtotem Post, up the mountain trail to the west of Makaba Flathoof's camp near the Barrens border."
   },
   {
    "q": "What is Makaba Flathoof's motive for this task?",
@@ -59,7 +59,7 @@
     "makaba story",
     "makaba revenge"
    ],
-   "answer": "Makaba watched his home and clanmates slaughtered by the Grimtotem. Having already exacted preliminary vengeance on their ruffians and mercenaries, he asks for the head of the ringleader, Grundig Darkcloud, to bring true closure and retribution."
+   "answer": "Makaba Flathoof saw the Grimtotem slaughter his home and clanmates. After you strike down their ruffians and mercenaries, he asks you to kill their leader, Grundig Darkcloud, for retribution."
   },
   {
    "q": "Why are the Grimtotem attacking peaceful settlements here?",
@@ -67,7 +67,7 @@
     "why grimtotem attack",
     "grimtotem hostility"
    ],
-   "answer": "The Grimtotem clan holds fierce disdain for the other tauren tribes, particularly those who have allied with the Horde or embrace gentler paths. They routinely use ambushes, raiding, and sheer brutality to drive competing clans off lands they wish to dominate."
+   "answer": "The Grimtotem despise other tauren tribes, especially those allied with the Horde or following gentler paths. They use ambushes and raids to drive rival clans from lands they want to control."
   },
   {
    "q": "What comes after killing Grundig Darkcloud?",
@@ -75,7 +75,7 @@
     "what next after grundig",
     "flathoof chain continuation"
    ],
-   "answer": "Killing Grundig Darkcloud and his brutes is the conclusion of Makaba Flathoof's short vengeance chain. With the butcher slain, Makaba can at last mourn his village knowing justice was served."
+   "answer": "After you kill Grundig Darkcloud and his brutes, Makaba Flathoof's vengeance is complete. Makaba can mourn his village knowing justice has been served."
   },
   {
    "q": "What is the prerequisite quest for this task?",
@@ -83,17 +83,17 @@
     "prereq kill grundig",
     "quest before grundig"
    ],
-   "answer": "You must first complete 'Avenge My Village,' in which Makaba Flathoof tests your resolve by having you strike down the Grimtotem ruffians and mercenaries camped just to the west."
+   "answer": "First, complete Avenge My Village, where Makaba Flathoof tests your resolve by sending you against the Grimtotem ruffians and mercenaries camped just to the west."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "The Grimtotem clan continues to sow discord among the tauren people, demonstrating through Grundig's slaughter that unity under the Horde will always be opposed by their cutthroat extremism."
+   "text": "As a tauren, you see how Grundig's slaughter deepens the discord among your people. The Grimtotem oppose unity under the Horde with cutthroat force."
   },
   {
    "target": "faction:Horde",
-   "text": "Stonetalon is vital ground for the Horde's expansion into Kalimdor, and aggressive Grimtotem warlords like Grundig threaten supply routes linking the Barrens to Sun Rock Retreat."
+   "text": "As a member of the Horde, you know Stonetalon matters to your advance into Kalimdor. Warlords like Grundig threaten the supply routes between the Barrens and Sun Rock Retreat."
   }
  ],
  "keywords": [
@@ -113,5 +113,6 @@
  ],
  "attribution": [
   "Kill Grundig Darkcloud"
- ]
+ ],
+ "style": 1
 }

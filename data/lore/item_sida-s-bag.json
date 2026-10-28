@@ -10,16 +10,16 @@
    "quest:470"
   ]
  },
- "summary": "Sida's Bag is the personal satchel of Sida, a resident of Menethil Harbor. Swallowed whole by a creeping ooze during her excursion to Ironbeard's Tomb, the bag and its mysterious contents require a thorough hunt through the acidic slimes of the Wetlands to recover.",
+ "summary": "In the Wetlands, Sida's Bag lies swallowed in an ooze near Ironbeard's Tomb. Sida, a resident of Menethil Harbor, fled after throwing her satchel at one of the slimes during her weekly visit; the bag and its contents must be recovered from the acidic creatures.",
  "sections": [
   {
    "title": "A Panicked Defense",
-   "body": "While paying her regular weekly visit to Ironbeard's Tomb near Dun Modr, Sida found herself ambushed by the dreadful, dripping oozes that infest the area. Panicking in the face of the encroaching sludge, she flung her personal satchel directly at one of the creatures. Rather than driving the beast off, the ooze simply absorbed the bag into its gelatinous body. The distraction bought Sida enough precious moments to flee with her life back to the safety of Menethil Harbor, leaving her possessions trapped inside an unknown slime.",
+   "body": "Sida visits Ironbeard's Tomb near Dun Modr each week. Dreadful, dripping oozes ambushed her there, and panic drove her to fling her satchel at one of them. The ooze absorbed the bag into its body. The distraction gave Sida time to escape alive and return to Menethil Harbor, while her possessions remained trapped inside an unknown slime.",
    "spoiler": 0
   },
   {
    "title": "Recovered from the Slime",
-   "body": "Because the undulating oozes prowling Ironbeard's Tomb\u2014ranging from crimson to monstrous varieties\u2014look largely identical, finding the bag requires cutting down the marsh slimes until the swallowed satchel emerges intact. Despite soaking within acidic digestive muck, the durable sack preserves its contents. Once returned to Sida, she eagerly reclaims her belongings and discards the ruined, slime-coated exterior, offering the washed-out container to whoever braved the marsh on her behalf.",
+   "body": "The oozes around Ironbeard's Tomb range from crimson to monstrous, and look much alike. Sida's Bag can be found by cutting down the marsh slimes until the swallowed satchel emerges intact. Acidic muck has soaked the durable sack, but its contents remain preserved. Sida reclaims her belongings, then discards the ruined, slime-coated exterior and offers the washed-out container to whoever braved the marsh on her behalf.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "why is bag in slime",
     "how did sida lose bag"
    ],
-   "answer": "Sida panicked when she was attacked by dripping slimes during a visit to Ironbeard's Tomb. Desperate to escape, she hurled her satchel at one of the monsters, which immediately engulfed and swallowed it whole."
+   "answer": "Sida panicked when dripping slimes attacked her during a visit to Ironbeard's Tomb. She hurled her satchel at one to escape, and the ooze swallowed it whole."
   },
   {
    "q": "Which oozes carry Sida's Bag?",
@@ -40,7 +40,7 @@
     "what drops sida's bag",
     "which slime has bag"
    ],
-   "answer": "Sida cannot tell the slimes apart, so any of the predatory oozes surrounding Ironbeard's Tomb in the northeastern Wetlands\u2014including Crimson Oozes, Black Oozes, or Monstrous Oozes\u2014might have swallowed it."
+   "answer": "Sida cannot tell the slimes apart, so any predatory ooze around Ironbeard's Tomb in the northeastern Wetlands might have swallowed the bag. Crimson Oozes, Black Oozes, and Monstrous Oozes all prowl there."
   },
   {
    "q": "Why does Sida visit Ironbeard's Tomb?",
@@ -48,7 +48,7 @@
     "sida ironbeard connection",
     "why ironbeard's tomb"
    ],
-   "answer": "Sida makes a weekly trek out from Menethil Harbor to visit the ancient dwarven crypt near Dun Modr, though she keeps the personal reasons behind her routine visits to herself."
+   "answer": "Sida makes a weekly trip from Menethil Harbor to visit the ancient dwarven crypt near Dun Modr. She keeps the personal reasons for these visits to herself."
   },
   {
    "q": "What was inside Sida's bag?",
@@ -56,13 +56,13 @@
     "what does sida take out of the bag",
     "bag contents"
    ],
-   "answer": "Sida quickly empties her recovered items onto the ground and gathers them up without showing what they are, only noting that the contents were far too important to leave dissolving inside an ooze."
+   "answer": "Sida empties her recovered items onto the ground and gathers them without showing what they are. She says only that they were far too important to leave dissolving inside an ooze."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Menethil Harbor's beleaguered refugees and townsfolk rely entirely on passing travelers to handle the predatory horrors creeping in from the flooded Wetlands."
+   "text": "Menethil Harbor's beleaguered refugees and townsfolk rely on passing travelers to face the predatory horrors creeping in from the flooded Wetlands."
   }
  ],
  "keywords": [
@@ -85,5 +85,6 @@
  "attribution": [
   "Sida's Bag",
   "Digging Through the Ooze"
- ]
+ ],
+ "style": 1
 }

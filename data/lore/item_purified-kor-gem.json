@@ -10,16 +10,16 @@
    "quest:1654"
   ]
  },
- "summary": "A Purified Kor Gem is a rare, consecrated crystal required by the weaponsmith Jordan Stilwell outside Ironforge. Once tainted by dark energies, it must be reclaimed from the depths of Kalimdor and cleansed by elven magic before it can be forged into a holy arm of the Light.",
+ "summary": "At Jordan Stilwell’s forge outside Ironforge, a Purified Kor Gem is needed for a weapon of the Light. First, the corrupted stone must be cleansed by elven magic.",
  "sections": [
   {
    "title": "From Corruption to Sanctity",
-   "body": "The stone begins its journey as a Corrupted Kor Gem in the possession of the vile naga lurking within Blackfathom Deeps, deep beneath the coast of Ashenvale. To cleanse the stone of its aquatic, shadowy taint, a paladin must seek out the night elf Thundris Windweaver in Auberdine. Drawing upon arcane and natural arts, Thundris purges the corruption from the stone, transforming it into the radiant Purified Kor Gem. Only in this pristine state is it fit to serve as a conduit for holy power.",
+   "body": "A Corrupted Kor Gem is held by naga in Blackfathom Deeps beneath the coast of Ashenvale. A paladin takes it to Thundris Windweaver, a night elf in Auberdine. Thundris draws on arcane and natural arts to purge the stone’s aquatic and shadowy taint. The cleanse leaves a Purified Kor Gem, fit to channel holy power.",
    "spoiler": 0
   },
   {
    "title": "The Smith's Masterpiece",
-   "body": "Outside Ironforge in the snowy crags of Dun Morogh, the human weaponsmith Jordan Stilwell requires the gem as a key component for forging a masterwork weapon. Having long possessed designs for an armament worthy of the Silver Hand, Stilwell lacked the exotic materials to realize his plans. The Purified Kor Gem, alongside Whitestone Oak Lumber and rare ore, provides the spiritual core necessary to channel the paladin's righteous wrath.",
+   "body": "Jordan Stilwell, a human weaponsmith outside Ironforge, needs the gem to forge a masterwork weapon. He has long held designs for an arm worthy of the Silver Hand, but lacked the rare materials to make it. The Purified Kor Gem, Whitestone Oak Lumber, and rare ore provide the spiritual core for channeling a paladin’s righteous wrath.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "why do i need kor gem",
     "what is kor gem for"
    ],
-   "answer": "It is brought to the blacksmith Jordan Stilwell, stationed outside the gates of Ironforge in Dun Morogh. Stilwell uses the sanctified gem as an essential component in forging a consecrated weapon for a paladin undertaking their trials."
+   "answer": "The gem goes to Jordan Stilwell, the blacksmith outside Ironforge in Dun Morogh. He uses it to forge a consecrated weapon for a paladin undertaking their trials."
   },
   {
    "q": "Where does the gem originate?",
@@ -40,7 +40,7 @@
     "where does kor gem drop",
     "who drops kor gem"
    ],
-   "answer": "The stone originates within the subterranean ruins of Blackfathom Deeps along the coast of Ashenvale, where it is held by the naga as a corrupted artifact."
+   "answer": "Naga hold the corrupted stone in Blackfathom Deeps, beneath the coast of Ashenvale."
   },
   {
    "q": "Who purifies the gem?",
@@ -49,7 +49,7 @@
     "who cleanses kor gem",
     "thundris windweaver kor gem"
    ],
-   "answer": "Thundris Windweaver, an elven scholar residing in the coastal settlement of Auberdine in Darkshore, cleanses the dark energies from the Corrupted Kor Gem, restoring it to a purified state."
+   "answer": "Thundris Windweaver, a night elf in Auberdine, cleanses the Corrupted Kor Gem and restores it to a purified state."
   },
   {
    "q": "Can any adventurer make use of the Purified Kor Gem?",
@@ -57,17 +57,17 @@
     "is kor gem paladin only",
     "can anyone use purified kor gem"
    ],
-   "answer": "The gem is specifically sought by paladins undergoing the Test of Righteousness. Jordan Stilwell reserves his craft for holy warriors who bring him the purified crystal alongside other rare materials."
+   "answer": "Paladins undergoing the Test of Righteousness seek the gem. Jordan Stilwell crafts for holy warriors who bring him the purified crystal and other rare materials."
   }
  ],
  "angles": [
   {
    "target": "class:Paladin",
-   "text": "Acquiring and cleansing this gem proves a paladin's devotion, taking them from the depths of Kalimdor back to Dun Morogh to forge an iconic weapon of the Light."
+   "text": "As a paladin, you prove your devotion by acquiring and cleansing this gem, then carrying it from Kalimdor to Dun Morogh to forge a weapon of the Light."
   },
   {
    "target": "faction:Alliance",
-   "text": "Procuring the purified gem unites efforts across the Alliance, relying on night elven wisdom in Auberdine to empower a human smith working on the slopes of Dun Morogh."
+   "text": "As an Alliance member, you rely on night elven wisdom in Auberdine to aid a human smith working on the slopes of Dun Morogh."
   }
  ],
  "keywords": [
@@ -92,5 +92,6 @@
  "attribution": [
   "Purified Kor Gem",
   "The Test of Righteousness (2)"
- ]
+ ],
+ "style": 1
 }

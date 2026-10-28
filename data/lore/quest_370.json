@@ -22,16 +22,16 @@
    "At War With The Scarlet Crusade (4)"
   ]
  },
- "summary": "Executor Zygand directs Forsaken champions to strike down Captain Perrine and his garrison stationed at a ruined tower southwest of Brill. Using intelligence recovered in Deathknell, the Forsaken aim to push back the zealous crusaders threatening their borders.",
+ "summary": "In Tirisfal, the Forsaken strike at Scarlet Crusade forces threatening their borders. Executor Zygand sends champions after Captain Perrine and his garrison at a ruined tower southwest of Brill, using intelligence taken in Deathknell.",
  "sections": [
   {
    "title": "Intelligence Put to Use",
-   "body": "Documents recovered from the Scarlet Crusade in Deathknell by Executor Arren revealed active troop movements across Tirisfal Glades. Rather than waiting for the fanatics to mount an offensive against the newly fortified town of Brill, Executor Zygand uses this captured intelligence to orchestrate preemptive strikes against their field commanders.",
+   "body": "Executor Arren recovered documents from the Scarlet Crusade in Deathknell, revealing troop movements across Tirisfal Glades. Rather than wait for the fanatics to attack newly fortified Brill, Executor Zygand uses the captured intelligence to strike their field commanders first.",
    "spoiler": 0
   },
   {
    "title": "The Threat at the Ruined Tower",
-   "body": "Stationed at a dilapidated watchtower southwest of Brill, Captain Perrine oversees a contingent of Scarlet Zealots and Missionaries. From this vantage, the Crusade attempts to monitor Forsaken movements and project power deeper into Tirisfal, making Perrine's death crucial to the defense of the Dark Lady's young kingdom.",
+   "body": "Captain Perrine commands Scarlet Zealots and Missionaries from a ruined watchtower southwest of Brill. From there, the Crusade watches Forsaken movements and reaches farther into Tirisfal. Perrine's death matters to the defense of the Dark Lady's young kingdom.",
    "spoiler": 0
   }
  ],
@@ -43,7 +43,7 @@
     "perrine",
     "who is perrine"
    ],
-   "answer": "Captain Perrine is a Scarlet Crusade officer stationed at a ruined watchtower southwest of Brill, tasked with commanding a detachment of Zealots and Missionaries encroaching upon Tirisfal Glades."
+   "answer": "Captain Perrine is a Scarlet Crusade officer at a ruined watchtower southwest of Brill, where he commands a detachment of Zealots and Missionaries pressing into Tirisfal Glades."
   },
   {
    "q": "Where did the Forsaken get information on Captain Perrine?",
@@ -52,7 +52,7 @@
     "arren's documents",
     "scarlet documents deathknell"
    ],
-   "answer": "Executor Arren recovered strategic Crusade documents during the initial defense of Deathknell, which detailed troop assignments and outpost locations, including Perrine's post."
+   "answer": "Executor Arren recovered documents from the Crusade during the defense of Deathknell. They detail troop assignments and outpost locations, including Perrine's post."
   },
   {
    "q": "Why are Scarlet Missionaries and Zealots in Tirisfal?",
@@ -61,7 +61,7 @@
     "scarlet missionaries tirisfal",
     "scarlet zealots"
    ],
-   "answer": "The Scarlet Crusade considers all undead abominations that must be exterminated, regardless of whether they serve the Scourge or the Forsaken. Their missionaries and zealots push deep into Tirisfal to wage a holy war and reclaim Lordaeron for the living."
+   "answer": "The Scarlet Crusade sees all undead as abominations to be exterminated, whether they serve the Scourge or the Forsaken. Its missionaries and zealots push into Tirisfal to wage holy war and reclaim Lordaeron for the living."
   },
   {
    "q": "How does this quest fit into the campaign against the Crusade?",
@@ -69,7 +69,7 @@
     "at war with the scarlet crusade chain",
     "what comes next after perrine"
    ],
-   "answer": "This is the second step in the Tirisfal campaign against the Crusade. Slaying Perrine dismantles their local scouting post before Executor Zygand escalates operations against larger encampments further across the glades."
+   "answer": "This is the second step in the Tirisfal campaign against the Crusade. Perrine's death breaks up a local scouting post before Executor Zygand escalates operations against larger encampments across the glades."
   },
   {
    "q": "Can this quest be done together with anything else nearby?",
@@ -78,7 +78,7 @@
     "quest pairing perrine",
     "brill tower quests"
    ],
-   "answer": "Yes, it pairs directly with Proof of Demise, in which Deathguard Burgess asks for Scarlet Insignia Rings taken from the same crusaders as proof of loyalty to Varimathras and the Dark Lady."
+   "answer": "Yes. Proof of Demise pairs with it: Deathguard Burgess asks for Scarlet Insignia Rings taken from the same crusaders, as proof of loyalty to Varimathras and the Dark Lady."
   },
   {
    "q": "Who is Executor Zygand?",
@@ -86,17 +86,17 @@
     "zygand",
     "executor zygand brill"
    ],
-   "answer": "Executor Zygand is the primary military commander stationed in Brill, responsible for securing Tirisfal Glades and directing strategic offensives on behalf of Sylvanas Windrunner."
+   "answer": "Executor Zygand is the primary military commander stationed in Brill. He secures Tirisfal Glades and directs strategic offensives for Sylvanas Windrunner."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "For the Forsaken, eliminating the Scarlet Crusade is an existential necessity; the zealots draw no distinction between free-willed undead and the Scourge."
+   "text": "For the Forsaken, eliminating the Scarlet Crusade is necessary for their survival. The zealots make no distinction between free-willed undead and the Scourge."
   },
   {
    "target": "faction:Horde",
-   "text": "The Horde's foothold in the Eastern Kingdoms relies on the Forsaken securing Tirisfal Glades against hostile human zealots."
+   "text": "The Horde's foothold in the Eastern Kingdoms depends on the Forsaken securing Tirisfal Glades against hostile human zealots."
   }
  ],
  "keywords": [
@@ -121,5 +121,6 @@
  ],
  "attribution": [
   "At War With The Scarlet Crusade (2)"
- ]
+ ],
+ "style": 1
 }

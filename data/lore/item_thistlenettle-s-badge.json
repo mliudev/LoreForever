@@ -10,16 +10,16 @@
    "quest:167"
   ]
  },
- "summary": "Thistlenettle's Badge is an official insignia of the dwarven Explorers' League, once carried proudly by Foreman Thistlenettle into the depths of the Deadmines. Following a catastrophic cave-in and an invasion of thieves, the token is all that remains to confirm the foreman's tragic fate to his surviving brother in Stormwind.",
+ "summary": "Foreman Thistlenettle's badge is all that remains after the collapse in the Deadmines.",
  "sections": [
   {
    "title": "The Explorers' League in the Deadmines",
-   "body": "Before the Defias Brotherhood locked down Moonbrook and the cavernous tunnels beneath it, dwarven prospectors affiliated with Ironforge's Explorers' League delved into the old gold mines of Westfall. Foreman Thistlenettle and his crew worked deep underground until a sudden tunnel collapse separated the team. While his brother Wilder managed to escape to Stormwind City, the foreman and several laborers remained trapped in the subterranean dark.",
+   "body": "Before the Defias Brotherhood sealed Moonbrook and the tunnels beneath it, dwarven prospectors from Ironforge's Explorers' League worked the old gold mines of Westfall. Foreman Thistlenettle and his crew were deep underground when a tunnel collapsed and split them apart. His brother Wilder escaped to Stormwind City, but the foreman and several laborers were left trapped below.",
    "spoiler": 0
   },
   {
    "title": "A Grim Confirmation",
-   "body": "Rather than finding an honorable burial or an avenue of escape, Foreman Thistlenettle succumbed to the dark perils festering within the unsealed tunnels, rising as a mindless undead monstrosity among the collapsed shafts outside the main foundry. His Explorers' League Badge remained clutched upon his person, serving as the sole irrefutable proof of his death when recovered and delivered to his grieving brother.",
+   "body": "Foreman Thistlenettle died in the unsealed tunnels and rose as mindless undead among the collapsed shafts outside the main foundry. His Explorers' League Badge remained with him. Recovered and brought to his grieving brother, it proves the foreman's death.",
    "spoiler": 1
   }
  ],
@@ -30,7 +30,7 @@
     "who owned thistlenettle badge",
     "thistlenettle badge owner"
    ],
-   "answer": "The badge belonged to Foreman Thistlenettle, a dwarven miner and member of the Explorers' League who was trapped deep underground beneath Westfall during a sudden tunnel collapse."
+   "answer": "The badge belonged to Foreman Thistlenettle, a dwarven miner and member of the Explorers' League. A sudden tunnel collapse trapped him deep underground beneath Westfall."
   },
   {
    "q": "Where is the badge found?",
@@ -39,7 +39,7 @@
     "how to get thistlenettles badge",
     "where to find thistlenettle"
    ],
-   "answer": "It is carried by Foreman Thistlenettle in the monster-infested upper corridors of the Deadmines, outside the main entrance to the Defias stronghold."
+   "answer": "Foreman Thistlenettle carries the badge in the monster-infested upper corridors of the Deadmines, outside the main entrance to the Defias stronghold."
   },
   {
    "q": "Who wants Thistlenettle's Badge?",
@@ -48,7 +48,7 @@
     "who turns in oh brother",
     "wilder thistlenettle location"
    ],
-   "answer": "The badge is brought to Wilder Thistlenettle, the foreman's brother, who currently resides in the Dwarven District of Stormwind City awaiting word of his kin's fate."
+   "answer": "Wilder Thistlenettle wants the badge. He is the foreman's brother and lives in Stormwind City's Dwarven District, awaiting word of his kin's fate."
   },
   {
    "q": "Why were the Thistlenettle brothers in the Deadmines?",
@@ -56,17 +56,17 @@
     "why were dwarves in deadmines",
     "thistlenettle deadmines mission"
    ],
-   "answer": "The brothers were surveying and prospecting the extensive mineral-rich caverns beneath Moonbrook under the auspices of the Explorers' League before hostile thieves and structural collapses ruined their expedition."
+   "answer": "The brothers surveyed and prospected the mineral-rich caverns beneath Moonbrook for the Explorers' League. Hostile thieves and tunnel collapses ruined their expedition."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "Foreman Thistlenettle carried the banner and badge of the Explorers' League into Westfall; reclaiming his badge ensures a fallen son of Ironforge is not forgotten to the dark."
+   "text": "As a dwarf, you know Foreman Thistlenettle carried the Explorers' League badge into Westfall. Recovering it keeps a fallen son of Ironforge from being forgotten."
   },
   {
    "target": "faction:Alliance",
-   "text": "Recovering this insignia brings closure to a grieving dwarf dwelling within Stormwind's Dwarven District."
+   "text": "As an Alliance member, you can bring closure to a grieving dwarf in Stormwind's Dwarven District."
   }
  ],
  "keywords": [
@@ -92,5 +92,6 @@
  "attribution": [
   "Thistlenettle's Badge",
   "Oh Brother. . ."
- ]
+ ],
+ "style": 1
 }

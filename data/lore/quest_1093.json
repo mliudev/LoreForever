@@ -17,16 +17,16 @@
   "wiki": "Super Reaper 6000 (quest)",
   "chain": []
  },
- "summary": "Super Reaper 6000 is a quest offered by the disgruntled goblin tinkerer Ziz Fizziks in the Windshear Crag of the Stonetalon Mountains. Looking to curry favor with his new boss Sputtervalve, Ziz hires adventurers to infiltrate the local Venture Company logging operation and steal the schematic blueprints for a colossal woodcutting machine designed by his rival, the gnome Gerenzo Wrenchwhistle.",
+ "summary": "At Windshear Crag, Ziz Fizziks seeks favor with his new boss, Sputtervalve. He wants the Venture Company’s plans for a great woodcutting machine designed by his rival, Gerenzo Wrenchwhistle.",
  "sections": [
   {
    "title": "Industrial Espionage in Windshear Crag",
-   "body": "The Venture Trading Company has carved an industrial scar straight into the heart of the Stonetalon Mountains, ruthlessly deforesting Windshear Crag. Yet beneath the smog and spinning blades lies petty corporate rivalry. Ziz Fizziks, a goblin engineer recently cast out of the Venture Company's ranks, has found employment with Sputtervalve. Eager to cement his position and show off his value, Ziz seeks to procure the Venture Company's most prized mechanical asset: the blueprints for their massive automated lumber engine, the Super Reaper 6000.",
+   "body": "At Windshear Crag, the Venture Trading Company cuts deep into the Stonetalon Mountains to feed its logging operation. Ziz Fizziks, a goblin engineer recently cast out of the company, now works for Sputtervalve. He hopes to prove his worth to his new boss by taking the plans for the company’s massive automated woodcutting machine, the Super Reaper 6000.",
    "spoiler": 0
   },
   {
    "title": "Goblins vs. Gnomish Engineering",
-   "body": "Part of Ziz's burning resentment stems from pride. The Venture Company, nominally a goblin-dominated syndicate, broke tradition by putting a gnome, Gerenzo Wrenchwhistle, in charge of local engineering efforts. After the schematics are pried from the hands of the Venture Company machine operators, Ziz finds himself exasperated: the overly convoluted, perfectionist design philosophy of gnomish drafting is almost entirely incomprehensible to a goblin engineer used to brute force, cheap parts, and volatile combustion.",
+   "body": "Gerenzo Wrenchwhistle’s appointment as the Venture Company’s local engineering lead rankles Ziz. The company is mostly goblin-run, yet it put a gnome in charge of its engineering. When the Venture Company machine operators’ schematics reach Ziz, their intricate design leaves him frustrated. He is used to brute force, cheap parts, and volatile combustion, and finds Gerenzo’s careful plans hard to understand.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "who is the quest giver",
     "ziz"
    ],
-   "answer": "Ziz Fizziks is a goblin engineer dwelling in the Stonetalon Mountains. Recently fired by the Venture Company, he was quickly recruited by Sputtervalve, an influential associate in the area, and now seeks payback against his former employers."
+   "answer": "Ziz Fizziks is a goblin engineer in the Stonetalon Mountains. The Venture Company recently fired him, and Sputtervalve soon hired him. Now Ziz seeks payback against his former employers."
   },
   {
    "q": "What is the Super Reaper 6000?",
@@ -47,7 +47,7 @@
     "what is the super reaper",
     "what machine is this"
    ],
-   "answer": "The Super Reaper 6000 is an enormous, mechanical woodcutting machine designed by Gerenzo Wrenchwhistle for the Venture Company's logging operations in Windshear Crag."
+   "answer": "The Super Reaper 6000 is a huge mechanical woodcutting machine designed for the Venture Company’s logging operation at Windshear Crag."
   },
   {
    "q": "Who designed the Super Reaper 6000?",
@@ -56,7 +56,7 @@
     "who built the machine",
     "gerenzo wrenchwhistle"
    ],
-   "answer": "It was designed by Gerenzo Wrenchwhistle, a gnome tinkerer hired by the Venture Company, a fact that deeply offends the goblin engineers who used to run the site."
+   "answer": "Gerenzo Wrenchwhistle, a gnome tinkerer hired by the Venture Company, designed the Super Reaper 6000. His appointment deeply offends the goblin engineers who once ran the site."
   },
   {
    "q": "Why does Sputtervalve want the blueprints?",
@@ -64,7 +64,7 @@
     "why steal the plans",
     "sputtervalve blueprints"
    ],
-   "answer": "Sputtervalve wants access to the cutting-edge heavy logging technology developed by the Venture Company, and Ziz Fizziks is eager to provide them to prove his usefulness to his new employer."
+   "answer": "Sputtervalve wants the Venture Company’s heavy logging technology. Ziz hopes to bring him the plans and prove his usefulness to his new employer."
   },
   {
    "q": "Where are the blueprints found?",
@@ -72,7 +72,7 @@
     "where do i find the plans",
     "who drops the blueprints"
    ],
-   "answer": "The schematics are carried by the Venture Company machine operators supervising the harvesting machinery in Windshear Crag."
+   "answer": "Venture Company machine operators carry the schematics as they supervise the harvesting machinery in Windshear Crag."
   },
   {
    "q": "Why does Ziz struggle to read the blueprints once retrieved?",
@@ -80,21 +80,21 @@
     "why cant ziz read the plans",
     "gnome blueprints goblin"
    ],
-   "answer": "Goblin and gnomish engineering philosophies are notoriously incompatible. Ziz finds the meticulous, intricate diagrams of Gerenzo Wrenchwhistle overly confusing and impossible to decipher at a glance."
+   "answer": "Ziz struggles with the plans because goblin and gnomish engineering philosophies differ. Gerenzo Wrenchwhistle’s meticulous diagrams are too confusing for Ziz to decipher at a glance."
   }
  ],
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "This quest highlights the eternal rivalry between goblin pragmatism\u2014explosive, fast, and rough\u2014and gnomish design, which prizes over-engineered complexity and precision."
+   "text": "Goblin engineering favors speed and rough pragmatism; gnomish design prizes precision and complexity. Their rivalry runs deep."
   },
   {
    "target": "race:Gnome",
-   "text": "Ziz expresses utter disbelief that a goblin syndicate would trust a gnome to build their flagship machinery, only to find himself thoroughly baffled by the gnome's technical genius."
+   "text": "As a gnome, you may recognize why Ziz doubts that a goblin syndicate would trust one of your kind with its flagship machinery. Gerenzo’s technical designs leave him baffled."
   },
   {
    "target": "race:NightElf",
-   "text": "The Super Reaper 6000 represents the pinnacle of mortal disregard for nature, clear-cutting ancient trees in Stonetalon to feed the maw of industrial profit."
+   "text": "As a night elf, you see the Super Reaper 6000 cutting ancient trees in Stonetalon to feed industrial profit, a stark sign of mortal disregard for nature."
   }
  ],
  "keywords": [
@@ -118,5 +118,6 @@
  ],
  "attribution": [
   "Super Reaper 6000 (quest)"
- ]
+ ],
+ "style": 1
 }

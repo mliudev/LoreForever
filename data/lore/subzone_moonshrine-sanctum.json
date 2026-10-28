@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Moonshrine Sanctum"
  },
- "summary": "Moonshrine Sanctum is an ancient elven shrine deep within Blackfathom Deeps, now serving as the inner redoubt for the Twilight's Hammer cult. Presided over by Twilight Lord Kelris, the chamber houses a pristine monument to Queen Azshara and directly guards the sealed entrance to Aku'mai's lair.",
+ "summary": "Within Blackfathom Deeps, Twilight's Hammer gathers beneath Queen Azshara's statue. Twilight Lord Kelris watches over the ancient shrine, which guards the sealed way to Aku'mai's lair.",
  "sections": [
   {
    "title": "A Desecrated Temple",
-   "body": "Situated just beyond the flooded Moonshrine Ruins, the Moonshrine Sanctum represents the central hub of cultist activity inside Blackfathom Deeps. Though originally built millennia ago by night elves to honor the moon and their rulers, the hall is now defiled by the Twilight's Hammer. Interestingly, the cultists have carefully maintained the towering effigy of Queen Azshara, seemingly untroubled by its subject. Under the watchful gaze of Twilight Lord Kelris, dark rituals are chanted day and night beneath the cavernous stone ceiling.",
+   "body": "Past the flooded Moonshrine Ruins, cultists gather in the Moonshrine Sanctum, the heart of Twilight's Hammer activity inside Blackfathom Deeps. Night elves built the hall millennia ago to honor the moon and their rulers. Now the cult has defiled it, yet carefully maintains the towering statue of Queen Azshara. Beneath the cavernous stone ceiling, Twilight Lord Kelris watches as the cultists chant dark rituals day and night.",
    "spoiler": 0
   },
   {
    "title": "The Threshold to Aku'mai",
-   "body": "The sanctum acts as the final barricade before Aku'mai's Lair. Heavy double stone doors seal away the monstrous hydra, held fast by ancient warding enchantments. Surrounding Azshara's central statue are four ritual braziers that must be ignited to unravel the seal. Doing so disturbs the slumbering guardians of the shrine\u2014hordes of giant crabs, snapped-jaw turtles, armored makrura, and conjured water elementals bound to defend the sanctum against unwary intruders.",
+   "body": "The sanctum's heavy double stone doors seal Aku'mai's Lair behind ancient wards. Four ritual braziers stand around Azshara's statue; lighting them breaks the seal. The flames also rouse the shrine's guardians: giant crabs, snapped-jaw turtles, armored makrura, and conjured water elementals, all bound to defend the sanctum from intruders.",
    "spoiler": 1
   }
  ],
@@ -28,7 +28,7 @@
     "where is moonshrine sanctum",
     "bfd sanctum"
    ],
-   "answer": "The Moonshrine Sanctum is located deep inside the Blackfathom Deeps dungeon along the Zoram Strand in Ashenvale. It lies just past the flooded Moonshrine Ruins, immediately preceding the lair of the hydra Aku'mai."
+   "answer": "Moonshrine Sanctum lies deep inside Blackfathom Deeps, along the Zoram Strand in Ashenvale. Past the flooded Moonshrine Ruins, it stands just before the lair of Aku'mai the hydra."
   },
   {
    "q": "Who rules over the Moonshrine Sanctum?",
@@ -37,7 +37,7 @@
     "boss of moonshrine sanctum",
     "who runs the sanctum"
    ],
-   "answer": "Twilight Lord Kelris commands the sanctum. He is a formidable sleep-weaving sorcerer of the Twilight's Hammer cult who conducts rituals to honor their ancient void-touched patron."
+   "answer": "Twilight Lord Kelris commands the sanctum. A formidable sorcerer who weaves sleep, he leads Twilight's Hammer rituals in honor of its ancient patron, touched by the void."
   },
   {
    "q": "Why is there an intact statue of Azshara here?",
@@ -46,7 +46,7 @@
     "why statue of azshara",
     "naga statue bfd"
    ],
-   "answer": "The sanctum was originally an ancient elven temple dedicated to Queen Azshara prior to the Great Sundering. The Twilight's Hammer has kept the effigy in good condition, seemingly having no quarrel with the queen it honors."
+   "answer": "Night elves built the sanctum as an ancient temple dedicated to Queen Azshara before the Great Sundering. Twilight's Hammer keeps her statue in good condition and seems to have no quarrel with the queen it honors."
   },
   {
    "q": "How do you open the large doors at the back of the chamber?",
@@ -55,17 +55,17 @@
     "akumai door open",
     "light candles bfd"
    ],
-   "answer": "To unlock the doors leading into Aku'mai's Lair, adventurers must ignite four ritual candles set around the feet of the Azshara statue. Lighting each candle awakens waves of guardian aquatic beasts and water elementals that must be subdued."
+   "answer": "Ignite the four ritual candles around the feet of Azshara's statue to open the doors to Aku'mai's Lair. Each flame awakens waves of guardian aquatic beasts and water elementals that must be subdued."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "Seeing an ancient temple carved by your ancestors in the age before the Sundering perverted into a sacrificial hollow for the Twilight's Hammer and naga is a sickening testament to Ashenvale's encroaching shadows."
+   "text": "As a night elf, you see an ancient temple carved by your ancestors before the Sundering, now turned into a sacrificial hollow for Twilight's Hammer and naga. Ashenvale's shadows reach even here."
   },
   {
    "target": "class:Priest",
-   "text": "The twisted rituals performed by Twilight Lord Kelris in this chamber invert sacred devotions, channeling maddening whispers of the void rather than restorative divine prayer."
+   "text": "As a priest, you hear Twilight Lord Kelris's twisted rituals turn sacred devotion toward maddening whispers of the void, far from restorative divine prayer."
   }
  ],
  "keywords": [
@@ -89,5 +89,6 @@
  ],
  "attribution": [
   "Moonshrine Sanctum"
- ]
+ ],
+ "style": 1
 }

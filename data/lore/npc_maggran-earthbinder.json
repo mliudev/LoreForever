@@ -8,16 +8,16 @@
   "wiki": "Maggran Earthbinder",
   "refs": 4
  },
- "summary": "Maggran Earthbinder is a grizzled tauren veteran appointed by High Chieftain Cairne Bloodhoof to lead the Horde encampment at Sun Rock Retreat. Hardened by a lifetime of brutal conflict, he oversees the defense of the craggy valleys of Stonetalon against ravenous beasts and aggressive harpy covens. Though wearied by countless battles, he remains a steadfast guardian of the settlement.",
+ "summary": "At Sun Rock Retreat, Maggran Earthbinder guards a Horde camp in the Stonetalon Mountains. Cairne Bloodhoof sent the battle-worn tauren to lead its defense against beasts and harpies.",
  "sections": [
   {
    "title": "A Veteran's Haven",
-   "body": "Maggran Earthbinder was sent into the Stonetalon Mountains by High Chieftain Cairne Bloodhoof himself. A veteran of countless skirmishes and bloody campaigns, Maggran admits that age and violence have hardened his heart, stripping away the natural gentleness typical of his people. Sun Rock Retreat was meant to be both an outpost under his steady command and a place of respite, where warm winds and mountain sunshine might soothe his battle-worn spirit.",
+   "body": "High Chieftain Cairne Bloodhoof sent Maggran Earthbinder to the Stonetalon Mountains to lead Sun Rock Retreat. Countless skirmishes and bloody campaigns have hardened his heart, stripping away the gentleness natural to his people. The outpost was also meant to offer him respite, where warm winds and mountain sunshine might ease his battle-worn spirit.",
    "spoiler": 0
   },
   {
    "title": "Threats in the Crags",
-   "body": "Even in Stonetalon, Maggran finds little peace. As overseer of Sun Rock Retreat, he coordinates defense efforts against the Bloodfury harpies nesting in the peaks and marshals fighters to counter predatory perils across the crags. Having once survived an ambush by the giant spider Besseleth herself, Maggran holds no illusions about the deadly wilderness around them and frequently enlists travelers to eliminate deadly regional predators before they overrun the outpost.",
+   "body": "Peace remains scarce in Stonetalon. From Sun Rock Retreat, Maggran coordinates defenses against Bloodfury harpies nesting in the peaks and gathers fighters to face predators across the crags. He once survived an ambush by the giant spider Besseleth, and knows how deadly the wilderness can be. He often enlists travelers to kill regional predators before they overrun the outpost.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "who is maggran",
     "sun rock retreat leader"
    ],
-   "answer": "Maggran Earthbinder is the commanding tauren elder at Sun Rock Retreat in the Stonetalon Mountains. Hardened by countless battles, he was stationed here by Cairne Bloodhoof to watch over the settlement and keep its supply roads and borders secure."
+   "answer": "Maggran Earthbinder commands the tauren at Sun Rock Retreat in the Stonetalon Mountains. Cairne Bloodhoof stationed him there after countless battles to guard the settlement and secure its supply roads and borders."
   },
   {
    "q": "Why was Maggran sent to Sun Rock Retreat?",
@@ -38,7 +38,7 @@
     "maggran background",
     "cairne and maggran"
    ],
-   "answer": "Cairne Bloodhoof appointed him to lead Sun Rock Retreat partly for his seasoned military leadership and partly as a retreat. Maggran's body and soul have been heavily worn by a lifetime of combat, and the quiet mountain sun offers him a measure of healing."
+   "answer": "Cairne Bloodhoof appointed Maggran to lead Sun Rock Retreat for his seasoned military leadership and to give him a place of respite. A lifetime of combat has worn him down, and the quiet mountain sun offers some healing."
   },
   {
    "q": "What threats does Maggran ask adventurers to deal with?",
@@ -47,7 +47,7 @@
     "what does maggran want",
     "harpies stonetalon"
    ],
-   "answer": "Maggran directs defense efforts against the savage Bloodfury harpies infesting the mountains and sends warriors to eliminate the giant spider matriarch Besseleth, a terrifying predator he narrowly escaped earlier in his travels."
+   "answer": "Maggran directs defenses against Bloodfury harpies in the mountains and sends fighters after dangerous regional predators. The giant spider Besseleth is among them, after Maggran narrowly survived an ambush by her."
   },
   {
    "q": "What happened between Maggran and Besseleth?",
@@ -56,7 +56,7 @@
     "spider quest maggran",
     "arachnophobia lore"
    ],
-   "answer": "Maggran was previously bitten by the colossal spider Besseleth. Though he managed to fend her off and escape with his life, he sends capable adventurers to slay the beast so no one else falls victim to her web."
+   "answer": "Maggran survived an ambush by the giant spider Besseleth. He escaped with his life and now sends capable adventurers to kill her before others fall victim to her web."
   },
   {
    "q": "Does Maggran have a role in Thunder Bluff?",
@@ -64,7 +64,7 @@
     "maggran thunder bluff",
     "maggran cairne"
    ],
-   "answer": "Maggran serves directly at the behest of Thunder Bluff's High Chieftain, Cairne Bloodhoof. While stationed out in the field at Sun Rock Retreat, his authority and orders stem straight from the capital."
+   "answer": "Maggran answers to Cairne Bloodhoof, Thunder Bluff's High Chieftain. Though stationed at Sun Rock Retreat, his authority and orders come from the capital."
   },
   {
    "q": "Is Maggran Earthbinder friendly to Alliance players?",
@@ -72,17 +72,17 @@
     "can alliance talk to maggran",
     "maggran hostile"
    ],
-   "answer": "No. Maggran is a staunch leader of the Horde and remains fully hostile to any Alliance adventurers who stumble into Sun Rock Retreat."
+   "answer": "No. Maggran leads the Horde and is hostile to Alliance adventurers who enter Sun Rock Retreat."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "Maggran embodies the heavy toll warfare takes on the shu'halo spirit, serving as a reminder of how conflict can harden even the most grounded children of the Earth Mother."
+   "text": "As a tauren, you can see in Maggran the toll warfare takes on the shu'halo spirit. Conflict can harden even the most grounded children of the Earth Mother."
   },
   {
    "target": "faction:Horde",
-   "text": "For travelers navigating the steep climbs of Stonetalon, Maggran is the primary authority coordinating local Horde patrols and keeping supply routes clear of beasts and harpies."
+   "text": "As a Horde traveler on Stonetalon's steep climbs, you can look to Maggran to coordinate local patrols and keep supply routes clear of beasts and harpies."
   }
  ],
  "keywords": [
@@ -107,5 +107,6 @@
  ],
  "attribution": [
   "Maggran Earthbinder"
- ]
+ ],
+ "style": 1
 }

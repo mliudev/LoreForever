@@ -8,16 +8,16 @@
   "wiki": "Foreman Oslow",
   "refs": 4
  },
- "summary": "Foreman Oslow is Lakeshire's beleaguered master builder, tasked with repairing the ruined Everstill Bridge in the heart of Redridge Mountains. Beset by Blackrock orc artillery and gnoll raiders, his reconstruction efforts have stalled due to lost shipments and sunken equipment. He relies heavily on traveling adventurers to retrieve his gear and secure materials so Lakeshire can reconnect its vital trade route.",
+ "summary": "At Lakeshire, Foreman Oslow struggles to rebuild the Everstill Bridge. Blackrock orcs shattered the crossing, while lost tools and stolen supplies have stalled the work. He needs help recovering his equipment and gathering materials so the town can restore its trade route.",
  "sections": [
   {
    "title": "A Town Cut in Two",
-   "body": "Standing by the fractured masonry of the Everstill Bridge, Foreman Oslow faces an uphill battle. The bridge is the lifeline of Lakeshire, spanning the expanse of Lake Everstill and linking the western roads toward Elwynn to the eastern shores. Blackrock orcs, sweeping down from the crags of Stonewatch, targeted the crossing to cripple the town's logistics and military movement, leaving the settlement splintered and vulnerable.",
+   "body": "Foreman Oslow works beside the broken Everstill Bridge, trying to reconnect Lakeshire. The span crosses Lake Everstill, linking the western roads toward Elwynn with the eastern shore. Blackrock orcs came down from the crags of Stonewatch and struck the crossing to cripple Lakeshire's trade and military movement. With the bridge broken, the town is split and exposed.",
    "spoiler": 0
   },
   {
    "title": "Sunken Steel and Stolen Stone",
-   "body": "Every attempt Oslow makes to rebuild seems plagued by misfortune. When the bridge fell, his replacement tools were shipped overland from Goldshire and loaded onto a lake ferry. Orc catapult crews caught the vessel in their sights, sending his heavy iron toolbox straight to the muddy bed of Lake Everstill. To compound matters, local Redridge gnolls hijacked the caravan of new materials sent from Stormwind, making off with the iron pikes and rivets necessary to raise the arches.",
+   "body": "Foreman Oslow has lost the tools and materials needed for repairs. After the bridge fell, replacement tools traveled overland from Goldshire, then went aboard a lake ferry. Blackrock orc catapults struck the vessel, sending Oslow's heavy iron toolbox to the muddy bed of Lake Everstill. Gnolls in Redridge also seized a caravan of new materials from Stormwind, taking the iron pikes and rivets needed to raise the arches.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "who is oslow",
     "lakeshire builder"
    ],
-   "answer": "Foreman Oslow is a human stonemason and builder stationed in Lakeshire. He is the head craftsman responsible for the maintenance and reconstruction of the Everstill Bridge."
+   "answer": "Foreman Oslow is a human stonemason and builder in Lakeshire. He leads the work to maintain and rebuild the Everstill Bridge."
   },
   {
    "q": "Why is the Everstill Bridge broken?",
@@ -38,7 +38,7 @@
     "who broke lakeshire bridge",
     "everstill bridge destroyed"
    ],
-   "answer": "The Everstill Bridge was shattered by the Blackrock orcs of Redridge Mountains. Destroying the span severed Lakeshire's main thoroughfare, severely weakening the town's defenses and cutting off easy transit between the eastern and western shores."
+   "answer": "Blackrock orcs shattered the Everstill Bridge. Its destruction severed Lakeshire's main route, weakened the town's defenses, and cut easy travel between the eastern and western shores."
   },
   {
    "q": "Where are Oslow's lost tools?",
@@ -47,7 +47,7 @@
     "lost tools location",
     "oslow toolbox"
    ],
-   "answer": "Oslow's heavy toolbox rests at the bottom of Lake Everstill. The boat transporting them from Goldshire was struck and sunk by a Blackrock catapult barrage."
+   "answer": "Oslow's heavy toolbox lies at the bottom of Lake Everstill. A Blackrock catapult barrage struck and sank the boat carrying it from Goldshire."
   },
   {
    "q": "Why hasn't the bridge been repaired yet?",
@@ -55,7 +55,7 @@
     "why is bridge not fixed",
     "lakeshire bridge delay"
    ],
-   "answer": "Between orc catapult fire sinking his tools in the lake and gnolls stealing building supplies from incoming shipments, Oslow lacks the necessary materials and equipment to resume construction without outside help."
+   "answer": "Oslow cannot resume construction because Blackrock orc catapults sank his tools in the lake and gnolls stole building supplies from incoming shipments. He needs outside help to recover equipment and materials."
   },
   {
    "q": "Where did Oslow's supplies come from originally?",
@@ -63,7 +63,7 @@
     "supply wagon origin",
     "where did tools come from"
    ],
-   "answer": "His replacement tools were originally carted in on a wagon from Goldshire in Elwynn Forest before being transferred to a lake ferry to bypass the broken span."
+   "answer": "Oslow's replacement tools came by wagon from Goldshire in Elwynn Forest, then transferred to a lake ferry to bypass the broken bridge."
   },
   {
    "q": "What threats is Oslow dealing with?",
@@ -71,17 +71,17 @@
     "oslow enemies",
     "who attacks the bridge"
    ],
-   "answer": "Oslow faces constant harassment from two fronts: the Blackrock clan orcs entrenched in the nearby heights, whose siege engines bombard the lake, and prowling gnolls who pick off supply convoys."
+   "answer": "Oslow faces Blackrock orcs in the nearby heights, whose siege engines bombard the lake, and prowling gnolls that attack supply convoys."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Lakeshire's severed bridge leaves the eastern frontier exposed, making Oslow's restoration efforts a strategic necessity for securing the Alliance border."
+   "text": "As an Alliance member, you know Lakeshire's broken bridge leaves the eastern frontier exposed. Restoring it is vital to securing the border."
   },
   {
    "target": "profession:Mining",
-   "text": "Oslow relies on raw materials, metalwork, and quarry shipments to rebuild broken masonry, keeping him intimately tied to local mineral deliveries."
+   "text": "As a miner, you know Oslow depends on raw materials, metalwork, and quarry shipments to rebuild the broken masonry."
   }
  ],
  "keywords": [
@@ -106,5 +106,6 @@
  ],
  "attribution": [
   "Foreman Oslow"
- ]
+ ],
+ "style": 1
 }

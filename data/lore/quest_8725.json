@@ -17,16 +17,16 @@
   "wiki": "Riversong the Elder",
   "chain": []
  },
- "summary": "Elder Riversong is an ancestral night elf spirit honored during the Lunar Festival, found resting beneath a quiet shrine in Astranaar. Bathed in a beam of moonlight, she offers quiet wisdom to travelers and directs pilgrims toward other revered ancestors across the lands of Kalimdor.",
+ "summary": "During the Lunar Festival, pilgrims seek Riversong the Elder beneath a shrine in Astranaar. The night elf spirit offers wisdom and points them toward other honored ancestors across Kalimdor.",
  "sections": [
   {
    "title": "A Beacon in Astranaar",
-   "body": "Amid the ancient boughs and wooden walkways of Astranaar, Elder Riversong appears under an open night elf shrine. Marked by a distinct column of celestial light piercing the Ashenvale canopy, her ethereal presence serves as a focal point for participants in the Lunar Festival seeking communion with past generations.",
+   "body": "In Astranaar, Riversong the Elder waits beneath an open night elf shrine. A shaft of light falls through the Ashenvale canopy onto her spirit. During the Lunar Festival, pilgrims gather there to honor those who came before.",
    "spoiler": 0
   },
   {
    "title": "Gazing at the Heavens",
-   "body": "Elder Riversong reminds pilgrims of the ancient night elven tradition of reading truth and mystery in the starry sky. Her words direct travelers to seek wisdom through patience and contemplation, guiding those honoring the season on toward fellow spirits, including Elder Starweave.",
+   "body": "Riversong the Elder recalls how night elves read truth and mystery in the stars. She urges patience and contemplation, then guides pilgrims toward other spirits, including Elder Starweave.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "where is riversong",
     "elder riversong loc"
    ],
-   "answer": "Elder Riversong stands inside the settlement of Astranaar in Ashenvale. She is situated under a small night elf shrine, bathed in a bright beam of starlight descending through the forest canopy."
+   "answer": "You can find Riversong the Elder beneath a small night elf shrine in Astranaar, Ashenvale. A beam of light falls through the forest canopy onto her."
   },
   {
    "q": "What is the purpose of visiting Elder Riversong?",
@@ -46,7 +46,7 @@
     "why visit riversong",
     "what does riversong do"
    ],
-   "answer": "Visiting Elder Riversong is part of honoring the ancestors during the Lunar Festival. Speaking with her grants an ancestral blessing and coins of ancestry, while also offering guidance on locating other elders across Kalimdor."
+   "answer": "Pilgrims honor Riversong the Elder during the Lunar Festival to pay respect to their ancestors. She grants an ancestral blessing and coins of ancestry, and guides them toward other elders across Kalimdor."
   },
   {
    "q": "Which elder does Riversong direct you toward?",
@@ -54,7 +54,7 @@
     "next elder after riversong",
     "who does riversong mention"
    ],
-   "answer": "Elder Riversong points seekers toward Elder Starweave, another honored night elf spirit observing the festival."
+   "answer": "Riversong the Elder directs you toward Elder Starweave, another honored night elf spirit observing the festival."
   },
   {
    "q": "Can Horde players speak to Elder Riversong?",
@@ -62,7 +62,7 @@
     "can horde visit riversong",
     "is riversong alliance only"
    ],
-   "answer": "Because Elder Riversong resides directly inside Astranaar, an Alliance hub, Horde players must contend with town guards and sentinels to approach her, though festival elders themselves do not refuse communion based on faction."
+   "answer": "You can speak with Riversong the Elder as a Horde traveler, though Astranaar's guards and sentinels stand in your way. Festival elders do not refuse communion based on faction."
   },
   {
    "q": "Why is Elder Riversong surrounded by a beam of light?",
@@ -70,7 +70,7 @@
     "why does riversong glow",
     "light on riversong"
    ],
-   "answer": "The shaft of celestial light represents the favor of Elune and the heavens, illuminating every ancestral spirit who manifests during the Lunar Festival."
+   "answer": "The beam of light around Riversong the Elder represents the favor of Elune and the heavens. It illuminates each ancestral spirit who appears during the Lunar Festival."
   },
   {
    "q": "What does Elder Riversong say when honored?",
@@ -78,21 +78,21 @@
     "riversong quote",
     "riversong dialogue"
    ],
-   "answer": "Elder Riversong reflects on the cosmos, observing that the countless stars in the heavens hold answers to earthly mysteries, and asks if the wise and lucky might gaze upward to find truth."
+   "answer": "Riversong the Elder speaks of the countless stars and the answers they hold to earthly mysteries. She asks whether the wise and lucky might gaze upward and find truth."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "For night elves, honoring Elder Riversong beneath an Astranaar shrine is an intimate act of communion with their people's long history under the stars of Ashenvale."
+   "text": "As a night elf, you can honor Riversong the Elder beneath an Astranaar shrine, joining your people's long history beneath Ashenvale's stars."
   },
   {
    "target": "faction:Alliance",
-   "text": "Astranaar is one of the Alliance's primary strongholds in central Kalimdor, making Elder Riversong an easy and welcome visit for Alliance pilgrims during the Lunar Festival."
+   "text": "As an Alliance pilgrim, you can visit Riversong the Elder easily in Astranaar, one of the Alliance's primary strongholds in central Kalimdor."
   },
   {
    "target": "class:Druid",
-   "text": "The Lunar Festival and its celestial elders embody the ancient Cenarion bond with nature, spirits, and the night sky."
+   "text": "As a druid, you can see the Lunar Festival's celestial elders as part of the ancient Cenarion bond with nature, spirits, and the night sky."
   }
  ],
  "keywords": [
@@ -114,5 +114,6 @@
  ],
  "attribution": [
   "Riversong the Elder"
- ]
+ ],
+ "style": 1
 }

@@ -10,11 +10,11 @@
    "quest:233"
   ]
  },
- "summary": "A Stack of Letters is a small bundle of correspondence brought through the mountain pass into Coldridge Valley. Though initially believed to belong entirely to Talin Keeneye, the bundle holds communications meant for multiple scouts stationed in the freezing wilderness.",
+ "summary": "A Stack of Letters has come through the mountain pass into Coldridge Valley. The bundle is meant for scouts stationed in the snowy wilderness.",
  "sections": [
   {
    "title": "Through the Pass",
-   "body": "Reaching remote camps within Dun Morogh's rugged mountains is grueling work, and postal runners often rely on passing travelers to carry mail out of Anvilmar. This bundle of letters arrived through the pass destined for scouts stationed deeper in Coldridge Valley. While thought to be solely for Talin Keeneye at his lakeside camp, sorting through the parcel reveals missives meant for other outposts across the snows, including mountaineer Grelin Whitebeard.",
+   "body": "Mail for Coldridge Valley comes from Anvilmar by way of travelers crossing the pass. The journey to the remote camps in Dun Morogh's mountains is hard, and postal runners rely on travelers to carry letters onward. This bundle is bound for scouts deeper in Coldridge Valley. Talin Keeneye, at his lakeside camp, is thought to be its only recipient until the letters are sorted. Among them is a missive for Grelin Whitebeard, a mountaineer.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "stack of letters contents",
     "who are letters for"
    ],
-   "answer": "The bundle contains personal correspondence and dispatches for dwarves stationed in Coldridge Valley. While thought to be entirely for Talin Keeneye near the frozen lake, sorting through them reveals at least one letter addressed to Grelin Whitebeard."
+   "answer": "The bundle holds personal letters and dispatches for dwarves in Coldridge Valley. Talin Keeneye, at his camp near the frozen lake, is thought to be the only recipient until the letters reveal one addressed to Grelin Whitebeard."
   },
   {
    "q": "Who sends these letters to Coldridge Valley?",
@@ -34,7 +34,7 @@
     "where did the letters come from",
     "who sent the letters"
    ],
-   "answer": "The letters came through the pass leading into Coldridge Valley, arriving at Anvilmar before being handed off to a traveler willing to deliver them down the road."
+   "answer": "The letters came through the pass into Coldridge Valley and reached Anvilmar. From there, a traveler willing to carry them down the road took them onward."
   },
   {
    "q": "Who receives the letters?",
@@ -42,13 +42,13 @@
     "who gets the letters",
     "letter delivery target"
    ],
-   "answer": "The parcel is first handed directly to the dwarf scout Talin Keeneye at his camp by the frozen lake. After looking through the stack, he discovers a letter belonging to Grelin Whitebeard."
+   "answer": "The dwarf scout Talin Keeneye receives the parcel at his camp by the frozen lake. Looking through the stack, he finds a letter for Grelin Whitebeard."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "For young mountaineers starting their journeys in Coldridge Valley, running mail between snowy camps is an early introduction to the harsh roads and scattered watchers guarding Dun Morogh."
+   "text": "As a young mountaineer starting out in Coldridge Valley, carrying mail between snowy camps introduces you to Dun Morogh's harsh roads and scattered watchers."
   }
  ],
  "keywords": [
@@ -68,5 +68,6 @@
  "attribution": [
   "A Stack of Letters",
   "Coldridge Valley Mail Delivery"
- ]
+ ],
+ "style": 1
 }

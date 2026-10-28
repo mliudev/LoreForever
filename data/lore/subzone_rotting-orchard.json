@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Rotting Orchard"
  },
- "summary": "The Rotting Orchard is a blighted, abandoned fruit grove situated in southern Duskwood. Once a source of harvest for the nearby settlement of Darkshire, it has fallen into ruin and is now overrun by ravenous lupine predators known as the Nightbane pack.",
+ "summary": "Rotting Orchard lies in southern Duskwood, where ravenous lupine predators of the Nightbane pack have overrun the abandoned grove. Once it supplied fruit to nearby Darkshire, but now its trees and buildings lie in ruin.",
  "sections": [
   {
    "title": "Den of the Nightbane",
-   "body": "Located east of the ruined Yorgen Farmstead and west of Tranquil Gardens Cemetery, the Rotting Orchard stands as a grim testament to Duskwood's decline. The trees hang heavy with withered, spoiled fruit, while dilapidated barns and outbuildings have been converted into rough encampments by the Nightbane worgen. Nightbane Stalkers prowl the twisted brush, while dark casters known as Shadow Weavers weave their sinister magic amid the decaying timber. The pack answers to the fierce worgen Gutspill and Nefaru, who lair in the nearby mine of Roland's Doom.",
+   "body": "In the Rotting Orchard, Nightbane worgen have made camps among the ruined barns and outbuildings. The orchard lies east of the ruined Yorgen Farmstead and west of Tranquil Gardens Cemetery. Withered fruit hangs from its trees, and Nightbane Stalkers prowl the twisted brush. Nightbane Shadow Weavers practice their dark magic among the decaying timber. The fierce worgen Gutspill and Nefaru lead the pack from their lair in the nearby mine of Roland's Doom.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "who lives in rotting orchard",
     "what is at rotting orchard"
    ],
-   "answer": "The orchard is completely infested by the Nightbane pack, a faction of ravenous worgen. These include cunning prowlers called Nightbane Stalkers, and dark spellcasters known as Nightbane Shadow Weavers."
+   "answer": "Ravenous worgen of the Nightbane pack occupy the orchard. Nightbane Stalkers prowl its brush, while Nightbane Shadow Weavers cast dark spells among the trees and buildings."
   },
   {
    "q": "Where is the Rotting Orchard located in Duskwood?",
@@ -32,7 +32,7 @@
     "where is rotting orchard",
     "how to find rotting orchard"
    ],
-   "answer": "The Rotting Orchard lies in southern Duskwood, southwest of the town of Darkshire. It is nestled right between the ruined Yorgen Farmstead to its west and the Tranquil Gardens Cemetery to its east."
+   "answer": "The Rotting Orchard lies in southern Duskwood, southwest of the town of Darkshire. It sits between the ruined Yorgen Farmstead to the west and Tranquil Gardens Cemetery to the east."
   },
   {
    "q": "Who leads the worgen in this orchard?",
@@ -40,7 +40,7 @@
     "rotting orchard boss",
     "who leads nightbane"
    ],
-   "answer": "The Nightbane worgen here are led by the brutes Gutspill and Nefaru, who make their lair in the mine of Roland's Doom just east of the orchard."
+   "answer": "Gutspill and Nefaru lead the Nightbane worgen from their lair in the mine of Roland's Doom, just east of the orchard."
   },
   {
    "q": "Was this place always overrun by monsters?",
@@ -48,17 +48,17 @@
     "orchard history",
     "why is orchard rotting"
    ],
-   "answer": "No. Like many surrounding homesteads in Duskwood, it was once a productive farm and fruit grove supporting the local human populace before dark curses and supernatural horrors overtook the region and drove the farmers away."
+   "answer": "No. The orchard was once a productive farm and fruit grove that supported the local human populace. Dark curses and supernatural horrors overtook the region and drove the farmers away."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "The encroachment of the Nightbane worgen at the Rotting Orchard poses a direct predatory threat to the fragile security of Darkshire just up the road."
+   "text": "The Nightbane worgen pose a direct predatory threat to the fragile security of Darkshire, just up the road."
   },
   {
    "target": "class:Hunter",
-   "text": "The twisted trees and ruined outbuildings provide prime stalking ground, but the predatory senses and spellcraft of the Nightbane pack make it an ambush waiting to happen."
+   "text": "The twisted trees and ruined outbuildings offer good ground for stalking, but the Nightbane pack's keen senses and spellcraft make every approach dangerous."
   }
  ],
  "keywords": [
@@ -78,5 +78,6 @@
  ],
  "attribution": [
   "Rotting Orchard"
- ]
+ ],
+ "style": 1
 }

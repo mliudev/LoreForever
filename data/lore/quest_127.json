@@ -17,16 +17,16 @@
   "wiki": "Selling Fish",
   "chain": []
  },
- "summary": "Dockmaster Baren manages the bustling pier at Lakeshire, but finding fresh stock for his trade has grown difficult. He pays travelers to haul in spotted sunfish, a prized local staple of Lake Everstill that has become dangerous to gather due to the encroaching murlocs.",
+ "summary": "Dockmaster Baren pays travelers to bring in spotted sunfish from Lake Everstill. The fish are a Lakeshire staple, but murlocs along the shore make them dangerous to gather.",
  "sections": [
   {
    "title": "A Staple of Lake Everstill",
-   "body": "Lake Everstill is known throughout the surrounding lands for its spotted sunfish, a delicate catch that remains in perpetual demand among the townspeople and passing merchants. Yet despite the abundance beneath the lake's surface, the town's supplies regularly run thin. With Lakeshire stretched to its limits under various local threats, even basic commerce requires the help of freelance adventurers.",
+   "body": "Spotted sunfish are a delicate catch prized across the lands around Lake Everstill. Townspeople and passing merchants keep demand high, yet Lakeshire's supplies often run thin despite the fish below the surface. Local threats stretch the town's strength, so even trade in basic goods depends on travelers.",
    "spoiler": 0
   },
   {
    "title": "Trouble on the Shallows",
-   "body": "Normally, local anglers would have little trouble satisfying Dockmaster Baren's orders. However, the rise of aggressive murloc tribes along the shallows and banks has driven ordinary townsfolk away from the water. Travelers looking to fulfill Baren's request must either cast their own lines while watching their backs, or claim the catch directly from the foraging murlocs that plague the shores.",
+   "body": "Anglers nearby could usually meet Dockmaster Baren's orders with ease. Now aggressive murloc tribes haunt the shallows and banks, keeping ordinary townsfolk from the water. You can fish while watching for danger, or take sunfish from the foraging murlocs that trouble the shore.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who is the dockmaster",
     "dockmaster baren"
    ],
-   "answer": "Dockmaster Baren oversees the docks and boat traffic on Lake Everstill in Lakeshire. He manages the town's aquatic trade and relies on capable travelers to help secure fresh fish and clear out threats around the water."
+   "answer": "Dockmaster Baren oversees the docks and boat traffic on Lake Everstill in Lakeshire. He manages the town's water trade and depends on capable travelers to bring in fresh fish and deal with threats around the lake."
   },
   {
    "q": "Why are spotted sunfish in such high demand?",
@@ -47,7 +47,7 @@
     "spotted sunfish lore",
     "why does lakeshire want fish"
    ],
-   "answer": "Lake Everstill is famed for its spotted sunfish, making them a staple delicacy and an important trade good for Lakeshire. Dockmaster Baren's stocks run low because ordinary town anglers cannot safely fish while the lake remains infested with hostiles."
+   "answer": "Spotted sunfish are famed across the lands around Lake Everstill, making them a Lakeshire staple and an important trade good. The town's stocks run low because ordinary anglers cannot fish safely while hostile creatures trouble the lake."
   },
   {
    "q": "How do murlocs end up with the sunfish?",
@@ -56,7 +56,7 @@
     "why do murlocs drop fish",
     "murlocs stealing fish"
    ],
-   "answer": "The murloc tribes along Lake Everstill actively forage and hunt the shallows. When they kill or drive away local fishermen, they gather the fish for their own camps, making their stores ripe for the taking by adventurers who would rather fight than cast a line."
+   "answer": "Murloc tribes along Lake Everstill forage and hunt in the shallows. They kill or drive away local fishermen, then gather fish for their camps, where travelers can take the catch instead of fishing for it."
   },
   {
    "q": "Where can spotted sunfish be found?",
@@ -65,7 +65,7 @@
     "lake everstill fish location",
     "how to get spotted sunfish"
    ],
-   "answer": "Spotted sunfish inhabit the waters of Lake Everstill in Redridge Mountains. They can be reeled in directly with a fishing rod or looted from the murlocs dwelling around the lake's banks and shallows."
+   "answer": "Spotted sunfish live in Lake Everstill in Redridge Mountains. You can catch them with a fishing rod or take them from murlocs along the banks and shallows."
   },
   {
    "q": "How does this quest fit with Murloc Poachers?",
@@ -74,7 +74,7 @@
     "baren other quest",
     "dockmaster quests"
    ],
-   "answer": "Dockmaster Baren offers both tasks simultaneously. Since murlocs prowl the lake and poach its resources, dealing with the poachers naturally overlaps with reclaiming the spotted sunfish they have hauled from the water."
+   "answer": "Dockmaster Baren offers help with the murloc poachers and the sunfish at the same time. Since murlocs prowl the lake and take its fish, dealing with them can also recover the sunfish they have gathered."
   },
   {
    "q": "Is fishing required to help Dockmaster Baren?",
@@ -83,17 +83,17 @@
     "can i do this without fishing pole",
     "fishing required"
    ],
-   "answer": "No, you do not need fishing gear or skill. While angling is a peaceful way to gather spotted sunfish, Dockmaster Baren openly suggests taking them by force from the murloc tribes that hunt the lake."
+   "answer": "You need no fishing gear or skill to help Dockmaster Baren. You can angle for sunfish, or, as Baren openly suggests, take the fish by force from the murloc tribes that hunt the lake."
   }
  ],
  "angles": [
   {
    "target": "profession:Cooking",
-   "text": "Lakeshire's reputation for fine freshwater delicacies like spotted sunfish makes the local waters an enduring point of interest for aspiring cooks."
+   "text": "As a cook, you can look to Lakeshire's waters for spotted sunfish, a freshwater delicacy prized in the town."
   },
   {
    "target": "faction:Alliance",
-   "text": "With the Kingdom of Stormwind offering little military aid to Redridge, even sustaining the local food supply relies on independent Alliance travelers lending a hand."
+   "text": "As an Alliance traveler, you can help sustain Redridge's food supply, since the Kingdom of Stormwind offers little military aid to the region."
   }
  ],
  "keywords": [
@@ -114,5 +114,6 @@
  ],
  "attribution": [
   "Selling Fish"
- ]
+ ],
+ "style": 1
 }

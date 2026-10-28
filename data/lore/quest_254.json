@@ -17,16 +17,16 @@
   "wiki": "Digging Through the Dirt",
   "chain": []
  },
- "summary": "Digging Through the Dirt marks the grim culmination of the hunt for the Embalmer's missing heart in Duskwood. Deep in the ravenous quiet of Raven Hill Cemetery, a disturbed mound of earth conceals a buried horror that refuses to stay dead.",
+ "summary": "You search for the Embalmer’s missing heart in Duskwood at Raven Hill Cemetery. A mound marked Eliza hides a buried horror that will not stay dead.",
  "sections": [
   {
    "title": "A Grave Disturbed",
-   "body": "Amid the countless weathered headstones of Raven Hill Cemetery sits a patch of recently turned, semi-loose soil marked with the name Eliza. While many graves in Duskwood lie desecrated by scavengers or feral ghouls, this earth was placed with deliberate intent. Digging past the topsoil reveals the splintered timber of a buried coffin, sealing away whatever remnant the Embalmer sought to hide away from the light of day.",
+   "body": "At Raven Hill Cemetery, a patch of loose, freshly turned soil bears the name Eliza. Other graves in Duskwood lie open to scavengers or feral ghouls, but someone placed this earth with care. Digging below the topsoil uncovers the splintered boards of a coffin. It seals away the remnant the Embalmer meant to hide from the light of day.",
    "spoiler": 0
   },
   {
    "title": "The Scratching Within",
-   "body": "Beneath the splintered wood lies no resting corpse. Pressing against the lid, one can feel frantic vibrations\u2014the frantic scraping of long, clawed fingers and the hollow clatter of rotting jaws. Abercrombie's morbid experiment, Eliza, stirs violently within her pine prison, the Embalmer's missing heart beating within her breast as she waits for unwary hands to pry open the grave.",
+   "body": "Eliza lies beneath the splintered coffin boards, but she is no resting corpse. The lid shudders with the scrape of clawed fingers and the clatter of rotting jaws. Abercrombie’s experiment stirs inside her pine coffin. The Embalmer’s missing heart beats in her breast as she waits for unwary hands to open the grave.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "who is eliza",
     "eliza grave contents"
    ],
-   "answer": "Buried beneath the dirt is a coffin containing Eliza, an undead monstrosity created by the Embalmer. She has been sealed underground with the Embalmer's own heart placed within her breast."
+   "answer": "A coffin lies beneath the dirt, holding Eliza, an undead creature made by the Embalmer. His heart rests in her breast."
   },
   {
    "q": "Where is this grave located?",
@@ -47,7 +47,7 @@
     "eliza grave location",
     "grave dirt location"
    ],
-   "answer": "Eliza's grave is located within Raven Hill Cemetery in western Duskwood, amid the sea of haunted crypts and roving undead."
+   "answer": "Eliza’s grave lies in Raven Hill Cemetery in western Duskwood, among haunted crypts and roaming undead."
   },
   {
    "q": "Why do you have to dig into the coffin?",
@@ -56,7 +56,7 @@
     "purpose of digging",
     "why open the coffin"
    ],
-   "answer": "You must dig into the grave to confront Eliza and recover the Embalmer's heart, completing the investigation surrounding the Embalmer's twisted machinations."
+   "answer": "You dig into the grave to face Eliza and recover the Embalmer’s heart, ending the search for his foul schemes."
   },
   {
    "q": "What happens when the coffin is opened?",
@@ -65,7 +65,7 @@
     "coffin opened",
     "opening elizas coffin"
    ],
-   "answer": "Opening the coffin unleashes Eliza from her shallow prison, forcing you to destroy the clawing, ravenous ghoul to retrieve the heart locked away inside with her."
+   "answer": "When you open the coffin, Eliza breaks free. You must destroy the clawing ghoul to recover the heart sealed inside with her."
   },
   {
    "q": "Who put Eliza in the ground?",
@@ -73,7 +73,7 @@
     "who buried eliza",
     "who put her there"
    ],
-   "answer": "The Embalmer placed her there, concealing his gruesome creation within the sprawling burial grounds of Raven Hill alongside his prized heart."
+   "answer": "The Embalmer buried Eliza in Raven Hill Cemetery, hiding his creation and prized heart among its graves."
   },
   {
    "q": "Is Eliza an ordinary ghoul?",
@@ -81,21 +81,21 @@
     "what kind of monster is eliza",
     "is eliza a ghoul"
    ],
-   "answer": "Eliza is the Embalmer's own late wife, revived by his dark magic with his heart placed in her breast, far tougher and more deliberate than the mindless ghouls wandering Duskwood's roads."
+   "answer": "Eliza was the Embalmer’s wife, raised by his dark magic with his heart in her breast. She is tougher and more deliberate than the mindless ghouls roaming Duskwood’s roads."
   }
  ],
  "angles": [
   {
    "target": "class:Paladin",
-   "text": "Disturbing fresh graves goes against every funeral rite of the Holy Light, but releasing and destroying the unnatural fiend trapped inside is a necessary act of cleansing."
+   "text": "Disturbing a fresh grave violates the funeral rites of the Holy Light. Releasing and destroying the unnatural fiend within is an act of cleansing."
   },
   {
    "target": "class:Priest",
-   "text": "The sounds of scratching claws and gnashing teeth beneath consecrated soil are an affront to the peaceful repose promised by the Light to the deceased of Duskwood."
+   "text": "Scratching claws and gnashing teeth beneath consecrated soil offend the peaceful rest the Light promises Duskwood’s dead."
   },
   {
    "target": "faction:Alliance",
-   "text": "The Night Watch struggles constantly against the terror spilling out of Raven Hill; rooting out the buried horrors hidden by the Embalmer is vital for Darkshire's safety."
+   "text": "The Night Watch struggles against the terror spilling from Raven Hill. Finding the horrors buried by the Embalmer is vital to Darkshire’s safety."
   }
  ],
  "keywords": [
@@ -115,5 +115,6 @@
  ],
  "attribution": [
   "Digging Through the Dirt"
- ]
+ ],
+ "style": 1
 }
