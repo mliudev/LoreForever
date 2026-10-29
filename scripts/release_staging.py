@@ -730,6 +730,53 @@ def finalize(args):
                      sum(r['bytes'] for r in proof['assets']) if args.legacy else 0, 'legacyPublishedTagRebuild': args.legacy}))
 
 
+def willo_release(args):
+    """A Willo-only release (the public willo.yml, run by scripts/release-willo.sh): the signed Willo-Setup.exe on a
+    release of its own, vX.Y.Z on this repo's commit, never marked Latest (the site's /voices links follow Latest, and
+    the add-on's downloads stay on its own release). Beside it, release-manifest.json as finalize() writes it (Willo's
+    updater reads her row and willoSignature there) and SHA256SUMS.txt. It's a draft until every file checks out."""
+    bound = binding(args)
+    willo = read(args.manifest)
+    proof = {'version': 1, 'binding': bound, 'assets': check_willo(willo, bound, args.signed),
+             'willoSignature': willo['signature'], 'willoOnly': True}
+    title = 'Willo ' + args.tag.removeprefix('v')
+    release = get_release(args.repo, args.tag)
+    if release is None:
+        run('release', 'create', args.tag, '-R', args.repo, '--draft', '--target', args.commit, '--latest=false',
+            '--title', title, '--notes', 'Release preparation in progress.')
+        for wait in (0, 2, 4, 8, 16):   # the list can lag a draft just created (prepare())
+            time.sleep(wait)
+            release = get_release(args.repo, args.tag)
+            if release is not None:
+                break
+        else:
+            raise Failure('Created the draft release, but GitHub does not list it yet; rerun the workflow')
+    elif not release['draft']:
+        # A rerun after the publication went through: only check it's this run's.
+        existing = json.loads(run('release', 'download', args.tag, '-R', args.repo, '-p', 'release-manifest.json', '-O', '-'))
+        if not same_binding(existing.get('binding', {}), bound) or (existing | {'binding': bound}) != proof:
+            raise Failure('Published release ' + args.tag + ' belongs to a different run or Willo build')
+        print(json.dumps({'alreadyPublishedByThisRun': True}))
+        return
+    upload(args.repo, args.tag, locate(args.root, proof['assets'][0]), proof['assets'][0])
+    args.output.mkdir(parents=True, exist_ok=True)
+    manifest, sums = args.output / 'release-manifest.json', args.output / 'SHA256SUMS.txt'
+    write(manifest, proof)
+    rows = proof['assets'] + [row(manifest)]
+    sums.write_text(''.join(r['sha256'] + '  ' + r['name'] + '\n' for r in sorted(rows, key=lambda r: r['name'])))
+    for path in (manifest, sums):
+        upload(args.repo, args.tag, path, row(path))
+    rows.append(row(sums))
+    remote = assets(get_release(args.repo, args.tag))
+    if set(remote) != {r['name'] for r in rows}:
+        raise Failure('Staged asset set differs from complete expected inventory')
+    for r in rows:
+        check_row(remote[r['name']], r)
+    notes = ['--notes-file', str(args.notes)] if args.notes else ['--notes', title + ': fixes for Willo.']
+    run('release', 'edit', args.tag, '-R', args.repo, '--draft=false', '--latest=false', '--title', title, *notes)
+    print(json.dumps({'verifiedAssets': len(rows), 'willoOnly': True}))
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--repo', default=os.environ.get('GH_REPO'))
@@ -776,13 +823,19 @@ def main():
     p.add_argument('--notes', type=Path)
     p.add_argument('--signed', action='store_true')
     p.add_argument('--legacy', action='store_true')
+    p = sub.add_parser('willo-release')
+    p.add_argument('--manifest', type=Path, required=True, help='the willo-manifest proof')
+    p.add_argument('--root', type=Path, action='append', required=True)
+    p.add_argument('--output', type=Path, required=True)
+    p.add_argument('--notes', type=Path)
+    p.add_argument('--signed', action='store_true')
     args = parser.parse_args()
     try:
         if not args.repo or not re.fullmatch(r'[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+', args.repo):
             raise Failure('Require a repository')
         {'prepare': prepare, 'linux-manifest': linux_manifest, 'handover': handover, 'bundle': bundle, 'stage': stage,
          'receive': receive, 'legacy-receive': legacy_receive, 'installer-manifest': installer_manifest,
-         'willo-manifest': willo_manifest, 'finalize': finalize}[args.command](args)
+         'willo-manifest': willo_manifest, 'finalize': finalize, 'willo-release': willo_release}[args.command](args)
     except (Failure, OSError, ValueError, KeyError, TypeError, zipfile.BadZipFile) as error:
         parser.exit(1, 'release-staging: ' + str(error) + '\n')
 
