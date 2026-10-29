@@ -184,7 +184,7 @@ jobs:
         run: |
           $notes = @()
           if ($env:NOTES) { Set-Content -Encoding utf8 dist\notes.md $env:NOTES; $notes = '--notes', 'dist/notes.md' }
-          $signed = @(); if ('${{ vars.SIGNING_PROFILE }}' -ne '') { $signed = '--signed' }
+          $signed = @(); if ('${{ vars.SIGNING_PROFILE }}' -ne '') { $signed = @('--signed') }
           python scripts/release_staging.py --commit "$(git rev-parse HEAD)" willo-release `
             --manifest dist/willo-proof.json --root dist/Willo-Setup.exe --output dist/metadata @notes @signed
           if ($LASTEXITCODE) { exit $LASTEXITCODE }
