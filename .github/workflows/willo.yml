@@ -1,0 +1,191 @@
+# Willo on her own (Mike, 2026-10-28: "decouple willo releases from addon releases"): Willo-Setup.exe, the companion
+# app, built and signed exactly as the Release workflow's willo job does, published as a GitHub release of its own,
+# vX.Y.Z on this repo's main, never marked Latest. Nothing of the add-on: no zip, no Setup.exe, no CurseForge, no
+# language packs, and the add-on's version stays where it is.
+# The maintainer's scripts/release-willo.sh (scripts/release.sh --willo) starts it, waits for it, then moves the site's
+# /download/willo to it (scripts/download_snapshot.py --willo), which is what installed Willos read to update.
+# publish: false builds, signs and test-installs everything and publishes nothing (release-willo.sh --rehearse).
+# The tag comes from the release's publication with this run's own token, which starts no workflow, so the Release
+# workflow never runs for it (and its prepare job would refuse a tag that doesn't match the add-on's .toc anyway).
+name: Willo
+run-name: Willo ${{ inputs.version }}${{ !inputs.publish && ' (rehearsal)' || '' }}
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: "Willo's version, e.g. 0.31.1: newer than the add-on's and the last Willo's"
+        required: true
+      companion_ref:
+        description: "The private repo's commit to build Willo from (40 hex)"
+        required: true
+      notes:
+        description: "The release's notes (Markdown); empty: a line of its own"
+        required: false
+        default: ''
+      publish:
+        description: "Publish the release (off: build, sign and test-install only)"
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+  actions: read
+
+concurrency:
+  group: willo-release
+  cancel-in-progress: false
+
+env:
+  GH_REPO: ${{ github.repository }}
+  TAG: v${{ inputs.version }}
+
+jobs:
+  willo:
+    runs-on: windows-latest
+    # The release environment's signing login (Azure OIDC) and COMPANION_SOURCE_TOKEN, as the Release workflow's.
+    environment: release
+    permissions:
+      id-token: write
+      contents: write
+      actions: read
+    steps:
+      - name: Check the inputs
+        shell: pwsh
+        env:
+          GH_TOKEN: ${{ github.token }}
+          VERSION: ${{ inputs.version }}
+          REF: ${{ inputs.companion_ref }}
+        run: |
+          if ($env:VERSION -notmatch '^\d+\.\d+\.\d+$') { "::error::version must look like 0.31.1, not '$env:VERSION'"; exit 1 }
+          if ($env:REF -notmatch '^[0-9a-f]{40}$') { "::error::companion_ref must be a full commit id"; exit 1 }
+          $draft = gh api "repos/$env:GH_REPO/releases?per_page=30" -q ".[] | select(.tag_name == \"$env:TAG\") | .draft"
+          if ($draft -eq 'false') { "::error::$env:TAG is already a published release"; exit 1 }
+          gh api "repos/$env:GH_REPO/git/ref/tags/$env:TAG" 2>$null | Out-Null
+          if ($LASTEXITCODE -eq 0 -and $draft -ne 'true') { "::error::the tag $env:TAG already exists"; exit 1 }
+          $global:LASTEXITCODE = 0
+      # This commit's release/installer (the wizard's pictures) and the add-on's lore as the last release shipped it
+      # (publish-public.sh only syncs at a release), for the vectors Willo ships with (LOR-613).
+      - uses: actions/checkout@v7
+        with:
+          sparse-checkout: |
+            release/installer
+            addon/LoreForever/Data
+            scripts
+      - name: Check out Willo's source (private, read-only)
+        uses: actions/checkout@v7
+        with:
+          repository: mliudev/lore-forever
+          ref: ${{ inputs.companion_ref }}
+          token: ${{ secrets.COMPANION_SOURCE_TOKEN }}
+          path: companion-src
+          sparse-checkout: |
+            companion
+            data/pronunciation.json
+          sparse-checkout-cone-mode: false
+      - uses: astral-sh/setup-uv@v10.3.0
+      - name: Install Inno Setup
+        shell: pwsh
+        run: |
+          if (-not (Test-Path "${env:ProgramFiles(x86)}\Inno Setup 6\ISCC.exe")) { choco install innosetup -y --no-progress }
+      - name: Azure login
+        if: vars.SIGNING_PROFILE != ''
+        uses: azure/login@v3
+        with:
+          client-id: ${{ vars.AZURE_CLIENT_ID }}
+          tenant-id: ${{ vars.AZURE_TENANT_ID }}
+          subscription-id: ${{ vars.AZURE_SUBSCRIPTION_ID }}
+      - name: Last release's lore vectors
+        continue-on-error: true
+        shell: pwsh
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          $run = gh run list -R $env:GITHUB_REPOSITORY --workflow release.yml --status success -L 1 --json databaseId -q '.[0].databaseId'
+          if ($run) { gh run download $run -R $env:GITHUB_REPOSITORY -n lore-vectors -D "$env:RUNNER_TEMP\lore-seed" }
+      - name: Build Willo
+        shell: pwsh
+        env:
+          LORE_COMPANION_VERSION: ${{ inputs.version }}
+        run: |
+          companion-src\companion\packaging\build.ps1 -Out "$env:RUNNER_TEMP\companion" -Work "$env:RUNNER_TEMP\companion-build" `
+            -Lore addon\LoreForever -LoreSeed "$env:RUNNER_TEMP\lore-seed\lore-vectors.npz"
+      - name: Sign Willo
+        if: vars.SIGNING_PROFILE != ''
+        uses: azure/artifact-signing-action@v2
+        with:
+          endpoint: ${{ vars.SIGNING_ENDPOINT }}
+          signing-account-name: ${{ vars.SIGNING_ACCOUNT }}
+          certificate-profile-name: ${{ vars.SIGNING_PROFILE }}
+          files: ${{ runner.temp }}\companion\LoreForeverCompanion\LoreForeverCompanion.exe
+          file-digest: SHA256
+          timestamp-rfc3161: http://timestamp.acs.microsoft.com
+          timestamp-digest: SHA256
+      - name: Build Willo-Setup.exe
+        shell: pwsh
+        run: |
+          & "${env:ProgramFiles(x86)}\Inno Setup 6\ISCC.exe" /Q "/DAppVersion=${{ inputs.version }}" `
+            "/DCompanionDir=$env:RUNNER_TEMP\companion\LoreForeverCompanion" "/DOutputDir=$PWD\dist" `
+            "/DWizardDir=$PWD\release\installer" companion-src\companion\packaging\Willo.iss
+          if ($LASTEXITCODE) { exit $LASTEXITCODE }
+      - name: Sign Willo-Setup.exe
+        if: vars.SIGNING_PROFILE != ''
+        uses: azure/artifact-signing-action@v2
+        with:
+          endpoint: ${{ vars.SIGNING_ENDPOINT }}
+          signing-account-name: ${{ vars.SIGNING_ACCOUNT }}
+          certificate-profile-name: ${{ vars.SIGNING_PROFILE }}
+          files: ${{ github.workspace }}\dist\Willo-Setup.exe
+          file-digest: SHA256
+          timestamp-rfc3161: http://timestamp.acs.microsoft.com
+          timestamp-digest: SHA256
+      # The Release workflow's willo job's checks: both signatures, and a /QA install into scratch.
+      - name: Check the signatures and test-install
+        shell: pwsh
+        run: |
+          $required = '${{ vars.SIGNING_PROFILE }}' -ne ''
+          $signature = [ordered]@{ required = $required; status = 'not_required'; thumbprint = '' }
+          $scratch = "$env:RUNNER_TEMP\willo-qa"
+          New-Item -ItemType Directory "$scratch\app", "$scratch\wow\_forever_" -Force | Out-Null
+          $installed = Start-Process dist\Willo-Setup.exe -Wait -PassThru -ArgumentList '/QA', '/VERYSILENT', '/SUPPRESSMSGBOXES',
+            "/DIR=$scratch\app", "/GAMEDIR=$scratch\wow", "/LOG=$env:RUNNER_TEMP\willo-qa.log"
+          $app = "$scratch\app\LoreForeverCompanion.exe"
+          if ($installed.ExitCode -or -not (Test-Path $app)) { Get-Content "$env:RUNNER_TEMP\willo-qa.log" -Tail 40; throw "Willo-Setup.exe didn't install" }
+          if (Test-Path "$scratch\app\unins000.exe") { throw "/QA left an uninstaller" }
+          if ($required) {
+            foreach ($file in "dist\Willo-Setup.exe", $app) {
+              $sig = Get-AuthenticodeSignature $file
+              "$(Split-Path -Leaf $file): $($sig.Status); signer: $($sig.SignerCertificate.Subject)"
+              if ($sig.Status -ne 'Valid') { exit 1 }
+            }
+            $signature.status = 'Valid'
+            $signature.thumbprint = (Get-AuthenticodeSignature dist\Willo-Setup.exe).SignerCertificate.Thumbprint
+          }
+          $signature | ConvertTo-Json | Set-Content -Encoding utf8 dist\willo-signature.json
+          "### Willo-Setup.exe ${{ inputs.version }}: {0:N0} MB (mliudev/lore-forever@${{ inputs.companion_ref }})" -f ((Get-Item dist\Willo-Setup.exe).Length / 1MB) >> $env:GITHUB_STEP_SUMMARY
+      - name: Freeze the signed Willo installer
+        shell: pwsh
+        run: |
+          python scripts/release_staging.py --commit "$(git rev-parse HEAD)" willo-manifest `
+            --setup dist/Willo-Setup.exe --signature dist/willo-signature.json --output dist/willo-proof.json
+      - uses: actions/upload-artifact@v7
+        with:
+          name: willo-${{ inputs.version }}-${{ github.run_attempt }}
+          path: |
+            dist/Willo-Setup.exe
+            dist/willo-proof.json
+          compression-level: 0
+      - name: Publish Willo ${{ inputs.version }} on a release of its own (not Latest)
+        if: inputs.publish
+        shell: pwsh
+        env:
+          GH_TOKEN: ${{ github.token }}
+          NOTES: ${{ inputs.notes }}
+        run: |
+          $notes = @()
+          if ($env:NOTES) { Set-Content -Encoding utf8 dist\notes.md $env:NOTES; $notes = '--notes', 'dist/notes.md' }
+          $signed = @(); if ('${{ vars.SIGNING_PROFILE }}' -ne '') { $signed = '--signed' }
+          python scripts/release_staging.py --commit "$(git rev-parse HEAD)" willo-release `
+            --manifest dist/willo-proof.json --root dist/Willo-Setup.exe --output dist/metadata @notes @signed
+          if ($LASTEXITCODE) { exit $LASTEXITCODE }
+          "Published https://github.com/$env:GH_REPO/releases/tag/$env:TAG (not Latest)" >> $env:GITHUB_STEP_SUMMARY
