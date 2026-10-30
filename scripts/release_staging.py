@@ -707,7 +707,7 @@ def finalize(args):
     write(manifest, proof)
     all_rows = proof['assets'] + [row(manifest)]
     sums = args.output / 'SHA256SUMS.txt'
-    sums.write_text(''.join(r['sha256'] + '  ' + r['name'] + '\n' for r in sorted(all_rows, key=lambda r: r['name'])))
+    sums.write_text(''.join(r['sha256'] + '  ' + r['name'] + '\n' for r in sorted(all_rows, key=lambda r: r['name'])), newline='\n')
     for path in (manifest, sums):
         upload(args.repo, args.tag, path, row(path), published=args.legacy)
     all_rows.append(row(sums))
@@ -763,7 +763,7 @@ def willo_release(args):
     manifest, sums = args.output / 'release-manifest.json', args.output / 'SHA256SUMS.txt'
     write(manifest, proof)
     rows = proof['assets'] + [row(manifest)]
-    sums.write_text(''.join(r['sha256'] + '  ' + r['name'] + '\n' for r in sorted(rows, key=lambda r: r['name'])))
+    sums.write_text(''.join(r['sha256'] + '  ' + r['name'] + '\n' for r in sorted(rows, key=lambda r: r['name'])), newline='\n')
     for path in (manifest, sums):
         upload(args.repo, args.tag, path, row(path))
     rows.append(row(sums))
