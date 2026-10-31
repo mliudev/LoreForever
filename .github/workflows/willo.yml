@@ -5,6 +5,8 @@
 # The maintainer's scripts/release-willo.sh (scripts/release.sh --willo) starts it, waits for it, then moves the site's
 # /download/willo to it (scripts/download_snapshot.py --willo), which is what installed Willos read to update.
 # publish: false builds, signs and test-installs everything and publishes nothing (release-willo.sh --rehearse).
+# Willo for Mac (LOR-636) builds beside her, as the Release workflow's willo-mac job does: Willo-mac.dmg goes on the
+# release when that job left a proof, and never holds it up (continue-on-error; the publish job takes what's ready).
 # The tag comes from the release's publication with this run's own token, which starts no workflow, so the Release
 # workflow never runs for it (and its prepare job would refuse a tag that doesn't match the add-on's .toc anyway).
 name: Willo
@@ -175,17 +177,137 @@ jobs:
             dist/Willo-Setup.exe
             dist/willo-proof.json
           compression-level: 0
+
+  # Willo for Mac (LOR-636): as the Release workflow's willo-mac job (its comments there), from the same companion_ref.
+  willo-mac:
+    runs-on: macos-15
+    environment: release
+    continue-on-error: true
+    timeout-minutes: 25
+    permissions:
+      contents: read
+      actions: read
+    outputs:
+      ready: ${{ steps.proof.outputs.ready }}
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          sparse-checkout: scripts
+      - id: go
+        name: The Mac secrets
+        env:
+          COMPANION_SOURCE_TOKEN: ${{ secrets.COMPANION_SOURCE_TOKEN }}
+          MAC_CERT_P12: ${{ secrets.MAC_CERT_P12 }}
+          MAC_CERT_PASSWORD: ${{ secrets.MAC_CERT_PASSWORD }}
+          NOTARY_KEY_P8: ${{ secrets.NOTARY_KEY_P8 }}
+          NOTARY_KEY_ID: ${{ secrets.NOTARY_KEY_ID }}
+          NOTARY_ISSUER_ID: ${{ secrets.NOTARY_ISSUER_ID }}
+        run: |
+          missing=''
+          for s in COMPANION_SOURCE_TOKEN MAC_CERT_P12 MAC_CERT_PASSWORD NOTARY_KEY_P8 NOTARY_KEY_ID NOTARY_ISSUER_ID; do
+            [ -n "${!s}" ] || missing="$missing $s"
+          done
+          if [ -n "$missing" ]; then
+            echo "::warning::No Willo-mac.dmg in this release: the release environment has no$missing"
+            echo "go=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "go=true" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Check out Willo's source (private, read-only)
+        if: steps.go.outputs.go == 'true'
+        uses: actions/checkout@v7
+        with:
+          repository: mliudev/lore-forever
+          ref: ${{ inputs.companion_ref }}
+          token: ${{ secrets.COMPANION_SOURCE_TOKEN }}
+          path: companion-src
+          # The add-on's lore too: the build carries it for a new player's first answers (build-mac.sh seed_lore).
+          sparse-checkout: |
+            companion
+            data/pronunciation.json
+            addon/LoreForever/Data/Index.lua
+            addon/LoreForever/Data/Z_*.lua
+            addon/LoreForever/ModelRaces.lua
+            addon/LoreForever/LoreForever.toc
+          sparse-checkout-cone-mode: false
+      - uses: astral-sh/setup-uv@v10.3.0
+        if: steps.go.outputs.go == 'true'
+      - id: build
+        name: Build, sign, notarize, staple and start Willo-mac.dmg
+        if: steps.go.outputs.go == 'true'
+        env:
+          LORE_COMPANION_VERSION: ${{ inputs.version }}
+          MAC_CERT_P12: ${{ secrets.MAC_CERT_P12 }}
+          MAC_CERT_PASSWORD: ${{ secrets.MAC_CERT_PASSWORD }}
+          NOTARY_KEY_P8: ${{ secrets.NOTARY_KEY_P8 }}
+          NOTARY_KEY_ID: ${{ secrets.NOTARY_KEY_ID }}
+          NOTARY_ISSUER_ID: ${{ secrets.NOTARY_ISSUER_ID }}
+        run: |
+          script=companion-src/companion/packaging/mac-release.sh
+          [ -f "$script" ] || { echo "::warning::Willo's commit has no mac-release.sh yet: no Willo-mac.dmg in this release"; exit 0; }
+          rc=0; bash "$script" --out dist --wait 10 || rc=$?
+          [ "$rc" = 3 ] && exit 0     # Apple still notarizing: a warning (mac-release.sh said so), no .dmg this time
+          [ "$rc" = 0 ] || exit "$rc"
+          echo "built=true" >> "$GITHUB_OUTPUT"
+          echo "### Willo-mac.dmg ${{ inputs.version }}: $(du -h dist/Willo-mac.dmg | cut -f1), notarized and stapled (mliudev/lore-forever@${{ inputs.companion_ref }})" >> "$GITHUB_STEP_SUMMARY"
+      - name: Freeze the notarized Willo for Mac
+        if: steps.build.outputs.built == 'true'
+        run: |
+          python3 scripts/release_staging.py --commit "$(git rev-parse HEAD)" mac-manifest \
+            --dmg dist/Willo-mac.dmg --signature dist/mac-signature.json --output dist/mac-proof.json
+      - uses: actions/upload-artifact@v7
+        if: steps.build.outputs.built == 'true'
+        with:
+          name: mac-${{ inputs.version }}-${{ github.run_attempt }}
+          path: |
+            dist/Willo-mac.dmg
+            dist/mac-proof.json
+          compression-level: 0
+      - id: proof
+        if: steps.build.outputs.built == 'true'
+        run: echo "ready=true" >> "$GITHUB_OUTPUT"
+
+  # The release, once Windows' Willo is signed and test-installed: hers always, the Mac's when its job got that far.
+  publish:
+    needs: [willo, willo-mac]
+    if: ${{ !cancelled() && needs.willo.result == 'success' && inputs.publish }}
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: write
+      actions: read
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          sparse-checkout: scripts
+      # Every attempt's, in folders of their own: a rerun of a failed job reuses the others' (the newest is taken).
+      - uses: actions/download-artifact@v8
+        with:
+          pattern: willo-${{ inputs.version }}-*
+          path: dist/willo
+      - uses: actions/download-artifact@v8
+        if: needs.willo-mac.outputs.ready == 'true'
+        with:
+          pattern: mac-${{ inputs.version }}-*
+          path: dist/mac
       - name: Publish Willo ${{ inputs.version }} on a release of its own (not Latest)
-        if: inputs.publish
-        shell: pwsh
         env:
           GH_TOKEN: ${{ github.token }}
           NOTES: ${{ inputs.notes }}
+          MAC: ${{ needs.willo-mac.outputs.ready }}
         run: |
-          $notes = @()
-          if ($env:NOTES) { Set-Content -Encoding utf8 dist\notes.md $env:NOTES; $notes = '--notes', 'dist/notes.md' }
-          $signed = @(); if ('${{ vars.SIGNING_PROFILE }}' -ne '') { $signed = @('--signed') }
-          python scripts/release_staging.py --commit "$(git rev-parse HEAD)" willo-release `
-            --manifest dist/willo-proof.json --root dist/Willo-Setup.exe --output dist/metadata @notes @signed
-          if ($LASTEXITCODE) { exit $LASTEXITCODE }
-          "Published https://github.com/$env:GH_REPO/releases/tag/$env:TAG (not Latest)" >> $env:GITHUB_STEP_SUMMARY
+          # The newest attempt's folder (willo-0.31.2-2 over -1), or nothing; never a failed pipeline (bash -eo pipefail).
+          newest() { { ls -d "$1"/*-"${{ inputs.version }}"-* 2>/dev/null || true; } | sort -t- -k3 -n | tail -1; }
+          willo="$(newest dist/willo)"
+          [ -n "$willo" ] || { echo "::error::no willo-${{ inputs.version }}-* artifact"; exit 1; }
+          notes=(); signed=(); mac=()
+          if [ -n "$NOTES" ]; then printf '%s\n' "$NOTES" > dist/notes.md; notes=(--notes dist/notes.md); fi
+          if [ '${{ vars.SIGNING_PROFILE }}' != '' ]; then signed=(--signed); fi
+          if [ "$MAC" = true ] && macdir="$(newest dist/mac)" && [ -n "$macdir" ]; then
+            mac=(--mac-manifest "$macdir/mac-proof.json" --root "$macdir/Willo-mac.dmg")
+          else
+            echo "::warning::No Willo-mac.dmg this time (see the willo-mac job): Willo ${{ inputs.version }} goes out without it, and the site keeps the last one."
+          fi
+          python3 scripts/release_staging.py --commit "$(git rev-parse HEAD)" willo-release \
+            --manifest "$willo/willo-proof.json" --root "$willo/Willo-Setup.exe" "${mac[@]}" --output dist/metadata \
+            "${notes[@]}" "${signed[@]}"
+          echo "Published https://github.com/$GH_REPO/releases/tag/$TAG (not Latest)" >> "$GITHUB_STEP_SUMMARY"

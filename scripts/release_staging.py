@@ -29,6 +29,7 @@ ARTIFACT_WORKERS = 6   # artifact entries fetched side by side, each straight fr
 
 
 WILLO = 'Willo-Setup.exe'                  # Willo's own installer: optional, the release never waits on it
+WILLO_MAC = 'Willo-mac.dmg'                # Willo for Mac (LOR-636), signed and notarized: optional the same way
 GITHUB_ASSET_LIMIT = 2 * 1024 ** 3         # GitHub's per-file release asset limit
 
 
@@ -527,7 +528,7 @@ def extract_artifact(repo, artifact_id, output):
 def legacy_receive(args):
     bound = binding(args)
     artifacts = api(args.repo, f'actions/runs/{args.run}/artifacts?per_page=100')['artifacts']
-    for producer in ('linux', 'installer') + (('willo',) if args.willo else ()):
+    for producer in ('linux', 'installer') + (('willo',) if args.willo else ()) + (('mac',) if args.mac else ()):
         proof = read(latest_proof(args.proofs, producer, bound))
         artifact_name = producer + '-payload-' + proof['binding']['runAttempt']
         choices = [a for a in artifacts if a['name'] == artifact_name and not a['expired']]
@@ -583,6 +584,30 @@ def willo_manifest(args):
     write(args.output, proof)
 
 
+def mac_manifest(args):
+    """Willo for Mac (the willo-mac jobs): the signed, notarized, stapled Willo-mac.dmg and what the Mac said of it."""
+    proof = {'version': 1, 'producer': 'mac', 'binding': binding(args), 'assets': [row(args.dmg)],
+             'signature': read(args.signature)}
+    check_mac(proof, proof['binding'])
+    write(args.output, proof)
+
+
+def check_mac(mac, bound):
+    """A .dmg ships only signed with a Developer ID, accepted by Apple's notary, stapled, passed by Gatekeeper and
+    started once on the runner (the job's smoke test): anything less and the release goes out without it."""
+    if mac.get('version') != 1 or mac.get('producer') != 'mac' or not same_binding(mac['binding'], bound):
+        raise Failure('Invalid Willo for Mac proof')
+    if [r['name'] for r in mac['assets']] != [WILLO_MAC]:
+        raise Failure('Willo for Mac producer asset set differs')
+    if not 0 < mac['assets'][0]['bytes'] < GITHUB_ASSET_LIMIT:
+        raise Failure(WILLO_MAC + ' is over GitHub\'s release asset limit')
+    sig = mac.get('signature') or {}
+    if not (str(sig.get('authority', '')).startswith('Developer ID Application: ') and sig.get('notarization') == 'Accepted'
+            and sig.get('stapled') is True and sig.get('gatekeeper') == 'Notarized Developer ID' and sig.get('launched') is True):
+        raise Failure('Required Willo for Mac signing, notarization or launch evidence is missing')
+    return mac['assets']
+
+
 def check_signature(sig, signed, what):
     if sig.get('required') is not signed or (signed and (sig.get('status') != 'Valid' or not sig.get('thumbprint'))):
         raise Failure('Required ' + what + ' signature evidence is missing')
@@ -599,7 +624,7 @@ def check_willo(willo, bound, signed):
     return willo['assets']
 
 
-def combined(linux, installer, bound, signed, willo=None):
+def combined(linux, installer, bound, signed, willo=None, mac=None):
     if linux.get('version') != 1 or installer.get('version') != 1 or linux['producer'] != 'linux' or installer['producer'] != 'installer':
         raise Failure('Invalid producer proof')
     if not same_binding(linux['binding'], bound) or not same_binding(installer['binding'], bound):
@@ -611,7 +636,8 @@ def combined(linux, installer, bound, signed, willo=None):
     expected = {s: 'passed' if available else 'unavailable' for s, available in linux['smokeSelections'].items()}
     if installer['smoke'] != expected or expected.get('base') != 'passed':
         raise Failure('Installer smoke evidence is incomplete')
-    rows = linux['assets'] + installer['assets'] + (check_willo(willo, bound, signed) if willo else [])
+    rows = (linux['assets'] + installer['assets'] + (check_willo(willo, bound, signed) if willo else [])
+            + (check_mac(mac, bound) if mac else []))
     names = [name(r['name']) for r in rows]
     if len(set(names)) != len(names) or not {'LoreForever.zip', 'LoreForever-Setup.exe', 'transport-downloads.json'} <= set(names):
         raise Failure('Required assets are missing or duplicated')
@@ -626,6 +652,8 @@ def combined(linux, installer, bound, signed, willo=None):
               'signature': sig, 'smoke': installer['smoke'], 'curseforge': linux['curseforge']}
     if willo:
         result['willoSignature'] = willo['signature']
+    if mac:
+        result['macSignature'] = mac['signature']
     return result
 
 
@@ -651,21 +679,28 @@ def finalize(args):
         args.installer = latest_proof(args.proofs, 'installer', bound)
         if args.willo:
             args.willo_proof = latest_proof(args.proofs, 'willo', bound)
+        if args.mac:
+            args.mac_proof = latest_proof(args.proofs, 'mac', bound)
     if not args.linux or not args.installer:
         raise Failure('Require both producer proofs')
     if args.willo and not args.willo_proof:
         raise Failure('Require the Willo proof')
+    if args.mac and not args.mac_proof:
+        raise Failure('Require the Willo for Mac proof')
     willo = read(args.willo_proof) if args.willo else None
-    proof = combined(read(args.linux), read(args.installer), bound, args.signed, willo)
+    mac = read(args.mac_proof) if args.mac else None
+    proof = combined(read(args.linux), read(args.installer), bound, args.signed, willo, mac)
     release = get_release(args.repo, args.tag)
     if release is None:
         raise Failure('Final promotion requires the prepared release')
-    if not willo and WILLO in assets(release):
-        # The willo job uploads before it leaves its proof; without a proof the upload isn't trusted. A draft just
+    for optional, job, included in ((WILLO, 'willo', willo), (WILLO_MAC, 'willo-mac', mac)):
+        if included or optional not in assets(release):
+            continue
+        # Willo's jobs upload before they leave their proof; without a proof the upload isn't trusted. A draft just
         # loses it (the site keeps serving the last good one); a published release's is never removed here.
         if not release['draft']:
-            raise Failure('Published release has ' + WILLO + ' but this run has no Willo proof; rerun with the willo job')
-        run('release', 'delete-asset', args.tag, WILLO, '-R', args.repo, '--yes')
+            raise Failure('Published release has ' + optional + ' but this run has no proof of it; rerun with the ' + job + ' job')
+        run('release', 'delete-asset', args.tag, optional, '-R', args.repo, '--yes')
         release = get_release(args.repo, args.tag)
     if not release['draft'] and not args.legacy:
         # A publication response can be lost after promotion. A final-job retry only verifies it;
@@ -739,6 +774,10 @@ def willo_release(args):
     willo = read(args.manifest)
     proof = {'version': 1, 'binding': bound, 'assets': check_willo(willo, bound, args.signed),
              'willoSignature': willo['signature'], 'willoOnly': True}
+    if args.mac_manifest:   # Willo for Mac, when its job got that far: optional, as on an add-on release
+        mac = read(args.mac_manifest)
+        proof['assets'] = proof['assets'] + check_mac(mac, bound)
+        proof['macSignature'] = mac['signature']
     title = 'Willo ' + args.tag.removeprefix('v')
     release = get_release(args.repo, args.tag)
     if release is None:
@@ -758,7 +797,11 @@ def willo_release(args):
             raise Failure('Published release ' + args.tag + ' belongs to a different run or Willo build')
         print(json.dumps({'alreadyPublishedByThisRun': True}))
         return
-    upload(args.repo, args.tag, locate(args.root, proof['assets'][0]), proof['assets'][0])
+    remote = assets(get_release(args.repo, args.tag))
+    if WILLO_MAC in remote and not args.mac_manifest:   # an earlier attempt's, unproven in this one: not shipped
+        run('release', 'delete-asset', args.tag, WILLO_MAC, '-R', args.repo, '--yes')
+    for r in proof['assets']:
+        upload(args.repo, args.tag, locate(args.root, r), r)
     args.output.mkdir(parents=True, exist_ok=True)
     manifest, sums = args.output / 'release-manifest.json', args.output / 'SHA256SUMS.txt'
     write(manifest, proof)
@@ -810,14 +853,19 @@ def main():
     p = sub.add_parser('willo-manifest')
     for key in ('setup', 'signature', 'output'):
         p.add_argument('--' + key, type=Path, required=True)
+    p = sub.add_parser('mac-manifest')
+    for key in ('dmg', 'signature', 'output'):
+        p.add_argument('--' + key, type=Path, required=True)
     p = sub.add_parser('legacy-receive')
     p.add_argument('--proofs', type=Path, required=True)
     p.add_argument('--output', type=Path, required=True)
     p.add_argument('--willo', action='store_true', help="also Willo's payload (the willo job succeeded)")
+    p.add_argument('--mac', action='store_true', help="also Willo for Mac's payload (its job left a proof)")
     p = sub.add_parser('finalize')
-    for key in ('linux', 'installer', 'proofs', 'willo-proof'):
+    for key in ('linux', 'installer', 'proofs', 'willo-proof', 'mac-proof'):
         p.add_argument('--' + key, type=Path)
     p.add_argument('--willo', action='store_true', help="include Willo-Setup.exe (the willo job succeeded)")
+    p.add_argument('--mac', action='store_true', help="include Willo-mac.dmg (the willo-mac job left a proof)")
     p.add_argument('--output', type=Path, required=True)
     p.add_argument('--root', type=Path, action='append', default=[])
     p.add_argument('--notes', type=Path)
@@ -825,6 +873,7 @@ def main():
     p.add_argument('--legacy', action='store_true')
     p = sub.add_parser('willo-release')
     p.add_argument('--manifest', type=Path, required=True, help='the willo-manifest proof')
+    p.add_argument('--mac-manifest', type=Path, help="the mac-manifest proof, when Willo for Mac's job left one")
     p.add_argument('--root', type=Path, action='append', required=True)
     p.add_argument('--output', type=Path, required=True)
     p.add_argument('--notes', type=Path)
@@ -835,7 +884,7 @@ def main():
             raise Failure('Require a repository')
         {'prepare': prepare, 'linux-manifest': linux_manifest, 'handover': handover, 'bundle': bundle, 'stage': stage,
          'receive': receive, 'legacy-receive': legacy_receive, 'installer-manifest': installer_manifest,
-         'willo-manifest': willo_manifest, 'finalize': finalize, 'willo-release': willo_release}[args.command](args)
+         'willo-manifest': willo_manifest, 'mac-manifest': mac_manifest, 'finalize': finalize, 'willo-release': willo_release}[args.command](args)
     except (Failure, OSError, ValueError, KeyError, TypeError, zipfile.BadZipFile) as error:
         parser.exit(1, 'release-staging: ' + str(error) + '\n')
 
