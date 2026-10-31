@@ -296,7 +296,13 @@ jobs:
           MAC: ${{ needs.willo-mac.outputs.ready }}
         run: |
           # The newest attempt's folder (willo-0.31.2-2 over -1), or nothing; never a failed pipeline (bash -eo pipefail).
-          newest() { { ls -d "$1"/*-"${{ inputs.version }}"-* 2>/dev/null || true; } | sort -t- -k3 -n | tail -1; }
+          # download-artifact puts a lone match straight into the path, with no folder of its own (10/31, 0.34.0's first
+          # publish: "no willo-0.34.0-* artifact" beside a downloaded willo-0.34.0-1), so then the path is the folder.
+          newest() {
+            local d; d="$({ ls -d "$1"/*-"${{ inputs.version }}"-* 2>/dev/null || true; } | sort -t- -k3 -n | tail -1)"
+            if [ -z "$d" ] && [ -n "$(ls -A "$1" 2>/dev/null)" ]; then d="$1"; fi
+            echo "$d"
+          }
           willo="$(newest dist/willo)"
           [ -n "$willo" ] || { echo "::error::no willo-${{ inputs.version }}-* artifact"; exit 1; }
           notes=(); signed=(); mac=()
