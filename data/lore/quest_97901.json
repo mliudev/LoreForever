@@ -11,11 +11,11 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "You can craft an Enchanted Lute, but townsfolk dislike camps in town centers. A campfire is needed to set up camp in the wilderness.",
+ "summary": "You can make an Enchanted Lute, but townsfolk dislike camps in town centers. To set up camp in the wilderness, you need a fire.",
  "sections": [
   {
    "title": "A Campfire First",
-   "body": "You can make a fire the basis of your camp. Most cooks can teach you how, so seek a cooking trainer if you have not learned the basics.",
+   "body": "A campfire gives you the basis for your camp. Most cooks can show you how to make one, so seek a cooking trainer if you have not learned the basics.",
    "spoiler": 0
   }
  ],
@@ -36,7 +36,7 @@
     "camping spot",
     "try the lute"
    ],
-   "answer": "You need to head into the wilderness to try it out, since most folks dislike camps in the center of town."
+   "answer": "You need to head into the wilderness to try it out. Most folks dislike camps in town centers."
   },
   {
    "q": "Why do I need a campfire?",
@@ -45,7 +45,7 @@
     "camp fire",
     "camping fire"
    ],
-   "answer": "A campfire is needed as the basis of your camp."
+   "answer": "Your camp begins with a campfire."
   },
   {
    "q": "Who can teach me to make a fire?",
@@ -54,13 +54,13 @@
     "cooking trainer",
     "make campfire"
    ],
-   "answer": "Most cooks can teach you to make a fire. Check with someone who trains cooks if you have not learned the basics."
+   "answer": "Most cooks can teach you to make a fire. Ask a cooking trainer if you have not learned the basics."
   }
  ],
  "angles": [
   {
    "target": "profession:Cooking",
-   "text": "As a cook, you can teach others to make the fire needed as the basis of a camp."
+   "text": "As a cook, you can teach others to make a fire for the basis of a camp."
   }
  ],
  "keywords": [
@@ -72,7 +72,7 @@
   "wilderness"
  ],
  "related": [],
- "style": 1,
+ "style": 2,
  "attribution": [
   "In-game quest text: Camping 101: Enchanting"
  ]

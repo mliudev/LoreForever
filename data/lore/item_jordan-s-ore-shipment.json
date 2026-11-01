@@ -10,11 +10,11 @@
    "quest:1655"
   ]
  },
- "summary": "Mo'grosh ogres hold Jordan's Ore Shipment in the northeastern hills of Loch Modan. The ore came by caravan from the Wetlands for Bailor Stonehand to refine into an alloy for the smith Jordan Stilwell.",
+ "summary": "In the northeastern hills of Loch Modan, Mo'grosh ogres hold Jordan's Ore Shipment. The ore came by caravan from the Wetlands for Bailor Stonehand to refine into an alloy for the smith Jordan Stilwell.",
  "sections": [
   {
    "title": "An Ambushed Delivery",
-   "body": "Jordan Stilwell's ore shipment was bound for Bailor Stonehand, a dwarf who would refine it into his special alloy. The caravan carried the ore south through the mountains from the Wetlands into Loch Modan when Mo'grosh ogres ambushed it. The ogres dragged the shipment to their stronghold in the wilderness. The surviving guards perished from their wounds, and Jordan's smithing project waits until the ore is recovered.",
+   "body": "Jordan Stilwell's ore was bound for Bailor Stonehand, a dwarf who would refine it into his special alloy. The caravan carried it south through the mountains from the Wetlands into Loch Modan. Then Mo'grosh ogres ambushed the travelers and dragged the shipment to their stronghold in the wilderness. The surviving guards died of their wounds, and Jordan's smithing project waits for the ore's return.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "what ore is this",
     "jordan ore contents"
    ],
-   "answer": "The shipment holds ore for Bailor Stonehand to refine into his special alloy for the smith Jordan Stilwell's metalwork in Ironforge."
+   "answer": "The shipment holds ore for Bailor Stonehand to refine into his special alloy. Jordan Stilwell needs it for his metalwork in Ironforge."
   },
   {
    "q": "Who stole Jordan's Ore Shipment?",
@@ -35,7 +35,7 @@
     "who stole it",
     "ogres ore shipment"
    ],
-   "answer": "Mo'grosh ogres ambushed the caravan as it traveled south from the Wetlands, slaughtered the escorts, and hauled the crates to their territory northeast of the Loch."
+   "answer": "Mo'grosh ogres ambushed the caravan as it traveled south from the Wetlands. They slaughtered the escorts and hauled the crates to their territory northeast of the Loch."
   },
   {
    "q": "Who is Bailor Stonehand?",
@@ -43,7 +43,7 @@
     "bailor stonehand",
     "who is bailor"
    ],
-   "answer": "Bailor Stonehand is a dwarven craftsman stationed in Loch Modan and an old friend of Jordan Stilwell. He arranged the shipment of alloy before ogres overran it."
+   "answer": "Bailor Stonehand is a dwarven craftsman stationed in Loch Modan and an old friend of Jordan Stilwell. He arranged the alloy shipment before ogres overran it."
   },
   {
    "q": "Why is this shipment important to paladins?",
@@ -58,7 +58,7 @@
  "angles": [
   {
    "target": "class:Paladin",
-   "text": "As a paladin, recovering the stolen alloy from the Mo'grosh ogres is a vital step in Jordan Stilwell's commission and proves your dedication during the Test of Righteousness."
+   "text": "As a paladin, recovering the stolen alloy from the Mo'grosh ogres is a vital step in Jordan Stilwell's commission. It proves your dedication during the Test of Righteousness."
   },
   {
    "target": "profession:Blacksmithing",
@@ -87,5 +87,5 @@
   "Jordan's Ore Shipment",
   "Bailor's Ore Shipment"
  ],
- "style": 1
+ "style": 2
 }

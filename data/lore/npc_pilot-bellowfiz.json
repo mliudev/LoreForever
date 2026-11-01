@@ -8,11 +8,11 @@
   "wiki": "Pilot Bellowfiz",
   "refs": 2
  },
- "summary": "At Steelgrill's Depot, Pilot Bellowfiz keeps a dwarven siege engine ready for battle. Known as “Fizzer,” he belongs to the Ironforge Siege Brigade and tends Jetsteam.",
+ "summary": "At Steelgrill's Depot, Pilot Bellowfiz keeps Ironforge's war machine ready. The Siege Brigade calls him “Fizzer,” and he tends Jetsteam, the heavy dwarven machine he pilots.",
  "sections": [
   {
    "title": "Master of the Jetsteam",
-   "body": "At Steelgrill's Depot, Pilot Bellowfiz keeps Jetsteam ready for battle. The depot lies just outside Ironforge, where he tends the heavy war machine he pilots. He tunes its parts and gathers what it needs for the field. Fellow driver Pilot Stonegear joins him in talk of vehicle designs, armor plating, and engine output. Their work keeps the mountain kingdom's mechanized strength ready across Khaz Modan.",
+   "body": "Just outside Ironforge, Bellowfiz tunes Jetsteam and gathers what the machine needs in the field. Pilot Stonegear, his fellow driver, joins him in debating vehicle designs, armor plating, and engine output. Their work keeps Khaz Modan's mechanized strength ready across the kingdom.",
    "spoiler": 0
   }
  ],
@@ -33,7 +33,7 @@
     "jetsteam",
     "what siege engine does bellowfiz pilot"
    ],
-   "answer": "Bellowfiz pilots a dwarven siege engine named Jetsteam. Before a long Siege Brigade journey, he stocks it with a month's supplies, including boar meat and bear fur. He keeps Rejold Barleybrew's Evershine on hand to throw into its furnace for a burst of power."
+   "answer": "Bellowfiz pilots Jetsteam, a dwarven siege engine. Before a long Siege Brigade journey, he stocks it with a month's supplies, including boar meat and bear fur. He keeps Rejold Barleybrew's Evershine on hand to throw into its furnace for a burst of power."
   },
   {
    "q": "Where can Pilot Bellowfiz be found?",
@@ -56,11 +56,11 @@
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "As a dwarf or gnome tinkerer, you can see field engineering in Bellowfiz's work: he keeps powerful siege engines running in freezing mountain weather."
+   "text": "As a dwarf or gnome tinkerer, you can see field engineering in Bellowfiz's work. He keeps powerful siege engines running in freezing mountain weather."
   },
   {
    "target": "race:Dwarf",
-   "text": "As a dwarf, you can take pride in Ironforge's mechanized brigades and the engineering skill and heavy firepower guarding Khaz Modan."
+   "text": "As a dwarf, you can take pride in Ironforge's mechanized brigades. Their engineering skill and heavy firepower guard Khaz Modan."
   }
  ],
  "keywords": [
@@ -86,5 +86,5 @@
  "attribution": [
   "Pilot Bellowfiz"
  ],
- "style": 1
+ "style": 2
 }

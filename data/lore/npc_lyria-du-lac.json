@@ -8,11 +8,11 @@
   "wiki": "Lyria Du Lac",
   "refs": 1
  },
- "summary": "In Goldshire, Lyria Du Lac trains young warriors behind the village smithy. She teaches them to master their stances and arms.",
+ "summary": "In Goldshire, Lyria Du Lac trains young warriors behind the village smithy. She guides them as they master their stances and arms.",
  "sections": [
   {
    "title": "Warrior Trainer of Goldshire",
-   "body": "Lyria Du Lac trains young warriors in the yard behind Goldshire's forge. She teaches those fresh from Northshire Abbey, judges their readiness, and introduces specialized combat techniques. Warriors take up shield and blade for Stormwind, facing the threats of Elwynn Forest.",
+   "body": "Behind Goldshire's forge, Lyria Du Lac trains warriors fresh from Northshire Abbey. She judges when they are ready and teaches them specialized combat techniques. Those who take up shield and blade for Stormwind must face the dangers of Elwynn Forest.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "where is lyria",
     "warrior trainer goldshire"
    ],
-   "answer": "In Goldshire, find Lyria Du Lac outside behind the blacksmith shop, just west of the Lion's Pride Inn."
+   "answer": "In Goldshire, find Lyria Du Lac behind the blacksmith shop, just west of the Lion's Pride Inn."
   },
   {
    "q": "What service does Lyria Du Lac provide?",
@@ -33,7 +33,7 @@
     "lyria du lac role",
     "what does lyria teach"
    ],
-   "answer": "Lyria Du Lac trains warriors in combat maneuvers, stances, and battle disciplines as they advance in skill."
+   "answer": "Lyria Du Lac teaches warriors combat maneuvers, stances, and battle disciplines as their skill grows."
   },
   {
    "q": "What quests involve Lyria Du Lac?",
@@ -70,5 +70,5 @@
  "attribution": [
   "Lyria Du Lac"
  ],
- "style": 1
+ "style": 2
 }

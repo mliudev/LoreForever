@@ -8,16 +8,16 @@
   "wiki": "Tharek Blackstone",
   "refs": 1
  },
- "summary": "In Kharanos, Tharek Blackstone keeps dwarven tools flowing to local craftsmen. Beldin Steelgrill at Steelgrill's Depot is his main customer, and Tharek also helps travelers find work around town.",
+ "summary": "At the forge in Kharanos, Tharek Blackstone makes and repairs tools for local craftsmen. His trade keeps him busy, so he hires travelers to carry finished crates to Beldin Steelgrill at Steelgrill's Depot.",
  "sections": [
   {
    "title": "A Busy Toolsmith in Kharanos",
-   "body": "Tharek Blackstone keeps his forge busy in Kharanos, repairing gear and making tools for local workers. His main customer is Beldin Steelgrill, whose mechanostrider depot just outside town needs a steady supply of heavy wrenches, gears, and replacement tools. Tharek hires passing travelers to carry finished crates to the depot, so he can keep up with the work at his forge.",
+   "body": "Beldin's mechanostrider depot just outside town needs heavy wrenches, gears, and replacement tools. Tharek sends each crate there with a passing traveler, keeping deliveries moving while he stays at the forge. Craftsmen across Kharanos also rely on the tools he makes and repairs.",
    "spoiler": 0
   },
   {
    "title": "A Community Figure",
-   "body": "Tharek has earned the respect of people across Dun Morogh through his work at the anvil. He holds no formal military title, but people in town turn to him for odd jobs, supply runs, and help coordinating local efforts.",
+   "body": "Tharek has earned respect across Dun Morogh through his work at the anvil. He holds no military title, yet people in town turn to him for odd jobs, supply runs, and help coordinating local efforts.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "steelgrill tools",
     "why beldin"
    ],
-   "answer": "Beldin Steelgrill runs Steelgrill's Depot just east of Kharanos, where mechanostriders and siege engines are repaired. He is Tharek's main customer, ordering so much ironware that Tharek often hires travelers to deliver finished shipments to the depot."
+   "answer": "Beldin Steelgrill runs Steelgrill's Depot just east of Kharanos, where mechanostriders and siege engines are repaired. He is Tharek's main customer and orders so much ironware that Tharek often hires travelers to deliver finished shipments to the depot."
   },
   {
    "q": "Where can I find Tharek Blackstone?",
@@ -66,7 +66,7 @@
   },
   {
    "target": "race:Dwarf",
-   "text": "As a dwarf, you share the working spirit of Dun Morogh: local industry depends on people who keep at the anvil."
+   "text": "As a dwarf, you share Dun Morogh's working spirit. Local industry depends on people who keep at the anvil."
   }
  ],
  "keywords": [
@@ -91,5 +91,5 @@
  "attribution": [
   "Tharek Blackstone"
  ],
- "style": 1
+ "style": 2
 }

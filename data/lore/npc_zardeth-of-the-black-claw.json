@@ -8,21 +8,21 @@
   "wiki": "Zardeth of the Black Claw",
   "refs": 3
  },
- "summary": "In Stormwind's Mage Quarter, Zardeth of the Black Claw protects a hidden warlock cabal from scrutiny. He dwells in the chambers beneath the Slaughtered Lamb and poses as an ordinary patron. When curious nobles look too closely, he makes sure their inquiries end for good.",
+ "summary": "In Stormwind's Mage Quarter, Zardeth of the Black Claw guards a hidden warlock cabal. He lives in chambers beneath the Slaughtered Lamb and passes as an ordinary patron. When curious nobles look too closely, he ends their inquiries for good.",
  "sections": [
   {
    "title": "A Shadow Beneath the Lamb",
-   "body": "Beneath the Slaughtered Lamb, tunnels shelter those who practice darker arts while the Mage Quarter's spires study arcane discipline in the open. Zardeth of the Black Claw works from these crypts, guarding warlocks who hide right beneath the city guard's nose. The Alliance condemns fel magic, so the cabal survives by keeping its presence secret and removing threats before royal investigators arrive.",
+   "body": "Beneath the Slaughtered Lamb, tunnels shelter those who practice darker arts. Above them, the Mage Quarter's spires study arcane discipline in the open. Zardeth of the Black Claw works in the crypts and guards warlocks hiding beneath the city guard's nose. The Alliance condemns fel magic, so the cabal keeps its presence secret and removes threats before royal investigators arrive.",
    "spoiler": 0
   },
   {
    "title": "Silencing the Nobility",
-   "body": "Lord Baurles K. Wishock learned whispers of the hidden warlock coven and began urging the House of Nobles to launch a full investigation. Zardeth feared that scrutiny would destroy the enclave beneath the Slaughtered Lamb, so he arranged a secret response. Knowing the lord favored fine liquor, Zardeth sent an operative across the eastern kingdoms to collect two rare, lethal plants: the Tear of Tilloa from Duskwood and Musquash Root from beneath the Stonewrought Dam.",
+   "body": "Lord Baurles K. Wishock heard whispers of the hidden warlock coven and urged the House of Nobles to begin a full investigation. Zardeth feared that scrutiny would destroy the enclave beneath the Slaughtered Lamb, so he arranged a secret response. The lord favored fine liquor. Zardeth sent an operative across the eastern kingdoms to gather two rare, lethal plants: the Tear of Tilloa from Duskwood and Musquash Root from beneath the Stonewrought Dam.",
    "spoiler": 1
   },
   {
    "title": "A Noble Brew",
-   "body": "Zardeth mixed the gathered plants with stout ale to make Black Claw Stout, a lethal drink disguised as an ordinary luxury gift. The poisoned brew reached Wishock's estate and killed him swiftly and quietly. With the lord dead and his campaign ended before the crown could intervene, Zardeth and the other warlocks kept their hidden enclave beneath the Slaughtered Lamb safe.",
+   "body": "Zardeth mixed the gathered plants with stout ale to make Black Claw Stout, a lethal drink disguised as an ordinary luxury gift. The poisoned brew reached Wishock's estate and killed him swiftly and quietly. With the lord dead, his campaign ended before the crown could intervene. Zardeth and the other warlocks kept their hidden enclave beneath the Slaughtered Lamb safe.",
    "spoiler": 2
   }
  ],
@@ -34,7 +34,7 @@
     "who is zardeth",
     "zardeth stormwind"
    ],
-   "answer": "Zardeth is a human warlock who keeps watch over the hidden brotherhood in the crypts beneath the Slaughtered Lamb in Stormwind's Mage Quarter. He deflects suspicion and handles threats to the warlocks' secret presence in the city."
+   "answer": "Zardeth is a human warlock who guards the hidden brotherhood in the crypts beneath the Slaughtered Lamb in Stormwind's Mage Quarter. He deflects suspicion and handles threats to the warlocks' secret presence in the city."
   },
   {
    "q": "Where can I find Zardeth?",
@@ -120,5 +120,5 @@
  "attribution": [
   "Zardeth of the Black Claw"
  ],
- "style": 1
+ "style": 2
 }

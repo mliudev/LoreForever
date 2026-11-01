@@ -22,16 +22,16 @@
    "Return to Lewis"
   ]
  },
- "summary": "At Stormwind's Trade District roost, Dungar Longdrink arranges swift gryphon transport for supplies bound to Westfall's embattled defenders.",
+ "summary": "At the roost in Stormwind's Trade District, Dungar Longdrink arranges swift gryphon flights for supplies bound to Westfall's defenders.",
  "sections": [
   {
    "title": "A Vital Supply Chain",
-   "body": "Defias outlaws and feral harvest golems have pushed Westfall close to breaking point. Quartermaster Lewis and the People's Militia are desperate for provisions. Lewis sent word to the capital, and armorer Osric Strang packed the requested equipment. Carrying military cargo on foot through bandit-ridden Elwynn and Westfall takes precious time. Stormwind's new aerial routes offer a vital link to the frontier.",
+   "body": "Defias outlaws and feral harvest golems have brought Westfall close to breaking. Quartermaster Lewis and the People's Militia badly need provisions. Lewis sent word to the capital, and armorer Osric Strang packed the equipment they asked for. Carrying military cargo on foot through bandit-ridden Elwynn and Westfall takes precious time. Stormwind's new aerial routes offer a vital link to the frontier.",
    "spoiler": 0
   },
   {
    "title": "The Master of the Roost",
-   "body": "The gryphon roost sits in Stormwind's Trade District, where Dungar Longdrink coordinates courier and passenger flights. Wildhammer dwarves traditionally raise and handle these majestic beasts. They carry people and cargo across human lands when roosts at both ends know the route. Bringing Osric's heavy crate straight to Dungar teaches couriers how aerial logistics work. It connects the capital's stockpiles directly to frontier outposts such as Sentinel Hill.",
+   "body": "In Stormwind's Trade District, the gryphon roost is where Dungar Longdrink coordinates courier and passenger flights. Wildhammer dwarves have long raised and handled these great beasts. Gryphons carry people and cargo across human lands when roosts at both ends know the route. Bringing Osric's heavy crate straight to Dungar shows how aerial transport works. It links the capital's stockpiles to frontier outposts such as Sentinel Hill.",
    "spoiler": 0
   }
  ],
@@ -43,7 +43,7 @@
     "who is dungar",
     "stormwind gryphon master"
    ],
-   "answer": "Dungar Longdrink manages Stormwind City's gryphons from the flight roost in the Trade District. He oversees courier beasts and passenger travel across Alliance territories in southern Lordaeron and Azeroth."
+   "answer": "Dungar Longdrink manages Stormwind City's gryphons from the roost in the Trade District. He oversees courier beasts and passenger travel across Alliance territories in southern Lordaeron and Azeroth."
   },
   {
    "q": "Why is Osric sending this crate via gryphon?",
@@ -52,7 +52,7 @@
     "why not walk",
     "osric crate delivery"
    ],
-   "answer": "Quartermaster Lewis and the People's Militia in Westfall are desperately short of gear against the bandits. Moving heavy supplies by foot or wagon takes days and risks ambush, while a trained gryphon can carry Osric's crate across borders in minutes."
+   "answer": "Quartermaster Lewis and the People's Militia in Westfall are desperately short of gear against the bandits. Moving heavy supplies by foot or wagon takes days and risks ambush. A trained gryphon can carry Osric's crate across borders in minutes."
   },
   {
    "q": "Who is Thor, and why must I speak to him first?",
@@ -61,7 +61,7 @@
     "why visit thor",
     "thor gryphon"
    ],
-   "answer": "Thor is the gryphon master at Sentinel Hill in Westfall. Gryphons follow specific routes between known points, so Dungar's mounts can fly you back only after you have checked in with Thor and mapped the path from the other end."
+   "answer": "Thor is the gryphon master at Sentinel Hill in Westfall. Gryphons follow known routes between specific points, so Dungar's mounts can fly you back only after you have checked in with Thor and mapped the path from the other end."
   },
   {
    "q": "What happens after Dungar accepts the crate?",
@@ -79,7 +79,7 @@
     "flight questline",
     "how many quests"
    ],
-   "answer": "This is the third step in an introduction to the flight network. It begins in Westfall with 'A Swift Message', takes you to Stormwind in 'Continue to Stormwind', brings you to Dungar, and ends with 'Return to Lewis'."
+   "answer": "This is the third step in an introduction to the flight network. It begins in Westfall with 'A Swift Message', then takes you to Stormwind in 'Continue to Stormwind'. Dungar's part follows, and the chain ends with 'Return to Lewis'."
   },
   {
    "q": "Why does Stormwind rely on dwarven gryphons?",
@@ -87,7 +87,7 @@
     "why gryphons in stormwind",
     "alliance gryphons lore"
    ],
-   "answer": "Since the Second War joined the Alliance of Lordaeron with the Wildhammer clan of the Hinterlands, gryphons have been the Alliance realms' chief scouts and transports. They offer fast travel around ruined roads and hostile blockades."
+   "answer": "Since the Second War joined the Alliance of Lordaeron with the Wildhammer clan of the Hinterlands, gryphons have been the Alliance realms' chief scouts and transports. They offer swift passage around ruined roads and hostile blockades."
   }
  ],
  "angles": [
@@ -128,5 +128,5 @@
  "attribution": [
   "Dungar Longdrink (Classic)"
  ],
- "style": 1
+ "style": 2
 }

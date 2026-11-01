@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Alexston Farmstead"
  },
- "summary": "At Alexston Farmstead, wild Harvest Watchers prowl the ruined fields. Baros Alexston grew up here before becoming Stormwind's city architect.",
+ "summary": "Wild Harvest Watchers prowl the ruined fields at Alexston Farmstead. Baros Alexston grew up here before becoming Stormwind's city architect.",
  "sections": [
   {
    "title": "A Fallen Homestead",
-   "body": "Alexston Farmstead lies amid Westfall's dry plains, abandoned like the neighboring estates. Its caretakers fled when banditry spread across the countryside. Now the fields have grown wild, and the Harvest Watchers left to tend the crops attack anyone who comes near the barren farmhouse.",
+   "body": "You find Alexston Farmstead among Westfall's dry plains, abandoned like the neighboring estates. Its caretakers fled as banditry spread across the countryside. The fields have gone wild, and Harvest Watchers left to tend the crops now attack anyone near the barren farmhouse.",
    "spoiler": 0
   },
   {
    "title": "Humble Roots",
-   "body": "Baros Alexston spent his youth working these fields before leaving to pursue masonry and construction. He became one of Stormwind's most prominent citizens, helping design parts of the rebuilt capital. Something from his early life remains among the ruins.",
+   "body": "Baros Alexston worked these fields in his youth, then left to pursue masonry and construction. He became one of Stormwind's most prominent citizens and helped design parts of the rebuilt capital. Something from his early life remains among the ruins.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "alexston owner",
     "whose farm is this"
    ],
-   "answer": "The Alexston family gives the farmstead its name. Baros Alexston, Stormwind's city architect, worked this land as a boy before moving to the capital to pursue architecture."
+   "answer": "The Alexston family gives the farmstead its name. Baros Alexston worked this land as a boy before moving to Stormwind to pursue architecture."
   },
   {
    "q": "Why is the farm abandoned?",
@@ -37,7 +37,7 @@
     "what happened to alexston farm",
     "who ruined the farm"
    ],
-   "answer": "Like much of Westfall, the farmstead was abandoned after widespread unrest and Defias Brotherhood banditry. With the kingdom unable to protect them, the farmers fled and left the homestead to decay."
+   "answer": "Like much of Westfall, the farmstead was abandoned after widespread unrest and Defias Brotherhood banditry. Unable to protect them, the kingdom left farmers to flee and the homestead to decay."
   },
   {
    "q": "Why are mechanical scarecrows attacking people here?",
@@ -46,7 +46,7 @@
     "hostile scarecrows",
     "harvest golems hostile"
    ],
-   "answer": "The Harvest Watchers were built to work the soil and guard crops from scavengers. After the farmers fled, the machines went without maintenance, and their clockwork failed. Now they attack living creatures."
+   "answer": "The Harvest Watchers were built to work the soil and guard crops from scavengers. When the farmers fled, the machines went without maintenance and their clockwork failed. Now they attack living creatures."
   },
   {
    "q": "Is there anything hidden inside the farmhouse?",
@@ -55,7 +55,7 @@
     "loot in farm",
     "baros item"
    ],
-   "answer": "Baros Alexston left his personal compass in the farmhouse from his youth. Travelers working in Stormwind City are sometimes asked to retrieve it from the abandoned homestead."
+   "answer": "Baros Alexston left his personal compass in the farmhouse during his youth. Travelers working in Stormwind City are sometimes asked to retrieve it from the abandoned homestead."
   }
  ],
  "angles": [
@@ -84,5 +84,5 @@
  "attribution": [
   "Alexston Farmstead"
  ],
- "style": 1
+ "style": 2
 }

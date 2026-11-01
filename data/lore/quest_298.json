@@ -17,16 +17,16 @@
   "wiki": "Excavation Progress Report",
   "chain": []
  },
- "summary": "In Loch Modan, Ironband sends an excavation report to Thelsamar. Prospector Ironband asks you to carry his latest dispatches and renewed explosive supply orders to Jern Hornhelm.",
+ "summary": "At Ironband's Excavation Site, Prospector Ironband needs you to carry his dispatches and powder orders to Jern Hornhelm in Thelsamar.",
  "sections": [
   {
    "title": "A Dispatch to Thelsamar",
-   "body": "Prospector Ironband's dig in Loch Modan depends on supplies from nearby settlements. Excavation takes picks, workers, and plenty of blasting powder to break through bedrock. Ironband sends runners with regular reports and supply requests to Jern Hornhelm, his local contact in Thelsamar.",
+   "body": "Ironband's dispatches tell of his dig and renew its supply requests. The work needs picks, workers, and blasting powder to break through bedrock. Ironband relies on runners to keep Jern Hornhelm informed.",
    "spoiler": 0
   },
   {
    "title": "Missing Munitions",
-   "body": "When Jern Hornhelm receives Ironband's dispatch, he learns that aggressive troggs are harassing the dig. Powder could break stone or blast troggs, but Ironband's renewed request gives Hornhelm pause. He sent a large shipment weeks ago, and now wonders what happened to it along the rugged mountain paths.",
+   "body": "The dispatch reveals that aggressive troggs are harassing the dig. Powder could break stone or blast troggs. Yet Ironband's renewed request gives Jern Hornhelm pause: he sent a large shipment weeks ago, and wonders what happened to it along the rugged mountain paths.",
    "spoiler": 1
   }
  ],
@@ -118,5 +118,5 @@
  "attribution": [
   "Excavation Progress Report"
  ],
- "style": 1
+ "style": 2
 }

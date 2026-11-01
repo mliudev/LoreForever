@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Steelgrill's Depot"
  },
- "summary": "East of Kharanos, Steelgrill's Depot keeps Alliance vehicles and machinery in working order. Beldin Steelgrill and his crew handle repairs, tinker supplies, and salvage efforts.",
+ "summary": "East of Kharanos, Steelgrill's Depot keeps Alliance vehicles and machinery working. Beldin Steelgrill and his crew repair them, supply tinkerers, and salvage what they can.",
  "sections": [
   {
    "title": "A Bastion of Steam and Steel",
-   "body": "Steelgrill's Depot rings with clanking metal, hissing steam vents, and the hum of experimental engines. Just off the snowy road east of Kharanos, dwarven miners and eccentric gnome engineers gather among heavy machinery, mechanized walking frames, and stockpiles of raw ores hauled from nearby quarries. Trogg disruptions and shortages of mechanical supplies trouble Dun Morogh. Beldin Steelgrill and his crew keep Alliance machinery in working order, making the depot an indispensable stop for travelers seeking spare parts or technical guidance in the bitter cold.",
+   "body": "Just off the snowy road, dwarven miners and eccentric gnome engineers gather among heavy machinery, mechanized walking frames, and raw ore from nearby quarries. Metal clanks, steam vents hiss, and experimental engines churn. Trogg disruptions and shortages of mechanical supplies trouble Dun Morogh. In the bitter cold, travelers come for spare parts or technical guidance.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "what is this place",
     "steelgrills"
    ],
-   "answer": "Steelgrill's Depot is a workshop and outpost in Dun Morogh, just down the road east of Kharanos. It caters to miners, tinkerers, and field technicians, with heavy machinery to maintain."
+   "answer": "Steelgrill's Depot sits just down the road east of Kharanos. It is a workshop and outpost in Dun Morogh, where miners, tinkerers, and field technicians tend heavy machinery."
   },
   {
    "q": "Who runs the depot?",
@@ -32,7 +32,7 @@
     "who runs steelgrill depot",
     "belbi steelgrill"
    ],
-   "answer": "Beldin Steelgrill manages the depot with fellow dwarven and gnomish crafters. They maintain the surrounding machinery and oversee mining operations."
+   "answer": "Beldin Steelgrill manages the depot with his fellow dwarven and gnomish crafters. Together, they maintain the surrounding machinery and oversee mining operations."
   },
   {
    "q": "What services are available here?",
@@ -41,13 +41,13 @@
     "what can i do here",
     "steelgrills depot services"
    ],
-   "answer": "The depot houses trade suppliers, repair services, and trainers for craftsmen seeking to hone their engineering and gathering skills in the field."
+   "answer": "The depot has trade suppliers, repair services, and trainers who help craftsmen hone their engineering and gathering skills in the field."
   }
  ],
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "As an aspiring engineer traveling through Dun Morogh, you can rest at this open-air laboratory surrounded by steam machinery and tinkering supplies."
+   "text": "As an aspiring engineer traveling through Dun Morogh, you can rest at this open-air laboratory, surrounded by steam machinery and tinkering supplies."
   },
   {
    "target": "race:Gnome",
@@ -71,5 +71,5 @@
  "attribution": [
   "Steelgrill's Depot"
  ],
- "style": 1
+ "style": 2
 }

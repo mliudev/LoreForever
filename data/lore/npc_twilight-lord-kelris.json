@@ -8,21 +8,21 @@
   "wiki": "Twilight Lord Kelris",
   "refs": 5
  },
- "summary": "Twilight Lord Kelris is an orc warlock and high-ranking leader within the Twilight's Hammer cult operating deep inside Blackfathom Deeps. From his perch in the Moonshrine Sanctum, he leads dark rituals in worship of the primordial hydra Aku'mai, aiming to usher in a reign of cosmic chaos.",
+ "summary": "At Blackfathom Deeps, Twilight Lord Kelris leads the Twilight's Hammer from the sunken ruins. The orc warlock holds high rank in the cult and directs its rites in the Moonshrine Sanctum. There, his followers worship Aku'mai and seek a reign of cosmic chaos.",
  "sections": [
   {
    "title": "Herald of the Void",
-   "body": "Twilight Lord Kelris directs the cultists of the Twilight's Hammer who seized the sunken ruins of Blackfathom Deeps. For years, Kelris slipped through the grasp of watchful eyes in Darnassus, evading the Argent Dawn and earning a grim reputation: whenever ancient malice stirred across Kalimdor, Kelris was suspected of orchestrating it. Rather than serving warlords or clans, this orc has pledged himself entirely to the Old Gods, seeking to unmake mortal civilization and return Azeroth to a state of absolute, primordial chaos.",
+   "body": "Twilight Lord Kelris directs the cultists who seized the sunken ruins of Blackfathom Deeps. For years, he slipped past watchful eyes in Darnassus and evaded the Argent Dawn. Whenever ancient malice stirred across Kalimdor, Kelris was suspected of being behind it. He pledged himself to the Old Gods, not to warlords or clans. He seeks to unmake mortal civilization and return Azeroth to primordial chaos.",
    "spoiler": 0
   },
   {
    "title": "Keeper of the Beast",
-   "body": "Within the Moonshrine Sanctum, Kelris oversees the cult's worship of Aku'mai, a vicious three-headed hydra and servant of an Old God. Allied with the naga, the Twilight's Hammer occupies the drowned temple, and Kelris presides over the cult's rites, sacrificing innocents to Aku'mai for power.",
+   "body": "In the Moonshrine Sanctum, Kelris oversees the cult's worship of Aku'mai, a vicious three-headed hydra who serves an Old God. Allied with the naga, the Twilight's Hammer occupies the drowned temple. Kelris leads the cult's rites and sacrifices innocents to Aku'mai in exchange for power.",
    "spoiler": 0
   },
   {
    "title": "Dark Trance and Slumber",
-   "body": "Kelris commands potent shadow magic capable of seizing minds and plunging intruders into deep, unnatural sleep. He conducts constant prayers before a corrupted altar surrounded by candles that channel dark energies. Those attempting to strike down Kelris must not only defeat the cult leader, but also navigate the latent horrors that stir once his ritualistic vigil is broken.",
+   "body": "Twilight Lord Kelris commands potent shadow magic that can seize minds and plunge intruders into deep, unnatural sleep. He prays without cease before a corrupted altar ringed by candles that channel dark energies. Anyone who tries to strike him down must defeat the cult leader and face the latent horrors stirred when his ritual vigil is broken.",
    "spoiler": 1
   }
  ],
@@ -34,7 +34,7 @@
     "who is kelris",
     "kelris background"
    ],
-   "answer": "Twilight Lord Kelris is an orc sorcerer who commands the Twilight's Hammer presence in Blackfathom Deeps. He coordinates cult activity throughout the sunken temple and is deeply devoted to the Old Gods."
+   "answer": "Twilight Lord Kelris is an orc sorcerer and high-ranking leader who commands the Twilight's Hammer in Blackfathom Deeps. He directs the cult's activity throughout the sunken temple and is devoted to the Old Gods."
   },
   {
    "q": "Why is the Argent Dawn hunting Kelris?",
@@ -43,7 +43,7 @@
     "why kill kelris",
     "blackfathom villainy reason"
    ],
-   "answer": "The Argent Dawn views Kelris as an elusive instigator of malice throughout Kalimdor. Though he was once believed dead or missing, his hand was discovered behind numerous dark plots across the continent, making his elimination a priority."
+   "answer": "The Argent Dawn hunts Kelris as an elusive instigator of malice throughout Kalimdor. Though he was once believed dead or missing, his hand was found behind numerous dark plots across the continent, making his elimination a priority."
   },
   {
    "q": "What is Kelris doing with the hydra Aku'mai?",
@@ -51,7 +51,7 @@
     "kelris and akumai",
     "why is kelris feeding akumai"
    ],
-   "answer": "Kelris and his Twilight's Hammer cultists worship Aku'mai, a three-headed hydra and servant of an Old God, which lairs in the deepest part of the sunken temple."
+   "answer": "Kelris and his Twilight's Hammer cultists worship Aku'mai, a three-headed hydra who serves an Old God. The beast lairs in the deepest part of the sunken temple."
   },
   {
    "q": "What happens after Kelris is defeated?",
@@ -60,7 +60,7 @@
     "altar of kelris",
     "moonshrine candles"
    ],
-   "answer": "Behind Kelris sits an altar with four ceremonial candles. Lighting these candles unbinds the sanctum's protective wards, summoning waves of Aku'mai's servants and opening the sealed gate to the beast's lair."
+   "answer": "Behind Kelris stands an altar with four ceremonial candles. Lighting them unbinds the sanctum's protective wards, summons waves of Aku'mai's servants, and opens the sealed gate to the beast's lair."
   },
   {
    "q": "What powers does Kelris use in combat?",
@@ -68,7 +68,7 @@
     "kelris abilities",
     "kelris spells"
    ],
-   "answer": "Kelris wields potent shadow spells, mental domination, and a magical slumber that can incapacitate his enemies while his dark rites continue."
+   "answer": "Kelris uses potent shadow spells, mental domination, and magical slumber to incapacitate his enemies while his dark rites continue."
   },
   {
    "q": "Who is Bashana Runetotem?",
@@ -76,25 +76,25 @@
     "bashana runetotem kelris",
     "tauren hunter kelris"
    ],
-   "answer": "Bashana Runetotem is an ally investigating the corruption in Blackfathom Deeps who warns adventurers of Kelris's obsession with Old God worship and his desire to plunge the world back into primeval chaos."
+   "answer": "Bashana Runetotem is Kelris's ally and investigates the corruption in Blackfathom Deeps. Bashana warns adventurers of Kelris's obsession with Old God worship and his desire to plunge the world back into primeval chaos."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "The Argent Dawn operating from Darnassus seeks the end of Kelris's elusive career of stirring dark cults and terror across northern Kalimdor."
+   "text": "The Argent Dawn, operating from Darnassus, seeks to end Kelris's elusive career of stirring dark cults and terror across northern Kalimdor."
   },
   {
    "target": "faction:Horde",
-   "text": "Elders and shamans view Kelris as a cautionary abomination\u2014an orc who abandoned the elements and ancestral spirits to grovel before ancient cosmic horrors."
+   "text": "Elders and shamans see Kelris as a cautionary abomination, an orc who abandoned the elements and ancestral spirits to grovel before ancient cosmic horrors."
   },
   {
    "target": "class:Warlock",
-   "text": "While typical warlocks barter with demons of the Burning Legion, Kelris demonstrates the dark, trance-induced shadow magic born from yielding to Old God whispers."
+   "text": "Typical warlocks bargain with demons of the Burning Legion. Kelris shows the shadow magic born from yielding to Old God whispers, which can induce a trance."
   },
   {
    "target": "race:NightElf",
-   "text": "Kelris's blasphemous rituals actively despoil the sacred Moonshrine Sanctum, desecrating an ancient elven temple dedicated to Elune."
+   "text": "Kelris's blasphemous rites despoil the Moonshrine Sanctum, an ancient elven temple dedicated to Elune."
   }
  ],
  "keywords": [
@@ -119,5 +119,6 @@
  ],
  "attribution": [
   "Twilight Lord Kelris"
- ]
+ ],
+ "style": 2
 }

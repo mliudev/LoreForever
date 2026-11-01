@@ -17,16 +17,16 @@
   "wiki": "Etched Rune (Classic)",
   "chain": []
  },
- "summary": "In Coldridge Valley, novice dwarf hunters receive a carved summons from Sten Stoutarm. It directs them to Thorgas Grimson inside Anvilmar for training in the hunt.",
+ "summary": "In Coldridge Valley, novice dwarf hunters receive a carved summons from Sten Stoutarm. It sends them to Thorgas Grimson inside Anvilmar to learn the hunt.",
  "sections": [
   {
    "title": "A Summons in Stone",
-   "body": "As you help Sten Stoutarm face threats around Coldridge Valley, he gives you the Etched Rune. Dwarven mentors favor carved runes for formal messages, rather than spoken orders or plain parchment. The stone tells you to take stock of your early work and report indoors at Anvilmar for deeper instruction in the hunt.",
+   "body": "As you help Sten Stoutarm face threats around Coldridge Valley, he gives you the Etched Rune. Dwarven mentors favor carved runes for formal messages, not spoken orders or plain parchment. The stone asks you to take stock of your early work, then report indoors at Anvilmar for deeper instruction in the hunt.",
    "spoiler": 0
   },
   {
    "title": "Traditions of the Dun Morogh Hunter",
-   "body": "At Anvilmar, the Etched Rune marks a hunter's entry into formal discipline. Thorgas Grimson teaches that mountaineering and survival in Khaz Modan demand respect for the harsh land. Hunters learn to read tracks in bitter snowdrifts, care for their weapons and ammunition, and understand the wild beasts roaming the crags. The rune marks a hunter's first step from a lone wanderer with a gun to an apprentice among Anvilmar's veteran pathfinders.",
+   "body": "At Anvilmar, the Etched Rune marks a hunter's entry into formal discipline. Thorgas Grimson teaches that mountaineering and survival in Khaz Modan demand respect for the harsh land. You learn to read tracks in bitter snowdrifts, care for your weapons and ammunition, and understand the wild beasts roaming the crags. The rune marks your first step from a lone wanderer with a gun to an apprentice among Anvilmar's veteran pathfinders.",
    "spoiler": 0
   }
  ],
@@ -79,7 +79,7 @@
     "is etched rune hunter only",
     "can warriors get etched rune"
    ],
-   "answer": "Only dwarf hunters beginning their journey in Coldridge Valley receive the Etched Rune. Other classes receive distinct tokens that direct them to their own mentors in Anvilmar."
+   "answer": "Only dwarf hunters beginning their journey in Coldridge Valley receive the Etched Rune. Other classes receive distinct tokens directing them to their own mentors in Anvilmar."
   }
  ],
  "angles": [
@@ -112,5 +112,5 @@
  "attribution": [
   "Etched Rune (Classic)"
  ],
- "style": 1
+ "style": 2
 }

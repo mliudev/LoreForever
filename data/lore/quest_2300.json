@@ -21,16 +21,16 @@
    "Alther's Mill (quest)"
   ]
  },
- "summary": "In Goldshire, Keryn Sylvius sends promising young rogues toward Stormwind's hidden ranks. Recruits report to Renzik \"The Shiv\" in Old Town, where they enter Master Mathias Shaw's service.",
+ "summary": "From Goldshire, promising young rogues are sent to report to Renzik \"The Shiv\" in Stormwind. There, you enter Master Mathias Shaw's service, where covert work awaits.",
  "sections": [
   {
    "title": "A Summons to Old Town",
-   "body": "Keryn Sylvius watches local recruits from the Lion's Pride Inn in Goldshire. When a rogue proves cunning and capable against the growing Defias threat, Sylvius passes along a message from headquarters. The order is plain: report to Renzik \"The Shiv\" without delay. The recruit leaves Elwynn's fields for the covert heart of Stormwind.",
+   "body": "At the Lion's Pride Inn, Keryn Sylvius watches Goldshire's local recruits. You prove cunning and capable against the growing Defias threat, and Sylvius passes along a message from headquarters. Report to Renzik \"The Shiv\" without delay. You leave Elwynn's fields for Stormwind's covert ranks.",
    "spoiler": 0
   },
   {
    "title": "Stormwind's Hidden Eyes",
-   "body": "Behind an unassuming barracks in Old Town, SI:7 keeps its headquarters. Master Mathias Shaw commands the agency, whose work includes covert operations, reconnaissance, and assassination across the kingdom and beyond. Renzik \"The Shiv,\" Shaw's sharp-tongued second-in-command, assesses promising agents before sending them into dangerous work beyond the reach of the kingdom's formal military.",
+   "body": "Behind an unassuming barracks in Old Town, Stormwind's hidden agency keeps its headquarters. Master Mathias Shaw commands its work across the kingdom and beyond. The agency handles covert operations, reconnaissance, and assassination.\n\nRenzik \"The Shiv\" is Shaw's sharp-tongued second-in-command. He assesses promising agents, then sends them into dangerous work beyond the reach of the kingdom's formal military.",
    "spoiler": 0
   }
  ],
@@ -69,7 +69,7 @@
     "si7 location",
     "where is renzik"
    ],
-   "answer": "SI:7's headquarters is in eastern Old Town in Stormwind City. The agency operates from a fortified guildhall and training barracks set away from the main streets."
+   "answer": "SI:7's headquarters is in eastern Old Town in Stormwind City. The agency works from a fortified guildhall and training barracks set away from the main streets."
   },
   {
    "q": "What happens after reporting to Renzik?",
@@ -78,7 +78,7 @@
     "what comes after",
     "redridge rendezvous"
    ],
-   "answer": "After you report to Renzik, he tests your readiness, then sends you beyond the city walls to meet an operative stationed in Redridge."
+   "answer": "After you report to Renzik, he tests your readiness. Then he sends you beyond the city walls to meet an operative stationed in Redridge."
   },
   {
    "q": "Why does Keryn Sylvius call me 'fish'?",
@@ -119,5 +119,5 @@
  "attribution": [
   "SI:7 (quest)"
  ],
- "style": 1
+ "style": 2
 }

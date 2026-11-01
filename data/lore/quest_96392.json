@@ -17,16 +17,16 @@
   "wiki": "Farsen's Watch",
   "chain": []
  },
- "summary": "High above Gol'Bolar Quarry, Earthseer Farsen watches for Dark Iron movement in Dun Morogh. The visiting Wildhammer shaman uses farsight to reveal their growing infiltration near Ironforge, beginning a path toward the Hall of Thanes.",
+ "summary": "Near Gol'Bolar Quarry, Earthseer Farsen watches for Dark Iron movement close to Ironforge. The Wildhammer shaman lends you his farsight, revealing a threat that calls for swift action.",
  "sections": [
   {
    "title": "Eyes Across the Ridge",
-   "body": "Earthseer Farsen keeps a vigilant watch over the lower reaches of Dun Morogh from above Gol'Bolar Quarry. He journeyed south from the crags of Aerie Peak, bringing a Wildhammer's spiritual awareness to lands usually patrolled by Ironforge mountaineers. Farsen uses his clan's traditional arts to sense subterranean rumblings and watch for unexpected movement along the hillsides.",
+   "body": "From his post above Gol'Bolar Quarry, Farsen watches the lower reaches of Dun Morogh. He came south from the crags of Aerie Peak, bringing a Wildhammer's spiritual awareness with him. His clan's old arts let him sense tremors underground and watch for sudden movement along the hillsides.",
    "spoiler": 0
   },
   {
    "title": "A Borrowed Vision",
-   "body": "Farsen lends travelers his farsight, a shamanic gift that carries awareness across great distances. Through this vision, you see that Dun Morogh's troubles reach beyond troggs and wild beasts. Dark Iron dwarves have slipped close to Ironforge's industrial center and are entrenching themselves for an operation that demands immediate confrontation before it takes root.",
+   "body": "Farsen lends you his farsight, a shamanic gift that carries sight across great distances. Through it, you see danger beyond troggs and wild beasts. Dark Iron dwarves have drawn close to Ironforge's industrial center and are digging in. Their foothold must be confronted before it takes root.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who is farsen",
     "farsen wildhammer"
    ],
-   "answer": "Earthseer Farsen is a Wildhammer dwarf visiting Dun Morogh from Aerie Peak in the Hinterlands. His shamanic magic lets him sense disturbances in the land and observe threats from afar."
+   "answer": "Earthseer Farsen is a Wildhammer dwarf visiting Dun Morogh from Aerie Peak in the Hinterlands. His shamanic gift lets him sense disturbances in the land and watch threats from afar."
   },
   {
    "q": "Where is this watch taking place?",
@@ -72,7 +72,7 @@
     "why is wildhammer here",
     "aerie peak dwarf dun morogh"
    ],
-   "answer": "Wildhammers call the Hinterlands home, but kinship and shared enmity toward the Dark Irons sometimes bring travelers like Farsen to the ancestral Bronzebeard lands of Dun Morogh."
+   "answer": "Wildhammers call the Hinterlands home, but kinship and their shared enmity toward the Dark Irons sometimes bring travelers like Farsen to the ancestral Bronzebeard lands of Dun Morogh."
   },
   {
    "q": "What comes directly after completing Farsen's Watch?",
@@ -87,11 +87,11 @@
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "As a Bronzebeard defender, you hear warning from an Aerie Peak cousin, a sign of how brazen the Dark Iron infiltration of your homeland has become."
+   "text": "As a Bronzebeard defender, you hear a warning from an Aerie Peak cousin. It shows how brazen the Dark Iron presence in your homeland has become."
   },
   {
    "target": "class:Shaman",
-   "text": "As a shaman, you see the earthen and spiritual vision of the Wildhammer tradition, rooted in the crags of Aerie Peak."
+   "text": "As a shaman, you witness the earthen and spiritual vision of the Wildhammer tradition, rooted in the crags of Aerie Peak."
   },
   {
    "target": "faction:Alliance",
@@ -121,5 +121,5 @@
  "attribution": [
   "Farsen's Watch"
  ],
- "style": 1
+ "style": 2
 }

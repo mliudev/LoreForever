@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Undercity"
  },
- "summary": "Carved beneath the shattered palace of Capital City, the Undercity serves as the sprawling subterranean stronghold of the Forsaken. Originally a tangle of royal crypts, dungeons, and sewers expanded by the Scourge, it was seized by Sylvanas Windrunner and forged into a heavily fortified capital for her free-willed undead.",
+ "summary": "Beneath Capital City, the Forsaken hold their underground stronghold, ruled by Sylvanas Windrunner. Its halls began as Scourge work and now shelter the free-willed undead.",
  "sections": [
   {
    "title": "From Royal Crypts to Scourge Bastion",
-   "body": "Before the Third War, the depths beneath Capital City held a vast network of sewers, royal catacombs, and dungeons. During the fall of Lordaeron, Prince Arthas Menethil ordered his Scourge to begin expanding these depths into a subterranean seat of power. When the Lich King summoned Arthas away to Northrend, the death knight left the construction unfinished.",
+   "body": "Before the Third War, sewers, royal catacombs, and dungeons lay beneath Capital City. As Lordaeron fell, Prince Arthas Menethil ordered the Scourge to enlarge them into an underground seat of power. The Lich King summoned Arthas to Northrend before the work was finished.",
    "spoiler": 0
   },
   {
    "title": "The Forsaken Capital",
-   "body": "Amid the civil war in the Plaguelands, Sylvanas Windrunner rallied those undead whose minds had broken free from the Lich King's grip. After overthrowing the dreadlords and driving out rival forces, the newly christened Forsaken claimed the subterranean complex. They completed the twisted maze of catacombs the Scourge had started, fortifying it into an impenetrable stronghold beneath the silent ruins of their former kingdom. Today, the Dark Lady rules her people from within its poisoned halls.",
+   "body": "During the civil war in the Plaguelands, Sylvanas Windrunner rallied undead who had escaped the Lich King's grip. She overthrew the dreadlords and drove out rival forces, and the Forsaken claimed the underground complex. They finished the maze of catacombs the Scourge had begun and fortified it beneath the silent ruins of their former kingdom. Now the Dark Lady rules her people from its poisoned halls.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "was undercity always there",
     "history of undercity"
    ],
-   "answer": "Yes, though in a much smaller form. Under the Kingdom of Lordaeron, the area beneath the palace held ancient royal crypts, dungeons, and the city's sewer system."
+   "answer": "Yes. Ancient royal crypts, dungeons, and the city's sewers lay beneath Lordaeron's palace."
   },
   {
    "q": "Who actually built the modern Undercity?",
@@ -37,7 +37,7 @@
     "who built the undercity",
     "undercity construction"
    ],
-   "answer": "The initial expansion was begun by Prince Arthas Menethil, who intended to make it the Scourge's seat of power in Lordaeron. When Arthas was recalled to Northrend, Sylvanas Windrunner and her Forsaken captured the unfinished tunnels and spent years excavating and fortifying them into the fortress city seen today."
+   "answer": "Prince Arthas Menethil began expanding the old tunnels into a seat of power for the Scourge in Lordaeron. After Arthas was recalled to Northrend, Sylvanas Windrunner and her Forsaken seized the unfinished tunnels. They spent years excavating and fortifying them into the fortress city seen today."
   },
   {
    "q": "Why live underground instead of rebuilding the city above?",
@@ -46,7 +46,7 @@
     "why not rebuild lordaeron",
     "why undercity"
    ],
-   "answer": "The surface ruins of Capital City are exposed to attacks from the Scarlet Crusade, Scourge remnants, and the Alliance. The subterranean catacombs are naturally defensible, hidden from view, and well suited to the needs of the undead, who do not require daylight, warmth, or open air."
+   "answer": "Capital City's surface ruins face attacks from the Scarlet Crusade, Scourge remnants, and the Alliance. The underground catacombs are defensible and hidden from view, and suit undead who need no daylight, warmth, or open air."
   },
   {
    "q": "Who rules the Undercity?",
@@ -55,17 +55,17 @@
     "undercity leader",
     "who rules undercity"
    ],
-   "answer": "The city is ruled by Lady Sylvanas Windrunner, the Banshee Queen and leader of the Forsaken, from the royal quarters deep inside the complex."
+   "answer": "Lady Sylvanas Windrunner, the Banshee Queen and leader of the Forsaken, rules the city from the royal quarters deep inside the complex."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "The Undercity is the beating heart of Forsaken civilization\u2014a sanctuary built from the ruins and crypts of your former lives where you are sheltered from the Scourge and the living alike."
+   "text": "As an undead, you know the Undercity as the heart of Forsaken civilization. Its halls rise among the ruins and crypts of your former lives, sheltering you from the Scourge and the living alike."
   },
   {
    "target": "faction:Horde",
-   "text": "The subterranean city stands as the Horde's primary military bastion in the Eastern Kingdoms, though its dim, apothecary-tainted passages test the comfort of visitors from Kalimdor."
+   "text": "As a member of the Horde, you can find its main military stronghold in the Eastern Kingdoms beneath the ground. Its dim passages, tainted by apothecaries, can unsettle visitors from Kalimdor."
   }
  ],
  "keywords": [
@@ -89,5 +89,6 @@
  ],
  "attribution": [
   "Undercity"
- ]
+ ],
+ "style": 2
 }

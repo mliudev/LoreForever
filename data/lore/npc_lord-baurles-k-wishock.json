@@ -8,16 +8,16 @@
   "wiki": "Lord Baurles K. Wishock",
   "refs": 1
  },
- "summary": "In Stormwind Keep, Lord Baurles K. Wishock lives among the petitioners and dignitaries. Barkeeps know him for unpaid tabs and a taste for strong drink, but his nights in the city’s underbelly brought him near darker dealings.",
+ "summary": "In Stormwind Keep, Lord Baurles K. Wishock moves among petitioners and dignitaries. His unpaid tavern tabs and taste for strong drink have brought him close to darker dealings in the city.",
  "sections": [
   {
    "title": "A Nobleman's Dangerous Curiosity",
-   "body": "Lord Baurles K. Wishock moves among petitioners and dignitaries in Stormwind Keep, where he belongs to the influential House of Nobles. Though his station is high, he often drinks in the Mage Quarter’s dive bars, especially the Slaughtered Lamb, and leaves large bills unpaid. There, he hears of a warlock coven practicing dark arts in cellars beneath the floorboards. Wishock sets out to have the tavern closed and asks fellow nobles for a formal investigation. Uncovering demonic cabals in Stormwind rarely goes unpunished.",
+   "body": "Lord Baurles K. Wishock belongs to the influential House of Nobles and moves among petitioners and dignitaries in Stormwind Keep. Yet he often drinks in Mage Quarter dive bars, especially the Slaughtered Lamb, and leaves large bills unpaid. There he hears of a warlock coven practicing dark arts in cellars beneath the floorboards. Wishock seeks to close the tavern and asks fellow nobles for a formal inquiry. Uncovering demonic cabals in Stormwind rarely goes unpunished.",
    "spoiler": 0
   },
   {
    "title": "A Poisoned Cup",
-   "body": "Lord Baurles K. Wishock’s efforts put him in the warlocks’ sights. To avoid royal scrutiny and an inquiry into their underground sanctum, Zardeth of the Black Claw arranges the nobleman’s quiet killing. The coven exploits Wishock’s thirst for luxury vintages, preparing a lethal drink disguised as fine ale. A hired adventurer is arranged to carry it to Wishock beneath the Keep guards’ noses.",
+   "body": "Zardeth of the Black Claw arranges Lord Baurles K. Wishock’s quiet killing to avoid royal scrutiny and an inquiry into the coven’s underground sanctum. The warlocks exploit Wishock’s taste for luxury vintages and prepare a lethal drink disguised as fine ale. A hired adventurer is chosen to carry it to Wishock beneath the Keep guards’ noses.",
    "spoiler": 1
   }
  ],
@@ -29,7 +29,7 @@
     "who is wishock",
     "noble petitioner"
    ],
-   "answer": "Lord Baurles K. Wishock belongs to the House of Nobles and spends his days in the Petitioner's Chamber inside Stormwind Keep. In the Mage Quarter, barkeeps know him for large, unpaid drinking tabs."
+   "answer": "Lord Baurles K. Wishock belongs to the House of Nobles and spends his days in the Petitioner's Chamber inside Stormwind Keep. Mage Quarter barkeeps know him for his large, unpaid drinking tabs."
   },
   {
    "q": "Where can Lord Wishock be found?",
@@ -38,7 +38,7 @@
     "where is wishock",
     "find lord wishock"
    ],
-   "answer": "Lord Baurles K. Wishock can be found in the Petitioner's Chamber on the eastern side of Stormwind Keep, among courtiers, diplomats, and supplicants awaiting royal attention."
+   "answer": "Lord Baurles K. Wishock can be found in the Petitioner's Chamber on the eastern side of Stormwind Keep. Courtiers, diplomats, and supplicants gather there while awaiting royal attention."
   },
   {
    "q": "Why do the warlocks beneath the Slaughtered Lamb want him dead?",
@@ -56,13 +56,13 @@
     "wishock poison",
     "a noble brew"
    ],
-   "answer": "Zardeth of the Black Claw prepares a deadly poison disguised as an exquisite drink. An agent brings the poisoned cask to Lord Baurles K. Wishock in Stormwind Keep, where his taste for fine alcohol and free drinks makes him an easy target."
+   "answer": "Zardeth of the Black Claw prepares a deadly poison disguised as an exquisite drink. An agent carries the poisoned cask to Lord Baurles K. Wishock in Stormwind Keep, where his taste for fine alcohol and free drinks makes him an easy target."
   }
  ],
  "angles": [
   {
    "target": "class:Warlock",
-   "text": "As a warlock, you know Wishock’s investigation of the Slaughtered Lamb threatens Stormwind’s shadow coven. His quiet death becomes a priority for its members."
+   "text": "As a warlock, you know Lord Baurles K. Wishock’s investigation of the Slaughtered Lamb threatens Stormwind’s shadow coven. His quiet death becomes a priority for its members."
   },
   {
    "target": "race:Human",
@@ -90,5 +90,5 @@
  "attribution": [
   "Lord Baurles K. Wishock"
  ],
- "style": 1
+ "style": 2
 }

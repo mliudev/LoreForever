@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Fargodeep Mine"
  },
- "summary": "Kobolds now swarm through Fargodeep Mine, south of Goldshire in central Elwynn Forest. The mine once brought gold to Stormwind, but its tunnels are now a kobold warren.",
+ "summary": "Kobolds now swarm through Fargodeep Mine, south of Goldshire in central Elwynn Forest. Its gold once filled Stormwind's treasury, but now kobolds make their home in its tunnels.",
  "sections": [
   {
    "title": "A Lost Vein",
-   "body": "Gold once flowed from Fargodeep Mine into Stormwind's treasury. As the Kingdom's military presence in Elwynn dwindled, outlying resources became vulnerable. Kobolds soon filled the mine's dark tunnels and made a warren beneath the hills. Marshal Dughan and Goldshire's authorities fear the lost ore and the danger to nearby farms, including the Stonefield and Maclure holdings.",
+   "body": "Gold once flowed from Fargodeep Mine into Stormwind's treasury. As the Kingdom's military presence in Elwynn dwindled, the outlying mine grew vulnerable. Kobolds filled its dark tunnels and made a warren beneath the hills. Now Marshal Dughan and Goldshire's authorities fear the lost ore and the danger to nearby farms, including the Stonefield and Maclure holdings.",
    "spoiler": 0
   },
   {
@@ -37,7 +37,7 @@
     "kobold threat",
     "stonefield kobolds"
    ],
-   "answer": "Fargodeep Mine lies between the Stonefield and Maclure family farms. Kobolds come out of its tunnels to steal livestock, tools, and personal belongings, and harass anyone near the entrance."
+   "answer": "Fargodeep Mine lies between the Stonefield and Maclure family farms. Kobolds come out of its tunnels to steal livestock, tools, and personal belongings. They also harass anyone near the entrance."
   },
   {
    "q": "Who is Goldtooth?",
@@ -55,7 +55,7 @@
     "why gather candles",
     "gold dust"
    ],
-   "answer": "People in Goldshire see a reason to clear the pests from Fargodeep Mine. Remy 'Two Times' buys salvaged gold dust, the alchemist William Pestle uses kobold candle wax for reagents, and Marshal Dughan needs the infestation monitored to protect Elwynn."
+   "answer": "People in Goldshire see a reason to clear the pests from Fargodeep Mine. Remy 'Two Times' buys salvaged gold dust, while the alchemist William Pestle uses kobold candle wax for reagents. Marshal Dughan needs the infestation monitored to protect Elwynn."
   }
  ],
  "angles": [
@@ -91,5 +91,5 @@
  "attribution": [
   "Fargodeep Mine"
  ],
- "style": 1
+ "style": 2
 }

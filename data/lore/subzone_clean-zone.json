@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Clean Zone"
  },
- "summary": "Gnomes hold the Clean Zone as a refuge inside ruined Gnomeregan. Beyond the upper Hall of Gears, this fortified enclave remains safe amid the irradiated city, where medics, technicians, and Sparklematic machines support the defenders and salvage work.",
+ "summary": "Gnomes hold the Clean Zone as a refuge inside ruined Gnomeregan. Beyond the upper Hall of Gears, this fortified enclave stays safe amid the irradiated city. Medics, technicians, and Sparklematic machines support its defenders and salvage work.",
  "sections": [
   {
    "title": "A Bastion in the Slag",
-   "body": "The Clean Zone remains untainted while most of Gnomeregan fell to Mekkatorque's disastrous venting of radioactive waste. It lies between the trogg-infested Dormitory below and the contested corridors of the Hall of Gears above. Gnome defenders, technicians, and field medics hold its barricades day and night. Alliance expeditions can regroup here, tend their wounds, and maintain their machinery.",
+   "body": "The Clean Zone remains untainted while most of Gnomeregan fell to Mekkatorque's disastrous venting of radioactive waste. It lies between the trogg-infested Dormitory below and the contested Hall of Gears above. Gnome defenders, technicians, and field medics hold its barricades day and night. Alliance expeditions regroup here, tend wounds, and maintain their machinery.",
    "spoiler": 0
   },
   {
    "title": "The Sparklematic 5200",
-   "body": "The Clean Zone also supports salvage from Gnomeregan's ruined capital. Gnomish engineers installed Sparklematic 5200 units to scrub and wash grime-encrusted relics brought up from the city's radioactive depths. Technicians and merchants such as Tink Sprocketwhistle process the reclaimed gears and baubles, outfit adventurers, and study the toxic fallout in the deep tunnels.",
+   "body": "The Clean Zone also supports salvage from Gnomeregan's ruined capital. Gnomish engineers installed Sparklematic 5200 units to scrub and wash grime-encrusted relics brought up from the city's radioactive depths. Technicians and merchants such as Tink Sprocketwhistle process reclaimed gears and baubles, outfit adventurers, and study the toxic fallout in the deep tunnels.",
    "spoiler": 0
   }
  ],
@@ -61,11 +61,11 @@
  "angles": [
   {
    "target": "race:Gnome",
-   "text": "As a gnome, you can see the Clean Zone as a grim reminder of your home's fall and a beacon of hope that Gnomeregan's technology can still be reclaimed from the troggs."
+   "text": "As a gnome, you see the Clean Zone as a grim reminder of your home's fall and a beacon of hope that Gnomeregan's technology can still be reclaimed from the troggs."
   },
   {
    "target": "profession:Engineering",
-   "text": "As an engineer, you can use the working Sparklematic 5200 units here to scour irradiated junk for rare schematics and mechanical parts. Merchant Tink Sprocketwhistle is also here."
+   "text": "As an engineer, you can use the working Sparklematic 5200 units here to scour irradiated junk for rare schematics and mechanical parts. Merchant Tink Sprocketwhistle is here too."
   }
  ],
  "keywords": [
@@ -88,5 +88,5 @@
  "attribution": [
   "Clean Zone"
  ],
- "style": 1
+ "style": 2
 }

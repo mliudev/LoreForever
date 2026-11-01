@@ -11,21 +11,21 @@
   "levels": "",
   "aliases": []
  },
- "summary": "Beneath the shattered ruins of Lordaeron's Capital City, the Undercity is the Forsaken's dark stronghold. Lady Sylvanas Windrunner took it from the Scourge and remade it into an impenetrable sanctuary. Today it is the seat of Forsaken power and the Horde's vital bastion in the northern Eastern Kingdoms.",
+ "summary": "Beneath the shattered ruins of Lordaeron's capital lies the Undercity, the dark stronghold of the Forsaken. Lady Sylvanas Windrunner took it from the Scourge, and made it a sanctuary no enemy can breach. Today it is the seat of Forsaken power. And it is the Horde's great bastion, in the north of the Eastern Kingdoms.",
  "sections": [
   {
    "title": "From Royal Crypts to Scourge Redoubt",
-   "body": "Long before the plague, the catacombs, dungeons and sewers beneath the palace were already called the Undercity. They held the tombs of nobles, the poorest people of the realm and the kingdom's deepest prisons, where the former Warchief Orgrim Doomhammer was held before his escape. In the Third War, Arthas Menethil murdered King Terenas and laid waste to the capital. The prince then set his undead servants to dig out and expand the passages into a fortified seat of Scourge rule.",
+   "body": "Long before the plague, the catacombs and sewers beneath the palace were already called the Undercity. Nobles lay entombed there, beside the poorest people of the realm. And there lay the kingdom's deepest prisons. Even Orgrim Doomhammer, the former Warchief, was held in them before he escaped.\n\nIn the Third War, Arthas Menethil murdered King Terenas, and laid waste to the capital. Then the prince set his undead servants to dig. They widened the old passages into a fortified seat of Scourge rule. But the Scourge never saw their dark capital finished.",
    "spoiler": 0
   },
   {
    "title": "Rise of the Forsaken",
-   "body": "The Scourge never saw their dark capital finished. When the Lich King's power waned after the battle of Mount Hyjal, Lady Sylvanas Windrunner broke free of the hive mind and took thousands of undead with her. She lured Arthas into an ambush and drove him back to Northrend. After a vicious three-way civil war against Scourge remnants, dreadlords and the human resistance, she claimed the half-finished catacombs. She named her people the Forsaken and oversaw years of labor to complete the sprawling city.",
+   "body": "When the Lich King's power waned, Lady Sylvanas Windrunner broke free of his will, and took thousands of undead with her. She ambushed Arthas, and he fled back to Northrend. A vicious civil war followed, against the Scourge remnants, the dreadlords and the human resistance. Out of it, Sylvanas claimed the half-finished catacombs. She named her people the Forsaken, and oversaw years of labor on the sprawling city.",
    "spoiler": 0
   },
   {
    "title": "Architecture of the Damned",
-   "body": "The city spreads in concentric rings divided into quarters. At its heart is the Trade Quarter, linked by great lifts to the palace ruins above. Around it lie the War Quarter, the Rogues' Quarter, the Magic Quarter and the toxic Apothecarium, where the Royal Apothecary Society brews virulent plagues beside canals of green slime. Deeper still, in the Royal Quarter, the Banshee Queen holds court with her dreadlord commander, Varimathras, guarded by legions of towering abominations.",
+   "body": "The city spreads in rings around the Trade Quarter, and great lifts join it to the palace ruins above. Around it lie the other quarters, and among them is the toxic Apothecarium. There the Royal Apothecary Society brews virulent plagues, beside canals of green slime. Deeper still, the Banshee Queen holds court in the Royal Quarter, with her dreadlord commander Varimathras. Legions of towering abominations stand guard.",
    "spoiler": 0
   }
  ],
@@ -37,7 +37,7 @@
     "what was undercity originally",
     "lordaeron sewers history"
    ],
-   "answer": "Beneath the palace of Lordaeron lay the ancient crypts of human royalty, along with the city's dungeon complex and vast sewer network. It housed prisoners of war, including Orgrim Doomhammer, as well as destitute citizens living in the subterranean shadows. After sacking the capital, Prince Arthas began turning these catacombs into a Scourge fortress before Sylvanas captured them."
+   "answer": "Beneath the palace of Lordaeron lay the ancient crypts of human royalty, along with the city's dungeon complex and vast sewer network. It housed prisoners of war, including Orgrim Doomhammer, as well as destitute citizens living in the subterranean shadows. The dungeons beneath the palace were already called the Undercity. After sacking the capital, Prince Arthas began turning these catacombs into a Scourge fortress before Sylvanas captured them."
   },
   {
    "q": "Why is the city built underground instead of on the surface?",
@@ -55,7 +55,7 @@
     "undercity ruler",
     "who runs undercity"
    ],
-   "answer": "The city is ruled by Lady Sylvanas Windrunner, the Banshee Queen and Queen of the Forsaken. She governs from the Royal Quarter, guarded by Forsaken royal sentries and her subjugated dreadlord lieutenant, Varimathras."
+   "answer": "The city is ruled by Lady Sylvanas Windrunner, the Banshee Queen and Queen of the Forsaken. She governs from the Royal Quarter, guarded by Forsaken royal sentries and her subjugated dreadlord lieutenant, Varimathras. Sylvanas broke free of the Lich King's will after the battle of Mount Hyjal. The city also has a War Quarter, Rogues' Quarter, and Magic Quarter."
   },
   {
    "q": "What is King Terenas's memorial in the ruins above?",
@@ -128,5 +128,5 @@
  "attribution": [
   "Undercity"
  ],
- "style": 1
+ "style": 2
 }

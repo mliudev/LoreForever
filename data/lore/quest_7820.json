@@ -11,11 +11,11 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "Thunder Bluff is accepting wool cloth donations, and sixty pieces earn its full recognition for your generosity. Its stores need that amount from you, with further supplies expected from other donors.",
+ "summary": "Thunder Bluff seeks wool cloth, and you can earn its full recognition by giving sixty pieces. Other donors are expected to bring enough supplies to support the drive.",
  "sections": [
   {
    "title": "A Cloth Donation",
-   "body": "Thunder Bluff is gathering wool cloth. You can give sixty pieces, the amount its stores need from you, and earn full recognition for your generosity. The drive expects to gather enough from others in the realm to support it.",
+   "body": "Thunder Bluff is gathering wool cloth. Give sixty pieces to earn full recognition for your generosity. Other donors in the realm are expected to bring enough to support the drive.",
    "spoiler": 0
   }
  ],
@@ -36,7 +36,7 @@
     "sixty cloth",
     "donation amount"
    ],
-   "answer": "Sixty pieces of wool cloth earn full recognition from Thunder Bluff."
+   "answer": "Give sixty pieces of wool cloth to earn full recognition from Thunder Bluff."
   },
   {
    "q": "What do I get for donating wool?",
@@ -45,7 +45,7 @@
     "what's the recognition",
     "donation reward"
    ],
-   "answer": "Giving sixty pieces of wool cloth earns you full recognition by Thunder Bluff."
+   "answer": "Your gift of sixty pieces of wool cloth earns full recognition from Thunder Bluff."
   },
   {
    "q": "Why is Thunder Bluff collecting wool?",
@@ -54,7 +54,7 @@
     "what is wool for",
     "why collect cloth"
    ],
-   "answer": "The donation drive is gathering wool cloth, and Thunder Bluff expects to get enough from other donors in the realm to support it."
+   "answer": "Thunder Bluff expects other donors in the realm to provide enough wool cloth to support the donation drive."
   }
  ],
  "angles": [],
@@ -70,7 +70,7 @@
  "related": [
   "zone:thunderbluff"
  ],
- "style": 1,
+ "style": 2,
  "attribution": [
   "In-game quest text: A Donation of Wool"
  ]

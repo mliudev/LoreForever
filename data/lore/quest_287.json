@@ -20,16 +20,16 @@
    "The Reports"
   ]
  },
- "summary": "In the peaks above Iceflow Lake, Frostmane trolls guard their cavern stronghold. Senir Whitebeard, stationed in Kharanos, sends scouts inside to kill headhunters and bring back intelligence for his reports.",
+ "summary": "Above Iceflow Lake, Frostmane trolls guard a cavern stronghold in the western peaks. Senir Whitebeard, a mountaineer and scout in Kharanos, sends you to scout its depths and bring back intelligence for his reports.",
  "sections": [
   {
    "title": "A Scout Behind Schedule",
-   "body": "Senir Whitebeard tracks the Frostmane threat across Dun Morogh from Kharanos. The mountaineer and scout followed the aggressive tribes to their main cavern southwest of Brewnall Village, but armed trolls crowd its entrance. Senir is falling severely behind on his official reports, and he will not enter alone. He hires passing adventurers to scout the icy cavern in his place.",
+   "body": "Senir tracked the aggressive tribes to their main cavern southwest of Brewnall Village. Armed trolls crowd the entrance. Behind on his official reports, Senir will not enter alone, so he hires you to scout the icy cavern in his place.",
    "spoiler": 0
   },
   {
    "title": "Breaching the Cavern",
-   "body": "Carved into the western peaks above Iceflow Lake, the stronghold is a freezing refuge packed with hostile ice trolls. Scouts must fight through its underground tunnels, kill the Frostmane Headhunters stationed along the ledges, and map the interior. The survivors' findings give Senir the intelligence he needs to complete his report for Ironforge's military commanders.",
+   "body": "Above Iceflow Lake, the stronghold is carved into the western peaks and packed with hostile ice trolls. You fight through underground tunnels, kill the Frostmane Headhunters stationed along the ledges, and map the interior. Your findings give Senir the intelligence he needs to complete his report for Ironforge's military commanders.",
    "spoiler": 0
   }
  ],
@@ -58,7 +58,7 @@
     "why is senir scared",
     "why didn't senir go"
    ],
-   "answer": "Senir scouted the entrance and found the tribe gathered there, but so many armed trolls filled the cave that he feared entering alone. He is worried for his safety and running late on his scouting deadlines, so he leaves the dangerous scouting to capable adventurers."
+   "answer": "Senir scouted the entrance and found the tribe gathered there, but armed trolls filled the cave and he feared entering alone. Worried for his safety and running late on his scouting deadlines, he leaves the dangerous scouting to capable adventurers."
   },
   {
    "q": "Who are the Frostmane trolls?",
@@ -67,7 +67,7 @@
     "trolls dun morogh",
     "dun morogh trolls"
    ],
-   "answer": "The Frostmane are an ice troll tribe native to the snowy crags of Dun Morogh. They are bitter enemies of the Ironforge dwarves and gnomes, and often raid trade routes, camps, and settlements from hidden encampments across the region."
+   "answer": "The Frostmane are an ice troll tribe native to the snowy crags of Dun Morogh. Bitter enemies of the Ironforge dwarves and gnomes, they often raid trade routes, camps, and settlements from hidden encampments across the region."
   },
   {
    "q": "What happens after completing the recon of the hold?",
@@ -76,7 +76,7 @@
     "what after frostmane hold",
     "the reports quest"
    ],
-   "answer": "When you return with news of the cavern's layout and the headhunters killed, Senir finishes his report and asks you to deliver the urgent papers to his superiors in Dun Morogh."
+   "answer": "When you return with news of the cavern's layout and the headhunters killed, Senir finishes his report. He asks you to deliver the urgent papers to his superiors in Dun Morogh."
   },
   {
    "q": "How deep into the cave do you have to go?",
@@ -84,7 +84,7 @@
     "fully explore frostmane hold",
     "cave exploration trigger"
    ],
-   "answer": "You need to explore well beyond the entrance, scout the interior chambers, and slay five Frostmane Headhunters. Their deaths confirm that the cavern's depths have been thoroughly investigated."
+   "answer": "Explore beyond the entrance, scout the interior chambers, and slay five Frostmane Headhunters. Their deaths confirm that the cavern's depths have been thoroughly investigated."
   }
  ],
  "angles": [
@@ -124,5 +124,5 @@
  "attribution": [
   "Frostmane Hold (quest)"
  ],
- "style": 1
+ "style": 2
 }

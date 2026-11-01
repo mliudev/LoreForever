@@ -11,7 +11,7 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "Malah's report reaches Baine Bloodhoof, and his response is grim. He says the matter will not go unanswered.",
+ "summary": "Malah's report has reached Baine Bloodhoof, and his answer is grim. The matter will not go unanswered.",
  "sections": [],
  "faq": [
   {
@@ -30,7 +30,7 @@
     "what does Baine say",
     "report response"
    ],
-   "answer": "After reading it, Baine says the matter will not go unanswered."
+   "answer": "After reading Malah's report, Baine says the matter will not go unanswered."
   },
   {
    "q": "Who brought the report to Baine?",
@@ -53,7 +53,7 @@
  "related": [
   "npc:baine-bloodhoof"
  ],
- "style": 1,
+ "style": 2,
  "attribution": [
   "In-game quest text: Our Ancient Enemy"
  ]

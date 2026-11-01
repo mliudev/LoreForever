@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Deathknell"
  },
- "summary": "Newly awakened Forsaken gather in Deathknell, a fortified village in a secluded valley of southwestern Tirisfal Glades. Mindless Scourge, Scarlet zealots, and dangerous beasts press the settlement as the undead claim a place in Sylvanas Windrunner’s kingdom.",
+ "summary": "Deathknell is where the newly freed dead first wake, in a hidden valley of southwestern Tirisfal. They have broken from the Lich King's grasp, and here they join the Forsaken. But mindless Scourge, zealots and wild beasts beset the village. For anyone who would claim a place in Sylvanas Windrunner's kingdom, it is a harsh first trial.",
  "sections": [
   {
    "title": "Cradle of the Forsaken",
-   "body": "You enter Deathknell through a narrow gorge, sealed by elite Deathguards against intruders. Newly awakened undead first open their eyes here, north of the Silverpine border and behind jagged hills. Most Tirisfal settlements kept the human names they bore under the fallen Kingdom of Lordaeron, but the undead who claimed this town gave it a new name. The old church anchors the southern grounds, where the Forsaken hold on. North of it, the village forge and surrounding streets remain overrun by mindless Scourge zombies and feral ghouls. Local caretakers bring new arrivals into the Banshee Queen’s service.",
+   "body": "The valley lies behind jagged hills, just north of the Silverpine border. Elite Deathguards keep the narrow gorge out of the valley sealed. Most towns in Tirisfal kept their human names from fallen Lordaeron. This one did not. The undead who claimed it named it Deathknell.\n\nThe town itself is split in two. Its northern half is still overrun by mindless zombies and feral ghouls, the village forge with it. The Forsaken cling to the southern grounds, around the old church. There the caretakers take in each new arrival, and bring them into the Banshee Queen's service.",
    "spoiler": 0
   },
   {
    "title": "A Valley Under Siege",
-   "body": "Deathknell faces danger from every side. Night Web’s Hollow, a gold mine northwest of the village, has fallen to monstrous spiders, cutting off a resource vital to the Forsaken’s fledgling economy. Southeast of town, the Scarlet Crusade keeps an encampment in the hills, watches the pass, and trades couriers with strongholds to the east while testing the valley’s defenses. Caretakers fight the mindless undead roaming the northern ruins and gather scrap metal, tools, and supplies for newly arisen souls setting out on the long road ahead.",
+   "body": "Survival here is never certain. To the northwest, monstrous spiders have taken Night Web's Hollow, a gold mine the young Forsaken nation needs. To the southeast, the Scarlet Crusade keeps a camp, and watches the valley without rest. Its couriers run to the Crusade's strongholds in the east, and its scouts probe Deathknell's defenses. And in the northern ruins, the caretakers must still fight off the mindless dead.",
    "spoiler": 0
   }
  ],
@@ -37,7 +37,7 @@
     "scourge in deathknell",
     "mindless ones deathknell"
    ],
-   "answer": "Many corpses raised after the Third War did not regain their minds. The northern village square and forge are infested with the Mindless Ones, feral zombies, ghouls, and skeletons still driven by the Scourge’s lingering will. Forsaken defenders clear them out to salvage equipment and guard the church."
+   "answer": "Many corpses raised after the Third War did not regain their minds. The northern village square and forge are infested with the Mindless Ones, feral zombies, ghouls, and skeletons still driven by the Scourge’s lingering will. Forsaken defenders clear them out to salvage equipment and guard the church. Caretakers gather scrap metal, tools, and supplies for newly arisen souls setting out on the road ahead."
   },
   {
    "q": "What is the Scarlet Crusade doing near Deathknell?",
@@ -55,7 +55,7 @@
     "night webs hollow",
     "spider mine tirisfal"
    ],
-   "answer": "Night Web’s Hollow, in the cliffs northwest of Deathknell, is overrun by aggressive spiders. Gold matters to the Forsaken war effort, but the settlement cannot exploit the vein while the spiders remain."
+   "answer": "Night Web’s Hollow, in the cliffs northwest of Deathknell, is overrun by aggressive spiders. Gold matters to the Forsaken war effort, but the settlement cannot exploit the vein while the spiders remain. Its loss cuts off a resource vital to the Forsaken’s fledgling economy."
   }
  ],
  "angles": [
@@ -89,5 +89,5 @@
  "attribution": [
   "Deathknell"
  ],
- "style": 1
+ "style": 2
 }

@@ -11,11 +11,11 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "The search for the Menethil Statuette continues among nearby Murloc hovels. This cluster holds no sign of it, so you look toward two more shelters.",
+ "summary": "The search for the Menethil Statuette continues among nearby Murloc hovels. These shelters hold no sign of it, so you turn to two more.",
  "sections": [
   {
    "title": "Empty Hovels",
-   "body": "You search this cluster of Murloc hovels, but find no trace of the Menethil Statuette. The nearby hovels to the north and northeast may hold more clues.",
+   "body": "You search this cluster of Murloc hovels, but find no trace of the Menethil Statuette. Two nearby shelters to the north and northeast may hold clues.",
    "spoiler": 0
   }
  ],
@@ -45,7 +45,7 @@
     "where look",
     "north huts"
    ],
-   "answer": "Two nearby hovels to the north and northeast may hold more clues."
+   "answer": "Look in the nearby hovels to the north and northeast for more clues."
   },
   {
    "q": "What is in the barrel?",
@@ -54,7 +54,7 @@
     "cheese barrel",
     "what's in barrel"
    ],
-   "answer": "The barrel contains damp, pungent cheese that is still tasty."
+   "answer": "The barrel holds damp, pungent cheese that is still tasty."
   }
  ],
  "angles": [],
@@ -70,7 +70,7 @@
   "item:menethil-statuette",
   "topic:murloc"
  ],
- "style": 1,
+ "style": 2,
  "attribution": [
   "In-game quest text: The Search Continues"
  ]

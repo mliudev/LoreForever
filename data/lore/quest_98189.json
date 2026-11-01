@@ -11,11 +11,11 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "A recovered statuette was meant for Menethil Harbor before tragedy interrupted its delivery. You are asked to bring it to Captain Stoutfist at Menethil Keep.",
+ "summary": "A statuette's delivery to Menethil Harbor was interrupted by tragedy. You are asked to bring it to Captain Stoutfist at Menethil Keep.",
  "sections": [
   {
    "title": "An Unfinished Delivery",
-   "body": "The statuette was meant to reach Menethil Harbor, with Captain Stoutfist at Menethil Keep expected to sign for it. You are asked to finish the delivery.",
+   "body": "The statuette was meant for Menethil Harbor, where Captain Stoutfist at Menethil Keep was expected to sign for it. Now you are asked to finish the delivery.",
    "spoiler": 0
   }
  ],
@@ -72,7 +72,7 @@
   "subzone:menethil-keep",
   "subzone:menethil-harbor"
  ],
- "style": 1,
+ "style": 2,
  "attribution": [
   "In-game quest text: Return the Statuette"
  ]

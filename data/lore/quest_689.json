@@ -17,16 +17,16 @@
   "wiki": "A King's Tribute (2)",
   "chain": []
  },
- "summary": "King Magni Bronzebeard has ordered a memorial for Sully Balloo, who died defending the Thandol Span. Grand Mason Marblesten sends you to Hillsbrad for Alterac Granite worthy of the fallen soldier.",
+ "summary": "King Magni Bronzebeard has ordered a memorial for Sully Balloo, who died defending the Thandol Span. Grand Mason Marblesten sends you north to Hillsbrad for stone worthy of the fallen soldier.",
  "sections": [
   {
    "title": "A Royal Commission",
-   "body": "King Magni Bronzebeard has given Grand Mason Marblesten a royal commission: a lasting memorial to Sully Balloo. Balloo died in the disaster at the Thandol Span, a vital artery between the dwarven lands and the northern kingdoms. Dark Iron saboteurs have attacked the span, and Marblesten means to make a sculpture that can withstand time and war. His work will ensure dwarven sacrifice is neither overlooked nor forgotten in the Great Forge.",
+   "body": "Grand Mason Marblesten carries King Magni Bronzebeard’s commission to honor Sully Balloo. Sully died in the disaster at the Thandol Span. Dark Iron saboteurs have attacked the span, a vital artery between the dwarven lands and the northern kingdoms. Marblesten will shape a sculpture to withstand time and war, so the Great Forge remembers the dwarven sacrifice.",
    "spoiler": 0
   },
   {
    "title": "Stone of the North",
-   "body": "Grand Mason Marblesten will use only Alterac Granite for Sully Balloo's likeness. The stone is dense and resilient, with a clean texture prized by masons. The best deposits lie around Darrow Hill, in the contested foothills of Hillsbrad. The journey into the troubled north is dangerous, but Marblesten seeks stone worthy of the heroism it will honor.",
+   "body": "For Sully Balloo’s likeness, Marblesten requires Alterac Granite. Its dense, resilient stone and clean texture make it prized by masons. The finest deposits lie around Darrow Hill in Hillsbrad’s contested foothills. The journey into the troubled north is dangerous, but Marblesten seeks stone worthy of the heroism it will honor.",
    "spoiler": 0
   }
  ],
@@ -56,7 +56,7 @@
     "alterac granite purpose",
     "what is alterac granite"
    ],
-   "answer": "Alterac Granite is prized across the Eastern Kingdoms for its density, fine grain, and resistance to erosion. Marblesten believes only stone of this caliber can make a royal tribute endure through the ages."
+   "answer": "Alterac Granite is prized across the Eastern Kingdoms for its density, fine grain, and resistance to erosion. Marblesten believes only stone of this quality can make a royal tribute endure through the ages."
   },
   {
    "q": "Where is Darrow Hill?",
@@ -122,5 +122,5 @@
  "attribution": [
   "A King's Tribute (2)"
  ],
- "style": 1
+ "style": 2
 }

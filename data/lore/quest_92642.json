@@ -14,11 +14,11 @@
  "angles": [
   {
    "target": "class:Priest",
-   "text": "Priests recognize the vital role healing support plays in sustaining an offensive line, making the Al'Aketh healers the linchpin of the cultist assault."
+   "text": "As a priest, you know how healing support can sustain an offensive line. The Al'Aketh healers are the linchpin of the cultist assault."
   },
   {
    "target": "class:Rogue",
-   "text": "Slipping behind enemy lines to eliminate high-priority healers and disrupt vanguard reinforcements is standard tactical sabotage for rogues."
+   "text": "As a rogue, you know the value of slipping behind enemy lines to eliminate healers and disrupt reinforcements."
   }
  ],
  "faq": [
@@ -28,7 +28,7 @@
     "disrupting logistics quest",
     "gustberry lowlands quest"
    ],
-   "answer": "Disrupting Logistics is an urgent defensive mission to blunt a full-scale assault by Al'Aketh cultists in the Gustberry Lowlands. A lone defender holding the line requires immediate aid to take out the enemy's front-line sustainment before their defenders collapse entirely.",
+   "answer": "Disrupting Logistics is a desperate defense against the Al'Aketh assault in the Gustberry Lowlands. A lone defender needs help taking out the enemy's front-line support before the defense collapses.",
    "q": "What is the quest Disrupting Logistics?"
   },
   {
@@ -37,7 +37,7 @@
     "who is attacking gustberry lowlands",
     "who are the cultists"
    ],
-   "answer": "The attackers are Al'Aketh cultists, comprising aggressive brawlers and supportive healers pressing an active assault into the Gustberry Lowlands. Their organized front relies heavily on dedicated healing support to maintain continuous pressure against the local defenders.",
+   "answer": "Al'Aketh cultists are attacking the Gustberry Lowlands with brawlers and healers. Their organized front depends on healing support to keep pressure on the local defenders.",
    "q": "Who are the Al'Aketh cultists attacking the lowlands?"
   },
   {
@@ -45,7 +45,7 @@
     "why kill healers",
     "why target alaketh healers"
    ],
-   "answer": "The Al'Aketh healers provide the continuous restorative support that keeps the vanguard fighters charging forward without respite. By cutting off these healers, the defense hopes to break the momentum of the assault and create an opening to rally and push the cultists back.",
+   "answer": "The Al'Aketh healers keep the vanguard fighters pressing forward. Taking them out may break the assault's momentum and give the defenders a chance to rally and push the cultists back.",
    "q": "Why are the Al'Aketh healers specifically targeted?"
   },
   {
@@ -53,7 +53,7 @@
     "where is gustberry lowlands",
     "gustberry lowlands location"
    ],
-   "answer": "The Gustberry Lowlands sit directly down the hill from the defensive outpost being besieged by the cultists. It is currently overrun by Al'Aketh brawlers and healers pushing their forward assault.",
+   "answer": "The assault is taking place in the Gustberry Lowlands, directly down the hill from the defensive outpost. Al'Aketh brawlers and healers have overrun the lowlands and are pressing their attack.",
    "q": "Where does this assault take place?"
   },
   {
@@ -61,7 +61,7 @@
     "who is valennia",
     "valennia reinforcements"
    ],
-   "answer": "Valennia appears to be a leader or coordinator responsible for organizing aid and reinforcements, though the defender expresses exasperation that Valennia managed to send only a single adventurer to counter a massive assault.",
+   "answer": "Valennia appears to organize aid and reinforcements. The defender is exasperated that Valennia sent only one adventurer against a massive assault.",
    "q": "Who is Valennia?"
   },
   {
@@ -69,7 +69,7 @@
     "who gives disrupting logistics",
     "who are my people holding out"
    ],
-   "answer": "The quest is offered by a beleaguered defender whose people are on the brink of being overwhelmed by the Al'Aketh cultists. Expressing reverence for 'the winds,' the defender is desperate for any fighting force to turn the tide of battle.",
+   "answer": "A beleaguered defender offers the call for aid as their people near defeat before the Al'Aketh. The defender reveres 'the winds' and needs any fighting force that can turn the battle.",
    "q": "Who commands the defense against the Al'Aketh?"
   }
  ],
@@ -85,18 +85,19 @@
  "related": [],
  "sections": [
   {
-   "body": "A fierce assault threatens to overwhelm the defenders stationed above the Gustberry Lowlands. With enemy forces massing and local lines stretched to the breaking point, desperation has set in for the frontline commanders. Expecting substantial reinforcements from Valennia, the defenders find themselves forced to rely on whatever capable hands arrive, praying that surgical strikes against the enemy's support network can stave off imminent collapse.",
+   "body": "A fierce assault is bearing down on the defenders above the Gustberry Lowlands. Enemy forces are gathering, and the local lines are near breaking. The commanders expected substantial reinforcements from Valennia, but they must rely on whatever capable hands arrive. Strikes against the enemy's support may be the only way to hold the defense together.",
    "spoiler": 0,
    "title": "A Desperate Defense"
   },
   {
-   "body": "The Al'Aketh assault relies on coordinated ranks of fierce brawlers anchored by dedicated healers who mend wounds and sustain the frontline push. Down in the Gustberry Lowlands, eliminating these healers breaks the backbone of the cultist offensive, cutting off their logistical endurance and allowing the defenders an opportunity to rally and repel the invasion.",
+   "body": "Al'Aketh brawlers press forward in ranks, sustained by healers who mend their wounds. In the Gustberry Lowlands, taking out those healers can break the cultists' push. That gives the defenders a chance to rally and drive back the invasion.",
    "spoiler": 0,
    "title": "Breaking the Cultist Line"
   }
  ],
- "summary": "Disrupting Logistics tasks adventurers with blunting a full-scale Al'Aketh cultist assault in the Gustberry Lowlands. By eliminating the enemy healers who sustain the frontline brawlers, players help beleaguered local defenders turn the tide before their lines collapse.",
+ "summary": "At the Gustberry Lowlands, Al'Aketh cultists are pressing a full-scale assault. Their healers keep the brawlers fighting, and the defenders need help before their lines give way.",
  "attribution": [
   "In-game quest text: Disrupting Logistics"
- ]
+ ],
+ "style": 2
 }

@@ -10,16 +10,16 @@
    "quest:689"
   ]
  },
- "summary": "Across the mountains of northern Lordaeron, Alterac Granite is quarried near Darrow Hill in the Hillsbrad Foothills. Its resilience and grain draw master stonecutters, and King Magni Bronzebeard's royal mason insists on it for a tribute to fallen soldiers.",
+ "summary": "Near Darrow Hill in the northern Hillsbrad Foothills, Alterac Granite draws master stonecutters with its resilience and grain. King Magni Bronzebeard’s royal mason insists on the stone for a tribute to fallen soldiers.",
  "sections": [
   {
    "title": "Stone of Memorials",
-   "body": "King Magni Bronzebeard ordered a monument for Sully Balloo, a brave dwarven defender who perished in the tragedy at the Thandol Span. Grand Mason Marblesten, charged with sculpting it in Ironforge, insisted on Alterac Granite instead of ordinary quarry stone. Across the Eastern Kingdoms, few stones are finer. Its legendary durability ensures the likeness and memory of a fallen hero endure untarnished for generations.",
+   "body": "King Magni Bronzebeard ordered a monument to Sully Balloo, a brave dwarven defender who died in the tragedy at the Thandol Span. Grand Mason Marblesten was charged with sculpting it in Ironforge. He insisted on Alterac Granite instead of ordinary quarry stone. Few stones in the Eastern Kingdoms are finer, and its durability keeps a fallen hero’s likeness and memory untarnished for generations.",
    "spoiler": 0
   },
   {
    "title": "Quarried in Peril",
-   "body": "Alterac Granite lies around Darrow Hill in the northern Hillsbrad Foothills, near the ruined territories of Alterac. Hostile wildlife, syndicate brigands, and lingering strife make the journey perilous. Bold adventurers must venture deep into contested lands to retrieve unblemished slabs for Ironforge's artisans.",
+   "body": "Alterac Granite lies around Darrow Hill in the northern Hillsbrad Foothills, near the ruined territories of Alterac. Hostile wildlife, syndicate brigands and lingering strife make the journey perilous. To bring unblemished slabs to Ironforge’s artisans, you must venture deep into contested lands.",
    "spoiler": 0
   }
  ],
@@ -40,7 +40,7 @@
     "where to get alterac granite",
     "darrow hill granite"
    ],
-   "answer": "Alterac Granite is gathered from deposits at Darrow Hill in the northern Hillsbrad Foothills, near the border of Alterac."
+   "answer": "You can gather Alterac Granite from deposits at Darrow Hill in the northern Hillsbrad Foothills, near the border of Alterac."
   },
   {
    "q": "Why did Grand Mason Marblesten specifically want this stone?",
@@ -48,7 +48,7 @@
     "why marblesten wants granite",
     "why alterac stone"
    ],
-   "answer": "Grand Mason Marblesten regards Alterac Granite as one of the finest and most resilient carving stones available, worthy of the lasting royal monument King Magni commissioned."
+   "answer": "Grand Mason Marblesten considers Alterac Granite one of the finest and most resilient carving stones available. He deems it worthy of the lasting royal monument King Magni commissioned."
   },
   {
    "q": "Who was Sully Balloo?",
@@ -62,11 +62,11 @@
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "As a dwarf, you know why dwarven stonemasons prize quality: this robust mountain stone is essential for honoring a fellow son of Ironforge."
+   "text": "As a dwarf, you know why dwarven stonemasons prize quality. This robust mountain stone honors a fellow son of Ironforge."
   },
   {
    "target": "profession:Mining",
-   "text": "As a miner or prospector, you can appreciate Alterac Granite for its clean fracture and extraordinary density, qualities that set it apart from common crag rock."
+   "text": "As a miner or prospector, you can appreciate Alterac Granite’s clean fracture and extraordinary density. These qualities set it apart from common crag rock."
   }
  ],
  "keywords": [
@@ -92,5 +92,5 @@
   "Alterac Granite",
   "A King's Tribute (2)"
  ],
- "style": 1
+ "style": 2
 }

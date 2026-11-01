@@ -19,7 +19,7 @@
     "quest goal",
     "what are the lion hides for"
    ],
-   "answer": "The lion hides are gathered for a wounded huntsman or trader who supplies raw materials to a local tanner. In exchange for the hides, the quest giver receives finished leather goods essential for their livelihood.",
+   "answer": "A wounded huntsman or trader needs lion hides to supply a local tanner. In exchange, the giver receives finished leather goods essential to their livelihood.",
    "q": "What is this quest about?"
   },
   {
@@ -27,7 +27,7 @@
     "why need help",
     "why can't they hunt"
    ],
-   "answer": "The quest giver suffered an injury and cannot hunt the lions themselves. Rather than breaking a long-standing business agreement with a local tanner, they rely on adventurers to fulfill their delivery.",
+   "answer": "An injury keeps the giver from hunting lions themselves. They rely on you to uphold a long-standing agreement with a local tanner.",
    "q": "Why does the quest giver need help gathering hides?"
   },
   {
@@ -35,7 +35,7 @@
     "who gets the lion hides",
     "where do hides go"
    ],
-   "answer": "The raw hides are traded to a local tanner. The tanner processes them into finished leather goods that the quest giver requires for their regular trade and work.",
+   "answer": "A local tanner receives the raw hides and processes them into finished leather goods the giver needs for regular trade and work.",
    "q": "Who receives the lion hides?"
   },
   {
@@ -43,7 +43,7 @@
     "bruised pride meaning",
     "why is it called bruised pride"
    ],
-   "answer": "The title plays on both words: a literal pride of lions that must be hunted, and the injured hunter's personal pride, having never failed to deliver on a contract despite their current physical limitations.",
+   "answer": "The name refers to both a pride of lions to hunt and the injured hunter’s pride. The hunter has never failed to deliver on a contract, but their injury now limits them.",
    "q": "What does the name 'Bruised Pride and Lion Hides' mean?"
   },
   {
@@ -51,7 +51,7 @@
     "does tanner arrangement hold",
     "trade deal broken"
    ],
-   "answer": "Yes. The injury prevents the quest giver from hunting, putting their next delivery at risk. Gathering the lion hides lets them uphold their end of the bargain without coming up short.",
+   "answer": "Yes. The injury puts the giver’s next delivery at risk. Gathering the lion hides lets them keep their bargain without coming up short.",
    "q": "Was the arrangement with the tanner at risk?"
   },
   {
@@ -59,7 +59,7 @@
     "quest giver injury",
     "what happened to hunter"
    ],
-   "answer": "The quest giver sustained an injury that prevents them from hunting lions in the wild, though the exact cause of the injury is not detailed. Delivering the hides allows them to preserve their reputation.",
+   "answer": "The giver suffered an injury that prevents them from hunting lions in the wild. Its exact cause is not given, and delivering the hides lets them preserve their reputation.",
    "q": "How was the quest giver injured?"
   }
  ],
@@ -74,18 +74,19 @@
  "related": [],
  "sections": [
   {
-   "body": "Bruised Pride and Lion Hides involves assisting an injured hunter who is unable to track wild beasts due to recent physical harm. To avoid failing an ongoing trade agreement with a neighborhood craftsman, they hire an adventurer to track down wild lions and collect their pelts.",
+   "body": "A hunter or tradesperson has been hurt and cannot safely track wild beasts. Their agreement with a neighborhood craftsman is still due, so they hire you to hunt wild lions and gather their pelts.",
    "spoiler": 0,
    "title": "A Hunter's Dilemma"
   },
   {
-   "body": "The collected raw hides are exchanged with a local tanner for finished leather equipment necessary for the quest giver's livelihood. Despite being wounded and having their pride stung by needing outside assistance, upholding the bargain ensures their professional reputation remains unbroken.",
+   "body": "The raw hides go to a local tanner, who exchanges them for finished leather goods the giver needs for their livelihood. The giver’s pride is stung by needing help, but honoring the bargain keeps their professional reputation unbroken.",
    "spoiler": 0,
    "title": "Honoring the Arrangement"
   }
  ],
- "summary": "Bruised Pride and Lion Hides is a task to assist an injured hunter or tradesperson who needs raw lion pelts to satisfy a trade agreement with a local tanner. Unable to hunt safely due to their wounds, they rely on traveling adventurers to deliver the materials and preserve their pristine professional record.",
+ "summary": "An injury leaves a hunter or tradesperson unable to gather lion hides for a local tanner. They turn to you to keep their trade agreement and their professional record intact.",
  "attribution": [
   "In-game quest text: Bruised Pride and Lion Hides"
- ]
+ ],
+ "style": 2
 }

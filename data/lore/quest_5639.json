@@ -17,16 +17,16 @@
   "wiki": "Desperate Prayer (Ironforge)",
   "chain": []
  },
- "summary": "In Ironforge, dwarven priests come of age through training in healing and survival. High Priest Rohan sends acolytes through the Deeprun Tram to Stormwind, where High Priestess Laurena guides their passage into deeper mysteries.",
+ "summary": "High Priest Rohan sends you from Ironforge to Stormwind to learn healing and survival. There, High Priestess Laurena teaches dwarven acolytes the deeper mysteries of the Church.",
  "sections": [
   {
    "title": "A Summons to Stormwind",
-   "body": "In Ironforge's Mystic Ward, High Priest Rohan guides dwarven initiates devoted to the Holy Light. When an acolyte shows discipline and faith, Rohan sends them southwest to Stormwind. Human and dwarven clerics share close spiritual ties, and advanced teaching is centered in Stormwind City's grand halls.",
+   "body": "In Ironforge's Mystic Ward, Rohan guides dwarven initiates devoted to the Holy Light. Seeing your discipline and faith, he sends you southwest to Stormwind. Human and dwarven clerics share close spiritual ties, and the city's grand halls hold advanced teaching.",
    "spoiler": 0
   },
   {
    "title": "The Cathedral of Light",
-   "body": "The Deeprun Tram carries acolytes to Stormwind, where they climb to Cathedral Square. Inside the Cathedral of Light, High Priestess Laurena tests candidates on behalf of the Church. She teaches the desperate prayers a priest calls upon in battle: appeals for divine intervention when strength fails and death draws near.",
+   "body": "You reach Stormwind by the Deeprun Tram and climb to Cathedral Square. In the Cathedral of Light, High Priestess Laurena tests you on the Church's behalf. She teaches the desperate prayers a priest calls upon in battle, seeking divine aid when strength fails and death draws near.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "quest giver",
     "rohan location"
    ],
-   "answer": "High Priest Rohan sends you. He presides over the dwarven clergy in the Hall of Mysteries, within Ironforge's Mystic Ward."
+   "answer": "High Priest Rohan sends you. He leads the dwarven clergy in the Hall of Mysteries, in Ironforge's Mystic Ward."
   },
   {
    "q": "Where do I need to go to complete this?",
@@ -47,7 +47,7 @@
     "where to turn in",
     "stormwind turn in"
    ],
-   "answer": "Travel to the Cathedral of Light in the heart of Cathedral Square, Stormwind City. High Priestess Laurena waits inside the main sanctuary."
+   "answer": "Go to the Cathedral of Light in the heart of Cathedral Square, Stormwind City. High Priestess Laurena waits inside the main sanctuary."
   },
   {
    "q": "What is the best way to get to Stormwind from Ironforge?",
@@ -65,7 +65,7 @@
     "dwarf human church",
     "why laurena"
    ],
-   "answer": "The Church of the Holy Light is rooted in human tradition, and its chief seat of learning is the Cathedral of Light. Dwarven and human priesthoods work in tandem, sharing teachings and traditions across the Alliance."
+   "answer": "The Church of the Holy Light is rooted in human tradition, and the Cathedral of Light is its chief seat of learning. Dwarven and human priesthoods work together, sharing teachings and traditions across the Alliance."
   },
   {
    "q": "What ability does this training unlock?",
@@ -74,7 +74,7 @@
     "what spell do i get",
     "desperate prayer ability"
    ],
-   "answer": "This training begins your study of Desperate Prayer, an instantaneous plea for self-preservation that rapidly restores a priest's health in dire danger."
+   "answer": "This training begins your study of Desperate Prayer. It is an instant plea for self-preservation that rapidly restores a priest's health in dire danger."
   },
   {
    "q": "Does this quest involve combat?",
@@ -83,21 +83,21 @@
     "quest combat",
     "travel quest"
    ],
-   "answer": "No combat is involved. You make a pilgrimage and serve as an emissary, traveling safely from Ironforge to Stormwind to present yourself to High Priestess Laurena."
+   "answer": "No combat is involved. You travel safely from Ironforge to Stormwind as an emissary and present yourself to High Priestess Laurena."
   }
  ],
  "angles": [
   {
    "target": "class:Priest",
-   "text": "As a priest, you leave local training in Ironforge and enter the broader hierarchy of the Church of the Holy Light."
+   "text": "As a priest, you leave Ironforge's local training and enter the wider hierarchy of the Church of the Holy Light."
   },
   {
    "target": "race:Dwarf",
-   "text": "As a young Khaz Modan dwarf, your journey to Stormwind offers an early glimpse of human culture, grand architecture, and shared spiritual devotion."
+   "text": "As a young Khaz Modan dwarf, your journey to Stormwind offers an early glimpse of human culture, grand architecture and shared spiritual devotion."
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance member, you see the spiritual bond and institutional cooperation between Ironforge and Stormwind in the shared training of priests."
+   "text": "As an Alliance member, you see Ironforge and Stormwind's spiritual bond in the way their priesthoods share training and work together."
   }
  ],
  "keywords": [
@@ -120,5 +120,5 @@
  "attribution": [
   "Desperate Prayer (Ironforge)"
  ],
- "style": 1
+ "style": 2
 }

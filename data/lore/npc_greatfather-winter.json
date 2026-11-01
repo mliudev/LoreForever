@@ -8,16 +8,16 @@
   "wiki": "Greatfather Winter",
   "refs": 2
  },
- "summary": "At winter's turning, Greatfather Winter belongs to both ancient legend and city festivities. Some believe he blankets Azeroth in snow so the land can rest and renew. In the cities, goblins of Smokywood Pastures shape how people know him.",
+ "summary": "As winter turns, Greatfather Winter is part of old legend and city festivities. Some say he lays snow across Azeroth so the land may rest and renew. In the cities, goblins of Smokywood Pastures shape how people know him.",
  "sections": [
   {
    "title": "Myth and Renewal",
-   "body": "Ancient tales tell of Greatfather Winter wandering the world late in the year, spreading his snowy cloak so nature can sleep and be reborn. Dwarves see him as an aspect or herald of the titans, and point to Dun Morogh's frosted crags as proof of his favor. Tauren respect his place in winter's turning, while crediting the Sun and Moon with the cold and storms that let the Earth Mother rest. Across the lands, people gather and feast against the cold, holding to the promise of life returning.",
+   "body": "Ancient tales say Greatfather Winter wanders the world late in the year. He spreads his snowy cloak, and nature sleeps before it is born anew. Dwarves call him an aspect or herald of the titans. They point to Dun Morogh's frosted crags as proof of his favor. Tauren honor his place in winter's turning, while crediting the Sun and Moon with the cold and storms that let the Earth Mother rest.\n\nAcross the lands, people gather and feast against the cold. They hold to the promise that life will return.",
    "spoiler": 0
   },
   {
    "title": "Smokywood Pastures and City Festivities",
-   "body": "In Ironforge and Orgrimmar, goblins of Smokywood Pastures have reshaped the old spirit for city celebrations. The trading company made popular the image of Greatfather Winter as a cheerful elder in red, with a white beard, flying sleigh, holiday treats, and toys. Smokywood Pastures hires a dwarf in Ironforge and an orc in Orgrimmar to hear children's wishlists and accept milk and gingerbread cookies. Beneath lavishly decorated trees, the company also promotes its seasonal wares.",
+   "body": "In Ironforge and Orgrimmar, goblins of Smokywood Pastures have reshaped the old spirit for city celebrations. The trading company made popular the image of Greatfather Winter as a cheerful elder in red, with a white beard, flying sleigh, holiday treats, and toys.\n\nSmokywood Pastures hires a dwarf in Ironforge and an orc in Orgrimmar to hear children's wishlists and accept milk and gingerbread cookies. Beneath lavishly decorated trees, the company also promotes its seasonal wares.",
    "spoiler": 0
   }
  ],
@@ -56,7 +56,7 @@
     "orgrimmar greatfather winter",
     "tauren winter veil"
    ],
-   "answer": "In Orgrimmar, Smokywood Pastures promotes the festivities with an orc portraying Greatfather Winter. Tauren respect winter as a time for the Earth Mother to rest and renew, and honor his part in the seasonal cycle without worshipping the titans."
+   "answer": "In Orgrimmar, Smokywood Pastures promotes the festivities with an orc portraying Greatfather Winter. Tauren respect winter as a time for the Earth Mother to rest and renew. They honor his part in the seasonal cycle without worshipping the titans."
   }
  ],
  "angles": [
@@ -92,5 +92,5 @@
  "attribution": [
   "Greatfather Winter"
  ],
- "style": 1
+ "style": 2
 }

@@ -17,16 +17,16 @@
   "wiki": "Dwarven Outfitters",
   "chain": []
  },
- "summary": "Sten Stoutarm gives new recruits a bargain in Coldridge Valley. Hunt wolves and bring back their tough meat for winter rations, and he provides sturdy gloves against Dun Morogh's cold.",
+ "summary": "In Coldridge Valley, Sten Stoutarm offers new recruits a bargain. Hunt wolves for their tough meat, and he provides sturdy gloves against Dun Morogh's cold.",
  "sections": [
   {
    "title": "A Fair Trade in Coldridge",
-   "body": "Cold waits on every path through Coldridge Valley. Outside Anvilmar, Sten Stoutarm asks new recruits to hunt the wolves prowling the snowy drifts and bring back their tough meat for the outpost. In return, he provides gloves to protect their hands from the cold.",
+   "body": "Cold reaches every path through Coldridge Valley. Outside Anvilmar, Sten Stoutarm asks new recruits to hunt wolves in the snowy drifts and bring their tough meat to the outpost. In return, he gives them gloves to guard their hands from the cold.",
    "spoiler": 0
   },
   {
    "title": "Living Off the Valley",
-   "body": "Wolves threaten dwarven scouts and young gnomes training in the valley, yet they also feed the garrison at Anvilmar. Culling them makes the paths between local encampments somewhat safer. Stoutarm's bargain tests a recruit's ability to handle local wildlife while adding food for the bitter nights ahead.",
+   "body": "Wolves threaten the dwarven scouts and young gnomes training in the valley. Yet they also feed the garrison at Anvilmar. Hunting them makes the paths between local encampments somewhat safer. Stoutarm's bargain tests recruits against local wildlife and adds food for the bitter nights ahead.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who gives dwarven outfitters",
     "anvilmar outfitter"
    ],
-   "answer": "Sten Stoutarm is a dwarf stationed outside Anvilmar in Coldridge Valley. He looks out for newly arrived recruits and offers practical gear in exchange for hunting local game."
+   "answer": "Sten Stoutarm is a dwarf stationed outside Anvilmar in Coldridge Valley. He looks after newly arrived recruits and offers practical gear in return for hunting local game."
   },
   {
    "q": "Why does Sten need wolf meat?",
@@ -47,7 +47,7 @@
     "tough wolf meat",
     "what is the meat for"
    ],
-   "answer": "Anvilmar's outpost relies on local hunting to keep its supplies stocked. Wolf meat feeds the troops and trainers living in the secluded, snowbound valley."
+   "answer": "Anvilmar's outpost relies on local hunting to keep its supplies stocked. Wolf meat feeds the troops and trainers who live in the secluded, snowbound valley."
   },
   {
    "q": "Where do you find the wolves for this task?",
@@ -65,7 +65,7 @@
     "what gloves do you get",
     "quest reward"
    ],
-   "answer": "Sten gives recruits a pair of warm gloves to protect their hands from Dun Morogh's bitter winds."
+   "answer": "Sten gives recruits a pair of warm gloves to guard their hands from Dun Morogh's bitter winds."
   },
   {
    "q": "Is wolf meat considered good food among dwarves?",
@@ -93,7 +93,7 @@
   },
   {
    "target": "race:Gnome",
-   "text": "As a gnome taking refuge with your dwarven cousins in Dun Morogh, you need practical mountain clothing to survive at Anvilmar, as well as a sharp mind."
+   "text": "As a gnome taking refuge with your dwarven cousins in Dun Morogh, you need practical mountain clothing to endure the cold at Anvilmar, along with a sharp mind."
   }
  ],
  "keywords": [
@@ -113,5 +113,5 @@
  "attribution": [
   "Dwarven Outfitters"
  ],
- "style": 1
+ "style": 2
 }

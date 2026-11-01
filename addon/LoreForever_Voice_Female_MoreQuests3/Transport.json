@@ -263,9 +263,9 @@
     "quest:1191": {
       "1": [
         {
-          "duration": 18.677551020408163,
-          "file": "Audio/Transport/full_quest_1191-b0ad84216c3cd9b72063/1-0000.mp3",
-          "sha256": "6c9cfd9efe8b0d4511127ee6b606cd97df27c64d1fd7f78df6fac638337c1bed",
+          "duration": 16.3265306122449,
+          "file": "Audio/Transport/full_quest_1191-dee5f30ecb598a175a8a/1-0000.mp3",
+          "sha256": "a7335655dc37e9a9d408a376230bfa290094750618fd09dc0a5e8d8e8c931d2c",
           "start": 0
         }
       ],
@@ -276,15 +276,15 @@
           "1"
         ]
       },
-      "fullHash": "23bd8e",
-      "generation": "c1edb83f5b8766eca706",
-      "hash": "23bd8e",
+      "fullHash": "04afec",
+      "generation": "be8b3d006673d5b20292",
+      "hash": "04afec",
       "source": {
-        "duration": 18.677551,
+        "duration": 16.326531,
         "file": null,
-        "sha256": "b0ad84216c3cd9b7206398baba9764cdcd9a14165838bc2aae302e8e8c87a704"
+        "sha256": "dee5f30ecb598a175a8a6f992fb61e4775acff15756e7ef49eec66db8e8fe86f"
       },
-      "text": "Zamek's Distraction. Zamek can create the diversion that Keeping Pace calls for. It comes while you are in the middle of that step, and Keeping Pace cannot be finished without it. While you are working through Keeping Pace, Zamek can create a diversion. When it happens, Rizzle leaves his hut, and the Indurium plans are left behind."
+      "text": "Zamek's Distraction. In Thousand Needles, Zamek's Distraction can draw Rizzle away while you work through Keeping Pace. You cannot finish Keeping Pace without it. While you work through Keeping Pace, Zamek draws Rizzle from his hut. The Indurium plans remain behind."
     },
     "quest:1192": {
       "1": [
@@ -445,9 +445,9 @@
     "quest:1488": {
       "1": [
         {
-          "duration": 53.94285714285714,
-          "file": "Audio/Transport/full_quest_1488-3fd189eede410179d94a/1-0000.mp3",
-          "sha256": "036c8e40a86601f143aa6e2094e43a07a4bafee3d849d2b5323f9f080b7d4157",
+          "duration": 52.1665306122449,
+          "file": "Audio/Transport/full_quest_1488-0b7f3d9676d0e128ae9f/1-0000.mp3",
+          "sha256": "0ca2a254ed314aa03279cbc85838a40dc10fd869f72201a8098bc8143f77b0a8",
           "start": 0
         }
       ],
@@ -458,15 +458,41 @@
           "1"
         ]
       },
-      "fullHash": "8fb465",
-      "generation": "8db29586e9a5607cef93",
-      "hash": "8fb465",
+      "fullHash": "7fe279",
+      "generation": "76245d7db99c9d0306fe",
+      "hash": "7fe279",
       "source": {
-        "duration": 53.942857,
+        "duration": 52.192653,
         "file": null,
-        "sha256": "3fd189eede410179d94a66c61bf0e13e730dc247def73e6b2eb387d740f5b7ff"
+        "sha256": "0b7f3d9676d0e128ae9f47ef8aba21871d18aecbcabaa1ff7a80bebd79f2fc09"
       },
-      "text": "The Corrupter. Takata Steelblade knows nothing of Lord Azrethoc, yet sides with Maurin that the demon lord must be stopped, all the more if Azrethoc is trying to win influence over the Burning Blade. Takata trusts you to gather a party against Azrethoc and his warlock servant, Jugkar Grim'rod. Takata has never heard of Lord Azrethoc, yet agrees with Maurin that the demon lord must be stopped, above all if Azrethoc is reaching out to sway the Burning Blade. You have already shown you want to aid the Warchief, so Takata trusts you to gather a party and slay Azrethoc and his warlock servant, Jugkar Grim'rod. Takata tells you to head directly south, to Mannoroc Coven, where both are found. Takata calls the demons in Desolace a greater threat than ever before. Each newly arrived foul creature makes the prospect of ever returning to the Warchief seem dimmer, and Takata sometimes wishes the centaur were the only enemy."
+      "text": "The Corrupter. Takata Steelblade sides with Maurin: Lord Azrethoc must be stopped, especially if he seeks influence over the Burning Blade. Takata trusts you to gather a party against the demon lord and his warlock servant, Jugkar Grim'rod. Takata has never heard of Lord Azrethoc, but agrees with Maurin that the demon lord must be stopped. The danger grows if Azrethoc is trying to sway the Burning Blade. You have already shown that you want to aid the Warchief, so Takata trusts you to gather a party and slay Azrethoc and his warlock servant, Jugkar Grim'rod. Head directly south to Mannoroc Coven, where both are found. Takata calls the demons in Desolace a greater threat than ever. Each newly arrived foul creature dims the prospect of returning to the Warchief. At times, Takata wishes the centaur were the only enemy."
+    },
+    "quest:162": {
+      "1": [
+        {
+          "duration": 31.94775510204082,
+          "file": "Audio/Transport/full_quest_162-84f0828aa97ca3dfc3ea/1-0000.mp3",
+          "sha256": "c034cea406f08755e72d1b047fda17b575b0dce087720b75b5e325ad2c7d1e9e",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "b03b2e",
+      "generation": "832e33223aea65acf446",
+      "hash": "b03b2e",
+      "source": {
+        "duration": 31.973878,
+        "file": null,
+        "sha256": "84f0828aa97ca3dfc3ead46f028a6a485c560429cdcc53ed024490af4e7d849e"
+      },
+      "text": "Rise of the Silithid. Senior Surveyor Fizzledowser sends you to Darnassus with a report for Gracina Spiritmight, a night elf scholar and historian. Senior Surveyor Fizzledowser wants the report in the hands of someone who knows such matters. Gracina Spiritmight is a night elf scholar and historian. She has spent much time studying life forms unique to Azeroth's ecology. Fizzledowser hopes she can judge the danger and find a way to halt it. At Fizzledowser's last word, Gracina lives in the Temple of the Moon in Darnassus."
     },
     "quest:193": {
       "1": [
@@ -676,6 +702,110 @@
       },
       "text": "Skullsplitter Tusks. Kebok in Booty Bay needs materials to meet export demands for tiger fangs destined for the South Seas. Because hunting genuine jungle predators proves too costly, he has devised an undetectable forging process using tusks harvested from the Skullsplitter trolls. Supplying tiger fangs to distant island buyers across the South Seas has grown too expensive and difficult through ordinary hunting. Rather than abandon the trade, Kebok devised an undetectable forging method that turns mundane horn-like objects into convincing replicas. The closest physical match for these fangs comes directly from the jaws of the local Skullsplitter trolls, leading Kebok to hire adventurers willing to strip eighteen tusks from the jungle tribe to fill his upcoming export shipment."
     },
+    "quest:2782": {
+      "1": [
+        {
+          "duration": 37.72081632653062,
+          "file": "Audio/Transport/full_quest_2782-93ce79904b263a1ec3de/1-0000.mp3",
+          "sha256": "161d22db494de6b592a842b584c5990ff11b4a572af03b57012fc9b40cd24e7a",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "ac8ad3",
+      "generation": "208bb90f32ba63d36c71",
+      "hash": "ac8ad3",
+      "source": {
+        "duration": 37.746939,
+        "file": null,
+        "sha256": "93ce79904b263a1ec3de5be46ed862fc5c7027c5d794987209693fee5f472475"
+      },
+      "text": "Rin'ji's Secret. After helping Rin'ji, you carry Rin'ji's Secret, a tablet marked in Witherbark script that no one has read. Oran Snakewrithe studies the Witherbark and may decipher it. He is known to live in the Magic Quarter of the Undercity. Witherbark troll markings cover the tablet, but what Rin'ji's secret is remains a mystery. It may be worth a great deal or nothing at all. A Witherbark troll in trouble might try anything to escape it. Oran Snakewrithe is a well-known scholar of the Witherbark trolls. He is known to live in the Magic Quarter of the Undercity and may be able to read the tablet."
+    },
+    "quest:2940": {
+      "1": [
+        {
+          "duration": 30.58938775510204,
+          "file": "Audio/Transport/full_quest_2940-0d5f10e1f68b22c1be5b/1-0000.mp3",
+          "sha256": "d83e97689417ce7a12ac1a9912c937274d4d7a51daa39e7101ff03559496ee70",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "241a05",
+      "generation": "0854814499dde4b5d9de",
+      "hash": "241a05",
+      "source": {
+        "duration": 30.61551,
+        "file": null,
+        "sha256": "0d5f10e1f68b22c1be5b5fb9fcb9ff7deccf2d87d41d444266e49f1668190d43"
+      },
+      "text": "Feralas: A History. In Feralas, you find Feralas: A History, a book Troyas may need. It looks as if nobody has opened it in ages. The book belongs to Daryn Lightwind, so you need to ask whether you may borrow it. The book's covers are badly worn, and its pages have yellowed. After looking it over, you suspect it may be what Troyas is searching for. You pick it up, then think better of borrowing it without asking. It belongs to Daryn Lightwind, so ask her first."
+    },
+    "quest:2988": {
+      "1": [
+        {
+          "duration": 28.055510204081635,
+          "file": "Audio/Transport/full_quest_2988-d6ba26815e0d892ac3ae/1-0000.mp3",
+          "sha256": "a99416fd948c08f89633d9b375a675274e71350c4302a0808456986d746e7578",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "e32297",
+      "generation": "30ed041a2bbdf40e7e34",
+      "hash": "e32297",
+      "source": {
+        "duration": 28.081633,
+        "file": null,
+        "sha256": "d6ba26815e0d892ac3ae4a9b0e7c41b18a21e95c4fc773ba676ae1560132d297"
+      },
+      "text": "Witherbark Cages. At Witherbark Cages, you search for Sharpbeak, heir of Swiftwing, whom Talonaxe calls the mightiest gryphon. Gryphon Master Talonaxe believes the trolls took the young gryphon. Gryphon Master Talonaxe asks you to find Sharpbeak, who went missing a few days ago while hunting with his parents. Talonaxe and the others believe the trolls took him. Three cages in the two Witherbark troll villages remain to be checked. Talonaxe awaits your findings."
+    },
+    "quest:3128": {
+      "1": [
+        {
+          "duration": 39.732244897959184,
+          "file": "Audio/Transport/full_quest_3128-241128a173c7ec925b52/1-0000.mp3",
+          "sha256": "c8e674b671a70e1aa941c623b93542c24e81b5f6a891e2278ea66838e681a9da",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "252c11",
+      "generation": "b243e75a7469fb5bf677",
+      "hash": "252c11",
+      "source": {
+        "duration": 39.758367,
+        "file": null,
+        "sha256": "241128a173c7ec925b52ca290785823e1da856ec2fc5c116288e136b38a1bfd6"
+      },
+      "text": "Natural Materials. In Camp Mojache, Natural Materials are needed by Witch Doctor Uzer'i for an endeavor. The materials come from treants, mountain giants, faerie dragons, owlbeasts and hippogryphs, alongside the other trials. After you return to Witch Doctor Uzer'i, another list of materials awaits alongside the other trials. Bring two splintered logs from a Feralas treant. Mountain giants and faerie dragons westward carry six pieces of encrusted minerals. Owlbeasts in the Hinterlands or hippogryphs in Feralas provide twenty pieces of resilient sinew. Any of these creatures can yield the forty metallic fragments needed."
+    },
     "quest:338": {
       "1": [
         {
@@ -884,6 +1014,32 @@
       },
       "text": "Return to the Blasted Lands. With newly forged weapons in hand, you are directed back from Stranglethorn Vale to the Blasted Lands. The spirit of the Fallen Hero of the Horde awaits your return to set you against the demon Razelikh. Following the completion of your enchanted armaments, Galvan the Ancient proclaims that the hour of redemption is at hand. You carry the newly crafted weapons back to the Blasted Lands, seeking out the Fallen Hero of the Horde. The ghostly warrior asks whether you are prepared to face Razelikh and his minions."
     },
+    "quest:4130": {
+      "1": [
+        {
+          "duration": 39.83673469387755,
+          "file": "Audio/Transport/full_quest_4130-e268465fd2f2ca10eb9c/1-0000.mp3",
+          "sha256": "76f2aa1c527a1e8b7867b43e1f4e8fdaa0125712a68a9658f9aef6b09fa2a02b",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "a4341f",
+      "generation": "248088ab17e585c72d97",
+      "hash": "a4341f",
+      "source": {
+        "duration": 39.836735,
+        "file": null,
+        "sha256": "e268465fd2f2ca10eb9c935181f4deb9a87c2116d9ae306fde3c6d7a960d8afa"
+      },
+      "text": "Psychometric Reading. After Psychometric Reading, Quintis Jonespyre is still unsteady. His vision shows Raschal and the Woodpaw gnolls, and Quintis asks you to carry word to Ginro Hearthkindle in Feathermoon Stronghold. Quintis Jonespyre is unsteady, but his vision may help. Raschal pulls two large leather backpacks from the boat, heads inland, then returns to the boat. Gnoll scalps appear, and Quintis believes Raschal met Woodpaw gnolls. Raschal is very worried, almost terrified, and does not notice water elementals forming behind him. Then the images end. Quintis needs rest, so he asks you to tell Ginro, who needs to know."
+    },
     "quest:507": {
       "1": [
         {
@@ -913,9 +1069,9 @@
     "quest:508": {
       "1": [
         {
-          "duration": 28.342857142857145,
-          "file": "Audio/Transport/full_quest_508-e442f3005275ecfc2149/1-0000.mp3",
-          "sha256": "050203282512a2189cfe36083860897267cca91703b327e017cb44f924c36556",
+          "duration": 26.200816326530614,
+          "file": "Audio/Transport/full_quest_508-279f15c5c07173fd8f13/1-0000.mp3",
+          "sha256": "b3838e44d7fc70720643b2eec80603d16d95d58e86c6e5b464eee6be9a53b7f5",
           "start": 0
         }
       ],
@@ -926,15 +1082,15 @@
           "1"
         ]
       },
-      "fullHash": "2c3776",
-      "generation": "e36d3f268f8a8acb112a",
-      "hash": "2c3776",
+      "fullHash": "cd2e25",
+      "generation": "930531720ea2b0753bf9",
+      "hash": "cd2e25",
       "source": {
-        "duration": 28.36898,
+        "duration": 26.226939,
         "file": null,
-        "sha256": "e442f3005275ecfc2149a259b94f53d2bc97d31acd5dd77787a14a2aa0fcc87d"
+        "sha256": "279f15c5c07173fd8f1361c628ae4b900f24c2e5383e64c439194b5920f54750"
       },
-      "text": "Taretha's Gift. After the step with Lord Aliden Perenolde, Elysa gives up Taretha's pendant and asks only to be left in peace. You carry it back to Krusk in Tarren Mill. Elysa has no wish to hold on to any memory of Lord Aliden Perenolde. You may take the pendant, Elysa says, and begs only that you then go in peace. It once belonged to Taretha Foxton, a childhood friend of Thrall's. You are to bring it to Krusk in Tarren Mill, so that it returns to the orcs."
+      "text": "Taretha's Gift. Elysa gives up Taretha's Gift and asks for peace. After the step with Lord Aliden Perenolde, you carry the pendant to Krusk in Tarren Mill. Elysa wants no memory of Lord Aliden Perenolde. She gives you the pendant and asks only to be left in peace. It once belonged to Taretha Foxton, Thrall's childhood friend. You carry it to Krusk in Tarren Mill, returning it to the orcs."
     },
     "quest:519": {
       "1": [
@@ -1407,9 +1563,9 @@
     "quest:597": {
       "1": [
         {
-          "duration": 50.651428571428575,
-          "file": "Audio/Transport/full_quest_597-a266b4636349cd1f0e6c/1-0000.mp3",
-          "sha256": "ef309f87c0c4bf2940d0a2941edd569c5170f148d2ca53d33828d43638dba24f",
+          "duration": 29.1265306122449,
+          "file": "Audio/Transport/full_quest_597-dd0912a0707645d05fc4/1-0000.mp3",
+          "sha256": "f7b76b110c4d7ff1c4eced07dea40116ec7f84e96053519282c2ef7a23a47d5b",
           "start": 0
         }
       ],
@@ -1420,15 +1576,15 @@
           "1"
         ]
       },
-      "fullHash": "57decd",
-      "generation": "fb18b7c6f2bb62d17c43",
-      "hash": "57decd",
+      "fullHash": "efdf0f",
+      "generation": "9048519bc61173ccf86a",
+      "hash": "efdf0f",
       "source": {
-        "duration": 50.651429,
+        "duration": 29.152653,
         "file": null,
-        "sha256": "a266b4636349cd1f0e6c190e916935470cddc69957bc460df5371bd2e2b8e79c"
+        "sha256": "dd0912a0707645d05fc429abb353b379308726eb785ff7b42c0ed07b39706a56"
       },
-      "text": "The Bloodsail Buccaneers. Recovered correspondence from the Bloodsail Buccaneers carries a map of Booty Bay and written orders to secure a quiet camp at the marked spot and wait for a signal from their southern command post before attacking. Following your earlier investigation into the Bloodsail Buccaneers, an intercepted map and written orders uncover the pirates' immediate plans. A red X on a map of Booty Bay marks the exact spot where the pirates are to make camp. The orders command the crew to hold their ground quietly, eliminate anyone who approaches, and await an attack signal sent from the southern command post. Carrying these written findings back to Booty Bay brings the intelligence directly to First Mate Crazz, who originally sent you out to scout. The pirates are plainly waiting on a signal before they attack."
+      "text": "The Bloodsail Buccaneers. At Booty Bay, the Bloodsail Buccaneers’ plans now point to a camp and an attack signal. A map marks the Bloodsail Buccaneers’ intended camp in Booty Bay with a red X. Their orders call for silence. The crew must kill anyone who approaches and wait for a signal from the southern command post before attacking. You carry the findings back to First Mate Crazz in Booty Bay. He sent you to scout, and the pirates are still waiting for the signal before they attack."
     },
     "quest:598": {
       "1": [
@@ -1537,9 +1693,9 @@
     "quest:608": {
       "1": [
         {
-          "duration": 45.139591836734695,
-          "file": "Audio/Transport/full_quest_608-0d3645a035d667cdd51b/1-0000.mp3",
-          "sha256": "3e3a41c956a3f3527da47a888ab01d3014ef9d98d417f6e2ba04e12c387f5dd9",
+          "duration": 37.92979591836735,
+          "file": "Audio/Transport/full_quest_608-0ab8c64f9ae8b659d650/1-0000.mp3",
+          "sha256": "3fa099cd5940b9763bae82dbff26d08afaf4d1ccd8b3877f4328b3de8efaab04",
           "start": 0
         }
       ],
@@ -1550,15 +1706,15 @@
           "1"
         ]
       },
-      "fullHash": "a719d4",
-      "generation": "a336a8185e45bfedc704",
-      "hash": "a719d4",
+      "fullHash": "27f247",
+      "generation": "1bf016abe6b95029e957",
+      "hash": "27f247",
       "source": {
-        "duration": 45.139592,
+        "duration": 37.955918,
         "file": null,
-        "sha256": "0d3645a035d667cdd51b40c43e0e60f021ddd2dc68f85b478532ed2d11ad61d8"
+        "sha256": "0ab8c64f9ae8b659d6507b1df3d03c0c8dfa814d14e13c6797bdb54b1a38a407"
       },
-      "text": "The Bloodsail Buccaneers. With the Bloodsail Buccaneers preparing an attack, Fleet Master Seahorn decides against deploying his entire fleet for a counterstrike. Instead, he directs an adventuring crew to slip into the landing site and eliminate the buccaneers' top leadership before their attack can begin. Having learned the buccaneers' invasion plans, Fleet Master Seahorn refuses to wait for the enemy to muster an assault. Mocking Fleet Master Firallon's nautical skill, Seahorn aims to neutralize the threat swiftly by taking out its commanders. Rather than risking a full naval engagement, he sends a strike party directly to Firallon's landing camp to cut down Firallon alongside Captain Stillwater and Captain Keelhaul, ensuring the buccaneer force crumbles without leadership."
+      "text": "The Bloodsail Buccaneers. In Stranglethorn, the Bloodsail Buccaneers gather strength for an attack. Fleet Master Seahorn will not risk his whole fleet in a counterstrike, so he sends a small crew against their leaders before they can begin. Fleet Master Seahorn means to halt the Bloodsail attack before it gains strength. He mocks Fleet Master Firallon's skill at sea, then chooses to strike at the commanders. Seahorn will not risk a full naval battle. Instead, he sends a small crew to Firallon's landing camp to kill Firallon, Captain Stillwater, and Captain Keelhaul. Without their leaders, the buccaneers will be left without command."
     },
     "quest:609": {
       "1": [
@@ -2187,9 +2343,9 @@
     "quest:666": {
       "1": [
         {
-          "duration": 42.81469387755102,
-          "file": "Audio/Transport/full_quest_666-277319f245661cd41705/1-0000.mp3",
-          "sha256": "5dceee0d8875c4abc12ae7afd10863cd0fbdceb544bbbf678595d4775e40a950",
+          "duration": 41.717551020408166,
+          "file": "Audio/Transport/full_quest_666-aecc2aec2092c00797e2/1-0000.mp3",
+          "sha256": "133146d47c0d528674e7c1a43a2d21388de127e010fd55679bb692722cb9b2a9",
           "start": 0
         }
       ],
@@ -2200,15 +2356,15 @@
           "1"
         ]
       },
-      "fullHash": "4ac8bf",
-      "generation": "575df0b129e1925ef1dc",
-      "hash": "4ac8bf",
+      "fullHash": "15462b",
+      "generation": "e12df880894703573efd",
+      "hash": "15462b",
       "source": {
-        "duration": 42.814694,
+        "duration": 41.743673,
         "file": null,
-        "sha256": "277319f245661cd4170543266ebf950a465bd93bb276d8e4a9fbfd2793355ec7"
+        "sha256": "aecc2aec2092c00797e22e3af6116e264bcad903559ae5dd89e26e2465802062"
       },
-      "text": "Sunken Treasure. After the first part of Sunken Treasure, Doctor Draxlegauge lends you his Goggles of Gem Hunting and asks you to collect ten elven gems from the sea floor for Captain O'Breen, then bring the goggles back. Down on the sea floor, the gems have lain so many years that they have hardened into thick stone. The power built into the goggles lets you find them regardless, and Doctor Draxlegauge is proud of the gnomish ingenuity behind them. He lends you the goggles so you can gather the lost gems for Captain O'Breen. He would swim down himself, he says, but there is scientific work waiting for him on safe, dry land. He wants the goggles returned afterwards, sure that Captain O'Breen will put them to plenty of use."
+      "text": "Sunken Treasure. In Faldir's Cove, Doctor Draxlegauge lends you his goggles to find ten elven gems for Captain O'Breen. He expects them back when you finish. The elven gems have lain on the sea floor so long that thick stone has hardened around them. The Goggles of Gem Hunting hold the power to find them through those stony shells. Proud of the gnomish ingenuity behind the goggles, Doctor Draxlegauge lends them to you. The gems are for Captain O'Breen. Doctor Draxlegauge says scientific work keeps him on safe, dry land, though he could swim down himself. He expects you to return the goggles afterward. Captain O'Breen, he says, will have plenty of use for them."
     },
     "quest:667": {
       "1": [
@@ -2521,6 +2677,32 @@
         "sha256": "f6d0bde866423a5a5a3a022a463332d34539d0d1c0d38931b59904e4a3404dc0"
       },
       "text": "The Captain's Cutlass. Captain Hecklebury Smotts bought a second vessel named Smotts' Revenge to hunt down the sea giants who took his first ship, only to suffer another defeat. The giants smashed the vessel and killed the crew, and one of them, Negolash, stole the captain's cutlass. Smotts directs you to consult his former ship cook, Sprogger, to track down the behemoth. Following the loss of his initial ship, Captain Hecklebury Smotts procured a second craft called Smotts' Revenge, gathering a fresh crew and provisions to take vengeance on the sea giants. The venture ended in disaster when the giants shattered the ship and slew the crew, leaving Smotts adrift once more in a lifeboat. During the onslaught, the giant Negolash took the captain's cutlass. Determined to retrieve his stolen blade, Smotts relies on his cook. Sprogger, who served aboard Smotts' Revenge, lived through the attack and can help find Negolash."
+    },
+    "quest:8742": {
+      "1": [
+        {
+          "duration": 37.328979591836735,
+          "file": "Audio/Transport/full_quest_8742-c435969cc50281ab4133/1-0000.mp3",
+          "sha256": "6c7a82de508312ed7266c5e8d96f0a880f67c68b05be570e7e186ef58ea978c3",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "282dae",
+      "generation": "84e8f82c508d94bf117a",
+      "hash": "282dae",
+      "source": {
+        "duration": 37.355102,
+        "file": null,
+        "sha256": "c435969cc50281ab4133b44e26742ed5c820251e36d621476859128bf8516a08"
+      },
+      "text": "The Might of Kalimdor. In Tanaris, Anachronos greets you in The Might of Kalimdor as the champion fate has awaited for a thousand years. He sees you leading your people into a new age. The Blue, Green and Red Scepter Shard forks are complete, bringing the Scepter of the Shifting Sands to its end. Anachronos speaks of a fate a thousand years in the making. The Old God trembles at your coming and fears your faith. Anachronos urges you to break C'Thun's prophecy, and you bring Kalimdor's strength with you. When you are ready, tell Anachronos, and he will place the Scepter of the Shifting Sands in your hands."
     }
   },
   "cuts": {
@@ -2531,14 +2713,6 @@
       1665,
       1836
     ],
-    "036c8e40a86601f143aa6e2094e43a07a4bafee3d849d2b5323f9f080b7d4157": [
-      427,
-      649,
-      1015,
-      1358,
-      1574,
-      1734
-    ],
     "04114ec582cb52728b1c57ff6df67cac7e6ccae2daac957c008a92a81990b041": [
       455,
       1043,
@@ -2546,11 +2720,6 @@
     ],
     "04c50017b5a66c41d4a0b0728fd6c6e4a1c0ab4fd93dd5bb567e82f3283ccd48": [
       330
-    ],
-    "050203282512a2189cfe36083860897267cca91703b327e017cb44f924c36556": [
-      312,
-      773,
-      928
     ],
     "05f90814445a0fb2b5966f2c6a42ef985c5111697005edee78984776ac405dc2": [
       671
@@ -2594,6 +2763,15 @@
     "0aa49f1c6c87d98518d1ad3867a4219ab59d0072d791c67c7f98e85049fbb703": [
       626
     ],
+    "0ca2a254ed314aa03279cbc85838a40dc10fd869f72201a8098bc8143f77b0a8": [
+      326,
+      585,
+      823,
+      978,
+      1296,
+      1518,
+      1676
+    ],
     "0d4110d25c393d435b49162c64617930d7bc622b0913568de42590e94eef88a9": [
       565
     ],
@@ -2625,6 +2803,13 @@
       1594,
       1941
     ],
+    "133146d47c0d528674e7c1a43a2d21388de127e010fd55679bb692722cb9b2a9": [
+      379,
+      589,
+      756,
+      1055,
+      1266
+    ],
     "13cb325deecf810e83626e30901b4ae8fd23a88018ded0ec33002e03c1e1556b": [
       489,
       790
@@ -2642,6 +2827,13 @@
       359,
       657,
       892
+    ],
+    "161d22db494de6b592a842b584c5990ff11b4a572af03b57012fc9b40cd24e7a": [
+      266,
+      401,
+      539,
+      774,
+      1047
     ],
     "1649da26c6fdc9310a89f7e9b6a2c99b58d093ae3f16eb2fdf4dca18742628ea": [
       468,
@@ -2681,6 +2873,10 @@
     "1b1ec7b0fad758fd5d142dcccae44255b4303f8f6b49ce7348f3feb80f61fb14": [
       385,
       628
+    ],
+    "1beddf5a74a84b77d15b2556ea809865922258eec43591ee4995442a7a5dccb8": [
+      381,
+      630
     ],
     "1c1ba8f80f914641a1275eae6c82865db7049a6c842a86ffc1ea2cd78990034b": [
       269,
@@ -2896,14 +3092,15 @@
       607,
       1116
     ],
-    "3e3a41c956a3f3527da47a888ab01d3014ef9d98d417f6e2ba04e12c387f5dd9": [
-      314,
-      642,
-      901,
-      1213
-    ],
     "3e6afcea61ec1101e32cd39819e2742c7e9f25ed1473022f8d7386bdc0ba1eda": [
       966
+    ],
+    "3fa099cd5940b9763bae82dbff26d08afaf4d1ccd8b3877f4328b3de8efaab04": [
+      188,
+      348,
+      515,
+      710,
+      929
     ],
     "402f4e060e7a58c1c0e459abb9951d0cc61b36cfa27693730e54c8f893825fe7": [
       384,
@@ -3109,12 +3306,6 @@
       393,
       754
     ],
-    "5dceee0d8875c4abc12ae7afd10863cd0fbdceb544bbbf678595d4775e40a950": [
-      502,
-      716,
-      1000,
-      1435
-    ],
     "5e2d2e8c1df4c337338f9c7588c42eb626f20dfb776e7c500d4ee2048493f5f9": [
       1006,
       1421
@@ -3234,10 +3425,11 @@
       665,
       881
     ],
-    "6c9cfd9efe8b0d4511127ee6b606cd97df27c64d1fd7f78df6fac638337c1bed": [
-      173,
-      380,
-      556
+    "6c7a82de508312ed7266c5e8d96f0a880f67c68b05be570e7e186ef58ea978c3": [
+      300,
+      688,
+      865,
+      1117
     ],
     "6dfda7a2b0cf1f63d4b3e613b7160ab74c70358f9aec9e5b8bfdf35d34995e93": [
       359,
@@ -3293,6 +3485,14 @@
     ],
     "7642b62235ab6528c68a049e4ace05c55b1d7b7f6037e60cdf424c8ede116de7": [
       408
+    ],
+    "76f2aa1c527a1e8b7867b43e1f4e8fdaa0125712a68a9658f9aef6b09fa2a02b": [
+      193,
+      513,
+      654,
+      887,
+      1064,
+      1301
     ],
     "7715b8465297ef88f4cd90a0fc98e9d77280c47251658adb84946ac3c1a486b9": [
       326,
@@ -3563,8 +3763,16 @@
     "a5289f41e444286a30d07f6b7b0f58c30eac5a1a5b23aab02df69b6986746b04": [
       514
     ],
+    "a7335655dc37e9a9d408a376230bfa290094750618fd09dc0a5e8d8e8c931d2c": [
+      349
+    ],
     "a941d2e4e4f13292526f93f548981a27ecebd4c7b7f1926976cb6c55ad9f6633": [
       602
+    ],
+    "a99416fd948c08f89633d9b375a675274e71350c4302a0808456986d746e7578": [
+      292,
+      469,
+      725
     ],
     "aa3e1e6008a6ff1ac64915986f21a3a4e57279a2ecda6eae95da6ae08395aae2": [
       214
@@ -3605,6 +3813,13 @@
     ],
     "b35529f75090994dac4f2282cd94a36ba288f5d3859706bd272c2b6745056f80": [
       474
+    ],
+    "b3838e44d7fc70720643b2eec80603d16d95d58e86c6e5b464eee6be9a53b7f5": [
+      154,
+      394,
+      530,
+      687,
+      843
     ],
     "b592d7346786cadab32688c23fa2ed5e520a16c4f1cfd34f02984f8388d56a66": [
       297,
@@ -3654,6 +3869,13 @@
     "be1667db751185f3a0e34273561ffe27b92667eeecafca96c8edf28fcdee73c1": [
       685
     ],
+    "c034cea406f08755e72d1b047fda17b575b0dce087720b75b5e325ad2c7d1e9e": [
+      352,
+      563,
+      703,
+      879,
+      1028
+    ],
     "c0b5236c58dbe3595bb76a9024458fda74229be5c2b1d392fb85256900382372": [
       661,
       1001
@@ -3683,6 +3905,13 @@
     ],
     "c7ac63b714abad634d60b2a1e1e610819cf0800040aa93e2c829fd2ceb264873": [
       520
+    ],
+    "c8e674b671a70e1aa941c623b93542c24e81b5f6a891e2278ea66838e681a9da": [
+      229,
+      557,
+      800,
+      1126,
+      1362
     ],
     "c95af16edb9cace577b0aa01586fd43a19144877cf8866c8e965f87835a48d31": [
       550,
@@ -3747,6 +3976,13 @@
       920,
       1117,
       1451
+    ],
+    "d83e97689417ce7a12ac1a9912c937274d4d7a51daa39e7101ff03559496ee70": [
+      220,
+      529,
+      680,
+      858,
+      1008
     ],
     "d935ff131b7d354e4ae2876ab8fb68cf18c25a89c8cd117fab73735f754e157d": [
       311,
@@ -3855,12 +4091,6 @@
     "ef30146bfe702d9d787b85c94b96454133ce2431541f18c293b86b73763bac3e": [
       470
     ],
-    "ef309f87c0c4bf2940d0a2941edd569c5170f148d2ca53d33828d43638dba24f": [
-      508,
-      816,
-      1086,
-      1472
-    ],
     "ef4fb7081f464323e70e1d9a9e6d7c7196d1cda299b534085cddf1784204995c": [
       286,
       669,
@@ -3940,6 +4170,12 @@
       1319,
       1513
     ],
+    "f7b76b110c4d7ff1c4eced07dea40116ec7f84e96053519282c2ef7a23a47d5b": [
+      218,
+      521,
+      773,
+      922
+    ],
     "f81c3bbe632427e07713b79e323a6ec0784e06d4c83cc4d8ec10fb60878631dc": [
       497,
       776
@@ -3978,6 +4214,51 @@
       503,
       963
     ]
+  },
+  "heads": {
+    "0ca2a254ed314aa03279cbc85838a40dc10fd869f72201a8098bc8143f77b0a8": {
+      "1518": 2,
+      "585": 1
+    },
+    "133146d47c0d528674e7c1a43a2d21388de127e010fd55679bb692722cb9b2a9": {
+      "1055": 2,
+      "379": 1
+    },
+    "161d22db494de6b592a842b584c5990ff11b4a572af03b57012fc9b40cd24e7a": {
+      "1047": 2,
+      "539": 1
+    },
+    "3fa099cd5940b9763bae82dbff26d08afaf4d1ccd8b3877f4328b3de8efaab04": {
+      "515": 1
+    },
+    "6c7a82de508312ed7266c5e8d96f0a880f67c68b05be570e7e186ef58ea978c3": {
+      "688": 1
+    },
+    "76f2aa1c527a1e8b7867b43e1f4e8fdaa0125712a68a9658f9aef6b09fa2a02b": {
+      "513": 1
+    },
+    "a7335655dc37e9a9d408a376230bfa290094750618fd09dc0a5e8d8e8c931d2c": {
+      "349": 1
+    },
+    "a99416fd948c08f89633d9b375a675274e71350c4302a0808456986d746e7578": {
+      "469": 1
+    },
+    "b3838e44d7fc70720643b2eec80603d16d95d58e86c6e5b464eee6be9a53b7f5": {
+      "394": 1
+    },
+    "c034cea406f08755e72d1b047fda17b575b0dce087720b75b5e325ad2c7d1e9e": {
+      "352": 1
+    },
+    "c8e674b671a70e1aa941c623b93542c24e81b5f6a891e2278ea66838e681a9da": {
+      "557": 1
+    },
+    "d83e97689417ce7a12ac1a9912c937274d4d7a51daa39e7101ff03559496ee70": {
+      "529": 1
+    },
+    "f7b76b110c4d7ff1c4eced07dea40116ec7f84e96053519282c2ef7a23a47d5b": {
+      "218": 1,
+      "773": 2
+    }
   },
   "pack": "LoreForever_Voice_Female_MoreQuests3",
   "version": 1

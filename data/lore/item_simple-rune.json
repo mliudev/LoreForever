@@ -10,11 +10,11 @@
    "quest:3106"
   ]
  },
- "summary": "In Coldridge Valley, Thran Khorman calls young dwarven warriors to Anvilmar. The Simple Rune is an inscribed stone token that directs recruits to seek instruction from their warrior trainer.",
+ "summary": "In Coldridge Valley, Thran Khorman sends promising young dwarven warriors to Anvilmar for training with the Simple Rune.",
  "sections": [
   {
    "title": "A Summons to Arms",
-   "body": "The Simple Rune marks the start of a recruit’s training. Thran Khorman gives the inscribed stone to promising young fighters who have begun clearing threats from Coldridge Valley. Its marks are a formal summons, not a magical charm. A recruit who reads it is expected to report to Thran inside Anvilmar, where the warrior trainer teaches basic combat and offers practical advice for surviving Dun Morogh’s hostile wilds.",
+   "body": "Young fighters who have begun clearing threats from Coldridge Valley receive Thran’s formal summons. The rune’s martial marks hold no magic; they tell each recruit to report to Thran inside Anvilmar. There, he teaches basic combat and gives practical advice for surviving Dun Morogh’s hostile wilds.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "what does rune do",
     "simple rune quest item"
    ],
-   "answer": "The Simple Rune directs a recruit to seek formal instruction from Thran Khorman inside Anvilmar. Young warriors in Coldridge Valley receive it as an instructional tablet."
+   "answer": "The Simple Rune directs recruits to seek formal instruction from Thran Khorman inside Anvilmar. Young warriors in Coldridge Valley receive it as an instructional tablet."
   },
   {
    "q": "Who sends the Simple Rune?",
@@ -35,7 +35,7 @@
     "who gave me simple rune",
     "sender of rune"
    ],
-   "answer": "Thran Khorman sends the Simple Rune. The dwarf warrior trainer inside Anvilmar watches for promising fighters helping around the valley."
+   "answer": "Thran Khorman sends the Simple Rune. The dwarf warrior trainer inside Anvilmar watches for promising fighters who help around the valley."
   },
   {
    "q": "Where do I take the Simple Rune?",
@@ -79,5 +79,5 @@
   "Simple Rune",
   "Simple Rune (Classic)"
  ],
- "style": 1
+ "style": 2
 }

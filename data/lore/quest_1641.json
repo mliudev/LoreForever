@@ -17,16 +17,16 @@
   "wiki": "The Tome of Divinity (human 1)",
   "chain": []
  },
- "summary": "In Stormwind, The Tome of Divinity guides young paladins through a solemn rite. Under Duthorian Rall's care in the Cathedral of Light, you face teachings on virtue, devotion, and the duties that come with the Holy Light.",
+ "summary": "In Stormwind's Cathedral of Light, Duthorian Rall guides you through a solemn rite for young paladins. Its teachings test your virtue and devotion to the Holy Light.",
  "sections": [
   {
    "title": "A Paladin's Calling",
-   "body": "Duthorian Rall guides those who answer the paladin's calling in the Cathedral of Light. Early training teaches martial discipline and the order's rites, but advancement asks for a deeper commitment to the spirit. The trials ask you to look beyond battle and weigh the moral duties of a paladin. Stormwind faces dangers within its borders and beyond, and its people need defenders who understand that duty.",
+   "body": "Your training now reaches beyond arms and the order's rites. Duthorian's trials ask you to weigh a paladin's moral duties and grasp the deeper promise your calling demands. Those who depend on the Holy Light need defenders who understand what that duty means.",
    "spoiler": 0
   },
   {
    "title": "The Path of Virtue",
-   "body": "Receiving the Book of Divinity binds you to service and self-sacrifice. Duthorian asks you to study the holy text and learn what the Light demands of its defenders. Its lessons prepare paladins to oppose the Scourge's creeping horrors and protect common folk. Righteous power must answer to virtue and compassion.",
+   "body": "The Book of Divinity binds you to service and self-sacrifice. Duthorian asks you to study its holy text and learn what the Light demands of its defenders. Its lessons prepare you to oppose the Scourge's creeping horrors and protect common folk. Virtue and compassion must guide your power.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "what is tome of divinity",
     "paladin book quest"
    ],
-   "answer": "The Tome of Divinity tests a developing paladin's grasp of sacred principles. Before greater divine abilities are entrusted to an initiate, their strength must be grounded in devotion and virtue, not martial force alone."
+   "answer": "The Tome of Divinity tests whether a new paladin understands sacred principles. Before greater divine abilities are entrusted to an initiate, devotion and virtue must ground their strength alongside martial skill."
   },
   {
    "q": "Who is Duthorian Rall?",
@@ -56,7 +56,7 @@
     "cathedral of light quest",
     "where start tome of divinity"
    ],
-   "answer": "The trial begins in Stormwind City's Cathedral Square, inside the Cathedral of Light. After preliminary duties in outer townships such as Goldshire, initiates report to Duthorian Rall."
+   "answer": "The trial begins inside the Cathedral of Light in Stormwind City's Cathedral Square. After preliminary duties in outer townships such as Goldshire, initiates report to Duthorian Rall."
   },
   {
    "q": "Why is the Scourge mentioned in Stormwind's teachings?",
@@ -65,7 +65,7 @@
     "why scourge here",
     "paladins vs scourge"
    ],
-   "answer": "The Scourge devastated Lordaeron to the north, but its undead remain a threat to all living mortals. Stormwind's paladins learn to recognize and fight the Scourge's unholy corruption wherever it appears across Azeroth."
+   "answer": "The Scourge devastated Lordaeron to the north, but its undead still threaten all living mortals. Stormwind's paladins learn to recognize and fight the Scourge's unholy corruption wherever it appears across Azeroth."
   },
   {
    "q": "What comes after reading the Book of Divinity?",
@@ -74,7 +74,7 @@
     "after reading book",
     "what does duthorian want next"
    ],
-   "answer": "Reading the Book of Divinity is only the first step. Duthorian Rall tests whether you have taken its lessons to heart by sending you to aid those in dire need, where deeds must prove your compassion and resilience."
+   "answer": "Reading the Book of Divinity is only the first step. Duthorian Rall tests whether you have taken its lessons to heart by sending you to aid those in dire need, where your deeds must prove compassion and resilience."
   },
   {
    "q": "Who normally directs candidates to Duthorian Rall?",
@@ -89,7 +89,7 @@
  "angles": [
   {
    "target": "class:Paladin",
-   "text": "As a paladin, this rite marks your passage from an apprentice of arms to a servant of the Holy Light. It sets out the sacrifice and mercy at the heart of the order."
+   "text": "As a paladin, this rite marks your passage from apprentice of arms to servant of the Holy Light. It teaches the sacrifice and mercy at the heart of the order."
   },
   {
    "target": "race:Human",
@@ -120,5 +120,5 @@
  "attribution": [
   "The Tome of Divinity (human 1)"
  ],
- "style": 1
+ "style": 2
 }

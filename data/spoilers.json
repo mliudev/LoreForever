@@ -588,7 +588,7 @@
    "2": 1,
    "3": 1
   },
-  "summary": "Along the Southfury River, Kron\u2019s keepsake carries the memory of a young orc hunter who went missing."
+  "summary": "Along the Southfury River, Kron’s amulet recalls a young orc hunter who went missing."
  },
  "item:kuz-s-skull": {},
  "item:laced-pumpkin": {
@@ -623,7 +623,7 @@
    "3": 2,
    "4": 1
   },
-  "summary": "Within Durotar, Lieutenant's Insignia carries the Burning Blade's mark. Horde adventurers recover it from cultists near Orgrimmar."
+  "summary": "Near Orgrimmar, cultists bear Lieutenant's Insignia and the Burning Blade's mark. Horde adventurers recover it from them."
  },
  "item:lightning-gland": {},
  "item:logging-rope": {},
@@ -832,7 +832,7 @@
    "1": 1,
    "4": 1
   },
-  "summary": "Rolf and Malakai's Medallions bear the realm's insignia, but their owners vanished on patrol in eastern Elwynn Forest. Guard Thomas seeks the tokens to learn what became of his men."
+  "summary": "In eastern Elwynn, Rolf and Malakai's Medallions bear the realm's insignia, though their owners vanished on patrol. Guard Thomas seeks the tokens to learn what became of his men."
  },
  "item:rot-blossom": {},
  "item:rot-hide-ichor": {},
@@ -1020,7 +1020,7 @@
   "faq": {
    "4": 1
   },
-  "summary": "Beneath Orgrimmar, Neeru Fireblade seeks Taragaman the Hungerer's Heart as proof the demonic presence has been purged. The grisly trophy comes from the felguard who rules Ragefire Chasm's depths."
+  "summary": "Beneath Orgrimmar, Neeru Fireblade seeks Taragaman the Hungerer's Heart as proof that the demonic presence is gone. The trophy comes from the felguard ruling Ragefire Chasm's depths."
  },
  "item:tattered-manuscript": {},
  "item:tazan-s-satchel": {
@@ -1649,7 +1649,7 @@
   "remove_keywords": [
    "twilight's hammer"
   ],
-  "summary": "In Ironforge's Forlorn Cavern, Gerrig Bonegrip keeps a quiet shop of strange texts. At Bonegrip's Runes and Dooms, he buys and sells writings on dark rituals and forgotten ancient powers."
+  "summary": "In Ironforge's Forlorn Cavern, Gerrig Bonegrip trades in strange texts and writings on dark rituals and ancient powers."
  },
  "npc:gershala-nightwhisper": {},
  "npc:ghamoo-ra-classic": {},
@@ -2159,7 +2159,11 @@
  },
  "npc:ragnar-thunderbrew": {},
  "npc:rahauro": {},
- "npc:raleigh-andrean": {},
+ "npc:raleigh-andrean": {
+  "faq": {
+   "3": 1
+  }
+ },
  "npc:randis": {},
  "npc:ranger-glynda-nal-shea": {},
  "npc:rau-cliffrunner": {},
@@ -3107,7 +3111,7 @@
   "remove_keywords": [
    "varian"
   ],
-  "summary": "In Stormwind, the search for the missing diplomat brings you face to face with Dashel Stonefist in Old Town. You need answers from a man who would rather keep them to himself."
+  "summary": "In Stormwind, you seek the missing diplomat and find Dashel Stonefist in Old Town. You need answers from a man who would rather keep them to himself."
  },
  "quest:145": {},
  "quest:1450": {},
@@ -3929,7 +3933,7 @@
    "5": 1,
    "6": 1
   },
-  "summary": "Chief Engineer Hinderweir VII needs you to neutralize the charge Dark Iron saboteurs planted in the Stonewrought Dam. Use a Disarming Mixture before it brings disaster to the valley below."
+  "summary": "Chief Engineer Hinderweir VII needs you at Stonewrought Dam, where Dark Iron saboteurs have planted a charge. Disarm it before the valley below is in danger."
  },
  "quest:2844": {},
  "quest:2845": {},
@@ -4051,7 +4055,7 @@
    "1": 1,
    "5": 1
   },
-  "summary": "Prospector Whelgar needs four pieces of the Goaz Stone from his overrun dig in the Wetlands. Its inscriptions await translation."
+  "summary": "Prospector Whelgar needs the Goaz Stone's four missing pieces from his overrun dig in the Wetlands. Its inscriptions await translation."
  },
  "quest:2990": {},
  "quest:2992": {},
@@ -4435,7 +4439,7 @@
   "faq": {
    "2": 1
   },
-  "summary": "The warlocks of Stormwind have secured their refuge beneath the Slaughtered Lamb. Practitioners report to Zardeth of the Black Claw, whose cabal has kept the city guard and curious nobles at bay."
+  "summary": "Beneath the Slaughtered Lamb, Stormwind's warlocks have secured a refuge. They report to Zardeth of the Black Claw, whose cabal has kept the city guard and curious nobles at bay."
  },
  "quest:398": {},
  "quest:399": {},
@@ -4805,7 +4809,7 @@
    "2": 1,
    "4": 1
   },
-  "summary": "At the eastern cliffs, the red crystal holds something that moonwell water can reveal. You return to examine it and report to Sentinel Glynda Nal'Shea in Auberdine."
+  "summary": "At the eastern cliffs, you return to the red crystal with water from a moonwell. It may reveal what lies within, and you carry the finding back to Sentinel Glynda Nal'Shea in Auberdine."
  },
  "quest:482": {},
  "quest:4821": {
@@ -5659,7 +5663,7 @@
    "4": 1,
    "6": 2
   },
-  "summary": "At Stormwind's gates, the Alliance gathers to mark a victory over Blackrock. After you report to Grand Admiral Jes-Tereth in Stormwind Keep, the heroes go to the Valley of Heroes, where Field Marshal Stonebridge prepares a public commemoration for the city."
+  "summary": "At Stormwind's gates, the Alliance gathers to honor its victory over Blackrock. After you report to Grand Admiral Jes-Tereth in Stormwind Keep, the heroes make for the Valley of Heroes. Field Marshal Stonebridge is ready to lead the city's public commemoration."
  },
  "quest:7783": {},
  "quest:7784": {},
@@ -6227,7 +6231,7 @@
    "4": 1,
    "6": 1
   },
-  "summary": "At Bashal'Aran, Asterion's spirit remains bound by an ancient seal. You carry it south to Ameth'Aran, where an old flame may break his bonds."
+  "summary": "At Bashal'Aran, Asterion's spirit remains bound by an ancient seal. You carry the seal south to Ameth'Aran, where an old flame may break his bonds."
  },
  "quest:959": {},
  "quest:96": {},
@@ -7864,7 +7868,7 @@
   "remove_keywords": [
    "argus wake"
   ],
-  "summary": "The Syndicate is a widespread human criminal organization founded and led by dispossessed nobles of the fallen kingdom of Alterac. Operating out of fortified strongholds across the Alterac Mountains, Hillsbrad Foothills, and the ruins of Stromgarde Keep, they wage an uncompromising war against both the Alliance and the Horde to restore their lost aristocracy."
+  "summary": "Across northern Lordaeron, the Syndicate holds strongholds and fights to reclaim Alterac. Dispossessed nobles lead this human criminal organization against both the Alliance and the Horde, seeking to restore their lost aristocracy."
  },
  "topic:tauren": {},
  "topic:terenas-menethil-ii": {},

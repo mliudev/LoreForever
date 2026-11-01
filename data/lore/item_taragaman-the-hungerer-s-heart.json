@@ -10,11 +10,11 @@
    "quest:5761"
   ]
  },
- "summary": "Beneath Orgrimmar, Neeru Fireblade seeks Taragaman the Hungerer's Heart as proof the demonic presence has been purged. The grisly trophy comes from the felguard who rules Ragefire Chasm's depths.",
+ "summary": "Beneath Orgrimmar, Neeru Fireblade seeks Taragaman the Hungerer's Heart as proof that the demonic presence is gone. The trophy comes from the felguard ruling Ragefire Chasm's depths.",
  "sections": [
   {
    "title": "A Trophy of Deceit",
-   "body": "Taragaman the Hungerer's steaming heart is proof that the felguard has fallen. Neeru Fireblade tells Thrall and eager adventurers that Taragaman directs the Searing Blade cultists in Ragefire Chasm. Bringing the heart to Neeru appears to fulfill the Warchief's order to guard Orgrimmar from demonic corruption. Blaming a brutish felguard for leading the cult also keeps the mortal networks beneath the city out of sight.",
+   "body": "Taragaman the Hungerer's heart proves the felguard has fallen. Neeru Fireblade tells Thrall and eager adventurers that Taragaman directs the Searing Blade cultists in Ragefire Chasm. Bringing the heart to Neeru appears to fulfill the Warchief's order to guard Orgrimmar from demonic corruption. Blaming the cult's leadership on a brutish felguard also keeps the mortal networks beneath the city out of sight.",
    "spoiler": 1
   }
  ],
@@ -53,7 +53,7 @@
     "who leads searing blade",
     "taragaman real boss"
    ],
-   "answer": "Neeru Fireblade names Taragaman the Hungerer as the Searing Blade's leader and says slaying him and bringing back his heart will appease Thrall."
+   "answer": "Neeru Fireblade names Taragaman the Hungerer as the Searing Blade's leader. He says slaying him and bringing back his heart will appease Thrall."
   }
  ],
  "angles": [
@@ -90,5 +90,5 @@
   "Taragaman the Hungerer's Heart",
   "Slaying the Beast (quest)"
  ],
- "style": 1
+ "style": 2
 }

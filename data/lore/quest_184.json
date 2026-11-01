@@ -17,16 +17,16 @@
   "wiki": "Furlbrow's Deed (Classic)",
   "chain": []
  },
- "summary": "The Furlbrows flee their farm as Defias bandits carry their land grant through Elwynn Forest. Returning the deed to Farmer Furlbrow near the Westfall border preserves the couple’s claim to their stolen homestead.",
+ "summary": "Farmer Furlbrow and Verna stand driven from their farm, while Defias bandits carry their land grant through Elwynn Forest. Return it to Farmer Furlbrow near the Westfall border, and the couple keeps its claim to the stolen homestead.",
  "sections": [
   {
    "title": "A Clue on Stolen Paper",
-   "body": "Defias bandits in Elwynn carry a land deed signed by Theodore and Verna Furlbrow. A crude note on its back says they drove the elderly farmer from his property, then carried the document across the river into Elwynn to copy it and forge claims to other seized land. The note says the Furlbrows were stranded just over the border, beside the road, after their wagon broke.",
+   "body": "A deed signed by Theodore and Verna Furlbrow turns up among Defias bandits in Elwynn. On its back, a crude note says the bandits drove the elderly farmer from his property. They carried the deed across the river into Elwynn to copy it and forge claims to other seized land. The note places the stranded Furlbrows just over the border, beside the road, after their wagon broke.",
    "spoiler": 0
   },
   {
    "title": "The Plight of Westfall's Farmers",
-   "body": "The Defias have driven dozens of families from their ancestral land in Westfall. With Stormwind’s army absent and the realm’s resources strained, the Brotherhood uses force and false claims to seize the kingdom’s breadbasket. Theodore and Verna are leaving their farm for safety, but their lawful deed preserves their claim if order ever returns to the province.",
+   "body": "The Defias have driven dozens of Westfall families from their ancestral land. They use force and false claims to seize more farms for the Brotherhood, while Theodore and Verna leave their own farm for safety. Their lawful deed preserves their claim if order ever returns to the province.",
    "spoiler": 0
   }
  ],
@@ -55,7 +55,7 @@
     "why did bandits steal the deed",
     "why do defias want deeds"
    ],
-   "answer": "A note on the back says the bandits mean to copy Furlbrow's legitimate deed and forge claims to other properties, strengthening their hold on stolen farms with false paperwork."
+   "answer": "A note on the back says the bandits mean to copy Furlbrow's legitimate deed and forge claims to other properties. False paperwork would strengthen their hold on stolen farms."
   },
   {
    "q": "Are the Furlbrows returning to their farm?",
@@ -63,7 +63,7 @@
     "are furlbrows going home",
     "what happens to the furlbrow farm"
    ],
-   "answer": "The couple is fleeing the region because of lawlessness and bandit attacks. Holding their deed ensures they can legally reclaim their land if Westfall is ever pacified."
+   "answer": "The couple is fleeing the region because of lawlessness and bandit attacks. Holding their deed lets them legally reclaim their land if Westfall is ever pacified."
   },
   {
    "q": "Why isn't Stormwind protecting these farms?",
@@ -79,7 +79,7 @@
     "why was deed in elwynn",
     "connection between zones"
    ],
-   "answer": "The Defias network reaches from Elwynn Forest across the river into Westfall, showing how far its reach extends into the kingdom's core territories."
+   "answer": "The Defias network reaches from Elwynn Forest across the river into Westfall. Its presence there shows how far its reach extends into the kingdom's core territories."
   }
  ],
  "angles": [
@@ -111,5 +111,5 @@
  "attribution": [
   "Furlbrow's Deed (Classic)"
  ],
- "style": 1
+ "style": 2
 }

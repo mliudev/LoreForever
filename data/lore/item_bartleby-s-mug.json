@@ -10,11 +10,11 @@
    "quest:1665"
   ]
  },
- "summary": "In Stormwind, a stubborn brawler keeps Bartleby's Mug close. A warrior must win it in a tavern brawl, then watch Bartleby drain his drink before he surrenders it.",
+ "summary": "In Stormwind, Burlguard asks a young warrior to win Bartleby's Mug from its stubborn keeper. Bartleby surrenders it only after a tavern fight leaves him beaten.",
  "sections": [
   {
    "title": "A Brawler's Prize",
-   "body": "Bartleby keeps his mug close, and a young warrior in Stormwind must wrest it from him. The stubborn brawler gives it up only after a fight leaves him beaten. Even then, Bartleby drains every last drop before handing over the mug as proof of victory.",
+   "body": "Bartleby clings to his beloved mug until a fight leaves him beaten. Even then, he drains every last drop before handing it over. The mug proves the warrior could force an uncooperative opponent to yield.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "why do i need bartlebys mug",
     "what does the mug do"
    ],
-   "answer": "A warrior takes Bartleby's Mug as proof of victory in a training trial. Bringing it to the drill instructor shows the warrior could defeat a stubborn tavern brawler and make him surrender it."
+   "answer": "A warrior takes Bartleby's Mug as proof of victory in a training trial. Bringing it to the drill instructor shows the warrior could defeat a stubborn tavern brawler and make him surrender the mug."
   },
   {
    "q": "Who owns the mug originally?",
@@ -73,5 +73,5 @@
   "Bartleby's Mug",
   "Bartleby's Mug (quest)"
  ],
- "style": 1
+ "style": 2
 }

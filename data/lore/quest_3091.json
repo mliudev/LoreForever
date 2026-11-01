@@ -14,11 +14,11 @@
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "For young tauren starting their journey in Red Cloud Mesa, this note reinforces that martial duty to protect the tribe stands shoulder-to-shoulder with spiritual callings like shamanism and druidism."
+   "text": "For young tauren beginning in Red Cloud Mesa, the note shows that protecting the tribe matters as much as spiritual callings such as shamanism and druidism."
   },
   {
    "target": "class:Warrior",
-   "text": "Harutt Thunderhorn guides novice tauren warriors, teaching them to temper their martial pride and shoulder the heavy burden of defending Camp Narache from marauding centaur."
+   "text": "Harutt Thunderhorn teaches novice tauren warriors to temper their pride and defend Camp Narache from centaur."
   }
  ],
  "faq": [
@@ -28,7 +28,7 @@
     "who wrote the note",
     "sender simple note"
    ],
-   "answer": "The note is sent by Harutt Thunderhorn, the warrior trainer at Camp Narache, through a messenger who seeks out young tauren ready to begin their martial discipline.",
+   "answer": "Harutt Thunderhorn wrote the summons and sent it through a messenger to young tauren ready for martial training.",
    "q": "Who wrote the Simple Note?"
   },
   {
@@ -37,7 +37,7 @@
     "harutt thunderhorn",
     "where is harutt"
    ],
-   "answer": "Harutt Thunderhorn is a tauren warrior trainer stationed at Camp Narache in Mulgore. He trains new warriors who seek the glory of battle and the ancestral ways of tribal warfare.",
+   "answer": "Harutt Thunderhorn is a tauren warrior trainer at Camp Narache in Mulgore. He trains new warriors in battle and the ancestral ways of tribal warfare.",
    "q": "Who is Harutt Thunderhorn?"
   },
   {
@@ -45,7 +45,7 @@
     "why is the note important",
     "what does the note say"
    ],
-   "answer": "The note calls newly awakened warriors to meet their trainer and reminds them that frontline defenders and hunters are just as vital to the tribe as druids and shamans.",
+   "answer": "The note calls newly awakened warriors to meet their trainer. It reminds them that defenders and hunters are as vital to the tribe as druids and shamans.",
    "q": "What is the purpose of the Simple Note?"
   },
   {
@@ -53,7 +53,7 @@
     "why fight centaur",
     "tauren centaur conflict"
    ],
-   "answer": "The tauren of Mulgore face constant threats along their borders from hostile centaur packs. Warriors like Harutt are tasked with training tribal defenders to hunt them and protect the camp.",
+   "answer": "Hostile centaur packs threaten Mulgore's borders. Harutt trains warriors to hunt them and protect the camp.",
    "q": "Why are warriors called upon to hunt centaur?"
   },
   {
@@ -61,7 +61,7 @@
     "camp narache location",
     "where is camp narache"
    ],
-   "answer": "Camp Narache is the ancestral training camp and starting settlement for the young tauren of the Hawkwind tribe, at the edge of Red Cloud Mesa in Mulgore.",
+   "answer": "Camp Narache lies at the edge of Red Cloud Mesa in Mulgore. It is the ancestral training camp and starting settlement of the young tauren of the Hawkwind tribe.",
    "q": "Where is Camp Narache located?"
   },
   {
@@ -69,7 +69,7 @@
     "tauren rites of passage",
     "what rites do tauren take"
    ],
-   "answer": "Every member of the tribe, whether a warrior, hunter, shaman, or druid, must undergo the shared ancestral rites of the tribe to prove their strength, humility, and dedication to their people.",
+   "answer": "The text does not name the rites. It says every tribal member, from warriors and hunters to shamans and druids, must undergo them to prove strength, humility, and dedication to their people.",
    "q": "What are the tribal rites Harutt mentions?"
   }
  ],
@@ -91,18 +91,19 @@
  ],
  "sections": [
   {
-   "body": "Upon arriving at Camp Narache, young warriors receive a brief summons delivered by a camp messenger. Written by the veteran trainer Harutt Thunderhorn, the Simple Note urges the fledgling fighter to report immediately to begin their practical training in defense of the tribe.",
+   "body": "At Camp Narache, a messenger brings young warriors a summons from Harutt Thunderhorn. The veteran trainer calls each fighter to report and begin training to defend the tribe.",
    "spoiler": 0,
    "title": "A Summons to Battle"
   },
   {
-   "body": "While the Shu'halo deeply revere their spiritual leaders, Harutt reminds his students that physical defenders carry an equal burden. Warriors are called to patrol tribal borders, hunt predatory centaur packs, and protect their peaceful kin from outside aggression. Despite the glory found in battle, every warrior must remain humble and complete the same traditional rites as any shaman or druid.",
+   "body": "The Shu'halo revere their spiritual leaders, yet Harutt teaches that warriors bear an equal burden. They patrol tribal borders and hunt predatory centaur packs to protect their peaceful kin from attack. Battle may bring glory, but warriors remain humble and complete the same traditional rites as shamans and druids.",
    "spoiler": 0,
    "title": "The Defender's Burden"
   }
  ],
- "summary": "The Simple Note is a brief written summons delivered to novice tauren warriors in Camp Narache by a local messenger. Written by the trainer Harutt Thunderhorn, it calls young fighters to report for duty, reminding them of the essential role warriors play alongside druids and shamans in defending tribal borders from centaur.",
+ "summary": "At Camp Narache, Harutt Thunderhorn calls young tauren warriors to defend their people. His summons reminds them that warriors stand beside druids and shamans in guarding the tribal borders from centaur.",
  "attribution": [
   "In-game quest text: Simple Note"
- ]
+ ],
+ "style": 2
 }

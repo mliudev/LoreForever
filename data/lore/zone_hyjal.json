@@ -17,22 +17,22 @@
    "Hyjal"
   ]
  },
- "summary": "Mount Hyjal is the sacred mountain of the night elves in northern Kalimdor, crowned by the World Tree Nordrassil and the second Well of Eternity. In the last battle of the Third War, night elves, humans and orcs held its slopes against the Burning Legion until Archimonde fell at the World Tree's roots. The mountain still bears the scars, and the wounded tree still stands over the Well.",
+ "summary": "On Mount Hyjal, Nordrassil still crowns the sacred mountain above the second Well of Eternity. In the last battle of the Third War, night elves, humans and orcs held the slopes against the Burning Legion until Archimonde fell at the World Tree's roots. The battle scarred the mountain, and the wounded tree still stands over the Well.",
  "sections": [
   {
    "title": "The Sacred Mountain",
    "spoiler": 0,
-   "body": "Ten thousand years ago, after the Great Sundering, Illidan Stormrage poured stolen waters of the first Well of Eternity into a lake atop Mount Hyjal, creating a second Well. To guard it, the Dragon Aspects raised the World Tree Nordrassil over its waters, and their blessings granted the night elves immortality and a deep bond with the Emerald Dream. For millennia the kaldorei watched over the mountain while their druids slept in the barrow dens beneath it."
+   "body": "Ten thousand years ago, after the Great Sundering, Illidan Stormrage poured stolen waters from the first Well of Eternity into a lake atop Mount Hyjal. There he made a second Well. The Dragon Aspects raised the World Tree Nordrassil over its waters to guard it. Their blessings gave the night elves immortality and bound them deeply to the Emerald Dream. For millennia, the kaldorei watched over the mountain while their druids slept in the barrow deeps beneath it."
   },
   {
    "title": "The Battle of Mount Hyjal",
    "spoiler": 0,
-   "body": "During the Third War, the demon lord Archimonde marched up the mountain with the Scourge and the Burning Legion to drain the Well and destroy the World Tree. Jaina Proudmoore's human forces and Thrall's Horde set aside old hatreds to stand with Tyrande Whisperwind and Malfurion Stormrage, holding the slopes long enough for Malfurion to prepare a trap. When Archimonde reached Nordrassil, Malfurion sounded the Horn of Cenarius: thousands of wisps swarmed the demon, and the tree's stored power tore him apart. The victory cost the night elves their immortality and left Nordrassil scorched."
+   "body": "During the Third War, Archimonde led the Scourge and the Burning Legion up Mount Hyjal to drain the Well and destroy the World Tree. Jaina Proudmoore's humans and Thrall's Horde set aside old hatreds to stand with Tyrande Whisperwind and Malfurion Stormrage.\n\nThey held the slopes while Malfurion prepared a trap. When Archimonde reached Nordrassil, Malfurion sounded the Horn of Cenarius. Thousands of wisps swarmed the demon, and the tree's stored power tore him apart. The night elves lost their immortality, and Nordrassil was scorched."
   },
   {
    "title": "The Barrow Deeps and the Summit",
    "spoiler": 0,
-   "body": "Beneath the mountain lie the Barrow Deeps, an ancient cave system where the Druids of the Claw slept in their bear forms for thousands of years, until Malfurion woke them with the Horn of Cenarius to fight the Legion. Today the Barrow Deeps and Hyjal Summit, high on the mountain, are among the most perilous places on Kalimdor, fit only for great war bands of seasoned heroes."
+   "body": "Beneath Mount Hyjal lie the barrow deeps, where the Druids of the Claw slept in bear form for thousands of years. Malfurion woke them with the Horn of Cenarius to fight the Legion. Today, the barrow deeps and hyjal summit, high on the mountain, rank among Kalimdor's most perilous places. Only great war bands of seasoned heroes can face them."
   }
  ],
  "faq": [
@@ -43,7 +43,7 @@
     "hyjal location",
     "how to get to mount hyjal"
    ],
-   "answer": "Mount Hyjal rises in northern Kalimdor, bordered by Ashenvale, Felwood and Winterspring. Its summit holds the World Tree Nordrassil and the second Well of Eternity."
+   "answer": "Mount Hyjal rises in northern Kalimdor, bordered by Ashenvale, felwood and winterspring. Its summit holds the World Tree Nordrassil and the second Well of Eternity."
   },
   {
    "q": "What happened at the Battle of Mount Hyjal?",
@@ -52,7 +52,7 @@
     "how did archimonde die",
     "who killed archimonde"
    ],
-   "answer": "At the end of the Third War, Archimonde led the Burning Legion and the Scourge up the mountain to destroy the World Tree. Humans, orcs and night elves held the slopes together until Malfurion Stormrage sounded the Horn of Cenarius at Nordrassil; thousands of wisps and the tree's own power destroyed the demon lord."
+   "answer": "At the end of the Third War, Archimonde led the Burning Legion and the Scourge up Mount Hyjal to destroy the World Tree. Humans, orcs and night elves held the slopes together until Malfurion Stormrage sounded the Horn of Cenarius at Nordrassil. Then thousands of wisps and the tree's own power destroyed the demon lord."
   },
   {
    "q": "Why did the night elves lose their immortality here?",
@@ -60,7 +60,7 @@
     "night elf immortality",
     "why are night elves mortal"
    ],
-   "answer": "Nordrassil's blessings kept the night elves ageless. Unleashing the tree's power to destroy Archimonde burned those blessings away, and the kaldorei became mortal."
+   "answer": "Nordrassil's blessings kept the night elves ageless. When the tree's power destroyed Archimonde, those blessings burned away, and the kaldorei became mortal."
   },
   {
    "q": "What are the Barrow Deeps?",
@@ -69,7 +69,7 @@
     "druids of the claw",
     "barrow dens of hyjal"
    ],
-   "answer": "An ancient cave system beneath Mount Hyjal where the Druids of the Claw slept in the Emerald Dream for thousands of years, until Malfurion Stormrage woke them to fight the Burning Legion. Its depths are now among the most dangerous places on Kalimdor."
+   "answer": "The barrow deeps are an ancient cave system beneath Mount Hyjal, where the Druids of the Claw slept in the Emerald Dream for thousands of years. Malfurion Stormrage woke them to fight the Burning Legion. Their depths are now among Kalimdor's most dangerous places."
   },
   {
    "q": "What is Hyjal Summit?",
@@ -77,13 +77,13 @@
     "hyjal summit",
     "top of mount hyjal"
    ],
-   "answer": "The high reaches of Mount Hyjal, among the most perilous places on Kalimdor. Only the strongest war bands venture there."
+   "answer": "Hyjal Summit is the high ground of Mount Hyjal, among Kalimdor's most perilous places. Only the strongest war bands venture there."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "Hyjal is your people's holiest ground: here the kaldorei gave up their immortality so the World Tree could destroy Archimonde."
+   "text": "As a night elf, you know Hyjal as your people's holiest ground. Here, the kaldorei gave up their immortality so the World Tree could destroy Archimonde."
   },
   {
    "target": "faction:Horde",
@@ -91,11 +91,11 @@
   },
   {
    "target": "faction:Alliance",
-   "text": "Jaina Proudmoore's survivors of Lordaeron held the first line on Hyjal's slopes, buying the night elves the time they needed."
+   "text": "Jaina Proudmoore's survivors of Lordaeron held the first line on Hyjal's slopes. They bought the night elves the time they needed."
   },
   {
    "target": "class:Druid",
-   "text": "Druids hold Hyjal sacred: their order slept for ages in the barrow dens beneath it, and its World Tree once bound them to the Emerald Dream."
+   "text": "As a druid, you hold Hyjal sacred. Your order slept for ages in the barrow deeps beneath it, and its World Tree once bound you to the Emerald Dream."
   }
  ],
  "keywords": [
@@ -127,5 +127,6 @@
   "Barrow Deeps",
   "Barrow Deeps (instance)",
   "Hyjal Summit (instance)"
- ]
+ ],
+ "style": 2
 }

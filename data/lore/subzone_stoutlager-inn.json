@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Stoutlager Inn"
  },
- "summary": "In Thelsamar, Stoutlager Inn gives travelers a warm hearth and a place to gather in western Loch Modan.",
+ "summary": "In Thelsamar, Stoutlager Inn welcomes travelers crossing western Loch Modan with a warm hearth and a place to gather.",
  "sections": [
   {
    "title": "A Welcoming Hearth in the Hills",
-   "body": "Stoutlager Inn anchors community life in western Loch Modan, within Thelsamar. Miners, mountaineers, and travelers between Dun Morogh and the Wetlands stop to trade rumors, find lodging, and share dwarven ale. Troggs and kobolds make the wilderness beyond Thelsamar more dangerous, while the inn’s stone walls and fires offer shelter.",
+   "body": "Stoutlager Inn draws miners, mountaineers, and travelers passing between Dun Morogh and the Wetlands. They trade rumors, find beds, and share dwarven ale beneath its roof. Beyond Thelsamar, troggs and kobolds make the wilderness dangerous, so the inn’s stone walls and fires offer welcome shelter.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "what is in the inn",
     "thelsamar innkeeper"
    ],
-   "answer": "Stoutlager Inn offers beds, provisions, and drinks for travelers crossing Loch Modan. Its innkeeper can bind hearthstones, and local merchants sell supplies."
+   "answer": "Travelers crossing Loch Modan can find beds, provisions, and drinks at Stoutlager Inn. The innkeeper can bind hearthstones, and local merchants sell supplies."
   },
   {
    "q": "Where is the Stoutlager Inn located?",
@@ -32,7 +32,7 @@
     "where is stoutlager",
     "find stoutlager inn"
    ],
-   "answer": "Stoutlager Inn stands in the center of Thelsamar, the main Alliance town in western Loch Modan, beside the main road."
+   "answer": "Stoutlager Inn stands beside the main road in the center of Thelsamar, the main Alliance town in western Loch Modan."
   },
   {
    "q": "Why is the inn so important to Thelsamar?",
@@ -46,7 +46,7 @@
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "As a Bronzebeard dwarf, you may find the warmth of home at Stoutlager Inn, known for its hospitality, fresh ale, and reliable company far from Ironforge."
+   "text": "As a Bronzebeard dwarf, you may find the warmth of home at Stoutlager Inn. Its hospitality, fresh ale, and reliable company are welcome far from Ironforge."
   },
   {
    "target": "faction:Alliance",
@@ -69,5 +69,5 @@
  "attribution": [
   "Stoutlager Inn"
  ],
- "style": 1
+ "style": 2
 }

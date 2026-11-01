@@ -8,11 +8,11 @@
   "wiki": "Marshal Dughan",
   "refs": 11
  },
- "summary": "Goldshire's marshal faces threats on every road and mine. Marshal Dughan commands the Stormwind Army detachment there, but kobolds, gnolls, and bandits stretch his small garrison. He depends on independent adventurers to help protect the town and nearby farms.",
+ "summary": "In Goldshire, Marshal Dughan holds the roads against threats from the mines and woods. He commands Stormwind's small army detachment, stretched thin by kobolds, gnolls, and bandits. To guard the town and nearby farms, he depends on independent adventurers.",
  "sections": [
   {
    "title": "Commander of the Crossroads",
-   "body": "Marshal Dughan directs Elwynn Forest's defense from Goldshire, outside the Lion's Pride Inn. Stormwind's soldiers are tied up elsewhere, while trouble grows in the woods. Kobolds crowd the mines, gnolls gather along the riverbanks, and highwaymen harass travelers on the King's Road. With too few footmen under his command, Dughan sends new recruits to reinforce outposts and scout dangerous ground.",
+   "body": "From Goldshire, Marshal Dughan directs Elwynn Forest's defense outside the Lion's Pride Inn. Stormwind's soldiers are tied up elsewhere as trouble grows in the woods. Kobolds crowd the mines, gnolls gather along the riverbanks, and highwaymen harass travelers on the King's Road. With too few footmen, Dughan sends new recruits to reinforce outposts and scout dangerous ground.",
    "spoiler": 0
   },
   {
@@ -38,7 +38,7 @@
     "goldshire garrison strength",
     "dughan troops"
    ],
-   "answer": "Stormwind's forces are spread thin, leaving Dughan with barely enough guards to keep order in Goldshire. He has too few soldiers for every farm and border post, so he relies on visiting adventurers to scout danger, carry dispatches, and confront local threats."
+   "answer": "Stormwind's forces are spread thin, leaving Dughan barely enough guards to keep order in Goldshire. He has too few soldiers for every farm and border post, so he relies on visiting adventurers to scout danger, carry dispatches, and confront local threats."
   },
   {
    "q": "What is Dughan's view on the murloc threat in Elwynn?",
@@ -56,7 +56,7 @@
     "goldshire law",
     "stockade threat"
    ],
-   "answer": "Dughan is charged with keeping peace in Goldshire and the surrounding lands. He says keeping order is hard enough amid Elwynn's new troubles, and focuses on kobolds to the north and gnolls and thieves to the west."
+   "answer": "Dughan is charged with keeping peace in Goldshire and the surrounding lands. He says order is hard enough to keep amid Elwynn's new troubles, and focuses on kobolds to the north and gnolls and thieves to the west."
   },
   {
    "q": "Why is Dughan concerned about the mines?",
@@ -74,7 +74,7 @@
     "report to westfall",
     "dughan sentinel hill"
    ],
-   "answer": "Yes. After an adventurer proves capable in Elwynn Forest, Dughan sends them to report to Gryan Stoutmantle at Sentinel Hill in Westfall. The People's Militia needs veteran help against the Defias Brotherhood."
+   "answer": "Yes. After you prove capable in Elwynn Forest, Dughan sends you to report to Gryan Stoutmantle at Sentinel Hill in Westfall. The People's Militia needs veteran help against the Defias Brotherhood."
   }
  ],
  "angles": [
@@ -110,5 +110,5 @@
  "attribution": [
   "Marshal Dughan"
  ],
- "style": 1
+ "style": 2
 }

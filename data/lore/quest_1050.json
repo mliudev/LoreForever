@@ -11,11 +11,11 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "Librarian Mae Paledust in Ironforge seeks a book said to have been kept in the old Monastery of Tirisfal. Its study may help reveal what the past can teach about the unknown ahead.",
+ "summary": "In Ironforge, Librarian Mae Paledust seeks Mythology of the Titans, a book said to have rested in Tirisfal's old Monastery. Its study may show what the past can teach about the unknown ahead.",
  "sections": [
   {
    "title": "A Lost Volume",
-   "body": "Before troubles came to Lordaeron, the old Monastery in Tirisfal Glades held a library of knowledge. Mae asks you to retrieve a book called Mythology of the Titans from there and bring it to her in Ironforge. She hopes that studying it will help uncover secrets of the past.",
+   "body": "Before trouble came to Lordaeron, the old Monastery in Tirisfal Glades kept a library of knowledge. Mae asks you to bring her a book called Mythology of the Titans. It is said to be there, and she hopes its study will uncover secrets of the past.",
    "spoiler": 0
   }
  ],
@@ -45,7 +45,7 @@
     "titan mythology",
     "mythology book"
    ],
-   "answer": "It is a book said to have been housed in the old Monastery's library in Tirisfal Glades."
+   "answer": "Mythology of the Titans is a book said to have been kept in the old Monastery's library in Tirisfal Glades."
   },
   {
    "q": "Why does Mae want the book?",
@@ -54,7 +54,7 @@
     "why Mae needs it",
     "what's it for"
    ],
-   "answer": "Mae hopes studying the book may help reveal secrets of the past and prepare for the unknown."
+   "answer": "Mae hopes studying the book may reveal secrets of the past and help prepare for the unknown."
   }
  ],
  "angles": [],
@@ -75,7 +75,7 @@
   "topic:titan",
   "topic:lordaeron"
  ],
- "style": 1,
+ "style": 2,
  "attribution": [
   "In-game quest text: Mythology of the Titans"
  ]

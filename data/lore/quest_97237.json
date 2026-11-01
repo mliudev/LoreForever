@@ -14,7 +14,7 @@
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Running couriered errands between Stormwind's libraries and local gathering spots reflects the quiet everyday civic life carrying on in the capital amidst wider kingdom tensions."
+   "text": "Courier errands between Stormwind's libraries and local gathering places are part of everyday life in the capital, even amid wider tensions in the kingdom."
   }
  ],
  "faq": [
@@ -24,7 +24,7 @@
     "shelf picked quest giver",
     "where does shelf picked start"
    ],
-   "answer": "The quest is received from a librarian overseeing inventory at a library after Roy Lewells sends an errand note. The librarian verifies that Roy's requested reading list is in stock, but directs you to pull the volumes from the shelves yourself.",
+   "answer": "A librarian overseeing the Stormwind library gives you the errand after receiving Roy Lewells's note. The librarian confirms the requested books are in stock and asks you to pull them from the shelves.",
    "q": "Who gives the quest Shelf Picked?"
   },
   {
@@ -33,7 +33,7 @@
     "roy lewells park",
     "who is lewells"
    ],
-   "answer": "Roy Lewells is an organizer of a local reading group based around Stormwind's Park. He sends couriers to retrieve reserved books from the library for upcoming after-hours discussions held in their cellar.",
+   "answer": "Roy Lewells organizes a local reading group based in Stormwind's Park. He sends couriers to collect books from the library for the group's after-hours discussions in a cellar.",
    "q": "Who is Roy Lewells?"
   },
   {
@@ -42,7 +42,7 @@
     "where are the books picked",
     "which library shelf picked"
    ],
-   "answer": "The quest takes place at a library where Mr. Lewells's reading selections are kept in stock. The overseeing librarian manages the inventory records while couriers search the premises' shelves for the specific texts requested.",
+   "answer": "The books are collected at a Stormwind library. The librarian keeps the inventory records while you search the shelves for Roy Lewells's requested titles.",
    "q": "Where does the book collection take place?"
   },
   {
@@ -51,7 +51,7 @@
     "what is lewells book club",
     "cellar after hours book club"
    ],
-   "answer": "Roy Lewells requested the reading materials for an informal book club to spark lively discussions among members. Because of the nature of their gatherings, they convene after hours in a cellar once the books are delivered.",
+   "answer": "Roy Lewells needs the books for an informal book club whose members gather for lively discussions after hours in a cellar.",
    "q": "Why does Roy Lewells need these books?"
   },
   {
@@ -60,7 +60,7 @@
     "who returns shelf picked books",
     "library book return accountability"
    ],
-   "answer": "No. The librarian explicitly clarifies that acting as an official courier with Roy Lewells's note exempts you from personal accountability for returning the volumes; the burden of returning the books rests solely with Roy's establishment.",
+   "answer": "No. With Roy Lewells's note, you act as an official courier. His establishment is responsible for returning the borrowed books.",
    "q": "Are you responsible for returning the borrowed books?"
   },
   {
@@ -69,7 +69,7 @@
     "where to find roy lewells",
     "shelf picked turn in"
    ],
-   "answer": "You deliver the collected reading materials directly back to Roy Lewells, who can be found in the Park district of the city of Stormwind.",
+   "answer": "You bring the collected books to Roy Lewells in Stormwind's Park.",
    "q": "Where do you bring the books once retrieved?"
   }
  ],
@@ -88,18 +88,19 @@
  ],
  "sections": [
   {
-   "body": "Shelf Picked involves acting as an official courier for Roy Lewells, a resident connected to Stormwind's Park district. Roy submits a request for various reading selections, and while the presiding librarian confirms every listed title is in stock, the courier must personally locate and pull each volume from the shelves. The librarian remains at the desk attending to supervisory bookkeeping, ensuring proper inventory records are maintained while delegating the physical retrieval.",
+   "body": "Roy Lewells has sent a note asking for several books from the Stormwind library. The librarian checks the list and confirms every title is in stock. The books are there for you to find and pull from the shelves. The librarian stays at the desk to keep the inventory records.",
    "spoiler": 0,
    "title": "An Errand for the Stacks"
   },
   {
-   "body": "Handling borrowed library volumes often carries strict return obligations, but carrying Roy Lewells's authorization provides official courier status. The supervising librarian notes that personal accountability does not fall on the runner; instead, Lewells's establishment bears full responsibility for returning the borrowed works. Once delivered to the Park, Roy prepares the exotic-smelling volumes for lively, after-hours discussions hosted down in a cellar.",
+   "body": "Roy Lewells's note makes you an official courier, so you are not responsible for returning the borrowed books. That duty belongs to Lewells's establishment. Once you bring the volumes to the Park, Roy prepares them for lively after-hours discussions in a cellar. The books have an exotic smell.",
    "spoiler": 0,
    "title": "The Cellar Reading Club"
   }
  ],
- "summary": "Shelf Picked is a courier errand in Stormwind requiring the retrieval of a specific reading list from library shelves for Roy Lewells. Serving as an authorized intermediary, the runner pulls the volumes on behalf of a local book club gathering in the Park.",
+ "summary": "In Stormwind, Roy Lewells sends a runner to gather books for a reading group in the Park.",
  "attribution": [
   "In-game quest text: Shelf Picked"
- ]
+ ],
+ "style": 2
 }

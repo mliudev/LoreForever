@@ -7,26 +7,26 @@
  "meta": {
   "wiki": "Syndicate"
  },
- "summary": "The Syndicate is a widespread human criminal organization founded and led by dispossessed nobles of the fallen kingdom of Alterac. Operating out of fortified strongholds across the Alterac Mountains, Hillsbrad Foothills, and the ruins of Stromgarde Keep, they wage an uncompromising war against both the Alliance and the Horde to restore their lost aristocracy.",
+ "summary": "Across northern Lordaeron, the Syndicate holds strongholds and fights to reclaim Alterac. Dispossessed nobles lead this human criminal organization against both the Alliance and the Horde, seeking to restore their lost aristocracy.",
  "sections": [
   {
    "title": "Fallen Nobility",
-   "body": "When the kingdom of Alterac collapsed in dishonor following King Aiden Perenolde's treachery during the Second War, its aristocracy was stripped of land and title. Refusing to accept their exile, the remaining Alteraci nobility banded together under the late king's son, Prince Aliden Perenolde. Adopting distinctive orange bandanas and standardizing their ranks with hired thugs, highwaymen, and hedge wizards, they forged the Syndicate. To the outside world, they behave like common brigands, raiding caravans, ambushing travelers, and running extortion rings. In truth, their criminal enterprises exist solely to fund an organized effort to reconquer their ancestral domains and subjugate surrounding lands.",
+   "body": "After King Aiden Perenolde's treachery during the Second War, the kingdom of Alterac collapsed in dishonor. Its aristocracy lost its lands and titles, but the surviving nobles refused to accept exile. They gathered under the late king's son, Prince Aliden Perenolde, and forged the Syndicate.\n\nThey marked themselves with orange bandanas and filled their ranks with hired thugs, highwaymen, and hedge wizards. To outsiders, they are brigands who raid caravans, ambush travelers, and extort people. Yet their crimes exist only to fund an organized bid to reclaim their ancestral lands and subjugate the surrounding regions.",
    "spoiler": 0
   },
   {
    "title": "Strongholds of the North",
-   "body": "The Syndicate maintains entrenched footholds across northern Lordaeron. In the snowy Alterac Mountains, they fortified the ruined town of Strahnbrad and established encampments throughout the Uplands and Dandred's Fold. To the south, they hold the crumbling remnants of Durnholde Keep in the Hillsbrad Foothills, using it as a springboard to harass Southshore and raid supply routes. Further east across the Thoradin's Wall, Lord Falconcrest marshals an occupying Syndicate army inside the historic ruins of Stromgarde Keep in Arathi, actively battling the battered Stromgarde Militia for mastery over the Arathi Highlands.",
+   "body": "Across northern Lordaeron, the Syndicate holds fortified ground. In the snowy Alterac Mountains, they fortified the ruined town of Strahnbrad and set camps in the Uplands and Dandred's Fold. Farther south, they hold the crumbling Durnholde Keep in the Hillsbrad Foothills. From there, they harass Southshore and raid supply routes.\n\nFarther east, beyond Thoradin's Wall, Lord Falconcrest commands an occupying Syndicate army in the historic ruins of Stromgarde Keep. There, they battle the battered Stromgarde Militia for control of the Arathi Highlands.",
    "spoiler": 0
   },
   {
    "title": "Enemies on All Fronts",
-   "body": "Unlike ordinary outlaws, the Syndicate harbors grand ideological ambitions that earn them the hatred of almost every regional faction. They view the Alliance as mortal enemies who stole their rightful heritage, frequently targeting Southshore officials such as Magistrate Henry Maleb. Towards the Horde, their stance is openly supremacist: following the philosophies of Aedelas Blackmoore, they view orcs merely as beasts fit for slave labor and seek to rebuild the internment camp system. Sylvanas Windrunner's Forsaken execute captured Syndicate members on sight, while the clandestine thieves' guild of Ravenholdt wages a constant shadow war against their sloppy, arrogant operatives.",
+   "body": "The Syndicate's ambitions reach beyond ordinary outlawry, earning them the hatred of nearly every regional faction. They call the Alliance their mortal enemy, believing it stole their rightful heritage. Their attacks often target Southshore officials such as Magistrate Henry Maleb.\n\nToward the Horde, their scorn is open. Following Aedelas Blackmoore's philosophy, they see orcs as beasts fit for slave labor and seek to restore the internment camps. Sylvanas Windrunner's Forsaken execute captured Syndicate members on sight. Ravenholdt's clandestine thieves' guild wages a shadow war against Syndicate operatives it considers sloppy and arrogant.",
    "spoiler": 0
   },
   {
    "title": "Puppets of the Shadow Council",
-   "body": "While the Syndicate's noble leaders believe they are fighting for human supremacy and their birthright, they are being steered from within by darker masters. Cultists belonging to the Argus Wake have thoroughly infiltrated their upper ranks, manipulating men like Lord Falconcrest into seizing Stromgarde Keep. Far from serving human interests, the Argus Wake ultimately reports to the Shadow Council based in Felwood's Jaedenar, using the Syndicate's armies and stolen territories as a mortal vanguard to clear the way for the Burning Legion.",
+   "body": "The Syndicate's noble leaders believe they fight for human supremacy and their birthright. Yet cultists of the Argus Wake have infiltrated the upper ranks and steer men such as Lord Falconcrest toward seizing Stromgarde Keep.\n\nThe Argus Wake answers to the Shadow Council in Jaedenar, within Felwood. It uses the Syndicate's armies and stolen lands as a mortal vanguard, clearing the way for the Burning Legion.",
    "spoiler": 2
   }
  ],
@@ -38,7 +38,7 @@
     "syndicate background",
     "who are these guys in orange"
    ],
-   "answer": "The Syndicate is a large criminal organization made up of dispossessed nobles, brigands, and mercenaries originating from the fallen kingdom of Alterac. Led by exiled aristocrats like Prince Aliden Perenolde and Lord Falconcrest, they use highway robbery, assassination, and military occupation in an attempt to rebuild Alterac."
+   "answer": "The Syndicate is a criminal organization of dispossessed nobles, brigands, and mercenaries from fallen Alterac. Exiled aristocrats such as Prince Aliden Perenolde and Lord Falconcrest lead them. They use highway robbery, assassination, and military occupation to try to rebuild Alterac."
   },
   {
    "q": "Why does the Syndicate hate the Alliance?",
@@ -47,7 +47,7 @@
     "syndicate alliance relationship",
     "alterac vs alliance"
    ],
-   "answer": "Alterac betrayed the Alliance of Lordaeron during the Second War. In punishment, the Alliance dismantled the kingdom and stripped its nobles of their lands. The Syndicate's leaders consider the Alliance their mortal enemies and actively sabotage Alliance towns, trade caravans, and military garrisons like Stromgarde Keep."
+   "answer": "Alterac betrayed the Alliance of Lordaeron during the Second War, and the Alliance dismantled the kingdom and stripped its nobles of their lands. Syndicate leaders consider the Alliance their mortal enemy and sabotage its towns, trade caravans, and garrisons such as Stromgarde Keep."
   },
   {
    "q": "Why does the Syndicate capture and enslave orcs?",
@@ -56,7 +56,7 @@
     "why are orcs in cages in strahnbrad",
     "syndicate slavery"
    ],
-   "answer": "The Syndicate subscribes to the harsh philosophies of former Durnholde commander Aedelas Blackmoore, viewing orcs as savage beasts fit only for unpaid servitude. Prince Aliden Perenolde sought to re-establish the Alliance internment camp system, using enslaved orcs captured in the Hillsbrad Foothills and Alterac as forced labor."
+   "answer": "The Syndicate follows the harsh philosophy of former Durnholde commander Aedelas Blackmoore, who viewed orcs as savage beasts fit only for unpaid servitude. Prince Aliden Perenolde sought to restore the Alliance internment camps, using enslaved orcs captured in the Hillsbrad Foothills and Alterac as forced labor."
   },
   {
    "q": "What is the Syndicate's relationship with Ravenholdt?",
@@ -65,7 +65,7 @@
     "why does ravenholdt hate syndicate",
     "syndicate emblems"
    ],
-   "answer": "Ravenholdt is a prestigious guild of professional assassins and thieves based in the Alterac Mountains who view the Syndicate as amateurish, undisciplined brutes. To undermine the Syndicate, Ravenholdt contracts rogues to pickpocket their emblems, as disgraced Syndicate operatives are ruthlessly culled by their own leadership upon losing them."
+   "answer": "Ravenholdt is a prestigious guild of professional assassins and thieves in the Alterac Mountains. Its members consider the Syndicate amateurish and undisciplined, and contract rogues to steal Syndicate emblems. The Syndicate's leaders ruthlessly cull operatives who lose theirs."
   },
   {
    "q": "Who is really pulling the strings behind the Syndicate?",
@@ -74,7 +74,7 @@
     "argus wake syndicate",
     "shadow council syndicate"
    ],
-   "answer": "Publicly, the Syndicate answers to exiled Alteraci nobles such as Prince Aliden Perenolde and Lord Falconcrest, who believe they are fighting to win back their lost titles. Whispers in the Arathi Highlands hint at darker hands behind their occupation of Stromgarde, a mystery travelers can unravel by investigating the Syndicate's strongholds there."
+   "answer": "The Syndicate publicly answers to exiled Alteraci nobles such as Prince Aliden Perenolde and Lord Falconcrest. They believe they are fighting to reclaim their lost titles. Yet whispers in the Arathi Highlands hint at darker hands behind their hold on Stromgarde, and travelers can look into it at the Syndicate's strongholds there."
   },
   {
    "q": "Where are the Syndicate's primary strongholds?",
@@ -83,25 +83,25 @@
     "syndicate locations",
     "where to find syndicate"
    ],
-   "answer": "The Syndicate operates extensively across three zones: the Alterac Mountains (Strahnbrad and Dandred's Fold), the Hillsbrad Foothills (Durnholde Keep), and the Arathi Highlands (Northfold Manor), where they also occupy a massive quarter of Stromgarde Keep under Lord Falconcrest."
+   "answer": "The Syndicate's main strongholds lie across the Alterac Mountains, the Hillsbrad Foothills, and the Arathi Highlands. They hold Strahnbrad and Dandred's Fold in Alterac, Durnholde Keep in Hillsbrad, and Northfold Manor in Arathi. Under Lord Falconcrest, they also occupy a large part of Stromgarde Keep."
   }
  ],
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "The Ravenholdt guild pays well for thieves willing to slip behind enemy lines and pickpocket emblems directly from Syndicate brigands, capitalizing on their internal paranoia."
+   "text": "Ravenholdt pays thieves to slip behind enemy lines and steal emblems from Syndicate brigands, taking advantage of their fear of losing rank."
   },
   {
    "target": "race:Orc",
-   "text": "The Syndicate views your people as beasts destined for chains and internment, making the liberation of captured brethren in Strahnbrad and Durnholde an urgent matter of honor."
+   "text": "The Syndicate sees your people as beasts destined for chains and internment. Freeing captured brethren in Strahnbrad and Durnholde is a matter of honor."
   },
   {
    "target": "faction:Alliance",
-   "text": "Syndicate operatives murdered Southshore's former magistrate and continually push the beleaguered Stromgarde Militia toward total extinction in the Arathi Highlands."
+   "text": "Syndicate operatives murdered Southshore's former magistrate and keep pushing the beleaguered Stromgarde Militia toward extinction in the Arathi Highlands."
   },
   {
    "target": "faction:Horde",
-   "text": "Warchief Thrall and Lady Sylvanas both maintain active bounties against the Syndicate, dispatching scouts to eliminate their encampments and recover stolen relics."
+   "text": "Warchief Thrall and Lady Sylvanas both maintain active bounties against the Syndicate. They send scouts to destroy its camps and recover stolen relics."
   }
  ],
  "keywords": [
@@ -129,5 +129,6 @@
  ],
  "attribution": [
   "Syndicate"
- ]
+ ],
+ "style": 2
 }

@@ -10,16 +10,16 @@
    "quest:396"
   ]
  },
- "summary": "At Stormwind Keep, a report on the Defias Brotherhood carries the findings of a long investigation to the royal court. City Architect Baros Alexston entrusts it to the adventurer who uncovered the conspiracy.",
+ "summary": "At Stormwind Keep, the findings on the Defias Brotherhood reach the royal court. City Architect Baros Alexston entrusts the report to the adventurer who uncovered the conspiracy.",
  "sections": [
   {
    "title": "A Dispatch for the Throne",
-   "body": "City Architect Baros Alexston prepared a report for Stormwind's leaders after a long investigation into unrest in Westfall and nearby lands. He entrusted the document to the adventurer who unraveled the conspiracy. The report is carried to Stormwind Keep, where it is meant to accompany a personal audience about the conspirators' schemes and the danger they pose to the kingdom.",
+   "body": "City Architect Baros Alexston prepared the report for Stormwind's leaders after a long investigation into unrest in Westfall and nearby lands. He entrusted it to the adventurer who unraveled the conspiracy.\n\nThe report is carried to Stormwind Keep for a personal audience. There, the findings concern the conspirators' schemes and the danger they pose to the kingdom.",
    "spoiler": 0
   },
   {
    "title": "Reception at the Keep",
-   "body": "King Varian Wrynn is away on a diplomatic journey when the courier reaches the throne room. Royal advisors and the regency governing for the boy-king Anduin receive the report in his place. They commend the courier for stopping VanCleef's plans. Lady Katrana Prestor is among the court figures present as the warnings reach the regency.",
+   "body": "King Varian Wrynn is away on a diplomatic journey when the courier reaches the throne room. Royal advisors and the regency governing for the boy-king Anduin receive the report in his place. They commend the courier for stopping VanCleef's plans.\n\nLady Katrana Prestor is among the court figures present as the warnings reach the regency.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "defias report item",
     "baros alexston report"
    ],
-   "answer": "The Report on the Defias Brotherhood is an official briefing by Baros Alexston, gathering intelligence on Edwin VanCleef, his subterranean army, and the wider Defias conspiracy against Stormwind."
+   "answer": "The report is an official briefing by Baros Alexston. It gathers intelligence on Edwin VanCleef, his subterranean army, and the wider Defias conspiracy against Stormwind."
   },
   {
    "q": "Who wrote this report?",
@@ -39,7 +39,7 @@
     "who made the defias report",
     "report author"
    ],
-   "answer": "Baros Alexston, Stormwind's City Architect, prepared the report. He once worked alongside the stonemasons before they broke away to form the Defias Brotherhood."
+   "answer": "Stormwind's City Architect, Baros Alexston, prepared the report. He once worked alongside the stonemasons before they broke away to form the Defias Brotherhood."
   },
   {
    "q": "Why am I delivering this to Stormwind Keep?",
@@ -47,7 +47,7 @@
     "why do i deliver this",
     "audience with the king delivery"
    ],
-   "answer": "Baros Alexston believes the adventurer who uncovered the conspiracy deserves to present the findings to the throne and earn royal recognition for protecting the realm."
+   "answer": "Baros Alexston believes the adventurer who uncovered the conspiracy deserves to present the findings to the throne. He hopes you will earn royal recognition for protecting the realm."
   },
   {
    "q": "Does King Varian read the report?",
@@ -61,11 +61,11 @@
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Delivering the report brings the long struggle to secure Westfall and warn Stormwind's leaders of the insurrection at its borders to the royal court."
+   "text": "Delivering the report brings the long struggle to secure Westfall and warn Stormwind's leaders of the insurrection at its borders before the royal court."
   },
   {
    "target": "race:Human",
-   "text": "As a human of the realm, you carry a report that reflects the unresolved conflict between Stormwind's noble house and the stonemasons who rebuilt the city."
+   "text": "As a human of the realm, you carry a report about the unresolved conflict between Stormwind's noble house and the stonemasons who rebuilt the city."
   }
  ],
  "keywords": [
@@ -91,5 +91,5 @@
   "Report on the Defias Brotherhood",
   "An Audience with the King"
  ],
- "style": 1
+ "style": 2
 }

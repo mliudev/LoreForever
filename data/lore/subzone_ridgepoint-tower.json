@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Ridgepoint Tower"
  },
- "summary": "Stormwind guards watch the eastern frontier from Ridgepoint Tower. They keep vigil over the perilous corridors, valleys, and roads leading into neighboring wilderness.",
+ "summary": "Stormwind guards watch eastern Elwynn from Ridgepoint Tower, where forest roads lead into neighboring wilderness. The garrison scans the valleys for threats to the kingdom’s farms and settlements.",
  "sections": [
   {
    "title": "Sentinel of the Eastern Border",
-   "body": "At Ridgepoint Tower, the garrison watches the valleys and roads of eastern Elwynn. The tower stands on high ground, where Stormwind's authority reaches its eastern border and the wilds begin. Its guards keep watch over the routes before threats can reach the farms and settlements nearer Northshire and Goldshire.",
+   "body": "Ridgepoint Tower looks out from high ground at the eastern edge of Stormwind’s authority, with wild country beyond. Its guards watch the routes toward farms and settlements nearer Northshire and Goldshire. They remain alert for danger crossing the border.",
    "spoiler": 0
   },
   {
    "title": "Threats on Every Horizon",
-   "body": "Ridgepoint Tower faces threats from several directions. East lie the Redridge Mountains, where aggressive gnoll packs and blackrock orc raiders test human defenses. Across the southern river, undead horrors prowl the timberline of Duskwood. Rogue Defias Brotherhood bandits also haunt nearby wilderness camps, looking for gaps in the guard's defenses.",
+   "body": "Threats press in from several directions. East lie the Redridge Mountains, where aggressive gnoll packs and blackrock orc raiders test human defenses. Across the southern river, undead horrors prowl Duskwood’s timberline. Nearby wilderness camps shelter rogue Defias Brotherhood bandits seeking gaps in the guard’s defenses.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "what is this guard tower",
     "east elwynn tower"
    ],
-   "answer": "Ridgepoint Tower is a fortified scout tower in eastern Elwynn Forest, where the Stormwind Guard watches for hostile incursions and works to protect the kingdom."
+   "answer": "Stormwind’s guards watch the kingdom’s eastern edge from Ridgepoint Tower, a fortified scout post in eastern Elwynn Forest."
   },
   {
    "q": "Who controls and mans the tower?",
@@ -36,7 +36,7 @@
     "who is at ridgepoint tower",
     "who owns ridgepoint tower"
    ],
-   "answer": "Guardsmen and scouts loyal to the Kingdom of Stormwind hold and garrison the tower. They operate under the command of the Stormwind Guard."
+   "answer": "Guardsmen and scouts loyal to the Kingdom of Stormwind hold and garrison Ridgepoint Tower under the command of the Stormwind Guard."
   },
   {
    "q": "What threats does the garrison watch out for?",
@@ -59,11 +59,11 @@
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance traveler, you can take Ridgepoint Tower as a reassuring beacon of safety and order before crossing into the perilous passes of Redridge or the haunted roads of Duskwood."
+   "text": "As an Alliance traveler, you can take Ridgepoint Tower as a reassuring sign of safety and order before crossing into Redridge’s perilous passes or Duskwood’s haunted roads."
   },
   {
    "target": "class:Warrior",
-   "text": "As a warrior, you can respect the stoic resolve of the guardsmen holding this exposed border outpost against surrounding hostiles."
+   "text": "As a warrior, you can respect the guardsmen’s resolve as they hold this exposed border outpost against surrounding hostiles."
   }
  ],
  "keywords": [
@@ -87,5 +87,5 @@
  "attribution": [
   "Ridgepoint Tower"
  ],
- "style": 1
+ "style": 2
 }

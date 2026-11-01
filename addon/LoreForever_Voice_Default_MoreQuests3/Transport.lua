@@ -82,11 +82,11 @@ P.transport["quest:1190"] = {
   },
 }
 P.transport["quest:1191"] = {
-  hash = "23bd8e",
-  fullHash = "23bd8e",
-  text = "Zamek's Distraction. Zamek can create the diversion that Keeping Pace calls for. It comes while you are in the middle of that step, and Keeping Pace cannot be finished without it. While you are working through Keeping Pace, Zamek can create a diversion. When it happens, Rizzle leaves his hut, and the Indurium plans are left behind.",
+  hash = "04afec",
+  fullHash = "04afec",
+  text = "Zamek's Distraction. In Thousand Needles, Zamek's Distraction can draw Rizzle away while you work through Keeping Pace. You cannot finish Keeping Pace without it. While you work through Keeping Pace, Zamek draws Rizzle from his hut. The Indurium plans remain behind.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1191-482ddf9c37db79f9de5c/1-0000.mp3", duration = 18.1028571, start = 0},
+    {file = "Audio/Transport/full_quest_1191-cc71ddec0d0ba3bfea1c/1-0000.mp3", duration = 15.4383673, start = 0},
   },
 }
 P.transport["quest:1192"] = {
@@ -138,11 +138,19 @@ P.transport["quest:1467"] = {
   },
 }
 P.transport["quest:1488"] = {
-  hash = "8fb465",
-  fullHash = "8fb465",
-  text = "The Corrupter. Takata Steelblade knows nothing of Lord Azrethoc, yet sides with Maurin that the demon lord must be stopped, all the more if Azrethoc is trying to win influence over the Burning Blade. Takata trusts you to gather a party against Azrethoc and his warlock servant, Jugkar Grim'rod. Takata has never heard of Lord Azrethoc, yet agrees with Maurin that the demon lord must be stopped, above all if Azrethoc is reaching out to sway the Burning Blade. You have already shown you want to aid the Warchief, so Takata trusts you to gather a party and slay Azrethoc and his warlock servant, Jugkar Grim'rod. Takata tells you to head directly south, to Mannoroc Coven, where both are found. Takata calls the demons in Desolace a greater threat than ever before. Each newly arrived foul creature makes the prospect of ever returning to the Warchief seem dimmer, and Takata sometimes wishes the centaur were the only enemy.",
+  hash = "7fe279",
+  fullHash = "7fe279",
+  text = "The Corrupter. Takata Steelblade sides with Maurin: Lord Azrethoc must be stopped, especially if he seeks influence over the Burning Blade. Takata trusts you to gather a party against the demon lord and his warlock servant, Jugkar Grim'rod. Takata has never heard of Lord Azrethoc, but agrees with Maurin that the demon lord must be stopped. The danger grows if Azrethoc is trying to sway the Burning Blade. You have already shown that you want to aid the Warchief, so Takata trusts you to gather a party and slay Azrethoc and his warlock servant, Jugkar Grim'rod. Head directly south to Mannoroc Coven, where both are found. Takata calls the demons in Desolace a greater threat than ever. Each newly arrived foul creature dims the prospect of returning to the Warchief. At times, Takata wishes the centaur were the only enemy.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1488-da511bffb5acc77f64b0/1-0000.mp3", duration = 54.7265306, start = 0},
+    {file = "Audio/Transport/full_quest_1488-e95ba21aa198d20674ee/1-0000.mp3", duration = 48.6922449, start = 0},
+  },
+}
+P.transport["quest:162"] = {
+  hash = "b03b2e",
+  fullHash = "b03b2e",
+  text = "Rise of the Silithid. Senior Surveyor Fizzledowser sends you to Darnassus with a report for Gracina Spiritmight, a night elf scholar and historian. Senior Surveyor Fizzledowser wants the report in the hands of someone who knows such matters. Gracina Spiritmight is a night elf scholar and historian. She has spent much time studying life forms unique to Azeroth's ecology. Fizzledowser hopes she can judge the danger and find a way to halt it. At Fizzledowser's last word, Gracina lives in the Temple of the Moon in Darnassus.",
+  ["1"] = {
+    {file = "Audio/Transport/full_quest_162-6e6e45e2961a1d96d5aa/1-0000.mp3", duration = 30.3804082, start = 0},
   },
 }
 P.transport["quest:193"] = {
@@ -209,6 +217,38 @@ P.transport["quest:209"] = {
     {file = "Audio/Transport/full_quest_209-6c8bf8e4cf62cce0546a/1-0000.mp3", duration = 43.0497959, start = 0},
   },
 }
+P.transport["quest:2782"] = {
+  hash = "ac8ad3",
+  fullHash = "ac8ad3",
+  text = "Rin'ji's Secret. After helping Rin'ji, you carry Rin'ji's Secret, a tablet marked in Witherbark script that no one has read. Oran Snakewrithe studies the Witherbark and may decipher it. He is known to live in the Magic Quarter of the Undercity. Witherbark troll markings cover the tablet, but what Rin'ji's secret is remains a mystery. It may be worth a great deal or nothing at all. A Witherbark troll in trouble might try anything to escape it. Oran Snakewrithe is a well-known scholar of the Witherbark trolls. He is known to live in the Magic Quarter of the Undercity and may be able to read the tablet.",
+  ["1"] = {
+    {file = "Audio/Transport/full_quest_2782-d965a398103d77a57c3b/1-0000.mp3", duration = 35.2130612, start = 0},
+  },
+}
+P.transport["quest:2940"] = {
+  hash = "241a05",
+  fullHash = "241a05",
+  text = "Feralas: A History. In Feralas, you find Feralas: A History, a book Troyas may need. It looks as if nobody has opened it in ages. The book belongs to Daryn Lightwind, so you need to ask whether you may borrow it. The book's covers are badly worn, and its pages have yellowed. After looking it over, you suspect it may be what Troyas is searching for. You pick it up, then think better of borrowing it without asking. It belongs to Daryn Lightwind, so ask her first.",
+  ["1"] = {
+    {file = "Audio/Transport/full_quest_2940-7fb904945a535081a407/1-0000.mp3", duration = 28.2906122, start = 0},
+  },
+}
+P.transport["quest:2988"] = {
+  hash = "e32297",
+  fullHash = "e32297",
+  text = "Witherbark Cages. At Witherbark Cages, you search for Sharpbeak, heir of Swiftwing, whom Talonaxe calls the mightiest gryphon. Gryphon Master Talonaxe believes the trolls took the young gryphon. Gryphon Master Talonaxe asks you to find Sharpbeak, who went missing a few days ago while hunting with his parents. Talonaxe and the others believe the trolls took him. Three cages in the two Witherbark troll villages remain to be checked. Talonaxe awaits your findings.",
+  ["1"] = {
+    {file = "Audio/Transport/full_quest_2988-5b98bfb6b0023dcf59f6/1-0000.mp3", duration = 27.2195918, start = 0},
+  },
+}
+P.transport["quest:3128"] = {
+  hash = "252c11",
+  fullHash = "252c11",
+  text = "Natural Materials. In Camp Mojache, Natural Materials are needed by Witch Doctor Uzer'i for an endeavor. The materials come from treants, mountain giants, faerie dragons, owlbeasts and hippogryphs, alongside the other trials. After you return to Witch Doctor Uzer'i, another list of materials awaits alongside the other trials. Bring two splintered logs from a Feralas treant. Mountain giants and faerie dragons westward carry six pieces of encrusted minerals. Owlbeasts in the Hinterlands or hippogryphs in Feralas provide twenty pieces of resilient sinew. Any of these creatures can yield the forty metallic fragments needed.",
+  ["1"] = {
+    {file = "Audio/Transport/full_quest_3128-dee9e959c640328a228a/1-0000.mp3", duration = 37.3812245, start = 0},
+  },
+}
 P.transport["quest:338"] = {
   hash = "03faa7",
   fullHash = "03faa7",
@@ -273,6 +313,14 @@ P.transport["quest:3626"] = {
     {file = "Audio/Transport/full_quest_3626-29ff8402d665be1a0959/1-0000.mp3", duration = 27.6114286, start = 0},
   },
 }
+P.transport["quest:4130"] = {
+  hash = "a4341f",
+  fullHash = "a4341f",
+  text = "Psychometric Reading. After Psychometric Reading, Quintis Jonespyre is still unsteady. His vision shows Raschal and the Woodpaw gnolls, and Quintis asks you to carry word to Ginro Hearthkindle in Feathermoon Stronghold. Quintis Jonespyre is unsteady, but his vision may help. Raschal pulls two large leather backpacks from the boat, heads inland, then returns to the boat. Gnoll scalps appear, and Quintis believes Raschal met Woodpaw gnolls. Raschal is very worried, almost terrified, and does not notice water elementals forming behind him. Then the images end. Quintis needs rest, so he asks you to tell Ginro, who needs to know.",
+  ["1"] = {
+    {file = "Audio/Transport/full_quest_4130-596febd87588c832842b/1-0000.mp3", duration = 39.6016327, start = 0},
+  },
+}
 P.transport["quest:507"] = {
   hash = "8e50c3",
   fullHash = "8e50c3",
@@ -282,11 +330,11 @@ P.transport["quest:507"] = {
   },
 }
 P.transport["quest:508"] = {
-  hash = "2c3776",
-  fullHash = "2c3776",
-  text = "Taretha's Gift. After the step with Lord Aliden Perenolde, Elysa gives up Taretha's pendant and asks only to be left in peace. You carry it back to Krusk in Tarren Mill. Elysa has no wish to hold on to any memory of Lord Aliden Perenolde. You may take the pendant, Elysa says, and begs only that you then go in peace. It once belonged to Taretha Foxton, a childhood friend of Thrall's. You are to bring it to Krusk in Tarren Mill, so that it returns to the orcs.",
+  hash = "cd2e25",
+  fullHash = "cd2e25",
+  text = "Taretha's Gift. Elysa gives up Taretha's Gift and asks for peace. After the step with Lord Aliden Perenolde, you carry the pendant to Krusk in Tarren Mill. Elysa wants no memory of Lord Aliden Perenolde. She gives you the pendant and asks only to be left in peace. It once belonged to Taretha Foxton, Thrall's childhood friend. You carry it to Krusk in Tarren Mill, returning it to the orcs.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_508-f78111c05136245516e5/1-0000.mp3", duration = 27.2195918, start = 0},
+    {file = "Audio/Transport/full_quest_508-0ec68456192cf672518e/1-0000.mp3", duration = 24.5812245, start = 0},
   },
 }
 P.transport["quest:519"] = {
@@ -434,11 +482,11 @@ P.transport["quest:595"] = {
   },
 }
 P.transport["quest:597"] = {
-  hash = "57decd",
-  fullHash = "57decd",
-  text = "The Bloodsail Buccaneers. Recovered correspondence from the Bloodsail Buccaneers carries a map of Booty Bay and written orders to secure a quiet camp at the marked spot and wait for a signal from their southern command post before attacking. Following your earlier investigation into the Bloodsail Buccaneers, an intercepted map and written orders uncover the pirates' immediate plans. A red X on a map of Booty Bay marks the exact spot where the pirates are to make camp. The orders command the crew to hold their ground quietly, eliminate anyone who approaches, and await an attack signal sent from the southern command post. Carrying these written findings back to Booty Bay brings the intelligence directly to First Mate Crazz, who originally sent you out to scout. The pirates are plainly waiting on a signal before they attack.",
+  hash = "efdf0f",
+  fullHash = "efdf0f",
+  text = "The Bloodsail Buccaneers. At Booty Bay, the Bloodsail Buccaneers’ plans now point to a camp and an attack signal. A map marks the Bloodsail Buccaneers’ intended camp in Booty Bay with a red X. Their orders call for silence. The crew must kill anyone who approaches and wait for a signal from the southern command post before attacking. You carry the findings back to First Mate Crazz in Booty Bay. He sent you to scout, and the pirates are still waiting for the signal before they attack.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_597-c7333c3b8a6a05088ad8/1-0000.mp3", duration = 44.6432653, start = 0},
+    {file = "Audio/Transport/full_quest_597-d7c71aca244876258d37/1-0000.mp3", duration = 28.4212245, start = 0},
   },
 }
 P.transport["quest:598"] = {
@@ -474,11 +522,11 @@ P.transport["quest:604"] = {
   },
 }
 P.transport["quest:608"] = {
-  hash = "a719d4",
-  fullHash = "a719d4",
-  text = "The Bloodsail Buccaneers. With the Bloodsail Buccaneers preparing an attack, Fleet Master Seahorn decides against deploying his entire fleet for a counterstrike. Instead, he directs an adventuring crew to slip into the landing site and eliminate the buccaneers' top leadership before their attack can begin. Having learned the buccaneers' invasion plans, Fleet Master Seahorn refuses to wait for the enemy to muster an assault. Mocking Fleet Master Firallon's nautical skill, Seahorn aims to neutralize the threat swiftly by taking out its commanders. Rather than risking a full naval engagement, he sends a strike party directly to Firallon's landing camp to cut down Firallon alongside Captain Stillwater and Captain Keelhaul, ensuring the buccaneer force crumbles without leadership.",
+  hash = "27f247",
+  fullHash = "27f247",
+  text = "The Bloodsail Buccaneers. In Stranglethorn, the Bloodsail Buccaneers gather strength for an attack. Fleet Master Seahorn will not risk his whole fleet in a counterstrike, so he sends a small crew against their leaders before they can begin. Fleet Master Seahorn means to halt the Bloodsail attack before it gains strength. He mocks Fleet Master Firallon's skill at sea, then chooses to strike at the commanders. Seahorn will not risk a full naval battle. Instead, he sends a small crew to Firallon's landing camp to kill Firallon, Captain Stillwater, and Captain Keelhaul. Without their leaders, the buccaneers will be left without command.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_608-257bb29bd7fd3ad62cb6/1-0000.mp3", duration = 43.7028571, start = 0},
+    {file = "Audio/Transport/full_quest_608-8cc800e1f5fac77bc5c8/1-0000.mp3", duration = 36.9893878, start = 0},
   },
 }
 P.transport["quest:609"] = {
@@ -674,11 +722,11 @@ P.transport["quest:665"] = {
   },
 }
 P.transport["quest:666"] = {
-  hash = "4ac8bf",
-  fullHash = "4ac8bf",
-  text = "Sunken Treasure. After the first part of Sunken Treasure, Doctor Draxlegauge lends you his Goggles of Gem Hunting and asks you to collect ten elven gems from the sea floor for Captain O'Breen, then bring the goggles back. Down on the sea floor, the gems have lain so many years that they have hardened into thick stone. The power built into the goggles lets you find them regardless, and Doctor Draxlegauge is proud of the gnomish ingenuity behind them. He lends you the goggles so you can gather the lost gems for Captain O'Breen. He would swim down himself, he says, but there is scientific work waiting for him on safe, dry land. He wants the goggles returned afterwards, sure that Captain O'Breen will put them to plenty of use.",
+  hash = "15462b",
+  fullHash = "15462b",
+  text = "Sunken Treasure. In Faldir's Cove, Doctor Draxlegauge lends you his goggles to find ten elven gems for Captain O'Breen. He expects them back when you finish. The elven gems have lain on the sea floor so long that thick stone has hardened around them. The Goggles of Gem Hunting hold the power to find them through those stony shells. Proud of the gnomish ingenuity behind the goggles, Doctor Draxlegauge lends them to you. The gems are for Captain O'Breen. Doctor Draxlegauge says scientific work keeps him on safe, dry land, though he could swim down himself. He expects you to return the goggles afterward. Captain O'Breen, he says, will have plenty of use for them.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_666-1d73278c59b04f9ffa5b/1-0000.mp3", duration = 41.8481633, start = 0},
+    {file = "Audio/Transport/full_quest_666-3a3337ad35417c2c7a06/1-0000.mp3", duration = 39.4187755, start = 0},
   },
 }
 P.transport["quest:667"] = {
@@ -775,5 +823,13 @@ P.transport["quest:8553"] = {
   text = "The Captain's Cutlass. Captain Hecklebury Smotts bought a second vessel named Smotts' Revenge to hunt down the sea giants who took his first ship, only to suffer another defeat. The giants smashed the vessel and killed the crew, and one of them, Negolash, stole the captain's cutlass. Smotts directs you to consult his former ship cook, Sprogger, to track down the behemoth. Following the loss of his initial ship, Captain Hecklebury Smotts procured a second craft called Smotts' Revenge, gathering a fresh crew and provisions to take vengeance on the sea giants. The venture ended in disaster when the giants shattered the ship and slew the crew, leaving Smotts adrift once more in a lifeboat. During the onslaught, the giant Negolash took the captain's cutlass. Determined to retrieve his stolen blade, Smotts relies on his cook. Sprogger, who served aboard Smotts' Revenge, lived through the attack and can help find Negolash.",
   ["1"] = {
     {file = "Audio/Transport/full_quest_8553-7f25128403f3adb1e57a/1-0000.mp3", duration = 51.6702041, start = 0},
+  },
+}
+P.transport["quest:8742"] = {
+  hash = "282dae",
+  fullHash = "282dae",
+  text = "The Might of Kalimdor. In Tanaris, Anachronos greets you in The Might of Kalimdor as the champion fate has awaited for a thousand years. He sees you leading your people into a new age. The Blue, Green and Red Scepter Shard forks are complete, bringing the Scepter of the Shifting Sands to its end. Anachronos speaks of a fate a thousand years in the making. The Old God trembles at your coming and fears your faith. Anachronos urges you to break C'Thun's prophecy, and you bring Kalimdor's strength with you. When you are ready, tell Anachronos, and he will place the Scepter of the Shifting Sands in your hands.",
+  ["1"] = {
+    {file = "Audio/Transport/full_quest_8742-bb0c8e4981f5cc1c8236/1-0000.mp3", duration = 34.9779592, start = 0},
   },
 }

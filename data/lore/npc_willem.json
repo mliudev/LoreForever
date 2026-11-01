@@ -8,16 +8,16 @@
   "wiki": "Willem",
   "refs": 3
  },
- "summary": "Outside Northshire Abbey, Willem sends recruits to meet the valley's threats. He serves under Marshal McBride in the Stormwind Army, with the Defias Brotherhood pressing into Northshire.",
+ "summary": "Outside Northshire Abbey, Willem sends recruits to face the threats gathering in the valley. He serves under Marshal McBride as the Defias Brotherhood presses into Northshire.",
  "sections": [
   {
    "title": "A Watchman at the Abbey",
-   "body": "Deputy Willem watches the gates of Northshire Abbey, where the Stormwind Army keeps a foothold in the valley. The kingdom's soldiers are spread across many territories, leaving local defense to small groups like Marshal McBride's garrison. Willem meets incoming volunteers and sends them to aid residents and guard the valley's edges.",
+   "body": "Deputy Willem watches the gates of Northshire Abbey, where the Stormwind Army holds a foothold in the valley. The kingdom's soldiers are spread across many territories, so small groups like Marshal McBride's garrison must defend the land nearby.\n\nWillem greets incoming volunteers and sends them to aid residents and guard the valley's edges.",
    "spoiler": 0
   },
   {
    "title": "Confronting the Defias",
-   "body": "The Defias Brotherhood is Willem's most pressing concern. Red-bandana bandits have entered Northshire, stolen supplies, threatened farmer Milly Osworth, and taken footholds among nearby vineyards and hills. Willem offers bounties on known cutthroats such as Garrick Padfoot, hoping to break their leadership before they can take the abbey grounds.",
+   "body": "The Defias Brotherhood is Willem's most pressing concern. Bandits in red bandanas have entered Northshire, stolen supplies, threatened farmer Milly Osworth, and taken footholds among nearby vineyards and hills.\n\nWillem offers bounties on known cutthroats such as Garrick Padfoot. He hopes to break their leadership before they can take the abbey grounds.",
    "spoiler": 0
   }
  ],
@@ -47,7 +47,7 @@
     "willem red bandanas",
     "willem defias"
    ],
-   "answer": "The Defias Brotherhood has entered Northshire Valley, threatening the abbey and terrorizing local laborers. Willem sends fighters after the bandits and leaders such as Garrick Padfoot to restore order."
+   "answer": "The Defias Brotherhood has entered Northshire Valley, threatening the abbey and terrorizing local laborers. Willem sends fighters after bandits and leaders such as Garrick Padfoot to restore order."
   },
   {
    "q": "Where can Deputy Willem be found?",
@@ -56,7 +56,7 @@
     "where is deputy willem",
     "find willem"
    ],
-   "answer": "Willem waits outside the main entrance of Northshire Abbey in northern Elwynn Forest, where he greets travelers and recruits entering the courtyard."
+   "answer": "Willem waits outside the main entrance of Northshire Abbey in northern Elwynn Forest. There he greets travelers and recruits entering the courtyard."
   },
   {
    "q": "How does Willem assist the local workers?",
@@ -65,7 +65,7 @@
     "willem eagan",
     "willem quests"
    ],
-   "answer": "Willem sends fighters to help residents whose livelihoods are threatened, including orchardist Milly Osworth and peltskinner Eagan."
+   "answer": "Willem sends fighters to aid residents whose livelihoods are threatened, including orchardist Milly Osworth and peltskinner Eagan."
   },
   {
    "q": "Why are troops like Willem struggling to maintain order alone?",
@@ -74,7 +74,7 @@
     "why northshire undefended",
     "stormwind manpower northshire"
    ],
-   "answer": "Stormwind faces internal strain, political tension, and distant military commitments. With King Varian missing, garrisons like Northshire must depend on untested recruits and volunteers to handle unrest at home."
+   "answer": "Stormwind faces internal strain, political tension, and distant military commitments. With King Varian missing, garrisons like Northshire must rely on untested recruits and volunteers to handle unrest at home."
   }
  ],
  "angles": [
@@ -88,7 +88,7 @@
   },
   {
    "target": "class:Warrior",
-   "text": "As a warrior, you can put your strength to use under Willem's direction, driving out bandits and restoring order to the realm."
+   "text": "As a warrior, you can serve under Willem's direction, driving out bandits and restoring order to the realm."
   }
  ],
  "keywords": [
@@ -114,5 +114,5 @@
  "attribution": [
   "Willem"
  ],
- "style": 1
+ "style": 2
 }

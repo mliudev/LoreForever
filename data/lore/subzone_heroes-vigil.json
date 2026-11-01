@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Heroes' Vigil"
  },
- "summary": "On Stone Cairn Lake’s central island, Heroes' Vigil lies neglected and overrun by renegade wizards. Its Stone of Remembrance honors those who fell in the First War.",
+ "summary": "On Stone Cairn Lake's island, Heroes' Vigil lies neglected and overrun by renegade wizards. The Stone of Remembrance honors those who fell in the First War.",
  "sections": [
   {
    "title": "A Forgotten Memorial",
-   "body": "Heroes' Vigil stands on an island in Stone Cairn Lake, centered on the Stone of Remembrance. Erected after the First War, its inscribed stone circle honors the soldiers and citizens slaughtered when the Old Horde sacked Goldshire and the surrounding valleys. Once revered as a sacred place of faith and sacrifice, the vigil has slipped from Stormwind's attention. Its grounds now lie overgrown, with no soldiers sent to tend them.",
+   "body": "Heroes' Vigil gathers around the Stone of Remembrance on an island in Stone Cairn Lake. Erected after the First War, its inscribed circle honors the soldiers and citizens slain when the Old Horde sacked Goldshire and the surrounding valleys. Once a sacred place of faith and sacrifice, the memorial has slipped from Stormwind's attention. Its grounds are overgrown, and no soldiers tend them.",
    "spoiler": 0
   },
   {
    "title": "Claimed by Renegades",
-   "body": "With no kingdom garrison on the island, outcasts have taken the memorial. Rogue wizards control Stone Cairn Lake and the grounds, practicing wild, undisciplined magic beyond the oversight of the Kirin Tor and the Academy of Arcane Sciences. Near the stones lies Henze Faulk's body among other tragic casualties. Travelers can only wonder whether the shrine will ever know peace again.",
+   "body": "Without a kingdom garrison, outcasts have claimed the island. Rogue wizards control Stone Cairn Lake and the memorial grounds. They practice wild, undisciplined magic beyond the oversight of the Kirin Tor and the Academy of Arcane Sciences. Near the stones lies Henze Faulk's body among other tragic casualties. Travelers can only wonder whether the shrine will know peace again.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "what is heroes vigil",
     "island shrine elwynn"
    ],
-   "answer": "Heroes' Vigil stands on the island in Stone Cairn Lake in eastern Elwynn Forest. Its stone ring and memorial honor those who fell in the First War."
+   "answer": "Heroes' Vigil stands on an island in Stone Cairn Lake in eastern Elwynn Forest. Its stone ring and memorial honor those who fell in the First War."
   },
   {
    "q": "What does the Stone of Remembrance commemorate?",
@@ -46,7 +46,7 @@
     "heroes vigil enemies",
     "wizards on lake"
    ],
-   "answer": "Hostile rogue wizards occupy the island and Heroes' Vigil. They operate outside Stormwind's law and the oversight of established magical institutions."
+   "answer": "Hostile rogue wizards occupy the island and Heroes' Vigil. They act beyond Stormwind's law and the oversight of established magical institutions."
   },
   {
    "q": "Why has Stormwind neglected the vigil?",
@@ -73,7 +73,7 @@
   },
   {
    "target": "class:Mage",
-   "text": "As a mage, you find renegade wizards encamped on sacred ground, practicing dangerous arts without the discipline or sanction of the Academy of Arcane Sciences."
+   "text": "As a mage, you find renegade wizards on sacred ground, practicing dangerous arts without the discipline or sanction of the Academy of Arcane Sciences."
   }
  ],
  "keywords": [
@@ -96,5 +96,5 @@
  "attribution": [
   "Heroes' Vigil"
  ],
- "style": 1
+ "style": 2
 }

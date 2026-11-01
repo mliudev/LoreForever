@@ -14,11 +14,11 @@
  "angles": [
   {
    "target": "class:Paladin",
-   "text": "Paladins undergo this trial not with steel or combat prowess, but by offering selfless aid to the innocent, embodying the virtue of compassion central to the Holy Light."
+   "text": "A paladin faces this trial through selfless aid to the innocent, not steel or combat. Such compassion is a virtue at the heart of the Holy Light."
   },
   {
    "target": "faction:Alliance",
-   "text": "The errand reveals the deep domestic scars left by the Scourge on human society and illustrates the mutual reliance between Stormwind and Ironforge."
+   "text": "For the Alliance, this reveals the Scourge's deep wounds in human homes and the reliance between Stormwind and Ironforge."
   }
  ],
  "faq": [
@@ -28,7 +28,7 @@
     "john turner lore",
     "ironforge turners"
    ],
-   "answer": "John Turner is a human caretaker who runs an orphanage in Stormwind alongside his wife. He travels to Ironforge roughly once a month seeking supplies and charity from dwarven citizens and merchant guilds to support children orphaned by war.",
+   "answer": "John Turner is a human caretaker who runs a Stormwind orphanage with his wife. About once a month, he travels to Ironforge to seek supplies and charity from dwarven citizens and merchant guilds for children orphaned by war.",
    "q": "Who is John Turner?"
   },
   {
@@ -37,7 +37,7 @@
     "why does john turner need cloth",
     "linen for orphanage"
    ],
-   "answer": "Turner needs linen cloth so his wife back in Stormwind can sew warm clothes for the orphan children. Due to an influx of tradesmen and shifting trade throughout Azeroth, basic cloth supplies have become scarce and hard to acquire.",
+   "answer": "John Turner needs linen cloth so his wife in Stormwind can sew warm clothes for the orphaned children. More tradesmen across Azeroth and shifting trade have made basic cloth scarce and hard to find.",
    "q": "Why does John Turner need linen cloth?"
   },
   {
@@ -46,7 +46,7 @@
     "why are there orphans",
     "scourge orphans"
    ],
-   "answer": "The children under the Turners' care lost their parents during the devastating assaults by the undead Scourge over the past decade. The Third War left many families shattered across the human kingdoms, leaving many youths without homes.",
+   "answer": "The children in the Turners' care lost their parents in the Scourge's devastating assaults over the past decade. The Third War shattered families across the human kingdoms and left many young people without homes.",
    "q": "Why are there so many orphans in Stormwind?"
   },
   {
@@ -54,7 +54,7 @@
     "why is john turner in ironforge",
     "why ironforge for stormwind orphanage"
    ],
-   "answer": "Turner travels across the mountains to Ironforge to appeal to dwarven citizens and various trade groups for donations and supplies that are otherwise difficult to secure in Stormwind.",
+   "answer": "John Turner travels across the mountains to Ironforge to ask dwarven citizens and trade groups for donations and supplies that are hard to find in Stormwind.",
    "q": "Why did John Turner travel to Ironforge?"
   },
   {
@@ -63,7 +63,7 @@
     "paladin connection",
     "why do paladins do this quest"
    ],
-   "answer": "The Holy Light demands selflessness, mercy, and service to those in despair. Assisting an exhausted caretaker provide for war orphans serves as a test of humility and charity for aspiring paladins rather than a display of martial strength.",
+   "answer": "The Holy Light calls for selflessness, mercy, and service to those in despair. Helping a weary caretaker provide for war orphans tests an aspiring paladin's humility and charity.",
    "q": "How does helping an orphanage relate to the Holy Light?"
   },
   {
@@ -71,7 +71,7 @@
     "is john turner stuck",
     "why is the trip slow"
    ],
-   "answer": "Turner's expedition has been agonizingly slow and largely unproductive because local supplies are tight and few groups have stepped forward to provide aid, leaving him unable to return home until a shipment is secured.",
+   "answer": "John Turner's trip has been slow and unproductive because supplies are scarce and few groups have offered help. He cannot return home until he secures a shipment.",
    "q": "Why has John Turner's trip to Ironforge been so difficult?"
   }
  ],
@@ -93,18 +93,19 @@
  ],
  "sections": [
   {
-   "body": "The Tome of Divinity presents an initiate walking the path of the Light with a trial not of weapons, but of charity. In the bustling halls of Ironforge, an emissary of mercy named John Turner seeks assistance. Turner and his wife oversee an orphanage in the kingdom of Stormwind, caring for children left parentless following the Scourge's catastrophic rampages over the past decade. His journey to the dwarven capital reflects the shared hardships of the Alliance's common people.",
+   "body": "For an initiate walking the path of the Light, the trial in Ironforge calls for charity rather than arms. John Turner has come to the dwarven halls seeking help. He and his wife oversee an orphanage in Stormwind, where they care for children left without parents by the Scourge's rampages over the past decade. His journey to Ironforge speaks to the hardships shared by the Alliance's common folk.",
    "spoiler": 0,
    "title": "Charity in the Great Forge"
   },
   {
-   "body": "Gathering provisions across borders is no easy feat. An influx of working tradesmen across Azeroth has strained local supply chains, making simple materials scarce. Turner's journey to Ironforge to appeal to civic groups and citizens stalled after weeks of minimal progress, leaving him without the linen cloth his wife requires to fashion clothing for the children. By stepping forward to supply the cloth without demanding repayment, a servant of the Light demonstrates the selfless devotion that underpins their sacred calling.",
+   "body": "Provisions are hard to gather across borders. More tradesmen have come to work across Azeroth, and local supplies have grown scarce. John Turner has spent weeks in Ironforge appealing to civic groups and citizens, with little to show for it. His wife needs linen cloth to make clothes for the children. Giving it freely shows the selfless devotion at the heart of a servant of the Light.",
    "spoiler": 0,
    "title": "The Scars of the Scourge"
   }
  ],
- "summary": "The Tome of Divinity calls upon servants of the Light to perform an act of humble compassion in Ironforge. Assisting John Turner, who operates a Stormwind orphanage for children displaced by the Scourge, tests an initiate's commitment to selflessness and charity over martial glory.",
+ "summary": "In Ironforge, The Tome of Divinity calls servants of the Light to show compassion. John Turner seeks aid for the Stormwind orphanage he runs with his wife, caring for children left parentless by the Scourge. The trial asks an initiate to choose charity over martial glory.",
  "attribution": [
   "In-game quest text: The Tome of Divinity"
- ]
+ ],
+ "style": 2
 }

@@ -139,6 +139,8 @@ local function english()
   return not lang or (lang.locale == "enUS" and not lang.edition)
 end
 Companion.English = english
+-- Whether a question is going round to Willo now (her big moments wait for it, Moments.lua).
+function Companion.Sending() return sending ~= nil end
 
 -- Willo can be sent things through the sky now (a question, a quest page): she's installed, Live game info is on (so
 -- the sky shows), the sky has its outer ring, and the add-on reads in English.

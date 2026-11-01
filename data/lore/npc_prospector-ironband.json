@@ -8,16 +8,16 @@
   "wiki": "Prospector Ironband",
   "refs": 6
  },
- "summary": "At Ironband's Excavation Site, Prospector Ironband directs a dig into Khaz Modan's buried past. He leads the Dwarven Explorers' Guild's work in southeastern Loch Modan, seeking the heritage of the dwarven people and sending reports and relics to Ironforge despite setbacks and hostile creatures.",
+ "summary": "At Ironband's Excavation Site, Prospector Ironband leads a search through Khaz Modan's buried past. He directs the Dwarven Explorers' Guild's work in southeastern Loch Modan, seeking the heritage of the dwarven people. Despite setbacks and hostile creatures, he sends reports and relics to Ironforge.",
  "sections": [
   {
    "title": "Unearthing the Past",
-   "body": "Prospector Ironband leads the dig at Ironband's Excavation Site in the hills of southeastern Loch Modan. Like other field researchers in the Explorers' Guild, he believes Khaz Modan's soil holds truths about the origins of the dwarven race. His camp digs trenches and sifts rubble for ancient relics, stone tablets, and earthen artifacts. The work moves slowly, but Ironband remains resolute and welcomes capable travelers who can safeguard the operation.",
+   "body": "Prospector Ironband leads the dig at Ironband's Excavation Site in southeastern Loch Modan. Like other field researchers in the Explorers' Guild, he believes Khaz Modan's soil holds truths about the origins of the dwarven race. His camp digs trenches and sifts rubble for ancient relics, stone tablets, and earthen artifacts. The work is slow, but Ironband remains resolute and welcomes capable travelers who can safeguard the operation.",
    "spoiler": 0
   },
   {
    "title": "Frontier Troubles",
-   "body": "Local troggs and wildlife threaten the excavation in Loch Modan's rugged wilds. They put the dig's supply lines and equipment at risk, and relics and survey tools may be stolen or wrecked before the Guild can examine them. Ironband relies on visiting Alliance travelers to guard cargo shipments, hold off raiders, and look into missing Guild contacts in the neighboring badlands.",
+   "body": "Troggs and wildlife threaten the excavation in Loch Modan's rugged wilds. They endanger the dig's supplies and equipment, and relics or survey tools may be stolen or wrecked before the Guild can examine them. Ironband relies on visiting Alliance travelers to guard cargo shipments and hold off raiders. He also asks them to look into missing Guild contacts in the neighboring badlands.",
    "spoiler": 0
   }
  ],
@@ -56,7 +56,7 @@
     "why defend the goods",
     "ironband supplies"
    ],
-   "answer": "Ironband's dig depends on blastpowder and supplies shipped from Thelsamar across Loch Modan. One earlier powder shipment never arrived, Dark Iron dwarves threaten the porters on the road, and troggs harass the camp."
+   "answer": "Ironband's dig depends on blastpowder and supplies shipped from Thelsamar across Loch Modan. One earlier powder shipment never arrived, Dark Iron dwarves threaten porters on the road, and troggs harass the camp."
   },
   {
    "q": "Who is Agmond and why does Ironband ask about him?",
@@ -74,7 +74,7 @@
     "ironband family",
     "darteus and bardin"
    ],
-   "answer": "Darteus Ironband and Bardin Ironband share a surname and both work closely with frontier dwarf operations, which suggests they may be kin. Darteus stays focused on archaeology and Guild reports."
+   "answer": "Darteus Ironband and Bardin Ironband share a surname and both work closely with frontier dwarf operations, which suggests they may be kin. Darteus remains focused on archaeology and Guild reports."
   }
  ],
  "angles": [
@@ -113,5 +113,5 @@
  "attribution": [
   "Prospector Ironband"
  ],
- "style": 1
+ "style": 2
 }

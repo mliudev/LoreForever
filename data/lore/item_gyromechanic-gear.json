@@ -10,11 +10,11 @@
    "quest:412"
   ]
  },
- "summary": "Outside Gnomeregan, salvaged Gyromechanic Gears are sought for a bold gnomish experiment. Inventors in Kharanos hope to use them to reverse leper gnome mutations.",
+ "summary": "In Kharanos, inventors seek Gyromechanic Gears for a bold experiment. They hope to reverse the mutations of leper gnomes.",
  "sections": [
   {
    "title": "Components for Recombobulation",
-   "body": "Radiation swept through Gnomeregan as gnomes fought to purge the trogg invasion. Many survivors became mad, irradiated leper gnomes. Ozzie Togglevolt and Razzle Sprysprocket refuse to abandon their twisted kin, and have drawn up plans for the ambitious Recombobulator, a contraption meant to undo radiation's effects. Its prototype needs precise mechanisms that can withstand volatile pressure inside the machine, including Gyromechanic Gears and Restabilization Cogs. With local manufacturing gone after the fall of their capital, the inventors must salvage these delicate parts from hostile leper gnomes roaming Dun Morogh.",
+   "body": "Radiation swept through Gnomeregan while gnomes fought to drive out the troggs. Many survivors became mad, irradiated leper gnomes. Ozzie Togglevolt and Razzle Sprysprocket will not abandon their twisted kin, so they have planned the Recombobulator. The machine is meant to undo radiation's effects.\n\nIts prototype needs precise mechanisms that can bear the volatile pressure inside, including Gyromechanic Gears and Restabilization Cogs. Gnomeregan's fall ended local manufacturing. Now the inventors must salvage these delicate parts from hostile leper gnomes roaming Dun Morogh.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "what does gyromechanic gear do",
     "gyromechanic gear quest"
    ],
-   "answer": "Razzle Sprysprocket in Kharanos needs Gyromechanic Gears as core mechanical parts for the Recombobulator. Along with Restabilization Cogs, they will go into the prototype machine designed to cure irradiated leper gnomes."
+   "answer": "Razzle Sprysprocket in Kharanos needs Gyromechanic Gears as core parts for the Recombobulator. The prototype will use them with Restabilization Cogs in an attempt to cure irradiated leper gnomes."
   },
   {
    "q": "Where do these gears come from?",
@@ -44,7 +44,7 @@
     "can leper gnomes be cured",
     "recombobulation success"
    ],
-   "answer": "Razzle Sprysprocket trusts Ozzie's schematics and believes adjustments to combustion pistons and electrogum gel can restore their kin. Whether the machine can reverse catastrophic radiation poisoning on a wide scale remains untested."
+   "answer": "Razzle Sprysprocket trusts Ozzie's schematics and believes changes to the combustion pistons and electrogum gel can restore their kin. The machine has not been tested against radiation poisoning on a wide scale."
   },
   {
    "q": "Why can't gnomes simply forge new gears?",
@@ -52,17 +52,17 @@
     "why scavenge gears",
     "why not craft gyromechanic gears"
    ],
-   "answer": "The fall of Gnomeregan shattered gnomish industry and left its most sophisticated tools, workshops, and automated foundries out of reach. Salvaging intact pre-fall precision hardware around the city's perimeter is often faster than machining parts by hand."
+   "answer": "Gnomeregan's fall shattered gnomish industry and put its finest tools, workshops, and automated foundries out of reach. Salvaging intact precision hardware around the city's edge is often faster than making parts by hand."
   }
  ],
  "angles": [
   {
    "target": "race:Gnome",
-   "text": "As a gnome, each salvaged gear brings tinkerers closer to a chance of rescuing their radioactive kin wandering the snows outside Gnomeregan."
+   "text": "As a gnome, each gear you salvage brings tinkerers closer to a chance to rescue their radioactive kin in the snows outside Gnomeregan."
   },
   {
    "target": "profession:Engineering",
-   "text": "As an engineer, you know gnomish precision work for its intricate design and tight-tolerance gyromechanic parts, which regulate unstable prototype machinery."
+   "text": "As an engineer, you know the intricate design and tight tolerances of gnomish gyromechanic parts. They regulate unstable prototype machinery."
   }
  ],
  "keywords": [
@@ -89,5 +89,5 @@
   "Gyromechanic Gear",
   "Operation Recombobulation (Classic)"
  ],
- "style": 1
+ "style": 2
 }

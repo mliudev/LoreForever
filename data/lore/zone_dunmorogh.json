@@ -12,21 +12,21 @@
   "levels": "1-10",
   "aliases": []
  },
- "summary": "In Dun Morogh, dwarves and displaced gnomes face threats from troggs, Frostmane trolls, and leper gnomes. Its guarded peaks hold Ironforge and offer shelter to both peoples.",
+ "summary": "Dun Morogh is high snow country, the mountain home of the dwarves. The gnomes shelter here too, for they have lost their own home. But the snows are not safe. Troggs and Frostmane trolls prowl them, and so do the leper gnomes.",
  "sections": [
   {
    "title": "A Mountain Stronghold",
-   "body": "Dun Morogh’s high peaks rise between Searing Gorge to the south and the Wetlands to the north. Snowmelt feeds rivers across Khaz Modan, while copper and iron veins run through the mountains. Dwarven Mountaineers watch the narrow routes through North Gate Pass and South Gate Pass. At the region’s heart, Ironforge lies beneath the mountain as the capital of King Magni Bronzebeard’s realm. The Deeprun Tram links the city directly to Stormwind.",
+   "body": "The mountains rise between Searing Gorge in the south and the Wetlands in the north. Their snowmelt feeds the rivers of Khaz Modan, and copper and iron run in veins through the rock. Dwarven Mountaineers watch the narrow roads at the north and south gates. And beneath the tallest mountain lies Ironforge, the seat of King Magni Bronzebeard.",
    "spoiler": 0
   },
   {
    "title": "A Refuge Divided",
-   "body": "Centuries ago, dwarves drove the native Frostmane ice trolls into the crags and made room for themselves beside their gnome allies. The two peoples thrived in neighboring mountain halls until Gnomeregan fell during the Third War. Troggs invaded, and radioactive gas ruined the city, turning its defenders into leper gnomes. High Tinker Gelbin Mekkatorque and the surviving gnomes fled into exile. They now live as guests in Ironforge, while leper gnomes and surviving troggs spill into Chill Breeze Valley.",
+   "body": "Centuries ago, the dwarves drove the native Frostmane ice trolls up into the crags. So they made room for themselves, beside their gnome allies. The two peoples thrived in neighboring mountain halls, until the Third War. Then Gnomeregan fell.\n\nTroggs invaded the gnomes' city, and radioactive gas ruined it. Its own defenders were twisted into leper gnomes. High Tinker Gelbin Mekkatorque led the survivors into exile, and now they live as guests in Ironforge. But the leper gnomes and the troggs spill out into Chill Breeze Valley.",
    "spoiler": 0
   },
   {
    "title": "Trouble in the Drifts",
-   "body": "Trouble reaches across the mountain drifts. The Frostmane tribe has grown bolder, raising armed camps from Shimmer Ridge to Coldridge Valley. Troggs have clawed up from ancient underground fissures into Gol'Bolar Quarry, endangering the mines. Wendigos prowl, wild boars roam, Dark Iron dwarven agents infiltrate, and toxic fallout spreads from Gnomeregan’s ruins. Dwarven Mountaineers struggle to keep order from Kharanos to the border gates.",
+   "body": "The Frostmane have grown bolder, with armed camps from Shimmer Ridge to Coldridge Valley. Troggs have clawed up from old fissures into Gol'Bolar Quarry, and the mines are in danger. Wendigos and wild boars roam the drifts, and the Dark Iron dwarves send in their spies. Toxic fallout spreads from the ruins of Gnomeregan. The Mountaineers struggle to keep order, from Kharanos to the border gates.",
    "spoiler": 0
   }
  ],
@@ -39,7 +39,7 @@
     "dwarf start zone",
     "gnome start zone"
    ],
-   "answer": "Dwarves and gnomes begin their journeys in Coldridge Valley, a sheltered basin in southwestern Dun Morogh. From there, they pass through Coldridge Pass into Kharanos and the wider zone."
+   "answer": "Dwarves and gnomes begin their journeys in Coldridge Valley, in the southwest of Dun Morogh. As a dwarf, you come from this ancestral homeland. From Anvilmar’s hearthfires to the Great Forge’s blazing core, you defend these peaks from trolls and troggs in service to King Magni Bronzebeard."
   },
   {
    "q": "What happened to Gnomeregan?",
@@ -133,5 +133,5 @@
   "Dun Morogh (Classic)",
   "Dun Morogh"
  ],
- "style": 1
+ "style": 2
 }

@@ -10,11 +10,11 @@
    "quest:2922"
   ]
  },
- "summary": "In Gnomeregan, Techbot's Memory Core holds the data Tinkmaster Overspark needs to study its corrupted behavior.",
+ "summary": "In Gnomeregan, Tinkmaster Overspark seeks Techbot's Memory Core to study the automaton's corrupted behavior.",
  "sections": [
   {
    "title": "A Polarized Brain",
-   "body": "Before Gnomeregan fell, Techbot aided Tinkmaster Overspark and his fellow inventors with a wealth of devices and knowledge. During the city's fall, an errant electrical discharge jolted the automaton and inverted its positronic brain into a hostile negatronic state. Now Techbot wanders Gnomeregan's tainted halls, attacking anyone in sight. Overspark hopes the memory core will help him understand the malfunction and restore his creation to its senses.",
+   "body": "Before Gnomeregan fell, Techbot aided Tinkmaster Overspark and his fellow inventors with devices and knowledge. During the city's fall, an errant electrical discharge jolted Techbot and turned its positronic brain to a hostile negatronic state. Now the automaton wanders Gnomeregan's tainted halls and attacks anyone in sight. Overspark hopes the memory core will help him understand the fault and restore his creation to its senses.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "techbot brain item",
     "what is techbots core"
    ],
-   "answer": "Techbot's Memory Core holds the data and knowledge of Techbot, the automaton built by Tinkmaster Overspark. It also records the electrical disruption that corrupted Techbot during Gnomeregan's fall."
+   "answer": "Techbot's Memory Core holds Techbot's data and knowledge. Techbot is the automaton built by Tinkmaster Overspark, and its core records the electrical disruption that corrupted it during Gnomeregan's fall."
   },
   {
    "q": "Who wants Techbot's Memory Core?",
@@ -35,7 +35,7 @@
     "who turns in techbot core",
     "where do i take techbots core"
    ],
-   "answer": "Tinkmaster Overspark wants Techbot's Memory Core. He has taken refuge with fellow exiled gnomes in Ironforge's Tinker Town and asks adventurers to enter Gnomeregan, disable Techbot, and bring back the core so he can attempt repairs."
+   "answer": "Tinkmaster Overspark wants Techbot's Memory Core. He has taken refuge with fellow exiled gnomes in Ironforge's Tinker Town. He asks adventurers to enter Gnomeregan, disable Techbot and bring back the core so he can attempt repairs."
   },
   {
    "q": "Why did Techbot go berserk?",
@@ -44,7 +44,7 @@
     "what happened to techbot",
     "techbot gone crazy"
    ],
-   "answer": "During Gnomeregan's fall, a stray electrical spark jolted Techbot's positronic brain. The surge polarized it into a negatronic state, inverting the automaton's personality and protocols from helpful to violently frenzied."
+   "answer": "During Gnomeregan's fall, a stray electrical spark jolted Techbot's positronic brain. The surge polarized it into a negatronic state, turning its personality and protocols from helpful to violently frenzied."
   },
   {
    "q": "Where is the core obtained?",
@@ -53,17 +53,17 @@
     "techbot location",
     "how to get techbots brain"
    ],
-   "answer": "The core is recovered from Techbot, which roams the upper mechanical corridors and entrances of Gnomeregan in Dun Morogh."
+   "answer": "The core is recovered from Techbot, which roams Gnomeregan's upper mechanical corridors and entrances in Dun Morogh."
   }
  ],
  "angles": [
   {
    "target": "race:Gnome",
-   "text": "For gnomes, Techbot is another casualty of Gnomeregan's fall, a reminder of how the city's ruin claimed brilliant peacetime engineering."
+   "text": "For gnomes, Techbot is another casualty of Gnomeregan's fall. The city's ruin claimed brilliant peacetime engineering."
   },
   {
    "target": "profession:Engineering",
-   "text": "As an engineer, you can appreciate how a single electrical short polarized Techbot's positronic brain and inverted its logic."
+   "text": "As an engineer, you can see how a single electrical short polarized Techbot's positronic brain and inverted its logic."
   }
  ],
  "keywords": [
@@ -87,5 +87,5 @@
   "Techbot's Memory Core",
   "Save Techbot's Brain!"
  ],
- "style": 1
+ "style": 2
 }

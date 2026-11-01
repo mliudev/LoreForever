@@ -17,16 +17,16 @@
   "wiki": "Stormbrow the Elder",
   "chain": []
  },
- "summary": "Near Goldshire, Stormbrow the Elder waits beside the water during the Lunar Festival. Travelers honor ancient traditions and the olden races of Azeroth, and receive a token of remembrance in return.",
+ "summary": "Near Goldshire, Stormbrow the Elder greets travelers during the Lunar Festival. They honor Azeroth’s ancient traditions and olden races, and receive a commemorative coin in return.",
  "sections": [
   {
    "title": "A Spirit in Goldshire",
-   "body": "A quiet pond lies just behind the smithy in Goldshire, where Stormbrow the Elder appears. Guards, tradesfolk, and weary travelers pass through town on their way into the forest. Beneath Elwynn Forest's canopy, the honored spirit welcomes anyone who comes to honor the realm's long history.",
+   "body": "Behind Goldshire’s smithy, a quiet pond lies beneath the forest canopy. There Stormbrow the Elder appears as an honored spirit. Guards, tradesfolk, and travelers pass through the town as visitors come to honor the realm’s long history.",
    "spoiler": 0
   },
   {
    "title": "Honoring the Olden Races",
-   "body": "During the Lunar Festival, spirits of great ancestors return to walk among the living. Stormbrow the Elder commends travelers who remember those who came before. For honoring the wisdom and legacy of the elder peoples, he grants a blessing and a commemorative coin for the season.",
+   "body": "During the Lunar Festival, the spirits of great ancestors return to walk among the living. Stormbrow commends travelers who remember those who came before. For honoring the elder peoples’ wisdom and legacy, visitors receive a blessing and a commemorative coin.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "where is elder stormbrow",
     "goldshire elder"
    ],
-   "answer": "You can find Stormbrow the Elder beside the pond just behind the blacksmith's forge in Goldshire, in Elwynn Forest."
+   "answer": "Find Stormbrow the Elder beside the pond behind the blacksmith’s forge in Goldshire, in Elwynn Forest."
   },
   {
    "q": "Who is Elder Stormbrow?",
@@ -47,7 +47,7 @@
     "stormbrow lore",
     "elder stormbrow identity"
    ],
-   "answer": "Stormbrow the Elder is an ancestral spirit who appears during the Lunar Festival and represents the revered elders of Azeroth's olden races."
+   "answer": "Stormbrow the Elder is an ancestral spirit who appears during the Lunar Festival. The spirit represents the revered elders of Azeroth’s olden races."
   },
   {
    "q": "What is the purpose of visiting Elder Stormbrow?",
@@ -56,7 +56,7 @@
     "elder stormbrow quest",
     "stormbrow the elder purpose"
    ],
-   "answer": "Travelers visit Stormbrow the Elder to honor ancient ancestors during the festival. He offers greetings and a token of appreciation in return."
+   "answer": "Travelers visit Stormbrow the Elder to honor ancient ancestors during the festival. The spirit offers greetings and a token of appreciation in return."
   },
   {
    "q": "Can Horde players speak to Elder Stormbrow?",
@@ -64,7 +64,7 @@
     "horde stormbrow",
     "can horde visit stormbrow"
    ],
-   "answer": "The Lunar Festival elders honor all who seek them in peace, but Goldshire is heavily guarded Alliance territory, making a visit perilous for Horde travelers."
+   "answer": "The Lunar Festival elders honor all who seek them in peace. Goldshire is heavily guarded Alliance territory, so a visit is perilous for Horde travelers."
   },
   {
    "q": "What token does the Elder offer?",
@@ -82,13 +82,13 @@
     "why olden races",
     "stormbrow dialogue"
    ],
-   "answer": "Stormbrow commends travelers for remembering that present civilizations walk lands shaped by ancient peoples and enduring customs, long before the modern kingdoms arose."
+   "answer": "Stormbrow commends travelers who remember that present civilizations walk lands shaped by ancient peoples and enduring customs. Those peoples and customs came long before the modern kingdoms."
   }
  ],
  "angles": [
   {
    "target": "race:Human",
-   "text": "As a human living in Elwynn, you can look to Stormbrow the Elder as a reminder of ancient history beyond Stormwind's walls and its recent wars."
+   "text": "As a human living in Elwynn, you can look to Stormbrow the Elder as a reminder of ancient history beyond Stormwind’s walls and its recent wars."
   },
   {
    "target": "faction:Alliance",
@@ -111,5 +111,5 @@
  "attribution": [
   "Stormbrow the Elder"
  ],
- "style": 1
+ "style": 2
 }

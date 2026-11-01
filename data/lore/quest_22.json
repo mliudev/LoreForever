@@ -17,16 +17,16 @@
   "wiki": "Goretusk Liver Pie (quest)",
   "chain": []
  },
- "summary": "At the Saldean Farm in Westfall, Salma Saldean prepares a pie amid hard times. Bandits have ravaged the breadbasket of the kingdom, and local homesteaders hunt aggressive boars to feed their families.",
+ "summary": "At the Saldean Farm in Westfall, Salma Saldean is making pie through hard times. Bandits have ravaged the kingdom’s breadbasket, and homesteaders hunt aggressive boars to feed their families.",
  "sections": [
   {
    "title": "Frontier Hospitality",
-   "body": "Westfall was once Stormwind's fertile breadbasket, but hard times have fallen on the land. Neglected roads, roving outlaws, and overgrown fields make daily life a struggle for the few settlers who remain. At the Saldean Farm, Salma Saldean works to keep a sense of home despite the dangers around her. A traditional meat pie offers one of the few modest comforts for homesteaders trying to preserve their way of life.",
+   "body": "Westfall once fed Stormwind as its fertile breadbasket. Now neglected roads, roving outlaws, and overgrown fields make life hard for the few settlers who remain. At the Saldean Farm, Salma Saldean works to keep a sense of home despite the dangers. A traditional meat pie offers one of the few comforts to homesteaders trying to preserve their way of life.",
    "spoiler": 0
   },
   {
    "title": "Westfall's Feral Beasts",
-   "body": "Goretusks roam Westfall's plains in great numbers, their tough hides and vicious tusks making them dangerous. They threaten lone farmhands, yet provide vital meat to families cut off from regular trade. Salma's recipe calls for crushed rosemary, minced garlic, chopped dill, and simmering gravy. With careful preparation, the pungent organs of these hardy beasts become a rich, savory meal.",
+   "body": "Goretusks roam Westfall’s plains in great numbers. Their tough hides and vicious tusks make them dangerous to farmhands alone, yet their meat feeds families cut off from regular trade. Salma’s recipe calls for crushed rosemary, minced garlic, chopped dill, and simmering gravy. Prepared with care, the beasts’ pungent organs become a rich, savory meal.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who is salma",
     "saldean wife"
    ],
-   "answer": "Salma Saldean is a resilient homesteader who lives with her husband, Farmer Saldean, at their farm in central Westfall. Her home-cooked meals help keep spirits high despite the dangers of bandits and wild beasts."
+   "answer": "Salma Saldean is a resilient homesteader who lives with her husband, Farmer Saldean, at their farm in central Westfall. Her home-cooked meals lift spirits despite the dangers from bandits and wild beasts."
   },
   {
    "q": "Why does Salma want goretusk livers?",
@@ -47,7 +47,7 @@
     "what is the pie made of",
     "liver pie purpose"
    ],
-   "answer": "Salma wants goretusk livers for her famous savory meat pie, which she is preparing to share with her husband. The crust is baked and the seasonings are ready; only the livers are needed to finish simmering the filling."
+   "answer": "Salma wants goretusk livers for her famous savory meat pie, which she is preparing to share with her husband. The crust is baked and the seasonings are ready; only the livers remain before she can finish simmering the filling."
   },
   {
    "q": "Where are goretusks typically found in Westfall?",
@@ -56,7 +56,7 @@
     "where to find boars",
     "goretusk liver hunt"
    ],
-   "answer": "Goretusks roam extensively across Westfall's golden plains and fallow farm plots, rooting through abandoned fields and wandering along dirt roads."
+   "answer": "Goretusks roam across Westfall’s golden plains and fallow farm plots, rooting through abandoned fields and wandering along dirt roads."
   },
   {
    "q": "Are goretusks dangerous to the local farmers?",
@@ -73,7 +73,7 @@
     "why no food westfall",
     "westfall hard times"
    ],
-   "answer": "Food is scarce because Stormwind gives little support and organized bandits raid the farms. Many farmers have been driven from their land, leaving the former breadbasket of the kingdom an impoverished frontier."
+   "answer": "Food is scarce because Stormwind gives little support and organized bandits raid the farms. Many farmers have been driven from their land, leaving the kingdom’s former breadbasket an impoverished frontier."
   },
   {
    "q": "Does completing this task help the Saldean farm survive?",
@@ -81,17 +81,17 @@
     "does the pie matter",
     "saldean food supply"
    ],
-   "answer": "Gathering fresh meat does not solve Westfall's broader crises, but it sustains the Saldean family and provides travelers with hearty rations for the road ahead."
+   "answer": "Fresh meat cannot solve Westfall’s broader crises, but it helps sustain the Saldean family and gives travelers hearty rations for the road ahead."
   }
  ],
  "angles": [
   {
    "target": "profession:Cooking",
-   "text": "Salma's dish reflects rural human cooking, using garden herbs such as garlic, rosemary, and dill weed to turn wild game offal into a staple meal."
+   "text": "Salma’s dish reflects rural human cooking. Garden herbs like garlic, rosemary, and dill weed turn wild game offal into a staple meal."
   },
   {
    "target": "faction:Alliance",
-   "text": "Helping rural homesteaders like the Saldeans supports loyal human families struggling to hold the kingdom's frontier without Stormwind's army."
+   "text": "Helping rural homesteaders like the Saldeans supports loyal human families struggling to hold the kingdom’s frontier without Stormwind’s army."
   }
  ],
  "keywords": [
@@ -111,5 +111,5 @@
  "attribution": [
   "Goretusk Liver Pie (quest)"
  ],
- "style": 1
+ "style": 2
 }

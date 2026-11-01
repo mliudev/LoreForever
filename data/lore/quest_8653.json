@@ -17,16 +17,16 @@
   "wiki": "Goldwell the Elder",
   "chain": []
  },
- "summary": "At Kharanos during the Lunar Festival, Elder Goldwell welcomes travelers and offers a chance to honor the ancestors. He keeps this old tradition alive across the snowy dwarven lands.",
+ "summary": "During the Lunar Festival, Elder Goldwell welcomes travelers in Kharanos and invites them to honor the ancestors. Your visit keeps their memory alive across the snowy dwarven lands.",
  "sections": [
   {
    "title": "A Mountain Greeting",
-   "body": "Beside the Thunderbrew Distillery in Kharanos, Elder Goldwell watches the busy trade path leading to Ironforge's gates. During the Lunar Festival, he welcomes weary travelers, adventurers, and locals. His presence carries the long memory of ancient days, when early mortals walked beneath Azeroth's stars.",
+   "body": "Beside the Thunderbrew Distillery, Elder Goldwell greets those who follow the trade path to Ironforge's gates. Weary travelers, adventurers, and locals all pass before him. He remembers the ancient days when the first mortals walked beneath Azeroth's stars.",
    "spoiler": 0
   },
   {
    "title": "Honoring the Ancestors",
-   "body": "In Dun Morogh's winter winds, a visit to Elder Goldwell offers a moment to reflect. He is relieved and glad that mortals still remember the ancient races and their deeds. He thanks all who pause their journeys to show respect, and gives a Coin of Ancestry as an emblem of his blessing.",
+   "body": "Goldwell is glad that mortals still remember the ancient races and their deeds. He thanks you for pausing to honor them. Then he gives you a Coin of Ancestry as a sign of his blessing.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "where is elder goldwell",
     "goldwell spot"
    ],
-   "answer": "Elder Goldwell stands outside the Thunderbrew Distillery inn in Kharanos, a town along Dun Morogh's snowy road, just southwest of Ironforge's gates."
+   "answer": "Elder Goldwell waits outside the Thunderbrew Distillery inn in Kharanos. The town lies along Dun Morogh's snowy road, just southwest of Ironforge's gates."
   },
   {
    "q": "What is the purpose of seeking out Elder Goldwell?",
@@ -47,7 +47,7 @@
     "what does elder goldwell do",
     "goldwell quest"
    ],
-   "answer": "During the Lunar Festival, travelers visit Elder Goldwell to honor the world's ancient spirits. Paying respect shows that mortal races have not forgotten the sacrifices and wisdom of antiquity."
+   "answer": "During the Lunar Festival, travelers seek Elder Goldwell to honor the world's ancient spirits. Their respect shows that mortal races still remember the sacrifices and wisdom of antiquity."
   },
   {
    "q": "What reward does Elder Goldwell provide?",
@@ -56,7 +56,7 @@
     "what do i get from elder goldwell",
     "coin of ancestry goldwell"
    ],
-   "answer": "Elder Goldwell gives travelers a Coin of Ancestry, a blessed token from the festival elders that can be presented to the Cenarion Circle in Moonglade for festival goods."
+   "answer": "Elder Goldwell gives travelers a Coin of Ancestry, a blessed token from the festival elders. It can be presented to the Cenarion Circle in Moonglade for festival goods."
   },
   {
    "q": "Is this quest available to Horde travelers?",
@@ -65,7 +65,7 @@
     "horde elder goldwell",
     "is elder goldwell friendly to horde"
    ],
-   "answer": "Yes. Goldwell and the other festival elders are neutral ancestral spirits who welcome adventurers of any faction. Horde travelers must avoid the watchful dwarven mountaineers patrolling Kharanos."
+   "answer": "Yes. Goldwell and the other festival elders are neutral ancestral spirits who welcome adventurers of any faction. Horde travelers must avoid the dwarven mountaineers patrolling Kharanos."
   },
   {
    "q": "Why does Elder Goldwell reside in Dun Morogh?",
@@ -74,7 +74,7 @@
     "why dun morogh",
     "goldwell dwarven land"
    ],
-   "answer": "The Lunar Festival elders appear across Azeroth wherever mortal civilizations have built enduring communities. Goldwell chose Kharanos to share his blessings with those living near the heart of the dwarven kingdom."
+   "answer": "The Lunar Festival elders appear across Azeroth wherever mortal civilizations have built enduring communities. Goldwell chose Kharanos to bless those living near the heart of the dwarven kingdom."
   },
   {
    "q": "Can you complete this quest more than once?",
@@ -89,15 +89,15 @@
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "As a dwarf returning from Ironforge, meeting an elder of ancient lineage outside Kharanos's premier tavern, the Thunderbrew Distillery, joins timeless reverence with hometown pride."
+   "text": "As a dwarf returning from Ironforge, you meet an elder of ancient lineage outside Kharanos's premier tavern, the Thunderbrew Distillery. The visit joins timeless reverence with hometown pride."
   },
   {
    "target": "faction:Alliance",
-   "text": "In Alliance territory, Goldwell is one of the easiest elders for young Alliance heroes to visit while traveling between Coldridge Valley and Ironforge."
+   "text": "In Alliance territory, Goldwell is one of the easiest elders for young Alliance heroes to visit on the road between Coldridge Valley and Ironforge."
   },
   {
    "target": "faction:Horde",
-   "text": "To reach Goldwell, you must sneak deep into Dun Morogh, past dwarven guards and the bitter cold just outside Ironforge's high gates."
+   "text": "To reach Goldwell, you must sneak deep into Dun Morogh, past dwarven guards and the bitter cold outside Ironforge's high gates."
   }
  ],
  "keywords": [
@@ -120,5 +120,5 @@
  "attribution": [
   "Goldwell the Elder"
  ],
- "style": 1
+ "style": 2
 }

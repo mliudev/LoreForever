@@ -119,11 +119,11 @@ in with Google) or [open an issue](https://github.com/mliudev/LoreForever/issues
 
 ## License
 
-- **Code** (the `.lua`, `.xml` and `.toc` files, scripts and site code): MIT. See [LICENSE](LICENSE).
+- **Code** (the `.lua`, `.xml` and `.toc` files and scripts): MIT. See [LICENSE](LICENSE).
 - **Lore text** (`data/` and `addon/LoreForever/Data/`): adapted from the [Warcraft Wiki](https://warcraft.wiki.gg)
   and shared under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Each entry names its source
   articles.
-- **Narration audio** (`addon/LoreForever_Voice_Default/Audio/`, `site/public/audio/`) and the **logo**: all
+- **Narration audio** (`addon/LoreForever_Voice_Default/Audio/`) and the **logo**: all
   rights reserved. They ship with the add-on for you to use in game, but please don't reuse them elsewhere.
   Voice packs recorded by volunteers are released under CC BY-SA 4.0 (see [VOICE_PACKS.md](VOICE_PACKS.md)).
 

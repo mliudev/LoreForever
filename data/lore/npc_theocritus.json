@@ -8,16 +8,16 @@
   "wiki": "Theocritus",
   "refs": 3
  },
- "summary": "At the Tower of Azora in eastern Elwynn, Theocritus watches over the kingdom and opposes Morganth. The eccentric human archmage lives apart from others, surrounded by servants and magical scrying devices.",
+ "summary": "At the Tower of Azora in eastern Elwynn, Theocritus watches over Stormwind's kingdom and opposes Morganth. The eccentric human archmage lives independently, apart from everyday concerns, with servants and magical scrying devices.",
  "sections": [
   {
    "title": "Master of the Tower",
-   "body": "Archmage Theocritus keeps his own stronghold in the kingdom of Stormwind. He lives in the Tower of Azora, near the eastern road to Redridge. Eccentric in his habits, he enjoys a comfortable life with a large household staff, including gnomish attendants and his clothier, Morley Eberlein. He keeps apart from the everyday concerns of local villagers, yet his magic guards eastern Elwynn.",
+   "body": "Archmage Theocritus keeps his own stronghold in Stormwind's kingdom. He lives in the Tower of Azora, near the eastern road to Redridge. Eccentric in his habits, he enjoys a comfortable life with a large household staff. Among them are gnomish attendants and his clothier, Morley Eberlein. Though apart from local villagers' everyday concerns, his magic guards eastern Elwynn.",
    "spoiler": 0
   },
   {
    "title": "The War Against Morganth",
-   "body": "The fallen mage Morganth is Theocritus's greatest concern. Morganth works from the Tower of Ilgalar in the nearby Redridge Mountains, and Theocritus sees him as both a personal enemy and a danger to Stormwind. For months, Theocritus has used arcane research to undermine him. With scrying devices such as the Eye of Azora, he watches Morganth's actions and probes his thoughts. He also studies the magical pendants worn by Morganth's Shadowhide gnolls, hoping to turn their master's creations against him with an arcane pulse that can immobilize the entire pack.",
+   "body": "The fallen mage Morganth is Theocritus's greatest concern. Morganth works from the Tower of Ilgalar in the nearby Redridge Mountains. Theocritus sees him as both a personal enemy and a danger to Stormwind. For months, arcane research has helped Theocritus undermine him.\n\nWith scrying devices such as the Eye of Azora, he watches Morganth's actions and probes his thoughts. He also studies the magical pendants worn by Morganth's Shadowhide gnolls, hoping an arcane pulse can turn their master's creations against him and immobilize the entire pack.",
    "spoiler": 0
   }
  ],
@@ -78,7 +78,7 @@
  "angles": [
   {
    "target": "class:Mage",
-   "text": "Theocritus shows how a wizard can work alone, without belonging to an order. He keeps a private sanctum and uses magic to scry across long distances."
+   "text": "Theocritus shows how a wizard can work independently, without belonging to an order. He keeps a private sanctum and uses magic to scry across long distances."
   },
   {
    "target": "faction:Alliance",
@@ -111,5 +111,5 @@
  "attribution": [
   "Theocritus"
  ],
- "style": 1
+ "style": 2
 }

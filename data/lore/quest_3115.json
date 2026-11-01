@@ -17,16 +17,16 @@
   "wiki": "Tainted Memorandum (quest)",
   "chain": []
  },
- "summary": "A quiet message draws a young gnome warlock toward the shadows of Anvilmar. Sten Stoutarm passes it along, and Alamar Grimm calls the neophyte to learn dark power and rely on it rather than their dwarven hosts.",
+ "summary": "In Coldridge Valley, Sten Stoutarm quietly sends you to Alamar Grimm in Anvilmar. Grimm urges you to trust dark power over your dwarven hosts.",
  "sections": [
   {
    "title": "A Discreet Summons",
-   "body": "In Coldridge Valley, the dark arts meet deep suspicion. While you help Sten Stoutarm deal with local threats, he slips you a note. His reluctance shows the uneasy truce that lets warlocks practice in Alliance lands. He warns you to watch yourself because your kind is not trusted around these parts.",
+   "body": "Warlocks face deep suspicion in Coldridge Valley. As you help Sten Stoutarm with local threats, he reluctantly slips you a note. His warning makes plain how little your kind is trusted here, even under the uneasy truce that allows warlocks to practice in Alliance lands.",
    "spoiler": 0
   },
   {
    "title": "Gnomish Bitterness in Exile",
-   "body": "Inside Anvilmar, Alamar Grimm speaks plainly about the gnomes' plight. He believes conventional tinkering and ordinary magic failed Gnomeregan, bringing their people near extinction and leaving them as second-class refugees dependent on dwarven goodwill. He urges you to rely neither on the Holy Light nor on dwarven politics. Instead, he teaches you to summon and master fiends, whose obedience is unconditional.",
+   "body": "In Anvilmar, Alamar Grimm speaks of the gnomes’ plight. He believes ordinary magic and tinkering failed Gnomeregan, bringing their people near extinction and leaving them as second-class refugees dependent on dwarven goodwill. He urges you to trust neither the Holy Light nor dwarven politics. Instead, summon fiends and master them, for their obedience is unconditional.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "warlock note dun morogh",
     "what is the memorandum"
    ],
-   "answer": "It is a written message Sten Stoutarm hands to novice gnome warlocks in Coldridge Valley. It directs them to seek Alamar Grimm, the warlock trainer in Anvilmar."
+   "answer": "The Tainted Memorandum is a written message Sten Stoutarm gives novice gnome warlocks in Coldridge Valley. It directs them to seek Alamar Grimm, the warlock trainer in Anvilmar."
   },
   {
    "q": "Why are warlocks distrusted in Coldridge Valley?",
@@ -46,7 +46,7 @@
     "why don't dwarves like warlocks",
     "warlock prejudice anvilmar"
    ],
-   "answer": "Dwarves and their Alliance allies prize martial honor and the Holy Light. They regard demonology and shadow magic as corrupt and dangerous, leaving gnome warlocks under deep suspicion."
+   "answer": "Dwarves and their Alliance allies prize martial honor and the Holy Light. They regard demonology and shadow magic as corrupt and dangerous, so gnome warlocks face deep suspicion."
   },
   {
    "q": "Who is Alamar Grimm?",
@@ -54,7 +54,7 @@
     "alamar grimm lore",
     "who is alamar"
    ],
-   "answer": "Alamar Grimm is a gnome warlock trainer in Anvilmar. Bitter over Gnomeregan's fall and reliance on dwarven charity, he teaches young gnomes to bind demonic minions and claim power for themselves."
+   "answer": "Alamar Grimm is a gnome warlock trainer in Anvilmar. Bitter over Gnomeregan’s fall and the gnomes’ dependence on dwarven charity, he teaches young gnomes to bind demonic minions and claim power for themselves."
   },
   {
    "q": "Why does Grimm criticize normal magic and technology?",
@@ -70,7 +70,7 @@
     "dwarf warlock tainted memorandum",
     "can dwarves be warlocks"
    ],
-   "answer": "No. In Dun Morogh, only gnomes can practice the warlock path, so this summons is for newly arrived gnome practitioners."
+   "answer": "No. In Dun Morogh, only gnomes can practice the warlock path, so the summons is for newly arrived gnome practitioners."
   },
   {
    "q": "Where does this quest take place?",
@@ -84,7 +84,7 @@
  "angles": [
   {
    "target": "class:Warlock",
-   "text": "As a warlock, you receive a missive marking your formal entry into the craft. It frames demonic pacts as a practical choice born of survival, not madness."
+   "text": "As a warlock, you receive a missive marking your formal entry into the craft. It presents demonic pacts as a practical choice born of survival, not madness."
   },
   {
    "target": "race:Gnome",
@@ -118,5 +118,5 @@
  "attribution": [
   "Tainted Memorandum (quest)"
  ],
- "style": 1
+ "style": 2
 }

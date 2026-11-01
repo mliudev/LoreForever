@@ -17,16 +17,16 @@
   "wiki": "A Dark Threat Looms (5)",
   "chain": []
  },
- "summary": "The Stonewrought Dam faces a suspected Dark Iron plot, and Chief Engineer Hinderweir VII needs rare reagents from Loch Modan. You gather them so he can make a mixture to defuse explosives beneath the dam.",
+ "summary": "Dark Iron explosives threaten the Stonewrought Dam, and Chief Engineer Hinderweir VII needs your help. He asks you to gather rare reagents from Loch Modan so he can make a mixture to neutralize them.",
  "sections": [
   {
    "title": "A Volatile Recipe",
-   "body": "Chief Engineer Hinderweir VII needs a strange mixture to stop Dark Iron explosives. It takes Forest Lurker venom, a tear from a crocolisk in the Loch, and a Mo'grosh crystal. Together, these reagents can render the dwarven charges inert.",
+   "body": "Chief Engineer Hinderweir VII needs three ingredients for his mixture. Forest Lurker venom, a tear from a crocolisk in the Loch, and a Mo'grosh crystal each bring a different reaction. Together, they can render the dwarven charges inert.",
    "spoiler": 0
   },
   {
    "title": "Perilous Gathering",
-   "body": "You search Loch Modan's dangerous reaches for the ingredients. Forest Lurker spiders and crocolisks pose natural hazards, while Mo'grosh crystals lie in the ogres' stronghold in the northeastern hills. The ogres guard their mined crystals jealously, so reaching one means facing their encampments.",
+   "body": "The ingredients lie in dangerous parts of Loch Modan. Forest Lurker spiders and crocolisks threaten travelers, while Mo'grosh ogres guard their mined crystals in a stronghold to the northeast. Reaching the crystals means facing the ogres in their encampments.",
    "spoiler": 0
   }
  ],
@@ -64,7 +64,7 @@
     "who is hinderweir",
     "chief engineer hinderweir"
    ],
-   "answer": "Chief Engineer Hinderweir VII is the dwarven engineer overseeing the Stonewrought Dam's operations and integrity. He directs its maintenance and local defenses against sabotage."
+   "answer": "Chief Engineer Hinderweir VII is the dwarven engineer who oversees the Stonewrought Dam's operations and integrity. He directs its maintenance and local defenses against sabotage."
   },
   {
    "q": "Where can the indigenous creatures be found?",
@@ -115,5 +115,5 @@
  "attribution": [
   "A Dark Threat Looms (5)"
  ],
- "style": 1
+ "style": 2
 }

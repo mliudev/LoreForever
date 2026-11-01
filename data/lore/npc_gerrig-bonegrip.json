@@ -8,11 +8,11 @@
   "wiki": "Gerrig Bonegrip",
   "refs": 1
  },
- "summary": "In Ironforge's Forlorn Cavern, Gerrig Bonegrip keeps a quiet shop of strange texts. At Bonegrip's Runes and Dooms, he buys and sells writings on dark rituals and forgotten ancient powers.",
+ "summary": "In Ironforge's Forlorn Cavern, Gerrig Bonegrip trades in strange texts and writings on dark rituals and ancient powers.",
  "sections": [
   {
    "title": "Bonegrip's Runes and Dooms",
-   "body": "Gerrig Bonegrip runs Bonegrip's Runes and Dooms in the Forlorn Cavern. To most citizens, he looks like an eccentric dealer in strange relics and forbidden lore. Beneath that trade, Gerrig serves the nihilistic Twilight's Hammer cult. He uses the shop to gather dangerous manuscripts and obscure writings about the Old Gods, while the Ironforge Senate and the High Seat remain unaware.",
+   "body": "Gerrig Bonegrip runs Bonegrip's Runes and Dooms in the Forlorn Cavern. To most citizens, he seems an eccentric dealer in strange relics and forbidden lore. Beneath that trade, Gerrig serves the nihilistic Twilight's Hammer cult. He gathers dangerous manuscripts and obscure writings about the Old Gods, while the Ironforge Senate and the High Seat remain unaware.",
    "spoiler": 1
   },
   {
@@ -46,7 +46,7 @@
     "does ironforge know bonegrip is a cultist",
     "why is bonegrip allowed in ironforge"
    ],
-   "answer": "Gerrig keeps a low profile as an eccentric scholar and merchant in the Forlorn Cavern, buying and selling obscure texts."
+   "answer": "Gerrig keeps a low profile in the Forlorn Cavern as an eccentric scholar and merchant, buying and selling obscure texts."
   },
   {
    "q": "What is his connection to Myzrael?",
@@ -90,5 +90,5 @@
  "attribution": [
   "Gerrig Bonegrip"
  ],
- "style": 1
+ "style": 2
 }

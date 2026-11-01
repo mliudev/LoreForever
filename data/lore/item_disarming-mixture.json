@@ -10,11 +10,11 @@
    "quest:280"
   ]
  },
- "summary": "At Stonewrought Dam, Disarming Mixture is prepared to stop a Seaforium charge from breaking the dam. Chief Engineer Hinderweir makes it to neutralize explosives planted by Dark Iron saboteurs.",
+ "summary": "At Stonewrought Dam, Chief Engineer Hinderweir prepares Disarming Mixture to stop a Seaforium charge planted by Dark Iron saboteurs.",
  "sections": [
   {
    "title": "A Chemical Neutralizer",
-   "body": "Dark Iron saboteurs planted a heavy Seaforium charge beneath Stonewrought Dam’s foundation. With no Mountaineer support close at hand, Chief Engineer Hinderweir used ingredients named by explosives expert Ashlan Stonesmirk to make the Disarming Mixture. Stirred into the planted powder keg underwater, the solution neutralizes its reactive compounds and leaves the charge fizzled and harmless.",
+   "body": "The heavy Seaforium charge lies beneath the dam’s foundation, and no Mountaineers are close enough to help. Hinderweir turns to ingredients named by explosives expert Ashlan Stonesmirk. He stirs them into a chemical neutralizer, then mixes it with the powder keg underwater. The reactive compounds are neutralized, and the charge is left harmless.",
    "spoiler": 0
   }
  ],
@@ -35,7 +35,7 @@
     "who gives disarming mixture",
     "hinderweir mixture"
    ],
-   "answer": "Chief Engineer Hinderweir blends the ingredients to create the mixture while overseeing maintenance and defense at Stonewrought Dam."
+   "answer": "Chief Engineer Hinderweir blends the ingredients while overseeing maintenance and defense at Stonewrought Dam."
   },
   {
    "q": "Why was the mixture necessary instead of simply disarming the bomb?",
@@ -44,7 +44,7 @@
     "why use chemicals on the bomb",
     "why disarming mixture"
    ],
-   "answer": "Dry Seaforium powder is harmless, but wet powder can explode with tremendous force. The mixture neutralizes the reactive powder inside the keg while it remains submerged beneath the dam."
+   "answer": "Dry Seaforium powder is harmless, but wet powder can explode with tremendous force. The mixture neutralizes the reactive powder while the keg remains submerged beneath the dam."
   }
  ],
  "angles": [
@@ -54,7 +54,7 @@
   },
   {
    "target": "race:Dwarf",
-   "text": "As a dwarf, protecting the valleys and lowlands around Stonewrought Dam matters to your people. Applying the neutralizer quickly helps defend them."
+   "text": "As a dwarf, you help protect the valleys and lowlands around Stonewrought Dam. Applying the neutralizer quickly helps defend them."
   }
  ],
  "keywords": [
@@ -75,5 +75,5 @@
   "Disarming Mixture",
   "A Dark Threat Looms (6)"
  ],
- "style": 1
+ "style": 2
 }

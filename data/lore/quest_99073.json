@@ -14,11 +14,11 @@
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "Sentinel Eralya Leafshadow is one of your own, stricken by a virulent corruption in the wilds of Teldrassil near the Oracle Tree. Bringing her comfort honours the duty Sentinels bear for their kin."
+   "text": "Sentinel Eralya Leafshadow is one of your own, stricken by a virulent corruption in Teldrassil near the Oracle Tree. Bringing her comfort honors the duty Sentinels bear toward their kin."
   },
   {
    "target": "faction:Alliance",
-   "text": "Aiding fallen night elf Sentinels along the roads of Darnassus's homeland helps preserve the fragile frontline against growing corruption in the boughs of Teldrassil."
+   "text": "Aiding fallen night elf Sentinels on the roads of Darnassus's homeland helps preserve the fragile frontline against growing corruption in Teldrassil's boughs."
   }
  ],
  "faq": [
@@ -28,7 +28,7 @@
     "eralya leafshadow",
     "who is sentinel eralya"
    ],
-   "answer": "Sentinel Eralya Leafshadow is a night elf guardian found ailing along the road leading toward the Oracle Tree. Struck down by an aggressive, festering rot, she is incapacitated and near death when discovered.",
+   "answer": "Sentinel Eralya Leafshadow is a night elf guardian found ailing on the road to the Oracle Tree. A fast spreading rot has left her helpless and near death.",
    "q": "Who is Sentinel Eralya Leafshadow?"
   },
   {
@@ -37,7 +37,7 @@
     "lashwater salve",
     "salve cure rot"
    ],
-   "answer": "Lashwater Salve is a prepared medicinal remedy delivered to ease the violent pain caused by the virulent rot afflicting Sentinel Eralya. While uncertain to cure the condition entirely, it soothes her distress.",
+   "answer": "Lashwater Salve is a prepared remedy brought to ease the pain of Sentinel Eralya Leafshadow's virulent rot. It may not cure her, but it soothes her distress.",
    "q": "What is Lashwater Salve?"
   },
   {
@@ -46,7 +46,7 @@
     "is eralya cured",
     "did eralya die"
    ],
-   "answer": "The salve eases Sentinel Eralya's breathing and brings her relative peace, but it remains uncertain whether she will truly recover or succumb to the rot that took hold of her.",
+   "answer": "The salve eases Sentinel Eralya's breathing and brings her peace, but whether she will recover or succumb to the rot remains uncertain.",
    "q": "Does Sentinel Eralya survive the affliction?"
   },
   {
@@ -55,7 +55,7 @@
     "road to oracle tree",
     "eralya location"
    ],
-   "answer": "Sentinel Eralya Leafshadow lies along the path leading toward the Oracle Tree, situated within the ancient reaches of Teldrassil.",
+   "answer": "Sentinel Eralya Leafshadow lies on the road leading toward the Oracle Tree in Teldrassil.",
    "q": "Where can Sentinel Eralya Leafshadow be found?"
   },
   {
@@ -64,7 +64,7 @@
     "what is the rot",
     "eralya affliction"
    ],
-   "answer": "Eralya suffers from an aggressive and festering rot spreading rapidly through her body. The exact source of the taint is unspecified, but it attacks quickly and grows more virulent over time.",
+   "answer": "Eralya suffers from a fast spreading rot that festers through her body. Its source is unknown, but the affliction grows more virulent with time.",
    "q": "What affliction struck Sentinel Eralya?"
   },
   {
@@ -72,7 +72,7 @@
     "why rush salve",
     "why haste eralya"
    ],
-   "answer": "The rot festers and strengthens rapidly as it spreads through Eralya's body. Speed is necessary because every passing moment brings her closer to succumbing entirely to the agony and corruption.",
+   "answer": "The rot spreads and strengthens quickly through Eralya's body. Haste matters because each passing moment brings her closer to succumbing to its agony and corruption.",
    "q": "Why is haste required to deliver the salve?"
   }
  ],
@@ -90,18 +90,19 @@
  ],
  "sections": [
   {
-   "body": "Sentinel Eralya Leafshadow lies stricken by a rapidly spreading, festering rot on the road to the Oracle Tree. In an effort to halt her agonizing decline, a freshly concocted Lashwater Salve must be brought to her without delay before the affliction takes full hold.",
+   "body": "Sentinel Eralya Leafshadow lies on the road to the Oracle Tree, stricken by a rot spreading fast. To ease her agony, you bring her freshly made Lashwater Salve before the affliction takes firmer hold.",
    "spoiler": 0,
    "title": "A Race Against the Rot"
   },
   {
-   "body": "While those treating her doubt whether the Lashwater Salve possesses the potency to completely eradicate the blight, administering it brings swift calm to Eralya's labored, gurgling breath. Though her survival remains in question, the treatment succeeds in granting her peace in her darkest hour.",
+   "body": "Sentinel Eralya Leafshadow receives the salve, though her healers doubt it can drive out the blight. It quickly calms her labored breath. Whether she will survive remains uncertain, but she finds peace in her darkest hour.",
    "spoiler": 1,
    "title": "Peace in the Shadows"
   }
  ],
- "summary": "Easing Suffering is a quest in Teldrassil centered on delivering emergency aid to Sentinel Eralya Leafshadow, who lies stricken by a virulent rot along the road to the Oracle Tree. Players rush Lashwater Salve to her side to ease her agony and bring peace to her failing breath.",
+ "summary": "Near the Oracle Tree, Sentinel Eralya Leafshadow lies stricken by a spreading rot. You carry Lashwater Salve to ease her pain and calm her failing breath.",
  "attribution": [
   "In-game quest text: Easing Suffering"
- ]
+ ],
+ "style": 2
 }

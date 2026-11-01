@@ -10,11 +10,11 @@
    "quest:1241"
   ]
  },
- "summary": "A sealed letter calls on Jorgen in Stormwind City to help with a missing diplomat.",
+ "summary": "In Stormwind City, a sealed letter calls Jorgen to help find a missing diplomat.",
  "sections": [
   {
    "title": "A Dispassionate Summons",
-   "body": "A diplomat bound for Theramore failed to arrive for talks with Lady Jaina Proudmoore, and royal investigators moved quickly to keep the matter quiet. While official agents searched the capital, other channels stirred. The letter bypasses military bureaucracy and seeks out Jorgen, a gruff veteran who fishes beneath the great statues in the Valley of Heroes. It invokes old obligations and draws him into a covert inquiry amid rumors of a Defias conspiracy.",
+   "body": "A diplomat bound for Theramore never arrived for talks with Lady Jaina Proudmoore. Royal investigators moved quickly to keep the matter quiet. While official agents searched the capital, other channels stirred. The letter bypasses military ranks and seeks Jorgen, a gruff veteran who fishes beneath the great statues in the Valley of Heroes. It invokes old obligations and draws him into a covert inquiry amid rumors of a Defias conspiracy.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "why letter to jorgen",
     "letter purpose"
    ],
-   "answer": "The letter introduces its bearer and calls on Jorgen to honor an old obligation. It sends the bearer to the Valley of Heroes so Jorgen can help investigate a missing diplomat without drawing public attention."
+   "answer": "The letter introduces its bearer and calls on Jorgen to honor an old obligation. It sends the bearer to the Valley of Heroes to help investigate the missing diplomat quietly."
   },
   {
    "q": "Who is Jorgen?",
@@ -35,7 +35,7 @@
     "jorgen npc",
     "jorgen stormwind"
    ],
-   "answer": "Jorgen is a reclusive contact just inside Stormwind's gates who spends his time fishing in the Valley of Heroes. He dislikes interruptions, but a past debt binds him to help when shown the letter."
+   "answer": "Jorgen is a reclusive contact just inside Stormwind's gates who spends his time fishing in the Valley of Heroes. He dislikes interruptions, but an old debt binds him to help when shown the letter."
   },
   {
    "q": "What disappearance does the letter relate to?",
@@ -63,7 +63,7 @@
   },
   {
    "target": "class:Rogue",
-   "text": "As a rogue, you know that quiet dispatches and reluctant street informants can be necessary when uncovering trouble in the capital."
+   "text": "As a rogue, you know that quiet dispatches and reluctant street informants can help uncover trouble in the capital."
   }
  ],
  "keywords": [
@@ -87,5 +87,5 @@
   "Letter to Jorgen",
   "The Missing Diplomat (2)"
  ],
- "style": 1
+ "style": 2
 }

@@ -17,16 +17,16 @@
   "wiki": "Five Signets for War Supplies (Alliance)",
   "chain": []
  },
- "summary": "In Ironforge, Field Marshal Snowfall gathers provisions and equipment for the Grand Alliance's war effort. Champions can trade commendation signets for field rations, bandages, and combat supplies. The stockpiles keep those working on the home front equipped for coming conflicts.",
+ "summary": "In Ironforge, Field Marshal Snowfall trades commendation signets for supplies bound for the Grand Alliance’s war effort. You can exchange them for field rations, bandages, and combat gear to keep those serving on the home front equipped for the conflicts ahead.",
  "sections": [
   {
    "title": "Supplying the Front",
-   "body": "Field Marshal Snowfall organizes the flow of materials as one of the Alliance's primary quartermasters in Ironforge. Armies need more than courage; they also need steady supplies for the fronts. Couriers and heroes bring commendation signets earned through civic service, and Snowfall trades them for survival rations and tactical gear.",
+   "body": "Couriers and heroes bring Snowfall commendation signets earned through civic service. He trades them for survival rations and tactical gear bound for the fronts. Armies there need steady supplies as much as courage.",
    "spoiler": 0
   },
   {
    "title": "A Pragmatic Trade",
-   "body": "Royal heralds offer public honor and civic standing for commendation signets. Snowfall offers another choice: trade five signets for field gear, without pomp, glory, or official recognition. The exchange gives soldiers and volunteers practical goods to help keep them alive when marching into hostile lands.",
+   "body": "Royal heralds offer public honor and civic standing for commendation signets. Snowfall offers another choice: five signets buy field gear, without pomp, glory, or official recognition. These goods help soldiers and volunteers stay alive as they march into hostile lands.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "field marshal snowfall",
     "who is snowfall"
    ],
-   "answer": "Field Marshal Snowfall is a senior Alliance military officer stationed in Ironforge. As one of the Alliance's primary quartermasters, he gathers materials and distributes supplies to soldiers and adventurers aiding the war effort."
+   "answer": "Field Marshal Snowfall is a senior Alliance military officer stationed in Ironforge. He is one of the Alliance’s primary quartermasters, gathering materials and distributing supplies to soldiers and adventurers aiding the war effort."
   },
   {
    "q": "What are Alliance Commendation Signets?",
@@ -47,7 +47,7 @@
     "alliance signets",
     "what are signets"
    ],
-   "answer": "Alliance Commendation Signets are tokens awarded to citizens and adventurers who donate trade goods, bandages, herbs, and ores to support the Alliance's mobilization."
+   "answer": "Alliance Commendation Signets are tokens awarded to citizens and adventurers who donate trade goods, bandages, herbs, and ores to support the Alliance’s mobilization."
   },
   {
    "q": "Why trade signets for supplies rather than prestige?",
@@ -56,7 +56,7 @@
     "signets for supplies worth it",
     "snowfall supplies trade"
    ],
-   "answer": "Trading signets for supplies provides immediate, practical resources instead of civic reputation. For frontline fighters who need consumables, rations, and bandages, practical gear can matter more than ceremonial standing."
+   "answer": "Trading signets for supplies gives you immediate, practical resources instead of civic reputation. For frontline fighters who need consumables, rations, and bandages, practical gear can matter more than ceremonial standing."
   },
   {
    "q": "Where does this exchange take place?",
@@ -65,7 +65,7 @@
     "quest location",
     "snowfall ironforge location"
    ],
-   "answer": "The exchange takes place in Ironforge, where Field Marshal Snowfall stands near the war staging grounds and supply depots, coordinating shipments across Khaz Modan and beyond."
+   "answer": "The exchange takes place in Ironforge. Field Marshal Snowfall stands near the war staging grounds and supply depots, coordinating shipments across Khaz Modan and beyond."
   },
   {
    "q": "Can I repeat this exchange?",
@@ -83,7 +83,7 @@
     "ironforge rep signets",
     "recognition for signets"
    ],
-   "answer": "No. Field Marshal Snowfall explicitly warns that trading signets directly for personal supplies grants no civic recognition or prestige with the Alliance factions; their value comes back as physical goods."
+   "answer": "No. Field Marshal Snowfall warns that trading signets directly for personal supplies grants no civic recognition or prestige with the Alliance factions. Their value comes back as physical goods."
   }
  ],
  "angles": [
@@ -93,7 +93,7 @@
   },
   {
    "target": "race:Dwarf",
-   "text": "As a dwarf, you can take pride in seeing Ironforge's halls arm all allied races."
+   "text": "As a dwarf, you can take pride in seeing Ironforge’s halls arm all allied races."
   }
  ],
  "keywords": [
@@ -112,5 +112,5 @@
  "attribution": [
   "Five Signets for War Supplies (Alliance)"
  ],
- "style": 1
+ "style": 2
 }

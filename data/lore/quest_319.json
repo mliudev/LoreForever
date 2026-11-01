@@ -22,16 +22,16 @@
    "Return to Bellowfiz"
   ]
  },
- "summary": "Pilot Bellowfiz needs Evershine from Brewnall Village for his siege engine at Steelgrill's Depot. Brewer Rejold Barleybrew will part with a cask only after the predators near the village are driven off.",
+ "summary": "At Steelgrill's Depot, Pilot Bellowfiz needs Evershine for his siege engine, Jetsteam. Rejold Barleybrew will give up a cask only after you drive the predators away from Brewnall Village.",
  "sections": [
   {
    "title": "A Brewer's Bargain",
-   "body": "Rejold Barleybrew has the cask of Evershine Pilot Bellowfiz needs, but he will not give away his prized brew. Instead of asking for coin, Rejold asks you to thin the wild beasts of western Dun Morogh. Ice Claw Bears, Elder Crag Boars, and Snow Leopards roam close to Brewnall Village, bringing danger to the locals.",
+   "body": "Rejold offers his brew if you thin the wild beasts of western Dun Morogh. Ice Claw Bears, Elder Crag Boars, and Snow Leopards roam near Brewnall Village. Their presence endangers the locals and keeps Rejold from freely giving up the cask.",
    "spoiler": 0
   },
   {
    "title": "Peace for the Craftsmen",
-   "body": "Rejold insists that no self-respecting dwarf cowers before wild animals. Still, dealing with predators around the village takes valuable hours. With the beasts thinned, the villagers can focus on distilling and smithing without keeping watch on the tree line.",
+   "body": "Rejold says no self-respecting dwarf cowers before wild animals. Yet watching for predators around the village takes the craftsmen valuable hours. Once the beasts are driven off, villagers can focus on distilling and smithing without keeping watch on the tree line.",
    "spoiler": 0
   }
  ],
@@ -43,7 +43,7 @@
     "why cull animals brewnall",
     "rejold task reason"
    ],
-   "answer": "Ice Claw Bears, Elder Crag Boars, and Snow Leopards prowl close to Brewnall Village. The dwarves are not afraid of them, but driving the beasts off takes hours away from brewing and crafting."
+   "answer": "Ice Claw Bears, Elder Crag Boars, and Snow Leopards prowl near Brewnall Village. The dwarves do not fear them, but driving the beasts off takes hours from brewing and crafting."
   },
   {
    "q": "What is Evershine?",
@@ -52,7 +52,7 @@
     "evershine brew",
     "rejold liquor"
    ],
-   "answer": "Evershine is a potent, celebrated liquor brewed only in Brewnall Village by Rejold Barleybrew. Siege engine pilots like Pilot Bellowfiz value it as a drink and as a volatile fuel additive."
+   "answer": "Evershine is a potent, celebrated liquor brewed only in Brewnall Village by Rejold Barleybrew. Siege engine pilots like Pilot Bellowfiz prize it as a drink and a volatile fuel additive."
   },
   {
    "q": "Who originally asked for the Evershine?",
@@ -61,7 +61,7 @@
     "who wants evershine",
     "quest chain start"
    ],
-   "answer": "Pilot Bellowfiz at Steelgrill's Depot sent you for Evershine to keep him warm on the road and to feed into the furnace of his own siege engine, Jetsteam, for a burst of power."
+   "answer": "Pilot Bellowfiz at Steelgrill's Depot sent you for Evershine to keep him warm on the road and feed into the furnace of his siege engine, Jetsteam, for a burst of power."
   },
   {
    "q": "Where can the animals be found?",
@@ -70,7 +70,7 @@
     "snow leopard location",
     "elder crag boar location"
    ],
-   "answer": "The animals roam the frozen fields and crags immediately surrounding Brewnall Village and Iceflow Lake in western Dun Morogh."
+   "answer": "The animals roam the frozen fields and crags around Brewnall Village and Iceflow Lake in western Dun Morogh."
   },
   {
    "q": "What happens after completing the favor?",
@@ -78,7 +78,7 @@
     "next quest",
     "what after favor for evershine"
    ],
-   "answer": "Once the beasts are thinned, Rejold gives you the cask of Evershine to take back to Pilot Bellowfiz at Steelgrill's Depot."
+   "answer": "Once the beasts are thinned, Rejold gives you a cask of Evershine to take back to Pilot Bellowfiz at Steelgrill's Depot."
   },
   {
    "q": "Are the villagers in actual danger from the predators?",
@@ -86,17 +86,17 @@
     "is brewnall in danger",
     "are dwarves scared"
    ],
-   "answer": "Rejold says no self-respecting dwarf fears a beast in the snow. Yet dangerous predators outside the doorstep disrupt daily work and pose a danger."
+   "answer": "Rejold says no self-respecting dwarf fears a beast in the snow. Yet predators near the doorstep disrupt daily work and pose a danger."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "As a dwarf, you know the importance of keeping wild predators away from an honest still."
+   "text": "As a dwarf, you know wild predators must be kept from an honest still."
   },
   {
    "target": "race:Gnome",
-   "text": "As a gnome, you know the siege pilots and tinkerers at Steelgrill's Depot urgently await the cask, and rely on adventurers to appease the stubborn brewer so Jetsteam's preparations can continue."
+   "text": "As a gnome, you know the siege pilots and tinkerers at Steelgrill's Depot await the cask. They rely on adventurers to appease the stubborn brewer so Jetsteam's preparations can continue."
   },
   {
    "target": "class:Hunter",
@@ -124,5 +124,5 @@
  "attribution": [
   "A Favor for Evershine"
  ],
- "style": 1
+ "style": 2
 }

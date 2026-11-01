@@ -17,16 +17,16 @@
   "wiki": "Operation Recombobulation (Classic)",
   "chain": []
  },
- "summary": "In Kharanos, Razzle Sprysprocket and Ozzie Togglevolt seek a cure for their kin. After Gnomeregan's fall, they hope an experimental machine can reverse the change that made many gnomes leper gnomes.",
+ "summary": "In Kharanos, Razzle Sprysprocket and Ozzie Togglevolt search for a cure for their kin. Their experimental Recombobulator needs parts taken from hostile leper gnomes outside Gnomeregan.",
  "sections": [
   {
    "title": "A Remedy for a Calamity",
-   "body": "Radiation meant to purge the troggs in Gnomeregan changed most of the city's gnomes into sickly, deranged leper gnomes instead. Razzle Sprysprocket refuses to accept that this change must last. Working with Ozzie Togglevolt, the inventor is building a machine called the Recombobulator to restore their afflicted kin to health and sanity.",
+   "body": "Razzle and Ozzie are building a machine to restore their afflicted kin to health and sanity. Radiation changed most of Gnomeregan's gnomes into sickly, deranged leper gnomes. The inventors hope their Recombobulator can reverse that change.",
    "spoiler": 0
   },
   {
    "title": "Scavenging from the Afflicted",
-   "body": "Razzle needs Restabilization Cogs and Gyromechanic Gears to build a delicate prototype. The parts come from the hostile leper gnomes outside Gnomeregan's sealed gates. Razzle hopes the debris taken from their altered kin will help build a device to undo the tragedy they share.",
+   "body": "Razzle needs Restabilization Cogs and Gyromechanic Gears for the delicate prototype. The parts must come from hostile leper gnomes outside Gnomeregan's sealed gates. Debris from their altered kin may help undo the tragedy they share.",
    "spoiler": 0
   }
  ],
@@ -56,7 +56,7 @@
     "how did leper gnomes happen",
     "gnomeregan radiation"
    ],
-   "answer": "Radiation released during the trogg invasion failed to kill the troggs and instead drove many surviving gnomes mad, changing them into hostile leper gnomes."
+   "answer": "Radiation released during the trogg invasion failed to kill the troggs. Instead, it drove many surviving gnomes mad and changed them into hostile leper gnomes."
   },
   {
    "q": "Where do the parts for the Recombobulator come from?",
@@ -80,7 +80,7 @@
  "angles": [
   {
    "target": "race:Gnome",
-   "text": "For gnomes, this work offers a desperate hope of saving family and friends, changed into violent shells during the fall of their capital."
+   "text": "For gnomes, this work offers a desperate hope of saving family and friends changed into violent shells during the fall of their capital."
   },
   {
    "target": "profession:Engineering",
@@ -110,5 +110,5 @@
  "attribution": [
   "Operation Recombobulation (Classic)"
  ],
- "style": 1
+ "style": 2
 }

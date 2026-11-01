@@ -8,11 +8,11 @@
   "wiki": "Gnoarn",
   "refs": 2
  },
- "summary": "In Ironforge, Gnoarn helps his scattered people find aid. The exiled gnome lives in Tinker Town after the fall of Gnomeregan, directing travelers to fellow engineers and survivors.",
+ "summary": "In Ironforge, Gnoarn helps his scattered people find aid. After Gnomeregan fell, the exiled gnome made his home in Tinker Town and began directing travelers to fellow engineers and survivors.",
  "sections": [
   {
    "title": "A Displaced Citizen of Gnomeregan",
-   "body": "Gnoarn keeps track of Gnomeregan's scattered survivors from Tinker Town in Ironforge. Troggs invaded the great underground city, and catastrophic radiation made it uninhabitable. The Bronzebeard dwarves gave Gnoarn refuge, as they did many of his people. He now points capable travelers toward gnomes who need help abroad, including the stranded pilot Bingles Blastenheimer in Loch Modan and the ambitious engineer Shoni the Shilent in Stormwind.",
+   "body": "Troggs invaded Gnomeregan, and catastrophic radiation drove its people from the great underground city. The Bronzebeard dwarves gave Gnoarn refuge in Tinker Town. From there, he sends travelers to gnomes in need across Alliance lands, including the stranded pilot Bingles Blastenheimer in Loch Modan and the ambitious engineer Shoni the Shilent in Stormwind.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "gnoarn lore",
     "gnoarn npc"
    ],
-   "answer": "Gnoarn is a gnomish survivor who lives among the refugees in Tinker Town, Ironforge's gnomish quarter. He directs travelers to aid exiled gnomes working across Alliance lands."
+   "answer": "Gnoarn is a gnomish survivor living among the refugees in Tinker Town, Ironforge's gnomish quarter. He directs travelers to help exiled gnomes across Alliance lands."
   },
   {
    "q": "Where can Gnoarn be found?",
@@ -33,7 +33,7 @@
     "where is gnoarn",
     "find gnoarn"
    ],
-   "answer": "Gnoarn can be found in Tinker Town, in northeastern Ironforge, among the machinery and workbenches of his exiled kin."
+   "answer": "Gnoarn lives in Tinker Town, in northeastern Ironforge, among the machinery and workbenches of his exiled kin."
   },
   {
    "q": "What tasks does Gnoarn give out?",
@@ -49,7 +49,7 @@
     "gnoarn gnomefro",
     "gnoarn hair"
    ],
-   "answer": "Before Gnomeregan fell, Gnoarn was known for his eccentric 'gnomefro' hairstyle. He lost it in the catastrophic fallout and radioactive venting that devastated his home city."
+   "answer": "Before Gnomeregan fell, Gnoarn was known for his eccentric 'gnomefro' hairstyle. Catastrophic fallout and radioactive venting devastated the city and took his hair with it."
   }
  ],
  "angles": [
@@ -83,5 +83,5 @@
  "attribution": [
   "Gnoarn"
  ],
- "style": 1
+ "style": 2
 }

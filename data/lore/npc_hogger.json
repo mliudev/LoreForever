@@ -8,11 +8,11 @@
   "wiki": "Hogger",
   "refs": 0
  },
- "summary": "In southwestern Elwynn Forest, Hogger leads the Riverpaw gnolls in raids on farms and travelers. His violent attacks have earned him a bounty from the Stormwind Marshals.",
+ "summary": "In southwestern Elwynn Forest, Hogger leads the Riverpaw gnolls in raids on farms and travelers. The Stormwind Marshals have put a bounty on him for his violent attacks.",
  "sections": [
   {
    "title": "Terror of the Riverpaw",
-   "body": "Hogger commands the Riverpaw pack from Hogger Hill in southwestern Elwynn Forest. Since the Third War, the gnolls have grown bolder and more coordinated in their raids on nearby homesteads. The Riverpaw have joined forces with the Defias Brotherhood, exchanging their raw ferocity for arms, tactical direction, and magical support. To protect Elwynn's borders and trade routes from further bloodshed, Marshal Dughan has posted a bounty on Hogger's head.",
+   "body": "Hogger commands the Riverpaw pack from Hogger Hill in southwestern Elwynn Forest. Since the Third War, the gnolls have grown bolder and more orderly in their raids on nearby homesteads. Now they fight beside the Defias Brotherhood, trading raw ferocity for arms, tactical direction, and magical support. To guard Elwynn's borders and trade routes from further bloodshed, Marshal Dughan has put a bounty on Hogger's head.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "who is hogger",
     "riverpaw leader"
    ],
-   "answer": "Hogger leads the Riverpaw pack in southwestern Elwynn Forest. This massive, dangerous gnoll is known for raiding nearby farmsteads and is wanted by Stormwind authorities for his attacks on human settlements."
+   "answer": "Hogger leads the Riverpaw pack in southwestern Elwynn Forest. The massive gnoll raids nearby farmsteads and is wanted by Stormwind authorities for attacking human settlements."
   },
   {
    "q": "Why is there a bounty on Hogger?",
@@ -33,7 +33,7 @@
     "why kill hogger",
     "hogger bounty"
    ],
-   "answer": "Marshal Dughan and the Stormwind guard issued a bounty on Hogger for his raids on rural farms and travelers. To prove the deed, bring his huge claw back to Goldshire."
+   "answer": "Marshal Dughan and the Stormwind guard issued a bounty on Hogger for his raids on rural farms and travelers. Bring his huge claw back to Goldshire as proof."
   },
   {
    "q": "Are the Riverpaw gnolls working with the Defias Brotherhood?",
@@ -42,7 +42,7 @@
     "gnoll defias connection",
     "riverpaw defias"
    ],
-   "answer": "Yes. The Riverpaw pack has joined forces with the Defias Brotherhood, which supplies the gnolls with refined weapons, tactical guidance, and magical support to weaken Stormwind's hold on the region."
+   "answer": "Yes. The Riverpaw pack has joined forces with the Defias Brotherhood. The Brotherhood supplies refined weapons, tactical guidance, and magical support to weaken Stormwind's hold on the region."
   },
   {
    "q": "Where does Hogger make his camp?",
@@ -51,17 +51,17 @@
     "where is hogger",
     "hogger hill"
    ],
-   "answer": "Hogger makes his camp atop Hogger Hill in southwestern Elwynn Forest, near the Westfall border with his Riverpaw packmates."
+   "answer": "Hogger makes camp atop Hogger Hill in southwestern Elwynn Forest, near the Westfall border, with his Riverpaw packmates."
   }
  ],
  "angles": [
   {
    "target": "race:Human",
-   "text": "As a human, facing Hogger is an early trial for Stormwind's young defenders and a response to threats in Elwynn's heartland."
+   "text": "As a human, facing Hogger is an early trial for Stormwind's young defenders. It answers threats in Elwynn's heartland."
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance member, you can see how Hogger's raids stretch the Stormwind army, leaving the Marshals to rely on roaming adventurers to keep order near the capital."
+   "text": "As an Alliance member, you can see how Hogger's raids stretch the Stormwind army. The Marshals rely on roaming adventurers to keep order near the capital."
   }
  ],
  "keywords": [
@@ -86,5 +86,5 @@
  "attribution": [
   "Hogger"
  ],
- "style": 1
+ "style": 2
 }

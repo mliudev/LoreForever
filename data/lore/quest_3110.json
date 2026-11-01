@@ -17,11 +17,11 @@
   "wiki": "Hallowed Rune (Classic)",
   "chain": []
  },
- "summary": "In Coldridge Valley, Hallowed Rune brings a young dwarf priest to Anvilmar. Sten Stoutarm carries Branstock Khalder’s inscribed prayers and guidance to the novice, who is summoned inside to deepen their bond with the Holy Light.",
+ "summary": "In Coldridge Valley, a young dwarf priest is called to Anvilmar by Sten Stoutarm. He carries Branstock Khalder’s inscribed prayers and guidance to the novice, who is summoned inside to deepen their bond with the Holy Light.",
  "sections": [
   {
    "title": "A Calling to the Cloth",
-   "body": "A young priest earns Sten Stoutarm’s notice while helping clear threats outside Anvilmar. Branstock Khalder, the settlement’s spiritual guide, gives Sten a rune inscribed with prayers and guidance for the novice. The young priest is called inside Anvilmar’s sturdy halls to begin sacred studies.",
+   "body": "A young priest earns Sten Stoutarm’s notice while helping clear threats outside Anvilmar. Branstock Khalder, the settlement’s spiritual guide, gives Sten a rune inscribed with prayers and guidance for the novice. Then the young priest is called inside Anvilmar’s sturdy halls to begin sacred studies.",
    "spoiler": 0
   },
   {
@@ -37,7 +37,7 @@
     "what is hallowed rune",
     "rune purpose"
    ],
-   "answer": "Sten Stoutarm gives the inscribed clerical rune on Branstock Khalder’s behalf. Its prayers introduce young priests to the faith and point them toward formal training."
+   "answer": "Sten Stoutarm gives the inscribed clerical rune on Branstock Khalder’s behalf. Its prayers introduce young priests to the faith and guide them toward formal training."
   },
   {
    "q": "Who is Branstock Khalder?",
@@ -61,7 +61,7 @@
     "why dwarven priests",
     "priests in anvilmar"
    ],
-   "answer": "Troggs have overrun parts of the valley. Guards rely on priests to heal the wounded and use the Light to smite their foes and hold their lines."
+   "answer": "Troggs have overrun parts of the valley. Guards rely on priests to heal the wounded and wield the Light against their foes as they hold their lines."
   },
   {
    "q": "Can any class take this quest?",
@@ -87,7 +87,7 @@
   },
   {
    "target": "race:Dwarf",
-   "text": "As a dwarf, you join devotion to the Light with mountain grit, helping hold Coldridge Valley against invading troggs."
+   "text": "As a dwarf, you join devotion to the Light with mountain grit and help hold Coldridge Valley against invading troggs."
   }
  ],
  "keywords": [
@@ -112,5 +112,5 @@
  "attribution": [
   "Hallowed Rune (Classic)"
  ],
- "style": 1
+ "style": 2
 }

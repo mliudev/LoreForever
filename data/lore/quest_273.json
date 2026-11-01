@@ -17,16 +17,16 @@
   "wiki": "Resupplying the Excavation (Classic)",
   "chain": []
  },
- "summary": "In Thelsamar, Jern Hornhelm sends you after the slow powder wagon bound for Ironband's Excavation Site. The dwarves haul blastpowder south along the Loch's shore.",
+ "summary": "Jern Hornhelm sends you from Thelsamar after a slow wagon carrying blastpowder to Ironband's Excavation Site. Its three dwarven haulers travel south along the Loch's shore.",
  "sections": [
   {
    "title": "A Heavy Cargo along the Shore",
-   "body": "Ironband's Excavation Site in southern Loch Modan needs blastpowder to break through hard rock. After the powder reaches Thelsamar, quartermaster Jern Hornhelm sends Huldar, Miran, and Saean south with heavy barrels. The cargo slows their pack team along the lakeside road, giving travelers in Thelsamar time to catch up and help along the way.",
+   "body": "In southern Loch Modan, Ironband's Excavation Site needs blastpowder to break through hard rock. The powder comes first to Thelsamar, where Jern Hornhelm arranges for Huldar, Miran, and Saean to haul three volatile barrels south. The heavy load slows their pack team along the lakeside road, giving you time to catch them and help on the way.",
    "spoiler": 0
   },
   {
    "title": "Treachery in the Shadows",
-   "body": "Huldar's wagon has been ambushed on the southern road. Dark Iron dwarves attacked to sabotage the Bronzebeard expedition's archaeological work. Saean, who had worked beside Huldar for nearly a year, helped arrange the ambush as a Dark Iron sympathizer.",
+   "body": "Huldar's wagon lies ambushed on the southern road. Dark Iron dwarves attacked to sabotage the Bronzebeard expedition's archaeological work. Saean had worked beside Huldar for nearly a year, yet helped arrange the ambush as a Dark Iron sympathizer.",
    "spoiler": 1
   }
  ],
@@ -47,7 +47,7 @@
     "huldar location",
     "where is the wagon loch modan"
    ],
-   "answer": "Huldar and the wagon are south of Thelsamar, along the road that follows the Loch's western and southern shores toward Ironband's Excavation Site."
+   "answer": "Huldar and the wagon are south of Thelsamar, along the road following the Loch's western and southern shores toward Ironband's Excavation Site."
   },
   {
    "q": "Why is blastpowder being sent to Ironband?",
@@ -65,7 +65,7 @@
     "wagon ambush loch modan",
     "who attacked huldar"
    ],
-   "answer": "Jern expects Huldar's team to be on the usual road south of Thelsamar, following the Loch. You learn who attacked the wagon when you reach Huldar."
+   "answer": "Jern expects Huldar's team on the usual road south of Thelsamar, following the Loch. You learn who attacked the wagon when you reach Huldar."
   },
   {
    "q": "What role did Saean play in the attack?",
@@ -119,5 +119,5 @@
  "attribution": [
   "Resupplying the Excavation (Classic)"
  ],
- "style": 1
+ "style": 2
 }

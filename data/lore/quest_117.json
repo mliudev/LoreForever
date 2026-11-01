@@ -17,16 +17,16 @@
   "wiki": "Thunderbrew (quest)",
   "chain": []
  },
- "summary": "In Westfall, Grimbooze Thunderbrew is gathering what he needs for his next batch. Fresh hops keep his ale from turning thick as stew, and he shares kegs with those who help.",
+ "summary": "In Westfall, Grimbooze Thunderbrew gathers fresh hops for his next batch. Without them, his ale may turn thick as stew, so he shares kegs with those who bring what he needs.",
  "sections": [
   {
    "title": "A Dwarven Passion in Westfall",
-   "body": "Grimbooze Thunderbrew keeps his family's brewing tradition alive far from Dun Morogh. Even across Westfall's turbulent plains, he insists on the right ingredients: without proper hops, his current brew may turn into thick stew instead of refreshing ale.",
+   "body": "Far from Dun Morogh, Grimbooze keeps his family's brewing tradition alive. He insists on proper hops for his current brew, or it may turn to thick stew instead of refreshing ale.",
    "spoiler": 0
   },
   {
    "title": "The Art of the Keg",
-   "body": "Grimbooze celebrates hops, barley, yeast, and malt in cheerful rhymes. With fresh hops, he finishes the fermentation on the spot. Those who supply him receive whole kegs of Thunderbrew Lager, a brew known for its forceful taste.",
+   "body": "Grimbooze praises hops, barley, yeast, and malt in cheerful rhymes. Fresh hops let him finish fermentation on the spot. In return, he shares whole kegs of Thunderbrew Lager, known for its forceful taste.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who is grimbooze",
     "grimbooze lore"
    ],
-   "answer": "Grimbooze Thunderbrew is a dwarven brewer who roams Westfall. He carries on his clan's brewing tradition wherever he camps, speaking and chanting in cheerful rhymes."
+   "answer": "Grimbooze Thunderbrew is a dwarven brewer who roams Westfall. Wherever he camps, he keeps his clan's brewing tradition alive and chants in cheerful rhymes."
   },
   {
    "q": "Why does Grimbooze need hops?",
@@ -47,7 +47,7 @@
     "grimbooze hops",
     "what are hops for"
    ],
-   "answer": "Without fresh hops, Grimbooze's latest batch may taste thick and heavy like stew instead of crisp lager. Hops bring bitterness and balance to the brew."
+   "answer": "Without fresh hops, Grimbooze's latest batch may turn thick and heavy like stew instead of crisp lager. Hops bring bitterness and balance to the brew."
   },
   {
    "q": "What is Thunderbrew Lager?",
@@ -65,7 +65,7 @@
     "is thunderbrew repeatable",
     "more kegs"
    ],
-   "answer": "Yes. Grimbooze welcomes more hops and offers additional kegs of his brew in return."
+   "answer": "Yes. Grimbooze welcomes more hops and offers more kegs of his brew in return."
   },
   {
    "q": "Where does this task take place?",
@@ -89,11 +89,11 @@
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "As a dwarf, seeing a kinsman keep Kharanos's brewing traditions alive on Westfall's rugged frontier is a welcome sight, especially when kegs are involved."
+   "text": "As a dwarf, you may welcome seeing a kinsman keep Kharanos's brewing traditions alive on Westfall's rugged frontier, especially when kegs are involved."
   },
   {
    "target": "profession:Cooking",
-   "text": "As a cook, you know how barley, malt, and hops must balance, much like the ingredients in classic dwarven brewing."
+   "text": "As a cook, you know barley, malt, and hops must balance, much like the ingredients in classic dwarven brewing."
   }
  ],
  "keywords": [
@@ -114,5 +114,5 @@
  "attribution": [
   "Thunderbrew (quest)"
  ],
- "style": 1
+ "style": 2
 }

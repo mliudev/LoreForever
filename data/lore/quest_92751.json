@@ -17,7 +17,7 @@
   "wiki": "Detonation at a Distance (2)",
   "chain": []
  },
- "summary": "In Moonbrook, explosions beneath Westfall draw SI:7's attention. Jasper Fel, a Stormwind operative, sends a remote detonator kit to help handle the work from a safe distance.",
+ "summary": "In Moonbrook, blasts beneath Westfall have drawn SI:7's attention. Jasper Fel, a Stormwind operative, sends a remote detonator kit to let you handle the work from a safe distance.",
  "sections": [
   {
    "title": "Eyes in the Shadows",
@@ -26,7 +26,7 @@
   },
   {
    "title": "A Prototype Solution",
-   "body": "Explosions in tight caves put anyone nearby at risk. Jasper Fel provides a prototype Remote Detonator Kit made by Alliance-aligned engineers, so charges beneath Westfall can be set off from outside. He sends you with the kit to Sprite Jumpsprocket in Stormwind's Dwarven District and warns you not to mention SI:7 to your elven allies.",
+   "body": "Explosions in tight caves endanger anyone nearby. Jasper Fel gives you a prototype Remote Detonator Kit made by Alliance-aligned engineers. It lets charges beneath Westfall be set off from outside. He sends you with the kit to Sprite Jumpsprocket in Stormwind's Dwarven District and warns you not to mention SI:7 to your elven allies.",
    "spoiler": 1
   }
  ],
@@ -74,7 +74,7 @@
     "detonator kit",
     "what does the kit do"
    ],
-   "answer": "The Remote Detonator Kit triggers demolition charges from a safe distance, letting operatives clear or collapse underground passages without being trapped inside."
+   "answer": "The Remote Detonator Kit triggers demolition charges from a safe distance. It lets operatives clear or collapse underground passages without being trapped inside."
   },
   {
    "q": "Where does this quest take you?",
@@ -89,7 +89,7 @@
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "As a rogue, your meeting with Jasper Fel gives you a glimpse of SI:7's covert network, which watches field operatives and quietly supplies them with tools."
+   "text": "As a rogue, your meeting with Jasper Fel gives you a glimpse of SI:7's covert network. It watches field operatives and quietly supplies them with tools."
   },
   {
    "target": "race:Gnome",
@@ -126,5 +126,5 @@
  "attribution": [
   "Detonation at a Distance (2)"
  ],
- "style": 1
+ "style": 2
 }

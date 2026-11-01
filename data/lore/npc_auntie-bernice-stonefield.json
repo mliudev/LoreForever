@@ -8,16 +8,16 @@
   "wiki": "\"Auntie\" Bernice Stonefield",
   "refs": 4
  },
- "summary": "At the Stonefield homestead in south-central Elwynn Forest, “Auntie” Bernice Stonefield keeps watch over the neighborhood. Widowed when her husband fell in the kingdom’s military campaigns, she is known throughout the valley for her pork belly pies. She stays outside the farmhouse beside Ma Stonefield and remains deeply suspicious of the rival Maclure family.",
+ "summary": "At the Stonefield homestead in south-central Elwynn Forest, “Auntie” Bernice Stonefield keeps watch over the neighborhood. Widowed by the kingdom’s military campaigns, she lives beside Ma Stonefield and is known across the valley for her pork belly pies. She remains deeply suspicious of the rival Maclure family.",
  "sections": [
   {
    "title": "A Life of Hardship",
-   "body": "Bernice carries the cost of war, as many common folk in the Kingdom of Stormwind do. Her husband fell in military campaigns, and she now lives with her kin at the family homestead. She helps Ma Stonefield manage the farm’s daily affairs, keeping the household fed and running. Her pork belly pies have made her famous among the people of the valley.",
+   "body": "War took Bernice’s husband in the Kingdom of Stormwind’s military campaigns. She now lives with her kin at the family homestead. There, she helps Ma Stonefield manage the farm’s daily affairs and keeps the household fed and running. Her pork belly pies have made her famous throughout the valley.",
    "spoiler": 0
   },
   {
    "title": "The Feud and the Missing Necklace",
-   "body": "For Bernice, the old bitterness between the Stonefields and the Maclures runs deep. When her prized family necklace went missing, she suspected young Billy Maclure of taking it. Recovering it proves more complicated than settling a neighbor’s prank. Billy swears he did not steal the necklace, but nearly admits he dropped it near the Fargodeep Mine. There, he saw the gold-toothed kobold Goldtooth snatch it and carry it to his den.",
+   "body": "The old bitterness between the Stonefields and the Maclures runs deep for Bernice. When her prized family necklace went missing, she suspected young Billy Maclure had taken it. Yet recovering the necklace proves more complicated than settling a neighbor’s prank. Billy swears he did not steal it, but nearly admits he dropped it near the Fargodeep Mine. There, he saw the gold-toothed kobold Goldtooth snatch it and carry it to his den.",
    "spoiler": 1
   }
  ],
@@ -46,7 +46,7 @@
     "bernice stonefield pie",
     "pork belly pie elwynn"
    ],
-   "answer": "Bernice is known across the local countryside for her pork belly pies, which even mischievous neighbors will bargain for a slice of."
+   "answer": "Bernice is known across the local countryside for her pork belly pies, which even mischievous neighbors will bargain for a slice."
   },
   {
    "q": "Why is Auntie Bernice angry with Billy Maclure?",
@@ -108,5 +108,5 @@
  "attribution": [
   "\"Auntie\" Bernice Stonefield"
  ],
- "style": 1
+ "style": 2
 }

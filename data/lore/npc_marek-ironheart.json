@@ -8,11 +8,11 @@
   "wiki": "Marek Ironheart",
   "refs": 1
  },
- "summary": "At the Farstrider Lodge, Marek Ironheart tests those who seek the respect of its hunters. The veteran dwarven hunter is stationed in south-eastern Loch Modan and keeps to the traditions of the wild.",
+ "summary": "At the Farstrider Lodge in south-eastern Loch Modan, Marek Ironheart tests hunters who seek the lodge’s respect. The veteran dwarf follows the traditions of the wild.",
  "sections": [
   {
    "title": "Master of the Hunt",
-   "body": "At the Farstrider Lodge, Marek Ironheart expects hunters to prove their skill. The lodge overlooks the lake from a ridge in south-eastern Loch Modan and gathers marksmen and trackers from across the dwarven lands. Marek pays little heed to titles or boasts. Anyone seeking the lodge’s respect must show practical skill against the beasts roaming Loch Modan, with the patience and nerve of a true hunter.",
+   "body": "The Farstrider Lodge gathers marksmen and trackers from across the dwarven lands on a ridge above the lake. Marek cares little for titles or boasts. Visitors earn the hunters’ respect through skill against Loch Modan’s beasts, and by showing a true hunter’s patience and nerve.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "marek ironheart",
     "who is marek"
    ],
-   "answer": "Marek Ironheart is a dwarven huntsman at the Farstrider Lodge in Loch Modan. He tests visitors who seek acceptance among the lodge’s trackers and outdoorsmen."
+   "answer": "At the Farstrider Lodge in Loch Modan, Marek Ironheart tests visitors seeking acceptance among its trackers and outdoorsmen."
   },
   {
    "q": "Where can I find Marek Ironheart?",
@@ -31,7 +31,7 @@
     "marek ironheart location",
     "where is marek"
    ],
-   "answer": "Marek Ironheart is at the Farstrider Lodge, in the hills along Loch Modan’s south-eastern shore."
+   "answer": "Marek Ironheart can be found at the Farstrider Lodge, in the hills along Loch Modan’s south-eastern shore."
   },
   {
    "q": "What kind of tasks does Marek offer?",
@@ -39,7 +39,7 @@
     "marek ironheart quests",
     "marek quests"
    ],
-   "answer": "Marek sends hunters to track and cull local wildlife around the loch, testing their survival skills against dangerous crocolisks."
+   "answer": "Marek sends hunters to track and cull local wildlife around the loch. Dangerous crocolisks test their skill at survival."
   },
   {
    "q": "Is Marek related to any other known dwarves?",
@@ -53,11 +53,11 @@
  "angles": [
   {
    "target": "class:Hunter",
-   "text": "As a hunter, you can see Marek Ironheart’s rugged Farstrider Lodge traditions in his challenges, which test your accuracy and tracking against local wildlife."
+   "text": "As a hunter, you see Marek Ironheart’s Farstrider Lodge traditions in challenges that test your accuracy and tracking against local wildlife."
   },
   {
    "target": "race:Dwarf",
-   "text": "As a dwarf, you can see in Marek the outdoorsman culture cherished by many Khaz Modan dwarves. He chooses the quiet watch of the mountains over Ironforge’s forge fires."
+   "text": "As a dwarf, you see in Marek the outdoorsman culture cherished by many Khaz Modan dwarves. He chooses the mountains’ quiet watch over Ironforge’s forge fires."
   }
  ],
  "keywords": [
@@ -78,5 +78,5 @@
  "attribution": [
   "Marek Ironheart"
  ],
- "style": 1
+ "style": 2
 }

@@ -17,16 +17,16 @@
   "wiki": "Sara Balloo's Plea (quest)",
   "chain": []
  },
- "summary": "In Ironforge, Sara Balloo grieves for her husband, Sully. Unable to face King Magni Bronzebeard, she asks you to carry her appeal to him.",
+ "summary": "In Ironforge, Sara Balloo grieves for Sully and asks you to carry her plea to King Magni Bronzebeard.",
  "sections": [
   {
    "title": "A Widow's Request",
-   "body": "Sara Balloo mourns Sully after receiving the final letter recovered from the waters of the Thandol Span. She wants his sacrifice remembered, so she writes a plea for King Magni Bronzebeard. Grief keeps her from appearing before the throne herself, and she entrusts the sealed letter to you, a champion of the Alliance, to carry it to the king.",
+   "body": "Sara has received Sully’s final letter, recovered from the waters of the Thandol Span. She wants the king to remember his sacrifice, so she writes him a plea. Grief keeps her from appearing before the throne herself. She entrusts the sealed letter to you, a champion of the Alliance, to carry to King Magni Bronzebeard.",
    "spoiler": 0
   },
   {
    "title": "Audience with the King",
-   "body": "King Magni Bronzebeard receives Sara's private plea at the High Seat in Ironforge. He takes note of Khaz Modan's brave defenders and pauses the affairs of state to read the widow's humble appeal. His attention shows the bond he shares with the common dwarves who built and defend his mountain kingdom.",
+   "body": "At the High Seat in Ironforge, King Magni Bronzebeard sets aside the affairs of state to read Sara’s private plea. He takes note of Khaz Modan’s brave defenders. His attention shows his bond with the common dwarves who built and defend his mountain kingdom.",
    "spoiler": 1
   }
  ],
@@ -53,7 +53,7 @@
     "sully balloo",
     "saras husband"
    ],
-   "answer": "Sully Balloo was a dwarf soldier who defended the Thandol Span. He died in fighting along the bridge, leaving a waterlogged letter for his wife."
+   "answer": "Sully Balloo was a dwarf soldier who defended the Thandol Span. He died fighting along the bridge, leaving a waterlogged letter for his wife."
   },
   {
    "q": "Where do I deliver Sara Balloo's Plea?",
@@ -62,7 +62,7 @@
     "king magni location",
     "turn in location"
    ],
-   "answer": "You deliver Sara's plea to King Magni Bronzebeard at the High Seat in the center of Ironforge."
+   "answer": "You deliver Sara’s plea to King Magni Bronzebeard at the High Seat in the center of Ironforge."
   },
   {
    "q": "What happens after King Magni reads the plea?",
@@ -70,7 +70,7 @@
     "quest continuation",
     "next quest"
    ],
-   "answer": "After reading Sara's plea, King Magni honors Sully Balloo, leading to A King's Tribute and the making of a lasting monument."
+   "answer": "After reading Sara’s plea, King Magni honors Sully Balloo, leading to A King's Tribute and the making of a lasting monument."
   },
   {
    "q": "What faction can undertake this task?",
@@ -78,17 +78,17 @@
     "can horde do this",
     "faction requirement"
    ],
-   "answer": "Only members of the Alliance can carry Sara's plea, which concerns dwarven affairs and an audience with King Magni Bronzebeard."
+   "answer": "Only members of the Alliance can carry Sara’s plea, which concerns dwarven affairs and an audience with King Magni Bronzebeard."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "As a dwarf, carrying a grieving widow's plea to your King touches the importance your people place on stonework, lineage, and honoring ancestral sacrifice."
+   "text": "As a dwarf, carrying a grieving widow’s plea to your King touches on the importance your people place on stonework, lineage, and honoring ancestral sacrifice."
   },
   {
    "target": "faction:Alliance",
-   "text": "As a member of the Alliance, you carry word between grieving citizens and Alliance leaders, bearing witness to the personal cost of preserving the realm."
+   "text": "As a member of the Alliance, you carry word between grieving citizens and Alliance leaders. You bear witness to the personal cost of preserving the realm."
   }
  ],
  "keywords": [
@@ -111,5 +111,5 @@
  "attribution": [
   "Sara Balloo's Plea (quest)"
  ],
- "style": 1
+ "style": 2
 }

@@ -8,11 +8,11 @@
   "wiki": "Morgan Pestle",
   "refs": 1
  },
- "summary": "In Stormwind, Morgan Pestle runs Pestle's Apothecary in the Trade District. He works with his brother William Pestle in Goldshire, handling supplies and alchemical research for the capital.",
+ "summary": "At Pestle's Apothecary in Stormwind, Morgan Pestle handles the capital's supplies and alchemical research. He works with his brother William Pestle in Goldshire.",
  "sections": [
   {
    "title": "The City Apothecary",
-   "body": "Morgan Pestle sells alchemical goods, reagents, and practical remedies at Pestle's Apothecary in Stormwind's Trade District. His brother William keeps a workshop at the Lion's Pride Inn in Goldshire, while Morgan tends their family trade in the capital. He receives supplies from the rural heartlands, including candles sent by William.",
+   "body": "Morgan Pestle sells alchemical goods, reagents, and remedies from Pestle's Apothecary in Stormwind's Trade District. His brother William keeps a workshop at the Lion's Pride Inn in Goldshire, while Morgan tends their family trade in the capital. Supplies come from the rural heartlands, including candles William sends north.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "where is morgan pestle",
     "pestle apothecary stormwind"
    ],
-   "answer": "You can find Morgan Pestle inside Pestle's Apothecary in Stormwind City's Trade District."
+   "answer": "Find Morgan Pestle inside Pestle's Apothecary in Stormwind City's Trade District."
   },
   {
    "q": "How is Morgan Pestle related to William Pestle?",
@@ -41,7 +41,7 @@
     "shipment to stormwind morgan",
     "morgan pestle quest"
    ],
-   "answer": "Morgan receives the candles William sends north from Goldshire to Pestle's Apothecary and pays the courier well for delivering them."
+   "answer": "Morgan receives candles William sends north from Goldshire to Pestle's Apothecary. He pays the courier well for delivering them."
   }
  ],
  "angles": [
@@ -51,7 +51,7 @@
   },
   {
    "target": "faction:Alliance",
-   "text": "If you arrive in Stormwind from Elwynn as an Alliance adventurer, Morgan's shop offers practical alchemical supplies and local city deliveries."
+   "text": "As an Alliance adventurer arriving in Stormwind from Elwynn, you can find practical alchemical supplies and local city deliveries at Morgan's shop."
   }
  ],
  "keywords": [
@@ -73,5 +73,5 @@
  "attribution": [
   "Morgan Pestle"
  ],
- "style": 1
+ "style": 2
 }

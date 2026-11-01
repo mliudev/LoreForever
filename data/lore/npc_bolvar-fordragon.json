@@ -8,16 +8,16 @@
   "wiki": "Bolvar Fordragon",
   "refs": 0
  },
- "summary": "Stormwind’s crown and armies rest with Bolvar Fordragon while King Varian is missing. As Regent and Supreme Commander of Stormwind’s armed forces, he stands beside young King Anduin in Stormwind Keep and tries to hold the kingdom together. Domestic troubles grow, while Lady Katrana Prestor’s counsel often delays his military decisions.",
+ "summary": "In Stormwind Keep, Bolvar Fordragon holds the crown and armies while King Varian is missing. As Regent and Supreme Commander of Stormwind’s armed forces, he stands beside young King Anduin and struggles to hold the kingdom together. Troubles at home grow, while Lady Katrana Prestor’s counsel often delays his military decisions.",
  "sections": [
   {
    "title": "Regent of the Realm",
-   "body": "King Varian vanished on the way to a peace summit on Theramore Isle, leaving Stormwind in political disarray. Ten-year-old Prince Anduin was crowned to preserve continuity, while Highlord Bolvar Fordragon took up the work of ruling as Regent. A venerated paladin devoted to the crown, Bolvar now faces a kingdom under strain. Stormwind’s soldiers are spread thin across Westfall, Redridge, and Duskwood. Lady Katrana Prestor’s dismissive counsel adds to the burden, repeatedly blocking him from sending royal troops to towns on the frontier.",
+   "body": "King Varian vanished while traveling to a peace summit on Theramore Isle, leaving Stormwind in disarray. Ten-year-old Prince Anduin was crowned to preserve continuity, and Highlord Bolvar Fordragon took up the work of ruling as Regent.\n\nA venerated paladin devoted to the crown, Bolvar now faces a kingdom under strain. Stormwind’s soldiers are spread thin across Westfall, Redridge, and Duskwood. Lady Katrana Prestor dismisses his concerns and repeatedly blocks him from sending royal troops to frontier towns.",
    "spoiler": 0
   },
   {
    "title": "A Web of Deceit",
-   "body": "Town magistrates and frontier marshals plead for reinforcements against the Defias Brotherhood and Blackrock orcs, but Lady Prestor quietly shapes royal decrees and belittles every report of danger. Bolvar respects the counsel of the nobility and hesitates to act without undeniable proof. Unwittingly, he leaves the crown unable to act. When compelling evidence arrives, such as warnings from investigators in Theramore or news of missing field officers, the Regent sets aside court custom and turns to independent adventurers.",
+   "body": "Town magistrates and frontier marshals plead for reinforcements against the Defias Brotherhood and Blackrock orcs. Lady Prestor quietly shapes royal decrees and belittles every report of danger. Bolvar respects the counsel of the nobility, so he hesitates to act without undeniable proof. Unwittingly, he leaves the crown unable to act.\n\nWhen compelling evidence arrives, the Regent sets court custom aside. Warnings from investigators in Theramore or news of missing field officers can move him to turn to independent adventurers.",
    "spoiler": 1
   }
  ],
@@ -29,7 +29,7 @@
     "why is bolvar in charge",
     "who is the regent"
    ],
-   "answer": "King Varian Wrynn disappeared under suspicious circumstances while sailing to a diplomatic summit at Theramore Isle. His ten-year-old son Anduin was crowned to preserve political order, while Highlord Bolvar Fordragon became Regent, governing the kingdom and commanding its armies until Varian is found."
+   "answer": "King Varian Wrynn disappeared under suspicious circumstances while sailing to a diplomatic summit at Theramore Isle. His ten-year-old son Anduin was crowned to preserve political order. Highlord Bolvar Fordragon became Regent, governing the kingdom and commanding its armies until Varian is found."
   },
   {
    "q": "Why won't Bolvar send soldiers to help Redridge or Westfall?",
@@ -89,5 +89,5 @@
  "attribution": [
   "Bolvar Fordragon"
  ],
- "style": 1
+ "style": 2
 }

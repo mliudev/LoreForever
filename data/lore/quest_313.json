@@ -17,16 +17,16 @@
   "wiki": "The Grizzled Den (quest)",
   "chain": []
  },
- "summary": "In Dun Morogh, Pilot Stonegear tests a recruit's grit in the Grizzled Den. From Steelgrill's Depot near Kharanos, he sends them west to hunt wendigos for thick pelts to warm his siege engine, Trollplow.",
+ "summary": "At Steelgrill's Depot near Kharanos, Pilot Stonegear sends you west to hunt wendigos in the Grizzled Den. Their thick pelts will warm his siege engine, Trollplow.",
  "sections": [
   {
    "title": "A Test of Grit",
-   "body": "Pilot Stonegear, stationed at Steelgrill's Depot near Kharanos, claims to have the nerves and constitution needed to operate a massive dwarven siege tank in freezing mountain air. He makes newcomers prove they share his grit. The test sends them into the frozen hills to face the native beasts.",
+   "body": "Stonegear tests newcomers before he trusts them with the work. A massive siege tank is hard to operate in freezing mountain air. It takes nerves of iron and a steady constitution. Face the native beasts in the frozen hills to prove you have both.",
    "spoiler": 0
   },
   {
    "title": "Creature Comforts in Trollplow",
-   "body": "Pilot Stonegear's siege engine bears the name Trollplow, and its iron-plated cabin is cramped and cold in Dun Morogh's bitter climate. He seeks a practical remedy in wendigo pelt. Thick manes from the ferocious wendigos of the Grizzled Den can make a warm, durable rug for Trollplow's deck, while helping keep the local beasts in check.",
+   "body": "Dun Morogh's bitter cold bites through Trollplow's cramped, iron-plated cabin. Stonegear wants thick wendigo manes for a warm, durable rug on the engine's deck. The hunt also helps keep the local beasts in check.",
    "spoiler": 0
   }
  ],
@@ -47,7 +47,7 @@
     "where is wendigo cave",
     "how to find grizzled den"
    ],
-   "answer": "The Grizzled Den lies in the snow-covered mountains directly west of Kharanos. Its caves are a lair for Dun Morogh's vicious wendigos."
+   "answer": "The Grizzled Den lies in the snow-covered mountains directly west of Kharanos. Its caves shelter Dun Morogh's vicious wendigos."
   },
   {
    "q": "Why does Stonegear want wendigo manes?",
@@ -56,7 +56,7 @@
     "purpose of manes",
     "what are manes for"
    ],
-   "answer": "Stonegear wants wendigo fur to make a warm rug for Trollplow's interior deck. Gathering the pelts also tests an adventurer's bravery."
+   "answer": "Stonegear wants wendigo fur for a warm rug on Trollplow's interior deck. Gathering the pelts also tests an adventurer's bravery."
   },
   {
    "q": "What is Trollplow?",
@@ -81,7 +81,7 @@
     "are wendigos a threat",
     "wendigo danger"
    ],
-   "answer": "Wendigos rarely organize attacks like the Frostmane trolls, but their violent ferocity and nearness to the main roads put travelers and local tradesfolk at risk."
+   "answer": "Wendigos rarely organize attacks like the Frostmane trolls. Yet their violent ferocity and nearness to the main roads put travelers and local tradesfolk at risk."
   }
  ],
  "angles": [
@@ -116,5 +116,5 @@
  "attribution": [
   "The Grizzled Den (quest)"
  ],
- "style": 1
+ "style": 2
 }

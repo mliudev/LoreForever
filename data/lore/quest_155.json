@@ -17,16 +17,16 @@
   "wiki": "The Defias Brotherhood (6)",
   "chain": []
  },
- "summary": "In Westfall, the People's Militia seeks the Defias Brotherhood's hidden base. A turncoat agrees to guide Alliance champions there in exchange for protection. The road passes through Moonbrook, where Edwin VanCleef's inner sanctum lies hidden.",
+ "summary": "In Westfall, the People's Militia seeks the Defias Brotherhood's hidden base. A captured brigand will guide you there in exchange for protection, leading through Moonbrook to Edwin VanCleef's inner sanctum.",
  "sections": [
   {
    "title": "A Turncoat's Bargain",
-   "body": "Gryan Stoutmantle's fight against the Defias Brotherhood reaches a turning point when a captured brigand agrees to talk. His former brothers may execute or assassinate him, so the Defias Traitor bargains with the People's Militia. Escort him safely through hostile territory, and he will reveal where Edwin VanCleef and his ringleaders hide. The thieves' network silences those who speak out, and the turncoat needs armed protection along the road.",
+   "body": "The Defias Traitor fears execution or assassination by his former brothers. So he bargains with the People's Militia: escort him safely through hostile territory, and he will reveal where Edwin VanCleef and his ringleaders hide. The thieves' network silences those who speak out, and the turncoat needs armed protection along the road.",
    "spoiler": 0
   },
   {
    "title": "The Road Through Moonbrook",
-   "body": "The route to the hideout runs southwest from Sentinel Hill into Moonbrook, a township overrun by the Brotherhood. The traitor leads his protectors past the abandoned town square and fountain, drawing the anger of brigands, looters, and highwaymen who patrol the ruins. He guides the way to the entrance of the sprawling Deadmines beneath Moonbrook, where VanCleef has fortified an underground stronghold.",
+   "body": "The traitor leads you southwest from Sentinel Hill into Moonbrook, a township overrun by the Brotherhood. He guides you past the abandoned town square and fountain, drawing the anger of brigands, looters, and highwaymen who patrol the ruins. Then he leads you to the entrance of the sprawling Deadmines beneath Moonbrook, where VanCleef has fortified an underground stronghold.",
    "spoiler": 1
   }
  ],
@@ -47,7 +47,7 @@
     "traitor path",
     "where does he go"
    ],
-   "answer": "He leads you southwest from Sentinel Hill into Moonbrook, through the ruined town square and past the fountain, to the Deadmines entrance beneath the town."
+   "answer": "He leads you southwest from Sentinel Hill into Moonbrook, past the ruined town square and fountain, to the Deadmines entrance beneath the town."
   },
   {
    "q": "Why does Gryan Stoutmantle need this information?",
@@ -88,15 +88,15 @@
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "For the embattled People's Militia, finding the hideout is a major military breakthrough and the first real chance to strike a decisive blow against Westfall's criminal insurgency."
+   "text": "For the embattled People's Militia, finding the hideout is a major military breakthrough and their first real chance to strike a decisive blow against Westfall's criminal insurgency."
   },
   {
    "target": "class:Rogue",
-   "text": "As a rogue, you see the price of betrayal in the criminal underworld, where broken vows are answered with daggers."
+   "text": "As a rogue, you know the price of betrayal in the criminal underworld, where broken vows are answered with daggers."
   },
   {
    "target": "race:Human",
-   "text": "As a human of Stormwind, you see Moonbrook fallen to lawlessness and occupied by former Stonemasons, a sign of how deeply the kingdom has fractured since the Third War."
+   "text": "As a human of Stormwind, you see Moonbrook fallen to lawlessness and occupied by former Stonemasons. It shows how deeply the kingdom has fractured since the Third War."
   }
  ],
  "keywords": [
@@ -123,5 +123,5 @@
  "attribution": [
   "The Defias Brotherhood (6)"
  ],
- "style": 1
+ "style": 2
 }

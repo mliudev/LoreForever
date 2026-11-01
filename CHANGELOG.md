@@ -7,37 +7,41 @@ wrap long bullets with an indented continuation line.
 
 ## Unreleased
 
+## 0.35.0 (2026-11-01)
+
+- **The lore, retold:** the stories of the starting lands and the zones after them are rewritten and read anew in both narrators' voices, and a story no longer opens by repeating its summary. More zones follow.
+
+- **Willo cheers your big moments:** a new level, a quest you carried a long time, an epic or your first mount gets one short, cheery line from her, never in a fight. Ask her to chime in more, less or not at all.
+
+- **Willo is quieter while you play:** she no longer drops lore remarks on her own; ask her to chime in more to bring them back.
+
+- **Willo for Mac:** Willo now comes for Mac as well as Windows.
+
+- **Willo works without the add-on:** she finds your game by herself, answers from the first second, typed or out loud, and fixes the add-on in one click when it isn't loading.
+
+- **Willo changes things your way:** ask her to change her color, size, voice or keys and she does it with Undo, or have her ask first. Her talk key works anywhere, and she answers out loud sooner.
+
+- **Azeroth Survivors picks:** Willo picks your cards by the numbers, weighs your whole build, plans ahead and tells you when to reroll or banish.
+
+- **Translations and fixes:** French, German, Spanish and Portuguese lore uses your game's own names in more places, and 28 lore entries are corrected.
+
 ## 0.31.0 (2026-10-28)
 
-- **Downloads page, smoother:** where Setup can't install a language's voices yet, that card's button goes straight to CurseForge. The three buttons line up, and Willo's card turns dark in dark mode.
+- **The rewritten lore is read aloud again:** the places, people, items and quests that were rewritten tell their new story in both narrators' voices, and their hidden passages are recorded too.
 
-- Corrected lore in 3 entries.
+- **Quest givers pause between sentences:** the quest-giver voices no longer rush, with a natural breath at the end of each sentence.
 
-- Corrected lore in 18 entries.
+- **Willo knows your Azeroth Survivors build:** she reads your save (talents, gear, perks, zones won) so her picks fit the build you have.
 
-- Corrected lore in 12 entries.
+- **Willo on stream:** her chat popup over the game now shows in your OBS Browser Source, and closing it removes it from the stream.
 
-- **Willo on stream:** her new chat popup over the game now appears in the existing OBS Browser Source, including on scaled displays.
-  Closing it removes it from the stream. Only the popup itself is captured.
+- **Playlist opens from every page,** even while a story page, History or the Road is open.
 
 - **Pack names you can read:** Ukrainian and Russian packs show their English names in Options unless your game font can draw the native ones.
 
-- **Playlist opens from every page:** the Playlist button now opens your queue even while a story page, History or the Road is open.
+- **Downloads page, smoother:** voice cards Setup can't install yet go straight to CurseForge, and Willo's card turns dark in dark mode.
 
-- **Quest givers pause between sentences:** the quest-giver voices no longer rush. Thousands of lines now leave
-  a natural breath at the end of each sentence.
-
-- **The rewritten lore is read aloud again:** the places, people, items and quests that were rewritten tell their new story in both narrators' voices, and their hidden passages are recorded too.
-
-- **The rewritten lore is read aloud again:** the places, people, items and quests that were rewritten tell their new story in both narrators' voices, and their hidden passages are recorded too.
-
-- **The rewritten lore is read aloud again:** the places, people, items and quests that were rewritten tell their new story in both narrators' voices, and their hidden passages are recorded too.
-
-- **The rewritten lore is read aloud again:** the places, people, items and quests that were rewritten tell their new story in both narrators' voices, and their hidden passages are recorded too.
-
-- **The rewritten lore is read aloud again:** the places, people, items and quests that were rewritten tell their new story in both narrators' voices, and their hidden passages are recorded too.
-
-- **Willo knows your Azeroth Survivors build:** over the game she reads your save on your PC (your talents, gear, zones won, perks and the jewelry you've found) and remembers what she saw earlier in the run, so her picks fit the build you have.
+- Corrected lore in 33 entries.
 
 ## 0.30.0 (2026-10-27)
 

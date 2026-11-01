@@ -8,11 +8,11 @@
   "wiki": "Suzetta Gallina",
   "refs": 1
  },
- "summary": "At the Gallina Winery in Stormwind City, Suzetta Gallina tends the family wine business.",
+ "summary": "At the Gallina Winery in Stormwind City, Suzetta Gallina tends her family's wine trade.",
  "sections": [
   {
    "title": "A Taste of the Canals",
-   "body": "Suzetta Gallina helps run the Gallina Winery along Stormwind's Canals. The shop offers wines imported from across the kingdom or crafted there. Her family supplies taverns, nobles, and common folk. Suzetta is no figure in high politics, but her work keeps the capital's trade moving through troubled times.",
+   "body": "Along Stormwind's Canals, Suzetta Gallina helps run the Gallina Winery. Its shelves hold wines brought from across the kingdom and wines made there. The family supplies taverns, nobles, and common folk. Her work keeps the capital's trade moving through troubled times.",
    "spoiler": 0
   }
  ],
@@ -42,13 +42,13 @@
     "gallina wine quest",
     "wine shop advert"
    ],
-   "answer": "Suzetta does not offer work directly. Her brother Renato gives out Wine Tickets; bring one to her at the Gallina Winery to receive a complimentary bottle of the family's special pinot noir."
+   "answer": "Suzetta does not offer work directly. Her brother Renato gives out Wine Tickets. Bring one to her at the Gallina Winery to receive a complimentary bottle of the family's special pinot noir."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance traveler returning from the dangers of Elwynn or Westfall, a stop at Suzetta's shop offers a reminder of peaceful life in the capital."
+   "text": "As an Alliance traveler returning from the dangers of Elwynn or Westfall, a stop at Suzetta's shop offers a glimpse of peaceful life in the capital."
   }
  ],
  "keywords": [
@@ -67,5 +67,5 @@
  "attribution": [
   "Suzetta Gallina"
  ],
- "style": 1
+ "style": 2
 }

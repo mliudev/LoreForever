@@ -17,16 +17,16 @@
   "wiki": "Nip 'Em in the Bud",
   "chain": []
  },
- "summary": "Nip 'Em in the Bud is a mission directed by Earthseer Farsen to eliminate Dark Iron spies infiltrating Dun Morogh. The clandestine operatives have been spotted lurking near Ironband's Compound, threatening the security of the Bronzebeard homeland.",
+ "summary": "Dark Iron spies move through Dun Morogh, and Earthseer Farsen calls for help. Near Ironband's Compound, their presence threatens the Bronzebeard homeland.",
  "sections": [
   {
    "title": "Eyes in the Cold",
-   "body": "Dun Morogh has long been a fortified sanctuary for the Ironforge dwarves, but the ancient enmity between the dwarven clans never truly sleeps. Dark Iron infiltrators have slipped through the high passes and snowy crags, skulking suspiciously close to vital excavations and settlements. Earthseer Farsen recognizes that even a few hidden observers can presage a devastating strike, calling on stalwart defenders of the Alliance to root them out before their schemes take hold.",
+   "body": "Dark Iron spies have crossed Dun Morogh's high passes and snowy crags. They hide near settlements and excavations, where even a few watchers may signal a strike. Earthseer Farsen sees the danger and calls on Alliance defenders to find them before their plans advance.",
    "spoiler": 0
   },
   {
    "title": "Threat Near Ironband's Compound",
-   "body": "The spies have concentrated their prowling around Ironband's Compound, an important site in eastern Dun Morogh. While Farsen cannot initially discern their exact motives, dispatching the covert agents reveals physical proof of their larger design. Searching the defeated scouts uncovers an Underground Map, confirming that their trespassing is no mere scouting expedition, but preparation tied to ancient beneath-ground secrets like the Hall of Thanes.",
+   "body": "The spies gather near Ironband's Compound in eastern Dun Morogh. Earthseer Farsen does not know their purpose at first. Searching the scouts reveals an Underground Map, proof that they prepare for more than watching the area. Their plans reach toward ancient secrets below ground, including the Hall of Thanes.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "who starts nip em in the bud",
     "farsen quest"
    ],
-   "answer": "The quest is offered by Earthseer Farsen following the task Farsen's Watch, calling for aid in dealing with intruders in Dun Morogh."
+   "answer": "After you complete Farsen's Watch, Earthseer Farsen calls for aid against intruders in Dun Morogh."
   },
   {
    "q": "Why are Dark Iron spies in Dun Morogh?",
@@ -47,7 +47,7 @@
     "what are dark irons doing in dun morogh",
     "ironband dark iron spies"
    ],
-   "answer": "The Dark Iron clan constantly schemes against their Bronzebeard cousins. Infiltrating eastern Dun Morogh allows their operatives to surveil settlements and excavate or scout buried subterranean passages near Ironband's Compound."
+   "answer": "The Dark Iron clan schemes against its Bronzebeard cousins. Its spies watch settlements in eastern Dun Morogh and may excavate or scout buried passages near Ironband's Compound."
   },
   {
    "q": "Where are the Dark Iron spies located?",
@@ -56,7 +56,7 @@
     "where are dark iron spies",
     "where to find spies"
    ],
-   "answer": "They are concentrated to the east near Ironband's Compound in eastern Dun Morogh, keeping watch from the snowy perimeter."
+   "answer": "The spies gather near Ironband's Compound in eastern Dun Morogh, watching from the snowy perimeter."
   },
   {
    "q": "What leads into this task?",
@@ -65,7 +65,7 @@
     "what comes before nip em in the bud",
     "nip em in the bud prequest"
    ],
-   "answer": "This assignment follows after reporting in for Farsen's Watch, stepping up defensive efforts from mere observation to active eradication."
+   "answer": "You come here after reporting for Farsen's Watch. The defenses shift from watching for intruders to hunting them."
   },
   {
    "q": "What is uncovered while hunting these spies?",
@@ -74,7 +74,7 @@
     "dark iron map drop",
     "next quest after nip em in the bud"
    ],
-   "answer": "Slain spies yield a Dark Iron Map, which begins the quest Underground Map and points toward deeper secrets tied to the Hall of Thanes."
+   "answer": "The fallen spies carry a Dark Iron Map. It begins with the words “Underground Map” and points toward secrets tied to the Hall of Thanes."
   },
   {
    "q": "Who is Earthseer Farsen?",
@@ -82,17 +82,17 @@
     "who is farsen",
     "earthseer farsen lore"
    ],
-   "answer": "Earthseer Farsen is an observant dwarf stationed in Dun Morogh who monitors unusual seismic and hostile clan movements across the snowy mountains."
+   "answer": "Earthseer Farsen is a dwarf in Dun Morogh who watches for unusual seismic activity and hostile clan movements in the mountains."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "For Bronzebeard dwarves, purging Dark Iron infiltrators from their ancestral mountains is a matter of home defense and lingering clan vengeance."
+   "text": "As a Bronzebeard dwarf, driving Dark Iron spies from your ancestral mountains means defending your home and answering old clan grudges."
   },
   {
    "target": "faction:Alliance",
-   "text": "Neutralizing enemy scouts in Dun Morogh keeps Ironforge's vital supply lines and surrounding outposts safe from sabotage."
+   "text": "As an Alliance member, stopping enemy scouts in Dun Morogh helps keep Ironforge's supply lines and nearby outposts safe from sabotage."
   }
  ],
  "keywords": [
@@ -114,5 +114,6 @@
  ],
  "attribution": [
   "Nip 'Em in the Bud"
- ]
+ ],
+ "style": 2
 }

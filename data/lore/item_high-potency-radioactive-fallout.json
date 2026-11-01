@@ -10,16 +10,16 @@
    "quest:2962"
   ]
  },
- "summary": "In Gnomeregan's lower depths, researchers seek a potent sample of radioactive fallout. They hope to learn how the sludge afflicted the leper gnomes and find a cure.",
+ "summary": "In Gnomeregan's depths, researchers seek potent radioactive fallout. They hope to learn how the sludge afflicted the leper gnomes and find a cure.",
  "sections": [
   {
    "title": "Straight from the Tap",
-   "body": "Deep in the Hall of Gears, irradiated horrors, lurkers, and slimes move through the lowest tiers of Gnomeregan. Researchers outside the fallen capital need fallout drawn from these living creatures. Samples scraped from contaminated scavengers outside are too weak for their work. The sludge decays quickly, so it must go into a leaden phial and reach the researchers before it loses its potency.",
+   "body": "Deep in the Hall of Gears, irradiated horrors, lurkers, and slimes roam Gnomeregan's lowest tiers. Researchers outside the fallen capital need fallout drawn from these living creatures. Samples scraped from contaminated scavengers outside are too weak for their work.\n\nThe sludge decays quickly. It must be sealed in a leaden phial and reach the researchers before its potency fades.",
    "spoiler": 0
   },
   {
    "title": "A Search for Restoration",
-   "body": "Ozzie Togglevolt and his colleagues seek a cure for the leper gnomes. They believe the secrets of the irradiated sludge may point the way. During the trogg invasion, toxic venting deformed and drove these survivors mad. They remain trapped in a living nightmare, and the researchers consider dangerous expeditions into the ruins worth the risk.",
+   "body": "Ozzie Togglevolt and his colleagues seek a cure for the leper gnomes. They believe the secrets of the irradiated sludge may show them the way. During the trogg invasion, toxic venting deformed these survivors and drove them mad.\n\nThe leper gnomes remain trapped in a living nightmare. For the researchers, dangerous expeditions into the ruins are worth the risk.",
    "spoiler": 0
   }
  ],
@@ -68,7 +68,7 @@
   },
   {
    "target": "profession:Engineering",
-   "text": "Volatile fallout decays quickly, so it must be carried in purpose-built leaden phials to shield you from exposure."
+   "text": "Volatile fallout decays quickly, so carry it in purpose-built leaden phials to shield yourself from exposure."
   }
  ],
  "keywords": [
@@ -94,5 +94,5 @@
   "High Potency Radioactive Fallout",
   "The Only Cure is More Green Glow"
  ],
- "style": 1
+ "style": 2
 }

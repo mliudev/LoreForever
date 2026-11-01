@@ -8,21 +8,21 @@
   "wiki": "Grif Wildheart",
   "refs": 6
  },
- "summary": "Outside the Thunderbrew Distillery in Kharanos, Grif Wildheart trains young hunters. He teaches tracking, marksmanship, and how to tame beasts, guiding hunters from Coldridge Valley toward life alongside an animal companion.",
+ "summary": "Outside the Thunderbrew Distillery in Kharanos, Grif Wildheart guides young hunters toward life with a beast companion. He teaches tracking, marksmanship, and how to tame beasts to hunters arriving from Coldridge Valley.",
  "sections": [
   {
    "title": "A Life in the Wilds",
-   "body": "Grif Wildheart has spent his life in Dun Morogh’s frozen wilds. Ironforge dwarves often choose the forge or the mines, while local mountaineers say Grif spends too much time among four-legged beasts. None question his command of the wild. Years of tracking snowbound ridges with seasoned hunting companions have taught him the ways of the predators roaming the crags.",
+   "body": "Grif Wildheart has spent his life in Dun Morogh’s frozen wilds. While many Ironforge dwarves choose the forge or the mines, local mountaineers say he spends too much time among four-legged beasts. Still, none question his command of the wild. Years spent tracking snowbound ridges with seasoned hunting companions have taught him the ways of the predators among the crags.",
    "spoiler": 0
   },
   {
    "title": "The Way of the Beast",
-   "body": "Young dwarf hunters finish their first trials in Coldridge Valley, then travel to Kharanos for Grif’s guidance. He sharpens their aim and teaches them to survive in the wild, but his true craft is joining hunter and beast. He sends pupils into Dun Morogh’s freezing wastes with a taming rod, where they face Large Crag Boars, Snow Leopards, and Ice Claw Bears.",
+   "body": "Young dwarf hunters finish their first trials in Coldridge Valley, then travel to Kharanos for Grif’s guidance. He sharpens their aim and teaches them to survive in the wild. His deepest craft, though, is joining hunter and beast. He sends his pupils into Dun Morogh’s freezing wastes with a taming rod to face Large Crag Boars, Snow Leopards, and Ice Claw Bears.",
    "spoiler": 0
   },
   {
    "title": "Journey to the Hall of Arms",
-   "body": "After a hunter calms three kinds of wild beasts, Grif’s training in Kharanos is complete. A hunter must also learn to feed, discipline, and train a new companion, so Grif sends his graduates up the mountainside to Ironforge. Beneath the capital’s vaulted roofs, they report to master beast trainers and learn to care for a companion meant to stay with them for life.",
+   "body": "Once a hunter has calmed three kinds of wild beasts, Grif’s training in Kharanos is complete. A hunter must also learn to feed, discipline, and train a new companion. So Grif sends his graduates up the mountainside to Ironforge. Beneath the capital’s vaulted roofs, they report to master beast trainers and learn to care for a companion meant to stay with them for life.",
    "spoiler": 0
   }
  ],
@@ -52,7 +52,7 @@
     "grif hunter training",
     "grif skills"
    ],
-   "answer": "Grif teaches young hunters to improve their aim, survive in the wild, and tame beasts. His lessons cover wild boars, leopards, and bears."
+   "answer": "Grif teaches young hunters to sharpen their aim, survive in the wild, and tame beasts. His lessons include wild boars, leopards, and bears."
   },
   {
    "q": "What beasts does Grif send hunters to tame?",
@@ -61,7 +61,7 @@
     "which animals to tame dun morogh",
     "taming the beast targets"
    ],
-   "answer": "Grif sends hunters to tame a Large Crag Boar, a Snow Leopard, and an Ice Claw Bear in Dun Morogh."
+   "answer": "Grif sends hunters into Dun Morogh to tame a Large Crag Boar, a Snow Leopard, and an Ice Claw Bear."
   },
   {
    "q": "Where does Grif send hunters after completing their taming trials?",
@@ -70,7 +70,7 @@
     "training the beast next step",
     "grif follow up quest"
    ],
-   "answer": "After the taming trials, Grif sends hunters to Ironforge to learn from advanced beast trainers how to feed and command their pets."
+   "answer": "After their taming trials, hunters go to Ironforge. There, advanced beast trainers teach them to feed and command their companions."
   },
   {
    "q": "What do the Ironforge mountaineers think of Grif?",
@@ -79,13 +79,13 @@
     "is grif respected",
     "grif reputation"
    ],
-   "answer": "Local Ironforge Mountaineers say Grif spends too much time with animals, but they readily admit he knows the hunter’s craft better than almost anyone."
+   "answer": "Local Ironforge Mountaineers say Grif spends too much time with animals. Yet they readily admit he knows the hunter’s craft better than almost anyone."
   }
  ],
  "angles": [
   {
    "target": "class:Hunter",
-   "text": "As a hunter, you learn beast taming from Grif and gain the chance to bond with wild predators across Dun Morogh."
+   "text": "As a hunter, you learn to tame beasts from Grif and can bond with wild predators across Dun Morogh."
   },
   {
    "target": "race:Dwarf",
@@ -119,5 +119,5 @@
  "attribution": [
   "Grif Wildheart"
  ],
- "style": 1
+ "style": 2
 }

@@ -274,6 +274,8 @@ local frame, cores, dims, sockets, halos, guides, mists, wisp, motes = nil, {}, 
 local placed, shown, lit = nil, {}, {}
 local moving, mover, outline = false, nil, nil   -- being moved (Sky.Move), its bar and its outline
 local dragging = false                            -- held by the mouse right now (OnDragStart until it's let go)
+local hiddenNow, fade = false, 1                  -- Sky.SetHidden, Sky.SetFade
+local function alpha() if frame then frame:SetAlpha(hiddenNow and 0 or fade) end end
 
 -- One of our textures on the sky: tinted, at a draw layer, blended over (BLEND) or as added light (ADD). Off the pixel
 -- grid, so a glow centred between pixels stays centred (the cores the companion reads are placed on whole pixels).
@@ -487,7 +489,7 @@ end
 -- Paint these 45 bytes (Strip.Payload) into the stars, and the outer ring's 5 (Strip.SetRing; nil: nothing), and put
 -- the sky where it goes now.
 function Sky.Paint(bytes, ring)
-  if not frame then create() end
+  if not frame then create(); alpha() end
   local left, top, unit, px = Sky.Place()
   if not left then return false end
   if not dragging then
@@ -513,9 +515,17 @@ function Sky.Hide()
   if mover then mover:Hide() end
 end
 
--- Out of the player's own screenshots, like the block (Strip.lua's SCREENSHOT_ events).
-function Sky.SetHidden(hidden)
-  if frame then frame:SetAlpha(hidden and 0 or 1) end
+-- Out of the player's own screenshots, like the block (Strip.lua's SCREENSHOT_ events); faded in and out round a
+-- twinkle for Willo (Sky.SetFade, Strip.Moment). Hidden wins over the fade.
+function Sky.SetHidden(hidden) hiddenNow = hidden and true or false; alpha() end
+function Sky.SetFade(a) fade = math.max(0, math.min(1, a or 1)); alpha() end
+
+-- Make the sky's art now, hidden (it's thousands of textures): out of combat, so a twinkle for Willo doesn't stutter
+-- the game the first time.
+function Sky.Prepare()
+  if frame or (InCombatLockdown and InCombatLockdown()) then return end
+  create()
+  frame:Hide()
 end
 
 -- The screen or the interface changed size: lay out again at the next paint.

@@ -17,21 +17,21 @@
   "wiki": "A Little Slime Goes a Long Way",
   "chain": []
  },
- "summary": "Laris Geardawdle seeks ooze samples from tainted Felwood for his studies in Ironforge. The gnome researcher wants to understand why the Royal Apothecary Society gathers them.",
+ "summary": "In Ironforge, Laris Geardawdle seeks ooze samples from Felwood for his studies. He hopes to learn why the Royal Apothecary Society gathers them and what interests the Undercity's alchemists.",
  "sections": [
   {
    "title": "A Peculiar Obsession",
-   "body": "Laris Geardawdle studies oozes with the Explorers' League. While many of its scholars seek titan relics or dwarven genealogies, he follows a different question. Oozes appear in wetlands, cursed woods, and damp ruins, yet they resist ordinary classification. Laris has seen Forsaken apothecaries collecting slime samples across Lordaeron. He wants to learn what makes these creatures so interesting to alchemists in the Undercity.",
+   "body": "Laris Geardawdle studies oozes with the Explorers' League. Most of its scholars seek titan relics or dwarven genealogies, but these living puddles resist ordinary classification. They appear in wetlands, cursed woods, and damp ruins. Laris has seen Forsaken apothecaries collecting slime across Lordaeron, and wants to know what draws them to it.",
    "spoiler": 0
   },
   {
    "title": "The Primordial Secretion",
-   "body": "Laris believes oozes may be primordial secretions tied to Azeroth's creation, rather than vermin or magical byproducts. To test his theory, he sends scouts across the ocean to Felwood's blighted canopy. There, you gather Cursed and Tainted Oozes in specially made jars.",
+   "body": "Laris believes oozes may be primordial secretions tied to Azeroth's creation. He thinks they are neither vermin nor magical byproducts. To test his theory, you travel across the ocean to Felwood's blighted canopy. There, you gather Cursed and Tainted Oozes in specially made jars.",
    "spoiler": 0
   },
   {
    "title": "Proving Gnomish Worth",
-   "body": "Laris's studies carry a personal weight for many displaced gnomes. After Gnomeregan's devastating fall to radiation and troggs, thousands took refuge in Ironforge's Great Forge. Laris hopes a discovery for the Explorers' League will answer dwarven skeptics and show that welcoming gnomes into the mountain city has become an enduring asset to Alliance science.",
+   "body": "For Laris and many displaced gnomes, these studies carry personal weight. Since Gnomeregan fell to troggs and radiation, thousands have taken refuge in Ironforge's Great Forge. A discovery for the Explorers' League could answer dwarven skeptics. It could show that welcoming gnomes into the mountain city has become an enduring asset to Alliance science.",
    "spoiler": 0
   }
  ],
@@ -61,7 +61,7 @@
     "tainted ooze location",
     "cursed ooze location"
    ],
-   "answer": "You gather samples from Cursed Oozes and Tainted Oozes in Felwood's corrupted forests in northern Kalimdor, using empty glass containers Laris provides."
+   "answer": "You gather samples from Cursed Oozes and Tainted Oozes in Felwood's corrupted forests in northern Kalimdor. You use empty glass containers Laris provides."
   },
   {
    "q": "Why are the Forsaken collecting oozes?",
@@ -87,7 +87,7 @@
     "slime quest follow up",
     "what next after ooze jars"
    ],
-   "answer": "Laris begins testing the specimens in his Ironforge laboratory setup, developing his theories about ooze taxonomy and elemental origins."
+   "answer": "Laris begins testing the specimens in his Ironforge laboratory setup. He develops his theories about ooze taxonomy and elemental origins."
   }
  ],
  "angles": [
@@ -97,7 +97,7 @@
   },
   {
    "target": "race:Dwarf",
-   "text": "As a dwarf, you may favor stone and metal over gelatinous sludge, but the Explorers' League benefits from Laris's unusual drive."
+   "text": "As a dwarf, you may favor stone and metal over gelatinous sludge. The Explorers' League benefits from Laris's unusual drive."
   },
   {
    "target": "faction:Alliance",
@@ -129,5 +129,5 @@
  "attribution": [
   "A Little Slime Goes a Long Way"
  ],
- "style": 1
+ "style": 2
 }

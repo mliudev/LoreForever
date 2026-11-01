@@ -11,16 +11,16 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "Mor'rogal asks you to bring him the glittering sunstones collected by Bloodfury harpies in the Charred Vale. He says the stones hold a connection to the lights of the skies.",
+ "summary": "Mor'rogal asks you to bring him sunstones from the Bloodfury harpies in the Charred Vale. He says they are bound to the lights of the skies.",
  "sections": [
   {
    "title": "Harpies' Stones",
-   "body": "The Bloodfury harpies gather shiny objects, including golden-yellow sunstones. Mor'rogal, up on the hills above you, has mentioned using them. He asks you to bring him any Glittering Sunstones you find.",
+   "body": "The Bloodfury harpies gather shiny things, among them golden-yellow sunstones. Mor'rogal is up on the hills above you and has mentioned using them. He asks you to bring him any Glittering Sunstones you find.",
    "spoiler": 0
   },
   {
    "title": "Light in Stone",
-   "body": "Mor'rogal says the sunstones reflect the sun's majesty and can adorn shrines and homes with small motes of light. At night, the moon gives them its silver beauty. To him, they are a reminder of a bond with the lights of the skies.",
+   "body": "Mor'rogal says sunstones reflect the sun's majesty. They can adorn shrines and homes with small motes of light. At night, the moon lends them its silver beauty. To him, they recall a bond with the lights of the skies.",
    "spoiler": 0
   }
  ],
@@ -32,7 +32,7 @@
     "bloodfury trinkets",
     "what do harpies gather"
    ],
-   "answer": "The Bloodfury harpies collect shiny objects, including golden-yellow sunstones."
+   "answer": "The Bloodfury harpies gather shiny objects, including golden-yellow sunstones."
   },
   {
    "q": "Who wants the sunstones?",
@@ -50,7 +50,7 @@
     "sunstone use",
     "what are stones for"
    ],
-   "answer": "He says they can adorn shrines and homes with small motes of light."
+   "answer": "Mor'rogal says sunstones can adorn shrines and homes with small motes of light."
   },
   {
    "q": "What do the sunstones mean to Mor'rogal?",
@@ -59,7 +59,7 @@
     "lights of skies stones",
     "why are stones special"
    ],
-   "answer": "They remind him of a connection to the lights of the skies."
+   "answer": "The sunstones remind Mor'rogal of a bond with the lights of the skies."
   }
  ],
  "angles": [],
@@ -78,7 +78,7 @@
   "npc:mor-rogal",
   "topic:harpy"
  ],
- "style": 1,
+ "style": 2,
  "attribution": [
   "In-game quest text: Bloodfury Trinkets"
  ]

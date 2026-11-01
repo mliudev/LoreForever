@@ -10,11 +10,11 @@
    "quest:3107"
   ]
  },
- "summary": "In Coldridge Valley, the Consecrated Rune calls fledgling dwarven paladins to Anvilmar. Bromos Grummner sends them to begin their formal duties as Knights of the Silver Hand.",
+ "summary": "At Anvilmar in Coldridge Valley, the Consecrated Rune calls fledgling dwarven paladins to their formal duties as Knights of the Silver Hand.",
  "sections": [
   {
    "title": "A Calling to the Silver Hand",
-   "body": "A Consecrated Rune marks a novice dwarf’s place among the Knights of the Silver Hand. Dwarven paladins receive one in Coldridge Valley after proving basic skill in arms. Sacred words are inscribed on the rune, and the Holy Light blesses it. Bromos Grummner, the paladin trainer inside Anvilmar, sends the rune as an official summons. Dwarves hold great respect for the Holy Light traditions their human allies introduced to them. Reading the rune confirms the novice’s place in the order and marks a passage into its service.",
+   "body": "Among the Knights of the Silver Hand, a Consecrated Rune marks a novice dwarf’s place. Dwarven paladins receive one in Coldridge Valley after proving their basic skill in arms. Sacred words are inscribed upon it, and the Holy Light blesses the rune.\n\nBromos Grummner, the paladin trainer inside Anvilmar, sends it as an official summons. Dwarves greatly respect the Holy Light traditions their human allies introduced to them. Reading the rune confirms a novice’s place in the order and marks the beginning of service.",
    "spoiler": 0
   }
  ],
@@ -80,5 +80,5 @@
   "Consecrated Rune",
   "Consecrated Rune (Classic)"
  ],
- "style": 1
+ "style": 2
 }

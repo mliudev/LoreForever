@@ -20,16 +20,16 @@
    "The Jasperlode Mine"
   ]
  },
- "summary": "Kobolds have overrun The Fargodeep Mine south of Goldshire, between the Stonefield and Maclure farms. The mine's fall points to a growing pest problem across Elwynn Forest.",
+ "summary": "South of Goldshire, Marshal Dughan sends you to scout the kobold-held Fargodeep Mine. It lies between the Stonefield and Maclure farms, and its fall points to trouble beyond its tunnels.",
  "sections": [
   {
    "title": "Trouble South of Goldshire",
-   "body": "While Northshire Valley faces its own vermin, reports reach Goldshire that kobolds have claimed another vital site. Between the feuding Stonefield and Maclure homesteads south of town, the Fargodeep Mine once supplied stone and ore for the realm. Now shrill chattering and tallow candles fill its damp tunnels. Marshal Dughan sends you to scout the depths and learn how bad the trouble is.",
+   "body": "Kobolds have taken the Fargodeep Mine south of Goldshire, between the feuding Stonefield and Maclure homesteads. It once supplied stone and ore for the realm. Now shrill chattering echoes through its damp tunnels, where tallow candles burn. Marshal Dughan sends you to scout the depths and learn how bad the trouble is.",
    "spoiler": 0
   },
   {
    "title": "A Strained Guard",
-   "body": "The report of kobolds in the mine adds to the Stormwind Guard's strain. Its troops are already stretched thin defending against Defias bandits and gnoll incursions, leaving too few to clear the tunnels. When Dughan hears the report, he worries about other mineral sites, including the Jasperlode Mine to the northeast.",
+   "body": "When Dughan hears your report, he worries about other mineral sites, including the Jasperlode Mine to the northeast. The news adds to the Stormwind Guard's strain. Its troops are already stretched thin defending against Defias bandits and gnoll incursions, leaving too few to clear the tunnels.",
    "spoiler": 0
   }
  ],
@@ -87,7 +87,7 @@
  "angles": [
   {
    "target": "profession:Mining",
-   "text": "As a miner, you can find rich copper veins inside the Fargodeep Mine, but territorial kobolds stand in your way."
+   "text": "As a miner, you can find rich copper veins inside the Fargodeep Mine, though territorial kobolds stand in your way."
   },
   {
    "target": "faction:Alliance",
@@ -116,5 +116,5 @@
  "attribution": [
   "The Fargodeep Mine"
  ],
- "style": 1
+ "style": 2
 }

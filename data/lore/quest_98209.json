@@ -14,7 +14,7 @@
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "As a night elf, you can see Nord'el as a precious remnant of Kalimdor's sacred heritage and a sign of Elune's care as the kaldorei adapt to the loss of their immortality."
+   "text": "As a night elf, you can see Nord'el as a precious remnant of Kalimdor's sacred heritage. It is also a sign of Elune's care as the kaldorei adapt to the loss of their immortality."
   },
   {
    "target": "faction:Alliance",
@@ -22,7 +22,7 @@
   },
   {
    "target": "profession:Herbalism",
-   "text": "As an herbalist, you can appreciate the recovery of Nord'el, a sacred flower thought lost for ages that needs cultivation in Darnassus."
+   "text": "As an herbalist, you can appreciate Nord'el's recovery. This sacred flower was thought lost for ages and needs cultivation in Darnassus."
   }
  ],
  "faq": [
@@ -32,7 +32,7 @@
     "nordel flower",
     "sacred bloom"
    ],
-   "answer": "Nord'el is a sacred flower long thought lost by the night elves. Its survival after many years makes it a treasured sign of Elune's favor and nature's resilience.",
+   "answer": "Nord'el is a sacred flower the night elves long thought lost. Its survival after many years is a treasured sign of Elune's favor and nature's resilience.",
    "q": "What is Nord'el?"
   },
   {
@@ -50,7 +50,7 @@
     "thundris windweaver location",
     "auberdine delivery"
    ],
-   "answer": "Bring Nord'el across the sea to Elder Thundris Windweaver in Auberdine, on the coast of Darkshore. A boat sails directly from Menethil Harbor to Auberdine.",
+   "answer": "Carry Nord'el across the sea to Elder Thundris Windweaver in Auberdine, on the coast of Darkshore. A boat sails directly from Menethil Harbor to Auberdine.",
    "q": "Where does Nord'el need to be delivered?"
   },
   {
@@ -68,7 +68,7 @@
     "nord'el darnassus",
     "where does thundris send nord'el"
    ],
-   "answer": "After Nord'el reaches Auberdine, Thundris Windweaver arranges for it to be carried inland to Darnassus, where night elf botanists and priests can nurture and cultivate it.",
+   "answer": "After Nord'el reaches Auberdine, Thundris Windweaver arranges to have it carried inland to Darnassus. There, night elf botanists and priests can nurture and cultivate it.",
    "q": "What will happen to the flower after reaching Auberdine?"
   },
   {
@@ -105,19 +105,19 @@
  ],
  "sections": [
   {
-   "body": "In the Wetlands, Sylessa recovers the legendary flower Nord'el despite an attack by local murlocs. Worn out by her escape, she gives the plant to you for the voyage across the Great Sea to Auberdine. From Menethil Harbor, a boat sails directly to Darkshore, joining the Eastern Kingdoms to northern Kalimdor.",
+   "body": "In the Wetlands, Sylessa recovers Nord'el, the legendary flower, despite an attack by local murlocs. Worn out by her escape, she entrusts the plant to you for its voyage across the Great Sea to Auberdine. From Menethil Harbor, a boat sails directly to Darkshore, linking the Eastern Kingdoms with northern Kalimdor.",
    "spoiler": 0,
    "title": "A Perilous Retrieval"
   },
   {
-   "body": "When you bring Nord'el to Auberdine, Elder Thundris Windweaver is astonished; he believed the sacred bloom had vanished forever. Night elves still bear the cost of giving up their immortality after the Battle of Mount Hyjal, and Nord'el's survival feels like a blessing from Elune. Thundris prepares to send the delicate plant to Darnassus, where it can be cultivated and preserved for future generations.",
+   "body": "When Nord'el reaches Auberdine, Elder Thundris Windweaver is astonished. He believed the sacred bloom had vanished forever. Night elves still bear the cost of surrendering their immortality after the Battle of Mount Hyjal, and Nord'el's survival feels like a blessing from Elune. Thundris prepares to send the delicate plant to Darnassus, where it can be cultivated and preserved for future generations.",
    "spoiler": 0,
    "title": "A Sign of Elune's Grace"
   }
  ],
- "summary": "Across the Great Sea, Nord'el is bound for Auberdine after its recovery in the Wetlands. The flower carries meaning for night elves still grieving the loss of their immortality.",
+ "summary": "Across the Great Sea, Nord'el is bound for Auberdine after its recovery in the Wetlands. For night elves still grieving the loss of their immortality, the flower carries the grace of Elune.",
  "attribution": [
   "In-game quest text: Bloom of the Heavens"
  ],
- "style": 1
+ "style": 2
 }

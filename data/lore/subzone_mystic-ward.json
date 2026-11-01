@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Mystic Ward"
  },
- "summary": "In Ironforge's Mystic Ward, faith and arcane study share the city's quieter quarter. Pale blue banners mark its halls, and the Hall of Mysteries gathers priests, paladins, and mages beneath stone arches.",
+ "summary": "Faith and arcane study share Ironforge's Mystic Ward, a quieter quarter of the city. Pale blue banners mark its halls, and priests, paladins, and mages gather beneath stone arches in the Hall of Mysteries.",
  "sections": [
   {
    "title": "A Sanctuary of Faith and Sorcery",
-   "body": "The Mystic Ward carries Ironforge's quieter pursuits of faith and learning. Pale blue banners mark the quarter between the Commons, the Forlorn Cavern, and the Great Forge. Shops such as The Fighting Wizard and Maeva's Mystical Apparel supply scholars and spellweavers with regalia, scrolls, and alchemical reagents. At the Hall of Mysteries, followers of the Holy Light and practitioners of arcane magic find guidance in wielding powers unseen in defense of the Alliance.",
+   "body": "The Mystic Ward is where Ironforge turns to faith and learning. Pale blue banners mark the quarter between the Commons, the Forlorn Cavern, and the Great Forge. Shops such as The Fighting Wizard and Maeva's Mystical Apparel supply scholars and spellweavers with regalia, scrolls, and alchemical reagents. At the Hall of Mysteries, followers of the Holy Light and arcane practitioners find guidance in wielding unseen powers to defend the Alliance.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "what happens here",
     "mystic ward role"
    ],
-   "answer": "The Mystic Ward brings arcane study and spiritual worship together in Ironforge. Its shops supply spellcasters, while the Hall of Mysteries offers guidance to paladins, priests, and mages."
+   "answer": "The Mystic Ward brings arcane study and spiritual worship together in Ironforge. Its shops supply spellcasters, while the Hall of Mysteries guides paladins, priests, and mages."
   },
   {
    "q": "What is the main building in the Mystic Ward?",
@@ -40,7 +40,7 @@
     "blue banners ironforge",
     "why blue flags"
    ],
-   "answer": "The Mystic Ward's pale blue banners mark the district's focus on contemplation, wisdom, and magical study. Ironforge uses different heraldry across its districts, with martial red in the Military Ward and fiery orange at the Great Forge."
+   "answer": "The Mystic Ward's pale blue banners mark its focus on contemplation, wisdom, and magical study. Ironforge's other districts use different heraldry: martial red in the Military Ward and fiery orange at the Great Forge."
   },
   {
    "q": "Where does the Mystic Ward lead?",
@@ -58,7 +58,7 @@
   },
   {
    "target": "class:Priest",
-   "text": "As a priest, you can find a peaceful haven in the Mystic Ward and its Hall of Mysteries, where dwarven and visiting followers of the Holy Light gather for prayer, guidance, and communion."
+   "text": "As a priest, you can find a peaceful haven in the Mystic Ward and its Hall of Mysteries. Dwarven and visiting followers of the Holy Light gather there for prayer, guidance, and communion."
   }
  ],
  "keywords": [
@@ -82,5 +82,5 @@
  "attribution": [
   "Mystic Ward"
  ],
- "style": 1
+ "style": 2
 }

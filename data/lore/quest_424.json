@@ -23,16 +23,16 @@
    "Arugal's Folly (4)"
   ]
  },
- "summary": "Arugal's Folly is a key quest in the Sepulcher's ongoing campaign against the mad archmage's influence across Silverpine Forest. Dalar Dawnweaver tasks Horde adventurers with infiltrating Deep Elem Mine to execute the corrupted foreman, Grimson the Pale, securing vital mineral wealth for Varimathras's forces.",
+ "summary": "Worgen hold Deep Elem Mine in Silverpine's southeastern hills, keeping the Forsaken from ore needed by Varimathras's forces. Dalar Dawnweaver sends you to slay their corrupted foreman, Grimson the Pale, and carry his head to the Sepulcher.",
  "sections": [
   {
    "title": "Securing the Depths",
-   "body": "While unraveling the dark enchantments Archmage Arugal unleashed upon the forest, Dalar Dawnweaver receives urgent intelligence from the Forsaken Darkstalkers. The feral sorcery spreading from Shadowfang Keep has reached the Deep Elem Mine in the southeastern hills, where worgen now make their lair. The mine holds crucial ore needed to fuel Undercity's militarization, but its current occupants render it completely unusable.",
+   "body": "Dalar Dawnweaver learns from the Forsaken Darkstalkers that worgen have reached Deep Elem Mine in Silverpine's southeastern hills. Their feral sorcery spread from Shadowfang Keep, where Archmage Arugal unleashed dark enchantments across the forest. Ore from the mine is needed to arm the Undercity. But worgen now make their lair in its shafts, and the mine lies unusable.",
    "spoiler": 0
   },
   {
    "title": "The Severed Head",
-   "body": "At the heart of the infested shafts lurks Grimson the Pale, the tainted foreman who directs the mad remnant within the subterranean tunnels. Dawnweaver orders an immediate decapitation strike: with Grimson slain and his head returned to the Sepulcher, the worgen in the shafts will lose their leader, allowing Forsaken laborers to claim the excavation for Lord Varimathras.",
+   "body": "Grimson the Pale leads the worgen through the mine's infested shafts. Dalar Dawnweaver orders you to slay the corrupted foreman and bring his head to the Sepulcher. With Grimson gone, the worgen will lose their leader, and Forsaken laborers can claim the mine for Lord Varimathras.",
    "spoiler": 0
   }
  ],
@@ -44,7 +44,7 @@
     "who is grimson",
     "deep elem foreman"
    ],
-   "answer": "Grimson the Pale is the foreman of Deep Elem Mine. Like many laborers and residents in southern Silverpine, he fell under the corrupting magical influence radiating from Archmage Arugal's experiments, becoming a twisted figure overseeing an infested subterranean den."
+   "answer": "Grimson the Pale is the foreman of Deep Elem Mine. Like many laborers and residents in southern Silverpine, he was corrupted by magic from Archmage Arugal's experiments. Now he oversees a den overrun by worgen."
   },
   {
    "q": "Where is the Deep Elem Mine located?",
@@ -53,7 +53,7 @@
     "where is deep elem",
     "where to find grimson"
    ],
-   "answer": "Deep Elem Mine lies in the craggy hills southeast of the Sepulcher in Silverpine Forest. Its tunnels cut deep into the hillside, teeming with worgen."
+   "answer": "Deep Elem Mine lies in the craggy hills southeast of the Sepulcher in Silverpine Forest. Its tunnels run deep into the hillside and teem with worgen."
   },
   {
    "q": "Why does Varimathras care about a mining operation?",
@@ -61,7 +61,7 @@
     "why varimathras want mine",
     "varimathras interest"
    ],
-   "answer": "Varimathras oversees the strategic expansion of Forsaken power. High-yield resources like iron and stone from Deep Elem Mine are vital for arming troops and reinforcing fortresses throughout Lordaeron."
+   "answer": "Varimathras oversees the strategic expansion of Forsaken power. The mine's high-yield iron and stone are vital to arming troops and reinforcing fortresses throughout Lordaeron."
   },
   {
    "q": "What happens after Grimson is slain?",
@@ -70,7 +70,7 @@
     "what next",
     "next quest"
    ],
-   "answer": "Dalar Dawnweaver takes Grimson's head as proof of victory and turns his focus back to the primary threat, preparing to strike directly at the core of Arugal's encroaching presence."
+   "answer": "Dalar Dawnweaver takes Grimson's head as proof of victory. Then he turns his attention to Arugal's spreading influence and prepares to strike at its heart."
   },
   {
    "q": "What kind of magic corrupted the mine?",
@@ -79,7 +79,7 @@
     "what corrupted deep elem",
     "mine curse"
    ],
-   "answer": "Archmage Arugal unleashed wild otherworldly magic and worgen curses across Silverpine. That magic spread into Deep Elem Mine, tainting its foreman, Grimson the Pale, and leaving the shafts overrun by worgen."
+   "answer": "Archmage Arugal unleashed wild otherworldly magic and worgen curses across Silverpine. That magic reached Deep Elem Mine, corrupting its foreman, Grimson the Pale, and leaving the shafts overrun by worgen."
   },
   {
    "q": "Who are the Darkstalkers mentioned by Dalar Dawnweaver?",
@@ -87,21 +87,21 @@
     "darkstalkers",
     "who are darkstalkers"
    ],
-   "answer": "The Darkstalkers are the covert intelligence and scouting branch of the Forsaken military, operating out of outposts like the Sepulcher to monitor enemy troop movements and regional anomalies."
+   "answer": "The Darkstalkers are the Forsaken military's covert intelligence and scouting branch. From outposts like the Sepulcher, they watch enemy troop movements and regional anomalies."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "Every strategic holding captured from Arugal's mad thralls provides the Forsaken with raw metal to fortify their young nation against the living and the Scourge."
+   "text": "As an undead, you help secure metal for the Forsaken to fortify their young nation against the living and the Scourge."
   },
   {
    "target": "profession:Mining",
-   "text": "The rich subterranean veins of Deep Elem Mine are coveted across the hills, offering valuable ore once cleared of hostile tainted workers."
+   "text": "As a miner, you can seek Deep Elem Mine's rich ore veins once its tainted workers are cleared out."
   },
   {
    "target": "class:Mage",
-   "text": "Studying how Arugal's runaway conjurations and transmutations seeped into the mines offers a harrowing lesson in magical recklessness."
+   "text": "As a mage, you can see the danger in Arugal's runaway conjurations and transmutations seeping into the mines."
   }
  ],
  "keywords": [
@@ -124,5 +124,6 @@
  ],
  "attribution": [
   "Arugal's Folly (3)"
- ]
+ ],
+ "style": 2
 }

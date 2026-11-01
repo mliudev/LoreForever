@@ -14,15 +14,15 @@
  "angles": [
   {
    "target": "class:Druid",
-   "text": "This summons marks your transition from basic novice training to deeper communion with nature's forms, beginning directly under Archdruid Staghelm's personal assistant."
+   "text": "As a druid, you leave basic novice training and begin learning nature's deeper forms under Archdruid Staghelm's direct assistant."
   },
   {
    "target": "race:NightElf",
-   "text": "Taking place in the heart of Darnassus at the Cenarion Enclave, this summons underscores the deep integration of Cenarion druidism within Kaldorei society."
+   "text": "At the heart of Darnassus, the Cenarion Enclave shows how deeply Cenarion druidism is woven into Kaldorei society."
   },
   {
    "target": "faction:Alliance",
-   "text": "Night elf druids answering the Cenarion call in Darnassus strengthen the ancient magical and natural foundations of the Alliance on Kalimdor."
+   "text": "As a member of the Alliance, you join night elf druids answering the Cenarion call in Darnassus. Their work strengthens the Alliance's ancient magical and natural foundations on Kalimdor."
   }
  ],
  "faq": [
@@ -32,7 +32,7 @@
     "who is mathrengyl",
     "who is mathrengyl bearwalker"
    ],
-   "answer": "Mathrengyl Bearwalker is an august and sage druid who serves as the direct assistant to Archdruid Fandral Staghelm. He oversees the advanced instruction of promising druids in Darnassus.",
+   "answer": "Mathrengyl Bearwalker is a wise druid and the direct assistant to Archdruid Fandral Staghelm. He oversees advanced instruction for promising druids in Darnassus.",
    "q": "Who is Mathrengyl Bearwalker?"
   },
   {
@@ -41,7 +41,7 @@
     "where is mathrengyl",
     "cenarion enclave location"
    ],
-   "answer": "He resides on the second floor of Fandral Staghelm's tree within the Cenarion Enclave in Darnassus, where senior members of the Cenarion Circle convene on Teldrassil.",
+   "answer": "Mathrengyl Bearwalker is on the second floor of Fandral Staghelm's tree in the Cenarion Enclave in Darnassus. Senior members of the Cenarion Circle convene there on Teldrassil.",
    "q": "Where is Mathrengyl Bearwalker located?"
   },
   {
@@ -50,7 +50,7 @@
     "what is this quest for",
     "why heed the call"
    ],
-   "answer": "You are summoned because your basic training is complete and your path as a druid is ready to expand. Mathrengyl personally takes charge of guiding you into the deeper disciplines of nature.",
+   "answer": "Your basic training is complete, and your path as a druid is ready to widen. Mathrengyl will guide you into nature's deeper disciplines.",
    "q": "Why was I summoned to speak with Mathrengyl?"
   },
   {
@@ -59,7 +59,7 @@
     "what do i learn next",
     "what form do i get"
    ],
-   "answer": "Mathrengyl begins your instruction in the ways of the bear, teaching you strength of body and heart to serve as a protector of natural balance.",
+   "answer": "Mathrengyl begins teaching you the ways of the bear. You learn strength of body and heart to help protect nature's balance.",
    "q": "What will I learn from Mathrengyl Bearwalker?"
   },
   {
@@ -67,7 +67,7 @@
     "who is cenarius",
     "children of cenarius meaning"
    ],
-   "answer": "Cenarius is the patron demigod of nature and teacher of the first druids. His followers consider all druids bound by a shared duty to protect the wild plants and beasts of Azeroth.",
+   "answer": "Cenarius is the patron demigod of nature and teacher of the first druids. His followers believe all druids share a duty to protect Azeroth's wild plants and beasts.",
    "q": "What does it mean to be among 'Cenarius' children'?"
   },
   {
@@ -75,7 +75,7 @@
     "what tree is he in",
     "fandral tree location"
    ],
-   "answer": "It is the grand hollowed living tree in the Cenarion Enclave of Darnassus where Archdruid Fandral Staghelm and his inner circle direct Cenarion affairs across Teldrassil.",
+   "answer": "Fandral Staghelm's tree is a grand, hollow living tree in Darnassus's Cenarion Enclave. Archdruid Fandral Staghelm and his inner circle direct Cenarion affairs across Teldrassil from there.",
    "q": "What is Fandral Staghelm's tree?"
   }
  ],
@@ -101,18 +101,19 @@
  ],
  "sections": [
   {
-   "body": "As a young druid finishes basic instruction among the boughs of Teldrassil, word arrives that Mathrengyl Bearwalker wishes to speak personally. Mathrengyl is no ordinary mentor\u2014he serves as the direct assistant to Archdruid Fandral Staghelm and stands among the most venerable and sage figures in the Cenarion Enclave. This summons signals that a novice's training is ready to take on a larger purpose, stepping beyond basic wardenship toward the deeper sacred arts of nature.",
+   "body": "As your basic instruction among Teldrassil's boughs comes to an end, word arrives that Mathrengyl Bearwalker wishes to speak with you. He is the direct assistant to Archdruid Fandral Staghelm and one of the Cenarion Enclave's wisest elders. His summons calls you beyond basic wardenship and toward the deeper arts of nature.",
    "spoiler": 0,
    "title": "A Summons to Darnassus"
   },
   {
-   "body": "The journey leads directly to the Cenarion Enclave in Darnassus, ascending to the second floor of Archdruid Staghelm's great tree. Welcoming the initiate, Bearwalker affirms that every follower answering Cenarius' call must honor plants and beasts as both companions and charges. Devoting oneself to preserving nature's balance requires more than quiet contemplation; it demands learning the ways of the wild bear, mastering true strength of both body and heart.",
+   "body": "You travel to the Cenarion Enclave in Darnassus and climb to the second floor of Archdruid Staghelm's great tree. Bearwalker welcomes you and reminds you that those who answer Cenarius' call must honor plants and beasts as companions and charges. To preserve nature's balance, you need more than quiet reflection. You must learn the ways of the wild bear and master strength of body and heart.",
    "spoiler": 0,
    "title": "The Path of the Bear"
   }
  ],
- "summary": "Heeding the Call is a pivotal summons directing an apprentice night elf druid to Darnassus. Mathrengyl Bearwalker, direct assistant to Archdruid Fandral Staghelm, calls upon the initiate to advance their training and prepare for the trials of the bear.",
+ "summary": "Mathrengyl Bearwalker calls a young night elf druid to Darnassus to continue their training. As Archdruid Fandral Staghelm's direct assistant, he prepares the initiate for the trials of the bear.",
  "attribution": [
   "In-game quest text: Heeding the Call"
- ]
+ ],
+ "style": 2
 }

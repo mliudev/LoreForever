@@ -10,11 +10,11 @@
    "quest:36"
   ]
  },
- "summary": "Verna's Westfall Stew Recipe travels to Salma Saldean as the Furlbrows prepare to leave their farm. Her handwritten formula carries a familiar comfort for those who remain.",
+ "summary": "As the Furlbrows prepare to leave their Westfall farm, Verna sends her stew recipe to Salma Saldean. Its familiar comfort may remain for those who stay.",
  "sections": [
   {
    "title": "A Farewell Gift",
-   "body": "Verna and Farmer Furlbrow have homesteaded in Westfall for years, but the Defias Brotherhood and rogue harvest golems now run rampant across the countryside. They wait for their wagon to be repaired so they can escape toward Stormwind. While they wait, Verna writes down her beloved formula for Westfall Stew. She entrusts the recipe to travelers bound for her neighboring friend, Salma Saldean, so the familiar comfort of the stew can endure for those left behind.",
+   "body": "Verna and Farmer Furlbrow have made their home in Westfall for years. Now the Defias Brotherhood and rogue harvest golems run rampant across the countryside. The Furlbrows wait for their wagon to be repaired so they can flee toward Stormwind.\n\nWhile they wait, Verna writes down her beloved Westfall Stew formula. She entrusts it to travelers bound for her neighboring friend, Salma Saldean. That way, those left behind may still know the stew's familiar comfort.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "why westfall stew recipe",
     "verna recipe purpose"
    ],
-   "answer": "Verna and her husband are fleeing Westfall because bandits and rogue machines have overrun their fields. As they leave their homestead, Verna wants her friend Salma Saldean to keep making the stew for those who remain."
+   "answer": "Verna and Farmer Furlbrow are fleeing Westfall because bandits and rogue machines have overrun their fields. As they leave their farm, Verna hopes her friend Salma Saldean will keep making the stew for those who remain."
   },
   {
    "q": "Who is the recipe meant for?",
@@ -35,7 +35,7 @@
     "who do i bring the recipe to",
     "where does the stew recipe go"
    ],
-   "answer": "The recipe is meant for Salma Saldean, who lives just beyond the fork in the road at the Saldean Farm."
+   "answer": "Verna's recipe is meant for Salma Saldean, who lives just beyond the fork in the road at the Saldean Farm."
   },
   {
    "q": "Where are the Furlbrows planning to go?",
@@ -44,7 +44,7 @@
     "where does verna go",
     "furlbrow destination"
    ],
-   "answer": "The Furlbrows wait for their wagon to be repaired so they can flee to the safety of Stormwind City, escaping the chaos and brigandry threatening the countryside."
+   "answer": "The Furlbrows are waiting for their wagon to be repaired so they can flee to Stormwind City. They seek safety from the chaos and brigandry threatening the countryside."
   },
   {
    "q": "What makes Westfall Stew notable in the region?",
@@ -53,17 +53,17 @@
     "why westfall stew matters",
     "westfall stew lore"
    ],
-   "answer": "Westfall Stew is a regional staple made possible by local farming and game. When food is scarce and farms are abandoned, sharing hearty recipes helps surviving farming families endure."
+   "answer": "Westfall Stew is a regional staple made possible by local farming and game. With food scarce and farms abandoned, its hearty recipes help surviving farming families endure."
   }
  ],
  "angles": [
   {
    "target": "profession:Cooking",
-   "text": "For cooks, this handwritten paper is treasured local lore, preserving Westfall's culinary heritage as its farms collapse."
+   "text": "For cooks, Verna's handwritten recipe preserves local knowledge as Westfall's farms fall into ruin."
   },
   {
    "target": "faction:Alliance",
-   "text": "For the Alliance, the recipe speaks to loyal homesteaders driven from their land by lawlessness while Stormwind struggles to project its authority."
+   "text": "For the Alliance, the recipe tells of loyal homesteaders driven from their land by lawlessness while Stormwind struggles to project its authority."
   }
  ],
  "keywords": [
@@ -88,5 +88,5 @@
   "Verna's Westfall Stew Recipe",
   "Westfall Stew (Classic)"
  ],
- "style": 1
+ "style": 2
 }

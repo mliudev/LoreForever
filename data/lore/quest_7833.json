@@ -11,11 +11,11 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "A Darkspear troll is gathering wool donations. Your sixty pieces of Wool Cloth will help complete the collection with support from others.",
+ "summary": "A Darkspear troll gathers wool donations, and your sixty pieces of Wool Cloth join a larger collection.",
  "sections": [
   {
    "title": "A Shared Collection",
-   "body": "The Darkspear trolls are collecting Wool Cloth, and the collector can accept your sixty pieces now. Their stores need that amount from you; help from others is expected to complete the collection.",
+   "body": "The Darkspear trolls are gathering Wool Cloth to replenish their stores. The collector can take your sixty pieces now, while help from others is expected to complete the collection.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "what do they need",
     "wool donation"
    ],
-   "answer": "The Darkspear trolls are collecting Wool Cloth."
+   "answer": "The Darkspear trolls are gathering Wool Cloth."
   },
   {
    "q": "How much Wool Cloth do they need from me?",
@@ -34,7 +34,7 @@
     "how much wool",
     "60 cloth"
    ],
-   "answer": "The collector asks for sixty pieces of Wool Cloth from you."
+   "answer": "The collector needs sixty pieces of Wool Cloth from you."
   },
   {
    "q": "Why are the trolls collecting wool?",
@@ -42,7 +42,7 @@
     "why wool",
     "what for"
    ],
-   "answer": "The collection is meant to replenish their stores."
+   "answer": "The trolls are gathering wool to replenish their stores."
   },
   {
    "q": "Can I give the cloth now?",
@@ -50,7 +50,7 @@
     "where give wool",
     "donate now"
    ],
-   "answer": "The collector can accept your sixty pieces of Wool Cloth now."
+   "answer": "Yes. The collector can accept your sixty pieces of Wool Cloth now."
   }
  ],
  "angles": [],
@@ -64,7 +64,7 @@
   "wool cloth"
  ],
  "related": [],
- "style": 1,
+ "style": 2,
  "attribution": [
   "In-game quest text: Spendet Wolle"
  ]

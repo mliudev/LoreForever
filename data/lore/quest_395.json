@@ -17,16 +17,16 @@
   "wiki": "Brotherhood's End",
   "chain": []
  },
- "summary": "In Stormwind Keep, Lord Gregor Lescovar's killing leaves dangerous questions behind. Master Mathias Shaw sends you to City Architect Baros Alexston and warns you to keep the killer's identity quiet.",
+ "summary": "In Stormwind Keep, questions remain after Lord Gregor Lescovar is killed. Master Mathias Shaw sends you to City Architect Baros Alexston and warns you to keep the killer's identity quiet.",
  "sections": [
   {
    "title": "Loose Ends in the Shadows",
-   "body": "After Lord Gregor Lescovar and his Defias contact, Marzon the Silent Blade, are killed, Master Mathias Shaw urges caution. Killing a high-ranking noble inside the royal keep risks political trouble, even though Lescovar was deep in treason. Shaw tells you to share the broad strokes of the Defias conspiracy with Baros Alexston. Keep your own part in the killing, and the rogue cheese merchant Elling Trias's involvement, off the record.",
+   "body": "After Lord Gregor Lescovar and his Defias contact, Marzon the Silent Blade, are killed, Master Mathias Shaw urges caution. A noble's death inside the royal keep could stir political trouble, though Lescovar was deep in treason. Shaw asks you to share the broad strokes of the Defias conspiracy with Baros Alexston. Keep your part in the killing and rogue cheese merchant Elling Trias's involvement quiet.",
    "spoiler": 1
   },
   {
    "title": "A Breath of Relief",
-   "body": "Baros Alexston, the City Architect who helped rebuild Stormwind as a stonemason, is relieved to hear that Lescovar is dead. Edwin VanCleef had marked Alexston and other prominent figures in the rebuilding effort for vengeance after the Stonemasons were cast out without pay. With Lescovar silenced and the conspiracy disrupted, Alexston believes the immediate threat to the kingdom's architects and nobility has passed.",
+   "body": "Baros Alexston, the City Architect who helped rebuild Stormwind as a stonemason, is relieved that Lescovar is dead. Edwin VanCleef had marked Alexston and other prominent figures in the rebuilding effort for vengeance after the Stonemasons were cast out without pay. With Lescovar silenced and the conspiracy disrupted, Alexston believes the immediate threat to the kingdom's architects and nobility has passed.",
    "spoiler": 0
   }
  ],
@@ -47,7 +47,7 @@
     "why lie about lescovar",
     "shaw advice lescovar"
    ],
-   "answer": "Lord Gregor Lescovar was a high nobleman in Stormwind's House of Nobles. Though he was proven to collude with the Defias, admitting to his assassination in the royal keep could bring political scandal and scrutiny. Shaw advises leaving the deed unattributed."
+   "answer": "Lord Gregor Lescovar was a high nobleman in Stormwind's House of Nobles. Though proven to collude with the Defias, his killing in the royal keep could bring political scandal and scrutiny. Shaw advises leaving the deed unattributed."
   },
   {
    "q": "Why should nobody mention Elling Trias?",
@@ -74,7 +74,7 @@
     "are the defias dead now",
     "does brotherhood end finish defias"
    ],
-   "answer": "Killing Edwin VanCleef's key sympathizer in the House of Nobles does not erase the Defias presence. But removing Lescovar deals a critical blow to their efforts inside Stormwind's government and averts an immediate coup within the city walls."
+   "answer": "Killing Edwin VanCleef's key sympathizer in the House of Nobles does not erase the Defias presence. Removing Lescovar deals a critical blow to their efforts inside Stormwind's government and averts an immediate coup within the city walls."
   },
   {
    "q": "Where does this investigation lead next?",
@@ -93,11 +93,11 @@
   },
   {
    "target": "class:Rogue",
-   "text": "Mathias Shaw's warning reflects SI:7's unspoken rule: deliver the kingdom's justice in silence, without taking public credit for a noble's blood."
+   "text": "As a Rogue, you hear Mathias Shaw's warning and SI:7's unspoken rule: deliver the kingdom's justice in silence, without public credit for a noble's blood."
   },
   {
    "target": "race:Human",
-   "text": "For humans of Stormwind, this assignment closes the loop on the Stonemasons' rebellion that began in the city's streets years ago, securing justice without tearing the kingdom apart."
+   "text": "As a human of Stormwind, you see this assignment close the loop on the Stonemasons' rebellion that began in the city's streets years ago, securing justice without tearing the kingdom apart."
   }
  ],
  "keywords": [
@@ -121,5 +121,5 @@
  "attribution": [
   "Brotherhood's End"
  ],
- "style": 1
+ "style": 2
 }

@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Tinker Town"
  },
- "summary": "In Tinker Town, gnomes make a home in exile beneath Ironforge. After Gnomeregan fell, the district became the seat of High Tinker Gelbin Mekkatorque's government and the Ironforge terminus of the Deeprun Tram.",
+ "summary": "Tinker Town is where gnomes make their home in exile beneath Ironforge. Since Gnomeregan fell, it has been the seat of High Tinker Gelbin Mekkatorque’s government and the Ironforge end of the Deeprun Tram.",
  "sections": [
   {
    "title": "A Home in Exile",
-   "body": "Tinker Town shelters the gnomes who fled Gnomeregan. When troggs overran their high-tech city, Ironforge's dwarves opened their gates, setting aside a cavern that had housed dwarves and held the Deeprun Tram entrance. High Tinker Gelbin Mekkatorque and his council lead the refugees here. Around a massive spherical contraption, the gnomes have rebuilt a semblance of their civilization amid whirring gears, experimental alchemy, and gadgetry. Though cramped guests in a stone city, they remain determined to reclaim their subterranean homeland.",
+   "body": "Tinker Town shelters the gnomes who fled Gnomeregan. Troggs overran their high-tech city, so Ironforge’s dwarves opened their gates. They gave the refugees a cavern once used by dwarves, where the Deeprun Tram entrance already stood. High Tinker Gelbin Mekkatorque and his council lead the gnomes from here.\n\nAround a massive spherical contraption, the gnomes have rebuilt a semblance of their civilization. Gears whir, alchemy is tested, and gadgets take shape in the cramped district. Though guests in a stone city, the gnomes remain determined to reclaim their subterranean homeland.",
    "spoiler": 0
   },
   {
    "title": "Subway and Secrets",
-   "body": "Tinker Town connects Ironforge to Stormwind by tram. The district holds the Ironforge entrance to the Deeprun Tram, an engineering wonder that swiftly links the dwarven capital with Stormwind.",
+   "body": "Tinker Town holds the Ironforge entrance to the Deeprun Tram. The engineering wonder carries travelers swiftly between the dwarven capital and Stormwind, joining the two cities.",
    "spoiler": 0
   }
  ],
@@ -37,7 +37,7 @@
     "tram in tinkertown",
     "tinkertown portal"
    ],
-   "answer": "The Deeprun Tram connects Ironforge directly to Stormwind City. Gnomes and dwarves built it together, and its Ironforge terminus opens into Tinker Town, linking the two Alliance capitals with high-speed transit."
+   "answer": "The Deeprun Tram connects Ironforge directly to Stormwind City. Gnomes and dwarves built it together, and its Ironforge terminus opens into Tinker Town. The tram links the two Alliance capitals with swift travel."
   }
  ],
  "angles": [
@@ -47,7 +47,7 @@
   },
   {
    "target": "profession:Engineering",
-   "text": "For an engineer, Tinker Town is an essential stop in Ironforge, with specialized trainers, gadget vendors, and parts, as well as the Deeprun Tram."
+   "text": "For an engineer, Tinker Town is an essential stop in Ironforge. Specialized trainers, gadget vendors, parts, and the Deeprun Tram are all here."
   }
  ],
  "keywords": [
@@ -69,5 +69,5 @@
  "attribution": [
   "Tinker Town"
  ],
- "style": 1
+ "style": 2
 }

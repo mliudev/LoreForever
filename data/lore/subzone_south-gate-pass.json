@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "South Gate Pass"
  },
- "summary": "South Gate Pass carries travelers between Dun Morogh and Loch Modan. Its guarded road links Ironforge with Thelsamar.",
+ "summary": "Travelers cross South Gate Pass between Dun Morogh and Loch Modan. Its guarded road links Ironforge with Thelsamar.",
  "sections": [
   {
    "title": "The Road East",
-   "body": "South Gate Pass cuts through the Khaz Modan range, joining the high mountains of Dun Morogh to Loch Modan's valley in the east. Stone archways mark the way from the cold slopes into the warmer dwarven heartlands. The road leads toward Thelsamar, carrying mountaineers, couriers, and newly trained adventurers setting out from the capital.",
+   "body": "South Gate Pass cuts through the Khaz Modan range, joining Dun Morogh's high mountains to Loch Modan's valley in the east. Stone archways mark the way from cold slopes into warmer dwarven heartlands. The road leads toward Thelsamar, carrying mountaineers, couriers, and newly trained adventurers setting out from the capital.",
    "spoiler": 0
   },
   {
    "title": "A Guarded Threshold",
-   "body": "Dwarven mountaineers keep watch at South Gate Outpost, guarding the pass against wild beasts and prowling troggs. The road is safer than the untamed parts of the valley, but hostile wildlife and roving threats still test its approaches. Travelers are advised to stay on the road.",
+   "body": "Dwarven mountaineers keep watch at South Gate Outpost, guarding the pass against wild beasts and prowling troggs. The road is safer than the untamed parts of the valley, though hostile wildlife and roving threats still test its approaches. Stay on the road as you travel.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "south gate pass destination",
     "south gate road"
    ],
-   "answer": "Take the road west through the tunnels to reach Dun Morogh's snowy highlands and continue toward Ironforge. Eastward, the pass descends into Loch Modan's basin and leads toward Thelsamar."
+   "answer": "Take the road west through the tunnels to Dun Morogh's snowy highlands, then continue toward Ironforge. Eastward, the pass descends into Loch Modan's basin and leads toward Thelsamar."
   },
   {
    "q": "Is South Gate Pass safe to travel?",
@@ -50,7 +50,7 @@
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "For a dwarf leaving Dun Morogh, South Gate Pass marks the change from icy mountain air to the open valleys and quarries of Loch Modan."
+   "text": "As a dwarf leaving Dun Morogh, you pass from icy mountain air into Loch Modan's open valleys and quarries."
   },
   {
    "target": "faction:Alliance",
@@ -75,5 +75,5 @@
  "attribution": [
   "South Gate Pass"
  ],
- "style": 1
+ "style": 2
 }

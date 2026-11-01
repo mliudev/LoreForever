@@ -11,16 +11,16 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "A tavern regular points you toward Commander Samaul in Theramore. He may help you locate Hendel, a Kul Tiras Marine.",
+ "summary": "A tavern keeper sends you to Commander Samaul in Theramore, where Hendel may still be stationed.",
  "sections": [
   {
    "title": "A Lead in Theramore",
-   "body": "The tavern keeper believes Hendel is among the Kul Tiras Marines who regularly visit. They usually leave Theramore at the beginning of each month after being paid. Commander Samaul may know whether Hendel is still stationed there. Mention Elling's name when you speak with him, and Samaul may help discreetly.",
+   "body": "The tavern keeper believes Hendel is among the Kul Tiras Marines who visit regularly. They are paid at the beginning of each month and usually leave Theramore afterward. Commander Samaul may know if Hendel is still stationed there. Mention Elling's name, and Samaul may help discreetly.",
    "spoiler": 0
   },
   {
    "title": "Samaul's Warning",
-   "body": "Commander Samaul introduces himself as the officer in charge of Miss Proudmoore's forces in Theramore. He is busy, but offers to answer questions. He warns that the marsh beyond the city holds ogres, orcs, murlocs, and black dragons in its southern reaches.",
+   "body": "Commander Samaul is the officer in charge of Miss Proudmoore's forces in Theramore. He is busy, but offers to answer your questions. The marsh beyond the city holds ogres, orcs and murlocs. Black dragons dwell in its southern reaches.",
    "spoiler": 0
   }
  ],
@@ -32,7 +32,7 @@
     "marine Hendel",
     "who's Hendel"
    ],
-   "answer": "Hendel is a Kul Tiras Marine who may be among the regular visitors to a tavern. The tavern keeper thinks Commander Samaul in Theramore may know whether he is still stationed there."
+   "answer": "Hendel is a Kul Tiras Marine who may be among the regular visitors to a tavern. The tavern keeper thinks Commander Samaul in Theramore may know if Hendel is still stationed there."
   },
   {
    "q": "Who is Commander Samaul?",
@@ -59,7 +59,7 @@
     "drop Elling's name",
     "Elling name"
    ],
-   "answer": "The tavern keeper advises you to mention Elling's name to Commander Samaul when asking about Hendel."
+   "answer": "The tavern keeper advises you to mention Elling's name when you ask Commander Samaul about Hendel."
   },
   {
    "q": "When do the Kul Tiras Marines leave Theramore?",
@@ -77,7 +77,7 @@
     "what's in the swamp",
     "marsh threats"
    ],
-   "answer": "Samaul warns of ogres, orcs, and murlocs outside the city, and black dragons in the southern part of the swamp."
+   "answer": "Samaul warns of ogres, orcs and murlocs in the marsh beyond the city, and black dragons in its southern reaches."
   }
  ],
  "angles": [],
@@ -96,7 +96,7 @@
   "topic:kul-tiras",
   "topic:murloc"
  ],
- "style": 1,
+ "style": 2,
  "attribution": [
   "In-game quest text: The Missing Diplomat"
  ]

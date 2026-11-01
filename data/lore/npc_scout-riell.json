@@ -8,11 +8,11 @@
   "wiki": "Scout Riell",
   "refs": 1
  },
- "summary": "At Sentinel Hill, Scout Riell watches Westfall from the watchtower roof. She serves the People's Militia, tracking the Defias Brotherhood and calling on travelers to bring back the outlaws' red silk bandanas.",
+ "summary": "At Sentinel Hill, Scout Riell watches Westfall from the roof of its stone watchtower. She serves the People's Militia and tracks the Defias Brotherhood, asking travelers to bring back the outlaws' red silk bandanas.",
  "sections": [
   {
    "title": "Eyes Over Westfall",
-   "body": "Scout Riell watches the plains from the stone tower at Sentinel Hill, where banditry and harvest golems threaten Westfall. Stormwind's royal army is absent, and the crown refuses aid, leaving the People's Militia to defend the region. From the tower roof, Riell tracks the Defias Brotherhood's movements and gathers proof of their crimes. She calls on passing travelers to take red silk bandanas from the bandits.",
+   "body": "Bandits and harvest golems threaten Westfall. Stormwind's royal army is absent, and the crown refuses aid. So the People's Militia must defend the region alone. The bandanas travelers bring back give Riell proof of the Defias Brotherhood's crimes.",
    "spoiler": 0
   }
  ],
@@ -42,7 +42,7 @@
     "why red silk bandanas",
     "defias masks"
    ],
-   "answer": "The red silk bandana marks a member of the Defias Brotherhood. Collecting them gives proof that the bandits terrorizing Westfall's homesteads are being reduced and takes away their unifying symbol."
+   "answer": "A red silk bandana marks a member of the Defias Brotherhood. Collecting them proves the bandits terrorizing Westfall's homesteads are being reduced and takes away their unifying symbol."
   },
   {
    "q": "Who does Scout Riell work for?",
@@ -51,17 +51,17 @@
     "is riell stormwind army",
     "who does riell serve"
    ],
-   "answer": "Riell serves the People's Militia, a volunteer defense force Gryan Stoutmantle formed to protect Westfall after the House of Nobles in Stormwind turned a blind eye to the province's plight."
+   "answer": "Riell serves the People's Militia, a volunteer defense force formed by Gryan Stoutmantle. He formed it to protect Westfall after the House of Nobles in Stormwind turned a blind eye to the province's plight."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "For Alliance champions, Scout Riell shows Westfall's grim reality: its abandoned people must hire mercenaries to fight the rising threat of the Defias Brotherhood."
+   "text": "For Alliance champions, Scout Riell shows Westfall's grim reality. Its abandoned people must hire mercenaries to fight the rising threat of the Defias Brotherhood."
   },
   {
    "target": "profession:Tailoring",
-   "text": "Tailors may recognize that the Defias' signature red masks are made from genuine silk, an expensive fabric for common rural highwaymen."
+   "text": "Tailors may recognize the Defias' signature red masks as genuine silk. It is an expensive fabric for common rural highwaymen."
   }
  ],
  "keywords": [
@@ -84,5 +84,5 @@
  "attribution": [
   "Scout Riell"
  ],
- "style": 1
+ "style": 2
 }

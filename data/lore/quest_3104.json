@@ -17,16 +17,16 @@
   "wiki": "Glyphic Letter (quest)",
   "chain": []
  },
- "summary": "A sealed summons reaches novice human mages in Northshire Valley, sent by Marshal McBride. Khelden Bremen calls promising spellcasters to Northshire Abbey to begin their arcane tutelage.",
+ "summary": "A summons reaches novice human mages in Northshire Valley from Marshal McBride. Khelden Bremen calls promising spellcasters to Northshire Abbey to begin their arcane tutelage.",
  "sections": [
   {
    "title": "A Summons to the Arcane",
-   "body": "Marshal McBride gives the rune-marked letter to an aspiring apprentice who has proved capable by helping him against local vermin. Khelden Bremen, Northshire's resident mage trainer, wrote it. He watches new recruits arriving at the abbey for signs of magical discipline and talent.",
+   "body": "Marshal McBride gives the rune-marked letter to an aspiring apprentice who has proved capable by helping him against local vermin. Khelden Bremen, the mage trainer at Northshire, wrote it. He watches new recruits arrive at the abbey, looking for magical discipline and talent.",
    "spoiler": 0
   },
   {
    "title": "The Weight of Wizardry",
-   "body": "Northshire Abbey has long been a sanctuary of the Holy Light, but Stormwind's dangers call for practitioners of every discipline. The letter brings you upstairs to Khelden Bremen. He offers no easy praise. Instead, he warns that mastering arcane power means defying natural limits, earning both profound respect and deep fear from ordinary folk.",
+   "body": "Northshire Abbey has long sheltered the Holy Light. Yet Stormwind's dangers call for practitioners of every discipline. The letter brings you upstairs to Khelden Bremen, who offers no easy praise. He warns that mastering arcane power means defying nature's limits. Such power earns profound respect and deep fear from ordinary folk.",
    "spoiler": 0
   }
  ],
@@ -45,7 +45,7 @@
     "author of glyphic letter",
     "who sent glyphic letter"
    ],
-   "answer": "Khelden Bremen, the resident mage trainer in Northshire Abbey's upper chambers, wrote and sealed the letter."
+   "answer": "Khelden Bremen, the mage trainer in Northshire Abbey's upper chambers, wrote and sealed the letter."
   },
   {
    "q": "Where do I find Khelden Bremen?",
@@ -53,7 +53,7 @@
     "khelden bremen location",
     "where is khelden"
    ],
-   "answer": "Enter Northshire Abbey behind Marshal McBride, take the left hallway, then climb the stairs. Khelden waits in the rear chambers to teach."
+   "answer": "Enter Northshire Abbey behind Marshal McBride. Take the left hallway, then climb the stairs. Khelden waits in the rear chambers to teach."
   },
   {
    "q": "Why is the mage trainer located in an abbey?",
@@ -69,7 +69,7 @@
     "what comes after glyphic letter",
     "next quest after glyphic letter"
    ],
-   "answer": "Khelden Bremen accepts you as his student, welcomes your resolve to wield the arcane despite its dangers, and offers direct access to basic spell training."
+   "answer": "Khelden Bremen accepts you as his student. He welcomes your resolve to wield the arcane despite its dangers and offers direct access to basic spell training."
   },
   {
    "q": "Why does Khelden warn that mages will be feared?",
@@ -87,7 +87,7 @@
   },
   {
    "target": "race:Human",
-   "text": "As a human, you carry Northshire's legacy of arcane magic, reaching back to Dalaran's first human arcanists and the Kirin Tor, into the Kingdom of Stormwind."
+   "text": "As a human, you carry Northshire's legacy of arcane magic. It reaches back to Dalaran's first human arcanists and the Kirin Tor, and continues in the Kingdom of Stormwind."
   }
  ],
  "keywords": [
@@ -109,5 +109,5 @@
  "attribution": [
   "Glyphic Letter (quest)"
  ],
- "style": 1
+ "style": 2
 }

@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Deeprun Tram"
  },
- "summary": "The Deeprun Tram carries travelers beneath the earth between Ironforge and Stormwind City. King Magni Bronzebeard commissioned it after the Second War, and its twin tracks now carry citizens, soldiers, and goods between the Alliance capitals.",
+ "summary": "Beneath the mountains, the Deeprun Tram carries travelers between Ironforge and Stormwind City. King Magni Bronzebeard commissioned it after the Second War, and its twin tracks carry citizens, soldiers, and goods between the Alliance capitals.",
  "sections": [
   {
    "title": "A Marvel of Subterranean Engineering",
-   "body": "King Magni Bronzebeard wanted dwarven aid and supplies to reach Stormwind faster after the Second War. Mountain passes slowed the journey, so he asked High Tinker Gelbin Mekkatorque to design an underground railway. Gnomish engineers cut the route beneath a mountain and through a vast subterranean lake. Rats plagued the excavation, but the tram was completed. It carries thousands of travelers between Ironforge and Stormwind without charge.",
+   "body": "After the Second War, King Magni Bronzebeard sought a faster way to send dwarven aid and supplies to Stormwind. Mountain passes made the journey slow, so he asked High Tinker Gelbin Mekkatorque to design an underground railway.\n\nGnomish engineers cut a route beneath a mountain and through a vast subterranean lake. Rats plagued the work, but the tram was finished. It carries thousands between Ironforge and Stormwind without charge.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "tram purpose",
     "who built deeprun tram"
    ],
-   "answer": "After the Second War, King Magni Bronzebeard needed a faster route for supplies and dwarven troops helping to rebuild and defend Stormwind. He commissioned High Tinker Gelbin Mekkatorque to design and build the underground railway linking the two capitals."
+   "answer": "After the Second War, King Magni Bronzebeard needed a faster route for supplies and dwarven troops aiding Stormwind's rebuilding and defense. He commissioned High Tinker Gelbin Mekkatorque to design and build the underground railway linking the two capitals."
   },
   {
    "q": "How does the tram travel underwater?",
@@ -32,7 +32,7 @@
     "underwater tram",
     "deeprun tram lake"
    ],
-   "answer": "Gnomish engineers breached a vast subterranean lake while digging between Dun Morogh and Stormwind. They built a sealed, reinforced glass tunnel through the water, where passengers can watch threshadons and sharks swim beside the track."
+   "answer": "While digging between Dun Morogh and Stormwind, gnomish engineers breached a vast subterranean lake. They built a sealed, reinforced glass tunnel through the water, where passengers can watch threshadons and sharks swim beside the track."
   },
   {
    "q": "Why are there so many rats along the tracks?",
@@ -41,7 +41,7 @@
     "why rats in tram",
     "rat problem"
    ],
-   "answer": "The dark, damp shafts along the tracks give vermin a place to breed. Gnomish station masters struggle to keep rats from chewing cables and overrunning platforms, and sometimes travelers and rat catchers like Monty help thin their numbers."
+   "answer": "The dark, damp shafts along the tracks give vermin room to breed. Gnomish station masters struggle to keep rats from chewing cables and overrunning platforms, and travelers and rat catchers like Monty sometimes help thin their numbers."
   },
   {
    "q": "Is the tram free to ride?",
@@ -56,11 +56,11 @@
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "The railway is a gnomish engineering achievement, with advanced track propulsion, reinforced glasswork built to withstand the depths of a subterranean lake, and intricate electrical switching stations."
+   "text": "The railway is a gnomish engineering achievement, with advanced track propulsion, reinforced glasswork made to withstand the depths of a subterranean lake, and intricate electrical switching stations."
   },
   {
    "target": "faction:Alliance",
-   "text": "For the Alliance, the tram connects two of its most fortified capitals. It allows troops to move quickly between them and supports their mutual defense."
+   "text": "For the Alliance, the tram links two of its most fortified capitals. It lets troops move quickly between them and supports their mutual defense."
   }
  ],
  "keywords": [
@@ -85,5 +85,5 @@
  "attribution": [
   "Deeprun Tram"
  ],
- "style": 1
+ "style": 2
 }

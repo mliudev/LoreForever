@@ -17,16 +17,16 @@
   "wiki": "A Visitor to Dun Morogh",
   "chain": []
  },
- "summary": "Beldin Steelgrill asks you to investigate a fire on the heights above Gol'Bolar Quarry. Mountaineers have spotted a stranger's camp, and the dwarves want to know whether the visitor threatens them.",
+ "summary": "Beldin Steelgrill sends you to learn who has lit a fire above Gol'Bolar Quarry. The camp overlooks the excavation, and the dwarves fear its visitor may mean them harm.",
  "sections": [
   {
    "title": "A Smoke Plume on the Heights",
-   "body": "A strange fire has appeared above Gol'Bolar Quarry, drawing concern in Kharanos. Dun Morogh's mountaineers watch the crags and snowy valleys around Ironforge, and an unfamiliar camp on the heights is hard to ignore. Beldin Steelgrill asks you to climb the ridge and learn whether the stranger above the dwarven excavation means harm.",
+   "body": "High on the snowy ridges east of Kharanos, a stranger's campfire burns above the quarry. The unfamiliar fire has worried the folk of Kharanos. There, the Mountaineers watch the heights for danger.",
    "spoiler": 0
   },
   {
    "title": "Meeting the Earthseer",
-   "body": "Earthseer Farsen has made camp on the heights above Gol'Bolar Quarry. He is a mystic with deep ties to the earth, not a marauding trogg or hostile spy. His presence overlooks the quarry, and his watch leads into disturbances beneath Khaz Modan and the mystery of the Hall of Thanes.",
+   "body": "Earthseer Farsen has camped on the heights above Gol'Bolar Quarry. He is a mystic bound deeply to the earth, not a marauding trogg or hostile spy. His watch draws him into disturbances beneath Khaz Modan and the mystery of the Hall of Thanes.",
    "spoiler": 1
   }
  ],
@@ -56,7 +56,7 @@
     "who is the visitor",
     "earthseer farsen"
    ],
-   "answer": "The visitor is Earthseer Farsen, a spiritual observer camped on the heights above the quarry."
+   "answer": "Earthseer Farsen is the visitor camped on the heights above the quarry, watching over it."
   },
   {
    "q": "Why were the dwarves suspicious of the campfire?",
@@ -65,7 +65,7 @@
     "why investigate",
     "why send me"
    ],
-   "answer": "The dwarves are wary because the unknown camp overlooks Gol'Bolar Quarry, a critical operation already under pressure from local troggs. They fear it may belong to scouts or hostile forces watching their movements."
+   "answer": "The dwarves distrust the unknown camp because it overlooks Gol'Bolar Quarry, a critical operation already under pressure from local troggs. They fear scouts or hostile forces may be watching their movements."
   },
   {
    "q": "What does this quest lead into?",
@@ -83,13 +83,13 @@
     "do i kill the visitor",
     "visitor fight"
    ],
-   "answer": "No. Beldin Steelgrill warns you to be ready for violence, but Earthseer Farsen is a peaceful observer willing to speak with you."
+   "answer": "No. Beldin Steelgrill warns you to be ready for violence, but Earthseer Farsen is a peaceful observer who is willing to speak with you."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "As a Bronzebeard dwarf, you know why the mountaineers watch strangers above major mining sites like Gol'Bolar to guard Khaz Modan's borders."
+   "text": "As a Bronzebeard dwarf, you know why the Mountaineers watch strangers above major mining sites like Gol'Bolar. They guard Khaz Modan's borders."
   },
   {
    "target": "class:Shaman",
@@ -97,7 +97,7 @@
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance member, you help the mountaineers outside Kharanos protect the supply lines and quarry workers from unforeseen threats."
+   "text": "As an Alliance member, you help the Mountaineers outside Kharanos protect the supply lines and quarry workers from unforeseen threats."
   }
  ],
  "keywords": [
@@ -121,5 +121,5 @@
  "attribution": [
   "A Visitor to Dun Morogh"
  ],
- "style": 1
+ "style": 2
 }

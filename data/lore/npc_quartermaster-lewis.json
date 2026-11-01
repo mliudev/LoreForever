@@ -8,11 +8,11 @@
   "wiki": "Quartermaster Lewis",
   "refs": 2
  },
- "summary": "At Sentinel Hill in Westfall, Quartermaster Lewis keeps supplies moving to the People's Militia. He serves local defenders and travelers holding the frontier against the Defias Brotherhood.",
+ "summary": "At Sentinel Hill in Westfall, Quartermaster Lewis keeps supplies moving to the People's Militia. He serves the defenders and travelers holding the frontier against the Defias Brotherhood.",
  "sections": [
   {
    "title": "Keeper of the Tower's Stores",
-   "body": "Quartermaster Lewis keeps the militia's supplies in Sentinel Tower. Stormwind's royal leaders offer little aid to impoverished Westfall, so Sentinel Hill depends on local volunteers and whatever provisions they can gather. Lewis hands out field necessities, including dry rations, fresh water, arrows, shot, and throwing blades. The fighters standing watch need these basics to endure Defias raids.",
+   "body": "Quartermaster Lewis keeps the People's Militia supplied from Sentinel Tower. Stormwind's royal leaders offer little aid to impoverished Westfall, so Sentinel Hill relies on local volunteers and the provisions they can gather. Lewis hands out dry rations, fresh water, arrows, shot, and throwing blades. The fighters on watch need these basics to endure Defias raids.",
    "spoiler": 0
   }
  ],
@@ -42,7 +42,7 @@
     "a swift message",
     "return to lewis"
    ],
-   "answer": "With little aid from Stormwind, Lewis sends adventurers through Thor, the gryphon master, to deliver a note to Osric Strang, his armor supplier in Stormwind's Old Town, and bring Osric's crate of armor back to Sentinel Hill."
+   "answer": "With little aid from Stormwind, Lewis sends adventurers through Thor, the gryphon master, to deliver a note to Osric Strang, his armor supplier in Stormwind's Old Town. They bring Osric's crate of armor back to Sentinel Hill."
   },
   {
    "q": "Is Lewis part of the Stormwind Army?",
@@ -83,5 +83,5 @@
  "attribution": [
   "Quartermaster Lewis"
  ],
- "style": 1
+ "style": 2
 }

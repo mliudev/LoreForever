@@ -10,11 +10,11 @@
    "quest:3103"
   ]
  },
- "summary": "Priestess Anetta calls young priests from Northshire Valley to Northshire Abbey. Her letter begins their study of the Holy Light.",
+ "summary": "In Northshire Valley, Priestess Anetta calls young priests to Northshire Abbey. Her letter begins their study of the Holy Light.",
  "sections": [
   {
    "title": "A Call to Faith",
-   "body": "The Hallowed Letter bears Priestess Anetta’s personal mark and reaches fledgling priests after their first trials against the kobold camps of Northshire Valley. She sees the Holy Light’s spark within each novice and urges them to enter the abbey and dedicate themselves to its service. Dark forces still linger across Azeroth in the wake of the Third War. The priesthood gathers those able to heal, protect, and guide an empire struggling to keep order.",
+   "body": "Priestess Anetta’s personal mark appears on the Hallowed Letter. It reaches fledgling priests after their first trials against the kobold camps of Northshire Valley. She sees a spark of the Holy Light in each novice and urges them to enter the abbey and serve it. Dark forces still linger across Azeroth after the Third War. The priesthood gathers those who can heal, protect, and guide an empire struggling to keep order.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "hallowed letter item",
     "priest letter northshire"
    ],
-   "answer": "The Hallowed Letter is Priestess Anetta’s introductory missive to newly arrived priests in Northshire Abbey, summoning them for their first class instruction."
+   "answer": "The Hallowed Letter is Priestess Anetta’s missive to newly arrived priests at Northshire Abbey. It summons them to their first class instruction."
   },
   {
    "q": "Who wrote the letter?",
@@ -59,7 +59,7 @@
  "angles": [
   {
    "target": "class:Priest",
-   "text": "As a priest, this missive recognizes you as an instrument of the Holy Light and binds you to the trainers of Northshire Abbey."
+   "text": "As a priest, this missive recognizes you as an instrument of the Holy Light and binds you to Northshire Abbey’s trainers."
   },
   {
    "target": "race:Human",
@@ -89,5 +89,5 @@
   "Hallowed Letter",
   "Hallowed Letter (quest)"
  ],
- "style": 1
+ "style": 2
 }

@@ -21,16 +21,16 @@
    "More Sparklematic Action"
   ]
  },
- "summary": "Deep in Gnomeregan, the Sparklematic 5200 still cleans what can be saved. The machine remained behind when the city was evacuated, and for a small silver fee it scrubs curiosities coated in muck and radioactive sludge.",
+ "summary": "In Gnomeregan, the Sparklematic 5200 still cleans what can be saved. Left behind when the city was evacuated, it scrubs muck and radioactive sludge from curiosities for a small fee in silver.",
  "sections": [
   {
    "title": "Automated Restoration",
-   "body": "Gnomeregan's engineers installed automated devices throughout the city before the trogg invasion and the fallout that followed. Toxic waste and hostile automatons now fill its corridors, yet the Sparklematic 5200 still follows its exact programming. It needs three silver coins and an artifact caked in grime to begin.",
+   "body": "Before the trogg invasion and the fallout that followed, Gnomeregan's engineers installed automated devices throughout the city. Toxic waste and hostile automatons now fill its corridors. Yet the Sparklematic 5200 follows its exact programming: it needs three silver coins and an artifact caked in grime to begin.",
    "spoiler": 0
   },
   {
    "title": "Wonders from the Muck",
-   "body": "The Sparklematic lurches as it sprays and scrubs an inserted relic with potent gnomish solvents. A cheerful chime marks the end of the cycle, and the machine dispenses a neatly packaged box. Inside is whatever salvage remained beneath corrosive trogg slime and toxic filth.",
+   "body": "The Sparklematic lurches as it sprays an inserted relic with potent gnomish solvents and scrubs it clean. A cheerful chime marks the end of the cycle, and the machine dispenses a neatly packaged box. Inside is whatever salvage remained beneath corrosive trogg slime and toxic filth.",
    "spoiler": 0
   }
  ],
@@ -50,7 +50,7 @@
     "why pay silver",
     "sparklematic cost"
    ],
-   "answer": "The Sparklematic needs three silver coins to begin a cleaning cycle. Its reason for charging is not explained."
+   "answer": "The Sparklematic needs three silver coins to begin a cleaning cycle. No reason for the charge is given."
   },
   {
    "q": "What kinds of objects can be put inside?",
@@ -58,7 +58,7 @@
     "grime-encrusted object",
     "what items can i clean"
    ],
-   "answer": "The machine cleans grime-encrusted objects, including relics recovered from fallen troggs, corrupted sentries, and irradiated horrors wandering Gnomeregan's tunnels."
+   "answer": "The machine cleans grime-encrusted objects, including relics recovered from fallen troggs, corrupted sentries, and irradiated horrors in Gnomeregan's tunnels."
   },
   {
    "q": "Is the Sparklematic safe from radiation?",
@@ -66,7 +66,7 @@
     "sparklematic irradiated",
     "sparklematic contamination"
    ],
-   "answer": "Radioactive waste fills the exterior tunnels, but the Sparklematic 5200 still works. Its specialized gnomish cleaning agents scrub dangerous residue from incoming objects."
+   "answer": "Radioactive waste fills Gnomeregan's exterior tunnels, but the Sparklematic 5200 still works. Its specialized gnomish cleaning agents scrub dangerous residue from incoming objects."
   },
   {
    "q": "Can both factions use the Sparklematic 5200?",
@@ -74,7 +74,7 @@
     "horde sparklematic",
     "who can use it"
    ],
-   "answer": "Yes. The Sparklematic 5200 is a mechanical, automated installation that accepts payment and grime-encrusted items regardless of a visitor's allegiance."
+   "answer": "Yes. The Sparklematic 5200 is an automated mechanical installation that accepts payment and grime-encrusted items from visitors of either allegiance."
   },
   {
    "q": "Who designed the Sparklematic?",
@@ -88,7 +88,7 @@
  "angles": [
   {
    "target": "race:Gnome",
-   "text": "As a gnome, you can see the mechanical endurance of your people in the Sparklematic, still working amid the toxic ruins of your homeland."
+   "text": "As a gnome, you can see your people's mechanical endurance in the Sparklematic, still working amid the toxic ruins of your homeland."
   },
   {
    "target": "profession:Engineering",
@@ -110,5 +110,5 @@
  "attribution": [
   "More Sparklematic Action"
  ],
- "style": 1
+ "style": 2
 }

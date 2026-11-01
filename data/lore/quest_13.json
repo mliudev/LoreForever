@@ -17,16 +17,16 @@
   "wiki": "The People's Militia (2)",
   "chain": []
  },
- "summary": "Across Westfall, The People's Militia faces a growing Defias threat. Gryan Stoutmantle's volunteers now confront thieves who have moved beyond highway robbery to ransack Moonbrook and the Gold Coast Quarry, and the Militia calls for harsher retaliation.",
+ "summary": "Westfall's volunteers face a growing Defias threat. Led by Gryan Stoutmantle, The People's Militia now confronts thieves who have moved beyond highway robbery to ransack Moonbrook and the Gold Coast Quarry. The Militia calls for harsher retaliation.",
  "sections": [
   {
    "title": "Escalating Violence",
-   "body": "Defias attacks have grown from petty banditry on the roads into a wider threat. Defias Looters and Pillagers, who hurl fire, have overrun Westfall's economic centers. They occupy Moonbrook, strip the Alexston Farmstead, and have taken control of the Gold Coast Quarry. Gryan Stoutmantle sees the danger: if the brigands hold these places, Westfall may become impossible to reclaim without a formal royal army.",
+   "body": "Defias attacks have spread from the roads to Westfall's economic centers. Defias Looters and Pillagers, who hurl fire, occupy Moonbrook and the Gold Coast Quarry. They strip the Alexston Farmstead as well. Gryan Stoutmantle sees what their hold on these places could mean: Westfall may become impossible to reclaim without a formal royal army.",
    "spoiler": 0
   },
   {
    "title": "The Militia's Philosophy",
-   "body": "Stormwind has sent Gryan Stoutmantle no soldiers or supplies, so he calls on the Holy Light and the resolve of Westfall's remaining farmers. The Militia's war of attrition depends on volunteers carrying the fight into Defias strongholds. Driving out the looters will deny the Brotherhood resources and show fearful residents that defenders still fight for Westfall's peace and prosperity.",
+   "body": "Stormwind has sent Gryan Stoutmantle neither soldiers nor supplies. So he calls on the Holy Light and the resolve of Westfall's remaining farmers. Volunteers carry the fight into Defias strongholds, wearing down the Brotherhood. Driving out the looters will deny them resources and show fearful residents that defenders still fight for Westfall's peace and prosperity.",
    "spoiler": 0
   }
  ],
@@ -56,7 +56,7 @@
     "defias in moonbrook",
     "why pillagers at quarry"
    ],
-   "answer": "The Defias Brotherhood seeks to cripple Westfall's food supply and seize raw materials. By taking the Gold Coast Quarry, they control stone and minerals; capturing Moonbrook and farmsteads drives off honest folk and gives them bases for their criminal enterprise."
+   "answer": "The Defias Brotherhood seeks to cripple Westfall's food supply and seize raw materials. By taking the Gold Coast Quarry, they control stone and minerals. Capturing Moonbrook and farmsteads drives off honest folk and gives them bases for their criminal enterprise."
   },
   {
    "q": "Why hasn't Stormwind sent soldiers to Westfall?",
@@ -65,7 +65,7 @@
     "why no help from stormwind",
     "king varian westfall"
    ],
-   "answer": "Stormwind has not sent soldiers because King Varian Wrynn has mysteriously vanished, leaving the boy-king Anduin on the throne under Highlord Bolvar Fordragon's regency. The noble House of Nobles is heavily gridlocked, stretching crown resources thin and leaving outlying territories like Westfall to local defenders."
+   "answer": "Stormwind has sent no soldiers because King Varian Wrynn has mysteriously vanished. The boy-king Anduin sits on the throne under Highlord Bolvar Fordragon's regency. Gridlock in the noble House of Nobles stretches crown resources thin, leaving outlying territories like Westfall to local defenders."
   },
   {
    "q": "Where are Defias Pillagers and Looters found?",
@@ -115,5 +115,5 @@
  "attribution": [
   "The People's Militia (2)"
  ],
- "style": 1
+ "style": 2
 }

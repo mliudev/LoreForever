@@ -8,11 +8,11 @@
   "wiki": "Donyal Tovald",
   "refs": 2
  },
- "summary": "In Stormwind Keep, Donyal Tovald tends the Royal Library’s historical works. Under an initiative sponsored by young King Anduin Wrynn, he preserves and copies books for wider public use.",
+ "summary": "In Stormwind Keep, Donyal Tovald tends the Royal Library’s historical works. Young King Anduin Wrynn sponsors his work to preserve and copy books for wider public use.",
  "sections": [
   {
    "title": "Steward of Stormwind's History",
-   "body": "Donyal Tovald tends the Royal Library’s collection in Stormwind Keep. The library holds historical accounts, scrolls, and scholarly volumes, chiefly for the nobility and royal court. Young King Anduin Wrynn has sponsored an effort to make that knowledge more accessible to ordinary citizens. Tovald preserves and copies the texts, helping keep the Alliance’s lessons and triumphs recorded amid the kingdom’s political troubles.",
+   "body": "Donyal Tovald tends the Royal Library in Stormwind Keep. Its historical accounts, scrolls, and scholarly volumes chiefly serve the nobility and royal court. Young King Anduin Wrynn has sponsored an effort to share that knowledge with ordinary citizens. So Tovald preserves and copies the texts, keeping the Alliance’s lessons and triumphs recorded amid the kingdom’s political troubles.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "royal librarian",
     "donyal tovald lore"
    ],
-   "answer": "Donyal Tovald is a human librarian in Stormwind Keep’s Royal Library. He tends the kingdom’s archives and oversees King Anduin Wrynn’s effort to share copies of historical books with the public."
+   "answer": "Donyal Tovald tends the Royal Library in Stormwind Keep. He cares for the kingdom’s archives and oversees King Anduin Wrynn’s effort to share copies of historical books with the public."
   },
   {
    "q": "Where can I find Donyal Tovald?",
@@ -50,7 +50,7 @@
     "is tovald church of light",
     "tovald faction"
    ],
-   "answer": "Tovald works directly under the crown as a keeper of royal archives in Stormwind Keep. He focuses on historical and scholarly texts rather than ecclesiastical or political doctrine."
+   "answer": "Tovald works directly under the crown as keeper of royal archives in Stormwind Keep. He focuses on historical and scholarly texts rather than ecclesiastical or political doctrine."
   }
  ],
  "angles": [
@@ -60,7 +60,7 @@
   },
   {
    "target": "class:Mage",
-   "text": "As a mage visiting Stormwind Keep, you may value Tovald’s care for written knowledge, though these texts are mainly historical rather than arcane."
+   "text": "As a mage visiting Stormwind Keep, you may value Tovald’s care for written knowledge. These texts are mainly historical rather than arcane."
   }
  ],
  "keywords": [
@@ -83,5 +83,5 @@
  "attribution": [
   "Donyal Tovald"
  ],
- "style": 1
+ "style": 2
 }

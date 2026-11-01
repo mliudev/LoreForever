@@ -14,7 +14,7 @@
  "angles": [
   {
    "target": "class:Shaman",
-   "text": "A foundational trial for shamans communing with fire, requiring the use of a sacred sapta to perceive and confront the spirits of flame."
+   "text": "As a shaman, you undertake a foundational trial in communion with fire. Sacred sapta lets you perceive and confront the spirits of flame."
   }
  ],
  "faq": [
@@ -24,7 +24,7 @@
     "call of fire quest",
     "fire totem trial"
    ],
-   "answer": "Call of Fire is a sacred rite of passage where an initiate drinks a specially prepared fire sapta to perceive a spirit of flame, confronts it in combat, and offers its glowing ember to a brazier to earn the favor of fire.",
+   "answer": "Call of Fire is a sacred rite in which an initiate drinks prepared fire sapta, faces a spirit of flame, and offers its ember to a brazier to earn fire's favor.",
    "q": "What is the Call of Fire?"
   },
   {
@@ -33,7 +33,7 @@
     "why drink sapta",
     "what does sapta do"
    ],
-   "answer": "The fire sapta is a prepared draught that opens an initiate's spiritual sight, allowing them to see the hidden elemental spirit awaiting them at the mountain peak.",
+   "answer": "Fire sapta is a prepared draught that opens an initiate's spiritual sight, revealing the elemental spirit waiting at the mountain peak.",
    "q": "What is the purpose of the fire sapta?"
   },
   {
@@ -42,7 +42,7 @@
     "call of fire mob",
     "fire manifestation"
    ],
-   "answer": "The trial calls upon the initiate to confront a Minor Manifestation of Fire atop the peak, which waits until struck before engaging in battle.",
+   "answer": "A Minor Manifestation of Fire awaits the initiate atop the peak. It does not fight until struck.",
    "q": "What spirit appears during the trial?"
   },
   {
@@ -51,7 +51,7 @@
     "call of fire fight",
     "fire spirit timer"
    ],
-   "answer": "The elemental spirit grows fiercer and hotter the longer the battle draws out, making a swift, decisive strike vital to subduing it before its flames become overwhelming.",
+   "answer": "The elemental spirit grows fiercer and hotter as the battle wears on. A swift, decisive strike can subdue it before its flames overwhelm the initiate.",
    "q": "Why must the fire spirit be defeated quickly?"
   },
   {
@@ -60,7 +60,7 @@
     "call of fire brazier",
     "shrine of eternal flame brazier"
    ],
-   "answer": "After defeating the Minor Manifestation of Fire, its glowing embers are carried to the brazier atop the Shrine of Eternal Flame to kindle the ritual torch.",
+   "answer": "After the Minor Manifestation of Fire is defeated, its glowing embers are carried to the brazier atop the Shrine of Eternal Flame to kindle the ritual torch.",
    "q": "What is done with the glowing embers?"
   },
   {
@@ -69,7 +69,7 @@
     "what does the ritual give",
     "fire favor"
    ],
-   "answer": "Completing the ritual and kindling the torch earns the direct favor and communion of the fire elementals, establishing a vital bond with the flames.",
+   "answer": "Kindling the torch earns the direct favor and communion of the fire elementals. The rite establishes a bond with the flames.",
    "q": "What does earning the fire's favor mean?"
   }
  ],
@@ -87,18 +87,19 @@
  ],
  "sections": [
   {
-   "body": "The Call of Fire is a traditional trial of spirit and courage. Guided by elemental lore, an initiate receives a prepared fire sapta to awaken their senses to the unseen world. Upon taking the draught at the shrine and ascending toward the peak, the boundary between mortal eyes and primal forces thins, revealing a dormant manifestation of fire awaiting challenge.",
+   "body": "An initiate receives prepared fire sapta, guided by elemental lore. The draught awakens their senses to the unseen world. After drinking at the shrine, they climb toward the peak, where mortal sight gives way to primal forces. There, a dormant manifestation of fire awaits their challenge.",
    "spoiler": 0,
    "title": "The Rite of Flame"
   },
   {
-   "body": "Confronting the Minor Manifestation of Fire tests both decisiveness and endurance. The elemental spirit does not attack unprovoked, but once challenged, its intensity swells with every passing moment. Overcoming it yields glowing embers, which must be brought to the brazier atop the Shrine of Eternal Flame to kindle the torch and secure the spirit's enduring favor.",
+   "body": "The Minor Manifestation of Fire tests an initiate's resolve and endurance. It does not attack until challenged, then grows fiercer with each passing moment. When subdued, it yields glowing embers. Carry them to the brazier atop the Shrine of Eternal Flame to kindle the torch and win the spirit's lasting favor.",
    "spoiler": 0,
    "title": "Facing the Manifestation"
   }
  ],
- "summary": "The Call of Fire is an elemental trial where an initiate drinks a prepared sapta to perceive and confront a Minor Manifestation of Fire. By subduing the spirit and placing its embers into the sacred brazier, the petitioner earns the favor of the flame.",
+ "summary": "At the shrine, an initiate drinks fire sapta to face the trial called Call of Fire. The rite asks them to subdue a spirit and offer its embers to the sacred brazier.",
  "attribution": [
   "In-game quest text: Call of Fire"
- ]
+ ],
+ "style": 2
 }

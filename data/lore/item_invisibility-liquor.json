@@ -10,16 +10,16 @@
    "quest:114"
   ]
  },
- "summary": "Invisibility Liquor gives Maybell Maclure a way to slip from her family's sight and meet Tommy Joe Stonefield. Their households are locked in a feud.",
+ "summary": "Maybell Maclure slips from her family's sight with Invisibility Liquor to meet Tommy Joe Stonefield. Their households remain bound by a bitter feud.",
  "sections": [
   {
    "title": "A Potion for Star-Crossed Lovers",
-   "body": "Tommy Joe Stonefield seeks a quiet meeting with Maybell Maclure, though their families' feud keeps the households apart. Their kin watch closely, and ordinary secrecy is not enough. Invisibility Liquor lets the drinker pass unseen across the disputed farmland.",
+   "body": "Tommy Joe Stonefield seeks a quiet meeting with Maybell Maclure. But their families' feud keeps the households apart, and their kin watch closely. Ordinary secrecy will not do. Invisibility Liquor lets its drinker cross the disputed farmland unseen.",
    "spoiler": 0
   },
   {
    "title": "Unorthodox Elwynn Alchemy",
-   "body": "Crystal Kelp Fronds from waters where murlocs dwell go into the brew. When Maybell Maclure drinks it, she vanishes from sight and slips into the woods for a secret meeting.",
+   "body": "Crystal Kelp Fronds from waters where murlocs dwell go into the brew. Maybell Maclure drinks the liquor and vanishes from sight. Then she slips into the woods for a secret meeting.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "invisibility brew",
     "what does it do"
    ],
-   "answer": "Invisibility Liquor is an alcoholic drink with magic that makes the drinker invisible for a short time."
+   "answer": "For a short time, Invisibility Liquor makes the drinker invisible. Its magic is carried in an alcoholic drink."
   },
   {
    "q": "Who uses the Invisibility Liquor?",
@@ -47,7 +47,7 @@
     "liquor ingredients",
     "crystal kelp liquor"
    ],
-   "answer": "The liquor is brewed with Crystal Kelp Fronds gathered from riverbeds and lake shores in Elwynn Forest, where murlocs hoard the plants."
+   "answer": "Crystal Kelp Fronds gathered from riverbeds and lake shores in Elwynn Forest go into the brew. Murlocs hoard the plants."
   },
   {
    "q": "Can players drink the Invisibility Liquor themselves?",
@@ -55,13 +55,13 @@
     "can i drink it",
     "drink invisibility liquor"
    ],
-   "answer": "No. Invisibility Liquor is meant for delivery to Maybell Maclure, so she can slip away from her family."
+   "answer": "No. Invisibility Liquor is meant for Maybell Maclure, so she can slip away from her family."
   }
  ],
  "angles": [
   {
    "target": "class:Mage",
-   "text": "As a mage, you know the Kirin Tor arcanists spend years mastering illusions and invisibility spells. Elwynn locals make a rough imitation with fermented spirits and waterlogged kelp."
+   "text": "As a mage, you know Kirin Tor arcanists spend years mastering illusions and invisibility spells. Elwynn locals make a rough imitation with fermented spirits and waterlogged kelp."
   },
   {
    "target": "race:Human",
@@ -89,5 +89,5 @@
   "Invisibility Liquor",
   "The Escape (Alliance)"
  ],
- "style": 1
+ "style": 2
 }

@@ -17,16 +17,16 @@
   "wiki": "Deliver Thomas' Report",
   "chain": []
  },
- "summary": "In eastern Elwynn, Guard Thomas sends word of two dead guards and rising danger. He asks you to carry the report to Marshal Dughan in Goldshire, where the garrison has few hands to spare.",
+ "summary": "In eastern Elwynn, Guard Thomas sends word of two dead guards and rising danger. He asks you to carry the report to Marshal Dughan in Goldshire, where few hands remain to defend the roads.",
  "sections": [
   {
    "title": "Bad Tidings from the East",
-   "body": "Guard Thomas watches the bridges into eastern Elwynn, where river traffic meets the wilderness. Guards Malakai and Rolf have been killed by aggressive murloc tribes. With his remaining guards too few to contain them, Thomas sends you down the road to Goldshire with an urgent report.",
+   "body": "Guard Thomas watches the bridges into eastern Elwynn, where river traffic meets the wilderness. Aggressive murloc tribes have killed Guards Malakai and Rolf. Thomas has too few guards left to contain them, so he sends you down the road to Goldshire with an urgent report.",
    "spoiler": 0
   },
   {
    "title": "A Garrison Stretched to the Brink",
-   "body": "Marshal Dughan receives Thomas' report in Goldshire, already struggling to keep patrols on the roads. Kobolds infest the area, Defias bandits threaten travelers, and Stormwind City has sent no reinforcements. The deaths of two experienced guards add to his burden. Murlocs may soon threaten Goldshire itself, while the defenses across the region grow ever thinner.",
+   "body": "Marshal Dughan receives Thomas' report in Goldshire, where he already struggles to keep patrols on the roads. Kobolds infest the area, Defias bandits threaten travelers, and Stormwind City has sent no reinforcements. The deaths of two experienced guards deepen his burden. Murlocs may soon threaten Goldshire itself, while the region's defenses grow ever thinner.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who died",
     "dead guards"
    ],
-   "answer": "Malakai and Rolf were Stormwind guards stationed in eastern Elwynn under Guard Thomas. Murloc tribes overwhelmed and killed them while they patrolled near the rivers and lakes."
+   "answer": "Malakai and Rolf were Stormwind guards stationed in eastern Elwynn under Guard Thomas. Murloc tribes overwhelmed and killed them as they patrolled near the rivers and lakes."
   },
   {
    "q": "Why is Guard Thomas asking an adventurer to deliver the report?",
@@ -47,7 +47,7 @@
     "why courier",
     "cant thomas send a guard"
    ],
-   "answer": "Guard Thomas has too few troops to spare. If he leaves his post or sends one of his few surviving sentries, the eastern bridges will be left undefended."
+   "answer": "Guard Thomas has too few troops to spare. If he leaves his post or sends one of his few surviving sentries, the eastern bridges will stand undefended."
   },
   {
    "q": "What threat do the murlocs pose to Goldshire?",
@@ -56,7 +56,7 @@
     "will murlocs attack goldshire",
     "how bad are murlocs"
    ],
-   "answer": "The murloc tribes along the eastern rivers are spreading west. Marshal Dughan fears they may reach Goldshire's outskirts within the week, and he has too few guards to hold the perimeter."
+   "answer": "Murloc tribes along the eastern rivers are spreading west. Marshal Dughan fears they may reach Goldshire's outskirts within the week, and he has too few guards to hold the perimeter."
   },
   {
    "q": "Why doesn't Stormwind City send reinforcements to Elwynn?",
@@ -65,7 +65,7 @@
     "where are the troops",
     "why are defenses thin"
    ],
-   "answer": "Stormwind's military resources are stretched across several fronts, and the disappearance of King Varian Wrynn has left the capital politically paralyzed. Outlying settlements and frontier bridges are largely left to local town watches and hired adventurers."
+   "answer": "Stormwind's military resources are stretched across several fronts. King Varian Wrynn's disappearance has left the capital politically paralyzed, so outlying settlements and frontier bridges are largely left to local town watches and hired adventurers."
   },
   {
    "q": "What happens after Marshal Dughan reads the report?",
@@ -83,13 +83,13 @@
     "where is thomas",
     "thomas location"
    ],
-   "answer": "Guard Thomas is stationed in eastern Elwynn Forest, guarding the bridges over the rivers between the heart of the forest and the wilder borders near the Redridge Mountains."
+   "answer": "Guard Thomas is stationed in eastern Elwynn Forest, guarding bridges over the rivers between the heart of the forest and the wilder borders near the Redridge Mountains."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Carrying Thomas' report shows how vulnerable the Alliance's central kingdom has become, with even roads outside the capital slipping from garrison control."
+   "text": "Carrying Thomas' report shows how vulnerable the Alliance's central kingdom has become. Even roads outside the capital are slipping from garrison control."
   },
   {
    "target": "class:Warrior",
@@ -122,5 +122,5 @@
  "attribution": [
   "Deliver Thomas' Report"
  ],
- "style": 1
+ "style": 2
 }

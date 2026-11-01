@@ -10,11 +10,11 @@
    "quest:3115"
   ]
  },
- "summary": "In Coldridge Valley, Alamar Grimm gives the Tainted Memorandum to novice gnome warlocks. His note urges them to leave old paths behind and seek power through the dark arts.",
+ "summary": "In Coldridge Valley, Alamar Grimm urges novice gnome warlocks to leave old paths behind and seek power through the dark arts.",
  "sections": [
   {
    "title": "A Discreet Summons",
-   "body": "At Anvilmar, fel practitioners are neither celebrated nor widely trusted. Alamar Grimm gives the Tainted Memorandum to young gnomes who study forbidden arts. He rejects the Holy Light and ordinary weapons, pointing to Gnomeregan’s fall as proof that old ways and tinkering failed their people. Grimm sees reliance on dwarven charity as a dead end. He urges gnomes to claim undeniable power and summon minions who will obey without question, if they are to secure their own future.",
+   "body": "At Anvilmar, few celebrate fel practitioners, and many distrust them. Alamar Grimm gives the Tainted Memorandum to young gnomes who study forbidden arts. He rejects the Holy Light and ordinary weapons. To him, Gnomeregan’s fall proves that old ways and tinkering failed their people.\n\nGrimm sees reliance on dwarven charity as a dead end. He urges gnomes to claim undeniable power and summon minions who obey without question. Only then, he believes, can they secure their own future.",
    "spoiler": 0
   }
  ],
@@ -34,7 +34,7 @@
     "why tainted",
     "tainted letter lore"
    ],
-   "answer": "The memorandum is considered tainted because it deals with forbidden warlock magic. Its title reflects the distrust and stigma around demonic and fel power in Dun Morogh, where dwarven hosts keep practitioners at arm’s length."
+   "answer": "The memorandum deals with forbidden warlock magic. Its title reflects the distrust of demonic and fel power in Dun Morogh, where dwarven hosts keep practitioners at arm’s length."
   },
   {
    "q": "What does Alamar Grimm say about Gnomeregan?",
@@ -42,17 +42,17 @@
     "alamar grimm gnomeregan",
     "alamar grimm views"
    ],
-   "answer": "Alamar Grimm blames traditional arcane magic and careless tinkering for bringing gnomes close to extinction when Gnomeregan fell. He believes the dwarves see gnomes as second-class citizens, and urges warlocks to claim their own absolute power instead of waiting for Alliance help."
+   "answer": "Alamar Grimm blames traditional arcane magic and careless tinkering for bringing gnomes close to extinction when Gnomeregan fell. He believes dwarves see gnomes as second-class citizens, and urges warlocks to claim their own absolute power instead of waiting for Alliance help."
   }
  ],
  "angles": [
   {
    "target": "class:Warlock",
-   "text": "As a warlock, this note introduces your training under Alamar Grimm. It frames dark summoning as a way to gain control and power."
+   "text": "As a warlock, you train under Alamar Grimm. He presents dark summoning as a path to control and power."
   },
   {
    "target": "race:Gnome",
-   "text": "As a gnome, you hear Grimm’s appeal to the resentment over Gnomeregan’s loss and your people’s perceived place as dependent refugees in dwarven lands."
+   "text": "As a gnome, you hear Grimm appeal to resentment over Gnomeregan’s loss and your people’s perceived place as dependent refugees in dwarven lands."
   }
  ],
  "keywords": [
@@ -75,5 +75,5 @@
   "Tainted Memorandum",
   "Tainted Memorandum (quest)"
  ],
- "style": 1
+ "style": 2
 }

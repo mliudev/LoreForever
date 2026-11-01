@@ -17,16 +17,16 @@
   "wiki": "Protecting the Herd",
   "chain": []
  },
- "summary": "At Amberstill Ranch in Dun Morogh, Rudra Amberstill faces the loss of mountain rams to Vagash. With Ironforge's forces spread thin, the breeders need passing fighters to defend their herd.",
+ "summary": "At Amberstill Ranch, Rudra Amberstill fears Vagash will take more prized mountain rams. He asks passing fighters to protect the herd and bring proof of the predator’s death.",
  "sections": [
   {
    "title": "A Threat to the Ranch",
-   "body": "Vagash has taken two mountain rams from Amberstill Ranch. The ranch supplies the Bronzebeard dwarves with riding and working beasts, and the herd matters to Dun Morogh's rustic economy. The savage predator prowls the crags above the ranch, hunting local livestock.",
+   "body": "Vagash has taken two prized mountain rams from Amberstill Ranch. The ranch supplies the Bronzebeard dwarves with riding and working beasts, and the herd supports Dun Morogh’s rustic economy. Vagash hunts local livestock in the crags above the ranch.",
    "spoiler": 0
   },
   {
    "title": "Strained Defenses",
-   "body": "Ironforge's forces are spread thin across the realm, supporting the Alliance on distant frontiers. With no military patrol on the ridgelines, Rudra Amberstill asks independent fighters to hunt Vagash and bring back one of the beast's deadly fangs as proof.",
+   "body": "Ironforge’s forces are spread thin across the realm, supporting the Alliance on distant frontiers. With no military patrol on the ridgelines, Rudra Amberstill asks independent fighters to hunt Vagash. He wants one of the beast’s deadly fangs as proof.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "vagash monster",
     "vagash lore"
    ],
-   "answer": "Vagash is a dangerous predator that stalks the snowy ridges above Amberstill Ranch. His strength and vicious appetite threaten the ranch's rams and travelers in eastern Dun Morogh."
+   "answer": "Vagash is a dangerous predator that stalks the snowy ridges above Amberstill Ranch. His strength and vicious appetite threaten the ranch’s prized rams and travelers in eastern Dun Morogh."
   },
   {
    "q": "Where can Vagash be found?",
@@ -56,7 +56,7 @@
     "where is ironforge army",
     "why help amberstill"
    ],
-   "answer": "Ironforge's forces are spread thin across distant garrisons and Alliance campaigns. Amberstill Ranch has no nearby military help, so its breeders must defend the homestead or seek capable fighters."
+   "answer": "Ironforge’s forces are spread thin across distant garrisons and Alliance campaigns. Amberstill Ranch has no nearby military help, so its breeders must defend the homestead or seek capable fighters."
   },
   {
    "q": "Who is Veron mentioned by Rudra?",
@@ -65,7 +65,7 @@
     "veron amberstill",
     "veron"
    ],
-   "answer": "Veron Amberstill breeds, trains, and tends the Bronzebeards' riding rams at the ranch. Rudra says Veron will be relieved when the predator stalking their prized animals is gone."
+   "answer": "Veron Amberstill breeds, trains, and tends the Bronzebeards’ riding rams at the ranch. Rudra says Veron will be relieved when the predator stalking their prized animals is gone."
   },
   {
    "q": "Why is proof of the kill required?",
@@ -74,7 +74,7 @@
     "fang of vagash",
     "what is the proof"
    ],
-   "answer": "Rudra wants Vagash's fang as proof that the monster terrorizing the herd is dead, rather than some common prowler from the mountain slopes."
+   "answer": "Rudra wants Vagash’s fang as proof that the monster terrorizing the herd is dead, not some common prowler from the mountain slopes."
   },
   {
    "q": "What importance do the rams have to Dun Morogh?",
@@ -83,7 +83,7 @@
     "amberstill ram purpose",
     "dwarf rams lore"
    ],
-   "answer": "Mountain rams are hardy and sure-footed across Khaz Modan's freezing, rocky ground. They provide the dwarves with draft power, wool, and cavalry mounts."
+   "answer": "Mountain rams are hardy and sure-footed across Khaz Modan’s freezing, rocky ground. They provide the dwarves with draft power, wool, and cavalry mounts."
   }
  ],
  "angles": [
@@ -93,7 +93,7 @@
   },
   {
    "target": "class:Hunter",
-   "text": "As a hunter, tracking Vagash to his mountain den tests your skill in Dun Morogh's snowdrifts."
+   "text": "As a hunter, tracking Vagash to his mountain den tests your skill in Dun Morogh’s snowdrifts."
   },
   {
    "target": "faction:Alliance",
@@ -118,5 +118,5 @@
  "attribution": [
   "Protecting the Herd"
  ],
- "style": 1
+ "style": 2
 }

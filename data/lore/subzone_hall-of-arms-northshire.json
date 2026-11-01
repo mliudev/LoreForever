@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Hall of Arms (Northshire)"
  },
- "summary": "In Northshire Abbey, recruits train with the Stormwind Army in the Hall of Arms, south of the Main Hall.",
+ "summary": "Recruits train with the Stormwind Army in Northshire Abbey’s Hall of Arms, south of the Main Hall.",
  "sections": [
   {
    "title": "Groundwork of the Guard",
-   "body": "The Hall of Arms rings with blunted steel and the measured cadence of instruction. South of Northshire Abbey’s Main Hall, the wing trains human fighters and devout aspirants who take up arms for the Stormwind Army. Veteran battle instructors and paladin mentors teach the postures and disciplines needed to defend Elwynn Forest from kobolds, Defias bandits, and gnoll raiders. Across the courtyard, clerics and scholars study ancient tomes in the Library Wing.",
+   "body": "Blunted steel rings through the Hall of Arms, and instruction keeps a measured cadence. South of Northshire Abbey’s Main Hall, human fighters and devout aspirants train for the Stormwind Army. Veteran battle instructors and paladin mentors teach the postures and disciplines needed to defend Elwynn Forest from kobolds, Defias bandits, and gnoll raiders. Across the courtyard, clerics and scholars study ancient tomes in the Library Wing.",
    "spoiler": 0
   }
  ],
@@ -41,7 +41,7 @@
     "where is hall of arms",
     "abbey layout"
    ],
-   "answer": "The Hall of Arms stands on the southern side of Northshire Abbey, directly accessible from the central Main Hall. The Library Wing lies across the abbey courtyard."
+   "answer": "The Hall of Arms lies south of Northshire Abbey’s Main Hall. Across the courtyard stands the Library Wing."
   }
  ],
  "angles": [
@@ -75,5 +75,5 @@
  "attribution": [
   "Hall of Arms (Northshire)"
  ],
- "style": 1
+ "style": 2
 }

@@ -11,11 +11,11 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "Orgrimmar is accepting wool cloth donations, with recognition promised for sixty pieces. Its stores already have some wool, and the city expects to gather enough from other donors.",
+ "summary": "In Orgrimmar, A Donation of Wool asks for help gathering cloth. The city has wool in its stores and expects more donors to bring in enough for the drive.",
  "sections": [
   {
    "title": "Wool for Orgrimmar",
-   "body": "You are asked to give sixty pieces of wool cloth for recognition from Orgrimmar. The city has some wool in its stores and expects other donors to help support the drive.",
+   "body": "Orgrimmar asks you to give sixty pieces of wool cloth. In return, the city promises recognition. Its stores already hold some wool, and other donors are expected to help support the drive.",
    "spoiler": 0
   }
  ],
@@ -34,7 +34,7 @@
     "how many wool",
     "sixty wool"
    ],
-   "answer": "The donation is sixty pieces of wool cloth."
+   "answer": "Orgrimmar asks for sixty pieces of wool cloth."
   },
   {
    "q": "What do I get for donating wool?",
@@ -42,7 +42,7 @@
     "donation recognition",
     "wool reward"
    ],
-   "answer": "A donation of sixty pieces earns you full recognition from Orgrimmar for your generosity."
+   "answer": "You earn full recognition from Orgrimmar for donating sixty pieces of wool cloth."
   },
   {
    "q": "Why is Orgrimmar collecting wool?",
@@ -58,7 +58,7 @@
     "wool stores",
     "how much wool"
    ],
-   "answer": "Yes. Orgrimmar has wool in its stores and expects to acquire enough from other donors to support the drive."
+   "answer": "Yes. Orgrimmar has wool in its stores and expects other donors to bring in enough for the drive."
   }
  ],
  "angles": [],
@@ -74,7 +74,7 @@
  "related": [
   "zone:orgrimmar"
  ],
- "style": 1,
+ "style": 2,
  "attribution": [
   "In-game quest text: A Donation of Wool"
  ]

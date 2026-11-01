@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Trade District"
  },
- "summary": "Past the Valley of Heroes, Trade District draws Stormwind’s merchants and travelers. Its bank, Auction House, guild registry, and shops serve citizens and adventurers alike.",
+ "summary": "Trade District draws merchants and travelers through Stormwind’s busy heart. Its bank, Auction House, guild registry, and shops serve citizens and adventurers alike.",
  "sections": [
   {
    "title": "The Crossroads of Commerce",
-   "body": "You pass beneath the stone arches from the Valley of Heroes into Trade District. The open plaza is Stormwind’s main marketplace and a hub for goods and travel. The Auction House stands at its center, with the Stormwind Counting House, the city’s main bank, and The Gilded Rose nearby. From here, routes lead to Old Town, the Cathedral Square, and the Mage Quarter. Coin, raw goods, and supplies for adventurers pass through the district on their way across the realm.",
+   "body": "You pass beneath the stone arches from the Valley of Heroes into Trade District. The open plaza is Stormwind’s main marketplace and a crossroads for goods and travel. The Auction House stands at its center, with the Stormwind Counting House, the city’s main bank, and The Gilded Rose nearby.\n\nFrom here, roads lead to Old Town, Cathedral Square, and the Mage Quarter. Coin, raw goods, and adventurers’ supplies pass through the district on their way across the realm.",
    "spoiler": 0
   },
   {
    "title": "Bazaars and Guild Halls",
-   "body": "Shops line the paved avenues and canals, offering goods for daily needs and travel. Weller’s Arsenal and Lionheart Armory sell blades and mail, while The Empty Quiver offers bows. Stalls sell fresh flowers and aged vintages from the Gallina Winery. Just inside the gates, the Stormwind Visitor’s Center handles newly registered guild charters and tabard designs. On the eastern side, an elevated ramp leads to the Gryphon Roost, connecting Stormwind’s markets with Alliance territories.",
+   "body": "Shops line the paved avenues and canals with goods for daily needs and travel. Weller’s Arsenal and Lionheart Armory sell blades and mail, while The Empty Quiver offers bows. Stalls carry fresh flowers and aged vintages from the Gallina Winery.\n\nJust inside the gates, the Stormwind Visitor’s Center handles newly registered guild charters and tabard designs. On the eastern side, an elevated ramp leads to the Gryphon Roost, linking Stormwind’s markets with Alliance territories.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "where is trade district",
     "how to get to trade district"
    ],
-   "answer": "Trade District lies just past Stormwind’s main gates and the Valley of Heroes. Cathedral Square is to the northwest, Old Town to the east, and the Mage Quarter lies across the canals to the southwest."
+   "answer": "Trade District lies just past Stormwind’s main gates and the Valley of Heroes. Cathedral Square is to the northwest, Old Town to the east, and the Mage Quarter is across the canals to the southwest."
   },
   {
    "q": "Where can I find the bank and the inn?",
@@ -37,7 +37,7 @@
     "gilded rose location",
     "stormwind bank trade district"
    ],
-   "answer": "The Stormwind Counting House and The Gilded Rose are along Trade District’s southwest perimeter, near the main thoroughfare."
+   "answer": "The Stormwind Counting House and The Gilded Rose stand along Trade District’s southwest perimeter, near the main thoroughfare."
   },
   {
    "q": "Where do I register a guild or design a tabard in Stormwind?",
@@ -46,7 +46,7 @@
     "guild registrar",
     "make a guild"
    ],
-   "answer": "The Stormwind Visitor’s Center is on your left just inside Trade District’s city gates. The Guild Master and tabard design services are there."
+   "answer": "The Stormwind Visitor’s Center is on your left just inside Trade District’s city gates. There, the Guild Master handles guild registration and tabard design."
   },
   {
    "q": "Where can I take a gryphon flight from the Trade District?",
@@ -55,7 +55,7 @@
     "gryphon roost stormwind",
     "where is flight master"
    ],
-   "answer": "Take the stone ramp on Trade District’s eastern side to reach the Gryphon Roost, where the flight master sends gryphons across the kingdom and beyond."
+   "answer": "Take the stone ramp on Trade District’s eastern side to the Gryphon Roost. There, the flight master sends gryphons across the kingdom and beyond."
   }
  ],
  "angles": [
@@ -86,5 +86,5 @@
  "attribution": [
   "Trade District"
  ],
- "style": 1
+ "style": 2
 }

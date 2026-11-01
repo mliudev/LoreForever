@@ -23,16 +23,16 @@
    "The Binding (Felhunter)"
   ]
  },
- "summary": "Your search for the Tome of the Cabal leads from Ironforge to a lost manuscript and a sunken ship. Its scattered pages hold rites for binding a felhunter.",
+ "summary": "From Ironforge, your search for the Tome of the Cabal leads to a lost manuscript and a sunken ship. Its scattered pages hold rites for binding a felhunter.",
  "sections": [
   {
    "title": "A Divided Grimoire",
-   "body": "Only one copy of the Tome of the Cabal was ever written, and violence left it in pieces. Its remnants were torn apart, defaced, and scattered to distant corners of the world. A tattered manuscript, ripped from the binding, crossed the sea to Kalimdor and fell into the hands of centaur clans. The other section was sent by sea from Lordaeron toward Khaz Modan, but its vessel sank before reaching port.",
+   "body": "Only one copy of the Tome of the Cabal was ever written. Violence tore it apart and defaced its pages, sending the remnants to distant corners of the world. A tattered manuscript crossed the sea to Kalimdor, where centaur clans took it. The other half sailed from Lordaeron toward Khaz Modan, but the vessel sank before reaching port.",
    "spoiler": 0
   },
   {
    "title": "Across Sea and Canyon",
-   "body": "The missing pages lie beyond two dangers. Pages lost at sea washed ashore on the Hillsbrad coast, west of Southshore, where shoreline murlocs near Azurelode Mine took the waterlogged relics and wreckage. The dry half lies in Splithoof Hold in Thousand Needles, deep in centaur caverns, inside an ancient chest. Once the pieces are together, Krom Stoutarm can inspect the lost text before it returns to Strahad Farsan.",
+   "body": "Two dangers guard the missing pages. Those lost at sea washed ashore on the Hillsbrad coast, west of Southshore. Shoreline murlocs near Azurelode Mine took the waterlogged relics and wreckage. The dry half rests in an ancient chest deep in the centaur caverns of Splithoof Hold in Thousand Needles. Once the pieces are together, Krom Stoutarm can inspect the lost text before it returns to Strahad Farsan.",
    "spoiler": 0
   }
  ],
@@ -70,7 +70,7 @@
     "why was the book ripped",
     "who vandalized the tome"
    ],
-   "answer": "Only one copy of the Tome of the Cabal was ever transcribed. In its murky past, someone deliberately defaced it, tore a large section from the binding, and carried it to Kalimdor; the rest was lost at sea on a voyage to Menethil Harbor."
+   "answer": "Only one copy of the Tome of the Cabal was ever transcribed. In its murky past, someone deliberately defaced it, tore a large section from the binding, and carried it to Kalimdor. The rest was lost at sea on a voyage to Menethil Harbor."
   },
   {
    "q": "Who is Strahad Farsan and what does he have to do with this quest?",
@@ -124,5 +124,5 @@
  "attribution": [
   "Tome of the Cabal (Alliance, 2)"
  ],
- "style": 1
+ "style": 2
 }

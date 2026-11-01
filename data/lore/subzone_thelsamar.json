@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Thelsamar"
  },
- "summary": "Thelsamar keeps watch over the western bluffs above Loch Modan's great lake. The town lies on the road between Dun Morogh and the Wetlands, offering shelter and trade while troggs and ogres press in nearby.",
+ "summary": "In Thelsamar, travelers find shelter on the road between Dun Morogh and the Wetlands. The town keeps watch over the western bluffs above Loch Modan's great lake as troggs and ogres press nearby.",
  "sections": [
   {
    "title": "Heart of Loch Modan",
-   "body": "Thelsamar gathers dwarven life in the valley beneath stout stone and timber roofs. Travelers find the Stoutlager Inn, a gryphon roost, crafting stations, and supply merchants. The town sits on the road from the South Gate Pass into Dun Morogh to the Algaz Pass toward the Wetlands, so travelers crossing the region pass through its doors.",
+   "body": "Thelsamar gathers dwarven life beneath stout roofs of stone and timber. At the Stoutlager Inn, travelers can rest, and nearby they find a gryphon roost, crafting stations, and supply merchants. The town lies along the road from the South Gate Pass into Dun Morogh to the Algaz Pass toward the Wetlands. Travelers crossing the region pass through its doors.",
    "spoiler": 0
   },
   {
    "title": "Trouble on the Frontier",
-   "body": "Threats close in on Thelsamar from several sides. Troggs pour from Stonesplinter Valley to the south, and bears and other predators haunt Grizzlepaw Ridge. Ironforge's regular forces are stretched thin across the realm, leaving the local magistrate and Mountaineers to depend on travelers and mercenaries to patrol the trade roads and drive back hostile forces.",
+   "body": "Trouble presses in on Thelsamar from several sides. Troggs pour from Stonesplinter Valley to the south, while bears and other predators haunt Grizzlepaw Ridge. Ironforge's regular forces are stretched thin across the realm. So the local magistrate and Mountaineers rely on travelers and mercenaries to patrol the trade roads and drive back hostile forces.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "what is in thelsamar",
     "trainers in thelsamar"
    ],
-   "answer": "Thelsamar has lodging and refreshment at the Stoutlager Inn, a flightmaster with connections across central Khaz Modan, trade vendors, and an outdoor forge. Several trainers teach professions and combat skills to growing adventurers."
+   "answer": "Thelsamar offers lodging and refreshment at the Stoutlager Inn, a flightmaster with connections across central Khaz Modan, trade vendors, and an outdoor forge. Several trainers teach professions and combat skills to growing adventurers."
   },
   {
    "q": "Where does the road through Thelsamar lead?",
@@ -37,7 +37,7 @@
     "where does the path go",
     "travel from thelsamar"
    ],
-   "answer": "The road west of Thelsamar runs south through a tunnel into Dun Morogh and on toward Ironforge. Northward, it passes through the Algaz Gate and descends into the marshy Wetlands."
+   "answer": "The road west of Thelsamar runs south through a tunnel into Dun Morogh and onward toward Ironforge. Northward, it passes through the Algaz Gate and descends into the marshy Wetlands."
   },
   {
    "q": "Why is the town hiring so many mercenaries?",
@@ -45,7 +45,7 @@
     "why are there quests in thelsamar",
     "who is attacking thelsamar"
    ],
-   "answer": "The local Mountaineers face several threats at once. Stonesplinter troggs have overrun the southern excavations, wild beasts prowl the settlement's edges, and organized ogres are pressing in, so town leaders offer bounties to independent fighters."
+   "answer": "The local Mountaineers face several threats at once. Stonesplinter troggs have overrun the southern excavations, wild beasts prowl the settlement's edges, and organized ogres press in. Town leaders offer bounties to independent fighters."
   },
   {
    "q": "What is the famous local specialty here?",
@@ -53,7 +53,7 @@
     "thelsamar food",
     "blood sausages loch modan"
    ],
-   "answer": "Hunters and travelers prize Thelsamar Blood Sausages, a rich dwarven dish Vidra Hearthstove prepares at the Stoutlager Inn from local wildlife entrails and flesh."
+   "answer": "Hunters and travelers prize Thelsamar Blood Sausages, a rich dwarven dish prepared by Vidra Hearthstove at the Stoutlager Inn from local wildlife entrails and flesh."
   }
  ],
  "angles": [
@@ -88,5 +88,5 @@
  "attribution": [
   "Thelsamar"
  ],
- "style": 1
+ "style": 2
 }

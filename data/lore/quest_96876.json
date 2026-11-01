@@ -14,7 +14,7 @@
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "Young Horde adventurers venturing through southern Durotar frequently assist locals like Ukor, proving their worth and reliability by recovering lost personal belongings from dangerous wildlife."
+   "text": "As a young Horde adventurer in southern Durotar, you can help locals like Ukor by recovering belongings lost to dangerous wildlife."
   }
  ],
  "faq": [
@@ -23,7 +23,7 @@
     "who is ukor",
     "ukor durotar"
    ],
-   "answer": "Ukor is an inhabitant residing in southern Durotar. When confronted by a massive spider in the arid wilds, he was forced to abandon his belongings in a desperate bid to escape safely.",
+   "answer": "Ukor lives in southern Durotar. When a huge spider confronted him in the wilds, he abandoned his belongings to escape.",
    "q": "Who is Ukor?"
   },
   {
@@ -31,7 +31,7 @@
     "why was pack lost",
     "where did ukor lose pack"
    ],
-   "answer": "Ukor dropped his pack while fleeing for his life from a huge spider lurking in Durotar. He assumed his belongings were gone for good until an adventurer tracked down the bag.",
+   "answer": "Ukor dropped his pack while fleeing a huge spider in Durotar. He thought his belongings were gone for good until you found the bag.",
    "q": "Why did Ukor lose his pack?"
   },
   {
@@ -39,7 +39,7 @@
     "where to return pack",
     "ukor turn in"
    ],
-   "answer": "The recovered pack belongs to Ukor, who can be found waiting in southern Durotar ready to greet returning travelers.",
+   "answer": "Take the recovered pack to Ukor in southern Durotar, where he waits to greet returning travelers.",
    "q": "Where does the pack need to be taken?"
   },
   {
@@ -47,7 +47,7 @@
     "how is pack identified",
     "pack stitching"
    ],
-   "answer": "The pack is easily identified by Ukor's name, which is crudely stitched across the flap of the bag.",
+   "answer": "Ukor's name is crudely stitched across the bag's flap.",
    "q": "How is the pack identified?"
   },
   {
@@ -55,7 +55,7 @@
     "spider in durotar",
     "what spider attacked ukor"
    ],
-   "answer": "Ukor was ambushed by a huge spider wandering the terrain of southern Durotar, which terrified him enough to drop all his possessions and run for safety.",
+   "answer": "A huge spider ambushed Ukor in southern Durotar. Terrified, he dropped his possessions and ran for safety.",
    "q": "What kind of creature chased Ukor?"
   },
   {
@@ -63,7 +63,7 @@
     "ukor reward",
     "how does ukor react"
    ],
-   "answer": "Ukor is astonished and deeply grateful to see his lost belongings again, declaring the adventurer who retrieved his bag to be a true hero.",
+   "answer": "Ukor is astonished and deeply grateful to see his belongings again. He calls you a true hero for retrieving the bag.",
    "q": "What happens when you return the pack to Ukor?"
   }
  ],
@@ -82,18 +82,19 @@
  ],
  "sections": [
   {
-   "body": "While traversing the arid wilderness of southern Durotar, an adventurer comes across an abandoned traveling bag with the name \"Ukor\" crudely stitched across its flap. Surviving in the harsh lands of Durotar leaves little room for careless wandering, and finding discarded gear usually points to an unfortunate encounter nearby.",
+   "body": "In southern Durotar, you find a traveling bag with Ukor's name crudely stitched across its flap. In these harsh lands, discarded gear may point to trouble nearby.",
    "spoiler": 0,
    "title": "A Lost Belonging"
   },
   {
-   "body": "Upon returning the pack to Ukor in southern Durotar, the story behind its abandonment comes to light. Ukor dropped the bag in panic when he was ambushed by a massive spider native to the region, convinced he would never see his supplies again. Finding his bag intact earns the traveler heartfelt gratitude and praise.",
+   "body": "Ukor receives his pack in southern Durotar and tells how he lost it. A huge spider ambushed him, and he fled in panic, certain his supplies were gone. Finding the bag intact earns you Ukor's heartfelt gratitude and praise.",
    "spoiler": 0,
    "title": "Fleeing the Wilds"
   }
  ],
- "summary": "Ukor's Lost Pack is a dropped item found in the wilds of southern Durotar, bearing the crudely stitched name of its owner. It was discarded in haste when Ukor fled from a terrifying encounter with a huge spider native to the region.",
+ "summary": "In southern Durotar, Ukor's Lost Pack lies abandoned in the wilds. Its owner fled a huge spider and left his supplies behind.",
  "attribution": [
   "In-game quest text: Ukor's Lost Pack"
- ]
+ ],
+ "style": 2
 }

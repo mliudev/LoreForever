@@ -14,15 +14,15 @@
  "angles": [
   {
    "target": "class:Mage",
-   "text": "Mages understand the immense scholarly value of recovered texts treating ancient arcane traditions, making contributions to the library's magical collection particularly meaningful."
+   "text": "As a mage, you know the scholarly value of texts on ancient arcane traditions. Adding recovered works to a library's magical collection matters deeply."
   },
   {
    "target": "race:NightElf",
-   "text": "Nar'thalas was once an ancient center of Kaldorei arcane scholarship before the Sundering shattered the old world, making an almanac bearing its name a poignant link to ancient night elven history."
+   "text": "As a Night Elf, you know Nar'thalas as an ancient center of Kaldorei arcane scholarship before the Sundering shattered the old world. An almanac bearing its name links you to ancient night elven history."
   },
   {
    "target": "faction:Alliance",
-   "text": "Scholars and curators working within Alliance archives rely on enterprising adventurers to seek out rare manuscripts and expand the realm's gathered lore."
+   "text": "As an Alliance adventurer, you can help scholars and curators in Alliance archives seek rare manuscripts and expand the realm's gathered lore."
   }
  ],
  "faq": [
@@ -32,7 +32,7 @@
     "narthalas almanac quest",
     "almanac info"
    ],
-   "answer": "The Nar'thalas Almanac is an ancient manuscript of magical scholarship sought by curators to enrich a library's historical archives. Adventurers who recover such rare works deliver them into scholarly care so their preserved insights can be cataloged.",
+   "answer": "The Nar'thalas Almanac is a rare ancient manuscript of magical scholarship sought by curators for their historical archives. Those who recover it place its insights in scholarly care, where they can be preserved and cataloged.",
    "q": "What is the Nar'thalas Almanac?"
   },
   {
@@ -41,7 +41,7 @@
     "where does the almanac go",
     "almanac turn in"
    ],
-   "answer": "The almanac is presented to library scholars interested in ancient magical texts and historical archives. These curators actively seek additions to expand their shared institutional knowledge of the world's arcane heritage.",
+   "answer": "Library scholars interested in ancient magical texts and historical archives collect the almanac. Curators actively seek additions to expand their shared knowledge of the world's arcane heritage.",
    "q": "Who is collecting the Nar'thalas Almanac?"
   },
   {
@@ -50,7 +50,7 @@
     "narthalas lore",
     "where is narthalas"
    ],
-   "answer": "Nar'thalas was an ancient Kaldorei center of learning and magical study dating back before the Great Sundering. Surviving texts associated with the name represent fragments of pre-sundering arcanery and elven knowledge.",
+   "answer": "Nar'thalas was an ancient Kaldorei center of learning and magical study before the Great Sundering. Texts bearing its name preserve fragments of pre-Sundering arcane arts and elven knowledge.",
    "q": "What does the name Nar'thalas refer to?"
   },
   {
@@ -59,7 +59,7 @@
     "library purpose",
     "why books matter"
    ],
-   "answer": "Many historical records and magical treatises were displaced, lost, or buried in ruins across Azeroth. Scholars rely on recovered writings to broaden their understanding of arcane currents and safeguard fragile records against total loss.",
+   "answer": "Historical records and magical treatises were displaced, lost, or buried in ruins across Azeroth. Scholars study recovered writings to broaden their understanding of arcane currents and guard fragile records against being lost entirely.",
    "q": "Why are magical texts being collected for the library?"
   },
   {
@@ -68,7 +68,7 @@
     "other tomes",
     "more texts"
    ],
-   "answer": "Scholars welcome any recovered treatises, tomes, or forgotten manuscripts that shed light on arcane theory and ancient history, continually seeking additions to enrich their shelves.",
+   "answer": "Treatises, tomes, and forgotten manuscripts can shed light on arcane theory and ancient history. Scholars continually seek additions to enrich their shelves.",
    "q": "Can other magical works be brought to the library?"
   },
   {
@@ -77,7 +77,7 @@
     "does almanac have dark magic",
     "safe to read"
    ],
-   "answer": "The almanac represents a compiled record of study rather than a volatile forbidden artifact. It serves primarily as a valuable reference work for historians and practitioners studying historical magic.",
+   "answer": "The almanac is a compiled record of study, not a volatile forbidden artifact. Historians and practitioners can use it as a valuable reference on historical magic.",
    "q": "Is the Nar'thalas Almanac dangerous to handle?"
   }
  ],
@@ -94,18 +94,19 @@
  "related": [],
  "sections": [
   {
-   "body": "The Nar'thalas Almanac is a rare tome of arcane study originating from the ancient traditions of pre-Sundering night elven scholarship. For caretakers of grand archives, securing such a text rescues centuries-old lore from obscurity and adds a vital piece of history to the shelves. Adventurers who uncover these long-neglected works help bridge the divide between forgotten antiquity and modern scholarly understanding.",
+   "body": "A rare work of arcane study, the Nar'thalas Almanac comes from the ancient traditions of pre-Sundering night elven scholarship. For caretakers of great archives, securing the volume rescues centuries-old lore from obscurity and adds an important piece of history to their shelves. Those who uncover neglected works help bridge forgotten antiquity and modern scholarship.",
    "spoiler": 0,
    "title": "A Relic of Ancient Study"
   },
   {
-   "body": "Archivists and researchers continually seek out lost treatises, field notes, and chronicles scattered across Azeroth. Bringing the Nar'thalas Almanac into a dedicated library ensures it will be safeguarded, cataloged, and studied rather than left to rot in ruins or fall into careless hands. Each salvaged volume offers scholars fresh insight into the arcane arts of past eras.",
+   "body": "Across Azeroth, archivists and researchers seek lost treatises, field notes, and chronicles. Bringing the Nar'thalas Almanac to a dedicated library lets its keepers safeguard, catalog, and study it, rather than leave it to rot in ruins or fall into careless hands. Each recovered volume offers fresh insight into the arcane arts of past eras.",
    "spoiler": 0,
    "title": "Expanding the Archives"
   }
  ],
- "summary": "The Nar'thalas Almanac is a rare scholarly manuscript of ancient magical study sought by archivists to expand their library's collection. Recovering the volume brings lost arcane lore into safe hands where researchers can study its forgotten insights.",
+ "summary": "Scholars seek the Nar'thalas Almanac to preserve ancient magical study. Its recovery brings forgotten lore into a library where researchers can study it.",
  "attribution": [
   "In-game quest text: Nar'thalas Almanac"
- ]
+ ],
+ "style": 2
 }

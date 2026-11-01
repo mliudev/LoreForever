@@ -8,11 +8,11 @@
   "wiki": "Innkeeper Firebrew",
   "refs": 1
  },
- "summary": "At Ironforge’s Commons, Innkeeper Firebrew keeps travelers fed and rested at the Stonefire Tavern. His hearty dwarven fare welcomes mountaineers and visiting dignitaries beneath the mountain.",
+ "summary": "At the Stonefire Tavern in Ironforge’s Commons, Innkeeper Firebrew gives travelers food and rest. His hearty dwarven fare welcomes mountaineers and visiting dignitaries beneath the mountain.",
  "sections": [
   {
    "title": "Keeper of the Stonefire",
-   "body": "Innkeeper Firebrew welcomes travelers at the Stonefire Tavern in the Commons. The tavern sits in the Commons’ central ring, and many travelers entering Ironforge through the Great Gates find it first. Behind a counter laden with ale, stout, and roasted meat, Firebrew offers hospitality to those bound for Dun Morogh’s snowy passes or deeper into the mountain kingdom. Miners, riflemen, and emissaries gather there to escape the drafty tunnels and trade tales around the hearth. The Stonefire remains a lively crossroads in the heart of Ironforge.",
+   "body": "Innkeeper Firebrew welcomes travelers at the Stonefire Tavern in the Commons. The tavern stands in the Commons’ central ring, and many arriving through the Great Gates find it first. Behind a counter of ale, stout, and roasted meat, Firebrew serves those bound for Dun Morogh’s snowy passes or deeper into the mountain kingdom.\n\nMiners, riflemen, and emissaries gather there to leave the drafty tunnels behind and trade tales around the hearth. The Stonefire remains a lively crossroads in the heart of Ironforge.",
    "spoiler": 0
   }
  ],
@@ -82,5 +82,5 @@
  "attribution": [
   "Innkeeper Firebrew"
  ],
- "style": 1
+ "style": 2
 }

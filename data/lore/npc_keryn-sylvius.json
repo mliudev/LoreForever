@@ -12,7 +12,7 @@
  "sections": [
   {
    "title": "A Quiet Presence in Goldshire",
-   "body": "Keryn Sylvius keeps to the reading room above the Lion’s Pride Inn. Downstairs, travelers crowd the floor with town guards, while upstairs she watches the steady flow of road gossip. She mentors rogues learning their trade in Elwynn Forest. When promising operatives outgrow petty theft and roadside skulduggery, Sylvius discreetly sends them to Stormwind City to contact SI:7.",
+   "body": "Keryn Sylvius keeps to the reading room above the Lion’s Pride Inn. Below, travelers and town guards fill the common room. Upstairs, she listens to the steady flow of gossip from the road. She mentors rogues learning their trade in Elwynn Forest.\n\nWhen promising operatives outgrow petty theft and roadside skulduggery, Sylvius quietly sends them to Stormwind City. There, they can seek out SI:7.",
    "spoiler": 0
   }
  ],
@@ -33,7 +33,7 @@
     "can she train me",
     "keryn sylvius role"
    ],
-   "answer": "Keryn Sylvius trains rogues, teaching new abilities, resetting talent specializations, and guiding their progress."
+   "answer": "Keryn Sylvius trains rogues, teaching new abilities and resetting talent specializations. She also guides their progress."
   },
   {
    "q": "What connection does she have to SI:7?",
@@ -42,7 +42,7 @@
     "is she si:7",
     "does she work for stormwind"
    ],
-   "answer": "Once operatives prove their abilities, Sylvius directs them to seek out Master Mathias Shaw and SI:7 in Old Town, where Stormwind’s covert intelligence network is based."
+   "answer": "When operatives prove their abilities, Sylvius directs them to Master Mathias Shaw and SI:7 in Old Town. Stormwind’s covert intelligence network is based there."
   }
  ],
  "angles": [
@@ -52,7 +52,7 @@
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance member, you can count on Sylvius to keep covert eyes on Elwynn’s main roads from her post above Goldshire’s crossroads."
+   "text": "As an Alliance member, you can count on Sylvius to watch Elwynn’s main roads from her post above Goldshire’s crossroads."
   }
  ],
  "keywords": [
@@ -73,5 +73,5 @@
  "attribution": [
   "Keryn Sylvius"
  ],
- "style": 1
+ "style": 2
 }

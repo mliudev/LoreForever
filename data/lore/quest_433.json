@@ -17,16 +17,16 @@
   "wiki": "The Public Servant (Classic)",
   "chain": []
  },
- "summary": "At Gol'Bolar Quarry, Senator Mehr Stonehallow faces a trogg invasion that has halted mining in Dun Morogh. He calls for help against the Rockjaw Bonesnappers so miners can return to work.",
+ "summary": "At Gol'Bolar Quarry, Senator Mehr Stonehallow calls for aid against troggs that have halted mining in Dun Morogh. He wants the Rockjaw Bonesnappers driven out so miners can return to work.",
  "sections": [
   {
    "title": "A Senator in the Field",
-   "body": "Senator Mehr Stonehallow has come to Gol'Bolar Quarry to direct the response to its trogg infestation. He serves in Ironforge's Senate and belongs to the Explorers' League, yet he has taken charge in person rather than wait for the city's laws to move. He hires travelers and mercenaries to drive the invaders from the mine.",
+   "body": "Mehr Stonehallow serves in Ironforge's Senate and belongs to the Explorers' League. He has come to Gol'Bolar Quarry to direct the response himself. There, he hires travelers and mercenaries to drive the invaders from the mine.",
    "spoiler": 0
   },
   {
    "title": "The Disaster at Gol'Bolar",
-   "body": "Deep digging at Gol'Bolar Quarry broke into sealed hollows below the ground. Rockjaw troggs poured into the pits, smashed mining equipment, and drove out the workers. Stonehallow seeks to clear out the Rockjaw Bonesnappers, so Mountaineers can secure the quarry and mining can resume.",
+   "body": "Deep digging at Gol'Bolar Quarry broke into sealed hollows underground. Rockjaw troggs poured into the pits, smashed mining equipment, and drove out the workers. Stonehallow wants the Rockjaw Bonesnappers cleared away so Mountaineers can secure the quarry and mining can resume.",
    "spoiler": 0
   }
  ],
@@ -47,7 +47,7 @@
     "quarry troggs",
     "what happened to the quarry"
    ],
-   "answer": "Miners dug too deeply beneath Gol'Bolar Quarry and broke into caverns inhabited by the Rockjaw troggs. The creatures surged into the pits, smashed equipment, and drove the workers away."
+   "answer": "Miners dug too deeply beneath Gol'Bolar Quarry and broke into caverns inhabited by Rockjaw troggs. The creatures surged into the pits, smashed equipment, and drove the workers away."
   },
   {
    "q": "What are Rockjaw Bonesnappers?",
@@ -64,7 +64,7 @@
     "stonehallow plan",
     "what happens next gol bolar"
    ],
-   "answer": "After the troggs are driven out, Senator Stonehallow plans to bring in Ironforge Mountaineers to secure the quarry, rebuild its damaged equipment, and resume mining."
+   "answer": "Once the troggs are driven out, Senator Stonehallow plans to bring in Ironforge Mountaineers. They will secure the quarry, rebuild its damaged equipment, and resume mining."
   },
   {
    "q": "Why is the Explorers' League involved here?",
@@ -72,7 +72,7 @@
     "explorers league mining",
     "why league here"
    ],
-   "answer": "Senator Stonehallow belongs to the Explorers' League, whose members investigate ancient excavations, underground ruins, and trogg incursions across the Khaz Modan mountains."
+   "answer": "Senator Stonehallow belongs to the Explorers' League. Its members investigate ancient excavations, underground ruins, and trogg incursions across the Khaz Modan mountains."
   },
   {
    "q": "Where is Gol'Bolar Quarry located?",
@@ -86,11 +86,11 @@
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "As a dwarf, you see Gol'Bolar's trogg breach threaten your homeland's industry. Deep digging can bring danger from beneath the earth."
+   "text": "As a dwarf, you see the trogg breach at Gol'Bolar threaten your homeland's industry. Deep digging can bring danger from beneath the earth."
   },
   {
    "target": "profession:Mining",
-   "text": "As a miner, you know the cost of Gol'Bolar's closure. Troggs now hold the quarry's stone and ore veins."
+   "text": "As a miner, you know what Gol'Bolar's closure costs. Troggs now hold the quarry's stone and ore veins."
   },
   {
    "target": "faction:Alliance",
@@ -117,5 +117,5 @@
  "attribution": [
   "The Public Servant (Classic)"
  ],
- "style": 1
+ "style": 2
 }

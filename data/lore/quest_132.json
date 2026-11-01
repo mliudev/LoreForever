@@ -17,21 +17,21 @@
   "wiki": "The Defias Brotherhood (2)",
   "chain": []
  },
- "summary": "In Westfall, The Defias Brotherhood is building a network beyond banditry. Wiley the Black sends word of its ties to gnolls, kobolds, and goblins. Gryan Stoutmantle needs this intelligence to measure the full reach of the conspiracy choking Westfall.",
+ "summary": "At the edges of Redridge and Westfall, Wiley the Black warns Gryan Stoutmantle. His intelligence shows the Defias threat reaches beyond banditry, and Gryan needs to learn how far it extends.",
  "sections": [
   {
    "title": "A Dangerous Dispatch",
-   "body": "Wiley the Black says telling what he knows about the Defias could cost him his life. Along the edges of Redridge and Westfall, he has caught wind of an operation far greater than highway robbery. His sealed note describes how the Brotherhood has coordinated groups that are usually hostile to one another across the countryside.",
+   "body": "Wiley the Black says sharing what he knows could cost him his life. His sealed note describes how the Brotherhood has coordinated groups across the countryside, though those groups are usually hostile to one another.",
    "spoiler": 0
   },
   {
    "title": "Unlikely Alliances",
-   "body": "Wiley warns that the Defias has drawn an alarming network around itself. The red-masked outlaws have enlisted gnoll packs, kobold diggers, and goblin engineers instead of working alone. Together, their brutal muscle, burrowing labor, and mechanical cunning point to an enterprise beyond what the People's Militia first expected.",
+   "body": "Wiley warns that the Defias has drawn an alarming network around itself. The red-masked outlaws have enlisted gnoll packs, kobold diggers, and goblin engineers instead of working alone. Their brutal muscle, burrowing labor, and mechanical cunning point to an enterprise beyond what the People's Militia first expected.",
    "spoiler": 0
   },
   {
    "title": "Stoutmantle's Uneasy Reliance",
-   "body": "Gryan Stoutmantle has little love for Wiley and openly laments that he did not leave the rogue to rot when he had the chance. Yet Westfall cannot afford pride. With Stormwind ignoring pleas for military aid, the People's Militia must take useful intelligence wherever it can find it.",
+   "body": "Gryan Stoutmantle has little love for Wiley. He openly laments that he did not leave the rogue to rot when he had the chance. Yet Westfall cannot afford pride. The People's Militia must take useful intelligence wherever it can find it.",
    "spoiler": 0
   }
  ],
@@ -126,5 +126,5 @@
  "attribution": [
   "The Defias Brotherhood (2)"
  ],
- "style": 1
+ "style": 2
 }

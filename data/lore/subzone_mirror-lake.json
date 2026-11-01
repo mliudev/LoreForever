@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Mirror Lake"
  },
- "summary": "Water spills into Mirror Lake beneath Stormwind's cliffs in northwestern Elwynn Forest, near an orchard. Defias bandits prowl the surrounding orchards, while mages watch for trouble in the forest's arcane currents.",
+ "summary": "Water falls into Mirror Lake beneath Stormwind’s cliffs in northwestern Elwynn Forest. An orchard stands nearby, where Defias bandits prowl and mages watch the forest’s arcane currents.",
  "sections": [
   {
    "title": "A Troubled Idyl",
-   "body": "Mirror Lake lies beneath Stormwind City's walls, where fishermen and weary travelers might seek a quiet rest. Defias Brotherhood brigands stalk the surrounding orchards, making a long stay perilous for locals. Mystical disturbances across Azeroth have also begun to warp the forest's natural channels of arcane energy. Mages from the Wizard's Sanctum watch the lake closely. They send practitioners to sample its currents and guard against chaotic arcane runoff poisoning communities downstream.",
+   "body": "Mirror Lake rests beneath Stormwind City's walls, where fishermen and tired travelers can seek a quiet rest. Yet Defias Brotherhood brigands stalk the surrounding orchards, making a long stay perilous for locals.\n\nMystical disturbances across Azeroth have begun to warp the forest's natural channels of arcane energy. Mages from the Wizard's Sanctum watch the lake closely. They send practitioners to sample its currents and guard against chaotic arcane runoff poisoning communities downstream.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "mirror lake enemies",
     "defias mirror lake"
    ],
-   "answer": "Defias bandits prowl the area around Mirror Lake and prey on travelers and farmers. Recent shifts in regional magic have also raised concern about the lake's water."
+   "answer": "Defias bandits prowl around Mirror Lake and prey on travelers and farmers. Recent shifts in regional magic have also raised concern about the lake's water."
   },
   {
    "q": "Why are mages studying Mirror Lake?",
@@ -46,11 +46,11 @@
  "angles": [
   {
    "target": "class:Mage",
-   "text": "Initiates studying at Stormwind's Wizard's Sanctum come here to gather water samples. The work shows how turbulent arcane channels can seep into the natural world."
+   "text": "Initiates studying at Stormwind's Wizard's Sanctum come to Mirror Lake to gather water samples. Their work shows how turbulent arcane channels can seep into the natural world."
   },
   {
    "target": "faction:Alliance",
-   "text": "The lake lies close to Stormwind's walls, while the kingdom's guards are stretched thin against Defias outlaws in the surrounding area."
+   "text": "Mirror Lake lies close to Stormwind's walls, while the kingdom's guards are stretched thin against Defias outlaws in the surrounding area."
   }
  ],
  "keywords": [
@@ -70,5 +70,5 @@
  "attribution": [
   "Mirror Lake"
  ],
- "style": 1
+ "style": 2
 }

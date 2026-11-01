@@ -10,11 +10,11 @@
    "quest:1861"
   ]
  },
- "summary": "At Mirror Lake in Elwynn Forest, a flask of water is gathered for Jennea Cannon in Stormwind. The mages will test it for signs of altered arcane currents in local water.",
+ "summary": "At Mirror Lake in Elwynn Forest, water is gathered for Jennea Cannon in Stormwind. The mages will test it for signs that the arcane currents have altered local water.",
  "sections": [
   {
    "title": "Testing the Waters of Elwynn",
-   "body": "Jennea Cannon sends promising apprentices to collect water from Mirror Lake. The lake lies just southwest of the Stormwind Gate, and they fill a specially prepared flask at the base of its waterfall. The Wizard's Sanctum in Stormwind is concerned that the world's mystic channels remain unsettled after catastrophic conflicts. Its mages will examine the sample for stray magical taint in the waterways used by people nearby.",
+   "body": "Jennea Cannon sends promising apprentices to collect water from Mirror Lake. The lake lies just southwest of the Stormwind Gate, where they fill a specially prepared flask at the foot of its waterfall.\n\nThe Wizard's Sanctum in Stormwind fears the world's mystic channels remain unsettled after catastrophic conflicts. Its mages will examine the sample for stray magical taint in the waterways people nearby use.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "water sample item",
     "jennea water"
    ],
-   "answer": "It is water from the waterfall at Mirror Lake in Elwynn Forest, held in Jennea's Flask. Novice mages gather it for testing at the Wizard's Sanctum."
+   "answer": "The Mirror Lake Water Sample is waterfall water from Elwynn Forest, kept in Jennea's Flask. Novice mages gather it for testing at the Wizard's Sanctum."
   },
   {
    "q": "Why does Jennea Cannon want this water sample?",
@@ -35,7 +35,7 @@
     "jennea cannon purpose",
     "magical taint water"
    ],
-   "answer": "Recent mystical upheavals across Azeroth disrupted stable magical currents. Jennea Cannon fears rogue magical energy may be altering the natural environment and poisoning local drinking water."
+   "answer": "Recent mystical upheavals across Azeroth disrupted stable magical currents. Jennea Cannon fears rogue magical energy may alter the natural world and poison local drinking water."
   },
   {
    "q": "Where is the sample collected?",
@@ -44,7 +44,7 @@
     "mirror lake location",
     "sample waterfall"
    ],
-   "answer": "The sample comes from the base of the waterfall flowing into Mirror Lake, southwest of the Stormwind Gate in Elwynn Forest."
+   "answer": "The sample comes from the foot of the waterfall flowing into Mirror Lake, southwest of the Stormwind Gate in Elwynn Forest."
   },
   {
    "q": "What happens if the water turns out to be magically tainted?",
@@ -52,7 +52,7 @@
     "tainted water effects",
     "is mirror lake poisoned"
    ],
-   "answer": "Jennea Cannon worries that prolonged drinking from Mirror Lake could cause adverse magical effects if ley currents have contaminated the water supply."
+   "answer": "Jennea Cannon fears that drinking from Mirror Lake for a long time could cause adverse magical effects if ley currents have contaminated the water supply."
   }
  ],
  "angles": [
@@ -83,5 +83,5 @@
   "Mirror Lake Water Sample",
   "Mirror Lake (quest)"
  ],
- "style": 1
+ "style": 2
 }

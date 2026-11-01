@@ -17,16 +17,16 @@
   "wiki": "Investigate the Scourge of Ironforge",
   "chain": []
  },
- "summary": "The Scourge has reached the gates of Ironforge, and Lieutenant Nevell calls for defenders. Undead troops and glowing runic circles threaten Dun Morogh beneath a hovering necropolis.",
+ "summary": "The Scourge presses against Ironforge’s gates, and Lieutenant Nevell calls for defenders. Undead troops gather beneath a hovering necropolis while glowing runic circles mark their camps.",
  "sections": [
   {
    "title": "Death at the Mountain Gates",
-   "body": "The Scourge has brought its invasion to the mountain entrance of Ironforge. Floating necropolises cast their shadows over Dun Morogh’s frigid heights, far from Lordaeron and the plagued lands of the north. The Argent Dawn has placed observers there, including Lieutenant Nevell, to watch the undead and counter their spread before they breach the Bronzebeard fortress.",
+   "body": "Lieutenant Nevell and the Argent Dawn watch the undead at Ironforge’s mountain entrance. Necropolises hover above Dun Morogh’s frigid heights, far from Lordaeron and the plagued lands of the north. They mean to stop the Scourge before it reaches the Bronzebeard fortress.",
    "spoiler": 0
   },
   {
    "title": "Unholy Inscriptions",
-   "body": "Undead camps lie beneath the necropolis, marked by glowing runic circles and pulsing necrotic stones. Scouts who stand near the circles hear dark voices murmuring through the surrounding magic. Lieutenant Nevell believes the circles carry messages, but he does not know whom the Scourge is contacting.",
+   "body": "Undead camps lie beneath the necropolis. Glowing runic circles and pulsing necrotic stones mark the ground, and scouts near the circles hear dark voices in the surrounding magic. Lieutenant Nevell believes the circles carry messages, though he does not know who the Scourge is contacting.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "lieutenant nevell",
     "quest giver"
    ],
-   "answer": "Lieutenant Nevell is an Argent Dawn officer stationed at Ironforge to coordinate the defense against the Scourge. He asks defenders to collect necrotic stones and learn the purpose of the unholy sigils around the invaders’ camps."
+   "answer": "Lieutenant Nevell is an Argent Dawn officer stationed at Ironforge to coordinate its defense against the Scourge. He asks defenders to collect necrotic stones and learn the purpose of the unholy sigils around the invaders’ camps."
   },
   {
    "q": "Why is the Scourge attacking Ironforge?",
@@ -47,7 +47,7 @@
     "why undead in dun morogh",
     "ironforge invasion"
    ],
-   "answer": "Scourge forces are camped beneath a necropolis outside Ironforge. Lieutenant Nevell asks defenders to thin their ranks and investigate the strange runic circles nearby."
+   "answer": "Scourge forces camp beneath a necropolis outside Ironforge. Lieutenant Nevell asks defenders to thin their ranks and investigate the strange runic circles nearby."
   },
   {
    "q": "What are Dim Necrotic Stones?",
@@ -56,7 +56,7 @@
     "dim necrotic stone",
     "scourge stones"
    ],
-   "answer": "Dim Necrotic Stones are recovered from Scourge invaders and brought to the Argent Dawn as proof that undead have been slain."
+   "answer": "Dim Necrotic Stones are taken from Scourge invaders and brought to the Argent Dawn as proof that undead have been slain."
   },
   {
    "q": "What is the purpose of the glowing runic circles?",
@@ -65,17 +65,17 @@
     "glowing circles",
     "what are the runes"
    ],
-   "answer": "The glowing runic circles appear near the Scourge forces. Lieutenant Nevell asks you to investigate their purpose."
+   "answer": "The glowing runic circles appear near Scourge forces. Lieutenant Nevell asks you to investigate their purpose."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "As a dwarf, you know the rot spreading across Dun Morogh’s clean snows is an outrage. The mountain entrance is your home’s threshold."
+   "text": "As a dwarf, you know the rot spreading across Dun Morogh’s clean snows is an outrage. The mountain entrance is the threshold of your home."
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance soldier, you know Ironforge is a vital economic and military pillar. An undead foothold at its gates threatens supply routes across the Eastern Kingdoms."
+   "text": "As an Alliance soldier, you know Ironforge is a vital pillar of trade and war. An undead foothold at its gates threatens supply routes across the Eastern Kingdoms."
   },
   {
    "target": "class:Paladin",
@@ -83,7 +83,7 @@
   },
   {
    "target": "class:Priest",
-   "text": "As a priest, you know the whispers in the runic circles could threaten the sanity of ordinary soldiers. Resisting them demands spiritual strength."
+   "text": "As a priest, you know the whispers in the runic circles could threaten ordinary soldiers’ sanity. Resisting them takes spiritual strength."
   }
  ],
  "keywords": [
@@ -108,5 +108,5 @@
  "attribution": [
   "Investigate the Scourge of Ironforge"
  ],
- "style": 1
+ "style": 2
 }

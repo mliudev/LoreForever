@@ -14,11 +14,11 @@
  "angles": [
   {
    "target": "profession:Tailoring",
-   "text": "Tailors can weave an inspirational Faction Banner to bolster morale and keep spirits energized at camp during long expeditions."
+   "text": "Tailors can weave a Faction Banner to inspire travelers and raise morale at camp during long expeditions."
   },
   {
    "target": "faction:Alliance",
-   "text": "Alliance adventurers are directed toward Eldrin at the Eastvale Logging Camp in Elwynn Forest to learn faction banner stitching."
+   "text": "Alliance adventurers are directed to Eldrin at the Eastvale Logging Camp in Elwynn Forest to learn to stitch a faction banner."
   }
  ],
  "faq": [
@@ -28,7 +28,7 @@
     "tailoring camp item quest",
     "how to get camp banner"
    ],
-   "answer": "Camping 101: Tailoring directs aspiring tailors to seek out Eldrin at the Eastvale Logging Camp in Elwynn Forest. Once a tailor demonstrates sufficient proficiency, Eldrin instructs them in how to stitch an inspirational Faction Banner to raise spirits at a campsite.",
+   "answer": "Eldrin at the Eastvale Logging Camp in Elwynn Forest teaches skilled tailors to make a Faction Banner. The banner inspires travelers and raises morale at camp.",
    "q": "What is the purpose of Camping 101: Tailoring?"
   },
   {
@@ -37,7 +37,7 @@
     "where is eldrin",
     "eldrin location"
    ],
-   "answer": "Eldrin is an artisan residing at the Eastvale Logging Camp in eastern Elwynn Forest. He possesses the expertise to instruct skilled tailors in crafting camp-ready faction banners.",
+   "answer": "Eldrin is an artisan at the Eastvale Logging Camp in eastern Elwynn Forest. He teaches skilled tailors to craft faction banners for camps.",
    "q": "Who is Eldrin and where can he be found?"
   },
   {
@@ -46,7 +46,7 @@
     "faction banner camp",
     "why craft a faction banner"
    ],
-   "answer": "The Faction Banner serves as a campsite centerpiece designed to foster morale and inspiration. In the field, displaying your allegiance helps keep weary travelers energized and focused during grueling campaigns.",
+   "answer": "A Faction Banner inspires travelers and raises morale at camp. Its emblem offers weary travelers resolve as they journey through hostile lands.",
    "q": "What does the Faction Banner do for a camp?"
   },
   {
@@ -55,7 +55,7 @@
     "camping banner requirements",
     "can any tailor make a banner"
    ],
-   "answer": "The craft requires demonstrated proficiency in tailoring before Eldrin will share the technique. Only practitioners who have honed their needlework can properly weave and assemble the banner.",
+   "answer": "Tailors must first prove their skill before Eldrin teaches them the craft. They need honed needlework to weave and assemble the banner.",
    "q": "What requirements are needed to learn the craft from Eldrin?"
   },
   {
@@ -63,7 +63,7 @@
     "where is eastvale logging camp",
     "eastvale logging camp elwynn"
    ],
-   "answer": "The Eastvale Logging Camp is nestled in the eastern woods of Elwynn Forest, situated along the road leading toward Redridge Mountains. It is an active logging hub where local craftspeople and workers gather.",
+   "answer": "The Eastvale Logging Camp lies in the eastern woods of Elwynn Forest, along the road toward Redridge Mountains. Local craftspeople and workers gather at this logging hub.",
    "q": "Where is the Eastvale Logging Camp located?"
   },
   {
@@ -71,7 +71,7 @@
     "can horde do this quest",
     "is this alliance only"
    ],
-   "answer": "This particular errand sends the artisan to Eldrin in the heart of Elwynn Forest, firmly within Alliance territory. As such, it caters to Alliance-aligned craftsmen operating out of the eastern settlements.",
+   "answer": "Eldrin is in the heart of Elwynn Forest, within Alliance territory. The instruction there is for Alliance-aligned craftsmen from the eastern settlements.",
    "q": "Is this task exclusive to Alliance tailors?"
   }
  ],
@@ -91,18 +91,19 @@
  ],
  "sections": [
   {
-   "body": "Camping 101: Tailoring directs promising needleworkers to Eldrin, an artisan based at the Eastvale Logging Camp in eastern Elwynn Forest. Tailoring is often celebrated for producing protective cloth garments and bags, but this assignment highlights its role in sustaining wilderness ventures. Adventurers who have proven their aptitude with thread and loom are offered specialized guidance in fashioning camp accessories that support sustained travel across the wilderness.",
+   "body": "Eldrin, an artisan at the Eastvale Logging Camp in eastern Elwynn Forest, guides skilled needleworkers. Tailoring makes garments and bags, but it can also sustain a journey. Those who have proven their skill with thread and loom can learn to make camp accessories for travel through the wilderness.",
    "spoiler": 0,
    "title": "A Weaver's Purpose in the Wild"
   },
   {
-   "body": "The primary craft taught through this guidance is the Faction Banner, an emblem designed to stand tall beside a traveler's fire. On dangerous journeys and battlegrounds alike, maintaining high morale is just as essential as maintaining weapons or rations. Displaying an inspiring banner over an encampment offers weary adventurers a familiar symbol of resolve, providing the energetic lift needed to press forward into hostile lands.",
+   "body": "The Faction Banner is the chief craft Eldrin teaches. It stands beside a traveler's fire, where its emblem can hearten those on dangerous journeys and in battle. A banner at camp gives weary travelers a familiar sign of resolve and helps them press on through hostile lands.",
    "spoiler": 0,
    "title": "Banners of Morale"
   }
  ],
- "summary": "Camping 101: Tailoring points skilled clothworkers toward Eldrin at the Eastvale Logging Camp in Elwynn Forest. Through him, tailors learn to weave a Faction Banner that provides inspiration and raises morale at backcountry campsites.",
+ "summary": "In Elwynn Forest, skilled clothworkers are sent to Eldrin at the Eastvale Logging Camp. He teaches them to weave a Faction Banner that inspires travelers and raises morale at wilderness camps.",
  "attribution": [
   "In-game quest text: Camping 101: Tailoring"
- ]
+ ],
+ "style": 2
 }

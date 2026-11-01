@@ -10,11 +10,11 @@
    "quest:123"
   ]
  },
- "summary": "Near the Brackwell Pumpkin Patch, The Collector's Schedule marks when illicit gold shipments move through Elwynn Forest. Gnolls carry the handwritten itinerary, and Marshal Dughan recognizes the name it records.",
+ "summary": "Near the Brackwell Pumpkin Patch, The Collector's Schedule marks the passage of illicit gold shipments through Elwynn Forest. Gnolls carry its handwritten itinerary, and Marshal Dughan recognizes the name it records.",
  "sections": [
   {
    "title": "Stolen Gold and Secret Shipments",
-   "body": "The Collector's Schedule marks dates and times for gold shipments from Elwynn's mines. Stormwind has not officially worked the mines for months, driven off by banditry and creature incursions, yet ore still leaves in an orderly flow. The itinerary names the days and hours when a figure called The Collector receives each shipment. The trail points to a camp near the Brackwell Pumpkin Patch in eastern Elwynn Forest. When Marshal Dughan sees the schedule, he recognizes the Collector's name. Who pays for the stolen gold remains unknown.",
+   "body": "Gold still leaves Elwynn's mines on a schedule, though Stormwind has not officially worked them for months. Banditry and creature incursions drove the miners away. The itinerary names the days and hours when a figure called The Collector receives each shipment.\n\nThe trail leads to a camp near the Brackwell Pumpkin Patch in eastern Elwynn Forest. Marshal Dughan recognizes the Collector's name when he sees the schedule. Who pays for the stolen gold remains unknown.",
    "spoiler": 0
   }
  ],
@@ -50,7 +50,7 @@
     "why does dughan care",
     "elwynn mines gold"
    ],
-   "answer": "Marshal Dughan is alarmed because Stormwind has had no official miners in Elwynn's mines for months, yet substantial gold shipments still leave them. That points to an organized, illicit mining operation within the kingdom."
+   "answer": "Marshal Dughan is alarmed because Stormwind has had no official miners in Elwynn's mines for months, yet substantial gold shipments still leave them. The shipments point to an organized, illicit mining operation within the kingdom."
   }
  ],
  "angles": [
@@ -60,7 +60,7 @@
   },
   {
    "target": "profession:Mining",
-   "text": "As a miner, you can see that Elwynn's mines are not idle: rich gold veins are being stripped and hauled away."
+   "text": "As a miner, you can see that Elwynn's mines are not idle. Rich gold veins are being stripped and hauled away."
   }
  ],
  "keywords": [
@@ -86,5 +86,5 @@
   "The Collector's Schedule",
   "The Collector (Classic)"
  ],
- "style": 1
+ "style": 2
 }

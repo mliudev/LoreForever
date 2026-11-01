@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Jangolode Mine"
  },
- "summary": "In Westfall’s rolling hills, the Defias Brotherhood works Jangolode Mine for itself. The mine once supplied Stormwind City with ore and raw materials.",
+ "summary": "In Westfall, the Defias Brotherhood works Jangolode Mine for itself. The mine once supplied Stormwind City with ore and raw materials.",
  "sections": [
   {
    "title": "A Plundered Resource",
-   "body": "Before Westfall declined, Jangolode Mine sent metals to Stormwind City for its reconstruction and supply. As civil order weakened and the kingdom withdrew its garrisons, the Defias Brotherhood seized the mine to support its own operations. The bandits now work its rich veins and defend the shafts fiercely.",
+   "body": "Before Westfall declined, Jangolode Mine sent metal to Stormwind City for rebuilding and supplies. As civil order weakened, the kingdom withdrew its garrisons. The Defias Brotherhood seized the mine to support its own operations. Now the bandits work its rich veins and fiercely defend the shafts.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "what is jangolode",
     "jangolode westfall"
    ],
-   "answer": "Jangolode Mine is an excavation site in Westfall that once supplied Stormwind City with essential minerals and metal ore. When regional defenses weakened, it fell into hostile hands."
+   "answer": "Jangolode Mine once supplied Stormwind City with essential minerals and metal ore. When regional defenses weakened, hostile hands took it."
   },
   {
    "q": "Who controls the mine right now?",
@@ -41,13 +41,13 @@
     "stormwind garrison westfall",
     "why abandon the mine"
    ],
-   "answer": "Stormwind is caught in political unrest and struggles to protect even its core borders. The kingdom lacks troops to garrison Westfall’s outlying mines, leaving the People’s Militia and local adventurers to face the threat."
+   "answer": "Stormwind is caught in political unrest and struggles to protect even its core borders. The kingdom lacks troops to garrison Westfall’s outlying mines, so the People’s Militia and local adventurers face the threat."
   }
  ],
  "angles": [
   {
    "target": "profession:Mining",
-   "text": "Jangolode Mine has rich deposits of basic copper and tin, making it lucrative for prospectors willing to fight past the subterranean pests."
+   "text": "Jangolode Mine has rich deposits of basic copper and tin. Prospectors can profit from them, if they fight past the subterranean pests."
   },
   {
    "target": "faction:Alliance",
@@ -72,5 +72,5 @@
  "attribution": [
   "Jangolode Mine"
  ],
- "style": 1
+ "style": 2
 }

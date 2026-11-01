@@ -17,16 +17,16 @@
   "wiki": "Darkcore the Elder",
   "chain": []
  },
- "summary": "Darkcore the Elder is a seasonal quest encountered during the Lunar Festival within the Undercity. By seeking out Elder Darkcore, travelers pay homage to the ancient spirits honored across Azeroth and receive a Coin of Ancestry in return.",
+ "summary": "During the Lunar Festival, travelers find Darkcore the Elder in the Undercity and honor Azeroth's ancient spirits. In return, they receive a Coin of Ancestry.",
  "sections": [
   {
    "title": "A Spirit in the Undercity",
-   "body": "During the Lunar Festival, spirits of ancient night elven and earthen ancestors appear throughout the continents to share their wisdom and blessings. Elder Darkcore resides in the shadowed halls of the Undercity, bearing witness to the modern realm while offering remembrance to those who seek out the roots of the world.",
+   "body": "During the Lunar Festival, spirits of ancient night elven and earthen ancestors appear across the continents. They offer wisdom and blessings to those who seek them. Elder Darkcore dwells in the Undercity's shadowed halls, watching the world as it is now and remembering those who sought its roots.",
    "spoiler": 0
   },
   {
    "title": "Honoring the Ancestors",
-   "body": "Approaching Elder Darkcore satisfies an ancient custom of showing respect to the venerable dead and the timeless wardens of Azeroth. In recognition of this pilgrimage, the spirit gifts travelers a Coin of Ancestry as a token of goodwill and enduring memory.",
+   "body": "Approaching Elder Darkcore honors an ancient custom. It shows respect for the venerable dead and Azeroth's timeless wardens. In return for the pilgrimage, the spirit gives travelers a Coin of Ancestry, a token of goodwill and enduring memory.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "why visit darkcore",
     "darkcore quest purpose"
    ],
-   "answer": "Visiting Elder Darkcore during the Lunar Festival allows adventurers to pay homage to the ancient peoples of Azeroth. Speaking with him completes the quest and earns a Coin of Ancestry."
+   "answer": "Visiting Elder Darkcore during the Lunar Festival honors Azeroth's ancient peoples. Speaking with him earns a Coin of Ancestry."
   },
   {
    "q": "Where can Elder Darkcore be found?",
@@ -47,7 +47,7 @@
     "where is elder darkcore",
     "darkcore undercity spot"
    ],
-   "answer": "Elder Darkcore manifests in the ruined throne room of Lordaeron, above the Forsaken capital of the Undercity."
+   "answer": "Elder Darkcore appears in Lordaeron's ruined throne room, above the Forsaken capital of the Undercity."
   },
   {
    "q": "What is the Lunar Festival?",
@@ -56,7 +56,7 @@
     "why are elders appearing",
     "what are the elders"
    ],
-   "answer": "The Lunar Festival is an annual season of remembrance and renewal observed across Azeroth, celebrating the triumph over the Burning Legion and paying reverence to ancient elders who guided mortal races."
+   "answer": "The Lunar Festival is an annual time of remembrance and renewal across Azeroth. It celebrates the triumph over the Burning Legion and honors ancient elders who guided mortal races."
   },
   {
    "q": "What do the elders represent?",
@@ -65,7 +65,7 @@
     "lunar festival elders lore",
     "ancestor spirits"
    ],
-   "answer": "Elders are ancient spirits, typically linked to the night elves or early earthen cultures, who emerge during the Lunar Festival to bless those who remember their deeds and carry forward the lessons of antiquity."
+   "answer": "Elders are ancient spirits often tied to the night elves or early earthen cultures. During the Lunar Festival, they appear to bless those who remember their deeds and carry their lessons forward."
   },
   {
    "q": "Can Alliance adventurers speak to Elder Darkcore?",
@@ -74,7 +74,7 @@
     "can alliance get darkcore",
     "elder darkcore alliance"
    ],
-   "answer": "Elder Darkcore will greet any traveler who manages to reach him, though Alliance players must brave the heavily defended Forsaken capital to do so."
+   "answer": "Elder Darkcore greets any traveler who reaches him. Alliance travelers must brave the heavily defended Forsaken capital to speak with him."
   },
   {
    "q": "What is a Coin of Ancestry?",
@@ -83,17 +83,17 @@
     "coin of ancestry use",
     "lunar festival coin"
    ],
-   "answer": "A Coin of Ancestry is a festive token bestowed by elders during the Lunar Festival, symbolizing reverence for antiquity and tradable for festive garb and seasonal keepsakes."
+   "answer": "A Coin of Ancestry is a festive token given by elders during the Lunar Festival. It honors the ancient past and can be traded for festive garb and seasonal keepsakes."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "For the Forsaken walking through the ruins of their former kingdom, Elder Darkcore offers an eerie reminder of older times before the Scourge and the fall of Lordaeron."
+   "text": "For the Forsaken who walk the ruins of their former kingdom, Elder Darkcore recalls older times, before the Scourge and Lordaeron's fall."
   },
   {
    "target": "faction:Horde",
-   "text": "Elder Darkcore allows members of the Horde to partake in the continent-wide rites of the Lunar Festival directly within the safety of an allied capital."
+   "text": "As a member of the Horde, you can take part in the Lunar Festival's rites across the continents within an allied capital."
   }
  ],
  "keywords": [
@@ -110,5 +110,6 @@
  ],
  "attribution": [
   "Darkcore the Elder"
- ]
+ ],
+ "style": 2
 }

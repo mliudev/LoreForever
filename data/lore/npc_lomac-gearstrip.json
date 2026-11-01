@@ -8,16 +8,16 @@
   "wiki": "Lomac Gearstrip",
   "refs": 3
  },
- "summary": "In Ironforge's Tinker Town, Lomac Gearstrip pursues gnomish inventions. He formulated the NG-5 explosive and keeps in contact with fellow researchers in Kalimdor.",
+ "summary": "In Ironforge's Tinker Town, Lomac Gearstrip pursues gnomish inventions. He formulated the NG-5 explosive and stays in contact with fellow researchers in Kalimdor.",
  "sections": [
   {
    "title": "A Spark in Tinker Town",
-   "body": "Lomac Gearstrip works on gnomish ordnance in Ironforge's Tinker Town. Like many gnomes who fled Gnomeregan's tragedy, he has brought his tinkering operations to the dwarven capital. His workshop focuses on volatile chemical mixtures and specialized munitions meant to overcome heavily defended enemy strongholds.",
+   "body": "Lomac Gearstrip works on gnomish ordnance in Ironforge's Tinker Town. Like many gnomes who fled Gnomeregan's tragedy, he brought his tinkering operations to the dwarven capital. His workshop centers on volatile chemical mixtures and specialized munitions meant to overcome heavily defended enemy strongholds.",
    "spoiler": 0
   },
   {
    "title": "The NG-5 Explosive",
-   "body": "Lomac's proudest contribution to combat engineering is the NG-5 explosive. The compound is made for maximum destructive yield and requires precise handling and rare chemical reagents. To refine and use such hazardous inventions in the field, Lomac stays in contact with former colleagues stationed in distant theaters. They exchange technical orders and dangerous supplies across the Great Sea.",
+   "body": "Lomac's proudest contribution to combat engineering is the NG-5 explosive. The compound is made for great destructive force and demands precise handling and rare chemical reagents. To refine and use such hazardous inventions in the field, Lomac stays in touch with former colleagues in distant theaters. They exchange technical orders and dangerous supplies across the Great Sea.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "where is lomac",
     "find lomac gearstrip"
    ],
-   "answer": "Lomac works in Tinker Town, the gnomish quarter in the eastern part of Ironforge."
+   "answer": "Lomac works in Tinker Town, the gnomish quarter in eastern Ironforge."
   },
   {
    "q": "What is Lomac Gearstrip famous for inventing?",
@@ -38,7 +38,7 @@
     "lomac invention",
     "ng-5 explosive creator"
    ],
-   "answer": "Lomac is best known for formulating the NG-5 explosive, designed to bring devastating firepower to gnomish endeavors."
+   "answer": "Lomac is best known for formulating the NG-5 explosive, made to bring great firepower to gnomish endeavors."
   },
   {
    "q": "Why does Lomac deal with contacts in Kalimdor?",
@@ -47,7 +47,7 @@
     "why stonetalon quest",
     "lomac colleagues"
    ],
-   "answer": "Lomac keeps in touch with former research peers and colleagues in frontier regions such as Stonetalon Mountains. They coordinate hazardous chemical ingredients and test his high-yield explosives in active operations."
+   "answer": "Lomac keeps in touch with former research peers and colleagues in frontier regions such as Stonetalon Mountains. They coordinate hazardous chemical ingredients and test his explosives in active operations."
   },
   {
    "q": "What kind of tasks does Lomac offer to adventurers?",
@@ -78,7 +78,7 @@
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "Lomac's NG-5 explosive reflects advanced gnomish pyrotechnics and can inspire tinkerers interested in high-yield blasting compounds."
+   "text": "Lomac's NG-5 explosive reflects advanced gnomish pyrotechnics and may inspire tinkerers interested in powerful blasting compounds."
   },
   {
    "target": "race:Gnome",
@@ -110,5 +110,5 @@
  "attribution": [
   "Lomac Gearstrip"
  ],
- "style": 1
+ "style": 2
 }

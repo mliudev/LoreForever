@@ -14,19 +14,19 @@
  "angles": [
   {
    "target": "race:Undead",
-   "text": "For the Forsaken, subjugating reanimated remains to the Dark Lady's service through alchemical torment is standard practice in the Apothecarium's daily operations."
+   "text": "For the Forsaken, alchemical torment to bind reanimated remains to the Dark Lady's service is part of daily life in the Apothecarium."
   },
   {
    "target": "faction:Horde",
-   "text": "The Royal Apothecary Society continues to brew sinister concoctions deep beneath the ruins of Lordaeron, testing the limits of alchemical subjugation."
+   "text": "The Royal Apothecary Society continues brewing sinister concoctions deep beneath Lordaeron's ruins and testing the limits of alchemical subjugation."
   },
   {
    "target": "profession:Herbalism",
-   "text": "Procuring Blisterweed from the Apothecarium's herbalist trainers highlights the overlap between standard botanical study and the Society's darker alchemical projects."
+   "text": "Gathering Blisterweed from the Apothecarium's herbalist trainers shows how ordinary botanical study overlaps with the Society's darker alchemical work."
   },
   {
    "target": "class:Rogue",
-   "text": "The quest requires venturing into the Rogues' Quarter to purchase Essence of Agony, a potent reagent typically favored by poison crafters and assassins."
+   "text": "The work takes you into the Rogues' Quarter to buy Essence of Agony, a potent reagent favored by poison crafters and assassins."
   }
  ],
  "faq": [
@@ -36,7 +36,7 @@
     "quest giver unending torment",
     "unending torment start"
    ],
-   "answer": "The quest is given by Master Apothecary Faranell, the leader of the Royal Apothecary Society, found in the Apothecarium within the Undercity.",
+   "answer": "Master Apothecary Faranell offers it. He leads the Royal Apothecary Society and can be found in the Apothecarium within the Undercity.",
    "q": "Who offers the quest Unending Torment?"
   },
   {
@@ -45,7 +45,7 @@
     "unending torment items",
     "what reagents faranell need"
    ],
-   "answer": "Master Apothecary Faranell requires three specific ingredients: a Toxic Skullcap from Tawny Grisette in the Trade Quarter, Blisterweed from near the herbalism trainers in the Apothecarium, and Essence of Agony from a poison vendor in the Rogues' Quarter.",
+   "answer": "Faranell needs three ingredients: a Toxic Skullcap from Tawny Grisette in the Trade Quarter, Blisterweed from near the herbalism trainers in the Apothecarium, and Essence of Agony from a poison vendor in the Rogues' Quarter.",
    "q": "What reagents are needed for Faranell's concoction?"
   },
   {
@@ -54,7 +54,7 @@
     "who is the lost sheep faranell mentions",
     "who is being tortured"
    ],
-   "answer": "The recipient is an unwilling captive whose severed head has been freshly reattached. Faranell refers to him mockingly as a 'lost sheep' and an 'honored guest,' seeking to crush whatever defiant bravado he still clings to after suffering severe beatings.",
+   "answer": "Faranell is experimenting on an unwilling captive whose severed head has just been reattached. He mockingly calls him a 'lost sheep' and an 'honored guest,' and seeks to crush the defiant bravado he clings to after severe beatings.",
    "q": "Who is Master Apothecary Faranell experimenting on?"
   },
   {
@@ -63,7 +63,7 @@
     "purpose of unending torment potion",
     "what does the concoction do"
    ],
-   "answer": "The potion is formulated to mentally break the subject and forcibly bind it to the will of Lady Sylvanas Windrunner, the Dark Lady of the Forsaken. Faranell believes the creature's battered state makes it particularly susceptible to chemical domination.",
+   "answer": "Faranell's potion is meant to mentally break the subject and bind it to Lady Sylvanas Windrunner's will. She is the Dark Lady of the Forsaken.",
    "q": "What is the goal of Faranell's potion?"
   },
   {
@@ -72,7 +72,7 @@
     "toxic skullcap vendor",
     "find miss grisette"
    ],
-   "answer": "Tawny Grisette is located in the Trade Quarter of the Undercity, where she supplies specialty goods including the Toxic Skullcap needed by the apothecaries.",
+   "answer": "Tawny Grisette is in the Undercity's Trade Quarter, where she supplies specialty goods including the Toxic Skullcap the apothecaries need.",
    "q": "Where can players find Tawny Grisette?"
   },
   {
@@ -81,7 +81,7 @@
     "alliestaers herbalism",
     "herbalist trainer undrecity blisterweed"
    ],
-   "answer": "Blisterweed is found near the Undercity's herbalism trainers, the Alliestars, who reside within the Apothecarium. Faranell mentions they owe him a favor, allowing adventurers to freely take what is needed.",
+   "answer": "Blisterweed grows near the Undercity's herbalism trainers, the Alliestars, in the Apothecarium. Faranell says they owe him a favor, so adventurers may take what is needed.",
    "q": "Where is the Blisterweed located?"
   }
  ],
@@ -105,23 +105,24 @@
  ],
  "sections": [
   {
-   "body": "Deep within the Apothecarium of the Undercity, Master Apothecary Faranell oversees gruesome experiments aimed at bolstering the Forsaken's power. Having successfully reattached the severed head of a battered captive, Faranell requires a specialized alchemical mixture to crush what little resistance remains in the creature and permanently bind its will to Lady Sylvanas Windrunner.",
+   "body": "Deep in the Undercity's Apothecarium, Master Apothecary Faranell conducts experiments to strengthen the Forsaken. He has reattached the severed head of a battered captive. Now he needs a special alchemical mixture to crush the creature's remaining resistance and bind its will to Lady Sylvanas Windrunner.",
    "spoiler": 0,
    "title": "Binding the Will"
   },
   {
-   "body": "To prepare his subjugating brew, Faranell sends his agent across the Undercity to gather potent ingredients. The task involves obtaining a Toxic Skullcap from Tawny Grisette in the Trade Quarter, claiming Blisterweed from the nearby herbalist trainers who owe him a debt, and purchasing Essence of Agony from a poison vendor lurking in the Rogues' Quarter.",
+   "body": "Faranell sends his agent across the Undercity to gather potent ingredients for his brew. A Toxic Skullcap comes from Tawny Grisette in the Trade Quarter. Blisterweed is held by nearby herbalist trainers who owe him a debt, and a poison vendor in the Rogues' Quarter sells Essence of Agony.",
    "spoiler": 0,
    "title": "Apothecary Reagents"
   },
   {
-   "body": "Upon receiving the ingredients, Faranell expresses grim satisfaction with his impending masterpiece. He relishes the prospect of testing his concoction against their 'honored guest,' confident that the agonizing draught will strip away the captive's remaining bravado and return the stray creature obediently to the Dark Lady's service.",
+   "body": "With the ingredients in hand, Faranell is grimly satisfied with the masterpiece he is about to make. He looks forward to testing the concoction on their 'honored guest.' He trusts the agonizing draught to strip away the captive's remaining bravado and return the stray creature obediently to the Dark Lady's service.",
    "spoiler": 1,
    "title": "The Masterpiece"
   }
  ],
- "summary": "Unending Torment is a quest in the Undercity where Master Apothecary Faranell seeks to bind a reassembled captive to the Dark Lady's will. To complete the subjugating concoction, adventurers must gather lethal reagents from across the Forsaken capital.",
+ "summary": "In the Undercity, Master Apothecary Faranell prepares a brew to bind a captive to the Dark Lady's will. He needs lethal reagents from across the Forsaken capital to finish it.",
  "attribution": [
   "In-game quest text: Unending Torment"
- ]
+ ],
+ "style": 2
 }

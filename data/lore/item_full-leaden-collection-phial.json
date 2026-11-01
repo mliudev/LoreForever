@@ -10,16 +10,16 @@
    "quest:2926"
   ]
  },
- "summary": "Ozzie Togglevolt seeks a sample from Gnomeregan’s troggs in a heavy, lead-lined phial. He hopes to make a cure for irradiated leper gnomes, or perhaps a dangerously potent rum.",
+ "summary": "In Kharanos, Ozzie Togglevolt seeks a sample from Gnomeregan’s troggs. He hopes it will cure irradiated leper gnomes, or perhaps make a dangerously potent rum.",
  "sections": [
   {
    "title": "A Toxic Brew",
-   "body": "The phial’s lead lining shields its carrier from the volatile green fallout that saturates Gnomeregan. High Tinker Mekkatorque’s advisors flooded the lower corridors with toxic radiation to stop the invading troggs. Instead, the disaster corrupted troggs and surviving gnomes into maddened, irradiated horrors. Fluid residue gathered from Irradiated Invaders and Pillagers gives refugee tinkerers in Kharanos, including Ozzie Togglevolt and Razzle Sprysprocket, raw material for their experiments on remedies.",
+   "body": "A lead lining shields the bearer from the volatile green fallout saturating Gnomeregan. High Tinker Mekkatorque’s advisors flooded the lower corridors with toxic radiation to stop the invading troggs. Instead, the disaster corrupted troggs and surviving gnomes into maddened, irradiated horrors.\n\nIrradiated Invaders and Pillagers leave fluid residue for refugee tinkerers in Kharanos. Ozzie Togglevolt and Razzle Sprysprocket use it as raw material in their experiments on remedies.",
    "spoiler": 0
   },
   {
    "title": "Cure or Concoction",
-   "body": "Ozzie Togglevolt pursues the fallout problem with frantic experimentation while Gnoarn remains fixed on reclaiming the city. Ozzie hopes the liquid in the phial will treat an entrapped leper gnome and perhaps reverse his own baldness. In gnome laboratories, the line between a miraculous antidote and a highly volatile beverage remains dangerously thin.",
+   "body": "Ozzie Togglevolt experiments frantically to address the fallout, while Gnoarn remains fixed on reclaiming the city. Ozzie hopes the liquid will treat an entrapped leper gnome and perhaps reverse his own baldness. In gnome laboratories, the line between a miraculous antidote and a highly volatile beverage remains dangerously thin.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "why lead flask",
     "leaden collection phial purpose"
    ],
-   "answer": "The lead lining shields the bearer from intense radioactive fallout gathered from Gnomeregan’s contaminated troggs, so carrying it back to Kharanos does not sicken or kill them."
+   "answer": "The phial’s lead lining shields its bearer from intense radioactive fallout gathered from Gnomeregan’s contaminated troggs. That lets them carry it back to Kharanos without sickness or death."
   },
   {
    "q": "Who wants this irradiated fluid?",
@@ -40,7 +40,7 @@
     "ozzie togglevolt quest",
     "who turns in gnogaine"
    ],
-   "answer": "Ozzie Togglevolt, a gnome researcher in Kharanos, wants the irradiated fallout to experiment on a cure for leprosy-afflicted gnomes, with help from Razzle Sprysprocket."
+   "answer": "Ozzie Togglevolt, a gnome researcher in Kharanos, wants the irradiated fallout to experiment on a cure for leprosy-afflicted gnomes. Razzle Sprysprocket helps him."
   },
   {
    "q": "Where does the radiation in the phial come from?",
@@ -49,7 +49,7 @@
     "irradiated troggs location",
     "green glow source"
    ],
-   "answer": "The glowing green residue comes directly from Irradiated Invaders and Irradiated Pillagers, troggs prowling the tainted corridors leading into Gnomeregan."
+   "answer": "The glowing green residue comes from Irradiated Invaders and Irradiated Pillagers, troggs prowling the tainted corridors leading into Gnomeregan."
   },
   {
    "q": "Does Ozzie actually cure the leper gnomes with it?",
@@ -64,11 +64,11 @@
  "angles": [
   {
    "target": "race:Gnome",
-   "text": "For exiled gnomes in Dun Morogh, carrying this toxic sample recalls the disaster that poisoned their ancestral home and offers desperate hope of restoring their corrupted kin."
+   "text": "For exiled gnomes in Dun Morogh, carrying this toxic sample recalls the disaster that poisoned their ancestral home. It offers desperate hope of restoring their corrupted kin."
   },
   {
    "target": "profession:Engineering",
-   "text": "The lead casing shows standard gnome safety protocols for handling volatile, toxic fallout in laboratory testing."
+   "text": "The lead casing reflects gnome safety protocols for handling volatile, toxic fallout in laboratory testing."
   }
  ],
  "keywords": [
@@ -95,5 +95,5 @@
   "Full Leaden Collection Phial",
   "Gnogaine"
  ],
- "style": 1
+ "style": 2
 }

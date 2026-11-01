@@ -10,11 +10,11 @@
    "quest:5545"
   ]
  },
- "summary": "Near Eastvale Logging Camp, Bundle of Wood waits in the trees for an urgent shipment west.",
+ "summary": "Eastvale Logging Camp needs wood sent west for Stormwind's rebuilding.",
  "sections": [
   {
    "title": "Abandoned Timber",
-   "body": "Freshly chopped timber from Eastvale Logging Camp helps supply the Kingdom of Stormwind. The camp sends wood west for town buildings and other construction. Bears and wolves have pushed into the groves northwest of camp, and terrified loggers fled, leaving their freshly gathered Bundles of Wood among the trees. With delivery deadlines close, overseer Raelen needs travelers to pass the predators and recover the timber before the lumber contracts are breached.",
+   "body": "Eastvale Logging Camp sends freshly chopped timber west for buildings and other construction in the Kingdom of Stormwind. But bears and wolves have entered the groves northwest of camp. The frightened loggers fled, leaving their Bundles of Wood among the trees. With the shipment deadline near, overseer Raelen needs travelers to recover the timber before the lumber contracts are breached.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "why abandon wood",
     "abandoned lumber elwynn"
    ],
-   "answer": "Wolves and bears ambushed the loggers harvesting timber northwest of Eastvale Logging Camp and drove them off. Their freshly chopped Bundles of Wood were left scattered on the forest floor."
+   "answer": "Wolves and bears drove off the loggers harvesting timber northwest of Eastvale Logging Camp. The workers left their freshly chopped Bundles of Wood on the forest floor."
   },
   {
    "q": "Who needs this wood collected?",
@@ -35,7 +35,7 @@
     "raelen lumber",
     "wood turn in"
    ],
-   "answer": "Raelen, an overseer at Eastvale Logging Camp, urgently needs the wood gathered to meet an impending lumber shipment deadline."
+   "answer": "Raelen, an overseer at Eastvale Logging Camp, needs the wood gathered soon to meet an approaching lumber shipment deadline."
   },
   {
    "q": "Where are these bundles found?",
@@ -44,7 +44,7 @@
     "where is the wood",
     "eastvale wood spots"
    ],
-   "answer": "The bundles lie on the ground directly northwest of Eastvale Logging Camp, among the trees where Elwynn's bears and wolves prowl."
+   "answer": "The bundles lie among the trees directly northwest of Eastvale Logging Camp, where Elwynn's bears and wolves prowl."
   },
   {
    "q": "Why didn't the town guards clear out the beasts?",
@@ -53,13 +53,13 @@
     "deputy rainer wood",
     "guards at eastvale"
    ],
-   "answer": "Raelen asked Deputy Rainer for help with the beasts, but Elwynn's marshals and guards are stretched thin across the region. The lumber workers need outside help to recover the logs quickly."
+   "answer": "Raelen asked Deputy Rainer for help, but Elwynn's marshals and guards are stretched thin across the region. The lumber workers need outside help to recover the logs quickly."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance traveler, gathering the bundles helps Stormwind's rebuilding efforts and gets vital timber shipments to settlements across Elwynn and Westfall on time."
+   "text": "As an Alliance traveler, gathering the bundles helps Stormwind rebuild and keeps vital timber shipments on time for settlements across Elwynn and Westfall."
   }
  ],
  "keywords": [
@@ -82,5 +82,5 @@
   "Bundle of Wood",
   "A Bundle of Trouble"
  ],
- "style": 1
+ "style": 2
 }

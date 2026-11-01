@@ -20,16 +20,16 @@
    "Stormpike's Order"
   ]
  },
- "summary": "In Loch Modan, Mountaineer Stormpike needs a runner for business beyond the valley. Mountaineer Kadrell sends travelers to the northern watchtower, where Stormpike waits with an assignment that leads into neighboring lands.",
+ "summary": "At his post in Loch Modan, Mountaineer Stormpike needs a runner for urgent business beyond the valley. Mountaineer Kadrell sends you to find him, since Stormpike cannot leave his watch.",
  "sections": [
   {
    "title": "A Watchman in Need of a Runner",
-   "body": "Mountaineer Stormpike watches from the northern guard tower, but his post keeps him from leaving Loch Modan. Mountaineer Kadrell points capable travelers toward guards who cannot leave their duties. With troggs and roaming wildlife threatening the roads and outposts, the Mountaineers have little room to spare. Stormpike needs a messenger for urgent personal business far beyond the region's borders.",
+   "body": "The northern guard tower is Stormpike’s post, and his watch keeps him from leaving Loch Modan. The Mountaineers are stretched thin by troggs and roaming wildlife. So Kadrell directs capable travelers to guards who cannot abandon their duties. Stormpike needs a messenger for business far beyond the region’s borders.",
    "spoiler": 0
   },
   {
    "title": "From Tower to Distant Roads",
-   "body": "You find Stormpike at the top of the northern guard tower, above the valley. A member of the prominent Stormpike clan, he has affairs beyond the frontier defense of Thelsamar. Carrying his message and supplies means crossing regional borders on his behalf, taking you from the loch onto the highways of Khaz Modan.",
+   "body": "You find Stormpike atop the northern guard tower, looking out over the valley. He belongs to the prominent Stormpike clan and has affairs beyond Thelsamar’s frontier defenses. Carrying his message and supplies takes you across regional borders on his behalf. Your road leads from the loch onto the highways of Khaz Modan.",
    "spoiler": 0
   }
  ],
@@ -41,7 +41,7 @@
     "where is stormpike",
     "find stormpike tower"
    ],
-   "answer": "Mountaineer Stormpike keeps watch from the top of the northern guard tower in Loch Modan, overlooking the surrounding trails."
+   "answer": "Mountaineer Stormpike watches from atop the northern guard tower in Loch Modan, overlooking the surrounding trails."
   },
   {
    "q": "Who starts this quest?",
@@ -50,7 +50,7 @@
     "quest starter",
     "kadrell location"
    ],
-   "answer": "Mountaineer Kadrell patrols near Thelsamar in Loch Modan and points you toward Stormpike's tower."
+   "answer": "Mountaineer Kadrell patrols near Thelsamar in Loch Modan and directs you to Stormpike’s tower."
   },
   {
    "q": "Why does Stormpike need an adventurer?",
@@ -59,7 +59,7 @@
     "stormpike problem",
     "what does stormpike want"
    ],
-   "answer": "Stormpike cannot leave his post at the tower. His personal business takes him well beyond Loch Modan, so he needs a traveler to carry his message."
+   "answer": "Stormpike cannot leave his post at the tower. His personal business lies far beyond Loch Modan, so he needs a traveler to carry his message."
   },
   {
    "q": "What happens after reporting to Stormpike?",
@@ -68,7 +68,7 @@
     "what comes after mountaineer stormpikes task",
     "stormpike followup"
    ],
-   "answer": "Reporting to Stormpike completes this first step and opens his follow-up errand, 'Stormpike's Order', a delivery to another territory."
+   "answer": "Reporting to Stormpike completes this first step and opens his follow-up delivery, 'Stormpike's Order', which takes you to another territory."
   },
   {
    "q": "Is this related to the Stormpike Guard in Alterac?",
@@ -77,7 +77,7 @@
     "alterac valley stormpike",
     "is this the av stormpikes"
    ],
-   "answer": "Mountaineer Stormpike shares the name and blood of the Stormpike clan, known for the Stormpike Guard and its mining expeditions. His assignment here is a modest local errand."
+   "answer": "Mountaineer Stormpike shares the name and blood of the Stormpike clan, known for the Stormpike Guard and its mining expeditions. His work here is a modest local errand."
   },
   {
    "q": "Do Horde players have an equivalent quest here?",
@@ -117,5 +117,5 @@
  "attribution": [
   "Mountaineer Stormpike's Task"
  ],
- "style": 1
+ "style": 2
 }

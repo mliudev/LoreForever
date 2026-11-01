@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "SI:7 (Stormwind City)"
  },
- "summary": "Tucked away in the eastern corner of Old Town, this unassuming stone manor houses the headquarters of SI:7, the kingdom of Stormwind's elite intelligence and espionage service. Behind its heavy doors, spymaster Master Mathias Shaw and his senior operatives quietly monitor threats to the realm, coordinating undercover agents across the kingdom.",
+ "summary": "In Old Town, SI:7 watches for threats to Stormwind from a fortified stone manor. Master Mathias Shaw directs the kingdom’s intelligence service from behind its heavy doors.",
  "sections": [
   {
    "title": "Heart of the Kingdom's Espionage",
-   "body": "To the casual passerby in Old Town, this fortified stone structure looks little different from a standard manor or military barracks. In truth, it serves as the nerve center for Stormwind Intelligence, Section 7. Directed by Master Mathias Shaw, SI:7 gathers intelligence, conducts surveillance, and executes covert operations to protect the kingdom from subversion. While the city guard patrols the open cobblestones and the Royal Guard defends Stormwind Keep, SI:7 works in the margins, training handlers and dispatching stealthy operatives against foreign enemies, saboteurs, and domestic unrest alike.",
+   "body": "In Old Town, SI:7 works from a fortified stone manor. From the street, it could pass for an ordinary home or military barracks. Master Mathias Shaw directs Stormwind Intelligence, Section 7. Its agents gather intelligence, watch suspected threats and carry out secret operations to guard the kingdom from subversion.\n\nThe city guard patrols Stormwind’s streets, while the Royal Guard protects Stormwind Keep. SI:7 trains handlers and sends covert agents against foreign enemies, saboteurs and unrest within the kingdom.",
    "spoiler": 0
   },
   {
    "title": "A Watchful Eye on the Shadows",
-   "body": "With King Varian Wrynn mysteriously missing and the Defias Brotherhood spreading chaos through Westfall and Duskwood, the headquarters hums with constant covert activity. Intelligence reports funnel into the building from deep-cover scouts across human lands. Down in the cellars and weapon-lined training rooms, lethal techniques are refined and missions assigned to counter threats long before they can reach the boy-king's throne room.",
+   "body": "Scouts hidden across human lands send their reports to SI:7’s headquarters. Its agents watch the turmoil caused by the Defias Brotherhood in Westfall and Duskwood, while King Varian Wrynn remains missing.\n\nIn cellars and training rooms lined with weapons, operatives hone lethal techniques. Then they receive assignments to counter threats before those threats reach the boy-king’s throne room.",
    "spoiler": 1
   }
  ],
@@ -28,7 +28,7 @@
     "who are si:7",
     "si 7 meaning"
    ],
-   "answer": "SI:7 stands for Stormwind Intelligence, Section 7. It is the premier covert espionage, reconnaissance, and assassination agency serving the Crown of Stormwind."
+   "answer": "SI:7 means Stormwind Intelligence, Section 7. It is the Crown of Stormwind’s agency for covert espionage, reconnaissance and assassination."
   },
   {
    "q": "Who leads SI:7 in Stormwind?",
@@ -37,7 +37,7 @@
     "si7 boss",
     "who runs si:7"
    ],
-   "answer": "Master Mathias Shaw leads the organization from within the building. Mathias oversees all field assignments, intelligence networks, and strategic reconnaissance for the crown."
+   "answer": "Master Mathias Shaw leads SI:7 from its headquarters. He oversees its field assignments, intelligence networks and reconnaissance for the crown."
   },
   {
    "q": "Where in the city is this building located?",
@@ -46,7 +46,7 @@
     "si7 location",
     "how to get to si7"
    ],
-   "answer": "The headquarters is situated in Old Town, tucked along the southeastern edge of the district near the canal and training yards."
+   "answer": "SI:7’s headquarters stands in Old Town, along the district’s southeastern edge near the canal and training yards."
   },
   {
    "q": "Why is SI:7 so interested in Westfall?",
@@ -54,17 +54,17 @@
     "defias brotherhood si7",
     "why is si7 watching defias"
    ],
-   "answer": "SI:7 tracks subversive activities throughout Stormwind's territories, and the Defias Brotherhood represents the most dangerous insurrection within the realm."
+   "answer": "SI:7 watches for subversive activity across Stormwind’s territories. The Defias Brotherhood is the realm’s most dangerous insurrection."
   }
  ],
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "For Alliance rogues, the SI:7 building is a vital professional hub offering advanced class training, poison supplies, and clandestine assignments direct from Spymaster Mathias Shaw."
+   "text": "As an Alliance rogue, you can find advanced training, poison supplies and secret assignments from Spymaster Mathias Shaw at SI:7."
   },
   {
    "target": "faction:Alliance",
-   "text": "As the unseen foundation of Stormwind's defense, SI:7's intelligence network provides the Alliance military with crucial reconnaissance against threats to the throne."
+   "text": "As an Alliance member, you can count on SI:7’s intelligence network to provide the military with reconnaissance against threats to the throne."
   }
  ],
  "keywords": [
@@ -91,5 +91,6 @@
  ],
  "attribution": [
   "SI:7 (Stormwind City)"
- ]
+ ],
+ "style": 2
 }

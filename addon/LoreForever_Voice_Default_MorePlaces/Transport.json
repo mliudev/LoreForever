@@ -939,9 +939,9 @@
     "subzone:bulwark": {
       "1": [
         {
-          "duration": 45.374693877551024,
-          "file": "Audio/Transport/full_subzone_bulwark-6aac853bdb9e6c9c8218/1-0000.mp3",
-          "sha256": "dc7ec1f37ea7c1c9a57757ea60ddb04f72276343537cdec77056fdaa4c93d554",
+          "duration": 33.12326530612245,
+          "file": "Audio/Transport/full_subzone_bulwark-3a7f69947bd24015e899/1-0000.mp3",
+          "sha256": "e7899e62eb5e3da1f3b80030b03b65ab9ab69e46f35b50061646d2f99649a848",
           "start": 0
         }
       ],
@@ -952,15 +952,15 @@
           "1"
         ]
       },
-      "fullHash": "ce9e4c",
-      "generation": "658926736d760a79d725",
-      "hash": "ce9e4c",
+      "fullHash": "21e490",
+      "generation": "70f2973fac067889bd19",
+      "hash": "21e490",
       "source": {
-        "duration": 45.374694,
+        "duration": 33.149388,
         "file": null,
-        "sha256": "6aac853bdb9e6c9c8218df4b0bacec73bafa113f2a9b305440ebe7962eaf3688"
+        "sha256": "3a7f69947bd24015e8997fb09aa667626344a54efadb90396062503a8f79ca03"
       },
-      "text": "Bulwark. The Bulwark is a fortified outpost straddling the border between Tirisfal Glades and the Western Plaguelands. Maintained jointly by the Forsaken and the neutral Argent Dawn, it serves as the Horde's front line against the Scourge and the primary launching point for expeditions into the tainted east. Positioned squarely on the eastern border of Tirisfal Glades, the Bulwark is the final barrier protecting the Forsaken heartland from the blighted horrors of the Western Plaguelands. Today, rough wooden palisades and heavily armed guards defend the pass against roaming undead. It represents an uneasy but necessary collaboration, where Forsaken forces coordinate alongside the Argent Dawn to recruit seasoned champions of the Horde, turning back the minions of the Lich King before they spill into Tirisfal."
+      "text": "Bulwark. At Tirisfal's edge, Bulwark keeps watch over the Western Plaguelands. Forsaken and Argent Dawn forces hold the outpost together, and Horde expeditions set out from there into the tainted east. Forsaken guards hold Bulwark's palisade where Tirisfal Glades meets the Western Plaguelands. The outpost bars the road from blighted lands where the undead roam. Here, Forsaken forces work with the neutral Argent Dawn. Together, they call on seasoned Horde champions to strike at the Scourge and keep the Lich King's minions from reaching Tirisfal."
     },
     "subzone:caer-darrow": {
       "1": [
@@ -1407,9 +1407,9 @@
     "subzone:clockwerk-run": {
       "1": [
         {
-          "duration": 32.57469387755102,
-          "file": "Audio/Transport/full_subzone_clockwerk-run-b69e6f9713b55908b8b2/1-0000.mp3",
-          "sha256": "1a8f45d2416bb9c4922443d3fd19947df75472634b1473140f7176056dad20bd",
+          "duration": 34.82122448979592,
+          "file": "Audio/Transport/full_subzone_clockwerk-run-3ab93d0abd37163132ab/1-0000.mp3",
+          "sha256": "ede4e73b728df4af7758a685b015c48602759239a1c97e3c7a43c5639a1a8ecf",
           "start": 0
         }
       ],
@@ -1420,15 +1420,15 @@
           "1"
         ]
       },
-      "fullHash": "f2ca20",
-      "generation": "199afbc0bb4a18da614f",
-      "hash": "f2ca20",
+      "fullHash": "aa818f",
+      "generation": "199c9e7319df00604593",
+      "hash": "aa818f",
       "source": {
-        "duration": 32.574694,
+        "duration": 34.847347,
         "file": null,
-        "sha256": "b69e6f9713b55908b8b2408c90759909cf5878ddb40768e70934e12f829ee5a6"
+        "sha256": "3ab93d0abd37163132ab901e2468881cf2d72f36e0b703144b22e9e17e840296"
       },
-      "text": "Clockwerk Run. In Gnomeregan, Clockwerk Run lies between the Train Depot and the Hall of Gears. Toxic fallout and irradiated troggs fill the route into the fallen city. Clockwerk Run runs from the outer Train Depot into Gnomeregan. Once, gnomish traffic and supplies moved through this corridor. High Tinker Mekkatorque ordered radioactive waste vented to stop the trogg invasion, turning the passage into a deadly trap. The blast and the fighting that followed brought parts of the hallway down. Toxic fumes and irradiated troggs now block the way to the upper Hall of Gears."
+      "text": "Clockwerk Run. In Gnomeregan, toxic fumes and irradiated troggs choke Clockwerk Run between the Train Depot and the Hall of Gears. Clockwerk Run carries you from the outer Train Depot into Gnomeregan. Once, gnomish traffic and supplies passed through this corridor. Then High Tinker Mekkatorque ordered radioactive waste vented to stop the trogg invasion. The waste turned the passage into a deadly trap.\n\nThe blast and the fighting that followed brought parts of the hallway down. Toxic fumes and irradiated troggs now block the way to the upper Hall of Gears."
     },
     "subzone:corin-s-crossing": {
       "1": [
@@ -1927,9 +1927,9 @@
     "subzone:darrowshire": {
       "1": [
         {
-          "duration": 84.48,
-          "file": "Audio/Transport/full_subzone_darrowshire-1c6f1ce3ad01dd49f806/1-0000.mp3",
-          "sha256": "94370f75dee96be77beb60b70a64f1af477f2bfa89774823fa74620a5266b473",
+          "duration": 71.52326530612245,
+          "file": "Audio/Transport/full_subzone_darrowshire-c3ed6b8b301959d31242/1-0000.mp3",
+          "sha256": "c6947e3075754fb17a967d92aa8d1f3ebd729eb6950b9935e4d657548193b481",
           "start": 0
         }
       ],
@@ -1940,15 +1940,15 @@
           "1"
         ]
       },
-      "fullHash": "a11d24",
-      "generation": "db5e9ee4760d83ec8f03",
-      "hash": "a11d24",
+      "fullHash": "7bc6fa",
+      "generation": "7b9aa81165d11a5217a0",
+      "hash": "7bc6fa",
       "source": {
-        "duration": 84.453875,
+        "duration": 71.549388,
         "file": null,
-        "sha256": "1c6f1ce3ad01dd49f806a9e4487a4d5dcda7967f79237f9b3c4c166718bdfdd6"
+        "sha256": "c3ed6b8b301959d312420eaf5e13dba1d2e58b40f617dddb4c8229542ae7715c"
       },
-      "text": "Darrowshire. Darrowshire is a ruined village in the southern hills of the Eastern Plaguelands, once a peaceful hamlet of Lordaeron. During the Third War, its residents mounted a desperate, tragic stand against an overwhelming Scourge force. Today, only shattered timbers, restless spirits, and bitter memories linger amid the silence. Before the plague consumed northern Lordaeron, Darrowshire was a humble rural settlement nestled beneath the southern cliffs. When the Scourge marched south during the Third War, a force led by the death knight Marduk Blackpool and the ghoul lord Horgus the Ravager besieged the town. The villagers and local defenders fought valiantly, momentarily holding the line against impossible odds. Ultimately, the defense collapsed, and the town was slaughtered down to the last soul. Rather than finding peace in death, many of Darrowshire's fallen defenders were reanimated as ghouls to bolster the Scourge's ranks, leaving the village an eerie, empty memorial of lost valor. Though long abandoned by the living, Darrowshire is far from completely empty. The psychic weight of the slaughter clings heavily to the valley, trapping spectral remnants of the townspeople within the ruins. Travelers passing through report strange phenomena, including chilling reenactments where the tragic battle unfolds again in ghostly silence. The ground remains saturated with sorrow, serving as a bleak reminder of what the Scourge tore away from the kingdom."
+      "text": "Darrowshire. Darrowshire lies in ruins in the southern hills of the Eastern Plaguelands. Once a peaceful hamlet of Lordaeron, it made a desperate stand against the Scourge during the Third War. Shattered timbers, restless spirits, and bitter memories remain. Darrowshire's villagers fought the Scourge during the Third War. Before plague consumed northern Lordaeron, the humble settlement stood beneath the southern cliffs. Marduk Blackpool, a death knight, and Horgus the Ravager, a ghoul lord, led the besieging force.\n\nThe villagers and local defenders held the line for a time, though the odds were impossible. Then their defense broke, and the Scourge slaughtered the town down to the last soul. Many fallen defenders were raised as ghouls to swell the Scourge's ranks. Darrowshire remains an empty memorial to those who died there. Darrowshire's ruins still bear the weight of the slaughter. The living abandoned the village long ago, but spectral remnants of its townspeople remain trapped there. Travelers report strange sights, including ghostly reenactments of the battle unfolding in silence. Sorrow still clings to the ground, a reminder of what the Scourge took from the kingdom."
     },
     "subzone:deadman-s-crossing": {
       "1": [
@@ -1979,9 +1979,9 @@
     "subzone:deadmines": {
       "1": [
         {
-          "duration": 42.24,
-          "file": "Audio/Transport/full_subzone_deadmines-5d961ce78c153f73d924/1-0000.mp3",
-          "sha256": "3b3bc9e5ba29839112e666354c71fea5c5dbfa55cb482bd0b9c750c9db4315ed",
+          "duration": 42.78857142857143,
+          "file": "Audio/Transport/full_subzone_deadmines-f94a83aa48dcb0b9cbe1/1-0000.mp3",
+          "sha256": "b64301481510f21bf278952d106163272746475d61b15869c4c2d418343bb390",
           "start": 0
         }
       ],
@@ -1992,15 +1992,15 @@
           "1"
         ]
       },
-      "fullHash": "050b2c",
-      "generation": "3702bc8fa3d19c1dae5f",
-      "hash": "050b2c",
+      "fullHash": "410d61",
+      "generation": "1110b74c8a131f6f27b9",
+      "hash": "410d61",
       "source": {
-        "duration": 42.266122,
+        "duration": 42.788571,
         "file": null,
-        "sha256": "5d961ce78c153f73d9243e1b22c4d6ce401b485bc8de300564ebfedf5b49e23d"
+        "sha256": "f94a83aa48dcb0b9cbe16548894c669a5cc8cde0b7fa5a5920f70fe403236be0"
       },
-      "text": "Deadmines. Beneath Moonbrook, the Deadmines lie silent under a ruined town in Westfall. Once the greatest gold producer in human lands, the mines were abandoned during the First War. Now rumors speak of sinister forces in the forgotten shafts, though their danger remains unknown. The Deadmines once led all human mines in gold, with Whitestone oak for timber and supports. When the orcish Horde pushed north, miners fled in haste. Sir Anduin Lothar entered the treacherous depths to recover the sacred Tome of Divinity. Subterranean ogres held him captive for twenty months before rescuers freed him. After the kingdom fell, the shafts went quiet, and people came to say they were cursed."
+      "text": "Deadmines. Beneath ruined Moonbrook, the Deadmines lie quiet, though rumors speak of danger in their forgotten shafts. Once the greatest gold producer in human lands, the mines fell silent during the First War. Gold once poured from the Deadmines, the richest mines in human lands. Whitestone oak supplied their timber and supports. When the orcish Horde pushed north, the miners fled in haste.\n\nDuring the First War, Sir Anduin Lothar entered the treacherous depths to recover the sacred Tome of Divinity. Subterranean ogres held him captive for twenty months before rescuers freed him. After the kingdom fell, the shafts went quiet, and people came to say they were cursed."
     },
     "subzone:deadwood-village": {
       "1": [
@@ -2915,9 +2915,9 @@
     "subzone:flame-crest": {
       "1": [
         {
-          "duration": 66.56,
-          "file": "Audio/Transport/full_subzone_flame-crest-49f3172e6536ee4457cd/1-0000.mp3",
-          "sha256": "7b11aa970c40079e0412988bb79e31773bfd9cc47d6684552d31d4d780f0644b",
+          "duration": 47.986938775510204,
+          "file": "Audio/Transport/full_subzone_flame-crest-359a980a5c68d7251985/1-0000.mp3",
+          "sha256": "e6e5e28257d519dd6d3f1247a4b1c632e14375ea0754161c59d56e6b4e1d8441",
           "start": 0
         }
       ],
@@ -2928,22 +2928,22 @@
           "1"
         ]
       },
-      "fullHash": "521b67",
-      "generation": "2d4a6db508dd2265d280",
-      "hash": "521b67",
+      "fullHash": "b53782",
+      "generation": "64a233c4d8aa9fcf7fc0",
+      "hash": "b53782",
       "source": {
-        "duration": 66.56,
+        "duration": 48.013061,
         "file": null,
-        "sha256": "49f3172e6536ee4457cdf1a67abd8c748791af862a5a77c40e7454cb3fc29711"
+        "sha256": "359a980a5c68d72519854ab452429a6d1de0c721e25ec454e0410b0da1b800ca"
       },
-      "text": "Flame Crest. Flame Crest is a rugged neutral outpost perched atop a rocky ledge overlooking the volcanic wastes of the Burning Steppes. Accessed only across a crude span, this precarious encampment serves as a forward staging ground against the Dark Horde entrenched in Blackrock Mountain. It provides essential aerial connections and a haven for scouts, beast collectors, and strategists. Situated high on an isolated stone outcropping, Flame Crest commands a watchful view over the scorched ash and lava plains of the Burning Steppes. Reached only by crossing a narrow, rickety wooden bridge, the outpost is naturally defensible against the prowling beasts and roaming orc warbands of the wastes. Wind riders roost along the heights, connecting the camp back across the Redridge range to Kargath, Stonard, Thorium Point, and Rog'mar in the Riverglades. Flame Crest is more than just a wind rider roost; it is a critical forward watchpoint over the Blackrock clan entrenched within Blackrock Spire. Here, deep in hostile territory, scouts gather intelligence, lay plans to break the renegade Dark Horde, and trade with eccentric loners like the pet master Kibler in his nearby cave."
+      "text": "Flame Crest. Flame Crest watches the volcanic wastes from a rocky ledge in the Burning Steppes. The neutral camp shelters scouts, beast collectors, and strategists, while wind riders carry travelers across the Redridge range and beyond. Flame Crest clings to a stone ledge above the ash and lava plains. You cross a narrow wooden bridge to reach the camp. Its height helps keep prowling beasts and roaming orc warbands at bay. Wind riders carry travelers across the Redridge range to Kargath, Stonard, Thorium Point, and Rog'mar in the Riverglades. Scouts at Flame Crest watch the Blackrock clan entrenched in Blackrock Spire. They gather intelligence and plan how to break the renegade Dark Horde. The camp also trades with eccentric loners, including Kibler, a pet master who lives in a nearby cave."
     },
     "subzone:foothold-citadel": {
       "1": [
         {
-          "duration": 67.97061224489796,
-          "file": "Audio/Transport/full_subzone_foothold-citadel-28e8f98f2519bed5dbdd/1-0000.mp3",
-          "sha256": "186a153af9bd8b08c47960fbbee0fdc9ede5a995707f3019798a3ead9121fa22",
+          "duration": 54.36081632653062,
+          "file": "Audio/Transport/full_subzone_foothold-citadel-1f52c2d28cd746f29b37/1-0000.mp3",
+          "sha256": "e353442a72eb312da0e2b4d618ed43829b21a93e9676277aa7c961bdc1061e5a",
           "start": 0
         }
       ],
@@ -2954,15 +2954,15 @@
           "1"
         ]
       },
-      "fullHash": "b780d7",
-      "generation": "ffa48b70a89022127800",
-      "hash": "b780d7",
+      "fullHash": "8d628c",
+      "generation": "fa982c6152b3c14cda9f",
+      "hash": "8d628c",
       "source": {
-        "duration": 67.944438,
+        "duration": 54.386939,
         "file": null,
-        "sha256": "28e8f98f2519bed5dbddc36bcb641d7c4dcb57dc3b687377fa54e150471e1eae"
+        "sha256": "1f52c2d28cd746f29b37a7848ae0619b0e804deefdbda572c7e7e4e847ce0e07"
       },
-      "text": "Foothold Citadel. Foothold Citadel serves as the central military barracks and command post within Theramore Isle. Overlooking the fortified settlement, it houses the officers and guards who protect the Alliance's primary bastion on southern Kalimdor. Rising within the fortified stone walls of Theramore Isle, Foothold Citadel is the nerve center of local Alliance defense. The citadel houses the high command of the Theramore Guard, including Captain Garran Vimes and Commander Samaul, along with field medics, logistics officers, and quartermasters. Its utilitarian stone halls bustle with regular patrols and drills, keeping Lady Jaina Proudmoore's forces prepared against threats creeping out of the surrounding swamplands. The citadel bears a grim history tied to the founding days of Theramore. When Grand Admiral Daelin Proudmoore seized control of the city to wage his personal crusade against the Horde, this very fortress became the battleground of his final stand. Thrall's allied strike force, spearheaded by the half-ogre warrior Rexxar, breached the citadel and struck the Admiral down. Today, the fortress stands repaired and steadfast, though the memory of that bloody conflict still hangs over its stone ramparts."
+      "text": "Foothold Citadel. At Foothold Citadel, Theramore's guards prepare to defend the island. The fortress holds the Alliance command and barracks on Theramore Isle, overlooking the settlement. Foothold Citadel holds the Alliance defense within Theramore Isle's stone walls. Captain Garran Vimes and Commander Samaul lead the Theramore Guard from its halls. Field medics, logistics officers and quartermasters work beside them. Guards patrol and drill, preparing Lady Jaina Proudmoore's forces for threats from the surrounding swamplands. Foothold Citadel recalls the early days of Theramore. Grand Admiral Daelin Proudmoore seized the city to wage his personal crusade against the Horde, and the fortress became the place of his final stand. Thrall's allied force broke through the citadel under Rexxar, a half-ogre warrior, and struck down the Admiral. The fortress has been repaired, though the bloody conflict is remembered."
     },
     "subzone:forgotten-coast": {
       "1": [
@@ -3409,9 +3409,9 @@
     "subzone:gnomeregan": {
       "1": [
         {
-          "duration": 71.44489795918368,
-          "file": "Audio/Transport/full_subzone_gnomeregan-f9e75864eccb8614ca92/1-0000.mp3",
-          "sha256": "ceb35ae917394ebb0d459359f8cf2a2315c08ad5c36bb99ec71af12aff6e67e5",
+          "duration": 74.13551020408164,
+          "file": "Audio/Transport/full_subzone_gnomeregan-d7cde7f90617d95c6aae/1-0000.mp3",
+          "sha256": "5928c99b37da215907cbcd98ca949349578ab327044d6c5944517c9d9b17d623",
           "start": 0
         }
       ],
@@ -3422,15 +3422,15 @@
           "1"
         ]
       },
-      "fullHash": "f71771",
-      "generation": "2f05650a50afcc6528b7",
-      "hash": "f71771",
+      "fullHash": "ce40b5",
+      "generation": "23bc319f32a1ac1091b9",
+      "hash": "ce40b5",
       "source": {
-        "duration": 71.444898,
+        "duration": 74.161633,
         "file": null,
-        "sha256": "f9e75864eccb8614ca92cd490591af33b2b12e28db58e38658db2b7375fb7ea0"
+        "sha256": "d7cde7f90617d95c6aae4f6be95d24977927f6ac1e67fa1bb600a1c62a737858"
       },
-      "text": "Gnomeregan. In the poisoned halls of Gnomeregan, troggs and leper gnomes roam among broken defenses. Once the gnomes’ subterranean capital, it fell after a desperate defense turned to catastrophe. Gnomeregan’s halls once rang with the work of gnomish engineers. Built with aid from the Ironforge dwarves centuries ago, the city was carved into the snowy crags of western Dun Morogh. Steam-driven gears, copper piping, and vast assembly halls made it the heart of gnomish industry and invention. During the Second War, its designs, flying machines, and complex armaments supplied the Alliance. The city held firm even as Orgrim Doomhammer’s Horde laid siege. During the Third War, troggs surged from deep underground and broke into Gnomeregan’s lowest chambers. High Tinker Gelbin Mekkatorque chose to face the invasion alone, unwilling to draw Alliance armies away from the slaughter in Lordaeron. On the advice of chief engineer Mekgineer Thermaplugg, he ordered radioactive gas released through the lower chambers to wipe out the troggs. Instead, the gas empowered many of them and killed nearly eighty percent of the gnomish people. Those exposed who survived became twisted leper gnomes, and Thermaplugg took control of the poisoned ruins."
+      "text": "Gnomeregan. Troggs and leper gnomes roam Gnomeregan’s poisoned halls among the broken defenses. The city was once the gnomes’ underground capital, until a desperate defense ended in catastrophe. Gnomeregan’s halls once rang with the work of gnomish engineers. Ironforge dwarves helped build the city centuries ago, carving it into the snowy crags of western Dun Morogh. Steam-driven gears, copper pipes, and vast assembly halls made it the heart of gnomish industry and invention. During the Second War, its designs, flying machines, and complex weapons supplied the Alliance. Even Orgrim Doomhammer’s Horde could not break the city during its siege. During the Third War, troggs surged up from deep underground and broke into Gnomeregan’s lowest chambers. High Tinker Gelbin Mekkatorque chose to face the invasion alone, unwilling to draw Alliance armies away from the slaughter in Lordaeron.\n\nOn the advice of chief engineer Mekgineer Thermaplugg, he ordered radioactive gas released through the lower chambers to wipe out the troggs. Instead, the gas empowered many troggs and killed nearly eighty percent of the gnomish people. Survivors exposed to it became twisted leper gnomes, and Thermaplugg took control of the poisoned ruins."
     },
     "subzone:go-shek-farm": {
       "1": [
@@ -4111,9 +4111,9 @@
     "subzone:ironforge": {
       "1": [
         {
-          "duration": 71.60163265306123,
-          "file": "Audio/Transport/full_subzone_ironforge-02543c3444bfdff189c2/1-0000.mp3",
-          "sha256": "ce595f236e68dc0c0ebda75d7bb799d6d2437c9077673fd4e86938b7faf83bf9",
+          "duration": 70.71346938775511,
+          "file": "Audio/Transport/full_subzone_ironforge-4a4af3f25be713e4f761/1-0000.mp3",
+          "sha256": "56567a05472330810c6fb46edeb70074eeb4d71a8814032c9294a21ec3de5cb1",
           "start": 0
         }
       ],
@@ -4124,15 +4124,15 @@
           "1"
         ]
       },
-      "fullHash": "ee2d26",
-      "generation": "74715e2d9476abd1bc1c",
-      "hash": "ee2d26",
+      "fullHash": "5f0d74",
+      "generation": "c5bb7f17bf00b22324a2",
+      "hash": "5f0d74",
       "source": {
-        "duration": 71.601633,
+        "duration": 70.739592,
         "file": null,
-        "sha256": "02543c3444bfdff189c20a92e882057099a1780bbf288f0794d5b02c9439b2ae"
+        "sha256": "4a4af3f25be713e4f761c5102c5f9835a5e7aca288ff687949e66d3dc3893102"
       },
-      "text": "Ironforge. Ironforge's Great Forge burns beneath the mountain, at the heart of dwarven rule and Alliance trade. Deep inside Ironforge Mountain in Dun Morogh, the city is the political and mercantile anchor of Khaz Modan and a bulwark of the Alliance. Ironforge fills the deep halls of Ironforge Mountain, its stone rings circling the Great Forge. The dwarves founded the city millennia ago, after awakening and migrating from Uldaman. It has weathered ages of history, including the ancient War of the Three Hammers, which left the Bronzebeard clan in sole control. Natural magma pours through the mountain to power the city, while massive stone gates guard its halls. Dwarven craftsmen and warriors share them with many exiled gnomes, who came after the recent fall of Gnomeregan. Ironforge is perhaps the Alliance's busiest center of commerce and industry. King Magni Bronzebeard rules Khaz Modan from the High Seat, while dwarven prospectors, miners, and engineers work alongside gnome refugees in Tinker Town. The Deeprun Tram runs beneath the mountains to Stormwind City, carrying trade and troops at high speed and keeping the capitals linked in mutual defense."
+      "text": "Ironforge. Beneath Dun Morogh, Ironforge’s Great Forge still burns at the heart of dwarven rule and Alliance trade. Deep within Ironforge Mountain, the city anchors Khaz Modan and guards the Alliance. Ironforge fills the deep halls of Ironforge Mountain, with stone rings circling the Great Forge. Dwarves founded the city millennia ago, after awakening and migrating from Uldaman. It has endured ages of history, including the War of the Three Hammers, which left the Bronzebeard clan in sole control.\n\nNatural magma pours through the mountain and powers the city. Massive stone gates guard its halls. Dwarven craftsmen and warriors share them with many exiled gnomes, who arrived after Gnomeregan fell recently. Ironforge is one of the Alliance’s busiest centers of commerce and industry. From the High Seat, King Magni Bronzebeard rules Khaz Modan. Dwarven prospectors, miners, and engineers work beside gnome refugees in Tinker Town.\n\nBeneath the mountains, the Deeprun Tram runs to Stormwind City. It carries trade and troops at high speed, keeping the capitals linked in mutual defense."
     },
     "subzone:ironstone-camp": {
       "1": [
@@ -4267,9 +4267,9 @@
     "subzone:jaedenar": {
       "1": [
         {
-          "duration": 83.40897959183674,
-          "file": "Audio/Transport/full_subzone_jaedenar-fbe0bc43e9202d50eb8c/1-0000.mp3",
-          "sha256": "98e9359a985763400a4d2eb8ca6c785892849d3ee08a797f197021ed917c8d1d",
+          "duration": 66.48163265306123,
+          "file": "Audio/Transport/full_subzone_jaedenar-68aa2782e3e016fe3726/1-0000.mp3",
+          "sha256": "71bcb37554ee9fa28142f027dcb02748036e7deef5106a34e192950ecefc0a07",
           "start": 0
         }
       ],
@@ -4280,15 +4280,15 @@
           "1"
         ]
       },
-      "fullHash": "6ef9f4",
-      "generation": "582dd1932779366bb885",
-      "hash": "6ef9f4",
+      "fullHash": "498ab9",
+      "generation": "88aaa669dc811ecdaeca",
+      "hash": "498ab9",
       "source": {
-        "duration": 83.40898,
+        "duration": 66.507755,
         "file": null,
-        "sha256": "fbe0bc43e9202d50eb8c33142058c0a490db3df4981b96a8732e43f20981d105"
+        "sha256": "68aa2782e3e016fe372665afdf830bc7fc9b80390089f0b1b41c614045380e9f"
       },
-      "text": "Jaedenar. Jaedenar is a blighted hollow in central Felwood built over ancient night elf ruins and druidic barrow dens. Named in foul homage to the demon lord Kil'jaeden, it serves as the primary base of operations for the Shadow Council in northern Kalimdor. Cultists, warlocks, and summoned demons scour the corrupt hollow, guarding the subterranean descent into the Shadow Hold. Long ago, these hollows sheltered night elf sacred grounds and slumbering druids connected to the Emerald Dream. After the devastation of the Third War, the vile remnant of the Shadow Council laid claim to the valley, christening it Jaedenar to honor the demon lord Kil'jaeden. Warlocks—predominantly renegade orcs and Forsaken—have gathered here alongside satyrs, succubi, and felguards. They occupy both the surface ruins and the deeper barrow dens, twisting what was once holy woodland into a grim center of demonic invocation. Above ground, the cultists gather at profane sites like the Shrine of the Deceiver, burning braziers of fell flame and conducting rituals to further corrupt the timberland. Beneath the surface lies the entrance to the Shadow Hold, the subterranean stronghold where the council's true masters direct their operations across Felwood. The Emerald Sanctuary watches the festering enclave with profound concern, regularly enlisting daring wanderers to disrupt their summoning circles and douse the dark flames that seal their tunnels."
+      "text": "Jaedenar. Cultists and demons now hold Jaedenar, the Shadow Council’s chief base in northern Kalimdor. Blighted woodland covers ancient night elf ruins and druidic barrow dens, with the Shadow Hold below. Night elf sacred grounds and barrow dens once filled these hollows. Druids slept in the dens while connected to the Emerald Dream. After the Third War, the Shadow Council claimed the valley and named it for the demon lord Kil'jaeden. Renegade orc and Forsaken warlocks gathered there with satyrs, succubi, and felguards. They hold the surface ruins and deeper barrow dens, turning sacred woodland into a center for demonic rites. Cultists gather at profane sites above ground, including the Shrine of the Deceiver. Braziers burn with fel flame, and rituals further corrupt the timberland. Below lies the entrance to the Shadow Hold, where the council's true masters direct their work across Felwood. The Emerald Sanctuary watches Jaedenar with concern. It regularly calls on daring wanderers to disrupt summoning circles and douse the dark flames sealing the tunnels."
     },
     "subzone:jagged-reef": {
       "1": [
@@ -4709,9 +4709,9 @@
     "subzone:launch-bay": {
       "1": [
         {
-          "duration": 49.76326530612245,
-          "file": "Audio/Transport/full_subzone_launch-bay-ff7ad10c81de7aca9ddd/1-0000.mp3",
-          "sha256": "dc3bed1ded38e18e3b86fd95b752b156f3627b80f9dc02053726209afd2308dd",
+          "duration": 52.00979591836735,
+          "file": "Audio/Transport/full_subzone_launch-bay-26027331ad159c0fa142/1-0000.mp3",
+          "sha256": "2c6b7c4e13775d8bd3059d21f9b4ef94be3f51988fd84458a61e516904476d33",
           "start": 0
         }
       ],
@@ -4722,15 +4722,15 @@
           "1"
         ]
       },
-      "fullHash": "f64f3d",
-      "generation": "1f1436ee8d3dd8c70de9",
-      "hash": "f64f3d",
+      "fullHash": "38dde1",
+      "generation": "bc314bc8b60bb7ea6a32",
+      "hash": "38dde1",
       "source": {
-        "duration": 49.789388,
+        "duration": 52.035918,
         "file": null,
-        "sha256": "ff7ad10c81de7aca9dddadb3c362a08d0d3e7c74c51be1d0ecf34c3b920b2827"
+        "sha256": "26027331ad159c0fa1425e2601dbebf52a26a472526aedb66f1275e7d6cf47ff"
       },
-      "text": "Launch Bay. Hostile leper gnomes and corrupted machines hold Launch Bay, deep in Gnomeregan beyond the Hall of Gears. The underground airfield once served gnomish flying machines and bombers; now the city’s former hangar is under enemy control. Launch Bay’s two tiers once housed Gnomeregan’s aerial fleet. Ramps from the upper walkway lead to a central platform where flying machines and heavy bombers remain parked, left behind before the city was evacuated. Crazed leper gnomes now roam the flight decks, maintaining and guarding the idle war machines in place of skilled pilots. Launch Bay also joins several parts of the complex. Ramps from its southeastern corridor descend into the Engineering Labs. On the lower deck, invading Dark Iron dwarves choke the southern passage. That tunnel offers a perilous route toward Tinkers' Court, deep in the city."
+      "text": "Launch Bay. Hostile leper gnomes and corrupted machines hold Launch Bay beyond the Hall of Gears. Once Gnomeregan’s airfield for flying machines and bombers, this hangar lies deep beneath the city. Two tiers once held Gnomeregan’s aerial fleet. Ramps from the upper walkway lead to a central platform, where flying machines and heavy bombers remain parked. They were left behind before the city was evacuated.\n\nCrazed leper gnomes now roam the flight decks. They maintain and guard the idle war machines where skilled pilots once served. Launch Bay joins several parts of the complex. Ramps from its southeastern corridor descend into the Engineering Labs.\n\nOn the lower deck, invading Dark Iron dwarves choke the southern passage. That tunnel offers a perilous route toward Tinkers' Court, deep in the city."
     },
     "subzone:lethlor-ravine": {
       "1": [
@@ -4813,9 +4813,9 @@
     "subzone:loading-room": {
       "1": [
         {
-          "duration": 40.568163265306126,
-          "file": "Audio/Transport/full_subzone_loading-room-0bbe698af0e939212660/1-0000.mp3",
-          "sha256": "e50a5fd757b7c929c38c586b115f651beaa9e5fdf635d5658bbcda9e6569c8e1",
+          "duration": 41.116734693877554,
+          "file": "Audio/Transport/full_subzone_loading-room-acfdf7694db2ae03b39c/1-0000.mp3",
+          "sha256": "ad5ff4ead51e5f15cacd897142b2a612bcc83f50bf4b6e41584f8598b2ce8060",
           "start": 0
         }
       ],
@@ -4826,15 +4826,15 @@
           "1"
         ]
       },
-      "fullHash": "33a42e",
-      "generation": "53ecaec0a2a2513beee4",
-      "hash": "33a42e",
+      "fullHash": "529929",
+      "generation": "a82e4b307ddf76c66f8b",
+      "hash": "529929",
       "source": {
-        "duration": 40.568163,
+        "duration": 41.142857,
         "file": null,
-        "sha256": "0bbe698af0e939212660ba4179298fe8f701eb725d0b92e5efa78281fbc4ea6b"
+        "sha256": "acfdf7694db2ae03b39c6b6e7f145a91e1e1578812f2adee19bc91cfa17b9464"
       },
-      "text": "Loading Room. In Gnomeregan's depths, the Loading Room is a dangerous place to pass through. The ruined chamber once staged cargo for the city's transit networks, but radioactive fallout and rogue machinery now threaten anyone who enters. The Loading Room once handled cargo for Gnomeregan's underground transit network. Before the city fell, goods passed through its staging bay on their way across the tinker capital. Now the room is caught in the ruin that has overtaken Gnomeregan. Radioactive fallout, invading troggs, and failing machinery make the area perilous. Techbot, a rogue mechanized construct, guards the vicinity. Gnome survivors and Alliance reclaimers who try to secure the perimeter must face that danger."
+      "text": "Loading Room. In Gnomeregan's depths, the Loading Room lies amid danger. It once staged cargo for the city's transit networks. Now radioactive fallout and rogue machinery threaten all who enter. Cargo once passed through the Loading Room on its way across Gnomeregan's underground transit network. Goods gathered in its staging bay before the trains carried them through the tinker capital.\n\nNow ruin has overtaken the chamber. Radioactive fallout, invading troggs, and failing machinery make it perilous. Techbot, a rogue mechanized construct, guards the vicinity. Gnome survivors and Alliance reclaimers who try to secure the perimeter must face that danger."
     },
     "subzone:lordamere-internment-camp": {
       "1": [
@@ -6243,9 +6243,9 @@
     "subzone:purgation-isle": {
       "1": [
         {
-          "duration": 49.841632653061225,
-          "file": "Audio/Transport/full_subzone_purgation-isle-70b79aa86dd0c7b711ec/1-0000.mp3",
-          "sha256": "24b33f45b485405cfbe24bb95a5686af17917feb339293103cab3eeeffe1cbfb",
+          "duration": 42.736326530612246,
+          "file": "Audio/Transport/full_subzone_purgation-isle-ebe0d11122724875b77e/1-0000.mp3",
+          "sha256": "ec88cb232d329359e4e33622b4587cbcbc0c45fab5f1fe6aa5c83638c3585292",
           "start": 0
         }
       ],
@@ -6256,15 +6256,15 @@
           "1"
         ]
       },
-      "fullHash": "d2c903",
-      "generation": "b933ff0168c0bd00fc80",
-      "hash": "d2c903",
+      "fullHash": "0aa811",
+      "generation": "f21865152ff501c9b4c3",
+      "hash": "0aa811",
       "source": {
-        "duration": 49.8155,
+        "duration": 42.762449,
         "file": null,
-        "sha256": "70b79aa86dd0c7b711ec0f94d52ccc99c8a14bd4d47c2c2c12417a6ae28613e4"
+        "sha256": "ebe0d11122724875b77e37e70e77e6105f72f51481d13e89bd55d3cf8d15810b"
       },
-      "text": "Purgation Isle. Purgation Isle is a spiraling, rocky island lying off the southern coast of the Hillsbrad Foothills. Crowned with a cemetery and a ruined scout tower, the desolate rock is cursed and swarming with the restless, condemned spirits of fallen humans and dwarves. Rising abruptly from the sea south of Hillsbrad, Purgation Isle is a grim sight marked by winding paths that lead past tombstones to an abandoned watchtower. No living nation claims it today. Instead, the isle is plagued by condemned souls—former paladins, priests, mages, and judges who wander among the graves, unable to find peace in death. The lingering souls trapped upon the island have made it a site of sinister interest. Dark spellcasters, such as the ogre necromancer Kormok, are said to have delighted in drawing upon the island's anguished dead, summoning forth its spirits to do their bidding."
+      "text": "Purgation Isle. Condemned spirits haunt Purgation Isle, off Hillsbrad’s southern coast. Tombstones and a ruined watchtower mark its winding paths, where fallen humans and dwarves wander without peace. Purgation Isle rises from the sea south of Hillsbrad, its winding paths passing tombstones and an abandoned watchtower. No living nation claims the isle. Condemned souls roam among the graves. They were paladins, priests, mages, and judges, and death has brought them no peace. Dark spellcasters have taken an interest in the condemned souls of Purgation Isle. The ogre necromancer Kormok and others are said to delight in calling upon the anguished dead. They summon the spirits to do their bidding."
     },
     "subzone:quagmire": {
       "1": [
@@ -6763,9 +6763,9 @@
     "subzone:ruins-of-lordaeron": {
       "1": [
         {
-          "duration": 77.97551020408163,
-          "file": "Audio/Transport/full_subzone_ruins-of-lordaeron-1084e94804a7598bc9d4/1-0000.mp3",
-          "sha256": "718d372e479b45c8d8e9e640523b2df536179c9e92f8b0693ab31851eeb494a0",
+          "duration": 70.21714285714286,
+          "file": "Audio/Transport/full_subzone_ruins-of-lordaeron-359de0c94eba37b9f2fb/1-0000.mp3",
+          "sha256": "649688e9d4065296fad57a37249b289ea100984312902501c2582158c1ca9464",
           "start": 0
         }
       ],
@@ -6776,15 +6776,15 @@
           "1"
         ]
       },
-      "fullHash": "17c1ee",
-      "generation": "048c0f9f1ea0e409e028",
-      "hash": "17c1ee",
+      "fullHash": "7d1a0f",
+      "generation": "7ce20839c380333b1f3e",
+      "hash": "7d1a0f",
       "source": {
-        "duration": 78.001633,
+        "duration": 70.243265,
         "file": null,
-        "sha256": "1084e94804a7598bc9d475329d05ee2fcffa2a2ca6cb0c84fe16c322444fba4e"
+        "sha256": "359de0c94eba37b9f2fbb426df7d7d95f3f4a8c3a3b844df59562759ca98ff41"
       },
-      "text": "Ruins of Lordaeron. The Ruins of Lordaeron are the hollowed-out surface remnants of Capital City, the once-glorious heart of humanity's northern empire. Destroyed when Prince Arthas murdered his father and unleashed the Scourge, the blasted courtyards and throne room now serve as the fortified gateway to the Undercity below. Capital City was once the radiant summit of human civilization, uniting the northern realms under King Terenas Menethil II. When Prince Arthas returned from Northrend carrying the cursed runeblade Frostmourne, the celebrations turned into a slaughterhouse. Arthas slew his father on the throne, leaving the metropolis to rot under Scourge rule. Following the civil war that tore the Scourge apart, Lady Sylvanas Windrunner claimed the devastated palace, securing the surface while expanding the crypts and dungeons beneath into the Undercity. The palace ruins remain psychically scarred by their violent fall. Travelers walking through the entryway and courtyards often hear the ghostly chime of celebration bells, hushed murmurs of adoring crowds, and the chilling dialogue between Arthas and his father just before the regicide. Blood still stains the floor of the grand throne room, and those possessing magical detection can glimpse spectral citizens eternally reliving the afternoon their prince doomed them all."
+      "text": "Ruins of Lordaeron. At the Ruins of Lordaeron, the hollowed surface of Capital City guards the way into the Undercity. Once the heart of humanity’s northern empire, the city fell when Prince Arthas murdered his father and unleashed the Scourge. Capital City once united the northern realms under King Terenas Menethil II. Its splendor ended when Prince Arthas returned from Northrend with Frostmourne, the cursed runeblade. Celebration gave way to slaughter. Arthas slew his father on the throne, and the Scourge ruled the city as it rotted.\n\nAfter civil war tore the Scourge apart, Lady Sylvanas Windrunner claimed the devastated palace. She secured the surface and expanded the crypts and dungeons below into the Undercity. The palace still bears the psychic wound of its violent fall. In the entryway and courtyards, travelers hear celebration bells, the murmurs of adoring crowds, and the chilling exchange between Arthas and his father before the regicide.\n\nBlood still stains the grand throne room floor. Those with magical detection can glimpse spectral citizens reliving the afternoon their prince doomed them all."
     },
     "subzone:ruins-of-ravenwind": {
       "1": [
@@ -8401,9 +8401,9 @@
     "subzone:stormwind-city": {
       "1": [
         {
-          "duration": 79.80408163265307,
-          "file": "Audio/Transport/full_subzone_stormwind-city-f3371fb2289a5fa7470e/1-0000.mp3",
-          "sha256": "c3f48caf188b6750be577e54e08ab2722cd80d45cffdbd29ac74eb42dabcf7b2",
+          "duration": 79.72571428571429,
+          "file": "Audio/Transport/full_subzone_stormwind-city-8c9bd3f60a8968368d26/1-0000.mp3",
+          "sha256": "42141d5d20af1edc2dc88612be382d02667b09223a31fc7e4974ccff78f06cae",
           "start": 0
         }
       ],
@@ -8414,15 +8414,15 @@
           "1"
         ]
       },
-      "fullHash": "a28f8f",
-      "generation": "b8b8b686854476ad6075",
-      "hash": "a28f8f",
+      "fullHash": "e8e13b",
+      "generation": "947022b4db9836ccf4e2",
+      "hash": "e8e13b",
       "source": {
-        "duration": 79.830204,
+        "duration": 79.751837,
         "file": null,
-        "sha256": "f3371fb2289a5fa7470e4ce4d38570ed69317c0e2cac1da86bd19b628592ab78"
+        "sha256": "8c9bd3f60a8968368d260457338b4baac2e0c2bf9e93cc3501302393703dbe53"
       },
-      "text": "Stormwind City. Stormwind City leads the Kingdom of Stormwind and the Alliance as their capital and seat of power. Rebuilt after the First War, it is the greatest remaining human stronghold in Azeroth since the northern kingdoms fell. Stormwind City rose over a thousand years ago, founded by Arathi descendants who migrated south. The coastal capital flourished behind stone ramparts, with swift rivermills powering the city. In the First War, the Orcish Horde laid siege, broke through its defenses, and burned Stormwind to the ground. Sir Anduin Lothar led the surviving refugees across the Great Sea to Lordaeron. After the Alliance won the Second War, the Stonemasons' Guild rebuilt the capital with white stone, canals, and towering spires. The fortress now stands north of Elwynn Forest. Stormwind City has become mankind's chief refuge and stronghold after the Scourge shattered Lordaeron and the Third War left Dalaran heavily ruined. The disciplined Stormwind City Guard patrols its broad avenues and defensive walls. The Cathedral of Light's spires guide faith across the southern kingdoms. Beneath the orderly districts and ceremonial gates, political troubles linger. King Varian Wrynn has mysteriously vanished, and his young son Anduin sits on the throne under the regency of Highlord Bolvar Fordragon and the whispered counsel of royal advisor Lady Katrana Prestor."
+      "text": "Stormwind City. Stormwind City leads the Kingdom of Stormwind and the Alliance from its seat of power. Rebuilt after the First War, it is Azeroth's greatest remaining human stronghold since the northern kingdoms fell. Stormwind City rose over a thousand years ago, founded by Arathi descendants who migrated south. Its coastal ramparts sheltered a flourishing capital, where swift rivermills powered the city. In the First War, the Orcish Horde broke through its defenses and burned Stormwind to the ground.\n\nSir Anduin Lothar led the surviving refugees across the Great Sea to Lordaeron. After the Alliance won the Second War, the Stonemasons' Guild rebuilt the capital with white stone, canals and towering spires. The fortress now stands north of Elwynn Forest. Stormwind City is mankind's chief refuge and stronghold after the Scourge shattered Lordaeron and the Third War left Dalaran heavily ruined. The disciplined Stormwind City Guard patrols its broad avenues and defensive walls. The Cathedral of Light's spires guide faith across the southern kingdoms.\n\nYet political troubles linger beneath the orderly districts and ceremonial gates. King Varian Wrynn has mysteriously vanished, and his young son Anduin sits on the throne. Highlord Bolvar Fordragon governs as regent, with the whispered counsel of royal advisor Lady Katrana Prestor."
     },
     "subzone:stratholme": {
       "1": [
@@ -9077,9 +9077,9 @@
     "subzone:theramore-isle": {
       "1": [
         {
-          "duration": 46.02775510204082,
-          "file": "Audio/Transport/full_subzone_theramore-isle-a537cceb31c44ac26d46/1-0000.mp3",
-          "sha256": "b74f4fa9b1d9972993ce435bfac3d892fa2c3413d75c0ca8eef7328a9315e358",
+          "duration": 43.36326530612245,
+          "file": "Audio/Transport/full_subzone_theramore-isle-d1f1ea13c516ff479ccc/1-0000.mp3",
+          "sha256": "d2b9d607843da6988dd1a0eae1d5be4c92c2d625fee65c50cf532301ccca5fd3",
           "start": 0
         }
       ],
@@ -9090,15 +9090,15 @@
           "1"
         ]
       },
-      "fullHash": "b16215",
-      "generation": "15502d51b8305a5539c1",
-      "hash": "b16215",
+      "fullHash": "af084a",
+      "generation": "56525a7cf07f5abdfcff",
+      "hash": "af084a",
       "source": {
-        "duration": 46.001625,
+        "duration": 43.389388,
         "file": null,
-        "sha256": "a537cceb31c44ac26d46e6b3650170ac52d86378f514df4946d7d465a9a7cdfa"
+        "sha256": "d1f1ea13c516ff479cccb3b9db4b83914d400531b6a27b2267b4adabce136912"
       },
-      "text": "Theramore Isle. Theramore Isle is a heavily fortified human port citadel off the eastern coast of Dustwallow Marsh. Founded by Lady Jaina Proudmoore for refugees escaping the fall of Lordaeron, it stands as the Alliance's primary bastion in southern Kalimdor. Following the devastation of Dalaran and Lordaeron by the Scourge during the Third War, Lady Jaina Proudmoore guided a fleet of survivors across the Great Sea to the shores of Kalimdor. After fighting alongside orcs and night elves to defeat the Burning Legion atop Mount Hyjal, her coalition of humans, dwarves, and high elves retreated to the misty fringes of Dustwallow Marsh. On a jagged island just off the coast, they built Theramore Isle—a thriving harbor city anchored by towering stone ramparts and Jaina's personal citadel, created to safeguard what remained of the northern kingdoms."
+      "text": "Theramore Isle. Theramore Isle shelters refugees from Lordaeron behind the eastern coast of Dustwallow Marsh. Lady Jaina Proudmoore founded the fortified port, now the Alliance's chief stronghold in southern Kalimdor. After the Scourge ravaged Dalaran and Lordaeron in the Third War, Lady Jaina Proudmoore led survivors across the Great Sea to Kalimdor. There, humans, dwarves, and high elves fought beside orcs and night elves to defeat the Burning Legion atop Mount Hyjal.\n\nAfter the victory, Jaina's coalition withdrew to the misty edge of Dustwallow Marsh. On an island just off the coast, they raised a harbor city with stone ramparts and Jaina's citadel, sheltering what remained of the northern kingdoms."
     },
     "subzone:thistleshrub-valley": {
       "1": [
@@ -9649,9 +9649,9 @@
     "subzone:undercity": {
       "1": [
         {
-          "duration": 67.94448979591837,
-          "file": "Audio/Transport/full_subzone_undercity-a0efa7823b30e1d6e42a/1-0000.mp3",
-          "sha256": "4acdc6ecf98ea49d943b22ba5b1886fbe3bc1653ff5b4dc1a38c1aad6bf2acea",
+          "duration": 51.72244897959184,
+          "file": "Audio/Transport/full_subzone_undercity-f948cbc5d5c122a5b8d0/1-0000.mp3",
+          "sha256": "91250016b46867b663d493bdfca5d6aaa1c811a10efee12a249d639d6017a9cb",
           "start": 0
         }
       ],
@@ -9662,15 +9662,15 @@
           "1"
         ]
       },
-      "fullHash": "fa20a2",
-      "generation": "223ab40e6f5676b3363b",
-      "hash": "fa20a2",
+      "fullHash": "801dfe",
+      "generation": "d99ee2da97b1f118f20f",
+      "hash": "801dfe",
       "source": {
-        "duration": 67.918313,
+        "duration": 51.748571,
         "file": null,
-        "sha256": "a0efa7823b30e1d6e42a4930d0b6649f6edd43c57eeb94e996a6e3a47e8bcae3"
+        "sha256": "f948cbc5d5c122a5b8d069bc620e41aaebf8f6333f34e9b591f8885fdb9a0b44"
       },
-      "text": "Undercity. Carved beneath the shattered palace of Capital City, the Undercity serves as the sprawling subterranean stronghold of the Forsaken. Originally a tangle of royal crypts, dungeons, and sewers expanded by the Scourge, it was seized by Sylvanas Windrunner and forged into a heavily fortified capital for her free-willed undead. Before the Third War, the depths beneath Capital City held a vast network of sewers, royal catacombs, and dungeons. During the fall of Lordaeron, Prince Arthas Menethil ordered his Scourge to begin expanding these depths into a subterranean seat of power. When the Lich King summoned Arthas away to Northrend, the death knight left the construction unfinished. Amid the civil war in the Plaguelands, Sylvanas Windrunner rallied those undead whose minds had broken free from the Lich King's grip. After overthrowing the dreadlords and driving out rival forces, the newly christened Forsaken claimed the subterranean complex. They completed the twisted maze of catacombs the Scourge had started, fortifying it into an impenetrable stronghold beneath the silent ruins of their former kingdom. Today, the Dark Lady rules her people from within its poisoned halls."
+      "text": "Undercity. Beneath Capital City, the Forsaken hold their underground stronghold, ruled by Sylvanas Windrunner. Its halls began as Scourge work and now shelter the free-willed undead. Before the Third War, sewers, royal catacombs, and dungeons lay beneath Capital City. As Lordaeron fell, Prince Arthas Menethil ordered the Scourge to enlarge them into an underground seat of power. The Lich King summoned Arthas to Northrend before the work was finished. During the civil war in the Plaguelands, Sylvanas Windrunner rallied undead who had escaped the Lich King's grip. She overthrew the dreadlords and drove out rival forces, and the Forsaken claimed the underground complex. They finished the maze of catacombs the Scourge had begun and fortified it beneath the silent ruins of their former kingdom. Now the Dark Lady rules her people from its poisoned halls."
     },
     "subzone:undercroft": {
       "1": [
@@ -9909,9 +9909,9 @@
     "subzone:valormok": {
       "1": [
         {
-          "duration": 43.52,
-          "file": "Audio/Transport/full_subzone_valormok-4378aaec4641a1c3d2af/1-0000.mp3",
-          "sha256": "972490f29c73bc38f25b7e72aeb6865bd40b24dfb5c1059f93cb6f81e14377f9",
+          "duration": 31.111836734693878,
+          "file": "Audio/Transport/full_subzone_valormok-f69b8729b1b7d392c121/1-0000.mp3",
+          "sha256": "fca86422fd519769eb2424c3330f8e6fb20a33be91af9ad4aa68460a338a984b",
           "start": 0
         }
       ],
@@ -9922,15 +9922,15 @@
           "1"
         ]
       },
-      "fullHash": "ee037d",
-      "generation": "d13d65b419ad4c91a188",
-      "hash": "ee037d",
+      "fullHash": "c2b28c",
+      "generation": "7b1c756448b73fec4ca3",
+      "hash": "c2b28c",
       "source": {
-        "duration": 43.493875,
+        "duration": 31.137959,
         "file": null,
-        "sha256": "4378aaec4641a1c3d2af59b4ae2bf7daf957965ccb7ca95c910a6db6c1daed67"
+        "sha256": "f69b8729b1b7d392c121c73d2d4b7a63650fff020efcfc8063b72717cd7d0d7f"
       },
-      "text": "Valormok. Valormok is a remote Horde outpost established in the rugged northwest reaches of Azshara. Positioned north of the Haldarr Encampment, this windswept settlement serves as a staging ground for scouts and adventurers braving the cursed, ancient ruins of the coast. Perched among the autumn-colored trees of Azshara, Valormok represents the Horde's tentative interest in a hostile and largely forsaken territory. Life here is bleak and fraught with peril; the camp is lightly fortified and constantly exposed to nearby satyrs, nagas, and prowling beasts. Despite these hardships, its stationed warriors hold the ground, acting as a crucial flight hub and forward bastion connecting Orgrimmar with the wilder stretches of northern Kalimdor."
+      "text": "Valormok. Valormok keeps a Horde foothold in northwest Azshara. North of the Haldarr Encampment, the outpost sends scouts and travelers toward the cursed ancient ruins along the coast. Autumn-colored trees ring Valormok, where the Horde holds a foothold in a hostile and largely forsaken land. Nearby satyrs, nagas, and prowling beasts threaten the lightly fortified camp. Its warriors hold their ground despite the danger. Wind riders connect Valormok with Orgrimmar and the wilder reaches of northern Kalimdor."
     },
     "subzone:venture-co-base-camp": {
       "1": [
@@ -10377,9 +10377,9 @@
     "subzone:workshop-entrance": {
       "1": [
         {
-          "duration": 34.716734693877555,
-          "file": "Audio/Transport/full_subzone_workshop-entrance-cdb9f5c56867c7188180/1-0000.mp3",
-          "sha256": "f5591f3912b8f431551ad289bb4565666df3e718a4915d2ddf141380a33151a1",
+          "duration": 34.56,
+          "file": "Audio/Transport/full_subzone_workshop-entrance-81d75f4e95fe656930bf/1-0000.mp3",
+          "sha256": "71c10620486d3a67d86dc1cf0034c4b57f1e4f850c04ec916407e9a304f62def",
           "start": 0
         }
       ],
@@ -10390,15 +10390,15 @@
           "1"
         ]
       },
-      "fullHash": "2bfbe8",
-      "generation": "600d76d3917cd5c71dbd",
-      "hash": "2bfbe8",
+      "fullHash": "9f0056",
+      "generation": "e40886b2782e2a40dd26",
+      "hash": "9f0056",
       "source": {
-        "duration": 34.742857,
+        "duration": 34.586122,
         "file": null,
-        "sha256": "cdb9f5c56867c7188180e4836abbf8040b8f15de9d5ebc0cb6368d50297ed2ed"
+        "sha256": "81d75f4e95fe656930bf4308ac94e7ebb50db4224fd3e15d7d120c7879fda997"
       },
-      "text": "Workshop Entrance. Beyond the Train Depot, Workshop Entrance gives a backdoor into Gnomeregan. The route opens near the Engineering Labs and bypasses the front gates, offering another way into the irradiated city. Past the Train Depot, Workshop Entrance crosses the cavernous workshop floor toward the industrial heart of Gnomeregan. The opening to the Loading Room lies on one side. This passage runs straight to the Engineering Labs, avoiding the fortified entry gates near the surface, where leper gnomes and troggs contest the way. For those trying to reclaim the underground capital, this side door bypasses the first perimeter."
+      "text": "Workshop Entrance. Past the Train Depot, Workshop Entrance offers another way into Gnomeregan. The passage skirts the front gates and reaches the Engineering Labs in the irradiated city. Past the Train Depot, Workshop Entrance crosses the cavernous workshop floor toward Gnomeregan’s industrial heart. The opening to the Loading Room lies on one side. The passage runs straight to the Engineering Labs, away from the fortified gates near the surface. There, leper gnomes and troggs contest the way. Those seeking to reclaim the underground capital can use this side door to bypass the first perimeter."
     },
     "subzone:writhing-deep": {
       "1": [
@@ -10607,6 +10607,136 @@
         "sha256": "c70b8f446d943b7d5199d418f110f64c5d1c7648b7d5883722436badd91cd751"
       },
       "text": "Zul'Mashar. Zul'Mashar is an ancient forest troll settlement tucked into the northeastern corner of the Eastern Plaguelands. Formerly the proud capital of the Mossflayer tribe, it has deteriorated into a desolate ruin following continuous wars with human kingdoms and the devastation of the Plague of Undeath. Today, its remaining defenders face an insidious collapse as the Scourge works from within to turn them into undead thralls. Long before the Scourge swept across northern Lordaeron, Zul'Mashar served as the seat of power for the Mossflayer forest trolls. Constant border skirmishes against the humans of Lordaeron chipped away at their dominance, leaving their territories fractured. When the Plague of Undeath blanketed the region, it struck the Mossflayers just as mercilessly as it did their mortal enemies. While the great stepped ziggurat of Mazra'Alor still stands, Zul'Mashar is a hollow shell of its former glory. Commanded by Warlord Thresh'jin and Zul'Brin Warpbranch, the remaining trolls cling stubbornly to their ancient home, largely blind to the reality that Scourge influence is already seeping into their ranks and quietly transforming their kin into rotting monstrosities."
+    },
+    "zone:alteracvalley": {
+      "1": [
+        {
+          "duration": 91.8726530612245,
+          "file": "Audio/Transport/full_zone_alteracvalley-99238609e7414d8b0ee4/1-0000.mp3",
+          "sha256": "109f79e1b44c205f814af0cddbe809442a1a56895aaca7b5b1b14f051eb3c3bf",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "4db24f",
+      "generation": "b8a69f842384b2b481ff",
+      "hash": "4db24f",
+      "source": {
+        "duration": 91.898776,
+        "file": null,
+        "sha256": "99238609e7414d8b0ee4087ff1b12c8ff96bf56e753426cd37f2dede72f58fc7"
+      },
+      "text": "Alterac Valley. In Alterac Valley, the Frostwolves and Stormpike dwarves fight for control of the snow. The dwarves seek riches and relics they believe link them to their ancestors, while the Frostwolves fight to drive them out. Each side presses through towers and graveyards toward the other's general: Vanndar Stormpike in Dun Baldar or Drek'Thar in Frostwolf Keep. Gul'dan exiled Durotan's Frostwolf clan for defying him, and the orcs found refuge in this cold valley. They made it their home. Long afterward, young Thrall found his father's people here and learned shaman ways from Drek'Thar, the elder.\n\nThrall now leads the Horde in Kalimdor. Many Frostwolves remain in the valley under Drek'Thar's guidance, guarding their homeland fiercely. Led by Vanndar Stormpike, the Stormpike Guard is an expedition of Ironforge dwarves based at the northern fortress of Dun Baldar. They came for the valley's mines and for relics they believe link them to their ancestors.\n\nThey have dug in with bunkers and towers, holding fast with stubborn pride. The Frostwolves call them invaders; the dwarves claim the valley's secrets by right of discovery. The battle for Alterac Valley pits one army against another. Fighters storm towers and bunkers, seize graveyards, and claim the valley's mines for their side.\n\nEach side must break through to the enemy general and bring them down. The Horde faces Vanndar Stormpike in Dun Baldar; the Alliance faces Drek'Thar in Frostwolf Keep."
+    },
+    "zone:arathibasin": {
+      "1": [
+        {
+          "duration": 97.28,
+          "file": "Audio/Transport/full_zone_arathibasin-ed6d7575dccb70e178bb/1-0000.mp3",
+          "sha256": "04923710adcb45c0225dde8fee9ea35f047ed0aa0207253239a48aa229e70ec2",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "36e29b",
+      "generation": "725a648bdabb90f15faf",
+      "hash": "36e29b",
+      "source": {
+        "duration": 97.306122,
+        "file": null,
+        "sha256": "ed6d7575dccb70e178bb53ad99eb1e0013961a4ad4ad8bca056d374567bf1e07"
+      },
+      "text": "Arathi Basin. In Arathi Basin, the League of Arathor and the Defilers fight over the valley's wealth. The League seeks to reclaim Arathor's lost lands for Stormwind, while the Forsaken aim to cut the humans off from their dwarven allies to the south. Its farm, stables, lumber mill, blacksmith and gold mine feed the war. Long before the Third War, Arathi Basin's fields, mills and mines fed Stromgarde, heir to ancient Arathor. When Lordaeron fell and Stromgarde crumbled, the valley was left almost undefended, though its farmsteads and workshops still stood.\n\nWhoever holds them now commands grain, timber, iron and gold. Those stores keep an army in the field, and make this quiet valley one of the most fought-over places in the highlands. The League of Arathor is an Alliance company formed from Stromgarde's survivors and their friends. Backed by Stormwind, they work from Refuge Pointe and have sworn to reclaim the lands their forebears built.\n\nThe Defilers are the Forsaken's answer: hardened troops of the Undercity under Varimathras's watchful eye. They fight alongside the Horde at Hammerfall. Their aim is to take the basin's riches and sever the road joining the northern humans to the dwarves of the south. Five strongpoints decide the battle: the farm, the stables, the lumber mill, the blacksmith and the gold mine. Each side races to raise its banner over them and defend what it claims. Every strongpoint held adds to its store of resources.\n\nRaiders slip between the points to seize one while the enemy is busy elsewhere. The side that gathers enough resources first wins the basin, for a time."
+    },
+    "zone:darkspearislands": {
+      "1": [
+        {
+          "duration": 104.6465306122449,
+          "file": "Audio/Transport/full_zone_darkspearislands-8f92569aad52c0439a5e/1-0000.mp3",
+          "sha256": "71cda303bf0710877ee520b6ac973432c700c34b6326f7c29b19d3e634745106",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "f5cb71",
+      "generation": "d289a2c3cef9b03a44fc",
+      "hash": "f5cb71",
+      "source": {
+        "duration": 104.672653,
+        "file": null,
+        "sha256": "8f92569aad52c0439a5edb44267183b8e2378fac09af003b4ed0a7fcc92cc493"
+      },
+      "text": "Darkspear Islands. The Horde and Alliance fight across the Darkspear Islands off Kalimdor's coast. The ceremonial isles are sacred to Vol'jin's trolls, while the Alliance seeks a foothold on the shore and a chance to strike at the Horde's pride. Victory goes to the side that holds the strongpoints, seizes the Darkspear Islands flag and gathers 2000 resources first. The Darkspear are an island people. Driven from Stranglethorn Vale by larger, crueler rivals, they made their lives among the islands of the southern seas. They keep these isles off Kalimdor's coast for their rites and the loa they honor.\n\nOn islands like these, Thrall's storm-wrecked fleet found Sen'jin's people beset by Kul Tiran sailors, murlocs and a sea witch. There, the trolls first swore themselves to the Horde. To a Darkspear, an enemy banner over the ceremonial grounds means desecration as well as defeat. For the Horde, holding the isles is a debt of honor. The Darkspear stood with Thrall when the Horde had little else, so orcs, tauren and Forsaken fight beside them to keep the trolls' holy ground. For the Alliance, these islands are a foothold off Kalimdor's coast and a way to strike where Horde pride runs deepest. Neither side speaks of peace. Every landing is answered, and every fallen camp is fought over again. Numbers alone cannot hold the islands. The fighting runs from the Camp and the old Ruins to the Abandoned Tower and Shipwreck Cove. Each side builds up its store of resources by capturing and holding the strongpoints. Seizing the Darkspear Islands flag can turn the tide. The first side to gather 2000 resources wins the day and drives its enemies back to their ships, until the next landing."
+    },
+    "zone:hyjal": {
+      "1": [
+        {
+          "duration": 104.88163265306123,
+          "file": "Audio/Transport/full_zone_hyjal-526ef26e9d799fa3691f/1-0000.mp3",
+          "sha256": "70baac6e5b134b8fd0e503db17b512b2917838ca79f17173698d3a03ef833263",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "3f6289",
+      "generation": "36ec8d4effcec21e84cb",
+      "hash": "3f6289",
+      "source": {
+        "duration": 104.881633,
+        "file": null,
+        "sha256": "526ef26e9d799fa3691f4bdcca4933dd4e4efdfa299df2ae77e9beb2618ab75f"
+      },
+      "text": "Mount Hyjal. On Mount Hyjal, Nordrassil still crowns the sacred mountain above the second Well of Eternity. In the last battle of the Third War, night elves, humans and orcs held the slopes against the Burning Legion until Archimonde fell at the World Tree's roots. The battle scarred the mountain, and the wounded tree still stands over the Well. Ten thousand years ago, after the Great Sundering, Illidan Stormrage poured stolen waters from the first Well of Eternity into a lake atop Mount Hyjal. There he made a second Well. The Dragon Aspects raised the World Tree Nordrassil over its waters to guard it. Their blessings gave the night elves immortality and bound them deeply to the Emerald Dream. For millennia, the kaldorei watched over the mountain while their druids slept in the barrow deeps beneath it. During the Third War, Archimonde led the Scourge and the Burning Legion up Mount Hyjal to drain the Well and destroy the World Tree. Jaina Proudmoore's humans and Thrall's Horde set aside old hatreds to stand with Tyrande Whisperwind and Malfurion Stormrage.\n\nThey held the slopes while Malfurion prepared a trap. When Archimonde reached Nordrassil, Malfurion sounded the Horn of Cenarius. Thousands of wisps swarmed the demon, and the tree's stored power tore him apart. The night elves lost their immortality, and Nordrassil was scorched. Beneath Mount Hyjal lie the barrow deeps, where the Druids of the Claw slept in bear form for thousands of years. Malfurion woke them with the Horn of Cenarius to fight the Legion. Today, the barrow deeps and hyjal summit, high on the mountain, rank among Kalimdor's most perilous places. Only great war bands of seasoned heroes can face them."
+    },
+    "zone:warsonggulch": {
+      "1": [
+        {
+          "duration": 92.96979591836735,
+          "file": "Audio/Transport/full_zone_warsonggulch-40ddeac8e27fa9bf23b5/1-0000.mp3",
+          "sha256": "bdba6feed5958bf2e53a9132536e2dfabe8accee5082c2f331c0e9dce39ed306",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "d86642",
+      "generation": "4168b6e4aad3665da43c",
+      "hash": "d86642",
+      "source": {
+        "duration": 92.995918,
+        "file": null,
+        "sha256": "40ddeac8e27fa9bf23b57c87f940eebf70af677266fee6529a245df12d9444e9"
+      },
+      "text": "Warsong Gulch. At the border of Ashenvale and the Barrens, Warsong Gulch is where the Horde and Alliance fight without pause. Warsong orcs cut timber for the Horde, while the night elves of Silverwing Hold defend their sacred forest. Fighters of many races raid the opposing stronghold to seize its banner. The Horde builds its home in Kalimdor with wood, much of it cut in Ashenvale. The Warsong clan, Grom Hellscream's warriors, have felled trees here since the Horde first landed. Their Warsong Mill at the gulch's end supplies the Horde's camps and walls. The night elves see each fallen tree as a wound to a forest they have guarded for ten thousand years. They also remember that Grom's warriors slew Cenarius in these woods. The Horde's fighters are the Warsong Outriders, supplied from Mor'shan Base Camp on the northern edge of the Barrens. There, Kelm Hargunth keeps them armed and fed. The Silverwing Sentinels of Silverwing Hold stand against them.\n\nThese night elf warriors are sworn to drive every invader from Ashenvale, and Illiyana Moonblaze supplies them at Silverwing Grove. Allies also flock to the gulch: dwarves and humans beside the Sentinels, and tauren, trolls and Forsaken beside the Outriders. The Warsong Mill stands at one end of the gulch, and Silverwing Hold at the other. Each stronghold keeps its side's banner. Fighters raid the enemy's hold, seize its flag and race back as defenders hunt them down. Every banner carried home strikes at the enemy's pride. The side that captures the most wins the day."
     }
   },
   "cuts": {
@@ -10626,6 +10756,23 @@
     "02a5e3c72e2c1200a3ef09e1b540776393727df6b55df7a367af8e9c0e129e73": [
       296,
       972
+    ],
+    "04923710adcb45c0225dde8fee9ea35f047ed0aa0207253239a48aa229e70ec2": [
+      206,
+      524,
+      714,
+      1000,
+      1302,
+      1491,
+      1748,
+      1957,
+      2193,
+      2449,
+      2819,
+      3090,
+      3249,
+      3392,
+      3560
     ],
     "0522383acd07185c071a3826f329b40ff8161a9ef3481201156e5e9b9015cbd5": [
       505
@@ -10660,6 +10807,10 @@
       1125,
       1276,
       1513
+    ],
+    "09511efd5869ac796c5d16c93b4fbdfde26f78353146d42033367b35ba3b4563": [
+      431,
+      881
     ],
     "0a6320ccbebc117bb2c2ea39cc9c73d9c92bd5c38f563b46c304056b5ac615cf": [
       227,
@@ -10776,6 +10927,22 @@
       731,
       1083
     ],
+    "109f79e1b44c205f814af0cddbe809442a1a56895aaca7b5b1b14f051eb3c3bf": [
+      215,
+      482,
+      816,
+      978,
+      1153,
+      1421,
+      1772,
+      2085,
+      2282,
+      2453,
+      2697,
+      2839,
+      3101,
+      3260
+    ],
     "118836766c3d85770e7950351ef4434c6c8ecf38c51594aeb652fe760baaef71": [
       221,
       893,
@@ -10882,6 +11049,10 @@
       1521,
       1991
     ],
+    "17eb91368f032039a3080eab48f9230812c4fd4e6305b44bace75fb70d368728": [
+      462,
+      766
+    ],
     "18250ddda9f0db2d829a6582dbcdbfa84e0007e101c6a9ab19f573dee5630f7d": [
       236,
       527,
@@ -10899,27 +11070,11 @@
       597,
       985
     ],
-    "186a153af9bd8b08c47960fbbee0fdc9ede5a995707f3019798a3ead9121fa22": [
-      210,
-      485,
-      753,
-      1141,
-      1516,
-      1667,
-      2041,
-      2321
-    ],
     "190b47f051545efdcbce83d9df93f9bbf4c41ddfae8eb85ae924d7859e6de998": [
       195,
       447,
       832,
       1095
-    ],
-    "1a8f45d2416bb9c4922443d3fd19947df75472634b1473140f7176056dad20bd": [
-      350,
-      495,
-      639,
-      925
     ],
     "1aaf69ff9741b8bf53837090645ac5e3ab70c57408eeb4a7dbf8b19be37d26bb": [
       315,
@@ -10959,6 +11114,9 @@
       1184,
       1428
     ],
+    "1c39dbd943a1ec23e735f17c04a01a5e4ab5ac7530340a85b20b1af236bd7f08": [
+      839
+    ],
     "1d209ae45c77a015c6d83df5459e304d7045e53cef15b5dc7fc531741a23ee91": [
       200,
       509,
@@ -10997,9 +11155,6 @@
       1814,
       2094,
       2346
-    ],
-    "1e1bc49badca3845470d70af06caa33dfc0f7f39cdd2baf7096602b7c20b066e": [
-      274
     ],
     "1e3afdb28208aaeac416d1ed20d2e46563bdeafaf80717f4c812aaba62b74ae1": [
       550,
@@ -11068,11 +11223,6 @@
       1246,
       1407,
       1564
-    ],
-    "24b33f45b485405cfbe24bb95a5686af17917feb339293103cab3eeeffe1cbfb": [
-      344,
-      930,
-      1385
     ],
     "250885f4f41c45fcf326c2875d25eca92d5ebe191535915cdbc00d8fab7136fd": [
       344,
@@ -11158,12 +11308,24 @@
       1279,
       1548
     ],
-    "2bd06f5f87e6440ab5c05ae7c2c9506dd1ff921365ba8bf4b3ad5a4b227b70ae": [
-      457
+    "2ac8d2933dc949adfd638b76144329b92b2a1c66aa8e6ead428923ad89948a38": [
+      583
+    ],
+    "2c6b7c4e13775d8bd3059d21f9b4ef94be3f51988fd84458a61e516904476d33": [
+      215,
+      455,
+      837,
+      976,
+      1310,
+      1629,
+      1803
     ],
     "2d303dc91978db289527413f0742227fa0747fbabe5d02944ce7c82bb480b053": [
       935,
       1228
+    ],
+    "2d95358102f1da3f9a65d462c54b21af49c50dbcb3e5869fdfbe9cd5246fe2f4": [
+      479
     ],
     "2de16ca1bfc61d10525415a700cdedc1e51879f47b37a00b6de20b71652b3d2c": [
       222,
@@ -11230,10 +11392,6 @@
       1259,
       1529
     ],
-    "31b21130457c2e713ec0d04ebce7a8280e7a81af2893348ec06993bc9d5acf75": [
-      397,
-      875
-    ],
     "32ac62e104daac43a8fbb091cfb63b5617d200b08a4f37aac9da78d518721e10": [
       198,
       497,
@@ -11269,6 +11427,9 @@
       266,
       975,
       1240
+    ],
+    "35c3c56fe688008c21812cbc1131256737acae633d09944a0917bca0978a19f3": [
+      536
     ],
     "36a7338b746396a037dd90cc0300a4827f60e827825517acba261a6a32d670cd": [
       348,
@@ -11366,6 +11527,10 @@
       2222,
       2437
     ],
+    "3aed8a6e2da256e417c2f6fa29af760e82decf9b6023ebd8d39bf8f31d0f0e1b": [
+      501,
+      844
+    ],
     "3b23f5c07b4e357778e4587b2440c34043ad42e2e91b156792eb48a171a4261b": [
       736,
       946,
@@ -11382,14 +11547,6 @@
       1718,
       1963,
       2412
-    ],
-    "3b3bc9e5ba29839112e666354c71fea5c5dbfa55cb482bd0b9c750c9db4315ed": [
-      191,
-      414,
-      639,
-      1008,
-      1232,
-      1423
     ],
     "3bb362e68658134a6aaf7164b46b4ae3ed9317d2a9725ea6ee543437f238920c": [
       341,
@@ -11494,6 +11651,21 @@
       2513,
       2688
     ],
+    "42141d5d20af1edc2dc88612be382d02667b09223a31fc7e4974ccff78f06cae": [
+      193,
+      465,
+      698,
+      913,
+      1136,
+      1331,
+      1628,
+      1765,
+      2059,
+      2233,
+      2400,
+      2594,
+      2807
+    ],
     "42655cc0dcda0e0b27ddcf19c34189a10ce9434f3a1ac28fbadc7c36e07783bf": [
       920,
       1285
@@ -11578,6 +11750,10 @@
       2202,
       2548
     ],
+    "486c65c09751f5041c151510c86ddf65aa97376bd1f7383deb0ed7642c51ef59": [
+      439,
+      710
+    ],
     "4892053de932d53fb95703931a14cacc055ce93969b86d667adb82bb5247da83": [
       256,
       674,
@@ -11598,16 +11774,6 @@
       876,
       1580,
       1958
-    ],
-    "4acdc6ecf98ea49d943b22ba5b1886fbe3bc1653ff5b4dc1a38c1aad6bf2acea": [
-      285,
-      705,
-      974,
-      1464,
-      1745,
-      2050,
-      2211,
-      2436
     ],
     "4b4ad74aac15424d21ad2ff41ee369e755023732421366784523bbcef47d700f": [
       226,
@@ -11705,9 +11871,6 @@
       820,
       1224
     ],
-    "53d9a92661105364ff7235912f6d98429fc98e5ab5247790920e49e3b086af74": [
-      252
-    ],
     "546fc0c8b71e493f56a5faf88c63d9de5aa724b227e244bd683ec5103ffb493f": [
       320,
       639,
@@ -11747,6 +11910,19 @@
       2182,
       2487,
       2640
+    ],
+    "56567a05472330810c6fb46edeb70074eeb4d71a8814032c9294a21ec3de5cb1": [
+      285,
+      531,
+      762,
+      982,
+      1271,
+      1419,
+      1803,
+      1978,
+      2132,
+      2340,
+      2501
     ],
     "5674a89f6e3bc6d235aaf287047fdc4530408510468d21b611140ad07df59465": [
       387,
@@ -11809,6 +11985,19 @@
     ],
     "58c5e92cfbbb3d866c365e1e5111a1a6ad4544db908194db713e20a6f5c8fd5f": [
       619
+    ],
+    "5928c99b37da215907cbcd98ca949349578ab327044d6c5944517c9d9b17d623": [
+      198,
+      431,
+      582,
+      846,
+      1090,
+      1321,
+      1492,
+      1745,
+      2069,
+      2385,
+      2585
     ],
     "5aab4bc2c81676530874a6e5ccd74efb46dcfb133b609e1af66142db2166fbc2": [
       243,
@@ -11928,6 +12117,18 @@
       2583,
       2902
     ],
+    "649688e9d4065296fad57a37249b289ea100984312902501c2582158c1ca9464": [
+      240,
+      547,
+      749,
+      938,
+      1104,
+      1314,
+      1547,
+      1753,
+      1899,
+      2330
+    ],
     "6622e7bf944b24e84dd649827ed3feaeaad5b8938efdfab5c2ed8f533abe28ca": [
       221,
       399,
@@ -12016,6 +12217,9 @@
       2757,
       3225
     ],
+    "694b9350d0ae6510de9d073ddcd8dc7ff940a76a7d62ed75093b09332e8c2dcc": [
+      430
+    ],
     "69661c2665974c2bf716ab5b7b03ed097b55961084ca6be732f17bc17236801d": [
       154,
       550,
@@ -12079,6 +12283,25 @@
       1233,
       1452
     ],
+    "70baac6e5b134b8fd0e503db17b512b2917838ca79f17173698d3a03ef833263": [
+      224,
+      570,
+      759,
+      1120,
+      1377,
+      1587,
+      1844,
+      2133,
+      2442,
+      2786,
+      2983,
+      3167,
+      3449,
+      3608
+    ],
+    "70f87db6bfd933c2ebdbab913c7ef527d22d1232bcbe499d2931ecf7b256c12d": [
+      723
+    ],
     "711fdfbfa78e684d2b7ec20552f75897882a09f976428c27914fc4fa7ab56385": [
       269,
       665,
@@ -12087,14 +12310,41 @@
       1744,
       2074
     ],
-    "718d372e479b45c8d8e9e640523b2df536179c9e92f8b0693ab31851eeb494a0": [
-      702,
-      1001,
-      1293,
-      1519,
-      1951,
-      2113,
-      2599
+    "71bcb37554ee9fa28142f027dcb02748036e7deef5106a34e192950ecefc0a07": [
+      233,
+      497,
+      667,
+      816,
+      1057,
+      1266,
+      1520,
+      1722,
+      1916,
+      2159
+    ],
+    "71c10620486d3a67d86dc1cf0034c4b57f1e4f850c04ec916407e9a304f62def": [
+      186,
+      408,
+      680,
+      1001
+    ],
+    "71cda303bf0710877ee520b6ac973432c700c34b6326f7c29b19d3e634745106": [
+      178,
+      321,
+      511,
+      830,
+      1200,
+      1400,
+      1651,
+      1856,
+      2120,
+      2376,
+      2583,
+      2839,
+      3109,
+      3407,
+      3588,
+      3728
     ],
     "72d5e756323bc81cf5f91848e524a32b5ea2a70dfa8ab62094b422560dca5251": [
       450,
@@ -12147,6 +12397,9 @@
       1782,
       1922,
       2199
+    ],
+    "74ec7f30a7e79df54c54ceac597580d31b97957d3cab0730016f609656d2ee28": [
+      526
     ],
     "757770797ab6eab292efa926fc39396248913cf28979d97f86bc56823da29e72": [
       564,
@@ -12257,13 +12510,6 @@
       2383,
       2635
     ],
-    "7b11aa970c40079e0412988bb79e31773bfd9cc47d6684552d31d4d780f0644b": [
-      359,
-      831,
-      1508,
-      1858,
-      2158
-    ],
     "7b62df06f1eafd7c67026e6246315d58852dc9212b019ce650d1bff104ed1539": [
       295,
       611,
@@ -12303,10 +12549,6 @@
       1936,
       2089
     ],
-    "7cfe9feb4f78fc0035a08d35b63686d2fc75933f4e9e7192cf116b56b05fec4e": [
-      274,
-      526
-    ],
     "7d31e045ff0681c6525d39d3229a3a2142c13d2c1bb539a89a45f59110506414": [
       933,
       1526,
@@ -12322,9 +12564,6 @@
       1292,
       1551,
       1813
-    ],
-    "7dbf53c49ca9fbf93924d69f5566bab1756ddaa54a025d3be4fb567e7e7f7bfd": [
-      450
     ],
     "7eb9a92da063526165d811fef375d4097440497e8e796c1deb8bc492c949d171": [
       294,
@@ -12474,6 +12713,9 @@
       407,
       852
     ],
+    "8e9a672106c58b7560d7038de5dcb5525d2d8970fa5ab98c0d8e5e568cdc9bac": [
+      789
+    ],
     "8ebe57d6f5a6f6a53c861d698d834d8f9e76e8764e103660280f53b9eccffea1": [
       333,
       666,
@@ -12500,14 +12742,20 @@
       2059,
       2363
     ],
-    "8ffd9bd128062da1b1f7e9cac544b8bfbd7d4249914dfcc7c19c8088356d0923": [
-      278
-    ],
     "9053e897406653e2da8825272d622573c48cf5a7b497608824576d1d84e46129": [
       265,
       427,
       938,
       1330
+    ],
+    "91250016b46867b663d493bdfca5d6aaa1c811a10efee12a249d639d6017a9cb": [
+      240,
+      423,
+      653,
+      914,
+      1085,
+      1338,
+      1589
     ],
     "914655835b5a2e48166514d9fb6aa7dfe68b2a17db99e254ec6ad1e330f97bdf": [
       293,
@@ -12527,18 +12775,6 @@
       1902,
       2324,
       2728
-    ],
-    "94370f75dee96be77beb60b70a64f1af477f2bfa89774823fa74620a5266b473": [
-      264,
-      516,
-      720,
-      996,
-      1352,
-      1592,
-      1779,
-      2218,
-      2642,
-      2969
     ],
     "94536152a2441f8c7f28d09e1aae2ba523a91706826c5b934676c9e075efcd47": [
       174,
@@ -12576,11 +12812,6 @@
       1461,
       1738
     ],
-    "972490f29c73bc38f25b7e72aeb6865bd40b24dfb5c1059f93cb6f81e14377f9": [
-      210,
-      614,
-      932
-    ],
     "97350c7f47c15c1b40ada8240c3f7e354bfbce1237ccafba5e3ccfa7d6f62f14": [
       324,
       630,
@@ -12595,21 +12826,13 @@
       1031,
       1295
     ],
+    "986802561e78e761076516d04f69015860b61faf760358a123133fbdb1fb8036": [
+      712,
+      997
+    ],
     "98a0ac98341e594d62f626e0fe6de825b713a9a1073423857735c7b9c14a3030": [
       951,
       1418
-    ],
-    "98e9359a985763400a4d2eb8ca6c785892849d3ee08a797f197021ed917c8d1d": [
-      304,
-      608,
-      875,
-      1113,
-      1483,
-      1772,
-      2077,
-      2223,
-      2469,
-      2795
     ],
     "9a60c8625265c29b224ca2548dcf592b1437687647258fdaf9f0a341c86a9227": [
       266,
@@ -12678,6 +12901,10 @@
       1891,
       2047
     ],
+    "9ebcb8c961f251f675f06e9db7263ff8da2d2bc596fdeae354596c6031a438ab": [
+      731,
+      1202
+    ],
     "9f3742d6e7a9e054e2679b9ec90552ebcc9410dc6dfbc6014315dd98ea58b0f6": [
       203,
       532,
@@ -12685,11 +12912,6 @@
       1017,
       1203,
       1746
-    ],
-    "9f4917541d8ef7f61ac3ac3ecbb30383b26dbc8f1d788158f79cec934c989961": [
-      390,
-      698,
-      985
     ],
     "9f7aeded63ef66a70a185d44ec17fd2e0a4a37bafd39e850db1ba67723cabc4c": [
       172,
@@ -12740,6 +12962,10 @@
       1242,
       1707,
       2252
+    ],
+    "a237d1409a170c3563742486817e19224554ff83f4290693b3ad858cbdc46854": [
+      531,
+      761
     ],
     "a24fabaf03bed2b58f57979e19e729a083df439db2efe93dbce78bf019618bb0": [
       318,
@@ -12798,9 +13024,6 @@
       788,
       1117
     ],
-    "a6c0a0c079958c9ce57c5812e801e8b232d729f2f8cf072e3d7d9a682471db7b": [
-      739
-    ],
     "a6f83f7055d1bd015b00632796cf27010bb84aa5d970853f8d05f92263e2b955": [
       844,
       1092,
@@ -12832,6 +13055,10 @@
       2097,
       2372,
       2642
+    ],
+    "a97ab3cd2a34e423ddda3a1357b1c8507eacd892d338f3c395aba1ff472e6102": [
+      657,
+      1125
     ],
     "a985fbaa5e5be760ff987970445564fb52b814d0c73dc89405becc1795ea4e92": [
       277,
@@ -12867,10 +13094,6 @@
       1716,
       1984
     ],
-    "aacf24319b2f1792236d0af6500ef86d82cdfc9f9664b075a122b3a71565472c": [
-      508,
-      966
-    ],
     "ab9673490750f6221c678345e6f693022e6dee3f4bb97217a5c9bd19d94cfaaf": [
       233,
       488,
@@ -12897,12 +13120,24 @@
       1232,
       1546
     ],
+    "acad248fa851e696fa1ef64907699deffabc8b145bd62a0ff6da4748ff03d9cb": [
+      486
+    ],
     "acf41fc00f397d53ac737572eccd67ae3b35e363b67a2f10ffd99851b5c87099": [
       324,
       644,
       816,
       1292,
       1581
+    ],
+    "ad5ff4ead51e5f15cacd897142b2a612bcc83f50bf4b6e41584f8598b2ce8060": [
+      160,
+      302,
+      501,
+      710,
+      902,
+      1193,
+      1354
     ],
     "ad76f17b153dd95df3db28169f05ce9169df12a7b4279fc8241a1b528f7c35f8": [
       360,
@@ -12960,6 +13195,9 @@
       1327,
       1666
     ],
+    "b31d6733dc06379bff39f0887609efc8fff076c462746e96e404852b37e753af": [
+      508
+    ],
     "b409833bf661a003ebc603c6535f06eeb2b1655f38a0b321b54e82e10ba3ba72": [
       227,
       459,
@@ -12970,6 +13208,14 @@
       152,
       387,
       576
+    ],
+    "b64301481510f21bf278952d106163272746475d61b15869c4c2d418343bb390": [
+      272,
+      512,
+      700,
+      983,
+      1230,
+      1420
     ],
     "b69db541fce2415ff583e70271f73762473b4d27fe79104d3a62f44b5210ccdc": [
       329,
@@ -13011,11 +13257,6 @@
     "b6e179a0d30835a6102e81ee629662a79e53d0b2bff243f43dba944841020249": [
       446,
       716
-    ],
-    "b74f4fa9b1d9972993ce435bfac3d892fa2c3413d75c0ca8eef7328a9315e358": [
-      539,
-      918,
-      1327
     ],
     "b8130d1166e380560a21fe0e7334996ff56f70f1fc8907b4872df18c3a76457a": [
       162,
@@ -13152,6 +13393,22 @@
       931,
       1245
     ],
+    "bdba6feed5958bf2e53a9132536e2dfabe8accee5082c2f331c0e9dce39ed306": [
+      262,
+      501,
+      672,
+      865,
+      1100,
+      1266,
+      1501,
+      1680,
+      1922,
+      2210,
+      2519,
+      2849,
+      3031,
+      3338
+    ],
     "bdbe9ab9f203e67ff45d646bd0c7e287f99f89ab3ef5dc62aa1370afea8396fd": [
       326,
       588,
@@ -13245,27 +13502,11 @@
       1956,
       2290
     ],
-    "c2ba79476ceff098b82b694b78e02832bffb9bb121b74ab1d44585035306923b": [
-      249
-    ],
     "c350791d81cbf3f96a0fce506ddaa2a727e3d355d83cf1d794a4babd995bdfa9": [
       187,
       439,
       602,
       879
-    ],
-    "c3f48caf188b6750be577e54e08ab2722cd80d45cffdbd29ac74eb42dabcf7b2": [
-      199,
-      647,
-      839,
-      1101,
-      1293,
-      1592,
-      1923,
-      2059,
-      2255,
-      2428,
-      2613
     ],
     "c4069aead1bab1809ac66e19c0d6029e49f298930daa2967145c0d7eb5bed62a": [
       395,
@@ -13305,6 +13546,20 @@
       2210,
       2445
     ],
+    "c6947e3075754fb17a967d92aa8d1f3ebd729eb6950b9935e4d657548193b481": [
+      169,
+      406,
+      582,
+      732,
+      959,
+      1227,
+      1437,
+      1641,
+      1811,
+      1965,
+      2324,
+      2553
+    ],
     "c74245dc0714966cae7afcb862003bcd28dd619cfdedf22bbbe715fdd98a0050": [
       200,
       599,
@@ -13316,6 +13571,9 @@
       735,
       955,
       1253
+    ],
+    "c7ee079116db9b6c184202498f3c39b834bf2ab68c21574976c3d9b8d95f7663": [
+      419
     ],
     "c930eba793c6d0bc8ed3070134a1672cd2342ede838c13bf8d7755389b15b285": [
       247,
@@ -13345,33 +13603,12 @@
       1180,
       1472
     ],
-    "ce595f236e68dc0c0ebda75d7bb799d6d2437c9077673fd4e86938b7faf83bf9": [
-      238,
-      373,
-      605,
-      846,
-      1071,
-      1376,
-      1866,
-      2043,
-      2410
-    ],
     "ce72ca4b769d6f69f3310a618da5d66c97730dc665fece43316c16226b406566": [
       152,
       307,
       695,
       1064,
       1487
-    ],
-    "ceb35ae917394ebb0d459359f8cf2a2315c08ad5c36bb99ec71af12aff6e67e5": [
-      212,
-      426,
-      1050,
-      1300,
-      1692,
-      2110,
-      2293,
-      2495
     ],
     "d098564e35ef169ae806de1678fdddc7b87c9a8a92da0f96b1e20a33192a7512": [
       344,
@@ -13394,6 +13631,16 @@
       1067,
       1557
     ],
+    "d2b06803c28f560ebdf21432aa917b9329b3ccd5c664de9cf17bfa24e0df73c0": [
+      546
+    ],
+    "d2b9d607843da6988dd1a0eae1d5be4c92c2d625fee65c50cf532301ccca5fd3": [
+      223,
+      485,
+      843,
+      1141,
+      1339
+    ],
     "d3b6af80def8df1fe634281e94081df63204eddbf5347ecf94995ce50b3839fc": [
       476
     ],
@@ -13411,10 +13658,6 @@
       2233,
       2500,
       2981
-    ],
-    "d457b798122a03f386cfaab52e8f3a1b9e6b0894ec265bb758024684fa57de45": [
-      272,
-      700
     ],
     "d45b41972c5564c100dc65f72c3dbaa4568ce9cb9041ac11e48a15d1ec85476e": [
       720,
@@ -13434,6 +13677,9 @@
       1080,
       1409,
       1782
+    ],
+    "d636fa46e935e7f0090773f209617314262ea29f794880320b7c8f67a68f6d93": [
+      605
     ],
     "d791b23a0d7fba8baa637b100d20d138d56a2494b86ed8b524020294f68462b8": [
       999,
@@ -13506,24 +13752,11 @@
       2315,
       2659
     ],
-    "dc3bed1ded38e18e3b86fd95b752b156f3627b80f9dc02053726209afd2308dd": [
-      265,
-      1037,
-      1315,
-      1580,
-      1743
-    ],
     "dc3f25309973f9e3792334830a985b7294257698cda7289315a113275c21e29d": [
       258,
       576,
       838,
       1164
-    ],
-    "dc7ec1f37ea7c1c9a57757ea60ddb04f72276343537cdec77056fdaa4c93d554": [
-      252,
-      655,
-      1023,
-      1242
     ],
     "dcec18f8ba666e09091987589301fb84183142dd0b78c7cec8e4bbf78e9f31c0": [
       973,
@@ -13538,6 +13771,9 @@
     "de7085fed0efaedae6b74fb83b42657c0494cf2dbb027699f9cfa38ffa866b5f": [
       316,
       557
+    ],
+    "df1e6e05f460ece74afe88e44db5177c42d0fffdeb10c5d06e2c6f005b8bf3be": [
+      726
     ],
     "df4ac617e22b819a13605c3d1c0a14c217b9a8e3a8bf38084d055a7666c2126d": [
       270
@@ -13573,6 +13809,16 @@
       1019,
       1155
     ],
+    "e353442a72eb312da0e2b4d618ed43829b21a93e9676277aa7c961bdc1061e5a": [
+      174,
+      404,
+      608,
+      795,
+      959,
+      1222,
+      1361,
+      1692
+    ],
     "e3bff819ae0d67336612a0142bd7818dec21c9eca9d4dce080b6fd143276dcee": [
       898,
       1181
@@ -13583,12 +13829,21 @@
       732,
       910
     ],
-    "e50a5fd757b7c929c38c586b115f651beaa9e5fdf635d5658bbcda9e6569c8e1": [
-      174,
-      632,
-      975,
-      1188,
-      1360
+    "e6e5e28257d519dd6d3f1247a4b1c632e14375ea0754161c59d56e6b4e1d8441": [
+      194,
+      527,
+      684,
+      977,
+      1247,
+      1443,
+      1595
+    ],
+    "e7899e62eb5e3da1f3b80030b03b65ab9ab69e46f35b50061646d2f99649a848": [
+      179,
+      479,
+      692,
+      850,
+      998
     ],
     "e9bba74d6bdf0288ffc4e503987e1bef12973c159edda5149a5eb5091dc5d5a0": [
       229,
@@ -13652,6 +13907,14 @@
       762,
       1020
     ],
+    "ec88cb232d329359e4e33622b4587cbcbc0c45fab5f1fe6aa5c83638c3585292": [
+      190,
+      461,
+      730,
+      913,
+      1128,
+      1317
+    ],
     "ecdd41fce615c759faa480da3c5ca1d5e64b2bb46ec46eab2a6fdc623e8ea308": [
       250,
       915,
@@ -13669,6 +13932,14 @@
       2470,
       2631,
       2988
+    ],
+    "ede4e73b728df4af7758a685b015c48602759239a1c97e3c7a43c5639a1a8ecf": [
+      316,
+      470,
+      610,
+      805,
+      974,
+      1129
     ],
     "eea4417e93da668a6c419326179e41cdae7fc2c970fad538a4f67adc23260353": [
       213,
@@ -13749,17 +14020,15 @@
       991,
       1342
     ],
+    "f383b2cc2c280a3c7005a150486ba78cee4bb01e753a80346f30f234cbfe442c": [
+      451,
+      832
+    ],
     "f4ffd5465163c654b813197343e4fc21d49f11a94c07b76a0a71eb22f8a68d5a": [
       537,
       813,
       996,
       1307
-    ],
-    "f5591f3912b8f431551ad289bb4565666df3e718a4915d2ddf141380a33151a1": [
-      165,
-      440,
-      693,
-      1133
     ],
     "f7972c5532085056930ef8897f6af0f62b08122a83fcf54eb8b07c610bc49d82": [
       253,
@@ -13854,6 +14123,11 @@
       2318,
       2624
     ],
+    "fca86422fd519769eb2424c3330f8e6fb20a33be91af9ad4aa68460a338a984b": [
+      145,
+      417,
+      887
+    ],
     "fd32e134de293d087a7e06186c840722cc2e35e3f4df0ee37c41dc936d6e4224": [
       355,
       739,
@@ -13882,6 +14156,98 @@
       1390,
       1619
     ]
+  },
+  "heads": {
+    "04923710adcb45c0225dde8fee9ea35f047ed0aa0207253239a48aa229e70ec2": {
+      "1748": 2,
+      "2819": 3,
+      "714": 1
+    },
+    "109f79e1b44c205f814af0cddbe809442a1a56895aaca7b5b1b14f051eb3c3bf": {
+      "1772": 2,
+      "2697": 3,
+      "816": 1
+    },
+    "2c6b7c4e13775d8bd3059d21f9b4ef94be3f51988fd84458a61e516904476d33": {
+      "1310": 2,
+      "455": 1
+    },
+    "42141d5d20af1edc2dc88612be382d02667b09223a31fc7e4974ccff78f06cae": {
+      "1765": 2,
+      "465": 1
+    },
+    "56567a05472330810c6fb46edeb70074eeb4d71a8814032c9294a21ec3de5cb1": {
+      "1803": 2,
+      "531": 1
+    },
+    "5928c99b37da215907cbcd98ca949349578ab327044d6c5944517c9d9b17d623": {
+      "1492": 2,
+      "431": 1
+    },
+    "649688e9d4065296fad57a37249b289ea100984312902501c2582158c1ca9464": {
+      "1753": 2,
+      "547": 1
+    },
+    "70baac6e5b134b8fd0e503db17b512b2917838ca79f17173698d3a03ef833263": {
+      "1844": 2,
+      "3167": 3,
+      "759": 1
+    },
+    "71bcb37554ee9fa28142f027dcb02748036e7deef5106a34e192950ecefc0a07": {
+      "1520": 2,
+      "497": 1
+    },
+    "71c10620486d3a67d86dc1cf0034c4b57f1e4f850c04ec916407e9a304f62def": {
+      "408": 1
+    },
+    "71cda303bf0710877ee520b6ac973432c700c34b6326f7c29b19d3e634745106": {
+      "2120": 2,
+      "3109": 3,
+      "830": 1
+    },
+    "91250016b46867b663d493bdfca5d6aaa1c811a10efee12a249d639d6017a9cb": {
+      "1085": 2,
+      "423": 1
+    },
+    "ad5ff4ead51e5f15cacd897142b2a612bcc83f50bf4b6e41584f8598b2ce8060": {
+      "501": 1
+    },
+    "b64301481510f21bf278952d106163272746475d61b15869c4c2d418343bb390": {
+      "512": 1
+    },
+    "bdba6feed5958bf2e53a9132536e2dfabe8accee5082c2f331c0e9dce39ed306": {
+      "1680": 2,
+      "2849": 3,
+      "672": 1
+    },
+    "c6947e3075754fb17a967d92aa8d1f3ebd729eb6950b9935e4d657548193b481": {
+      "1965": 2,
+      "582": 1
+    },
+    "d2b9d607843da6988dd1a0eae1d5be4c92c2d625fee65c50cf532301ccca5fd3": {
+      "485": 1
+    },
+    "e353442a72eb312da0e2b4d618ed43829b21a93e9676277aa7c961bdc1061e5a": {
+      "1222": 2,
+      "404": 1
+    },
+    "e6e5e28257d519dd6d3f1247a4b1c632e14375ea0754161c59d56e6b4e1d8441": {
+      "1247": 2,
+      "527": 1
+    },
+    "e7899e62eb5e3da1f3b80030b03b65ab9ab69e46f35b50061646d2f99649a848": {
+      "479": 1
+    },
+    "ec88cb232d329359e4e33622b4587cbcbc0c45fab5f1fe6aa5c83638c3585292": {
+      "1128": 2,
+      "461": 1
+    },
+    "ede4e73b728df4af7758a685b015c48602759239a1c97e3c7a43c5639a1a8ecf": {
+      "316": 1
+    },
+    "fca86422fd519769eb2424c3330f8e6fb20a33be91af9ad4aa68460a338a984b": {
+      "417": 1
+    }
   },
   "pack": "LoreForever_Voice_Default_MorePlaces",
   "version": 1

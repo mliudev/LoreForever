@@ -17,16 +17,16 @@
   "wiki": "The Shieldsmith",
   "chain": []
  },
- "summary": "In Stormwind, Yorus Barleybrew sends warriors back after a harrowing trial in the Redridge Mountains. He gives them a cask of Barleybrew Scalder to take to Furen Longbeard, who will fashion a stout shield.",
+ "summary": "In Stormwind, Yorus Barleybrew sends warriors to claim the shield he promised. A hard trial in the Redridge Mountains is behind them, and a cask of Barleybrew Scalder is bound for Furen Longbeard, the smith who will shape their shield.",
  "sections": [
   {
    "title": "A Promise Kept",
-   "body": "After you prove your mettle against the gnolls and perils of the Rethban Gauntlet, Yorus Barleybrew honors his bargain. The promised reward cannot be hammered out in Lakeshire, so he directs promising fighters back to Stormwind City. A dwarven armorer there stands ready to repay a personal debt.",
+   "body": "You have faced the gnolls and dangers of the Rethban Gauntlet, and Yorus Barleybrew keeps his bargain. Lakeshire cannot provide the promised shield, so he sends proven fighters back to Stormwind City. There, a dwarven armorer is ready to repay a personal debt.",
    "spoiler": 0
   },
   {
    "title": "Barleybrew's Finest",
-   "body": "Yorus gives you a heavy cask of Barleybrew Scalder instead of a letter of credit. Take it to Furen Longbeard in Stormwind's Dwarven District, where soot and hammer-clatter fill the air. The seasoned smith recognizes the name behind the delivery and lends his craft to a warrior seeking a stout shield.",
+   "body": "Yorus gives you a heavy cask of Barleybrew Scalder in place of a letter of credit. Carry it to Furen Longbeard in Stormwind's Dwarven District. The seasoned smith knows whose name stands behind the cask and lends his skill to a warrior who seeks a stout shield.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who is furen",
     "who is the shieldsmith"
    ],
-   "answer": "Furen Longbeard is a master dwarven armorer and shieldsmith stationed in Stormwind City's Dwarven District. Alliance warriors know his skill, and he crafts specialized defensive gear for martial veterans who earn his respect."
+   "answer": "Furen Longbeard is a master dwarven armorer in Stormwind City's Dwarven District. Alliance warriors know his skill, and he crafts specialized defensive gear for seasoned fighters who earn his respect."
   },
   {
    "q": "Why does Yorus send you to Stormwind?",
@@ -47,7 +47,7 @@
     "why stormwind",
     "yorus reward location"
    ],
-   "answer": "Yorus Barleybrew sends you to Stormwind because he promised a martial shield but lacks the specialized smithing skills to forge one himself. His friend Furen Longbeard owes him a significant favor."
+   "answer": "Yorus Barleybrew sends you to Stormwind because he promised a martial shield but cannot forge one himself. His friend Furen Longbeard owes him a great favor."
   },
   {
    "q": "What is Barleybrew Scalder?",
@@ -56,7 +56,7 @@
     "barleybrew scalder",
     "what is the scalder"
    ],
-   "answer": "Barleybrew Scalder is an exceptionally potent dwarven drink made by the Barleybrew family. Yorus sends a fresh cask to Furen Longbeard to slake the smith's thirst and grease the wheels of their arrangement."
+   "answer": "Barleybrew Scalder is a potent dwarven drink made by the Barleybrew family. Yorus sends Furen Longbeard a fresh cask to slake the smith's thirst and honor their arrangement."
   },
   {
    "q": "Where can Furen Longbeard be found?",
@@ -65,7 +65,7 @@
     "where is furen longbeard",
     "find furen"
    ],
-   "answer": "Furen Longbeard tends his forge in the heart of Stormwind City's Dwarven District, among the soot, anvils, and workshops of dwarven crafters."
+   "answer": "Furen Longbeard tends his forge in Stormwind City's Dwarven District, among the workshops of dwarven crafters."
   },
   {
    "q": "What happens after giving Furen the cask?",
@@ -73,7 +73,7 @@
     "what comes next",
     "furen follow up quest"
    ],
-   "answer": "The cask confirms that Yorus sent you. Furen acknowledges his debt and immediately offers to construct defensive armor suited to seasoned battle, beginning the path to fire-hardened gear."
+   "answer": "The cask tells Furen that Yorus sent you. Furen acknowledges his debt and offers to make defensive armor suited to seasoned battle, beginning the path to fire-hardened gear."
   },
   {
    "q": "Why is this errand important for Alliance warriors?",
@@ -81,21 +81,21 @@
     "warrior quest importance",
     "why warriors care"
    ],
-   "answer": "This delivery introduces an Alliance warrior to one of the kingdom's most capable armorers. It opens the way to tailored martial gear and further instruction in defensive warfare."
+   "answer": "This delivery brings an Alliance warrior to one of the kingdom's finest armorers. It opens the way to tailored martial gear and further instruction in defensive warfare."
   }
  ],
  "angles": [
   {
    "target": "class:Warrior",
-   "text": "As a warrior, you carry the grit of Redridge to Stormwind and prove your right to bear a shield forged by a legendary dwarven armorer."
+   "text": "As a warrior, you bring the grit of Redridge to Stormwind and prove yourself worthy of a shield forged by a renowned dwarven armorer."
   },
   {
    "target": "race:Dwarf",
-   "text": "As a dwarf, you know that trading a cask of fine Barleybrew ale for forged iron in Stormwind's Dwarven District is familiar business."
+   "text": "As a dwarf, you know the trade: a cask of fine Barleybrew ale for forged iron in Stormwind's Dwarven District."
   },
   {
    "target": "profession:Blacksmithing",
-   "text": "As a blacksmith, you meet Furen Longbeard, whose specialized defensive armor work is celebrated throughout the Alliance."
+   "text": "As a blacksmith, you meet Furen Longbeard, whose skill in defensive armor is known throughout the Alliance."
   }
  ],
  "keywords": [
@@ -121,5 +121,5 @@
  "attribution": [
   "The Shieldsmith"
  ],
- "style": 1
+ "style": 2
 }

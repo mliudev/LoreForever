@@ -10,16 +10,16 @@
    "quest:3922"
   ]
  },
- "summary": "Nugget slugs are specialized 17.5-gauge mechanical fasteners used in industrial engineering. Stockpiled in tool buckets by the Venture Company at the Sludge Fen, they are coveted by tinkerers attempting to repair volatile machinery.",
+ "summary": "Tool buckets at the Sludge Fen hold nugget slugs the Venture Company uses in its heavy equipment. Tinkerers seek the seventeen-point-five-gauge fasteners for work on volatile machinery.",
  "sections": [
   {
    "title": "Industrial Fasteners of the Sludge Fen",
-   "body": "Nugget slugs are heavy-duty metallic fasteners manufactured for demanding industrial assemblies. Specifically sized at 17.5 gauge, these components are an essential part of the heavy equipment deployed across Venture Company extraction sites. While useless as ordinary trade goods, they are indispensable to tinkerers dealing with customized goblin hardware.",
+   "body": "At the Venture Company’s extraction sites, nugget slugs fasten heavy equipment. They are made for demanding industrial assemblies and sized at seventeen-point-five gauge. Ordinary trade brings them little use. Yet tinkerers need them for custom goblin hardware.",
    "spoiler": 0
   },
   {
    "title": "Tinkering with the Samophlange",
-   "body": "Wenikee Boltbucket requires a substantial collection of nugget slugs to overhaul an unstable samophlange recovered from the Barrens. Because the Venture Company routinely leaves tool buckets scattered across their drilling operations at the Sludge Fen, salvage operations prove lucrative for scavengers\u2014even if Wenikee's eventual repairs result in sudden, explosive failure.",
+   "body": "Wenikee Boltbucket needs many nugget slugs to overhaul an unstable samophlange recovered from the Barrens. Tool buckets lie scattered across the Venture Company’s drilling operations at the Sludge Fen, making salvage lucrative for scavengers.\n\nWenikee’s repairs end in sudden failure. The samophlange explodes as she works.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "nugget slug lore",
     "slug fastener"
    ],
-   "answer": "A nugget slug is a specialized 17.5-gauge metallic fastener or slug used in heavy-duty machinery. They serve as structural hardware inside complex industrial mechanisms, such as oil drills and samophlanges."
+   "answer": "A nugget slug is a seventeen-point-five-gauge metallic fastener used in heavy machinery. These fasteners hold together complex mechanisms such as oil drills and samophlanges."
   },
   {
    "q": "Where are nugget slugs found?",
@@ -40,7 +40,7 @@
     "nugget slug location",
     "sludge fen tool buckets"
    ],
-   "answer": "They are stored in tool buckets scattered around the Sludge Fen, a Venture Company drilling camp located in the northeastern Barrens."
+   "answer": "Nugget slugs are kept in tool buckets scattered around the Sludge Fen, a Venture Company drilling camp in the northeastern Barrens."
   },
   {
    "q": "Why does Wenikee Boltbucket need them?",
@@ -49,7 +49,7 @@
     "why wenikee wants slugs",
     "samophlange repair"
    ],
-   "answer": "Wenikee Boltbucket wants to tinker with and repair a recovered samophlange. Having run out of seventeen-point-five gauge fasteners herself, she sends adventurers to salvage them from the nearby Venture Company camp."
+   "answer": "Wenikee Boltbucket wants to tinker with and repair a samophlange recovered from the Barrens. She has run out of seventeen-point-five-gauge fasteners, so she sends adventurers to salvage more from the nearby Venture Company camp."
   },
   {
    "q": "Does using the nugget slugs fix the samophlange?",
@@ -58,13 +58,13 @@
     "samophlange explosion",
     "wenikee repair result"
    ],
-   "answer": "Not successfully. Once Wenikee fits the machine with the salvaged slugs and begins her maintenance work, the samophlange abruptly detonates in front of her."
+   "answer": "No. Wenikee fits the samophlange with the salvaged slugs and begins maintenance. Then it detonates in front of her."
   }
  ],
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "Every engineer knows that mixing proprietary seventeen-point-five gauge hardware with an unstable goblin-engineered samophlange is an invitation for a rapid, explosive dismantling."
+   "text": "For an engineer, proprietary seventeen-point-five-gauge hardware is a poor match for an unstable goblin-engineered samophlange. Expect a rapid, explosive dismantling."
   }
  ],
  "keywords": [
@@ -87,5 +87,6 @@
  "attribution": [
   "Nugget Slug",
   "Nugget Slugs (Classic)"
- ]
+ ],
+ "style": 2
 }

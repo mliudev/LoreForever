@@ -20,16 +20,16 @@
    "Mirror Lake (quest)"
   ]
  },
- "summary": "In Goldshire, Zaldimar Wefhellt sends novice mages to Stormwind for further instruction. He directs apprentices who have advanced beyond basic training in Elwynn Forest to Jennea Cannon in the Wizard's Sanctum.",
+ "summary": "In Stormwind, novice mages from Goldshire come to Jennea Cannon after advancing beyond basic training in Elwynn Forest. Zaldimar Wefhellt sends them to her.",
  "sections": [
   {
    "title": "A Call to the Wizard's Sanctum",
-   "body": "Zaldimar Wefhellt sends you from Goldshire to Stormwind City as your training advances. Your time learning elementary spells from local tutors in Elwynn's hamlets has run its course. In the Mage Quarter, the Wizard's Sanctum is where the kingdom's senior mages pursue arcane study and instruction. They coordinate magical matters across the realm.",
+   "body": "In the Mage Quarter, the Wizard's Sanctum gathers the kingdom's senior mages for study and instruction in the arcane arts. They coordinate magical matters across the realm, and your training now has a place within that wider work.",
    "spoiler": 0
   },
   {
    "title": "Matters of Kingdom Security",
-   "body": "Zaldimar says your report concerns the security of Elwynn Forest and Stormwind, not only your studies. In Stormwind, you report to Jennea Cannon, a mage who oversees local assignments. She is cautious about sharing grand secrets with a newly arrived apprentice, but your report begins your service to the wizarding order.",
+   "body": "Jennea Cannon oversees local assignments, including reports on the security of Elwynn Forest and Stormwind, as well as your studies. Cautious about sharing grand secrets with a newly arrived apprentice, she receives your report as the beginning of your service to the wizarding order.",
    "spoiler": 0
   }
  ],
@@ -117,5 +117,5 @@
  "attribution": [
   "Speak with Jennea"
  ],
- "style": 1
+ "style": 2
 }

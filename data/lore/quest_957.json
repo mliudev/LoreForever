@@ -17,21 +17,21 @@
   "wiki": "Bashal'Aran (4)",
   "chain": []
  },
- "summary": "At Bashal'Aran, Asterion's spirit remains bound by an ancient seal. You carry it south to Ameth'Aran, where an old flame may break his bonds.",
+ "summary": "At Bashal'Aran, Asterion's spirit remains bound by an ancient seal. You carry the seal south to Ameth'Aran, where an old flame may break his bonds.",
  "sections": [
   {
    "title": "A Prison of Ancient Sorcery",
-   "body": "Asterion's spirit remains chained in death at Bashal'Aran, bound by an Ancient Moonstone Seal. Highborne sorcerers forged it before the Great Sundering, and ordinary strength cannot break its power. Only an ancient flame still burning among the fallen stones of Ameth'Aran to the south can destroy it.",
+   "body": "Asterion's spirit remains chained in death at Bashal'Aran by an Ancient Moonstone Seal. Highborne sorcerers forged it before the Great Sundering, and no ordinary strength can break its power. Only an ancient flame still burning among Ameth'Aran's fallen stones to the south can destroy it.",
    "spoiler": 0
   },
   {
    "title": "Twin Ruins of Darkshore",
-   "body": "Bashal'Aran and Ameth'Aran were sister settlements of the kaldorei when Queen Azshara ruled and the Well of Eternity anchored their empire. Now both are overgrown, haunted ruins where ghosts linger and arcane energies remain volatile. In a stone gazebo at Ameth'Aran, a mystical brazier burns with cyan fire, the only power able to consume Asterion's binding relic.",
+   "body": "Bashal'Aran and Ameth'Aran were sister settlements of the kaldorei under Queen Azshara, when the Well of Eternity anchored their empire. Now both are overgrown, haunted ruins, where ghosts linger and arcane power remains volatile. In a stone gazebo at Ameth'Aran, a mystical brazier burns with cyan fire. Only this flame can consume Asterion's binding relic.",
    "spoiler": 0
   },
   {
    "title": "Vengeance Awakens",
-   "body": "Asterion is free once the seal is destroyed, and sees a shattered Kalimdor far changed from the golden age he remembers. Freedom brings no peace: he senses that Athrikus, his former Highborne master and jailor, still endures. Asterion's despair turns to a cold hunger for revenge.",
+   "body": "Asterion is free once the seal is destroyed, and sees a shattered Kalimdor far changed from the golden age he remembers. Yet freedom brings no peace. He senses that Athrikus, his former Highborne master and jailor, still endures. Despair turns to a cold hunger for revenge.",
    "spoiler": 1
   }
  ],
@@ -43,7 +43,7 @@
     "who is the ghost",
     "npc asterion"
    ],
-   "answer": "Asterion is a night elf spirit trapped in the ruins of Bashal'Aran. He dates back ten thousand years, to Queen Azshara's reign, and a seal made by one of the most powerful Highborne binds him there."
+   "answer": "Asterion is a night elf spirit trapped in Bashal'Aran's ruins. He dates back ten thousand years, to Queen Azshara's reign, and a seal forged by one of the most powerful Highborne binds him there."
   },
   {
    "q": "Where do I destroy the Ancient Moonstone Seal?",
@@ -52,7 +52,7 @@
     "ancient flame location",
     "destroy seal"
    ],
-   "answer": "Carry the Ancient Moonstone Seal south to Ameth'Aran, Bashal'Aran's twin ruin. A stone gazebo shelters a large cubical brazier whose ancient greenish-blue fire can destroy it."
+   "answer": "Carry the Ancient Moonstone Seal south to Ameth'Aran, Bashal'Aran's twin ruin. In a stone gazebo, a large cubical brazier burns with ancient greenish-blue fire that can destroy it."
   },
   {
    "q": "What is the relationship between Bashal'Aran and Ameth'Aran?",
@@ -61,7 +61,7 @@
     "ametharan connection",
     "bashalaran ametharan"
    ],
-   "answer": "Bashal'Aran and Ameth'Aran were sister cities in the ancient night elf empire before the Sundering. Both were devastated ten thousand years ago, leaving haunted stone pillars, lingering arcane energies, and restless spirits."
+   "answer": "Bashal'Aran and Ameth'Aran were sister cities in the ancient night elf empire before the Sundering. Both were devastated ten thousand years ago, leaving haunted stone pillars, lingering arcane power, and restless spirits."
   },
   {
    "q": "Who imprisoned Asterion?",
@@ -98,7 +98,7 @@
   },
   {
    "target": "class:Mage",
-   "text": "As a mage, you glimpse the raw arcane power of ancient Highborne sorcerers in the enchantments binding Asterion and the flames that survive at Ameth'Aran."
+   "text": "As a mage, you glimpse the raw arcane power of ancient Highborne sorcerers in the enchantments binding Asterion and the flames that endure at Ameth'Aran."
   },
   {
    "target": "faction:Alliance",
@@ -125,5 +125,5 @@
  "attribution": [
   "Bashal'Aran (4)"
  ],
- "style": 1
+ "style": 2
 }

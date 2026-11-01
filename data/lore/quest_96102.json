@@ -11,11 +11,11 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "Tailoring training teaches you to make a Rallying Banner. To test it, you need a camp in the wilderness and a campfire.",
+ "summary": "Tailoring training teaches you to make a Rallying Banner. Its test belongs in the wilderness, where a camp needs a campfire.",
  "sections": [
   {
    "title": "A Campfire First",
-   "body": "You can now craft your own Rallying Banner, but the completion note says to test it in the wilderness rather than in town. A camp also needs a campfire before you set it up. Most cooks can teach you to make one, so a cooking trainer can teach you the basics if you have not learned them.",
+   "body": "You can now craft a Rallying Banner, and its completion note calls for a wilderness test. A camp needs a campfire before you set it up. Most cooks can teach you to make one, so ask a cooking trainer for the basics if you have not learned them.",
    "spoiler": 0
   }
  ],
@@ -27,7 +27,7 @@
     "banner recipe",
     "tailoring banner"
    ],
-   "answer": "You can craft your own Rallying Banner."
+   "answer": "Tailoring training teaches you to craft your own Rallying Banner."
   },
   {
    "q": "Where should I test the banner?",
@@ -36,7 +36,7 @@
     "camping where",
     "test banner"
    ],
-   "answer": "Head into the wilderness to test your Rallying Banner; the completion note says townsfolk generally do not care for camps in the center of town."
+   "answer": "Test your Rallying Banner in the wilderness. The completion note says townsfolk generally do not care for camps in the center of town."
   },
   {
    "q": "What does a camp need?",
@@ -45,7 +45,7 @@
     "campfire needed",
     "camping basics"
    ],
-   "answer": "A camp needs a campfire before you set it up."
+   "answer": "Before you set up a camp, you need a campfire."
   },
   {
    "q": "Who can teach me to make a campfire?",
@@ -60,7 +60,7 @@
  "angles": [
   {
    "target": "profession:Tailoring",
-   "text": "As a tailor, you can craft a Rallying Banner for your camp."
+   "text": "As a tailor, you can craft a Rallying Banner for a camp."
   },
   {
    "target": "profession:Cooking",
@@ -76,7 +76,7 @@
   "wilderness"
  ],
  "related": [],
- "style": 1,
+ "style": 2,
  "attribution": [
   "In-game quest text: Camping 101: Tailoring"
  ]

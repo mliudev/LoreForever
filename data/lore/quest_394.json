@@ -17,16 +17,16 @@
   "wiki": "The Head of the Beast",
   "chain": []
  },
- "summary": "In Stormwind, The Head of the Beast carries you from Elling Trias to Master Mathias Shaw in Old Town. Reporting Lord Gregor Lescovar’s death confirms your place in Stormwind’s covert intelligence network.",
+ "summary": "In Stormwind, The Head of the Beast takes you from Elling Trias to Master Mathias Shaw in Old Town. Your report of Lord Gregor Lescovar’s death confirms your place in Stormwind’s covert intelligence network.",
  "sections": [
   {
    "title": "A Matter Resolved",
-   "body": "Elling Trias sends you from the crime scene to Old Town after Lord Lescovar is struck down, ending the immediate danger to Stormwind’s leaders. A cheese merchant and veteran operative, Trias warns you not to be distracted by courtly praise.",
+   "body": "Elling Trias sends you from the crime scene to Old Town after Lord Lescovar is struck down. His death ends the immediate danger to Stormwind’s leaders. Trias is a cheese merchant and a veteran operative. He warns you not to be distracted by courtly praise.",
    "spoiler": 1
   },
   {
    "title": "Reporting to the Spymaster",
-   "body": "Master Mathias Shaw directs Stormwind’s covert apparatus through SI:7 from hidden chambers in Old Town. When you report Lescovar’s death, Shaw recognizes your skill and ruthlessness, praises your efficiency, and thanks you for serving the people of Stormwind.",
+   "body": "Master Mathias Shaw directs Stormwind’s covert apparatus through SI:7 from hidden chambers in Old Town. When you report Lescovar’s death, Shaw recognizes your skill and ruthlessness. He praises your efficiency and thanks you for serving the people of Stormwind.",
    "spoiler": 0
   }
  ],
@@ -37,7 +37,7 @@
     "head of the beast quest",
     "what do i do in head of the beast"
    ],
-   "answer": "You travel from Elling Trias to Master Mathias Shaw in Stormwind’s Old Town and confirm that Lord Gregor Lescovar has been slain."
+   "answer": "You travel from Elling Trias to Master Mathias Shaw in Stormwind’s Old Town. There, you confirm that Lord Gregor Lescovar has been slain."
   },
   {
    "q": "Who is Mathias Shaw?",
@@ -62,7 +62,7 @@
     "lescovar threat",
     "what did lescovar do"
    ],
-   "answer": "Lord Gregor Lescovar plotted with subversive agents against the crown and the capital’s safety, betraying the realm from within the nobility."
+   "answer": "Lord Gregor Lescovar plotted with subversive agents against the crown and the capital’s safety. He betrayed the realm from within the nobility."
   },
   {
    "q": "What happens after reporting Lescovar's death?",
@@ -70,7 +70,7 @@
     "next quest after head of the beast",
     "what comes next"
    ],
-   "answer": "Mathias Shaw prepares to close the book on the conspiracy and sends you toward the final resolution of the threat looming over Stormwind."
+   "answer": "Mathias Shaw prepares to close the book on the conspiracy. He sends you toward the final resolution of the threat looming over Stormwind."
   },
   {
    "q": "Where can Mathias Shaw be found?",
@@ -111,5 +111,5 @@
  "attribution": [
   "The Head of the Beast"
  ],
- "style": 1
+ "style": 2
 }

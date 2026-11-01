@@ -12,21 +12,21 @@
   "levels": "1-10",
   "aliases": []
  },
- "summary": "Mulgore shelters the tauren in a valley beneath the Stonetalon Mountains. High natural walls surround its emerald grasslands, plateaus, and plains. After Cairne Bloodhoof joined Thrall's Horde and drove out the centaur, the united tribes made Mulgore their homeland, with Thunder Bluff as their spiritual and territorial heart.",
+ "summary": "Below the Stonetalon Mountains lies Mulgore, the green and sheltered homeland of the tauren. Grasslands and rolling plains spread between its tall plateaus, and high mountain walls ring it round. It is the heart of the united tribes, and they watch over it from Thunder Bluff.",
  "sections": [
   {
    "title": "A Land Reclaimed",
-   "body": "The tauren have reclaimed a home after generations on the move. Centaur warbands hunted and displaced them across the central plains until High Chieftain Cairne Bloodhoof met Thrall and his displaced orcs. The tauren and orcs shared ideals of honor, shamanism, and strength, and the tauren joined the new Horde. With orcish help, Cairne broke the centaur hold on the region and led his people into Mulgore. They built permanent settlements here for the first time in centuries, and raised their capital, Thunder Bluff, on the highest northern mesas.",
+   "body": "For generations, the tauren lived as nomads, hunted across the plains by centaur warbands. Their fortune turned when High Chieftain Cairne Bloodhoof met Thrall and his orcs. They shared ideals of honor, shamanism and strength, so the tauren joined the young Horde. With the orcs' help, Cairne broke the centaur's grip and led his people into Mulgore. Here they built lasting homes for the first time in centuries, and crowned the northern mesas with their capital.",
    "spoiler": 0
   },
   {
    "title": "The Trials of the Earthmother",
-   "body": "Young tauren face the Great Hunt and honor the Earthmother as they reach maturity. Their training begins at Camp Narache on the southern plateau of Red Cloud Mesa, under Chief Hawkwind. From there, they descend into the Golden Plains and Bloodhoof Village to undertake the Rites of the Earthmother. They learn to commune with ancestral spirits, forage native herbs, and respect the kodos and tallstriders whose herds sustain tauren life.",
+   "body": "To come of age in Mulgore, young tauren must answer the call of the Great Hunt and honor the Earthmother. Their training begins at Camp Narache, under Chief Hawkwind. From there they go down to Bloodhoof Village, and take up the Rites of the Earthmother. They learn to speak with the ancestral spirits and to forage the native herbs. And they learn to respect the herds of kodos and tallstriders that sustain their people.",
    "spoiler": 0
   },
   {
    "title": "Encroaching Shadows",
-   "body": "Mulgore's quiet plains face threats from within and beyond its borders. Displaced quilboar have settled in Brambleblade Ravine and defiled the sacred burial grounds of Red Rocks. Windfury harpies hunt wild game in the mountains, while Palemane gnolls strike from hidden caves. Goblins of the Venture Company foul sacred water wells and quarry the eastern hills. Dwarven explorers from Bael Modan have also opened the Bael'dun Digsite to unearth ancient titan artifacts, despite tauren protests.",
+   "body": "For all its calm, Mulgore is threatened on every side. Displaced quilboar have dug in at Brambleblade Ravine, and they have defiled the sacred burial grounds of Red Rocks. In the mountains, Windfury harpies prey on the wild game, and Palemane gnolls strike from hidden caves.\n\nAnd outsiders have come to profit from the land. The goblins of the Venture Company are fouling the sacred wells, and quarrying the eastern hills. Dwarven explorers from Bael Modan have opened the Bael'dun Digsite. There they dig for ancient titan relics, over the tauren's protests.",
    "spoiler": 0
   }
  ],
@@ -74,7 +74,7 @@
     "tauren maturity quest",
     "rite of the earthmother"
    ],
-   "answer": "The Rites of the Earthmother are sacred trials that young tauren undertake upon reaching adulthood. They test hunting, tracking, vision communion, and knowledge of the natural balance, proving the initiate's devotion to the land and ancestral traditions."
+   "answer": "The Rites of the Earthmother are sacred trials that young tauren undertake upon reaching adulthood. They test hunting, tracking, vision communion, and knowledge of the natural balance, proving the initiate's devotion to the land and ancestral traditions. The rites take place in Bloodhoof Village and the Golden Plains."
   },
   {
    "q": "Who rules Mulgore?",
@@ -132,5 +132,5 @@
   "Mulgore (Classic)",
   "Mulgore"
  ],
- "style": 1
+ "style": 2
 }

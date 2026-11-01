@@ -7,26 +7,26 @@
  "meta": {
   "wiki": "Alliance"
  },
- "summary": "The Alliance is a grand coalition of mortal races bound by shared ideals of honor, duty, and the defense of order across Azeroth. Born out of the ashes of the northern kingdom of Lordaeron, its current heart beats in Stormwind City, united alongside the dwarves of Ironforge, the exiled gnomes, and the night elves of Kalimdor.",
+ "summary": "Across Azeroth, the Alliance now gathers its peoples around Stormwind. Its roots lie in Lordaeron's ruin, and its heart is Stormwind City, beside Ironforge's dwarves, the exiled gnomes, and Kalimdor's night elves.",
  "sections": [
   {
    "title": "From Lordaeron to Stormwind",
-   "body": "The modern Alliance descends from the original Alliance of Lordaeron, founded when Sir Anduin Lothar led Stormwind refugees north during the Second War to unite the Seven Kingdoms, dwarves, and high elves against the Old Horde. While the Scourge and the Third War decimated the north\u2014leaving Lordaeron in ruins and driving the survivors into scattered resistance\u2014the restored Kingdom of Stormwind rose to fill the void. Today, Stormwind stands as the preeminent seat of human leadership, carrying the banners of honor and faith into a fractured world.",
+   "body": "The modern Alliance descends from the Alliance of Lordaeron. During the Second War, Sir Anduin Lothar led Stormwind refugees north and united the Seven Kingdoms, dwarves, and high elves against the Old Horde.\n\nThe Scourge and the Third War ravaged the north. Lordaeron lay in ruins, and survivors were driven into scattered resistance. The restored Kingdom of Stormwind filled the void. Today it is the foremost seat of human leadership, carrying honor and faith into a fractured world.",
    "spoiler": 0
   },
   {
    "title": "A Coalition of Necessity and Kinship",
-   "body": "The faction's backbone in the Eastern Kingdoms relies on the steadfast bond between humans and the dwarves of Ironforge under King Magni Bronzebeard. Alongside the dwarves reside the gnomes, driven from Gnomeregan by a devastating trogg uprising. Guided by High Tinker Gelbin Mekkatorque, the exiled gnomes lend their brilliant engineering to the Alliance war effort, believing the coalition's survival is paramount to ever reclaiming their irradiated home.",
+   "body": "In the Eastern Kingdoms, the Alliance rests on the steadfast bond between humans and the dwarves of Ironforge, ruled by King Magni Bronzebeard. Gnomes also live among the dwarves, driven from Gnomeregan by a devastating trogg uprising.\n\nHigh Tinker Gelbin Mekkatorque guides the exiled gnomes. They bring their brilliant engineering to the Alliance war effort, believing the coalition must survive if they are ever to reclaim their irradiated home.",
    "spoiler": 0
   },
   {
    "title": "The Kalimdor Front",
-   "body": "Across the Great Sea, the reclusive night elves abandoned millennia of isolation after the Battle of Mount Hyjal. Reeling from the loss of their immortality and engaged in bitter territorial clashes against the Horde over logging in Ashenvale, the kaldorei allied with their newfound mortal companions. Though cultural friction remains\u2014and some traditionalists decry the presence of humans and dwarves in ancient forests\u2014the Alliance provides vital military and diplomatic cooperation to safeguard Kalimdor against demonic remnants and Horde expansion.",
+   "body": "Across the Great Sea, the reclusive night elves left millennia of isolation after the Battle of Mount Hyjal. They lost their immortality and now clash bitterly with the Horde over logging in Ashenvale. So the kaldorei allied with their newfound mortal companions.\n\nCultural friction remains. Some traditionalists condemn the presence of humans and dwarves in ancient forests. The Alliance offers vital military and diplomatic help to guard Kalimdor from demonic remnants and Horde expansion.",
    "spoiler": 0
   },
   {
    "title": "Uneasy Shadows",
-   "body": "Despite its outward strength, the Alliance is beset by internal strain. King Varian Wrynn vanished under mysterious circumstances en route to a diplomatic summit, leaving his young son Anduin on the throne under Highlord Bolvar Fordragon's regency. Relations with former human allies are fractured: the maritime kingdom of Kul Tiras keeps its distance, while Sylvanas Windrunner's undead Forsaken now hold the ruins of Lordaeron.",
+   "body": "The Alliance faces strains within its own ranks. King Varian Wrynn vanished under mysterious circumstances while traveling to a diplomatic summit. His young son Anduin took the throne under Highlord Bolvar Fordragon's regency.\n\nRelations with former human allies have also frayed. The maritime kingdom of Kul Tiras keeps its distance, while Sylvanas Windrunner's undead Forsaken hold the ruins of Lordaeron.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who is in the alliance",
     "playable alliance races"
    ],
-   "answer": "The core Alliance comprises four peoples: the humans of Stormwind, the mountain dwarves of Ironforge, the exiled gnomes of Gnomeregan, and the night elves of Kalimdor."
+   "answer": "The Alliance's core peoples are the humans of Stormwind, the mountain dwarves of Ironforge, the exiled gnomes of Gnomeregan, and the night elves of Kalimdor."
   },
   {
    "q": "Who leads the Alliance right now?",
@@ -47,7 +47,7 @@
     "who is high king",
     "who runs stormwind"
    ],
-   "answer": "There is no single absolute monarch over the whole Alliance. In human lands, Stormwind is ruled by the boy-king Anduin Wrynn and his regent Highlord Bolvar Fordragon following the disappearance of King Varian Wrynn. The other member nations are led by King Magni Bronzebeard of Ironforge, High Tinker Gelbin Mekkatorque of the gnomes, and the night elf leadership on Kalimdor."
+   "answer": "No single absolute monarch rules the whole Alliance. Stormwind is ruled by the boy king anduin wrynn under highlord bolvar fordragon, his regent, after King Varian Wrynn disappeared. The other member nations follow King Magni Bronzebeard of Ironforge, High Tinker Gelbin Mekkatorque of the gnomes, and the night elf leadership on Kalimdor."
   },
   {
    "q": "How did the Alliance of Lordaeron become the modern Alliance?",
@@ -56,7 +56,7 @@
     "what happened to lordaeron",
     "alliance origin"
    ],
-   "answer": "The original Alliance was established by King Terenas Menethil II and Anduin Lothar to repel the Old Horde during the Second War. After Lordaeron was destroyed by the Scourge in the Third War, leadership shifted south to the reconstructed Kingdom of Stormwind, which forged new covenants with the dwarves, gnomes, and night elves."
+   "answer": "King Terenas Menethil II and Anduin Lothar established the original Alliance to repel the Old Horde during the Second War. After the Scourge destroyed Lordaeron in the Third War, leadership shifted south to the rebuilt Kingdom of Stormwind, which forged new covenants with the dwarves, gnomes, and night elves."
   },
   {
    "q": "Why did the night elves join the Alliance?",
@@ -65,7 +65,7 @@
     "night elf alliance lore",
     "kaldorei alliance"
    ],
-   "answer": "Following the Third War and the Battle of Mount Hyjal, the night elves lost their immortality and could no longer remain secluded. With the Orcish Horde actively deforesting Warsong Gulch in Ashenvale, the kaldorei forged a military pact with the humans and dwarves to defend their ancestral lands."
+   "answer": "After the Third War and the Battle of Mount Hyjal, the night elves lost their immortality and could no longer remain secluded. The Orcish Horde was actively deforesting Warsong Gulch in Ashenvale, so the kaldorei made a military pact with the humans and dwarves to defend their ancestral lands."
   },
   {
    "q": "Why is Kul Tiras not part of the Alliance right now?",
@@ -74,7 +74,7 @@
     "is kul tiras alliance",
     "daelin proudmoore kul tiras"
    ],
-   "answer": "Kul Tiras was a pillar of the old Alliance of Lordaeron, but it has kept to itself since that alliance splintered. Its Grand Admiral, Daelin Proudmoore, invaded Durotar and was slain by the Horde, and the island kingdom has not joined the new Alliance led from Stormwind."
+   "answer": "Kul Tiras was a pillar of the old Alliance of Lordaeron, but it has kept to itself since that alliance splintered. Its Grand Admiral, Daelin Proudmoore, invaded Durotar and was slain by the Horde. The island kingdom has not joined the new Alliance led from Stormwind."
   },
   {
    "q": "Why didn't the gnomes help during the Third War?",
@@ -83,7 +83,7 @@
     "gnomes third war",
     "gnomeregan fall"
    ],
-   "answer": "During the Third War, a subterranean trogg invasion struck Gnomeregan. Believing the Scourge threat to the surface was greater, the gnomes hid their crisis from their allies and fought alone. The city fell to radiation and invasion, forcing survivors into Ironforge."
+   "answer": "During the Third War, a subterranean trogg invasion struck Gnomeregan. Believing the Scourge threat to the surface was greater, the gnomes concealed their crisis from their allies and fought alone. Radiation and invasion brought down the city, forcing survivors into Ironforge."
   },
   {
    "q": "What is the Alliance's stance toward the Forsaken?",
@@ -92,33 +92,33 @@
     "why hate undead",
     "forsaken alliance relations"
    ],
-   "answer": "Many in the Alliance regard the undead as abominations and tools of the Scourge that destroyed Lordaeron, and the Alliance maintains open hostility toward the undead reclaiming the northern kingdom."
+   "answer": "Many in the Alliance regard the undead as abominations and tools of the Scourge that destroyed Lordaeron. The Alliance remains openly hostile toward the undead who are reclaiming the northern kingdom."
   }
  ],
  "angles": [
   {
    "target": "race:Human",
-   "text": "As the primary architects of the faction's recovery, humans view the Alliance as the rightful defender of civilization and the Church of the Holy Light against wild and demonic forces."
+   "text": "As the chief architects of the faction's recovery, humans see the Alliance as civilization's rightful defender and a guardian of the Church of the Holy Light against wild and demonic forces."
   },
   {
    "target": "race:Dwarf",
-   "text": "The dwarves of Ironforge are the most steadfast and loyal allies of humanity, lending their formidable iron, mountain infantry, and deep friendship to the Alliance cause."
+   "text": "The dwarves of Ironforge are humanity's most steadfast and loyal allies. They lend the Alliance their formidable iron, mountain infantry, and deep friendship."
   },
   {
    "target": "race:Gnome",
-   "text": "Refugees in Ironforge, gnomes channel their scientific ingenuity into Alliance armadas, trusting that mutual loyalty will eventually yield the forces required to liberate Gnomeregan."
+   "text": "As refugees in Ironforge, gnomes bring their scientific ingenuity to Alliance armadas. They trust that loyalty between allies will one day provide the strength to liberate Gnomeregan."
   },
   {
    "target": "race:NightElf",
-   "text": "Driven out of isolation by the Third War, night elves navigate a strange, necessary kinship with the younger races to check Horde territorial aggression in Ashenvale."
+   "text": "Driven from isolation by the Third War, night elves must find a necessary kinship with the younger races to check Horde aggression in Ashenvale."
   },
   {
    "target": "faction:Alliance",
-   "text": "Your sworn faction fights across two continents to maintain law, tradition, and mortal sovereignty against the Scourge, wild beasts, and the encroaching Horde."
+   "text": "Your sworn faction fights across two continents to preserve law, tradition, and mortal sovereignty against the Scourge, wild beasts, and the advancing Horde."
   },
   {
    "target": "faction:Horde",
-   "text": "The Horde views the Alliance as an entrenched, expansionist power whose self-righteous ideals threaten the sovereignty and territorial survival of its members."
+   "text": "The Horde sees the Alliance as an entrenched, expansionist power whose self-righteous ideals threaten its members' sovereignty and survival on their lands."
   }
  ],
  "keywords": [
@@ -146,5 +146,6 @@
  ],
  "attribution": [
   "Alliance"
- ]
+ ],
+ "style": 2
 }

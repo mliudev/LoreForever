@@ -17,11 +17,11 @@
   "wiki": "The State of the Mines",
   "chain": []
  },
- "summary": "Alba Fairmoon finds toxic metals in Westfall's wells and fears for its farmland. She suspects the mines seized by the Defias and warns the soil could fail for decades. You head to Jangolode Mine and Gold Coast Quarry to disrupt the mining.",
+ "summary": "Toxic metals are turning up in Westfall's wells, and Alba Fairmoon fears for the farmland. She suspects the Defias mines and warns that the soil could fail for decades. You head to Jangolode Mine and Gold Coast Quarry to disrupt the mining.",
  "sections": [
   {
    "title": "Poisoning the Land",
-   "body": "Alba Fairmoon finds dangerous levels of toxic metals in Westfall's wells. Once Stormwind's main breadbasket, the region now faces a threat to its crops. Alba suspects the mines seized by the Defias Brotherhood are poisoning the water. If the contamination continues, the surrounding earth could lie barren for decades.",
+   "body": "Alba Fairmoon finds dangerous levels of toxic metals in Westfall's wells. Once Stormwind's main breadbasket, the region now faces a threat to its crops. Alba suspects the Defias Brotherhood is poisoning the water through the mines it seized. If the contamination continues, the surrounding earth could lie barren for decades.",
    "spoiler": 0
   },
   {
@@ -47,7 +47,7 @@
     "who controls westfall mines",
     "defias mining"
    ],
-   "answer": "The Defias Brotherhood controls Westfall's mining operations. They have seized former kingdom infrastructure and set Riverpaw gnolls and kobolds to extract minerals."
+   "answer": "The Defias Brotherhood controls Westfall's mining operations. They seized former kingdom infrastructure and set Riverpaw gnolls and kobolds to extract minerals."
   },
   {
    "q": "Where are the Riverpaw gnolls and kobolds working?",
@@ -118,5 +118,5 @@
  "attribution": [
   "The State of the Mines"
  ],
- "style": 1
+ "style": 2
 }

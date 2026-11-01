@@ -8,16 +8,16 @@
   "wiki": "Bailor Stonehand",
   "refs": 1
  },
- "summary": "In Thelsamar, Bailor Stonehand’s forge work has been set back by stolen ore. The skilled dwarven smith once taught the human weaponsmith Jordan Stilwell and makes a specialized alloy for masterwork arms.",
+ "summary": "In Thelsamar, Bailor Stonehand waits on ore shipments stolen by Mo'grosh ogres. The skilled dwarven smith crafts a specialized alloy for masterwork armaments and once taught the human weaponsmith Jordan Stilwell.",
  "sections": [
   {
    "title": "Master of the Forge",
-   "body": "Bailor Stonehand works the forge in Thelsamar, where his knowledge of minerals and specialized alloys reaches beyond Khaz Modan. He once taught Jordan Stilwell, a human smith, the foundations of metallurgy and shared formulas used to forge blessed paladin weapons such as Verigan's Fist.",
+   "body": "Bailor Stonehand tends the forge in Thelsamar. His knowledge of minerals and specialized alloys reaches beyond Khaz Modan. He taught Jordan Stilwell the foundations of metallurgy and shared formulas for blessed paladin armaments such as Verigan's Fist.",
    "spoiler": 0
   },
   {
    "title": "Ogre Ambush",
-   "body": "Mo'grosh ogres in the hills northeast of Thelsamar have stolen ore shipments meant for Bailor's forge. Without the raw material, he cannot make his rare alloys, and needs travelers and allies to recover the supplies from the ogres' encampments.",
+   "body": "Mo'grosh ogres in the hills northeast of Thelsamar stole ore shipments bound for Bailor's forge. Without the raw material, he cannot make his rare alloys. He needs travelers and allies to recover the supplies from the ogres' encampments.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "who is bailor",
     "thelsamar smith"
    ],
-   "answer": "Bailor Stonehand is a veteran dwarven smith in Thelsamar, Loch Modan. He smelts rare metal alloys and once taught Jordan Stilwell the craft of weaponsmithing."
+   "answer": "Bailor Stonehand is a veteran dwarven smith in Thelsamar, Loch Modan. He smelts rare metal alloys and taught Jordan Stilwell the craft of weaponsmithing."
   },
   {
    "q": "What is Bailor's connection to Jordan Stilwell?",
@@ -38,7 +38,7 @@
     "jordan stilwell teacher",
     "verigan's fist smith"
    ],
-   "answer": "Bailor once taught Jordan Stilwell, a human smith near Ironforge, to work refined ore. He taught him a special alloy used to make the holy warhammer Verigan's Fist."
+   "answer": "Bailor taught Jordan Stilwell, a human smith near Ironforge, to work refined ore. He also taught him a special alloy used to make the holy warhammer Verigan's Fist."
   },
   {
    "q": "What happened to Bailor's ore?",
@@ -47,7 +47,7 @@
     "who stole bailor's ore",
     "ogre shipment"
    ],
-   "answer": "Mo'grosh ogres in Loch Modan's northeastern mounds intercepted and stole Bailor's raw ore shipment, leaving him without the materials for his specialized metalwork."
+   "answer": "Mo'grosh ogres in Loch Modan's northeastern mounds intercepted and stole Bailor's raw ore shipment. He has no materials for his specialized metalwork."
   },
   {
    "q": "Where can Bailor Stonehand be found?",
@@ -62,11 +62,11 @@
  "angles": [
   {
    "target": "class:Paladin",
-   "text": "As a paladin, you follow a craft Bailor taught Jordan Stilwell: his specialized alloy formula is used to make the sacred hammer Verigan's Fist."
+   "text": "As a paladin, you follow a craft Bailor taught Jordan Stilwell. His specialized alloy formula is used to make the sacred hammer Verigan's Fist."
   },
   {
    "target": "profession:Blacksmithing",
-   "text": "As a blacksmith, you can see in Bailor the dwarven pursuit of rare, resilient metals. His specialized alloys are known across Khaz Modan."
+   "text": "As a blacksmith, you can see Bailor's pursuit of rare, resilient metals. His specialized alloys are known across Khaz Modan."
   }
  ],
  "keywords": [
@@ -88,5 +88,5 @@
  "attribution": [
   "Bailor Stonehand"
  ],
- "style": 1
+ "style": 2
 }

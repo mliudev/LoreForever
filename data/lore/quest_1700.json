@@ -17,16 +17,16 @@
   "wiki": "Grimand Elmore (quest)",
   "chain": []
  },
- "summary": "Following the creation of specialized armor, the dwarven smith Furen Longbeard sends a copy of his findings across the district to Grimand Elmore. The brief errand carries technical notes between two headstrong weaponsmiths sharing space in Stormwind City.",
+ "summary": "In Stormwind City, Grimand Elmore receives Furen Longbeard's technical notes. Their brief exchange carries intricate findings between two headstrong weaponsmiths who share the city.",
  "sections": [
   {
    "title": "A Message Across the District",
-   "body": "Having forged the specialized Fire Hardened Mail, Furen Longbeard documents the intricate heat-treating techniques and elemental principles he uncovered during the process. Rather than keeping the knowledge entirely to himself, he commits the notes to parchment and tasks an adventurer with delivering them straight to Grimand Elmore, a seasoned crafter operating out of a nearby weapon shop.",
+   "body": "Furen Longbeard forged the specialized Fire Hardened Mail and uncovered intricate heat-treating techniques and elemental principles. He records his findings on parchment, then asks you to deliver them straight to Grimand Elmore, a seasoned crafter at a nearby weapon shop.",
    "spoiler": 0
   },
   {
    "title": "Professional Pride and Curiosity",
-   "body": "Grimand Elmore's immediate reaction upon receiving the manuscript is wounded pride. Adamant that he taught Furen everything the younger dwarf knows, Grimand bristles at the notion that his former pupil could offer him instruction. Despite his outward indignation, the craftsman cannot resist perusing the text, quickly finding an intriguing idea hidden within the notes that he is eager to test for himself.",
+   "body": "Grimand Elmore bristles at the manuscript. He insists he taught Furen everything the younger dwarf knows, and the thought that his former pupil could teach him wounds his pride. Yet Grimand cannot resist reading the notes. Soon he finds an intriguing idea and is eager to test it himself.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who is grimand",
     "elmore stormwind"
    ],
-   "answer": "Grimand Elmore is a respected weaponsmith who maintains a shop in Stormwind City's Dwarven District. He is known for his immense professional pride and his past role in teaching craft skills to other local smiths, including Furen Longbeard."
+   "answer": "Grimand Elmore is a respected weaponsmith with a shop in Stormwind City's Dwarven District. He has taught craft skills to local smiths, including Furen Longbeard, and takes great pride in his work."
   },
   {
    "q": "Why does Furen send notes to Grimand?",
@@ -47,7 +47,7 @@
     "furen notes",
     "furen to grimand"
    ],
-   "answer": "While crafting the Fire Hardened Mail, Furen discovered new techniques and recorded his methods. He wanted to share the breakthroughs with Grimand, even while knowing Grimand's fiery temper and stubborn ego would make him react defensively to being taught something new."
+   "answer": "Furen discovered new techniques while crafting the Fire Hardened Mail and recorded his methods in technical notes. He shares his findings with Grimand, though the older dwarf's fiery temper and stubborn pride may make him bristle at being taught something new."
   },
   {
    "q": "Where can Grimand Elmore be found?",
@@ -56,7 +56,7 @@
     "grimand location",
     "grimand elmore shop"
    ],
-   "answer": "He can be found working inside the weapon shop located within the Dwarven District of Stormwind City, only a short walk from Furen Longbeard's forge."
+   "answer": "Grimand Elmore works in a weapon shop in Stormwind City's Dwarven District, a short walk from Furen Longbeard's forge."
   },
   {
    "q": "How does Grimand react to the notes?",
@@ -64,7 +64,7 @@
     "grimand reaction",
     "is grimand mad"
    ],
-   "answer": "Grimand is initially outraged, declaring that he taught Furen everything the dwarf knows. However, his curiosity as a master smith quickly takes over when he spots an intriguing technique in the text that he wants to experiment with."
+   "answer": "Grimand first bristles, insisting he taught Furen everything the younger dwarf knows. Then the master smith's curiosity takes hold when he finds an intriguing technique he wants to test."
   },
   {
    "q": "What happens after Grimand reads the notes?",
@@ -72,7 +72,7 @@
     "what next grimand",
     "after grimand elmore quest"
    ],
-   "answer": "Intrigued by Furen's work on fire-tempering metal, Grimand decides to pursue his own ambitious craft project, which leads into further tasks to gather rare components with elemental heat."
+   "answer": "Intrigued by Furen's work on fire-tempering metal, Grimand sets out on an ambitious craft project. Further tasks call for rare components with elemental heat."
   },
   {
    "q": "Why does Furen warn to duck when handing over the notes?",
@@ -80,21 +80,21 @@
     "why duck",
     "furen duck warning"
    ],
-   "answer": "Furen knows Grimand's fiery temper and excessive pride firsthand. He anticipates that Grimand might throw a tantrum\u2014or an object\u2014at the mere implication that an apprentice could teach the master a new technique."
+   "answer": "Furen knows Grimand's fiery temper and pride firsthand. He expects Grimand may throw a tantrum or an object at the thought that an apprentice could teach the master a new technique."
   }
  ],
  "angles": [
   {
    "target": "class:Warrior",
-   "text": "This delivery bridges the gap between armoring yourself and seeking out martial weapons forged through the very same elemental experiments."
+   "text": "As a warrior, you move from armoring yourself toward martial weapons forged through the same elemental experiments."
   },
   {
    "target": "profession:Blacksmithing",
-   "text": "The exchange between Furen and Grimand illustrates the intense professional rivalry and sharing of trade secrets common among master metalworkers."
+   "text": "As a blacksmith, you can see in Furen and Grimand's exchange the fierce rivalry and sharing of trade secrets common among master metalworkers."
   },
   {
    "target": "race:Dwarf",
-   "text": "The hot-headed, prideful banter between Grimand and Furen reflects the deeply competitive yet cooperative traditions of Khaz Modan's smithing culture."
+   "text": "As a dwarf, you can hear in Grimand and Furen's prideful banter the competitive yet cooperative traditions of Khaz Modan's smithing culture."
   }
  ],
  "keywords": [
@@ -113,5 +113,6 @@
  ],
  "attribution": [
   "Grimand Elmore (quest)"
- ]
+ ],
+ "style": 2
 }

@@ -17,16 +17,16 @@
   "wiki": "Blackrock Bounty",
   "chain": []
  },
- "summary": "In Lakeshire, Magistrate Solomon has Guard Howe offer a bounty as Blackrock forces gather in northern Redridge. Stormwind sends no royal soldiers, so the town pays independent fighters to strike at Blackrock Champions and disrupt the clan’s coordinated assault.",
+ "summary": "In Lakeshire, Blackrock Bounty draws fighters as Blackrock forces gather in northern Redridge. Stormwind sends no royal soldiers, so Magistrate Solomon and Guard Howe offer payment to independent fighters who strike at Blackrock Champions and disrupt the clan’s assault.",
  "sections": [
   {
    "title": "Holding the Sovereign Line",
-   "body": "Redridge belongs to the Kingdom of Stormwind, but the Blackrock clan ignores human borders. Orcs pour through the mountain passes from the Burning Steppes and fortify camps across northern Redridge. King Varian Wrynn is missing, and Stormwind’s regency withholds royal soldiers. With the town’s coffers dwindling, Magistrate Solomon and other local leaders offer bounties to protect Lakeshire.",
+   "body": "Redridge belongs to the Kingdom of Stormwind, yet the Blackrock clan ignores human borders. Orcs pour through mountain passes from the Burning Steppes and fortify camps across northern Redridge. King Varian Wrynn is missing, and Stormwind’s regency withholds royal soldiers. As Lakeshire’s coffers dwindle, Magistrate Solomon and other local leaders offer bounties to protect the town.",
    "spoiler": 0
   },
   {
    "title": "Targeting the Champions",
-   "body": "Guard Howe names the Blackrock Champions as the backbone of the invading vanguard. These squad leaders are battle-hardened veterans who coordinate their warbands and drive lesser grunts forward. Lakeshire’s defenders hope a bounty on the Champions will break the clan’s tactical leadership and stall a full-scale push south before the town’s outer defenses collapse.",
+   "body": "Guard Howe names the Blackrock Champions as the backbone of the invading vanguard. These squad leaders are battle-hardened veterans who coordinate their warbands and drive lesser grunts forward. Lakeshire’s defenders hope a bounty on the Champions will break the clan’s tactical leadership and stall a full-scale push south. The town’s outer defenses may soon collapse.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "where is town guard",
     "guard howe bounty"
    ],
-   "answer": "Lakeshire’s garrison is stretched thin. Its guards patrol Lake Everstill, protect the bridges, and hold off gnolls and orc raiders. They cannot spare enough fighters to assault the fortified orc camps directly without leaving the town defenseless."
+   "answer": "Lakeshire’s garrison is stretched thin. Its guards patrol Lake Everstill, protect the bridges, and hold off gnolls and orc raiders. They cannot spare enough fighters to assault the fortified orc camps without leaving the town defenseless."
   },
   {
    "q": "Where are the Blackrock Champions located?",
@@ -65,7 +65,7 @@
     "where is stormwind help",
     "magistrate solomon reinforcements"
    ],
-   "answer": "King Varian Wrynn is missing, and the royal court under Regent Bolvar Fordragon and Lady Prestor says the kingdom’s armies cannot be spared. Lakeshire has repeatedly petitioned the capital for help, but its requests are denied, leaving the town to hire passing mercenaries."
+   "answer": "King Varian Wrynn is missing, and the royal court under Regent Bolvar Fordragon and Lady Prestor says the kingdom’s armies cannot be spared. Lakeshire has repeatedly petitioned the capital for help, but its requests are denied. The town is left to hire passing mercenaries."
   },
   {
    "q": "What role do Champions serve within the Blackrock clan?",
@@ -97,7 +97,7 @@
   },
   {
    "target": "class:Warrior",
-   "text": "As a warrior, you face Blackrock Champions who are heavily armored, seasoned veteran brawlers. Their martial combat tests your discipline and endurance."
+   "text": "As a warrior, you face Blackrock Champions who are heavily armored and seasoned veteran brawlers. Their martial combat tests your discipline and endurance."
   }
  ],
  "keywords": [
@@ -123,5 +123,5 @@
  "attribution": [
   "Blackrock Bounty"
  ],
- "style": 1
+ "style": 2
 }

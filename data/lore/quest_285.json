@@ -11,11 +11,11 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "The Murloc hovels have revealed nothing, but you suspect the Menethil Statuette lies farther north. You continue searching for the next clue.",
+ "summary": "Among the Murloc hovels, you have found no sign of the Menethil Statuette. So you press farther north, seeking the next clue.",
  "sections": [
   {
    "title": "Northward Search",
-   "body": "You believe one of the hovels to the north holds the Menethil Statuette. The search continues among the Murloc dwellings.",
+   "body": "You believe the Menethil Statuette lies in one of the hovels to the north. So you continue your search among the Murloc dwellings.",
    "spoiler": 0
   }
  ],
@@ -36,7 +36,7 @@
     "find anything here",
     "what did the hovels show"
    ],
-   "answer": "A thorough inspection of this group of hovels reveals nothing."
+   "answer": "A thorough search of this group of hovels reveals nothing."
   },
   {
    "q": "Where might the statuette be?",
@@ -45,7 +45,7 @@
     "north hovels",
     "statuette location"
    ],
-   "answer": "You believe one of the Murloc hovels to the north may hold the Menethil Statuette."
+   "answer": "You believe one of the Murloc hovels farther north may hold the Menethil Statuette."
   }
  ],
  "angles": [],
@@ -60,7 +60,7 @@
   "topic:murloc",
   "item:menethil-statuette"
  ],
- "style": 1,
+ "style": 2,
  "attribution": [
   "In-game quest text: Search More Hovels"
  ]

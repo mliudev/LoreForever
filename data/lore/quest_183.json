@@ -17,16 +17,16 @@
   "wiki": "The Boar Hunter",
   "chain": []
  },
- "summary": "Talin Keeneye asks for help in Coldridge Valley, where crag boars threaten the trails. The dwarf hunter wants young recruits to thin their numbers so seasoned hunters can track in peace.",
+ "summary": "In Coldridge Valley, Talin Keeneye asks young recruits to thin the crag boars threatening the trails. Then seasoned hunters can track in peace.",
  "sections": [
   {
    "title": "A Crowded Valley",
-   "body": "Coldridge Valley gives young mountaineers and scholars of Ironforge a quiet, protected place to train. In the harsh winter, its wildlife can grow restless and numerous. Talin Keeneye, a veteran hunter stationed outside Anvilmar, has seen small crag boars multiply across the valley. Their attacks threaten anyone walking the snowy trails.",
+   "body": "Coldridge Valley gives young mountaineers and Ironforge scholars a quiet, protected place to train. Through the harsh winter, small crag boars have multiplied across the valley. Their attacks now threaten everyone on the snowy trails.",
    "spoiler": 0
   },
   {
    "title": "Tending the Snows",
-   "body": "Hunting gives dwarves meat, hide, and practice in the field. When game grows numerous and attacks on sight, its numbers must be cut. By thinning the crag boars across the valley slopes, young adventurers show they can handle a fight. Their work also gives local hunters room to pursue game without being overwhelmed.",
+   "body": "Hunting gives dwarves meat, hide, and practice in the field. When game grows numerous and attacks on sight, culling restores balance. Thin the crag boars across the valley slopes, and young adventurers prove their readiness for combat. Local hunters gain room to track without being overwhelmed.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who gives the boar hunter quest",
     "boar hunter npc"
    ],
-   "answer": "Talin Keeneye is a dwarven hunter stationed in Coldridge Valley, near Anvilmar. He tracks game in the snow and teaches novice adventurers how to deal with hostile beasts."
+   "answer": "Talin Keeneye is a dwarven hunter stationed in Coldridge Valley near Anvilmar. He tracks game in the snow and teaches novice adventurers to deal with hostile beasts."
   },
   {
    "q": "Why are the crag boars such a problem?",
@@ -74,7 +74,7 @@
     "dwarf boars",
     "dun morogh wildlife"
    ],
-   "answer": "Crag boars are tough, thick-hided swine that endure Dun Morogh's freezing temperatures. Their aggressive nature and sharp tusks help them forage through frozen soil and defend themselves from mountain predators."
+   "answer": "Crag boars are tough, thick-hided swine that endure Dun Morogh's freezing temperatures. Their aggression and sharp tusks help them forage through frozen soil and defend themselves from mountain predators."
   },
   {
    "q": "Why doesn't Talin Keeneye kill the boars himself?",
@@ -116,5 +116,5 @@
  "attribution": [
   "The Boar Hunter"
  ],
- "style": 1
+ "style": 2
 }

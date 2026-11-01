@@ -11,11 +11,11 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "As an alchemist, you can learn to craft a Mana Well for your camp. Carolai Anise in Brill can teach you once you have shown proficiency in your skill.",
+ "summary": "At your camp, alchemists can learn to craft a Mana Well. Carolai Anise in Brill teaches the craft once you have shown skill in alchemy.",
  "sections": [
   {
    "title": "A camp for brews",
-   "body": "Carolai Anise can teach you to craft a Mana Well, a camping item for your profession. Once you know the craft, you can set up camp in the wilderness. A campfire is needed to start your camp, and cooks can teach you how to make one.",
+   "body": "Carolai Anise in Brill teaches alchemists to craft a Mana Well for their camp. Once you know the craft, you can make camp in the wilderness. First, you need a campfire, which cooks can teach you to make.",
    "spoiler": 0
   }
  ],
@@ -27,7 +27,7 @@
     "who teaches mana well",
     "carolai anise alchemy"
    ],
-   "answer": "Carolai Anise in Brill can teach you to craft a Mana Well once you have shown proficiency in your alchemy skill."
+   "answer": "Carolai Anise in Brill can teach you to craft a Mana Well once you have shown skill in alchemy."
   },
   {
    "q": "What is a Mana Well for?",
@@ -36,7 +36,7 @@
     "what does mana well do",
     "mana camp item"
    ],
-   "answer": "A Mana Well is a camping item you can craft as an alchemist. Healers and spellcasters are drawn to it for a refreshing taste."
+   "answer": "A Mana Well is a camping item you can craft as an alchemist. Healers and spellcasters are drawn to its refreshing taste."
   },
   {
    "q": "Where can I learn the Mana Well craft?",
@@ -45,7 +45,7 @@
     "brill alchemy trainer",
     "where is carolai"
    ],
-   "answer": "You can learn the craft from Carolai Anise in Brill."
+   "answer": "Carolai Anise in Brill can teach you the Mana Well craft."
   },
   {
    "q": "What do I need before starting a camp?",
@@ -72,7 +72,7 @@
   "npc:carolai-anise",
   "subzone:brill"
  ],
- "style": 1,
+ "style": 2,
  "attribution": [
   "In-game quest text: Camping 101: Alchemy"
  ]

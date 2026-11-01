@@ -20,16 +20,16 @@
    "Data Rescue"
   ]
  },
- "summary": "Master Mechanic Castpipe is calling capable travelers to Ironforge. He needs help recovering records from the ruined halls of Gnomeregan, where vital mechanical and technical knowledge remains trapped.",
+ "summary": "In Ironforge, Master Mechanic Castpipe calls travelers to recover Gnomeregan's records. The ruined halls still hold vital mechanical and technical knowledge.",
  "sections": [
   {
    "title": "A Call to Tinkertown",
-   "body": "After Gnomeregan fell and was placed under radioactive quarantine, its surviving gnomes took refuge in Ironforge's Tinkertown. Troggs and irradiated constructs still overrun their great home. Deep in the city, computing arrays hold operational records and mechanical schematics. Master Mechanic Castpipe is enlisting outsiders willing to brave the toxic halls and recover files that may help explain what went wrong or aid a return to Gnomeregan.",
+   "body": "After Gnomeregan fell and was sealed under radioactive quarantine, its surviving gnomes found refuge in Ironforge's Tinkertown. Troggs and irradiated constructs still overrun their old home. Deep within the city, computing arrays hold operational records and mechanical schematics. Castpipe seeks outsiders willing to brave the toxic halls and recover files that may explain what went wrong or help the gnomes return.",
    "spoiler": 0
   },
   {
    "title": "Assembly Endorsement",
-   "body": "Gaxim Rustfizzle, of the Enlightened Assembly of Arcanology, Alchemy and Engineering Sciences, spreads word of Castpipe's effort. Castpipe does not belong to the academic body, but fellow gnomes respect his technical skill and support his work. Rustfizzle calculates an eighty-four percent chance that the operation has strategic value. Travelers can report to Tinkertown for orders.",
+   "body": "Gaxim Rustfizzle of the Enlightened Assembly of Arcanology, Alchemy and Engineering Sciences spreads word of Castpipe's effort. Castpipe belongs to no academic body, yet his fellow gnomes respect his skill and support his work. Rustfizzle puts the operation's strategic value at an eighty-four percent chance. Travelers can report to Tinkertown for orders.",
    "spoiler": 0
   }
  ],
@@ -41,7 +41,7 @@
     "who is castpipe",
     "master mechanic castpipe"
    ],
-   "answer": "Master Mechanic Castpipe is a respected gnomish engineer in Tinkertown, Ironforge. He organizes salvage teams and data recovery in the underground ruins of Gnomeregan."
+   "answer": "Master Mechanic Castpipe is a respected gnomish engineer in Tinkertown, Ironforge. He organizes salvage teams to recover data from the underground ruins of Gnomeregan."
   },
   {
    "q": "Why does Castpipe want data from Gnomeregan?",
@@ -50,7 +50,7 @@
     "why retrieve data",
     "gnomeregan records"
    ],
-   "answer": "When Gnomeregan was contaminated and evacuated, its mainframe memory was left holding critical technical knowledge, blueprints and internal system logs. The displaced gnomes need this information as they hope to rebuild."
+   "answer": "When Gnomeregan was contaminated and evacuated, its mainframe memory was left with critical technical knowledge, blueprints and internal system logs. The displaced gnomes need this information as they hope to rebuild."
   },
   {
    "q": "Who is Gaxim Rustfizzle?",
@@ -58,7 +58,7 @@
     "gaxim",
     "rustfizzle"
    ],
-   "answer": "Gaxim Rustfizzle is a gnome scholar with the Enlightened Assembly of Arcanology, Alchemy and Engineering Sciences. He advocates for Castpipe's recovery effort and directs capable travelers to it."
+   "answer": "Gaxim Rustfizzle is a gnome scholar with the Enlightened Assembly of Arcanology, Alchemy and Engineering Sciences. He supports Castpipe's recovery effort and directs capable travelers to it."
   },
   {
    "q": "Where can Castpipe be found?",
@@ -66,7 +66,7 @@
     "castpipe location",
     "where is castpipe"
    ],
-   "answer": "Master Mechanic Castpipe can be found in Tinkertown, the gnome-settled district in the eastern quarter of Ironforge."
+   "answer": "Master Mechanic Castpipe can be found in Tinkertown, the gnome-settled district in Ironforge's eastern quarter."
   },
   {
    "q": "What happens after reporting to Castpipe?",
@@ -75,7 +75,7 @@
     "what comes next",
     "after castpipe"
    ],
-   "answer": "Reporting to Master Mechanic Castpipe leads to Data Rescue, an operation inside the fallen city. Travelers must enter Gnomeregan's contaminated interior and recover computer punch cards and storage media."
+   "answer": "Reporting to Master Mechanic Castpipe leads to Data Rescue inside the fallen city. Travelers enter Gnomeregan's contaminated interior to recover computer punch cards and storage media."
   },
   {
    "q": "What is the Enlightened Assembly of Arcanology, Alchemy and Engineering Sciences?",
@@ -89,15 +89,15 @@
  "angles": [
   {
    "target": "race:Gnome",
-   "text": "For you as a gnome, each recovery effort preserves a piece of your fallen home from radiation and destruction. Castpipe's work touches your people's survival."
+   "text": "As a gnome, you help preserve a piece of your fallen home from radiation and destruction with each recovery effort. Castpipe's work touches your people's survival."
   },
   {
    "target": "profession:Engineering",
-   "text": "For you as an engineer, Gnomeregan's data cores hold computational marvels and advanced schematics unmatched elsewhere on Azeroth."
+   "text": "As an engineer, you know Gnomeregan's data cores hold computational marvels and advanced schematics unmatched elsewhere on Azeroth."
   },
   {
    "target": "faction:Alliance",
-   "text": "For you in the Alliance, helping displaced gnomes secure their lost archives supports Tinkertown and strengthens the Alliance's technological standing."
+   "text": "As an ally of the Alliance, you support displaced gnomes as they secure their lost archives. That work strengthens Tinkertown and the Alliance's technological standing."
   }
  ],
  "keywords": [
@@ -120,5 +120,5 @@
  "attribution": [
   "Castpipe's Task"
  ],
- "style": 1
+ "style": 2
 }

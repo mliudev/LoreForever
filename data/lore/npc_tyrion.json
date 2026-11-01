@@ -8,11 +8,11 @@
   "wiki": "Tyrion",
   "refs": 3
  },
- "summary": "Inside Stormwind Keep, Tyrion watches the court and aids covert work. The gnome works with Elling Trias to gather intelligence and counter plots against the kingdom.",
+ "summary": "Inside Stormwind Keep, Tyrion watches the court and aids covert work. The gnome gathers intelligence with Elling Trias and helps counter plots against the kingdom.",
  "sections": [
   {
    "title": "A Quiet Presence in the Keep",
-   "body": "Tyrion keeps to the halls of Stormwind Keep, watching the palace and staying in touch with contacts beyond official oversight.",
+   "body": "Tyrion watches the halls of Stormwind Keep and keeps an eye on the palace. He also stays in touch with contacts beyond official oversight.",
    "spoiler": 0
   },
   {
@@ -22,7 +22,7 @@
   },
   {
    "title": "Uncovering the Threat",
-   "body": "Tyrion helps investigators enter guarded places and secure sensitive goods in the city. His work reveals danger within the royal heart of the kingdom, and he warns his allies before an organized strike can threaten Stormwind's leaders.",
+   "body": "Tyrion helps investigators enter guarded places and secure sensitive goods in the city. His work uncovers danger within the kingdom's royal heart. He warns his allies before an organized strike can threaten Stormwind's leaders.",
    "spoiler": 1
   }
  ],
@@ -34,7 +34,7 @@
     "tyrion identity",
     "what does tyrion do"
    ],
-   "answer": "Tyrion is a gnome operative inside Stormwind Keep. He handles covert work and intelligence gathering beyond the usual royal channels."
+   "answer": "Tyrion is a gnome operative inside Stormwind Keep. He gathers intelligence and handles covert work beyond the usual royal channels."
   },
   {
    "q": "Where can I find Tyrion?",
@@ -43,7 +43,7 @@
     "where is tyrion",
     "find tyrion"
    ],
-   "answer": "Tyrion is inside Stormwind Keep in Stormwind City, watching for agents sent by his trusted contacts."
+   "answer": "Tyrion can be found inside Stormwind Keep in Stormwind City. He watches for agents sent by his trusted contacts."
   },
   {
    "q": "What is his connection to Elling Trias?",
@@ -60,7 +60,7 @@
     "tyrion quests",
     "what quests does he give"
    ],
-   "answer": "Tyrion is involved in covert operations including 'Infiltrating the Castle', 'Items of Some Consequence', and warning allies during 'The Attack!'."
+   "answer": "Tyrion is involved in covert operations such as 'Infiltrating the Castle' and 'Items of Some Consequence'. He also warns allies during 'The Attack!'."
   },
   {
    "q": "Why is a gnome handling secret operations in the human court?",
@@ -76,13 +76,13 @@
     "tyrion conspiracy",
     "what is tyrion investigating"
    ],
-   "answer": "Tyrion tracks stolen intelligence and hidden plots within the royal court, leading to an armed ambush inside the city."
+   "answer": "Tyrion tracks stolen intelligence and hidden plots within the royal court. His work leads to an armed ambush inside the city."
   }
  ],
  "angles": [
   {
    "target": "race:Gnome",
-   "text": "As a gnome, Tyrion shows the subtlety and intellect gnomes bring to Alliance espionage, working beneath the notice of human nobility."
+   "text": "As a gnome, Tyrion shows the subtlety and intellect gnomes bring to Alliance espionage. He works beneath the notice of human nobility."
   },
   {
    "target": "class:Rogue",
@@ -116,5 +116,5 @@
  "attribution": [
   "Tyrion"
  ],
- "style": 1
+ "style": 2
 }

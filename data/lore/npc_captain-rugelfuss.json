@@ -8,16 +8,16 @@
   "wiki": "Captain Rugelfuss",
   "refs": 6
  },
- "summary": "At Loch Modan’s southern gate, Captain Rugelfuss faces a sudden trogg uprising. The stern dwarven officer organizes the defense of the border.",
+ "summary": "At Loch Modan’s southern gate, Captain Rugelfuss meets a sudden trogg uprising. The stern dwarf organizes the defense of the border.",
  "sections": [
   {
    "title": "Holding the Southern Gate",
-   "body": "Captain Rugelfuss guards Loch Modan’s southern gateway from the Valley of Kings. With Alliance forces stretched thin across the world, Ironforge depends on veteran officers like him to defend its home territories. He sets aside military ceremony and turns his attention to the danger at the border.",
+   "body": "From the Valley of Kings, Captain Rugelfuss guards Loch Modan’s southern gateway. Ironforge’s forces are stretched thin across the world, so veteran officers like him defend its home territories. He sets military ceremony aside and turns to the danger at the border.",
    "spoiler": 0
   },
   {
    "title": "The Trogg Incursion",
-   "body": "Troggs are surging into the highlands from ancient caverns. They have overwhelmed outlying dwarven patrols and built fortified footholds nearby. Rugelfuss calls on capable travelers to thin their ranks and drive them back from the roadway, defending the King’s lands.",
+   "body": "Troggs surge into the highlands from ancient caverns. They have overwhelmed outlying dwarven patrols and built fortified footholds nearby. Rugelfuss calls on capable travelers to thin their ranks and drive them back from the roadway, defending the King’s lands.",
    "spoiler": 0
   },
   {
@@ -34,7 +34,7 @@
     "who is rugelfuss",
     "rugelfuss loch modan"
    ],
-   "answer": "Captain Rugelfuss commands Ironforge’s defense at Loch Modan’s southern gateway in the Valley of Kings. He guards the frontier against the trogg uprising."
+   "answer": "At Loch Modan’s southern gateway in the Valley of Kings, Captain Rugelfuss commands Ironforge’s defense. He guards the frontier against the trogg uprising."
   },
   {
    "q": "Where can Captain Rugelfuss be found?",
@@ -42,7 +42,7 @@
     "where is rugelfuss",
     "captain rugelfuss location"
    ],
-   "answer": "You can find Captain Rugelfuss near the South Gate in the Valley of Kings, guarding the southern pass from Loch Modan toward Dun Morogh."
+   "answer": "You can find Captain Rugelfuss near the South Gate in the Valley of Kings. He guards the southern pass from Loch Modan toward Dun Morogh."
   },
   {
    "q": "Why is Captain Rugelfuss concerned about troggs?",
@@ -72,7 +72,7 @@
   },
   {
    "target": "class:Warrior",
-   "text": "As a warrior, you may recognize Rugelfuss’s direct approach: clear the frontlines with blade and shield."
+   "text": "As a warrior, you may recognize Rugelfuss’s direct approach: clear the front lines with blade and shield."
   }
  ],
  "keywords": [
@@ -95,5 +95,5 @@
  "attribution": [
   "Captain Rugelfuss"
  ],
- "style": 1
+ "style": 2
 }

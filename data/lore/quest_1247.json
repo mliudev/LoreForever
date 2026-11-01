@@ -17,16 +17,16 @@
   "wiki": "The Missing Diplomat (9)",
   "chain": []
  },
- "summary": "Dashel Stonefist has confessed in Old Town, and you carry his warning to Elling Trias. The thug names a backup abduction plot and a contact in Menethil Harbor.",
+ "summary": "In Old Town, Dashel Stonefist gives up a warning for Elling Trias. His confession names a backup abduction plot and a contact in Menethil Harbor.",
  "sections": [
   {
    "title": "A Crack in the Wall",
-   "body": "Dashel Stonefist gives up when he fears for his health. In an Old Town alley, he admits the conspirators' first kidnapping plan fell apart, leaving his part in the plot in ruins. To shift blame, he tells you of a secret meeting weeks ago at Addle's Stead in Duskwood. He also names one lead in their backup plan: an insider in Menethil Harbor known only as Slim.",
+   "body": "Dashel Stonefist gives in when he fears for his health. In an Old Town alley, he admits the conspirators' first plan to kidnap the envoy failed, and his part in it fell apart. To shift blame, he tells you of a secret meeting weeks ago at Addle's Stead in Duskwood. He also names a lead in their backup plan: an insider in Menethil Harbor known only as Slim.",
    "spoiler": 0
   },
   {
    "title": "Reporting to the Fromager",
-   "body": "Elling Trias gathers secrets for the Crown from behind the counter of Trias' Cheese in the Trade District. While you questioned Dashel, Trias studied captured messages about the plot. The confession matches what they reveal: the conspirators targeted an unnamed diplomat, their first ambush failed, and a backup plan began through the Wetlands. With Slim's name, the search turns north from Stormwind toward the marshes.",
+   "body": "Elling Trias gathers secrets for the Crown from behind the counter of Trias' Cheese in the Trade District. While you questioned Dashel, Trias studied captured messages about the plot. Dashel's confession matches what the messages reveal: the conspirators targeted an unnamed diplomat, their first ambush failed, and a backup plan began through the Wetlands. With Slim's name, the search turns north from Stormwind toward the marshes.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "who is dashel",
     "stonefist stormwind"
    ],
-   "answer": "Dashel Stonefist is a fixer and strong arm in Stormwind's Old Town. Linked to the Defias underworld, he helped carry out the first plan to capture Stormwind's envoy, then gave information when confronted."
+   "answer": "Dashel Stonefist is a fixer and strong arm in Stormwind's Old Town. Linked to the Defias underworld, he helped carry out the first plan to capture Stormwind's envoy. When confronted, he gave up information."
   },
   {
    "q": "Why is Elling Trias involved in this investigation?",
@@ -47,7 +47,7 @@
     "cheese vendor spy",
     "trias intelligence"
    ],
-   "answer": "Elling Trias gathers secrets for Stormwind while posing as a master of fine cheeses. His Trade District shop lets him coordinate discreet inquiries beyond the city guard's reach."
+   "answer": "Elling Trias gathers secrets for Stormwind while posing as a master of fine cheeses. His shop in the Trade District lets him coordinate discreet inquiries beyond the city guard's reach."
   },
   {
    "q": "What happened at Addle's Stead?",
@@ -56,7 +56,7 @@
     "addles stead",
     "westfall meeting"
    ],
-   "answer": "The conspirators met weeks ago at Addle's Stead, an abandoned farm in western Duskwood, to plan their kidnappings after their first attempt was disrupted."
+   "answer": "Weeks ago, the conspirators met at Addle's Stead, an abandoned farm in western Duskwood, to plan their kidnappings after their first attempt was disrupted."
   },
   {
    "q": "Who is the diplomat they were trying to abduct?",
@@ -89,7 +89,7 @@
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "As a rogue, you know how closely street crime and state secrets can meet, from Dashel's back-alley muscle to Trias's quiet intelligence work."
+   "text": "As a rogue, you know how closely street crime and state secrets can meet. Dashel brings back-alley muscle, while Trias works quietly in intelligence."
   },
   {
    "target": "race:Human",
@@ -97,7 +97,7 @@
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance member, you know the missing envoy matters to the Alliance's stability, with sabotage threatening Stormwind's leadership."
+   "text": "As an Alliance member, you know the missing envoy matters to the Alliance's stability. Sabotage threatens Stormwind's leadership."
   }
  ],
  "keywords": [
@@ -118,5 +118,5 @@
  "attribution": [
   "The Missing Diplomat (9)"
  ],
- "style": 1
+ "style": 2
 }

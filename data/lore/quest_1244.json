@@ -17,16 +17,16 @@
   "wiki": "The Missing Diplomat (5)",
   "chain": []
  },
- "summary": "In Duskwood, the search for Stormwind's missing diplomat follows a lead from Watcher Backus to Defias papers at Addle's Stead.",
+ "summary": "Watcher Backus has brought the search for Stormwind’s missing diplomat to Duskwood. A gathering of Defias bandits at Addle’s Stead may hold a lead.",
  "sections": [
   {
    "title": "A Lead in the Gloom",
-   "body": "Watcher Backus of the Night Watch brings the search to Duskwood. He says an unusually large gathering of Defias bandits came to Addle's Stead several weeks ago. The bandits usually keep to themselves across the border in Westfall, so their gathering in the dark woods marks an unusual move. Now you search the abandoned farmstead for the papers they left behind.",
+   "body": "Watcher Backus of the Night Watch brings you to Duskwood. Several weeks ago, an unusually large gathering of Defias bandits came to Addle’s Stead. They usually keep to themselves across the border in Westfall, so their presence in the dark woods is a troubling change. Now you search the abandoned farmstead for the papers they left behind.",
    "spoiler": 0
   },
   {
    "title": "The Defias Docket",
-   "body": "At the overrun farmstead, you find a locked footbox holding a Defias Docket. The papers confirm the brotherhood's involvement, but Watcher Backus warns you to be cautious. The Defias could have forged them to mislead investigators.",
+   "body": "At the overrun farmstead, you find a locked footbox with a Defias Docket inside. The papers point to the brotherhood’s involvement. Yet Watcher Backus warns that the Defias may have forged them to mislead investigators.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "where is addles stead",
     "find addle's stead"
    ],
-   "answer": "Addle's Stead lies in western Duskwood, just south of the main road from Westfall. Hostile Defias agents occupy the run-down farmhouse."
+   "answer": "Addle’s Stead lies in western Duskwood, just south of the main road from Westfall. Hostile Defias agents occupy the run-down farmhouse."
   },
   {
    "q": "What is the Defias Docket?",
@@ -47,7 +47,7 @@
     "what is the docket",
     "addle stead document"
    ],
-   "answer": "The Defias Docket is a collection of official-looking papers in a footbox at Addle's Stead. It details some of the Brotherhood's recent covert operations in the region."
+   "answer": "The Defias Docket is a collection of official-looking papers in a footbox at Addle’s Stead. It details some of the Brotherhood’s recent covert operations in the region."
   },
   {
    "q": "Who is Watcher Backus?",
@@ -56,7 +56,7 @@
     "who is backus",
     "backus duskwood"
    ],
-   "answer": "Watcher Backus is a member of the Night Watch stationed in Duskwood. His contacts in town and watch over border threats help him track unusual Defias movements along the Westfall border."
+   "answer": "Watcher Backus belongs to the Night Watch stationed in Duskwood. His town contacts and watch over border threats help him track unusual Defias movements along the Westfall border."
   },
   {
    "q": "Why are Defias operating inside Duskwood?",
@@ -64,7 +64,7 @@
     "why are defias in duskwood",
     "defias at addle's stead"
    ],
-   "answer": "Defias operatives make quiet incursions into western Duskwood, though their stronghold lies across the border in Westfall. Addle's Stead is an isolated waypoint away from Stormwind patrols."
+   "answer": "Defias operatives make quiet incursions into western Duskwood, though their stronghold lies across the border in Westfall. Addle’s Stead is an isolated waypoint away from Stormwind patrols."
   },
   {
    "q": "Can the contents of the Defias Docket be trusted?",
@@ -73,7 +73,7 @@
     "docket forgery",
     "is it a dupe"
    ],
-   "answer": "Watcher Backus warns that the Defias may have planted false leads to throw investigators off their trail. The docket looks authentic, but its contents may be misdirection."
+   "answer": "Watcher Backus warns that the Defias may have planted false leads to throw investigators off their trail. The docket looks authentic, but its contents may mislead."
   },
   {
    "q": "Who originally pointed investigators toward Watcher Backus?",
@@ -81,17 +81,17 @@
     "who sent me to backus",
     "trias connection"
    ],
-   "answer": "Watcher Backus says Elling Trias, a cheese merchant and covert information broker in Stormwind, directed the investigation to the Night Watch in Duskwood."
+   "answer": "Watcher Backus says Elling Trias directed the investigation to the Night Watch in Duskwood. Trias is a cheese merchant and covert information broker in Stormwind."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "The kingdom's missing emissary puts Stormwind's security at risk. Defias intrigue reaches far beyond petty highway robbery in Westfall."
+   "text": "Stormwind’s missing emissary puts the kingdom’s security at risk. Defias intrigue reaches far beyond petty highway robbery in Westfall."
   },
   {
    "target": "class:Rogue",
-   "text": "As a rogue, you must navigate criminal networks and tell genuine intelligence from Defias misdirection."
+   "text": "As a rogue, you must navigate criminal networks and judge genuine intelligence from Defias misdirection."
   }
  ],
  "keywords": [
@@ -112,5 +112,5 @@
  "attribution": [
   "The Missing Diplomat (5)"
  ],
- "style": 1
+ "style": 2
 }

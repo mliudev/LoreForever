@@ -10,11 +10,11 @@
    "quest:1701"
   ]
  },
- "summary": "Charred Horns are the rugged, heat-baked horns harvested from youthful chimaeras dwelling in the crags of the Stonetalon Mountains. Tough enough to withstand harsh elemental forces, they serve as an essential tempering component in specialized armorsmithing.",
+ "summary": "In Stormwind, Furen Longbeard needs Charred Horns from young chimaeras in Stonetalon. Their resistance to flame, blunt force, and harsh elemental forces makes them useful in strong armor.",
  "sections": [
   {
    "title": "A Rare Smithing Component",
-   "body": "Harvested from fledgling and young chimaeras nesting across the craggy heights of the Stonetalon Mountains, Charred Horns are coveted for their unnatural resistance to flame and blunt force. The dwarven armorsmith Furen Longbeard, working from his forge in Stormwind, requires a collection of these horns to craft fire-hardened mail. Combined with venomous spider fangs from the Wetlands, phlogiston from Razorfen Kraul, and the galvanized horn of a chimaera matriarch, these calcified horns provide the core structural reinforcement necessary to produce an exceptionally resilient suit of protective armor.",
+   "body": "Fledgling and young chimaeras in the Stonetalon Mountains provide Charred Horns. Their resistance to flame and blunt force makes them useful to Furen Longbeard, a dwarven armorsmith at his forge in Stormwind. He needs twelve horns to make fire-hardened mail.\n\nFuren combines them with venomous spider fangs from the Wetlands, phlogiston from Razorfen Kraul, and the galvanized horn of a chimaera matriarch. The Charred Horns reinforce the mail's rings and plates with heat-treated material.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "who drops charred horn",
     "charred horn source"
    ],
-   "answer": "They are gathered from fledgling chimaeras and young chimaeras native to the rugged terrain of the Stonetalon Mountains in Kalimdor."
+   "answer": "Fledgling and young chimaeras in the Stonetalon Mountains of Kalimdor provide Charred Horns."
   },
   {
    "q": "Who wants these horns in Stormwind?",
@@ -35,7 +35,7 @@
     "turn in charred horn",
     "furen longbeard horns"
    ],
-   "answer": "The master armorsmith Furen Longbeard asks for them. He uses their flame-tempered nature as raw material to forge an exceptionally sturdy mail chestpiece for promising warriors."
+   "answer": "Furen Longbeard, an armorsmith in Stormwind, wants the horns. He uses them to forge a sturdy mail chestpiece for promising warriors."
   },
   {
    "q": "Why does Furen require so many of them?",
@@ -43,7 +43,7 @@
     "why 12 charred horns",
     "purpose of charred horn"
    ],
-   "answer": "Furen requires twelve Charred Horns to supply enough raw, heat-treated material to properly reinforce the rings and plates of his fire-hardened mail."
+   "answer": "Furen needs twelve Charred Horns to provide enough heat-treated material to reinforce the rings and plates of his fire-hardened mail."
   },
   {
    "q": "Are these different from the Galvanized Horn?",
@@ -51,17 +51,17 @@
     "galvanized horn vs charred horn",
     "difference between horns"
    ],
-   "answer": "Yes. Charred Horns come in quantity from the lesser, younger chimaeras of Stonetalon, whereas the Galvanized Horn is a single, far rarer trophy taken directly from a Chimaera Matriarch."
+   "answer": "Yes. Charred Horns come from younger chimaeras in Stonetalon. The Galvanized Horn is a single trophy taken from a Chimaera Matriarch, and it is far rarer."
   }
  ],
  "angles": [
   {
    "target": "class:Warrior",
-   "text": "Furen Longbeard specifically enlists rising warriors to retrieve these horns across Kalimdor, rewarding their perilous journey with custom fire-hardened mail."
+   "text": "As a warrior, you can retrieve Charred Horns across Kalimdor for Furen Longbeard. He rewards the dangerous journey with custom fire-hardened mail."
   },
   {
    "target": "profession:Blacksmithing",
-   "text": "These beasts' horns showcase an exotic smithing technique, utilizing the naturally flame-cured biological material of Kalimdor predators to temper mail links."
+   "text": "As a blacksmith, you can see how the horns use naturally flame-cured material from Kalimdor predators to temper mail links."
   }
  ],
  "keywords": [
@@ -84,5 +84,6 @@
  "attribution": [
   "Charred Horn",
   "Fire Hardened Mail"
- ]
+ ],
+ "style": 2
 }

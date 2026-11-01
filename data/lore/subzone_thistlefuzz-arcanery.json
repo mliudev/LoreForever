@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Thistlefuzz Arcanery"
  },
- "summary": "East of the Great Forge, Thistlefuzz Arcanery draws enchanters and scholars. Gnome practitioners run this prominent workshop and academy, a haven for those who weave magic into metal and parchment. Its chambers hum with arcane energy beside the fires of dwarven industry.",
+ "summary": "East of the Great Forge, Thistlefuzz Arcanery draws enchanters and scholars to a prominent gnome-run workshop and academy. Its chambers hum with arcane energy beside the fires of dwarven industry, offering a haven to those who weave magic into metal and parchment.",
  "sections": [
   {
    "title": "Arcane Craft in the Mountain",
-   "body": "East of the Great Forge, Thistlefuzz Arcanery contrasts with the clanging anvils of dwarven smiths. Across its two levels, scholars, practitioners, and apprentices gather to study enchanting and the arcane arts. Dwarves reshape steel with muscle and fire; the gnomes here show how raw arcane energy can be bound into weapons, armor, and curious tools. For spellcasters making their way through the mountain stronghold, the Arcanery remains an essential sanctuary.",
+   "body": "East of the Great Forge, Thistlefuzz Arcanery offers a quieter craft beside the clanging anvils of dwarven smiths. Across its two levels, scholars, practitioners, and apprentices gather to study enchanting and the arcane arts. Dwarves reshape steel with muscle and fire, while the gnomes bind raw arcane energy into weapons, armor, and curious tools. For spellcasters making their way through the mountain stronghold, the Arcanery remains an essential sanctuary.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "where is thistlefuzz",
     "ironforge enchanting shop"
    ],
-   "answer": "Thistlefuzz Arcanery sits along the eastern ring of the Great Forge in central Ironforge. Arcane apparatuses and enchanting supplies displayed around its doors mark the way."
+   "answer": "Thistlefuzz Arcanery sits east of the Great Forge in central Ironforge. Arcane apparatus and enchanting supplies displayed around its doors mark the way."
   },
   {
    "q": "What services are offered inside the Arcanery?",
@@ -31,7 +31,7 @@
     "what is in thistlefuzz arcanery",
     "trainers in thistlefuzz"
    ],
-   "answer": "The Arcanery gathers enchanting trainers, spellcraft suppliers, and scholars to teach apprentices, trade rare reagents, and conduct experiments away from the smithies' physical soot."
+   "answer": "Inside the Arcanery, enchanting trainers teach apprentices, spellcraft suppliers trade rare reagents, and scholars conduct experiments away from the smithies' physical soot."
   },
   {
    "q": "Why is an arcane workshop situated so close to the Great Forge?",
@@ -39,7 +39,7 @@
     "why is it near the forge",
     "arcanery great forge connection"
    ],
-   "answer": "The Arcanery's position beside the Great Forge is practical. Newly forged blades, armor plates, and mechanical components can be carried east at once to receive protective enchantments and elemental power."
+   "answer": "The Arcanery's position beside the Great Forge is practical. Newly forged blades, armor plates, and mechanical components can be carried east at once, where they receive protective enchantments and elemental power."
   }
  ],
  "angles": [
@@ -68,5 +68,5 @@
  "attribution": [
   "Thistlefuzz Arcanery"
  ],
- "style": 1
+ "style": 2
 }

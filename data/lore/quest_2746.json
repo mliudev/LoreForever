@@ -17,21 +17,21 @@
   "wiki": "Items of Some Consequence",
   "chain": []
  },
- "summary": "Tyrion gathers silk and apples for a spy inside Stormwind Keep. The covert operative needs the materials to disguise Spybot and send it past the royal guards to listen in on Lord Lescovar.",
+ "summary": "Tyrion needs silk and apples to prepare Spybot for a covert approach to Lord Lescovar in Stormwind Keep. The mechanical spy must pass the royal guards and listen to the noble.",
  "sections": [
   {
    "title": "A Tightening Schedule",
-   "body": "Elling Trias has moved the operation against Lord Gregor Lescovar forward. The cheese merchant suspects Lescovar's schemes inside Stormwind Keep threaten the realm. In the keep's gardens, Tyrion agrees to the tighter schedule, but says the disguise needs careful preparation.",
+   "body": "Elling Trias, the cheese merchant, has moved the operation against Lord Gregor Lescovar forward. He suspects Lescovar's schemes in Stormwind Keep threaten the realm. Tyrion agrees to the tighter schedule in the keep's gardens, but Spybot's disguise needs careful preparation.",
    "spoiler": 0
   },
   {
    "title": "The Art of the Disguise",
-   "body": "Tyrion plans to send Spybot, a small mechanical contraption, past the castle guards to reach Lescovar inside the keep. A strange feminine disguise should turn suspicion aside. For it, you gather suitably sized apples from Clara's orchard just outside the city walls, along with bolts of silk for the puppet's clothes.",
+   "body": "Tyrion plans to send Spybot, a small mechanical contraption, past the castle guards to reach Lescovar inside the keep. Its strange disguise as a woman should turn suspicion aside. You gather suitably sized apples from Clara's orchard just outside the city walls, along with bolts of silk for the puppet's clothes.",
    "spoiler": 0
   },
   {
    "title": "Uncovering Treason",
-   "body": "Tyrion first began watching Lord Lescovar over suspicious leads tying the noble to the Twilight's Hammer cult. He now reveals that Lescovar is also colluding with Defias conspirators. With that treachery exposed, Lescovar can no longer remain in the royal court, and Tyrion's surveillance becomes a sting at the heart of the kingdom.",
+   "body": "Tyrion first watched Lord Lescovar over suspicious leads linking the noble to the Twilight's Hammer cult. He now reveals that Lescovar is also colluding with Defias conspirators. With that treachery exposed, Lescovar can no longer remain in the royal court. Tyrion's surveillance becomes a sting at the heart of the kingdom.",
    "spoiler": 1
   }
  ],
@@ -44,7 +44,7 @@
     "tyrion disguise materials",
     "spybot disguise"
    ],
-   "answer": "Tyrion needs apples and silk to disguise Spybot as a woman so it can pass the royal guards in Stormwind Keep. The silk becomes clothing, and the apples provide the shape needed to complete the disguise."
+   "answer": "Tyrion needs apples and silk to disguise Spybot as a woman so it can pass the royal guards in Stormwind Keep. The silk becomes clothing, and the apples give the disguise its shape."
   },
   {
    "q": "Who is Tyrion working for?",
@@ -99,7 +99,7 @@
   },
   {
    "target": "profession:Tailoring",
-   "text": "As a Tailor, you know fine silk can serve undercover schemes as well as formal gowns."
+   "text": "As a Tailor, you know fine silk can aid undercover schemes as well as make formal gowns."
   },
   {
    "target": "faction:Alliance",
@@ -129,5 +129,5 @@
  "attribution": [
   "Items of Some Consequence"
  ],
- "style": 1
+ "style": 2
 }

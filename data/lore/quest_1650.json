@@ -17,16 +17,16 @@
   "wiki": "The Tome of Valor (3)",
   "chain": []
  },
- "summary": "Duthorian Rall sends a paladin to protect Daphne Stilwell on Westfall's distant shore. With her husband away, Defias bandits threaten her homestead.",
+ "summary": "Duthorian Rall sends you to guard Daphne Stilwell on Westfall’s distant shore. Her husband is away, and Defias bandits threaten their homestead.",
  "sections": [
   {
    "title": "A Call to Arms",
-   "body": "At Stormwind's Cathedral of Light, Duthorian Rall tests aspiring paladins by asking them to defend the realm's people. After accepting the mantle of valor, you put those ideals to work where law and authority have failed.",
+   "body": "At Stormwind’s Cathedral of Light, Duthorian Rall tests those who seek to become paladins. He asks them to defend the people of the realm. Now you have taken up the mantle of valor, and must put those ideals to work where law and authority have failed.",
    "spoiler": 0
   },
   {
    "title": "Peril on the Longshore",
-   "body": "Daphne Stilwell and her husband Jordan keep an outpost at Westfall's isolated Longshore. Jordan is away in Ironforge, consulting dwarven blacksmiths, and Defias Brotherhood activity is rampant. Duthorian sends you west to protect Daphne before the thieves overwhelm her homestead.",
+   "body": "Daphne Stilwell and her husband Jordan keep an outpost at Westfall’s isolated Longshore. Jordan is away in Ironforge, consulting dwarven blacksmiths, while Defias Brotherhood activity runs rampant. So Duthorian sends you west to protect Daphne before thieves overwhelm her homestead.",
    "spoiler": 0
   }
  ],
@@ -47,7 +47,7 @@
     "quest giver tome of valor",
     "duthorian rall quest"
    ],
-   "answer": "Duthorian Rall assigns it. He trains paladins at Stormwind's Cathedral of Light and gives the order once you prove ready for the trials of valor."
+   "answer": "Duthorian Rall assigns it. He trains paladins at Stormwind’s Cathedral of Light, and gives the order once you prove ready for the trials of valor."
   },
   {
    "q": "Where can Daphne Stilwell be found?",
@@ -83,17 +83,17 @@
     "tome of valor trial purpose",
     "meaning of this quest"
    ],
-   "answer": "The paladin's valor is measured by sacrifice and defense of the defenseless. Protecting Daphne from marauding bandits puts righteousness into action."
+   "answer": "A paladin’s valor is measured by sacrifice and the defense of the defenseless. Protecting Daphne from marauding bandits puts righteousness into action."
   }
  ],
  "angles": [
   {
    "target": "class:Paladin",
-   "text": "As a paladin, you leave the safety of Stormwind's Cathedral to protect the defenseless and prove your valor."
+   "text": "As a paladin, you leave the safety of Stormwind’s Cathedral to protect the defenseless and prove your valor."
   },
   {
    "target": "faction:Alliance",
-   "text": "The Stilwell homestead shows how far Westfall has fallen from Stormwind's protection, leaving rural people to face the Defias alone."
+   "text": "The Stilwell homestead shows how far Westfall has fallen from Stormwind’s protection. Rural people are left to face the Defias alone."
   }
  ],
  "keywords": [
@@ -117,5 +117,5 @@
  "attribution": [
   "The Tome of Valor (3)"
  ],
- "style": 1
+ "style": 2
 }

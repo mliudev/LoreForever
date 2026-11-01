@@ -19,7 +19,7 @@
     "valennia stormfist",
     "where is valennia"
    ],
-   "answer": "Valennia Stormfist is a leader or strategist based in Valanaar. She has spent time developing a tactical plan to assault the shrine where the cult operates, though executing it requires bridging the divide between rival factions.",
+   "answer": "Valennia Stormfist is in Valanaar, where she has been planning an assault on the cult's shrine. The attack depends on cooperation between rival factions.",
    "q": "Who is Valennia Stormfist?"
   },
   {
@@ -28,7 +28,7 @@
     "lorthuna lore",
     "cult leader lorthuna"
    ],
-   "answer": "Lorthuna is a key figure within the hostile cult. She is currently orchestrating a critical scheme at the shrine, making her the primary target of the proposed preemptive strike.",
+   "answer": "Lorthuna is a key figure in the hostile cult. She is directing a critical scheme at the shrine, making her the target of the planned strike.",
    "q": "Who is Lorthuna?"
   },
   {
@@ -36,7 +36,7 @@
     "why attack shrine",
     "cult attack reason"
    ],
-   "answer": "Directly engaging the cult out in the open is deemed impossible or suicidal. Striking directly at their shrine offers the best strategic window to neutralize Lorthuna before her plot can come to fruition.",
+   "answer": "The cult cannot be safely confronted in the open. The plan is to strike at the shrine and stop Lorthuna before her scheme comes to fruition.",
    "q": "Why must the shrine be attacked directly?"
   },
   {
@@ -45,7 +45,7 @@
     "why are factions fighting",
     "windshaper dispute"
    ],
-   "answer": "Tensions are currently running high between the Windshapers and the High Order. Despite their friction, Valennia notes that neither faction can hope to pull off an assault on the shrine alone without the cooperation of both.",
+   "answer": "Tensions run high between the Windshapers and the High Order. Neither faction can carry out the assault on the shrine alone, so both must cooperate.",
    "q": "What is the issue between the Windshapers and the High Order?"
   },
   {
@@ -53,7 +53,7 @@
     "where is valanaar",
     "valanaar location"
    ],
-   "answer": "Valanaar serves as a staging ground where Valennia Stormfist is coordinating the strategy and rallying necessary allies for the upcoming strike against the cult's shrine.",
+   "answer": "Valanaar is where Valennia Stormfist is coordinating the plan and rallying allies for a strike against the cult's shrine.",
    "q": "Where is Valanaar?"
   },
   {
@@ -61,7 +61,7 @@
     "desperate times objective",
     "what is the plan desperate times"
    ],
-   "answer": "The objective is to seek out Valennia Stormfist in Valanaar, learn the operational details of her planned strike against the shrine, and help secure the necessary cooperation between divided factions.",
+   "answer": "The goal is to find Valennia Stormfist in Valanaar, learn the details of her planned strike, and help secure cooperation between the divided factions.",
    "q": "What is the overall goal of this mission?"
   }
  ],
@@ -80,18 +80,19 @@
  ],
  "sections": [
   {
-   "body": "Facing a cult that cannot be safely confronted in the open, the defenders must pivot to a bolder strategy. Rather than fighting a protracted battle on unfavorable ground, the plan calls for taking advantage of an opening to strike directly at the cult's shrine. By eliminating Lorthuna before she completes her role in their grand scheme, the threat can be crippled at its source.",
+   "body": "The cult cannot be safely faced in the open, so the defenders need a bolder plan. They will strike at the cult's shrine instead of fighting a long battle on unfavorable ground. If they eliminate Lorthuna before she completes her part in the cult's grand scheme, they can cripple the threat at its source.",
    "spoiler": 0,
    "title": "A Direct Strike"
   },
   {
-   "body": "In Valanaar, Valennia Stormfist has long been formulating an operational strategy to assault the shrine. However, the raid cannot succeed without substantial reinforcements and unified strength. Mounting an assault requires reconciling severe political friction, as lingering tensions between the Windshapers and the High Order threaten the alliance needed to carry out the attack.",
+   "body": "In Valanaar, Valennia Stormfist has spent time planning an assault on the shrine. The attack needs substantial reinforcements and strength united across the factions. Yet the Windshapers and the High Order remain divided by severe political tensions, putting their alliance at risk.",
    "spoiler": 0,
    "title": "Uniting Divided Factions"
   }
  ],
- "summary": "Desperate Times tasks players with reporting to Valennia Stormfist in Valanaar to plan a direct strike against a dangerous cult's shrine. Because confronting the cult in the open is unfeasible, taking down their leader Lorthuna at the shrine is critical, though doing so requires bridging deep tensions between the Windshapers and the High Order.",
+ "summary": "Valennia Stormfist waits in Valanaar with a plan to strike the cult at its shrine. Lorthuna must be stopped there, but the Windshapers and the High Order must first set aside their deep tensions.",
  "attribution": [
   "In-game quest text: Desperate Times"
- ]
+ ],
+ "style": 2
 }

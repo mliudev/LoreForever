@@ -23,16 +23,16 @@
    "Incoming Gumdrop (Alliance)"
   ]
  },
- "summary": "Jesper lies sick in Stormwind during Hallow's End, longing for the treats and fun beyond the orphanage. Too ill to go out, he asks Alliance adventurers to gather sweets for him.",
+ "summary": "During Hallow's End, Jesper lies sick in Stormwind and longs for treats and fun beyond the orphanage. Too ill to go out, he asks Alliance adventurers to gather sweets for him.",
  "sections": [
   {
    "title": "A Sheltered Child",
-   "body": "Jesper stays in the orphanage in Stormwind's Cathedral Square, sick during Hallow's End. He cannot enjoy the childhood pleasure of gathering sweets across Azeroth, so he hopes passing adventurers will share the holiday spirit and collect treats for him.",
+   "body": "Jesper lies sick in Stormwind's orphanage in Cathedral Square during Hallow's End. While the children gather sweets across Azeroth, he must stay inside. So he hopes passing adventurers will share the holiday spirit and bring him treats.",
    "spoiler": 0
   },
   {
    "title": "Tricks for Treats Across the Alliance",
-   "body": "To bring Jesper the sweets he hopes for, you travel beyond Elwynn Forest. You visit the innkeepers of Stormwind, Ironforge, and Darnassus, along with the gnome exile Talvash del Kissel. Each asks you to perform before giving you a treat. You cluck like a chicken, dance, flex, or chug like a train, earning regional sweets such as Stormwind Nougat and Gnomeregan Gumdrops.",
+   "body": "To bring Jesper the sweets he hopes for, you travel beyond Elwynn Forest. You visit the innkeepers of Stormwind, Ironforge, and Darnassus, then the gnome exile Talvash del Kissel. Each asks you to perform before giving you a treat. You cluck like a chicken, dance, flex, or chug like a train, and earn regional sweets such as Stormwind Nougat and Gnomeregan Gumdrops.",
    "spoiler": 0
   }
  ],
@@ -44,7 +44,7 @@
     "orphan jesper",
     "who is jesper"
    ],
-   "answer": "Jesper is a young orphan in the Stormwind orphanage. During Hallow's End, he longs for holiday candy but is too sick to gather it himself."
+   "answer": "Jesper is a young orphan in the Stormwind orphanage. Sick during Hallow's End, he longs for holiday candy but cannot gather it himself."
   },
   {
    "q": "Why can't Jesper go trick-or-treating himself?",
@@ -53,7 +53,7 @@
     "is jesper sick",
     "jesper trick or treat"
    ],
-   "answer": "Jesper is sick, so he must stay inside the orphanage while the rest of the city celebrates Hallow's End."
+   "answer": "Jesper is sick and must stay inside the orphanage while the rest of the city celebrates Hallow's End."
   },
   {
    "q": "Which treats does Jesper want?",
@@ -88,13 +88,13 @@
     "jesper reward",
     "treats for jesper completion"
    ],
-   "answer": "After receiving all four holiday candies, Jesper gives the traveler some pumpkin treats he has saved."
+   "answer": "After receiving all four holiday candies, Jesper gives you some pumpkin treats he has saved."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "For the Alliance, this holiday brings distant capitals together. You travel from Stormwind's grand streets to Ironforge's mountain halls and Darnassus's boughs to bring joy to an orphaned child."
+   "text": "For the Alliance, Hallow's End brings distant capitals together. You travel from Stormwind's grand streets to Ironforge's mountain halls and Darnassus's boughs to bring joy to an orphaned child."
   },
   {
    "target": "race:Gnome",
@@ -126,5 +126,5 @@
  "attribution": [
   "Hallow's End Treats for Jesper!"
  ],
- "style": 1
+ "style": 2
 }

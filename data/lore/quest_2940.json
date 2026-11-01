@@ -27,16 +27,16 @@
    "In Search of Knowledge"
   ]
  },
- "summary": "You find a book that looks as if nobody has opened it in ages, and it may be exactly what Troyas needs. It belongs to Daryn Lightwind, so you need to ask whether you may borrow it.",
+ "summary": "In Feralas, you find Feralas: A History, a book Troyas may need. It looks as if nobody has opened it in ages. The book belongs to Daryn Lightwind, so you need to ask whether you may borrow it.",
  "sections": [
   {
    "title": "A Neglected Book",
-   "body": "The book's covers are badly worn and its pages have yellowed. After looking it over, you suspect it may be what Troyas is searching for. You pick it up, then think better of borrowing it without asking. It is Daryn Lightwind's, so she should be asked first.",
+   "body": "The book's covers are badly worn, and its pages have yellowed. After looking it over, you suspect it may be what Troyas is searching for. You pick it up, then think better of borrowing it without asking. It belongs to Daryn Lightwind, so ask her first.",
    "spoiler": 0
   },
   {
    "title": "Daryn's Answer",
-   "body": "Daryn Lightwind takes a moment to think it over. She will let you borrow Feralas: A History, though only after you have done a favor for her.",
+   "body": "Daryn Lightwind takes a moment to consider your request. She will let you borrow Feralas: A History, but only after you have done her a favor.",
    "spoiler": 1
   }
  ],
@@ -48,7 +48,7 @@
     "feralas a history book",
     "troyas book"
    ],
-   "answer": "A book with worn covers and yellowed pages, which looks as if it has not been opened for ages. It may be exactly what Troyas is searching for."
+   "answer": "Feralas: A History has worn covers and yellowed pages. It looks as if nobody has opened it in ages, and may be exactly what Troyas is searching for."
   },
   {
    "q": "Who owns the book?",
@@ -57,7 +57,7 @@
     "who has the book",
     "who is daryn lightwind"
    ],
-   "answer": "Daryn Lightwind. You should ask her before borrowing it."
+   "answer": "Daryn Lightwind owns the book. Ask her before borrowing it."
   },
   {
    "q": "What comes before this?",
@@ -66,7 +66,7 @@
     "what was the last quest",
     "chain before this"
    ],
-   "answer": "It follows In Search of Knowledge, in which Troyas Moonbreeze sent you to talk to Daryn Lightwind about his stave."
+   "answer": "It comes after In Search of Knowledge, when Troyas Moonbreeze sent you to speak with Daryn Lightwind about his stave."
   }
  ],
  "angles": [],
@@ -86,5 +86,6 @@
  ],
  "attribution": [
   "Feralas: A History (quest)"
- ]
+ ],
+ "style": 2
 }

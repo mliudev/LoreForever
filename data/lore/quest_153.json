@@ -17,16 +17,16 @@
   "wiki": "Red Leather Bandanas",
   "chain": []
  },
- "summary": "At Sentinel Hill, Red Leather Bandanas mark the fight against the Defias Brotherhood. Scout Galiaan offers a reward for the red cloth masks worn by the outlaws, as the People's Militia struggles to track them across Westfall.",
+ "summary": "At Sentinel Hill, Red Leather Bandanas mark the Defias fight. Scout Galiaan seeks the red masks worn by outlaws as the People's Militia struggles to track them across Westfall.",
  "sections": [
   {
    "title": "A Mark of Allegiance",
-   "body": "Across Westfall, the red bandana marks the Defias Brotherhood. The gang draws cutpurses, looters, and traitors from many walks of life, but its members rally beneath the same crimson sign. Scout Galiaan and the People's Militia at Sentinel Hill collect the bandanas as proof that bandits have fallen. The cloth also helps them follow the Defias as their fronts shift across the countryside.",
+   "body": "Across Westfall, a red bandana marks the Defias Brotherhood. Cutpurses, looters, and traitors from many walks of life join the gang, then rally beneath the same crimson sign. At Sentinel Hill, Scout Galiaan and the People's Militia collect the cloth as proof that bandits have fallen. The bandanas also help them follow the Defias as its fronts shift across the countryside.",
    "spoiler": 0
   },
   {
    "title": "The Militia's Scouting Efforts",
-   "body": "Stormwind has denied Westfall proper military support, so the People's Militia depends on seasoned observers like Scout Galiaan to chart Defias activity. Galiaan watches outlaw patrols from Sentinel Hill. Passing adventurers and militia volunteers take on the dangerous work of bringing down the highwaymen who have driven honest farmers from their land.",
+   "body": "Stormwind has denied Westfall proper military support, leaving the People's Militia to chart Defias activity with seasoned observers like Scout Galiaan. From Sentinel Hill, Galiaan watches outlaw patrols and tracks their movements. Passing adventurers and militia volunteers take on the dangerous work of bringing down the highwaymen who drove honest farmers from their land.",
    "spoiler": 0
   }
  ],
@@ -55,7 +55,7 @@
     "why collect bandanas",
     "why militia bounty"
    ],
-   "answer": "The People's Militia is stretched thin, without royal soldiers or funding from Stormwind. Bounties give scouts like Galiaan proof of fallen bandits and let them weaken the Defias while keeping Sentinel Hill defended."
+   "answer": "The People's Militia is stretched thin, without royal soldiers or funding from Stormwind. Bounties give scouts like Galiaan proof of fallen bandits and help weaken the Defias while Sentinel Hill stays defended."
   },
   {
    "q": "Where are the bandits carrying these bandanas found?",
@@ -88,7 +88,7 @@
   },
   {
    "target": "class:Rogue",
-   "text": "As a rogue, you see how Defias highwaymen have joined together under their crimson masks into an army on Stormwind's doorstep."
+   "text": "As a rogue, you see how Defias highwaymen have joined beneath crimson masks to form an army on Stormwind's doorstep."
   }
  ],
  "keywords": [
@@ -108,5 +108,5 @@
  "attribution": [
   "Red Leather Bandanas"
  ],
- "style": 1
+ "style": 2
 }

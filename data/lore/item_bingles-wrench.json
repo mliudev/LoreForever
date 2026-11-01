@@ -10,11 +10,11 @@
    "quest:2038"
   ]
  },
- "summary": "Bingles' Wrench is missing, along with the pilot's other tools. Troggs took it after Bingles Blastenheimer crash-landed his flying machine into the Loch.",
+ "summary": "In the Loch, Bingles' Wrench is missing with the pilot's other tools. Troggs took it after Bingles Blastenheimer crash-landed his flying machine.",
  "sections": [
   {
    "title": "Salvage on the Islands",
-   "body": "Bingles Blastenheimer survived his gyrocopter's crash into the Loch, but survival quickly became an ordeal. Troggs on the small northern islands raided the crash site, taking his specialized supplies and scattering his tools among buckets in their camps. Bingles' Wrench is one of three critical hand tools, alongside his high-yield Blastencapper explosives. Without the wrench, Bingles cannot repair his downed gyrocopter, delaying his planned aerial offensive to aid the exiled gnomes fighting to reclaim Gnomeregan.",
+   "body": "Bingles Blastenheimer survived when his gyrocopter crashed into the Loch. Then the troggs raided the crash site on the small northern islands. They took his specialized supplies and scattered his tools among buckets in their camps.\n\nBingles' Wrench is one of three critical hand tools, alongside his high-yield Blastencapper explosives. Without the wrench, Bingles cannot repair his downed gyrocopter. His planned aerial offensive to aid the exiled gnomes fighting to reclaim Gnomeregan must wait.",
    "spoiler": 0
   }
  ],
@@ -89,5 +89,5 @@
   "Bingles' Wrench",
   "Bingles' Missing Supplies"
  ],
- "style": 1
+ "style": 2
 }

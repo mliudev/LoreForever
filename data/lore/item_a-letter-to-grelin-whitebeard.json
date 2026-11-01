@@ -10,11 +10,11 @@
    "quest:234"
   ]
  },
- "summary": "A letter from Ironforge reaches Grelin Whitebeard at his camp in Coldridge Valley. The dispatch carries news and instructions to the experienced dwarf on the snowy frontier.",
+ "summary": "A letter from Ironforge reaches Grelin Whitebeard at his camp in Coldridge Valley. Its news and instructions bring the mountain capital close to the snowy frontier.",
  "sections": [
   {
    "title": "A Dispatch from the Mountain",
-   "body": "Grelin Whitebeard receives word from Ironforge at his wilderness campsite. Coldridge Valley can feel far from the safety of Anvilmar, and letters connect scouts and scholars in the field with the halls of the mountain capital. This missive has traveled south along the mountain paths to reach him.",
+   "body": "Grelin Whitebeard receives a dispatch from Ironforge at his camp in Coldridge Valley. Anvilmar offers shelter, but the valley lies far from its safety. Letters link scouts and scholars in the field with the halls of the mountain capital. This one has come south along the mountain paths to reach him.",
    "spoiler": 0
   }
  ],
@@ -44,13 +44,13 @@
     "what does it say",
     "letter text"
    ],
-   "answer": "The letter is a short note from King Magni Bronzebeard. He has no time to spare and gives Grelin authority to deal with the trolls as he sees fit, especially if he can find a quick solution. Grelin welcomes the word, since it has been a while since he last heard from Ironforge."
+   "answer": "King Magni Bronzebeard sends Grelin a short note. With no time to spare, he gives Grelin authority to deal with the trolls as he sees fit, especially if Grelin can find a quick solution. Grelin welcomes the word; it has been a while since he last heard from Ironforge."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "As a dwarf, carrying dispatches across Dun Morogh's freezing passes is a basic duty for young mountaineers and recruits hoping to make a name for themselves."
+   "text": "As a dwarf, you may carry dispatches across Dun Morogh’s freezing passes. Young mountaineers and recruits do so as a basic duty, hoping to make a name for themselves."
   }
  ],
  "keywords": [
@@ -72,5 +72,5 @@
   "A Letter to Grelin Whitebeard",
   "Coldridge Valley Mail Delivery (2)"
  ],
- "style": 1
+ "style": 2
 }

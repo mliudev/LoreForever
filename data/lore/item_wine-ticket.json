@@ -10,11 +10,11 @@
    "quest:332"
   ]
  },
- "summary": "In Stormwind, Renato Gallina hands out Wine Tickets to bring customers to his family's shop. Present one to Suzetta Gallina for a complimentary bottle of Pinot Noir.",
+ "summary": "In Stormwind, Renato Gallina draws customers to his family's shop with Wine Tickets. Present one to Suzetta Gallina for a complimentary bottle of Pinot Noir.",
  "sections": [
   {
    "title": "Promoting the Family Vintage",
-   "body": "Renato Gallina promotes the Gallina Winery with printed tickets near Stormwind's Trade District. The winery is a boutique vintage shop along the nearby canals. Each ticket promises a complimentary sample of Pinot Noir, drawing curious passersby and newly arrived adventurers toward the family business in hopes they become loyal customers.",
+   "body": "Near Stormwind's Trade District, Renato Gallina hands out printed tickets to promote the Gallina Winery. The boutique vintage shop sits along the nearby canals. Each ticket offers a complimentary sample of Pinot Noir, drawing curious passersby and newly arrived adventurers to the family business in hope they become loyal customers.",
    "spoiler": 0
   }
  ],
@@ -34,7 +34,7 @@
     "who gives wine ticket",
     "where to get wine ticket"
    ],
-   "answer": "Renato Gallina hands out the tickets near the Trade District, drawing prospective customers to his family's wine shop."
+   "answer": "Renato Gallina hands out Wine Tickets near the Trade District to draw customers to his family's wine shop."
   },
   {
    "q": "What kind of wine does the ticket reward?",
@@ -42,13 +42,13 @@
     "wine ticket reward",
     "what wine do i get"
    ],
-   "answer": "The ticket can be redeemed for a bottle of Pinot Noir, one of the finest wines the Gallina family sells in the kingdom."
+   "answer": "Present the ticket for a bottle of Pinot Noir, one of the finest wines the Gallina family sells in the kingdom."
   }
  ],
  "angles": [
   {
    "target": "profession:Cooking",
-   "text": "A bottle of Pinot Noir from this ticket pairs well with hearty meats and cheeses gathered throughout the Eastern Kingdoms."
+   "text": "The Pinot Noir from this ticket pairs well with hearty meats and cheeses gathered throughout the Eastern Kingdoms."
   }
  ],
  "keywords": [
@@ -71,5 +71,5 @@
   "Wine Ticket",
   "Wine Shop Advert"
  ],
- "style": 1
+ "style": 2
 }

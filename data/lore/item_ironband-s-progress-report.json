@@ -11,11 +11,11 @@
    "quest:301"
   ]
  },
- "summary": "In eastern Loch Modan, troggs keep Prospector Ironband's excavation from advancing. His report asks for more blastpowder after earlier supplies were sent weeks ago.",
+ "summary": "In eastern Loch Modan, troggs have brought Prospector Ironband's excavation to a halt. His report asks for more blastpowder, though the Explorers' League sent supplies weeks ago.",
  "sections": [
   {
    "title": "A Plea for Gunpowder",
-   "body": "Prospector Ironband's digging in Loch Modan is repeatedly disrupted by nearby troggs. His progress report, carried to Jern Hornhelm in Thelsamar and then sent on to the Explorers' League in Ironforge, describes the stalled work and asks for heavy munitions. League leaders already sent Ironband plenty of blastpowder weeks ago, and now wonder where those shipments went.",
+   "body": "Jern Hornhelm receives the dispatch in Thelsamar and forwards it to the Explorers' League in Ironforge. Ironband reports that work has stalled and asks for heavy munitions. The League leaders are baffled. They sent him plenty of blastpowder weeks ago, and now wonder where it went.",
    "spoiler": 0
   }
  ],
@@ -53,7 +53,7 @@
     "stormpike reaction",
     "is stormpike mad"
    ],
-   "answer": "Prospector Stormpike is furious at the slow progress and baffled that Ironband does not mention the large shipment sent earlier. He wonders where the missing blastpowder went."
+   "answer": "Prospector Stormpike is furious that work has advanced so slowly. He is baffled that Ironband does not mention the large shipment sent earlier, and wonders where the missing blastpowder went."
   }
  ],
  "angles": [
@@ -63,7 +63,7 @@
   },
   {
    "target": "profession:Mining",
-   "text": "As a miner, you know blastpowder can clear stubborn rock, and how dangerous it is when supplies go missing in trogg territory."
+   "text": "As a miner, you know blastpowder can clear stubborn rock. You also know how dangerous it is when supplies go missing in trogg territory."
   }
  ],
  "keywords": [
@@ -91,5 +91,5 @@
   "Excavation Progress Report",
   "Report to Ironforge"
  ],
- "style": 1
+ "style": 2
 }

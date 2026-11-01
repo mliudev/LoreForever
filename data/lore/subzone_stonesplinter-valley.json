@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Stonesplinter Valley"
  },
- "summary": "Stonesplinter troggs have fortified a mountain vale in southwestern Loch Modan. Their chieftain, Grawmug, leads the tribe from the valley.",
+ "summary": "In southwestern Loch Modan, Stonesplinter troggs hold a mountain vale behind crude defenses. Their chieftain, Grawmug, leads the tribe from within.",
  "sections": [
   {
    "title": "A Chittering Stronghold",
-   "body": "Stonesplinter Valley lies among the crags of southwestern Loch Modan. Troggs clawed up from underground across Khaz Modan, ending the quiet that once filled the hollow. The Stonesplinter tribe claimed the valley and carved crude defenses into its rocky passes, digging dens and raising barricades. They hunt anything that comes too close. Their numbers threaten the roads through southern Loch Modan, and Mountaineers from Thelsamar hire mercenaries to thin their ranks and bring down Grawmug, the towering warlord who leads them.",
+   "body": "Among the crags of southwestern Loch Modan, Stonesplinter troggs have made their stronghold. Troggs clawed up from underground across Khaz Modan and ended the quiet that once filled this hollow. The Stonesplinter tribe claimed the valley and carved crude defenses into its rocky passes.\n\nThey dug dens and raised barricades, and now hunt anything that comes too close. Their numbers threaten the roads through southern Loch Modan. So Mountaineers from Thelsamar hire mercenaries to thin the tribe and bring down Grawmug, its towering warlord.",
    "spoiler": 0
   }
  ],
@@ -32,7 +32,7 @@
     "grawmug",
     "trogg boss loch modan"
    ],
-   "answer": "Grawmug rules the encampment as its brutish trogg chieftain. He directs raids on local travelers and patrols from the deepest part of the valley."
+   "answer": "Grawmug rules the encampment as its brutish trogg chieftain. From the deepest part of the valley, he directs raids on local travelers and patrols."
   },
   {
    "q": "Why are the troggs here in Loch Modan?",
@@ -41,7 +41,7 @@
     "where did the troggs come from",
     "trogg origin loch modan"
    ],
-   "answer": "Dwarven excavations elsewhere in Khaz Modan unearthed troggs from deep underground. Driven by senseless aggression, separate warbands came to the surface, and the Stonesplinter tribe chose this secluded vale as its main staging ground."
+   "answer": "Dwarven excavations elsewhere in Khaz Modan unearthed troggs from deep underground. Driven by senseless aggression, separate warbands came to the surface. The Stonesplinter tribe chose this secluded vale as its main staging ground."
   },
   {
    "q": "Why do the dwarves care about clearing the valley?",
@@ -49,7 +49,7 @@
     "why fight stonesplinter troggs",
     "thelsamar trogg problem"
    ],
-   "answer": "The valley lies dangerously close to dwarf settlements, mines, and mountain roads. If the entrenched Stonesplinter troggs go unchecked, travelers in southern Loch Modan face danger and Mountaineer patrols face added strain."
+   "answer": "Stonesplinter Valley lies dangerously close to dwarf settlements, mines, and mountain roads. If the entrenched troggs go unchecked, travelers in southern Loch Modan face danger, and Mountaineer patrols face added strain."
   }
  ],
  "angles": [
@@ -59,7 +59,7 @@
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance member, you can help secure Loch Modan's supply routes, now vulnerable while Ironforge forces are stretched thin across the realm."
+   "text": "As an Alliance member, you can help secure Loch Modan's supply routes. They are vulnerable while Ironforge forces are stretched thin across the realm."
   }
  ],
  "keywords": [
@@ -77,5 +77,5 @@
  "attribution": [
   "Stonesplinter Valley"
  ],
- "style": 1
+ "style": 2
 }

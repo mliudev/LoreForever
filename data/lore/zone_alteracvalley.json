@@ -12,21 +12,21 @@
   "levels": "",
   "aliases": []
  },
- "summary": "Hidden within the Alterac Mountains, Alterac Valley is the home of Thrall's own clan, the Frostwolves, and now a frozen battlefield. Dwarves of the Stormpike expedition have dug into the valley in search of riches and links to their ancestral past, and the Frostwolves, unwilling to suffer the intrusion, have rallied an army to drive them out. Each side fights through the other's towers and graveyards to reach the enemy's general: Vanndar Stormpike in Dun Baldar or Drek'Thar in Frostwolf Keep.",
+ "summary": "In Alterac Valley, the Frostwolves and Stormpike dwarves fight for control of the snow. The dwarves seek riches and relics they believe link them to their ancestors, while the Frostwolves fight to drive them out. Each side presses through towers and graveyards toward the other's general: Vanndar Stormpike in Dun Baldar or Drek'Thar in Frostwolf Keep.",
  "sections": [
   {
    "title": "Home of the Frostwolves",
-   "body": "When Gul'dan exiled Durotan's Frostwolf clan for defying him, the orcs found refuge in this cold valley and made it their home. Long afterward, young Thrall found his father's people here and learned the ways of the shaman from the elder Drek'Thar. Thrall now leads the Horde in Kalimdor, but many Frostwolves stayed in the valley under Drek'Thar's guidance, and they guard it as fiercely as any homeland.",
+   "body": "Gul'dan exiled Durotan's Frostwolf clan for defying him, and the orcs found refuge in this cold valley. They made it their home. Long afterward, young Thrall found his father's people here and learned shaman ways from Drek'Thar, the elder.\n\nThrall now leads the Horde in Kalimdor. Many Frostwolves remain in the valley under Drek'Thar's guidance, guarding their homeland fiercely.",
    "spoiler": 0
   },
   {
    "title": "The Stormpike Expedition",
-   "body": "The Stormpike Guard is an expedition of Ironforge dwarves led by Vanndar Stormpike from the northern fortress of Dun Baldar. They came to the valley for its mines and for relics they believe tie them to their ancestors, and they have dug in with bunkers, towers and stubborn pride. To the Frostwolves they are invaders; to the dwarves, the valley's secrets are theirs by right of discovery.",
+   "body": "Led by Vanndar Stormpike, the Stormpike Guard is an expedition of Ironforge dwarves based at the northern fortress of Dun Baldar. They came for the valley's mines and for relics they believe link them to their ancestors.\n\nThey have dug in with bunkers and towers, holding fast with stubborn pride. The Frostwolves call them invaders; the dwarves claim the valley's secrets by right of discovery.",
    "spoiler": 0
   },
   {
    "title": "War in the Snow",
-   "body": "The battle for Alterac Valley is the largest of these wars, an army against an army. Fighters storm towers and bunkers, seize graveyards, and claim the valley's mines for their side. The fight ends when one side breaks through to the enemy's general and brings them down: Vanndar Stormpike in Dun Baldar for the Horde, or Drek'Thar in Frostwolf Keep for the Alliance.",
+   "body": "The battle for Alterac Valley pits one army against another. Fighters storm towers and bunkers, seize graveyards, and claim the valley's mines for their side.\n\nEach side must break through to the enemy general and bring them down. The Horde faces Vanndar Stormpike in Dun Baldar; the Alliance faces Drek'Thar in Frostwolf Keep.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "alterac valley battleground",
     "av"
    ],
-   "answer": "Alterac Valley is a battleground hidden in the Alterac Mountains, home of the Frostwolf orcs. The Frostwolf clan and the dwarves of the Stormpike Guard fight there in a full-scale war, each trying to reach and defeat the other's general."
+   "answer": "Alterac Valley lies hidden in the Alterac Mountains, and the Frostwolf orcs call it home. The Frostwolf clan and the Stormpike dwarves fight a full-scale war there, each seeking to defeat the other's general."
   },
   {
    "q": "Why do the Frostwolves fight in Alterac Valley?",
@@ -47,7 +47,7 @@
     "horde stakes alterac valley",
     "why does the horde fight in alterac valley"
    ],
-   "answer": "The valley is the Frostwolves' home, where Durotan's clan settled in exile and where Thrall found his people. They will not suffer the Stormpike dwarves digging into it, and the Horde fights at their side to drive the expedition out."
+   "answer": "The valley is the Frostwolves' home, where Durotan's clan settled in exile and where Thrall found his people. They will not let the Stormpike dwarves dig there, and the Horde fights beside them to drive the expedition out."
   },
   {
    "q": "Why are the Stormpike dwarves in Alterac Valley?",
@@ -56,7 +56,7 @@
     "alliance stakes alterac valley",
     "stormpike expedition"
    ],
-   "answer": "The Stormpike expedition came from Ironforge to mine the valley's riches and search for relics of their ancestral past. Led by Vanndar Stormpike from Dun Baldar, they refuse to give up their claim, and the Alliance fights beside them."
+   "answer": "The Stormpike expedition came from Ironforge to mine the valley's riches and seek relics they believe link them to their ancestors. Led by Vanndar Stormpike from Dun Baldar, they hold to their claim, with the Alliance fighting beside them."
   },
   {
    "q": "Who is Drek'Thar?",
@@ -65,7 +65,7 @@
     "frostwolf general",
     "frostwolf elder shaman"
    ],
-   "answer": "Drek'Thar is the elder shaman of the Frostwolf clan, the mentor who taught young Thrall the ways of the shaman. He commands the Frostwolves from Frostwolf Keep, and the Alliance must defeat him to win the battle."
+   "answer": "Drek'Thar is the elder shaman of the Frostwolf clan, and he taught young Thrall the ways of the shaman. He commands the Frostwolves from Frostwolf Keep, and the Alliance must defeat him to win the battle."
   },
   {
    "q": "Who is Vanndar Stormpike?",
@@ -74,7 +74,7 @@
     "stormpike general",
     "dun baldar"
    ],
-   "answer": "Vanndar Stormpike is the dwarf commander of the Stormpike Guard. He leads the expedition from the fortress of Dun Baldar, and the Horde must defeat him to win the battle."
+   "answer": "Vanndar Stormpike is a dwarf and commander of the Stormpike Guard. He leads the expedition from Dun Baldar, and the Horde must defeat him to win the battle."
   },
   {
    "q": "How is the battle in Alterac Valley won?",
@@ -83,13 +83,13 @@
     "how to win alterac valley",
     "alterac valley generals"
    ],
-   "answer": "Each army fights through the other's towers, bunkers and graveyards toward its stronghold. The battle ends when one side defeats the enemy's general: Vanndar Stormpike in Dun Baldar or Drek'Thar in Frostwolf Keep."
+   "answer": "Each army fights through the other's towers, bunkers, and graveyards toward its stronghold. The battle ends when one side defeats the enemy's general: Vanndar Stormpike in Dun Baldar or Drek'Thar in Frostwolf Keep."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "This is the Warchief's own homeland. Every Horde fighter in the valley defends the snows where Thrall found his people."
+   "text": "The snows of Alterac Valley are the Warchief's own homeland. Every Horde fighter there defends the place where Thrall found his people."
   },
   {
    "target": "faction:Alliance",
@@ -97,11 +97,11 @@
   },
   {
    "target": "race:Orc",
-   "text": "The Frostwolves are Durotan's clan and Thrall's blood. For an orc, defending their valley is defending the heart of the new Horde."
+   "text": "The Frostwolves are Durotan's clan and Thrall's blood. For an orc, defending their valley means defending the heart of the new Horde."
   },
   {
    "target": "race:Dwarf",
-   "text": "Stormpike dwarves see the valley's relics as a link to their ancestors, and no clan of orcs will turn them out of their diggings."
+   "text": "Stormpike dwarves see the valley's relics as a link to their ancestors. No clan of orcs will drive them from their diggings."
   }
  ],
  "keywords": [
@@ -129,5 +129,6 @@
  "attribution": [
   "Vanndar Stormpike",
   "Frostwolf clan"
- ]
+ ],
+ "style": 2
 }

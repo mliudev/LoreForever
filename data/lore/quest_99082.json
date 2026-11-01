@@ -11,11 +11,11 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "Cairne Bloodhoof's son sends you to Thunder Bluff to ask his father for an audience. Your defense of your people has earned recognition.",
+ "summary": "Cairne Bloodhoof’s son sends you to Thunder Bluff to seek his father’s audience. Your defense of your people has earned recognition.",
  "sections": [
   {
-   "title": "A Chieftain\u2019s Deed",
-   "body": "Cairne Bloodhoof led the effort to reclaim these plains from the centaurs alongside the young Warchief Thrall. As High Chieftain, he can recognize your part in defending your people.",
+   "title": "A Chieftain’s Deed",
+   "body": "Cairne Bloodhoof and the young Warchief Thrall led the effort to reclaim these plains from the centaurs. As High Chieftain, Cairne can recognize your part in defending your people.",
    "spoiler": 0
   }
  ],
@@ -27,7 +27,7 @@
     "cairne audience",
     "meet cairne"
    ],
-   "answer": "You are asked to seek an audience with Cairne Bloodhoof, the High Chieftain of Thunder Bluff."
+   "answer": "You are being sent to seek an audience with Cairne Bloodhoof, the High Chieftain of Thunder Bluff."
   },
   {
    "q": "Why am I going to Thunder Bluff?",
@@ -36,7 +36,7 @@
     "what does cairne want",
     "cairne meeting"
    ],
-   "answer": "Your courage in defending your people has earned recognition, and you are asked to seek an audience with Cairne Bloodhoof."
+   "answer": "Your courage in defending your people has earned recognition. So you are asked to seek an audience with Cairne Bloodhoof."
   },
   {
    "q": "Who helped reclaim the plains?",
@@ -54,13 +54,13 @@
     "cairne location",
     "find cairne"
    ],
-   "answer": "Cairne Bloodhoof is in Thunder Bluff, on the central rise."
+   "answer": "Cairne Bloodhoof is on Thunder Bluff’s central rise."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "As a tauren, you are sent to Cairne Bloodhoof after defending your people. He led the effort to reclaim the plains alongside Thrall."
+   "text": "As a tauren, you are sent to Cairne Bloodhoof after defending your people. He and Thrall led the effort to reclaim the plains."
   }
  ],
  "keywords": [
@@ -77,7 +77,7 @@
   "npc:cairne-bloodhoof",
   "npc:thrall"
  ],
- "style": 1,
+ "style": 2,
  "attribution": [
   "In-game quest text: The High Chieftain"
  ]

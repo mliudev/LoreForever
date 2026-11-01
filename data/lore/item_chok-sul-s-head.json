@@ -10,11 +10,11 @@
    "quest:256"
   ]
  },
- "summary": "In Thelsamar, Chok'sul's Head proves the Mo'grosh chieftain is dead. Magistrate Bluntnose requires it before paying the bounty set by local dwarven authorities.",
+ "summary": "In Thelsamar, Chok'sul's death is proved by the head Magistrate Bluntnose demands. The local dwarven authorities set a bounty, and he requires this proof before paying it.",
  "sections": [
   {
    "title": "Proof of the Chieftain's Fall",
-   "body": "Ogres from Mo'grosh Stronghold threaten Loch Modan's settlements. They attack Thelsamar, excavation sites, and the Stonewrought Dam. Magistrate Bluntnose placed a bounty on Chok'sul, the brute believed to direct these assaults. The northeastern hills are in turmoil, so the magistrate demands clear proof before releasing township funds. Chok'sul's severed head gives the dwarven council the certainty it needs to mark the bounty fulfilled.",
+   "body": "Ogres from Mo'grosh Stronghold threaten Loch Modan's settlements. They strike Thelsamar, excavation sites, and the Stonewrought Dam. Magistrate Bluntnose placed a bounty on Chok'sul, the brute believed to direct these attacks.\n\nThe northeastern hills are in turmoil, so the magistrate demands proof before releasing township funds. Chok'sul's severed head gives the dwarven council the certainty it needs to mark the bounty fulfilled.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "choksul lore",
     "chok'sul identity"
    ],
-   "answer": "Chok'sul was an ogre chieftain at Mo'grosh Stronghold in northeastern Loch Modan. Dwarven officials believe he directed raids against Thelsamar, the Stonewrought Dam, and nearby excavation sites."
+   "answer": "Chok'sul was an ogre chieftain at Mo'grosh Stronghold in northeastern Loch Modan. Dwarven officials believe he directed raids on Thelsamar, the Stonewrought Dam, and nearby excavation sites."
   },
   {
    "q": "Why does Magistrate Bluntnose want the head?",
@@ -35,7 +35,7 @@
     "choksul head purpose",
     "who wants choksuls head"
    ],
-   "answer": "Magistrate Bluntnose set a public bounty for Chok'sul's death by any means. Ogre raids have strained the region, so the magistrate requires clear proof of the chieftain's death before paying from Thelsamar's coffers."
+   "answer": "Magistrate Bluntnose set a public bounty for Chok'sul's death by any means. Ogre raids have strained the region, so he requires clear proof of the chieftain's death before paying from Thelsamar's coffers."
   },
   {
    "q": "Where did Chok'sul operate?",
@@ -83,5 +83,5 @@
   "Chok'sul's Head",
   "WANTED: Chok'sul"
  ],
- "style": 1
+ "style": 2
 }

@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Forlorn Cavern"
  },
- "summary": "Along Ironforge's northern underground lake, the Forlorn Cavern shelters those who keep to the shadows. Thieves, cutpurses, and practitioners of the dark arts conduct business there, far from the Great Forge and prying dwarven guards.",
+ "summary": "In Ironforge's northern depths, the Forlorn Cavern shelters those who keep to the shadows. Thieves, cutpurses, and practitioners of the dark arts conduct business there, far from the Great Forge and the dwarven guards.",
  "sections": [
   {
    "title": "Ironforge's Shaded Corner",
-   "body": "The Forlorn Cavern is cold, damp, and hushed beneath Ironforge's clang of anvils and the Great Forge's heat. Its winding paths follow the northern edge of the underground lake, out of sight between the Mystic Ward and the Hall of Explorers. Rogues and warlocks train there, and vendors serve them. Weapon merchants and fishermen work beside the lake as well.",
+   "body": "Cold and damp, the Forlorn Cavern lies beneath Ironforge's clang of anvils and the Great Forge's heat. Its winding paths follow the northern edge of the underground lake, hidden between the Mystic Ward and the Hall of Explorers. Rogues and warlocks train there, and vendors serve them. Weapon merchants and fishermen work beside the lake as well.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "how to get to forlorn cavern",
     "where is forlorn cavern"
    ],
-   "answer": "The cavern lies in northern Ironforge, along the subterranean lake. Enter from the Mystic Ward to the east, or follow the tunnel west from the Hall of Explorers."
+   "answer": "The cavern lies in northern Ironforge, along the underground lake. Enter from the Mystic Ward to the east, or follow the tunnel west from the Hall of Explorers."
   },
   {
    "q": "Why do rogues and warlocks gather here?",
@@ -32,7 +32,7 @@
     "why rogues in forlorn cavern",
     "shady district ironforge"
    ],
-   "answer": "The cavern's natural darkness and seclusion make it a discreet meeting place. Rogue and warlock trainers, along with merchants who serve both groups, can be found there."
+   "answer": "The cavern's natural darkness and seclusion make it a discreet meeting place. Rogue and warlock trainers and merchants who serve both groups can be found there."
   },
   {
    "q": "What shops and services can be found in the Forlorn Cavern?",
@@ -71,5 +71,5 @@
  "attribution": [
   "Forlorn Cavern"
  ],
- "style": 1
+ "style": 2
 }

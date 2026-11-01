@@ -16,17 +16,17 @@
  "sections": [
   {
    "title": "A Land Left Behind",
-   "body": "Westfall once fed the Kingdom of Stormwind with its pastures and wheat fields. After the Second War, the kingdom's finances ran thin and its leaders neglected the territory. Stormwind sent resources elsewhere and let its garrisons go, leaving the land fallow. Now barren pastures, harsh coastal winds, rogue harvest golems, and Riverpaw gnolls make survival hard for the few homesteaders who remain.",
+   "body": "Westfall's pastures and wheat fields once fed the Kingdom of Stormwind. After the Second War, the kingdom's finances ran thin, and its leaders neglected the territory. Stormwind sent resources elsewhere and let its garrisons go. The land fell fallow.\n\nNow barren pastures, harsh coastal winds, rogue harvest golems, and Riverpaw gnolls make survival hard for the few homesteaders who remain.",
    "spoiler": 0
   },
   {
    "title": "The Rise of the Brotherhood",
-   "body": "The Defias Brotherhood's arrival hastened Westfall's collapse. The bandits wear red masks and follow a leader whose name no one in the countryside knows. They made Westfall their stronghold, burning farmers' fields, salting the soil, and taking abandoned mines. From Moonbrook, a ghost town, the Brotherhood rules most of the countryside in all but name.",
+   "body": "The Defias Brotherhood's arrival hastened Westfall's collapse. The bandits wear red masks and follow a leader whose name no one in the countryside knows. They made Westfall their stronghold, burning farmers' fields, salting the soil, and taking abandoned mines.\n\nFrom Moonbrook, a ghost town, the Brotherhood rules most of the countryside in all but name.",
    "spoiler": 0
   },
   {
    "title": "The People's Militia",
-   "body": "The House of Nobles has ignored Westfall's plight, so local people have taken up their own defense. At Sentinel Hill, Gryan Stoutmantle formed the People's Militia, a volunteer force holding the line against gnolls and bandits. Stormwind sends no formal soldiers or supplies. The Militia depends on wandering adventurers to push back the Defias and protect the farms that remain.",
+   "body": "The House of Nobles has ignored Westfall's plight, so local people have taken up their own defense. At Sentinel Hill, Gryan Stoutmantle formed the People's Militia, a volunteer force holding the line against gnolls and bandits. Stormwind sends no formal soldiers or supplies.\n\nThe Militia depends on wandering adventurers to push back the Defias and protect the farms that remain.",
    "spoiler": 0
   },
   {
@@ -36,7 +36,7 @@
   },
   {
    "title": "The Deadmines Conspiracy",
-   "body": "Beneath Moonbrook, Edwin VanCleef has gathered cutthroats, goblins, and renegades in the abandoned gold shafts of the Deadmines. The Brotherhood is building a massive ironclad juggernaut there, meant to sail up the coast and bombard Stormwind City.",
+   "body": "Beneath Moonbrook, Edwin VanCleef has gathered cutthroats, goblins, and renegades in the abandoned gold shafts of the Deadmines. The Brotherhood is building a massive ironclad juggernaut there. It is meant to sail up the coast and bombard Stormwind City.",
    "spoiler": 1
   }
  ],
@@ -140,5 +140,5 @@
   "Westfall (Classic)",
   "Westfall"
  ],
- "style": 1
+ "style": 2
 }

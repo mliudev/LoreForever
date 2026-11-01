@@ -14,7 +14,7 @@
  "angles": [
   {
    "target": "class:Shaman",
-   "text": "For those who commune with elemental forces, the departure of the natural wind spirits and the arrival of empty hollows signals a deep disturbance in the local balance of air."
+   "text": "For those who commune with the elements, the natural wind spirits' departure and the hollows' arrival point to a deep disturbance in the local balance of air."
   }
  ],
  "faq": [
@@ -24,7 +24,7 @@
     "windshaper faction",
     "what do windshapers want"
    ],
-   "answer": "The Windshapers are an order dedicated to understanding why the spirits of the wind abandoned them and discovering what can be done to bring those spirits back. Their investigations center on strange phenomena that emerged immediately after the spirits disappeared.",
+   "answer": "The Windshapers are an order seeking to learn why the spirits of the wind abandoned them and how to bring them back. Their inquiries now focus on strange occurrences that began after the spirits disappeared.",
    "q": "Who are the Windshapers?"
   },
   {
@@ -33,7 +33,7 @@
     "wind hollow lore",
     "hollow sprites"
    ],
-   "answer": "Hollows are a peculiar form of wind sprite that manifested in Shadowgale Forest only after the original wind spirits departed. Little is currently known about their origins or true nature, prompting scholars to gather their essences for further study.",
+   "answer": "Hollows are strange wind sprites that appeared in Shadowgale Forest after the original wind spirits departed. Their origins and nature remain unknown, so scholars gather their essences for study.",
    "q": "What are the hollows?"
   },
   {
@@ -41,7 +41,7 @@
     "where is shadowgale forest",
     "shadowgale location"
    ],
-   "answer": "Shadowgale Forest lies to the north. It is the region where the strange wind hollows have appeared in force, taking up residence following the withdrawal of the area's elemental spirits.",
+   "answer": "Shadowgale Forest lies to the north. Strange wind hollows have appeared there since the area's elemental spirits departed.",
    "q": "Where is Shadowgale Forest?"
   },
   {
@@ -49,7 +49,7 @@
     "why did wind spirits leave",
     "where did the spirits go"
    ],
-   "answer": "The exact reason the spirits of the wind vanished remains unknown. Uncovering the cause of their departure and finding a way to restore communion with them is the central purpose behind the Windshapers' research.",
+   "answer": "No one knows why the spirits of the wind vanished. The Windshapers seek the cause and hope to restore communion with them.",
    "q": "Why did the wind spirits leave?"
   },
   {
@@ -57,7 +57,7 @@
     "why collect hollow essences",
     "wind hollow essence purpose"
    ],
-   "answer": "Wind Hollow Essences are collected from dispersed hollows so the Windshapers can examine their remains. By studying the physical essence left behind, they hope to discern what brought these beings into existence in the wake of the departed spirits.",
+   "answer": "The Windshapers gather essences from dispersed hollows for study. They hope these remains will reveal what brought the beings into existence after the spirits departed.",
    "q": "Why are Wind Hollow Essences being gathered?"
   },
   {
@@ -65,7 +65,7 @@
     "are hollows dangerous",
     "hollow sprite threat"
    ],
-   "answer": "While little is definitively understood about them, hollows are viewed as unwelcome intruders that appeared in the absence of the natural spirits. Their proliferation in Shadowgale Forest requires dispersal to protect the region and secure specimens.",
+   "answer": "The hollows are unwelcome intruders that appeared when the natural spirits were gone. Their spread through Shadowgale Forest calls for dispersal so the region is protected and specimens can be gathered.",
    "q": "Are the hollows considered hostile?"
   }
  ],
@@ -84,18 +84,19 @@
  ],
  "sections": [
   {
-   "body": "The Windshapers are consumed by a single, critical mystery: the sudden departure of the spirits of the wind. With communion severed, the order focuses all its efforts on discovering why the natural wind spirits abandoned them and determining what rituals or actions might entice them to return. In their absence, a void has been left in the local elemental atmosphere.",
+   "body": "The Windshapers have lost communion with the spirits of the wind. They seek to learn why the spirits left and what might bring them back. Their departure has left a void in the local elemental atmosphere.",
    "spoiler": 0,
    "title": "The Vanished Spirits"
   },
   {
-   "body": "Following the departure of the wind spirits, an unsettling new presence emerged to the north in Shadowgale Forest. Observers began sighting strange wind sprites commonly referred to as hollows. Unknown to the Windshapers prior to the spirits' exodus, these beings seem closely tied to the sudden absence of the true air spirits. Dispersing them and retrieving their lingering essences offers the best chance of unraveling their nature.",
+   "body": "After the wind spirits departed, strange sprites called hollows appeared in Shadowgale Forest to the north. The Windshapers had not known of them before the spirits vanished. The hollows seem tied to the spirits’ absence, and their essences may help reveal what they are.",
    "spoiler": 0,
    "title": "Shadows in Shadowgale"
   }
  ],
- "summary": "Unwelcome Spirits is a task undertaken for the Windshapers to investigate the unsettling arrival of wind sprites known as 'hollows' in Shadowgale Forest. These strange entities only manifested after the true spirits of the wind departed, prompting the Windshapers to collect their essences to understand what drove the original spirits away.",
+ "summary": "The Windshapers seek the spirits of the wind, gone from their reach. Now hollows appear in Shadowgale Forest, and the order gathers their essences to learn what drove the true spirits away.",
  "attribution": [
   "In-game quest text: Unwelcome Spirits"
- ]
+ ],
+ "style": 2
 }

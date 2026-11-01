@@ -11,11 +11,11 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "Quel'ana Quickgale asks you to tame a galestrider in the Gustberry Lowlands. Your skill on open ground will prepare you for trials ahead.",
+ "summary": "In the Gustberry Lowlands, Quel'ana Quickgale asks you to tame a galestrider. Your skill on open ground will prepare you for trials ahead.",
  "sections": [
   {
    "title": "Across the Plains",
-   "body": "You've already shown you can tame the river's crawler. Quel'ana Quickgale now gives you a Taming Rod and asks you to seek a galestrider in the lowlands of Zephras. The proud, winged creature runs swiftly across the plains. Earn its trust, practice your skill, and bring the rod back to Quel'ana in Valanaar.",
+   "body": "You've already shown you can tame the river's crawler. Now Quel'ana Quickgale gives you a Taming Rod and sends you to the lowlands of Zephras. There, a proud, winged galestrider runs swiftly across the plains. Earn its trust and practice your skill. Then bring the rod back to Quel'ana in Valanaar.",
    "spoiler": 0
   }
  ],
@@ -36,7 +36,7 @@
     "galestrider location",
     "lowlands where"
    ],
-   "answer": "The Ornery Galestrider is in the Gustberry Lowlands, in the plains of Zephras."
+   "answer": "You can find the Ornery Galestrider in the Gustberry Lowlands, in the plains of Zephras."
   },
   {
    "q": "What is the Taming Rod for?",
@@ -45,7 +45,7 @@
     "rod for what",
     "how tame beast"
    ],
-   "answer": "Quel'ana gives you the Taming Rod to tame an Ornery Galestrider."
+   "answer": "Quel'ana gives you the Taming Rod so you can tame an Ornery Galestrider."
   },
   {
    "q": "Who gave me this assignment?",
@@ -54,7 +54,7 @@
     "quelana who",
     "quickgale"
    ],
-   "answer": "Quel'ana Quickgale in Valanaar asks you to tame an Ornery Galestrider and return the Taming Rod."
+   "answer": "Quel'ana Quickgale in Valanaar asks you to tame an Ornery Galestrider and bring back the Taming Rod."
   }
  ],
  "angles": [],
@@ -71,7 +71,7 @@
  "related": [
   "item:taming-rod"
  ],
- "style": 1,
+ "style": 2,
  "attribution": [
   "In-game quest text: Taming the Beast"
  ]

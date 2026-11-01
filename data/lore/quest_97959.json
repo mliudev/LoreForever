@@ -11,11 +11,11 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "You learn to make a Lodestone for a wilderness camp. A campfire is also needed before you can start your camp.",
+ "summary": "You can now make a Lodestone and prepare to camp in the wilderness.",
  "sections": [
   {
    "title": "A Place to Camp",
-   "body": "You can now craft your own Lodestone. To try it out, head into the wilderness; most folk do not want camps set up in the center of town. You will also need a campfire before starting your camp. A cook can teach you how to make one.",
+   "body": "You can now craft your own Lodestone. Try it in the wilderness, where folk are less likely to mind a camp. Before you start, you will also need a campfire. A cook can teach you how to make one.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "lodestone recipe",
     "make lodestone"
    ],
-   "answer": "You can now craft your own Lodestone."
+   "answer": "From now on you can craft a Lodestone yourself."
   },
   {
    "q": "Where should I try the Lodestone?",
@@ -34,7 +34,7 @@
     "where to camp",
     "test lodestone"
    ],
-   "answer": "Head into the wilderness to try it out, since most folk do not care for camps in the center of town."
+   "answer": "Head into the wilderness to try it; most folk do not want camps in the center of town."
   },
   {
    "q": "What do I need before starting a camp?",
@@ -63,7 +63,7 @@
   "wilderness"
  ],
  "related": [],
- "style": 1,
+ "style": 2,
  "attribution": [
   "In-game quest text: Camping 101: Mining"
  ]

@@ -14,19 +14,19 @@
  "angles": [
   {
    "target": "race:Undead",
-   "text": "Securing the transit routes through Silverpine is vital for the Forsaken to defend their borders and halt Dalaran's magical incursions."
+   "text": "As an Undead, you help secure Silverpine's roads and defend Forsaken borders from Dalaran's magical incursions."
   },
   {
    "target": "faction:Horde",
-   "text": "Disrupting Dalaran's supply lines around Ambermill helps maintain the Horde's foothold in the region against hostile human enclaves."
+   "text": "As a member of the Horde, you help disrupt Dalaran's supply lines near Ambermill and hold the region against hostile human enclaves."
   },
   {
    "target": "class:Priest",
-   "text": "Shadow Priest Allister directs this offensive from the Sepulcher, demonstrating the Forsaken clergy's active role in border defense."
+   "text": "As a Priest, you see Shadow Priest Allister direct the offensive from the Sepulcher, where Forsaken clergy take an active part in border defense."
   },
   {
    "target": "class:Mage",
-   "text": "Dalaran's wizards and watchers rely on specialized relics and magical patrols to secure passage, making them prime targets for rival spellcasters."
+   "text": "As a Mage, you face Dalaran's wizards and watchers, who use magical relics and patrols to guard passage. Their work makes them targets for rival spellcasters."
   }
  ],
  "faq": [
@@ -36,7 +36,7 @@
     "quest giver watching the roads",
     "where to turn in watching the roads"
    ],
-   "answer": "The quest is given and completed by Shadow Priest Allister, located at the Sepulcher in Silverpine Forest. He tasks champions with striking at the Kirin Tor patrols that operate along the local trade ways.",
+   "answer": "Shadow Priest Allister gives the order from the Sepulcher in Silverpine Forest. He sends champions against Kirin Tor patrols on the local roads.",
    "q": "Who gives the quest Watching the Roads?"
   },
   {
@@ -45,7 +45,7 @@
     "why attack ambermill roads",
     "kirin tor silverpine purpose"
    ],
-   "answer": "Shadow Priest Allister wants to cut off the steady flow of magical relics and pendants being transported from Dalaran into Silverpine Forest. Eliminating the wizards and watchers along the roads near Ambermill strips Dalaran of its easy access across Forsaken borders.",
+   "answer": "Shadow Priest Allister wants to stop magical relics and pendants from reaching Silverpine Forest from Dalaran. Striking the wizards and watchers near Ambermill cuts off their passage across Forsaken borders.",
    "q": "Why are the Forsaken attacking Dalaran patrols near Ambermill?"
   },
   {
@@ -54,7 +54,7 @@
     "dalaran dome down",
     "barrier down dalaran"
    ],
-   "answer": "According to Shadow Priest Allister, the protective barrier surrounding Dalaran has come down. In response, the Kirin Tor have tightened their grip over the surrounding roads, displaying noticeable paranoia as they patrol the Ambermill region.",
+   "answer": "The barrier around Dalaran has fallen. The Kirin Tor have tightened their watch on nearby roads and patrol the Ambermill region with suspicion.",
    "q": "What is the situation with the barrier around Dalaran?"
   },
   {
@@ -63,7 +63,7 @@
     "ambermill patrol locations",
     "where to find dalaran wizards"
    ],
-   "answer": "Both Dalaran Wizards and Dalaran Watchers can be found patrolling the roadways surrounding the town of Ambermill in Silverpine Forest. They monitor transit to safeguard the movement of Kirin Tor personnel and enchanted items.",
+   "answer": "Dalaran Wizards and Dalaran Watchers patrol the roads around Ambermill in Silverpine Forest. They watch travel and guard Kirin Tor personnel and enchanted items.",
    "q": "Where can the Dalaran Wizards and Watchers be found?"
   },
   {
@@ -72,7 +72,7 @@
     "what are the pendants",
     "ambermill pendants"
    ],
-   "answer": "The Kirin Tor have been moving enchanted pendants and other magical relics out of Dalaran and into Silverpine Forest. Allister seeks to choke off this supply route at the source before the artifacts can spread further across the territory.",
+   "answer": "The Kirin Tor carry enchanted pendants and other magical relics from Dalaran into Silverpine Forest. Allister wants to stop them before the artifacts spread farther through the territory.",
    "q": "What kind of items is Dalaran shipping along these roads?"
   },
   {
@@ -81,7 +81,7 @@
     "why are dalaran guards patrolling",
     "kirin tor road control"
    ],
-   "answer": "Ever since the magical barrier around Dalaran fell, the Kirin Tor have maintained an aggressive watch on the thoroughfares leading into Silverpine Forest. While Allister notes their deep suspicion and vigilance, their exact motives remain unconfirmed to the Forsaken at the Sepulcher.",
+   "answer": "The Kirin Tor watch the roads into Silverpine Forest closely since Dalaran's magical barrier fell. Allister sees their suspicion and vigilance, but the Forsaken at the Sepulcher do not know their exact motives.",
    "q": "Why are the Kirin Tor so vigilant along the Ambermill roads?"
   }
  ],
@@ -107,18 +107,19 @@
  ],
  "sections": [
   {
-   "body": "Along the thoroughfares skirting Ambermill, the Kirin Tor maintain an aggressive presence. Following the collapse of the barrier enclosing Dalaran, their wizards and watchful sentries have clamped down on travel across the borders into Silverpine Forest. From their base at the Sepulcher, the Forsaken observe this buildup with mounting concern, recognizing that the human magi are using these open roads to ferry dangerous relics and enchanted pendants deep into contested lands.",
+   "body": "Near Ambermill, Kirin Tor wizards and sentries watch the roads into Silverpine Forest. Since the barrier around Dalaran fell, they have tightened their hold on travel across the border. From the Sepulcher, the Forsaken see the human magi using these roads to carry dangerous relics and enchanted pendants into contested lands.",
    "spoiler": 0,
    "title": "Tensions Along the Ambermill Road"
   },
   {
-   "body": "Shadow Priest Allister sees confiscating individual pendants as merely treating a symptom. To stem the influx of Dalaran's magical artifacts, he dispatches agents to hunt down the Kirin Tor's escorts directly along the roadway. By culling both Dalaran Wizards and Dalaran Watchers near Ambermill, the Forsaken seek to shatter the Kirin Tor's death grip on regional transit and seal their eastern frontier against outside arcane meddling.",
+   "body": "Shadow Priest Allister wants to stop the flow of Dalaran's magical goods at its source. He sends agents after the Kirin Tor escorts on the roads near Ambermill. By striking Dalaran Wizards and Dalaran Watchers, the Forsaken aim to break the Kirin Tor's hold on regional travel and guard their eastern frontier from outside arcane meddling.",
    "spoiler": 0,
    "title": "Severing the Supply Line"
   }
  ],
- "summary": "Watching the Roads is a Forsaken quest in Silverpine Forest directed by Shadow Priest Allister of the Sepulcher. It tasks adventurers with striking at Dalaran Wizards and Watchers along the roads near Ambermill to halt Kirin Tor shipments into Forsaken territory.",
+ "summary": "Shadow Priest Allister sends the Forsaken against Kirin Tor patrols near Ambermill. With Dalaran's barrier down, their wizards and watchers guard the roads into Silverpine Forest while carrying magical goods into Forsaken lands.",
  "attribution": [
   "In-game quest text: Watching the Roads"
- ]
+ ],
+ "style": 2
 }

@@ -12,21 +12,21 @@
   "levels": "1-10",
   "aliases": []
  },
- "summary": "In Elwynn Forest, Stormwind draws timber, gold, fish, and crops from the land. Northshire Abbey sends human recruits into the woods, where vermin, displaced wildlife, and brigands threaten the peace.",
+ "summary": "Elwynn Forest is good green country, and Stormwind lives off its timber and gold, its fish and grain. It ought to be a peaceful place. But vermin, stray beasts and brigands roam the woods. So Northshire Abbey sends its recruits out to deal with them.",
  "sections": [
   {
    "title": "The Breadbasket of the Realm",
-   "body": "Elwynn Forest stretches south from Stormwind’s gates to the Nazferiti River. Rain feeds its fertile fields, while dense hardwood forests supply the capital. Goldshire and the Eastvale Logging Camp send grain, livestock, lumber, and raw copper to Stormwind. Elwynn also breeds sturdy Evendale horses, prized by travelers and knights across the kingdom.",
+   "body": "The forest runs south from Stormwind's gates, all the way down to the Nazferiti River. It rains a good deal here, and the fields are the richer for it. Behind the fields grow thick hardwoods, and their timber goes to the capital. Carts roll up from Goldshire and the Eastvale Logging Camp, loaded with grain and livestock, lumber and raw copper. Elwynn breeds horses too, and knights and travelers all over the kingdom are glad to own a sturdy Evendale horse.",
    "spoiler": 0
   },
   {
    "title": "A Precarious Peace",
-   "body": "Trouble presses in from every side. The Stormwind Army is stretched thin by duties far away, leaving local marshals and deputies to depend on untested recruits. Kobolds have overrun the Fargodeep and Jasperlode mines. Riverpaw gnolls prowl the southwestern borders, while murlocs hold the shores of Stone Cairn Lake and Crystal Lake. Wolves fleeing corruption across the river in Duskwood have crossed into Elwynn.",
+   "body": "But these are uneasy days. The Stormwind Army is busy far away, so the marshals and deputies must make do with recruits who have never been tested. Kobolds have overrun the Fargodeep and Jasperlode mines. Riverpaw gnolls prowl the southwestern borders, and murlocs have taken the shores of Stone Cairn Lake and Crystal Lake.\n\nEven the wolves are newcomers. They fled the corruption across the river in Duskwood, and came over into Elwynn.",
    "spoiler": 0
   },
   {
    "title": "The Red Bandana Threat",
-   "body": "The Defias Brotherhood has spread through Elwynn as an organized band of outlaws. Its members came from Edwin VanCleef’s Stonemasons Guild after bitter disputes over pay with the House of Nobles. They have taken the Northshire Vineyards, the Brackwell Pumpkin Patch, Jerod’s Landing, and Mirror Lake Orchard. Rumors say their agents are guiding nearby gnolls and kobolds to unsettle the realm. Guards Rolf and Malakai went to investigate murlocs near Stone Cairn Lake; both were killed and left on its banks.",
+   "body": "The Defias Brotherhood has spread through Elwynn as an organized band of outlaws. Its members came from Edwin VanCleef’s Stonemasons Guild after bitter disputes over pay with the House of Nobles.\n\nThey have taken the Northshire Vineyards, the Brackwell Pumpkin Patch, Jerod’s Landing, and Mirror Lake Orchard. Rumors say their agents are guiding nearby gnolls and kobolds to unsettle the realm. Guards Rolf and Malakai went to investigate murlocs near Stone Cairn Lake; both were killed and left on its banks.",
    "spoiler": 1
   }
  ],
@@ -132,5 +132,5 @@
   "Elwynn Forest (Classic)",
   "Elwynn Forest"
  ],
- "style": 1
+ "style": 2
 }

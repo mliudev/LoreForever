@@ -17,16 +17,16 @@
   "wiki": "Pie for Billy",
   "chain": []
  },
- "summary": "Auntie Bernice Stonefield's missing necklace has left Billy Maclure bargaining for a pork belly pie. The Stonefield and Maclure families have feuded for generations, and Billy will say who has the necklace only after he gets his pie.",
+ "summary": "In Elwynn, you gather meat for Bernice's pie while Billy holds back what he knows about her necklace. Bernice agrees to bake, though she believes Billy stole her family's jewelry.",
  "sections": [
   {
    "title": "A Boy's Bribe",
-   "body": "Billy Maclure gives no apology when asked about Auntie Bernice Stonefield's missing necklace. He will not return it or say who has it until he gets a freshly baked pork belly pie. He knows Bernice is the finest cook in the valley, and he means to enjoy the bargain.",
+   "body": "Billy Maclure gives no apology when you ask about the necklace. He will neither return it nor name who has it until he gets a freshly baked pork belly pie. He knows Bernice is the finest cook in the valley, and means to enjoy the bargain.",
    "spoiler": 0
   },
   {
    "title": "Baking Through Bad Blood",
-   "body": "The Maclures and Stonefields have traded insults, brawls, and accusations across their pumpkin patches for generations. Bernice is furious at the thought of feeding the boy she believes stole her family's jewelry, yet she agrees to bake. You gather tender meat from the wild boars roaming the nearby pastures, and she sets aside her pride to get her prized necklace back.",
+   "body": "Bernice is furious at the thought of feeding the boy she believes stole her family's jewelry. Still, she agrees to bake before you gather the meat. You bring her meat from wild boars roaming nearby pastures. She sets aside her pride, hoping to get her prized necklace back.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "billy bribe pie",
     "billy pork belly pie"
    ],
-   "answer": "Billy Maclure knows where Auntie Bernice's necklace is and uses that knowledge to bargain for food. He will not say who has it until he gets one of Bernice's pork belly pies."
+   "answer": "Billy Maclure knows where Auntie Bernice's necklace is, and uses that knowledge to bargain for food. He will not say who has it until he gets one of Bernice's pork belly pies."
   },
   {
    "q": "Why does Auntie Bernice agree to bake for a thief?",
@@ -47,7 +47,7 @@
     "bernice stonefield pie reason",
     "stonefield baking for maclure"
    ],
-   "answer": "Auntie Bernice is furious at the boy she believes stole her necklace, but she sees no other way to recover it. She agrees to bake once you bring her boar meat, putting the return of her property ahead of her pride."
+   "answer": "Auntie Bernice is furious at the boy she believes stole her necklace, but sees no other way to recover it. She agrees to bake when you bring her boar meat, putting the return of her property before her pride."
   },
   {
    "q": "Where does the meat for the pie come from?",
@@ -55,7 +55,7 @@
     "where to get meat",
     "tender boar meat source"
    ],
-   "answer": "The meat comes from wild boars foraging in the meadows and along the edges of the Stonefield and Maclure farms in Elwynn Forest."
+   "answer": "The meat comes from wild boars foraging in Elwynn Forest, in the meadows and along the edges of the Stonefield and Maclure farms."
   },
   {
    "q": "What is the history between the Stonefields and Maclures?",
@@ -81,13 +81,13 @@
     "next step after pie",
     "what follows pie for billy"
    ],
-   "answer": "When you bring her the tender boar meat, Auntie Bernice bakes a pork belly pie for you to take to Billy. She hopes he will then reveal who has her necklace."
+   "answer": "When you bring her tender boar meat, Auntie Bernice bakes a pork belly pie for you to take to Billy. She hopes he will then reveal who has her necklace."
   }
  ],
  "angles": [
   {
    "target": "profession:Cooking",
-   "text": "Auntie Bernice says wild boar meat can be tough and bland, but proper spices and a slow simmer make it exceptional savory pie filling."
+   "text": "Auntie Bernice says wild boar meat can be tough and bland. With proper spices and a slow simmer, it makes exceptional savory pie filling."
   },
   {
    "target": "race:Human",
@@ -114,5 +114,5 @@
  "attribution": [
   "Pie for Billy"
  ],
- "style": 1
+ "style": 2
 }

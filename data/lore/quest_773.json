@@ -17,16 +17,16 @@
   "wiki": "Rite of Wisdom (Classic)",
   "chain": []
  },
- "summary": "The Rite of Wisdom is the concluding trial in the traditional Rites of the Earthmother undertaken by young adventurers in Mulgore. After purifying their sight through the Rite of Vision, petitioners travel to the sacred burial grounds of Red Rocks to commune with an Ancestral Spirit and receive the blessing of the dead.",
+ "summary": "At Red Rocks, the Rite of Wisdom brings the Rites of the Earthmother to their final trial. After the Rite of Vision clears your sight, you travel to commune with an Ancestral Spirit and seek the dead’s blessing.",
  "sections": [
   {
    "title": "The Trial of Red Rocks",
-   "body": "Having cleared their perception through the Rite of Vision, young protectors are directed east of Thunder Bluff toward Red Rocks. This ancient burial ground holds the physical remains and lingering spirits of those who fought and died to carve out a peaceful existence in Mulgore. Passing the trial requires approaching the resting grounds with proper reverence and communion, facing whatever territorial threats roam the hills to seek the counsel of the honored dead.",
+   "body": "After the Rite of Vision clears your sight, you travel east of Thunder Bluff to Red Rocks. Those buried here fought and died so Mulgore could know peace, and their spirits still linger. Approach their resting place with reverence and seek communion. The hills are guarded by threats as you seek counsel from the honored dead.",
    "spoiler": 0
   },
   {
    "title": "Passing the Mantle",
-   "body": "At the summit of Red Rocks, the communion with the Ancestral Spirit is not a test of martial strength, but of spiritual readiness and continuity. The spirits resting there represent the generation that fought alongside Cairne Bloodhoof to establish Thunder Bluff and safeguard the tribes. By receiving their blessing, the supplicant officially inherits the solemn duty of protecting the city, earning their place as a recognized adult and defender worthy of entering Thunder Bluff with pride.",
+   "body": "At Red Rocks’ summit, you commune with an Ancestral Spirit. The meeting tests your spiritual readiness and your place in the generations, not your strength in battle. These spirits fought beside Cairne Bloodhoof to establish Thunder Bluff and protect the tribes. Their blessing marks you as an adult and defender. You are charged with protecting the city and may enter Thunder Bluff with pride.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "what does rite of wisdom do",
     "rite of wisdom purpose"
    ],
-   "answer": "The Rite of Wisdom completes the Rites of the Earthmother, bridging the visionary communion of youth with the solemn responsibilities of adulthood. By gaining the blessing of the ancestral spirits, petitioners prove they respect the sacrifices of those who came before and are prepared to defend Thunder Bluff."
+   "answer": "The Rite of Wisdom is the final trial of the Rites of the Earthmother. Its ancestral blessing joins the vision of youth with the duties of adulthood and marks you as ready to defend Thunder Bluff."
   },
   {
    "q": "Who sends you on the Rite of Wisdom?",
@@ -46,7 +46,7 @@
     "who gives rite of wisdom",
     "where do i start rite of wisdom"
    ],
-   "answer": "Seer Wiserunner, in his cave northwest of Bloodhoof Village, sends initiates on this trial once they have successfully completed the Rite of Vision and drunk from the Water of the Seers."
+   "answer": "Seer Wiserunner sends you from his cave northwest of Bloodhoof Village after you complete the Rite of Vision and drink from the Water of the Seers."
   },
   {
    "q": "Where do you find the Ancestral Spirit?",
@@ -55,7 +55,7 @@
     "where is the spirit",
     "where to find ancestral spirit"
    ],
-   "answer": "The Ancestral Spirit is located at Red Rocks, an ancient tauren burial ground nestled in the rocky bluffs directly east of Thunder Bluff."
+   "answer": "You find the Ancestral Spirit at Red Rocks, an ancient tauren burial ground in the rocky bluffs directly east of Thunder Bluff."
   },
   {
    "q": "Why is the Rite of Vision required first?",
@@ -64,7 +64,7 @@
     "rite of vision prerequisite",
     "water of seers requirement"
    ],
-   "answer": "Only those who have drunk from the Water of the Seers and had their spiritual sight cleansed are able to perceive and receive the blessing of the ancient spirits at Red Rocks."
+   "answer": "The Rite of Vision cleanses your spiritual sight with the Water of the Seers. This lets you perceive the ancient spirits at Red Rocks and receive their blessing."
   },
   {
    "q": "What happens after completing the Rite of Wisdom?",
@@ -72,7 +72,7 @@
     "what next after rite of wisdom",
     "next quest after rite of wisdom"
    ],
-   "answer": "Having earned the approval of the ancestors, initiates are instructed to make their official journey into the high rises of Thunder Bluff."
+   "answer": "After earning the ancestors’ approval, you are instructed to journey into the high rises of Thunder Bluff."
   },
   {
    "q": "What creatures threaten the grounds of Red Rocks?",
@@ -81,21 +81,21 @@
     "what guards red rocks",
     "gnolls at red rocks"
    ],
-   "answer": "The sacred graveyard at Red Rocks has been encroached upon by aggressive Palemane gnolls, who lurk along the rocky trails leading up to the ancient burial site."
+   "answer": "Aggressive Palemane gnolls have encroached on Red Rocks’ sacred graveyard. They lurk along the rocky trails to the ancient burial site."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "For the shu'halo, receiving the mantle from the ancestors at Red Rocks is the culminating moment of passage into full adulthood and acceptance among the tribal elders."
+   "text": "As a shu'halo, receiving the ancestors’ mantle at Red Rocks marks your passage into full adulthood and acceptance among the tribal elders."
   },
   {
    "target": "class:Shaman",
-   "text": "Communing directly with an Ancestral Spirit reinforces the core shamanic duty of honoring the dead and keeping faith with the spirits that watch over Mulgore."
+   "text": "As a shaman, you honor the dead by communing with an Ancestral Spirit. You keep faith with the spirits that watch over Mulgore."
   },
   {
    "target": "class:Druid",
-   "text": "The rite demonstrates the balance between the living world and the eternal cycle overseen by the Earthmother, grounding young druids in their duty to the land."
+   "text": "As a druid, you see the balance between the living world and the eternal cycle overseen by the Earthmother. Your duty is to the land."
   }
  ],
  "keywords": [
@@ -119,5 +119,6 @@
  ],
  "attribution": [
   "Rite of Wisdom (Classic)"
- ]
+ ],
+ "style": 2
 }

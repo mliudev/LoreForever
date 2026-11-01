@@ -17,16 +17,16 @@
   "wiki": "Powder to Ironband",
   "chain": []
  },
- "summary": "A shipment of blasting powder is bound for Prospector Ironband's dig in southern Loch Modan. After Prospector Stormpike approves the request in Ironforge, the powder is sent to Thelsamar for the journey to Ironband's Excavation.",
+ "summary": "In Ironforge, the Explorer's League sends blasting powder south to Prospector Ironband's dig in Loch Modan. Prospector Stormpike approves the request, and the shipment goes to Thelsamar before continuing to Ironband's Excavation.",
  "sections": [
   {
    "title": "Bureaucracy and Blasting Powder",
-   "body": "The Explorer's League sends blasting powder from Ironforge to Prospector Ironband's expedition in southern Loch Modan. When the dig runs short, word reaches the League's leadership. Prospector Stormpike approves the request and directs the runner to coordinate with Jern Hornhelm in Thelsamar, the valley's main supply hub.",
+   "body": "The Explorer's League sends blasting powder from Ironforge to Prospector Ironband's expedition in southern Loch Modan. When the dig runs short, word reaches the League's leaders. Prospector Stormpike approves the request and sends the runner to Jern Hornhelm in Thelsamar, the valley's main supply hub.",
    "spoiler": 0
   },
   {
    "title": "A Missed Departure",
-   "body": "Earlier supply wagons through Loch Modan have vanished or faced harassment from local troggs. Stormpike orders you to guard the powder wagon yourself. By the time you reach the Stoutlager Inn in Thelsamar, Jern Hornhelm has already sent it south with Huldar and two dwarven porters. You hurry along the road to catch them.",
+   "body": "Earlier wagons through Loch Modan have vanished or faced harassment from local troggs. Stormpike orders you to guard the powder wagon yourself. But when you reach the Stoutlager Inn in Thelsamar, Jern Hornhelm has already sent it south with Huldar and two dwarven porters. You hurry down the road to catch them.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "ironband blasting powder",
     "what is powder for"
    ],
-   "answer": "Prospector Ironband leads a dwarven archaeological dig in southern Loch Modan. His team has used up its blasting powder while digging through dense rock, as trogg aggression grows."
+   "answer": "Prospector Ironband leads a dwarven archaeological dig in southern Loch Modan. His team has used its blasting powder while digging through dense rock, as trogg aggression grows."
   },
   {
    "q": "Who is Prospector Stormpike?",
@@ -46,7 +46,7 @@
     "stormpike role",
     "who gave quest"
    ],
-   "answer": "Prospector Stormpike is a senior officer of the Dwarven Explorer's League in Ironforge's Hall of Explorers. He reviews requests from the field, approves critical equipment, and manages supplies for major dig sites across Khaz Modan."
+   "answer": "Prospector Stormpike is a senior officer of the Dwarven Explorer's League in Ironforge's Hall of Explorers. He reviews field requests, approves critical equipment, and manages supplies for major dig sites across Khaz Modan."
   },
   {
    "q": "Who is Jern Hornhelm?",
@@ -62,7 +62,7 @@
     "why escort powder",
     "trogg attacks on wagons"
    ],
-   "answer": "Earlier shipments bound for Ironband's excavation failed to arrive. Troggs spilling from the hills and dig sites make the main road through Loch Modan increasingly dangerous."
+   "answer": "Earlier shipments bound for Ironband's excavation failed to arrive. Troggs spilling from the hills and dig sites make Loch Modan's main road increasingly dangerous."
   },
   {
    "q": "What happens when you arrive in Thelsamar?",
@@ -78,7 +78,7 @@
     "ironband chain",
     "excavation questline"
    ],
-   "answer": "This delivery carries the dig site's request through the League's authorities in Ironforge and back into the field through Thelsamar, so the expedition can keep excavating."
+   "answer": "This delivery carries the dig site's request through the League's authorities in Ironforge and back into the field through Thelsamar. The expedition can then keep excavating."
   }
  ],
  "angles": [
@@ -115,5 +115,5 @@
  "attribution": [
   "Powder to Ironband"
  ],
- "style": 1
+ "style": 2
 }

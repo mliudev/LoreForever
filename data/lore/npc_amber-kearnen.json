@@ -8,16 +8,16 @@
   "wiki": "Amber Kearnen",
   "refs": 1
  },
- "summary": "In Westfall, Amber Kearnen watches the Defias Brotherhood for SI:7. From a hidden vantage point, she tracks their unlawful activity for Master Mathias Shaw.",
+ "summary": "In Westfall, Amber Kearnen watches the Defias Brotherhood for SI:7. From cover, she tracks their unlawful activity for Master Mathias Shaw.",
  "sections": [
   {
    "title": "Eyes on the Tower",
-   "body": "Amber Kearnen scouts for SI:7 in Westfall, far from the halls of Stormwind Keep. She watches an abandoned tower the Defias Brotherhood has taken over. Master Mathias Shaw leads her work directly. Kearnen briefs covert operatives sent to stop Defias threats and gather intelligence across the contested countryside.",
+   "body": "Far from Stormwind Keep, Amber Kearnen scouts for SI:7 in Westfall. She watches an abandoned tower occupied by the Defias Brotherhood. Master Mathias Shaw directs her work. Kearnen briefs covert operatives sent to stop Defias threats and gather intelligence across the contested countryside.",
    "spoiler": 0
   },
   {
    "title": "A Deadly Assignment",
-   "body": "Amber Kearnen keeps watch on Klaven Mortwake, a Defias who has taken shelter in the tower southeast of Sentinel Hill. After weeks watching the tower, she briefs infiltrating rogues on the strange, inhuman guards that came with a shipment from Duskwood. She sends them to steal the tower key, enter the tower, and discover what lies in the Duskwood chest, including Klaven's journal. Her patience and careful notes aid the Crown's covert operations against the Defias.",
+   "body": "Amber Kearnen watches Klaven Mortwake, a Defias sheltered in the tower southeast of Sentinel Hill. After weeks of keeping watch, she briefs infiltrating rogues on the strange, inhuman guards that arrived with a shipment from Duskwood. She sends them to steal the tower key, enter the tower, and learn what lies in the Duskwood chest, including Klaven's journal. Her patience and careful notes aid the Crown's covert operations against the Defias.",
    "spoiler": 1
   }
  ],
@@ -46,7 +46,7 @@
     "kearnen mathias shaw",
     "who does kearnen work for"
    ],
-   "answer": "Amber Kearnen answers directly to Master Mathias Shaw, the leader of SI:7. Shaw sends fellow agents to her in Westfall to hear what she knows about Defias activity there."
+   "answer": "Amber Kearnen answers directly to Master Mathias Shaw, the leader of SI:7. Shaw sends fellow agents to her in Westfall to learn what she knows about Defias activity there."
   },
   {
    "q": "What role does she play in Klaven's Tower?",
@@ -61,11 +61,11 @@
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "As an Alliance rogue, you can rely on Agent Kearnen as your field contact while you plan your infiltration of Klaven's Tower."
+   "text": "As an Alliance rogue, you can rely on Agent Kearnen as your field contact while planning your infiltration of Klaven's Tower."
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance member, you can look to Kearnen as Stormwind's covert agent in Westfall, working against the Defias Brotherhood without alarming the populace."
+   "text": "As an Alliance member, you can look to Kearnen as Stormwind's covert agent in Westfall. She works against the Defias Brotherhood without alarming the populace."
   }
  ],
  "keywords": [
@@ -90,5 +90,5 @@
  "attribution": [
   "Amber Kearnen"
  ],
- "style": 1
+ "style": 2
 }

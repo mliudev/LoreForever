@@ -17,16 +17,16 @@
   "wiki": "The Killing Fields",
   "chain": []
  },
- "summary": "The Killing Fields is an Alliance quest offered by Farmer Saldean in Westfall. Saldean tasks adventurers with destroying the rogue Harvest Watchers that overrun his crops and the neighboring farmlands. It illustrates the collapse of local agriculture in the wake of the Defias Brotherhood's disruption.",
+ "summary": "In Westfall, The Killing Fields begins with Farmer Saldean's crops under threat. Rogue Harvest Watchers overrun his fields and neighboring farms, while the Defias Brotherhood's disruption has left local agriculture in ruin.",
  "sections": [
   {
    "title": "A Beleaguered Homestead",
-   "body": "While many farmers across Westfall abandoned their acreage when bandits and outlaws swept through the region, Farmer Saldean and his family resolved to hold their ground. Unfortunately, squatting thieves are not the only threat choking the Saldean farm. The mechanical Harvest Watchers intended to tend and safeguard the grain have gone rampant, pacing the furrows and attacking anyone who approaches.",
+   "body": "Many Westfall farmers abandoned their land when bandits and outlaws swept through. Farmer Saldean and his family chose to stay. Thieves are not the only danger on their farm. Harvest Watchers built to tend and guard the grain have run wild, pacing the furrows and attacking anyone who comes near.",
    "spoiler": 0
   },
   {
    "title": "Clearing the Soil",
-   "body": "To keep his farm operable, Saldean enlists passing travelers to dismantle twenty of the hostile automatons across his fields and adjoining plots. Culling these constructs offers temporary relief for Saldean's harvest, preserving a rare pocket of stubborn hope that Westfall's breadbasket might one day be reclaimed.",
+   "body": "Farmer Saldean asks passing travelers to dismantle twenty hostile Harvest Watchers across his fields and the adjoining plots. Clearing them gives his harvest a little relief. For now, his farm remains one stubborn hope that Westfall's breadbasket can be reclaimed.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who gives the killing fields",
     "saldean quest"
    ],
-   "answer": "Farmer Saldean gives the quest from Saldean's Farm, situated along the road in central Westfall."
+   "answer": "Farmer Saldean offers The Killing Fields from Saldean's Farm, along the road in central Westfall."
   },
   {
    "q": "What are Harvest Watchers?",
@@ -47,7 +47,7 @@
     "harvest watcher lore",
     "mechanical scarecrows westfall"
    ],
-   "answer": "Harvest Watchers are clockwork scarecrows built to tend crops and guard fields from pests. Following the unrest and abandonment of Westfall, many of these mechanical constructs were left untended or reprogrammed, turning aggressively upon the very farmers they were designed to serve."
+   "answer": "Harvest Watchers are clockwork scarecrows built to tend crops and guard fields from pests. After unrest and abandonment spread through Westfall, many were left untended or reprogrammed. Now they attack the farmers they were built to serve."
   },
   {
    "q": "Why has Farmer Saldean not fled Westfall like the others?",
@@ -56,7 +56,7 @@
     "farmer saldean lore",
     "saldean staying"
    ],
-   "answer": "Unlike the neighbors who abandoned their homesteads to thieves and brigands, Saldean refuses to surrender his livelihood. He stubbornly maintains his plot with help from hired adventurers to repel the rogue machinery."
+   "answer": "Farmer Saldean refuses to surrender his livelihood as his neighbors abandon their homesteads to thieves and brigands. He keeps his farm with help from hired adventurers who drive back the rogue machinery."
   },
   {
    "q": "What are the objectives of The Killing Fields?",
@@ -65,7 +65,7 @@
     "how many harvest watchers",
     "what to kill for killing fields"
    ],
-   "answer": "You are tasked with destroying twenty Harvest Watchers found roaming Saldean's fields and the surrounding abandoned farms."
+   "answer": "You are asked to destroy twenty Harvest Watchers roaming Saldean's fields and the surrounding abandoned farms."
   },
   {
    "q": "Who are the 'thieves' Saldean mentions?",
@@ -74,7 +74,7 @@
     "saldean thieves",
     "who drove farmers out westfall"
    ],
-   "answer": "Saldean is referring to the thieves and brigands loosely organized under the Defias Brotherhood, whose raids and extortion drove most homesteaders off their land."
+   "answer": "Saldean means the thieves and brigands loosely organized under the Defias Brotherhood. Their raids and extortion drove most homesteaders from their land."
   },
   {
    "q": "Does completing this quest fix Westfall's farming troubles?",
@@ -83,17 +83,17 @@
     "killing fields ending",
     "saldean outcome"
    ],
-   "answer": "Destroying the twenty Harvest Watchers provides immediate breathing room for Saldean's farm, but the overarching bandit threat and broken machinery across the broader region remain unresolved."
+   "answer": "Destroying twenty Harvest Watchers gives Saldean's farm some immediate breathing room. The bandit threat and broken machinery across the wider region remain."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "For Alliance travelers, helping Saldean represents a direct effort to protect one of the few surviving food supplies in a territory abandoned by the Stormwind crown."
+   "text": "As an Alliance traveler, you help protect one of the few food supplies still standing in a territory the Stormwind crown has abandoned."
   },
   {
    "target": "profession:Engineering",
-   "text": "Engineers will recognize the Harvest Watchers as automated clockwork wonders gone haywire in the absence of proper maintenance."
+   "text": "As an engineer, you can recognize the Harvest Watchers as clockwork wonders gone haywire without proper maintenance."
   }
  ],
  "keywords": [
@@ -112,5 +112,6 @@
  ],
  "attribution": [
   "The Killing Fields"
- ]
+ ],
+ "style": 2
 }

@@ -21,17 +21,17 @@
  "sections": [
   {
    "title": "A Town of Pockets and Picks",
-   "body": "Goldshire sits where Elwynn Forest's roads meet, and travelers, merchants, and guards pass through town. Remy \"Two Times\" is a shady broker with a habit of repeating his words and a sharp eye for profit. Instead of paying mining crews to dig for raw minerals, he turns to travelers passing through the Lion's Pride Inn. He offers coin for gold dust taken from the kobolds in the region.",
+   "body": "Goldshire sits where Elwynn Forest's roads meet. Travelers, merchants, and guards pass through town. Remy \"Two Times\" is a shady broker with a sharp eye for profit. He repeats his words, and instead of hiring mining crews to dig raw minerals, he offers coin to travelers passing through the Lion's Pride Inn for gold dust taken from kobolds in the region.",
    "spoiler": 0
   },
   {
    "title": "The Kobold Plunder",
-   "body": "Kobolds have overrun Fargodeep Mine south of Goldshire and Jasperlode Mine to the northeast. These rat-like tunnelers chip through the dark for candles and shiny baubles, gathering flecks of unrefined ore in their pouches. Pushing them back serves the kingdom, and gathering their dust turns the work into a trade for coin.",
+   "body": "Kobolds have overrun Fargodeep Mine south of Goldshire and Jasperlode Mine to the northeast. These rat-like tunnelers chip through the dark for candles and shiny baubles, gathering flecks of unrefined ore in their pouches. Driving them back serves the kingdom. Their gold dust also turns the work into a trade for coin.",
    "spoiler": 0
   },
   {
    "title": "Shadows Behind the Counter",
-   "body": "Remy says he pays well for ordinary trade, but each payment carries a warning. When he receives the dust, he gives his helpers a small token for his \"associates.\" With bandits, unpaid stonemasons, and hidden networks active in the shadows of Stormwind, Remy's quiet brokers may have plans for the gold beyond village commerce.",
+   "body": "Remy says he pays well for ordinary trade, but each payment carries a warning. When he receives the dust, he gives his helpers a small token for his \"associates.\" Bandits, unpaid stonemasons, and hidden networks are active in Stormwind's shadows. Remy's quiet brokers may have plans for the gold beyond village commerce.",
    "spoiler": 1
   }
  ],
@@ -51,7 +51,7 @@
     "why do kobolds have gold dust",
     "where does gold dust come from"
    ],
-   "answer": "Kobolds spend their lives tunneling through Elwynn's mineral veins, including those in Fargodeep and Jasperlode. As they dig through rock for treasure and candle wax, raw gold flakes and dust gather in their pockets and pouches."
+   "answer": "Kobolds tunnel through Elwynn's mineral veins, including those in Fargodeep and Jasperlode. As they dig through rock for treasure and candle wax, raw gold flakes and dust gather in their pockets and pouches."
   },
   {
    "q": "Where can I find the mines mentioned by Remy?",
@@ -75,21 +75,21 @@
     "what is gold dust used for",
     "can you smelt gold dust"
    ],
-   "answer": "In the kobolds' raw gold dust, the particles are too fine and impure for ordinary forge work. Brokers like Remy take it as a raw commodity, consolidate it, then refine it through their own private channels."
+   "answer": "The particles in the kobolds' raw gold dust are too fine and impure for ordinary forge work. Brokers like Remy take it as a raw commodity, consolidate it, then refine it through their own private channels."
   }
  ],
  "angles": [
   {
    "target": "profession:Mining",
-   "text": "Miners searching Fargodeep and Jasperlode find kobolds clinging to the richest copper veins, so clearing them out is necessary to harvest ore."
+   "text": "Miners searching Fargodeep and Jasperlode find kobolds clinging to the richest copper veins. Clearing them out is necessary to harvest ore."
   },
   {
    "target": "class:Rogue",
-   "text": "Remy's hushed manner and token from unnamed \"associates\" point to underground syndicates beneath Goldshire's placid surface."
+   "text": "As a rogue, you may read Remy's hushed manner and the token from unnamed \"associates\" as signs of underground syndicates beneath Goldshire's placid surface."
   },
   {
    "target": "faction:Alliance",
-   "text": "Elwynn's vital gold and mineral deposits lie in the hands of feral kobolds rather than royal excavators, showing how depleted the kingdom's military forces are."
+   "text": "As an Alliance member, you see Elwynn's vital gold and mineral deposits in the hands of feral kobolds rather than royal excavators. The kingdom's military forces are depleted."
   }
  ],
  "keywords": [
@@ -114,5 +114,5 @@
  "attribution": [
   "Gold Dust Exchange"
  ],
- "style": 1
+ "style": 2
 }

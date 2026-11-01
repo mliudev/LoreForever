@@ -12,12 +12,12 @@
  "sections": [
   {
    "title": "A High Priestess of the Cathedral",
-   "body": "High Priestess Laurena holds a senior post in the Church of the Holy Light. She serves in Stormwind City's Cathedral of Light, the heart of the faith, where Archbishop Benedictus leads the Church.",
+   "body": "High Priestess Laurena holds senior rank in the Church of the Holy Light. She serves in Stormwind City's Cathedral of Light, the heart of the faith. Archbishop Benedictus leads the Church.",
    "spoiler": 0
   },
   {
    "title": "Tending the Faithful",
-   "body": "Behind the central altar in the cathedral sanctuary, High Priestess Laurena mentors aspiring priests. Acolytes who show dedication and piety are sent to her for deeper study. She teaches sacred boons such as Desperate Prayer and defensive spells that turn enemy arcane magic against its wielders. When her students have learned all she can teach, she sends them to other master priests across the Alliance.",
+   "body": "Behind the central altar in the cathedral sanctuary, High Priestess Laurena mentors aspiring priests. Acolytes who show dedication and piety come to her for deeper study. She teaches sacred boons such as Desperate Prayer and defensive spells that turn enemy arcane magic against its wielders. When her students have learned all she can teach, she sends them to other master priests across the Alliance.",
    "spoiler": 0
   }
  ],
@@ -56,7 +56,7 @@
     "who is laurena's boss",
     "benedictus laurena"
    ],
-   "answer": "Yes. Archbishop Benedictus leads the Church of the Holy Light and presides over the Cathedral of Light, where High Priestess Laurena holds a senior post."
+   "answer": "Yes. Archbishop Benedictus leads the Church of the Holy Light and presides over the Cathedral of Light, where High Priestess Laurena holds senior rank."
   },
   {
    "q": "Why does she direct me to other priest trainers?",
@@ -65,7 +65,7 @@
     "a lack of fear quest",
     "elunes grace quest"
    ],
-   "answer": "Once High Priestess Laurena has taught the foundational prayers of the Holy Light, she sends students to master priests of other disciplines, such as dwarven masters in Ironforge or night elf priestesses in Darnassus, to broaden their spiritual learning."
+   "answer": "After teaching the foundational prayers of the Holy Light, High Priestess Laurena sends students to master priests of other disciplines. These include dwarven masters in Ironforge and night elf priestesses in Darnassus, who broaden their spiritual learning."
   },
   {
    "q": "Did Laurena lose her family to the undead?",
@@ -83,11 +83,11 @@
   },
   {
    "target": "race:Human",
-   "text": "As a human of Stormwind, you can look to High Priestess Laurena as a spiritual guide at the Cathedral of Light through troubled times."
+   "text": "As a human of Stormwind, you can look to High Priestess Laurena for spiritual guidance at the Cathedral of Light through troubled times."
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance champion, you can find High Priestess Laurena strengthening the faith of the Alliance from the Cathedral of Light, teaching defenses against dark magic and undead horrors."
+   "text": "As an Alliance champion, you can find High Priestess Laurena strengthening the Alliance's faith from the Cathedral of Light. She teaches defenses against dark magic and undead horrors."
   }
  ],
  "keywords": [
@@ -114,5 +114,5 @@
  "attribution": [
   "High Priestess Laurena"
  ],
- "style": 1
+ "style": 2
 }

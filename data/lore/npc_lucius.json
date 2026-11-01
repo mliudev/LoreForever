@@ -8,11 +8,11 @@
   "wiki": "Lucius",
   "refs": 2
  },
- "summary": "At the Lakeshire docks, Lucius watches the Redridge waterfront. The dwarf works undercover for Stormwind’s SI:7, helping agents with reconnaissance and trade skills.",
+ "summary": "At the Lakeshire docks, Lucius watches the Redridge waterfront for Stormwind’s SI:7. The dwarf works undercover, helping agents with reconnaissance and trade skills.",
  "sections": [
   {
    "title": "Eyes in the Mountains",
-   "body": "Lucius watches the Lakeshire docks for SI:7, Stormwind’s intelligence service. He keeps an eye on trade, unusual traffic, and threats moving into the Redridge Mountains. Agents sent east from Stormwind come to him to coordinate covert work and practice field skills such as lockpicking. Through Lucius, Stormwind keeps a hidden reach beyond Elwynn Forest.",
+   "body": "Lucius watches the Lakeshire docks for SI:7, Stormwind’s intelligence service. He tracks trade, unusual traffic, and threats moving into the Redridge Mountains. Agents sent east from Stormwind come to him to coordinate covert work and practice field skills such as lockpicking. Through Lucius, Stormwind reaches beyond Elwynn Forest in secret.",
    "spoiler": 0
   }
  ],
@@ -33,7 +33,7 @@
     "lucius purpose",
     "why is lucius on the docks"
    ],
-   "answer": "Lucius helps covert agents with local instruction in thievery and lockpicking, while watching movements across the Redridge Mountains."
+   "answer": "Lucius teaches covert agents local thievery and lockpicking while watching movements across the Redridge Mountains."
   },
   {
    "q": "Which quests involve Lucius?",
@@ -42,17 +42,17 @@
     "redridge rendezvous quest",
     "alther's mill"
    ],
-   "answer": "Lucius handles the SI:7 mission ‘Redridge Rendezvous’ and sends young rogues to pick the locks of chests at Alther’s Mill for their Certificate of Thievery."
+   "answer": "Lucius handles SI:7’s ‘Redridge Rendezvous’ mission. He also sends young rogues to pick the locks of chests at Alther’s Mill for their Certificate of Thievery."
   }
  ],
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "As a rogue sent east from Stormwind, you can turn to Lucius for instruction in lockpicking and reconnaissance."
+   "text": "As a rogue sent east from Stormwind, you can turn to Lucius for lockpicking and reconnaissance instruction."
   },
   {
    "target": "race:Dwarf",
-   "text": "As a dwarf, Lucius shows how your people’s talents can serve Stormwind’s covert operations as well as the forge and front line."
+   "text": "As a dwarf, Lucius shows how your people’s talents serve Stormwind’s covert operations, as well as the forge and front line."
   }
  ],
  "keywords": [
@@ -76,5 +76,5 @@
  "attribution": [
   "Lucius"
  ],
- "style": 1
+ "style": 2
 }

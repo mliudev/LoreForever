@@ -8,11 +8,11 @@
   "wiki": "Marryk Nurribit",
   "refs": 1
  },
- "summary": "At Anvilmar in Coldridge Valley, Marryk Nurribit teaches young gnomes the arcane arts. He favors local brews over strict lessons and often asks his pupils for spare coins to buy a drink.",
+ "summary": "At Anvilmar in Coldridge Valley, Marryk Nurribit teaches young gnomes the first steps in arcane magic. Local brews often draw his attention from lessons, and he asks pupils for spare coins to buy a drink.",
  "sections": [
   {
    "title": "Arcane Studies and Ale",
-   "body": "Marryk Nurribit teaches young gnomes magic inside Anvilmar in Coldridge Valley. He knows the arcane arts, though he takes a casual approach to teaching. A flagon of dwarven ale often holds more of his attention than a lesson, and he asks his new pupils for spare pocket change. He also warns aspiring spellcasters about the dangers beyond Coldridge Valley, where Gnomeregan's ruins remain radioactive and infested with troggs.",
+   "body": "Every newly arrived gnome mage in Coldridge Valley starts out as Marryk's pupil. Yet a flagon of dwarven ale can win more of his attention than a lesson. He asks new pupils for spare pocket change, and warns aspiring spellcasters about Gnomeregan's radioactive, trogg-infested ruins beyond Coldridge Valley.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "who is marryk",
     "anvilmar mage trainer"
    ],
-   "answer": "Marryk Nurribit trains gnomes in arcane magic inside Anvilmar in Coldridge Valley, Dun Morogh. He teaches newly arrived gnome mages the fundamentals of the art."
+   "answer": "Marryk Nurribit teaches gnomes the fundamentals of arcane magic at Anvilmar in Coldridge Valley, Dun Morogh. He trains newly arrived gnome mages."
   },
   {
    "q": "Why does Marryk keep asking for money for beer?",
@@ -33,7 +33,7 @@
     "marryk beer",
     "why does he ask for coins"
    ],
-   "answer": "Marryk enjoys local spirits and often asks his students for spare change to pay for beer at the tavern."
+   "answer": "Marryk enjoys local spirits and often asks his students for spare change to buy beer at the tavern."
   },
   {
    "q": "What does Marryk say about Gnomeregan?",
@@ -74,5 +74,5 @@
  "attribution": [
   "Marryk Nurribit"
  ],
- "style": 1
+ "style": 2
 }

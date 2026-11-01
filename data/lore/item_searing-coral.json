@@ -10,16 +10,16 @@
    "quest:1708"
   ]
  },
- "summary": "Along the Wetlands coast, Searing Coral is gathered from living iron coral beneath the sea. Tinkerers and smiths value the mineral-rich material for its unusual ability to endure heat and strengthen armor.",
+ "summary": "Along the Wetlands coast, Searing Coral is gathered from living iron coral beneath the sea. Tinkerers and smiths prize its heat-resistant mineral for strengthening armor.",
  "sections": [
   {
    "title": "A Rare coastal Resource",
-   "body": "Searing Coral grows in the cold sea south of Menethil Harbor. The living iron coral thrives in saltwater, yet yields mineral-rich material that withstands extreme heat. Harvesters pry the hardened growths loose through dangerous surf, with coastal predators nearby.",
+   "body": "Searing Coral grows in the cold sea south of Menethil Harbor. Living iron coral thrives in saltwater and yields mineral-rich material that withstands extreme heat. Harvesters must pry the hardened growths loose while wild murlocs and other aquatic beasts roam nearby.",
    "spoiler": 0
   },
   {
    "title": "Application in Smithing",
-   "body": "Dwarven smiths do not traditionally work Searing Coral. In Ironforge, curious gnome craftsmen such as Klockmort Spannerspan use methods from veteran armorsmith Furen Longbeard. They smelt the coral and hammer it into metal alloys, making lightweight, durable armor for aspiring warriors.",
+   "body": "Dwarven smiths do not traditionally work Searing Coral. In Ironforge, curious gnome craftsmen such as Klockmort Spannerspan follow methods from veteran armorsmith Furen Longbeard. They smelt the coral and hammer it into metal alloys, making lightweight, durable armor for aspiring warriors.",
    "spoiler": 0
   }
  ],
@@ -57,13 +57,13 @@
     "is searing coral hot",
     "harvesting iron coral"
    ],
-   "answer": "The coral itself is safe to gather once found, but reaching it means swimming in open waters off the Wetlands coast, where wild murlocs and aggressive aquatic beasts roam."
+   "answer": "The coral itself is safe to gather once found. Reaching it means swimming in open waters off the Wetlands coast, where wild murlocs and aggressive aquatic beasts roam."
   }
  ],
  "angles": [
   {
    "target": "class:Warrior",
-   "text": "As a warrior, gathering Searing Coral helps prove your dedication to Ironforge's master armorers. They forge you a custom breastplate for heavy frontline combat."
+   "text": "As a warrior, gathering Searing Coral proves your dedication to Ironforge's master armorers. They forge you a custom breastplate for heavy frontline combat."
   },
   {
    "target": "profession:Blacksmithing",
@@ -92,5 +92,5 @@
   "Searing Coral",
   "Iron Coral (quest)"
  ],
- "style": 1
+ "style": 2
 }

@@ -11,16 +11,16 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "Muren Stormpike asks you to prove your mettle against Vejrek, a troll in the foothills south of Frostmane Hold. Your success earns the start of a lesson in strong defense.",
+ "summary": "In the foothills south of Frostmane Hold, you face Vejrek to prove your mettle. Muren Stormpike wants proof you can handle real foes. Your success begins a lesson in strong defense.",
  "sections": [
   {
    "title": "A Test of Mettle",
-   "body": "Muren Stormpike says you need toughness before he can teach you new moves. Vejrek is the toughest troll in these parts, and his hut lies in the foothills south of Frostmane Hold. Muren asks you to bring back Vejrek\u2019s head as proof you can handle real foes.",
+   "body": "Muren Stormpike says you need toughness before he can teach you new moves. Vejrek is the toughest troll in these parts, and his hut lies in the foothills south of Frostmane Hold. Muren asks you to bring back Vejrek’s head as proof you can handle real foes.",
    "spoiler": 0
   },
   {
    "title": "The Lesson",
-   "body": "Muren accepts Vejrek\u2019s head and says you have what it takes. He is ready to begin teaching you about strong defense, which helps you stay standing against foes that would fell others and supports your allies.",
+   "body": "Muren accepts Vejrek’s head and says you have what it takes. He is ready to teach you strong defense, which helps you stay standing against foes that would fell others and supports your allies.",
    "spoiler": 1
   }
  ],
@@ -32,7 +32,7 @@
     "vejrek troll",
     "that troll"
    ],
-   "answer": "Vejrek is described as the toughest troll in these parts. He has a hut in the foothills south of Frostmane Hold."
+   "answer": "Vejrek is described as the toughest troll in these parts. His hut lies in the foothills south of Frostmane Hold."
   },
   {
    "q": "Why does Muren send me after Vejrek?",
@@ -50,7 +50,7 @@
     "where's his hut",
     "foothills troll"
    ],
-   "answer": "Vejrek\u2019s hut is in the foothills just south of Frostmane Hold."
+   "answer": "Vejrek’s hut is in the foothills south of Frostmane Hold."
   },
   {
    "q": "What does Muren want brought back?",
@@ -59,7 +59,7 @@
     "what to bring",
     "muren wants what"
    ],
-   "answer": "Muren asks you to bring him Vejrek\u2019s head as proof of your mettle."
+   "answer": "Muren asks you to bring back Vejrek’s head as proof of your mettle."
   },
   {
    "q": "What does Muren teach after the test?",
@@ -68,7 +68,7 @@
     "what's the lesson",
     "strong defense"
    ],
-   "answer": "After accepting Vejrek\u2019s head, Muren begins a lesson about strong defense and how it helps you remain standing against foes."
+   "answer": "Muren begins teaching strong defense after accepting Vejrek’s head. The lesson covers how it helps you stay standing against foes."
   }
  ],
  "angles": [],
@@ -87,7 +87,7 @@
   "zone:ironforge",
   "topic:troll"
  ],
- "style": 1,
+ "style": 2,
  "attribution": [
   "In-game quest text: Vejrek"
  ]

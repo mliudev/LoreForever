@@ -10,11 +10,11 @@
    "quest:233"
   ]
  },
- "summary": "A Stack of Letters has come through the mountain pass into Coldridge Valley. The bundle is meant for scouts stationed in the snowy wilderness.",
+ "summary": "In Coldridge Valley, a stack of letters has come through the mountain pass for scouts in the snowy wilderness.",
  "sections": [
   {
    "title": "Through the Pass",
-   "body": "Mail for Coldridge Valley comes from Anvilmar by way of travelers crossing the pass. The journey to the remote camps in Dun Morogh's mountains is hard, and postal runners rely on travelers to carry letters onward. This bundle is bound for scouts deeper in Coldridge Valley. Talin Keeneye, at his lakeside camp, is thought to be its only recipient until the letters are sorted. Among them is a missive for Grelin Whitebeard, a mountaineer.",
+   "body": "Letters for Coldridge Valley come from Anvilmar by way of travelers crossing the pass. The road to the remote camps in Dun Morogh's mountains is hard, so postal runners rely on travelers to carry each bundle onward. This one is bound for scouts deeper in Coldridge Valley.\n\nUntil the letters are sorted, Talin Keeneye at his lakeside camp is thought to be the only recipient. Among them is a missive for Grelin Whitebeard, a mountaineer.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "stack of letters contents",
     "who are letters for"
    ],
-   "answer": "The bundle holds personal letters and dispatches for dwarves in Coldridge Valley. Talin Keeneye, at his camp near the frozen lake, is thought to be the only recipient until the letters reveal one addressed to Grelin Whitebeard."
+   "answer": "The bundle holds personal letters and dispatches for dwarves in Coldridge Valley. Talin Keeneye at his camp near the frozen lake is thought to be the only recipient until the letters reveal one addressed to Grelin Whitebeard."
   },
   {
    "q": "Who sends these letters to Coldridge Valley?",
@@ -48,7 +48,7 @@
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "As a young mountaineer starting out in Coldridge Valley, carrying mail between snowy camps introduces you to Dun Morogh's harsh roads and scattered watchers."
+   "text": "As a young mountaineer starting out in Coldridge Valley, you carry mail between snowy camps. The journey introduces you to Dun Morogh's harsh roads and scattered watchers."
   }
  ],
  "keywords": [
@@ -69,5 +69,5 @@
   "A Stack of Letters",
   "Coldridge Valley Mail Delivery"
  ],
- "style": 1
+ "style": 2
 }

@@ -11,11 +11,11 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "Sergeant Hartman asks you to clear Forsaken stink bombs from Southshore during Hallow\u2019s End. A pine-scented cleaner is meant to keep the village clean.",
+ "summary": "During Hallow’s End, Sergeant Hartman asks you to clear Forsaken stink bombs from Southshore. A pine-scented cleaner helps keep the village clean.",
  "sections": [
   {
-   "title": "Southshore\u2019s Stink",
-   "body": "The Forsaken use stink bombs on Southshore during Hallow\u2019s End, turning the celebration of liberation into a foul mess. Sergeant Hartman asks you to remove any that have landed in the village with a Stink Bomb Cleaner.",
+   "title": "Southshore’s Stink",
+   "body": "During Hallow’s End, the Forsaken foul Southshore with stink bombs. The bombs mar the celebration of liberation. Sergeant Hartman asks you to remove any that have landed in the village with a Stink Bomb Cleaner.",
    "spoiler": 0
   }
  ],
@@ -42,7 +42,7 @@
     "who stink bombs",
     "forsaken bombs"
    ],
-   "answer": "The Forsaken use stink bombs on Southshore during Hallow\u2019s End."
+   "answer": "The Forsaken use stink bombs on Southshore during Hallow’s End."
   },
   {
    "q": "What does the cleaner do?",
@@ -50,7 +50,7 @@
     "pine cleaner",
     "stink bomb cleaner"
    ],
-   "answer": "The Stink Bomb Cleaner uses the power of pine to fight foul smells."
+   "answer": "The Stink Bomb Cleaner uses pine to fight foul smells."
   },
   {
    "q": "Why is Southshore being cleaned?",
@@ -58,7 +58,7 @@
     "why clean southshore",
     "hallow's end stink"
    ],
-   "answer": "The Forsaken stink bombs make a smelly mess during Southshore\u2019s Hallow\u2019s End celebration."
+   "answer": "The Forsaken stink bombs make a smelly mess during Southshore’s Hallow’s End celebration."
   }
  ],
  "angles": [
@@ -81,7 +81,7 @@
   "topic:forsaken",
   "topic:horde"
  ],
- "style": 1,
+ "style": 2,
  "attribution": [
   "In-game quest text: The Power of Pine"
  ]

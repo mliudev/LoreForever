@@ -11,16 +11,16 @@
    "quest:6392"
   ]
  },
- "summary": "In Ironforge, Honorary Picks are prepared for Brock Stoneseeker’s mining apprentices in Thelsamar. Gryphons carry them to Loch Modan, where the ceremonial tools mark students ready to work its ore veins.",
+ "summary": "In Ironforge, Honorary Picks are bound for Brock Stoneseeker’s mining apprentices in Thelsamar. Gryphons carry the ceremonial tools to Loch Modan, where they mark students ready to work its ore veins.",
  "sections": [
   {
    "title": "Tools for the Next Generation",
-   "body": "Mining keeps the great forges burning and supplies dwarves with iron and stone. In Thelsamar, Brock Stoneseeker teaches young apprentices to mine. Honorary Picks from Ironforge recognize students ready to work the open ore deposits across Loch Modan.",
+   "body": "Mining keeps the great forges burning and brings dwarves the iron and stone they need. In Thelsamar, Brock Stoneseeker teaches young apprentices to mine. Honorary Picks from Ironforge mark the students ready to work the open ore deposits across Loch Modan.",
    "spoiler": 0
   },
   {
    "title": "Testing the Gryphon Lines",
-   "body": "The picks travel through the Alliance gryphon network, linking Ironforge with its outlying settlements. Gryth Thurden receives the shipment at Ironforge’s Great Forge and sends it over the mountains to Thorgrum Borrelson in Thelsamar.",
+   "body": "The picks travel through the Alliance gryphon network, linking Ironforge with its outlying settlements. At Ironforge’s Great Forge, Gryth Thurden receives the shipment. He sends it over the mountains to Thorgrum Borrelson in Thelsamar.",
    "spoiler": 0
   }
  ],
@@ -41,7 +41,7 @@
     "honorary picks delivery",
     "honorary picks recipient"
    ],
-   "answer": "The picks are prepared in Ironforge and brought to Gryth Thurden at the city’s gryphon roost. They fly east to Thelsamar, where mining instructor Brock Stoneseeker receives them."
+   "answer": "The picks are prepared in Ironforge and brought to Gryth Thurden at the city’s gryphon roost. From there, they fly east to Thelsamar, where mining instructor Brock Stoneseeker receives them."
   },
   {
    "q": "Why do the picks need to be delivered by gryphon?",
@@ -50,7 +50,7 @@
     "why take gryphon",
     "honorary picks flight"
    ],
-   "answer": "Gryphons carry the picks quickly between Ironforge and Loch Modan, and the route teaches travelers to use the Alliance’s established flight paths. They could also be carried on foot through the North Gate Pass."
+   "answer": "Gryphons carry the picks quickly between Ironforge and Loch Modan, along the Alliance’s established flight paths. The route also teaches travelers to use those paths. The picks could also be carried on foot through the North Gate Pass."
   },
   {
    "q": "Are the Honorary Picks actual weapons or tools you can equip?",
@@ -59,17 +59,17 @@
     "are honorary picks an item",
     "honorary picks usable"
    ],
-   "answer": "No. The courier carries the picks as cargo for Brock Stoneseeker’s mining students, who are eager to use them on Loch Modan’s ore deposits."
+   "answer": "No. The courier carries the picks as cargo for Brock Stoneseeker’s mining students. They are eager to use them on Loch Modan’s ore deposits."
   }
  ],
  "angles": [
   {
    "target": "profession:Mining",
-   "text": "As a miner, you know the value of a solid pick. An honorary tool marks a novice’s passage into the profession."
+   "text": "As a miner, you know the worth of a solid pick. An honorary tool marks a novice’s passage into the profession."
   },
   {
    "target": "race:Dwarf",
-   "text": "As a dwarf, you know the kinship and craft behind presenting tools forged in Ironforge to apprentices working in the provinces."
+   "text": "As a dwarf, you know the kinship and craft in presenting tools forged in Ironforge to apprentices working in the provinces."
   }
  ],
  "keywords": [
@@ -96,5 +96,5 @@
   "Gryth Thurden (Classic)",
   "Return to Brock"
  ],
- "style": 1
+ "style": 2
 }

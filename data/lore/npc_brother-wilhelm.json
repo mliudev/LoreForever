@@ -8,16 +8,16 @@
   "wiki": "Brother Wilhelm",
   "refs": 1
  },
- "summary": "Behind Goldshire's blacksmith, Brother Wilhelm trains young paladins in the Holy Light. He guides them as they leave Northshire Abbey and take their first steps into Elwynn Forest.",
+ "summary": "Behind Goldshire's smithy, Brother Wilhelm guides young paladins into the wider forest. They come from Northshire Abbey to take their first steps in Elwynn.",
  "sections": [
   {
    "title": "A Guide in Goldshire",
-   "body": "Brother Wilhelm trains new paladins behind Goldshire's smithy. Northshire Valley shelters those who begin their path in the Light, but many seek his guidance when they enter the wider forest. He teaches them their sacred duties as they leave the abbey and take up the work of protecting the realm.",
+   "body": "Brother Wilhelm trains new paladins behind Goldshire's smithy. Northshire Valley shelters those who begin their path in the Light, but many seek his guidance once they enter the wider forest. He teaches them their sacred duties as they leave the abbey. Then they take up the work of protecting the realm.",
    "spoiler": 0
   },
   {
    "title": "The Path of the Tome",
-   "body": "Brother Wilhelm guides aspiring paladins toward the Tome of Divinity. Its rite teaches initiates the weight of sacrifice and the power of divine redemption. Through it, they test their devotion and learn to wield the Light to resurrect fallen comrades and uphold justice across the Kingdom of Stormwind.",
+   "body": "Brother Wilhelm guides aspiring paladins toward the Tome of Divinity. Its rite teaches initiates the weight of sacrifice and the power of divine redemption. Through the trials, they test their devotion and learn to wield the Light. They can resurrect fallen comrades and uphold justice across the Kingdom of Stormwind.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "where is brother wilhelm",
     "find brother wilhelm"
    ],
-   "answer": "Brother Wilhelm is in Goldshire, in Elwynn Forest, just behind the village blacksmith workshop. He trains and guides aspiring paladins there."
+   "answer": "Brother Wilhelm is behind the village blacksmith's workshop in Goldshire, Elwynn Forest. He trains and guides aspiring paladins there."
   },
   {
    "q": "What services does Brother Wilhelm provide?",
@@ -38,7 +38,7 @@
     "paladin trainer goldshire",
     "brother wilhelm trainer"
    ],
-   "answer": "Brother Wilhelm trains young paladins in new spells, martial blessings, and holy techniques as they travel through Elwynn Forest."
+   "answer": "Brother Wilhelm teaches young paladins new spells, martial blessings, and holy techniques as they travel through Elwynn Forest."
   },
   {
    "q": "Is Brother Wilhelm part of the Brotherhood of Northshire?",
@@ -47,7 +47,7 @@
     "wilhelm faction",
     "who does brother wilhelm serve"
    ],
-   "answer": "Brother Wilhelm's title and his closeness to Northshire Abbey suggest ties to the Brotherhood of Northshire. He serves the Church of the Holy Light and the Kingdom of Stormwind from Goldshire."
+   "answer": "Brother Wilhelm's title and closeness to Northshire Abbey suggest ties to the Brotherhood of Northshire. From Goldshire, he serves the Church of the Holy Light and the Kingdom of Stormwind."
   },
   {
    "q": "What is his role in the Tome of Divinity quest?",
@@ -56,7 +56,7 @@
     "resurrection quest wilhelm",
     "goldshire paladin quest"
    ],
-   "answer": "Brother Wilhelm guides human paladins who have grown in power toward the Tome of Divinity and its trials, which lead to the sacred blessing of resurrection."
+   "answer": "Brother Wilhelm guides human paladins who have grown in power toward the Tome of Divinity and its trials. Those trials lead to the sacred blessing of resurrection."
   }
  ],
  "angles": [
@@ -89,5 +89,5 @@
  "attribution": [
   "Brother Wilhelm"
  ],
- "style": 1
+ "style": 2
 }

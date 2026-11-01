@@ -10,16 +10,16 @@
    "quest:6285"
   ]
  },
- "summary": "At Sentinel Hill, Osric's Crate brings armor from Stormwind to the People's Militia. The defenders face the Defias Brotherhood and marauding gnolls without the Stormwind army.",
+ "summary": "At Sentinel Hill, Osric's Crate brings fresh armor from Stormwind to the People's Militia. The defenders face the Defias Brotherhood and marauding gnolls without the Stormwind army.",
  "sections": [
   {
    "title": "Supplies for the Front",
-   "body": "Westfall faces the Defias Brotherhood and marauding gnolls, while the Stormwind army remains absent. At Sentinel Hill, the People's Militia must make do without the crown's formal support. Osric's Crate holds freshly made armor from the capital, sent to Quartermaster Lewis to distribute among the volunteer fighters.",
+   "body": "Quartermaster Lewis receives the shipment and shares the protective gear among the volunteer fighters. The crown gives the People's Militia no formal support. These freshly made suits are meant to help the volunteers hold their position.",
    "spoiler": 0
   },
   {
    "title": "Winged Courier Network",
-   "body": "Gryphons carry the crate from Dungar Longdrink's roost in Stormwind's Trade District to Thor at Sentinel Hill. The flight avoids the dangerous roads through Elwynn Forest and across the Westfall border, where bandits may ambush travelers. Gryphons help keep frontier garrisons supplied during wartime.",
+   "body": "From Dungar Longdrink's roost in Stormwind's Trade District, a gryphon carries the crate to Thor at Sentinel Hill. The flight avoids dangerous roads through Elwynn Forest and across the Westfall border, where bandits may ambush travelers. Gryphons help keep frontier garrisons supplied during wartime.",
    "spoiler": 0
   }
  ],
@@ -57,7 +57,7 @@
     "why use gryphons",
     "osric crate flight"
    ],
-   "answer": "Bandits and outlaws make the roads through Stormwind, Elwynn Forest, and Westfall perilous. The gryphon flight from Dungar Longdrink in Stormwind to Thor at Sentinel Hill carries the armor quickly and safely."
+   "answer": "Bandits and outlaws make the roads through Stormwind, Elwynn Forest, and Westfall perilous. A gryphon carries the armor quickly and safely from Dungar Longdrink in Stormwind to Thor at Sentinel Hill."
   }
  ],
  "angles": [
@@ -90,5 +90,5 @@
   "Osric's Crate",
   "Return to Lewis"
  ],
- "style": 1
+ "style": 2
 }

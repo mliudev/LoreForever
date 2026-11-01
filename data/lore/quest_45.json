@@ -17,16 +17,16 @@
   "wiki": "Discover Rolf's Fate",
   "chain": []
  },
- "summary": "In eastern Elwynn, two Stormwind guards are missing near Stone Cairn Lake. Malakai's half-eaten remains and webbed tracks lead toward a murloc village, where the search for Rolf continues.",
+ "summary": "Guard Thomas waits for news of Rolf and Malakai, missing near Stone Cairn Lake. Malakai's half-eaten remains and webbed tracks point toward a murloc village.",
  "sections": [
   {
    "title": "A Trail of Webbed Tracks",
-   "body": "Guard Thomas sent patrols around eastern Elwynn Forest as threats grew, but Malakai and Rolf vanished near Stone Cairn Lake. Malakai's half-eaten remains lie by the shore. Webbed footprints pressed into the mud lead east along the water's edge, straight to a ramshackle murloc camp.",
+   "body": "Malakai's half-eaten remains lie by the shore. Webbed footprints mark the mud and lead east along the water's edge. They run straight to a ramshackle murloc camp.",
    "spoiler": 0
   },
   {
    "title": "The End of Patrol",
-   "body": "You follow the tracks into the heart of the coastal murloc settlement. Another corpse lies there, stripped by the creatures. An inscribed medallion hangs around the fallen soldier's neck: Footman Rolf Hartford. Neither guard survived the ambush.",
+   "body": "You follow the tracks into the heart of the coastal murloc settlement. Another corpse lies there, stripped by the creatures. An inscribed medallion around the dead soldier's neck names him Footman Rolf Hartford. Neither guard survived the ambush.",
    "spoiler": 1
   }
  ],
@@ -56,7 +56,7 @@
     "what were guards doing",
     "guard patrol elwynn"
    ],
-   "answer": "Guard Thomas stationed guards along eastern Elwynn's rivers and lakes to monitor incursions from murlocs and gnolls. The understaffed patrols were vulnerable to sudden, coordinated attacks."
+   "answer": "Guard Thomas stationed guards along eastern Elwynn's rivers and lakes to watch for murloc and gnoll incursions. The patrols were understaffed and vulnerable to sudden, coordinated attacks."
   },
   {
    "q": "How do you confirm the corpse belongs to Rolf?",
@@ -64,7 +64,7 @@
     "rolf medallion",
     "identifying rolf"
    ],
-   "answer": "A metal medallion hangs around the torn corpse's neck, inscribed with the name Footman Rolf Hartford."
+   "answer": "A metal medallion hangs around the torn corpse's neck. The inscription names him Footman Rolf Hartford."
   },
   {
    "q": "What happens after finding Rolf?",
@@ -72,7 +72,7 @@
     "next quest after rolf",
     "what to do after rolf"
    ],
-   "answer": "With the fates of Malakai and Rolf confirmed, you are tasked with returning west to the bridge at Eastvale Logging Camp to report the grim news to Guard Thomas."
+   "answer": "With the fates of Malakai and Rolf confirmed, you are tasked with returning west to the bridge at Eastvale Logging Camp. There, you report the grim news to Guard Thomas."
   },
   {
    "q": "Are the murlocs in Stone Cairn Lake an unusual threat?",
@@ -80,13 +80,13 @@
     "murloc threat elwynn",
     "why murlocs attacking"
    ],
-   "answer": "Murloc activity in Elwynn has grown unusually aggressive and coordinated. Murlocs are pushing inland into Stone Cairn Lake and the rivers, threatening local trade and lone patrols alike."
+   "answer": "Murlocs in Elwynn have grown unusually aggressive and coordinated. They are pushing inland into Stone Cairn Lake and the rivers, threatening local trade and lone patrols alike."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Finding Rolf reveals how exposed Stormwind's rural borders are, with garrison shortages leaving basic patrols open to deadly wild attacks."
+   "text": "Finding Rolf shows how exposed Stormwind's rural borders are. Garrison shortages leave even basic patrols open to deadly attacks from the wild."
   },
   {
    "target": "class:Warrior",
@@ -112,5 +112,5 @@
  "attribution": [
   "Discover Rolf's Fate"
  ],
- "style": 1
+ "style": 2
 }

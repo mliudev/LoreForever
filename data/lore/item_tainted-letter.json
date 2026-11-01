@@ -10,16 +10,16 @@
    "quest:3105"
   ]
  },
- "summary": "Drusilla La Salle sends the Tainted Letter to human warlock initiates near Northshire Abbey. It bears her seal and directs them to seek her tutelage discreetly.",
+ "summary": "Near Northshire Abbey, Drusilla La Salle sends human warlock initiates a sealed summons for secret tutelage, beyond watchful eyes.",
  "sections": [
   {
    "title": "A Covert Summons",
-   "body": "The Tainted Letter bears Drusilla La Salle’s insignia and reaches initiates returning from nearby kobold camps. While priests, paladins, and soldiers train openly across Northshire Abbey’s lawns, fel practitioners must keep their path quiet. The letter directs novice warlocks to find their mentor near the abbey grounds without drawing the notice of town guards or clerics.",
+   "body": "Initiates returning from nearby kobold camps carry Drusilla's summons toward Northshire Abbey. Priests, paladins, and soldiers train openly across its lawns, but fel practitioners must keep their path quiet. Town guards and clerics may grow suspicious if novice warlocks draw attention while seeking their mentor near the abbey grounds.",
    "spoiler": 0
   },
   {
    "title": "The Price of Ambition",
-   "body": "Drusilla La Salle meets her pupils on the fringes, where sentries are less likely to pry. Elwynn’s ordinary folk distrust warlocks, so the letter begins a lesson in discipline. Arcane and nether magic bring the risk of corruption. Those who commune with denizens of the Twisting Nether must temper ambition with patient self-control.",
+   "body": "Drusilla La Salle meets her pupils on the fringes, where sentries are less likely to pry. Elwynn’s ordinary folk distrust warlocks, and the letter begins a lesson in discipline. Arcane and nether magic risk corruption. Those who commune with denizens of the Twisting Nether must temper ambition with patient self-control.",
    "spoiler": 0
   }
  ],
@@ -40,7 +40,7 @@
     "what makes the letter tainted",
     "tainted seal"
    ],
-   "answer": "The letter bears Drusilla La Salle’s insignia and traces of fel magic, marking it as the work of a practitioner of demonic arts."
+   "answer": "Drusilla La Salle’s insignia and traces of fel magic mark the letter as the work of a practitioner of demonic arts."
   },
   {
    "q": "Why are Northshire guards watching Drusilla La Salle?",
@@ -49,7 +49,7 @@
     "why do guards suspect drusilla",
     "warlock hiding in northshire"
    ],
-   "answer": "Northshire’s guards and priests distrust fel magic and demonic summoning. Drusilla keeps to the abbey’s outskirts to avoid the authorities’ close watch."
+   "answer": "Northshire’s guards and priests distrust fel magic and demonic summoning. Drusilla keeps to the abbey’s outskirts to avoid their close watch."
   },
   {
    "q": "What advice does Drusilla give upon reading the letter?",
@@ -89,5 +89,5 @@
   "Tainted Letter",
   "Tainted Letter (quest)"
  ],
- "style": 1
+ "style": 2
 }

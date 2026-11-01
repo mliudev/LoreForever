@@ -8,11 +8,11 @@
   "wiki": "Solm Hargrin",
   "refs": 2
  },
- "summary": "At Anvilmar in Coldridge Valley, Solm Hargrin teaches rogues the quiet arts. The dwarf trains young dwarves and gnomes, and holds that honor among thieves matters as tensions rise across Azeroth.",
+ "summary": "At Anvilmar in Coldridge Valley, Solm Hargrin prepares young dwarves and gnomes for the work of a rogue. As tensions rise across Azeroth, he believes covert operatives will be vital.",
  "sections": [
   {
    "title": "A Mentor in the Shadows",
-   "body": "Solm Hargrin trains rogues at Anvilmar in Coldridge Valley. He welcomes young dwarves and gnomes, deciphers coded messages for them, and teaches techniques such as Eviscerate. Ironforge relies on mountaineers and warriors, but Solm knows some threats call for quieter methods. He teaches loyalty and honor among thieves as the world grows more unsettled.",
+   "body": "Solm Hargrin teaches his pupils to decipher coded messages and use techniques such as Eviscerate. Ironforge relies on mountaineers and warriors, yet some threats call for quieter methods. So he teaches loyalty to the craft and to one another, preparing his pupils for a more unsettled world.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "solm hargrin lore",
     "anvilmar rogue trainer"
    ],
-   "answer": "Solm Hargrin trains rogues at Anvilmar in Coldridge Valley. He teaches young dwarves and gnomes stealth and bladecraft."
+   "answer": "Solm Hargrin trains young dwarves and gnomes in rogue work at Anvilmar in Coldridge Valley. He teaches them stealth and bladecraft."
   },
   {
    "q": "What is Solm Hargrin's philosophy on rogue work?",
@@ -33,7 +33,7 @@
     "honor among thieves",
     "solm view"
    ],
-   "answer": "Solm teaches honor among thieves. He holds that loyalty to the craft and to one another matters, even when their methods are underhanded."
+   "answer": "Solm Hargrin teaches honor among thieves. He believes loyalty to the craft and to one another matters, even when their methods are underhanded."
   },
   {
    "q": "What quests does Solm Hargrin provide or receive?",
@@ -42,7 +42,7 @@
     "encrypted rune solm",
     "encrypted memorandum solm"
    ],
-   "answer": "Novice dwarven rogues bring him an Encrypted Rune, while new gnomish rogues bring an Encrypted Memorandum. After deciphering these orders, Solm sends trainees to master offensive maneuvers in the field."
+   "answer": "Novice dwarven rogues bring Solm Hargrin an Encrypted Rune, while new gnomish rogues bring him an Encrypted Memorandum. He deciphers the orders, then sends trainees to master offensive maneuvers in the field."
   },
   {
    "q": "Does Solm Hargrin train races other than dwarves?",
@@ -50,13 +50,13 @@
     "can gnomes train with solm",
     "gnome rogue trainer anvilmar"
    ],
-   "answer": "Yes. Solm trains gnomes alongside dwarves in Coldridge Valley."
+   "answer": "Yes. Solm Hargrin trains gnomes alongside dwarves in Coldridge Valley."
   }
  ],
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "As a dwarf or gnome beginning rogue training, you can learn the basics from Solm Hargrin, who also deciphers your first guild orders."
+   "text": "As a dwarf or gnome beginning rogue training, you can learn the basics from Solm Hargrin. He also deciphers your first guild orders."
   },
   {
    "target": "race:Dwarf",
@@ -83,5 +83,5 @@
  "attribution": [
   "Solm Hargrin"
  ],
- "style": 1
+ "style": 2
 }

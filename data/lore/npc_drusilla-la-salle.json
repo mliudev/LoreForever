@@ -8,16 +8,16 @@
   "wiki": "Drusilla La Salle",
   "refs": 1
  },
- "summary": "Outside Northshire Abbey, Drusilla La Salle teaches warlocks in the graveyard. The human trainer works beyond the Holy Order’s reach, guiding new spellcasters in shadow and summoning. When forbidden knowledge leaves the abbey, she moves to claim it.",
+ "summary": "Outside Northshire Abbey, Drusilla La Salle teaches warlocks in the graveyard. The human trainer guides new spellcasters in shadow and summoning, beyond the Holy Order’s reach. When forbidden knowledge leaves the abbey, she moves to claim it.",
  "sections": [
   {
    "title": "Shadows in Holy Ground",
-   "body": "Drusilla La Salle teaches novice warlocks among the headstones outside Northshire Abbey. Paladins and priests practice beneath the abbey’s stained glass, while warlocks keep to society’s edges because demonology and fel magic are taboo in Stormwind. Recruits receive tainted correspondence before Drusilla shows them how to wield shadow power without drawing the abbey authorities’ immediate anger.",
+   "body": "Drusilla La Salle teaches novice warlocks among the headstones outside Northshire Abbey. Within, paladins and priests practice beneath stained glass. Warlocks keep to society’s edges because Stormwind forbids demonology and fel magic. Recruits receive tainted correspondence, then Drusilla teaches them to wield shadow without drawing the abbey authorities’ immediate anger.",
    "spoiler": 0
   },
   {
    "title": "Powers of the Void",
-   "body": "Northshire Abbey’s library wing holds hazardous, forbidden books, including Powers of the Void. Drusilla has long wanted the manuscript, but a warlock in the guarded archives would invite suspicion. Her opening comes when an apostate novice flees the abbey to join the Defias Brotherhood, carrying the book. Drusilla sends her apprentices after the turncoat to bring her the grimoire, claiming they are recovering abbey property.",
+   "body": "Northshire Abbey’s library wing holds forbidden books, including Powers of the Void. Drusilla has long wanted the manuscript, but a warlock in the guarded archives would invite suspicion. Her chance comes when an apostate novice flees the abbey to join the Defias Brotherhood with the book. Drusilla sends her apprentices after the turncoat to bring her the grimoire, claiming they are recovering abbey property.",
    "spoiler": 1
   }
  ],
@@ -29,7 +29,7 @@
     "warlock in holy abbey",
     "why is she in the graveyard"
    ],
-   "answer": "The Church of the Holy Light and Stormwind’s leaders deeply distrust warlocks. Drusilla teaches outside the abbey, in the nearby graveyard, away from the priests and clerics studying within."
+   "answer": "The Church of the Holy Light and Stormwind’s leaders deeply distrust warlocks. Drusilla teaches in the nearby graveyard, away from the priests and clerics studying inside Northshire Abbey."
   },
   {
    "q": "What book is Drusilla trying to obtain?",
@@ -38,7 +38,7 @@
     "powers of the void book",
     "the stolen tome quest book"
    ],
-   "answer": "Drusilla seeks Powers of the Void, a grimoire once locked in a protected part of Northshire Abbey’s Library Wing. A Defias defector steals it, putting the book beyond the abbey’s reach."
+   "answer": "Drusilla seeks Powers of the Void, a grimoire once locked in a protected part of Northshire Abbey’s Library Wing. A Defias defector steals it, carrying the book beyond the abbey’s reach."
   },
   {
    "q": "Who stole the book from the library?",
@@ -88,5 +88,5 @@
  "attribution": [
   "Drusilla La Salle"
  ],
- "style": 1
+ "style": 2
 }

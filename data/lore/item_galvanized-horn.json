@@ -11,11 +11,11 @@
    "quest:1844"
   ]
  },
- "summary": "In the Charred Vale, chimaera matriarchs bear horns that Stormwind and Thunder Bluff armorers seek. These hardened growths go into specialized armor for warriors.",
+ "summary": "In the Charred Vale, armorers seek Galvanized Horns from chimaera matriarchs. Their hardened growths go into specialized armor for warriors.",
  "sections": [
   {
    "title": "Trophy of the Charred Vale",
-   "body": "Chimaera matriarchs prowl the Charred Vale in the Stonetalon Mountains. Their horns grow unusually hard through ash, flame, and survival. Lesser fledgling chimaeras yield brittle, blackened horns, but a matriarch's horn has strength like treated metal. Furen Longbeard in Stormwind and Orm Stonehoof in Thunder Bluff both seek one as a test of martial valor and a key ingredient for exceptional mail armor.",
+   "body": "Chimaera matriarchs prowl the Charred Vale in the Stonetalon Mountains. Ash, flame, and survival harden their horns. Fledgling chimaeras yield brittle, blackened horns, but a matriarch’s is strong as treated metal. Furen Longbeard in Stormwind and Orm Stonehoof in Thunder Bluff each seek one as a test of martial valor and an ingredient for exceptional mail armor.",
    "spoiler": 0
   }
  ],
@@ -35,7 +35,7 @@
     "what is galvanized horn for",
     "galvanized horn use"
    ],
-   "answer": "Master armorers prize the horn's density and heat resistance. They use it to reinforce specialized suits of mail and plate armor."
+   "answer": "Master armorers prize the horn’s density and heat resistance. They use it to reinforce specialized suits of mail and plate armor."
   },
   {
    "q": "Who accepts the Galvanized Horn?",
@@ -43,7 +43,7 @@
     "who needs galvanized horn",
     "galvanized horn turn in"
    ],
-   "answer": "Furen Longbeard in Stormwind seeks the horn for fire-hardened armor for Alliance warriors. Orm Stonehoof in Thunder Bluff seeks it as proof of strength and to fashion a warrior's helm for Horde warriors."
+   "answer": "Furen Longbeard in Stormwind seeks the horn for fire-hardened armor for Alliance warriors. Orm Stonehoof in Thunder Bluff seeks it as proof of strength and to fashion a warrior’s helm for Horde warriors."
   },
   {
    "q": "How does it differ from a regular Charred Horn?",
@@ -51,7 +51,7 @@
     "charred horn vs galvanized horn",
     "is it different from charred horn"
    ],
-   "answer": "Common Charred Horns come from lesser, fledgling chimaeras. A Galvanized Horn comes from a mature matriarch and has a denser, tempered structure suited to masterwork smithing."
+   "answer": "Common Charred Horns come from lesser, fledgling chimaeras. A Galvanized Horn comes from a mature matriarch, with a denser, tempered structure suited to masterwork smithing."
   }
  ],
  "angles": [
@@ -88,5 +88,5 @@
   "Fire Hardened Mail",
   "Chimaeric Horn"
  ],
- "style": 1
+ "style": 2
 }

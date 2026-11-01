@@ -8,16 +8,16 @@
   "wiki": "Field Marshal Stonebridge",
   "refs": 1
  },
- "summary": "At Stormwind's gates, Field Marshal Stonebridge helps oversee the city's defenses with General Marcus Jonathan. She also receives reports and trophies from major victories.",
+ "summary": "At Stormwind's gates, Field Marshal Stonebridge helps guard the capital with General Marcus Jonathan. She also receives reports and trophies after great victories.",
  "sections": [
   {
    "title": "A Bulwark at the Gates",
-   "body": "Field Marshal Stonebridge watches the eastern archway at the entrance to the Valley of Heroes, beside Stormwind's main gates. A senior officer in the Grand Alliance, she works closely with General Marcus Jonathan. From the gate, she watches defenders, travelers, and returning champions enter the capital, ready to organize the garrison if danger breaches the outer defenses.",
+   "body": "At Stormwind's main gates, Field Marshal Stonebridge watches the eastern archway into the Valley of Heroes. A senior Grand Alliance officer, she works closely with General Marcus Jonathan. Defenders, travelers, and returning champions pass beneath her post. If danger breaks through the outer defenses, she is ready to organize the garrison.",
    "spoiler": 0
   },
   {
    "title": "Bearer of Trophies",
-   "body": "Field Marshal Stonebridge also receives reports and spoils from campaigns against great threats to the kingdom. Senior commanders rely on officers like her to confirm important intelligence and mark victories in the field, including the defeat of warlords and monsters in the crags of Blackrock Mountain.",
+   "body": "Field Marshal Stonebridge receives reports and spoils from campaigns against great threats to the kingdom. Senior commanders rely on officers like her to confirm important intelligence and mark victories in the field. Among them are victories over warlords and monsters in the crags of Blackrock Mountain.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "where is field marshal stonebridge",
     "find stonebridge"
    ],
-   "answer": "She stands beneath an archway in the northeastern Valley of Heroes in Stormwind City, just to the right of General Marcus Jonathan as you enter through the city gates."
+   "answer": "Field Marshal Stonebridge stands beneath an archway in the northeastern Valley of Heroes in Stormwind City, just to the right of General Marcus Jonathan as you enter the city gates."
   },
   {
    "q": "What is Field Marshal Stonebridge's role in Stormwind?",
@@ -38,7 +38,7 @@
     "stonebridge purpose",
     "who is field marshal stonebridge"
    ],
-   "answer": "She is a senior Alliance officer who helps General Marcus Jonathan defend Stormwind's main gate. She also receives important military reports and trophies from Alliance champions returning with great victories."
+   "answer": "Field Marshal Stonebridge is a senior Alliance officer who helps General Marcus Jonathan defend Stormwind's main gate. She also receives important military reports and trophies from Alliance champions returning with great victories."
   },
   {
    "q": "What rank is a Field Marshal in the Alliance?",
@@ -54,17 +54,17 @@
     "stonebridge quests",
     "the lord of blackrock quest ender"
    ],
-   "answer": "Field Marshal Stonebridge receives the report and trophy for 'The Lord of Blackrock', confirming Nefarian's defeat when Alliance adventurers bring the dragon's head back to Stormwind's gates."
+   "answer": "Field Marshal Stonebridge receives the report and trophy for 'The Lord of Blackrock'. The report confirms Nefarian's defeat when Alliance adventurers bring the dragon's head back to Stormwind's gates."
   }
  ],
  "angles": [
   {
    "target": "class:Warrior",
-   "text": "As a warrior, you can earn the respect of frontline soldiers by striving for high martial standing in the Alliance. Field Marshal Stonebridge is one of the senior commanders at Stormwind's gates."
+   "text": "As a warrior, you can earn the respect of frontline soldiers by seeking high martial standing in the Alliance. Field Marshal Stonebridge is one of the senior commanders at Stormwind's gates."
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance member, you share the defense of Stormwind with officers such as Field Marshal Stonebridge and General Marcus Jonathan."
+   "text": "As an Alliance member, you share Stormwind's defense with officers such as Field Marshal Stonebridge and General Marcus Jonathan."
   }
  ],
  "keywords": [
@@ -88,5 +88,5 @@
  "attribution": [
   "Field Marshal Stonebridge"
  ],
- "style": 1
+ "style": 2
 }

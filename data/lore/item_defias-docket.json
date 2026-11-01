@@ -11,16 +11,16 @@
    "quest:1245"
   ]
  },
- "summary": "Defias operatives have hidden their orders at Addle's Stead in western Duskwood. The docket gives Stormwind's search for its missing emissary a lead into the Brotherhood's plans.",
+ "summary": "Defias operatives hid their orders at Addle's Stead in western Duskwood. The docket gives Stormwind's search for its missing emissary a lead into the Brotherhood's plans.",
  "sections": [
   {
    "title": "A Trail into the Dark",
-   "body": "Master Elling Trias points investigators toward Duskwood as they follow leads on the kingdom's missing diplomat. Watcher Backus has noted unusual Defias movements converging on Addle's Stead, the derelict farm south of the road from Westfall. A strongbox on the property holds the Defias Docket. Its records track the Brotherhood's movements, revealing work that reaches beyond highway robbery and local banditry.",
+   "body": "Master Elling Trias points investigators toward Duskwood as they follow leads on the kingdom's missing diplomat. Watcher Backus has tracked unusual Defias movements converging on Addle's Stead, the derelict farm south of the road from Westfall. A strongbox there holds the Defias Docket. Its records trace the Brotherhood's movements and show that their work reaches beyond highway robbery and local banditry.",
    "spoiler": 0
   },
   {
    "title": "The Web of Conspiracy",
-   "body": "The papers prove so intricate and politically dangerous that Watcher Backus refuses to keep them. He fears severe punishment from his superiors if they catch him handling the docket. Back at Trias' Cheese shop in Stormwind City, the papers reveal an elaborate abduction scheme backed by extensive Defias resources. They also name underworld operators, including one codenamed 'Fist.'",
+   "body": "The papers are intricate and politically dangerous, so Watcher Backus refuses to keep them. He fears severe punishment from his superiors if they catch him handling the docket. Back at Trias' Cheese shop in Stormwind City, the papers reveal an elaborate abduction scheme backed by extensive Defias resources. They also name underworld operators, including one codenamed 'Fist.'",
    "spoiler": 1
   }
  ],
@@ -41,7 +41,7 @@
     "where to find defias docket",
     "addle's stead docket"
    ],
-   "answer": "You find the docket locked inside a Defias strongbox at the dilapidated farmhouse in Addle's Stead, south of the road from Westfall into western Duskwood."
+   "answer": "The docket lies locked inside a Defias strongbox at the dilapidated farmhouse in Addle's Stead, south of the road from Westfall into western Duskwood."
   },
   {
    "q": "Why was the docket kept in Duskwood?",
@@ -63,11 +63,11 @@
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "As a rogue, you can see how the Defias Brotherhood uses cipher work and covert logistics behind the appearance of common outlawry."
+   "text": "As a rogue, you can see how the Defias Brotherhood uses cipher work and covert logistics beneath the appearance of common outlawry."
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance member, you can see that the documents reveal a coordinated Defias plot reaching far beyond common banditry."
+   "text": "As an Alliance member, you can see that these documents reveal a coordinated Defias plot reaching far beyond common banditry."
   }
  ],
  "keywords": [
@@ -94,5 +94,5 @@
   "The Missing Diplomat (5)",
   "The Missing Diplomat (6)"
  ],
- "style": 1
+ "style": 2
 }

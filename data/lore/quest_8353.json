@@ -17,16 +17,16 @@
   "wiki": "Chicken Clucking for a Mint (Alliance)",
   "chain": []
  },
- "summary": "At Hallow's End, Innkeeper Firebrew asks visitors in Ironforge to cluck for a mint meant for Jesper, a young orphan in Stormwind. Alliance champions gather holiday sweets from their capitals to bring him cheer.",
+ "summary": "At Hallow's End, Innkeeper Firebrew asks Ironforge visitors to cluck for a mint for Jesper, a young orphan in Stormwind. Alliance champions gather sweets from their capitals to bring him cheer.",
  "sections": [
   {
    "title": "A Hallow's End Tradition",
-   "body": "Young Jesper in Stormwind longs for Hallow's End sweets, though sickness and orphanhood keep him from joining the festivities. Alliance champions gather treats for him from innkeepers in the Alliance capitals, giving seasoned adventurers a reason to go door to door during the harvest-to-winter celebration.",
+   "body": "Jesper is sick, orphaned in Stormwind, and longs for Hallow's End sweets. Alliance champions gather treats for him from innkeepers in their capitals. So seasoned adventurers have reason to go door to door during the harvest-to-winter celebration.",
    "spoiler": 0
   },
   {
    "title": "Innkeeper Firebrew's Price",
-   "body": "At the Stonefire Tavern in Ironforge's Commons, Innkeeper Firebrew keeps the Ironforge Mints. Asking politely is not enough; visitors must flap their arms and cluck like chickens before he parts with one. The performance gives the tavern's patrons a laugh, and the mint helps bring holiday cheer to Jesper.",
+   "body": "Innkeeper Firebrew keeps the Ironforge Mints at the Stonefire Tavern in Ironforge's Commons. A polite request won't do. Visitors flap their arms and cluck like chickens before he parts with one. The performance gives the tavern's patrons a laugh, and the mint helps bring holiday cheer to Jesper.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "firebrew chicken reason",
     "why do i have to cluck"
    ],
-   "answer": "Innkeeper Firebrew asks you to cluck because Hallow's End calls for a little playful theater. Seasoned adventurers are too old to trick-or-treat, so he trades an Ironforge Mint for a comical performance and a laugh from the tavern patrons."
+   "answer": "Innkeeper Firebrew asks you to cluck because Hallow's End calls for playful theater. Seasoned adventurers are too old to trick-or-treat, so he trades an Ironforge Mint for a comical performance and a laugh from the tavern patrons."
   },
   {
    "q": "Who is Jesper and why am I getting mints for him?",
@@ -65,7 +65,7 @@
     "firebrew location",
     "ironforge innkeeper"
    ],
-   "answer": "Innkeeper Firebrew can be found at the Stonefire Tavern in Ironforge's Commons, serving drinks and boarding travelers."
+   "answer": "Innkeeper Firebrew can be found at the Stonefire Tavern in Ironforge's Commons, where he serves drinks and boards travelers."
   },
   {
    "q": "What do I receive for clucking?",
@@ -93,7 +93,7 @@
   },
   {
    "target": "race:Dwarf",
-   "text": "As a dwarf, you know Ironforge's festival traditions leave room for a joke, and Firebrew's demand shows that no patron takes themselves too seriously."
+   "text": "As a dwarf, you know Ironforge's festival traditions leave room for a joke. Firebrew's demand shows that no patron takes themselves too seriously."
   }
  ],
  "keywords": [
@@ -114,5 +114,5 @@
  "attribution": [
   "Chicken Clucking for a Mint (Alliance)"
  ],
- "style": 1
+ "style": 2
 }

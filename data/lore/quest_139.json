@@ -22,16 +22,16 @@
    "Captain Sanders' Hidden Treasure (Classic 4)"
   ]
  },
- "summary": "A broken barrel on Westfall's western shore holds Captain Sanders' Hidden Treasure clue. It sends you north toward an old jug beside a coastal windmill, another step along the late pirate's trail to his hidden riches.",
+ "summary": "A broken barrel on Westfall's western shore begins Captain Sanders' Hidden Treasure trail. Its clue points north to an old jug beside a coastal windmill, one step closer to the late pirate's riches.",
  "sections": [
   {
    "title": "A Pirate's Breadcrumb Trail",
-   "body": "Captain Sanders scattered his directions along Westfall's western shore. Each clue leads only to the next container, never straight to the prize. You have to follow the trail from one barrel, chest, or jug to another across the bluffs to reach his plunder.",
+   "body": "Captain Sanders left clues that point only to the next hiding place. No single parchment shows where his plunder lies, so the trail stays unresolved until you find each message.",
    "spoiler": 0
   },
   {
    "title": "North Toward the Bluffs",
-   "body": "From the broken barrel, the parchment points due north toward the sea cliffs. Beside an isolated windmill on the bluffs, an abandoned jug holds the next clue. Murlocs and Defias scavengers roam coastal Westfall, so the way north carries danger.",
+   "body": "The parchment sends you due north from the barrel to the sea cliffs. An isolated windmill stands on the bluffs, with another clue in an abandoned jug beside it. Murlocs and Defias scavengers roam the coast, making the way perilous.",
    "spoiler": 0
   }
  ],
@@ -43,7 +43,7 @@
     "what is this quest",
     "who is sanders"
    ],
-   "answer": "Captain Sanders was a buccaneer who hid his riches along the Westfall coast. He left written riddles in barrels, chests, and jugs across the countryside instead of a map."
+   "answer": "Captain Sanders was a buccaneer who hid his riches along the Westfall coast. Instead of a map, he left written riddles in barrels, chests, and jugs across the countryside."
   },
   {
    "q": "Where does this third clue lead?",
@@ -60,7 +60,7 @@
     "why clues",
     "why not a full map"
    ],
-   "answer": "Sanders split his directions to protect his treasure from mutinous crewmates and rival marauders. Finding one clue alone would not reveal the whole route."
+   "answer": "Sanders split his directions to protect his treasure from mutinous crewmates and rival marauders. One clue alone would not reveal the whole route."
   },
   {
    "q": "Can Horde players complete this trail?",
@@ -68,7 +68,7 @@
     "is this alliance only",
     "horde sanders treasure"
    ],
-   "answer": "Yes. Any adventurer can interact with the clues and objects tied to Captain Sanders' cache, though Westfall lies deep in Alliance territory."
+   "answer": "Yes. Any adventurer can follow Captain Sanders' clues and handle the objects tied to his cache, though Westfall lies deep in Alliance territory."
   },
   {
    "q": "Does this clue directly reveal the chest?",
@@ -76,7 +76,7 @@
     "is the treasure in the jug",
     "final step"
    ],
-   "answer": "No. The jug near the coastal windmill holds another clue pointing to Sanders' chest, making this the penultimate step in the hunt."
+   "answer": "No. The jug near the coastal windmill holds another clue pointing to Sanders' chest. This is the penultimate step in the hunt."
   },
   {
    "q": "What dangers surround the trail to the windmill?",
@@ -90,7 +90,7 @@
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "As a rogue, following a scoundrel's trail of concealed messages and hidden markers along the bluffs may feel familiar."
+   "text": "As a rogue, you may find a scoundrel's trail of concealed messages and hidden markers along the bluffs familiar."
   },
   {
    "target": "faction:Alliance",
@@ -114,5 +114,5 @@
  "attribution": [
   "Captain Sanders' Hidden Treasure (Classic 3)"
  ],
- "style": 1
+ "style": 2
 }

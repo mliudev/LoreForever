@@ -10,11 +10,11 @@
    "quest:139"
   ]
  },
- "summary": "In Westfall, a scrap of Captain Sanders' parchment points the way to his next hidden marker.",
+ "summary": "In Westfall, a scrap of Captain Sanders' parchment points toward his next hidden marker.",
  "sections": [
   {
    "title": "A Trail on the Coastal Bluffs",
-   "body": "Captain Sanders hid his stolen riches across Westfall, using riddles and buried markers instead of one map that could be seized. This scrap continues the trail from the previous hiding place. It tells the finder to turn north and look for a discarded jug near a lonely windmill above the sea cliffs.",
+   "body": "Captain Sanders hid his stolen riches across Westfall, leaving riddles and buried markers instead of one map that could be seized. This scrap carries the trail onward from the previous hiding place. It says to turn north and seek a discarded jug beside a lonely windmill above the sea cliffs.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "sanders clue text",
     "directions on clue"
    ],
-   "answer": "The parchment says to face north from the hidden barrel and walk straight until you find an empty jug beside a lone windmill on the sea bluffs."
+   "answer": "The parchment says to face north from the hidden barrel and walk straight to an empty jug beside a lone windmill on the sea bluffs."
   },
   {
    "q": "Who was Captain Sanders?",
@@ -70,5 +70,5 @@
   "Another Clue to Sanders' Treasure",
   "Captain Sanders' Hidden Treasure (Classic 3)"
  ],
- "style": 1
+ "style": 2
 }

@@ -17,16 +17,16 @@
   "wiki": "Patrolling Westfall",
   "chain": []
  },
- "summary": "Gnoll packs roam Westfall's grasslands, threatening the people who still live there. Captain Danuvin calls on volunteers from Sentinel Hill to hunt them, fearing they work with the thieves in the Deadmines.",
+ "summary": "Gnoll packs threaten the people still living on Westfall’s grasslands. From Sentinel Hill, Captain Danuvin calls on volunteers to hunt them, fearing they work with thieves in the Deadmines.",
  "sections": [
   {
    "title": "Abandoned by the Crown",
-   "body": "Sentinel Hill is Westfall's main defense, held by local volunteers rather than royal troops. With Stormwind sending no soldiers to protect the outer farmlands, the people formed the People's Militia. Captain Danuvin, once a farmer in Westfall, leads them and refuses to abandon his homeland. The militia depends on travelers who pass through to help hold its perimeter against the dangers gathering across the plains.",
+   "body": "Sentinel Hill is Westfall’s main defense, held by local volunteers instead of royal troops. With Stormwind sending no soldiers to protect the outer farmlands, the people formed the People’s Militia. Captain Danuvin once farmed in Westfall. Now he leads the militia and refuses to abandon his homeland.\n\nThe militia depends on travelers passing through to help hold its perimeter against dangers gathering across the plains.",
    "spoiler": 0
   },
   {
    "title": "The Scavengers of the Grasslands",
-   "body": "Gnolls now threaten the refugees and squatters struggling to survive in Westfall. Danuvin's scouts believe the packs are working with bandits based in the Deadmines. He sends hunters to collect gnoll paws, hoping to curb the packs' growing patrols and break any cooperation between the beasts and the outlaws.",
+   "body": "Gnolls threaten the refugees and squatters struggling to survive in Westfall. Danuvin’s scouts believe the packs work with bandits based in the Deadmines. So he sends hunters to collect gnoll paws. He hopes to curb the packs’ growing patrols and break any cooperation between the beasts and the outlaws.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who is danuvin",
     "quest giver sentinel hill"
    ],
-   "answer": "Captain Danuvin commands volunteer defenders at Sentinel Hill. Once a farmer in Westfall, he took the lead when Stormwind withdrew its support and refuses to abandon the people who remain."
+   "answer": "Captain Danuvin commands the volunteer defenders at Sentinel Hill. Once a farmer in Westfall, he took the lead when Stormwind withdrew its support and refuses to abandon the people who remain."
   },
   {
    "q": "Why is the People's Militia fighting gnolls instead of Stormwind soldiers?",
@@ -47,7 +47,7 @@
     "where are stormwind guards",
     "why militia"
    ],
-   "answer": "Stormwind's House of Nobles has largely ignored Westfall's plight, leaving the region without royal soldiers. Displaced farmers and laborers formed the People's Militia to defend their land from bandits and wild beasts."
+   "answer": "Stormwind’s House of Nobles has largely ignored Westfall’s plight, leaving the region without royal soldiers. Displaced farmers and laborers formed the People’s Militia to defend their land from bandits and wild beasts."
   },
   {
    "q": "Are the gnolls in Westfall organized?",
@@ -56,7 +56,7 @@
     "gnoll alliance",
     "deadmines thieves gnolls"
    ],
-   "answer": "Gnolls are usually chaotic scavengers, but Captain Danuvin sees signs that Westfall's packs coordinate with thieves based in the Deadmines. They may be guarding the criminals' outer reaches."
+   "answer": "Gnolls are usually chaotic scavengers, but Captain Danuvin sees signs that Westfall’s packs coordinate with thieves based in the Deadmines. They may guard the criminals’ outer reaches."
   },
   {
    "q": "Why does Captain Danuvin ask for gnoll paws?",
@@ -73,7 +73,7 @@
     "gnoll locations",
     "where to find gnolls westfall"
    ],
-   "answer": "Gnoll hunting parties and camps lie across Westfall's central and southern plains. They roam open fields around abandoned homesteads and near the hillsides."
+   "answer": "Gnoll hunting parties and camps lie across Westfall’s central and southern plains. They roam open fields around abandoned homesteads and near the hillsides."
   },
   {
    "q": "What happens once the gnoll threat is pushed back?",
@@ -82,17 +82,17 @@
     "militia goal",
     "breadbasket of stormwind"
    ],
-   "answer": "The People's Militia hopes that thinning the gnoll and outlaw ranks will let people reclaim the plains and restore the breadbasket that once fed the kingdom."
+   "answer": "The People’s Militia hopes that thinning the gnoll and outlaw ranks will let people reclaim the plains and restore the breadbasket that once fed the kingdom."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "For the Alliance, Westfall's struggling rural people stand at odds with the aristocracy in Stormwind Keep, which has turned away from their plight."
+   "text": "For the Alliance, Westfall’s struggling rural people stand at odds with the aristocracy in Stormwind Keep, which has turned away from their plight."
   },
   {
    "target": "race:Human",
-   "text": "As a human, seeing Westfall's golden fields overrun by gnolls shows how fragile the kingdom's recovery remains after the recent wars."
+   "text": "As a human, seeing Westfall’s golden fields overrun by gnolls shows how fragile the kingdom’s recovery remains after the recent wars."
   }
  ],
  "keywords": [
@@ -118,5 +118,5 @@
  "attribution": [
   "Patrolling Westfall"
  ],
- "style": 1
+ "style": 2
 }

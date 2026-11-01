@@ -8,11 +8,11 @@
   "wiki": "Golnir Bouldertoe",
   "refs": 2
  },
- "summary": "Beside Ironforge's Great Forge, Golnir Bouldertoe supplies miners and prospectors and receives dispatches for couriers and travelers.",
+ "summary": "At Ironforge's Great Forge, Golnir Bouldertoe supplies miners and prospectors and receives dispatches from outposts.",
  "sections": [
   {
    "title": "Merchant of the Great Forge",
-   "body": "At Ironforge's Great Forge, Golnir Bouldertoe outfits prospectors and craftsmen with the necessities of their trade. He sells sturdy mining picks, flux, and coal, supplies that fuel the smelting fires and smithies that define the dwarven capital. Kin to Geofram Bouldertoe, Golnir is a reliable contact for workers arriving in the city. He directs fresh hands and receives supply messages carried from nearby outposts.",
+   "body": "Golnir Bouldertoe outfits prospectors and craftsmen at Ironforge's Great Forge. He sells mining picks, flux, and coal for the smelting fires and smithies of the dwarven capital. Kin to Geofram Bouldertoe, Golnir is a trusted contact for workers arriving in the city. He guides fresh hands and receives supply messages from nearby outposts.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "where is golnir",
     "golnir bouldertoe ironforge"
    ],
-   "answer": "Golnir Bouldertoe works in Ironforge's Great Forge, near the central smelting and blacksmithing areas alongside fellow trade merchants."
+   "answer": "Golnir Bouldertoe works in Ironforge's Great Forge, near the central smelting and blacksmithing areas with other trade merchants."
   },
   {
    "q": "What goods does Golnir sell?",
@@ -33,7 +33,7 @@
     "what does golnir sell",
     "golnir inventory"
    ],
-   "answer": "Golnir sells mining picks, coal, and flux to prospectors digging and refining raw ore."
+   "answer": "Golnir sells mining picks, coal, and flux to prospectors who dig and refine raw ore."
   },
   {
    "q": "Is Golnir Bouldertoe involved in any quests?",
@@ -41,7 +41,7 @@
     "golnir quests",
     "ride to ironforge golnir"
    ],
-   "answer": "Yes. Courier errands connect the surrounding dwarven settlements to the capital. Travelers carrying messages from outposts such as Thelsamar, including those linked to Gryth Thurden and incoming flights, deliver them directly into Golnir's hands."
+   "answer": "Yes. Couriers carry messages from nearby dwarven settlements to the capital. Travelers bring dispatches from outposts such as Thelsamar, including messages linked to Gryth Thurden and incoming flights, directly to Golnir."
   },
   {
    "q": "Is Golnir related to anyone else in Dun Morogh?",
@@ -49,17 +49,17 @@
     "bouldertoe family",
     "geofram bouldertoe relative"
    ],
-   "answer": "Golnir shares his clan name with Geofram Bouldertoe, the mining trainer who works beside him in Ironforge's Great Forge."
+   "answer": "Golnir shares his clan name with Geofram Bouldertoe, a mining trainer who works beside him in Ironforge's Great Forge."
   }
  ],
  "angles": [
   {
    "target": "profession:Mining",
-   "text": "Miners visiting the Great Forge rely on Golnir for vital tools of the craft, including spare picks and flux needed to smelt raw vein-work into refined bars."
+   "text": "Miners at the Great Forge rely on Golnir for tools of their craft, including spare picks and flux to smelt raw vein-work into refined bars."
   },
   {
    "target": "race:Dwarf",
-   "text": "For dwarves returning from their first journeys out in Coldridge or Kharanos, Golnir is an early contact in the capital, welcoming travelers beside the mountain's fiery heart."
+   "text": "For dwarves returning from their first journeys out in Coldridge or Kharanos, Golnir is an early contact in the capital. He welcomes travelers beside the mountain's fiery heart."
   }
  ],
  "keywords": [
@@ -81,5 +81,5 @@
  "attribution": [
   "Golnir Bouldertoe"
  ],
- "style": 1
+ "style": 2
 }

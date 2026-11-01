@@ -20,16 +20,16 @@
    "Coldridge Valley Mail Delivery (2)"
   ]
  },
- "summary": "Talin Keeneye's dispatch is bound for Grelin Whitebeard's camp in Coldridge Valley. Carrying it down the southeastern road keeps the mountaineers in touch with Ironforge.",
+ "summary": "In Coldridge Valley, a dispatch travels from Talin Keeneye's post to Grelin Whitebeard's camp. You carry it down the southeastern road, keeping the mountaineers in touch with Ironforge.",
  "sections": [
   {
    "title": "A Link to the Mountain",
-   "body": "Couriers carry news through Coldridge Valley, where field scouts and sentries need word from the high passes and Ironforge. Anvilmar is the valley's administrative heart, but those posted along the trails rely on foot messengers to carry their dispatches.",
+   "body": "Anvilmar is Coldridge Valley's center of rule. From there, field scouts and sentries carry dispatches along the trails between the high passes and Ironforge.",
    "spoiler": 0
   },
   {
    "title": "Word for Whitebeard",
-   "body": "Grelin Whitebeard keeps a small camp southeast of Talin Keeneye's post. Veteran mountaineers at these remote watchpoints face freezing drifts and trogg harassment, and depend on regular letters to follow affairs across Dun Morogh and the kingdom beyond.",
+   "body": "Grelin Whitebeard keeps a small camp southeast of Talin Keeneye's post. Veteran mountaineers at these remote watchpoints face freezing drifts and steady trogg harassment. Regular letters keep them abreast of affairs across Dun Morogh and the kingdom beyond.",
    "spoiler": 0
   }
  ],
@@ -50,7 +50,7 @@
     "ironforge letter",
     "letter sender"
    ],
-   "answer": "The letter was sent from Ironforge, the dwarven capital. Local runners and sentries carried it through Coldridge Valley and down the mountain passes to its recipient."
+   "answer": "The letter came from Ironforge, the dwarven capital. Local runners and sentries carried it through Coldridge Valley and down the mountain passes to its recipient."
   },
   {
    "q": "Why is mail delivered by foot here?",
@@ -59,7 +59,7 @@
     "why run mail",
     "no mailboxes in coldridge"
    ],
-   "answer": "Foot couriers carry mail through Coldridge Valley because the surrounding peaks cut it off from Dun Morogh's main roads. Trusted travelers and mountaineers bring dispatches to the field camps by hand."
+   "answer": "Foot couriers carry mail through Coldridge Valley because the surrounding peaks cut it off from Dun Morogh's main roads. Trusted travelers and mountaineers bring dispatches by hand to the field camps."
   },
   {
    "q": "Where is Grelin Whitebeard's camp located?",
@@ -77,7 +77,7 @@
     "talin keeneye role",
     "who starts quest"
    ],
-   "answer": "Talin Keeneye, a hunter and scout stationed along the pass, handed over the letter after it came from the staging grounds near Anvilmar."
+   "answer": "Talin Keeneye, a hunter and scout stationed along the pass, handed you the letter. It came from the staging grounds near Anvilmar."
   },
   {
    "q": "What happens after Grelin receives his mail?",
@@ -86,7 +86,7 @@
     "grelin next quest",
     "after mail delivery"
    ],
-   "answer": "After Grelin receives Ironforge's news, he turns to the dangers in the valley and often directs recruits against Frostmane trolls and troggs."
+   "answer": "After Grelin receives news from Ironforge, he turns to the dangers in the valley. He often directs recruits against Frostmane trolls and troggs."
   }
  ],
  "angles": [
@@ -118,5 +118,5 @@
  "attribution": [
   "Coldridge Valley Mail Delivery (2)"
  ],
- "style": 1
+ "style": 2
 }

@@ -8,16 +8,16 @@
   "wiki": "Grelin Whitebeard",
   "refs": 8
  },
- "summary": "In Coldridge Valley, Grelin Whitebeard watches the Frostmane threat by royal decree. From an isolated camp, he depends on local recruits while Ironforge battles the troggs.",
+ "summary": "In Coldridge Valley, Grelin Whitebeard keeps watch over the Frostmane threat by royal decree. Ironforge is busy fighting troggs, so his isolated camp depends on local recruits.",
  "sections": [
   {
    "title": "A Royal Mandate",
-   "body": "Grelin Whitebeard and his brother Senir came to Coldridge Valley on orders from the Senate of Ironforge and King Magni Bronzebeard. They were sent to assess and quell the threat from the native Frostmane trolls. Ironforge's soldiers are tied up fighting trogg outbreaks across Dun Morogh, leaving the brothers with few supplies. Grelin established a camp in the snowy hills and must rely on local recruits and passing initiates to do the work.",
+   "body": "Grelin Whitebeard and his brother Senir came to Coldridge Valley under orders from the Senate of Ironforge and King Magni Bronzebeard. Their charge was to assess and quell the threat from the native Frostmane trolls. Ironforge's soldiers are busy fighting trogg outbreaks across Dun Morogh, leaving the brothers short of supplies. So Grelin made camp in the snowy hills and relies on local recruits and passing initiates to do the work.",
    "spoiler": 0
   },
   {
    "title": "Trouble in the South",
-   "body": "From his camp, Grelin watches the Frostmane tribe pressing south from Coldridge Valley. The trolls grow bolder, raiding beyond their mountain caverns. During one raid, Grik'nir the Cold, a heavily painted troll, slipped into the unattended camp and stole Grelin's field journal of observations. Grelin will not fail the King. He sends travelers into the Frostmane caves to recover his writings and carry his final report to Senir in Kharanos.",
+   "body": "From his camp, Grelin watches the Frostmane tribe press south from Coldridge Valley. The trolls grow bolder and raid beyond their mountain caverns. During one raid, Grik'nir the Cold, a heavily painted troll, slipped into the unattended camp and stole Grelin's field journal of observations.\n\nGrelin will not fail the King. He sends travelers into the Frostmane caves to recover his writings and carry his final report to Senir in Kharanos.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "grelin whitebeard purpose",
     "who is grelin whitebeard"
    ],
-   "answer": "The Senate of Ironforge and King Magni Bronzebeard sent Grelin to assess and quell the Frostmane threat in Coldridge Valley. With the dwarven soldiers tied up fighting troggs elsewhere, he relies on local recruits."
+   "answer": "The Senate of Ironforge and King Magni Bronzebeard sent Grelin to assess and quell the Frostmane threat in Coldridge Valley. With Ironforge's soldiers busy fighting troggs elsewhere, he relies on local recruits."
   },
   {
    "q": "Who stole Grelin's journal?",
@@ -56,7 +56,7 @@
     "who is with grelin",
     "grelin companions"
    ],
-   "answer": "No companions are recorded at Grelin's camp. He and Senir were sent to handle the trolls with little help, and the camp was unattended when the trolls raided it."
+   "answer": "No companions are recorded at Grelin's camp. Grelin and Senir were sent to face the trolls with little help, and the camp was unattended when the trolls raided it."
   },
   {
    "q": "Why doesn't Ironforge send regular soldiers to help him?",
@@ -65,13 +65,13 @@
     "where is the ironforge guard",
     "why no soldiers"
    ],
-   "answer": "Ironforge's defenders and Senate forces are tied up with trogg infestations across Dun Morogh. Scouts like Grelin must rely on local recruits to face regional threats."
+   "answer": "Ironforge's defenders and Senate forces are busy with trogg infestations across Dun Morogh. Scouts like Grelin rely on local recruits to face regional threats."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "As a dwarf, you can see Grelin serving King Magni and holding Dun Morogh's borders against threats within Ironforge's reach."
+   "text": "As a dwarf, you see Grelin serving King Magni and guarding Dun Morogh's borders against threats within Ironforge's reach."
   },
   {
    "target": "race:Gnome",
@@ -79,7 +79,7 @@
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance member, you see how thin Alliance and Ironforge forces are stretched across Dun Morogh, leaving scouts like Grelin to face the trolls with little help."
+   "text": "As an Alliance member, you see how thin Alliance and Ironforge forces are stretched across Dun Morogh. Scouts like Grelin face the trolls with little help."
   }
  ],
  "keywords": [
@@ -105,5 +105,5 @@
  "attribution": [
   "Grelin Whitebeard"
  ],
- "style": 1
+ "style": 2
 }

@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Razorfen Kraul (Classic)"
  },
- "summary": "Razorfen Kraul is the ancestral heartland of the quilboar, carved deep into the colossal thorns that sprang from the blood of the fallen boar demigod Agamaggan. Ruled by the ruthless crone Charlga Razorflank, this fortified labyrinth serves as a staging ground for bloody raids across the southern Barrens.",
+ "summary": "In the southern Barrens, Razorfen Kraul is the quilboar's ancestral heartland. The crone Charlga Razorflank rules its thorn-walled maze, from which her warriors strike across the region.",
  "sections": [
   {
    "title": "Blood of the Boar God",
-   "body": "Ten thousand years ago during the War of the Ancients, the colossal boar demigod Agamaggan perished battling the Burning Legion to save Azeroth. Wherever his sacred blood seeped into the soil of southern Kalimdor, massive, impenetrable thorn vines erupted from the earth. The quilboar, believing themselves the mortal progeny of the Great Boar, gathered within these dense briars to dwell and venerate his sacrifice. The dense mass known as Razorfen Kraul stands as their most revered redoubt, thick with quilboar warriors, beast trainers, and earth-shaping shamans.",
+   "body": "Ten thousand years ago, Agamaggan gave his life against the Burning Legion to save Azeroth. The colossal boar demigod's blood fell across southern Kalimdor. From each place it touched the soil, colossal thorn vines rose, thick and impenetrable.\n\nThe quilboar believe they are the Great Boar's mortal descendants. They gathered among the briars to dwell and honor his sacrifice. Razorfen Kraul is their most revered stronghold, home to warriors, beast trainers, and shamans who shape the earth.",
    "spoiler": 0
   },
   {
    "title": "The Crone's Ambition",
-   "body": "Control over the Kraul has fallen to the aging geomancer Charlga Razorflank. Under her iron rule, the Razorfen tribe has waged merciless war against rival quilboar bands and nearby Horde encampments alike. Far more chilling than mere territorial raiding, however, are reports from watchful scouts noting undead figures lurking around the thorny briars. Whispers suggest that Charlga has begun bargaining with agents of the Scourge, endangering not only the Barrens but threatening to open a grim foothold for undeath on Kalimdor.",
+   "body": "Reports from watchful scouts speak of undead figures lurking among the thorny briars. Charlga Razorflank, the aging geomancer who rules the Kraul, has led the Razorfen tribe in merciless raids against rival quilboar bands and nearby Horde encampments.\n\nWhispers say Charlga has begun bargaining with agents of the Scourge. Should she bring undeath to the quilboar, the danger would reach beyond the Barrens.",
    "spoiler": 1
   }
  ],
@@ -28,7 +28,7 @@
     "giant thorn vines barrens",
     "agamaggan thorns lore"
    ],
-   "answer": "According to legend, the colossal thorn vines sprouted wherever the blood of the boar demigod Agamaggan struck the ground during the War of the Ancients ten thousand years ago."
+   "answer": "Legend says the colossal thorn vines sprang from the soil wherever Agamaggan's blood fell during the War of the Ancients, ten thousand years ago."
   },
   {
    "q": "Who rules Razorfen Kraul?",
@@ -37,7 +37,7 @@
     "who leads the kraul",
     "charlga razorflank"
    ],
-   "answer": "Razorfen Kraul is commanded by Charlga Razorflank, a ruthless quilboar crone and geomancer who directs raids against neighboring tribes and settlements."
+   "answer": "Charlga Razorflank, a ruthless quilboar crone and geomancer, rules Razorfen Kraul. She directs raids against neighboring tribes and settlements."
   },
   {
    "q": "Why are there undead near the Kraul?",
@@ -46,7 +46,7 @@
     "undead quilboar",
     "why scourge barrens"
    ],
-   "answer": "Charlga Razorflank has reportedly entered secret negotiations with agents of the Scourge, seeking an unholy alliance that could bring the power of undeath into the quilboar folds."
+   "answer": "Reports say Charlga Razorflank has begun secret negotiations with agents of the Scourge. Their bargain could bring undeath among the quilboar."
   },
   {
    "q": "Where is Razorfen Kraul located?",
@@ -55,17 +55,17 @@
     "rfk entrance",
     "razorfen kraul location"
    ],
-   "answer": "Razorfen Kraul is situated in the southernmost reaches of the Barrens, nestled on the western side of the colossal thorn thickets just north of the Great Lift."
+   "answer": "Razorfen Kraul lies in the southern Barrens, on the western side of the colossal thorn thickets just north of the Great Lift."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "Charlga Razorflank's aggressive raids directly threaten southern settlements and trade routes, making pacifying the Kraul an urgent security priority for the Horde."
+   "text": "Charlga Razorflank's raids threaten southern settlements and trade routes. The Horde needs to secure the region by pacifying the Kraul."
   },
   {
    "target": "race:Tauren",
-   "text": "Tauren hunters and shamans hold deep historical enmity with the quilboar, and the rumors of unholy Scourge corruption taking root in the revered earth of Agamaggan demand their swift intervention."
+   "text": "As a Tauren, you share a deep historical enmity with the quilboar. Rumors of Scourge corruption in Agamaggan's revered earth call for swift action."
   }
  ],
  "keywords": [
@@ -91,5 +91,6 @@
  ],
  "attribution": [
   "Razorfen Kraul (Classic)"
- ]
+ ],
+ "style": 2
 }

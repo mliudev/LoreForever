@@ -17,16 +17,16 @@
   "wiki": "Cleansing the Eye",
   "chain": []
  },
- "summary": "Cleansing the Eye is an Alliance quest that sends adventurers from the murky Wetlands south to the human capital of Stormwind. After recovering the cursed orb known as the Eye of Paleth, travelers must seek the aid of Archbishop Benedictus to purge its lingering taint.",
+ "summary": "In the Wetlands, Cleansing the Eye sends adventurers south to Stormwind with a cursed orb in need of aid. After recovering the Eye of Paleth, they seek Archbishop Benedictus to purge its lingering taint.",
  "sections": [
   {
    "title": "A Tainted Relic",
-   "body": "The Eye of Paleth recovered from the marshlands does not shine with holy clarity. Instead, it is steeped in an unsettling shadow, bearing the residual sorrow and trauma of the terrible tragedy that unfolded where it was lost. The dwarf Glorin Steelbrow recognizes the power of the orb, but admits he lacks the divine craft to lift such a heavy affliction.",
+   "body": "The Eye of Paleth recovered from the marshlands bears no holy light. Shadow clings to it, along with the sorrow and trauma of the tragedy where it was lost. Glorin Steelbrow, a dwarf, recognizes the orb's power. Yet he lacks the divine craft to lift so heavy a curse.",
    "spoiler": 0
   },
   {
    "title": "Journey to the Cathedral",
-   "body": "Because the Eyes of Paleth were originally fashioned by human priests of the Holy Light, only their highest order possesses the knowledge to undo the defilement. Glorin directs adventurers to journey to the kingdom of Stormwind and present the darkened orb to Archbishop Benedictus, leader of the Church of the Holy Light. Benedictus recognizes the immense danger of an unpurified relic and takes it upon himself to restore its sacred luminance.",
+   "body": "Human priests of the Holy Light first fashioned the Eyes of Paleth, so their highest order alone knows how to undo the defilement. Glorin sends adventurers south to Stormwind with the darkened orb, to Archbishop Benedictus, leader of the Church of the Holy Light. Benedictus knows the danger of leaving such a relic unpurified. He takes on the work of restoring its sacred light.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "what is this orb",
     "what is the eye of paleth"
    ],
-   "answer": "The Eyes of Paleth are sacred orbs crafted by human priests to shine with holy luminance. When untainted, their power aligns with the Holy Light, but if corrupted, their ambient energies become volatile and perilous."
+   "answer": "The Eyes of Paleth are sacred orbs crafted by human priests to shine with holy luminance. Untainted, their power aligns with the Holy Light. Corrupted, their energies grow volatile and perilous."
   },
   {
    "q": "Why can't Glorin Steelbrow cleanse the Eye himself?",
@@ -47,7 +47,7 @@
     "glorin cleansing",
     "why benedictus"
    ],
-   "answer": "Glorin Steelbrow is a dwarf stationed in the Wetlands who lacks the specialized liturgical craft needed to banish such a dark affliction. Since the relic was created by human priests of the Holy Light, lifting its corruption requires an authority of that exact tradition."
+   "answer": "Glorin Steelbrow cannot cleanse the Eye because he lacks the liturgical craft to banish its dark affliction. Human priests of the Holy Light made the relic, so cleansing its corruption requires authority from that tradition."
   },
   {
    "q": "Who is Archbishop Benedictus?",
@@ -56,7 +56,7 @@
     "archbishop benedictus",
     "stormwind archbishop"
    ],
-   "answer": "Archbishop Benedictus is the venerable leader of the Church of the Holy Light, residing within the grand Cathedral of Light in Stormwind. He serves as a pillar of spiritual guidance for the Alliance."
+   "answer": "Archbishop Benedictus is the venerable leader of the Church of the Holy Light. He resides in Stormwind's Cathedral of Light and guides the Alliance in matters of faith."
   },
   {
    "q": "Why is the Eye described as soiled or sorrowful?",
@@ -65,7 +65,7 @@
     "eye of paleth tragedy",
     "cursed eye of paleth"
    ],
-   "answer": "According to Archbishop Benedictus, the orb bore witness to an immense, tragic event in the Wetlands, soaking up that agony over time. This lingering sorrow transformed into a corrupting curse that warped the relic's inherent power."
+   "answer": "Archbishop Benedictus says the orb bore witness to a great tragedy in the Wetlands. It absorbed that agony over time, and its lingering sorrow became a curse that warped its power."
   },
   {
    "q": "What happens once Benedictus receives the orb?",
@@ -73,7 +73,7 @@
     "does benedictus cleanse it",
     "eye of paleth outcome"
    ],
-   "answer": "Benedictus agrees to perform a ritual of purification. He warns that the Eyes of Paleth are meant to shine brightly, and leaving such an artifact tainted poses a grave spiritual and physical danger to those nearby."
+   "answer": "Benedictus agrees to purify the orb. The Eyes of Paleth are meant to shine brightly, and their taint brings grave spiritual and physical danger to those nearby."
   },
   {
    "q": "Where is the Cathedral of Light located?",
@@ -82,21 +82,21 @@
     "cathedral of light location",
     "find benedictus"
    ],
-   "answer": "The Cathedral of Light dominates Cathedral Square in the northern district of Stormwind City. Archbishop Benedictus stands at the main altar at the heart of the sanctuary."
+   "answer": "The Cathedral of Light stands in Cathedral Square, in Stormwind City's northern district. Archbishop Benedictus stands at the main altar in the heart of the sanctuary."
   }
  ],
  "angles": [
   {
    "target": "class:Priest",
-   "text": "For priests of the Holy Light, handling the Cursed Eye of Paleth demonstrates the tragic malleability of sacred crafts when exposed to despair, underscoring the importance of Archbishop Benedictus's purifying intervention."
+   "text": "For priests of the Holy Light, the Cursed Eye of Paleth shows how despair can corrupt sacred craft. Archbishop Benedictus's purification is needed to cleanse it."
   },
   {
    "target": "class:Paladin",
-   "text": "Paladins view the reclamation of holy relics from dark marshes as a solemn duty, seeing the corruption of the Eye as an affront to be cleansed within the hallowed halls of Stormwind."
+   "text": "Paladins see reclaiming holy relics from dark marshes as a solemn duty. The Eye's corruption is an affront to be cleansed in Stormwind's hallowed halls."
   },
   {
    "target": "faction:Alliance",
-   "text": "The quest highlights the cooperation between the dwarven outposts of the Wetlands and the spiritual leadership of Stormwind, binding the kingdoms together through shared faith."
+   "text": "The dwarven outposts of the Wetlands and Stormwind's spiritual leaders work together through shared faith, binding the Alliance's kingdoms."
   }
  ],
  "keywords": [
@@ -120,5 +120,6 @@
  ],
  "attribution": [
   "Cleansing the Eye"
- ]
+ ],
+ "style": 2
 }

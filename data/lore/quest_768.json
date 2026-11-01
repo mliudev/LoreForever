@@ -17,16 +17,16 @@
   "wiki": "Gathering Leather",
   "chain": []
  },
- "summary": "Gathering Leather is a straightforward trade request offered by Veren Tallstrider on the rises of Thunder Bluff. To sustain the capital and test young hunters, Veren exchanges a bundle of cured light leather skins for crafted goods. It highlights the deeply ingrained tauren tradition of turning the fruits of the plains hunt into essential clothing and armor.",
+ "summary": "On Thunder Bluff, Veren Tallstrider asks hunters to bring light leather for the capital. He trades crafted goods for the hides, following the tauren way of making clothing and armor from the plains hunt.",
  "sections": [
   {
    "title": "Sustaining Thunder Bluff",
-   "body": "In the newly settled capital atop the high mesas of Mulgore, craftsmanship and survival walk hand in hand. Veren Tallstrider works skins into clothing and protective armor needed by the growing population of Thunder Bluff. Rather than harvesting everything himself, he encourages young adventurers heading out into the plains to bring back their quarry, turning mundane hunting into honorable civic service.",
+   "body": "Thunder Bluff needs skilled hands to make clothing and armor for its growing population. Veren Tallstrider works skins into useful goods and asks young hunters returning from the plains to bring him their quarry. Their hunts help supply the capital and feed the tribe.",
    "spoiler": 0
   },
   {
    "title": "The Way of the Hunt",
-   "body": "For the tauren, hunting beasts across the grasslands is not sport; it is an honorable endeavor that feeds, clothes, and shelters the tribe. Veren Tallstrider looks for hunters with a hunger to bring honor to their clan, asking specifically for light leather stripped from the local wildlife. In return for twelve well-kept hides, he repays the hunter with sturdy goods, reinforcing the mutual support that binds tauren society together.",
+   "body": "Tauren hunt across the grasslands to feed, clothe, and shelter the tribe. Veren Tallstrider asks hunters who would bring honor to their clan for light leather from local wildlife. In return, he trades crafted goods for twelve well-kept hides, sustaining the ties that bind tauren society.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who gives gathering leather",
     "leather questgiver thunder bluff"
    ],
-   "answer": "Veren Tallstrider is a leatherworker residing in Thunder Bluff. He crafts garments and protective armor for the tauren people and trades his finished work with hunters who bring him fresh skins from the plains."
+   "answer": "Veren Tallstrider is a leatherworker in Thunder Bluff. He crafts clothing and armor for the tauren, and trades his work for skins from the plains."
   },
   {
    "q": "What does Veren Tallstrider need?",
@@ -47,7 +47,7 @@
     "what to bring veren",
     "gathering leather materials"
    ],
-   "answer": "Veren asks for twelve pieces of light leather, harvested from the beasts roaming Mulgore and neighboring territories, to fashion goods for Thunder Bluff."
+   "answer": "Veren needs twelve pieces of light leather from beasts in Mulgore and neighboring territories. He uses the hides to craft goods for Thunder Bluff."
   },
   {
    "q": "Where does this quest take place?",
@@ -55,7 +55,7 @@
     "where is veren tallstrider",
     "gathering leather location"
    ],
-   "answer": "The quest begins and ends with Veren Tallstrider atop Thunder Bluff, though completing it requires hunting wild beasts across the grasslands below."
+   "answer": "You meet Veren Tallstrider atop Thunder Bluff. To bring him what he needs, hunt wild beasts in the grasslands below."
   },
   {
    "q": "Why do the tauren place so much importance on hunting beasts?",
@@ -64,7 +64,7 @@
     "why hunt leather",
     "tauren leather lore"
    ],
-   "answer": "Tauren culture treats the hunt as a sacred balance with the Earth Mother. Every part of a fallen beast is put to use: flesh feeds the tribe, while bone and cured hides are fashioned into tools, tents, and durable armor."
+   "answer": "Tauren hunting honors the balance with the Earth Mother. The tribe uses every part of a fallen beast: its flesh for food, and its bones and cured hides for tools, tents, and armor."
   },
   {
    "q": "Can any Horde adventurer undertake this task?",
@@ -72,7 +72,7 @@
     "who can do gathering leather",
     "is gathering leather horde only"
    ],
-   "answer": "Yes, any traveler loyal to the Horde whom Veren considers eager to test their mettle on the plains can assist him with gathering leather."
+   "answer": "Yes. Any traveler loyal to the Horde can help gather leather if Veren believes they are eager to test their mettle on the plains."
   },
   {
    "q": "What happens once the leather is delivered?",
@@ -80,21 +80,21 @@
     "gathering leather turn in",
     "veren tallstrider reward"
    ],
-   "answer": "Veren inspects the quality of the hides, commends the hunter for their work, and provides a crafted piece of gear in fair trade."
+   "answer": "After you deliver the hides, Veren inspects their quality and commends your work. He gives you a crafted piece of gear in fair trade."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "For tauren hunters, honoring the fallen beast by turning its hide into useful goods is a vital cultural discipline passed down through generations."
+   "text": "As a tauren hunter, you honor a fallen beast by turning its hide into useful goods. This discipline has passed through generations."
   },
   {
    "target": "class:Hunter",
-   "text": "Hunters venturing out onto the plains of Mulgore naturally excel at tracking prey and harvesting the light hides Veren requires."
+   "text": "As a hunter, you are well suited to track prey across Mulgore's plains and gather the light hides Veren needs."
   },
   {
    "target": "faction:Horde",
-   "text": "Providing raw materials to artisans in Thunder Bluff strengthens the young capital as it solidifies its defenses and trade networks."
+   "text": "As a member of the Horde, you help supply Thunder Bluff's artisans while the young capital strengthens its defenses and trade networks."
   }
  ],
  "keywords": [
@@ -111,5 +111,6 @@
  ],
  "attribution": [
   "Gathering Leather"
- ]
+ ],
+ "style": 2
 }

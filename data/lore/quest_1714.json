@@ -14,11 +14,11 @@
  "angles": [
   {
    "target": "class:Mage",
-   "text": "Alchemical cauldrons and elemental transmutations often channel raw volatile magic to bind disparate essences together into solid form."
+   "text": "Alchemical cauldrons and elemental transmutations can bind separate essences into solid form through volatile magic."
   },
   {
    "target": "class:Shaman",
-   "text": "Working with elemental essences\u2014even through bubbling cauldrons that churn molten rock\u2014requires an understanding of the primal elemental forces at play."
+   "text": "Even when bubbling cauldrons churn molten rock, working with elemental essences calls for understanding the primal forces at play."
   }
  ],
  "faq": [
@@ -27,7 +27,7 @@
     "what is essence of the exile",
     "essence of the exile quest"
    ],
-   "answer": "Essence of the Exile is a mysterious ritual performed at a bubbling cauldron. By introducing charms into the vessel's churning depths, a volatile transmutation takes place, yielding a churning lump of molten rock.",
+   "answer": "Essence of the Exile is a transmutation ritual performed at a bubbling cauldron. Charms set off a violent reaction that yields a churning lump of molten rock.",
    "q": "What is the Essence of the Exile?"
   },
   {
@@ -35,7 +35,7 @@
     "what happens at the cauldron",
     "how does the cauldron work"
    ],
-   "answer": "The cauldron bubbles with vapors that draw travelers close. When charms are dropped inside, they sink slowly to the bottom until a large bubble ruptures the liquid's surface, leaving behind molten stone.",
+   "answer": "The cauldron's vapors draw travelers close. Charms sink to the bottom, then a large bubble bursts at the surface and leaves molten stone behind.",
    "q": "What happens when charms are placed in the cauldron?"
   },
   {
@@ -43,7 +43,7 @@
     "what is produced from the cauldron",
     "what do you get from essence of the exile"
    ],
-   "answer": "After the charms sink into the cauldron's steaming liquid and a large bubble bursts at the surface, a churning lump of molten rock is revealed from within the vessel.",
+   "answer": "When a large bubble bursts at the surface, a churning lump of molten rock is revealed inside the cauldron.",
    "q": "What does the cauldron produce?"
   },
   {
@@ -51,7 +51,7 @@
     "cauldron location",
     "where do i find the cauldron"
    ],
-   "answer": "The ritual takes place directly at a boiling cauldron whose hot vapors beckon anyone approaching it, functioning as an altar of transmutation.",
+   "answer": "The ritual takes place at a boiling cauldron whose hot vapors beckon travelers. There, the vessel transforms its contents.",
    "q": "Where is the cauldron used for this ritual?"
   },
   {
@@ -59,7 +59,7 @@
     "what are the charms for",
     "why do charms go in the cauldron"
    ],
-   "answer": "The charms serve as reagents consumed in the cauldron's depths. Submerging them into the heated liquid catalyzes the formation of the molten rock.",
+   "answer": "The charms are consumed as reagents in the cauldron's depths. Their presence in the heated liquid helps form the molten rock.",
    "q": "Why are charms placed into the cauldron?"
   },
   {
@@ -67,7 +67,7 @@
     "why is it bubbling",
     "what are the vapors"
    ],
-   "answer": "The bubbling liquid and beckoning vapors indicate an active, potent chemical or elemental reaction brewing within the vessel, primed to transform whatever enters its depths.",
+   "answer": "The bubbling liquid and beckoning vapors mark an active reaction within the vessel. It is ready to transform whatever enters its depths.",
    "q": "Why is the cauldron constantly bubbling?"
   }
  ],
@@ -85,18 +85,19 @@
  ],
  "sections": [
   {
-   "body": "Essence of the Exile involves a strange transmutation centered around a mysterious, bubbling cauldron. The vessel emits beckoning vapors, tempting travelers to investigate its churning depths. It functions as an elemental vessel capable of reacting intensely with specific enchanted charms.",
+   "body": "A bubbling cauldron sends out vapors that draw travelers to its churning depths. Specific enchanted charms stir an intense reaction within the vessel.",
    "spoiler": 0,
    "title": "A Beckoning Cauldron"
   },
   {
-   "body": "When the required charms are submerged into the cauldron, they sink slowly toward the bottom. As the mixture reacts, a large bubble rises through the viscous liquid and ruptures, revealing a churning lump of molten rock forged from the combined materials.",
+   "body": "The charms sink slowly through the liquid. Then a large bubble rises and bursts, revealing a churning lump of molten rock forged from the combined materials.",
    "spoiler": 0,
    "title": "The Molten Crucible"
   }
  ],
- "summary": "Essence of the Exile is a mysterious transmutation ritual centered on a bubbling, vapor-spewing cauldron. By introducing charms into its liquid depths, travelers trigger a violent reaction that produces a churning lump of molten rock. It represents a potent convergence of volatile reagents and elemental power.",
+ "summary": "At the cauldron, Essence of the Exile draws travelers with its beckoning vapors. Charms set off a violent reaction that reveals molten rock.",
  "attribution": [
   "In-game quest text: Essence of the Exile"
- ]
+ ],
+ "style": 2
 }

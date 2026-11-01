@@ -8,16 +8,16 @@
   "wiki": "Pilot Hammerfoot",
   "refs": 2
  },
- "summary": "Near the mountain passes, Pilot Hammerfoot watches over the Siege Brigade’s engines and worries for a missing fellow pilot. He seeks travelers to search the hills, where the high ridges put dwarves in danger.",
+ "summary": "At North Gate Outpost, Pilot Hammerfoot watches the pass and searches for a missing fellow pilot. The Siege Brigade’s engines guard the route, but the mountain hills are dangerous.",
  "sections": [
   {
    "title": "Eyes in the Mountains",
-   "body": "At North Gate Outpost, Pilot Hammerfoot watches the passes between Dun Morogh and Loch Modan and guards the Siege Brigade’s engines. Ironforge’s siege engines are prized by the brigade, but rough mountain ground makes them dangerous to drive. When a pilot goes missing, finding him matters, especially with savage beasts roaming the nearby hills.",
+   "body": "At North Gate Outpost, Pilot Hammerfoot watches the passes between Dun Morogh and Loch Modan. He guards Ironforge’s siege engines for the Siege Brigade. The rough mountain ground makes those engines dangerous to drive. Now one pilot is missing, and savage beasts roam the nearby hills. Finding him matters.",
    "spoiler": 0
   },
   {
    "title": "Avenging a Comrade",
-   "body": "Pilot Hammerfoot was close friends with Pilot Mori Hildelve, another siege engine pilot. The two searched for rare ore when Hildelve broke his engine on a steep hill and continued on foot alone. Hammerfoot learned that Mangeclaw, a huge ice claw bear, mauled Hildelve to death. Now Hammerfoot seeks retribution against the beast that killed his friend.",
+   "body": "Pilot Hammerfoot was close friends with Pilot Mori Hildelve, another siege engine pilot. They searched for rare ore when Hildelve broke his engine on a steep hill and went on alone. Hammerfoot learned that a huge ice claw bear named Mangeclaw mauled Hildelve to death. Now he seeks retribution against the beast that killed his friend.",
    "spoiler": 1
   }
  ],
@@ -29,7 +29,7 @@
     "who is hammerfoot",
     "pilot hammerfoot info"
    ],
-   "answer": "Pilot Hammerfoot serves Ironforge as a dwarven siege engine pilot. He watches the border from North Gate Outpost, along the pass between Dun Morogh and Loch Modan, and keeps watch over the region and the other pilots."
+   "answer": "Pilot Hammerfoot is a dwarven siege engine pilot serving Ironforge. He watches the border from North Gate Outpost, along the pass between Dun Morogh and Loch Modan, and keeps watch over the region and the other pilots."
   },
   {
    "q": "Where can Pilot Hammerfoot be found?",
@@ -62,7 +62,7 @@
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "As a dwarf, you share the fierce camaraderie of Ironforge’s mountaineers and refuse to let a fallen brother’s murder go unanswered."
+   "text": "As a dwarf, you share the fierce camaraderie of Ironforge’s mountaineers. You refuse to let a fallen brother’s murder go unanswered."
   },
   {
    "target": "faction:Alliance",
@@ -91,5 +91,5 @@
  "attribution": [
   "Pilot Hammerfoot"
  ],
- "style": 1
+ "style": 2
 }

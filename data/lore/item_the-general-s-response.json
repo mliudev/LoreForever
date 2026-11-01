@@ -10,11 +10,11 @@
    "quest:121"
   ]
  },
- "summary": "General Marcus Jonathan sends word to Lakeshire while Redridge waits for aid. His dispatch acknowledges Magistrate Solomon's plea against the Blackrock orcs and gnolls, but offers no immediate reinforcements from Stormwind.",
+ "summary": "In Lakeshire, General Marcus Jonathan answers a plea for aid as Redridge faces danger. His dispatch acknowledges Magistrate Solomon’s appeal against the Blackrock orcs and gnolls, but sends no immediate reinforcements from Stormwind.",
  "sections": [
   {
    "title": "A Diplomatic Standoff",
-   "body": "Magistrate Solomon sends an urgent plea to Stormwind City for troops to defend Redridge from the gathering Blackrock orc clans and Gnoll warbands. General Marcus Jonathan replies that the plea has been forwarded to the throne, but no soldiers are being sent now. He orders the letter returned to Lakeshire. Solomon is left troubled by Stormwind's delay and suspicious that something is wrong with its leaders.",
+   "body": "Magistrate Solomon asks Stormwind City for troops to defend Redridge from gathering Blackrock orc clans and Gnoll warbands. General Marcus Jonathan replies that he has sent the plea to the throne, but no soldiers are coming now. He orders the letter returned to Lakeshire. Solomon is troubled by the delay and suspects something is wrong with Stormwind’s leaders.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "what does the letter say",
     "generals letter"
    ],
-   "answer": "General Marcus Jonathan mourns the dead and says he will make the King aware of Lakeshire's plight. He hopes to bring reinforcements and confides that His Majesty has been scarce and acting oddly."
+   "answer": "General Marcus Jonathan mourns the dead and says he will tell the King of Lakeshire’s plight. He hopes to bring reinforcements, and confides that His Majesty has been scarce and acting oddly."
   },
   {
    "q": "Why can't General Marcus Jonathan send troops to Lakeshire?",
@@ -35,7 +35,7 @@
     "why doesn't stormwind help lakeshire",
     "why no help"
    ],
-   "answer": "General Jonathan awaits the King's response before promising reinforcements. In confidence, he tells Solomon that His Majesty has been scarce and acting oddly."
+   "answer": "General Marcus Jonathan is waiting for the King’s response before promising reinforcements. In confidence, he tells Solomon that His Majesty has been scarce and acting oddly."
   },
   {
    "q": "How does Magistrate Solomon react to the letter?",
@@ -44,17 +44,17 @@
     "what does solomon think",
     "solomon response"
    ],
-   "answer": "Magistrate Solomon is deeply unsettled by the dispatch. Stormwind's slowness makes no sense to him while Lakeshire faces such danger, and he fears the neglect points to worse trouble in the kingdom."
+   "answer": "Magistrate Solomon is deeply unsettled by the dispatch. Stormwind’s delay makes no sense while Lakeshire faces such danger, and he fears the neglect points to worse trouble in the kingdom."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Stormwind's response shows the strain on the Grand Alliance. Lakeshire bleeds while the court appears strangely unresponsive to its plight."
+   "text": "Stormwind’s response shows the strain on the Grand Alliance. Lakeshire bleeds while the court seems strangely unresponsive to its plight."
   },
   {
    "target": "race:Human",
-   "text": "For humans of the southern kingdoms, the delayed reply shows the growing rift between people fighting for survival in the provinces and the secluded nobility in Stormwind Keep."
+   "text": "For humans of the southern kingdoms, the delayed reply shows a growing rift between those fighting to survive in the provinces and the secluded nobility in Stormwind Keep."
   }
  ],
  "keywords": [
@@ -77,5 +77,5 @@
   "The General's Response",
   "Messenger to Stormwind (2)"
  ],
- "style": 1
+ "style": 2
 }

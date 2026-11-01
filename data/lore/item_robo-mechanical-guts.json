@@ -10,11 +10,11 @@
    "quest:2928"
   ]
  },
- "summary": "In Stormwind, Shoni gathers parts from the roaming machines of Gnomeregan. She needs them to repair tunneling vehicles meant to help reclaim the city in Dun Morogh.",
+ "summary": "In Stormwind, Shoni gathers parts from Gnomeregan’s roaming machines. She needs them to repair tunneling vehicles built to help reclaim the city in Dun Morogh.",
  "sections": [
   {
    "title": "Salvage for the Fleet",
-   "body": "After High Tinker Gelbin Mekkatorque and the surviving gnomes fled Gnomeregan, thousands of automated mechanisms, clockwork sentries, and industrial robots remained inside. The machines still roam the radioactive city's corridors on their own. In Stormwind City, tinker Shoni is assembling gyrodrillmatic excavationators to break through Gnomeregan's defenses and reclaim the lost city. Without fresh materials, she sends adventurers into the contaminated halls to salvage working parts from the robots, including springs, wires, and gyro-components.",
+   "body": "After High Tinker Gelbin Mekkatorque and the surviving gnomes fled Gnomeregan, thousands of machines remained behind. Automated mechanisms, clockwork sentries, and industrial robots still roam the radioactive city’s corridors.\n\nIn Stormwind City, tinker Shoni is assembling gyrodrillmatic excavationators to break through Gnomeregan’s defenses and reclaim the lost city. She sends adventurers into the contaminated halls to salvage working parts from the robots, including springs, wires, and gyro-components.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "robo-mechanical guts use",
     "why collect mechanical guts"
    ],
-   "answer": "Shoni in Stormwind City collects Robo-Mechanical Guts to repair gyrodrillmatic excavationators, tunneling vehicles meant to help reclaim Gnomeregan in Dun Morogh."
+   "answer": "Shoni in Stormwind City gathers Robo-Mechanical Guts to repair gyrodrillmatic excavationators. These tunneling vehicles are meant to help reclaim Gnomeregan in Dun Morogh."
   },
   {
    "q": "Where do you find these components?",
@@ -35,7 +35,7 @@
     "robot guts drop location",
     "gnomeregan robot parts"
    ],
-   "answer": "You can salvage the components from hostile clockwork automatons, mechs, and contaminated hostiles roaming Gnomeregan's outskirts and depths."
+   "answer": "You can salvage these components from hostile clockwork automatons, mechs, and contaminated hostiles roaming Gnomeregan’s outskirts and depths."
   },
   {
    "q": "Who is Shoni and why does she need so many parts?",
@@ -44,13 +44,13 @@
     "shoni stormwind",
     "gyrodrillmatic excavationator fleet"
    ],
-   "answer": "Shoni is a gnome engineer stationed in Stormwind's Dwarven District. She needs parts to prepare nearly four hundred subterranean excavation machines to breach Gnomeregan's occupied ruins."
+   "answer": "Shoni is a gnome engineer stationed in Stormwind’s Dwarven District. She needs parts to prepare nearly four hundred subterranean excavation machines to breach Gnomeregan’s occupied ruins."
   }
  ],
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "Each tangle of wiring and gyro-cog comes from gnomish automated designs, now roaming after radiation and isolation changed them."
+   "text": "Each tangle of wiring and gyro-cog comes from gnomish automated designs. Radiation and isolation changed the machines, and now they roam."
   },
   {
    "target": "race:Gnome",
@@ -76,5 +76,5 @@
   "Robo-Mechanical Guts",
   "Gyrodrillmatic Excavationators"
  ],
- "style": 1
+ "style": 2
 }

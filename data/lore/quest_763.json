@@ -17,16 +17,16 @@
   "wiki": "Rites of the Earthmother (2)",
   "chain": []
  },
- "summary": "Rites of the Earthmother marks the transition of a young tauren out of the secluded Red Cloud Mesa and into the wider plains of Mulgore. Having proven your mettle in Camp Narache, Chief Hawkwind sends you north to Bloodhoof Village with a carved totem to continue the ancient trials under Baine Bloodhoof.",
+ "summary": "At Camp Narache, Chief Hawkwind sends you beyond Red Cloud Mesa to continue the Rites of the Earthmother. After the first trials, you carry a carved totem north to Bloodhoof Village and Baine Bloodhoof.",
  "sections": [
   {
    "title": "Leaving the Mesa",
-   "body": "For generations, young tauren have tested their strength within the safe cradle of Camp Narache on Red Cloud Mesa. Completing the initial trials proves one has the discipline and resolve to survive, but the sacred Rites of the Earthmother require far more than surviving local wildlife. Chief Hawkwind recognizes when an initiate has outgrown the mesa's sheltered hunting grounds and must step into the broader community.",
+   "body": "Young tauren have tested their strength at Camp Narache on Red Cloud Mesa for generations. The first trials teach discipline and resolve. Yet the sacred Rites of the Earthmother reach beyond surviving the mesa's wildlife. Chief Hawkwind knows when an initiate is ready to leave the sheltered hunting grounds and join the wider community.",
    "spoiler": 0
   },
   {
    "title": "A Token for Baine",
-   "body": "To bridge the journey between Narache and the central settlements, Chief Hawkwind provides a hand-carved totem as a mark of introduction. Bearing this emblem down the winding path to Bloodhoof Village, you present yourself to Baine Bloodhoof, the young chieftain of the village and son of High Chieftain Cairne Bloodhoof. The totem serves as testament to your readiness for the rites of spirit and wisdom that lie ahead.",
+   "body": "Chief Hawkwind gives you a hand-carved totem to introduce you on the road from Narache to the central settlements. Carry it down the winding path to Bloodhoof Village and present yourself to Baine Bloodhoof, the young chieftain and son of High Chieftain Cairne Bloodhoof. The totem is your credential and seal of approval. It marks your readiness for the rites of spirit and wisdom ahead.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "what does this quest do",
     "purpose of quest"
    ],
-   "answer": "It serves as the rite of passage that guides you out of the starting area of Camp Narache and directs you toward Bloodhoof Village, connecting you to the next chapter of the tauren ceremonial trials."
+   "answer": "The rites carry you from Camp Narache into the wider tauren community at Bloodhoof Village, where the next trials begin."
   },
   {
    "q": "Who is Baine Bloodhoof?",
@@ -47,7 +47,7 @@
     "baine lore",
     "son of cairne"
    ],
-   "answer": "Baine Bloodhoof is the son of High Chieftain Cairne Bloodhoof. He leads Bloodhoof Village, serving as a respected local chieftain who oversees the ongoing spiritual and martial testing of young tauren."
+   "answer": "Baine Bloodhoof is the son of High Chieftain Cairne Bloodhoof and the young chieftain of Bloodhoof Village. He oversees the spiritual and martial testing of young tauren."
   },
   {
    "q": "What is the Totem of Hawkwind?",
@@ -56,7 +56,7 @@
     "hawkwinds totem",
     "carved totem"
    ],
-   "answer": "It is a wooden totem hand-carved by Chief Hawkwind of Camp Narache. It acts as an official credential and seal of approval, proving to Baine Bloodhoof that you have earned Hawkwind's blessing to undertake further rites."
+   "answer": "The Totem of Hawkwind is a wooden token hand-carved by Chief Hawkwind of Camp Narache. It is an official credential and seal of approval, showing Baine Bloodhoof that you have Hawkwind's blessing to undertake further rites."
   },
   {
    "q": "What rites come after this?",
@@ -65,7 +65,7 @@
     "what comes after",
     "next quest"
    ],
-   "answer": "Upon arriving in Bloodhoof Village and meeting with Baine, you are tasked with the Rite of Vision, which tests your spiritual attunement through sacred ancestral visions."
+   "answer": "In Bloodhoof Village, Baine sets you on the Rite of Vision. It tests your spiritual attunement through sacred ancestral visions."
   },
   {
    "q": "Where is Bloodhoof Village located?",
@@ -74,7 +74,7 @@
     "how to find bloodhoof village",
     "path to bloodhoof"
    ],
-   "answer": "Bloodhoof Village lies north of Camp Narache, situated along the shores of Stonebull Lake in central Mulgore. Travelers need only follow the main road down from the mesa and head north."
+   "answer": "Bloodhoof Village lies north of Camp Narache, along the shores of Stonebull Lake in central Mulgore. Follow the main road down from the mesa and head north."
   },
   {
    "q": "Why must the Earthmother rites be completed?",
@@ -83,17 +83,17 @@
     "tauren trials purpose",
     "rites of earthmother lore"
    ],
-   "answer": "The Rites of the Earthmother are deeply sacred traditions among the tauren. Passing all stages of the rites demonstrates physical fortitude, spiritual connection, and wisdom, earning the initiate true recognition from the elders of Thunder Bluff."
+   "answer": "The Rites of the Earthmother are sacred tauren traditions. Passing their stages shows physical fortitude, spiritual connection, and wisdom, earning recognition from the elders of Thunder Bluff."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "Every young tauren must walk the path of the Earthmother to prove their worth to the elders and find their place among the united tribes."
+   "text": "As a young tauren, you walk the path of the Earthmother to prove your worth to the elders and find your place among the united tribes."
   },
   {
    "target": "faction:Horde",
-   "text": "The traditional rites reinforce tribal unity across Mulgore, ensuring that new defenders of the Horde possess both warrior prowess and deep spiritual grounding."
+   "text": "As a member of the Horde, you take part in traditions that strengthen tribal unity across Mulgore and prepare new defenders with warrior prowess and spiritual grounding."
   }
  ],
  "keywords": [
@@ -117,5 +117,6 @@
  ],
  "attribution": [
   "Rites of the Earthmother (2)"
- ]
+ ],
+ "style": 2
 }

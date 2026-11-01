@@ -8,21 +8,21 @@
   "wiki": "Baros Alexston",
   "refs": 7
  },
- "summary": "In Stormwind City Hall, Baros Alexston keeps watch over the capital he helped rebuild. Once a close friend of Edwin VanCleef in the Stonemasons Guild, he stayed loyal to the crown when the guild fractured.",
+ "summary": "In Stormwind City Hall, Baros Alexston tends the capital he helped rebuild. He was once close to Edwin VanCleef in the Stonemasons Guild, but stayed loyal to the crown when the guild split.",
  "sections": [
   {
    "title": "From the Farmstead to the Scaffold",
-   "body": "Baros grew up on the Alexston Farmstead in Westfall's rolling grasslands. Thieves overran and burned the family homestead while he was young. Before they fled, his father hurriedly hid their cherished heirlooms across the grounds. Baros later journeyed to the capital and joined the Stonemasons Guild. For years, he labored beside Guildmaster Edwin VanCleef as they raised Stormwind anew from the ashes of the First War.",
+   "body": "Baros grew up at the Alexston Farmstead in Westfall's rolling grasslands. Thieves overran and burned his family's home while he was young. Before they fled, his father hid their cherished heirlooms across the grounds.\n\nBaros later went to the capital and joined the Stonemasons Guild. For years, he worked beside Guildmaster Edwin VanCleef as they raised Stormwind anew from the ashes of the First War.",
    "spoiler": 0
   },
   {
    "title": "A Bitter Parting of Ways",
-   "body": "When Stormwind's rebuilding ended, the House of Nobles refused the agreed payment. Furious protests followed, the Stonemasons Guild dissolved, and deadly riots filled the streets. Edwin VanCleef led the unpaid artisans into exile, where they formed the Defias Brotherhood. The nobles offered Baros the post of City Architect if he disavowed the uprising. Baros disagreed with the guild's turn toward violent banditry and accepted, leaving a bitter rift between himself and his former comrades.",
+   "body": "When Stormwind's rebuilding ended, the House of Nobles refused the promised payment. Furious protests followed, the Stonemasons Guild dissolved, and deadly riots filled the streets. Edwin VanCleef led the unpaid artisans into exile, where they formed the Defias Brotherhood.\n\nThe nobles offered Baros the post of City Architect if he disavowed the uprising. He opposed the guild's turn to violent banditry and accepted. The choice left a bitter rift between him and his former comrades.",
    "spoiler": 1
   },
   {
    "title": "The Ghost in the Dead Mines",
-   "body": "Baros oversees the capital's upkeep from his desk in City Hall, and Mathias Shaw of SI:7 discreetly owes him a favor. After VanCleef fell in the depths of the Deadmines, an unsent letter addressed to Baros remained on the Defias leader's corpse. Its presence recalls the bond broken by politics, treason, and bloodshed over Stormwind's foundations.",
+   "body": "Baros oversees the capital's upkeep from his desk in City Hall. Mathias Shaw of SI:7 discreetly owes him a favor.\n\nAfter VanCleef fell in the depths of the Deadmines, an unsent letter addressed to Baros remained on the Defias leader's corpse. The letter recalls a bond broken by politics, treason, and bloodshed over Stormwind's foundations.",
    "spoiler": 1
   }
  ],
@@ -52,7 +52,7 @@
     "did baros know edwin",
     "baros stonemasons"
    ],
-   "answer": "Baros and Edwin VanCleef were close colleagues in the Stonemasons Guild, laboring side by side to rebuild Stormwind after the First War. When the House of Nobles refused to pay the workers, VanCleef led a rebellion while Baros stayed to become City Architect."
+   "answer": "Baros and Edwin VanCleef were close colleagues in the Stonemasons Guild. They worked side by side to rebuild Stormwind after the First War. When the House of Nobles refused to pay the workers, VanCleef led a rebellion while Baros stayed and became City Architect."
   },
   {
    "q": "Why didn't Baros join the Defias Brotherhood?",
@@ -61,7 +61,7 @@
     "baros defias split",
     "why did baros betray stonemasons"
    ],
-   "answer": "Baros disagreed with the guild's turn toward violent revolt. The nobles offered him the City Architect post on the condition that he refuse to follow VanCleef, and Baros accepted."
+   "answer": "Baros opposed the guild's turn to violent revolt. The nobles offered him the City Architect post if he refused to follow VanCleef, and Baros accepted."
   },
   {
    "q": "What is the unsent letter found on Edwin VanCleef?",
@@ -79,21 +79,21 @@
     "baros westfall",
     "baros childhood"
    ],
-   "answer": "Baros grew up on the Alexston Farmstead in Westfall, and after thieves burned it, his family fled. He recruits adventurers to reclaim his childhood possessions, including his first compass."
+   "answer": "Baros grew up at the Alexston Farmstead in Westfall. After thieves burned it, his family fled. He recruits adventurers to reclaim his childhood possessions, including his first compass."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance member, you can see in Baros the painful compromise that split the Stonemasons Guild. Its craftsmen had poured their lives into rebuilding the capital."
+   "text": "As an Alliance member, you can see the painful compromise that split the Stonemasons Guild. Its craftsmen had poured their lives into rebuilding the capital."
   },
   {
    "target": "class:Rogue",
-   "text": "As a rogue in Stormwind, you have a connection through Baros to Master Mathias Shaw and SI:7, who quietly owe the architect a favor despite his past ties to VanCleef."
+   "text": "As a rogue in Stormwind, you have a connection through Baros to Master Mathias Shaw and SI:7. They quietly owe the architect a favor despite his past ties to VanCleef."
   },
   {
    "target": "race:Human",
-   "text": "As a human from Westfall, you may recognize Baros's surname from the ruined Alexston Farmstead, now overrun by thieves and gnolls."
+   "text": "As a human from Westfall, you may know the surname Baros from the ruined Alexston Farmstead. Thieves and gnolls now overrun it."
   }
  ],
  "keywords": [
@@ -121,5 +121,5 @@
  "attribution": [
   "Baros Alexston"
  ],
- "style": 1
+ "style": 2
 }

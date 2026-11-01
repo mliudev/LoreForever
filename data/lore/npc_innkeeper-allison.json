@@ -8,11 +8,11 @@
   "wiki": "Innkeeper Allison",
   "refs": 1
  },
- "summary": "In Stormwind's Trade District, Innkeeper Allison keeps the Gilded Rose ready for travelers and merchants. The busy inn stands between the bank and auction house, where she offers hearthstone bindings, drinks, and shelter.",
+ "summary": "At the Gilded Rose, Innkeeper Allison welcomes travelers and merchants in Stormwind's Trade District. The inn stands between the bank and auction house, offering hearthstone bindings, drinks, and shelter.",
  "sections": [
   {
    "title": "Hospitality in the Trade District",
-   "body": "Innkeeper Allison welcomes travelers at the Gilded Rose in Stormwind. The inn stands between the Trade District auction house and the city's main vaults, and its ground floor sees a steady flow of peddlers, mercenaries, and visiting diplomats. She keeps order behind the main counter and offers lodging and hearthstone services. Allison also joins local holiday festivities and coordinates small errands for traveling heroes seeking rest in the capital.",
+   "body": "Innkeeper Allison welcomes travelers at the Gilded Rose in Stormwind. Between the Trade District auction house and the city's main vaults, its ground floor draws peddlers, mercenaries, and visiting diplomats. She keeps order behind the counter and offers lodging and hearthstone services.\n\nAllison also joins local holiday festivities. At times, she coordinates small errands for traveling heroes who seek rest in the capital.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "where is innkeeper allison",
     "gilded rose innkeeper"
    ],
-   "answer": "Innkeeper Allison stands behind the counter on the ground floor of the Gilded Rose. The inn is in Stormwind City's Trade District, between the central bank and the auction house."
+   "answer": "Find Innkeeper Allison behind the counter on the Gilded Rose's ground floor. The inn is in Stormwind City's Trade District, between the central bank and the auction house."
   },
   {
    "q": "What services does Innkeeper Allison offer?",
@@ -41,7 +41,7 @@
     "allison quests",
     "innkeeper allison quest"
    ],
-   "answer": "Yes. Innkeeper Allison takes part in seasonal festivities and can sometimes help with city errands for travelers seeking aid across the realm."
+   "answer": "Yes. Innkeeper Allison joins seasonal festivities and can sometimes help travelers with city errands as they seek aid across the realm."
   }
  ],
  "angles": [
@@ -68,5 +68,5 @@
  "attribution": [
   "Innkeeper Allison"
  ],
- "style": 1
+ "style": 2
 }

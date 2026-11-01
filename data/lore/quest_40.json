@@ -17,16 +17,16 @@
   "wiki": "A Fishy Peril",
   "chain": []
  },
- "summary": "In Goldshire, A Fishy Peril begins with reports of murlocs moving inland through the waterways. Remy \"Two Times\" asks travelers to alert Marshal Dughan, whose guards are already stretched thin.",
+ "summary": "In eastern Elwynn, Remy \"Two Times\" fears a danger is spreading. Fishing has suffered and travelers face attacks, but he doubts the guard understands the trouble.",
  "sections": [
   {
    "title": "A Plea from the East",
-   "body": "Remy \"Two Times\" grows uneasy over a new threat while seeking business in Goldshire. Murlocs are creeping up the streams and into inland shallows, disrupting fishing and menacing innocent travelers. Remy fears the local guard is overlooking a danger that is still growing, so he asks passersby to carry word to the heart of the township.",
+   "body": "In Goldshire seeking business, Remy grows uneasy as murlocs swim up streams and into inland shallows. He asks passersby to warn the township before the threat spreads further.",
    "spoiler": 0
   },
   {
    "title": "A Strained Garrison",
-   "body": "Marshal Dughan hears the report in Goldshire but remains skeptical. He is charged with protecting the realm while royal forces are stretched thin elsewhere, and Riverpaw gnolls and Defias highwaymen already demand his attention. With no confirmed military intelligence, he will not divert his scarce men to pursue rumors of fish-men in the eastern streams.",
+   "body": "Marshal Dughan hears the report but doubts it. His garrison is stretched thin, and without confirmed intelligence, he will not send scarce men after rumors of fish-men in the eastern streams.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who starts a fishy peril",
     "remy quest"
    ],
-   "answer": "Remy \"Two Times\", a merchant from Redridge, gives the dispatch in Goldshire, in Elwynn Forest."
+   "answer": "Remy \"Two Times\", a merchant from Redridge, asks you to carry his warning in Goldshire, in Elwynn Forest."
   },
   {
    "q": "Why is Remy \"Two Times\" worried about murlocs?",
@@ -47,7 +47,7 @@
     "murloc problem elwynn",
     "fishy peril lore"
    ],
-   "answer": "Remy has seen murlocs swimming up the rivers of eastern Elwynn, driving away local fish and attacking travelers along the waterways."
+   "answer": "Remy has seen murlocs swim up the rivers of eastern Elwynn. They drive away local fish and attack travelers along the waterways."
   },
   {
    "q": "Why won't Marshal Dughan send troops immediately?",
@@ -56,7 +56,7 @@
     "marshal dughan response",
     "why no troops east"
    ],
-   "answer": "Marshal Dughan considers the reports unverified. His garrison is occupied by gnoll attacks and organized banditry, and he cannot commit soldiers without formal scout reports."
+   "answer": "Marshal Dughan considers the reports unverified. His garrison is occupied by gnoll attacks and organized banditry, so he cannot commit soldiers without formal scout reports."
   },
   {
    "q": "Where does this quest lead next?",
@@ -65,7 +65,7 @@
     "next quest after fishy peril",
     "further concerns quest"
    ],
-   "answer": "Marshal Dughan follows up with Further Concerns, seeking reliable confirmation from scouts before committing royal resources to the east."
+   "answer": "Marshal Dughan seeks reliable confirmation from scouts in Further Concerns before committing royal resources to the east."
   },
   {
    "q": "Where does the player turn in A Fishy Peril?",
@@ -88,11 +88,11 @@
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "For the Alliance, this dispatch shows the strain on Stormwind's home guard and the township's reliance on independent adventurers to investigate rumors."
+   "text": "For the Alliance, this warning shows the strain on Stormwind's home guard and the township's reliance on independent adventurers to investigate rumors."
   },
   {
    "target": "race:Human",
-   "text": "As a human, you see eastern waterways close to home turn into dangerous hunting grounds for aquatic beasts."
+   "text": "As a human, you see eastern waterways close to home become dangerous hunting grounds for aquatic beasts."
   }
  ],
  "keywords": [
@@ -116,5 +116,5 @@
  "attribution": [
   "A Fishy Peril"
  ],
- "style": 1
+ "style": 2
 }

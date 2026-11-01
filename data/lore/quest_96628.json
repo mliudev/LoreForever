@@ -17,16 +17,16 @@
   "wiki": "The Adventurer (Dun Morogh)",
   "chain": []
  },
- "summary": "At Dun Morogh's southern gate, The Adventurer carries supplies toward Kharanos. Mountaineer Thalos asks travelers to bring a bundle to Eric Brighthammer, a newcomer camped just outside the village.",
+ "summary": "At Dun Morogh’s southern gate, The Adventurer carries supplies toward Kharanos. Mountaineer Thalos asks travelers to bring provisions to Eric Brighthammer, a newcomer camped just outside the village.",
  "sections": [
   {
    "title": "A Favor for the Mountaineers",
-   "body": "Ironforge Mountaineer Thalos watches the southern gate, where the trail leaves Coldridge Valley for the snowy reaches of Dun Morogh. Guarding the high passes and tunnels keeps the Mountaineers busy, and Thalos watches for dangers as well as travelers on the road. When he hears that a lone adventurer has arrived near Kharanos, he asks trusted passersby to carry supplies onward. The bundle is meant to support newcomers venturing into the frozen crags.",
+   "body": "Mountaineer Thalos keeps watch at Dun Morogh’s southern gate, where the trail leaves Coldridge Valley. Guarding the high passes and tunnels keeps the Mountaineers busy. Thalos also watches for dangers and travelers on the road. When a lone adventurer arrives near Kharanos, he asks trusted passersby to carry supplies onward. The bundle is meant to help newcomers venturing into the frozen crags.",
    "spoiler": 0
   },
   {
    "title": "Supplies for Kharanos",
-   "body": "The road from the southern pass winds down to Kharanos, a center of dwarven craft and travel in central Dun Morogh. Eric Brighthammer has recently made camp just outside the village. Carrying the Mountaineers' bundle of provisions to him links the ridge sentries with those walking the wilderness.",
+   "body": "The road from the southern pass winds down to Kharanos, a center of dwarven craft and travel in central Dun Morogh. Eric Brighthammer has recently made camp just outside the village. Carrying the Mountaineers’ provisions to him links the sentries on the ridge with those walking the wilderness.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who gives the adventurer",
     "thalos quest"
    ],
-   "answer": "Mountaineer Thalos offers the work from his post at the mountain pass gate, where the Coldridge Valley trail enters the wider reaches of Dun Morogh."
+   "answer": "Mountaineer Thalos asks travelers for help from his post at the mountain pass gate, where the Coldridge Valley trail enters Dun Morogh."
   },
   {
    "q": "Who is Eric Brighthammer?",
@@ -56,7 +56,7 @@
     "eric brighthammer location",
     "supply bundle drop"
    ],
-   "answer": "The delivery goes to Eric Brighthammer's camp just outside Kharanos in Dun Morogh, north of the Coldridge Pass tunnel where Mountaineer Thalos is posted."
+   "answer": "The delivery goes to Eric Brighthammer’s camp just outside Kharanos in Dun Morogh. It lies north of the Coldridge Pass tunnel, where Mountaineer Thalos is posted."
   },
   {
    "q": "Why is Mountaineer Thalos sending supplies?",
@@ -65,7 +65,7 @@
     "thalos purpose",
     "reason for bundle"
    ],
-   "answer": "The Mountaineers keep watch on travelers across Dun Morogh. When Thalos hears that an adventurer has camped near Kharanos, he arranges provisions to support him in the cold."
+   "answer": "The Mountaineers keep watch over travelers across Dun Morogh. When Thalos hears that an adventurer has camped near Kharanos, he arranges provisions to support him in the cold."
   },
   {
    "q": "What item are you carrying?",
@@ -82,13 +82,13 @@
     "is it alliance only",
     "horde adventurer quest"
    ],
-   "answer": "No. Mountaineer Thalos is an Alliance-aligned dwarven guard in Dun Morogh, so the work is for Alliance travelers."
+   "answer": "No. Mountaineer Thalos is a dwarven guard aligned with the Alliance, so the work is for Alliance travelers."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "As a dwarf leaving Coldridge Valley, you carry provisions to Eric Brighthammer and lend a hand to the Mountaineers in the wider reaches of Dun Morogh."
+   "text": "As a dwarf leaving Coldridge Valley, you carry provisions to Eric Brighthammer and help the Mountaineers in Dun Morogh."
   },
   {
    "target": "faction:Alliance",
@@ -112,5 +112,5 @@
  "attribution": [
   "The Adventurer (Dun Morogh)"
  ],
- "style": 1
+ "style": 2
 }

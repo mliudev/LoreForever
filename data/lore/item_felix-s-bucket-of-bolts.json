@@ -10,11 +10,11 @@
    "quest:3361"
   ]
  },
- "summary": "In Dun Morogh, Felix Whindlebolt is missing the tools he carried from Gnomeregan. Frostmane trolls seized his bucket during his flight and took it to their camps.",
+ "summary": "In Dun Morogh, Frostmane trolls carry Felix's Bucket of Bolts to their camps. Felix Whindlebolt is missing the tools he brought from Gnomeregan.",
  "sections": [
   {
    "title": "A Refugee's Scattered Tools",
-   "body": "Felix Whindlebolt lost his tools while fleeing Gnomeregan. After the disaster against the troggs, radiation drove thousands of gnomes into Dun Morogh's freezing wilds with whatever they could carry. Felix escaped with his equipment and headed for Anvilmar, but Frostmane trolls from the crags southwest of town ambushed him. They plundered his belongings, including his bucket of bolts and parts, leaving the artisan without the materials he needed for his craft in exile.",
+   "body": "Felix Whindlebolt fled Gnomeregan with his tools after the disaster with the troggs. Radiation drove thousands of gnomes into Dun Morogh's freezing wilds with whatever they could carry. Felix headed for Anvilmar, but Frostmane trolls from the crags southwest of town ambushed him. They seized his belongings, including his bucket of bolts and parts, leaving the artisan without the materials he needs for his craft in exile.",
    "spoiler": 0
   }
  ],
@@ -52,17 +52,17 @@
     "why does felix want bolts",
     "felix whindlebolt bolts importance"
    ],
-   "answer": "Felix needs the bolts and parts for his craft. Gnomish refugees fled Gnomeregan with little, and basic supplies matter when an engineer or craftsman must survive and rebuild far from home."
+   "answer": "Felix needs the bolts and parts for his craft. Gnomish refugees fled Gnomeregan with little, so basic supplies matter as they survive and rebuild far from home."
   }
  ],
  "angles": [
   {
    "target": "race:Gnome",
-   "text": "As a gnome, each bucket of parts saved from Gnomeregan helps refugees find a new foothold in Coldridge Valley."
+   "text": "As a gnome, every bucket of parts saved from Gnomeregan helps refugees find a new foothold in Coldridge Valley."
   },
   {
    "target": "profession:Engineering",
-   "text": "As an engineer, you need basic hardware to work. A bucket of bolts matters when you are starting over in the snows of Dun Morogh."
+   "text": "As an engineer, you need basic hardware to work. A bucket of bolts matters when you start over in the snows of Dun Morogh."
   }
  ],
  "keywords": [
@@ -90,5 +90,5 @@
   "Felix's Bucket of Bolts",
   "A Refugee's Quandary (Classic)"
  ],
- "style": 1
+ "style": 2
 }

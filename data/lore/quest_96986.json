@@ -11,11 +11,11 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "Melisara in Tarren Mill asks you to confront Atrexis, a necromancer raising the dead beneath Dalaran. She sees his work as an affront to the Forsaken.",
+ "summary": "In Tarren Mill, Melisara sends you after Atrexis, who raises the dead beneath Dalaran. She sees his work as an affront to the Forsaken.",
  "sections": [
   {
    "title": "Melisara's Charge",
-   "body": "Melisara says Atrexis is a traitor to the Forsaken and raises an undead army beneath Dalaran. You are asked to defeat the Grave Knight for her; she cares little for the fate of the mage city, but says no one is beyond the Dark Lady's reach.",
+   "body": "Melisara calls Atrexis a traitor to the Forsaken. Beneath Dalaran, he raises an undead army. She asks you to defeat him, though she cares little for the mage city's fate. No one is beyond the Dark Lady's reach.",
    "spoiler": 0
   }
  ],
@@ -27,7 +27,7 @@
     "atrexis grave knight",
     "grave knight who"
    ],
-   "answer": "Atrexis is a necromancer in Dalaran whom Melisara calls the Grave Knight."
+   "answer": "Atrexis is a necromancer in Dalaran, whom Melisara calls the Grave Knight."
   },
   {
    "q": "Who sent me after Atrexis?",
@@ -45,7 +45,7 @@
     "why grave knight",
     "forsaken reason atrexis"
    ],
-   "answer": "Melisara says Atrexis is a traitor to the Forsaken who raises an undead army beneath Dalaran."
+   "answer": "Melisara calls Atrexis a traitor to the Forsaken because he raises an undead army beneath Dalaran."
   },
   {
    "q": "Where is Atrexis?",
@@ -60,11 +60,11 @@
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Melisara says she cares little for Dalaran's fate as she sends you after Atrexis."
+   "text": "Melisara cares little for Dalaran's fate as she sends you after Atrexis."
   },
   {
    "target": "race:Undead",
-   "text": "Melisara calls Atrexis a traitor to the Forsaken and says his undead army defies what they stand for."
+   "text": "As an undead, you know Melisara calls Atrexis a traitor to the Forsaken. She says his undead army defies what the Forsaken stand for."
   }
  ],
  "keywords": [
@@ -83,7 +83,7 @@
   "topic:forsaken",
   "topic:mage"
  ],
- "style": 1,
+ "style": 2,
  "attribution": [
   "In-game quest text: The Grave Knight"
  ]

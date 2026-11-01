@@ -14,7 +14,7 @@
  "angles": [
   {
    "target": "class:Priest",
-   "text": "The assault zeroes in on the Al'Aketh leadership, specifically targeting the hostile High Priestess and her Spiritcallers presiding over the Shrine of Akir."
+   "text": "The assault targets the Al'Aketh leadership at the Shrine of Akir, including the hostile High Priestess and her Spiritcallers."
   }
  ],
  "faq": [
@@ -24,7 +24,7 @@
     "quest making our move",
     "shrine of akir quest"
    ],
-   "answer": "Making Our Move is a coordinated tactical assault against the hostile forces occupying the Shrine of Akir. A frontal diversion is launched to draw enemy attention while the main strike team flanks their position to breach the shrine and eliminate the High Priestess.",
+   "answer": "The strike force aims to breach the Shrine of Akir and reach the High Priestess. Fighters charge the front to draw the defenders while the main team flanks their position.",
    "q": "What is the objective of the assault in Making Our Move?"
   },
   {
@@ -33,7 +33,7 @@
     "hyusaa quickbreeze",
     "where is hyusaa"
    ],
-   "answer": "Hyusaa Quickbreeze serves as the second-in-command for the strike force. After thinning the ranks of the Al'Aketh defenders at the shrine, you are instructed to rendezvous with Quickbreeze near the shrine's steps.",
+   "answer": "Hyusaa Quickbreeze is the strike force's second-in-command. After you thin the Al'Aketh defenders at the shrine, you are to meet Quickbreeze near its steps.",
    "q": "Who is Hyusaa Quickbreeze?"
   },
   {
@@ -42,7 +42,7 @@
     "high priestess alaketh",
     "target high priestess"
    ],
-   "answer": "The High Priestess is the commanding figure presiding within the Shrine of Akir. The entire multi-pronged flanking maneuver is designed to pierce enemy lines swiftly so the strike force can reach and defeat her.",
+   "answer": "The High Priestess commands the Al'Aketh within the Shrine of Akir. The strike force flanks the enemy lines to reach and defeat her.",
    "q": "Who is the High Priestess targeted in the attack?"
   },
   {
@@ -51,7 +51,7 @@
     "shrine of akir lore",
     "where is shrine of akir"
    ],
-   "answer": "The Shrine of Akir is a fortified religious site held by the Al'Aketh. It is defended by an array of armed guardians, spiritcallers, and blademasters protecting the central sanctuary where their leadership resides.",
+   "answer": "The Shrine of Akir is a fortified religious site held by the Al'Aketh. Guardians, Spiritcallers and Blademasters defend its central sanctuary, where their leadership resides.",
    "q": "What is the Shrine of Akir?"
   },
   {
@@ -60,7 +60,7 @@
     "al'aketh defenders",
     "alaketh mobs"
    ],
-   "answer": "The Al'Aketh are the hostile defenders occupying the Shrine of Akir. Their forces consist of stalwart frontline Guardians, spellcasting Spiritcallers, and agile Blademasters who guard the approach to their high priestess.",
+   "answer": "The Al'Aketh are the hostile defenders of the Shrine of Akir. Their ranks include frontline Guardians, spellcasting Spiritcallers and agile Blademasters who guard the way to their High Priestess.",
    "q": "Who are the Al'Aketh forces holding the shrine?"
   },
   {
@@ -69,7 +69,7 @@
     "shrine attack plan",
     "attack strategy making our move"
    ],
-   "answer": "A handful of seasoned fighters are dispatched directly through the shrine's front entrance to draw defenders and cause chaos. This diversion enables the main fighting unit to flank the compound and punch inward toward the inner shrine.",
+   "answer": "A handful of seasoned fighters enters through the shrine's front entrance to draw the defenders and cause chaos. This gives the main force a chance to flank the compound and push toward the inner shrine.",
    "q": "Why is a frontal distraction used in the assault?"
   }
  ],
@@ -86,18 +86,19 @@
  "related": [],
  "sections": [
   {
-   "body": "The assault on the Shrine of Akir relies on precise timing and division of forces. A small detachment of elite fighters charges the front gates to raise the alarm and draw out the defenders, while the commander maneuvers the primary strike team in from the flank. This coordinated push aims to split the defenders' attention, opening an avenue straight toward the shrine's leadership.",
+   "body": "At the Shrine of Akir, the assault depends on timing and divided forces. A small band of elite fighters charges the front gates to raise the alarm and draw out the defenders. Meanwhile, the commander leads the main strike team in from the flank. Their push divides the defenders' attention and opens a path toward the shrine's leadership.",
    "spoiler": 0,
    "title": "A Coordinated Pincer"
   },
   {
-   "body": "The Shrine of Akir is defended by the formidable Al'Aketh, whose ranks include heavily armored Guardians, mystical Spiritcallers, and martial Blademasters. Breaching the perimeter requires breaking through these frontline formations to clear a path toward the inner sanctum, where the High Priestess directs her followers. Once the outer resistance is shattered, forces regroup with the second-in-command, Hyusaa Quickbreeze, at the steps of the shrine.",
+   "body": "The Al'Aketh defend the Shrine of Akir with armored Guardians, mystical Spiritcallers and martial Blademasters. The strike force must break through their front lines to reach the inner sanctum, where the High Priestess directs her followers. Once the outer defenders are beaten, you meet the force's second-in-command, Hyusaa Quickbreeze, at the shrine steps.",
    "spoiler": 0,
    "title": "Breaking the Al'Aketh Lines"
   }
  ],
- "summary": "Making Our Move is a coordinated tactical assault against the hostile Al'Aketh entrenched within the Shrine of Akir. By utilizing a frontal distraction and an flanking maneuver, the strike force seeks to breach the defenses and reach the High Priestess.",
+ "summary": "At the Shrine of Akir, a strike force moves against the Al'Aketh and their High Priestess. A frontal charge will draw the defenders while the main force approaches from the flank.",
  "attribution": [
   "In-game quest text: Making Our Move"
- ]
+ ],
+ "style": 2
 }

@@ -14,11 +14,11 @@
  "angles": [
   {
    "target": "class:Paladin",
-   "text": "This trial is a defining early lesson for paladins learning to serve the Holy Light, demonstrating that true devotion begins with humble charity rather than martial glory."
+   "text": "As a paladin learning to serve the Holy Light, you begin with humble charity rather than martial glory."
   },
   {
    "target": "faction:Alliance",
-   "text": "The mission highlights the domestic struggles within Stormwind and the shared ties with Ironforge as citizens strive to support vulnerable orphans amid economic strains."
+   "text": "As an Alliance citizen, you see Stormwind’s struggle to support its orphans and the ties with Ironforge as people seek help amid economic strain."
   }
  ],
  "faq": [
@@ -28,7 +28,7 @@
     "tome of divinity purpose",
     "why do the tome of divinity"
    ],
-   "answer": "The Tome of Divinity is a foundational trial for aspiring paladins devoted to the Holy Light. Rather than demanding combat prowess or grand heroic feats, it directs initiates into the heart of Stormwind to seek out and assist someone pure of heart who genuinely needs aid.",
+   "answer": "The trial teaches aspiring paladins to serve the Holy Light through humble aid. Initiates seek someone in Stormwind who is pure of heart and needs help, rather than proving themselves in combat or through grand deeds.",
    "q": "What is the purpose of The Tome of Divinity trial?"
   },
   {
@@ -37,7 +37,7 @@
     "stephanie turner stormwind",
     "where is stephanie turner"
    ],
-   "answer": "Stephanie Turner is a compassionate resident found in Stormwind's Trade District. She works tirelessly to sew clothing for the children residing at the local orphanage, relying on donations of cloth and leather to keep the young charges warm and cared for.",
+   "answer": "Stephanie Turner lives in Stormwind’s Trade District and sews clothing for children at the city’s orphanage. She depends on cloth and leather donations to provide for them.",
    "q": "Who is Stephanie Turner?"
   },
   {
@@ -46,7 +46,7 @@
     "who is stephanies husband",
     "husband in ironforge"
    ],
-   "answer": "Her husband works alongside her to support the orphanage's needs. While Stephanie gathers supplies and sews clothes in Stormwind, her husband has traveled north to Ironforge to seek donations and assistance from the dwarven and gnomish populace.",
+   "answer": "Stephanie Turner’s husband has traveled to Ironforge to seek support for their work at the orphanage. While he is away, she gathers supplies and sews clothes in Stormwind.",
    "q": "Why has Stephanie Turner's husband gone to Ironforge?"
   },
   {
@@ -55,7 +55,7 @@
     "cloth shortage stormwind",
     "orphanage clothing problem"
    ],
-   "answer": "An influx of tradesmen in Stormwind has driven up competition for vital raw materials like cloth and leather. With fewer people willing to part with these resources freely, Stephanie finds it increasingly difficult to gather the materials required to make clothes for the orphans.",
+   "answer": "More tradesmen in Stormwind have increased competition for cloth and leather. With fewer people willing to donate those materials, Stephanie struggles to gather enough to make clothes for the orphans.",
    "q": "What difficulties is Stephanie Turner facing?"
   },
   {
@@ -63,7 +63,7 @@
     "why help stephanie turner",
     "why does the quest send you to stephanie"
    ],
-   "answer": "The trial requires an initiate of the Light to seek out someone with noble intent, pure motives, and a genuine need for a guiding hand. Stephanie Turner epitomizes selfless devotion to others, making her the ideal person for an aspiring servant of the Light to aid.",
+   "answer": "Stephanie Turner has noble intent, a pure heart, and a real need for help. Aiding her gives an initiate a chance to serve someone devoted to caring for others.",
    "q": "Why does this trial specifically direct initiates to Stephanie Turner?"
   },
   {
@@ -71,7 +71,7 @@
     "what does the light teach here",
     "lesson of the tome of divinity"
    ],
-   "answer": "The trial instructs that walking the path of the Light requires compassion, selflessness, and service to the vulnerable. Before wielding holy power in battle, a champion of the Light must first understand the duty of kindness toward everyday citizens in need.",
+   "answer": "The trial teaches servants of the Light to show compassion and serve the vulnerable. Before using holy power in battle, they must learn to be kind to citizens in need.",
    "q": "What lesson does this trial impart to servants of the Light?"
   }
  ],
@@ -94,18 +94,19 @@
  ],
  "sections": [
   {
-   "body": "The Tome of Divinity represents an essential spiritual rite of passage for initiates studying the ways of the Holy Light. Before receiving deeper instruction on holy duties, aspiring servants are tasked with walking the streets of Stormwind to find someone of noble intent and pure motive who depends upon the kindness of strangers. This test grounds sacred vows not in glorious combat, but in humble, attentive service to the vulnerable.",
+   "body": "Initiates of the Light begin this sacred trial by walking Stormwind’s streets. They seek someone of noble intent and pure motive who depends on the kindness of strangers. Before deeper instruction in holy duties, they learn that service to the vulnerable matters more than glorious combat.",
    "spoiler": 0,
    "title": "A Lesson in Humility and Service"
   },
   {
-   "body": "In Stormwind's bustling Trade District, that duty leads initiates to Stephanie Turner. Alongside her husband, Stephanie dedicates her days to providing handmade clothing for the children residing in the city's orphanage. However, a recent surge of local tradesmen has created steep competition for raw cloth and leather, leaving the couple hard-pressed to secure donations. While her husband travels to the great dwarven halls of Ironforge to solicit support, Stephanie remains behind in Stormwind, continuing her quiet, selfless labor.",
+   "body": "In Stormwind’s Trade District, Stephanie Turner makes clothing for children in the city’s orphanage with her husband. More tradesmen have come to the city, and competition for cloth and leather has made donations harder to find. Her husband has gone to Ironforge to seek support. Stephanie remains in Stormwind, carrying on their work.",
    "spoiler": 0,
    "title": "Aid in the Trade District"
   }
  ],
- "summary": "The Tome of Divinity is a foundational holy trial requiring initiates of the Light to seek out and assist a citizen of pure heart and noble motive in Stormwind. Directing champions to Stephanie Turner in the Trade District, the task emphasizes that true service begins with humble charity toward the vulnerable.",
+ "summary": "In Stormwind, initiates of the Light are sent to help someone in need. They seek a citizen of pure heart and noble motive, and find Stephanie Turner in the Trade District.",
  "attribution": [
   "In-game quest text: The Tome of Divinity"
- ]
+ ],
+ "style": 2
 }

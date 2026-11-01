@@ -8,11 +8,11 @@
   "wiki": "Mountaineer Barleybrew",
   "refs": 2
  },
- "summary": "At South Gate Outpost, Mountaineer Barleybrew watches the pass from Dun Morogh toward Loch Modan. He relies on dwarven brews to help sentries endure the cold.",
+ "summary": "At South Gate Outpost, Mountaineer Barleybrew keeps watch over the pass from Dun Morogh to Loch Modan. Dwarven brews help sentries endure the cold.",
  "sections": [
   {
    "title": "A Watch on the Eastern Pass",
-   "body": "Mountaineer Wellart Barleybrew watches the snowy road to Loch Modan from South Gate Outpost. He is part of Ironforge's border watch. Like other mountaineers in Dun Morogh's bitter winds, he values the strength of fine dwarven drink. His name links him to the renowned Barleybrew clan. He also helps send potent Shimmer Stout to fellow watchmen who need warmth and stamina during long shifts in the mountain passes.",
+   "body": "Mountaineer Wellart Barleybrew watches the snowy road to Loch Modan from South Gate Outpost. He serves in Ironforge's border watch. Like other mountaineers in Dun Morogh's bitter winds, he values fine dwarven drink. His name ties him to the renowned Barleybrew clan. He also helps send potent Shimmer Stout to watchmen who need warmth and stamina through long shifts in the mountain passes.",
    "spoiler": 0
   }
  ],
@@ -32,7 +32,7 @@
     "barleybrew purpose",
     "what does barleybrew do"
    ],
-   "answer": "At South Gate Outpost, he watches the roadway and helps arrange supplies, including Shimmer Stout for mountaineers stationed throughout the passes."
+   "answer": "At South Gate Outpost, he watches the roadway and helps arrange supplies. These include Shimmer Stout for mountaineers stationed throughout the passes."
   },
   {
    "q": "Is he related to the other Barleybrews?",
@@ -40,13 +40,13 @@
     "barleybrew family",
     "yorus barleybrew relative"
    ],
-   "answer": "Yes. Rejold Barleybrew, the brewer, is his brother. Barleybrew may also be related to Marleth, Malgin, and Yorus Barleybrew."
+   "answer": "Yes. Rejold Barleybrew, the brewer, is his brother. He may also be related to Marleth, Malgin, and Yorus Barleybrew."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "As a dwarf, you know the demands of frontier duty and the high-proof drink that helps keep Khaz Modan secure."
+   "text": "As a dwarf, you know the demands of frontier duty and the strong drink that helps keep Khaz Modan secure."
   }
  ],
  "keywords": [
@@ -70,5 +70,5 @@
  "attribution": [
   "Mountaineer Barleybrew"
  ],
- "style": 1
+ "style": 2
 }

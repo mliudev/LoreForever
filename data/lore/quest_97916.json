@@ -14,15 +14,15 @@
  "angles": [
   {
    "target": "profession:Blacksmithing",
-   "text": "Blacksmiths learning their trade in Elwynn Forest can craft a sharpening wheel to maintain equipment and hone blades out in the field."
+   "text": "Blacksmiths learning their trade in Elwynn Forest can forge a Sharpening Wheel to maintain equipment and hone blades in the field."
   },
   {
    "target": "profession:Cooking",
-   "text": "A proper campsite requires a reliable fire, making basic culinary training a natural partner for wilderness metalworking."
+   "text": "A proper campsite needs a reliable fire, so basic cooking training pairs well with metalworking in the wilderness."
   },
   {
    "target": "faction:Alliance",
-   "text": "Alliance artisans beginning their journey in Goldshire can consult Smith Argus to prepare for prolonged expeditions beyond town walls."
+   "text": "Alliance artisans starting out in Goldshire can ask Smith Argus how to prepare for long journeys beyond town."
   }
  ],
  "faq": [
@@ -32,7 +32,7 @@
     "camping 101 blacksmithing purpose",
     "what do i learn"
    ],
-   "answer": "This quest introduces novice blacksmiths to survival craftsmanship, teaching them how to forge a portable Sharpening Wheel for wilderness expeditions.",
+   "answer": "Smith Argus teaches skilled blacksmiths to forge a portable Sharpening Wheel for use in the wilderness.",
    "q": "What is Camping 101: Blacksmithing?"
   },
   {
@@ -41,7 +41,7 @@
     "goldshire blacksmith trainer",
     "argus goldshire"
    ],
-   "answer": "Smith Argus is the resident blacksmith and trainer located in Goldshire within Elwynn Forest. He instructs promising smiths in fundamental metalworking and camping craft.",
+   "answer": "Smith Argus is the blacksmith and trainer in Goldshire, within Elwynn Forest. He teaches promising smiths basic metalworking and camping craft.",
    "q": "Who is Smith Argus?"
   },
   {
@@ -50,7 +50,7 @@
     "camping sharpening wheel",
     "blacksmith camp item"
    ],
-   "answer": "The Sharpening Wheel is a profession-specific camping item that blacksmiths learn to craft for their expeditions, allowing them to hone tools and weapons away from traditional town forges.",
+   "answer": "A Sharpening Wheel is camping equipment that blacksmiths can forge to hone tools and weapons away from town forges.",
    "q": "What is a Sharpening Wheel?"
   },
   {
@@ -59,7 +59,7 @@
     "pitch tent in town",
     "where can i camp"
    ],
-   "answer": "Townsfolk do not take kindly to camps being erected in settled areas like Goldshire. Smiths must venture out into the wilderness to set up their gear.",
+   "answer": "Townsfolk frown on camps in settled places like Goldshire. Smiths need to head into the wilderness to set up their gear.",
    "q": "Can you set up camp inside town?"
   },
   {
@@ -68,7 +68,7 @@
     "campfire for camp",
     "how to make a camp"
    ],
-   "answer": "Every camp requires a roaring campfire to be complete. Blacksmiths are advised to consult a cooking trainer to learn basic fire-starting techniques before heading out.",
+   "answer": "A campfire completes a wilderness camp. Blacksmiths can visit a cooking trainer to learn basic fire-making before heading out.",
    "q": "Why do you need a campfire to make camp?"
   },
   {
@@ -76,7 +76,7 @@
     "camping 101 requirements",
     "blacksmith proficiency requirement"
    ],
-   "answer": "You must show sufficient proficiency in the blacksmithing craft before Smith Argus will teach you how to forge specialized camping equipment.",
+   "answer": "Smith Argus teaches this camping craft to blacksmiths with sufficient skill.",
    "q": "When can you learn this camping craft?"
   }
  ],
@@ -96,18 +96,19 @@
  ],
  "sections": [
   {
-   "body": "Smith Argus of Goldshire offers guidance to aspiring metalworkers on how to take their trade on the road. Rather than remaining bound strictly to town anvils, blacksmiths who demonstrate sufficient skill can learn to craft practical gear suited for roughing it in the wild. This instruction focuses on forging a personal Sharpening Wheel, an essential tool for keeping blades keen during long travels.",
+   "body": "Smith Argus of Goldshire shows skilled metalworkers how to carry their craft beyond the town anvils. Those ready for the work can learn to forge a Sharpening Wheel, keeping blades keen on long travels.",
    "spoiler": 0,
    "title": "Forging for the Trail"
   },
   {
-   "body": "Setting up camp requires more than just field equipment; proper wilderness etiquette and preparation are equally vital. Townsfolk frown upon setting up camp in the middle of settlements like Goldshire, meaning crafters must seek the open frontier to deploy their gear. Furthermore, no wilderness site is complete without a warm campfire, making a visit to a local cook to learn basic fire-making an indispensable first step.",
+   "body": "Field gear alone does not make a proper camp. Goldshire townsfolk frown on camps within settlements, so crafters must head into the open frontier to use their equipment. A wilderness camp also needs a warm fire. Visit a local cook to learn the basics of making one.",
    "spoiler": 0,
    "title": "Life in the Field"
   }
  ],
- "summary": "Camping 101: Blacksmithing is an introductory task in Goldshire instructing smiths on crafting field equipment. By consulting Smith Argus, skilled metalworkers learn to forge a portable Sharpening Wheel for wilderness travels. It emphasizes field readiness, highlighting the necessity of open country and a proper campfire to establish a working campsite.",
+ "summary": "In Goldshire, Smith Argus teaches skilled metalworkers to prepare for work in the wild. They learn to forge a portable Sharpening Wheel and to make camp in open country with a proper fire.",
  "attribution": [
   "In-game quest text: Camping 101: Blacksmithing"
- ]
+ ],
+ "style": 2
 }

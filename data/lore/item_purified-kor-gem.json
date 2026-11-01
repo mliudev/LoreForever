@@ -10,16 +10,16 @@
    "quest:1654"
   ]
  },
- "summary": "At Jordan Stilwell’s forge outside Ironforge, a Purified Kor Gem is needed for a weapon of the Light. First, the corrupted stone must be cleansed by elven magic.",
+ "summary": "At Jordan Stilwell’s forge outside Ironforge, a Purified Kor Gem is needed to shape a weapon of the Light. First, elven magic must cleanse the corrupted stone.",
  "sections": [
   {
    "title": "From Corruption to Sanctity",
-   "body": "A Corrupted Kor Gem is held by naga in Blackfathom Deeps beneath the coast of Ashenvale. A paladin takes it to Thundris Windweaver, a night elf in Auberdine. Thundris draws on arcane and natural arts to purge the stone’s aquatic and shadowy taint. The cleanse leaves a Purified Kor Gem, fit to channel holy power.",
+   "body": "Naga hold the Corrupted Kor Gem in Blackfathom Deeps, beneath Ashenvale’s coast. A paladin carries it to Thundris Windweaver, a night elf in Auberdine. There, Thundris draws on arcane and natural arts to purge its aquatic and shadowy taint. The stone emerges purified, ready to channel holy power.",
    "spoiler": 0
   },
   {
    "title": "The Smith's Masterpiece",
-   "body": "Jordan Stilwell, a human weaponsmith outside Ironforge, needs the gem to forge a masterwork weapon. He has long held designs for an arm worthy of the Silver Hand, but lacked the rare materials to make it. The Purified Kor Gem, Whitestone Oak Lumber, and rare ore provide the spiritual core for channeling a paladin’s righteous wrath.",
+   "body": "Jordan Stilwell, a human weaponsmith outside Ironforge, needs the gem for a masterwork weapon. He has long held designs for a weapon worthy of the Silver Hand, but lacked the rare materials to forge it. The Purified Kor Gem, Whitestone Oak Lumber, and rare ore give the weapon its spiritual core, to channel a paladin’s righteous wrath.",
    "spoiler": 0
   }
  ],
@@ -63,11 +63,11 @@
  "angles": [
   {
    "target": "class:Paladin",
-   "text": "As a paladin, you prove your devotion by acquiring and cleansing this gem, then carrying it from Kalimdor to Dun Morogh to forge a weapon of the Light."
+   "text": "As a paladin, you prove your devotion by acquiring and cleansing this gem. Then you carry it from Kalimdor to Dun Morogh, where it helps forge a weapon of the Light."
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance member, you rely on night elven wisdom in Auberdine to aid a human smith working on the slopes of Dun Morogh."
+   "text": "As an Alliance member, you rely on night elven wisdom in Auberdine to aid a human smith on the slopes of Dun Morogh."
   }
  ],
  "keywords": [
@@ -93,5 +93,5 @@
   "Purified Kor Gem",
   "The Test of Righteousness (2)"
  ],
- "style": 1
+ "style": 2
 }

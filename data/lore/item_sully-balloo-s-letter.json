@@ -10,16 +10,16 @@
    "quest:637"
   ]
  },
- "summary": "Sully Balloo's Letter carries a soldier's farewell from the waters beneath the Thandol Span. Addressed to his wife Sara in Ironforge, it bears the love that endured through his final days.",
+ "summary": "Beneath the Thandol Span, Sully Balloo's Letter carries a soldier's farewell to Sara in Ironforge. His words hold the love he bore her through his final days.",
  "sections": [
   {
    "title": "A Final Farewell Beneath the Waves",
-   "body": "Beneath the Thandol Span, where the Wetlands road crosses toward the Arathi Highlands, a dwarf's skeletal remains lie pinned under rushing water. In his grasp rests a fragile, waterlogged envelope. The letter inside begins, “My dear Sara...” Its parchment has suffered beneath the water, but the ink still holds the care with which the dwarven defender wrote in his final days or hours. He never returned to Ironforge.",
+   "body": "Beneath the Thandol Span, the road from the Wetlands crosses toward the Arathi Highlands. Under the rushing water, a dwarf's skeletal remains lie pinned. A fragile, waterlogged envelope rests in his grasp. Inside, the letter begins, “My dear Sara...” The parchment has suffered beneath the water, yet the ink still bears the care of the dwarven defender in his final days or hours. He never returned to Ironforge.",
    "spoiler": 0
   },
   {
    "title": "Delivery to Ironforge",
-   "body": "In Ironforge, Sara Balloo has lived with the uncertainty of a wife whose husband marched off to war. Reading Sully's final thoughts brings somber closure and confirms her fear: he died far from home beneath the currents of the northern crossing. His devotion reaches her in his own words.",
+   "body": "In Ironforge, Sara Balloo has waited without knowing what became of her husband after he marched off to war. Sully's final thoughts bring her somber closure and confirm the fear she carried: he died far from home beneath the currents of the northern crossing. His devotion reaches her in his own words.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "where is sullys letter",
     "where to find sully balloo letter"
    ],
-   "answer": "You find the letter in a waterlogged envelope clutched in the hand of a skeletal dwarf beneath the waters of the Thandol Span, between the Wetlands and the Arathi Highlands."
+   "answer": "You find the letter in a waterlogged envelope clutched in a skeletal dwarf's hand beneath the waters of the Thandol Span, between the Wetlands and the Arathi Highlands."
   },
   {
    "q": "Who was Sully Balloo?",
@@ -40,7 +40,7 @@
     "sully balloo lore",
     "what happened to sully"
    ],
-   "answer": "Sully Balloo was a dwarven soldier who died near the Thandol Span while defending the northern crossing. His remains lie pinned beneath the river currents."
+   "answer": "Sully Balloo was a dwarven soldier who died while defending the northern crossing near the Thandol Span. His remains lie pinned beneath the river currents."
   },
   {
    "q": "Who is the letter addressed to?",
@@ -58,17 +58,17 @@
     "turning in the letter",
     "quest completion sully letter"
    ],
-   "answer": "When Sara Balloo reads the letter, she is heartbroken to learn that her husband died beneath the waters. She can still read the final words he lovingly wrote to her."
+   "answer": "When Sara Balloo reads the letter, she is heartbroken to learn her husband died beneath the waters. She can still read the final words he lovingly wrote to her."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "As a dwarf, you can see in the letter the sacrifice ordinary mountaineers and soldiers make while guarding Khaz Modan's high bridges and mountain passes."
+   "text": "As a dwarf, you can see in this letter the sacrifice ordinary mountaineers and soldiers make while guarding Khaz Modan's high bridges and mountain passes."
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance member, you can help carry a fallen soldier's last thoughts to his widow, so they are not forgotten beneath the bridge."
+   "text": "As an Alliance member, you can carry a fallen soldier's last thoughts to his widow, so they are not forgotten beneath the bridge."
   }
  ],
  "keywords": [
@@ -94,5 +94,5 @@
   "Sully Balloo's Letter",
   "Sully Balloo's Letter (quest)"
  ],
- "style": 1
+ "style": 2
 }

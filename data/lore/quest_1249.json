@@ -14,11 +14,11 @@
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "The investigation into the missing diplomat pulls Alliance adventurers into the shadowy underworld connecting Stormwind's political circles to the docks of the Wetlands."
+   "text": "As an Alliance adventurer, you follow the missing diplomat's trail into an underworld linking Stormwind's political circles to the Wetlands docks."
   },
   {
    "target": "class:Rogue",
-   "text": "Underground operatives and handlers like Elling Trias rely on quiet legwork and street contacts to track down figures who slip through the cracks."
+   "text": "As a rogue, you know that operatives and handlers like Elling Trias rely on quiet legwork and street contacts to find those who slip through the cracks."
   }
  ],
  "faq": [
@@ -28,7 +28,7 @@
     "slim missing diplomat",
     "caught slim"
    ],
-   "answer": "Slim is a shady contact in Menethil Harbor caught during the investigation into the missing diplomat, surprising local contacts who did not expect him to be the one involved.",
+   "answer": "Slim is a shady contact in Menethil Harbor whom you catch during the search for the missing diplomat. Local contacts are surprised to learn he was involved.",
    "q": "Who is Slim?"
   },
   {
@@ -37,7 +37,7 @@
     "who is elling",
     "elling stormwind"
    ],
-   "answer": "Elling Trias is an influential figure operating out of Stormwind City who maintains an underground network of former rogues and informants across Alliance lands.",
+   "answer": "Elling Trias is an influential figure in Stormwind City who keeps an underground network of former rogues and informants across Alliance lands.",
    "q": "Who is Elling?"
   },
   {
@@ -46,7 +46,7 @@
     "menethil harbor missing diplomat",
     "wetlands diplomat"
    ],
-   "answer": "This leg of the investigation unfolds in Menethil Harbor, a port town in the Wetlands that connects the kingdom of Ironforge to distant shores and Stormwind trade routes.",
+   "answer": "You follow this part of the investigation in Menethil Harbor, a Wetlands port connecting Ironforge to distant shores and Stormwind trade routes.",
    "q": "Where does this part of the investigation take place?"
   },
   {
@@ -55,7 +55,7 @@
     "missing diplomat quest",
     "who is missing"
    ],
-   "answer": "The Missing Diplomat is an investigation into the disappearance of an important envoy from Stormwind, tracing covert operatives, conspirators, and underworld contacts across the kingdom and beyond.",
+   "answer": "You investigate the disappearance of an important Stormwind envoy, following covert operatives, conspirators, and underworld contacts across the kingdom and beyond.",
    "q": "What is the Missing Diplomat quest chain about?"
   },
   {
@@ -64,7 +64,7 @@
     "trias cheese",
     "elling trias connection"
    ],
-   "answer": "The contact in Menethil Harbor previously worked with Elling Trias in Stormwind's underground circles and avoids letting Elling know he misses the old life, lest he be summoned back to the capital.",
+   "answer": "A Menethil Harbor contact once worked with Elling Trias in Stormwind's underground circles. He avoids telling Elling that he misses the old life, for fear Elling will summon him back to the capital.",
    "q": "Why does the contact warn against mentioning this to Elling?"
   },
   {
@@ -73,7 +73,7 @@
     "menethil lead",
     "slim caught"
    ],
-   "answer": "After tracking leads to the Wetlands port of Menethil Harbor, the investigator confronts and catches Slim, confirming local suspicions about illicit underground activities in town.",
+   "answer": "You follow leads to Menethil Harbor in the Wetlands and catch Slim. The encounter confirms local suspicions about illicit underground activity in town.",
    "q": "What happened with the investigation in Menethil Harbor?"
   }
  ],
@@ -91,18 +91,19 @@
  ],
  "sections": [
   {
-   "body": "The search for Stormwind's missing envoy leads investigators far north of the capital into the damp port of Menethil Harbor. Behind the town's busy docks and weathered taverns lies an underground current of shady dealers and covert runners operating right under the local guard's nose. Tracking leads through this coastal hub requires dealing directly with individuals who know the darker side of Alliance territory.",
+   "body": "You follow the missing Stormwind envoy's trail north to Menethil Harbor in the Wetlands. Its docks and taverns hide shady dealers and covert runners, all working under the local guard's nose. To follow the leads through this port, you must deal with people who know the darker side of Alliance territory.",
    "spoiler": 0,
    "title": "Undercurrents in Menethil Harbor"
   },
   {
-   "body": "Apprehending Slim brings a surprising breakthrough in the search, catching local informants off guard that he was directly entangled in the affair. While the capture provides critical answers, it also stirs up memories for retired operatives resting in the Wetlands, who must balance helping the Crown against the risk of being dragged back into the scheming underworld of Stormwind.",
+   "body": "Catching Slim brings a sudden answer to the search. Local informants are surprised to learn he was entangled in the affair. His capture gives you critical answers, but it also stirs old memories for retired operatives in the Wetlands. They must weigh helping the Crown against being drawn back into Stormwind's underworld schemes.",
    "spoiler": 1,
    "title": "A Familiar Rogue"
   }
  ],
- "summary": "The Missing Diplomat is an extensive investigation into the disappearance of a vital Stormwind envoy, tracing shadowy leads from the capital to distant ports. In Menethil Harbor, the inquiry crosses paths with underworld figures and old operatives tied to Stormwind's intelligence network.",
+ "summary": "Stormwind's envoy is missing, and you follow the trail from the capital to Menethil Harbor. There, the inquiry crosses paths with underworld figures and operatives tied to Stormwind's intelligence network.",
  "attribution": [
   "In-game quest text: The Missing Diplomat"
- ]
+ ],
+ "style": 2
 }

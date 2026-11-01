@@ -10,16 +10,16 @@
    "quest:2038"
   ]
  },
- "summary": "Bingles' Screwdriver lies among the gear scattered across Loch Modan's northern islands. Gnome pilot Bingles Blastenheimer lost it when troggs plundered his crashed gyrocopter.",
+ "summary": "Across Loch Modan's northern islands, Bingles' Screwdriver lies among the gear lost in a crash. Troggs carried it off with the tools of pilot Bingles Blastenheimer.",
  "sections": [
   {
    "title": "A Pilot's Vital Kit",
-   "body": "Bingles Blastenheimer lost the tools he needs to repair his gyrocopter when he crashed into Loch Modan. Troggs on the nearby islands carried off his tool buckets, and the screwdriver was packed in one of them. Bingles needs the screwdriver to make fine adjustments as he repairs the craft and handles its armaments.",
+   "body": "When Bingles Blastenheimer crashed into Loch Modan, he lost the tools needed to repair his gyrocopter. Troggs on nearby islands carried off his tool buckets, and the screwdriver was packed in one of them. Bingles needs it for fine adjustments as he repairs the craft and handles its armaments.",
    "spoiler": 0
   },
   {
    "title": "Preparations for the Retaking",
-   "body": "Bingles works to free Gnomeregan from troggs and leper gnomes. He plans to combine his flying skill with volatile Blastencapper munitions for an aerial assault. Recovering the screwdriver, wrench, and hammer will help him rebuild his gyrocopter and keep the airborne counteroffensive alive.",
+   "body": "Bingles works to free Gnomeregan from troggs and leper gnomes. He means to join his flying skill with volatile Blastencapper munitions in an aerial assault. The screwdriver, wrench, and hammer will help him rebuild his gyrocopter and keep the airborne counteroffensive alive.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "find bingles screwdriver",
     "where is the screwdriver"
    ],
-   "answer": "Troggs scattered Bingles' Toolbuckets across the islands in northern Loch Modan after his crash. The screwdriver is inside one of them."
+   "answer": "After Bingles crashed, troggs scattered his Toolbuckets across the islands in northern Loch Modan. The screwdriver is inside one of them."
   },
   {
    "q": "Why is the screwdriver so important to Bingles?",
@@ -39,7 +39,7 @@
     "why does bingles need it",
     "what is it for"
    ],
-   "answer": "Bingles needs the screwdriver and his other tools to rebuild his gyrocopter and prepare his explosives for the campaign to retake Gnomeregan."
+   "answer": "Bingles needs the screwdriver and his other tools to rebuild his gyrocopter and prepare explosives for the campaign to retake Gnomeregan."
   },
   {
    "q": "Who stole the screwdriver in the first place?",
@@ -47,7 +47,7 @@
     "who took the tools",
     "who stole bingles tools"
    ],
-   "answer": "Troggs living on the islands in Loch Modan took Bingles' tool buckets and Blastencapper explosives after his crash landing."
+   "answer": "After Bingles crash landed, troggs living on the islands in Loch Modan took his tool buckets and Blastencapper explosives."
   },
   {
    "q": "What other tools did Bingles lose in the crash?",
@@ -55,17 +55,17 @@
     "other bingles tools",
     "what else is missing"
    ],
-   "answer": "Bingles lost his wrench, hammer, and volatile supply of Blastenheimer Blastencapper explosives along with the screwdriver."
+   "answer": "Along with the screwdriver, Bingles lost his wrench, hammer, and volatile supply of Blastenheimer Blastencapper explosives."
   }
  ],
  "angles": [
   {
    "target": "race:Gnome",
-   "text": "As a gnome, each recovered tool brings Bingles closer to rebuilding his craft and taking the fight to the troggs and leper gnomes who drove your kin from Gnomeregan."
+   "text": "As a gnome, each tool you recover brings Bingles closer to rebuilding his craft and fighting the troggs and leper gnomes who drove your kin from Gnomeregan."
   },
   {
    "target": "profession:Engineering",
-   "text": "As an engineer, you know a precisely made screwdriver is indispensable for intricate gyrocopter rotors and delicate trigger assemblies."
+   "text": "As an engineer, you know a precisely made screwdriver is vital for intricate gyrocopter rotors and delicate trigger assemblies."
   }
  ],
  "keywords": [
@@ -91,5 +91,5 @@
   "Bingles' Screwdriver",
   "Bingles' Missing Supplies"
  ],
- "style": 1
+ "style": 2
 }

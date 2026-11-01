@@ -10,11 +10,11 @@
    "quest:314"
   ]
  },
- "summary": "In Dun Morogh, Vagash threatens the breeders’ prized rams from the snowy crags. The Fang of Vagash proves the notorious marauding predator has been slain.",
+ "summary": "In Dun Morogh, Vagash stalks the rams above Amberstill Ranch. His fang proves the deadly predator has been slain.",
  "sections": [
   {
    "title": "Trophy of the Hunt",
-   "body": "Vagash is a savage beast that stalks downhill from the ridges above Amberstill Ranch, often under cover of darkness, to slaughter prized rams. Dun Morogh’s high crags shelter bitter cold and fierce predators, but none have plagued the local ranches as Vagash has. Ironforge’s troops are stretched thin, leaving herdsmen without the city guard’s protection. A severed fang gives the breeders proof that Vagash is dead and the pasturelands are safe again.",
+   "body": "Above Amberstill Ranch, Vagash hunts the rams under cover of darkness. The high crags shelter fierce predators, but none has troubled the local ranches as much as he has. Ironforge’s troops are stretched thin, so the herdsmen go without the city guard’s protection. His severed fang gives the breeders proof that Vagash is dead and their pasturelands are safe again.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "what to do with fang of vagash",
     "turn in vagash fang"
    ],
-   "answer": "The fang is brought to the breeders at Amberstill Ranch in Dun Morogh as proof that Vagash has been eliminated. The grateful ranchers reward the hunter who protected their livelihood."
+   "answer": "The breeders at Amberstill Ranch in Dun Morogh take Vagash’s fang as proof that he has been slain. They reward the hunter who protected their livelihood."
   },
   {
    "q": "Who is Vagash?",
@@ -35,7 +35,7 @@
     "where is vagash",
     "vagash lore"
    ],
-   "answer": "Vagash is an unusually deadly beast that dens in the snowy hills above Dun Morogh’s ram pastures. He raids herds at night and has earned a fearsome reputation among local dwarves."
+   "answer": "Vagash is a deadly beast that dens in the snowy hills above Dun Morogh’s ram pastures. He raids the herds at night, and local dwarves fear him."
   },
   {
    "q": "Why hasn't the Ironforge guard killed Vagash?",
@@ -44,17 +44,17 @@
     "where is ironforge army",
     "mountaineers vagash"
    ],
-   "answer": "Ironforge’s troops are already spread thin, with few soldiers to spare for rural patrols. The ranchers must rely on passing adventurers to deal with dangerous predators."
+   "answer": "Ironforge’s troops are spread thin, with few soldiers to spare for rural patrols. The ranchers must rely on passing adventurers to deal with dangerous predators."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "Amberstill Ranch provides the hardy mountain rams essential to dwarven mountaineers and travelers. Bringing back Vagash’s fang helps preserve Ironforge’s most prized breed of mount."
+   "text": "Amberstill Ranch raises hardy mountain rams for dwarven mountaineers and travelers. Bringing back Vagash’s fang helps preserve Ironforge’s prized breed of mount."
   },
   {
    "target": "class:Hunter",
-   "text": "Tracking an apex predator like Vagash through Dun Morogh’s freezing crags tests a hunter’s tracking, wilderness survival, and beast-slaying skills."
+   "text": "Tracking Vagash through Dun Morogh’s freezing crags tests a hunter’s skills at tracking, wilderness survival, and slaying beasts."
   }
  ],
  "keywords": [
@@ -76,5 +76,5 @@
   "Fang of Vagash",
   "Protecting the Herd"
  ],
- "style": 1
+ "style": 2
 }

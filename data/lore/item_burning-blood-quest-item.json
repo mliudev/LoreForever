@@ -10,16 +10,16 @@
    "quest:1705"
   ]
  },
- "summary": "In Duskwood, Burning Blood is gathered from the Nightbane worgen. Grimand Elmore needs twenty vials for experiments in smithing.",
+ "summary": "In Duskwood, Nightbane worgen blood draws Grimand Elmore's interest. He needs twenty vials for experiments in smithing.",
  "sections": [
   {
    "title": "A Volatile Reagent",
-   "body": "Nightbane worgen prowl Duskwood with a strange fury, and their blood burns with real heat. The fluid can be drawn from worgen haunting the timberlands and Roland's Doom. Though foul to gather, its heat draws the interest of armorers seeking to temper resilient plate.",
+   "body": "Nightbane worgen prowl Duskwood in a strange fury. Their blood burns with real heat. It can be drawn from worgen haunting the timberlands and Roland's Doom. Armorers seek its heat to temper resilient plate.",
    "spoiler": 0
   },
   {
    "title": "Elmore's Experiment",
-   "body": "Grimand Elmore works as an armorer in Stormwind's Dwarven District. He wants to test smithing methods developed by his former student Furen Longbeard. For the experiment, Elmore needs Burning Blood and a dense burning rock held by the worgen chieftain Gutspill. Those who bring back the bubbling fluid are promised sturdy warrior armor from his forge.",
+   "body": "Grimand Elmore is an armorer in Stormwind's Dwarven District. He wants to test smithing methods devised by his former student Furen Longbeard.\n\nFor the experiment, Elmore needs Burning Blood and a dense burning rock held by the worgen chieftain Gutspill. Bring him the bubbling fluid, and he promises sturdy warrior armor from his forge.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "what is burning blood",
     "worgen blood"
    ],
-   "answer": "Burning Blood is a hot bodily fluid taken from Nightbane worgen in Duskwood. Grimand Elmore needs it for smithing experiments."
+   "answer": "Nightbane worgen in Duskwood have hot blood. Grimand Elmore needs it for smithing experiments."
   },
   {
    "q": "Where does Burning Blood come from?",
@@ -62,7 +62,7 @@
  "angles": [
   {
    "target": "class:Warrior",
-   "text": "Grimand Elmore uses Burning Blood to test smithing methods and promises durable plate armor to warriors who bring it to him."
+   "text": "Grimand Elmore uses Burning Blood to test smithing methods. He promises durable plate armor to warriors who bring it to him."
   },
   {
    "target": "profession:Blacksmithing",
@@ -92,5 +92,5 @@
   "Burning Blood (quest item)",
   "Burning Blood (quest)"
  ],
- "style": 1
+ "style": 2
 }

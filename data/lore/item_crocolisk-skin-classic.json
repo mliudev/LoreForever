@@ -10,11 +10,11 @@
    "quest:385"
   ]
  },
- "summary": "In Loch Modan, crocolisk skins come from the fierce beasts that haunt the Loch’s islands and waters. Merchants and leatherworkers seek their durable hides, though hunters face danger to gather them.",
+ "summary": "At Farstrider Lodge in Loch Modan, hunters brave the Loch’s crocolisks for hides sought by merchants and leatherworkers.",
  "sections": [
   {
    "title": "A Dangerous Trade",
-   "body": "Crocolisks crowd the Loch’s cold waters and make dens along its islands and shores. Their sharp teeth and thick scales make them dangerous quarry. Hunters based at Farstrider Lodge still pursue them for their hides. Tailors, leatherworkers, and merchants from distant places seek the skins for sturdy garments and armor, so undamaged hides bring a good price in the region.",
+   "body": "Crocolisks make dens along the islands and shores of the Loch’s cold waters. Their sharp teeth and thick scales make them dangerous quarry. Still, hunters based at Farstrider Lodge pursue them for their tough skins. Tailors and distant merchants seek the hides for sturdy garments and armor, so an undamaged skin brings a good price nearby.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "loch croc skin source",
     "who drops crocolisk skin"
    ],
-   "answer": "Loch Crocolisks and Large Loch Crocolisks in the waters and on the islands of the Loch in Loch Modan provide the skins."
+   "answer": "Loch Crocolisks and Large Loch Crocolisks provide the skins. They live in Loch Modan’s waters and on its islands."
   },
   {
    "q": "Who buys or trades these hides in Loch Modan?",
@@ -35,7 +35,7 @@
     "farstrider lodge croc skins",
     "marek ironheart skins"
    ],
-   "answer": "Marek Ironheart, a dwarven hunter at Farstrider Lodge, gathers the skins and crocolisk meat to sell to visiting merchants and craftsmen."
+   "answer": "Marek Ironheart, a dwarven hunter at Farstrider Lodge, gathers crocolisk skins and meat to sell to visiting merchants and craftsmen."
   },
   {
    "q": "Why are these skins in demand?",
@@ -44,7 +44,7 @@
     "crocolisk leather use",
     "why hunt crocs"
    ],
-   "answer": "Merchants prize the tough, scaly hides for sturdy clothing and armor. The fierce crocolisks are hard to kill, so good skins bring steady pay."
+   "answer": "Merchants seek the tough, scaly hides for sturdy clothing and armor. Crocolisks are fierce and hard to kill, so good skins bring steady pay."
   },
   {
    "q": "Is hunting crocolisks in the Loch considered dangerous?",
@@ -52,7 +52,7 @@
     "are loch crocs dangerous",
     "crocolisk hunting danger"
    ],
-   "answer": "Yes. Loch crocolisks are aggressive, with powerful jaws and serrated teeth that can sever limbs. Local hunters such as Marek Ironheart trade tales of near-fatal encounters as they try to pin down their quarry."
+   "answer": "Yes. Loch crocolisks are aggressive, with powerful jaws and serrated teeth that can sever limbs. Local hunters such as Marek Ironheart trade tales of near-fatal encounters while trying to pin down their quarry."
   }
  ],
  "angles": [
@@ -86,5 +86,5 @@
   "Crocolisk Skin (Classic)",
   "Crocolisk Hunting"
  ],
- "style": 1
+ "style": 2
 }

@@ -21,16 +21,16 @@
    "The Only Cure is More Green Glow"
   ]
  },
- "summary": "In Ironforge and Kharanos, Gnomeregan's survivors seek a way to answer the city's ruin. Gnoarn sends travelers to Ozzie Togglevolt, who studies the contamination and hopes to find a solution.",
+ "summary": "In Ironforge and Kharanos, Gnomeregan's survivors search for an answer to their city's ruin. Gnoarn sends travelers to Ozzie Togglevolt, who studies the contamination and hopes to find a solution.",
  "sections": [
   {
    "title": "A Tragic Loss",
-   "body": "Gnoarn, a refugee in Ironforge's Tinker Town, mourns Gnomeregan and the loss of his gnomefro. Trogg invaders took the mechanical city, and toxic fallout blasted away his prized mane. Fury toward the troggs and hope of recovering the city drive him to send sympathetic travelers to colleagues with the skill to salvage what remains.",
+   "body": "In Ironforge's Tinker Town, Gnoarn mourns Gnomeregan and the loss of his gnomefro. Trogg invaders took the mechanical city, and toxic fallout stripped away his prized mane. Fury toward the troggs and hope of reclaiming the city move him to send sympathetic travelers to colleagues who can salvage what remains.",
    "spoiler": 0
   },
   {
    "title": "The Road to Kharanos",
-   "body": "In Kharanos, inventive gnomes have begun to tackle the fallout. Gnoarn points travelers toward Ozzie Togglevolt, who works with his partner Razzle Sprysprocket. Ozzie remembers the catastrophe, when Gnoarn's locks fell out in clumps and madness and thirst for vengeance took hold. Now, in the snowbound town, Ozzie analyzes the contamination with his engineering skill, hoping to find an antidote.",
+   "body": "In Kharanos, inventive gnomes have begun to face the fallout. Gnoarn sends travelers to Ozzie Togglevolt, who works with his partner Razzle Sprysprocket. Ozzie remembers the catastrophe, when Gnoarn's locks fell out in clumps and madness and thirst for vengeance took hold. Now Ozzie studies the contamination in the snowbound town, using his engineering skill to seek an antidote.",
    "spoiler": 0
   }
  ],
@@ -42,7 +42,7 @@
     "bald gnome",
     "who gives the day after"
    ],
-   "answer": "Gnoarn is a gnome refugee in Tinker Town, Ironforge. Trogg invaders and the radioactive vent catastrophe have embittered him, and he is especially shaken by the sudden loss of his once-proud gnomefro."
+   "answer": "Gnoarn is a gnome refugee in Tinker Town, Ironforge. The trogg invaders and radioactive vent catastrophe have embittered him, and he is especially shaken by the sudden loss of his once-proud gnomefro."
   },
   {
    "q": "Why does Gnoarn send you to Ozzie Togglevolt?",
@@ -60,7 +60,7 @@
     "why is gnomeregan irradiated",
     "trogg invasion"
    ],
-   "answer": "During a vast invasion by troggs beneath the city, High Tinker Gelbin Mekkatorque was persuaded to vent radioactive toxic waste into the lower halls to destroy them. The plan failed: countless gnomes were killed or mutated, Gnomeregan became unlivable, and the troggs survived."
+   "answer": "During a vast trogg invasion beneath the city, High Tinker Gelbin Mekkatorque was persuaded to vent radioactive toxic waste into the lower halls to destroy them. The plan failed. Countless gnomes were killed or mutated, Gnomeregan became unlivable, and the troggs survived."
   },
   {
    "q": "Where does this quest chain lead after reaching Ozzie?",
@@ -69,13 +69,13 @@
     "what comes after the day after",
     "next quest"
    ],
-   "answer": "After you report to Ozzie, he asks you to gather radioactive fallout from the irradiated troggs outside Gnomeregan. He will test experimental mixtures meant to neutralize it."
+   "answer": "After you report to Ozzie, he asks you to gather radioactive fallout from irradiated troggs outside Gnomeregan. He will test experimental mixtures meant to neutralize it."
   }
  ],
  "angles": [
   {
    "target": "race:Gnome",
-   "text": "As a gnome, you know Gnoarn's lament: it carries the tragedy, eccentric pride, and bitter vengeance of refugees driven from their capital."
+   "text": "As a gnome, you know Gnoarn's lament. It carries the tragedy, eccentric pride, and bitter vengeance of refugees driven from their capital."
   },
   {
    "target": "faction:Alliance",
@@ -83,7 +83,7 @@
   },
   {
    "target": "profession:Engineering",
-   "text": "As an engineer, you see Ozzie Togglevolt testing ideas as gnomish tinkerers confront a runaway technological disaster."
+   "text": "As an engineer, you see Ozzie Togglevolt testing ideas while gnomish tinkerers confront a runaway technological disaster."
   }
  ],
  "keywords": [
@@ -108,5 +108,5 @@
  "attribution": [
   "The Day After"
  ],
- "style": 1
+ "style": 2
 }

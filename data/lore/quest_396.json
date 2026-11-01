@@ -17,16 +17,16 @@
   "wiki": "An Audience with the King",
   "chain": []
  },
- "summary": "At Stormwind Keep, An Audience with the King brings the Defias report before the Crown. After the long investigation across Westfall and the Deadmines, the heroes carry City Architect Baros Alexston's findings to the capital.",
+ "summary": "At Stormwind Keep, the Defias report comes before the Crown. After a long inquiry through Westfall and the Deadmines, you bring City Architect Baros Alexston's findings to the capital.",
  "sections": [
   {
    "title": "A Royal Summons",
-   "body": "Edwin VanCleef has been defeated, and the conspiracy beneath Moonbrook has been dismantled. City Architect Baros Alexston prepares an official report for the Crown. He believes the adventurer who broke the guild's criminal enterprise should be honored before the monarch. You carry the detailed findings across Stormwind's grand canals to Stormwind Keep, expecting to meet the realm's sovereign.",
+   "body": "Edwin VanCleef has fallen, and the conspiracy beneath Moonbrook is broken. City Architect Baros Alexston prepares an official report for the Crown. He believes you should be honored for ending the guild's criminal enterprise. So you carry the findings across Stormwind's grand canals to Stormwind Keep, expecting to meet the realm's ruler.",
    "spoiler": 0
   },
   {
    "title": "An Empty Throne",
-   "body": "Lady Katrana Prestor receives the report in the royal court, but King Varian Wrynn is not there. She says he is away on an extended diplomatic mission and cannot offer congratulations in person. Prestor accepts the findings, commends you for saving Stormwind from VanCleef's schemes, and offers a reward in the king's name. The uprising's grim truth remains hidden behind her account of the king's absence.",
+   "body": "Lady Katrana Prestor receives the report in the royal court, but King Varian Wrynn is absent. She says he is away on an extended diplomatic mission and cannot congratulate you in person. Prestor accepts the findings and praises you for saving Stormwind from VanCleef's schemes. Then she offers a reward in the king's name. The truth of the uprising remains hidden behind her account of the king's absence.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "baros alexston report",
     "audience with king delivery"
    ],
-   "answer": "Baros Alexston believes you earned the honor through your fieldwork. You tracked the Defias conspiracy through Westfall and stormed the Deadmines, so he insists you present the findings and receive the Crown's recognition."
+   "answer": "Baros Alexston believes you earned the honor through your work in the field. You tracked the Defias conspiracy through Westfall and stormed the Deadmines, so he asks you to present the findings and receive the Crown's recognition."
   },
   {
    "q": "Where is King Varian Wrynn?",
@@ -48,7 +48,7 @@
     "where is varian wrynn",
     "missing king"
    ],
-   "answer": "King Varian Wrynn is not in Stormwind Keep. The court says he is away on a secret diplomatic mission, leaving his young son Anduin on the throne under Highlord Bolvar Fordragon's regency."
+   "answer": "King Varian Wrynn is absent from Stormwind Keep. The court says he is away on a secret diplomatic mission, leaving his young son Anduin on the throne under Highlord Bolvar Fordragon's regency."
   },
   {
    "q": "Who actually takes the Defias report?",
@@ -57,7 +57,7 @@
     "who do i talk to in keep",
     "who takes report"
    ],
-   "answer": "Lady Katrana Prestor receives the report in the royal court. The chief adviser to the throne accepts Baros Alexston's findings, commends you for defeating Edwin VanCleef, and provides your reward on behalf of the Crown."
+   "answer": "Lady Katrana Prestor receives the report in the royal court. The chief adviser to the throne accepts Baros Alexston's findings, praises you for defeating Edwin VanCleef, and gives you a reward on behalf of the Crown."
   },
   {
    "q": "Does this quest end the Defias Brotherhood questline?",
@@ -75,7 +75,7 @@
     "prestor diplomatic mission",
     "prestor excuse"
    ],
-   "answer": "Lady Katrana Prestor keeps her composure in the royal court. She says King Varian is away on distant state business, easing concern about the Crown's whereabouts."
+   "answer": "Lady Katrana Prestor remains composed in the royal court. She says King Varian is away on distant state business, easing concern about the Crown's whereabouts."
   },
   {
    "q": "What happens to the Defias Brotherhood after this?",
@@ -90,15 +90,15 @@
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "For the Alliance, delivering this report marks the end of one of the greatest internal crises threatening its chief human kingdom."
+   "text": "For the Alliance, delivering this report ends one of the greatest internal crises to threaten its chief human kingdom."
   },
   {
    "target": "race:Human",
-   "text": "As a human of Stormwind, this audience avenges the terror across Westfall while revealing how fragile the kingless realm has become."
+   "text": "As a human of Stormwind, this audience avenges the terror across Westfall and reveals how fragile the kingless realm has become."
   },
   {
    "target": "class:Rogue",
-   "text": "As a rogue, reporting VanCleef's downfall in the seat of power shows how thin the line can be between a royal operative and an outlaw guildmaster."
+   "text": "As a rogue, reporting VanCleef's downfall at the seat of power shows how thin the line can be between a royal operative and an outlaw guildmaster."
   }
  ],
  "keywords": [
@@ -123,5 +123,5 @@
  "attribution": [
   "An Audience with the King"
  ],
- "style": 1
+ "style": 2
 }

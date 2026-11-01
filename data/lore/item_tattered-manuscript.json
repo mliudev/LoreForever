@@ -11,16 +11,16 @@
    "quest:1803"
   ]
  },
- "summary": "In Thousand Needles, the Tattered Manuscript lies hidden in Splithoof Hold. Its torn pages came from the Tome of the Cabal, and warlocks seek them to learn how to summon a felhunter.",
+ "summary": "In Thousand Needles, Tattered Manuscript lies hidden in Splithoof Hold. Its torn pages came from the Tome of the Cabal, and warlocks seek them to learn how to summon a felhunter.",
  "sections": [
   {
    "title": "A Vandalized Grimoire",
-   "body": "The Tome of the Cabal was once a unique, intact volume kept in the fallen kingdom of Lordaeron. An unknown defiler tore almost half its pages from the binding. The remaining spine and pages became known as the Moldy Tome. They were sent south toward Khaz Modan, then lost at sea. The torn leaves crossed the Great Sea to Kalimdor and came into the hands of the Galak centaur inside Splithoof Hold.",
+   "body": "Once, the Tome of the Cabal was a unique, whole volume kept in the fallen kingdom of Lordaeron. An unknown defiler tore almost half its pages from the binding. The spine and pages left behind became known as the Moldy Tome. They were sent south toward Khaz Modan, then lost at sea. The torn leaves crossed the Great Sea to Kalimdor and came into the hands of the Galak centaur inside Splithoof Hold.",
    "spoiler": 0
   },
   {
    "title": "Reclaiming the Words",
-   "body": "The manuscript rests in a battered chest deep in the caverns of Splithoof Hold, where it endured the dry winds of Thousand Needles. Alliance warlocks work with Krom Stoutarm in Ironforge, while Horde practitioners aid Jorah Annison in the Undercity. Both groups brave the aggressive centaur to reunite the leaves with the Moldy Tome. Together, the books hold the dark rituals for summoning and binding a demonic felhunter.",
+   "body": "A battered chest deep in the caverns of Splithoof Hold holds the manuscript. There it endured the dry winds of Thousand Needles. Alliance warlocks work with Krom Stoutarm in Ironforge, while Horde practitioners aid Jorah Annison in the Undercity. Both groups brave the aggressive centaur to reunite the leaves with the Moldy Tome. Together, the books hold dark rituals for summoning and binding a demonic felhunter.",
    "spoiler": 0
   }
  ],
@@ -32,7 +32,7 @@
     "what is manuscript",
     "pages tome cabal"
    ],
-   "answer": "The Tattered Manuscript is a collection of torn pages making up roughly half of the unique Tome of the Cabal, a grimoire about demonology."
+   "answer": "Tattered Manuscript gathers torn pages that make up roughly half of the unique Tome of the Cabal, a grimoire about demonology."
   },
   {
    "q": "How did these pages end up in Thousand Needles?",
@@ -41,7 +41,7 @@
     "centaur tome",
     "thousand needles manuscript"
    ],
-   "answer": "After an unknown defiler tore the Tome of the Cabal in Lordaeron, the pages crossed the sea and came into the hands of the Galak centaur, who hid them in a chest inside Splithoof Hold."
+   "answer": "After an unknown defiler tore the Tome of the Cabal in Lordaeron, its pages crossed the sea. The Galak centaur took them and hid them in a chest inside Splithoof Hold."
   },
   {
    "q": "What is the manuscript used for?",
@@ -49,7 +49,7 @@
     "why do i need manuscript",
     "felhunter quest pages"
    ],
-   "answer": "Warlocks reunite the Tattered Manuscript with the waterlogged Moldy Tome to restore the Tome of the Cabal and learn the ritual for summoning a felhunter."
+   "answer": "Warlocks reunite Tattered Manuscript with the waterlogged Moldy Tome to restore the Tome of the Cabal. The restored book teaches the ritual for summoning a felhunter."
   },
   {
    "q": "Who was responsible for tearing the original book apart?",
@@ -63,7 +63,7 @@
  "angles": [
   {
    "target": "class:Warlock",
-   "text": "As a warlock, you seek the manuscript to gain the knowledge needed to command felhunters."
+   "text": "As a warlock, you seek the manuscript for the knowledge to command felhunters."
   }
  ],
  "keywords": [
@@ -91,5 +91,5 @@
   "Tome of the Cabal (Alliance, 2)",
   "Tome of the Cabal (Horde, 2)"
  ],
- "style": 1
+ "style": 2
 }

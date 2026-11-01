@@ -11,16 +11,16 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "Quel'ana Quickgale sets you a final trial in taming a Vuldren Alpha. Mastering it prepares you to learn the deeper ways of your class.",
+ "summary": "Quel'ana Quickgale gives you one last trial in taming a Vuldren Alpha. Mastering it prepares you for the deeper teachings of your class.",
  "sections": [
   {
    "title": "The Final Trial",
-   "body": "Quel'ana gives you a Taming Rod and sends you to the Gustberry Lowlands. There, you are asked to tame a Vuldren Alpha and then return the rod to him in Valanaar. This lesson is meant to prove your mastery and prepare you for deeper teachings in your class.",
+   "body": "Quel'ana gives you a Taming Rod and sends you to the Gustberry Lowlands. There, you are to tame a Vuldren Alpha. Then return the rod to him in Valanaar. This trial proves your mastery and prepares you for deeper class teachings.",
    "spoiler": 0
   },
   {
    "title": "A New Lesson",
-   "body": "After you return, Quel'ana says you have learned the basics and offers to teach you how to form a lasting bond with an animal companion. He urges you to carry that knowledge forward as the class Zephras Isle needs.",
+   "body": "After you return, Quel'ana says you have learned the basics. He offers to teach you to form a lasting bond with an animal companion. He urges you to carry that knowledge forward for the good of the class Zephras Isle needs.",
    "spoiler": 1
   }
  ],
@@ -32,7 +32,7 @@
     "what beast",
     "tame alpha"
    ],
-   "answer": "Quel'ana asks you to tame a Vuldren Alpha in the Gustberry Lowlands with the Taming Rod."
+   "answer": "Quel'ana asks you to tame a Vuldren Alpha with the Taming Rod in the Gustberry Lowlands."
   },
   {
    "q": "Where do I find the Vuldren Alpha?",
@@ -68,7 +68,7 @@
     "animal companion bond",
     "what comes after"
    ],
-   "answer": "Quel'ana says he can teach you how to forge a lasting bond with an animal companion."
+   "answer": "Quel'ana says he can teach you to form a lasting bond with an animal companion."
   }
  ],
  "angles": [],
@@ -86,7 +86,7 @@
   "item:taming-rod",
   "zone:zephras"
  ],
- "style": 1,
+ "style": 2,
  "attribution": [
   "In-game quest text: Taming the Beast"
  ]

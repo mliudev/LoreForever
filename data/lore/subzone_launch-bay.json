@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Launch Bay"
  },
- "summary": "Hostile leper gnomes and corrupted machines hold Launch Bay, deep in Gnomeregan beyond the Hall of Gears. The underground airfield once served gnomish flying machines and bombers; now the city’s former hangar is under enemy control.",
+ "summary": "Hostile leper gnomes and corrupted machines hold Launch Bay beyond the Hall of Gears. Once Gnomeregan’s airfield for flying machines and bombers, this hangar lies deep beneath the city.",
  "sections": [
   {
    "title": "A Grounded Airfield",
-   "body": "Launch Bay’s two tiers once housed Gnomeregan’s aerial fleet. Ramps from the upper walkway lead to a central platform where flying machines and heavy bombers remain parked, left behind before the city was evacuated. Crazed leper gnomes now roam the flight decks, maintaining and guarding the idle war machines in place of skilled pilots.",
+   "body": "Two tiers once held Gnomeregan’s aerial fleet. Ramps from the upper walkway lead to a central platform, where flying machines and heavy bombers remain parked. They were left behind before the city was evacuated.\n\nCrazed leper gnomes now roam the flight decks. They maintain and guard the idle war machines where skilled pilots once served.",
    "spoiler": 0
   },
   {
    "title": "Crossroads of the Deep City",
-   "body": "Launch Bay also joins several parts of the complex. Ramps from its southeastern corridor descend into the Engineering Labs. On the lower deck, invading Dark Iron dwarves choke the southern passage. That tunnel offers a perilous route toward Tinkers' Court, deep in the city.",
+   "body": "Launch Bay joins several parts of the complex. Ramps from its southeastern corridor descend into the Engineering Labs.\n\nOn the lower deck, invading Dark Iron dwarves choke the southern passage. That tunnel offers a perilous route toward Tinkers' Court, deep in the city.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "what is launch bay",
     "launch bay purpose"
    ],
-   "answer": "Launch Bay was built as an underground airfield and hangar for gnomish flying machines and bombers. Now leper gnomes dwelling in the ruins have taken over the neglected space."
+   "answer": "Launch Bay was built as an underground airfield and hangar for gnomish flying machines and bombers. Leper gnomes dwelling in the ruins have now taken over the neglected space."
   },
   {
    "q": "Who controls the Launch Bay now?",
@@ -37,7 +37,7 @@
     "launch bay enemies",
     "who lives here"
    ],
-   "answer": "Leper gnomes and aggressive mechanical contraptions occupy Launch Bay’s upper and lower levels. Near the southern exits, hostile Dark Iron dwarves have also carved out a foothold."
+   "answer": "Leper gnomes and aggressive mechanical contraptions occupy Launch Bay’s upper and lower levels. Hostile Dark Iron dwarves have also carved out a foothold near the southern exits."
   },
   {
    "q": "Where does the Launch Bay lead?",
@@ -89,5 +89,5 @@
  "attribution": [
   "Launch Bay"
  ],
- "style": 1
+ "style": 2
 }

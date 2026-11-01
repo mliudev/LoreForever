@@ -8,16 +8,16 @@
   "wiki": "Captain Grayson",
   "refs": 8
  },
- "summary": "At Westfall Lighthouse, Captain Grayson keeps watch over the beacon that failed him. His ship smashed against the dark coastline, and now he tends the light so other sailors will not meet his fate.",
+ "summary": "At Westfall Lighthouse, Captain Grayson keeps watch over the beacon that failed him. His ship struck the dark coast, and now he tends the light so other sailors do not share his fate.",
  "sections": [
   {
    "title": "A Life Cut Short by the Rocks",
-   "body": "Captain Grayson once sailed the southern seas of the Eastern Kingdoms as a ship’s captain. One night, the lighthouse fire went dark as his vessel neared Westfall’s jagged shoals. The ship struck the rocks, and Grayson died with it. He awoke as an earthbound phantom, trapped upon the coast.",
+   "body": "Captain Grayson once sailed the southern seas of the Eastern Kingdoms as a ship’s captain. One night, the lighthouse fire went dark as his vessel neared Westfall’s jagged shoals. The ship struck the rocks, and Grayson died with it. He awoke as an earthbound phantom, bound to the coast.",
    "spoiler": 0
   },
   {
    "title": "Tragedy at the Beacon",
-   "body": "In death, Captain Grayson went to Westfall Lighthouse, hoping to learn what waited beyond life. There he saw Old Murk-Eye, a notorious murloc, drive away the keeper and his family. The brave keepers returned to rekindle the flame, but Old Murk-Eye rallied the surrounding murlocs and led a second, brutal slaughter. Grayson could only watch as the family was butchered.",
+   "body": "After death, Captain Grayson went to Westfall Lighthouse, hoping to learn what waited beyond life. There he saw Old Murk-Eye, a notorious murloc, drive away the keeper and his family. The brave keepers returned to rekindle the flame. But Old Murk-Eye rallied the surrounding murlocs and led a second, brutal slaughter. Grayson could only watch as the family was butchered.",
    "spoiler": 0
   },
   {
@@ -34,7 +34,7 @@
     "who is the ghost pirate",
     "lighthouse ghost"
    ],
-   "answer": "Captain Grayson is a human ghost pirate at Westfall Lighthouse. His ship smashed against the coast when the beacon went dark, and he now tends the light to protect passing sailors."
+   "answer": "Captain Grayson is a human ghost pirate at Westfall Lighthouse. His ship struck the coast when the beacon went dark, and now he tends the light to protect passing sailors."
   },
   {
    "q": "How did Captain Grayson die?",
@@ -43,7 +43,7 @@
     "how did grayson become a ghost",
     "what killed captain grayson"
    ],
-   "answer": "Captain Grayson died when his pirate vessel struck the treacherous rocks along Westfall’s shore. The lighthouse was dark that night, leaving him and his crew without warning before the ship was torn apart."
+   "answer": "Captain Grayson died when his pirate vessel struck the treacherous rocks along Westfall’s shore. The lighthouse was dark that night, leaving him and his crew without warning as the ship was torn apart."
   },
   {
    "q": "What happened to the real lighthouse keeper?",
@@ -52,7 +52,7 @@
     "what happened to the keepers",
     "lighthouse family"
    ],
-   "answer": "Coastal murlocs attacked the keeper and his family. The brave family escaped the first assault and returned to relight the beacon, but Old Murk-Eye rallied a second raid and slaughtered them before Grayson’s eyes."
+   "answer": "Coastal murlocs attacked the keeper and his family. The brave family escaped the first assault and returned to relight the beacon, but Old Murk-Eye rallied a second attack and slaughtered them before Grayson’s eyes."
   },
   {
    "q": "Who is Old Murk-Eye?",
@@ -69,7 +69,7 @@
     "grayson motivation",
     "why light the beacon"
    ],
-   "answer": "Grayson drowned when the coastline was pitch black, and sees keeping the lighthouse lit as his solemn duty in the afterlife. He wants to spare other sailors the same fate on the shoals."
+   "answer": "Grayson drowned when the coast was pitch black, and sees keeping the lighthouse lit as his solemn duty after death. He wants to spare other sailors the same fate on the shoals."
   },
   {
    "q": "Is Captain Grayson hostile to adventurers?",
@@ -116,5 +116,5 @@
  "attribution": [
   "Captain Grayson"
  ],
- "style": 1
+ "style": 2
 }

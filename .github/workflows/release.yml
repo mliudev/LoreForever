@@ -538,9 +538,125 @@ jobs:
           path: dist/willo-proof.json
           compression-level: 0
 
+  # Willo for Mac (LOR-636): Willo-mac.dmg beside Willo-Setup.exe, from the same companion commit, on GitHub's hosted
+  # Apple Silicon runner. The private repo's companion/packaging/mac-release.sh builds it with build-mac.sh (as the Macs'
+  # test builds), signs it with the Developer ID, has Apple notarize it, staples it, asks Gatekeeper and starts it once
+  # from the .dmg before anything is staged. Optional like the willo job, and more: continue-on-error, so it never fails
+  # the run, and `ready` is set only once its proof is left. Without the five Mac secrets in the release environment, or
+  # when Apple is still notarizing after 10 minutes, it's a warning and the release goes out without it (the site keeps
+  # the last one). It takes about ten minutes beside the zip job's 10-16, so it rarely holds publishing up; 25 at most.
+  willo-mac:
+    needs: prepare
+    runs-on: macos-15
+    environment: release
+    continue-on-error: true
+    timeout-minutes: 25
+    permissions:
+      contents: write
+      actions: read
+    outputs:
+      ready: ${{ steps.proof.outputs.ready }}
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: ${{ needs.prepare.outputs.source_commit }}
+          sparse-checkout: release
+      - uses: actions/checkout@v7
+        with:
+          path: ci
+          sparse-checkout: |
+            scripts
+            release
+      - id: go
+        name: Which Willo commit, and the Mac secrets
+        env:
+          COMPANION_SOURCE_TOKEN: ${{ secrets.COMPANION_SOURCE_TOKEN }}
+          MAC_CERT_P12: ${{ secrets.MAC_CERT_P12 }}
+          MAC_CERT_PASSWORD: ${{ secrets.MAC_CERT_PASSWORD }}
+          NOTARY_KEY_P8: ${{ secrets.NOTARY_KEY_P8 }}
+          NOTARY_KEY_ID: ${{ secrets.NOTARY_KEY_ID }}
+          NOTARY_ISSUER_ID: ${{ secrets.NOTARY_ISSUER_ID }}
+        run: |
+          ref="$(tr -d '[:space:]' < release/companion.ref 2>/dev/null || true)"
+          missing=''
+          for s in COMPANION_SOURCE_TOKEN MAC_CERT_P12 MAC_CERT_PASSWORD NOTARY_KEY_P8 NOTARY_KEY_ID NOTARY_ISSUER_ID; do
+            [ -n "${!s}" ] || missing="$missing $s"
+          done
+          if [ -z "$ref" ] || [ -n "$missing" ]; then
+            echo "::warning::No Willo-mac.dmg in this release: ${missing:+the release environment has no$missing}${ref:-no release/companion.ref}"
+            echo "go=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "ref=$ref" >> "$GITHUB_OUTPUT"
+            echo "go=true" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Check out Willo's source (private, read-only)
+        if: steps.go.outputs.go == 'true'
+        uses: actions/checkout@v7
+        with:
+          repository: mliudev/lore-forever
+          ref: ${{ steps.go.outputs.ref }}
+          token: ${{ secrets.COMPANION_SOURCE_TOKEN }}
+          path: companion-src
+          # The add-on's lore too: the build carries it for a new player's first answers (build-mac.sh seed_lore).
+          sparse-checkout: |
+            companion
+            data/pronunciation.json
+            addon/LoreForever/Data/Index.lua
+            addon/LoreForever/Data/Z_*.lua
+            addon/LoreForever/ModelRaces.lua
+            addon/LoreForever/LoreForever.toc
+          sparse-checkout-cone-mode: false
+      - uses: astral-sh/setup-uv@v10.3.0
+        if: steps.go.outputs.go == 'true'
+      - id: build
+        name: Build, sign, notarize, staple and start Willo-mac.dmg
+        if: steps.go.outputs.go == 'true'
+        env:
+          LORE_COMPANION_VERSION: ${{ needs.prepare.outputs.version }}
+          MAC_CERT_P12: ${{ secrets.MAC_CERT_P12 }}
+          MAC_CERT_PASSWORD: ${{ secrets.MAC_CERT_PASSWORD }}
+          NOTARY_KEY_P8: ${{ secrets.NOTARY_KEY_P8 }}
+          NOTARY_KEY_ID: ${{ secrets.NOTARY_KEY_ID }}
+          NOTARY_ISSUER_ID: ${{ secrets.NOTARY_ISSUER_ID }}
+        run: |
+          script=companion-src/companion/packaging/mac-release.sh
+          [ -f "$script" ] || { echo "::warning::Willo's commit has no mac-release.sh yet: no Willo-mac.dmg in this release"; exit 0; }
+          rc=0; bash "$script" --out dist --wait 10 || rc=$?
+          [ "$rc" = 3 ] && exit 0     # Apple still notarizing: a warning (mac-release.sh said so), no .dmg this time
+          [ "$rc" = 0 ] || exit "$rc"
+          echo "built=true" >> "$GITHUB_OUTPUT"
+          echo "### Willo-mac.dmg: $(du -h dist/Willo-mac.dmg | cut -f1), notarized and stapled (mliudev/lore-forever@${{ steps.go.outputs.ref }})" >> "$GITHUB_STEP_SUMMARY"
+      - name: Freeze the notarized Willo for Mac
+        if: steps.build.outputs.built == 'true'
+        run: |
+          python3 ci/scripts/release_staging.py --commit "${{ needs.prepare.outputs.source_commit }}" mac-manifest \
+            --dmg dist/Willo-mac.dmg --signature dist/mac-signature.json --output dist/mac-proof.json
+      - name: Stage it
+        if: steps.build.outputs.built == 'true' && needs.prepare.outputs.published != 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 ci/scripts/release_staging.py --commit "${{ needs.prepare.outputs.source_commit }}" stage --manifest dist/mac-proof.json --root dist/Willo-mac.dmg
+      - uses: actions/upload-artifact@v7
+        if: steps.build.outputs.built == 'true' && needs.prepare.outputs.published == 'true'
+        with:
+          name: mac-payload-${{ github.run_attempt }}
+          path: dist/Willo-mac.dmg
+          compression-level: 0
+      # Last, after the staging upload: a proof means the asset is on the draft.
+      - uses: actions/upload-artifact@v7
+        if: steps.build.outputs.built == 'true'
+        with:
+          name: mac-proof-${{ github.run_attempt }}
+          path: dist/mac-proof.json
+          compression-level: 0
+      - id: proof
+        if: steps.build.outputs.built == 'true'
+        run: echo "ready=true" >> "$GITHUB_OUTPUT"
+
   release:
-    needs: [prepare, zip, installer, willo]
-    # Willo never holds the release: it goes out without Willo-Setup.exe when the willo job failed.
+    needs: [prepare, zip, installer, willo, willo-mac]
+    # Willo never holds the release: it goes out without Willo-Setup.exe when the willo job failed, and without
+    # Willo-mac.dmg when the willo-mac job left no proof.
     if: ${{ !cancelled() && needs.prepare.result == 'success' && needs.zip.result == 'success' && needs.installer.result == 'success' }}
     runs-on: ubuntu-24.04
     steps:
@@ -565,8 +681,9 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: |
           willo=(); [ '${{ needs.willo.result }}' = success ] && willo=(--willo)
+          mac=(); [ '${{ needs.willo-mac.outputs.ready }}' = true ] && mac=(--mac)
           python3 ci/scripts/release_staging.py --commit "${{ needs.prepare.outputs.source_commit }}" legacy-receive \
-            --proofs dist/proofs --output dist/payload "${willo[@]}"
+            --proofs dist/proofs --output dist/payload "${willo[@]}" "${mac[@]}"
           python3 ci/scripts/release_staging.py --commit "${{ needs.prepare.outputs.source_commit }}" receive --output dist/inputs
       - name: Verify the complete staged set and publish
         env:
@@ -574,17 +691,20 @@ jobs:
           VERSION: ${{ needs.prepare.outputs.version }}
           SIGNING_REQUIRED: ${{ vars.SIGNING_PROFILE != '' }}
           WILLO: ${{ needs.willo.result }}
+          MAC: ${{ needs.willo-mac.outputs.ready }}
         run: |
-          notes=(); signed=(); legacy=(); willo=()
+          notes=(); signed=(); legacy=(); willo=(); mac=()
           if [ "$WILLO" = success ]; then willo=(--willo)
           else echo "::warning::Willo-Setup.exe didn't build (the willo job: $WILLO), so this release goes out without it; the site keeps serving the last one."; fi
+          if [ "$MAC" = true ]; then mac=(--mac)
+          else echo "::warning::No Willo-mac.dmg this time (see the willo-mac job), so this release goes out without it; the site keeps serving the last one."; fi
           if [ -f CHANGELOG.md ] && python3 scripts/changelog.py notes "$VERSION" > notes.md; then
             notes=(--notes "$PWD/notes.md")
           fi
           if [ "$SIGNING_REQUIRED" = true ]; then signed=(--signed); fi
           if [ '${{ needs.prepare.outputs.published }}' = true ]; then legacy=(--legacy --root dist); fi
           python3 ci/scripts/release_staging.py --commit "${{ needs.prepare.outputs.source_commit }}" finalize \
-            --proofs dist/proofs --output dist/metadata "${notes[@]}" "${signed[@]}" "${legacy[@]}" "${willo[@]}"
+            --proofs dist/proofs --output dist/metadata "${notes[@]}" "${signed[@]}" "${legacy[@]}" "${willo[@]}" "${mac[@]}"
 
   # CurseForge is the main download channel. Needs the repo secret CF_API_TOKEN (CurseForge > Account > API tokens);
   # without it this job fails. The project ID and game version come from the .toc (## X-Curse-Project-ID, and

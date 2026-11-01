@@ -17,16 +17,16 @@
   "wiki": "Thelsamar Blood Sausages (Classic)",
   "chain": []
  },
- "summary": "In Thelsamar, Vidra Hearthstove keeps the town fed with blood sausages, a favorite across Loch Modan. She needs fresh ingredients from the valley to make them.",
+ "summary": "At Thelsamar's Stoutlager Inn, Vidra Hearthstove keeps Thelsamar Blood Sausages on the table. A favorite across Loch Modan, they need fresh ingredients from the valley.",
  "sections": [
   {
    "title": "A Hearty Highland Dish",
-   "body": "Hungry children and miners returning from the Ironband Excavation fill Thelsamar's tavern. Vidra Hearthstove tends the stove and makes the blood sausages known across Loch Modan. The recipe draws on wildlife from the rugged mountain pass.",
+   "body": "Hungry children and miners returning from the Ironband Excavation fill Thelsamar's tavern. Vidra Hearthstove tends the stove, making sausages known across Loch Modan. Her recipe draws on wildlife from the rugged mountain pass.",
    "spoiler": 0
   },
   {
    "title": "Unconventional Spices",
-   "body": "Vidra's recipe uses boar intestines for casings and bear meat for the filling. Spider ichor gives the sausages a sharp, pungent bite. Gathering the entrails and venomous fluid takes a steady stomach, but travelers soon come to appreciate the regional favorite.",
+   "body": "Vidra uses boar intestines for casings and bear meat for the filling. Spider ichor gives the sausages their sharp, pungent bite. Gathering the entrails and venomous fluid takes a steady stomach, though travelers come to appreciate this regional favorite.",
    "spoiler": 0
   }
  ],
@@ -47,7 +47,7 @@
     "why spider ichor",
     "spider spice"
    ],
-   "answer": "Vidra uses spider ichor to give her blood sausages a sharp, pungent flavor."
+   "answer": "Vidra adds spider ichor to give her blood sausages a sharp, pungent flavor."
   },
   {
    "q": "Who eats Thelsamar blood sausages?",
@@ -55,7 +55,7 @@
     "who eats blood sausage",
     "why make sausage"
    ],
-   "answer": "The sausages feed Thelsamar's townspeople, its children, and weary workers returning from shifts at the Ironband Excavation."
+   "answer": "Thelsamar's townspeople, children, and weary workers returning from shifts at the Ironband Excavation eat the sausages."
   },
   {
    "q": "Where are the ingredients found?",
@@ -64,7 +64,7 @@
     "where to get boar intestines",
     "ingredient locations"
    ],
-   "answer": "Black bears, mountain boars, and wood lurker spiders roam the wilderness and wooded hills around the lake in Loch Modan."
+   "answer": "Black bears, mountain boars, and wood lurker spiders roam Loch Modan's wilderness and wooded hills around the lake."
   },
   {
    "q": "What casing is used for the sausages?",
@@ -73,7 +73,7 @@
     "boar intestines",
     "casing recipe"
    ],
-   "answer": "Vidra uses casings cleaned from local mountain boars to hold the bear meat and seasoned filling together over the fire."
+   "answer": "Vidra uses casings cleaned from local mountain boars to hold bear meat and seasoned filling together over the fire."
   },
   {
    "q": "Do travelers learn to cook these sausages?",
@@ -82,21 +82,21 @@
     "sausage recipe",
     "cooking recipe"
    ],
-   "answer": "Yes. Bring Vidra the ingredients, and she shares her recipe so travelers with cooking skills can make the sausages themselves."
+   "answer": "Yes. Bring Vidra the ingredients, and she shares the recipe with travelers who know how to cook."
   }
  ],
  "angles": [
   {
    "target": "profession:Cooking",
-   "text": "Gather ingredients for Vidra and aspiring cooks can learn the Blood Sausage recipe, adding hearty field rations to their cooking."
+   "text": "Gather ingredients for Vidra, and aspiring cooks can learn the Blood Sausage recipe for hearty field rations."
   },
   {
    "target": "race:Dwarf",
-   "text": "As a dwarf, blood sausage is a familiar comfort food, shaped by the rugged tastes of Khaz Modan's mountain clans."
+   "text": "As a dwarf, blood sausage is familiar comfort food, shaped by the rugged tastes of Khaz Modan's mountain clans."
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance member, you can help keep Thelsamar's workforce fed as they maintain key infrastructure and excavate ancient ruins across Loch Modan."
+   "text": "As an Alliance member, you can help feed Thelsamar's workforce as they maintain key infrastructure and excavate ancient ruins across Loch Modan."
   }
  ],
  "keywords": [
@@ -117,5 +117,5 @@
  "attribution": [
   "Thelsamar Blood Sausages (Classic)"
  ],
- "style": 1
+ "style": 2
 }

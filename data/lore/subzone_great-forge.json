@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Great Forge"
  },
- "summary": "At Ironforge’s center, the Great Forge burns as the heart of the dwarven capital. Its furnaces and Great Anvil keep smiths at work, while the chamber draws people from across the mountain city.",
+ "summary": "At Ironforge’s center, the Great Forge keeps its fires burning and smiths at work. Its Great Anvil draws people from across the mountain city.",
  "sections": [
   {
    "title": "Heart of the Mountain",
-   "body": "The Great Forge was the first structure the early dwarves built beneath Ironforge Mountain. The capital grew in rings around it. Molten stone and slag flow from giant foundries into glowing channels, lighting the cavern with amber haze. At the center, Master of the Forge Myolor Sunderfury oversees the massive Great Anvil. Masters of metalwork gather around its rim, hammering armor, tools, and weapons day and night.",
+   "body": "The Great Forge was the first structure the early dwarves built beneath Ironforge Mountain. The capital grew outward in rings around it. Molten stone and slag run from giant foundries through glowing channels, lighting the cavern with an amber haze.\n\nAt the center, Master of the Forge Myolor Sunderfury oversees the massive Great Anvil. Masters of metalwork gather around its rim to hammer armor, tools, and weapons day and night.",
    "spoiler": 0
   },
   {
    "title": "Hub of the Alliance",
-   "body": "Smithing is only part of the Great Forge’s work. Guild offices, supply shops, and the city’s main gryphon roost ring the chamber. Gryth Thurden maintains the roost, where travelers from across the Alliance mingle amid the hammer blows.",
+   "body": "Smithing is only part of the Great Forge’s work. Guild offices, supply shops, and the city’s main gryphon roost ring the chamber. Gryth Thurden tends the roost, where travelers from across the Alliance mingle amid the hammer blows.",
    "spoiler": 0
   }
  ],
@@ -52,7 +52,7 @@
     "why so many people at the forge",
     "why is the forge busy"
    ],
-   "answer": "The Great Forge lies at Ironforge’s center and connects to the outer ring and nearby districts. Its crafting trainers, shops, and central gryphon roost bring citizens, couriers, and travelers through the chamber."
+   "answer": "The Great Forge lies at Ironforge’s center and connects to the outer ring and nearby districts. Its crafting trainers, shops, and central gryphon roost draw citizens, couriers, and travelers through the chamber."
   }
  ],
  "angles": [
@@ -86,5 +86,5 @@
  "attribution": [
   "Great Forge"
  ],
- "style": 1
+ "style": 2
 }

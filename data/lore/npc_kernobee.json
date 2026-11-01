@@ -8,16 +8,16 @@
   "wiki": "Kernobee",
   "refs": 1
  },
- "summary": "Deep within Gnomeregan, Kernobee is trapped among the ruins. The goblin engineer uncovered Dark Iron involvement in the super rig, then was captured, beaten unconscious, and left in the dormitory quarters among the troggs.",
+ "summary": "In Gnomeregan, Kernobee lies trapped among the ruins. The goblin engineer found Dark Iron dwarves working on the great super rig, then was captured, beaten unconscious, and left among the troggs in the dormitory quarters.",
  "sections": [
   {
    "title": "A Deadly Discovery",
-   "body": "While doing business or scavenging in Gnomeregan, Kernobee discovered the Dark Iron dwarves had helped build and operate the great super rig burrowing beneath the city. Knowing how dangerous this knowledge was, he tried to flee to Ratchet and warn his associate, Tinkerwiz. The Dark Irons caught him before he could escape.",
+   "body": "While doing business or scavenging in Gnomeregan, Kernobee learned that Dark Iron dwarves had helped build and operate the great super rig burrowing beneath the city. He knew the danger of that discovery and tried to flee to Ratchet. There he meant to warn his associate, Tinkerwiz. The Dark Irons caught him before he could escape.",
    "spoiler": 0
   },
   {
    "title": "Left for the Troggs",
-   "body": "Kernobee's captors beat him unconscious instead of killing him. They threw him into a small room along the dormitory corridor, opposite the Clean Zone. Feral troggs and radiation surround him, and he needs help to wake, reach safety, and get clear of the ruins.",
+   "body": "Kernobee's captors beat him unconscious and left him alive. They threw him into a small room along the dormitory corridor, opposite the Clean Zone. Feral troggs and radiation surround him. He needs help to wake, reach safety, and escape the ruins.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "why did dark irons capture him",
     "why in dormitory"
    ],
-   "answer": "Kernobee discovered the Dark Iron clan was helping build subterranean super rig machines inside Gnomeregan. The Dark Irons knocked him unconscious and threw him into the dormitory to die, keeping their presence and sabotage quiet."
+   "answer": "Kernobee discovered that the Dark Iron clan was helping build subterranean super rig machines inside Gnomeregan. The Dark Irons knocked him unconscious and threw him into the dormitory to die, keeping their presence and sabotage quiet."
   },
   {
    "q": "Who does Kernobee report to?",
@@ -66,7 +66,7 @@
   },
   {
    "target": "profession:Engineering",
-   "text": "As an engineer, you can understand the danger of exploring experimental subterranean machinery like the Dark Iron rigs while rival schematics are at stake."
+   "text": "As an engineer, you know the danger of exploring experimental subterranean machinery like the Dark Iron rigs while rival schematics are at stake."
   }
  ],
  "keywords": [
@@ -90,5 +90,5 @@
  "attribution": [
   "Kernobee"
  ],
- "style": 1
+ "style": 2
 }

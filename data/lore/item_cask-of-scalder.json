@@ -10,11 +10,11 @@
    "quest:1702"
   ]
  },
- "summary": "In Stormwind, a cask of Barleybrew Scalder is on its way to an old acquaintance. The fiery ale carries a favor between dwarves.",
+ "summary": "In Stormwind, a cask of Barleybrew Scalder is bound for an old acquaintance. The fiery ale carries a favor between dwarves.",
  "sections": [
   {
    "title": "A Dwarven Bargain",
-   "body": "Travelers who have proved themselves across the Rethban Gauntlet carry Barleybrew Scalder to Furen Longbeard in Stormwind's Dwarven District. The dwarf is an artisan shieldsmith, and he considers dry times intolerable. A cask of the warming ale gives Yorus Barleybrew a way to call in an old favor and secure fine dwarven craftsmanship.",
+   "body": "Travelers who have proved themselves across the Rethban Gauntlet bring Barleybrew Scalder to Furen Longbeard in Stormwind's Dwarven District. Furen is an artisan shieldsmith, and he finds dry times intolerable. The cask gives Yorus Barleybrew a way to call in an old favor and secure fine dwarven craftsmanship.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "scalder ale",
     "barleybrew scalder"
    ],
-   "answer": "Barleybrew Scalder fills the cask, a fiery brew crafted by the Barleybrew family. Dwarves prize its strong flavor and warming punch."
+   "answer": "The cask holds Barleybrew Scalder, a fiery brew crafted by the Barleybrew family. Dwarves prize its strong flavor and warming punch."
   },
   {
    "q": "Who is this cask intended for?",
@@ -35,7 +35,7 @@
     "where do i bring this",
     "scalder recipient"
    ],
-   "answer": "The cask is meant for Furen Longbeard, an expert dwarf shieldsmith who works in Stormwind's Dwarven District."
+   "answer": "The cask is meant for Furen Longbeard, an expert dwarf shieldsmith in Stormwind's Dwarven District."
   },
   {
    "q": "Why is this cask being delivered to Furen Longbeard?",
@@ -50,11 +50,11 @@
  "angles": [
   {
    "target": "class:Warrior",
-   "text": "As a warrior, you can seek Furen Longbeard's renowned smithing by bringing him a cask of fine ale, an essential rite of passage for reliable protection."
+   "text": "As a warrior, you can seek Furen Longbeard's renowned smithing by bringing him a cask of fine ale. It is an essential rite of passage for reliable protection."
   },
   {
    "target": "race:Dwarf",
-   "text": "As a dwarf, you know that delivering a fresh cask of Barleybrew's finest can seal a deal or settle an old obligation."
+   "text": "As a dwarf, you know a fresh cask of Barleybrew's finest can seal a deal or settle an old obligation."
   }
  ],
  "keywords": [
@@ -77,5 +77,5 @@
   "Cask of Scalder",
   "The Shieldsmith"
  ],
- "style": 1
+ "style": 2
 }

@@ -17,16 +17,16 @@
   "wiki": "Curing the Sick (Horde)",
   "chain": []
  },
- "summary": "Curing the Sick is an essential trial for young Horde druids, tasking them with healing afflicted wildlife in the northern Barrens. By applying a freshly concocted herbal salve to ailing gazelles, initiates demonstrate both their practical field medicine and their commitment to preserving natural balance. Completing this duty proves their dedication directly to the Cenarion Circle in Moonglade.",
+ "summary": "Sick gazelles are suffering across the northern Barrens. Tonga Runetotem sends young Horde druids to treat them with a freshly made herbal salve, then sends them before the Cenarion Circle in Moonglade.",
  "sections": [
   {
    "title": "A Plague upon the Herds",
-   "body": "Across the northern savanna of the Barrens, grazing gazelles have begun succumbing to an unnatural affliction. After gathering earthroot and kodo horns to assemble a curative remedy, Tonga Runetotem at the Crossroads entrusts a young druid with administering the field treatment. The initiate must search north of the main crossroads to find and minister to ten suffering animals, providing immediate relief before the rot takes further root in the ecosystem.",
+   "body": "An unnatural sickness is spreading among gazelles in the northern Barrens. You have gathered earthroot and kodo horns for a curative remedy, and Tonga Runetotem at the Crossroads now entrusts the animals to your care. Search north of the main crossroads and tend to ten suffering gazelles. The salve brings them relief before the affliction takes deeper hold in the ecosystem.",
    "spoiler": 0
   },
   {
    "title": "The Circle's Blessing",
-   "body": "Once the salve is dispensed, the druid's path leads back into the tranquil boughs of Moonglade. There, Dendrite Starblaze recognizes the initiate's compassion and vigilance. He notes that the suffering of the gazelles is merely a symptom of a deeper, insidious corruption stalking Kalimdor's wilderness. By tending to the lowliest beasts, tauren druids demonstrate that reverence for Cenarius transcends tribal boundaries, earning deeper secrets of poison cleansing and nature magic.",
+   "body": "After you apply the salve, you travel to Moonglade’s tranquil druidic sanctuary. Dendrite Starblaze recognizes your compassion and vigilance there. He says the gazelles’ suffering points to a deeper corruption stalking Kalimdor’s wilderness. By tending even the lowliest beasts, tauren druids show that reverence for Cenarius reaches beyond tribal boundaries. They earn deeper secrets of poison cleansing and nature magic.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "where are sick gazelles",
     "barrens gazelles"
    ],
-   "answer": "The afflicted gazelles roam the arid plains of the northern Barrens, primarily found north of the main east-west trade road that intersects at the Crossroads."
+   "answer": "The afflicted gazelles roam the arid plains of the northern Barrens, mainly north of the main east-west trade road that meets at the Crossroads."
   },
   {
    "q": "Who starts this quest?",
@@ -47,7 +47,7 @@
     "quest giver",
     "tonga runetotem location"
    ],
-   "answer": "Tonga Runetotem, a tauren druid stationed at the Crossroads in the Barrens, provides the quest and supplies the Curative Animal Salve after you complete his reagent-gathering task."
+   "answer": "Tonga Runetotem, a tauren druid stationed at the Crossroads in the Barrens, gives you this work and the Curative Animal Salve after you gather the needed reagents."
   },
   {
    "q": "Who do I report to after curing the animals?",
@@ -56,7 +56,7 @@
     "quest turn in",
     "dendrite starblaze location"
    ],
-   "answer": "You turn the quest in to Dendrite Starblaze in the druidic sanctuary of Moonglade, using your teleportation magic to reach the sacred grove."
+   "answer": "After curing the animals, you report to Dendrite Starblaze in Moonglade’s druidic sanctuary. You use your teleportation magic to reach the sacred grove."
   },
   {
    "q": "Why is the Cenarion Circle interested in the Barrens?",
@@ -64,7 +64,7 @@
     "why druids care about barrens",
     "cenarion circle barrens"
    ],
-   "answer": "The Cenarion Circle watches over the land's harmony. The sickness spreading among wild gazelles reflects a pervasive corruption creeping through Kalimdor, threatening to destabilize the natural order if left unchecked."
+   "answer": "The Cenarion Circle watches over the land’s harmony. Sickness among wild gazelles reflects the corruption creeping through Kalimdor, which threatens the natural order if left unchecked."
   },
   {
    "q": "What ability does this quest chain unlock?",
@@ -72,7 +72,7 @@
     "cure poison quest reward",
     "why do this quest druid"
    ],
-   "answer": "This trial forms the second half of the druidic rite of passage that ultimately rewards the initiate with the ability to cleanse venoms and toxins from themselves and their allies."
+   "answer": "This rite of passage is the second half of a druidic trial. It ultimately grants you the ability to cleanse venoms and toxins from yourself and your allies."
   },
   {
    "q": "Can non-druids cure these gazelles?",
@@ -80,21 +80,21 @@
     "is this druid only",
     "who can do curing the sick"
    ],
-   "answer": "No. This quest line is exclusive to druids, serving as a dedicated class trial supervised directly by the Cenarion Circle."
+   "answer": "No. Only druids can undertake this line of work. It is a class trial supervised directly by the Cenarion Circle."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "This rite of healing marks your transition from a student of herbalism into an active guardian of nature, proving your readiness to wield life magic against lethal poisons."
+   "text": "As a druid, this rite of healing marks your passage from herbalism student to active guardian of nature. It proves you are ready to wield life magic against lethal poisons."
   },
   {
    "target": "race:Tauren",
-   "text": "As your people rekindle ancient ties to the Cenarion Circle, healing the Barrens proves that the Earth Mother's children are worthy stewards of the balance."
+   "text": "As your people renew their ancient ties to the Cenarion Circle, healing the Barrens shows that the Earth Mother’s children are worthy stewards of the balance."
   },
   {
    "target": "faction:Horde",
-   "text": "By treating afflicted wildlife near the Crossroads, tauren druids help protect the essential hunting grounds and travel corridors that support the Horde's foothold in central Kalimdor."
+   "text": "By treating afflicted wildlife near the Crossroads, tauren druids help protect the essential hunting grounds and travel corridors that support the Horde’s foothold in central Kalimdor."
   }
  ],
  "keywords": [
@@ -121,5 +121,6 @@
  ],
  "attribution": [
   "Curing the Sick (Horde)"
- ]
+ ],
+ "style": 2
 }

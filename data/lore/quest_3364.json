@@ -17,16 +17,16 @@
   "wiki": "Scalding Mornbrew Delivery",
   "chain": []
  },
- "summary": "Nori Pridedrift sends you across Coldridge Valley with hot mornbrew for Durnan Furcutter. The drink must reach Anvilmar before the mountain cold takes its heat.",
+ "summary": "Nori Pridedrift sends you across Coldridge Valley with hot mornbrew for Durnan Furcutter in Anvilmar. The mountain cold can steal its heat before it arrives.",
  "sections": [
   {
    "title": "A Race Against the Frost",
-   "body": "Nori Pridedrift has just sent a delivery to Grelin Whitebeard. Now he has no time to carry another fresh cup to Anvilmar before it freezes into slush. Rather than leave his customer waiting, Nori asks a swift traveler to brave the snow with the mornbrew.",
+   "body": "After you deliver to Grelin Whitebeard, Nori has another cup to send. He cannot carry it himself before the mornbrew freezes into slush. So he asks you to brave the snow and keep his customer from waiting.",
    "spoiler": 0
   },
   {
    "title": "The Price of a Warm Mug",
-   "body": "Durnan Furcutter waits inside Anvilmar's warm mountain hall and is particular about his refreshments. Chilled mornbrew will not do. A hot cup gives the weary dwarf a needed break from his duties, and Nori expects his favorite mug back in one piece.",
+   "body": "Durnan Furcutter waits inside Anvilmar's warm mountain hall and is particular about his refreshments. He will not take chilled mornbrew. A hot cup gives the weary dwarf a needed break from his duties. Nori expects his favorite mug back in one piece.",
    "spoiler": 0
   }
  ],
@@ -47,7 +47,7 @@
     "mornbrew timer",
     "why hurry"
    ],
-   "answer": "Cold weather in Coldridge Valley cools hot drinks quickly. Durnan ordered scalding mornbrew, and dwarves consider cold ale or tea ruined."
+   "answer": "The cold in Coldridge Valley cools hot drinks quickly. Durnan ordered scalding mornbrew, and dwarves consider cold ale or tea ruined."
   },
   {
    "q": "Who is Nori Pridedrift?",
@@ -82,7 +82,7 @@
     "bring back the mug",
     "nori's mug"
    ],
-   "answer": "Yes. After Durnan finishes his hot brew, he returns the empty mug for Nori in Coldridge Valley."
+   "answer": "Yes. When Durnan finishes his hot brew, he returns the empty mug for Nori in Coldridge Valley."
   }
  ],
  "angles": [
@@ -113,5 +113,5 @@
  "attribution": [
   "Scalding Mornbrew Delivery"
  ],
- "style": 1
+ "style": 2
 }

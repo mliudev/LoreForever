@@ -8,11 +8,11 @@
   "wiki": "Thorvald Deepforge",
   "refs": 1
  },
- "summary": "At the Valley of Kings, Thorvald Deepforge arms travelers bound for Loch Modan. He helps defend the pass between Dun Morogh and Loch Modan.",
+ "summary": "At the Valley of Kings, travelers bound for Loch Modan find Thorvald Deepforge ready with weapons. He helps defend the pass between Dun Morogh and Loch Modan.",
  "sections": [
   {
    "title": "Arming the Eastern Pass",
-   "body": "Thorvald Deepforge supplies weapons at the Valley of Kings. Troggs and roaming wildlife threaten the mountain passes between Khaz Modan's interior and its outlying lands. Travelers from Dun Morogh and those heading deeper into Loch Modan can find blades and axes here to defend dwarven lands.",
+   "body": "Thorvald Deepforge supplies weapons at the Valley of Kings. Troggs and roaming wildlife threaten the mountain passes between Khaz Modan's heartland and its outlying lands. Travelers from Dun Morogh and those bound deeper into Loch Modan can find blades and axes here, ready to defend dwarven lands.",
    "spoiler": 0
   }
  ],
@@ -33,7 +33,7 @@
     "thorvald purpose",
     "supplying the front"
    ],
-   "answer": "Thorvald Deepforge supplies weapons to travelers crossing the mountain passes and helps arm recruits bound for outposts across Loch Modan."
+   "answer": "Thorvald Deepforge supplies weapons to travelers crossing the mountain passes. He also helps arm recruits bound for outposts across Loch Modan."
   },
   {
    "q": "Is he related to the other Deepforges in Khaz Modan?",
@@ -48,7 +48,7 @@
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "As a dwarf, you can see Thorvald beneath the ancestral monoliths of the Valley of Kings, helping keep Khaz Modan's borders supplied and secure."
+   "text": "As a dwarf, you find Thorvald beneath the ancestral monoliths of the Valley of Kings, helping keep Khaz Modan's borders supplied and secure."
   },
   {
    "target": "profession:Blacksmithing",
@@ -74,5 +74,5 @@
  "attribution": [
   "Thorvald Deepforge"
  ],
- "style": 1
+ "style": 2
 }

@@ -27,10 +27,10 @@ P.transport["npc:althea-ebonlocke"] = {
 }
 P.transport["npc:asterion"] = {
   hash = "145b72",
-  fullHash = "af4025",
-  text = "Asterion. Asterion is an ancient Highborne spirit bound to the ruins of Bashal'Aran in Darkshore. Once the trusted second to governor Athrikus Narassin ten millennia ago, he was mysteriously imprisoned in a magical moonstone seal that held him through mortal life and into the afterlife. Today, his specter remains shackled to the ruined shrine, surrounded by demonic beasts and dreaming of liberation. Before the Great Sundering shattered ancient Kalimdor, Bashal'Aran and Ameth'Aran were sister cities blessed by Queen Azshara herself. Azshara appointed Athrikus Narassin to govern the twin settlements, and Asterion served as his right hand. Respected for both his physical combat prowess and his command of arcane sorcery, Asterion lived among the people of Bashal'Aran while frequently traveling between the sister cities to manage the needs of their citizens. For reasons lost to time, Asterion fell out of favor with his master. Athrikus fashioned a powerful moonstone seal, forging an inescapable magical cage to confine Asterion within Bashal'Aran. The imprisonment stretched through centuries of agonizing confinement; worse still, when Asterion finally perished, he discovered death offered no release. His spirit remained bound to the ruined shrine, left behind when the world cracked open and demons overran the ancient settlement.",
+  fullHash = "a87e25",
+  text = "Asterion. At Bashal'Aran, Asterion remains bound to a moonstone seal. The ancient Highborne once served governor Athrikus Narassin, and now his spirit waits among the ruins for release. Before the Great Sundering, Bashal'Aran and Ameth'Aran were sister cities blessed by Queen Azshara. She appointed Athrikus Narassin to govern them, and Asterion served as his right hand. Renowned for physical combat and arcane sorcery, Asterion lived among Bashal'Aran's people. He often traveled between the sister cities to see to their citizens' needs. For reasons lost to time, Asterion fell out of favor with Athrikus Narassin. His master fashioned a powerful moonstone seal, an inescapable magical cage meant to confine him in Bashal'Aran. The centuries of confinement brought Asterion agony. Even death offered no release: his spirit remained bound to the ruined shrine after the world cracked open and demons overran the settlement.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_asterion-918e9c6f8946c04476d3/1-0000.mp3", duration = 76.8261224, start = 0},
+    {file = "Audio/Transport/full_npc_asterion-07c08707da0f85484f9b/1-0000.mp3", duration = 58.2269388, start = 0},
   },
 }
 P.transport["npc:athridas-bearmantle"] = {
@@ -42,11 +42,11 @@ P.transport["npc:athridas-bearmantle"] = {
   },
 }
 P.transport["npc:auntie-bernice-stonefield"] = {
-  hash = "91d379",
-  fullHash = "91d379",
-  text = "\"Auntie\" Bernice Stonefield. At the Stonefield homestead in south-central Elwynn Forest, “Auntie” Bernice Stonefield keeps watch over the neighborhood. Widowed when her husband fell in the kingdom’s military campaigns, she is known throughout the valley for her pork belly pies. She stays outside the farmhouse beside Ma Stonefield and remains deeply suspicious of the rival Maclure family. Bernice carries the cost of war, as many common folk in the Kingdom of Stormwind do. Her husband fell in military campaigns, and she now lives with her kin at the family homestead. She helps Ma Stonefield manage the farm’s daily affairs, keeping the household fed and running. Her pork belly pies have made her famous among the people of the valley.",
+  hash = "250781",
+  fullHash = "250781",
+  text = "\"Auntie\" Bernice Stonefield. At the Stonefield homestead in south-central Elwynn Forest, “Auntie” Bernice Stonefield keeps watch over the neighborhood. Widowed by the kingdom’s military campaigns, she lives beside Ma Stonefield and is known across the valley for her pork belly pies. She remains deeply suspicious of the rival Maclure family. War took Bernice’s husband in the Kingdom of Stormwind’s military campaigns. She now lives with her kin at the family homestead. There, she helps Ma Stonefield manage the farm’s daily affairs and keeps the household fed and running. Her pork belly pies have made her famous throughout the valley.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_auntie-bernice-stonefield-33c184e0dd9febf23e3b/1-0000.mp3", duration = 41.2212245, start = 0},
+    {file = "Audio/Transport/full_npc_auntie-bernice-stonefield-8169135bc4a45507ccda/1-0000.mp3", duration = 35.3697959, start = 0},
   },
 }
 P.transport["npc:balthule-shadowstrike"] = {
@@ -58,19 +58,19 @@ P.transport["npc:balthule-shadowstrike"] = {
   },
 }
 P.transport["npc:baros-alexston"] = {
-  hash = "3c35ed",
-  fullHash = "3c35ed",
-  text = "Baros Alexston. In Stormwind City Hall, Baros Alexston keeps watch over the capital he helped rebuild. Once a close friend of Edwin VanCleef in the Stonemasons Guild, he stayed loyal to the crown when the guild fractured. Baros grew up on the Alexston Farmstead in Westfall's rolling grasslands. Thieves overran and burned the family homestead while he was young. Before they fled, his father hurriedly hid their cherished heirlooms across the grounds. Baros later journeyed to the capital and joined the Stonemasons Guild. For years, he labored beside Guildmaster Edwin VanCleef as they raised Stormwind anew from the ashes of the First War.",
+  hash = "b62f5c",
+  fullHash = "b62f5c",
+  text = "Baros Alexston. In Stormwind City Hall, Baros Alexston tends the capital he helped rebuild. He was once close to Edwin VanCleef in the Stonemasons Guild, but stayed loyal to the crown when the guild split. Baros grew up at the Alexston Farmstead in Westfall's rolling grasslands. Thieves overran and burned his family's home while he was young. Before they fled, his father hid their cherished heirlooms across the grounds.\n\nBaros later went to the capital and joined the Stonemasons Guild. For years, he worked beside Guildmaster Edwin VanCleef as they raised Stormwind anew from the ashes of the First War.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_baros-alexston-c0b876fe834191017922/1-0000.mp3", duration = 35.3697959, start = 0},
+    {file = "Audio/Transport/full_npc_baros-alexston-791dcd0a1654bba31aef/1-0000.mp3", duration = 36.7281633, start = 0},
   },
 }
 P.transport["npc:billy-maclure"] = {
-  hash = "751262",
-  fullHash = "751262",
-  text = "Billy Maclure. At Maclure Vineyards, Billy Maclure's pranks stir trouble between two neighboring farms. The young human boy dodges chores and plays at the feud between his family and the Stonefields, but fresh pastries can win his cooperation. Billy Maclure spends his days outside the barn at Maclure Vineyards, near farmer Gerard Tiller. He grows up among the grapevines in southern Elwynn Forest, often dodging chores and roaming the meadows. The Maclures and Stonefields have long been hostile toward each other. Billy treats their feud as a chance for pranks and petty theft.",
+  hash = "cb3fc3",
+  fullHash = "cb3fc3",
+  text = "Billy Maclure. At Maclure Vineyards, Billy Maclure's pranks stir trouble between two neighboring farms. The young human boy dodges chores and joins the feud between his family and the Stonefields, though fresh pastries can win his help. Billy Maclure spends his days outside the barn at Maclure Vineyards, near farmer Gerard Tiller. He grows up among the grapevines in southern Elwynn Forest, often slipping away from chores to roam the meadows. The Maclures and Stonefields have long been hostile toward each other. Billy turns their feud into a chance for pranks and petty theft.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_billy-maclure-367d83f7b56f627740e1/1-0000.mp3", duration = 32.9665306, start = 0},
+    {file = "Audio/Transport/full_npc_billy-maclure-5626b23d64b6cd2807eb/1-0000.mp3", duration = 33.1755102, start = 0},
   },
 }
 P.transport["npc:blind-mary"] = {
@@ -82,11 +82,11 @@ P.transport["npc:blind-mary"] = {
   },
 }
 P.transport["npc:bolvar-fordragon"] = {
-  hash = "5896ab",
-  fullHash = "5896ab",
-  text = "Bolvar Fordragon. Stormwind’s crown and armies rest with Bolvar Fordragon while King Varian is missing. As Regent and Supreme Commander of Stormwind’s armed forces, he stands beside young King Anduin in Stormwind Keep and tries to hold the kingdom together. Domestic troubles grow, while Lady Katrana Prestor’s counsel often delays his military decisions. King Varian vanished on the way to a peace summit on Theramore Isle, leaving Stormwind in political disarray. Ten-year-old Prince Anduin was crowned to preserve continuity, while Highlord Bolvar Fordragon took up the work of ruling as Regent. A venerated paladin devoted to the crown, Bolvar now faces a kingdom under strain. Stormwind’s soldiers are spread thin across Westfall, Redridge, and Duskwood. Lady Katrana Prestor’s dismissive counsel adds to the burden, repeatedly blocking him from sending royal troops to towns on the frontier.",
+  hash = "749898",
+  fullHash = "749898",
+  text = "Bolvar Fordragon. In Stormwind Keep, Bolvar Fordragon holds the crown and armies while King Varian is missing. As Regent and Supreme Commander of Stormwind’s armed forces, he stands beside young King Anduin and struggles to hold the kingdom together. Troubles at home grow, while Lady Katrana Prestor’s counsel often delays his military decisions. King Varian vanished while traveling to a peace summit on Theramore Isle, leaving Stormwind in disarray. Ten-year-old Prince Anduin was crowned to preserve continuity, and Highlord Bolvar Fordragon took up the work of ruling as Regent.\n\nA venerated paladin devoted to the crown, Bolvar now faces a kingdom under strain. Stormwind’s soldiers are spread thin across Westfall, Redridge, and Duskwood. Lady Katrana Prestor dismisses his concerns and repeatedly blocks him from sending royal troops to frontier towns.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_bolvar-fordragon-eda7abca86c332bd9b85/1-0000.mp3", duration = 53.8644898, start = 0},
+    {file = "Audio/Transport/full_npc_bolvar-fordragon-f52f13dc62d915a715d8/1-0000.mp3", duration = 53.1069388, start = 0},
   },
 }
 P.transport["npc:calor"] = {
@@ -99,10 +99,10 @@ P.transport["npc:calor"] = {
 }
 P.transport["npc:captain-grayson"] = {
   hash = "becc07",
-  fullHash = "aeb7a4",
-  text = "Captain Grayson. At Westfall Lighthouse, Captain Grayson keeps watch over the beacon that failed him. His ship smashed against the dark coastline, and now he tends the light so other sailors will not meet his fate. Captain Grayson once sailed the southern seas of the Eastern Kingdoms as a ship’s captain. One night, the lighthouse fire went dark as his vessel neared Westfall’s jagged shoals. The ship struck the rocks, and Grayson died with it. He awoke as an earthbound phantom, trapped upon the coast. In death, Captain Grayson went to Westfall Lighthouse, hoping to learn what waited beyond life. There he saw Old Murk-Eye, a notorious murloc, drive away the keeper and his family. The brave keepers returned to rekindle the flame, but Old Murk-Eye rallied the surrounding murlocs and led a second, brutal slaughter. Grayson could only watch as the family was butchered. With the keepers dead and Westfall crumbling under neglect, Captain Grayson bears the beacon’s solemn burden on his spectral shoulders. He asks passing travelers to gather fuel for the great flame. He also seeks vengeance for the slaughtered family: hunt down Old Murk-Eye and drive back the coastal murlocs.",
+  fullHash = "e32fc1",
+  text = "Captain Grayson. At Westfall Lighthouse, Captain Grayson keeps watch over the beacon that failed him. His ship struck the dark coast, and now he tends the light so other sailors do not share his fate. Captain Grayson once sailed the southern seas of the Eastern Kingdoms as a ship’s captain. One night, the lighthouse fire went dark as his vessel neared Westfall’s jagged shoals. The ship struck the rocks, and Grayson died with it. He awoke as an earthbound phantom, bound to the coast. After death, Captain Grayson went to Westfall Lighthouse, hoping to learn what waited beyond life. There he saw Old Murk-Eye, a notorious murloc, drive away the keeper and his family. The brave keepers returned to rekindle the flame. But Old Murk-Eye rallied the surrounding murlocs and led a second, brutal slaughter. Grayson could only watch as the family was butchered. With the keepers dead and Westfall crumbling under neglect, Captain Grayson bears the beacon’s solemn burden on his spectral shoulders. He asks passing travelers to gather fuel for the great flame. He also seeks vengeance for the slaughtered family: hunt down Old Murk-Eye and drive back the coastal murlocs.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_captain-grayson-3f02c601b7d31e8e9670/1-0000.mp3", duration = 66.795102, start = 0},
+    {file = "Audio/Transport/full_npc_captain-grayson-f07d5a010bcc0f7d8dbe/1-0000.mp3", duration = 71.7061224, start = 0},
   },
 }
 P.transport["npc:captain-stoutfist"] = {
@@ -114,11 +114,11 @@ P.transport["npc:captain-stoutfist"] = {
   },
 }
 P.transport["npc:chief-engineer-hinderweir-vii"] = {
-  hash = "0bf53e",
-  fullHash = "0bf53e",
-  text = "Chief Engineer Hinderweir VII. Atop the Stonewrought Dam, Chief Engineer Hinderweir VII keeps watch over its workings and defenses. The veteran dwarf maintains its great structure and machinery as grave dangers threaten the dam. Chief Engineer Hinderweir VII tends the Stonewrought Dam, where dwarven stonecraft holds back the waters of the Loch. Along its crest, he watches the waterways and sluice gates, and checks the structure for strain from the elements and local hazards. Its workings demand constant care.",
+  hash = "66b8c2",
+  fullHash = "66b8c2",
+  text = "Chief Engineer Hinderweir VII. Atop the Stonewrought Dam, Chief Engineer Hinderweir VII watches over its workings and defenses. The veteran dwarf keeps the great structure and its machinery sound as grave dangers threaten it. Chief Engineer Hinderweir VII tends the Stonewrought Dam, whose stonework holds back Loch Modan's waters. Along the crest, he watches the waterways and sluice gates. He also checks for strain from the elements and local hazards. The dam's workings need constant care.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_chief-engineer-hinderweir-vii-31fb848e729c93555e45/1-0000.mp3", duration = 28.0293878, start = 0},
+    {file = "Audio/Transport/full_npc_chief-engineer-hinderweir-vii-5cd97e3735c2dabfbf39/1-0000.mp3", duration = 28.9436735, start = 0},
   },
 }
 P.transport["npc:clerk-daltry"] = {
@@ -139,26 +139,26 @@ P.transport["npc:cliffwatcher-longhorn"] = {
 }
 P.transport["npc:collin-mauren"] = {
   hash = "c0384b",
-  fullHash = "f07a05",
-  text = "Collin Mauren. In Stormwind's Mage Quarter, Collin Mauren studies practical magic and crafts useful spells from natural reagents. He also makes arcane scrolls for his friend Gaxim Rustfizzle, a gnome engineer and explorer. In Stormwind's Mage Quarter, Collin Mauren studies magic's practical uses. He crafts arcane formulas to solve specific problems, drawing on natural anomalies and raw components gathered across Azeroth. Their properties help him make functional scrolls and reagents for friends and travelers. Collin Mauren is helping his friend Gaxim Rustfizzle set off NG-5 explosives from a distance. Gaxim, a gnome tinkerer, needed a way to trigger them remotely, so Collin devised a messaging spell for a scroll. To impress the spell on it, Collin uses debris from Westfall's erratic Dust Devils. He awaits word on how Gaxim's scheme fares. Collin Mauren's studies reach from Stormwind across the Great Sea to Kalimdor's Stonetalon Mountains. He seeks the scales of the region's basilisks, whose resilient hides interest him as materials for synthesizing new spells. Travelers heading into Kalimdor often receive his requests for these rare hides. The scales fuel his study of how primal creature anatomy can steady complex enchantments.",
+  fullHash = "703b85",
+  text = "Collin Mauren. In Stormwind's Mage Quarter, Collin Mauren studies practical magic and shapes useful spells from natural reagents. He also makes arcane scrolls for Gaxim Rustfizzle, his gnome friend and fellow explorer. In Stormwind's Mage Quarter, Collin Mauren studies how magic can solve practical problems. He shapes arcane formulas with natural anomalies and raw components gathered across Azeroth. Their properties help him make useful scrolls and reagents for friends and travelers. Collin Mauren is helping his friend Gaxim Rustfizzle set off NG-5 explosives from afar. Gaxim, a gnome tinkerer, needed a remote trigger, so Collin devised a messaging spell for a scroll. To impress the spell upon it, Collin uses debris from Westfall's erratic Dust Devils. Now he awaits word on how Gaxim's scheme fares. Collin Mauren's studies reach from Stormwind across the Great Sea to Kalimdor's Stonetalon Mountains. He seeks scales from the region's basilisks, whose resilient hides interest him as materials for new spells. Travelers bound for Kalimdor often receive his requests for these rare hides. The scales help him study how primal creature anatomy can steady complex enchantments.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_collin-mauren-a585ff08a5c3b8ccf2b1/1-0000.mp3", duration = 75.0236735, start = 0},
+    {file = "Audio/Transport/full_npc_collin-mauren-ccee1804e939205f1cdf/1-0000.mp3", duration = 74.004898, start = 0},
   },
 }
 P.transport["npc:corithras-moonrage"] = {
   hash = "5ccf39",
-  fullHash = "acaf12",
-  text = "Corithras Moonrage. Corithras Moonrage is a night elf scholar and quest giver stationed in the village of Dolanaar on Teldrassil. He guides newly arrived adventurers in understanding the nature of the great World Tree and tasks them with maintaining its sacred moonwells. Through his lessons, he reveals both the spiritual importance of Teldrassil and the growing burdens carried by the kaldorei. Residing in the shaded settlement of Dolanaar, Corithras Moonrage serves as an instructor to travelers leaving the sheltered bounds of Shadowglen. As young kaldorei venture into the wider boughs of Teldrassil, Corithras ensures they understand the history of their new home. He teaches that survival in this changing era requires vigilance and reverence for the natural order. Much of Corithras's duty revolves around collecting moonwell water for the druids in Darnassus. He directs adventurers to collect pure waters from moonwells across Teldrassil in specially crafted phials for delivery to Fandral Staghelm. Through these trials, he monitors the health of the World Tree and seeks to maintain the delicate balance of the wilderness against creeping corruption.",
+  fullHash = "245ea0",
+  text = "Corithras Moonrage. In Dolanaar, Corithras Moonrage teaches newcomers about Teldrassil and its moonwells. His lessons reveal the tree’s place in kaldorei life and the burdens its people bear. In Dolanaar, Corithras Moonrage teaches travelers about Teldrassil. Young kaldorei begin exploring the tree beyond Shadowglen, and he explains the history of their new home. He also speaks of the care its wilderness demands. In this changing era, survival calls for vigilance and respect for the natural order. Corithras gathers moonwell water for the druids in Darnassus. He sends travelers to draw pure water from moonwells across Teldrassil in specially crafted phials, then deliver it to Fandral Staghelm. This work helps him watch over the World Tree and preserve the wilderness against creeping corruption.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_corithras-moonrage-9792fea044c8480e1460/1-0000.mp3", duration = 63.5036735, start = 0},
+    {file = "Audio/Transport/full_npc_corithras-moonrage-409e34493bbbdf175d98/1-0000.mp3", duration = 50.0506122, start = 0},
   },
 }
 P.transport["npc:daphne-stilwell"] = {
   hash = "673add",
-  fullHash = "0b9ac6",
-  text = "Daphne Stilwell. On Westfall's cliffs, Daphne Stilwell keeps an orchard above the Longshore. She and her husband Jordan fled the north and now aid the Church of the Holy Light while guarding their home from nearby outlaws. West of Moonbrook and the Deadmines exit, Daphne Stilwell tends a homestead and apple orchard on the bluffs. From the Longshore below or gryphon routes south to Stranglethorn Vale above, the farm looks quiet. But life there is not safe. Bandits and scavengers roam nearby, while Daphne works among the trees and watches over her isolated land. Before coming to Westfall, Daphne and her husband Jordan lived in Lordaeron near Pyrewood Village, where they worked in what is now Shadowfang Keep. Darkness and disaster drove them south with thousands of other human refugees. Near Stormwind, Jordan's renowned skill as a craftsman and Daphne's steady presence brought them close to the Church of the Holy Light. They support the church and provide holy arms to paladins of the Silver Hand.",
+  fullHash = "417595",
+  text = "Daphne Stilwell. On Westfall’s cliffs, Daphne Stilwell keeps watch over her orchard and home. She and her husband Jordan fled the north and now aid the Church of the Holy Light while guarding their land from nearby outlaws. West of Moonbrook and the Deadmines exit, Daphne Stilwell tends a homestead and apple orchard on the bluffs. The Longshore lies below, while gryphon routes to Stranglethorn Vale pass high above. The farm may look quiet from either way, but bandits and scavengers roam nearby. Daphne works among the trees and keeps watch over her isolated land. Before they came to Westfall, Daphne and her husband Jordan lived near Pyrewood Village in Lordaeron. They worked in what is now Shadowfang Keep. Darkness and disaster drove them south with thousands of other human refugees. Near Stormwind, Jordan’s renowned skill as a craftsman and Daphne’s steady presence brought them close to the Church of the Holy Light. They support the church and provide holy arms to paladins of the Silver Hand.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_daphne-stilwell-8393f7f9a2d13ed56d8c/1-0000.mp3", duration = 58.2269388, start = 0},
+    {file = "Audio/Transport/full_npc_daphne-stilwell-ec3cf8e569be006919a3/1-0000.mp3", duration = 58.9844898, start = 0},
   },
 }
 P.transport["npc:delgren-the-purifier"] = {
@@ -179,10 +179,10 @@ P.transport["npc:denalan"] = {
 }
 P.transport["npc:dirania-silvershine"] = {
   hash = "58d518",
-  fullHash = "c66dee",
-  text = "Dirania Silvershine. Dirania Silvershine is a night elf resident of Shadowglen in Teldrassil. Deeply loyal and observant, she watches over the tranquil grove and looks out for her companion Iverron when his reckless ventures land him in peril. Dirania stands among the tranquil boughs of Shadowglen, the secluded vale where young night elves begin their service to Kalimdor and the Alliance. While many in the barrow mounds and sanctuaries look to broad spiritual duties, Dirania stays mindful of those nearest to her, attentive to the quiet dangers that stir even in the heart of Teldrassil. Dirania's immediate concern is her companion Iverron. Overeager and careless around the poisonous woodland creatures creeping across the glen, Iverron frequently gets into trouble. When he succumbs to a venomous bite from the local webwood spiders, Dirania takes it upon herself to seek out willing hands to gather ingredients and prepare a remedy before the venom takes a permanent toll.",
+  fullHash = "c99711",
+  text = "Dirania Silvershine. In Shadowglen, Dirania Silvershine keeps watch over the grove and worries for Iverron. Loyal and observant, she looks out for her companion when his reckless ventures put him in peril. Dirania watches over Shadowglen, a quiet vale beneath Teldrassil's boughs. Young night elves begin their service to Kalimdor and the Alliance here. While others in the barrow mounds and sanctuaries tend to wider spiritual duties, Dirania keeps her attention on those closest to her. Even in Teldrassil's heart, quiet dangers stir. Dirania's chief concern is her companion Iverron. Eager and careless around the poisonous creatures that creep through the glen, he often gets into trouble. When a webwood spider's venomous bite fells him, Dirania seeks willing hands to gather ingredients and prepare a remedy before the venom causes lasting harm.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_dirania-silvershine-ac34aded7844abf814cc/1-0000.mp3", duration = 55.9020408, start = 0},
+    {file = "Audio/Transport/full_npc_dirania-silvershine-4a5c5079fea6d83c601f/1-0000.mp3", duration = 52.2187755, start = 0},
   },
 }
 P.transport["npc:dorn-plainstalker"] = {
@@ -195,34 +195,34 @@ P.transport["npc:dorn-plainstalker"] = {
 }
 P.transport["npc:duthorian-rall"] = {
   hash = "3eadf2",
-  fullHash = "7ea713",
-  text = "Duthorian Rall. In Stormwind's Cathedral of Light, Duthorian Rall guides new holy warriors through their trials. The respected human knight of the Silver Hand is one of the Alliance's most influential paladins, overseeing their training and spiritual tests. He teaches charity, valor, and devotion as they prepare to defend Azeroth from the Scourge and threats within the kingdom. In the Cathedral of Light, Duthorian Rall upholds the traditions of the Knights of the Silver Hand. The kingdom is unsettled by internal strife, and King Varian Wrynn is missing. Duthorian carries the duty of teaching discipline to new initiates. Respected paladins in the field send promising recruits to him: Brother Wilhelm in Goldshire and Brandur Ironhammer in Ironforge, so they can begin their sacred trials. Duthorian teaches that martial power without a moral foundation is hollow. In the Tome of Divinity trials, he tests an initiate's empathy through acts of mercy and selfless service across Stormwind. Only after these tests does he entrust candidates with deeper mysteries. Near Heroes' Vigil, he tests them with the Symbol of Life, then sends them to aid wounded allies and learn to channel the Light's power to restore fallen comrades from death.",
+  fullHash = "d083e8",
+  text = "Duthorian Rall. In Stormwind's Cathedral of Light, Duthorian Rall guides new holy warriors through their trials. A respected human knight of the Silver Hand, he is one of the Alliance's most influential paladins. He oversees their training and spiritual tests, teaching charity, valor, and devotion as they prepare to defend Azeroth from the Scourge and threats within the kingdom. In the Cathedral of Light, Duthorian Rall upholds the traditions of the Knights of the Silver Hand. The kingdom is unsettled by strife within its borders, and King Varian Wrynn is missing. Duthorian bears the duty of teaching discipline to new initiates. Respected paladins in the field send promising recruits to him: Brother Wilhelm in Goldshire and Brandur Ironhammer in Ironforge. There, the recruits begin their sacred trials. Duthorian teaches that martial power without a moral foundation is hollow. In the Tome of Divinity trials, he tests an initiate's empathy through acts of mercy and selfless service across Stormwind. Only then does he entrust candidates with deeper mysteries.\n\nNear Heroes' Vigil, he tests them with the Symbol of Life. Then he sends them to aid wounded allies and learn to channel the Light's power, restoring fallen comrades from death.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_duthorian-rall-4e9a9060beb222a2a427/1-0000.mp3", duration = 69.8253061, start = 0},
+    {file = "Audio/Transport/full_npc_duthorian-rall-4bddb6c9474d77b52aed/1-0000.mp3", duration = 73.7436735, start = 0},
   },
 }
 P.transport["npc:elling-trias"] = {
   hash = "ecbf2b",
-  fullHash = "fa9dc5",
-  text = "Elling Trias. In Stormwind's Trade District, Elling Trias runs a cheese shop with his family. He welcomes customers with easy talk, while his quiet work as an information broker reaches across continents. Elling Trias sells fine cheese in the Trade District, working beside his wife Elaine and son Ben. He cheerfully offers wheels of cheese and chats with the townsfolk. To those who know better, Trias' Cheese is one of Stormwind's most reliable fronts. The city's steady trade gives operatives, courtiers and adventurers a place to exchange quiet words beyond the city watch's notice. Elling Trias has informants and allies far beyond what most shopkeepers can claim. He keeps ties with Master Mathias Shaw of SI:7, works with Church contacts such as Bishop DeLavey, and corresponds with agents in Darkshire, Theramore Isle and the distant Plaguelands near Hearthglen. When rumors surface about highway bandits or quiet movements in the countryside, Trias often pieces them together before the royal court takes notice.",
+  fullHash = "e7089e",
+  text = "Elling Trias. In Stormwind's Trade District, Elling Trias welcomes customers to his family cheese shop. Behind its easy talk, his work as an information broker reaches across continents. Elling Trias sells fine cheese in the Trade District beside his wife Elaine and son Ben. He offers wheels to customers and chats cheerfully with townsfolk. Yet those who know the shop well understand that Trias' Cheese is also one of Stormwind's most reliable fronts. The city's steady trade lets operatives, courtiers and adventurers exchange quiet words beyond the city watch's notice. Elling Trias keeps informants and allies far beyond the reach of most shopkeepers. His ties include Master Mathias Shaw of SI:7, Church contacts such as Bishop DeLavey, and agents in Darkshire, Theramore Isle and the distant Plaguelands near Hearthglen. So when rumors rise of highway bandits or quiet movements in the countryside, Trias often pieces them together before the royal court takes notice.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_elling-trias-7a2b0923520a780e86fd/1-0000.mp3", duration = 58.8016327, start = 0},
+    {file = "Audio/Transport/full_npc_elling-trias-7bebd5a7a4ead343c52d/1-0000.mp3", duration = 57.4693878, start = 0},
   },
 }
 P.transport["npc:fandral-staghelm"] = {
   hash = "283e85",
-  fullHash = "96682f",
-  text = "Fandral Staghelm. Archdruid Fandral Staghelm leads the druids of the Cenarion Circle from the Cenarion Enclave in Darnassus. Stepping into power after Malfurion Stormrage vanished into the Emerald Dream, he championed the planting of the new World Tree, Teldrassil. Proud, abrasive, and relentlessly ambitious, Fandral advocates for an aggressive Kaldorei resurgence that frequently pits him against High Priestess Tyrande Whisperwind. Following the Third War and the sacrifice of Nordrassil atop Mount Hyjal, the night elves lost their immortality and their sacred sanctuary. When Malfurion Stormrage vanished, Fandral took up leadership of the druids and convinced the Circle of Ancients that it was time for their people to rebuild and regain their immortality. With the Circle's approval, he led the druids in raising Teldrassil off the coast of Kalimdor. He envisioned the colossal bough as a monument to Kaldorei endurance and a vessel to restore their lost supremacy, even though the Dragon Aspects pointedly withheld their blessings from the unapproved endeavor. A millennium before the First War, Fandral served as the Kaldorei field commander in Silithus during the War of the Shifting Sands. Renowned among the insectoid qiraji as 'Kar'sis'—the Hand of Earth—he held the front lines alongside his beloved only son, Valstann. Exploiting Fandral's devotion, the qiraji General Rajaxx engineered a feint against Southwind Village and captured Valstann, ruthlessly executing him directly in front of the horrified Archdruid. The loss shattered Fandral's spirit, precipitating a devastating retreat and cementing an abiding, bitter hatred for the swarm that remains etched into his haughty demeanor. Within the marble boughs of Darnassus, Fandral governs Kaldorei affairs with a haughty, unyielding hand. Unlike High Priestess Tyrande Whisperwind, who favors spiritual preservation and cautious diplomacy, Fandral views military expansion and decisive strength as paramount to the survival of their people.",
+  fullHash = "286930",
+  text = "Fandral Staghelm. From the Cenarion Enclave in Darnassus, Fandral Staghelm leads the druids of the Cenarion Circle. With Malfurion Stormrage gone into the Emerald Dream, Fandral championed Teldrassil and a forceful Kaldorei resurgence, often clashing with High Priestess Tyrande Whisperwind. After the Third War, the night elves lost their immortality and sacred sanctuary when Nordrassil was sacrificed atop Mount Hyjal. When Malfurion Stormrage vanished, Fandral took up leadership of the druids. He persuaded the Circle of Ancients that their people must rebuild and regain their immortality.\n\nWith the Circle's approval, Fandral led the druids in raising Teldrassil off the coast of Kalimdor. He meant its great bough to honor Kaldorei endurance and restore their lost supremacy. The Dragon Aspects withheld their blessings from the endeavor. A millennium before the First War, Fandral served as the Kaldorei field commander in Silithus during the War of the Shifting Sands. The qiraji knew him as Kar'sis, the Hand of Earth. His beloved only son, Valstann, fought beside him on the front lines.\n\nThe qiraji General Rajaxx exploited Fandral's devotion with a feint against Southwind Village. Valstann was captured and executed before the horrified Archdruid. Grief broke Fandral's spirit and drove a devastating retreat. His bitter hatred of the swarm endures. In Darnassus, Fandral governs Kaldorei affairs with a haughty, unyielding hand. High Priestess Tyrande Whisperwind is a spiritual leader who favors preservation and cautious diplomacy. Fandral instead sees military expansion and decisive strength as vital to his people's survival.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_fandral-staghelm-1c4f23b75601b3c5221a/1-0000.mp3", duration = 116.506122, start = 0},
+    {file = "Audio/Transport/full_npc_fandral-staghelm-40c2d7a74cc869c2c62c/1-0000.mp3", duration = 103.88898, start = 0},
   },
 }
 P.transport["npc:farthing"] = {
   hash = "014af8",
-  fullHash = "33bb81",
-  text = "Farthing. Farthing serves the faithful from Stormwind's Cathedral of Light. The kind and wise human clergyman guides parishioners and directs aid to settlements across the kingdom. Bishop Farthing tends to the spiritual needs of Stormwind City from the Cathedral of Light. Alongside Archbishop Benedictus and the gathered clergy, he counsels travelers, assists those pursuing the holy arts, and attends to the Church of the Holy Light's civic and pastoral duties. From the capital, Farthing directs earnest travelers toward parts of the kingdom in need of holy aid. Reports tell of the necromancer Morbent Fel and an undead blight spreading through Duskwood. Farthing advises on ways to overcome dark sorceries and cleanse the blighted frontier.",
+  fullHash = "38437d",
+  text = "Farthing. At Stormwind's Cathedral of Light, Farthing guides the faithful and directs aid across the kingdom. This kind and wise human clergyman tends to parishioners and those in need. Bishop Farthing tends to Stormwind City's spiritual needs from the Cathedral of Light. He serves alongside Archbishop Benedictus and the gathered clergy. There, he counsels travelers, aids those pursuing the holy arts, and carries out the Church of the Holy Light's civic and pastoral duties. From the capital, Farthing directs earnest travelers toward parts of the kingdom in need of holy aid. Reports tell of the necromancer Morbent Fel and an undead blight spreading through Duskwood. Farthing advises on ways to overcome dark sorceries and cleanse the blighted frontier.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_farthing-6e2f8ccfa68026ff7e55/1-0000.mp3", duration = 44.2514286, start = 0},
+    {file = "Audio/Transport/full_npc_farthing-571b914cd4f4968059cf/1-0000.mp3", duration = 45.9755102, start = 0},
   },
 }
 P.transport["npc:first-mate-fitzsimmons"] = {
@@ -243,18 +243,18 @@ P.transport["npc:foreman-oslow"] = {
 }
 P.transport["npc:furen-longbeard"] = {
   hash = "c59646",
-  fullHash = "61db7c",
-  text = "Furen Longbeard. In Stormwind's Dwarven District, warriors seek Furen Longbeard's skill to forge specialized, battle-ready armor. Apprenticed to Grimand Elmore, the master armorer is known for his metallurgical expertise and heavy protective gear. Furen Longbeard works far from Ironforge's great forges, among the cobblestones and soot of Stormwind's Dwarven District. Like many dwarves, he brought traditional metallurgy south to help rebuild and defend the kingdom. His work keeps him connected with artisans throughout the city and beyond. Grimand Elmore taught Furen Longbeard his craft. Furen has perfected ways to treat heavy mail and plate so they can withstand the punishment of battle. Young warriors seeking durable protection turn to him, and he requires rare ores, specialized components, and exotic reagents from distant corners of the world to fashion his signature fire-hardened armor.",
+  fullHash = "da3980",
+  text = "Furen Longbeard. In Stormwind’s Dwarven District, warriors seek Furen Longbeard’s skill with battle-ready armor. Apprenticed to Grimand Elmore, he is known for his skill with metal and heavy protective gear. Furen Longbeard works far from Ironforge’s great forges, in Stormwind’s Dwarven District. Like many dwarves, he brought the old ways of working metal south to help rebuild and defend the kingdom. His craft connects him with artisans across the city and beyond. Grimand Elmore taught Furen Longbeard his craft. Furen has perfected ways to treat heavy mail and plate so they can withstand the blows of battle. Young warriors turn to him for durable protection. To make his fire-hardened armor, he needs rare ores, special components and exotic reagents from distant corners of the world.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_furen-longbeard-2985e9a01c23aa7e97f4/1-0000.mp3", duration = 50.964898, start = 0},
+    {file = "Audio/Transport/full_npc_furen-longbeard-d413a641bddac93a3f8e/1-0000.mp3", duration = 46.6546939, start = 0},
   },
 }
 P.transport["npc:gakin-the-darkbinder"] = {
   hash = "1d2b80",
-  fullHash = "7211b0",
-  text = "Gakin the Darkbinder. Beneath The Slaughtered Lamb in Stormwind, Gakin the Darkbinder teaches the warlock arts in secret. He tests aspiring Alliance warlocks before they attempt to summon and bind demons. Below The Slaughtered Lamb's taproom, a cellar shelters those who study shadow and fel. The crypt-like room holds summoning circles and grim tomes, hidden from the eyes that watch Stormwind's open mage sanctuaries. Gakin guides young warlocks there, teaching discipline and restraint before they summon forces they cannot control. Gakin teaches demonology and the rites used to bind demons. Those who earn his notice travel across the kingdom to gather rare things, including stolen bloodstone talismans and corrupt wood from dark forests. When the materials are ready, Gakin oversees their work in the crypt's summoning circle. Novices must master voidwalkers and succubi in trials that test their will and put their lives at risk.",
+  fullHash = "278b11",
+  text = "Gakin the Darkbinder. Beneath The Slaughtered Lamb in Stormwind, Gakin the Darkbinder tests those who seek the warlock arts. He teaches aspiring Alliance warlocks to summon and bind demons. Below The Slaughtered Lamb's taproom, a cellar gathers those who study shadow and fel. Summoning circles and grim tomes fill the crypt-like room, kept from the eyes that watch Stormwind's open mage sanctuaries. There, Gakin teaches young warlocks discipline and restraint before they call forces they may not control. Gakin teaches demonology and the rites for binding demons. Those who earn his notice travel across the kingdom for rare things, among them stolen bloodstone talismans and corrupt wood from dark forests. When all is gathered, Gakin watches over their work in the crypt's summoning circle. There, novices face voidwalkers and succubi in trials that test their will and risk their lives.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_gakin-the-darkbinder-5eff1ee98d7e714eaf08/1-0000.mp3", duration = 52.9502041, start = 0},
+    {file = "Audio/Transport/full_npc_gakin-the-darkbinder-36c775a86f4f6f5537f4/1-0000.mp3", duration = 54.7004082, start = 0},
   },
 }
 P.transport["npc:gaxim-rustfizzle"] = {
@@ -266,11 +266,11 @@ P.transport["npc:gaxim-rustfizzle"] = {
   },
 }
 P.transport["npc:gelbin-mekkatorque"] = {
-  hash = "1c5201",
-  fullHash = "1c5201",
-  text = "Gelbin Mekkatorque. Gelbin Mekkatorque is the High Tinker of the gnomes, currently residing in exile in Tinker Town within Ironforge. Renowned as a visionary engineer whose inventions include the mechanostrider and the Deeprun Tram, he now carries the heavy burden of Gnomeregan's fall and oversees efforts to reclaim his people's ancestral home. Gnomish leadership is earned through intellect and merit rather than bloodlines, and Gelbin Mekkatorque's rise to High Tinker was propelled by pure inventive genius. Mekkatorque revolutionized personal transportation with the creation of the first functioning mechanostrider. He also assisted the Bronzebeard dwarves in developing their formidable siege engines, and he was instrumental in the creation of the subterranean Deeprun Tram linking Ironforge to Stormwind.",
+  hash = "802145",
+  fullHash = "802145",
+  text = "Gelbin Mekkatorque. In Tinker Town, Gelbin Mekkatorque leads the gnomes who live in exile in Ironforge. His inventions include the mechanostrider and the Deeprun Tram, and he guides the effort to reclaim Gnomeregan. Gelbin Mekkatorque earned the title of High Tinker through inventive skill. Among the gnomes, leadership rests on intellect and merit, not bloodlines. He built the first working mechanostrider, changing how gnomes travel. He also helped the Bronzebeard dwarves develop siege engines and played a key part in building the Deeprun Tram between Ironforge and Stormwind.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_gelbin-mekkatorque-c194a09f5be4b2f5494a/1-0000.mp3", duration = 43.7812245, start = 0},
+    {file = "Audio/Transport/full_npc_gelbin-mekkatorque-2e5321186a8577fcee7d/1-0000.mp3", duration = 33.1232653, start = 0},
   },
 }
 P.transport["npc:glorin-steelbrow"] = {
@@ -283,34 +283,34 @@ P.transport["npc:glorin-steelbrow"] = {
 }
 P.transport["npc:grelin-whitebeard"] = {
   hash = "a10bb3",
-  fullHash = "ae9b74",
-  text = "Grelin Whitebeard. In Coldridge Valley, Grelin Whitebeard watches the Frostmane threat by royal decree. From an isolated camp, he depends on local recruits while Ironforge battles the troggs. Grelin Whitebeard and his brother Senir came to Coldridge Valley on orders from the Senate of Ironforge and King Magni Bronzebeard. They were sent to assess and quell the threat from the native Frostmane trolls. Ironforge's soldiers are tied up fighting trogg outbreaks across Dun Morogh, leaving the brothers with few supplies. Grelin established a camp in the snowy hills and must rely on local recruits and passing initiates to do the work. From his camp, Grelin watches the Frostmane tribe pressing south from Coldridge Valley. The trolls grow bolder, raiding beyond their mountain caverns. During one raid, Grik'nir the Cold, a heavily painted troll, slipped into the unattended camp and stole Grelin's field journal of observations. Grelin will not fail the King. He sends travelers into the Frostmane caves to recover his writings and carry his final report to Senir in Kharanos.",
+  fullHash = "d2dc43",
+  text = "Grelin Whitebeard. In Coldridge Valley, Grelin Whitebeard keeps watch over the Frostmane threat by royal decree. Ironforge is busy fighting troggs, so his isolated camp depends on local recruits. Grelin Whitebeard and his brother Senir came to Coldridge Valley under orders from the Senate of Ironforge and King Magni Bronzebeard. Their charge was to assess and quell the threat from the native Frostmane trolls. Ironforge's soldiers are busy fighting trogg outbreaks across Dun Morogh, leaving the brothers short of supplies. So Grelin made camp in the snowy hills and relies on local recruits and passing initiates to do the work. From his camp, Grelin watches the Frostmane tribe press south from Coldridge Valley. The trolls grow bolder and raid beyond their mountain caverns. During one raid, Grik'nir the Cold, a heavily painted troll, slipped into the unattended camp and stole Grelin's field journal of observations.\n\nGrelin will not fail the King. He sends travelers into the Frostmane caves to recover his writings and carry his final report to Senir in Kharanos.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_grelin-whitebeard-9ebaf42f06b1392c68c7/1-0000.mp3", duration = 63.4253061, start = 0},
+    {file = "Audio/Transport/full_npc_grelin-whitebeard-7e2a56deae7c5d67d7c2/1-0000.mp3", duration = 62.9812245, start = 0},
   },
 }
 P.transport["npc:grif-wildheart"] = {
   hash = "8a3f66",
-  fullHash = "eb15cc",
-  text = "Grif Wildheart. Outside the Thunderbrew Distillery in Kharanos, Grif Wildheart trains young hunters. He teaches tracking, marksmanship, and how to tame beasts, guiding hunters from Coldridge Valley toward life alongside an animal companion. Grif Wildheart has spent his life in Dun Morogh’s frozen wilds. Ironforge dwarves often choose the forge or the mines, while local mountaineers say Grif spends too much time among four-legged beasts. None question his command of the wild. Years of tracking snowbound ridges with seasoned hunting companions have taught him the ways of the predators roaming the crags. Young dwarf hunters finish their first trials in Coldridge Valley, then travel to Kharanos for Grif’s guidance. He sharpens their aim and teaches them to survive in the wild, but his true craft is joining hunter and beast. He sends pupils into Dun Morogh’s freezing wastes with a taming rod, where they face Large Crag Boars, Snow Leopards, and Ice Claw Bears. After a hunter calms three kinds of wild beasts, Grif’s training in Kharanos is complete. A hunter must also learn to feed, discipline, and train a new companion, so Grif sends his graduates up the mountainside to Ironforge. Beneath the capital’s vaulted roofs, they report to master beast trainers and learn to care for a companion meant to stay with them for life.",
+  fullHash = "504471",
+  text = "Grif Wildheart. Outside the Thunderbrew Distillery in Kharanos, Grif Wildheart guides young hunters toward life with a beast companion. He teaches tracking, marksmanship, and how to tame beasts to hunters arriving from Coldridge Valley. Grif Wildheart has spent his life in Dun Morogh’s frozen wilds. While many Ironforge dwarves choose the forge or the mines, local mountaineers say he spends too much time among four-legged beasts. Still, none question his command of the wild. Years spent tracking snowbound ridges with seasoned hunting companions have taught him the ways of the predators among the crags. Young dwarf hunters finish their first trials in Coldridge Valley, then travel to Kharanos for Grif’s guidance. He sharpens their aim and teaches them to survive in the wild. His deepest craft, though, is joining hunter and beast. He sends his pupils into Dun Morogh’s freezing wastes with a taming rod to face Large Crag Boars, Snow Leopards, and Ice Claw Bears. Once a hunter has calmed three kinds of wild beasts, Grif’s training in Kharanos is complete. A hunter must also learn to feed, discipline, and train a new companion. So Grif sends his graduates up the mountainside to Ironforge. Beneath the capital’s vaulted roofs, they report to master beast trainers and learn to care for a companion meant to stay with them for life.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_grif-wildheart-062d0784f7361aa7d6bf/1-0000.mp3", duration = 76.7738776, start = 0},
+    {file = "Audio/Transport/full_npc_grif-wildheart-c35aaa240735ddfe44df/1-0000.mp3", duration = 81.4236735, start = 0},
   },
 }
 P.transport["npc:gryan-stoutmantle"] = {
   hash = "ed4bcb",
-  fullHash = "177e4f",
-  text = "Gryan Stoutmantle. At Sentinel Hill in Westfall, Gryan Stoutmantle leads the People's Militia. A paladin of the Silver Hand, he returned from Lordaeron to defend his birthplace after Stormwind's crown left it to banditry. Gryan Stoutmantle first served far from Westfall's fields. As a young man, he traveled north to Lordaeron and took vows as a Knight of the Silver Hand. He endured the horrors of the Third War there. News reached him that his native province was collapsing into lawlessness, overrun by organized brigands and abandoned by the crown. Gryan left the northern fronts to defend honest farmers, determined that his home would not fall as the north had. When Gryan returned, Westfall had virtually no defenders. Royal neglect and political paralysis in the House of Nobles kept Stormwind from sending garrison troops. Gryan formed the People's Militia at Sentinel Hill, gathering local farmers, sentries, and traveling mercenaries into a volunteer defense corps. The militia holds a precarious line against the Defias Brotherhood, riverpaw gnolls, and hostile mechanoids. Even when nearby Lakeshire pleads for aid, Gryan cannot spare reinforcements.",
+  fullHash = "f527c3",
+  text = "Gryan Stoutmantle. At Sentinel Hill in Westfall, Gryan Stoutmantle leads the People's Militia. A paladin of the Silver Hand, he came home from Lordaeron to defend his birthplace after Stormwind's crown left it to banditry. Gryan Stoutmantle first served far from Westfall. As a young man, he traveled north to Lordaeron and took vows as a Knight of the Silver Hand. He endured the horrors of the Third War there. Then word reached him that his native province was falling into lawlessness, overrun by organized brigands and abandoned by the crown. Gryan left the northern fronts to defend honest farmers, resolved that Westfall would not fall as the north had. When Gryan returned, Westfall had almost no defenders. Royal neglect and political paralysis in the House of Nobles kept Stormwind from sending garrison troops. So Gryan formed the People's Militia at Sentinel Hill, gathering local farmers, sentries, and traveling mercenaries into a volunteer defense corps.\n\nThe militia holds a precarious line against the Defias Brotherhood, riverpaw gnolls, and hostile mechanoids. Even when nearby Lakeshire pleads for aid, Gryan cannot spare reinforcements.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_gryan-stoutmantle-c64688321b4def184a66/1-0000.mp3", duration = 68.4669388, start = 0},
+    {file = "Audio/Transport/full_npc_gryan-stoutmantle-bd8b53ab2dc48e4101f4/1-0000.mp3", duration = 70.4, start = 0},
   },
 }
 P.transport["npc:guard-thomas"] = {
-  hash = "67c531",
-  fullHash = "67c531",
-  text = "Guard Thomas. At the bridge west of Eastvale Logging Camp, Guard Thomas watches Elwynn’s eastern frontier. The Stormwind soldier guards local workers from wild predators and murlocs. At the stone bridge over the river toward Eastvale Logging Camp, Guard Thomas holds a quiet but exposed post. The woods around him shelter aggressive creatures, and the logging workers depend on the Stormwind guard for protection. With the army stretched thin, Thomas must rely on travelers to help keep order and carry messages to central command.",
+  hash = "93d9d7",
+  fullHash = "93d9d7",
+  text = "Guard Thomas. At the bridge west of Eastvale Logging Camp, Guard Thomas watches Elwynn’s eastern frontier. He guards local workers from wild predators and murlocs for the Stormwind Army. Guard Thomas holds a quiet but exposed post at the stone bridge over the river toward Eastvale Logging Camp. Aggressive creatures shelter in the woods nearby, and the logging workers depend on Stormwind’s guard for protection. With the army stretched thin, Thomas relies on travelers to help keep order and carry messages to central command.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_guard-thomas-eecb49513f309b52eee1/1-0000.mp3", duration = 29.9363265, start = 0},
+    {file = "Audio/Transport/full_npc_guard-thomas-4c982e51749aed95a632/1-0000.mp3", duration = 31.3991837, start = 0},
   },
 }
 P.transport["npc:gwennyth-bly-leggonde"] = {
@@ -331,10 +331,10 @@ P.transport["npc:high-executor-darthalia"] = {
 }
 P.transport["npc:high-priestess-laurena"] = {
   hash = "7a8e40",
-  fullHash = "c88bb1",
-  text = "High Priestess Laurena. At Stormwind's Cathedral of Light, High Priestess Laurena trains human priests in devotion and arcane wards. High Priestess Laurena holds a senior post in the Church of the Holy Light. She serves in Stormwind City's Cathedral of Light, the heart of the faith, where Archbishop Benedictus leads the Church. Behind the central altar in the cathedral sanctuary, High Priestess Laurena mentors aspiring priests. Acolytes who show dedication and piety are sent to her for deeper study. She teaches sacred boons such as Desperate Prayer and defensive spells that turn enemy arcane magic against its wielders. When her students have learned all she can teach, she sends them to other master priests across the Alliance.",
+  fullHash = "7e2ff7",
+  text = "High Priestess Laurena. At Stormwind's Cathedral of Light, High Priestess Laurena trains human priests in devotion and arcane wards. High Priestess Laurena holds senior rank in the Church of the Holy Light. She serves in Stormwind City's Cathedral of Light, the heart of the faith. Archbishop Benedictus leads the Church. Behind the central altar in the cathedral sanctuary, High Priestess Laurena mentors aspiring priests. Acolytes who show dedication and piety come to her for deeper study. She teaches sacred boons such as Desperate Prayer and defensive spells that turn enemy arcane magic against its wielders. When her students have learned all she can teach, she sends them to other master priests across the Alliance.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_high-priestess-laurena-020c654f9561afaf1d7f/1-0000.mp3", duration = 40.2546939, start = 0},
+    {file = "Audio/Transport/full_npc_high-priestess-laurena-5c2c05c250d6702ff822/1-0000.mp3", duration = 43.1281633, start = 0},
   },
 }
 P.transport["npc:illiyana"] = {
@@ -371,10 +371,10 @@ P.transport["npc:je-neu-sancrea"] = {
 }
 P.transport["npc:jern-hornhelm"] = {
   hash = "cefa88",
-  fullHash = "f8bd6d",
-  text = "Jern Hornhelm. In Thelsamar, Jern Hornhelm keeps the Explorers' League's work moving. The dwarven miner coordinates supplies and messages between the town, Ironforge, and the dig site deeper in Loch Modan. Travelers carry mining supplies and progress reports across the region for him. Jern Hornhelm works from Thelsamar to keep supplies moving to Loch Modan's dig sites. Dwarven scholars and field teams search the wilderness for their ancestral past, and they need steady deliveries of resources and tools. Jern also makes sure communications reach the active digs. Jern Hornhelm links field archaeologists with the Explorers' League leadership in Ironforge's Hall of Explorers. Ironband's Excavation depends on blasting powder, equipment, and regular dispatches to keep work moving. Jern asks trusted travelers to carry supplies and reports along the trogg-infested roads so the dig can continue.",
+  fullHash = "696607",
+  text = "Jern Hornhelm. In Thelsamar, Jern Hornhelm keeps the Explorers' League supplied and its messages moving. He coordinates deliveries between the town, Ironforge, and Loch Modan's deeper dig site, while travelers carry supplies and progress reports across the region. From Thelsamar, Jern Hornhelm sends supplies to Loch Modan's dig sites. Dwarven scholars and field teams search the wilderness for their ancestral past, and their work depends on steady deliveries of resources and tools. Jern also makes sure messages reach the active digs. Jern Hornhelm connects field archaeologists with the Explorers' League leadership in Ironforge's Hall of Explorers. Ironband's Excavation needs blasting powder, equipment, and regular dispatches to keep its work moving. Jern asks trusted travelers to carry supplies and reports along trogg-infested roads, so the dig can continue.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_jern-hornhelm-e2894290f8de5b7f07a2/1-0000.mp3", duration = 53.76, start = 0},
+    {file = "Audio/Transport/full_npc_jern-hornhelm-b756aeecab70e735e404/1-0000.mp3", duration = 53.0285714, start = 0},
   },
 }
 P.transport["npc:jitters"] = {
@@ -395,10 +395,10 @@ P.transport["npc:jonathan-carevin"] = {
 }
 P.transport["npc:jordan-stilwell"] = {
   hash = "d0b3a0",
-  fullHash = "5c3d76",
-  text = "Jordan Stilwell. Outside Ironforge’s gates in Dun Morogh, Jordan Stilwell works at his forge. He was meant for the Church of the Holy Light, but followed his father into smithing and learned from Bailor Stonehand. His craft serves paladins across the Alliance, and he forged Verigan’s Fist in honor of his old friend, Bosch Verigan. Jordan Stilwell was expected to take holy vows and become a paladin in the Church of the Holy Light. Instead, he followed his father’s path as a smith and took up his father’s enchanted hammer. The dwarven blacksmith Bailor Stonehand helped him refine his craft. Jordan remains deeply faithful to the Light, and puts his skill to work outfitting champions who fight in its name. Jordan once worked as a smith at the keep of Baron Silverlaine in Silverpine Forest. When Archmage Arugal unleashed feral worgen upon the fortress and turned it into Shadowfang Keep, Jordan escaped the bloodshed. He left his forge and former home behind, and eventually found refuge among the dwarves of Dun Morogh.",
+  fullHash = "b0a7c4",
+  text = "Jordan Stilwell. Outside Ironforge’s gates, Jordan Stilwell tends his forge in Dun Morogh. Once expected to join the Church of the Holy Light, he followed his father into smithing and learned from Bailor Stonehand. Now his craft arms paladins across the Alliance. Jordan Stilwell was expected to take holy vows and become a paladin in the Church of the Holy Light. Instead, he followed his father into smithing and took up his father’s enchanted hammer. Bailor Stonehand, a dwarven blacksmith, helped him refine his craft. Jordan remains deeply faithful to the Light and puts his skill to work for champions who fight in its name. Jordan once worked as a smith at Baron Silverlaine’s keep in Silverpine Forest. Then Archmage Arugal unleashed feral worgen upon the fortress and made it Shadowfang Keep. Jordan escaped the bloodshed, leaving his forge and former home behind. In time, he found refuge among the dwarves of Dun Morogh.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_jordan-stilwell-5df7102ef51564402461/1-0000.mp3", duration = 60.8653061, start = 0},
+    {file = "Audio/Transport/full_npc_jordan-stilwell-a7c2b5de8fff1e260c25/1-0000.mp3", duration = 55.562449, start = 0},
   },
 }
 P.transport["npc:kaela-shadowspear"] = {
@@ -459,10 +459,10 @@ P.transport["npc:magistrate-solomon"] = {
 }
 P.transport["npc:magni-bronzebeard"] = {
   hash = "5cea49",
-  fullHash = "915735",
-  text = "Magni Bronzebeard. In Ironforge, Magni Bronzebeard leads his people through grief and political strain. Lord of Ironforge, Thane of the Bronzebeard clan, and ruler of Khaz Modan, he is a veteran of the Second War who champions dwarven archaeology across Azeroth. Magni Bronzebeard grew up as the eldest of three brothers, knowing the mountain's rule would one day fall to him. When the Horde invaded during the Second War, he held Ironforge behind its impenetrable gates. Once the siege broke, he pledged Khaz Modan to the Alliance of Lordaeron. In the peace that followed, Magni welcomed his gnomish allies after Gnomeregan fell, granting High Tinker Gelbin Mekkatorque and the refugees sanctuary beneath the mountain. Magni then sought to unite the fractured northern and southern kingdoms. He asked Mekkatorque to build the Deeprun Tram, an unprecedented route beneath the earth that connects Ironforge directly to Stormwind. Magni carries a deep sorrow beneath his regal bearing. During the Third War, word came from Northrend that his beloved younger brother, Muradin, had perished on Prince Arthas Menethil's expedition. Grief overwhelmed Magni, but he and his youngest brother, Brann, remained steadfast in their duty to the dwarven people. Magni still rules wisely, with that loss weighing upon him. Magni has turned dwarven society from traditional commercial mining toward the unearthing of ancient history. Strange titan relics found deep beneath the earth inspired him to co-found the Explorers' League with his surviving brother, Brann Bronzebeard. Dwarven dig sites now span the continents, from Dun Morogh to Kalimdor, as the League seeks the truth of the dwarves' fabled origins. Peace at home remains fragile. Magni's daughter, Princess Moira, has gone missing, believed kidnapped by the hated Dark Iron clan.",
+  fullHash = "af70df",
+  text = "Magni Bronzebeard. In Ironforge, Magni Bronzebeard bears his people's grief and political strain. Lord of Ironforge, Thane of the Bronzebeard clan, and ruler of Khaz Modan, he is a veteran of the Second War who champions dwarven archaeology across Azeroth. Magni Bronzebeard grew up the eldest of three brothers, knowing the mountain would one day be his to rule. When the Horde invaded during the Second War, he held Ironforge behind its impenetrable gates. Once the siege broke, he pledged Khaz Modan to the Alliance of Lordaeron. In the peace that followed, Magni welcomed his gnomish allies after Gnomeregan fell. He gave High Tinker Gelbin Mekkatorque and the refugees sanctuary beneath the mountain.\n\nMagni then sought to unite the fractured northern and southern kingdoms. He asked Mekkatorque to build the Deeprun Tram, an unprecedented route beneath the earth that connects Ironforge directly to Stormwind. Magni carries deep sorrow beneath his regal bearing. During the Third War, word came from Northrend that his beloved younger brother, Muradin, had perished on Prince Arthas Menethil's expedition. Grief overwhelmed Magni, but he and his youngest brother, Brann, remained steadfast in their duty to the dwarven people. Magni still rules wisely, with that loss weighing upon him. Magni has turned dwarven society from commercial mining toward the unearthing of ancient history. Strange titan relics found deep beneath the earth inspired him to found the explorers' league with his surviving brother, Brann Bronzebeard. Dwarven dig sites now span the continents, from Dun Morogh to Kalimdor, as the League seeks the truth of the dwarves' fabled origins.\n\nPeace at home remains fragile. Magni's daughter, Princess Moira, has gone missing, believed kidnapped by the hated Dark Iron clan.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_magni-bronzebeard-8ff0b402fb481149b6ff/1-0000.mp3", duration = 107.102041, start = 0},
+    {file = "Audio/Transport/full_npc_magni-bronzebeard-60f7ec879f9139e332cd/1-0000.mp3", duration = 108.355918, start = 0},
   },
 }
 P.transport["npc:makaba-flathoof"] = {
@@ -483,10 +483,10 @@ P.transport["npc:malfurion-stormrage"] = {
 }
 P.transport["npc:marshal-dughan"] = {
   hash = "4f65b1",
-  fullHash = "9d8ed0",
-  text = "Marshal Dughan. Goldshire's marshal faces threats on every road and mine. Marshal Dughan commands the Stormwind Army detachment there, but kobolds, gnolls, and bandits stretch his small garrison. He depends on independent adventurers to help protect the town and nearby farms. Marshal Dughan directs Elwynn Forest's defense from Goldshire, outside the Lion's Pride Inn. Stormwind's soldiers are tied up elsewhere, while trouble grows in the woods. Kobolds crowd the mines, gnolls gather along the riverbanks, and highwaymen harass travelers on the King's Road. With too few footmen under his command, Dughan sends new recruits to reinforce outposts and scout dangerous ground. Kobolds overrun Fargodeep and Jasperlode Mines, threatening Goldshire's mineral supply. West of town, Hogger's Riverpaw gnolls press against Westbrook Garrison. Eastward, Guard Thomas reports vicious murlocs killing patrols along the river. Dughan has too few soldiers to meet each threat, so he needs capable mercenaries to help contain them.",
+  fullHash = "4bcf42",
+  text = "Marshal Dughan. In Goldshire, Marshal Dughan holds the roads against threats from the mines and woods. He commands Stormwind's small army detachment, stretched thin by kobolds, gnolls, and bandits. To guard the town and nearby farms, he depends on independent adventurers. From Goldshire, Marshal Dughan directs Elwynn Forest's defense outside the Lion's Pride Inn. Stormwind's soldiers are tied up elsewhere as trouble grows in the woods. Kobolds crowd the mines, gnolls gather along the riverbanks, and highwaymen harass travelers on the King's Road. With too few footmen, Dughan sends new recruits to reinforce outposts and scout dangerous ground. Kobolds overrun Fargodeep and Jasperlode Mines, threatening Goldshire's mineral supply. West of town, Hogger's Riverpaw gnolls press against Westbrook Garrison. Eastward, Guard Thomas reports vicious murlocs killing patrols along the river. Dughan has too few soldiers to meet each threat, so he needs capable mercenaries to help contain them.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_marshal-dughan-19ad2d202160174c07b0/1-0000.mp3", duration = 59.5069388, start = 0},
+    {file = "Audio/Transport/full_npc_marshal-dughan-c8278268f44a85f16bbb/1-0000.mp3", duration = 61.1787755, start = 0},
   },
 }
 P.transport["npc:marshal-marris"] = {
@@ -499,18 +499,18 @@ P.transport["npc:marshal-marris"] = {
 }
 P.transport["npc:marshal-mcbride"] = {
   hash = "25c67b",
-  fullHash = "0ca27b",
-  text = "Marshal McBride. At Northshire Abbey, Marshal McBride commands Stormwind's garrison and defends the valley. Kobolds threaten its farms and mines, so he directs new recruits against them. Marshal McBride commands Stormwind's garrison outside Northshire Abbey. The abbey is a place of faith and learning, while unrest across the kingdom has left military garrisons short of soldiers. With only a handful of sworn guards, McBride must keep the valley peaceful and protect its food and resources. Green recruits arrive seeking training from the abbey's masters, and he must put them to work. Kobolds have grown more aggressive around Northshire. Once a nuisance, they have spread through the woods and seized Echo Ridge Mine, an important local resource. Short of regular soldiers, McBride calls on paladins, warriors, and other novices to drive back the tunneling kobolds and learn how far the infestation reaches before the valley is cut off.",
+  fullHash = "3f62df",
+  text = "Marshal McBride. At Northshire Abbey, Marshal Douglas McBride turns to new recruits as kobolds threaten the valley's farms and mines. He commands Stormwind's garrison there, the army's authority in Northshire. Marshal McBride has only a handful of sworn guards to keep the valley peaceful and protect its food and resources. Unrest across the kingdom has left military garrisons short of soldiers. Green recruits arrive seeking training under the abbey's masters, so McBride puts them to work defending the valley. Kobolds grow more aggressive around Northshire. They spread through the woods and seize Echo Ridge Mine, an important local resource. With regular soldiers scarce, McBride calls on paladins, warriors, and other novices to drive back the tunneling kobolds. He needs them to learn how far the infestation reaches before the valley is cut off.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_marshal-mcbride-e10155aacee554636da6/1-0000.mp3", duration = 54.0995918, start = 0},
+    {file = "Audio/Transport/full_npc_marshal-mcbride-aa2a1828b5c43bb57c2d/1-0000.mp3", duration = 51.3828571, start = 0},
   },
 }
 P.transport["npc:mathias-shaw"] = {
   hash = "43d149",
-  fullHash = "6ea39e",
-  text = "Mathias Shaw. In Old Town, Mathias Shaw directs SI:7, Stormwind's covert intelligence agency. From the shadows, he sends spies and scouts to guard the realm against conspiracies within and horrors beyond. Mathias Shaw leads Stormwind's spies and assassins from SI:7's hidden headquarters behind the barracks in Old Town. His covert network reaches across the Eastern Kingdoms and beyond. Loyal to the House of Wrynn, Shaw weighs every threat with care. He trusts unseen daggers and stolen messages to defend Stormwind as much as armor and palace guards. Mathias Shaw watches threats beyond the unrest in Westfall and Elwynn. Reports of strange Forsaken operations in the Eastern Plaguelands led him to send five of his finest agents to investigate. Only one came back alive, babbling about \"Nathanos\" and a \"Blightcaller\" before dying in his sleep. Shaw now depends on trusted champions to go where his scouts vanish and uncover the dangers gathering at the kingdom's borders.",
+  fullHash = "1d3977",
+  text = "Mathias Shaw. In Old Town, Mathias Shaw directs SI:7, Stormwind’s covert intelligence agency. He sends spies and scouts from the shadows to guard the realm against conspiracies within and horrors beyond. Mathias Shaw leads Stormwind’s spies and assassins from SI:7’s hidden headquarters behind the barracks in Old Town. His covert network reaches across the Eastern Kingdoms and beyond. Loyal to the House of Wrynn, Shaw weighs each threat with care. Unseen daggers and stolen messages defend Stormwind as surely as armor and palace guards. Mathias Shaw watches threats beyond the unrest in Westfall and Elwynn. Reports of strange Forsaken operations in the Eastern Plaguelands led him to send five of his finest agents to investigate. Only one returned alive, babbling about “Nathanos” and a “Blightcaller” before dying in his sleep days later. Shaw now depends on trusted champions to go where his scouts vanish and uncover the dangers gathering at the kingdom’s borders.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_mathias-shaw-70f110584c3977081f61/1-0000.mp3", duration = 55.7453061, start = 0},
+    {file = "Audio/Transport/full_npc_mathias-shaw-30ef571f998f31058784/1-0000.mp3", duration = 59.2718367, start = 0},
   },
 }
 P.transport["npc:mathrengyl-bearwalker"] = {
@@ -547,10 +547,10 @@ P.transport["npc:orgrim-doomhammer"] = {
 }
 P.transport["npc:ozzie-togglevolt"] = {
   hash = "f63baa",
-  fullHash = "cbc1c8",
-  text = "Ozzie Togglevolt. In Kharanos, Ozzie Togglevolt works to find a cure for the leper gnomes of Gnomeregan. He and Razzle Sprysprocket continue their research among the snowy hills of Dun Morogh. Ozzie Togglevolt was deep inside Gnomeregan when catastrophe struck. As toxic fallout filled the corridors to stem the trogg invasion, he stood beside Gnoarn. A sudden radioactive discharge hit Gnoarn, changing him forever before Ozzie's eyes. Ozzie escaped to the surface and reached Dun Morogh alive, but the disaster stayed with him. In Kharanos, Ozzie spends his days tinkering with Razzle Sprysprocket. Their work is personal: they seek a way to reverse the mutagenic fallout from their lost home and cure the suffering leper gnomes.",
+  fullHash = "b2ac14",
+  text = "Ozzie Togglevolt. In Kharanos, Ozzie Togglevolt works with Razzle Sprysprocket to find a cure for the leper gnomes of Gnomeregan. Their research continues among the snowy hills of Dun Morogh. Ozzie Togglevolt was deep inside Gnomeregan when catastrophe struck. Toxic fallout filled the corridors to stem the trogg invasion. Ozzie stood beside Gnoarn when a sudden radioactive discharge changed Gnoarn forever. Ozzie escaped to the surface and reached Dun Morogh alive, but the disaster stayed with him. In Kharanos, Ozzie spends his days tinkering with Razzle Sprysprocket. Their work is personal. They seek a way to reverse the mutagenic fallout from their lost home and cure the suffering leper gnomes.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_ozzie-togglevolt-2a36d499b035716cd9e8/1-0000.mp3", duration = 43.284898, start = 0},
+    {file = "Audio/Transport/full_npc_ozzie-togglevolt-4d7c99534035a0a96169/1-0000.mp3", duration = 43.3371429, start = 0},
   },
 }
 P.transport["npc:pelturas-whitemoon"] = {
@@ -579,10 +579,10 @@ P.transport["npc:raene-wolfrunner"] = {
 }
 P.transport["npc:rejold-barleybrew"] = {
   hash = "75d011",
-  fullHash = "152ab3",
-  text = "Rejold Barleybrew. At Brewnall Village, Rejold Barleybrew works to perfect his mountain spirits. He gathers ingredients from across western Dun Morogh and tests his brewing recipes. In Dun Morogh, brewing is a craft dwarves take seriously. Rejold works from Brewnall Village, near the frozen lake of the Iceflow River. He keeps refining his blends, seeking rare hops, mountain minerals, and pristine ice water. He wants to brew stouts hearty enough to warm even the stoutest dwarven warriors. Rejold seeks the right flavors for drinks such as Shimmer Stout. He sends travelers across Dun Morogh to gather ingredients, trades favors with the siege pilots of Steelgrill's Depot, and arranges deliveries to thirsty patrons. His work keeps hearty ale flowing along the cold, trogg-plagued roads of Dun Morogh.",
+  fullHash = "72cd5a",
+  text = "Rejold Barleybrew. At Brewnall Village, Rejold Barleybrew keeps working toward the perfect mountain spirit. He gathers ingredients from western Dun Morogh and tests each recipe. Dwarves in Dun Morogh take brewing seriously. Rejold works in Brewnall Village, near the frozen lake of the Iceflow River. He keeps refining his blends with rare hops, mountain minerals, and pristine ice water. His aim is a stout hearty enough to warm even the stoutest dwarven warriors. Rejold seeks the right flavors for drinks such as Shimmer Stout. He sends travelers across Dun Morogh for ingredients and trades favors with the siege pilots of Steelgrill's Depot. He also arranges deliveries to thirsty patrons. So hearty ale keeps flowing along Dun Morogh's cold, trogg-plagued roads.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_rejold-barleybrew-510e0c04553f2c5410cf/1-0000.mp3", duration = 48.5616327, start = 0},
+    {file = "Audio/Transport/full_npc_rejold-barleybrew-bae60d1cb572818b345e/1-0000.mp3", duration = 48.5616327, start = 0},
   },
 }
 P.transport["npc:rethiel-the-greenwarden"] = {
@@ -611,10 +611,10 @@ P.transport["npc:senani-thunderheart"] = {
 }
 P.transport["npc:senir-whitebeard"] = {
   hash = "b6272c",
-  fullHash = "a5a533",
-  text = "Senir Whitebeard. Outside the Thunderbrew Distillery in Kharanos, Senir Whitebeard watches Dun Morogh's growing threats. The Senate of Ironforge sent him to assess the Frostmane troll offensive and report their movements to the dwarven leadership. Senir Whitebeard carries the Senate of Ironforge's authority into Kharanos. The city's halls are watching the growing unrest in Dun Morogh, and Senir links the scouts on its snowy frontier with the lawmakers behind Ironforge's stone gates. Senir Whitebeard tracks the Frostmane trolls, whose aggression is growing. Displaced and desperate in the frozen crags, they are pressing close to dwarven settlements and roads. Senir gathers reports on their positions, especially around their stronghold, for Ironforge's military commanders. He gathers intelligence rather than charging into battle.",
+  fullHash = "a18908",
+  text = "Senir Whitebeard. Outside the Thunderbrew Distillery in Kharanos, Senir Whitebeard watches the threats growing across Dun Morogh. The Senate of Ironforge sent him to assess the Frostmane troll offensive and report their movements to the dwarven leadership. Senir Whitebeard brings the Senate of Ironforge's authority to Kharanos. The city's halls watch as unrest grows across Dun Morogh. Senir carries news from scouts on the snowy frontier to the lawmakers behind Ironforge's stone gates. The Frostmane trolls grow more aggressive, pressing close to dwarven settlements and roads from the frozen crags where they are displaced and desperate. Senir gathers reports on their positions, especially around their stronghold, for Ironforge's military commanders. His work is to gather intelligence, not charge into battle.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_senir-whitebeard-ea2a4b4f55f29aabc9aa/1-0000.mp3", duration = 46.1061224, start = 0},
+    {file = "Audio/Transport/full_npc_senir-whitebeard-1ce610137ed344d0a3bc/1-0000.mp3", duration = 46.602449, start = 0},
   },
 }
 P.transport["npc:shael-dryn"] = {
@@ -627,18 +627,18 @@ P.transport["npc:shael-dryn"] = {
 }
 P.transport["npc:sprite-jumpsprocket"] = {
   hash = "e8f25f",
-  fullHash = "8864bf",
-  text = "Sprite Jumpsprocket. In Stormwind's Dwarven District, Sprite Jumpsprocket works among gnomish and dwarven artisans. Like many gnomes who sought refuge after Gnomeregan fell, she pursues engineering alongside fellow tinkers. Sprite Jumpsprocket works as an apprentice engineer in Stormwind's Dwarven District, where gnomes and dwarves forge metal and design intricate devices side by side. She has made her place in the kingdom's capital, where apprentice tinkers hone their craft under experienced masters. Their inventive minds help maintain the Alliance's everyday mechanisms and marvels. After Gnomeregan fell, displaced gnomes spread across Alliance lands, bringing their skill in tinkering, chemistry, and mechanics. In Stormwind, they found a welcoming sanctuary in the Dwarven District, with its blast furnaces and workbenches. Sprite Jumpsprocket reflects their resolve to master engineering despite the hardships her kin have faced.",
+  fullHash = "db0599",
+  text = "Sprite Jumpsprocket. In Stormwind's Dwarven District, Sprite Jumpsprocket works beside gnomish and dwarven artisans. Like many gnomes who sought refuge after Gnomeregan fell, she learns engineering among fellow tinkers. In Stormwind's Dwarven District, Sprite Jumpsprocket trains as an apprentice engineer. Gnomes and dwarves work side by side there, forging metal and shaping intricate devices. The capital gives apprentice tinkers room to learn from experienced masters. Their work keeps the Alliance's everyday mechanisms and marvels in good order. After Gnomeregan fell, displaced gnomes carried their skills in tinkering, chemistry, and mechanics across Alliance lands. In Stormwind, the Dwarven District offered them a welcome refuge, with blast furnaces and workbenches at hand. Sprite Jumpsprocket shares their resolve to master engineering despite the hardships her kin have faced.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_sprite-jumpsprocket-5eef9ab5849d15701cd1/1-0000.mp3", duration = 53.76, start = 0},
+    {file = "Audio/Transport/full_npc_sprite-jumpsprocket-63c49bbba9c8a19e045d/1-0000.mp3", duration = 52.5322449, start = 0},
   },
 }
 P.transport["npc:sten-stoutarm"] = {
   hash = "b56036",
-  fullHash = "34715e",
-  text = "Sten Stoutarm. Outside Anvilmar, Sten Stoutarm keeps recruits equipped and local messages moving through Coldridge Valley. He helps young mountaineers stay warm, fed, and informed in the harsh mountain conditions. Outside Anvilmar, Sten Stoutarm meets new dwarven and gnomish recruits near the tavern. Coldridge Valley is cut off by winter blizzards and faces dangers nearby. Sten provides green apprentices with sturdy gear so they can face the snow prepared. Sten gathers wolf hides to make winter clothing and handles messages in Coldridge Valley. He carries dispatches through dangerous Coldridge Pass and delivers official runes, memoranda, and orders to class trainers across the basin. Troggs block the tunnels, but young warriors, priests, and mages still need their instructions.",
+  fullHash = "264dc1",
+  text = "Sten Stoutarm. Outside Anvilmar, Sten Stoutarm keeps recruits equipped and messages moving through Coldridge Valley. Winter blizzards cut off the valley, and dangers nearby make warmth, food, and clear instructions vital. Near the tavern outside Anvilmar, Sten Stoutarm meets new dwarven and gnomish recruits. Winter blizzards cut off Coldridge Valley, and dangers lie close at hand. So Sten gives green apprentices sturdy gear to face the snow prepared. Sten gathers wolf hides for winter clothing and carries messages through Coldridge Valley. He takes dispatches through dangerous Coldridge Pass, then brings official runes, memoranda, and orders to class trainers across the basin. Troggs block the tunnels, yet young warriors, priests, and mages still need their instructions.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_sten-stoutarm-c0d2c62cf29b123810d2/1-0000.mp3", duration = 44.9828571, start = 0},
+    {file = "Audio/Transport/full_npc_sten-stoutarm-9ae2e57a3959ff90bd0a/1-0000.mp3", duration = 48.2220408, start = 0},
   },
 }
 P.transport["npc:sven-yorgen"] = {
@@ -675,10 +675,10 @@ P.transport["npc:terenthis"] = {
 }
 P.transport["npc:theocritus"] = {
   hash = "9eca2f",
-  fullHash = "ef69e3",
-  text = "Theocritus. At the Tower of Azora in eastern Elwynn, Theocritus watches over the kingdom and opposes Morganth. The eccentric human archmage lives apart from others, surrounded by servants and magical scrying devices. Archmage Theocritus keeps his own stronghold in the kingdom of Stormwind. He lives in the Tower of Azora, near the eastern road to Redridge. Eccentric in his habits, he enjoys a comfortable life with a large household staff, including gnomish attendants and his clothier, Morley Eberlein. He keeps apart from the everyday concerns of local villagers, yet his magic guards eastern Elwynn. The fallen mage Morganth is Theocritus's greatest concern. Morganth works from the Tower of Ilgalar in the nearby Redridge Mountains, and Theocritus sees him as both a personal enemy and a danger to Stormwind. For months, Theocritus has used arcane research to undermine him. With scrying devices such as the Eye of Azora, he watches Morganth's actions and probes his thoughts. He also studies the magical pendants worn by Morganth's Shadowhide gnolls, hoping to turn their master's creations against him with an arcane pulse that can immobilize the entire pack.",
+  fullHash = "ca5adf",
+  text = "Theocritus. At the Tower of Azora in eastern Elwynn, Theocritus watches over Stormwind's kingdom and opposes Morganth. The eccentric human archmage lives independently, apart from everyday concerns, with servants and magical scrying devices. Archmage Theocritus keeps his own stronghold in Stormwind's kingdom. He lives in the Tower of Azora, near the eastern road to Redridge. Eccentric in his habits, he enjoys a comfortable life with a large household staff. Among them are gnomish attendants and his clothier, Morley Eberlein. Though apart from local villagers' everyday concerns, his magic guards eastern Elwynn. The fallen mage Morganth is Theocritus's greatest concern. Morganth works from the Tower of Ilgalar in the nearby Redridge Mountains. Theocritus sees him as both a personal enemy and a danger to Stormwind. For months, arcane research has helped Theocritus undermine him.\n\nWith scrying devices such as the Eye of Azora, he watches Morganth's actions and probes his thoughts. He also studies the magical pendants worn by Morganth's Shadowhide gnolls, hoping an arcane pulse can turn their master's creations against him and immobilize the entire pack.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_theocritus-a0bf49dd32ba20bc88f0/1-0000.mp3", duration = 69.0416327, start = 0},
+    {file = "Audio/Transport/full_npc_theocritus-b72582e7910f09a8cd28/1-0000.mp3", duration = 72.3591837, start = 0},
   },
 }
 P.transport["npc:thyn-tel-bladeweaver"] = {
@@ -698,11 +698,11 @@ P.transport["npc:tirion-fordring"] = {
   },
 }
 P.transport["npc:tiza-battleforge"] = {
-  hash = "6cd5dc",
-  fullHash = "6cd5dc",
-  text = "Tiza Battleforge. In Ironforge, Tiza Battleforge guides young dwarven paladins in the Hall of Mysteries. She teaches that the Light calls for virtue, charity, and self-sacrifice, and tests initiates before they may wield its gift of resurrection. Tiza Battleforge guides paladins in Ironforge's Hall of Mysteries. Across the Alliance, tutors send initiates to her for deeper spiritual study. Brandur Ironhammer sends them from Ironforge, Azar Stronghammer from Dun Morogh, and Lord Grayson Shadowbreaker from Stormwind. Tiza teaches that the Holy Light asks more than martial skill. Its servants must offer humble service, show compassion, and stand firm against the Scourge and other threats.",
+  hash = "0bb70b",
+  fullHash = "0bb70b",
+  text = "Tiza Battleforge. In Ironforge, Tiza Battleforge guides young paladins through the ways of the Holy Light. She teaches virtue, charity, and self-sacrifice, then tests initiates before they may wield its gift of resurrection. Tiza Battleforge guides paladins in Ironforge's Hall of Mysteries. Tutors across the Alliance send initiates to her for deeper study of the Light. Brandur Ironhammer sends them from Ironforge, Azar Stronghammer from Dun Morogh, and Lord Grayson Shadowbreaker from Stormwind.\n\nTiza teaches that the Holy Light asks more than skill in battle. Its servants must offer humble service, show compassion, and stand firm against the Scourge and other threats.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_tiza-battleforge-cc1318ee1583c8013133/1-0000.mp3", duration = 40.9861224, start = 0},
+    {file = "Audio/Transport/full_npc_tiza-battleforge-9b71535eb5407c39d4ce/1-0000.mp3", duration = 41.5085714, start = 0},
   },
 }
 P.transport["npc:tyrande-whisperwind"] = {
@@ -739,10 +739,10 @@ P.transport["npc:warden-thelwater"] = {
 }
 P.transport["npc:william-pestle"] = {
   hash = "78ce20",
-  fullHash = "e3f8f0",
-  text = "William Pestle. At the Lion's Pride Inn in Goldshire, William Pestle gathers supplies for Stormwind's apothecary. He and his brother Morgan run the shop in the Trade District, and William hires travelers to find candles, kelp, and herbs. William works from Goldshire's Lion's Pride Inn while his brother Morgan Pestle tends the counter at Pestle's Apothecary in Stormwind City's Trade District. From Elwynn Forest, William works with local gatherers to secure raw materials the city shops need. He sends regular shipments to the capital, where Stormwind's citizens rely on a steady supply of restorative salves, draughts, and powders. William often needs more than common garden herbs for his craft. He hires newcomers to gather wax candles carried by Elwynn's kobolds and crystal kelp from the murlocs of Crystal Lake, just east of Goldshire. The ingredients may seem strange to those unfamiliar with alchemy, but William believes they have potent virtues in a mixture.",
+  fullHash = "d7f394",
+  text = "William Pestle. At the Lion's Pride Inn in Goldshire, William Pestle gathers supplies for Stormwind's apothecary. He and his brother Morgan run the shop in the Trade District. William hires travelers to find candles, kelp, and herbs. William works from the Lion's Pride Inn in Goldshire. His brother Morgan Pestle tends the counter at Pestle's Apothecary in Stormwind City's Trade District. In Elwynn Forest, William works with local gatherers to secure raw materials for the city's shops. He sends regular shipments to Stormwind, where citizens rely on restorative salves, draughts, and powders. Common garden herbs do not always meet William's needs. He hires newcomers to gather wax candles carried by Elwynn's kobolds and crystal kelp from the murlocs of Crystal Lake, just east of Goldshire. The ingredients may seem strange to those unfamiliar with alchemy. William believes they have potent virtues in a mixture.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_william-pestle-8915ed43ae59dc16886f/1-0000.mp3", duration = 55.1967347, start = 0},
+    {file = "Audio/Transport/full_npc_william-pestle-68b73caca55bc4a67367/1-0000.mp3", duration = 52.4016327, start = 0},
   },
 }
 P.transport["npc:wizbang-cranktoggle"] = {
@@ -771,18 +771,18 @@ P.transport["subzone:aldrassil"] = {
 }
 P.transport["subzone:alexston-farmstead"] = {
   hash = "32969a",
-  fullHash = "c69d72",
-  text = "Alexston Farmstead. At Alexston Farmstead, wild Harvest Watchers prowl the ruined fields. Baros Alexston grew up here before becoming Stormwind's city architect. Alexston Farmstead lies amid Westfall's dry plains, abandoned like the neighboring estates. Its caretakers fled when banditry spread across the countryside. Now the fields have grown wild, and the Harvest Watchers left to tend the crops attack anyone who comes near the barren farmhouse. Baros Alexston spent his youth working these fields before leaving to pursue masonry and construction. He became one of Stormwind's most prominent citizens, helping design parts of the rebuilt capital. Something from his early life remains among the ruins.",
+  fullHash = "9e4a62",
+  text = "Alexston Farmstead. Wild Harvest Watchers prowl the ruined fields at Alexston Farmstead. Baros Alexston grew up here before becoming Stormwind's city architect. You find Alexston Farmstead among Westfall's dry plains, abandoned like the neighboring estates. Its caretakers fled as banditry spread across the countryside. The fields have gone wild, and Harvest Watchers left to tend the crops now attack anyone near the barren farmhouse. Baros Alexston worked these fields in his youth, then left to pursue masonry and construction. He became one of Stormwind's most prominent citizens and helped design parts of the rebuilt capital. Something from his early life remains among the ruins.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_alexston-farmstead-22d23829a5bb0d56cbad/1-0000.mp3", duration = 40.3330612, start = 0},
+    {file = "Audio/Transport/full_subzone_alexston-farmstead-be9f534827c4d434b137/1-0000.mp3", duration = 40.7771429, start = 0},
   },
 }
 P.transport["subzone:algaz-station"] = {
-  hash = "94ac5c",
-  fullHash = "94ac5c",
-  text = "Algaz Station. At Algaz Station, Mountaineers guard the northern road from Loch Modan toward the Wetlands. The outpost lies south of Dun Algaz, where the pass leads through the mountains. At Algaz Station, dwarven Mountaineers watch the road north from Loch Modan. The post lies east of North Gate Pass and south of Dun Algaz, guarding the route between the kingdom of Ironforge and the northern lowlands. The road carries trade and troops through the mountain tunnels, but the hills bring danger from wandering beasts and troggs. Mountaineers keep the way open and offer weary travelers a place for respite, repairs, and martial support before they enter the pass.",
+  hash = "4b2fd6",
+  fullHash = "4b2fd6",
+  text = "Algaz Station. At Algaz Station, Mountaineers keep watch over the northern road from Loch Modan to the Wetlands. South of Dun Algaz, the outpost guards the mountain pass. Dwarven Mountaineers watch the road north from Loch Modan at Algaz Station. East of North Gate Pass and south of Dun Algaz, the post guards the route between Ironforge and the northern lowlands. Trade and troops travel through the mountain tunnels, though beasts and troggs threaten the hills. The Mountaineers keep the way open and give weary travelers a place to rest, make repairs, and find martial support before entering the pass.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_algaz-station-853f2388e6bc899304f1/1-0000.mp3", duration = 37.4334694, start = 0},
+    {file = "Audio/Transport/full_subzone_algaz-station-1bbb5d0fd61a94ef2ab9/1-0000.mp3", duration = 35.5265306, start = 0},
   },
 }
 P.transport["subzone:alterac-mountains"] = {
@@ -802,11 +802,11 @@ P.transport["subzone:alther-s-mill"] = {
   },
 }
 P.transport["subzone:amberstill-ranch"] = {
-  hash = "450073",
-  fullHash = "450073",
-  text = "Amberstill Ranch. At Amberstill Ranch, the family tends the mountain rams and guards them from hungry predators. The homestead lies north of Gol'Bolar Quarry, along the snowy road to Loch Modan. Amberstill Ranch raises mountain rams prized across Khaz Modan for their strength. The Amberstill family tends the stables and paddocks, training the sure-footed beasts for snowy passes and steep cliffs. The ranch supplies riding mounts and livestock, while the family fends off wendigos drawn to the flock.",
+  hash = "435d18",
+  fullHash = "435d18",
+  text = "Amberstill Ranch. North of Gol'Bolar Quarry, Amberstill Ranch stands along the snowy road to Loch Modan. The Amberstill family tends its mountain rams and guards them from hungry predators. Across Khaz Modan, Amberstill Ranch is known for its strong mountain rams. The Amberstill family tends the stables and paddocks, training the sure-footed beasts for snowy passes and steep cliffs. The ranch supplies riding mounts and livestock. Wendigos drawn to the flock threaten the herd, and the family must fend them off.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_amberstill-ranch-91d093d70145bef263f2/1-0000.mp3", duration = 28.0293878, start = 0},
+    {file = "Audio/Transport/full_subzone_amberstill-ranch-4ea815bec3494386c7c4/1-0000.mp3", duration = 30.5110204, start = 0},
   },
 }
 P.transport["subzone:ameth-aran"] = {
@@ -827,10 +827,10 @@ P.transport["subzone:angerfang-encampment"] = {
 }
 P.transport["subzone:anvilmar"] = {
   hash = "f07758",
-  fullHash = "a9d2e8",
-  text = "Anvilmar. In Anvilmar, young Bronzebeard dwarves and displaced gnomes gather to train and prepare for the road ahead. The fortified outpost stands in snowy Coldridge Valley, in Dun Morogh, around a great stone forge. At Anvilmar, a central forge burns within sturdy stone walls in the northern crags of Coldridge Valley. Class mentors and supply vendors are here, alongside veteran mountain mountaineers who drill recruits before they set out into the wider kingdom. Snowdrifts shelter the outpost, but Frostmane trolls and wild beasts prowl the frozen valley, keeping its defenders on guard. Anvilmar may take its name from High King Modimus Anvilmar, who ruled the dwarven clans before the War of the Three Hammers. The garrison keeps watch today, tending the forge fires as trolls and beasts roam the valley.",
+  fullHash = "8e3204",
+  text = "Anvilmar. In Coldridge Valley, Anvilmar gathers young Bronzebeard dwarves and displaced gnomes to train for the road ahead. Snowy Dun Morogh surrounds the fortified outpost and its great stone forge. A great forge burns inside Anvilmar's sturdy stone walls in the northern crags of Coldridge Valley. Class mentors and supply vendors serve the outpost, while veteran mountain mountaineers drill recruits before they set out across the kingdom. Snowdrifts shelter the walls, but Frostmane trolls and wild beasts prowl the frozen valley, keeping the defenders alert. Anvilmar may take its name from High King Modimus Anvilmar. He ruled the dwarven clans before the War of the Three Hammers. Today, the garrison keeps watch and tends the forge fires as trolls and beasts roam the valley.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_anvilmar-b9cb662b1bb27932b334/1-0000.mp3", duration = 45.5314286, start = 0},
+    {file = "Audio/Transport/full_subzone_anvilmar-2cdaa52a7f2b7b1fe0fc/1-0000.mp3", duration = 47.1510204, start = 0},
   },
 }
 P.transport["subzone:astranaar"] = {
@@ -954,19 +954,19 @@ P.transport["subzone:boulderslide-ravine"] = {
   },
 }
 P.transport["subzone:brackwell-pumpkin-patch"] = {
-  hash = "bb6e16",
-  fullHash = "bb6e16",
-  text = "Brackwell Pumpkin Patch. Defias brigands have taken over Brackwell Pumpkin Patch in southeastern Elwynn Forest. The farm once belonged to the Brackwell family, but now its cottage and fields serve as a hideout where conspirators meet and stolen mine gold is received. You find the Brackwell farm southeast of the Stonefield homestead, its fields no longer tended. The Brackwell family has vanished, driven away or worse as crime spread through the area. The Defias Brotherhood now occupies the sturdy cottage and overgrown fields. Brigands regroup here beyond the reach of Goldshire's patrols. Morgan the Collector and other prominent conspirators use the isolated farm to receive illicit gold taken from the forest's mines.",
+  hash = "91fd3a",
+  fullHash = "91fd3a",
+  text = "Brackwell Pumpkin Patch. Defias brigands hold Brackwell Pumpkin Patch in southeastern Elwynn Forest. The farm belonged to the Brackwell family, but now conspirators meet in its cottage and fields, where stolen mine gold arrives. Southeast of the Stonefield homestead, Brackwell's fields lie untended. The family vanished as crime spread through the area, driven away or worse. The Defias Brotherhood now occupies the sturdy cottage and overgrown fields. Beyond the reach of Goldshire's patrols, brigands regroup here. Morgan the Collector and other prominent conspirators use the isolated farm to receive illicit gold from the forest's mines.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_brackwell-pumpkin-patch-700887473172c12c4a33/1-0000.mp3", duration = 41.0383673, start = 0},
+    {file = "Audio/Transport/full_subzone_brackwell-pumpkin-patch-4924db5946f65a921691/1-0000.mp3", duration = 36.8587755, start = 0},
   },
 }
 P.transport["subzone:brewnall-village"] = {
-  hash = "668b47",
-  fullHash = "668b47",
-  text = "Brewnall Village. Brewnall Village sits in Chill Breeze Valley, near the entrance to Gnomeregan. The Barleybrew family keeps this dwarven camp for brewing experiments and defense against wild beasts. Brewnall Village shelters the Barleybrew clan in Chill Breeze Valley, among the gnomish reaches of western Dun Morogh. The dwarven brewers work to perfect old recipes and make the finest stout. Tents and brewing gear fill the camp, with no permanent stone buildings. The Barleybrews test new ales while wolves and bears threaten the valley. Wandering mountaineers help gather rare ingredients and keep the area safe.",
+  hash = "c3ef67",
+  fullHash = "c3ef67",
+  text = "Brewnall Village. In Chill Breeze Valley, the Barleybrew family works on new brews and guards against wild beasts. Their camp lies near the entrance to Gnomeregan. The Barleybrew clan brews in Chill Breeze Valley, among the gnomish reaches of western Dun Morogh. They work to perfect old recipes and make the finest stout. Tents and brewing gear fill the camp, with no permanent stone buildings. As the Barleybrews test new ales, wolves and bears threaten the valley. Wandering mountaineers gather rare ingredients and help keep the area safe.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_brewnall-village-f3d21a56c578ef73fd12/1-0000.mp3", duration = 35.2914286, start = 0},
+    {file = "Audio/Transport/full_subzone_brewnall-village-3ffeb289f8121a4a0a68/1-0000.mp3", duration = 32.1044898, start = 0},
   },
 }
 P.transport["subzone:brightwood-grove"] = {
@@ -995,26 +995,26 @@ P.transport["subzone:camp-aparaje"] = {
 }
 P.transport["subzone:canals-stormwind-city"] = {
   hash = "34363d",
-  fullHash = "76852a",
-  text = "Canals (Stormwind City). Stormwind's Canals wind between the city's districts, where walkers and anglers share the waterside paths. You can follow the Canals between Stormwind's districts, from the Trade District's markets to Old Town's aged alleys, the cathedral gardens, and the Dwarven District. Stone bridges, archways, and waterside walks pass the Gallina Winery, tailor shops, and quiet homes. Merchants and fishermen use the waterways, while the fortified Stockade entrance lies beneath the streets, holding Stormwind's most dangerous criminals and rebels. Stormwind's Canals were left in ruins when the Horde sacked the city during the First War. The waterways were restored as the capital rose again after the Second War. They are clean and repaired now, though rumors speak of a massive albino crocolisk beneath the docks.",
+  fullHash = "d9a214",
+  text = "Canals (Stormwind City). Walkers and anglers share the paths beside Stormwind's Canals, winding between the city's districts. You can follow the Canals from the Trade District's markets to Old Town's aged alleys, the cathedral gardens, and the Dwarven District. Stone bridges and archways cross the water, while paths pass the Gallina Winery, tailor shops, and quiet homes. Merchants and fishermen use these waterways. Beneath the streets, the fortified Stockade entrance holds Stormwind's most dangerous criminals and rebels. The Horde sacked Stormwind during the First War, leaving the Canals in ruins. The waterways were restored as the capital rose again after the Second War. Now they are clean and repaired, though rumors speak of a massive albino crocolisk beneath the docks.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_canals-stormwind-city-bee40c30f31205701e85/1-0000.mp3", duration = 48.1697959, start = 0},
+    {file = "Audio/Transport/full_subzone_canals-stormwind-city-fcc3fa85053a24c014e7/1-0000.mp3", duration = 46.7591837, start = 0},
   },
 }
 P.transport["subzone:cathedral-of-light"] = {
   hash = "39f342",
-  fullHash = "ab9608",
-  text = "Cathedral of Light. The Cathedral of Light rises over Cathedral Square as Stormwind's chief sanctuary of the Church of the Holy Light. It is the spiritual heart of the city and the center of human priesthood and the Knights of the Silver Hand. Archbishop Benedictus leads the faithful from the Cathedral of Light, rebuilt after the First War's devastation. Archbishop Alonsus Faol and Bishop Benedictus guided its restoration, and its towering form remains a beacon of resilience. After the Scourge took Lordaeron during the Third War, the Church moved its seat south to Stormwind. From this great hall, Benedictus gives spiritual guidance to the Alliance. The Cathedral of Light is both a place of prayer and healing and the main headquarters of the Knights of the Silver Hand in the southern kingdoms. Lord Grayson Shadowbreaker and Duthorian Rall train promising squires through the sacred trials of the Tome of Valor and the Tome of Divinity. High Priestess Laurena guides devout acolytes in the deepest tenets of the Light, preparing holy champions to defend the realm from the growing threats of the Defias Brotherhood and the Scourge.",
+  fullHash = "b7f0f8",
+  text = "Cathedral of Light. In Cathedral Square, the Cathedral of Light is the Church of the Holy Light’s chief sanctuary. It is Stormwind’s spiritual heart and the center of human priesthood and the Knights of the Silver Hand. Archbishop Benedictus leads the faithful from the Cathedral of Light, rebuilt after the First War’s devastation. Archbishop Alonsus Faol and Bishop Benedictus guided its restoration. Its towering form still recalls the city’s resilience.\n\nAfter the Scourge took Lordaeron during the Third War, the Church moved its seat south to Stormwind. From the great hall, Benedictus gives spiritual guidance to the Alliance. The Cathedral of Light is a place of prayer and healing. It is also the Knights of the Silver Hand’s main headquarters in the southern kingdoms.\n\nLord Grayson Shadowbreaker and Duthorian Rall train promising squires in the sacred trials of the Tome of Valor and the Tome of Divinity. High Priestess Laurena teaches acolytes the deepest tenets of the Light. She prepares holy champions to defend the realm from the growing threats of the Defias Brotherhood and the Scourge.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_cathedral-of-light-2f2d770c8e88f7f5156c/1-0000.mp3", duration = 62.7461224, start = 0},
+    {file = "Audio/Transport/full_subzone_cathedral-of-light-fd5fdefa26653eee7cc0/1-0000.mp3", duration = 65.6718367, start = 0},
   },
 }
 P.transport["subzone:cathedral-square"] = {
   hash = "3e5388",
-  fullHash = "71ff43",
-  text = "Cathedral Square. In Cathedral Square, faith and civic life meet beneath the Cathedral of Light. City Hall, the orphanage, and the Argent Dawn's Stormwind headquarters all stand here. Northwest of the Trade District and southeast of the Dwarven District, Cathedral Square draws the faithful from across the Kingdom of Stormwind. The Cathedral of Light rises above it, the foremost sanctuary of the Holy Light across Azeroth. Priests, paladins, and healers come to study, pray, and train. Citizens and pilgrims mingle with local schoolchildren, led by School Mistress Danna, in the square. Prayer shares the district with the work of the kingdom. City Hall and the Stormwind Orphanage anchor its civic life. Along the avenues, armorers and weaponsmiths serve holy crusaders, including Righteous Plates and Just Maces. The Argent Dawn keeps its Stormwind base here, where recruiters and representatives coordinate relief efforts and rally champions against the Scourge in the northern kingdoms.",
+  fullHash = "741fca",
+  text = "Cathedral Square. In Cathedral Square, faith and civic life gather beneath the Cathedral of Light. City Hall, the orphanage, and the Argent Dawn's Stormwind headquarters are here. Northwest of the Trade District and southeast of the Dwarven District, Cathedral Square draws the faithful from across the Kingdom of Stormwind. The Cathedral of Light rises above the square, foremost sanctuary of the Holy Light across Azeroth. Priests, paladins, and healers come to study, pray, and train. Citizens and pilgrims mingle with schoolchildren led by School Mistress Danna. Prayer shares Cathedral Square with the kingdom's work. City Hall and the Stormwind Orphanage anchor its civic life. Along the avenues, armorers and weaponsmiths serve holy crusaders, including Righteous Plates and Just Maces. The Argent Dawn keeps its Stormwind base here. Its recruiters and representatives coordinate relief and rally champions against the Scourge in the northern kingdoms.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_cathedral-square-150edd3340b94a1d68a2/1-0000.mp3", duration = 57.9918367, start = 0},
+    {file = "Audio/Transport/full_subzone_cathedral-square-9f86a8fdc5c231196f24/1-0000.mp3", duration = 57.1297959, start = 0},
   },
 }
 P.transport["subzone:cenarion-enclave"] = {
@@ -1026,11 +1026,11 @@ P.transport["subzone:cenarion-enclave"] = {
   },
 }
 P.transport["subzone:champions-hall"] = {
-  hash = "460f6e",
-  fullHash = "460f6e",
-  text = "Champions' Hall. In Stormwind's Old Town, Champions' Hall is guarded and reserved for Alliance officers. Its quartermasters supply weapons, armor, and regalia to veterans who have proven themselves in battle. Champions' Hall stands behind a guarded entrance in Old Town, reserved for the Alliance's distinguished combatants. Military commanders gather around maps of Azeroth to discuss ongoing campaigns, among arms and the insignias of rank. Only Alliance soldiers who have earned the rank of Knight or higher may enter. Inside, quartermasters supply battle-hardened soldiers with elite weapons, armor, and mounts made to aid them against the Horde in contested lands.",
+  hash = "306303",
+  fullHash = "306303",
+  text = "Champions' Hall. In Stormwind's guarded Champions' Hall, Alliance officers gather to discuss campaigns across Azeroth. Its quartermasters supply proven veterans with specialized weapons, plate, and regalia. Only Alliance soldiers who have earned the rank of Knight or higher in battle pass the guarded entrance to Champions' Hall. Commanders gather around maps of Azeroth to discuss ongoing campaigns, among arms and the insignias of rank. Quartermasters supply battle-hardened soldiers with elite weapons and armor to aid them against the Horde in contested lands, along with mounts.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_champions-hall-dc650687475ba25900d6/1-0000.mp3", duration = 38.8179592, start = 0},
+    {file = "Audio/Transport/full_subzone_champions-hall-e9bc7627bfca90722b4e/1-0000.mp3", duration = 33.8808163, start = 0},
   },
 }
 P.transport["subzone:charred-vale"] = {
@@ -1042,19 +1042,19 @@ P.transport["subzone:charred-vale"] = {
   },
 }
 P.transport["subzone:chill-breeze-valley"] = {
-  hash = "45009a",
-  fullHash = "45009a",
-  text = "Chill Breeze Valley. In western Dun Morogh, travelers cross Chill Breeze Valley between Kharanos and Gnomeregan. Refugees and young travelers follow its main trail, while dangerous beasts haunt its secluded reaches. Chill Breeze Valley cuts through the mountains of western Dun Morogh. The main trail runs east to west, carrying young dwarves and gnomes between Kharanos and the outskirts of Gnomeregan. A north-south branch leads into more dangerous ground. Blood stains the snow among mangled carcasses, and savage wendigos make their dens in deep ice caves. They prey on anyone who wanders into their hunting grounds.",
+  hash = "03cf29",
+  fullHash = "03cf29",
+  text = "Chill Breeze Valley. In western Dun Morogh, travelers cross Chill Breeze Valley between Kharanos and Gnomeregan. Refugees and young travelers follow the main trail, while dangerous beasts haunt the secluded reaches. A T-shaped trench cuts through the mountains, its main trail running east to west. Young dwarves and gnomes travel between Kharanos and the outskirts of Gnomeregan. The north-south branch leads into dangerous ground. Blood stains the snow, and mangled carcasses lie nearby.\n\nSavage wendigos make dens in deep ice caves. They prey on anyone who wanders into their hunting grounds.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_chill-breeze-valley-af923763bc8ca6c4f406/1-0000.mp3", duration = 36.0228571, start = 0},
+    {file = "Audio/Transport/full_subzone_chill-breeze-valley-98035f5fc187530587d1/1-0000.mp3", duration = 35.9967347, start = 0},
   },
 }
 P.transport["subzone:clean-zone"] = {
   hash = "eb67fa",
-  fullHash = "08e956",
-  text = "Clean Zone. Gnomes hold the Clean Zone as a refuge inside ruined Gnomeregan. Beyond the upper Hall of Gears, this fortified enclave remains safe amid the irradiated city, where medics, technicians, and Sparklematic machines support the defenders and salvage work. The Clean Zone remains untainted while most of Gnomeregan fell to Mekkatorque's disastrous venting of radioactive waste. It lies between the trogg-infested Dormitory below and the contested corridors of the Hall of Gears above. Gnome defenders, technicians, and field medics hold its barricades day and night. Alliance expeditions can regroup here, tend their wounds, and maintain their machinery. The Clean Zone also supports salvage from Gnomeregan's ruined capital. Gnomish engineers installed Sparklematic 5200 units to scrub and wash grime-encrusted relics brought up from the city's radioactive depths. Technicians and merchants such as Tink Sprocketwhistle process the reclaimed gears and baubles, outfit adventurers, and study the toxic fallout in the deep tunnels.",
+  fullHash = "e80253",
+  text = "Clean Zone. Gnomes hold the Clean Zone as a refuge inside ruined Gnomeregan. Beyond the upper Hall of Gears, this fortified enclave stays safe amid the irradiated city. Medics, technicians, and Sparklematic machines support its defenders and salvage work. The Clean Zone remains untainted while most of Gnomeregan fell to Mekkatorque's disastrous venting of radioactive waste. It lies between the trogg-infested Dormitory below and the contested Hall of Gears above. Gnome defenders, technicians, and field medics hold its barricades day and night. Alliance expeditions regroup here, tend wounds, and maintain their machinery. The Clean Zone also supports salvage from Gnomeregan's ruined capital. Gnomish engineers installed Sparklematic 5200 units to scrub and wash grime-encrusted relics brought up from the city's radioactive depths. Technicians and merchants such as Tink Sprocketwhistle process reclaimed gears and baubles, outfit adventurers, and study the toxic fallout in the deep tunnels.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_clean-zone-caed66c01031c0ead400/1-0000.mp3", duration = 62.72, start = 0},
+    {file = "Audio/Transport/full_subzone_clean-zone-369648db0b0de3ce4243/1-0000.mp3", duration = 59.2718367, start = 0},
   },
 }
 P.transport["subzone:cleft"] = {
@@ -1074,27 +1074,27 @@ P.transport["subzone:cliffspring-falls"] = {
   },
 }
 P.transport["subzone:coldridge-pass"] = {
-  hash = "1b37c1",
-  fullHash = "1b37c1",
-  text = "Coldridge Pass. Troggs now bar the road through Coldridge Pass, the way out of Coldridge Valley. Coldridge Pass carries recruits from Coldridge Valley toward Kharanos. The tunnel cuts through Dun Morogh’s southern mountain ridge, linking the sheltered training grounds to the wider kingdom. Troggs have overrun the passage and threaten anyone crossing between the valley and the rest of Dun Morogh.",
+  hash = "1e03b4",
+  fullHash = "1e03b4",
+  text = "Coldridge Pass. Troggs now bar the road through Coldridge Pass, the way out of Coldridge Valley. Recruits leave Coldridge Valley through Coldridge Pass and travel toward Kharanos. The tunnel cuts through Dun Morogh’s southern mountain ridge, carrying them from sheltered training grounds into the wider kingdom. Troggs have overrun the passage, threatening anyone who crosses between the valley and the rest of Dun Morogh.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_coldridge-pass-f962b51dd93a57841c20/1-0000.mp3", duration = 20.4277551, start = 0},
+    {file = "Audio/Transport/full_subzone_coldridge-pass-840da99900e5828b10b6/1-0000.mp3", duration = 23.7453061, start = 0},
   },
 }
 P.transport["subzone:command-center"] = {
   hash = "eb026d",
-  fullHash = "9e7be8",
-  text = "Command Center. In Stormwind's Old Town, the Command Center trains recruits while most of the army serves abroad. Also called the Stormwind Barracks, it houses the city's military officers and a seasoned skeleton crew focused on drilling recruits and local militia. In Old Town, Stormwind's Command Center is a garrison and training ground for the kingdom's soldiers. Its halls are quieter than usual, with much of the royal army committed to campaigns abroad. Veteran instructors, including Ander Germaine and martial artist Wu Shen, train fresh warriors to strengthen the city's defenses. When you ask for instruction in heavy arms or tactical combat, Stormwind's guards may point you to the Barracks. The building sits near the Pig and Whistle Tavern and the shadowy operations elsewhere in Old Town. It helps keep order in a district known for tavern brawls and roguish activity.",
+  fullHash = "7671a1",
+  text = "Command Center. Stormwind's army is thinned by campaigns abroad, and recruits drill in the Command Center. Also called the Stormwind Barracks, it houses the city's officers and a seasoned crew focused on training recruits and local militia. In Old Town, Stormwind's Command Center trains the kingdom's soldiers. Much of the royal army serves abroad, leaving its halls quieter than usual. Veteran instructors Ander Germaine and martial artist Wu Shen drill fresh warriors to strengthen the city's defenses. When you seek instruction in heavy arms or tactical combat, Stormwind's guards may direct you to the Barracks. It stands near the Pig and Whistle Tavern and Old Town's shadowy operations. The training ground helps keep order in a district known for tavern brawls and roguish activity.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_command-center-71a647bb4d54e35dbde7/1-0000.mp3", duration = 50.7297959, start = 0},
+    {file = "Audio/Transport/full_subzone_command-center-24e891011b72948aef0f/1-0000.mp3", duration = 45.8710204, start = 0},
   },
 }
 P.transport["subzone:commons"] = {
   hash = "14242a",
-  fullHash = "0edeb9",
-  text = "Commons. Travelers and traders crowd the Commons, just inside Ironforge's gates. The district links the entrance to the mountain city's great caverns and draws merchants, travelers, and bankers from across the Alliance. The Commons greets you just northeast of the Gates of Ironforge. Carved from the mountain stone, its market street holds the Alliance Auction House, Stonefire Tavern, and the city's central bank in the Vault of Ironforge. Broad roads lead from here to the Great Forge, the Mystic Ward, and the Military Ward. Nearly everyone crossing the mountain city passes its shops. The Commons draws trade from across the Eastern Kingdoms. Ironforge's central position and the underground Deeprun Tram link to Stormwind bring travelers and merchants here. Adventurers trade goods from across Azeroth, buy weapons at Steelfury's Weapon Emporium, or purchase reagents from Barim. Some meet beneath the inn's warm lanterns before setting out into the snows of Khaz Modan.",
+  fullHash = "a7627a",
+  text = "Commons. Travelers and traders fill the Commons just inside Ironforge's gates. From here, the mountain city's great caverns open before them, and merchants, travelers, and bankers arrive from across the Alliance. The Commons greets you just northeast of the Gates of Ironforge. Its market street is cut from mountain stone, with the Alliance Auction House, Stonefire Tavern, and the central bank in the Vault of Ironforge. Broad roads lead to the Great Forge, the Mystic Ward, and the Military Ward. Nearly everyone crossing the city passes its shops. Trade reaches the Commons from across the Eastern Kingdoms. Ironforge's central position and the underground Deeprun Tram to Stormwind bring travelers and merchants through its streets. Adventurers trade goods from across Azeroth, buy weapons at Steelfury's Weapon Emporium, or purchase reagents from Barim. Some gather beneath the inn's warm lanterns before setting out into the snows of Khaz Modan.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_commons-0f5148acdf1a2419e88f/1-0000.mp3", duration = 57.6783673, start = 0},
+    {file = "Audio/Transport/full_subzone_commons-0bf6695954794e749cd0/1-0000.mp3", duration = 57.6783673, start = 0},
   },
 }
 P.transport["subzone:craftsmen-s-terrace"] = {
@@ -1114,27 +1114,27 @@ P.transport["subzone:cragpool-lake"] = {
   },
 }
 P.transport["subzone:crystal-lake"] = {
-  hash = "d6e5ac",
-  fullHash = "d6e5ac",
-  text = "Crystal Lake. East of Goldshire, Crystal Lake draws travelers toward a shore claimed by murlocs. Their attacks make the water a danger to villagers and passersby. Crystal Lake lies east of Goldshire, within walking distance of the Lion's Pride Inn. Freshwater murlocs now claim its shore and shallow shoals, attacking anyone who comes too close. William Pestle, an alchemist at the inn, hires travelers to drive them back and gather the crystal kelp they carry for his experiments.",
+  hash = "e82dbe",
+  fullHash = "e82dbe",
+  text = "Crystal Lake. At Crystal Lake, murlocs claim the shore east of Goldshire. Their attacks endanger villagers and travelers passing by. East of Goldshire, Crystal Lake lies within walking distance of the Lion's Pride Inn. Freshwater murlocs claim its shore and shallow shoals, attacking anyone who comes too close. William Pestle, an alchemist at the inn, hires travelers to drive them back and gather the crystal kelp they carry for his experiments.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_crystal-lake-24d2fc9ffa85a38b6c6e/1-0000.mp3", duration = 27.8726531, start = 0},
+    {file = "Audio/Transport/full_subzone_crystal-lake-8d0bddd8eb24604b2f6f/1-0000.mp3", duration = 26.4097959, start = 0},
   },
 }
 P.transport["subzone:cut-throat-alley"] = {
-  hash = "4b4d6b",
-  fullHash = "4b4d6b",
-  text = "Cut-Throat Alley. Behind the canal shops, Cut-Throat Alley lies quiet and empty in Stormwind City. Reach it through the Shady Lady near the Dwarven District, where a paved courtyard ends at an unoccupied residence. Cut-Throat Alley lies in a quiet corner of Stormwind, charted with the Dwarven District but apart from its forge fires and soot. No main avenue leads here; the only footpath passes through the Shady Lady, a small canal-side shop just south of the bridge from Cathedral Square. Beyond its door, a paved dead end holds stacked crates, forgotten barrels, and one empty two-story residence. Passing guards and ordinary citizens cannot see the alley, which stays silent amid the capital.",
+  hash = "2379ea",
+  fullHash = "2379ea",
+  text = "Cut-Throat Alley. In Cut-Throat Alley, a hidden courtyard lies beyond a canal shop in Stormwind City. Its paved path ends at an empty residence, out of sight of ordinary city traffic. Step through the Shady Lady and a paved dead end opens before you. Stacked crates and forgotten barrels sit beside a two-story residence with no one at home. Though the alley is counted within the Dwarven District, it lies apart from the district's forge fires and soot.\n\nNo main avenue reaches Cut-Throat Alley. Its only footpath passes through the canal-side shop, just south of the bridge from Cathedral Square. Passing guards and ordinary citizens cannot see this quiet corner of the capital.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_cut-throat-alley-28c1013b6e8a65978126/1-0000.mp3", duration = 40.5681633, start = 0},
+    {file = "Audio/Transport/full_subzone_cut-throat-alley-64d9765e58478dab1b67/1-0000.mp3", duration = 40.5159184, start = 0},
   },
 }
 P.transport["subzone:dagger-hills"] = {
   hash = "b320e6",
-  fullHash = "28bdfd",
-  text = "Dagger Hills. Bandits hold the Dagger Hills, the rocky heights behind Moonbrook in southern Westfall. With royal patrols gone, the ridge threatens travelers and the plains below. The Dagger Hills rise above Moonbrook in southern Westfall, where Defias outlaws watch the rocky ridges. Stormwind's royal patrols are gone, leaving the dry highland as a natural stronghold for the Defias Brotherhood. Knuckledusters, pathstalkers, and highwaymen hide among the crests and scrub. They ambush travelers and watch the approaches to their strongholds below. Darkness brings its own danger to the Dagger Hills. Leprithus, a wandering ghoul, has been seen stalking the desolate heights after sunset. Outlaws and lingering undead roam the ridge, while Grimbooze Thunderbrew, a dwarven brewer, sets up his distilling equipment in the rugged wilderness despite the dangers nearby.",
+  fullHash = "81470b",
+  text = "Dagger Hills. Bandits hold Dagger Hills, the rocky heights behind Moonbrook in southern Westfall. With royal patrols gone, the ridge threatens travelers and the plains below. The Defias Brotherhood uses this dry highland as a stronghold. Knuckledusters, pathstalkers and highwaymen hide among the crests and scrub. They ambush unwary travelers and watch the approaches to their strongholds below, keeping the surrounding plains under threat. Darkness brings danger to Dagger Hills. After sunset, Leprithus, a wandering ghoul, has been seen stalking the desolate heights. Outlaws and lingering undead roam the ridge. Nearby, Grimbooze Thunderbrew, a dwarven brewer, sets up his distilling equipment despite the dangers.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_dagger-hills-8da52c4f96154719abfc/1-0000.mp3", duration = 52.5061224, start = 0},
+    {file = "Audio/Transport/full_subzone_dagger-hills-0d76d222b306123dea3a/1-0000.mp3", duration = 43.0759184, start = 0},
   },
 }
 P.transport["subzone:darkcloud-pinnacle"] = {
@@ -1178,19 +1178,19 @@ P.transport["subzone:dawning-wood-catacombs"] = {
   },
 }
 P.transport["subzone:dead-acre"] = {
-  hash = "d440e8",
-  fullHash = "d440e8",
-  text = "Dead Acre. The Dead Acre lies burned and abandoned in southeastern Westfall, near the bridge to Duskwood. The Defias Brotherhood torched the farm during their uprising, and rogue harvest golems now stalk its blackened fields. You find the Dead Acre just north of the road from Sentinel Hill to Duskwood. Once a productive homestead among Westfall’s breadbasket farms, it met a violent end when the Defias Brotherhood rose in revolt and drove out the local landowners. The farm and its crops went up in flames. Scorched timber and smoking earth remain, while mechanical Harvest Watchers still reap the barren soil.",
+  hash = "e7302e",
+  fullHash = "e7302e",
+  text = "Dead Acre. In southeastern Westfall, Dead Acre lies burned and abandoned near the bridge to Duskwood. The Defias Brotherhood torched the farm during its uprising, and rogue harvest golems still stalk the blackened fields. North of the road from Sentinel Hill to Duskwood, Dead Acre stands among Westfall’s old breadbasket farms. The homestead once gave good harvests, until the Defias Brotherhood rose in revolt and drove out the landowners. Then farm and crops went up in flames. Scorched timber and smoking earth remain, while mechanical Harvest Watchers still reap the barren soil.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_dead-acre-6589bbba401607aa04bc/1-0000.mp3", duration = 34.7428571, start = 0},
+    {file = "Audio/Transport/full_subzone_dead-acre-8d8350525edcc2c2a78f/1-0000.mp3", duration = 35.0563265, start = 0},
   },
 }
 P.transport["subzone:deeprun-tram"] = {
-  hash = "295ecf",
-  fullHash = "295ecf",
-  text = "Deeprun Tram. The Deeprun Tram carries travelers beneath the earth between Ironforge and Stormwind City. King Magni Bronzebeard commissioned it after the Second War, and its twin tracks now carry citizens, soldiers, and goods between the Alliance capitals. King Magni Bronzebeard wanted dwarven aid and supplies to reach Stormwind faster after the Second War. Mountain passes slowed the journey, so he asked High Tinker Gelbin Mekkatorque to design an underground railway. Gnomish engineers cut the route beneath a mountain and through a vast subterranean lake. Rats plagued the excavation, but the tram was completed. It carries thousands of travelers between Ironforge and Stormwind without charge.",
+  hash = "a3b730",
+  fullHash = "a3b730",
+  text = "Deeprun Tram. Beneath the mountains, the Deeprun Tram carries travelers between Ironforge and Stormwind City. King Magni Bronzebeard commissioned it after the Second War, and its twin tracks carry citizens, soldiers, and goods between the Alliance capitals. After the Second War, King Magni Bronzebeard sought a faster way to send dwarven aid and supplies to Stormwind. Mountain passes made the journey slow, so he asked High Tinker Gelbin Mekkatorque to design an underground railway.\n\nGnomish engineers cut a route beneath a mountain and through a vast subterranean lake. Rats plagued the work, but the tram was finished. It carries thousands between Ironforge and Stormwind without charge.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_deeprun-tram-5adeee06c4772b547a72/1-0000.mp3", duration = 40.0979592, start = 0},
+    {file = "Audio/Transport/full_subzone_deeprun-tram-268ed1714c2caa19f13d/1-0000.mp3", duration = 41.2473469, start = 0},
   },
 }
 P.transport["subzone:deepwater-tavern"] = {
@@ -1202,11 +1202,11 @@ P.transport["subzone:deepwater-tavern"] = {
   },
 }
 P.transport["subzone:defias-hideout"] = {
-  hash = "3171f7",
-  fullHash = "3171f7",
-  text = "Defias Hideout. Defias thugs and vagrants linger in a ruined house on Moonbrook’s southern edge. Its upper floor hides a route into the chambers beneath the town.",
+  hash = "a3c321",
+  fullHash = "a3c321",
+  text = "Defias Hideout. Vagrants and Defias thugs linger in the ruined house on Moonbrook’s southern edge. Its upper floor conceals a route into chambers beneath the town.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_defias-hideout-3f81ea698796e08d1d78/1-0000.mp3", duration = 8.43755102, start = 0},
+    {file = "Audio/Transport/full_subzone_defias-hideout-153ee959d29bf5258504/1-0000.mp3", duration = 9.03836735, start = 0},
   },
 }
 P.transport["subzone:demon-fall-canyon"] = {
@@ -1227,10 +1227,10 @@ P.transport["subzone:demon-fall-ridge"] = {
 }
 P.transport["subzone:demont-s-place"] = {
   hash = "2cfc57",
-  fullHash = "5b1250",
-  text = "Demont's Place. Outlaws hold Demont's Place, a ruined farm west of Moonbrook in southwestern Westfall. The farm once fed the Kingdom of Stormwind, but economic collapse and the Defias Brotherhood drove its caretakers away. Its fields remain empty and its fences weathered. Demont's Place lies within sight of Moonbrook, among the family holdings that once fed the Kingdom of Stormwind. Economic collapse and outlaw brigands stripped the farm of its livelihood and drove out its caretakers. Like the neighboring fields, it has fallen into a rough hideout, where outlaws use its grounds as an extension of the Defias stronghold in Moonbrook. Demont's Place is an outpost for the Defias Brotherhood on the outskirts of Moonbrook. Thugs, cutpurses, and displaced laborers linger among its fences and shattered buildings, ambushing travelers who stray from the southern roads. Until Moonbrook is reclaimed and the outlaws are broken, the farm remains too dangerous for peaceful farming to return.",
+  fullHash = "eb62c1",
+  text = "Demont's Place. Outlaws hold Demont's Place, west of Moonbrook in southwestern Westfall. Once its fields fed the Kingdom of Stormwind. Economic collapse and the Defias Brotherhood drove the caretakers away, leaving the fields empty and the fences weathered. Demont's Place lies within sight of Moonbrook, among the family holdings that once fed the Kingdom of Stormwind. Economic collapse and outlaw brigands stripped the farm of its livelihood and drove its caretakers away. Now outlaws use its grounds as an extension of the Defias stronghold in Moonbrook. The Defias Brotherhood holds Demont's Place on the outskirts of Moonbrook. Thugs, cutpurses, and displaced laborers linger among its fences and shattered buildings. They ambush travelers who stray from the southern roads. Until Moonbrook is reclaimed and the outlaws are broken, peaceful farming cannot return.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_demont-s-place-acc5a08bf2bf56674867/1-0000.mp3", duration = 56.6334694, start = 0},
+    {file = "Audio/Transport/full_subzone_demont-s-place-2e1b8297b4987259ef34/1-0000.mp3", duration = 51.1477551, start = 0},
   },
 }
 P.transport["subzone:dolanaar"] = {
@@ -1251,10 +1251,10 @@ P.transport["subzone:dor-danil-barrow-den"] = {
 }
 P.transport["subzone:dormitory"] = {
   hash = "32660d",
-  fullHash = "ef4923",
-  text = "Dormitory. In Gnomeregan, the Dormitory lies overrun by troggs and choked with radiation. Gnomes once lived here, but the fallen city's residential halls now belong to the creatures that drove them out. Past the decontamination chambers of the Clean Zone, the Dormitory once housed Gnomeregan's inventors, laborers, and families. When High Tinker Mekkatorque opened the emergency radiation vents to fight the invading troggs, this crowded sector became a trap. No gnomish life remains in its communal halls or living quarters. Mutated troggs now thrive in the radioactive air. Travelers heading deeper through the city must fight through this reminder of the catastrophe to reach the lower Hall of Gears. The abandoned living quarters still hold working machines from Gnomeregan's administration. Matrix Punchograph 3005-B terminals process security punch cards. Their cards grant access to higher-security data terminals deeper in the city, helping recover important records left behind when the gnomes fled.",
+  fullHash = "52f39f",
+  text = "Dormitory. In Gnomeregan, troggs now overrun the Dormitory, and radiation chokes its halls. Gnomes once made their homes here, but the creatures that drove them out now hold the fallen city's residential quarters. Beyond the Clean Zone's decontamination chambers, the Dormitory once housed Gnomeregan's inventors, laborers, and families. When High Tinker Mekkatorque opened the emergency radiation vents to fight the invading troggs, this crowded part of the city became a trap. No gnomish life remains in its communal halls or living quarters. Mutated troggs thrive in the radioactive air. To reach the lower Hall of Gears, travelers must fight through this reminder of the catastrophe. Though the living quarters are abandoned, Gnomeregan's administrative machines still work. Matrix Punchograph 3005-B terminals process security punch cards. The cards open higher-security data terminals deeper in the city, where important records remain from the gnomes' flight.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_dormitory-40e2b28789636d8dbae4/1-0000.mp3", duration = 59.3502041, start = 0},
+    {file = "Audio/Transport/full_subzone_dormitory-d895e8413b06ff95613d/1-0000.mp3", duration = 59.0889796, start = 0},
   },
 }
 P.transport["subzone:dun-algaz"] = {
@@ -1290,43 +1290,43 @@ P.transport["subzone:durnholde-keep"] = {
   },
 }
 P.transport["subzone:dust-plains"] = {
-  hash = "3da420",
-  fullHash = "3da420",
-  text = "Dust Plains. Gnoll packs hold the Dust Plains, Westfall’s dry southern frontier. The plains stretch toward the coast and eastern hills, where Klaven’s Tower overlooks the wastes. Across southern Westfall, the Dust Plains run from troubled farmland toward desolate wilderness. Feral gnolls have long claimed this arid ground, ambushing travelers and challenging anyone bound for the coast or nearby hills. Klaven’s Tower stands on the eastern boundary. The old mage tower is held by Klaven Mortwake, a Defias rogue, and offers no shelter from the gnolls prowling the surrounding wastes.",
+  hash = "ff9d60",
+  fullHash = "ff9d60",
+  text = "Dust Plains. Gnoll packs prowl the Dust Plains, Westfall’s dry southern frontier. The wastes stretch toward the coast and eastern hills, where Klaven’s Tower overlooks the plain. Across southern Westfall, the Dust Plains lead from troubled farmland toward desolate wilderness. Feral gnolls have long claimed this dry ground. They ambush travelers and challenge anyone bound for the coast or nearby hills.\n\nKlaven’s Tower marks the eastern boundary. Klaven Mortwake, a Defias rogue, holds the old mage tower. Gnolls prowl the surrounding wastes, leaving travelers no shelter there.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_dust-plains-d81de2a61fbbe0f03bd6/1-0000.mp3", duration = 34.5077551, start = 0},
+    {file = "Audio/Transport/full_subzone_dust-plains-290308687078241e6726/1-0000.mp3", duration = 37.0416327, start = 0},
   },
 }
 P.transport["subzone:dwarven-district"] = {
-  hash = "ead413",
-  fullHash = "ead413",
-  text = "Dwarven District. Dwarven craftsmen keep their furnaces and workshops working in Stormwind's northern quarter. The district brings a piece of Khaz Modan to the human capital, with the Deeprun Tram linking it to Ironforge. Dwarven artisans, smiths, and engineers make their home in Stormwind's northern quarter. Heavy stonework, smelting works, and craft shops recall Ironforge. At Potts' Plates, craftspeople from Khaz Modan find familiar company. On the district's eastern side, an open, arched tunnel leads to the Stormwind station of the Deeprun Tram, linking the human capital directly to Ironforge.",
+  hash = "aba864",
+  fullHash = "aba864",
+  text = "Dwarven District. In Stormwind's northern quarter, Dwarven craftsmen keep their furnaces and workshops at work. The Deeprun Tram links their home to Ironforge. Dwarven artisans, smiths, and engineers make their home in Stormwind's northern quarter. Its heavy stonework, smelting works, and craft shops recall Ironforge. At Potts' Plates, craftspeople from Khaz Modan find familiar company.\n\nOn the district's eastern side, an open, arched tunnel leads to the Stormwind station of the Deeprun Tram. The tram links the human capital directly to Ironforge.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_dwarven-district-1342c6682cc9a9c4a3bd/1-0000.mp3", duration = 36.0228571, start = 0},
+    {file = "Audio/Transport/full_subzone_dwarven-district-88675ac2422e95d98818/1-0000.mp3", duration = 35.9706122, start = 0},
   },
 }
 P.transport["subzone:eastvale-logging-camp"] = {
   hash = "2af34c",
-  fullHash = "e75b93",
-  text = "Eastvale Logging Camp. At Eastvale Logging Camp, timber orders from Stormwind meet the dangers of Elwynn’s eastern woods. Wolves and bears drive lumberjacks from their work, while the camp keeps timber moving toward Stormwind and nearby settlements. Timber buyers across the Kingdom of Stormwind send orders to Eastvale Logging Camp, each with a strict deadline. Wolves and bears prowl the woods around the work sites, driving lumberjacks away and leaving cut timber behind. Supervisor Raelen directs the camp’s work, and travelers help drive off the beasts and recover the abandoned wood before deliveries fall behind schedule. Eastvale Logging Camp has homes and horse stables where travelers can buy fine mounts. On a nearby hill above the work site, retired Marshal Haggard lives in a quiet manor. He once led the Stormwind Guard and left its service to retire far from the politics of the capital.",
+  fullHash = "8bb0ab",
+  text = "Eastvale Logging Camp. Timber orders from Stormwind reach Eastvale Logging Camp, where danger keeps the work from going smoothly. Wolves and bears drive lumberjacks from the eastern woods, but the camp still sends timber to Stormwind and nearby settlements. Timber buyers across the Kingdom of Stormwind send Eastvale Logging Camp orders with strict deadlines. Wolves and bears prowl the woods around the work sites. They drive lumberjacks away and leave cut timber behind.\n\nSupervisor Raelen directs the camp’s work. Travelers help drive off the beasts and recover the abandoned wood before deliveries fall behind schedule. Eastvale Logging Camp has homes and horse stables where travelers can buy fine mounts. On a nearby hill above the work site, retired Marshal Haggard lives in a quiet manor.\n\nHe once led the Stormwind Guard. Then he left its service to retire far from the capital’s politics.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_eastvale-logging-camp-a95bf4d2550b77d01ca9/1-0000.mp3", duration = 47.2032653, start = 0},
+    {file = "Audio/Transport/full_subzone_eastvale-logging-camp-8906bf6b38277e318e27/1-0000.mp3", duration = 52.5061224, start = 0},
   },
 }
 P.transport["subzone:echo-ridge-mine"] = {
   hash = "3ecc87",
-  fullHash = "87f819",
-  text = "Echo Ridge Mine. In Northshire Valley's northwestern cliffs, Echo Ridge Mine lies rich in stone and ore, but kobolds have seized it. Echo Ridge Mine was cut into the hills above Northshire Abbey to supply the valley with stone and metal. Kobolds poured through its tunnels and drove out the workers. Marshal McBride sees them as a danger to Northshire's safety and its recruits. He sends new recruits into the mine to thin their numbers and take the site back. Kobolds have been pushing into Elwynn Forest beyond Echo Ridge Mine. From the northwestern ridge, they threaten Northshire's training grounds and the flow of resources to the abbey.",
+  fullHash = "03cf9d",
+  text = "Echo Ridge Mine. Kobolds hold Echo Ridge Mine in the northwestern cliffs of Northshire Valley, where stone and ore once fed the valley. Echo Ridge Mine was cut into the hills above Northshire Abbey to supply the valley with stone and metal. Kobolds poured through its tunnels and drove out the workers. Marshal McBride fears they endanger Northshire's safety and its recruits. So he sends new recruits into the mine to thin their numbers and take it back. Kobolds have pushed beyond Echo Ridge Mine into Elwynn Forest. From the northwestern ridge, they threaten Northshire's training grounds and the flow of resources to the abbey.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_echo-ridge-mine-bd742da60bfa43ce5dbc/1-0000.mp3", duration = 34.324898, start = 0},
+    {file = "Audio/Transport/full_subzone_echo-ridge-mine-6a0693d184e0492acff7/1-0000.mp3", duration = 36.8065306, start = 0},
   },
 }
 P.transport["subzone:engineering-labs"] = {
   hash = "4439e1",
-  fullHash = "476091",
-  text = "Engineering Labs. Deep within Gnomeregan, the Engineering Labs lie in ruin, their tiers linked to the Workshop Entrance and Launch Bay. Once a busy center of gnome innovation, they were overrun in the city's radioactive cataclysm. Crazed leper gnomes and rogue mechanical contraptions now fill the chambers. The Engineering Labs were once a busy center of gnome innovation. Built around a central mechanical structure, they span two main tiers joined by a central cargo lift. At Gnomeregan's height, tinkerers developed schematics and refined clockwork inventions here. Radiation drove the remaining researchers mad, turning them into deranged leper gnomes who mindlessly guard malfunctioning machinery alongside rogue constructs. The Engineering Labs also link routes through the lower reaches of the ruined city. Passages lead toward the Launch Bay, Tinkers' Court, and the Workshop Entrance back door. On the lower floor, Matrix Punchograph 3005-D terminals process coded punch cards carried by gnome engineers.",
+  fullHash = "7d9758",
+  text = "Engineering Labs. In Gnomeregan, the Engineering Labs lie in ruin across tiers linked to the Workshop Entrance and Launch Bay. Once a center of gnome invention, they fell in the city's radioactive catastrophe. Crazed leper gnomes and rogue machines now fill the chambers. The Engineering Labs once held Gnomeregan's work in invention. A central mechanical structure rises through two tiers, joined by a cargo lift. At the city's height, tinkerers made schematics and refined clockwork devices here. Radiation drove the remaining researchers mad. Now deranged leper gnomes guard the malfunctioning machinery beside rogue constructs. The Engineering Labs connect routes through Gnomeregan's lower reaches. Passages lead toward the Launch Bay, Tinkers' Court and the Workshop Entrance back door. On the lower floor, Matrix Punchograph 3005-D terminals process coded punch cards carried by gnome engineers.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_engineering-labs-920a99aaddb732a0d399/1-0000.mp3", duration = 59.0367347, start = 0},
+    {file = "Audio/Transport/full_subzone_engineering-labs-568cfd6701ecc8d1f983/1-0000.mp3", duration = 56.1371429, start = 0},
   },
 }
 P.transport["subzone:falfarren-river"] = {
@@ -1347,18 +1347,18 @@ P.transport["subzone:fallen-sky-lake"] = {
 }
 P.transport["subzone:fargodeep-mine"] = {
   hash = "c12ebb",
-  fullHash = "0d8103",
-  text = "Fargodeep Mine. Kobolds now swarm through Fargodeep Mine, south of Goldshire in central Elwynn Forest. The mine once brought gold to Stormwind, but its tunnels are now a kobold warren. Gold once flowed from Fargodeep Mine into Stormwind's treasury. As the Kingdom's military presence in Elwynn dwindled, outlying resources became vulnerable. Kobolds soon filled the mine's dark tunnels and made a warren beneath the hills. Marshal Dughan and Goldshire's authorities fear the lost ore and the danger to nearby farms, including the Stonefield and Maclure holdings. Fargodeep Mine runs through several levels, with lower shafts reaching deep beneath the forest floor. Kobold laborers and vermin hurry along wooden scaffolds, guarding the wax and gold dust they have scavenged. Goldtooth, a cunning kobold leader, lurks in a den above the main tunnels. He hoards trinkets stolen from travelers and nearby residents.",
+  fullHash = "cc9f11",
+  text = "Fargodeep Mine. Kobolds now swarm through Fargodeep Mine, south of Goldshire in central Elwynn Forest. Its gold once filled Stormwind's treasury, but now kobolds make their home in its tunnels. Gold once flowed from Fargodeep Mine into Stormwind's treasury. As the Kingdom's military presence in Elwynn dwindled, the outlying mine grew vulnerable. Kobolds filled its dark tunnels and made a warren beneath the hills. Now Marshal Dughan and Goldshire's authorities fear the lost ore and the danger to nearby farms, including the Stonefield and Maclure holdings. Fargodeep Mine runs through several levels, with lower shafts reaching deep beneath the forest floor. Kobold laborers and vermin hurry along wooden scaffolds, guarding the wax and gold dust they have scavenged. Goldtooth, a cunning kobold leader, lurks in a den above the main tunnels. He hoards trinkets stolen from travelers and nearby residents.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_fargodeep-mine-9dfae166148f741ac071/1-0000.mp3", duration = 54.0995918, start = 0},
+    {file = "Audio/Transport/full_subzone_fargodeep-mine-f437bcc0f218b113a4a8/1-0000.mp3", duration = 55.2489796, start = 0},
   },
 }
 P.transport["subzone:farstrider-lodge"] = {
   hash = "3b8cf6",
-  fullHash = "6a5e07",
-  text = "Farstrider Lodge. Hunters and travelers come to Farstrider Lodge in southeastern Loch Modan for training, supplies, and work in the wilds. Its high elven style sets it apart, though dwarves and humans live there too. Farstrider Lodge has an unusual look among the stone buildings of Khaz Modan. Its design suggests high elven craft. Vyrin Swiftwind is the only known high elf who still lives there, among dwarves and humans. No one knows who founded the lodge or when it was built. In the southeastern hills of Loch Modan, Farstrider Lodge offers a stopping place for hunters and travelers bound for the surrounding wilds. Hunter and pet trainers work there, alongside merchants and people seeking help with local wildlife.",
+  fullHash = "0b39d1",
+  text = "Farstrider Lodge. In southeastern Loch Modan, Farstrider Lodge welcomes hunters and travelers bound for the wilds. Its high elven style sets it apart, though dwarves and humans live there too. Farstrider Lodge looks unlike the stone buildings of Khaz Modan. Its design recalls high elven craft, though Vyrin Swiftwind is the only known high elf still living there. Dwarves and humans make their homes beside him. No one knows who founded the lodge or when it was built. In the southeastern hills of Loch Modan, Farstrider Lodge offers hunters and travelers a place to stop before entering the wilds. Hunter and pet trainers work there, alongside merchants. Others come seeking help with local wildlife.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_farstrider-lodge-5c31bac8759592e78f06/1-0000.mp3", duration = 40.0979592, start = 0},
+    {file = "Audio/Transport/full_subzone_farstrider-lodge-eedb4b47089f2e800e64/1-0000.mp3", duration = 43.5983673, start = 0},
   },
 }
 P.transport["subzone:fel-rock"] = {
@@ -1387,10 +1387,10 @@ P.transport["subzone:fire-scar-shrine"] = {
 }
 P.transport["subzone:forest-s-edge"] = {
   hash = "1c78d7",
-  fullHash = "830096",
-  text = "Forest's Edge. Riverpaw gnolls under Hogger threaten travelers at Forest's Edge, along Elwynn's southwestern frontier. At Forest's Edge, woodland runs southwest from Stormwind City between Mirror Lake Orchard and the rivers that border Westfall. Westbrook Garrison lies nearby, but Stormwind's thin ranks leave the woods open to wild beasts and raiding parties. Boars roam among the trees and along the banks. Riverpaw gnolls gather here in force, using the woods as a staging ground. Hogger and his pack hunt through the woods of Forest's Edge. A massive, brutal gnoll chieftain, he leads raids on nearby farms and harasses travelers. The Stormwind Army has placed a bounty on his head. His pack makes the timberland dangerous for anyone who crosses it.",
+  fullHash = "ddc119",
+  text = "Forest's Edge. At Forest's Edge, Riverpaw gnolls under Hogger threaten travelers on Elwynn's southwestern frontier. At Forest's Edge, the woods run southwest from Stormwind City, between Mirror Lake Orchard and the rivers that border Westfall. Westbrook Garrison is nearby, yet Stormwind has too few soldiers to keep the woods clear of wild beasts and raiding parties. Boars roam among the trees and along the banks. Riverpaw gnolls gather in force, using the woods as a staging ground. Hogger and his pack hunt through the woods of Forest's Edge. He is a massive, brutal gnoll chieftain who leads raids on nearby farms and harasses travelers. The Stormwind Army has placed a bounty on his head. His pack makes the timberland dangerous for anyone crossing it.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_forest-s-edge-412e66a0edd9ad8416dc/1-0000.mp3", duration = 43.5461224, start = 0},
+    {file = "Audio/Transport/full_subzone_forest-s-edge-cf2bb5419f3fff406794/1-0000.mp3", duration = 44.4865306, start = 0},
   },
 }
 P.transport["subzone:forest-song"] = {
@@ -1402,11 +1402,11 @@ P.transport["subzone:forest-song"] = {
   },
 }
 P.transport["subzone:forlorn-cavern"] = {
-  hash = "d14905",
-  fullHash = "d14905",
-  text = "Forlorn Cavern. Along Ironforge's northern underground lake, the Forlorn Cavern shelters those who keep to the shadows. Thieves, cutpurses, and practitioners of the dark arts conduct business there, far from the Great Forge and prying dwarven guards. The Forlorn Cavern is cold, damp, and hushed beneath Ironforge's clang of anvils and the Great Forge's heat. Its winding paths follow the northern edge of the underground lake, out of sight between the Mystic Ward and the Hall of Explorers. Rogues and warlocks train there, and vendors serve them. Weapon merchants and fishermen work beside the lake as well.",
+  hash = "c2b5e4",
+  fullHash = "c2b5e4",
+  text = "Forlorn Cavern. In Ironforge's northern depths, the Forlorn Cavern shelters those who keep to the shadows. Thieves, cutpurses, and practitioners of the dark arts conduct business there, far from the Great Forge and the dwarven guards. Cold and damp, the Forlorn Cavern lies beneath Ironforge's clang of anvils and the Great Forge's heat. Its winding paths follow the northern edge of the underground lake, hidden between the Mystic Ward and the Hall of Explorers. Rogues and warlocks train there, and vendors serve them. Weapon merchants and fishermen work beside the lake as well.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_forlorn-cavern-bd1a566c80f96eb7d734/1-0000.mp3", duration = 35.2130612, start = 0},
+    {file = "Audio/Transport/full_subzone_forlorn-cavern-b617dcd89654f3f14cbe/1-0000.mp3", duration = 33.7502041, start = 0},
   },
 }
 P.transport["subzone:forlorn-rowe"] = {
@@ -1427,26 +1427,26 @@ P.transport["subzone:freewind-post"] = {
 }
 P.transport["subzone:frostmane-hold"] = {
   hash = "50006c",
-  fullHash = "f6cb63",
-  text = "Frostmane Hold. Frostmane trolls hold the cliffs south of Gnomeregan in western Dun Morogh. The Ironforge Guard watches their camp and caverns as raiders press into dwarven lands. Frostmane Hold cuts into the cold cliffs of western Dun Morogh. Rough structures stand outside its winding caves, where hideskinners and headhunters guard the tribe's stronghold. Frostmane raiders leave from here to strike the valleys, threaten travelers on the mountain passes, and test the defenses around Kharanos. Dwarven commanders in Kharanos fear the Frostmane buildup. Young mountaineers and adventurers scout the caverns, map their defenses, and thin the warbands before the tribe can gather for an organized assault on dwarven outposts.",
+  fullHash = "678f6c",
+  text = "Frostmane Hold. Frostmane trolls raid from the cliffs south of Gnomeregan in western Dun Morogh. The Ironforge Guard watches their camp and caverns as the raiders press into dwarven lands. In western Dun Morogh, Frostmane Hold cuts into cold cliffs. Rough structures stand outside its winding caves, where hideskinners and headhunters guard the tribe’s stronghold. From here, Frostmane raiders strike the valleys, threaten travelers on mountain passes, and test the defenses around Kharanos. Dwarven commanders in Kharanos fear the growing Frostmane force. Young mountaineers and adventurers scout the caverns and map their defenses. They thin the warbands before the tribe can gather for an organized assault on dwarven outposts.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_frostmane-hold-2b1e2ce8855b3fa628ee/1-0000.mp3", duration = 40.724898, start = 0},
+    {file = "Audio/Transport/full_subzone_frostmane-hold-ef493a50dc80703caafb/1-0000.mp3", duration = 43.1542857, start = 0},
   },
 }
 P.transport["subzone:frostmane-hovel"] = {
-  hash = "96f422",
-  fullHash = "96f422",
-  text = "Frostmane Hovel. Frostmane Hovel is a rugged cave den tucked into the southern crags of Coldridge Valley in Dun Morogh. It serves as an entrenched shelter for aggressive Frostmane trolls pressing directly into dwarven training grounds. Carved into the southern mountains flanking Coldridge Valley, the Frostmane Hovel shelters indigenous Frostmane trolls who refuse to yield the high snows to Ironforge. Operating out of crude caverns like this, the trolls mount continuous raids against local dwarven camps and disrupt supply lines into the valley.",
+  hash = "e8b62a",
+  fullHash = "e8b62a",
+  text = "Frostmane Hovel. In southern Coldridge Valley, Frostmane trolls press toward the dwarven training grounds. Frostmane trolls shelter in caverns cut into the mountains south of Coldridge Valley. They refuse to yield the high snows to Ironforge and raid nearby dwarven camps. Their attacks disrupt the supply lines into the valley.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_frostmane-hovel-0e89a43ebf8d260cfaaf/1-0000.mp3", duration = 30.8244898, start = 0},
+    {file = "Audio/Transport/full_subzone_frostmane-hovel-bf25f2f888eb606414ee/1-0000.mp3", duration = 19.0955102, start = 0},
   },
 }
 P.transport["subzone:furlbrow-s-pumpkin-farm"] = {
   hash = "49ec78",
-  fullHash = "8c353f",
-  text = "Furlbrow's Pumpkin Farm. Bandits and harvest golems hold Furlbrow's Pumpkin Farm in northern Westfall, off the road from Elwynn Forest. Farmer Furlbrow and Verna have lost their home to the Defias Brotherhood. Near Westfall's northern border, Furlbrow's Pumpkin Farm once grew crops to feed the kingdom. The Defias Brotherhood drove Farmer Furlbrow and his wife Verna from their land. Mechanical harvest golems now roam the fields, attacking anyone who approaches. Bandits occupy the farm buildings, while the rightful owners camp beside the road near the Jansen Stead, mourning their lost home and livelihood. The Defias Brotherhood has claimed homesteads like Furlbrow's as Stormwind's military garrison struggles to protect Westfall's rural farmers. Bandits camp at the farm and use it as a staging ground. Lethal harvest watchers guard the perimeter, leaving travelers on the nearby highway vulnerable to ambush.",
+  fullHash = "7b13b0",
+  text = "Furlbrow's Pumpkin Farm. Bandits and harvest golems hold Furlbrow's Pumpkin Farm in northern Westfall, off the road from Elwynn Forest. Farmer Furlbrow and Verna have lost their home to the Defias Brotherhood. Near Westfall's northern border, Furlbrow's Pumpkin Farm once fed the kingdom. The Defias Brotherhood drove Farmer Furlbrow and his wife Verna from their land. Now mechanical harvest golems roam the fields and attack anyone who approaches. Bandits occupy the farm buildings, while the rightful owners camp beside the road near the Jansen Stead, mourning their home and livelihood. The Defias Brotherhood has claimed homesteads like Furlbrow's while Stormwind's military garrison struggles to protect Westfall's rural farmers. Bandits camp at the farm and use it as a staging ground. Lethal harvest watchers guard the perimeter, leaving travelers on the nearby highway open to ambush.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_furlbrow-s-pumpkin-farm-e4eaa393a491eb69e70b/1-0000.mp3", duration = 52.4277551, start = 0},
+    {file = "Audio/Transport/full_subzone_furlbrow-s-pumpkin-farm-20482521753b97ee8941/1-0000.mp3", duration = 51.6702041, start = 0},
   },
 }
 P.transport["subzone:galardell-valley"] = {
@@ -1458,11 +1458,11 @@ P.transport["subzone:galardell-valley"] = {
   },
 }
 P.transport["subzone:gates-of-ironforge"] = {
-  hash = "6f9082",
-  fullHash = "6f9082",
-  text = "Gates of Ironforge. Travelers climb from Dun Morogh to the Gates of Ironforge, where a stone king guards the way into the dwarven capital. The gates open in the mountain face, with High King Modimus Anvilmar's statue just inside. The Gates of Ironforge rise above the snowy lowlands at the end of a winding, fortified ramp from central Dun Morogh. Beyond the massive portal, you enter the city proper beneath an enormous stone likeness of High King Modimus Anvilmar. He united the dwarven clans before the War of the Three Hammers. The passage opens directly into the Commons, where Ironforge's trade and banking are centered.",
+  hash = "024d0f",
+  fullHash = "024d0f",
+  text = "Gates of Ironforge. From Dun Morogh, travelers climb to the Gates of Ironforge, where a stone king guards the way into the dwarven capital. The gates open in the mountain face, with High King Modimus Anvilmar's statue just inside. From central Dun Morogh, you climb a winding, fortified ramp through the snowy lowlands to the Gates of Ironforge. Beyond the great portal stands a stone likeness of High King Modimus Anvilmar. He united the dwarven clans before the War of the Three Hammers. The passage opens into the Commons, where Ironforge's trade and banking are centered.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_gates-of-ironforge-a4ed082ff7c39945f7d8/1-0000.mp3", duration = 34.6383673, start = 0},
+    {file = "Audio/Transport/full_subzone_gates-of-ironforge-633e8e886c3def800aec/1-0000.mp3", duration = 34.0114286, start = 0},
   },
 }
 P.transport["subzone:goblin-foundry"] = {
@@ -1474,35 +1474,35 @@ P.transport["subzone:goblin-foundry"] = {
   },
 }
 P.transport["subzone:gol-bolar-quarry"] = {
-  hash = "7b239e",
-  fullHash = "7b239e",
-  text = "Gol'Bolar Quarry. At Gol'Bolar Quarry, troggs have driven the miners from their work in the snowy hills of southeastern Dun Morogh. The Ironforge dwarves came for stone and ore, but the excavation has fallen silent. Gol'Bolar Quarry lies southeast of Kharanos, where Ironforge dwarves came to draw stone and minerals from the mountains. Deep digging opened underground warrens, and hostile troggs drove the miners out. Now the upper camp is a staging ground under siege. Overseers, tradesfolk, and Prospector Gehn gather dwarven and gnomish recruits there to drive back the beasts and reclaim the pit.",
+  hash = "5e7732",
+  fullHash = "5e7732",
+  text = "Gol'Bolar Quarry. At Gol'Bolar Quarry, troggs have driven the miners from the snowy hills of southeastern Dun Morogh. The Ironforge dwarves came for stone and ore, but now the dig lies quiet. Ironforge dwarves opened Gol'Bolar Quarry southeast of Kharanos to draw stone and mineral wealth from the mountains. Their digging broke into underground warrens and brought a horde of hostile troggs into the open. The creatures soon drove out the miners.\n\nThe upper camp is now an embattled staging ground. Overseers, tradesfolk, and Prospector Gehn gather dwarven and gnomish recruits there to drive the troggs back and reclaim the pit.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_gol-bolar-quarry-52662a8082f6d8c2d7b9/1-0000.mp3", duration = 34.4816327, start = 0},
+    {file = "Audio/Transport/full_subzone_gol-bolar-quarry-af4222232e2fec11b082/1-0000.mp3", duration = 38.0604082, start = 0},
   },
 }
 P.transport["subzone:gol-bolar-quarry-mine"] = {
   hash = "705c48",
-  fullHash = "e7bb9b",
-  text = "Gol'Bolar Quarry Mine. Troggs hold Gol'Bolar Quarry Mine, deep beneath Gol'Bolar Quarry in eastern Dun Morogh. Ironforge dwarves once worked its tunnels for stone and rich ore, until they broke into trogg caverns and the creatures overran the site. Hammerspine leads the warband in the deepest shafts. Ironforge dwarves once mined stone and rich ore beneath Dun Morogh's craggy peaks. Their work ended when pickaxes broke through a wall into caverns inhabited by troggs. The creatures poured from the darkness, overwhelmed the crews, and drove them from the mine. Troggs then spread across the surrounding quarry pit. Younger, weaker troggs roam the quarry's sunlit terraces, while the mine shelters the warband's fiercest fighters. Hammerspine, their vicious chieftain, lurks deep in the cramped tunnels. Local mountaineers still need to reclaim the valuable quarry, but that means entering the mine's deepest reaches and cutting off the troggs at their source.",
+  fullHash = "a22b3d",
+  text = "Gol'Bolar Quarry Mine. Troggs hold Gol'Bolar Quarry Mine beneath the quarry in eastern Dun Morogh. Dwarves of Ironforge mined its tunnels for stone and rich ore until their picks broke into trogg caverns. Now Hammerspine leads the warband in the deepest shafts. The dwarves' pickaxes broke through a wall into caverns where troggs dwelled. Their mining ended there. Troggs poured from the darkness, overwhelmed the crews, and drove them from the mine. The abandoned shafts remain in trogg hands. Younger troggs roam the quarry's sunlit terraces, but the mine shelters the warband's fiercest fighters. Deep in its cramped tunnels lurks Hammerspine, their vicious chieftain. Local mountaineers still need to reclaim the valuable quarry. To do so, they must reach the mine's deepest shafts and cut off the troggs at their source.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_gol-bolar-quarry-mine-dd74c6ab5b2c5c2bbb7c/1-0000.mp3", duration = 54.4130612, start = 0},
+    {file = "Audio/Transport/full_subzone_gol-bolar-quarry-mine-42ae8d5f5b537bc3bb89/1-0000.mp3", duration = 49.1885714, start = 0},
   },
 }
 P.transport["subzone:gold-coast-quarry"] = {
-  hash = "f2fa89",
-  fullHash = "f2fa89",
-  text = "Gold Coast Quarry. In southwestern Westfall, the Gold Coast Quarry has fallen to the Defias Brotherhood. The mine once supplied Stormwind with stone, minerals, and gold; now the Brotherhood draws on its remaining resources for its insurrection. The Gold Coast Quarry once supplied Stormwind with stone and gold for the kingdom's rebuilding. After royal troops withdrew from Westfall, Defias highwaymen and renegade laborers seized the mine. Brotherhood patrols watch from its terraced ramps, which overlook the coast, and take what minerals remain to fund their rebellion.",
+  hash = "98b36d",
+  fullHash = "98b36d",
+  text = "Gold Coast Quarry. In southwestern Westfall, the Defias Brotherhood holds Gold Coast Quarry and draws on its remaining riches for rebellion. Once, its stone, minerals, and gold helped rebuild Stormwind. Stormwind once drew stone and gold from Gold Coast Quarry to rebuild the kingdom. After royal troops left Westfall, Defias highwaymen and renegade laborers seized the mine. Now Brotherhood patrols watch from its terraced ramps above the coast and take the minerals still left there to fund their rebellion.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_gold-coast-quarry-c9e5d0d22fc570fea4c5/1-0000.mp3", duration = 32.6530612, start = 0},
+    {file = "Audio/Transport/full_subzone_gold-coast-quarry-b70b31a7c410c795be3e/1-0000.mp3", duration = 29.5706122, start = 0},
   },
 }
 P.transport["subzone:goldshire"] = {
   hash = "d86afe",
-  fullHash = "8da9b9",
-  text = "Goldshire. Goldshire sits where Elwynn’s roads meet, linking Stormwind City with Westfall, Redridge, and the southern frontier. Rebuilt after the First War, the town now offers travelers the Lion’s Pride Inn, while a hard-pressed Stormwind Guard defends it. Goldshire stands where the king’s highways meet, the civic and commercial heart of rural Elwynn. Threats press closer as Stormwind’s forces stretch thin and King Varian Wrynn remains mysteriously absent. Marshal Dughan relies on passing adventurers instead of regular troops to hold the surrounding borders. Riverpaw gnolls push in from the west, while hostile murlocs claim the shores of Stone Cairn Lake and Crystal Lake. Their attacks have killed royal guards and brought danger close to the town center. Goldshire and Moonbrook were the last strongholds to fall in the First War. Warchief Blackhand cut King Llane Wrynn I off from his realm before sacking Stormwind Keep, and the Orcish Horde overwhelmed both towns. Goldshire was reduced to ash and lay barren until its rebuilding after the Second War.",
+  fullHash = "8549d4",
+  text = "Goldshire. Goldshire stands where Elwynn’s roads meet, between Stormwind City, Westfall, Redridge, and the southern frontier. Rebuilt after the First War, it offers travelers the Lion’s Pride Inn, while a hard-pressed Stormwind Guard defends the town. Goldshire holds the crossroads in rural Elwynn, where the king’s highways meet. Threats press closer as Stormwind’s forces thin and King Varian Wrynn remains mysteriously absent. Marshal Dughan must rely on passing adventurers instead of regular troops to guard the borders. Riverpaw gnolls push in from the west, while hostile murlocs claim the shores of Stone Cairn Lake and Crystal Lake. Their attacks have killed royal guards and brought danger close to town. Goldshire and Moonbrook were the last strongholds to fall in the First War. Warchief Blackhand cut King Llane Wrynn I off from his realm before sacking Stormwind Keep, and the Orcish Horde overwhelmed both towns. Goldshire was reduced to ash and lay barren until it was rebuilt after the Second War.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_goldshire-e3fd63d70c48d5b42813/1-0000.mp3", duration = 60.9436735, start = 0},
+    {file = "Audio/Transport/full_subzone_goldshire-782fcff90ef8f350f82e/1-0000.mp3", duration = 60.3689796, start = 0},
   },
 }
 P.transport["subzone:grand-vestibule"] = {
@@ -1515,10 +1515,10 @@ P.transport["subzone:grand-vestibule"] = {
 }
 P.transport["subzone:great-forge"] = {
   hash = "7d64f8",
-  fullHash = "09e9e7",
-  text = "Great Forge. At Ironforge’s center, the Great Forge burns as the heart of the dwarven capital. Its furnaces and Great Anvil keep smiths at work, while the chamber draws people from across the mountain city. The Great Forge was the first structure the early dwarves built beneath Ironforge Mountain. The capital grew in rings around it. Molten stone and slag flow from giant foundries into glowing channels, lighting the cavern with amber haze. At the center, Master of the Forge Myolor Sunderfury oversees the massive Great Anvil. Masters of metalwork gather around its rim, hammering armor, tools, and weapons day and night. Smithing is only part of the Great Forge’s work. Guild offices, supply shops, and the city’s main gryphon roost ring the chamber. Gryth Thurden maintains the roost, where travelers from across the Alliance mingle amid the hammer blows.",
+  fullHash = "05a988",
+  text = "Great Forge. At Ironforge’s center, the Great Forge keeps its fires burning and smiths at work. Its Great Anvil draws people from across the mountain city. The Great Forge was the first structure the early dwarves built beneath Ironforge Mountain. The capital grew outward in rings around it. Molten stone and slag run from giant foundries through glowing channels, lighting the cavern with an amber haze.\n\nAt the center, Master of the Forge Myolor Sunderfury oversees the massive Great Anvil. Masters of metalwork gather around its rim to hammer armor, tools, and weapons day and night. Smithing is only part of the Great Forge’s work. Guild offices, supply shops, and the city’s main gryphon roost ring the chamber. Gryth Thurden tends the roost, where travelers from across the Alliance mingle amid the hammer blows.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_great-forge-7273c04f670e1b0b92cc/1-0000.mp3", duration = 53.2897959, start = 0},
+    {file = "Audio/Transport/full_subzone_great-forge-39b88422fef19a4564a7/1-0000.mp3", duration = 50.8081633, start = 0},
   },
 }
 P.transport["subzone:great-lift"] = {
@@ -1555,18 +1555,18 @@ P.transport["subzone:grim-batol"] = {
 }
 P.transport["subzone:grizzled-den"] = {
   hash = "623b7b",
-  fullHash = "970cdb",
-  text = "Grizzled Den. Wendigo packs make their lair in Grizzled Den, southwest of Kharanos in Dun Morogh. Grizzled Den cuts into the crags southwest of Kharanos, where Dun Morogh’s wendigo packs make their home. These aggressive, ape-like beasts breathe frost at intruders and band together to defend their hollows. Hunters brave the cavern for the thick wendigo manes, which craftsmen use to line cold chairs and carriage seats with insulated fur. Prospectors enter Grizzled Den to work copper veins in its frozen stone walls, and scouts search its darker corners for discarded footlockers. The deeper tunnels hold the den’s largest and most vicious predators, waiting in the shadows.",
+  fullHash = "4e71ff",
+  text = "Grizzled Den. In Dun Morogh, wendigo packs make their lair in Grizzled Den, southwest of Kharanos. Southwest of Kharanos, Grizzled Den cuts into Dun Morogh’s crags. Wendigo packs make their home in its hollows. These aggressive, ape-like beasts breathe frost at intruders and band together to defend their lair. Hunters brave the cavern for thick wendigo manes, used by craftsmen to line cold chairs and carriage seats with insulating fur. Prospectors work copper veins in Grizzled Den’s frozen stone walls. Scouts search its darker corners for discarded footlockers. Deeper in the tunnels, the den’s largest and most vicious predators wait in the shadows.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_grizzled-den-fddc0e3968ade90d03a3/1-0000.mp3", duration = 39.0530612, start = 0},
+    {file = "Audio/Transport/full_subzone_grizzled-den-464a41a5219354c1b234/1-0000.mp3", duration = 40.5159184, start = 0},
   },
 }
 P.transport["subzone:grizzlepaw-ridge"] = {
-  hash = "f83195",
-  fullHash = "f83195",
-  text = "Grizzlepaw Ridge. Bears claim Grizzlepaw Ridge, the rough hills south of Thelsamar in Loch Modan. Ol' Sooty prowls among them, feared by local hunters. Grizzlepaw Ridge rises above the road south of Thelsamar, with Stonesplinter Valley along its western edge. Territorial bears claim the rough slopes and threaten travelers who skirt the mountains. Deep within the ridge lives Ol' Sooty, a massive, unusually fierce bear feared by local hunters. Travelers between the dwarven settlements watch the tree line and rocky terraces above.",
+  hash = "67856d",
+  fullHash = "67856d",
+  text = "Grizzlepaw Ridge. Bears claim the rough hills of Grizzlepaw Ridge, south of Thelsamar in Loch Modan. Local hunters fear Ol' Sooty, a massive bear among them. Grizzlepaw Ridge rises above the road south of Thelsamar, with Stonesplinter Valley along its western edge. Territorial bears threaten travelers skirting the mountains, so those passing between the dwarven settlements watch the tree line and rocky terraces. Deep within the ridge lives Ol' Sooty, an unusually fierce bear feared by local hunters.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_grizzlepaw-ridge-942cb5ec58ada6a42bfa/1-0000.mp3", duration = 31.764898, start = 0},
+    {file = "Audio/Transport/full_subzone_grizzlepaw-ridge-628f5d12fc2959e1b2e5/1-0000.mp3", duration = 31.1902041, start = 0},
   },
 }
 P.transport["subzone:grove-of-the-ancients"] = {
@@ -1579,74 +1579,74 @@ P.transport["subzone:grove-of-the-ancients"] = {
 }
 P.transport["subzone:gryphon-roost"] = {
   hash = "30bda3",
-  fullHash = "f20a08",
-  text = "Gryphon Roost. Gryphons take travelers from Stormwind’s eastern ramparts across the Eastern Kingdoms. Dungar Longdrink, a human gryphon master, manages the roost beside the Trade District. From the eastern ramparts, gryphons carry travelers from Stormwind to Alliance garrisons and settlements across the Eastern Kingdoms. Dungar Longdrink, the seasoned gryphon master, coordinates flights to Ironforge, Lakeshire, Sentinel Hill, and other destinations. Gryphons and their handlers bring a trace of Hinterlands tradition within Stormwind’s walls. The Wildhammer clan has long revered gryphons as partners and introduced aerial warfare and transport to the broader Alliance during the Second War. Leather, feed, and fresh winds mark the roost amid the city’s stonework.",
+  fullHash = "6444dc",
+  text = "Gryphon Roost. Gryphons carry travelers from Stormwind’s eastern ramparts across the Eastern Kingdoms. Human gryphon master Dungar Longdrink tends the roost beside the Trade District. Dungar Longdrink arranges flights to Ironforge, Lakeshire, Sentinel Hill, and other Alliance garrisons and settlements. The roost joins Stormwind to these outlying holds. Its trained gryphons wait ready for the journeys ahead. Gryphons and their handlers bring a trace of Hinterlands tradition into Stormwind. The Wildhammer clan has long honored gryphons as partners. During the Second War, they brought aerial warfare and transport to the wider Alliance. Leather, feed, and fresh winds lend the roost a frontier air amid the city’s stonework.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_gryphon-roost-e7f016fdddb5ca561f10/1-0000.mp3", duration = 42.9714286, start = 0},
+    {file = "Audio/Transport/full_subzone_gryphon-roost-e61748a57310b83f34d1/1-0000.mp3", duration = 45.1918367, start = 0},
   },
 }
 P.transport["subzone:hall-of-arms"] = {
-  hash = "69f659",
-  fullHash = "69f659",
-  text = "Hall of Arms. Dwarven warriors and hunters train at the Hall of Arms in Ironforge’s Military Ward. Its command staff oversees the city’s forces, while steam tanks and flying machines are prepared for battle. The Hall of Arms commands Ironforge’s armed forces from the southeastern corner of the Military Ward. Warriors and hunters train there under veteran instructors, while the facility stores and stages machines of war. Steam tanks are assembled and maintained on site for Alliance battlefields. Gyrocopters and flying machines travel up industrial conveyor belts, then launch through shafts in the cavern ceiling toward the Ironforge Airfield above.",
+  hash = "cfef2e",
+  fullHash = "cfef2e",
+  text = "Hall of Arms. In Ironforge’s Military Ward, the Hall of Arms readies the city’s forces for battle. Command staff oversee the troops while warriors and hunters train, and machines are prepared for war. The Hall of Arms commands Ironforge’s armed forces from the Military Ward’s southeastern corner. Veteran instructors train warriors and hunters there, while the facility stores and stages machines of war. Steam tanks are assembled and maintained for Alliance battlefields. Gyrocopters and flying machines ride industrial conveyor belts through shafts in the cavern ceiling, then launch toward the Ironforge Airfield above.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_hall-of-arms-2bfe881b6b40ceeb469d/1-0000.mp3", duration = 34.9779592, start = 0},
+    {file = "Audio/Transport/full_subzone_hall-of-arms-f077970cad91dd645349/1-0000.mp3", duration = 37.1722449, start = 0},
   },
 }
 P.transport["subzone:hall-of-arms-northshire"] = {
-  hash = "a04b7f",
-  fullHash = "a04b7f",
-  text = "Hall of Arms (Northshire). In Northshire Abbey, recruits train with the Stormwind Army in the Hall of Arms, south of the Main Hall. The Hall of Arms rings with blunted steel and the measured cadence of instruction. South of Northshire Abbey’s Main Hall, the wing trains human fighters and devout aspirants who take up arms for the Stormwind Army. Veteran battle instructors and paladin mentors teach the postures and disciplines needed to defend Elwynn Forest from kobolds, Defias bandits, and gnoll raiders. Across the courtyard, clerics and scholars study ancient tomes in the Library Wing.",
+  hash = "1de868",
+  fullHash = "1de868",
+  text = "Hall of Arms (Northshire). Recruits train with the Stormwind Army in Northshire Abbey’s Hall of Arms, south of the Main Hall. Blunted steel rings through the Hall of Arms, and instruction keeps a measured cadence. South of Northshire Abbey’s Main Hall, human fighters and devout aspirants train for the Stormwind Army. Veteran battle instructors and paladin mentors teach the postures and disciplines needed to defend Elwynn Forest from kobolds, Defias bandits, and gnoll raiders. Across the courtyard, clerics and scholars study ancient tomes in the Library Wing.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_hall-of-arms-northshire-c550b604d99fd3f59a5d/1-0000.mp3", duration = 33.28, start = 0},
+    {file = "Audio/Transport/full_subzone_hall-of-arms-northshire-90639d184d0a201b4bd1/1-0000.mp3", duration = 31.6604082, start = 0},
   },
 }
 P.transport["subzone:hall-of-explorers"] = {
-  hash = "d3e1a3",
-  fullHash = "d3e1a3",
-  text = "Hall of Explorers. Explorers gather relics and records in Ironforge's Hall of Explorers. The dwarven Explorers' League studies Azeroth's past here, seeking the origins of the dwarven race. The Hall of Explorers fills a cavern in northeastern Ironforge. High Explorer Muninn Magellas directs scholars and field agents as they coordinate digs across distant lands. Relics, ancient titan machinery, and prehistoric bones return from those expeditions. At the hall's center, the Library holds historical lore, with displays open to visitors and other records kept under restriction.",
+  hash = "0df4b6",
+  fullHash = "0df4b6",
+  text = "Hall of Explorers. In Ironforge, the Hall of Explorers draws the dwarves who seek their people's origins. The Explorers' League studies Azeroth's past here. In northeastern Ironforge, the Hall of Explorers fills a cavern with scholars and field agents. High Explorer Muninn Magellas directs their work as they arrange digs in distant lands. Those expeditions bring back relics, ancient titan machinery, and prehistoric bones. At the hall's center, the Library keeps historical lore. Visitors may see its displays, while other records remain restricted.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_hall-of-explorers-b29405f14e7051b9f15a/1-0000.mp3", duration = 34.324898, start = 0},
+    {file = "Audio/Transport/full_subzone_hall-of-explorers-3d6f4f3463f666f9c03b/1-0000.mp3", duration = 33.6718367, start = 0},
   },
 }
 P.transport["subzone:hall-of-gears"] = {
   hash = "6b6d4f",
-  fullHash = "c189f1",
-  text = "Hall of Gears. Beyond the Clockwerk Run, the Hall of Gears lies in ruin inside Gnomeregan. Toxic sludge fills its lower floor, while oozes and irradiated troggs roam the chamber. The Hall of Gears lies beyond the Clockwerk Run, deep in Gnomeregan’s ruined machinery halls. Its two levels show how completely the gnome capital has fallen. Irradiated troggs claw through collapsed access shafts and prowl the upper catwalks. Below, radioactive pools cover the floor, where corrosive slimes and living poison elementals thrive in the toxic runoff. The Hall of Gears links parts of Gnomeregan’s operational quarters. From the upper walkways, paths lead to contaminated dead ends, the Clean Zone, and the Dormitory. Below, winding maintenance passages lead toward the Launch Bay. Both levels remain dangerous because of the horrors left by Mekgineer Thermaplugg’s venting scheme.",
+  fullHash = "8bd0b8",
+  text = "Hall of Gears. In Gnomeregan, the Hall of Gears lies in ruin beyond the Clockwerk Run. Toxic sludge fills its lower floor, where oozes and irradiated troggs roam. Beyond the Clockwerk Run, the Hall of Gears lies deep within Gnomeregan’s ruined machinery halls. Its two levels show how completely the gnome capital has fallen. Irradiated troggs claw through collapsed access shafts and prowl the upper catwalks. Below, radioactive pools cover the floor. Corrosive slimes and living poison elementals thrive in the toxic runoff. The Hall of Gears links parts of Gnomeregan’s operational quarters. From the upper walkways, paths lead to contaminated dead ends, the Clean Zone, and the Dormitory. Below, winding maintenance passages lead toward the Launch Bay. Horrors left by Mekgineer Thermaplugg’s venting scheme still make both levels dangerous.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_hall-of-gears-4b6f54240c72054049f5/1-0000.mp3", duration = 51.3828571, start = 0},
+    {file = "Audio/Transport/full_subzone_hall-of-gears-83ba76cf16e4497631fe/1-0000.mp3", duration = 55.3534694, start = 0},
   },
 }
 P.transport["subzone:hall-of-mysteries"] = {
-  hash = "69d1fd",
-  fullHash = "69d1fd",
-  text = "Hall of Mysteries. In Ironforge’s Mystic Ward, the Hall of Mysteries brings faith and arcane study together. Dwarven and gnomish practitioners read ancient texts, learn the Holy Light, and weave enchantments within its blue-lit halls. Blue and purple light marks the Hall of Mysteries amid Ironforge’s stone, iron, and heavy plate. Five soaring pillars shelter scholars in flowing robes. The hall is headquarters for the dwarven priesthood and the Order of the Silver Hand within Khaz Modan, joining arcane study with devotion to the Holy Light. Young clerics and knights study texts such as the Tome of Divinity here. They receive guidance before traveling onward to Stormwind’s Cathedral of Light.",
+  hash = "3152f0",
+  fullHash = "3152f0",
+  text = "Hall of Mysteries. In Ironforge’s Mystic Ward, the Hall of Mysteries gathers dwarven and gnomish practitioners for faith and arcane study. They read ancient texts, learn the Holy Light, and weave enchantments within its blue-lit halls. Blue and purple light marks the Hall of Mysteries among Ironforge’s stone, iron, and heavy plate. Five soaring pillars shelter scholars in flowing robes. Here, the dwarven priesthood and the Order of the Silver Hand hold their headquarters within Khaz Modan. They join arcane study with devotion to the Holy Light.\n\nYoung clerics and knights study texts such as the Tome of Divinity here. They receive guidance before traveling onward to Stormwind’s Cathedral of Light.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_hall-of-mysteries-035e0cf49e5b5b58b65e/1-0000.mp3", duration = 40.724898, start = 0},
+    {file = "Audio/Transport/full_subzone_hall-of-mysteries-6ec11539fa09788b0fe3/1-0000.mp3", duration = 42.3183673, start = 0},
   },
 }
 P.transport["subzone:helm-s-bed-lake"] = {
-  hash = "10a54c",
-  fullHash = "10a54c",
-  text = "Helm's Bed Lake. In southeastern Dun Morogh, Helm's Bed Lake lies frozen beneath the hills. Dwarves keep a hole open in its ice for fresh water, while beasts, troggs, and hostile Dark Iron dwarves threaten the shore. Helm's Bed Lake lies beneath winter ice in southeastern Dun Morogh. Local dwarves keep an opening chopped through the frost so they can draw clean, fresh water. The frozen surface is stable enough to cross, but the banks are dangerous. Wild beasts roam the edges, displaced troggs scavenge along the ridges, and hostile Dark Iron dwarves have taken an abandoned lodge just south of the water. They ambush travelers who pass through.",
+  hash = "a0a729",
+  fullHash = "a0a729",
+  text = "Helm's Bed Lake. In southeastern Dun Morogh, dwarves keep a hole open in Helm's Bed Lake for fresh water. But beasts, troggs, and hostile Dark Iron dwarves make the shore dangerous. The ice is firm enough to cross, but the banks are dangerous. Displaced troggs scavenge along the ridges, and wild beasts prowl the edges. South of the water, hostile Dark Iron dwarves have taken an abandoned lodge. They ambush travelers who pass nearby.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_helm-s-bed-lake-45127eee064d6187372a/1-0000.mp3", duration = 38.4261224, start = 0},
+    {file = "Audio/Transport/full_subzone_helm-s-bed-lake-d60fe68cc7ee3985a5f9/1-0000.mp3", duration = 27.7942857, start = 0},
   },
 }
 P.transport["subzone:heroes-vigil"] = {
   hash = "e43720",
-  fullHash = "84c0d7",
-  text = "Heroes' Vigil. On Stone Cairn Lake’s central island, Heroes' Vigil lies neglected and overrun by renegade wizards. Its Stone of Remembrance honors those who fell in the First War. Heroes' Vigil stands on an island in Stone Cairn Lake, centered on the Stone of Remembrance. Erected after the First War, its inscribed stone circle honors the soldiers and citizens slaughtered when the Old Horde sacked Goldshire and the surrounding valleys. Once revered as a sacred place of faith and sacrifice, the vigil has slipped from Stormwind's attention. Its grounds now lie overgrown, with no soldiers sent to tend them. With no kingdom garrison on the island, outcasts have taken the memorial. Rogue wizards control Stone Cairn Lake and the grounds, practicing wild, undisciplined magic beyond the oversight of the Kirin Tor and the Academy of Arcane Sciences. Near the stones lies Henze Faulk's body among other tragic casualties. Travelers can only wonder whether the shrine will ever know peace again.",
+  fullHash = "72724c",
+  text = "Heroes' Vigil. On Stone Cairn Lake's island, Heroes' Vigil lies neglected and overrun by renegade wizards. The Stone of Remembrance honors those who fell in the First War. Heroes' Vigil gathers around the Stone of Remembrance on an island in Stone Cairn Lake. Erected after the First War, its inscribed circle honors the soldiers and citizens slain when the Old Horde sacked Goldshire and the surrounding valleys. Once a sacred place of faith and sacrifice, the memorial has slipped from Stormwind's attention. Its grounds are overgrown, and no soldiers tend them. Without a kingdom garrison, outcasts have claimed the island. Rogue wizards control Stone Cairn Lake and the memorial grounds. They practice wild, undisciplined magic beyond the oversight of the Kirin Tor and the Academy of Arcane Sciences. Near the stones lies Henze Faulk's body among other tragic casualties. Travelers can only wonder whether the shrine will know peace again.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_heroes-vigil-218ae9144865375886ed/1-0000.mp3", duration = 57.6, start = 0},
+    {file = "Audio/Transport/full_subzone_heroes-vigil-35d91c61144cd59c4726/1-0000.mp3", duration = 56.1632653, start = 0},
   },
 }
 P.transport["subzone:high-seat"] = {
   hash = "736ded",
-  fullHash = "b80c55",
-  text = "High Seat. King Magni Bronzebeard holds court in High Seat, between the Commons and the Great Forge. His royal advisors and historians gather in the chamber, where a sealed passage leads down to Old Ironforge. King Magni Bronzebeard hears petitioners and meets with his advisors in High Seat. Royal Historian Archesonus and Senator Barin Redstone stand among those at his side as he directs the defense of the Alliance's northern bastions. The chamber is the seat of power for the kingdom of Khaz Modan, and Magni leads from here amid troubling times across Azeroth. A heavy doorway at the back of the throne room leads down into Old Ironforge. The lower ruins are the ancestral halls the dwarves carved before the city was reconfigured around the Great Forge. The passage is sealed and guarded, keeping general traffic from the ancient halls beneath the capital.",
+  fullHash = "40a2c8",
+  text = "High Seat. King Magni Bronzebeard holds court in High Seat, between the Commons and the Great Forge. His advisors and historians gather there, and a sealed passage leads down to Old Ironforge. King Magni Bronzebeard hears petitioners and meets with his advisors in High Seat. Royal Historian Archesonus and Senator Barin Redstone stand at his side. From here, Magni directs the defense of the Alliance's northern bastions. High Seat is the seat of power for Khaz Modan, and he leads the kingdom through troubling times across Azeroth. A heavy doorway at the back of the throne room leads down into Old Ironforge. The lower ruins are ancestral halls the dwarves carved before the city was reconfigured around the Great Forge. The passage is sealed and guarded, keeping general traffic from the ancient halls beneath the capital.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_high-seat-956f7d31d604ce41aadb/1-0000.mp3", duration = 47.9346939, start = 0},
+    {file = "Audio/Transport/full_subzone_high-seat-92e9b61675d156591e40/1-0000.mp3", duration = 49.2669388, start = 0},
   },
 }
 P.transport["subzone:highperch"] = {
@@ -1682,11 +1682,11 @@ P.transport["subzone:hushed-bank"] = {
   },
 }
 P.transport["subzone:iceflow-lake"] = {
-  hash = "ca7594",
-  fullHash = "ca7594",
-  text = "Iceflow Lake. At Iceflow Lake, dwarves keep fishing holes open through the ice. The lake lies in western Dun Morogh, directly north of Brewnall Village. Snow-covered islands rise from its center, where winter wolves and their alpha, Timber, prowl. Iceflow Lake lies in western Dun Morogh, just north of Brewnall Village. Bitter cold keeps thick sheets of ice creeping across its surface, so local residents such as Paxton Ganter clear holes for fishing and drinking water. The shore offers sustenance, but the islands in the lake’s center are dangerous ground. A fierce pack of wild wolves prowls those icy mounds, led by Timber, a savage gray worg.",
+  hash = "e0cebc",
+  fullHash = "e0cebc",
+  text = "Iceflow Lake. In western Dun Morogh, dwarves keep fishing holes open at Iceflow Lake, just north of Brewnall Village. Snow-covered islands rise from its center, where winter wolves prowl under their alpha, Timber. Paxton Ganter and other local dwarves clear thick ice from the lake for drinking water and fish. Bitter cold sweeps the shore, yet it still sustains them.\n\nThe islands are dangerous ground. A fierce pack of wild wolves prowls the icy mounds, led by Timber, a savage gray worg.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_iceflow-lake-a89d03a6c3d168b19a53/1-0000.mp3", duration = 41.1428571, start = 0},
+    {file = "Audio/Transport/full_subzone_iceflow-lake-9a553a6430d2a743e79e/1-0000.mp3", duration = 30.8506122, start = 0},
   },
 }
 P.transport["subzone:iris-lake"] = {
@@ -1699,18 +1699,18 @@ P.transport["subzone:iris-lake"] = {
 }
 P.transport["subzone:ironband-s-compound"] = {
   hash = "122035",
-  fullHash = "793f2f",
-  text = "Ironband's Compound. Dark Iron dwarves hold Ironband's Compound south of Helm's Bed Lake in eastern Dun Morogh. Once Sturgy Ironband's camp, it now threatens travelers and nearby settlements. Dark Iron dwarves hold the compound south of Helm's Bed Lake. Sturgy Ironband first established the camp as a staging post in Dun Morogh's snowy wilderness. Dark Iron infiltrators pushed deep into Bronzebeard territory and seized it. Now their forces threaten travelers and nearby settlements, close to Ironforge. The Dark Iron camp stands within Dun Morogh's borders, a serious provocation to Ironforge. The city keeps watch and sends seasoned warriors to recover fallen scouts and secure vital intelligence about the Dark Iron threat in the mountain kingdom.",
+  fullHash = "7c38de",
+  text = "Ironband's Compound. Dark Iron dwarves now hold Ironband's Compound south of Helm's Bed Lake in eastern Dun Morogh. Sturgy Ironband once used the camp, but its fall has brought danger to travelers and nearby settlements. Sturgy Ironband raised the camp as a staging post in Dun Morogh's snowy wilderness. Dark Iron infiltrators then pushed deep into Bronzebeard territory and seized it. Their forces now stand close to Ironforge, and the outpost threatens the city's edge. Within Dun Morogh, the Dark Iron camp is a grave provocation to Ironforge. The city keeps watch and sends seasoned warriors to recover fallen scouts. They also seek vital intelligence on the Dark Iron threat in the mountain kingdom.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_ironband-s-compound-d2c884af540a6ba5e198/1-0000.mp3", duration = 44.7216327, start = 0},
+    {file = "Audio/Transport/full_subzone_ironband-s-compound-5f30954de2d16fb3e550/1-0000.mp3", duration = 43.5983673, start = 0},
   },
 }
 P.transport["subzone:ironband-s-excavation-site"] = {
   hash = "f20f66",
-  fullHash = "7c1567",
-  text = "Ironband's Excavation Site. Prospector Ironband’s dig lies south of the Loch, where troggs have driven the miners from their trenches. The excavation in southeastern Loch Modan, southwest of Farstrider Lodge, has been halted. Prospector Ironband’s dig in southeastern Loch Modan began with a search into the dwarves’ ancient Titan origins. The work ended in disaster when the miners disturbed an unusually fierce, large breed of subterranean troggs. The creatures surged from the earth, drove the miners back, and made camp among scattered tools, broken carts, and half-excavated relics. The troggs hold the site, while surviving prospectors wait at the edge of the perimeter. Like efforts in the Badlands, Wetlands, and Uldaman, this dig is caught in danger. The prospectors hope to reclaim their stolen gear and guard exposed artifacts, including strange ancient statues left by long-forgotten builders, from the ravenous troggs.",
+  fullHash = "c551b9",
+  text = "Ironband's Excavation Site. In southeastern Loch Modan, troggs have driven the miners from Ironband's Excavation Site. The dig lies south of the Loch and southwest of Farstrider Lodge. Prospector Ironband began the dig to seek the dwarves’ ancient Titan origins. Then the miners disturbed an unusually fierce and large breed of subterranean troggs. The creatures surged from the earth and drove the miners back. Now they camp among scattered tools, broken carts, and half-excavated relics. Troggs hold the site while surviving prospectors wait at its perimeter. Like archaeological efforts in the Badlands, Wetlands, and Uldaman, this dig is caught in danger. The prospectors hope to reclaim their stolen gear and guard exposed artifacts from the ravenous troggs. Strange ancient statues remain among those artifacts, left by long-forgotten builders.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_ironband-s-excavation-site-11808b28c99b7a5b13bb/1-0000.mp3", duration = 53.7861224, start = 0},
+    {file = "Audio/Transport/full_subzone_ironband-s-excavation-site-f51ba4748c1cff0cc11a/1-0000.mp3", duration = 53.0285714, start = 0},
   },
 }
 P.transport["subzone:ironbeard-s-tomb"] = {
@@ -1731,42 +1731,42 @@ P.transport["subzone:ironclad-cove"] = {
 }
 P.transport["subzone:ironforge-airfield"] = {
   hash = "ba9b56",
-  fullHash = "4a53df",
-  text = "Ironforge Airfield. High above Dun Morogh, gnome flying machines and dwarven mountaineers hold a remote airfield northeast of Ironforge. Its plateau overlooks jagged crags and the steep descent toward the Wetlands. High above Dun Morogh's trails, gnome flying machines line open landing strips among the mountain peaks. Dwarven masonry anchors the ridgelines, and mountaineers watch the perimeter. Nearby, engineers tend the machines and inspect their engines in the cold. The valley around the airfield is contested ground. Frostmane trolls dwell in nearby caves and harass the dwarven sentries. Across frozen waters beneath the peaks, dwarven defenders and Stormpike patrols clash with troll raiders, keeping the outpost on guard.",
+  fullHash = "a3fbcb",
+  text = "Ironforge Airfield. Gnome flying machines and dwarven mountaineers keep watch at Ironforge Airfield, high above Dun Morogh. Its plateau overlooks jagged crags and the steep descent toward the Wetlands. Above Dun Morogh's trails, gnome flying machines line open strips among the peaks. Dwarven stonework holds the ridgelines, where mountaineers watch the perimeter. Nearby, engineers tend the machines and inspect their engines in the cold. Frostmane trolls dwell in caves near the airfield and harass the dwarven sentries. Across the frozen waters beneath the peaks, dwarven defenders and Stormpike patrols clash with troll raiders. So the outpost remains on guard.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_ironforge-airfield-159886e1a4d892866162/1-0000.mp3", duration = 43.5461224, start = 0},
+    {file = "Audio/Transport/full_subzone_ironforge-airfield-7f51279afeee059aa1bc/1-0000.mp3", duration = 41.5608163, start = 0},
   },
 }
 P.transport["subzone:jangolode-mine"] = {
-  hash = "dc0518",
-  fullHash = "dc0518",
-  text = "Jangolode Mine. In Westfall’s rolling hills, the Defias Brotherhood works Jangolode Mine for itself. The mine once supplied Stormwind City with ore and raw materials. Before Westfall declined, Jangolode Mine sent metals to Stormwind City for its reconstruction and supply. As civil order weakened and the kingdom withdrew its garrisons, the Defias Brotherhood seized the mine to support its own operations. The bandits now work its rich veins and defend the shafts fiercely.",
+  hash = "3d95aa",
+  fullHash = "3d95aa",
+  text = "Jangolode Mine. In Westfall, the Defias Brotherhood works Jangolode Mine for itself. The mine once supplied Stormwind City with ore and raw materials. Before Westfall declined, Jangolode Mine sent metal to Stormwind City for rebuilding and supplies. As civil order weakened, the kingdom withdrew its garrisons. The Defias Brotherhood seized the mine to support its own operations. Now the bandits work its rich veins and fiercely defend the shafts.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_jangolode-mine-a347834351cc33c0a06c/1-0000.mp3", duration = 28.1077551, start = 0},
+    {file = "Audio/Transport/full_subzone_jangolode-mine-66cb79ac74e49c4ed6e2/1-0000.mp3", duration = 26.6710204, start = 0},
   },
 }
 P.transport["subzone:jansen-stead"] = {
-  hash = "3bd4f9",
-  fullHash = "3bd4f9",
-  text = "Jansen Stead. Jansen Stead lies just west of the Elwynn border, where Defias bandits and mechanical Harvest Watchers now roam its fields. Jansen Stead lies beside the road from Elwynn into Westfall. The farm once fed the kingdom, but unrest has driven its family from the land. Now Harvest Watchers, mechanical constructs associated with the Defias Brotherhood, patrol the fields alongside brigands. Couriers and travelers between Goldshire and Sentinel Hill pass close by.",
+  hash = "14baf8",
+  fullHash = "14baf8",
+  text = "Jansen Stead. Defias bandits and mechanical Harvest Watchers roam the fields of Jansen Stead, just west of Elwynn. Jansen Stead stands beside the road from Elwynn into Westfall. Once its farm fed the kingdom, but unrest has driven the family from the land. Now mechanical Harvest Watchers patrol the fields alongside brigands. The Watchers are tied to the Defias Brotherhood. Couriers and travelers between Goldshire and Sentinel Hill pass close by.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_jansen-stead-c66003dcf1a0763881dc/1-0000.mp3", duration = 27.5591837, start = 0},
+    {file = "Audio/Transport/full_subzone_jansen-stead-51d9df8450f655ae8f61/1-0000.mp3", duration = 27.3240816, start = 0},
   },
 }
 P.transport["subzone:jasperlode-mine"] = {
   hash = "1f1858",
-  fullHash = "fd00c1",
-  text = "Jasperlode Mine. In north-central Elwynn, Jasperlode Mine lies lost to kobolds and giant spiders. Its shafts once supplied Stormwind City with vital iron and minerals, but the resource-strapped kingdom cannot reclaim them. Jasperlode Mine once supplied Stormwind with a steady wealth of minerals, alongside nearby Fargodeep. With the kingdom's forces stretched thin by outside threats and unrest, local garrisons cannot protect the shafts. Kobolds seized their chance, drove out the human miners, and hoarded stolen gold and tallow candles. Deep within Jasperlode Mine, mine spiders have taken hold beneath the timber supports. A massive matriarch called Mother Fang leads them. The spiders prey on trespassing kobolds and unwary prospectors, making any attempt to salvage the mine dangerous.",
+  fullHash = "a79e15",
+  text = "Jasperlode Mine. In north-central Elwynn, kobolds and giant spiders hold Jasperlode Mine. Its shafts once sent iron and minerals to Stormwind City, but the kingdom lacks the strength to reclaim them. Jasperlode Mine once sent a steady supply of minerals to Stormwind, as did nearby Fargodeep. Now the kingdom's forces are stretched thin by threats beyond its borders and unrest at home. Local garrisons cannot guard the shafts. Kobolds drove out the human miners and seized the mine, hoarding stolen gold and tallow candles. Mine spiders have made their home beneath Jasperlode Mine's timber supports. A massive matriarch called Mother Fang leads them. They prey on kobolds who trespass and on unwary prospectors. Salvaging the mine means facing those dangers in its depths.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_jasperlode-mine-2e64854a648b992d4cad/1-0000.mp3", duration = 46.1844898, start = 0},
+    {file = "Audio/Transport/full_subzone_jasperlode-mine-061b099d48c8d4f3ba0b/1-0000.mp3", duration = 47.3338776, start = 0},
   },
 }
 P.transport["subzone:jerod-s-landing"] = {
-  hash = "3ee15e",
-  fullHash = "3ee15e",
-  text = "Jerod's Landing. Defias smugglers hold Jerod's Landing on the Elwynn Forest bank of the Nazferiti River. The dock gives them a hidden route for illicit shipments across the kingdom's waterways. Defias outlaws now control the river dock at Jerod's Landing, where Elwynn Forest meets the waters of the Nazferiti River. Once an ordinary boat dock, it now receives goods plundered from the Redridge Mountains under a Defias dockmaster's watch. The outlaws move the cargo discreetly downstream toward holdings such as Klaven's Tower in Westfall.",
+  hash = "1e0827",
+  fullHash = "1e0827",
+  text = "Jerod's Landing. Defias smugglers hold Jerod's Landing beside the Nazferiti River in Elwynn Forest. Its dock gives them a hidden route for stolen goods across the kingdom's waterways. Defias outlaws control the dock at Jerod's Landing, where Elwynn Forest meets the Nazferiti River. Once an ordinary boat dock, it now receives goods plundered from the Redridge Mountains. A Defias dockmaster watches over the cargo as the outlaws move it downstream toward holdings such as Klaven's Tower in Westfall.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_jerod-s-landing-d353da278ab9c18cb376/1-0000.mp3", duration = 30.6677551, start = 0},
+    {file = "Audio/Transport/full_subzone_jerod-s-landing-71c37796cbf1a1725e5c/1-0000.mp3", duration = 28.7869388, start = 0},
   },
 }
 P.transport["subzone:kargathia-keep"] = {
@@ -1779,10 +1779,10 @@ P.transport["subzone:kargathia-keep"] = {
 }
 P.transport["subzone:kharanos"] = {
   hash = "ea401e",
-  fullHash = "8e1185",
-  text = "Kharanos. Kharanos is a bustling mountain settlement nestled in the snowy heart of Dun Morogh, just down the road from Ironforge. Serving as the primary hub for travelers leaving Coldridge Valley, the town hosts a forge, gnomish workshops, and the famous Thunderbrew Distillery. Situated along the central road of Dun Morogh, Kharanos is the first true town welcoming recruits arriving from Anvilmar. Despite the biting cold and biting winds, the settlement thrives thanks to local dwarven grit and gnomish ingenuity. It centers around a roaring public forge and the Thunderbrew Distillery, renowned across the eastern mountains for producing some of the finest ale in Khaz Modan. Between bustling crafters and weary travelers seeking warmth, the town stands as the essential staging ground for business in the lower peaks. Behind its cozy hearths, Kharanos serves as a vital military outpost tasked with keeping the mountain passes secure. Fierce indigenous wendigo prowl the frozen caverns directly to the west, while aggressive Frostmane trolls remain entrenched atop Shimmer Ridge to the northwest. With Ironforge's regular forces stretched thin across the realm, the town relies heavily on visiting adventurers and local watchmen to drive back raiding parties, cull dangerous predators, and ensure the trade routes remain open.",
+  fullHash = "5eb7c8",
+  text = "Kharanos. Travelers leaving Coldridge Valley make Kharanos their primary stop, just down the road from Ironforge. The town has a forge, gnomish workshops, and the famous Thunderbrew Distillery. Along Dun Morogh's central road, Kharanos is the first true town for recruits arriving from Anvilmar. The cold and wind bite hard, but dwarven grit and gnomish ingenuity keep the settlement thriving. Its heart is a roaring public forge and the Thunderbrew Distillery, whose ale is counted among the finest in Khaz Modan and renowned across the eastern mountains.\n\nCrafters work among weary travelers seeking warmth. Together, they make Kharanos an essential place for business in the lower peaks. Behind Kharanos's cozy hearths, a military outpost guards the mountain passes. Fierce indigenous wendigo prowl the frozen caverns directly to the west, while aggressive Frostmane trolls hold Shimmer Ridge to the northwest.\n\nIronforge's regular forces are stretched thin across the realm. So Kharanos relies heavily on visiting adventurers and local watchmen to drive back raiding parties, cull dangerous predators, and keep the trade routes open.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_kharanos-48ecc4253bde67bf0651/1-0000.mp3", duration = 78.837551, start = 0},
+    {file = "Audio/Transport/full_subzone_kharanos-43c3d310dc13334a0fdd/1-0000.mp3", duration = 69.5902041, start = 0},
   },
 }
 P.transport["subzone:lake-al-ameth"] = {
@@ -1843,26 +1843,26 @@ P.transport["subzone:lakeshire-town-hall"] = {
 }
 P.transport["subzone:library-ironforge"] = {
   hash = "10e7ed",
-  fullHash = "e414ce",
-  text = "Library (Ironforge). In Ironforge's Library, the Explorers' League keeps its histories and recovered relics. The eastern wing of the Hall of Explorers holds books and artifacts gathered from across Azeroth. Dwarven scholars study relics and field reports from across the world in a great chamber of the Hall of Explorers. The Explorers' League keeps the Library, where shelves hold chronicles of the War of the Three Hammers, the ancient Troll Wars, and the origins of the dwarven race. Librarian Mae Paledust helps visitors find rare books and records. Curator Thorius oversees the Library's displays of physical finds from deep excavations, abandoned ruins, and distant shorelines. League members study, preserve, and display these objects. The collection ranges from crude murloc idols and carved knives to relics recovered frozen in northern ice. Curators record each find as they piece together the history of the Titans and early Azeroth.",
+  fullHash = "aa3758",
+  text = "Library (Ironforge). In Ironforge, the Explorers' League keeps its histories and recovered relics in the Library. The eastern wing of the Hall of Explorers holds books and artifacts gathered across Azeroth. In the Hall of Explorers, dwarven scholars study relics and field reports in a great chamber. The Explorers' League keeps the Library, where shelves hold chronicles of the War of the Three Hammers, the ancient Troll Wars, and the origins of the dwarven race. Librarian Mae Paledust helps visitors find rare books and records. Curator Thorius oversees displays of finds from deep excavations, abandoned ruins, and distant shorelines. League members study, preserve, and display these objects. The collection ranges from crude murloc idols and carved knives to relics recovered frozen in northern ice. Curators record each find as they piece together the history of the Titans and early Azeroth.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_library-ironforge-cead808a829170573917/1-0000.mp3", duration = 55.9281633, start = 0},
+    {file = "Audio/Transport/full_subzone_library-ironforge-86e20f5600abc882ab5a/1-0000.mp3", duration = 53.995102, start = 0},
   },
 }
 P.transport["subzone:library-wing-northshire"] = {
-  hash = "b356fd",
-  fullHash = "b356fd",
-  text = "Library Wing (Northshire). In Northshire Abbey, the Library Wing gathers scholars and new priests and mages. Its quiet southern rooms offer instruction for those joining Stormwind’s defense. The Library Wing branches south from Northshire Abbey’s Main Hall. Dusty shelves, study lecterns, and quiet alcoves fill its rooms, where aspiring mages and priests learn the Arcane and the Holy Light. Across the abbey, martial recruits drill in the Hall of Arms. Priestess Anetta guides novice priests in faith and healing, while Khelden Bremen teaches budding mages to shape primal elemental energy.",
+  hash = "bc8c18",
+  fullHash = "bc8c18",
+  text = "Library Wing (Northshire). In Northshire Abbey, the Library Wing gathers scholars and new priests and mages. They prepare to join Stormwind’s defense. The Library Wing opens south from Northshire Abbey’s Main Hall. Dusty shelves, lecterns, and quiet alcoves fill its rooms. Here aspiring mages and priests study the Arcane and the Holy Light. Across the abbey, recruits drill in the Hall of Arms.\n\nPriestess Anetta guides novice priests in faith and healing. Khelden Bremen teaches budding mages to shape primal elemental energy.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_library-wing-northshire-9506e396d9730b71c328/1-0000.mp3", duration = 34.0114286, start = 0},
+    {file = "Audio/Transport/full_subzone_library-wing-northshire-064a02c855003f635933/1-0000.mp3", duration = 32.3918367, start = 0},
   },
 }
 P.transport["subzone:lion-s-pride-inn"] = {
-  hash = "5900da",
-  fullHash = "5900da",
-  text = "Lion's Pride Inn. Travelers gather at the Lion's Pride Inn, Goldshire's tavern and community center in Elwynn Forest. Innkeeper Farley keeps the inn, a place to rest, meet others, and find work just south of Stormwind City. The Lion's Pride Inn anchors Goldshire at the crossroads of Elwynn Forest. Innkeeper Farley keeps it by the old motto, “Rest and relaxation for the tired and cold.” Inside, warm hearths, strong drinks, and rooms welcome weary travelers from Northshire. Goldshire sits on trade routes between Stormwind, Westfall, Redridge, and Duskwood, making the inn an indispensable gathering place. Town marshals, local crafters, and seasoned trainers meet there to share news and hire passing mercenaries.",
+  hash = "b7aa6c",
+  fullHash = "b7aa6c",
+  text = "Lion's Pride Inn. At the Lion's Pride Inn, travelers rest and find work just south of Stormwind. Innkeeper Farley welcomes them to Goldshire's gathering place in Elwynn Forest. Goldshire's crossroads bring travelers to the Lion's Pride Inn. Innkeeper Farley keeps the old motto: “Rest and relaxation for the tired and cold.” Hearths, strong drinks, and rooms welcome weary travelers from Northshire. The roads link Stormwind with Westfall, Redridge, and Duskwood, so town marshals, local crafters, and seasoned trainers gather here to share news and hire passing mercenaries.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_lion-s-pride-inn-6057314941ad7d733963/1-0000.mp3", duration = 42.8146939, start = 0},
+    {file = "Audio/Transport/full_subzone_lion-s-pride-inn-6619dfdf8341e00fee4d/1-0000.mp3", duration = 34.4293878, start = 0},
   },
 }
 P.transport["subzone:long-wash"] = {
@@ -1874,11 +1874,11 @@ P.transport["subzone:long-wash"] = {
   },
 }
 P.transport["subzone:longshore"] = {
-  hash = "240344",
-  fullHash = "240344",
-  text = "Longshore. Along Westfall’s western edge, Longshore’s broad sands are claimed by hostile murlocs and broken ships. Longshore runs along Westfall’s western coast, a wide stretch of unbroken sand. Travelers find little peace there. Murlocs dominate the surf, with Old Murk-Eye among the feared leaders, and sunken ships, including ruined elven destroyers, lie in the shallows. Near the south, Daphne Stilwell’s isolated farm faces Defias bandits. Across the water, the Westfall Lighthouse stands within sight.",
+  hash = "a5d030",
+  fullHash = "a5d030",
+  text = "Longshore. Murlocs command the surf at Longshore, where broken ships lie beneath the waves. Along Westfall’s western coast, Longshore stretches wide with unbroken sand. Travelers find little peace here. Murlocs rule the surf, and Old Murk-Eye is among their feared leaders. Sunken ships, including ruined elven destroyers, lie in the shallows.\n\nNear the south, Daphne Stilwell’s isolated farm faces Defias bandits. Across the water, you can see the Westfall Lighthouse.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_longshore-151c06ae50646c8dbbbc/1-0000.mp3", duration = 30.5110204, start = 0},
+    {file = "Audio/Transport/full_subzone_longshore-b308952ca513b58dcd71/1-0000.mp3", duration = 31.6604082, start = 0},
   },
 }
 P.transport["subzone:lordamere-lake"] = {
@@ -1890,11 +1890,11 @@ P.transport["subzone:lordamere-lake"] = {
   },
 }
 P.transport["subzone:maclure-vineyards"] = {
-  hash = "c6177b",
-  fullHash = "c6177b",
-  text = "Maclure Vineyards. In southern Elwynn, Maclure Vineyards sends grapes and wine to Stormwind. The Maclure family's estate is known as much for its bitter feud with the neighboring Stonefields as for its harvest. The Maclure Vineyards should be a peaceful haven of farming and winecraft in southern Elwynn Forest. Instead, the feud with the Stonefields down the road overshadows the family's daily labor. Accusations of theft and old resentment keep tempers high between the households. Hungry boars prowl the land, while kobolds press toward both homesteads.",
+  hash = "2a778d",
+  fullHash = "2a778d",
+  text = "Maclure Vineyards. In southern Elwynn, grapes and wine from Maclure Vineyards go to Stormwind. The Maclure estate is known for its harvest and its bitter feud with the neighboring Stonefields. In southern Elwynn Forest, the Maclures tend their fields and make wine. Yet the Stonefields, who live down the road, cast a shadow over that daily labor. Accusations of theft and old resentment keep tempers high between the households. Hungry boars prowl the land, while kobolds press toward both homesteads.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_maclure-vineyards-37ab02c9aa8343462388/1-0000.mp3", duration = 30.4065306, start = 0},
+    {file = "Audio/Transport/full_subzone_maclure-vineyards-65bafe26beccf9656612/1-0000.mp3", duration = 28.6302041, start = 0},
   },
 }
 P.transport["subzone:maestra-s-post"] = {
@@ -1906,19 +1906,19 @@ P.transport["subzone:maestra-s-post"] = {
   },
 }
 P.transport["subzone:mage-quarter"] = {
-  hash = "1abc6d",
-  fullHash = "1abc6d",
-  text = "Mage Quarter. The Mage Quarter forms the arcane heart of Stormwind City, resting across the canals in the capital's southwestern corner. Towering over its cobblestone streets and esoteric specialty shops stands the Wizard's Sanctum, where the kingdom's conjurers hone their craft. Beneath the district's scholarly surface also lie shadowy recesses, harboring practitioners of far darker arts. Reachable by bridges crossing the canals from Cathedral Square or the Trade District, the Mage Quarter caters entirely to the mystical needs of the Alliance. Centered around the spire of the Wizard's Sanctum, human and allied spellcasters gather to study the weave of arcane magic and train apprentices. The surrounding streets are crowded with purveyors of tailoring cloth, reagents, alchemical supplies, and enchanted staves, creating an insular district dedicated to research and the defense of the kingdom.",
+  hash = "134977",
+  fullHash = "134977",
+  text = "Mage Quarter. Across the canals in southwestern Stormwind, Mage Quarter draws the kingdom's spellcasters. The Wizard's Sanctum rises above its streets, while shops supply their craft. The quarter also holds sorcery the kingdom's high conjurers forbid. Bridges from Cathedral Square and the Trade District lead into Mage Quarter, where the Alliance's mystic needs are met. Human and allied spellcasters gather around the Wizard's Sanctum to study arcane magic and train apprentices. Nearby shops sell tailoring cloth, reagents, alchemical supplies, and enchanted staves. This close-knit district serves research and the kingdom's defense.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_mage-quarter-b7115a03181ec3f9dd66/1-0000.mp3", duration = 50.7036735, start = 0},
+    {file = "Audio/Transport/full_subzone_mage-quarter-b1a3c2f36fa26a0628ba/1-0000.mp3", duration = 37.9820408, start = 0},
   },
 }
 P.transport["subzone:main-hall-northshire"] = {
-  hash = "2e3eaf",
-  fullHash = "2e3eaf",
-  text = "Main Hall (Northshire). Newcomers report in the Main Hall at Northshire Abbey in western Elwynn. From there, they reach the Hall of Arms, the Library Wing, and the abbey tower, then receive their first assignments defending Stormwind. Trainees and clerics pass through the Main Hall after entering Northshire Abbey. The chamber links the Hall of Arms, where recruits prepare for battle, with the Library Wing and the stairs to the abbey tower. Strife in the valley reaches even this quiet place, and officers rally able newcomers to defend the kingdom's borders.",
+  hash = "3f6123",
+  fullHash = "3f6123",
+  text = "Main Hall (Northshire). Newcomers report to the Main Hall at Northshire Abbey in western Elwynn. From there, they reach the Hall of Arms, the Library Wing, and the abbey tower before receiving their first assignments defending Stormwind. Trainees and clerics pass through the Main Hall when they enter Northshire Abbey. The chamber joins the Hall of Arms, where recruits prepare for battle, to the Library Wing and the stairs to the abbey tower.\n\nStrife in the valley reaches even this quiet place. Officers gather able newcomers here to defend the kingdom's borders.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_main-hall-northshire-6398c9134b93f6003652/1-0000.mp3", duration = 29.1265306, start = 0},
+    {file = "Audio/Transport/full_subzone_main-hall-northshire-be43579efaa6db3a8fd2/1-0000.mp3", duration = 32.0522449, start = 0},
   },
 }
 P.transport["subzone:malaka-jin"] = {
@@ -1963,10 +1963,10 @@ P.transport["subzone:menethil-harbor"] = {
 }
 P.transport["subzone:military-ward"] = {
   hash = "55c863",
-  fullHash = "12cc86",
-  text = "Military Ward. Red banners mark the Military Ward, where Ironforge's defenders gather and train. Its command halls, weapons masters, barracks, siege engines, and flying machines serve the mountain city's military. The Military Ward gathers Ironforge's defenses in a busy staging ground along the northern edge of the mountain fortress. At its center, the Hall of Arms holds warrior and hunter trainers and battlemasters, with hangars for dwarven flying machines and steam tanks. Around the drill squares and training dummies, supply shops include Craghelm's Plate and Chain, Goldfury's Hunting Supplies, and Timberline Arms. The ward is Ironforge's main staging point for mountaineers and city defenders. Red banners cover the Military Ward, setting it apart from the Commons' pale blue and the Great Forge's fiery orange. Between drills and weapons inspections, soldiers and off-duty guards gather for ale at Bruuk's Corner. Weapon Master Buliwyf Stonehand teaches recruits the ancient martial traditions of the dwarves.",
+  fullHash = "2e9946",
+  text = "Military Ward. In Ironforge, red banners gather the city's defenders in the Military Ward. Its halls, barracks, weapons masters, siege engines, and flying machines ready the mountain city's military. Along the northern edge of Ironforge, the Military Ward gathers the city's defenses. At its heart, the Hall of Arms holds warrior and hunter trainers and battlemasters. Nearby hangars house dwarven flying machines and steam tanks.\n\nDrill squares and training dummies fill the ward, with supply shops close at hand. Craghelm's Plate and Chain, Goldfury's Hunting Supplies, and Timberline Arms serve those who train and defend the city. Mountaineers and city defenders gather here before setting out. Red banners cover the Military Ward, unlike the Commons' pale blue and the Great Forge's fiery orange. Soldiers drill and inspect their weapons, then gather with off-duty guards for ale at Bruuk's Corner.\n\nWeapon Master Buliwyf Stonehand teaches recruits the ancient martial traditions of the dwarves.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_military-ward-ec84cabec98f1bc90737/1-0000.mp3", duration = 57.0253061, start = 0},
+    {file = "Audio/Transport/full_subzone_military-ward-027c4b8f6ea3830b803e/1-0000.mp3", duration = 61.8057143, start = 0},
   },
 }
 P.transport["subzone:mirage-raceway"] = {
@@ -1986,19 +1986,19 @@ P.transport["subzone:mirkfallon-lake"] = {
   },
 }
 P.transport["subzone:mirror-lake"] = {
-  hash = "392998",
-  fullHash = "392998",
-  text = "Mirror Lake. Water spills into Mirror Lake beneath Stormwind's cliffs in northwestern Elwynn Forest, near an orchard. Defias bandits prowl the surrounding orchards, while mages watch for trouble in the forest's arcane currents. Mirror Lake lies beneath Stormwind City's walls, where fishermen and weary travelers might seek a quiet rest. Defias Brotherhood brigands stalk the surrounding orchards, making a long stay perilous for locals. Mystical disturbances across Azeroth have also begun to warp the forest's natural channels of arcane energy. Mages from the Wizard's Sanctum watch the lake closely. They send practitioners to sample its currents and guard against chaotic arcane runoff poisoning communities downstream.",
+  hash = "8209e1",
+  fullHash = "8209e1",
+  text = "Mirror Lake. Water falls into Mirror Lake beneath Stormwind’s cliffs in northwestern Elwynn Forest. An orchard stands nearby, where Defias bandits prowl and mages watch the forest’s arcane currents. Mirror Lake rests beneath Stormwind City's walls, where fishermen and tired travelers can seek a quiet rest. Yet Defias Brotherhood brigands stalk the surrounding orchards, making a long stay perilous for locals.\n\nMystical disturbances across Azeroth have begun to warp the forest's natural channels of arcane energy. Mages from the Wizard's Sanctum watch the lake closely. They send practitioners to sample its currents and guard against chaotic arcane runoff poisoning communities downstream.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_mirror-lake-f8dac7bb0c6007c40186/1-0000.mp3", duration = 40.4897959, start = 0},
+    {file = "Audio/Transport/full_subzone_mirror-lake-0c892fe85447f7156367/1-0000.mp3", duration = 42.5273469, start = 0},
   },
 }
 P.transport["subzone:mirror-lake-orchard"] = {
-  hash = "f17e6b",
-  fullHash = "f17e6b",
-  text = "Mirror Lake Orchard. Defias bandits now hold Mirror Lake Orchard, on Mirror Lake's southern shore in western Elwynn Forest. The quiet homestead near Thunder Falls has fallen to outlaws while Stormwind's guards are stretched thin. Mirror Lake Orchard once fed a peaceful farmstead with the clean waters of Mirror Lake. Now Defias Brotherhood bandits have seized the cottage and grounds near Thunder Falls. With Stormwind's military stretched thin and King Varian Wrynn missing, rural homes across Elwynn are easy targets for outlaws seeking shelter.",
+  hash = "cba9ce",
+  fullHash = "cba9ce",
+  text = "Mirror Lake Orchard. Defias bandits now hold Mirror Lake Orchard on Mirror Lake’s southern shore in western Elwynn Forest. With Stormwind’s guards stretched thin, the grove near Thunder Falls lies exposed. Mirror Lake’s clean waters once sustained the farmstead. Now outlaws across Elwynn seek shelter in rural homes. The orchard’s cottage and grounds give the Defias Brotherhood a place to hide near Thunder Falls.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_mirror-lake-orchard-3d27ce908bb2ef0abb37/1-0000.mp3", duration = 30.0930612, start = 0},
+    {file = "Audio/Transport/full_subzone_mirror-lake-orchard-6b14f38c7a25a6d0e29b/1-0000.mp3", duration = 25.2081633, start = 0},
   },
 }
 P.transport["subzone:mist-s-edge"] = {
@@ -2010,43 +2010,43 @@ P.transport["subzone:mist-s-edge"] = {
   },
 }
 P.transport["subzone:misty-pine-refuge"] = {
-  hash = "88db74",
-  fullHash = "88db74",
-  text = "Misty Pine Refuge. At Misty Pine Refuge, the Argent Dawn keeps a small outpost in central Dun Morogh. Misty Pine Refuge is an unassuming Argent Dawn outpost among Dun Morogh's windswept hills. Ironforge mountaineers patrol the surrounding crags, while Father Gavin, the order's lone agent here, keeps a quiet hearth amid the bitter cold and dangers of the mountain roads.",
+  hash = "fdb87c",
+  fullHash = "fdb87c",
+  text = "Misty Pine Refuge. In central Dun Morogh, the Argent Dawn keeps a small outpost at Misty Pine Refuge. Misty Pine Refuge is an unassuming Argent Dawn outpost among Dun Morogh's windswept hills. Ironforge mountaineers patrol the crags nearby. Father Gavin, the order's lone agent here, keeps a quiet hearth amid bitter cold and danger on the mountain roads.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_misty-pine-refuge-c9ddcabf600d7303a321/1-0000.mp3", duration = 20.7412245, start = 0},
+    {file = "Audio/Transport/full_subzone_misty-pine-refuge-f09b255fcb44c602f5e9/1-0000.mp3", duration = 22.7265306, start = 0},
   },
 }
 P.transport["subzone:mo-grosh-stronghold"] = {
-  hash = "689a66",
-  fullHash = "689a66",
-  text = "Mo'grosh Stronghold. Mo'grosh Stronghold looms over the northeastern hills of Loch Modan. The fortified ogre den is dug among ancient ruins, and its inhabitants threaten the dwarven settlements below. Mo'grosh ogres raid supply caravans in northeastern Loch Modan. From their caves and outer camps, they threaten travelers and the peace of Thelsamar. Rugged stonework scattered around the camp points to an older settlement. The ogres claimed the site and raised their distinctive mounds.",
+  hash = "b821fa",
+  fullHash = "b821fa",
+  text = "Mo'grosh Stronghold. In northeastern Loch Modan, Mo'grosh Stronghold threatens the dwarven settlements below. Ogres raid supply caravans from caves and outer camps among ancient ruins. Mo'grosh ogres raid supply caravans in northeastern Loch Modan. Their caves and outer camps threaten travelers and the peace of Thelsamar. Rugged stonework scattered through the camp points to an older settlement. The ogres claimed the site and raised their distinctive mounds.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_mo-grosh-stronghold-b72c826c8cbba847e503/1-0000.mp3", duration = 27.7159184, start = 0},
+    {file = "Audio/Transport/full_subzone_mo-grosh-stronghold-e5391455a9e991933e05/1-0000.mp3", duration = 27.1934694, start = 0},
   },
 }
 P.transport["subzone:molsen-farm"] = {
-  hash = "5f9396",
-  fullHash = "5f9396",
-  text = "Molsen Farm. Molsen Farm is an abandoned homestead located in the breadbasket region of Westfall. Once a fertile piece of farmland feeding Stormwind, it has fallen into ruin following the rise of the Defias Brotherhood and the prowling mechanical harvest golems left in their wake. Like many homesteads across Westfall, Molsen Farm stands as a casualty of the kingdom's neglect and criminal uprising. When the Defias Brotherhood took control of the countryside, the resident farmers were driven out or worse, abandoning their crops and buildings. Now, instead of laborers gathering grain, hostile mechanical Harvest Watchers and wandering outlaws scour the untended fields, making the farm a hazard to anyone traveling through the province.",
+  hash = "65e49d",
+  fullHash = "65e49d",
+  text = "Molsen Farm. In Westfall, Molsen Farm lies empty, its fields gone untended. Once fertile land that fed Stormwind, it fell into ruin after the Defias Brotherhood rose and mechanical harvest golems were left prowling there. Molsen Farm is one of Westfall's ruined homesteads, exposed by the kingdom's neglect and the criminal uprising. When the Defias Brotherhood took control of the countryside, farmers here were driven out or worse. They left their crops and buildings behind. Now hostile mechanical Harvest Watchers and wandering outlaws scour the fields, where laborers once gathered grain. The farm is dangerous for anyone traveling through the province.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_molsen-farm-e308ee310b0f026726d9/1-0000.mp3", duration = 42.1616327, start = 0},
+    {file = "Audio/Transport/full_subzone_molsen-farm-7be1b8e734986be90a5d/1-0000.mp3", duration = 39.7583673, start = 0},
   },
 }
 P.transport["subzone:moonbrook"] = {
-  hash = "172fb5",
-  fullHash = "172fb5",
-  text = "Moonbrook. In southwestern Westfall, Moonbrook lies under Defias control, its streets emptied of peaceful residents. The Brotherhood uses the town as a guarded screen for its hidden headquarters in the Deadmines. Before the First War, Moonbrook stood at the heart of Westfall’s breadbasket, supporting farming families and the gold shafts of the Deadmines. The Old Horde razed the town, but it was rebuilt after the Second War. Its peace did not last. The House of Nobles in Stormwind neglected the settlement, and its military protection was stripped away. Unable to resist the red-masked bandits, Moonbrook’s people were driven from their homes. Citizens and teachers fled toward Sentinel Hill and Elwynn Forest.",
+  hash = "5ec6be",
+  fullHash = "5ec6be",
+  text = "Moonbrook. In southwestern Westfall, Moonbrook lies under Defias control, and its peaceful residents have fled. The Brotherhood guards the town above its hidden headquarters in the Deadmines. Before the First War, Moonbrook stood at the heart of Westfall’s breadbasket. Farming families and the Deadmines gold shafts depended on the town. The Old Horde razed it, but Moonbrook rose again after the Second War.\n\nPeace did not last. The House of Nobles in Stormwind neglected the settlement and stripped away its military protection. Unable to resist the red-masked bandits, the people fled their homes for Sentinel Hill and Elwynn Forest. Citizens and teachers left alike.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_moonbrook-1d4355b8140a89b85681/1-0000.mp3", duration = 40.6465306, start = 0},
+    {file = "Audio/Transport/full_subzone_moonbrook-8c9c14a079f2b612e286/1-0000.mp3", duration = 41.5346939, start = 0},
   },
 }
 P.transport["subzone:moonbrook-schoolhouse"] = {
-  hash = "0305bd",
-  fullHash = "0305bd",
-  text = "Moonbrook Schoolhouse. In Moonbrook's northwestern corner, the schoolhouse stands abandoned under Defias occupation. A small graveyard lies behind the hall where Stalvan Mistmantle once taught local children. Moonbrook's schoolhouse once welcomed children before ruin and bandits overtook the town. After Stalvan Mistmantle began tutoring local children, the mayor commissioned him to run a school. Students filled the hall in Moonbrook's brighter days, when the town prospered. Now outlaws occupy the abandoned building, and weathered headstones in its rear cemetery look out over Westfall's decline.",
+  hash = "2dda66",
+  fullHash = "2dda66",
+  text = "Moonbrook Schoolhouse. In Moonbrook's northwestern corner, Defias outlaws occupy the schoolhouse, with a small graveyard behind it. Stalvan Mistmantle once taught local children there. The mayor commissioned Stalvan Mistmantle to run a school after he began tutoring local children. In Moonbrook's brighter days, the town prospered and students filled the hall. Now outlaws occupy the building, while weathered headstones in the rear cemetery look out over Westfall's decline.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_moonbrook-schoolhouse-1a30dce28548bdf25421/1-0000.mp3", duration = 33.9330612, start = 0},
+    {file = "Audio/Transport/full_subzone_moonbrook-schoolhouse-6460ab71207c2c11d26a/1-0000.mp3", duration = 27.3763265, start = 0},
   },
 }
 P.transport["subzone:moonshrine-ruins"] = {
@@ -2066,11 +2066,11 @@ P.transport["subzone:moonspray"] = {
   },
 }
 P.transport["subzone:moonwell-ashenvale"] = {
-  hash = "6de6bd",
-  fullHash = "6de6bd",
-  text = "Moonwell (Ashenvale). This secluded shrine, known to the night elves as the Moonwell of Purity, rests in central Ashenvale east of Iris Lake and west of Raynewood Retreat. Its blessed waters channel the grace of Elune to nourish the ancient forest and cleanse creeping foulness from the land. Alliance travelers following Raene Wolfrunner's research often seek out Shael'dryn, who keeps watch beside its tranquil basin. Tucked away beneath the canopy of central Ashenvale, this moonwell serves as a spiritual anchor for the kaldorei. Its luminescent waters tap into nature's latent magic and the light of the Moon Goddess. As the surrounding forest suffers from satyr corruption, fel taint, and logging incursions, pure shrines like this one become vital lifelines for those trying to heal the woods.",
+  hash = "216bba",
+  fullHash = "216bba",
+  text = "Moonwell (Ashenvale). In central Ashenvale, the Moonwell of Purity rests east of Iris Lake and west of Raynewood Retreat. Its waters carry Elune's grace to nourish the forest and cleanse foulness from the land. Alliance travelers following Raene Wolfrunner's research seek Shael'dryn beside its basin. Beneath central Ashenvale's canopy, this moonwell is a sacred place for the kaldorei. Its shining waters draw on nature's magic and the light of Elune. Satyr corruption, fel taint, and logging harm the surrounding forest. Shrines of pure water are vital to those working to heal the woods.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_moonwell-ashenvale-90b40677b13319dda175/1-0000.mp3", duration = 44.5387755, start = 0},
+    {file = "Audio/Transport/full_subzone_moonwell-ashenvale-abcd1b61ddac59f66ec4/1-0000.mp3", duration = 36.8326531, start = 0},
   },
 }
 P.transport["subzone:mor-shan-rampart"] = {
@@ -2082,19 +2082,19 @@ P.transport["subzone:mor-shan-rampart"] = {
   },
 }
 P.transport["subzone:mortwake-s-tower"] = {
-  hash = "929701",
-  fullHash = "929701",
-  text = "Klaven's Tower. Klaven's Tower, also called the Defias Tower, is a fortified watchtower standing near the river in southeastern Westfall. Commanded by the rogue Klaven Mortwake, it serves as a critical waypoint for smuggling stolen goods across kingdom borders. Perched on the borderlands north of the Dagger Hills, Klaven's Tower is a vital hub for Defias Brotherhood operations in southern Westfall. Together with Jerod's Landing across the river in Elwynn Forest, the site acts as a receiving post and staging ground for contraband plundered from the Redridge Mountains. Its commanding vantage over the waterways allows the Brotherhood to slip supplies past Kingdom patrols, shielding their logistical network from the crown's eyes.",
+  hash = "c7771a",
+  fullHash = "c7771a",
+  text = "Klaven's Tower. In southeastern Westfall, Klaven's Tower guards a river crossing near the kingdom's borders. Klaven Mortwake commands the tower, where stolen goods pass along Defias routes. North of the Dagger Hills, Klaven's Tower anchors the Defias Brotherhood's work in southern Westfall. Across the river in Elwynn Forest, Jerod's Landing receives and stages goods plundered from the Redridge Mountains. Together, the two sites move contraband toward Westfall.\n\nFrom the tower, the Brotherhood watches the waterways and slips supplies past Kingdom patrols. This helps shield its supply routes from the crown's eyes.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_mortwake-s-tower-1c0b09c783584e544153/1-0000.mp3", duration = 40.5681633, start = 0},
+    {file = "Audio/Transport/full_subzone_mortwake-s-tower-5e29fe649cd4fdd7fbb1/1-0000.mp3", duration = 36.9893878, start = 0},
   },
 }
 P.transport["subzone:mystic-ward"] = {
-  hash = "d389ad",
-  fullHash = "d389ad",
-  text = "Mystic Ward. In Ironforge's Mystic Ward, faith and arcane study share the city's quieter quarter. Pale blue banners mark its halls, and the Hall of Mysteries gathers priests, paladins, and mages beneath stone arches. The Mystic Ward carries Ironforge's quieter pursuits of faith and learning. Pale blue banners mark the quarter between the Commons, the Forlorn Cavern, and the Great Forge. Shops such as The Fighting Wizard and Maeva's Mystical Apparel supply scholars and spellweavers with regalia, scrolls, and alchemical reagents. At the Hall of Mysteries, followers of the Holy Light and practitioners of arcane magic find guidance in wielding powers unseen in defense of the Alliance.",
+  hash = "8a7820",
+  fullHash = "8a7820",
+  text = "Mystic Ward. Faith and arcane study share Ironforge's Mystic Ward, a quieter quarter of the city. Pale blue banners mark its halls, and priests, paladins, and mages gather beneath stone arches in the Hall of Mysteries. The Mystic Ward is where Ironforge turns to faith and learning. Pale blue banners mark the quarter between the Commons, the Forlorn Cavern, and the Great Forge. Shops such as The Fighting Wizard and Maeva's Mystical Apparel supply scholars and spellweavers with regalia, scrolls, and alchemical reagents. At the Hall of Mysteries, followers of the Holy Light and arcane practitioners find guidance in wielding unseen powers to defend the Alliance.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_mystic-ward-83aabfdc9e2be441657e/1-0000.mp3", duration = 40.4897959, start = 0},
+    {file = "Audio/Transport/full_subzone_mystic-ward-279752d9398f6d21c42d/1-0000.mp3", duration = 39.2881633, start = 0},
   },
 }
 P.transport["subzone:mystral-lake"] = {
@@ -2122,51 +2122,51 @@ P.transport["subzone:nightsong-woods"] = {
   },
 }
 P.transport["subzone:north-gate-outpost"] = {
-  hash = "7fdab2",
-  fullHash = "7fdab2",
-  text = "North Gate Outpost. Mountaineers guard the road through North Gate Outpost, where Dun Morogh meets Loch Modan. Their patrols keep travelers safe from the beasts in the crags. Dwarven mountaineers guard the road through North Gate Pass. From North Gate Outpost, they keep the route clear of prowling beasts and watch travelers heading through the mountain tunnels into Loch Modan. The pass is Dun Morogh’s northeastern threshold, but its harsh weather and steep ravines make patrols dangerous. When a patrol goes missing or a predator threatens the road, the garrison calls on travelers to scout the surrounding ridges.",
+  hash = "eb7f50",
+  fullHash = "eb7f50",
+  text = "North Gate Outpost. At North Gate Outpost, mountaineers guard the road where Dun Morogh meets Loch Modan. Their patrols shield travelers from beasts in the crags. Dwarven mountaineers watch North Gate Pass from the outpost. They guard travelers heading through the mountain tunnels into Loch Modan. The pass marks Dun Morogh’s northeastern edge, where harsh weather and steep ravines make patrols perilous. When patrols go missing or predators threaten the road, the garrison calls on travelers to scout the ridges.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_north-gate-outpost-c97797ee0f5a133993f2/1-0000.mp3", duration = 33.5412245, start = 0},
+    {file = "Audio/Transport/full_subzone_north-gate-outpost-7a9e109b7d426806f79b/1-0000.mp3", duration = 30.0146939, start = 0},
   },
 }
 P.transport["subzone:north-gate-pass"] = {
-  hash = "9d5b33",
-  fullHash = "9d5b33",
-  text = "North Gate Pass. North Gate Pass carries travelers between Dun Morogh and Loch Modan through the Khaz Modan peaks. A fortified dwarven outpost watches this northern corridor, used by travelers bound for the Wetlands. North Gate Pass cuts through Khaz Modan between Dun Morogh and Loch Modan. From the west, travelers emerge from steep mountain tunnels into the broad loch valley. Roads lead down toward the Wetlands, bringing dwarven messengers, merchants, and wandering adventurers through the pass. North Gate Outpost gives the route its strategic value, with mountaineers watching for troggs and mountain predators.",
+  hash = "896def",
+  fullHash = "896def",
+  text = "North Gate Pass. Travelers cross North Gate Pass through the Khaz Modan peaks between Dun Morogh and Loch Modan. A fortified dwarven outpost watches the northern corridor, where travelers bound for the Wetlands pass. North Gate Pass cuts through Khaz Modan between Dun Morogh and Loch Modan. From the west, you leave steep mountain tunnels for the broad loch valley. Roads lead down toward the Wetlands, carrying dwarven messengers, merchants, and wandering adventurers. North Gate Outpost gives the route its strategic value. Mountaineers there watch for troggs and mountain predators.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_north-gate-pass-36ee2e575f5ed01ecf1d/1-0000.mp3", duration = 35.1346939, start = 0},
+    {file = "Audio/Transport/full_subzone_north-gate-pass-1558da865baa2423cb97/1-0000.mp3", duration = 35.7877551, start = 0},
   },
 }
 P.transport["subzone:northshire-valley"] = {
   hash = "9c92fc",
-  fullHash = "52c26f",
-  text = "Northshire Valley. Northshire Valley shelters Stormwind's newest defenders in northern Elwynn Forest. Natural barriers guard the peaceful valley, where ancient Northshire Abbey, fertile vineyards, and the rich Echo Ridge Mine sustain a pocket of the kingdom. Bandits, kobolds, and displaced predators now trouble its quiet pastures. Northshire Valley lies behind mountain ridges, with one road south through a fortified gatehouse toward Goldshire and the rest of Elwynn Forest. A clear river crosses the pastures and flows into Crystal Lake. At the valley's heart, ancient Northshire Abbey teaches the Holy Light and trains recruits under the Knights of the Silver Hand and seasoned veterans. Beyond its walls, the fertile Northshire Vineyards and Echo Ridge Mine make this a self-sustaining pocket of Stormwind territory, far from the wars beyond its ridges. Stormwind's overextended defenses have strained even this sheltered valley. Marshal McBride and his detachment of the Stormwind Guard struggle to maintain order across it. Wolves driven north from blighted Duskwood prowl the woods, while kobolds have overrun Echo Ridge Mine's tunnels. Masked thugs aligned with the Defias Brotherhood harass the vineyards and threaten the abbey grounds, so local commanders recruit every able-bodied civilian who arrives at the gates.",
+  fullHash = "1f0519",
+  text = "Northshire Valley. Northshire Valley, in the hills of northern Elwynn, is where Stormwind's newest defenders begin. Mountain ridges guard it on every side but one. At its heart stands the ancient abbey, with fertile vineyards and a rich mine close by. But bandits and kobolds trouble the valley now, and wolves prowl its quiet pastures. The only way out is the road south. It runs through a fortified gatehouse, on toward Goldshire and the rest of the forest. A clear river crosses the pastures and flows into Crystal Lake. In the abbey, recruits train under seasoned veterans and the Knights of the Silver Hand. With its vineyards and its mine, the valley has all it needs, far from the wars beyond its ridges. But even here, Stormwind's defenses are stretched thin. In the valley, Marshal McBride and his detachment of the Guard struggle to keep order. So the commanders here take on every able-bodied soul who reaches the gates. They need every one of them.\n\nWolves have come north out of darkened Duskwood. Kobolds have overrun the tunnels of Echo Ridge Mine. And masked thugs of the Defias Brotherhood harass the vineyards. They threaten even the abbey grounds.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_northshire-valley-2ce74615c8953bf70d25/1-0000.mp3", duration = 77.6097959, start = 0},
+    {file = "Audio/Transport/full_subzone_northshire-valley-8875e4f6c240b709dfdd/1-0000.mp3", duration = 69.6163265, start = 0},
   },
 }
 P.transport["subzone:northshire-vineyards"] = {
-  hash = "e7dec0",
-  fullHash = "e7dec0",
-  text = "Northshire Vineyards. At Northshire Vineyards, Defias brigands have seized the fields east of Northshire Abbey. The grapes once supplied wine to the clerics, but now the thieves plunder the harvest and threaten local farmers. Northshire Vineyards lie east across the stream from Northshire Abbey, where workers such as Milly Osworth once tended the fields. Defias Brotherhood brigands now hold the acreage, led by Garrick Padfoot. The thieves plunder the harvest and strip local farmers of their livelihood. Their occupation gives new Brotherhood recruits a foothold close to the abbey.",
+  hash = "d33602",
+  fullHash = "d33602",
+  text = "Northshire Vineyards. East of Northshire Abbey, Northshire Vineyards are in Defias hands. Their grapes once supplied wine to the clerics, but thieves now plunder the harvest and threaten local farmers. Across the stream from Northshire Abbey, local workers once tended the grape fields. Milly Osworth was among them. Now Garrick Padfoot leads the Defias Brotherhood brigands who hold the acreage.\n\nThe vineyards give newly arrived Brotherhood recruits an easy foothold close to the abbey. The Defias presence has reached its fields.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_northshire-vineyards-9893bf2372d4d2a89a69/1-0000.mp3", duration = 32.7314286, start = 0},
+    {file = "Audio/Transport/full_subzone_northshire-vineyards-c3da757991fad3782dbc/1-0000.mp3", duration = 32.9142857, start = 0},
   },
 }
 P.transport["subzone:old-ironforge"] = {
   hash = "bd7633",
-  fullHash = "b2e571",
-  text = "Old Ironforge. Old Ironforge, also called the Assembly of Thanes, is an ancient subterranean chamber lying directly beneath the High Seat of Ironforge. Carved deep into the mountain's roots above glowing magma veins, it represents the ancestral heart of the dwarven capital. In the present day, its heavy access gates in the royal throne room remain sealed and vigilantly guarded. Beneath King Magni Bronzebeard's throne in the High Seat rests the cavernous hall known as Old Ironforge or the Assembly of Thanes. Deep inside these fiery subterranean foundations, winding stone bridges cross pools of subterranean lava. Long before the bustling halls of the Great Forge and the Commons echoed with modern dwarven commerce, early thanes gathered in these cavernous depths to deliberate and govern the mountain kingdom. Currently, entrance to Old Ironforge from the throne room is securely barred. The Ironforge royal guard keeps strict watch over the thresholds leading down into the old vaults.",
+  fullHash = "1b9879",
+  text = "Old Ironforge. Beneath the High Seat, Old Ironforge remains sealed behind guarded gates. Known as the Assembly of Thanes, this ancient chamber lies deep below the royal throne room. Old Ironforge lies beneath King Magni Bronzebeard's throne in the High Seat. Its cavernous halls sit deep in the mountain, where winding stone bridges cross pools of lava. Long before the Great Forge and the Commons filled with dwarven commerce, early thanes gathered here to govern the mountain kingdom. The entrance from the throne room remains barred. Ironforge's royal guard watches the thresholds leading down into the old vaults.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_old-ironforge-44827e612f35925722d6/1-0000.mp3", duration = 56.1632653, start = 0},
+    {file = "Audio/Transport/full_subzone_old-ironforge-9e946396ec692cd00be1/1-0000.mp3", duration = 38.4, start = 0},
   },
 }
 P.transport["subzone:old-town"] = {
   hash = "3557ac",
-  fullHash = "7bf57c",
-  text = "Old Town. In Old Town, soldiers train beside weathered tenements and crowded alleys. The quarter largely survived the First War and remains home to Stormwind’s military Command Center and the covert headquarters of SI:7. Old Town keeps much of the shape of Stormwind before the First War. While the Stonemasons rebuilt the rest of the city from the ground up, this quarter escaped total ruin. It never gained the pristine marble facades and grand canals found in the Trade District and Cathedral Square. Working folk, laborers, and the city’s poorest residents live among its crowded tenements. Its cobbled streets are narrower, dirtier, and more chaotic than those elsewhere in the capital, preserving the feel of the old kingdom. Old Town holds Stormwind’s military officers, barracks, and combat trainers in the Command Center. Nearby, the Champions’ Hall gathers the Alliance’s finest warriors. At the district’s edge, SI:7 keeps its covert compound under the leadership of Master Mathias Shaw. Off-duty footmen and shadowy operatives meet at the Pig and Whistle Tavern, one of the city’s liveliest watering holes.",
+  fullHash = "6bd939",
+  text = "Old Town. Soldiers train in Old Town beside crowded tenements and narrow alleys. The quarter largely survived the First War and still holds Stormwind’s military Command Center and SI:7’s covert headquarters. Old Town keeps much of Stormwind’s shape from before the First War. While the Stonemasons rebuilt the rest of the city from the ground up, this quarter escaped total ruin. It never gained the polished marble facades or grand canals of the Trade District and Cathedral Square.\n\nWorking folk, laborers, and the city’s poorest residents live among its crowded tenements. Old Town’s cobbled streets are narrower, dirtier, and more chaotic than those elsewhere in the capital. They preserve the feel of the old kingdom. Stormwind’s military officers, barracks, and combat trainers gather in Old Town’s Command Center. Nearby, the Champions’ Hall brings together the Alliance’s finest warriors. At the district’s edge, Master Mathias Shaw leads SI:7 from its covert compound.\n\nOff-duty footmen and shadowy operatives meet at the Pig and Whistle Tavern. It is one of the city’s liveliest watering holes.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_old-town-bf711162d4277d3b3643/1-0000.mp3", duration = 63.6604082, start = 0},
+    {file = "Audio/Transport/full_subzone_old-town-5627cd34e02f88899962/1-0000.mp3", duration = 69.1983673, start = 0},
   },
 }
 P.transport["subzone:oracle-glade"] = {
@@ -2179,26 +2179,26 @@ P.transport["subzone:oracle-glade"] = {
 }
 P.transport["subzone:park"] = {
   hash = "718cba",
-  fullHash = "038e9e",
-  text = "Park. In Stormwind's western edge, Park offers visiting night elves a haven amid the stone city. It lies between Cathedral Square and the Mage Quarter, with greenery and quiet for rest. Druid trainers here are the only ones in the Eastern Kingdoms. Stormwind's Park brings a quiet stretch of wilderness into the stone capital. Once a place for the city's people to seek recreation, it became an enclave for night elf emissaries and travelers from across the Great Sea. Shaded canopies shelter the district, and a central Moonwell stands amid its grounds. The grove offers a glimpse of Kalimdor's sacred glades in the heart of the human kingdom. Night elves have a foothold in foreign lands within the Park. Kaldorei priests such as Nara Meideros tend visiting pilgrims, while druidic mentors guide those devoted to the wild. Weary travelers can also rest from the clatter of the Trade District and the solemn duties of the Cathedral.",
+  fullHash = "fc452b",
+  text = "Park. Night elf visitors find a quiet haven in Stormwind's Park, on the city's western edge. Between Cathedral Square and the Mage Quarter, its greenery offers rest, and its druid trainers are the only ones in the Eastern Kingdoms. Stormwind's Park brings a quiet stretch of wilderness into the stone capital. Once a place where the city's people sought recreation, it became an enclave for night elf emissaries and travelers from across the Great Sea. Shaded canopies shelter the district, and a Moonwell stands at its heart. Here, the sacred glades of Kalimdor find an echo in the human kingdom. Night elves have a foothold in foreign lands within Park. Kaldorei priests such as Nara Meideros tend visiting pilgrims, while druidic mentors guide those devoted to the wild. Weary travelers can rest here, away from the clatter of the Trade District and the solemn duties of the Cathedral.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_park-1478d86806090c129cae/1-0000.mp3", duration = 53.8383673, start = 0},
+    {file = "Audio/Transport/full_subzone_park-75cdea20ee490dd2a612/1-0000.mp3", duration = 52.9502041, start = 0},
   },
 }
 P.transport["subzone:petitioner-s-chamber"] = {
-  hash = "5592b5",
-  fullHash = "5592b5",
-  text = "Petitioner's Chamber. Petitioners wait for the crown in a chamber just inside Stormwind Keep. Nobles, church dignitaries, and visiting subjects spend the time mingling, drinking, or awaiting an audience. The Petitioner's Chamber lies just to the right as you enter Stormwind Keep. Count Remington Ridgewell and Bishop DeLavey wait there for audiences with boy-king Anduin Wrynn and Highlord Bolvar Fordragon. Between formal visits, the chamber gives nobles and clergy room to mingle, trade gossip, and quietly press their concerns. Who holds influence in the realm can often be seen in who speaks with whom.",
+  hash = "3e6666",
+  fullHash = "3e6666",
+  text = "Petitioner's Chamber. Petitioners wait for the crown in a chamber just inside Stormwind Keep. Nobles, church dignitaries, and visiting subjects mingle, drink, or await an audience. Just inside Stormwind Keep, the Petitioner's Chamber lies to your right. Count Remington Ridgewell and Bishop DeLavey wait there for audiences with boy-king Anduin Wrynn and Highlord Bolvar Fordragon. Between formal visits, nobles and clergy mingle, trade gossip, and quietly press their concerns. Who speaks with whom can show where influence lies in the realm.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_petitioner-s-chamber-99aff949896307c8197e/1-0000.mp3", duration = 34.1420408, start = 0},
+    {file = "Audio/Transport/full_subzone_petitioner-s-chamber-c15660d82d1c0070fcde/1-0000.mp3", duration = 33.8285714, start = 0},
   },
 }
 P.transport["subzone:pig-and-whistle-tavern"] = {
-  hash = "f4dd64",
-  fullHash = "f4dd64",
-  text = "Pig and Whistle Tavern. In Stormwind City's Old Town, the Pig and Whistle Tavern welcomes travelers and local laborers. Veterans gather there to remember the kingdom's past conflicts. In Old Town's winding alleys, the Pig and Whistle Tavern offers warmth, ale, and lodging. Common citizens, working folk, and travelers fresh from the road gather there. Merchants such as recipe vendor Kendor Kabonka share the room with grizzled veterans, who trade memories of the First and Second Wars over their tankards.",
+  hash = "b0931d",
+  fullHash = "b0931d",
+  text = "Pig and Whistle Tavern. In Stormwind City's Old Town, the Pig and Whistle Tavern draws travelers and local laborers. Veterans gather there to recall the kingdom's past conflicts. In Old Town's winding alleys, the Pig and Whistle Tavern gives citizens, workers, and road-weary travelers a place to find warmth, ale, and lodging. Recipe vendor Kendor Kabonka shares the room with grizzled veterans. Over their tankards, they remember the First and Second Wars.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_pig-and-whistle-tavern-afd2d816d0c5b6bec05c/1-0000.mp3", duration = 28.6040816, start = 0},
+    {file = "Audio/Transport/full_subzone_pig-and-whistle-tavern-42738b8e406e079feb9f/1-0000.mp3", duration = 27.115102, start = 0},
   },
 }
 P.transport["subzone:pool-of-ask-ar"] = {
@@ -2291,10 +2291,10 @@ P.transport["subzone:rethban-caverns"] = {
 }
 P.transport["subzone:ridgepoint-tower"] = {
   hash = "1922ec",
-  fullHash = "30f3a4",
-  text = "Ridgepoint Tower. Stormwind guards watch the eastern frontier from Ridgepoint Tower. They keep vigil over the perilous corridors, valleys, and roads leading into neighboring wilderness. At Ridgepoint Tower, the garrison watches the valleys and roads of eastern Elwynn. The tower stands on high ground, where Stormwind's authority reaches its eastern border and the wilds begin. Its guards keep watch over the routes before threats can reach the farms and settlements nearer Northshire and Goldshire. Ridgepoint Tower faces threats from several directions. East lie the Redridge Mountains, where aggressive gnoll packs and blackrock orc raiders test human defenses. Across the southern river, undead horrors prowl the timberline of Duskwood. Rogue Defias Brotherhood bandits also haunt nearby wilderness camps, looking for gaps in the guard's defenses.",
+  fullHash = "e1f046",
+  text = "Ridgepoint Tower. Stormwind guards watch eastern Elwynn from Ridgepoint Tower, where forest roads lead into neighboring wilderness. The garrison scans the valleys for threats to the kingdom’s farms and settlements. Ridgepoint Tower looks out from high ground at the eastern edge of Stormwind’s authority, with wild country beyond. Its guards watch the routes toward farms and settlements nearer Northshire and Goldshire. They remain alert for danger crossing the border. Threats press in from several directions. East lie the Redridge Mountains, where aggressive gnoll packs and blackrock orc raiders test human defenses. Across the southern river, undead horrors prowl Duskwood’s timberline. Nearby wilderness camps shelter rogue Defias Brotherhood bandits seeking gaps in the guard’s defenses.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_ridgepoint-tower-5236e783d8ce2a31e91d/1-0000.mp3", duration = 48.7183673, start = 0},
+    {file = "Audio/Transport/full_subzone_ridgepoint-tower-a92b161dee1ee9bd5973/1-0000.mp3", duration = 47.3338776, start = 0},
   },
 }
 P.transport["subzone:roland-s-doom"] = {
@@ -2314,19 +2314,19 @@ P.transport["subzone:rotting-orchard"] = {
   },
 }
 P.transport["subzone:royal-gallery"] = {
-  hash = "7ffe53",
-  fullHash = "7ffe53",
-  text = "Royal Gallery. Stormwind Keep's Royal Gallery honors figures from the kingdom's history and the Grand Alliance. Past the courtyard garden, its statues and works of art fill a quiet hall of remembrance. The Royal Gallery lies beyond Stormwind Keep's interior garden, beside the Royal Library. Its statues honor King Llane Wrynn, the fallen ruler of Stormwind; Grand Admiral Daelin Proudmoore of Kul Tiras; and Lady Mara Fordragon, patron of the refugees who fled to Lordaeron after the First War. Courtly visitors such as Lady Dena Kennedy come to this quiet hall, where the kingdom's noble heritage is remembered.",
+  hash = "588413",
+  fullHash = "588413",
+  text = "Royal Gallery. In Stormwind Keep, the Royal Gallery honors the kingdom’s history and the Grand Alliance. Beyond the courtyard garden, a quiet hall holds statues and works of art. Beyond the interior garden and beside the Royal Library, the Royal Gallery holds statues of King Llane Wrynn, Stormwind’s fallen ruler, and Grand Admiral Daelin Proudmoore of Kul Tiras. Lady Mara Fordragon is honored here too, for her patronage of the refugees who fled to Lordaeron after the First War. Courtly visitors such as Lady Dena Kennedy come to see these figures and the works of art around them.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_royal-gallery-3a8ec845f79131521420/1-0000.mp3", duration = 37.0677551, start = 0},
+    {file = "Audio/Transport/full_subzone_royal-gallery-d54d24d8b366ddf25ae0/1-0000.mp3", duration = 35.6310204, start = 0},
   },
 }
 P.transport["subzone:royal-library"] = {
-  hash = "f3e7b7",
-  fullHash = "f3e7b7",
-  text = "Royal Library. Scholars come to the Royal Library in Stormwind Keep for the kingdom’s records and histories. Head Librarian Milton Sheaf watches over its scrolls and treatises, from ancient wars to accounts of realms beyond the sea. The Royal Library offers quiet among Stormwind Keep’s guarded halls and courtly intrigues. Milton Sheaf oversees its shelves of southern human history, from surviving texts written before the First War to recent military chronicles and recovered tomes. Alliance scholars, priests, and travelers may browse its treatises. They cover the founding of the Alliance of Lordaeron and the recent arrival of Thrall’s Horde in Kalimdor.",
+  hash = "1bbcaf",
+  fullHash = "1bbcaf",
+  text = "Royal Library. Within Stormwind Keep, scholars turn to the Royal Library for the kingdom’s records and histories. Head Librarian Milton Sheaf watches over its scrolls and treatises, from ancient wars to accounts of realms beyond the sea. Within Stormwind Keep’s guarded halls, the Royal Library offers a quiet place amid courtly intrigue. Milton Sheaf oversees its shelves of southern human history. They hold surviving texts written before the First War, recent military chronicles, and recovered tomes. Alliance scholars, priests, and travelers may browse its treatises on the founding of the Alliance of Lordaeron and the recent arrival of Thrall’s Horde in Kalimdor.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_royal-library-0880e22165007587403a/1-0000.mp3", duration = 36.4930612, start = 0},
+    {file = "Audio/Transport/full_subzone_royal-library-6aa545c42b2ea9dc516e/1-0000.mp3", duration = 38.7657143, start = 0},
   },
 }
 P.transport["subzone:ruins-of-mathystra"] = {
@@ -2363,10 +2363,10 @@ P.transport["subzone:rut-theran-village"] = {
 }
 P.transport["subzone:saldean-s-farm"] = {
   hash = "7976ca",
-  fullHash = "31207e",
-  text = "Saldean's Farm. At Saldean's Farm, the Saldeans hold Westfall's only homestead not completely overrun and abandoned to the Defias Brotherhood. Farmer Saldean and his wife Salma keep the farmhouse as a rare safe haven amid the region's turmoil. The Saldean family stayed on their soil as neighboring lands fell to banditry and mechanical sabotage. Farmer Saldean and his wife Salma still offer hot food and a kind word to travelers. Rogue harvest golems deployed across the plains plague their fields, so the family keeps close to the farmhouse walls. Stormwind's crown has largely neglected Westfall, leaving law enforcement thin. A handful of Sentinel Hill and Stormwind guards patrol the periphery, but the Saldeans rely chiefly on their own grit and help from passing travelers. Salma's famous Westfall stew and goretusk liver pie, and the shelter of the farmhouse, offer small comforts against the Defias threat.",
+  fullHash = "63d969",
+  text = "Saldean's Farm. In Westfall, Saldean's Farm remains the one homestead not wholly overrun and abandoned to the Defias Brotherhood. Farmer Saldean and his wife Salma keep the farmhouse as a rare safe haven amid the region's troubles. The Saldean family held to their land as neighboring farms fell to banditry and mechanical sabotage. Farmer Saldean and his wife Salma still offer travelers hot food and a kind word. Harvest golems deployed across the plains now plague their fields, so the family stays close to the farmhouse walls. Stormwind's crown has largely neglected Westfall, and few guards are left to keep order. A handful of Sentinel Hill and Stormwind guards patrol the edges, but the Saldeans rely chiefly on their own grit and help from passing travelers. Salma's famous Westfall stew and goretusk liver pie bring small comforts, as does the farmhouse shelter, against the Defias threat.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_saldean-s-farm-42bc386680f4cc592cfa/1-0000.mp3", duration = 52.1665306, start = 0},
+    {file = "Audio/Transport/full_subzone_saldean-s-farm-143a58219a1c462cf778/1-0000.mp3", duration = 53.6555102, start = 0},
   },
 }
 P.transport["subzone:satyrnaar"] = {
@@ -2387,18 +2387,18 @@ P.transport["subzone:scarlet-raven-tavern"] = {
 }
 P.transport["subzone:sentinel-hill"] = {
   hash = "9a851f",
-  fullHash = "253bdd",
-  text = "Sentinel Hill. In Westfall, Sentinel Hill remains the Alliance's main stronghold and the People's Militia's command post. Overgrown fields, scavenging gnolls, and hostile outlaws surround the rise, the only secure foothold for lawful citizens in the region. Sentinel Hill rises above central Westfall, with a barracks-style inn, a gryphon roost linking travelers to Stormwind and beyond, a forge, and a lumber mill around Sentinel Tower. Overgrown fields, scavenging gnolls, and outlaws crowd the surrounding land. The encampment keeps a fragile perimeter where travelers, beleaguered farmers, and recruits can regroup under the watchful eyes of veteran defenders. With the royal army detained in Stormwind and unable to spare soldiers for outlying territories, Gryan Stoutmantle established the People's Militia on Sentinel Hill. Volunteer fighters organize scouts, coordinate strikes against the Riverpaw gnolls, and investigate the organized banditry tearing through Westfall's abandoned farmsteads. The camp is neither an opulent fort nor a comfortable refuge; it is a working frontline camp determined to reclaim the kingdom's former breadbasket.",
+  fullHash = "94e3e1",
+  text = "Sentinel Hill. At Sentinel Hill, the Alliance holds its main stronghold in Westfall, and the People's Militia keeps its command post there. Overgrown fields, scavenging gnolls, and hostile outlaws surround the rise, leaving it as the lawful citizens' only secure foothold in the region. Sentinel Hill rises above central Westfall. Around Sentinel Tower stand a barracks-style inn, a gryphon roost with flights to Stormwind and beyond, a forge, and a lumber mill. Overgrown fields, scavenging gnolls, and outlaws crowd the surrounding land. Within the fragile perimeter, travelers, beleaguered farmers, and recruits can regroup under the eyes of veteran defenders. The royal army is detained in Stormwind and cannot spare soldiers for the outlying territories. So Gryan Stoutmantle established the People's Militia on Sentinel Hill. Volunteer fighters organize scouts, strike at the Riverpaw gnolls, and investigate the organized banditry tearing through Westfall's abandoned farmsteads. This is no opulent fort or comfortable refuge. It is a working frontline camp, determined to reclaim the kingdom's former breadbasket.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_sentinel-hill-a2053af196f6d6b7d488/1-0000.mp3", duration = 68.597551, start = 0},
+    {file = "Audio/Transport/full_subzone_sentinel-hill-9c5b3f3f1ff134145f8f/1-0000.mp3", duration = 66.6383673, start = 0},
   },
 }
 P.transport["subzone:sentinel-tower"] = {
   hash = "6d8a5a",
-  fullHash = "e8c81a",
-  text = "Sentinel Tower. Defenders watch Westfall from Sentinel Tower atop Sentinel Hill. Gryan Stoutmantle and the People's Militia organize resistance against bandits, gnolls, and the Defias Brotherhood. Sentinel Tower rises above the unsettled plains of Westfall. With Stormwind's official army largely absent and aid withheld, local volunteers and veterans joined together around this central stronghold. From its stone heights, lookouts can see across the dusty plains, from abandoned pumpkin patches to the misty shores. They watch for highwaymen and gnoll raiding parties moving through the region. Gryan Stoutmantle and the local leadership direct the militia from Sentinel Tower. Makeshift defenses surround the stronghold, where wounded refugees and weary soldiers gather, and homesteaders driven from their lands find emergency shelter. Militia members piece together reports about the Defias Brotherhood and organize volunteers into strikes against the syndicate that has brought Westfall to ruin.",
+  fullHash = "45a3d7",
+  text = "Sentinel Tower. At Sentinel Tower, defenders watch Westfall and organize resistance against bandits, gnolls, and the Defias Brotherhood. Gryan Stoutmantle and the People's Militia hold the line. Sentinel Tower watches over Westfall's unsettled plains. With Stormwind's army largely absent and aid withheld, local volunteers and veterans have gathered around this stronghold. From its stone heights, lookouts see across dusty plains, past abandoned pumpkin patches to the misty shores. They watch for highwaymen and gnoll raiding parties moving through the region. Gryan Stoutmantle and local leaders direct the militia from Sentinel Tower. Makeshift defenses ring the stronghold, where wounded refugees and weary soldiers gather. Homesteaders driven from their lands find emergency shelter there. Militia members piece together reports about the Defias Brotherhood and organize volunteers for strikes against the syndicate that has brought Westfall to ruin.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_sentinel-tower-ae35baa3308e256ef98a/1-0000.mp3", duration = 55.6146939, start = 0},
+    {file = "Audio/Transport/full_subzone_sentinel-tower-73aff4f097da0e863c09/1-0000.mp3", duration = 55.275102, start = 0},
   },
 }
 P.transport["subzone:shadowthread-cave"] = {
@@ -2411,10 +2411,10 @@ P.transport["subzone:shadowthread-cave"] = {
 }
 P.transport["subzone:shimmer-ridge"] = {
   hash = "a2e61a",
-  fullHash = "a95f19",
-  text = "Shimmer Ridge. Frostmane trolls hold Shimmer Ridge in northern Dun Morogh, west of the Gates of Ironforge. Its two camps span a chasm, and the ridge is the only place shimmerweed grows. Frostmane trolls hold the high ground west of Ironforge's gates. Two camps sit on opposite sides of a chasm, joined by a wooden bridge. Troll scavengers and their tamed mountain boars guard the camps. The ridge lies near the main road and the dwarven capital, so travelers and mountain patrols face raids from above. Frostmane trolls grow shimmerweed on the ridge. Dwarven brewmasters prize the plant for potent, flavorful highland ales, and it cannot easily be gathered elsewhere. Mountaineers and young recruits brave troll ambushes and tusked beasts to gather it from the trolls' plots.",
+  fullHash = "a6c34c",
+  text = "Shimmer Ridge. In northern Dun Morogh, Shimmer Ridge lies west of the Gates of Ironforge, where Frostmane trolls hold two camps across a chasm. Shimmerweed grows nowhere else. Frostmane trolls hold camps on both sides of a chasm, joined by a rickety wooden bridge. Troll scavengers and tamed mountain boars guard the rocky heights. The ridge lies near the main road and the dwarven capital, giving the trolls a place to raid travelers and mountain patrols. Frostmane trolls grow shimmerweed on the ridge. Dwarven brewmasters prize the plant for the potent, flavorful highland ales it makes. Since it is hard to gather elsewhere, mountaineers and young recruits brave troll ambushes and tusked beasts to harvest it from the trolls' plots.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_shimmer-ridge-20a58785f4695eb8ae35/1-0000.mp3", duration = 46.08, start = 0},
+    {file = "Audio/Transport/full_subzone_shimmer-ridge-52b5fe35959f8ca39a32/1-0000.mp3", duration = 44.7738776, start = 0},
   },
 }
 P.transport["subzone:shimmering-flats"] = {
@@ -2434,19 +2434,19 @@ P.transport["subzone:shrine-of-aessina"] = {
   },
 }
 P.transport["subzone:si-7-stormwind-city"] = {
-  hash = "0de936",
-  fullHash = "0de936",
-  text = "SI:7 (Stormwind City). Tucked away in the eastern corner of Old Town, this unassuming stone manor houses the headquarters of SI:7, the kingdom of Stormwind's elite intelligence and espionage service. Behind its heavy doors, spymaster Master Mathias Shaw and his senior operatives quietly monitor threats to the realm, coordinating undercover agents across the kingdom. To the casual passerby in Old Town, this fortified stone structure looks little different from a standard manor or military barracks. In truth, it serves as the nerve center for Stormwind Intelligence, Section 7. Directed by Master Mathias Shaw, SI:7 gathers intelligence, conducts surveillance, and executes covert operations to protect the kingdom from subversion. While the city guard patrols the open cobblestones and the Royal Guard defends Stormwind Keep, SI:7 works in the margins, training handlers and dispatching stealthy operatives against foreign enemies, saboteurs, and domestic unrest alike.",
+  hash = "0df6d1",
+  fullHash = "0df6d1",
+  text = "SI:7 (Stormwind City). In Old Town, SI:7 watches for threats to Stormwind from a fortified stone manor. Master Mathias Shaw directs the kingdom’s intelligence service from behind its heavy doors. In Old Town, SI:7 works from a fortified stone manor. From the street, it could pass for an ordinary home or military barracks. Master Mathias Shaw directs Stormwind Intelligence, Section 7. Its agents gather intelligence, watch suspected threats and carry out secret operations to guard the kingdom from subversion.\n\nThe city guard patrols Stormwind’s streets, while the Royal Guard protects Stormwind Keep. SI:7 trains handlers and sends covert agents against foreign enemies, saboteurs and unrest within the kingdom.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_si-7-stormwind-city-16116313f2de3d51e351/1-0000.mp3", duration = 56.1632653, start = 0},
+    {file = "Audio/Transport/full_subzone_si-7-stormwind-city-2d54d11f2ebd179c96fd/1-0000.mp3", duration = 46.3412245, start = 0},
   },
 }
 P.transport["subzone:silver-stream-mine"] = {
   hash = "fb62a2",
-  fullHash = "d7ca44",
-  text = "Silver Stream Mine. In northern Loch Modan, Silver Stream Mine lies between Algaz Station and the Stonewrought Dam, its silver veins exhausted. The Miners' League made the hollow a supply depot, but Tunnel Rat kobolds now occupy its tunnels and hoard stolen equipment and rare minerals. Silver Stream Mine once yielded rich silver for Ironforge. Dwarf miners dug until the main veins ran dry, leaving broad underground chambers. The Miners' League kept the hard-won shafts in use as a guarded storehouse for tools, mining crates, and regional equipment. The mine is also the only known source of Charged Rift Gems, which draw arcanists seeking delicate tailoring reagents. Tunnel Rat kobolds came in large numbers and drove the Miners' League caretakers out into the cold of Loch Modan. Now the kobolds guard the stolen dwarf crates with manic fervor. Outside the rear entrances, shattered orcish catapults and wagons lie forgotten, reminders of older frontier skirmishes.",
+  fullHash = "4b5e7f",
+  text = "Silver Stream Mine. In northern Loch Modan, Silver Stream Mine lies between Algaz Station and the Stonewrought Dam. Its silver veins are spent, and Tunnel Rat kobolds now hoard stolen equipment and rare minerals in the Miners' League depot. Silver Stream Mine once sent rich silver to Ironforge. Dwarf miners worked its veins until they ran dry, leaving broad chambers beneath the earth. The Miners' League put those hard-won shafts to use as a guarded storehouse for tools, mining crates, and regional equipment. The mine also yields Charged Rift Gems, which draw arcanists seeking delicate tailoring reagents. Tunnel Rat kobolds came in great numbers and drove the Miners' League caretakers out into the cold of Loch Modan. Now they guard the stolen dwarf crates with manic fervor. Beyond the rear entrances, shattered orcish catapults and wagons lie forgotten, remnants of older frontier skirmishes.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_silver-stream-mine-2fac563a4064cd7570c8/1-0000.mp3", duration = 59.6636735, start = 0},
+    {file = "Audio/Transport/full_subzone_silver-stream-mine-ae6bcf288567bf02285f/1-0000.mp3", duration = 54.2563265, start = 0},
   },
 }
 P.transport["subzone:silverwind-refuge"] = {
@@ -2482,35 +2482,35 @@ P.transport["subzone:sishir-canyon"] = {
   },
 }
 P.transport["subzone:slaughtered-lamb"] = {
-  hash = "8cdd38",
-  fullHash = "8cdd38",
-  text = "Slaughtered Lamb. Tucked away in Stormwind's Mage Quarter, the Slaughtered Lamb appears to be nothing more than a quiet, seedy tavern. Beneath its floorboards, however, sprawling catacombs hide the sanctum and training grounds of the Alliance's illicit warlocks. On the surface, the Slaughtered Lamb offers little more than dark corners and sparse patronage, attended by barkeep Jarel Moor, who warns casual visitors to stay away from the shadows. That warning is literal. Descending through the back passages reveals a subterranean complex of crypts and summoning circles, where human warlocks and transfer practitioners from Khaz Modan openly study fel arcana sheltered from the disapproving eyes of the Church of the Holy Light and the Kirin Tor.",
+  hash = "ba532e",
+  fullHash = "ba532e",
+  text = "Slaughtered Lamb. In Stormwind's Mage Quarter, the Slaughtered Lamb keeps a quiet, seedy tavern above a hidden warlock sanctuary. Dark corners and few patrons greet you at the Slaughtered Lamb, where barkeep Jarel Moor warns visitors to avoid the shadows. The warning is literal. Back passages descend to crypts and summoning circles below. There, human warlocks and transfer practitioners from Khaz Modan study fel arcana, beyond the disapproving eyes of the Church of the Holy Light and the Kirin Tor.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_slaughtered-lamb-3d4a2cbb7a32d463e3fe/1-0000.mp3", duration = 42.1877551, start = 0},
+    {file = "Audio/Transport/full_subzone_slaughtered-lamb-61af8b4b22c2f5b51158/1-0000.mp3", duration = 29.4922449, start = 0},
   },
 }
 P.transport["subzone:south-gate-outpost"] = {
-  hash = "07f48f",
-  fullHash = "07f48f",
-  text = "South Gate Outpost. Travelers stream through South Gate Outpost, a fortified post on the pass between Dun Morogh and Loch Modan. Its mountaineers guard the southern road between Ironforge's frigid heights and the Loch's temperate valley. South Gate Outpost marks the frontier between Dun Morogh's snowy slopes and Loch Modan's basin. Ironforge mountaineers patrol the rocky switchbacks and keep dangerous wildlife off the main highway. Unlike their hard-pressed kin at North Gate Outpost, these defenders have largely secured their stretch of road. Travelers, pilgrims, and trade wagons can journey toward Thelsamar in relative safety.",
+  hash = "4cf13b",
+  fullHash = "4cf13b",
+  text = "South Gate Outpost. At South Gate Outpost, mountaineers guard the pass between Dun Morogh and Loch Modan. Their fortified post watches the southern road from Ironforge's frigid heights to the Loch's temperate valley. At South Gate Outpost, snowy slopes give way to Loch Modan's basin. Ironforge mountaineers patrol the rocky switchbacks and keep dangerous wildlife off the main highway. Their kin at North Gate Outpost face a harder fight, but the southern road is largely secure. Travelers, pilgrims, and trade wagons can reach Thelsamar in relative safety.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_south-gate-outpost-8f50a861bb416b56a328/1-0000.mp3", duration = 37.8514286, start = 0},
+    {file = "Audio/Transport/full_subzone_south-gate-outpost-f49f5311d43855a35e9a/1-0000.mp3", duration = 32.4440816, start = 0},
   },
 }
 P.transport["subzone:south-gate-pass"] = {
   hash = "b37c0d",
-  fullHash = "e8f62a",
-  text = "South Gate Pass. South Gate Pass carries travelers between Dun Morogh and Loch Modan. Its guarded road links Ironforge with Thelsamar. South Gate Pass cuts through the Khaz Modan range, joining the high mountains of Dun Morogh to Loch Modan's valley in the east. Stone archways mark the way from the cold slopes into the warmer dwarven heartlands. The road leads toward Thelsamar, carrying mountaineers, couriers, and newly trained adventurers setting out from the capital. Dwarven mountaineers keep watch at South Gate Outpost, guarding the pass against wild beasts and prowling troggs. The road is safer than the untamed parts of the valley, but hostile wildlife and roving threats still test its approaches. Travelers are advised to stay on the road.",
+  fullHash = "f9e40b",
+  text = "South Gate Pass. Travelers cross South Gate Pass between Dun Morogh and Loch Modan. Its guarded road links Ironforge with Thelsamar. South Gate Pass cuts through the Khaz Modan range, joining Dun Morogh's high mountains to Loch Modan's valley in the east. Stone archways mark the way from cold slopes into warmer dwarven heartlands. The road leads toward Thelsamar, carrying mountaineers, couriers, and newly trained adventurers setting out from the capital. Dwarven mountaineers keep watch at South Gate Outpost, guarding the pass against wild beasts and prowling troggs. The road is safer than the untamed parts of the valley, though hostile wildlife and roving threats still test its approaches. Stay on the road as you travel.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_south-gate-pass-467b8f538b03ea829b14/1-0000.mp3", duration = 44.3297959, start = 0},
+    {file = "Audio/Transport/full_subzone_south-gate-pass-e151ad9311d73c2b0495/1-0000.mp3", duration = 43.52, start = 0},
   },
 }
 P.transport["subzone:southshore"] = {
   hash = "a59a4b",
-  fullHash = "9d725f",
-  text = "Southshore. Southshore is a coastal human port in the Hillsbrad Foothills and one of the Alliance's few surviving strongholds in fallen Lordaeron. Once a sleepy fishing village, it now stands as an embattled bastion facing constant hostility from the Forsaken garrison at Tarren Mill, rogue Syndicate bandits, and shoreline monsters. Southshore first rose to prominence during the First War when refugee boats carrying survivors from the fallen kingdom of Stormwind landed upon its beaches. Though contested and overrun during the Second War, it was rebuilt and later endured the horrors of the Third War. Today, while the rest of Lordaeron lies in ruins or under the rule of the Forsaken, Southshore remains fiercely loyal to the Grand Alliance. It offers shelter to displaced human survivors, veteran paladins of the Silver Hand, and scholars of the Kirin Tor. Despite its scenic docks, where the ship between Menethil Harbor and Auberdine calls, and its famous turtle bisque, life in Southshore is perilous. Led by Magistrate Henry Maleb and Marshal Redpath, the town struggles against relentless pressure. To the north, the Forsaken of Tarren Mill wage a bitter border conflict for dominance over Hillsbrad. Inland, the aristocratic outlaws of the Syndicate raid supply lines and assassinate local leaders, while ogres, murlocs, and naga constantly harass the town's borders.",
+  fullHash = "e3bd9c",
+  text = "Southshore. In Hillsbrad, Southshore shelters the Alliance amid the ruins of Lordaeron. Once a quiet fishing village, the coastal port now faces the Forsaken at Tarren Mill, Syndicate bandits, and monsters along the shore. Refugee boats from the fallen kingdom of Stormwind first brought Southshore to prominence during the First War. The town was contested and overrun during the Second War, then rebuilt. It endured the horrors of the Third War as well.\n\nNow much of Lordaeron lies in ruins or under Forsaken rule, but Southshore remains loyal to the Grand Alliance. It shelters displaced human survivors, veteran paladins of the Silver Hand, and scholars of the Kirin Tor. Southshore's docks see the ship between Menethil Harbor and Auberdine, and the town is known for its turtle bisque. Yet life here is perilous. Magistrate Henry Maleb and Marshal Redpath lead the town as it faces pressure from every side.\n\nTo the north, the Forsaken of Tarren Mill fight a bitter border conflict for control of Hillsbrad. Inland, Syndicate outlaws raid supply lines and assassinate local leaders. Ogres, murlocs, and naga also harass the town's borders.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_southshore-26f8379ce89048c89b3b/1-0000.mp3", duration = 80.5093878, start = 0},
+    {file = "Audio/Transport/full_subzone_southshore-392a34a971e5bb662e0f/1-0000.mp3", duration = 71.9673469, start = 0},
   },
 }
 P.transport["subzone:splintertree-post"] = {
@@ -2546,51 +2546,51 @@ P.transport["subzone:starbreeze-village"] = {
   },
 }
 P.transport["subzone:steelgrill-s-depot"] = {
-  hash = "647cf1",
-  fullHash = "647cf1",
-  text = "Steelgrill's Depot. East of Kharanos, Steelgrill's Depot keeps Alliance vehicles and machinery in working order. Beldin Steelgrill and his crew handle repairs, tinker supplies, and salvage efforts. Steelgrill's Depot rings with clanking metal, hissing steam vents, and the hum of experimental engines. Just off the snowy road east of Kharanos, dwarven miners and eccentric gnome engineers gather among heavy machinery, mechanized walking frames, and stockpiles of raw ores hauled from nearby quarries. Trogg disruptions and shortages of mechanical supplies trouble Dun Morogh. Beldin Steelgrill and his crew keep Alliance machinery in working order, making the depot an indispensable stop for travelers seeking spare parts or technical guidance in the bitter cold.",
+  hash = "b9a745",
+  fullHash = "b9a745",
+  text = "Steelgrill's Depot. East of Kharanos, Steelgrill's Depot keeps Alliance vehicles and machinery working. Beldin Steelgrill and his crew repair them, supply tinkerers, and salvage what they can. Just off the snowy road, dwarven miners and eccentric gnome engineers gather among heavy machinery, mechanized walking frames, and raw ore from nearby quarries. Metal clanks, steam vents hiss, and experimental engines churn. Trogg disruptions and shortages of mechanical supplies trouble Dun Morogh. In the bitter cold, travelers come for spare parts or technical guidance.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_steelgrill-s-depot-ff8cafcc7e06dacfbb7c/1-0000.mp3", duration = 43.8595918, start = 0},
+    {file = "Audio/Transport/full_subzone_steelgrill-s-depot-74528e7445e0e0eb5a9c/1-0000.mp3", duration = 34.6122449, start = 0},
   },
 }
 P.transport["subzone:stendel-s-pond"] = {
-  hash = "37cdae",
-  fullHash = "37cdae",
-  text = "Stendel's Pond. Gnolls prowl Stendel's Pond southwest of Sentinel Hill, where anglers still seek fresh fish. Southwest of Sentinel Hill, Stendel's Pond draws anglers despite the danger along its muddy banks. Gnolls roam nearby, and scattered skeletons with two lone graves show that the shore is perilous. The water may be foul, or the beasts may be to blame, but the cause is unknown. Schools of sagefish still bring anglers to the pond.",
+  hash = "da892f",
+  fullHash = "da892f",
+  text = "Stendel's Pond. At Stendel's Pond, anglers still come for fresh fish despite the gnolls along its banks. Southwest of Sentinel Hill, Stendel's Pond still draws anglers. Gnolls roam the muddy banks, where scattered skeletons and two lone graves mark a perilous shore. No one knows whether foul water or the beasts caused the deaths. Yet schools of sagefish still bring anglers to the pond.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_stendel-s-pond-fef0cb67206921a27ce7/1-0000.mp3", duration = 24.6857143, start = 0},
+    {file = "Audio/Transport/full_subzone_stendel-s-pond-9e1f38a95ecac62d1cae/1-0000.mp3", duration = 23.4840816, start = 0},
   },
 }
 P.transport["subzone:stone-cairn-lake"] = {
   hash = "c731f3",
-  fullHash = "b37a8b",
-  text = "Stone Cairn Lake. At Stone Cairn Lake in northeastern Elwynn, hostile murlocs hold the southern shore and renegade wizards camp on the island. Heroes' Vigil honors those lost in the First War. Families and pilgrims once crossed the calm waters to honor the dead at Heroes' Vigil. The stone memorial was raised on the lake's central island to mark the heavy loss of human life in the First War against the Orcish Horde. Now renegade wizards have made camp beside the monument, and the island has become a hostile place. Aggressive murlocs have claimed the southern banks of Stone Cairn Lake. Their crude huts line the water, and they harass anyone who comes near. The hills and rocky outcrops around the lake hold rich mineral veins, drawing prospectors and miners despite the dangers along the shore.",
+  fullHash = "bec26f",
+  text = "Stone Cairn Lake. At Stone Cairn Lake in northeastern Elwynn, murlocs hold the southern shore. Renegade wizards camp beside Heroes' Vigil, a memorial to those lost in the First War. Families and pilgrims once crossed the calm lake waters to honor the dead at Heroes' Vigil. The stone memorial rises on the central island, marking the heavy loss of human life in the First War against the Orcish Horde. Now the island is hostile, and those who come to pay their respects must face the wizards' camp beside the monument. Aggressive murlocs hold Stone Cairn Lake's southern banks. Crude huts line the water, and the murlocs harass anyone who comes near. Rich mineral veins run through the hills and rocky outcrops around the lake, drawing prospectors and miners despite the dangers along the shore.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_stone-cairn-lake-22c176092d5dde498c14/1-0000.mp3", duration = 45.5314286, start = 0},
+    {file = "Audio/Transport/full_subzone_stone-cairn-lake-808fc2551ff7ff4828b6/1-0000.mp3", duration = 46.9681633, start = 0},
   },
 }
 P.transport["subzone:stonefield-farm"] = {
-  hash = "822a6b",
-  fullHash = "822a6b",
-  text = "Stonefield Farm. The Stonefield family works the fields in southern Elwynn Forest. Their long feud with the neighboring Maclures keeps the two households at odds. Stonefield Farm lies south of Goldshire, where the family grows crops for the realm. For decades, the Stonefields have quarreled with the nearby Maclure Vineyards. The households trade accusations of theft and trespassing, and even small disputes keep tensions high. Gramma Stonefield, Ma Stonefield, and young Tommy Joe Stonefield make their home here.",
+  hash = "416b04",
+  fullHash = "416b04",
+  text = "Stonefield Farm. In southern Elwynn Forest, the Stonefield family works its fields while a long feud divides them from the Maclures. South of Goldshire, the Stonefields grow crops for the realm. For decades, they have quarreled with the nearby Maclure Vineyards. Each household accuses the other of theft and trespassing, and even small disputes keep tensions high. Gramma Stonefield, Ma Stonefield, and young Tommy Joe Stonefield make their home here.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_stonefield-farm-90716a84f8cebe4ef2c9/1-0000.mp3", duration = 29.7012245, start = 0},
+    {file = "Audio/Transport/full_subzone_stonefield-farm-2543566cc6202bf3703e/1-0000.mp3", duration = 28.0293878, start = 0},
   },
 }
 P.transport["subzone:stonefire-tavern"] = {
-  hash = "9174d6",
-  fullHash = "9174d6",
-  text = "Stonefire Tavern. Travelers gather at Stonefire Tavern in Ironforge’s Commons, just north of the city gates. The inn offers a hearth, dwarven ale, and a place to rest for those arriving from across Khaz Modan. Stonefire Tavern welcomes travelers in Ironforge’s Commons, just north of the fortress gates. Innkeeper Firebrew runs the inn with his daughter Gwenna. Weary wayfarers can find meals, local brews, and lodging beneath the mountain. Travelers come in from across the Alliance to rest from Dun Morogh’s mountain snows, trade tales, or gather supplies before exploring the city. Its hearth draws them together at the heart of the Commons.",
+  hash = "5a0bb0",
+  fullHash = "5a0bb0",
+  text = "Stonefire Tavern. In Ironforge’s Commons, travelers find the Stonefire Tavern just north of the city gates. Its hearth, dwarven ale, and rooms offer rest to those arriving from across Khaz Modan. In Ironforge’s Commons, just north of the fortress gates, Innkeeper Firebrew runs Stonefire Tavern with his daughter Gwenna. Weary wayfarers can find meals, local brews, and lodging beneath the mountain.\n\nTravelers come from across the Alliance to rest from Dun Morogh’s mountain snows, trade tales, or gather supplies before exploring the city. The hearth draws them together at the heart of the Commons.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_stonefire-tavern-e81cde06112376eb8cc8/1-0000.mp3", duration = 39.2881633, start = 0},
+    {file = "Audio/Transport/full_subzone_stonefire-tavern-c79cf862647363e7dafc/1-0000.mp3", duration = 37.12, start = 0},
   },
 }
 P.transport["subzone:stonesplinter-valley"] = {
-  hash = "c66c51",
-  fullHash = "c66c51",
-  text = "Stonesplinter Valley. Stonesplinter troggs have fortified a mountain vale in southwestern Loch Modan. Their chieftain, Grawmug, leads the tribe from the valley. Stonesplinter Valley lies among the crags of southwestern Loch Modan. Troggs clawed up from underground across Khaz Modan, ending the quiet that once filled the hollow. The Stonesplinter tribe claimed the valley and carved crude defenses into its rocky passes, digging dens and raising barricades. They hunt anything that comes too close. Their numbers threaten the roads through southern Loch Modan, and Mountaineers from Thelsamar hire mercenaries to thin their ranks and bring down Grawmug, the towering warlord who leads them.",
+  hash = "428b0d",
+  fullHash = "428b0d",
+  text = "Stonesplinter Valley. In southwestern Loch Modan, Stonesplinter troggs hold a mountain vale behind crude defenses. Their chieftain, Grawmug, leads the tribe from within. Among the crags of southwestern Loch Modan, Stonesplinter troggs have made their stronghold. Troggs clawed up from underground across Khaz Modan and ended the quiet that once filled this hollow. The Stonesplinter tribe claimed the valley and carved crude defenses into its rocky passes.\n\nThey dug dens and raised barricades, and now hunt anything that comes too close. Their numbers threaten the roads through southern Loch Modan. So Mountaineers from Thelsamar hire mercenaries to thin the tribe and bring down Grawmug, its towering warlord.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_stonesplinter-valley-32cd906a7a2f5459649c/1-0000.mp3", duration = 39.3665306, start = 0},
+    {file = "Audio/Transport/full_subzone_stonesplinter-valley-ac851a62ba1e00b3a61b/1-0000.mp3", duration = 43.2587755, start = 0},
   },
 }
 P.transport["subzone:stonetalon-peak"] = {
@@ -2635,58 +2635,58 @@ P.transport["subzone:stonewatch-tower"] = {
 }
 P.transport["subzone:stonewrought-dam"] = {
   hash = "9c3d6c",
-  fullHash = "d5e8c8",
-  text = "Stonewrought Dam. Waters gather behind Stonewrought Dam along Loch Modan’s northern rim. The dwarven barrier holds back the Loch and drains the Wetlands below into habitable marshes. Stonewrought Dam stretches across the canyon east of Dun Algaz, one of the great works of dwarven craft. Dark Iron architect Franclorn Forgewright designed it and pioneered the stonewrought technique used to build it. By trapping water in the mountain basin, the dam doubled the Loch’s surface area and steadily lowered the waters to the north. The Wetlands emerged from a valley once completely flooded. Stonewrought Dam now serves Ironforge, though Dark Iron saboteurs from the southern mountains target it. After recent assaults and attempts to infiltrate the dam, Ironforge placed a garrison here under Chief Engineer Hinderweir VII. Guards and engineers patrol the masonry day and night. A breach could drain the Loch and unleash a devastating flood across the Wetlands below.",
+  fullHash = "947989",
+  text = "Stonewrought Dam. Along Loch Modan’s northern rim, waters gather behind Stonewrought Dam. The dwarven barrier holds back the Loch and drains the Wetlands below into habitable marshes. East of Dun Algaz, Stonewrought Dam spans a canyon in one of the great works of dwarven craft. Dark Iron architect Franclorn Forgewright designed it and pioneered the stonewrought technique used to raise it. By holding water in the mountain basin, the dam doubled the Loch’s surface area and steadily lowered the waters to the north. The Wetlands formed from a valley once wholly flooded. Stonewrought Dam now serves Ironforge, but Dark Iron saboteurs from the southern mountains target it. After recent assaults and attempts to slip inside, Ironforge placed a garrison here under Chief Engineer Hinderweir VII. Guards and engineers patrol the masonry day and night. Should the dam be breached, the Loch could drain and send a devastating flood across the Wetlands below.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_stonewrought-dam-872da86f2cff6a02aec3/1-0000.mp3", duration = 53.4204082, start = 0},
+    {file = "Audio/Transport/full_subzone_stonewrought-dam-99beaeb55ea728331632/1-0000.mp3", duration = 56.8685714, start = 0},
   },
 }
 P.transport["subzone:stormwind-gate"] = {
-  hash = "dc518f",
-  fullHash = "dc518f",
-  text = "Stormwind Gate. At Stormwind Gate, sentries watch the road between Elwynn Forest and Stormwind City. The passage opens onto the Valley of Heroes, where the city’s stone monuments rise beyond the arch. Stormwind Gate guards the southern road from Elwynn Forest into the capital. The Stormwind City Guard watches from the stone portal, while patrols move between the outer arch and the Valley of Heroes. Unrest lingers in Elwynn, yet the massive iron and stone gates stay open. Travelers, merchants, and returning defenders pass through into the heart of the Alliance.",
+  hash = "b3cbcd",
+  fullHash = "b3cbcd",
+  text = "Stormwind Gate. Stormwind Gate stands open between Elwynn Forest and Stormwind City, watched by sentries. Beyond its arch, stone monuments line the Valley of Heroes. The Stormwind City Guard holds this passage, and patrols march from the outer arch toward the Valley of Heroes. Unrest lingers in Elwynn, yet the iron and stone gates remain open. Travelers, merchants, and defenders returning from the road pass through toward the heart of the Alliance.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_stormwind-gate-c3ef303b41c830c99cca/1-0000.mp3", duration = 32.1828571, start = 0},
+    {file = "Audio/Transport/full_subzone_stormwind-gate-e358b5a1d3b3320f8635/1-0000.mp3", duration = 27.1673469, start = 0},
   },
 }
 P.transport["subzone:stormwind-keep"] = {
-  hash = "699b80",
-  fullHash = "699b80",
-  text = "Stormwind Keep. Stormwind Keep stands high above the capital as the stone fortress and seat of power for the Kingdom of Stormwind. Rebuilt after its ruin in the First War, it currently houses the royal court of the young boy-king Anduin Wrynn and his regent, Highlord Bolvar Fordragon. Perched upon a plateau overlooking the entire city, Stormwind Keep serves as both a palace and a military bastion. The original stronghold was burned to the ground by the Old Horde when King Llane was assassinated near the end of the First War. Raised anew upon the old foundations after the Alliance reclaimed the kingdom, the reconstructed keep houses not only the grand throne room and the War Room, but peaceful garden courtyards and the expansive Royal Library.",
+  hash = "d67dd4",
+  fullHash = "d67dd4",
+  text = "Stormwind Keep. Stormwind Keep holds the royal court above the capital. Rebuilt after its ruin in the First War, it is now home to the young boy-king Anduin Wrynn and his regent, Highlord Bolvar Fordragon. Stormwind Keep crowns a plateau above the city, with halls for the crown and the kingdom’s defense. The Old Horde burned the first stronghold after King Llane was assassinated near the end of the First War. After the Alliance reclaimed the kingdom, builders raised the keep again on its old foundations. Its halls include the grand throne room and the War Room, while garden courtyards and the Royal Library offer quieter spaces.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_stormwind-keep-f059a8647e171424279b/1-0000.mp3", duration = 40.5159184, start = 0},
+    {file = "Audio/Transport/full_subzone_stormwind-keep-11ccba1eddc9d7569389/1-0000.mp3", duration = 37.2767347, start = 0},
   },
 }
 P.transport["subzone:stormwind-stockade"] = {
-  hash = "1157bb",
-  fullHash = "1157bb",
-  text = "Stormwind Stockade. Stormwind Stockade holds the city’s most dangerous prisoners beneath the canals near the Mage Quarter. A coordinated revolt has driven the guards from the lower cells, leaving the prison in chaos. Warden Thelwater oversees the Stockade, where Stormwind keeps cutthroats, Defias operatives, captured Blackrock orcs, and Dark Iron dwarves. Now a violent uprising led by the Defias conspirator Bazil Thredd has forced the guards from the lower cells. The prisoners roam freely through the corridors. Thelwater has managed to secure the entrance, but the revolt still threatens to reach the canals. He depends on adventurers to enter the prison and put down the uprising.",
+  hash = "e133a7",
+  fullHash = "e133a7",
+  text = "Stormwind Stockade. Stormwind Stockade has fallen into chaos beneath the canals near the Mage Quarter. A coordinated revolt has driven the guards from the lower cells, and the prison's most dangerous prisoners roam free. Warden Thelwater oversees the Stockade, where Stormwind holds cutthroats, Defias operatives, captured Blackrock orcs, and Dark Iron dwarves. The Defias conspirator Bazil Thredd led the uprising, and now prisoners roam the corridors. Thelwater has secured the entrance, but the revolt still threatens to spill into the canals. He needs adventurers to enter the prison and put it down.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_stormwind-stockade-a0828a28855a50570572/1-0000.mp3", duration = 40.2546939, start = 0},
+    {file = "Audio/Transport/full_subzone_stormwind-stockade-4bbe5d9337bc542029a4/1-0000.mp3", duration = 35.9444898, start = 0},
   },
 }
 P.transport["subzone:stormwind-stockade-classic"] = {
-  hash = "cb4758",
-  fullHash = "cb4758",
-  text = "Stormwind Stockade (Classic). Prisoners now control the Stormwind Stockade beneath Stormwind City's canal district. A revolt has driven the guards from its halls. The Stockade lies off the canals between Old Town and the Mage Quarter, holding Stormwind's most dangerous prisoners. Warden Thelwater oversees the underground prison. Its inmates include Defias Brotherhood cutthroats, a Blackrock orc, an ogre, and a Dark Iron dwarf. Bazil Thredd recently led a coordinated riot that overwhelmed the garrison. The surviving guards fled, leaving the prisoners in control of the halls.",
+  hash = "36c722",
+  fullHash = "36c722",
+  text = "Stormwind Stockade (Classic). A revolt has put the prisoners in control beneath Stormwind City's canal district. The Stockade lies beside the canals between Old Town and the Mage Quarter. Warden Thelwater oversees the Stockade, where Stormwind holds its most dangerous prisoners. Among them are Defias Brotherhood cutthroats, a Blackrock orc, an ogre and a Dark Iron dwarf. Then Bazil Thredd led a coordinated riot that overwhelmed the garrison. The surviving guards fled, and prisoners now rule the halls.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_stormwind-stockade-classic-9b4edd0cf0003e5d16c1/1-0000.mp3", duration = 32.8097959, start = 0},
+    {file = "Audio/Transport/full_subzone_stormwind-stockade-classic-1e34b8c664940c66e8ca/1-0000.mp3", duration = 30.7722449, start = 0},
   },
 }
 P.transport["subzone:stoutlager-inn"] = {
-  hash = "f4b92d",
-  fullHash = "f4b92d",
-  text = "Stoutlager Inn. In Thelsamar, Stoutlager Inn gives travelers a warm hearth and a place to gather in western Loch Modan. Stoutlager Inn anchors community life in western Loch Modan, within Thelsamar. Miners, mountaineers, and travelers between Dun Morogh and the Wetlands stop to trade rumors, find lodging, and share dwarven ale. Troggs and kobolds make the wilderness beyond Thelsamar more dangerous, while the inn’s stone walls and fires offer shelter.",
+  hash = "6b5bc5",
+  fullHash = "6b5bc5",
+  text = "Stoutlager Inn. In Thelsamar, Stoutlager Inn welcomes travelers crossing western Loch Modan with a warm hearth and a place to gather. Stoutlager Inn draws miners, mountaineers, and travelers passing between Dun Morogh and the Wetlands. They trade rumors, find beds, and share dwarven ale beneath its roof. Beyond Thelsamar, troggs and kobolds make the wilderness dangerous, so the inn’s stone walls and fires offer welcome shelter.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_stoutlager-inn-0f9875e7ac5922a49f94/1-0000.mp3", duration = 25.5477551, start = 0},
+    {file = "Audio/Transport/full_subzone_stoutlager-inn-c0294a4209f7817d6d77/1-0000.mp3", duration = 26.0963265, start = 0},
   },
 }
 P.transport["subzone:strahnbrad"] = {
   hash = "12a91c",
-  fullHash = "43f02c",
-  text = "Strahnbrad. Strahnbrad is a ruined human settlement nestled in the northeastern heights of the Alterac Mountains, near the border of the Western Plaguelands. Once famous as the site of Prince Arthas Menethil's early defense against Blackrock orc raiders, the town has since fallen into decay and serves as a fortified stronghold for the criminal Syndicate. Originally a holding of the Kingdom of Alterac before being absorbed into Lordaeron following the Second War, Strahnbrad's misfortune began on the eve of the Third War. Blackrock clan orcs raided the settlement to take human sacrifices for the Burning Legion, leading Prince Arthas Menethil and the Knights of the Silver Hand to ride to its defense. Though Arthas drove the raiders away and slew their slave master, the town was heavily bloodied. When Lordaeron crumbled beneath the Scourge shortly thereafter, Strahnbrad was abandoned to the elements. Today, Strahnbrad has become a crucial operations hub for the Syndicate, the organization of displaced Alteraci nobility and outlaws plotting to reclaim their fallen realm. Patrolled by human rogues and brigands, its abandoned town hall and blacksmith now serve as hideouts and staging grounds. The Syndicate uses the ruined town to house supplies and captive labor, including unfortunate prisoners like the orc Gol'dir, whom Horde scouts from Tarren Mill actively seek to liberate.",
+  fullHash = "37b0d7",
+  text = "Strahnbrad. Syndicate brigands hold Strahnbrad, a ruined town in the northeastern heights of the Alterac Mountains. Near the Western Plaguelands border, it has fallen into decay since Prince Arthas Menethil defended it from Blackrock orc raiders. Strahnbrad belonged to the Kingdom of Alterac until Lordaeron absorbed it after the Second War. On the eve of the Third War, Blackrock clan orcs raided the town to take human sacrifices for the Burning Legion. Prince Arthas Menethil rode to its defense with the Knights of the Silver Hand. He drove off the raiders and slew their slave master, but Strahnbrad was left bloodied. Soon after, the Scourge brought down Lordaeron, and the town was abandoned to the elements. The Syndicate uses Strahnbrad as an operations hub. Displaced Alteraci nobles and outlaws patrol the abandoned town hall and blacksmith, now their hideouts and staging grounds as they plan to reclaim their fallen realm. The Syndicate keeps supplies and captive labor in the ruins, including the orc Gol'dir. Horde scouts from Tarren Mill seek to free him.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_strahnbrad-e9160347936a6b98f879/1-0000.mp3", duration = 79.0726531, start = 0},
+    {file = "Audio/Transport/full_subzone_strahnbrad-8e7fa8183dd190c6031d/1-0000.mp3", duration = 64.1567347, start = 0},
   },
 }
 P.transport["subzone:sun-rock-retreat"] = {
@@ -2739,18 +2739,18 @@ P.transport["subzone:temple-of-the-moon"] = {
 }
 P.transport["subzone:the-loch"] = {
   hash = "913e57",
-  fullHash = "f81f5f",
-  text = "The Loch. The Loch’s waters are held back by the Stonewrought Dam in Loch Modan. The lake is the largest body of water on Khaz Modan and sustains the surrounding dwarven settlements. The Loch spans the center of Loch Modan, among the largest inland lakes in the known world. Only Lordamere Lake and Darrowmere Lake in the north rival its size. Its waters support local fishermen and give Thelsamar and nearby hunting lodges a peaceful setting. Aggressive threshadons and freshwater beasts prowl beneath the calm surface, making a swim across perilous. The Stonewrought Dam keeps The Loch in its tranquil state. This massive dwarven structure crosses the mountain cleft to the north and prevents the lake from flooding into the Wetlands below. Maintaining it is essential to preserving the valley’s ecosystem and keeping Khaz Modan secure.",
+  fullHash = "dcabc3",
+  text = "The Loch. The Loch's waters fill the heart of Loch Modan, held back by the Stonewrought Dam. The lake is Khaz Modan's largest body of water and sustains the dwarven settlements around it. At the center of Loch Modan, The Loch spreads among the largest inland lakes in the known world. Only Lordamere Lake and Darrowmere Lake to the north rival its size. Local fishermen draw from its waters, while Thelsamar and nearby hunting lodges enjoy a peaceful setting along its shores. Beneath the calm surface, aggressive threshadons and freshwater beasts make swimming across perilous. To the north, the Stonewrought Dam keeps The Loch in its tranquil state. The massive dwarven structure crosses a cleft in the mountains and prevents the lake from flooding into the Wetlands below. Its upkeep preserves the valley's ecosystem and helps keep Khaz Modan secure.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_the-loch-e2f642461811fc05dde0/1-0000.mp3", duration = 48.7183673, start = 0},
+    {file = "Audio/Transport/full_subzone_the-loch-5d846b6133a5d256186f/1-0000.mp3", duration = 50.2595918, start = 0},
   },
 }
 P.transport["subzone:thelsamar"] = {
   hash = "7bbe46",
-  fullHash = "fc9fbe",
-  text = "Thelsamar. Thelsamar keeps watch over the western bluffs above Loch Modan's great lake. The town lies on the road between Dun Morogh and the Wetlands, offering shelter and trade while troggs and ogres press in nearby. Thelsamar gathers dwarven life in the valley beneath stout stone and timber roofs. Travelers find the Stoutlager Inn, a gryphon roost, crafting stations, and supply merchants. The town sits on the road from the South Gate Pass into Dun Morogh to the Algaz Pass toward the Wetlands, so travelers crossing the region pass through its doors. Threats close in on Thelsamar from several sides. Troggs pour from Stonesplinter Valley to the south, and bears and other predators haunt Grizzlepaw Ridge. Ironforge's regular forces are stretched thin across the realm, leaving the local magistrate and Mountaineers to depend on travelers and mercenaries to patrol the trade roads and drive back hostile forces.",
+  fullHash = "28bc11",
+  text = "Thelsamar. In Thelsamar, travelers find shelter on the road between Dun Morogh and the Wetlands. The town keeps watch over the western bluffs above Loch Modan's great lake as troggs and ogres press nearby. Thelsamar gathers dwarven life beneath stout roofs of stone and timber. At the Stoutlager Inn, travelers can rest, and nearby they find a gryphon roost, crafting stations, and supply merchants. The town lies along the road from the South Gate Pass into Dun Morogh to the Algaz Pass toward the Wetlands. Travelers crossing the region pass through its doors. Trouble presses in on Thelsamar from several sides. Troggs pour from Stonesplinter Valley to the south, while bears and other predators haunt Grizzlepaw Ridge. Ironforge's regular forces are stretched thin across the realm. So the local magistrate and Mountaineers rely on travelers and mercenaries to patrol the trade roads and drive back hostile forces.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_thelsamar-b79bad4fddcc4eef3ba9/1-0000.mp3", duration = 53.0285714, start = 0},
+    {file = "Audio/Transport/full_subzone_thelsamar-ecfca59fe1655bf5d82c/1-0000.mp3", duration = 54.2563265, start = 0},
   },
 }
 P.transport["subzone:thistlefur-hold"] = {
@@ -2770,11 +2770,11 @@ P.transport["subzone:thistlefur-village"] = {
   },
 }
 P.transport["subzone:thistlefuzz-arcanery"] = {
-  hash = "439661",
-  fullHash = "439661",
-  text = "Thistlefuzz Arcanery. East of the Great Forge, Thistlefuzz Arcanery draws enchanters and scholars. Gnome practitioners run this prominent workshop and academy, a haven for those who weave magic into metal and parchment. Its chambers hum with arcane energy beside the fires of dwarven industry. East of the Great Forge, Thistlefuzz Arcanery contrasts with the clanging anvils of dwarven smiths. Across its two levels, scholars, practitioners, and apprentices gather to study enchanting and the arcane arts. Dwarves reshape steel with muscle and fire; the gnomes here show how raw arcane energy can be bound into weapons, armor, and curious tools. For spellcasters making their way through the mountain stronghold, the Arcanery remains an essential sanctuary.",
+  hash = "ee19f7",
+  fullHash = "ee19f7",
+  text = "Thistlefuzz Arcanery. East of the Great Forge, Thistlefuzz Arcanery draws enchanters and scholars to a prominent gnome-run workshop and academy. Its chambers hum with arcane energy beside the fires of dwarven industry, offering a haven to those who weave magic into metal and parchment. East of the Great Forge, Thistlefuzz Arcanery offers a quieter craft beside the clanging anvils of dwarven smiths. Across its two levels, scholars, practitioners, and apprentices gather to study enchanting and the arcane arts. Dwarves reshape steel with muscle and fire, while the gnomes bind raw arcane energy into weapons, armor, and curious tools. For spellcasters making their way through the mountain stronghold, the Arcanery remains an essential sanctuary.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_thistlefuzz-arcanery-5f26e0aaffdb13973d47/1-0000.mp3", duration = 44.4081633, start = 0},
+    {file = "Audio/Transport/full_subzone_thistlefuzz-arcanery-f6dfab61a8e205726d53/1-0000.mp3", duration = 44.1991837, start = 0},
   },
 }
 P.transport["subzone:three-corners"] = {
@@ -2786,35 +2786,35 @@ P.transport["subzone:three-corners"] = {
   },
 }
 P.transport["subzone:thunder-falls"] = {
-  hash = "d080b0",
-  fullHash = "d080b0",
-  text = "Thunder Falls. Thunder Falls lies in Elwynn Forest’s northwestern heights, where bandits have taken a riverside cottage. Thunder Falls cuts through the ridges above Mirror Lake, where a mountain stream rushes between steep cliffs. It enters over an unreachable cascade in the north, then spills away in waterfalls on both sides. One fall empties into Mirror Lake; the stream’s downstream course runs west toward Westfall’s rugged border. A cottage, dock, and outdoor forge sit beside the water. Bandits now claim the clearing.",
+  hash = "5b6646",
+  fullHash = "5b6646",
+  text = "Thunder Falls. Bandits now hold a cottage beside the stream at Thunder Falls, high in northwestern Elwynn Forest. Above Mirror Lake, a mountain stream runs between the steep cliffs of Thunder Falls. From an unreachable cascade in the north, it spills down in falls on both sides. One pours into Mirror Lake, while the stream runs west toward Westfall’s rugged border.\n\nA cottage, a dock, and an outdoor forge stand beside the water. Bandits now claim the clearing.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_thunder-falls-3b1697d877ce62953c9d/1-0000.mp3", duration = 30.6677551, start = 0},
+    {file = "Audio/Transport/full_subzone_thunder-falls-da47b8fdde5be83093ca/1-0000.mp3", duration = 28.7608163, start = 0},
   },
 }
 P.transport["subzone:thunderbrew-distillery"] = {
   hash = "4464b9",
-  fullHash = "ef3611",
-  text = "Thunderbrew Distillery. Travelers find the Thunderbrew Distillery at the heart of Kharanos, where ale and shelter await. Its brewhouse and tavern draw mountain travelers, while mentors and tradesfolk offer their skills within. The Thunderbrew Distillery anchors Kharanos in southern Dun Morogh. Arkilus Thunderbrew founded the brewhouse, and his kin have kept it in the family. Across Khaz Modan, its strong ales are known for warming those who face the mountain cold. Innkeeper Belm manages the inn, where weary mountaineers find a fire, hearty food, and beds beyond the blizzards outside. Kharanos is the first major settlement travelers reach after leaving Coldridge Valley, and the distillery gathers many kinds of instructors beneath its timber rafters. Teachers offer lessons in martial arts, holy rites, arcane studies, and roguecraft, alongside cooking and first aid. The hall pours its well-known stouts, but also gives travelers a place to prepare for the road ahead.",
+  fullHash = "9432e7",
+  text = "Thunderbrew Distillery. In Kharanos, Thunderbrew Distillery offers travelers ale and shelter. Its brewhouse and tavern draw mountain travelers, while mentors and tradesfolk share their skills within. The Thunderbrew Distillery anchors Kharanos in southern Dun Morogh. Arkilus Thunderbrew founded its brewhouse, and his kin have kept it in the family. Its strong ales are known across Khaz Modan for warming those who face the mountain cold. Innkeeper Belm manages the inn, where weary mountaineers find a fire, hearty food, and beds beyond the blizzards outside. Kharanos is the first major settlement travelers reach after leaving Coldridge Valley. Beneath the distillery’s timber rafters, instructors teach martial arts, holy rites, arcane studies, and roguecraft. Teachers also offer cooking and first aid. The hall pours its well-known stouts and gives travelers a place to prepare for the road ahead.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_thunderbrew-distillery-c2a39c835ac922c76910/1-0000.mp3", duration = 56.8685714, start = 0},
+    {file = "Audio/Transport/full_subzone_thunderbrew-distillery-c25f7000c3c91c72b4d5/1-0000.mp3", duration = 55.275102, start = 0},
   },
 }
 P.transport["subzone:tinker-town"] = {
   hash = "012a90",
-  fullHash = "a5802b",
-  text = "Tinker Town. In Tinker Town, gnomes make a home in exile beneath Ironforge. After Gnomeregan fell, the district became the seat of High Tinker Gelbin Mekkatorque's government and the Ironforge terminus of the Deeprun Tram. Tinker Town shelters the gnomes who fled Gnomeregan. When troggs overran their high-tech city, Ironforge's dwarves opened their gates, setting aside a cavern that had housed dwarves and held the Deeprun Tram entrance. High Tinker Gelbin Mekkatorque and his council lead the refugees here. Around a massive spherical contraption, the gnomes have rebuilt a semblance of their civilization amid whirring gears, experimental alchemy, and gadgetry. Though cramped guests in a stone city, they remain determined to reclaim their subterranean homeland. Tinker Town connects Ironforge to Stormwind by tram. The district holds the Ironforge entrance to the Deeprun Tram, an engineering wonder that swiftly links the dwarven capital with Stormwind.",
+  fullHash = "8d5809",
+  text = "Tinker Town. Tinker Town is where gnomes make their home in exile beneath Ironforge. Since Gnomeregan fell, it has been the seat of High Tinker Gelbin Mekkatorque’s government and the Ironforge end of the Deeprun Tram. Tinker Town shelters the gnomes who fled Gnomeregan. Troggs overran their high-tech city, so Ironforge’s dwarves opened their gates. They gave the refugees a cavern once used by dwarves, where the Deeprun Tram entrance already stood. High Tinker Gelbin Mekkatorque and his council lead the gnomes from here.\n\nAround a massive spherical contraption, the gnomes have rebuilt a semblance of their civilization. Gears whir, alchemy is tested, and gadgets take shape in the cramped district. Though guests in a stone city, the gnomes remain determined to reclaim their subterranean homeland. Tinker Town holds the Ironforge entrance to the Deeprun Tram. The engineering wonder carries travelers swiftly between the dwarven capital and Stormwind, joining the two cities.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_tinker-town-e9590f083d84241990e1/1-0000.mp3", duration = 57.2865306, start = 0},
+    {file = "Audio/Transport/full_subzone_tinker-town-971122edc225892804c5/1-0000.mp3", duration = 60.6040816, start = 0},
   },
 }
 P.transport["subzone:tinkers-court"] = {
-  hash = "a6e911",
-  fullHash = "a6e911",
-  text = "Tinkers' Court. In Gnomeregan's heart, Tinkers' Court once gathered the city's leaders. Now Mekgineer Thermaplugg holds it. Before disaster drove the gnomes from Gnomeregan, its leaders met in Tinkers' Court. High Tinker Gelbin Mekkatorque gathered there with advisors and master inventors, including Tinkmaster Overspark. They debated new technology, governed civic matters, and guided gnomish society. The chamber stood beyond the Engineering Labs and the Launch Bay, at the center of gnomish government and invention.",
+  hash = "aa1f33",
+  fullHash = "aa1f33",
+  text = "Tinkers' Court. In Gnomeregan's heart, Tinkers' Court once brought the city's leaders together. Now Mekgineer Thermaplugg holds the chamber. Before disaster drove the gnomes from Gnomeregan, their leaders gathered in Tinkers' Court. High Tinker Gelbin Mekkatorque met there with advisors and master inventors, among them Tinkmaster Overspark. They debated new technology, governed civic matters, and guided gnomish society. Beyond the Engineering Labs and the Launch Bay, the chamber stood at the heart of gnomish government and invention.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_tinkers-court-d243c6d19699b56e72d1/1-0000.mp3", duration = 29.3093878, start = 0},
+    {file = "Audio/Transport/full_subzone_tinkers-court-6a32f3b288cac683148d/1-0000.mp3", duration = 31.5820408, start = 0},
   },
 }
 P.transport["subzone:tower-of-althalaxx"] = {
@@ -2826,11 +2826,11 @@ P.transport["subzone:tower-of-althalaxx"] = {
   },
 }
 P.transport["subzone:tower-of-azora"] = {
-  hash = "1994c1",
-  fullHash = "1994c1",
-  text = "Tower of Azora. At the Tower of Azora, Archmage Theocritus leads a scholarly outpost in eastern Elwynn Forest. The slender spire stands north of the Brackwell Pumpkin Patch, where its human master keeps watch over a silent magical feud with a hostile tower in the Redridge Mountains. The Tower of Azora stands beside the eastern road to the Redridge Mountains, staffed almost entirely by gnome spellcasters. Archmage Theocritus guides their studies of strange curiosities and teaches wandering spellweavers. A wild magical aura surrounds the spire and sometimes warps nearby wildlife. Within the tower, gnome servants contend with enchanted household items and mutated insects that creep past the doorway.",
+  hash = "1f04e6",
+  fullHash = "1f04e6",
+  text = "Tower of Azora. At the Tower of Azora, Archmage Theocritus leads a scholarly outpost in eastern Elwynn Forest. The slender spire rises north of the Brackwell Pumpkin Patch, where its human master keeps watch over a silent magical feud with a hostile tower in the Redridge Mountains. The Tower of Azora stands beside the eastern road to the Redridge Mountains. Gnome spellcasters staff most of the spire, where Archmage Theocritus guides their studies of strange curiosities and teaches wandering spellweavers. A wild magical aura surrounds the tower and sometimes warps nearby wildlife. Inside, gnome servants contend with enchanted household items and mutated insects that creep past the doorway.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_tower-of-azora-f31bc31f2d45775c6212/1-0000.mp3", duration = 41.9265306, start = 0},
+    {file = "Audio/Transport/full_subzone_tower-of-azora-712fd2b125155c780c7a/1-0000.mp3", duration = 42.9453061, start = 0},
   },
 }
 P.transport["subzone:tower-of-ilgalar"] = {
@@ -2843,10 +2843,10 @@ P.transport["subzone:tower-of-ilgalar"] = {
 }
 P.transport["subzone:trade-district"] = {
   hash = "ba5adf",
-  fullHash = "01416e",
-  text = "Trade District. Past the Valley of Heroes, Trade District draws Stormwind’s merchants and travelers. Its bank, Auction House, guild registry, and shops serve citizens and adventurers alike. You pass beneath the stone arches from the Valley of Heroes into Trade District. The open plaza is Stormwind’s main marketplace and a hub for goods and travel. The Auction House stands at its center, with the Stormwind Counting House, the city’s main bank, and The Gilded Rose nearby. From here, routes lead to Old Town, the Cathedral Square, and the Mage Quarter. Coin, raw goods, and supplies for adventurers pass through the district on their way across the realm. Shops line the paved avenues and canals, offering goods for daily needs and travel. Weller’s Arsenal and Lionheart Armory sell blades and mail, while The Empty Quiver offers bows. Stalls sell fresh flowers and aged vintages from the Gallina Winery. Just inside the gates, the Stormwind Visitor’s Center handles newly registered guild charters and tabard designs. On the eastern side, an elevated ramp leads to the Gryphon Roost, connecting Stormwind’s markets with Alliance territories.",
+  fullHash = "241681",
+  text = "Trade District. Trade District draws merchants and travelers through Stormwind’s busy heart. Its bank, Auction House, guild registry, and shops serve citizens and adventurers alike. You pass beneath the stone arches from the Valley of Heroes into Trade District. The open plaza is Stormwind’s main marketplace and a crossroads for goods and travel. The Auction House stands at its center, with the Stormwind Counting House, the city’s main bank, and The Gilded Rose nearby.\n\nFrom here, roads lead to Old Town, Cathedral Square, and the Mage Quarter. Coin, raw goods, and adventurers’ supplies pass through the district on their way across the realm. Shops line the paved avenues and canals with goods for daily needs and travel. Weller’s Arsenal and Lionheart Armory sell blades and mail, while The Empty Quiver offers bows. Stalls carry fresh flowers and aged vintages from the Gallina Winery.\n\nJust inside the gates, the Stormwind Visitor’s Center handles newly registered guild charters and tabard designs. On the eastern side, an elevated ramp leads to the Gryphon Roost, linking Stormwind’s markets with Alliance territories.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_trade-district-b28682d0875e686c2817/1-0000.mp3", duration = 69.12, start = 0},
+    {file = "Audio/Transport/full_subzone_trade-district-4026c9407661cd29a3c9/1-0000.mp3", duration = 70.6089796, start = 0},
   },
 }
 P.transport["subzone:tradesmen-s-terrace"] = {
@@ -2858,11 +2858,11 @@ P.transport["subzone:tradesmen-s-terrace"] = {
   },
 }
 P.transport["subzone:train-depot"] = {
-  hash = "f9584a",
-  fullHash = "f9584a",
-  text = "Train Depot. Beneath Gnomeregan's surface entrances in Dun Morogh, the Train Depot lies overrun by leper gnomes and troggs. Once a center of gnomish rail travel, it now stands in ruin. The Train Depot lies below the grand elevator from Dun Morogh, where rail lines once carried gnomes through Gnomeregan. Its platforms and tracks now lie in ruin. The radiation that swept through the city changed the workers who remained into crazed leper gnomes, and troggs from below have overrun the rails. You must cross the depot to reach deeper parts of the city, including Clockwerk Run, the Loading Room, and the inner engineering facilities.",
+  hash = "5e1b6e",
+  fullHash = "5e1b6e",
+  text = "Train Depot. Beneath Gnomeregan's entrance in Dun Morogh, the Train Depot lies overrun by leper gnomes and troggs. Once, its rails carried gnomes through the city. Now the depot is in ruin. Beneath the grand elevator from Dun Morogh, the Train Depot's platforms and tracks lie in ruin. Once, rail lines carried gnomes through Gnomeregan. Radiation swept through the city and changed the workers who remained into crazed leper gnomes. Troggs from below have overrun the rails. You must cross the depot to reach deeper parts of the city, including Clockwerk Run, the Loading Room, and the inner engineering facilities.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_train-depot-cfd59a5245afeb4fcf94/1-0000.mp3", duration = 36.7281633, start = 0},
+    {file = "Audio/Transport/full_subzone_train-depot-a4636934b1155c93f44e/1-0000.mp3", duration = 37.4073469, start = 0},
   },
 }
 P.transport["subzone:tranquil-gardens-cemetery"] = {
@@ -2874,19 +2874,19 @@ P.transport["subzone:tranquil-gardens-cemetery"] = {
   },
 }
 P.transport["subzone:tundrid-hills"] = {
-  hash = "723448",
-  fullHash = "723448",
-  text = "Tundrid Hills. Snowbound ridges cut across the Tundrid Hills in south-central Dun Morogh, west of the Gol'Bolar Quarry. Dangerous wildlife keeps travelers to the rocky passes at their peril. The Tundrid Hills offer a rough route from Coldridge Valley to eastern Dun Morogh, away from the main roads through Kharanos. Jagged, snowy slopes make the crossing dangerous. Ferocious predators prowl the hills, so travelers who leave the beaten path face peril without a drawn weapon.",
+  hash = "79400d",
+  fullHash = "79400d",
+  text = "Tundrid Hills. In south-central Dun Morogh, the Tundrid Hills offer a perilous crossing west of Gol'Bolar Quarry. Snowbound ridges and dangerous wildlife make every step off the rocky passes a risk. From Coldridge Valley, the Tundrid Hills give you a rough way into eastern Dun Morogh, away from the main roads through Kharanos. Jagged slopes hold the snow, and the crossing is dangerous. Ferocious predators prowl the hills, so keep a weapon ready if you leave the beaten path.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_tundrid-hills-a96e42f84fd75323da5e/1-0000.mp3", duration = 26.9061224, start = 0},
+    {file = "Audio/Transport/full_subzone_tundrid-hills-053b8bc052af99bf870b/1-0000.mp3", duration = 28.5257143, start = 0},
   },
 }
 P.transport["subzone:twilight-grove"] = {
   hash = "40d2dc",
-  fullHash = "7c29e5",
-  text = "Twilight Grove. Tucked away in the center of Duskwood, the Twilight Grove is a stunning enclave of lush Kalimdor flora contrasting the grim, blighted forest around it. Beneath its towering great tree and ancient night elf architecture sits a moonwell and a massive emerald gateway connected directly to the Emerald Dream. Hidden behind steep crater ridges in the heart of Duskwood, the Twilight Grove looks utterly alien to the Eastern Kingdoms. Ancient night elf gazebos, vibrant green meadows, and a serene moonwell frame an unnamed great tree that towers over the gloomy canopy. The tree stands as a conduit of nature, filtering the raw vigor of the Emerald Dream into the waking world and allowing this crater to thrive even beneath the eternal gloom of Duskwood. At the base of the great tree looms a massive stone portal, one of four known gateways across Azeroth linking the physical realm directly to the Emerald Dream. While traditionally watched over by Ysera's green dragonflight, dark whispers claim that malevolent forces have begun twisting the tranquil realm beyond. The gateway stands largely silent for now, but its emerald swirl serves as a grim reminder that cosmic corruption can spill forth into Duskwood from paths far deeper than the Scourge or the local worgen.",
+  fullHash = "1ef360",
+  text = "Twilight Grove. At Duskwood's center, Twilight Grove shelters lush Kalimdor flora beneath its great tree. A moonwell and ancient night elf architecture surround a massive emerald gateway to the Emerald Dream. Behind steep crater ridges in Duskwood's heart, Twilight Grove seems utterly alien to the Eastern Kingdoms. Night elf gazebos and green meadows surround a serene moonwell. An unnamed great tree towers over the gloomy canopy.\n\nThe tree draws vigor from the Emerald Dream into the waking world. So the crater thrives beneath Duskwood's eternal gloom. At the great tree's base stands a massive stone portal, one of four known gateways linking the physical realm directly to the Emerald Dream. Ysera's green dragonflight traditionally watches over this gateway. Dark whispers say malevolent forces have begun twisting the tranquil realm beyond.\n\nThe gateway remains largely silent. Yet its emerald swirl warns that cosmic corruption may spill into Duskwood from paths deeper than the Scourge or the local worgen.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_twilight-grove-7a902305a8bc7207e7d2/1-0000.mp3", duration = 75.5983673, start = 0},
+    {file = "Audio/Transport/full_subzone_twilight-grove-16e98a8f37d3ef5f0b3c/1-0000.mp3", duration = 64.3918367, start = 0},
   },
 }
 P.transport["subzone:twilight-shore-darkshore"] = {
@@ -2907,26 +2907,26 @@ P.transport["subzone:twilight-vale"] = {
 }
 P.transport["subzone:valley-of-heroes"] = {
   hash = "7d9bf7",
-  fullHash = "e57e2c",
-  text = "Valley of Heroes. Stone statues watch over the Valley of Heroes, where Stormwind's southern road crosses the moat into the city. They honor the leaders of the Alliance Expedition to Draenor, and guards hold this fortified entrance. You cross the moat beneath statues honoring the commanders of the Alliance Expedition. Stormwind's rebuilding after the Second War raised these monuments along the causeway. The champions marched through the Dark Portal into Draenor to seal the rift forever, giving their lives so Azeroth might survive. As you head north toward the Trade District, you pass Archmage Khadgar, Kurdran Wildhammer, Ranger-Captain Alleria Windrunner, Force Commander Danath Trollbane, and High General Turalyon. General Marcus Jonathan watches Stormwind's gates from horseback, overseeing the guards and the traffic in and out. The valley is the city's main defense against an overland invasion. Major Mattingly, Field Marshal Stonebridge, and rows of seasoned guards keep watch beside him, guarding the capital from threats beyond its walls.",
+  fullHash = "94b955",
+  text = "Valley of Heroes. In the Valley of Heroes, stone commanders watch the southern road into Stormwind. Guards hold this fortified crossing over the moat, where the city honors the leaders of the Alliance Expedition to Draenor. You cross the moat beneath statues honoring the Alliance Expedition’s commanders. Stormwind raised the monuments along this causeway as the city was rebuilt after the Second War. The champions marched through the Dark Portal into Draenor to seal the rift forever. They gave their lives so Azeroth might survive.\n\nAs you head north toward the Trade District, you pass Archmage Khadgar, Kurdran Wildhammer, Ranger-Captain Alleria Windrunner, Force Commander Danath Trollbane, and High General Turalyon. General Marcus Jonathan watches Stormwind's gates from horseback. He oversees the guards and the traffic passing in and out. The valley is the city's main defense against an overland invasion.\n\nMajor Mattingly, Field Marshal Stonebridge, and rows of seasoned guards keep watch beside him. Together, they guard the capital from threats beyond its walls.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_valley-of-heroes-ac7552de77927533ddb5/1-0000.mp3", duration = 61.8318367, start = 0},
+    {file = "Audio/Transport/full_subzone_valley-of-heroes-ea0e8f1b99a5a7b20255/1-0000.mp3", duration = 67.1085714, start = 0},
   },
 }
 P.transport["subzone:valley-of-kings"] = {
   hash = "95a679",
-  fullHash = "5e1a57",
-  text = "Valley of Kings. At the Valley of Kings, stone kings watch the southern road into the Searing Gorge. The canyon lies in southwestern Loch Modan, south of the passage to Dun Morogh. Blackrock forces and troggs threaten travelers beneath the dwarven monuments. Two immense statues of King Madoran Bronzebeard and High Thane Khardros Wildhammer watch over the southern pass. After the kings died, their sons jointly commissioned the carvings. The statues honor the allied victory in the War of the Three Hammers and face the Dark Iron clan. Beyond them, the southern lands still bear the ruin left by Ragnaros's summoning. The valley links South Gate Pass with Stonesplinter Valley and holds an iron gate into the Searing Gorge. Hostile Blackrock orcs, Dark Iron dwarves, and volcanic dangers make the passage perilous, so Ironforge mountaineers keep the gate locked and guarded. Mountaineer Pebblebitty watches the threshold. Only the hardiest travelers who can show they have the strength to survive beyond it may pass.",
+  fullHash = "986801",
+  text = "Valley of Kings. At Valley of Kings, stone rulers guard the southern road into the Searing Gorge. In southwestern Loch Modan, the canyon lies south of the passage to Dun Morogh. Blackrock forces and troggs threaten travelers beneath the dwarven monuments. Two immense statues watch over the southern pass: King Madoran Bronzebeard and High Thane Khardros Wildhammer. After the kings died, their sons commissioned the carvings together. The statues honor the allied victory in the War of the Three Hammers, and they face the Dark Iron clan. Beyond them, the southern lands still bear the ruin left by Ragnaros's summoning. The valley links South Gate Pass with Stonesplinter Valley, and an iron gate opens into the Searing Gorge. Hostile Blackrock orcs, Dark Iron dwarves, and volcanic dangers make the passage perilous. So Ironforge mountaineers keep the gate locked and guarded, with Mountaineer Pebblebitty watching the threshold. Only the hardiest travelers may pass, after showing they have the strength to survive beyond it.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_valley-of-kings-51061606a5d935f365be/1-0000.mp3", duration = 56.1632653, start = 0},
+    {file = "Audio/Transport/full_subzone_valley-of-kings-074f7589744ae00ef805/1-0000.mp3", duration = 61.9102041, start = 0},
   },
 }
 P.transport["subzone:vault-of-ironforge"] = {
-  hash = "eda241",
-  fullHash = "eda241",
-  text = "Vault of Ironforge. In Ironforge's Commons, citizens and Alliance travelers bring their wealth to the Vault. It is the city's primary bank and treasure house, overseen by Dinita and the Stonemantle family. You find the Vault in the Commons, where travelers, soldiers, and merchants bring coin, relics, and provisions for safekeeping. City guards and tellers watch over its work. Dinita and the Stonemantle family oversee the bank, where citizens and Alliance visitors keep their wealth secure.",
+  hash = "cff63e",
+  fullHash = "cff63e",
+  text = "Vault of Ironforge. In Ironforge's Commons, citizens and Alliance travelers entrust their wealth to the Vault. Dinita and the Stonemantle family oversee its work. Travelers, soldiers, and merchants bring coin, relics, and provisions to the Vault for safekeeping. City guards and tellers watch the deposits, keeping the wealth of citizens and Alliance visitors secure within the mountain.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_vault-of-ironforge-dbea63417503077b2306/1-0000.mp3", duration = 27.0628571, start = 0},
+    {file = "Audio/Transport/full_subzone_vault-of-ironforge-f8b522b89a2b08d03704/1-0000.mp3", duration = 22.5959184, start = 0},
   },
 }
 P.transport["subzone:vul-gol-ogre-mound"] = {
@@ -2938,11 +2938,11 @@ P.transport["subzone:vul-gol-ogre-mound"] = {
   },
 }
 P.transport["subzone:war-room"] = {
-  hash = "b2d25b",
-  fullHash = "b2d25b",
-  text = "War Room. Deep inside Stormwind Keep, the War Room gathers the arms, records, and charts used to plan the Alliance’s defense. Beyond Stormwind Keep’s grand chambers, commanders turn to military logistics and high-level campaign planning. Swords, blunderbusses, and heavy artillery cannons line the stone walls. Military treatises and chronicles of past wars fill nearby tables. At the center, a large map lets commanders assess Alliance deployments across Azeroth, while the royal court handles affairs of state just steps away.",
+  hash = "d01110",
+  fullHash = "d01110",
+  text = "War Room. Commanders gather inside Stormwind Keep to plan the Alliance’s defense. The War Room holds weapons, records, and charts for that work. Beyond Stormwind Keep’s grand chambers, commanders plan campaigns and arrange military supplies. Swords, blunderbusses, and heavy artillery cannons line the stone walls. Nearby tables hold military treatises and chronicles of past wars.\n\nAt the center, a large map shows Alliance deployments across Azeroth. The royal court handles affairs of state just steps away.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_war-room-e3968d9263ca075c9eaf/1-0000.mp3", duration = 32.9665306, start = 0},
+    {file = "Audio/Transport/full_subzone_war-room-14383254535dc9a63e9e/1-0000.mp3", duration = 33.4367347, start = 0},
   },
 }
 P.transport["subzone:warrior-s-terrace"] = {
@@ -3003,18 +3003,18 @@ P.transport["subzone:wellspring-river"] = {
 }
 P.transport["subzone:westbrook-garrison"] = {
   hash = "75d6dc",
-  fullHash = "796429",
-  text = "Westbrook Garrison. At Westbrook Garrison, Deputy Rainer's few guards hold Elwynn's western road against gnolls and bandits. The outpost is short on soldiers and supplies, with danger rising near the Westfall border. Westbrook Garrison watches the road where Elwynn Forest thins toward Westfall. Deputy Rainer and a handful of guards patrol the western roads with too few soldiers to cover them. Much of the Stormwind Army serves abroad, while political indecision in the capital leaves the outpost without needed support. Thieves grow bolder, and Riverpaw gnolls have overrun the southern woods. Marshal Dughan in Goldshire has not sent formal reinforcements, so the guards depend on travelers to help secure the highway. Riverpaw gnolls gather south of Forest's Edge, where their raids threaten supply lines and homesteads. The packs follow Hogger, a fearsome chieftain whose forces outnumber the garrison and overwhelm its guards with brute strength. A high bounty is posted across the outpost, seeking fighters willing to enter the hills and bring down Hogger before the gnolls press farther east.",
+  fullHash = "b12354",
+  text = "Westbrook Garrison. At Westbrook Garrison, Deputy Rainer's few guards watch Elwynn's western road. Gnolls and bandits threaten the border, and the outpost lacks the men and supplies to hold it alone. Westbrook Garrison watches the road where Elwynn Forest thins toward Westfall. Deputy Rainer and a handful of guards patrol the western roads, too few to cover them. Much of the Stormwind Army serves abroad, and indecision in the capital leaves the outpost without needed support.\n\nThieves grow bolder, and Riverpaw gnolls have overrun the southern woods. Marshal Dughan in Goldshire has sent no formal reinforcements, so the guards depend on travelers to help secure the highway. Riverpaw gnolls gather south of Forest's Edge, raiding supply lines and homesteads. The packs follow Hogger, a fearsome chieftain whose forces outnumber the garrison and overwhelm its guards with brute strength.\n\nA high bounty is posted across the outpost. It seeks fighters willing to enter the hills and bring down Hogger before the gnolls press farther east.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_westbrook-garrison-5bfbc8c470c7851b5eff/1-0000.mp3", duration = 61.3616327, start = 0},
+    {file = "Audio/Transport/full_subzone_westbrook-garrison-23d05355a59e1bd30e1c/1-0000.mp3", duration = 61.5183673, start = 0},
   },
 }
 P.transport["subzone:westfall-lighthouse"] = {
-  hash = "bdc542",
-  fullHash = "bdc542",
-  text = "Westfall Lighthouse. Westfall Lighthouse watches over the rocky isle off Westfall's southwestern shore, its beacon dark and its keepers gone. Old Murk-Eye led the attack that killed them, and Captain Grayson's spirit remains by the tower. Westfall Lighthouse once guided ships along Westfall's dangerous southwestern bluffs and the coast near Stormwind. As law and order failed across the region, royal patrols dwindled and coastal dangers grew unchecked. Murloc tribes drove the lighthouse keepers inland. The family returned to relight the beacon, but Old Murk-Eye rallied his kin for another attack. The murlocs killed the keepers and put out the light.",
+  hash = "eb70bc",
+  fullHash = "eb70bc",
+  text = "Westfall Lighthouse. Westfall Lighthouse stands dark on the rocky isle off Westfall's southwestern shore, and its keepers are gone. Old Murk-Eye led the attack that killed them. Captain Grayson's spirit remains by the tower. Westfall Lighthouse once guided ships past Westfall's dangerous southwestern bluffs and along the coast near Stormwind. As law and order failed across the region, royal patrols dwindled and coastal dangers grew unchecked. Murloc tribes drove the keepers inland. The family returned to relight the beacon, but Old Murk-Eye rallied his kin to attack again. The murlocs killed the keepers and put out the light.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_westfall-lighthouse-bfe6003198d4b5f8da6e/1-0000.mp3", duration = 37.9297959, start = 0},
+    {file = "Audio/Transport/full_subzone_westfall-lighthouse-cbbe3f2af888a3373493/1-0000.mp3", duration = 36.8326531, start = 0},
   },
 }
 P.transport["subzone:whelgar-s-excavation-site"] = {

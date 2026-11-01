@@ -14,11 +14,11 @@
  "angles": [
   {
    "target": "profession:Mining",
-   "text": "Miners can harness mineral craft to aid travelers on the road, turning rough stone into a functional camp lodestone that bolsters frontline fighters."
+   "text": "As a miner, you can shape rough stone into a camp lodestone that aids travelers on the road and strengthens frontline fighters."
   },
   {
    "target": "faction:Alliance",
-   "text": "Kurdram Stonehammer offers his instruction out of Auberdine on the shores of Darkshore, making this campcraft readily accessible to Alliance travelers passing through northern Kalimdor."
+   "text": "As an Alliance traveler, you can find Kurdram Stonehammer in Auberdine on the shores of Darkshore. He teaches campcraft to those passing through northern Kalimdor."
   }
  ],
  "faq": [
@@ -28,7 +28,7 @@
     "camping 101 mining objective",
     "what do i do camping mining"
    ],
-   "answer": "Camping 101: Mining directs miners to find Kurdram Stonehammer in the port town of Auberdine. Once you have demonstrated proficiency in mining, he teaches you how to construct a special lodestone to enhance campsites.",
+   "answer": "You’re sent to Auberdine to find Kurdram Stonehammer. Once you show your mining skill, he teaches you to make a lodestone that strengthens a camp.",
    "q": "What is Camping 101: Mining?"
   },
   {
@@ -37,7 +37,7 @@
     "auberdine mining trainer",
     "kurdram stonehammer location"
    ],
-   "answer": "Kurdram Stonehammer is an expert craftsman located in Auberdine along the coast of Darkshore. He instructs qualified miners on how to create camping utility items, specifically lodestones.",
+   "answer": "Kurdram Stonehammer is a craftsman in Auberdine on the coast of Darkshore. He teaches qualified miners to make camping gear, including lodestones.",
    "q": "Who is Kurdram Stonehammer?"
   },
   {
@@ -46,7 +46,7 @@
     "camp lodestone effect",
     "camping oomph buff"
    ],
-   "answer": "A lodestone is an item crafted by miners for a camp. When erected beside a campfire, it provides an invigorating presence that grants physical fighters extra punch and combat prowess.",
+   "answer": "Miners craft a camp lodestone to set beside a campfire. It strengthens physical fighters gathered nearby.",
    "q": "What is a camp lodestone?"
   },
   {
@@ -55,7 +55,7 @@
     "auberdine location",
     "how to get to auberdine"
    ],
-   "answer": "Auberdine is a coastal port settlement in Darkshore, serving as a primary Alliance harbor and crossroads in northern Kalimdor. Kurdram Stonehammer resides there to instruct aspiring miners in campcraft.",
+   "answer": "Auberdine is a coastal port in Darkshore, an Alliance harbor and crossroads in northern Kalimdor. Kurdram Stonehammer lives there and teaches miners campcraft.",
    "q": "Where does this quest take place?"
   },
   {
@@ -64,7 +64,7 @@
     "is lodestone good for warriors",
     "camp lodestone buff target"
    ],
-   "answer": "The lodestone is particularly valued by martial fighters who swing swords and weapons in close quarters, as its resonant power provides combat-focused travelers with enhanced vigor while resting around the fire.",
+   "answer": "Close-quarters fighters especially value a camp lodestone. Its power gives travelers gathered around the fire greater vigor in combat.",
    "q": "Who benefits from a camp lodestone?"
   },
   {
@@ -73,7 +73,7 @@
     "mining level for camp lodestone",
     "proficiency requirement"
    ],
-   "answer": "You must show sufficient proficiency in the mining trade before Kurdram Stonehammer will share the secrets of crafting a lodestone for your camp.",
+   "answer": "Kurdram Stonehammer teaches lodestone crafting once you show sufficient skill in mining.",
    "q": "When can you learn to craft the lodestone?"
   }
  ],
@@ -92,18 +92,19 @@
  ],
  "sections": [
   {
-   "body": "Mining is rugged, honest toil, but its utility extends far beyond smelting ingots and hammering armor. Experienced prospectors can shape raw earth and magnetic ore into specialized camping gear, allowing travelers to establish well-fortified hearths in the wilderness. Camping 101: Mining introduces miners to this practical application of their craft.",
+   "body": "Mining has uses beyond smelting ingots and hammering armor. Experienced prospectors shape raw earth and magnetic ore into camping gear, so travelers can make well-fortified hearths in the wilderness. This introduction shows miners a practical use for their craft.",
    "spoiler": 0,
    "title": "The Practical Art of Earth and Stone"
   },
   {
-   "body": "The quest directs promising miners to seek out Kurdram Stonehammer in Auberdine, the bustling coastal haven of Darkshore. Once a miner proves their dedication and skill, Kurdram teaches the method for constructing a camp lodestone. Positioned beside a fire, the stone radiates a fortifying presence that boosts the combat prowess of martial companions gathered nearby.",
+   "body": "In Auberdine, the coastal town of Darkshore, promising miners seek out Kurdram Stonehammer. Once a miner proves dedication and skill, Kurdram teaches the method for making a camp lodestone. Set beside a fire, the stone strengthens the martial companions gathered nearby.",
    "spoiler": 0,
    "title": "A Mentor in Auberdine"
   }
  ],
- "summary": "Camping 101: Mining is an introductory quest that points miners toward Kurdram Stonehammer in Auberdine. By demonstrating their trade proficiency, miners can learn to craft a camp lodestone that bolsters the combat prowess of allies resting around a campfire.",
+ "summary": "You’re sent to Auberdine to learn a new use for mining. There, Kurdram Stonehammer teaches skilled miners to craft a lodestone that strengthens allies gathered around a campfire.",
  "attribution": [
   "In-game quest text: Camping 101: Mining"
- ]
+ ],
+ "style": 2
 }

@@ -10,16 +10,16 @@
    "quest:291"
   ]
  },
- "summary": "In the cold foothills of Dun Morogh, Senir Whitebeard sends word of the Frostmane trolls to Ironforge. His report carries findings gathered under King Magni Bronzebeard’s directive for Senator Barin Redstone.",
+ "summary": "In Dun Morogh’s cold foothills, Senir Whitebeard sends his findings on the Frostmane trolls to Senator Barin Redstone in Ironforge.",
  "sections": [
   {
    "title": "A Royal Directive",
-   "body": "Senir Whitebeard’s report gathers mountaineer observations from scouting against Frostmane trolls in Dun Morogh’s crags. Stationed in the cold foothills, Senir includes his brother Grelin’s account of Coldridge Valley, where Grelin acted under King Magni Bronzebeard’s sanction. Senir sends the findings to Senator Barin Redstone in Ironforge’s High Seat and advises couriers to leave out how much outside help he needed to compile them.",
+   "body": "Senir’s report gathers what mountaineers saw while scouting the Frostmane trolls in Dun Morogh’s crags. He also includes his brother Grelin’s account of Coldridge Valley. Grelin acted there with King Magni Bronzebeard’s sanction.\n\nSenir sends the findings to Senator Barin Redstone in Ironforge’s High Seat. He advises couriers to leave out how much outside help he needed to compile them.",
    "spoiler": 0
   },
   {
    "title": "Friction in the High Seat",
-   "body": "Senir Whitebeard’s account reaches the royal court and stirs an uproar. Senator Barin Redstone is angered by the troll threat and by the authority stamped on the report. Magni bypassed legislative oversight, while Whitebeard acted on unchecked royal orders. The move deepens resentment among senators who demand control over procedure, sharpening the strain between Magni’s decisive rule and the Senate’s claims to authority.",
+   "body": "Senir Whitebeard’s account reaches the royal court and stirs an uproar. Senator Barin Redstone is angered by the troll threat and by the authority stamped on the report. Magni bypassed legislative oversight, while Whitebeard acted on unchecked royal orders.\n\nThe move deepens resentment among senators who demand control over procedure. The strain sharpens between Magni’s decisive rule and the Senate’s claims to authority.",
    "spoiler": 1
   }
  ],
@@ -40,7 +40,7 @@
     "who do i give the report to",
     "report recipient"
    ],
-   "answer": "Senir Whitebeard addresses the report to Senator Barin Redstone in the High Seat of Ironforge, near King Magni Bronzebeard’s throne."
+   "answer": "Senir Whitebeard addresses the report to Senator Barin Redstone in Ironforge’s High Seat, near King Magni Bronzebeard’s throne."
   },
   {
    "q": "Why does Senator Redstone get so angry when he reads it?",
@@ -91,5 +91,5 @@
   "Senir's Report",
   "The Reports"
  ],
- "style": 1
+ "style": 2
 }

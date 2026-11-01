@@ -14,11 +14,11 @@
  "angles": [
   {
    "target": "class:Shaman",
-   "text": "Shamans may find themselves torn between the Windshapers' reverence for the elemental currents and the High Order's clinical extraction of raw elemental power."
+   "text": "As a shaman, you may feel torn between the Windshapers' reverence for elemental currents and the High Order's measured taking of elemental power."
   },
   {
    "target": "class:Mage",
-   "text": "Arcane scholars and mages appreciate the analytical function of the Index Esoteria, treating elemental phenomena as measurable fields of arcane research."
+   "text": "As a mage, you may value the Index Esoteria's careful measurements and see elemental forces as a field of study."
   }
  ],
  "faq": [
@@ -27,7 +27,7 @@
     "what is catching wind",
     "catching wind quest"
    ],
-   "answer": "Catching Wind is a mission undertaken on behalf of the High Order to study the elemental energy around the Overlook Standing Stones in the Shen'dar Highlands. An adventurer is tasked with carrying an Index Esoteria to extract vital data from massive windstone formations despite hostile pushback from the Windshapers.",
+   "answer": "The High Order sends an operative to study elemental energy at the Overlook Standing Stones in the Shen'dar Highlands. The operative carries an Index Esoteria to gather data from the windstones despite opposition from the Windshapers.",
    "q": "What is the quest Catching Wind about?"
   },
   {
@@ -35,7 +35,7 @@
     "what is the index esoteria",
     "index esoteria device"
    ],
-   "answer": "The Index Esoteria is a specialized measuring instrument utilized by the High Order. It is designed to extract, measure, and record elemental energy data directly from massive windstone formations found at the Overlook Standing Stones.",
+   "answer": "The Index Esoteria is a High Order instrument made to extract, measure, and record elemental energy from the great windstone formations at the Overlook Standing Stones.",
    "q": "What is an Index Esoteria?"
   },
   {
@@ -43,7 +43,7 @@
     "who are the windshapers",
     "windshapers lore"
    ],
-   "answer": "The Windshapers are a faction fiercely protective of their sacred sites and traditional beliefs regarding elemental magic. They view the High Order's scholarly research and technological devices as desecration, aggressively defending the windstone formations from outside intrusion.",
+   "answer": "The Windshapers defend their sacred sites and traditional beliefs about elemental magic. They see the High Order's research and devices as desecration and fight to keep outsiders from the windstones.",
    "q": "Who are the Windshapers?"
   },
   {
@@ -51,7 +51,7 @@
     "who are al'aketh",
     "al aketh"
    ],
-   "answer": "The Al'Aketh are an overtly violent group mentioned by the High Order alongside the Windshapers. The High Order says the Al'Aketh are the more overtly violent of the two, but views both factions as dangerous zealots bound to misplaced, inflexible dogmas.",
+   "answer": "The Al'Aketh are a violent group the High Order compares with the Windshapers. The High Order considers both groups dangerous zealots bound by inflexible beliefs, though it calls the Al'Aketh more violent.",
    "q": "Who are the Al'Aketh?"
   },
   {
@@ -59,7 +59,7 @@
     "where are overlook standing stones",
     "overlook standing stones location"
    ],
-   "answer": "The Overlook Standing Stones are located within the Shen'dar Highlands. The site is notable for housing massive windstone formations that channel strong elemental currents, making it a critical research location for the High Order.",
+   "answer": "The Overlook Standing Stones lie in the Shen'dar Highlands. Their great windstone formations channel strong elemental currents, making the site important to the High Order's research.",
    "q": "Where are the Overlook Standing Stones located?"
   },
   {
@@ -67,7 +67,7 @@
     "what happened to fillion",
     "who is fillion"
    ],
-   "answer": "Fillion is an operative or researcher of the High Order who was originally dispatched to the Overlook Standing Stones to measure and study the elemental energy. Confrontation with the Windshapers necessitated sending an adventurer with the Index Esoteria to secure the data.",
+   "answer": "Fillion is a High Order operative or researcher sent to study elemental energy at the Overlook Standing Stones. After confrontation with the Windshapers, the High Order sent an adventurer with the Index Esoteria to secure the data.",
    "q": "Who is Fillion?"
   },
   {
@@ -75,7 +75,7 @@
     "why does high order want data",
     "saving zephras"
    ],
-   "answer": "The High Order believes that understanding the elemental forces of the realm is critical to their overarching mission to save Zephras. They view scientific inquiry as essential to overcoming elemental threats that traditional beliefs cannot resolve.",
+   "answer": "The High Order believes knowledge of the realm's elemental forces is vital to saving Zephras. It sees research as necessary to overcome threats that traditional beliefs cannot resolve.",
    "q": "Why does the High Order need the windstone data?"
   }
  ],
@@ -98,23 +98,24 @@
  ],
  "sections": [
   {
-   "body": "The High Order seeks to measure and understand the chaotic elemental flows coursing through the Shen'dar Highlands. To unlock the secrets held within the Overlook Standing Stones, researchers crafted the Index Esoteria, a precision tool intended to extract data from massive windstone formations. While the High Order frames their work as vital research necessary to save Zephras, local traditionalists interpret these academic probes as profane trespasses against the wind.",
+   "body": "The High Order studies the wild elemental flows of the Shen'dar Highlands in hopes of saving Zephras. At the Overlook Standing Stones, its researchers use an Index Esoteria, a tool made to draw data from the great windstone formations. The Windshapers see these probes as profane trespass against the wind.",
    "spoiler": 0,
    "title": "Measuring the Gales"
   },
   {
-   "body": "Tensions quickly ignite at the stones between the High Order's expedition and the Windshapers. The Windshapers view the study and extraction of elemental energies as an outright desecration of their sacred traditions. The High Order considers the Windshapers to be as dogmatically narrow-minded as the violent Al'Aketh, refusing to let indigenous resistance halt their mission to save the realm.",
+   "body": "The High Order's expedition and the Windshapers soon clash at the stones. The Windshapers call the study and taking of elemental energy a desecration of their sacred ways. The High Order sees them as narrow in their beliefs, much like the violent Al'Aketh. It will not let their resistance halt its work to save the realm.",
    "spoiler": 0,
    "title": "Clash of Dogma and Inquiry"
   },
   {
-   "body": "When the High Order's work at the Overlook Standing Stones meets hostile resistance, force becomes inevitable. The resulting clash leaves blood spilled among the windstones. While the High Order successfully secures their readings with the Index Esoteria, the Windshapers decry the incident as a massacre, intensifying a bitter feud that shadows the city of Valanaar.",
+   "body": "At the Overlook Standing Stones, the High Order meets hostile resistance, and the clash leaves blood among the windstones. The High Order secures its readings with the Index Esoteria. The Windshapers call the fighting a massacre, and the feud casts a shadow over Valanaar.",
    "spoiler": 1,
    "title": "The Standing Stone Massacre"
   }
  ],
- "summary": "Catching Wind is a High Order expedition to the Overlook Standing Stones in the Shen'dar Highlands. Armed with an Index Esoteria, an operative is sent to extract elemental energy readings from ancient windstone formations over the fierce, violent objections of the traditionalist Windshapers.",
+ "summary": "At the Overlook Standing Stones, the High Order seeks readings that may help save Zephras. Its expedition faces fierce opposition from the Windshapers in the Shen'dar Highlands.",
  "attribution": [
   "In-game quest text: Catching Wind"
- ]
+ ],
+ "style": 2
 }

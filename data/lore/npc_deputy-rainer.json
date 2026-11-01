@@ -8,16 +8,16 @@
   "wiki": "Deputy Rainer",
   "refs": 2
  },
- "summary": "Outside Westbrook Garrison, Deputy Rainer holds Elwynn's western border. The Stormwind Army officer faces gnolls and bandits from Westfall, coordinating local defenses while reinforcements fail to arrive.",
+ "summary": "At Westbrook Garrison, Deputy Rainer holds Elwynn's western border against threats from Westfall. The Stormwind Army officer coordinates the local defense, though reinforcements have not arrived.",
  "sections": [
   {
    "title": "Holding the Western Border",
-   "body": "At Westbrook Garrison, Elwynn Forest's westernmost post, the road crosses into Westfall. Political paralysis in Stormwind City leaves much of the army abroad or caught in bureaucracy, and border posts like this one lack troops. Deputy Rainer organizes the defense from outside the tower with the few forces at hand. Riverpaw gnolls and wandering thieves threaten the local roads, so he depends on passing travelers and mercenary adventurers to keep the forest trails secure.",
+   "body": "Westbrook Garrison guards Elwynn Forest's western edge, where the road crosses into Westfall. Political paralysis in Stormwind City leaves much of the army abroad or caught in bureaucracy, and border posts like this one lack troops. Deputy Rainer organizes the defense outside the tower with the few forces at hand.\n\nRiverpaw gnolls and wandering thieves threaten the local roads. Rainer depends on passing travelers and mercenary adventurers to keep the forest trails secure.",
    "spoiler": 0
   },
   {
    "title": "The Road to Westfall",
-   "body": "Deputy Rainer watches for the Riverpaw pack and warns travelers about Hogger, the infamous gnoll chieftain. He also carries word of the troubled lands beyond the river. The chaos at Elwynn's border begins in Westfall's lawless farmlands, so he sends capable volunteers across the border toward Gryan Stoutmantle and the struggling People's Militia.",
+   "body": "Deputy Rainer watches for the Riverpaw pack and warns travelers about Hogger, the infamous gnoll chieftain. He also carries word of the troubled lands beyond the river. The chaos at Elwynn's border begins in Westfall's lawless farmlands, so he sends capable volunteers across the border to Gryan Stoutmantle and the struggling People's Militia.",
    "spoiler": 0
   }
  ],
@@ -56,13 +56,13 @@
     "rainer quest westfall",
     "after westbrook garrison"
    ],
-   "answer": "After the gnolls near the garrison are driven back, Rainer sends seasoned adventurers across the western border into Westfall to help Gryan Stoutmantle and the People's Militia at Sentinel Hill."
+   "answer": "After the gnolls near the garrison are driven back, Rainer sends seasoned adventurers across the western border into Westfall. There they help Gryan Stoutmantle and the People's Militia at Sentinel Hill."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "For Alliance heroes, Deputy Rainer shows how Stormwind's outlying garrisons adapt when regular royal support does not reach them."
+   "text": "As an Alliance hero, you see how Stormwind's outlying garrisons adapt when regular royal support does not reach them."
   }
  ],
  "keywords": [
@@ -88,5 +88,5 @@
  "attribution": [
   "Deputy Rainer"
  ],
- "style": 1
+ "style": 2
 }

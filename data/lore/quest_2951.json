@@ -23,16 +23,16 @@
    "More Sparklematic Action"
   ]
  },
- "summary": "In Gnomeregan, the Sparklematic 5200! still cleans grime-encrusted salvage for three silver coins. Gnomish ingenuity keeps the device working amid the ruined city's chaos.",
+ "summary": "In Gnomeregan, the Sparklematic 5200! keeps cleaning salvaged valuables for three silver coins. Gnomish ingenuity keeps it working amid the ruined city's chaos.",
  "sections": [
   {
    "title": "A Beacon in the Grime",
-   "body": "A pocket of surviving gnomes keeps a secure perimeter near the Sparklematic 5200! in Gnomeregan. The machine scrubs harsh subterranean filth from salvaged valuables. Though troggs and other subterranean creatures pound on the bulkheads, it remains ready to clean what you bring.",
+   "body": "A pocket of surviving gnomes holds a secure perimeter near the Sparklematic 5200! in Gnomeregan. The machine scrubs harsh subterranean filth from salvaged valuables. Troggs and other subterranean creatures pound on the bulkheads, yet it remains ready for what you bring.",
    "spoiler": 0
   },
   {
    "title": "Frenzied Operation",
-   "body": "Place a grime-caked relic and three silver coins in the Sparklematic, and its cleaning cycle begins. The iron machine groans, vibrates, and lurches as it strips away toxic sludge, irradiated grease, and rock dust. Moments later, it expels what lay beneath the muck, from precious minerals to mechanical components.",
+   "body": "Place a grime-caked relic and three silver coins in the Sparklematic, and the cleaning begins. The iron machine groans and vibrates, lurching as it strips away toxic sludge, irradiated grease, and rock dust. Moments later, it expels what lay beneath the muck, from precious minerals to mechanical components.",
    "spoiler": 0
   }
  ],
@@ -53,7 +53,7 @@
     "sparklematic cost",
     "what do i put in sparklematic"
    ],
-   "answer": "The Sparklematic needs a Grime-Encrusted Object found among Gnomeregan's monsters and debris, plus three silver coins paid into its coin slot."
+   "answer": "The Sparklematic needs a Grime-Encrusted Object found among Gnomeregan's monsters and debris, along with three silver coins in its coin slot."
   },
   {
    "q": "Why is there an operational machine in the middle of a war zone?",
@@ -61,7 +61,7 @@
     "why is sparklematic here",
     "who put sparklematic in gnomeregan"
    ],
-   "answer": "Surviving gnomes withdrew to fortified workshops after the trogg invasion and toxic vents devastated Gnomeregan. There, machines such as the Sparklematic remained intact and powered, preserving the convenience of gnomish automated tools."
+   "answer": "Surviving gnomes withdrew to fortified workshops after the trogg invasion and toxic vents devastated Gnomeregan. Machines such as the Sparklematic remained intact and powered there, preserving the convenience of gnomish automated tools."
   },
   {
    "q": "What comes out after cleaning a grime-encrusted item?",
@@ -70,7 +70,7 @@
     "sparklematic loot",
     "grime-encrusted object rewards"
    ],
-   "answer": "The Sparklematic returns the salvaged item cleaned, revealing what was buried beneath the muck, including trade supplies, crafting stones, gems, or spare engineering parts."
+   "answer": "The Sparklematic returns the salvaged item cleaned, revealing what lay beneath the muck. That may be trade supplies, crafting stones, gems, or spare engineering parts."
   },
   {
    "q": "Can I use the Sparklematic 5200 more than once?",
@@ -79,7 +79,7 @@
     "can i clean multiple grime items",
     "more sparklematic"
    ],
-   "answer": "Yes. You can use the Sparklematic repeatedly if you bring more grime-encrusted objects and three silver coins for each cleaning."
+   "answer": "Yes. You can use the Sparklematic repeatedly, bringing more grime-encrusted objects and three silver coins for each cleaning."
   },
   {
    "q": "Why does the machine shake so violently during cleaning?",
@@ -123,5 +123,5 @@
  "attribution": [
   "The Sparklematic 5200! (1)"
  ],
- "style": 1
+ "style": 2
 }

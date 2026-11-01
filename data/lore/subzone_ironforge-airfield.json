@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Ironforge Airfield"
  },
- "summary": "High above Dun Morogh, gnome flying machines and dwarven mountaineers hold a remote airfield northeast of Ironforge. Its plateau overlooks jagged crags and the steep descent toward the Wetlands.",
+ "summary": "Gnome flying machines and dwarven mountaineers keep watch at Ironforge Airfield, high above Dun Morogh. Its plateau overlooks jagged crags and the steep descent toward the Wetlands.",
  "sections": [
   {
    "title": "A Hidden Redoubt in the Crags",
-   "body": "High above Dun Morogh's trails, gnome flying machines line open landing strips among the mountain peaks. Dwarven masonry anchors the ridgelines, and mountaineers watch the perimeter. Nearby, engineers tend the machines and inspect their engines in the cold.",
+   "body": "Above Dun Morogh's trails, gnome flying machines line open strips among the peaks. Dwarven stonework holds the ridgelines, where mountaineers watch the perimeter. Nearby, engineers tend the machines and inspect their engines in the cold.",
    "spoiler": 0
   },
   {
    "title": "Frontier Skirmishes and Frozen Valleys",
-   "body": "The valley around the airfield is contested ground. Frostmane trolls dwell in nearby caves and harass the dwarven sentries. Across frozen waters beneath the peaks, dwarven defenders and Stormpike patrols clash with troll raiders, keeping the outpost on guard.",
+   "body": "Frostmane trolls dwell in caves near the airfield and harass the dwarven sentries. Across the frozen waters beneath the peaks, dwarven defenders and Stormpike patrols clash with troll raiders. So the outpost remains on guard.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "airfield location",
     "airfield path"
    ],
-   "answer": "No roads, flights, or maintained tunnels connect the valley to Ironforge or lower Dun Morogh. You must climb the steep mountainsides on foot, following difficult ridgeline paths from Loch Modan or near Dun Morogh's passes."
+   "answer": "No roads, flights, or maintained tunnels link the valley to Ironforge or lower Dun Morogh. You must climb steep mountainsides on foot, following difficult ridgeline paths from Loch Modan or near Dun Morogh's passes."
   },
   {
    "q": "What is the purpose of this place?",
@@ -37,7 +37,7 @@
     "why is there an airstrip",
     "what is ironforge airfield for"
    ],
-   "answer": "The airfield is a high outpost for testing and maintaining flying machines, and for scouting the mountain borderlands between Dun Morogh, Loch Modan, and the Wetlands. Dwarven mountaineers and gnome engineers work there."
+   "answer": "The airfield tests and maintains flying machines and scouts the mountain borderlands between Dun Morogh, Loch Modan, and the Wetlands. Dwarven mountaineers and gnome engineers work there."
   },
   {
    "q": "Who is attacking the dwarven guards here?",
@@ -59,7 +59,7 @@
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "For a tinker, the airstrip shows gnomish flying machines assembled and kept in extreme cold."
+   "text": "As a tinker, you see gnomish flying machines assembled and kept in extreme cold."
   },
   {
    "target": "race:Dwarf",
@@ -87,5 +87,5 @@
  "attribution": [
   "Ironforge Airfield"
  ],
- "style": 1
+ "style": 2
 }

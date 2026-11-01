@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Northshire Vineyards"
  },
- "summary": "At Northshire Vineyards, Defias brigands have seized the fields east of Northshire Abbey. The grapes once supplied wine to the clerics, but now the thieves plunder the harvest and threaten local farmers.",
+ "summary": "East of Northshire Abbey, Northshire Vineyards are in Defias hands. Their grapes once supplied wine to the clerics, but thieves now plunder the harvest and threaten local farmers.",
  "sections": [
   {
    "title": "A Plundered Harvest",
-   "body": "Northshire Vineyards lie east across the stream from Northshire Abbey, where workers such as Milly Osworth once tended the fields. Defias Brotherhood brigands now hold the acreage, led by Garrick Padfoot. The thieves plunder the harvest and strip local farmers of their livelihood. Their occupation gives new Brotherhood recruits a foothold close to the abbey.",
+   "body": "Across the stream from Northshire Abbey, local workers once tended the grape fields. Milly Osworth was among them. Now Garrick Padfoot leads the Defias Brotherhood brigands who hold the acreage.\n\nThe vineyards give newly arrived Brotherhood recruits an easy foothold close to the abbey. The Defias presence has reached its fields.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "who took over northshire vineyards",
     "who is garrick padfoot"
    ],
-   "answer": "Defias Brotherhood thieves and cutthroats occupy Northshire Vineyards. Garrick Padfoot leads them, directing the crop looting and terrorizing local workers."
+   "answer": "Defias Brotherhood thieves and cutthroats occupy Northshire Vineyards. Garrick Padfoot leads them as they plunder the crops and terrorize local workers."
   },
   {
    "q": "Why is the abbey letting bandits run rampant in the fields?",
@@ -31,7 +31,7 @@
     "why no stormwind guards",
     "why isn't the abbey defending the vineyards"
    ],
-   "answer": "Stormwind's forces are stretched thin while King Varian Wrynn is missing. Abbey guards protect the abbey and watch the valley roads, leaving local farmers to depend on newly arrived adventurers to recover their stolen goods."
+   "answer": "Stormwind's forces are stretched thin while King Varian Wrynn is missing. Abbey guards protect the abbey and watch the valley roads, so local farmers depend on newly arrived adventurers to recover their stolen goods."
   },
   {
    "q": "Who is Milly Osworth?",
@@ -39,17 +39,17 @@
     "milly osworth",
     "who is milly"
    ],
-   "answer": "Milly Osworth is a local farmer who worked the vineyards. The Defias bandits drove her away when they seized the grape harvest, and she now asks travelers to recover her stolen crates."
+   "answer": "Milly Osworth is a local farmer who worked the vineyards. When the Defias bandits seized the grape harvest, they drove her away. She now asks travelers to recover her stolen crates."
   }
  ],
  "angles": [
   {
    "target": "race:Human",
-   "text": "For many young humans venturing into the world, the occupied vineyards offer a first encounter with the Defias Brotherhood's reach and the bitterness it brings."
+   "text": "For many young humans setting out into the world, the occupied vineyards offer a first encounter with the Defias Brotherhood's reach and the bitterness it brings."
   },
   {
    "target": "faction:Alliance",
-   "text": "Unrest in these quiet grape fields shows how far lawlessness has spread, even into the most protected corners of the kingdom of Stormwind."
+   "text": "Unrest in these quiet grape fields shows how far lawlessness has spread, reaching even the most protected corners of the kingdom of Stormwind."
   }
  ],
  "keywords": [
@@ -70,5 +70,5 @@
  "attribution": [
   "Northshire Vineyards"
  ],
- "style": 1
+ "style": 2
 }

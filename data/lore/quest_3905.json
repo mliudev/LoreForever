@@ -17,16 +17,16 @@
   "wiki": "Grape Manifest (quest)",
   "chain": []
  },
- "summary": "Milly Osworth records her rescued grape harvest for Northshire Abbey. She writes a manifest of the yield recovered from Defias thieves, then sends it to Brother Neals so the brotherhood can replenish its wine stores.",
+ "summary": "Milly Osworth needs you to bring her manifest to Brother Neals at Northshire Abbey. It will help the brotherhood replenish its wine stores.",
  "sections": [
   {
    "title": "The Valley's Vintage",
-   "body": "Northshire Valley's soil and orchards have long supported local food and the abbey's wine. When thieves and bandits seized the eastern fields, they cut off the abbey's supply of grapes and food. With the harvest recovered from the occupied fields, Milly Osworth records the yield in a manifest.",
+   "body": "Defias thieves and other brigands took the eastern fields. The abbey lost its food and its grapes. Milly has recovered the crop and recorded every bushel in her manifest, including what the occupied fields had yielded.",
    "spoiler": 0
   },
   {
    "title": "A Tipple in the Belfry",
-   "body": "Brother Neals oversees food and drink at Northshire Abbey. He is known for sampling Northshire's vintages in the quiet of the bell tower. Brigands still threaten the gates, but fresh grapes give the brotherhood a moment to toast the Light and take heart.",
+   "body": "Brother Neals oversees food and drink at Northshire Abbey. In the quiet of the bell tower, he is known to sample Northshire's vintages. Brigands still threaten the gates, yet fresh grapes give the brotherhood a moment to toast the Light and take heart.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "what is manifest",
     "millys manifest"
    ],
-   "answer": "Milly Osworth writes the Grape Manifest to record her harvest recovered from Defias thieves. The ledger lets the abbey's quartermaster restock its cellars."
+   "answer": "Milly Osworth records her harvest recovered from Defias thieves in the Grape Manifest. The ledger helps the abbey's quartermaster restock its cellars."
   },
   {
    "q": "Who is Brother Neals?",
@@ -74,7 +74,7 @@
     "grape thieves",
     "bandits in vineyards"
    ],
-   "answer": "Defias brigands occupied Northshire Valley's eastern fields, drove Milly Osworth out, and hid her boxed harvest throughout the vineyards. They were driven back by adventurers."
+   "answer": "Defias brigands occupied Northshire Valley's eastern fields, drove Milly Osworth out, and hid her boxed harvest throughout the vineyards. Adventurers drove them back."
   },
   {
    "q": "What happens after giving Brother Neals the manifest?",
@@ -97,7 +97,7 @@
   },
   {
    "target": "class:Priest",
-   "text": "As a priest, you know wine has a place in both hospitality and sacramental rites at Northshire Abbey, where farming sustains the brotherhood's worship."
+   "text": "As a priest, you know wine has a place in hospitality and sacramental rites at Northshire Abbey, where farming sustains the brotherhood's worship."
   }
  ],
  "keywords": [
@@ -121,5 +121,5 @@
  "attribution": [
   "Grape Manifest (quest)"
  ],
- "style": 1
+ "style": 2
 }

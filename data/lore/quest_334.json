@@ -17,16 +17,16 @@
   "wiki": "Package for Thurman",
   "chain": []
  },
- "summary": "In Stormwind City, Rema Schneider needs her son Thurman’s tailoring supplies at Larson Clothiers in the Mage Quarter. He left home without his shears and needles, and Rema asks you to carry them to his workshop.",
+ "summary": "Rema Schneider needs help getting her son’s shears and needles to Larson Clothiers in Stormwind’s Mage Quarter. Thurman is apprenticing there and may fall behind without them.",
  "sections": [
   {
    "title": "A Mother's Errand",
-   "body": "Rema Schneider worries that Thurman will fall behind in his tailoring work without his shears and needles. He left home in a rush, and his mother asks you to carry the tools across Stormwind’s canals to his workshop.",
+   "body": "Thurman hurried out of home without his tools. Rema fears he will fall behind at his apprenticeship, so she asks you to carry the shears and needles across Stormwind’s canals to his workshop.",
    "spoiler": 0
   },
   {
    "title": "A Reluctant Apprentice",
-   "body": "Larson Clothiers is in the Mage Quarter, near the Mage Tower. When Thurman receives his tools, he admits he left them behind on purpose so he could skip his daily chores and have fun. Rema’s intervention ends his free afternoon, and he returns to his stitching.",
+   "body": "Larson Clothiers lies near the Mage Tower. When Thurman gets his tools, he admits he left them behind on purpose so he could skip his daily chores and have fun. Rema’s intervention ends his free afternoon, and he returns to stitching.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "rema schneider quest",
     "quest giver"
    ],
-   "answer": "Rema Schneider asks you to carry a sewing kit to her son, who works in the Mage Quarter."
+   "answer": "Rema Schneider asks you to carry her son’s shears and needles to his workplace in the Mage Quarter."
   },
   {
    "q": "Where can Thurman Schneider be found?",
@@ -56,7 +56,7 @@
     "why did thurman leave tools",
     "thurman slacking"
    ],
-   "answer": "Rema believes Thurman hurried out without his kit and asks you to bring it to him."
+   "answer": "Rema believes Thurman hurried out without his tools and asks you to bring them to him."
   },
   {
    "q": "What shop does Thurman apprentice for?",
@@ -73,7 +73,7 @@
     "why ask player",
     "rema help"
    ],
-   "answer": "Rema believes Thurman’s apprenticeship is in jeopardy without his kit. Unable to leave her own obligations, she asks travelers heading toward the Mage Quarter to help."
+   "answer": "Rema fears Thurman will fall behind in his apprenticeship without his tools. Unable to leave her own obligations, she asks travelers heading toward the Mage Quarter to help."
   },
   {
    "q": "What happens after you deliver the sewing kit?",
@@ -82,7 +82,7 @@
     "after package for thurman",
     "thurman reaction"
    ],
-   "answer": "Thurman takes his kit and returns to helping the Larsons with their sewing."
+   "answer": "Thurman takes his tools and returns to stitching at Larson Clothiers."
   }
  ],
  "angles": [
@@ -114,5 +114,5 @@
  "attribution": [
   "Package for Thurman"
  ],
- "style": 1
+ "style": 2
 }

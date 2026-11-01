@@ -8,11 +8,11 @@
   "wiki": "Roetten Stonehammer",
   "refs": 1
  },
- "summary": "Roetten Stonehammer works from the Library in Ironforge's Hall of Explorers. He represents Reclaimers Inc., organizing expeditions and hiring adventurers for salvage work in distant lands such as Desolace.",
+ "summary": "In Ironforge's Hall of Explorers, Roetten Stonehammer organizes expeditions for Reclaimers Inc. He hires adventurers to recover salvage in distant lands such as Desolace.",
  "sections": [
   {
    "title": "Business in the Library",
-   "body": "In the Hall of Explorers' Library, Roetten Stonehammer handles practical recovery for Reclaimers Inc. He connects mercenaries with salvage work across Kalimdor. His associates seek valuable cargo, wreckage, and rare reagents in dangerous lands such as Desolace.",
+   "body": "Roetten Stonehammer handles recovery work for Reclaimers Inc. from the Library in the Hall of Explorers. He connects mercenaries with salvage work across Kalimdor. His associates seek valuable cargo, wreckage, and rare reagents in dangerous lands such as Desolace.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "who is roetten stonehammer",
     "roetten stonehammer lore"
    ],
-   "answer": "Roetten Stonehammer works in the Library of Ironforge's Hall of Explorers. The dwarf coordinates expeditions and finds adventurers for Reclaimers Inc.'s recovery work abroad."
+   "answer": "Roetten Stonehammer works in the Library of Ironforge's Hall of Explorers. He coordinates expeditions and hires adventurers for Reclaimers Inc.'s recovery work abroad."
   },
   {
    "q": "What is Reclaimers Inc.?",
@@ -75,5 +75,5 @@
  "attribution": [
   "Roetten Stonehammer"
  ],
- "style": 1
+ "style": 2
 }

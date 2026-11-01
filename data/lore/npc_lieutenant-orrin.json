@@ -8,16 +8,16 @@
   "wiki": "Lieutenant Orrin",
   "refs": 1
  },
- "summary": "At Stormwind's gates, Lieutenant Orrin watches for Scourge incursions and calls for scouts. The Argent Dawn officer stands in the Valley of Heroes, where he directs recruits to investigate undead threats beyond the capital.",
+ "summary": "At Stormwind's gates, Lieutenant Orrin calls for scouts as the Scourge stirs beyond the city. From the Valley of Heroes, he directs recruits to investigate undead threats before they reach the capital.",
  "sections": [
   {
    "title": "A Sentinel at the Gates",
-   "body": "Lieutenant Orrin watches the road from the Valley of Heroes. The Argent Dawn is known for holding the front lines in the ruined north, but it also guards strongholds farther south, including Stormwind City. When necromantic magic stirs beyond the capital, Orrin sounds the alarm and rallies adventurers before the undead can threaten the people within.",
+   "body": "Lieutenant Orrin watches the road from the Valley of Heroes. The Argent Dawn holds the front lines in the ruined north, yet it also guards strongholds farther south, including Stormwind City. When necromantic magic stirs beyond the capital, Orrin raises the alarm and rallies adventurers before the undead can threaten the people within.",
    "spoiler": 0
   },
   {
    "title": "Eyes on the Unliving",
-   "body": "Lieutenant Orrin connects the Argent Dawn with volunteers in the southern kingdom. When signs of the Scourge appear beyond Stormwind's gates, he sends scouts to gather intelligence and secure hazardous artifacts. Cracked necrotic crystals are among the objects they recover, helping the order understand and repel the undead threat.",
+   "body": "Lieutenant Orrin links the Argent Dawn with volunteers in the southern kingdom. When signs of the Scourge appear beyond Stormwind's gates, he sends scouts to gather intelligence and secure hazardous artifacts. Among the objects they recover are cracked necrotic crystals, which help the order understand and repel the undead threat.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "argent dawn stormwind",
     "what is argent dawn doing here"
    ],
-   "answer": "The Argent Dawn keeps watch in Stormwind because the Scourge threatens lands beyond the Plaguelands. Its officers at the capital's gates watch for necromantic incursions and recruit fighters to stem the undead."
+   "answer": "The Argent Dawn keeps watch in Stormwind because the Scourge threatens lands beyond the Plaguelands. At the capital's gates, its officers watch for necromantic incursions and recruit fighters to stem the undead."
   },
   {
    "q": "What does Lieutenant Orrin ask adventurers to do?",
@@ -57,7 +57,7 @@
   },
   {
    "target": "class:Paladin",
-   "text": "As a paladin, you share the Argent Dawn's effort to purge necromancy wherever it festers."
+   "text": "As a paladin, you join the Argent Dawn's effort to purge necromancy wherever it festers."
   }
  ],
  "keywords": [
@@ -81,5 +81,5 @@
  "attribution": [
   "Lieutenant Orrin"
  ],
- "style": 1
+ "style": 2
 }

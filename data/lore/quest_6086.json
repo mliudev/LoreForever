@@ -23,21 +23,21 @@
    "Training the Beast (Dwarf)"
   ]
  },
- "summary": "In Dun Morogh, Training the Beast brings young dwarven hunters to the end of their first trials. After learning to soothe and tame wild predators in the snowy crags, they travel to Ironforge to learn how to care for, train, and sustain an animal companion.",
+ "summary": "In Dun Morogh, Grif Wildheart sends young dwarven hunters to Ironforge to learn care for a lasting animal companion. After taming the mountain’s wild predators, they learn to feed and train their beasts.",
  "sections": [
   {
    "title": "From the Wild to the Forge",
-   "body": "After taming large crag boars, snow leopards, and sturdy ice claw bears with a taming rod, young hunters finish their trial near Kharanos under Grif Wildheart’s watch. Taming a beast is only half the bond. Grif sends his pupils up the mountain pass to Ironforge, where they seek the Hall of Arms in the military district.",
+   "body": "Young hunters finish their trial near Kharanos under Grif Wildheart’s watch. They have tamed large crag boars, snow leopards, and sturdy ice claw bears with a taming rod. Then Grif sends them up the mountain pass to Ironforge. They seek the Hall of Arms in the military district.",
    "spoiler": 0
   },
   {
    "title": "Belia Thundergranite's Teachings",
-   "body": "Belia Thundergranite teaches animal care in Ironforge’s Hall of Arms. Revered among the dwarven kingdom’s master animal trainers, she shows young hunters how to nourish and care for their pets, teach them new battlefield skills, and call their spirits back if they fall while defending their master. Her lessons help turn a frightened wild beast into a loyal partner.",
+   "body": "Belia Thundergranite teaches animal care in Ironforge’s Hall of Arms. Revered among the dwarven kingdom’s master animal trainers, she shows young hunters how to nourish their pets and teach them new battlefield skills. She also teaches them to call their spirits back if they fall defending their master. Her lessons turn a frightened wild beast into a loyal partner.",
    "spoiler": 0
   },
   {
    "title": "The Dwarven Hunter's Bond",
-   "body": "Dwarven tradition calls for respect between hunter and beast, not subjugation. Belia reminds young hunters that an animal companion reflects the care it receives. Fed well, respected, and properly trained, a beast will fight loyally against troggs, frost trolls, and any threat to Khaz Modan.",
+   "body": "Dwarven tradition asks for respect between hunter and beast, never subjugation. Belia reminds young hunters that an animal companion reflects the care it receives. Fed well, respected, and properly trained, a beast will fight loyally against troggs, frost trolls, and any threat to Khaz Modan.",
    "spoiler": 0
   }
  ],
@@ -49,7 +49,7 @@
     "training the beast purpose",
     "hunter pet quest reward"
    ],
-   "answer": "Training the Beast completes a dwarf hunter’s foundational training. You learn how to care for a lasting animal companion, feed and train it, call it to your side, and bring it back if it dies."
+   "answer": "Training the Beast completes a dwarf hunter’s foundational training. You learn to care for a lasting animal companion, feed and train it, call it to your side, and bring it back if it dies."
   },
   {
    "q": "Who is Belia Thundergranite?",
@@ -58,7 +58,7 @@
     "belia thundergranite lore",
     "hunter trainer ironforge"
    ],
-   "answer": "Belia Thundergranite is a revered master animal trainer and senior instructor in Ironforge’s Hall of Arms. She teaches dwarf hunters care, discipline, and commands that help turn tamed beasts into lifelong allies."
+   "answer": "Belia Thundergranite is a revered master animal trainer and senior instructor in Ironforge’s Hall of Arms. She teaches dwarf hunters care, discipline, and commands that turn tamed beasts into lifelong allies."
   },
   {
    "q": "Where do I find Belia Thundergranite?",
@@ -85,7 +85,7 @@
     "pet happiness lore",
     "beast loyalty dwarf"
    ],
-   "answer": "Dwarven beast lore treats animal companions as partners, not tools. Neglecting a pet’s hunger worsens its mood and weakens its willingness to fight. Keeping it well-fed earns fierce loyalty and helps it fight at its best."
+   "answer": "Dwarven beast lore treats animal companions as partners, not tools. A hungry pet grows sullen and less willing to fight. Keep it well-fed to earn its fierce loyalty and help it fight at its best."
   },
   {
    "q": "Who gives this quest?",
@@ -108,7 +108,7 @@
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance member, you rely on Ironforge’s beastmasters, who contribute heavily to Alliance scouting forces with loyal companions that patrol the frigid mountain passes."
+   "text": "As an Alliance member, you rely on Ironforge’s beastmasters. Their loyal companions contribute heavily to Alliance scouting forces and patrol the frigid mountain passes."
   }
  ],
  "keywords": [
@@ -132,5 +132,5 @@
  "attribution": [
   "Training the Beast (Dwarf)"
  ],
- "style": 1
+ "style": 2
 }

@@ -10,11 +10,11 @@
    "quest:367"
   ]
  },
- "summary": "Darkhound Blood is a foul bodily fluid harvested from the tainted canine beasts roaming the fields and forests of Tirisfal Glades. Gathered at the behest of the Royal Apothecary Society, it serves as an early reagent in their dark experiments to engineer a lethal new plague.",
+ "summary": "In Tirisfal's fields and forests, tainted darkhounds yield Darkhound Blood, a bodily fluid. The Royal Apothecary Society gathers it as an early reagent for experiments to engineer a lethal new plague.",
  "sections": [
   {
    "title": "Fuel for the New Plague",
-   "body": "Under the command of Lady Sylvanas Windrunner, the Royal Apothecary Society strives to develop a virulent contagion capable of wiping out Arthas and his Scourge. Stationed in Brill, Apothecary Johaan theorizes that local beasts, corrupted by dark energies and resilient to the surrounding decay, possess unusual biological properties. By distilling the blood of wild darkhounds, Johaan aims to uncover biological compounds that can resist or propagate virulent necrotic strains.",
+   "body": "Under Lady Sylvanas Windrunner, the Royal Apothecary Society seeks a virulent contagion that can wipe out Arthas and his Scourge. Apothecary Johaan is stationed in Brill. He theorizes that local beasts, corrupted by dark energies and resilient to the surrounding decay, possess unusual biological properties.\n\nBy distilling wild darkhound blood, Johaan hopes to uncover compounds that can resist or spread virulent necrotic strains.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "why get darkhound blood",
     "darkhound blood purpose"
    ],
-   "answer": "It is used by Apothecary Johaan in Brill as a foundational reagent in the Royal Apothecary Society's research to concoct a brand new plague deadlier than anything Azeroth has ever seen."
+   "answer": "Apothecary Johaan in Brill uses Darkhound Blood as an early reagent in the Royal Apothecary Society's research to concoct a new plague deadlier than anything Azeroth has ever seen."
   },
   {
    "q": "Which creatures yield this blood?",
@@ -35,7 +35,7 @@
     "who drops darkhound blood",
     "darkhound blood source"
    ],
-   "answer": "It is drawn from the various darkhounds wandering Tirisfal Glades, including cursed, ravenous, and decrepit darkhounds."
+   "answer": "Darkhound Blood comes from the cursed, ravenous, and decrepit darkhounds wandering Tirisfal Glades."
   },
   {
    "q": "Why are darkhounds targeted for plague research?",
@@ -44,17 +44,17 @@
     "apothecary johaan theory",
     "darkhound properties"
    ],
-   "answer": "Apothecary Johaan theorizes that the blood of beasts acclimated to the corrupted lands of Tirisfal might hold the biological secrets needed to synthesize an unstoppable contagion."
+   "answer": "Apothecary Johaan theorizes that the blood of beasts acclimated to Tirisfal's corrupted lands may hold the biological secrets needed to synthesize an unstoppable contagion."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "Harvesting reagents like Darkhound Blood is essential work for the Forsaken, helping Lady Sylvanas and the Royal Apothecary Society forge the ultimate weapon against the Scourge."
+   "text": "Harvesting reagents like Darkhound Blood is essential work for the Forsaken. It helps Lady Sylvanas and the Royal Apothecary Society forge their ultimate weapon against the Scourge."
   },
   {
    "target": "faction:Horde",
-   "text": "While dark experiments unfold in Brill, few outside the Forsaken inner circle fully grasp the toxic potential being unlocked by the Royal Apothecary Society."
+   "text": "In Brill, the Royal Apothecary Society pursues dark experiments whose toxic potential few beyond the Forsaken inner circle fully grasp."
   }
  ],
  "keywords": [
@@ -77,5 +77,6 @@
  "attribution": [
   "Darkhound Blood",
   "A New Plague"
- ]
+ ],
+ "style": 2
 }

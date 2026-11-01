@@ -7,21 +7,21 @@
  "meta": {
   "wiki": "Kobold"
  },
- "summary": "Kobolds are diminutive, rat-like subterranean humanoids found scuttling through mines and caverns across Azeroth. Notorious for their obsessive devotion to the tallow candles strapped to their heads, they are individually cowardly but dangerous in swarms, fiercely defending their dig sites against any who threaten their light.",
+ "summary": "In Azeroth's mines and caverns, kobolds guard the candles fixed to their heads. Small and rat-like, they dig in the dark and defend their tunnels in numbers.",
  "sections": [
   {
    "title": "Miners of the Dark",
-   "body": "Standing barely four feet tall, kobolds are filthy, subterranean scavengers who spend their lives delving into the earth. Though they possess low-light vision, the deepest shafts are pitch-black, compelling every kobold to affix a crude candle to their head. While cowardly when cornered alone, kobolds breed in massive numbers and work with relentless energy. When agitated, their rat-like tails whip violently, and they overwhelm intruders in frantic mobs, beating foes to death with heavy iron mining picks.",
+   "body": "Kobolds stand barely four feet tall. Filthy scavengers, they spend their lives delving underground. Their low-light vision fails in the deepest shafts, so each kobold fixes a crude candle to its head. Alone, one is cowardly when cornered. Yet kobolds breed in massive numbers and work with relentless energy. When agitated, their rat-like tails whip as they rush intruders in frantic swarms. They wield heavy iron mining picks and beat foes to death with them.",
    "spoiler": 0
   },
   {
    "title": "You No Take Candle!",
-   "body": "To a kobold, a candle is far more than a light source; it is an existential shield. They harbor a deep, primal terror of the pitch-black tunnels, believing that the unlit darkness will actively consume them.",
+   "body": "Kobolds fear pitch-black tunnels with a deep, primal terror. To them, a candle is more than light. Its flame shields them from a darkness they believe will consume them.",
    "spoiler": 0
   },
   {
    "title": "Subterranean Pests of the Kingdoms",
-   "body": "Across the Eastern Kingdoms, kobolds frequently overrun commercial mines. In Elwynn Forest, a clan displaced from the Redridge Mountains seized the Echo Ridge, Fargodeep, and Jasperlode mines, driven in part by Riverpaw gnolls and the Defias Brotherhood. In Loch Modan, the Tunnel Rat clan seized the Silver Stream Mine from the dwarven Miners' League. Even on Kalimdor, kobolds plague industrial digs, laboring for the Venture Company in Stonetalon or uncovering strange minerals in Thousand Needles.",
+   "body": "Across the Eastern Kingdoms, kobolds often overrun working mines. In Elwynn Forest, a clan displaced from the Redridge Mountains seized the Echo Ridge, Fargodeep, and Jasperlode mines. Riverpaw gnolls and the Defias Brotherhood helped drive them there. In Loch Modan, the Tunnel Rat clan seized the Silver Stream Mine from the dwarven Miners' League.\n\nKobolds also plague industrial digs in Kalimdor. They labor for the Venture Company in Stonetalon and uncover strange minerals in Thousand Needles.",
    "spoiler": 0
   }
  ],
@@ -33,7 +33,7 @@
     "kobold candles",
     "you no take candle meaning"
    ],
-   "answer": "Kobolds have a paralyzing terror of complete darkness. In their folklore, darkness is an active predator that snuffs out life and swallows miners whole. A candle's flame is their only defense against the shadowy deep, making them obsessively defensive of their wicks."
+   "answer": "Kobolds feel deep, paralyzing terror at complete darkness. Their folklore treats it as a predator that snuffs out life and swallows miners whole. They guard their candles as their only defense."
   },
   {
    "q": "Where do kobolds come from?",
@@ -42,7 +42,7 @@
     "where do kobolds come from",
     "kobold evolution"
    ],
-   "answer": "Their true origins are unknown. Kobolds have dwelt in the tunnels and caverns beneath Azeroth for as long as anyone remembers, wherever there is earth to dig."
+   "answer": "Kobolds' true origins are unknown. They have dwelt in tunnels and caverns beneath Azeroth for as long as anyone remembers, wherever earth can be dug."
   },
   {
    "q": "Are kobolds allied with the Defias Brotherhood?",
@@ -51,7 +51,7 @@
     "are kobolds working for defias",
     "fargodeep defias"
    ],
-   "answer": "Not willingly as equal partners. The kobolds infesting mines in Elwynn Forest and Westfall were largely bullied and enslaved by the Riverpaw gnolls, who were hired by the Defias Brotherhood to disrupt regional mining and secure mineral wealth."
+   "answer": "Kobolds were not willing partners of the Defias Brotherhood. In Elwynn Forest and Westfall, Riverpaw gnolls largely bullied and enslaved them. The Defias hired those gnolls to disrupt mining and secure mineral wealth."
   },
   {
    "q": "How do kobolds choose their leaders?",
@@ -60,7 +60,7 @@
     "kobold boss",
     "how do kobolds pick chiefs"
    ],
-   "answer": "Kobolds have no single ruler. Each clan answers to its own bosses, such as the taskmasters who drive the diggers to work in the mines they claim."
+   "answer": "Kobolds have no single ruler. Each clan answers to its own bosses, including taskmasters who drive the diggers to work in the mines they claim."
   },
   {
    "q": "Are kobolds found in Kalimdor as well as the Eastern Kingdoms?",
@@ -69,7 +69,7 @@
     "stonetalon kobolds",
     "orgrimmar kobolds"
    ],
-   "answer": "Yes. Kobolds infested the underground caverns beneath Orgrimmar during the city's founding, work in the Venture Company's Windshear Mine in the Stonetalon Mountains, and burrow throughout Thousand Needles."
+   "answer": "Yes. Kobolds infested the underground caverns beneath Orgrimmar during the city's founding. They also work in the Venture Company's Windshear Mine in the Stonetalon Mountains and burrow throughout Thousand Needles."
   },
   {
    "q": "What do kobolds eat?",
@@ -77,25 +77,25 @@
     "kobold diet",
     "what do kobolds eat"
    ],
-   "answer": "Little is recorded about kobold diets. They are filthy scavengers who live off whatever they can find in and around their tunnels."
+   "answer": "Little is recorded about kobold diets. They are filthy scavengers who live on whatever they find in and around their tunnels."
   }
  ],
  "angles": [
   {
    "target": "profession:Mining",
-   "text": "Any miner operating in human or dwarven lands will inevitably run into kobold infestations, as the creatures naturally gravitate toward rich veins of copper, tin, and silver."
+   "text": "As a miner in human or dwarven lands, you will inevitably encounter kobold infestations. Kobolds gravitate toward rich veins of copper, tin, and silver."
   },
   {
    "target": "race:Human",
-   "text": "For the Kingdom of Stormwind, kobolds represent a constant economic headache, having overrun vital local operations at Fargodeep, Jasperlode, and Echo Ridge."
+   "text": "For the Kingdom of Stormwind, kobolds are a constant economic headache. They have overrun vital local operations at Fargodeep, Jasperlode, and Echo Ridge."
   },
   {
    "target": "race:Dwarf",
-   "text": "The Miners' League regularly employs adventurers to clear Tunnel Rat kobolds out of mountain digs like the Silver Stream Mine in Loch Modan."
+   "text": "As a dwarf, you know the Miners' League regularly employs adventurers to clear Tunnel Rat kobolds from mountain digs like the Silver Stream Mine in Loch Modan."
   },
   {
    "target": "faction:Horde",
-   "text": "During Orgrimmar's founding, kobold warrens beneath the dry earth caused early construction chaos, and clans like the Gravelsnouts continue to harass frontier outposts in Kalimdor."
+   "text": "As a member of the Horde, you know kobold warrens beneath the dry earth caused chaos during Orgrimmar's founding. Clans like the Gravelsnouts still harass frontier outposts in Kalimdor."
   }
  ],
  "keywords": [
@@ -120,5 +120,6 @@
  ],
  "attribution": [
   "Kobold"
- ]
+ ],
+ "style": 2
 }

@@ -17,16 +17,16 @@
   "wiki": "Lost Necklace",
   "chain": []
  },
- "summary": "In southern Elwynn, Bernice Stonefield searches for her missing necklace. She suspects Billy Maclure, the young son of the neighboring family, and asks you to find him across the road.",
+ "summary": "In southern Elwynn, Bernice Stonefield looks for her missing necklace. She suspects Billy Maclure, the young son of the family across the road, and asks you to find him.",
  "sections": [
   {
    "title": "A Neighborly Accusation",
-   "body": "The Stonefield and Maclure families live on adjoining land in southern Elwynn Forest, but they share little goodwill. When \"Auntie\" Bernice Stonefield discovers her cherished necklace is gone, she blames the youngest Maclure. Certain that Billy Maclure slipped onto her farm and took it, the bitter widow asks you to cross the road to the vineyards, find the boy, and demand its return.",
+   "body": "The Stonefields and Maclures live on adjoining land in southern Elwynn Forest, but goodwill between them is scarce. When “Auntie” Bernice Stonefield finds her cherished necklace missing, she blames the youngest Maclure. Certain Billy Maclure came onto her farm and took it, the bitter widow asks you to cross the road to the vineyards, find the boy, and demand its return.",
    "spoiler": 0
   },
   {
    "title": "A Boy with an Appetite",
-   "body": "At the neighboring vineyard, Billy Maclure denies taking the necklace and insists he is no thief. With a knowing grin, he hints that he may know what became of it. First, he wants someone to satisfy his hunger with a fresh pork pie.",
+   "body": "At the neighboring vineyard, Billy Maclure denies taking the necklace and says he is no thief. With a knowing grin, he hints that he may know where it went. First, he wants someone to satisfy his hunger with a fresh pork pie.",
    "spoiler": 1
   }
  ],
@@ -47,7 +47,7 @@
     "did billy steal it",
     "did billy take the necklace"
    ],
-   "answer": "Billy Maclure adamantly denies stealing the necklace. He hints that he knows who took it, but won't share what he knows until someone feeds him."
+   "answer": "Billy Maclure firmly denies stealing the necklace. He hints that he knows who took it, but will not share what he knows until someone feeds him."
   },
   {
    "q": "Where can I find Billy Maclure?",
@@ -82,13 +82,13 @@
     "quest zone",
     "where is lost necklace"
    ],
-   "answer": "You travel through southern Elwynn Forest between Stonefield Farm and the adjacent Maclure Vineyards."
+   "answer": "You travel through southern Elwynn Forest between Stonefield Farm and the adjoining Maclure Vineyards."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance novice in Elwynn Forest, you get a taste of local frontier life by settling a petty dispute between the squabbling Stonefield and Maclure families."
+   "text": "As an Alliance novice in Elwynn Forest, you get a taste of frontier life by settling a petty dispute between the squabbling Stonefield and Maclure families."
   },
   {
    "target": "race:Human",
@@ -115,5 +115,5 @@
  "attribution": [
   "Lost Necklace"
  ],
- "style": 1
+ "style": 2
 }

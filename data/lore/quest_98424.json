@@ -11,11 +11,11 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "Morin Cloudstalker seeks the remaining pages of Fizsprocket\u2019s notebook in the Venture Co. mine. The worn notes hold important information about the company\u2019s schemes in the region.",
+ "summary": "In the Venture Co. mine, Morin Cloudstalker seeks the notebook pages still missing. They hold important information about the company's schemes in the region.",
  "sections": [
   {
    "title": "The Missing Pages",
-   "body": "You have found folded pages in Fizsprocket\u2019s pocket. Morin waits at Bloodhoof Village for the remaining pages from the Venture Co. mine, where the notebook\u2019s information can help guide what comes next.",
+   "body": "Morin Cloudstalker waits at Bloodhoof Village for the pages still missing from Fizsprocket’s notebook. You have found folded pages in Fizsprocket’s pocket, and the remaining notes lie in the Venture Co. mine. Their information can guide what comes next.",
    "spoiler": 0
   }
  ],
@@ -27,7 +27,7 @@
     "notebook pages",
     "missing notes"
    ],
-   "answer": "You are looking for the remaining pages of Overseer Fizsprocket\u2019s notebook."
+   "answer": "You are looking for the remaining pages of Overseer Fizsprocket’s notebook."
   },
   {
    "q": "Where are the rest of the notes?",
@@ -48,7 +48,7 @@
    "answer": "Morin Cloudstalker is waiting for the pages at Bloodhoof Village."
   },
   {
-   "q": "What is in Fizsprocket\u2019s notebook?",
+   "q": "What is in Fizsprocket’s notebook?",
    "aliases": [
     "what notes say",
     "Fizsprocket notebook",
@@ -70,7 +70,7 @@
  "related": [
   "npc:morin-cloudstalker"
  ],
- "style": 1,
+ "style": 2,
  "attribution": [
   "In-game quest text: Fizsprockets Notizen"
  ]

@@ -14,15 +14,15 @@
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "The Alliance garrison at Refuge Pointe under Captain Nials is fighting desperately to reclaim Stromgarde, making high-ranking Syndicate targets like Marez Cowl top strategic priorities."
+   "text": "The Alliance garrison at Refuge Pointe, led by Captain Nials, fights to reclaim Stromgarde. High-ranking Syndicate leaders like Marez Cowl are strategic priorities."
   },
   {
    "target": "class:Warlock",
-   "text": "Marez Cowl represents the darker occult wing of the Syndicate, demonstrating how political renegades readily turn to demonic summoning to expand their influence."
+   "text": "Marez Cowl belongs to the Syndicate’s darker occult wing. Her use of demonic summoning shows how political renegades turn to demons to extend their influence."
   },
   {
    "target": "class:Paladin",
-   "text": "As an open trafficker with demonic entities among the ruins of an ancient human kingdom, Cowl stands as an affront to the Holy Light and the defense of Stromgarde."
+   "text": "As a warlock who deals openly with demons in the ruins of an ancient human kingdom, Cowl affronts the Holy Light and Stromgarde’s defense."
   }
  ],
  "faq": [
@@ -32,7 +32,7 @@
     "marez cowl background",
     "who is she"
    ],
-   "answer": "Marez Cowl is a high-level operative and advisor within the Syndicate. Far from a mere foot soldier, she wields considerable influence within the criminal organization and is recognized as a cunning, dangerous warlock known for trafficking with demonic forces.",
+   "answer": "Marez Cowl is a high-ranking Syndicate advisor and operative. She wields influence in the organization and is a dangerous warlock who traffics with demons.",
    "q": "Who is Marez Cowl?"
   },
   {
@@ -41,7 +41,7 @@
     "marez cowl location",
     "where is marez"
    ],
-   "answer": "Marez Cowl resides within the Syndicate-controlled section of the ruined city of Stromgarde in the Arathi Highlands. Anyone attempting to hunt her must navigate deeply entrenched criminal forces to locate her sanctum.",
+   "answer": "Marez Cowl is in the Syndicate-held part of ruined Stromgarde, in the Arathi Highlands. Criminal forces are entrenched there, and you must find your way through them to reach her lair.",
    "q": "Where is Marez Cowl located?"
   },
   {
@@ -50,7 +50,7 @@
     "who wants marez cowl dead",
     "who pays bounty"
    ],
-   "answer": "The bounty is offered on behalf of the Alliance military forces stationed in the Arathi Highlands. It is overseen by Captain Nials, who commands the Alliance stronghold at Refuge Pointe.",
+   "answer": "The Alliance military in the Arathi Highlands offers the bounty. Captain Nials, commander of the Alliance stronghold at Refuge Pointe, oversees it.",
    "q": "Who posted the bounty on Marez Cowl?"
   },
   {
@@ -59,7 +59,7 @@
     "why bounty on marez cowl",
     "why kill marez cowl"
    ],
-   "answer": "She is wanted because of her critical leadership role in the Syndicate and her active practice of demonic summoning within Stromgarde. Her presence poses an immediate threat to the Alliance garrison struggling to reclaim the ruined kingdom.",
+   "answer": "Marez Cowl is wanted for her Syndicate leadership and her use of demonic summoning in Stromgarde. She threatens the Alliance garrison trying to reclaim the ruined kingdom.",
    "q": "Why is there a bounty on her head?"
   },
   {
@@ -68,7 +68,7 @@
     "marez cowl powers",
     "is marez cowl strong"
    ],
-   "answer": "Marez is not just a political conspirator; she is an accomplished warlock who actively summons and bargains with demons. Hunters are explicitly warned to exercise extreme caution when confronting her and her demonic minions.",
+   "answer": "Marez Cowl uses warlock magic to summon and bargain with demons. Take extreme care when confronting her and the demons she commands.",
    "q": "What kind of magic does Marez Cowl use?"
   },
   {
@@ -77,7 +77,7 @@
     "where is captain nials",
     "turn in marez head"
    ],
-   "answer": "Once Marez Cowl is slain, her head must be delivered directly to Captain Nials at Refuge Pointe, the primary Alliance outpost in the Arathi Highlands.",
+   "answer": "After Marez Cowl is slain, deliver her head to Captain Nials at Refuge Pointe, the Alliance outpost in the Arathi Highlands.",
    "q": "Where do you turn in the bounty for Marez Cowl?"
   }
  ],
@@ -98,18 +98,19 @@
  ],
  "sections": [
   {
-   "body": "WANTED: Marez Cowl is an Alliance bounty decree posted to eliminate one of the Syndicate's key leadership figures in the Arathi Highlands. Marez Cowl serves as a high-ranking advisor and field operative within the organization, orchestrating their activities in the ruined capital of Stromgarde. By placing a price on her head, Alliance commanders at Refuge Pointe aim to decapitate the Syndicate's local command structure.",
+   "body": "At Refuge Pointe, Alliance commanders offer a bounty on a high-ranking Syndicate leader. Marez Cowl advises the Syndicate and directs its work in Stromgarde’s ruins as a field operative. The bounty aims to break the group’s local command.",
    "spoiler": 0,
    "title": "A Price on Syndicate Leadership"
   },
   {
-   "body": "Unlike typical brigands or dispossessed nobles among the Syndicate, Marez Cowl is a practitioner of dark sorcery. She is known as a cunning warlock who openly traffics with demonic powers to enforce her will and defend Syndicate territory. Approaching her lair within Stromgarde requires confronting not only cutthroats and conspirators, but the fell entities she commands.",
+   "body": "Marez Cowl is a warlock among the Syndicate’s brigands and dispossessed nobles. She deals openly with demonic powers to enforce her will and defend Syndicate territory. To reach her lair in Stromgarde, you must face armed criminals and the demons she commands.",
    "spoiler": 0,
    "title": "The Warlock of Stromgarde"
   }
  ],
- "summary": "WANTED: Marez Cowl is an Alliance bounty quest issued against a high-ranking Syndicate operative entrenched within the ruins of Stromgarde. As both an influential advisor and a dark warlock trafficking with demons, Cowl represents a severe threat to the Alliance forces attempting to secure the Arathi Highlands.",
+ "summary": "At Stromgarde, Marez Cowl advises Syndicate leaders and traffics with demons. Her influence threatens Alliance forces in the Arathi Highlands.",
  "attribution": [
   "In-game quest text: WANTED: Marez Cowl"
- ]
+ ],
+ "style": 2
 }

@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Thunderbrew Distillery"
  },
- "summary": "Travelers find the Thunderbrew Distillery at the heart of Kharanos, where ale and shelter await. Its brewhouse and tavern draw mountain travelers, while mentors and tradesfolk offer their skills within.",
+ "summary": "In Kharanos, Thunderbrew Distillery offers travelers ale and shelter. Its brewhouse and tavern draw mountain travelers, while mentors and tradesfolk share their skills within.",
  "sections": [
   {
    "title": "The Warm Hearth of Kharanos",
-   "body": "The Thunderbrew Distillery anchors Kharanos in southern Dun Morogh. Arkilus Thunderbrew founded the brewhouse, and his kin have kept it in the family. Across Khaz Modan, its strong ales are known for warming those who face the mountain cold. Innkeeper Belm manages the inn, where weary mountaineers find a fire, hearty food, and beds beyond the blizzards outside.",
+   "body": "The Thunderbrew Distillery anchors Kharanos in southern Dun Morogh. Arkilus Thunderbrew founded its brewhouse, and his kin have kept it in the family. Its strong ales are known across Khaz Modan for warming those who face the mountain cold. Innkeeper Belm manages the inn, where weary mountaineers find a fire, hearty food, and beds beyond the blizzards outside.",
    "spoiler": 0
   },
   {
    "title": "A Crossroads of Knowledge and Craft",
-   "body": "Kharanos is the first major settlement travelers reach after leaving Coldridge Valley, and the distillery gathers many kinds of instructors beneath its timber rafters. Teachers offer lessons in martial arts, holy rites, arcane studies, and roguecraft, alongside cooking and first aid. The hall pours its well-known stouts, but also gives travelers a place to prepare for the road ahead.",
+   "body": "Kharanos is the first major settlement travelers reach after leaving Coldridge Valley. Beneath the distillery’s timber rafters, instructors teach martial arts, holy rites, arcane studies, and roguecraft. Teachers also offer cooking and first aid. The hall pours its well-known stouts and gives travelers a place to prepare for the road ahead.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "who runs thunderbrew",
     "thunderbrew family"
    ],
-   "answer": "The Thunderbrew family owns the distillery, which Arkilus Thunderbrew founded. His son Ragnar Thunderbrew tends the family brewing traditions, while Innkeeper Belm looks after guests and their rooms in Kharanos."
+   "answer": "The Thunderbrew family owns the distillery, founded by Arkilus Thunderbrew. His son Ragnar Thunderbrew tends the family brewing traditions, while Innkeeper Belm looks after guests and their rooms in Kharanos."
   },
   {
    "q": "What services are available inside the distillery?",
@@ -37,7 +37,7 @@
     "distillery trainers",
     "kharanos inn services"
    ],
-   "answer": "The distillery is Kharanos's main inn. Innkeeper Belm can bind your hearthstone, vendors sell drinks and supplies, and trainers teach warriors, paladins, priests, mages, rogues, cooking, and first aid."
+   "answer": "The distillery is Kharanos’s main inn. Innkeeper Belm can bind your hearthstone, vendors sell drinks and supplies, and trainers teach warriors, paladins, priests, mages, rogues, cooking, and first aid."
   },
   {
    "q": "Why is the distillery so famous?",
@@ -55,7 +55,7 @@
   },
   {
    "target": "profession:Cooking",
-   "text": "The distillery kitchen offers cooking instruction and supplies, making it a useful stop when you want to learn to prepare hearty mountain provisions."
+   "text": "The distillery kitchen offers cooking instruction and supplies. Stop here to learn to prepare hearty mountain provisions."
   }
  ],
  "keywords": [
@@ -76,5 +76,5 @@
  "attribution": [
   "Thunderbrew Distillery"
  ],
- "style": 1
+ "style": 2
 }

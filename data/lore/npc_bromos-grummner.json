@@ -8,11 +8,11 @@
   "wiki": "Bromos Grummner",
   "refs": 1
  },
- "summary": "In Anvilmar, Bromos Grummner trains young dwarven paladins in the Holy Light. He teaches steadfast faith and the bond between dwarves and humans in the Knights of the Silver Hand.",
+ "summary": "In Anvilmar, Bromos Grummner guides young dwarven paladins in the Holy Light and welcomes them to its discipline. He teaches steadfast faith and the bond between dwarves and humans in the Knights of the Silver Hand.",
  "sections": [
   {
    "title": "A Beacon in Coldridge",
-   "body": "In Anvilmar, Bromos Grummner welcomes dwarven novices to the discipline of the Holy Light. He teaches young paladins their martial rites and sacred invocations. Beyond combat, Bromos urges unity. The Knights of the Silver Hand bring Ironforge and the human kingdoms of the Alliance together in a shared righteous purpose.",
+   "body": "In Anvilmar, Bromos teaches young paladins the rites of battle and sacred invocations. Yet he speaks of more than combat. The Knights of the Silver Hand unite Ironforge and the human kingdoms of the Alliance in a shared righteous purpose.",
    "spoiler": 0
   }
  ],
@@ -32,7 +32,7 @@
     "bromos silver hand",
     "is bromos silver hand"
    ],
-   "answer": "Bromos represents the Knights of the Silver Hand. He teaches the importance of the bond between humans and dwarves, forged under the holy order's banner."
+   "answer": "Bromos represents the Knights of the Silver Hand. He teaches the bond between humans and dwarves, forged beneath the holy order's banner."
   },
   {
    "q": "What does he teach new recruits?",
@@ -40,7 +40,7 @@
     "bromos quests",
     "what does bromos grummner do"
    ],
-   "answer": "He teaches new paladins basic combat arts and divine spells. He gives initiates early trials to prove their dedication to the Light and readiness to protect Dun Morogh."
+   "answer": "Bromos teaches new paladins basic combat arts and divine spells. He sets early trials for initiates to prove their devotion to the Light and their readiness to protect Dun Morogh."
   }
  ],
  "angles": [
@@ -75,5 +75,5 @@
  "attribution": [
   "Bromos Grummner"
  ],
- "style": 1
+ "style": 2
 }

@@ -17,16 +17,16 @@
   "wiki": "Fruit of the Sea",
   "chain": []
  },
- "summary": "Fruit of the Sea is an Alliance quest offered by the fisherman Gubber Blump on the docks of Auberdine. Passionate about culinary crustacean dishes, Gubber asks travelers to scour the Darkshore coastline for fine crab chunks while he tends to his fishing lines.",
+ "summary": "Along Darkshore, Auberdine fisherman Gubber Blump asks you to gather crab meat. He keeps to the docks and dreams of dishes for his catch.",
  "sections": [
   {
    "title": "A Passion for Crustaceans",
-   "body": "Gubber Blump, a fisherman casting his line off the long wooden piers of Auberdine, harbors an obsessive culinary devotion to crab meat. Viewing crabs as the true bounty of the ocean, Gubber envisions an endless repertoire of recipes ranging from baked, barbecued, and boiled preparations to elaborate local specialties like whipper root crab and Ironforge surprise crab.",
+   "body": "Gubber Blump fishes from Auberdine's long wooden piers, thinking of crab meat. He calls crabs the ocean's true bounty and imagines them baked, barbecued, or boiled. His recipes include whipper root crab and Ironforge surprise crab.",
    "spoiler": 0
   },
   {
    "title": "Combing the Tidepools",
-   "body": "Because Gubber cannot tear himself away from his fishing rod, he relies on passing adventurers to gather ingredients along Darkshore's mist-shrouded beaches. The coastline teems with reef crawlers and encrusted tide crawlers scuttling among the breakers, making them an accessible, if occasionally pinch-happy, source of meat for an aspiring coastal cook.",
+   "body": "Gubber cannot leave his fishing rod, so he asks you to gather ingredients from Darkshore's beaches. Reef crawlers and encrusted tide crawlers move among the breakers, offering meat for a coastal cook. Mind their claws as you gather the fine crab chunks.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who gives fruit of the sea",
     "gubber blump quest"
    ],
-   "answer": "The quest is given by Gubber Blump, an Alliance fisherman stationed on the docks of Auberdine in Darkshore."
+   "answer": "Gubber Blump, an Alliance fisherman on Auberdine's docks in Darkshore, asks you."
   },
   {
    "q": "What creatures drop the Fine Crab Chunks?",
@@ -47,7 +47,7 @@
     "what drops crab chunks",
     "which crabs drop fine crab chunks"
    ],
-   "answer": "Fine Crab Chunks are harvested from reef crawlers and encrusted tide crawlers found walking the shores and shallow surf along the Darkshore coastline."
+   "answer": "Reef crawlers and encrusted tide crawlers along Darkshore's shores and shallow surf yield Fine Crab Chunks."
   },
   {
    "q": "Why doesn't Gubber gather the crab meat himself?",
@@ -55,7 +55,7 @@
     "why doesn't gubber get his own crab",
     "why does gubber need help"
    ],
-   "answer": "Gubber is fully occupied fishing from the piers of Auberdine and cannot abandon his line to hunt crawling crabs along the beach."
+   "answer": "Gubber is busy fishing from Auberdine's piers and cannot leave his line to hunt crabs on the beach."
   },
   {
    "q": "What dishes does Gubber want to make?",
@@ -64,7 +64,7 @@
     "what recipes does gubber mention",
     "crab dishes"
    ],
-   "answer": "Gubber boasts about an enormous variety of preparation styles, including crab salad, soup, stew, pepper crab, lemon crab, whipper root crab, and a regional recipe he calls Ironforge surprise crab."
+   "answer": "Gubber names crab salad, soup, stew, pepper crab, lemon crab, whipper root crab, and a regional dish he calls Ironforge surprise crab."
   },
   {
    "q": "Is Gubber Blump's speech referencing something?",
@@ -72,7 +72,7 @@
     "gubber blump pop culture reference",
     "forrest gump bubba reference"
    ],
-   "answer": "Yes. His monologue cataloging every conceivable method to cook crab is a clear homage to Benjamin Buford 'Bubba' Blue from the film Forrest Gump, who famously delivered an identical speech about shrimp."
+   "answer": "Yes. Gubber's list of crab dishes echoes Benjamin Buford 'Bubba' Blue from the film Forrest Gump, whose speech about shrimp is described as identical."
   },
   {
    "q": "Where does this quest take place?",
@@ -80,21 +80,21 @@
     "where is fruit of the sea",
     "what zone is fruit of the sea in"
    ],
-   "answer": "The quest begins and turns in at the port village of Auberdine, with the hunting taking place along the shores of Darkshore in northern Kalimdor."
+   "answer": "It begins and ends in Auberdine, a port village, while you hunt along the shores of Darkshore in northern Kalimdor."
   }
  ],
  "angles": [
   {
    "target": "profession:Cooking",
-   "text": "Gubber's enthusiastic breakdown of crab recipes serves as inspiration for any cook looking to make the most of local coastal catches."
+   "text": "Gubber's eager list of crab dishes may inspire you to make the most of local coastal catches."
   },
   {
    "target": "race:Dwarf",
-   "text": "Hearing an outsider in northern Kalimdor dream about cooking an 'Ironforge surprise crab' is a quaint reminder of home for traveling Khaz Modan mountaineers."
+   "text": "As a dwarf, you may hear a familiar note of home when an outsider in northern Kalimdor dreams of Ironforge surprise crab. You travel as a Khaz Modan mountaineer."
   },
   {
    "target": "faction:Alliance",
-   "text": "Auberdine serves as a vital landing hub for Alliance explorers arriving in Kalimdor, offering small favors like helping local fishermen settle in."
+   "text": "As an Alliance traveler, you can reach Kalimdor through Auberdine, a landing hub for Alliance explorers, and help local fishermen settle in."
   }
  ],
  "keywords": [
@@ -114,5 +114,6 @@
  ],
  "attribution": [
   "Fruit of the Sea"
- ]
+ ],
+ "style": 2
 }

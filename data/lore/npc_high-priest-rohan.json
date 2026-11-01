@@ -12,17 +12,17 @@
  "sections": [
   {
    "title": "Shepherd of the Hall of Mysteries",
-   "body": "High Priest Rohan paces the Hall of Mysteries in Ironforge’s Mystic Ward as the Church of the Holy Light’s highest-ranking representative in the city. Dwarves once honored the titans, yet their priests have embraced the Light’s wisdom, compassion, and justice. Rohan patiently teaches young acolytes to channel holy magic and steel their minds against despair.",
+   "body": "In Ironforge’s Mystic Ward, High Priest Rohan paces the Hall of Mysteries as the Church of the Holy Light’s highest-ranking representative in the city. Dwarves once honored the titans, yet their priests have embraced the Light’s wisdom, compassion, and justice. Rohan patiently teaches young acolytes to wield holy magic and steel their minds against despair.",
    "spoiler": 0
   },
   {
    "title": "Bridges Across the Alliance",
-   "body": "After priests under his care master the fundamentals, Rohan sends them abroad to learn from other traditions. Human and dwarven students go to High Priestess Laurena in Stormwind City. Night elf disciples travel to Priestess Alathea at Darnassus’s Temple of the Moon to study mysteries such as Elune’s Grace. Rohan also sends healers to aid the Cenarion Circle’s druids in distant Azshara, wherever hardship calls.",
+   "body": "Once the priests in his care master the fundamentals, Rohan sends them abroad to learn from other traditions. Human and dwarven students go to High Priestess Laurena in Stormwind City. Night elf disciples travel to Priestess Alathea at Darnassus’s Temple of the Moon, where they study mysteries such as Elune’s Grace. Rohan also sends healers to aid the Cenarion Circle’s druids in distant Azshara, wherever hardship calls.",
    "spoiler": 0
   },
   {
    "title": "The Exorcism Censer",
-   "body": "Rohan keeps sacred relics for the Alliance priesthood and paladin brotherhoods. One is a blessed exorcism censer, used for years to cleanse vile spirits. When the Order of the Silver Hand and Lord Grayson Shadowbreaker need it for their knights’ holy calling, Rohan lends it freely. He asks only for charitable alms to replenish Ironforge’s dwindling food reserves for the needy.",
+   "body": "Rohan keeps sacred relics for the Alliance priesthood and paladin brotherhoods. Among them is a blessed exorcism censer used for years to cleanse vile spirits. When the Order of the Silver Hand and Lord Grayson Shadowbreaker need it for their knights’ holy calling, Rohan lends it freely. He asks only for charitable alms to replenish Ironforge’s dwindling food reserves for the needy.",
    "spoiler": 0
   }
  ],
@@ -53,7 +53,7 @@
     "desperate prayer rohan",
     "temple of the moon quest"
    ],
-   "answer": "Rohan sends human and dwarven initiates to Stormwind’s Cathedral of Light to learn prayers such as Desperate Prayer. Night elf priests return to Darnassus’s Temple of the Moon to attune with Elune’s Grace. He believes spiritual growth draws on diverse traditions."
+   "answer": "Rohan sends human and dwarven initiates to Stormwind’s Cathedral of Light to learn prayers such as Desperate Prayer. Night elf priests return to Darnassus’s Temple of the Moon to study mysteries such as Elune’s Grace. He believes spiritual growth draws on diverse traditions."
   },
   {
    "q": "Why do paladins seek out Rohan?",
@@ -123,5 +123,5 @@
  "attribution": [
   "High Priest Rohan"
  ],
- "style": 1
+ "style": 2
 }

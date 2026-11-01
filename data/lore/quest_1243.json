@@ -17,16 +17,16 @@
   "wiki": "The Missing Diplomat (4)",
   "chain": []
  },
- "summary": "Elling Trias sends you south to seek news of the missing diplomat. Leads in Stormwind point toward Duskwood and Watcher Backus, a contact near Darkshire who may know of Defias activity.",
+ "summary": "Elling Trias sends you south from Stormwind to seek news of the missing diplomat. His lead points toward Duskwood and Watcher Backus, a contact near Darkshire who may know of Defias activity.",
  "sections": [
   {
    "title": "Footwork in the Gloom",
-   "body": "After a frustrating exchange with Jorgen, cheesemonger Elling Trias turns to his wider circle of informants. To save his own coin, he sends you to do the fieldwork instead of hiring agents. You carry a sealed missive across the border into Duskwood, where beasts and the undead make travel dangerous.",
+   "body": "After a frustrating exchange with Jorgen, Elling Trias, the cheesemonger, turns to his wider circle of informants. To save his own coin, he sends you to do the fieldwork instead of hiring agents. You carry a sealed missive across the border into Duskwood, where beasts and the undead make travel dangerous.",
    "spoiler": 0
   },
   {
    "title": "A Friendly Ear in the Night Watch",
-   "body": "Watcher Backus serves in the Night Watch and patrols the northern approach to Darkshire. Trias trusts him to report illicit movements through Duskwood, despite the dangers on its roads. Show Backus the sealed dispatch, and he can share guard records and local gossip about Defias Brotherhood operations in the south.",
+   "body": "Watcher Backus patrols the northern approach to Darkshire as a member of the Night Watch. Trias trusts him to report illicit movements through Duskwood. Show Backus the sealed dispatch, and he can share guard records and local gossip about Defias Brotherhood operations in the south.",
    "spoiler": 0
   }
  ],
@@ -114,5 +114,5 @@
  "attribution": [
   "The Missing Diplomat (4)"
  ],
- "style": 1
+ "style": 2
 }

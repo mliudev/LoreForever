@@ -12,6 +12,8 @@
 --   kills = { [name] = n },
 --   tally = { walk = { [land] = yards }, kinds = { [creature type] = kills }, ranks = { [classification] = kills },
 --             deaths, online, played, playedAt },   the journey in numbers (The tally, below; LOR-246)
+--   flights = { [name] = t },   the flight points the flight map showed as theirs, by its name ("Sentinel Hill,
+--                               Westfall"), and when it first did (Flights, below; LOR-797)
 --   events = { { k = kind, t = time, lv = level, ... }, ... },   at most MAX_EVENTS
 --   trail = { [sessionStart] = { { m = mapID, x = 0.123, y = 0.456, t = t }, ... } } } } }   the last TRAIL_SESSIONS
 -- LoreForeverDB.texts = { gossip = { [npcName] = { [hash] = text } }, books = { [title] = { [page] = text } } } (and
@@ -209,7 +211,8 @@ end
 -- spot on the map (Companion.Payload, LOR-664).
 Journey.Here = spot
 
-local function add(kind, fields)
+-- made: something the player crafted, never a find (Willo's big moments, Moments.lua).
+local function add(kind, fields, made)
   if not (char and Journey.On()) then return nil end
   local e = fields or {}
   e.k, e.t = kind, time()
@@ -220,6 +223,7 @@ local function add(kind, fields)
   char.events[#char.events + 1] = e
   trim(char)
   if (kind == "lvl" or kind == "boss") and Journey.MilestonePicture then Journey.MilestonePicture() end
+  if Journey.OnAdded and not made then pcall(Journey.OnAdded, kind, e) end
   -- Keep an open journey page current, at most once a second.
   if Journey.content and Journey.IsShown() and not refreshQueued then
     refreshQueued = true
@@ -228,6 +232,25 @@ local function add(kind, fields)
   return e
 end
 Journey.Add = add
+
+-- Whether the quest just turned in (id) was carried a long time (Willo's big moments, Moments.lua): taken before a
+-- logout, or LONG_QUEST seconds or more ago. A hub cleared in an evening isn't (the Architect, 10/31: an hour by the
+-- clock was most quests). False when the journey has no taking of it.
+function Journey.CarriedLong(id)
+  local LONG_QUEST = 3 * 3600   -- (not a main-chunk local: it has room for only 200)
+  if not (char and id) then return false end
+  local logout = false
+  for i = #char.events, 1, -1 do
+    local e = char.events[i]
+    if type(e) == "table" then
+      if e.k == "logout" then logout = true
+      elseif e.k == "qa" and e.id == id then
+        return logout or (tonumber(e.t) and time() - e.t >= LONG_QUEST) or false
+      end
+    end
+  end
+  return false
+end
 
 local function here()
   local p = ns.Context.Place()
@@ -2685,6 +2708,20 @@ function Journey.OnTakeTaxi(index)
   end
 end
 
+-- The flight points this character has, for Willo's way (LOR-797: a level 30 was sent to a Chillwind Camp flight he'd
+-- never found). Each time the flight map opens, the points it shows as theirs: CURRENT, where they stand, and
+-- REACHABLE, one they can fly to (the buttons Classic Era's and Forever's own flight maps show). Never NONE, a point not
+-- found yet, nor DISTANT, which those maps hide: one left out only makes her way walk further, one put in sends them to
+-- a flight they don't have. Willo's app adds both ends of every flight they took (journal.py flight_points).
+function Journey.OnTaxiMap()
+  local known = type(char.flights) == "table" and char.flights or {}
+  char.flights = known
+  for i = 1, (try(NumTaxiNodes) or 0) do
+    local kind, name = try(TaxiNodeGetType, i), try(TaxiNodeName, i)
+    if (kind == "CURRENT" or kind == "REACHABLE") and usable(name) and not known[name] then known[name] = time() end
+  end
+end
+
 function takeOff()
   if flying or not try(UnitOnTaxi, "player") then return end
   local z, s = here()
@@ -3025,7 +3062,7 @@ local function onLoot(msg)
     local quest = kind == "pushed" and rewardOf(id, at, window) or nil
     if window and not quest then return end
     if ql >= RARE or (quest and ql >= UNCOMMON) then
-      add("loot", { n = name, id = id, ql = ql, qid = quest, z = z, s = s })
+      add("loot", { n = name, id = id, ql = ql, qid = quest, z = z, s = s }, kind == "created")
     end
   end
   -- A quest's rewards can arrive just before QUEST_TURNED_IN does.
@@ -3273,6 +3310,8 @@ do
   local DAILY, GAP = 10, 120
   local taking   -- the picture the key is taking, { stem }, until the game says it's saved or failed
   local hid      -- the picture that hid the interface, until it's back
+  -- (the sky's twinkle for Willo waits for it: it would be in the picture, Moments.lua)
+  function Journey.TakingPicture() return taking ~= nil or hid ~= nil end
 
   -- Automatic pictures require a clear, safe answer from the game. Missing/erroring APIs are a reason to skip one.
   local function clear(fn, ...)
@@ -3459,6 +3498,7 @@ local handlers = {
   end,
   PLAYER_CONTROL_LOST = function() later(1, takeOff) end,
   PLAYER_CONTROL_GAINED = function() later(0.5, land) end,
+  TAXIMAP_OPENED = Journey.OnTaxiMap,
   UNIT_SPELLCAST_SUCCEEDED = onSpell,
   HEARTHSTONE_BOUND = function()
     local z, s = here()

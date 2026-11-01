@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Coldridge Valley"
  },
- "summary": "In Coldridge Valley, young dwarves and gnome refugees train for service to Ironforge. Snow blankets the sheltered vale in Dun Morogh's southwestern heights, and Coldridge Pass is its lone route to the wider mountain realm.",
+ "summary": "Coldridge Valley is where young dwarves and gnome refugees train to serve Ironforge. Snow lies deep over this sheltered vale, high in the southwest of Dun Morogh. Sheer cliffs close it in. Only one road leads out to the wider mountains, and that is Coldridge Pass.",
  "sections": [
   {
    "title": "A Secluded Proving Ground",
-   "body": "Anvilmar is where new recruits learn to fight, move unseen, and wield sorcery. Veteran dwarven instructors train them alongside displaced gnome scholars. Beyond the hall, snow covers the valley floor, where boars and hungry winter wolves test the novices' skill at surviving the frontier. Sheer cliffs keep the vale apart from much of Dun Morogh's trade.",
+   "body": "The recruits gather at Anvilmar, the valley's training hall. There they learn to fight, to move unseen and to wield sorcery. Veteran dwarves teach them, side by side with gnome scholars who have lost their home. Out on the snowy valley floor roam boars and hungry winter wolves. They test whether a novice can survive the frontier.",
    "spoiler": 0
   },
   {
    "title": "Encroaching Foes",
-   "body": "Frostmane trolls camp in the valley, including at Frostmane Hovel, and skirmish with mountaineers over their ancestral claims against dwarven encroachment. Rockjaw troggs have overrun Coldridge Pass, the tunnel linking the valley to Kharanos. With the pass blocked, travelers and supplies cannot move freely between the valley and Ironforge, the mountain realm's high seat.",
+   "body": "But this valley is not at peace. Frostmane trolls camp here, at Frostmane Hovel and beyond. They say the land was theirs by ancestral right, and they skirmish with the mountaineers over it. And Rockjaw troggs have overrun Coldridge Pass. It is the tunnel to Kharanos, and while it is blocked, nothing moves freely to Ironforge.",
    "spoiler": 0
   }
  ],
@@ -46,7 +46,7 @@
     "valley threats",
     "who is attacking"
    ],
-   "answer": "Frostmane trolls resent dwarven settlements on their mountain territory, while Rockjaw troggs have clawed up from the deep earth and blocked Coldridge Pass. Wolves and boars also harass unwary travelers."
+   "answer": "Frostmane trolls resent dwarven settlements on their mountain territory, while Rockjaw troggs have clawed up from the deep earth and blocked Coldridge Pass. Wolves and boars also harass unwary travelers. The blocked pass prevents free movement between the valley and the mountain realm."
   },
   {
    "q": "What is Anvilmar?",
@@ -90,5 +90,5 @@
  "attribution": [
   "Coldridge Valley"
  ],
- "style": 1
+ "style": 2
 }

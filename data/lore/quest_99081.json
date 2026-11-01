@@ -11,11 +11,11 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "Kriegerheld Wildrunner needs the report held by Langl\u00e4uferin Malah. A new centaur camp points to a small raiding party entering Mulgore, and her death must be reported.",
+ "summary": "Langläuferin Malah’s report carries word of a new centaur camp in Mulgore. Kriegerheld Wildrunner needs to know what happened to her, who killed her, and why the camp points to a small raiding party entering the land.",
  "sections": [
   {
    "title": "Malah's Report",
-   "body": "You carry Langl\u00e4uferin Malah\u2019s report to Kriegerheld Wildrunner in Bloodhoof Village. He will want to know what happened to Malah and who killed her. The report brings troubling news that must reach Baine at once.",
+   "body": "You bring Langläuferin Malah’s report to Kriegerheld Wildrunner in Bloodhoof Village. He needs to know what happened to Malah and who killed her. Her report brings troubling news, and Baine must hear it at once.",
    "spoiler": 0
   }
  ],
@@ -27,7 +27,7 @@
     "wildrunner report",
     "who do i take it to"
    ],
-   "answer": "Kriegerheld Wildrunner wants Langl\u00e4uferin Malah\u2019s report, in Bloodhoof Village."
+   "answer": "Kriegerheld Wildrunner in Bloodhoof Village wants Langläuferin Malah’s report."
   },
   {
    "q": "What does the report concern?",
@@ -36,7 +36,7 @@
     "malah report",
     "why is malah dead"
    ],
-   "answer": "The report concerns what happened to Langl\u00e4uferin Malah and who killed her."
+   "answer": "The report concerns what happened to Langläuferin Malah and who killed her."
   },
   {
    "q": "What is near the arrows' direction?",
@@ -54,7 +54,7 @@
     "raiders in mulgore",
     "what does the camp mean"
    ],
-   "answer": "The activity at the camp suggests a small raiding party has made its way into Mulgore."
+   "answer": "Activity at the camp suggests a small raiding party has entered Mulgore."
   },
   {
    "q": "Who needs to hear the news?",
@@ -63,7 +63,7 @@
     "wildrunner tells baine",
     "who gets informed"
    ],
-   "answer": "Kriegerheld Wildrunner says Baine must be informed at once."
+   "answer": "Kriegerheld Wildrunner says Baine must hear the news at once."
   }
  ],
  "angles": [
@@ -77,7 +77,7 @@
   "bloodhoof village",
   "centaur camp",
   "kriegerheld wildrunner",
-  "langl\u00e4uferin malah",
+  "langläuferin malah",
   "malah",
   "mulgore",
   "schwieriges unterfangen"
@@ -85,7 +85,7 @@
  "related": [
   "zone:mulgore"
  ],
- "style": 1,
+ "style": 2,
  "attribution": [
   "In-game quest text: Schwieriges Unterfangen"
  ]

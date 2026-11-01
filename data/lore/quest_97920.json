@@ -12,16 +12,16 @@
   "harvested": true,
   "level": "6"
  },
- "summary": "In Elwynn Forest, novice anglers seek ways to make camp life more comfortable. Near Goldshire, fishing expert Lee Brown teaches travelers how angling can add simple comforts to a campsite.",
+ "summary": "Lee Brown teaches novice anglers near Goldshire how to use their fishing skill around camp. With simple catches and basic materials, they can make useful additions for a campsite.",
  "sections": [
   {
    "title": "Campcraft for Anglers",
-   "body": "Fishing gives you food, but camp life asks for more than food and shelter. A fish bowl can bring comfort and lift the spirits of weary travelers between excursions. Sound minds and high spirits help make formidable fighters.",
+   "body": "Fishing can feed you on the road and add comfort to camp. A fish bowl lifts the spirits of weary travelers between excursions. A sound mind and high spirits help make formidable fighters.",
    "spoiler": 0
   },
   {
    "title": "Lee Brown's Expertise",
-   "body": "Lee Brown waits beside the waters outside Goldshire to help novice fishermen broaden their craft. Travelers who show skill with rod and line can learn how simple catches and basic materials become useful additions to a campsite.",
+   "body": "Lee Brown waits beside the waters outside Goldshire for fishermen ready to broaden their craft. Show him your skill with rod and line, and he can teach you to make useful additions for camp.",
    "spoiler": 0
   }
  ],
@@ -33,7 +33,7 @@
     "what does camping 101 do",
     "purpose of quest"
    ],
-   "answer": "Lee Brown near Goldshire directs aspiring fishermen. After you show basic skill at fishing, he teaches you to craft camp items such as a fish bowl for roadside campsites."
+   "answer": "Lee Brown near Goldshire directs aspiring fishermen. After you show basic skill at fishing, he teaches you to make camp items such as a fish bowl for roadside campsites."
   },
   {
    "q": "Who is Lee Brown?",
@@ -42,7 +42,7 @@
     "who teaches fishing camping",
     "lee brown"
    ],
-   "answer": "Lee Brown is a fishing trainer beside Crystal Lake, just outside Goldshire in Elwynn Forest. He teaches angling and how to make campcraft items for fishermen."
+   "answer": "Lee Brown is a fishing trainer beside Crystal Lake, just outside Goldshire in Elwynn Forest. He teaches angling and how fishermen can make items for camp."
   },
   {
    "q": "What does a Fish Bowl do for a campsite?",
@@ -60,7 +60,7 @@
     "where do i go",
     "elwynn camping trainer"
    ],
-   "answer": "The training takes place in Elwynn Forest, by the waters around Goldshire where local anglers gather."
+   "answer": "The training takes place in Elwynn Forest, beside the waters around Goldshire where local anglers gather."
   },
   {
    "q": "Do I need prior skill in fishing to complete this?",
@@ -103,5 +103,5 @@
  "attribution": [
   "In-game quest text: Camping 101: Fishing"
  ],
- "style": 1
+ "style": 2
 }

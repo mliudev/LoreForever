@@ -17,16 +17,16 @@
   "wiki": "The People's Militia (3)",
   "chain": []
  },
- "summary": "This task marks the culmination of Gryan Stoutmantle's campaign to clear Westfall's roads and farmlands of the Defias Brotherhood. By hunting down the seasoned brigands entrenched in the southern Dagger Hills, volunteers prove their dedication and earn full induction into Sentinel Hill's People's Militia.",
+ "summary": "In southern Westfall, volunteers of The People's Militia press their fight against the Defias. The seasoned brigands hold the Dagger Hills, and Gryan Stoutmantle leads a campaign to clear the roads and farms. Complete the patrols, and you earn full induction at Sentinel Hill.",
  "sections": [
   {
    "title": "Purging the Dagger Hills",
-   "body": "The northern farmlands of Westfall have suffered greatly under the Defias Brotherhood, but the outlaws who escaped Stoutmantle's early sweeps retreated south into the rocky crags of the Dagger Hills. Operating out of the rugged terrain, Defias Highwaymen, Pathstalkers, and Knuckledusters have continued to raid rural homesteads and intercept travelers. To break their hold over the southern half of the region, the People's Militia sends hardened recruits into the hills to dismantle these raiding bands directly.",
+   "body": "The Defias Brotherhood has brought great hardship to Westfall's northern farmlands. Those who escaped Gryan Stoutmantle's first sweeps fled south to the rocky Dagger Hills. From there, Defias Highwaymen, Pathstalkers, and Knuckledusters still raid homesteads and waylay travelers. You join hardened recruits sent into the hills to break the brigands' hold over southern Westfall.",
    "spoiler": 0
   },
   {
    "title": "Stoutmantle's Crusade",
-   "body": "Gryan Stoutmantle formed the People's Militia after returning home from fighting the Scourge in Lordaeron, only to discover Westfall completely abandoned by the royal garrison in Stormwind. Faced with an unchecked criminal syndicate and starving farmers driven from their land, he organized local volunteers to take up arms. Fully completing this final tier of patrol duty earns adventurers formal induction into the militia, carrying Stoutmantle's blessing in the Light as the fight against the brotherhood deepens.",
+   "body": "After returning from the fight against the Scourge in Lordaeron, Gryan Stoutmantle found Westfall abandoned by Stormwind's royal garrison. A criminal syndicate went unchecked, and hunger drove farmers from their land. So he rallied local volunteers to take up arms. Complete this final patrol, and Stoutmantle blesses you in the Light as he formally inducts you into the militia. The fight against the Brotherhood deepens.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "where to find dagger hills",
     "where are the highwaymen"
    ],
-   "answer": "The Dagger Hills lie in southern Westfall, southwest of Sentinel Hill. The rugged ridges and abandoned mineheads there serve as a staging ground and redoubt for the Defias Brotherhood's tougher fighters."
+   "answer": "The Dagger Hills lie in southern Westfall, southwest of Sentinel Hill. Their rugged ridges and abandoned mineheads give the Defias Brotherhood's tougher fighters ground to gather and hold."
   },
   {
    "q": "Why is the People's Militia fighting the Defias alone?",
@@ -47,7 +47,7 @@
     "where is stormwind army",
     "why is westfall abandoned"
    ],
-   "answer": "With King Varian Wrynn missing and resources stretched thin, the House of Nobles in Stormwind refuses to deploy the royal army to protect rural Westfall. Gryan Stoutmantle and the local farmers had no choice but to form their own volunteer force to defend their homes."
+   "answer": "With King Varian Wrynn missing and resources stretched thin, Stormwind's House of Nobles refuses to send the royal army to protect rural Westfall. Gryan Stoutmantle and local farmers form their own volunteer force to defend their homes."
   },
   {
    "q": "What does completing this task achieve?",
@@ -56,7 +56,7 @@
     "militia induction",
     "what do i get for finishing"
    ],
-   "answer": "Eliminating the highwaymen, pathstalkers, and knuckledusters breaks the Defias hold on southern Westfall's roads and earns you formal induction into the People's Militia under Gryan Stoutmantle's command."
+   "answer": "Clearing out the Highwaymen, Pathstalkers, and Knuckledusters breaks the Defias hold on southern Westfall's roads. You earn formal induction into the People's Militia under Gryan Stoutmantle's command."
   },
   {
    "q": "Who is Gryan Stoutmantle?",
@@ -65,7 +65,7 @@
     "who is stoutmantle",
     "sentinel hill leader"
    ],
-   "answer": "Gryan Stoutmantle is a veteran soldier who fought during the third war in Lordaeron. Upon returning home to Westfall and witnessing the Kingdom of Stormwind abandon its rural peasantry, he established the People's Militia at Sentinel Hill to fight back against the Defias."
+   "answer": "Gryan Stoutmantle is a veteran soldier who fought the Scourge in Lordaeron during the Third War. He returned to Westfall and saw that the Kingdom of Stormwind had abandoned its rural peasantry. At Sentinel Hill, he founded the People's Militia to fight the Defias."
   },
   {
    "q": "What kind of Defias hide in the Dagger Hills?",
@@ -74,7 +74,7 @@
     "what are pathstalkers and knuckledusters",
     "who is in dagger hills"
    ],
-   "answer": "The Dagger Hills shelter experienced Defias Highwaymen, deadly Pathstalkers, and brutal Knuckledusters who orchestrate raids against southern Westfall and guard the Brotherhood's deeper strongholds."
+   "answer": "The Dagger Hills shelter experienced Defias Highwaymen, deadly Pathstalkers, and brutal Knuckledusters. They lead raids across southern Westfall and guard the Brotherhood's deeper strongholds."
   },
   {
    "q": "How does this connect to Lordaeron?",
@@ -83,21 +83,21 @@
     "tainted lands of lordaeron",
     "gryan war history"
    ],
-   "answer": "Gryan Stoutmantle references having recently returned from the 'tainted lands of Lordaeron,' where the Alliance fought against the Scourge. Surviving that grim theater gave him the resolve to organize Westfall's defence when local authorities failed."
+   "answer": "Gryan Stoutmantle says he recently returned from the tainted lands of Lordaeron, where the Alliance fought the Scourge. Surviving that grim fight gave him resolve to organize Westfall's defense after local authorities failed."
   }
  ],
  "angles": [
   {
    "target": "race:Human",
-   "text": "For humans of Stormwind, this assignment represents standing up for forgotten countrymen whose livelihoods were abandoned by the capital's political elite."
+   "text": "As a human of Stormwind, you stand up for forgotten countrymen whose livelihoods the capital's political elite abandoned."
   },
   {
    "target": "class:Paladin",
-   "text": "Stoutmantle invokes the blessing of the Light upon inductees, reflecting the holy ideals of justice and protecting the defenseless against predatory outlaws."
+   "text": "As a paladin, you hear Stoutmantle call on the Light to bless new inductees. His words reflect the holy ideals of justice and protecting the defenseless from predatory outlaws."
   },
   {
    "target": "faction:Alliance",
-   "text": "The failure of Stormwind to protect Westfall forces the Alliance's common folk to shed their own blood to maintain order in their homeland."
+   "text": "As an Alliance member, you see Stormwind's failure to protect Westfall force common folk to shed their own blood to keep order in their homeland."
   }
  ],
  "keywords": [
@@ -121,5 +121,6 @@
  ],
  "attribution": [
   "The People's Militia (3)"
- ]
+ ],
+ "style": 2
 }

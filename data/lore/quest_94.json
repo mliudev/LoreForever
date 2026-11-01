@@ -22,16 +22,16 @@
    "Morganth (quest)"
   ]
  },
- "summary": "Theocritus watches Morganth from the Tower of Azora in Elwynn Forest. He sends travelers east into Redridge Mountains to place an enchanted glyph at an old lion statue near the Tower of Ilgalar.",
+ "summary": "At the Tower of Azora, Theocritus watches Morganth from afar. He sends travelers east into Redridge Mountains to place an enchanted glyph at an old lion statue near the Tower of Ilgalar.",
  "sections": [
   {
    "title": "A Rivalry Across the Border",
-   "body": "Theocritus watches the hills from his tower in eastern Elwynn Forest. His rival, Morganth, is a powerful sorcerer who has claimed the Tower of Ilgalar in Redridge Mountains. Theocritus fears Morganth's dark magic may cross the border, so he made the Eye of Azora to watch the rogue wizard from afar.",
+   "body": "From his tower in eastern Elwynn Forest, Theocritus watches the hills. His rival, Morganth, is a powerful sorcerer who has claimed the Tower of Ilgalar in Redridge Mountains. Fearing Morganth's dark magic may cross the border, Theocritus made the Eye of Azora to watch the rogue wizard from afar.",
    "spoiler": 0
   },
   {
    "title": "The Lion's Vigil",
-   "body": "Theocritus needs more than a distant view to learn what Morganth plans. He gives travelers the Glyph of Azora and sends them to the Old Lion Statue near the Tower of Ilgalar. The statue has kept watch there for decades. Set the glyph into the worn hollow at its base, and an arcane link reaches back to Azora, letting Theocritus look into his rival's mind.",
+   "body": "A distant view cannot show Theocritus what Morganth plans. So he gives travelers the Glyph of Azora and sends them to the Old Lion Statue near the Tower of Ilgalar. The statue has kept watch there for decades.\n\nSet the glyph into the worn hollow at its base. An arcane link then reaches back to Azora, letting Theocritus look into his rival's mind.",
    "spoiler": 0
   }
  ],
@@ -52,7 +52,7 @@
     "who is morganth",
     "rival mage"
    ],
-   "answer": "Morganth is a rogue human wizard who has made the Tower of Ilgalar in Redridge Mountains his stronghold. He is Theocritus's bitter rival, and Theocritus fears the schemes he is making against the surrounding lands."
+   "answer": "Morganth is a rogue human wizard who has made the Tower of Ilgalar in Redridge Mountains his stronghold. He is Theocritus's bitter rival, and Theocritus fears his schemes against the surrounding lands."
   },
   {
    "q": "Where is the Old Lion Statue located?",
@@ -85,7 +85,7 @@
     "next quest",
     "what after a watchful eye"
    ],
-   "answer": "After the Glyph of Azora is set in the statue, Theocritus speaks through the stone and offers Looking Further. He begins to uncover Morganth's plans."
+   "answer": "After you set the Glyph of Azora in the statue, Theocritus speaks through the stone and offers Looking Further. He begins to uncover Morganth's plans."
   }
  ],
  "angles": [
@@ -119,5 +119,5 @@
  "attribution": [
   "A Watchful Eye"
  ],
- "style": 1
+ "style": 2
 }

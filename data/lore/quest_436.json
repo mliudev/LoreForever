@@ -20,16 +20,16 @@
    "Gathering Idols"
   ]
  },
- "summary": "In Thelsamar, Jern Hornhelm worries over the slow work at Ironband's Excavation. Supplies still reach Prospector Ironband's team, but reports show little progress. Jern trusts Ironband's diligence and sends you to learn what has disrupted the dig.",
+ "summary": "Jern Hornhelm has sent you from Thelsamar to find out why Ironband's Excavation is making so little progress. Supplies reach Prospector Ironband's team, and Jern trusts his diligence, but the work remains slow.",
  "sections": [
   {
    "title": "A Slowdown in the Foothills",
-   "body": "Jern Hornhelm watches shipments from Thelsamar cross Loch Modan to the Explorers' League. Provisions and tools arrive steadily, yet Prospector Ironband's dig makes little progress. Jern knows Ironband as an upright, diligent dwarf, so he suspects something has disrupted the work. He sends you to find out what is holding the team back.",
+   "body": "Jern Hornhelm watches from Thelsamar as provisions and tools cross Loch Modan to the Explorers' League. They arrive steadily, yet the dig makes little progress. Jern suspects something is disrupting the work. He needs you to find out what is holding the team back.",
    "spoiler": 0
   },
   {
    "title": "The Trogg Infestation",
-   "body": "Explorer Magmar Fellhew tells you that violent troggs have overrun the excavation in the eastern hills. They harass the dwarven crew and scatter the team's discoveries. The League cannot study the ancient stones until the intruders are driven back.",
+   "body": "At the excavation in the eastern hills, Explorer Magmar Fellhew reports that violent troggs have overrun the site. They harass the dwarven crew and scatter its discoveries. Until the intruders are driven back, the League cannot study the ancient stones.",
    "spoiler": 1
   }
  ],
@@ -41,7 +41,7 @@
     "who gives quest",
     "jern hornhelm role"
    ],
-   "answer": "Jern Hornhelm in Thelsamar asks you to check on the excavation. Regular deliveries continue, but progress remains slow, so he wants someone there to investigate."
+   "answer": "Jern Hornhelm in Thelsamar asks you to check on the excavation. Deliveries continue, but progress remains slow, and he wants you to learn why."
   },
   {
    "q": "Where is the excavation site located?",
@@ -50,7 +50,7 @@
     "where is ironbands excavation",
     "how to get there"
    ],
-   "answer": "The excavation lies in the foothills east of the loch. From Thelsamar, skirt the southern end of the water and follow the path east into the hills."
+   "answer": "The excavation lies in the foothills east of the loch. From Thelsamar, skirt the southern end of the water, then follow the path east into the hills."
   },
   {
    "q": "Who is Magmar Fellhew?",
@@ -68,7 +68,7 @@
     "delay reason",
     "what happened to the dig"
    ],
-   "answer": "Aggressive troggs have halted the expedition. They surged into the ruins, disrupted the excavation, and forced the League to focus on defending itself."
+   "answer": "Aggressive troggs have halted the expedition. They surged into the ruins, disrupted the excavation, and forced the League to defend itself."
   },
   {
    "q": "What comes next after completing this quest?",
@@ -77,7 +77,7 @@
     "followup",
     "gathering idols quest"
    ],
-   "answer": "Magmar Fellhew directs you to help the team reclaim what was lost. The work continues with Gathering Idols, recovering relics stolen by the troggs."
+   "answer": "Magmar Fellhew directs you to help the team reclaim what was lost. The work continues with Gathering Idols, as you recover relics stolen by the troggs."
   },
   {
    "q": "What is the Explorers' League looking for here?",
@@ -92,11 +92,11 @@
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "As a dwarf, you know each dig in Khaz Modan helps uncover the truth of dwarven ancestry and Titan heritage. Ironforge depends on Ironband's crew remaining safe."
+   "text": "As a dwarf, you know each dig in Khaz Modan helps reveal the truth of dwarven ancestry and Titan heritage. Ironforge depends on Ironband's crew staying safe."
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance member, you help secure Loch Modan by keeping its trade roads and research sites clear of subterranean trogg tribes."
+   "text": "As an Alliance member, you help secure Loch Modan by keeping its trade roads and research sites clear of trogg tribes from below."
   }
  ],
  "keywords": [
@@ -119,5 +119,5 @@
  "attribution": [
   "Ironband's Excavation"
  ],
- "style": 1
+ "style": 2
 }

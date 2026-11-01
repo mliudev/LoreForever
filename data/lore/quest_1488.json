@@ -25,21 +25,21 @@
    "The Corrupter/Chain"
   ]
  },
- "summary": "Takata Steelblade knows nothing of Lord Azrethoc, yet sides with Maurin that the demon lord must be stopped, all the more if Azrethoc is trying to win influence over the Burning Blade. Takata trusts you to gather a party against Azrethoc and his warlock servant, Jugkar Grim'rod.",
+ "summary": "Takata Steelblade sides with Maurin: Lord Azrethoc must be stopped, especially if he seeks influence over the Burning Blade. Takata trusts you to gather a party against the demon lord and his warlock servant, Jugkar Grim'rod.",
  "sections": [
   {
    "title": "A Party to the South",
-   "body": "Takata has never heard of Lord Azrethoc, yet agrees with Maurin that the demon lord must be stopped, above all if Azrethoc is reaching out to sway the Burning Blade. You have already shown you want to aid the Warchief, so Takata trusts you to gather a party and slay Azrethoc and his warlock servant, Jugkar Grim'rod. Takata tells you to head directly south, to Mannoroc Coven, where both are found.",
+   "body": "Takata has never heard of Lord Azrethoc, but agrees with Maurin that the demon lord must be stopped. The danger grows if Azrethoc is trying to sway the Burning Blade. You have already shown that you want to aid the Warchief, so Takata trusts you to gather a party and slay Azrethoc and his warlock servant, Jugkar Grim'rod. Head directly south to Mannoroc Coven, where both are found.",
    "spoiler": 0
   },
   {
    "title": "Takata's Worry",
-   "body": "Takata calls the demons in Desolace a greater threat than ever before. Each newly arrived foul creature makes the prospect of ever returning to the Warchief seem dimmer, and Takata sometimes wishes the centaur were the only enemy.",
+   "body": "Takata calls the demons in Desolace a greater threat than ever. Each newly arrived foul creature dims the prospect of returning to the Warchief. At times, Takata wishes the centaur were the only enemy.",
    "spoiler": 0
   },
   {
    "title": "Takata's Verdict",
-   "body": "Once the threat is ended, Takata calls it a mighty victory for all, and says the outlook here is less bleak than once feared. Takata speaks of the demons being slain, of the Burning Blade failing in their efforts, and of a place to call home that is safe again.",
+   "body": "Once the threat is ended, Takata calls it a mighty victory for all. The outlook here is less bleak than Takata once feared. The demons are slain, the Burning Blade has failed in its efforts, and a place to call home is safe again.",
    "spoiler": 1
   }
  ],
@@ -51,7 +51,7 @@
     "quest giver the corrupter",
     "takata steelblade quest"
    ],
-   "answer": "Takata Steelblade, who sides with Maurin and trusts you to bring a party against the demon lord."
+   "answer": "Takata Steelblade sides with Maurin and trusts you to gather a party against the demon lord."
   },
   {
    "q": "Who must be defeated?",
@@ -60,7 +60,7 @@
     "corrupter targets",
     "azrethoc and jugkar"
    ],
-   "answer": "Lord Azrethoc, a demon lord, and Jugkar Grim'rod, the warlock who serves him."
+   "answer": "Lord Azrethoc, a demon lord, and Jugkar Grim'rod, his warlock servant, must be defeated."
   },
   {
    "q": "Where are the targets located?",
@@ -69,7 +69,7 @@
     "jugkar grimrod location",
     "where to go the corrupter"
    ],
-   "answer": "Takata says to head directly south. Both are near Mannoroc Coven, which lies in southern Desolace."
+   "answer": "Takata says to head directly south to Mannoroc Coven in southern Desolace, where both are found."
   },
   {
    "q": "Why does Lord Azrethoc pose such a danger?",
@@ -78,7 +78,7 @@
     "what is azrethoc doing",
     "burning blade connection"
    ],
-   "answer": "Takata has never heard of Azrethoc, but the demon lord must be stopped, all the more if Azrethoc is reaching out to sway the Burning Blade."
+   "answer": "Takata has never heard of Azrethoc, but agrees that the demon lord must be stopped, especially if he is trying to sway the Burning Blade."
   },
   {
    "q": "What comes before this in the chain?",
@@ -96,7 +96,7 @@
     "why is takata here",
     "takata steelblade role"
    ],
-   "answer": "Takata calls them a greater threat than ever. Each newly arrived foul creature makes the prospect of returning to the Warchief seem dimmer, and Takata wishes the centaur were the only enemy."
+   "answer": "Takata calls the demons a greater threat than ever. Each newly arrived foul creature dims the prospect of returning to the Warchief, and Takata sometimes wishes the centaur were the only enemy."
   }
  ],
  "angles": [],
@@ -120,5 +120,6 @@
  ],
  "attribution": [
   "The Corrupter (5)"
- ]
+ ],
+ "style": 2
 }

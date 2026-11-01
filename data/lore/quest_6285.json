@@ -22,21 +22,21 @@
    "Return to Lewis"
   ]
  },
- "summary": "Dungar Longdrink sends armor from Stormwind to the People's Militia at Sentinel Hill. Osric's Crate crosses Elwynn and Westfall by gryphon, carrying supplies to defenders under pressure.",
+ "summary": "A crate of armor is bound for the People's Militia at Sentinel Hill, and Dungar Longdrink sends it from Stormwind by gryphon. The flight crosses Elwynn and Westfall to reach defenders under pressure.",
  "sections": [
   {
    "title": "A Lifeline by Air",
-   "body": "Westfall is slipping from the kingdom's grasp. Defias bandits, ravenous gnolls, and mechanical harvest reapers threaten the land. Overland supply routes face harassment, and roads are dangerous for solitary wagons. The flight master network offers a crucial lifeline. Osric, an armorer in Stormwind's Old Town, prepared a heavy crate of armor for the battered volunteers of the People's Militia at Sentinel Hill.",
+   "body": "Osric, an armorer in Stormwind's Old Town, has packed a heavy crate of armor for the People's Militia volunteers at Sentinel Hill. Defias bandits, hungry gnolls, and mechanical harvest reapers threaten Westfall. A lone wagon is an easy target on those roads, so the flight master network gives the armor a safer way to the defenders.",
    "spoiler": 0
   },
   {
    "title": "The Ways of Gryphons",
-   "body": "Gryphons are loyal, well-trained beasts, but travel across the lands depends on established familiarity. Dungar Longdrink explains that gryphons instinctively know how to return to their capital roost in Stormwind. To carry a rider to a remote outpost, though, they need the traveler to have met its flight master in person. You have already checked in with Thor at Sentinel Hill, opening the skies over the frontier to rapid travel.",
+   "body": "Gryphons are loyal and well trained, but they need a known destination before they carry a rider there. Dungar Longdrink explains that they instinctively return to their capital roost in Stormwind. For a remote outpost, you first meet its flight master in person. You have already checked in with Thor at Sentinel Hill, opening the skies over the frontier to swift travel.",
    "spoiler": 0
   },
   {
    "title": "Supplies for the Militia",
-   "body": "At Sentinel Hill, Quartermaster Lewis receives the crate. He is the officer tasked with outfitting Gryan Stoutmantle's volunteer force, and he sets to work distributing the armor among the frontier defenders. For Sentinel Hill, reliable aerial contact with the capital can mean the difference between holding the line and being overrun by the Defias Brotherhood.",
+   "body": "At Sentinel Hill, Quartermaster Lewis receives the crate and begins distributing its armor among the frontier defenders. He outfits Gryan Stoutmantle's volunteer force. Each shipment helps the militia hold its ground against the Defias Brotherhood.",
    "spoiler": 0
   }
  ],
@@ -48,7 +48,7 @@
     "what is in the box",
     "what am i delivering"
    ],
-   "answer": "Osric's Crate holds freshly made suits of armor arranged by the Stormwind armorer Osric. The People's Militia at Sentinel Hill urgently needs them; the volunteers lack standard royal provisioning and rely on donations and private shipments for their gear."
+   "answer": "Osric's Crate holds freshly made suits of armor arranged by the Stormwind armorer Osric. The People's Militia at Sentinel Hill urgently needs them. The volunteers lack standard royal supplies and rely on donations and private shipments for their gear."
   },
   {
    "q": "Who is Quartermaster Lewis?",
@@ -57,7 +57,7 @@
     "quartermaster lewis role",
     "who is lewis"
    ],
-   "answer": "Quartermaster Lewis is the People's Militia's supply officer, stationed beside the tower at Sentinel Hill. He manages rations, gear, and arms for the volunteer defenders facing the Defias Brotherhood across Westfall."
+   "answer": "Quartermaster Lewis is the People's Militia's supply officer, stationed beside the tower at Sentinel Hill. He manages rations, gear, and arms for volunteer defenders facing the Defias Brotherhood across Westfall."
   },
   {
    "q": "Who is Dungar Longdrink?",
@@ -66,7 +66,7 @@
     "stormwind gryphon master",
     "flight master stormwind"
    ],
-   "answer": "Dungar Longdrink is Stormwind's veteran human gryphon master, at the roost in the capital's Trade District. He oversees the kingdom's aerial courier and passenger routes."
+   "answer": "Dungar Longdrink is Stormwind's veteran human gryphon master, at the roost in the capital's Trade District. He oversees the kingdom's aerial routes for couriers and passengers."
   },
   {
    "q": "Why do gryphons only fly to places you've already visited?",
@@ -93,21 +93,21 @@
     "why not overland delivery",
     "roads in westfall"
    ],
-   "answer": "Defias bandits, riverpaw gnolls, and thieves heavily harass the roads between Elwynn Forest and Westfall. Overland supply trains risk ambush and confiscation, while the aerial gryphon route is faster and safer."
+   "answer": "Defias bandits, Riverpaw gnolls, and thieves harass the roads between Elwynn Forest and Westfall. Overland supply trains risk ambush and confiscation, while the gryphon route is faster and safer."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Gryphon routes between Stormwind and outlying settlements like Sentinel Hill help bind together a kingdom that is increasingly fractured."
+   "text": "Gryphon routes between Stormwind and outlying settlements like Sentinel Hill help bind together a kingdom growing increasingly divided."
   },
   {
    "target": "race:Dwarf",
-   "text": "As a dwarf, you know gryphons as your people's ancestral mounts. The kingdom's aerial transit flies them from Dungar Longdrink's capital roost to Thor out in Westfall."
+   "text": "As a dwarf, you know gryphons as your people's ancestral mounts. The kingdom's aerial routes carry them from Dungar Longdrink's capital roost to Thor in Westfall."
   },
   {
    "target": "class:Warrior",
-   "text": "As a warrior, you know every crate of breastplates and greaves flown to Sentinel Hill gives another militia fighter a chance to withstand the blows of Defias brigands."
+   "text": "As a warrior, you know each crate of breastplates and greaves flown to Sentinel Hill gives another militia fighter a chance to withstand blows from Defias brigands."
   }
  ],
  "keywords": [
@@ -135,5 +135,5 @@
  "attribution": [
   "Return to Lewis"
  ],
- "style": 1
+ "style": 2
 }

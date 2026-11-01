@@ -17,16 +17,16 @@
   "wiki": "Iverron's Antidote (Classic)",
   "chain": []
  },
- "summary": "Iverron's Antidote is an urgent task in Shadowglen to save a poisoned night elf scout. By gathering wild mushrooms, lilies, and spider ichor, adventurers help Dirania Silvershine brew a remedy before the venom takes full hold.",
+ "summary": "In Shadowglen, Iverron's Antidote must be brewed before a scout's poison takes hold. Dirania Silvershine needs wild mushrooms, lilies, and spider ichor to make the remedy.",
  "sections": [
   {
    "title": "A Race Against Venom",
-   "body": "While scouting the boughs of Shadowglen, young Iverron fell victim to the poisonous fangs of the local Webwood spiders. Collapsed and dying, his survival depends entirely on the herbal knowledge of Dirania Silvershine at Aldrassil. With the youth fading fast, she must quickly prepare a specialized concoction to neutralize the aggressive venom coursing through his blood.",
+   "body": "Young Iverron was scouting the boughs of Shadowglen when Webwood spiders struck him with their poisonous fangs. Now collapsed and dying, he depends on Dirania Silvershine's herbal knowledge at Aldrassil. His venom spreads fast, so she must prepare a remedy before it takes hold.",
    "spoiler": 0
   },
   {
    "title": "Reagents of Shadowglen",
-   "body": "Dirania's recipe relies on the restorative flora of Teldrassil balanced against the venom itself. Hyacinth mushrooms, favored by the thieving grell to the south, provide an earthy base, while delicate Moonpetal lilies gathered from tranquil forest pools offer purifying qualities. To finish the draft, a sample of Webwood ichor must be extracted directly from the spiders prowling near Shadowthread Cave to tailor the cure to their specific poison.",
+   "body": "Dirania balances Teldrassil's restorative plants against the spiders' venom. Hyacinth mushrooms, which thieving grell favor in the south, make an earthy base. Moonpetal lilies from tranquil forest pools bring purifying qualities. She also needs Webwood ichor from spiders near Shadowthread Cave, to tailor the cure to their poison.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who is iverron",
     "who poisoned"
    ],
-   "answer": "Iverron is a young night elf in Shadowglen who ventured too close to the hostile Webwood spiders and was struck down by their lethal venom."
+   "answer": "Iverron is a young night elf scout in Shadowglen. He ventured too close to the hostile Webwood spiders, and their venom struck him down."
   },
   {
    "q": "Who gives the quest Iverron's Antidote?",
@@ -47,7 +47,7 @@
     "dirania",
     "dirania silvershine"
    ],
-   "answer": "Dirania Silvershine, an attendant stationed outside the great boughs of Aldrassil in Shadowglen, provides the quest and concocts the remedy."
+   "answer": "Dirania Silvershine gives the task and brews the remedy. She is stationed outside the great boughs of Aldrassil in Shadowglen."
   },
   {
    "q": "Why does the antidote need spider ichor?",
@@ -56,7 +56,7 @@
     "webwood ichor use",
     "spider venom cure"
    ],
-   "answer": "In traditional herbal remedies, introducing a component of the creature's own bodily fluids or venom helps counteract the specific toxins inflicting the victim."
+   "answer": "Traditional herbal remedies use some of a creature's own bodily fluids or venom to counter the toxins in its victim. So Webwood ichor lets Dirania tailor the cure to the spiders' poison."
   },
   {
    "q": "Where are Hyacinth Mushrooms found?",
@@ -64,7 +64,7 @@
     "where to find hyacinth mushrooms",
     "hyacinth mushroom location"
    ],
-   "answer": "Hyacinth mushrooms grow at the bases of large trees throughout Shadowglen and can also be pried from the clutches of grell who hoard them to the south."
+   "answer": "Hyacinth mushrooms grow at the bases of large trees throughout Shadowglen. They can also be pried from the clutches of the grell who hoard them to the south."
   },
   {
    "q": "Where do Moonpetal Lilies grow?",
@@ -72,7 +72,7 @@
     "moonpetal lily location",
     "where are lilies"
    ],
-   "answer": "Moonpetal lilies bloom along the edges of the quiet, fresh-water pools tucked away on the northwestern side of Aldrassil."
+   "answer": "Moonpetal lilies bloom along the edges of quiet freshwater pools on Aldrassil's northwestern side."
   },
   {
    "q": "Where are the Webwood spiders located?",
@@ -80,21 +80,21 @@
     "webwood spider location",
     "spider location shadowglen"
    ],
-   "answer": "Webwood spiders dwell in the northern woods of Shadowglen, especially around the dark entrance of Shadowthread Cave."
+   "answer": "Webwood spiders dwell in Shadowglen's northern woods, especially near the dark entrance to Shadowthread Cave."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "Tending to fallen kin is sacred duty in Shadowglen, where every defender is needed to protect the newly budding World Tree."
+   "text": "As a night elf, tending to fallen kin is a sacred duty in Shadowglen. Every defender is needed to protect the newly budding World Tree."
   },
   {
    "target": "class:Druid",
-   "text": "Crafting remedies from local flora and neutralizing natural poisons reflects the fundamental balance druids strive to maintain within the wild."
+   "text": "As a druid, making remedies from local plants and countering natural poisons reflects the balance you strive to keep in the wild."
   },
   {
    "target": "profession:Herbalism",
-   "text": "Gathering Moonpetal lilies and Hyacinth mushrooms showcases how wild plants of Teldrassil possess potent medicinal properties when handled with care."
+   "text": "As an herbalist, you can see how Teldrassil's wild plants hold medicinal power when handled with care. Moonpetal lilies and Hyacinth mushrooms are examples."
   }
  ],
  "keywords": [
@@ -119,5 +119,6 @@
  ],
  "attribution": [
   "Iverron's Antidote (Classic)"
- ]
+ ],
+ "style": 2
 }

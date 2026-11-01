@@ -8,16 +8,16 @@
   "wiki": "Jern Hornhelm",
   "refs": 5
  },
- "summary": "In Thelsamar, Jern Hornhelm keeps the Explorers' League's work moving. The dwarven miner coordinates supplies and messages between the town, Ironforge, and the dig site deeper in Loch Modan. Travelers carry mining supplies and progress reports across the region for him.",
+ "summary": "In Thelsamar, Jern Hornhelm keeps the Explorers' League supplied and its messages moving. He coordinates deliveries between the town, Ironforge, and Loch Modan's deeper dig site, while travelers carry supplies and progress reports across the region.",
  "sections": [
   {
    "title": "Logistics in Thelsamar",
-   "body": "Jern Hornhelm works from Thelsamar to keep supplies moving to Loch Modan's dig sites. Dwarven scholars and field teams search the wilderness for their ancestral past, and they need steady deliveries of resources and tools. Jern also makes sure communications reach the active digs.",
+   "body": "From Thelsamar, Jern Hornhelm sends supplies to Loch Modan's dig sites. Dwarven scholars and field teams search the wilderness for their ancestral past, and their work depends on steady deliveries of resources and tools. Jern also makes sure messages reach the active digs.",
    "spoiler": 0
   },
   {
    "title": "Serving the Explorers' League",
-   "body": "Jern Hornhelm links field archaeologists with the Explorers' League leadership in Ironforge's Hall of Explorers. Ironband's Excavation depends on blasting powder, equipment, and regular dispatches to keep work moving. Jern asks trusted travelers to carry supplies and reports along the trogg-infested roads so the dig can continue.",
+   "body": "Jern Hornhelm connects field archaeologists with the Explorers' League leadership in Ironforge's Hall of Explorers. Ironband's Excavation needs blasting powder, equipment, and regular dispatches to keep its work moving. Jern asks trusted travelers to carry supplies and reports along trogg-infested roads, so the dig can continue.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "jern hornhelm identity",
     "thelsamar dwarf jern"
    ],
-   "answer": "Jern Hornhelm is a dwarven miner in Thelsamar who coordinates logistics for the Explorers' League. He helps keep local excavation work supplied and moving."
+   "answer": "Jern Hornhelm is a dwarven miner in Thelsamar who coordinates logistics for the Explorers' League. He keeps local excavation work supplied and moving."
   },
   {
    "q": "Where can I find Jern Hornhelm?",
@@ -64,7 +64,7 @@
     "jern hornhelm ironforge",
     "report to ironforge jern"
    ],
-   "answer": "Jern Hornhelm links the remote digs in Loch Modan with Explorers' League leadership in Ironforge's Hall of Explorers. He frequently sends field progress reports back to Ironforge."
+   "answer": "Jern Hornhelm connects Loch Modan's remote digs with Explorers' League leadership in Ironforge's Hall of Explorers. He frequently sends field progress reports back to Ironforge."
   },
   {
    "q": "What problems are the dig sites facing in Loch Modan?",
@@ -113,5 +113,5 @@
  "attribution": [
   "Jern Hornhelm"
  ],
- "style": 1
+ "style": 2
 }

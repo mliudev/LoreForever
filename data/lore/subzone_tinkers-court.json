@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Tinkers' Court"
  },
- "summary": "In Gnomeregan's heart, Tinkers' Court once gathered the city's leaders. Now Mekgineer Thermaplugg holds it.",
+ "summary": "In Gnomeregan's heart, Tinkers' Court once brought the city's leaders together. Now Mekgineer Thermaplugg holds the chamber.",
  "sections": [
   {
    "title": "Seat of the Gnomish Council",
-   "body": "Before disaster drove the gnomes from Gnomeregan, its leaders met in Tinkers' Court. High Tinker Gelbin Mekkatorque gathered there with advisors and master inventors, including Tinkmaster Overspark. They debated new technology, governed civic matters, and guided gnomish society. The chamber stood beyond the Engineering Labs and the Launch Bay, at the center of gnomish government and invention.",
+   "body": "Before disaster drove the gnomes from Gnomeregan, their leaders gathered in Tinkers' Court. High Tinker Gelbin Mekkatorque met there with advisors and master inventors, among them Tinkmaster Overspark. They debated new technology, governed civic matters, and guided gnomish society. Beyond the Engineering Labs and the Launch Bay, the chamber stood at the heart of gnomish government and invention.",
    "spoiler": 0
   },
   {
    "title": "Thermaplugg's Throneroom",
-   "body": "Mekgineer Thermaplugg claimed Tinkers' Court after radiation drove the gnomes into exile. He calls himself King of Gnomeregan and sits among twisted contraptions, loyal leper gnomes, and bomb dispensers. From the chamber, he directs his remaining forces, and anyone seeking to end his rule must face this final, dangerous threshold.",
+   "body": "After radiation drove the gnomes into exile, Mekgineer Thermaplugg claimed Tinkers' Court. He calls himself King of Gnomeregan and sits among twisted contraptions, loyal leper gnomes, and bomb dispensers. From the chamber, he directs his remaining forces. Anyone seeking to end his rule must face this final and dangerous threshold.",
    "spoiler": 1
   }
  ],
@@ -61,11 +61,11 @@
  "angles": [
   {
    "target": "race:Gnome",
-   "text": "For a gnome, Tinkers' Court recalls betrayal. Gnomish leaders once gathered here, before Mekgineer Thermaplugg seized the chamber amid irradiated ruin."
+   "text": "As a gnome, Tinkers' Court recalls betrayal. Gnomish leaders once gathered here, before Mekgineer Thermaplugg seized the chamber amid irradiated ruin."
   },
   {
    "target": "profession:Engineering",
-   "text": "For an engineer, Tinkers' Court shows engineering turned deadly, with bomb delivery systems and the siege suit Thermaplugg operates."
+   "text": "As an engineer, Tinkers' Court shows engineering turned deadly, with bomb delivery systems and the siege suit Thermaplugg operates."
   }
  ],
  "keywords": [
@@ -87,5 +87,5 @@
  "attribution": [
   "Tinkers' Court"
  ],
- "style": 1
+ "style": 2
 }

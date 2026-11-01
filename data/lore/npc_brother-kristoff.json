@@ -8,11 +8,11 @@
   "wiki": "Brother Kristoff",
   "refs": 2
  },
- "summary": "In Stormwind's Cathedral Square, Brother Kristoff preaches beneath Uther's statue. A human priest of the Church of the Holy Light, he stands outdoors near the great statue of Uther the Lightbringer and seeks practical books for sermons on spiritual strength.",
+ "summary": "In Cathedral Square, Brother Kristoff preaches beneath Uther's statue. The human priest seeks practical books for sermons on spiritual strength.",
  "sections": [
   {
    "title": "A Preacher by the Statue",
-   "body": "Brother Kristoff serves the Church of the Holy Light in Cathedral Square, beneath the statue of Uther the Lightbringer. He works among the citizens and pilgrims who pass through the plaza, rather than remaining within the Cathedral of Light. For sermons such as the Fortitude of the Spirit, he turns to worldly comparisons. In The Stresses of Iron, he finds a way to explain how the mortal soul endures pressure, comparing the Holy Light's gift of inner resolve to the tempered strength of worked metal.",
+   "body": "Brother Kristoff serves the Church of the Holy Light in Cathedral Square, beneath the statue of Uther the Lightbringer. He works among the citizens and pilgrims who pass through the plaza, rather than within the Cathedral of Light.\n\nFor sermons such as the Fortitude of the Spirit, he turns to worldly comparisons. In The Stresses of Iron, he finds a way to explain how the soul endures pressure. The Holy Light's gift of inner resolve, he teaches, is like the tempered strength of worked metal.",
    "spoiler": 0
   }
  ],
@@ -33,7 +33,7 @@
     "kristoff role",
     "why is brother kristoff standing outside"
    ],
-   "answer": "Brother Kristoff prepares sermons on the Light and faith. He is working on a sermon about the Fortitude of the Spirit and seeks references in books about metallurgy to explain spiritual resilience."
+   "answer": "Brother Kristoff prepares sermons on the Light and faith. He is working on a sermon about the Fortitude of the Spirit and seeks books on metallurgy to explain spiritual resilience."
   },
   {
    "q": "Why does Brother Kristoff need a book about iron?",
@@ -42,7 +42,7 @@
     "speaking of fortitude book",
     "why does kristoff want metallurgy"
    ],
-   "answer": "Brother Kristoff seeks The Stresses of Iron for his sermon on fortitude. He uses iron under stress as an earthly comparison for how devotion to the Holy Light strengthens the mortal spirit against adversity."
+   "answer": "Brother Kristoff seeks The Stresses of Iron for his sermon on fortitude. He uses iron under stress to show how devotion to the Holy Light strengthens the mortal spirit against adversity."
   }
  ],
  "angles": [
@@ -76,5 +76,5 @@
  "attribution": [
   "Brother Kristoff"
  ],
- "style": 1
+ "style": 2
 }

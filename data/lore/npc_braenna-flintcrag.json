@@ -8,11 +8,11 @@
   "wiki": "Braenna Flintcrag",
   "refs": 1
  },
- "summary": "In Ironforge's Mystic Ward, Braenna Flintcrag guides dwarves in the ways of the Holy Light. She trains priests in healing and spiritual discipline, and tells visiting night elf priests when they are called home to the Temple of the Moon in Darnassus.",
+ "summary": "In Ironforge's Mystic Ward, Braenna Flintcrag teaches the ways of the Holy Light. She trains priests in healing and spiritual discipline, and tells visiting night elf priests when they are called home to the Temple of the Moon in Darnassus.",
  "sections": [
   {
    "title": "A Guide in the Hall of Mysteries",
-   "body": "Braenna Flintcrag trains priests in Ironforge's Hall of Mysteries. From the Mystic Ward, she teaches dwarven acolytes the Holy Light's healing arts and defensive wards, preparing them for a dangerous world. Her work tends the spiritual needs of Khaz Modan, amid a city renowned for its forges and warriors.",
+   "body": "Braenna Flintcrag trains priests in the Hall of Mysteries. There, in Ironforge's Mystic Ward, she teaches dwarven acolytes to heal and raise defensive wards with the Holy Light. Her lessons prepare them for a dangerous world. Through this work, she tends the spiritual needs of Khaz Modan, in a city renowned for its forges and warriors.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "who is braenna",
     "priest trainer braenna"
    ],
-   "answer": "Braenna Flintcrag trains priests in the Hall of Mysteries in Ironforge's Mystic Ward. She teaches holy prayers, spells, and spiritual disciplines."
+   "answer": "Braenna Flintcrag trains priests in Ironforge's Hall of Mysteries. She teaches holy prayers, spells, and spiritual discipline."
   },
   {
    "q": "Where can I find Braenna Flintcrag?",
@@ -33,7 +33,7 @@
     "braenna flintcrag location",
     "find braenna flintcrag"
    ],
-   "answer": "You can find Braenna Flintcrag in the Hall of Mysteries, within Ironforge's Mystic Ward."
+   "answer": "Braenna Flintcrag is in the Hall of Mysteries, within Ironforge's Mystic Ward."
   },
   {
    "q": "What services does she provide to travelers?",
@@ -51,7 +51,7 @@
     "thulman flintcrag relative",
     "braenna flintcrag relatives"
    ],
-   "answer": "Braenna Flintcrag shares her surname with Thulman Flintcrag, suggesting a connection to a notable dwarven lineage in Khaz Modan."
+   "answer": "Braenna Flintcrag shares her surname with Thulman Flintcrag. The name suggests a connection to a notable dwarven lineage in Khaz Modan."
   }
  ],
  "angles": [
@@ -83,5 +83,5 @@
  "attribution": [
   "Braenna Flintcrag"
  ],
- "style": 1
+ "style": 2
 }

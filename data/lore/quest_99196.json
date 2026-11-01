@@ -11,11 +11,11 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "The Windshapers are accepting wool cloth donations. Sixty pieces earn their full recognition for your generosity.",
+ "summary": "The Windshapers are taking wool cloth donations, and sixty pieces will earn their full recognition.",
  "sections": [
   {
    "title": "A Gift of Wool",
-   "body": "The Windshapers accept donations of wool cloth. Their representative can take sixty pieces from you when you are ready to give them.",
+   "body": "The Windshapers accept wool cloth from you. When you are ready to give, their representative can take sixty pieces.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "windshapers donation",
     "what wool do they take"
    ],
-   "answer": "The Windshapers are accepting donations of wool cloth."
+   "answer": "The Windshapers are accepting wool cloth donations."
   },
   {
    "q": "How much wool cloth should I give?",
@@ -34,7 +34,7 @@
     "how much wool",
     "sixty wool"
    ],
-   "answer": "A donation of sixty pieces of wool cloth earns full recognition from the Windshapers."
+   "answer": "Give the Windshapers sixty pieces of wool cloth for full recognition."
   },
   {
    "q": "What do I get for donating the wool?",
@@ -42,7 +42,7 @@
     "wool donation result",
     "windshapers recognition"
    ],
-   "answer": "Donating sixty pieces of wool cloth earns full recognition from the Windshapers for your generosity."
+   "answer": "Sixty pieces of wool cloth earn the Windshapers’ full recognition for your generosity."
   },
   {
    "q": "Can their representative take the wool now?",
@@ -50,7 +50,7 @@
     "give wool now",
     "donate cloth"
    ],
-   "answer": "The representative can take the sixty pieces if you have them with you and are ready to donate."
+   "answer": "Their representative can take the sixty pieces when you have them with you and are ready to donate."
   }
  ],
  "angles": [],
@@ -63,7 +63,7 @@
   "wool cloth"
  ],
  "related": [],
- "style": 1,
+ "style": 2,
  "attribution": [
   "In-game quest text: A Donation of Wool"
  ]

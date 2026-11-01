@@ -10,11 +10,11 @@
    "quest:60"
   ]
  },
- "summary": "In Elwynn's mines, kobolds carry Large Candles on their heads for light and wax. Their flames guide them through dark tunnels, and apothecaries value the wax.",
+ "summary": "In Elwynn's mines, kobolds carry Large Candles for light and wax. Apothecaries value the wax for their work.",
  "sections": [
   {
    "title": "Subterranean Light and Wax",
-   "body": "Kobolds use candle flame to find their way through the dark shafts beneath Elwynn Forest. They fasten the tapers to their heads, and Kobold Miners, Tunnelers, and Geomancers defend them fiercely from intruders. Though crudely made, the Large Candles carried in Fargodeep Mine and Jasperlode Mine hold valuable wax. Surface tradesmen cannot easily produce it in bulk, so the candles are both tools for the kobolds and a commodity for alchemists.",
+   "body": "Kobolds follow candlelight through the dark shafts beneath Elwynn Forest. They fasten the tapers to their heads, and Kobold Miners, Tunnelers, and Geomancers defend them fiercely from intruders. Large Candles from Fargodeep Mine and Jasperlode Mine hold valuable wax, though they are crudely made. Surface tradesmen cannot produce much wax at once, so the candles serve both as tools for kobolds and as a commodity for alchemists.",
    "spoiler": 0
   },
   {
@@ -31,7 +31,7 @@
     "why get large candles",
     "who wants large candles"
    ],
-   "answer": "William Pestle collects Large Candles in Goldshire for the apothecary he runs with his brother in Stormwind City. They render the candles down for wax used in ointments, balms, and alchemical recipes."
+   "answer": "William Pestle gathers Large Candles in Goldshire for the apothecary he runs with his brother in Stormwind City. They render the candles down for wax used in ointments, balms, and alchemical recipes."
   },
   {
    "q": "Where can Large Candles be found?",
@@ -62,11 +62,11 @@
  "angles": [
   {
    "target": "profession:Mining",
-   "text": "Miners working the veins in Fargodeep and Jasperlode regularly run afoul of kobold infestations that covet both the gold and the light of Large Candles."
+   "text": "Miners working the veins in Fargodeep and Jasperlode often run afoul of kobold infestations. The kobolds covet both the gold and the light of Large Candles."
   },
   {
    "target": "faction:Alliance",
-   "text": "By taking candles from kobolds in Elwynn, Alliance adventurers weaken the vermin in the mines and supply critical materials to Stormwind's apothecary trade."
+   "text": "By taking candles from kobolds in Elwynn, Alliance adventurers weaken the vermin in the mines and supply important materials to Stormwind's apothecary trade."
   }
  ],
  "keywords": [
@@ -93,5 +93,5 @@
   "Large Candle",
   "Kobold Candles"
  ],
- "style": 1
+ "style": 2
 }

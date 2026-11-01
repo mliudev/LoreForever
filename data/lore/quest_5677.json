@@ -17,16 +17,16 @@
   "wiki": "Arcane Feedback (Ironforge)",
   "chain": []
  },
- "summary": "In Ironforge, High Priest Rohan directs human acolytes visiting Khaz Modan to seek their own teachings in Stormwind. The journey brings them to the Cathedral of Light, where human priests learn the traditions of their people.",
+ "summary": "In Ironforge, human acolytes seeking deeper teaching are sent back to Stormwind. There, the Cathedral of Light holds the traditions of their people.",
  "sections": [
   {
    "title": "A Gentle Redirection",
-   "body": "High Priest Rohan welcomes a human priest seeking deeper spiritual teaching in Ironforge’s Mystic Ward. Dwarven and human priests both serve the Holy Light, yet each people has its own rites, disciplines, and prayers of defense. Rohan keeps Ironforge’s teachings for his own clergy and sends human priests back to Elwynn, where they can learn the traditions of humankind.",
+   "body": "High Priest Rohan welcomes a human priest who seeks deeper spiritual teaching in Ironforge’s Mystic Ward. Dwarven and human priests both serve the Holy Light, yet each people keeps its own rites, disciplines, and prayers of defense. Rohan reserves Ironforge’s teachings for his own clergy. So he sends human priests back to Elwynn to learn the traditions of humankind.",
    "spoiler": 0
   },
   {
    "title": "Return to the Cathedral",
-   "body": "After reaching Stormwind City, the acolyte finds High Priestess Laurena in the Cathedral of Light. Laurena is relieved to see Rohan’s guidance reach the traveler, and welcomes them as their powers begin to grow. At the Cathedral, human priests can continue learning the spiritual practices of Stormwind and prepare to wield the Holy Light against the threats around the kingdom.",
+   "body": "After reaching Stormwind City, the acolyte finds High Priestess Laurena in the Cathedral of Light. Laurena is relieved that Rohan’s guidance has brought the traveler to her, and welcomes them as their powers begin to grow. In the Cathedral, human priests can keep learning Stormwind’s spiritual practices. There they prepare to wield the Holy Light against the threats around the kingdom.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "why rohan won't train",
     "dwarf priest won't train me"
    ],
-   "answer": "High Priest Rohan respects human practitioners, but dwarven clergy keep rites and blessings handed down through their own cultural lineage. He sends human priests to learn the teachings their mentors preserve in Stormwind."
+   "answer": "High Priest Rohan respects human practitioners, but dwarven clergy keep rites and blessings passed down through their own people. He sends human priests to Stormwind, where their mentors preserve those teachings."
   },
   {
    "q": "Who is High Priestess Laurena?",
@@ -47,7 +47,7 @@
     "who is laurena",
     "cathedral priest trainer"
    ],
-   "answer": "High Priestess Laurena leads and trains priests in the Cathedral of Light in Stormwind City. She guides promising human priests through their intermediate studies and rites."
+   "answer": "High Priestess Laurena leads and trains priests in Stormwind City’s Cathedral of Light. She guides promising human priests through their intermediate studies and rites."
   },
   {
    "q": "Where can High Priest Rohan be found?",
@@ -65,21 +65,21 @@
     "why do this quest",
     "what does this quest do"
    ],
-   "answer": "This is a guiding step for intermediate human priests, directing them from dwarven lands to the Cathedral of Light, their main place of racial training. There they can pursue spiritual teachings shaped for their people."
+   "answer": "Intermediate human priests are sent from dwarven lands to the Cathedral of Light, their main place of racial training. There they can pursue spiritual teachings shaped for their people."
   }
  ],
  "angles": [
   {
    "target": "class:Priest",
-   "text": "As a priest, you learn that different peoples follow the Holy Light through their own traditions."
+   "text": "As a priest, you learn that each people follows the Holy Light through its own traditions."
   },
   {
    "target": "race:Human",
-   "text": "As a human priest, you are sent from dwarven sanctuaries back to Stormwind to learn the sacred ways taught at the Cathedral of Light."
+   "text": "As a human priest, you are sent from dwarven sanctuaries to Stormwind. At the Cathedral of Light, you learn the sacred ways taught to your people."
   },
   {
    "target": "race:Dwarf",
-   "text": "As a dwarf, you can honor your alliance with humans while keeping Khaz Modan’s specific rites among your own people."
+   "text": "As a dwarf, you honor your alliance with humans while keeping Khaz Modan’s specific rites among your own people."
   }
  ],
  "keywords": [
@@ -102,5 +102,5 @@
  "attribution": [
   "Arcane Feedback (Ironforge)"
  ],
- "style": 1
+ "style": 2
 }

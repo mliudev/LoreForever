@@ -14,11 +14,11 @@
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "The investigation touches directly upon night elven vigilance against ancient corruption, prompting immediate involvement from Darnassus."
+   "text": "As a night elf, you see Darnassus respond at once to a discovery marked by ancient corruption."
   },
   {
    "target": "faction:Alliance",
-   "text": "Alliance adventurers bringing troubled discoveries to night elf authorities help ensure dangerous relics are examined and contained by Darnassian scholars."
+   "text": "As an Alliance adventurer, you can bring troubling discoveries to night elf authorities so Darnassian scholars can examine and contain dangerous relics."
   }
  ],
  "faq": [
@@ -28,7 +28,7 @@
     "thundris quest",
     "who turns in its all fun and games until"
    ],
-   "answer": "The quest is brought to and concluded with Thundris, who listens to the troubled adventurer and examines the item or evidence presented before preparing it for transport.",
+   "answer": "Thundris hears the adventurer's troubling report and examines the item or evidence presented. He prepares it for transport.",
    "q": "Who is involved in completing this quest?"
   },
   {
@@ -37,7 +37,7 @@
     "darnassus study",
     "ancient evil darnassus"
    ],
-   "answer": "Thundris identifies the artifact or finding as bearing the mark of an ancient evil. Thundris says he will see it brought to Darnassus at once for further study, and he does not say more than that.",
+   "answer": "Thundris sees the mark of an ancient evil and says the finding will be taken to Darnassus at once for study.",
    "q": "Why is the object being sent to Darnassus?"
   },
   {
@@ -45,7 +45,7 @@
     "what is the ancient evil",
     "mark of ancient evil meaning"
    ],
-   "answer": "Thundris identifies the finding as bearing the mark of an ancient evil, though specific details regarding its exact origins remain guarded pending closer study in the night elven capital.",
+   "answer": "Thundris names the mark of an ancient evil, but gives no details about its origins before closer study in the night elven capital.",
    "q": "What is the ancient evil referenced by Thundris?"
   },
   {
@@ -54,7 +54,7 @@
     "andethoras ethil night elf phrase",
     "darnassian farewell thundris"
    ],
-   "answer": "'Ande'thoras-ethil' is a Darnassian phrase that Thundris speaks as he finishes talking with you, after saying the find will be taken to Darnassus.",
+   "answer": "“Ande'thoras-ethil” is a Darnassian phrase Thundris speaks as he finishes talking with you, after saying the find will be taken to Darnassus.",
    "q": "What does 'Ande'thoras-ethil' mean?"
   },
   {
@@ -63,7 +63,7 @@
     "next quest after fun and games",
     "to darnassus followup"
    ],
-   "answer": "Following the revelation of the ancient corruption, Thundris prepares the disturbing relic for immediate transport to Darnassus so scholars in the capital can examine it.",
+   "answer": "After recognizing the mark of ancient corruption, Thundris prepares the relic for immediate transport to Darnassus, where scholars can examine it.",
    "q": "What happens after completing the quest?"
   },
   {
@@ -71,7 +71,7 @@
     "is its all fun and games alliance only",
     "who can do its all fun and games until"
    ],
-   "answer": "The matter is handled through Darnassian leadership and night elf figures like Thundris, centering on threats brought before the authorities of the night elves.",
+   "answer": "Darnassian leadership and night elf figures like Thundris handle the matter, bringing threats before the night elven authorities.",
    "q": "Which faction handles this investigation?"
   }
  ],
@@ -88,18 +88,19 @@
  ],
  "sections": [
   {
-   "body": "A troubling discovery leads an adventurer to Thundris, seeking counsel on an unsettling matter. Upon hearing the adventurer's report and inspecting what was brought forth, Thundris falls into a quiet contemplation, recognizing dark signs that cannot be casually dismissed.",
+   "body": "You bring a troubling discovery to Thundris and seek his counsel. He listens to your report and examines what you have brought. Then he falls quiet, for the signs before him are too dark to dismiss.",
    "spoiler": 0,
    "title": "A Troubling Report"
   },
   {
-   "body": "Examining the matter closely, Thundris discerns the unmistakable mark of an ancient evil clinging to the discovery. Realizing the danger goes far beyond a local mishap, Thundris resolves to dispatch the relic immediately to Darnassus, entrusting it to the capital's scholars and priests for rigorous study and containment.",
+   "body": "Thundris sees the mark of an ancient evil on the discovery. He knows the danger reaches beyond a local mishap, so he sends the relic at once to Darnassus. The capital's scholars and priests will study it and keep it contained.",
    "spoiler": 1,
    "title": "The Mark of Ancient Evil"
   }
  ],
- "summary": "It's All Fun and Games Until... is a quest concerning a deeply troubling discovery brought before Thundris. Recognizing the unmistakable mark of an ancient evil, Thundris arranges for the relic to be sent immediately to Darnassus for further study.",
+ "summary": "Thundris hears a troubled report and examines the discovery brought before him. Its mark sends the relic to Darnassus for study.",
  "attribution": [
   "In-game quest text: It's All Fun and Games Until..."
- ]
+ ],
+ "style": 2
 }

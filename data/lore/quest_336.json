@@ -21,16 +21,16 @@
    "You Have Served Us Well"
   ]
  },
- "summary": "In Stormwind, a courier carries Black Claw Stout to Lord Baurles K. Wishock in the Royal Keep. Zardeth of the Black Claw has arranged the delivery from the cellar beneath the Slaughtered Lamb.",
+ "summary": "Zardeth of the Black Claw sends you to the Royal Keep with Black Claw Stout for Lord Baurles K. Wishock. The brew must reach him in the Hall of Petitioners.",
  "sections": [
   {
    "title": "A Noble Hypocrite",
-   "body": "Lord Baurles K. Wishock spends time in the Hall of Petitioners in Stormwind Keep, speaking of his own importance and the kingdom’s future. Patrons of the Slaughtered Lamb know another side of him. At night, he drinks in the tavern’s upper rooms and leaves large bills unpaid. By day, he petitions to have the tavern shut down.",
+   "body": "In Stormwind Keep, Lord Baurles K. Wishock speaks of his importance and the kingdom’s future. Yet patrons of the Slaughtered Lamb know he drinks in the tavern’s upper rooms at night and leaves large bills unpaid. By day, he petitions to have the tavern shut down.",
    "spoiler": 0
   },
   {
    "title": "A Lethal Toast",
-   "body": "Zardeth of the Black Claw brews Black Claw Stout beneath the Slaughtered Lamb to settle Wishock’s debt for good. He says the drink carries quite a kick. In the Hall of Petitioners, Wishock mistakes the courier for a servant and tosses over a copper coin. He drinks the stout greedily, then collapses dead in the halls of the keep.",
+   "body": "Beneath the Slaughtered Lamb, Zardeth of the Black Claw brews Black Claw Stout to settle Wishock’s debt for good. Zardeth says the drink carries quite a kick. Wishock mistakes you for a servant and tosses you a copper coin. He drinks greedily, then collapses dead in the halls of the keep.",
    "spoiler": 1
   }
  ],
@@ -51,7 +51,7 @@
     "wishock motivation",
     "why poisoned"
    ],
-   "answer": "Wishock drinks in the upper floors of the Slaughtered Lamb at night without paying his bills, then spends his days in the Hall of Petitioners asking the authorities to close the tavern."
+   "answer": "Wishock drinks in the upper floors of the Slaughtered Lamb at night without paying his bills. By day, he goes to the Hall of Petitioners and asks the authorities to close the tavern."
   },
   {
    "q": "Where is Lord Wishock found?",
@@ -69,7 +69,7 @@
     "wishock death",
     "what does the stout do"
    ],
-   "answer": "Wishock mistakes the courier for a servant, takes the stout as a refreshing drink, and dismisses them with a copper coin."
+   "answer": "Wishock mistakes you for a servant, takes the stout as a refreshing drink and dismisses you with a copper coin."
   },
   {
    "q": "Does delivering the stout attract the guards' attention?",
@@ -78,7 +78,7 @@
     "am i wanted in stormwind",
     "consequences of poisoning"
    ],
-   "answer": "The delivery appears to be an ordinary servant bringing a drink, and the courier can go on without a confrontation with the guards."
+   "answer": "The delivery appears to be an ordinary servant bringing a drink, and you can go on without a confrontation with the guards."
   },
   {
    "q": "What quest follows this delivery?",
@@ -109,5 +109,5 @@
  "attribution": [
   "A Noble Brew (2)"
  ],
- "style": 1
+ "style": 2
 }

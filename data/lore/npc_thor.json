@@ -8,11 +8,11 @@
   "wiki": "Thor",
   "refs": 2
  },
- "summary": "At Sentinel Hill, Thor keeps Westfall linked to Stormwind by gryphon flight. His trained mounts carry travelers and urgent messages above the dangerous roads.",
+ "summary": "At Sentinel Hill, Thor keeps Westfall linked to Stormwind by gryphon flight. His trained mounts carry travelers and urgent messages over dangerous roads.",
  "sections": [
   {
    "title": "The Eyrie of Sentinel Hill",
-   "body": "Thor tends the gryphon roost at Sentinel Hill, linking Westfall's defenders with the rest of the kingdom. The People's Militia faces bandits, gnolls, and malfunctioning harvest golems on the ground. Thor's gryphons carry travelers and military dispatches above the perilous roads. Reports from Gryan Stoutmantle and urgent requests for aid can reach the court in Stormwind far faster than a ground messenger.",
+   "body": "Thor tends the gryphon roost at Sentinel Hill, linking Westfall's defenders with the rest of the kingdom. On the ground, the People's Militia faces bandits, gnolls, and malfunctioning harvest golems. His gryphons carry travelers and military dispatches above those perilous roads. Reports from Gryan Stoutmantle and urgent requests for aid can reach the court in Stormwind far sooner than a messenger on foot.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "sentinel hill flight master",
     "thor npc"
    ],
-   "answer": "Thor is the human flight master at Sentinel Hill in Westfall. He tends trained gryphons that carry travelers between Westfall and other Alliance settlements, including Stormwind City."
+   "answer": "Thor tends the gryphon roost at Sentinel Hill in Westfall. His trained mounts carry travelers between Westfall and other Alliance settlements, including Stormwind City."
   },
   {
    "q": "What role does he play in Westfall?",
@@ -32,7 +32,7 @@
     "what does thor do",
     "thor purpose"
    ],
-   "answer": "Thor keeps Sentinel Hill connected by air. He coordinates couriers carrying military messages between the People's Militia and Stormwind's high command, so commanders can stay informed despite Defias activity on the roads."
+   "answer": "Thor keeps Sentinel Hill connected by air. He coordinates couriers bearing military messages between the People's Militia and Stormwind's high command, keeping commanders informed despite Defias activity on the roads."
   },
   {
    "q": "Why is gryphon travel important here?",
@@ -68,5 +68,5 @@
  "attribution": [
   "Thor"
  ],
- "style": 1
+ "style": 2
 }

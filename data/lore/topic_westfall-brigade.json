@@ -7,21 +7,21 @@
  "meta": {
   "wiki": "Westfall Brigade"
  },
- "summary": "In Westfall, the People's Militia holds its ground against the Defias Brotherhood. Gryan Stoutmantle founded the volunteer force at Sentinel Hill after Stormwind withdrew its troops. With local farmers and visiting adventurers, they defend the region against banditry.",
+ "summary": "In Westfall, the People's Militia holds its ground against the Defias Brotherhood. Gryan Stoutmantle raised the volunteers at Sentinel Hill after Stormwind withdrew its troops. With local farmers and visiting adventurers, they defend the region from banditry.",
  "sections": [
   {
    "title": "A Region Abandoned",
-   "body": "Westfall once fed the Kingdom of Stormwind, but the kingdom withdrew its troops and left the people defenseless. The Defias Brotherhood spread across the plains, seizing family homesteads, taking over iron mines, and extorting local farmers. With no royal reinforcements in sight, veteran warrior Gryan Stoutmantle rallied citizens and retired soldiers to form the People's Militia.",
+   "body": "Westfall once fed the Kingdom of Stormwind. Then the kingdom withdrew its troops, leaving the people defenseless. The Defias Brotherhood spread across the plains, seizing family homesteads, taking over iron mines, and extorting local farmers. With no royal reinforcements in sight, veteran warrior Gryan Stoutmantle rallied citizens and retired soldiers to form the People's Militia.",
    "spoiler": 0
   },
   {
    "title": "Holding Sentinel Hill",
-   "body": "Sentinel Tower, atop Sentinel Hill, is the Militia's base. From there, its volunteers patrol the region's main roads with little military gear or steady supplies. Gryan Stoutmantle directs them against the growing ranks of Defias highwaymen, thieves, and pillagers. When Redridge asks for mutual aid, the Militia must refuse. Sending even a handful of men could leave Westfall lost.",
+   "body": "Sentinel Tower, atop Sentinel Hill, is the Militia's base. From there, volunteers patrol the region's main roads with little military gear or steady supplies. Gryan Stoutmantle directs them against the growing ranks of Defias highwaymen, thieves, and pillagers. When Redridge asks for mutual aid, the Militia must refuse. Sending even a handful of men could leave Westfall lost.",
    "spoiler": 0
   },
   {
    "title": "Uncovering the Conspiracy",
-   "body": "The People's Militia learns the scale of the Defias threat through scouting and outside help. The Brotherhood is more than a band of country thieves: it operates under Edwin VanCleef, the former Guildmaster of the Stonemasons who rebuilt Stormwind. From the Deadmines beneath Moonbrook, the Defias plan to overthrow the kingdom. The embattled Militia is the only barrier between the capital and open insurrection.",
+   "body": "Scouting and outside help reveal the scale of the Defias threat to the People's Militia. The Brotherhood is more than a band of country thieves. It operates under Edwin VanCleef, the former Guildmaster of the Stonemasons who rebuilt Stormwind. From the Deadmines beneath Moonbrook, the Defias plan to overthrow the kingdom. The embattled Militia is the only barrier between the capital and open insurrection.",
    "spoiler": 1
   }
  ],
@@ -74,11 +74,11 @@
  "angles": [
   {
    "target": "race:Human",
-   "text": "As a human, you see how Stormwind's rural folk defend their own homes when the royal court turns a blind eye."
+   "text": "As a human, you see how Stormwind's rural folk defend their homes when the royal court turns a blind eye."
   },
   {
    "target": "class:Warrior",
-   "text": "As a warrior, you see Gryan Stoutmantle and his protectors lead from the front, making do with worn blades and makeshift armor against overwhelming odds."
+   "text": "As a warrior, you see Gryan Stoutmantle and his protectors lead from the front. They make do with worn blades and makeshift armor against overwhelming odds."
   },
   {
    "target": "faction:Alliance",
@@ -108,5 +108,5 @@
  "attribution": [
   "Westfall Brigade"
  ],
- "style": 1
+ "style": 2
 }

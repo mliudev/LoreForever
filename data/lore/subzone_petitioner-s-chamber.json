@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Petitioner's Chamber"
  },
- "summary": "Petitioners wait for the crown in a chamber just inside Stormwind Keep. Nobles, church dignitaries, and visiting subjects spend the time mingling, drinking, or awaiting an audience.",
+ "summary": "Petitioners wait for the crown in a chamber just inside Stormwind Keep. Nobles, church dignitaries, and visiting subjects mingle, drink, or await an audience.",
  "sections": [
   {
    "title": "A Room of Waiting and Influence",
-   "body": "The Petitioner's Chamber lies just to the right as you enter Stormwind Keep. Count Remington Ridgewell and Bishop DeLavey wait there for audiences with boy-king Anduin Wrynn and Highlord Bolvar Fordragon. Between formal visits, the chamber gives nobles and clergy room to mingle, trade gossip, and quietly press their concerns. Who holds influence in the realm can often be seen in who speaks with whom.",
+   "body": "Just inside Stormwind Keep, the Petitioner's Chamber lies to your right. Count Remington Ridgewell and Bishop DeLavey wait there for audiences with boy-king Anduin Wrynn and Highlord Bolvar Fordragon. Between formal visits, nobles and clergy mingle, trade gossip, and quietly press their concerns. Who speaks with whom can show where influence lies in the realm.",
    "spoiler": 0
   }
  ],
@@ -41,7 +41,7 @@
     "why called hall of petitioners",
     "petitioners hall"
    ],
-   "answer": "The chamber takes its name from its role as a waiting room for subjects who have petitioned the crown. They wait until Highlord Bolvar Fordragon, the royal council, or the regent grants them entry to the throne room."
+   "answer": "The chamber is a waiting room for subjects who have petitioned the crown. They wait until Highlord Bolvar Fordragon, the royal council, or the regent grants them entry to the throne room."
   },
   {
    "q": "What happens here during city quests?",
@@ -55,7 +55,7 @@
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "For the Alliance, the chamber is where domestic appeals, church affairs, and noble requests wait for the royal council's attention."
+   "text": "For the Alliance, domestic appeals, church affairs, and noble requests await the royal council's attention in this chamber."
   },
   {
    "target": "class:Priest",
@@ -81,5 +81,5 @@
  "attribution": [
   "Petitioner's Chamber"
  ],
- "style": 1
+ "style": 2
 }

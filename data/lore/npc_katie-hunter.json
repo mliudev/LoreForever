@@ -8,11 +8,11 @@
   "wiki": "Katie Hunter",
   "refs": 1
  },
- "summary": "At the Eastvale Logging Camp stables, Katie Hunter tends horses for Stormwind and trusted Alliance champions. She works with Randal Hunter to keep travelers and soldiers mounted for the kingdom’s roads.",
+ "summary": "At the Eastvale Logging Camp stables, Katie Hunter tends horses for Stormwind and trusted Alliance champions. With Randal Hunter, she keeps travelers and soldiers mounted on the kingdom’s roads.",
  "sections": [
   {
    "title": "Stables of Eastvale",
-   "body": "Katie Hunter tends the horses at the Eastvale Logging Camp in eastern Elwynn Forest. While lumberjacks cut timber for Stormwind’s reconstruction, she raises dependable pintos, mares, and swift steeds for riders. Her horses carry people along the kingdom’s roads and the dangerous routes of southern Azeroth.",
+   "body": "In eastern Elwynn Forest, Katie Hunter tends the horses at the Eastvale Logging Camp. As lumberjacks cut timber for Stormwind’s reconstruction, she raises dependable pintos, mares, and swift steeds for riders. Her horses carry people along the kingdom’s roads and the dangerous routes of southern Azeroth.",
    "spoiler": 0
   }
  ],
@@ -33,7 +33,7 @@
     "where is katie hunter",
     "find katie hunter"
    ],
-   "answer": "You can find Katie in the northern part of the Eastvale Logging Camp, tending the corral and stables near Randal Hunter, a riding trainer, in eastern Elwynn Forest."
+   "answer": "Katie Hunter tends the corral and stables in the northern part of the Eastvale Logging Camp. She works near Randal Hunter, a riding trainer, in eastern Elwynn Forest."
   },
   {
    "q": "Can non-humans buy horses from her?",
@@ -50,7 +50,7 @@
     "what mounts does katie sell",
     "katie hunter horse types"
    ],
-   "answer": "Katie sells standard riding horses, including pinto, brown, and chestnut varieties, as well as swift, armored steeds such as the Swift Palomino, Swift Brown Steed, and Swift White Steed."
+   "answer": "Katie Hunter sells standard riding horses, including pinto, brown, and chestnut varieties. She also sells swift, armored steeds such as the Swift Palomino, Swift Brown Steed, and Swift White Steed."
   }
  ],
  "angles": [
@@ -81,5 +81,5 @@
  "attribution": [
   "Katie Hunter"
  ],
- "style": 1
+ "style": 2
 }

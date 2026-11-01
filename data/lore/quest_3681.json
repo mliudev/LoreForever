@@ -17,16 +17,16 @@
   "wiki": "Tome of Divinity (5)",
   "chain": []
  },
- "summary": "In Ironforge, Master Brandur Ironhammer sends human paladins south for deeper training. At Stormwind's Cathedral of Light, Master Duthorian Rall oversees their study of the sacred Tomes of Divinity.",
+ "summary": "In Ironforge, Master Brandur Ironhammer sends promising human paladins south for deeper training. At Stormwind's Cathedral of Light, Master Duthorian Rall guides their study of the sacred Tomes of Divinity.",
  "sections": [
   {
    "title": "A Summons from Stormwind",
-   "body": "Stormwind calls promising holy warriors south to the Cathedral of Light. Dwarven paladins train in Ironforge's Hall of Mysteries, while the Silver Hand's wider traditions remain tied to the Church of the Holy Light in human lands. The summons asks these initiates to stand before the Cathedral's senior priests and paladin mentors.",
+   "body": "Stormwind calls promising holy warriors south to the Cathedral of Light. Senior priests and paladin mentors await them there, keeping the Silver Hand's traditions alive in the Church of the Holy Light among human lands.",
    "spoiler": 0
   },
   {
    "title": "The Road to the Cathedral",
-   "body": "Master Brandur Ironhammer sends students onward when they are ready to study deeper mysteries of the faith. You can travel south by the Deeprun Tram or across the mountain passes to Stormwind's Cathedral District. There, Duthorian Rall prepares initiates to study the sacred Tomes and learn the rites of redemption.",
+   "body": "Master Brandur Ironhammer knows when a student is ready for deeper study of the faith. You can reach Stormwind's Cathedral District by the Deeprun Tram or across the mountain passes. There, Duthorian Rall prepares initiates to study the sacred Tomes and learn the rites of redemption.",
    "spoiler": 0
   }
  ],
@@ -46,7 +46,7 @@
     "brandur ironhammer",
     "who is brandur"
    ],
-   "answer": "Brandur Ironhammer is a dwarven paladin trainer in Ironforge's Hall of Mysteries, in the Mystic Ward. He watches over initiates, teaches martial devotion, and guides them toward higher studies as their bond with the Holy Light matures."
+   "answer": "Brandur Ironhammer is a dwarven paladin trainer in Ironforge's Hall of Mysteries, in the Mystic Ward. He watches over initiates, teaches martial devotion, and guides them toward higher study as their bond with the Holy Light grows."
   },
   {
    "q": "Who is Duthorian Rall?",
@@ -70,7 +70,7 @@
     "how to get to stormwind",
     "deeprun tram to stormwind"
    ],
-   "answer": "The Deeprun Tram is the quickest and safest route from Ironforge to Stormwind. From Tinker Town, it carries travelers beneath the mountains into Stormwind."
+   "answer": "The Deeprun Tram is the quickest and safest route from Ironforge to Stormwind. From Tinker Town, it carries travelers beneath the mountains and into Stormwind."
   },
   {
    "q": "Is this trial required for all Alliance paladins?",
@@ -84,11 +84,11 @@
  "angles": [
   {
    "target": "class:Paladin",
-   "text": "As a paladin, you move from martial novice to ordained servant of the Holy Light, able to channel its deepest restorative miracles."
+   "text": "As a paladin, you grow from a martial novice into an ordained servant of the Holy Light, able to channel its deepest restorative miracles."
   },
   {
    "target": "race:Dwarf",
-   "text": "As a dwarf, you follow Khaz Modan's proud paladin traditions and take up the Tomes of Divinity in Ironforge, while human paladins are summoned to Stormwind."
+   "text": "As a dwarf, you follow Khaz Modan's proud paladin traditions and take up the Tomes of Divinity in Ironforge. Human paladins are summoned to Stormwind."
   },
   {
    "target": "faction:Alliance",
@@ -115,5 +115,5 @@
  "attribution": [
   "Tome of Divinity (5)"
  ],
- "style": 1
+ "style": 2
 }

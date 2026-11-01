@@ -24,11 +24,11 @@
    "Bloodsail Buccaneers"
   ]
  },
- "summary": "With the Bloodsail Buccaneers preparing an attack, Fleet Master Seahorn decides against deploying his entire fleet for a counterstrike. Instead, he directs an adventuring crew to slip into the landing site and eliminate the buccaneers' top leadership before their attack can begin.",
+ "summary": "In Stranglethorn, the Bloodsail Buccaneers gather strength for an attack. Fleet Master Seahorn will not risk his whole fleet in a counterstrike, so he sends a small crew against their leaders before they can begin.",
  "sections": [
   {
    "title": "Decapitating the Pirate Fleet",
-   "body": "Having learned the buccaneers' invasion plans, Fleet Master Seahorn refuses to wait for the enemy to muster an assault. Mocking Fleet Master Firallon's nautical skill, Seahorn aims to neutralize the threat swiftly by taking out its commanders. Rather than risking a full naval engagement, he sends a strike party directly to Firallon's landing camp to cut down Firallon alongside Captain Stillwater and Captain Keelhaul, ensuring the buccaneer force crumbles without leadership.",
+   "body": "Fleet Master Seahorn means to halt the Bloodsail attack before it gains strength. He mocks Fleet Master Firallon's skill at sea, then chooses to strike at the commanders. Seahorn will not risk a full naval battle. Instead, he sends a small crew to Firallon's landing camp to kill Firallon, Captain Stillwater, and Captain Keelhaul. Without their leaders, the buccaneers will be left without command.",
    "spoiler": 0
   }
  ],
@@ -40,7 +40,7 @@
     "bloodsail buccaneers questgiver",
     "who sends you after firallon"
    ],
-   "answer": "Fleet Master Seahorn in Booty Bay commands the assault, seeking to dismantle the hostile fleet before it can attack."
+   "answer": "Fleet Master Seahorn in Booty Bay orders the strike. He hopes to break the hostile fleet before it can attack."
   },
   {
    "q": "Which buccaneer commanders need to be eliminated?",
@@ -49,7 +49,7 @@
     "bloodsail commanders to kill",
     "who are the bloodsail bosses"
    ],
-   "answer": "The targets are Fleet Master Firallon, Captain Stillwater, and Captain Keelhaul, who lead the Bloodsail forces."
+   "answer": "The targets are Fleet Master Firallon, Captain Stillwater, and Captain Keelhaul, leaders of the Bloodsail forces."
   },
   {
    "q": "Why does Fleet Master Seahorn send adventurers instead of his ships?",
@@ -58,7 +58,7 @@
     "why not send the blackwater fleet",
     "seahorn plan"
    ],
-   "answer": "Seahorn reasons that a capable adventuring group can strike the landing camp and assassinate the enemy officers, causing the enemy fleet to collapse without risking his own ships."
+   "answer": "Seahorn believes a capable crew can strike the landing camp and kill the enemy officers. That could bring down the fleet without risking his ships."
   },
   {
    "q": "Where does this clash fit in the broader confrontation with the Bloodsail Buccaneers?",
@@ -67,7 +67,7 @@
     "what quest comes before this",
     "bloodsail chain order"
    ],
-   "answer": "This confrontation follows the discovery of the buccaneers' written attack plans in the earlier stages of the Bloodsail investigation in Stranglethorn Vale."
+   "answer": "The clash follows the discovery of the buccaneers' written attack plans during the earlier stages of the Bloodsail investigation in Stranglethorn Vale."
   }
  ],
  "angles": [],
@@ -89,5 +89,6 @@
  ],
  "attribution": [
   "The Bloodsail Buccaneers (5)"
- ]
+ ],
+ "style": 2
 }

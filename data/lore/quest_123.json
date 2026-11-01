@@ -20,21 +20,21 @@
    "Manhunt (Classic)"
   ]
  },
- "summary": "An intercepted dispatch from gnoll raiders in Elwynn Forest lays out when gold shipments leave the abandoned mines. It is addressed to a figure called 'The Collector' and points to an organized operation near Stormwind's garrison.",
+ "summary": "In Elwynn Forest, gold shipments leave the abandoned mines under cover of gnoll raids. An intercepted dispatch names their overseer as 'The Collector' and points to an organized operation near Stormwind's garrison.",
  "sections": [
   {
    "title": "A Paper Trail in the Paws of Gnolls",
-   "body": "Riverpaw gnoll packs in western Elwynn Forest carry more than furs and crude weapons. Among them, a parchment called the Gold Pickup Schedule lays out dates and times for gold taken from local mines. The intercepted note directs each shipment to an overseer identified only as 'The Collector.'",
+   "body": "Riverpaw gnolls in western Elwynn Forest carry a parchment called the Gold Pickup Schedule. It sets dates and times for gold taken from local mines. The intercepted note directs each shipment to an overseer known only as 'The Collector.'",
    "spoiler": 0
   },
   {
    "title": "Unsettling News for Goldshire",
-   "body": "Marshal Dughan hears the news at the Lion's Pride Inn and learns that gold is still being mined and moved. Official mines across Elwynn have been closed for months because of gnoll attacks, kobold infestations, and roaming bandits. Gnolls carrying shipping schedules point to an organized criminal network stealing the kingdom's wealth.",
+   "body": "At the Lion's Pride Inn, Marshal Dughan learns that gold is still being mined and moved. Official mines across Elwynn have been closed for months because of gnoll attacks, kobold infestations, and roaming bandits. Gnolls with shipping schedules point to an organized criminal network stealing the kingdom's wealth.",
    "spoiler": 0
   },
   {
    "title": "Eyes on the Brackwell Patch",
-   "body": "The schedule places the suspected Collector near the Brackwell Pumpkin Patch in eastern Elwynn Forest. Marshal Dughan has heard whispers of the name, but has no clear proof of who leads the ring or where the gold goes. The dispatch gives the garrison its first solid lead in the hunt for whoever directs the shipments.",
+   "body": "The schedule places the suspected Collector near the Brackwell Pumpkin Patch in eastern Elwynn Forest. Marshal Dughan has heard whispers of the name, but has no clear proof of who leads the ring or where the gold goes. The dispatch gives the garrison its first solid lead in the search for whoever directs the shipments.",
    "spoiler": 1
   }
  ],
@@ -129,5 +129,5 @@
  "attribution": [
   "The Collector (Classic)"
  ],
- "style": 1
+ "style": 2
 }

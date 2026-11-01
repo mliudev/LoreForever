@@ -10,11 +10,11 @@
    "quest:104"
   ]
  },
- "summary": "On Westfall's coast, Old Murk-Eye terrorizes the shore. Captain Grayson, the ghost at Westfall Lighthouse, needs a scale from the murloc as proof of his death.",
+ "summary": "Along Westfall's coast, Captain Grayson seeks proof that Old Murk-Eye is dead. The ghost haunts Westfall Lighthouse, where the murloc's attacks left the beacon dark.",
  "sections": [
   {
    "title": "Trophy of a Coastal Scourge",
-   "body": "Old Murk-Eye turned Westfall's coast into a killing ground. Captain Grayson, the ghost bound to Westfall Lighthouse, says the cunning murloc rallied weaker-minded murlocs to raid the shore. Murk-Eye drove away the keeper's family, leaving the beacon dark when Grayson's ship struck the rocks. When the family returned to relight the flame, Murk-Eye attacked again and slaughtered them. Grayson seeks a scale from the creature as proof that the shore is clear of its fiercest predator.",
+   "body": "Old Murk-Eye made Westfall's coast a killing ground. Captain Grayson, the ghost bound to Westfall Lighthouse, says the cunning murloc rallied weaker-minded murlocs to raid the shore. Murk-Eye drove away the keeper's family, leaving the beacon dark when Grayson's ship struck the rocks.\n\nWhen the family returned to relight the flame, Murk-Eye attacked again and slaughtered them. Grayson seeks one of the creature's scales as proof that the shore is clear of its fiercest predator.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "murk eye scale turn in",
     "scale of old murk eye use"
    ],
-   "answer": "Captain Grayson needs the scale as proof that Old Murk-Eye is dead. The ghost haunts the rocky isle of Westfall Lighthouse and seeks vengeance because Murk-Eye left the beacon dark when Grayson's ship wrecked, then slaughtered the lighthouse keeper's family."
+   "answer": "Captain Grayson needs the scale as proof that Old Murk-Eye is dead. The ghost haunts Westfall Lighthouse and seeks vengeance because Murk-Eye left the beacon dark when Grayson's ship wrecked, then slaughtered the lighthouse keeper's family."
   },
   {
    "q": "Who is Old Murk-Eye?",
@@ -44,7 +44,7 @@
     "lighthouse raid",
     "murk eye lighthouse"
    ],
-   "answer": "Old Murk-Eye first raided the lighthouse to drive away the keeper and his family, leaving the coast in darkness. When they returned to relight the flame, he rallied his kin for another attack and murdered the whole family, leaving ships blind to the dangerous coastal shoals."
+   "answer": "Old Murk-Eye first raided the lighthouse to drive away the keeper and his family, leaving the coast in darkness. When they returned to relight the flame, he rallied his kin for another attack and murdered the whole family. Ships were left blind to the dangerous coastal shoals."
   }
  ],
  "angles": [
@@ -74,5 +74,5 @@
   "Scale of Old Murk-Eye",
   "The Coastal Menace (Classic)"
  ],
- "style": 1
+ "style": 2
 }

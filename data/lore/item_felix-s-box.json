@@ -10,16 +10,16 @@
    "quest:3361"
   ]
  },
- "summary": "Felix Whindlebolt's box lies in Frostmane camps southwest of Anvilmar, far from the gnome refugee who lost it.",
+ "summary": "In Frostmane camps southwest of Anvilmar, Felix's Box lies far from the gnome refugee who lost it.",
  "sections": [
   {
    "title": "Lost in the Flight from Gnomeregan",
-   "body": "Radiation swept through Gnomeregan during the failed attempt to purge the trogg menace, and Felix Whindlebolt fled with the gnomes into Coldridge Valley. In his rush to escape the fumes, he left his personal possessions and crafting gear along the snowy road. Frostmane trolls plundered the roadside goods before Felix could return. They carried his box, his chest, and his bucket of bolts to their settlements southwest of Anvilmar.",
+   "body": "Radiation swept through Gnomeregan during the failed attempt to purge the trogg menace. Felix Whindlebolt fled with the gnomes into Coldridge Valley, leaving his possessions and crafting gear along the snowy road to escape the fumes. Frostmane trolls plundered the goods before he could return. They carried his box, chest, and bucket of bolts to their settlements southwest of Anvilmar.",
    "spoiler": 0
   },
   {
    "title": "A Refugee's Quandary",
-   "body": "Felix is unused to violence and poorly suited to Dun Morogh's wilderness, so he needs passing adventurers in Anvilmar to help recover his belongings. Getting them back would restore a measure of normalcy and the means to earn a living for the displaced artisan, who lost everything when Gnomeregan fell.",
+   "body": "Felix is unused to violence and poorly suited to Dun Morogh's wilderness. He needs passing adventurers in Anvilmar to help recover his belongings. Their return would restore some normalcy and give the displaced artisan the means to earn a living. He lost everything when Gnomeregan fell.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "what is this box",
     "felix box lore"
    ],
-   "answer": "Felix's Box holds the personal belongings of Felix Whindlebolt, a gnome artisan who fled Gnomeregan after radiation spread through the city."
+   "answer": "Felix's Box holds Felix Whindlebolt's personal belongings. He is a gnome artisan who fled Gnomeregan after radiation spread through the city."
   },
   {
    "q": "How did the box end up with the Frostmane trolls?",
@@ -40,7 +40,7 @@
     "who stole felixs box",
     "how was it lost"
    ],
-   "answer": "Felix left his gear while fleeing the radioactive fumes from Gnomeregan. Frostmane trolls took the roadside goods to their camps southwest of Anvilmar."
+   "answer": "Felix left his gear while fleeing the radioactive fumes from Gnomeregan. Frostmane trolls carried the roadside goods to their camps southwest of Anvilmar."
   },
   {
    "q": "Who is Felix Whindlebolt?",
@@ -48,7 +48,7 @@
     "felix whindlebolt",
     "who is felix"
    ],
-   "answer": "Felix Whindlebolt is a gnome refugee in Anvilmar, traumatized by Gnomeregan's fall and left without his tools and personal belongings."
+   "answer": "Felix Whindlebolt is a gnome refugee in Anvilmar. Gnomeregan's fall traumatized him and left him without his tools or personal belongings."
   },
   {
    "q": "What other items did Felix lose?",
@@ -57,13 +57,13 @@
     "felix belongings",
     "felix lost gear"
    ],
-   "answer": "The Frostmane trolls took Felix's Chest and his Bucket of Bolts along with the box, carrying all three to their camps southwest of Anvilmar."
+   "answer": "The Frostmane trolls took Felix's Chest and Bucket of Bolts along with the box. They carried all three to their camps southwest of Anvilmar."
   }
  ],
  "angles": [
   {
    "target": "race:Gnome",
-   "text": "As a gnome starting in Coldridge Valley, you can bring relief to a fellow exile by recovering Felix's belongings after Gnomeregan's evacuation."
+   "text": "As a gnome starting in Coldridge Valley, you can help a fellow exile by recovering Felix's belongings after Gnomeregan's evacuation."
   },
   {
    "target": "profession:Engineering",
@@ -94,5 +94,5 @@
   "Felix's Box",
   "A Refugee's Quandary (Classic)"
  ],
- "style": 1
+ "style": 2
 }

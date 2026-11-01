@@ -10,16 +10,16 @@
    "quest:59"
   ]
  },
- "summary": "Stormwind Armor Marker lets those who aid the realm claim crafted gear from sanctioned artisans. Sara Timberlain accepts one at the Eastvale Logging Camp.",
+ "summary": "At Eastvale Logging Camp, Sara Timberlain accepts a Stormwind Armor Marker from those who aid the realm. It lets them claim crafted gear from artisans commissioned by Stormwind.",
  "sections": [
   {
    "title": "Military Requisitions",
-   "body": "Stormwind's commanders issue armor markers to those who serve the realm. Keeping law and order across Elwynn Forest stretches Stormwind's resources thin, so commanders sometimes use these official requisition slips instead of handing out standard gear at military outposts. A marker confirms the bearer's service and authorizes local craftsmen under contract to provide tailored armor.",
+   "body": "Stormwind's commanders issue armor markers to those who serve the realm. Keeping order across Elwynn Forest strains Stormwind's resources. So commanders sometimes use these official slips in place of standard gear at military outposts. A marker confirms the bearer's service and allows a contracted local craftsman to provide tailored armor.",
    "spoiler": 0
   },
   {
    "title": "Eastvale Provisioning",
-   "body": "At the Eastvale Logging Camp, Sara Timberlain and other artisans work under commission from the Stormwind Army. The camp lies on Elwynn's eastern frontier, where they use local materials to make protective cloth and leather garments. Present a marker there to receive custom-fitted defense for guarding the surrounding woodlands.",
+   "body": "Sara Timberlain and other artisans work under commission from the Stormwind Army at Eastvale Logging Camp. The camp lies on Elwynn's eastern frontier, where they use local materials to make protective cloth and leather garments. Present a marker there to receive custom-fitted defense for guarding the surrounding woodlands.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "marker purpose",
     "stormwind marker use"
    ],
-   "answer": "The Stormwind Armor Marker is an official military voucher for those who aid Stormwind's guards. It proves your service and lets you claim protective armor from an artisan under contract with the army."
+   "answer": "The Stormwind Armor Marker is an official military voucher for those who aid Stormwind's guards. It proves your service and lets you claim protective armor from an artisan contracted by the army."
   },
   {
    "q": "Who accepts the marker?",
@@ -40,7 +40,7 @@
     "where to turn in marker",
     "sara timberlain marker"
    ],
-   "answer": "Sara Timberlain accepts the marker at the Eastvale Logging Camp, just east across the river in Elwynn Forest. She is under contract with the Stormwind Army to provide tailored cloth and leather equipment."
+   "answer": "Sara Timberlain accepts the marker at Eastvale Logging Camp, just east across the river in Elwynn Forest. She provides tailored cloth and leather equipment under contract with the Stormwind Army."
   },
   {
    "q": "Why does Stormwind use markers instead of handing out armor directly?",
@@ -49,7 +49,7 @@
     "why army markers",
     "military vouchers elwynn"
    ],
-   "answer": "Stormwind uses markers because outlying guard posts may lack the storage, blacksmithing or tailoring setups to outfit recruits on site. Field commanders can send recruits to local artisans like Sara Timberlain, who have dedicated workshops."
+   "answer": "Stormwind uses markers because its outlying guard posts may lack the storage, blacksmithing or tailoring setups to outfit recruits on site. Field commanders can send recruits to local artisans like Sara Timberlain, who have dedicated workshops."
   },
   {
    "q": "What kind of equipment does the marker provide?",
@@ -64,7 +64,7 @@
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance member, you can see how Eastvale Logging Camp connects frontier settlements to Stormwind's military command."
+   "text": "As an Alliance member, you can see how Eastvale Logging Camp connects frontier settlements with Stormwind's military command."
   }
  ],
  "keywords": [
@@ -88,5 +88,5 @@
   "Stormwind Armor Marker",
   "Cloth and Leather Armor"
  ],
- "style": 1
+ "style": 2
 }

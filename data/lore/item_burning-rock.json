@@ -10,11 +10,11 @@
    "quest:1705"
   ]
  },
- "summary": "In Duskwood, Burning Rock smolders in the depths of Roland's Doom. Gutspill, leader of the Nightbane worgen, carries it, and Grimand Elmore in Stormwind needs it with fiery worgen blood to forge enchanted armor for promising warriors.",
+ "summary": "In Duskwood, Burning Rock smolders within Roland's Doom. Gutspill, leader of the Nightbane worgen, carries it, and Grimand Elmore in Stormwind needs it with fiery worgen blood to forge enchanted armor for promising warriors.",
  "sections": [
   {
    "title": "A Smoldering Prize",
-   "body": "Gutspill carries Burning Rock through the shafts of Roland's Doom. Grimand Elmore in Stormwind wants its heat for armor made with fiery worgen blood. He is testing smithing techniques developed by his peer Furen Longbeard, to make tough plates for veteran fighters.",
+   "body": "Gutspill carries Burning Rock through the shafts of Roland's Doom. Grimand Elmore in Stormwind wants its heat for armor made with fiery worgen blood. He tests smithing techniques developed by his peer Furen Longbeard, hoping to make tough plates for veteran fighters.",
    "spoiler": 0
   }
  ],
@@ -52,7 +52,7 @@
     "why do worgen have burning rock",
     "gutspill burning rock lore"
    ],
-   "answer": "The Nightbane worgen in Roland's Doom have strange fiery traits, including burning blood. Their leader, Gutspill, keeps Burning Rock deep in the mine. Whether the worgen found it there or brought it with them is unknown."
+   "answer": "The Nightbane worgen in Roland's Doom have strange fiery traits, including burning blood. Their leader, Gutspill, keeps Burning Rock deep in the mine. How it came to be there is unknown."
   }
  ],
  "angles": [
@@ -87,5 +87,5 @@
   "Burning Rock",
   "Burning Blood (quest)"
  ],
- "style": 1
+ "style": 2
 }

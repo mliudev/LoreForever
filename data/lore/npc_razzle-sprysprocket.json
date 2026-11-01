@@ -8,16 +8,16 @@
   "wiki": "Razzle Sprysprocket",
   "refs": 1
  },
- "summary": "In Kharanos, Razzle Sprysprocket works to recover gnomish machinery. He tinkers with Ozzie Togglevolt and seeks lost parts scattered through the snowy hills.",
+ "summary": "In Kharanos, Razzle Sprysprocket searches for the machinery lost when Gnomeregan fell. With Ozzie Togglevolt, he gathers parts scattered through Dun Morogh’s snowy hills.",
  "sections": [
   {
    "title": "Tinkering in Kharanos",
-   "body": "After Gnomeregan's fall, Razzle found refuge in Dun Morogh and set up his workshop in Kharanos. He has a gift for delicate mechanical parts and works beside fellow engineer Ozzie Togglevolt. Together, they recover gyro-mechanisms and cog assemblies lost or scavenged during the flight from their irradiated homeland.",
+   "body": "After Gnomeregan fell, Razzle found refuge in Dun Morogh and opened a workshop in Kharanos. Skilled with delicate mechanisms, he works beside fellow engineer Ozzie Togglevolt. Together, they seek gyro-mechanisms and cog assemblies lost or scavenged during the flight from their irradiated homeland.",
    "spoiler": 0
   },
   {
    "title": "Defense of the Workshop",
-   "body": "Wild beasts roam Dun Morogh's frozen ridges, and local Frostmane trolls raid the area. These dangers keep Razzle's work from being safe. Still, he labors to keep gnomish contraptions working and recover the lost wonders of Gnomeregan.",
+   "body": "Wild beasts roam Dun Morogh’s frozen ridges, and Frostmane trolls raid the area. Their presence makes Razzle’s work dangerous. Still, he labors to keep gnomish contraptions working and recover the lost wonders of Gnomeregan.",
    "spoiler": 0
   }
  ],
@@ -65,7 +65,7 @@
   },
   {
    "target": "profession:Engineering",
-   "text": "Engineers may recognize a kindred spirit in Razzle, whose projects show how close gnomish invention can come to miscalculation and explosion."
+   "text": "Engineers may recognize a kindred spirit in Razzle. His projects show how close gnomish invention can come to miscalculation and explosion."
   }
  ],
  "keywords": [
@@ -88,5 +88,5 @@
  "attribution": [
   "Razzle Sprysprocket"
  ],
- "style": 1
+ "style": 2
 }

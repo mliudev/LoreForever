@@ -27,16 +27,16 @@
    "The Lost Report"
   ]
  },
- "summary": "Vigorous digging turns up the head of a male orc, ragged where it was cut from the neck. Nazeer Bloodpike in Brackenwall Village is the one to bring it to.",
+ "summary": "In Dustwallow Marsh, you uncover a male orc's severed head. Bring it to Nazeer Bloodpike in Brackenwall Village.",
  "sections": [
   {
    "title": "A Grim Find",
-   "body": "Digging hard in the loose dirt brings up an orc's head, a male's, ragged where it was cut from the neck. The lips are drawn in a snarl and the dark eyes glare defiantly. Nazeer Bloodpike in Brackenwall Village is the one to bring it to.",
+   "body": "Your digging turns up a male orc's head, ragged where it was cut from the neck. Its lips curl in a snarl, and dark eyes glare defiantly. Bring the head to Nazeer Bloodpike in Brackenwall Village.",
    "spoiler": 0
   },
   {
    "title": "Nazeer Looks Closer",
-   "body": "Nazeer Bloodpike knows the head at once as Marg Nighteye's, and had feared Marg was dead. Studying the ragged wound on the neck, Nazeer wonders whether a weapon made the cut or some beast killed the agent. It is a mystery to be solved, and Nazeer wants to know whether the Alliance was behind Marg's death.",
+   "body": "Nazeer Bloodpike recognizes Marg Nighteye's head at once, though he had feared Marg was dead. The ragged wound leaves him wondering whether a weapon made the cut or a beast killed the agent. Nazeer wants to solve the mystery and learn whether the Alliance was behind Marg's death.",
    "spoiler": 1
   }
  ],
@@ -48,7 +48,7 @@
     "severed head turn in",
     "who takes the head"
    ],
-   "answer": "To Nazeer Bloodpike in Brackenwall Village."
+   "answer": "Bring the severed head to Nazeer Bloodpike in Brackenwall Village."
   },
   {
    "q": "What does the head look like?",
@@ -57,7 +57,7 @@
     "defiant orc head",
     "severed head description"
    ],
-   "answer": "An orc's, a male's, ragged where it was cut from the neck, with a snarl on the lips and dark eyes that glare defiantly."
+   "answer": "It is a male orc's head, ragged where it was cut from the neck, with lips drawn in a snarl and dark eyes glaring defiantly."
   },
   {
    "q": "What comes after the severed head?",
@@ -86,5 +86,6 @@
  ],
  "attribution": [
   "The Severed Head"
- ]
+ ],
+ "style": 2
 }

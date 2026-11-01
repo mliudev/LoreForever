@@ -8,16 +8,16 @@
   "wiki": "Sara Balloo",
   "refs": 2
  },
- "summary": "In Ironforge's Military Ward, Sara Balloo mourns her husband Sully and holds fast to the words he left behind.",
+ "summary": "In Ironforge's Military Ward, Sara Balloo grieves for Sully and holds to the words he left behind.",
  "sections": [
   {
    "title": "A Widow's Vigil",
-   "body": "Sara Balloo keeps vigil in Ironforge's Military Ward, amid the clang of weapons and the drill of soldiers. Her husband, Sully Balloo, fell in battle far from home, leaving her alone with grief and memories. A final letter, carried across the mountains from where he died, gives Sara words from his last days and a measure of closure.",
+   "body": "Sara Balloo keeps vigil in Ironforge's Military Ward, where weapons ring and soldiers drill. Her husband, Sully Balloo, fell in battle far from home, leaving her with grief and memories. A final letter crossed the mountains from the place where he died. Sully's words from his last days bring Sara some measure of closure.",
    "spoiler": 0
   },
   {
    "title": "A Cry for Remembrance",
-   "body": "Sara Balloo wants Sully's sacrifice remembered. In her appeals, she asks King Magni Bronzebeard to honor Sully and other fallen soldiers from the throne, so the cost borne by ordinary dwarven families is not forgotten.",
+   "body": "Sara Balloo wants Sully's sacrifice remembered. She appeals to King Magni Bronzebeard to honor Sully and the other fallen soldiers from the throne. She wants the cost borne by ordinary dwarven families to be remembered.",
    "spoiler": 1
   }
  ],
@@ -47,7 +47,7 @@
     "who is sully balloo",
     "what happened to sully"
    ],
-   "answer": "Sully Balloo died during military service. His belongings and a final waterlogged letter were lost until an adventurer recovered them."
+   "answer": "Sully Balloo died during military service. An adventurer recovered his belongings and a final waterlogged letter after they had been lost."
   },
   {
    "q": "What does Sara do with Sully's letter?",
@@ -56,7 +56,7 @@
     "sara balloos plea",
     "what does sara balloo want"
    ],
-   "answer": "After reading Sully's heartfelt words, Sara writes to King Magni Bronzebeard, asking him to recognize and remember Sully's sacrifice."
+   "answer": "After reading Sully's heartfelt words, Sara writes to King Magni Bronzebeard and asks him to recognize and remember Sully's sacrifice."
   }
  ],
  "angles": [
@@ -66,7 +66,7 @@
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance soldier, you see how news can bring closure to a fallen soldier's family, and how battles across Azeroth wound those at home."
+   "text": "As an Alliance soldier, you see how news can bring closure to a fallen soldier's family. Battles across Azeroth wound those at home."
   }
  ],
  "keywords": [
@@ -89,5 +89,5 @@
  "attribution": [
   "Sara Balloo"
  ],
- "style": 1
+ "style": 2
 }

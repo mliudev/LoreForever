@@ -20,16 +20,16 @@
    "Wing Nut"
   ]
  },
- "summary": "In Ironforge, Gnoarn worries that Bingles Blastenheimer has been missing for more than a week. The gnome aviator vanished during a flight toward fallen Gnomeregan, and Gnoarn sends searchers to the shores of Loch Modan. There, Bingles is alive and needs mechanical salvage.",
+ "summary": "In Ironforge, Gnoarn starts a search for Find Bingles after more than a week without word. Bingles Blastenheimer vanished during a flight toward fallen Gnomeregan, and searchers are sent to Loch Modan's shores. There, Bingles is alive and needs mechanical salvage.",
  "sections": [
   {
    "title": "A Missing Pilot",
-   "body": "Gnome aviator Bingles Blastenheimer was sent from Tinker Town in Ironforge on an aerial reconnaissance flight over the irradiated ruins of Gnomeregan. More than a week has passed without word, and Gnoarn fears Bingles may have blown himself out of the sky, a danger of gnome engineering. The last report placed the eccentric flyer somewhere above Loch Modan's waters.",
+   "body": "Gnome aviator Bingles Blastenheimer was sent from Tinker Town in Ironforge to scout the irradiated ruins of Gnomeregan from the air. More than a week has passed without word. Gnoarn fears Bingles may have blown himself out of the sky, a danger of gnome engineering. His last report placed him somewhere above Loch Modan's waters.",
    "spoiler": 0
   },
   {
    "title": "Down at the Loch",
-   "body": "Searchers find Bingles alive along the Loch Modan shoreline, far from a tragic pile of wreckage. He is unfazed by his long absence and takes slight offense that anyone doubted his piloting. Rather than return promptly to report to Gnoarn, Bingles enlists his rescuer to recover tools and Blastencapper explosives stolen by troggs. He wants them so he can resume his duties for the gnomish movement.",
+   "body": "Searchers find Bingles alive along the Loch Modan shoreline, far from a tragic pile of wreckage. He is unfazed by his long absence and takes slight offense that anyone doubted his piloting. Rather than return promptly to report to Gnoarn, he asks his rescuer to recover tools and Blastencapper explosives stolen by troggs. He wants them so he can resume his duties for the gnomish movement.",
    "spoiler": 0
   }
  ],
@@ -41,7 +41,7 @@
     "bingles blastenheimer lore",
     "who is the pilot"
    ],
-   "answer": "Bingles Blastenheimer is an eccentric gnomish aviator and mechanic. He was sent to scout the fallen city of Gnomeregan from the air, then crashed near Loch Modan."
+   "answer": "Bingles Blastenheimer is an eccentric gnomish aviator and mechanic. He was sent to scout fallen Gnomeregan from the air, then crashed near Loch Modan."
   },
   {
    "q": "Why was Bingles flying over Gnomeregan?",
@@ -76,7 +76,7 @@
     "wing nut quest",
     "bingles follow up"
    ],
-   "answer": "After Bingles is found, adventurers can take up Bingles' Missing Supplies and recover his wrench, screwdriver, hammer, and Blastencapper explosives from troggs on the Loch's islands."
+   "answer": "After Bingles is found, adventurers can recover his wrench, screwdriver, hammer, and Blastencapper explosives from troggs on the Loch's islands."
   },
   {
    "q": "Is Bingles hurt from the crash?",
@@ -122,5 +122,5 @@
  "attribution": [
   "Find Bingles"
  ],
- "style": 1
+ "style": 2
 }

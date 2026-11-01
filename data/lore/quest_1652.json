@@ -17,16 +17,16 @@
   "wiki": "The Tome of Valor (5)",
   "chain": []
  },
- "summary": "At the Cathedral of Light in Stormwind, word returns that Daphne Stilwell is safe. After defending her Westfall homestead from bandits, an aspiring paladin reports to Duthorian Rall, completing the Church of the Holy Light's trials of valor. The Church's charge is to shield the innocent without thought for oneself.",
+ "summary": "At Stormwind's Cathedral of Light, you tell Duthorian Rall that Daphne Stilwell is safe after the defense of her Westfall homestead. Your courage fulfills the Church's trials of valor and its charge to shield the innocent without thought for yourself.",
  "sections": [
   {
    "title": "A Sacred Shield",
-   "body": "Daphne Stilwell's homestead in Westfall is safe after an initiate of the Church of the Holy Light defended it from bandits. Back at the Cathedral of Light in Stormwind, the aspiring paladin reports her safety to Duthorian Rall. The defense shows the courage and conviction expected of one who stands between danger and the defenseless.",
+   "body": "Your defense shows you can stand between danger and the defenseless, as the Church expects of an aspiring paladin. The homestead holds firm, and Daphne is safe from the bandits who threatened her.",
    "spoiler": 0
   },
   {
    "title": "Ties Between Kingdoms",
-   "body": "Daphne's husband, Jordan Stilwell, is in Ironforge, where he lends his renowned craftsmanship to the Alliance. With Daphne safe and the homestead guarded, Duthorian Rall prepares to send word north to Jordan. Reassured that his family is protected, the artisan can focus on his work. Their distant homes are bound by the aid the Alliance gives across its lands.",
+   "body": "Jordan Stilwell, Daphne's husband, remains in Ironforge, lending his renowned craftsmanship to the Alliance. Duthorian Rall prepares to send word north, so Jordan can focus on his work knowing his family is protected.",
    "spoiler": 0
   }
  ],
@@ -47,7 +47,7 @@
     "stilwell farm",
     "who attacked daphne"
    ],
-   "answer": "Daphne Stilwell was in danger because bandits besieged her isolated Westfall farm. Her husband, Jordan, was away working in Ironforge."
+   "answer": "Bandits besieged Daphne Stilwell's isolated Westfall farm. Her husband, Jordan, was away working in Ironforge."
   },
   {
    "q": "Who is Jordan Stilwell?",
@@ -64,7 +64,7 @@
     "tome of valor meaning",
     "what is tome of valor"
    ],
-   "answer": "The Tome of Valor is a holy book of lessons tied to practical trials given by the Cathedral of Light. Through them, paladins prove their courage in facing darkness and protecting the vulnerable at personal risk."
+   "answer": "The Tome of Valor is a holy book of lessons tied to practical trials given by the Cathedral of Light. Through them, paladins prove their courage by facing darkness and protecting the vulnerable at personal risk."
   },
   {
    "q": "What comes after completing this trial?",
@@ -113,5 +113,5 @@
  "attribution": [
   "The Tome of Valor (5)"
  ],
- "style": 1
+ "style": 2
 }

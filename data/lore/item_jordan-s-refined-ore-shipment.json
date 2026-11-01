@@ -10,11 +10,11 @@
    "quest:1654"
   ]
  },
- "summary": "Jordan's Refined Ore Shipment reaches Ironforge for a paladin's sacred trials. The high-grade metal is prepared for blacksmith Jordan Stilwell to forge a holy weapon of virtue.",
+ "summary": "Jordan's Refined Ore Shipment arrives in Ironforge for the Test of Righteousness. The metal is prepared for blacksmith Jordan Stilwell to forge a holy weapon.",
  "sections": [
   {
    "title": "A Smith's Materials",
-   "body": "Jordan Stilwell needs rare, exacting materials to forge a weapon worthy of a dedicated paladin. The set includes a Purified Kor Gem, sturdy Whitestone Oak lumber, his lost smithing hammer, and a shipment of refined ore. This consignment supplies the metal for the sacred labor, brought to Ironforge for the Test of Righteousness.",
+   "body": "Jordan Stilwell needs rare materials for a weapon worthy of a paladin. He requires a Purified Kor Gem, sturdy Whitestone Oak lumber, his lost smithing hammer, and refined ore. The shipment brings the metal to Ironforge for this sacred labor.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "what does jordan do with ore",
     "ore shipment use"
    ],
-   "answer": "The refined ore goes to Jordan Stilwell outside Ironforge as one of four key components for forging a masterwork weapon for paladins undertaking the Test of Righteousness."
+   "answer": "The refined ore goes to Jordan Stilwell outside Ironforge. It is one of four key components for a masterwork weapon for paladins undertaking the Test of Righteousness."
   },
   {
    "q": "Who prepares the refined ore?",
@@ -44,13 +44,13 @@
     "why cant jordan use regular iron",
     "refined ore reason"
    ],
-   "answer": "Jordan Stilwell plans to craft a symbol of paladinhood and the Light, so he needs superior materials beyond ordinary forge scraps. The specially processed metal gives the blade or hammer head the balance and purity worthy of a holy knight."
+   "answer": "Jordan Stilwell plans to craft a symbol of paladinhood and the Light. He needs superior materials beyond ordinary forge scraps, and the specially processed metal gives the blade or hammer head the balance and purity worthy of a holy knight."
   }
  ],
  "angles": [
   {
    "target": "class:Paladin",
-   "text": "As a paladin, procuring this refined shipment tests your patience and dedication. It is one of the physical trials required to craft your symbolic weapon of the Light."
+   "text": "As a paladin, you must show patience and dedication to obtain this refined shipment. It is one of the physical trials required to craft your symbolic weapon of the Light."
   },
   {
    "target": "profession:Blacksmithing",
@@ -78,5 +78,5 @@
   "Jordan's Refined Ore Shipment",
   "The Test of Righteousness (2)"
  ],
- "style": 1
+ "style": 2
 }

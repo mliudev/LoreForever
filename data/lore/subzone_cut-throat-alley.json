@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Cut-Throat Alley"
  },
- "summary": "Behind the canal shops, Cut-Throat Alley lies quiet and empty in Stormwind City. Reach it through the Shady Lady near the Dwarven District, where a paved courtyard ends at an unoccupied residence.",
+ "summary": "In Cut-Throat Alley, a hidden courtyard lies beyond a canal shop in Stormwind City. Its paved path ends at an empty residence, out of sight of ordinary city traffic.",
  "sections": [
   {
    "title": "A Secluded Nook",
-   "body": "Cut-Throat Alley lies in a quiet corner of Stormwind, charted with the Dwarven District but apart from its forge fires and soot. No main avenue leads here; the only footpath passes through the Shady Lady, a small canal-side shop just south of the bridge from Cathedral Square. Beyond its door, a paved dead end holds stacked crates, forgotten barrels, and one empty two-story residence. Passing guards and ordinary citizens cannot see the alley, which stays silent amid the capital.",
+   "body": "Step through the Shady Lady and a paved dead end opens before you. Stacked crates and forgotten barrels sit beside a two-story residence with no one at home. Though the alley is counted within the Dwarven District, it lies apart from the district's forge fires and soot.\n\nNo main avenue reaches Cut-Throat Alley. Its only footpath passes through the canal-side shop, just south of the bridge from Cathedral Square. Passing guards and ordinary citizens cannot see this quiet corner of the capital.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "where is cut-throat alley",
     "how to enter cut-throat alley"
    ],
-   "answer": "Follow the canal front along the edge of the Dwarven District, just south of the footbridge to Cathedral Square. Find the Shady Lady and walk through the shop to reach the alley."
+   "answer": "Follow the canal front along the edge of the Dwarven District, just south of the footbridge to Cathedral Square. Find the Shady Lady and pass through the shop to reach the alley."
   },
   {
    "q": "Why does the map call this the Dwarven District?",
@@ -33,7 +33,7 @@
     "why does it say dwarven district",
     "cut-throat alley name bug"
    ],
-   "answer": "Cut-Throat Alley falls within the Dwarven District's bounds and is usually counted as part of it. It shares none of the district's smoke and has no street connection; enter through the Shady Lady on the canal front."
+   "answer": "Cut-Throat Alley lies within the Dwarven District's bounds and is usually counted as part of it. It has none of the district's smoke and no street connection. Enter through the Shady Lady on the canal front."
   },
   {
    "q": "Is anyone living in Cut-Throat Alley?",
@@ -42,7 +42,7 @@
     "who lives in cut throat alley",
     "empty house cut throat alley"
    ],
-   "answer": "No one lives in Cut-Throat Alley. Its lone two-story house is abandoned, and the alley has only stacked cargo crates and empty barrels, with no residents, shopkeepers, or city watchmen."
+   "answer": "No one lives in Cut-Throat Alley. Its only house, a two-story residence, is abandoned. Stacked cargo crates and empty barrels are all that remain; there are no residents, shopkeepers, or city watchmen."
   },
   {
    "q": "Are there any quests in Cut-Throat Alley?",
@@ -50,13 +50,13 @@
     "cut throat alley quests",
     "cut throat alley storyline"
    ],
-   "answer": "No formal duties or civic assignments lead into Cut-Throat Alley. It is an overlooked, secluded corner of the capital."
+   "answer": "No formal duties or civic assignments lead into Cut-Throat Alley. It remains an overlooked, secluded corner of the capital."
   }
  ],
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "As a Rogue, you can reach this unpatrolled dead end only through the rear door of a shady canal shop. It offers a hideout away from the Stormwind City Guard's eyes."
+   "text": "As a Rogue, you can reach this unpatrolled dead end only through the rear door of a shady canal shop. It offers a hideout beyond the Stormwind City Guard's sight."
   }
  ],
  "keywords": [
@@ -77,5 +77,5 @@
  "attribution": [
   "Cut-Throat Alley"
  ],
- "style": 1
+ "style": 2
 }

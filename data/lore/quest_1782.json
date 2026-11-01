@@ -17,16 +17,16 @@
   "wiki": "Furen's Armor",
   "chain": []
  },
- "summary": "In Stormwind, Furen Longbeard seeks help testing new armor. An aspiring warrior gathers spider fangs, chimaera horns, and phlogiston so the master smith can forge fire-hardened mail. Furen gives the finished armor to the warrior and promises to share what he learned with Alliance smiths.",
+ "summary": "In Stormwind, Furen Longbeard puts new armor to the test. An aspiring warrior gathers spider fangs, chimaera horns, and phlogiston for his trials. Furen then gives the fire-hardened mail to the warrior and promises to share what he learned with Alliance smiths.",
  "sections": [
   {
    "title": "A Master's Breakthrough",
-   "body": "Furen Longbeard, a dwarven armorer in Stormwind, works to improve how Alliance armor withstands heat and crushing blows. He asks an aspiring warrior to gather rare materials for his tests. The resulting mail proves a success and strengthens Furen's standing among Alliance armorers.",
+   "body": "Furen Longbeard, a dwarven armorer in Stormwind, seeks stronger armor for the Alliance. He tests how well it withstands heat and crushing blows. For these trials, he asks an aspiring warrior to gather rare materials. The resulting mail succeeds, strengthening Furen's standing among Alliance armorers.",
    "spoiler": 0
   },
   {
    "title": "Sharing the Craft",
-   "body": "Furen gives the finished fire-hardened mail to the warrior who gathered the materials, grateful for their help. The experiments also deepen his knowledge of protective smithing. He plans to send his notes and findings to other Alliance smiths, so they can put the new methods to use.",
+   "body": "Furen gives the finished fire-hardened mail to the warrior who gathered the materials. He is grateful for the help, and the experiments have deepened his knowledge of protective smithing. Now he plans to send his notes and findings to other Alliance smiths, so they can use the new methods.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "furen longbeard",
     "stormwind smith furen"
    ],
-   "answer": "Furen Longbeard is a master dwarven armorer in Stormwind who works extensively with the Alliance's martial orders, especially warriors seeking specialized armor."
+   "answer": "Furen Longbeard is a master dwarven armorer in Stormwind. He works extensively with the Alliance's martial orders, especially warriors seeking specialized armor."
   },
   {
    "q": "What kind of armor did Furen create?",
@@ -47,7 +47,7 @@
     "fire hardened mail",
     "furen's reward"
    ],
-   "answer": "Furen forged a Fire Hardened Hauberk, a mail chest piece made with rare fangs, horns, and phlogiston. It is designed to withstand fierce attacks and extreme heat."
+   "answer": "Furen forged a Fire Hardened Hauberk, a mail chest piece made with rare fangs, horns, and phlogiston. It is built to withstand fierce attacks and extreme heat."
   },
   {
    "q": "Where does Furen Longbeard send his smithing discoveries?",
@@ -56,7 +56,7 @@
     "who gets furen's designs",
     "alliance blacksmiths"
    ],
-   "answer": "Furen promises to send his findings and notes to fellow blacksmiths across the Alliance, sharing the tested tempering methods with forges throughout the realm."
+   "answer": "Furen promises to send his findings and notes to fellow blacksmiths across the Alliance. He shares the tested tempering methods with forges throughout the realm."
   },
   {
    "q": "Why was the warrior asked to gather reagents for Furen?",
@@ -64,7 +64,7 @@
     "why gather reagents for furen",
     "fire hardened mail quest materials"
    ],
-   "answer": "Furen needed rare, volatile materials to test new smithing techniques. Unable to leave his forge to hunt spiders in the Wetlands and chimaeras in Stonetalon, he relied on an ambitious warrior to gather them."
+   "answer": "Furen needed rare, volatile materials to test new smithing techniques. He could not leave his forge to hunt spiders in the Wetlands and chimaeras in Stonetalon, so he relied on an ambitious warrior to gather them."
   },
   {
    "q": "Where is this armor forged and delivered?",
@@ -73,7 +73,7 @@
     "turn in location",
     "furen location"
    ],
-   "answer": "Furen forges and delivers the armor at his forge in Stormwind, where he completes the mail suit."
+   "answer": "Furen forges and delivers the armor at his forge in Stormwind. There he completes the mail suit."
   },
   {
    "q": "Does this work benefit other Alliance fighters?",
@@ -87,15 +87,15 @@
  "angles": [
   {
    "target": "class:Warrior",
-   "text": "As an Alliance warrior, earning Furen's custom-tempered armor marks a passage into frontline service and offers protection for early campaigns."
+   "text": "As an Alliance warrior, you earn Furen's custom-tempered armor as you enter frontline service. It offers protection for early campaigns."
   },
   {
    "target": "profession:Blacksmithing",
-   "text": "Furen's experiment reflects how Alliance smiths share metallurgical findings to improve their craft in Stormwind and Ironforge."
+   "text": "Furen's experiment shows how Alliance smiths share metallurgical findings to improve their craft in Stormwind and Ironforge."
   },
   {
    "target": "faction:Alliance",
-   "text": "Strong arms help keep Alliance forces alive against threats from the Defias, gnolls, and hostile elemental forces."
+   "text": "Strong arms help keep Alliance forces alive against the Defias, gnolls, and hostile elemental forces."
   }
  ],
  "keywords": [
@@ -115,5 +115,5 @@
  "attribution": [
   "Furen's Armor"
  ],
- "style": 1
+ "style": 2
 }

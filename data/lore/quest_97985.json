@@ -11,28 +11,28 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "A researcher studying abomination creation seeks a massive heart from Stormheart, a thunder lizard in Thousand Needles. The heart is needed for the researcher\u2019s work.",
+ "summary": "In Thousand Needles, the researcher seeks Stormheart’s massive heart for work on an abomination.",
  "sections": [
   {
    "title": "A Large Heart",
-   "body": "The researcher has studied notes on creating an abomination and believes the work requires a massive heart. Stormheart, a thunder lizard said to patrol the canyon edge in Thousand Needles, seems the right size. The researcher warns that Stormheart is not docile.",
+   "body": "A researcher studying abomination creation believes the work calls for a massive heart. Stormheart, a thunder lizard said to patrol the canyon edge in Thousand Needles, seems large enough. But Stormheart is not docile.",
    "spoiler": 0
   },
   {
    "title": "The Heart",
-   "body": "Stormheart\u2019s heart still carries electrical pulses. The researcher says it appears to be the specified size and will be added to the abomination.",
+   "body": "Stormheart’s heart still carries electrical pulses. The researcher says it appears to match the size specified in the notes and will be added to the abomination.",
    "spoiler": 1
   }
  ],
  "faq": [
   {
-   "q": "Who wants Stormheart\u2019s heart?",
+   "q": "Who wants Stormheart’s heart?",
    "aliases": [
     "who needs the heart",
     "abomination researcher",
     "who sent me"
    ],
-   "answer": "A researcher studying the secrets of abomination creation wants Stormheart\u2019s heart for an abomination."
+   "answer": "A researcher studying abomination creation wants Stormheart’s heart for an abomination."
   },
   {
    "q": "Where is Stormheart?",
@@ -59,7 +59,7 @@
     "abomination heart",
     "what's the heart for"
    ],
-   "answer": "The researcher\u2019s notes indicate that abomination creation requires a massive heart."
+   "answer": "The researcher’s notes say abomination creation requires a massive heart."
   },
   {
    "q": "What does the researcher know about the heart?",
@@ -68,7 +68,7 @@
     "electrical heart",
     "what's special about it"
    ],
-   "answer": "The researcher says the heart still has electrical pulses and appears to be the size specified in the notes."
+   "answer": "The researcher says the heart still carries electrical pulses and appears to match the size specified in the notes."
   }
  ],
  "angles": [],
@@ -84,7 +84,7 @@
  "related": [
   "zone:thousandneedles"
  ],
- "style": 1,
+ "style": 2,
  "attribution": [
   "In-game quest text: Thundering Hearts"
  ]

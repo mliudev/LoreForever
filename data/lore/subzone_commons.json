@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Commons"
  },
- "summary": "Travelers and traders crowd the Commons, just inside Ironforge's gates. The district links the entrance to the mountain city's great caverns and draws merchants, travelers, and bankers from across the Alliance.",
+ "summary": "Travelers and traders fill the Commons just inside Ironforge's gates. From here, the mountain city's great caverns open before them, and merchants, travelers, and bankers arrive from across the Alliance.",
  "sections": [
   {
    "title": "The Commercial Hub of the Mountain",
-   "body": "The Commons greets you just northeast of the Gates of Ironforge. Carved from the mountain stone, its market street holds the Alliance Auction House, Stonefire Tavern, and the city's central bank in the Vault of Ironforge. Broad roads lead from here to the Great Forge, the Mystic Ward, and the Military Ward. Nearly everyone crossing the mountain city passes its shops.",
+   "body": "The Commons greets you just northeast of the Gates of Ironforge. Its market street is cut from mountain stone, with the Alliance Auction House, Stonefire Tavern, and the central bank in the Vault of Ironforge. Broad roads lead to the Great Forge, the Mystic Ward, and the Military Ward. Nearly everyone crossing the city passes its shops.",
    "spoiler": 0
   },
   {
    "title": "A Crossroads for the Alliance",
-   "body": "The Commons draws trade from across the Eastern Kingdoms. Ironforge's central position and the underground Deeprun Tram link to Stormwind bring travelers and merchants here. Adventurers trade goods from across Azeroth, buy weapons at Steelfury's Weapon Emporium, or purchase reagents from Barim. Some meet beneath the inn's warm lanterns before setting out into the snows of Khaz Modan.",
+   "body": "Trade reaches the Commons from across the Eastern Kingdoms. Ironforge's central position and the underground Deeprun Tram to Stormwind bring travelers and merchants through its streets. Adventurers trade goods from across Azeroth, buy weapons at Steelfury's Weapon Emporium, or purchase reagents from Barim. Some gather beneath the inn's warm lanterns before setting out into the snows of Khaz Modan.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "why so many players here",
     "ironforge trade hub"
    ],
-   "answer": "The Commons is crowded because it holds the Alliance Auction House, Ironforge's main bank in the Vault of Ironforge, and Stonefire Tavern. Just inside the main gates, it is a convenient place to meet and trade."
+   "answer": "The Commons is crowded because the Alliance Auction House, the Vault of Ironforge, and Stonefire Tavern are here. Just inside the main gates, it is an easy place to meet and trade."
   },
   {
    "q": "Where does the Commons lead?",
@@ -37,7 +37,7 @@
     "how to leave commons",
     "commons directions"
    ],
-   "answer": "The Commons leads to nearly every major district in Ironforge. Southwest takes you back to the city gates, northeast to the Great Forge, east toward the Military Ward, and north into the Mystic Ward."
+   "answer": "The Commons leads to nearly every major district in Ironforge. Southwest lies the city gates, northeast the Great Forge, east the Military Ward, and north the Mystic Ward."
   },
   {
    "q": "What key shops and services are found here?",
@@ -55,7 +55,7 @@
     "ironforge vault",
     "bank location"
    ],
-   "answer": "Yes. The Vault of Ironforge, the city's main bank, is across from the Auction House in the Commons."
+   "answer": "Yes. The Vault of Ironforge, the city's main bank, stands across from the Auction House in the Commons."
   }
  ],
  "angles": [
@@ -65,7 +65,7 @@
   },
   {
    "target": "race:Dwarf",
-   "text": "As a Bronzebeard dwarf, the Commons shows how dwarven hospitality, industry, and commerce thrive deep within a frozen mountain."
+   "text": "As a Bronzebeard dwarf, you can see dwarven hospitality, industry, and commerce thriving deep within a frozen mountain."
   }
  ],
  "keywords": [
@@ -90,5 +90,5 @@
  "attribution": [
   "Commons"
  ],
- "style": 1
+ "style": 2
 }

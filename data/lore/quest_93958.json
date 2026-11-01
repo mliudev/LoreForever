@@ -19,7 +19,7 @@
     "who is valennia stormfist",
     "valennia"
    ],
-   "answer": "Valennia Stormfist is a commander leading an assault into the depths of the Shrine of Akir. She spearheaded the breach into the inner sanctum with her forces, though the fierce clash inside abruptly subsided into an ominous silence.",
+   "answer": "Valennia Stormfist commands the assault into the depths of the Shrine of Akir. She led her forces through the breach into the inner sanctum, where the fighting soon fell silent.",
    "q": "Who is Valennia Stormfist?"
   },
   {
@@ -28,7 +28,7 @@
     "shrine of akir lore",
     "akir shrine"
    ],
-   "answer": "The Shrine of Akir houses an inner sanctum currently under assault. Valennia's troops breached its defenses amidst heavy fighting, making it the center of a tense and deadly confrontation.",
+   "answer": "The Shrine of Akir holds an inner sanctum now under assault. Valennia's troops broke through its defenses amid heavy fighting, making the shrine the heart of a deadly clash.",
    "q": "What is the Shrine of Akir?"
   },
   {
@@ -37,7 +37,7 @@
     "what happened to valennias forces",
     "valennia soldiers"
    ],
-   "answer": "Heavy combat echoed from within immediately following the breach, but the sounds of battle ceased suddenly. An unsettling calm settled over the inner sanctum, leaving allies outside to fear that Valennia's vanguard may have been overwhelmed or wiped out.",
+   "answer": "Heavy fighting rang out inside after the breach, then stopped all at once. The silence leaves allies outside fearing Valennia's vanguard may have been overwhelmed or killed.",
    "q": "What happened to Valennia's forces inside?"
   },
   {
@@ -46,7 +46,7 @@
     "did valennia die",
     "valennia fate"
    ],
-   "answer": "Valennia survives the assault, but she is found gravely wounded inside the inner sanctum of the Shrine of Akir after the fighting subsides.",
+   "answer": "Valennia Stormfist survives the assault, gravely wounded inside the Shrine of Akir's inner sanctum after the fighting ends.",
    "q": "Is Valennia Stormfist still alive?"
   },
   {
@@ -54,7 +54,7 @@
     "what is the inner sanctum",
     "inner sanctum quest purpose"
    ],
-   "answer": "The inner sanctum is the deepest chamber within the Shrine of Akir. The mission directs an ally to enter the chamber alone, assess the aftermath of the breach, and make contact with Valennia and any surviving fighters.",
+   "answer": "The inner sanctum is the deepest chamber in the Shrine of Akir. You are sent in alone to assess the aftermath and find Valennia and any fighters who survived.",
    "q": "What is the objective inside the inner sanctum?"
   },
   {
@@ -62,7 +62,7 @@
     "who sends you to valennia",
     "quest giver inner sanctum"
    ],
-   "answer": "An ally watching the rear outside the inner sanctum sends you in. While holding the perimeter to watch your back, they send you forward to link up with Valennia's vanguard.",
+   "answer": "An ally keeping watch at the rear outside the inner sanctum sends you in. They hold the perimeter and watch your back as you go to join Valennia's vanguard.",
    "q": "Who sends you into the inner sanctum?"
   }
  ],
@@ -77,18 +77,19 @@
  "related": [],
  "sections": [
   {
-   "body": "Following an intense assault, Valennia Stormfist led her detachment to breach the inner sanctum within the Shrine of Akir. The initial clash produced sounds of thick, desperate fighting from deep within the chambers, but the noise soon gave way to an unsettling, abrupt silence that left allies outside bracing for the worst.",
+   "body": "Valennia Stormfist led her detachment into the inner sanctum of the Shrine of Akir after a hard assault. Fighting sounded from deep within the chambers, fierce and desperate. Then the noise stopped without warning. Allies waiting outside can only fear the worst.",
    "spoiler": 0,
    "title": "A Sudden Silence"
   },
   {
-   "body": "Venturing into the quieted sanctum reveals the grim cost of the assault. Rather than a victorious vanguard securing the position, Valennia Stormfist is discovered gravely wounded in the aftermath of the battle, with the fate of her vanguard left precariously in question.",
+   "body": "Valennia Stormfist is found gravely wounded inside the quiet sanctum. Her vanguard's fate remains uncertain in the aftermath of the battle.",
    "spoiler": 1,
    "title": "The Cost of the Breach"
   }
  ],
- "summary": "The Inner Sanctum centers on a perilous reconnaissance into the deepest chamber of the Shrine of Akir. After Valennia Stormfist and her strike force breached the sanctum amidst heavy fighting, an eerie silence fell over the area, prompting an urgent mission to discover if any survivors remain.",
+ "summary": "At the Shrine of Akir, Valennia Stormfist's assault has gone silent. Her force breached the deepest chamber amid fierce fighting, and now allies outside fear for those within.",
  "attribution": [
   "In-game quest text: The Inner Sanctum"
- ]
+ ],
+ "style": 2
 }

@@ -17,21 +17,21 @@
   "wiki": "Shadow of the Past (quest)",
   "chain": []
  },
- "summary": "In Stormwind, the trail from a Stockade prisoner leads into the city’s hidden dealings. Baros Alexston sends you to Mathias Shaw after a mysterious visitor spoke with Bazil Thredd.",
+ "summary": "The trail from a Stockade prisoner leads into Stormwind’s hidden dealings in Shadow of the Past. Baros Alexston sends you to Mathias Shaw after a mysterious visitor spoke with Bazil Thredd.",
  "sections": [
   {
    "title": "A Lead in the Shadows",
-   "body": "Baros Alexston cannot identify the visitor who spoke with Bazil Thredd, the Stockade’s chief prisoner. Warden Thelwater’s account has brought investigators to the city architect, but he has no name to offer. Instead, Baros points you toward Master Mathias Shaw, who leads SI:7 and makes it his business to know Stormwind’s secrets.",
+   "body": "Baros Alexston cannot name the visitor who spoke with Bazil Thredd, the Stockade’s chief prisoner. Warden Thelwater’s account brought investigators to Stormwind’s city architect, but he has no name to give. So Baros points you to Master Mathias Shaw. Shaw leads SI:7 and makes it his business to know Stormwind’s secrets.",
    "spoiler": 0
   },
   {
    "title": "Unmasking the Visitor",
-   "body": "At SI:7 headquarters in Old Town, Mathias Shaw studies the sealed description and sees through the visitor’s alias, Maelik. The marks point to a professional killer, one who casts off names as easily as cloaks. Shaw knows him as an assassin often called Marzon.",
+   "body": "At SI:7 headquarters in Old Town, Mathias Shaw studies the sealed description and sees through the visitor’s alias, Maelik. The marks point to a professional killer who casts off names as easily as cloaks. Shaw knows him as an assassin often called Marzon.",
    "spoiler": 1
   },
   {
    "title": "Treachery in the Nobility",
-   "body": "Mathias Shaw says Marzon works for Lord Gregor Lescovar, a Stormwind nobleman known for deceit. The connection reaches beyond the Defias Brotherhood’s rebellion in Westfall and into Stormwind’s aristocratic halls.",
+   "body": "Mathias Shaw says Marzon works for Lord Gregor Lescovar, a Stormwind nobleman known for deceit. The connection reaches beyond the Defias Brotherhood’s rebellion in Westfall. It leads into Stormwind’s aristocratic halls.",
    "spoiler": 1
   }
  ],
@@ -51,7 +51,7 @@
     "where is shaw",
     "find mathias shaw"
    ],
-   "answer": "Mathias Shaw is at SI:7 headquarters in Old Town, Stormwind. It is the covert intelligence center for the crown’s rogues, scouts, and intelligence officers."
+   "answer": "Mathias Shaw is at SI:7 headquarters in Old Town, Stormwind. The covert intelligence center serves the crown’s rogues, scouts, and intelligence officers."
   },
   {
    "q": "Who was the mysterious visitor to the Stockade?",
@@ -90,11 +90,11 @@
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "As a rogue, you can see the heights of Alliance tradecraft and political surveillance when you report to Mathias Shaw in Old Town."
+   "text": "As a rogue, you see the heights of Alliance tradecraft and political surveillance when you report to Mathias Shaw in Old Town."
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance member, you see the investigation connect Defias banditry to Stormwind’s nobility."
+   "text": "As an Alliance member, you see the investigation link Defias banditry to Stormwind’s nobility."
   },
   {
    "target": "race:Human",
@@ -124,5 +124,5 @@
  "attribution": [
   "Shadow of the Past (quest)"
  ],
- "style": 1
+ "style": 2
 }

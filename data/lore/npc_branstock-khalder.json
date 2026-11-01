@@ -8,11 +8,11 @@
   "wiki": "Branstock Khalder",
   "refs": 1
  },
- "summary": "At Anvilmar in Coldridge Valley, Branstock Khalder trains dwarven priests in the Holy Light and watches the trogg threat beyond the outpost.",
+ "summary": "At Anvilmar in Coldridge Valley, Branstock Khalder guides dwarven priests in the Holy Light and watches the trogg threat beyond the outpost.",
  "sections": [
   {
    "title": "A Guiding Hand in Coldridge",
-   "body": "At Anvilmar, Branstock Khalder guides aspiring priests through their first prayers and sacred runes. This easy-going dwarf is devoted to the Light, yet keeps watch on the growing trogg threat to the local mountaineers. When a novice has learned enough of the Light, Branstock sends them through Coldridge Pass to Kharanos for further guidance from his superior, Father Maxan Anvol.",
+   "body": "At Anvilmar, Branstock Khalder teaches novice priests their first prayers and sacred runes. He guides them in the Light while troggs menace the local mountaineers. When a novice has learned enough, Branstock sends them through Coldridge Pass to Kharanos. There, they can seek further guidance from his superior, Father Maxan Anvol.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "who is branstock",
     "anvilmar priest trainer"
    ],
-   "answer": "At Anvilmar in Coldridge Valley, Branstock Khalder trains young dwarven priests in the Holy Light and offers counsel to those facing the valley’s hardships."
+   "answer": "At Anvilmar in Coldridge Valley, Branstock Khalder trains young dwarven priests in the Holy Light and counsels them through the valley’s hardships."
   },
   {
    "q": "Where does Branstock send his students next?",
@@ -33,7 +33,7 @@
     "branstock next quest",
     "priest path from anvilmar"
    ],
-   "answer": "Branstock sends young priests through Coldridge Pass to Kharanos, where they can seek further guidance from his superior, Father Maxan Anvol."
+   "answer": "Branstock sends young priests through Coldridge Pass to Kharanos for further guidance from his superior, Father Maxan Anvol."
   },
   {
    "q": "What is Branstock concerned about in Coldridge Valley?",
@@ -42,7 +42,7 @@
     "branstock worries",
     "trogg threat coldridge"
    ],
-   "answer": "Branstock is concerned about the growing trogg threat in Coldridge Valley and the danger it poses to the local mountaineers."
+   "answer": "Branstock is concerned about the growing trogg threat in Coldridge Valley and the danger it poses to local mountaineers."
   },
   {
    "q": "What does he say to non-priests?",
@@ -50,7 +50,7 @@
     "branstock quote",
     "branstock gossip text"
    ],
-   "answer": "Branstock advises you never to turn your back on the Light, for faith may save your life someday."
+   "answer": "Branstock advises you never to turn your back on the Light. Faith may save your life someday."
   }
  ],
  "angles": [
@@ -60,7 +60,7 @@
   },
   {
    "target": "race:Dwarf",
-   "text": "As a dwarf, you find in Branstock a practical devotion to the Light and resilience in the face of the cold and trogg threat."
+   "text": "As a dwarf, you find in Branstock a practical devotion to the Light and resilience against the cold and trogg threat."
   }
  ],
  "keywords": [
@@ -86,5 +86,5 @@
  "attribution": [
   "Branstock Khalder"
  ],
- "style": 1
+ "style": 2
 }

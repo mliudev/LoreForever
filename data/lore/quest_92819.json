@@ -17,16 +17,16 @@
   "wiki": "Destruction in Deadmines (2)",
   "chain": []
  },
- "summary": "In Westfall, Alba Fairmoon sends an operative to destroy the Defias forge in the Deadmines. The explosives are already planted, and Alba waits in the hills behind Moonbrook for the detonator.",
+ "summary": "Alba Fairmoon sends you against the Defias forge beneath Westfall. The explosives are planted, and she waits in the hills behind Moonbrook with the detonator.",
  "sections": [
   {
    "title": "Sabotage Beneath Westfall",
-   "body": "The Deadmines hold the Defias Brotherhood's strength beneath Westfall. Alba Fairmoon directs you to sabotage the forge hidden in the mines. The explosives are already planted beside it, and you return to Alba in the hills behind Moonbrook to set them off from a safe distance. She hopes destroying the forge will let Westfall's poisoned land begin to heal.",
+   "body": "Beneath Westfall, the Deadmines hold the Defias Brotherhood's strength. Alba Fairmoon sends you to sabotage the forge hidden in the mines. The explosives are planted beside it. You return to Alba in the hills behind Moonbrook, where you can set them off from a safe distance. She hopes the blast will let Westfall's poisoned land begin to heal.",
    "spoiler": 0
   },
   {
    "title": "The Detonator",
-   "body": "The charge sits beside the forge deep in the Deadmines. A remote detonator lets you set it off from outside the caves, after you rejoin Alba Fairmoon in the hills behind Moonbrook. She hopes that with the forge destroyed, Westfall's poisoned land can begin to heal.",
+   "body": "Deep in the Deadmines, the charge waits beside the forge. After you rejoin Alba Fairmoon in the hills behind Moonbrook, a remote detonator lets you set it off from outside the caves. She hopes the destroyed forge will let Westfall's poisoned land begin to heal.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "quest giver deadmines detonation",
     "alba fairmoon quest"
    ],
-   "answer": "Alba Fairmoon, an operative in Westfall, gives you the assignment and directs you against the Defias Brotherhood's stronghold."
+   "answer": "Alba Fairmoon, an operative in Westfall, sends you against the Defias Brotherhood's stronghold."
   },
   {
    "q": "What is the primary objective of this mission?",
@@ -47,7 +47,7 @@
     "destruction in deadmines goal",
     "how to complete destruction in deadmines"
    ],
-   "answer": "You set off the explosives planted beside the Defias forge in the Deadmines, using the detonator from outside the mines after rejoining Alba Fairmoon."
+   "answer": "You set off the explosives planted beside the Defias forge in the Deadmines. Rejoin Alba Fairmoon, then use the detonator from outside the mines."
   },
   {
    "q": "Why target the Deadmines with explosives?",
@@ -56,7 +56,7 @@
     "deadmines sabotage lore",
     "why use detonator in deadmines"
    ],
-   "answer": "Alba Fairmoon traced the poison in Westfall's farmland to a large metallurgical forge hidden in the Deadmines. She hopes destroying it will let the land begin to heal."
+   "answer": "Alba Fairmoon traced the poison in Westfall's farmland to a large metallurgical forge hidden in the Deadmines. She hopes its destruction will let the land begin to heal."
   },
   {
    "q": "Where does this quest take place?",
@@ -65,7 +65,7 @@
     "where is destruction in deadmines",
     "deadmines detonator location"
    ],
-   "answer": "You return to Alba Fairmoon in the hills behind Moonbrook, outside the Deadmines, after the explosives are planted."
+   "answer": "After the explosives are planted, you return to Alba Fairmoon in the hills behind Moonbrook, outside the Deadmines."
   },
   {
    "q": "Is this mission available to Horde players?",
@@ -88,11 +88,11 @@
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "The assignment centers on demolition and remotely triggered detonators, a craft that may appeal to engineers."
+   "text": "Demolition and remote detonators lie at the heart of this assignment, a craft that may appeal to engineers."
   },
   {
    "target": "class:Rogue",
-   "text": "You infiltrate enemy territory, plant charges, and slip away before the blast in this act of covert sabotage."
+   "text": "You infiltrate enemy territory, plant charges, then slip away before the blast in an act of covert sabotage."
   },
   {
    "target": "faction:Alliance",
@@ -115,5 +115,5 @@
  "attribution": [
   "Destruction in Deadmines (2)"
  ],
- "style": 1
+ "style": 2
 }

@@ -11,16 +11,16 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "Breton Samuels asks you to help drive back murlocs troubling the keep. Their attacks are making it harder to rebuild.",
+ "summary": "Breton Samuels asks you to drive back murlocs troubling the keep. Their attacks make rebuilding harder.",
  "sections": [
   {
    "title": "The Murloc Problem",
-   "body": "A tribe of murlocs once used the keep as spawning grounds. Since you and the others drove them out, they have remained a problem, and their attacks are growing harder to manage. Breton Samuels asks you to drive back some of them. They lurk in the bluffs along the eastern road and in camps around the lake to the west.",
+   "body": "Murlocs still trouble the keep after you and the others drove them from their spawning grounds. Their attacks are growing harder to manage, so Breton Samuels asks you to drive back some of them. They lurk in the bluffs along the eastern road and in camps around the lake to the west.",
    "spoiler": 0
   },
   {
    "title": "The Attacks",
-   "body": "Breton Samuels expects the attacks to continue, but hopes pushing back the Vile Fin attackers and seers will slow them down. The keep is already difficult to rebuild with murlocs striking at its people.",
+   "body": "Breton Samuels expects the attacks to continue. He hopes pushing back the Vile Fin attackers and seers will slow them down. The keep is already hard to rebuild while murlocs strike at its people.",
    "spoiler": 0
   }
  ],
@@ -41,7 +41,7 @@
     "murloc problem",
     "what are they doing"
    ],
-   "answer": "The murlocs have troubled the keep since its people drove them from their spawning grounds, and their attacks are becoming harder to manage."
+   "answer": "The murlocs have troubled the keep since its people drove them from their spawning grounds. Their attacks are becoming harder to manage."
   },
   {
    "q": "Where are the murlocs?",
@@ -85,7 +85,7 @@
  "related": [
   "topic:murloc"
  ],
- "style": 1,
+ "style": 2,
  "attribution": [
   "In-game quest text: Murlocs at the Gates"
  ]

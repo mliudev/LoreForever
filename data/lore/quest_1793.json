@@ -18,11 +18,11 @@
   "wiki": "The Tome of Valor",
   "chain": []
  },
- "summary": "Alliance paladins face a trial of courage and duty in the Tome of Valor. Mentors in Stormwind and Ironforge ask them to prove they will protect the innocent as well as fight with skill.",
+ "summary": "In Stormwind and Ironforge, young Alliance paladins face a trial of courage and duty. Their mentors ask them to prove they can fight with skill and protect the innocent.",
  "sections": [
   {
    "title": "The Measure of a Paladin",
-   "body": "Young paladins in Stormwind and Ironforge must prove their resolve. In the Cathedral of Light and the Hall of Mysteries, instructors test whether each initiate can face terrible danger without faltering. The trial measures more than armor or skill with a weapon. Paladins must also show they will stay beside those who cannot defend themselves, whether the threat comes from dragons or demons.",
+   "body": "Young paladins in Stormwind and Ironforge must face terrible danger without faltering. Their instructors test their resolve in the Cathedral of Light and the Hall of Mysteries. Dragons and demons may threaten those who cannot defend themselves. The paladins must stay beside them.",
    "spoiler": 0
   },
   {
@@ -48,7 +48,7 @@
     "tome of valor questgiver",
     "who starts tome of valor"
    ],
-   "answer": "Senior paladins in Alliance capitals direct initiates through the trial. Duthorian Rall calls them from the Cathedral of Light in Stormwind, while Tiza Battleforge does so from Ironforge's Hall of Mysteries."
+   "answer": "Senior paladins in Alliance capitals guide initiates through the trial. Duthorian Rall calls them from the Cathedral of Light in Stormwind, while Tiza Battleforge does so from Ironforge's Hall of Mysteries."
   },
   {
    "q": "Where does this trial lead?",
@@ -65,7 +65,7 @@
     "why valor",
     "why courage matters to paladins"
    ],
-   "answer": "Bravery helps a paladin keep faith and protect others when faced with horrors like demons or dragons. Without courage, fear can break a warrior's spirit."
+   "answer": "Bravery helps a paladin keep faith and protect others when horrors such as demons or dragons threaten. Without courage, fear can break a warrior's spirit."
   },
   {
    "q": "Do dwarf and human paladins undertake the same test?",
@@ -100,7 +100,7 @@
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance champion, you prepare to defend settlements against threats that range from local bandits to monstrous invaders."
+   "text": "As an Alliance champion, you prepare to defend settlements against threats ranging from local bandits to monstrous invaders."
   }
  ],
  "keywords": [
@@ -120,5 +120,5 @@
  "attribution": [
   "The Tome of Valor"
  ],
- "style": 1
+ "style": 2
 }

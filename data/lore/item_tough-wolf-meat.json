@@ -10,11 +10,11 @@
    "quest:33"
   ]
  },
- "summary": "Northshire and Coldridge wolves prowl their valleys, leaving raw Tough Wolf Meat for hungry locals. Coarse and stringy, it feeds people in Elwynn Forest and supplies dwarven outfitters in Dun Morogh.",
+ "summary": "In Northshire and Coldridge, wolves prowl their valleys and provide meat for hungry locals. Tough Wolf Meat is coarse and stringy. People in Elwynn Forest eat it, and dwarven outfitters in Dun Morogh use it to stock their supplies.",
  "sections": [
   {
    "title": "Frontier Rations",
-   "body": "Wolves prowl near Northshire Valley and Dun Morogh, threatening nearby settlements and providing a hard-won source of food. Their meat is coarse, stringy, and chewy, but resource-strapped frontiersmen prize it. Outside Northshire Abbey, Eagan Peltskinner hates the vicious beasts yet cooks their meat into steaks. He trades basic supplies and gear to those willing to cull the packs.",
+   "body": "Wolves prowl near Northshire Valley and Dun Morogh. They threaten nearby settlements, yet their meat offers a hard-won source of food. Coarse, stringy and chewy, it is prized by resource-strapped frontiersmen.\n\nOutside Northshire Abbey, Eagan Peltskinner hates the vicious beasts but cooks their meat into steaks. He trades basic supplies and gear to those who cull the packs.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "how to get tough wolf meat",
     "where to farm tough wolf meat"
    ],
-   "answer": "Hunting young wolves and timber wolves in Northshire Valley in Elwynn Forest, and ragged wolves in Coldridge Valley in Dun Morogh, provides Tough Wolf Meat."
+   "answer": "Young wolves and timber wolves in Northshire Valley in Elwynn Forest provide Tough Wolf Meat. Ragged wolves in Coldridge Valley in Dun Morogh provide it too."
   },
   {
    "q": "Who wants to collect this meat in Elwynn Forest?",
@@ -35,7 +35,7 @@
     "eagan peltskinner meat",
     "wolf meat turn in"
    ],
-   "answer": "Eagan Peltskinner, outside Northshire Abbey, collects the meat. He hates the wolves but cooks their meat into steaks and trades spare equipment to new recruits who bring him eight cuts."
+   "answer": "Eagan Peltskinner, outside Northshire Abbey, collects the meat. He hates the wolves, but cooks their meat into steaks and trades spare equipment to new recruits who bring him eight cuts."
   },
   {
    "q": "Is this meat useful outside of human lands?",
@@ -52,7 +52,7 @@
     "can you cook tough wolf meat",
     "tough wolf meat recipes"
    ],
-   "answer": "No. Tough Wolf Meat is strictly a bounty for local frontiersmen such as Eagan Peltskinner and Coldridge outfitters, not an ingredient in standard camp cooking recipes."
+   "answer": "No. Local frontiersmen such as Eagan Peltskinner and Coldridge outfitters seek Tough Wolf Meat as a bounty. It is not an ingredient in standard camp cooking recipes."
   }
  ],
  "angles": [
@@ -86,5 +86,5 @@
   "Tough Wolf Meat",
   "Wolves Across the Border"
  ],
- "style": 1
+ "style": 2
 }

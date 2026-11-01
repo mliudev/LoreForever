@@ -20,16 +20,16 @@
    "Coldridge Valley Mail Delivery (2)"
   ]
  },
- "summary": "At Anvilmar, Coldridge Valley Mail Delivery carries news to scouts beyond the frozen lake. Snow and nearby troggs can leave the valley's defenders cut off, so correspondence keeps them connected.",
+ "summary": "At Anvilmar, Sten Stoutarm sends you west with mail for scouts beyond the frozen lake. Snow and nearby troggs can cut off the valley's defenders, leaving important news undelivered.",
  "sections": [
   {
    "title": "A Courier in the Snow",
-   "body": "In Coldridge Valley, news from the rest of Dun Morogh reaches Anvilmar by mountain pass. Winter couriers bring the mail, and the letters soon gather in the hall. Sten Stoutarm manages supplies and security, so he depends on recruits to carry the bundles down the western road. Without them, important messages would remain at Anvilmar.",
+   "body": "Mail from across Dun Morogh reaches Anvilmar by mountain pass, where winter couriers leave it to gather. Sten Stoutarm tends supplies and security, so recruits carry the bundles down the western road. Without your help, important messages remain in the hall.",
    "spoiler": 0
   },
   {
    "title": "Frontier Outposts",
-   "body": "Talin Keeneye watches the frozen lake to the west, keeping an eye on trogg movements and dangerous wildlife. Even at a cold outpost, news from Ironforge and the surrounding camps matters. The mountain conditions make sorting mail difficult, and letters for different scouts can end up together in one bundle.",
+   "body": "Talin Keeneye watches the frozen lake west of Anvilmar for trogg movements and dangerous wildlife. Even at a cold outpost, news from Ironforge and the surrounding camps matters. Harsh mountain conditions make sorting mail difficult, so letters for different scouts can end up together in one bundle.",
    "spoiler": 0
   }
  ],
@@ -41,7 +41,7 @@
     "who gives coldridge valley mail delivery",
     "sten stoutarm quest"
    ],
-   "answer": "Sten Stoutarm gives you the delivery outside Anvilmar. Letters have just arrived through the mountain pass, but he is occupied with his duties and cannot carry them himself."
+   "answer": "Sten Stoutarm gives you the delivery outside Anvilmar. Letters have just arrived through the mountain pass, but his duties keep him from carrying them himself."
   },
   {
    "q": "Where is Talin Keeneye located?",
@@ -68,7 +68,7 @@
     "why doesnt sten deliver it",
     "mail delivery duty"
    ],
-   "answer": "Trogg incursions and local threats keep Sten and the other dwarven defenders busy with supply and security duties. Travelers and recruits can carry letters to the outlying posts."
+   "answer": "Trogg incursions and local threats keep Sten and the other dwarven defenders busy with supplies and security. Travelers and recruits can carry letters to the outlying posts."
   },
   {
    "q": "Does this quest lead to other tasks?",
@@ -95,7 +95,7 @@
   },
   {
    "target": "race:Gnome",
-   "text": "As a gnome living among allies in Dun Morogh after Gnomeregan's fall, helping carry messages builds trust with local dwarven defenders."
+   "text": "As a gnome living among allies in Dun Morogh after Gnomeregan's fall, carrying messages helps build trust with local dwarven defenders."
   },
   {
    "target": "faction:Alliance",
@@ -120,5 +120,5 @@
  "attribution": [
   "Coldridge Valley Mail Delivery"
  ],
- "style": 1
+ "style": 2
 }

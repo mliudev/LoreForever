@@ -24,16 +24,16 @@
   ],
   "category": "Tanaris"
  },
- "summary": "Anachronos greets you as the one fate has been waiting a thousand years to bring forward, a champion to lead their people into a new age. This opens the end of the Scepter of the Shifting Sands, and comes only after the Blue, Green and Red Scepter Shard forks are done.",
+ "summary": "In Tanaris, Anachronos greets you in The Might of Kalimdor as the champion fate has awaited for a thousand years. He sees you leading your people into a new age. The Blue, Green and Red Scepter Shard forks are complete, bringing the Scepter of the Shifting Sands to its end.",
  "sections": [
   {
    "title": "The Old God Trembles",
-   "body": "Anachronos speaks of a fate a thousand years in the making. The Old God is shaken by your coming and fears your faith, and Anachronos urges you to break the prophecy of C'Thun. You bring Kalimdor's strength with you. Whenever you are prepared, you need only tell Anachronos, who will place the Scepter of the Shifting Sands in your hands.",
+   "body": "Anachronos speaks of a fate a thousand years in the making. The Old God trembles at your coming and fears your faith. Anachronos urges you to break C'Thun's prophecy, and you bring Kalimdor's strength with you. When you are ready, tell Anachronos, and he will place the Scepter of the Shifting Sands in your hands.",
    "spoiler": 0
   },
   {
    "title": "Words of Parting",
-   "body": "Anachronos declares the scepter complete again, and says it falls to you alone to wield it and lead your people into the age ahead. The Scarab Gong is not yours to ring yet: first the Horde and Alliance armies must both arrive in Silithus.",
+   "body": "Anachronos declares the Scepter of the Shifting Sands complete again. The scepter is yours alone to wield, and you are to lead your people into the age ahead. The Scarab Gong must wait: both the Horde and Alliance armies must first arrive in Silithus.",
    "spoiler": 1
   }
  ],
@@ -45,7 +45,7 @@
     "anachronos quest",
     "who gives the scepter"
    ],
-   "answer": "Anachronos. They offer it only to those who have finished all three of the Scepter Shard forks: Blue, Green and Red."
+   "answer": "Anachronos offers The Might of Kalimdor only after you finish all three Scepter Shard forks: Blue, Green and Red."
   },
   {
    "q": "What does the Old God fear?",
@@ -54,7 +54,7 @@
     "who fears the might of kalimdor",
     "cthun prophecy"
    ],
-   "answer": "Anachronos says the Old God C'Thun trembles at your coming and fears your faith, and urges you to shatter its prophecy."
+   "answer": "Anachronos says the Old God C'Thun trembles at your coming and fears your faith. He urges you to shatter C'Thun's prophecy."
   },
   {
    "q": "What must be done before this step?",
@@ -63,7 +63,7 @@
     "what do i need before might of kalimdor",
     "scepter shard forks"
    ],
-   "answer": "All three Scepter Shard forks must be finished first: the Blue, the Green and the Red."
+   "answer": "Finish all three Scepter Shard forks first: the Blue, the Green and the Red."
   }
  ],
  "angles": [],
@@ -83,5 +83,6 @@
  ],
  "attribution": [
   "The Might of Kalimdor"
- ]
+ ],
+ "style": 2
 }

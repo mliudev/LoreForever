@@ -17,16 +17,16 @@
   "wiki": "Report to Gryan Stoutmantle",
   "chain": []
  },
- "summary": "Westfall needs fighters, and Report to Gryan Stoutmantle sends you to answer the call. The crown leaves the outer farmlands to fend for themselves, so local defenders gather under Gryan Stoutmantle at Sentinel Hill.",
+ "summary": "At Sentinel Hill, Gryan Stoutmantle gathers Westfall's defenders against threats to the farms.",
  "sections": [
   {
    "title": "A Plea Across the River",
-   "body": "Westfall calls for skilled fighters from across the river. Brigands, gnolls, and hostile harvest golems are driving the farmlands into chaos. With no royal battalions answering, local volunteers must defend the realm.",
+   "body": "Guards along the Elwynn border and farmers driven west both send capable travelers toward Sentinel Hill. Those who answer join a defense built from local volunteers. No royal battalions come to their aid.",
    "spoiler": 0
   },
   {
    "title": "Sentinel Hill and the Militia",
-   "body": "The road leads you to Gryan Stoutmantle in the stone tower atop Sentinel Hill. He leads the People's Militia, a force of farmers, retired veterans, and mercenaries formed in response to royal inaction. The farmlands face a bitter guerrilla war against lawlessness.",
+   "body": "From the stone tower atop Sentinel Hill, Gryan Stoutmantle organizes farmers, retired veterans, and mercenaries into the People's Militia. You join their bitter guerrilla war to keep Westfall's farmlands from falling into lawlessness.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who is stoutmantle",
     "sentinel hill leader"
    ],
-   "answer": "Gryan Stoutmantle is a veteran fighter who commands the People's Militia. He organizes Westfall's defenses from the tower atop Sentinel Hill and gathers fighters to protect its farmers from bandits and beasts."
+   "answer": "Gryan Stoutmantle is a veteran fighter who commands the People's Militia. From the tower atop Sentinel Hill, he organizes Westfall's defenses and gathers fighters to protect its farmers from bandits and beasts."
   },
   {
    "q": "Why is the People's Militia needed?",
@@ -47,7 +47,7 @@
     "why no stormwind army",
     "why is westfall abandoned"
    ],
-   "answer": "The People's Militia is needed because the Stormwind army has turned its attention to the capital, leaving Westfall with little crown support. Residents formed the militia to defend themselves from bandits, rogue harvest automatons, and marauding Riverpaw gnolls."
+   "answer": "The People's Militia is needed because the Stormwind army has turned its attention to the capital, leaving Westfall with little support from the crown. Residents formed the militia to defend themselves from bandits, rogue harvest automatons, and marauding Riverpaw gnolls."
   },
   {
    "q": "Where is Sentinel Hill located?",
@@ -65,7 +65,7 @@
     "quest givers",
     "report to gryan quest giver"
    ],
-   "answer": "Marshal Dughan in Goldshire, border guards such as Guard Thomas and Deputy Rainer, and displaced farmers such as Farmer Furlbrow and Farmer Saldean refer capable fighters to Gryan."
+   "answer": "Marshal Dughan in Goldshire, border guards such as Guard Thomas and Deputy Rainer, and displaced farmers such as Farmer Furlbrow and Farmer Saldean send capable fighters to Gryan."
   },
   {
    "q": "What happens after reporting to Gryan?",
@@ -119,5 +119,5 @@
  "attribution": [
   "Report to Gryan Stoutmantle"
  ],
- "style": 1
+ "style": 2
 }

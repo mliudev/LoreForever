@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Hall of Gears"
  },
- "summary": "Beyond the Clockwerk Run, the Hall of Gears lies in ruin inside Gnomeregan. Toxic sludge fills its lower floor, while oozes and irradiated troggs roam the chamber.",
+ "summary": "In Gnomeregan, the Hall of Gears lies in ruin beyond the Clockwerk Run. Toxic sludge fills its lower floor, where oozes and irradiated troggs roam.",
  "sections": [
   {
    "title": "A Fractured Machine",
-   "body": "The Hall of Gears lies beyond the Clockwerk Run, deep in Gnomeregan’s ruined machinery halls. Its two levels show how completely the gnome capital has fallen. Irradiated troggs claw through collapsed access shafts and prowl the upper catwalks. Below, radioactive pools cover the floor, where corrosive slimes and living poison elementals thrive in the toxic runoff.",
+   "body": "Beyond the Clockwerk Run, the Hall of Gears lies deep within Gnomeregan’s ruined machinery halls. Its two levels show how completely the gnome capital has fallen. Irradiated troggs claw through collapsed access shafts and prowl the upper catwalks. Below, radioactive pools cover the floor. Corrosive slimes and living poison elementals thrive in the toxic runoff.",
    "spoiler": 0
   },
   {
    "title": "Pathways through the Waste",
-   "body": "The Hall of Gears links parts of Gnomeregan’s operational quarters. From the upper walkways, paths lead to contaminated dead ends, the Clean Zone, and the Dormitory. Below, winding maintenance passages lead toward the Launch Bay. Both levels remain dangerous because of the horrors left by Mekgineer Thermaplugg’s venting scheme.",
+   "body": "The Hall of Gears links parts of Gnomeregan’s operational quarters. From the upper walkways, paths lead to contaminated dead ends, the Clean Zone, and the Dormitory. Below, winding maintenance passages lead toward the Launch Bay. Horrors left by Mekgineer Thermaplugg’s venting scheme still make both levels dangerous.",
    "spoiler": 0
   }
  ],
@@ -37,7 +37,7 @@
     "radioactive waste hall of gears",
     "what is the sludge"
    ],
-   "answer": "When High Tinker Mekkatorque ordered radioactive gas vented to repel the trogg invasion, contaminated runoff collected in the city’s low machinery halls. The lower floor of the Hall of Gears became a toxic wasteland."
+   "answer": "When High Tinker Mekkatorque ordered radioactive gas vented to repel the trogg invasion, contaminated runoff collected in the city’s low machinery halls. The Hall of Gears’ lower floor became a toxic wasteland."
   },
   {
    "q": "What creatures inhabit this chamber?",
@@ -60,11 +60,11 @@
  "angles": [
   {
    "target": "race:Gnome",
-   "text": "As a gnome, seeing the great cogs and catwalks submerged in irradiated sludge recalls the desperate decision that poisoned your city and drove your people into exile."
+   "text": "As a gnome, you see the great cogs and catwalks submerged in irradiated sludge. They recall the desperate decision that poisoned your city and drove your people into exile."
   },
   {
    "target": "profession:Engineering",
-   "text": "As an engineer, you can see the scale of pre-fall gnomish gearing and elevated platforms, now heavily corroded by radioactive fallout."
+   "text": "As an engineer, you can see the scale of pre-fall gnomish gearing and elevated platforms. Radioactive fallout has heavily corroded them."
   }
  ],
  "keywords": [
@@ -89,5 +89,5 @@
  "attribution": [
   "Hall of Gears"
  ],
- "style": 1
+ "style": 2
 }

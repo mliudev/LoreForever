@@ -14,15 +14,15 @@
  "angles": [
   {
    "target": "class:Mage",
-   "text": "Scholarly treatises on destructive magic are of natural interest to mages, who study the balance between arcane power and destructive forces."
+   "text": "As a mage, you may value treatises on destructive magic as you study arcane power and its dangers."
   },
   {
    "target": "class:Warlock",
-   "text": "Practitioners who delve into volatile or forbidden powers recognize the academic interest scholars have in understanding destructive arcana."
+   "text": "As a warlock, you may recognize why scholars seek to understand volatile or forbidden powers."
   },
   {
    "target": "faction:Alliance",
-   "text": "Expanding the knowledge housed within Alliance libraries strengthens the scholarly foundation of the entire Alliance."
+   "text": "As an Alliance member, you benefit when Alliance libraries expand the knowledge held for all."
   }
  ],
  "faq": [
@@ -32,7 +32,7 @@
     "what is this quest",
     "baxtan quest"
    ],
-   "answer": "This quest involves delivering Baxtan's treatise on destructive magics to a library scholar, contributing to the collection of magical works.",
+   "answer": "You bring Baxtan's treatise on destructive magics to a library scholar, adding a work of magic to the collection.",
    "q": "What is the quest 'Baxtan: On Destructive Magics'?"
   },
   {
@@ -41,7 +41,7 @@
     "baxtan npc",
     "where is baxtan"
    ],
-   "answer": "Baxtan is the author of the treatise On Destructive Magics. The scholar who takes it in is the one collecting significant tomes and magical treatises for the library.",
+   "answer": "Baxtan wrote On Destructive Magics. The scholar who receives it gathers important tomes and magical treatises for the library.",
    "q": "Who is Baxtan?"
   },
   {
@@ -50,7 +50,7 @@
     "baxtan book collection",
     "more books for baxtan"
    ],
-   "answer": "The library's scholar seeks scholarly and magical works that can benefit the collection, welcoming any further treatises on magic discovered across the world.",
+   "answer": "The library's scholar seeks works of learning and magic for the collection, including treatises you find across the world.",
    "q": "What kinds of books is Baxtan looking for?"
   },
   {
@@ -59,7 +59,7 @@
     "which library",
     "ironforge library collection"
    ],
-   "answer": "The texts gathered are brought into the collection of the library that takes them in, preserving knowledge of the arcane and dangerous arts for study.",
+   "answer": "The gathered texts enter the library's collection, where scholars preserve them for study of the arcane and its dangers.",
    "q": "Where does this magical knowledge end up?"
   },
   {
@@ -67,7 +67,7 @@
     "why study destructive magic",
     "destructive magics lore"
    ],
-   "answer": "Scholars catalog destructive magics to better comprehend the hazards, theoretical mechanics, and manifestations of potent arcane energies.",
+   "answer": "Scholars catalog destructive magic to understand the hazards, workings, and forms of potent arcane energies.",
    "q": "Why does the library collect works on destructive magic?"
   },
   {
@@ -75,7 +75,7 @@
     "are there more quests for baxtan",
     "can i turn in more books"
    ],
-   "answer": "Yes. The scholar invites adventurers to keep bringing any additional magical works they uncover, indicating an ongoing effort to gather lore.",
+   "answer": "Yes. The scholar welcomes more magical works you uncover as part of an ongoing effort to gather lore.",
    "q": "Can you bring more magical works to Baxtan?"
   }
  ],
@@ -91,18 +91,19 @@
  "related": [],
  "sections": [
   {
-   "body": "The quest represents the ongoing effort of scholars to catalog and preserve arcane lore. When adventurers uncover texts examining the volatile nature of destructive magics, delivering them into careful academic custody ensures that the power and peril of such arts are understood rather than lost.",
+   "body": "Scholars seek to preserve what is known of arcane lore. When you find a text on destructive magic, its place is in careful academic keeping. There, its power and peril can be understood instead of lost.",
    "spoiler": 0,
    "title": "A Tome of Ruinous Arts"
   },
   {
-   "body": "The library serves as a repository for history, science, and the arcane. Its scholar oversees the acquisition of rare volumes, welcoming travellers who recover forgotten treatises from dangerous corners of the world to expand the library's collective knowledge.",
+   "body": "The library holds works on history, science, and the arcane. Its scholar welcomes travelers who recover forgotten treatises from dangerous corners of the world. Each volume adds to the library's knowledge.",
    "spoiler": 0,
    "title": "Curating the Library's Lore"
   }
  ],
- "summary": "Baxtan: On Destructive Magics is a scholarly turn-in quest where an adventurer delivers Baxtan's treatise on destructive spells to a library scholar. Recovering such works aids the library's archivists in expanding their understanding of volatile arcane energies.",
+ "summary": "At the library, Baxtan: On Destructive Magics joins the works scholars gather to understand dangerous arcane power.",
  "attribution": [
   "In-game quest text: Baxtan: On Destructive Magics"
- ]
+ ],
+ "style": 2
 }

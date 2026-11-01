@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Slaughtered Lamb"
  },
- "summary": "Tucked away in Stormwind's Mage Quarter, the Slaughtered Lamb appears to be nothing more than a quiet, seedy tavern. Beneath its floorboards, however, sprawling catacombs hide the sanctum and training grounds of the Alliance's illicit warlocks.",
+ "summary": "In Stormwind's Mage Quarter, the Slaughtered Lamb keeps a quiet, seedy tavern above a hidden warlock sanctuary.",
  "sections": [
   {
    "title": "A Thin Disguise",
-   "body": "On the surface, the Slaughtered Lamb offers little more than dark corners and sparse patronage, attended by barkeep Jarel Moor, who warns casual visitors to stay away from the shadows. That warning is literal. Descending through the back passages reveals a subterranean complex of crypts and summoning circles, where human warlocks and transfer practitioners from Khaz Modan openly study fel arcana sheltered from the disapproving eyes of the Church of the Holy Light and the Kirin Tor.",
+   "body": "Dark corners and few patrons greet you at the Slaughtered Lamb, where barkeep Jarel Moor warns visitors to avoid the shadows. The warning is literal. Back passages descend to crypts and summoning circles below. There, human warlocks and transfer practitioners from Khaz Modan study fel arcana, beyond the disapproving eyes of the Church of the Holy Light and the Kirin Tor.",
    "spoiler": 0
   },
   {
    "title": "The Noble's Tab",
-   "body": "Operating a fel coventry in the heart of the capital invites constant peril. When Lord Baurles K. Wishock discovered the warlocks lurking in the basement, he threatened to rally the House of Nobles and petition the throne for a full investigation. In truth, the aristocrat was merely trying to dodge a ruinous bar tab. Before his agitation could draw real scrutiny, Zardeth of the Black Claw arranged for Wishock to drink a fatal concoction, permanently silencing the meddler and preserving the haven's secrets.",
+   "body": "Lord Baurles K. Wishock threatened to expose the warlocks beneath the Slaughtered Lamb. He said he would rally the House of Nobles and petition the throne for an investigation. Yet Wishock only wanted to escape a ruinous bar tab. Before his agitation drew real scrutiny, Zardeth of the Black Claw gave him a fatal concoction. Wishock was permanently silenced, and the haven's secrets were preserved.",
    "spoiler": 1
   }
  ],
@@ -28,7 +28,7 @@
     "slaughtered lamb basement",
     "who is in slaughtered lamb"
    ],
-   "answer": "The catacombs beneath the tavern serve as the hidden sanctum for Stormwind's warlocks. Practitioners of demonology and shadow magic gather there to teach apprentices, conduct summonings, and practice fel arts forbidden in the streets above."
+   "answer": "Catacombs beneath the tavern hide Stormwind's warlock sanctum. Demonology and shadow magic practitioners teach apprentices there, conduct summonings, and practice fel arts forbidden in the streets above."
   },
   {
    "q": "Does the Stormwind City Guard know about the warlocks?",
@@ -37,7 +37,7 @@
     "why aren't warlocks arrested",
     "is slaughtered lamb illegal"
    ],
-   "answer": "The tavern operates under a precarious veil of plausible deniability. Fel magic is viewed with deep distrust by the Church of the Holy Light and the Mage Academy, forcing the coven to operate in secrecy and aggressively quiet anyone who threatens to expose them to the royal authorities."
+   "answer": "Fel magic draws deep distrust from the Church of the Holy Light and the Mage Academy. So the coven keeps to secrecy and silences anyone who threatens to expose it to the royal authorities."
   },
   {
    "q": "Who was Lord Wishock, and what happened to him?",
@@ -46,7 +46,7 @@
     "lord wishock fate",
     "who is wishock"
    ],
-   "answer": "Lord Baurles K. Wishock is a nobleman and tavern regular who discovered the warlocks hiding below. He caused a stir in the House of Nobles and lobbied for a full investigation, hoping to petition the king to shut the establishment down."
+   "answer": "Lord Baurles K. Wishock was a nobleman and tavern regular who discovered the warlocks below. He stirred the House of Nobles and sought a full investigation, hoping to petition the king to close the establishment."
   },
   {
    "q": "Why do gnome warlocks come here?",
@@ -54,17 +54,17 @@
     "gnome warlocks stormwind",
     "khaz modan warlocks"
    ],
-   "answer": "After the fall of Gnomeregan, its warlock masters relocated to Ironforge, where Magni keeps a careful watch on them. Lago Blackwrench sends novices to Gakin the Darkbinder in the Slaughtered Lamb for training."
+   "answer": "After Gnomeregan fell, its warlock masters moved to Ironforge, where Magni watches them closely. Lago Blackwrench sends novices to Gakin the Darkbinder at the Slaughtered Lamb for training."
   }
  ],
  "angles": [
   {
    "target": "class:Warlock",
-   "text": "The catacombs below are your primary sanctuary in Stormwind, offering class trainers, demon-binding rituals, and tasks essential to mastering the dark arts."
+   "text": "The catacombs below are your main sanctuary in Stormwind. They offer class trainers, demon-binding rituals, and tasks essential to mastering the dark arts."
   },
   {
    "target": "faction:Alliance",
-   "text": "While the Alliance champions the Light and order, the Slaughtered Lamb reveals the kingdom's unspoken willingness to tolerate dark magic in its shadow."
+   "text": "The Alliance champions the Light and order, yet the Slaughtered Lamb shows the kingdom tolerates dark magic in its shadows."
   }
  ],
  "keywords": [
@@ -89,5 +89,6 @@
  ],
  "attribution": [
   "Slaughtered Lamb"
- ]
+ ],
+ "style": 2
 }

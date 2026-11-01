@@ -14,15 +14,15 @@
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "The stash showcases dwarven engineering ingenuity, serving as a reliable emergency stockpile hidden in rugged terrain."
+   "text": "As an engineer, you can admire the dwarven ingenuity behind a dependable emergency stockpile hidden in rugged terrain."
   },
   {
    "target": "race:Dwarf",
-   "text": "Dwarven craft is praised during the recovery of the cache, highlighting the enduring quality of their mountain handiwork."
+   "text": "As a dwarf, you can take pride in the enduring quality of the mountain craft praised when the cache is recovered."
   },
   {
    "target": "class:Rogue",
-   "text": "The concept of keeping hidden emergency stashes stowed away in case of a hasty flight is second nature to those who live in the shadows."
+   "text": "As a rogue, you know the value of hidden emergency stashes, kept ready in case a hasty flight is needed."
   }
  ],
  "faq": [
@@ -32,7 +32,7 @@
     "wet job quest",
     "what kind of quest is wet job"
    ],
-   "answer": "Wet Job is a quest involving the retrieval of a hidden emergency stash tucked away in the terrain. The person who prepared the stash made sure to secure supplies in case they needed to flee on short notice.",
+   "answer": "You recover a hidden emergency stash, prepared with supplies for a hasty escape.",
    "q": "What is the quest Wet Job about?"
   },
   {
@@ -41,7 +41,7 @@
     "whose supplies are these",
     "who hid the reserve stash"
    ],
-   "answer": "The stash was planted by someone who prepared an emergency reserve in case they had to flee in a hurry. The recovery reveals a messenger bag nestled with parchment and supplies crafted with notable dwarven engineering.",
+   "answer": "Someone left the stash as an emergency reserve in case they had to flee in a hurry. It holds a messenger bag with parchment and supplies, made with dwarven craft.",
    "q": "Who left the reserve stash?"
   },
   {
@@ -50,7 +50,7 @@
     "wet job location",
     "eagles nest location"
    ],
-   "answer": "The clue points toward a picturesque mountainside described as carved from the waterfalls of time, specifically directing searchers toward an eagle's nest high on the rock face where a messenger bag emerges from the soil.",
+   "answer": "The stash lies high on a mountainside, at an eagle's nest on the rock face described as carved from the waterfalls of time. A messenger bag is partly buried there.",
    "q": "Where is the stash hidden?"
   },
   {
@@ -59,7 +59,7 @@
     "wet job items",
     "what do you find"
    ],
-   "answer": "Uncovering the buried messenger bag reveals essential supplies along with a tucked-away parchment, protected by remarkably resilient dwarven craftsmanship.",
+   "answer": "The buried messenger bag holds provisions and parchment, protected by dwarven craft.",
    "q": "What is found in the messenger bag?"
   },
   {
@@ -67,7 +67,7 @@
     "why is it called wet job",
     "wet job name meaning"
    ],
-   "answer": "While the title often implies covert or messy field operations, here it connects directly to the mountain landmarks, framed by mist, waterfalls of time, and damp soil concealing the bag.",
+   "answer": "The name refers to the mountain landmarks, with waterfalls of time and damp soil around the hidden bag.",
    "q": "Why is the task called Wet Job?"
   },
   {
@@ -75,7 +75,7 @@
     "dwarven engineering connection",
     "is this dwarven"
    ],
-   "answer": "Upon uncovering and opening the stash, the construction and reliability of the cache are praised as a marvel of dwarven engineering, built to survive outdoor burial.",
+   "answer": "The cache's construction and reliability show dwarven engineering, made to withstand burial outdoors.",
    "q": "How is dwarven engineering involved?"
   }
  ],
@@ -92,18 +92,19 @@
  "related": [],
  "sections": [
   {
-   "body": "Someone who operates in hazardous conditions knows never to travel without a backup plan. Wet Job involves locating a reserve stash left hidden away in rugged heights. Kept as an emergency measure in case a quick escape becomes necessary, this supply cache sits ready for retrieval should plans go awry.",
+   "body": "In dangerous country, a reserve can make a quick escape possible. You search the rugged heights for a stash someone left there in case plans went wrong. Its supplies are waiting to be recovered.",
    "spoiler": 0,
    "title": "An Emergency Cache"
   },
   {
-   "body": "The directions point directly toward a scenic mountain vantage described poetically as carved from the waterfalls of time. High upon this rock face sits what is referred to as the eagle's nest. There, partially buried within the earth, rests a weathered messenger bag protecting provisions and parchment against the elements through reliable dwarven craft.",
+   "body": "The directions lead to a high mountain perch, described as carved from the waterfalls of time. There, at the eagle's nest, a weathered messenger bag lies partly buried in the earth. Inside, provisions and parchment have endured beneath the soil, protected by dwarven craft.",
    "spoiler": 0,
    "title": "The Eagle's Nest"
   }
  ],
- "summary": "Wet Job is a quest centered on uncovering an emergency reserve stash left high on a mountainside. Prepared for a hasty escape and concealed near a scenic cliffside perch, the recovered supply cache is protected by ingenious dwarven craftsmanship.",
+ "summary": "On a mountainside, Wet Job sends you to recover an emergency reserve stash. Someone prepared it for a hasty escape and hid it near a high cliffside perch.",
  "attribution": [
   "In-game quest text: Wet Job"
- ]
+ ],
+ "style": 2
 }

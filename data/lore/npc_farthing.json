@@ -8,11 +8,11 @@
   "wiki": "Farthing",
   "refs": 2
  },
- "summary": "Farthing serves the faithful from Stormwind's Cathedral of Light. The kind and wise human clergyman guides parishioners and directs aid to settlements across the kingdom.",
+ "summary": "At Stormwind's Cathedral of Light, Farthing guides the faithful and directs aid across the kingdom. This kind and wise human clergyman tends to parishioners and those in need.",
  "sections": [
   {
    "title": "A Bishop in Stormwind",
-   "body": "Bishop Farthing tends to the spiritual needs of Stormwind City from the Cathedral of Light. Alongside Archbishop Benedictus and the gathered clergy, he counsels travelers, assists those pursuing the holy arts, and attends to the Church of the Holy Light's civic and pastoral duties.",
+   "body": "Bishop Farthing tends to Stormwind City's spiritual needs from the Cathedral of Light. He serves alongside Archbishop Benedictus and the gathered clergy. There, he counsels travelers, aids those pursuing the holy arts, and carries out the Church of the Holy Light's civic and pastoral duties.",
    "spoiler": 0
   },
   {
@@ -45,7 +45,7 @@
     "farthing duskwood",
     "farthing morbent fel"
    ],
-   "answer": "Adventurers dealing with Duskwood's undead menace seek Farthing's advice on the dark arts sustaining the necromancer Morbent Fel. He directs them toward purification."
+   "answer": "Adventurers facing Duskwood's undead menace seek Farthing's advice on the dark arts sustaining the necromancer Morbent Fel. He directs them toward purification."
   },
   {
    "q": "Is Farthing related to other citizens bearing the same name?",
@@ -88,5 +88,5 @@
  "attribution": [
   "Farthing"
  ],
- "style": 1
+ "style": 2
 }

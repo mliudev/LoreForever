@@ -8,16 +8,16 @@
   "wiki": "Royal Historian Archesonus",
   "refs": 2
  },
- "summary": "At the High Seat, Royal Historian Archesonus records catastrophes for the Ironforge crown. A dwarven scholar serving King Magni Bronzebeard, she writes of recent calamities in the northern human kingdoms and oversees research into ancient dwarven tragedies, including the scorched remains of the Dark Iron kingdom.",
+ "summary": "At the High Seat, Royal Historian Archesonus records calamities for the Ironforge crown. A dwarven scholar in King Magni Bronzebeard’s service, she writes of disasters in the northern human kingdoms and oversees study of ancient dwarven tragedies, including the Dark Iron kingdom’s scorched remains.",
  "sections": [
   {
    "title": "Chronicler of Catastrophe",
-   "body": "Royal Historian Archesonus keeps Ironforge’s records near King Magni Bronzebeard’s throne in the High Seat. Her studies reach beyond the Khaz Modan mountains. She wrote 'The Fall of Lordaeron and the Scouring of the Eastweald' and 'On Plagues, Curses, and Blights,' tracing the Scourge’s ruin of humanity’s northern realm. Archesonus faces these dark histories with care, seeking to record the truth of ruinous magic and political collapse.",
+   "body": "Royal Historian Archesonus keeps Ironforge’s records near King Magni Bronzebeard’s throne in the High Seat. Her studies reach beyond the Khaz Modan mountains. She wrote 'The Fall of Lordaeron and the Scouring of the Eastweald' and 'On Plagues, Curses, and Blights.' In them, she traces the Scourge’s ruin of humanity’s northern realm. She records the truth of ruinous magic and political collapse with care.",
    "spoiler": 0
   },
   {
    "title": "The Ashes of Thaurissan",
-   "body": "Royal Historian Archesonus also oversees research into the War of the Three Hammers and the destruction of Thaurissan. She seeks recovered relics and charred tablets from the Smoldering Ruins of Thaurissan in the Burning Steppes, and sends adventurers there to search. Her work examines the cataclysm that scorched the Burning Steppes and bound the Dark Iron clan to the Firelord.",
+   "body": "Royal Historian Archesonus oversees research into the War of the Three Hammers and Thaurissan’s destruction. She seeks relics and charred tablets from the Smoldering Ruins of Thaurissan in the Burning Steppes, and sends adventurers there to search. Her work examines the cataclysm that scorched the Burning Steppes and bound the Dark Iron clan to the Firelord.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "what did archesonus write",
     "archesonus lore books"
    ],
-   "answer": "Royal Historian Archesonus wrote 'The Fall of Lordaeron and the Scouring of the Eastweald' and 'On Plagues, Curses, and Blights.' They document the downfall of the human north and the necrotic afflictions spread by the Scourge."
+   "answer": "Royal Historian Archesonus wrote 'The Fall of Lordaeron and the Scouring of the Eastweald' and 'On Plagues, Curses, and Blights.' Her books record the downfall of the human north and the necrotic afflictions spread by the Scourge."
   },
   {
    "q": "Why is Archesonus interested in the Ruins of Thaurissan?",
@@ -62,11 +62,11 @@
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "As a dwarf, you share a people whose painful lessons from the War of the Three Hammers are preserved in Ironforge’s records. They are meant to keep the Bronzebeard clan from repeating the Dark Irons’ hubris."
+   "text": "As a dwarf, you share a people whose painful lessons from the War of the Three Hammers remain in Ironforge’s records. Those records are meant to keep the Bronzebeard clan from repeating the Dark Irons’ hubris."
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance member, you can read Archesonus’s grim testimony of Lordaeron’s fall. Her works preserve it for southern allies, so they understand the plague and the forces that broke humanity’s northern kingdoms."
+   "text": "As an Alliance member, you can read Archesonus’s grim account of Lordaeron’s fall. Her works preserve it for southern allies, so they understand the plague and the forces that broke humanity’s northern kingdoms."
   }
  ],
  "keywords": [
@@ -88,5 +88,5 @@
  "attribution": [
   "Royal Historian Archesonus"
  ],
- "style": 1
+ "style": 2
 }

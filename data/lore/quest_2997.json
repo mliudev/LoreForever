@@ -17,16 +17,16 @@
   "wiki": "Tome of Divinity (Azar Stronghammer)",
   "chain": []
  },
- "summary": "In Dun Morogh, Azar Stronghammer calls young dwarven paladins away from their field duties and sends them to Ironforge. He directs each initiate to Tiza Battleforge in the Hall of Mysteries for guidance, beginning deeper trials in service to the Holy Light.",
+ "summary": "Azar Stronghammer sends promising dwarven paladins from Dun Morogh to Ironforge for deeper instruction. There, Tiza Battleforge awaits in the Hall of Mysteries, where the trials begin in service to the Holy Light.",
  "sections": [
   {
    "title": "A Call to the High Seat",
-   "body": "Dwarven initiates begin by guarding Dun Morogh's snowbound villages and roads. When Azar Stronghammer sees that a defender is ready for deeper spiritual instruction, he sends the promising candidate from field duties to Ironforge. There, the initiate can seek guidance from the city's holy elders.",
+   "body": "Dwarven initiates guard Dun Morogh's snowbound villages and roads. When Azar sees that a defender is ready for deeper spiritual instruction, he sends that candidate from field duties to Ironforge. There, the city's holy elders can guide them.",
    "spoiler": 0
   },
   {
    "title": "The Hall of Mysteries",
-   "body": "The summons leads you to the Mystic Ward, then up to the Hall of Mysteries. Tiza Battleforge waits there, upstairs among sacred relics and solemn study. A respected dwarven champion of the Light, she tests whether you are ready for self-sacrifice, mercy, and the moral duties of your calling.",
+   "body": "The summons takes you through the Mystic Ward to the Hall of Mysteries. Sacred relics and solemn study fill its halls. Tiza Battleforge tests your readiness for self-sacrifice, mercy, and the moral duties of your calling.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "what is tome of divinity for",
     "tome of divinity purpose"
    ],
-   "answer": "It calls a dwarven paladin away from field duties in Dun Morogh and directs you to Tiza Battleforge in Ironforge. The trials are required to understand the Holy Light and earn the power of resurrection."
+   "answer": "Azar Stronghammer calls a promising dwarven paladin from field duties in Dun Morogh and sends you to Tiza Battleforge in Ironforge. The trials teach you about the Holy Light and are required to earn the power of resurrection."
   },
   {
    "q": "Who is Tiza Battleforge?",
@@ -47,7 +47,7 @@
     "tiza battleforge lore",
     "who is battleforge"
    ],
-   "answer": "Tiza Battleforge is a veteran dwarven paladin and respected mentor stationed upstairs in Ironforge's Hall of Mysteries. She guides young paladins in spiritual instruction and the sacred trials of the Tome of Divinity."
+   "answer": "Tiza Battleforge is a veteran dwarven paladin and respected mentor in Ironforge's Hall of Mysteries. She guides young paladins through spiritual instruction and the sacred trials of the Tome of Divinity."
   },
   {
    "q": "Where is the Hall of Mysteries located?",
@@ -56,7 +56,7 @@
     "find hall of mysteries",
     "hall of mysteries ironforge"
    ],
-   "answer": "The Hall of Mysteries is in the Mystic Ward in western Ironforge. It is the spiritual and arcane center of the dwarven capital, where priests, paladins, and mages gather."
+   "answer": "The Hall of Mysteries lies in the Mystic Ward in western Ironforge. Priests, paladins, and mages gather there, at the spiritual and arcane center of the dwarven capital."
   },
   {
    "q": "Who sends the paladin on this errand?",
@@ -65,7 +65,7 @@
     "quest giver tome of divinity",
     "azar stronghammer"
    ],
-   "answer": "Azar Stronghammer, a paladin trainer in Dun Morogh, sends promising initiates to Ironforge after they show their dedication to defending local dwarven settlements."
+   "answer": "Azar Stronghammer, a paladin trainer in Dun Morogh, sends promising initiates to Ironforge after they prove their dedication to defending local dwarven settlements."
   },
   {
    "q": "Why must dwarven paladins study in Ironforge?",
@@ -73,7 +73,7 @@
     "why go to ironforge",
     "why train in ironforge"
    ],
-   "answer": "Azar teaches basic combat in the field, while the Hall of Mysteries holds the formal teachings, sacred texts, and elders of the Holy Light. Advanced rites and spiritual doctrines are studied under senior mentors such as Tiza Battleforge."
+   "answer": "Azar teaches basic combat in the field, while the Hall of Mysteries holds the formal teachings, sacred texts, and elders of the Holy Light. Senior mentors such as Tiza Battleforge guide the study of advanced rites and spiritual doctrines."
   },
   {
    "q": "What follows after speaking with Tiza Battleforge?",
@@ -82,17 +82,17 @@
     "next quest after tome of divinity",
     "what does tiza give me"
    ],
-   "answer": "Speaking with Tiza begins the true dwarven trials of the Tome of Divinity. They challenge you to show devotion, compassion, and sacrifice in service to the Light."
+   "answer": "Speaking with Tiza begins the dwarven trials of the Tome of Divinity. They challenge you to show devotion, compassion, and sacrifice in service to the Light."
   }
  ],
  "angles": [
   {
    "target": "class:Paladin",
-   "text": "As a paladin, this rite bridges practical military service in the snows with the deep spiritual discipline expected of holy warriors."
+   "text": "As a paladin, you join practical military service in the snows with the deep spiritual discipline expected of a holy warrior."
   },
   {
    "target": "race:Dwarf",
-   "text": "As a dwarf, you join the endurance of your kin with the teachings of the Holy Light, centered in Ironforge's Hall of Mysteries."
+   "text": "As a dwarf, you join your kin's endurance with the teachings of the Holy Light in Ironforge's Hall of Mysteries."
   },
   {
    "target": "faction:Alliance",
@@ -123,5 +123,5 @@
  "attribution": [
   "Tome of Divinity (Azar Stronghammer)"
  ],
- "style": 1
+ "style": 2
 }

@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Jansen Stead"
  },
- "summary": "Jansen Stead lies just west of the Elwynn border, where Defias bandits and mechanical Harvest Watchers now roam its fields.",
+ "summary": "Defias bandits and mechanical Harvest Watchers roam the fields of Jansen Stead, just west of Elwynn.",
  "sections": [
   {
    "title": "A Fallen Homestead",
-   "body": "Jansen Stead lies beside the road from Elwynn into Westfall. The farm once fed the kingdom, but unrest has driven its family from the land. Now Harvest Watchers, mechanical constructs associated with the Defias Brotherhood, patrol the fields alongside brigands. Couriers and travelers between Goldshire and Sentinel Hill pass close by.",
+   "body": "Jansen Stead stands beside the road from Elwynn into Westfall. Once its farm fed the kingdom, but unrest has driven the family from the land. Now mechanical Harvest Watchers patrol the fields alongside brigands. The Watchers are tied to the Defias Brotherhood. Couriers and travelers between Goldshire and Sentinel Hill pass close by.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "where is jansen stead",
     "jansen farm westfall"
    ],
-   "answer": "Jansen Stead is the first farmstead on the right as you cross the river bridge from Elwynn Forest into northeastern Westfall."
+   "answer": "Jansen Stead is the first farmstead on the right after you cross the river bridge from Elwynn Forest into northeastern Westfall."
   },
   {
    "q": "Who lives at Jansen Stead right now?",
@@ -32,7 +32,7 @@
     "jansen stead inhabitants",
     "mobs at jansen stead"
    ],
-   "answer": "The farm's original residents have been driven away. Hostile Harvest Watchers and footpads loyal to the Defias Brotherhood now occupy its overgrown fields and derelict farmhouse."
+   "answer": "The farm's original residents have been driven away. Hostile Harvest Watchers and footpads loyal to the Defias Brotherhood occupy its overgrown fields and derelict farmhouse."
   },
   {
    "q": "Why are mechanical scarecrows attacking people here?",
@@ -50,17 +50,17 @@
     "furlbrows location",
     "who gives quests near elwynn bridge"
    ],
-   "answer": "Farmer Furlbrow and his wife Verna are camped just south of the bridge near Jansen Stead's entrance. They were forced off their pumpkin patch down the road and have set up beside their broken wagon."
+   "answer": "Farmer Furlbrow and his wife Verna are camped just south of the bridge near Jansen Stead's entrance. Forced from their pumpkin patch down the road, they have set up beside their broken wagon."
   }
  ],
  "angles": [
   {
    "target": "race:Human",
-   "text": "For humans crossing from the relative peace of Northshire and Elwynn, Jansen Stead shows the economic crisis and banditry gripping Stormwind's rural heartland."
+   "text": "As a human crossing from the relative peace of Northshire and Elwynn, you see the economic crisis and banditry gripping Stormwind's rural heartland at Jansen Stead."
   },
   {
    "target": "faction:Alliance",
-   "text": "Jansen Stead's fall shows Stormwind's failure to secure its borders, leaving defenseless homesteaders at the mercy of outlaws within sight of Elwynn Forest."
+   "text": "Jansen Stead's fall shows Stormwind has failed to secure its borders. Defenseless homesteaders face outlaws within sight of Elwynn Forest."
   }
  ],
  "keywords": [
@@ -83,5 +83,5 @@
  "attribution": [
   "Jansen Stead"
  ],
- "style": 1
+ "style": 2
 }

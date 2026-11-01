@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Canals (Stormwind City)"
  },
- "summary": "Stormwind's Canals wind between the city's districts, where walkers and anglers share the waterside paths.",
+ "summary": "Walkers and anglers share the paths beside Stormwind's Canals, winding between the city's districts.",
  "sections": [
   {
    "title": "Arteries of the Capital",
-   "body": "You can follow the Canals between Stormwind's districts, from the Trade District's markets to Old Town's aged alleys, the cathedral gardens, and the Dwarven District. Stone bridges, archways, and waterside walks pass the Gallina Winery, tailor shops, and quiet homes. Merchants and fishermen use the waterways, while the fortified Stockade entrance lies beneath the streets, holding Stormwind's most dangerous criminals and rebels.",
+   "body": "You can follow the Canals from the Trade District's markets to Old Town's aged alleys, the cathedral gardens, and the Dwarven District. Stone bridges and archways cross the water, while paths pass the Gallina Winery, tailor shops, and quiet homes. Merchants and fishermen use these waterways. Beneath the streets, the fortified Stockade entrance holds Stormwind's most dangerous criminals and rebels.",
    "spoiler": 0
   },
   {
    "title": "A Gruesome History and Lurking Shadows",
-   "body": "Stormwind's Canals were left in ruins when the Horde sacked the city during the First War. The waterways were restored as the capital rose again after the Second War. They are clean and repaired now, though rumors speak of a massive albino crocolisk beneath the docks.",
+   "body": "The Horde sacked Stormwind during the First War, leaving the Canals in ruins. The waterways were restored as the capital rose again after the Second War. Now they are clean and repaired, though rumors speak of a massive albino crocolisk beneath the docks.",
    "spoiler": 0
   }
  ],
@@ -47,7 +47,7 @@
     "stockade entrance",
     "how to get to stockade"
    ],
-   "answer": "The Stockade entrance lies along the northernmost stretch of the canal around the Mage Quarter, guarded by the Stormwind City Guard."
+   "answer": "The Stockade entrance lies along the canal's northernmost stretch around the Mage Quarter, guarded by the Stormwind City Guard."
   },
   {
    "q": "Can players swim through the canals to travel around Stormwind?",
@@ -56,17 +56,17 @@
     "travel by water stormwind",
     "water route stormwind"
    ],
-   "answer": "You can swim through the Canals, then find stone stairs or docks along the waterside paths to climb back to the street."
+   "answer": "You can swim through the Canals, then climb back to the street by stone stairs or docks along the waterside paths."
   }
  ],
  "angles": [
   {
    "target": "profession:Cooking",
-   "text": "As an aspiring cook, you can fish along the quiet canal banks without leaving the safety of the capital's walls."
+   "text": "As an aspiring cook, you can fish along the quiet canal banks within the safety of the capital's walls."
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance member, you can see how the Canals were restored after the First War's ruins, as Stormwind became a working, picturesque city."
+   "text": "As an Alliance member, you can see how Stormwind's Canals were restored after the First War's ruins, as the capital became a working, picturesque city."
   }
  ],
  "keywords": [
@@ -92,5 +92,5 @@
  "attribution": [
   "Canals (Stormwind City)"
  ],
- "style": 1
+ "style": 2
 }

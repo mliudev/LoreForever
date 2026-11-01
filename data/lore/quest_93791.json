@@ -14,7 +14,7 @@
  "angles": [
   {
    "target": "class:Mage",
-   "text": "Crafting a personal spell focus marks a vital rite of passage for aspiring spellcasters honoring the ancient traditions of the High Order."
+   "text": "As a Mage, making a personal spell focus marks a vital rite of passage and honors the ancient traditions of the High Order."
   }
  ],
  "faq": [
@@ -24,7 +24,7 @@
     "belann windwood",
     "belann"
    ],
-   "answer": "Belann Windwood is a master craftsman residing in Valanaar. He has dedicated over a century of his craft to creating staves and wands for members of the High Order.",
+   "answer": "Belann Windwood is a master craftsman who lives in Valanaar. For more than a century, he has made staves and wands for members of the High Order.",
    "q": "Who is Belann Windwood?"
   },
   {
@@ -32,7 +32,7 @@
     "what is the high order",
     "high order lore"
    ],
-   "answer": "The High Order is an ancient organization of practitioners whose long-standing traditions include guiding young spellcasters in the construction and mastery of their own spell focuses.",
+   "answer": "The High Order is an ancient organization of practitioners. Its traditions include guiding young spellcasters as they make and master their own spell focuses.",
    "q": "What is the High Order?"
   },
   {
@@ -40,7 +40,7 @@
     "what is a spell focus",
     "purpose of spell focus"
    ],
-   "answer": "A spell focus, such as a wand or a staff, channels magical energies. Crafting an individual focus is considered one of the oldest rites of passage for developing spellcasters within the High Order.",
+   "answer": "A spell focus, such as a wand or staff, channels magical energies. For developing spellcasters in the High Order, making one is among the oldest rites of passage.",
    "q": "What is a spell focus?"
   },
   {
@@ -48,7 +48,7 @@
     "where is valanaar",
     "valanaar location"
    ],
-   "answer": "Valanaar is the settlement where Belann Windwood maintains his workshop and assists students of the High Order with crafting focuses.",
+   "answer": "Valanaar is the settlement where Belann Windwood keeps his workshop and helps High Order students craft focuses.",
    "q": "Where can Valanaar be found?"
   },
   {
@@ -56,7 +56,7 @@
     "why visit belann",
     "why craft a focus"
    ],
-   "answer": "As an aspiring magic wielder whose powers are burgeoning, you are sent to Belann to study under his century of expertise and begin the process of shaping your own magical implement.",
+   "answer": "As an aspiring wielder of magic, you are sent to study under Belann, whose expertise spans more than a century, and begin shaping your own magical implement.",
    "q": "Why are you sent to speak with Belann?"
   },
   {
@@ -64,7 +64,7 @@
     "what happens next",
     "after speaking with belann"
    ],
-   "answer": "Upon introducing yourself to Belann in Valanaar, the craftsman welcomes you and prepares to explain the next stages involved in assembling your spell focus.",
+   "answer": "When you introduce yourself to Belann in Valanaar, he welcomes you and prepares to explain the next stages of assembling your spell focus.",
    "q": "What happens after you meet Belann?"
   }
  ],
@@ -83,18 +83,19 @@
  ],
  "sections": [
   {
-   "body": "As an aspiring practitioner's command over magic flourishes, the High Order calls upon ancient custom to test and elevate their talents. Crafting a personalized spell focus\u2014whether in the form of a wand or staff\u2014is considered one of the order's most enduring traditions for students looking to bind their burgeoning power to an implement of their own making.",
+   "body": "As students grow in command of magic, the High Order turns to an ancient custom to test and strengthen their talents. Making a spell focus of their own, whether a wand or staff, is one of the order’s most enduring traditions. It is for students who wish to bind their growing power to an implement they have made themselves.",
    "spoiler": 0,
    "title": "A Rite of Growing Power"
   },
   {
-   "body": "To undertake this sacred crafting, initiates are directed to Valanaar to seek out Belann Windwood. Renowned for dedicating more than a century to forging exceptional staves and wands for the High Order, Belann acts as a trusted mentor, eager to welcome dedicated students and guide them through the intricate craft and history of their magical tools.",
+   "body": "In Valanaar, initiates seek Belann Windwood for help with this craft. He has spent more than a century forging staves and wands for the High Order. A trusted mentor, Belann welcomes dedicated students and guides them through the craft and history of their magical tools.",
    "spoiler": 0,
    "title": "The Craftsman of Valanaar"
   }
  ],
- "summary": "Speak with Belann directs aspiring spellcasters to Valanaar to meet master artisan Belann Windwood. As an initiate's magical mastery expands, crafting a personal spell focus marks an essential rite of passage under the storied traditions of the High Order.",
+ "summary": "In Valanaar, aspiring spellcasters are sent to meet Belann Windwood. The High Order honors the making of a personal spell focus as a long-held tradition.",
  "attribution": [
   "In-game quest text: Speak with Belann"
- ]
+ ],
+ "style": 2
 }

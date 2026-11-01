@@ -17,16 +17,16 @@
   "wiki": "Bazil Thredd (quest)",
   "chain": []
  },
- "summary": "In Stormwind, Bazil Thredd holds insight into the Defias Brotherhood's lingering plots. After an unsent letter is recovered from the Deadmines, City Architect Baros Alexston directs you to the Defias leader's right-hand man, now locked beneath the streets in the high-security Stockade.",
+ "summary": "Beneath Stormwind, a Defias prisoner may know what the Brotherhood still intends. After an unsent letter is found in the Deadmines, City Architect Baros Alexston sends you to the Stockade for answers.",
  "sections": [
   {
    "title": "A Bitter History",
-   "body": "Baros Alexston shares a bitter history with Edwin VanCleef. Both led the Stonemasons Guild, charged with rebuilding Stormwind from the ashes of the First and Second Wars. When the kingdom's magnificent white walls and towers were finished, the nobility refused to pay the masons their promised wages. Some senior members received bureaucratic posts to quiet them, but VanCleef refused to abandon the rank-and-file laborers. He led a violent riot out of the city and founded the Defias Brotherhood.",
+   "body": "Baros Alexston and Edwin VanCleef once led the Stonemasons Guild. The masons rebuilt Stormwind after the First and Second Wars. Yet when the white walls and towers were complete, the nobility refused to pay the wages they had promised. Some senior masons received government posts to quiet them. VanCleef would not leave the rank-and-file laborers behind. He led a violent riot out of the city and founded the Defias Brotherhood.",
    "spoiler": 0
   },
   {
    "title": "A Turn to the Stockade",
-   "body": "To learn VanCleef's full design and what the Brotherhood still plans against Stormwind, Alexston directs you to Bazil Thredd. Thredd was VanCleef's chief lieutenant during the mason uprising. He was captured and confined in the city's prison beneath the canals of the Mage Quarter. At the gates, Warden Thelwater warns that the inmates have rebelled, and the Stockade has become a warzone.",
+   "body": "Baros Alexston sends you to Bazil Thredd to learn what the Brotherhood still plans against Stormwind. Thredd was VanCleef's chief lieutenant during the mason uprising. Stormwind captured him and confined him in the prison beneath the canals of the Mage Quarter. At the gates, Warden Thelwater warns that the inmates have rebelled. The Stockade is a warzone.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "who is thredd",
     "thredd backstory"
    ],
-   "answer": "Bazil Thredd was Edwin VanCleef's primary lieutenant in the Stonemasons Guild and the early Defias uprising. Stormwind authorities captured him and imprisoned him deep within the Stockade."
+   "answer": "Bazil Thredd was Edwin VanCleef's chief lieutenant in the Stonemasons Guild and the early Defias uprising. Stormwind captured him and imprisoned him deep within the Stockade."
   },
   {
    "q": "Why does Baros Alexston send you to speak with Thredd?",
@@ -47,7 +47,7 @@
     "baros alexston motive",
     "why go to stockade"
    ],
-   "answer": "After examining the unsent letter from the Deadmines, Alexston sees that Stormwind faces a threat beyond the Deadmines. As VanCleef's former right-hand man, Thredd understands the Brotherhood's inner workings and remaining schemes better than anyone else, Alexston believes."
+   "answer": "After examining the unsent letter from the Deadmines, Baros Alexston sees a threat to Stormwind beyond the Deadmines. He believes Thredd knows the Brotherhood's inner workings and remaining schemes better than anyone, as VanCleef's former right-hand man."
   },
   {
    "q": "Why was the Stonemasons Guild betrayed?",
@@ -56,7 +56,7 @@
     "defias motive",
     "stonemason riot reason"
    ],
-   "answer": "After the masons rebuilt Stormwind following the Second War, the House of Nobles refused to honor its financial agreements. The laborers were left unpaid and destitute. VanCleef rejected quiet bribes to silence him and led a riot out of the city gates."
+   "answer": "After the masons rebuilt Stormwind following the Second War, the House of Nobles refused to honor its financial agreements. The laborers went unpaid and were left destitute. VanCleef rejected quiet bribes and led a riot out of the city gates."
   },
   {
    "q": "Where is the Stockade located?",
@@ -82,7 +82,7 @@
     "is baros defias",
     "baros alexston stonemason"
    ],
-   "answer": "VanCleef refused compromise and chose armed rebellion, while Alexston was among the senior guild craftsmen who accepted government employment from the kingdom. He eventually became City Architect."
+   "answer": "VanCleef chose armed rebellion, while Baros Alexston was among the senior guild craftsmen who accepted government employment. Alexston eventually became City Architect."
   }
  ],
  "angles": [
@@ -92,11 +92,11 @@
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance hero, you face a Defias threat reaching into the capital through the unsecured cells of the Stockade, even with Edwin VanCleef slain."
+   "text": "As an Alliance hero, you face a Defias threat reaching into the capital through the Stockade's unsecured cells, even with Edwin VanCleef slain."
   },
   {
    "target": "class:Rogue",
-   "text": "As a rogue, you know Thredd represents the hardened, organized underworld branch of the Defias, who traded construction hammers for shanks and street violence."
+   "text": "As a rogue, you know Thredd represents the Defias' hardened, organized underworld branch. Its members traded construction hammers for shanks and street violence."
   }
  ],
  "keywords": [
@@ -123,5 +123,5 @@
  "attribution": [
   "Bazil Thredd (quest)"
  ],
- "style": 1
+ "style": 2
 }

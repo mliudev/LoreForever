@@ -20,16 +20,16 @@
    "Return to Marleth"
   ]
  },
- "summary": "Marleth waits in Brewnall Village for the Thunder Ale brought from Kharanos. You return with proof that her Scalder reached the Thunderbrew cellar.",
+ "summary": "Marleth waits in Brewnall Village for the Thunder Ale you bring from Kharanos. The barrel will prove her Scalder reached the Thunderbrew cellar.",
  "sections": [
   {
    "title": "The Spoils of Sabotage",
-   "body": "Marleth Barleybrew of Brewnall Village wants proof that her Scalder was slipped into the Kharanos cellar, where the distillers make Thunder Ale. You bring back a barrel of their brew, taken from beneath their noses. The prize proves the switch succeeded and gives Marleth a trophy from her rival.",
+   "body": "The barrel comes from the Thunderbrew cellar, taken under the distillers’ noses. It proves the switch worked and gives Marleth a trophy from her rival.",
    "spoiler": 0
   },
   {
    "title": "A Bitter Brew Settled",
-   "body": "You haul the heavy keg over the snowy ridges to Brewnall Village, where Marleth is thrilled by the caper. She delights in having outsmarted Kharanos's guards and cellar masters. The stunt puts the fierce pride dwarven families take in their signature recipes on display across Dun Morogh.",
+   "body": "You carry the heavy keg over snowy ridges to Brewnall Village. Marleth delights in outsmarting Kharanos’s guards and cellar masters. Her caper shows how fiercely dwarven families prize their signature recipes.",
    "spoiler": 0
   }
  ],
@@ -41,7 +41,7 @@
     "return to marleth objective",
     "barrel turn in"
    ],
-   "answer": "You bring the stolen barrel of Thunder Ale to Marleth Barleybrew in Brewnall Village as proof that you planted her Scalder in the Kharanos cellar."
+   "answer": "You bring the stolen barrel of Thunder Ale to Marleth Barleybrew in Brewnall Village. It proves you planted her Scalder in the Kharanos cellar."
   },
   {
    "q": "Who is Marleth Barleybrew?",
@@ -85,7 +85,7 @@
     "why steal thunder ale",
     "what happens to ale"
    ],
-   "answer": "The barrel proves the switch succeeded under the noses of the Kharanos guards, and Marleth is delighted to keep her rival's stock."
+   "answer": "The barrel proves the switch succeeded under the noses of the Kharanos guards. Marleth delights in keeping her rival's stock."
   }
  ],
  "angles": [
@@ -117,5 +117,5 @@
  "attribution": [
   "Return to Marleth"
  ],
- "style": 1
+ "style": 2
 }

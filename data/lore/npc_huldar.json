@@ -8,11 +8,11 @@
   "wiki": "Huldar",
   "refs": 2
  },
- "summary": "Along Loch Modan’s southern road, Huldar’s powder run has come to a halt. His wagon carries blast powder for the southern dig, but threats on the road have put the delivery in danger.",
+ "summary": "Huldar is stranded on Loch Modan’s southern road after his blast powder delivery is stopped. The dwarven teamster needs help getting the cargo to the southern excavation site, where archaeologists and prospectors need supplies.",
  "sections": [
   {
    "title": "A Powder Run in Peril",
-   "body": "Huldar’s wagon is stranded on the road through southern Loch Modan. He was sent with loads of mining blast powder for the excavation site, where dwarven archaeologists and prospectors need supplies. Local wildlife and troggs threaten the route near the lake’s southern bend. Dark Iron infiltrators also lurk there. With his wagon damaged, Huldar depends on passing travelers to guard the remaining powder kegs and carry the shipment to the dig.",
+   "body": "Huldar’s damaged wagon leaves him stranded near the lake’s southern bend. Local wildlife and troggs threaten the road, and Dark Iron infiltrators lurk nearby. He needs passing travelers to guard the remaining powder kegs and carry the shipment to the dig.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "huldar loch modan",
     "wagon dwarf"
    ],
-   "answer": "Huldar is a dwarven teamster stranded by his wagon on Loch Modan’s southern bank. He was hauling blast powder to the nearby excavation site when the run went wrong."
+   "answer": "Huldar is a dwarven teamster stranded beside his wagon on Loch Modan’s southern bank. His blast powder delivery to the nearby excavation site was stopped."
   },
   {
    "q": "What is in Huldar's wagon?",
@@ -41,7 +41,7 @@
     "why is huldar stranded",
     "huldar ambush"
    ],
-   "answer": "Hostile beasts, troggs, and Dark Iron dwarf saboteurs threaten the roads through southern Loch Modan. An ambush stopped Huldar’s shipment, leaving him to seek help guarding and delivering the remaining supplies."
+   "answer": "Hostile beasts, troggs, and Dark Iron dwarf saboteurs threaten the roads through southern Loch Modan. An ambush stopped Huldar’s shipment, so he seeks help guarding and delivering the remaining supplies."
   },
   {
    "q": "Why do the Dark Iron dwarves care about his cargo?",
@@ -49,7 +49,7 @@
     "dark iron blast powder",
     "why dark irons attack huldar"
    ],
-   "answer": "The Dark Iron clan seeks to undermine Ironforge’s presence and historical research throughout Loch Modan. Cutting off blast powder can halt excavation and deprive dwarven operations of defensive and industrial supplies."
+   "answer": "The Dark Iron clan seeks to undermine Ironforge’s presence and historical research throughout Loch Modan. By cutting off blast powder, they can halt excavation and deprive dwarven operations of defensive and industrial supplies."
   }
  ],
  "angles": [
@@ -82,5 +82,5 @@
  "attribution": [
   "Huldar"
  ],
- "style": 1
+ "style": 2
 }

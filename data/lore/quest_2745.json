@@ -17,21 +17,21 @@
   "wiki": "Infiltrating the Castle",
   "chain": []
  },
- "summary": "Master cheese monger and intelligence broker Elling Trias directs you into the royal seat of Stormwind Keep. Your objective is to rendezvous with his fellow operative Tyrion, who has spent weeks watching the corrupt nobleman Lord Gregor Lescovar from the keep's gardens.",
+ "summary": "At Stormwind Keep, Elling Trias sends you to meet his fellow operative Tyrion. Tyrion has watched Lord Gregor Lescovar from the royal gardens for weeks.",
  "sections": [
   {
    "title": "A Matter Outside the Law",
-   "body": "When you bring your findings to Elling Trias in his Trade District cheese shop, he quickly grasps the gravity of the Defias threat nestled deep inside the kingdom's governance. Legal channels will not suffice to expose or punish someone as deeply entrenched and protected as Lord Gregor Lescovar. Trias offers a dangerous route forward: delivering extrajudicial justice within the very walls of Stormwind Keep to permanently sever the conspiracy.",
+   "body": "At his cheese shop in the Trade District, Elling Trias sees the Defias threat reaching into the kingdom's rule. Ordinary law cannot expose or punish a nobleman as protected and entrenched as Lord Gregor Lescovar. So Trias offers a dangerous path: deliver justice within Stormwind Keep, outside the law, and sever the conspiracy for good.",
    "spoiler": 0
   },
   {
    "title": "Eyes in the Shrubbery",
-   "body": "Trias does not work alone in the high halls. For weeks, an operative named Tyrion\u2014a clever gnome adept at concealment\u2014has staked out the keep's courtyards and manicured royal gardens. Tyrion has watched Lescovar's movements, noting who enters his chambers and when the traitor confers with his covert Defias contacts. Reaching Tyrion without arousing the suspicion of the Royal Guard is the vital next link in the chain.",
+   "body": "Elling Trias has an operative in the high halls: Tyrion, a clever gnome skilled at concealment. For weeks, Tyrion has watched the keep's courtyards and royal gardens. He has tracked Lescovar's movements, who enters his chambers, and when the traitor meets covert Defias contacts. You need to reach Tyrion without drawing the Royal Guard's suspicion.",
    "spoiler": 0
   },
   {
    "title": "Treason in the Court",
-   "body": "The presence of a high nobleman like Lescovar colluding directly with Defias assassins like Marzon the Silent Blade underscores how rotten Stormwind's political core has become in the absence of King Varian Wrynn. With court nobles manipulating affairs from within and outlaws pressing the borders from Westfall and the Redridge Mountains, striking at Lescovar represents an attempt to cut out a festering cancer before the kingdom crumbles completely.",
+   "body": "Lord Lescovar's alliance with the Defias assassin Marzon the Silent Blade shows how deeply Stormwind's court has rotted while King Varian Wrynn is absent. Court nobles scheme within the kingdom as outlaws press its borders from Westfall and the Redridge Mountains. Striking at Lescovar is an attempt to cut out the corruption before the kingdom crumbles.",
    "spoiler": 1
   }
  ],
@@ -43,7 +43,7 @@
     "trias illegal justice",
     "why vigilante"
    ],
-   "answer": "Lord Lescovar holds immense influence and wealth within the House of Nobles. Pursuing ordinary legal accusations against a high-ranking lord without indisputable, politically disastrous proof would likely see the evidence suppressed and the whistleblowers executed. Trias recognizes that direct, clandestine action is the only reliable way to neutralize the threat."
+   "answer": "Lord Lescovar holds great influence and wealth in the House of Nobles. Without indisputable proof, accusations against a high-ranking lord could bring political disaster, see evidence suppressed, and leave whistleblowers executed. Trias believes secret, direct action is the only reliable way to stop the threat."
   },
   {
    "q": "Where is Tyrion hiding?",
@@ -52,7 +52,7 @@
     "find tyrion",
     "tyrion location"
    ],
-   "answer": "Tyrion conceals himself in the royal gardens of Stormwind Keep, just off the courtyard to the left after walking through the main gates. He lurks in the bushes to observe Lord Lescovar's quarters without alerting the guards."
+   "answer": "Tyrion hides in Stormwind Keep's royal gardens, just off the courtyard to the left after you pass through the main gates. From the bushes, he watches Lord Lescovar's quarters without alerting the guards."
   },
   {
    "q": "Who is Tyrion?",
@@ -61,7 +61,7 @@
     "tyrion gnome",
     "trias friend"
    ],
-   "answer": "Tyrion is a covert operative and a trusted associate of Elling Trias. He has spent several weeks staking out Stormwind Keep to monitor Lord Gregor Lescovar and map out his clandestine Defias connections."
+   "answer": "Tyrion is a covert operative and trusted associate of Elling Trias. For several weeks, he has watched Stormwind Keep to track Lord Gregor Lescovar and map his secret ties to the Defias."
   },
   {
    "q": "Who is Lord Lescovar?",
@@ -70,7 +70,7 @@
     "who is lescovar",
     "lescovar defias"
    ],
-   "answer": "Lord Gregor Lescovar is a prominent Stormwind nobleman secretly collaborating with the Defias Brotherhood, acting as their highly placed insider to sabotage the kingdom from within its royal court."
+   "answer": "Lord Gregor Lescovar is a prominent Stormwind nobleman who secretly works with the Defias Brotherhood as an insider in the royal court. He helps them sabotage the kingdom from within."
   },
   {
    "q": "Who is Marzon?",
@@ -79,7 +79,7 @@
     "marzon the silent blade",
     "silent blade"
    ],
-   "answer": "Marzon, known as the Silent Blade, is an elite Defias assassin who liaises directly with Lord Lescovar to coordinate attacks and assassinations on behalf of the Brotherhood."
+   "answer": "Marzon, known as the Silent Blade, is an elite Defias assassin. He works directly with Lord Lescovar to coordinate attacks and assassinations for the Brotherhood."
   },
   {
    "q": "Why is Tyrion worried about his reputation?",
@@ -87,21 +87,21 @@
     "tyrion hiding bushes",
     "reputation in bushes"
    ],
-   "answer": "Beyond blowing his cover while conducting clandestine surveillance, Tyrion snarkily complains about how suspicious and unseemly it appears to have heavily armed adventurers loitering alongside him in the royal shrubbery under the noses of the castle guards."
+   "answer": "Tyrion worries you will expose his cover during secret surveillance. He also complains that heavily armed adventurers loitering beside him in the royal shrubbery under the castle guards' noses looks suspicious and unseemly."
   }
  ],
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "Infiltrating the seat of human nobility to aid two seasoned underground operatives highlights the quiet, lethal tradecraft required to protect Stormwind from shadows inside its own court."
+   "text": "As a rogue, you help two seasoned underground operatives infiltrate the seat of human nobility. Their work shows the quiet, lethal skill needed to protect Stormwind from threats within its own court."
   },
   {
    "target": "race:Gnome",
-   "text": "Seeing Tyrion run an intensive, long-term covert surveillance operation inside Stormwind Keep proves that gnomish ingenuity extends well beyond machinery into high-stakes espionage."
+   "text": "As a gnome, you see Tyrion carry out long-term covert surveillance inside Stormwind Keep. His work shows how gnomish ingenuity serves espionage as well as machinery."
   },
   {
    "target": "faction:Alliance",
-   "text": "With King Varian missing, the kingdom cannot afford betrayal in its highest legislative chamber; routing out conspirators in the Keep is critical to keeping the realm stable."
+   "text": "With King Varian missing, the kingdom cannot afford betrayal in the Keep's highest legislative chamber. As an Alliance member, you help root out conspirators to keep the realm stable."
   }
  ],
  "keywords": [
@@ -126,5 +126,6 @@
  ],
  "attribution": [
   "Infiltrating the Castle"
- ]
+ ],
+ "style": 2
 }

@@ -8,11 +8,11 @@
   "wiki": "Doctor Gustaf VanHowzen",
   "refs": 1
  },
- "summary": "At Foothold Citadel, Doctor Gustaf VanHowzen directs Theramore's medical care. He trains healers and tests seasoned medics in field triage and bandage work.",
+ "summary": "At Foothold Citadel, Doctor Gustaf VanHowzen directs Theramore’s medical care. He trains healers and tests seasoned medics in field triage and bandage work.",
  "sections": [
   {
    "title": "Chief Physician of Theramore",
-   "body": "On the ground floor of Foothold Citadel, Doctor Gustaf VanHowzen oversees medical care for Lady Jaina Proudmoore's forces and trains Theramore's frontline healers. Dustwallow Marsh makes their work harsh, and VanHowzen demands skill under pressure. He puts experienced medics through a demanding triage test, where they must judge which wounds need care first.",
+   "body": "On Foothold Citadel’s ground floor, Doctor Gustaf VanHowzen tends the forces of Lady Jaina Proudmoore and trains Theramore’s frontline healers. Dustwallow Marsh makes their work harsh, so VanHowzen demands skill under pressure. Experienced medics face his demanding triage test and must judge which wounds need care first.",
    "spoiler": 0
   }
  ],
@@ -33,7 +33,7 @@
     "vanhowzen role",
     "who is doctor vanhowzen"
    ],
-   "answer": "Doctor VanHowzen leads Alliance Trauma as its chief physician and Theramore's leading trauma surgeon. He oversees the garrison's medical ward and trains seasoned Alliance field medics in Artisan First Aid."
+   "answer": "Doctor VanHowzen leads Alliance Trauma as its chief physician and Theramore’s leading trauma surgeon. He oversees the garrison’s medical ward and trains seasoned Alliance field medics in Artisan First Aid."
   },
   {
    "q": "What does Doctor VanHowzen teach players?",
@@ -51,13 +51,13 @@
     "horde vanhowzen counterpart",
     "who is horde first aid master"
    ],
-   "answer": "Yes. Doctor Gregory Victor is the Horde's trauma specialist. He trains field medics and conducts triage examinations at Hammerfall in the Arathi Highlands."
+   "answer": "Yes. Doctor Gregory Victor is the Horde’s trauma specialist. He trains field medics and conducts triage examinations at Hammerfall in the Arathi Highlands."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance medic, you must travel to Theramore and prove your triage skills under Doctor VanHowzen's watchful eye to master field surgery."
+   "text": "As an Alliance medic, travel to Theramore and prove your triage skills under Doctor VanHowzen’s watchful eye to master field surgery."
   }
  ],
  "keywords": [
@@ -82,5 +82,5 @@
  "attribution": [
   "Doctor Gustaf VanHowzen"
  ],
- "style": 1
+ "style": 2
 }

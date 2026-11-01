@@ -12,7 +12,7 @@
  "sections": [
   {
    "title": "A Kaldorei in the Human Capital",
-   "body": "Argos Nightwhisper lives among the night elves gathering in Stormwind's Park. The district's quiet groves recall the kaldorei's ancestral woodlands. Like others of his kin stationed in the human kingdom, Argos connects the new allies across the Great Sea. Reports from across the ocean trouble him. He urges capable Alliance champions to travel to Auberdine in Darkshore, where his brother Gershala needs help against the spreading corruption.",
+   "body": "Argos Nightwhisper lives among the night elves gathered in Stormwind's Park. Its quiet groves remind them of the kaldorei's ancestral woodlands. Like others of his kin in the human kingdom, Argos helps connect the new allies across the Great Sea. Reports from across the ocean trouble him. He urges capable Alliance champions to travel to Auberdine in Darkshore, where his brother Gershala needs help against the spreading corruption.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "who is argos",
     "argos stormwind"
    ],
-   "answer": "Argos Nightwhisper is a night elf who lives in Stormwind City. He represents Darnassus in the eastern Alliance capital, helping travelers and directing them to passage to Kalimdor."
+   "answer": "Argos Nightwhisper is a night elf living in Stormwind City. He represents Darnassus in the eastern Alliance capital and directs travelers toward passage to Kalimdor."
   },
   {
    "q": "Where can Argos Nightwhisper be found?",
@@ -42,7 +42,7 @@
     "argos quest",
     "why go to darnassus"
    ],
-   "answer": "Argos asks seasoned adventurers to travel to Auberdine in Darkshore, where his brother Gershala needs help studying the corruption spreading through the land."
+   "answer": "Argos asks seasoned adventurers to travel to Auberdine in Darkshore. His brother Gershala needs help studying the corruption spreading through the land."
   },
   {
    "q": "Is Argos related to other Nightwhispers?",
@@ -83,5 +83,5 @@
  "attribution": [
   "Argos Nightwhisper"
  ],
- "style": 1
+ "style": 2
 }

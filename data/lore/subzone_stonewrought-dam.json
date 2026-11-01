@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Stonewrought Dam"
  },
- "summary": "Waters gather behind Stonewrought Dam along Loch Modan’s northern rim. The dwarven barrier holds back the Loch and drains the Wetlands below into habitable marshes.",
+ "summary": "Along Loch Modan’s northern rim, waters gather behind Stonewrought Dam. The dwarven barrier holds back the Loch and drains the Wetlands below into habitable marshes.",
  "sections": [
   {
    "title": "A Wonder of Dwarven Craft",
-   "body": "Stonewrought Dam stretches across the canyon east of Dun Algaz, one of the great works of dwarven craft. Dark Iron architect Franclorn Forgewright designed it and pioneered the stonewrought technique used to build it. By trapping water in the mountain basin, the dam doubled the Loch’s surface area and steadily lowered the waters to the north. The Wetlands emerged from a valley once completely flooded.",
+   "body": "East of Dun Algaz, Stonewrought Dam spans a canyon in one of the great works of dwarven craft. Dark Iron architect Franclorn Forgewright designed it and pioneered the stonewrought technique used to raise it. By holding water in the mountain basin, the dam doubled the Loch’s surface area and steadily lowered the waters to the north. The Wetlands formed from a valley once wholly flooded.",
    "spoiler": 0
   },
   {
    "title": "Sabotage and Defense",
-   "body": "Stonewrought Dam now serves Ironforge, though Dark Iron saboteurs from the southern mountains target it. After recent assaults and attempts to infiltrate the dam, Ironforge placed a garrison here under Chief Engineer Hinderweir VII. Guards and engineers patrol the masonry day and night. A breach could drain the Loch and unleash a devastating flood across the Wetlands below.",
+   "body": "Stonewrought Dam now serves Ironforge, but Dark Iron saboteurs from the southern mountains target it. After recent assaults and attempts to slip inside, Ironforge placed a garrison here under Chief Engineer Hinderweir VII. Guards and engineers patrol the masonry day and night. Should the dam be breached, the Loch could drain and send a devastating flood across the Wetlands below.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "creator of the dam",
     "dam architect"
    ],
-   "answer": "Dark Iron architect Franclorn Forgewright designed and oversaw the Stonewrought Dam, pioneering the stonewrought technique used to build it. Though built by a Dark Iron master, the dam serves the Bronzebeard kingdom today."
+   "answer": "Dark Iron architect Franclorn Forgewright designed and oversaw Stonewrought Dam. He pioneered the stonewrought technique used to build it. Though a Dark Iron master built it, the dam serves the Bronzebeard kingdom today."
   },
   {
    "q": "What happens if the dam breaks?",
@@ -37,7 +37,7 @@
     "what if the dam breaks",
     "dam destroyed"
    ],
-   "answer": "If the dam collapsed, the Loch would rapidly drain, leaving Loch Modan an empty crater of mud. Its waters would sweep into the Wetlands in a devastating, uncontrollable flood."
+   "answer": "If Stonewrought Dam collapsed, the Loch would rapidly drain and leave Loch Modan an empty crater of mud. Its waters would then sweep into the Wetlands in a devastating, uncontrollable flood."
   },
   {
    "q": "Why are Dark Iron dwarves attacking it?",
@@ -45,7 +45,7 @@
     "why attack dam",
     "dark iron dam attack"
    ],
-   "answer": "The Dark Iron clan attacks Ironforge’s vital infrastructure to destabilize the region. Crippling the dam would cripple supply lines, drown the northern Wetlands, and strike a bitter blow against Bronzebeard pride."
+   "answer": "The Dark Iron clan attacks Ironforge’s vital works to destabilize the region. Crippling the dam would cripple supply lines, drown the northern Wetlands and strike a bitter blow against Bronzebeard pride."
   },
   {
    "q": "Who is currently in charge of the dam's defense?",
@@ -53,17 +53,17 @@
     "who runs the dam",
     "dam engineer"
    ],
-   "answer": "Chief Engineer Hinderweir VII manages the dam’s daily operations and defenses, coordinating with Ironforge forces to root out saboteurs."
+   "answer": "Chief Engineer Hinderweir VII manages the dam’s daily operations and defenses. He coordinates with Ironforge forces to root out saboteurs."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "As a dwarf, you can see the dam as a monument to dwarven masonry and ingenuity. Its Dark Iron heritage remains a sore, contested point among Ironforge’s historians."
+   "text": "As a dwarf, you can see the dam as a monument to dwarven masonry and ingenuity. Its Dark Iron heritage remains a sore point contested among Ironforge’s historians."
   },
   {
    "target": "profession:Engineering",
-   "text": "As an engineer, you can study the dam’s hydraulic control and stonewrought load-bearing mechanics. Its design rivals the great works beneath Ironforge."
+   "text": "As an engineer, you can study the dam’s hydraulic controls and stonewrought load-bearing mechanics. Its design rivals the great works beneath Ironforge."
   }
  ],
  "keywords": [
@@ -88,5 +88,5 @@
  "attribution": [
   "Stonewrought Dam"
  ],
- "style": 1
+ "style": 2
 }

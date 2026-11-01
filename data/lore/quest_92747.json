@@ -17,16 +17,16 @@
   "wiki": "Moonbrook Espionage",
   "chain": []
  },
- "summary": "Alba Fairmoon sends you to scout Moonbrook, where signs of industry trouble the Alliance. The poison found across Westfall does not seem to come from the lesser mines, so attention turns to the Deadmines beneath the town.",
+ "summary": "In Moonbrook, Alba Fairmoon follows signs of industry trouble in Westfall. The poison found across the region does not seem to come from the smaller mines, so the Deadmines beneath the town draw her attention.",
  "sections": [
   {
    "title": "A Toxic Trail",
-   "body": "The mines already examined across Westfall offer no answer to the poison spreading through the region. No known surface excavation appears to be its source. One major site remains unexplored: the vast shafts of the Deadmines, directly beneath Moonbrook’s ruined streets.",
+   "body": "The mines already searched across Westfall have yielded no answer to the poison spreading through the region. No known surface excavation seems to be its source. One great site remains unexplored: the Deadmines, whose vast shafts lie beneath Moonbrook’s ruined streets.",
    "spoiler": 0
   },
   {
    "title": "Secrets of the Deadmines",
-   "body": "Accounts say the Deadmines were abandoned after the Horde overran the region during the First War. Yet modern industrial gear and supplies lie scattered through Moonbrook. Their presence points to an extensive mining and manufacturing operation hidden behind the ruined town’s empty appearance.",
+   "body": "The Horde overran the region during the First War, and accounts say the Deadmines were abandoned afterward. Yet modern industrial gear and supplies lie scattered through Moonbrook. They point to extensive mining and manufacturing hidden behind the town’s ruined, empty appearance.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "who gives moonbrook espionage",
     "alba fairmoon"
    ],
-   "answer": "Alba Fairmoon assigns you to investigate Moonbrook. She has been looking into suspicious toxins and industrial activity across contested Westfall."
+   "answer": "Alba Fairmoon sends you to investigate Moonbrook. She has been looking into suspicious toxins and industrial activity across contested Westfall."
   },
   {
    "q": "Why is Alba investigating Moonbrook?",
@@ -64,7 +64,7 @@
     "suspicious industrial supplies",
     "quest items moonbrook espionage"
    ],
-   "answer": "Scouts are sent to retrieve Suspicious Industrial Supplies scattered throughout Moonbrook. The supplies point to active industrial work and refining near the mine shafts."
+   "answer": "Scouts are sent to retrieve Suspicious Industrial Supplies scattered through Moonbrook. The supplies point to active industrial work and refining near the mine shafts."
   },
   {
    "q": "What threats occupy Moonbrook right now?",
@@ -117,5 +117,5 @@
  "attribution": [
   "Moonbrook Espionage"
  ],
- "style": 1
+ "style": 2
 }

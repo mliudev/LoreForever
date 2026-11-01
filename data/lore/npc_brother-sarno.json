@@ -8,16 +8,16 @@
   "wiki": "Brother Sarno",
   "refs": 1
  },
- "summary": "At the Cathedral of Light in Stormwind City, Brother Sarno welcomes visitors and worshipers. The human cleric also directs Alliance travelers to Ironforge, where Tinkmaster Overspark needs help reclaiming Gnomeregan.",
+ "summary": "At the Cathedral of Light in Stormwind City, Brother Sarno welcomes visitors and worshipers. He also sends Alliance travelers to Ironforge, where Tinkmaster Overspark needs help reclaiming Gnomeregan.",
  "sections": [
   {
    "title": "A Welcoming Voice in the Cathedral",
-   "body": "Inside the Cathedral of Light in Stormwind, Brother Sarno greets pilgrims and travelers at the entrance. A brother of the Church of the Holy Light, he welcomes those who come seeking prayer, comfort, or guidance. His kind manner puts visitors at ease amid the cathedral’s daily life.",
+   "body": "At the Cathedral of Light in Stormwind, Brother Sarno greets pilgrims and travelers at the entrance. A brother of the Church of the Holy Light, he welcomes those seeking prayer, comfort, or guidance. His kind manner puts visitors at ease amid the cathedral’s daily life.",
    "spoiler": 0
   },
   {
    "title": "Ties to Ironforge",
-   "body": "Brother Sarno also helps the Alliance beyond the cathedral. When word reached him that Tinkmaster Overspark in Ironforge needed help with his rogue invention, Techbot, in Gnomeregan, Sarno directed capable travelers toward Dun Morogh. His help supports the gnomes displaced from their home.",
+   "body": "Brother Sarno also helps the Alliance beyond the cathedral. When word reached him that Tinkmaster Overspark in Ironforge needed help with his rogue invention, Techbot, in Gnomeregan, Sarno directed capable travelers toward Dun Morogh. His aid supports gnomes displaced from their home.",
    "spoiler": 0
   }
  ],
@@ -59,7 +59,7 @@
  "angles": [
   {
    "target": "class:Priest",
-   "text": "As a priest, you can see Brother Sarno welcoming visitors in Stormwind, showing the hospitality and gentle grace of the Holy Light."
+   "text": "As a priest, you can see Brother Sarno welcoming visitors in Stormwind. He shows the hospitality and gentle grace of the Holy Light."
   },
   {
    "target": "race:Gnome",
@@ -86,5 +86,5 @@
  "attribution": [
   "Brother Sarno"
  ],
- "style": 1
+ "style": 2
 }

@@ -17,16 +17,16 @@
   "wiki": "Give Gerard a Drink",
   "chain": []
  },
- "summary": "At the Maclure Vineyards, Gerard Tiller works long days in the fields and needs fresh spring water. He trades apples for water brought by passing travelers.",
+ "summary": "At the Maclure Vineyards, Gerard Tiller works long days in the fields and needs fresh spring water. Passing travelers bring water and trade it for apples.",
  "sections": [
   {
    "title": "Thirsty Work in the Vineyard Fields",
-   "body": "Elwynn Forest's farms supply grain, fruit, and vegetables to Stormwind's townsfolk and garrisons. Tending crops under the open sky is hot, demanding work. Gerard Tiller spends long days in the dirt at the Maclure Vineyards, keeping pests away and managing the harvest. With little time to return to town wells, he relies on passing recruits to bring clean spring water so he can keep working.",
+   "body": "Elwynn's farms supply grain, fruit, and vegetables to Stormwind's townsfolk and garrisons. The work is hot beneath the open sky. At the Maclure Vineyards, Gerard Tiller tends the crops, keeps pests away, and manages the harvest. With little time to reach the town wells, he depends on passing recruits to bring clean spring water so he can keep working.",
    "spoiler": 0
   },
   {
    "title": "The Economy of Barter",
-   "body": "Gerard trades provisions instead of coin. Travelers with extra flasks of Refreshing Spring Water can exchange them for fresh apples from the orchard. The kingdom stretches its resources to maintain order and feed its army, so direct barter between smallholders and recruits remains a practical way to get by in rural Elwynn.",
+   "body": "Gerard trades provisions for water instead of coin. Travelers with extra flasks of Refreshing Spring Water can exchange them for fresh apples from his orchard. The kingdom stretches its resources to keep order and feed its army. So barter between smallholders and recruits remains a practical way to get by in rural Elwynn.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who is tiller",
     "gerard"
    ],
-   "answer": "Gerard Tiller is a farmer at the Maclure Vineyards in southern Elwynn Forest. He tends the fields and orchards that supply local residents."
+   "answer": "Gerard Tiller farms at the Maclure Vineyards in southern Elwynn Forest. He tends the fields and orchards that supply local residents."
   },
   {
    "q": "Why does Gerard need water?",
@@ -65,7 +65,7 @@
     "can i do this again",
     "turn in more water"
    ],
-   "answer": "Yes. Gerard keeps working the fields and will trade fresh orchard apples for more bottles of water you can spare."
+   "answer": "Yes. Gerard keeps working the fields and trades fresh orchard apples for more bottles of water you can spare."
   },
   {
    "q": "What does Gerard offer in return for the drink?",
@@ -111,5 +111,5 @@
  "attribution": [
   "Give Gerard a Drink"
  ],
- "style": 1
+ "style": 2
 }

@@ -12,21 +12,21 @@
   "levels": "10-20",
   "aliases": []
  },
- "summary": "The Stonewrought Dam holds Loch Modan's great lake above the Wetlands. Around Thelsamar, troggs threaten the southern valleys while kobolds work the mines and ogres hold the northeast highlands.",
+ "summary": "Loch Modan's great lake stands above the Wetlands, held back by the Stonewrought Dam. Around Thelsamar, troggs threaten the southern valleys, kobolds work the mines, and ogres hold the northeast highlands.",
  "sections": [
   {
    "title": "A Highland Jewel",
-   "body": "Loch Modan's lake fills a green valley east of Dun Morogh. Pines and birches climb toward the rugged peaks, while the Stonewrought Dam spans the northern rim. The dwarven town of Thelsamar draws mountaineers, hunters, and miners. Copper and tin veins run through the surrounding hills.",
+   "body": "Loch Modan's lake fills a green valley east of Dun Morogh. Pines and birches climb toward rugged peaks, and the Stonewrought Dam spans the northern rim. The dwarven town of Thelsamar draws mountaineers, hunters, and miners. Copper and tin run through the surrounding hills.",
    "spoiler": 0
   },
   {
    "title": "Unearthed Terrors and Invasions",
-   "body": "Broken catapults and ballistae on the lake bed recall the Second War, when the orcish Horde occupied Loch Modan before the dwarves drove them out. More recently, dwarven excavations opened underground chambers and released savage troggs. Trogg tribes, led by chieftains, have overrun the southern canyons of Stonesplinter Valley and the Valley of Kings. The Ironforge Mountaineers fight to defend the trade routes.",
+   "body": "Broken catapults and ballistae on the lake bed recall the Second War. The orcish Horde occupied Loch Modan then, until the dwarves drove them out. More recently, dwarven excavations opened underground chambers and released savage troggs. Their tribes, led by chieftains, overran the southern canyons of Stonesplinter Valley and the Valley of Kings. The Ironforge Mountaineers fight to defend the trade routes.",
    "spoiler": 0
   },
   {
    "title": "Plots in the Shadows",
-   "body": "Troggs and the ogres of Mo'grosh Stronghold threaten the valley, and investigations into local sabotage point to the treacherous Dark Iron dwarves. They came through the burning passes to the south. Dark Iron infiltrators target dwarven blastpowder reserves and harbor designs against the Stonewrought Dam.",
+   "body": "Troggs and the ogres of Mo'grosh Stronghold threaten the valley. Investigations into local sabotage point to the treacherous Dark Iron dwarves, who came through the burning passes to the south. Dark Iron infiltrators target dwarven blastpowder reserves and harbor designs against the Stonewrought Dam.",
    "spoiler": 1
   }
  ],
@@ -56,7 +56,7 @@
     "hub in loch modan",
     "thelsamar"
    ],
-   "answer": "Thelsamar, on the western bluffs, is the main Alliance town and travel hub. It has the Stoutlager Inn, tradesfolk, and gryphon masters who connect travelers to Ironforge and beyond."
+   "answer": "Thelsamar, on the western bluffs, is the main Alliance town and travel hub. Its Stoutlager Inn, tradesfolk, and gryphon masters connect travelers to Ironforge and beyond."
   },
   {
    "q": "Who rules Mo'grosh Stronghold?",
@@ -83,7 +83,7 @@
     "loch modan south exit",
     "path to badlands"
    ],
-   "answer": "Yes. Footpaths lead south through the mountains to the arid Badlands, while the Stonewrought Pass through the Valley of Kings leads southwest to the volcanic crags of Searing Gorge."
+   "answer": "Yes. Footpaths lead south through the mountains to the arid Badlands. The Stonewrought Pass through the Valley of Kings leads southwest to the volcanic crags of Searing Gorge."
   }
  ],
  "angles": [
@@ -129,5 +129,5 @@
   "Loch Modan (Classic)",
   "Loch Modan"
  ],
- "style": 1
+ "style": 2
 }

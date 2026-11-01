@@ -12,16 +12,16 @@
   "harvested": true,
   "level": "6"
  },
- "summary": "At the Lion's Pride Inn, Michelle Belle shows travelers how to prepare for camp. In Goldshire, you can learn to make a First Aid Kit for the road ahead.",
+ "summary": "At the Lion's Pride Inn, Michelle Belle shows you how to prepare First Aid Kits for camping. You need enough First Aid skill to learn how to ready these supplies for the road ahead.",
  "sections": [
   {
    "title": "Field Medicine on the Road",
-   "body": "Travel across Elwynn Forest can leave you wounded, far from a town healer or inn. First Aid lets you tend your own injuries and care for yourself without relying on others. Bandages offer help with bleeding and trauma, without arcane rituals or holy supplication.",
+   "body": "Travel through Elwynn can leave you wounded, far from a town healer or inn. First Aid lets you tend your own injuries without relying on anyone else. Bandages help with bleeding and trauma, without arcane rites or holy prayers.",
    "spoiler": 0
   },
   {
    "title": "Supplies for the Campsite",
-   "body": "A campsite offers a place to rest amid the dangers of the wild. At the Lion's Pride Inn in Goldshire, Michelle Belle teaches skilled practitioners to assemble First Aid Kits. Keep medical supplies at camp so a weary party can treat injuries and regain strength before facing the perils ahead.",
+   "body": "At Goldshire's Lion's Pride Inn, Michelle Belle teaches skilled practitioners to assemble First Aid Kits. Keep medical supplies at camp so a weary party can treat injuries and regain strength before facing the dangers ahead.",
    "spoiler": 0
   }
  ],
@@ -33,7 +33,7 @@
     "what does this quest do",
     "why camping 101 first aid"
    ],
-   "answer": "Adventurers who have learned basic First Aid seek Michelle Belle in Goldshire. She teaches them to make a First Aid Kit and stock a wilderness camp with medical supplies."
+   "answer": "Adventurers with basic First Aid seek Michelle Belle in Goldshire. She teaches them to make a First Aid Kit and stock a wilderness camp with medical supplies."
   },
   {
    "q": "Who do I need to speak with in Goldshire?",
@@ -42,7 +42,7 @@
     "camping trainer goldshire",
     "first aid camp trainer"
    ],
-   "answer": "Speak with Michelle Belle, a First Aid trainer in Goldshire. Once you demonstrate sufficient skill, she teaches you techniques for making camping supplies suited to field medicine."
+   "answer": "Speak with Michelle Belle, a First Aid trainer in Goldshire. Once you show enough skill, she teaches you how to make camping supplies for field medicine."
   },
   {
    "q": "Why is First Aid important for travelers?",
@@ -51,7 +51,7 @@
     "is first aid useful",
     "first aid lore"
    ],
-   "answer": "First Aid helps travelers tend injuries from beasts, bandits, and harsh elements. It lets anyone, whether or not they wield divine or arcane magic, bandage wounds and recover between skirmishes."
+   "answer": "First Aid helps travelers tend injuries from beasts, bandits, and harsh weather. Anyone can bandage wounds and recover between skirmishes, with or without divine or arcane magic."
   },
   {
    "q": "Where is Goldshire located?",
@@ -60,7 +60,7 @@
     "goldshire location",
     "how to find michelle belle"
    ],
-   "answer": "Goldshire is the primary hamlet in Elwynn Forest, just south of Stormwind City along the main trade road. It is a central hub for supplies and local trainers, with respite at the Lion's Pride Inn."
+   "answer": "Goldshire is Elwynn Forest's main hamlet, just south of Stormwind City along the main trade road. It is a central hub for supplies and local trainers, with rest at the Lion's Pride Inn."
   },
   {
    "q": "Do I need prior training to complete this task?",
@@ -69,7 +69,7 @@
     "first aid skill needed",
     "prerequisites"
    ],
-   "answer": "Yes. Michelle Belle asks you to demonstrate proficiency in First Aid before teaching you to make camp kits."
+   "answer": "Yes. Michelle Belle asks you to show your First Aid skill before she teaches you to make camp kits."
   },
   {
    "q": "How does a First Aid Kit fit into camping?",
@@ -78,21 +78,21 @@
     "camping item first aid",
     "why make a first aid kit"
    ],
-   "answer": "A wilderness campsite provides a safe perimeter to recuperate. A First Aid Kit keeps bandages and remedies close at hand, supplies necessary to save lives far from town healers."
+   "answer": "A wilderness campsite offers a safe place to recover. A First Aid Kit keeps bandages and remedies close at hand, ready to save lives far from town healers."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Goldshire is a vital crossroads for Alliance travelers heading from Northshire into Elwynn."
+   "text": "Goldshire is a crossroads for Alliance travelers heading from Northshire into Elwynn."
   },
   {
    "target": "class:Warrior",
-   "text": "Without innate healing spells, you as a warrior rely on bandages and field kits to endure long campaigns in the wild."
+   "text": "As a warrior, you have no healing spells of your own, so you rely on bandages and field kits to endure long campaigns in the wild."
   },
   {
    "target": "class:Rogue",
-   "text": "As a rogue operating in the shadows far from support, you depend on field medicine to bandage bleeding gashes before moving on to your next mark."
+   "text": "As a rogue working in the shadows far from help, you depend on field medicine to bandage bleeding wounds before moving on to your next mark."
   }
  ],
  "keywords": [
@@ -112,5 +112,5 @@
  "attribution": [
   "In-game quest text: Camping 101: First Aid"
  ],
- "style": 1
+ "style": 2
 }

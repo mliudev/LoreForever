@@ -11,11 +11,11 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "Danitha Morr asks you to find Deathguard Falgan in Venomweb Vale. He and a companion uncovered Scarlet orders for an attack on Brill before they were separated.",
+ "summary": "Danitha Morr sends you to Venomweb Vale to find Deathguard Falgan. He and his companion were separated after learning the Scarlet Crusade plans an attack on Brill.",
  "sections": [
   {
    "title": "Falgan's Return",
-   "body": "Falgan was sent with Billmuth to scout Scarlet activity in Venomweb Vale. He says they learned the Scarlet Crusade plans some kind of attack, and he asks whether you will help the Forsaken further.",
+   "body": "Deathguard Falgan went with Billmuth to scout Scarlet activity in Venomweb Vale. They learned the Scarlet Crusade plans some kind of attack. Now Falgan asks whether you will help the Forsaken further.",
    "spoiler": 0
   }
  ],
@@ -54,7 +54,7 @@
     "what did they find",
     "attack plans"
    ],
-   "answer": "They learned that the Scarlet Crusade plans some kind of attack."
+   "answer": "Falgan and Billmuth learned that the Scarlet Crusade plans some kind of attack."
   },
   {
    "q": "What is the Symbol of Life for?",
@@ -72,7 +72,7 @@
     "what next",
     "Falgan asks"
    ],
-   "answer": "Falgan asks whether you are willing to help the Forsaken further."
+   "answer": "After returning, Falgan asks whether you are willing to help the Forsaken further."
   }
  ],
  "angles": [],
@@ -91,7 +91,7 @@
   "subzone:brill",
   "topic:forsaken"
  ],
- "style": 1,
+ "style": 2,
  "attribution": [
   "In-game quest text: A Lesson in Divinity"
  ]

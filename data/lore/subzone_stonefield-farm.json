@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Stonefield Farm"
  },
- "summary": "The Stonefield family works the fields in southern Elwynn Forest. Their long feud with the neighboring Maclures keeps the two households at odds.",
+ "summary": "In southern Elwynn Forest, the Stonefield family works its fields while a long feud divides them from the Maclures.",
  "sections": [
   {
    "title": "A Bitter Homestead",
-   "body": "Stonefield Farm lies south of Goldshire, where the family grows crops for the realm. For decades, the Stonefields have quarreled with the nearby Maclure Vineyards. The households trade accusations of theft and trespassing, and even small disputes keep tensions high. Gramma Stonefield, Ma Stonefield, and young Tommy Joe Stonefield make their home here.",
+   "body": "South of Goldshire, the Stonefields grow crops for the realm. For decades, they have quarreled with the nearby Maclure Vineyards. Each household accuses the other of theft and trespassing, and even small disputes keep tensions high. Gramma Stonefield, Ma Stonefield, and young Tommy Joe Stonefield make their home here.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "why are stonefields fighting",
     "stonefield rivals"
    ],
-   "answer": "The Stonefields and Maclures have quarreled for years in southern Elwynn Forest. They accuse each other of trespassing, theft, and other wrongs, and refuse to cooperate even on simple neighborhood matters."
+   "answer": "The Stonefields and Maclures have quarreled for years in southern Elwynn Forest. They accuse each other of trespassing, theft, and other wrongs, and refuse to cooperate even on simple matters between neighbors."
   },
   {
    "q": "Who lives at Stonefield Farm?",
@@ -31,7 +31,7 @@
     "stonefield npcs",
     "who is at stonefield farm"
    ],
-   "answer": "Gramma Stonefield, Ma Stonefield, and young Tommy Joe Stonefield live at the farm, which is managed by the Stonefield clan."
+   "answer": "Gramma Stonefield, Ma Stonefield, and young Tommy Joe Stonefield live at the farm. The Stonefield clan manages it."
   },
   {
    "q": "What is Tommy Joe Stonefield's secret?",
@@ -63,5 +63,5 @@
  "attribution": [
   "Stonefield Farm"
  ],
- "style": 1
+ "style": 2
 }

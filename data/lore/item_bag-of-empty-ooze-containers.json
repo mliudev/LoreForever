@@ -10,11 +10,11 @@
    "quest:4513"
   ]
  },
- "summary": "In Ironforge, Laris Geardawdle supplies empty containers for his ooze research. The jars are meant to hold pristine slime specimens gathered in the field.",
+ "summary": "In Ironforge, Laris Geardawdle supplies empty jars for his study of Azeroth’s oozes. He means them to hold clean slime gathered in the wild.",
  "sections": [
   {
    "title": "Field Research Equipment",
-   "body": "Laris Geardawdle studies the strange biology of Azeroth's oozes. He found that slime creatures quickly take on the corruption around them, including tainted residues from Felwood. To study oozes in their natural state, he commissioned sturdy jars that can hold acidic specimens without harming them. The bag contains enough jars to collect clean slime in wild regions, especially Un'Goro Crater, where ancient glutinous oozes live free from demonic taint.",
+   "body": "Laris Geardawdle studies the strange biology of Azeroth’s oozes. He found that they quickly take on the corruption around them, including Felwood’s tainted residues. So he commissioned sturdy jars that can hold acidic specimens without harming them. The bag carries enough jars to gather clean slime in wild regions, especially Un’Goro Crater, where ancient glutinous oozes live free of demonic taint.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "bag contents",
     "ooze container contents"
    ],
-   "answer": "The bag holds ten Empty Pure Sample Jars, glass vessels made to store caustic ooze without damaging or contaminating the sample."
+   "answer": "The bag holds ten Empty Pure Sample Jars. Their glass can hold caustic ooze without damaging or contaminating a sample."
   },
   {
    "q": "Who provided these containers?",
@@ -35,7 +35,7 @@
     "laris geardawdle bag",
     "who gives bag of empty ooze containers"
    ],
-   "answer": "Laris Geardawdle, a gnome researcher working in Ironforge's Hall of Explorers, provided the containers. He studies how slimes adapt to their surroundings."
+   "answer": "Laris Geardawdle, a gnome researcher in Ironforge’s Hall of Explorers, supplied the containers. He studies how slimes adapt to their surroundings."
   },
   {
    "q": "What kind of oozes are these jars meant to collect?",
@@ -44,7 +44,7 @@
     "pure sample jar target",
     "where to fill jars"
    ],
-   "answer": "The jars are meant for pure, uncorrupted ooze. Pristine slime can be collected from the glutinous oozes in Un'Goro Crater, unlike the blighted specimens in Felwood."
+   "answer": "The jars are meant for pure, uncorrupted ooze. You can gather pristine slime from Un’Goro Crater’s glutinous oozes, unlike the blighted specimens in Felwood."
   },
   {
    "q": "Why does Laris need pure ooze samples?",
@@ -53,17 +53,17 @@
     "geardawdle research goal",
     "why pure oozes"
    ],
-   "answer": "Laris needs pure ooze samples to study how oozes absorb qualities from their surroundings. He can compare an uncorrupted specimen with polluted slimes from blighted regions."
+   "answer": "Laris needs pure ooze to study how oozes absorb qualities from their surroundings. He can compare an uncorrupted specimen with polluted slimes from blighted regions."
   }
  ],
  "angles": [
   {
    "target": "race:Gnome",
-   "text": "As a gnome, you can recognize the ingenuity in these durable, chemical-resistant jars, which let researchers carry dangerous, corrosive wildlife samples safely."
+   "text": "As a gnome, you can see the ingenuity in these durable, chemical-resistant jars. They let researchers carry dangerous, corrosive wildlife samples safely."
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance adventurer, you can help Laris Geardawdle with his ecological research from Ironforge by bringing back field samples from untamed places like Un'Goro Crater."
+   "text": "As an Alliance adventurer, you can help Laris Geardawdle with his ecological research in Ironforge. Bring him field samples from untamed places like Un’Goro Crater."
   }
  ],
  "keywords": [
@@ -87,5 +87,5 @@
   "Bag of Empty Ooze Containers",
   "A Little Slime Goes a Long Way (2)"
  ],
- "style": 1
+ "style": 2
 }

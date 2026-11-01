@@ -11,16 +11,16 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "A Forsaken leader asks you to stop the Tarnished at Shadowvale in Tirisfal Glades. Their attacks deepen mistrust among the Forsaken and threaten a fledgling order\u2019s place in Tirisfal.",
+ "summary": "At Shadowvale in Tirisfal Glades, the Tarnished threaten a fledgling order's place among the Forsaken. Their attacks deepen mistrust and put the order's future at risk.",
  "sections": [
   {
    "title": "A Tarnished Order",
-   "body": "Some of the risen have kept prejudices from their former lives and now attack their fellow Forsaken. The Tarnished have gathered at Shadowvale, southwest of here. You are asked to end their violence and bring back Commander Rudolph Gelhardt\u2019s head.",
+   "body": "Some risen still bear prejudices from their former lives, and now attack their fellow Forsaken. The Tarnished have gathered at Shadowvale, southwest of here. Their violence must end, and Commander Rudolph Gelhardt’s head must be brought back.",
    "spoiler": 0
   },
   {
    "title": "A Place Among Them",
-   "body": "The Tarnished\u2019s attacks give those who distrust the order more reason to turn against it. Stopping them may help the order earn a place among the Forsaken, though acceptance could take years or decades.",
+   "body": "The Tarnished’s attacks give those who distrust the order more reason to turn against it. Stopping them may help the order earn a place among the Forsaken. Acceptance could still take years or decades.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "tarnished who",
     "who are these tarnished"
    ],
-   "answer": "The Tarnished are risen who have carried prejudices from their former lives and attack fellow Forsaken."
+   "answer": "The Tarnished are risen who kept prejudices from their former lives and now attack fellow Forsaken."
   },
   {
    "q": "Where are the Tarnished?",
@@ -39,7 +39,7 @@
     "tarnished location",
     "where tarnished"
    ],
-   "answer": "A number of the Tarnished have taken up residence at Shadowvale, southwest of here in Tirisfal Glades."
+   "answer": "A number of the Tarnished have settled at Shadowvale, southwest of here in Tirisfal Glades."
   },
   {
    "q": "Why are the Tarnished a threat?",
@@ -47,7 +47,7 @@
     "why stop tarnished",
     "tarnished attacks"
    ],
-   "answer": "Their attacks on fellow Forsaken deepen mistrust toward the order among the Forsaken."
+   "answer": "Their attacks on fellow Forsaken deepen mistrust of the order among the Forsaken."
   },
   {
    "q": "Who leads the Tarnished?",
@@ -55,7 +55,7 @@
     "tarnished leader",
     "rudy gelhardt"
    ],
-   "answer": "Commander Rudolph Gelhardt is identified as the Tarnished leader."
+   "answer": "Commander Rudolph Gelhardt leads the Tarnished."
   },
   {
    "q": "Why does the order need the Forsaken's trust?",
@@ -63,13 +63,13 @@
     "order trust",
     "forsaken mistrust"
    ],
-   "answer": "The order is mistrusted because the Forsaken remember persecution by the living in the name of the Light. Tarnished attacks make that mistrust worse."
+   "answer": "The order is mistrusted because the Forsaken remember persecution by the living in the name of the Light. The Tarnished’s attacks deepen that mistrust."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "As a Forsaken, you face fellow risen who attack their own people, worsening mistrust toward a fledgling order."
+   "text": "As a Forsaken, you face risen who attack their own people. Their violence worsens mistrust toward a fledgling order."
   },
   {
    "target": "faction:Horde",
@@ -93,7 +93,7 @@
   "topic:horde",
   "topic:light"
  ],
- "style": 1,
+ "style": 2,
  "attribution": [
   "In-game quest text: The Tarnished"
  ]

@@ -10,11 +10,11 @@
    "quest:3108"
   ]
  },
- "summary": "In Coldridge Valley, the Etched Rune invites aspiring dwarven hunters to Anvilmar. Hunter trainer Thorgas Grimson sends it to begin their formal wilderness instruction.",
+ "summary": "In Coldridge Valley, the Etched Rune calls promising dwarven hunters to Anvilmar. Hunter trainer Thorgas Grimson sends it to begin their instruction in the wilderness.",
  "sections": [
   {
    "title": "Call of the Wild",
-   "body": "The Etched Rune bears dwarven runes and reaches novices who show promise in Coldridge Valley’s snowdrifts. Mountaineer and hunter trainer Thorgas Grimson sends it to call fledgling trackers to Anvilmar. The rune marks their first step beyond basic survival and into the craft of the wild: respecting Dun Morogh’s beasts, tracking mountain predators, caring for ranged weapons, and enduring the harsh elements.",
+   "body": "Dwarven runes mark the Etched Rune, sent to novices who show promise in Coldridge Valley’s snowdrifts. Mountaineer and hunter trainer Thorgas Grimson calls fledgling trackers to Anvilmar. There, they move beyond basic survival and learn the hunter’s craft: respect for Dun Morogh’s beasts, tracking mountain predators, care for ranged weapons, and endurance in the harsh elements.",
    "spoiler": 0
   }
  ],
@@ -44,17 +44,17 @@
     "turn in etched rune",
     "thorgas grimson location"
    ],
-   "answer": "Take the Etched Rune to Anvilmar in Coldridge Valley. Thorgas Grimson stands near the forge and training halls, ready to teach you tracking, weapon care, and dwarven hunting traditions."
+   "answer": "Take the Etched Rune to Anvilmar in Coldridge Valley. Thorgas Grimson waits near the forge and training halls to teach you tracking, weapon care, and dwarven hunting traditions."
   }
  ],
  "angles": [
   {
    "target": "class:Hunter",
-   "text": "As a hunter, the rune calls you into the craft of dwarven hunting, with its focus on tracking, respecting your animal companions, and surviving the wilderness through your own wits."
+   "text": "As a hunter, the rune calls you into the craft of dwarven hunting. You learn to track, respect your animal companions, and survive the wilderness through your own wits."
   },
   {
    "target": "race:Dwarf",
-   "text": "As a dwarf, you know carved stones and runes carry trade knowledge and urgent instructions, even through Coldridge Valley’s snows."
+   "text": "As a dwarf, you know carved stones and runes carry trade knowledge and urgent instructions through Coldridge Valley’s snows."
   }
  ],
  "keywords": [
@@ -78,5 +78,5 @@
   "Etched Rune",
   "Etched Rune (Classic)"
  ],
- "style": 1
+ "style": 2
 }

@@ -20,16 +20,16 @@
    "The Reports"
   ]
  },
- "summary": "Senir Whitebeard sends an urgent report from Kharanos to Senator Barin Redstone in Ironforge. He warns that the senator is sour and asks you to keep the scout who gathered the information unnamed.",
+ "summary": "From Kharanos, Senir Whitebeard sends word to Senator Barin Redstone in Ironforge about the Frostmane threat to Dun Morogh. He asks you to leave his scout unnamed.",
  "sections": [
   {
    "title": "A Dispatch to the Capital",
-   "body": "Senir Whitebeard needs you to carry an urgent report from Kharanos to Senator Barin Redstone in Ironforge. The mountaineer’s account details the growing Frostmane troll threat facing Dun Morogh, drawn from reconnaissance deep inside Frostmane Hold. Senir asks you not to mention who helped gather the information from the snowy crags.",
+   "body": "The report carries news from deep inside Frostmane Hold, where the trolls threaten Dun Morogh. Senir wants you to take it straight to Barin Redstone and keep the scout from the snowy crags unnamed.",
    "spoiler": 0
   },
   {
    "title": "Friction in the High Seat",
-   "body": "Senator Barin Redstone reacts with anger when you deliver Senir’s report in Ironforge’s royal court. The senator bristles at the report’s use of King Magni’s authority to sanction Senir’s operations. His response reveals resentment in the Senate toward the King’s decrees and field initiatives carried out in his name.",
+   "body": "Senator Barin Redstone grows angry when Senir’s report reaches Ironforge’s royal court. He resents Senir invoking King Magni’s authority to approve his operations. His anger reveals the Senate’s resentment of the King’s decrees and the field work carried out in his name.",
    "spoiler": 1
   }
  ],
@@ -50,7 +50,7 @@
     "who is the senator",
     "redstone ironforge"
    ],
-   "answer": "Barin Redstone is a sour, aristocratic dwarf senator who resides in Ironforge’s throne room near King Magni Bronzebeard. He is easily annoyed by common petitioners."
+   "answer": "Barin Redstone is a sour, aristocratic dwarf senator who lives in Ironforge’s throne room near King Magni Bronzebeard. Common petitioners annoy him easily."
   },
   {
    "q": "Why is Senator Redstone angry about the report?",
@@ -59,7 +59,7 @@
     "why does the senator yell",
     "senate vs magni"
    ],
-   "answer": "Senir warns you that Senator Redstone is sour. You learn the senator’s response when you deliver the report."
+   "answer": "Senir warns you that Senator Redstone is sour. You learn why the senator is angry when you deliver the report."
   },
   {
    "q": "Why does Senir Whitebeard ask to keep your help secret?",
@@ -68,7 +68,7 @@
     "whitebeard stole credit",
     "senir's secret"
    ],
-   "answer": "Senir Whitebeard asks you to keep your help secret so his superiors will believe he completed the arduous scouting himself. He does not want to admit that an adventurer carried out the mission."
+   "answer": "Senir Whitebeard asks you to keep your help secret so his superiors will believe he completed the arduous scouting himself. He does not want to admit that an adventurer carried out the work."
   },
   {
    "q": "Where is the report delivered?",
@@ -86,7 +86,7 @@
     "dwarf senate lore",
     "magni vs senate"
    ],
-   "answer": "The delivery introduces Ironforge’s Senate and the officials who receive frontier reports. Redstone’s reaction gives you a glimpse of Ironforge politics."
+   "answer": "Delivering the report introduces Ironforge’s Senate and the officials who receive frontier reports. Redstone’s response offers a glimpse of Ironforge politics."
   }
  ],
  "angles": [
@@ -119,5 +119,5 @@
  "attribution": [
   "The Reports"
  ],
- "style": 1
+ "style": 2
 }

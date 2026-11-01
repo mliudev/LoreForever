@@ -10,16 +10,16 @@
    "quest:8311"
   ]
  },
- "summary": "During Hallow's End, Gnomeregan Gumdrops reach travelers from the exiled gnomes. One sweet helps sick Jesper celebrate at the Stormwind orphanage.",
+ "summary": "At Hallow's End, Gnomeregan Gumdrops reach travelers from the exiled gnomes. One sweet helps sick Jesper celebrate at the Stormwind orphanage.",
  "sections": [
   {
    "title": "A Taste of Gnomish Ingenuity",
-   "body": "At Ironforge's Mystic Ward, Talvash del Kissel hands out Gnomeregan Gumdrops to travelers who play along with his Hallow's End tricks. Innkeepers across the Alliance offer regional treats, but the exiled gnomes have no capital inn of their own. The radioactive disaster drove them from their underground kingdom, yet they still share their distinct sweets with the Alliance.",
+   "body": "At Ironforge's Mystic Ward, Talvash del Kissel gives travelers Gnomeregan Gumdrops when they play along with his Hallow's End tricks. Alliance innkeepers offer treats from their own lands, but the exiled gnomes have no capital inn of their own. The radioactive disaster drove them from their underground kingdom. Still, they share their distinct sweets with the Alliance.",
    "spoiler": 0
   },
   {
    "title": "A Treat for Jesper",
-   "body": "Sick Jesper is confined to the Stormwind orphanage in Cathedral Square and cannot travel the continents to trick-or-treat. Travelers gather four regional sweets from Alliance capitals to bring the holiday to him: Gnomeregan Gumdrop, Stormwind Nougat, Ironforge Mint, and Darnassus Marzipan.",
+   "body": "Sick Jesper stays at the Stormwind orphanage in Cathedral Square and cannot travel the continents to trick-or-treat. So travelers gather four regional sweets from Alliance capitals and bring them to him: Gnomeregan Gumdrop, Stormwind Nougat, Ironforge Mint, and Darnassus Marzipan.",
    "spoiler": 0
   }
  ],
@@ -39,7 +39,7 @@
     "why ironforge",
     "why is talvash in ironforge"
    ],
-   "answer": "Troggs overran and irradiated Gnomeregan, forcing its surviving gnomes into exile. Many now live alongside the dwarves in Ironforge, including Talvash del Kissel."
+   "answer": "Troggs overran and irradiated Gnomeregan, driving its surviving gnomes into exile. Many now live alongside the dwarves in Ironforge, including Talvash del Kissel."
   },
   {
    "q": "What is this candy used for?",
@@ -65,7 +65,7 @@
   },
   {
    "target": "faction:Alliance",
-   "text": "You travel among human, dwarven, and gnomish communities to gather this sweet, sharing the Alliance's close bonds during seasonal celebrations."
+   "text": "You travel among human, dwarven, and gnomish communities to gather this sweet. The seasonal celebration shows the close bonds of the Alliance."
   }
  ],
  "keywords": [
@@ -89,5 +89,5 @@
   "Gnomeregan Gumdrop",
   "Hallow's End Treats for Jesper!"
  ],
- "style": 1
+ "style": 2
 }

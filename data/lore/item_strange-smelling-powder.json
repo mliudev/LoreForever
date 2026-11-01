@@ -11,16 +11,16 @@
    "quest:199"
   ]
  },
- "summary": "In Loch Modan, Strange Smelling Powder has raised alarm during an inquiry into sabotage. Chief Engineer Hinderweir suspects an explosive and seeks an expert's judgment.",
+ "summary": "In Loch Modan, Strange Smelling Powder has alarmed engineers investigating sabotage. Chief Engineer Hinderweir fears it may be explosive and seeks an expert's judgment.",
  "sections": [
   {
    "title": "A Volatile Discovery",
-   "body": "Strange Smelling Powder was found amid signs of sabotage against Loch Modan's infrastructure. Chief Engineer Hinderweir fears it may be an engineered explosive, unlike the usual powder used in mining. He cannot identify its mixture or origin, and will not tamper with it himself. Even a small spark could bring disaster.",
+   "body": "Strange Smelling Powder was found amid signs of sabotage against Loch Modan's infrastructure. Chief Engineer Hinderweir fears it may be an engineered explosive, unlike the powder usually used in mining. He cannot identify its mixture or origin, and will not tamper with it himself. Even a small spark could bring disaster.",
    "spoiler": 0
   },
   {
    "title": "The Road North",
-   "body": "Chief Engineer Hinderweir sends samples through the Algaz Gate into the Wetlands for inspection. Ashlan Stonesmirk, a seasoned explosives expert stationed with the regiment at Dun Modr near the Thandol Span, is to examine the grains and determine what kind of blast the saboteurs are preparing.",
+   "body": "Chief Engineer Hinderweir sends samples through the Algaz Gate into the Wetlands for inspection. Ashlan Stonesmirk, a seasoned explosives expert with the regiment at Dun Modr near the Thandol Span, is to examine the grains and determine what kind of blast the saboteurs are preparing.",
    "spoiler": 1
   }
  ],
@@ -50,7 +50,7 @@
     "where do i take the powder",
     "powder expert"
    ],
-   "answer": "Chief Engineer Hinderweir directs travelers to take the sample to Ashlan Stonesmirk, an explosives expert stationed with the regiment at Dun Modr near the Thandol Span."
+   "answer": "Chief Engineer Hinderweir directs travelers to take the sample to Ashlan Stonesmirk, an explosives expert with the regiment at Dun Modr near the Thandol Span."
   },
   {
    "q": "Why is transporting the powder dangerous?",
@@ -64,7 +64,7 @@
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "As an engineer, you may recognize the sulfurous scent of unstable blasting mixtures unlike the standard formulas used in Alliance mining outposts."
+   "text": "As an engineer, you may recognize the sulfurous scent of unstable blasting mixtures, unlike the standard formulas used in Alliance mining outposts."
   },
   {
    "target": "race:Dwarf",
@@ -92,5 +92,5 @@
   "A Dark Threat Looms (3)",
   "A Dark Threat Looms (2)"
  ],
- "style": 1
+ "style": 2
 }

@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Loading Room"
  },
- "summary": "In Gnomeregan's depths, the Loading Room is a dangerous place to pass through. The ruined chamber once staged cargo for the city's transit networks, but radioactive fallout and rogue machinery now threaten anyone who enters.",
+ "summary": "In Gnomeregan's depths, the Loading Room lies amid danger. It once staged cargo for the city's transit networks. Now radioactive fallout and rogue machinery threaten all who enter.",
  "sections": [
   {
    "title": "Industrial Depot Under Siege",
-   "body": "The Loading Room once handled cargo for Gnomeregan's underground transit network. Before the city fell, goods passed through its staging bay on their way across the tinker capital. Now the room is caught in the ruin that has overtaken Gnomeregan. Radioactive fallout, invading troggs, and failing machinery make the area perilous. Techbot, a rogue mechanized construct, guards the vicinity. Gnome survivors and Alliance reclaimers who try to secure the perimeter must face that danger.",
+   "body": "Cargo once passed through the Loading Room on its way across Gnomeregan's underground transit network. Goods gathered in its staging bay before the trains carried them through the tinker capital.\n\nNow ruin has overtaken the chamber. Radioactive fallout, invading troggs, and failing machinery make it perilous. Techbot, a rogue mechanized construct, guards the vicinity. Gnome survivors and Alliance reclaimers who try to secure the perimeter must face that danger.",
    "spoiler": 0
   }
  ],
@@ -32,7 +32,7 @@
     "loading room bosses",
     "techbot location"
    ],
-   "answer": "Techbot, a rogue mechanical defense construct, prowls the Loading Room. Radioactive contamination and erratic machinery also threaten anyone in this part of the city."
+   "answer": "Techbot, a rogue mechanical defense construct, prowls the Loading Room. Radioactive contamination and erratic machinery threaten anyone in this part of the city."
   },
   {
    "q": "Is the Loading Room safe to explore?",
@@ -69,5 +69,5 @@
  "attribution": [
   "Loading Room"
  ],
- "style": 1
+ "style": 2
 }

@@ -14,11 +14,11 @@
  "angles": [
   {
    "target": "race:Human",
-   "text": "Graduating from Northshire into the service of Goldshire marks a human adventurer's first official recognition by the Stormwind military hierarchy."
+   "text": "As a human, your move from Northshire to Goldshire is your first real recognition from Stormwind's military."
   },
   {
    "target": "faction:Alliance",
-   "text": "With Stormwind's army diverted elsewhere, the defense of Elwynn relies increasingly on newly deputized local recruits and volunteers."
+   "text": "With Stormwind's army sent elsewhere, Elwynn's defense rests more and more on newly deputized recruits and volunteers like you."
   }
  ],
  "faq": [
@@ -28,7 +28,7 @@
     "where is dughan",
     "dughan role"
    ],
-   "answer": "Marshal Dughan is the commanding officer of the Stormwind Marshals stationed in Goldshire, responsible for managing the defense and patrols across Elwynn Forest.",
+   "answer": "Marshal Dughan commands the Stormwind Marshals in Goldshire. He oversees Elwynn Forest's defenses and patrols.",
    "q": "Who is Marshal Dughan?"
   },
   {
@@ -37,7 +37,7 @@
     "leaving northshire",
     "next step after northshire"
    ],
-   "answer": "After handling immediate threats within the quiet valley of Northshire Valley, Marshal McBride reassigns capable recruits southward to Goldshire to assist with the much broader dangers threatening Elwynn Forest.",
+   "answer": "When recruits have dealt with trouble in Northshire Valley, Marshal McBride sends those who prove capable south to Goldshire. The dangers there stretch across all of Elwynn Forest.",
    "q": "Why are recruits sent to Goldshire?"
   },
   {
@@ -46,7 +46,7 @@
     "what is acting deputy status",
     "deputy status meaning"
    ],
-   "answer": "Acting Deputy Status is a provisional field rank granted by Marshal McBride's documents, inducting promising recruits into the ranks of the Stormwind Marshals to assist local law enforcement.",
+   "answer": "Acting Deputy is a field rank granted with Marshal McBride's papers. It brings promising recruits into the Stormwind Marshals to help keep the law.",
    "q": "What does Acting Deputy Status mean?"
   },
   {
@@ -55,7 +55,7 @@
     "stormwind army missing",
     "why is elwynn unprotected"
    ],
-   "answer": "According to Marshal Dughan, most of Stormwind's standing army is diverted away, tied up on errands and duties dictated by court nobles rather than patrolling local settlements.",
+   "answer": "Marshal Dughan says most of Stormwind's standing army is away. The court nobles keep it busy with their duties instead of patrolling the towns and farms at home.",
    "q": "Where is the Stormwind army?"
   },
   {
@@ -63,7 +63,7 @@
     "who is mcbride",
     "mcbride role"
    ],
-   "answer": "Marshal McBride oversees the garrison at Northshire Abbey, training new defenders before sending those who prove themselves to the front line at Goldshire.",
+   "answer": "Marshal McBride commands the garrison at Northshire Abbey. He trains new defenders and sends those who prove themselves to the front line at Goldshire.",
    "q": "Who is Marshal McBride?"
   },
   {
@@ -72,7 +72,7 @@
     "how to get to goldshire",
     "direction to goldshire"
    ],
-   "answer": "Goldshire lies down the main road leading south out of Northshire Valley, past the boundary gates and into the heart of Elwynn Forest.",
+   "answer": "Follow the main road south out of Northshire Valley, past the border gates and into Elwynn Forest's heart. Goldshire lies along the road.",
    "q": "How do you find Goldshire from Northshire?"
   }
  ],
@@ -95,18 +95,19 @@
  ],
  "sections": [
   {
-   "body": "Having proven their mettle against local troubles within Northshire Valley, recruits are officially released from Northshire's local guard by Marshal McBride. In recognition of their service, McBride prepares transfer papers directing them south past the border gates along the road into Goldshire, transferring their responsibilities to the wider expanse of Elwynn Forest.",
+   "body": "You've proved yourself against Northshire's troubles, and McBride releases you from the valley's guard. His transfer papers send you past the border gates and down the road to Goldshire. From there, your duty reaches across the wider forest.",
    "spoiler": 0,
    "title": "From Northshire to the Greater Forest"
   },
   {
-   "body": "Upon arrival in Goldshire, Marshal Dughan accepts McBride's dispatches and formally assigns the recruit the rank of Acting Deputy within the Stormwind Marshals. Yet Dughan's welcome comes with a grim warning: Northshire is a peaceful garden compared to the dangers roaming Elwynn, especially with Stormwind's royal army tied up in political maneuvering for distant nobles rather than protecting home ground.",
+   "body": "Marshal Dughan waits in Goldshire to receive McBride's dispatches and make you an Acting Deputy of the Stormwind Marshals. His welcome carries a grim warning: beside the dangers roaming Elwynn, Northshire is a peaceful garden. Stormwind's royal army is bound up in distant nobles' politics, instead of guarding home ground.",
    "spoiler": 0,
    "title": "The Burden of the Marshals"
   }
  ],
- "summary": "Report to Goldshire marks an adventurer's formal transition from the sheltered grounds of Northshire Valley into the broader jurisdiction of Elwynn Forest. Bearing dispatches from Marshal McBride to Marshal Dughan, recruits are granted Acting Deputy Status amid growing regional neglect from Stormwind's nobility.",
+ "summary": "Marshal McBride sends you south to Goldshire with dispatches for Marshal Dughan. Beyond Northshire's sheltered valley, Stormwind's nobles give Elwynn Forest less and less thought.",
  "attribution": [
   "In-game quest text: Report to Goldshire"
- ]
+ ],
+ "style": 2
 }

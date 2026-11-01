@@ -11,16 +11,16 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "Ug\u2019thok in Orgrimmar asks you to gather spines from the huge beasts of Thunder Ridge. He hopes to use them for an axe head as part of your smithing lessons.",
+ "summary": "Ug’thok in Orgrimmar asks you to gather spines from the huge beasts of Thunder Ridge. He hopes to shape them into an axe head for your smithing lessons.",
  "sections": [
   {
-   "title": "A smith\u2019s idea",
-   "body": "Ug\u2019thok wants five Weathered Spines and five Rough Grinding Stones. He thinks the spines may make a fine axe head, though Saru laughed at the idea.",
+   "title": "A smith’s idea",
+   "body": "Ug’thok asks you to bring five Weathered Spines and five Rough Grinding Stones. He believes the spines could make a fine axe head, though Saru laughed at the idea.",
    "spoiler": 0
   },
   {
    "title": "Tough material",
-   "body": "The spines prove tougher than Ug\u2019thok expected, and crafting with them may be difficult. He plans to keep working on the design.",
+   "body": "The spines are tougher than Ug’thok expected, which may make them difficult to work. He plans to keep shaping the design.",
    "spoiler": 1
   }
  ],
@@ -32,16 +32,16 @@
     "ugthok axe",
     "smithing lesson"
    ],
-   "answer": "Ug\u2019thok in Orgrimmar asks you to gather Weathered Spines and Rough Grinding Stones."
+   "answer": "Ug’thok in Orgrimmar asks you to gather Weathered Spines and Rough Grinding Stones."
   },
   {
-   "q": "What does Ug\u2019thok want to make?",
+   "q": "What does Ug’thok want to make?",
    "aliases": [
     "spine axe",
     "what is he crafting",
     "axe head idea"
    ],
-   "answer": "Ug\u2019thok hopes to craft the head of an axe from the beasts\u2019 spines."
+   "answer": "Ug’thok hopes to make an axe head from the beasts’ spines."
   },
   {
    "q": "Where do the spines come from?",
@@ -53,28 +53,28 @@
    "answer": "The Weathered Spines come from the huge beasts of Thunder Ridge."
   },
   {
-   "q": "What else does Ug\u2019thok need?",
+   "q": "What else does Ug’thok need?",
    "aliases": [
     "grinding stones needed",
     "what materials",
     "rough stones"
    ],
-   "answer": "He asks for Rough Grinding Stones along with the spines."
+   "answer": "Ug’thok asks for Rough Grinding Stones along with the spines."
   },
   {
-   "q": "Why does Ug\u2019thok want the materials?",
+   "q": "Why does Ug’thok want the materials?",
    "aliases": [
     "why spines",
     "what are they for",
     "ugthok materials"
    ],
-   "answer": "He wants to try making an axe head from the spines as part of your smithing lessons."
+   "answer": "Ug’thok wants to try making an axe head from the spines as part of your smithing lessons."
   }
  ],
  "angles": [
   {
    "target": "profession:Blacksmithing",
-   "text": "As a smithing student, you help Ug\u2019thok gather materials for an axe head he hopes to craft."
+   "text": "As a smithing student, you help Ug’thok gather materials for an axe head he hopes to make."
   }
  ],
  "keywords": [
@@ -84,7 +84,7 @@
   "saru",
   "smithing",
   "thunder ridge",
-  "ug\u2019thok",
+  "ug’thok",
   "weathered spines"
  ],
  "related": [
@@ -92,7 +92,7 @@
   "zone:orgrimmar",
   "quest:96875"
  ],
- "style": 1,
+ "style": 2,
  "attribution": [
   "In-game quest text: This Is Spinal Axe"
  ]

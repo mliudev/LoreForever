@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Old Town"
  },
- "summary": "In Old Town, soldiers train beside weathered tenements and crowded alleys. The quarter largely survived the First War and remains home to Stormwind’s military Command Center and the covert headquarters of SI:7.",
+ "summary": "Soldiers train in Old Town beside crowded tenements and narrow alleys. The quarter largely survived the First War and still holds Stormwind’s military Command Center and SI:7’s covert headquarters.",
  "sections": [
   {
    "title": "A Relic of the Old Kingdom",
-   "body": "Old Town keeps much of the shape of Stormwind before the First War. While the Stonemasons rebuilt the rest of the city from the ground up, this quarter escaped total ruin. It never gained the pristine marble facades and grand canals found in the Trade District and Cathedral Square. Working folk, laborers, and the city’s poorest residents live among its crowded tenements. Its cobbled streets are narrower, dirtier, and more chaotic than those elsewhere in the capital, preserving the feel of the old kingdom.",
+   "body": "Old Town keeps much of Stormwind’s shape from before the First War. While the Stonemasons rebuilt the rest of the city from the ground up, this quarter escaped total ruin. It never gained the polished marble facades or grand canals of the Trade District and Cathedral Square.\n\nWorking folk, laborers, and the city’s poorest residents live among its crowded tenements. Old Town’s cobbled streets are narrower, dirtier, and more chaotic than those elsewhere in the capital. They preserve the feel of the old kingdom.",
    "spoiler": 0
   },
   {
    "title": "Soldiers, Spies, and Taverns",
-   "body": "Old Town holds Stormwind’s military officers, barracks, and combat trainers in the Command Center. Nearby, the Champions’ Hall gathers the Alliance’s finest warriors. At the district’s edge, SI:7 keeps its covert compound under the leadership of Master Mathias Shaw. Off-duty footmen and shadowy operatives meet at the Pig and Whistle Tavern, one of the city’s liveliest watering holes.",
+   "body": "Stormwind’s military officers, barracks, and combat trainers gather in Old Town’s Command Center. Nearby, the Champions’ Hall brings together the Alliance’s finest warriors. At the district’s edge, Master Mathias Shaw leads SI:7 from its covert compound.\n\nOff-duty footmen and shadowy operatives meet at the Pig and Whistle Tavern. It is one of the city’s liveliest watering holes.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "old town poverty",
     "why is old town gross"
    ],
-   "answer": "Old Town largely survived the Horde’s razing of Stormwind during the First War. The Stonemasons did not rebuild it from scratch, so it missed the pristine new masonry and grand architecture found elsewhere in the city."
+   "answer": "Old Town largely survived the Horde’s razing of Stormwind during the First War. The Stonemasons did not rebuild it from scratch, so its streets missed the pristine new masonry and grand architecture found elsewhere in the city."
   },
   {
    "q": "What is SI:7 and where is it located?",
@@ -37,7 +37,7 @@
     "what is si:7",
     "stormwind spies"
    ],
-   "answer": "SI:7 is Stormwind and the Alliance’s secretive intelligence agency, overseen by Master Mathias Shaw. Its covert headquarters lies in the back of Old Town, past the training yards and military stables."
+   "answer": "SI:7 is Stormwind and the Alliance’s secretive intelligence agency, overseen by Master Mathias Shaw. Its covert headquarters lies at the back of Old Town, past the training yards and military stables."
   },
   {
    "q": "What is the Command Center in Old Town used for?",
@@ -46,7 +46,7 @@
     "old town barracks",
     "stormwind military headquarters"
    ],
-   "answer": "Stormwind’s Command Center is the primary garrison and headquarters for its military. Officers coordinate the city’s defenses there, while warriors and hunters train alongside stable masters and riding instructors."
+   "answer": "Stormwind’s Command Center is the primary garrison and military headquarters. Officers coordinate the city’s defenses there, while warriors and hunters train alongside stable masters and riding instructors."
   },
   {
    "q": "Where is the tavern in Old Town?",
@@ -55,7 +55,7 @@
     "pig and whistle location",
     "where is pig and whistle"
    ],
-   "answer": "The Pig and Whistle Tavern sits near the center of Old Town. Hungry soldiers, adventurers, and travelers gather there, and it is known for hearty cooking recipes."
+   "answer": "The Pig and Whistle Tavern sits near the center of Old Town. Hungry soldiers, adventurers, and travelers gather there, and the tavern is known for hearty cooking recipes."
   }
  ],
  "angles": [
@@ -91,5 +91,5 @@
  "attribution": [
   "Old Town"
  ],
- "style": 1
+ "style": 2
 }

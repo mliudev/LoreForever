@@ -10,16 +10,16 @@
    "quest:3113"
   ]
  },
- "summary": "In Coldridge Valley, the Encrypted Memorandum guides new rogues to their trainer. Solm Hargrin disguises his invitation as official communication and calls scoundrels in exile to stand together.",
+ "summary": "In Coldridge Valley, the Encrypted Memorandum quietly guides new rogues to their trainer. Solm Hargrin disguises his invitation as official communication and calls scoundrels in exile to stand together.",
  "sections": [
   {
    "title": "A Discrete Summons",
-   "body": "In Anvilmar, rogues keep their presence quiet. Their trainer, Solm Hargrin, uses the Encrypted Memorandum to reach recruits without approaching them in plain view. Disguised as a directive from distant superiors, the coded parchment tells fledgling rogues where to find a mentor while avoiding the attention of local guards and suspicious townsfolk.",
+   "body": "In Anvilmar, rogues keep their presence quiet. Their trainer, Solm Hargrin, reaches recruits through the Encrypted Memorandum instead of approaching them in plain view. The coded parchment looks like a directive from distant superiors. It tells fledgling rogues where to find a mentor while keeping local guards and suspicious townsfolk from noticing.",
    "spoiler": 0
   },
   {
    "title": "Kinship in Coldridge",
-   "body": "Solm Hargrin's cipher offers practical counsel to rogues in Coldridge Valley. Gnomeregan has fallen, and displaced gnomes now crowd into Dun Morogh's snowbound settlements alongside their dwarven allies. Tensions remain close to the surface. Solm urges his students to look out for one another, since scapegoating and prejudice can make rogues answer for every missing trinket.",
+   "body": "Solm Hargrin's cipher gives practical counsel to rogues in Coldridge Valley. Gnomeregan has fallen, and displaced gnomes now crowd into Dun Morogh's snowbound settlements beside their dwarven allies. Tensions remain close to the surface. Solm urges his students to look out for one another, because scapegoating and prejudice can make rogues answer for every missing trinket.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "memorandum item",
     "rogue note"
    ],
-   "answer": "The Encrypted Memorandum is a coded parchment delivered to beginning rogues in Coldridge Valley. It directs them to seek training under the guise of an official dispatch."
+   "answer": "The Encrypted Memorandum is a coded parchment delivered to beginning rogues in Coldridge Valley. It directs them to seek training while appearing to be an official dispatch."
   },
   {
    "q": "Who wrote this memorandum?",
@@ -49,7 +49,7 @@
     "why ciphered",
     "why is it coded"
    ],
-   "answer": "Rogues in Coldridge Valley avoid public scrutiny. The disguise makes the invitation look like routine official business, keeping local authorities and curious onlookers from noticing the training."
+   "answer": "Rogues in Coldridge Valley avoid public scrutiny. The disguise makes the invitation look like routine official business, so local authorities and curious onlookers do not notice the training."
   },
   {
    "q": "What does Solm Hargrin want?",
@@ -64,11 +64,11 @@
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "As a rogue, you can use this coded letter to find your trainer in Anvilmar and answer his summons in Dun Morogh."
+   "text": "As a rogue, you can follow this coded letter to your trainer in Anvilmar and answer his summons in Dun Morogh."
   },
   {
    "target": "race:Gnome",
-   "text": "As a gnome, you live among dwarven allies after Gnomeregan's fall. This note offers gnomish rogues a quiet call for solidarity and survival."
+   "text": "As a gnome, you live among dwarven allies after Gnomeregan's fall. This note gives gnomish rogues a quiet call to stand together and survive."
   }
  ],
  "keywords": [
@@ -93,5 +93,5 @@
   "Encrypted Memorandum",
   "Encrypted Memorandum (quest)"
  ],
- "style": 1
+ "style": 2
 }

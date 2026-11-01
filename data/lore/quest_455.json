@@ -20,16 +20,16 @@
    "The Algaz Gauntlet"
   ]
  },
- "summary": "Orcs have seized Dun Algaz, the pass between Loch Modan and the Wetlands. The Dragonmaw threaten Ironforge's route to Menethil Harbor, and Mountaineer Rockgar sends Alliance travelers to strike them and carry word to Valstag Ironjaw.",
+ "summary": "At Dun Algaz, orcs have seized the pass between Loch Modan and the Wetlands. The Dragonmaw threaten Ironforge's route to Menethil Harbor, so Mountaineer Rockgar sends Alliance travelers to strike them and carry word to Valstag Ironjaw.",
  "sections": [
   {
    "title": "A Severed Artery",
-   "body": "Dun Algaz cuts through the crags between Loch Modan and the Wetlands. It is the only overland mountain pass between them. Ironforge depends on it for trade, troop movements, and supplies bound for Menethil Harbor, the Alliance's main coastal port in the region. If the pass falls, Ironforge's route to the western seas is cut, and isolated outposts lose access to dwarven reinforcements.",
+   "body": "Crags divide Loch Modan from the Wetlands, and Dun Algaz is the way across. It is the only overland mountain pass between them, and Ironforge depends on it for trade, troop movements, and supplies bound for Menethil Harbor, the Alliance's main coastal port in the region.\n\nIf the pass falls, Ironforge loses its route to the western seas. Isolated outposts would also lose access to dwarven reinforcements.",
    "spoiler": 0
   },
   {
    "title": "The Dragonmaw Surge",
-   "body": "Dragonmaw remnants have haunted the hills and ruins of the Wetlands since the Second War, but now they have pushed into Dun Algaz in an organized assault. Their scouts and grunts have seized the tunnels and fortified the pass. Mountaineer Rockgar asks Alliance travelers to slay the orcs and carry word of the attack to Valstag Ironjaw in Menethil Harbor.",
+   "body": "Dragonmaw remnants have haunted the hills and ruins of the Wetlands since the Second War. Now they have pushed into Dun Algaz in an organized assault, seizing the tunnels and fortifying the pass with their scouts and grunts.\n\nMountaineer Rockgar asks Alliance travelers to slay the orcs and carry word of the attack to Valstag Ironjaw in Menethil Harbor.",
    "spoiler": 0
   }
  ],
@@ -41,7 +41,7 @@
     "dun algaz importance",
     "why clear the pass"
    ],
-   "answer": "Dun Algaz is the only direct mountain route between Loch Modan and the Wetlands. It connects the heart of Khaz Modan to Menethil Harbor, the main Alliance port for naval travel across the seas."
+   "answer": "Dun Algaz is the only direct mountain route between Loch Modan and the Wetlands. It connects the heart of Khaz Modan to Menethil Harbor, the main Alliance port for sea travel."
   },
   {
    "q": "Who are the Dragonmaw orcs occupying the pass?",
@@ -50,7 +50,7 @@
     "why are orcs in dun algaz",
     "dragonmaw clan lore"
    ],
-   "answer": "The Dragonmaw are remnants of the Old Horde, known for enslaving red dragons during the Second War. After their defeat, scattered factions retreated into the Wetlands, and now they have pushed south into the pass to seize its strategic choke points."
+   "answer": "The Dragonmaw are remnants of the Old Horde, known for enslaving red dragons during the Second War. After their defeat, scattered factions retreated into the Wetlands. Now they have pushed south into the pass to seize its strategic choke points."
   },
   {
    "q": "Where does this mission lead?",
@@ -118,5 +118,5 @@
  "attribution": [
   "The Algaz Gauntlet"
  ],
- "style": 1
+ "style": 2
 }

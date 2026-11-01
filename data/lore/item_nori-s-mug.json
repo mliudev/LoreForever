@@ -10,11 +10,11 @@
    "quest:3365"
   ]
  },
- "summary": "In Dun Morogh, Nori Pridedrift sends his mug out with a warm drink. Travelers carry scalding mornbrew to Durnan Furcutter in Anvilmar, then bring the empty mug back to its owner.",
+ "summary": "In Dun Morogh, Nori Pridedrift sends a mug of mornbrew to Anvilmar. Travelers bring the drink to Durnan Furcutter, then return the empty mug to its owner.",
  "sections": [
   {
    "title": "A Courier's Return",
-   "body": "Nori Pridedrift lends his mug for a delivery through Dun Morogh's freezing passes. The mug carries hot mornbrew to Durnan Furcutter in Anvilmar, where the drink offers comfort against the bitter cold. Once Durnan has drained it, the mug makes the return trip to Nori. He reminds travelers that mugs do not grow on trees, and expects his sturdy drinking vessel back.",
+   "body": "Nori Pridedrift lends his mug for a delivery through Dun Morogh's freezing passes. It carries hot mornbrew to Durnan Furcutter in Anvilmar, where the drink comforts him against the bitter cold. After Durnan drains it, the mug returns to Nori. He reminds travelers that mugs do not grow on trees and expects his sturdy drinking vessel back.",
    "spoiler": 0
   }
  ],
@@ -53,13 +53,13 @@
     "what is mornbrew",
     "mornbrew drink"
    ],
-   "answer": "The mug held scalding mornbrew, a warm drink for warding off Dun Morogh's biting cold."
+   "answer": "The mug held scalding mornbrew, a warm drink meant to ward off Dun Morogh's biting cold."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "As a dwarf, you know a warm drink can comfort you in Dun Morogh's storms. Nori also expects you to bring his mug back."
+   "text": "As a dwarf, you know a warm drink can comfort you in Dun Morogh's storms. Nori expects you to bring his mug back."
   }
  ],
  "keywords": [
@@ -79,5 +79,5 @@
   "Nori's Mug",
   "Bring Back the Mug"
  ],
- "style": 1
+ "style": 2
 }

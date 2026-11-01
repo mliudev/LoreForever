@@ -8,11 +8,11 @@
   "wiki": "Zaldimar Wefhellt",
   "refs": 1
  },
- "summary": "On Goldshire's upper floor, Zaldimar Wefhellt teaches young mages their first spells. When they outgrow his lessons, he sends them to Stormwind City for further training.",
+ "summary": "Upstairs at the Lion's Pride Inn, Zaldimar Wefhellt guides young mages through their first spells. When they outgrow his lessons, he sends them to Stormwind City for further training.",
  "sections": [
   {
    "title": "The Mage in Goldshire",
-   "body": "Upstairs at the Lion's Pride Inn, Zaldimar Wefhellt teaches novice mages the first arts of arcane, fire, and frost. When an apprentice outgrows those lessons, he sends them north to the Mage Quarter in Stormwind, where Jennea Cannon can teach them more.",
+   "body": "Upstairs at the Lion's Pride Inn, Zaldimar Wefhellt teaches novice mages the first arts of arcane, fire, and frost. Once an apprentice outgrows those lessons, he sends them north to Stormwind's Mage Quarter. There, Jennea Cannon can teach them more.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "zaldimar wefhellt role",
     "goldshire mage trainer"
    ],
-   "answer": "Zaldimar Wefhellt teaches novice mages their first spells at the Lion's Pride Inn in Goldshire. He guides them toward further training in Stormwind City."
+   "answer": "At the Lion's Pride Inn in Goldshire, Zaldimar Wefhellt teaches novice mages their first spells. He guides them toward further training in Stormwind City."
   },
   {
    "q": "Where can I find Zaldimar Wefhellt?",
@@ -33,7 +33,7 @@
     "where is zaldimar",
     "how to find zaldimar"
    ],
-   "answer": "Zaldimar Wefhellt is on the second floor of the Lion's Pride Inn in Goldshire, inside the leftmost room at the top of the stairs."
+   "answer": "Zaldimar Wefhellt is on the second floor of the Lion's Pride Inn in Goldshire, in the leftmost room at the top of the stairs."
   },
   {
    "q": "Where does Zaldimar send novice mages?",
@@ -42,7 +42,7 @@
     "who does zaldimar send you to",
     "speak with jennea quest"
    ],
-   "answer": "After a mage learns the basics, Zaldimar sends them to Stormwind's Mage Quarter to speak with Jennea Cannon in the Wizard's Sanctum."
+   "answer": "After a mage learns the basics, Zaldimar sends them to Stormwind's Mage Quarter. There, they can speak with Jennea Cannon in the Wizard's Sanctum."
   },
   {
    "q": "Is Zaldimar related to any other mages?",
@@ -57,11 +57,11 @@
  "angles": [
   {
    "target": "class:Mage",
-   "text": "As a young human mage leaving Northshire Abbey, you meet Zaldimar first in the wider world. He teaches you early spells, then directs you to the Wizard's Sanctum in Stormwind."
+   "text": "As a young human mage leaving Northshire Abbey, you first meet Zaldimar in the wider world. He teaches you early spells, then directs you to the Wizard's Sanctum in Stormwind."
   },
   {
    "target": "faction:Alliance",
-   "text": "At the Lion's Pride Inn, Zaldimar teaches Alliance spellcasters in Elwynn Forest, so you can learn magic before traveling to Stormwind."
+   "text": "At the Lion's Pride Inn, Zaldimar teaches Alliance spellcasters in Elwynn Forest. You can learn magic before traveling to Stormwind."
   }
  ],
  "keywords": [
@@ -82,5 +82,5 @@
  "attribution": [
   "Zaldimar Wefhellt"
  ],
- "style": 1
+ "style": 2
 }

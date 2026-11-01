@@ -2,13 +2,13 @@
 ## Title: Lore Forever - Svenska
 ## Notes: Svenskt språkpaket för Lore Forever: gränssnitt och lore-texter. Namn på personer, platser och uppdrag står som i den engelska spelklienten.
 ## Author: Mike
-## Version: 0.31.0
+## Version: 0.35.0
 ## Dependencies: LoreForever
 ## LoadOnDemand: 1
 ## X-LoreForever-Pack: lang
 ## X-LoreForever-Locale: svSE
 ## X-LoreForever-Format: 1
-## X-LoreForever-DataVersion: 2026-10-28 13:29 UTC
+## X-LoreForever-DataVersion: 2026-11-01 14:12 UTC
 ## X-LoreForever-LanguageName: Svenska
 
 # The files load through Lang.xml, which lists them.

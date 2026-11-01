@@ -17,16 +17,16 @@
   "wiki": "The Barrens Oases",
   "chain": []
  },
- "summary": "High on the Elder Rise of Thunder Bluff, Arch Druid Hamuul Runetotem senses an unsettling surge of power flowing into the arid soils of the Barrens. To uncover the truth, he dispatches promising travelers eastward past Mulgore's gates to rendezvous with his kinsman, Tonga Runetotem, at the Crossroads. This mission marks the beginning of an investigation into the unnatural waters springing up across the sun-baked plains.",
+ "summary": "Beneath the Barrens, strange power stirs, and Arch Druid Hamuul Runetotem takes heed from Thunder Bluff's Elder Rise. He sends travelers east through Mulgore to meet Tonga Runetotem at the Crossroads and investigate the new waters.",
  "sections": [
   {
    "title": "A Disturbance in the Drought",
-   "body": "While the plains of Mulgore flourish under the watchful gaze of the Earth Mother, the vast savannas of the Barrens to the east have remained harsh, scorched, and dry for generations. Recently, however, the tauren druids meditating atop Thunder Bluff's Elder Rise have detected strange currents of energy waking deep beneath the parched plains. Life is stirring where it ought not to be, and the Cenarion Circle fears that whatever force is causing this surge may harbor hidden peril for the land and its creatures.",
+   "body": "For generations, the Barrens have known drought while Mulgore flourishes under the Earth Mother's care. Now tauren druids on Thunder Bluff's Elder Rise feel strange currents waking beneath the plains. Life stirs where it should not, and the Cenarion Circle fears the power behind it may endanger the land and its creatures.",
    "spoiler": 0
   },
   {
    "title": "East Beyond Mulgore",
-   "body": "To investigate these strange occurrences, Arch Druid Hamuul Runetotem dispatched Tonga Runetotem into the field. Recognizing that the vast wilderness holds dangers too great for one investigator alone, Hamuul enlists travelers leaving Mulgore to hasten after Tonga. Following the road east past Bloodhoof Village and through the mountain passes leads straight to the Crossroads\u2014the dusty, bustling heart of Horde territory in the Barrens\u2014where Tonga awaits answers.",
+   "body": "Arch Druid Hamuul Runetotem sends Tonga Runetotem to investigate the strange stirrings. The wilderness is too dangerous for one investigator, so Hamuul asks travelers leaving Mulgore to follow. Go east past Bloodhoof Village and through the mountain passes to the Crossroads, where Tonga waits for news. There, in the Barrens, stands the Horde's busy heart.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "hamuul concern",
     "why send to cross roads"
    ],
-   "answer": "Hamuul and the druids of Thunder Bluff have sensed an unnatural surge of power bleeding into the soil of the Barrens. The sudden quickening of life in such a dry, unforgiving climate suggests that unusual forces are at work beneath the surface."
+   "answer": "Hamuul Runetotem and Thunder Bluff's druids sense an unnatural power flowing into the Barrens soil. Life quickens in a land known for drought, pointing to forces at work beneath the plains."
   },
   {
    "q": "Where can I find Tonga Runetotem?",
@@ -47,7 +47,7 @@
     "where is tonga",
     "tonga crossroads"
    ],
-   "answer": "Tonga Runetotem is stationed at the Crossroads in the central Barrens. To find him, follow the main eastern road leading out of Mulgore, cross into the Barrens, and take the northern branch of the trail until reaching the settlement."
+   "answer": "Tonga Runetotem waits at the Crossroads in the central Barrens. Follow the main road east from Mulgore, then take the northern trail to the settlement."
   },
   {
    "q": "Is this quest only available to tauren?",
@@ -55,7 +55,7 @@
     "can non tauren get barrens oases",
     "who gives the barrens oases"
    ],
-   "answer": "Arch Druid Hamuul Runetotem offers this quest primarily to travelers emerging from Mulgore. However, adventurers of any Horde race can meet Tonga directly at the Crossroads to assist in investigating the oases."
+   "answer": "Hamuul Runetotem offers this work mainly to travelers leaving Mulgore. Any Horde traveler can meet Tonga Runetotem at the Crossroads and help investigate the oases."
   },
   {
    "q": "What awaits at the end of the road from Bloodhoof Village?",
@@ -63,7 +63,7 @@
     "road to crossroads",
     "mulgore to barrens path"
    ],
-   "answer": "Leaving Bloodhoof Village to the east leads through the mountain pass separating Mulgore from the Barrens. Once past the mountains, turning north at the fork brings you safely through the harsh wilderness into the Crossroads."
+   "answer": "The road east from Bloodhoof Village crosses the mountain pass into the Barrens. Turn north at the fork to reach the Crossroads through the wilderness."
   },
   {
    "q": "What are the strange powers Hamuul senses?",
@@ -72,7 +72,7 @@
     "oases mystery",
     "unnatural energy barrens"
    ],
-   "answer": "The druids sense magical currents creating verdant, spring-fed oases across a desert landscape known for bitter drought. Tonga Runetotem was sent to find whether this growth is a blessing or a dangerous corruption."
+   "answer": "The druids sense magical currents behind spring-fed oases in a land known for drought. Tonga Runetotem is there to learn whether this growth brings a blessing or dangerous corruption."
   },
   {
    "q": "Why are the Barrens considered so dangerous for young adventurers?",
@@ -80,21 +80,21 @@
     "barrens danger",
     "why stay on road"
    ],
-   "answer": "The Barrens is an expansive, predator-infested frontier prowled by raptors, plainstriders, and hostile centaur tribes. Hamuul warns travelers to stick strictly to the patrolled trade paths to avoid being overwhelmed by the harsh wilderness."
+   "answer": "Raptors, plainstriders, and hostile centaur tribes roam the vast Barrens. Hamuul warns travelers to stay on patrolled trade paths, where the wilderness is less likely to overwhelm them."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "For tauren venturing beyond the sacred meadows of Mulgore for the first time, this task represents their rite of passage into the broader duties of protecting the balance of Kalimdor."
+   "text": "For a tauren leaving Mulgore's sacred meadows for the first time, this is a step into the wider duty of protecting Kalimdor's balance."
   },
   {
    "target": "class:Druid",
-   "text": "As the first students trained under Hamuul Runetotem, young druids are entrusted by their Arch Druid to heed the whispers of the earth and heal wounds in the fragile balance of nature."
+   "text": "As a young druid trained under Hamuul Runetotem, you are entrusted to heed the earth and heal nature's fragile balance."
   },
   {
    "target": "faction:Horde",
-   "text": "The Crossroads serves as the vital lifeline connecting the Horde's western holdings to the coast, making any magical disruption nearby a matter of deep strategic and spiritual concern."
+   "text": "The Crossroads links the Horde's western holdings to the coast. A magical disturbance nearby brings deep strategic and spiritual concern."
   }
  ],
  "keywords": [
@@ -121,5 +121,6 @@
  ],
  "attribution": [
   "The Barrens Oases"
- ]
+ ],
+ "style": 2
 }

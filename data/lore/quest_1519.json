@@ -14,15 +14,15 @@
  "angles": [
   {
    "target": "class:Shaman",
-   "text": "This rite marks a pivotal threshold in a shaman's training, where commune with the earth grants strength, stamina, and deep spiritual insight."
+   "text": "As a shaman, this rite marks a turning point in your training. Communion with earth brings strength, stamina, and deep spiritual insight."
   },
   {
    "target": "race:Tauren",
-   "text": "Reverence for the Earth Mother is central to tauren culture, making this trial an observance of fundamental ancestral beliefs."
+   "text": "As a tauren, reverence for the Earth Mother lies at the heart of your culture. This trial honors beliefs held by your ancestors."
   },
   {
    "target": "faction:Horde",
-   "text": "The shamanic traditions that bind the Horde draw upon the elements, beginning with the grounded resilience of the earth."
+   "text": "As a member of the Horde, your shamanic traditions draw on the elements. Your path begins with the grounded resilience of earth."
   }
  ],
  "faq": [
@@ -32,7 +32,7 @@
     "earth quest shaman",
     "purpose of call of earth"
    ],
-   "answer": "Call of Earth is a sacred spiritual trial for an aspiring shaman. It tests a seeker's patience and readiness to commune directly with the element of earth and heed its eternal wisdom.",
+   "answer": "Call of Earth tests an aspiring shaman's patience and readiness to commune with earth. The seeker must heed its enduring wisdom.",
    "q": "What is the Call of Earth?"
   },
   {
@@ -41,7 +41,7 @@
     "element of earth lore",
     "earth meaning shaman"
    ],
-   "answer": "Earth represents the foundation of all things, embodying strength, stamina, and patience. Considered the most stubborn and wise of the elements, it teaches that all things erode and are reborn across time.",
+   "answer": "Earth is the foundation of all things, embodying strength, stamina, and patience. It is the most stubborn and wise element, teaching that all things erode and are reborn over time.",
    "q": "What does the earth element represent in shamanic tradition?"
   },
   {
@@ -50,7 +50,7 @@
     "earth sapta",
     "what does sapta do"
    ],
-   "answer": "A sapta is an elemental draught prepared by a shaman mentor. Drinking or accepting it opens a spiritual path, attuning the seeker's senses to perceive and interact with elemental spirits.",
+   "answer": "A sapta is an elemental draught prepared by a shaman mentor. Accepting it opens a spiritual path and attunes the seeker's senses to elemental spirits.",
    "q": "What is a sapta?"
   },
   {
@@ -59,7 +59,7 @@
     "earth mother lore",
     "earth mother connection"
    ],
-   "answer": "The Earth Mother is the foundational source of life and balance revered especially by tauren shamans. She protects those who honor her laws and grants greater wisdom to seekers who treat the land with respect.",
+   "answer": "The Earth Mother is the source of life and balance, especially revered by tauren shamans. She protects those who honor her laws and grants wisdom to seekers who respect the land.",
    "q": "Who is the Earth Mother mentioned in the trial?"
   },
   {
@@ -68,7 +68,7 @@
     "after call of earth",
     "call of earth rebirth"
    ],
-   "answer": "Completing this stage signifies that the seeker is prepared for the next step of their path. It represents a spiritual rebirth from which a shaman can never return to ignorance, as new secrets of the earth are unveiled.",
+   "answer": "Answering the call prepares the seeker for the next step of their path. It brings spiritual rebirth, after which a shaman cannot return to ignorance and new secrets of earth come into view.",
    "q": "What happens upon answering the call?"
   },
   {
@@ -76,7 +76,7 @@
     "why does earth require patience",
     "patience and earth"
    ],
-   "answer": "The earth operates on cycles of erosion and rebirth where mountains eventually wear into deserts and rivers carve canyons. A shaman must master patience and stamina to attune to such enduring rhythms.",
+   "answer": "Earth moves through cycles of erosion and rebirth. Mountains wear into deserts and rivers carve canyons, so a shaman needs patience and stamina to attune to these enduring rhythms.",
    "q": "Why is patience required to commune with the earth?"
   }
  ],
@@ -95,18 +95,19 @@
  ],
  "sections": [
   {
-   "body": "The Call of Earth is a formative rite for a shaman learning to commune with the primal forces of the world. Earth is regarded as the most stubborn and wise of all elements, serving as the steady bedrock of existence. The trial emphasizes that nature moves in deliberate cycles of erosion and rebirth, transforming mountains into deserts and rivers into canyons over countless ages. To hear the voice of the earth, an initiate must embody that same unwavering patience.",
+   "body": "A shaman learns to commune with the primal force of earth through a formative rite. Earth is the most stubborn and wise of the elements, the steady bedrock beneath existence. It moves through slow cycles of erosion and rebirth. Mountains wear into deserts, and rivers carve canyons over ages. To hear the earth's voice, an initiate needs that same patience.",
    "spoiler": 0,
    "title": "The Foundation of All Things"
   },
   {
-   "body": "Answering this call is considered a spiritual rebirth that leaves the seeker irrevocably altered, unable to return to their former ignorance. Upon proving their readiness and respect for the laws of the Earth Mother, the initiate is granted an earthen sapta. This specialized elixir opens a new path of perception, enabling the shaman to grasp the foundational secrets of strength, stamina, and elemental protection.",
+   "body": "Answering the call changes a seeker beyond return to former ignorance. When the initiate proves readiness and respect for the laws of the Earth Mother, they receive an earthen sapta. The elixir opens a new way of seeing, and the shaman begins to grasp earth's secrets of strength, stamina, and elemental protection.",
    "spoiler": 0,
    "title": "The Sapta and Rebirth"
   }
  ],
- "summary": "Call of Earth is a sacred shamanic rite of passage that tests an initiate's patience, endurance, and respect for the natural world. By answering the earth's call and accepting the elemental sapta, the seeker embarks on a spiritual rebirth to commune directly with the foundation of all life.",
+ "summary": "The earth calls a shaman to begin a patient trial of communion. By accepting an earthen sapta, the seeker steps onto a path of spiritual rebirth and learns to hear the foundation of life.",
  "attribution": [
   "In-game quest text: Call of Earth"
- ]
+ ],
+ "style": 2
 }

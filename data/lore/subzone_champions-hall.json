@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Champions' Hall"
  },
- "summary": "In Stormwind's Old Town, Champions' Hall is guarded and reserved for Alliance officers. Its quartermasters supply weapons, armor, and regalia to veterans who have proven themselves in battle.",
+ "summary": "In Stormwind's guarded Champions' Hall, Alliance officers gather to discuss campaigns across Azeroth. Its quartermasters supply proven veterans with specialized weapons, plate, and regalia.",
  "sections": [
   {
    "title": "The Alliance Officer's Barracks",
-   "body": "Champions' Hall stands behind a guarded entrance in Old Town, reserved for the Alliance's distinguished combatants. Military commanders gather around maps of Azeroth to discuss ongoing campaigns, among arms and the insignias of rank. Only Alliance soldiers who have earned the rank of Knight or higher may enter. Inside, quartermasters supply battle-hardened soldiers with elite weapons, armor, and mounts made to aid them against the Horde in contested lands.",
+   "body": "Only Alliance soldiers who have earned the rank of Knight or higher in battle pass the guarded entrance to Champions' Hall. Commanders gather around maps of Azeroth to discuss ongoing campaigns, among arms and the insignias of rank. Quartermasters supply battle-hardened soldiers with elite weapons and armor to aid them against the Horde in contested lands, along with mounts.",
    "spoiler": 0
   }
  ],
@@ -84,5 +84,5 @@
  "attribution": [
   "Champions' Hall"
  ],
- "style": 1
+ "style": 2
 }

@@ -14,11 +14,11 @@
  "angles": [
   {
    "target": "race:Skyborne",
-   "text": "As fewer youths show an affinity for magic each passing year, participating in the crafting of a traditional spell focus helps preserve your people's ancestral culture in Zephras."
+   "text": "As fewer youths show a gift for magic each passing year, shaping a traditional spell focus helps preserve your people’s ancestral culture in Zephras."
   },
   {
    "target": "class:Mage",
-   "text": "Crafting a spell focus from wind-infused boughs marks an early rite of passage for spellcasters learning to channel elemental resonance."
+   "text": "Shaping a spell focus from a wind-touched bough marks an early rite for spellcasters learning to channel elemental resonance."
   }
  ],
  "faq": [
@@ -28,7 +28,7 @@
     "boughs in the wind quest",
     "spell focus quest"
    ],
-   "answer": "Boughs in the Wind is a rite of passage quest where an aspiring spellcaster gathers a wind-infused fallen branch to craft their own spell focus. It represents an ancient custom practiced to preserve the magical heritage of Zephras.",
+   "answer": "Apprentices gather a wind-touched fallen branch to shape a spell focus. This old rite helps preserve Zephras’s magical heritage.",
    "q": "What is the quest Boughs in the Wind?"
   },
   {
@@ -37,7 +37,7 @@
     "belann questgiver",
     "belann valanaar"
    ],
-   "answer": "Belann Windwood is a mentor located in Valanaar who guides young spellcasters through the traditional crafting of their spell focus. He observes with concern that fewer people display a gift for magic with each passing year.",
+   "answer": "Belann Windwood is a mentor in Valanaar who guides young spellcasters as they shape their spell focuses. He worries that fewer people show a gift for magic each passing year.",
    "q": "Who is Belann Windwood?"
   },
   {
@@ -46,7 +46,7 @@
     "where is wind-infused bough",
     "bough location"
    ],
-   "answer": "The wind-infused boughs fall from the oldest trees located near the wind shrine, situated just south of Falaath Village. Belann points apprentices toward this shrine because its ancient wood retains trace elemental currents.",
+   "answer": "The boughs fall from the oldest trees near the wind shrine just south of Falaath Village. Belann directs apprentices there because ancient wood retains traces of elemental currents.",
    "q": "Where do you find the Wind-Infused Bough?"
   },
   {
@@ -55,7 +55,7 @@
     "purpose of spell focus",
     "spell focus lore"
    ],
-   "answer": "In local tradition, apprentices craft their own spell focus once they demonstrate magical proficiency. The focus channels elemental energies, serving as both a working conduit for spellcasting and an initiation into cultural rites.",
+   "answer": "Apprentices shape their own spell focus after showing a gift for magic. It channels elemental energies and marks their passage into an old cultural rite.",
    "q": "Why do young spellcasters create a spell focus?"
   },
   {
@@ -64,7 +64,7 @@
     "singing branch",
     "does the branch choose you"
    ],
-   "answer": "Belann Windwood notes that tradition holds the branch often chooses the spellcaster rather than the other way around. He remarks that a suitable bough may seem to sing to someone possessing the sensitivity to wield elemental winds.",
+   "answer": "Belann Windwood says tradition holds that a branch often chooses its spellcaster. A fitting bough may seem to sing to someone sensitive to elemental winds.",
    "q": "Why does Belann ask if the branch sang to you?"
   },
   {
@@ -73,7 +73,7 @@
     "magic fading zephras",
     "zephras magic lore"
    ],
-   "answer": "Zephras is the land where this tradition takes place. According to Belann Windwood, every passing year in Zephras sees fewer individuals born with a natural talent for magic, making the continuation of ancient rites vital.",
+   "answer": "Fewer people in Zephras are born with a natural gift for magic each passing year. Belann believes keeping the old rites alive matters all the more.",
    "q": "What is happening to magic in Zephras?"
   }
  ],
@@ -92,18 +92,19 @@
  ],
  "sections": [
   {
-   "body": "In the lands of Zephras, young spellcasters who display nascent magical talent undergo a traditional rite of passage: fashioning their own spell focus. Mentors such as Belann Windwood in Valanaar guide apprentices through this ancient practice, tasking them with collecting a fallen branch from the region's eldest trees. These venerable boughs hold lingering elemental traces of the wind, making them ideal conduits for channeling spells.",
+   "body": "Young spellcasters in Zephras begin this old rite when they show a gift for magic. In Valanaar, Belann Windwood guides apprentices as they gather a fallen branch from the region’s oldest trees. The boughs keep traces of wind, making them fit to channel spells.",
    "spoiler": 0,
    "title": "A Rite of Passage"
   },
   {
-   "body": "The most potent boughs are gathered near the wind shrine situated just south of Falaath Village, where elemental currents naturally gather. Tradition holds that the branch often chooses the spellcaster, sometimes said to quietly sing to those sensitive enough to harness its power. For elders like Belann, each student who completes the ritual represents a vital continuation of their culture, especially as fewer individuals in Zephras are born with a gift for magic with each passing year.",
+   "body": "The strongest boughs lie near the wind shrine just south of Falaath Village, where elemental currents gather. Tradition says a branch may choose its spellcaster, and some say it sings softly to those able to wield its power. For elders like Belann, each apprentice who completes the rite helps carry their culture forward. Fewer people in Zephras are born with a gift for magic each passing year.",
    "spoiler": 0,
    "title": "Whispers at the Wind Shrine"
   }
  ],
- "summary": "Boughs in the Wind is a traditional rite of passage where an apprentice gathers a wind-infused branch near Falaath Village to fashion a spell focus. Guided by Belann Windwood in Valanaar, the practice honors an ancient custom at a time when magical talent in Zephras is steadily dwindling.",
+ "summary": "In Valanaar, Belann Windwood guides apprentices through the old rite of shaping a spell focus. They seek a wind-touched branch near Falaath Village, as fewer people in Zephras are born with a gift for magic.",
  "attribution": [
   "In-game quest text: Boughs in the Wind"
- ]
+ ],
+ "style": 2
 }

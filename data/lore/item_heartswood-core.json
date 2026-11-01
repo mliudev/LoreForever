@@ -10,16 +10,16 @@
    "quest:1739"
   ]
  },
- "summary": "Warlocks in Stormwind City use the Heartswood Core to summon a succubus. Gakin the Darkbinder provides the enchanted ritual focus, crafted from an ancient tree’s wood, to pierce the Twisting Nether and draw the demon into an arcane summoning circle.",
+ "summary": "Beneath Stormwind, warlocks use the Heartswood Core to summon a succubus. Gakin the Darkbinder provides the enchanted focus, made from an ancient tree’s wood, to open a passage to the Twisting Nether.",
  "sections": [
   {
    "title": "A Focus for the Nether",
-   "body": "Beneath the Slaughtered Lamb in Stormwind’s Mage Quarter, warlocks perform rites beyond the city watch’s gaze. The Heartswood Core channels the magic needed to begin a binding ritual. Crafted from the wood of an ancient tree, it holds enough lingering magic to pierce the veil between worlds. At a consecrated summoning circle, an initiate focuses dark arts through the core and opens a passage to the Twisting Nether, drawing a succubus across the divide.",
+   "body": "Beneath the Slaughtered Lamb in Stormwind’s Mage Quarter, warlocks perform rites beyond the city watch’s gaze. The Heartswood Core channels the magic that begins a binding ritual. Made from an ancient tree’s wood, it holds enough lingering power to pierce the veil between worlds. At a consecrated summoning circle, an initiate focuses dark arts through the core and opens a passage to the Twisting Nether. A succubus crosses the divide.",
    "spoiler": 0
   },
   {
    "title": "The Trial of Binding",
-   "body": "A warlock who summons a demon must still prove dominance over its cunning and seductive nature to control it. Gakin gives the Heartswood Core to promising practitioners so they can face the summoned demon in combat. Succubi prey on weakness and can overwhelm feeble minds, making the encounter a deadly rite of passage. The aspiring warlock must subdue the fiend and return the spent core to Gakin to prove their will is strong enough to bind the servant permanently.",
+   "body": "A warlock who summons a demon must prove dominance over its cunning and seductive nature before controlling it. Gakin gives the Heartswood Core to promising practitioners so they can face the summoned demon in combat. Succubi prey on weakness and can overwhelm feeble minds. The encounter is a deadly rite of passage. The aspiring warlock must subdue the fiend and return the spent core to Gakin, proving a will strong enough to bind the servant permanently.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "heartswood core use",
     "purpose of heartswood core"
    ],
-   "answer": "Warlocks use the Heartswood Core at the summoning circle beneath the Slaughtered Lamb to open a portal to the Twisting Nether and draw a succubus into our realm. You must fight and bind the summoned demon."
+   "answer": "Warlocks use the Heartswood Core at the summoning circle beneath the Slaughtered Lamb to open a passage to the Twisting Nether. A succubus crosses into our realm, and you must fight and bind it."
   },
   {
    "q": "Who provides the Heartswood Core?",
@@ -39,7 +39,7 @@
     "where do i get heartswood core",
     "who gives heartswood core"
    ],
-   "answer": "Gakin the Darkbinder, a master warlock, provides the Heartswood Core and trains novices in the hidden catacombs beneath the Slaughtered Lamb in Stormwind’s Mage Quarter."
+   "answer": "Gakin the Darkbinder provides the Heartswood Core. He is a master warlock who trains novices in the hidden catacombs beneath the Slaughtered Lamb in Stormwind’s Mage Quarter."
   },
   {
    "q": "Where must the core be used?",
@@ -47,7 +47,7 @@
     "heartswood core location",
     "where to summon succubus"
    ],
-   "answer": "Use the core at the summoning circle in the crypts beneath the Slaughtered Lamb, deep below Stormwind’s streets."
+   "answer": "Use the Heartswood Core at the summoning circle in the crypts beneath the Slaughtered Lamb, deep below Stormwind’s streets."
   },
   {
    "q": "What happens after the ritual is finished?",
@@ -61,7 +61,7 @@
  "angles": [
   {
    "target": "class:Warlock",
-   "text": "As an Alliance warlock, you use the Heartswood Core as an essential training relic to summon and master your first succubus."
+   "text": "As an Alliance warlock, you use the Heartswood Core to summon and master your first succubus during training."
   }
  ],
  "keywords": [
@@ -87,5 +87,5 @@
   "Heartswood Core",
   "The Binding (Succubus, Stormwind)"
  ],
- "style": 1
+ "style": 2
 }

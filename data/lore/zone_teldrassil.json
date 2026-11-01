@@ -12,16 +12,16 @@
   "levels": "1-10",
   "aliases": []
  },
- "summary": "Teldrassil rises from the sea off Kalimdor's northwest coast, its crown sheltering Darnassus. Druids raised the World Tree after the Third War, but its growth is troubled.",
+ "summary": "Off Kalimdor's northwest shore rises Teldrassil, the World Tree, and in its crown lies Darnassus. The druids raised it after the Third War. Yet its growing is troubled.",
  "sections": [
   {
    "title": "A Canopy Upon the Sea",
-   "body": "You stand beneath Teldrassil's vast limbs above the Veiled Sea. Hills, rivers fed by morning dew, misty lakes, and ancient glades spread across its boughs. Darnassus, the kaldorei capital, lies at the western edge. At the base of the trunk, Rut'theran Village is the island's harbor, linked to the crown by a mystical gateway.",
+   "body": "Vast are the limbs of Teldrassil, and far beneath them lies the Veiled Sea. Upon its boughs are hills and ancient glades, and misty lakes. Its rivers are fed by the morning dew. At the western edge stands Darnassus, city of the kaldorei.\n\nFar below, at the foot of the trunk, lies Rut'theran Village. It is the island's harbor. And a gateway of enchantment joins it to the crown.",
    "spoiler": 0
   },
   {
    "title": "The Refusal of the Aspects",
-   "body": "After Nordrassil was sacrificed during the Third War, Shan'do Malfurion Stormrage vanished into the Emerald Dream. Archdruid Fandral Staghelm persuaded the Circle of Ancients to grow a replacement, hoping to restore the kaldorei's lost immortality. Nozdormu and the Dragon Aspects judged the effort hubristic and withheld their blessings. Without their warding, Teldrassil has grown with unnatural flaws.",
+   "body": "In the Third War, Nordrassil was sacrificed. Shan'do Malfurion Stormrage passed into the Emerald Dream. In his absence, Archdruid Fandral Staghelm went before the Circle of Ancients. He prevailed upon them to grow another tree in its place. For he hoped to win back the undying life the kaldorei had lost.\n\nBut Nozdormu and the Dragon Aspects judged it a work of pride. They withheld their blessing. And so Teldrassil grew unwarded. With it grew flaws not of nature.",
    "spoiler": 0
   },
   {
@@ -129,5 +129,5 @@
   "Teldrassil (Classic)",
   "Teldrassil"
  ],
- "style": 1
+ "style": 2
 }

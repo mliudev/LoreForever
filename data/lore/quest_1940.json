@@ -17,16 +17,16 @@
   "wiki": "Pristine Spider Silk (quest)",
   "chain": []
  },
- "summary": "In Stormwind, High Sorcerer Andromath sends rising Alliance mages to Duskwood for pristine spider silk. They bring eight samples to Wynne Larson in the Mage Quarter, where she makes a robe for an adept.",
+ "summary": "In Stormwind, High Sorcerer Andromath sends rising Alliance mages to Duskwood for pristine spider silk. They carry eight samples to Wynne Larson in the Mage Quarter, where she weaves an adept’s robe.",
  "sections": [
   {
    "title": "Vestments of the Adept",
-   "body": "High Sorcerer Andromath marks a mage’s passage beyond apprenticeship with vestments fit for an adept. In the Wizard’s Sanctum, arcane mastery is matched by the robes its practitioners wear. Rather than buy finished garments, the mage must show field skill and discernment by taking pristine, unblemished silk from dangerous spiders.",
+   "body": "High Sorcerer Andromath marks a mage’s passage beyond apprenticeship with vestments fit for an adept. In the Wizard’s Sanctum, a mage’s skill is seen in the robes they wear. So each mage must gather pristine silk from dangerous spiders and show both field skill and discernment.",
    "spoiler": 0
   },
   {
    "title": "The Loom of Duskwood",
-   "body": "Venomous carrion recluse spiders haunt Duskwood’s gloomy woods, and their silk is not sold at ordinary stalls. You gather eight prime samples and carry them across Stormwind to Larson Clothiers in the Mage Quarter. There, Wynne Larson uses the delicate threads to weave a robe with arcane significance.",
+   "body": "Carrion recluse spiders haunt Duskwood’s gloomy woods, and ordinary stalls do not sell their silk. You gather eight fine samples and carry them across Stormwind to Larson Clothiers in the Mage Quarter. There, Wynne Larson weaves the delicate threads into a robe with arcane significance.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "quest giver pristine spider silk",
     "andromath quest"
    ],
-   "answer": "High Sorcerer Andromath, who presides over the Wizard's Sanctum in Stormwind City, sends spellcasters who have proved their dedication."
+   "answer": "High Sorcerer Andromath sends spellcasters who have proved their dedication. He presides over the Wizard's Sanctum in Stormwind City."
   },
   {
    "q": "Where is the silk harvested?",
@@ -56,7 +56,7 @@
     "wynne larson",
     "larson clothiers"
    ],
-   "answer": "Wynne Larson, a tailor at Larson Clothiers in Stormwind’s Mage Quarter, weaves and tailors the robe."
+   "answer": "Wynne Larson weaves the robe at Larson Clothiers in Stormwind’s Mage Quarter."
   },
   {
    "q": "Why do mages use spider silk for garments?",
@@ -64,7 +64,7 @@
     "why spider silk",
     "spider silk magic robes"
    ],
-   "answer": "Pristine spider silk is naturally resilient and finely woven, making lightweight fabric that can hold subtle enchantments without weighing down a spellcaster."
+   "answer": "Pristine spider silk is resilient and finely woven. It makes lightweight fabric that can hold subtle enchantments without weighing down a spellcaster."
   },
   {
    "q": "What comes after delivering the silk?",
@@ -80,7 +80,7 @@
     "can i use regular spider silk",
     "pristine vs normal silk"
    ],
-   "answer": "No. Larson Clothiers needs pristine samples carefully taken from carrion recluses for its delicate enchantments; coarser webbing will not do."
+   "answer": "No. Larson Clothiers needs pristine samples carefully taken from carrion recluses for its delicate enchantments. Coarser webbing will not do."
   }
  ],
  "angles": [
@@ -117,5 +117,5 @@
  "attribution": [
   "Pristine Spider Silk (quest)"
  ],
- "style": 1
+ "style": 2
 }

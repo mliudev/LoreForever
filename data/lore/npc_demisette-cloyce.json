@@ -8,16 +8,16 @@
   "wiki": "Demisette Cloyce",
   "refs": 1
  },
- "summary": "In Stormwind's Mage Quarter, Demisette Cloyce teaches warlocks beneath the Slaughtered Lamb. She guides students in fel magic and sends those ready for more toward other summoners.",
+ "summary": "Beneath Stormwind's Slaughtered Lamb, Demisette Cloyce teaches warlocks in secret. She guides students in fel magic and sends the ready to learn from other summoners.",
  "sections": [
   {
    "title": "The Crypts of the Slaughtered Lamb",
-   "body": "Warlocks gather in the cellar beneath the Slaughtered Lamb in Stormwind's Mage Quarter, while the city's authorities uphold order and the Holy Light. Demisette Cloyce lives in the catacombs below, teaching those willing to study forbidden arts. She warns that dark energies corrupt only those without the discipline to master them.",
+   "body": "Warlocks gather in the cellar beneath the Slaughtered Lamb in Stormwind's Mage Quarter. The city's authorities uphold order and the Holy Light, while Demisette Cloyce lives in the catacombs below. There, she teaches those willing to study forbidden arts. She warns that dark energies corrupt only those who lack the discipline to master them.",
    "spoiler": 0
   },
   {
    "title": "Connecting the Covens",
-   "body": "Demisette guides warlocks beyond Stormwind when they have gained enough mastery. She connects them with summoners such as Menara Voidrender in the Barrens, where they can seek potent artifacts and learn to bind formidable fel steeds.",
+   "body": "When warlocks have gained enough mastery, Demisette guides them beyond Stormwind. She connects them with summoners such as Menara Voidrender in the Barrens. There, they can seek potent artifacts and learn to bind formidable fel steeds.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "why slaughtered lamb",
     "slaughtered lamb basement"
    ],
-   "answer": "Warlocks gather in the cellar beneath the Slaughtered Lamb, away from public view. Its cellar offers a discreet place for their dark practices."
+   "answer": "Warlocks gather in the cellar beneath the Slaughtered Lamb, away from public view. It gives them a discreet place for their dark practices."
   },
   {
    "q": "What is her connection to the Barrens?",
@@ -55,17 +55,17 @@
     "demisette dialogue",
     "talking to demisette"
    ],
-   "answer": "Demisette has contempt for outsiders. Unless you follow the path of a warlock, she warns that darkness does not embrace you and orders you to stop talking and leave."
+   "answer": "Demisette has contempt for outsiders. Unless you follow the path of a warlock, she warns that darkness does not embrace you. Then she orders you to stop talking and leave."
   }
  ],
  "angles": [
   {
    "target": "class:Warlock",
-   "text": "As a warlock in Stormwind, you can learn fundamental spellcraft from Demisette. She later points you toward claiming a felsteed and binding demonic orbs."
+   "text": "As a warlock in Stormwind, you can learn fundamental spellcraft from Demisette. She points you toward claiming a felsteed and binding demonic orbs."
   },
   {
    "target": "race:Human",
-   "text": "As a human, you can find Demisette beneath Stormwind, where she has turned from the Holy Light to demonic power."
+   "text": "As a human, you can find Demisette beneath Stormwind. She has turned from the Holy Light to demonic power."
   }
  ],
  "keywords": [
@@ -88,5 +88,5 @@
  "attribution": [
   "Demisette Cloyce"
  ],
- "style": 1
+ "style": 2
 }

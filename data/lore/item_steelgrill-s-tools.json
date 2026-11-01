@@ -10,16 +10,16 @@
    "quest:400"
   ]
  },
- "summary": "At Steelgrill's Depot, Beldin Steelgrill needs fresh tools to keep his workshop running. The master technician pushes siege engines and his own equipment hard, so shipments from nearby Kharanos keep arriving.",
+ "summary": "At Steelgrill's Depot, Beldin Steelgrill needs fresh tools to keep his workshop at work. He puts siege engines and equipment through hard use, so Kharanos keeps sending replacements.",
  "sections": [
   {
    "title": "A Heavy-Handed Craftsman",
-   "body": "Beldin Steelgrill is among Dun Morogh's finest siege engine technicians, but merchants know his rough touch. He works without pause on armored tanks and mechanical contraptions, and delicate tools break quickly in his hands. Arclight spanners snap and fang-ratchets wear out, so Beldin keeps ordering replacements from Kharanos to stock his repair benches.",
+   "body": "Beldin Steelgrill is one of Dun Morogh's finest siege engine technicians. Merchants know his rough touch, though. He works without pause on armored tanks and mechanical contraptions, and delicate tools soon break in his hands. Arclight spanners snap and fang-ratchets wear out, so he keeps ordering replacements from Kharanos for his repair benches.",
    "spoiler": 0
   },
   {
    "title": "Keeping the Engines Rolling",
-   "body": "Beldin's tools help keep Ironforge's war machines in working order. At his depot northeast of Kharanos, he services combat vehicles for experienced drivers such as Pilot Stonegear. Fresh wrenches and ratchets keep the work moving on the siege engines assembled there, and the depot's repairs support local defenses.",
+   "body": "At his depot northeast of Kharanos, Beldin services combat vehicles for experienced drivers such as Pilot Stonegear. The tools keep Ironforge's war machines in working order. Fresh wrenches and ratchets keep repairs moving on the siege engines assembled there, supporting local defenses.",
    "spoiler": 0
   }
  ],
@@ -30,7 +30,7 @@
     "what are these tools",
     "steelgrill tools purpose"
    ],
-   "answer": "The tools replace worn mechanic implements at Steelgrill's Depot, where Beldin Steelgrill uses them to overhaul heavy dwarven machinery, including Pilot Stonegear's damaged siege engine."
+   "answer": "The tools replace worn mechanic implements at Steelgrill's Depot. Beldin Steelgrill uses them to overhaul heavy dwarven machinery, including Pilot Stonegear's damaged siege engine."
   },
   {
    "q": "Why does Beldin Steelgrill go through so many tools?",
@@ -60,7 +60,7 @@
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "As an engineer, you can understand how repairs on heavy siege engines wear down arclight spanners and delicate wrenches."
+   "text": "As an engineer, you know how repairs on heavy siege engines wear down arclight spanners and delicate wrenches."
   },
   {
    "target": "race:Dwarf",
@@ -89,5 +89,5 @@
   "Steelgrill's Tools",
   "Tools for Steelgrill"
  ],
- "style": 1
+ "style": 2
 }

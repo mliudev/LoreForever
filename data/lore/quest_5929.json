@@ -14,7 +14,7 @@
  "angles": [
   {
    "target": "class:Druid",
-   "text": "Communing with the Great Bear Spirit is an essential rite of passage for every druid, imparting the natural wisdom and spiritual foundation needed to adopt the bear's resilience."
+   "text": "As a druid, you commune with the Great Bear Spirit to gain natural wisdom and the spiritual grounding needed to take on the bear’s resilience."
   }
  ],
  "faq": [
@@ -24,7 +24,7 @@
     "find bear spirit moonglade",
     "bear spirit location"
    ],
-   "answer": "The Great Bear Spirit resides in the northwestern reaches of Moonglade, dwelling apart from the settlement of Nighthaven in the wilder borders of the sacred refuge.",
+   "answer": "The Great Bear Spirit dwells in the northwestern wilds of Moonglade, apart from Nighthaven and its settled paths.",
    "q": "Where can the Great Bear Spirit be found?"
   },
   {
@@ -33,7 +33,7 @@
     "dendrite starblaze role",
     "quest giver bear spirit"
    ],
-   "answer": "Dendrite Starblaze, an elder druid stationed in Nighthaven, directs initiates to commune with the spirit as part of their natural training.",
+   "answer": "Dendrite Starblaze, an elder druid in Nighthaven, directs initiates to commune with the spirit as part of their natural training.",
    "q": "Who sends druids to seek out the Great Bear Spirit?"
   },
   {
@@ -42,7 +42,7 @@
     "bear spirit lore",
     "who is great bear spirit"
    ],
-   "answer": "The Great Bear Spirit is revered as a wise and noble entity that serves as a guide, tutor, and mentor into the primal understanding of the bear for all practicing druids.",
+   "answer": "The Great Bear Spirit is a wise and noble guide, tutor, and mentor who teaches practicing druids the primal nature of the bear.",
    "q": "What is the Great Bear Spirit?"
   },
   {
@@ -51,7 +51,7 @@
     "bear spirit quest purpose",
     "what do you learn from bear spirit"
    ],
-   "answer": "Initiates seek out the spirit to learn about the core nature of the bear, absorbing its raw strength, resilience, and wisdom before returning to channel those qualities in their craft.",
+   "answer": "Initiates commune with the spirit to learn the bear’s nature and take in its raw strength, resilience, and wisdom before returning to put those qualities to work.",
    "q": "Why must druids commune with the Great Bear Spirit?"
   },
   {
@@ -60,7 +60,7 @@
     "dendrite after spirit",
     "after visiting bear spirit"
    ],
-   "answer": "Upon communing with the spirit, initiates return to Dendrite Starblaze in Nighthaven, who recognizes their newly acquired understanding and prepares them to harness and focus that power.",
+   "answer": "After communing with the spirit, initiates return to Dendrite Starblaze in Nighthaven. Dendrite recognizes their new understanding and prepares them to focus that power.",
    "q": "What happens after the Great Bear Spirit is satisfied?"
   },
   {
@@ -69,7 +69,7 @@
     "is bear spirit mandatory",
     "who visits bear spirit"
    ],
-   "answer": "Every druid must eventually seek the Great Bear Spirit's counsel, as communion with the spirit is considered a fundamental step in attuning to animal forms and natural power.",
+   "answer": "Every druid must seek the Great Bear Spirit’s counsel. Communion is a fundamental step toward attuning to animal forms and natural power.",
    "q": "Do all druids need to seek the spirit's wisdom?"
   }
  ],
@@ -89,18 +89,19 @@
  ],
  "sections": [
   {
-   "body": "The Great Bear Spirit dwells in the northwestern wilds of Moonglade, secluded from the quiet paths of Nighthaven. Respected as a noble and ancient mentor, the spirit serves as the foundational tutor for all initiates seeking to understand the natural essence of the bear. Seeking its blessing and wisdom is a sacred tradition shared by every druid who walks the path of the wild.",
+   "body": "In northwestern Moonglade, the Great Bear Spirit dwells apart from Nighthaven’s quiet paths. This ancient and noble mentor teaches every initiate who seeks to understand the bear’s nature. Druids have long sought its blessing and wisdom as part of the path of the wild.",
    "spoiler": 0,
    "title": "The Noble Mentor of Moonglade"
   },
   {
-   "body": "Guided by Dendrite Starblaze in Nighthaven, young druids journey into the hills to present themselves before the spirit. Communing with the Great Bear Spirit imparts a primal wisdom and an awareness of natural strength. Upon their return, Dendrite tests their focus, observing that while the encounter instills raw strength and knowing intent, the druid must then learn to direct that inner power into their everyday work.",
+   "body": "Dendrite Starblaze guides young druids from Nighthaven into the hills to meet the spirit. Communion brings primal wisdom and an awareness of natural strength. When the druids return, Dendrite tests their focus. The encounter gives them raw strength and knowing intent, but they must learn to direct that power in their daily work.",
    "spoiler": 0,
    "title": "A Rite of Primal Focus"
   }
  ],
- "summary": "The Great Bear Spirit is a foundational mentor quest for druids in Moonglade, directing initiates to seek out an ancient and noble spirit in the northwestern wilderness. Communing with the spirit imparts essential wisdom regarding the nature and strength of the bear, marking a crucial step in a druid's spiritual and martial training.",
+ "summary": "In Moonglade, druids are sent north to seek the Great Bear Spirit. Communion with this ancient guide teaches the bear’s nature and strength, a vital part of a druid’s spiritual and martial training.",
  "attribution": [
   "In-game quest text: Great Bear Spirit"
- ]
+ ],
+ "style": 2
 }

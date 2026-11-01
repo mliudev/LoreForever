@@ -28,16 +28,16 @@
   ],
   "category": "Hillsbrad Foothills"
  },
- "summary": "After the step with Lord Aliden Perenolde, Elysa gives up Taretha's pendant and asks only to be left in peace. You carry it back to Krusk in Tarren Mill.",
+ "summary": "Elysa gives up Taretha's Gift and asks for peace. After the step with Lord Aliden Perenolde, you carry the pendant to Krusk in Tarren Mill.",
  "sections": [
   {
    "title": "The Pendant",
-   "body": "Elysa has no wish to hold on to any memory of Lord Aliden Perenolde. You may take the pendant, Elysa says, and begs only that you then go in peace. It once belonged to Taretha Foxton, a childhood friend of Thrall's. You are to bring it to Krusk in Tarren Mill, so that it returns to the orcs.",
+   "body": "Elysa wants no memory of Lord Aliden Perenolde. She gives you the pendant and asks only to be left in peace. It once belonged to Taretha Foxton, Thrall's childhood friend. You carry it to Krusk in Tarren Mill, returning it to the orcs.",
    "spoiler": 0
   },
   {
    "title": "Krusk's Verdict",
-   "body": "Krusk finds it odd that the Warchief would go to such lengths for a trinket. Krusk does not pretend to understand Thrall, but will follow his orders all the same, and praises your work, sure that Thrall will be pleased to hear it.",
+   "body": "Krusk finds it strange that the Warchief would go to such lengths for a trinket. He does not claim to understand Thrall, but follows his orders all the same. Krusk praises your work and expects Thrall will be pleased to hear of it.",
    "spoiler": 1
   }
  ],
@@ -49,7 +49,7 @@
     "where do you get taretha's necklace",
     "who starts taretha's gift"
    ],
-   "answer": "Elysa gives it up without argument, wanting no memory of Lord Aliden Perenolde and asking only to be left in peace."
+   "answer": "Elysa gives up the necklace without argument. She wants no memory of Lord Aliden Perenolde and asks only to be left in peace."
   },
   {
    "q": "To whom must the necklace be returned?",
@@ -58,7 +58,7 @@
     "where do i bring the pendant",
     "krusk location"
    ],
-   "answer": "Krusk, in Tarren Mill."
+   "answer": "Bring it to Krusk, who waits at Tarren Mill."
   },
   {
    "q": "Whose pendant was it?",
@@ -67,7 +67,7 @@
     "taretha foxton necklace significance",
     "what is taretha's gift"
    ],
-   "answer": "It belonged to Taretha Foxton, Thrall's childhood friend, and bringing it back returns a keepsake of hers to the orcs."
+   "answer": "The pendant belonged to Taretha Foxton, Thrall's childhood friend. Returning it gives the orcs a keepsake of hers."
   },
   {
    "q": "What comes before this in the chain?",
@@ -75,7 +75,7 @@
     "previous quest",
     "prerequisite for taretha's gift"
    ],
-   "answer": "The step involving Lord Aliden Perenolde. This is the last part of the chain."
+   "answer": "The step involving Lord Aliden Perenolde comes before this. This is the last part of the chain."
   }
  ],
  "angles": [],
@@ -100,5 +100,6 @@
  ],
  "attribution": [
   "Taretha's Gift"
- ]
+ ],
+ "style": 2
 }

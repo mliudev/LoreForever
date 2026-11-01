@@ -8,16 +8,16 @@
   "wiki": "Senir Whitebeard",
   "refs": 7
  },
- "summary": "Outside the Thunderbrew Distillery in Kharanos, Senir Whitebeard watches Dun Morogh's growing threats. The Senate of Ironforge sent him to assess the Frostmane troll offensive and report their movements to the dwarven leadership.",
+ "summary": "Outside the Thunderbrew Distillery in Kharanos, Senir Whitebeard watches the threats growing across Dun Morogh. The Senate of Ironforge sent him to assess the Frostmane troll offensive and report their movements to the dwarven leadership.",
  "sections": [
   {
    "title": "Envoy of the Senate",
-   "body": "Senir Whitebeard carries the Senate of Ironforge's authority into Kharanos. The city's halls are watching the growing unrest in Dun Morogh, and Senir links the scouts on its snowy frontier with the lawmakers behind Ironforge's stone gates.",
+   "body": "Senir Whitebeard brings the Senate of Ironforge's authority to Kharanos. The city's halls watch as unrest grows across Dun Morogh. Senir carries news from scouts on the snowy frontier to the lawmakers behind Ironforge's stone gates.",
    "spoiler": 0
   },
   {
    "title": "Eyes on the Frostmanes",
-   "body": "Senir Whitebeard tracks the Frostmane trolls, whose aggression is growing. Displaced and desperate in the frozen crags, they are pressing close to dwarven settlements and roads. Senir gathers reports on their positions, especially around their stronghold, for Ironforge's military commanders. He gathers intelligence rather than charging into battle.",
+   "body": "The Frostmane trolls grow more aggressive, pressing close to dwarven settlements and roads from the frozen crags where they are displaced and desperate. Senir gathers reports on their positions, especially around their stronghold, for Ironforge's military commanders. His work is to gather intelligence, not charge into battle.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "senir kharanos role",
     "what does senir do"
    ],
-   "answer": "Senir Whitebeard is in Kharanos to observe troll activity and coordinate scout reports. Kharanos is a crossroads in Dun Morogh, where he receives field intelligence before sending it to the Senate in Ironforge."
+   "answer": "Senir Whitebeard observes troll activity in Kharanos and coordinates scout reports. Kharanos is a crossroads in Dun Morogh, where he receives field intelligence before sending it to the Senate in Ironforge."
   },
   {
    "q": "Why does the Senate of Ironforge need an envoy here?",
@@ -74,13 +74,13 @@
     "senir reports destination",
     "who gets the reports"
    ],
-   "answer": "Senir Whitebeard sends his reports on troll positions and strengths up the mountain road to the Senate and leadership in Ironforge."
+   "answer": "Senir Whitebeard sends reports on troll positions and strengths up the mountain road to the Senate and leadership in Ironforge."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "As a dwarf, you can see how Senir Whitebeard links frontier defenders with Ironforge's governing body."
+   "text": "As a dwarf, you can see Senir Whitebeard link frontier defenders with Ironforge's governing body."
   },
   {
    "target": "faction:Alliance",
@@ -109,5 +109,5 @@
  "attribution": [
   "Senir Whitebeard"
  ],
- "style": 1
+ "style": 2
 }

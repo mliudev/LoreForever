@@ -10,16 +10,16 @@
    "quest:1654"
   ]
  },
- "summary": "Beneath Moonbrook, Whitestone Oak Lumber is shaped for the Defias fleet. Its strength also draws the attention of Alliance smiths seeking a haft for a sacred weapon.",
+ "summary": "Beneath Moonbrook, the Defias shape Whitestone Oak Lumber for their fleet. Its strength also draws Alliance smiths seeking a haft for a sacred weapon.",
  "sections": [
   {
    "title": "A Sacred Haft",
-   "body": "Outside Ironforge, Jordan Stilwell needs Whitestone Oak Lumber for a weapon worthy of a champion of the Light. Joined with a purified Kor gem and refined metals, the timber forms a balanced, unyielding haft. It must bear the holy energies channeled during the Test of Righteousness.",
+   "body": "Jordan Stilwell, outside Ironforge, needs Whitestone Oak Lumber for a weapon worthy of a champion of the Light. He joins it with a purified Kor gem and refined metals to form a balanced, unyielding haft. The haft must bear the holy energies channeled during the Test of Righteousness.",
    "spoiler": 1
   },
   {
    "title": "Timber of the Under-Docks",
-   "body": "Deep in the Deadmines beneath Moonbrook, Goblin Woodcarvers shape Whitestone Oak for the Defias Brotherhood's hidden war fleet. The dense grain bears strain and hard blows, making it useful to armorers who need stronger timber than common ash or pine for ceremonial and martial work.",
+   "body": "Deep in the Deadmines beneath Moonbrook, Goblin Woodcarvers shape Whitestone Oak for the Defias Brotherhood's hidden war fleet. Its dense grain can bear strain and hard blows. Armorers use it when they need stronger timber than common ash or pine for ceremonial and martial work.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "whitestone oak location",
     "who drops whitestone oak lumber"
    ],
-   "answer": "Goblin Woodcarvers work the lumber deep in the Deadmines beneath Moonbrook in Westfall, where the Defias Brotherhood builds its hidden juggernaut."
+   "answer": "Goblin Woodcarvers work Whitestone Oak Lumber deep in the Deadmines beneath Moonbrook in Westfall. There, the Defias Brotherhood builds its hidden juggernaut."
   },
   {
    "q": "Who uses this lumber?",
@@ -47,7 +47,7 @@
     "whitestone oak purpose",
     "what does jordan stilwell forge"
    ],
-   "answer": "Jordan Stilwell makes the resilient timber into the haft of a two-handed holy hammer, forged for those who complete the Test of Righteousness."
+   "answer": "Jordan Stilwell makes the resilient timber into the haft of a two-handed holy hammer. He forges it for those who complete the Test of Righteousness."
   },
   {
    "q": "Why is goblin lumber suitable for a holy weapon?",
@@ -65,7 +65,7 @@
   },
   {
    "target": "profession:Blacksmithing",
-   "text": "Whitestone oak, refined ore, and a gem come together in Stilwell's weapon schematics, balancing weight, durability, and metaphysical resonance."
+   "text": "Whitestone oak, refined ore, and a gem come together in Stilwell's weapon schematics. Together, they balance weight, durability, and metaphysical resonance."
   }
  ],
  "keywords": [
@@ -90,5 +90,5 @@
   "Whitestone Oak Lumber",
   "The Test of Righteousness (2)"
  ],
- "style": 1
+ "style": 2
 }

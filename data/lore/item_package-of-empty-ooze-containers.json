@@ -10,16 +10,16 @@
    "quest:4512"
   ]
  },
- "summary": "In Ironforge, Package of Empty Ooze Containers is ready for dangerous field sampling in Felwood. Laris Geardawdle supplies jars built to hold tainted and cursed ooze without dissolving.",
+ "summary": "In Ironforge, a package of empty ooze containers is bound for dangerous sampling in Felwood. Laris Geardawdle supplies jars that can hold tainted and cursed ooze without dissolving.",
  "sections": [
   {
    "title": "Field Research Equipment",
-   "body": "Laris Geardawdle sends a dozen empty jars with travelers bound for Felwood. Six are meant for cursed ooze and six for tainted ooze. Raw specimens are caustic, and ordinary luggage can be digested by them. Sturdy, sealed glass keeps the acidic residue contained on the journey across continents to Laris's workbench in Ironforge.",
+   "body": "Laris Geardawdle sends a dozen empty jars with travelers bound for Felwood. Six are for cursed ooze and six for tainted ooze. Raw specimens are caustic, and ordinary luggage can be eaten away by them. Sturdy, sealed glass keeps the acidic residue contained on the journey across continents to Laris's workbench in Ironforge.",
    "spoiler": 0
   },
   {
    "title": "The Mystery of the Ooze",
-   "body": "Laris Geardawdle's interest in ooze reaches beyond eccentric hobby. He has noticed Forsaken researchers from the Royal Apothecary Society harvesting these strange organisms across Azeroth, and wonders what they know. He suspects slimes may be primordial secretions tied to the world's creation. Field agents use his jars to gather evidence, which he hopes will win him acclaim within the Explorers' League.",
+   "body": "Laris Geardawdle's interest in ooze reaches beyond an eccentric hobby. He has seen Forsaken researchers from the Royal Apothecary Society harvesting these strange organisms across Azeroth, and wonders what they know. He suspects slimes may be primordial secretions tied to the world's creation. Field agents gather evidence in his jars, which he hopes will win him acclaim within the Explorers' League.",
    "spoiler": 0
   }
  ],
@@ -97,5 +97,5 @@
   "Package of Empty Ooze Containers",
   "A Little Slime Goes a Long Way"
  ],
- "style": 1
+ "style": 2
 }

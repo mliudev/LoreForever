@@ -21,12 +21,12 @@
  "sections": [
   {
    "title": "A Word in the Park",
-   "body": "In Stormwind’s Park, Nara Meideros keeps faith with Elune. The city’s spiritual guides share ties across their different traditions. When the Cathedral seeks a promising student, Nara sends you across the canals with quiet encouragement. The message brings good tidings, not cause for alarm.",
+   "body": "In Stormwind’s Park, Nara Meideros keeps faith with Elune. The city’s spiritual guides maintain ties across their traditions. So when the Cathedral seeks a promising student, Nara sends you across the canals with quiet encouragement. The message brings good tidings, not alarm.",
    "spoiler": 0
   },
   {
    "title": "The Call of the Cathedral",
-   "body": "At the Cathedral of Light in Cathedral Square, you report to High Priestess Laurena. One of Stormwind’s senior clerical leaders, she guides young acolytes beyond their first prayers. Laurena teaches the sacred invocation called Desperate Prayer, a personal plea for divine aid. It can mend grievous wounds in an instant when a servant of the Light stands near death.",
+   "body": "At the Cathedral of Light in Cathedral Square, you report to High Priestess Laurena. One of Stormwind’s senior clerical leaders, she guides young acolytes beyond their first prayers. Laurena teaches the sacred invocation called Desperate Prayer, a personal plea for divine aid. Near death, a servant of the Light can use it to mend grievous wounds in an instant.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who gives desperate prayer",
     "nara meideros"
    ],
-   "answer": "Priestess Nara Meideros, a night elf cleric in Stormwind’s Park, sends you word that the Cathedral leadership seeks you."
+   "answer": "Priestess Nara Meideros, a night elf cleric in Stormwind’s Park, sends word that the Cathedral leadership seeks you."
   },
   {
    "q": "Who do I need to report to in Stormwind?",
@@ -56,7 +56,7 @@
     "priest ability lore",
     "desperate prayer spell"
    ],
-   "answer": "Desperate Prayer is an invocation that calls on divine grace to restore its caster in an instant during extreme peril. It is taught to human and dwarven clerics of the Holy Light."
+   "answer": "Desperate Prayer calls on divine grace to restore its caster in an instant during extreme peril. Human and dwarven clerics of the Holy Light learn it."
   },
   {
    "q": "Why is a night elf directing priests to the human cathedral?",
@@ -65,7 +65,7 @@
     "park to cathedral",
     "night elf elune stormwind"
    ],
-   "answer": "Night elf priestesses worship Elune, while humans and dwarves follow the Holy Light. Stormwind’s spiritual orders keep close contact and mutual respect, and share word when Alliance clerics need training."
+   "answer": "Night elf priestesses worship Elune, while humans and dwarves follow the Holy Light. Stormwind’s spiritual orders keep close contact and mutual respect, sharing word when Alliance clerics need training."
   },
   {
    "q": "At what point in training does this summons occur?",
@@ -73,7 +73,7 @@
     "what level is this",
     "when do i get desperate prayer"
    ],
-   "answer": "The summons comes around the tenth circle of experience, when a young priest has shown enough field skill to take on more demanding divine rites."
+   "answer": "The summons comes around the tenth circle of experience, when a young priest has shown enough field skill for more demanding divine rites."
   },
   {
    "q": "Where is the Cathedral of Light located?",
@@ -91,7 +91,7 @@
   },
   {
    "target": "race:Human",
-   "text": "As a human, the Cathedral of Light is the chief sanctuary of human worship in the southern Eastern Kingdoms. Laurena’s guidance marks an important spiritual step."
+   "text": "As a human, you find the chief sanctuary of human worship in the southern Eastern Kingdoms at the Cathedral of Light. Laurena’s guidance marks an important spiritual step."
   },
   {
    "target": "faction:Alliance",
@@ -119,5 +119,5 @@
  "attribution": [
   "Desperate Prayer (Park)"
  ],
- "style": 1
+ "style": 2
 }

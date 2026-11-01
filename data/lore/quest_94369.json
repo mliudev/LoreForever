@@ -11,16 +11,16 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "You carry news of the danger facing Zephras to Talaanis Shadowsong in Valanaar. The fallen wards leave the isle exposed to Al'Akir, and the people of Zephras must decide how to protect their home.",
+ "summary": "In Valanaar, you bring Talaanis Shadowsong word of the danger facing Zephras. The fallen wards leave the isle exposed to Al'Akir, and its people must decide how to protect their home.",
  "sections": [
   {
    "title": "A warning for Talaanis",
-   "body": "You tell Talaanis what happened above the Shrine of Akir and share Elaadrin's plan to leave Zephras Isle. High Elder Shadowsong needs to understand the danger and the purpose of your mission to Azeroth as the people of Zephras seek a way to save their home.",
+   "body": "You tell Talaanis what happened above the Shrine of Akir. You share Elaadrin's plan to leave Zephras Isle. High Elder Shadowsong needs to understand the danger and why you were sent to Azeroth. The people of Zephras must find a way to save their home.",
    "spoiler": 0
   },
   {
    "title": "What remains",
-   "body": "Talaanis reflects on the news. Lorthuna is gone, and the cult has lost its leader. Zephras has not been invaded, though Al'Akir may turn his attention to the isle in years or decades. Fear and cause for celebration now stand side by side.",
+   "body": "Talaanis weighs the news. Lorthuna is gone, and the cult has lost its leader. Zephras has not been invaded. Yet Al'Akir may turn his attention to the isle in years or decades, and fear now stands beside cause for celebration.",
    "spoiler": 1
   }
  ],
@@ -50,7 +50,7 @@
     "windlord danger",
     "al akir threat"
    ],
-   "answer": "The wards that hid Zephras are down, and Al'Akir may choose to attack while the people are in his domain."
+   "answer": "The wards that hid Zephras have fallen. Al'Akir may choose to attack while the people are in his domain."
   },
   {
    "q": "What does High Elder Shadowsong need to know?",
@@ -59,7 +59,7 @@
     "high elder news",
     "intentions for azeroth"
    ],
-   "answer": "He needs to know of the danger and what the people of Zephras intend to do on their mission to Azeroth."
+   "answer": "High Elder Shadowsong needs to know of the danger and what the people of Zephras intend to do on their mission to Azeroth."
   }
  ],
  "angles": [],
@@ -77,7 +77,7 @@
  "related": [
   "zone:zephras"
  ],
- "style": 1,
+ "style": 2,
  "attribution": [
   "In-game quest text: The Fate of Zephras"
  ]

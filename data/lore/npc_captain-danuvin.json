@@ -8,16 +8,16 @@
   "wiki": "Captain Danuvin",
   "refs": 5
  },
- "summary": "At Sentinel Hill, Captain Danuvin helps hold Westfall's frontier together. He works with the People's Militia, directing volunteers and recruits to patrol roads and drive back Gnolls and outlaws. His orders protect the supply lines and farmlands from hostile hands.",
+ "summary": "At Sentinel Hill, Captain Danuvin rallies Westfall’s defenders. He directs People's Militia volunteers and recruits to patrol the roads and drive back Gnolls and outlaws. Their orders guard supply lines and farmlands from hostile hands.",
  "sections": [
   {
    "title": "Holding the Hill",
-   "body": "Captain Danuvin coordinates patrols from Sentinel Hill's fortified tower. Stormwind's regular garrison has withdrawn, leaving Westfall's defenses badly weakened. He depends on travelers, farmhands, and volunteer fighters to keep some order across the plains.",
+   "body": "Captain Danuvin directs patrols from Sentinel Hill's fortified tower. Stormwind's regular garrison has withdrawn, leaving Westfall's defenses weak. So he relies on travelers, farmhands, and volunteer fighters to keep some order across the plains.",
    "spoiler": 0
   },
   {
    "title": "Patrolling the Frontier",
-   "body": "Captain Danuvin focuses on the roads and open lands around Sentinel Hill. Riverpaw Gnolls raid near the central outposts, so he sends patrols to thin their packs and secure the perimeter. His orders help keep marauders and opportunists from surrounding the camp.",
+   "body": "Captain Danuvin watches the roads and open lands around Sentinel Hill. Riverpaw Gnolls raid near the central outposts, so he sends patrols to thin their packs and secure the perimeter. His orders keep marauders and opportunists from surrounding the camp.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "where is captain danuvin",
     "danuvin westfall"
    ],
-   "answer": "Captain Danuvin is at Sentinel Hill, the Alliance outpost in central Westfall. He is usually near the fortified tower overlooking the road."
+   "answer": "Captain Danuvin can be found at Sentinel Hill, the Alliance outpost in central Westfall. He is usually near the fortified tower overlooking the road."
   },
   {
    "q": "What faction does Captain Danuvin represent?",
@@ -77,15 +77,15 @@
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Captain Danuvin is one of the few military figures upholding order in Westfall despite the crown's neglect. Alliance recruits can help defend the realm."
+   "text": "Captain Danuvin is one of the few military figures upholding order in Westfall despite the crown's neglect. As an Alliance recruit, you can help defend the realm."
   },
   {
    "target": "class:Warrior",
-   "text": "As a warrior, you can put martial discipline and strength to work against Gnoll packs and help clear the highway."
+   "text": "As a warrior, you can bring your discipline and strength against Gnoll packs and help clear the highway."
   },
   {
    "target": "race:Human",
-   "text": "As a human, you can help Captain Danuvin defend your homeland and keep Stormwind's breadbasket from raiders and beasts."
+   "text": "As a human, you can help Captain Danuvin defend your homeland and keep Stormwind's breadbasket safe from raiders and beasts."
   }
  ],
  "keywords": [
@@ -107,5 +107,5 @@
  "attribution": [
   "Captain Danuvin"
  ],
- "style": 1
+ "style": 2
 }

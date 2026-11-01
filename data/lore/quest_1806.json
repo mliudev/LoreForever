@@ -17,16 +17,16 @@
   "wiki": "The Test of Righteousness (3)",
   "chain": []
  },
- "summary": "At Jordan Stilwell’s forge outside Ironforge, a paladin awaits the making of a mighty warhammer. You have gathered perilous components across the Eastern Kingdoms and Kalimdor for the smith. The hammer marks an apprentice’s passage into a recognized champion of the Light.",
+ "summary": "At Jordan Stilwell’s forge outside Ironforge, you bring the materials for a paladin’s warhammer. Gathered across the Eastern Kingdoms and Kalimdor, they help turn an apprentice into a recognized champion of the Light.",
  "sections": [
   {
    "title": "A Smith's Tribute",
-   "body": "Outside Ironforge’s gates, master smith Jordan Stilwell works at his forge. He admits to envying paladins who wander the land, yet takes pride in serving their cause with hammer and anvil. You bring him rare materials gathered from shadowy crypts, sunken ruins, and dangerous mines. With them, Stilwell keeps his promise and forges a weapon worthy of a true defender.",
+   "body": "Jordan Stilwell works at his forge outside Ironforge’s gates. He envies paladins who wander the land, yet takes pride in serving their cause. You bring him rare materials gathered from shadowy crypts, sunken ruins, and dangerous mines. With them, the master smith keeps his promise and forges a weapon worthy of a true defender.",
    "spoiler": 0
   },
   {
    "title": "The Legacy of Bosch Verigan",
-   "body": "Jordan Stilwell names the finished warhammer Verigan's Fist, honoring Bosch Verigan, an honored dwarven paladin and his dear friend. On behalf of himself and his wife, he places the sacred weapon in a young champion's hands. Through it, the memory and valor of his fallen friend endure against the darkness threatening Azeroth.",
+   "body": "Jordan Stilwell names the finished warhammer Verigan's Fist, for Bosch Verigan, an honored dwarven paladin and his dear friend. On behalf of himself and his wife, he places the sacred weapon in a young champion's hands. Through it, his fallen friend's memory and valor endure against the darkness threatening Azeroth.",
    "spoiler": 0
   }
  ],
@@ -56,7 +56,7 @@
     "where is the forge",
     "dun morogh anvil"
    ],
-   "answer": "Jordan Stilwell forges the hammer just outside Ironforge’s great gates in the snowy peaks of Dun Morogh, where he keeps his forge and anvil."
+   "answer": "Jordan Stilwell forges the hammer just outside Ironforge’s great gates in the snowy peaks of Dun Morogh. His forge and anvil are there."
   },
   {
    "q": "Why did Jordan need rare materials from all over the world?",
@@ -72,7 +72,7 @@
     "is jordan a warrior",
     "jordan stilwell fighter"
    ],
-   "answer": "Jordan Stilwell is a blacksmith, not a wandering warrior. He admits to envying those who roam the land, but finds pride and purpose in crafting weapons for defenders of the Light."
+   "answer": "Jordan Stilwell is a blacksmith, not a wandering warrior. He envies those who roam the land, but finds pride and purpose in crafting weapons for defenders of the Light."
   },
   {
    "q": "What does receiving this hammer signify for a paladin?",
@@ -116,5 +116,5 @@
  "attribution": [
   "The Test of Righteousness (3)"
  ],
- "style": 1
+ "style": 2
 }

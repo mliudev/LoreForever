@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Vault of Ironforge"
  },
- "summary": "In Ironforge's Commons, citizens and Alliance travelers bring their wealth to the Vault. It is the city's primary bank and treasure house, overseen by Dinita and the Stonemantle family.",
+ "summary": "In Ironforge's Commons, citizens and Alliance travelers entrust their wealth to the Vault. Dinita and the Stonemantle family oversee its work.",
  "sections": [
   {
    "title": "Heart of Dwarven Commerce",
-   "body": "You find the Vault in the Commons, where travelers, soldiers, and merchants bring coin, relics, and provisions for safekeeping. City guards and tellers watch over its work. Dinita and the Stonemantle family oversee the bank, where citizens and Alliance visitors keep their wealth secure.",
+   "body": "Travelers, soldiers, and merchants bring coin, relics, and provisions to the Vault for safekeeping. City guards and tellers watch the deposits, keeping the wealth of citizens and Alliance visitors secure within the mountain.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "ironforge bank",
     "what is this place"
    ],
-   "answer": "The Vault is Ironforge's central bank and treasure storehouse. Citizens and Alliance travelers rely on it to keep gold, gear, and prized possessions safe within the mountain."
+   "answer": "The Vault keeps gold, gear, and prized possessions safe within the mountain. Citizens and Alliance travelers rely on it as Ironforge's central bank and treasure storehouse."
   },
   {
    "q": "Who operates the bank?",
@@ -32,7 +32,7 @@
     "who runs the vault",
     "stonemantle family"
    ],
-   "answer": "Dinita and members of the Stonemantle family operate the bank, managing deposits, transactions, and storage for visitors."
+   "answer": "Dinita and members of the Stonemantle family operate the bank. They manage deposits, transactions, and storage for visitors."
   },
   {
    "q": "Where is the Vault located?",
@@ -70,5 +70,5 @@
  "attribution": [
   "Vault of Ironforge"
  ],
- "style": 1
+ "style": 2
 }

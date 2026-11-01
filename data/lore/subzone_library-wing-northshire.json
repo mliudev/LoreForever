@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Library Wing (Northshire)"
  },
- "summary": "In Northshire Abbey, the Library Wing gathers scholars and new priests and mages. Its quiet southern rooms offer instruction for those joining Stormwind’s defense.",
+ "summary": "In Northshire Abbey, the Library Wing gathers scholars and new priests and mages. They prepare to join Stormwind’s defense.",
  "sections": [
   {
    "title": "Haven of Arcane and Divine Study",
-   "body": "The Library Wing branches south from Northshire Abbey’s Main Hall. Dusty shelves, study lecterns, and quiet alcoves fill its rooms, where aspiring mages and priests learn the Arcane and the Holy Light. Across the abbey, martial recruits drill in the Hall of Arms. Priestess Anetta guides novice priests in faith and healing, while Khelden Bremen teaches budding mages to shape primal elemental energy.",
+   "body": "The Library Wing opens south from Northshire Abbey’s Main Hall. Dusty shelves, lecterns, and quiet alcoves fill its rooms. Here aspiring mages and priests study the Arcane and the Holy Light. Across the abbey, recruits drill in the Hall of Arms.\n\nPriestess Anetta guides novice priests in faith and healing. Khelden Bremen teaches budding mages to shape primal elemental energy.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "how to find northshire library",
     "library location northshire"
    ],
-   "answer": "The Library Wing occupies the southern part of Northshire Abbey, just off the Main Hall and directly opposite the Hall of Arms."
+   "answer": "The Library Wing occupies the southern part of Northshire Abbey, just off the Main Hall and opposite the Hall of Arms."
   },
   {
    "q": "What is the purpose of this wing?",
@@ -31,17 +31,17 @@
     "why does northshire abbey have a library",
     "library wing purpose"
    ],
-   "answer": "The wing is Northshire Abbey’s center for study and spiritual instruction, where recruits prepare to serve Stormwind through magical learning and prayer."
+   "answer": "The wing is Northshire Abbey’s center for study and spiritual instruction. Recruits prepare to serve Stormwind through magical learning and prayer."
   }
  ],
  "angles": [
   {
    "target": "class:Priest",
-   "text": "As a priest, you can learn from Priestess Anetta, who teaches fledgling priests to channel the Holy Light to heal wounds and smite foes."
+   "text": "As a priest, you can learn from Priestess Anetta. She teaches fledgling priests to channel the Holy Light to heal wounds and smite foes."
   },
   {
    "target": "class:Mage",
-   "text": "As a mage, you can study in these quiet halls with Khelden Bremen, who teaches novice mages the foundations of fire and frost."
+   "text": "As a mage, you can study in these quiet halls with Khelden Bremen. He teaches novice mages the foundations of fire and frost."
   }
  ],
  "keywords": [
@@ -67,5 +67,5 @@
  "attribution": [
   "Library Wing (Northshire)"
  ],
- "style": 1
+ "style": 2
 }

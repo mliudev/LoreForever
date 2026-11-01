@@ -17,16 +17,16 @@
   "wiki": "Those Blasted Troggs! (Classic)",
   "chain": []
  },
- "summary": "Foreman Stonebrow watches troggs wreck Gol'Bolar Quarry and calls for help. They have broken his equipment and powder barrels, and his fading aim keeps him from fighting them himself. He sends willing fighters into the pit to thin the Rockjaw Skullthumpers.",
+ "summary": "In Gol'Bolar Quarry, troggs wreck the workings while Foreman Stonebrow calls for help. They have broken his equipment and powder barrels. His fading aim keeps him from fighting them himself, so he asks willing fighters to thin the Skullthumpers.",
  "sections": [
   {
    "title": "Chaos in the Quarry",
-   "body": "Troggs have overrun the lower terraces of Gol'Bolar Quarry in eastern Dun Morogh. The dwarven excavation once produced well, until the creatures broke through the bedrock and flooded its tunnels. Now they smash the scaffolding and blast apart barrels of powder, leaving the quarry in ruin.",
+   "body": "Troggs have overrun the lower terraces of Gol'Bolar Quarry in eastern Dun Morogh. They broke through the bedrock and flooded the tunnels, ending the dwarven excavation's productive days. Now they smash scaffolding and blow apart powder barrels, leaving the quarry in ruin.",
    "spoiler": 0
   },
   {
    "title": "Stonebrow's Boiling Rage",
-   "body": "Foreman Stonebrow watches the ruin from the ridge, furious at what has become of his life's work. Age has weakened his hands and spoiled his aim, so he calls on passing wanderers and Alliance recruits to fight in his place. He wants the burly Rockjaw Skullthumpers thinned, though only their complete destruction would satisfy his anger.",
+   "body": "From the ridge, Foreman Stonebrow watches his life's work crumble. Age has weakened his hands and spoiled his aim, so he relies on passing wanderers and Alliance recruits to fight in his place. He wants the burly Rockjaw Skullthumpers thinned. Only their complete destruction would satisfy his anger.",
    "spoiler": 0
   }
  ],
@@ -46,7 +46,7 @@
     "why troggs here",
     "trogg invasion reason"
    ],
-   "answer": "Troggs dwell deep beneath the earth across Khaz Modan. Dwarven excavations often break into the caverns where they nest, and the troggs surge to the surface and overwhelm active mines."
+   "answer": "Troggs dwell deep beneath the earth across Khaz Modan. Dwarven excavations often break into the caverns where troggs nest, and they surge to the surface to overwhelm active mines."
   },
   {
    "q": "Who is Foreman Stonebrow?",
@@ -69,7 +69,7 @@
    "aliases": [
     "why doesn't stonebrow fight"
    ],
-   "answer": "Stonebrow says his eyesight and aim have faded since his youth. Because age leaves him at risk of being overwhelmed in the quarry pits, he hires adventurers to fight there."
+   "answer": "Stonebrow says his eyesight and aim have faded since his youth. Age leaves him at risk of being overwhelmed in the quarry pits, so he hires adventurers to fight there."
   },
   {
    "q": "What are the troggs destroying in the quarry?",
@@ -110,5 +110,5 @@
  "attribution": [
   "Those Blasted Troggs! (Classic)"
  ],
- "style": 1
+ "style": 2
 }

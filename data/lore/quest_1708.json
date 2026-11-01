@@ -17,16 +17,16 @@
   "wiki": "Iron Coral (quest)",
   "chain": []
  },
- "summary": "In Ironforge, Klockmort Spannerspan seeks coral for a new suit of armor. The gnome blacksmith works in Tinker Town and sends you to the Wetlands coast for searing coral, hoping to test new smithing methods in a custom design.",
+ "summary": "In Tinker Town, Klockmort Spannerspan seeks searing coral for a new suit of armor. The gnome blacksmith hopes to test new smithing methods with this rare sea material on the Wetlands coast.",
  "sections": [
   {
    "title": "A Fusion of Crafts",
-   "body": "Klockmort Spannerspan has fresh ideas after exchanging insights with master dwarven smith Furen Longbeard. The gnome wants to bring Furen's metallurgy together with his own tinkering to make exceptionally resilient armor. Mountain ore alone will not suit the experiment. Klockmort needs searing coral, a naturally hardened material from the sea.",
+   "body": "Klockmort Spannerspan has shared discoveries with Furen Longbeard, a master dwarven smith. Now he hopes to unite Furen's skill in metallurgy with his own tinkering. Mountain ore alone will not give him the resilient armor he seeks. So he needs searing coral, a material hardened by the sea.",
    "spoiler": 0
   },
   {
    "title": "Diving the Wetlands Shore",
-   "body": "Searing coral grows only underwater off the Wetlands coast, south of Menethil Harbor. You need to retrieve twenty clusters from beneath the waves, where native aquatic predators prowl. Then you carry the harvest back to Ironforge. Klockmort plans to smelt and hammer the coral into experimental armor plating.",
+   "body": "Searing coral grows underwater off the Wetlands coast, south of Menethil Harbor. You need to bring back twenty clusters while aquatic predators prowl below. Then carry the harvest to Ironforge. Klockmort plans to smelt and hammer the coral into experimental armor plating.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who gives iron coral",
     "quest giver iron coral"
    ],
-   "answer": "Klockmort Spannerspan is a skilled gnome blacksmith in Tinker Town, Ironforge. Passionate about mechanical tinkering and cutting-edge metallurgy, he works with dwarven artisans to develop new ways to craft armor."
+   "answer": "Klockmort Spannerspan is a skilled gnome blacksmith in Tinker Town, Ironforge. He loves mechanical tinkering and new approaches to metallurgy, and works with dwarven artisans on armor-making methods."
   },
   {
    "q": "What is searing coral?",
@@ -46,7 +46,7 @@
     "searing coral lore",
     "what is searing coral used for"
    ],
-   "answer": "Searing coral is a rare ocean growth found on the seabed south of Menethil Harbor in the Wetlands. Its unusual chemical and physical qualities let an inventive smith smelt and hammer it into armor reinforcement."
+   "answer": "Searing coral is a rare ocean growth on the seabed south of Menethil Harbor in the Wetlands. An inventive smith can smelt and hammer it into armor reinforcement because of its unusual chemical and physical qualities."
   },
   {
    "q": "Where do I find the searing coral?",
@@ -55,7 +55,7 @@
     "where is iron coral located",
     "wetlands coral location"
    ],
-   "answer": "Look underwater along the coast south of Menethil Harbor in the Wetlands. Divers must pry the mineral-rich branches loose from the seabed."
+   "answer": "Search underwater along the Wetlands coast south of Menethil Harbor. Divers must pry the mineral-rich branches loose from the seabed."
   },
   {
    "q": "Why does Klockmort need searing coral instead of metal ore?",
@@ -63,7 +63,7 @@
     "why coral for armor",
     "coral metallurgy"
    ],
-   "answer": "Klockmort hopes searing coral will make armor lighter and more durable than traditional Ironforge ore alone. He is adapting smithing techniques he learned from the dwarf Furen Longbeard."
+   "answer": "Klockmort hopes searing coral will make armor lighter and more durable than armor made from Ironforge ore alone. He is adapting smithing techniques learned from the dwarf Furen Longbeard."
   },
   {
    "q": "How is Furen Longbeard involved in this task?",
@@ -71,7 +71,7 @@
     "furen connection",
     "furen longbeard iron coral"
    ],
-   "answer": "Furen Longbeard developed new armor-crafting techniques with your help. Grateful for your aid, he shared his trade secrets with Klockmort, inspiring the gnome's own protective designs."
+   "answer": "Furen Longbeard developed new armor-crafting techniques with your help. Grateful for your aid, he shared his trade secrets with Klockmort, inspiring the gnome's protective designs."
   },
   {
    "q": "What happens after bringing the coral to Klockmort?",
@@ -79,17 +79,17 @@
     "iron coral follow up",
     "next quest iron coral"
    ],
-   "answer": "With twenty loads of searing coral, Klockmort begins smelting and hammering the material at his workbench. His work leads to the unveiling of experimental gear in Klockmort's Creation."
+   "answer": "With twenty loads of searing coral, Klockmort begins smelting and hammering it at his workbench. His work leads to experimental gear in Klockmort's Creation."
   }
  ],
  "angles": [
   {
    "target": "race:Gnome",
-   "text": "As a gnome, Klockmort's search for strange coastal minerals reflects the drive to improve traditional craft through experimentation."
+   "text": "As a gnome, you can see Klockmort's search for strange coastal minerals as a way to improve traditional craft through experiment."
   },
   {
    "target": "race:Dwarf",
-   "text": "As a dwarf, you can see the metallurgic discoveries of Ironforge master smith Furen Longbeard at work in this collaboration between gnomes and dwarves in Tinker Town."
+   "text": "As a dwarf, you can see master smith Furen Longbeard's metallurgic discoveries at work in this collaboration between gnomes and dwarves in Tinker Town."
   },
   {
    "target": "profession:Blacksmithing",
@@ -97,7 +97,7 @@
   },
   {
    "target": "profession:Engineering",
-   "text": "As an engineer, you can recognize the value of testing unusual materials for better protection."
+   "text": "As an engineer, you can recognize the value of testing unusual materials to make better protection."
   }
  ],
  "keywords": [
@@ -122,5 +122,5 @@
  "attribution": [
   "Iron Coral (quest)"
  ],
- "style": 1
+ "style": 2
 }

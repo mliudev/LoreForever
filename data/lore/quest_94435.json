@@ -11,11 +11,11 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "Tanis Alderwood thanks you for helping him and calls you a friend. Danitha Morr recognizes the small act as a way to strengthen the Forsaken's connection to the Light.",
+ "summary": "Tanis Alderwood thanks you for your help and calls you a friend. Danitha Morr sees this small act of service as a way to strengthen the Forsaken’s connection to the Light.",
  "sections": [
   {
    "title": "A Small Service",
-   "body": "Danitha Morr says your help may strengthen the Forsaken's connection to the Light. She speaks of mistrust and conspiracies among the Dark Lady's followers, and of meeting that fear with courage and righteousness. She gives you a symbol for what comes next.",
+   "body": "Danitha Morr says your help may strengthen the Forsaken’s connection to the Light. Mistrust and conspiracies linger among the Dark Lady’s followers. The Forsaken must meet that fear with courage and righteousness. Danitha gives you a symbol for what comes next.",
    "spoiler": 0
   }
  ],
@@ -36,7 +36,7 @@
     "small act meaning",
     "light connection"
    ],
-   "answer": "Danitha says even a small act of service may strengthen the Forsaken's connection to the Light."
+   "answer": "Danitha says even a small act of service may strengthen the Forsaken’s connection to the Light."
   },
   {
    "q": "Why does Danitha mention mistrust?",
@@ -54,13 +54,13 @@
     "danitha item",
     "symbol for next"
    ],
-   "answer": "Danitha gives you a symbol for what comes next."
+   "answer": "A symbol from Danitha, for what comes next."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance traveler, you hear Danitha describe the Forsaken's effort to help their people prosper again."
+   "text": "As an Alliance traveler, you hear Danitha describe the Forsaken’s effort to help their people prosper again."
   },
   {
    "target": "race:Undead",
@@ -82,7 +82,7 @@
   "topic:forsaken",
   "subzone:bandarion-keep"
  ],
- "style": 1,
+ "style": 2,
  "attribution": [
   "In-game quest text: A Lesson in Divinity"
  ]

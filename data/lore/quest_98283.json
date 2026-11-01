@@ -14,11 +14,11 @@
  "angles": [
   {
    "target": "class:Druid",
-   "text": "As a druid, you share Rethiel's grief over the Wetlands' broken balance, where sickness has warped predators like Carnage into mindless terrors."
+   "text": "As a druid, you share Rethiel's grief over the Wetlands' broken balance. Sickness has warped predators like Carnage into mindless terrors."
   },
   {
    "target": "class:Hunter",
-   "text": "As a hunter, you know the danger when plague driven fury strips an alpha predator of its instincts and turns it against its own kind."
+   "text": "As a hunter, you know the danger when plague-driven fury strips an alpha predator of its instincts. Then it turns against its own kind."
   }
  ],
  "faq": [
@@ -28,7 +28,7 @@
     "carnage raptor",
     "what is carnage"
    ],
-   "answer": "Carnage is the monstrous alpha of the Razormaw raptors in the Wetlands. Disease has driven the beast mad, leaving slaughter in its wake and terrifying its own pack.",
+   "answer": "Carnage is the monstrous alpha of the Razormaw raptors in the Wetlands. Disease has driven the beast mad, leaving slaughter behind and terrifying its own pack.",
    "q": "Who is Carnage?"
   },
   {
@@ -37,7 +37,7 @@
     "where to turn in carnage",
     "rethiel wetlands"
    ],
-   "answer": "Rethiel the Greenwarden gives the work. He is a warden stationed in the Green Belt of the Wetlands, devoted to restoring the region's corrupted natural balance.",
+   "answer": "Rethiel the Greenwarden gives the work. He watches over the Green Belt in the Wetlands and seeks to restore the region's corrupted natural balance.",
    "q": "Who gives the quest Carnage?"
   },
   {
@@ -45,7 +45,7 @@
     "why kill carnage",
     "why does rethiel want carnage dead"
    ],
-   "answer": "Rethiel seeks Carnage's death because unnatural sickness has driven the beast mad. That madness shattered the Razormaw hierarchy and devastated the local ecology.",
+   "answer": "Rethiel seeks Carnage's death because unnatural sickness has driven the beast mad. Its madness shattered the Razormaw hierarchy and devastated the local ecology.",
    "q": "Why must Carnage be destroyed?"
   },
   {
@@ -70,7 +70,7 @@
     "what role do razormaw play",
     "why raptors matter in wetlands"
    ],
-   "answer": "The Razormaw raptors normally keep the Wetlands' natural plant and animal life from overgrowing, helping maintain ecological balance. Carnage's madness disrupted that role.",
+   "answer": "The Razormaw raptors normally keep the Wetlands' natural plant and animal life from overgrowing. In doing so, they help maintain ecological balance. Carnage's madness disrupted that role.",
    "q": "What role did the Razormaw raptors originally serve in the Wetlands?"
   }
  ],
@@ -94,19 +94,19 @@
  ],
  "sections": [
   {
-   "body": "The Razormaw raptors once kept the Wetlands from wild overgrowth. Now their pack is ruled by a bloodthirsty alpha called Carnage. The beast slaughters without restraint and terrorizes its own kind, leaving the marshes in turmoil.",
+   "body": "The Razormaw raptors once kept wild growth in check across the Wetlands. Now a bloodthirsty alpha named Carnage rules the pack. It slaughters without restraint and terrorizes its own kind. The marshes are in turmoil.",
    "spoiler": 0,
    "title": "A Broken Balance"
   },
   {
-   "body": "Rethiel the Greenwarden watches over the Green Belt and believes corruption has taken hold of Carnage. To draw the beast from hiding, you gather the malignant entrails of diseased Rotclaw bears that came down from Loch Modan. Place the foul meat in Carnage's cave below Raptor Ridge, and the frenzied alpha attacks. Its suffering can then end.",
+   "body": "Rethiel the Greenwarden watches over the Green Belt and believes corruption has taken hold of Carnage. Diseased Rotclaw bears came down from Loch Modan. You gather their malignant entrails and place the foul meat in Carnage's cave below Raptor Ridge. The frenzied alpha attacks, and its suffering can end.",
    "spoiler": 0,
    "title": "Luring the Alpha"
   }
  ],
- "summary": "In the Wetlands, Rethiel the Greenwarden asks you to draw Carnage from its lair. The Razormaw alpha's plague driven frenzy has thrown the marshes out of balance.",
+ "summary": "In the Wetlands, Rethiel the Greenwarden asks you to draw Carnage from its lair. The Razormaw alpha's plague-driven frenzy has thrown the marshes out of balance.",
  "attribution": [
   "In-game quest text: Carnage"
  ],
- "style": 1
+ "style": 2
 }

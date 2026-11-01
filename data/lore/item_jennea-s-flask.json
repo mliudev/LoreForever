@@ -10,16 +10,16 @@
    "quest:1861"
   ]
  },
- "summary": "At the Wizard's Sanctum in Stormwind, Jennea Cannon sends apprentices to Mirror Lake for water. They bring the sample back for arcane analysis.",
+ "summary": "At the Wizard's Sanctum in Stormwind, Jennea Cannon sends apprentices to Mirror Lake for water. They bring a sample back for arcane study.",
  "sections": [
   {
    "title": "A Vessel for Arcane Research",
-   "body": "After magical struggles across Azeroth, arcane currents have torn loose from their ancient channels. Jennea Cannon seeks to learn how these shifts have affected Elwynn Forest. She gives promising apprentices a glass flask and sends them southwest of Stormwind's gates to the base of Mirror Lake's waterfall. The flask protects the water sample on the journey back to the Wizard's Sanctum, where it can be examined for arcane disturbances.",
+   "body": "Arcane currents have been torn from their ancient channels by magical struggles across Azeroth. Jennea Cannon wants to learn how these shifts have affected Elwynn Forest. She gives promising apprentices a glass flask and sends them southwest of Stormwind's gates, to the base of Mirror Lake's waterfall.\n\nThe flask protects the water sample on the journey back to the Wizard's Sanctum. There, Jennea can examine it for arcane disturbances.",
    "spoiler": 0
   },
   {
    "title": "Guarding the Waters",
-   "body": "Jennea's flask lets Stormwind's mages check whether shifting ley lines have tainted Mirror Lake. If the water carries harmful magic, the surrounding life and anyone who drinks from it could suffer strange afflictions. A sample can reveal magical residue before tainted currents spread through the countryside.",
+   "body": "With Jennea's flask, Stormwind's mages can test whether shifting ley lines have tainted Mirror Lake. Harmful magic in the water could bring strange afflictions to the surrounding life and to anyone who drinks from it. A sample may reveal magical residue before tainted currents spread through the countryside.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "what does the flask do",
     "use of flask"
    ],
-   "answer": "You use Jennea's Flask to gather water from the waterfall at Mirror Lake in Elwynn Forest."
+   "answer": "Use Jennea's Flask to gather water from the waterfall at Mirror Lake in Elwynn Forest."
   },
   {
    "q": "Who gives you this flask?",
@@ -47,7 +47,7 @@
     "why mirror lake water",
     "why water sample"
    ],
-   "answer": "Recent mystical conflicts have disrupted the flow of magic across the world. Jennea fears stray currents may be seeping into Elwynn's waters and endangering anyone who drinks from the lake."
+   "answer": "Recent mystical conflicts have disrupted magic's flow across the world. Jennea fears stray currents may be seeping into Elwynn's waters and endangering anyone who drinks from the lake."
   },
   {
    "q": "Where do you fill the flask?",
@@ -87,5 +87,5 @@
   "Jennea's Flask",
   "Mirror Lake (quest)"
  ],
- "style": 1
+ "style": 2
 }

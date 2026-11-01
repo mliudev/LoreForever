@@ -8,11 +8,11 @@
   "wiki": "Thorgrum Borrelson",
   "refs": 2
  },
- "summary": "Above Thelsamar, Thorgrum Borrelson tends the gryphons that carry travelers across Loch Modan. His roost links the valley with Ironforge and the mountain passes nearby.",
+ "summary": "Above Thelsamar, Thorgrum Borrelson keeps travelers flying across Loch Modan. His roost links the valley with Ironforge and the nearby mountain passes.",
  "sections": [
   {
    "title": "The Roost Above Thelsamar",
-   "body": "Thorgrum Borrelson keeps the gryphon roost on the bluff above Thelsamar. His trained gryphons carry the Alliance across Loch Modan, where troggs and gnoll packs threaten the roads. They fly through South Gate Pass to the Great Forge in Dun Morogh, and onward toward the Wetlands and beyond.",
+   "body": "Thorgrum Borrelson keeps the gryphon roost on the bluff above Thelsamar. His trained gryphons carry the Alliance across Loch Modan, where troggs and gnoll packs threaten the roads. They pass through South Gate Pass to the Great Forge in Dun Morogh, then fly onward toward the Wetlands and beyond.",
    "spoiler": 0
   }
  ],
@@ -50,7 +50,7 @@
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance member, you can rely on Thorgrum's roost to connect the dwarven realm with positions in the Wetlands and Arathi Highlands."
+   "text": "As an Alliance member, you can rely on Thorgrum's roost to link the dwarven realm with positions in the Wetlands and Arathi Highlands."
   }
  ],
  "keywords": [
@@ -75,5 +75,5 @@
  "attribution": [
   "Thorgrum Borrelson"
  ],
- "style": 1
+ "style": 2
 }

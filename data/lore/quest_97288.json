@@ -14,11 +14,11 @@
  "angles": [
   {
    "target": "race:Undead",
-   "text": "For the Forsaken, the head illustrates the grim humor and unforgiving nature of their queen, Sylvanas Windrunner. It serves as a stark reminder of the Dark Lady's absolute authority and the macabre ingenuity of the Royal Apothecary Society."
+   "text": "For the Forsaken, the head shows how repeated repairs weaken an undead construct. It is a grim reminder of their queen's absolute authority and the Royal Apothecary Society's macabre ingenuity."
   },
   {
    "target": "faction:Horde",
-   "text": "Horde adventurers witnessing Faranell's reception of the head gain a direct glimpse into the disturbing practices of their Undercity allies. While effective, the Forsaken methods of endless reanimation and flesh-crafting often unnerve their more honor-bound peers."
+   "text": "Horde adventurers who see the head glimpse the Forsaken's practice of repeated reanimation and flesh-crafting. These methods work, but they can unnerve peers who are more bound to honor."
   }
  ],
  "faq": [
@@ -28,7 +28,7 @@
     "what is abominable head",
     "abomination head quest item"
    ],
-   "answer": "The Abominable Head is the severed head of a unique construct that drops when the creature is defeated. Its neck bears the scars of being reattached repeatedly, with each reconnection weakening the flesh and stitches. It serves as proof of a bizarre, recurring punishment inflicted upon the creature, prompting the finder to deliver it to Master Apothecary Faranell in the Undercity for examination.",
+   "answer": "The Abominable Head is the severed head of a unique construct, loosened when the creature is defeated. Its neck bears the scars of repeated reattachment, and each repair weakened the flesh and stitches. You bring it to Master Apothecary Faranell in the Undercity for examination.",
    "q": "What is the Abominable Head?"
   },
   {
@@ -37,7 +37,7 @@
     "why was the head sewn back on",
     "unending torment head stitches"
    ],
-   "answer": "The creature's head was repeatedly stitched back onto its body as a form of torment. According to Master Apothecary Faranell, the creature's state is a cruel and deliberate joke orchestrated by Lady Sylvanas Windrunner. Each time the construct fell or lost its head, it was pieced back together to continue serving or suffering, resulting in an increasingly fragile neck that eventually gave way once more.",
+   "answer": "The head was stitched back after each fall or loss so the construct could be pieced together to continue serving or suffering. Its increasingly fragile neck eventually gave way again.",
    "q": "Why has the head been reattached so many times?"
   },
   {
@@ -46,7 +46,7 @@
     "master apothecary faranell lore",
     "faranell undercity"
    ],
-   "answer": "Master Apothecary Faranell is the head of the Royal Apothecary Society, stationed within the Apothecarium of the Undercity. Under the authority of Queen Sylvanas Windrunner, Faranell oversees the Forsaken apothecaries as they research poisons, plagues, and anatomical alterations. His intimate familiarity with the Dark Lady's projects allows him to immediately identify the origins of the stitched head.",
+   "answer": "Master Apothecary Faranell leads the Royal Apothecary Society in the Apothecarium of the Undercity. Under Queen Sylvanas Windrunner's authority, he oversees Forsaken apothecaries researching poisons, plagues, and anatomical alterations. His familiarity with the Dark Lady's projects lets him identify the stitched head's origins at once.",
    "q": "Who is Master Apothecary Faranell?"
   },
   {
@@ -55,7 +55,7 @@
     "why dark lady joke",
     "cruel joke by dark lady"
    ],
-   "answer": "While Faranell does not elaborate on the original identity of the creature, he regards the construct's endless cycle of death and reassembly as a delicious jest by the Dark Lady. Forcing a creature to endure repeated destruction, only to be sloppily reanimated and stitched back together time and time again, embodies Sylvanas's merciless sense of irony and punishment toward her enemies.",
+   "answer": "The cruelty lies in the endless cycle itself. Each time the creature falls, it is sloppily stitched back together to serve or suffer once more, and each repair leaves it weaker. This is how the Dark Lady punishes her enemies. Faranell does not say who the creature once was, or what it did to earn this.",
    "q": "Why does Sylvanas consider this a cruel joke?"
   },
   {
@@ -64,7 +64,7 @@
     "faranell use for head",
     "what will the apothecaries do with it"
    ],
-   "answer": "Upon receiving the battered head, Faranell notes with grim amusement that he has a use for it. As the overseer of the Royal Apothecary Society's grotesque experiments, he regularly repurposes necromantic remnants, flesh, and biological oddities for the development of new concoctions, plagues, and construct reinforcements to aid the Forsaken in their ongoing conflicts.",
+   "answer": "Faranell regularly repurposes necromantic remnants, flesh, and biological oddities to develop concoctions, plagues, and construct reinforcements for the Forsaken's ongoing conflicts. He accepts the head for the society's alchemical and necromantic work.",
    "q": "What will Faranell do with the head?"
   },
   {
@@ -73,7 +73,7 @@
     "unending torment hand in",
     "who takes abominable head"
    ],
-   "answer": "The quest is completed by bringing the Abominable Head directly to Master Apothecary Faranell. He resides in the Apothecarium, the alchemical wing located in the southern quadrant of the Undercity. Forsaken adventurers and Horde allies can find him surrounded by bubbling vats, assistants, and test subjects as he oversees the society's research.",
+   "answer": "Bring the Abominable Head to Master Apothecary Faranell in the Apothecarium, in the Undercity's southern quadrant. He is surrounded by bubbling vats, assistants, and test subjects as he oversees the society's research.",
    "q": "Where do you turn in the quest Unending Torment?"
   },
   {
@@ -82,7 +82,7 @@
     "alliance unending torment",
     "can alliance do unending torment"
    ],
-   "answer": "Because the objective requires delivering the quest item directly to Master Apothecary Faranell inside the Apothecarium of the Undercity, this quest is intended for Horde adventurers. Any Alliance player attempting to approach Faranell would face hostile Undercity guards and death at the hands of the Forsaken upon entering their subterranean stronghold.",
+   "answer": "The delivery brings you to Master Apothecary Faranell inside the Apothecarium of the Undercity, so it is intended for Horde adventurers. Alliance adventurers who approach him would face hostile Undercity guards and death at the hands of the Forsaken upon entering their stronghold.",
    "q": "Can Alliance players turn in this quest?"
   }
  ],
@@ -103,18 +103,19 @@
  ],
  "sections": [
   {
-   "body": "When the towering abomination finally collapses in battle, its head abruptly topples from its shoulders. A close inspection reveals that the neck has not merely been severed once, but stitched, torn away, and reattached numerous times. With each successive reconstruction, the seam has grown more fragile, leaving the head barely clinging to the construct's shoulders. Such shoddy yet persistent patchwork is unusual even for undead constructs, suggesting that this particular abomination was subjected to repeated cycles of destruction and reassembly. Recognizing that ordinary scavengers could not explain such craftsmanship, anyone examining the remains quickly realizes that only the skilled flesh-crafters of the Undercity could identify the origins of this creature.",
+   "body": "When the towering abomination falls in battle, its head topples from its shoulders. The neck was severed, stitched, torn away, and reattached many times. Each repair left the seam more fragile, until the head barely clung to its shoulders.\n\nSuch persistent patchwork is unusual even for undead constructs. The repeated destruction and reassembly suggest this abomination was rebuilt again and again. Ordinary scavengers could not explain its craftsmanship. Only the skilled flesh-crafters of the Undercity could identify the creature's origins.",
    "spoiler": 0,
    "title": "A Loose Stitch"
   },
   {
-   "body": "Delivering the severed head to the Apothecarium brings it before Master Apothecary Faranell, leader of the Royal Apothecary Society. Far from being surprised by the gruesome specimen, Faranell instantly recognizes the visage. He identifies the repeated reassembly not as an accidental failure of necromancy, but as an intentional and cruel joke devised by Lady Sylvanas Windrunner herself. What specific offense or slight earned the creature such eternal, degrading punishment remains known only to the Dark Lady and her inner circle. Rather than discarding the battered relic, Faranell gleefully accepts the severed head, confident that the Royal Apothecary Society can repurpose it for their ongoing alchemical and necromantic endeavors.",
+   "body": "At the Apothecarium, Master Apothecary Faranell, leader of the Royal Apothecary Society, recognizes the severed head at once. He sees its repeated reassembly as an intentional, cruel joke devised by Lady Sylvanas Windrunner, not an accident of necromancy.\n\nOnly the Dark Lady and her inner circle know what offense earned the creature this degrading punishment. Faranell gleefully accepts the battered head, confident the Royal Apothecary Society can put it to use in their ongoing alchemical and necromantic endeavors.",
    "spoiler": 1,
    "title": "The Dark Lady's Jest"
   }
  ],
- "summary": "Unending Torment begins when a strange abomination is slain, causing its head to topple loose from repeated stitching. Bearing signs of having been severed and reconnected many times over, the relic points toward deliberate dark experimentation within the Forsaken capital. Bringing the grisly prize to Master Apothecary Faranell in the Undercity uncovers the twisted humor behind its repeated reanimation.",
+ "summary": "The head of a fallen abomination sets Unending Torment in motion. Its repeated stitching points toward deliberate dark experimentation in the Forsaken capital, and you bring it to Master Apothecary Faranell in the Undercity.",
  "attribution": [
   "In-game quest text: Unending Torment"
- ]
+ ],
+ "style": 2
 }

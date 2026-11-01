@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Frostmane Hold"
  },
- "summary": "Frostmane trolls hold the cliffs south of Gnomeregan in western Dun Morogh. The Ironforge Guard watches their camp and caverns as raiders press into dwarven lands.",
+ "summary": "Frostmane trolls raid from the cliffs south of Gnomeregan in western Dun Morogh. The Ironforge Guard watches their camp and caverns as the raiders press into dwarven lands.",
  "sections": [
   {
    "title": "A Troll Bastion in the Snows",
-   "body": "Frostmane Hold cuts into the cold cliffs of western Dun Morogh. Rough structures stand outside its winding caves, where hideskinners and headhunters guard the tribe's stronghold. Frostmane raiders leave from here to strike the valleys, threaten travelers on the mountain passes, and test the defenses around Kharanos.",
+   "body": "In western Dun Morogh, Frostmane Hold cuts into cold cliffs. Rough structures stand outside its winding caves, where hideskinners and headhunters guard the tribe’s stronghold. From here, Frostmane raiders strike the valleys, threaten travelers on mountain passes, and test the defenses around Kharanos.",
    "spoiler": 0
   },
   {
    "title": "A Thorn in Kharanos' Side",
-   "body": "Dwarven commanders in Kharanos fear the Frostmane buildup. Young mountaineers and adventurers scout the caverns, map their defenses, and thin the warbands before the tribe can gather for an organized assault on dwarven outposts.",
+   "body": "Dwarven commanders in Kharanos fear the growing Frostmane force. Young mountaineers and adventurers scout the caverns and map their defenses. They thin the warbands before the tribe can gather for an organized assault on dwarven outposts.",
    "spoiler": 0
   }
  ],
@@ -37,7 +37,7 @@
     "where is frostmane hold",
     "find frostmane hold"
    ],
-   "answer": "Frostmane Hold lies in western Dun Morogh, south of Gnomeregan's industrial ruins and west of Kharanos."
+   "answer": "Frostmane Hold lies in western Dun Morogh, south of Gnomeregan’s industrial ruins and west of Kharanos."
   },
   {
    "q": "Why are the dwarves interested in this cave?",
@@ -45,7 +45,7 @@
     "why scout frostmane hold",
     "kharanos troll quest"
    ],
-   "answer": "Dwarven leaders in Kharanos fear the Frostmane are gathering enough strength to raid settlements. They send scouts to map the caves and thin the trolls' ranks."
+   "answer": "Dwarven leaders in Kharanos fear the Frostmane are gathering strength to raid settlements. They send scouts to map the caves and thin the trolls’ ranks."
   },
   {
    "q": "Are there troggs in Frostmane Hold?",
@@ -59,11 +59,11 @@
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "The Frostmane have contested Dun Morogh for centuries. For mountaineers, clearing Frostmane Hold is a rite of passage in the effort to protect Ironforge's snowy heartland."
+   "text": "The Frostmane have contested Dun Morogh for centuries. As a mountaineer, you help clear Frostmane Hold and protect Ironforge’s snowy heartland."
   },
   {
    "target": "race:Gnome",
-   "text": "South of Gnomeregan, Frostmane Hold is another dangerous hostile front beside the embattled former gnome capital."
+   "text": "South of Gnomeregan, Frostmane Hold is another dangerous front beside the embattled former gnome capital."
   }
  ],
  "keywords": [
@@ -86,5 +86,5 @@
  "attribution": [
   "Frostmane Hold"
  ],
- "style": 1
+ "style": 2
 }

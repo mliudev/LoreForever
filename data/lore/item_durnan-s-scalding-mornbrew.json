@@ -10,11 +10,11 @@
    "quest:3364"
   ]
  },
- "summary": "In Coldridge Valley, Durnan Furcutter waits for his scalding mornbrew inside Anvilmar. The cup must reach him before the mountain air cools it.",
+ "summary": "Inside Anvilmar, Durnan Furcutter waits for his mug of mornbrew as the mountain cold threatens to cool it before it arrives.",
  "sections": [
   {
    "title": "A Race Against the Cold",
-   "body": "A fresh cup of mornbrew is bound for Durnan Furcutter inside Anvilmar. A courier delayed on the way to Grelin Whitebeard leaves the brew at risk of cooling in Coldridge Valley's frost. Durnan wants it scalding, so there are only a few minutes to carry the mug up the snowy path into the mountain hall before it goes cold.",
+   "body": "A courier delayed on the way to Grelin Whitebeard leaves the fresh cup at risk in Coldridge Valley's frost. Carry it up the snowy path to the mountain hall within a few minutes, or Durnan's brew will go cold.",
    "spoiler": 0
   }
  ],
@@ -35,7 +35,7 @@
     "brew getting cold",
     "why rush mornbrew"
    ],
-   "answer": "The icy air of Dun Morogh quickly cools an open mug. Durnan ordered scalding mornbrew, and a lukewarm cup will not satisfy him."
+   "answer": "Dun Morogh's icy air quickly cools an open mug. Durnan ordered scalding mornbrew, and a lukewarm cup will not satisfy him."
   },
   {
    "q": "Where does the delivery originate?",
@@ -78,5 +78,5 @@
   "Durnan's Scalding Mornbrew",
   "Scalding Mornbrew Delivery"
  ],
- "style": 1
+ "style": 2
 }

@@ -17,16 +17,16 @@
   "wiki": "The Test of Righteousness",
   "chain": []
  },
- "summary": "In Ironforge, glad tidings bring Jordan Stilwell news of his wife. Duthorian Rall sends you from Westfall to tell the devout smith that Daphne survived the Defias attack.",
+ "summary": "In Cathedral Square, Duthorian Rall sends you to Ironforge with news for Jordan Stilwell. His wife Daphne survived the Defias attack in Westfall.",
  "sections": [
   {
    "title": "A Messenger of Good News",
-   "body": "Duthorian Rall sends you from Cathedral Square with news for Jordan Stilwell. You have guarded Daphne Stilwell through a Defias ambush at her Westfall homestead, and she survived. Her husband left for Ironforge believing his family was in danger. Rall asks you to carry the news in person, so Jordan can know his wife is safe.",
+   "body": "You guarded Daphne Stilwell at her Westfall homestead when Defias outlaws attacked, and she survived. Her husband had left for Ironforge, fearing his family was in danger. Now Rall sends you to tell Jordan in person, so he can learn what happened to Daphne.",
    "spoiler": 0
   },
   {
    "title": "The Smith of Dun Morogh",
-   "body": "Jordan Stilwell was once destined to join the paladins, but chose to follow his father's craft as a master weaponsmith. He works at his anvil outside Ironforge's gates, keeping his faith as he shapes weapons. When you tell him Daphne survived the Defias attack, gratitude moves him to help you forge a blessed weapon of righteousness.",
+   "body": "Jordan Stilwell once hoped to join the paladins, but chose his father's craft and became a master weaponsmith. He works at an anvil outside Ironforge's gates, holding fast to his faith as he shapes weapons. When you tell him Daphne survived, gratitude moves him to help you forge a blessed weapon of righteousness.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who is jordan",
     "the smith in ironforge"
    ],
-   "answer": "Jordan Stilwell is a devout weaponsmith who works outside Ironforge's gates. He once studied the ways of the Light alongside paladins, then chose to continue his father's smithing craft."
+   "answer": "Jordan Stilwell is a devout weaponsmith who works outside Ironforge's gates. He once studied the ways of the Light alongside paladins, then chose his father's craft."
   },
   {
    "q": "Why was Jordan's wife in danger?",
@@ -65,7 +65,7 @@
     "duthorian rall errand",
     "reason for message"
    ],
-   "answer": "Duthorian Rall sends you to tell Jordan that Daphne survived the Defias attack. The journey also brings you to a master smith who can guide you in making a sacred paladin weapon."
+   "answer": "Duthorian Rall sends you to tell Jordan that Daphne survived the Defias attack. The journey brings you to a master smith who can guide you in making a sacred paladin weapon."
   },
   {
    "q": "What comes after speaking with Jordan?",
@@ -83,21 +83,21 @@
     "stilwell king advisors",
     "defias in westfall"
    ],
-   "answer": "Jordan is angered by Stormwind's council and its neglect. The Defias Brotherhood has plagued Westfall for a long time, and he hopes attacks on honest homesteads will force the boy-king's regents to face the crisis."
+   "answer": "Jordan is angered by Stormwind's council and its neglect. The Defias Brotherhood has plagued Westfall for a long time. He hopes attacks on honest homesteads will force the boy-king's regents to face the crisis."
   }
  ],
  "angles": [
   {
    "target": "class:Paladin",
-   "text": "As a paladin, you move from protecting the weak to crafting sacred tools to purge evil across Alliance lands."
+   "text": "As a paladin, you pass from protecting the weak to crafting sacred tools for purging evil across Alliance lands."
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance member, you see Westfall's common folk struggling against the Defias while royal advisors in Stormwind delay action."
+   "text": "As an Alliance member, you see Westfall's common folk struggle against the Defias while royal advisors in Stormwind delay action."
   },
   {
    "target": "profession:Blacksmithing",
-   "text": "As a blacksmith, you can see how Jordan's work at the anvil expresses his devotion as surely as wielding a consecrated blade in battle."
+   "text": "As a blacksmith, you see Jordan's devotion in his work at the anvil, as surely as in a consecrated blade wielded in battle."
   }
  ],
  "keywords": [
@@ -119,5 +119,5 @@
  "attribution": [
   "The Test of Righteousness"
  ],
- "style": 1
+ "style": 2
 }

@@ -17,21 +17,21 @@
   "wiki": "The Defias Brotherhood (3)",
   "chain": []
  },
- "summary": "In Westfall, the Defias Brotherhood's troubles reach Stormwind. Gryan Stoutmantle sends you to deliver Wiley's Note to Master Mathias Shaw, suspecting a link between the Defias and the old Stonemasons Guild.",
+ "summary": "In Westfall, Gryan Stoutmantle suspects the Defias Brotherhood has ties to Stormwind's old Stonemasons Guild. He sends you there with Wiley's Note.",
  "sections": [
   {
    "title": "A Slip of the Tongue",
-   "body": "A mention of the Stonemasons in Wiley's communications catches Gryan Stoutmantle's attention. The builders rebuilt Stormwind City after the First War, but the guild has long been thought scattered or dissolved. If the Defias Brotherhood shares ties with them, Westfall's rural insurgency is more than a disorganized band of outlaws.",
+   "body": "Wiley's mention of the Stonemasons catches Gryan's attention. The guild rebuilt Stormwind City after the First War, but many believe it scattered or dissolved. If the Defias are linked to the guild, Westfall's rural insurgency may be more than a band of outlaws.",
    "spoiler": 0
   },
   {
    "title": "Old Town Secrets",
-   "body": "From Sentinel Hill, Gryan Stoutmantle cannot confirm his suspicions. He sends you to Master Mathias Shaw, head of Stormwind's covert intelligence wing, SI:7. Shaw works from the Barracks in Old Town, gathering whispers and secrets from across the realm. He may be able to untangle the Defias Brotherhood's origins.",
+   "body": "Gryan cannot test his suspicions from Sentinel Hill, so he sends you to Master Mathias Shaw, head of Stormwind's covert intelligence wing, SI:7. Shaw works from the Barracks in Old Town, gathering whispers and secrets from across the realm. He may untangle the Defias Brotherhood's origins.",
    "spoiler": 0
   },
   {
    "title": "The Shadow Over the Crown",
-   "body": "Wiley's Note brings Master Mathias Shaw a grave concern: the rebellion in Westfall runs deeper and carries more political complexity than Gryan Stoutmantle understands. Shaw points to Stormwind's own turbulent past.",
+   "body": "When you bring Wiley's Note to Master Mathias Shaw, he sees that Westfall's rebellion runs deeper than Gryan understands. It also carries greater political complexity. Its roots reach into Stormwind's turbulent past.",
    "spoiler": 1
   }
  ],
@@ -43,7 +43,7 @@
     "why stormwind quest",
     "stoutmantle stormwind errand"
    ],
-   "answer": "A mention of the Stonemasons in Wiley's Note makes Gryan Stoutmantle suspect political intrigue behind the banditry. He sends you to Master Mathias Shaw to confirm the connection."
+   "answer": "Wiley's Note mentions the Stonemasons, leading Gryan Stoutmantle to suspect political intrigue behind the banditry. He sends you to Master Mathias Shaw to confirm the connection."
   },
   {
    "q": "Who is Mathias Shaw?",
@@ -70,7 +70,7 @@
     "are defias stonemasons",
     "stonemason connection"
    ],
-   "answer": "The Stonemasons Guild rebuilt Stormwind after its destruction in the First War. Gryan Stoutmantle suspects Wiley's mention of the guild links it to the Defias, and Mathias Shaw can confirm or deny the connection."
+   "answer": "The Stonemasons Guild rebuilt Stormwind after its destruction in the First War. Gryan Stoutmantle suspects Wiley's mention of the guild links it to the Defias, and Mathias Shaw may confirm or deny the connection."
   },
   {
    "q": "What is Wiley's Note?",
@@ -79,7 +79,7 @@
     "what is the note",
     "note to shaw"
    ],
-   "answer": "Wiley's Note is from Wiley the Black, a scoundrel Gryan Stoutmantle has dealt with before. It warns that the Defias are plotting with gnolls, kobolds, and goblins, and Wiley's mention of the Stonemasons may link the Defias Brotherhood to the former guild."
+   "answer": "Wiley's Note comes from Wiley the Black, a scoundrel Gryan Stoutmantle has dealt with before. It warns that the Defias are plotting with gnolls, kobolds, and goblins. Wiley's mention of the Stonemasons may link the Defias Brotherhood to the former guild."
   },
   {
    "q": "Does Highlord Bolvar or the boy-king know about this?",
@@ -98,7 +98,7 @@
   },
   {
    "target": "race:Human",
-   "text": "As a human of Stormwind, you see Westfall's lawless frontier meet the bitter, unresolved political scandals that followed the rebuilding of your capital."
+   "text": "As a human of Stormwind, you see Westfall's lawless frontier meet the bitter political scandals left unresolved after the rebuilding of your capital."
   },
   {
    "target": "faction:Alliance",
@@ -129,5 +129,5 @@
  "attribution": [
   "The Defias Brotherhood (3)"
  ],
- "style": 1
+ "style": 2
 }

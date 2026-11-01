@@ -17,21 +17,21 @@
   "wiki": "The Test of Righteousness (2)",
   "chain": []
  },
- "summary": "Jordan Stilwell offers a paladin a chance to earn a weapon forged for the Light. The Ironforge smith needs rare materials from distant lands, including his lost family hammer.",
+ "summary": "Jordan Stilwell has a sacred weapon in mind for a paladin worthy of the Light. The Ironforge smith needs rare materials from distant lands, including his lost family hammer.",
  "sections": [
   {
    "title": "A Sacred Commission",
-   "body": "Outside Ironforge's gates, Jordan Stilwell seeks a paladin worthy of the Light. He offers to forge a sacred weapon if you gather the materials his craft demands.",
+   "body": "Outside Ironforge's gates, Jordan Stilwell cannot forge the paladin's weapon on his own. You gather the materials his craft demands.",
    "spoiler": 0
   },
   {
    "title": "Components of Consecration",
-   "body": "Jordan Stilwell needs four things for the weapon: Whitestone Oak lumber, refined ore from master prospectors, a purified Kor Gem, and his smithing hammer. He left the hammer behind when he escaped Shadowfang Keep. Finding these pieces means facing dangers across the Eastern Kingdoms and beyond.",
+   "body": "Jordan Stilwell needs four things for the weapon: Whitestone Oak lumber, refined ore from master prospectors, a purified Kor Gem, and his smithing hammer. He left the hammer behind while escaping Shadowfang Keep. Finding all four means facing dangers across the Eastern Kingdoms and beyond.",
    "spoiler": 0
   },
   {
    "title": "The Smith's Heritage",
-   "body": "Jordan Stilwell's father's hammer is among the pieces needed for his work. The heirloom is bound to his craft and family line. With the hammer recovered and a rare Kor Gem purified, Jordan can pursue plans he has carried for years and forge a sacred instrument of justice.",
+   "body": "Jordan Stilwell needs his father's hammer for the work. The heirloom is bound to his craft and family line. With the hammer recovered and a rare Kor Gem purified, Jordan can pursue plans he has carried for years and forge an instrument of justice.",
    "spoiler": 1
   }
  ],
@@ -52,7 +52,7 @@
     "who is the smith outside ironforge",
     "stilwell background"
    ],
-   "answer": "Jordan Stilwell is a human weaponsmith outside Ironforge's gates in Dun Morogh. He has plans for a sacred weapon for paladins and seeks his father's lost smithing hammer."
+   "answer": "Jordan Stilwell is a human weaponsmith outside Ironforge's gates in Dun Morogh. He plans a sacred weapon for paladins and seeks his father's lost smithing hammer."
   },
   {
    "q": "What materials are needed to forge the weapon?",
@@ -128,5 +128,5 @@
  "attribution": [
   "The Test of Righteousness (2)"
  ],
- "style": 1
+ "style": 2
 }

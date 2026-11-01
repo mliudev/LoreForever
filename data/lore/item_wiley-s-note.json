@@ -11,16 +11,16 @@
    "quest:135"
   ]
  },
- "summary": "Wiley's Note is a confidential missive penned by the Lakeshire rogue Wiley the Black, paid as a debt to Gryan Stoutmantle. Its contents reveal alarming alliances formed by the Defias Brotherhood and draw Stormwind's intelligence service into the investigation.",
+ "summary": "At Lakeshire, Wiley the Black writes a confidential note for Gryan Stoutmantle to repay a debt. Its contents point to alliances made by the Defias Brotherhood, drawing Stormwind's intelligence service into the inquiry.",
  "sections": [
   {
    "title": "A Dangerous Ledger",
-   "body": "Penned in Redridge by the shady rogue Wiley the Black, this scribbled dispatch is handed over to settle an old favor owed to Gryan Stoutmantle. Within, Wiley exposes what he knows about the Defias Brotherhood's clandestine ambitions. His intelligence reveals that the brotherhood is not operating alone: they have brokered alliances with regional gnolls, kobolds, and goblin operatives to further their operations across the kingdom.",
+   "body": "Wiley the Black, a rogue in Lakeshire, writes the dispatch in Redridge. He gives it to Gryan Stoutmantle to repay an old favor. In the note, Wiley tells what he knows of the Defias Brotherhood's plans. The Brotherhood has allies among regional gnolls, kobolds, and goblin operatives.",
    "spoiler": 0
   },
   {
    "title": "The Stonemason Connection",
-   "body": "Beyond noting mercenary pacts, Wiley lets slip a crucial reference connecting the Defias syndicate to the Stonemasons Guild who rebuilt Stormwind after the Second War. Sensing the explosive political implications of this detail, Stoutmantle redirects the note directly into the hands of Master Mathias Shaw, spymaster of SI:7, pulling Stormwind's intelligence apparatus directly into the investigation.",
+   "body": "Wiley's note links the Defias Brotherhood to the Stonemasons Guild, which rebuilt Stormwind after the Second War. Seeing the political weight of that connection, Gryan Stoutmantle sends the note to Master Mathias Shaw, spymaster of SI:7. So Stormwind's intelligence service joins the inquiry.",
    "spoiler": 1
   }
  ],
@@ -32,7 +32,7 @@
     "who is wiley",
     "wiley the black note"
    ],
-   "answer": "It was written by Wiley the Black, an associate of questionable morals stationed at Lakeshire in Redridge. He provided it to settle an outstanding favor he owed to Gryan Stoutmantle of the People's Militia."
+   "answer": "Wiley the Black, a rogue in Lakeshire, wrote the note. He gave it to Gryan Stoutmantle of the People's Militia to repay an outstanding favor."
   },
   {
    "q": "What information does the note contain?",
@@ -41,7 +41,7 @@
     "what does the note say",
     "defias note info"
    ],
-   "answer": "The note warns that the Defias Brotherhood is plotting something massive and has forged alliances with gnolls, kobolds, and goblins. Stoutmantle seeks further advice on its more sensitive contents."
+   "answer": "The note warns that the Defias Brotherhood is plotting something vast and has allies among gnolls, kobolds, and goblins. Gryan Stoutmantle seeks advice on its more sensitive contents."
   },
   {
    "q": "Where does the note need to be delivered?",
@@ -50,7 +50,7 @@
     "turn in wileys note",
     "where do i take the note"
    ],
-   "answer": "It is first brought to Gryan Stoutmantle at Sentinel Hill in Westfall. After reading it, Stoutmantle commands that it be delivered to Master Mathias Shaw at SI:7 headquarters in Stormwind City."
+   "answer": "Gryan Stoutmantle receives the note at Sentinel Hill in Westfall. After reading it, he orders it delivered to Master Mathias Shaw at SI:7 headquarters in Stormwind City."
   },
   {
    "q": "Why does Gryan Stoutmantle send the note to SI:7?",
@@ -59,17 +59,17 @@
     "why give note to shaw",
     "si7 wileys note"
    ],
-   "answer": "Gryan suspects that the note points to a deeper conspiracy than simple banditry. He sends it to Mathias Shaw, the head of Stormwind intelligence, to investigate."
+   "answer": "Gryan Stoutmantle suspects the note points to a deeper conspiracy than banditry. He sends it to Mathias Shaw, head of Stormwind intelligence, for investigation."
   }
  ],
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "The missive passes through the hands of two notorious figures in the trade: Wiley the Black, a street-level rogue, and Master Mathias Shaw, leader of the secretive SI:7."
+   "text": "As a rogue, you see Wiley the Black and Master Mathias Shaw, leader of SI:7, handle the missive."
   },
   {
    "target": "faction:Alliance",
-   "text": "The note represents the critical turning point where local frontier banditry in Westfall is recognized as an organized conspiracy threatening the stability of Stormwind itself."
+   "text": "As an Alliance member, you see local banditry in Westfall recognized as an organized threat to Stormwind's stability."
   }
  ],
  "keywords": [
@@ -96,5 +96,6 @@
   "Wiley's Note",
   "The Defias Brotherhood (2)",
   "The Defias Brotherhood (3)"
- ]
+ ],
+ "style": 2
 }

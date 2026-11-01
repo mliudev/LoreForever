@@ -21,16 +21,16 @@
    "You Have Served Us Well"
   ]
  },
- "summary": "The warlocks of Stormwind have secured their refuge beneath the Slaughtered Lamb. Practitioners report to Zardeth of the Black Claw, whose cabal has kept the city guard and curious nobles at bay.",
+ "summary": "Beneath the Slaughtered Lamb, Stormwind's warlocks have secured a refuge. They report to Zardeth of the Black Claw, whose cabal has kept the city guard and curious nobles at bay.",
  "sections": [
   {
    "title": "A Silence Bought in Shadows",
-   "body": "Stormwind's warlocks practice their dark arts beneath the Slaughtered Lamb, where the authorities have so far tolerated them. Lord Wishock threatens to expose or disrupt their hidden studies. The coven answers with a tainted draught that brings about his death, preserving its refuge beneath the inn.",
+   "body": "Beneath the Slaughtered Lamb, Stormwind's warlocks practice their dark arts, tolerated so far by the authorities. Lord Wishock threatens to expose their hidden studies or bring them to an end. So the coven gives him a tainted draught, and his death preserves their refuge beneath the inn.",
    "spoiler": 0
   },
   {
    "title": "The Master's Boon",
-   "body": "Zardeth of the Black Claw hears that Lord Wishock has taken his final drink and judges the danger past. To thank the loyal practitioner for keeping the city guard and curious peers at bay, Zardeth sends his sniveling imp servant, Zggi, to bestow a dark token of gratitude.",
+   "body": "Zardeth of the Black Claw hears that Lord Wishock has taken his final drink and judges the danger past. To thank the loyal practitioner who kept the city guard and curious peers at bay, Zardeth sends his sniveling imp servant, Zggi, with a dark token of gratitude.",
    "spoiler": 1
   }
  ],
@@ -51,7 +51,7 @@
     "what was the brew for",
     "lord wishock fate"
    ],
-   "answer": "Lord Wishock was given a specially prepared toxic brew by Stormwind's hidden warlocks. With him dead, his noble house will no longer investigate or disturb the practitioners beneath the city streets."
+   "answer": "Stormwind's hidden warlocks gave Lord Wishock a specially prepared toxic brew. With him dead, his noble house will no longer investigate or disturb the practitioners beneath the city streets."
   },
   {
    "q": "Who is Zggi?",
@@ -59,7 +59,7 @@
     "who is the imp zggi",
     "zggi servant"
    ],
-   "answer": "Zggi is an imp bound to serve Zardeth of the Black Claw. Grudging and covetous, Zggi wants to keep the master's treasures, but fears the punishment that would follow open defiance of Zardeth's orders."
+   "answer": "Zggi is an imp bound to serve Zardeth of the Black Claw. Grudging and covetous, Zggi wants to keep the master's treasures but fears the punishment for defying Zardeth openly."
   },
   {
    "q": "Why was Lord Wishock targeted by the warlocks?",
@@ -89,11 +89,11 @@
  "angles": [
   {
    "target": "class:Warlock",
-   "text": "As a warlock, you learn the ruthless measures Stormwind's coven uses to survive, including killing nosy nobles before they turn the city guard against it."
+   "text": "As a warlock, you learn the ruthless measures Stormwind's coven uses to survive. It kills nosy nobles before they can turn the city guard against it."
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance member, you live beneath Stormwind's pristine spires and pious devotion, where hidden warlocks kill highborn meddlers to protect their presence."
+   "text": "As an Alliance member, you live beneath Stormwind's pristine spires and pious devotion. Hidden warlocks kill highborn meddlers to protect their presence."
   }
  ],
  "keywords": [
@@ -114,5 +114,5 @@
  "attribution": [
   "You Have Served Us Well"
  ],
- "style": 1
+ "style": 2
 }

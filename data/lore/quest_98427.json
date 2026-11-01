@@ -1,7 +1,7 @@
 {
  "key": "quest:98427",
  "type": "quest",
- "name": "Schluss damit!",
+ "name": "Ceasing Operations",
  "era": "forever",
  "zone": "general",
  "meta": {
@@ -11,11 +11,11 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "Morin Cloudstalker warns that a shredder can fell a forest with terrible speed. He asks you to return to the mine in the northeast and stop it from cutting another tree.",
+ "summary": "Morin Cloudstalker calls on you to stop the shredder before it fells another tree. He asks you to gather allies, return to the mine in the northeast, and stop it from cutting more trees.",
  "sections": [
   {
    "title": "A Threat to Home",
-   "body": "Morin has heard of the shredder described on a page. Such machines can bring down a forest far faster than axes and muscle. Groves that sheltered the children of the Earth Mother for ages can vanish in days. He asks you to gather allies, return to the mine in the northeast, and ensure the machine fells no more trees. The Mechanoroderschl\u00fcssel is to be brought to Morin at Bloodhoof Village.",
+   "body": "Morin has heard of the shredder described on a page. Such machines can bring down a forest far faster than axes and muscle. Groves that sheltered the children of the Earth Mother for ages can vanish in days. He asks you to gather allies, return to the mine in the northeast, and make sure the machine fells no more trees. Bring the Mechanoroderschlüssel to Morin at Bloodhoof Village.",
    "spoiler": 0
   }
  ],
@@ -36,7 +36,7 @@
     "shredder danger",
     "what can it do"
    ],
-   "answer": "Morin says shredders can cut down a forest far faster than axes and muscle, destroying groves that sheltered the children of the Earth Mother."
+   "answer": "Morin says shredders can cut down a forest far faster than axes and muscle. They can destroy groves that sheltered the children of the Earth Mother."
   },
   {
    "q": "Where does Morin want me to go?",
@@ -51,10 +51,10 @@
    "q": "What do I bring back to Morin?",
    "aliases": [
     "what item Morin",
-    "Mechanoroderschl\u00fcssel",
+    "Mechanoroderschlüssel",
     "key for Morin"
    ],
-   "answer": "Bring the Mechanoroderschl\u00fcssel to Morin Cloudstalker at Bloodhoof Village."
+   "answer": "Bring the Mechanoroderschlüssel to Morin Cloudstalker at Bloodhoof Village."
   },
   {
    "q": "Who is Morin Cloudstalker?",
@@ -63,19 +63,19 @@
     "Morin Cloudstalker",
     "Morin guy"
    ],
-   "answer": "Morin Cloudstalker is the one asking you to stop the shredder from cutting trees near the tauren home."
+   "answer": "Morin Cloudstalker asks you to stop the shredder from cutting trees near the tauren home."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "As a tauren, Morin's concern is for the groves that have sheltered the children of the Earth Mother and the safety of the young near home."
+   "text": "As a tauren, you share Morin's concern for the groves that sheltered the children of the Earth Mother and for the safety of the young near home."
   }
  ],
  "keywords": [
   "bloodhoof village",
   "children of the earth mother",
-  "mechanoroderschl\u00fcssel",
+  "mechanoroderschlüssel",
   "mine",
   "morin cloudstalker",
   "northeast",
@@ -85,8 +85,8 @@
  "related": [
   "npc:morin-cloudstalker"
  ],
- "style": 1,
+ "style": 2,
  "attribution": [
-  "In-game quest text: Schluss damit!"
+  "In-game quest text: Ceasing Operations"
  ]
 }

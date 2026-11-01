@@ -11,10 +11,10 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "A fellow Skyborne sees promise in your druidic arts and points you toward Turak Runetotem in Thunder Bluff. He can teach you how to reach the Cenarion Circle\u2019s stronghold in Moonglade.",
+ "summary": "In Thunder Bluff, a fellow Skyborne sees promise in your druidic arts and points you toward Turak Runetotem. He can teach you how to reach the Cenarion Circle’s stronghold in Moonglade.",
  "sections": [
   {
-   "title": "A Druid\u2019s Welcome",
+   "title": "A Druid’s Welcome",
    "body": "Your teacher believes the druids of the Cenarion Circle will welcome you and share their knowledge. Turak Runetotem in Thunder Bluff can show you how to reach their stronghold in Moonglade.",
    "spoiler": 0
   }
@@ -30,13 +30,13 @@
    "answer": "Speak with Turak Runetotem in Thunder Bluff. He can teach you how to reach Moonglade."
   },
   {
-   "q": "Where is the Cenarion Circle\u2019s stronghold?",
+   "q": "Where is the Cenarion Circle’s stronghold?",
    "aliases": [
     "where is the circle",
     "Cenarion Circle location",
     "Moonglade"
    ],
-   "answer": "The Cenarion Circle\u2019s stronghold is in Moonglade on Kalimdor."
+   "answer": "The Cenarion Circle’s stronghold is in Moonglade on Kalimdor."
   },
   {
    "q": "Why am I being sent to Moonglade?",
@@ -45,17 +45,17 @@
     "learn druid",
     "druid training"
    ],
-   "answer": "The druids of the Cenarion Circle can impart their knowledge to you."
+   "answer": "The druids of the Cenarion Circle can share their knowledge with you."
   }
  ],
  "angles": [
   {
    "target": "race:Skyborne",
-   "text": "As a Skyborne, you are told the Cenarion Circle\u2019s druids will welcome you and share their knowledge."
+   "text": "As a Skyborne, you are told the Cenarion Circle’s druids will welcome you and share their knowledge."
   },
   {
    "target": "class:Druid",
-   "text": "As a druid, you are directed to Turak Runetotem, who can teach you how to reach the Cenarion Circle in Moonglade."
+   "text": "As a druid, you are directed to Turak Runetotem in Thunder Bluff, who can teach you how to reach the Cenarion Circle in Moonglade."
   }
  ],
  "keywords": [
@@ -75,7 +75,7 @@
   "topic:druid",
   "topic:skyborne"
  ],
- "style": 1,
+ "style": 2,
  "attribution": [
   "In-game quest text: Child of Nature"
  ]

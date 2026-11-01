@@ -12,16 +12,16 @@
   "harvested": true,
   "level": "22"
  },
- "summary": "In Stormwind, a blood-stained letter is bound for Jeremy Heartweaver. He has left the orphanage for a new home with Avette Fellwood in Duskwood.",
+ "summary": "In Stormwind, a blood-stained letter is bound for Jeremy Heartweaver, now living with his adoptive mother, Avette Fellwood, in Duskwood.",
  "sections": [
   {
    "title": "A Message for an Orphan",
-   "body": "Children at the Stormwind Orphanage have lost their families to war, hardship, and the chaos gripping the kingdom. Jeremy Heartweaver was one of them until Avette Fellwood adopted him. She took him to live in Duskwood, where the woods are gloomy and life brings peril and hard labor. The orphanage caretakers believed a home with a family offered him more than remaining in the city.",
+   "body": "War, hardship, and the kingdom's turmoil have left many children at the Stormwind Orphanage without families. Jeremy Heartweaver was among them until Avette Fellwood adopted him and brought him to live in Duskwood. There, gloomy woods bring peril and hard labor. The caretakers believed a family could offer him more than life in the city orphanage.",
    "spoiler": 0
   },
   {
    "title": "A Grim Token",
-   "body": "A Blood-Stained Letter is meant for Jeremy, in Avette Fellwood's care. The trail leads south past Elwynn Forest's safety and into Duskwood's shadow. What tragedy followed Jeremy beyond Stormwind's gates, and why does the letter bear such a grim mark?",
+   "body": "The Blood-Stained Letter is meant for Jeremy Heartweaver, who is in Avette Fellwood's care. Its trail leads south past Elwynn Forest and into Duskwood. What tragedy followed Jeremy beyond Stormwind's gates, and why does the letter bear such a grim mark?",
    "spoiler": 1
   }
  ],
@@ -33,7 +33,7 @@
     "who is jeremy",
     "orphan jeremy"
    ],
-   "answer": "Jeremy Heartweaver is a young boy who was raised at the Stormwind Orphanage. Avette Fellwood recently adopted him, and he now lives and works in Duskwood."
+   "answer": "Jeremy Heartweaver is a young boy raised at the Stormwind Orphanage. Avette Fellwood recently adopted him, and he now lives and works in Duskwood."
   },
   {
    "q": "Who is Avette Fellwood?",
@@ -51,7 +51,7 @@
     "the letter",
     "what is the letter"
    ],
-   "answer": "The Blood-Stained Letter is meant for Jeremy Heartweaver and goes into the hands of his adoptive guardian, Avette Fellwood. It carries echoes of violence or tragedy."
+   "answer": "The Blood-Stained Letter is meant for Jeremy Heartweaver and goes to his adoptive guardian, Avette Fellwood. It carries echoes of violence or tragedy."
   },
   {
    "q": "Where do I find Avette Fellwood?",
@@ -106,5 +106,5 @@
  "attribution": [
   "In-game quest text: Remember That I Love You"
  ],
- "style": 1
+ "style": 2
 }

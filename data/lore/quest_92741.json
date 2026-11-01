@@ -14,11 +14,11 @@
  "angles": [
   {
    "target": "class:Hunter",
-   "text": "Hunters are well-suited to tracking and thinning the overpopulated shrieklings within Shadowgale Forest, stepping into the role of warden and trapper that the High Order openly disdains."
+   "text": "As a hunter, you can track and thin the overpopulated shrieklings in Shadowgale Forest. You take up the work of wardens and trappers, a duty the High Order disdains."
   },
   {
    "target": "class:Druid",
-   "text": "The sudden population explosion and territorial expansion of the shrieklings signals an ecological disturbance in Shadowgale Forest that demands swift intervention to restore natural balance."
+   "text": "As a druid, you can see the shrieklings' sudden growth and spread as a disturbance in Shadowgale Forest. Swift action is needed to restore the forest's natural balance."
   }
  ],
  "faq": [
@@ -28,7 +28,7 @@
     "unwelcome visitors quest giver",
     "where to pick up unwelcome visitors"
    ],
-   "answer": "Unwelcome Visitors is offered by Iaadaria Bitterwind, a researcher affiliated with the High Order stationed in Valanaar. She tasks capable travelers with hunting shrieklings in the nearby wilderness to gather materials for her alchemical studies.",
+   "answer": "Iaadaria Bitterwind gives the request in Valanaar. She is a researcher with the High Order and asks travelers to hunt shrieklings nearby, gathering materials for her alchemical studies.",
    "q": "Who gives the quest Unwelcome Visitors?"
   },
   {
@@ -37,7 +37,7 @@
     "high order shrieklings",
     "iaadaria bitterwind motive"
    ],
-   "answer": "While the High Order generally considers trapping and pest control beneath their station, Iaadaria Bitterwind sees an opportunity for scholarly gain. Shriekling talons possess distinct alchemical properties, allowing the Order to study valuable reagents under the guise of providing community service to the region.",
+   "answer": "The High Order is interested in the shrieklings' talons, which have distinct alchemical properties. Though the Order usually leaves trapping and pest control to others, Iaadaria Bitterwind sees a chance to study valuable reagents while helping protect the region.",
    "q": "What is the High Order's interest in the shrieklings?"
   },
   {
@@ -46,7 +46,7 @@
     "shriekling threat",
     "why are shrieklings a problem"
    ],
-   "answer": "In recent months, the shrieklings residing in Shadowgale Forest have experienced a massive population explosion. As their numbers grew, the beasts began encroaching outside their normal woodland territory, posing a looming hazard to neighboring areas if their spread is not actively curtailed.",
+   "answer": "The shrieklings in Shadowgale Forest have multiplied greatly in recent months. They are moving beyond their usual woodland territory, threatening neighboring areas if their spread continues.",
    "q": "Why must the shriekling population be culled?"
   },
   {
@@ -55,7 +55,7 @@
     "shadowgale forest location",
     "how to get to shadowgale forest"
    ],
-   "answer": "Shadowgale Forest is a treacherous woodland situated near Valanaar. The woods are known to be remarkably dangerous and are ordinarily declared off-limits to standard travelers and inexperienced adventurers due to the violent wildlife harbored within its borders.",
+   "answer": "Shadowgale Forest lies near Valanaar. Its dangerous woods are usually forbidden to ordinary travelers and inexperienced adventurers because of the violent wildlife within.",
    "q": "Where is Shadowgale Forest located?"
   },
   {
@@ -64,7 +64,7 @@
     "shriekling lore",
     "what kind of beasts are shrieklings"
    ],
-   "answer": "Shrieklings are vicious predatory beasts native to Shadowgale Forest. Equipped with sharp, alchemically potent talons, these creatures have multiplied rapidly in recent months, aggressive enough to push past the forest's perimeter and threaten lands beyond their usual habitat.",
+   "answer": "Shrieklings are vicious predatory beasts native to Shadowgale Forest. Their talons have alchemical properties, and in recent months their numbers have grown so greatly that they are pushing beyond the forest's edge.",
    "q": "What are shrieklings?"
   },
   {
@@ -73,7 +73,7 @@
     "what do i need for unwelcome visitors",
     "shriekling talons needed"
    ],
-   "answer": "Adventurers undertaking Unwelcome Visitors must venture into the hazardous depths of Shadowgale Forest, slay the rampant beasts, and recover eight Shriekling Talons. These trophies are delivered directly to Iaadaria Bitterwind in Valanaar to assist her scholarly and alchemical research.",
+   "answer": "Travelers must bring eight Shriekling Talons from Shadowgale Forest to Iaadaria Bitterwind in Valanaar. The talons will aid her scholarly and alchemical research.",
    "q": "What items are required to complete Unwelcome Visitors?"
   },
   {
@@ -82,7 +82,7 @@
     "shadowgale forest danger",
     "can anyone enter shadowgale forest"
    ],
-   "answer": "Shadowgale Forest is considered exceptionally hazardous and is officially off-limits to regular adventurers due to its lethal wildlife and treacherous environment. Only individuals prepared for severe danger, such as those contracted to cull the aggressive shriekling infestation, dare enter the woods.",
+   "answer": "Shadowgale Forest is forbidden to ordinary adventurers because its wildlife is deadly and the woods are treacherous. Those who enter, including travelers asked to cull the shrieklings, must be ready for severe danger.",
    "q": "Why is Shadowgale Forest off-limits to normal adventurers?"
   }
  ],
@@ -101,18 +101,19 @@
  ],
  "sections": [
   {
-   "body": "Shadowgale Forest has long held a reputation as a perilous realm off-limits to ordinary adventurers. Recently, however, that boundary has begun to fray. An unprecedented population boom among the forest's native shrieklings has pushed the creatures toward the perimeter, threatening to expand their hunting grounds beyond the canopy. Left unchecked, the predatory beasts risk encroaching upon settled lands and travel routes, turning a secluded menace into an active threat for the surrounding region.",
+   "body": "Shadowgale Forest is a dangerous woodland that ordinary adventurers are forbidden to enter. Now its shrieklings have multiplied in numbers never seen before. They are pressing toward the forest's edge and extending their hunting grounds beyond the canopy. If they keep spreading, settled lands and travel routes will face a growing danger.",
    "spoiler": 0,
    "title": "The Shriekling Surge"
   },
   {
-   "body": "In Valanaar, Iaadaria Bitterwind of the High Order recognizes both the danger and the scientific opportunity posed by the infestation. While the High Order typically refrains from mundane pest control or acting as simple trappers, the unique alchemical properties inherent to shriekling talons make an exception worthwhile. By contracting seasoned adventurers to venture into Shadowgale Forest and secure eight talons, the Order manages to provide essential community protection while acquiring rare biological reagents for their scholarly pursuits.",
+   "body": "In Valanaar, Iaadaria Bitterwind of the High Order sees both danger and opportunity in the shrieklings' growing numbers. The Order usually leaves pest control and trapping to others. Yet shriekling talons have rare alchemical properties, making an exception worthwhile. Travelers are asked to enter Shadowgale Forest and bring back eight talons. The High Order can then help protect the region and study the reagents.",
    "spoiler": 0,
    "title": "Scholarly Culling"
   }
  ],
- "summary": "Unwelcome Visitors is a quest in Valanaar given by Iaadaria Bitterwind on behalf of the High Order. A sudden surge in the shriekling population within the hazardous Shadowgale Forest threatens to spill into surrounding territories. Adventurers are tasked with entering the restricted woods to cull the beasts and harvest their talons for scholarly and alchemical research.",
+ "summary": "In Shadowgale Forest, shrieklings are pressing toward the woods' edge. Iaadaria Bitterwind in Valanaar asks travelers to gather their talons for the High Order.",
  "attribution": [
   "In-game quest text: Unwelcome Visitors"
- ]
+ ],
+ "style": 2
 }

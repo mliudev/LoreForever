@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Bulwark"
  },
- "summary": "The Bulwark is a fortified outpost straddling the border between Tirisfal Glades and the Western Plaguelands. Maintained jointly by the Forsaken and the neutral Argent Dawn, it serves as the Horde's front line against the Scourge and the primary launching point for expeditions into the tainted east.",
+ "summary": "At Tirisfal's edge, Bulwark keeps watch over the Western Plaguelands. Forsaken and Argent Dawn forces hold the outpost together, and Horde expeditions set out from there into the tainted east.",
  "sections": [
   {
    "title": "A Shield Against the Scourge",
-   "body": "Positioned squarely on the eastern border of Tirisfal Glades, the Bulwark is the final barrier protecting the Forsaken heartland from the blighted horrors of the Western Plaguelands. Today, rough wooden palisades and heavily armed guards defend the pass against roaming undead. It represents an uneasy but necessary collaboration, where Forsaken forces coordinate alongside the Argent Dawn to recruit seasoned champions of the Horde, turning back the minions of the Lich King before they spill into Tirisfal.",
+   "body": "Forsaken guards hold Bulwark's palisade where Tirisfal Glades meets the Western Plaguelands. The outpost bars the road from blighted lands where the undead roam. Here, Forsaken forces work with the neutral Argent Dawn. Together, they call on seasoned Horde champions to strike at the Scourge and keep the Lich King's minions from reaching Tirisfal.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "purpose of bulwark",
     "what is this place"
    ],
-   "answer": "The Bulwark serves as the Horde's first defensive garrison and staging ground against the Scourge. It protects Tirisfal Glades and the Undercity from incursions pouring out of the Western Plaguelands while housing Argent Dawn and Forsaken commanders who coordinate attacks into the blighted territory."
+   "answer": "Bulwark is the Horde's forward defense against the Scourge and a base for its forces. It guards Tirisfal Glades and the Undercity from attacks out of the Western Plaguelands. Argent Dawn and Forsaken commanders coordinate strikes into the blighted lands."
   },
   {
    "q": "Can Alliance characters visit the Bulwark to speak with the Argent Dawn?",
@@ -32,7 +32,7 @@
     "alliance at bulwark",
     "is bulwark horde only"
    ],
-   "answer": "No. Although the Argent Dawn representatives stationed there are neutral, the encampment is heavily garrisoned by Forsaken guards. Any Alliance member who steps within the palisades will be attacked on sight."
+   "answer": "No. The Argent Dawn representatives at Bulwark are neutral, but Forsaken guards garrison the encampment. Alliance visitors who enter the palisade are attacked on sight."
   },
   {
    "q": "Is the Bulwark safe for young adventurers leaving Tirisfal?",
@@ -40,17 +40,17 @@
     "can low levels go past bulwark",
     "entering plaguelands low level"
    ],
-   "answer": "No. While the gate directly borders Tirisfal Glades, the Western Plaguelands beyond are filled with lethal, high-level undead and plague cauldrons. Novice travelers who wander past the palisade will face swift death."
+   "answer": "No. The gate opens onto Tirisfal Glades, but the Western Plaguelands beyond hold deadly undead and plague cauldrons. Novice travelers who pass the palisade face swift death."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "For the Forsaken, the Bulwark is the critical choke point that keeps the Lich King's armies from marching directly onto Brill and the Undercity."
+   "text": "As Forsaken, you stand watch at Bulwark's narrow passage against the Lich King's armies. They must not march straight on Brill and the Undercity."
   },
   {
    "target": "faction:Horde",
-   "text": "The Bulwark acts as the Horde counterpart to the Alliance's Chillwind Camp, serving as the main entry gate and base of operations for operations across the Plaguelands."
+   "text": "As Horde, you have Bulwark as your main gate and base for operations across the Plaguelands. The Alliance holds Chillwind Camp opposite."
   }
  ],
  "keywords": [
@@ -74,5 +74,6 @@
  ],
  "attribution": [
   "Bulwark"
- ]
+ ],
+ "style": 2
 }

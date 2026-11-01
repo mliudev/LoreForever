@@ -8,16 +8,16 @@
   "wiki": "Farmer Furlbrow",
   "refs": 2
  },
- "summary": "Near the Jansen Stead, Farmer Furlbrow and his wife are stranded beside their broken wagon. Driven from their northern Westfall farm by the Defias Brotherhood, they hope to reach Elwynn Forest.",
+ "summary": "Near the Jansen Stead, Farmer Furlbrow and his wife, Verna, are stranded beside their broken wagon. Driven from their northern Westfall farm by the Defias Brotherhood, they hope to reach Elwynn Forest.",
  "sections": [
   {
    "title": "A Life Packed on a Wagon",
-   "body": "Theodore Furlbrow left his pumpkin patch in northern Westfall with his wife, Verna, as criminals drove them from their home. They salvaged what they could and set out for Elwynn Forest, urging neighbors such as Farmer Saldean to leave too. Near the Jansen Stead, their wagon broke down, leaving them exposed to bandits and wild beasts. Verna tends to their horse, Old Blanchy, while Theodore keeps watch over the road. He hopes to recover the pocket watch Verna's father gave him on their wedding day and warn Sentinel Hill about the approaching bandits.",
+   "body": "The Furlbrows salvaged what they could and set out for Elwynn Forest. Theodore urged neighbors like Farmer Saldean to leave as well. Now bandits and wild beasts threaten them on the road.\n\nVerna tends their horse, Old Blanchy, while Theodore keeps watch. He hopes to recover the pocket watch Verna's father gave him on their wedding day. He also wants to warn Sentinel Hill about the approaching bandits.",
    "spoiler": 0
   },
   {
    "title": "Evidence of Land Seizure",
-   "body": "Before the Furlbrows fled, Defias thugs pressured Theodore and took the deed to his farmland, which Verna had cosigned. They thought it would help them forge deeds of their own. The deed can be recovered from the bandits and returned to Theodore. If Westfall becomes fit for honest folk again, it could help the Furlbrows reclaim their land.",
+   "body": "Before the Furlbrows fled, Defias thugs pressured Theodore and took the deed to his farmland, which Verna had cosigned. They believed it could help them forge deeds of their own. The bandits still hold it.\n\nYou can recover the deed and return it to Theodore. If Westfall becomes fit for honest folk again, the deed could help the Furlbrows reclaim their land.",
    "spoiler": 1
   }
  ],
@@ -29,7 +29,7 @@
     "theodore furlbrow",
     "who is furlbrow"
    ],
-   "answer": "Theodore Furlbrow fled his pumpkin farm in northern Westfall with his wife, Verna, after the Defias Brotherhood drove them from their home. They are now stranded beside their broken wagon near the Jansen Stead."
+   "answer": "Driven from their northern Westfall pumpkin farm by the Defias Brotherhood, Theodore Furlbrow and his wife, Verna, fled together. They are stranded beside their broken wagon near the Jansen Stead."
   },
   {
    "q": "Why is Farmer Furlbrow stranded on the road?",
@@ -47,7 +47,7 @@
     "furlbrow watch",
     "pocket watch"
    ],
-   "answer": "Theodore lost the pocket watch Verna's father gave him on their wedding day when they fled their farm. He hopes to get it back."
+   "answer": "Theodore lost the pocket watch Verna's father gave him on their wedding day as they fled their farm. He hopes to recover it."
   },
   {
    "q": "Does Farmer Furlbrow have any family outside Westfall?",
@@ -89,5 +89,5 @@
  "attribution": [
   "Farmer Furlbrow"
  ],
- "style": 1
+ "style": 2
 }

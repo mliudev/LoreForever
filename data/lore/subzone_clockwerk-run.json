@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Clockwerk Run"
  },
- "summary": "In Gnomeregan, Clockwerk Run lies between the Train Depot and the Hall of Gears. Toxic fallout and irradiated troggs fill the route into the fallen city.",
+ "summary": "In Gnomeregan, toxic fumes and irradiated troggs choke Clockwerk Run between the Train Depot and the Hall of Gears.",
  "sections": [
   {
    "title": "A Ruined Threshold",
-   "body": "Clockwerk Run runs from the outer Train Depot into Gnomeregan. Once, gnomish traffic and supplies moved through this corridor. High Tinker Mekkatorque ordered radioactive waste vented to stop the trogg invasion, turning the passage into a deadly trap. The blast and the fighting that followed brought parts of the hallway down. Toxic fumes and irradiated troggs now block the way to the upper Hall of Gears.",
+   "body": "Clockwerk Run carries you from the outer Train Depot into Gnomeregan. Once, gnomish traffic and supplies passed through this corridor. Then High Tinker Mekkatorque ordered radioactive waste vented to stop the trogg invasion. The waste turned the passage into a deadly trap.\n\nThe blast and the fighting that followed brought parts of the hallway down. Toxic fumes and irradiated troggs now block the way to the upper Hall of Gears.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "why troggs",
     "clockwerk run enemies"
    ],
-   "answer": "Troggs surged through Gnomeregan's lower passages during the invasion. Those in Clockwerk Run absorbed vented radioactive waste, became violent irradiated troggs, and attack anyone entering the city."
+   "answer": "Troggs surged through Gnomeregan's lower passages during the invasion. In Clockwerk Run, vented radioactive waste made them violent and irradiated, and they attack anyone entering the city."
   },
   {
    "q": "Why is the corridor partially caved in?",
@@ -49,7 +49,7 @@
   },
   {
    "target": "profession:Engineering",
-   "text": "As an engineer, the ruined machinery and collapsed structures along Clockwerk Run show the damage explosive force and radiation can do to gnomish mechanisms."
+   "text": "As an engineer, the ruined machinery and collapsed structures along Clockwerk Run show what explosive force and radiation can do to gnomish mechanisms."
   }
  ],
  "keywords": [
@@ -70,5 +70,5 @@
  "attribution": [
   "Clockwerk Run"
  ],
- "style": 1
+ "style": 2
 }

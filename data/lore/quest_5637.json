@@ -17,16 +17,16 @@
   "wiki": "Desperate Prayer (Kharanos)",
   "chain": []
  },
- "summary": "In Stormwind, dwarven priests are called to deepen their service to the Light. High Priestess Laurena summons promising acolytes from Dun Morogh to the Cathedral of Light. There they take on wider duties among the Alliance.",
+ "summary": "In Stormwind, High Priestess Laurena calls promising dwarven acolytes to the Cathedral of Light. There they deepen their service to the Light and take on wider duties among the Alliance.",
  "sections": [
   {
    "title": "A Summons to the Cathedral",
-   "body": "Dwarven priests trained in Dun Morogh can outgrow the lessons of local mentors like Maxan Anvol in Kharanos. When an acolyte shows promise, High Priestess Laurena sends a formal summons from the Cathedral of Light. Her attention means the young priest is ready for deeper study and greater duties in the faith.",
+   "body": "Dwarven priests trained in Dun Morogh may outgrow the lessons of local mentors like Maxan Anvol in Kharanos. When an acolyte shows promise, High Priestess Laurena sends a formal summons from the Cathedral of Light. Her attention means the young priest is ready for deeper study and greater duties in the faith.",
    "spoiler": 0
   },
   {
    "title": "Bonds Across Kingdoms",
-   "body": "Ironforge keeps its own holy traditions in the Mystic Ward, while Stormwind's Church of the Holy Light welcomes humans and dwarves alike. The journey south by Deeprun Tram brings dwarven acolytes into the wider church community and strengthens the spiritual bond between the allied kingdoms.",
+   "body": "Ironforge keeps its holy traditions in the Mystic Ward, while Stormwind's Church of the Holy Light welcomes humans and dwarves alike. Traveling south by Deeprun Tram brings dwarven acolytes into the wider church community. The journey strengthens the spiritual bond between the allied kingdoms.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "why go to stormwind priest",
     "who is high priestess laurena"
    ],
-   "answer": "High Priestess Laurena calls promising acolytes to continue their religious instruction at the Cathedral of Light. Local tutors such as Maxan Anvol send them when they have mastered the basic tenets, so they can learn advanced techniques like Desperate Prayer."
+   "answer": "High Priestess Laurena calls promising acolytes to continue their religious instruction at the Cathedral of Light. Local tutors such as Maxan Anvol send them once they have mastered the basic tenets, so they can learn advanced techniques like Desperate Prayer."
   },
   {
    "q": "What is Desperate Prayer in the lore?",
@@ -120,5 +120,5 @@
  "attribution": [
   "Desperate Prayer (Kharanos)"
  ],
- "style": 1
+ "style": 2
 }

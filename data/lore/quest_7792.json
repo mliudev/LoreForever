@@ -11,11 +11,11 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "Darnassus is accepting wool cloth donations to support its stores. Your contribution earns recognition for your generosity.",
+ "summary": "In Darnassus, wool cloth is gathered to support the city's stores. Your sixty pieces earn recognition for your generosity.",
  "sections": [
   {
    "title": "Wool Stores",
-   "body": "Darnassus is accepting donations of wool cloth. The city needs sixty pieces from you, and expects to gather the rest of its stores from others across the realm. Your donation brings full recognition for your generosity.",
+   "body": "Darnassus needs sixty pieces of wool cloth from you. Others across the realm are expected to provide the rest of its stores. Your donation earns full recognition for your generosity.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "wool donation",
     "what cloth does Darnassus want"
    ],
-   "answer": "Darnassus is accepting donations of wool cloth."
+   "answer": "Darnassus needs wool cloth to support its stores."
   },
   {
    "q": "How much wool do I need to donate?",
@@ -34,7 +34,7 @@
     "how many wool",
     "sixty wool"
    ],
-   "answer": "The donation is sixty pieces of wool cloth."
+   "answer": "You need to donate sixty pieces of wool cloth."
   },
   {
    "q": "Why is Darnassus collecting wool?",
@@ -50,7 +50,7 @@
     "wool donation recognition",
     "donate wool reward"
    ],
-   "answer": "A donation of sixty pieces of wool cloth earns full recognition from Darnassus for your generosity."
+   "answer": "Your donation of sixty pieces earns full recognition from Darnassus for your generosity."
   }
  ],
  "angles": [],
@@ -65,7 +65,7 @@
  "related": [
   "zone:darnassus"
  ],
- "style": 1,
+ "style": 2,
  "attribution": [
   "In-game quest text: A Donation of Wool"
  ]

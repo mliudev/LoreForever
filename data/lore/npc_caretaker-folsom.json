@@ -8,16 +8,16 @@
   "wiki": "Caretaker Folsom",
   "refs": 2
  },
- "summary": "Along Stormwind’s Canals near the Park, Caretaker Folsom tends the remains of a noble household. He once oversaw the Flintridge estate; now he sells what survived its bloody end.",
+ "summary": "Along Stormwind’s Canals near the Park, Caretaker Folsom watches over a noble household’s remains. He once served the Flintridge estate, and now sells what survived its bloody end.",
  "sections": [
   {
    "title": "A House in Ruins",
-   "body": "Folsom followed his father into a life of service as caretaker of the Flintridge estate. That life ended with the massacre of the household. The manor stood abandoned, and its remaining funds eventually ran out. Left to watch over what remained, Folsom now sends the family's surviving heirlooms and possessions to auction.",
+   "body": "Folsom followed his father into service at the Flintridge estate. The household was massacred, and the manor stood abandoned. Its remaining funds eventually ran out. Left to watch over what remained, Folsom now sends the family's surviving heirlooms and possessions to auction.",
    "spoiler": 0
   },
   {
    "title": "Ties to a Dark Tale",
-   "body": "Investigators following the bloody history of Stalvan Mistmantle are often sent to Folsom along Stormwind's canal walkways. Grief weighs on him, and he is reluctant to speak. He holds surviving Flintridge possessions and documents that reveal Stalvan's disturbing descent and his eventual disappearance into the shadows of Duskwood.",
+   "body": "Investigators tracing Stalvan Mistmantle's bloody history are often sent to Folsom along Stormwind's canal walkways. Grief weighs on him, and he is reluctant to speak. He holds surviving Flintridge possessions and documents that reveal Stalvan's disturbing descent and eventual disappearance into the shadows of Duskwood.",
    "spoiler": 1
   }
  ],
@@ -29,7 +29,7 @@
     "who is folsom",
     "caretaker folsom lore"
    ],
-   "answer": "Caretaker Folsom serves in Stormwind City and once tended the Flintridge family estate. After the massacre that killed the entire family, he was left in charge of their remaining property."
+   "answer": "Caretaker Folsom tends to the remains of the Flintridge estate in Stormwind City. After the massacre that killed the entire family, he was left in charge of their remaining property."
   },
   {
    "q": "Where can I find Caretaker Folsom?",
@@ -64,7 +64,7 @@
     "stalvan quest folsom",
     "the legend of stalvan folsom"
    ],
-   "answer": "Folsom helps those piecing together Stalvan Mistmantle's tragedy by sharing the surviving personal effects and clues from the Flintridge manor."
+   "answer": "Folsom helps those piecing together Stalvan Mistmantle's tragedy by sharing surviving personal effects and clues from the Flintridge manor."
   }
  ],
  "angles": [
@@ -93,5 +93,5 @@
  "attribution": [
   "Caretaker Folsom"
  ],
- "style": 1
+ "style": 2
 }

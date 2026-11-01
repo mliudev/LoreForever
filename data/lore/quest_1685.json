@@ -21,16 +21,16 @@
    "The Binding (Voidwalker, Stormwind)"
   ]
  },
- "summary": "A summons delivered to promising Alliance warlocks by Remen Marcot on behalf of Gakin the Darkbinder. It directs fledgling practitioners down into the crypts beneath the Slaughtered Lamb in Stormwind's Mage Quarter to begin their next stage of dark occult training.",
+ "summary": "In Stormwind, Gakin's Summons draws promising warlocks beneath the Slaughtered Lamb. Remen Marcot brings Gakin the Darkbinder's message, sending fledgling practitioners to the crypts under the tavern in the Mage Quarter for further occult training.",
  "sections": [
   {
    "title": "A Discrete Message",
-   "body": "Demonology is strictly outlawed across the civilized districts of Stormwind, yet dark arts persist right under the noses of the city guard. When a warlock displays sufficient proficiency with their introductory imps, word quietly travels to senior practitioners. Remen Marcot delivers the message with deliberate discretion, urging initiates to keep the meeting place quiet and head into the shadowy recesses beneath the Mage Quarter.",
+   "body": "Demonology is forbidden in Stormwind's settled districts, yet its practitioners work near the city guard. When a warlock shows skill with introductory imps, word reaches senior warlocks in secret. Remen Marcot carries their message quietly and urges new practitioners to keep the meeting place private as they make their way beneath the Mage Quarter.",
    "spoiler": 0
   },
   {
    "title": "The Crypts of the Slaughtered Lamb",
-   "body": "Behind the modest facade of the Slaughtered Lamb tavern lies a network of damp cellars and hidden catacombs. Here, shielded from prying Kirin Tor mages and the Cathedral's inquisitors, Gakin the Darkbinder oversees the instruction of Stormwind's warlocks. The summons serves as the gateway to commanding a voidwalker, a rite requiring dangerous stolen reagents and perilous summoning circles.",
+   "body": "Cellars and hidden catacombs lie behind the Slaughtered Lamb's modest front. Gakin the Darkbinder teaches Stormwind's warlocks there, beyond the reach of Kirin Tor mages and the Cathedral's inquisitors. Under his guidance, warlocks learn to command a voidwalker. The rite demands dangerous stolen reagents and perilous summoning circles.",
    "spoiler": 0
   }
  ],
@@ -42,7 +42,7 @@
     "what is gakin summons for",
     "voidwalker quest start"
    ],
-   "answer": "Gakin summons budding warlocks once they reach a suitable level of experience. He considers untrained warlocks a liability prone to losing their heads, and aims to instruct them in the complex ritual of binding a voidwalker to their service."
+   "answer": "Gakin summons budding warlocks once they have gained enough experience. He sees the untrained as a danger, liable to lose their heads, and teaches them the complex ritual for binding a voidwalker to their service."
   },
   {
    "q": "Where is Gakin the Darkbinder located?",
@@ -51,7 +51,7 @@
     "gakin location",
     "slaughtered lamb basement"
    ],
-   "answer": "Gakin is hidden in the deep underground crypts beneath the Slaughtered Lamb, a tavern situated in the Mage Quarter of Stormwind."
+   "answer": "Gakin is hidden in deep crypts beneath the Slaughtered Lamb, a tavern in Stormwind's Mage Quarter."
   },
   {
    "q": "Who is Remen Marcot?",
@@ -59,7 +59,7 @@
     "remen marcot",
     "who starts gakin summons"
    ],
-   "answer": "Remen Marcot is an associate of Stormwind's warlock coven who keeps to the cellar of the Lion's Pride Inn in Goldshire, tracking down promising candidates to quietly direct them to Gakin's hidden enclave."
+   "answer": "Remen Marcot is an associate of Stormwind's warlock coven. He stays in the cellar of the Lion's Pride Inn in Goldshire, seeking promising candidates and quietly guiding them to Gakin's hidden enclave."
   },
   {
    "q": "Why must the location be kept secret?",
@@ -67,7 +67,7 @@
     "why secret",
     "warlock secrecy stormwind"
    ],
-   "answer": "Fel magic and demon summoning are forbidden in the Kingdom of Stormwind. Discovery by the Silver Hand, the Cathedral of Light, or the city guards would result in imprisonment or execution."
+   "answer": "Fel magic and demon summoning are forbidden in the Kingdom of Stormwind. The Silver Hand, the Cathedral of Light, or the city guards could discover the coven, bringing imprisonment or execution."
   },
   {
    "q": "What comes after answering Gakin's summons?",
@@ -75,7 +75,7 @@
     "next quest after gakins summons",
     "what happens next"
    ],
-   "answer": "After reporting to Gakin, he tasks the warlock with venturing to the Brackwell Pumpkin Patch in Elwynn Forest to recover a bloodstone choker from Surena Caledon, an essential component for the voidwalker binding ritual."
+   "answer": "After you report to Gakin, he sends you to the Brackwell Pumpkin Patch in Elwynn Forest. There, you are to recover a bloodstone choker from Surena Caledon, essential to the voidwalker binding ritual."
   },
   {
    "q": "Can non-warlocks receive this summons?",
@@ -83,17 +83,17 @@
     "can mages get this",
     "who can do gakins summons"
    ],
-   "answer": "No. The summons is strictly restricted to warlocks who have mastered their basic imp companion and require advanced occult instruction."
+   "answer": "No. Only warlocks who have mastered their basic imp companion receive the summons and advanced occult instruction."
   }
  ],
  "angles": [
   {
    "target": "class:Warlock",
-   "text": "This summons marks your progression beyond parlor tricks and minor imps, initiating the trials necessary to enslave a voidwalker to shield you in battle."
+   "text": "As a warlock, you are moving beyond parlor tricks and minor imps. The trials ahead prepare you to enslave a voidwalker to shield you in battle."
   },
   {
    "target": "faction:Alliance",
-   "text": "Even within the heart of Stormwind, the Alliance tolerates a subterranean cabal of shadow-weavers whose fel expertise provides a shadowy edge against their enemies."
+   "text": "As an Alliance member, you know Stormwind tolerates a hidden cabal of shadow-weavers. Their fel expertise gives the Alliance an edge against its enemies."
   }
  ],
  "keywords": [
@@ -117,5 +117,6 @@
  ],
  "attribution": [
   "Gakin's Summons (Voidwalker)"
- ]
+ ],
+ "style": 2
 }

@@ -24,12 +24,12 @@
  "sections": [
   {
    "title": "A Veteran's Armory",
-   "body": "Stormwind's novice warriors need more than skill to face danger beyond the city. Harry Burlguard sends promising fighters east through Elwynn Forest to find Marshal Haggard, a retired officer who served the realm for years. Haggard gathered a personal armory over a lifetime in the field, and his home near the Eastvale Logging Camp holds weapons for young warriors seeking better arms.",
+   "body": "Stormwind's novice warriors need more than skill to face danger beyond the city. Harry Burlguard sends promising fighters east through Elwynn Forest to meet Marshal Haggard, a retired officer who served the realm for years. Over a lifetime in the field, Haggard gathered a personal armory. His home near the Eastvale Logging Camp holds weapons for young warriors seeking better arms.",
    "spoiler": 0
   },
   {
    "title": "Retirement at Eastvale",
-   "body": "Marshal Haggard lives in a secluded manor near the Eastvale Logging Camp. Years of service have weakened his failing sight, and he sometimes mistakes approaching travelers for prowling riverpaw gnolls. Though age keeps him in this quiet corner of eastern Elwynn, Stormwind's guards and trainers still respect the old marshal.",
+   "body": "Marshal Haggard lives in a secluded manor near the Eastvale Logging Camp. Years of service have weakened his sight, and he sometimes mistakes approaching travelers for prowling riverpaw gnolls. Age keeps him in this quiet corner of eastern Elwynn. Even so, Stormwind's guards and trainers still respect the old marshal.",
    "spoiler": 0
   }
  ],
@@ -114,5 +114,5 @@
  "attribution": [
   "Marshal Haggard (quest)"
  ],
- "style": 1
+ "style": 2
 }

@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "The Loch"
  },
- "summary": "The Loch’s waters are held back by the Stonewrought Dam in Loch Modan. The lake is the largest body of water on Khaz Modan and sustains the surrounding dwarven settlements.",
+ "summary": "The Loch's waters fill the heart of Loch Modan, held back by the Stonewrought Dam. The lake is Khaz Modan's largest body of water and sustains the dwarven settlements around it.",
  "sections": [
   {
    "title": "Heart of the Valley",
-   "body": "The Loch spans the center of Loch Modan, among the largest inland lakes in the known world. Only Lordamere Lake and Darrowmere Lake in the north rival its size. Its waters support local fishermen and give Thelsamar and nearby hunting lodges a peaceful setting. Aggressive threshadons and freshwater beasts prowl beneath the calm surface, making a swim across perilous.",
+   "body": "At the center of Loch Modan, The Loch spreads among the largest inland lakes in the known world. Only Lordamere Lake and Darrowmere Lake to the north rival its size. Local fishermen draw from its waters, while Thelsamar and nearby hunting lodges enjoy a peaceful setting along its shores. Beneath the calm surface, aggressive threshadons and freshwater beasts make swimming across perilous.",
    "spoiler": 0
   },
   {
    "title": "The Stonewrought Barrier",
-   "body": "The Stonewrought Dam keeps The Loch in its tranquil state. This massive dwarven structure crosses the mountain cleft to the north and prevents the lake from flooding into the Wetlands below. Maintaining it is essential to preserving the valley’s ecosystem and keeping Khaz Modan secure.",
+   "body": "To the north, the Stonewrought Dam keeps The Loch in its tranquil state. The massive dwarven structure crosses a cleft in the mountains and prevents the lake from flooding into the Wetlands below. Its upkeep preserves the valley's ecosystem and helps keep Khaz Modan secure.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "what is the loch lake",
     "loch modan lake"
    ],
-   "answer": "The Loch fills the center of the Loch Modan valley in Khaz Modan. It is a massive mountain lake, one of the largest freshwater bodies in the world, and shapes local dwarven life and the valley’s geography."
+   "answer": "The Loch fills the center of the Loch Modan valley in Khaz Modan. This vast mountain lake is one of the world's largest freshwater bodies and shapes local dwarven life and the valley's geography."
   },
   {
    "q": "How does the lake stay full?",
@@ -37,7 +37,7 @@
     "what holds the loch back",
     "stonewrought dam purpose"
    ],
-   "answer": "The Stonewrought Dam contains the lake to the north. The towering dwarven construction holds back countless gallons of water that would otherwise spill through the mountain pass into the low-lying Wetlands."
+   "answer": "The Stonewrought Dam contains The Loch to the north. The towering dwarven structure holds back the water that would otherwise spill through the mountain pass into the low-lying Wetlands."
   },
   {
    "q": "Is it safe to swim in The Loch?",
@@ -46,7 +46,7 @@
     "swimming the loch",
     "creatures in the loch"
    ],
-   "answer": "Swimming in The Loch can be dangerous. Predatory threshadons and snapping beasts in deeper waters frequently attack unwary travelers who venture far from shore."
+   "answer": "Swimming in The Loch can be dangerous. Predatory threshadons and snapping beasts in deeper waters often attack travelers who venture far from shore."
   },
   {
    "q": "How large is The Loch compared to other lakes?",
@@ -55,17 +55,17 @@
     "the loch size comparison",
     "how big is the loch"
    ],
-   "answer": "The Loch is the largest body of water on Khaz Modan and the third largest known lake in the Eastern Kingdoms. Only Lordamere Lake and Darrowmere Lake in Lordaeron are larger."
+   "answer": "The Loch is Khaz Modan's largest body of water and the third largest known lake in the Eastern Kingdoms. Only Lordamere Lake and Darrowmere Lake in Lordaeron are larger."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "As a dwarf, you can take pride in The Loch, a centerpiece of Ironforge pride. Its waters and the Stonewrought Dam show how dwarven masonry can tame nature and sustain settlements like Thelsamar."
+   "text": "As a dwarf, you can take pride in The Loch, a centerpiece of Ironforge pride. Its waters and the Stonewrought Dam show how dwarven masonry can tame nature and sustain settlements such as Thelsamar."
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance traveler, you can follow The Loch’s tranquil waters, which provide vital freshwater and trade routes between Ironforge’s central valley and the surrounding outposts."
+   "text": "As an Alliance traveler, you can follow The Loch's tranquil waters. They provide vital freshwater and trade routes between Ironforge's central valley and the surrounding outposts."
   }
  ],
  "keywords": [
@@ -87,5 +87,5 @@
  "attribution": [
   "The Loch"
  ],
- "style": 1
+ "style": 2
 }

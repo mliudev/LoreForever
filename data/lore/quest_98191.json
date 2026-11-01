@@ -17,16 +17,16 @@
   "wiki": "A Friend of the Family (2)",
   "chain": []
  },
- "summary": "In Stormwind, A Friend of the Family carries a rare likeness of King Terenas to the Cathedral of Light. Highlord Bolvar Fordragon entrusts the Menethil Statuette to an adventurer for Lord Grayson Shadowbreaker, who will keep it safe.",
+ "summary": "Highlord Bolvar Fordragon sends a rare likeness of King Terenas to the Cathedral of Light. Lord Grayson Shadowbreaker will keep the Menethil Statuette safe.",
  "sections": [
   {
    "title": "A Rare Remembrance",
-   "body": "King Terenas Menethil II helped shape the Grand Alliance during the Second War and lived with deep personal devotion. Though he held great standing among humanity's kingdoms, he was humble and disliked monuments made in his honor. Few likenesses were commissioned, and fewer survived Lordaeron's ruin and the Scourge's devastation.",
+   "body": "King Terenas Menethil II helped shape the Grand Alliance during the Second War. He lived with deep personal devotion, yet held great standing among humanity's kingdoms. Humble by nature, he disliked monuments made in his honor. Few likenesses were commissioned, and fewer survived Lordaeron's ruin and the Scourge's devastation.",
    "spoiler": 0
   },
   {
    "title": "Touched by Grace",
-   "body": "Highlord Bolvar Fordragon sees more than fine carving in the surviving Menethil Statuette. The Holy Light has begun to gather within it, giving the figure a quiet spiritual presence. Bolvar decides Stormwind Keep is no place for such a sacred piece. He sends it across the city to the Cathedral of Light, into the care of Lord Grayson Shadowbreaker, who trains paladins.",
+   "body": "Highlord Bolvar Fordragon sees more than fine carving in the surviving Menethil Statuette. The Holy Light has begun to gather within it, lending the figure a quiet spiritual presence. Bolvar decides Stormwind Keep is no place for so sacred a piece. He sends it across the city to the Cathedral of Light, into the care of Lord Grayson Shadowbreaker, who trains paladins.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who is terenas",
     "king of lordaeron"
    ],
-   "answer": "King Terenas Menethil II ruled the Kingdom of Lordaeron and was beloved by its people. During the Second War, he brought the human kingdoms together with the dwarves, gnomes, and high elves to form the Grand Alliance, which defeated the Orcish Horde. He was slain when his realm fell."
+   "answer": "King Terenas Menethil II ruled the Kingdom of Lordaeron, where his people loved him. During the Second War, he united the human kingdoms with the dwarves, gnomes, and high elves to form the Grand Alliance. Together they defeated the Orcish Horde. Terenas was slain when his realm fell."
   },
   {
    "q": "Why are statues of King Terenas so rare?",
@@ -72,7 +72,7 @@
     "why send to cathedral",
     "why not keep in stormwind keep"
    ],
-   "answer": "Bolvar honors Terenas as the father of the Alliance and believes the statuette belongs in the Cathedral of Light. It has gathered holy power, and he entrusts it to the holy orders rather than keeping it among the court officials in Stormwind Keep."
+   "answer": "Bolvar honors Terenas as the father of the Alliance and believes the statuette belongs in the Cathedral of Light. Since it has gathered holy power, he entrusts it to the holy orders instead of keeping it among the court officials in Stormwind Keep."
   },
   {
    "q": "Where is the Cathedral of Light located?",
@@ -90,7 +90,7 @@
   },
   {
    "target": "class:Priest",
-   "text": "As a priest, you can see how holy power gathered in a simple carved likeness. It speaks to Lordaeron's faithful legacy, even after the kingdom's lands were destroyed."
+   "text": "As a priest, you can see holy power gathered in a simple carved likeness. It speaks to Lordaeron's faithful legacy, even after the kingdom's lands were destroyed."
   },
   {
    "target": "faction:Alliance",
@@ -119,5 +119,5 @@
  "attribution": [
   "A Friend of the Family (2)"
  ],
- "style": 1
+ "style": 2
 }

@@ -17,16 +17,16 @@
   "wiki": "Detonation at a Distance",
   "chain": []
  },
- "summary": "Sprite Jumpsprocket needs a safer way to set off explosives, and Stormwind holds the answer. She sends you to Stormwind Intelligence for a remote detonator.",
+ "summary": "Sprite Jumpsprocket needs a safer way to set off explosives, and sends you to Stormwind Intelligence for a remote detonator.",
  "sections": [
   {
    "title": "A Controlled Blast",
-   "body": "Sprite Jumpsprocket wants to set off explosives from a safe distance. Goblins and gnomes are known for handling volatile chemicals recklessly, but some blasts demand care. A standard fuse can put the person lighting it in danger. Sprite knows a controlled explosion needs a special trigger, the kind common tinkerers do not keep on hand.",
+   "body": "Volatile chemicals are handled recklessly by goblins and gnomes, though some blasts call for care. A standard fuse can put you in danger. Ordinary tinkerers do not keep the special trigger Sprite needs for a controlled explosion.",
    "spoiler": 0
   },
   {
    "title": "Calling Upon the SI:7",
-   "body": "Sprite sends you to Stormwind Intelligence in Old Town instead of to local dwarven blasters or ordinary engineering suppliers. The network is known as SI:7, and its covert agents handle sabotage, stealth, and targeted demolitions. Jasper Fel works among them in the capital and can provide discreet, dangerous equipment.",
+   "body": "Sprite sends you to Stormwind Intelligence in Old Town, rather than to local dwarven blasters or ordinary engineering suppliers. Its agents, known as SI:7, work in sabotage, stealth, and targeted demolitions. Jasper Fel serves among them in the capital and can provide discreet, dangerous equipment.",
    "spoiler": 0
   }
  ],
@@ -47,7 +47,7 @@
     "stormwind intelligence contact",
     "jasper fel location"
    ],
-   "answer": "Sprite directs you to Jasper Fel, an associate of Stormwind Intelligence in Stormwind."
+   "answer": "Sprite sends you to Jasper Fel, an associate of Stormwind Intelligence in Stormwind."
   },
   {
    "q": "Why does Sprite Jumpsprocket need a remote detonator?",
@@ -55,7 +55,7 @@
     "why remote detonator",
     "purpose of detonation"
    ],
-   "answer": "Sprite wants to set off explosives from a distance. Keeping your limbs intact makes a remote trigger more practical than an uncontrolled blast."
+   "answer": "Sprite wants to set off explosives from a distance. A remote trigger is more practical than risking your limbs in an uncontrolled blast."
   },
   {
    "q": "Why contact Stormwind Intelligence rather than an engineer?",
@@ -71,7 +71,7 @@
     "jasper fel stormwind",
     "jasper fel room"
    ],
-   "answer": "Jasper Fel is in Old Town at SI:7 headquarters, where Stormwind's spies and covert agents work."
+   "answer": "Jasper Fel is at SI:7 headquarters in Old Town, where Stormwind's spies and covert agents work."
   },
   {
    "q": "What faction can undertake this task?",
@@ -79,7 +79,7 @@
     "is this alliance only",
     "can horde do this"
    ],
-   "answer": "Only members of the Alliance can undertake this work, because it depends on cooperation with Stormwind's royal intelligence division."
+   "answer": "Only members of the Alliance can undertake this work. It depends on cooperation with Stormwind's royal intelligence division."
   }
  ],
  "angles": [
@@ -89,11 +89,11 @@
   },
   {
    "target": "profession:Engineering",
-   "text": "As an engineer, you can build fuses and dynamite, but military-grade remote triggers often come through contacts who specialize in quiet sabotage."
+   "text": "As an engineer, you can build fuses and dynamite. Military-grade remote triggers often come through contacts who specialize in quiet sabotage."
   },
   {
    "target": "race:Gnome",
-   "text": "As a gnome, you share Sprite Jumpsprocket's interest in engineering problems, though she turns to human intelligence for spycraft munitions."
+   "text": "As a gnome, you share Sprite Jumpsprocket's interest in engineering problems. She turns to human intelligence for spycraft munitions."
   }
  ],
  "keywords": [
@@ -114,5 +114,5 @@
  "attribution": [
   "Detonation at a Distance"
  ],
- "style": 1
+ "style": 2
 }

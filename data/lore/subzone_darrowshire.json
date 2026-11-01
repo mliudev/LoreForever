@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Darrowshire"
  },
- "summary": "Darrowshire is a ruined village in the southern hills of the Eastern Plaguelands, once a peaceful hamlet of Lordaeron. During the Third War, its residents mounted a desperate, tragic stand against an overwhelming Scourge force. Today, only shattered timbers, restless spirits, and bitter memories linger amid the silence.",
+ "summary": "Darrowshire lies in ruins in the southern hills of the Eastern Plaguelands. Once a peaceful hamlet of Lordaeron, it made a desperate stand against the Scourge during the Third War. Shattered timbers, restless spirits, and bitter memories remain.",
  "sections": [
   {
    "title": "A Tragic Stand",
-   "body": "Before the plague consumed northern Lordaeron, Darrowshire was a humble rural settlement nestled beneath the southern cliffs. When the Scourge marched south during the Third War, a force led by the death knight Marduk Blackpool and the ghoul lord Horgus the Ravager besieged the town. The villagers and local defenders fought valiantly, momentarily holding the line against impossible odds. Ultimately, the defense collapsed, and the town was slaughtered down to the last soul. Rather than finding peace in death, many of Darrowshire's fallen defenders were reanimated as ghouls to bolster the Scourge's ranks, leaving the village an eerie, empty memorial of lost valor.",
+   "body": "Darrowshire's villagers fought the Scourge during the Third War. Before plague consumed northern Lordaeron, the humble settlement stood beneath the southern cliffs. Marduk Blackpool, a death knight, and Horgus the Ravager, a ghoul lord, led the besieging force.\n\nThe villagers and local defenders held the line for a time, though the odds were impossible. Then their defense broke, and the Scourge slaughtered the town down to the last soul. Many fallen defenders were raised as ghouls to swell the Scourge's ranks. Darrowshire remains an empty memorial to those who died there.",
    "spoiler": 0
   },
   {
    "title": "Echoes of the Battle",
-   "body": "Though long abandoned by the living, Darrowshire is far from completely empty. The psychic weight of the slaughter clings heavily to the valley, trapping spectral remnants of the townspeople within the ruins. Travelers passing through report strange phenomena, including chilling reenactments where the tragic battle unfolds again in ghostly silence. The ground remains saturated with sorrow, serving as a bleak reminder of what the Scourge tore away from the kingdom.",
+   "body": "Darrowshire's ruins still bear the weight of the slaughter. The living abandoned the village long ago, but spectral remnants of its townspeople remain trapped there. Travelers report strange sights, including ghostly reenactments of the battle unfolding in silence. Sorrow still clings to the ground, a reminder of what the Scourge took from the kingdom.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "why is darrowshire destroyed",
     "what happened here"
    ],
-   "answer": "Darrowshire was destroyed during the Third War when a massive Scourge army assaulted the town. Led by the death knight Marduk Blackpool and the ghoul lord Horgus the Ravager, the undead overwhelmed the town's defenders and slaughtered the inhabitants, leaving the settlement in ruins."
+   "answer": "The Scourge destroyed Darrowshire during the Third War. Marduk Blackpool, a death knight, and Horgus the Ravager, a ghoul lord, led the assault. Their forces overwhelmed the defenders and slaughtered the inhabitants, leaving the village in ruins."
   },
   {
    "q": "Who were the leaders of the Scourge attack on Darrowshire?",
@@ -37,7 +37,7 @@
     "darrowshire villains",
     "horgus and marduk"
    ],
-   "answer": "The assault was led by the death knight Marduk Blackpool alongside Horgus the Ravager, a monstrous ghoul lord. Together, their forces broke the village's defenders and doomed the settlement."
+   "answer": "Marduk Blackpool, a death knight, and Horgus the Ravager, a ghoul lord, led the Scourge assault on Darrowshire. Their forces broke the village's defenders and destroyed the settlement."
   },
   {
    "q": "Why is Darrowshire haunted?",
@@ -45,7 +45,7 @@
     "darrowshire ghosts",
     "why are there spirits in darrowshire"
    ],
-   "answer": "The slaughter was so sudden and horrific that the spirits of the fallen remained bound to the earth. In addition to ghostly apparitions lingering in the ruined buildings, the brutal battle itself is said to periodically replay in spectral form, trapping the dead in their final, tragic moments."
+   "answer": "The slaughter bound the spirits of Darrowshire's fallen to the earth. Ghostly figures linger among the ruins, and the battle itself sometimes plays out again in spectral form, leaving the dead trapped in their final moments."
   },
   {
    "q": "What became of the villagers who died defending the town?",
@@ -53,17 +53,17 @@
     "darrowshire villagers",
     "defenders of darrowshire"
    ],
-   "answer": "Most of the defenders were butchered where they stood, and many of their corpses were reanimated by necromancers into mindless ghouls, forced to serve the very Scourge army that destroyed their homes."
+   "answer": "The Scourge slaughtered Darrowshire's defenders, and many were reanimated as ghouls. They were forced to serve the army that destroyed their homes."
   }
  ],
  "angles": [
   {
    "target": "race:Human",
-   "text": "For humans of the Alliance, Darrowshire is a solemn testament to the sheer devastation inflicted upon Lordaeron, where ordinary folk made a hopeless stand to defend their families."
+   "text": "As a human of the Alliance, Darrowshire recalls the devastation inflicted on Lordaeron and the ordinary folk who made a hopeless stand to defend their families."
   },
   {
    "target": "class:Paladin",
-   "text": "The tragic fate of Darrowshire stands as an enduring call for paladins to bring the purifying Light to the Plaguelands, both to strike down the undead and lay tortured spirits to rest."
+   "text": "As a paladin, you can bring the purifying Light to the Plaguelands, strike down the undead, and lay tortured spirits to rest."
   }
  ],
  "keywords": [
@@ -83,5 +83,6 @@
  ],
  "attribution": [
   "Darrowshire"
- ]
+ ],
+ "style": 2
 }

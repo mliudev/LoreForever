@@ -20,16 +20,16 @@
    "Westfall Stew (Classic 2)"
   ]
  },
- "summary": "In Westfall, another family is leaving its farm as banditry drives homesteaders from their land. Before departing, Verna Furlbrow entrusts her cherished local recipe to Salma Saldean.",
+ "summary": "Westfall homesteaders are driven from their farms by banditry. As the Furlbrows prepare to leave, Verna entrusts her cherished recipe to Salma Saldean.",
  "sections": [
   {
    "title": "A Recipe Passed On",
-   "body": "Defias thieves and wild mechanical harvest reapers have driven Verna and Farmer Furlbrow from their family acreage. They pack their wagon and prepare to seek refuge behind Stormwind's walls. Before leaving, Verna gives her neighbor Salma Saldean the recipe for Westfall Stew, hoping the farm's home-cooked tradition will live on.",
+   "body": "Defias thieves and wild mechanical harvest reapers have driven Verna and Farmer Furlbrow from their family acreage. They pack their wagon and prepare to seek refuge behind Stormwind's walls. Before they go, Verna gives her neighbor Salma Saldean the recipe for Westfall Stew. She hopes the farm's home-cooked tradition will live on.",
    "spoiler": 0
   },
   {
    "title": "Homestead Solidarity",
-   "body": "Salma Saldean and her husband, Farmer Saldean, still hold their homestead just down the road. Verna's recipe marks the loss of another neighbor to the unrest, yet keeps a local farm tradition alive. Salma sets out to gather the ingredients needed to feed those still struggling on the frontier.",
+   "body": "Salma Saldean and her husband, Farmer Saldean, still hold their homestead just down the road. Verna's recipe keeps a local farm tradition alive as another family leaves. Salma sets out to gather ingredients to feed those still struggling on the frontier.",
    "spoiler": 0
   }
  ],
@@ -57,7 +57,7 @@
     "what is westfall stew",
     "westfall stew recipe"
    ],
-   "answer": "Westfall Stew is a traditional regional dish made from ingredients found across the Westfall plains, shared among local farming households."
+   "answer": "Westfall Stew is a traditional regional dish made from ingredients found across the Westfall plains and shared among local farming households."
   },
   {
    "q": "Where are the Furlbrows planning to go?",
@@ -65,7 +65,7 @@
     "where furlbrows going",
     "furlbrow destination"
    ],
-   "answer": "The Furlbrows are heading north to Stormwind City for safety, where Verna's friends believe she will fit right in."
+   "answer": "The Furlbrows are heading north to Stormwind City for safety. Verna's friends believe she will fit right in there."
   },
   {
    "q": "Where is Saldean's Farm located?",
@@ -115,5 +115,5 @@
  "attribution": [
   "Westfall Stew (Classic)"
  ],
- "style": 1
+ "style": 2
 }

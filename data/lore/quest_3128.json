@@ -27,16 +27,16 @@
    "Weapons of Spirit"
   ]
  },
- "summary": "Witch Doctor Uzer'i in Camp Mojache needs materials to complete an endeavor, to be gathered alongside the other trials: splintered logs, encrusted minerals, resilient sinew and metallic fragments, taken from treants, mountain giants, faerie dragons, owlbeasts and hippogryphs.",
+ "summary": "In Camp Mojache, Natural Materials are needed by Witch Doctor Uzer'i for an endeavor. The materials come from treants, mountain giants, faerie dragons, owlbeasts and hippogryphs, alongside the other trials.",
  "sections": [
   {
    "title": "Gathering for the Witch Doctor",
-   "body": "After you return to Witch Doctor Uzer'i, a further list of materials awaits, to be collected alongside the other trials. Two splintered logs are needed from a Feralas treant. Six pieces of encrusted minerals are found on mountain giants and faerie dragons, westward. Twenty pieces of resilient sinew come from owlbeasts in the Hinterlands or hippogryphs in Feralas. A large amount of metallic fragments, forty in all, can come from any of these creatures.",
+   "body": "After you return to Witch Doctor Uzer'i, another list of materials awaits alongside the other trials. Bring two splintered logs from a Feralas treant. Mountain giants and faerie dragons westward carry six pieces of encrusted minerals. Owlbeasts in the Hinterlands or hippogryphs in Feralas provide twenty pieces of resilient sinew. Any of these creatures can yield the forty metallic fragments needed.",
    "spoiler": 0
   },
   {
    "title": "Uzer'i's Verdict",
-   "body": "When the materials are brought back, Uzer'i is pleased. Joined with the muisek, they should yield just the results that have been wanted.",
+   "body": "Witch Doctor Uzer'i is pleased when you bring back the materials. Joined with the muisek, they should bring the results he has wanted.",
    "spoiler": 1
   }
  ],
@@ -48,7 +48,7 @@
     "natural materials quest giver",
     "where to start natural materials"
    ],
-   "answer": "Witch Doctor Uzer'i in Camp Mojache."
+   "answer": "Witch Doctor Uzer'i in Camp Mojache requests them."
   },
   {
    "q": "What creatures hold the splintered logs?",
@@ -57,7 +57,7 @@
     "who drops splintered log",
     "splintered log source"
    ],
-   "answer": "A treant of Feralas; two splintered logs are needed."
+   "answer": "A Feralas treant provides the two splintered logs you need."
   },
   {
    "q": "Where can encrusted minerals be gathered?",
@@ -66,7 +66,7 @@
     "encrusted minerals source",
     "who drops encrusted minerals"
    ],
-   "answer": "Mountain giants and faerie dragons, westward, carry them; six are needed."
+   "answer": "Mountain giants and faerie dragons westward carry the six encrusted minerals you need."
   },
   {
    "q": "Which beasts provide the resilient sinew?",
@@ -75,7 +75,7 @@
     "where to find resilient sinew",
     "who has resilient sinew"
    ],
-   "answer": "The owlbeasts of the Hinterlands, or the hippogryphs of Feralas; twenty pieces are needed."
+   "answer": "Owlbeasts in the Hinterlands or hippogryphs in Feralas provide the twenty pieces of resilient sinew you need."
   },
   {
    "q": "Where do metallic fragments come from?",
@@ -84,7 +84,7 @@
     "how to get metallic fragments",
     "who drops metallic fragments"
    ],
-   "answer": "Forty come from any of the creatures named: treants, mountain giants, faerie dragons, owlbeasts and hippogryphs."
+   "answer": "The forty metallic fragments can come from treants, mountain giants, faerie dragons, owlbeasts or hippogryphs."
   },
   {
    "q": "What came before this request?",
@@ -118,5 +118,6 @@
  ],
  "attribution": [
   "Natural Materials"
- ]
+ ],
+ "style": 2
 }

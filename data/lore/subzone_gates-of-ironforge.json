@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Gates of Ironforge"
  },
- "summary": "Travelers climb from Dun Morogh to the Gates of Ironforge, where a stone king guards the way into the dwarven capital. The gates open in the mountain face, with High King Modimus Anvilmar's statue just inside.",
+ "summary": "From Dun Morogh, travelers climb to the Gates of Ironforge, where a stone king guards the way into the dwarven capital. The gates open in the mountain face, with High King Modimus Anvilmar's statue just inside.",
  "sections": [
   {
    "title": "The Threshold of the Mountain",
-   "body": "The Gates of Ironforge rise above the snowy lowlands at the end of a winding, fortified ramp from central Dun Morogh. Beyond the massive portal, you enter the city proper beneath an enormous stone likeness of High King Modimus Anvilmar. He united the dwarven clans before the War of the Three Hammers. The passage opens directly into the Commons, where Ironforge's trade and banking are centered.",
+   "body": "From central Dun Morogh, you climb a winding, fortified ramp through the snowy lowlands to the Gates of Ironforge. Beyond the great portal stands a stone likeness of High King Modimus Anvilmar. He united the dwarven clans before the War of the Three Hammers. The passage opens into the Commons, where Ironforge's trade and banking are centered.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "where do the gates go",
     "gates of ironforge location"
    ],
-   "answer": "The Gates of Ironforge lead from Dun Morogh into Ironforge. You emerge in the southwestern part of the Commons, the city's trade and banking hub."
+   "answer": "The Gates of Ironforge lead from Dun Morogh into Ironforge. You emerge in the southwestern Commons, the city's center of trade and banking."
   },
   {
    "q": "Who is the statue inside the gates depicting?",
@@ -32,7 +32,7 @@
     "giant dwarf statue",
     "who is the statue at the gate"
    ],
-   "answer": "The statue just inside the entrance depicts High King Modimus Anvilmar. He ruled over all dwarven clans before political rifts divided them into the Bronzebeard, Wildhammer, and Dark Iron factions."
+   "answer": "The statue just inside the entrance depicts High King Modimus Anvilmar. He ruled all dwarven clans before political rifts divided them into the Bronzebeard, Wildhammer, and Dark Iron factions."
   },
   {
    "q": "How do you reach the gates from Dun Morogh?",
@@ -47,11 +47,11 @@
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "Beneath High King Modimus Anvilmar's likeness, you can remember the ancient era when all dwarven clans lived under one mountain as a single kin."
+   "text": "Beneath High King Modimus Anvilmar's likeness, remember the ancient era when all dwarven clans lived beneath one mountain as a single kin."
   },
   {
    "target": "faction:Alliance",
-   "text": "You enter the Gates of Ironforge, one of the Alliance's most fortified strongholds, nearly impossible to besiege from Dun Morogh's frigid valleys."
+   "text": "You enter the Gates of Ironforge, one of the Alliance's most fortified strongholds. From Dun Morogh's frigid valleys, it is nearly impossible to besiege."
   }
  ],
  "keywords": [
@@ -71,5 +71,5 @@
  "attribution": [
   "Gates of Ironforge"
  ],
- "style": 1
+ "style": 2
 }

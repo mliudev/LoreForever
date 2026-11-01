@@ -20,21 +20,21 @@
    "Garments of the Light (Dun Morogh)"
   ]
  },
- "summary": "In Kharanos, a wounded mountaineer needs the Light's aid before a young priest receives their garments. Priest Trainer Maxan Anvol sends the initiate just south of town to help him.",
+ "summary": "At Maxan Anvol’s urging, you go south of Kharanos to help a wounded mountaineer before you receive the Garments of the Light.",
  "sections": [
   {
    "title": "An Urgent Trial",
-   "body": "Maxan Anvol puts a wounded defender's needs before ceremony. Acolytes traditionally face formal trials to prove they are worthy of church vestments, but the priest trainer in Kharanos favors practical results. Local patrols are hard-pressed against troggs and wild beasts, and defenders are bleeding in the snow.",
+   "body": "Maxan Anvol, the priest trainer, asks for practical aid before ceremony. Acolytes usually face formal trials to prove they deserve church vestments. But Mountaineer Dolf is wounded, and he needs help now.",
    "spoiler": 0
   },
   {
    "title": "Aiding the Mountaineers",
-   "body": "Young priests go just south of town to find Mountaineer Dolf, wounded in the line of duty. Restorative prayers mend his injuries, while Power Word: Fortitude bolsters his constitution. The aid helps keep an Ironforge defender alive.",
+   "body": "South of Kharanos, you find Mountaineer Dolf wounded in the line of duty. Restorative prayers mend his injuries. Power Word: Fortitude strengthens him and helps keep an Ironforge defender alive.",
    "spoiler": 0
   },
   {
    "title": "Robes of the Church",
-   "body": "After the mountaineer receives aid, Maxan Anvol presents the acolyte with formal garments. The robes provide warmth against Dun Morogh's chill and mark their wearer as a servant of the Light, ready to aid wounded wanderers and local guards.",
+   "body": "Once Dolf has received aid, Maxan Anvol presents you with formal garments. The robes give warmth against Dun Morogh’s chill and mark you as a servant of the Light. You are ready to aid wounded wanderers and local guards.",
    "spoiler": 0
   }
  ],
@@ -45,7 +45,7 @@
     "what do i do",
     "garments of the light goal"
    ],
-   "answer": "Maxan Anvol tests whether a novice priest can use their early spells to help someone in need. You find the injured Mountaineer Dolf south of Kharanos, heal his wounds, and bolster his resilience with Power Word: Fortitude."
+   "answer": "Maxan Anvol tests whether a novice priest can use early spells to help someone in need. You find the injured Mountaineer Dolf south of Kharanos, heal his wounds, and strengthen him with Power Word: Fortitude."
   },
   {
    "q": "Who is Maxan Anvol?",
@@ -53,7 +53,7 @@
     "who is maxan anvol",
     "kharanos priest trainer"
    ],
-   "answer": "Maxan Anvol is the dwarven priest trainer in Kharanos. He mentors young priests arriving from Coldridge Valley and values the Light's direct, life-saving work over strict formal liturgy."
+   "answer": "Maxan Anvol is the dwarven priest trainer in Kharanos. He mentors young priests arriving from Coldridge Valley and favors the Light’s direct work of saving lives over strict formal liturgy."
   },
   {
    "q": "Who is Mountaineer Dolf?",
@@ -61,7 +61,7 @@
     "dolf location",
     "who is dolf"
    ],
-   "answer": "Dolf is an Ironforge mountaineer stationed near Kharanos who was injured on patrol. He waits south of the settlement, where initiates are sent to mend his wounds and grant him Fortitude."
+   "answer": "Dolf is an Ironforge mountaineer stationed near Kharanos, injured on patrol. He waits south of the settlement, where initiates are sent to mend his wounds and grant him Fortitude."
   },
   {
    "q": "Why does a priest receive specific garments for this task?",
@@ -69,7 +69,7 @@
     "why do priests wear robes",
     "priest garments lore"
    ],
-   "answer": "Vestments and robes show a practitioner's devotion and rank within the Holy Light. Soldiers and other community members can recognize a robed priest as someone able to tend life-threatening injuries and offer spiritual guidance."
+   "answer": "Vestments and robes show a practitioner’s devotion and rank within the Holy Light. Soldiers and other community members can recognize a robed priest who can tend life-threatening injuries and offer spiritual guidance."
   },
   {
    "q": "Why do dwarves worship the Holy Light?",
@@ -95,7 +95,7 @@
   },
   {
    "target": "race:Dwarf",
-   "text": "As a dwarf, you know Ironforge mountaineers guard Dun Morogh's dangerous passes. Tending wounded scouts like Dolf strengthens the bond between dwarven faith and military defense."
+   "text": "As a dwarf, you know Ironforge mountaineers guard Dun Morogh’s dangerous passes. Tending wounded scouts like Dolf strengthens the bond between dwarven faith and military defense."
   },
   {
    "target": "faction:Alliance",
@@ -124,5 +124,5 @@
  "attribution": [
   "Garments of the Light (Dun Morogh)"
  ],
- "style": 1
+ "style": 2
 }

@@ -20,21 +20,21 @@
    "Garments of the Light (Elwynn Forest)"
   ]
  },
- "summary": "At Goldshire, Garments of the Light mark a novice priest’s first trial under Priestess Josetta. She sends you east to Crystal Lake to tend the wounded Guard Roberts. The work tests your healing and earns you vestments recognized by the Church of the Holy Light.",
+ "summary": "Priestess Josetta sends you east of Goldshire to Crystal Lake, where Guard Roberts lies wounded. His recovery matters to the town, and the Church of the Holy Light will recognize your service.",
  "sections": [
   {
    "title": "A Practical Test of Faith",
-   "body": "Priestess Josetta teaches acolytes who come to Goldshire from Northshire Abbey. Before the Church of the Holy Light formally recognizes a novice, she tests their skill with divine power. When Guard Roberts is reported wounded by the lake east of Goldshire, Josetta sends you to care for him. His need gives you a chance to prove your healing in practice.",
+   "body": "Josetta asks you to put divine power to use before the Church recognizes a novice priest. Guard Roberts needs healing, giving you a chance to serve someone in need. Tending him is your first step toward formal standing in the Church of the Holy Light.",
    "spoiler": 0
   },
   {
    "title": "Sustaining the Realm",
-   "body": "You need to do more than close Guard Roberts’s wounds. Mend him with restorative prayers, then strengthen him with a blessing of fortitude. Stormwind’s forces are stretched thin, and local garrisons face kobolds and bandits. Josetta teaches that priests help defenders endure danger. Healing Roberts will aid the township and show that you can support its guards.",
+   "body": "Close Roberts's wounds with restorative prayers, then strengthen him with a blessing of fortitude. He needs healing and resilience to return to his duties. Your care helps a town guard withstand danger, and supports the township. Josetta expects a priest to sustain defenders as well as mend them.",
    "spoiler": 0
   },
   {
    "title": "Vestments of the Order",
-   "body": "After treating Guard Roberts, return to the Lion’s Pride Inn. There you receive your first formal robes, a sign of approval and fellowship from the priesthood in Stormwind. The robes are not required for further training, but they show that the Church recognizes you as a servant of the Holy Light.",
+   "body": "Once Roberts has been treated, return to the Lion’s Pride Inn for your first formal robes. They mark the approval and fellowship of Stormwind's priesthood, though further training does not require them. The Church recognizes you as a servant of the Holy Light.",
    "spoiler": 0
   }
  ],
@@ -46,7 +46,7 @@
     "where is guard roberts",
     "find guard roberts"
    ],
-   "answer": "Guard Roberts is just east of Goldshire, near Crystal Lake. He rests by the roadside at the water’s edge while recovering from wounds suffered on watch."
+   "answer": "Guard Roberts is just east of Goldshire, near Crystal Lake. He rests by the roadside at the water’s edge while he recovers from wounds suffered on watch."
   },
   {
    "q": "What spells are required to complete this quest?",
@@ -73,7 +73,7 @@
     "priest robe reward lore",
     "church robes meaning"
    ],
-   "answer": "The robes show that the Church of the Holy Light approves of the acolyte and supports their ministry. Caring for Guard Roberts demonstrates the skill and discipline needed to wear the church’s vestments."
+   "answer": "The robes show the Church of the Holy Light approves of the acolyte and supports their ministry. Caring for Guard Roberts demonstrates the skill and discipline needed to wear the church’s vestments."
   },
   {
    "q": "Can other classes complete this quest?",
@@ -90,17 +90,17 @@
     "next quest after garments of the light",
     "garments of the light followup"
    ],
-   "answer": "After you complete the early priest training in Goldshire, there is no immediate follow-up. Priestess Josetta and other trainers throughout the kingdom offer further training and trials as you gain experience."
+   "answer": "After your early priest training in Goldshire, there is no immediate follow-up. Priestess Josetta and other trainers throughout the kingdom offer further training and trials as you gain experience."
   }
  ],
  "angles": [
   {
    "target": "class:Priest",
-   "text": "As a priest, you carry your learning from Northshire into service in the field. Healing and fortifying allies helps keep those on the front line alive."
+   "text": "As a priest, you carry what you learned in Northshire into service in the field. Healing and fortifying allies helps keep those on the front line alive."
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance member, you see how local church disciples help town guards hold their ground while Stormwind’s army is stretched thin and absent from hamlets."
+   "text": "As an Alliance member, you see local church disciples helping town guards hold their ground while Stormwind’s army is stretched thin and absent from hamlets."
   },
   {
    "target": "race:Human",
@@ -128,5 +128,5 @@
  "attribution": [
   "Garments of the Light (Elwynn Forest)"
  ],
- "style": 1
+ "style": 2
 }

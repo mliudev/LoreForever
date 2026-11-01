@@ -17,16 +17,16 @@
   "wiki": "Arcane Feedback (Stormwind)",
   "chain": []
  },
- "summary": "In Stormwind, Arcane Feedback prepares priests to face hostile spellcasters. High Priestess Laurena teaches the rite in the Cathedral of Light, where faith is shaped into a defense against arcane power.",
+ "summary": "In Stormwind, High Priestess Laurena teaches Arcane Feedback to priests bound for dangerous roads. At the Cathedral of Light, faith becomes a defense against hostile spellcasters.",
  "sections": [
   {
    "title": "A Shield Against the Arcane",
-   "body": "At the Cathedral of Light, High Priestess Laurena warns acolytes that arcane magic remains a danger. The Holy Light brings healing, warmth, and divine order, while raw magic can turn volatile and lead to corruption or catastrophe. Warlocks, renegade sorcerers, and magical beasts threaten the faithful. Priests learn that faith can become an active ward against spells around them.",
+   "body": "At the Cathedral of Light, High Priestess Laurena warns the acolytes that arcane magic remains dangerous. The Holy Light brings healing, warmth, and divine order. Raw magic can turn volatile and lead to corruption or catastrophe. Warlocks, renegade sorcerers, and magical beasts threaten the faithful, so priests learn to make their faith an active ward against spells.",
    "spoiler": 0
   },
   {
    "title": "Turn the Torrent Inward",
-   "body": "Arcane Feedback turns a hostile spellcaster's power back against them. The ward does more than deflect spells: it burns through the caster's mana and causes agony. Laurena teaches the rite to human priests preparing to travel beyond Stormwind, so the Cathedral's emissaries can face sorcery with a defense of their own.",
+   "body": "Arcane Feedback turns a hostile spellcaster's power back against them. The ward does more than deflect spells; it burns through the caster's mana and brings agony. Laurena teaches the rite to human priests preparing to travel beyond Stormwind. Thus the Cathedral's emissaries can face sorcery with a defense of their own.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "what is arcane feedback",
     "why do this quest"
    ],
-   "answer": "The rite teaches a human priest a protective discipline under the Church of the Light. High Priestess Laurena shows how to resist and retaliate against hostile spellcasters."
+   "answer": "The rite teaches a human priest a protective discipline under the Church of the Light. High Priestess Laurena shows how to resist hostile spellcasters and strike back at them."
   },
   {
    "q": "Who offers this quest and where can she be found?",
@@ -115,5 +115,5 @@
  "attribution": [
   "Arcane Feedback (Stormwind)"
  ],
- "style": 1
+ "style": 2
 }

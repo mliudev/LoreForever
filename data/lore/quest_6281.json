@@ -26,12 +26,12 @@
  "sections": [
   {
    "title": "Taking Wing",
-   "body": "Quartermaster Lewis prepares a requisition note in Sentinel Hill. The local gryphon master Thor offers you the fastest way out of the contested plains. For a modest fee, you ride one of the kingdom's trained gryphons above dusty farmlands and the river border of Elwynn Forest, then over Stormwind City's high white ramparts.",
+   "body": "Quartermaster Lewis prepares a requisition note at Sentinel Hill. Thor, the local gryphon master, offers you the fastest way out of the contested plains. For a modest fee, you ride one of the kingdom’s trained gryphons above dusty farmlands and Elwynn Forest’s river border. Then the gryphon carries you over Stormwind City’s high white ramparts.",
    "spoiler": 0
   },
   {
    "title": "Old Town Supply Lines",
-   "body": "After you land at the capital's trade roosts, you head into Old Town to find Osric Strang at his shop, Limited Immunity. Osric supplies the frontier, but his grim reception shows the growing rift between Westfall's beleaguered People's Militia and the distracted rulers in Stormwind Keep.",
+   "body": "You land at the capital’s trade roosts, then make your way into Old Town. There you find Osric Strang at his shop, Limited Immunity. Osric supplies the frontier, yet his grim reception shows the growing rift between Westfall’s beleaguered People’s Militia and the distracted rulers in Stormwind Keep.",
    "spoiler": 0
   }
  ],
@@ -43,7 +43,7 @@
     "quest purpose",
     "continue to stormwind objective"
    ],
-   "answer": "You carry Lewis's requisition from Sentinel Hill to Stormwind by gryphon, learning the route between the outpost and the capital."
+   "answer": "You carry Quartermaster Lewis’s requisition from Sentinel Hill to Stormwind by gryphon. Along the way, you learn the route between the outpost and the capital."
   },
   {
    "q": "Where is Osric Strang located?",
@@ -61,7 +61,7 @@
     "westfall supply issue",
     "sentinel hill gear"
    ],
-   "answer": "The People's Militia at Sentinel Hill struggles against the Defias Brotherhood and receives little formal military aid from the capital. Quartermaster Lewis must buy gear directly from civilian merchants."
+   "answer": "The People’s Militia at Sentinel Hill struggles against the Defias Brotherhood and receives little formal military aid from the capital. Quartermaster Lewis must buy gear directly from civilian merchants."
   },
   {
    "q": "Who is Thor?",
@@ -79,7 +79,7 @@
     "what does the note say",
     "contents of note"
    ],
-   "answer": "Lewis's Note is an urgent requisition from Quartermaster Lewis, listing the gear and provisions needed to keep Sentinel Hill's garrison equipped."
+   "answer": "Lewis’s Note is an urgent requisition from Quartermaster Lewis, listing the gear and provisions needed to keep Sentinel Hill’s garrison equipped."
   },
   {
    "q": "What happens after delivering the note?",
@@ -88,7 +88,7 @@
     "follow up quest",
     "after osric strang"
    ],
-   "answer": "After Osric receives the requisition, he sends you to speak with Stormwind's gryphon master, Dungar Longdrink, to arrange transport of the ordered supplies back to Westfall."
+   "answer": "After Osric receives the requisition, he sends you to speak with Stormwind’s gryphon master, Dungar Longdrink. You arrange transport of the ordered supplies back to Westfall."
   }
  ],
  "angles": [
@@ -124,5 +124,5 @@
  "attribution": [
   "Continue to Stormwind (Classic)"
  ],
- "style": 1
+ "style": 2
 }

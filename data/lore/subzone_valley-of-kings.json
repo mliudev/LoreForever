@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Valley of Kings"
  },
- "summary": "At the Valley of Kings, stone kings watch the southern road into the Searing Gorge. The canyon lies in southwestern Loch Modan, south of the passage to Dun Morogh. Blackrock forces and troggs threaten travelers beneath the dwarven monuments.",
+ "summary": "At Valley of Kings, stone rulers guard the southern road into the Searing Gorge. In southwestern Loch Modan, the canyon lies south of the passage to Dun Morogh. Blackrock forces and troggs threaten travelers beneath the dwarven monuments.",
  "sections": [
   {
    "title": "Guardians of the Southern Pass",
-   "body": "Two immense statues of King Madoran Bronzebeard and High Thane Khardros Wildhammer watch over the southern pass. After the kings died, their sons jointly commissioned the carvings. The statues honor the allied victory in the War of the Three Hammers and face the Dark Iron clan. Beyond them, the southern lands still bear the ruin left by Ragnaros's summoning.",
+   "body": "Two immense statues watch over the southern pass: King Madoran Bronzebeard and High Thane Khardros Wildhammer. After the kings died, their sons commissioned the carvings together. The statues honor the allied victory in the War of the Three Hammers, and they face the Dark Iron clan. Beyond them, the southern lands still bear the ruin left by Ragnaros's summoning.",
    "spoiler": 0
   },
   {
    "title": "The Gate to the Searing Gorge",
-   "body": "The valley links South Gate Pass with Stonesplinter Valley and holds an iron gate into the Searing Gorge. Hostile Blackrock orcs, Dark Iron dwarves, and volcanic dangers make the passage perilous, so Ironforge mountaineers keep the gate locked and guarded. Mountaineer Pebblebitty watches the threshold. Only the hardiest travelers who can show they have the strength to survive beyond it may pass.",
+   "body": "The valley links South Gate Pass with Stonesplinter Valley, and an iron gate opens into the Searing Gorge. Hostile Blackrock orcs, Dark Iron dwarves, and volcanic dangers make the passage perilous. So Ironforge mountaineers keep the gate locked and guarded, with Mountaineer Pebblebitty watching the threshold. Only the hardiest travelers may pass, after showing they have the strength to survive beyond it.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "dwarf statues loch modan",
     "who are the statues"
    ],
-   "answer": "The statues depict King Madoran Bronzebeard of Ironforge and High Thane Khardros Wildhammer. Their sons commissioned them together after their fathers died, honoring the alliance that won the War of the Three Hammers."
+   "answer": "The statues depict King Madoran Bronzebeard of Ironforge and High Thane Khardros Wildhammer. Their sons commissioned them together after their fathers died, to honor the alliance that won the War of the Three Hammers."
   },
   {
    "q": "Why were the statues built facing south?",
@@ -46,7 +46,7 @@
     "mountaineer pebblebitty key",
     "valley of kings gate locked"
    ],
-   "answer": "The gate into the Searing Gorge stays locked for travelers' safety. Speak with Mountaineer Pebblebitty, who guards it, and prove your abilities by completing a task for her; then she will give you the key."
+   "answer": "The gate into the Searing Gorge stays locked for travelers' safety. Speak with Mountaineer Pebblebitty, who guards it, and prove your abilities by completing a task for her. Then she will give you the key."
   },
   {
    "q": "Where does this valley lead?",
@@ -60,11 +60,11 @@
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "As a dwarf of Ironforge, you walk hallowed ground that honors the bond between Bronzebeard and Wildhammer, forged against the Dark Irons' treachery."
+   "text": "As a dwarf of Ironforge, you walk hallowed ground honoring the bond between Bronzebeard and Wildhammer, forged against the Dark Irons' treachery."
   },
   {
    "target": "faction:Alliance",
-   "text": "As an ally, you pass through the northern bulwark against threats from the southern badlands, where the Searing Gorge's dangers threaten Khaz Modan."
+   "text": "As an ally, you pass through the northern bulwark against threats from the southern badlands. The dangers of the Searing Gorge threaten Khaz Modan."
   }
  ],
  "keywords": [
@@ -86,5 +86,5 @@
  "attribution": [
   "Valley of Kings"
  ],
- "style": 1
+ "style": 2
 }

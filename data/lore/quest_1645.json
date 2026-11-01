@@ -17,16 +17,16 @@
   "wiki": "The Tome of Divinity (dwarf 1)",
   "chain": []
  },
- "summary": "In Ironforge, Tiza Battleforge places the Tome of Divinity in a dwarven paladin's hands. Its teachings begin trials meant to test devotion to the Light and readiness to defend Azeroth from dark forces such as the Scourge.",
+ "summary": "In Ironforge, Tiza Battleforge puts the Tome of Divinity into a dwarven paladin's hands. Its teachings begin trials of devotion to the Light and readiness to defend Azeroth from dark forces such as the Scourge.",
  "sections": [
   {
    "title": "A Calling to Virtue",
-   "body": "Promising paladin initiates from across the eastern kingdoms come to Ironforge's Hall of Mysteries after mastering the martial and spiritual basics. Tiza Battleforge guides young dwarven paladins in the principles that set a champion of the Holy Light apart from an ordinary warrior. Taking up this calling means pledging a life to duty, self-sacrifice, and spiritual discipline.",
+   "body": "From across the eastern kingdoms, promising paladin initiates come to Ironforge's Hall of Mysteries after mastering the martial and spiritual basics. There, young dwarven paladins learn what sets a champion of the Holy Light apart from an ordinary warrior. Taking up this calling means pledging a life to duty, self-sacrifice, and spiritual discipline.",
    "spoiler": 0
   },
   {
    "title": "The Book of Divinity",
-   "body": "The novice receives the Book of Divinity as a guide to its duties, virtues, and spiritual teachings. Its words show how sacred power may be wielded against wicked threats. Study is only the first step; the initiate must carry those lessons into acts of faith across Khaz Modan and beyond.",
+   "body": "The novice receives the Book of Divinity as a guide to its duties, virtues, and spiritual teachings. Its words show how sacred power can be wielded against wicked threats. Yet study is only the first step. The initiate must carry those lessons into acts of faith across Khaz Modan and beyond.",
    "spoiler": 0
   }
  ],
@@ -47,7 +47,7 @@
     "who is the paladin trainer in ironforge",
     "who gives tome of divinity"
    ],
-   "answer": "Tiza Battleforge is a paladin trainer in Ironforge's Hall of Mysteries. She guides dwarven paladins toward greater virtue, tests their devotion to the Light, and prepares them to face threats such as the Scourge."
+   "answer": "Tiza Battleforge trains paladins in Ironforge's Hall of Mysteries. She guides dwarven paladins toward greater virtue, tests their devotion to the Light, and prepares them to face threats such as the Scourge."
   },
   {
    "q": "Why must initiates study the Book of Divinity?",
@@ -74,7 +74,7 @@
     "ironforge paladin location",
     "hall of mysteries paladin"
    ],
-   "answer": "The training begins in the Hall of Mysteries, in Ironforge's northern quarters, where scholars, priests, mages, and paladins gather for prayer and study."
+   "answer": "The training begins in Ironforge's Hall of Mysteries, in the city's northern quarters. Scholars, priests, mages, and paladins gather there for prayer and study."
   },
   {
    "q": "What comes next after receiving the book?",
@@ -116,5 +116,5 @@
  "attribution": [
   "The Tome of Divinity (dwarf 1)"
  ],
- "style": 1
+ "style": 2
 }

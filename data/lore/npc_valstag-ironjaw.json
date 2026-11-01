@@ -8,16 +8,16 @@
   "wiki": "Valstag Ironjaw",
   "refs": 2
  },
- "summary": "At Menethil Keep, Valstag Ironjaw helps guard the routes between Loch Modan and the coast. He keeps the garrison informed of dangers along the trade passages.",
+ "summary": "At Menethil Keep, Valstag Ironjaw helps guard the road between Loch Modan and the coast. He warns the garrison of dangers to travelers and supplies.",
  "sections": [
   {
    "title": "Duty at the Keep",
-   "body": "Valstag Ironjaw serves with the dwarven garrison inside Menethil Keep in Menethil Harbor. The marsh around the keep is dangerous, with Dragonmaw orcs and ravenous wildlife threatening communications and supplies. Valstag helps coordinate defenses along the main roads, especially the perilous passage through Dun Algaz toward Loch Modan.",
+   "body": "Valstag Ironjaw serves with the dwarven garrison inside Menethil Keep in Menethil Harbor. Dragonmaw orcs and ravenous wildlife threaten their communications and supplies. So he helps coordinate defenses on the main roads, especially the perilous way through Dun Algaz toward Loch Modan.",
    "spoiler": 0
   },
   {
    "title": "Securing the Pass",
-   "body": "Hostile forces crowd the Algaz Gauntlet, putting travelers and supply convoys between Menethil Harbor and Loch Modan at risk. Valstag sends capable adventurers against the brigands and orcs in the passes. He carries military reports between forward scouts and commanders such as Captain Stoutfist.",
+   "body": "Hostile forces crowd the Algaz Gauntlet, putting travelers and supply convoys between Menethil Harbor and Loch Modan at risk. Valstag sends capable adventurers against the brigands and orcs in the passes. He also carries military reports between forward scouts and commanders such as Captain Stoutfist.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "where is valstag ironjaw",
     "valstag ironjaw npc"
    ],
-   "answer": "Valstag Ironjaw is inside Menethil Keep, the stone fortress in Menethil Harbor in the western Wetlands."
+   "answer": "You can find Valstag Ironjaw inside Menethil Keep, the stone fortress in Menethil Harbor in the western Wetlands."
   },
   {
    "q": "What role does Valstag play in the Wetlands?",
@@ -45,7 +45,7 @@
     "why algaz gauntlet",
     "valstag loch modan"
    ],
-   "answer": "The Algaz Gauntlet connects Menethil Harbor's coastal port to Loch Modan and Ironforge. Hostile forces in the pass threaten food, troop movements, and supplies."
+   "answer": "The Algaz Gauntlet links Menethil Harbor's coastal port to Loch Modan and Ironforge. Hostile forces there threaten food, troop movements and supplies."
   },
   {
    "q": "Who is Captain Stoutfist?",
@@ -59,7 +59,7 @@
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance traveler, you rely on the route Valstag helps keep open between Menethil Harbor and the mountains of Khaz Modan for trade and travel."
+   "text": "As an Alliance traveler, you rely on the route Valstag helps keep open between Menethil Harbor and the mountains of Khaz Modan, for trade and travel."
   },
   {
    "target": "race:Dwarf",
@@ -88,5 +88,5 @@
  "attribution": [
   "Valstag Ironjaw"
  ],
- "style": 1
+ "style": 2
 }

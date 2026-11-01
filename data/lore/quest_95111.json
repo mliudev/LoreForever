@@ -11,16 +11,16 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "Trevan Rol in Silverpine Forest asks you to bring materials to Ott in Tarren Mill and offer him a custom commission. His simple blades have impressed smiths in the Undercity, and this order gives him a chance to show what he can make.",
+ "summary": "In Silverpine Forest, Trevan Rol gives Ott a chance to make a blade to your design. Ott’s simple weapons have earned praise from smiths in the Undercity.",
  "sections": [
   {
    "title": "A Smith's Chance",
-   "body": "Trevan Rol asks you to take materials to Ott in Tarren Mill and offer him a commission. Ott is known for selling simple blades to travelers. Trevan bought one and later took it to the Undercity for maintenance, where local smiths were surprised by its quality. They thought it came from a famous master, but it was Ott's work. Now you bring him the chance to forge a blade to your specifications.",
+   "body": "Trevan Rol asks you to carry materials to Ott in Tarren Mill and offer him a commission. Ott sells simple blades to travelers. Trevan bought one and later took it to the Undercity for maintenance. There, local smiths praised its quality and mistook it for the work of a famous master. Now Ott has the chance to forge a blade to your specifications.",
    "spoiler": 0
   },
   {
    "title": "Ott's Answer",
-   "body": "Ott says no one has asked him to make a custom commission before. He usually crafts humble, functional weapons in his own style and says he does not seek acclaim. He is willing to try, though he wonders why you chose him when smiths in the Undercity also take custom work.",
+   "body": "Ott says no one has asked him to make a custom weapon before. He usually crafts humble, functional weapons in his own style and seeks no acclaim. Still, he is willing to try. He wonders why you chose him when smiths in the Undercity also take custom work.",
    "spoiler": 1
   }
  ],
@@ -41,7 +41,7 @@
     "undercity smith order",
     "ott commission"
    ],
-   "answer": "The smith bought one of Ott's blades and was surprised when Undercity smiths praised its quality. The smith wants to give Ott a chance to make something special."
+   "answer": "The smith bought one of Ott’s blades and was surprised when Undercity smiths praised its quality. The smith wants Ott to have a chance to make something special."
   },
   {
    "q": "What am I bringing to Ott?",
@@ -59,7 +59,7 @@
     "can ott forge for me",
     "ott commissions"
    ],
-   "answer": "Ott says no one has asked him to carry out a custom commission before, but he is happy to try."
+   "answer": "Ott says no one has asked him to make a custom weapon before, but he is willing to try."
   },
   {
    "q": "Why does Ott ask why I chose him?",
@@ -68,7 +68,7 @@
     "ott wonders why",
     "why not undercity smith"
    ],
-   "answer": "Ott says there are smiths in the Undercity who take custom jobs, and he wonders why you sought him instead."
+   "answer": "Ott says smiths in the Undercity take custom work, and wonders why you sought him instead."
   }
  ],
  "angles": [],
@@ -85,7 +85,7 @@
   "subzone:tarren-mill",
   "zone:undercity"
  ],
- "style": 1,
+ "style": 2,
  "attribution": [
   "In-game quest text: An Underrated Talent"
  ]

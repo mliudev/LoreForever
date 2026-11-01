@@ -11,11 +11,11 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "An alchemist asks you to find Caitlin Grassman in Menethil Harbor. Caitlin may know why her husband has not reported back about a rare grass found at an excavation site.",
+ "summary": "In Menethil Harbor, an alchemist waits for word about a rare grass. She asks you to find Caitlin Grassman, whose husband has not reported back from an excavation.",
  "sections": [
   {
    "title": "A Missing Report",
-   "body": "The alchemist heard from Caitlin that her husband\u2019s excavation team uncovered signs of a primordial grass. She has not heard how much was found or whether it can be reached. The alchemist asks you to speak with Caitlin in Menethil Harbor, where both women are waiting to learn what happened to the promised seeds.",
+   "body": "The alchemist heard from Caitlin that her husband's excavation team found signs of a primordial grass. Caitlin does not know how much they found or whether it can be reached.\n\nNow the alchemist asks you to speak with Caitlin in Menethil Harbor. Both women are waiting to learn what happened to the promised seeds.",
    "spoiler": 0
   }
  ],
@@ -27,7 +27,7 @@
     "who is Caitlin",
     "Caitlin Grassman"
    ],
-   "answer": "Caitlin Grassman is an alchemist in Menethil Harbor. Her husband was part of an excavation team that found signs of a primordial grass."
+   "answer": "Caitlin Grassman is an alchemist in Menethil Harbor. Her husband joined an excavation team that found signs of a primordial grass."
   },
   {
    "q": "What does the alchemist want me to do?",
@@ -45,7 +45,7 @@
     "rare grass",
     "excavation find"
    ],
-   "answer": "The team uncovered signs of a long-lost primordial grass, but its abundance and accessibility remain unknown."
+   "answer": "The team found signs of a long-lost primordial grass. How much there is and whether it can be reached remain unknown."
   },
   {
    "q": "Why are they concerned?",
@@ -54,13 +54,13 @@
     "missing grass seeds",
     "why worried"
    ],
-   "answer": "Caitlin promised the alchemist that her husband would bring back grass seeds, but they have not arrived. Both women suspect something about the excavation site is troubling."
+   "answer": "Caitlin promised the alchemist that her husband would bring back grass seeds, but none have arrived. Both women suspect trouble at the excavation site."
   }
  ],
  "angles": [
   {
    "target": "profession:Herbalism",
-   "text": "As an herbalist, you are asked to check on Caitlin after her husband\u2019s team found signs of a rare primordial grass."
+   "text": "As an herbalist, you are asked to check on Caitlin after her husband's team found signs of a rare primordial grass."
   }
  ],
  "keywords": [
@@ -77,7 +77,7 @@
   "zone:wetlands",
   "subzone:menethil-harbor"
  ],
- "style": 1,
+ "style": 2,
  "attribution": [
   "In-game quest text: Seeking Caitlin"
  ]

@@ -11,16 +11,16 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "A Windshaper asks you to report what you learned about the broken construct to Ayessa Dawnsinger. The High Order\u2019s work with wind spirit magic has drawn concern.",
+ "summary": "A Windshaper asks you to tell Ayessa Dawnsinger what you learned about the broken construct. The High Order’s work with wind spirit magic has drawn concern.",
  "sections": [
   {
    "title": "Return to Ayessa",
-   "body": "The Windshaper wants you to take what you learned to Ayessa Dawnsinger in Valanaar. The High Order has been testing the Windshapers\u2019 patience by experimenting with wind spirit magic and touching knowledge under Windshaper purview. Ayessa can decide what should happen next.",
+   "body": "Take what you learned to Ayessa Dawnsinger in Valanaar. The High Order has tested the Windshapers’ patience with its experiments in wind spirit magic. It has also touched knowledge under Windshaper purview. Ayessa can decide what should happen next.",
    "spoiler": 0
   },
   {
    "title": "A Troubling Name",
-   "body": "Ayessa believes the High Order was responsible for the construct breaking down. She knows Belathaan as Valennia Stormfist\u2019s cousin, and says his mother was a Windshaper. His involvement leaves her disappointed, and she needs time to reflect.",
+   "body": "Ayessa believes the High Order was responsible for the construct breaking down. She knows Belathaan as Valennia Stormfist’s cousin, and says his mother was a Windshaper. His involvement leaves her disappointed. She needs time to reflect.",
    "spoiler": 1
   }
  ],
@@ -41,7 +41,7 @@
     "why windshapers mad",
     "high order wind magic"
    ],
-   "answer": "The High Order has been experimenting with wind spirit magic and meddling with knowledge under Windshaper purview, despite being forbidden to do so."
+   "answer": "The High Order has experimented with wind spirit magic and meddled with knowledge under Windshaper purview, though it is forbidden to do so."
   },
   {
    "q": "What happened to the construct?",
@@ -59,7 +59,7 @@
     "belathaan family",
     "belathaan cousin"
    ],
-   "answer": "Belathaan is Valennia Stormfist\u2019s cousin, and his mother was a Windshaper."
+   "answer": "Belathaan is Valennia Stormfist’s cousin, and his mother was a Windshaper."
   }
  ],
  "angles": [],
@@ -77,7 +77,7 @@
   "npc:ayessa-dawnsinger",
   "quest:92596"
  ],
- "style": 1,
+ "style": 2,
  "attribution": [
   "In-game quest text: The Broken Construct"
  ]

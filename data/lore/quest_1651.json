@@ -17,16 +17,16 @@
   "wiki": "The Tome of Valor (4)",
   "chain": []
  },
- "summary": "At Daphne Stilwell's farm in Westfall, a paladin faces a trial of valor. The Defias Brotherhood is pressing the homestead, and Daphne needs a defender at her side.",
+ "summary": "At her Westfall farm, Daphne Stilwell calls for aid as the Defias Brotherhood closes in. A paladin must answer her plea.",
  "sections": [
   {
    "title": "A Stand in the Dust",
-   "body": "Daphne Stilwell's homestead in Westfall lies in land contested by the Defias Brotherhood. While seeking the virtues recorded in the Tome of Valor, you are sent to defend her farm. The Defias have tried repeatedly to overrun the property and kill Daphne. After earlier clashes, another attack is expected. You must stand beside her house instead of retreating to safer ground.",
+   "body": "The Defias Brotherhood still contests the land around Daphne's homestead. Earlier clashes have not ended the danger, and another assault is expected. You are sent to hold the ground beside her house. There is no retreat. Your pursuit of the virtues in the Tome of Valor now faces a test of courage.",
    "spoiler": 0
   },
   {
    "title": "The Trial of Valor",
-   "body": "Daphne and you face wave after wave of Defias raiders. She has only her personal firearm, while you have the blessings of the Holy Light. The fight tests whether you can protect someone vulnerable under heavy pressure. True valor is not the pursuit of personal glory, but the willingness to stand between innocent civilians and ruthless violence.",
+   "body": "Daphne has only her own firearm, while you can call on the blessings of the Holy Light. Wave after wave of Defias raiders attacks, and the fight tests whether you can protect someone vulnerable under crushing pressure. True valor means standing between innocent civilians and ruthless violence, even when danger bears down on you.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who is daphne",
     "stilwell westfall"
    ],
-   "answer": "Daphne Stilwell is a human homesteader who lives in Westfall's grasslands. Though the Defias Brotherhood regularly intrudes on her land, she refuses to leave and fights back against their raids."
+   "answer": "Daphne Stilwell is a human homesteader in Westfall's grasslands. The Defias Brotherhood often intrudes on her land, but she refuses to leave and fights back against their raids."
   },
   {
    "q": "Why are the Defias attacking this specific farm?",
@@ -47,7 +47,7 @@
     "defias raid daphne",
     "why attack stilwell"
    ],
-   "answer": "The Defias Brotherhood has taken much of Westfall's countryside, driving farmers away or forcing them to submit. Daphne's husband, Jordan, is away in Ironforge, leaving her alone and unprotected, and the Defias want her land."
+   "answer": "The Defias Brotherhood has taken much of Westfall's countryside, driving farmers away or forcing them to submit. Daphne's husband, Jordan, is away in Ironforge, leaving her alone and unprotected. The Defias want her land."
   },
   {
    "q": "What is the Tome of Valor?",
@@ -64,7 +64,7 @@
     "can daphne die",
     "daphne stilwell dies"
    ],
-   "answer": "If Daphne Stilwell falls in battle, the trial fails. Valor calls for protecting her life as well as your own from the bandit attack."
+   "answer": "If Daphne Stilwell falls in battle, the trial fails. Valor calls you to protect her life as well as your own from the bandit attack."
   },
   {
    "q": "Where does this attack take place?",
@@ -72,7 +72,7 @@
     "daphne stilwell location",
     "where is the farm"
    ],
-   "answer": "The attack takes place outside Daphne Stilwell's farmhouse, a small farm in the Dagger Hills overlooking the Longshore in southern Westfall."
+   "answer": "The attack takes place outside Daphne Stilwell's farmhouse. Her small farm lies in the Dagger Hills, overlooking the Longshore in southern Westfall."
   },
   {
    "q": "What comes after defending the farm?",
@@ -80,13 +80,13 @@
     "next quest tome of valor",
     "after defending daphne"
    ],
-   "answer": "After you prove your courage and drive off the Defias raiders, Daphne acknowledges your devotion and directs you toward the next phase of your paladin trials."
+   "answer": "After you prove your courage and drive off the Defias raiders, Daphne acknowledges your devotion. She directs you toward the next phase of your paladin trials."
   }
  ],
  "angles": [
   {
    "target": "class:Paladin",
-   "text": "As a paladin, you are tested as a steadfast protector. Holding the line beside Daphne shows valor in action: shielding the innocent from harm."
+   "text": "As a paladin, you are tested as a steadfast protector. Holding the line beside Daphne puts valor into action as you shield the innocent from harm."
   },
   {
    "target": "faction:Alliance",
@@ -109,5 +109,5 @@
  "attribution": [
   "The Tome of Valor (4)"
  ],
- "style": 1
+ "style": 2
 }

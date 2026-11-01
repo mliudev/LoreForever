@@ -14,11 +14,11 @@
  "angles": [
   {
    "target": "race:Undead",
-   "text": "As former citizens of Lordaeron, the Forsaken treasure surviving relics of their fallen kingdom as rare remnants of their past lives and heritage."
+   "text": "As a former citizen of Lordaeron, you treasure relics of the fallen kingdom as rare remnants of your past and heritage."
   },
   {
    "target": "faction:Horde",
-   "text": "Assisting Forsaken archivists in Undercity helps preserve the material legacy of Lordaeron amidst the ruins left by the Scourge."
+   "text": "You help Forsaken archivists in Undercity preserve Lordaeron’s legacy amid the ruins left by the Scourge."
   }
  ],
  "faq": [
@@ -28,7 +28,7 @@
     "lordaeron crest quest",
     "crest item"
    ],
-   "answer": "The Crest of Lordaeron is a weathered emblem bearing the mark of the fallen human kingdom. Because very few physical relics survived the Scourge's destruction, it is an invaluable piece of history to those attempting to preserve Lordaeron's legacy.",
+   "answer": "The Crest of Lordaeron is a weathered emblem of the fallen human kingdom. Few physical relics survived the Scourge’s destruction, so it preserves a rare piece of Lordaeron’s past.",
    "q": "What is the Crest of Lordaeron?"
   },
   {
@@ -37,7 +37,7 @@
     "where to turn in crest",
     "crest turn in undercity"
    ],
-   "answer": "The crest is brought to Oran Snakewrithe, who resides within the Undercity. Oran carefully inspects and safeguards recovered artifacts tied to the old kingdom.",
+   "answer": "Oran Snakewrithe in Undercity receives the crest. Oran inspects and safeguards artifacts tied to the old kingdom.",
    "q": "Who wants the crest in Undercity?"
   },
   {
@@ -45,7 +45,7 @@
     "why bite the crest",
     "oran bites crest"
    ],
-   "answer": "Upon receiving the crest, Oran Snakewrithe bites into it to verify its authenticity and material composition before declaring it a genuine, mostly intact relic of Lordaeron.",
+   "answer": "Oran Snakewrithe bites the crest to test its metal and verify that it is genuine. Oran confirms it is a mostly intact relic of Lordaeron.",
    "q": "Why does Oran Snakewrithe bite the crest?"
   },
   {
@@ -53,7 +53,7 @@
     "why do forsaken care about lordaeron",
     "forsaken relics"
    ],
-   "answer": "The Forsaken are the undead remnants of Lordaeron's former population. Despite their undeath and new allegiance, relics of their destroyed homeland represent tangible links to their history and identity.",
+   "answer": "The Forsaken are the undead remnants of Lordaeron’s former people. Relics of their ruined homeland remain tangible links to their history and identity.",
    "q": "Why do the Forsaken value relics of Lordaeron?"
   },
   {
@@ -61,7 +61,7 @@
     "what happens to the crest",
     "crest preservation"
    ],
-   "answer": "Oran Snakewrithe takes custody of the crest to ensure it is kept safe, treating it as a precious historical treasure that aids in restoring and remembering their kingdom's heritage.",
+   "answer": "Oran Snakewrithe takes custody of the crest and keeps it safe. It helps the Forsaken preserve and remember their kingdom’s heritage.",
    "q": "What will happen to the crest after it is turned in?"
   },
   {
@@ -69,7 +69,7 @@
     "is the crest rare",
     "how many crests left"
    ],
-   "answer": "Physical emblems and relics from before the Third War are exceptionally scarce. Most symbols of Lordaeron were smashed, looted, or corrupted when Arthas and the Scourge overran the realm.",
+   "answer": "Surviving emblems and relics from before the Third War are exceptionally scarce. The Scourge’s invasion left few physical signs of Lordaeron behind.",
    "q": "How rare are surviving relics from Lordaeron?"
   }
  ],
@@ -88,18 +88,19 @@
  ],
  "sections": [
   {
-   "body": "The kingdom of Lordaeron was shattered during the Third War, leaving little behind except ash, ruins, and Scourge desolation. Because so much of the realm's material culture was annihilated, surviving insignias and emblems like the Crest of Lordaeron are exceptionally rare. To the Forsaken dwelling beneath the ruins of the Capital City, these surviving objects are precious physical links to the civilization they once belonged to.",
+   "body": "The Third War shattered Lordaeron. Ash, ruins, and Scourge desolation swallowed much of the kingdom, leaving few emblems behind. To the Forsaken beneath the ruins of the Capital City, those that survive are precious links to the civilization they once belonged to.",
    "spoiler": 0,
    "title": "A Surviving Symbol of the Fallen Kingdom"
   },
   {
-   "body": "When recovered from the wider world, the weathered crest is delivered to Oran Snakewrithe in the Undercity. Oran verifies its authenticity\u2014even testing the metal by biting it\u2014before confirming it as an authentic, mostly intact heirloom of their home. For Oran and the Forsaken archivists, each salvaged piece helps piece together a history that the Scourge sought to utterly erase.",
+   "body": "The weathered crest is brought from the wider world to Oran Snakewrithe in Undercity. Oran tests the metal with a bite, then confirms it is genuine and mostly intact. For Oran and the Forsaken archivists, each recovered piece helps restore a history the Scourge sought to erase.",
    "spoiler": 0,
    "title": "Preserving Forsaken Heritage"
   }
  ],
- "summary": "The Crest of Lordaeron is a weathered historical artifact bearing the emblem of the fallen kingdom. With few such treasures surviving the Scourge's destruction, it is delivered to Oran Snakewrithe in Undercity to help preserve the Forsaken's past heritage.",
+ "summary": "The Forsaken preserve what little remains of Lordaeron in Undercity. A weathered crest bears the fallen kingdom’s emblem, a rare link to its past.",
  "attribution": [
   "In-game quest text: Crest of Lordaeron"
- ]
+ ],
+ "style": 2
 }

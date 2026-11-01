@@ -17,16 +17,16 @@
   "wiki": "Bring Back the Mug",
   "chain": []
  },
- "summary": "Durnan Furcutter sends you back across Coldridge Valley with Nori Pridedrift's empty mug. Returning it brings the Mornbrew delivery to a close.",
+ "summary": "Durnan Furcutter sends you back across Coldridge Valley with Nori Pridedrift's empty mug. Its return closes the Mornbrew delivery.",
  "sections": [
   {
    "title": "A Matter of Tavern Etiquette",
-   "body": "Durnan Furcutter has finished warming himself with the Mornbrew you delivered across Dun Morogh's snowdrifts. Now he sends you back with the empty tankard. In the biting cold, dwarven hospitality depends on mutual respect, and good dishware must not be left behind.",
+   "body": "After warming himself with the Mornbrew, Durnan leaves the tankard in your care. Cold bites hard in Dun Morogh, where hospitality depends on mutual respect. Good dishware should make it back too.",
    "spoiler": 0
   },
   {
    "title": "Mugs Don't Grow on Trees",
-   "body": "Your return to Coldridge Valley completes the delivery for Nori Pridedrift. Sturdy drinkware does not grow on trees, especially in the dwarven homeland's subzero crags. Bringing the empty vessel back in one piece shows that you can be trusted in the local community.",
+   "body": "Nori Pridedrift values sturdy drinkware. Mugs do not grow on trees, especially among the subzero crags of the dwarven homeland. Bring his mug back in one piece, and you show the local community that you can be trusted.",
    "spoiler": 0
   }
  ],
@@ -56,7 +56,7 @@
     "mug timer",
     "do i have to hurry back"
    ],
-   "answer": "No. The initial delivery of the Scalding Mornbrew had a strict timer to keep it piping hot, but you can return the empty mug at your own pace."
+   "answer": "There is no time limit. The first delivery of the Scalding Mornbrew had a strict timer to keep it piping hot, but you can return the empty mug at your own pace."
   },
   {
    "q": "Why does Nori care so much about an empty mug?",
@@ -111,5 +111,5 @@
  "attribution": [
   "Bring Back the Mug"
  ],
- "style": 1
+ "style": 2
 }

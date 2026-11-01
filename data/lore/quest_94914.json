@@ -11,16 +11,16 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "A druid teacher offers you a way to reach Moonglade and meet Dendrite Starblaze. There, you can speak with him about the path you have begun.",
+ "summary": "Your teacher opens a way to Moonglade, where Dendrite Starblaze awaits. There, you can speak with him about the path you have begun.",
  "sections": [
   {
    "title": "A First Lesson",
-   "body": "Your teacher welcomes all druids to Moonglade, where Keeper Remulos watches over those who rest there. You receive the spell Teleport: Moonglade, which lets you travel there when you seek its knowledge or solace. Your first lesson is to speak with Dendrite Starblaze in Nighthaven about the path you are now on.",
+   "body": "Your teacher welcomes druids to Moonglade. Keeper Remulos watches over those who rest there. You receive Teleport: Moonglade, a spell that carries you there when you seek knowledge or solace. Your first lesson is to speak with Dendrite Starblaze in Nighthaven about the path you now follow.",
    "spoiler": 0
   },
   {
    "title": "The Bear Form",
-   "body": "Dendrite recognizes that you have already mastered the form of the Bear. He sees you as well on your way.",
+   "body": "Dendrite Starblaze recognizes that you have already mastered the form of the Bear. He sees you well on your way.",
    "spoiler": 1
   }
  ],
@@ -32,7 +32,7 @@
     "dendrite starblaze",
     "nighthaven druid"
    ],
-   "answer": "Speak with Dendrite Starblaze in the village of Nighthaven about the path you are on."
+   "answer": "Speak with Dendrite Starblaze in Nighthaven about the path you are on."
   },
   {
    "q": "How do I get to Moonglade?",
@@ -41,7 +41,7 @@
     "how reach moonglade",
     "teleport spell"
    ],
-   "answer": "Your teacher gives you the spell Teleport: Moonglade, which transports you there."
+   "answer": "Your teacher gives you Teleport: Moonglade, a spell that carries you there."
   },
   {
    "q": "Who watches over druids in Moonglade?",
@@ -50,7 +50,7 @@
     "moonglade guardian",
     "who guards moonglade"
    ],
-   "answer": "Keeper Remulos is Moonglade's guardian and watches over druids who rest there."
+   "answer": "Keeper Remulos watches over druids who rest in Moonglade."
   },
   {
    "q": "What does Dendrite say about my progress?",
@@ -83,7 +83,7 @@
   "npc:dendrite-starblaze",
   "npc:remulos"
  ],
- "style": 1,
+ "style": 2,
  "attribution": [
   "In-game quest text: Moonglade"
  ]

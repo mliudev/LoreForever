@@ -12,21 +12,21 @@
   "levels": "1-10",
   "aliases": []
  },
- "summary": "In northern Lordaeron, Tirisfal Glades is home to Lady Sylvanas Windrunner and her Forsaken. Under blighted skies, fallen manors and dormant crypts surround their vast underground capital, the Undercity. Mindless Scourge and zealous Scarlet crusaders hem them in, and the free-willed dead fight for their survival.",
+ "summary": "Tirisfal Glades, in the north of Lordaeron, is home to Lady Sylvanas Windrunner and her Forsaken. Under blighted skies, fallen manors and dormant crypts surround their vast capital beneath the earth, the Undercity. The mindless Scourge hem them in, and so do the zealots of the Scarlet Crusade. Here the free-willed dead fight to survive.",
  "sections": [
   {
    "title": "A Land in Twilight",
-   "body": "Tirisfal was once the fertile cradle of humanity, before the Lich King's plague withered them. The sun rarely breaks through the murky gloom over dying woods, neglected pumpkin patches and cold coastal hills. Old farmsteads like the Agamand Mills and Balnir Farmstead still stand, but most of their masters lie in mass graves or walk as restless dead. Yet a dark resilience holds on in towns like Brill and in the cloistered sanctuary of Deathknell, where freshly awakened Forsaken learn to endure their second life.",
+   "body": "Tirisfal was once the fertile cradle of humanity, before the Lich King's plague withered its people. Now the sun rarely breaks through the gloom, over dying woods and cold coastal hills. Old farmsteads like the Agamand Mills still stand, but most of their masters lie in mass graves or walk as restless dead. Yet a dark resilience holds on in towns like Brill. And in Deathknell, the newly awakened Forsaken learn to endure their second life.",
    "spoiler": 0
   },
   {
    "title": "A War on Two Fronts",
-   "body": "Lady Sylvanas rules the region from beneath the Ruins of Lordaeron, yet the Forsaken are beset on all sides. Scourge thralls still infest hollows, fields and crumbling crypts, wholly bound to the frozen throne of Northrend. To the east, the fanatical Scarlet Crusade has made northern Tirisfal its main bastion, centered on the Scarlet Monastery. Sworn to destroy every undead creature, its outposts and patrols wage constant guerrilla war on Forsaken scouts and civilian travelers.",
+   "body": "Now Lady Sylvanas rules the region from beneath the Ruins of Lordaeron, yet her people are beset on every side. Scourge thralls still infest the hollows, the fields and the crumbling crypts, bound wholly to the Frozen Throne in Northrend. To the east, the Scarlet Crusade holds northern Tirisfal, from its stronghold at the Scarlet Monastery. Sworn to destroy every undead creature, its patrols wage constant guerrilla war on Forsaken scouts and travelers.",
    "spoiler": 0
   },
   {
    "title": "Echoes of the Ancient Past",
-   "body": "The story of the Glades is older than any human crown. High elven exiles once tried to settle these woods, until shadowy energies deep beneath the earth began driving them mad and they moved on north. Centuries later, the secret mortal cabal called the Council of Tirisfal chose these shadowed groves to empower its solitary Guardians, who shielded Azeroth from demons.",
+   "body": "Older than any human crown is the story of the Glades. Of old, high elven exiles sought to settle in these woods. But shadowy powers deep beneath the earth began to drive them mad, and they passed on into the north. Centuries later, the secret Council of Tirisfal chose these shadowed groves. Here it empowered its solitary Guardians, who shielded Azeroth from the demons.",
    "spoiler": 0
   }
  ],
@@ -130,5 +130,5 @@
   "Tirisfal Glades (Classic)",
   "Tirisfal Glades"
  ],
- "style": 1
+ "style": 2
 }

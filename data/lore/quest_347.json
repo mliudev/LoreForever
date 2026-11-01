@@ -17,16 +17,16 @@
   "wiki": "Rethban Ore (quest)",
   "chain": []
  },
- "summary": "Foreman Oslow sends you into Rethban Caverns in Redridge for a dark mineral the scribes of Northshire Abbey need for ink. It is too soft for strong weapons or armor, but its color makes it useful for their work.",
+ "summary": "In Redridge, Rethban Ore is needed at Northshire Abbey for its dark color. Foreman Oslow sends you into Rethban Caverns to gather the soft mineral, which cannot make strong weapons or armor.",
  "sections": [
   {
    "title": "A Curious Mineral",
-   "body": "Scribes at Northshire Abbey prize Rethban Ore for its dark, flat color. Bart Rethban discovered the mineral, but it has little use at an armorer’s anvil. Smelted metal from the ore lacks the strength needed for sturdy weapons or plate. Its raw color instead makes a valued base for manuscript dyes.",
+   "body": "Scribes at Northshire Abbey prize Rethban Ore for its dark, flat color. Bart Rethban discovered it, but the mineral has little use at an armorer’s anvil. Smelted metal from the ore is too weak for sturdy weapons or plate. Its raw color instead makes a valued base for manuscript dyes.",
    "spoiler": 0
   },
   {
    "title": "Contested Caverns",
-   "body": "The main deposits lie in the northern mountains of Redridge, inside Rethban Caverns. Lakeshire’s stoneworkers have left the cavern, driven out by a fierce band of Redridge gnolls. The gnolls put drudgers to work chipping ore from the rocky veins for their own crude purposes.",
+   "body": "The main ore deposits lie in Redridge’s northern mountains, inside Rethban Caverns. Lakeshire’s stoneworkers have left, driven out by a fierce band of Redridge gnolls. The gnolls force drudgers to chip ore from the rocky veins for their own crude purposes.",
    "spoiler": 0
   },
   {
@@ -43,7 +43,7 @@
     "rethban ore purpose",
     "what is rethban ore for"
    ],
-   "answer": "Smelted Rethban Ore is too weak for durable weapons or armor, but its dark, flat color makes a useful base for inks and dyes. Brother Paxton and other scribes at Northshire Abbey use it to copy historic manuscripts."
+   "answer": "Smelted Rethban Ore is too weak for durable weapons or armor. Its dark, flat color makes a useful base for inks and dyes, which Brother Paxton and other scribes at Northshire Abbey use to copy historic manuscripts."
   },
   {
    "q": "Who was Bart Rethban?",
@@ -51,7 +51,7 @@
     "who discovered rethban ore",
     "bart rethban lore"
    ],
-   "answer": "Bart Rethban was the explorer and prospector who discovered the dark ore veins in the northern mountains of Redridge. The mineral and the Rethban Caverns take their name from him."
+   "answer": "Bart Rethban was an explorer and prospector who discovered the dark ore veins in Redridge’s northern mountains. The mineral and Rethban Caverns both take their names from him."
   },
   {
    "q": "Why hasn't Lakeshire mined the ore recently?",
@@ -67,7 +67,7 @@
     "what book is paxton writing",
     "paxton manuscript"
    ],
-   "answer": "Brother Paxton is copying The Stresses of Iron. He needs the dark dye made from Rethban Ore to finish the text for the abbey’s library."
+   "answer": "Brother Paxton is copying The Stresses of Iron. He needs dark dye made from Rethban Ore to finish the text for the abbey’s library."
   },
   {
    "q": "Why do gnolls want the ore?",
@@ -83,7 +83,7 @@
     "what quest comes after rethban ore",
     "return to kristoff next"
    ],
-   "answer": "After Brother Paxton receives the ore and prepares his inks, he sends you back to Stormwind to report your success to Kristoff, completing the errand for Northshire’s scribes."
+   "answer": "After Brother Paxton receives the ore and prepares his inks, he sends you back to Stormwind to report your success to Kristoff. That completes the errand for Northshire’s scribes."
   }
  ],
  "angles": [
@@ -93,11 +93,11 @@
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance traveler, you can see how stretched the Kingdom of Stormwind’s supply lines are: monastery scribes rely on travelers to fetch writing supplies from war zones."
+   "text": "As an Alliance traveler, you can see how stretched the Kingdom of Stormwind’s supply lines are. Monastery scribes rely on travelers to fetch writing supplies from war zones."
   },
   {
    "target": "race:Human",
-   "text": "As a human, you share the duty of Stormwind’s scholars to preserve Northshire Abbey’s manuscripts and restore knowledge lost during the First and Second Wars."
+   "text": "As a human, you share Stormwind’s scholars’ duty to preserve Northshire Abbey’s manuscripts and restore knowledge lost during the First and Second Wars."
   }
  ],
  "keywords": [
@@ -122,5 +122,5 @@
  "attribution": [
   "Rethban Ore (quest)"
  ],
- "style": 1
+ "style": 2
 }

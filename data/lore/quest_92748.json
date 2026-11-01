@@ -17,16 +17,16 @@
   "wiki": "Explosive Consultation",
   "chain": []
  },
- "summary": "In Westfall, toxic industry beneath the Deadmines is poisoning the farmland. You travel to Stormwind's Dwarven District to seek an engineer who can supply heavy explosives.",
+ "summary": "Alba Fairmoon sends you to find a way to stop the poison spreading from the Deadmines into Westfall's fields. In Stormwind's Dwarven District, you seek an engineer who can make the heavy explosives the work requires.",
  "sections": [
   {
    "title": "A Toxic Source",
-   "body": "Westfall faces displaced vagrants and banditry under the Defias Brotherhood. Evidence from across the region points to a coordinated, mechanised threat underground. Industrial refuse and caustic toxins foul the soil, and their trail leads into the Deadmines, where an organized operation works below the earth.",
+   "body": "Westfall's poisoned fields lead back to caustic toxins and industrial refuse in the Deadmines. Reinforced machinery guards the underground works, and ordinary weapons cannot disable it. Heavy explosives could break through that machinery and halt the poisoning.",
    "spoiler": 0
   },
   {
    "title": "Seeking Stormwind's Expertise",
-   "body": "Fortified tunnels and machinery in the Deadmines call for more than ordinary weapons. To stop the poison reaching Westfall's fields, you seek help in Stormwind City's Dwarven District. Roaring forges, tinkerers, and merchants selling blasting powder fill the district. There you look for Sprite Jumpsprocket, an engineer who can devise explosives for the work.",
+   "body": "In Stormwind's Dwarven District, you seek Sprite Jumpsprocket, an engineer able to devise the needed explosives. Roaring forges, tinkerers, and merchants selling blasting powder fill the district. Its craftsmen may know how to stop the Deadmines operation.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "why do we need bombs",
     "deadmines toxins reason"
    ],
-   "answer": "Evidence from Westfall points to a large industrial operation in the Deadmines producing toxins that foul nearby farmland. Heavy explosives can disable its reinforced machinery."
+   "answer": "Evidence from Westfall points to a large industrial operation in the Deadmines, where toxins foul nearby farmland. Heavy explosives can disable its reinforced machinery."
   },
   {
    "q": "Who starts this quest?",
@@ -46,7 +46,7 @@
     "who gives explosive consultation",
     "explosive consultation start"
    ],
-   "answer": "Alba Fairmoon sends heroes investigating the unnatural contaminants and unrest threatening Westfall."
+   "answer": "Alba Fairmoon sends heroes to investigate the unnatural contaminants and unrest threatening Westfall."
   },
   {
    "q": "Who is Sprite Jumpsprocket?",
@@ -62,7 +62,7 @@
     "why dwarven district",
     "stormwind dwarven district connection"
    ],
-   "answer": "Stormwind's Dwarven District is the city's industrial heart, with skilled blacksmiths, tinkerers, blasting powder, and engineering components."
+   "answer": "Stormwind's Dwarven District is the city's industrial heart. Skilled blacksmiths and tinkerers work there, alongside sellers of blasting powder and engineering components."
   },
   {
    "q": "Does Stormwind's government assist with this effort?",
@@ -70,21 +70,21 @@
     "does the army help",
     "why stormwind engineer"
    ],
-   "answer": "With King Varian Wrynn missing and the House of Nobles reluctant to send formal military garrisons to Westfall, local defenders rely on independent volunteers and private craftsmen in the capital instead of regular army regiments."
+   "answer": "With King Varian Wrynn missing, the House of Nobles is reluctant to send formal military garrisons to Westfall. Local defenders rely on independent volunteers and private craftsmen in the capital rather than regular army regiments."
   }
  ],
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "As an engineer, you know that brute force cannot solve Westfall's troubles with poisoned land. Disabling large underground machinery calls for specialized munitions and careful technical skill."
+   "text": "As an engineer, you know brute force cannot solve Westfall's poisoned-land troubles. Disabling large underground machinery calls for specialized munitions and careful technical skill."
   },
   {
    "target": "race:Gnome",
-   "text": "As a gnome, you bring technological ingenuity that can help neutralize underground industrial threats beyond the reach of regular Alliance forces."
+   "text": "As a gnome, you bring technological ingenuity that can help counter underground industrial threats beyond the reach of regular Alliance forces."
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance member, you see how Westfall's struggling frontier communities depend on the workshops of Stormwind's Dwarven District."
+   "text": "As an Alliance member, you see Westfall's struggling frontier communities rely on the workshops of Stormwind's Dwarven District."
   }
  ],
  "keywords": [
@@ -109,5 +109,5 @@
  "attribution": [
   "Explosive Consultation"
  ],
- "style": 1
+ "style": 2
 }

@@ -11,11 +11,11 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "Elling has sent you to find Private Hendel, and a local officer says the search sounds troubling. Hendel was stationed at the first tower outside Theramore, where you are asked to look for signs of him.",
+ "summary": "Elling sends you to find Private Hendel, and a local officer fears the reason may be troubling. Hendel was stationed at Sentry Point, the first tower outside Theramore, where you are asked to seek signs of him.",
  "sections": [
   {
    "title": "At the Tower",
-   "body": "The officer knows Hendel and says he was stationed at Sentry Point, the first tower outside Theramore. The officer worries that Elling sent you there first because your business may be troubling, and asks to be told what you can share. The officer has a duty to protect the lands, so any disturbance matters to the local watch.",
+   "body": "A local officer knows Private Hendel and says he was stationed at Sentry Point, the first tower outside Theramore. The officer fears Elling sent you there first because your business may be troubling. Tell the officer what you can share. The watch must protect these lands, so any disturbance matters.",
    "spoiler": 0
   }
  ],
@@ -54,7 +54,7 @@
     "officer worried",
     "what's troubling"
    ],
-   "answer": "The officer thinks Elling would not have sent you there first unless your business was troubling, and wants to know what you can share to protect the lands."
+   "answer": "The officer fears Elling sent you there first because your business may be troubling. The officer wants to know what you can share to protect the lands."
   }
  ],
  "angles": [],
@@ -70,7 +70,7 @@
  "related": [
   "subzone:sentry-point"
  ],
- "style": 1,
+ "style": 2,
  "attribution": [
   "In-game quest text: The Missing Diplomat"
  ]

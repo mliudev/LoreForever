@@ -12,16 +12,16 @@
   "harvested": true,
   "level": "17"
  },
- "summary": "Borgus Steelhand seeks news of his brother Gorbold in Auberdine. The dwarven merchant asks travelers sailing west to check on Gorbold, who recently began trading in the night elven port. Their route links Stormwind Harbor with the shores of northern Kalimdor.",
+ "summary": "In Stormwind, Borgus Steelhand waits for news of his brother Gorbold in Auberdine. You can reach Gorbold by sailing west from Stormwind Harbor to northern Kalimdor.",
  "sections": [
   {
    "title": "A Dwarf Far from Home",
-   "body": "Borgus Steelhand trusts his family's name among traders. His brother, Gorbold Steelhand, crossed the Great Sea recently to work a merchant stall in Auberdine. Gorbold hoped to profit by supplying ships that call at Darkshore. Weeks have passed without a word, and Borgus worries about how his brother fares so far from Ironforge and Stormwind.",
+   "body": "Gorbold crossed the Great Sea to keep a merchant stall in auberdine. He hoped to profit by supplying ships that call at Darkshore. Weeks have passed without word, and Borgus worries for his brother so far from Ironforge and Stormwind.",
    "spoiler": 0
   },
   {
    "title": "The Harbor Passage",
-   "body": "Travel from the Eastern Kingdoms to Kalimdor once meant a winding passage through Menethil Harbor or neutral goblin ports such as Booty Bay. Borgus directs travelers to a vessel at the southern-most dock of Stormwind Harbor. It sails directly to Auberdine's long wooden piers.",
+   "body": "The passage to Kalimdor once led through Menethil Harbor or neutral goblin ports such as Booty Bay. Borgus sends you to the vessel at stormwind harbor's southern-most dock. Its direct sailing ends at Auberdine's long wooden piers.",
    "spoiler": 0
   }
  ],
@@ -33,7 +33,7 @@
     "who gives business in auberdine",
     "borgus"
    ],
-   "answer": "Borgus Steelhand is a dwarven merchant in Stormwind. He trusts his family's reputation for fair trading and seeks travelers to carry word to his brother Gorbold across the sea."
+   "answer": "Borgus Steelhand is a dwarven merchant in Stormwind. His family is known for fair trading, and he seeks travelers to carry word to his brother Gorbold across the sea."
   },
   {
    "q": "Where is Gorbold Steelhand located?",
@@ -42,7 +42,7 @@
     "find gorbold steelhand",
     "gorbold location"
    ],
-   "answer": "Gorbold Steelhand is in Auberdine, the main port settlement in Darkshore on Kalimdor's northwest coast. He works at a merchant stall serving arriving ships."
+   "answer": "Gorbold Steelhand is in auberdine, the main port settlement in Darkshore on Kalimdor's northwest coast. He works at a merchant stall serving arriving ships."
   },
   {
    "q": "How do you reach Auberdine from Stormwind?",
@@ -51,7 +51,7 @@
     "how to get to darkshore from stormwind",
     "stormwind to auberdine boat"
    ],
-   "answer": "A ship sails from the southern-most pier in Stormwind Harbor across the Great Sea to Auberdine's docks in Darkshore."
+   "answer": "A ship sails from the southern-most pier in stormwind harbor across the Great Sea to Auberdine's docks in Darkshore."
   },
   {
    "q": "Why is Borgus worried about his brother?",
@@ -59,7 +59,7 @@
     "why check on gorbold",
     "what happened to gorbold"
    ],
-   "answer": "Gorbold left weeks ago to join a merchant stall in Auberdine, hoping to profit by supplying ships. He has sent no word home, so Borgus asks travelers to find out how he fares."
+   "answer": "Gorbold left weeks ago to work at a merchant stall in Auberdine, hoping to profit by supplying ships. He has sent no word home, so Borgus asks travelers to learn how he fares."
   },
   {
    "q": "What kind of settlement is Auberdine?",
@@ -75,7 +75,7 @@
     "steelhand family",
     "steelhands"
    ],
-   "answer": "The Steelhand family is known for trade and for claiming to offer fair deals to travelers and dockworkers."
+   "answer": "The Steelhand family is known for trade and claims to offer fair deals to travelers and dockworkers."
   }
  ],
  "angles": [
@@ -85,7 +85,7 @@
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance traveler, you can sail directly between Stormwind Harbor and Auberdine, linking the human kingdom with the Kaldorei lands of northern Kalimdor."
+   "text": "As an Alliance traveler, you can sail directly between stormwind harbor and auberdine, linking the human kingdom with the Kaldorei lands of northern Kalimdor."
   }
  ],
  "keywords": [
@@ -107,5 +107,5 @@
  "attribution": [
   "In-game quest text: Business in Auberdine"
  ],
- "style": 1
+ "style": 2
 }

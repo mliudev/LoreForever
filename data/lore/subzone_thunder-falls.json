@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Thunder Falls"
  },
- "summary": "Thunder Falls lies in Elwynn Forest’s northwestern heights, where bandits have taken a riverside cottage.",
+ "summary": "Bandits now hold a cottage beside the stream at Thunder Falls, high in northwestern Elwynn Forest.",
  "sections": [
   {
    "title": "A Hidden Mountain Hollow",
-   "body": "Thunder Falls cuts through the ridges above Mirror Lake, where a mountain stream rushes between steep cliffs. It enters over an unreachable cascade in the north, then spills away in waterfalls on both sides. One fall empties into Mirror Lake; the stream’s downstream course runs west toward Westfall’s rugged border. A cottage, dock, and outdoor forge sit beside the water. Bandits now claim the clearing.",
+   "body": "Above Mirror Lake, a mountain stream runs between the steep cliffs of Thunder Falls. From an unreachable cascade in the north, it spills down in falls on both sides. One pours into Mirror Lake, while the stream runs west toward Westfall’s rugged border.\n\nA cottage, a dock, and an outdoor forge stand beside the water. Bandits now claim the clearing.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "thunder falls location",
     "where is thunder falls"
    ],
-   "answer": "Reach Thunder Falls from the northern side of Mirror Lake in Elwynn Forest. A steep, narrow trail climbs into the hills beside the waterfall’s right side and leads into the ravine."
+   "answer": "From the northern side of Mirror Lake, a steep, narrow trail climbs into the hills beside the waterfall’s right side. Follow it into the ravine."
   },
   {
    "q": "Who lives in the cottage at Thunder Falls?",
@@ -32,7 +32,7 @@
     "thunder falls house",
     "cottage bandits"
    ],
-   "answer": "The cottage at Thunder Falls appears to have belonged to a solitary fisherman or frontiersman, with a dock, rowing boat, and outdoor anvil nearby. Bandits operating in Elwynn Forest now use it as a remote hideout."
+   "answer": "The cottage appears to have belonged to a solitary fisherman or frontiersman. A dock, rowing boat, and outdoor anvil remain nearby, but bandits operating in Elwynn Forest now use the cottage as a remote hideout."
   },
   {
    "q": "Where does the river at Thunder Falls flow?",
@@ -40,7 +40,7 @@
     "where does the water go",
     "thunder falls river"
    ],
-   "answer": "The stream runs through the narrow mountain gap from an upper cascade. It passes the cottage, then plunges down a steep waterfall near Westfall’s eastern boundary."
+   "answer": "The stream runs through a narrow mountain gap from an upper cascade. It passes the cottage, then plunges down a steep waterfall near Westfall’s eastern boundary."
   }
  ],
  "angles": [],
@@ -60,5 +60,5 @@
  "attribution": [
   "Thunder Falls"
  ],
- "style": 1
+ "style": 2
 }

@@ -14,7 +14,7 @@
  "sections": [
   {
    "title": "Fodder Among the Ruins",
-   "body": "Westfall once fed the Kingdom of Stormwind, but its farms now lie overgrown or under the control of Defias bandits and rogue harvest golems. Sacks of grain and oats remain near barns, outbuildings, and overgrown fields. Travelers and refugees stranded by broken wagons along the dusty roads can gather the leftover oats to feed their weary draft horses.",
+   "body": "Westfall once fed the Kingdom of Stormwind. Now its farms lie overgrown or under the control of Defias bandits and rogue harvest golems. Sacks of grain and oats remain by barns and outbuildings, and in overgrown fields. Travelers and refugees whose wagons break down along the dusty roads can gather the leftover oats for their weary draft horses.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "why collect oats",
     "handful of oats use"
    ],
-   "answer": "The oats feed Old Blanchy, a weary mare belonging to the Furlbrow family. Their wagon broke down on a Westfall road, leaving her exhausted and in need of food."
+   "answer": "The oats feed Old Blanchy, the Furlbrow family's weary mare. Their wagon broke down on a Westfall road, leaving her exhausted and hungry."
   },
   {
    "q": "Where can these oats be found?",
@@ -35,7 +35,7 @@
     "sack of oats location",
     "how to get oats"
    ],
-   "answer": "You can gather oats from sacks scattered around abandoned farms across Westfall, especially in the southwest."
+   "answer": "Oats lie in sacks scattered across abandoned Westfall farms. Look especially in the southwest."
   },
   {
    "q": "Why are the oat sacks left unguarded?",
@@ -49,7 +49,7 @@
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance traveler in Westfall, gathering oats for stranded refugees like the Furlbrows offers a small act of mercy on Stormwind's neglected frontier."
+   "text": "As an Alliance traveler in Westfall, you can offer stranded refugees like the Furlbrows a small act of mercy by gathering oats on Stormwind's neglected frontier."
   }
  ],
  "keywords": [
@@ -71,5 +71,5 @@
   "Handful of Oats (Classic)",
   "Poor Old Blanchy"
  ],
- "style": 1
+ "style": 2
 }

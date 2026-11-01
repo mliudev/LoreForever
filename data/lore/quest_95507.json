@@ -11,11 +11,11 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "Vrang asks you to check his traps across a valley in the Barrens. The small game they catch will help him, while other wildlife can make the area dangerous.",
+ "summary": "Vrang sends you across a valley in the Barrens to check his traps. The small game they catch can help him, though other wildlife makes the area dangerous.",
  "sections": [
   {
    "title": "Vrang's Traps",
-   "body": "Vrang has traps scattered across the valley and asks you to bring back any small game they have caught. He warns that other wildlife can make the area dangerous if you lose focus.",
+   "body": "Vrang has traps scattered across the valley, and he wants you to bring back any small game they have caught. Keep your attention on the wildlife too, for it can make the area dangerous.",
    "spoiler": 0
   }
  ],
@@ -27,7 +27,7 @@
     "vrang game",
     "what does vrang need"
    ],
-   "answer": "Vrang asks you to check his traps and bring back the small game they have caught."
+   "answer": "Vrang wants you to check his traps and bring back any small game they have caught."
   },
   {
    "q": "Where are Vrang's traps?",
@@ -36,7 +36,7 @@
     "trap location",
     "barrens traps"
    ],
-   "answer": "Vrang says his traps are scattered across the valley in the Barrens."
+   "answer": "Vrang's traps are scattered across a valley in the Barrens."
   },
   {
    "q": "What is dangerous around the traps?",
@@ -45,7 +45,7 @@
     "other animals",
     "wildlife danger"
    ],
-   "answer": "Vrang warns that other wildlife in the area can be dangerous if you are not paying attention."
+   "answer": "Other wildlife around the traps can be dangerous if you are not paying attention."
   }
  ],
  "angles": [],
@@ -59,7 +59,7 @@
   "wildlife"
  ],
  "related": [],
- "style": 1,
+ "style": 2,
  "attribution": [
   "In-game quest text: Vrang's Game"
  ]

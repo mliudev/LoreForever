@@ -7,26 +7,26 @@
  "meta": {
   "wiki": "Warlock"
  },
- "summary": "Warlocks are spellcasters who bargain with dark powers, commanding demons, debilitating curses, and devastating fire and shadow magics. While deeply feared and distrusted by nearly every civilized society on Azeroth, some wield these forbidden arts in defense of their factions, turning the weapons of the Burning Legion against its own agents.",
+ "summary": "Across Azeroth, Warlocks wield forbidden powers that bring fear and distrust. They command demons and cast curses, fire, and shadow magic. Some turn these arts against the Burning Legion and its servants.",
  "sections": [
   {
    "title": "Forbidden Arts",
-   "body": "Where ordinary spellcasters see corruption and ruin, warlocks see opportunity. They achieve victory through calculated cruelty, striking from a distance while cloaked in shadow and fire. By siphoning the vital essences and souls of their enemies, warlocks fuel their most catastrophic rituals, raining brimstone from the sky and breaking minds with agonizing curses. Because they wear only simple cloth and possess little physical resilience, they rely on summoned horrors to intercept danger, willingly sacrificing demonic thralls to ensure their own survival.",
+   "body": "Where ordinary spellcasters see ruin, warlocks see a path to victory. They strike from afar with shadow and fire, and drain the vital essence and souls of their enemies to fuel their fiercest rites. Brimstone falls from the sky, and agonizing curses break the mind.\n\nWarlocks wear simple cloth and have little strength to withstand a blow. They call horrors to meet danger and sacrifice demonic thralls to preserve their own lives.",
    "spoiler": 0
   },
   {
    "title": "Demonic Servitude",
-   "body": "A warlock's authority over the Twisting Nether begins with petty bargains and grows into iron domination. Novices learn to command mischievous imps to hurl flame, but as a practitioner's dark understanding deepens, they bind far deadlier entities: voidwalkers torn from shadowy depths to absorb physical punishment, seductive succubi capable of beguiling enemy minds, and ravenous felhunters that devour magical energies. Each summon demands dangerous ritual focus, for the Nether's denizens constantly test their masters for any flicker of weakness.",
+   "body": "A warlock's hold over the Twisting Nether begins with small bargains and grows into iron dominion. Novices command mischievous imps to hurl flame. With deeper knowledge of fel magic, they bind voidwalkers from shadowy depths to bear physical punishment, succubi who beguile enemy minds, and ravenous felhunters that devour magical energy.\n\nEach summon demands dangerous focus. The Nether's denizens are ever testing their masters for weakness.",
    "spoiler": 0
   },
   {
    "title": "A Legacy of Ruin",
-   "body": "The roots of orcish demonology trace back to Draenor, where the demon lord Kil'jaeden seduced Gul'dan with the promise of supreme power. Gul'dan founded the secretive Shadow Council and transformed many shaman into masters of fel magic. The rampant use of demonic magic withered Draenor's fertile plains into barren red wasteland, heralding the Old Horde's invasion through the Dark Portal. In human lands, the Kirin Tor forbade demonology and hunted down illicit summonings, yet ambitious mages regularly succumbed to the lure of untamed sorcery.",
+   "body": "Orcish demonology began on Draenor, where Kil'jaeden, a demon lord, tempted Gul'dan with the promise of supreme power. Gul'dan founded the secretive Shadow Council and turned many shaman into masters of fel magic. Demonic magic withered Draenor's fertile plains into a barren red wasteland, and the Old Horde invaded through the Dark Portal.\n\nAmong humans, the Kirin Tor forbade demonology and hunted illicit summonings. Yet ambitious mages still fell to the lure of untamed sorcery.",
    "spoiler": 0
   },
   {
    "title": "Tolerated Pariahs",
-   "body": "In the modern era, warlocks walk a razor's edge between utility and execution. In Stormwind, practitioners meet hidden away in gloomy tavern basements, far from the watchful eyes of the Cathedral of Light. In Orgrimmar, they cluster in the shadowed chasms of the Cleft of Shadow, kept under scrutiny by Thrall's shamanistic regime. While their methods invite revulsion, neither Alliance nor Horde can completely dismiss the devastating edge warlock magic offers on a hostile battlefield.",
+   "body": "Warlocks now walk a narrow path between usefulness and execution. In Stormwind, they meet in hidden, gloomy tavern basements, away from the Cathedral of Light's watchful eyes. In Orgrimmar, they gather in the shadowed chasms of the Cleft of Shadow, watched by Thrall's shamanistic regime.\n\nTheir methods inspire revulsion, yet neither the Alliance nor the Horde can dismiss the edge warlock magic brings to a hostile battlefield.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "difference between warlock and mage",
     "mage or warlock"
    ],
-   "answer": "Mages draw upon the orderly structure of arcane magic to manipulate fire, frost, and energy. Warlocks disregard safe limits, diving directly into chaotic fel magic, shadow, and demonic summoning. Many warlocks began their careers as mages who grew impatient with academic restrictions and sought forbidden shortcuts to overwhelming power."
+   "answer": "Mages use the ordered structure of arcane magic to shape fire, frost, and energy. Warlocks cross its safe bounds for chaotic fel magic, shadow, and demons. Many began as mages, then grew impatient with academic limits and sought forbidden shortcuts to power."
   },
   {
    "q": "Are all warlocks evil?",
@@ -47,7 +47,7 @@
     "can warlocks be good",
     "why does the alliance allow warlocks"
    ],
-   "answer": "Not all warlocks are inherently wicked, but their magic is dangerous and corruptive. While many fall into madness or join demonic cults, player warlocks often pledge their loyalty to their faction, turning dark sorcery, stolen souls, and bound demons against external threats like the Scourge or the Burning Legion."
+   "answer": "Not every warlock is wicked, though warlock magic is dangerous and corruptive. Many fall into madness or join demonic cults. Others pledge loyalty to their faction and wield dark sorcery, stolen souls, and bound demons against threats such as the Scourge and the Burning Legion."
   },
   {
    "q": "How do warlocks summon and control demons?",
@@ -56,7 +56,7 @@
     "demonic summoning lore",
     "binding demons"
    ],
-   "answer": "Warlocks use ritual circles, dark incantations, and soul energy to pull creatures out of the Twisting Nether. Once summoned, the demon must be broken and bound to the caster's will through sheer mental dominance. Should a warlock's concentration slip, the demon will happily slaughter its master."
+   "answer": "Warlocks draw creatures from the Twisting Nether with ritual circles, dark incantations, and soul energy. They must break each demon's will and bind it through sheer mental dominance. If their focus slips, the demon may slaughter its master."
   },
   {
    "q": "Where did orc warlocks come from?",
@@ -65,7 +65,7 @@
     "gul'dan warlocks",
     "orc fel magic origin"
    ],
-   "answer": "Orc warlocks were created on Draenor when Kil'jaeden manipulated Gul'dan into abandoning shamanism for demonic sorcery. Gul'dan formed the Shadow Council and trained other orcs, spreading fel corruption across their homeland until Draenor's soil withered and died."
+   "answer": "Orc warlocks began on Draenor, when Kil'jaeden turned Gul'dan from shamanism to demonic sorcery. Gul'dan formed the Shadow Council and trained other orcs. Fel corruption spread across their homeland until Draenor's soil withered and died."
   },
   {
    "q": "Why do the Alliance and Horde tolerate warlocks in their cities?",
@@ -74,7 +74,7 @@
     "are warlocks legal",
     "warlock legality"
    ],
-   "answer": "Neither faction truly trusts them. In Stormwind and Ironforge, warlocks practice in secret basements and forgotten tunnels to avoid public outrage. In Orgrimmar, they are sequestered in the Cleft of Shadow. Leaders tolerate them purely because their terrifying curses and summonings are undeniably effective weapons in wartime."
+   "answer": "Neither faction trusts warlocks. In Stormwind and Ironforge, they practice in secret basements and forgotten tunnels to avoid public outrage. In Orgrimmar, they are kept in the Cleft of Shadow. Leaders tolerate them because their curses and summons are effective weapons in wartime."
   },
   {
    "q": "What are soul shards used for?",
@@ -83,7 +83,7 @@
     "soul shard lore",
     "harvesting souls"
    ],
-   "answer": "Warlocks drain the living essence of defeated enemies to forge crystallized soul shards. These soul fragments serve as potent batteries, providing the raw energy needed to bypass natural magical laws, summon monstrous demons, and cast their most destructive spells."
+   "answer": "Warlocks drain the living essence of defeated enemies to make crystallized soul shards. These fragments hold the raw power to bypass natural magical laws, summon monstrous demons, and cast their most destructive spells."
   },
   {
    "q": "Which races can be warlocks?",
@@ -93,29 +93,29 @@
     "can trolls be warlocks",
     "troll warlock"
    ],
-   "answer": "Humans and gnomes train as warlocks in the Alliance, and orcs, trolls and the Forsaken do in the Horde. Dwarves, night elves, tauren and the Skyborne do not. Everywhere, warlocks are tolerated rather than trusted."
+   "answer": "Humans and gnomes practice as warlocks in the Alliance. In the Horde, orcs, trolls, and the Forsaken do. Dwarves, night elves, tauren, and the Skyborne do not. Wherever they live, warlocks are tolerated rather than trusted."
   }
  ],
  "angles": [
   {
    "target": "class:Mage",
-   "text": "Mages view warlocks with acute contempt and fear, seeing them as undisciplined sorcerers whose reckless dealings with the Nether endanger all mortal life."
+   "text": "As a mage, you may view warlocks with contempt and fear. Their dealings with the Nether seem undisciplined and put all mortal life at risk."
   },
   {
    "target": "class:Shaman",
-   "text": "Shaman despise warlock magic above all else, remembering how Gul'dan's fel sorcery severed their ancestors' ties to the spirits and killed Draenor's land."
+   "text": "As a shaman, you remember how Gul'dan's fel sorcery severed your ancestors' ties to the spirits and killed Draenor's land. That is why shaman despise warlock magic above all else."
   },
   {
    "target": "race:Orc",
-   "text": "For orcs, practicing demonology carries the bitter stain of the Old Horde's blood curse, though some retain the arts to survive in a hostile world."
+   "text": "As an orc, you bear the bitter stain of the Old Horde's blood curse when you practice demonology. Some orcs keep these arts to survive in a hostile world."
   },
   {
    "target": "class:Paladin",
-   "text": "Devotees of the Holy Light consider demonic summoning an abominable heresy and monitor practicing warlocks with open hostility."
+   "text": "As a paladin, you consider demonic summoning an abominable heresy. You watch warlocks who practice it with open hostility."
   },
   {
    "target": "race:Troll",
-   "text": "Darkspear warlocks begin beside orc initiates in the Valley of Trials, held to the same wary scrutiny Thrall's Horde keeps on every wielder of fel magic."
+   "text": "As a troll, you begin warlock training beside orc initiates in the Valley of Trials. Thrall's Horde watches every wielder of fel magic with the same wariness."
   }
  ],
  "keywords": [
@@ -142,5 +142,6 @@
  ],
  "attribution": [
   "Warlock"
- ]
+ ],
+ "style": 2
 }

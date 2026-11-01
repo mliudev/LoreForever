@@ -1880,6 +1880,7 @@ Voice.AutoPlayingNow = autoPlayingNow   -- (Strip.Narration tells Willo)
 local WILLO_HOLD, WILLO_KEY_MAX = 45, 60
 local willoUntil = 0
 local function willoAnswering() return now() < willoUntil end
+Voice.WilloAnswering = willoAnswering   -- (her big moments wait for it too, Moments.lua)
 
 -- Flight narration: when a taxi flight starts, and each time it crosses into a new zone, play that zone's recorded
 -- story (a zone no voice recorded passes in silence). Voice.flying notes a flight with flight narration off too:

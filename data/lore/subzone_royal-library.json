@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Royal Library"
  },
- "summary": "Scholars come to the Royal Library in Stormwind Keep for the kingdom’s records and histories. Head Librarian Milton Sheaf watches over its scrolls and treatises, from ancient wars to accounts of realms beyond the sea.",
+ "summary": "Within Stormwind Keep, scholars turn to the Royal Library for the kingdom’s records and histories. Head Librarian Milton Sheaf watches over its scrolls and treatises, from ancient wars to accounts of realms beyond the sea.",
  "sections": [
   {
    "title": "A Repository of the Realm",
-   "body": "The Royal Library offers quiet among Stormwind Keep’s guarded halls and courtly intrigues. Milton Sheaf oversees its shelves of southern human history, from surviving texts written before the First War to recent military chronicles and recovered tomes. Alliance scholars, priests, and travelers may browse its treatises. They cover the founding of the Alliance of Lordaeron and the recent arrival of Thrall’s Horde in Kalimdor.",
+   "body": "Within Stormwind Keep’s guarded halls, the Royal Library offers a quiet place amid courtly intrigue. Milton Sheaf oversees its shelves of southern human history. They hold surviving texts written before the First War, recent military chronicles, and recovered tomes. Alliance scholars, priests, and travelers may browse its treatises on the founding of the Alliance of Lordaeron and the recent arrival of Thrall’s Horde in Kalimdor.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "stormwind library location",
     "how to find library"
    ],
-   "answer": "The Royal Library lies inside Stormwind Keep, in the eastern part of Stormwind City. From the keep’s grand foyer, follow the corridors to its scholar and archive wings."
+   "answer": "The Royal Library lies inside Stormwind Keep, in eastern Stormwind City. From the keep’s grand foyer, follow the corridors to its scholar and archive wings."
   },
   {
    "q": "Who runs the library?",
@@ -32,7 +32,7 @@
     "head librarian",
     "milton sheaf"
    ],
-   "answer": "Milton Sheaf is the head librarian. He manages the records and helps scholars and adventurers find missing volumes or treatises on the kingdom."
+   "answer": "Milton Sheaf runs the library as head librarian. He manages its records and helps scholars and adventurers find missing volumes or treatises on the kingdom."
   },
   {
    "q": "What kinds of books can be read here?",
@@ -81,5 +81,5 @@
  "attribution": [
   "Royal Library"
  ],
- "style": 1
+ "style": 2
 }

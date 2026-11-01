@@ -10,11 +10,11 @@
    "quest:153"
   ]
  },
- "summary": "In Westfall, Red Leather Bandanas mark those who defy Stormwind’s Crown. The Defias Brotherhood wears them as face coverings and a sign of their cause.",
+ "summary": "In Westfall, the Red Leather Bandana marks those who defy Stormwind’s Crown. The Defias Brotherhood wears it to cover their faces and show their cause.",
  "sections": [
   {
    "title": "Mark of the Brotherhood",
-   "body": "Across Westfall’s fields and abandoned farms, highwaymen, looters, and rebellious laborers wear crimson bandanas to hide their faces. The People's Militia at Sentinel Hill sees each one as proof of loyalty to Edwin VanCleef's rogue fraternity. Scout Galiaan collects the bandanas from travelers to follow the Brotherhood’s movements and dwindling numbers across the region.",
+   "body": "Across Westfall’s fields and abandoned farms, highwaymen, looters, and rebellious laborers wear crimson bandanas to hide their faces. The People's Militia at Sentinel Hill sees each as proof of loyalty to Edwin VanCleef's rogue fraternity. Scout Galiaan gathers the bandanas from travelers to follow the Brotherhood’s movements and dwindling numbers across the region.",
    "spoiler": 1
   }
  ],
@@ -26,7 +26,7 @@
     "why red bandana",
     "defias bandana meaning"
    ],
-   "answer": "The Defias wear red bandanas to hide their faces while raiding farms and roads, and to show allegiance to Edwin VanCleef's uprising against Stormwind."
+   "answer": "The Defias wear red bandanas to hide their faces while raiding farms and roads. They also show allegiance to Edwin VanCleef's uprising against Stormwind."
   },
   {
    "q": "Who wants these bandanas collected in Westfall?",
@@ -35,7 +35,7 @@
     "galiaan bandana quest",
     "sentinel hill bandana turn in"
    ],
-   "answer": "Scout Galiaan of the People's Militia at Sentinel Hill asks travelers to gather the bandanas. He uses them to track the gang’s movements and confirm the deaths of roving bandits."
+   "answer": "Scout Galiaan of the People's Militia at Sentinel Hill asks travelers to gather the bandanas. He tracks the gang’s movements and confirms the deaths of roving bandits with them."
   },
   {
    "q": "Where are these bandanas found?",
@@ -50,11 +50,11 @@
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "For the Alliance, each red bandana taken from a fallen outlaw marks one less brigand threatening Westfall’s starving farmers and beleaguered militia."
+   "text": "For the Alliance, each red bandana taken from a fallen outlaw means one less brigand threatening Westfall’s starving farmers and beleaguered militia."
   },
   {
    "target": "class:Rogue",
-   "text": "As a rogue, you know the crimson mask as a sign of underground banditry in human lands, worn by thieves organized with military precision."
+   "text": "As a rogue, you know the crimson mask as a sign of underground banditry in human lands. Thieves organized with military precision wear it."
   }
  ],
  "keywords": [
@@ -76,5 +76,5 @@
   "Red Leather Bandana",
   "Red Leather Bandanas"
  ],
- "style": 1
+ "style": 2
 }

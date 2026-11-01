@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Jaedenar"
  },
- "summary": "Jaedenar is a blighted hollow in central Felwood built over ancient night elf ruins and druidic barrow dens. Named in foul homage to the demon lord Kil'jaeden, it serves as the primary base of operations for the Shadow Council in northern Kalimdor. Cultists, warlocks, and summoned demons scour the corrupt hollow, guarding the subterranean descent into the Shadow Hold.",
+ "summary": "Cultists and demons now hold Jaedenar, the Shadow Council’s chief base in northern Kalimdor. Blighted woodland covers ancient night elf ruins and druidic barrow dens, with the Shadow Hold below.",
  "sections": [
   {
    "title": "A Bastion of Fel Worship",
-   "body": "Long ago, these hollows sheltered night elf sacred grounds and slumbering druids connected to the Emerald Dream. After the devastation of the Third War, the vile remnant of the Shadow Council laid claim to the valley, christening it Jaedenar to honor the demon lord Kil'jaeden. Warlocks\u2014predominantly renegade orcs and Forsaken\u2014have gathered here alongside satyrs, succubi, and felguards. They occupy both the surface ruins and the deeper barrow dens, twisting what was once holy woodland into a grim center of demonic invocation.",
+   "body": "Night elf sacred grounds and barrow dens once filled these hollows. Druids slept in the dens while connected to the Emerald Dream. After the Third War, the Shadow Council claimed the valley and named it for the demon lord Kil'jaeden. Renegade orc and Forsaken warlocks gathered there with satyrs, succubi, and felguards. They hold the surface ruins and deeper barrow dens, turning sacred woodland into a center for demonic rites.",
    "spoiler": 0
   },
   {
    "title": "The Gates of the Shadow Hold",
-   "body": "Above ground, the cultists gather at profane sites like the Shrine of the Deceiver, burning braziers of fell flame and conducting rituals to further corrupt the timberland. Beneath the surface lies the entrance to the Shadow Hold, the subterranean stronghold where the council's true masters direct their operations across Felwood. The Emerald Sanctuary watches the festering enclave with profound concern, regularly enlisting daring wanderers to disrupt their summoning circles and douse the dark flames that seal their tunnels.",
+   "body": "Cultists gather at profane sites above ground, including the Shrine of the Deceiver. Braziers burn with fel flame, and rituals further corrupt the timberland. Below lies the entrance to the Shadow Hold, where the council's true masters direct their work across Felwood. The Emerald Sanctuary watches Jaedenar with concern. It regularly calls on daring wanderers to disrupt summoning circles and douse the dark flames sealing the tunnels.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "why is it called jaedenar",
     "jaedenar namesake"
    ],
-   "answer": "Jaedenar was named by the Shadow Council in worship of Kil'jaeden the Deceiver, one of the supreme commanders of the Burning Legion."
+   "answer": "The Shadow Council named Jaedenar in worship of Kil'jaeden the Deceiver, a supreme commander of the Burning Legion."
   },
   {
    "q": "Who controls Jaedenar?",
@@ -37,7 +37,7 @@
     "jaedenar faction",
     "enemies in jaedenar"
    ],
-   "answer": "The stronghold is held by the Shadow Council, an insidious cabal of mortal warlocks\u2014chiefly orcs and Forsaken\u2014who serve the demonic will of the Burning Legion alongside summoned fiends and corrupted satyrs."
+   "answer": "The Shadow Council controls Jaedenar. Its warlocks, chiefly orcs and Forsaken, serve the Burning Legion alongside summoned demons and corrupted satyrs."
   },
   {
    "q": "What was here before the demons arrived?",
@@ -46,7 +46,7 @@
     "who lived in jaedenar",
     "jaedenar barrow dens"
    ],
-   "answer": "Before the Third War, the area consisted of ancient night elf architecture and peaceful druidic barrow dens where druids once rested while roaming the Emerald Dream."
+   "answer": "Before the Third War, ancient night elf ruins and peaceful druidic barrow dens stood here. Druids rested in the dens while roaming the Emerald Dream."
   },
   {
    "q": "What is the Shadow Hold?",
@@ -55,17 +55,17 @@
     "cave in jaedenar",
     "underground jaedenar"
    ],
-   "answer": "The Shadow Hold is the subterranean cavern system beneath Jaedenar. Formerly druidic barrow dens, it now functions as the fortified headquarters of the Shadow Council's leadership in Felwood."
+   "answer": "The Shadow Hold is a subterranean cavern system beneath Jaedenar and the fortified headquarters of the Shadow Council's leadership in Felwood. Its caverns were once druidic barrow dens."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "Jaedenar is a tragic desecration of sacred ground; its barrows, once peaceful sanctuaries for communion with the Emerald Dream, are now drowned in demonic ichor."
+   "text": "As a druid, you walk sacred ground laid waste. Jaedenar's barrows were once peaceful sanctuaries where druids communed with the Emerald Dream; now demonic ichor drowns them."
   },
   {
    "target": "class:Warlock",
-   "text": "The warlocks of Jaedenar represent the Shadow Council's enduring presence on Azeroth, openly summoning powerful demons and wielding volatile fel sorcery."
+   "text": "As a warlock, you see the Shadow Council's enduring presence on Azeroth in Jaedenar. Its warlocks openly summon powerful demons and wield volatile fel sorcery."
   }
  ],
  "keywords": [
@@ -88,5 +88,6 @@
  ],
  "attribution": [
   "Jaedenar"
- ]
+ ],
+ "style": 2
 }

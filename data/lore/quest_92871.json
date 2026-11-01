@@ -18,7 +18,7 @@
     "who is valennia stormfist",
     "valennia stormfist"
    ],
-   "answer": "Valennia Stormfist leads the peacekeepers responsible for protecting Zephras. She coordinates the defense of the island, including Valanaar's campaign against the hostile cult known as the Al'Aketh.",
+   "answer": "Valennia Stormfist leads the peacekeepers who protect Zephras. She directs the island's defense, including Valanaar's campaign against the Al'Aketh.",
    "q": "Who is Valennia Stormfist?"
   },
   {
@@ -26,7 +26,7 @@
     "what are the windshapers",
     "windshapers lore"
    ],
-   "answer": "The Windshapers are an allied group on Zephras who assist Valennia Stormfist and her peacekeepers. They offer their complete backing to Valanaar's forces in combating the rising threat of the Al'Aketh.",
+   "answer": "The Windshapers are allies on Zephras who aid Valennia Stormfist and her peacekeepers. They offer full support to Valanaar's forces against the growing threat of the Al'Aketh.",
    "q": "Who are the Windshapers?"
   },
   {
@@ -35,7 +35,7 @@
     "what is alaketh",
     "al aketh cult"
    ],
-   "answer": "The Al'Aketh are a cult operating across the island of Zephras. Reports indicate they are conducting larger-scale movements and preparing for imminent conflict.",
+   "answer": "The Al'Aketh are a cult active across Zephras. Reports say they are making larger moves and preparing for conflict.",
    "q": "What are the Al'Aketh?"
   },
   {
@@ -43,7 +43,7 @@
     "what is zephras",
     "zephras island"
    ],
-   "answer": "Zephras is an island defended by Valennia Stormfist and her peacekeepers, where the Windshapers provide aid against threatening cult activity from the Al'Aketh.",
+   "answer": "Zephras is an island defended by Valennia Stormfist and her peacekeepers. The Windshapers aid them against the Al'Aketh cult.",
    "q": "What is Zephras?"
   },
   {
@@ -51,7 +51,7 @@
     "what is valanaar",
     "who is valanaar"
    ],
-   "answer": "Valanaar is a settlement on Zephras, home to Valennia Stormfist's peacekeepers. Its fight against the Al'Aketh has the Windshapers' full support.",
+   "answer": "Valanaar is a settlement on Zephras and home to Valennia Stormfist's peacekeepers. The Windshapers fully support its fight against the Al'Aketh.",
    "q": "What is Valanaar?"
   }
  ],
@@ -68,18 +68,19 @@
  ],
  "sections": [
   {
-   "body": "Tensions are escalating across the island of Zephras as reports indicate widespread cult activity. The peacekeepers under Valennia Stormfist have long stood guard over these lands, but the Al'Aketh appear to be organizing for a larger conflict. To ensure the island remains protected, the Windshapers have pledged to stand firmly alongside Valanaar's forces should active hostilities erupt.",
+   "body": "Reports of Al'Aketh activity are spreading across Zephras. Valennia Stormfist's peacekeepers have guarded the island for a long while, but the cult now seems to be preparing for a larger conflict. So the Windshapers pledge to stand with Valanaar's forces if open fighting begins.",
    "spoiler": 0,
    "title": "Rumors on the Island"
   },
   {
-   "body": "You are dispatched to meet with Valennia Stormfist and confirm that the Windshapers stand fully prepared to aid her peacekeepers. Upon hearing of this allied readiness, Valennia welcomes the swift commitment and prepares to discuss the worsening situation regarding the cult.",
+   "body": "You are sent to Valennia Stormfist to assure her that the Windshapers are ready to aid her peacekeepers. Valennia welcomes their swift pledge. She is ready to speak with you about the cult's worsening threat.",
    "spoiler": 0,
    "title": "Pledging Support"
   }
  ],
- "summary": "Word spreads across Zephras that the Al'Aketh cult is mobilizing for a significant conflict. To bolster the island's defenses, an emissary is sent to reassure Valennia Stormfist that the Windshapers stand ready to support her peacekeepers.",
+ "summary": "Across Zephras, the Al'Aketh cult is gathering for a wider conflict. The Windshapers send an emissary to assure Valennia Stormfist that they will aid her peacekeepers.",
  "attribution": [
   "In-game quest text: In Service of Zephras"
- ]
+ ],
+ "style": 2
 }

@@ -11,23 +11,23 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "Mull asks you to carry Thunderhorn\u2019s report to Archdruid Hamuul Runetotem in Thunder Bluff. The elders need to hear what your help has accomplished.",
+ "summary": "Mull sends you to carry Thunderhorn’s report to Archdruid Hamuul Runetotem in Thunder Bluff. The elders need to hear what your help has accomplished.",
  "sections": [
   {
    "title": "The Report",
-   "body": "You bring Thunderhorn\u2019s report to Hamuul on the Elder Rise in eastern Thunder Bluff. He says Mulgore\u2019s springs support the tauren and the animals they depend on for food, clothing, and companionship.",
+   "body": "You bring Thunderhorn’s report to Hamuul on the Elder Rise in eastern Thunder Bluff. The report concerns Mulgore’s springs, which sustain the tauren and the animals they rely on for food, clothing, and companionship.",
    "spoiler": 0
   }
  ],
  "faq": [
   {
-   "q": "Who needs Thunderhorn\u2019s report?",
+   "q": "Who needs Thunderhorn’s report?",
    "aliases": [
     "who gets the report",
     "report for Hamuul",
     "thunderhorn report"
    ],
-   "answer": "Archdruid Hamuul Runetotem in Thunder Bluff needs Thunderhorn\u2019s report."
+   "answer": "Archdruid Hamuul Runetotem in Thunder Bluff needs Thunderhorn’s report."
   },
   {
    "q": "Where is Hamuul Runetotem?",
@@ -45,7 +45,7 @@
     "what are the springs for",
     "Mulgore springs"
    ],
-   "answer": "Mulgore\u2019s springs support the tauren and the animals they rely on for food, clothing, and companionship."
+   "answer": "Mulgore’s springs support the tauren and the animals they rely on for food, clothing, and companionship."
   },
   {
    "q": "What does Hamuul say about the springs?",
@@ -71,7 +71,7 @@
  "related": [
   "zone:thunderbluff"
  ],
- "style": 1,
+ "style": 2,
  "attribution": [
   "In-game quest text: Thunderhorns Bericht"
  ]

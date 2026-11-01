@@ -10,11 +10,11 @@
    "quest:3114"
   ]
  },
- "summary": "In Coldridge Valley, the Glyphic Memorandum sends novice mages to Anvilmar. Marryk Nurribit wrote it to guide arriving spellcasters into formal arcane instruction.",
+ "summary": "In Coldridge Valley, the Glyphic Memorandum calls novice mages to Anvilmar. Marryk Nurribit wrote it to guide new spellcasters into formal arcane instruction.",
  "sections": [
   {
    "title": "A Summons to Anvilmar",
-   "body": "Novice spellcasters receive the Glyphic Memorandum after finishing their first tasks in Coldridge Valley. Marryk Nurribit, the local mage trainer, calls them inside Anvilmar. His advice is plain: learn your incantations, save coin for training and tavern ale, and keep clear of Gnomeregan, ruined by radiation.",
+   "body": "Novice spellcasters receive the Glyphic Memorandum after their first tasks in Coldridge Valley. Marryk Nurribit, the local mage trainer, summons them inside Anvilmar. He gives plain counsel: learn your incantations, save coin for training and tavern ale, and keep clear of Gnomeregan, ruined by radiation.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "mage note",
     "what is glyphic memorandum"
    ],
-   "answer": "The Glyphic Memorandum is a short summons for newly arrived mages in Coldridge Valley. It directs them to the arcane trainer inside Anvilmar."
+   "answer": "The Glyphic Memorandum summons newly arrived mages in Coldridge Valley. It directs them to the arcane trainer inside Anvilmar."
   },
   {
    "q": "Who wrote this memorandum?",
@@ -53,7 +53,7 @@
   },
   {
    "target": "race:Gnome",
-   "text": "As a gnome mage starting your journey in exile, your trainer urges you to focus on your studies and stay away from Gnomeregan, your lost homeland."
+   "text": "As a gnome mage beginning your journey in exile, your trainer urges you to focus on your studies and stay away from Gnomeregan, your lost homeland."
   }
  ],
  "keywords": [
@@ -77,5 +77,5 @@
   "Glyphic Memorandum",
   "Glyphic Memorandum (quest)"
  ],
- "style": 1
+ "style": 2
 }

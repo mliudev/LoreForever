@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Longshore"
  },
- "summary": "Along Westfall’s western edge, Longshore’s broad sands are claimed by hostile murlocs and broken ships.",
+ "summary": "Murlocs command the surf at Longshore, where broken ships lie beneath the waves.",
  "sections": [
   {
    "title": "A Treacherous Coastline",
-   "body": "Longshore runs along Westfall’s western coast, a wide stretch of unbroken sand. Travelers find little peace there. Murlocs dominate the surf, with Old Murk-Eye among the feared leaders, and sunken ships, including ruined elven destroyers, lie in the shallows. Near the south, Daphne Stilwell’s isolated farm faces Defias bandits. Across the water, the Westfall Lighthouse stands within sight.",
+   "body": "Along Westfall’s western coast, Longshore stretches wide with unbroken sand. Travelers find little peace here. Murlocs rule the surf, and Old Murk-Eye is among their feared leaders. Sunken ships, including ruined elven destroyers, lie in the shallows.\n\nNear the south, Daphne Stilwell’s isolated farm faces Defias bandits. Across the water, you can see the Westfall Lighthouse.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "longshore hazards",
     "is longshore safe"
    ],
-   "answer": "Aggressive murloc tribes roam the shore and ambush those who stray near the surf. Defias bandits also raid homesteads at the beach’s southern end."
+   "answer": "Aggressive murloc tribes roam Longshore and ambush those who stray near the surf. Defias bandits also raid homesteads at the beach’s southern end."
   },
   {
    "q": "Who is Daphne Stilwell?",
@@ -86,5 +86,5 @@
  "attribution": [
   "Longshore"
  ],
- "style": 1
+ "style": 2
 }

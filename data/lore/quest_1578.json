@@ -17,16 +17,16 @@
   "wiki": "Supplying the Front",
   "chain": []
  },
- "summary": "Ironforge sends smiths to help supply the Mountaineers in Loch Modan. Tormus Deepforge asks apprentices to forge weapons and armor for the defenders facing trogg attacks.",
+ "summary": "In Loch Modan, Mountaineers need fresh arms as trogg attacks threaten their defenses. Tormus Deepforge sends apprentice smiths east to supply them.",
  "sections": [
   {
    "title": "Arming the Mountaineers",
-   "body": "Tormus Deepforge watches Khaz Modan’s borders from the forges of Ironforge. The Mountaineers in Loch Modan face sudden trogg attacks from ruins and caverns opened by excavation. Their defensive lines need fresh blades, belts, and fittings, so local smiths help keep them supplied.",
+   "body": "Excavations have opened ruins and caverns across the border. Troggs now strike the Mountaineers without warning. Their lines need fresh blades, belts, and fittings to hold against the attacks.",
    "spoiler": 0
   },
   {
    "title": "The Deepforge Kinship",
-   "body": "Tormus sends apprentices east to Loch Modan so veteran smiths can stay at the city forges. His colleague Thorvald Deepforge keeps a field armory in the southern guard tower. Bringing Thorvald sturdy copper axes and copper chain belts helps prove a smith’s reliability and earns advanced smithing techniques.",
+   "body": "Tormus sends apprentices east while veteran smiths stay at Ironforge’s city forges. His colleague Thorvald Deepforge keeps a field armory in the southern guard tower. There, sturdy copper axes and copper chain belts prove a smith’s reliability and earn advanced smithing techniques.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "quest starter",
     "blacksmith quest requirements"
    ],
-   "answer": "Tormus Deepforge, a blacksmith in Ironforge’s Great Forge, offers this work to apprentice smiths with a skill level of at least thirty. You need to craft six copper axes and six copper chain belts."
+   "answer": "Tormus Deepforge, a blacksmith in Ironforge’s Great Forge, offers this work to apprentice smiths with a skill of at least thirty. You need to craft six copper axes and six copper chain belts."
   },
   {
    "q": "Where is Thorvald Deepforge located?",
@@ -47,7 +47,7 @@
     "thorvald location",
     "southern guard tower loch modan"
    ],
-   "answer": "Thorvald Deepforge is inside Loch Modan’s southern guard tower. Follow the main road south past Thelsamar toward the Badlands border, where the tower stands beside the mountain pass."
+   "answer": "Thorvald Deepforge is inside Loch Modan’s southern guard tower. Follow the main road south past Thelsamar toward the Badlands border. The tower stands beside the mountain pass."
   },
   {
    "q": "Why do the Mountaineers need so many copper supplies?",
@@ -63,7 +63,7 @@
     "are thorvald and tormus related",
     "tormus colleague"
    ],
-   "answer": "Tormus calls Thorvald his colleague. They share the Deepforge clan name and work together to connect Ironforge’s smithing strength with field defenses."
+   "answer": "Tormus calls Thorvald his colleague. They share the Deepforge clan name and join Ironforge’s smithing strength to field defenses."
   },
   {
    "q": "What kind of reward does Thorvald offer?",
@@ -79,7 +79,7 @@
     "why are troggs attacking",
     "trogg problem loch modan"
    ],
-   "answer": "Dwarven excavations have opened subterranean vaults and hollows across Khaz Modan. The work accidentally awakened and unearthed swarms of aggressive troggs, which now threaten nearby settlements and watchtowers."
+   "answer": "Dwarven excavations have opened subterranean vaults and hollows across Khaz Modan. The work accidentally awakened and unearthed swarms of aggressive troggs. They now threaten nearby settlements and watchtowers."
   }
  ],
  "angles": [
@@ -119,5 +119,5 @@
  "attribution": [
   "Supplying the Front"
  ],
- "style": 1
+ "style": 2
 }

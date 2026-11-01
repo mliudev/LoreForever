@@ -10,16 +10,16 @@
    "quest:4513"
   ]
  },
- "summary": "In Ironforge, Laris Geardawdle studies how corruption changes living matter. A Filled Pure Sample Jar holds primordial ooze gathered from the remote wilds, giving him an uncorrupted specimen for comparison.",
+ "summary": "In Ironforge, Laris Geardawdle studies how corruption changes living matter. A Filled Pure Sample Jar holds primordial ooze from the remote wilds, giving him a clean specimen for comparison.",
  "sections": [
   {
    "title": "A Search for Uncorrupted Slime",
-   "body": "Laris Geardawdle studies oozes across Azeroth and how corruption changes living matter. He found that these shapeless creatures absorb and reflect the magic and conditions of their homes. After cataloging tainted slimes in Felwood, he sought a clean sample to compare with them. A Filled Pure Sample Jar holds primordial ooze gathered from the wilds of Un'Goro Crater, where it can be studied apart from corrupted strains.",
+   "body": "Laris Geardawdle studies oozes across Azeroth and how corruption changes living matter. He found that these shapeless creatures absorb the magic and conditions of their homes, then reflect them. After cataloging tainted slimes in Felwood, he sought a clean sample for comparison. A Filled Pure Sample Jar holds primordial ooze gathered from the wilds of Un'Goro Crater, away from corrupted strains.",
    "spoiler": 0
   },
   {
    "title": "Primordial Ecology",
-   "body": "Oozes change readily, so Laris cannot find pure samples near civilization, demonic blights, or necromantic fallout. The glutinous oozes of Un'Goro Crater's untamed basin remain relatively isolated from outside corruption, making them a useful standard for scholars in Ironforge.",
+   "body": "Oozes change readily, so Laris cannot find pure samples near civilization, demonic blights, or necromantic fallout. The glutinous oozes of Un'Goro Crater's untamed basin remain relatively isolated from outside corruption. That makes them a useful standard for scholars in Ironforge.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "who needs filled pure sample jar",
     "who wants the jars"
    ],
-   "answer": "Laris Geardawdle, a gnomish researcher in Ironforge, seeks pure samples for his study of Azeroth's ooze populations."
+   "answer": "Laris Geardawdle, a gnomish researcher in Ironforge, seeks pure samples to study Azeroth's ooze populations."
   },
   {
    "q": "Why does Laris need pure ooze instead of tainted ooze?",
@@ -40,7 +40,7 @@
     "why pure sample",
     "slime study purpose"
    ],
-   "answer": "Laris found that slimes quickly absorb properties of their surroundings, including Felwood's demonic rot. He needs uncorrupted samples to compare against tainted ooze and understand both the extent and the mechanism of corruption."
+   "answer": "Laris found that slimes quickly absorb properties of their surroundings, including Felwood's demonic rot. He needs uncorrupted samples to compare with tainted ooze and understand how far corruption reaches and how it works."
   },
   {
    "q": "Where can pure ooze samples be collected?",
@@ -57,13 +57,13 @@
     "quest reward laris",
     "what does laris do with them"
    ],
-   "answer": "Laris uses the samples to test how oozes adapt and withstand their environment. He rewards adventurers who brave hazardous wilds to bring them to Ironforge."
+   "answer": "Laris uses the samples to test how oozes adapt to and withstand their environment. He rewards adventurers who brave hazardous wilds to bring them to Ironforge."
   }
  ],
  "angles": [
   {
    "target": "race:Gnome",
-   "text": "As a gnome, you can see how comparing Felwood's tainted slimes with pure Un'Goro specimens helps scholars study living matter through careful observation."
+   "text": "As a gnome, you can help scholars study living matter by comparing Felwood's tainted slimes with pure Un'Goro specimens."
   },
   {
    "target": "faction:Alliance",
@@ -91,5 +91,5 @@
   "Filled Pure Sample Jar",
   "A Little Slime Goes a Long Way (2)"
  ],
- "style": 1
+ "style": 2
 }

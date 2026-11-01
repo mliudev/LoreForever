@@ -20,16 +20,16 @@
    "Stormpike's Delivery"
   ]
  },
- "summary": "Smith Argus sends you from Goldshire to Stormwind to help Grimand Elmore. The dwarven weaponsmith needs help with a delivery bound for his kin in Khaz Modan, and Argus trusts you to make the journey.",
+ "summary": "Smith Argus sends you from Goldshire to Stormwind, where Grimand Elmore awaits help with a delivery. The weaponsmith needs it carried to his kin in Khaz Modan, and Argus trusts you with the road ahead.",
  "sections": [
   {
    "title": "A Word from the Forge",
-   "body": "In Goldshire, blacksmith Smith Argus watches for travelers he can trust with work beyond clearing wolves and kobolds. Grimand Elmore, a skilled dwarven weaponsmith in Stormwind, has asked for help with a delivery to his kin in Khaz Modan. Argus sees you as fit for the journey and sends you toward the city gates to answer Elmore's call.",
+   "body": "Smith Argus watches for travelers he can trust with work beyond wolves and kobolds. Grimand Elmore has sent word from Stormwind and asks for help carrying a delivery to his kin in Khaz Modan. The city gates open the way to Elmore's call.",
    "spoiler": 0
   },
   {
    "title": "The Ties That Bind",
-   "body": "Stormwind and Ironforge depend on open trade and goodwill to keep both realms supplied and united. Argus says Elwynn Forest needs defenders, but honoring promises to the dwarves matters too. In northeastern Stormwind, the Dwarven District leads you to Elmore's shop, where a journey beyond the forest begins.",
+   "body": "Stormwind and Ironforge rely on open trade and goodwill to keep both realms supplied and united. Argus says Elwynn Forest needs defenders, yet promises to the dwarves matter too. In northeastern Stormwind, the Dwarven District leads you to Elmore's shop. There, a journey beyond the forest begins.",
    "spoiler": 0
   }
  ],
@@ -50,7 +50,7 @@
     "where is grimand elmore",
     "find elmore stormwind"
    ],
-   "answer": "Grimand Elmore works in a weapon shop in the northeastern Dwarven District of Stormwind."
+   "answer": "Grimand Elmore works in a weapon shop in Stormwind's northeastern Dwarven District."
   },
   {
    "q": "What is the purpose of this task?",
@@ -59,7 +59,7 @@
     "elmore's task purpose",
     "what does elmore want"
    ],
-   "answer": "Argus sends you to Elmore, who needs a trustworthy courier to carry a delivery north to his homeland. The journey takes you beyond Elwynn and through Alliance lands."
+   "answer": "Argus sends you to Elmore, who needs a trustworthy courier to carry a delivery north to his homeland. The journey leads beyond Elwynn and through Alliance lands."
   },
   {
    "q": "What quest follows Elmore's Task?",
@@ -68,7 +68,7 @@
     "followup to elmore's task",
     "what comes after elmore's task"
    ],
-   "answer": "Speaking with Grimand Elmore completes the errand and opens Stormpike's Delivery, which asks you to carry his shipment north to Loch Modan."
+   "answer": "Speaking with Grimand Elmore completes the errand and opens Stormpike's Delivery. You are asked to carry his shipment north to Loch Modan."
   },
   {
    "q": "Why does Smith Argus care about dwarven deliveries?",
@@ -76,7 +76,7 @@
     "why does argus help dwarves",
     "smith argus dwarven ties"
    ],
-   "answer": "Argus says strong trade ties with the dwarves of Khaz Modan help protect Stormwind and keep its supplies moving, even as Elwynn needs defenders."
+   "answer": "Argus says strong trade ties with the dwarves of Khaz Modan help protect Stormwind and keep supplies moving, even as Elwynn needs defenders."
   },
   {
    "q": "Do you need to be a blacksmith to take this quest?",
@@ -84,7 +84,7 @@
     "is elmore's task blacksmith only",
     "blacksmithing required elmore task"
    ],
-   "answer": "No. Any Alliance traveler ready to go to Stormwind can take the delivery, whether or not they know blacksmithing."
+   "answer": "No. Any Alliance traveler ready to go to Stormwind can carry the delivery, whether or not they know blacksmithing."
   }
  ],
  "angles": [
@@ -120,5 +120,5 @@
  "attribution": [
   "Elmore's Task"
  ],
- "style": 1
+ "style": 2
 }

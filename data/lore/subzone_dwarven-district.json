@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Dwarven District"
  },
- "summary": "Dwarven craftsmen keep their furnaces and workshops working in Stormwind's northern quarter. The district brings a piece of Khaz Modan to the human capital, with the Deeprun Tram linking it to Ironforge.",
+ "summary": "In Stormwind's northern quarter, Dwarven craftsmen keep their furnaces and workshops at work. The Deeprun Tram links their home to Ironforge.",
  "sections": [
   {
    "title": "A Home Away from Khaz Modan",
-   "body": "Dwarven artisans, smiths, and engineers make their home in Stormwind's northern quarter. Heavy stonework, smelting works, and craft shops recall Ironforge. At Potts' Plates, craftspeople from Khaz Modan find familiar company. On the district's eastern side, an open, arched tunnel leads to the Stormwind station of the Deeprun Tram, linking the human capital directly to Ironforge.",
+   "body": "Dwarven artisans, smiths, and engineers make their home in Stormwind's northern quarter. Its heavy stonework, smelting works, and craft shops recall Ironforge. At Potts' Plates, craftspeople from Khaz Modan find familiar company.\n\nOn the district's eastern side, an open, arched tunnel leads to the Stormwind station of the Deeprun Tram. The tram links the human capital directly to Ironforge.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "dwarf area origin",
     "why is it called dwarven district"
    ],
-   "answer": "The chronicles of this era do not record how the enclave began. Today, dwarven smiths, miners, and engineers fill its forges and workshops, while the Deeprun Tram links the quarter directly to Ironforge."
+   "answer": "No chronicle records how the dwarven enclave began. Today, its smiths, miners, and engineers fill the forges and workshops, while the Deeprun Tram links the quarter directly to Ironforge."
   },
   {
    "q": "How do you get to Ironforge from here?",
@@ -32,7 +32,7 @@
     "where is the tram",
     "deeprun tram entrance"
    ],
-   "answer": "On the district's eastern side, an open, arched tunnel leads directly to the Deeprun Tram station. The underground route carries travelers between Stormwind and Ironforge within minutes."
+   "answer": "On the district's eastern side, an open, arched tunnel leads to the Deeprun Tram station. The underground route carries travelers between Stormwind and Ironforge within minutes."
   },
   {
    "q": "What professions are trained in the Dwarven District?",
@@ -41,7 +41,7 @@
     "trainers in dwarven district",
     "blacksmith trainer stormwind"
    ],
-   "answer": "The Dwarven District is Stormwind's premier hub for mining, blacksmithing, and engineering. Heavy forges, anvils, and dedicated trainers support all three crafts."
+   "answer": "Mining, blacksmithing, and engineering are taught in the Dwarven District. Heavy forges, anvils, and dedicated trainers support all three crafts."
   },
   {
    "q": "Where can hunters train in Stormwind?",
@@ -56,11 +56,11 @@
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "As a dwarf far from Khaz Modan, you can find familiar comfort in the roar of working blast furnaces and quick passage back to Ironforge."
+   "text": "As a dwarf far from Khaz Modan, you can find familiar comfort in the roar of working blast furnaces and a quick passage back to Ironforge."
   },
   {
    "target": "profession:Blacksmithing",
-   "text": "As a blacksmith, you can use Stormwind's most capable smithing facilities, with expansive smelting forges, sturdy anvils, and veteran instructors."
+   "text": "As a blacksmith, you can use Stormwind's capable smithing facilities, with expansive smelting forges, sturdy anvils, and veteran instructors."
   }
  ],
  "keywords": [
@@ -82,5 +82,5 @@
  "attribution": [
   "Dwarven District"
  ],
- "style": 1
+ "style": 2
 }

@@ -17,21 +17,21 @@
   "wiki": "Gyrodrillmatic Excavationators",
   "chain": []
  },
- "summary": "In Stormwind's Dwarven District, Shoni the Shilent prepares a fleet of tunneling machines for Dun Morogh. Short on parts, she sends you into Gnomeregan to salvage them from rogue automatons.",
+ "summary": "In Stormwind's Dwarven District, Shoni the Shilent readies tunneling machines for Dun Morogh. Short on parts, she sends you into Gnomeregan to salvage them from rogue automatons.",
  "sections": [
   {
    "title": "A Fleet in Need of Guts",
-   "body": "In Stormwind's Dwarven District, Shoni the Shilent prepares a fleet of gyrodrillmatic excavationators for Dun Morogh. Gnomish engineers there support their displaced kin, and Shoni's machines are meant to carry people and supplies underground. The massive rigs cannot work without the mechanical parts she still lacks.",
+   "body": "In Stormwind's Dwarven District, Shoni the Shilent prepares gyrodrillmatic excavationators for Dun Morogh. Gnomish engineers there aid their displaced kin. The machines will carry people and supplies underground, but these massive rigs cannot work without the mechanical parts Shoni lacks.",
    "spoiler": 0
   },
   {
    "title": "Salvage in the Fallen City",
-   "body": "Gnomeregan was the source of gnomish high technology, and its ruined halls and surrounding tunnels still hold machines worth salvaging. Malfunctioning defense bots, mechanical sentries, and clockwork laborers roam unchecked. Shoni sends you into the fallen city to gather two dozen bundles of robo-mechanical guts and bring them back to human lands.",
+   "body": "Gnomeregan once supplied gnomish high technology. Its ruined halls and nearby tunnels still hold machines worth salvaging, though malfunctioning defense bots, mechanical sentries, and clockwork laborers roam unchecked. Shoni sends you into the fallen city for two dozen bundles of robo-mechanical guts, to bring back to human lands.",
    "spoiler": 0
   },
   {
    "title": "A Monumental Undertaking",
-   "body": "Two dozen bundles of mechanical guts provide enough scrap to repair one excavationator. Shoni still has nearly four hundred machines to prepare, so mass subterranean transport remains a slow undertaking. Each functioning machine is a small step toward regaining ground lost in Gnomeregan's fall.",
+   "body": "Two dozen bundles of mechanical guts provide enough scrap to repair one excavationator. Shoni still has nearly four hundred machines to prepare, so mass transport underground remains a slow undertaking. Each working machine is a small step toward regaining ground lost in Gnomeregan's fall.",
    "spoiler": 0
   }
  ],
@@ -43,7 +43,7 @@
     "what is excavationator",
     "gnome drill"
    ],
-   "answer": "A gyrodrillmatic excavationator is a heavy gnomish tunneling rig, also called a mole machine, built for digging and transport underground. Shoni the Shilent is preparing a fleet to move people or supplies to Dun Morogh."
+   "answer": "A gyrodrillmatic excavationator is a heavy gnomish tunneling rig, also called a mole machine, built to dig and carry people or supplies underground. Shoni the Shilent is preparing a fleet to serve Dun Morogh."
   },
   {
    "q": "Who is Shoni the Shilent?",
@@ -61,7 +61,7 @@
     "why robot guts",
     "gnomeregan salvage"
    ],
-   "answer": "Gnomeregan was the source of gnomish high technology, and its fallen halls hold haywire automatons, clockwork servitors, and defensive mechs. With the city's manufacturing supply lines severed, these rogue machines offer compatible gnomish spare parts."
+   "answer": "Gnomeregan once supplied gnomish high technology, and its fallen halls hold haywire automatons, clockwork servitors, and defensive mechs. The city's manufacturing supply lines are severed, so these rogue machines offer compatible gnomish spare parts."
   },
   {
    "q": "Where are the Robo-Mechanical Guts found?",
@@ -94,7 +94,7 @@
  "angles": [
   {
    "target": "race:Gnome",
-   "text": "As a gnome, every salvaged component brings Shoni's subterranean fleet closer to working order. The dream of reclamation and industrial recovery lives on from Stormwind."
+   "text": "As a gnome, each salvaged component brings Shoni's underground fleet closer to working order. From Stormwind, the dream of reclamation and industrial recovery lives on."
   },
   {
    "target": "profession:Engineering",
@@ -102,7 +102,7 @@
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance member, supporting gnomish excavation from Stormwind strengthens ties between the human hosts and exiled survivors working to reclaim their heritage."
+   "text": "As an Alliance member, helping gnomes prepare excavation machines in Stormwind strengthens ties between their human hosts and the exiled survivors working to reclaim their heritage."
   }
  ],
  "keywords": [
@@ -124,5 +124,5 @@
  "attribution": [
   "Gyrodrillmatic Excavationators"
  ],
- "style": 1
+ "style": 2
 }

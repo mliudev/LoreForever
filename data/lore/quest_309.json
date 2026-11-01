@@ -17,16 +17,16 @@
   "wiki": "Protecting the Shipment (Classic)",
   "chain": []
  },
- "summary": "In southern Loch Modan, Miran carries blasting powder toward Ironband's Excavation Site. Prospector Ironband needs it to keep his dig moving, but the road is dangerous.",
+ "summary": "In southern Loch Modan, Miran carries blasting powder toward Ironband's Excavation Site. Prospector Ironband needs it for his dig, but failed supply lines and threats to the courier wagons have left Miran stranded.",
  "sections": [
   {
    "title": "A Powder Run in Peril",
-   "body": "Prospector Ironband's dig in the hills of southern Loch Modan needs blasting powder to cut through stone. Supply lines have failed, and threats to the courier wagons leave Miran stranded on the road with a heavy load. You guide him along the uneven roads to the excavation site, where the powder can keep Ironband's work from stalling.",
+   "body": "Prospector Ironband needs blasting powder to cut through stone at his dig. Miran is stranded on the road under threat, carrying a heavy load. You guide him along the uneven roads to the excavation site so the powder can reach the dig.",
    "spoiler": 0
   },
   {
    "title": "Dark Iron Sympathizers",
-   "body": "Dark Iron infiltrators wait near the excavation site to seize the explosive cargo. Their ambush reveals that Dark Iron forces are securing illicit materials and sowing discord in Loch Modan. The delivery keeps the dig going, but Ironband now knows enemy sabotage reaches into Alliance territory.",
+   "body": "Dark Iron infiltrators wait near the excavation site to seize the explosive cargo. Their ambush shows that Dark Iron forces are securing illicit materials and sowing discord in Loch Modan. The delivery keeps the dig going, but Ironband now knows enemy sabotage reaches into Alliance territory.",
    "spoiler": 1
   }
  ],
@@ -119,5 +119,5 @@
  "attribution": [
   "Protecting the Shipment (Classic)"
  ],
- "style": 1
+ "style": 2
 }

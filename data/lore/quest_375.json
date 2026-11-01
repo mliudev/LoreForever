@@ -12,16 +12,16 @@
   "harvested": true,
   "level": "8"
  },
- "summary": "In the town of Brill, a Forsaken tailor named Gretchen Dedmar struggles against the creeping cold of mortality and decay. Fearing that the encroaching mindless state will rob her of the ability to serve Lady Sylvanas, she asks for simple materials to sew herself a warm blanket.",
+ "summary": "In Brill, The Chill of Death weighs on Gretchen Dedmar as she fights the cold of undeath. The Forsaken tailor fears losing her mind and her service to Lady Sylvanas, so she asks for materials to sew a warm blanket.",
  "sections": [
   {
    "title": "A Creeping Frost",
-   "body": "For the Forsaken, undeath is not a static condition of eternal preservation. As Gretchen Dedmar describes, the lingering Plague of Undeath runs through her body like an icy serpent, draining the warmth from her limbs and threatening to pull her into the mindless state that afflicts so many wandering corpses in Tirisfal Glades. Her shivering hands make ordinary work nearly impossible.",
+   "body": "Gretchen Dedmar feels the Plague of Undeath like an icy serpent moving through her body. The chill drains warmth from her limbs and threatens to leave her mindless, like the wandering corpses in Tirisfal Glades. Her shaking hands make even ordinary work difficult.",
    "spoiler": 0
   },
   {
    "title": "Service to the Dark Lady",
-   "body": "Despite her failing strength, Gretchen refuses to abandon her duty to the Forsaken kingdom. When Sylvanas Windrunner first rallied the liberated dead, Gretchen contributed by sewing burial shrouds and body bags for fallen soldiers. By gathering sturdy duskbat pelts and coarse thread, travelers help keep her hands steady enough to craft a blanket and prolong her useful service to the Forsaken cause.",
+   "body": "Gretchen will not abandon her duty to the Forsaken kingdom. When Sylvanas Windrunner first rallied the liberated dead, Gretchen sewed burial shrouds and body bags for fallen soldiers. Sturdy duskbat pelts and coarse thread can help her make a blanket. Its warmth may steady her hands enough to keep serving the Forsaken cause.",
    "spoiler": 0
   }
  ],
@@ -33,7 +33,7 @@
     "who is gretchen",
     "brill tailor questgiver"
    ],
-   "answer": "Gretchen Dedmar is a Forsaken woman residing in Brill. She previously contributed to the nascent Forsaken war effort by stitching body bags for Lady Sylvanas's fallen troops."
+   "answer": "Gretchen Dedmar is a Forsaken tailor who lives in Brill. She once sewed body bags for Lady Sylvanas's fallen troops."
   },
   {
    "q": "What is the 'Mindless State' Gretchen fears?",
@@ -42,7 +42,7 @@
     "why is gretchen losing her mind",
     "forsaken becoming mindless"
    ],
-   "answer": "The mindless state refers to the mental and physical decay that overtakes some undead when the remaining will and necrotic energies fail, leaving them as feral, shambling creatures like those wandering outside Brill and Deathknell."
+   "answer": "The mindless state is the mental and physical decay that overtakes some undead when their will and necrotic energies fail. They become feral, shambling creatures like those wandering outside Brill and Deathknell."
   },
   {
    "q": "Why does Gretchen feel cold if she is dead?",
@@ -51,7 +51,7 @@
     "why are undead cold",
     "chill of death meaning"
    ],
-   "answer": "While undead bodies lack living circulation, Gretchen perceives the creeping plague within her veins as an overwhelming, freezing chill that stiffens her joints and leaves her hands shaking."
+   "answer": "Gretchen feels the plague in her veins as a freezing chill. It stiffens her joints and leaves her hands shaking, though she is undead."
   },
   {
    "q": "Why does she need duskbat pelts and thread?",
@@ -59,7 +59,7 @@
     "why duskbat pelts",
     "what is the blanket for"
    ],
-   "answer": "Gretchen needs five duskbat pelts and coarse thread to sew herself a thick blanket. She hopes the added warmth will keep her shivering hands functional so she can continue working."
+   "answer": "Gretchen needs five duskbat pelts and coarse thread to sew a thick blanket. She hopes its warmth will steady her hands so she can keep working."
   },
   {
    "q": "Where can duskbats be found?",
@@ -67,7 +67,7 @@
     "where are duskbats",
     "duskbat pelt location"
    ],
-   "answer": "Duskbats roost throughout the woods and open glades surrounding Brill and northern Tirisfal."
+   "answer": "Duskbats roost in the woods and open glades around Brill and northern Tirisfal."
   },
   {
    "q": "Does this quest connect to any other duties in Brill?",
@@ -75,17 +75,17 @@
     "chill of death follow up",
     "gretchen dedmar chain"
    ],
-   "answer": "It is a standalone task of aid for a struggling resident of Brill, demonstrating the quiet, personal struggles among the newly liberated Forsaken."
+   "answer": "Gretchen's need for aid is a concern of her own among Brill's residents. It shows the quiet, personal struggles of the newly liberated Forsaken."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "Gretchen's struggle is a grim reminder for all Forsaken that liberation from the Lich King does not protect against physical rot and the ever-present threat of mindlessness."
+   "text": "As a Forsaken, Gretchen's struggle reminds you that freedom from the Lich King does not stop physical rot or the threat of mindlessness."
   },
   {
    "target": "profession:Tailoring",
-   "text": "Gretchen relies on humble needlecraft, having stitched body bags for Sylvanas's army before turning her needle toward a simple pelt blanket."
+   "text": "As a tailor, you can see how Gretchen's needlework has changed from sewing body bags for Sylvanas's army to making a blanket from pelts."
   }
  ],
  "keywords": [
@@ -106,5 +106,6 @@
  "attribution": [
   "In-game quest text: The Chill of Death",
   "The Chill of Death (Classic)"
- ]
+ ],
+ "style": 2
 }

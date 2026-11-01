@@ -8,16 +8,16 @@
   "wiki": "Tiza Battleforge",
   "refs": 4
  },
- "summary": "In Ironforge, Tiza Battleforge guides young dwarven paladins in the Hall of Mysteries. She teaches that the Light calls for virtue, charity, and self-sacrifice, and tests initiates before they may wield its gift of resurrection.",
+ "summary": "In Ironforge, Tiza Battleforge guides young paladins through the ways of the Holy Light. She teaches virtue, charity, and self-sacrifice, then tests initiates before they may wield its gift of resurrection.",
  "sections": [
   {
    "title": "Mentor of the Mystic Ward",
-   "body": "Tiza Battleforge guides paladins in Ironforge's Hall of Mysteries. Across the Alliance, tutors send initiates to her for deeper spiritual study. Brandur Ironhammer sends them from Ironforge, Azar Stronghammer from Dun Morogh, and Lord Grayson Shadowbreaker from Stormwind. Tiza teaches that the Holy Light asks more than martial skill. Its servants must offer humble service, show compassion, and stand firm against the Scourge and other threats.",
+   "body": "Tiza Battleforge guides paladins in Ironforge's Hall of Mysteries. Tutors across the Alliance send initiates to her for deeper study of the Light. Brandur Ironhammer sends them from Ironforge, Azar Stronghammer from Dun Morogh, and Lord Grayson Shadowbreaker from Stormwind.\n\nTiza teaches that the Holy Light asks more than skill in battle. Its servants must offer humble service, show compassion, and stand firm against the Scourge and other threats.",
    "spoiler": 0
   },
   {
    "title": "The Trials of Divinity",
-   "body": "Tiza gives young paladins the Tome of Divinity to study. Then she sends them to offer charity, beginning with those in humble need, such as John Turner. She next tests their faith and skill by asking them to aid her husband, Muiredon Battleforge, against the Dark Iron dwarves. Initiates who pass these trials and revive fallen allies with the Symbol of Life earn Tiza's trust to wield the sacred art of resurrection.",
+   "body": "Tiza gives young paladins the Tome of Divinity to study. Then she sends them to offer charity, beginning with those in humble need, such as John Turner. Next, she tests their faith and skill by asking them to aid her husband, Muiredon Battleforge, against the Dark Iron dwarves.\n\nThose who pass these trials and use the Symbol of Life to revive fallen allies earn Tiza's trust. Then they may wield the sacred art of resurrection.",
    "spoiler": 1
   }
  ],
@@ -56,7 +56,7 @@
     "muiredon battleforge connection",
     "why help muiredon"
    ],
-   "answer": "Tiza sends paladins to help her husband, Muiredon Battleforge, who faces Dark Iron dwarves while assisting his companion Narm Faulk. The danger tests their bravery and readiness to use the Symbol of Life to revive fallen comrades."
+   "answer": "Tiza sends paladins to aid her husband, Muiredon Battleforge, against Dark Iron dwarves while he assists his companion Narm Faulk. The danger tests their bravery and readiness to use the Symbol of Life to revive fallen comrades."
   },
   {
    "q": "What ability does Tiza teach worthy paladins?",
@@ -65,7 +65,7 @@
     "what spell does tiza teach",
     "resurrection paladin trainer ironforge"
    ],
-   "answer": "Tiza teaches worthy paladins Redemption, the sacred rite of resurrection, after they complete her charity trials and rescue Muiredon's fallen comrade."
+   "answer": "After worthy paladins complete her charity trials and rescue Muiredon's fallen comrade, Tiza teaches them Redemption, the sacred rite of resurrection."
   },
   {
    "q": "What is her connection to Brandur Ironhammer?",
@@ -116,5 +116,5 @@
  "attribution": [
   "Tiza Battleforge"
  ],
- "style": 1
+ "style": 2
 }

@@ -11,11 +11,11 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "A customer requests a Colorful Kilt through a transferable writ. The garment is meant to help the customer blend in at Zul'Gurub.",
+ "summary": "A customer seeks a disguise for slipping into Zul'Gurub, and Craftsman's Writ: Colorful Kilt names the garment they want.",
  "sections": [
   {
    "title": "A disguise",
-   "body": "The writ asks you to provide one Colorful Kilt and bring it to the marked location. The customer plans to sneak through Zul'Gurub's gates dressed like one of its ritualists, and says the kilt suits that disguise.",
+   "body": "The transferable writ asks you to bring one Colorful Kilt to the marked location. The customer plans to pass through Zul'Gurub's gates dressed as one of its ritualists, and says the kilt suits the disguise.",
    "spoiler": 0
   }
  ],
@@ -34,7 +34,7 @@
     "why kilt",
     "kilt disguise"
    ],
-   "answer": "The customer plans to sneak into Zul'Gurub dressed like one of its ritualists and says the kilt will help."
+   "answer": "The customer plans to sneak into Zul'Gurub dressed as one of its ritualists and says the kilt will help."
   },
   {
    "q": "Can I transfer this writ?",
@@ -65,7 +65,7 @@
  "related": [
   "subzone:zul-gurub"
  ],
- "style": 1,
+ "style": 2,
  "attribution": [
   "In-game quest text: Craftsman's Writ: Colorful Kilt"
  ]
